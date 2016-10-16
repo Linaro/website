@@ -6,3 +6,7 @@ The direction of Linaro is determined by its [board of directors](http://www.lin
 - [Segment Groups](Linaro.org/groups/README.md)
 - [Lead Projects](Linaro.org/projects/README.md)
 - [Initiatives](Linaro.org/initiatives/README.md)
+
+***
+
+[Edit this page on Github](https://github.com/Linaro/website/blob/master/README.md)
