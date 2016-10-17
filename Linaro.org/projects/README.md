@@ -15,4 +15,3 @@ Linaro is a large engineering organization with many complex projects that map a
 
 ***
 
-[<<< Back](../../README.md)
