@@ -11,7 +11,7 @@ Linaro is a large engineering organization with many complex projects that map a
 - [Open Source ARM Tools](opensource-ARM-tools/README.md)
 - [Open Source Security](opensource-security/README.md)
 - [OpenDataPlane](opendataplane/README.md)
-- [Reference Software Platform](RSP/README.md)
+- [Reference Platform](reference-platform/README.md)
 
 ***
 
