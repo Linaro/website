@@ -24,11 +24,11 @@ Developer feedback is team-specific and involves mapping the raw results to a re
 
 Linaro has developed an automated testing system called LAVA (Linaro Automated Validation Architecture) which delivers the device automation and result collection. The software for this system is open source and can be recreated by following the [documentation](https://validation.linaro.org/static/docs/). Examples of the installation of the LAVA software and the Linaro LAB setup are included below.
 
-[![Linaro validation team use LAVA for native toolchain builds and hack sessions](http://img.youtube.com/vi/zTPmypG7b08/0.jpg)](http://www.youtube.com/watch?v=zTPmypG7b08)
-
-
 The LAVA software includes the lava-server component to schedule jobs, administer device configurations and store results.  The dispatcher component supports processing test jobs that can deploy Debian, Ubuntu, Open Embedded and Android images on supported development boards. Generic support can be extended and customised to support additional client types (development boards) and interface with external equipment. The LAVA software includes helpers that can provide a consistent interface to various Linux distributions. The LAVA Manual provides additional information including how to contribute and communicate with the LAVA Team. You can view the types of devices currently available in any instance of the LAVA software by viewing the main scheduler status page, e.g. for the Linaro production instance at [validation.linaro.org](https://validation.linaro.org/scheduler/).
 
 - [Introduction to LAVA](http://www.linaro.org/blog/community-blog/automated-validation-with-lava/)
 - [LAVA fundamentals](http://www.linaro.org/blog/lava-blog/lava-fundamentals/)
 - [LAVA Manual](https://validation.linaro.org/static/docs/)
+
+
+|[![LAVA Installation in Debian Jessie](http://img.youtube.com/vi/T8jFzXRrFh8/0.jpg)](http://www.youtube.com/watch?v=T8jFzXRrFh8)|[![Linaro validation team use LAVA for native toolchain builds and hack sessions](http://img.youtube.com/vi/zTPmypG7b08/0.jpg)](http://www.youtube.com/watch?v=zTPmypG7b08)|
