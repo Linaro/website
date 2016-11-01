@@ -1,4 +1,4 @@
-# Reference Digital Media for ARM
+# Reference Digital Media Platforms for ARM
 
 #### Summary:
 
