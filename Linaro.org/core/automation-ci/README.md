@@ -4,8 +4,8 @@ The Automation and Continuous Integration (CI) group at Linaro is responsible fo
 
 #### The group is solely responsible for two key lead projects and shares responsibility for a third:
 
-- LAVA
-- Kernel-CI
+- [LAVA](http://www.linaro.org/projects/lava/)
+- [Kernel-CI] (http://kernelci.org/)
 - Reference Platform Builds
 
 #### Activities within the group happen across four teams:
