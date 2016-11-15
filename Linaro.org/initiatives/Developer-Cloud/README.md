@@ -11,15 +11,17 @@ The Developer Cloud is based on OpenStack, leveraging both Debian and CentOS, as
 
 Accessing the Developer Cloud will be provided via the linaro.cloud web portal. Through the portal, developers can request cloud access and may report bugs and performance issues. The portal will also provide a developer forum to share development and porting knowledge, as well as best practices for ARM servers.
 
+For more information on Developer Cloud, visit our website: https://www.linaro.cloud/
+
 
 ### Objective
 
 The Developer Cloud allows users to implement, port and test server, cloud and IoT applications without substantial upfront hardware investment. Developers have access to popular development environments, such as Debian, CentOS, Ubuntu and RHEL.
 
 
-### Community Information (Links to external site such as collaborate, jira, github, documentation etc)
+### Community Information 
 
-Linaro is inviting individuals and companies interested in contributing to, sponsoring and making use of this service to contact us – please fill in the form on this page and we’ll get back to you. The Developer Cloud was announced at Linaro Connect BKK16 at the beginning of March 2016 and alpha testing has begun on a fully functional Linaro hosted Developer Cloud located in Cambridge, UK.
+Linaro is inviting individuals and companies interested in contributing to, sponsoring and making use of this service to contact us – please fill in the form on this page and we’ll get back to you. [The Developer Cloud](http://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/) was announced at Linaro Connect BKK16 at the beginning of March 2016 and alpha testing has begun on a fully functional Linaro hosted Developer Cloud located in Cambridge, UK.
 
 To access the Linaro Developer Cloud, please register here:
 
