@@ -4,11 +4,4 @@ When founded, Linaro engineering was divided into three functions: Platform, Lan
 
 These original groups still exist in today’s Linaro, but they have all grown and morphed and new groups have been added. While Mobile Middleware is now a part of the Linaro Mobile Group, Kernel Consolidation and Toolchain Evolution still exist as Core Working Groups and they have been joined by groups focused on Power Management, Security, Virtualization and the Linaro Stable Kernel (LSK)
 
-- [Automation & CI](automation-ci/README.md)
-- [Kernel](kernel/README.md)
-- [Power Management](power-management/README.md)
-- [Security](security/README.md)
-- [Toolchain](toolchain/README.md)
-- [Virtualization](virtualization/README.md)
-
 ***
