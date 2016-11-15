@@ -10,16 +10,16 @@ With the availability of low-cost ARMv8 hardware through 96Boards, there is now 
 
 ## Available ARMv8 Hardware
 
-* 96Boards DragonBoard 410c http://www.96boards.org/product/dragonboard410c/
-* 96Boards HiKey (LeMaker version) http://www.96boards.org/product/hikey/
-* 96Boards Bubblegum-96 http://www.96boards.org/product/bubblegum-96/
-* 96Boards Mediatek X20 http://www.96boards.org/product/mediatek-x20/
-* 96Boards Fujitsu F-Cue board (announced) http://www.fujitsu.com/jp/group/fei/en/resources/news/topics/2016/20161025.html
-* 96Boards Poplar TV board (pre-order) http://www.96boards.org/product/poplar/
-* 96Boards Cello board (pre-order) http://www.96boards.org/product/cello/
+* [96Boards DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
+* [96Boards HiKey (LeMaker version)](http://www.96boards.org/product/hikey/)
+* [96Boards Bubblegum-96](http://www.96boards.org/product/bubblegum-96/)
+* [96Boards Mediatek X20] (http://www.96boards.org/product/mediatek-x20/)
+* [96Boards Fujitsu F-Cue board (announced)](http://www.fujitsu.com/jp/group/fei/en/resources/news/topics/2016/20161025.html)
+* [96Boards Poplar TV board (pre-order)] (http://www.96boards.org/product/poplar/)
+* [96Boards Cello board (pre-order)] (http://www.96boards.org/product/cello/)
 * ARM [Juno development platform](http://www.arm.com/products/tools/development-boards/versatile-express/juno-arm-development-platform.php)
 * [Cavium Project Thunder](http://www.cavium.com/thundersdk_access_application.html)
 * [AMD 64-bit ARM Opteron Developer Kit](http://www.amd.com/en-us/press-releases/Pages/64-bit-developer-kit-2014jul30.aspx)
 * Applied Micro (APM) [X-C1 development kit](https://www.apm.com/products/data-center/x-gene-family/x-gene/)
 
-For more information about ARMv8, ARM provides an overview of the architecture, the AArch64 execution state and the A64 instruction set: http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php For a deep dive into ARMv8, the ARMv8-A Architecture Reference Manual is now publicly available from ARM: http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.a_errata1/index.html (Please note that free registration is required to be able to download)
+For more information about ARMv8, ARM provides an overview of the architecture, the AArch64 execution state and the A64 instruction set: [http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php) For a deep dive into ARMv8, the ARMv8-A Architecture Reference Manual is publicly available from ARM: [http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.a_errata1/index.html](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.a_errata1/index.html) (Please note that free registration is required to be able to download)
