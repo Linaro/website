@@ -6,5 +6,4 @@ This page contains direct links to the latest versions of the most popular downl
 * [Click here for past releases](http://www.linaro.org/downloads/historic/)
 
 # [Linaro Member Builds](https://support.linaro.org/home#BB-lmb)
-LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](https://www.linaro.org/members/) company.#
-
+LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](https://www.linaro.org/members/) company.
