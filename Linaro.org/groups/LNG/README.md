@@ -14,3 +14,6 @@ The portfolio, investment direction, themes, initiatives and value streams for L
 - http://opendataplane.org/
 - https://wiki.linaro.org/LNG
 - https://collaborate.linaro.org/display/LNG/Introduction+to+LNG
+
+****
+[Edit on Github](https://github.com/Linaro/website/blob/master/Linaro.org/groups/LNG/README.md)
