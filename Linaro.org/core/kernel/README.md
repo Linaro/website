@@ -1,5 +1,7 @@
 # Kernel
 
+The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple ARM SoCs and ARM-based platforms.
+
 The Kernel Working Group has been at the center of Linaro’s engineering work right from the beginning. The code churn created by multiple companies and individuals trying to upstream essentially the same code into kernel.org was one of the main reasons that Linaro was founded and Linus Torvalds famously complained about this shortly after Linaro’s founding:
 
 > “Somebody needs to get a grip in the ARM community. I do want to do these merges, just to see how screwed up things are, but guys, this is just ridiculous. The pure amount of crazy churn is annoying in itself, but when I then get these “independent” pull requests from four different people, and they touch the same files, that indicates that something is wrong.” Source: Linux Kernel Mailing List, March 2011 https://lkml.org/lkml/2011/3/17/492
@@ -16,7 +18,6 @@ As part of its ARM Kernel Collaboration work, the Kernel Working Group has taken
 
 In the tradition of Linux and the open source community, much of the technical discussion for the kernel team takes place over email and informal conversations on IRC.
 
-Mailing list mailto:linaro-kernel@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
+Mailing list: mailto:linaro-kernel@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 IRC: #linaro-kernel on irc.freenode.net
-Process
-The Kernel Working Group works upstream using upstream processes and through lead projects. Please contact member services to discuss any requirements.
+Process: The Kernel Working Group works upstream using upstream processes and through lead projects. 
