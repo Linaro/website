@@ -1,6 +1,6 @@
 # Automation and Continuous Integration (CI)
 
-The Automation and Continuous Integration (CI) group at Linaro is responsible for testing and delivering builds that showcase Linaro’s group and core engineering work and maintaining and developing the infrastructure that enables this.
+The Automation and CI team is comprised of Builds and Baselines, LAVA Software, LAB, and QA teams. Our mission is to engineer world class continuous integration systems through collaboration, that can be leveraged by Linaro, our members, and the community.
 
 #### The group is solely responsible for two key lead projects and shares responsibility for a third:
 
