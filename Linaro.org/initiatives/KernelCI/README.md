@@ -1,18 +1,5 @@
 # KernelCI
 
-### Introduction
- 
+The importance of testing and continuous integration was recognized in the first year of Linaro. A team was established to build [Linaro's Automated Validation Architecture (LAVA)](http://www.linaro.org/initiatives/lava/) and the engineering teams have used member hardware, virtual models and cloud services in this framework to test their work from the beginning. 
 
-### Objective
- 
-
-### Communication/Support (Links to IRC, Mailing list etc)
- 
-
-### Community Information (Links to external site such as collaborate, jira, github, documentation etc)
- 
-
-### Governance eg: TSC, (If there is one)
- 
-
-### Media (Video/Presentation)
+In addition to validating coding with LAVA, the engineers need to integrate their code into the updtream repositries, rebuild it an d check it works correctly continuously throughtout the day. This process is called Continuous Integration and, between the end of 2013 and beginning of 2014, Linaro developed [KernelCI.org](https://kernelci.org/) to support this. Further information can be found on the site and the [KernelCI wiki page](http://wiki.kernelci.org/).
