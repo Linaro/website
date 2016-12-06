@@ -1,27 +1,55 @@
 # Open Source Security
+The Linaro Security Working Group (SWG) was created to help ensure an optimised
+and efficient software ecosystem exists to support ARM Open Source Linux
+distributions on security related topics, and to accelerate the delivery of high
+quality secure products across the ARM Open Source ecosystem. The team’s mission
+is to avoid and prevent fragmentation of implementations underpinning security
+within ARM based systems.
 
-The Linaro Security Working Group (SWG) was created to help ensure an optimized and efficient software ecosystem exists to support ARM open source Linux distributions on security related topics, and to accelerate the delivery of high quality secure products across the ARM open source ecosystem.
+In order to enable secure boot and to enable security on devices one has several
+choices to make depending on what architectural layer you are working with. The
+SWG are doing work in both normal user space applications as well as
+implementing drivers and adding general security enhancements to Linux kernel.
+Another area where SWG spends a lot of time is in the so called Trusted
+Execution Environment (TEE).
 
-In order to enable applications such as securely booting a server or decoding encrypted media, there needs to be a Trusted Execution Environment (TEE). The SWG has been creating reference designs showing how normal and trusted application code and libraries can be integrated within a particular platform such as Android. Initial activities included the development of an open source reference implementation of the W3C Encrypted Media Extension (EME) using platform security features for secure media playback on mobile and digital home devices; and an open source reference implementation of secure boot for the 64-bit ARM Cortex-A series processor cores to complement the ARM Trusted Firmware open source project, targeted at server applications. In addition, tehre is regular work on security features in the Linux kernel.
+The SWG is creating reference designs showing how normal and Trusted Application
+code and libraries can be integrated within a particular platform such as
+Android. Activities include the development of an Open Source reference
+implementation of the W3C Encrypted Media Extension (EME) using platform
+security features for secure media playback on mobile and digital home devices;
+and an Open Source reference implementation of secure boot for the 64-bit ARM
+Cortex-A series processor cores to complement the ARM Trusted Firmware open
+source project, targeted at server applications.
 
-In 2014, Linaro started working with STMicroelectronics to transform a proprietary TEE solution into open source. This TEE was rooted in a proprietary solution, initially created by ST-Ericsson and then owned and maintained by STMicroelectronics. The work on making this open source was concluded in September 2015 when Linaro took ownership and rolled out [OP-TEE](https://www.op-tee.org/). OP-TEE is now an open source project that contains a full implementation to make up a complete Trusted Execution Environment. Today, OP-TEE is one of the key security projects in Linaro, with several of Linaro’s members supporting and using it.
+By delivering tested reference Open Source software Linaro will enable SoC
+vendors, OEMs and application developers to more easily understand how to design
+and build secure applications across a wide range of ARM products and segments.
+These include the Internet of Things, mobile devices, the digital home.
 
-**Key Deliverables:**
+## Key Deliverables
+- Key player in software related to security such as TEE solutions and kernel
+  hardening on ARM systems.
+- Stabilize ARMv7-A and ARMv8-A TEE solution(s) running on Android.
+- Active role in open sourcing a TEE.
+- Active part of Linaro’s (LHG) mission creating DRM/EME reference.
+  implementations for Android and Comcast RDK.
+- Kernel hardening - with ARM contribution in [Kernel Self Protection Project].
+- Include, [Travis], LAVA and CI in the all tasks.
+- Actively monitor and contribute to relevant Open Source projects.
 
-- Key player in software related to security such as TEE solutions and kernel hardening on ARM systems.
-- Stabilize ARMv7 TEE solution(s) running on Android.
-- [OP-TEE](https://www.op-tee.org/).
-- Active part of Linaro’s (LHG) mission creating DRM/EME reference implementations for Android and Comcast RDK.
-- ARMv8 UEFI based Ubuntu/Fedora boot leverage a TEE.
-- Kernel hardening.
-- Include LAVA and CI in the all tasks.
-- Actively monitor and contribute to relevant open source projects.
+## Useful Information
 
-**Useful Information:**
+- Governance: [Linaro Technical Steering Committee].
+- To reach out to OP-TEE developers: `<op-tee@linaro.org>`.
+- To reach out to team SWG: `team-security-wg@linaro.org`.
+- [tee-dev] public discussion about TEE in general.
+- Engineering: [Open Source Security Project] contains all relevant information
+  about the current progress, roadmaps etc.
+- JIRA Project: Security [JIRA structure], Security [JIRA Team Kanban board].
 
-- Governance: [Linaro Technical Steering Committee](https://wiki.linaro.org/Internal/TSC) (MEMBERS ONLY)Mailing lists:
-- op-tee@linaro.org (reach OP-TEE developers)
-- team-security-wg@linaro.org (Security WG)
-- [tee-dev](https://lists.linaro.org/mailman/listinfo/tee-dev) (public discussion about TEE in general)
-- Engineering: [Security Working Group Wiki](https://wiki.linaro.org/WorkingGroups/Security)
-- JIRA Project: [Project Summary](https://projects.linaro.org/projects/SWG/summary), [JIRA Board](https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=34), [JIRA Structure](https://projects.linaro.org/secure/StructureBoard.jspa?s=106)
+[JIRA structure]: https://projects.linaro.org/secure/StructureBoard.jspa?s=106#
+[JIRA Team Kanban board]: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
+[Linaro Technical Steering Committee]: https://wiki.linaro.org/Internal/TSC
+[Open Source Security Project]: https://collaborate.linaro.org/display/EP/Open+Source+Security+Project
+[tee-dev]: https://lists.linaro.org/mailman/admindb/tee-dev
