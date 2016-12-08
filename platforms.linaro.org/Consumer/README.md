@@ -5,7 +5,7 @@ The consumer reference platform aims to enable the latest software on a series o
 ## Features
  - Unified Linux Kernel
  - Open Boot Firmware
- - Debian and Centos Builds
+ - Debian and OpenEmbedded Builds
  - Desktop Enviroment
  - ROS (Robot OS)
  - Standard GPIO Library
