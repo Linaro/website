@@ -5,6 +5,6 @@ The enterprise reference platform is targeted to accelerate the high powered ARM
 ## Features
  - Unified Linux Kernel
  - Open Boot Firmware
- - Debian and Centos Installers
+ - Debian and Centos Network Installers
  - Openstack and Ceph Reference Deployments
  - Built for Big Data Workloads
