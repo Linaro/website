@@ -2,7 +2,9 @@
 Reference Platform Support Channels 
 
 ##IRC
+
 `#linaro-enterprise`
+
 `#linaro-platforms`
 
 ##Mailinglist
