@@ -2,8 +2,8 @@
 Reference Platform Support Channels 
 
 ##IRC
-- #linaro-enterprise
-- #linaro-platforms
+`#linaro-enterprise`
+`#linaro-platforms`
 
 ##Mailinglist
 [https://lists.linaro.org/mailman/listinfo/referenceplatform](https://lists.linaro.org/mailman/listinfo/referenceplatform)
