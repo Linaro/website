@@ -3,9 +3,7 @@ Reference Platform Support Channels
 
 ##IRC
 
-`#linaro-enterprise`
-
-`#linaro-platforms`
+[#linaro-enterprise](https://webchat.freenode.net/) and/or [#linaro-platforms](https://webchat.freenode.net/)
 
 ##Mailinglist
 [https://lists.linaro.org/mailman/listinfo/referenceplatform](https://lists.linaro.org/mailman/listinfo/referenceplatform)
