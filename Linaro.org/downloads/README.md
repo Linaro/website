@@ -57,19 +57,29 @@ The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations
 - Performance implementation build for x86  using the DPDK SDK. ([odp-dpdk](https://git.linaro.org/lng/odp-dpdk.git))
 
 *** 
-
 ## Linaro Toolchain
 
-Linaro offers monthly updates to QEMU, GDB, toolchain components and various versions of GCC. You can access source and pre-built binaries. Click below for the latest downloads.
+Linaro provides [GCC source archives](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) as monthly snapshots of the Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
 
-- linaro-toolchain-binaries (little-endian) - ([Linux](https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabihf/) / [Windows Archive](https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabihf/) / [Bare Metal](https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-eabi/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-5/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabihf/))
-- linaro-toolchain-binaries (big-endian) - ([Linux](https://releases.linaro.org/components/toolchain/binaries/latest-5/armeb-linux-gnueabihf/) / [Bare Metal](https://releases.linaro.org/components/toolchain/binaries/latest-5/armeb-eabi/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-5/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest-5/armeb-linux-gnueabihf/))
-- linaro-toolchain-binaries (Aarch64 little-endian) - ([Linux](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64-linux-gnu/) / [Windows Archive](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64-linux-gnu/) / [Bare Metal](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64-elf/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-5/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64-linux-gnu/))
-- linaro-toolchain-binaries (Aarch64 big-endian) - ([Linux](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64_be-linux-gnu/) / [Bare Metal](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64_be-elf/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-5/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest-5/aarch64_be-linux-gnu/))
+The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
+
+#### Latest Linux Targetted Binary Toolchain Releases
+- **arm-linux-gnueabihf** _(32-bit ARMv7 Cortex-A, hard-float, little-endian)_ - ([Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/) / [Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/))
+- **armv8l-linux-gnueabihf** _(32-bit ARMv8 Cortex-A, hard-float, little-endian)_ - ([Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/) / [Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/))
+- **aarch64-linux-gnu** _(64-bit ARMv8 Cortex-A, little-endian)_ - ([Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/) / [Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/))
+
+#### Latest Bare-Metal Targetted Binary Toolchain Releases
+- **arm-eabi** _(32-bit ARMv7 Cortex-A, soft-float, little-endian)_ - ([Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/) / [Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)) 
+- **aarch64-elf** _(64-bit ARMv8 Cortex-A, little-endian)_  - ([Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/) / [Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/) / [Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/) / [Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/))
 
 ***
 
-More interested in bare-metal and long-term maintained [releases](https://launchpad.net/gcc-arm-embedded) for ARM embedded processors? We’re working with ARM to also supply a Cortex-R and Cortex-M bare-metal build. Major releases will be made once a year with quarterly update releases. Releases will be maintained for two years. Get these from Launchpad: https://launchpad.net/gcc-arm-embedded
+Interested in other target ABIs such as big-endian or soft-float little-endian? All toolchain target ABI and host variants can be seen [here](https://releases.linaro.org/components/toolchain/binaries/latest/). _Note that not all ABI and host variants are supported to the same degree. See the ([release-notes](https://releases.linaro.org/components/toolchain/binaries/latest/) for more information._ 
 
 ***
+
+Interested in Cortex-R and Cortex-M bare-metal targetted toolchains for ARM embedded processors? We’re working with ARM to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from Launchpad: https://launchpad.net/gcc-arm-embedded
+
+***
+
 [Edit this page on GitHub](https://github.com/Linaro/website/blob/master/Linaro.org/downloads/README.md)
