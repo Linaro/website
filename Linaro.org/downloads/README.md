@@ -53,7 +53,6 @@ Repo https://git.linaro.org/kernel/linux-linaro-lng.git
 The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
-- Reusing odp-linux-generic and adding packet_io acceleration via Netmap ([odp-netmap](https://git.linaro.org/lng/odp-netmap.git))
 - Performance implementation build for x86  using the DPDK SDK. ([odp-dpdk](https://git.linaro.org/lng/odp-dpdk.git))
 
 *** 
