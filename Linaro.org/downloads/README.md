@@ -37,17 +37,6 @@ The Linaro Automated Validation Architecture (LAVA) is a test and continuous int
 
 ## Linaro Networking
 
-Based on the Linaro Stable Kernel (LSK) and upstream, these kernels add features currently being developed by LNG and not upstreamed yet.
-
-Release notes https://git.linaro.org/lng/releases-instructions.git
-
-Repo https://git.linaro.org/kernel/linux-linaro-lng.git
-
-- Latest LSK kernel for which a preempt-rt patch set has been released, plus patches that have not yet been accepted upstream and are relevant to LNG ([linux-linaro-lng-4.1](http://releases.linaro.org/components/kernel/linux-linaro-lng/16.03/linux-linaro-lng-4.1.14-2016.03.tar.bz2))
-- Same as linux-linaro-lng-v4.1 but with the preempt-rt patches applied. ([linux-linaro-lng-preempt-rt-4.1](http://releases.linaro.org/components/kernel/linux-linaro-lng/16.03/linux-linaro-lng-preempt-rt-4.1.14-2016.03.tar.bz2))
-
-***
-
 #### OpenDataPlane
 
 The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
