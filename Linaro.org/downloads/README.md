@@ -52,17 +52,17 @@ Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/compon
 The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
 
 #### Latest Linux Targetted Binary Toolchain Releases
-|    |    |    |    |    |    |
-|:---|:---|:---|:---|:---|:----|
-|**arm-linux-gnueabihf**|_32-bit ARMv7 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|[Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/)|
-|**armv8l-linux-gnueabihf**|_32-bit ARMv8 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|[Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/)|
-|**aarch64-linux-gnu**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|[Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)|
+|    |    |    |    |    |
+|:---|:---|:---|:---|:---|
+|**arm-linux-gnueabihf**|_32-bit ARMv7 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**armv8l-linux-gnueabihf**|_32-bit ARMv8 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**aarch64-linux-gnu**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 
 #### Latest Bare-Metal Targetted Binary Toolchain Releases
-|    |    |    |    |    |    |
-|:---|:---|:---|:---|:---|:----|
-|**arm-eabi**|_32-bit ARMv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|[Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)| 
-|**aarch64-elf**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|[Sysroot](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|
+|    |    |    |    |    |
+|:---|:---|:---|:---|:---|
+|**arm-eabi**|_32-bit ARMv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**aarch64-elf**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 
 ***
 
