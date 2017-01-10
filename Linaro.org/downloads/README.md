@@ -25,7 +25,9 @@ The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new L
 
 ## Linaro Confectionary Release (LCR)
 
-R-LCR is a build of the Android Open Source Project (AOSP) from a stable “L” branch that includes platform support and other features. R-LCR includes the Android flavour of Linaro Stable Kernel (LSK) for all machine configurations.
+R-LCR is a build of the Android Open Source Project (AOSP) from a stable release branch that includes platform support and other features. R-LCR includes the Android flavour of Linaro Stable Kernel (LSK) for all machine configurations.
+
+- [R-LCR, Binaries](https://releases.linaro.org/android/reference-lcr/)
 
 ***
 
