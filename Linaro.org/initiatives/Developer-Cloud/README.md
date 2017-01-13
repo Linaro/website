@@ -1,8 +1,5 @@
 # Developer Cloud
 
-
-### Introduction
-
 The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack running on enterprise-class 64-bit ARMv8 hardware. 
 
 It is the combination of ARM SoC vendors’ server hardware platforms, emerging cloud technologies, and many Linaro member driven projects, including server class boot architecture, kernel and virtualization. These projects have been under development for several years and Linaro has been delivering them in a limited colocation data-center facility that has been providing bare metal access to ARM servers to key developers for the last year.
