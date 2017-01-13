@@ -1,12 +1,7 @@
 # SDI
 
-#### Summary: 
+SDI is the enabler for the cloud revolution and the fundamental building block for richer services like Platform As A Service (PaaS), Software As A Service (SaaS), Data Base As A Service (DBaaS), etc. LEG Members have agreed to put together resources and focus on making Aarch64 a best in class citizen in the SDI communities and a well supported architecture from booting up to running a wide range of workloads at scale.
 
-ARM, Huawei, AMD, HP have agreed to put together resources and focus on making Aarch64 a best in class citizen in the SDI communities and a well supported architecture from booting up to running a wide range of workloads at scale.
-
-#### About SDI:
-
-SDI is the enabler for the cloud revolution and the fundamental building block for richer services like Platform As A Service (PaaS), Software As A Service (SaaS), Data Base As A Service (DBaaS), etc.
 
 #### SDI relies on multiple key technologies:
 
