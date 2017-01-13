@@ -8,10 +8,10 @@ This page contains direct links to the latest versions of the most popular downl
 
 LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](https://www.linaro.org/members/) company.
 
-|     |     |     |
-|:---|:---|:---|
-|ARM| Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
-|Qualcomm| Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+|     |     |     |     |
+|:---|:---|:---|:---|:---|
+|ARM | <img src="https://www.linaro.org/wp-content/uploads/2014/08/aarch-64-logo.png" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Qualcomm | <img src="https://www.linaro.org/wp-content/uploads/2014/08/snapdragon-logo.png" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
 
@@ -19,7 +19,7 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version. Click right for the latest downloads.
 
-- [linux-linaro-stable (LSK), Source, Git](https://wiki.linaro.org/LSK)
+- <img src="https://www.linaro.org/wp-content/uploads/2014/02/icon-linux-logo-24x24.png" alt="Linux Linaro" /> [linux-linaro-stable (LSK), Source, Git](https://wiki.linaro.org/LSK)
 
 ***
 
@@ -33,6 +33,7 @@ R-LCR is a build of the Android Open Source Project (AOSP) from a stable release
 
 ## LAVA
 
+<img src="https://www.linaro.org/wp-content/uploads/2015/11/lava-logo_standard.png" alt="Linaro Lava Logo" width="auto" height="60px" align="right" />
 The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. [Click here for the latest downloads](https://releases.linaro.org/components/lava/latest/).
 
 ***
@@ -41,6 +42,7 @@ The Linaro Automated Validation Architecture (LAVA) is a test and continuous int
 
 #### OpenDataPlane
 
+<img src="https://www.linaro.org/wp-content/uploads/2017/01/opendataplane-logo_standard-opendataplane.png" alt="Linaro Lava Logo" width="auto" height="60px" align="right" />
 The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
@@ -75,5 +77,3 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 Interested in Cortex-R and Cortex-M bare-metal targetted toolchains for ARM embedded processors? We’re working with ARM to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from Launchpad: https://launchpad.net/gcc-arm-embedded
 
 ***
-
-[Edit this page on GitHub](https://github.com/Linaro/website/blob/master/Linaro.org/downloads/README.md)
