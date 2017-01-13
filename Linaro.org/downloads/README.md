@@ -33,7 +33,7 @@ R-LCR is a build of the Android Open Source Project (AOSP) from a stable release
 
 ## LAVA
 
-<img src="https://www.linaro.org/wp-content/uploads/2015/11/lava-logo_standard.png" alt="Linaro Lava Logo" width="auto" height="60px" align="right" />
+<img src="https://www.linaro.org/wp-content/uploads/2015/11/lava-logo_standard.png" alt="Linaro Lava Logo" width="200px" height="auto" align="right" />
 The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. [Click here for the latest downloads](https://releases.linaro.org/components/lava/latest/).
 
 ***
@@ -42,7 +42,7 @@ The Linaro Automated Validation Architecture (LAVA) is a test and continuous int
 
 #### OpenDataPlane
 
-<img src="https://www.linaro.org/wp-content/uploads/2017/01/opendataplane-logo_standard-opendataplane.png" alt="Linaro Lava Logo" width="auto" height="60px" align="right" />
+<img src="https://www.linaro.org/wp-content/uploads/2017/01/opendataplane-logo_standard-opendataplane.png" alt="Linaro Lava Logo" width="200px" height="auto" align="right" />
 The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
