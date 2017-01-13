@@ -1,20 +1,12 @@
 # Big Data
 
-#### Summary: 
-
-ARM, AMD, Huawei have agreed to put together resources and focus on making AArch64 a first class citizen in the Hadoop / Spark community and a well supported architecture for scale-out analytic.
-
-#### About Big Data:
-
-Big Data Analytics is a pretty wide area that is experiencing a 100% growth rate every year, according to the keynotes from last Hadoop Summit events. Big Data will continue growing as IoT gets closer to production deployment. The two main components are Hadoop and Spark and they nicely fit the vision of scaling out the processing on as many compute nodes as available, this is a perfect match to explore with ARM servers and a potential killer app.
+Big Data Analytics is a pretty wide area that is experiencing a 100% growth rate every year, according to the keynotes from the last Hadoop Summit event. Big Data will continue growing as IoT gets closer to production deployment. The two main components are Hadoop and Spark. They fit the vision of scaling out the processing on as many compute nodes as available nicely, and are a perfect match to explore with ARM servers and a potential killer app. LEG Members have agreed to put together resources and focus on making AArch64 a first class citizen in the Hadoop / Spark community, and a well supported architecture for scale-out analytics.
 
 #### About OpenJDK:
 
 OpenJDK (Open Java Development Kit) is a free and open source implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006. The implementation is licensed under the GNU General Public License (GNU GPL) with a linking exception. OpenJDK is the official Java SE 7 reference implementation.
 
 The OpenJDK project consists of a number of components. Principally, these are the virtual machine (HotSpot), the Java Class Library and the Java compiler (javac).
-
- 
 
 #### Key Deliverables:
 
