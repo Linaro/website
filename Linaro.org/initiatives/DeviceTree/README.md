@@ -27,4 +27,6 @@ https://github.com/devicetree-org/devicetree-specification-released
  
 devicetree.org uses an open goverenance model that is led by a community of developers who will form a Technical Steering Committee (TSC) based on expertise and value of contribution. All members will have an equal vote on core decisions ensuring quality among all participants and industry-wide consolidation.
 
+To find out more, visit https://www.devicetree.org/
+
 
