@@ -7,4 +7,4 @@ Linaro’s mission in the mobile space has always been to collaborate with membe
 The LMG engineering team has an established reputation for optimizing Android components, performing bring up using new kernels and new toolchains, upstreaming AOSP patches to the open source community and developing new technology. The team released the first port of the Android Open Source Project (AOSP) for ARM’s new 64-bit Juno hardware development platform in July 2014.
 
 ### Support
-We welcome feedback on our releases and ask you to do so via linaro-android@lists.linaro.org or join us on the #linaro-android channel on freenode. You may open a bug being report via bugs.linaro.org. We make no representations that a reported bug will be fixed or how fast it might be addressed. Member input weighs strongly in these considerations.
+We welcome feedback on our releases and ask you to do so via linaro-android@lists.linaro.org or join us on the #linaro-android channel on freenode. You may open a bug being reported via bugs.linaro.org. We make no representations that a reported bug will be fixed or how fast it might be addressed. Member input weighs strongly in these considerations.
