@@ -6,7 +6,7 @@ quality secure products across the ARM Open Source ecosystem. The team’s missi
 is to avoid and prevent fragmentation of implementations underpinning security
 within ARM based systems.
 
-In order to enable secure boot and to enable security on devices one has several
+In order to enable secure boot and to enable security on devices, one has several
 choices to make depending on what architectural layer you are working with. The
 SWG are doing work in both normal user space applications as well as
 implementing drivers and adding general security enhancements to Linux kernel.
@@ -22,10 +22,10 @@ and an Open Source reference implementation of secure boot for the 64-bit ARM
 Cortex-A series processor cores to complement the ARM Trusted Firmware open
 source project, targeted at server applications.
 
-By delivering tested reference Open Source software Linaro will enable SoC
+By delivering tested reference Open Source software, Linaro will enable SoC
 vendors, OEMs and application developers to more easily understand how to design
 and build secure applications across a wide range of ARM products and segments.
-These include the Internet of Things, mobile devices, the digital home.
+These include the Internet of Things, mobile devices and the digital home.
 
 ## Key Deliverables
 - Key player in software related to security such as TEE solutions and kernel
