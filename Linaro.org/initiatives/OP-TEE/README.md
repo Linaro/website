@@ -20,7 +20,7 @@ OP-TEE is an open source project which contains a full implementation to make up
 a complete Trusted Execution Environment.
 
 ### Communication/Support 
-To reach out to OP-TEE developers, send them an email at: [op-tee@linaro.org]
+To reach out to OP-TEE developers, send them an email at: op-tee@linaro.org
 
 To join the public discussion about TEE in general, go to [tee-dev].
 
