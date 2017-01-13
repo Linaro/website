@@ -4,7 +4,7 @@ The Linaro Networking Group (LNG) is an autonomous segment focused group that is
 
 The portfolio, investment direction, themes, initiatives and value streams for LNG engineering activity are reviewed, approved/rejected and managed by the [LNG Steering Committee](https://wiki.linaro.org/LNG-SC) and [TSC](https://wiki.linaro.org/TSC/). The LNG engineering team is currently focused on delivery of the OpenDataPlane product. The current mix of LNG engineering activities includes:
 
-- networking related Linux features (crypto offloads, Huge Pages, eBPF...)
+- Networking related Linux features (crypto offloads, Huge Pages, eBPF...)
 - Time Sensitive Networking (network stack evolutions and drivers)
 - Real-time and isolation use cases and requirements for LSK-rt
 - Serviceability such as (kprobes, uprobes, performance counters in user space...)
