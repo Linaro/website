@@ -1,6 +1,5 @@
 # OP-TEE
 
-### Introduction
 OP-TEE stands for Open Portable Trusted Execution Environment. The project has
 roots in a proprietary solution, initially created by ST-Ericsson and then owned
 and maintained by STMicroelectronics. In 2014, Linaro started working with
