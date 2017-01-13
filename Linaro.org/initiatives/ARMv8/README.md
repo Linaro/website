@@ -14,8 +14,6 @@ With the availability of low-cost ARMv8 hardware through 96Boards, there is now 
 * [96Boards HiKey (LeMaker version)](http://www.96boards.org/product/hikey/)
 * [96Boards Bubblegum-96](http://www.96boards.org/product/bubblegum-96/)
 * [96Boards Mediatek X20](http://www.96boards.org/product/mediatek-x20/)
-* [96Boards Poplar TV board (pre-order)](http://www.96boards.org/product/poplar/)
-* [96Boards Cello board (pre-order)](http://www.96boards.org/product/cello/)
 * ARM [Juno development platform](http://www.arm.com/products/tools/development-boards/versatile-express/juno-arm-development-platform.php)
 * [Cavium Project Thunder](http://www.cavium.com/thundersdk_access_application.html)
 * [AMD 64-bit ARM Opteron Developer Kit](http://www.amd.com/en-us/press-releases/Pages/64-bit-developer-kit-2014jul30.aspx)
