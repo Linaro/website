@@ -1,8 +1,6 @@
 # Open Source ARM Tools
 
-**Summary:**
-
-The toolchain working group deals with all aspects of system-level tools – the core development toolchain (compiler, assembler, linker, debugger), emulation, profiling and analysis (oprofile, performance events) and instrumentation (ftrace).
+The Toolchain Working Group deals with all aspects of system-level tools – the core development toolchain (compiler, assembler, linker, debugger), emulation, profiling and analysis (oprofile, performance events) and instrumentation (ftrace).
 
 **Key Deliverables:**
 
