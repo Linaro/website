@@ -1,15 +1,14 @@
 # Open Data Plane
 
-The OpenDataPlane project (ODP) is an open-source, cross-platform set of application programming interfaces (APIs) for the networking data plane. In October of 2013 Linaro announced that it was collaborating with members of the Linaro Networking interest Group to develop and host an open standard application programming interface for data plane applications. Initially defined by members of the Linaro Networking Group (LNG), this project is open to contributions from all individuals and companies who share an interest in promoting a standard set of APIs to be used across the full range of network processor architectures available.
+The OpenDataPlane project (ODP) is an open-source, cross-platform set of application programming interfaces (APIs) for the networking data plane. In October 2013, Linaro announced that it was collaborating with members of the Linaro Networking interest Group to develop and host an open standard application programming interface for data plane applications. Initially defined by members of the Linaro Networking Group (LNG), this project is open to contributions from all individuals and companies who share an interest in promoting a standard set of APIs to be used across the full range of network processor architectures available.
 
 ODP consists of an API specification and a set of reference implementations that realize these APIs on different platforms. Implementations range from pure software to those that deeply exploit the various hardware acceleration and offload features found on modern networking system-on-Chip (SoC) processors.
 
-ODP’s goal is to allow implementers of the API great flexibility to exploit and optimize the implementation. This is intended to enable easy platform portability such that an application written to the API can pick up performance gains without needing significant platform knowledge when ported.
-ODP is currently being used to develop reference platform implementations of Open Platform for NFV (OPNFV) and is being promoted by companies as part of their data plane support initiatives.
-ODP’s Focus
+ODP’s goal is to allow implementers of the API great flexibility to exploit and optimize the implementation. This is intended to enable easy platform portability such that an application written to the API can pick up performance gains without needing significant platform knowledge when ported. ODP is currently being used to develop reference platform implementations of Open Platform for NFV (OPNFV) and is being promoted by companies as part of their data plane support initiatives.
 
-ODP embraces and extends existing proprietary, optimized vendor-specific hardware blocks and software libraries to provide interoperability with minimal overhead. Initially defined by members of the Linaro Networking Group (LNG), this project is open to contributions from all individuals and companies who share an interest in promoting a standard set of APIs to be used across the full range of network processor architectures available.
-Join us!
+ODP embraces and extends existing proprietary, optimized vendor-specific hardware blocks and software libraries to provide interoperability with minimal overhead. 
+
+###Join us!
 
 If you or your company are interested in participating in this effort, please see the links on the left. It is our supporting members that drive the definition of new APIs. However, once published anyone may contribute to the APIs and continued refinement. ODP welcomes all feedback and participation in the development of ODP including addition of new platforms. Email information: http://www.opendataplane.org/contact/
 
