@@ -1,3 +1,3 @@
-# About Reference Platform
+# About Reference Platforms
 
-The reference platform is an end to end open software stack that showcases the latest ARM optimizations available, which are validated on a series of hardware platforms. Each reference platform is focused on a unique segment providing everything from firmware to middleware reducing overall complexity and time to market.
+The goal of Linaro Reference Platforms (RPs) is to provide product quality, end to end, documented, open source platforms for market segment or use cases, comprising boot firmware, kernel, distribution(s) and additional relevant open source projects. RPs are built and tested on 96Boards RP-Certified hardware and (for the Enterprise RP) the Linaro Developer Cloud. The RPs are intended to be reference examples for use as a foundation for products based on open source technologies.
