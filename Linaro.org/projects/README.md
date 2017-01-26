@@ -7,7 +7,7 @@ Linaro is a large engineering organization with many complex projects that map a
 - [Big Data](big-data/README.md)
 - [SDI](SDI/README.md)
 - [Mobile Power Managements](mobile-pm/README.md)
-- [ARM Kernel Collaboration](ARM-kernel-collab/README.md)
+- [ARM Kernel Collaboration](ARM-kernel-collaboration/README.md)
 - [Open Source ARM Tools](opensource-ARM-tools/README.md)
 - [Open Source Security](opensource-security/README.md)
 - [OpenDataPlane](opendataplane/README.md)
