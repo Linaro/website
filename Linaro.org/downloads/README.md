@@ -1,8 +1,16 @@
 ## Downloads
 
-This page contains direct links to the latest versions of the most popular downloads from Linaro. These include a selection of builds including Android, the LAVA test framework and key toolchains.
+Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](http://patches.linaro.org/) presents this work by team and by upstream project.
 
-* [Click here to sign-up for the release mailing list](https://lists.linaro.org/mailman/listinfo/linaro-release)
+Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
+
+## Linaro Releases, Platforms and Snapshots
+
+[Releases](http://releases.linaro.org/) is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
+
+[Platforms](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/) is a new site that will host platform builds for specific end-to-end solutions. Currently, this site only features the 16.12 release of the Enterprise Reference Platform, but we expect to post additional platform builds in teh first half of 2017. 
+
+[Snapshots](http://snapshots.linaro.org/) code shows Linaro work in progress. Often created on a daily basis, these are literally snapshots of work in progress that are used for testing and development. The code on this site may not work and should only be used by experienced engineers who know exactly what they are doing. 
 
 ## Linaro Member Builds
 
@@ -17,9 +25,9 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 ## Linaro Stable Kernel (LSK)
 
-The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version. Click right for the latest downloads.
+The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
 
-- <img src="https://www.linaro.org/wp-content/uploads/2014/02/icon-linux-logo-24x24.png" alt="Linux Linaro" /> [linux-linaro-stable (LSK), Source, Git](https://wiki.linaro.org/LSK)
+- <img src="https://www.linaro.org/wp-content/uploads/2014/02/icon-linux-logo-24x24.png" alt="Linux Linaro" /> [linux-linaro-stable (LSK) Git](https://git.linaro.org/kernel/linux-linaro-stable.git/), [additional information](https://wiki.linaro.org/LSK)
 
 ***
 
@@ -55,14 +63,14 @@ Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/compon
 
 The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
 
-#### Latest Linux Targetted Binary Toolchain Releases
+#### Latest Linux Targeted Binary Toolchain Releases
 |    |    |    |    |    |
 |:---|:---|:---|:---|:---|
 |**arm-linux-gnueabihf**|_32-bit ARMv7 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 |**armv8l-linux-gnueabihf**|_32-bit ARMv8 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 |**aarch64-linux-gnu**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 
-#### Latest Bare-Metal Targetted Binary Toolchain Releases
+#### Latest Bare-Metal Targeted Binary Toolchain Releases
 |    |    |    |    |    |
 |:---|:---|:---|:---|:---|
 |**arm-eabi**|_32-bit ARMv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
@@ -74,6 +82,6 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 ***
 
-Interested in Cortex-R and Cortex-M bare-metal targetted toolchains for ARM embedded processors? We’re working with ARM to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from Launchpad: https://launchpad.net/gcc-arm-embedded
+Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for ARM embedded processors? We’re working with ARM to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from Launchpad: https://launchpad.net/gcc-arm-embedded
 
 ***
