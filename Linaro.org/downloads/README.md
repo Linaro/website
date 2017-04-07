@@ -8,7 +8,7 @@ Before the code gets accepted upstream, Linaro maintains various development rep
 
 [Releases](http://releases.linaro.org/) is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
 
-[Platforms](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/) is a new site that will host platform builds for specific end-to-end solutions. Currently, this site only features the 16.12 release of the Enterprise Reference Platform, but we expect to post additional platform builds in teh first half of 2017. 
+[Platforms](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/) is a new site that will host platform builds for specific end-to-end solutions. Currently, this site features the 16.12 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the first half of 2017. 
 
 [Snapshots](http://snapshots.linaro.org/) code shows Linaro work in progress. Often created on a daily basis, these are literally snapshots of work in progress that are used for testing and development. The code on this site may not work and should only be used by experienced engineers who know exactly what they are doing. 
 
