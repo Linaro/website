@@ -10,5 +10,3 @@ In June 2017, the main elements of this project included kernel hardening, Globa
 - Engineering portal (Linaro membership and password required): [Open Source Security Project](https://collaborate.linaro.org/pages/viewpage.action?pageId=47843172) contains all relevant information
   about the current progress, roadmaps etc.
 - [JIRA Team Kanban board]: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
-
-
