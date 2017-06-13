@@ -1,55 +1,14 @@
 # Open Source Security
-The Linaro Security Working Group (SWG) was created to help ensure an optimised
-and efficient software ecosystem exists to support ARM Open Source Linux
-distributions on security related topics, and to accelerate the delivery of high
-quality secure products across the ARM Open Source ecosystem. The team’s mission
-is to avoid and prevent fragmentation of implementations underpinning security
-within ARM based systems.
+The Open Source Security Project (OSSP) is the main focus for Linaro's [Security Working Group (SWG)](https://www.linaro.org/core/security/).
 
-In order to enable secure boot and to enable security on devices, one has several
-choices to make depending on what architectural layer you are working with. The
-SWG are doing work in both normal user space applications as well as
-implementing drivers and adding general security enhancements to Linux kernel.
-Another area where SWG spends a lot of time is in the so called Trusted
-Execution Environment (TEE).
-
-The SWG is creating reference designs showing how normal and Trusted Application
-code and libraries can be integrated within a particular platform such as
-Android. Activities include the development of an Open Source reference
-implementation of the W3C Encrypted Media Extension (EME) using platform
-security features for secure media playback on mobile and digital home devices;
-and an Open Source reference implementation of secure boot for the 64-bit ARM
-Cortex-A series processor cores to complement the ARM Trusted Firmware open
-source project, targeted at server applications.
-
-By delivering tested reference Open Source software, Linaro will enable SoC
-vendors, OEMs and application developers to more easily understand how to design
-and build secure applications across a wide range of ARM products and segments.
-These include the Internet of Things, mobile devices and the digital home.
-
-## Key Deliverables
-- Key player in software related to security such as TEE solutions and kernel
-  hardening on ARM systems.
-- Stabilize ARMv7-A and ARMv8-A TEE solution(s) running on Android.
-- Active role in open sourcing a TEE.
-- Active part of Linaro’s (LHG) mission creating DRM/EME reference.
-  implementations for Android and Comcast RDK.
-- Kernel hardening - with ARM contribution in [Kernel Self Protection Project].
-- Include, [Travis], LAVA and CI in the all tasks.
-- Actively monitor and contribute to relevant Open Source projects.
+In June 2017, the main elements of this project included kernel hardening, GlobalPlatform adaptations, TEE/TrustZone based open source trusted OS, security support for mcuboot in [LITE](https://www.linaro.org/groups/lite/), and power management in a secure environment.
 
 ## Useful Information
 
-- Governance: [Linaro Technical Steering Committee].
-- To reach out to OP-TEE developers: `<op-tee@linaro.org>`.
+- Governance: [Linaro Technical Steering Committee]: https://wiki.linaro.org/Internal/TSC (password required)
 - To reach out to team SWG: `team-security-wg@linaro.org`.
-- [tee-dev] public discussion about TEE in general.
-- Engineering: [Open Source Security Project] contains all relevant information
+- Engineering portal (Linaro membership and password required): [Open Source Security Project](https://collaborate.linaro.org/pages/viewpage.action?pageId=47843172) contains all relevant information
   about the current progress, roadmaps etc.
-- JIRA Project: Security [JIRA structure], Security [JIRA Team Kanban board].
+- [JIRA Team Kanban board]: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
 
-[JIRA structure]: https://projects.linaro.org/secure/StructureBoard.jspa?s=106#
-[JIRA Team Kanban board]: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
-[Linaro Technical Steering Committee]: https://wiki.linaro.org/Internal/TSC
-[Open Source Security Project]: https://collaborate.linaro.org/display/EP/Open+Source+Security+Project
-[tee-dev]: https://lists.linaro.org/mailman/admindb/tee-dev
+
