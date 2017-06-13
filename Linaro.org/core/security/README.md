@@ -11,7 +11,7 @@ choices to make depending on what architectural layer you are working with. The
 SWG are doing work in both normal user space applications as well as
 implementing drivers and adding general security enhancements to Linux kernel.
 Another area where SWG spends a lot of time is in the so called Trusted
-Execution Environment (TEE).
+Execution Environment (TEE). Find out more about Linaro's work on OP-TEE on this [website](https://www.linaro.org/initiatives/op-tee/) or on the project's own [domain](https://www.op-tee.org/).
 
 The SWG is creating reference designs showing how normal and Trusted Application
 code and libraries can be integrated within a particular platform such as
@@ -37,12 +37,13 @@ These include the Internet of Things, mobile devices, the digital home.
 - Kernel hardening - with ARM contribution in [Kernel Self Protection Project].
 - Include, [Travis], LAVA and CI in the all tasks.
 - Actively monitor and contribute to relevant Open Source projects.
+- Deliver the Linaro [Open Source Security Project](https://www.linaro.org/projects/open-source-security/)
 
 ### Process
 The Security Working Group does all planning and tracking in
-[JIRA] which you can follow in detail given that you have the required access
-(IT gives access).
+[JIRA] which you can follow in detail if you are a Linaro member and have the required access
+(Linaro IT gives access).
 
-[JIRA]: https://cards.linaro.org/secure/StructureBoard.jspa?s=138
+[JIRA Security roadmap] (password required): https://cards.linaro.org/secure/StructureBoard.jspa?s=138
 [Kernel Self Protection Project]: https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
 [Travis]: https://travis-ci.org/OP-TEE
