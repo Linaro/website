@@ -13,7 +13,7 @@ TrustZone® technology. This component meets the GlobalPlatform TEE Client API
 for the communication with the TEE and GlobalPlatform TEE Internal Core API
 specifications for the Trusted Applications.
 
-For more information on OP-TEE, visit our website: www.op-tee.org
+For more information on OP-TEE, visit our website: [www.op-tee.org](https://www.op-tee.org/)
 
 ### Objective
 OP-TEE is an open source project which contains a full implementation to make up
