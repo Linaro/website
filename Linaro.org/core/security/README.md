@@ -45,5 +45,5 @@ The Security Working Group does all planning and tracking in
 (Linaro IT gives access).
 
 [JIRA Security roadmap] (password required): https://cards.linaro.org/secure/StructureBoard.jspa?s=138
-[Kernel Self Protection Project]: https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
-[Travis]: https://travis-ci.org/OP-TEE
+[Kernel Self Protection Project](https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project): https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
+[Travis](https://travis-ci.org/OP-TEE): https://travis-ci.org/OP-TEE
