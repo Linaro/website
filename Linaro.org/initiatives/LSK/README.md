@@ -9,6 +9,18 @@ Most LSK features can be disabled at either build or run time so are included as
 - The number of flavours is kept to a minimum in order to make selection simpler. As much as possible is in the core LSK in order to ensure that features are as widely available as possible. 
 - Currently the LSK release in Development phase is based on kernel version v4.1/v4.4. Note: details for maintenance mode LSK versions can be found below. 
 
+
+### Recent feature status
+
+| Feature | LSK v3.18 | LSK v4.1 |  LSK v4.4 | LSK 4.9  |
+| :--- | :--- | :--- | :--- | :--- |
+| PAX Usercopy | no | no | 16.09 | yes |
+| PAN emulation | no | no | no | 17.06 |
+| Kexec/kdump | no | no | 17.07 | 17.07 |
+| OPTEE * | 16.04 | no | 16.04 | 17.01 |
+
+\* OPTEE(Open Portable Trusted Execution Environment) out of upstream code were maintained as separate branches, [v3.18|v4.4|v4.9]/topic/optee, out of the LSK mainline. From lsk 4.9, the upstream merged OPTEE  also backported into LSK mainline.
+
 ### Communication/Support
 
 - Linaro Kernel mailing list <linaro-kernel AT lists DOT linaro DOT org>
@@ -20,7 +32,3 @@ Most LSK features can be disabled at either build or run time so are included as
 
 - Source Repository: git://git.linaro.org/kernel/linux-linaro-stable.git 
 - WIKI: https://wiki.linaro.org/LSK
-
-
-
-
