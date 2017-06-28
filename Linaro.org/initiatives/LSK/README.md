@@ -14,10 +14,10 @@ Most LSK features can be disabled at either build or run time so are included as
 
 | Feature | LSK v3.18 | LSK v4.1 |  LSK v4.4 | LSK 4.9  |
 | :--- | :--- | :--- | :--- | :--- |
-| PAX Usercopy | no | no | 16.09 | yes |
-| PAN emulation | no | no | no | 17.06 |
-| Kexec/kdump | no | no | 17.07 | 17.07 |
-| OPTEE * | 16.04 | no | 16.04 | 17.01 |
+| PAX Usercopy | N/A | N/A | 16.09 | LTS |
+| PAN emulation | N/A | N/A | N/A | 17.06 |
+| Kexec/kdump | N/A | N/A | 17.07 | 17.07 |
+| OPTEE * | 16.04 | N/A | 16.04 | 17.01 |
 
 \* OPTEE(Open Portable Trusted Execution Environment) out of upstream code were maintained as separate branches, [v3.18|v4.4|v4.9]/topic/optee, out of the LSK mainline. From lsk 4.9, the upstream merged OPTEE  also backported into LSK mainline.
 
