@@ -1,0 +1,98 @@
+---
+layout: default
+title:  OP-TEE - Projects
+breadcrumb-title: Projects
+breadcrumb-subtitle: About
+permalink: "/projects/"
+breadcrumb-section: Projects
+
+---
+{% include page-structure-top.html %}
+
+    {% include sub-navigation.html %}
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade active in" id="projects">
+            <!-- Tab panes Start-->
+            <div class="row projects-row">
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/optee_os" class="project">
+                        <i class="fa fa-github project-icon fa-5x text-center center-block"   aria-hidden="true"></i>
+                        <h4 class="project-title text-center">optee_os <span class="fa fa-external-link" aria-hidden="true"></span></h4>
+                    </a>
+                    <p class="text-center">The optee_os git contains the source code for the TEE in Linux using the ARM® TrustZone® technology. This component meets the GlobalPlatform TEE System Architecture specification. It also provides the TEE Internal core API v1.1 as defined by the GlobalPlatform TEE standard for the development of Trusted Applications.
+                    </p>
+                    <a href="https://github.com/OP-TEE/optee_os" class="project-more-info text-center center-block">
+                              More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                            </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/optee_client">
+                        <i class="fa fa-github project-icon fa-5x text-center center-block"  class="project" aria-hidden="true"></i>
+                        <h4 class="project-title text-center">optee_client</h4>
+                    </a>
+                    <p class="text-center">The optee-client git contains the source code for the TEE client library in Linux. This component provides the TEE Client API as defined by the GlobalPlatform TEE standard. It is distributed under the BSD 2-clause open-source license. In this git there are two main target/binaries to build. There is libteec.so, which is the library that contains that API for communication with the Trusted OS. Then the other target is the binary tee-supplicant which is a daemon serving the Trusted OS in secure world with miscellaneous features, such as file system access.</p>
+                    <a href="https://github.com/OP-TEE/optee_client" class="project-more-info text-center center-block">
+                          More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/optee_client">
+                        <i class="fa fa-github project-icon fa-5x text-center center-block" class="project"  aria-hidden="true"></i>
+                        <h4 class="project-title text-center">optee_test</h4>
+                    </a>
+                    <p class="text-center">The optee_test git contains the source code for the TEE sanity testsuite in Linux using the ARM(R) TrustZone(R) technology. It is distributed under the GPLv2 and BSD 2-clause open-source licenses.</p>
+                    <a href="https://github.com/OP-TEE/optee_test" class="project-more-info text-center center-block">
+                          More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </a>
+                </div>
+
+            </div>
+
+            <hr/>
+
+            <div class="row projects-row">
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/manifest"><i class="fa fa-github project-icon fa-5x text-center center-block" aria-hidden="true"></i>
+                        <h4 class="project-title text-center">manifest</h4></a>
+                    <p class="text-center">The manifest git contains all the repo xml-files for all our supported configurations (note, OpenEmbedded and AOSP are handled differently due to the nature of how they are doing things).</p>
+
+                    <a href="https://github.com/OP-TEE/manifest" class="project-more-info text-center center-block">
+                          More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </a>
+
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/build"><i class="fa fa-github project-icon fa-5x text-center center-block" aria-hidden="true"></i>
+                        <h4 class="project-title text-center">build</h4></a>
+                    <p class="text-center">This project contains a set of helper makefiles with the intention to make it a bit easier for newcomers to get started. The general goal with those makefiles are that “make all”, “make run” or “make flash” should be the only targets you’d need to call. Some flags etc are propagated correctly to the various git’s involved in building “the OP-TEE solution”. But for experienced developers we recommend that try to understand how to build components individually and therefore also learn how to enable various flags manually.</p>
+                    <a href="https://github.com/OP-TEE/build" class="project-more-info text-center center-block">
+                          More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/OP-TEE/optee_linuxdriver"><i class="fa fa-github project-icon fa-5x text-center center-block" aria-hidden="true"></i>
+                        <h4 class="project-title text-center">optee_linuxdriver (deprecated)</h4></a>
+                    <p class="text-center">Used to be the official “OP-TEE” Linux kernel driver. This has been deprecated in favor for the version we are trying to mainline, which as of now corresponds to <a href="https://lkml.org/lkml/2016/6/1/377">this</a> patch set.</p>
+                    <a href="https://github.com/OP-TEE/optee_linuxdriver" class="project-more-info text-center center-block">
+                          More Info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </a>
+                </div>
+            </div>
+
+            <hr/>
+
+            <p>Github: <a href="https://github.com/OP-TEE">https://github.com/OP-TEE</a> </p>
+
+        </div>
+        <!-- Tab panel End-->
+    </div>
+    <!-- Tab Content End-->
+
+
+      {% include members.html %}
+
+{% include page-structure-bottom.html %}
