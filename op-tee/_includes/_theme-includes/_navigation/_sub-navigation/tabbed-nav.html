@@ -1,0 +1,150 @@
+    <div class="tabbed-area" id="tabbed-nav-bar"><!-- Nav tabs -->
+    <nav class="navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tabbed-nav-bar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="sub-navigation-header" href=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="tabbed-nav-bar-collapse">
+                <ul class="nav nav-tabs tabbed-nav" id="tab-row" role="tablist">
+                    {% assign page_base =  page.url | split:'/' %}
+                    <!--About Sub Navigation START-->
+                    {% if page.permalink == "/about/" or
+                        page.permalink == "/specifications/" or
+                        page.permalink == "/compliance/" or
+                        page.permalink == "/membership/" or
+                        page.permalink == "/news/" or
+                        page.permalink == "/partner/" %}
+                        <li role="presentation" {% if page.permalink == '/about/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/about/" aria-controls="overview" role="link">96Boards Overview</a></li>
+                        <li role="presentation" {% if page.permalink == '/specifications/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/specifications/" aria-controls="lswg" role="link">Specifications</a></li>
+                        <li role="presentation" {% if page.permalink == '/compliance/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/compliance/" aria-controls="lswg" role="link">Compliance</a></li>
+                        <li role="presentation" {% if page.permalink == '/membership/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/membership/" aria-controls="lswg" role="link">Membership</a></li>
+                        <li role="presentation" {% if page.permalink == '/news/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/news/" aria-controls="lswg" role="link">News</a></li>
+                    {% endif %}
+                    <!--About Sub Navigation END-->
+
+                    <!--Products Sub Navigation START-->
+                    {% if page.permalink == "/products/" or
+                        page.permalink == "/products/ce/" or
+                        page.permalink == "/products/ee/" or
+                        page.permalink == "/products/ie/" or
+                        page.permalink == "/products/mezzanine/" or
+                        page.permalink == "/products/accessories/" %}
+                        {% assign active == "active" %}
+                        <li role="presentation" {% if page.permalink == '/products/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
+                        <li role="presentation" {% if page.permalink == '/products/ce/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
+                        <li role="presentation" {% if page.permalink == '/products/ee/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                        <li role="presentation" {% if page.permalink == '/products/ie/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                        <li role="presentation" {% if page.permalink == '/products/mezzanine/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                        <li role="presentation" {% if page.permalink == '/products/accessories/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
+                    {% endif %}
+
+                    {% if page.permalink == "/projects/" or
+                        page_base[1] == "projects" and page_base[2] or
+                        page.permalink == "/projects/contribute.md/" or
+                        page.permalink == "/projects/faq.md/" or
+                        page.permalink == "/projects/submit.md/" %}
+                            {% if page_base[2] and
+                             page_base[2] != "faq.md" and
+                             page_base[2] != "contribute.md" and
+                             page_base[2] != "submit.md" %}
+                                <li role="presentation" class="active tabbed-nav-btn"><a href="{{page.permalink}}" aria-controls="overview" role="link">{{page.title}}</a></li>
+                            {% endif %}
+                        <li role="presentation" {% if page.permalink == '/projects/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/" aria-controls="overview" role="link">Projects</a></li>
+                        <li role="presentation" {% if page.permalink == '/projects/contribute.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/contribute.md/" aria-controls="lswg" role="link">Contribute</a></li>
+                        <li role="presentation" {% if page.permalink == '/projects/faq.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/projects/faq.md/" aria-controls="lswg" role="link">FAQ</a></li>
+                        <li role="presentation" class="tabbed-nav-btn"><a href="https://www.96boards.org/openhours/" aria-controls="lswg" role="link">OpenHours</a></li>
+                        <li role="presentation" {% if page.permalink == '/projects/submit.md/' %}class="active tabbed-nav-btn pull-right"{% else %}class="tabbed-nav-btn pull-right"{% endif %}><a href="/projects/submit.md/" aria-controls="lswg" role="link">Submit a Project</a></li>
+                    {% endif %}
+
+                    {% if page.permalink == "/product/debug/" or
+                        page.permalink == "/product/power/" or
+                        page.permalink == "/product/misc/" or
+                        page.permalink == "/product/adapter/" %}
+                        <li role="presentation" class="tabbed-nav-btn"><a href="/products/accessories/" aria-controls="overview" role="link">All Accessories</a></li>
+                        <li role="presentation" {% if page.permalink == '/product/debug/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/product/debug/" aria-controls="lswg" role="link">Debug</a></li>
+                        <li role="presentation" {% if page.permalink == '/product/power/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/product/power/" aria-controls="lswg" role="link">Power</a></li>
+                        <li role="presentation" {% if page.permalink == '/product/adapter/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/product/adapter/" aria-controls="lswg" role="link">Adapters</a></li>
+                        <li role="presentation" {% if page.permalink == '/product/misc/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/product/misc/" aria-controls="lswg" role="link">Misc</a></li>
+                    {% endif %}
+
+                    {% assign product = site.data.product_db.products | where: "product_permalink", page.permalink | first %}
+                    {% if product %}
+                        {% if product.product_specification == "ce"
+                        or product.product_specification == "ee"
+                        or product.product_specification == "ie"
+                        or product.product_specification == "mezzanine" %}
+                            {% assign page-url = page.url | downcase %}
+                            {% assign getting-started = product.product_getting_started %}
+                            {% assign tutorials = product.product_permalink | split: "/"%}
+                            {% assign tutorials = product.product_tutorials_link %}
+                            <li role="presentation" class="active tabbed-nav-btn"><a href="{{ page.permalink }}" aria-controls="overview" role="link">{{ product.product_title }}</a></li>
+                            {% if product.product_getting_started %}
+                            <li role="presentation" class="tabbed-nav-btn"><a href="{{getting-started}}" aria-controls="lswg" role="link">Getting Started</a></li>
+                            {% endif %}
+                            {% if product.product_documentation_link %}
+                            <li role="presentation" class="tabbed-nav-btn"><a href="{{ product.product_documentation_link }}" aria-controls="lswg" role="link">Documentation</a></li>
+                            {% endif %}
+                            {% if product.product_tutorials_link %}
+                            <li role="presentation" class="tabbed-nav-btn"><a href="{{tutorials}}" aria-controls="lswg" role="link">Tutorial</a></li>
+                            {% endif %}
+                            {% if product.product_support_link %}
+                            <li role="presentation" class="tabbed-nav-btn pull-right"><a href="{{ product.product_support_link }}" aria-controls="lswg" role="link">Support Forum</a></li>
+                            {% endif %}
+                        {% else %}
+                            <li role="presentation" class="tabbed-nav-btn"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
+                            <li role="presentation" class="tabbed-nav-btn"><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
+                            <li role="presentation" class="tabbed-nav-btn"><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                            <li role="presentation" class="tabbed-nav-btn"><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                            <li role="presentation" class="active tabbed-nav-btn"><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                            <li role="presentation" class="tabbed-nav-btn"><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if page_base[1] == "product"%}
+                        {% if page.permalink == "/product/dragonboard410c-buy.md/" %}
+                            <li role="presentation"><a href="/products/" aria-controls="overview" role="link">Latest Boards</a></li>
+                            <li role="presentation" {% if page.permalink == '/product/dragonboard410c-buy.md/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/products/ce/" aria-controls="lswg" role="link">Consumer Edition</a></li>
+                            <li role="presentation"><a href="/products/ee/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                            <li role="presentation"><a href="/products/ie/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                            <li role="presentation"><a href="/products/mezzanine/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                            <li role="presentation"><a href="/products/accessories/" aria-controls="lswg" role="link">Accessories</a></li>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if page_base[1] == "documentation" %}
+                        {% if page_base[3] %}
+                            {% assign product-name = page_base[3]%}
+                            {% capture documentation-link %}/{{page_base[1]}}/{{page_base[2]}}/{{page_base[3]}}/{% endcapture %}
+                            {% capture support-link %}/{{page_base[1]}}/{{page_base[2]}}/{{page_base[3]}}/{% endcapture %}
+                            {% capture documentation-link %}/{{page_base[1]}}/{{page_base[2]}}/{{page_base[3]}}/{% endcapture %}
+                            <li role="presentation" class="active tabbed-nav-btn"><a href="{{documentation-link}}" aria-controls="overview" role="link">{{ product-name | capitalize}}</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/" aria-controls="overview" role="link">All Docs</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/ConsumerEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/ConsumerEdition/" aria-controls="overview" role="link">CE</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/EnterpriseEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/EnterpriseEdition/" aria-controls="lswg" role="link">EE</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/IoTEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/IoTEdition/" aria-controls="lswg" role="link">IE</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/MezzanineProducts/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/MezzanineProducts/" aria-controls="lswg" role="link">Mezzanine</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/Specifications/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/Specifications/" aria-controls="lswg" role="link">Specifications</a></li>
+                        {% else %}
+                            <li role="presentation" {% if page.permalink == '/documentation/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/" aria-controls="overview" role="link">All Docs</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/ConsumerEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/ConsumerEdition/" aria-controls="overview" role="link">Consumer Edition</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/EnterpriseEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/EnterpriseEdition/" aria-controls="lswg" role="link">Enterprise Edition</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/IoTEdition/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/IoTEdition/" aria-controls="lswg" role="link">IoT Edition</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/MezzanineProducts/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/MezzanineProducts/" aria-controls="lswg" role="link">Mezzanine Products</a></li>
+                            <li role="presentation" {% if page.permalink == '/documentation/Specifications/' %}class="active tabbed-nav-btn"{% else %}class="tabbed-nav-btn"{% endif %}><a href="/documentation/Specifications/" aria-controls="lswg" role="link">Specifications</a></li>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if page_base[1] == "blog" %}
+                            <li role="presentation" class="active tabbed-nav-btn"><a href="/blog/" aria-controls="overview" role="link">Blog</a></li>
+                    {% endif %}
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </div>

@@ -1,0 +1,93 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857;
+  color: black;
+  background-color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  margin: 0 0 10.5px;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  padding-top: 100px;
+  background: transparent;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.5px;
+  font-family: 'LatoWeb', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #131313 !important;
+  line-height: 1.66em;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+html {
+  background: #000 url("../images/optee-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    background: #000 url("../images/optee-bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 80px;
+  }
+}
+
+::-webkit-selection {
+  background-color: #0084ab;
+  color: #fff;
+}

@@ -1,0 +1,51 @@
+    <div class="container-fluid breadcrumb-container"><!--- Main fluid container start ---->
+      <div class="row"> <!--- Row Start ---->
+        <div class="container"><!--- Container Start ---->
+          <h1>
+              {% if page.page_title %}
+                {{ page.page_title }}
+              {% else %}
+                {{page.title}}
+              {% endif %}
+          </h1>
+          <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <a itemprop="item" href="/">
+                      <span itemprop="name">96Boards</span>
+                  </a>
+                  <meta itemprop="position" content="1" />
+              </li>
+              {% assign page-url = page.url | split: "/" %}
+              {% assign iterator = 2 %}
+              {% assign breadcrumb-path = "/" %}
+              {% for section in page-url %}
+                  {% if section == "" or section == "index.html"%}
+                      {% continue %}
+                  {% elsif section == "product" %}
+                      {% capture breadcrumb-path %}{{breadcrumb-path}}{{section}}/{% endcapture%}
+                          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                              <a itemprop="item" href="/products/">
+                                  <span itemprop="name">{{section | truncate: 20 | capitalize }}s</span>
+                              </a>
+                              <meta itemprop="position" content="{{iterator}}" />
+                          </li>
+                  {% else %}
+                  {% capture breadcrumb-path %}{{breadcrumb-path}}{{section}}/{% endcapture%}
+                      <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                          <a itemprop="item" href="{{breadcrumb-path}}">
+                              <span itemprop="name">{{section | truncate: 20 | capitalize }}</span>
+                          </a>
+                          <meta itemprop="position" content="{{iterator}}" />
+                      </li>
+                  {% endif %}
+                  {% assign iterator = iterator + 1 %}
+              {% endfor %}
+              {% assign iterator = iterator + 1%}
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                  <span itemprop="name">{% if page.title %}{{page.title}}{% else %}{{ page.title }}{% endif %}</span>
+                  <meta itemprop="position" content="{{iterator}}" />
+              </li>
+          </ol>
+      </div>
+    </div>
+</div>

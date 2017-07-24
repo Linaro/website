@@ -1,0 +1,66 @@
+{% include google-tag-manager-second.html %}
+<div class="main-navbar">
+    <nav class="navbar-inverse navbar-fixed-top" role="navigation" id="main-navigation">
+    <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/">
+                    <img id="brand-image" src="/images/OP-TEE-Logo_white-standard-OPTEE-colour.svg" alt="OP-TEE"/>
+                </a>
+          </div>
+
+      <div class="collapse navbar-collapse main-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            {% if page.url == "/about/" %}<li class="active css-hover dropdown">{% else %}<li class="css-hover dropdown">{% endif %}
+            <a data-toggle="dropdown" class="dropdown-toggle" href="/about/">About <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about/">Overview</a></li>
+              <li><a href="/swg/">Security Working Group</a></li>
+              <li><a href="/committee/">Committee</a></li>
+              <li><a href="/legal/">Legal</a></li>
+            </ul>
+          </li>
+          {% if page.url == "/projects/" %}<li class="active css-hover dropdown">{% else %}<li class="css-hover dropdown">{% endif %}
+            <a data-toggle="dropdown" class="dropdown-toggle" href="/projects/">Projects <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/projects/">OP-TEE Projects</a></li>
+              <li><a href="/projects/dependencies/">Dependencies</a></li>
+              <li><a href="/roadmap/">Roadmap</a></li>
+              <li><a href="/security-advisories/">Security Advisories</a></li>
+            </ul>
+          </li>
+
+          {% if page.url == "/documentation/" %}<li class="active">{% else %}<li>{% endif %}<a href="/documentation/">Documentation</a></li>
+          {% if page.url == "/faq/" %}<li class="active">{% else %}<li>{% endif %}<a href="/faq/">FAQ</a></li>
+          {% if page.url == "/blog/" %}<li class="active">{% else %}<li>{% endif %}<a href="/blog/">Blog</a></li>
+          {% if page.url == "/contact/" %}<li class="active">{% else %}<li>{% endif %}<a href="/contact/">Contact</a></li>
+
+
+             <li class="dropdown" id="search-form">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
+              <ul class="dropdown-menu" id="searchDropdown">
+                  <form class="form-inline" action="/search/" method="GET" target="_self">
+                      <input type="text" name="q" class="form-control" placeholder="Search...">
+                      <button type="reset" class="btn btn-default dropdown-toggle" data-target="#searchDropdown" data-toggle="dropdown" id="closeForm">
+                          <span class="glyphicon glyphicon-remove">
+                              <span class="sr-only">Close</span>
+                          </span>
+                      </button>
+                      <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                      <input type="hidden" name="fields.label" value="{{ site.search-label }}">
+                  </form>
+                </ul>
+              </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+</div>

@@ -1,0 +1,139 @@
+{% for product in site.data.product_db.products %}
+    {% if product.product_permalink == page.permalink %}
+        {% assign bc = product %}
+    {% endif %}
+{% endfor %}
+{% if bc %}
+    <div class="container-fluid breadcrumb-container"><!--- Main fluid container start ---->
+      <div class="row"> <!--- Row Start ---->
+        <div class="container breadcrumb-inner-container"><!--- Container Start ---->
+          <h1>
+            {% if bc.breadcrumb-title %}
+              {{ bc.breadcrumb-title }}
+            {% else %}
+              {{
+                bc.product_title
+              }}
+            {% endif %}
+          </h1>
+          <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="/">
+                    <span itemprop="name">96Boards</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            {% if bc.breadcrumb-section %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase}}/">
+                        <span itemprop="name">{{ bc.breadcrumb-section }}</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-section-two %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase }}/{{ bc.breadcrumb-section-two | replace: " ", "" | downcase}}">
+                        <span itemprop="name">{{ bc.breadcrumb-section-two }}</span>
+                    </a>
+                    <meta itemprop="position" content="3" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-section-three %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase }}/{{ bc.breadcrumb-section-two | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-three | replace: " ", "" | downcase}}/">
+                        <span itemprop="name">{{ bc.breadcrumb-section-three }}</span>
+                    </a>
+                    <meta itemprop="position" content="4" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-section-four %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase}}/{{ bc.breadcrumb-section-two | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-three | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-four | replace: " ", "" | downcase}}/">
+                        <span itemprop="name">{{ bc.breadcrumb-section-four }}</span>
+                    </a>
+                    <meta itemprop="position" content="5" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-section-five %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase}}/{{ bc.breadcrumb-section-two | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-three | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-four | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-five | replace: " ", "" | downcase}}/">
+                        <span itemprop="name">{{ bc.breadcrumb-section-five }}</span>
+                    </a>
+                    <meta itemprop="position" content="6" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-section-six %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <a itemprop="item" href="/{{ bc.breadcrumb-section | replace: " ", "" | downcase}}/{{ bc.breadcrumb-section-two | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-three | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-four | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-five | replace: " ", "" | downcase}}/{{bc.breadcrumb-section-six | replace: " ", "" | downcase}}/">
+                        <span itemprop="name">{{ bc.breadcrumb-section-six }}</span>
+                    </a>
+                    <meta itemprop="position" content="7" />
+                </li>
+            {% endif %}
+            {% if bc.breadcrumb-subtitle %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <span itemprop="name">{{ bc.breadcrumb-subtitle }}</span>
+                    <meta itemprop="position" content="8" />
+                </li>
+            {% elsif bc.product_title %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <span itemprop="name">{{ bc.product_title }}</span>
+                    <meta itemprop="position" content="8" />
+                </li>
+            {% else %}
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                    <span itemprop="name">{{ page.title }}</span>
+                    <meta itemprop="position" content="8" />
+                </li>
+            {% endif %}
+          </ol>
+      </div>
+    </div>
+    </div>
+
+{% else %}
+    {% assign bc = page %}
+    <div class="container-fluid breadcrumb-container"><!--- Main fluid container start ---->
+      <div class="row"> <!--- Row Start ---->
+        <div class="container"><!--- Container Start ---->
+          <h1>
+              {{page.title}}
+          </h1>
+          <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+              {% assign page-url = page.permalink | split: "/" %}
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                  <a itemprop="item" href="/">
+                      <span itemprop="name">96Boards</span>
+                  </a>
+                  <meta itemprop="position" content="1" />
+              </li>
+              {% assign iterator = 2 %}
+              {% assign breadcrumb-path = "/" %}
+              {% for section in page-url %}
+                  {% if section == ""%}
+                      {% continue %}
+                  {% else %}
+                      <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                          <a itemprop="item" href="{{breadcrumb-path}}">
+                              <span itemprop="name">{{section | capitalize }}</span>
+                          </a>
+                          <meta itemprop="position" content="{{iterator}}" />
+                      </li>
+                  {% endif %}
+                  {% assign breadcrumb-path = breadcrumb-path + section + "/" %}
+                  {% assign iterator = iterator + 1%}
+              {% endfor %}
+              {% assign iterator = iterator + 1%}
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                  <span itemprop="name">{{page.title}}</span>
+                  <meta itemprop="position" content="{{iterator}}" />
+              </li>
+
+
+          </ol>
+      </div>
+    </div>
+    </div>
+
+{% endif %}

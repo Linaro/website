@@ -1,0 +1,74 @@
+# Site settings
+destination: _deploy
+title: OP-TEE
+email: kyle.kirkby@linaro.org
+description: OP-TEE is an open source project which contains a full implementation to make up a complete Trusted Execution Environment.
+
+
+url: "https://op-tee.org" # Change this to the FQDN of OP-TEE when deployed.
+# url: static-linaro-org.s3-website-us-east-1.amazonaws.com
+fullpath: https://site-test.linaro.org
+
+
+
+twitter_username: OP-TEE
+github_username:  OP-TEE
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+
+#Includes
+include: ["_content"] # Org pages http://damonbauer.me/organizing-jekyll-pages/
+
+#Include the required gems.
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - uglifier
+  - jekyll-assets
+  - jekyll-tidy
+  - jekyll-sitemap
+
+# Compress the html and beautify it.
+jekyll_tidy:
+    compress_html: true
+
+# Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
+assets:
+  compress:
+        js: true
+        css: true
+  autoprefixer:
+      browsers: ["last 2 versions","> 5%","IE 9"]
+  sources:
+    - _assets/js
+    - _assets/css
+    - _assets/images
+    - _assets/images/blog
+    - _assets/images/projects
+
+# Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
+sass:
+    style: compressed
+    sass_dir: _assets/css
+
+# Build settings
+markdown: kramdown
+
+#pagination
+paginate_path: /blog/:num/
+# Permalink for the blog posts of the Jekyll website.
+permalink: /blog/:title/
+
+# Paginate v2 plugin setup
+pagination:
+    enabled: true
+    per_page: 10
+    trail:
+        before: 2
+        after: 2
+    sort_reverse: true
+    sort_field: 'date'
+
+search-label: OpTee
