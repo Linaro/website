@@ -18,8 +18,11 @@ Most LSK features can be disabled at either build or run time so are included as
 | PAN emulation | N/A | N/A | N/A | 17.06 |
 | Kexec/kdump | N/A | N/A | 17.06 | 17.06 |
 | OPTEE * | 16.04 | N/A | 16.04 | 17.01 |
+| ION * | N/A | N/A | N/A | 17.07 |
 
 \* OPTEE(Open Portable Trusted Execution Environment) out of upstream code were maintained as separate branches, [v3.18|v4.4|v4.9]/topic/optee, out of the LSK mainline. From lsk 4.9, the upstream merged OPTEE  also backported into LSK mainline.
+
+\* ION is backported as out of LSK tree branch v4.9/topic/ion, since it includs ABI changes.
 
 ### Communication/Support
 
