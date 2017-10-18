@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: U-Boot
+permalink: /services/android/bootloaders/u-boot/
+---
 # U-Boot
 	
 We also have experience in providing clients with upstreamed ports of U-Boot.

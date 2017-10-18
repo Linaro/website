@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: Security
+permalink: /services/linux/security/
+---
 # Security
 
 Linaro specialises in providing security to ARM Open Source Linux distributions and delivering high quality secure products across the ARM Open Source ecosystem. The Linaro Security Working Group (SWG) was created to reduce fragmentation of implementations underpinning security within ARM based systems. 

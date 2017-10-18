@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: LAVA Integration
+permalink: /services/verification-testing-ci/lava-integration/
+---
 # LAVA Integration
 
 Linaro has developed an automated testing system called LAVA (Linaro Automated Validation Architecture) which delivers device automation and result collection. The software for this system is open source and can be recreated by following the documentation. 

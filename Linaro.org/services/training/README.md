@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: Training
+permalink: /services/training/
+---
 # Training
 
 One of the areas where Linaro Developer Services can really add value is through consultation and training. We currently offer training courses on the following topics:

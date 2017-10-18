@@ -1,3 +1,9 @@
+---
+layout: developer-services
+title: Linaro Developer Services
+permalink: /services/
+---
+
 # Developer Services 
 
 We at Linaro Developer Services are ARM software engineering experts. We pride ourselves on the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of our work and professionalism of the engagements with our customers. 
@@ -10,5 +16,3 @@ The reason hardware manufacturers approach us is because the work we do on ARM s
 
 Linaro Developer Services welcome projects with both member and non-member companies. We certainly have experience on software development projects on other platforms as well.
 
-## Contact us
-Would you like to find out more?

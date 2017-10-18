@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: OS and Distribution Integration
+permalink: /services/servers-gateways-development-boards/hardware-enablement/os-distribution-integration/
+---
 # OS and Distribution Integration
 
 Linaro Developer Services specialises in distribution integration in two particular areas; AOSP and Android, and Linux and Debian. In both instances we offer:
