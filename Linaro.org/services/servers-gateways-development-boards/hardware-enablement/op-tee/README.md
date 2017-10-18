@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: OP-TEE
+permalink: /services/servers-gateways-development-boards/hardware-enablement/op-tee/
+---
 # OP-TEE
 OP-TEE (Open Portable Trusted Execution Environment) is Linaro's implementation of a Trusted Execution Environment (TEE) as defined by the Open Mobile Terminal Platform (OMTP) and based on [specifications published by the GlobalPlatform association](https://www.globalplatform.org/mediaguidetee.asp).
 

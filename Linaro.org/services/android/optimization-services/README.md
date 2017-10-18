@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: Optimization Services
+permalink: /services/android/optimization-services/
+---
 # Optimization Services
 
 Linaro Developer Services has extensive experience in helping clients improve their existing tools and infrastructure through optimization and automation. 

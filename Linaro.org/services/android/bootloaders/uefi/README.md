@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: UEFI
+permalink: /services/android/bootloaders/uefi/
+---
 # UEFI
 
 LDS has provided several of its clients with upstreamed ports of the Unified Extensible Firmware Interface (UEFI).  These ports are based on the EDKII UEFI reference implementation.

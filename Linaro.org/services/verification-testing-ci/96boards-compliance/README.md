@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: 96Boards Compliance
+permalink: /services/verification-testing-ci/96boards-compliance/
+---
 # 96Boards Compliance
 
 Linaro Developer Services provides 96Boards designers and manufacturing partners with expert advice and services to allow your board to meet the 96Boards compliance requirements.   

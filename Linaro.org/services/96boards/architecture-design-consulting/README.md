@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: Architecture and Design Consulting
+permalink: /services/96boards/architecture-design-consulting/
+---
 # Architecture and Design Consulting
 
 Linaro Developer Services provides 96Boards designers and manufacturing partners with the following expert consulting services:

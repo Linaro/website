@@ -1,3 +1,8 @@
+---
+layout: developer-services
+title: Linux kernel
+permalink: /services/android/linux-kernel/
+---
 # Linux kernel
 
 Linaro is consistently listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10. Contributions go through cycles and Linaro was ranked #1 in Kernel 4.9 due to a block of contributions developed as part of project Ara. Linaro currently has over 25 kernel maintainers on staff.
