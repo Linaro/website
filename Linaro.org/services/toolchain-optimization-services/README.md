@@ -2,10 +2,14 @@
 layout: developer-services
 title: Toolchain Optimization Services
 permalink: /services/toolchain-optimization-services/
+keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, microarchitecture
 ---
-- World class team with deep understanding of the ARM architecture and ARM toolchain (GCC, glibc, and LLVM) 
+Linaro has world class teams with deep understanding of the ARM architecture and ARM toolchain (GNU toolchain and LLVM).  Linaro Developer Services has deep experience with:
+
 - Microarchitecture optimizations (tuning, custom instructions scheduler, and advanced optimization)
 - Optimization of libraries, both code generation against custom workloads and algorithmic optimizations
 - Strong working relationship with the toolchain upstream community facilitating rapid upstreaming and problem resolution
 - Provide rapid response to toolchain issues
 - Developer Services has significant experience with development in this area for ARM architectural licensees
+
+Interested in a toolchain tuned for your SoC.  Let Linaro Developer Services help you.
