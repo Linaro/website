@@ -1,0 +1,24 @@
+---
+author: bill.fischofer
+comments: false
+date: 2014-05-06 19:13:45+00:00
+excerpt: OpenDataPlane continues its progress towards a stable ODP v1.0 release via
+  the v0.2 development release. This release introduces the ODP scheduler to permit
+  seamless scale-out across multiple cores as well as additional enhancements in queuing
+  and basic timer management functions. Also included is netmap acceleration of packet
+  I/O on x86 platforms.
+layout: post
+link: https://www.linaro.org/blog/lng/
+slug: lng
+title: OpenDataPlane project releases v0.2 development release
+wordpress_id: 5770
+categories:
+- Linaro Blog
+tags:
+- ODP
+- OpenDataPlane
+---
+
+[vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"][OpenDataPlane](http://www.opendataplane.org/) continues its progress towards a stable ODP v1.0 release via the [v0.2 development release](http://www.opendataplane.org/news/odp-v0-2/). This release introduces the ODP scheduler to permit seamless scale-out across multiple cores as well as additional enhancements in queuing and basic timer management functions. Also included is netmap acceleration of packet I/O on x86 platforms.[/vc_column_text][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][mk_image src="http://www.linaro.org/wp-content/uploads/2014/05/ODP-homepage-image.jpg" image_width="800" image_height="350" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]This is the last pure software interim release of ODP. Development is now focused on accelerated SoC platform support as well as defining and adding APIs for key features like crypto that are in common use in the data plane and need to span the differing hardware capabilities of various platforms supporting ODP. Also under development is a DPDK-based x86 implementation to make DPDK the preferred software acceleration technology for ODP applications when running on x86 platforms.
+
+The goal remains to allow ODP applications to enjoy both easy portability and optimized performance across all platforms and architectures hosting ODP implementations. ODP v1.0 is currently targeted for completion by year end 2014. To follow all of ODP’s activities and status please visit our status page [http://www.opendataplane.org/status/](http://www.opendataplane.org/status/)[/vc_column_text][/vc_column][/vc_row]

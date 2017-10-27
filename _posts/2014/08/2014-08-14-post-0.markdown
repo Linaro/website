@@ -1,0 +1,42 @@
+---
+author: agustin.benito
+comments: true
+date: 2014-08-14 07:35:14+00:00
+excerpt: The Linaro Core Development Group publishes a blog to promote the work our
+  engineers are doing in the kernel, power management, security and virtualization
+  areas, focusing on upstream work.
+layout: post
+link: https://www.linaro.org/blog/core-dump/post-0/
+slug: post-0
+title: 'Core Dump: Post #0'
+wordpress_id: 6293
+categories:
+- Core Dump
+tags:
+- engineer
+- foss
+- pov
+---
+
+# Core Dump: Post #0
+
+
+Why is upstream work relevant for the industry? Why should companies invest in collaborating through upstream communities? Why is it better to participate than just watching others do the work and using the outcome? Why is Linaro a good starting point for companies that want to embrace Free and Open Source Software (FOSS)? Why is it also an outstanding environment for those who are already leading in a particular area, taking advantage of a strong open source culture?
+
+These questions can be answered directly by any manager at Linaro. In the Core Development Group we want to support those answers by telling our story, from our point of view - i.e. from an engineer’s point of view.
+
+And the best way to do this is by explaining what we do, why it is important not only for the upstream projects we work on, but also for our Members, who decided that facing **challenges** together in areas we are working on is more efficient.
+
+But there are other interesting questions that we would like to shed some light on.
+
+How can we define the impact of our work? How useful is the outcome of our efforts, again, for upstream communities and our members? Why are the technical challenges we face everyday meaningful to the industry and, specially to our members, not just to the communities we are involved in?
+
+In summary, why is it worth investing in Linaro, to invest in what we do?
+
+Again our approach to this challenge is to describe our work on a regular basis in a way that can be understood by people not only with technical backgrounds but also by our stakeholders, from Linaro Members. So Core Dump is going to be a series of technical posts with an eye on the technical decision makers in industries we are involved on. The challenge ahead of us is big, but that is what Linaro is all about…
+
+Will we be able to help in providing answers to all these questions by simply explaining what we are doing? Well, you will have to read on to find out. The first blog post by Mathieu Poirier about [ARM® CoreSight™ is a good place to start ](/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/).
+
+
+
+ARM® CoreSight™  is an [ARM trademark](http://www.arm.com/about/trademarks/arm-trademark-list/CoreSight-trademark.php)
