@@ -1,4 +1,5 @@
 ---
+service_id: "5"
 layout: developer-services
 title: Kernels and Long Term Support Services
 permalink: /services/kernel-lts/

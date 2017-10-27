@@ -1,4 +1,5 @@
 ---
+service_id: "1"
 layout: developer-services
 title: 96Boards Product Development & Support
 permalink: /services/96boards/
@@ -23,5 +24,5 @@ Linaro Developer Services has a wealth of experience with Linaro's 96Boards prog
     - Boards with Debian and OE support
     - Supported boards fully upstream
         - Bootloaders, kernels, OS changes
-        
+
 Let Linaro Developer Services help provide superb software support for your 96Board.

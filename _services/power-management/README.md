@@ -1,4 +1,5 @@
 ---
+service_id: "7"
 layout: developer-services
 title: Power Management Tuning Services
 permalink: /services/power-management/
