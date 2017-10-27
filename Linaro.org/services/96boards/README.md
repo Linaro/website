@@ -2,7 +2,10 @@
 layout: developer-services
 title: 96Boards Product Development & Support
 permalink: /services/96boards/
+keywords: 96Boards, HiKey, Dragonboard, Poplar, BSP, AOSP, Linux, Zephyr, kernel, bootloader, UEFI, U-Boot, ARM Trusted Firmware
 ---
+Linaro Developer Services has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:
+
 - Architecture and design consultancy
 - Board enablement and bring-up services
     - Vast experience enabling hardware for embedded product use
@@ -20,3 +23,5 @@ permalink: /services/96boards/
     - Boards with Debian and OE support
     - Supported boards fully upstream
         - Bootloaders, kernels, OS changes
+        
+Let Linaro Developer Services help provide superb software support for your 96Board.
