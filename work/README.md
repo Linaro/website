@@ -1,7 +1,5 @@
 ---
 title: Work
-description: |-
-    Overview of Linaro's engineering organization and how it operates.
 layout: default-no-sub-nav
 permalink: /work/
 js-vendor: extended
