@@ -35,7 +35,6 @@ In 2012, companies from outside the mobile industry began to approach Linaro and
 {% for group in site.groups %}
 {% if group.members_key %}
 {% assign members = site.data.members[group.members_key] %}
-<hr />
 <div class="col-xs-12 group_member_images">
 <h5>{% if group.group_short_name %}{{group.group_short_name | upcase }} Members {% endif %}</h5>
 {% for member in members %}

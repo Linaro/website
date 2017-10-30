@@ -1,5 +1,5 @@
 ---
-core_id: "1"
+core_id: "2"
 title: Kernel
 permalink: /core/kernel/
 director: Mark Brown
@@ -8,6 +8,7 @@ related_projects:
 related_initiatives:
   - "6"
   - "8"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNcK4cX5OS6d4--lQdz6Zws&playnext=1
 ---
 # Kernel
 

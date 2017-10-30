@@ -5,6 +5,27 @@ permalink: /projects/open-source-arm-tools/
 description: |-
     The Toolchain Working Group deals with all aspects of system-level tools – the core development toolchain, emulation, profiling and analysis and instrumentation.
 keywords: toolchain, llvm, performance, development, benchmarking, maintainership, jira, improvements, releases, source
+related_core_groups:
+  - "6"
+related_jira_projects:
+  - name: Project Summary
+    url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47843196#needs_to_be_updated
+  - name: JIRA Board
+    url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47843196#needs_to_be_updated
+  - name: JIRA Structure
+    url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47843196#needs_to_be_updated
+
+governance:
+  - name: Linaro Technical Steering Committee (MEMBERS ONLY)
+    url: https://wiki.linaro.org/Internal/TSC
+
+engineering:
+  - name: Tool Chain Wiki
+    url: https://wiki.linaro.org/WorkingGroups/ToolChain
+
+mailing_lists:
+  - name: Linaro Toolchain
+    url: http://lists.linaro.org/mailman/listinfo/linaro-toolchain
 ---
 # Open Source ARM Tools
 

@@ -5,6 +5,19 @@ permalink: /projects/open-source-security/
 description: |-
     The Open Source Security Project (OSSP) is the main focus for Linaro's Security Working Group (SWG).
 keywords: security, open, source, team, password, required, linaro, main, information, project
+related_core_groups:
+  - "4"
+governance:
+  - name: Linaro Technical Steering Committee (password required)
+    url:  https://wiki.linaro.org/Internal/TSC
+engineering:
+  - name:  Open Source Security Project
+    url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47843172
+related_jira_projects:
+  - name: JIRA Team Kanban board
+    url: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
+related_initiatives:
+  - "9"
 ---
 # Open Source Security
 The Open Source Security Project (OSSP) is the main focus for Linaro's [Security Working Group (SWG)](https://www.linaro.org/core/security/).

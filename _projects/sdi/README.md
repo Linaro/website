@@ -5,6 +5,8 @@ permalink: /projects/sdi/
 description: |-
     SDI is the enabler for the cloud revolution and the fundamental building block for richer services like Platform As A Service (PaaS), Software As A Service (SaaS), Data Base As A Service (DBaaS), etc.
 keywords: openstack, performance, scaling, linaro, containers, service, aarch64, optimizations, storage, testing
+related_groups:
+  - "leg"
 ---
 # SDI
 

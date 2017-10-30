@@ -4,7 +4,7 @@ title: 96Boards
 permalink: /initiatives/96boards/
 icon: 96boards-logo.png
 icon_hd: 96boards-logo-hd.png
-youtube_playlist: https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPYkwDR1vKPNG7W4pYaSLIn
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPpuLXnSPpCxDUzwhMpGHVT&playnext=1
 ---
 # 96Boards
 
