@@ -3,6 +3,7 @@ core_id: "5"
 title: Virtualization
 permalink: /core/virtualization/
 director: Christoffer Dall
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNoPiBTZxdyLtPPJDMQmztZ&playnext=1
 ---
 # Virtualization
 

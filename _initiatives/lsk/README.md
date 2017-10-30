@@ -2,6 +2,7 @@
 initiative_id: "8"
 title: LSK
 permalink: /initiatives/lsk/
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsO5YMwkIwOs2lS60Ob-Ky7s&playnext=1
 ---
 # LSK
 

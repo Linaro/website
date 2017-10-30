@@ -4,7 +4,7 @@ title: OP-TEE
 permalink: /initiatives/op-tee/
 icon: op-tee-logo.png
 icon_hd: op-tee-logo-hd.webp
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsM311TZC_fVQRDEUuE6anPo
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsM311TZC_fVQRDEUuE6anPo&playnext=1
 ---
 # OP-TEE
 

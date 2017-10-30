@@ -5,6 +5,24 @@ permalink: /projects/mobile-power-management/
 description: |-
     ARM SoCs expose a lot of information to software about Hardware knobs for controlling power consumption.
 keywords: power, management, working, kernel, hardware, group, jira, tools, differences, project
+governance:
+  - name: Linaro Technical Steering Committee (MEMBERS ONLY)
+    url: https://wiki.linaro.org/Internal/TSC
+engineering:
+  - name: Power Management Engineering Wiki
+    url: https://wiki.linaro.org/WorkingGroups/PowerManagement
+related_jira_projects:
+  - name: Project Summary
+    url: https://projects.linaro.org/projects/PMWG/summary
+  - name: JIRA Board
+    url: https://projects.linaro.org/secure/RapidBoard.jspa?projectKey=PMWG&rapidView=30
+  - name: JIRA Structure
+    url: https://projects.linaro.org/secure/StructureBoard.jspa?s=100
+mailing_lists:
+  - name: EAS Dev
+    url: https://lists.linaro.org/mailman/listinfo/eas-dev
+  - name: Sched-Tools
+    url: https://lists.linaro.org/mailman/listinfo/sched-tools
 ---
 
 # Mobile Power Management

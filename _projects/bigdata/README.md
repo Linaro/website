@@ -1,11 +1,12 @@
 ---
 project_id: "3"
-layout: default-stacked-breadcrumb
 title: Big Data
 permalink: /projects/bigdata/
 description: |-
     Big Data Analytics is a pretty wide area that is experiencing a 100% growth rate every year, according to the keynotes from the last Hadoop Summit event
 keywords: hadoop, spark, data, java, openjdk, representative, class, workloads, optimise, architecture
+related_groups:
+  - "lmg"
 ---
 # Big Data
 

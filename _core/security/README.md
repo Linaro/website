@@ -7,6 +7,7 @@ related_projects:
   - "5"
 related_initiatives:
   - "9"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOuFyjUlWFWUulxXOhhtsEf&playnext=1
 ---
 # Security
 The Linaro Security Working Group (SWG) was created to help ensure an optimised

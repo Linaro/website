@@ -1,7 +1,9 @@
 ---
-title: ToolChain
+core_id: "6"
+title: Toolchain
 permalink: /core/toolchain/
-future: true
+related_projects:
+  - "7"
 ---
 # Toolchain
 

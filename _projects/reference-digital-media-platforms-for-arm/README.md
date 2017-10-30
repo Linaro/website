@@ -5,6 +5,17 @@ permalink: /projects/reference-digital-media-platforms-for-arm/
 description: |-
     This project has been defined to address the problem of defragmenting the media framework and associated security solutions that are currently found in the market.
 keywords: media, security, android, standardized, video, platforms, both, solution, secure, path
+related_jira_projects:
+ - name: LHG Overview
+   url: https://projects.linaro.org/secure/Dashboard.jspa?selectPageId=10203
+governance:
+  - name: Linaro Technical Steering Committee
+    url: https://wiki.linaro.org/Internal/TSC
+  - name: Linaro Home Group Steering Committee
+    url: https://wiki.linaro.org/Internal/LHG-SC
+engineering:
+  - name: Developer Resources and Documentation
+    url: https://wiki.linaro.org/LHG
 ---
 # Reference Digital Media Platforms for ARM
 

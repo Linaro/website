@@ -5,7 +5,17 @@ permalink: /projects/aosp/
 description: |-
     The Android Open Source Project (AOSP) is the foundation for Android based devices.
 keywords: mobile, android, aosp, project, linaro, engineering, based, those, more, group
-
+related_groups:
+ - "lmg"
+governance:
+  - name: Linaro Mobile Group Steering Committee (MEMBERS ONLY)
+    url: https://wiki.linaro.org/Internal/LMGSC
+engineering:
+  - name: Linaro Mobile Group Engineering Wiki
+    url: https://wiki.linaro.org/LMG
+related_jira_projects:
+  - name: LMG Overview
+    url: https://projects.linaro.org/projects/LMG/summary
 ---
 # Mobile AOSP Optimization
 
