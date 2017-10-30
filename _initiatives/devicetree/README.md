@@ -3,7 +3,7 @@ initiative_id: "5"
 title: DeviceTree
 permalink: /initiatives/devicetree/
 icon: devicetree-logo.webp
-related_core: ""
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOAkIuQvhfHTO_01iljXDxG&playnext=1
 ---
 # DeviceTree
 

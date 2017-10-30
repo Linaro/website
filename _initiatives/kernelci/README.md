@@ -2,6 +2,7 @@
 initiative_id: "6"
 title: KernelCI
 permalink: /initiatives/kernelci/
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMsm3BVTtpDdRHUmeZTOSiW&playnext=1
 ---
 # KernelCI
 
