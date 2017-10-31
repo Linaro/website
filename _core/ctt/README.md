@@ -9,6 +9,7 @@ related_projects:
 related_initiatives:
   - "6"
   - "7"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPUr5SKVE9So5Y571DWSU4Y
 ---
 # Core Technologies & Tools
 

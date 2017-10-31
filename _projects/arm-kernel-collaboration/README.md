@@ -23,6 +23,7 @@ governance:
     url: https://wiki.linaro.org/Internal/TSC
 related_core_groups:
   - "1"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNnMSv7VFoaeZ1COZsx_-1v
 ---
 # ARM Kernel Collaboration
 

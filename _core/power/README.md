@@ -5,7 +5,7 @@ permalink: /core/power/
 director: Vincent Guittot
 related_projects:
   - "4"
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib&playnext=1
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib
 ---
 # Power Management
 

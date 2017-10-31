@@ -7,6 +7,7 @@ description: |-
 keywords: hadoop, spark, data, java, openjdk, representative, class, workloads, optimise, architecture
 related_groups:
   - "lmg"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNS43x2SWtSDsNrA1M4eEXq
 ---
 # Big Data
 

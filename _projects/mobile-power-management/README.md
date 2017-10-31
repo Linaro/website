@@ -23,6 +23,7 @@ mailing_lists:
     url: https://lists.linaro.org/mailman/listinfo/eas-dev
   - name: Sched-Tools
     url: https://lists.linaro.org/mailman/listinfo/sched-tools
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPdiaNrIkWgl-x-fg48gJYV
 ---
 
 # Mobile Power Management

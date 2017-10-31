@@ -1,6 +1,8 @@
 ---
 project_id: "6"
 title: Open Data Plane
+icon: ODP-logo.png
+icon_hd: ODP-logo-hd.svg
 permalink: /projects/opendataplane/
 description: |-
     The OpenDataPlane project (ODP) is an open-source, cross-platform set of application programming interfaces (APIs) for the networking data plane.
@@ -24,7 +26,7 @@ related_jira_projects:
 governance:
   - name: LNG Steering Committee (LNG-SC) (Members Only)
     url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47842677
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsP5AQz0xHG_vaMxbCVRM2jE&playnext=1
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsP5AQz0xHG_vaMxbCVRM2jE
 ---
 # Open Data Plane
 

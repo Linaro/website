@@ -1,7 +1,7 @@
 search: true
 brand:
-    text: OpenDataPlane
-    image: linaro-logo.png
+    text: Linaro
+    image: Linaro-Logo.svg
     url: /
 pages:
     - title: Home
