@@ -7,30 +7,30 @@ permalink: /developers/
 
 You will see that there are several ways to become involved and that everything we do is open, not only software but also our [wiki](http://wiki.linaro.org/FrontPage) and our discussions (on IRC and on our mailing lists).
 
-<ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-tabs" role="tablist" id="developers_tabs">
 
   <li role="presentation" class="active">
     <a href="#individuals" role="tab" data-toggle="tab">
-        <svg class="mk-svg-icon small" data-name="mk-moon-user" data-cacheid="icon-59a7eb5b217bb" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M311.413 351.368c-11.055-1.759-11.307-32.157-11.307-32.157s32.484-32.158 39.564-75.401c19.045 0 30.809-45.973 11.761-62.148.795-17.027 24.48-133.662-95.431-133.662s-96.225 116.635-95.432 133.662c-19.047 16.175-7.285 62.148 11.761 62.148 7.079 43.243 39.564 75.401 39.564 75.401s-.252 30.398-11.307 32.157c-35.61 5.666-168.586 64.317-168.586 128.632h448c0-64.315-132.976-122.966-168.587-128.632z"></path></svg> For Individuals 
+        <svg class="mk-svg-icon small" data-name="mk-moon-user" data-cacheid="icon-59a7eb5b217bb" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M311.413 351.368c-11.055-1.759-11.307-32.157-11.307-32.157s32.484-32.158 39.564-75.401c19.045 0 30.809-45.973 11.761-62.148.795-17.027 24.48-133.662-95.431-133.662s-96.225 116.635-95.432 133.662c-19.047 16.175-7.285 62.148 11.761 62.148 7.079 43.243 39.564 75.401 39.564 75.401s-.252 30.398-11.307 32.157c-35.61 5.666-168.586 64.317-168.586 128.632h448c0-64.315-132.976-122.966-168.587-128.632z"></path></svg> For Individuals
     </a>
   </li>
-  
+
   <li role="presentation">
     <a href="#organizations" role="tab" data-toggle="tab">
         <svg class="mk-svg-icon small" data-name="mk-moon-library-2" data-cacheid="icon-59a7eb5b21ebf" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0l-256 160h512l-256-160zm144 192l16 32v192h64v-192l16-32h-96zm-128 0l16 32v192h64v-192l16-32h-96zm-128 0l16 32v192h64v-192l16-32h-96zm-128 0l16 32v192h64v-192l16-32h-96zm0 256l-16 64h512l-16-64h-480zm272-352c0 17.673-14.327 32-32 32-17.673 0-32-14.327-32-32s14.327-32 32-32c17.673 0 32 14.327 32 32z"></path></svg> For Organizations
     </a>
   </li>
-  
+
   <li role="presentation">
     <a href="#support" role="tab" data-toggle="tab">
-        <svg class="mk-svg-icon small" data-name="mk-icon-comments" data-cacheid="icon-59a7eb5b222e2" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1408 768q0 139-94 257t-256.5 186.5-353.5 68.5q-86 0-176-16-124 88-278 128-36 9-86 16h-3q-11 0-20.5-8t-11.5-21q-1-3-1-6.5t.5-6.5 2-6l2.5-5 3.5-5.5 4-5 4.5-5 4-4.5q5-6 23-25t26-29.5 22.5-29 25-38.5 20.5-44q-124-72-195-177t-71-224q0-139 94-257t256.5-186.5 353.5-68.5 353.5 68.5 256.5 186.5 94 257zm384 256q0 120-71 224.5t-195 176.5q10 24 20.5 44t25 38.5 22.5 29 26 29.5 23 25q1 1 4 4.5t4.5 5 4 5 3.5 5.5l2.5 5 2 6 .5 6.5-1 6.5q-3 14-13 22t-22 7q-50-7-86-16-154-40-278-128-90 16-176 16-271 0-472-132 58 4 88 4 161 0 309-45t264-129q125-92 192-212t67-254q0-77-23-152 129 71 204 178t75 230z"></path></svg> Discussion and Support 
+        <svg class="mk-svg-icon small" data-name="mk-icon-comments" data-cacheid="icon-59a7eb5b222e2" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1408 768q0 139-94 257t-256.5 186.5-353.5 68.5q-86 0-176-16-124 88-278 128-36 9-86 16h-3q-11 0-20.5-8t-11.5-21q-1-3-1-6.5t.5-6.5 2-6l2.5-5 3.5-5.5 4-5 4.5-5 4-4.5q5-6 23-25t26-29.5 22.5-29 25-38.5 20.5-44q-124-72-195-177t-71-224q0-139 94-257t256.5-186.5 353.5-68.5 353.5 68.5 256.5 186.5 94 257zm384 256q0 120-71 224.5t-195 176.5q10 24 20.5 44t25 38.5 22.5 29 26 29.5 23 25q1 1 4 4.5t4.5 5 4 5 3.5 5.5l2.5 5 2 6 .5 6.5-1 6.5q-3 14-13 22t-22 7q-50-7-86-16-154-40-278-128-90 16-176 16-271 0-472-132 58 4 88 4 161 0 309-45t264-129q125-92 192-212t67-254q0-77-23-152 129 71 204 178t75 230z"></path></svg> Discussion and Support
     </a>
   </li>
 
 </ul>
 
 
-<div class="tab-content">
+<div class="tab-content" id="developers_tab_content">
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="individuals" markdown="1">
 
 **See how Linaro operates first-hand…**
@@ -99,7 +99,3 @@ A complete list of Linaro IRC channels can be found [here](https://wiki.linaro.o
 </div>
 
 </div>
-
-
-
-
