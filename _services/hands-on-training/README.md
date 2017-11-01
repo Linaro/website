@@ -1,5 +1,5 @@
 ---
-service_id: "10"
+service_id: 10
 layout: developer-services
 title: Linaro Expert Training Services
 permalink: /services/hands-on-training/

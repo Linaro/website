@@ -1,5 +1,5 @@
 ---
-service_id: "2"
+service_id: 2
 layout: developer-services
 title: Bootloaders and Boot Architecture
 permalink: /services/bootloaders/

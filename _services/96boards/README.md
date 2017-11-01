@@ -1,5 +1,5 @@
 ---
-service_id: "6"
+service_id: 6
 layout: developer-services
 title: 96Boards Product Development & Support
 permalink: /services/96boards/
