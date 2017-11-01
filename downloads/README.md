@@ -32,9 +32,18 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
 
-{% include image.html name="icon-linux-logo-24x24.png" alt="Linux Logo Icon" class="linux-logo" %}
 
- [linux-linaro-stable (LSK) Git](https://git.linaro.org/kernel/linux-linaro-stable.git/), [additional information](https://wiki.linaro.org/LSK)
+<ul>
+<li>
+<img src="{% asset_path 'icon-linux-logo-24x24.png' %}" alt="Linux Linaro">
+<a href="https://git.linaro.org/kernel/linux-linaro-stable.git/">linux-linaro-stable (LSK) Git</a>,
+<a href="https://wiki.linaro.org/LSK">additional information</a>
+</li>
+</ul>
+
+
+*
+  [linux-linaro-stable (LSK) Git](https://git.linaro.org/kernel/linux-linaro-stable.git/), [additional information](https://wiki.linaro.org/LSK)
 
 ***
 
@@ -48,25 +57,31 @@ R-LCR is a build of the Android Open Source Project (AOSP) from a stable release
 
 ## LAVA
 
-
+<div class="col-sm-9 no-padding" markdown="1">
 The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. [Click here for the latest downloads](https://releases.linaro.org/components/lava/latest/).
-
+</div>
+<div class="col-sm-3" markdown="1">
 {% include image.html name="lava-logo_standard.png" class="pull-right" alt="Lava Logo Standard Image"%}
-
-
-***
+</div>
+<div style="clear:both;"></div>
+<hr>
 
 ## Linaro Networking
 
 #### OpenDataPlane
 
-<img src="https://www.linaro.org/wp-content/uploads/2017/01/opendataplane-logo_standard-opendataplane.png" alt="Linaro Lava Logo" width="200px" height="auto" align="right" />
+<div class="col-sm-9 no-padding" markdown="1">
 The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
 - Performance implementation build for x86  using the DPDK SDK. ([odp-dpdk](https://git.linaro.org/lng/odp-dpdk.git))
+</div>
+<div class="col-sm-3" markdown="1">
+{% include image.html name="ODP-logo.png" class="pull-right" alt="ODP Logo"%}
+</div>
+<div style="clear:both;"></div>
+<hr>
 
-***
 ## Linaro Toolchain
 
 Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
