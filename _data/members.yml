@@ -269,6 +269,9 @@ steering_committee:
       - name: Archer Mind
         image: archermind.jpg
         url: /company/archermind/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
       - name: Arrow Electronics
         image: arrow.jpg
         url: /company/arrow/
@@ -284,6 +287,9 @@ steering_committee:
       - name: LeMaker
         image: lemaker.jpg
         url: /company/lemaker/
+      - name: Longsung
+        image: longsung.jpg
+        url: /company/longsung/
       - name: MediaTek
         image: mediatek.jpg
         url: /company/mediatek/
@@ -296,7 +302,7 @@ steering_committee:
       - name: QuIC
         image: quic.jpg
         url: /company/quic/
-      - name: Redhat
+      - name: Red Hat
         image: redhat.jpg
         url: /company/red-hat/
       - name: Socionext
@@ -351,9 +357,6 @@ manufacturing_partners:
     - name: Lemaker
       image: lemaker.jpg
       url: /company/lemaker/
-    - name: Long Sung
-      image: longsung.jpg
-      url: /company/longsung/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
@@ -369,6 +372,9 @@ manufacturing_partners:
     - name: UcRobotics
       image: ucrobotics.jpg
       url: /company/ucrobotics/
+    - name: vamrs
+      image: vamrs.jpg
+      url: /company/vamrs/
     - name: WrtNode
       image: wrtnode.png
       url: /company/wrtnode/
@@ -382,6 +388,3 @@ mezzanine_partners:
     - name: Rohm
       image: rohm.jpg
       url: /company/rohm/
-    - name: vamrs
-      image: vamrs.jpg
-      url: /company/vamrs/

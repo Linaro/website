@@ -21,7 +21,7 @@ Before the code gets accepted upstream, Linaro maintains various development rep
 
 LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](https://www.linaro.org/members/) company.
 
-{:.table-responsive}
+{:.table.responsive-table}
 |:---|:---|:---|:---|:---|
 |ARM | <img src="https://www.linaro.org/wp-content/uploads/2014/08/aarch-64-logo.png" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
 |Qualcomm | <img src="https://www.linaro.org/wp-content/uploads/2014/08/snapdragon-logo.png" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
@@ -75,7 +75,7 @@ The following tables provide direct access to the most common Linux and bare-met
 
 #### Latest Linux Targeted Binary Toolchain Releases
 
-<table class="table table-responsive">
+<table class="table responsive-table">
 <tbody>
 <tr>
 <td style="text-align:left"><strong>arm-linux-gnueabihf</strong></td>
@@ -104,7 +104,7 @@ The following tables provide direct access to the most common Linux and bare-met
 
 #### Latest Bare-Metal Targeted Binary Toolchain Releases
 
-{:.table-responsive}
+{:.table.responsive-table}
 |:---|:---|:---|:---|:---|
 |**arm-eabi**|_32-bit ARMv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 |**aarch64-elf**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
