@@ -51,3 +51,6 @@ To see what Linaro has done at previous Linaro Connects, click on the event you 
 |3|Hilton Prague Old Town|Prague|2010|19 Jul - 23 Jul|20| | |
 |2|Dolce La Hulpe|Brussels|2010|10 May - 14 May|LDS-EU|20| | |
 |1|Hilton Portland (Downtown)|Portland, USA|2010|1 Feb - 5 Feb|LDS-US| |  | |
+
+
+{% include youtube.html playlist_url=page.youtube_playlist %}
