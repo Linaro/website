@@ -1,4 +1,5 @@
 ---
+group_id: 5
 title: Linaro IoT and Embedded (LITE)
 permalink: /groups/lite/
 group_short_name: lite

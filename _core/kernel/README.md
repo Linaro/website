@@ -8,7 +8,7 @@ related_projects:
 related_initiatives:
   - "6"
   - "8"
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNcK4cX5OS6d4--lQdz6Zws&playnext=1
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNcK4cX5OS6d4--lQdz6Zws
 ---
 # Kernel
 

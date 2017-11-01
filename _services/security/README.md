@@ -1,7 +1,8 @@
 ---
-service_id: "8"
+service_id: 1
 layout: developer-services
 title: Security, TrustZone and OP-TEE
+short_name: Security
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
 ---

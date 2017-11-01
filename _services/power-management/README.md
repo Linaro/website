@@ -1,7 +1,8 @@
 ---
-service_id: "7"
+service_id: 5
 layout: developer-services
 title: Power Management Tuning Services
+short_name: Power Management
 permalink: /services/power-management/
 keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
 ---

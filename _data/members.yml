@@ -12,6 +12,9 @@ club_members:
       - name: Google
         image: google.png
         url: /company/google/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
@@ -24,11 +27,81 @@ club_members:
       - name: Texas Instruments
         image: ti.jpg
         url: /company/texas-instruments/
-      - name: ZTE
-        image: zte.jpg
-        url: /company/zte/
+group_members:
+      - name: Acer
+        image: acer.png
+        url: /company/acer/
+      - name: Aliyun
+        image: aliyun.jpg
+        url: /company/aliyun/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Canonical
+        image: canonical.jpg
+        url: /company/canonical/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Cisco
+        image: cisco.jpg
+        url: /company/cisco/
+      - name: Comcast
+        image: comcast.jpg
+        url: /company/comcast/
+      - name: ENEA
+        image: enea.jpg
+        url: /company/enea/
+      - name: Ericsson
+        image: ericsson.jpg
+        url: /company/ericsson/
+      - name: Facebook
+        image: facebook.jpg
+        url: /company/facebook/
+      - name: Fujitsu
+        image: fujitsu.jpg
+        url: /company/fujitsu/
+      - name: Google
+        image: google.png
+        url: /company/google/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
+      - name: MediaTek
+        image: mediatek.jpg
+        url: /company/mediatek/
+      - name: Mstar
+        image: mstar.jpg
+        url: /company/mstar/
+      - name: Nokia
+        image: nokia.jpg
+        url: /company/nokia/
+      - name: NXP
+        image: nxp.jpg
+        url: /company/nxp/
+      - name: Qualcomm Datacenter Technologies
+        image: QualcommDatacenter.png
+        url: /company/qualcomm-datacenter-technologies/
+      - name: QuIC
+        image: quic.jpg
+        url: /company/quic/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
+      - name: Samsung
+        image: samsung.jpg
+        url: /company/samsung/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
 leg_members:
-      - name: Alibaba Cloud
+      - name: Aliyun
         image: aliyun.jpg
         url: /company/aliyun/
       - name: Arm
@@ -43,27 +116,27 @@ leg_members:
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
-      - name: HXT
-        image: hxt.png
-        url: /company/hxt/
       - name: Hisilicon
         image: hisilicon.jpg
         url: /company/hisilicon/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
       - name: Kylin
         image: kylin.jpg
         url: /company/kylin/
-      - name: Qualcomm
+      - name: Qualcomm Datacenter Technologies
         image: QualcommDatacenter.png
         url: /company/qualcomm-datacenter-technologies/
-      - name: Redhat
+      - name: Red Hat
         image: redhat.jpg
         url: /company/red-hat/
+      - name: SaneChips
+        image: sanechips.png
+        url: /company/sanechips/
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
-      - name: ZTE
-        image: zte.jpg
-        url: /company/zte/
 lng_members:
       - name: Arm
         image: arm.jpg
@@ -89,12 +162,12 @@ lng_members:
       - name: NXP
         image: nxp.jpg
         url: /company/nxp/
+      - name: SaneChips
+        image: sanechips.png
+        url: /company/sanechips/
       - name: Texas Instruments
         image: ti.jpg
         url: /company/texas-instruments/
-      - name: ZTE
-        image: zte.jpg
-        url: /company/zte/
 lhg_members:
       - name: Arm
         image: arm.jpg
@@ -114,6 +187,9 @@ lhg_members:
       - name: QuIC
         image: quic.jpg
         url: /company/quic/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
@@ -123,9 +199,6 @@ lhg_members:
       - name: Texas Instruments
         image: ti.jpg
         url: /company/texas-instruments/
-      - name: ZTE
-        image: zte.jpg
-        url: /company/zte/
 lmg_members:
        - name: Arm
          image: arm.jpg
@@ -142,17 +215,18 @@ lmg_members:
        - name: Samsung
          image: samsung.jpg
          url: /company/samsung/
+       - name: Sanechips
+         image: sanechips.png
+         url: /company/sanechips/
        - name: SpreadTrum
          image: spreadtrum.jpg
          url: /company/spreadtrum/
        - name: Texas Instruments
          image: ti.jpg
          url: /company/texas-instruments/
-       - name: ZTE
-         image: zte.jpg
-         url: /company/zte/
+
 lite_members:
-       - name: acer
+       - name: Acer
          image: acer.png
          url: /company/acer/
        - name: Arm
@@ -170,6 +244,9 @@ lite_members:
        - name: Redhat
          image: redhat.jpg
          url: /company/red-hat/
+       - name: Sanechips
+         image: sanechips.png
+         url: /company/sanechips/
        - name: SpreadTrum
          image: spreadtrum.jpg
          url: /company/spreadtrum/
@@ -179,9 +256,9 @@ lite_members:
        - name: Texas Instruments
          image: ti.jpg
          url: /company/texas-instruments/
-       - name: ZTE
-         image: zte.jpg
-         url: /company/zte/
+       - name: Xilinx
+         image: xilinx.jpg
+         url: /company/xilinx/
 steering_committee:
       - name: Actions
         image: actions.jpg
@@ -192,6 +269,9 @@ steering_committee:
       - name: Archer Mind
         image: archermind.jpg
         url: /company/archermind/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
       - name: Arrow Electronics
         image: arrow.jpg
         url: /company/arrow/
@@ -207,6 +287,9 @@ steering_committee:
       - name: LeMaker
         image: lemaker.jpg
         url: /company/lemaker/
+      - name: Longsung
+        image: longsung.jpg
+        url: /company/longsung/
       - name: MediaTek
         image: mediatek.jpg
         url: /company/mediatek/
@@ -219,7 +302,7 @@ steering_committee:
       - name: QuIC
         image: quic.jpg
         url: /company/quic/
-      - name: Redhat
+      - name: Red Hat
         image: redhat.jpg
         url: /company/red-hat/
       - name: Socionext
@@ -254,8 +337,11 @@ manufacturing_partners:
       image: element14.png
       url: /company/element14/
     - name: Fujitsu Electronics
-      image: fujitsu.jpg
+      image: fujitsu-electronics.png
       url: /company/fujitsu-electronics/
+    - name: Gigabyte
+      image: gigabyte.jpg
+      url: /company/gigabyte/
     - name: Global Scale
       image: GlobalScale.jpg
       url: /company/globalscale/
@@ -271,9 +357,6 @@ manufacturing_partners:
     - name: Lemaker
       image: lemaker.jpg
       url: /company/lemaker/
-    - name: Long Sung
-      image: longsung.jpg
-      url: /company/longsung/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
@@ -289,6 +372,9 @@ manufacturing_partners:
     - name: UcRobotics
       image: ucrobotics.jpg
       url: /company/ucrobotics/
+    - name: vamrs
+      image: vamrs.jpg
+      url: /company/vamrs/
     - name: WrtNode
       image: wrtnode.png
       url: /company/wrtnode/
@@ -302,6 +388,3 @@ mezzanine_partners:
     - name: Rohm
       image: rohm.jpg
       url: /company/rohm/
-    - name: vamrs
-      image: vamrs.jpg
-      url: /company/vamrs/

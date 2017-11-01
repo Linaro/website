@@ -18,6 +18,7 @@ related_jira_projects:
     url: https://projects.linaro.org/secure/RapidBoard.jspa?rapidView=134
 related_initiatives:
   - "9"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMgprdH2L0zJ4LWWsBKB2h4
 ---
 # Open Source Security
 The Open Source Security Project (OSSP) is the main focus for Linaro's [Security Working Group (SWG)](https://www.linaro.org/core/security/).

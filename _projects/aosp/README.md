@@ -16,6 +16,7 @@ engineering:
 related_jira_projects:
   - name: LMG Overview
     url: https://projects.linaro.org/projects/LMG/summary
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMzB6auo_XJTwWeO20xyrDo
 ---
 # Mobile AOSP Optimization
 

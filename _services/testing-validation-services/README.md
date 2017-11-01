@@ -1,7 +1,8 @@
 ---
-service_id: "9"
+service_id: 9
 layout: developer-services
 title: Testing and Validation Services
+short_name: Testing and Validation
 permalink: /services/testing-validation-services/
 keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development
 ---

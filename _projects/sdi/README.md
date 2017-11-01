@@ -7,6 +7,7 @@ description: |-
 keywords: openstack, performance, scaling, linaro, containers, service, aarch64, optimizations, storage, testing
 related_groups:
   - "leg"
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOUcnuLbqQzJsbeJe5wFQN0
 ---
 # SDI
 

@@ -26,6 +26,7 @@ engineering:
 mailing_lists:
   - name: Linaro Toolchain
     url: http://lists.linaro.org/mailman/listinfo/linaro-toolchain
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsM9fST9uSvNcP8miQeicKUn
 ---
 # Open Source ARM Tools
 

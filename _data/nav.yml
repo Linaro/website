@@ -1,7 +1,7 @@
 search: true
 brand:
-    text: OpenDataPlane
-    image: linaro-logo.png
+    text: Linaro
+    image: Linaro-Logo.svg
     url: /
 pages:
     - title: Home
@@ -38,8 +38,8 @@ pages:
             url: /projects/
           - text: Initiatives
             url: /initiatives/
-          - text: Professional Services
-            url: /professional-services/
+          - text: Developer Services
+            url: /services/
     - title: Downloads
       options:
           - text: Software Downloads

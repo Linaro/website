@@ -3,18 +3,19 @@ title: Segment Groups
 permalink: /groups/
 ---
 <div class="col-xs-12 group_icon_col">
-{% for group in site.groups %}
-  {% if group.icon %}
+{% assign groups_list = site.groups | sort: 'group_id' %}
+{% for group in groups_list %}
+{% if group.icon %}
 <div class="col-xs-6 col-sm-2">
 <a href="{{group.permalink}}">
-  <picture>
-    <source srcset="{% if group.icon_hd %}{% asset_path '{{ group.icon_hd }}' %}{% endif %}" media="(max-width: 991px)" />
-    <source srcset="{% if group.icon %}{% asset_path '{{group.icon}}' %}{% endif %}" media="(min-width: 992px)" />
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '{{group.icon}}'%}" class="lazyload img-responsive group_icon"/>
-  </picture>
+<picture>
+<source srcset="{% if group.icon_hd %}{% asset_path '{{ group.icon_hd }}' %}{% endif %}" media="(max-width: 991px)" />
+<source srcset="{% if group.icon %}{% asset_path '{{group.icon}}' %}{% endif %}" media="(min-width: 992px)" />
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '{{group.icon}}'%}" class="lazyload img-responsive group_icon"/>
+</picture>
 </a>
 </div>
-  {% endif %}
+{% endif %}
 {% endfor %}
 </div>
 
@@ -32,7 +33,8 @@ In 2012, companies from outside the mobile industry began to approach Linaro and
 <h2> Linaro Group Members</h2>
 
 {% assign all_group_members = "" %}
-{% for group in site.groups %}
+{% assign groups_list = site.groups | sort: 'group_id' %}
+{% for group in groups_list %}
 {% if group.members_key %}
 {% assign members = site.data.members[group.members_key] %}
 <div class="col-xs-12 group_member_images">

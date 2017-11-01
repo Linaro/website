@@ -5,6 +5,7 @@ permalink: /projects/reference-platforms/
 description: |-
     The goal of the Reference Platforms Lead Project is to create reference end to end open source software releases for ARM SoCs in applications ranging from the Embedded to Enterprise segments.
 keywords: reference, releases, socs, source, hardware, tested, code, other, their, details
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMtUR_d-tgUpKW_ia7Ye_g5
 ---
 # Reference Platforms
 

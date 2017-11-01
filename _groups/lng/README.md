@@ -1,4 +1,5 @@
 ---
+group_id: 2
 title: Linaro Networking Group (LNG)
 permalink: /groups/lng/
 group_short_name: lng

@@ -1,7 +1,8 @@
 ---
-service_id: "2"
+service_id: 2
 layout: developer-services
 title: Bootloaders and Boot Architecture
+short_name: Bootloaders
 permalink: /services/bootloaders/
 keywords: U-Boot, ARM Trusted Firmware, UEFI, Bootloader, Secure Boot,
 ---

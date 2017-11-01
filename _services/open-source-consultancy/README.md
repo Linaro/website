@@ -1,7 +1,8 @@
 ---
-service_id: "6"
+service_id: 8
 layout: developer-services
 title: Open Source Consultancy and Licensing
+short_name: Open Source Consultancy
 permalink: /services/open-source-consultancy/
 keywords: open source, consulting, community, licensing, training
 ---
