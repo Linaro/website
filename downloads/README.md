@@ -32,7 +32,7 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
 
-{% include image.html name="icon-linux-logo-24x24.png" alt="Linux Logo Icon" %}
+{% include image.html name="icon-linux-logo-24x24.png" alt="Linux Logo Icon" class="linux-logo" %}
 
  [linux-linaro-stable (LSK) Git](https://git.linaro.org/kernel/linux-linaro-stable.git/), [additional information](https://wiki.linaro.org/LSK)
 
