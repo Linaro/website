@@ -1,4 +1,5 @@
 ---
+group_id: 4
 title: Linaro Mobile Group (LMG)
 permalink: /groups/lmg/
 group_short_name: lmg

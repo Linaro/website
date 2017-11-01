@@ -15,7 +15,7 @@ The direction of Linaro is determined by its [board of directors](/organization/
     </a>
 </div>
 <div class="col-sm-6 col-md-3 text-center work_icon_col">
-    <a href="/about/board/">
+    <a href="/about/executive/">
         <div class="about-icon">
             <svg class="mk-svg-icon work" data-name="mk-moon-tree-4" data-cacheid="icon-59a7f385bfc7b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M488 384h-8v-104c0-30.878-25.121-56-56-56h-136v-64h8c13.2 0 24-10.8 24-24v-80c0-13.2-10.8-24-24-24h-80c-13.2 0-24 10.8-24 24v80c0 13.2 10.8 24 24 24h8v64h-136c-30.878 0-56 25.122-56 56v104h-8c-13.2 0-24 10.8-24 24v80c0 13.2 10.8 24 24 24h80c13.2 0 24-10.8 24-24v-80c0-13.2-10.8-24-24-24h-8v-96h128v96h-8c-13.2 0-24 10.8-24 24v80c0 13.2 10.8 24 24 24h80c13.2 0 24-10.8 24-24v-80c0-13.2-10.8-24-24-24h-8v-96h128v96h-8c-13.2 0-24 10.8-24 24v80c0 13.2 10.8 24 24 24h80c13.2 0 24-10.8 24-24v-80c0-13.2-10.8-24-24-24z"></path></svg>
         </div>

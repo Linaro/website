@@ -1,4 +1,5 @@
 ---
+group_id: 1
 title: Linaro Enterprise Group (LEG)
 permalink: /groups/leg/
 group_short_name: leg

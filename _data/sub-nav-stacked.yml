@@ -102,17 +102,17 @@ pages:
         title: Linaro Enterprise Group (LEG)
         url: /groups/leg/
       -
+        title: Linaro Networking Group (LNG)
+        url: /groups/lng/
+      -
         title: Linaro Home Group (LHG)
         url: /groups/lhg/
-      -
-        title: Linaro IoT & Embedded Group (LITE)
-        url: /groups/lite/
       -
         title: Linaro Mobile Group (LMG)
         url: /groups/lmg/
       -
-        title: Linaro Networking Group (LNG)
-        url: /groups/lng/
+        title: Linaro IoT & Embedded Group (LITE)
+        url: /groups/lite/
 
     urls: [/groups/, /groups/leg/, /groups/lhg/, /groups/lite/, /groups/lmg/, /groups/lng/]
   -

@@ -22,8 +22,8 @@ columns:
           url : /projects/
         - text: Initiatives
           url : /initiatives/
-        - text: Professional Services
-          url : /professional-services/
+        - text: Developer Services
+          url : /services/
     - title: Downloads
       url: "/downloads/"
       items:

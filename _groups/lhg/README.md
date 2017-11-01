@@ -1,4 +1,5 @@
 ---
+group_id: 3
 title: Linaro Home Group (LHG)
 permalink: /groups/lhg/
 group_short_name: lhg
