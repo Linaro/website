@@ -1,6 +1,9 @@
 ---
 initiative_id: "7"
 title: LAVA
+description: |-
+    LAVA - Validation is key to the delivery of robust code and is an ongoing process involving multiple teams.
+keywords: Linaro, Validation, Automation, Test, feedback, Linux, hardware, Build
 permalink: /initiatives/lava/
 icon: lava-logo.png
 featured_video: https://www.youtube.com/embed/6jwYymfauik?feature=oembed
@@ -15,7 +18,7 @@ Validation is key to the delivery of robust code and is an ongoing process invol
 - Test Planning
 - Developer feedback
 
-Device Automation is the process of providing remote access to a set of devices in order to deploy systems for testing, automate the operation of the test and collect the results. Device automation involves the provision of hardware and the software to automate tests on that hardware. The hardware provision for the Cambridge Lab is managed by the [Linaro LAB team](https://wiki.linaro.org/%22https%3A//collaborate.linaro.org/pages/viewpage.action%3Ftitle%3DLinaro%2BLAB%26spaceKey%3DEP) (login required) who work closely with the [LAVA software team](https://wiki.linaro.org/LAVA) to provide the device automation for the Cambridge lab and the LAVA software for other instances inside and outside Linaro.
+Device  is the process of providing remote access to a set of devices in order to deploy systems for testing, automate the operation of the test and collect the results. Device automation involves the provision of hardware and the software to automate tests on that hardware. The hardware provision for the Cambridge Lab is managed by the [Linaro LAB team](https://wiki.linaro.org/%22https%3A//collaborate.linaro.org/pages/viewpage.action%3Ftitle%3DLinaro%2BLAB%26spaceKey%3DEP) (login required) who work closely with the [LAVA software team](https://wiki.linaro.org/LAVA) to provide the device automation for the Cambridge lab and the LAVA software for other instances inside and outside Linaro.
 
 Build Automation is the process of preparing files which are based on developer activity and which can be deployed on devices to validate whether the developer changes have improved or broken the ability of the device to perform the required test. Linaro has the [Builds and Baselines](https://support.linaro.org/home) team (see the [portal](https://collaborate.linaro.org/pages/viewpage.action?title=Builds+and+Baselines+%28BB%29+DRAFT&spaceKey=EP) also – login required) to support automated builds of releases and test support files.
 
@@ -42,4 +45,5 @@ The LAVA software includes the lava-server component to schedule jobs, administe
 
 {% include image.html name="lava-linaro-validation-team.jpg" url="http://www.youtube.com/watch?v=zTPmypG7b08" %}
 
+{:.responsive-table}
 |[![LAVA Installation in Debian Jessie](http://img.youtube.com/vi/T8jFzXRrFh8/0.jpg)](http://www.youtube.com/watch?v=T8jFzXRrFh8)|[![Linaro validation team use LAVA for native toolchain builds and hack sessions](http://img.youtube.com/vi/zTPmypG7b08/0.jpg)](http://www.youtube.com/watch?v=zTPmypG7b08)|

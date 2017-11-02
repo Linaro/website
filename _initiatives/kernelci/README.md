@@ -1,6 +1,9 @@
 ---
 initiative_id: "6"
 title: KernelCI
+description: |-
+    Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard.
+keywords: LAVA, KernelCI, Linux, Kernel, CI, Continuous, Integration, specification, standards, upstream, rebuild, check
 permalink: /initiatives/kernelci/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMsm3BVTtpDdRHUmeZTOSiW&playnext=1
 ---

@@ -1,6 +1,9 @@
 ---
 group_id: 1
 title: Linaro Enterprise Group (LEG)
+description: |-
+    The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for ARM Server Linux.
+keywords: ARM, Server, Linux, ecosystem, silicon, Virtualization, Power Management, Security, Toolchain, Big Data, Software Defined Infrastructure
 permalink: /groups/leg/
 group_short_name: leg
 group_long_name: Linaro Enterprise Group

@@ -5,6 +5,7 @@
 /leg/,https://www.linaro.org/leg/servercluster/
 /downloads-draft/,https://www.linaro.org/downloads/
 /downloads-draft,https://www.linaro.org/downloads/
+# Developer Services
 /linaro-developer-services-android/,https://www.linaro.org/services/android/
 /linaro-developer-services-android,https://www.linaro.org/services/android/
 /services-linux/linux-kernel/,https://www.linaro.org/services/linux/kernel/
@@ -27,3 +28,34 @@
 /services-linux/bootloaders,https://www.linaro.org/services/linux/bootloaders/
 /professional-services/index.html,https://www.linaro.org/services/
 /professional-services,https://www.linaro.org/services/
+# Companies Pages Redirects
+/companies/96boards/index.html,https://www.linaro.org/company/
+/companies/96boards,https://www.linaro.org/company/
+/companies/96boards-mp/index.html,https://www.linaro.org/company/
+/companies/96boards-mp,https://www.linaro.org/company/
+/companies/96boards-mezzanine/index.html,https://www.linaro.org/company/
+/companies/96boards-mezzanine,https://www.linaro.org/company/
+/companies/96boards-sc/index.html,https://www.linaro.org/company/
+/companies/96boards-sc,https://www.linaro.org/company/
+/companies/archive/index.html,https://www.linaro.org/company/
+/companies/archive,https://www.linaro.org/company/
+/companies/club/index.html,https://www.linaro.org/company/
+/companies/club,https://www.linaro.org/company/
+/companies/community/index.html,https://www.linaro.org/company/
+/companies/community,https://www.linaro.org/company/
+/companies/core/index.html,https://www.linaro.org/company/
+/companies/core,https://www.linaro.org/company/
+/companies/group/index.html,https://www.linaro.org/company/
+/companies/group,https://www.linaro.org/company/
+/companies/initiatives/index.html,https://www.linaro.org/company/
+/companies/initiatives,https://www.linaro.org/company/
+/companies/leg/index.html,https://www.linaro.org/company/
+/companies/leg,https://www.linaro.org/company/
+/companies/lhg/index.html,https://www.linaro.org/company/
+/companies/lhg,https://www.linaro.org/company/
+/companies/lite/index.html,https://www.linaro.org/company/
+/companies/lite,https://www.linaro.org/company/
+/companies/lmg/index.html,https://www.linaro.org/company/
+/companies/lmg,https://www.linaro.org/company/
+/companies/lng/index.html,https://www.linaro.org/company/
+/companies/lng,https://www.linaro.org/company/

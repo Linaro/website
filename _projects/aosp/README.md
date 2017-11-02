@@ -1,10 +1,10 @@
 ---
 project_id: "1"
 title: Mobile AOSP Optimization
-permalink: /projects/aosp/
 description: |-
     The Android Open Source Project (AOSP) is the foundation for Android based devices.
-keywords: mobile, android, aosp, project, linaro, engineering, based, those, more, group
+keywords: mobile, android, aosp, project, linaro, engineering, group, devices, Optimizations
+permalink: /projects/aosp/
 related_groups:
  - "lmg"
 governance:

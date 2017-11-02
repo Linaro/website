@@ -1,6 +1,9 @@
 ---
 initiative_id: "4"
 title: Linaro Connect
+description: |-
+    Linaro Connect brings together engineers and industry experts to discuss, learn, network and push forward new technologies in some of the most interesting cities around the world.
+keywords: Linaro, Connect, ARM, Engineering, technology, Linux, ecosystems, development
 permalink: /initiatives/connect/
 icon: connect-logo.png
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOraJTlqS_UDhS0zX1YxntL&playnext=1

@@ -1,6 +1,9 @@
 ---
 group_id: 2
 title: Linaro Networking Group (LNG)
+description: |-
+    The Linaro Networking Group (LNG) is an autonomous segment focused group that is responsible for engineering development in the networking space.
+keywords: Linux, ARM, LNG, networking, IoT, virtualization, Cloud, Infrastructure, OpenDataPlane, servers, initiatives
 permalink: /groups/lng/
 group_short_name: lng
 group_long_name: Linaro Networking Group
