@@ -3,6 +3,7 @@ title: Lead Projects
 permalink: /projects/
 description: |-
     Linaro is a large engineering organization with many complex projects that map across various teams and groups.
+keywords: Mobile AOSP Optimization, Big Data, SDI, Mobile Power Management, ARM Kernel Collaboration, Open Source ARM Tools, Security, OpenDataPlane, ODP, specifications
 ---
 # Lead Projects
 

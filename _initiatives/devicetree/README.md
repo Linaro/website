@@ -1,6 +1,9 @@
 ---
 initiative_id: "5"
 title: DeviceTree
+description: |-
+    Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard.
+keywords: data, structure, hardware, OpenPOWER, OPAL, FDT, PAPR, specification, standards
 permalink: /initiatives/devicetree/
 icon: devicetree-logo.webp
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOAkIuQvhfHTO_01iljXDxG&playnext=1
@@ -9,7 +12,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOAkIuQvhfHTO
 
 Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard.
 
-The devicetree is a data structure for describing hardware. Rather than hard coding every detail of a device into an operating system, many aspects of the hardware can be described in a data structure that is passed to the operating system at boot time. The devicetree is used by OpenFirmware, OpenPOWER Abstraction Layer (OPAL), Power Architecture Platform Requirements (PAPR) and in the standalone Flattened Device Tree (FDT) form.
+The devicetree is a data structure for describing hardware. Rather than hard coding every detail of a device into an operating system, many aspects of the hardware can be described in a data structure that  is passed to the operating system at boot time. The devicetree is used by OpenFirmware, OpenPOWER Abstraction Layer (OPAL), Power Architecture Platform Requirements (PAPR) and in the standalone Flattened Device Tree (FDT) form.
 
 
 ### Objective

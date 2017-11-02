@@ -388,3 +388,20 @@ mezzanine_partners:
     - name: Rohm
       image: rohm.jpg
       url: /company/rohm/
+community_members:
+    - name: IBM
+      image: ibm.jpg
+      url: /company/ibm/
+    - name: The Linux Foundation
+      image: linux_foundation.jpg
+      url: /company/linux-foundation/
+community_initiatives:
+    - name: 96Boards
+      image: 96boards-logo.png
+      url: https://www.96boards.org
+    - name: OpenDataPlane
+      image: odp-logo.webp
+      url: https://www.opendataplane.org
+    - name: OP-TEE
+      image: optee-logo.png
+      url: https://www.op-tee.org

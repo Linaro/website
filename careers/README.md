@@ -25,7 +25,7 @@ If you have a passion for working on open source projects and being part of a co
             <svg class="mk-svg-icon" data-name="mk-icon-rss" data-cacheid="icon-59a7eddc82085" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 1792"><path d="M384 1344q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21h-135q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5t-391.5-184.5q-25-2-41.5-20t-16.5-43v-135q0-29 21-47 17-17 43-17h5q160 13 306 80.5t259 181.5q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5t-19.5-42.5q-12-215-101-408.5t-231.5-336-336-231.5-408.5-102q-25-1-42.5-19.5t-17.5-43.5v-143q0-28 20-46 18-18 44-18h3q262 13 501.5 120t425.5 294q187 186 294 425.5t120 501.5z"></path></svg>
         </div>
         <div class="linaro-svg-icon-caption">
-            RSS Feed
+            Job RSS Feed
         </div>
     </a>
 </div>
@@ -35,13 +35,15 @@ If you have a passion for working on open source projects and being part of a co
 </div>
 <div class="col-md-12">
 
-
-<div id="DIV_14">[](http://www.linkedin.com/company/1026961)</div>
-
-<div id="DIV_22">[](https://linaro.recruiterbox.com/jobfeeds/Linaro)</div>
-
-[Linkedin](http://www.linkedin.com/company/1026961)
-
-[RSS Feed](https://linaro.recruiterbox.com/jobfeeds/Linaro)
+<script type="text/javascript" id="rbox-loader-script">
+_rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onready=cb;} };
+(function(d, e) {
+    var s, t, i, src=['/static/client-src-served/widget/8477/rbox_api.js', '/static/client-src-served/widget/8477/rbox_impl.js'];
+    t = d.getElementsByTagName(e); t=t[t.length - 1];
+    for(i=0; i<src.length; i++) {
+        s = d.createElement(e); s.src = _rbox.host_protocol + '//w.recruiterbox.com' + src[i];
+        t.parentNode.insertBefore(s, t.nextSibling);
+    }})(document, 'script');
+</script>
 
 </div>

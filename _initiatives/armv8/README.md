@@ -1,6 +1,9 @@
 ---
 initiative_id: "2"
 title: ARMv8
+description: |-
+    ARM announced its 64-bit ARMv8 architecture, associated ARM compiler and Fast Models in October 2011.
+keywords: Linaro, ARMv8, ARM, Engineering, technology, Linux, compiler, architecture, Cortex-M, hardware, 64-bit
 permalink: /initiatives/armv8/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtgGmA-yNyqzKyc0b3lE2g&playnext=1
 ---

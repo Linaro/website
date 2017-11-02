@@ -1,6 +1,9 @@
 ---
 group_id: 5
 title: Linaro IoT and Embedded (LITE)
+description: |-
+    The Linaro IoT and Embedded Group (LITE) was launched at Linaro Connect LAS16 in September 2016.
+keywords: Linux, ARM, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /groups/lite/
 group_short_name: lite
 group_long_name: Linaro IoT and Embedded

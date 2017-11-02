@@ -1,6 +1,9 @@
 ---
 core_id: "5"
 title: Virtualization
+description: |-
+    The Linaro Virtualization team is aimed at providing virtualization (KVM, Xen) and emulation (QEMU) solutions for ARM hardware.
+keywords: KVM, QEMU, ARM, SVE, GIGv3
 permalink: /core/virtualization/
 director: Christoffer Dall
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNoPiBTZxdyLtPPJDMQmztZ

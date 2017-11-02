@@ -1,6 +1,9 @@
 ---
 core_id: "1"
 title: Core Technologies & Tools
+description: |-
+    The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.
+keywords: Builds, Baselines, LAVA, software, Arm, collaboration, Toolchain, Continuous Integration, CI
 permalink: /core/ctt/
 director: Ryan Arnold
 related_projects:

@@ -1,6 +1,9 @@
 ---
 initiative_id: "3"
 title: Linaro Developer Cloud
+description: |-
+    The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack.
+keywords: Linaro, Developer, Cloud, ARMv8, Security, Android, Linux, Arm, AMD, Cavium, HPE, Huawei, Qualcomm
 permalink: /initiatives/cloud/
 icon: developer-cloud-logo.png
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMdf-NFwiygK7Ouh-iV0WHF&playnext=1

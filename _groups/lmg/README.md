@@ -1,6 +1,9 @@
 ---
 group_id: 4
 title: Linaro Mobile Group (LMG)
+description: |-
+    Linaro was founded by companies focused on working together in the mobile space.
+keywords: Linux, ARM, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables
 permalink: /groups/lmg/
 group_short_name: lmg
 group_long_name: Linaro Mobile Group

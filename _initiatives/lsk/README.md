@@ -1,6 +1,9 @@
 ---
 initiative_id: "8"
 title: LSK
+description: |-
+    Linaro Stable Kernel (LSK) aims to provide a stable basis for system integration of ARM hardware.
+keywords: Linaro, LSK, Stable, Kernel, Core, Android, Linux, RT, realtime, PAX Usercopy, PAN emulation, Huawei, Qualcomm, OPTEE
 permalink: /initiatives/lsk/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsO5YMwkIwOs2lS60Ob-Ky7s&playnext=1
 ---
