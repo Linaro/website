@@ -1,5 +1,5 @@
 ---
-author: KumarGala
+author: kumar.gala
 comments: false
 date: 2016-09-22 14:32:26+00:00
 layout: post

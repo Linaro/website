@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2014-09-26 14:32:24+00:00
 layout: post

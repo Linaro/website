@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-18 19:01:52+00:00
 excerpt: ARM and Linaro are jointly developing "Energy Aware Scheduling", a technique

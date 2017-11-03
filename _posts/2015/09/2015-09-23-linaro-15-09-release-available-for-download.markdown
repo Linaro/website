@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-23 21:42:05+00:00
 excerpt: Linaro's 15.09 release is now available for download. See the detailed highlights

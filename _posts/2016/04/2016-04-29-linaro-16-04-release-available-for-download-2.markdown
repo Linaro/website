@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-04-29 15:51:39+00:00
 excerpt: Linaro's 16.04 release is now available for download. See the detailed highlights

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-20 12:24:07+00:00
 excerpt: Industry leaders including AppliedMicro, ARM, Enea, Freescale®, LSI, MontaVista,

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: true
 date: 2015-07-29 23:54:31+00:00
 excerpt: 'Linaro Connect is celebrating it''s fifth anniversary and has evolved into

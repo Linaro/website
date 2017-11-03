@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2010-10-26 12:01:05+00:00
 layout: post

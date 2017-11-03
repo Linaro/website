@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-10-11 20:34:00+00:00
 excerpt: A review of all the activities and session materials from the Linaro Connect

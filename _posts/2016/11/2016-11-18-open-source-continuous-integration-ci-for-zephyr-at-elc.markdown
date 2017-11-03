@@ -1,5 +1,5 @@
 ---
-author: Bill.Fletcher
+author: bill.fletcher
 comments: false
 date: 2016-11-18 14:46:19+00:00
 layout: post

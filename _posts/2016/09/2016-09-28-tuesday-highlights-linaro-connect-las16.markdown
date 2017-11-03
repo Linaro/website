@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-09-28 03:49:38+00:00
 excerpt: See what took place on Tuesday during Linaro Connect LAS16.

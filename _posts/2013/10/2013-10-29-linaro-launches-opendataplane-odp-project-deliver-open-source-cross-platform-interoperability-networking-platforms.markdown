@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-10-29 12:31:46+00:00
 excerpt: Industry leaders in the Linaro Networking Group (LNG) are collaborating to

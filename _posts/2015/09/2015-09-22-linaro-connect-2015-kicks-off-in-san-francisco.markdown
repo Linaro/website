@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-22 03:25:57+00:00
 excerpt: 'See a re-cap of the first day of Linaro Connect San Francisco 2015.  '

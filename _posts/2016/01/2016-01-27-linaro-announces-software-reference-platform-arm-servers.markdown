@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-01-27 14:00:24+00:00
 excerpt: Linaro announces a complete open source Software Reference Platform for servers

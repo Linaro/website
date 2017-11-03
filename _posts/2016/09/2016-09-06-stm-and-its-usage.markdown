@@ -1,5 +1,5 @@
 ---
-author: ChunyanZhang
+author: chunyan.zhang
 comments: false
 date: 2016-09-06 04:24:15+00:00
 excerpt: Read about System Trace Module (STM) which can not only collect trace data

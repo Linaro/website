@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: true
 date: 2015-08-03 12:26:09+00:00
 excerpt: Meizu becomes first OEM to join Linaro Mobile Group.  As a current and potential

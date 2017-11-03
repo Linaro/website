@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-07-06 16:48:57+00:00
 excerpt: Linaro's 16.06 release is now available for download. See the detailed highlights

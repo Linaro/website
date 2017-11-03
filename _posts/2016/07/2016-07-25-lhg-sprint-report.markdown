@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2016-07-25 16:20:26+00:00
 excerpt: 'Read the latest update from the LHG sprint held at the Huawei/Hisilicon

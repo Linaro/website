@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-25 00:20:25+00:00
 excerpt: Overview of the keynotes, announcement and sessions that took place during

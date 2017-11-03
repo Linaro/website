@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-06-14 21:43:43+00:00
 excerpt: The Linaro Digital Home Group (LHG) is pleased to announce a reference build

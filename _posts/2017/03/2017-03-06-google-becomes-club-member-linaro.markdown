@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2017-03-06 12:00:37+00:00
 excerpt: Linaro Ltd, the open source collaborative engineering organization developing

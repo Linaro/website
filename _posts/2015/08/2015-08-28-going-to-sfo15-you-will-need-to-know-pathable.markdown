@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-08-28 20:01:52+00:00
 excerpt: Linaro Connect SFO15 is coming soon and one the ways to get the most out

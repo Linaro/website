@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: true
 date: 2014-09-26 08:54:06+00:00
 excerpt: The blog post describes why introducing ARM TrustZone support in QEMU is

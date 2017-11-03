@@ -1,5 +1,5 @@
 ---
-author: EdmundSzeto
+author: edmund.szeto
 comments: false
 date: 2014-06-04 14:35:37+00:00
 layout: post

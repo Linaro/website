@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-10 21:13:28+00:00
 excerpt: Linaro announced the complete line up of keynote speakers for the upcoming

@@ -1,5 +1,5 @@
 ---
-author: jacopomondi
+author: jacopo.mondi
 comments: true
 date: 2015-07-22 20:22:08+00:00
 excerpt: 'This article explains how to add a new service and associated application

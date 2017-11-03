@@ -1,5 +1,5 @@
 ---
-author: linuswalleij
+author: linus.walleij
 comments: true
 date: 2015-08-20 16:14:21+00:00
 excerpt: U-Boot became the de facto bootloader on most ARM systems during the early

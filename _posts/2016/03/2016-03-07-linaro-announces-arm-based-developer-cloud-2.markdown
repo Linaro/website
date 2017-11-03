@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-03-07 11:01:23+00:00
 excerpt: 'Linaro announces the rollout of an ARMv8 based Developer Cloud today at
