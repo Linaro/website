@@ -7,9 +7,9 @@ link: https://www.linaro.org/blog/community-blog/linaro-hangouts-on-air-openness
 slug: linaro-hangouts-on-air-openness-why-it-is-not-optional
 title: 'Linaro Hangouts on Air: Openness, Why it is Not Optional'
 wordpress_id: 2196
+categories:
 - blog
 tags:
-categories:
 - Community
 - Hangouts on Air
 ---
