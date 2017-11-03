@@ -8,6 +8,8 @@ slug: linaro-is-seeking-a-lava-lab-technician-validation
 title: Linaro is Seeking a LAVA Lab Technician - Validation
 wordpress_id: 2450
 categories:
+- blog
+tags:
 - Community
 ---
 

@@ -16,9 +16,9 @@ slug: linaro-lava-group-team-update
 title: Linaro LAVA Group - Team Update
 wordpress_id: 7051
 categories:
-- LAVA
-- Linaro Blog
+- blog
 tags:
+- LAVA
 - Connect Events
 - lava
 - Linaro
@@ -63,10 +63,10 @@ During Linaro Connect USA the LAVA team held many hacking sessions throughout 
 
 
 
-	
+
   * **LCU14-203: LAVA Use Cases: Upstream Kernel CI**
 
-	
+
     * Session Summary
 This session provided a short summary on how Linaro teams are automating upstream Kernel CI with a goal to improve the overall Linux on ARM ecosystem.   The second half of the session was general Q&A
 ---------------------------------------------------
@@ -79,10 +79,10 @@ Presentation:   [http://www.slideshare.net/linaroorg/lcu14-203-lava-use-cases-
 
 
 
-	
+
   * **LCU14-207: LAVA status update and refactoring the lava-dispatcher**
 
-	
+
     *  Session Summary
 The LAVA team will present the current status of the LAVA product and highlight the the in-progress dispatcher re-factoring.
 ---------------------------------------------------
@@ -95,10 +95,10 @@ Presentation: [http://www.slideshare.net/linaroorg/lcu14-207-refactoring-the-la
 
 
 
-	
+
   * **LCU14-211: LAVA Use Cases: SW testing &  Reproducing a LAVA failures locally using CARE**
 
-	
+
     * Session Summary
 In this session, Remi, an ST assignee, reviewed how he is using LAVA within ST to perform PRoot (an ST opensource project) testing and some of the extensions he has created for artifact publishing and reporducing LAVA failures using CARE (an extension to PRoot).
 ---------------------------------------------------
@@ -111,10 +111,10 @@ Presentation: [http://www.slideshare.net/linaroorg/lcu14-211-lava-use-cases-sw-
 
 
 
-	
+
   * **LCU14-400: Managing a LAVA LAB using new Debian packages**
 
-	
+
     * Session Summary
 This session provided a summary of the process to install, update and manage LAVA within a LAVA LAB. Also discussed was how the LAVA LAB in Cambridge is managed and any thoughts or problems experienced when the LAB upgraded from Ubuntu 12.04 to Debian Jessie.
 ---------------------------------------------------
@@ -127,10 +127,10 @@ Presentation:  [http://www.slideshare.net/linaroorg/lcu14-400-managing-a-lava-
 
 
 
-	
+
   * ****LCU14-404: LAVA and VLANs - complex networks on demand  ****
 
-	
+
     * Session Summary
 This session was an overview of LAVA and VLANS.
 ---------------------------------------------------
@@ -144,10 +144,10 @@ Presentation:  [http://www.slideshare.net/linaroorg/lcu14-404-lava-vlans-compl
 
 
 
-	
+
   * **LCU14-409: BoF - Kernel Testing Made Easy**
 
-	
+
     * Session Summary
 Testing is like ice cream, there is always room for more. We can always use more testing to make sure the kernel does what it needs to. Unfortunately it is often not easy to test the kernel without doing a bunch of setup of environment and getting the correct tools. This session discusses ways of making kernel tests easy to run without requiring a lot of effort. Gaurav Minocha discussed the Google Summer of Code project on making the in-kernel device tree unit tests easier to run, and Grant Likely led a discussion on ways we can make kernel testing as easy as typing "make test".
 ---------------------------------------------------

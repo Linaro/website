@@ -8,8 +8,9 @@ slug: arm-soc-contents-merged-3-19
 title: arm-soc contents merged into 3.19
 wordpress_id: 7731
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - '3.19'
 - arm
 - arm-soc
@@ -51,7 +52,7 @@ Overall diffstat:
 
 Dirstat:
 
-    
+
     $ git diff --dirstat=0.2 v3.18..for-next
     0.4% Documentation/devicetree/bindings/arm/
     0.5% Documentation/devicetree/bindings/
@@ -92,7 +93,7 @@ Dirstat:
 
 Top 20 contributors by patch count (no merges):
 
-    
+
     $ git log --format=%an --no-merges v3.18..for-next  | sort | uniq -c  |sort -nr | head -n 20
     56 Geert Uytterhoeven
     48 Maxime Ripard
@@ -128,16 +129,16 @@ These are bug fixes for harmless problems that were not important enough to get 
 
 
 
-	
+
   * Ben Dooks stepped down as Samsung co-maintainer (thanks Ben for   long years of maintaining this). Kukjin Kim, who has been doing the work de-facto by himself recently is now the only maintainer.
 
-	
+
   * Liviu, Sudeep and Lorenzo from ARM now officially maintain the Versatile Express platform, which was orphaned (thanks for stepping up)
 
-	
+
   * Gregory Fong and Florian Fainelli help out on the Broadcom BCM7XXX platform
 
-	
+
   * Ray Jui and Scott Branden are the future maintainers for the newly merged Broadcom Cygnus platform. Welcome!
 
 
@@ -167,22 +168,22 @@ The remaining cleanups for 3.19 are to a large part result of devicetree convers
 
 
 
-	
+
   * Like AT91, Renesas shmobile is in the process to migrate to DT and multiplatform, but using a different approach of doing it one  SoC at a time. For 3.19, the r8a7791 platform and associated "Koelsch" board are considered complete and we remove the non-DT  non-multiplatform support for this.
 
-	
+
   * The ARM Versatile Express has supported DT and multiplatform  for a long time, but we have still kept the legacy board files around, because not all drivers were fully working before. We have finally taken the last step to remove the board files.
 
 
 Other changes in this branch are preparation for the later branches or just unrelated to the more interesting changes:
 
-	
+
   * The dts files for arm64 get moved into per-vendor directories for a clearer structure.
 
-	
+
   * Some dead code removal (zynq, exynos, davinci, imx)
 
-	
+
   * Using pr_*() macros more consistently instead of printk(KERN_*) in some platform code.
 
 
@@ -197,73 +198,73 @@ New and updated SoC support, notable changes include:
 
 
 
-	
+
   * bcm: brcmstb SMP support
 
-	
+
   * bcm: initial iproc/cygnus support
 
-	
+
   * exynos: Exynos4415 SoC support
 
-	
+
   * exynos: PMU and suspend support for Exynos5420
 
-	
+
   * exynos: PMU support for Exynos3250
 
-	
+
   * exynos: pm related maintenance
 
-	
+
   * imx: new LS1021A SoC support
 
-	
+
   * imx: vybrid 610 global timer support
 
-	
+
   * integrator: convert to using multiplatform configuration
 
-	
+
   * mediatek: earlyprintk support for mt8127/mt8135
 
-	
+
   * meson: meson8 soc and l2 cache controller support
 
-	
+
   * mvebu: Armada 38x CPU hotplug support
 
-	
+
   * mvebu: drop support for prerelease Armada 375 Z1 stepping
 
-	
+
   * mvebu: extended suspend support, now works on Armada 370/XP
 
-	
+
   * omap: hwmod related maintenance
 
-	
+
   * omap: prcm cleanup
 
-	
+
   * pxa: initial pxa27x DT handling
 
-	
+
   * rockchip: SMP support for rk3288
 
-	
+
   * rockchip: add cpu frequency scaling support
 
-	
+
   * shmobile: r8a7740 power domain support
 
-	
+
   * shmobile: various small restart, timer, pci apmu changes
 
-	
+
   * sunxi: Allwinner A80 (sun9i) earlyprintk support
 
-	
+
   * ux500: power domain support
 
 
@@ -283,19 +284,19 @@ Other notable changes are:
 
 
 
-	
+
   * reset controller drivers from the reset maintainer (socfpga, sti, berlin)
 
-	
+
   * fixes for the keystone navigator driver merged last time
 
-	
+
   * at91 rtc driver changes related to the at91 cleanups
 
-	
+
   * ARM perf driver changes from Will Deacon
 
-	
+
   * updates for the brcmstb_gisb driver
 
 
@@ -312,34 +313,34 @@ Most of the changes are about enabling additional on-chip devices for existing m
 
 
 
-	
+
   * AMLogic Meson8
 
-	
+
   * ARM Realview in DT mode
 
-	
+
   * Allwinner A80
 
-	
+
   * Broadcom BCM47081
 
-	
+
   * Broadcom Cygnus
 
-	
+
   * Freescale LS1021A
 
-	
+
   * Freescale Vybrid 500 series
 
-	
+
   * Mediatek MT6592, MT8127, MT8135
 
-	
+
   * STMicroelectronics STiH410
 
-	
+
   * Samsung Exynos4415
 
 
@@ -347,133 +348,133 @@ The level of support for the above differs widely, some are just stubs with noth
 
 There are also many new boards getting added, this is the list of model strings that are showing up in new dts files:
 
-	
+
   * ARM RealView PB1176
 
-	
+
   * Altera SOCFPGA Arria 10
 
-	
+
   * Asus RT-N18U (BCM47081)
 
-	
+
   * Buffalo WZR-1750DHP (BCM4708)Buffalo WZR-600DHP2 (BCM47081)
 
-	
+
   * Cygnus Enterprise Phone (BCM911360_ENTPHN)
 
-	
+
   * D-Link DIR-665
 
-	
+
   * Google Spring
 
-	
+
   * IGEP COM MODULE Rev. G (TI OMAP AM/DM37x)
 
-	
+
   * IGEPv2 Rev. F (TI OMAP AM/DM37x)
 
-	
+
   * LS1021A QDS Board
 
-	
+
   * LS1021A TWR Board
 
-	
+
   * LeMaker Banana Pi
 
-	
+
   * MarsBoard RK3066
 
-	
+
   * MediaTek MT8127 Moose Board
 
-	
+
   * MediaTek MT8135 evaluation board
 
-	
+
   * Mele M3
 
-	
+
   * Merrii A80 Optimus Board
 
-	
+
   * Netgear R6300 V2 (BCM4708)
 
-	
+
   * Nomadik STN8815NHK
 
-	
+
   * NovaTech OrionLXm
 
-	
+
   * Olimex A20-OLinuXino-LIME2
 
-	
+
   * Raspberry Pi Model B+
 
-	
+
   * STiH410 B2120
 
-	
+
   * Samsung Monk board
 
-	
+
   * Samsung Rinato board
 
-	
+
   * Synology DS213j
 
-	
+
   * Synology DS414
 
-	
+
   * TBS2910 Matrix ARM mini PC
 
-	
+
   * TI AM5728 BeagleBoard-X15
 
-	
+
   * Toradex Colibri VF50 on Colibri Evaluation Board
 
-	
+
   * Zynq ZYBO Development Board
 
 
 Other notable changes include:
 
-	
+
   * exynos: cleanup of existing dts files
 
-	
+
   * mvebu: improved pinctrl support for Armada 370/XP
 
-	
+
   * nomadik: restructuring dts files
 
-	
+
   * omap: added CAN bus support
 
-	
+
   * shmobile: added clock support for some SoCs
 
-	
+
   * shmobile: added sound support for some SoCs
 
-	
+
   * sirf: reset controller support
 
-	
+
   * sunxi: continuing the relicensing under dual GPL/MIT
 
-	
+
   * sunxi: lots of new on-chip device support
 
-	
+
   * sunxi: working simplefb support (long awaited)
 
-	
+
   * various: provide stdout-path property for earlycon
 
 
@@ -511,10 +512,10 @@ This adds support for two new ARM64 platforms:
 
 
 
-	
+
   * ARM Juno
 
-	
+
   * AMD Seattle
 
 
@@ -535,10 +536,10 @@ This is a follow-up to the early ARM SoC DT changes, with additional content tha
 
 
 
-	
+
   * The Tegra IOMMU DT support depends on changes from the iommu tree, plus the contents of the arm-soc drivers branch
 
-	
+
   * The MVEBU PHY support depends on changes from the phy tree The AT91 DT support depends on changes from the RTC and DMA-slave trees
 
 
@@ -564,7 +565,7 @@ The branch touches core ARM and IOMMU driver files, and the respective maintaine
 
 A number of subsystem maintainers are merging code device driver code that is relevant to ARM platforms. This is a selection of relevant upstream commits for branches that are already merged into what will become Linux-3.19-rc1.
 
-    
+
     Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f2fb38049c72">f2fb38049c72</a> Pull MMC updates from Ulf Hansson
     Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a7dbed7f23c">3a7dbed7f23c</a> Pull MFD updates from Lee Jones
     Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=177808cd28ac">177808cd28ac</a> Pull hwmon updates from Guenter Roeck

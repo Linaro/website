@@ -8,6 +8,8 @@ slug: linaro-12-08-release-is-now-available
 title: Linaro 12.08 Release Is Now Available
 wordpress_id: 1842
 categories:
+- blog
+tags:
 - Connect Events
 - Releases
 ---
@@ -91,7 +93,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
@@ -109,10 +111,10 @@ If you are interested in getting the source and building these images yourself p
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -135,7 +137,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -158,10 +160,10 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
@@ -179,10 +181,10 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
 
@@ -195,17 +197,17 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
-	
+
   * IRC:
 
 
 
 
 
-	
+
 * #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
 * #linaro-android irc.linaro.org or irc.freenode.net
 
 

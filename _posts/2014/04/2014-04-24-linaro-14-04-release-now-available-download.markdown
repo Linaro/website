@@ -8,7 +8,7 @@ slug: linaro-14-04-release-now-available-download
 title: Linaro 14.04 Release Now Available for Download!
 wordpress_id: 5737
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - Evaluation builds

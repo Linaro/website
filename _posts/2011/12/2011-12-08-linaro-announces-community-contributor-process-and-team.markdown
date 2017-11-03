@@ -8,7 +8,10 @@ slug: linaro-announces-community-contributor-process-and-team
 title: Linaro Announces Community Contributor Process and Team
 wordpress_id: 1042
 categories:
+- blog
+tags:
 - Community
+
 ---
 
 
@@ -70,5 +73,3 @@ Find out you can be part of this exciting and growing community by visiting our 
 
 **About Linaro**
 _Linaro ™  is a  Not-For-Profit software engineering company that works with the open source community to make it easier and faster to develop open source based devices. Linaro has the aim of investing new resources and aligning efforts from the industry to continuously improve and optimize open source software and tools on the ARM architecture with the goal of accelerating industry innovation.[ www.linaro.org](http://www.linaro.org/)_
-
-

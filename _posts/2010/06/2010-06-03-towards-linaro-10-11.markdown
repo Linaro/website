@@ -8,7 +8,7 @@ slug: towards-linaro-10-11
 title: Towards Linaro 10.11
 wordpress_id: 4112
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - launchpad
@@ -57,34 +57,34 @@ So this is the area which gets me the most excited. As the release manager for L
 
 
 
-	
+
   1. Help standardize the industry on common kernel versions and features.
 
-	
+
   2. Improve debugging and performance analysis at the kernel level.
 
-	
+
   3. Bring power management and performance improvements including boot speed reduction.
 
-	
+
   4. Promote and implement device-tree's on ARM hardware.
 
-	
+
   5. Provide test 'heads', whole vertical software stacks and distributions, to show what can be done on top of Linaro.
 
-	
+
   6. Explore integrating telephony right into the distribution.
 
-	
+
   7. Improve the state of graphics acceleration.
 
-	
+
   8. Provide QA and validation harnesses to ensure anything built with Linaro is of the highest standard.
 
-	
+
   9. Offer performance analysis and suggestions on how to improve.
 
-	
+
   10. Supply a whole host of development, archive and image management, and distribution creation and customization tools.
 
 

@@ -8,9 +8,9 @@ slug: lee-jones-mainstreaming-video
 title: 'LDS video: what is upstreaming?'
 wordpress_id: 3388
 categories:
-- Community
+- blog
 tags:
-- community
+- Community
 - kernel
 - Linux
 - upstreaming
@@ -67,6 +67,3 @@ The video can also be downloaded in WebM format:
 The slides are available in [ODF](http://free-electrons.com/pub/video/2011/may/lds-2011-05-jones-mainstreaming.odp) and [PDF](http://free-electrons.com/pub/video/2011/may/lds-2011-05-jones-mainstreaming.pdf) formats.
 
 Don't hesitate to add your own tips and share your own experience by adding comments to this blog post.
-
-
-

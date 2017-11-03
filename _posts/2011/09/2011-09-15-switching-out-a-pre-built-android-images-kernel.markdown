@@ -8,9 +8,11 @@ slug: switching-out-a-pre-built-android-images-kernel
 title: Switching out a Pre-Built Android Image's Kernel
 wordpress_id: 4129
 categories:
-- Linaro Blog
+- blog
 tags:
-- Android kernel rebuild custom tip
+- Android
+- kernel
+- rebuild
 ---
 
 Many people just want to update the kernel of a pre-built Android build.

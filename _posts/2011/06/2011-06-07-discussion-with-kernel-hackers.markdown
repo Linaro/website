@@ -8,8 +8,9 @@ slug: discussion-with-kernel-hackers
 title: Discussion with Thomas Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney
 wordpress_id: 3390
 categories:
-- Community
+- blog
 tags:
+- Community
 - arm
 - device tree
 - flash
@@ -49,8 +50,3 @@ The video can also be downloaded in WebM format:
 
 
   * [WebM / VP8 codec, full HD resolution](http://free-electrons.com/pub/video/2011/may/lds-2011-05-gleixner-bergmann-likely-mckenney.webm)
-
-
-
-
-

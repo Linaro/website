@@ -13,7 +13,7 @@ slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - hardware

@@ -8,9 +8,10 @@ slug: lca14-tuesday-recap
 title: LCA14 - Tuesday Recap
 wordpress_id: 3470
 categories:
-- Connect Events
+- blog
 tags:
 - conference
+- Connect Events
 - connect
 - Linaro
 - Linaro Connect
@@ -224,7 +225,7 @@ Once group photo was taken the sessions for the day began.  Tuesday was full da
 </tr>
 </tbody>
 </table>
-Wednesday LCA14 will continue with more great sessions and two more keynote speakers.  Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation.  
+Wednesday LCA14 will continue with more great sessions and two more keynote speakers.  Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
 
 Tomorrow the [Linaro “Bond Themed” gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner) takes place so look for some great photos of our attendees J
 

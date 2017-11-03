@@ -8,9 +8,10 @@ slug: welcome-to-macau
 title: Welcome to Macau!
 wordpress_id: 3405
 categories:
-- Connect Events
+- blog
 tags:
 - connect
+- Connect Events
 - Linaro
 - Linaro Connect
 - Linux

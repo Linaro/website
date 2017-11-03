@@ -15,8 +15,9 @@ slug: road-energy-aware-scheduling
 title: The Road to Energy-Aware Scheduling
 wordpress_id: 7806
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - Energy-Aware
 - Scheduling
 ---
@@ -34,10 +35,10 @@ This worked quite well and was relatively easy to manage... until the arrival of
 
 
 
-	
+
   * The task scheduler needs to move some work to another processor when one of them becomes overloaded.  On the other hand, the cpufreq infrastructure does increase the clock frequency of an overloaded processor to cope better with the amount of work. The combined effect may well be a processor that becomes under-utilized compared to the others and consumes more power than strictly necessary.
 
-	
+
   * In the presence of multiple processors, the task scheduler tries to spread the work across all the available resources to increase performance. This, however, prevents some of those processors from becoming idle and saving power by suspending them.
 
 

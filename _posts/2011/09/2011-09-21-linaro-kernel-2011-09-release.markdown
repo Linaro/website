@@ -8,6 +8,8 @@ slug: linaro-kernel-2011-09-release
 title: Linaro Kernel 2011.09 release
 wordpress_id: 541
 categories:
+- blog
+tags:
 - Releases
 ---
 

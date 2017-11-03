@@ -8,7 +8,7 @@ slug: erp-17-08-release
 title: The 17.08 release for the Linaro Enterprise Reference Platform is now available
 wordpress_id: 12731
 categories:
-- Linaro Blog
+- blog
 ---
 
 The Linaro Enterprise Group (LEG) is pleased to announce the 17.08 release for the Linaro Enterprise Reference Platform. To find out more, visit [platforms.linaro.org](https://platforms.linaro.org/) or click [here](http://releases.linaro.org/reference-platform/enterprise/17.08/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.

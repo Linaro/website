@@ -8,7 +8,7 @@ slug: linaro-landing-team-makes-great-progress
 title: Linaro Landing Team makes great progress
 wordpress_id: 4127
 categories:
-- Linaro Blog
+- blog
 tags:
 - Freescale
 - Landing teams

@@ -8,6 +8,8 @@ slug: linaro-12-11-now-available
 title: Linaro 12.11 Now Available
 wordpress_id: 2041
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -76,16 +78,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -98,7 +100,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -111,28 +113,28 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
@@ -148,13 +150,11 @@ For any errata issues, please see:
 
 
 
-	
+
   * [http://wiki.linaro.org/Cycles/1211/Release#Known_Issues](http://wiki.linaro.org/Cycles/1211/Release#Known_Issues)
 
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 
-	
+
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-

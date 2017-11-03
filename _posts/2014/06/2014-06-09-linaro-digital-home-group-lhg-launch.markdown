@@ -8,7 +8,7 @@ slug: linaro-digital-home-group-lhg-launch
 title: Linaro Digital Home Group (LHG) Launch
 wordpress_id: 5986
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - digital home

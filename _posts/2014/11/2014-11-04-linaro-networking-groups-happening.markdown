@@ -8,7 +8,7 @@ slug: linaro-networking-groups-happening
 title: Linaro Networking Group - What Has Been Happening?
 wordpress_id: 6931
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - LCU14

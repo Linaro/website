@@ -8,7 +8,9 @@ slug: renato-golin-on-eurollvm-linaro-toolchain-team-and-more
 title: Renato Golin on EuroLLVM, Linaro Toolchain Team and More
 wordpress_id: 2709
 categories:
-- Community
+- blog
+tags:
+- community
 ---
 
 
@@ -50,5 +52,3 @@ More information about the **Linaro Toolchain Team** can be found at: [https://
 More information about **LLVM** can be found at: [http://llvm.org/](http://llvm.org/)
 
 More information on **Linaro Connect Europe 2013** can be found at: [http://www.linaro.org/connect](http://www.linaro.org/connect)
-
-

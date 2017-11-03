@@ -8,7 +8,7 @@ slug: lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking
 title: 'LCE-13 Keynote Speaker Announced: Bob Monkman - Software Defined Networking'
 wordpress_id: 2767
 categories:
-- Linaro Blog
+- blog
 ---
 
 [caption id="attachment_2769" align="alignleft" width="184"][![Bob Monkman](http://www.linaro.org/wp-content/uploads/2013/06/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg)](http://www.linaro.org/wp-content/uploads/2013/06/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg) Bob Monkman[/caption]

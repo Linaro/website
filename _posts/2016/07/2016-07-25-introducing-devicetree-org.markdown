@@ -8,7 +8,7 @@ slug: introducing-devicetree-org
 title: Introducing devicetree.org
 wordpress_id: 11198
 categories:
-- Linaro Blog
+- blog
 ---
 
 Device tree is a data structure for describing hardware, which allows for hardware in a data structure to be passed to the operating system at boot time.

@@ -8,7 +8,7 @@ slug: opendataplane-project-up-and-running
 title: OpenDataPlane Project Up and Running
 wordpress_id: 3371
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - Linaro

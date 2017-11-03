@@ -9,7 +9,7 @@ title: LHG takes another step forward in Enhanced Content Protection with OPTEE 
   ARM® TrustZone®
 wordpress_id: 9924
 categories:
-- Linaro Blog
+- blog
 ---
 
 ## LHG takes another step forward in Enhanced Content Protection with OPTEE on ARM® TrustZone®

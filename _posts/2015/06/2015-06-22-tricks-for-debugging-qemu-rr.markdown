@@ -10,8 +10,9 @@ slug: tricks-for-debugging-qemu-rr
 title: Tricks for debugging QEMU — rr
 wordpress_id: 8764
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - Linaro
 - qemu

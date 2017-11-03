@@ -8,8 +8,9 @@ slug: linaro-11-11-public-plan-reviews
 title: Linaro 11.11 public plan reviews
 wordpress_id: 3386
 categories:
-- Community
+- blog
 tags:
+- Community
 - Engineering cycle
 - Linaro
 - plans
@@ -25,25 +26,25 @@ The calls will happen daily at 15:00 UTC, starting on Tuesday, May 31:
 
 
 
-	
+
   * Tuesday, May 31: Power Management Working Group (Amit Kucheria)
 
-	
+
   * Wednesday, June 1: Toolchain Working Group (Michael Hope)
 
-	
+
   * Thursday, June 2: Graphics Working Group (Jesse Barker)
 
-	
+
   * Friday, June 3: Infrastructure and Validation (James Westby and Paul Larson)
 
-	
+
   * Monday, June 6: Android and Developer Platform (Zach Pfeffer and Ricardo Salveti)
 
-	
+
   * Tuesday, June 7: Kernel Working Group (Deepak Saxena)
 
-	
+
   * Wednesday, June 8: Office of the CTO (David Rusling)
 
 
@@ -52,5 +53,3 @@ All the details and dial-in numbers can be found on Linaro's developer wiki: [ht
 This is a great chance to learn about what Linaro engineers will implement in the next six months, to ask all your questions and to get involved in the projects that you are interested in.
 
 You can subscribe to the Twitter [LinaroTech](http://twitter.com/#!/LinaroTech) channel to receive daily reminders for each call.
-
-

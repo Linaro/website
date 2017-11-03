@@ -8,7 +8,7 @@ slug: android-now-easier-than-ever-to-build-from-scratch-2
 title: Android Now Easier Than Ever To Build From Scratch
 wordpress_id: 1463
 categories:
-- Linaro Blog
+- blog
 ---
 
 Building products from source is always hard, and Android can be one of the worst. We get a lot of questions at Linaro about how to reproduce our builds. This month the Android team spent some time helping make this as easy as possible.

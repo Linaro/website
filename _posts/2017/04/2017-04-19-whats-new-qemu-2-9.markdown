@@ -8,8 +8,9 @@ slug: whats-new-qemu-2-9
 title: What's new in QEMU 2.9
 wordpress_id: 12315
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - qemu
 ---
 
@@ -37,11 +38,11 @@ Building on previous work to enable EL3 (the secure CPU mode provided by the sec
 
 
 
-    
+
     qemu-system-aarch64 ${<span style="color: #83a598;">QEMU_OPTS</span>} <span style="color: #b8bb26;">\</span>
       -machine gic-version=3 <span style="color: #b8bb26;">\</span>
       -machine <span style="color: #83a598;">virtualization</span>=true
-    
+
 
 
 

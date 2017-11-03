@@ -8,8 +8,9 @@ slug: linaro-11-05-released
 title: Linaro 11.05 released
 wordpress_id: 3385
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - '11.05'
 - Linaro
 - release
@@ -27,22 +28,22 @@ Highlights of this release:
 
 
 
-	
+
   * Linaro GCC 4.5, GCC 4.6 and GDB 7.2 2011.05, recently released components created by the Toolchain Working Group.
 
-	
+
   * Linaro Kernel 2011.05-2.6.38, the first source tarball release of Linux Linaro done by the Kernel Working Group.
 
-	
+
   * Linaro Evaluation Builds (LEBs) for Android and Ubuntu on PandaBoard with 3D graphics acceleration.
 
-	
+
   * Android cross toolchain based on latest gcc-linaro and gdb-linaro
 
-	
+
   * Host development tools (cross compiler, image builders) readily integrated for the Ubuntu distribution users (Lucid, Maverick and Natty support).
 
-	
+
   * And many more...
 
 
@@ -66,22 +67,22 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC: #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android irc.linaro.org or irc.freenode.net
 

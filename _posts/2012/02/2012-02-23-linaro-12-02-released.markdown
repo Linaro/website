@@ -8,6 +8,8 @@ slug: linaro-12-02-released
 title: Linaro 12.02 Released
 wordpress_id: 1278
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -23,33 +25,33 @@ During the Linaro Connect event there were daily [plenary, planning, and hacking
 
 Highlights from this Linaro Connect event which influence this and future releases include:
 **Plenary Sessions:**
-	
+
 * [ David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0&list=UUAl2MfCBjH5y0nIym0ujHfg&index=9&feature=plcp)
 
-	
+
 * [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
 
-	
+
 * [Kiko, Linaro Engineering VP: ARM, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
 
-	
+
 * [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50&list=UUAl2MfCBjH5y0nIym0ujHfg&index=5&feature=plcp)
 
-	
+
 * [Tim Bird of the Linux Foundation at Linaro Connect](http://www.youtube.com/watch?v=dub3HgezCAs&list=UUAl2MfCBjH5y0nIym0ujHfg&index=2&feature=plcp)
 
 **Interviews:**
-	
+
 * [Linaro Connect: Patrik Klinger Talks Snowball & The Igloo Community](http://www.youtube.com/watch?v=cxYdyEEb9X4&list=UUAl2MfCBjH5y0nIym0ujHfg&index=6&feature=plcp)
 
-	
+
 * [Tim Bird and David Rusling Chat at Linaro Connect](http://www.youtube.com/watch?v=xgdTzBl-3wQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=1&feature=plcp)
 
 **Demos:**
-	
+
 * [Ubuntu TV Demo on ARM](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
 
-	
+
 * [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=3&feature=plcp)
 
 Other video from Linaro can be found on the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg).

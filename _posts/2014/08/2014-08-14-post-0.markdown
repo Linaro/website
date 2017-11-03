@@ -11,8 +11,9 @@ slug: post-0
 title: 'Core Dump: Post #0'
 wordpress_id: 6293
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - engineer
 - foss
 - pov

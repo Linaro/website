@@ -8,6 +8,8 @@ slug: q2-12-linaro-connect-promo-video-now-available
 title: Q2.12 Linaro Connect Promo Video Now Available
 wordpress_id: 1554
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

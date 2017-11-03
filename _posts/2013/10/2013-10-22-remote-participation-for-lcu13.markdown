@@ -8,8 +8,9 @@ slug: remote-participation-for-lcu13
 title: Remote Participation for LCU13
 wordpress_id: 3098
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - conference
 - connect
 - Linaro
@@ -50,22 +51,22 @@ If a session is listed in one of the following rooms then it will be broadcast l
 
 
 
-	
-  * 
+
+  *
 
 
 Auditorium
 
 
-	
-  * 
+
+  *
 
 
 GT America 1
 
 
-	
-  * 
+
+  *
 
 
 GT America 2
@@ -82,22 +83,22 @@ GT America 2
 
 
 
-	
-  * 
+
+  *
 
 
 Add Linaro onAir to your Google+ circles- [https://plus.google.com/112814496864921562564](https://plus.google.com/112814496864921562564)
 
 
-	
-  * 
+
+  *
 
 
 Bookmark the YouTube Linaro onAir channel   [http://www.youtube.com/user/linaroOnAir](http://www.youtube.com/user/linaroOnAir)
 
 
-	
-  * 
+
+  *
 
 
 Decide what sessions you would like to participate in and become familiar with the links listed in the session description

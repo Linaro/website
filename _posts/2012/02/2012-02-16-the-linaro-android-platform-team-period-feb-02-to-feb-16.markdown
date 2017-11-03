@@ -8,10 +8,11 @@ slug: the-linaro-android-platform-team-period-feb-02-to-feb-16
 title: The Linaro Android Platform Team, Period Feb. 02 to Feb. 16
 wordpress_id: 1248
 categories:
+- blog
+tags:
 - Android
 - Connect Events
 - Industry
-tags:
 - android
 - arm
 - community
@@ -36,10 +37,10 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Talks held at Android Builders Summit and Embedded Linux Conference.
 
-	
+
   * iMX6 up and running..
 
 
@@ -51,31 +52,31 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * iMX6 support added to linaro-image-tools.
 
-	
+
   * Toolchain 12.02 released.
 
-	
+
   * binutils 2.22.51.0.1, gmp 5.0.4 and cloog 0.17.0 merged into toolchain.
 
-	
+
   * ffmpeg updated to 0.10.
 
-	
+
   * Initial gcc 4.7 toolchain builds set up.
 
-	
+
   * Transform of test results sheets done.
 
-	
+
   * Progress on USB camera support for snowball.
 
-	
+
   * Audio and Wlan hw2.1.1 support for Origen.
 
-	
+
   * Completed the video playback HW acceleration on Origen.
 
 
@@ -87,16 +88,16 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * 919148 [snowball: 0xbench native test fails to run to completion.](https://bugs.launchpad.net/linaro-android/+bug/919148)
 
-	
+
   * 925913 [Mali memory region needs to be increased](https://bugs.launchpad.net/linaro-android/+bug/925913)
 
-	
+
   * 920550 [USB SD card export not working.](https://bugs.launchpad.net/linaro-android/+bug/920550)
 
-	
+
   * 860588 [Snowball: Bluetooth Turn ON Fails.](https://bugs.launchpad.net/linaro-android/+bug/860588)
 
 
@@ -108,7 +109,7 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Connect q1-12, Android Builders Summit and Embedded Linux Conference - Two intense weeks of collaboration!
 
 
@@ -120,7 +121,7 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * none
 
 
@@ -132,7 +133,5 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * [12.02 Milestone](https://launchpad.net/linaro-android/+milestone/12.02)
-
-

@@ -8,8 +8,9 @@ slug: linaro-gcc-4-6-and-4-5-2012-01-released
 title: Linaro GCC 4.6 and 4.5 2012.01 released
 wordpress_id: 1181
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - gcc
 - Linaro
 - Linux on ARM
@@ -35,19 +36,19 @@ Linaro GCC 4.6 2012.01 is the eleventh release in the 4.6 series. Based off the 
 
 
 
-	
+
   * Updates to 4.6.2+svn182894
 
 
 Fixes:
 
-	
+
   * PR51301 ICE in vectorized widening multiplies
 
-	
+
   * LP: #897583 Code generation bug with -O2 (-foptimize-sibling-calls)
 
-	
+
   * LP: #736661 armel FTBFS due to compiler ICE
 
 
@@ -64,7 +65,7 @@ Linaro GCC 4.5 2012.01 is the seventeenth release in the 4.5 series.
 
 
 
-	
+
   * Updates to 4.5.3+svn182893
 
 
@@ -72,7 +73,7 @@ Linaro GCC 4.5 2012.01 is the seventeenth release in the 4.5 series.
 
 
 
-	
+
   * LP: #736661 armel FTBFS due to compiler ICE
 
 

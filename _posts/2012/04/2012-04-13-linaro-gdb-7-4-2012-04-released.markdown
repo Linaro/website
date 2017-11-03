@@ -8,6 +8,8 @@ slug: linaro-gdb-7-4-2012-04-released
 title: Linaro GDB 7.4 2012.04 released
 wordpress_id: 1563
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -19,10 +21,10 @@ Interesting changes include:
 
 
 
-	
+
   * gdbserver can now be compiled with Android's toolchain.
 
-	
+
   * Additional fixes from the GDB 7.4 branch, one of them being that it doesn't require makeinfo to build anymore.
 
 

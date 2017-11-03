@@ -8,8 +8,9 @@ slug: introduction-to-porting-and-optimising-code
 title: Introduction to Porting And Optimising Code
 wordpress_id: 3016
 categories:
-- Toolchain
+- blog
 tags:
+- Toolchain
 - Linaro
 - Linux
 - Linux on ARM

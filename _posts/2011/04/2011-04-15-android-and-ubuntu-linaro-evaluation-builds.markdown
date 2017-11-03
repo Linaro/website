@@ -8,7 +8,7 @@ slug: android-and-ubuntu-linaro-evaluation-builds
 title: Android and Ubuntu Linaro Evaluation Builds
 wordpress_id: 3381
 categories:
-- Linaro Blog
+- blog
 tags:
 - Evaluation builds
 - Landing teams

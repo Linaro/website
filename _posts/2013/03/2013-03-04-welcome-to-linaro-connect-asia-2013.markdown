@@ -8,7 +8,7 @@ slug: welcome-to-linaro-connect-asia-2013
 title: Welcome to Linaro Connect Asia 2013
 wordpress_id: 2490
 categories:
-- Linaro Blog
+- blog
 ---
 
 Welcome to Linaro Connect Asia 2013 in Hong Kong.

@@ -8,7 +8,7 @@ slug: april-ceo-note
 title: Q1 2014 CEO Note
 wordpress_id: 5667
 categories:
-- Linaro Blog
+- blog
 tags:
 - ARMv8
 - connect

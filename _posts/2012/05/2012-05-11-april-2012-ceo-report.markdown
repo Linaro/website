@@ -8,6 +8,8 @@ slug: april-2012-ceo-report
 title: April 2012 CEO Report
 wordpress_id: 1626
 categories:
+- blog
+tags:
 - Industry
 ---
 
@@ -21,9 +23,3 @@ There is synergy between these new market areas and mobile devices. 10 years ago
 
 
 I look forward to seeing you all at Linaro Connect later this month.
-
-
-
-
-
-

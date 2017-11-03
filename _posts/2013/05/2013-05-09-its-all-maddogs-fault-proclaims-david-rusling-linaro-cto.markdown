@@ -8,6 +8,8 @@ slug: its-all-maddogs-fault-proclaims-david-rusling-linaro-cto
 title: '"It''s all maddog''s fault," proclaims David Rusling, Linaro CTO'
 wordpress_id: 2691
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -225,13 +227,13 @@ The essence of Free Software.
 
 
 
-	
+
   * I start with Free Software so I do not have to write the whole thing
 
-	
+
   * I contribute to Free Software so I can work and learn from others
 
-	
+
   * I do not take away the freedoms of others, as it breaks the chain
 
 

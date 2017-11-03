@@ -8,6 +8,8 @@ slug: work-from-home-while-helping-to-build-the-future-of-linux-on-arm
 title: Work From Home While Helping to Build the Future of Linux on ARM
 wordpress_id: 2590
 categories:
+- blog
+tags:
 - Community
 ---
 

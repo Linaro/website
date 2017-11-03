@@ -9,7 +9,7 @@ title: 'LCE-13 Keynote Speaker Announced: Leslie Hawthorn - Cultivating Communit
   Best Practices for Overcoming Challenges to Collaboration'
 wordpress_id: 2759
 categories:
-- Linaro Blog
+- blog
 ---
 
 [caption id="attachment_2760" align="alignleft" width="230"][![Leslie Hawthorn](http://www.linaro.org/wp-content/uploads/2013/06/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000-682x1024.jpg)](http://www.linaro.org/wp-content/uploads/2013/06/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg) Leslie Hawthorn[/caption]

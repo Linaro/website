@@ -8,6 +8,8 @@ slug: linaro-12-07-released
 title: Linaro 12.07 Released
 wordpress_id: 1720
 categories:
+- blog
+tags:
 - Releases
 ---
 

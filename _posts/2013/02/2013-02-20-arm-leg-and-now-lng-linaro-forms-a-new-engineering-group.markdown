@@ -8,6 +8,8 @@ slug: arm-leg-and-now-lng-linaro-forms-a-new-engineering-group
 title: ARM, LEG and now LNG... Linaro forms a new engineering group
 wordpress_id: 2393
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -36,16 +38,16 @@ An interim steering committee formed from the companies interested in forming LN
 
 
 
-	
+
   1. Virtualization support with considerations for real-time performance, I/O optimization, robustness and heterogeneous operating environments on multi-core SoCs.
 
-	
+
   2. Real-time operations and the Linux kernel optimizations for the control and data plane.
 
-	
+
   3. Packet processing optimizations that maximize performance and minimize latency in data flows through the network.
 
-	
+
   4. Dealing with legacy software and mixed-endian issues prevalent in the networking space.
 
 

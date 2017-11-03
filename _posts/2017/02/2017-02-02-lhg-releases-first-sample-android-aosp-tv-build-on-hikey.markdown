@@ -8,7 +8,7 @@ slug: lhg-releases-first-sample-android-aosp-tv-build-on-hikey
 title: LHG Releases First Sample Android “AOSP TV” build on HiKey
 wordpress_id: 12154
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - android

@@ -8,7 +8,7 @@ slug: open-source-continuous-integration-ci-for-zephyr-at-elc
 title: Open source continuous integration (CI) for Zephyr at ELC
 wordpress_id: 11886
 categories:
-- Linaro Blog
+- blog
 tags:
 - IoT
 - Linaro

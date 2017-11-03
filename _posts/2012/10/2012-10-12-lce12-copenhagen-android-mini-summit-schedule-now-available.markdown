@@ -8,6 +8,8 @@ slug: lce12-copenhagen-android-mini-summit-schedule-now-available
 title: 'LCE12 - Copenhagen: Android Mini-Summit Schedule Now Available'
 wordpress_id: 1928
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -37,13 +39,13 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-	
+
   * [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
 
-	
+
   * [Christian Bejram](https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort
 
-	
+
   * [Thomas Langås](https://plus.google.com/116279610674119061733/posts) - Technical challenges the Cotton Candy team has faced
 
 
@@ -60,19 +62,19 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-	
+
   * Talk about what was planned in Hong Kong and give a summary
 
-	
+
   * Present current benchmark methodology and hotspot benchmark results
 
-	
+
   * Discuss methodology
 
-	
+
   * Suggest specific optimization opportunities and additional measurements and benchmarks
 
-	
+
   * Explore additional benchmarks
 
 
@@ -84,16 +86,16 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-	
+
   * Discuss Dalvik's VM and JIT architecture
 
-	
+
   * Present OpenJDK vs Dalvik benchmark results running [http://math.nist.gov/scimark2/](http://math.nist.gov/scimark2/)
 
-	
+
   * Discuss opportunities to optimize Dalivk and V8 JITsDiscuss additional tools to find optimizations
 
-	
+
   * Plan next steps
 
 
@@ -105,89 +107,89 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-	
+
   * Power optimizations for mobile use cases
 
 
 
 
-### 
+###
 Unification: Android Kernel Upstreaming: Graphics - Jesse Barker
 
 
 
 
 
-	
+
   * Quick ION overview
 
-	
+
   * Member platform support for ION/dmabuf
 
-	
+
   * Re-propose: Replace carveout heaps with CMA heap
 
-	
+
   * fbdev to DRM/KMS (Laurent Pinchart and Rob Clark)
 
-	
+
   * Discuss piglet for Android
 
 
 
 
-### 
+###
 Unification: Android Kernel Upstreaming - Deepak Saxena
 
 
 
 
 
-	
+
   * Status of the Android patchset in the upstream
 
-	
+
   * Plan for the future
 
 
 
 
-### 
+###
 Unification: Embedded Android - Karim Yaghmour (Remote)
 
 
 
 
 
-	
+
   * Why are new products using Android as a base?
 
-	
+
   * Discuss lowering barriers to development
 
-	
+
   * Discuss Android as an X app
 
-	
+
   * Discuss headless Android
 
-	
+
   * Create project list
 
 
 
 
-### 
+###
 The Last Mile: Android Productization Challenges at ST-Ericsson - ST-Ericsson Android Engineers
 
 
 
 
 
-	
+
   * Discuss past issues in creating Android products
 
-	
+
   * Discuss new issues and get feedback
 
 
@@ -199,7 +201,7 @@ The Last Mile: Android Productization Challenges at ST-Ericsson - ST-Ericsson An
 
 
 
-	
+
   * Discuss how to streamline upstreaming and productization synchronization
 
 
@@ -211,10 +213,10 @@ The Last Mile: Android Productization Challenges at ST-Ericsson - ST-Ericsson An
 
 
 
-	
+
   * Answer questions
 
-	
+
   * Make sure Actions are recorded
 
 
@@ -229,16 +231,16 @@ The following are some of the additional Android sessions that will be held in a
 
 
 
-	
+
   * Android Dalvik, V8 and Bionic Optimization Discussion - Michael Hope and Vishal Bhoj
 
-	
+
   * Android Graphics - Jesse Barker
 
-	
+
   * Android Kernel and Power Feature Discussion - Deepak Saxena and Amit Kucheria
 
-	
+
   * Embedded Android - Karim Yaghmour (Remote)
 
 
@@ -251,16 +253,16 @@ Yes, and those demos will include (but may not be limited too):
 
 
 
-	
+
   * Galaxy Nexus with Linaro Improvements Programming Station
 
-	
+
   * NI Power Measurement of Android
 
-	
+
   * Benchmark and Hotspot Automation
 
-	
+
   * Android/Standard Linux on Galaxy Nexus
 
 
@@ -286,5 +288,3 @@ Yes, the sessions will be recorded and live streamed via Google + Hangouts on Ai
 
 
 _More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](http://connect.linaro.org/events/event/lce12-copenhagen/#welcome). __Find out more about Linaro at [linaro.org](http://www.linaro.org/). _
-
-

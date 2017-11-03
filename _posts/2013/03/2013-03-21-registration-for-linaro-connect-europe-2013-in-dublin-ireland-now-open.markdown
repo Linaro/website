@@ -8,6 +8,8 @@ slug: registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open
 title: Registration for Linaro Connect Europe 2013 in Dublin, Ireland Now Open
 wordpress_id: 2579
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

@@ -8,9 +8,10 @@ slug: the-linaro-android-platform-team-period-dec-06-to-dec-13
 title: The Linaro Android Platform Team, Period Dec. 06 to Dec. 13
 wordpress_id: 1068
 categories:
+- blog
+tags:
 - Android
 - Connect Events
-tags:
 - android
 - connect
 - Linaro
@@ -28,10 +29,10 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Hardware accelerated graphics for Linaro Android Snowball ICS is running. Soon to be released.
 
-	
+
   * gator (for DS-5) is running on Snowball, Pandaboard and Virtual Express.
 
 
@@ -43,25 +44,25 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Good progress on Hardware accelerated graphics for Linaro Android Origen ICS.
 
-	
+
   * ICS can be built with a gcc 4.6 based toolchain.
 
-	
+
   * Good progress on strict-aliasing support for gcc 4.6 toolchain.
 
-	
+
   * Progress in updating ffmpeg in ICS to version 0.9.
 
-	
+
   * A kernel rebuild script is finished and ready for deployment.
 
-	
+
   * A wiki page on how to install DS-5 on 64-bit Ubuntu Oneiric workstations is available.
 
-	
+
   * Good progress on ELC/Connect/Android Builders Summit planning.
 
 
@@ -73,10 +74,10 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * 902563 [gator driver fails to compile on 3.2 rc kernel.](https://bugs.launchpad.net/linaro-android/+bug/902563)
 
-	
+
   * 894491 [https://bugs.launchpad.net/linaro-android/+bug/894491](https://bugs.launchpad.net/linaro-android/+bug/894491)
 
 
@@ -88,7 +89,7 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Goodbye Frans Gifford and Chao Yang. Many thanks for terrific work!
 
 
@@ -100,7 +101,7 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * none
 
 
@@ -112,5 +113,5 @@ Here's a list of this weeks major achievements.
 
 
 
-   
+
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)

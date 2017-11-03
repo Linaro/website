@@ -8,6 +8,8 @@ slug: want-to-learn-more-about-arms-cortex-a-series-of-processors
 title: Want to learn more about ARM’s Cortex-A series of processors?
 wordpress_id: 1762
 categories:
+- blog
+tags:
 - Industry
 ---
 

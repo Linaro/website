@@ -8,6 +8,8 @@ slug: community-feedback
 title: Community Feedback
 wordpress_id: 4123
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -17,13 +19,13 @@ This is intended to be an open-ended question. However, here are some specifics 
 
 
 
-	
+
   1. What were the biggest obstacles you faced when you started?
 
-	
+
   2. What are the biggest obstacles you face now?
 
-	
+
   3. How do go about getting help? What format do you prefer it in (websites, videos, etc).
 
 

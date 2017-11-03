@@ -9,9 +9,10 @@ title: FXI's Cotton Candy at CES Leverages Open Source Tools from Linaro for Rap
   Development
 wordpress_id: 1148
 categories:
+- blog
+tags:
 - Android
 - Hardware
-tags:
 - android
 - Cotton Candy
 - Development

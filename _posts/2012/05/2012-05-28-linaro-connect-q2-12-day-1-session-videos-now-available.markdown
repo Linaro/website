@@ -8,6 +8,8 @@ slug: linaro-connect-q2-12-day-1-session-videos-now-available
 title: Linaro Connect Q2.12 Day 1 Session Videos Now Available
 wordpress_id: 1659
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Industry
@@ -21,43 +23,43 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
 
 
 
-	
+
   * [Introduction to Pinmux](http://youtu.be/Zd5SseuszQ0)
 
-	
+
   * [Linaro QA Services BootStrap](http://youtu.be/I59HuSt_yCI)
 
-	
+
   * [GCC Optimization](http://youtu.be/zyxHPg3rJss)
 
-	
+
   * [Working with the ARM-SOC Tree](http://youtu.be/_J4wIisd-9o)
 
-	
+
   * [Intro to ARM-SOC](http://youtu.be/Q1Xp-HlbF00)
 
-	
+
   * [NEON Optimization Forum](http://youtu.be/zYnC888SzFQ)
 
-	
+
   * [Intro to GIT](http://youtu.be/iiKOX96-gwg)
 
-	
+
   * [Perf Support on ARM Platforms](http://youtu.be/r_RhM9kEYjc)
 
-	
+
   * [Ubuntu LEB: Review Current CI Process (Part 1)](http://youtu.be/zKFhwqbvay8)
 
-	
+
   * [Ubuntu LEB: Review Current CI Process (Part 2)](http://youtu.be/YyNdYapK8Lw)
 
-	
+
   * [Kernel Upstreaming 101](http://youtu.be/fp7n7VPrHD8)
 
-	
+
   * [Using Exsisting Linux Mechanisms to Support big.LITTLE](http://youtu.be/K8C31mb7Qc0)
 
-	
+
   * [Linaro Connect Q2.12 Opening Plenary Sessions](http://youtu.be/OlzYuXMuJ9E)
 
 

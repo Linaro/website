@@ -8,7 +8,8 @@ slug: linaro-confectionary-release-lcr-14-12-released
 title: Linaro Confectionary Release (LCR) 14.12 released
 wordpress_id: 7753
 categories:
-- Linaro Blog
+- blog
+tags:
 - Releases
 ---
 
@@ -65,13 +66,13 @@ The release can be found respectively at:
 
 
 
-  
+
   * [Juno](http://releases.linaro.org/latest/android/lcr/juno)
 
-  
+
   * [FVP](http://releases.linaro.org/latest/android/lcr/fvp)
 
-  
+
   * [Versatile Express TC2](http://releases.linaro.org/latest/android/lcr/vexpress-tc2)
 
 
@@ -86,13 +87,13 @@ If you should find a issue or have a question about the release, we invite you t
 
 
 
-  
+
   * IRC: irc.freenode.net - #linaro-android
 
-  
+
   * email: linaro-android at lists.linaro.org
 
-  
+
   * [Bug Tracking System: Linaro Android project / Linaro Confectionary release component](https://bugs.linaro.org/enter_bug.cgi?product=Linaro%20Android)
 
 
@@ -101,4 +102,3 @@ If you should find a issue or have a question about the release, we invite you t
 
 
 Support is on a “best effort” basis.
-

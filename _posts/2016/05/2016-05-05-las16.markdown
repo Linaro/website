@@ -8,7 +8,7 @@ slug: las16
 title: LAS16 Connect Registration is now open
 wordpress_id: 10606
 categories:
-- Linaro Blog
+- blog
 tags:
 - las16
 ---

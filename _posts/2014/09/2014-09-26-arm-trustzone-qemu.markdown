@@ -11,8 +11,9 @@ slug: arm-trustzone-qemu
 title: ARM TrustZone in QEMU
 wordpress_id: 6913
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - qemu
 - Security Extensions
@@ -159,9 +160,9 @@ The latest QEMU TrustZone support is available in the below Linaro git repositor
 
 To acquire a buildable version of QEMU:
 
-    
+
     $ git clone https://git.linaro.org/virtualization/qemu-tz.git --branch qemutz
-    
+
 
 
 
@@ -171,28 +172,28 @@ To acquire a buildable version of QEMU:
 
 To build the QEMU (from the QEMU root directory):
 
-    
+
     $ ./configure --target-list=arm-softmmu
     $ make
-    
+
 
 
 **How do I run it?**
 
 In order to take advantage of QEMU’s security extensions, you have to have an image capable of providing a secure and non-secure contexts.  Without this, it is not possible to take advantage of the TrustZone features.  If you are interested in checking whether the TrustZone enabled QEMU still works, take a stab at booting your favorite ARM 1176 or Cortex-A8/A9/A15 Linux kernel as follows from the QEMU root directory:
 
-    
+
     $ ./arm-softmmu/qemu-system-arm -kernel $PATH_TO_KERNEL/zImage -M vexpress-a15 -cpu cortex-a15 -dtb PATH_TO_DTB/vexpress-v2p-ca15-tc1.dtb -m 1024 -append 'console=ttyAMA0,38400n8' -serial stdio -initrd $PATH_TO_INITRD/initrd.img
-    
+
 
 
 **How do I run a secure image?**
 
 In order to take advantage of QEMU’s support for the ARM Security Extensions, different command line options are used to start the user off in a secure PL1 mode.  As mentioned earlier, the -bios command line option is used to initiate execution of a raw binary image starting at address 0x0 in a secure PL1 mode.  This option replaces the standard options used when booting a standalone OS kernel, such as -kernel, -dtb, and -initrd.  Support of the -bios option is currently limited to ARM Versatile Express models using Cortex A9 or A15 processors.
 
-    
+
     $ ./arm-softmmu/qemu-system-arm -bios $PATH_TO_IMAGE/image -M vexpress-a15 -cpu cortex-a15 -m 1024 -append 'console=ttyAMA0,38400n8' -serial stdio
-    
+
 
 
 
@@ -211,7 +212,7 @@ In order to take advantage of QEMU’s support for the ARM Security Extensions, 
 [5] DDI0406C ARM® Architecture Reference Manual - ARMv7-A and ARMv7-R edition
 
 
-## 
+##
 
 
 

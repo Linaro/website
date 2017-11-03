@@ -8,6 +8,8 @@ slug: registration-opens-for-linaro-connect-asia-2013-book-early
 title: Registration Opens for Linaro Connect Asia 2013 - Book Early!
 wordpress_id: 2143
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Industry
@@ -26,37 +28,37 @@ For LCA13 Track participants can expect the track sessions throughout the week t
 
 
 
-	
+
   * Server
 
-	
+
   * Android
 
-	
+
   * Graphics and multimedia
 
-	
+
   * Kernel
 
-	
+
   * Engineering builds
 
-	
+
   * Power Management
 
-	
+
   * QA
 
-	
+
   * Infrastructure
 
-	
+
   * Tools
 
-	
+
   * Validation and LAVA
 
-	
+
   * Training
 
 
@@ -75,13 +77,13 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 
 
-	
+
   * [Android Mini-Summit](http://www.linaro.org/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-	
+
   * [ARMv8(64bit)](http://www.linaro.org/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/)
 
-	
+
   * big.LITTLE
 
 
@@ -93,43 +95,43 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 
 
-	
+
   * [Android](http://summit.linaro.org/lce12/track/linaro-android)
 
-	
+
   * [Automation, CI & LAVA](http://summit.linaro.org/lce12/track/linaro-automation-ci-lava)
 
-	
+
   * [Engineering Baselines and Validation](http://summit.linaro.org/lce12/track/linaro-engineering-baselines-validation)
 
-	
+
   * [General](http://summit.linaro.org/lce12/track/linaro-general)
 
-	
+
   * [Graphics & Multimedia](http://summit.linaro.org/lce12/track/linaro-gfx-mm)
 
-	
+
   * [Hackfest](http://summit.linaro.org/lce12/track/hackfest)
 
-	
+
   * [Kernel & Power Management](http://summit.linaro.org/lce12/track/linaro-kernel-power-management)
 
-	
+
   * [Members](http://summit.linaro.org/lce12/track/linaro-members)
 
-	
+
   * [Mini Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit)
 
-	
+
   * [OCTO](http://summit.linaro.org/lce12/track/linaro-octo)
 
-	
+
   * [Private Meetings](http://summit.linaro.org/lce12/track/linaro-private-meetings)
 
-	
+
   * [Toolchain](http://summit.linaro.org/lce12/track/linaro-toolchain)
 
-	
+
   * [Training](http://summit.linaro.org/lce12/track/linaro-training)
 
 
@@ -141,31 +143,31 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 
 
-	
+
   * Linaro – Linaro-Linux Kernel Demo – Various Member Boards
 
-	
+
   * Linaro - Galaxy Nexus with Linaro Improvements Programming Station
 
-	
+
   * Linaro - NI Power Measurement of Android
 
-	
+
   * Linaro - Benchmark and Hotspot Automation
 
-	
+
   * Linaro –  Android/Standard Linux on Galaxy Nexus
 
-	
+
   * SIProp – 3D copy machine
 
-	
+
   * Samsung LT - Android on Insignal Origna Quad Core Low Cost Board running Samsung Exynos 4412 SoC
 
-	
+
   * Texas Instruments LT - ARM energy probe + Linaro software demo
 
-	
+
   * JogAmp Community - JogAmp graphics, audio, media and processing libraries
 
 
@@ -177,10 +179,10 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 
 
-	
+
   * [LEG](http://www.linaro.org/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/)
 
-	
+
   * [HiSilicon](http://www.linaro.org/news/hisilicon-joins-linaro-as-core-member/en/), [LG Electronics](http://www.linaro.org/news/lg-electronics-joins-linaro/en/)
 
 

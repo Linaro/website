@@ -8,6 +8,8 @@ slug: march-2012-ceo-report
 title: March 2012 CEO Report
 wordpress_id: 1528
 categories:
+- blog
+tags:
 - Industry
 ---
 
@@ -24,5 +26,3 @@ Therefore we have decided to use the Linaro big.LITTLE in-kernel switcher as a t
 If this structure is a success for our members, then we will look at extending it to other pieces of new technology work including some aspects of big.LITTLE MP. big.LITTLE MP will present some additional challenges, as it affects much more of the core Linux kernel infrastructure, including the scheduler itself. This will REQUIRE open community participation and work in order to start to build consensus around the right approach for the required infrastructure changes. Linaro started this at the Linaro Connect meeting in San Francisco in February. For big.LITTLE MP we envisage a combination of open work on upstreaming infrastructure, and a possible Linaro members-only effort in building complete product ready solutions prior to upstreaming. Given the nature of the big.LITTLE MP project we expect to deliver this in phases with additional product functionality available at each phase. Therefore big.LITTLE MP discussions will be held both in the open, and in members/invite-only sessions at the next Linaro Connect in Hong Kong.
 
 I would welcome your feedback on these steps.
-
-

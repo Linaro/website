@@ -15,7 +15,7 @@ title: 'More than 300,000 boots and counting: An update on the upstream test sys
   - kernelci.org'
 wordpress_id: 8894
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - kernel

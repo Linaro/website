@@ -8,6 +8,8 @@ slug: linaro-gdb-7-3-2011-09-released
 title: Linaro GDB 7.3 2011.09 released
 wordpress_id: 499
 categories:
+- blog
+tags:
 - Releases
 ---
 

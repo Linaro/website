@@ -8,8 +8,9 @@ slug: low-cost-boards-displays
 title: Using ARM low cost boards for displays
 wordpress_id: 3398
 categories:
-- Hardware
+- blog
 tags:
+- Hardware
 - board
 - desktop
 - Linaro
@@ -39,8 +40,4 @@ and the hardware you actually use, in particular in a public event!
 
 
   3. Be ready for last minute requests.
-  4. 
-
-
-
-
+  4.

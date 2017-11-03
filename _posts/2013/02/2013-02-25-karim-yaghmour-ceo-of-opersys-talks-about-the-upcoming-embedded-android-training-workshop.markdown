@@ -12,7 +12,7 @@ categories:
 - Android
 - Community
 - Connect Events
-- Linaro Blog
+- blog
 ---
 
 [Karim Yaghmour](https://twitter.com/karimyaghmour), CEO of [Opersys](http://www.opersys.com/) and [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), Linaro Android [Team](http://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead took a moment to discuss the upcoming [Embedded Android Training Workshop](http://www.linaro.org/linaro-blog/2013/02/21/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/) that is scheduled to take place at [Linaro Connect Asia 2013](http://www.linaro.org/connect) in Hong Kong next week (4-8 March).

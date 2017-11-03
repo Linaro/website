@@ -8,10 +8,11 @@ slug: welcome-to-linaro-connect-europe-2013
 title: Welcome to Linaro Connect Europe 2013
 wordpress_id: 2802
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Hangouts on Air
-tags:
 - community
 - Connect Events
 - Hangouts on Air

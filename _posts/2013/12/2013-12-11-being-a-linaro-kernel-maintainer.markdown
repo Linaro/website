@@ -8,8 +8,9 @@ slug: being-a-linaro-kernel-maintainer
 title: Being a Linaro Kernel Maintainer
 wordpress_id: 3216
 categories:
-- Kernel
+- blog
 tags:
+- Kernel
 - kernel
 - Linaro
 - Linux

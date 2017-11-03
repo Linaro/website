@@ -8,6 +8,8 @@ slug: linaro-connect-asia-2013-group-photo
 title: Linaro Connect Asia 2013 Group Photo
 wordpress_id: 2540
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

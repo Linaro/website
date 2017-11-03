@@ -8,8 +8,9 @@ slug: 29-aug-2013-lava-team-meeting-live-demos
 title: 29 Aug 2013 - LAVA Team meeting - LIVE Demos
 wordpress_id: 2985
 categories:
-- LAVA
+- blog
 tags:
+- LAVA
 - arm
 - lava
 - Linaro
@@ -29,43 +30,43 @@ http://www.youtube.com/watch?v=LSBWDuBUP0I
 
 
 
-	
-  1. 
 
-    
+  1.
+
+
     lava testdef new demo.yaml
 
 
 
-	
+
     1. Will create a basic test definition in demo.yaml. User can edit it to add the specifics of his/her test suite.
 
 
 
 
-	
-  2. 
 
-    
+  2.
+
+
     lava testdef run demo.yaml
 
 
 
-	
+
     1. Will run the test definifion on demo.yaml agains a locally configured device. After entering the desired parameters, such as device type and image, the user can choose one of the local devices, and have that test definition run on the device. The job will start and the user can watch the run directly in the shell session.
 
 
 
 
-	
-  3. 
 
-    
+  3.
+
+
     lava testdef submit demo.yaml
 
 
 
-	
+
     1. Will submit the test definition in demo.yaml to a chosen LAVA server.
 
 

@@ -13,7 +13,7 @@ slug: evolution-of-a-generic-tee-kernel-driver
 title: Evolution of a generic TEE kernel driver
 wordpress_id: 8867
 categories:
-- Linaro Blog
+- blog
 tags:
 - Linaro
 - OP-TEE

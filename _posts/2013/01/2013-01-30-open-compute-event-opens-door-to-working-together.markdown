@@ -8,6 +8,8 @@ slug: open-compute-event-opens-door-to-working-together
 title: Open Compute Event Opens Door to Working Together
 wordpress_id: 2252
 categories:
+- blog
+tags:
 - Community
 ---
 

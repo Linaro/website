@@ -8,6 +8,8 @@ slug: november-ceo-report
 title: November CEO Report
 wordpress_id: 1086
 categories:
+- blog
+tags:
 - Industry
 ---
 
@@ -22,5 +24,3 @@ At the highest level we have created a chart of the major projects that we expec
 By openly publishing our plans we hope that the ARM ecosystem will recognize that many of these projects are shared goals, and that it is far more effective to achieve them together within Linaro as members, rather than for each company to individually engineer a solution, only to result in fragmentation, high on-going maintenance costs and non-upstreamable code. We also expect that our members will continue to come up with new requirements to be added to the roadmap.
 
 While on the subject of looking forward, we expect to add new members to Linaro in 2012. I have been asked why other ARM SoC vendors should join Linaro given the quality of public deliverables being created by the company. Linaro’s goal is to generate substantial ROI for our members through sharing the engineering costs of developing common core open source consolidation and optimization. There are substantial benefits to being a member of Linaro, including that we maintain and support only our member SoCs in Linaro; we implement all our work and roadmap technologies on our member SoCs; only Linaro Members have access to the world-class open source expertise within Linaro; only Linaro Members have access to Linaro’s continuous test & validation framework for upstream kernel and key distribution testing; and, most important of all, we want to demonstrate to OEM and ODM customers that because of Linaro, using member ARM SoCs lowers costs and accelerates their time to market compared to other SoC vendors. Lastly – it is our members that determine our roadmap, and it is they that get to use our deliverables created on their hardware first, with a time to market advantage over their competitors. In summary we want to ensure that it is our members who benefit first and foremost from what we do.
-
-

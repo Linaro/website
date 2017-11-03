@@ -8,7 +8,7 @@ slug: when-will-uefi-and-acpi-be-ready-on-arm
 title: When Will UEFI and ACPI Be Ready On ARM?
 wordpress_id: 3284
 categories:
-- Linaro Blog
+- blog
 tags:
 - kernel
 - Linaro

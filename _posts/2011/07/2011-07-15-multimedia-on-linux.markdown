@@ -8,6 +8,8 @@ slug: multimedia-on-linux
 title: Multimedia on Linux
 wordpress_id: 3393
 categories:
+- blog
+tags:
 - Industry
 ---
 
@@ -35,5 +37,3 @@ On the software codec front, we have agreed to host a community around NEON opti
 During the mini-summit Rob Clark presented on the multimedia-related impact of work being run in the Linaro Unified Memory Management SIG; this has the potential to greatly simplify the software integration of codecs, camera and display, allowing for a native zero-copy implementation using standard kernel interfaces.  ALSA UCM was also discussed, with both Slimlogic and Android representatives discussing current plans for integration in Stagefright and Pulseaudio; it is likely that a small library to support UCM functionality in the userspace frameworks would accelerate its adoption, and discussion of what that library would be (and what license it would be provided under) is also recorded. Linaro will also put effort into providing a set of standard UCM configurations for the devices which we directly support, allowing UCM to work out of the box on new hardware where the software stack has been prepared for it.
 
 The MMWG’s Public Plan Review session will be held during the second half of July; please invite your multimedia experts to analyze the roadmap and discuss solutions and related work happening elsewhere.
-
-

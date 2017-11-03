@@ -8,9 +8,9 @@ slug: lcu14-tuesday-recap
 title: LCU14 Tuesday Recap
 wordpress_id: 6698
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - android
 - AOSP
 - arm
@@ -406,45 +406,3 @@ LCU14-115: Security Best Practices- (also listed as LCU14-212)
 ** ****Pictures from Tuesday's Linaro Connect USA 2014**
 
 [![day 2 picture 3](http://www.linaro.org/wp-content/uploads/2014/09/day-2-picture-3.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/day-2-picture-3.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

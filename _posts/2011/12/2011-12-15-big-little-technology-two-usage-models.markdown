@@ -8,6 +8,8 @@ slug: big-little-technology-two-usage-models
 title: big.LITTLE Technology - Two Usage Models
 wordpress_id: 1077
 categories:
+- blog
+tags:
 - Hardware
 ---
 
@@ -17,6 +19,4 @@ In the task migration model, either the cluster of Cortex-A15 cores or the clust
 
 In the big.LITTLE MP model, all of the big.LITTLE cores, Cortex-A15 and Cortex-A7, are operating as part of a single instance of the Linux kernel. In this case, Linux is scheduling tasks on the most appropriate cores. This presents a challenge as, whilst Linux supports SMP, the kernel does not have the concept of clusters of CPUs with different power and performance characteristics. The requirements include flexibly migrating tasks and powering off cores. This mode could be further complicated by using a virtualization layer supporting several VMs of possibly varying CPU topologies. The kernel side of this work fits with the Power Management working group’s mandate and will be investigated within that team. Making this scale of change to the kernel’s scheduler will take a lot of effort, particularly in the areas of validation and benchmarking. It will also require coordinated influence from the ARM Linux community.
 
-In both cases the boot architecture needs to ensure that appropriate software is loaded into the hypervisor at boot time, be it switcher code or virtualisation software such as KVM, before control is passed to the Linux kernel. Coordinating several layers of software is difficult and time consuming and any fragmentation here will only cause bugs and delay products. Getting big.LITTLE right is a challenge for Linaro and its members. Linaro will work with all interested members, including with ARM themselves, to support open source software on big.LITTLE as quickly as possible, to enable member products to get to market in the earliest possible timeframe. 
-
-
+In both cases the boot architecture needs to ensure that appropriate software is loaded into the hypervisor at boot time, be it switcher code or virtualisation software such as KVM, before control is passed to the Linux kernel. Coordinating several layers of software is difficult and time consuming and any fragmentation here will only cause bugs and delay products. Getting big.LITTLE right is a challenge for Linaro and its members. Linaro will work with all interested members, including with ARM themselves, to support open source software on big.LITTLE as quickly as possible, to enable member products to get to market in the earliest possible timeframe.

@@ -8,6 +8,8 @@ slug: linaro-12-01-release
 title: Linaro 12.01 release
 wordpress_id: 1212
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -24,13 +26,13 @@ successful achievements in the following blog posts:
 
 
 
-	
+
   * [Ubuntu TV fully accelerated on a PandaBoard with Ubuntu LEB](http://rsalveti.wordpress.com/2012/01/16/ubuntu-tv-fully-accelerated-on-a-pandaboard-with-ubuntu-leb/)
 
-	
+
   * [Ubuntu TV UI on PandaBoard, and next steps](http://rsalveti.wordpress.com/2012/01/10/ubuntu-tv-ui-at-pandaboard-and-next-steps/)
 
-	
+
   * [Hardware video decode and XBMC support on a PandaBoard with Ubuntu LEB](http://rsalveti.wordpress.com/2012/01/06/hw-video-decode-and-xbmc-ubuntu-linaro/)
 
 
@@ -41,7 +43,7 @@ and new features which are integrated on top of Android and Ubuntu.
 In addition to these highlights and improvements delivered by Linaro engineers,
 the following updates and features are also available:
 
-	
+
   * The Multimedia Working Group announces the completion of benchmarking work
 for Speex codec on Linaro Automated Validation Architecture (LAVA) and an
 updated version of libjpeg-turbo for Linaro Ice Cream Sandwich (ICS), with
@@ -49,13 +51,13 @@ ICS specific upstream optimizations backported. The team also notes that
 Android skia-bench numbers have been improved through further optimization
 of commonly used libjpeg-turbo code paths with results available here.
 
-	
+
   * The Toolchain Working Group now provides pre-built binary versions of Linaro
 GCC, Linaro GDB and binutils. These binary versions work under generic Linux
 and Windows and can be used by an end developer to cross-compile programs
 for either a Linaro Evaluation Build or a bare-metal target.
 
-	
+
   * ST-Ericsson Snowball updates for this release include graphics acceleration
 with the Mali 400 GPU on Linaro Ubuntu, supports in Linaro U-Boot, and runs
 test suite on Linaro Android with LAVA.

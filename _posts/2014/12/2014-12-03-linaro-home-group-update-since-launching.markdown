@@ -8,7 +8,7 @@ slug: linaro-home-group-update-since-launching
 title: Linaro Home Group Update Since Launching
 wordpress_id: 7602
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - ARMv8

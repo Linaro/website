@@ -10,7 +10,7 @@ slug: day-3-of-linaro-connect-sfo15
 title: Day 3 of Linaro Connect SFO15
 wordpress_id: 9436
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

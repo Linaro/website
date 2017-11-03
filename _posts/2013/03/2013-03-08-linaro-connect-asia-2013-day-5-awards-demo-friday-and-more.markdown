@@ -8,6 +8,8 @@ slug: linaro-connect-asia-2013-day-5-awards-demo-friday-and-more
 title: Linaro Connect Asia 2013 Day 5 - Awards, Demo Friday and more
 wordpress_id: 2554
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

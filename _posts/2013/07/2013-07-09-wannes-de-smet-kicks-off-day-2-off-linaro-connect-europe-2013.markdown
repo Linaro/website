@@ -8,6 +8,8 @@ slug: wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013
 title: Wannes De Smet Kicks Off Day 2 Of Linaro Connect Europe 2013
 wordpress_id: 2808
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -26,46 +28,46 @@ categories:
 
 
 
-	
+
   * [Opening Keynote: George Grey - CEO Linaro](http://lce-13.zerista.com/event/member/79585)
 
-	
+
   * [Monday Keynote: James Bottomley](http://lce-13.zerista.com/event/member/79586)
 
-	
+
   * [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587)
 
-	
+
   * [ARMv8 Status and Updates](http://lce-13.zerista.com/event/member/79588)
 
-	
+
   * [GNU Toolchain - Support and Maintenance](http://lce-13.zerista.com/event/member/79590)
 
-	
+
   * [Dataplane Activities at LNG - An Overview](http://lce-13.zerista.com/event/member/79596)
 
-	
+
   * [Lava - Introduction and Updates](http://lce-13.zerista.com/event/member/79595)
 
-	
+
   * [Linaro Stable Kernel (LSK)](http://lce-13.zerista.com/event/member/79592)
 
-	
+
   * [Overview of Linaro Project Management Methodology](http://lce-13.zerista.com/event/member/79594)
 
-	
+
   * [Why all this sudden attention on the Linux Scheduler?](http://lce-13.zerista.com/event/member/79597)
 
-	
+
   * [LEG - UEFI next steps](http://lce-13.zerista.com/event/member/79593)
 
-	
+
   * [How to make Android more efficient for entry level products](http://lce-13.zerista.com/event/member/79589)
 
-	
+
   * [Upstreaming 101](http://lce-13.zerista.com/event/member/81058)
 
-	
+
   * [LAVA Workshop 1 - LAVA Lab Deployment Training](http://lce-13.zerista.com/event/member/79618)
 
 
@@ -77,7 +79,7 @@ categories:
 
 
 
-	
+
   * [Tuesday Keynote - Wannes De Smet](http://lce-13.zerista.com/event/member/79608)
 
 
@@ -85,16 +87,16 @@ categories:
 
 
 
-	
+
   * [GNU Toolchain - Library Performance](http://lce-13.zerista.com/event/member/79611)
 
-	
+
   * [Test and Validation Summit:  Evolution of Testing in Linaro(I)](http://lce-13.zerista.com/event/member/79630)
 
-	
+
   * [Android Graphics Upstreaming](http://lce-13.zerista.com/event/member/79632)
 
-	
+
   * [LEG - XEN card review](http://lce-13.zerista.com/event/member/81924)
 
 
@@ -102,13 +104,13 @@ categories:
 
 
 
-	
+
   * [ARM SOC Tree/Consolidation Update (Part 1)](http://lce-13.zerista.com/event/member/79609)
 
-	
+
   * [Test and Validation Summit:  Evolution of Testing in Linaro (II)](http://lce-13.zerista.com/event/member/79633)
 
-	
+
   * [LEG - ACPI  reference driver](http://lce-13.zerista.com/event/member/79610)
 
 
@@ -116,16 +118,16 @@ categories:
 
 
 
-	
+
   * [Introduction to Jira - Linaro’s Project Management Applications](http://lce-13.zerista.com/event/member/79576)
 
-	
+
   * [ARM SOC Tree/Consolidation Update (Part 2)](http://lce-13.zerista.com/event/member/79612)
 
-	
+
   * [Test and Validation Mini-Summit:  Review Current Linaro Engineering Process](http://lce-13.zerista.com/event/member/79636)
 
-	
+
   * [Endian Big: Problems and Possible Solutions in the Networking Space](http://lce-13.zerista.com/event/member/79613)
 
 
@@ -133,13 +135,13 @@ categories:
 
 
 
-	
+
   * [Common Display Framework (CDF) Architecture and Implementation](http://lce-13.zerista.com/event/member/79619)
 
-	
+
   * [Test and Validation Summit:  The future of testing at Linaro](http://lce-13.zerista.com/event/member/79639)
 
-	
+
   * [Virtualization Forum](http://lce-13.zerista.com/event/member/80428)
 
 

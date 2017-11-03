@@ -8,7 +8,7 @@ slug: make-positive-difference-foss-project
 title: How to make a positive difference in a FOSS project
 wordpress_id: 4544
 categories:
-- Linaro Blog
+- blog
 ---
 
 By:  Paul McKenney, Linaro OCTO
@@ -28,34 +28,34 @@ This document covers this area with the following sections:
 
 
 
-	
+
   * What is a FOSS project?
 
-	
+
   * Do your homework
 
-	
+
   * Do give them the benefit of the doubt
 
-	
+
   * Prove yourself
 
-	
+
   * Getting a bugfix accepted
 
-	
+
   * Responding to "open and honest" feedback
 
-	
+
   * Getting a new feature accepted
 
-	
+
   * Coping with requests/demands for changes
 
-	
+
   * Open-source licensing issues
 
-	
+
   * Other material
 
 
@@ -79,28 +79,28 @@ A major reason for failure is a misunderstanding of what a FOSS project really
 
 
 
-	
+
   * Not a strict hierarchy: Linus almost never commands anyone to do anything. Instead, he usually limits himself to rejecting submissions.
 
-	
+
   * Not a technical version of the American 1960s hippie movement.
 
-	
+
   * Not waiting anxiously for you to tell it what to do.
 
-	
+
   * Not a group that cares what your manager wants.
 
-	
+
   * Not a group that will worship your skills.
 
-	
+
   * Not a group that will automatically trust you.
 
-	
+
   * Not a group that cares what you want.
 
-	
+
   * Not a group that knows who you are.
 
 
@@ -200,16 +200,16 @@ So you found a problem that all of the members of the project agreed constituted
 
 
 
-	
+
   * The bug had some non-obvious implications that your fix did not address.
 
-	
+
   * Your fix was against an old version of the source, and needs to be forward-ported to be accepted. 
 
-	
+
   * Your fix introduced a bug that your testing missed, so that your fix will need to itself be fixed. 
 
-	
+
   * One of the participants is working on a feature that conflicts with your fix.
 
 
@@ -240,13 +240,13 @@ Always remember that the irritation from angry feedback is momentary, but an ill
 
 
 
-	
+
   * Sleep on it before replying. For whatever reason, lack of sleep makes us more likely to interpret honest feedback as an attack. Very often, things look better the next morning. 
 
-	
+
   * Consider any extenuating circumstances: the project member might be under pressure, short on sleep, or simply unprepared to think about your patch at the present time. 
 
-	
+
   * Partake of some leisure activity that is meaningful to you, whether that be running, cycling, swimming, knitting, spelunking, reading, yoga, or whatever.
 
 
@@ -272,19 +272,19 @@ So why is the burden on you instead of on the existing project members? Simple. 
 
 
 
-	
+
   * If the requested change is trivial or obviously correct, just make the change and resubmit the patch. 
 
-	
+
   * If you don't completely understand what the reviewer was asking for, ask for more information or explain in your own words the portion of the feedback that you do understand, along with what you intend to do in response to that feedback. This approach will often save a round of review. 
 
-	
+
   * If you believe that the reviewer was wrong, explain clearly why you think that it needs to be done the way you suggested initially. (That said, it can be useful to try the approach suggested by the reviewer, especially in the case where the reviewer is also the maintainer.  And who knows, you might learn something!) 
 
-	
+
   * If the reviewer suggests a change that appears to be inappropriate, think carefully about the suggestion. The suggestion, though incorrect, will often be motivated by a specific concern that the reviewer has with your patch. You can then suggest a different solution that both is appropriate to the problem at hand and that addresses the reviewer's concern.  
 
-	
+
   * If a lot of the comments focus on an unimportant part of your patch, offer to remove or postpone that part of your patch in order to speed up acceptance of the important parts.
 
 
@@ -320,14 +320,14 @@ Finally, different types of changes require different levels of trust. For examp
 
 
 
-	
+
   *  Bug.
 
-	
+
   * New device driver that uses existing interfaces.
 
-	
-  * 
+
+  *
 
 
 Cleanup of existing isolated code.
@@ -335,11 +335,11 @@ Cleanup of existing isolated code.
 
 
 
-	
+
   * Consolidation of similar existing code into a common module. 
 
-	
-  * 
+
+  *
 
 
 Global cleanup of identical code.
@@ -347,11 +347,11 @@ Global cleanup of identical code.
 
 
 
-	
+
   * Introduction of new infrastructure to be used by other code. 
 
-	
-  * 
+
+  *
 
 
 Additional copy of existing infrastructure to be used in a new way.
@@ -359,7 +359,7 @@ Additional copy of existing infrastructure to be used in a new way.
 
 
 
-	
+
   * Addition of new user-visible interfaces (syscalls, ioctls, ...) 
 
 
@@ -375,16 +375,16 @@ Whatever your first patch, the maintainer will want some changes. After all, peo
 
 
 
-	
+
   * It reduces the amount of rework you will need to do. Getting feedback on your high-level design will prevent wasting time producing bad code from a bad design.  
 
-	
+
   * Early releases reassures people that you are serious about being open, which will help you attract allies who want something similar. 
 
-	
+
   * Multiple releases allows the community to become comfortable with your new feature. 
 
-	
+
   * If you do a good job responding to community feedback, you will give the community a sense of ownership, which will in turn make it easier for the community to accept your feature.
 
 
@@ -409,7 +409,7 @@ Achieving full fluency seems to require about five years full-time work programm
 For more on the concept of fluency and methods for attaining it, see the books "Outliers" and "Talent is Overrated".
 
 
-### 
+###
 
 
 
@@ -421,13 +421,13 @@ But maybe you cannot afford to to wait five years, or even the 2.5 years that wo
 
 
 
-	
+
   * Do your homework really really well, so that you only need to write the code from scratch 2-3 times rather than 10-20 times. 
 
-	
+
   * Employ a "front man" (or woman, as the case may be) to allow a larger number of developers to interact with the community. 
 
-	
+
   * Assign the people who are most passionate about programming to interact with open-source communities. 
 
 
@@ -492,13 +492,13 @@ Open-source licenses need to be complied with just as surely as do proprietary l
 
 
 
-	
+
   * "Open Source Licensing: Software Freedom and Intellectual Property Law" by Lawrence Rosen. 
 
-	
+
   * The Open Source Initiative (OSI) licenses web page: http://www.opensource.org/licenses 
 
-	
+
   * The GNU project's licenses web page: http://www.gnu.org/licenses/license-list.html
 
 
@@ -512,13 +512,13 @@ The following files in the Linux source tree should be read before submitting an
 
 
 
-	
+
   * Documentation/SubmitChecklist
 
-	
+
   * Documentation/SubmittingPatches 
 
-	
+
   * Documentation/SubmittingDrivers
 
 
@@ -541,10 +541,3 @@ Wikipedia’s description of free and open source software:
 
 Acknowledgements:
 Thanks to Kiko Reis, Dave Rusling, Deepak Saxena, Grant Likely, Nicolas Pitre, Arnd Bergmann, Thomas Abraham, and Shawn Guo for stimulating conversations on this subject.
-
-
-
-
-
-
-

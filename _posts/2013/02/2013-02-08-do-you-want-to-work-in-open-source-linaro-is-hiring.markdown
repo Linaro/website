@@ -8,7 +8,7 @@ slug: do-you-want-to-work-in-open-source-linaro-is-hiring
 title: Do You Want to Work in Open Source? Linaro is Hiring!
 wordpress_id: 2310
 categories:
-- Linaro Blog
+- blog
 ---
 
 Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

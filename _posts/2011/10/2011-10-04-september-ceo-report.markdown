@@ -8,9 +8,10 @@ slug: september-ceo-report
 title: September CEO Report
 wordpress_id: 594
 categories:
-- Industry
+- blog
 tags:
 - arm
+- Industry
 - embedded
 - kernel
 - Linaro
@@ -34,5 +35,3 @@ In our industry "explosive" innovation happens around "platforms" - the ISA bus 
 As ARM vendors and partners we need to do everything we can to foster the development of that platform, keeping in mind the key value proposition of enabling differentiation. This involves agreeing aspects of hardware and software architecture across competitors to enable the creation of an engine that drives the next wave of SoC differentiation and value-add. The ability to differentiate is key to the success of all ARM vendors - but if that differentiation is in areas that do not add value, the result is at least one of higher costs, longer time to market, and at worst, actual value destruction. In hardware terms differentiation in bit I/O ports, interrupts, timers, USB ports doesnt add value - it just makes the software task more complicated. In software terms having every vendors BSP use a differentiated scheme for achieving memory and buffer management does not add value. The same problems apply.
 
 A common binary kernel is not in itself a required outcome, but a common platform is. Looking at the single ARM kernel as a long term objective helps us at Linaro think about where consolidation between member implementations can reduce code duplication and fragmentation in the Linux kernel, and moves us closer towards the goal of creating an improved platform for innovation for all of our members, to help them leverage the opportunity for value creation that the ARM licensing model offers. And that is a good thing.
-
-

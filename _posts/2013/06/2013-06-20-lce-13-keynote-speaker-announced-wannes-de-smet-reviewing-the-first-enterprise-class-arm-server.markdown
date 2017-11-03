@@ -5,10 +5,11 @@ date: 2013-06-20 15:06:28+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/
 slug: lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server
-title: 'LCE-13 Keynote Speaker Announced: Wannes De Smet - Reviewing the first enterprise-class
-  ARM server'
+title: 'LCE-13 Keynote Speaker Announced: Wannes De Smet - Reviewing the first enterprise-class ARM server'
 wordpress_id: 2774
 categories:
+- blog
+tags:
 - Connect Events
 ---
 

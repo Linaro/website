@@ -8,9 +8,10 @@ slug: back-to-the-future
 title: Back to the Future
 wordpress_id: 3007
 categories:
-- Connect Events
+ - blog
 tags:
 - LCU
+- Connect Events
 - LCU2013
 - Linaro
 - Linaro Connect

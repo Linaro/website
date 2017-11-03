@@ -8,6 +8,8 @@ slug: linaro-connect-europe-big-little-mini-summit-summary
 title: Linaro big.LITTLE Mini-Summit Summary
 wordpress_id: 2207
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Hardware
@@ -25,16 +27,16 @@ Those four sessions included topics focused on the following:
 
 
 
-	
+
   * A big.LITTLE status update and Making Linux work with asymmetric systems
 
-	
+
   * The Bluesky session: What would the ideal power-aware kernel do?
 
-	
+
   * Back to reality: What do we have today and the sequence of steps to get to where we want to be
 
-	
+
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
@@ -50,61 +52,61 @@ The highly technical sessions were dedicated to finding solutions to known probl
 
 
 
-	
+
   1. IKS optimisations
 
-	
+
     1. To minimise interrupt blackout
 
-	
+
     2. To profile and optimise the cpufreq driver
 
 
 
 
-	
+
   2. Speeding up Hotplug
 
-	
+
   3. CPU quiescence
 
-	
+
     1. RCU callbacks on A15s are expensive
 
-	
+
     2. Adaptive NOHZ patchset
 
 
 
 
-	
+
   4. Scheduler optimisations
 
-	
+
     1. Scheduler-driven optimal C-state and P-state selection
 
-	
+
     2. Scale invariance of load
 
-	
+
     3. Ways to differentiate processes to
 
-	
+
       1. Improve response times e.g. application launch
 
-	
+
       2. Constrain a process to LITTLE cores
 
 
 
 
-	
+
     4. Consolidate load calculation heuristics required by various governors into the scheduler
 
 
 
 
-	
+
   5. Automation of power/performance testing on real hardware
 
 
@@ -114,21 +116,21 @@ For more information about each of these sessions and how you can get involved, 
 
 
 
-	
+
   * big.LITTLE Mini-Summit Overview - [Slides](http://www.linaro.org/documents/download/d364018e38b473315767d5479039751a50925b90d6cc6) (Plenary 1 and 2 are also included in this slide deck) [Video](https://www.youtube.com/watch?v=1oVGid3K89g) (includes Plenary 1 and 2)
 
 
 
-	
+
   * big.LITTLE Mini-Summit  Session 1 (A big.LITTLE status update and Making Linux work with asymmetric systems)  -  [Video](http://youtu.be/hyQFWAuFMRI), [Notes](http://summit.linaro.org/lce12/meeting/20939/big-little-mini-summit-1/)
 
-	
+
   * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](http://www.linaro.org/documents/download/a7e92b96e40c1662b34608953ab6e7425098f865bbdca), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
 
-	
+
   * big.LITTLE Mini-Summit Session 3 (Back to reality: What do we have today and the sequence of steps to get to where we want to be) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21347/big-little-mini-summit-3/)
 
-	
+
   * big.LITTLE Mini-Summit Session 4 (Workloads and Test Automation and General Discussions on further work and Wrap-Up) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21348/big-little-mini-summit-4/)
 
 
@@ -177,21 +179,21 @@ You can also stay in touch with what is happening in around Linaro by following 
 
 
 
-	
+
   * _The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple ARM SoCs._
 
 
 
-	
+
   * _[Meeting](https://wiki.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly IRC meeting_
 
-	
+
   * _Mailing List: Upstream Discussions – LKML, linux-arm-kernel, linux-pm@lists.linux-foundation.organd Announcements - mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-	
+
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-	
+
   * _[Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/power-management)_
 
 

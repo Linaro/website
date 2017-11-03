@@ -12,8 +12,9 @@ slug: u-boot-on-arm32-aarch64-and-beyond
 title: U-Boot on ARM32, AArch64 and beyond
 wordpress_id: 9094
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - AArch64
 - arm
 - U-Boot
@@ -75,22 +76,20 @@ Future Directions
 
 
 
-	
+
   * One of the big outstanding issues are those where things are fragile because memory references need be hard-coded in U-Boot or ARM Trusted Firmware. For example U-Boot currently [assumes that ARM TF will use 16MB](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=303557089f3db253eaec6f38dece204fd154b6ac) of the DRAM memory. If the ARM TF change things around and use more or less memory, U-Boot needs to be reconfigured and recompiled. U-Boot on the other hand, will then pass whatever knowledge it has about the memory to the Linux kernel by augmenting the device tree. So if ARM TF could communicate the memory available to U-Boot and the OS this would be great.
 
-	
+
   * U-Boot relies on prior boot stages such as ARM Trusted Firmware to install [PSCI handlers](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0022c/index.html), while on ARMv7 this was usually done by augmenting U-Boot to do the same. Letting U-Boot install PSCI handlers is a bit bogus, since it is a piece of resident code left in memory after U-Boot has executed and not really “boot loader” code. U-Boot was augmented to compile these into a special memory area, copy them there and leave them around for the operating system to use later. Still there are people who might like to do this on ARMv8 U-Boot, especially those not using ARM Trusted Firmware.
 
-	
+
   * People apparently toy with the idea of booting U-Boot on bare metal, using a very small or no ROM nor ARM Trusted Firmware, letting U-Boot just execute immediately on the system. As U-Boot relies on something else to set up main memory and providing PSCI, this currently does not work. Doing this would require U-Boot to initialize memory and install PSCI handlers. It would also need to be small enough to execute from on-chip RAM.
 
-	
+
   * Chain of trust booting with signed boot levels, signed U-Boot and a signed kernel image and a signed device tree, making an example of a totally locked-down system. The Flattened Image Tree (FIT) supported by U-Boot is likely the best way forward here, but requires U-Boot to access public key infrastructure to verify images unless you want to compile the public key directly into U-Boot, which is often not a good idea.
 
-	
+
   * Fastboot - the Android boot protocol used by the Little Kernel, exists in U-Boot but has not been tested or verified. It can use USB or Ethernet alike.
 
-	
+
   * More hardware support - such as booting from the USB stick or MMC/SD card found in the Juno board. This was not covered by the experimental port.
-
-

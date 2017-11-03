@@ -8,6 +8,8 @@ slug: compiling-with-gcc-o3
 title: Compiling with gcc -O3
 wordpress_id: 598
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -19,13 +21,13 @@ Some of the advantages of gcc -O3 are:
 
 
 
-	
+
   * It enables existing features, giving a significant speed up for little development
 
-	
+
   * It turns on the vectorizer and NEON unit by default, giving improvements across a variety of workloads
 
-	
+
   * It activates new features in areas that we've more recently been working on
 
 
@@ -35,31 +37,31 @@ Swing Modulo Scheduling (SMS) recognises loops containing instructions with high
 
 SMS currently needs to be explicitly turned on. We plan to justify turning it on at -O3 and preferably at -O2 as well. Overall, -O3 work has been broken down into three phases: initial investigation, improvements, and documenting. The relevant areas of work are:
 
-	
+
   * Decide on suite of benchmarks and packages to test against
 
-	
+
   * Benchmark the size and speed change
 
-	
+
   * Fix any correctness regressions found through the suite
 
-	
+
   * Fix any speed regressions such that 90 % of the workload is faster at -O3
 
-	
+
   * If needed, fix any significant size regressions
 
-	
+
   * Document the change in size both on disk and in memory
 
-	
+
   * Document when to use -Ofast
 
-	
+
   * Enable -O3 on one or more LEBs such as Android
 
-	
+
   * Document the gains and publish a white paper on why you should use -O3
 
 

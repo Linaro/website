@@ -8,8 +8,10 @@ slug: linaro-sweetens-cotton-candys-success
 title: Linaro Sweetens Cotton Candy's Success
 wordpress_id: 1311
 categories:
+- blog
+tags:
 - Community
-- Hardware
+- Hardwares
 - Industry
 ---
 

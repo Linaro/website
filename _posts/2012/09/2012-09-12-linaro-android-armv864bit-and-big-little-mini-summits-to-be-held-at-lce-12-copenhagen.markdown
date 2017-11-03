@@ -9,6 +9,8 @@ title: Linaro Android, ARMv8(64bit) and big.LITTLE Mini Summits to be Held at LC
   12 Copenhagen
 wordpress_id: 1893
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events

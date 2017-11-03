@@ -8,6 +8,8 @@ slug: women-in-technology-at-linaro
 title: Women in Technology at Linaro
 wordpress_id: 2535
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

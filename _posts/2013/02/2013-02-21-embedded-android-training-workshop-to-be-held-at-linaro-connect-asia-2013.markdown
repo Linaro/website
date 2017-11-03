@@ -8,6 +8,8 @@ slug: embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013
 title: Embedded Android Training Workshop to be Held at Linaro Connect Asia 2013
 wordpress_id: 2414
 categories:
+- blog
+tags:
 - Android
 - Connect Events
 ---
@@ -29,16 +31,16 @@ Specifically, we will start by introducing Android's overall architecture and th
 
 
 
-	
+
   * **10:00 AM** - Monday 4 March  - **[Android Internals](https://lca-13.zerista.com/event/member/72385)** - Grand Ballroom A
 
-	
+
   * **12:00 PM** - Wednesday 6 March - **[Working with AOSP](https://lca-13.zerista.com/event/member/72386)** - Grand Ballroom B
 
-	
+
   * **09:00 AM** - Thursday 7 March - **[Native Android User-Space](https://lca-13.zerista.com/event/member/72387)** - Grand Ballroom B
 
-	
+
   * **10:00 AM** - Friday 8 March - **[Using and Customizing the  Android Framework](https://lca-13.zerista.com/event/member/72388)** - Grand Ballroom B
 
 
@@ -59,16 +61,16 @@ For the best remote participation experience you’ll need to do the following:
 
 
 
-	
+
   * Add Linaro onAir to your Google+ circles-[ https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)
 
-	
+
   * Bookmark the YouTube Linaro onAir channel –[ https://plus.google.com/u/0/116754366033915823792](https://plus.google.com/u/0/116754366033915823792)
 
-	
+
   * Join the IRC channel for the named room (TBC) on freenode once LCA13 begins.
 
-	
+
   * You can join these channels using your IRC client or you can use webchat.
 
 

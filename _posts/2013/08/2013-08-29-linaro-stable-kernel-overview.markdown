@@ -8,8 +8,9 @@ slug: linaro-stable-kernel-overview
 title: Linaro Stable Kernel overview
 wordpress_id: 2899
 categories:
-- Android
+- blog
 tags:
+- Android
 - '13.08'
 - android
 - AOSP

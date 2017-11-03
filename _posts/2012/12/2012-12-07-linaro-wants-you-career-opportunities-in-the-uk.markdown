@@ -8,7 +8,7 @@ slug: linaro-wants-you-career-opportunities-in-the-uk
 title: Linaro Wants You - Career Opportunities in the UK
 wordpress_id: 2092
 categories:
-- Linaro Blog
+- blog
 ---
 
 Today we are highlighting career opportunities at Linaro in our Cambridge office. Are you or someone you know located in or near Cambridge, UK and want to be part of the [future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

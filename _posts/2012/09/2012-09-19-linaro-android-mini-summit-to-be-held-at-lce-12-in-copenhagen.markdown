@@ -8,6 +8,8 @@ slug: linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen
 title: Linaro Android Mini Summit to be held at LCE 12 in Copenhagen
 wordpress_id: 1903
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -22,25 +24,25 @@ Pfeffer also mentioned that the the preliminary topics include:
 
 
 
-	
+
   * Optimization Opportunities
 
-	
+
     * Introduction using the benchmark driven
 
-	
+
     * Power improvements
 
 
 
 
-	
+
   * Unification of Android and generic Linux
 
-	
+
     * Embedded Android, in car audio, set top boxes
 
-	
+
     * Kernel upstreaming
 
 

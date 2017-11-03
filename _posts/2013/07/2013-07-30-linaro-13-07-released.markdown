@@ -8,15 +8,17 @@ slug: linaro-13-07-released
 title: Linaro 13.07 Released!
 wordpress_id: 2848
 categories:
+- blog
+tags:
 - Releases
 ---
 
 <blockquote>
 
-> 
+>
 > It' s easy to get good players. Getting them to play together, that's the hard part. ~Casey Stengel
-> 
-> 
+>
+>
 </blockquote>
 
 
@@ -92,16 +94,16 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 
 
-	
+
   * Jon Maddog Hall and the 64-bit porting project
 
-	
+
   * big.LITTLE software update
 
-	
+
   * KVM on ARM
 
-	
+
   * LAVA-LMP
 
 
@@ -114,16 +116,16 @@ Other highlights from LCE13 include:
 
 
 
-	
+
   * Linaro Connect Europe 2013: Keynote Speaker Videos - [http://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](http://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
 
-	
+
   * Linaro Connect Europe 2013: People and Personalities of Connect - [http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
-	
+
   * Resources - [http://www.linaro.org/connect-lcu13/resources](http://www.linaro.org/connect-lcu13/resources)
 
-	
+
   * Pictures from Connect - [http://www.flickr.com/photos/linaroorg/](http://www.flickr.com/photos/linaroorg/)
 
 
@@ -158,7 +160,7 @@ We encourage everybody to use the 13.07 release. The download links for all imag
 
 
 
-	
+
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -171,7 +173,7 @@ See the detailed highlights of this release to get an overview of what has been 
 
 
 
-	
+
   * [http://wiki.linaro.org/Cycles/1307/Release#Release_Information](http://wiki.linaro.org/Cycles/1307/Release#Release_Information)
 
 
@@ -189,7 +191,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
@@ -202,10 +204,10 @@ If you are interested in getting the source and building these images yourself p
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -223,7 +225,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -241,7 +243,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-	
+
   * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
 
 
@@ -259,10 +261,10 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
@@ -275,19 +277,19 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on [irc.linaro.org](irc.linaro.org) or [irc.freenode.net](irc.freenode.net)
 
-	
+
     * #linaro-android [irc.linaro.org](irc.linaro.org) or [irc.freenode.net](irc.freenode.net)
 
 
@@ -308,7 +310,7 @@ For any errata issues, please see:
 
 
 
-	
+
   * [http://wiki.linaro.org/Cycles/1307/Release#Known_Issues](http://wiki.linaro.org/Cycles/1307/Release#Known_Issues)
 
 
@@ -321,7 +323,5 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
 
-	
+
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-

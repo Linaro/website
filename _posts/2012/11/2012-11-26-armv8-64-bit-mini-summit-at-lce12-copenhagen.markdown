@@ -8,6 +8,8 @@ slug: armv8-64-bit-mini-summit-at-lce12-copenhagen
 title: ARMv8 (64-bit) Mini-Summit at LCE12-Copenhagen
 wordpress_id: 2012
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -27,16 +29,16 @@ Topics discussed during this event included:
 
 
 
-	
+
   * The current state of ARMv8 (64-bit), what has been released and what is happening
 
-	
+
   * Planning the next quarter’s work in Linaro including blueprints and various requirements for the continuous integration (CI) loop for 64-bit tools (gcc 4.7 etc.), CI loop for 64-bit kernel and the LAMP stack based on Open Embedded.
 
-	
+
   * Various ways to coordinate the kernel activities for 32- and 64-bit architectures and platforms as well the 64-bit bring-up of Linux distributions.
 
-	
+
   * How to enable the wider development community to get involved with ARMv8 (64-bit) development.
 
 

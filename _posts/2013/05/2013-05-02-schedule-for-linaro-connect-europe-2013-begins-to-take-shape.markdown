@@ -8,6 +8,8 @@ slug: schedule-for-linaro-connect-europe-2013-begins-to-take-shape
 title: Schedule for Linaro Connect Europe 2013 Begins to Take Shape
 wordpress_id: 2687
 categories:
+- blog
+tags:
 - Connect Events
 ---
 

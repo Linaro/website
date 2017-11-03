@@ -8,8 +8,9 @@ slug: android-can-be-optimized
 title: Android Can Be Optimized
 wordpress_id: 3082
 categories:
-- Community
+- blog
 tags:
+- Community
 - android
 - arm
 - community
@@ -57,8 +58,8 @@ Though the problem introduced is not very new, due to the complexity of the prob
 
 
 
-	
-  * 
+
+  *
 
 
 Improving Effective Data Throughput
@@ -66,8 +67,8 @@ Improving Effective Data Throughput
 
 
 
-	
-  * 
+
+  *
 
 
 Leveraging Multi-Core Computing Efficiently
@@ -75,8 +76,8 @@ Leveraging Multi-Core Computing Efficiently
 
 
 
-	
-  * 
+
+  *
 
 
 Creating a Better Responsive User Interface
@@ -84,8 +85,8 @@ Creating a Better Responsive User Interface
 
 
 
-	
-  * 
+
+  *
 
 
 Extending Battery Life
@@ -93,8 +94,8 @@ Extending Battery Life
 
 
 
-	
-  * 
+
+  *
 
 
 Optimize Boot Process
@@ -112,8 +113,8 @@ Optimize Boot Process
 
 
 
-	
-  * 
+
+  *
 
 
 We first analyze such community projects, the papers & presentations from various conferences that can be leveraged directly and can be implemented or integrated (if already implemented) to improve the overall performance.
@@ -123,8 +124,8 @@ We first analyze such community projects, the papers & presentations from variou
 
 
 
-	
-  * 
+
+  *
 
 
 The second area is to look into the community projects that Google has directly pulled into Android, some of these were developed for PCs, they can be optimized for multi-core or by using NEON & VFP instructions.
@@ -134,8 +135,8 @@ The second area is to look into the community projects that Google has directly 
 
 
 
-	
-  * 
+
+  *
 
 
 And finally, looking into a few top Android user space applications from the market that are proven to improve performance when installed on any device. These apps are capable of controlling the hardware usage through software APIs, ideally these concepts can be implemented and integrated by default in Android.
@@ -153,8 +154,8 @@ In our next post we will provide you with:
 
 
 
-	
-  * 
+
+  *
 
 
 A list of community projects that Google has pulled into Android
@@ -162,8 +163,8 @@ A list of community projects that Google has pulled into Android
 
 
 
-	
-  * 
+
+  *
 
 
 We will explore what projects need updating
@@ -171,8 +172,8 @@ We will explore what projects need updating
 
 
 
-	
-  * 
+
+  *
 
 
 Why some projects were kept at old versions (e.g. there may have been license changes),
@@ -180,8 +181,8 @@ Why some projects were kept at old versions (e.g. there may have been license ch
 
 
 
-	
-  * 
+
+  *
 
 
 What projects may even need replacing
@@ -189,8 +190,8 @@ What projects may even need replacing
 
 
 
-	
-  * 
+
+  *
 
 
 How much of that we can we do without breaking compatibility too badly.
@@ -227,6 +228,3 @@ It is not too late to register to attend if you have a not already done so:  [R
 
 
 If you are interested in working with us on these projects, feel free to join us by sending a mail to: khasim dot mohammed at linaro dot org or to:  jakub dot pavelek at linaro dot org
-
-
-

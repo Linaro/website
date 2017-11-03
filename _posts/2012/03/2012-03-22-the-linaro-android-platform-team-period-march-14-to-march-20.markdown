@@ -8,10 +8,11 @@ slug: the-linaro-android-platform-team-period-march-14-to-march-20
 title: The Linaro Android Platform Team, Period March 14 to March 20.
 wordpress_id: 1415
 categories:
+- blog
+tags:
 - Android
 - Community
 - LAVA
-tags:
 - android
 - arm
 - board
@@ -46,10 +47,10 @@ Here’s a list of this weeks major achievements.
 
 
 
-	
+
   * Hardware accelerated multimedia is now integrated on Origen.
 
-	
+
   * The 12.03 pre RC#2 have been created and tested.
 
 
@@ -61,22 +62,22 @@ Here’s a list of this weeks major achievements.
 
 
 
-	
+
   * A dual-port SD-card for automated testing in LAVA has been designed. The first samples are expected in 2 weeks.
 
-	
+
   * DS-5 v. 5.9 has been verified on Snowball. MALI 400 GPU usage is now also traced.
 
-	
+
   * Core tests (iozone, memtester, stress) have been ported to Android and integrated in all platforms.
 
-	
+
   * Good progress on accellerated Multimedia for Snowball.
 
-	
+
   * Progress on implementing "lava-android-test run custom" sub command in LAVA. This will add a whole new dimension of flexibility to LAVA testing.
 
-	
+
   * ConnectivityManager unit tests have been integrated in Android.
 
 
@@ -88,16 +89,16 @@ Here’s a list of this weeks major achievements.
 
 
 
-	
+
   * 880423	[ Suspend does not work on Samsung Origen.](https://bugs.launchpad.net/linaro-android/+bug/880423)
 
-	
+
   * 921585	[ We need to switch to one init.rc.](https://bugs.launchpad.net/linaro-android/+bug/921585)
 
-	
+
   * 954982	[ android build for A15x4-A7x4 fails to boot.](https://bugs.launchpad.net/linaro-android/+bug/954982)
 
-	
+
   * 953056	[ Testcase names don't match between the testcase wiki and testcase spreadsheet.](https://bugs.launchpad.net/linaro-android/+bug/953056)
 
 
@@ -109,7 +110,7 @@ Here’s a list of this weeks major achievements.
 
 
 
-	
+
   * Nothing
 
 
@@ -121,7 +122,5 @@ Here’s a list of this weeks major achievements.
 
 
 
-	
+
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)
-
-

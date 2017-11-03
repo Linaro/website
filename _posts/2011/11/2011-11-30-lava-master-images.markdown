@@ -9,7 +9,7 @@ slug: lava-master-images
 title: LAVA master images
 wordpress_id: 974
 categories:
-- Linaro Blog
+- blog
 ---
 
 There is a small partition you need to put on your SD card. The partition I've used is 64MB but it could well be 16 or less. This place is used to pull in a kernel and the initrd. Both can be (alternative) provided by tftp but since LAVA does not manage tftp just yet I wanted to avoid this step. There is a specially crafted boot script that knows where to get the root filesystem from. This means that each board has a different boot image. Sadly this is the case for the moment, while we could easily provide those options remotely there are two important pieces that need additional configuration (mac address is one of them)

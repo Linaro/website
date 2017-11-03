@@ -9,6 +9,8 @@ title: 'LCE-13 Keynote Speaker Announced: James Bottomley - From the consumer de
   to the server: A well trodden path?'
 wordpress_id: 2782
 categories:
+- blog
+tags:
 - Connect Events
 ---
 

@@ -13,8 +13,9 @@ slug: evolution-of-a-generic-tee-kernel-driver-2
 title: Evolution of a generic TEE kernel driver
 wordpress_id: 8967
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - Linaro
 - OP-TEE
 - Security

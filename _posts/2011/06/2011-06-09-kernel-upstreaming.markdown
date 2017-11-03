@@ -8,7 +8,7 @@ slug: kernel-upstreaming
 title: Kernel Upstreaming
 wordpress_id: 3391
 categories:
-- Linaro Blog
+- blog
 ---
 
 Recently, Linus Torvalds and senior kernel maintainers have been complaining that the consolidation within the ARM Linux code base is not happening quickly enough.   As an indication of the scale of this problem, each new kernel release sees about 70,000 new lines of ARM code, whereas there’s roughly 5,000 lines of new x86 code added.

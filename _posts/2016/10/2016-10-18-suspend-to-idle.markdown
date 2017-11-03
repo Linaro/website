@@ -11,7 +11,7 @@ slug: suspend-to-idle
 title: Suspend to Idle
 wordpress_id: 11797
 categories:
-- Linaro Blog
+- blog
 tags:
 - idle
 - kernel

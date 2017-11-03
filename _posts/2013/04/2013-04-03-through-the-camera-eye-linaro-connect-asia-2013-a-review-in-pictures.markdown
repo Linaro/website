@@ -8,6 +8,8 @@ slug: through-the-camera-eye-linaro-connect-asia-2013-a-review-in-pictures
 title: Through the Camera Eye - Linaro Connect Asia 2013 A Review in Pictures
 wordpress_id: 2636
 categories:
+- blog
+tags:
 - Connect Events
 ---
 

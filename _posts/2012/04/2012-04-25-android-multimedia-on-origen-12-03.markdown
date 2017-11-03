@@ -8,6 +8,8 @@ slug: android-multimedia-on-origen-12-03
 title: Android Multimedia on Origen, 12.03
 wordpress_id: 1592
 categories:
+- blog
+tags:
 - Android
 - Community
 - Hardware

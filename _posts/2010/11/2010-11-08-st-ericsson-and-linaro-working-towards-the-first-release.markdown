@@ -8,8 +8,9 @@ slug: st-ericsson-and-linaro-working-towards-the-first-release
 title: ST-Ericsson and Linaro, working towards the first release
 wordpress_id: 4106
 categories:
-- Industry
+- blog
 tags:
+- Industry
 - '10.11'
 - ARM TechCon
 - mobile

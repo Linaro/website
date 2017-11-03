@@ -8,6 +8,8 @@ slug: linaro-cto-gives-overview-of-linaro-connect-asia-2013
 title: Linaro CTO Gives Overview of Linaro Connect Asia 2013
 wordpress_id: 2467
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -26,28 +28,26 @@ More information about the topics discussed in this interview  can be found at:
 
 
 
-	
+
   * **Linaro Connect:** [http://www.linaro.org/connect/](http://www.linaro.org/connect/)
 
-	
+
   * **Linaro Connect Schedule:** [http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
 
-	
+
   * **Remote Participation:** [http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
 
-	
+
   * **Lava Workshop:** [http://www.linaro.org/2013/02/22/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/](http://www.linaro.org/2013/02/22/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/)
 
-	
+
   * **Embedded Android Training Workshop:** [http://www.linaro.org/2013/02/21/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/](http://www.linaro.org/2013/02/21/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/)
 
-	
+
   * **Linaro Server Mini-Summit:** [http://www.linaro.org/2013/02/15/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/](http://www.linaro.org/2013/02/15/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/)
 
-	
+
   * **Linaro Networking Group (LNG):** [http://www.linaro.org/engineering/lng](http://www.linaro.org/engineering/lng)
 
-	
+
   * **Linaro Enterprise Group (LEG):** [http://www.linaro.org/engineering/leg](http://www.linaro.org/engineering/leg)
-
-

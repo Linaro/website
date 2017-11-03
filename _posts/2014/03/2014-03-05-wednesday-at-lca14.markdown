@@ -8,8 +8,9 @@ slug: wednesday-at-lca14
 title: Wednesday at LCA14
 wordpress_id: 3505
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - conference
 - connect
 - Linaro
@@ -20,7 +21,7 @@ tags:
 - Opensource
 ---
 
-Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for ARM64”.   This got the day off with a good overview of enterprise workloads on Linux on ARM64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”. 
+Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for ARM64”.   This got the day off with a good overview of enterprise workloads on Linux on ARM64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”.
 
 Keynotes:
 <table cellpadding="0" width="774" cellspacing="0" border="1" >

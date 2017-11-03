@@ -8,8 +8,9 @@ slug: crypto-engine-framework
 title: Crypto Engine Framework
 wordpress_id: 9995
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - crypto engine
 - kernel
 - Linux
@@ -173,5 +174,3 @@ There are more works that need to be investigated in the future, especially in b
 (1) Finding the best method to check the requests are compatible for merging requests.
 (2) Thinking of the request numbers on how much we were able to combine together for bulk mode.
 (3) How much benefit we can get from bulk mode.
-
-

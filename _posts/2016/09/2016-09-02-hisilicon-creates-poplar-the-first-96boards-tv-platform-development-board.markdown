@@ -8,7 +8,7 @@ slug: hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board
 wordpress_id: 11525
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - Enterprise edition

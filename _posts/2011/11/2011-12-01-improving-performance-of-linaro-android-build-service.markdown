@@ -8,8 +8,9 @@ slug: improving-performance-of-linaro-android-build-service
 title: Improving Performance of Linaro Android Build Service
 wordpress_id: 979
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - infrastructure
 - tools

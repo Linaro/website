@@ -8,7 +8,7 @@ slug: the-linaro-developers-summit-last-week-in-budapest-was-really-impressive
 title: The Linaro Developers Summit last week in Budapest was really impressive!
 wordpress_id: 3384
 categories:
-- Linaro Blog
+- blog
 ---
 
 I attended the Linaro developers summit in Budapest last week with a number of my colleagues. With ten technical tracks in parallel you can imagine there was a huge amount of invaluable information being shared. I was amazed by the spirit of cooperation among the Linux community experts gathered in the room and participating remotely through chat. Some of the discussions were of such technical depth that I have to admit that they went over my head. So I listened attentively and refrained from asking questions that would reveal my lack of understanding!

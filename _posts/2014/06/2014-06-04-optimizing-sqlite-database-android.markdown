@@ -8,8 +8,9 @@ slug: optimizing-sqlite-database-android
 title: 'Optimizing SQLite database in Android '
 wordpress_id: 5963
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - Linaro
 - Linux
@@ -23,13 +24,13 @@ Wait, what? You might be thinking "Why would a smartphone need a database? Don't
 
 
 
-	
+
   * **The actual SQLite implementation**
 
-	
+
   * **The external libraries that SQLite uses**
 
-	
+
   * **The medium of which contains the databases**
 
 

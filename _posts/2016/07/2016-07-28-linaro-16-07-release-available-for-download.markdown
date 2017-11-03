@@ -8,7 +8,7 @@ slug: linaro-16-07-release-available-for-download
 title: Linaro 16.07 Release Available for Download
 wordpress_id: 11296
 categories:
-- Linaro Blog
+- blog
 - Releases
 tags:
 - android

@@ -8,7 +8,7 @@ slug: lhg-one-year-anniversary
 title: LHG One-Year Anniversary
 wordpress_id: 8668
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - LHG

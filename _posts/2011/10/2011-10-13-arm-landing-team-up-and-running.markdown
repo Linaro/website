@@ -8,6 +8,8 @@ slug: arm-landing-team-up-and-running
 title: ARM Landing Team Up and Running
 wordpress_id: 670
 categories:
+- blog
+tags:
 - Community
 ---
 

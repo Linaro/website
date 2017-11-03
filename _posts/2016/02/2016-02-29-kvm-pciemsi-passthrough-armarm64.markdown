@@ -13,8 +13,9 @@ slug: kvm-pciemsi-passthrough-armarm64
 title: KVM PCIe/MSI Passthrough on ARM/ARM64
 wordpress_id: 10013
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - ARM servers
 - kernel
 - Linux
@@ -39,10 +40,10 @@ Thus, the MSI-enabled device must be programmed with:
 
 
 
-	
+
   * the address to write to
 
-	
+
   * and a payload
 
 
@@ -83,10 +84,10 @@ As opposed to the GICv2M, the ITS must be configured by software before it is us
 
 
 
-	
+
   * A device table entry must exists per deviceid, pointing to a device interrupt translation table
 
-	
+
   * An entry must exist in the device interrupt translation table for each eventid the device is likely to produce. This entry basically tells which LPI ID to trigger (and the CPU it targets)
 
 
@@ -200,10 +201,10 @@ This chapter illustrates the assignment of 2 different PCIe devices:
 
 
 
-	
+
   * Intel 82574L Ethernet Controller** (**e1000e)
 
-	
+
   * Intel X540-T2 Ethernet Controller (SR-IOV capable)
 
 

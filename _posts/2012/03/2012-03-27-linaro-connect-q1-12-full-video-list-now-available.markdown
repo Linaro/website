@@ -8,6 +8,8 @@ slug: linaro-connect-q1-12-full-video-list-now-available
 title: Linaro Connect Q1.12 Full Video List Now Available
 wordpress_id: 1437
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -23,82 +25,82 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
 
 
 
-	
+
   * [Sangwook Lee Demos Icecream Sandwich on Origen Board](http://www.youtube.com/watch?v=wfjqn06s4C8)
 
-	
+
   * [Linaro Connect Q1.12 Closing Plenary](http://www.youtube.com/watch?v=_HGrCdFA7L8)
 
-	
+
   * [Matthew Locke, TI](http://www.youtube.com/watch?v=_GtJHcv823g)
 
-	
+
   * [Arnd Bergmann & Deepak Saxena of Linaro's Kernel Working Group](http://www.youtube.com/watch?v=kIQ3ZLBTWF4)
 
-	
+
   * [John Stultz: Upstream Kernel Engineer](http://www.youtube.com/watch?v=UM_lBpbU1PQ)
 
-	
+
   * [Micheal Hope: Linaro Toolchain Tech Lead](http://www.youtube.com/watch?v=uOKUKxpJpP8)
 
-	
+
   * [Thomas Abraham: Samsung Kernel Engineer](http://www.youtube.com/watch?v=xnl5oE90qO0)
 
-	
+
   * [Linus Walleij: Pincontrol and pinmuxing in the Linux Kernel](http://www.youtube.com/watch?v=ZLl1IEzXezM)
 
-	
+
   * [Robert Lee: CPUIdle and Power Management in the Linux Kernel](http://www.youtube.com/watch?v=8BlYIPnMXgY)
 
-	
+
   * [Måns Rullgård, Optimizing for Linux on ARM](http://www.youtube.com/watch?v=5XdT57EC8nc)
 
-	
+
   * [Kiko and Alexander Sack: Baking upstream code into Linaro builds](http://www.youtube.com/watch?v=Nt4LMbViq1Y)
 
-	
+
   * [David Mandala: Ubuntu ARM Team Manager](http://www.youtube.com/watch?v=nE74336jvos)
 
-	
+
   * [Jesse Barker: Linaro Graphics Projects, featuring binary blobs](http://www.youtube.com/watch?v=1V6_UxS7qM8)
 
-	
+
   * [How to do a Linaro Android Build](http://www.youtube.com/watch?v=p5zWp8tZk0s)
 
-	
+
   * [Botao Sun Demos Android on TI Pandaboard](http://www.youtube.com/watch?v=5aVJ59L8uUA)
 
-	
+
   * [Zach Pfeffer Demos the i.MX6, Origen & Snowball](http://www.youtube.com/watch?v=_Nkg2EKh4lg)
 
-	
+
   * [Zach Pfeffer: Linaro Android Tech Lead](http://www.youtube.com/watch?v=HMtswzfl7-Y)
 
-	
+
   * [Tim Bird and David Rusling Chat at Linaro Connect](http://www.youtube.com/watch?v=xgdTzBl-3wQ)
 
-	
+
   * [Tim Bird of the Linux Foundation at Linaro Connect](http://www.youtube.com/watch?v=dub3HgezCAs)
 
-	
+
   * [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw)
 
-	
+
   * [Ubuntu TV Demo](http://www.youtube.com/watch?v=tpIFaAxyFGE)
 
-	
+
   * [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50)
 
-	
+
   * [Linaro Connect: Patrik Klinger Talks Snowball & The Igloo Community](http://www.youtube.com/watch?v=cxYdyEEb9X4)
 
-	
+
   * [Kiko, Linaro Engineering VP: ARM, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw)
 
-	
+
   * [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ)
 
-	
+
   * [David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0)
 
 

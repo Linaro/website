@@ -8,9 +8,10 @@ slug: day-2-ospm-summit-pisa-italy
 title: Day 2 at the OSPM Summit Pisa, Italy
 wordpress_id: 12384
 categories:
-- Core Dump
+- blog
 tags:
 - arm
+- Core Dump
 - CPU
 - idle cluster
 - IO Scheduler

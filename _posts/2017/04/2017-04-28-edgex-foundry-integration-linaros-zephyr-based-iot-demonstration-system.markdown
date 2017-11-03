@@ -8,7 +8,7 @@ slug: edgex-foundry-integration-linaros-zephyr-based-iot-demonstration-system
 title: EdgeX Foundry Integration with Linaro’s Zephyr-based IoT demonstration system
 wordpress_id: 12361
 categories:
-- Linaro Blog
+- blog
 ---
 
 ![](https://www.linaro.org/wp-content/uploads/2017/04/hannover-messe-logo.jpg)"The creation of a standard, secure, open, and architecture- and vendor-neutral gateway framework is a critical component of IoT based solutions. Hosted by The Linux Foundation, EdgeX Foundry's impressive industry support and open governance model allows open collaboration on a common gateway architecture by industry leaders," said Matt Locke, Director of the Linaro IoT and Embedded (LITE) Group. "This much needed unifying project will allow vendors to define and build a common gateway platform; a platform upon which they can build unique and compelling solutions across a wide range of market segments. We look forward to welcoming new members into LITE to work closely on the engineering needed to accelerate adoption of EdgeX Foundry. Supporting this new project complements and builds on LITE's engineering and technical support of The Linux Foundation's Zephyr project, which is aimed at enabling embedded and IoT devices."

@@ -8,6 +8,8 @@ slug: linaro-qemu-2011-10-released
 title: Linaro QEMU 2011.10 released
 wordpress_id: 658
 categories:
+- blog
+tags:
 - Releases
 ---
 

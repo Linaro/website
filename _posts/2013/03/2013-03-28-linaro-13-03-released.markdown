@@ -8,6 +8,8 @@ slug: linaro-13-03-released
 title: Linaro 13.03 Released!
 wordpress_id: 2612
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -177,7 +179,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
 [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
-
-

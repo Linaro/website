@@ -8,8 +8,9 @@ slug: connect-videos
 title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - arm
 - connect
 - Linaro
@@ -68,7 +69,7 @@ Don't miss this video if you are interested in kernel debugging!
 
 
 I had the opportunity to interview Marcin Juszkiewicz, a Linaro Engineer and long time member of the embedded Linux community.
- 
+
 Marcin started by explaining his role in Linaro and his contributions. In particular, Marcin took care of packaging cross-compiling toolchains in Ubuntu.
 
 We went on by talking about what Marcin did before joining Linaro. Marcin first started hacking with ARM Linux in the early 2000's, using a Sharp Zaurus PDA.
@@ -157,7 +158,7 @@ They also explained how they work together. In particular, they organized a code
 
 
 
-Ricardo Salveti, tech lead of the Developer Platform working group, gave a tutorial on the Ubuntu Linaro Evaluation Builds (LEBs) provided by Linaro. 
+Ricardo Salveti, tech lead of the Developer Platform working group, gave a tutorial on the Ubuntu Linaro Evaluation Builds (LEBs) provided by Linaro.
 
 He first explained how these builds are developed, and their relationship with Ubuntu. He then showed how to download one of these builds and prepare a bootable SD card image with them.  He also gave details useful for people interested in contributing to our Ubuntu LEBs.
 
@@ -169,7 +170,7 @@ He first explained how these builds are developed, and their relationship with U
 
 
 
-Here is a very interesting tutorial by Zach Pfeffer, the tech lead of the Linaro Android working group. 
+Here is a very interesting tutorial by Zach Pfeffer, the tech lead of the Linaro Android working group.
 
 During this tutorial, Zach showed how to download a recent build for a Linaro supported board (the Panda board in this case), how to build an SD card image using the linaro-android-media-create command, and eventually how to boot the board with it.
 
@@ -187,12 +188,10 @@ This is a great tutorial to get started with Android on the boards supported by 
 
 
 
-Andy Doan, my colleague in the Engineering Resources team, presented a tutorial targeting both new Linaro engineers and new community contributors. He started with tips on how to say "Hi" to an impressive number of people, and how communication is different from what happens in the proprietary world. 
+Andy Doan, my colleague in the Engineering Resources team, presented a tutorial targeting both new Linaro engineers and new community contributors. He started with tips on how to say "Hi" to an impressive number of people, and how communication is different from what happens in the proprietary world.
 
-He then addressed the problem of getting started with complex projects such as the Linux kernel, and give useful tips for finding relevant resources on the Linux wiki and mailing lists. 
+He then addressed the problem of getting started with complex projects such as the Linux kernel, and give useful tips for finding relevant resources on the Linux wiki and mailing lists.
 
 Last but not least, he gave advise on contributing code to Linaro projects, in particular for code contributions.
 
 The session ended by an interesting Q&A; session with several Ubuntu community members who were in the room and were just curious about Linaro. This gave me the idea to organize a "Linaro for Ubuntu community members" talk at the next UDS.
-
-

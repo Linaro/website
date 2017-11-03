@@ -8,7 +8,7 @@ slug: linaro-embedded-linux-conference
 title: Linaro At Embedded Linux Conference
 wordpress_id: 5861
 categories:
-- Linaro Blog
+- blog
 tags:
 - kernel
 - Linaro

@@ -9,9 +9,12 @@ title: 'Linaro Connect Q2.12: 28 May - 1 June 2012 at the Gold Coast Hotel in Ho
   Kong'
 wordpress_id: 1329
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Industry
+
 ---
 
 We’re thrilled to announce that [event registration](http://connect.linaro.org/register-connect/) and [hotel booking](http://connect.linaro.org/wp-content/uploads/2012/02/Hotel-Reservation-Form1.odt) at the Gold Coast Hotel in Hong Kong is now available for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12) – the industry’s foremost event for developing Linux on ARM. Book early to avoid disappointment!
@@ -19,10 +22,10 @@ As usual, this intensive week will involve the best software developers particip
 
 
 
-	
+
   1. **Consolidation:** Continuing our current major initiatives including refactoring the kernel, supporting the ARM Linux Maintainer's tree, upstreaming CPU idle, unified memory management and moving towards a single zImage, all with a focus on reducing maintenance costs and speeding time to market for companies using our Member's silicon
 
-	
+
   2. **Connecting with the future:** Looking ahead to the software requirements for ARM's new architectures and upcoming member platforms, including big.LITTLE, boot architecture (UEFI), A15 virtualization and ARM based servers
 
 
@@ -32,31 +35,31 @@ We hosted 5 Summits including:
 
 
 
-	
+
   * [Scheduler Summit:](https://wiki.linaro.org/WorkingGroups/PowerManagement/Doc/HMPscheduling) Together with several Linux maintainers, Linaro set out plans to enhance the Linux scheduler to support big.LITTLE systems and make the scheduler more power-aware
 
-	
+
   * [Storage Summit](http://summit.linaro.org/lcq1-12/meeting/20093/linaro-kernel-q112-storage-mini-summit/): Reached agreement on performance and lifetime improvements for flash media
 
-	
+
   * [ARM Maintainers Summit](http://summit.linaro.org/lcq1-12/meeting/20028/linaro-kernel-q112-maintainer-summit-1/): At Linaro Connect for the first time, discussion covered key infrastructure such as Device Tree, consolidated clock framework, the ARM-SOC tree and pin management
 
 
 Its extremely important we get a lot of real engineering done, and these were available for the first time by the end of the week:
 
-	
+
   * [Freescale iMX6 running on Android ICS](http://www.youtube.com/watch?v=_Nkg2EKh4lg&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
 
-	
+
   * [XBMC running on ST-Ericsson Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
 
 
 And its essential that our Working Groups have a highly productive week
 
-	
+
   * [Tony Mannson highlights achievements of the Android team at Linaro Connect, ELC and ABS](http://www.linaro.org/2012/02/16/the-linaro-android-platform-team-period-feb-02-to-feb-16/)
 
-	
+
   * [Tom Gall summarises all the activities of the Multimedia WG during the week](http://fullshovel.wordpress.com/2012/02/20/1q12-linaro-connect-afterglow/)
 
 

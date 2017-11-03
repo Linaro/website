@@ -8,7 +8,7 @@ slug: bkk16-blog2
 title: BKK16 Summary Blog 2 - Sessions
 wordpress_id: 10577
 categories:
-- Linaro Blog
+- blog
 ---
 
 We had a full schedule with our typical mix interesting sessions from across all of the Linaro groups and teams as well as from our Members. Security and IoT were hot topics as well as EAS (Power Management).

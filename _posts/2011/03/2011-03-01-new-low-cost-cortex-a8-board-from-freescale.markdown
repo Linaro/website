@@ -8,8 +8,9 @@ slug: new-low-cost-cortex-a8-board-from-freescale
 title: New low-cost Cortex A8 board from Freescale
 wordpress_id: 3372
 categories:
-- Hardware
+- blog
 tags:
+- Hardware
 - board
 - community
 - CortexA8

@@ -11,7 +11,7 @@ slug: linaro-connect-hong-kong-2015-week-review
 title: Linaro Connect Hong Kong 2015- week in review
 wordpress_id: 8250
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

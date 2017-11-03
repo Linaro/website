@@ -8,6 +8,8 @@ slug: watch-lava-erupt-with-growth-as-new-tests-are-added
 title: Watch LAVA Erupt with Growth as New Tests are Added
 wordpress_id: 2028
 categories:
+- blog
+tags:
 - Community
 - Hardware
 - LAVA

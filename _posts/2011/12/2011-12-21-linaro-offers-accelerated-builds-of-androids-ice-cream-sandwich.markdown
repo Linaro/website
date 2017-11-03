@@ -8,6 +8,8 @@ slug: linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich
 title: Linaro offers accelerated builds of Android’s Ice Cream Sandwich
 wordpress_id: 1101
 categories:
+- blog
+tags:
 - Android
 - Community
 - Hardware
@@ -26,13 +28,13 @@ Linaro developers also posted video demonstrations of these boards that include:
 
 
 
-	
+
   * [Snowball dev board running Linaro's build of Android ICS with hardware acceleration](http://youtu.be/XPFy2MFbUys)
 
-	
+
   * [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS](http://youtu.be/whpaltVa3pQ)
 
-	
+
   * [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS (with 3D demo](http://youtu.be/7_MCLKmXDFA))
 
 

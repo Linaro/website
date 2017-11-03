@@ -8,6 +8,8 @@ slug: linaro-welcomes-its-newest-partner-adeneo-embedded
 title: Linaro Welcomes its Newest Partner--Adeneo Embedded
 wordpress_id: 1341
 categories:
+- blog
+tags:
 - Android
 - Industry
 ---

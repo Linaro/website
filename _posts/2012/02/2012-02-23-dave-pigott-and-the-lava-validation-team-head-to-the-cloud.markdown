@@ -8,6 +8,8 @@ slug: dave-pigott-and-the-lava-validation-team-head-to-the-cloud
 title: 'Dave Pigott and the LAVA Validation Team Head to the Cloud '
 wordpress_id: 1253
 categories:
+- blog
+tags:
 - Hardware
 - LAVA
 ---

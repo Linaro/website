@@ -8,8 +8,9 @@ slug: linaro-gcc-4-6-2011-11-released
 title: Linaro GCC 4.6 2011.11 released
 wordpress_id: 862
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - gcc
 - Linaro
 - release

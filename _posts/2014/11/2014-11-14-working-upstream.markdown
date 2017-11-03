@@ -11,8 +11,9 @@ slug: working-upstream
 title: 'What do we mean by working upstream: A long-term contributor''s view'
 wordpress_id: 7196
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - contributor
 - CoreSight
@@ -34,13 +35,13 @@ When the code to be upstreamed is a big and complex feature that changes existin
 
 
 
-	
+
   1. Raise interest amongst a diverse group of maintainers, not only the ones in charge of the parts to be changed
 
-	
+
   2. Find people from different backgrounds  who are interested in the feature in order to create a small community around it and solve disagreements
 
-	
+
   3. Bring the feature together piece by piece, little by little ensuring in the worst case there is no regression and in the best case something existing is improved.
 
 
@@ -85,19 +86,19 @@ The result was far away from our initial patchset: cleaner, faster, more complet
 
 
 
-	
+
   * a community of interested people was built. With more people participating on the feature, the more chances we had to do the right things
 
-	
+
   * we collaborated and we cooperated by fixing the code of others and/or helped fix bugs even when not related directly to our feature
 
-	
+
   * we did as much as possible to keep our mind open, letting people bring new ideas, which in our case, appeared to be better
 
-	
+
   * we trusted people with open source experience and took always in consideration their advice even if sometimes it was presented in a tough manner. Criticism means the patches raiseed some interest
 
-	
+
   * and finally, we kept the releasing flow constant, "Release early, release often": Everything is said here: [http://en.wikipedia.org/wiki/Release_early,_release_often](http://en.wikipedia.org/wiki/Release_early,_release_often)
 
 
@@ -127,13 +128,13 @@ In light of this failure, we can learn some lessons:
 
 
 
-	
+
   * working in our own solution, publicly or privately, without taking into consideration the advices or feedbacks of the community, is only a mimic of the opensource, not the true opensource where the corner stone is collaboration
 
-	
+
   * collaborating with the community means we no longer have control of what we are doing, and the agreements may imply the need to redo solutions from scratch. This is something we have to be prepared for in case we want to upstream a big feature
 
-	
+
   * opensource people are not ‘hippies disconnected from the real world’ (quote from my former management, from a former company), they just don’t care in the same way about an individual company’s ‘deadlines’ or ‘products’.
 
 

@@ -8,8 +8,9 @@ slug: linaro-android-optimizations
 title: Linaro Connect video - Android vs. Linaro Android
 wordpress_id: 4117
 categories:
-- Community
+- blog
 tags:
+- Community
 - android
 - demo
 - Linaro

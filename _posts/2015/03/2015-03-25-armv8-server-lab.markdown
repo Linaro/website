@@ -8,7 +8,7 @@ slug: armv8-server-lab
 title: "ARMv8 Server Lab\t"
 wordpress_id: 8336
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - ARMv8

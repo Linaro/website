@@ -8,8 +8,9 @@ slug: connect-summary
 title: 'Linaro Connect videos: achievements, Q&A with management and announcements'
 wordpress_id: 3400
 categories:
-- Community
+- blog
 tags:
+- Community
 - connect
 - Linaro
 - videos
@@ -35,7 +36,7 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
 
 
   * Toolchain: moved up to gdb 7.3, binary toolchain plans fleshed out, OpenCL and LLVM exploration, a few vectorizer platches in
-  * 
+  *
 
   * Kernel: Device Tree porting to TI OMAP3, Qualcomm MSM86xx, Samsung Exynos, Atmel AT91, Freescale i.MX53, ARM Versatile. Single zImage: 12 patches submitted upstream, dozen of other patches ready for upstream submission. Kernel consolidation discussions with Russell King, the ARM Linux maintainer, who participated to Connect.
 
@@ -51,7 +52,7 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
 
   * Progress on the boot infrastructure requirements for Linux on ARM servers
 
- 
+
 
 See the below video for details!
 
@@ -60,5 +61,3 @@ After this, a Questions and Answers session opened between Linaro engineers and 
 
 
 Stephen Doel, Linaro's Chief Operating Officer, closes the event by giving interesting statistics, and by thanking those who contributed to it. Stephen also made announcements for the next Linaro Connect events. Watch to video to have details!
-
-

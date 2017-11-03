@@ -9,6 +9,8 @@ title: Mini-Summits, Training, Hacking and More - Linaro Connect Asia 2013 - Hon
   Kong
 wordpress_id: 2560
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -17,32 +19,32 @@ categories:
 **Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.  
 
 
-There were a total of **308** people who attended Linaro Connect Asia 2013 representing **46** companies. Co-located with Linaro Connect Asia 2013 was the Open Compute Project (OCP) Asia Summit which had 40 attendees. There were over 3,100 meals served to attendees and 77 sessions and 126 meetings which were held through out the week. Joe Bates, VP of Member Services for Linaro summed up the awesome busyness of this week in his ["Wrap-Up" talk](http://youtu.be/O6s8YsalYus?t=27m) on Friday, 8 March 2013. This was one of the most productive Connect events to date with more moving pieces and parts than ever before. 
+There were a total of **308** people who attended Linaro Connect Asia 2013 representing **46** companies. Co-located with Linaro Connect Asia 2013 was the Open Compute Project (OCP) Asia Summit which had 40 attendees. There were over 3,100 meals served to attendees and 77 sessions and 126 meetings which were held through out the week. Joe Bates, VP of Member Services for Linaro summed up the awesome busyness of this week in his ["Wrap-Up" talk](http://youtu.be/O6s8YsalYus?t=27m) on Friday, 8 March 2013. This was one of the most productive Connect events to date with more moving pieces and parts than ever before.
 
 
 
 
-Engineers returning to their companies after Linaro Connect Asia 2013 should be able to boast about knowledge of the latest software developments around ARM, new ways of optimizing the latest ARM technology and a strong desire to return. 
+Engineers returning to their companies after Linaro Connect Asia 2013 should be able to boast about knowledge of the latest software developments around ARM, new ways of optimizing the latest ARM technology and a strong desire to return.
 
 
 
 
-Linaro Connect Asia 2013 was all about engineering. The event sessions as you can see are a mixture of discussion, planning and agreement about how to engineer solutions to the projects being run within Linaro. There were 6 keynotes and the sessions were split into focused kernel, power management, toolchain, graphics and multimedia, platform, validation, and QA tracks with Mini-summits and workshops laced throughout the week to bring focus to cross-team thinking and training in key areas. 
+Linaro Connect Asia 2013 was all about engineering. The event sessions as you can see are a mixture of discussion, planning and agreement about how to engineer solutions to the projects being run within Linaro. There were 6 keynotes and the sessions were split into focused kernel, power management, toolchain, graphics and multimedia, platform, validation, and QA tracks with Mini-summits and workshops laced throughout the week to bring focus to cross-team thinking and training in key areas.
 
 
 
 
-There was the opportunity for face to face interaction with leading open source maintainers such as Greg Khoar-Hartman, the upstream stable Linux kernel maintainer and many other engineers which is a key benefit for many attendees. 
+There was the opportunity for face to face interaction with leading open source maintainers such as Greg Khoar-Hartman, the upstream stable Linux kernel maintainer and many other engineers which is a key benefit for many attendees.
 
 
 
 
-Remote participation was also available for most sessions via Google Hangouts OnAir, but nothing beats the opportunities for interaction in person. Below are links to the daily schedules, slide decks, etherpad notes, video sessions and interviews from the event. 
+Remote participation was also available for most sessions via Google Hangouts OnAir, but nothing beats the opportunities for interaction in person. Below are links to the daily schedules, slide decks, etherpad notes, video sessions and interviews from the event.
 
 
 
 
-To join with the team building the future of Linux on ARM, plan on joining us for Linaro Connect Europe 2013 (LCE13) in Dublin from 8 to 12 July. 
+To join with the team building the future of Linux on ARM, plan on joining us for Linaro Connect Europe 2013 (LCE13) in Dublin from 8 to 12 July.
 
 
 
@@ -2358,7 +2360,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Roger Teague](http://www.linaro.org/linux-on-arm/steering-committee) and the ARM Engineers
 
 
@@ -2371,31 +2373,31 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Nicolas Pitre](http://www.linaro.org/linux-on-arm/meet-the-team/nicolas-pitre/), Technical Architect, Office of the CTO, Linaro
 
-	
+
   * Dave Martin, Kernel Engineer, ARM
 
-	
+
   * [Viresh Kumar](http://www.linaro.org/linux-on-arm/meet-the-team/viresh-kumar/), Power Management Engineer, Power Management Team, Linaro
 
-	
+
   * [Amit Kucheria](http://www.linaro.org/linux-on-arm/meet-the-team/amit-kucheria/), Tech Lead, Power Management Team, Linaro
 
-	
+
   * [Mathieu Poirer](http://www.linaro.org/linux-on-arm/meet-the-team/mathieu-poirier/), Kernel Engineer, Samsung Landing Team, Linaro
 
-	
+
   * [David Zinman](http://www.linaro.org/linux-on-arm/meet-the-team/david-zinman/), Project Manager, Technical Management Team, Linaro
 
-	
+
   * [Naresh Kamboju](http://www.linaro.org/linux-on-arm/meet-the-team/naresh-kamboju/), QA Services Expert, QA Services Team, Linaro
 
-	
+
   * [Vishal Bhoj](http://www.linaro.org/linux-on-arm/meet-the-team/vishal-bhoj/), Android Engineer, Android Team, Linaro
 
-	
+
   * [Amit Pundir](http://www.linaro.org/linux-on-arm/meet-the-team/amit-pundir/), Android Engineer, Android Team, Linaro
 
 
@@ -2408,7 +2410,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Arnd Bergmann](http://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Upstream Kernel Engineer, Kernel Team, Linaro
 
 
@@ -2421,16 +2423,16 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * Jesse Barker, former Graphics WG Technical Lead, ARM
 
-	
+
   * [Sumit Semwal](http://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Graphic Engineer, Graphics Team, Linaro
 
-	
+
   * [Benjamin Gaignard](http://www.linaro.org/linux-on-arm/meet-the-team/benjamin-gaignard/), Multimedia Specialist, Graphics Team, Linaro
 
-	
+
   * Rob Clark, Graphics Engineer, Graphics Team, TI
 
 
@@ -2443,13 +2445,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Fathi Boudra](http://www.linaro.org/linux-on-arm/meet-the-team/fathi-boudra/), Tech Lead, Developer Platform, Linaro
 
-	
+
   * [Andy Green](http://www.linaro.org/linux-on-arm/meet-the-team/andy-green/), Tech Lead, Fujitsu Landing Team, Linaro
 
-	
+
   * [Ilias Biris](http://www.linaro.org/linux-on-arm/meet-the-team/ilias-biris/), Technical Program Manager, Linaro Enterprise Group
 
 
@@ -2462,7 +2464,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Andrea Gallo](http://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/), Director Linaro Enterprise Group
 
 
@@ -2475,7 +2477,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Anmar Oueja](http://www.linaro.org/linux-on-arm/meet-the-team/anmar-oueja/), Technical Program Manager, Linaro Enterprise Group
 
 
@@ -2488,7 +2490,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Bernhard Rosenkränzer](http://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), Android Engineer, Android Team Linaro
 
 
@@ -2501,13 +2503,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-	
+
   * [Sachin Kamat](http://www.linaro.org/linux-on-arm/meet-the-team/sachin-kamat/), Multimedia Engineer, Samsung Landing Team, Linaro
 
-	
+
   * [Linus Walleij](http://www.linaro.org/linux-on-arm/meet-the-team/linus-walleij/), Kernel Engineer, Kernel Team, Linaro
 
-	
+
   * [John Stultz](http://www.linaro.org/linux-on-arm/meet-the-team/john-stultz/), Kernel Engineer, Kernel Team, Linaro
 
 

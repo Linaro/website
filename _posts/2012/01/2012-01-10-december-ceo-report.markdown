@@ -8,7 +8,7 @@ slug: december-ceo-report
 title: December CEO Report
 wordpress_id: 1142
 categories:
-- Linaro Blog
+- blog
 ---
 
 Despite the impact of the very welcome holiday season Linaro achieved a new set of monthly deliverables described below. As we start a new year it's worth reminding ourselves of the achievements of the last 12 months:

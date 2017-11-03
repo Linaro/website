@@ -8,8 +8,9 @@ slug: accelerated-aes-for-the-arm64-linux-kernel
 title: Accelerated AES for the ARM64 Linux kernel
 wordpress_id: 12087
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - AArch64
 - AES
 - arm

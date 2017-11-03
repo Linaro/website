@@ -8,8 +8,9 @@ slug: the-linaro-android-platform-team-period-jan-11-to-jan-18
 title: The Linaro Android Platform Team, Period Jan. 11 to Jan. 18
 wordpress_id: 1203
 categories:
-- Android
+- blog
 tags:
+- Android
 - '12.01'
 - android
 - Evaluation builds
@@ -30,13 +31,13 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
+
   * Toolchain release	[ done.](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/)
 
-	
+
   * 12.01 preview has been [ released](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/) and tested.
 
-	
+
   * Bug cleanup is completed. Only bugs reconfirmed on ICS remain.
 
 
@@ -50,19 +51,19 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
+
   * Good progress on "Create DS-5 Documentation and a Presentation".
 
-	
+
   * Progress on cameraHal for snowball VideoConferencing Demo.
 
-	
+
   * Very good progress on OMX IL for ICS on Origen.
 
-	
+
   * The "Binary Blobs Attack!!!" BoF session accepted at ELC.
 
-	
+
   * Presentation "Integrating projects using their own build system into the Android build system" accepted at ABS.
 
 
@@ -74,19 +75,19 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
+
   * 900508	[ GLMark2 not available on ICS.](https://bugs.launchpad.net/linaro-android/+bug/900508)
 
-	
+
   * 913945	[ Powertop not available on ICS.](https://bugs.launchpad.net/linaro-android/+bug/913945)
 
-	
+
   * 860518	[ Snowball: Turning ON WiFi gives "Error" message. Unable to use WLAN feature.](https://bugs.launchpad.net/linaro-android/+bug/860518)
 
-	
+
   * 877280	[ Samsung Origen WIFI can't pass the "enable-disable" repeat test.](https://bugs.launchpad.net/linaro-android/+bug/877280)
 
-	
+
   * 915434	[ vexpress: ECM does not set DNS address.](https://bugs.launchpad.net/linaro-android/+bug/915434)
 
 
@@ -99,10 +100,10 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
+
   * Abhishek absent (Republic day,India), 26th to 27th Jan.
 
-	
+
   * Kejun Zhou absent (public holiday) from 20th to 30th Jan.
 
 
@@ -114,8 +115,8 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
-  * Testers must get antennas for Snowball to test BT, WLAN. 
+
+  * Testers must get antennas for Snowball to test BT, WLAN.
 
 
 
@@ -126,7 +127,5 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 
 
-	
+
   * [12.01 Milestone](https://launchpad.net/linaro-android/+milestone/12.01)
-
-

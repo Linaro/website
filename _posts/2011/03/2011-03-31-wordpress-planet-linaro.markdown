@@ -8,9 +8,9 @@ slug: wordpress-planet-linaro
 title: Switch to a WordPress blog - Planet Linaro available
 wordpress_id: 3377
 categories:
-- Community
+- blog
 tags:
-- community
+- Community
 - website
 ---
 
@@ -27,7 +27,3 @@ At the moment, [Planet Linaro](http://planet.linaro.org/) is a bit confused beca
 As both this new blog and Planet Linaro have just been put on-line, they may still need a bit of tweaking. Your comments and improvements are welcome!
 
 Your blog posts submissions are also most welcome. You no longer have an excuse for not contributing to our blog ;-)
-
-
-
-

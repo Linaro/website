@@ -8,6 +8,8 @@ slug: linaro-connect-asia-2013-day-3-what-to-expect
 title: Linaro Connect Asia 2013 - Day 3 - What To Expect
 wordpress_id: 2548
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

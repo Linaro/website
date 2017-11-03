@@ -8,6 +8,8 @@ slug: whats-new-in-the-12-03-linaro-android-origen-release
 title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 categories:
+- blog
+tags:
 - Android
 - Community
 - Hardware

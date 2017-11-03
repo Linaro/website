@@ -10,7 +10,7 @@ slug: linaro-digital-home-group-at-sfo15
 title: Linaro Digital Home Group at SFO15
 wordpress_id: 9189
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - LHG

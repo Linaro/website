@@ -8,6 +8,8 @@ slug: testing-a-trusted-execution-environment
 title: Testing a Trusted Execution Environment
 wordpress_id: 9949
 categories:
+- blog
+tags:
 - Core Dump
 ---
 
@@ -15,31 +17,31 @@ categories:
 
 
 
-	
+
   * Background
 
-	
+
   * Linaro gets into the picture
 
-	
+
   * Software components
 
-	
+
   * Host application
 
-	
+
   * Test Trusted Applications
 
-	
+
   * What about the tests coming from GlobalPlatform?
 
-	
+
   * Licenses
 
-	
+
   * Shortcomings and future improvements
 
-	
+
   * Final words
 
 
@@ -81,28 +83,28 @@ The host application, which by the way is the one we call “xtest”, has been 
 
 
 
-	
+
   * [xtest_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_1000.c): contains the **OS related** tests _–_ basic OS features, panics, wait functionality, RPC messaging, signature header verification tests by loading a fake and a corrupt Trusted Application. It also tests invalid memory access and concurrent usage of Trusted Applications.
 
-	
+
   * [xtest_4000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_4000.c): contains all **crypto** related testing. It is basically testing crypto APIs that are exposed to the Trusted Application via the GlobalPlatform Internal TEE core specification.
 
-	
+
   * [xtest_5000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_5000.c): this file have tests for **shared memory** handling.
 
-	
+
   * [xtest_6000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_6000.c): contains test for **storage**, which exercises the GlobalPlatform secure storage API as well as the underlying “POSIX” file system API.
 
-	
+
   * [xtest_7000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_7000.c): This also contains tests for shared memory etc. However, this is something that will only be used when having access to and enabling the tests coming from GlobalPlatform (more on that further down in this blog post).
 
-	
+
   * [xtest_10000.c ](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_10000.c)has test code containing **extensions** going beyond the GlobalPlatform specifications. For example, this is where we are testing key derivation functionality like PBKDF2, HKDF and Concat KDF.
 
-	
+
   * [xtest_20000.c ](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_20000.c)this file also has tests related to storage, but this time those are more aimed at the **secure storage** implementation as such and they verify that files are actually being written to the file system, checking that they haven’t been corrupted and that they are being deleted etc. As an example, when initiating a store operation from secure world there should be file(s) created in Linux and accessible at **_/data/tee/{directory}/{filename}/block.xxx_**.
 
-	
+
   * [xtest_benchmark_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_benchmark_1000.c): This is so far the only file related to **benchmarking** and it contains a couple of benchmark tests for the **secure storage** implementation.
 
 
@@ -128,28 +130,28 @@ As I’ve mentioned above, all code related to testing could be found within a s
 
 
 
-	
+
   * [**concurrent**](https://github.com/OP-TEE/optee_test/tree/master/ta/concurrent): The concurrent Trusted Application is responsible for testing the ability to run several Trusted Applications simultaneously – a feature that has been [merged](https://github.com/OP-TEE/optee_os/pull/536/commits) into OP-TEE quite recently. For the host application you will find this application’s code in the [xtest_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_1000.c#L156-L165) file.
 
-	
+
   * ****[**create_fail_test**](https://github.com/OP-TEE/optee_test/tree/master/ta/create_fail_test)**:** This is a tiny little TA used solely to test OP-TEE’s behaviour when loading a corrupt or fake Trusted Application.****
 
-	
+
   * [**crypt**](https://github.com/OP-TEE/optee_test/tree/master/ta/crypt): Despite the fact that there is the crypto API defined by GlobalPlatform, in OP-TEE, this particular Trusted Application also contains an AES-ECB and a SHA-256 (224) implementation within the TA itself, that is mostly due to historic reasons. But the majority of the entry points are calling GlobalPlatform Internal API functions. This Trusted Application tests MAC, AAED, hashes, ciphers, random number generator etc.
 
-	
+
   * [**os_test**](https://github.com/OP-TEE/optee_test/tree/master/ta/os_test): Mainly tests OS related features such as memory access rights, properties, time API and floating point operations as well as the MPA library (implementing big numbers).
 
-	
+
   * [**rpc_test**](https://github.com/OP-TEE/optee_test/tree/master/ta/rpc_test): Test that the RPC mechanism and loading of other Trusted Applications are working properly. It does this by letting the TA itself calling functionality in the crypt TA which will trigger loading of the crypt TA using RPC messages.
 
-	
+
   * [**sims**](https://github.com/OP-TEE/optee_test/tree/master/ta/sims): Testing the Single Instance and Multiple Session features specified by GlobalPlatform.
 
-	
+
   * [**storage**](https://github.com/OP-TEE/optee_test/tree/master/ta/storage): Contains tests related to the (secure) storage functionality. It tests all the functions of the GlobalPlatform specification that cover the so called “Persistent Objects”. On a high level or in Unix terms, this can be seen as the POSIX API (in reality there is a POSIX level behind the GP interfaces).
 
-	
+
   * [**storage_benchmark**](https://github.com/OP-TEE/optee_test/tree/master/ta/storage_benchmark): As the name indicates, this TA benchmarks storage operations. It reads and writes data of various chunk sizes and then in the end creates a performance report.
 
 

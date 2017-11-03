@@ -8,7 +8,7 @@ slug: ubuntu-rack-deployment-within-the-armv8-server-lab
 title: Ubuntu Rack Deployment within the ARMv8 Server Lab
 wordpress_id: 8419
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - ARMv8

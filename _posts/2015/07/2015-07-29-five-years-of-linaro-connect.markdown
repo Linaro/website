@@ -10,7 +10,7 @@ slug: five-years-of-linaro-connect
 title: Five years of Linaro Connect
 wordpress_id: 9056
 categories:
-- Linaro Blog
+- blog
 tags:
 - community
 - connect

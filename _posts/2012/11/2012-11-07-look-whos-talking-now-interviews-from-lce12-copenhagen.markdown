@@ -8,6 +8,8 @@ slug: look-whos-talking-now-interviews-from-lce12-copenhagen
 title: Look who's talking now - Interviews from LCE12-Copenhagen
 wordpress_id: 1969
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -60,25 +62,25 @@ I also had the opportunity to interview and or [facilitate interviews](http://ww
 
 
 
-	
+
   * [Mark Shuttleworth](http://youtu.be/RS89kvoGFLs), Ubuntu Founder
 
-	
+
   * [Pete Graner](http://youtu.be/iQl6qR9yJzk), Release Engineering and QA Team Mgr
 
-	
+
   * [Sean Sosik-Hamor](http://youtu.be/oQ-Fu6HPTQQ), IS Facilities and Events Project Engineer, Canonical
 
-	
+
   * [Jonathan Riddell](http://youtu.be/kEotr1Qi1bQ) of the Kubuntu Project
 
-	
+
   * [Dave Walker ](http://youtu.be/AHLM34RZIek)of the Ubuntu Server Team at Canonical
 
-	
+
   * [Dustin Kirkland](http://youtu.be/i1Wo9kAR4oA), CTO Gazzang Inc.
 
-	
+
   * [Pasi Lallinaho](http://youtu.be/2obH7ugvIsQ) (knome), Xubuntu
 
 

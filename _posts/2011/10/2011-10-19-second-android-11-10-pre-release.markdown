@@ -8,14 +8,15 @@ slug: second-android-11-10-pre-release
 title: 'The Second Android 11.10 Pre-Release is Out! '
 wordpress_id: 603
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - Linaro
 - release
 ---
 
-The second Android pre-release is done and has been tested. 
+The second Android pre-release is done and has been tested.
 
 
 
@@ -23,7 +24,7 @@ The second Android pre-release is done and has been tested.
 
 
 
-Each build is based on Android 2.3.5 and has been compiled with Linaro's 11.10 GCC 4.6 release, with `-O3` and `strict-aliasing` turned on. 
+Each build is based on Android 2.3.5 and has been compiled with Linaro's 11.10 GCC 4.6 release, with `-O3` and `strict-aliasing` turned on.
 
 Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are generally based on the last stable Android kernel/common.git + linux-linaro. Both build types contain enablement patches that have not been upstreamed yet. Beagle xM is built using an upstream only tree, and represents the state of upstream enablement.  
 

@@ -8,7 +8,7 @@ slug: linaro-15-03-release-available-for-download
 title: Linaro 15.03 Release Available for Download
 wordpress_id: 8363
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - ARMv8

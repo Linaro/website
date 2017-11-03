@@ -8,7 +8,7 @@ slug: firmware-summit-at-linaro-connect-las16
 title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577
 categories:
-- Linaro Blog
+- blog
 tags:
 - Enterprise edition
 - Firmware

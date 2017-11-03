@@ -8,8 +8,9 @@ slug: thursday-linaro-connect-usa-2014
 title: Thursday at Linaro Connect USA 2014
 wordpress_id: 6713
 categories:
+- blog
+tags:
 - Connect Events
-- Linaro Blog
 ---
 
 Thursday at Linaro Connect began with a keynote by  Dr Christos Kolias, Senior Research Scientist at Orange on Network Functions Virtualization (NFV).  Dr. Kolias discussed how NFV promises to change the service provider landscape and how it has emerged as one of today’s significant trends.  The day's theme was networking and the [Linaro Networking Group (LNG)](https://wiki.linaro.org/LNG)  extended an open invitation to attend a [day of sessions](http://www.linaro.org/connect/lcu/lcu14/schedule/lng/) focusing on accelerating the support of ARM within networking.  The LNG group also had a demo day that showcased the latest developments in networking, including implementations of the OpenDataPlane (ODP) on hardware accelerated platforms, it complemented sessions on topics such as improving performance by keeping the kernel out of the way, LAVA and VLANs, and LTE EPC.
@@ -324,51 +325,3 @@ Thursday at Linaro Connect began with a keynote by  Dr Christos Kolias, Senior 
 
 
 [ ![LNG demo day](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

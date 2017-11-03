@@ -8,7 +8,7 @@ slug: 96boards-open-source-hardware
 title: 96Boards and Open Source Hardware
 wordpress_id: 8125
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - arm

@@ -8,6 +8,8 @@ slug: linaro-13-02-release-is-now-available
 title: Linaro 13.02 Release is Now Available
 wordpress_id: 2480
 categories:
+- blog
+tags:
 - Releases
 ---
 

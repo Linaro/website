@@ -8,6 +8,8 @@ slug: lds-showcase
 title: Technical showcase at the Linaro Developer Summit
 wordpress_id: 3378
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -53,5 +55,3 @@ We are still looking for proposals, such as:
 Full HD capable LCD screens with will be provided to people making demonstrations, so that they won't have to carry them by themselves. Linaro will also take care of printing posters provided by demonstrators. Everyone is invited to send proposals, whether you are a developer or a user, and everyone present at UDS and LDS will be welcome.
 
 See our [Wiki](https://wiki.linaro.org/Events/2011-05-LDS) for all practical and proposal submission details.
-
-

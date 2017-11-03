@@ -10,7 +10,7 @@ slug: what-to-expect-at-sfo15-next-week
 title: What to expect at SFO15 next week
 wordpress_id: 9297
 categories:
-- Linaro Blog
+- blog
 ---
 
 [vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/4"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/09/SFO15-logo.jpg" image_width="800" image_height="350" crop="true" svg="false" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="3/4"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]

@@ -13,7 +13,7 @@ slug: lng
 title: OpenDataPlane project releases v0.2 development release
 wordpress_id: 5770
 categories:
-- Linaro Blog
+- blog
 tags:
 - ODP
 - OpenDataPlane

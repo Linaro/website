@@ -8,7 +8,7 @@ slug: bkk16-blog1
 title: Linaro Connect Bangkok 2016 Summary Blog 1 - The Keynotes
 wordpress_id: 10572
 categories:
-- Linaro Blog
+- blog
 tags:
 - bkk16
 - bkk16 keynote

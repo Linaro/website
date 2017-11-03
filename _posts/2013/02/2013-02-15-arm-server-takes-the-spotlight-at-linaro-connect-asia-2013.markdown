@@ -8,6 +8,8 @@ slug: arm-server-takes-the-spotlight-at-linaro-connect-asia-2013
 title: ARM Server takes the spotlight at Linaro Connect Asia 2013
 wordpress_id: 2364
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Hangouts on Air
@@ -33,22 +35,22 @@ The mini-summit will take place on Tuesday 5 March with sessions on the followin
 
 
 
-	
+
   * **UEFI**: Updates on the maintainership rules, Linaro tree, SCT and test integration in LAVA, collaboration with ARM and the Tianocore community, technical achievements and plans for the next steps, discussion on PXE boot.
 
 
 
-	
+
   * **ACPI**: Updates on ACPICA porting on ARM and initial trials with ACPI tables and the ASL. Plans for the next steps.
 
 
 
-	
+
   * **Verticals- Web Server and Caching Technologies:** Enable the web server vertical application use case, define the configuration towards evaluating the performance and identifying potential bottlenecks. Discuss about caching technologies and reverse proxies.
 
 
 
-	
+
   * **Verticals- HipHopVM and Hadoop Distributed File System**: Updates on HipHopVM porting onto the v8 Foundation model, interpreter and bytecode jitting. Updates on Hadoop Distributed Filesystem performance.
 
 
@@ -64,32 +66,32 @@ In addition to these sessions taking place at the mini-summit other server sessi
 
 
 
-	
+
   * **Introducing XEN ARM:** With the introduction of[ virtualization extensions](http://www.arm.com/products/processors/technologies/virtualization-extensions.php) on ARM processors, the Xen community has taken steps to add ARM support for ARM CPUs to the[ Xen Hypervisor](http://www.xen.org/products/xenhyp.html). This port is executed as part of of the Hypervisor project, with no separate codebase.
 
 
 
-	
+
   * **KVM:** Common session with the Kernel WG and others about KVM status and plans for A15 and v8 architectures, IO virtualization and OpenStack as a test case.
 
 
 
-	
+
   * **Verticals-Distributed computing:** Discussion on distributed computing, OpenMPI, Hadoop, OpenStack
 
 
 
-	
+
   * **Birds of a Feather [(BOF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)) Code Generation Session:** GCC, OpenJDK, HipHopVM and other projects all target the generation of native AArch64 assembly code. This session brings together the key engineers from each project with the aim of sharing experiences, best practices and design patterns.
 
 
 
-	
+
   * **Assembly Dependencies:** Update on the scanning of Ubuntu and Fedora packages for assembly dependencies and plans for optimizations.
 
 
 
-	
+
   * **LAVA and hyperscale multi-node server testing:** Update and plans to support testing of hyperscale multi-node servers with LAVA, discussions around distributed storage or cloud computing test cases, etc.
 
 
@@ -102,13 +104,11 @@ It’s not too late to join us in Hong Kong and registration for Linaro Connect 
 
 
 
-	
+
   * **LCA13-Hong Kong**: [http://www.linaro.org/connect](http://www.linaro.org/connect)
 
-	
+
   * **Remote Participation: **[http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
 
-	
+
   * **Schedule: **[http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
-
-

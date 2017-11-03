@@ -8,8 +8,9 @@ slug: integrating-the-ion-memory-allocator
 title: Integrating the ION memory allocator
 wordpress_id: 3002
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - conference
 - Linaro

@@ -8,9 +8,9 @@ slug: first-day-linaro-connect-hong-kong-2015-kicks-off-many-announcements
 title: First day of Linaro Connect Hong Kong 2015 kicks off with many announcements
 wordpress_id: 7938
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - connect
 - Connect Events
 - Linaro

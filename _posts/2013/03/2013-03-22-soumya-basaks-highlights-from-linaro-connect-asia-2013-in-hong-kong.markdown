@@ -8,6 +8,8 @@ slug: soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong
 title: Soumya Basak's Highlights from Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2602
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -22,13 +24,13 @@ For me, the most interesting topics at LCA13-Hong Kong included:
 
 
 
-	
+
   * The Embedded Android Training Workshop with sessions about Working with AOSP and Native Android User Space
 
-	
+
   * QA Services for Kernel CI monitoring to support the upstream kernel community directly
 
-	
+
   * ARMv8 AArch64 Porting effort given by Riku Voipio
 
 

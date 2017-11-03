@@ -8,7 +8,7 @@ slug: october-ceo-report
 title: October CEO Report
 wordpress_id: 756
 categories:
-- Linaro Blog
+- blog
 ---
 
 With the advent of the Cortex-A15, ARM CPU cores have become considerably more powerful, and despite ARM’s flagship SoC MIPS/watt ratings, the increasing number of MIPs inevitably also requires an increasing amount of Watts. Despite remaining the low power industry leaders, the next generation of ARM processors will literally be hotter than the last.
