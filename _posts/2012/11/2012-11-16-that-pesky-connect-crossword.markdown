@@ -162,4 +162,4 @@ And once it's all solved, the letters around the edge, reading from the top left
 
 I sincerely hope this helps. I hope that on the back of this some of you will seek out cryptic crosswords. They really are mind expanding. My vocabulary has massively increased since I started doing them because there are often worlds you don't know, but when you've worked them out you will know them forever because of the effort you had to expend.
 
-[Copenhagen (unmodified)](http://www.linaro.org/linaro-blog/wp-content/uploads/2012/11/Copenhagen-unmodified.pdf)
+[Copenhagen (unmodified)](/assets/blog/Copenhagen-unmodified.pdf)

@@ -50,7 +50,7 @@ I make my living as an Industry consultant, mostly in Free and Open Source Softw
 
 **[QUESTION] - _It's my understanding that you all worked together at Digital Equipment Corporation together?  If so, is it true that you all worked in the same office and on the same version of Unix?  Did you all know each other before working there?  What is one story from those days you both remember fondly that would help those who are getting stared in Technology?  What was the lessons you learned that you still remember and apply today?_**
 
-[caption id="attachment_2696" align="aligncenter" width="321"][![Maddog up St Mary's church tower in Oxford, about an hour before he got the royal wave (Photo credit: David Rusling)](http://www.linaro.org/wp-content/uploads/2013/05/page12_2.png)](http://www.linaro.org/wp-content/uploads/2013/05/page12_2.png) Maddog up St Mary's church tower in Oxford, about an hour before he got the royal wave (Photo credit: David Rusling)[/caption]
+[caption id="attachment_2696" align="aligncenter" width="321"][![Maddog up St Mary's church tower in Oxford, about an hour before he got the royal wave (Photo credit: David Rusling)](/assets/blog/page12_2.png)](/assets/blog/page12_2.png) Maddog up St Mary's church tower in Oxford, about an hour before he got the royal wave (Photo credit: David Rusling)[/caption]
 
 **David:** Not only do we go way back, but maddog got me interested into Linux in the first place.  For which I am eternally grateful.
 
@@ -102,7 +102,7 @@ I told him I would pay for the shipping.
 
 I found a group of engineers in the Alpha Technology section of Digital that were also thinking about porting Linux to the Alpha, but a 32-bit port.  I convinced them to join Linus and make it a 64-bit port.  This group was headed by Andry Riebs, and consisted of a group of engineers including Jim Paradis, Jay Estabrook and our own David Rusling.
 
-[caption id="attachment_2697" align="aligncenter" width="320"][![Left to right: Donnie Barnes, David Rusling, Erik Troan, Jay Estabrook, David Mosberger-Tang (Photo Credit: David Rusling)](http://www.linaro.org/wp-content/uploads/2013/05/page12_1.png)](http://www.linaro.org/wp-content/uploads/2013/05/page12_1.png) Left to right:  
+[caption id="attachment_2697" align="aligncenter" width="320"][![Left to right: Donnie Barnes, David Rusling, Erik Troan, Jay Estabrook, David Mosberger-Tang (Photo Credit: David Rusling)](/assets/blog/page12_1.png)](/assets/blog/page12_1.png) Left to right:  
 Donnie Barnes, David Rusling, Erik Troan, Jay Estabrook, David Mosberger-Tang  
 (Photo Credit: David Rusling)[/caption]
 

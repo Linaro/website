@@ -15,7 +15,7 @@ tags:
 - Connect Events
 ---
 
-[![LCA13-Group Photo](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi-1024x6821.jpg)](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi-1024x6821.jpg)
+[![LCA13-Group Photo](/assets/blog/LCA13-Group-001-72dpi.jpg)](/assets/blog/LCA13-Group-001-72dpi.jpg)
 **Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.  
 
 
@@ -2586,4 +2586,4 @@ If you or your organization joined us in Hong Kong, thank you! If you are lookin
 More information on Linaro Connect can be found at: [connect.linaro.org](http://www.linaro.org/connect). Registration for Linaro Connect Europe 2013 is now [open](http://linaroconnect-lce13-eorg.eventbrite.com/).
 
 
-[![Linaro Connect Europe Banner Image](http://www.linaro.org/wp-content/uploads/2013/03/lce13-mico.png)](http://www.linaro.org/connect) Linaro Connect Europe 2013 Banner Image
+[![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](http://www.linaro.org/connect) Linaro Connect Europe 2013 Banner Image

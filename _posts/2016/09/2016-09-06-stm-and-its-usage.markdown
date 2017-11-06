@@ -24,7 +24,7 @@ tags:
 - Opensource
 ---
 
-![core-dump](http://www.linaro.org/wp-content/uploads/2016/02/core-dump.png)
+![core-dump](/assets/blog/core-dump.png)
 
 
 ## Introduction
@@ -180,7 +180,7 @@ The stm_source class has a set of masters and channels allocation and management
 ### 1. Allocate a range of channels from one master for stm_source
 
 
-![figure 1 stm blog](http://www.linaro.org/wp-content/uploads/2016/09/figure-1-stm-blog.jpg)
+![figure 1 stm blog](/assets/blog/figure-1-stm-blog.jpg)
 
 Like the Figure-1 is showing, when linking stm_source with STM device, the program will poll all masters from either
 

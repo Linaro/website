@@ -115,7 +115,7 @@ _ _
 _ _
 
 
-Please create a poster that lets attendees know all about your demonstration. The template for creating the demonstration poster is available [here](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/05/Demo-Friday-Demo-Poster-Template_LCE13_Dublin.odp). All posters must be returned to Linaro by **Friday June 7** in order to guarantee printing for Demo Friday event. Poster Size when printed will be A2 (11.7x16.5 inches).
+Please create a poster that lets attendees know all about your demonstration. The template for creating the demonstration poster is available [here](/assets/blog/Demo-Friday-Demo-Poster-Template_LCE13_Dublin.odp). All posters must be returned to Linaro by **Friday June 7** in order to guarantee printing for Demo Friday event. Poster Size when printed will be A2 (11.7x16.5 inches).
 
 
 

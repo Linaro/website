@@ -17,7 +17,7 @@ tags:
 - Linux on ARM
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump-1024x107.png)](https://wiki.linaro.org/CoreDevelopment)
+[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
 
 **Introduction
 **Recently I got some patches introducing the crypto engine framework merged into the crypto layer for v4.6, which are applied in Herbert Xu’s git:  [http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git](http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git)

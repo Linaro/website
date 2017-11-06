@@ -2,11 +2,12 @@
 title: About
 description: |-
     Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the work benefits Linaro members and the ARM ecosystem.
-layout: default-no-sub-nav
+layout: about-page
 permalink: /about/
 js-vendor: extended
 css-pack: lightbox
 ---
+
 {% include image.html name="connect-collective-500x333.jpeg" class="right-aligned-image" alt="Linaro Employees at Connect Event" %}
 
 Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the [work](https://www.linaro.org/work/) benefits Linaro members and the ARM ecosystem.
@@ -17,13 +18,26 @@ Member companies fund Linaro and provide a significant proportion of its engine
 
 The members determine what work is done by the Linaro engineering team. As the number of Linaro members increases, the company’s capacity to provide engineering solutions grows and so the return on a member’s investment increases. This results in more common engineering work being completed by the Linaro engineers, enabling the members to focus more of their own resources on innovation and differentiation.
 
+
+
+<div class="container no-padding about-page-text">
+<div class="col-md-7 no-padding" markdown="1">
+
 Linaro’s work is at the heart of all modern Linux-based devices running on ARM processors, including Android smartphones and tablets. As markets for ARM processors develop, new opportunities for collaborative engineering are created around Linux and other open source operating systems. These opportunities include software stacks and tools in mobile, networking, servers, the digital home and IoT.
+
+</div>
+<div class="col-md-4 col-md-offset-1 did-you-know no-padding" markdown="1">
+
+## [June 2010 – Linaro was launched with six founding members and had grown to over 35 members by March 2016](#2010-June)
+
+</div>
+</div>
 
 * * *
 
 ## Timeline
 
-## [June 2010 – Linaro was launched with six founding members and had grown to over 35 members by March 2016](#2010-June)
+
 
 This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro Connect historical events and key organizational developments. The member announcements and organizational development milestones clearly show Linaro growth in both core and club membership and the expansion of Linaro’s work with the establishment of segment focused groups: the [Linaro Enterprise Group (LEG)](http://www.linaro.org/groups/leg/) in November 2012, the [Linaro Networking Group (LNG)](http://www.linaro.org/groups/lng/) in February 2013, [The Linaro Digital Home Group (LHG)](http://www.linaro.org/groups/lhg/) in May 2014, [Linaro Mobile Group (LMG)](http://www.linaro.org/groups/lmg/) in July 2014, the [Linaro 96Boards Group](https://www.linaro.org/initiatives/96boards/) in February 2015, and the [Linaro IoT and Embedded (LITE) Group](https://www.linaro.org/groups/lite/) in September 2016.
 
@@ -33,7 +47,7 @@ This timeline includes links to Linaro’s articles of association, membership r
 </span>
 </h3>
 
-<dl>
+<dl class="timeline-dl">
 
 <dt id="2014-2">March</dt>
 
@@ -87,7 +101,7 @@ Linaro Connect Budapest 2017 (BUD17) [Learn more](http://connect.linaro.org/)
 </span>
 </h3>
 
-<dl>
+<dl class="timeline-dl">
 
 <dt id="2014-2">September</dt>
 
@@ -204,7 +218,7 @@ Linaro announces Software Reference Platform for ARM servers [Read More](http://
 </span>
 </h3>
 
-<dl>
+<dl class="timeline-dl">
 
 <dt id="2015-2">October
 </dt>
@@ -343,7 +357,7 @@ Linaro Connect Hong Kong 2015 (HKG15)  [Read More](http://connect.linaro.org/hk
 </span>
 </h3>
 
-<dl>
+<dl class="timeline-dl">
 
 <dt id="2014-2">December
 </dt>
@@ -485,7 +499,7 @@ Linux Kernel 3.13 released, Linaro ranked #2 company contributor [Read More](ht
 </span>
 </h3>
 
-<dl>
+<dl class="timeline-dl">
 
 <dt id="2013-2">December
 </dt>
@@ -666,7 +680,7 @@ networking development [Read More](/news/networking-leaders-collaborate-to-maxim
 </h3>
 
 
-<dl>
+<dl class="timeline-dl">
 
 <dt markdown="1">
 December
@@ -826,7 +840,7 @@ Linaro board meeting [View meeting minutes](/wp-content/uploads/2014/02/Linaro
 
 <span id="text-block-37" class="mk-text-block   ">
 
-<dl>
+<dl class="timeline-dl">
 
 <dt markdown="1">
 December
@@ -950,7 +964,7 @@ Linaro board meeting [View meeting minutes](/wp-content/uploads/2014/02/Januar
 </span>
 </h3>   
 
-<dl>
+<dl class="timeline-dl">
 
 <dt markdown="1">
 October

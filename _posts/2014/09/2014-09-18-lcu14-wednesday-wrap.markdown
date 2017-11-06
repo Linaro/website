@@ -393,4 +393,4 @@ LEG has been a group that has been up and running for a while.  Many people are
 ### **Linaro Connect USA Group**
 
 
-![group shot 2](http://www.linaro.org/wp-content/uploads/2014/09/group-shot-2.jpg)
+![group shot 2](/assets/blog/group-shot-2.jpg)

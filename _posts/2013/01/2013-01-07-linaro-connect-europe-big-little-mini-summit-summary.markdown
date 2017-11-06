@@ -40,7 +40,7 @@ Those four sessions included topics focused on the following:
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
-[caption id="attachment_2208" align="alignleft" width="384" caption="ARMs Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit"][![](http://www.linaro.org/wp-content/uploads/2013/01/ARMs_Test_Chip_2TC2_An_Overview-1024x765.png)](http://www.linaro.org/wp-content/uploads/2013/01/ARMs_Test_Chip_2TC2_An_Overview.png)[/caption]
+[caption id="attachment_2208" align="alignleft" width="384" caption="ARMs Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit"][![](/assets/blog/ARMs_Test_Chip_2TC2_An_Overview.png)](/assets/blog/ARMs_Test_Chip_2TC2_An_Overview.png)[/caption]
 
 During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at ARM) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and ARM.
 

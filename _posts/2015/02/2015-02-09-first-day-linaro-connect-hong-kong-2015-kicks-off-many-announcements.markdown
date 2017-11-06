@@ -53,4 +53,4 @@ In the afternoons the sessions kicked off with many different tracks for attende
 With 4 days left to go and many keynotes, demos, sessions and socials planned keep checking back for more updates and news to come.
 
 
-[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/02/hkg15-group-photo.jpg" image_width="800" image_height="797" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][mk_image src="/assets/blog/hkg15-group-photo.jpg" image_width="800" image_height="797" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]

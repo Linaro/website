@@ -20,11 +20,9 @@ The TSC is co-chaired by the CTO and the VP of Engineering and consists of one r
 
 [Committee Members](#Committee) / [Associate Members](#Associate) / [Guests Members](#Guests)
 
-* * *
 
 # Committee Members
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Bill Mills** / Texas Instruments
@@ -41,7 +39,6 @@ Bill has been developing software professionally for over 25 years. Prior to his
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Bryan Huntsman** / Qualcomm
@@ -55,7 +52,6 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 </div>
 
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Christian Bertin** / STMicroelectronics
@@ -74,7 +70,6 @@ He has been working in STMicroelectronics for 17 years and has created the Compi
 </div>
 
 
-* * *
 
 
 <div class="container board_member">
@@ -90,7 +85,6 @@ When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking,
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -102,7 +96,6 @@ Elsie Wahlig is a Principal Engineer and manager in the Server SW team at Qualco
 {% include circular-image.html name="Elsie-Wahlig.jpg" class="linaro-profile-image" alt="Elsie Wahlig Profile Photo"%}
 </div>
 </div>
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Jarmo Hillo** / LNG Representative, NSN
@@ -115,7 +108,6 @@ Jarmo has a long international career at Nokia in various technology and archite
 {% include circular-image.html name="Jarmo-Hillo.jpg" class="linaro-profile-image" alt="Jarmo Hillo Profile Photo"%}
 </div>
 </div>
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Jon Masters** / LEG Representative, Red Hat
@@ -127,7 +119,6 @@ Jon Masters is Chief ARM Architect at Red Hat, where he works on the Fedora ARM 
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -140,7 +131,6 @@ Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 ye
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Mark Hambleton** / ARM
@@ -152,7 +142,6 @@ Approaching 20 years of experience in embedded systems ranging from real time co
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -165,7 +154,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -175,7 +163,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Xing Wei** / Hisilicon
@@ -184,7 +171,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **You Changhai** / ZTE
@@ -193,11 +179,9 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 
 # Guests
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Andrea Gallo** / VP of Segment Groups, Linaro
@@ -209,7 +193,6 @@ Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much inv
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -218,11 +201,10 @@ Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much inv
 George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of industry knowledge. Prior to joining Linaro George led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets. George holds a degree in Electrical Sciences from Cambridge University and resides in Boston, Massachusetts.
 </div>
 <div class="col-sm-3">
-{% include circular-image.html name="george-grey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Mark Gregotski** / Director of LHG, Linaro
@@ -234,7 +216,6 @@ Mark has over 20 years experience developing real-time embedded software, managi
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -244,7 +225,6 @@ Mark has over 20 years experience developing real-time embedded software, managi
 </div>
 </div>
 
-* * *
 
 <div class="col-sm-4">
     <a href="/about/board/">

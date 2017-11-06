@@ -20,7 +20,7 @@ We are pleased to announce that registration for [Linaro Connect Las Vegas 2016 
 
 Make sure to [register as soon as you can](http://connect.linaro.org/attend/) so you can arrange travel in good time and ensure you get discounted hotel rates.
 
-![LinaroConnect-Logo-LAS16_standard](http://www.linaro.org/wp-content/uploads/2016/05/LinaroConnect-Logo-LAS16_standard-300x141.png)
+![LinaroConnect-Logo-LAS16_standard](/assets/blog/LinaroConnect-Logo-LAS16_standard.png)
 
 Linaro will be hosting LAS16 at the JW Marriott Las Vegas Resort & Spa, a venue that offers easy access to the city with the amenities of a luxurious resort. Located just half a mile from the strip, the Marriott is an oasis - allowing visitors to recharge their batteries and enjoy the comforts of one of Southern Nevada's most prestigious golf courses, 50 acres of lush gardens and a resort-style pool complete with flowing waterfalls and bubbling whirlpools. The venue boasts ten restaurants and lounges and its own casino, but guests have easy access to the hustle and bustle of what Las Vegas has to offer via regular shuttle buses.
 September is a great time to visit Las Vegas: not too hot and not too cold, you can normally expect an average temperature of 24℃ (75℉), making it ideal for both business and engineering!
@@ -39,4 +39,4 @@ Linaro CEO, George Grey will commence proceedings with a welcome keynote at 8.30
 
 
 
-![LAS16 - Templates-01](http://www.linaro.org/wp-content/uploads/2016/05/LAS16-Templates-01.png)
+![LAS16 - Templates-01](/assets/blog/LAS16-Templates-01.png)

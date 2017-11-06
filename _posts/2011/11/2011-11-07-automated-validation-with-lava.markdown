@@ -21,7 +21,7 @@ LAVA has evolved as Linaro's development and release process has changed. For in
 
 **The Validation Lab **
 
-[caption id="attachment_844" align="alignleft" width="251"]![Linaro Validation Lab](http://www.linaro.org/wp-content/uploads/2011/11/Linaro-Validation-Lab-251x300.jpg) Linaro Validation Lab[/caption]
+[caption id="attachment_844" align="alignleft" width="251"]![Linaro Validation Lab](/assets/blog/Linaro-Validation-Lab.jpg) Linaro Validation Lab[/caption]
 
 Over the past few months, the Linaro validation lab has been expanded to cover testing on MX53, Snowball, Pandaboard, and Beagle XM. Support for Origen boards is in progress and boards have now arrived in volume in the lab. Capacity has increased considerably through the addition of dozens of boards and additional infrastructure to handle this increased capacity; for instance, LAVA added a scheduler component to facilitate management of jobs across all these different boards and board types. Since the scheduler came online, which was just a few months ago, about 3000 jobs have been executed. Jobs can be monitored from the web interface while they are running, with live output streaming.
 

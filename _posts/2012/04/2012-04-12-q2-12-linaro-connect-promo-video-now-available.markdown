@@ -14,11 +14,11 @@ tags:
 - Connect Events
 ---
 
-[![](http://www.linaro.org/wp-content/uploads/2012/04/event-221.png)](http://connect.linaro.org/events/event/linaro-connect-q2-12/)Do you wonder what a Linaro Connect event is like?  Did you miss the last one?  If you answered yes to either of these questions, then we have something for you.
+[![](/assets/blog/event-221.png)](http://connect.linaro.org/events/event/linaro-connect-q2-12/)Do you wonder what a Linaro Connect event is like?  Did you miss the last one?  If you answered yes to either of these questions, then we have something for you.
 
 Thanks to [Tara Oldfield](https://plus.google.com/117647229006247247428/posts) at [Novacut](https://plus.google.com/109582833728734114979/posts) the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) which is being held from 28 May-1 June, 2012 at the Gold Coast Hotel in Hong Kong now has a [promo video](http://youtu.be/xkFQzhYLsQI).
 
-[![](http://www.linaro.org/wp-content/uploads/2012/04/novacut-solo-brandmark_PINK_FINAL-PNG-512px.png)](http://novacut.com/)But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.
+[![](/assets/blog/novacut-solo-brandmark_PINK_FINAL-PNG-512px.png)](http://novacut.com/)But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.
 
 Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on ARM.  [Register today](http://connect.linaro.org/register-connect/).
 

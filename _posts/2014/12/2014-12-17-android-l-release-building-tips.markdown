@@ -18,7 +18,7 @@ tags:
 - Linux on ARM
 ---
 
-[![android](http://www.linaro.org/wp-content/uploads/2014/12/android.png)](http://www.linaro.org/wp-content/uploads/2014/12/android.png)
+[![android](/assets/blog/android.png)](/assets/blog/android.png)
 
 
 

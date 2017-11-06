@@ -22,7 +22,7 @@ And then we started looking at FastModels, the ARM software emulation of hardwar
 
 We decided we needed to offload as much as possible from v.l.o. We looked at adding a new high power server, and then we looked at the option of adding several slightly lower spec servers and spreading the load. It was at this point that the idea of implementing our own Cloud was first mentioned. After some investigation, we realised that this was really the best answer.
 
-[caption id="attachment_1267" align="alignright" width="225" caption="New Servers for the LAVA-Lab."][![](http://www.linaro.org/wp-content/uploads/2012/02/2012-02-02-11.00.211-225x300.jpg)](http://www.linaro.org/wp-content/uploads/2012/02/2012-02-02-11.00.211.jpg)[/caption]
+[caption id="attachment_1267" align="alignright" width="225" caption="New Servers for the LAVA-Lab."][![](/assets/blog/2012-02-02-11.00.211.jpg)](/assets/blog/2012-02-02-11.00.211.jpg)[/caption]
 
 We ordered 5 new servers from the excellent chaps we met at [UDS-P](http://summit.ubuntu.com/uds-p/) in Orlando--[System-76](http://www.system76.com/)--and they duly arrived. I then set about deploying them into LAVA Rack 3. Here they are, just after I'd connected them and got them powered up.
 
@@ -36,7 +36,7 @@ Once the servers were racked, as you see above, I did a fresh install of [Ubuntu
 
 I had it mostly configured before I left for our [Linaro Connect Q1.12](http://connect.linaro.org/events/event/lcq1-12/) event in San Francisco, but something wasn't quite right. I couldn't get instances to talk to the outside world.
 
-[caption id="attachment_1265" align="alignleft" width="300" caption="Dave Pigott configuring the new servers in the LAVA-Lab."][![](http://www.linaro.org/wp-content/uploads/2012/02/2012-02-02-10.59.151-300x224.jpg)](http://www.linaro.org/wp-content/uploads/2012/02/2012-02-02-10.59.151.jpg)[/caption]
+[caption id="attachment_1265" align="alignleft" width="300" caption="Dave Pigott configuring the new servers in the LAVA-Lab."][![](/assets/blog/2012-02-02-10.59.151.jpg)](/assets/blog/2012-02-02-10.59.151.jpg)[/caption]
 
 So, off I went to Connect and in the hacking sessions, I mostly spent my time trying to get the Cloud talking to the outside world. I could see that everything was configured according to the documentation, but still I could not get an instance that I created to talk to me, or indeed anybody.
 

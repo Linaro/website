@@ -13,7 +13,7 @@ categories:
 
 **_Authors: Mark Gregotski and Peter Griffin_**
 
-[![](https://www.linaro.org/wp-content/uploads/2017/04/hikey-960-hd-front-300x199.png)](https://www.linaro.org/wp-content/uploads/2017/04/hikey-960-hd-front.png)The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on ARM TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
+[![](/assets/blog/hikey-960-hd-front.png)](/assets/blog/hikey-960-hd-front.png)The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on ARM TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
 
 The Chromium browser-based implementation is an end-to-end solution that retrieves encrypted video from a server and locally provides secure decryption via OP-TEE [1]. 64-bit execution mode is being used for both Secure (including Trusted Applications) and Non-secure environments, and the build uses a pre-built binary (fip.bin) for the ARM Trusted Firmware and OP-TEE build. Using a Firmware Image Package (FIP) allows for packing bootloader images (and potentially other payloads) into a single archive that can be loaded by the ARM Trusted Firmware from nonvolatile platform storage.
 
@@ -123,14 +123,14 @@ The W3C EME specification [2] details the messaging flow between elements that s
 
 
 
-![](https://www.linaro.org/wp-content/uploads/2017/07/html5-eme-application-300x279.png)
+![](/assets/blog/html5-eme-application.png)
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in ARM TrustZone.
 
 
 
 
-![](https://www.linaro.org/wp-content/uploads/2017/07/linaro-clearkey-implementation-300x202.png)
+![](/assets/blog/linaro-clearkey-implementation.png)
 Linaro ClearKey Implementation
 
 

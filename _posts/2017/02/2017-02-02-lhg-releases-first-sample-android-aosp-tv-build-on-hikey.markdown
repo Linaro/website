@@ -41,7 +41,7 @@ You will be able to see a demonstration of the Android TV work and much more of 
 
 The Android Open Source Project (AOSP) is used in a variety of device types and form factors.   The most commonly known form factor is the Android Handheld device for mobile phones and tablets.  However, for the TV form factor there are certain specific components such as the TV Input Framework and the Lean Back APIs that are unique to TV.  This is Android targeted to the entertainment interface for consuming media, movies, live TV, games and apps for the “10-foot user experience”.
 
-![](https://www.linaro.org/wp-content/uploads/2017/02/lhg-android-tv-blog-image-1.jpg)
+![](/assets/blog/lhg-android-tv-blog-image-1.jpg)
 
 The core of the Android TV device software is the TV Input Framework (TIF) which provides the framework for the delivery of live TV content.  The framework consists of many components including the TV Input Manager, TV App, and TV Input HAL.  TIF permits viewers to watch content from a variety of input sources such as cable, satellite, terrestrial, along with IP-based media delivery.  The input source is abstracted away from the viewer who is presented with a guide containing all available services.
 
@@ -77,7 +77,7 @@ The initial build is on the HiKey CE platform which is an approved Android refer
 # Development Steps to Build Android TV
 
 
-![](https://www.linaro.org/wp-content/uploads/2017/02/lhg-blog-image-2-android-tv-1024x581.jpg)
+![](/assets/blog/lhg-blog-image-2-android-tv.jpg)
 
 
 _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard _
@@ -173,7 +173,7 @@ _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard _
 
 Once the filesystem is built and flashed on the HiKey, the next step is to connect via WiFi to the internet.  The Live TV app is launched and searches for channels over available input sources.  The Sample Android TV app acts a service that can simulate a few IP-based TV channels that are streamed over the network.  The user can make their content selection via an USB mouse or USB keyboard.  Implementations on 96Boards TV Platform boards will support IR remote controls for navigating through content choices.
 
-![](https://www.linaro.org/wp-content/uploads/2017/02/screenshot-android-tv-1024x583.jpg)
+![](/assets/blog/screenshot-android-tv.jpg)
 
 
 _Source : [https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png](https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png)

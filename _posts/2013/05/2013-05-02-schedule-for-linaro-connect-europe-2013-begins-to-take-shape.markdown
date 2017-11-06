@@ -15,7 +15,7 @@ tags:
 
 
 
-[caption id="attachment_2580" align="aligncenter" width="970" caption="Linaro Connect Europe 2013 Banner"][![Linaro Connect Europe 2013 Banner Image](http://www.linaro.org/wp-content/uploads/2013/03/lce13-mico1.png)](http://www.linaro.org/connect)[/caption]
+[caption id="attachment_2580" align="aligncenter" width="970" caption="Linaro Connect Europe 2013 Banner"][![Linaro Connect Europe 2013 Banner Image](/assets/blog/lce13-mico1.png)](http://www.linaro.org/connect)[/caption]
 
 
 

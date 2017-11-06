@@ -1,6 +1,6 @@
 ---
 project_id: "6"
-title: Open Data Plane
+title: OpenDataPlane
 icon: ODP-logo.png
 icon_hd: ODP-logo-hd.svg
 permalink: /projects/opendataplane/

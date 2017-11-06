@@ -21,11 +21,11 @@ The ARM Server is taking a front row seat at Linaro Connect Asia 2013 in Hong Ko
 ## **ARM Server Mini-Summit**
 
 
-[caption id="attachment_2366" align="alignleft" width="118" caption="Mark Heath"][![](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/02/Mark-Heath-.jpg)](uk.linkedin.com/pub/mark-heath/1/a84/9b8)[/caption]
+[caption id="attachment_2366" align="alignleft" width="118" caption="Mark Heath"][![](/assets/blog/Mark-Heath-.jpg)](uk.linkedin.com/pub/mark-heath/1/a84/9b8)[/caption]
 
 This mini-summit--a full day of topics focused on ARM servers -- opens with [Lars Kurth](http://wiki.xen.org/wiki/User:Lars.kurth) and [Mark Heath](http://www.linkedin.com/pub/mark-heath/1/a84/9b8) from Citrix. The keynote will highlight the architectural match between the Xen and the ARM architectures. “Xen is an important Platform for Citrix and that by supporting ARM, we are extending the addressable market for Xen into new use-cases. This is also a great match with the Citrix position and vision”, said Kurth in an email response about the audience could “take-away” from this keynote. Kurth also noted that Xen on ARM will create a lot of interesting opportunities for the greater Linaro community.
 
-[caption id="attachment_2365" align="alignright" width="144" caption="Lars Kurth"][![](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/02/download.jpg)](http://wiki.xen.org/wiki/User:Lars.kurth)[/caption]
+[caption id="attachment_2365" align="alignright" width="144" caption="Lars Kurth"][![](/assets/blog/download.jpg)](http://wiki.xen.org/wiki/User:Lars.kurth)[/caption]
 
 When asked about why he was personally excited to be attending and participating in the ARM Server Mini-Summit Kurth said, “I started my career in the ARM ecosystem many years ago, moved higher up the stack and into different areas not related to the ARM world over the years. A keynote at Linaro Connect is personally exciting for me, as it brings me back to my roots. On a more practical note, we will be able to show the progress of Xen on ARM, show demos and be able to connect to people and companies. The Xen on ARM project received a big boost after LCE12 and I expect the same to happen this time.”
 

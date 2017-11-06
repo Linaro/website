@@ -27,7 +27,7 @@ One of the challenges when developing products based on ARM SoC (System on Chip)
 
 In this post concentrate on hardware assisted tracing (simply referred to as CoreSight from hereon) where IP blocks are added to a design based on the components found in the SoC and expected tracing needs, providing an on-system solution that is flexible and easily adaptable. The blocks themselves are inter-connected and categorized as data sources, links and sinks, each being enabled and configured at run time based on specific scenarios. A typical CoreSight system is represented in the below diagram (source: ARM Ltd):
 
-![CoreSight-HW-assisted-Linux-ARM-SoCs](http://www.linaro.org/wp-content/uploads/2014/08/CoreSight-HW-assisted-Linux-ARM-SoCs.jpg)
+![CoreSight-HW-assisted-Linux-ARM-SoCs](/assets/blog/CoreSight-HW-assisted-Linux-ARM-SoCs.jpg)
 
 Current support in the Linux kernel for hardware-assisted tracing on ARM SoCs with CoreSight technology is fairly limited. Today’s solutions are generally static, tailored to a single architecture, hardly extensible and not maintained. The result is a fragmented landscape of proprietary solutions targeting very specific goals. These solutions are by their nature not fit for upstream acceptance. In user space, the situation is just as difficult since there is no tool available to collect and package the configuration data, let alone decode the compressed streams
 

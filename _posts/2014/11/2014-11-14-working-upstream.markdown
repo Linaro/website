@@ -168,4 +168,4 @@ I strongly recommend Thomas's Petazzonni presentation, "SoC mainlining, lessons 
 
 [8] [https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches)
 
-![working-upstream](http://www.linaro.org/wp-content/uploads/2014/11/working-upstream.jpg)
+![working-upstream](/assets/blog/working-upstream.jpg)

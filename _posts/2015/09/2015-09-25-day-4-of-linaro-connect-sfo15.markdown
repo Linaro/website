@@ -20,7 +20,7 @@ tags:
 
 [vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
-[![LNG day image](http://www.linaro.org/wp-content/uploads/2015/09/LNG-day-image.jpg)](http://www.linaro.org/wp-content/uploads/2015/09/LNG-day-image.jpg)
+[![LNG day image](/assets/blog/LNG-day-image.jpg)](/assets/blog/LNG-day-image.jpg)
 
 [/vc_column_text][/vc_column][vc_column border_color="" visibility="" width="2/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 

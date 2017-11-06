@@ -70,7 +70,7 @@ The first is the IKS software, developed by Linaro, that treats each pair of Cor
 
 
 
- [![Pic1](http://www.linaro.org/wp-content/uploads/2013/07/Pic1.jpg)](http://www.linaro.org/wp-content/uploads/2013/07/Pic1.jpg)
+ [![Pic1](/assets/blog/Pic1.jpg)](/assets/blog/Pic1.jpg)
 
 
 
@@ -96,7 +96,7 @@ The second is the Global Task Scheduling (GTS) software developed (and now named
 
 
 
-[![Pic2](http://www.linaro.org/wp-content/uploads/2013/07/Pic2.jpg)](http://www.linaro.org/wp-content/uploads/2013/07/Pic2.jpg)
+[![Pic2](/assets/blog/Pic2.jpg)](/assets/blog/Pic2.jpg)
 
 
 
@@ -195,7 +195,7 @@ The following table shows a simple feature comparison between IKS and MP
 
 
 
-[![IKS_GTS_q212_es](http://www.linaro.org/wp-content/uploads/2013/07/IKS_GTS_q212_es.jpg)](http://www.linaro.org/wp-content/uploads/2013/07/IKS_GTS_q212_es.jpg)
+[![IKS_GTS_q212_es](/assets/blog/IKS_GTS_q212_es.jpg)](/assets/blog/IKS_GTS_q212_es.jpg)
 
 
 

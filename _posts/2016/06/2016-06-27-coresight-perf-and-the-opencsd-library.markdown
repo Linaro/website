@@ -26,7 +26,7 @@ tags:
 - Perf
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump-1024x107.png)](https://wiki.linaro.org/CoreDevelopment)
+[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
 
 
 ### **Introduction**

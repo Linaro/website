@@ -19,7 +19,7 @@ tags:
 
 The Linaro Android team automatically test daily platform builds on our LAVA server[1], but what's less well known is that we can also run Android tests locally using lava-android-test[2]. I tried this out in order to debug a new benchmark I wanted to add, and it turns out that creating a mini version of validation.linaro.org is remarkably easy. It's as simple as getting a board powered up and available to adb, installing the tool and then running three commands to install, run and parse the results of your test case.
 
-[caption id="attachment_1009" align="alignnone" width="300" caption="LAVA on a laptop"][![LAVA on a laptop](http://www.linaro.org/wp-content/uploads/2011/12/lin4-300x225.jpg)](http://www.linaro.org/wp-content/uploads/2011/12/lin4.jpg)[/caption]
+[caption id="attachment_1009" align="alignnone" width="300" caption="LAVA on a laptop"][![LAVA on a laptop](/assets/blog/lin4.jpg)](/assets/blog/lin4.jpg)[/caption]
 
 **Get lava-android-test**
 There are two options here, Ubuntu users can use the validation team's ppa[3]:

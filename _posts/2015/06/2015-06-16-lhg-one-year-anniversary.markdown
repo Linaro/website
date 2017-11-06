@@ -62,7 +62,7 @@ The Linaro Digital Home Group (LHG) was officially launched on May 29th 2014 and
 
 [/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]The target platforms of interest to LHG members were the RDK and Android (and later Android TV).
 
-[![RDK](https://www.linaro.org/wp-content/uploads/2015/06/RDK.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/RDK.jpg)[![androidTV2](https://www.linaro.org/wp-content/uploads/2015/06/androidTV2.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/androidTV2.jpg)[![Android](https://www.linaro.org/wp-content/uploads/2015/06/Android-150x150.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/RDK.jpg)[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[![RDK](/assets/blog/RDK.jpg)](/assets/blog/RDK.jpg)[![androidTV2](/assets/blog/androidTV2.jpg)](/assets/blog/androidTV2.jpg)[![Android](/assets/blog/Android.jpg)](/assets/blog/RDK.jpg)[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 #### **Looking back…**
@@ -123,7 +123,7 @@ Standardized media security platform using ARM TrustZone:
 #### Key LHG Activities and Milestones at a glance
 
 
-[/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"][![LHG milestones](https://www.linaro.org/wp-content/uploads/2015/06/LHG-milestones.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/LHG-milestones.jpg)[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"][![LHG milestones](/assets/blog/LHG-milestones.jpg)](/assets/blog/LHG-milestones.jpg)[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 #### LHG Headlines
@@ -216,7 +216,7 @@ LHG integration of OP-TEE on member hardware:
   * GitHub projects: OP-TEE, OpenCDM
 
 
-[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/6"][mk_image src="https://www.linaro.org/wp-content/uploads/2015/06/gstreamer.jpg" image_width="131" image_height="67" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][vc_column_inner width="1/6"][mk_image src="https://www.linaro.org/wp-content/uploads/2015/06/trustzone.jpg" image_width="135" image_height="81" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][mk_image src="https://www.linaro.org/wp-content/uploads/2015/06/HTML5.jpg" image_width="78" image_height="77" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/6"][mk_image src="/assets/blog/gstreamer.jpg" image_width="131" image_height="67" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][vc_column_inner width="1/6"][mk_image src="/assets/blog/trustzone.jpg" image_width="135" image_height="81" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][mk_image src="/assets/blog/HTML5.jpg" image_width="78" image_height="77" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 #### Collaboration with other teams in Linaro
@@ -286,7 +286,7 @@ We look forward to an exciting second year in LHG as we continue our major work 
 
 
 
-[![LHG members 5](https://www.linaro.org/wp-content/uploads/2015/06/LHG-members-5.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/LHG-members-5.jpg)
+[![LHG members 5](/assets/blog/LHG-members-5.jpg)](/assets/blog/LHG-members-5.jpg)
 
 
 [/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]

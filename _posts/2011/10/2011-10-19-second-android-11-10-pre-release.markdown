@@ -33,7 +33,7 @@ Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are 
 ## Builds
 
 
-[![Linaro Android Build Service](http://www.linaro.org/wp-content/uploads/2011/10/linaro-android-build-service1-300x155.png)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/10/linaro-android-build-service1.png)
+[![Linaro Android Build Service](/assets/blog/linaro-android-build-service1.png)](/assets/blog/linaro-android-build-service1.png)
 [Tracking Panda](https://android-build.linaro.org/builds/~linaro-android/tracking-panda-11.10-release/#build=4) Linux version 3.1.0-rc9+
 [Staging Panda](https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.10-release/#build=3) Linux version 3.1.0-rc9+ (coincidence)
 [Beagle xM](https://android-build.linaro.org/builds/~linaro-android/beagle-11.10-release/#build=3) Linux version 3.1.0-rc9-09767-g52e3db9
@@ -43,5 +43,5 @@ Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are 
 [Staging iMX53](https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.10-release/#build=3) Linux version 2.6.38.7+
 
 See each build page for usage info.
-[![Linaro Android 11.10-rc2 smoke tests](http://www.linaro.org/wp-content/uploads/2011/10/11.10-rc2-smoke-tests-300x155.png)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/10/11.10-rc2-smoke-tests.png)
+[![Linaro Android 11.10-rc2 smoke tests](/assets/blog/11.10-rc2-smoke-tests.png)](/assets/blog/11.10-rc2-smoke-tests.png)
 All the smoke tests are listed on [tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE&hl=en_US#gid=0). See the "11.10 Pre Release 2" section.

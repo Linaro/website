@@ -63,7 +63,7 @@ If you or someone you know is interested in presenting a demonstration on Frida
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after to close down_
 
 
-  * _A poster[ (template attached)](http://www.linaro.org/linaro-blog/wp-content/uploads/2012/04/Demo-Friday-Poster-Template_HK.odp), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 18 May 2012 in order to guarantee printing)**_
+  * _A poster[ (template attached)](/assets/blog/Demo-Friday-Poster-Template_HK.odp), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 18 May 2012 in order to guarantee printing)**_
 
 
 

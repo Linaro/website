@@ -18,9 +18,9 @@ tags:
 # Announcing Linaro Connect Asia 2013
 
 
-[![](http://www.linaro.org/wp-content/uploads/2012/12/lca131.png)](http://www.linaro.org/connect)
+[![](/assets/blog/lca131.png)](http://www.linaro.org/connect)
 
-We’re thrilled to announce that [event registration](http://linaro.eventbrite.co.uk/) and hotel booking at the Gold Coast Hotel in Hong Kong is now available for  the Linaro Connect Asia 2013 (LCA13) - Hong Kong event  – the industry’s foremost event for developing Linux on ARM— scheduled to be held on  4 - 8 March 2013. Book early because registration is limited. To book the hotel you will need to download the booking form ([odt](http://www.linaro.org/wp-content/uploads/2012/12/Hotel-Reservation-Form.odt) and [doc](http://www.linaro.org/wp-content/uploads/2012/12/Hotel-Reservation-Form.doc) formats) and email it to: [reservations@goldcoasthotel.com.hk](mailto:reservations@goldcoasthotel.com.hk) If you have question about booking your hotel accommodations please send an email to [connect@linaro.org](mailto:connect@linaro.org).
+We’re thrilled to announce that [event registration](http://linaro.eventbrite.co.uk/) and hotel booking at the Gold Coast Hotel in Hong Kong is now available for  the Linaro Connect Asia 2013 (LCA13) - Hong Kong event  – the industry’s foremost event for developing Linux on ARM— scheduled to be held on  4 - 8 March 2013. Book early because registration is limited. To book the hotel you will need to download the booking form ([odt](/assets/blog/Hotel-Reservation-Form.odt) and [doc](/assets/blog/Hotel-Reservation-Form.doc) formats) and email it to: [reservations@goldcoasthotel.com.hk](mailto:reservations@goldcoasthotel.com.hk) If you have question about booking your hotel accommodations please send an email to [connect@linaro.org](mailto:connect@linaro.org).
 
 This intensive week will involve the best software developers participating in discussion and planning in the morning, hacking sessions in the afternoon and socialising in the evening.
 

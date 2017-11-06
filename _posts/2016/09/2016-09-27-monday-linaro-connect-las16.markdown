@@ -11,7 +11,7 @@ categories:
 - blog
 ---
 
-[vc_row][vc_column][mk_image src="http://www.linaro.org/wp-content/uploads/2016/09/29320978813_72eac78d03_z.jpg" image_height="575"][vc_column_text]Linaro Connect began today in Las Vegas and welcomed over 425 attendees making it one of the largest Linaro Connect events.  Linaro Connect Las Vegas 2016 (LAS16) is a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on ARM community and LAS16 was no exception.
+[vc_row][vc_column][mk_image src="/assets/blog/29320978813_72eac78d03_z.jpg" image_height="575"][vc_column_text]Linaro Connect began today in Las Vegas and welcomed over 425 attendees making it one of the largest Linaro Connect events.  Linaro Connect Las Vegas 2016 (LAS16) is a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on ARM community and LAS16 was no exception.
 
 It began with a [Welcome Keynote](http://connect.linaro.org/resource/las16/las16-100k1/) by Linaro’s CEO, George Grey, who welcomed attendees to the event and gave an overview of the many projects that Linaro is working on with its member companies.  George then went on to demo several of these projects.
 

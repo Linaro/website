@@ -54,7 +54,7 @@ Technical details and a picture can be found on the [LinuxDevices.com](http://ww
 </tr>
 </tbody>
 </table>
-![Freescale i.MX53 Quickstart board](http://www.linaro.org/wp-content/uploads/2011/03/freescaleimx53quickstart.jpg)
+![Freescale i.MX53 Quickstart board](/assets/blog/freescaleimx53quickstart.jpg)
 
 <!-- more -->
 

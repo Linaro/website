@@ -73,12 +73,12 @@ For a more detailed description of the Linaro Clear Key solution, please see thi
 
 The W3C EME specification details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video.  The EME Clear Key solution is required for any compliant EME solution.
 
-![ClearKey1](http://www.linaro.org/wp-content/uploads/2016/06/ClearKey1.png)
+![ClearKey1](/assets/blog/ClearKey1.png)
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in ARM TrustZone.
 
 
-![ClearKey2](http://www.linaro.org/wp-content/uploads/2016/06/ClearKey2.png)_Linaro ClearKey Implementation_
+![ClearKey2](/assets/blog/ClearKey2.png)_Linaro ClearKey Implementation_
 
 
 So go ahead and give this a try.  The engineers in LHG have also created full W3C EME OP-TEE integrations with commercial DRMs such as Microsoft’s PlayReady and Google’s Widevine on both Linux- and Android-based solutions.  You will be able to see and hear more about LHG’s work in this area in our upcoming Connect event in Las Vegas in September ([LAS16](http://connect.linaro.org/las16/)).

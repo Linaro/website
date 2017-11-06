@@ -27,7 +27,7 @@ tags:
 
 To help with this, I have created an index to articles on LWN that mention Linaro (including ones with comments from a Linaro email address). This does not include links directly to comments on the parent postings, only ones to the parent postings. The one duplication I have kept is where Linaro is headlined on one of the weekly editions, these then link into the individual posting (in these cases, the LWN category is “Front” for Front Page). The index is contained in the table at the end of this post; you can sort it by clicking on the column headings.
 
-[![LWN search results april 2014](http://www.linaro.org/wp-content/uploads/2014/05/LWN-search-results-april-2014.png)](http://www.linaro.org/wp-content/uploads/2014/05/LWN-search-results-april-2014.png)
+[![LWN search results april 2014](/assets/blog/LWN-search-results-april-2014.png)](/assets/blog/LWN-search-results-april-2014.png)
 
 Since Linaro was founded in June 2010, the number of LWN articles mentioning the organization has increased steadily. This increase reflects Linaro’s growth in terms of  members and areas in which it is working. Coverage began with the launch of Linaro and explanations of how it would work and this was rapidly replaced by discussions of key areas that Linaro was focusing on, including Device Tree, clock code, kernel consolidation, toolchain, power management and memory management. In the last couple of years, this coverage has grown to include discussions about ARM big.LITTLE and the scheduler, virtualization, 64-bit ARMv8, and more of our members’ activities.
 

@@ -31,7 +31,7 @@ Prior to joining Sage he was Country Manager and then European Managing Director
 George has led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets.
 </div>
 <div class="col-sm-3">
-{% include circular-image.html name="george-grey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
 

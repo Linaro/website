@@ -38,6 +38,8 @@ pages:
             url: /projects/
           - text: Initiatives
             url: /initiatives/
+          - text: Special Interest Groups
+            url: /sig/
           - text: Developer Services
             url: /services/
     - title: Downloads
