@@ -15,7 +15,7 @@ tags:
 - Connect Events
 ---
 
-[![LCA13-Group Photo](/assets/blog/LCA13-Group-001-72dpi-1024x6821.jpg)](/assets/blog/LCA13-Group-001-72dpi-1024x6821.jpg)
+[![LCA13-Group Photo](/assets/blog/LCA13-Group-001-72dpi.jpg)](/assets/blog/LCA13-Group-001-72dpi.jpg)
 **Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.  
 
 

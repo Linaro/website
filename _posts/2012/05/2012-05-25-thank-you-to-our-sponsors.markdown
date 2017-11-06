@@ -27,14 +27,9 @@ Diamond sponsors— [ARM](http://www.arm.com/) and [Canonical](http://www.canon
 
 Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
 
-[![](/assets/blog/ARM_Corp_CMYK-300x90.jpg)](http://www.arm.com/)
+[![](/assets/blog/ARM_Corp_CMYK.jpg)](http://www.arm.com/)
 
-[![](/assets/blog/logo-canonical_no™-aubergine-hex-300x39.jpg)](http://www.canonical.com/)
-
-
-##
-
-
+[![](/assets/blog/logo-canonical_no™-aubergine-hex.jpg)](http://www.canonical.com/)
 
 
 ##
@@ -45,7 +40,12 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 ##
 
 
-[![](/assets/blog/samsung-logo-300x117.jpg)](http://www.samsung.com/us/#latest-home)
+
+
+##
+
+
+[![](/assets/blog/samsung-logo.jpg)](http://www.samsung.com/us/#latest-home)
 
 
 ##

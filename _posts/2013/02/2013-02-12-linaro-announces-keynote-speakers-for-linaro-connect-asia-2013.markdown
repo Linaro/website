@@ -14,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-[![](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/02/Linaro-Connect.jpg)](http://www.linaro.org/connect)[Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) in Hong Kong is gearing up to be another educational and [exciting event](http://www.linaro.org/connect/schedule) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
+[![](/assets/blog/Linaro-Connect.jpg)](http://www.linaro.org/connect)[Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) in Hong Kong is gearing up to be another educational and [exciting event](http://www.linaro.org/connect/schedule) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
 
 **Keynote Speakers**
 

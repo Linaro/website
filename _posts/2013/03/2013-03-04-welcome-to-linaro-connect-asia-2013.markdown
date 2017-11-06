@@ -52,7 +52,7 @@ The Connector Newsletter  - Download the [pdf here](/assets/blog/The-Connector-
 ## Sharing your experience at Connect using the Social Media of your choice
 
 
-[![](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide-300x225.jpg)](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg)To stay up on event happenings with
+[![](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg)](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg)To stay up on event happenings with
 [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](http://www.linaro.org/blog)
 
 To follow the daily live steam use

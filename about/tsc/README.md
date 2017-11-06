@@ -20,11 +20,9 @@ The TSC is co-chaired by the CTO and the VP of Engineering and consists of one r
 
 [Committee Members](#Committee) / [Associate Members](#Associate) / [Guests Members](#Guests)
 
-* * *
 
 # Committee Members
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Bill Mills** / Texas Instruments
@@ -41,7 +39,6 @@ Bill has been developing software professionally for over 25 years. Prior to his
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Bryan Huntsman** / Qualcomm
@@ -55,7 +52,6 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 </div>
 
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Christian Bertin** / STMicroelectronics
@@ -74,7 +70,6 @@ He has been working in STMicroelectronics for 17 years and has created the Compi
 </div>
 
 
-* * *
 
 
 <div class="container board_member">
@@ -90,7 +85,6 @@ When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking,
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -102,7 +96,6 @@ Elsie Wahlig is a Principal Engineer and manager in the Server SW team at Qualco
 {% include circular-image.html name="Elsie-Wahlig.jpg" class="linaro-profile-image" alt="Elsie Wahlig Profile Photo"%}
 </div>
 </div>
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Jarmo Hillo** / LNG Representative, NSN
@@ -115,7 +108,6 @@ Jarmo has a long international career at Nokia in various technology and archite
 {% include circular-image.html name="Jarmo-Hillo.jpg" class="linaro-profile-image" alt="Jarmo Hillo Profile Photo"%}
 </div>
 </div>
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Jon Masters** / LEG Representative, Red Hat
@@ -127,7 +119,6 @@ Jon Masters is Chief ARM Architect at Red Hat, where he works on the Fedora ARM 
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -140,7 +131,6 @@ Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 ye
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Mark Hambleton** / ARM
@@ -152,7 +142,6 @@ Approaching 20 years of experience in embedded systems ranging from real time co
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -165,7 +154,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -175,7 +163,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Xing Wei** / Hisilicon
@@ -184,7 +171,6 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **You Changhai** / ZTE
@@ -193,11 +179,9 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-* * *
 
 # Guests
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Andrea Gallo** / VP of Segment Groups, Linaro
@@ -209,7 +193,6 @@ Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much inv
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -222,7 +205,6 @@ George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of indu
 </div>
 </div>
 
-* * *
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
 ### **Mark Gregotski** / Director of LHG, Linaro
@@ -234,7 +216,6 @@ Mark has over 20 years experience developing real-time embedded software, managi
 </div>
 </div>
 
-* * *
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
@@ -244,7 +225,6 @@ Mark has over 20 years experience developing real-time embedded software, managi
 </div>
 </div>
 
-* * *
 
 <div class="col-sm-4">
     <a href="/about/board/">

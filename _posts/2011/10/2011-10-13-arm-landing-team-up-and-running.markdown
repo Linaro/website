@@ -23,4 +23,4 @@ UEFI, Unified Extensible Firmware Interface, is also a significant technology th
 
 Other interesting technologies that the ARM Landing Team will be working with include ARM's DS-5 debugging tools, MALI graphics drivers and support for new ARM platforms as they emerge.
 
-[caption id="attachment_672" width="800" caption="Ryan Harkin and Jon Medhurst (Tixy) - Linaro ARM Landing Team"][![Linaro ARM Landing Team](/assets/blog/tixy-ryan-2-1.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/10/tixy-ryan-2-1.jpg)[/caption]
+[caption id="attachment_672" width="800" caption="Ryan Harkin and Jon Medhurst (Tixy) - Linaro ARM Landing Team"][![Linaro ARM Landing Team](/assets/blog/tixy-ryan-2-1.jpg)](/assets/blog/tixy-ryan-2-1.jpg)[/caption]

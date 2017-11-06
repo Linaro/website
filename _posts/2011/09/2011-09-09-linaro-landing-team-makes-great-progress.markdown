@@ -23,6 +23,6 @@ The latest evaluation builds for Freescale i.MX53 (based on Linaro 2.6.38) can b
 
 Linaro Evaluation Builds for i.MX53 based on v3.1 will be available in the next couple of months.  Stay tuned.
 
-[![](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/09/Freescale-Sprint.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/09/Freescale-Sprint.jpg)
+[![](/assets/blog/Freescale-Sprint.jpg)](/assets/blog/Freescale-Sprint.jpg)
 
 

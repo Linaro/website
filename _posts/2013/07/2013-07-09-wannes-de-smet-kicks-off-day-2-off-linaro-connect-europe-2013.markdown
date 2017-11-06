@@ -16,13 +16,13 @@ tags:
 
 [![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](/assets/blog/lce13-mico.png)
 
-[caption id="attachment_2810" align="alignleft" width="230"][![LCE13001](/assets/blog/LCE13001-1024x685.jpg)](/assets/blog/LCE13001.jpg) George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013[/caption]
+[caption id="attachment_2810" align="alignleft" width="230"][![LCE13001](/assets/blog/LCE13001.jpg)](/assets/blog/LCE13001.jpg) George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013[/caption]
 
 
 <blockquote>Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](http://www.linaro.org/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)</blockquote>
 
 
-[caption id="attachment_2809" align="alignright" width="230"][![Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE](/assets/blog/LCE130010-1024x682.jpg)](/assets/blog/LCE130010.jpg) Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE[/caption]
+[caption id="attachment_2809" align="alignright" width="230"][![Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE](/assets/blog/LCE130010.jpg)](/assets/blog/LCE130010.jpg) Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE[/caption]
 
 **Day 1** of Linaro Connect Europe 2013 (LCE13) was a busy day of exciting sessions, meetings and "hallway" that kicked off this amazing week of engineering and included the following sessions:
 

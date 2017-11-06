@@ -26,7 +26,7 @@ tags:
 - VFIO
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump-1024x107.png)](https://wiki.linaro.org/CoreDevelopment)
+[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
 
 While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an ARM-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on ARM server systems.
 

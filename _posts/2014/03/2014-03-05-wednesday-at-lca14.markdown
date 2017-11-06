@@ -57,7 +57,7 @@ Keynotes:
 </tbody>
 </table>
 Wednesday was another full day filled with sessions from the working groups, engineering teams and segment groups.  Topic areas include the ARMv8 kernel, Energy-efficient Scheduler, big.LITTLE GTS, Android, ARM Trusted Firmware, 64-bit GNU and LLVM toolchains, UEFI secure boot, ACPI, OpenDataPlane (ODP), VM Standards, LSK and LAVA/CI Loops.  Below are the links to the session presentations and videos that took place on Wednesday.[
-](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12941187924_7dc616613c.jpg)
+](/assets/blog/12941187924_7dc616613c.jpg)
 <table cellpadding="0" width="874" cellspacing="0" border="1" >
 <tbody >
 <tr >
@@ -211,8 +211,8 @@ Linaro’s “Bond Themed” gala was a great night of team building and network
 
 Below are some scenes from the this week's evening social activities:
 
- [![12941187924_7dc616613c](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12941187924_7dc616613c-300x199.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12941187924_7dc616613c.jpg)       [![12941194354_bc7157b93d](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12941194354_bc7157b93d-300x199.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12941194354_bc7157b93d.jpg)
+ [![12941187924_7dc616613c](/assets/blog/12941187924_7dc616613c.jpg)](/assets/blog/12941187924_7dc616613c.jpg)       [![12941194354_bc7157b93d](/assets/blog/12941194354_bc7157b93d.jpg)](/assets/blog/12941194354_bc7157b93d.jpg)
 
-[![12940899483_8f0455ebfb](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12940899483_8f0455ebfb-300x199.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12940899483_8f0455ebfb.jpg)        [![12940769495_fdacae9f40](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12940769495_fdacae9f40-300x199.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/12940769495_fdacae9f40.jpg)
+[![12940899483_8f0455ebfb](/assets/blog/12940899483_8f0455ebfb.jpg)](/assets/blog/12940899483_8f0455ebfb.jpg)        [![12940769495_fdacae9f40](/assets/blog/12940769495_fdacae9f40.jpg)](/assets/blog/12940769495_fdacae9f40.jpg)
 
 As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.

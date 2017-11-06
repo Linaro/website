@@ -16,7 +16,7 @@ During the [Linaro Developer Summit (9-13 May 2011)](https://wiki.linaro.org/Eve
 Set in the magnificent Grand Ballroom of the Corinthia Hotel in Budapest, the evening attracted over 500 delegates from companies involved with Linaro and from the [Ubuntu Developer Summit](http://uds.ubuntu.com/).
 
 
-![](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/05/Ballroom-med-300x200.jpg)We added a competitive element to the evening, and I’ve listed the results below. But the main point was really to let people know what we’ve been up to, and to see some of the cool ways our output is starting to get used in commercial products.
+![](/assets/blog/Ballroom-med.jpg)We added a competitive element to the evening, and I’ve listed the results below. But the main point was really to let people know what we’ve been up to, and to see some of the cool ways our output is starting to get used in commercial products.
 
 
 I got to see a fair number of the demos, but my highlights were:
@@ -26,7 +26,7 @@ I got to see a fair number of the demos, but my highlights were:
 	
   * Catching one of the first ever public displays of ARM’s [new Cortex-A15 processor](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-VE_demo.pdf), which they are bringing into life using the Linaro kernel and filesystem
 
-[caption id="attachment_216" align="alignright" width="300" caption="Linaro Summit Scheduler running on a TI Panda"][![](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/05/Summit-Scheduler-300x200.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/05/Summit-Scheduler.jpg)[/caption]
+[caption id="attachment_216" align="alignright" width="300" caption="Linaro Summit Scheduler running on a TI Panda"][![](/assets/blog/Summit-Scheduler.jpg)](/assets/blog/Summit-Scheduler.jpg)[/caption]
 
 	
   * A last minute entry – the Summit schedule and the Showcase prize entry form running on a TI Panda board running the Linaro based Ubuntu 11.04 Maverick release. Big potential cost savings there, in both hardware and shipping, compared with using an old x86 based machine

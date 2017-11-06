@@ -63,7 +63,7 @@ Linaro Connect continued on Tuesday with two guest keynote speakers.  First up 
 </tr>
 </tbody>
 </table>
-After the opening keynotes concluded all the attendees gathered for our traditional group photo.[![Group Photo at LCA14](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/group-photo-LCA14-1024x682.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/03/group-photo-LCA14.jpg)
+After the opening keynotes concluded all the attendees gathered for our traditional group photo.[![Group Photo at LCA14](/assets/blog/group-photo-LCA14.jpg)](/assets/blog/group-photo-LCA14.jpg)
 
 
 ### **Group Photo at LCA14**

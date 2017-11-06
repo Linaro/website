@@ -30,9 +30,9 @@ Looking ahead, Grey briefly discussed where open source is going and the unimagi
 
 The mention of 96Boards in automotive led Grey to talk about some of the new 96Boards products that will be shown at the event by sponsors such as Arrow and Hoperun and also in sessions. He talked about the HiKey 960, the Orange Pi i96, Uranus (TI CC3220 Cortex-M4), and mezzanine boards NeonKey and Secure96.
 
-[caption id="attachment_12814" align="alignright" width="300"][![Arrow sponsor](/assets/blog/arrow-sponsor-linaro-300x200.jpg)](/assets/blog/arrow-sponsor-linaro.jpg) Arrow sponsor[/caption]
+[caption id="attachment_12814" align="alignright" width="300"][![Arrow sponsor](/assets/blog/arrow-sponsor-linaro.jpg)](/assets/blog/arrow-sponsor-linaro.jpg) Arrow sponsor[/caption]
 
-[caption id="attachment_12815" align="alignright" width="300"][![Arrow sponsor](/assets/blog/hoperun-sponsor-300x200.jpg)](/assets/blog/hoperun-sponsor.jpg) Hoperun sponsor[/caption]
+[caption id="attachment_12815" align="alignright" width="300"][![Arrow sponsor](/assets/blog/hoperun-sponsor.jpg)](/assets/blog/hoperun-sponsor.jpg) Hoperun sponsor[/caption]
 
 With 96Boards providing developers with access to the latest Arm hardware in a standard form factor, Grey next talked about enabling native development on Arm with the Arm Fixed Virtual Platforms (FVP), Linaro’s Developer Cloud and, now, a new Arm developer platform from Socionext and Gigabyte. The latter was [announced](http://www.socionext.com/en/pr/sn_pr20170922_01e.pdf) by Socionext a few days before Linaro Connect and the Socinext CEO will be at Linaro Connect on Tuesday 26 September to demonstrate the product.
 

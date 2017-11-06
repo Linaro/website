@@ -16,7 +16,7 @@ tags:
 - Linaro
 ---
 
-[![](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/08/disp-300x231.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2011/08/disp.jpeg)During the Linaro Connect Q3.11 event in Cambridge, UK, I was asked to put together a system to display the schedule/conference info and IRC discussions on screens throughout the venue.
+[![](/assets/blog/disp.jpg)](/assets/blog/disp.jpeg)During the Linaro Connect Q3.11 event in Cambridge, UK, I was asked to put together a system to display the schedule/conference info and IRC discussions on screens throughout the venue.
 
 For the hardware portion of this project I bought thick Plexiglas at Home Depot and cut it fit the board. Then mounted the hardware between 2 sheets of Plexiglas. The sheets were cut big enough to include an HDMI->VGA converter since the projectors only allowed VGA input.
 

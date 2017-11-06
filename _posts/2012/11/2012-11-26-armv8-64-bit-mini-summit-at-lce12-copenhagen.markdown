@@ -17,7 +17,7 @@ tags:
 <blockquote>ARMv8—we can do that; it’s all in the open now, the code’s been published. ~David Rusling, Linaro CTO</blockquote>
 
 
-[caption id="attachment_2013" align="alignleft" width="300" caption="ARMv8 Mini-Summit Panel Discussion photo by David Rusling"][![](/assets/blog/P1000296-300x200.jpg)](/assets/blog/P1000296.jpg)[/caption]
+[caption id="attachment_2013" align="alignleft" width="300" caption="ARMv8 Mini-Summit Panel Discussion photo by David Rusling"][![](/assets/blog/P1000296.jpg)](/assets/blog/P1000296.jpg)[/caption]
 
 Linaro held [three mini-summits](http://summit.linaro.org/lce12/track/linaro-mini-summit/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/events/event/lce12-copenhagen/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
 

@@ -16,7 +16,7 @@ tags:
 - Open Source
 ---
 
-[caption id="attachment_5865" align="alignleft" width="150"][![Linus photo 527x 622](/assets/blog/Linus-photo-527x-622-150x150.jpg)](/assets/blog/Linus-photo-527x-622.jpg) Linus Walleij[/caption]
+[caption id="attachment_5865" align="alignleft" width="150"][![Linus photo 527x 622](/assets/blog/Linus-photo-527x-622.jpg)](/assets/blog/Linus-photo-527x-622.jpg) Linus Walleij[/caption]
 
 Linux Foundation held their annual Embedded Linux Conference (ELC) at the beginning of May. Linaro had many speakers at this event covering sessions with topics including “Android without Java”, “Improving performance of key external projects used in Android”,  “Debugging – Linux Kernel testing”, “What’s going on with SPI”, “Kernel USB gadget configsfs Interface” and a talk that I gave titled “[Fear and Loathing in the media transfer protocol”.](http://events.linuxfoundation.org/sites/events/files/slides/Media%20Transfer%20Protocol.pdf)
 

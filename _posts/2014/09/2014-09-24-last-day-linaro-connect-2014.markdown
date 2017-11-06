@@ -318,9 +318,9 @@ Many parties and team dinners took place during the week, including the Connect 
 
 
 
-[![parties 2](/assets/blog/parties-2-1024x1024.jpg)](/assets/blog/parties-2.jpg) [![parties](/assets/blog/parties.jpg)](/assets/blog/parties.jpg)
+[![parties 2](/assets/blog/parties-2.jpg)](/assets/blog/parties-2.jpg) [![parties](/assets/blog/parties.jpg)](/assets/blog/parties.jpg)
 
-[![party 3.5](/assets/blog/party-3.5-1024x1024.jpg)](/assets/blog/party-3.5.jpg)
+[![party 3.5](/assets/blog/party-3.5.jpg)](/assets/blog/party-3.5.jpg)
 
 
 
@@ -341,4 +341,4 @@ Many parties and team dinners took place during the week, including the Connect 
 **Sessions, Learning and Hacking**
 Each day started with a variety of sessions to attend and demos to view.  The afternoons gave the teams time to meet and time for hacking.
 
-[![demos](/assets/blog/demos-1024x1024.jpg)](/assets/blog/demos.jpg) [![working](/assets/blog/working-1024x1024.jpg)](/assets/blog/working.jpg) [![sessions](/assets/blog/sessions-1024x1024.jpg)](/assets/blog/sessions.jpg)
+[![demos](/assets/blog/demos.jpg)](/assets/blog/demos.jpg) [![working](/assets/blog/working.jpg)](/assets/blog/working.jpg) [![sessions](/assets/blog/sessions.jpg)](/assets/blog/sessions.jpg)

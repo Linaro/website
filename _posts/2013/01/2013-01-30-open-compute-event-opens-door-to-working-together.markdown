@@ -17,13 +17,13 @@ The fourth [Open Compute Summit ](http://www.opencompute.org/summit-2013/)was he
 
 Linaro was a [sponsor of the event ](http://www.opencompute.org/ocp-2013-summit-sponsors/#np)and both exhibited and presented at the event. The booth gave attendees an opportunity to ask questions about Linaro to gain a better understanding of what Linaro does.
 
-[caption id="attachment_2253" align="alignleft" width="300" caption="Open Compute booth 2013"][![Open Compute booth 2013](/assets/blog/Open-Compute-booth-2013-300x225.jpg)](/assets/blog/Open-Compute-booth-2013.jpg)[/caption]
+[caption id="attachment_2253" align="alignleft" width="300" caption="Open Compute booth 2013"][![Open Compute booth 2013](/assets/blog/Open-Compute-booth-2013.jpg)](/assets/blog/Open-Compute-booth-2013.jpg)[/caption]
 
 The booth was a busy hub of activity with a constant stream of inquiries. It was a great opportunity for those attending to discuss Linaro with some of our engineers as well as learn about our newest working group the Linaro Enterprise Group (LEG). The group’s technical program managers, Ilias Biris and Anmar Oueja, and director, Andrea Gallo, were on hand to answer questions and talk about how to get involved. To learn about the most recent activities of the LEG team check out their latest blog post [“LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved”.](http://www.linaro.org/2012/12/21/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/)
 
 Also at the event was Linaro CEO George Grey, who had an opportunity to be a part of the Industry Luminaries session. He gave a talk on "Building interoperability in low-power SOCs".
 
-[caption id="attachment_2256" align="alignright" width="300" caption="George Grey speaking at Open Compute 2013"][![George Grey speaking at Open Compute 2013](/assets/blog/George-Grey-speaking-at-Open-Compute-2013-300x224.jpg)](/assets/blog/George-Grey-speaking-at-Open-Compute-2013.jpg)[/caption]
+[caption id="attachment_2256" align="alignright" width="300" caption="George Grey speaking at Open Compute 2013"][![George Grey speaking at Open Compute 2013](/assets/blog/George-Grey-speaking-at-Open-Compute-2013.jpg)](/assets/blog/George-Grey-speaking-at-Open-Compute-2013.jpg)[/caption]
 
 This presentation showed how complementary the Open Compute Project and Linaro are, with Linaro focusing on accelerating the software ecosystem for ARM based servers and OCP open sourcing innovation in the data center to help reduce costs, complexity and power consumption.  OCP is a key enabler for the LEG efforts of delivering interoperable low power servers, firstly by adopting standard, open sourced, hardware components and secondly by championing open vertical software standards such as OpenStack.
 

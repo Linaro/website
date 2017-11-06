@@ -18,7 +18,7 @@ tags:
 - toolchain
 ---
 
-[caption id="attachment_3040" align="alignright" width="300"][![Picture of Campus Party Europe 2013](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/09/campus-party-image-1-300x120.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2013/09/campus-party-image-1.jpg) Picture of Campus Party Europe 2013[/caption]
+[caption id="attachment_3040" align="alignright" width="300"][![Picture of Campus Party Europe 2013](/assets/blog/campus-party-image-1.jpg)](/assets/blog/campus-party-image-1.jpg) Picture of Campus Party Europe 2013[/caption]
 
 
 Recently I was asked to go and present on porting from 32-bit ARM to 64-bit ARM at [Campus Party Europe](http://www.campus-party.eu/) at the [O2 Arena](http://www.theo2.co.uk/) in London.  This occurred early in September and it can be watched on [YouTube](http://www.youtube.com/watch?v=epzYErIIx0Y)* and the slides are also [available here](http://www.linaro.org/assets/common/campus-party-presentation-Sept_2013.pdf).

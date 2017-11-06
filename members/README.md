@@ -322,8 +322,6 @@ Because this group is all about ecosystem development and encouraging the produc
       </div>
     </div>
 
-    <hr/>
-
     <div class="row">
         <div class="members-panel panel">
           <div class="panel-heading">

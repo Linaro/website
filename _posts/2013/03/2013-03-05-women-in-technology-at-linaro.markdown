@@ -18,4 +18,4 @@ Linaro, the not-for-profit engineering organization which works to consolidate  
 
 At this Connect event, we took a moment to not only take [a group photo](http://www.linaro.org/2013/03/05/linaro-connect-asia-2013-group-photo/) to mark the participation in our event, but we also took a Women in Technology photo to capture how women's participation within the Linaro Community is growing.
 
-[![](/assets/blog/LCA13-Women-a-300x199.jpg)](/assets/blog/LCA13-Women-a.jpg)
+[![](/assets/blog/LCA13-Women-a.jpg)](/assets/blog/LCA13-Women-a.jpg)

@@ -23,7 +23,7 @@ tags:
 
 
 
-There will be [keynote sessions](http://www.linaro.org/connect-lca14/schedule/keynote-speakers-at-lca14) each of the five days with topics ranging from the state of [![LCE13 Opening Keynote](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/02/LCE13-Opening-Keynote-150x150.jpg)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/02/LCE13-Opening-Keynote.jpg)ARM Servers and Software Defined Networking to open source development for carrier class equipment.  And, of course, a look into the future with David Rusling (Linaro, CTO). What are the extents of David’s vision?  Stay through Friday and you may find out!
+There will be [keynote sessions](http://www.linaro.org/connect-lca14/schedule/keynote-speakers-at-lca14) each of the five days with topics ranging from the state of [![LCE13 Opening Keynote](/assets/blog/LCE13-Opening-Keynote.jpg)](/assets/blog/LCE13-Opening-Keynote.jpg)ARM Servers and Software Defined Networking to open source development for carrier class equipment.  And, of course, a look into the future with David Rusling (Linaro, CTO). What are the extents of David’s vision?  Stay through Friday and you may find out!
 
 
 
@@ -38,7 +38,7 @@ Monday through Wednesday are filled with [sessions](http://lca-14.zerista.com/) 
 
 
 
-[![W2_shovan-03](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/02/W2_shovan-03-150x150.png)](http://www.linaro.org/linaro-blog/wp-content/uploads/2014/02/W2_shovan-03.png)On Wednesday night, suspend disbelief for an evening of Bond, James Bond..... Think ‘Casino Royale’ ([1] not [2]) for this Bond themed [gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner). There will be prizes for the best dressed male and female characters, best accessory and luckiest guest of the night!  Rumor has it that Jon Masters is in line to be the next James Bond.  However, this seems unlikely given his fascination with world domination and fluffy white cats.
+[![W2_shovan-03](/assets/blog/W2_shovan-03.png)](/assets/blog/W2_shovan-03.png)On Wednesday night, suspend disbelief for an evening of Bond, James Bond..... Think ‘Casino Royale’ ([1] not [2]) for this Bond themed [gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner). There will be prizes for the best dressed male and female characters, best accessory and luckiest guest of the night!  Rumor has it that Jon Masters is in line to be the next James Bond.  However, this seems unlikely given his fascination with world domination and fluffy white cats.
 
 
 

@@ -62,7 +62,7 @@ The Linaro Digital Home Group (LHG) was officially launched on May 29th 2014 and
 
 [/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]The target platforms of interest to LHG members were the RDK and Android (and later Android TV).
 
-[![RDK](/assets/blog/RDK.jpg)](/assets/blog/RDK.jpg)[![androidTV2](/assets/blog/androidTV2.jpg)](/assets/blog/androidTV2.jpg)[![Android](/assets/blog/Android-150x150.jpg)](/assets/blog/RDK.jpg)[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[![RDK](/assets/blog/RDK.jpg)](/assets/blog/RDK.jpg)[![androidTV2](/assets/blog/androidTV2.jpg)](/assets/blog/androidTV2.jpg)[![Android](/assets/blog/Android.jpg)](/assets/blog/RDK.jpg)[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][mk_divider style="thin_solid" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 #### **Looking back…**

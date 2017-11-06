@@ -77,7 +77,7 @@ The initial build is on the HiKey CE platform which is an approved Android refer
 # Development Steps to Build Android TV
 
 
-![](/assets/blog/lhg-blog-image-2-android-tv-1024x581.jpg)
+![](/assets/blog/lhg-blog-image-2-android-tv.jpg)
 
 
 _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard _
@@ -173,7 +173,7 @@ _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard _
 
 Once the filesystem is built and flashed on the HiKey, the next step is to connect via WiFi to the internet.  The Live TV app is launched and searches for channels over available input sources.  The Sample Android TV app acts a service that can simulate a few IP-based TV channels that are streamed over the network.  The user can make their content selection via an USB mouse or USB keyboard.  Implementations on 96Boards TV Platform boards will support IR remote controls for navigating through content choices.
 
-![](/assets/blog/screenshot-android-tv-1024x583.jpg)
+![](/assets/blog/screenshot-android-tv.jpg)
 
 
 _Source : [https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png](https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png)
