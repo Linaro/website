@@ -21,17 +21,17 @@ Overall, adding support for the new compiler went smoothly - in the process, we 
 
 Other than that, gcc was mainly screaming at code that should never have been valid, like this extreme fondness of variable name recycling uncovered in stagefright's Matroska decoder:
 
+```python
 
+for(size_t i=0; ...) {
+    ...
+    int32_t i = 0;
+    ...
+    while(i<20) {
+        for(int i=0; ...) {
+            ...
 
-    <tt>for(size_t i=0; ...) {
-        ...
-        int32_t i = 0;
-        ...
-        while(i<20) {
-            for(int i=0; ...) {
-                ...
-    </tt>
-
+```
 
 
 Currently, the gcc 4.7 based toolchain is available on [android-build](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.7-bzr/). 2 builds already using it -- [Pandaboard](https://android-build.linaro.org/builds/~linaro-android/panda-ics-gcc47-tilt-tracking-blob/) and [iMX6](https://android-build.linaro.org/builds/~linaro-android/imx6-ics-gcc47-freescalelt-stable-open/) -- are also available, and seem to work as expected.
