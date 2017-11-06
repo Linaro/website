@@ -405,3 +405,15 @@ community_initiatives:
     - name: OP-TEE
       image: optee-logo.png
       url: https://www.op-tee.org
+    - name: Device Tree
+      image: devicetree-logo.webp
+      url: https://www.devicetree.org
+    - name: Linaro Connect
+      image: connect-logo.png
+      url: http://connect.linaro.org
+    - name: Lava
+      image: lava-logo.png
+      url: https://www.linaro.org/lava/
+    - name: Developer Cloud
+      image: developer-cloud-logo.png
+      url: https://www.linaro.cloud/

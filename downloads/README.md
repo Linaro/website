@@ -42,9 +42,6 @@ The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new L
 </ul>
 
 
-*
-  [linux-linaro-stable (LSK) Git](https://git.linaro.org/kernel/linux-linaro-stable.git/), [additional information](https://wiki.linaro.org/LSK)
-
 ***
 
 ## Linaro Confectionary Release (LCR)
