@@ -8,6 +8,8 @@ slug: january-2012-ceo-report
 title: January 2012 CEO Report
 wordpress_id: 1233
 categories:
+- blog
+tags:
 - Hardware
 - Industry
 ---
@@ -32,7 +34,3 @@ Our initial focus will be on growing a set of test cases that stress test the Li
 In many cases this does not add competitive value, and actually adds to costs because of the requirements to maintain non-upstreamable code over many product generations. Linaro was founded as a shared engineering organization to address this problem. Therefore as new ARM technology becomes available Linaro's goal is to make sure that fully engineered software is ready for product integration as soon as new SoCs become available. Our first major project will be support for ARM's big.LITTLE architecture. We plan to deliver an upstreamable Release Candidate of Task Migration (switcher) software in May 2012 (with alpha and beta test versions earlier), and in parallel work with ARM, our SoC members and the community on the full multiprocessing (MP) big.LITTLE software during the year. We also plan to do advance work on ARM's new v8 architecture.
 
 Our goal is to prevent fragmentation before it starts, and to offer our members a high quality, fully tested core solution for new ARM feature sets that will be upstreamed very early in the process. This will enable valuable member engineering resources to focus on their own differentiation rather than on the development and maintenance of core feature sets that will be common to all ARM technology licensees. Linaro's shared engineering model will enable this work in a cost effective way that delivers substantial return on member investment into Linaro, and accelerates time to market for products based on these new technologies.
-
-
-
-

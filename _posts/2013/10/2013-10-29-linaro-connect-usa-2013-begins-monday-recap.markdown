@@ -8,10 +8,12 @@ slug: linaro-connect-usa-2013-begins-monday-recap
 title: Linaro Connect USA 2013 Begins- Monday Recap
 wordpress_id: 3115
 categories:
+- blog
+tags:
 - Connect Events
 ---
 
-[Linaro Connect USA 2013](http://www.linaro.org/connect-lcu13) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](http://www.linaro.org/news/linaro-brings-open-source-test-platform-to-open-compute-project/en/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation.  Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on ARM-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions.  
+[Linaro Connect USA 2013](http://www.linaro.org/connect-lcu13) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](http://www.linaro.org/news/linaro-brings-open-source-test-platform-to-open-compute-project/en/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation.  Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on ARM-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions. 
 
 In addition to the announcement about OCP Mr. Grey gave a presentation discussing “Servers to the Internet of Things”.  Linaro also had two guest speakers, Dong Wei_, _HP Fellow, UEFI Forum VP (Chief Executive) and ACPI SIG Secretary, who discussed_ “_Enabling next generation configuration and power management on ARM”  and Jim Zemlin from the Linux Foundation.
 
@@ -19,34 +21,34 @@ There were several sessions that took place on Monday after the keynotes had con
 
 
 
-	
+
   * [Opening Keynote](http://lcu-13.zerista.com/event/member/85091):  [View Video](http://www.youtube.com/watch?v=CgdK-1WTJvc), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/LCU13%2016-9.pdf)
 
-	
+
   * [ARM SoC Tree Status, Maintenance & Future](http://lcu-13.zerista.com/event/member/85092): [View Video](http://www.youtube.com/watch?v=i00ypb7SzNI), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/ARM%20SoC%20Tree%20Status,%20Maintenance%20&%20Future.pdf)
 
-	
+
   * [Introduction to ARM Trusted Firmware](http://lcu-13.zerista.com/event/member/85121):  [View Video](http://www.youtube.com/watch?v=q32BEMMxmfw), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/ARM%20Trusted%20Firmare%20for%20ARMv8-A.LCU13.pdf)
 
-	
+
   * [New Infrastructure Discussion](http://lcu-13.zerista.com/event/member/85093): [ Download Presentation](http://www.linaro.org/documents/download/c3e4f72d73a202dc7d981db49339377a5269a69597732)
 
-	
+
   * [ARM Performance Optimizations](http://lcu-13.zerista.com/event/member/85096):  [View Video](http://www.youtube.com/watch?v=1JNFmOgqL_w)
 
-	
-  * [Android not in sync with upstream & external projects](http://lcu-13.zerista.com/event/member/85097):  [View Video](http://www.youtube.com/watch?v=tgVmianNZrQ), [Download Presentation](http://www.linaro.org/documents/download/e3e544f0767b94f4d8b122d7209463f75269c9e55f388)            
 
-	
+  * [Android not in sync with upstream & external projects](http://lcu-13.zerista.com/event/member/85097):  [View Video](http://www.youtube.com/watch?v=tgVmianNZrQ), [Download Presentation](http://www.linaro.org/documents/download/e3e544f0767b94f4d8b122d7209463f75269c9e55f388)           
+
+
   * [BOF for handling co-processors for PM](http://lcu-13.zerista.com/event/member/85098):  [View Video](http://www.youtube.com/watch?v=GSewe9ZsYdc)
 
-	
+
   * [Power-efficient scheduling, and the latest news from the kernel summit](http://lcu-13.zerista.com/event/member/85099):  [View Video](http://www.youtube.com/watch?v=1_Og7sc8r3U)
 
-	
-  * [Virtualization Update](http://lcu-13.zerista.com/event/member/85101):  [View Video](http://www.youtube.com/watch?v=jIe9ruvHUNY),         
 
-	
+  * [Virtualization Update](http://lcu-13.zerista.com/event/member/85101):  [View Video](http://www.youtube.com/watch?v=jIe9ruvHUNY),        
+
+
   * [World of Unified Memory Management](http://lcu-13.zerista.com/event/member/85100):  [Download Presentation](http://www.linaro.org/documents/download/ff468a1ebd372b9d5a8f63c3e82142b85269a3d0aded3)
 
 

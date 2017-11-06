@@ -8,8 +8,9 @@ slug: many-things-to-do-this-year-in-android
 title: Many Things To Do This Year In Android
 wordpress_id: 3350
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - arm
 - Linaro
@@ -22,13 +23,13 @@ I am sure this new year has already opened up quite a few challenges for you, sa
 
 
 
-	
+
   * Optimizing Android for better user experience on ARMv7 based SOCs
 
-	
+
   * Enabling important mobile specific features in generic boot loaders like u-boot and UEFI EDK II and upstream.
 
-	
+
   * Finally, solving problems in booting Android compiled with Clang
 
 
@@ -40,19 +41,19 @@ For this first quarter, we have started working on:
 
 
 
-	
+
   * Optimizing SQLite to improve read/write speeds for SQL records and reduce CPU usage to run SQL queries.
 
-	
+
   * Evaluating few key external projects in Android after migrating to it’s latest versions from source.
 
-	
+
   * Preparing a technical paper on improving battery life for top three use cases.
 
-	
+
   * Working closely with AOSP members to get Android compiling for Clang, we have posted initial patches that covers major components of Android but still there are few more like BIONIC, etc. that have to be fixed before we get Android fully compiled and booted with Clang.
 
-	
+
   * We were successful in building and booting Android with GCC 4.9 on Nexus devices, even before the official release of GCC 4.9. We should be migrating to 4.9 in our official releases soon.
 
 
@@ -75,29 +76,29 @@ If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7
 
 
 
-	
-  * 
+
+  *
 
 
 March 4th 2014 : Optimizing SQLite for Android mobile
 
 
-	
-  * 
+
+  *
 
 
 March 5th 2014 : Building Android with Clang
 
 
-	
-  * 
+
+  *
 
 
 March 6th 2014 : Migrating external projects used in Android to it's latest version
 
 
-	
-  * 
+
+  *
 
 
 March 7th 2014 : Improving Android battery life

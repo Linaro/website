@@ -15,8 +15,9 @@ slug: coresight-perf-and-the-opencsd-library
 title: CoreSight, Perf and the OpenCSD Library
 wordpress_id: 10726
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - CoreSight
 - kernel
 - Linux
@@ -41,7 +42,7 @@ All examples presented in this post have been collected on a juno-R0 platform us
 
 The standard Perf core is a performance analysis tool found in the Linux kernel.  It comes with a complement user space tool, simply called _perf_, that provides a suite of sub-commands to control and present trace profiling sessions.  Perf is most commonly used to access SoC performance counters, but over the years it has grown well beyond that and now covers tracepoints, software performance counters and dynamic probes.  
 
-The perf core is generic and caters to many architectures.  To hide variations between HW implementation and profiling metrics the concept of Performance Monitoring Unit (PMU) is used.  A PMU is a [structure](http://lxr.free-electrons.com/source/include/linux/perf_event.h?v=4.6#L223) providing a well defined set of interfaces that PMU drivers implement in order to carry action on behalf of the Perf core.  The actions carried out the by the PMU drivers are not relevant to the Perf core itself, as long as the semantic of the API is respected. 
+The perf core is generic and caters to many architectures.  To hide variations between HW implementation and profiling metrics the concept of Performance Monitoring Unit (PMU) is used.  A PMU is a [structure](http://lxr.free-electrons.com/source/include/linux/perf_event.h?v=4.6#L223) providing a well defined set of interfaces that PMU drivers implement in order to carry action on behalf of the Perf core.  The actions carried out the by the PMU drivers are not relevant to the Perf core itself, as long as the semantic of the API is respected.
 
 Every time a process is installed on a CPU for execution, the scheduler invokes the Perf core.   From there Perf will see if any event is associated with that process and if so, the PMU API performing HW specific operations is invoked.  The same happens when the process is removed from a CPU.  That way statistics and performance counters are collected for that process only and aren’t impacted by other activities concurrently happening in the system.  Traces collected during a session are transferred to user space using a mmap’ed area and made available to users in the _perf.data_ file.  The latter is then read by the various _perf_ [sub-command](https://perf.wiki.kernel.org/index.php/Main_Page) for rendering in human readable format.  
 
@@ -93,10 +94,10 @@ device_initcall(etm_perf_init);_
 
 Calling _perf_pmu_register() _creates a new PMU with the characteristics found in the _struct pmu_ given as a parameter.  When a successful registration has completed the new PMU can be found alongside the other PMUs catalogued at boot time:
 
-_linaro@linaro-nano:~$ 
+_linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/
 breakpoint  cs_etm  software  tracepoint
-linaro@linaro-nano:~$ 
+linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/cs_etm
 cpu0  cpu1  cpu2  cpu3  cpu4  cpu5  format  perf_event_mux_interval_ms  power  subsystem  type  uevent
 linaro@linaro-nano:~$ _
@@ -105,7 +106,7 @@ The astute reader will notice that cpu[0… 5] are not part of the typical sysFS
 
 _linaro@linaro-nano:~$ ls -l /sys/bus/event_source/devices/cs_etm/cpu0
 lrwxrwxrwx 1 root root 0 Jun  1 20:19 /sys/bus/event_source/devices/cs_etm/cpu0 -> ../platform/23040000.etm/23040000.etm
-linaro@linaro-nano:~$ 
+linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/cs_etm/cpu0/trcidr/
 trcidr0  trcidr1  trcidr10  trcidr11  trcidr12  trcidr13  trcidr2  trcidr3  trcidr4  trcidr5  trcidr8  trcidr9
 linaro@linaro-nano:~$
@@ -162,7 +163,7 @@ The decompression and rendering of trace data is done in the _report_ and _scrip
 
 PERF_RECORD_MMAP2 events carry the name and path of the binary and libraries that were loaded/executed during the trace session.  Those are commonly called _Dynamic Shared Object_, or DSO.  Having a handle on the DSOs is important for trace decoding since some branch point don’t carry the destination address, only that the branch point was taken or not.  In those cases the code needs to be read to find out where execution resumed.  
 
-Once all that information has been tallied decoding of the trace data can begin.  The process is done by feeding the previously recorded trace data offsets to the _decoder_.  The _decoder_ is an instantiated object provided by the openCSD companion library.  It decodes trace data lumps in steps, calling a user provided callback function with each successful round . 
+Once all that information has been tallied decoding of the trace data can begin.  The process is done by feeding the previously recorded trace data offsets to the _decoder_.  The _decoder_ is an instantiated object provided by the openCSD companion library.  It decodes trace data lumps in steps, calling a user provided callback function with each successful round .
 
 _Un-synthesised output will look like this:_
 
@@ -171,9 +172,9 @@ _. ... CoreSight ETM Trace data: size 162416 bytes
  0: I_ASYNC : Alignment Synchronisation.
  12: I_TRACE_INFO : Trace Info.
  17: I_TRACE_ON : Trace On.
- 18: I_ADDR_CTXT_L_64IS0 : Address & Context, Long, 64 bit, IS0.; Addr=0xFFFFFFC000531720; Ctxt: AArch64,EL1, NS; 
+ 18: I_ADDR_CTXT_L_64IS0 : Address & Context, Long, 64 bit, IS0.; Addr=0xFFFFFFC000531720; Ctxt: AArch64,EL1, NS;
  28: I_ATOM_F2 : Atom format 2.; NE
- 29: I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000536038; 
+ 29: I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000536038;
  39: I_ATOM_F2 : Atom format 2.; EE
  40: I_ADDR_S_IS0 : Address, Short, IS0.; Addr=0xFFFFFFC0005366CC ~[0x166CC]
  43: I_ATOM_F1 : Atom format 1.; E
@@ -181,7 +182,7 @@ _. ... CoreSight ETM Trace data: size 162416 bytes
  48: I_ATOM_F3 : Atom format 3.; NEE
  49: I_ADDR_S_IS0 : Address, Short, IS0.; Addr=0xFFFFFFC000531F54 ~[0x11F54]
  52: I_ATOM_F1 : Atom format 1.; E
- 53: I_ADDR_L_32IS0 : Address, Long, 32 bit, IS0.; Addr=0x0016BB60; 
+ 53: I_ADDR_L_32IS0 : Address, Long, 32 bit, IS0.; Addr=0x0016BB60;
  58: I_ATOM_F3 : Atom format 3.; NEE
  59: I_ATOM_F3 : Atom format 3.; NNE
  60: I_ATOM_F6 : Atom format 6.; EEEEEE

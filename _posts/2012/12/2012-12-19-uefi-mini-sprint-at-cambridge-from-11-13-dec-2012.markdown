@@ -8,8 +8,9 @@ slug: uefi-mini-sprint-at-cambridge-from-11-13-dec-2012
 title: UEFI mini-sprint at Cambridge from 11-13 Dec 2012
 wordpress_id: 2136
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - LEG
 - Linaro
 - UEFI

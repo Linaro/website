@@ -8,7 +8,7 @@ slug: second-engineering-cycle-highlights
 title: Second Engineering Cycle Highlights
 wordpress_id: 3376
 categories:
-- Linaro Blog
+- blog
 tags:
 - Engineering cycle
 - Evaluation builds

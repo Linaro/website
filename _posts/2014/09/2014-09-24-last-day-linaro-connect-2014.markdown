@@ -8,9 +8,9 @@ slug: last-day-linaro-connect-2014
 title: Last Day of Linaro Connect 2014
 wordpress_id: 6715
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - android
 - connect
 - Connect Events
@@ -342,31 +342,3 @@ Many parties and team dinners took place during the week, including the Connect 
 Each day started with a variety of sessions to attend and demos to view.  The afternoons gave the teams time to meet and time for hacking.
 
 [![demos](http://www.linaro.org/wp-content/uploads/2014/09/demos-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/demos.jpg) [![working](http://www.linaro.org/wp-content/uploads/2014/09/working-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/working.jpg) [![sessions](http://www.linaro.org/wp-content/uploads/2014/09/sessions-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/sessions.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

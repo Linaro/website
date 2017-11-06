@@ -8,8 +8,9 @@ slug: angry-birds-panda-board
 title: Bored? Try Angry Birds Rio on the Panda board!
 wordpress_id: 601
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - android
 - release
 ---
@@ -25,17 +26,17 @@ For these instructions, you need a PC running Ubuntu 11.04 or later. You also ne
 
 
 
-	
+
   * Insert an SD card in a reader connected to your PC running Ubuntu 11.04 or later.
 
-	
+
   * In a console type `dmesg` and note which `/dev` node the SD card was installed at. Let's assume that this is `/dev/sdc`
 
-	
+
   * Install a few Ubuntu packages if needed:
 [code]sudo apt-get install linaro-image-tools bzr[/code]
 
-	
+
   * Run these commands:
 [code]wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_staging-panda-11.10-release/1/artifact/build/out/target/product/pandaboard/boot.tar.bz2
 wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_staging-panda-11.10-release/1/artifact/build/out/target/product/pandaboard/system.tar.bz2
@@ -43,16 +44,11 @@ wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-
 bzr branch lp:linaro-image-tools
 ./linaro-image-tools/linaro-android-media-create --mmc /dev/sdc --dev beagle --system system.tar.bz2 --userdata  userdata.tar.bz2 --boot boot.tar.bz2[/code]
 
-	
+
     * Install the file over ADB:
 [code]adb install -r Angry_Birds_1.3.2.apk[/code]
 
 
 
-	
+
     * Save the birds!
-
-
-
-
-

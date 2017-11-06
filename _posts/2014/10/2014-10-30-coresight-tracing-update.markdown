@@ -11,8 +11,9 @@ slug: coresight-tracing-update
 title: 'Coresight: Tracing the Update'
 wordpress_id: 7171
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - CoreSight
 - kernel
@@ -32,5 +33,3 @@ Before concluding we’d like to bring the spotlight on a couple of new areas of
 The second improvement is related to boot time initialisation of the Coresight blocks, something very useful for trace scenarios like user space initialisation and continuous recording mode. Initial configuration will be conveyed to the kernel using the device tree subsystem. At this level we teamed up with a device tree expert to come up with a new configuration binding and operation code to hold configuration values.
 
 As always, we encourage people to look at our work and provide comments to improve the solution. So far, working with the community has allowed us to take the project into areas we never expected, building a new subsystem that is comprehensive, versatile and powerful.
-
-

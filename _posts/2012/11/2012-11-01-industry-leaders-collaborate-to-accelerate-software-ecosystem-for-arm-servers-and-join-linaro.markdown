@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-11-01 12:21:45+00:00
 excerpt: 'AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell and

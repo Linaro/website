@@ -8,9 +8,17 @@ slug: using-ds-5-on-galaxy-nexus-running-aosp-4-0-4
 title: using DS-5 on Galaxy Nexus running AOSP 4.0.4
 wordpress_id: 1669
 categories:
-- Android
+- blog
 tags:
-- android profiling DS-5 streamline linaro AOSP galaxy nexus
+- Android
+- android
+- profiling
+- DS-5
+- streamline
+- linaro
+- AOSP
+- galaxy
+- nexus
 ---
 
 Last week during connect there was a lot of buzz about DS-5. After using it on Origen and Snowball for profiling android performance, I found DS-5 Streamline extremely useful for profiling apps and libraries in Android . I realized that this tool is extremely useful to application developers in finding hotspot in their applications. But app developers wouldn't want to use a development board to actually profile apps. I thought of integrating the gator(kernel module+ userspace daemon needed for DS-5 to work with the device) on an end device,which is easily available to developers. I thought of trying on Galaxy Nexus since it is the latest Google device (and that's the one I have with me ;) ).

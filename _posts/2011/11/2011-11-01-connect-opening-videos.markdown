@@ -8,7 +8,7 @@ slug: connect-opening-videos
 title: Videos - Opening Linaro Connect Q4.11 in Orlando
 wordpress_id: 758
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Linaro

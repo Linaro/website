@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-12-14 16:57:30+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: the-future-of-linux-on-arm-shines-in-the-3-7-kernel
 title: The Future of Linux on ARM Shines in the  3.7 Kernel
 wordpress_id: 2105
 categories:
+- blog
+tags:
 - Community
 - Industry
 ---
@@ -77,16 +79,16 @@ _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are 
 
 
 
-	
+
   * _Linaro Kernel Tree Explained - [https://wiki.linaro.org/WorkingGroups/Kernel/KernelTree](https://wiki.linaro.org/WorkingGroups/Kernel/KernelTree)_
 
-	
+
   * _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-	
+
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-	
+
   * _[Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/kernel)_
 
 

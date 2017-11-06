@@ -1,5 +1,5 @@
 ---
-author: KumarGala
+author: kumar.gala
 comments: false
 date: 2016-09-22 14:32:26+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: microcontroller-software-summit-linaro-connect-las16
 title: Microcontroller Software Summit at Linaro Connect LAS16
 wordpress_id: 11590
 categories:
-- Linaro Blog
+- blog
 tags:
 - Cortex-M
 - IoT

@@ -8,6 +8,8 @@ slug: a-case-for-open-source-gpu-drivers
 title: A Case for Open-Source GPU Drivers
 wordpress_id: 960
 categories:
+- blog
+tags:
 - Community
 - Hardware
 ---

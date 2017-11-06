@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-06-14 21:43:43+00:00
 excerpt: The Linaro Digital Home Group (LHG) is pleased to announce a reference build
@@ -13,7 +13,7 @@ slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - hardware

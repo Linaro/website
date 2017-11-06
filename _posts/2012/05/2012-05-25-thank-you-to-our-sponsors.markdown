@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-05-25 16:09:18+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: thank-you-to-our-sponsors
 title: '"Thank you" to our sponsors!'
 wordpress_id: 1645
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Industry
@@ -30,33 +32,33 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 [![](http://www.linaro.org/wp-content/uploads/2012/05/logo-canonical_no™-aubergine-hex-300x39.jpg)](http://www.canonical.com/)
 
 
-## 
+##
 
 
 
 
-## 
+##
 
 
 
 
-## 
+##
 
 
 [![](http://www.linaro.org/wp-content/uploads/2012/05/samsung-logo-300x117.jpg)](http://www.samsung.com/us/#latest-home)
 
 
-## 
+##
 
 
 
 
-## 
+##
 
 
 
 
-## 
+##
 
 
 [![](http://www.linaro.org/wp-content/uploads/2012/05/logo-lj.jpg)](http://www.linuxjournal.com/)
@@ -67,4 +69,3 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 
 If you want to know more about Linaro and [our events](http://connect.linaro.org/events/event/linaro-connect-q2-12/) please see the [our website](http://www.linaro.org/).
-

@@ -8,6 +8,8 @@ slug: linaro-at-the-launch-of-arms-new-cortex-a7-processor
 title: Linaro at the launch of ARM's new Cortex-A7 processor
 wordpress_id: 725
 categories:
+- blog
+tags:
 - Industry
 ---
 

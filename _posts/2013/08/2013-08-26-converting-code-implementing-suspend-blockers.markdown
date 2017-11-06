@@ -8,8 +8,9 @@ slug: converting-code-implementing-suspend-blockers
 title: Converting Code Implementing Suspend Blockers
 wordpress_id: 2883
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - android kernel
 - Linaro
@@ -40,8 +41,8 @@ In the past, the Android and Linux development communities had different (and so
 
 
 
-	
-  * 
+
+  *
 
 
 Non-aggressive suspend strategy, where a hardware block can be put into low-power mode or completely powered off if it is not used, and
@@ -49,8 +50,8 @@ Non-aggressive suspend strategy, where a hardware block can be put into low-powe
 
 
 
-	
-  * 
+
+  *
 
 
 Aggressive suspend strategy, where a hardware block should be powered on only when needed.
@@ -89,8 +90,8 @@ From the kernel side, wake locks were manipulated using the following kernel fun
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_init() - create and initialize a wake lock
@@ -98,8 +99,8 @@ wake_lock_init() - create and initialize a wake lock
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_destroy() - delete a wake lock
@@ -109,8 +110,8 @@ wake_lock_destroy() - delete a wake lock
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock() - acquire the wake lock
@@ -118,8 +119,8 @@ wake_lock() - acquire the wake lock
 
 
 
-	
-  * 
+
+  *
 
 
 wake_unlock() - release the wake lock
@@ -127,8 +128,8 @@ wake_unlock() - release the wake lock
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_timeout() - acquire a wake lock and release it after timeout expires.
@@ -146,8 +147,8 @@ On Android systems, wake locks could also be manipulated from userland through t
 
 
 
-	
-  * 
+
+  *
 
 
 /sys/power/wake_lock - writing a string to this file would create/acquire a wake lock with that name
@@ -155,8 +156,8 @@ On Android systems, wake locks could also be manipulated from userland through t
 
 
 
-	
-  * 
+
+  *
 
 
 /sys/power/wake_unlock - writing a string to this file would release a wake lock with that name
@@ -190,8 +191,8 @@ First, a wakeup_source object was added to devices’ power management block (st
 
 
 
-	
-  * 
+
+  *
 
 
 device_init_wakeup() - when called with enable==1, initialize the device’s wakeup_source, when called with enable==0, disable the device’s wakeup_sorce
@@ -199,8 +200,8 @@ device_init_wakeup() - when called with enable==1, initialize the device’s wak
 
 
 
-	
-  * 
+
+  *
 
 
 pm_stay_awake() - notify the system that a device is processing a wakeup event
@@ -208,8 +209,8 @@ pm_stay_awake() - notify the system that a device is processing a wakeup event
 
 
 
-	
-  * 
+
+  *
 
 
 pm_relax() - notify the system that a device is no longer processing a wakeup event
@@ -217,8 +218,8 @@ pm_relax() - notify the system that a device is no longer processing a wakeup ev
 
 
 
-	
-  * 
+
+  *
 
 
 pm_wakeup_event() - notify the system that the device will be processing the wakeup event until timeout
@@ -246,8 +247,8 @@ In similarity with the original Android wake lock implementation, Linux develope
 
 
 
-	
-  * 
+
+  *
 
 
 wakeup_source_init() - initialize a wakeup source object
@@ -255,8 +256,8 @@ wakeup_source_init() - initialize a wakeup source object
 
 
 
-	
-  * 
+
+  *
 
 
 wakeup_source_trash() - de-initialize a wakeup source object
@@ -264,8 +265,8 @@ wakeup_source_trash() - de-initialize a wakeup source object
 
 
 
-	
-  * 
+
+  *
 
 
 __pm_stay_awake() - notify the system that a wakeup event is being processed
@@ -275,8 +276,8 @@ __pm_stay_awake() - notify the system that a wakeup event is being processed
 
 
 
-	
-  * 
+
+  *
 
 
 __pm_relax() - notify the system that a wakeup event is no longer being processed
@@ -284,8 +285,8 @@ __pm_relax() - notify the system that a wakeup event is no longer being processe
 
 
 
-	
-  * 
+
+  *
 
 
 __pm_wakeup_event() - notify the system that a wakeup event will be processed until timeout
@@ -308,8 +309,8 @@ One can easily notice the following analogy:
 
 
 
-	
-  * 
+
+  *
 
 
 struct wake_lock <-> struct wakeup_source
@@ -317,8 +318,8 @@ struct wake_lock <-> struct wakeup_source
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_init() <-> wakeup_source_init()
@@ -326,8 +327,8 @@ wake_lock_init() <-> wakeup_source_init()
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_destroy() <-> wakeup_source_trash()
@@ -335,8 +336,8 @@ wake_lock_destroy() <-> wakeup_source_trash()
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock() <-> __pm_stay_awake()
@@ -344,8 +345,8 @@ wake_lock() <-> __pm_stay_awake()
 
 
 
-	
-  * 
+
+  *
 
 
 wake_unlock() <-> __pm_relax()
@@ -353,8 +354,8 @@ wake_unlock() <-> __pm_relax()
 
 
 
-	
-  * 
+
+  *
 
 
 wake_lock_timeout() <-> __pm_wakeup_event()
@@ -377,8 +378,8 @@ The above analogy lends itself to a straightforward way of converting code using
 
 
 
-	
-  1. 
+
+  1.
 
 
 Replace struct wake_lock with struct wakeup_source.
@@ -386,8 +387,8 @@ Replace struct wake_lock with struct wakeup_source.
 
 
 
-	
-  2. 
+
+  2.
 
 
 Replace instances of wake_lock_init() with wakeup_source_init().
@@ -395,8 +396,8 @@ Replace instances of wake_lock_init() with wakeup_source_init().
 
 
 
-	
-  3. 
+
+  3.
 
 
 Replace instances of wake_lock_destroy() with wakeup_source_trash().
@@ -404,8 +405,8 @@ Replace instances of wake_lock_destroy() with wakeup_source_trash().
 
 
 
-	
-  4. 
+
+  4.
 
 
 Replace instances of wake_lock() with __pm_stay_awake().
@@ -413,8 +414,8 @@ Replace instances of wake_lock() with __pm_stay_awake().
 
 
 
-	
-  5. 
+
+  5.
 
 
 Replace instances of wake_unlock() with __pm_relax().
@@ -422,8 +423,8 @@ Replace instances of wake_unlock() with __pm_relax().
 
 
 
-	
-  6. 
+
+  6.
 
 
 Replace instances of wake_lock_timeout() with __pm_wakeup_event().
@@ -446,8 +447,8 @@ In cases where a device driver is using a per-device wake lock, a better and mor
 
 
 
-	
-  1. 
+
+  1.
 
 
 Remove the instance of struct wake_lock associated with the device. Newly introduced functions will be using the device object (struct device)pointer argument instead of the pointer to the wake lock object.
@@ -455,8 +456,8 @@ Remove the instance of struct wake_lock associated with the device. Newly introd
 
 
 
-	
-  2. 
+
+  2.
 
 
 Replace instances of wake_lock_init() with device_init_wakeup() with argument enable set to 1.
@@ -464,8 +465,8 @@ Replace instances of wake_lock_init() with device_init_wakeup() with argument en
 
 
 
-	
-  3. 
+
+  3.
 
 
 Replace instances of wake_lock_destroy() with device_init_wakeup() with argument enable set to 0.
@@ -473,8 +474,8 @@ Replace instances of wake_lock_destroy() with device_init_wakeup() with argument
 
 
 
-	
-  4. 
+
+  4.
 
 
 Replace instances of wake_lock() with pm_stay_awake().
@@ -482,8 +483,8 @@ Replace instances of wake_lock() with pm_stay_awake().
 
 
 
-	
-  5. 
+
+  5.
 
 
 Replace instances of wake_unlock() with pm_relax().
@@ -491,8 +492,8 @@ Replace instances of wake_unlock() with pm_relax().
 
 
 
-	
-  6. 
+
+  6.
 
 
 Replace instances of wake_lock_timeout() with pm_wakeup_event().

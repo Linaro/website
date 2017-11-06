@@ -1,5 +1,5 @@
 ---
-author: UlfHansson
+author: ulf.hansson
 comments: false
 date: 2016-06-29 17:17:39+00:00
 excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about idle
@@ -13,8 +13,9 @@ slug: dont-waste-power-when-idle
 title: Don't waste power when idle
 wordpress_id: 10854
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - idle
 - kernel
 - Linux
@@ -22,10 +23,6 @@ tags:
 - power
 - power management
 ---
-
-[![core-dump](/wp-content/uploads/2016/02/core-dump-1024x107.png)](https://wiki.linaro.org/CoreDevelopment)
-
-
 ## **Don’t waste power when idle**
 
 
@@ -47,10 +44,10 @@ Historically, system PM and runtime PM have been treated as two orthogonal PM fr
 
 
 
- 	
+
   * The Kconfig option CONFIG_PM_RUNTIME has been merged into the CONFIG_PM option. The important consequence of this change is that system PM support cannot be used without runtime PM support. In general, this enables simpler code, especially when optimizing behaviors in subsystem/drivers.
 
- 	
+
   * The introduction of the pm_runtime_force_suspend|resume() helper functions. These helpers takes care of common issues for subsystems/drivers when dealing with runtime PM during the system PM sequence.
 
 

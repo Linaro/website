@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-12-20 21:50:47+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-enterprise-group-leg-releases-its-12-12-engineering-preview
 title: Linaro Enterprise Group (LEG) Releases its 12.12 "Engineering Preview"
 wordpress_id: 2172
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -36,10 +38,10 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org/engineering/leg](http://www.linaro.org/engineering/leg)
 
-	
+
   * Wiki: [https://wiki.linaro.org/LEG](https://wiki.linaro.org/LEG)
 
 
@@ -52,10 +54,10 @@ Also subscribe to the LEG mailing list and join our IRC channel to stay on top o
 
 
 
-	
+
   * LEG's public mailing list - [linaro-enterprise](http://lists.linaro.org/mailman/listinfo/linaro-enterprise). Archive is [here](http://lists.linaro.org/pipermail/linaro-enterprise/)
 
-	
+
   * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki.linaro.org/GettingInvolved/IRC).
 
 

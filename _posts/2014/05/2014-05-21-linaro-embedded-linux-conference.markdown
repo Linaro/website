@@ -1,5 +1,5 @@
 ---
-author: linuswalleij
+author: linus.walleij
 comments: false
 date: 2014-05-21 20:40:35+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-embedded-linux-conference
 title: Linaro At Embedded Linux Conference
 wordpress_id: 5861
 categories:
-- Linaro Blog
+- blog
 tags:
 - kernel
 - Linaro

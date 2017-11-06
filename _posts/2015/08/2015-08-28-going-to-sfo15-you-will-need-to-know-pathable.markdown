@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-08-28 20:01:52+00:00
 excerpt: Linaro Connect SFO15 is coming soon and one the ways to get the most out
@@ -10,9 +10,9 @@ slug: going-to-sfo15-you-will-need-to-know-pathable
 title: Going to SFO15?  You will need to know Pathable
 wordpress_id: 9193
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - conference
 - connect
 - Connect Events
@@ -28,13 +28,13 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 
 
-	
+
   1. Go to the site and login prior to the event
 
-	
+
   2. Set-up your profile and become familiar with the site and how it works
 
-	
+
   3. There will be a "mobile app" available for you to install from the app store to access the community.  This will be coming shortly.  We will let attendees know as soon as this is available.
 
 
@@ -47,22 +47,22 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 **Step 3:**  Once you get logged in - You will want to update your profile page so that other attendees know who you are, as well as set-up your password to something you can remember easily.  
 
-**Step 4:**  Add Tags to your profile to identify teams you work with or areas you are interested in.  You can see a list of the current tags being used by going to:  Attendees>Tags (in the left hand drop down), but you can add your own as well.  When people perform a "search" in the attendees or members list, they will be able to choose from the networking interests and tags you and the rest of the community have added to their profiles. 
+**Step 4:**  Add Tags to your profile to identify teams you work with or areas you are interested in.  You can see a list of the current tags being used by going to:  Attendees>Tags (in the left hand drop down), but you can add your own as well.  When people perform a "search" in the attendees or members list, they will be able to choose from the networking interests and tags you and the rest of the community have added to their profiles.
 
 **Step 5:  **Review the current schedule [**https://sfo15.pathable.com/meetings**](https://sfo15.pathable.com/meetings)  and add sessions you would like to attend to your schedule [https://sfo15.pathable.com/meetings/my](https://sfo15.pathable.com/meetings/my).  
 
 
 
-	
+
   * Click the Schedule tab
 
-	
+
   * Hover your mouse over the session description box that pops up that you would like to select and click the "Add" button that appears.
 
-	
+
   * If you are on a tablet computer or wish to read more before making your choice, select the name of the session you are interested in. Then click the "Add to My Agenda" button to add the session to your schedule.
 
-	
+
   * You can then go to the My Schedule page to see your agenda for each day
 
 
@@ -70,25 +70,25 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 
 
-	
+
   * Visit the profile page of the person you would like to meet
 
-	
+
   * Click the Schedule a Meeting option
 
-	
+
   * If you would like to add additional people to the meeting, type their names into the "Attendees" field
 
-	
+
   * You will see the schedule and free-busy time for you and the invitees on the right. Use your mouse to select a time that is mutually available.
 
-	
+
   * Select or enter a Location for your meeting*
 
-	
+
   * Type "Subject" and "Description" for the meeting to give the invitees background on why you would like to meet
 
-	
+
   * Click the Send Invitation button.
 
 

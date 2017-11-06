@@ -8,7 +8,7 @@ slug: lets-talk-usb-hubs
 title: So, let’s talk USB hubs.
 wordpress_id: 12308
 categories:
-- Linaro Blog
+- blog
 ---
 
 Back when Linaro and LAVA Lab started, there was very little need for USB device support connected to our LAVA dispatcher servers. However, as time went on, more and more devices started coming to us with USB serial, and more latterly with USB OTG, which we would use to flash test images onto fastboot based devices, particularly [96Boards](http://www.96boards.org). Initially, since there was very little USB, we could plug directly into the server, but when the number rose to more than a handful, we had to start using hubs.

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-09-29 01:26:31+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: wednesday-linaro-connect-las16-re-cap
 title: Wednesday Linaro Connect LAS16 Re-cap
 wordpress_id: 11706
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

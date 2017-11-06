@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-01-12 00:03:27+00:00
 layout: post
@@ -8,9 +8,10 @@ slug: linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel
 title: Linaro's Emphasis on dma_buf in the 3.3 Linux Kernel
 wordpress_id: 1162
 categories:
-- Patch-Highlights
+- blog
 tags:
 - dma_buf
+- Patch-Highlights
 - kernel
 - Linaro
 - Linaro Connect

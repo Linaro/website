@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-03-26 16:39:44+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-15-03-release-available-for-download
 title: Linaro 15.03 Release Available for Download
 wordpress_id: 8363
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - ARMv8

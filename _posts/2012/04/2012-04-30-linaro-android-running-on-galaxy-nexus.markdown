@@ -8,6 +8,8 @@ slug: linaro-android-running-on-galaxy-nexus
 title: Linaro Android running on Galaxy Nexus
 wordpress_id: 1618
 categories:
+- blog
+tags:
 - Android
 - Community
 ---

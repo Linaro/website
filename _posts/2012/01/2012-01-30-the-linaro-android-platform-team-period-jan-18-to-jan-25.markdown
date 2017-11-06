@@ -8,9 +8,10 @@ slug: the-linaro-android-platform-team-period-jan-18-to-jan-25
 title: The Linaro Android Platform Team, Period Jan. 18 to Jan. 25
 wordpress_id: 1221
 categories:
+- blog
+tags:
 - Android
 - Connect Events
-tags:
 - '12.01'
 - android
 - conference
@@ -30,10 +31,10 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 
 
-	
+
   * The 12.01  [ release ](http://releases.linaro.org/12.01/android/)of the Android Platform is done.
 
-	
+
   * The schedule for the San Francisco Connect meeting is  [ finalized.](http://summit.ubuntu.com/lcq1-12/track/linaro-platforms/)
 
 
@@ -45,19 +46,19 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 
 
-	
+
   * A presentation of running platforms with h/w accelerated graphics was made at the Linaro member meeting.
 
-	
+
   * Good progress on browser automation using monkeyrunner.
 
-	
+
   * Progress on GPS on Snowball.
 
-	
+
   * Progress on Snowball Multimedia.
 
-	
+
   * Progress on getting Freescale based kernel into Linaro trees for iMX53.
 
 
@@ -69,28 +70,28 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 
 
-	
+
   * 907153	[ landing-panda's graphics enablement is broken on 4.0.3](https://bugs.launchpad.net/linaro-android/+bug/907153)
 
-	
+
   * 912720	[ staging-panda build 179 fails to bootup](https://bugs.launchpad.net/linaro-android/+bug/912720)
 
-	
+
   * 914259	[ LAVA resuls not displayed on android-build (stuck in Loading...)](https://bugs.launchpad.net/linaro-android/+bug/914259)
 
-	
+
   * 906367	[ Identify test steps for "USB Device" [Mass storage function (sdcard export)] validation](https://bugs.launchpad.net/linaro-android/+bug/906367)
 
-	
+
   * 906329	[ Snowball: Need to configure ethernet manually](https://bugs.launchpad.net/linaro-android/+bug/906329)
 
-	
+
   * 859886	[ Bluetooth does not work on Origen](https://bugs.launchpad.net/linaro-android/+bug/859886)
 
-	
+
   * 888644	[ hdmi display not working with staging-origen manifest](https://bugs.launchpad.net/linaro-android/+bug/888644)
 
-	
+
   * 919043	[ landing-panda and aosp-panda don't boot with linaro-uboot](https://bugs.launchpad.net/linaro-android/+bug/919043)
 
 
@@ -102,10 +103,8 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 
 
-	
+
   * [12.01 Milestone](https://launchpad.net/linaro-android/+milestone/12.01)
 
-	
+
   * [12.02 Milestone](https://launchpad.net/linaro-android/+milestone/12.02)
-
-

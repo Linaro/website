@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-12-21 19:16:52+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: leg-engineers-discuss-uefi-updates-goals-and-getting-involved
 title: 'LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved'
 wordpress_id: 2183
 categories:
+- blog
+tags:
 - Community
 ---
 

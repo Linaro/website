@@ -8,6 +8,8 @@ slug: trying-the-jellybean-on-samsungs-origen-board
 title: Trying Linaro Jellybean Android on Samsung's Origen board
 wordpress_id: 1769
 categories:
+- blog
+tags:
 - Android
 ---
 
@@ -41,11 +43,11 @@ wget http://snapshots.linaro.org/android/~linaro-android/origen-jb-gcc47-samsung
 `
 **Get the current vendor tarball by pasting this link in a browser:**
 
-http://snapshots.linaro.org/android/binaries/origen/20120517/vendor.tar.bz2 
+http://snapshots.linaro.org/android/binaries/origen/20120517/vendor.tar.bz2
 and saving the file.
 **
 Then run linaro_android_build_cmd.sh to build:**`
-./linaro_android_build_cmds.sh -m /full/path/to/pinned-manifest.xml -o /full/path/to/vendor.tar.bz2 
+./linaro_android_build_cmds.sh -m /full/path/to/pinned-manifest.xml -o /full/path/to/vendor.tar.bz2
 `**
 
 ## To Rebuild

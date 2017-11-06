@@ -8,6 +8,8 @@ slug: lava-at-home
 title: LAVA@Home
 wordpress_id: 965
 categories:
+- blog
+tags:
 - Hardware
 - LAVA
 ---
@@ -26,31 +28,31 @@ I have finally come up with a rather nice solution. Let me summarize the benefit
 
 
 
-	
+
   1. I only need a few megabytes on the SD card for LAVA, the rest can be devoted to testing so a 4GB card is more than enough to test all of our images.
 
-	
+
   2. The SD card will not wear out so badly and the critical parts are less likely to be damaged (and are faster to recover too)
 
-	
+
   3. The tests cannot harm our master root filesystem. This has happened before and it's something we had to recover from manually.
 
-	
+
   4. I don't get duplicate MAC addresses anymore, I can identify each board uniquely once it powers on.
 
-	
+
   5. We can experiment with remote booting and other new features
 
-	
+
   6. We can script the creation of all of the required components.
 
-	
+
   7. Each board could tell LAVA that it has been powered on and ask the system for things to do. LAVA could power down boards to save money and energy while the test queue is empty.
 
-	
+
   8. We could put intelligent piece on a board, consistently, so that we don't have to rely on fragile serial port for communication. We could have standard APIs for boards!
 
-	
+
   9. We could stop caring if a board is locally attached or behind NAT on the other side of the planet.
 
 

@@ -8,7 +8,7 @@ slug: bkk16-blog3
 title: BKK16 Summary Blog 3 - Recognition and Demo Friday
 wordpress_id: 10589
 categories:
-- Linaro Blog
+- blog
 ---
 
 ## After Dark

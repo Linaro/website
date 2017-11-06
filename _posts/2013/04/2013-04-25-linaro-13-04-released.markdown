@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-04-25 16:45:10+00:00
 layout: post
@@ -8,15 +8,17 @@ slug: linaro-13-04-released
 title: Linaro 13.04 Released
 wordpress_id: 2644
 categories:
+- blog
+tags:
 - Releases
 ---
 
 <blockquote>
 
-> 
+>
 > Unity is strength... when there is teamwork and collaboration, wonderful things can be achieved. **~Mattie Stepanek**
-> 
-> 
+>
+>
 </blockquote>
 
 
@@ -84,8 +86,8 @@ We encourage everybody to use the 13.04 release. The download links for all imag
 
 
 
-	
-  * 
+
+  *
 
 
 [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
@@ -104,8 +106,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Cycles/1304/Release#Release_Information](http://wiki.linaro.org/Cycles/1304/Release#Release_Information)
@@ -137,8 +139,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
@@ -165,8 +167,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
@@ -176,8 +178,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
@@ -205,8 +207,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
@@ -230,8 +232,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 Homepage: [http://www.linaro.org](http://www.linaro.org/)
@@ -241,8 +243,8 @@ Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
 
 
-	
-  * 
+
+  *
 
 
 Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
@@ -261,8 +263,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
@@ -272,8 +274,8 @@ Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http:
 
 
 
-	
-  * 
+
+  *
 
 
 Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
@@ -292,8 +294,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 #linaro on irc.linaro.org or irc.freenode.net
@@ -303,8 +305,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 #linaro-android irc.linaro.org or irc.freenode.net
@@ -328,8 +330,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://wiki.linaro.org/Cycles/1304/Release#Known_Issues](http://wiki.linaro.org/Cycles/1304/Release#Known_Issues)
@@ -348,13 +350,8 @@ _ _
 
 
 
-	
-  * 
+
+  *
 
 
 [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
-
-
-

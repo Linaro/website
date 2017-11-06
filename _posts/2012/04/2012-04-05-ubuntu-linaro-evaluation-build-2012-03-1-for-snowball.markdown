@@ -8,6 +8,8 @@ slug: ubuntu-linaro-evaluation-build-2012-03-1-for-snowball
 title: Ubuntu Linaro Evaluation Build 2012.03.1 for Snowball
 wordpress_id: 1492
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -57,59 +59,59 @@ Main supported features
 
 
 
-	
+
   * Based on Linux 3.3.0 and the Linaro Ubuntu desktop file system
 
-	
+
   * HDMI/DVI-D display support
 
-	
+
   * Graphics acceleration with the Mali 400 GPU
 
-	
+
   * Bluetooth support
 
-	
+
   * Ethernet and Wireless connectivity
 
-	
+
   * GPS support
 
-	
+
   * Sensors support (accelerometer, magnetometer, gyroscope, barometer)
 
-	
+
   * microSD card support
 
-	
+
   * Audio playback (see known limitations)
 
-	
+
   * Limited USB OTG host functionality
 
 
 Features to be included in future releases
 
-	
+
   * Multimedia acceleration
 
-	
+
   * Better USB OTG host support
 
 
 Known limitations
 
-	
+
   * USB OTG host mode is working only in a limited fashion:
 [http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue](http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue)
 
-	
+
   * Pulseaudio by default does not work well with the Snowball audio
 driver, resulting in choppy playback. There is a work-around described
 in the comment #1 of
 [https://bugs.launchpad.net/igloocommunity/+bug/939593](https://bugs.launchpad.net/igloocommunity/+bug/939593)
 
-	
+
   * Bluetooth seems to be working one-way only:
 [https://bugs.launchpad.net/igloocommunity/+bug/974272](https://bugs.launchpad.net/igloocommunity/+bug/974272)
 

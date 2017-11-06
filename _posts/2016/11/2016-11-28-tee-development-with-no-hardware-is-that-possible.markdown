@@ -11,9 +11,9 @@ slug: tee-development-with-no-hardware-is-that-possible
 title: TEE Development With No Hardware - Is That Possible?
 wordpress_id: 11914
 categories:
-- Core Dump
-- Linaro Blog
+- blog
 tags:
+- Core Dump
 - ARMv7
 - Linaro
 - Linux

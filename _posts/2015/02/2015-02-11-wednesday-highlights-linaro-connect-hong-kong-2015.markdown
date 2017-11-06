@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-02-11 21:45:45+00:00
 layout: post
@@ -8,8 +8,10 @@ slug: wednesday-highlights-linaro-connect-hong-kong-2015
 title: Wednesday highlights from Linaro Connect Hong Kong 2015
 wordpress_id: 7976
 categories:
+- blog
+tags:
 - Connect Events
-- Linaro Blog
+
 ---
 
 [vc_row][vc_column width="1/2"][mk_padding_divider size="40"][mk_padding_divider size="20"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]

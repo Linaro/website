@@ -8,8 +8,9 @@ slug: linaro-13-12-release-is-now-available-for-download
 title: Linaro 13.12 release is now available for download!
 wordpress_id: 3230
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - android
 - arm
 - connect
@@ -30,10 +31,10 @@ tags:
 
 <blockquote>
 
-> 
+>
 > <blockquote>After climbing a great hill, one only finds that there are many more hills to climb.</blockquote>
-> 
-> 
+>
+>
 **~Nelson Mandela **</blockquote>
 
 
@@ -41,10 +42,10 @@ To avoid clashing with the holidays in many parts of the world, this month's re
 
 
 
-	
+
   *  For Android,  the ARMv8 LSK and Nexus7_2013-AOSP builds have been setup and Android can be now built using llvm-clang toolchain with the related patches submitted to upstream.
 
-	
+
   * For Ubuntu, this release includes the Linaro Ubuntu baseline updated to Saucy Salamander (Ubuntu release 13.10) and the initial Ubuntu arm64 rootfs.
 
 
@@ -60,7 +61,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
-	
+
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -73,16 +74,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -95,7 +96,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -108,7 +109,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-	
+
   * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
 
 
@@ -121,28 +122,28 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
 
-	
+
     * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
 
 
@@ -158,13 +159,13 @@ For any errata issues, please see:
 
 
 
-	
+
   * [http://wiki.linaro.org/Cycles/1312/Release#Known_Issues](http://wiki.linaro.org/Cycles/1311/Release#Known_Issues)
 
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 
-	
+
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
 
 

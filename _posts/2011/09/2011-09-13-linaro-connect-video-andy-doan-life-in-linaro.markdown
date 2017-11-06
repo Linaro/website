@@ -8,8 +8,9 @@ slug: linaro-connect-video-andy-doan-life-in-linaro
 title: Linaro Connect video - Andy Doan, Life in Linaro
 wordpress_id: 4128
 categories:
-- Community
+- blog
 tags:
+- Community
 - Linaro Connect
 - technical resources
 - video

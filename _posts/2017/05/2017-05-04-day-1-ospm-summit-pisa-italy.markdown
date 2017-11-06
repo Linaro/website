@@ -8,8 +8,9 @@ slug: day-1-ospm-summit-pisa-italy
 title: Day 1 at the OSPM Summit Pisa, Italy
 wordpress_id: 12377
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - EAS
 - linux kernel
@@ -79,5 +80,3 @@ Patrick started his session with a very good description of the problem he is tr
 By Luca Abeni and Juri Lelli ([slides](http://retis.sssup.it/ospm-summit/Downloads/deadline_reclaiming.pdf))
 
 The presentation started with Luca talking about the SHED_DEADLINE class and the general concept behind bandwidth reclaiming. The implemented algorithm is called Greedy Reclamation of Unused Bandwidth (GRUB) as it makes it possible to reclaim the runtime unused by some deadline tasks to give other tasks more runtime than previously agreed upon, without breaking deadline guarantees nor starving non-deadline tasks. Alternatively, the reclaiming mechanism can be used for power management by lowering the CPU frequency based on the current load. Knowing how much time to reclaim can also help take better frequency scaling decisions. The current patchset determines how much to reclaim by tracking how long deadline tasks are inactive. This is currently done on a per-runqueue basis but another prototype does it globally. Another approach that tracks active utilisation was also considered but it had too many issues to be furthered. One of the main hurdles to deal with is knowing when to update the task utilisation metrics - doing so when the task blocks led to too much bandwidth being reclaimed. Instead the solution considers a blocking task to still be contributing (blocked active) until its the 0-lag time. At that point the utilisation is deduced from the total utilisation and the task is considered to be in a “blocked inactive” state. Scheduler maintainer Peter Zijlstra said he would have merged the current patchset had it not been for minor issues. Implementation optimisation still remain, notably in the area of reclaiming bandwidth for non-deadline tasks and the timely process of iterating over all active runqueues in the root domain when looking for bandwidth to reclaim. The presentation concluded with a patch-by-patch walkthrough of the current patchset and a word or two on the availability of another patchset that tracks inactive utilisation globally if people are interested.
-
-

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-08-13 15:44:04+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-connect-europe-2103-demo-friday-videos
 title: Linaro Connect Europe 2013 - Demo Friday Videos
 wordpress_id: 2852
 categories:
+- blog
+tags:
 - Connect Events
 ---
 
@@ -17,28 +19,28 @@ While we didn't get the opportunity to record all the Demos, below are links to 
 
 
 
-	
+
   * [Applied Micro's demo of KVM on ARM](http://www.youtube.com/watch?v=M1B0j-GZwAI)
 
-	
+
   * [Synopsys VDK (Virtual Development Kit) demo](http://www.youtube.com/watch?v=0WK_fLxXIy4)
 
-	
+
   * [Try to Make Google Glass by Maker Style with SIProp](http://www.youtube.com/watch?v=JoAoW362Mwo)
 
-	
+
   * [Self Certification Test for UEFI](http://www.youtube.com/watch?v=WRQrDjPuLIg)
 
-	
+
   * [Linaro Android on Cortex-A15 devices ](http://www.youtube.com/watch?v=-TTn1jLCwhg)
 
-	
+
   * [LAVA (Linaro Automated Validation Architecture) demo](http://www.youtube.com/watch?v=j7pZeV0AKZU)
 
-	
+
   * [XEN on ARM Cloud with Open Nebula Demo](http://www.youtube.com/watch?v=xZP9YKv3P_E)
 
-	
+
   * [ LAVA - LMP (LAVA Multi-purpose Probe)](http://www.youtube.com/watch?v=3Jaf5ILvVmQ)
 
 
@@ -46,13 +48,13 @@ Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or
 
 
 
-	
+
   * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](http://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
-	
+
   * [Linaro Connect Europe 2013: Keynote Speaker Videos](http://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
 
-	
+
   * [Linaro Connect Europe 2013: People and Personalities of Connect](http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 

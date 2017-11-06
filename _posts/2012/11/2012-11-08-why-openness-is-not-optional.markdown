@@ -8,6 +8,8 @@ slug: why-openness-is-not-optional
 title: Why Openness is Not Optional
 wordpress_id: 1981
 categories:
+- blog
+tags:
 - Industry
 ---
 

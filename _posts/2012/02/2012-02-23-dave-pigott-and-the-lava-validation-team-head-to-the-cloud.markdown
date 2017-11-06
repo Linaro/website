@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-02-23 15:49:25+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: dave-pigott-and-the-lava-validation-team-head-to-the-cloud
 title: 'Dave Pigott and the LAVA Validation Team Head to the Cloud '
 wordpress_id: 1253
 categories:
+- blog
+tags:
 - Hardware
 - LAVA
 ---

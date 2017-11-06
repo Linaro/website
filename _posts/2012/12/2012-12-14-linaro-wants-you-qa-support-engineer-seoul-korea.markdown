@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-12-14 20:20:42+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-wants-you-qa-support-engineer-seoul-korea
 title: Linaro Wants You - QA Support Engineer- Seoul Korea
 wordpress_id: 2121
 categories:
+- blog
+tags:
 - LAVA
 ---
 

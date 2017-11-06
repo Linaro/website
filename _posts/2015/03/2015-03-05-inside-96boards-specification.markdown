@@ -13,7 +13,7 @@ slug: inside-96boards-specification
 title: Inside the 96Boards Specification
 wordpress_id: 8232
 categories:
-- Linaro Blog
+- blog
 ---
 
 [vc_row][vc_column][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]

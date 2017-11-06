@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2014-12-03 23:51:32+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-home-group-update-since-launching
 title: Linaro Home Group Update Since Launching
 wordpress_id: 7602
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - ARMv8

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-04-04 13:21:28+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: whats-new-in-the-12-03-linaro-android-origen-release
 title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 categories:
+- blog
+tags:
 - Android
 - Community
 - Hardware

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-03-27 03:04:06+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: call-for-submissions-linaro-connect-q2-12-plenaries
 title: 'Call for Submissions : Linaro Connect Q2.12 Plenaries'
 wordpress_id: 1447
 categories:
+- blog
+tags:
 - Community
 - Industry
 ---
@@ -24,13 +26,13 @@ Plenary Submissions and suggested plenary sessions can be added to the [wiki](h
 
 
 
-	
+
   * **Plenary Title:**
 
-	
+
   * **3-5 Sentence abstract about what this talk will be about and how it is connected to Linaro.**
 
-	
+
   * **Presenters Name, Company**
 
 

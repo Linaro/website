@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-02-12 16:45:35+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-connect-bkk16-pathable-all-you-need-to-know
 title: Linaro Connect Bangkok 2016 - Scheduling...
 wordpress_id: 9988
 categories:
+- blog
+tags:
 - Connect Events
 ---
 
@@ -22,13 +24,13 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 
 
-	
+
   1. Go to the site and login prior to the event
 
-	
+
   2. Set-up your profile and become familiar with the site and how it works
 
-	
+
   3. There will be a “mobile app” available for you to install from the app store to access the community.  This will be coming shortly.  We will let attendees know as soon as this is available.
 
 
@@ -46,16 +48,16 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 
 
-	
+
   * Click the Schedule tab
 
-	
+
   * Hover your mouse over the session description box that pops up that you would like to select and click the “Add” button that appears.
 
-	
+
   * If you are on a tablet computer or wish to read more before making your choice, select the name of the session you are interested in. Then click the “Add to My Agenda” button to add the session to your schedule.
 
-	
+
   * You can then go to the My Schedule page to see your agenda for each day
 
 
@@ -63,25 +65,25 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 
 
-	
+
   * Visit the profile page of the person you would like to meet
 
-	
+
   * Click the Schedule a Meeting option
 
-	
+
   * If you would like to add additional people to the meeting, type their names into the “Attendees” field
 
-	
+
   * You will see the schedule and free-busy time for you and the invitees on the right. Use your mouse to select a time that is mutually available.
 
-	
+
   * Select or enter a Location for your meeting*
 
-	
+
   * Type “Subject” and “Description” for the meeting to give the invitees background on why you would like to meet
 
-	
+
   * Click the Send Invitation button.
 
 
@@ -92,5 +94,3 @@ _*Once meeting rooms are booked, there are still many areas around the hotel to 
 **For more help with Pathable:**
 
 These are the basics for Pathable however, there is much more you can do with the tool; including messaging other attendees, having a group chat, adding documents for a sessions etc.  To get more details you can visit the Pathable Knowledge Base to learn more.  [**http://support.pathable.com/knowledgebase**](http://support.pathable.com/knowledgebase)
-
-

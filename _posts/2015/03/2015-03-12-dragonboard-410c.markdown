@@ -12,7 +12,7 @@ slug: dragonboard-410c
 title: A new 96Boards-compliant product has been announced by Qualcomm
 wordpress_id: 8298
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - dragonboard

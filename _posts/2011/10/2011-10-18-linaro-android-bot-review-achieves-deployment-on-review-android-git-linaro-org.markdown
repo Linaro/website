@@ -8,9 +8,10 @@ slug: linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro
 title: Linaro Android Bot Review Achieves Deployment On Review.android.git.linaro.org
 wordpress_id: 699
 categories:
+- blog
+tags:
 - Android
 - LAVA
-tags:
 - android
 - automation
 - continuous integration

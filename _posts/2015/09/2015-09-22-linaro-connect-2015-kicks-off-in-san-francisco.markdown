@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-22 03:25:57+00:00
 excerpt: 'See a re-cap of the first day of Linaro Connect San Francisco 2015.  '
@@ -9,7 +9,7 @@ slug: linaro-connect-2015-kicks-off-in-san-francisco
 title: Linaro Connect 2015 Kicks Off in San Francisco
 wordpress_id: 9371
 categories:
-- Linaro Blog
+- blog
 ---
 
 [vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="2/3"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/09/SFO15-Linaro-Banner-Monday-Group.jpg" image_width="800" image_height="350" crop="true" svg="false" lightbox="false" frame_style="gray_border" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="1/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]

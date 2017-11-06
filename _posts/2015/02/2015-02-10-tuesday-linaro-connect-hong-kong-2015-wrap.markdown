@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-02-10 21:54:21+00:00
 layout: post
@@ -8,8 +8,7 @@ slug: tuesday-linaro-connect-hong-kong-2015-wrap
 title: 'Tuesday of Linaro Connect Hong Kong 2015 Wrap-up '
 wordpress_id: 7959
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

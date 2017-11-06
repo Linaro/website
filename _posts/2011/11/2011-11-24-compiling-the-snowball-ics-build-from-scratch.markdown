@@ -8,7 +8,7 @@ slug: compiling-the-snowball-ics-build-from-scratch
 title: Compiling the Snowball ICS Build from Scratch
 wordpress_id: 913
 categories:
-- Linaro Blog
+- blog
 ---
 
 ## What's better than flashy videos of Snowball running ICS?

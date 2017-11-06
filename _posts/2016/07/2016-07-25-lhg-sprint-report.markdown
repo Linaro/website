@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2016-07-25 16:20:26+00:00
 excerpt: 'Read the latest update from the LHG sprint held at the Huawei/Hisilicon
@@ -10,7 +10,7 @@ slug: lhg-sprint-report
 title: LHG Sprint Report
 wordpress_id: 11201
 categories:
-- Linaro Blog
+- blog
 ---
 
 [caption id="attachment_11206" align="alignright" width="217"]![board picture](http://www.linaro.org/wp-content/uploads/2016/07/board-picture.png) _First revision of Hisilicon 96Boards TV Platform board (codenamed Poplar)._[/caption]

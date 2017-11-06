@@ -8,8 +8,9 @@ slug: running-64bit-android-l-qemu
 title: Running Android L Developer Preview on 64-bit ARM QEMU
 wordpress_id: 6354
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - android
 - Android L
 - emulator
@@ -77,12 +78,12 @@ As with all our code we at Linaro do our work in public and with presumption of 
 
 A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christoffer.dall/linux-android.git/shortlog/refs/tags/ranchu-linaro-beta1)
 
-    
+
     ARCH=arm64 make ranchu_defconfig
 
 
 
-    
+
     ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
 
 
@@ -90,28 +91,28 @@ A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christ
 
 A [patched ](http://people.linaro.org/~christoffer.dall/linaro-devices.tar.gz)version of the AOSP tree (master or l-preview branch), with [qemu_pipe tweak](http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
 
-    
+
     tar -xvf linaro-devices.tar.gz
-    
+
     source build/envsetup.sh
-    
+
     lunch ranchu-userdebug
-    
+
     m
-    
-    
+
+
 
 
 
 
 A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/shortlog/refs/heads/ranchu-linaro-beta1)
 
-    
+
     ./configure --target-list=aarch64-softmmu
-    
+
     make
-    
-    
+
+
 
 
 Some spare time (there is a lot to compile)
@@ -120,12 +121,12 @@ Some spare time (there is a lot to compile)
 
 **Finally you can launch the emulator with a command line like this:**
 
-    
+
     ../qemu.git/aarch64-softmmu/qemu-system-aarch64 -cpu cortex-a57 -machine type=ranchu -m 4096 -kernel ./ranchu-kernel/Image -append 'console=ttyAMA0,38400 keep
     _bootcon' -monitor stdio -initrd ranchu-build/ramdisk.img -drive index=2,id=userdata,file=ranchu-build/userdata.img -device virtio-blk-device,drive=us
     erdata -device virtio-blk-device,drive=cache -drive index=1,id=cache,file=ranchu-build/cache.img -device virtio-blk-device,drive=system -drive index=0,id=system,file=ranchu-build/system.img -
     netdev user,id=mynet -device virtio-net-device,netdev=mynet -show-cursor 
-    
+
 
 
 I have symlinks in my test directory to try and keep things sane. So ranchu-kernel links to arch/arm64/boot in my kernel tree and ranchu-build links to out/target/product/ranchu in my android tree. Please note the order of the block devices on the command line is important.

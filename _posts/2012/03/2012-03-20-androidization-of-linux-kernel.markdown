@@ -8,9 +8,12 @@ slug: androidization-of-linux-kernel
 title: Androidization of linux kernel
 wordpress_id: 1392
 categories:
-- Android
+- blog
 tags:
-- android linaro patch
+- Android
+- android
+- linaro
+- patch
 ---
 
 I have always wondered how one should be applying the Android patches onto any Linux kernel. Recently I had to do the same stuff. Here is a short description on how I androidized the 3.2 Linux kernel. I have added the Android patches to 3.2 Linux kernel for Vexpress-rtsm. Since the kernel was close to the upstream kernel there were no merge conflicts luckily.
@@ -29,35 +32,35 @@ Androidization process was just 4 step process:
 
 1. Clone the Linux kernel and create a branch for androidization :
 
-    
+
     git clone http://git.linaro.org/git/people/dmart/linux-3-arm.git  -b arm/vexpressdt-rtsm
 
 
 
-    
+
     git checkout -b android
 
 
 2. Add the remote topic branch:
 
-    
+
     git remote add androidization git://git.linaro.org/landing-teams/working/ti/kernel.git
 
 
 3. Fetch and rebase the kernel:
 
-    
+
     git fetch androidization
 
 
 
-    
+
     git rebase remotes/androidization/linaro-androidization-tracking
 
 
 4. Add the necessary configs to the board-defconfig file to enable Android components in the kernel:
 
-    
+
     CONFIG_ASHMEM=y
     CONFIG_STAGING=y
     CONFIG_ANDROID=y

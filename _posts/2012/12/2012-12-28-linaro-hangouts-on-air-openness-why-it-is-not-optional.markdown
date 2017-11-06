@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-12-28 18:35:13+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-hangouts-on-air-openness-why-it-is-not-optional
 title: 'Linaro Hangouts on Air: Openness, Why it is Not Optional'
 wordpress_id: 2196
 categories:
+- blog
+tags:
 - Community
 - Hangouts on Air
 ---

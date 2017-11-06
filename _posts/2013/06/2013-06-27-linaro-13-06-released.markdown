@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-06-27 18:01:37+00:00
 layout: post
@@ -8,15 +8,17 @@ slug: linaro-13-06-released
 title: Linaro 13.06 Released!
 wordpress_id: 2787
 categories:
+- blog
+tags:
 - Releases
 ---
 
 <blockquote>
 
-> 
+>
 > Without deviation from the norm, progress is not possible.  ~Frank Zappa
-> 
-> 
+>
+>
 </blockquote>
 
 

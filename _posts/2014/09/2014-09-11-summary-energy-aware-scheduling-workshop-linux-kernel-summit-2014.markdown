@@ -10,8 +10,9 @@ slug: summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014
 title: Summary of Energy-Aware Scheduling workshop, Linux Kernel Summit 2014
 wordpress_id: 6674
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - EAS
 - kernel
 - Kernel Summit

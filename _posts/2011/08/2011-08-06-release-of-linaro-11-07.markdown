@@ -8,6 +8,8 @@ slug: release-of-linaro-11-07
 title: Release of Linaro 11.07
 wordpress_id: 3399
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -17,7 +19,7 @@ Additionaly, 11.07 saw the Linaro Android move to gcc-linaro 4.6 as the default 
 
 We encourage everybody to use the 11.07 release. The download links for all images and components are available on our release page:
 
-[ ](http://wiki.linaro.org/Cycles/1107/Release)[http://wiki.linaro.org/Cycles/1107/Release](http://wiki.linaro.org/Cycles/1107/Release) 
+[ ](http://wiki.linaro.org/Cycles/1107/Release)[http://wiki.linaro.org/Cycles/1107/Release](http://wiki.linaro.org/Cycles/1107/Release)
 
 **Highlights of this release:
 **
@@ -30,7 +32,7 @@ Additional highlights for our Ubuntu efforts include working hwpacks for all Lan
 
 * Linaro kernel current release is based on the 3.0 stable kernel with a number of changes developed by Linaro and integrated from the 3.1-rc cycle. In addition to the changes already in 3.0, this release of the Linaro kernel includes: the comprehensive ARM kprobes work which extend kprobes to support Thumb-2 kernels, the new processor struct macros, the ARM cpu topology definition, basic Cortex A15 support, DMA infrastructure cleanups, a kernel helper to perform 64-bit atomic operations and multiple enhancements for DT support.
 
-* Initial release of Linaro-Android Common tree based on Linaro-kernel 3.0 with addition of ADB functionality to linaro-android tree for OMAP3. 
+* Initial release of Linaro-Android Common tree based on Linaro-kernel 3.0 with addition of ADB functionality to linaro-android tree for OMAP3.
 
 * U-boot provides an incremental release with multiple improvements: a better PXE support based on feedback from the Ubuntu ARM server team, generated unique ethernet address based on SOC die id on OMAP4, ability to customize boot command via boot.scr script file or uEnv.txt plain text file, new fdt_high environment variable as part of a fix to allow using all 1G of memory on PandaBoard.
 
@@ -44,12 +46,6 @@ Additional highlights for our Ubuntu efforts include working hwpacks for all Lan
 
 * This month LAVA main changes is the UI for the dashboard got an overhaul with new features added. Basic UI is added to the sheduler to see the status of boards and jobs. The ability to schedule jobs by device type is also added to the scheduler. The dispatcher has better error handling and preliminary support for Snowball boards and lava-test now streams results while the test is running.
 
-* Office of the CTO (OCTO) has produced its first ARM hard-float images (alpha stage). More information on the usage and the work related to those images can be found on [https://blueprints.launchpad.net/+spec/engr-octo-armhf-images](https://blueprints.launchpad.net/+spec/engr-octo-armhf-images) 
+* Office of the CTO (OCTO) has produced its first ARM hard-float images (alpha stage). More information on the usage and the work related to those images can be found on [https://blueprints.launchpad.net/+spec/engr-octo-armhf-images](https://blueprints.launchpad.net/+spec/engr-octo-armhf-images)
 
 * And much more... The release details are linked from the "Details" column for each release artifact on the 11.07 release page.
-
-
-
-
-
-

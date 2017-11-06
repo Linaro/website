@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-05-23 14:26:03+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: cant-miss-demos-at-linaro-connect-in-hong-kong-announced
 title: Can't Miss Demos at Linaro Connect in Hong Kong Announced
 wordpress_id: 1643
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -21,43 +23,43 @@ Demos include:
 
 
 
-	
+
   * Big.LITTLE in-kernel Switcher (Linaro)
 
-	
+
   * SIProp – Combat Scouter – How much your Combat Power? (SIProp)
 
-	
+
   * Android Toolchain Improvements (Linaro)
 
-	
+
   * Origen Running Awesome Code (Linaro)
 
-	
+
   * Snowball with MM enablement (Linaro)
 
-	
+
   * Tizen on Snowball (Linaro)
 
-	
+
   * Google+ Hangouts on an ARM Board (Linaro)
 
-	
+
   * Low-Cost Logic Analyzer (Linaro)
 
-	
+
   * XBMC on Snowball - ST Ericsson Snowball (Linaro)
 
-	
+
   * (Ubuntu) Unity 3D on Snowball (Linaro)
 
-	
+
   * Ubuntu TV on Snowball (Linaro)
 
-	
+
   * PCM (Phase Change Memory) : Linaro kernel meets with the PCM technology (Micron)
 
-	
+
   * ARM DS-5 & Linaro (ARM)
 
 

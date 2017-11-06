@@ -8,7 +8,7 @@ slug: august-ceo-report
 title: August CEO report
 wordpress_id: 4125
 categories:
-- Linaro Blog
+- blog
 ---
 
 This month the mobile market outlook significantly changed over the course of a single week with Google’s acquisition of Motorola Mobile, and HP’s exit from the Web-OS device market. The most likely scenarios moving forward appear to be, first, despite their public pronouncements so far, Google selling the Motorola hardware businesses (Set Top Box and Mobile) and retaining the patents to help defend Android against IP claims, and second Web-OS making an exit in its current form, with HP selling the patent portfolio to one of the major industry players.

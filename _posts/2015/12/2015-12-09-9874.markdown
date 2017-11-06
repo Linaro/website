@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-12-09 14:27:50+00:00
 excerpt: Register now for Linaro Connect Bangkok 2016.   Learn more about the event
@@ -10,9 +10,9 @@ slug: '9874'
 title: Linaro Connect Bangkok 2016 Registration Now Open
 wordpress_id: 9874
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - conference
 - connect
 - Connect Events

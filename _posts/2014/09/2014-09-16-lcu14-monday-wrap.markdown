@@ -8,9 +8,9 @@ slug: lcu14-monday-wrap
 title: LCU14 Monday Wrap-up
 wordpress_id: 6682
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
+- Connect Events
 - android
 - AOSP
 - arm
@@ -453,67 +453,3 @@ The audience had questions about the Linux kernel driver. For example they wonde
 **Scenes from Day 1 of Linaro Connect USA 2014:**
 
 [![Pictures from Day 1 of LCU14](http://www.linaro.org/wp-content/uploads/2014/09/day-1-LCU14-picture-1024x1024.png)](http://www.linaro.org/wp-content/uploads/2014/09/day-1-LCU14-picture.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

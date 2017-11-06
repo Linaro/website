@@ -8,7 +8,7 @@ slug: vote-for-96boards-in-survey-and-hikey-software-update-available-now
 title: Vote for 96Boards in survey and HiKey software update available now!
 wordpress_id: 8650
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - dragonboard

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-12-21 12:37:28+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-1-contributor-linux-kernel-4-9-release
 title: 'Linaro #1 contributor to the Linux kernel 4.9 release'
 wordpress_id: 11995
 categories:
-- Linaro Blog
+- blog
 ---
 
 Linaro has been a long-standing top 5 company contributor to Linux kernel development.

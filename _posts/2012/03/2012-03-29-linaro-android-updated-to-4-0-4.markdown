@@ -8,6 +8,8 @@ slug: linaro-android-updated-to-4-0-4
 title: Linaro Android updated to 4.0.4
 wordpress_id: 1457
 categories:
+- blog
+tags:
 - Android
 - Community
 - Patch-Highlights
@@ -20,7 +22,7 @@ The complete source is available in our [git repository](http://android.git.lina
 
 To get a complete Linaro Android 4.0.4 build, run
 
-    
+
     repo init -u git://android.git.linaro.org/platform/manifest.git -b linaro_android_4.0.4 -m BUILDTYPE.xml
     repo sync
 

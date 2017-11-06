@@ -12,8 +12,9 @@ title: 'CoreSight: Initial steps in supporting HW assisted tracing on Linux for 
   SoCs'
 wordpress_id: 6299
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - CoreSight
 - socs

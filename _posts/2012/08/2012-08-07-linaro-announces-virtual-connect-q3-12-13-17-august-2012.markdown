@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-08-07 18:34:06+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-announces-virtual-connect-q3-12-13-17-august-2012
 title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
 wordpress_id: 1735
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -37,13 +39,13 @@ Sessions run for 1.5 hours, with an additional 30 minutes of grace time being av
 
 
 
-	
+
   * 10:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1000))
 
-	
+
   * 15:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1500))
 
-	
+
   * 21:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T2100))
 
 
@@ -56,7 +58,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 
 
 
-<table > 
+<table >
 <tbody >
 <tr >
 

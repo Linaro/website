@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-14 21:28:43+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-android-team-to-participate-in-android-builders-summit-2013
 title: Linaro Android Team to Participate in Android Builders Summit 2013
 wordpress_id: 2346
 categories:
+- blog
+tags:
 - Android
 - Community
 ---
@@ -29,16 +31,16 @@ The primary goals of the Linaro Android Team is to develop and release tested[ m
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List:  mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/android)
 
 

@@ -8,9 +8,10 @@ slug: local-lava-testing-of-android-ics
 title: Local LAVA testing of Android ICS
 wordpress_id: 986
 categories:
+- blog
+tags:
 - Android
 - LAVA
-tags:
 - android
 - lava
 - testing

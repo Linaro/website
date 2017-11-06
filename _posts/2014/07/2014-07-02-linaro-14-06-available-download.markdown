@@ -8,7 +8,7 @@ slug: linaro-14-06-available-download
 title: Linaro 14.06 Available for Download!
 wordpress_id: 6054
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - arm

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-03-04 02:50:19+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: welcome-to-linaro-connect-asia-2013
 title: Welcome to Linaro Connect Asia 2013
 wordpress_id: 2490
 categories:
-- Linaro Blog
+- blog
 ---
 
 Welcome to Linaro Connect Asia 2013 in Hong Kong.

@@ -12,8 +12,9 @@ slug: on-the-performance-of-arm-virtualization
 title: On the Performance of ARM Virtualization
 wordpress_id: 10716
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - ARM servers
 - KVM

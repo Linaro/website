@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2015-08-27 21:36:08+00:00
 excerpt: Learn about what the Linaro Digital Home Group (LHG) has planned for the
@@ -10,7 +10,7 @@ slug: linaro-digital-home-group-at-sfo15
 title: Linaro Digital Home Group at SFO15
 wordpress_id: 9189
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - LHG

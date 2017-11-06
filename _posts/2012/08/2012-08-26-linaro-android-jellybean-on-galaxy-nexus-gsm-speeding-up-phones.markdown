@@ -8,6 +8,8 @@ slug: linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones
 title: Linaro Android JellyBean on Galaxy Nexus (GSM) - Accelerating Mobile Devices
 wordpress_id: 1830
 categories:
+- blog
+tags:
 - Android
 - Hardware
 ---

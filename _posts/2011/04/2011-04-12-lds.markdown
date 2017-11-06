@@ -8,8 +8,9 @@ slug: lds
 title: Linaro Developer Summit in Budapest, May 9-13
 wordpress_id: 3380
 categories:
-- Community
+- blog
 tags:
+- Community
 - community
 - developer summit
 ---
@@ -31,6 +32,6 @@ You can still have a look at the previous LDS agenda to see the kind of topics t
 
 If you are not sure you can participate to the whole week, we would recommend to be present at least on the first three days (essential), and if possible to the fourth one (must-have but unpredictable). Extra sessions and follow-ups get arranged throughout the week and these tend to be pushed to Thursday and Friday.
 
-If you plan to come, we advise you to participate to our [Introduction to Linaro@UDS introduction conf-call](https://wiki.linaro.org/Events/2011-05-LDS/#An%20Introduction%20to%20the%20Linaro@UDS%20Event) this week. Matt Waddel will be able to answer all your questions and help you to get the best out of LDS! 
+If you plan to come, we advise you to participate to our [Introduction to Linaro@UDS introduction conf-call](https://wiki.linaro.org/Events/2011-05-LDS/#An%20Introduction%20to%20the%20Linaro@UDS%20Event) this week. Matt Waddel will be able to answer all your questions and help you to get the best out of LDS!
 
 We hope  to see you there!

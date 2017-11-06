@@ -8,7 +8,7 @@ slug: wrap-final-day-lca14
 title: Wrap-up of the final day of LCA14
 wordpress_id: 5414
 categories:
-- Linaro Blog
+- blog
 ---
 
 

@@ -12,6 +12,8 @@ slug: debugging-arm-kernels-using-nmifiq
 title: Debugging ARM kernels using NMI/FIQ
 wordpress_id: 7904
 categories:
+- blog
+tags:
 - Core Dump
 ---
 
@@ -35,7 +37,7 @@ There is a significant overlap between the two debugger so it did not seem worth
 A debugger based on FIQ are robust enough to remain functional in circumstances where other on-device debuggers fail. In particular a debugger based on regular interrupts can only be invoked when interrupts are enabled, making it very difficult to debug failures that occur within critical sections when interrupts are masked.
 
 
-# 
+#
 
 
 
@@ -64,7 +66,7 @@ The code was fully functional and allowed us to develop a good understanding of 
 We regularly [shared the resulting patchset](http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027) on the kernel mailing lists. The community feedback arising from these patches convinced us that we need to raise our sights beyond kgdb and build a foundation to support all of the kernels existing NMI based features. Only by building this foundation would we be able to convince the maintainers that our approach was the correct one.
 
 
-# 
+#
 
 
 
@@ -179,28 +181,28 @@ Some ideas to try out:**** ****
 
 
 
-	
+
   * <SysRq>-L (either by echo l > /proc/sysrq-trigger or by sending <Break>-L via the UART): This will show the stack trace of all CPUs. This should show the CPU requesting the backtrace running __handle_sysrq and all other CPUs responding by running handle_fiq_as_nmi.
 
-	
+
   * perf top: This will show a simple statistical profile based on counting CPU cycles used. Try to run a use-case that you know involves significant interrupt locking in order to see the full benefit (or use the dd example from earlier).
 
-	
+
   * cat /proc/interrupts: The NMI field is incremented by the default FIQ handler (handle_fiq_as_nmi) allowing you to quickly check FIQ is working for you.
 
-	
+
   * Set the NMI watchdog running (echo 0 > /proc/sys/kernel/nmi_watchdog; echo 1 > /proc/sys/kernel/nmi_watchdog) and then write a kernel module to make the kernel lockup (you could also use the one already included in the merge/fiq branch).
 
 
 To experiment with kgdb/kdb you will need to modify the kernel command line to enable the NMI-based serial port wrapper. This will vary depending upon your serial port settings by as an example:
 
-    
+
     console=ttyAMA0,115200
 
 
 Should be changed to:
 
-    
+
     console=<b>ttyNMI0 kgdboc=</b>ttyAMA0,115200
 
 
@@ -216,13 +218,13 @@ There are three potential activities related to this work in the future:**** **
 
 
 
-	
+
   1. All the patches discussed will be maintained both to nurse them until they are delivered to the upstream kernel and to ensure they continue to be supported after they are merged.
 
-	
+
   2. ARMv8-A and GICv3 introduce a new co-processor interface to the GIC (both for AArch32 and AArch64) that we hope can be exploited to simulate NMIs without using FIQ. This should allow modern ARM devices to benefit from the robustness of NMI debug features without needing to run in secure mode.
 
-	
+
   3. OP-TEE and other secure monitors could be extended to allow it to handle some FIQs on behalf of the non-secure OS and route these interrupts back into the non-secure world. This would allow an NMI to be present even where Linux cannot run in secure mode.
 
 
@@ -236,7 +238,7 @@ When we started this work our goal was to take a single feature from Android and
 _The community is, of course, made up of individuals and among the many people I have met so far I would especially like to thank Thomas Gleixner, Russell King, John Stultz, Dirk Behme and Will Deacon who variously have helped with code reviews, advice, feedback and encouragement._**
 
 
-## 
+##
 
 
 
@@ -249,5 +251,3 @@ _The community is, of course, made up of individuals and among the many people I
 
 
 [1] Once spin_lock_irq() has masked interrupts it becomes invisible to the profiler no matter how long it spends spinning trying to acquire the contended lock.
-
-

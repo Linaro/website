@@ -8,8 +8,9 @@ slug: linaro-connect-git-tips
 title: 'Linaro Connect: kernel hackers share git tips'
 wordpress_id: 374
 categories:
-- Community
+- blog
 tags:
+- Community
 - community
 - git
 - kernel
@@ -23,5 +24,3 @@ Linux kernel hackers Arnd Bergmann, Nicolas Pitre, Grant Likely, Linus Walleij, 
 The room was a bit dark and so is the video, unfortunately. However, this "git party" can be like a gold mine for people using git in their everyday life: it is dark like any mine, but full of precious nuggets. Git has so many utilities and options that even the long time kernel contributors discovered new tricks by sharing their best tips.
 
 Now, get your lantern, your pickaxe and get into the mine by watching the video!
-
-

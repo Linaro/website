@@ -13,7 +13,7 @@ slug: finding-linaro-lwn-net
 title: Finding out about Linaro on LWN.net
 wordpress_id: 5888
 categories:
-- Linaro Blog
+- blog
 tags:
 - Engineering cycle
 - Linaro

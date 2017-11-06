@@ -8,7 +8,7 @@ slug: july-ceo-report
 title: July CEO Report
 wordpress_id: 4119
 categories:
-- Linaro Blog
+- blog
 ---
 
 Last month I discussed how Linaro's working groups deliver technology to kernel.org and other upstreams.   Over time, open source distributions including Google's Android utilize this work in their latest releases, benefiting Linaro's ARM SoC members by accelerating their time to market, and reducing their engineering costs. This is the core strategic value generated from membership of Linaro. This month I explore some of the additional benefits and value of Linaro membership.

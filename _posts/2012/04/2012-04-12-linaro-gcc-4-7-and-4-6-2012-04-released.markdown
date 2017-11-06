@@ -8,7 +8,10 @@ slug: linaro-gcc-4-7-and-4-6-2012-04-released
 title: Linaro GCC 4.7 and 4.6 2012.04 released
 wordpress_id: 1534
 categories:
+- blog
+tags:
 - Releases
+
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of both Linaro GCC 4.7 and Linaro GCC 4.6.
@@ -19,31 +22,31 @@ Interesting changes include:
 
 
 
-	
+
   * Our first 4.7 based release
 
-	
+
   * Updates to GCC 4.7.0+svn186061
 
-	
+
   * Better use of 16 bit Thumb-2 instructions for smaller code size
 
-	
+
   * Implements 64 bit ones complement in NEON
 
-	
+
   * Adds support for the ARMv6 saturation instructions
 
-	
+
   * Backports the NEON lexer improvements for faster compilation
 
-	
+
   * Backports the 64 bit multiply, divide, and mod improvements
 
 
 Fixes:
 
-	
+
   * [LP: #960283](http://bugs.launchpad.net/bugs/960283) slp pass assert when compiler configure with --enable-checking
 
 
@@ -51,13 +54,13 @@ Linaro GCC 4.6 2012.04 is the fourteenth release in the 4.6 series. Based off th
 
 Interesting changes include:
 
-	
+
   * Updates to 4.6.3+svn186060
 
 
 Fixes:
 
-	
+
   * [LP: #960283](http://bugs.launchpad.net/bugs/960283) slp pass assert when compiler configure with --enable-checking
 
 

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-10-28 12:30:08+00:00
 excerpt: Linaro has joined the Open Compute Project (OCP) as an official member and

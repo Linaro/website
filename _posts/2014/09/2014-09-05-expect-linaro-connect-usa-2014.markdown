@@ -8,8 +8,9 @@ slug: expect-linaro-connect-usa-2014
 title: 'What To Expect At Linaro Connect USA 2014 '
 wordpress_id: 6532
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - conference
 - Connect Events
 - Linaro
@@ -31,5 +32,3 @@ tags:
 **Friday 19th September** concludes the week with a packed morning of sessions covering topics from all segments, followed by a keynote by Linux Foundation Executive Director Jim Zemlin. The afternoon continues with demos and then summaries from the week for the next engineering cycle.
 
 [The full schedule is available here ](http://lcu14.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=739721&start=)
-
-

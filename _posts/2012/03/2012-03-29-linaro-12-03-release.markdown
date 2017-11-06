@@ -8,6 +8,8 @@ slug: linaro-12-03-release
 title: Linaro 12.03 release
 wordpress_id: 1477
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -128,17 +130,17 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC
 channels to stay on top of Linaro developments:
 
-	
+
   * Announcements:
 
 
@@ -146,7 +148,7 @@ channels to stay on top of Linaro developments:
 
 
 
-	
+
   * Development:
 
 
@@ -154,7 +156,7 @@ channels to stay on top of Linaro developments:
 
 
 
-	
+
   * IRC:
 
 

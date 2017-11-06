@@ -8,9 +8,10 @@ slug: lava-introduction
 title: LAVA Introduction
 wordpress_id: 4116
 categories:
-- LAVA
+- blog
 tags:
 - lava
+- LAVA
 ---
 
 Hi there.

@@ -8,6 +8,8 @@ slug: automated-validation-with-lava
 title: Automated Validation with LAVA
 wordpress_id: 842
 categories:
+- blog
+tags:
 - Community
 - Hardware
 - LAVA
@@ -44,5 +46,3 @@ Additionally, bringing together results in a more readily consumable form, with 
 ● LAVA Project Page on Launchpad - http://launchpad.net/lava
 
 ● LAVA Server - http://validation.linaro.org/lava-server
-
-

@@ -8,7 +8,7 @@ slug: linaro-15-01-release-available-immediate-download
 title: Linaro 15.01 Release Available for Immediate Download!
 wordpress_id: 7829
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - arm

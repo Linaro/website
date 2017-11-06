@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-10-28 16:14:12+00:00
 layout: post
@@ -8,9 +8,9 @@ slug: linaro-1610-release
 title: Linaro 16.10 Release Available for Download
 wordpress_id: 11844
 categories:
-- Linaro Blog
-- Releases
+- blog
 tags:
+- Releases
 - android
 - arm
 - ARMv8
@@ -33,9 +33,9 @@ tags:
 
 <blockquote>
 
-> 
+>
 > "The first rule of all intelligent tinkering is to keep all the parts."  -- Aldo Leopold, quoted in Donald Wurster's "Nature's Economy"
-> 
+>
 > </blockquote>
 
 
@@ -52,7 +52,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
- 	
+
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -62,16 +62,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -81,7 +81,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
- 	
+
   * [http://www.linaro.org/projects/armv8/](http://www.linaro.org/projects/armv8/)
 
 
@@ -91,7 +91,7 @@ The Debian-based images consist of two parts. The first part is a hardware pack
 
 
 
- 	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -101,28 +101,28 @@ More information on Linaro can be found on our websites:
 
 
 
- 	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
- 	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
- 	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
- 	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
- 	
+
   * IRC:
 
- 	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
- 	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
@@ -133,10 +133,5 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
- 	
+
   * Bug reports for this release should be filed in Bugzilla ([http://bugs.linaro.org](http://bugs.linaro.org/)) against the individual packages or projects that are affected.
-
-
-
-
-

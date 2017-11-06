@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-01-30 18:48:51+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: open-compute-event-opens-door-to-working-together
 title: Open Compute Event Opens Door to Working Together
 wordpress_id: 2252
 categories:
+- blog
+tags:
 - Community
 ---
 

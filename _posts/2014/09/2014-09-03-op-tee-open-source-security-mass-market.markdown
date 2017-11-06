@@ -8,8 +8,9 @@ slug: op-tee-open-source-security-mass-market
 title: OP-TEE, open-source security for the mass-market
 wordpress_id: 6500
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - android
 - Android L
 - emulator
@@ -57,5 +58,3 @@ Hervé is Security architect, Director, at STMicroelectronics. After 3 years as 
 **Joakim Bech / **Security Working Group, Tech Lead / Linaro
 
 Joakim has been a Linux user for about 15 years and for the 8 years prior to joining Linaro he was working in the telecom industry for companies such as Sony Ericsson, EMP and ST-Ericsson. Roles there included architect, team leader and development engineer. Most of his time has been spent in embedded security where he was a major contributor to the GlobalPlatform certified TEE / TrustZone solution created by ST-Ericsson.
-
-

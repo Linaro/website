@@ -8,6 +8,8 @@ slug: the-evolution-of-the-linaro-kernel
 title: The Evolution of the Linaro Kernel
 wordpress_id: 4126
 categories:
+- blog
+tags:
 - Industry
 ---
 

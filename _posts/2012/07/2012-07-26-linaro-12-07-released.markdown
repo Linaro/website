@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-07-26 17:22:56+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-12-07-released
 title: Linaro 12.07 Released
 wordpress_id: 1720
 categories:
+- blog
+tags:
 - Releases
 ---
 

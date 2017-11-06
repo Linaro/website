@@ -10,7 +10,7 @@ slug: a-short-history-of-the-future-part-i
 title: A short History of the Future - Part I
 wordpress_id: 8807
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - Linaro

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2012-04-25 03:47:12+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: android-multimedia-on-origen-12-03
 title: Android Multimedia on Origen, 12.03
 wordpress_id: 1592
 categories:
+- blog
+tags:
 - Android
 - Community
 - Hardware

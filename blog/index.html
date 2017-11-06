@@ -3,10 +3,12 @@ title: Blog
 permalink: /blog/
 layout: blog
 pagination:
+    title: "Blog - Page :num"
     enabled: true
     trail:
         before: 4
         after: 4
+    category: blog
 css-pack: blog
 ---
 {% for post in paginator.posts %}
@@ -24,6 +26,4 @@ css-pack: blog
             </p>
         </div>
     </div>
-
-  </p>
 {% endfor %}

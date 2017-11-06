@@ -8,7 +8,7 @@ slug: linaro-11-05-plan-reviews
 title: Linaro 11.05 plan reviews
 wordpress_id: 3375
 categories:
-- Linaro Blog
+- blog
 tags:
 - '11.05'
 - confcall

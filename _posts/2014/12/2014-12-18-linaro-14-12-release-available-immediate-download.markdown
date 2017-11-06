@@ -8,9 +8,9 @@ slug: linaro-14-12-release-available-immediate-download
 title: Linaro 14.12 Release Available for Immediate Download!
 wordpress_id: 7740
 categories:
-- Linaro Blog
-- Releases
+- blog
 tags:
+- Releases
 - android
 - arm
 - ARMv8
@@ -33,9 +33,9 @@ tags:
 
 <blockquote>
 
-> 
+>
 > “Any technology that does not appear magical is insufficiently advanced." _**~ Gregory Benford**_
-> 
+>
 > </blockquote>
 
 
@@ -47,7 +47,7 @@ Linaro 14.12  release is now available for download.  See the detailed highlig
 
 
 
-	
+
   * [https://wiki.linaro.org/Cycles/1412/Release#Release_Information](https://wiki.linaro.org/Cycles/1412/Release#Release_Information)
 
 
@@ -55,7 +55,7 @@ We encourage everybody to use the 14.12 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-	
+
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -65,16 +65,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -84,7 +84,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -94,7 +94,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-	
+
   * [http://www.linaro.org/projects/armv8/](http://www.linaro.org/projects/armv8/)
 
 
@@ -104,28 +104,28 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
@@ -142,12 +142,10 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
 
-	
+
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
 
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
 Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](http://connect.linaro.org/hkg15/%20)
-
-

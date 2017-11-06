@@ -8,8 +8,9 @@ slug: the-linaro-android-platform-team-period-dec-21-to-dec-27
 title: The Linaro Android Platform Team, Period Dec. 21 to Dec. 27
 wordpress_id: 1126
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - arm
 - board
@@ -27,7 +28,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
-	
+
   * The 11.12 Release is [ out. ](http://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
 
 
@@ -39,22 +40,22 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
- 
+
   * Enhanced sincos() implementation added to bionic.
 
- 
+
   * Progress on Android 4.0.3 porting.
 
- 
+
   * Continued progress on strict-aliasing cleanup for ICS and 4.6 toolchain.
 
- 
+
   * Good progress on porting OMX IL libraries to ICS.
 
- 
+
   * Progress on running browser with monkeyrunner automation scripts.
 
- 
+
   * Good progress on WiFi integration for Snowball.
 
 
@@ -66,7 +67,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
-	
+
   * 894488	[ No busybox on ICS.](https://bugs.launchpad.net/linaro-android/+bug/894488)
 
 
@@ -78,7 +79,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
-	
+
   * Welcome Annamalai Lakshmanan from Samsung.
 
 
@@ -90,7 +91,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
-	
+
   * none
 
 
@@ -102,10 +103,8 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 
 
-   
+
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)
 
-   
+
   * [12.01 Milestone](https://launchpad.net/linaro-android/+milestone/12.01)
-
-

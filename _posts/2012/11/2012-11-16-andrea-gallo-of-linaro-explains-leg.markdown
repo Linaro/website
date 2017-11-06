@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-11-16 04:32:47+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: andrea-gallo-of-linaro-explains-leg
 title: Andrea Gallo of Linaro Explains LEG
 wordpress_id: 1995
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - Hardware
@@ -29,25 +31,25 @@ For those who want more information about how you can get in touch with Andrea a
 
 
 
-	
+
   * [LEG Website Page](http://www.linaro.org/engineering/leg)
 
-	
+
   * Mailing Lists
 
-	
+
     * [linaro-enterprise@lists.linaro.org ](mailto:linaro-enterprise@lists.linaro.org)
 
-	
+
     * where to [subscribe to the mailing list](http://lists.linaro.org/mailman/listinfo/linaro-enterprise)
 
-	
+
     * how and where to get help - [linaro-enterprise-request@lists.linaro.org](mailto:linaro-enterprise-request@lists.linaro.org) (just remember to add 'help' without the quotes in the subject or body of the email).
 
 
 
 
-	
+
   * IRC Channel - #linaro-enterprise on _irc.linaro.org_
 
 

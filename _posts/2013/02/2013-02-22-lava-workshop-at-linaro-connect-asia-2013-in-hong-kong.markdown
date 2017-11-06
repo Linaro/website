@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-22 16:31:50+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: lava-workshop-at-linaro-connect-asia-2013-in-hong-kong
 title: LAVA Workshop at Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2425
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 - LAVA
@@ -42,13 +44,13 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](http://www
 
 
 
-	
+
   * 10:00 - 11:00  AM - Tuesday 5 March - [Introduction](https://lca-13.zerista.com/event/member/72489) - Grand Ballroom B
 
-	
+
   * 4:00 - 6:00 PM - Wednesday 6 March - [Hands-On LAVA Session](https://lca-13.zerista.com/event/member/72677) - Grand Ballroom B
 
-	
+
   * 12:00 - 1:00 PM - Thursday 7 March - [Q&A Wrap-Up](https://lca-13.zerista.com/event/member/72377) - Grand Ballroom A
 
 
@@ -68,25 +70,25 @@ __1. Register for LCA13:[ http://connect.linaro.org](http://connect.linaro.org/)
 
 
 
-	
+
   * max. 20 participants - first come, first served.
 
-	
+
   * e-mail lca13-lava@linaro.org with Subject: “LAVA Workshop” (allow 3 days for a response)
 
-	
+
   * we will send detailed hardware/software requirements to you 1 week before the event
 
 
 3. Show up for the “Introduction” Session (Tue 11am)
 
-	
+
   * constrained by room size -> show up early to get a comfortable seat!
 
 
 4. Send in your questions for the “Q&A + Wrap-Up” Session (Tue 11am)
 
-	
+
   * at any time, before or during the workshop, send your questions to [lca13-lava@linaro.org](mailto:lca13-lava@linaro.org)
 
 
@@ -116,16 +118,16 @@ _The goal of the LAVA team is to maintain and develop automated testing tools to
 
 
 
-	
+
   * _[Meeting](https://wiki.linaro.org/Platform/LAVA/Meetings): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*_
 
-	
+
   * _Mailing List: mailto:linaro-validation@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-validation))_
 
-	
+
   * _IRC Channel: #linaro-lava on irc.linaro.org or irc.freenode.net_
 
-	
+
   * _[Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/lava)_
 
 

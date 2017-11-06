@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-03-09 19:14:22+00:00
 excerpt: Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015
@@ -11,7 +11,7 @@ slug: linaro-connect-hong-kong-2015-week-review
 title: Linaro Connect Hong Kong 2015- week in review
 wordpress_id: 8250
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

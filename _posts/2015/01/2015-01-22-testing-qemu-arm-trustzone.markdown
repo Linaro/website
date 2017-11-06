@@ -11,8 +11,9 @@ slug: testing-qemu-arm-trustzone
 title: Testing QEMU ARM TrustZone
 wordpress_id: 7787
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - qemu
 - testing
@@ -34,22 +35,22 @@ Achieving backwards compatibility and allowing easy future use of ARM TrustZone,
 
 
 
-	
+
   * The Security Extensions will be available only on machines supporting ARM1176, Cortex-A8, Cortex-A9, and Cortex A-15 CPUs.
 
-	
+
   * The ARM Security extensions are currently only supported, and enabled by default, on the Versatile Express and the virt machine models. All other machine models will have the ARM Security extensions disabled by default.
 
-	
+
   * A ‘-secure=on/off’ machine option is introduced to allow the override of the default security extension settings on the above supported machines. This option is unavailable on all other machine models. Disabling the security extension will restore the legacy behavior to no secure state.
 
-	
+
   * Using the -kernel command line option to run Linux on an ARM Versatile Express machine model will result in it booting into the secure state by default. If undesirable, the user may disable the security extension as described above.
 
-	
+
   * Use of the -kernel command line option to run Linux on a QEMU virt machine model will result in it booting into non-secure state by default. If undesirable, the user may disable the security extension as described above.
 
-	
+
   * Use of the -bios command line option on either the ARM Versatile Express or QEMU virt machine models will result in the machines starting up in secure state,  from cold reset, as defined by the ARM architecture. If undesirable, the user may disable the security extension as described above. The -bios command is the preferred approach for running TrustZone enabled environments.
 
 
@@ -315,36 +316,36 @@ The instructions in the previous blog post are still relevant and may be followe
 
 The early QEMU TrustZone tests are available via GIT. Once cloned, change directory to the newly created test root directory (qemu.tztest in the below example), the test can be configured and built for a given architecture. Running configure with no options builds the test for Versatile Express with a ARM Cortex A15.
 
-    
+
     $ git clone <a href="https://git.linaro.org/virtualization/qemu-tztest.git" target="_blank">https://git.linaro.org/virtualization/qemu-tztest.git</a>
-    
+
     $ cd qemu.tztest
-    
+
     $ ./configure
-    
+
     $ make
-    
-    
+
+
 
 
 The tests can then be run with the following command from the root of the QEMU directory (not the test directory):
 
-    
+
     $ ./arm-softmmu/qemu-system-arm -machine vexpress-a15 -cpu cortex-a15 -serial stdio -m 1024 -bios $PATH_TO_TESTDIR/arm/tztest.img
-    
-    
+
+
 
 
 Alternatively, the test can be configured for and run on QEMU’s virt device:
 
-    
+
     $ ./configure --arch=arm --plat=virt --cpu=cortex-a15
-    
+
     ...
-    
+
     $ ./arm-softmmu/qemu-system-arm -machine virt -cpu cortex-a15 -serial stdio -m 1024 -bios $PATH_TO_TESTDIR/arm/tztest.img
-    
-    
+
+
 
 
 Currently, the tests are restricted to the ARM Versatile Express and Virt machine models, but can be expanded in the future to include other models.

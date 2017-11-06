@@ -1,5 +1,5 @@
 ---
-author: ChunyanZhang
+author: chunyan.zhang
 comments: false
 date: 2016-09-06 04:24:15+00:00
 excerpt: Read about System Trace Module (STM) which can not only collect trace data
@@ -11,8 +11,9 @@ slug: stm-and-its-usage
 title: System Trace Module (STM) and its usage
 wordpress_id: 11549
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - CoreSight
 - Linaro
 - Linux
@@ -161,10 +162,10 @@ An important element of stm_source is 'stm_source_data', it includes two necessa
 
 
 
- 	
+
   * stm_source name - it is just the file node name in sysfs.
 
- 	
+
   * channel numbers - it means this stm_source requests to be allocated how many channels when linking stm_source with STM device, then the driver of STM framework will look up and allocate this quantity of available channels for the stm_source according to STM master/channel management policy.
 
 
@@ -181,7 +182,7 @@ The stm_source class has a set of masters and channels allocation and management
 
 ![figure 1 stm blog](http://www.linaro.org/wp-content/uploads/2016/09/figure-1-stm-blog.jpg)
 
-Like the Figure-1 is showing, when linking stm_source with STM device, the program will poll all masters from either 
+Like the Figure-1 is showing, when linking stm_source with STM device, the program will poll all masters from either
 
 1). the start master configured in the file named "masters" under the policy rule directory if there’s a policy rule under  _/config/stp-policy/_ which has the same name with the stm_source class device,
 
@@ -231,10 +232,10 @@ The files masters/channels are configurable and the rule would be applied on the
 
 
 
- 	
+
   1. Set the policy rule via ioctl() interface of STM device.  One rule would include the allocated master, the first assigned channel, the number of required channels.  More details about this would be introduced in the following section **Mapping STM to user-space.**
 
- 	
+
   2. If an application program doesn't set policy rule for itself, when the application writing data to STM via the system call - write() - of STM device, a rule named “default” will be applied, if the “default” policy cannot be found either, like what I wrote above, the initialized configuration of STM device will be applied.
 
 
@@ -426,7 +427,7 @@ _opencsd/decoder$ cp cstraceitm.bin tests/snapshots/stm_only/
 opencsd/decoder$ export LD_LIBRARY_PATH=./lib/linux64/dbg/
 opencsd/decoder$ ./tests/bin/linux64/dbg/trc_pkt_lister -ss_dir tests/snapshots/stm_only/ -src_name ETB_1 | vim -_
 
-The decoded trace data will look like below: 
+The decoded trace data will look like below:
 
 _Trace Packet Lister: CS Decode library testing
 -----------------------------------------------_
@@ -486,7 +487,5 @@ I hope this post provided an useful introduction to STM and presented how to use
 
 
 
- 	
+
   1. OpenCSD is an open source CoreSight Trace Decode library [7], there are two articles introduced OpenCSD in Linaro Core Dump
-
-

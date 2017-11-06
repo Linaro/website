@@ -8,8 +8,9 @@ slug: elc-slides
 title: Slides from Linaro engineers at ELC 2011
 wordpress_id: 3382
 categories:
-- Community
+- blog
 tags:
+- Community
 - conference
 - embedded
 - Linux
@@ -48,4 +49,3 @@ As usual, presentation slides for this conference are being collected on [elinux
 
 
 Videos will be available soon too. Stay tuned!
-

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-02-12 20:24:31+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: thursday-linaro-connect-hong-kong-2015
 title: Thursday of Linaro Connect Hong Kong 2015
 wordpress_id: 8002
 categories:
-- Linaro Blog
+- blog
 ---
 
 [vc_row][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]

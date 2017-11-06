@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-05-18 19:29:37+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-lemaker-oscon-showcase-hikey
 title: Linaro and Lemaker at OSCON to showcase HiKey
 wordpress_id: 10627
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - ARMv8

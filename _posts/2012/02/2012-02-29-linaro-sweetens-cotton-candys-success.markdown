@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-02-29 22:48:01+00:00
 layout: post
@@ -8,8 +8,10 @@ slug: linaro-sweetens-cotton-candys-success
 title: Linaro Sweetens Cotton Candy's Success
 wordpress_id: 1311
 categories:
+- blog
+tags:
 - Community
-- Hardware
+- Hardwares
 - Industry
 ---
 

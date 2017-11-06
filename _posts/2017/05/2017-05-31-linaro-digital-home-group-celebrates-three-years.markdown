@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2017-05-31 17:27:29+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-digital-home-group-celebrates-three-years
 title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - android

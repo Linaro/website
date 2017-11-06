@@ -8,6 +8,8 @@ slug: august-2012-ceo-report
 title: August 2012 CEO Report
 wordpress_id: 1884
 categories:
+- blog
+tags:
 - Connect Events
 ---
 

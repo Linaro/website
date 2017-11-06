@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-01-12 17:41:24+00:00
 layout: post
@@ -8,8 +8,9 @@ slug: linaro-qemu-2012-01-released
 title: Linaro QEMU 2012.01 released
 wordpress_id: 1173
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - Linaro
 - qemu
 - release

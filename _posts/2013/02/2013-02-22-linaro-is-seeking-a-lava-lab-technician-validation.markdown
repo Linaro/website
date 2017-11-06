@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-22 20:40:01+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-is-seeking-a-lava-lab-technician-validation
 title: Linaro is Seeking a LAVA Lab Technician - Validation
 wordpress_id: 2450
 categories:
+- blog
+tags:
 - Community
 ---
 

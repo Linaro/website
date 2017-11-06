@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2016-09-02 15:35:39+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board
 wordpress_id: 11525
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - Enterprise edition

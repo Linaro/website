@@ -10,7 +10,7 @@ slug: las-vegas-2016-come
 title: Las Vegas 2016 - here we come!
 wordpress_id: 10657
 categories:
-- Linaro Blog
+- blog
 tags:
 - conference
 - connect

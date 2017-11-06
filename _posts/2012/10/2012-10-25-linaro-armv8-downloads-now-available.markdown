@@ -8,6 +8,8 @@ slug: linaro-armv8-downloads-now-available
 title: Linaro ARMv8 Downloads Now Available
 wordpress_id: 1947
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -45,13 +47,13 @@ flavors:
 
 
 
-	
+
   * minimal -- just to get you to a shell prompt
 
-	
+
   * SDK -- includes developer tools such as a native GNU toolchain
 
-	
+
   * LAMP -- includes MySQL, Apache, and PHP!
 
 

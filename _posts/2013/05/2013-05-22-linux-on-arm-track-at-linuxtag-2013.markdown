@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-05-22 17:57:39+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linux-on-arm-track-at-linuxtag-2013
 title: Linux on ARM Track at LinuxTag 2013
 wordpress_id: 2731
 categories:
+- blog
+tags:
 - Industry
 ---
 

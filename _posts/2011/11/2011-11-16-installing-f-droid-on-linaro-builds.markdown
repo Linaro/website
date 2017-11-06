@@ -8,8 +8,9 @@ slug: installing-f-droid-on-linaro-builds
 title: Installing F-Droid on Linaro builds
 wordpress_id: 879
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - app
 - free software

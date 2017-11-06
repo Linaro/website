@@ -8,6 +8,8 @@ slug: linaro-toolchain-binaries-2012-04-released
 title: Linaro Toolchain Binaries 2012.04 released
 wordpress_id: 1604
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -17,13 +19,13 @@ Uses include:
 
 
 
-	
+
   * Cross compiling ARM applications from your laptop
 
-	
+
   * Remote debugging
 
-	
+
   * Build the Linux kernel for your board
 
 
@@ -31,16 +33,16 @@ What's included:
 
 Linaro GCC 4.7 2012.04
 
-	
+
   * Linaro GDB 7.4 2012.04
 
-	
+
   * A statically linked gdbserver
 
-	
+
   * A system root
 
-	
+
   * Manuals under share/doc/
 
 
@@ -48,16 +50,16 @@ The system root contains the basic header files and libraries to link your progr
 
 Interesting changes include:
 
-	
+
   * Switches to the new GCC 4.7 based Linaro GCC
 
-	
+
   * Adds native language support to most of the programs
 
-	
+
   * Adds the mudflap, ssp, and gomp runtime libraries
 
-	
+
   * Enables gnu_unique_object support in GCC
 
 

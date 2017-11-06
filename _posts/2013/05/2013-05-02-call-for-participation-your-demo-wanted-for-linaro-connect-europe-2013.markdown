@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-05-02 15:48:01+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013
 title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
 wordpress_id: 2677
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -47,8 +49,8 @@ _
 
 
 
-	
-  * 
+
+  *
 
 
 Name
@@ -56,8 +58,8 @@ Name
 
 
 
-	
-  * 
+
+  *
 
 
 Company
@@ -65,8 +67,8 @@ Company
 
 
 
-	
-  * 
+
+  *
 
 
 Title of demonstration
@@ -74,8 +76,8 @@ Title of demonstration
 
 
 
-	
-  * 
+
+  *
 
 
 Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)
@@ -83,8 +85,8 @@ Description of demonstration (The demonstration must be Linaro related, and thos
 
 
 
-	
-  * 
+
+  *
 
 
 Any equipment requirements
@@ -92,8 +94,8 @@ Any equipment requirements
 
 
 
-	
-  * 
+
+  *
 
 
 Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends.

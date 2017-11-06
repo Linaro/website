@@ -8,7 +8,7 @@ slug: 11-09-linaro-android-release-candidates-are-available
 title: 11.09 Linaro Android Release Candidates are Available
 wordpress_id: 559
 categories:
-- Linaro Blog
+- blog
 tags:
 - Linaro Android 11.09 Release Candidate
 ---

@@ -8,8 +8,9 @@ slug: assemble-origen-lcd-kit
 title: Connecting the Samsung Origen board to its LCD kit
 wordpress_id: 3397
 categories:
-- Hardware
+- blog
 tags:
+- Hardware
 - board
 - hardware
 - origen
@@ -35,7 +36,3 @@ The video can also be downloaded in WebM format:
 
 
 More details about Origen board hardware can be found on the [OrigenBoard.org](http://www.origenboard.org/documents.php) website.
-
-
-
-

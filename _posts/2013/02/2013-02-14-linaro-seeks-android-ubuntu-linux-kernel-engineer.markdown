@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-14 22:05:26+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-seeks-android-ubuntu-linux-kernel-engineer
 title: Linaro Seeks Android Ubuntu Linux Kernel Engineer
 wordpress_id: 2352
 categories:
+- blog
+tags:
 - Community
 ---
 

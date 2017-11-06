@@ -12,7 +12,7 @@ slug: vm-system-specification-arm-processors
 title: VM System Specification for  ARM Processors
 wordpress_id: 6454
 categories:
-- Linaro Blog
+- blog
 tags:
 - white paper
 ---

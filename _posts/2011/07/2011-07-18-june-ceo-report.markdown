@@ -8,7 +8,7 @@ slug: june-ceo-report
 title: June CEO Report
 wordpress_id: 3394
 categories:
-- Linaro Blog
+- blog
 ---
 
 Linaro exists because our members understood that working together on common non-differentiating problems was far more cost effective than each working to solve those problems again and again.

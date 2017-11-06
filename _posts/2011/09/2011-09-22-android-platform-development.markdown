@@ -8,7 +8,7 @@ slug: android-platform-development
 title: 'Video - Zach Pfeffer: Android platform development'
 wordpress_id: 550
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - arm

@@ -9,9 +9,10 @@ title: Try Linaro's 11.09 Toolchain and our 2nd Android Release Candidate Based 
   It
 wordpress_id: 530
 categories:
-- Releases
+- blog
 tags:
 - android
+- Releases
 - Linaro
 - toolchain
 ---

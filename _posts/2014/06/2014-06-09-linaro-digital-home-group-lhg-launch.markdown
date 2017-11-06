@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2014-06-09 19:48:48+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-digital-home-group-lhg-launch
 title: Linaro Digital Home Group (LHG) Launch
 wordpress_id: 5986
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - digital home

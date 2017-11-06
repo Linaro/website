@@ -8,8 +8,7 @@ slug: welcome-linaro-connect-hong-kong-2015
 title: Welcome to Linaro Connect Hong Kong 2015!
 wordpress_id: 7859
 categories:
-- Connect Events
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

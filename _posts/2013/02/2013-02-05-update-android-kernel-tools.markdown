@@ -9,8 +9,9 @@ title: An Easy Way to Update Android Kernel Related Files Without Getting the sd
   Out
 wordpress_id: 2231
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - kernel
 - Linaro
@@ -25,25 +26,25 @@ The Linaro Android team now has tools to help you update kernel related files fo
 
 Do you want to update the kernel related files with a new boot.tar.bz2? You can do so with the following command:
 
-    
+
     ./update-android.sh out/target/product/pandaboard/boot.tar.bz2
 
 
 Do you want to update only the board.dtb file? No problem, you can do:
 
-    
+
     ./update-android.sh out/target/product/pandaboard/boot/board.dtb
 
 
 Do you just want to update the loglevel in /init.rc to 8?  Use the following command:
 
-    
+
     ./update-uInitrd.sh /tmp/init.rc
 
 
 What do you think about the tools? Do you want to give these commands a try? If so, you can get these scripts by using the following command:
 
-    
+
     git clone http://android.git.linaro.org/git-ro/platform/external/linaro-android-tools.git
 
 
@@ -56,16 +57,16 @@ _The primary goals of the Linaro Android Team is to develop and release tested 
 
 
 
-	
+
   * _[Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
 
-	
+
   * _Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-	
+
   * _IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net_
 
-	
+
   * _[Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/android)_
 
 
@@ -77,16 +78,16 @@ _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are 
 
 
 
-	
+
   * _[Meeting](https://wiki.linaro.org/WorkingGroups/Kernel/Meetings): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*_
 
-	
+
   * _Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-	
+
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-	
+
   * _[Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/kernel)_
 
 

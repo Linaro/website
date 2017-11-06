@@ -8,8 +8,9 @@ slug: lcu13-tuesday-recap
 title: LCU13 Tuesday Recap
 wordpress_id: 3128
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - connect
 - Linaro Connect
 - Linux
@@ -23,31 +24,31 @@ Linaro Connect sessions followed the keynotes in the morning of Tuesday and the
 
 
 
-	
+
   * [Android upstreaming - status and future:](http://lcu-13.zerista.com/event/member/85107)[View Video](http://www.youtube.com/watch?v=BeK28igciCk), [Download slides](http://www.linaro.org/documents/download/267fe5b654b3391646d62d4ce9ced418526967bd567ea)
 
-	
+
   * [High Performance Networking - Deep dive](http://lcu-13.zerista.com/event/member/85112):  [View Video](http://www.youtube.com/watch?v=QTtKOoIteaY), [Download Slides](http://www.linaro.org/documents/download/d5fc06fdc56007d0aba563d82141a8ab5269a3271bc36)
 
-	
+
   * [LAVA LMP Round Table](http://lcu-13.zerista.com/event/member/85123):  [Download Slides](http://www.linaro.org/documents/download/a8a8bd7d571665296475d868d71652a852696f8f90a08)
 
-	
+
   * [Clock Bindings](http://lcu-13.zerista.com/event/member/85110):  [View Video](http://www.youtube.com/watch?v=ZwwQdAwQsKg), [Download Slides](http://www.linaro.org/documents/download/fe73f018507ae60e2945fb74af9b28375270498b14a89)
 
-	
+
   * [Tracing and Debugging for Networking Applications](http://lcu-13.zerista.com/event/member/85105):  [View Video](http://www.youtube.com/watch?v=z3BdRxMNuwA), [Download Slides](http://www.linaro.org/documents/download/31d34eee0b68bea09e08af115a36097a5266dfa5785dc)
 
-	
+
   * [UEFI Next Steps for Enterprise](http://lcu-13.zerista.com/event/member/85111)[:  View Video](http://www.youtube.com/watch?v=IwlOpwHVzwM)
 
-	
+
   * [Ask a Toolchain Engineer Q&A:  ](http://lcu-13.zerista.com/event/member/85113)  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
 
-	
+
   * [Is UEFI EDK II Ready for Android Mobile?](http://lcu-13.zerista.com/event/member/85114):  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
 
-	
+
   * [Discussion on ODP – Fastpath networking applications on Many Core SoCs](http://lcu-13.zerista.com/event/member/85109):  [View Video](http://www.youtube.com/watch?v=moWTXkbDrCQ), [Download Slides](http://www.linaro.org/documents/download/58c05d8029f91e051d6afc229e9afd2c526968f898e13)
 
 

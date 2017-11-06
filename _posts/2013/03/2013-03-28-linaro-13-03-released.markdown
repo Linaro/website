@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-03-28 20:20:04+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-13-03-released
 title: Linaro 13.03 Released!
 wordpress_id: 2612
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -177,7 +179,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
 [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
-
-

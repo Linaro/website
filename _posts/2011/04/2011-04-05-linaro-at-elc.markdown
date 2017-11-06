@@ -8,8 +8,9 @@ slug: linaro-at-elc
 title: Linaro at the Embedded Linux Conference
 wordpress_id: 3379
 categories:
-- Community
+- blog
 tags:
+- Community
 - conference
 - embedded
 - Linux

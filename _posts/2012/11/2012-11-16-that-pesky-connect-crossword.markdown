@@ -8,7 +8,7 @@ slug: that-pesky-connect-crossword
 title: That pesky Connect Crossword
 wordpress_id: 2002
 categories:
-- Linaro Blog
+- blog
 tags:
 - competion
 - connect

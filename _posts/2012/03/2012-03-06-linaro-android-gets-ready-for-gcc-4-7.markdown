@@ -8,6 +8,8 @@ slug: linaro-android-gets-ready-for-gcc-4-7
 title: Linaro Android gets ready for gcc 4.7
 wordpress_id: 1351
 categories:
+- blog
+tags:
 - Android
 - Community
 - Patch-Highlights
@@ -20,7 +22,7 @@ Overall, adding support for the new compiler went smoothly - in the process, we 
 Other than that, gcc was mainly screaming at code that should never have been valid, like this extreme fondness of variable name recycling uncovered in stagefright's Matroska decoder:
 
 
-    
+
     <tt>for(size_t i=0; ...) {
         ...
         int32_t i = 0;
@@ -35,4 +37,3 @@ Other than that, gcc was mainly screaming at code that should never have been va
 Currently, the gcc 4.7 based toolchain is available on [android-build](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.7-bzr/). 2 builds already using it -- [Pandaboard](https://android-build.linaro.org/builds/~linaro-android/panda-ics-gcc47-tilt-tracking-blob/) and [iMX6](https://android-build.linaro.org/builds/~linaro-android/imx6-ics-gcc47-freescalelt-stable-open/) -- are also available, and seem to work as expected.
 
 Builds for additional boards will follow shortly.
-

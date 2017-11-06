@@ -8,9 +8,10 @@ slug: kernel-working-group-a-linaro-connect-retrospective
 title: Kernel Working Group - A Linaro Connect Retrospective
 wordpress_id: 830
 categories:
-- Connect Events
+- blog
 tags:
 - community
+- Connect Events
 - connect
 - kernel
 - lava
@@ -39,17 +40,17 @@ The  KWG hosted a session on upstreaming of Android features and how Linaro  can
 
 
 
-	
+
   * The  current Android patches provide custom character devices as part of the   user <-> kernel interface. Arnd Bergmann suggested that these  should be replaced with more modern interfaces such as netlink, sysfs,  debugfs, etc.
 
 
 
-	
+
   * Any  changes made to the implementation of a given piece of functionality  will require multiple steps to fully validate to the point that it can  be shipped in devices. The application level APIs cannot be modified  easily as there are over 200,000 applications that depend on these APIs  so existing Android libraries that implement the developer APIs will  have to modified to use any new kernel <-> user interface that is  developed. These libraries are well tested and proven with millions of  devices shipped, so changes would have to be well validated before they  can be accepted as a replacement in new products. One possible solution  to mitigate the risk involved is to include the code as into the kernel,  focus on creating a new interface, and then provide a time period where  both interfaces co-exist.
 
 
 
-	
+
   * Some  of the functionality provided by the Android patches is not new or  unique to just Android. Logger for example, provides a method to save  system messages to a known location in memory that can be accessed by  firmware or a kexec rescue kernel when a panic occurs. This  functionality has been in place in various forms in the Carrier Grade  world and Linux includes the[ pstore filesystem](http://permalink.gmane.org/gmane.linux.kernel.commits.head/289849) that is used to provide this functionality on X86 ACPI systems with  nvram set aside for this purpose.  In theory, pstore could be modified  to use a memory backing or any other platform-specific method.
 
 

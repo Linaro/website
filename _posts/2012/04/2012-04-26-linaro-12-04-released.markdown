@@ -8,6 +8,8 @@ slug: linaro-12-04-released
 title: Linaro 12.04 released
 wordpress_id: 1609
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -94,4 +96,3 @@ For any errata issues, please see:
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-

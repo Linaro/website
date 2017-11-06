@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-10-20 15:25:54+00:00
 excerpt: Linaro announced that Jill Guo has been appointed as the Executive Vice President

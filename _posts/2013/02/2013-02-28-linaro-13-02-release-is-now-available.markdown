@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-28 18:58:24+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-13-02-release-is-now-available
 title: Linaro 13.02 Release is Now Available
 wordpress_id: 2480
 categories:
+- blog
+tags:
 - Releases
 ---
 

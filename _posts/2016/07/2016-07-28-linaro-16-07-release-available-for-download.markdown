@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-07-28 20:25:45+00:00
 layout: post
@@ -8,9 +8,9 @@ slug: linaro-16-07-release-available-for-download
 title: Linaro 16.07 Release Available for Download
 wordpress_id: 11296
 categories:
-- Linaro Blog
-- Releases
+- blog
 tags:
+- Releases
 - android
 - arm
 - ARMv8
@@ -30,13 +30,13 @@ tags:
 
 <blockquote>
 
-> 
+>
 > “As soon as we started programming, we found to our surprise that it wasn't
 as easy to get programs right as we had thought.  Debugging had to be
 discovered.  I can remember the exact instant when I realized that a large
 part of my life from then on was going to be spent in finding mistakes in
 my own programs." _**~ Maurice Wilkes, designer of EDSAC, on programming, 1949**_
-> 
+>
 > </blockquote>
 
 
@@ -50,7 +50,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
- 	
+
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -60,16 +60,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
- 	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -79,7 +79,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
- 	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -89,7 +89,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
- 	
+
   * [http://www.linaro.org/projects/armv8/](http://www.linaro.org/projects/armv8/)
 
 
@@ -99,7 +99,7 @@ The Debian-based images consist of two parts. The first part is a hardware pack
 
 
 
- 	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -109,28 +109,28 @@ More information on Linaro can be found on our websites:
 
 
 
- 	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
- 	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
- 	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
- 	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
- 	
+
   * IRC:
 
- 	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
- 	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
@@ -141,12 +141,10 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
- 	
+
   * Bug reports for this release should be filed in Bugzilla ([http://bugs.linaro.org](http://bugs.linaro.org/)) against the individual packages or projects that are affected.
 
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT Las Vegas 2016**
 
 Linaro Connect Las Vegas 2016 will be held September 26-30, 2016.  More information on this event can be found at: [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
-
-

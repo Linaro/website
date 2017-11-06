@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-09-28 03:49:38+00:00
 excerpt: See what took place on Tuesday during Linaro Connect LAS16.
@@ -9,7 +9,7 @@ slug: tuesday-highlights-linaro-connect-las16
 title: Tuesday Highlights at Linaro Connect LAS16
 wordpress_id: 11701
 categories:
-- Linaro Blog
+- blog
 tags:
 - conference
 - connect

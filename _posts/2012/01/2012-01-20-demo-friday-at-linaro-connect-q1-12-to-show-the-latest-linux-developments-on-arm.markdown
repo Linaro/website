@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-01-20 13:32:35+00:00
 layout: post
@@ -9,6 +9,8 @@ title: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
   ARM
 wordpress_id: 1207
 categories:
+- blog
+tags:
 - Connect Events
 ---
 
@@ -26,12 +28,3 @@ Linaro Connect Q1.12 will be take place at the Sofitel Hotel in Redwood City, Ca
 **Join us for Linaro Connect Q1.12**
 
 Linaro Connect is held every three to four months to bring the Linux on ARM community together to learn about the latest SoC developments, plan the next development cycle and hack together. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the ARM tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. Join us for our next event February 6-10th in San Francisco, CA. Learn more at[ http://connect.linaro.org](http://connect.linaro.org/)
-
-
-
-
-
-
-
-
-

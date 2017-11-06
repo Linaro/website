@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-09-26 15:31:07+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: lce-12-copenhagen-demo-friday-call-for-participation
 title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
 wordpress_id: 1911
 categories:
+- blog
+tags:
 - Connect Events
 ---
 
@@ -21,25 +23,25 @@ If you or someone you know is interested in presenting a demonstration on Friday
 
 
 
-	
+
   * _Name_
 
-	
+
   * _Company affiliation_
 
-	
+
   * _Title of the demonstration_
 
-	
+
   * _Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)_
 
-	
+
   * _Any equipment requirements_
 
-	
+
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after to close down_
 
-	
+
   * _A poster ([template attached](http://www.linaro.org/linaro-blog/wp-content/uploads/2012/09/Demo-Friday-Poster-Template_LCE_12_Copenhagen.odp)), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 19 October 2012 in order to guarantee printing)**_
 
 

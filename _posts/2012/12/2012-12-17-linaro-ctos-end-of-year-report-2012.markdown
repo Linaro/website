@@ -8,6 +8,8 @@ slug: linaro-ctos-end-of-year-report-2012
 title: Linaro, CTO’s End of Year Report (2012)
 wordpress_id: 2128
 categories:
+- blog
+tags:
 - Industry
 ---
 

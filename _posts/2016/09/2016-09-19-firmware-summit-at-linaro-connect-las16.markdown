@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-09-19 03:21:27+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: firmware-summit-at-linaro-connect-las16
 title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577
 categories:
-- Linaro Blog
+- blog
 tags:
 - Enterprise edition
 - Firmware

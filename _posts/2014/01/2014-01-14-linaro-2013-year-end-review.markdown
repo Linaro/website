@@ -8,7 +8,7 @@ slug: linaro-2013-year-end-review
 title: Linaro 2013 Year End Review
 wordpress_id: 3247
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - arm

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2016-05-20 16:22:57+00:00
 excerpt: 'Learn more about what was discussed in the 96Boards OpenHours week 2 session
@@ -10,7 +10,7 @@ slug: 96boards-openhours-week-2
 title: 96Boards OpenHours week 2
 wordpress_id: 10630
 categories:
-- Linaro Blog
+- blog
 tags:
 - 96Boards
 - android

@@ -8,8 +8,9 @@ slug: linaro-11-08-released
 title: Linaro 11.08 Released
 wordpress_id: 4124
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - Linaro
 - release
 ---
@@ -54,24 +55,24 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements:
 [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development:
 [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android on irc.linaro.org or irc.freenode.net

@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-18 19:01:52+00:00
 excerpt: ARM and Linaro are jointly developing "Energy Aware Scheduling", a technique
@@ -11,8 +11,9 @@ slug: energy-aware-scheduling-eas-progress-update
 title: Energy Aware Scheduling (EAS) progress update
 wordpress_id: 9319
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - arm
 - Linux
 - Linux on ARM
@@ -44,16 +45,16 @@ The goal is to introduce generic energy-awareness in upstream Linux:
 
 
 
-	
+
   1. Using a clean, generic design to support a broad range of CPU topologies.
 
-	
+
   2. Based on scientific, measured energy model data rather than magic tunables.
 
-	
+
   3. Providing a high-quality baseline solution that can be used as-is, or extended as needed.
 
-	
+
   4. Designed-for-mainline => reducing software maintenance costs.
 
 
@@ -66,13 +67,13 @@ EAS will unify 3 separate frameworks in the Linux kernel that are currently only
 
 
 
-	
+
   * Linux scheduler (Completely Fair Scheduler - CFS)
 
-	
+
   * Linux cpuidle
 
-	
+
   * Linux cpufreq
 
 
@@ -110,7 +111,7 @@ Since the original discussions started on the Linux Kernel Mailing List in 2013,
 [![AES blog image 3](/wp-content/uploads/2015/09/AES-blog-image-3.jpg)](/wp-content/uploads/2015/09/AES-blog-image-3.jpg)
 
 
-## 
+##
 
 
 
@@ -136,7 +137,7 @@ In the example below, a new task needs to wake up, but it will not fit on CPU#0 
 [![EAS blog 4](/wp-content/uploads/2015/09/EAS-blog-4.jpg)](/wp-content/uploads/2015/09/EAS-blog-4.jpg)
 
 
-## 
+##
 
 
 
@@ -158,23 +159,23 @@ The existing cpufreq implementation is an extension to the Linux kernel, which u
 
 
 
-	
+
   1. Sampling based governors are slow to respond and hard to tune.
 
-	
+
   2. Sampling too fast: OPP changes for small utilization spikes.
 
-	
+
   3. Sampling too slow: Sudden burst of utilization might not get the necessary OPP change in time - reaction time might be poor.
 
-	
+
   4. Only aware of the overall CPU loading and is not aware of task migration.
 
 
 [![EAS blog 5](/wp-content/uploads/2015/09/EAS-blog-5.jpg)](/wp-content/uploads/2015/09/EAS-blog-5.jpg)
 
 
-## 
+##
 
 
 
@@ -201,7 +202,7 @@ With sched-cpufreq, when the new task is placed on CPU#1, the cpu capacity for t
 
 
 
-## 
+##
 
 
 
@@ -246,7 +247,7 @@ _New utilization calculation takes into account frequency and microarchitecture_
 [![EAS image 9](/wp-content/uploads/2015/09/EAS-image-9.jpg)](/wp-content/uploads/2015/09/EAS-image-9.jpg)
 
 
-## 
+##
 
 
 
@@ -325,10 +326,10 @@ EAS doesn’t evaluate all the possible options. That can introduce performance 
 
 
 
-	
+
   * CPU the task ran on last time.
 
-	
+
   * CPU chosen by a simple heuristic which works out where the task fits best.
 
 
@@ -394,7 +395,7 @@ ARM & Linaro have been working on implementing opensource test and analysis tool
 
 
 
-Most existing benchmarks run flat-out, and there are few good existing tools to run lower-intensity use cases. 
+Most existing benchmarks run flat-out, and there are few good existing tools to run lower-intensity use cases.
 
 
 
@@ -422,13 +423,13 @@ This is a python framework for running standard tests and benchmarks on a target
 
 
 
-	
+
   * Linux
 
-	
+
   * Android (browser and standard benchmarks)
 
-	
+
   * ChromeOS (telemetry benchmarks etc)
 
 
@@ -515,12 +516,12 @@ All the work on EAS is done in the open on mailing lists:
 
 
 
-	
+
   1. Linux Kernel Mailing List (LKML) for patches and EAS architecture discussions
 (postings on LKML prefixed with “sched:”)
 This is the preferred option as the Linux kernel maintainers will see the questions.
 
-	
+
   2. eas-dev mailing lists ([http://lists.linaro.org](http://lists.linaro.org/) )
 This mailing list is to discuss experimental aspects of EAS developments that are too premature for discussion on LKML
 
@@ -543,7 +544,7 @@ ARM and Linaro appreciate any participation in shaping the future direction of E
 
 
 
-### 
+###
 
 
 [/vc_column_text][vc_empty_space height="16px"][/vc_column][/vc_row][vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/1"][mk_table style="style1" title="Current patchsets for review/testing"]

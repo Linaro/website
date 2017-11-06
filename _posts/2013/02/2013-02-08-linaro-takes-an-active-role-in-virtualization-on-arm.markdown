@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-08 17:32:45+00:00
 layout: post
@@ -8,7 +8,7 @@ slug: linaro-takes-an-active-role-in-virtualization-on-arm
 title: Linaro Takes an Active Role in Virtualization on ARM
 wordpress_id: 2291
 categories:
-- Linaro Blog
+- blog
 ---
 
 Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on ARM.

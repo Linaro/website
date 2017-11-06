@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-02-12 16:00:15+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-announces-keynote-speakers-for-linaro-connect-asia-2013
 title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
 wordpress_id: 2323
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -24,25 +26,25 @@ There are many interesting [planning and discussion sessions](https://lca-13.zer
 
 
 
-	
+
   * Builds and Baselines
 
-	
+
   * Android
 
-	
+
   * Graphics and Multimedia
 
-	
+
   * Power Management
 
-	
+
   * Training
 
-	
+
   * ARM Enterprise Server
 
-	
+
   * Kernel
 
 
@@ -56,25 +58,25 @@ There will also be new demos added to the [Demo Friday](http://www.linaro.org/co
 
 
 
-	
+
   * DLNA Premium Video HTML5 RUI Demo
 
-	
+
   * Samsung Galaxy Nexus on LAVA
 
-	
+
   * Native toolchain on Android
 
-	
+
   * Linaro NDK
 
-	
+
   * GRUB on ARM (Uboot)
 
-	
+
   * ACPI
 
-	
+
   * UEFI SCT
 
 

@@ -8,8 +8,9 @@ slug: linaro-11-06-release-features-unity-3d-port-for-arm
 title: Linaro 11.06 release features Unity 3D port for ARM
 wordpress_id: 3395
 categories:
-- Releases
+- blog
 tags:
+- Releases
 - Linaro
 - Linux
 - release

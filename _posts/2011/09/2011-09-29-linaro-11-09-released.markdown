@@ -8,6 +8,8 @@ slug: linaro-11-09-released
 title: Linaro 11.09 released
 wordpress_id: 581
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -19,28 +21,28 @@ Among the improvements brought by this release and delivered by Linaro engineer
 
 
 
-	
+
   * Beta release of our Continuous Integration (CI) Build Service focused on continuous large scale kernel tracking. This is a first step in support of the new Kernel Working Group developement model based on a stable tree and continuous integration of the Working Groups and Landing Teams Kernel.
 
-	
+
   * Ubuntu based image distribution format has seen a big improvement through the arrival of hardware packs v2. This new format will allow more flexibility in shipping our growing board support alongside our hardware independent Ubuntu based images.
 
-	
+
   * On the hardware enablement front, both Android and Ubuntu images have seen good improvements on most of our primary target boards. This includes the availability of Wi-Fi and Bluetooth for Android PandaBoard builds and audio (ALSA UCM) on our Ubuntu builds with proper kernel support.
 
-	
+
   * Android image builds are first to incorporate the whole userspace and kernel using the Toolchain Working Group proposed -O3 option.
 
-	
+
   * The Graphics Working Group added a xrender based compositing test to GLCompBench and merged a 2D convolution benchmarking scene and 3D screensaver inspired benchmarking scene to GLMark2. With these improvements, our set of graphics tests grows again by tests designed with real user experience use cases. In addition, GLMark2 is now integrated on all our Android builds and is automatically run in Linaro Validation Farm.
 
-	
+
   * The Kernel Working Group continued their outstanding work to always make the very latest available ARM bits included as part of our linux-linaro 3.0.4  based release. We include the ARM merged code of 3.1-rc1 from Russell King's tree, stable and ready for consumption.
 
-	
+
   * LAVA saw various plumbing improvements. The number of PandaBoards deployed got a significant boost with roughly 15 boards now being active 24/7.
 
-	
+
   * Last but not least, we have the usual updates of our core components from  the Toolchain Working Group, including a fresh code drop for gcc-linaro,  gdb-linaro and qemu-linaro. All those of course come pre-integrated for direct use on Ubuntu host as well as Android or Ubuntu targets.
 
 
@@ -77,24 +79,24 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements:
 [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development:
 [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android on irc.linaro.org or irc.freenode.net

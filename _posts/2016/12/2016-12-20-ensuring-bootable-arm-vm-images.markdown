@@ -8,8 +8,9 @@ slug: ensuring-bootable-arm-vm-images
 title: Ensuring Bootable ARM VM Images
 wordpress_id: 11992
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - AArch64
 - arm
 - cross-distro

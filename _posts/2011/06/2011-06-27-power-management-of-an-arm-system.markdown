@@ -8,7 +8,7 @@ slug: power-management-of-an-arm-system
 title: Power Management of an ARM system
 wordpress_id: 3392
 categories:
-- Linaro Blog
+- blog
 ---
 
 When we look at power management of an ARM system, cpuidle and cpufreq are the 1st power-saving functions that are used on the ARM core.  The cpu hotpug is another one which has been introduced on ARM smp system but its use is a bit more sensitive because of the heaviness and the duration of the sequence. Even if this latter can offer some great power saving results for aggressive low-power use cases, it suffers from its slowness for being used on a high frequency basis. One feature that hasn't been used and tested yet for improving power management on ARM core, is the scheduler and more precisely sched_mc. This feature of the scheduler tries to improve power saving by filling first one core or package. This behavior is not so far from the cpu hotplug one because it aims to reduce the number of used cores but with the advantage of being able to use the other thread, core package almost immediately if necessary.

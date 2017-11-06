@@ -8,7 +8,7 @@ slug: linaro-enterprise-group-1st-year-update
 title: Linaro Enterprise Group 1st Year update
 wordpress_id: 3269
 categories:
-- Linaro Blog
+- blog
 tags:
 - embedded
 - Linaro

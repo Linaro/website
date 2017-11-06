@@ -8,8 +8,9 @@ slug: genesi-donates-55-arm-netbooks-to-linaro-developers
 title: Genesi donates 55 ARM netbooks to Linaro developers
 wordpress_id: 3374
 categories:
-- Hardware
+- blog
 tags:
+- Hardware
 - arm
 - CortexA8
 - donation
@@ -40,13 +41,11 @@ More details:
 
 
 
-	
+
   * [Genesi Efixa MX netbook details](http://www.genesi-usa.com/products/smartbook)
 
-	
+
   * [Konstantinos Margaritis' story about LDS](http://projects.powerdeveloper.org/project/imx515/805/entry/766)
 
-	
+
   * [Marcin Juszkiewicz: debug board for the Efixa MX smartbook](http://marcin.juszkiewicz.com.pl/2010/11/29/debug-board-for-efika-mx-smartbook/)
-
-

@@ -1,5 +1,5 @@
 ---
-author: jacopomondi
+author: jacopo.mondi
 comments: true
 date: 2015-07-22 20:22:08+00:00
 excerpt: 'This article explains how to add a new service and associated application
@@ -12,7 +12,7 @@ slug: adding-a-new-system-service-to-android-5-tips-and-how-to
 title: 'Adding A New System Service To Android 5: Tips and How To'
 wordpress_id: 9019
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - kernel

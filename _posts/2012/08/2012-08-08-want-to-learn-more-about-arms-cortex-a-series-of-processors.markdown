@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-08-08 20:11:56+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: want-to-learn-more-about-arms-cortex-a-series-of-processors
 title: Want to learn more about ARM’s Cortex-A series of processors?
 wordpress_id: 1762
 categories:
+- blog
+tags:
 - Industry
 ---
 

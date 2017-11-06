@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-09-27 14:57:38+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-12-09-release-now-available
 title: Linaro 12.09 Release Now Available
 wordpress_id: 1920
 categories:
+- blog
+tags:
 - Android
 - Community
 - Connect Events
@@ -17,14 +19,14 @@ categories:
 
 <blockquote>
 
-> 
+>
 > There is a real magic in enthusiasm. It spells the difference between mediocrity and accomplishment.
-> 
-> 
+>
+>
 
-> 
+>
 > **Norman Vincent Peale **
-> 
+>
 > </blockquote>
 
 
@@ -119,7 +121,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
@@ -137,10 +139,10 @@ If you are interested in getting the source and building these images yourself p
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-	
+
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
@@ -163,7 +165,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-	
+
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
@@ -186,10 +188,10 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
@@ -207,19 +209,19 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
@@ -245,7 +247,7 @@ For any errata issues, please see:
 
 
 
-	
+
   * [http://wiki.linaro.org/Cycles/1209/Release#Known_Issues](http://wiki.linaro.org/Cycles/1209/Release#Known_Issues)
 
 
@@ -263,11 +265,5 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
 
-	
+
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
-
-
-
-

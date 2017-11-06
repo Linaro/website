@@ -8,7 +8,7 @@ slug: linaro-android-build-service-video
 title: 'Video: Linaro Android Build Service on Panda board'
 wordpress_id: 3387
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - Evaluation builds

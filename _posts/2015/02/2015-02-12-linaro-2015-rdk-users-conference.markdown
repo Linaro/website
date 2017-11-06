@@ -1,5 +1,5 @@
 ---
-author: MarkGregotski
+author: mark.gregotski
 comments: false
 date: 2015-02-12 09:46:09+00:00
 excerpt: Linaro is proud to announce that it is a gold sponsor of the 2015 RDK User's
@@ -13,7 +13,7 @@ slug: linaro-2015-rdk-users-conference
 title: Linaro at the 2015 RDK Users Conference
 wordpress_id: 7990
 categories:
-- Linaro Blog
+- blog
 ---
 
 Linaro is proud to announce that it is a gold sponsor of the 2015 [RDK Users Conference](http://rdkcentral.com/rdk-users-conference-2015/). Linaro is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure.

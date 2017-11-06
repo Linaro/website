@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-01-10 14:10:41+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kon
 title: Be a show off!  Demo and Poster Opportunities available at LCA13 in Hong Kong
 wordpress_id: 2216
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -47,23 +49,23 @@ When emailing please include the following information:
 
 
 
-	
+
   * **Name**
 
-	
+
   * **Company
 **
 
-	
+
   * **Title of demonstration or Poster**
 
-	
+
   * **Description of demonstration or Poster** (The demonstration/poster must be Linaro related, and those presenting the demonstration/poster should be able to tell attendees how Linaro is making their product or demonstration better)
 
-	
+
   * **Any equipment requirements (Demo only)**
 
-	
+
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends. If you are entering a poster a representative for the project or organization must be with the poster at the event to answer questions)_
 
 

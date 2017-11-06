@@ -8,7 +8,7 @@ slug: linaro-14-05-available-download
 title: Linaro 14.05 Available for Download!
 wordpress_id: 5912
 categories:
-- Linaro Blog
+- blog
 tags:
 - android
 - connect

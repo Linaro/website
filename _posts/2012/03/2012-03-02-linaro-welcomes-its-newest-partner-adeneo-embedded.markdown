@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-03-02 22:35:11+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: linaro-welcomes-its-newest-partner-adeneo-embedded
 title: Linaro Welcomes its Newest Partner--Adeneo Embedded
 wordpress_id: 1341
 categories:
+- blog
+tags:
 - Android
 - Industry
 ---

@@ -8,8 +8,9 @@ slug: linaro-and-distributions
 title: Linaro and Distributions
 wordpress_id: 4107
 categories:
-- Community
+- blog
 tags:
+- Community
 - arm
 - distributions
 - gcc

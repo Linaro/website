@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: true
 date: 2015-07-09 23:58:58+00:00
 excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there’s\
@@ -15,7 +15,7 @@ title: 'More than 300,000 boots and counting: An update on the upstream test sys
   - kernelci.org'
 wordpress_id: 8894
 categories:
-- Linaro Blog
+- blog
 tags:
 - arm
 - kernel

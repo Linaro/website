@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-10-23 23:34:00+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: lce-12-copenhagen-remote-participation
 title: 'LCE 12 - Copenhagen: Remote Participation'
 wordpress_id: 1936
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---
@@ -50,22 +52,22 @@ If a session is listed in one of the following rooms then it will be broadcast l
 
 
 
-	
+
   * Auditorium BC12
 
-	
+
   * BV1
 
-	
+
   * BV2
 
-	
+
   * BV3
 
-	
+
   * BC16
 
-	
+
   * BC17
 
 
@@ -78,31 +80,31 @@ In order to get the most out of your remote participation experience you'll need
 
 
 
-	
+
   * add Linaro onAir to your Google+ circles- [https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)
 
-	
+
   * bookmark the YouTube Linaro onAir channel - [https://plus.google.com/u/0/116754366033915823792](https://plus.google.com/u/0/116754366033915823792)
 
-	
+
   * join the following IRC channels on freenode once LCE12-Copenhagen begin:
 
-	
+
     * #lce-bc12
 
-	
+
     * #lce-bv1
 
-	
+
     * #lce-bv2
 
-	
+
     * #lce-bv3
 
-	
+
     * #lce-bc16
 
-	
+
     * #lce-bc17
 
 

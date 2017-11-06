@@ -8,7 +8,7 @@ slug: linaro-11-11-released
 title: Linaro 11.11 Released
 wordpress_id: 949
 categories:
-- Linaro Blog
+- blog
 ---
 
 The Linaro Team is pleased to announce the release of Linaro 11.11, another of Linaro’s releases delivered on a monthly cadence.This release includes components delivered by all Linaro Teams: Working Groups, Landing Teams and Platform Teams. Some outstanding effort has gone into delivering a lot of exciting updates and features integrated on top of Android and Ubuntu.

@@ -8,6 +8,8 @@ slug: linaro-13-01-released
 title: Linaro 13.01 released
 wordpress_id: 2266
 categories:
+- blog
+tags:
 - Releases
 ---
 

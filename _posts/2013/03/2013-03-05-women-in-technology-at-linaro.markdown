@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-03-05 06:47:52+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: women-in-technology-at-linaro
 title: Women in Technology at Linaro
 wordpress_id: 2535
 categories:
+- blog
+tags:
 - Community
 - Connect Events
 ---

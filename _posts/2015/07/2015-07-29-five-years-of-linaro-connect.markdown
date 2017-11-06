@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: true
 date: 2015-07-29 23:54:31+00:00
 excerpt: 'Linaro Connect is celebrating it''s fifth anniversary and has evolved into
@@ -10,7 +10,7 @@ slug: five-years-of-linaro-connect
 title: Five years of Linaro Connect
 wordpress_id: 9056
 categories:
-- Linaro Blog
+- blog
 tags:
 - community
 - connect

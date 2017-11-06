@@ -8,7 +8,7 @@ slug: getting-ready-for-the-developer-summit-and-the-next-release-cycle
 title: Getting Ready for the Developer Summit and the next Release Cycle
 wordpress_id: 4108
 categories:
-- Linaro Blog
+- blog
 tags:
 - developer summit
 - release cycle

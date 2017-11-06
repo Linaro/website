@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2012-11-30 20:17:55+00:00
 layout: post
@@ -8,6 +8,8 @@ slug: getting-involved-with-linaro
 title: Getting Involved with Linaro
 wordpress_id: 2054
 categories:
+- blog
+tags:
 - Community
 ---
 
@@ -30,16 +32,16 @@ The primary goals of the Linaro Android Team is to develop and release tested [
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/android)
 
 
@@ -53,16 +55,16 @@ The Developer Platform Team's primary goal is to provide a common platform to us
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/Platform/DevPlatform/Meetings): Weekly on Thursday at 1400 UTC in #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/developer-platform)
 
 
@@ -76,16 +78,16 @@ The goal of the LAVA team is to maintain and develop automated testing tools to 
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/Platform/LAVA/Meetings): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List: [mailto:linaro-validation@lists.linaro.org](mailto:linaro-validation@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-validation))
 
-	
+
   * IRC Channel: #linaro-lava on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/lava)
 
 
@@ -104,16 +106,16 @@ The scope of the Infrastructure Team is to maintain and develop archive manageme
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/Platform/Infrastructure/Meetings): Weekly on Tuesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List: [mailto:infrastructure@linaro.org](mailto:infrastructure@linaro.org) and [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro-infrastructure and #linaro on irc.linaro.org or  irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/infrastructure)
 
 
@@ -127,16 +129,16 @@ The Kernel Consolidation Working Group targets the Linux kernel. Its goals are t
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Kernel/Meetings): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*
 
-	
+
   * Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/kernel)
 
 
@@ -150,16 +152,16 @@ The toolchain working group deals with all aspects of system-level tools - the c
 
 
 
-	
+
   * Meeting: Weekly Conference Call see [Wiki](https://wiki.linaro.org/WorkingGroups/ToolChain) for more details.*
 
-	
+
   * Mailing List: [mailto:linaro-toolchain@lists.linaro.org](mailto:linaro-toolchain@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-toolchain))
 
-	
+
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/toolchain)
 
 
@@ -173,16 +175,16 @@ The Power Management WG will look at the entire software stack (kernel, middlewa
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly Conference Call (not a public call but minutes are sent to the mailing list)*
 
-	
+
   * Mailing List: Upstream Discussions - LKML, linux-arm-kernel, [linux-pm@lists.linux-foundation.org](mailto:linux-pm@lists.linux-foundation.org) and Announcements - [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/power-management)
 
 
@@ -196,16 +198,16 @@ The Graphics Working Group is set to improve the Linux graphics stack for curren
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics#Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
-	
+
   * Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org)([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-	
+
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/graphics)
 
 
@@ -218,16 +220,16 @@ More information about the Linaro Graphics Team can be found at: [https://wiki.
 
 
 
-	
+
   * [Meeting](https://wiki.linaro.org/LEG/Engineering/Meetings/): Minutes are available*
 
-	
+
   * Mailing List: [mailto:linaro-enterprise@lists.linaro.org](mailto:linaro-enterprise@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-enterprise))
 
-	
+
   * IRC Channel: #linaro-enterprise on irc.linaro.org or  irc.freenode.net.
 
-	
+
   * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/linaro-enterprise-group-leg)
 
 

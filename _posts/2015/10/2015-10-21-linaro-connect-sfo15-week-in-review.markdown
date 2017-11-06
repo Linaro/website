@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-10-21 19:46:53+00:00
 excerpt: Overview of the keynotes, sessions and activities that took place during
@@ -10,7 +10,7 @@ slug: linaro-connect-sfo15-week-in-review
 title: Linaro Connect SFO15 week in review
 wordpress_id: 9565
 categories:
-- Linaro Blog
+- blog
 tags:
 - conference
 - connect

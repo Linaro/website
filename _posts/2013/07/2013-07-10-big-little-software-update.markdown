@@ -8,6 +8,8 @@ slug: big-little-software-update
 title: big.LITTLE Software Update
 wordpress_id: 2821
 categories:
+- blog
+tags:
 - Hardware
 ---
 
@@ -26,8 +28,8 @@ There are at least two member products shipping with SoC implementations of big.
 
 
 
-	
-  * 
+
+  *
 
 
 ARM’s reference Test Chip 2 (TC2) tile for the Versatile Express development platform, configured as an SoC with 2 Cortex-A15 cores and 3 Cortex-A7 cores
@@ -35,8 +37,8 @@ ARM’s reference Test Chip 2 (TC2) tile for the Versatile Express development p
 
 
 
-	
-  * 
+
+  *
 
 
 Samsung-LSI’s 8 core SoC found in some versions of the Galaxy S4 phone, configured with 4 Cortex-A15 cores and 4 Cortex-A7 cores
@@ -106,8 +108,8 @@ The key benefits of GTS over IKS are:
 
 
 
-	
-  * 
+
+  *
 
 
 Finer grained control of workloads that are migrated between cores. Because the scheduler is directly migrating tasks between cores, kernel overhead is reduced and power savings can be correspondingly increased.
@@ -115,8 +117,8 @@ Finer grained control of workloads that are migrated between cores. Because the 
 
 
 
-	
-  * 
+
+  *
 
 
 Implementation in the scheduler also makes switching decisions faster than in the cpufreq framework, and ARM have reported around 10% improvements in performance/watt over IKS on a range of benchmarks.
@@ -124,8 +126,8 @@ Implementation in the scheduler also makes switching decisions faster than in th
 
 
 
-	
-  * 
+
+  *
 
 
 The ability to easily support non-symmetrical SoCs (e.g. with 2 Cortex-A15 cores and 4 Cortex-A7 cores)
@@ -133,8 +135,8 @@ The ability to easily support non-symmetrical SoCs (e.g. with 2 Cortex-A15 cores
 
 
 
-	
-  * 
+
+  *
 
 
 The ability to use all cores simultaneously to provide improved peak performance throughput of the SoC compared to IKS.

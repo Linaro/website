@@ -8,8 +8,9 @@ slug: using-markets-with-linaro-android-builds
 title: Using App Markets with Linaro Android builds
 wordpress_id: 748
 categories:
-- Android
+- blog
 tags:
+- Android
 - android
 - app
 - Linaro

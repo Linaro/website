@@ -8,8 +8,9 @@ slug: review-of-thursday-at-lca14-team-day
 title: Review of Thursday at LCA14 - "Team Day"
 wordpress_id: 3532
 categories:
-- Connect Events
+- blog
 tags:
+- Connect Events
 - conference
 - connect
 - Linaro

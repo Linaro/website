@@ -8,7 +8,7 @@ slug: may-ceo-report
 title: May CEO Report
 wordpress_id: 3389
 categories:
-- Linaro Blog
+- blog
 ---
 
 Earlier this month we held our Developer Summit in Budapest, alongside the Ubuntu Developer Summit.  This was our biggest event yet, with around 200 Linaro-affiliated attendees. Thank you to everyone who participated. One purpose of the summit is to take the technical requirements from the Technical Steering Committee (TSC) and turn them into “Blueprints” which define a specification for the work items to be carried out. Rather than try to plan 6 months of work at a time, this time around we are focusing on the next 3 months, and we then plan to carry out a combination of specification definition alongside coding sessions at our next event in August, in Cambourne UK. This should provide more flexibility to react to market changes and new priorities from our members as they arise.

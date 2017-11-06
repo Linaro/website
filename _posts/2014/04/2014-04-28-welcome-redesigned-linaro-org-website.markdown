@@ -8,7 +8,7 @@ slug: welcome-redesigned-linaro-org-website
 title: Welcome to our redesigned Linaro.org website!
 wordpress_id: 5745
 categories:
-- Linaro Blog
+- blog
 tags:
 - Linaro
 - Linaro Connect

@@ -8,6 +8,8 @@ slug: linaro-11-12-released
 title: Linaro 11.12 Released
 wordpress_id: 1113
 categories:
+- blog
+tags:
 - Releases
 ---
 

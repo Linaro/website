@@ -1,5 +1,5 @@
 ---
-author: Linarocompany
+author: linaro
 comments: false
 date: 2015-09-25 00:20:25+00:00
 excerpt: Overview of the keynotes, announcement and sessions that took place during
@@ -10,7 +10,7 @@ slug: day-4-of-linaro-connect-sfo15
 title: Day 4 of Linaro Connect SFO15
 wordpress_id: 9459
 categories:
-- Linaro Blog
+- blog
 tags:
 - connect
 - Connect Events

@@ -1,5 +1,5 @@
 ---
-author: webmaster
+author: linaro
 comments: false
 date: 2013-05-30 20:39:54+00:00
 layout: post
@@ -8,15 +8,17 @@ slug: linaro-13-05-released
 title: Linaro 13.05 Released!
 wordpress_id: 2749
 categories:
+- blog
+tags:
 - Releases
 ---
 
 <blockquote>
 
-> 
+>
 > The only way to predict the future is to have the power to shape it. ~Eric Hofer
-> 
-> 
+>
+>
 </blockquote>
 
 
@@ -64,19 +66,19 @@ The various releases that help make up the Linaro 13.05 release include:
 
 
 
-	
+
   * Linaro UEFI 2013.05
 
-	
+
   * Linaro Stable Kernel (LSK) preview 3.9.4-2013.05
 
-	
+
   * Linux Linaro 3.10-rc2-2013.05
 
-	
+
   * Linaro GCC 4.8-2013.05 and 4.7-2013.05 (based off the latest GCC releases)
 
-	
+
   * Linaro Toolchain Binaries 2013.05
 
 
@@ -194,10 +196,10 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
-	
+
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 
@@ -210,19 +212,19 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 
-	
+
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-	
+
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-	
+
   * IRC:
 
-	
+
     * #linaro on irc.linaro.org or irc.freenode.net
 
-	
+
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 

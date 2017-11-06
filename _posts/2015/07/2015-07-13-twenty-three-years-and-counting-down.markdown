@@ -12,8 +12,9 @@ slug: twenty-three-years-and-counting-down
 title: Twenty three years and counting down
 wordpress_id: 8971
 categories:
-- Core Dump
+- blog
 tags:
+- Core Dump
 - 32-bit systems
 - epoc
 - Linux

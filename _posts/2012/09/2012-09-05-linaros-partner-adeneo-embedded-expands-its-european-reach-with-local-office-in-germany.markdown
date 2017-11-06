@@ -9,6 +9,8 @@ title: Linaro’s partner, Adeneo Embedded, expands its European reach with loca
   in Germany
 wordpress_id: 1872
 categories:
+- blog
+tags:
 - Community
 - Industry
 ---

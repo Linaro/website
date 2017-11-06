@@ -8,9 +8,10 @@ slug: the-linaro-android-platform-team-period-march-7-to-march-13
 title: The Linaro Android Platform Team, Period March 7 to March 13.
 wordpress_id: 1383
 categories:
+- blog
+tags:
 - Android
 - Hardware
-tags:
 - '12.03'
 - android
 - arm
@@ -38,10 +39,10 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * The 12.03 toolchains, 4.6 and 4.7, is ready and being tested.
 
-	
+
   * Android runs on A15, A7 and A15/A7 Fast Models.
 
 
@@ -53,13 +54,13 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * Verified that DS-5 5.9 works on Pandaboard with new gator.
 
-	
+
   * An extensive TSC card revision has been done.
 
-	
+
   * Progress on porting Iozone and Memtester to Android.
 
 
@@ -71,16 +72,16 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * 942307	[ 'asm' operand requires impossible reload](https://bugs.launchpad.net/linaro-android/+bug/942307)
 
-	
+
   * 887961	[ Tethering over Bluetooth/WiFi/USB missing in ICS](https://bugs.launchpad.net/linaro-android/+bug/887961)
 
-	
+
   * 897176	[ SD card not accessible(checked via Gallery app)](https://bugs.launchpad.net/linaro-android/+bug/897176)
 
-	
+
   * 906297	[ Live wallpaper crashing on ICS -panda](https://bugs.launchpad.net/linaro-android/+bug/906297)
 
 
@@ -92,7 +93,7 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * mansson will be leaving the Android team. Last day April 5.
 
 
@@ -104,7 +105,5 @@ Here's a list of this weeks major achievements.
 
 
 
-	
+
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)
-
-

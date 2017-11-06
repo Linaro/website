@@ -8,8 +8,9 @@ slug: february-2012-ceo-report
 title: February 2012 CEO Report
 wordpress_id: 1405
 categories:
-- Industry
+- blog
 tags:
+- Industry
 - arm
 - Linaro
 - market
@@ -30,5 +31,3 @@ This is why Linaro is here and is fundamentally why Linaro is delivering substan
 Linaro's Not for Profit structure is well suited to attract investment from those ARM partners who understand this the importance of open source software for their customers, and who want to leverage shared investment into Open Source for ARM as opposed to trying to "go it alone". Linaro is already seeing substantial traction in the upstream community. For example, there is recognition that Linaro's efforts are, for the first time, contributing to an actual reduction in lines of ARM-architecture specific code in the Linux kernel. The key is that Linaro becomes the place where the multiple ARM licensees can come together to influence the future of open source on ARM. Each company individually, whether small or large, finds it hard to do that - not necessarily because of a lack of desire or resource, but precisely because no single company can speak for its competitors - implementing a piece of ARM specific functionality in one way does not mean that others will do the same thing. The result is that it is hard to upstream core ARM code as an individual ARM SoC vendor. This leads to SoC vendors carrying increasingly large patch sets for their own software functionality. These patch sets must be forward ported into each new version of the Linux kernel, and then into each distribution version for each new product. This is becoming increasingly expensive, delays time to market, and reduces software quality due to lack of common code paths being tested on multiple vendors products. It also ties up big internal software engineering teams, which could be far better utilized delivering differentiated added value.
 
 Linaro's true value is therefore to those companies who become members. It is not only in the member services that Linaro offers - the landing teams, the LAVA testing platform, the continuously integrated kernel builds on member SoCs and more - but it is also, most importantly, in that shared engineering team. Under the direction of the member-populated Technical Steering Committee, Linaro works on consolidating and optimizing open source software for the ARM architecture, enabling the members to build products out of a single set of upstreamed core software functionality that becomes common across the ARM SoC Linaro members. The engineering output is delivered on our member's SoCs and becomes part of their own open source software, delivering the ROI from their Linaro membership. Over time this leads to lower maintenance costs, faster time to market, and higher product quality. As Linaro focuses on new ARM technology such as big.LITTLE, multi-core A7 and A15 based products, and then ARM v8, we expect to give our members early competitive advantage in their ability to rapidly deliver differentiated products around a common upstreamed software infrastructure for their SoCs.
-
-

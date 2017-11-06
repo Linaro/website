@@ -13,8 +13,9 @@ slug: android-development-made-easy-64-bit-armv8-platforms
 title: Android development made easy for 64-bit ARMv8 platforms
 wordpress_id: 6569
 categories:
-- Android
+- blog
 tags:
+- Android
 - 64-bit
 - android
 - AOSP
@@ -54,37 +55,37 @@ Don’t miss this opportunity to meet ARM and Linaro engineers developing and in
 
 
 
-	
+
   * [LCU14-100:](https://lcu14.zerista.com/event/member/137702) Dalvik is Dead, Long Live Dalvik !
 
-	
+
   * [LCU14-104: ](https://lcu14.zerista.com/event/member/137707)Everything’s Done! Android for 64-bit ARMv8, What’s next?
 
-	
+
   * [LCU14-108:](https://lcu14.zerista.com/event/member/137711) Panel: Faster, Better and more Open AOSP Support
 
-	
+
   * [LCU14-309:](https://lcu14.zerista.com/event/member/137756) Introducing Android NDK for 64bit ARMv8 SOCs
 
-	
+
   * [LCU14-403: ](https://lcu14.zerista.com/event/member/137770)LMG Lightning Talks
 
-	
+
   * [LCU14-407:](https://lcu14.zerista.com/event/member/137775) How to enable SELinux for Android on AOSP master for ARMv8
 
-	
+
   * [LCU14-411:](http://lcu14.zerista.com/event/member/137779) From zero to booting Nano-Android with 64bit support
 
-	
+
   * [LCU14-502:](https://lcu14.zerista.com/event/member/137789) Android User-Space Tests: Multimedia codec tests, Status
 
-	
+
   * and Open Discussions
 
-	
+
   * [LCU14-504:](https://lcu14.zerista.com/event/member/137791) Taming ARMv8 NEON: from theory to benchmark results
 
-	
+
   * [LCU14-106: QEMU for ARMv8 and the 64-bit Android Emulator](https://lcu14.zerista.com/event/member/137709)
 
 

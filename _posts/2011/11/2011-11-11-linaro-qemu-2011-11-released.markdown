@@ -8,6 +8,8 @@ slug: linaro-qemu-2011-11-released
 title: Linaro QEMU 2011.11 released
 wordpress_id: 866
 categories:
+- blog
+tags:
 - Releases
 ---
 
@@ -54,4 +56,3 @@ the linaro-maintainers tools ppa:
 
 More information on Linaro QEMU is available at:
 [http://launchpad.net/qemu-linaro](http://launchpad.net/qemu-linaro)
-
