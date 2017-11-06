@@ -1,15 +1,17 @@
 ---
-title: Blog
-permalink: /blog/
+title: Core Development Group Blog
+permalink: /core/blog/
+description: |-
+    The Core Development Group blog.
 layout: blog
 pagination:
-    title: "Blog - Page :num"
     enabled: true
+    tag: Core Dump
     trail:
         before: 4
         after: 4
-    category: blog
 css-pack: blog
+
 ---
 {% for post in paginator.posts %}
     <div class="row blog_post">

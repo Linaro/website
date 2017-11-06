@@ -11,9 +11,6 @@ categories:
 - News
 ---
 
-[vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]CAMBRIDGE, UK - 2 JUN 2010[/vc_column_text][vc_video link="https://www.youtube.com/watch?v=sqL-vGR2puk"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]
+[vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]CAMBRIDGE, UK - 2 JUN 2010[vc_video link="https://www.youtube.com/watch?v=sqL-vGR2puk"]
 
 For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](http://www.linaro.org/)
-
-
-[/vc_column_text][/vc_column][/vc_row]

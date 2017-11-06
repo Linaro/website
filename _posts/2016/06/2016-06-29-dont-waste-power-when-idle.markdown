@@ -23,10 +23,6 @@ tags:
 - power
 - power management
 ---
-
-[![core-dump](/wp-content/uploads/2016/02/core-dump-1024x107.png)](https://wiki.linaro.org/CoreDevelopment)
-
-
 ## **Don’t waste power when idle**
 
 

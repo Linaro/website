@@ -32,9 +32,9 @@ To see what Linaro has done at previous Linaro Connects, click on the event you 
 
 {:.responsive-table}
 |#|Venue|Location|Year|Date|Code|Attendees (est)|Resources Page|Photos|
-|22|Hyatt Regency San Francisco Airport Hotel|Burlingame, California, USA|2017|25 Sep - 29 Sep|SFO17|  | [SFO17 Resources](http://connect.linaro.org/sfo17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157687039294924)|
-|21|Corinthia Hotel|Budapest, Hungary|2017|6 March - 10 March|BUD17| |[BUD17 Resources](http://connect.linaro.org/bud17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/sets/72157678721082122) |
-|20|JW Marriott Resort & Spa|Las Vegas, USA|2016|20 Sep - 25 Sep|LAS16| |[LAS16 Resources](http://connect.linaro.org/las16/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157670966437214) |
+|22|Hyatt Regency San Francisco Airport Hotel|Burlingame, California, USA|2017|25 Sep - 29 Sep|SFO17| 448 | [SFO17 Resources](http://connect.linaro.org/sfo17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157687039294924)|
+|21|Corinthia Hotel|Budapest, Hungary|2017|6 March - 10 March|BUD17| 413 |[BUD17 Resources](http://connect.linaro.org/bud17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/sets/72157678721082122) |
+|20|JW Marriott Resort & Spa|Las Vegas, USA|2016|20 Sep - 25 Sep|LAS16| 478 |[LAS16 Resources](http://connect.linaro.org/las16/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157670966437214) |
 |19|Centara Grand Hotel at CentralWorld|Bangkok, Thailand|2016|7 Mar - 11 Mar|BKK16|467|[BKK16 Resources](http://connect.linaro.org/bkk16/resources/)|[BKK16 Photos](https://www.flickr.com/photos/linaroorg/albums/72157665519520505)|
 |18|Hyatt San Francisco Airport Hotel|Burlingame, USA|2015|19 Sep -25 Sep|SFO15|563|[SFO15 Resources](http://connect.linaro.org/sfo15/resources/)|[SFO15 Photos](https://www.flickr.com/photos/linaroorg/albums/72157658413090325)|
 |17|Regal Airport Hotel|Hong Kong|2015|9 Feb -13 Feb|HKG15|507|[HKG15 Resources](http://connect.linaro.org/hkg15/resources/)|[HKG15 Photos](https://www.flickr.com/photos/linaroorg/albums/72157650196561027)|
