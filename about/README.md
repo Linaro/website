@@ -2,13 +2,11 @@
 title: About
 description: |-
     Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the work benefits Linaro members and the ARM ecosystem.
-layout: default-no-sub-nav
+layout: about-page
 permalink: /about/
 js-vendor: extended
 css-pack: lightbox
 ---
-
-<div id="about-page" markdown="1">
 
 {% include image.html name="connect-collective-500x333.jpeg" class="right-aligned-image" alt="Linaro Employees at Connect Event" %}
 
@@ -20,11 +18,15 @@ Member companies fund Linaro and provide a significant proportion of its engine
 
 The members determine what work is done by the Linaro engineering team. As the number of Linaro members increases, the company’s capacity to provide engineering solutions grows and so the return on a member’s investment increases. This results in more common engineering work being completed by the Linaro engineers, enabling the members to focus more of their own resources on innovation and differentiation.
 
+
+
+<div class="container no-padding about-page-text">
+<div class="col-md-7 no-padding" markdown="1">
+
 Linaro’s work is at the heart of all modern Linux-based devices running on ARM processors, including Android smartphones and tablets. As markets for ARM processors develop, new opportunities for collaborative engineering are created around Linux and other open source operating systems. These opportunities include software stacks and tools in mobile, networking, servers, the digital home and IoT.
 
-
-<div class="container">
-<div id="col-md-3 col-md-offset-9 did-you-know" markdown="1">
+</div>
+<div class="col-md-4 col-md-offset-1 did-you-know no-padding" markdown="1">
 
 ## [June 2010 – Linaro was launched with six founding members and had grown to over 35 members by March 2016](#2010-June)
 
@@ -1022,5 +1024,3 @@ May</dt>
 </dd>
 
 </dl>
-
-</div>
