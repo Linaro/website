@@ -288,7 +288,7 @@ Overall it was a great week with many exciting activities where those attending 
 **Demos**
 There were demos each day of the week during Connect, including a robot that drew the Linaro Connect logo.
 
-[![Picture2](http://www.linaro.org/wp-content/uploads/2014/09/Picture2.png)](http://www.linaro.org/wp-content/uploads/2014/09/Picture2.png)
+[![Picture2](/assets/blog/Picture2.png)](/assets/blog/Picture2.png)
 
 
 
@@ -304,7 +304,7 @@ There were demos each day of the week during Connect, including a robot that dre
 **Parties**
 Many parties and team dinners took place during the week, including the Connect Superhero Jamboree.
 
-[![superheros](http://www.linaro.org/wp-content/uploads/2014/09/superheros.png)](http://www.linaro.org/wp-content/uploads/2014/09/superheros.png)
+[![superheros](/assets/blog/superheros.png)](/assets/blog/superheros.png)
 
 
 
@@ -318,9 +318,9 @@ Many parties and team dinners took place during the week, including the Connect 
 
 
 
-[![parties 2](http://www.linaro.org/wp-content/uploads/2014/09/parties-2-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/parties-2.jpg) [![parties](http://www.linaro.org/wp-content/uploads/2014/09/parties.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/parties.jpg)
+[![parties 2](/assets/blog/parties-2-1024x1024.jpg)](/assets/blog/parties-2.jpg) [![parties](/assets/blog/parties.jpg)](/assets/blog/parties.jpg)
 
-[![party 3.5](http://www.linaro.org/wp-content/uploads/2014/09/party-3.5-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/party-3.5.jpg)
+[![party 3.5](/assets/blog/party-3.5-1024x1024.jpg)](/assets/blog/party-3.5.jpg)
 
 
 
@@ -341,4 +341,4 @@ Many parties and team dinners took place during the week, including the Connect 
 **Sessions, Learning and Hacking**
 Each day started with a variety of sessions to attend and demos to view.  The afternoons gave the teams time to meet and time for hacking.
 
-[![demos](http://www.linaro.org/wp-content/uploads/2014/09/demos-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/demos.jpg) [![working](http://www.linaro.org/wp-content/uploads/2014/09/working-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/working.jpg) [![sessions](http://www.linaro.org/wp-content/uploads/2014/09/sessions-1024x1024.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/sessions.jpg)
+[![demos](/assets/blog/demos-1024x1024.jpg)](/assets/blog/demos.jpg) [![working](/assets/blog/working-1024x1024.jpg)](/assets/blog/working.jpg) [![sessions](/assets/blog/sessions-1024x1024.jpg)](/assets/blog/sessions.jpg)

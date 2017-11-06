@@ -296,13 +296,13 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 
 To participate or watch a session, visit the [Linaro OnAir Google+ profile](https://plus.google.com/116754366033915823792/posts). We'll open each session 15 minutes before the allotted time. When the session is open, you'll be presented with options to join or watch the Hangout, just like in this screenshot:
 
-[![Screenshot of Linaro OnAir's Google Plus page hosting a Hangout ](http://www.linaro.org/wp-content/uploads/2012/08/hangout-1-300x277.png)](http://www.linaro.org/wp-content/uploads/2012/08/hangout-1.png)
+[![Screenshot of Linaro OnAir's Google Plus page hosting a Hangout ](/assets/blog/hangout-1-300x277.png)](/assets/blog/hangout-1.png)
 
 Clicking on the play button will start video playback in the browser, while clicking on the "Join this hangout" button puts you in the conference itself. If you choose to join, you'll be placed directly into the session.  Please don't join the session after it starts and interrupt. The  session lead is noted in each session entry; notice the lead's cues as they direct the conversation towards the session agenda.
 
 To help identify Hangout participants, we ask that you install the [Lower Third](https://plus.google.com/104402231746556471870/posts) app by adding it to your Hangout view and configuring it, as in this screenshot:
 
-[![Screenshot showing how to enable the Lower Third app in a Hangout](http://www.linaro.org/wp-content/uploads/2012/08/hangout-7-300x205.png)](http://www.linaro.org/wp-content/uploads/2012/08/hangout-7.png)
+[![Screenshot showing how to enable the Lower Third app in a Hangout](/assets/blog/hangout-7-300x205.png)](/assets/blog/hangout-7.png)
 
 We also ask you join the Freenode IRC channel #linaro-connect ([webchat](http://webchat.freenode.net/) available) where you can post questions and add comments as you like. We'll be adding meeting minutes as we go to [Etherpad documents](http://pad.linaro.org/zXeyEakj4V) also linked to from the session event entries.
 

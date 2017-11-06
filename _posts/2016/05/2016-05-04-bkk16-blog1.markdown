@@ -64,7 +64,7 @@ We were very excited to have had some fantastic keynote speakers that got a lot 
 
 
 
-![Eric Hennenhoefer VP ARM Research](http://www.linaro.org/wp-content/uploads/2016/05/Eric-Hennenhoefer-VP-ARM-Research.jpg)
+![Eric Hennenhoefer VP ARM Research](/assets/blog/Eric-Hennenhoefer-VP-ARM-Research.jpg)
 
 
 

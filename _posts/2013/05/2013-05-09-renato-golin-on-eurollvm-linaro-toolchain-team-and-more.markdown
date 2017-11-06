@@ -15,7 +15,7 @@ tags:
 
 
 
-[caption id="attachment_2710" align="alignleft" width="150"][![Renato Golin, Linaro Toolchain Engineer](http://www.linaro.org/wp-content/uploads/2013/05/Renato-Small.jpg)](http://www.linaro.org/wp-content/uploads/2013/05/Renato-Small.jpg) Renato Golin, Linaro Toolchain Engineer[/caption]
+[caption id="attachment_2710" align="alignleft" width="150"][![Renato Golin, Linaro Toolchain Engineer](/assets/blog/Renato-Small.jpg)](/assets/blog/Renato-Small.jpg) Renato Golin, Linaro Toolchain Engineer[/caption]
 
 Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](http://www.linaro.org/linux-on-arm/meet-the-team/renato-golin/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about [EuroLLVM](http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
 

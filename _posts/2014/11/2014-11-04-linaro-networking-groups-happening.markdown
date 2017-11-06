@@ -180,7 +180,7 @@ To learn more about the Linaro Networking Group (LNG) please visit:  [ http://
 
 
 
-[![LNG demo day](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)
+[![LNG demo day](/assets/blog/LNG-demo-day.png)](/assets/blog/LNG-demo-day.png)
 
 
 

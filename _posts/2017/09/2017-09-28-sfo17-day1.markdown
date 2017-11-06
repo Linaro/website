@@ -30,13 +30,13 @@ Looking ahead, Grey briefly discussed where open source is going and the unimagi
 
 The mention of 96Boards in automotive led Grey to talk about some of the new 96Boards products that will be shown at the event by sponsors such as Arrow and Hoperun and also in sessions. He talked about the HiKey 960, the Orange Pi i96, Uranus (TI CC3220 Cortex-M4), and mezzanine boards NeonKey and Secure96.
 
-[caption id="attachment_12814" align="alignright" width="300"][![Arrow sponsor](https://www.linaro.org/wp-content/uploads/2017/09/arrow-sponsor-linaro-300x200.jpg)](https://www.linaro.org/wp-content/uploads/2017/09/arrow-sponsor-linaro.jpg) Arrow sponsor[/caption]
+[caption id="attachment_12814" align="alignright" width="300"][![Arrow sponsor](/assets/blog/arrow-sponsor-linaro-300x200.jpg)](/assets/blog/arrow-sponsor-linaro.jpg) Arrow sponsor[/caption]
 
-[caption id="attachment_12815" align="alignright" width="300"][![Arrow sponsor](https://www.linaro.org/wp-content/uploads/2017/09/hoperun-sponsor-300x200.jpg)](https://www.linaro.org/wp-content/uploads/2017/09/hoperun-sponsor.jpg) Hoperun sponsor[/caption]
+[caption id="attachment_12815" align="alignright" width="300"][![Arrow sponsor](/assets/blog/hoperun-sponsor-300x200.jpg)](/assets/blog/hoperun-sponsor.jpg) Hoperun sponsor[/caption]
 
 With 96Boards providing developers with access to the latest Arm hardware in a standard form factor, Grey next talked about enabling native development on Arm with the Arm Fixed Virtual Platforms (FVP), Linaro’s Developer Cloud and, now, a new Arm developer platform from Socionext and Gigabyte. The latter was [announced](http://www.socionext.com/en/pr/sn_pr20170922_01e.pdf) by Socionext a few days before Linaro Connect and the Socinext CEO will be at Linaro Connect on Tuesday 26 September to demonstrate the product.
 
-[![Socionext](https://www.linaro.org/wp-content/uploads/2017/09/socionext.jpg)](https://www.linaro.org/wp-content/uploads/2017/09/socionext.jpg)
+[![Socionext](/assets/blog/socionext.jpg)](/assets/blog/socionext.jpg)
 
 A series of demonstrations showing the microPlatforms developed by the Linaro Technologies group followed. These included fully open source Zephyr on Cortex-M and Linux on Cortex-A with the [code](http://github.com/linaro-technologies) and [documentation](http://ltd-docs.readthedocs.org) available to all.
 
@@ -46,6 +46,6 @@ In concluding, Grey talked about Linaro’s mission and a new Associates program
 
 Grey made these announcements and demonstrations during the opening keynote at the company’s twice-a-year engineering event, held this time at the Hyatt Regency San Francisco Airport in Burlingame, California. Running through Friday 29 September, the Linaro Connect event brings together close to 500 engineers from across the Arm ecosystem to discuss the latest technology developments and work on today’s most pressing challenges.
 
-[![](https://www.linaro.org/wp-content/uploads/2017/09/sfo17-group-small.jpg)](https://www.flickr.com/photos/linaroorg/37057590300/in/album-72157687039294924/)To find out more about Linaro Connect SFO17, please visit connect.linaro.org and you can see what is happening at the following links:Flickr
+[![](/assets/blog/sfo17-group-small.jpg)](https://www.flickr.com/photos/linaroorg/37057590300/in/album-72157687039294924/)To find out more about Linaro Connect SFO17, please visit connect.linaro.org and you can see what is happening at the following links:Flickr
 
 [Flickr](https://www.flickr.com/photos/linaroorg/) / [YouTube](http://linaro.co/youtube) / [Facebook](https://www.facebook.com/LinaroOrg/) / [ArmDevices.net](http://armdevices.net/category/tradeshows/linaro-connect/)

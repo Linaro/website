@@ -92,7 +92,7 @@ Through DT, the PM domain topology of a platform can be described as well as the
 
 _This is an example of a PM domain topology of a SoC._
 
-![PM domain topology - graphic 1](http://www.linaro.org/wp-content/uploads/2016/06/PM-domain-topology-graphic-1.jpg) To describe the topology from the picture above in DT, this is typically what needs to be encoded in the DTS.
+![PM domain topology - graphic 1](/assets/blog/PM-domain-topology-graphic-1.jpg) To describe the topology from the picture above in DT, this is typically what needs to be encoded in the DTS.
 
 _pm_domain: power-controller@12340000 {_
 
@@ -248,7 +248,7 @@ _Did you know this about genpd?_** **
 _The genpd has been around in the Linux kernel for quite a while, as it was introduced in version 3.1. From version 3.18, Linaro actively started contributing to an evolution of its code and now the community is steadily growing as can be seen in the below picture._
 
 
-###  ![Users of genpd - graphic 2](http://www.linaro.org/wp-content/uploads/2016/06/Users-of-genpd-graphic-2.jpg)
+###  ![Users of genpd - graphic 2](/assets/blog/Users-of-genpd-graphic-2.jpg)
 
 
 Deploying support for genpd for a platform is often easy, although to take full advantage of genpd’s idle management through runtime PM, each device within the PM domain must have a corresponding subsystem/driver deploying runtime PM support. That’s because genpd monitors devices’ runtime PM status to understand when all devices within the same PM domain become idle. At that point, it tries to power off the PM domain to decrease the consumed power for the platform. On the opposite side, when a device is requested to be powered on via runtime PM, genpd makes sure to also restore power to the corresponding PM domain.

@@ -405,4 +405,4 @@ LCU14-115: Security Best Practices- (also listed as LCU14-212)
 
 ** ****Pictures from Tuesday's Linaro Connect USA 2014**
 
-[![day 2 picture 3](http://www.linaro.org/wp-content/uploads/2014/09/day-2-picture-3.jpg)](http://www.linaro.org/wp-content/uploads/2014/09/day-2-picture-3.jpg)
+[![day 2 picture 3](/assets/blog/day-2-picture-3.jpg)](/assets/blog/day-2-picture-3.jpg)

@@ -13,7 +13,7 @@ tags:
 - Connect Events
 ---
 
-[caption id="attachment_2775" align="alignleft" width="250"][![Wannes De Smet](http://www.linaro.org/wp-content/uploads/2013/06/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png)](http://www.linaro.org/wp-content/uploads/2013/06/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png) Wannes De Smet[/caption]
+[caption id="attachment_2775" align="alignleft" width="250"][![Wannes De Smet](/assets/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png)](/assets/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png) Wannes De Smet[/caption]
 
 
 We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).

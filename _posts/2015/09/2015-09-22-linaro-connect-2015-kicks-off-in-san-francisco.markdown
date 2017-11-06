@@ -12,7 +12,7 @@ categories:
 - blog
 ---
 
-[vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="2/3"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/09/SFO15-Linaro-Banner-Monday-Group.jpg" image_width="800" image_height="350" crop="true" svg="false" lightbox="false" frame_style="gray_border" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="1/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="2/3"][mk_image src="/assets/blog/SFO15-Linaro-Banner-Monday-Group.jpg" image_width="800" image_height="350" crop="true" svg="false" lightbox="false" frame_style="gray_border" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="1/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 The largest Linaro Connect to date began today in San Francisco.  Linaro Connect San Francisco 2015 (SFO15) will take place this entire week from September 21-25, 2015.  This marks the fifth anniversary of Linaro Connect and there are many exciting things planned for this week.

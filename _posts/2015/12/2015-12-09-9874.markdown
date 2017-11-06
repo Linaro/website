@@ -29,7 +29,7 @@ Mark your calendar for March 7-11, 2016, because it’s the official date of Lin
 
 [/vc_column_text][/vc_column][vc_column border_color="" visibility="" width="1/3"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
-[![Linaro Connect Logo_BKK16 Standard](http://www.linaro.org/wp-content/uploads/2015/12/Linaro-Connect-Logo_BKK16-Standard-300x140.png)](http://www.linaro.org/wp-content/uploads/2015/12/Linaro-Connect-Logo_BKK16-Standard.png)
+[![Linaro Connect Logo_BKK16 Standard](/assets/blog/Linaro-Connect-Logo_BKK16-Standard-300x140.png)](/assets/blog/Linaro-Connect-Logo_BKK16-Standard.png)
 
 [/vc_column_text][/vc_column][/vc_row][vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 

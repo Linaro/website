@@ -29,7 +29,7 @@ The formation of LEG was [announced](http://www.linaro.org/news/industry-leaders
 
 UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work) that [LEG](http://www.linaro.org/engineering/leg) will be working on in 2013.
 
-[caption id="attachment_2186" align="alignleft" width="960" caption="Linaro Enterprise Group (LEG) Roadmap"][![](http://www.linaro.org/wp-content/uploads/2012/12/LEG-Roadmap-2012Q4.png)](https://wiki.linaro.org/LEG#Scope_of_Work)[/caption]
+[caption id="attachment_2186" align="alignleft" width="960" caption="Linaro Enterprise Group (LEG) Roadmap"][![](/assets/blog/LEG-Roadmap-2012Q4.png)](https://wiki.linaro.org/LEG#Scope_of_Work)[/caption]
 
 More information about LEG and its goals and release schedule can be found on the [Linaro Website](http://www.linaro.org/engineering/leg) and [Wiki pages](https://wiki.linaro.org/LEG).
 

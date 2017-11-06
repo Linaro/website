@@ -12,7 +12,7 @@ categories:
 - blog
 ---
 
-[caption id="attachment_2760" align="alignleft" width="230"][![Leslie Hawthorn](http://www.linaro.org/wp-content/uploads/2013/06/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000-682x1024.jpg)](http://www.linaro.org/wp-content/uploads/2013/06/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg) Leslie Hawthorn[/caption]
+[caption id="attachment_2760" align="alignleft" width="230"][![Leslie Hawthorn](/assets/blog/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000-682x1024.jpg)](/assets/blog/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg) Leslie Hawthorn[/caption]
 
 We're excited to announce that Leslie Hawthorn, Community Action and Impact Manager for [Red Hat, Inc.](http://www.redhat.com/) will be giving the Wednesday, July 10 keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).
 

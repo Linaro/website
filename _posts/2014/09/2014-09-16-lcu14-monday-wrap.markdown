@@ -452,4 +452,4 @@ The audience had questions about the Linux kernel driver. For example they wonde
 
 **Scenes from Day 1 of Linaro Connect USA 2014:**
 
-[![Pictures from Day 1 of LCU14](http://www.linaro.org/wp-content/uploads/2014/09/day-1-LCU14-picture-1024x1024.png)](http://www.linaro.org/wp-content/uploads/2014/09/day-1-LCU14-picture.png)
+[![Pictures from Day 1 of LCU14](/assets/blog/day-1-LCU14-picture-1024x1024.png)](/assets/blog/day-1-LCU14-picture.png)

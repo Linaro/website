@@ -14,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-[](https://twitter.com/karimyaghmour)[![](http://www.linaro.org/wp-content/uploads/2013/02/Karim_Yaghmour.jpg)](https://plus.google.com/108468544076975482998/posts)Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](http://www.linaro.org/connect) in Hong Hong.
+[](https://twitter.com/karimyaghmour)[![](/assets/blog/Karim_Yaghmour.jpg)](https://plus.google.com/108468544076975482998/posts)Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](http://www.linaro.org/connect) in Hong Hong.
 
 
 ## Embedded Android Training Workshop

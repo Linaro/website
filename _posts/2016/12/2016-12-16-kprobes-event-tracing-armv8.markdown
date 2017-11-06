@@ -20,7 +20,7 @@ tags:
 - Tracing
 ---
 
-## ![core-dump](http://www.linaro.org/wp-content/uploads/2016/02/core-dump.png)
+## ![core-dump](/assets/blog/core-dump.png)
 
 
 

@@ -14,7 +14,7 @@ tags:
 - LAVA
 ---
 
-[![](http://www.linaro.org/wp-content/uploads/2011/11/IMG_3464-300x225.jpg)](http://www.linaro.org/wp-content/uploads/2011/11/IMG_3464.jpg)
+[![](/assets/blog/IMG_3464-300x225.jpg)](/assets/blog/IMG_3464.jpg)
 
 [](http://www.linaro.org/p-content/uploads/2011/11/IMG_3464.jpg)I'm currently working on the flexible [LAVA deployment blueprint](https://blueprints.launchpad.net/lava-lab/+spec/flexible-lava-deployment-11.12). This blueprint is about untying our hands (both as developers and administrators) from having to provide Debian packages for our releases. This is especially important our major new dependency, [celery](http://celeryproject.org/), is not available in Debian. The idea is to deploy both production and development releases from [pypi](http://pypi.python.org/) using a mixture of release tarballs and source branches. This way we can do very frequent releases, test new features in isolation (one of the features of the [deployment tool](http://bazaar.launchpad.net/~linaro-validation/lava-deployment-tool/trunk/view/head:/README) is an ability to install multiple instances of LAVA on one machine, ideally we'd get an instance for each merge request if we wish so).
 

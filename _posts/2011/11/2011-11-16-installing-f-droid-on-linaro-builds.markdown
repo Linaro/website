@@ -33,7 +33,7 @@ We assume a Linaro image is already installed on the board. Instructions for how
 
 F-Droid will now appear on the applications menu and you should be able to list and install Android apps.
 
-[caption id="attachment_895" align="alignnone" width="300" caption="F-Droid installed app list"][![F-Droid installed app list](http://www.linaro.org/wp-content/uploads/2011/11/device-2011-11-16-120452-300x225.png)](http://www.linaro.org/wp-content/uploads/2011/11/device-2011-11-16-120452.png)[/caption]
+[caption id="attachment_895" align="alignnone" width="300" caption="F-Droid installed app list"][![F-Droid installed app list](/assets/blog/device-2011-11-16-120452-300x225.png)](/assets/blog/device-2011-11-16-120452.png)[/caption]
 
 **Tweaks**
 

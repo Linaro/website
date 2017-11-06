@@ -14,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-[caption id="attachment_2541" align="aligncenter" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi-1024x682.jpg)](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi.jpg)[/caption]
+[caption id="attachment_2541" align="aligncenter" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](/assets/blog/LCA13-Group-001-72dpi-1024x682.jpg)](/assets/blog/LCA13-Group-001-72dpi.jpg)[/caption]
 
 More information about Linaro Connect can be found at: [http://www.linaro.org/connect](http://www.linaro.org/connect)
 

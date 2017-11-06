@@ -19,7 +19,7 @@ We’ve been having another great week at Linaro Connect Q4.11 here in Orlando, 
 
 On Wednesday, we took everyone from the Linaro Connect Q4.11 event to BiCE restaurant, next to Universal Studios (great restaurant and location by the way) for a meal and then a short awards session to recognise some of the outstanding work delivered by Linaro guys since we started.
 
-[caption id="" align="alignleft" width="650" caption="Group photo of attendees for Linaro Connect Q4.11"]![Group photo of Linaro Connect Q4.11](http://www.linaro.org/wp-content/uploads/2011/11/Linaro-Connect-Q4.11-group-photo-e1320418046635.jpg)[/caption]
+[caption id="" align="alignleft" width="650" caption="Group photo of attendees for Linaro Connect Q4.11"]![Group photo of Linaro Connect Q4.11](/assets/blog/Linaro-Connect-Q4.11-group-photo-e1320418046635.jpg)[/caption]
 
 
 

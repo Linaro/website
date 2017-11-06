@@ -25,7 +25,7 @@ tags:
 ## A little history
 
 
-![](http://www.linaro.org/wp-content/uploads/2011/03/armlogo.gif)Perhaps a little known fact is that well over [15 billion](http://www.arm.com/about/company-profile/index.php) chips have been shipped using ARM's technologies, [1.3 billion](http://www.arm.com/about/newsroom/26746.php) in the last quarter of 2009 alone and as the Internet goes truly mobile this is set to sky rocket. ARM have sold over 600 processor licenses to more than 200 companies and 12 of the top 20 semiconductor companies use their technologies. ARM based devices really are everywhere. In contrast, Intel have shipped just [3.3 billion](http://www.extremetech.com/article2/0,2845,2363643,00.asp) to date. Renowned for their low power consumption and high performance, ARM based devices really do seem to be the holy grail of computing but why is it that Intel continues to dominates the desktop, laptop, netbook and server market?
+![](/assets/blog/armlogo.gif)Perhaps a little known fact is that well over [15 billion](http://www.arm.com/about/company-profile/index.php) chips have been shipped using ARM's technologies, [1.3 billion](http://www.arm.com/about/newsroom/26746.php) in the last quarter of 2009 alone and as the Internet goes truly mobile this is set to sky rocket. ARM have sold over 600 processor licenses to more than 200 companies and 12 of the top 20 semiconductor companies use their technologies. ARM based devices really are everywhere. In contrast, Intel have shipped just [3.3 billion](http://www.extremetech.com/article2/0,2845,2363643,00.asp) to date. Renowned for their low power consumption and high performance, ARM based devices really do seem to be the holy grail of computing but why is it that Intel continues to dominates the desktop, laptop, netbook and server market?
 
 
 ## Fragmentation
@@ -37,7 +37,7 @@ Developing for ARM devices isn't without its problems. There are a lot of compan
 ## Ubuntu's Linux on ARM initiative
 
 
-![](http://www.linaro.org/wp-content/uploads/2011/03/ubuntulogo.png)Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms](http://www.ubuntu.com/news/arm-linux).
+![](/assets/blog/ubuntulogo.png)Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms](http://www.ubuntu.com/news/arm-linux).
 
 <!-- more -->
 

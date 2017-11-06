@@ -20,7 +20,7 @@ tags:
 - lava
 ---
 
-[[![9247909880_8d181b882e_b](http://www.linaro.org/wp-content/uploads/2013/07/9247909880_8d181b882e_b.jpg)](http://www.linaro.org/wp-content/uploads/2013/07/9247909880_8d181b882e_b.jpg)](http://www.flickr.com/photos/linaroorg/9247909880/)
+[[![9247909880_8d181b882e_b](/assets/blog/9247909880_8d181b882e_b.jpg)](/assets/blog/9247909880_8d181b882e_b.jpg)](http://www.flickr.com/photos/linaroorg/9247909880/)
 
 
 

@@ -27,25 +27,9 @@ Diamond sponsors— [ARM](http://www.arm.com/) and [Canonical](http://www.canon
 
 Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
 
-[![](http://www.linaro.org/wp-content/uploads/2012/05/ARM_Corp_CMYK-300x90.jpg)](http://www.arm.com/)
+[![](/assets/blog/ARM_Corp_CMYK-300x90.jpg)](http://www.arm.com/)
 
-[![](http://www.linaro.org/wp-content/uploads/2012/05/logo-canonical_no™-aubergine-hex-300x39.jpg)](http://www.canonical.com/)
-
-
-##
-
-
-
-
-##
-
-
-
-
-##
-
-
-[![](http://www.linaro.org/wp-content/uploads/2012/05/samsung-logo-300x117.jpg)](http://www.samsung.com/us/#latest-home)
+[![](/assets/blog/logo-canonical_no™-aubergine-hex-300x39.jpg)](http://www.canonical.com/)
 
 
 ##
@@ -61,10 +45,26 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 ##
 
 
-[![](http://www.linaro.org/wp-content/uploads/2012/05/logo-lj.jpg)](http://www.linuxjournal.com/)
+[![](/assets/blog/samsung-logo-300x117.jpg)](http://www.samsung.com/us/#latest-home)
 
-[![](http://www.linaro.org/wp-content/uploads/2012/05/Ubuntu-User.png)](http://www.ubuntu-user.com/)[[![](http://www.linaro.org/wp-content/uploads/2012/05/LinuxQuestions.png)](http://www.linuxquestions.org/)
-](http://www.linaro.org/wp-content/uploads/2012/05/LinuxQuestions.png)
+
+##
+
+
+
+
+##
+
+
+
+
+##
+
+
+[![](/assets/blog/logo-lj.jpg)](http://www.linuxjournal.com/)
+
+[![](/assets/blog/Ubuntu-User.png)](http://www.ubuntu-user.com/)[[![](/assets/blog/LinuxQuestions.png)](http://www.linuxquestions.org/)
+](/assets/blog/LinuxQuestions.png)
 
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 

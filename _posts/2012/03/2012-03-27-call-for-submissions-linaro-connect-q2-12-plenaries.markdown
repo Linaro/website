@@ -14,7 +14,7 @@ tags:
 - Industry
 ---
 
-[![](http://www.linaro.org/wp-content/uploads/2012/03/Linaro-Connect-300x144.jpg)](http://www.linaro.org/wp-content/uploads/2012/03/Linaro-Connect.jpg)The submission process for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12/#welcome) plenaries is now open!
+[![](/assets/blog/Linaro-Connect-300x144.jpg)](/assets/blog/Linaro-Connect.jpg)The submission process for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12/#welcome) plenaries is now open!
 
 There will be 30 minutes of plenary talks daily from Tuesday through Friday at Linaro Connect Q2.12 which is being held from 28 May - 1 June at the [Gold Coast Hotel](http://connect.linaro.org/events/event/linaro-connect-q2-12/#location) in Hong Kong.
 

@@ -33,7 +33,7 @@ At this point I was pretty sure I was near to tracking down the cause of the bug
 
 Recording is simple: just rr record qemu-system-arm args.... Then rr replay will start replaying the last record, and by default will drop you into a gdb at the start of the recording. Let’s just let it run forward until the assertion:
 
-[![code section 1.7](https://www.linaro.org/wp-content/uploads/2015/06/code-section-1.7.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/code-section-1.7.jpg)
+[![code section 1.7](/assets/blog/code-section-1.7.jpg)](/assets/blog/code-section-1.7.jpg)
 
 
 
@@ -45,7 +45,7 @@ Recording is simple: just rr record qemu-system-arm args.... Then rr replay w
 
 Looking back up the stack we find that we were definitely trying to flush a valid TLB entry:
 
-[![code section 2.7](https://www.linaro.org/wp-content/uploads/2015/06/code-section-2.7.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/code-section-2.7.jpg)
+[![code section 2.7](/assets/blog/code-section-2.7.jpg)](/assets/blog/code-section-2.7.jpg)
 
 
 
@@ -57,7 +57,7 @@ Looking back up the stack we find that we were definitely trying to flush a vali
 
 and checking env->tlb_flush_mask and env->tlb_flush_addr shows that QEMU thinks this address is outside the range covered by huge pages. Maybe we miscalculated them when we were adding the page? Let’s go back and find out what happened then:
 
-[![code section 3.7](https://www.linaro.org/wp-content/uploads/2015/06/code-section-3.7.jpg)](https://www.linaro.org/wp-content/uploads/2015/06/code-section-3.7.jpg)
+[![code section 3.7](/assets/blog/code-section-3.7.jpg)](/assets/blog/code-section-3.7.jpg)
 
 
 

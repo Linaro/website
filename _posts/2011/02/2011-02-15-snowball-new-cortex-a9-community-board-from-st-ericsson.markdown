@@ -25,9 +25,9 @@ This board was designed for the needs of both the embedded Linux community devel
 
 First, here are pictures:
 
-![Snowball connectors](http://www.linaro.org/wp-content/uploads/2011/03/ResizedImage600441-snowball1.jpg)
+![Snowball connectors](/assets/blog/ResizedImage600441-snowball1.jpg)
 
-![Snowball connectors](http://www.linaro.org/wp-content/uploads/2011/03/ResizedImage600466-snowball2.jpg)
+![Snowball connectors](/assets/blog/ResizedImage600466-snowball2.jpg)
 
 
 

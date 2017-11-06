@@ -14,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-[caption id="attachment_2783" align="alignleft" width="259"][![James Bottomley](http://www.linaro.org/wp-content/uploads/2013/06/Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg)](http://www.linaro.org/wp-content/uploads/2013/06/Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg) James Bottomley[/caption]
+[caption id="attachment_2783" align="alignleft" width="259"][![James Bottomley](/assets/blog/Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg)](/assets/blog/Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg) James Bottomley[/caption]
 
 
 We’re excited to announce that James Bottomley, will be giving the Monday, July 8th keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).

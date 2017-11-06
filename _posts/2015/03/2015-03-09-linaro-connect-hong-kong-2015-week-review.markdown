@@ -22,7 +22,7 @@ tags:
 - Open Source
 ---
 
-[vc_row][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"][![hkg15 group photo](http://www.linaro.org/wp-content/uploads/2015/03/hkg15-group-photo.jpg)](http://www.linaro.org/wp-content/uploads/2015/03/hkg15-group-photo.jpg)[/vc_column_text][/vc_column][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[vc_row][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"][![hkg15 group photo](/assets/blog/hkg15-group-photo.jpg)](/assets/blog/hkg15-group-photo.jpg)[/vc_column_text][/vc_column][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015 in Hong Kong, China was an amazing week with over 400 attendees and many keynotes, sessions and demos for attendees to enjoy. To see a list of all the available materials from all the sessions held during the week please [click here](http://www.linaro.org/blog/linaro-connect-hong-kong-2015-content-now-available/).

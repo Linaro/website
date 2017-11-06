@@ -3,6 +3,7 @@ sig_id: 1
 title: High Performance Computing (HPC)
 permalink: /sig/hpc/
 director: Martin Stadtler
+youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv
 ---
 # High Performance Computing (HPC)
 

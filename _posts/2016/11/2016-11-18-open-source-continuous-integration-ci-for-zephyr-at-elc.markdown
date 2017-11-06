@@ -23,11 +23,11 @@ tags:
 
 _a software development practice that pretty much nobody would associate with microcontrollers … _
 
-![blog-pic-1](https://www.linaro.org/wp-content/uploads/2016/11/blog-pic-1.jpg)
+![blog-pic-1](/assets/blog/blog-pic-1.jpg)
 
 I found myself last month representing Linaro at the Zephyr booth on the demo area floor in the Maritim Hotel in Berlin for ELC-E. I had a rather unusual microcontroller demo. 
 
-![blog-pic-2](https://www.linaro.org/wp-content/uploads/2016/11/blog-pic-2.png)
+![blog-pic-2](/assets/blog/blog-pic-2.png)
 
 Microcontroller demos often tend to be a product prototype running an RTOS, often extended to sending data to a cloud-based application and/or to a mobile device. There were certainly some very cool microcontroller demos on the Zephyr booth at ELC. In our Zephyr demo we wanted to show how open the source code, tooling, and configuration could be, and how transparent collaboration could flow from the engineering behind the deeply embedded RTOS code. 
 
@@ -70,7 +70,7 @@ That single git push command kicks off the entire test process that includes rem
 
 After the results from the virtual machine tests are executed, key target applications are subsequently built and deployed from the cloud to the small test farm of boards running in the booth and tested on multiple devices, i.e. testing on real hardware, in real-time. 
 
-![blog-pic3](https://www.linaro.org/wp-content/uploads/2016/11/blog-pic3.png)
+![blog-pic3](/assets/blog/blog-pic3.png)
 
 Incidentally, the entire build and test infrastructure was built with scalability as as the driving factor using containers and orchestration. Even the local test farm in the booth was driven by a laptop running a container instance of the test dispatcher.
 

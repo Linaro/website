@@ -26,7 +26,7 @@ LHG members span the media ecosystem consisting of operators, OEMs, and SoC vend
 
 Currently, LHG has the following members, several of which are actively focused on RDK development and deployment opportunities.
 
-[caption id="attachment_7991" align="alignnone" width="647"]![Current LHG Members](http://www.linaro.org/wp-content/uploads/2015/02/rdk-1.jpg) **Current LHG Members**[/caption]
+[caption id="attachment_7991" align="alignnone" width="647"]![Current LHG Members](/assets/blog/rdk-1.jpg) **Current LHG Members**[/caption]
 
 
 
@@ -64,7 +64,7 @@ LHG is evolving an open source software stack introduced by one of the LHG membe
 
 
 
-[caption id="attachment_7992" align="alignnone" width="830"]![LHG RDK Build and Development Activities](http://www.linaro.org/wp-content/uploads/2015/02/rdk-2.jpg) **LHG RDK Build and Development Activities**[/caption]
+[caption id="attachment_7992" align="alignnone" width="830"]![LHG RDK Build and Development Activities](/assets/blog/rdk-2.jpg) **LHG RDK Build and Development Activities**[/caption]
 
 
 
@@ -86,7 +86,7 @@ Jenkins is used for our CI loops, which will do verification of every Gerrit pat
 
 
 
-[caption id="attachment_7993" align="alignnone" width="698"]![LHG RDK Build Infrastructure established for Members](http://www.linaro.org/wp-content/uploads/2015/02/rdk3.jpg) **LHG RDK Build Infrastructure established for Members**[/caption]
+[caption id="attachment_7993" align="alignnone" width="698"]![LHG RDK Build Infrastructure established for Members](/assets/blog/rdk3.jpg) **LHG RDK Build Infrastructure established for Members**[/caption]
 
 
 
@@ -102,6 +102,6 @@ The members of LHG utilize the [Linaro Stable Kernel (LSK)](https://wiki.linaro.
 
 Linaro will be represented at the RDK User's Conference by the Linaro Digital Home Group (LHG) members.  Linaro will be presenting at the conference with a talk entitled “The Linaro Perspective on the RDK”.  At the Linaro booth, there will be demos on LHG member boards showing the latest innovations on the RDK.
 
-![rdk4](http://www.linaro.org/wp-content/uploads/2015/02/rdk4.jpg)
+![rdk4](/assets/blog/rdk4.jpg)
 
 

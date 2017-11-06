@@ -324,4 +324,4 @@ Thursday at Linaro Connect began with a keynote by  Dr Christos Kolias, Senior 
 ###  **Images of the Linaro Networking Group Demo Day**
 
 
-[ ![LNG demo day](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)](http://www.linaro.org/wp-content/uploads/2014/09/LNG-demo-day.png)
+[ ![LNG demo day](/assets/blog/LNG-demo-day.png)](/assets/blog/LNG-demo-day.png)

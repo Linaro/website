@@ -30,7 +30,7 @@ tags:
 
 
 
-## **![Linux-Kernel-Summit](http://www.linaro.org/wp-content/uploads/2014/09/Linux-Kernel-Summit.png)What is energy-aware scheduling?**
+## **![Linux-Kernel-Summit](/assets/blog/Linux-Kernel-Summit.png)What is energy-aware scheduling?**
 
 
 A topic of increasing interest is the push for energy awareness in the Linux kernel scheduler. While the topic is broad and deep, the general goal is to adapt the Linux kernel scheduler to take into account the energy cost of the decisions it makes and, with knowledge of the underlying hardware platform, make more intelligent decisions that can save power whilst maintaining existing performance levels. This general goal will be achieved through many efforts including new tools to help test changes and validate assumptions, as well as the integration of existing power management subsystems such as CPUfreq and CPUidle with the scheduler. The end result will be Linux-powered devices that consume less energy, manage thermal events with panache and perhaps are even more performant. This is a boon for battery-powered mobile devices, big iron data centers and everything in between and the backgrounds of the workshop attendees reflect that.
@@ -77,7 +77,7 @@ While some time was spent on the mechanism to get the per-platform and per-machi
 
 **Frequent flyers**
 
-![tux-eas](http://www.linaro.org/wp-content/uploads/2014/09/tux-eas.jpg)The workshop moved on to discuss the integration of the Linux CPUfreq subsystem with the scheduler. Happily much of the discussion aligned nicely with the experiments being conducted within Linaro. [Paul Turner](http://www.linkedin.com/pub/paul-turner/23/0/586) and [Peter Zijlstra](http://nl.linkedin.com/pub/peter-zijlstra/0/568/797) both referred to the scheduler-facing interface as an “oracle”, meaning that the scheduler queries the platform energy model about such topics and task placement and cpu frequency scaling. The main benefit here is to unify the cpu frequency selection with task placement selection, something that is sorely lacking in products today.
+![tux-eas](/assets/blog/tux-eas.jpg)The workshop moved on to discuss the integration of the Linux CPUfreq subsystem with the scheduler. Happily much of the discussion aligned nicely with the experiments being conducted within Linaro. [Paul Turner](http://www.linkedin.com/pub/paul-turner/23/0/586) and [Peter Zijlstra](http://nl.linkedin.com/pub/peter-zijlstra/0/568/797) both referred to the scheduler-facing interface as an “oracle”, meaning that the scheduler queries the platform energy model about such topics and task placement and cpu frequency scaling. The main benefit here is to unify the cpu frequency selection with task placement selection, something that is sorely lacking in products today.
 
 Those shipping power sensitive devices have no doubt felt the pain of tuning a CPUfreq governor and seen it scale the cpu frequency in a way that is at odds with the scheduler’s task placement, especially for high value use cases such as low power MP3 playback or web browsing. Integrating CPUfreq with the scheduler hopes to resolve these issues.
 

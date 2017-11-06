@@ -11,7 +11,7 @@ categories:
 - blog
 ---
 
-[caption id="attachment_2769" align="alignleft" width="184"][![Bob Monkman](http://www.linaro.org/wp-content/uploads/2013/06/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg)](http://www.linaro.org/wp-content/uploads/2013/06/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg) Bob Monkman[/caption]
+[caption id="attachment_2769" align="alignleft" width="184"][![Bob Monkman](/assets/blog/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg)](/assets/blog/mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg) Bob Monkman[/caption]
 
 
 We're pleased to announce that Bob Monkman of the Enterprise Segment Marketing Team at [ARM](http://www.arm.com/) will be giving the Thursday, July 11th keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).

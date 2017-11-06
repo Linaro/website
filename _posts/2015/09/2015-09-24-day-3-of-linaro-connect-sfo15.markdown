@@ -18,7 +18,7 @@ tags:
 - Linaro Connect
 ---
 
-[vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/2"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/09/ecosystem-day-slide.jpg" image_width="800" image_height="350" crop="false" svg="false" lightbox="false" frame_style="gray_border" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/2"][mk_image src="/assets/blog/ecosystem-day-slide.jpg" image_width="800" image_height="350" crop="false" svg="false" lightbox="false" frame_style="gray_border" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column][vc_column border_color="" visibility="" width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 Day 3 of Linaro Connect San Francisco 2015 was a day dedicated to ARM Server Ecosystem.  The morning began with two keynotes focused on this topic.  After the keynotes there were several sessions held during the day with guest speakers for the LEG server ecosystem day, with topics ranging from CoreOS, LXD Docker & Ubuntu Snappy, ARM64, Docker images for ARM server and Realtime Streaming Analytics.

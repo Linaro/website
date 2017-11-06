@@ -14,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-[![](http://www.linaro.org/wp-content/uploads/2013/03/RisingSunHotel.jpg)](http://www.linaro.org/wp-content/uploads/2013/03/RisingSunHotel.jpg)As the sun rises over the Gold Coast Hotel this morning we are reminded that Linaro Connect Asia 2013 in Hong Kong is coming to an end today.
+[![](/assets/blog/RisingSunHotel.jpg)](/assets/blog/RisingSunHotel.jpg)As the sun rises over the Gold Coast Hotel this morning we are reminded that Linaro Connect Asia 2013 in Hong Kong is coming to an end today.
 
 It's been a busy week of training workshops, mini-summits, planning, hacking, interviewing, and more.
 

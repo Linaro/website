@@ -22,7 +22,7 @@ tags:
 
 
 
-## ![quem](http://www.linaro.org/wp-content/uploads/2014/08/quem.jpg)Did you know the Android emulator is based on QEMU?
+## ![quem](/assets/blog/quem.jpg)Did you know the Android emulator is based on QEMU?
 
 
 When the Android SDK was first made available to the world, Google used QEMU as the basis for their Android emulator. They copied the source code to a custom repository in the Android Open Source Project (AOSP) and made a number of invasive modifications to QEMU. Specifically, they added emulation of a specific board called goldfish for the purposes of emulating an Android phone.
@@ -42,7 +42,7 @@ The UI patches support skinning of the framebuffer window so a mock up of the em
 The emulated devices include a fast IPC mechanism known as the “qemu_pipe” that provides a way for the emulated Android userspace to communicate with the host machine. This is used by both the adb service to communicate with the guest adb daemon and console services and to provide a fast passthrough path for the emulated accelerated graphics support described above. The Android emulator also emulates GSM support, a GPS chip, sensors (proximity and rotation), and more to provide application developers with an experience close to a real phone and to allow developers to test all aspects of their applications, such as how an application responds to a user rotating a device or an application requesting the current location.
 
 
-## ![Android-L](http://www.linaro.org/wp-content/uploads/2014/08/Android-L.jpg)Along comes Android L
+## ![Android-L](/assets/blog/Android-L.jpg)Along comes Android L
 
 
 Google recently announced [Android L](http://developer.android.com/preview/index.html) at Google I/O. One of the major new features in Android L is the support for the ARMv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.

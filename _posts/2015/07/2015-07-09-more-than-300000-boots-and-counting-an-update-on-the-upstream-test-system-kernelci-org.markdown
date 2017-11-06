@@ -85,9 +85,9 @@ Of course, with our experience we thought this would be a simple task, however w
 
 [/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]Impact of kernelci.org so far
 
-[![boot coverage image](https://www.linaro.org/wp-content/uploads/2015/07/boot-coverage-image.jpg)](https://www.linaro.org/wp-content/uploads/2015/07/boot-coverage-image.jpg)[/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]It is important to note that even with the great progress we have made, the overall problem is much larger.  Today, v4.1, [kernelci.org](http://kernelci.org/?july2015) performed 457 boots across 3 processor architectures on 103 unique platforms and 24 SoC families. However there are a staggering 570 Device Tree Source (dts) files in the Linux kernel which means there are approximately ~467 ARM platforms that we are not able to test.
+[![boot coverage image](/assets/blog/boot-coverage-image.jpg)](/assets/blog/boot-coverage-image.jpg)[/vc_column_text][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]It is important to note that even with the great progress we have made, the overall problem is much larger.  Today, v4.1, [kernelci.org](http://kernelci.org/?july2015) performed 457 boots across 3 processor architectures on 103 unique platforms and 24 SoC families. However there are a staggering 570 Device Tree Source (dts) files in the Linux kernel which means there are approximately ~467 ARM platforms that we are not able to test.
 
-[![mainline platform coverage](https://www.linaro.org/wp-content/uploads/2015/07/mainline-platform-coverage.jpg)](https://www.linaro.org/wp-content/uploads/2015/07/mainline-platform-coverage.jpg)[/vc_column_text][/vc_column][/vc_row][vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/1"][vc_separator color="grey" align="align_center"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
+[![mainline platform coverage](/assets/blog/mainline-platform-coverage.jpg)](/assets/blog/mainline-platform-coverage.jpg)[/vc_column_text][/vc_column][/vc_row][vc_row fullwidth="false" attached="false" padding="0" visibility="" animation=""][vc_column border_color="" visibility="" width="1/1"][vc_separator color="grey" align="align_center"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
 
 ## Using [kernelci.org](http://kernelci.org/?july2015) with Linaro Stable Kernels
@@ -98,7 +98,7 @@ Of course, with our experience we thought this would be a simple task, however w
 Having an early warning system for build and boot regressions upstream has also been valuable for the Linaro stable kernel as the benefits of developing on the Linux kernel always flow down.  Beyond mainline, we also use kernelci.org to validate the stable queues, making sure that no regressions sneak into the stable kernel, and also watch the test lsk branch to make sure any feature backports also do not introduce regressions.
 
 
-[![chart on builds and boots](https://www.linaro.org/wp-content/uploads/2015/07/chart-on-builds-and-boots.jpg)](https://www.linaro.org/wp-content/uploads/2015/07/chart-on-builds-and-boots.jpg)
+[![chart on builds and boots](/assets/blog/chart-on-builds-and-boots.jpg)](/assets/blog/chart-on-builds-and-boots.jpg)
 
 **What’s next?**
 

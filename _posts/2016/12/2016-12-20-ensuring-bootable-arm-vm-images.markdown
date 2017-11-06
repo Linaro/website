@@ -21,7 +21,7 @@ tags:
 - Xen
 ---
 
-![core-dump](http://www.linaro.org/wp-content/uploads/2016/02/core-dump.png)
+![core-dump](/assets/blog/core-dump.png)
 
 _A while back, during Linaro Connect 2013, Riku Voipio (Linaro) asked a simple but important question: “When you guys are done building hypervisors that work on ARM, how do we actually make sure that a user can run something on there?”. Of course, he didn’t have in mind that users could manually build a kernel with the required options, remember a long and complicated QEMU command line, bootstrap their own root file systems, pray to the KVM gods, and hope to get a system running. Instead he was thinking of the general problem of how distribution vendors could package a cloud image that was known to work across multiple versions of multiple different ARM hypervisor implementations._
 

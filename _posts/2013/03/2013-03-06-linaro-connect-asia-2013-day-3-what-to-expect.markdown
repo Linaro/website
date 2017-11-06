@@ -22,7 +22,7 @@ Which was followed by the ARM Server Mini-Summit, Embedded Android Training, LAV
 
 Linaro is growing and so is participation in Linaro Connect.
 
-[caption id="attachment_2550" align="alignleft" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi1-1024x682.jpg)](http://www.linaro.org/wp-content/uploads/2013/03/LCA13-Group-001-72dpi1.jpg)[/caption]
+[caption id="attachment_2550" align="alignleft" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](/assets/blog/LCA13-Group-001-72dpi1-1024x682.jpg)](/assets/blog/LCA13-Group-001-72dpi1.jpg)[/caption]
 
 
 ## Videos and Presentation Slides?

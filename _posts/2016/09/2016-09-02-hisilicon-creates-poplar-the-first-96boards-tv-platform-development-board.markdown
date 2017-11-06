@@ -24,7 +24,7 @@ The Poplar board is manufactured by Tocoding Technologies and is described here:
 
 The board supports the HiSilicon quad-core 3798C V200 and is targeted at professional set-top box and TV panel developers, as well as the open source maker community (see image of board below). The Poplar board ships with Android 5.1.1 installed.
 
-[caption id="attachment_11526" align="aligncenter" width="717"]![HiSilicon Poplar TV Platform Board (courtesy Tocoding Technologies)](http://www.linaro.org/wp-content/uploads/2016/08/Poplar-board-photo.jpg) HiSilicon Poplar TV Platform Board (courtesy Tocoding Technologies)[/caption]
+[caption id="attachment_11526" align="aligncenter" width="717"]![HiSilicon Poplar TV Platform Board (courtesy Tocoding Technologies)](/assets/blog/Poplar-board-photo.jpg) HiSilicon Poplar TV Platform Board (courtesy Tocoding Technologies)[/caption]
 
 Poplar’s design is based on the 96Boards TV Platform specification, which focuses on home media requirements targeted to set-top boxes, media gateways and TV panel manufacturers. The requirements for the 96Boards TV Platform specification were defined by the Linaro Digital Home Group (LHG) director and member company representatives of the LHG steering committee.
 

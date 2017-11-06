@@ -189,4 +189,4 @@ Also on display on Tuesday was the first board available as part of the [96Board
 Keep checking to see more highlights from the event this week.
 
 
-[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3"][mk_image src="http://www.linaro.org/wp-content/uploads/2015/02/hikey-board.jpg" image_width="1134" image_height="693" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3"][mk_image src="/assets/blog/hikey-board.jpg" image_width="1134" image_height="693" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]

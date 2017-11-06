@@ -25,7 +25,7 @@ tags:
 - Opensource
 ---
 
-![core-dump](http://www.linaro.org/wp-content/uploads/2016/02/core-dump.png)
+![core-dump](/assets/blog/core-dump.png)
 This article will describe the programming and operation of the OpenCSD library in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology and terminology, these elements will be related to the configuration of the library in order to successfully decode a captured trace stream.
 
 A brief exploration of the key programming APIs will be provided, along with a description of the test and example programs and the test data that drives these.
@@ -63,7 +63,7 @@ The trace sink will format the incoming trace data into a CoreSight frame format
   3. **Trace Infrastructure:**  The funnels, CTIs (not shown) and  replicators (not shown) which direct and multiplex sources to sinks, and can be used to control events which control the capture of trace.
 
 
-![Picture1](http://www.linaro.org/wp-content/uploads/2016/07/Picture1.jpg)
+![Picture1](/assets/blog/Picture1.jpg)
 
 
 Figure 1:  Typical CoreSight System.
@@ -71,7 +71,7 @@ Figure 1:  Typical CoreSight System.
 
 The system software, or a program using the trace system, must program up the CoreSight components to generate trace as required. Each trace source is programmed with a CoreSight Trace ID, to allow the source to be identified when de-multiplexing the buffer and decoding the Trace.
 
-![image 1](http://www.linaro.org/wp-content/uploads/2016/07/image-1.jpg)
+![image 1](/assets/blog/image-1.jpg)
 
 
 ## **The Decode Process.**
@@ -99,7 +99,7 @@ The task of decoding the incoming trace stream is a three stage process.
 
 This section discusses the basic concepts involved in configuring the library for trace decode. API specifics are presented in the next section.
 
-The library provides a decoder management component called a “**decode tree**”. This provides an API to create a connected set of decode components. **Figure 2** shows a configured decode tree inside a client application.![figure 2](http://www.linaro.org/wp-content/uploads/2016/07/figure-2.jpg)
+The library provides a decoder management component called a “**decode tree**”. This provides an API to create a connected set of decode components. **Figure 2** shows a configured decode tree inside a client application.![figure 2](/assets/blog/figure-2.jpg)
 
 
 Figure 2: Configured Decode Tree.
@@ -145,7 +145,7 @@ The decoder API contains a structure for the required trace configuration regist
 
 This section covers specific API functions and data types. Further API documentation is available in the source code, formatted for extraction by the ‘doxygen’ tool to create a reference manual.
 
-![figure 3](http://www.linaro.org/wp-content/uploads/2016/07/figure-3.jpg)
+![figure 3](/assets/blog/figure-3.jpg)
 
 
 Figure 3 introduces some of the components and interface types used when connecting components within the decode tree. These connections are created automatically as the API is used to create the decoder objects within the tree. The diagram shows the path of the data through the decoder to the client application.
@@ -169,17 +169,17 @@ _**IPktRawDataMon<P>**_: This interface is optionally provided by the client app
 
 Configuration using the C++ API begins with the creation of a decode tree.
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-1.jpg)
+![](/assets/blog/redo-box-1.jpg)
 
 The flag [_OCSD_TRC_SRC_FRAME_FORMATTED_] tells the creation function to automatically set up the de-multiplexor for the CoreSight trace formatted frame. The second parameter tells the de-multiplexor that there are no frame syncs in the incoming raw trace stream (frame syncs are used when trace is output via a TPIU). This is by far the most common trace format when analysing trace captured on target. The library has a  built-in  ARM instruction set opcode analyser which will be created and automatically attached to the decoders.
 
 Next the individual decoders are created. The creation of a decoder requires that the decoder configuration information is provided – this is in the form of the ocsd_xyz_cfg structures and classes. The client application must fill in the structure / class and pass this to the decoder creation API on the decoder tree.
 
-![box 3](http://www.linaro.org/wp-content/uploads/2016/07/box-3.jpg)
+![box 3](/assets/blog/box-3.jpg)
 
 Decoders are selected by name – those built-in to the library have defined names in the library headers  [e.g. _OCSD_BUILTIN_DCD_PTM_]. The API allows for the creation of a packet processor only (used for debugging trace hardware), or more usually a full packet processor / packet decoder pair [_OCSD_CREATE_FLG_FULL_DECODER_].
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-2.jpg)
+![](/assets/blog/redo-box-2.jpg)
 
 Having created all the required decoders, the next stage is to add the memory images to the memory access handler interface. Memory images can take a number of forms:
 
@@ -204,7 +204,7 @@ Single or multiple memory accessors can be used, which are handed by the memory 
 
 API calls for to create the memory accessors and add them to the memory accessor mapper are provided on the Decode Tree.
 
-![figure 4](http://www.linaro.org/wp-content/uploads/2016/07/figure-4.jpg)
+![figure 4](/assets/blog/figure-4.jpg)
 
 
 Figure 4:  Memory Access Handler
@@ -212,13 +212,13 @@ Figure 4:  Memory Access Handler
 
 Figure 4 shows a typical example – a trace session has been run tracing a program ‘my_prog’ which in turn loads ‘my_lib.so’. The client adds these as memory images using a file memory accessor object to the decode tree in order to correctly process the trace data. The example code below shows how this is achieved:
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-3.jpg)A memory  accessor  mapper is created in the decode tree. This needs to occur only once per decode tree. The file images are then added by populating the _ocsd_file_mem_region_t _structure. An array of these structures is passed to the memory accessor creation function which adds the accessor to the mapper.
+![](/assets/blog/redo-box-3.jpg)A memory  accessor  mapper is created in the decode tree. This needs to occur only once per decode tree. The file images are then added by populating the _ocsd_file_mem_region_t _structure. An array of these structures is passed to the memory accessor creation function which adds the accessor to the mapper.
 
 The _OCSD_MEM_SPACE_ANY_ parameter tags this memory image as existing for any memory space. The memory image can be tagged as existing in secure memory space,  the non-secure memory space, or as in this case both.  When decoding the trace, the decoder will use the memory space according to the trace data. The example is created with the ‘any’ tag – indicating it is valid for any memory space that the trace covers. The memory mapper will handle selecting the correct memory image according to address range and memory space when a memory request arrives from the decoder. The narrowest memory space will take priority over a more general one – overlapping memory ranges are only allowed if the memory spaces are different.
 
 Finally, the client must also provide the interface that will receive the generic  output packets from the decoders.
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-4.jpg)The decode tree is now ready to process trace data.
+![](/assets/blog/redo-box-4.jpg)The decode tree is now ready to process trace data.
 
 
 ### **Configuration using the C API **
@@ -228,21 +228,21 @@ Configuration using the C API follows the same pattern as with the C++ API. Many
 
 Create a decode tree – will return a handle for the tree or 0 on failure.
 
-![box 7](http://www.linaro.org/wp-content/uploads/2016/07/box-7.jpg)
+![box 7](/assets/blog/box-7.jpg)
 
 Create decoders, using the handle supplied in the create tree operation:-
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-5.jpg)
+![](/assets/blog/redo-box-5.jpg)
 
 It should be noted here that the creation function returns the Trace ID that the decoder is associated with. This is extracted from the configuration data and may be used in other C API calls for operations related to this specific decoder.
 
 Add the memory images for the trace decoding. One key difference here is that the mapper is created automatically on the first “add image” call on the decode tree.
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-6.jpg)
+![](/assets/blog/redo-box-6.jpg)
 
 The output interface is provided by registering a call-back function.
 
-![](http://www.linaro.org/wp-content/uploads/2016/03/redo-box-7.jpg)
+![](/assets/blog/redo-box-7.jpg)
 
 
 ## **The Trace Data Path and API**
@@ -307,11 +307,11 @@ _                                        
 
 The data path operations are shown in the table below:-
 
-![data ops table 1](http://www.linaro.org/wp-content/uploads/2016/07/data-ops-table-1.jpg)
+![data ops table 1](/assets/blog/data-ops-table-1.jpg)
 
 The data path response types are shown below:-
 
-![data resp table 2](http://www.linaro.org/wp-content/uploads/2016/07/data-resp-table-2.jpg)
+![data resp table 2](/assets/blog/data-resp-table-2.jpg)
 
 If a fatal error occurs then the client may look at the last logged error to determine the cause (the decode tree API provides a getLastError function).  Depending on the nature of the error the decoder may be able to be re-used by sending the _OCSD_OP_RESET_ operation through the input interface.
 

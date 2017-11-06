@@ -19,14 +19,14 @@ tags:
 - Scheduling
 ---
 
-# **![1](http://www.linaro.org/wp-content/uploads/2015/01/1.jpg)Energy-Aware** Scheduling** (EAS) Project**
+# **![1](/assets/blog/1.jpg)Energy-Aware** Scheduling** (EAS) Project**
 
 
 The energy-aware scheduling (EAS) project is trying to solve a long-standing design limitation of two key power-management subsystems (CPUFreq and CPUIdle) - they don’t coordinate their decisions with task scheduling decisions.
 
 As shown in the figure below, the scheduler, cpufreq and cpuidle subsystems work in isolation, at different time scales and often at cross-purposes with each other. The scheduler tries to balance the load across all CPUs (without any regards to the power costs) while the CPUFreq and CPUIdle subsystems are trying to save power by scaling down the frequency of the CPUs or idling them, respectively.
 
-![2](http://www.linaro.org/wp-content/uploads/2015/01/2.jpg)
+![2](/assets/blog/2.jpg)
 
 The Power Management (PM) subsystems have heuristics (in their governors) to try to predict the best time to save power on the CPU without affecting performance. These heuristics use their own means to try to gauge the current utilisation of the cpu and have to be run several times a second to react to any changes in the system - it is _reactive_ by design. Moreover, the scheduler is constantly breaking their predictions by task scheduling because it has no knowledge of the power topology of the SoC.
 
@@ -67,7 +67,7 @@ There are several obstacles that make this a complex undertaking. It is like pee
 
 I classify all of this work as EAS infrastructure work. Once done, the picture might look a bit like the one below (greatly simplified).
 
-![3](http://www.linaro.org/wp-content/uploads/2015/01/3.jpg)
+![3](/assets/blog/3.jpg)
 
 All these changes will allow sophisticated load balancing heuristics to be developed that allow all of the following:
 

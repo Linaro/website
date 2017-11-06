@@ -22,15 +22,15 @@ tags:
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
-[The Linaro Digital Home Group ](https://www.linaro.org/groups/lhg/)(LHG) is celebrating its third year anniversary![![](https://www.linaro.org/wp-content/uploads/2017/05/blog-2-300x250.png)](https://www.linaro.org/groups/lhg/)
+[The Linaro Digital Home Group ](https://www.linaro.org/groups/lhg/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2-300x250.png)](https://www.linaro.org/groups/lhg/)
 
-Officially launc![](https://www.linaro.org/wp-content/uploads/2017/05/blog-1-300x200.jpg)hed in May 2014 with eight founding members, LHG has delivered a succession of secure media frameworks on ARM to its members. I would like to extend a big thank you to our member companies for their continued support and encouragement over the years. I would also like to thank members of the larger community who have shown an interest in our work by attending Linaro Connect and giving presentation/keynotes on behalf of LHG.
+Officially launc![](/assets/blog/blog-1-300x200.jpg)hed in May 2014 with eight founding members, LHG has delivered a succession of secure media frameworks on ARM to its members. I would like to extend a big thank you to our member companies for their continued support and encouragement over the years. I would also like to thank members of the larger community who have shown an interest in our work by attending Linaro Connect and giving presentation/keynotes on behalf of LHG.
 
-The mission of LHG has remained consistent over the last![](https://www.linaro.org/wp-content/uploads/2017/05/lhg-mission-1-300x157.png) three years. However, the end applications for secure media frameworks have extended beyond TV and even the home itself, even reaching automotive In-Vehicle Infotainment (IVI) systems. Video is becoming ubiquitous in many facets of our day-to-day lives.
+The mission of LHG has remained consistent over the last![](/assets/blog/lhg-mission-1-300x157.png) three years. However, the end applications for secure media frameworks have extended beyond TV and even the home itself, even reaching automotive In-Vehicle Infotainment (IVI) systems. Video is becoming ubiquitous in many facets of our day-to-day lives.
 
 **LHG: In the beginning**
 
-![](https://www.linaro.org/wp-content/uploads/2017/05/blog-3.jpg)
+![](/assets/blog/blog-3.jpg)
 
 The early work of LHG targeted the migration of the Comcast Reference Design Kit (RDK) to ARMv8 processors. LHG employed open source features of the Linux kernel, and used open source projects related to media, graphics, security and web browsers, to create a reference implementation, named by Comcast as the ‘Linaro RDK’.
 
@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=zmOTyKFeyCs&t;=100s
 
 _Demo from Linaro Connect Budapest 2017 of Linaro RDK running on the DragonBoard410C_
 
-![](https://www.linaro.org/wp-content/uploads/2017/05/blog-4-300x62.png) In the last half of 2016, LHG formally started working with Android Open Source Project (AOSP) TV.  This activity has lead to the creation of the [AOSP TV](https://collaborate.linaro.org/display/EP/AOSP+TV) Lead Project in LHG.  The AOSP TV Lead Project has the mandate to integrate, develop, distribute and maintain AOSP based on the TV form factor as the basis for Android TV work by our members. LHG recently completed a Widevine DRM Level 1 playback on Android N with OP-TEE v2.4.0 with secure media buffers.
+![](/assets/blog/blog-4-300x62.png) In the last half of 2016, LHG formally started working with Android Open Source Project (AOSP) TV.  This activity has lead to the creation of the [AOSP TV](https://collaborate.linaro.org/display/EP/AOSP+TV) Lead Project in LHG.  The AOSP TV Lead Project has the mandate to integrate, develop, distribute and maintain AOSP based on the TV form factor as the basis for Android TV work by our members. LHG recently completed a Widevine DRM Level 1 playback on Android N with OP-TEE v2.4.0 with secure media buffers.
 
 https://www.youtube.com/watch?v=lkAERtIry4w&t;=10s
 
@@ -66,7 +66,7 @@ For more information on LHG, click [here.](https://www.linaro.org/groups/lhg/)
 
 **LHG Member Companies**
 
-![](https://www.linaro.org/wp-content/uploads/2017/05/arm-logo-300x180.jpg)    ![](https://www.linaro.org/wp-content/uploads/2017/05/comcast-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/hisilicon-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/mstar-semiconductor-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/quic-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/socionext-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/spreadtrum-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/ti-logo-300x180.jpg)  ![](https://www.linaro.org/wp-content/uploads/2017/05/zte-logo-300x180.jpg)
+![](/assets/blog/arm-logo-300x180.jpg)    ![](/assets/blog/comcast-logo-300x180.jpg)  ![](/assets/blog/hisilicon-logo-300x180.jpg)  ![](/assets/blog/mstar-semiconductor-logo-300x180.jpg)  ![](/assets/blog/quic-logo-300x180.jpg)  ![](/assets/blog/socionext-logo-300x180.jpg)  ![](/assets/blog/spreadtrum-logo-300x180.jpg)  ![](/assets/blog/ti-logo-300x180.jpg)  ![](/assets/blog/zte-logo-300x180.jpg)
 
 **Recent LHG Achievements**
 
@@ -148,7 +148,7 @@ For more information on LHG, click [here.](https://www.linaro.org/groups/lhg/)
   * Upstream OP-TEE to AOSP HiKey branch
 
 
-![](https://www.linaro.org/wp-content/uploads/2017/05/blog6.png) ![](https://www.linaro.org/wp-content/uploads/2017/05/blog-7.jpg) ![](https://www.linaro.org/wp-content/uploads/2017/05/blog-8.png)  ![](https://www.linaro.org/wp-content/uploads/2017/05/blog-10-300x113.png)       ![](https://www.linaro.org/wp-content/uploads/2017/05/blog-11-300x204.png)
+![](/assets/blog/blog6.png) ![](/assets/blog/blog-7.jpg) ![](/assets/blog/blog-8.png)  ![](/assets/blog/blog-10-300x113.png)       ![](/assets/blog/blog-11-300x204.png)
 
 
 

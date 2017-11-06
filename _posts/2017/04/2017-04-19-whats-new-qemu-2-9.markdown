@@ -14,7 +14,7 @@ tags:
 - qemu
 ---
 
-[![](https://www.linaro.org/wp-content/uploads/2016/02/core-dump-1024x107.png)](/blog/core-dump/)
+[![](/assets/blog/core-dump-1024x107.png)](/blog/core-dump/)
 
 QEMU is an interesting multi-faceted open source project. It is a standard component for the Linux virtualisation stack, used by both the KVM and Xen hypervisors for device emulation. Thanks to its dynamic just-in-time recompilation engine known as the Tiny Code Generator (TCG) it is also capable of emulating other architectures on a number of hosts. This takes the form of either a full system emulation or the lighter weight user-mode emulation that allows foreign user-space binaries to be run alongside the rest of the host system.
 
