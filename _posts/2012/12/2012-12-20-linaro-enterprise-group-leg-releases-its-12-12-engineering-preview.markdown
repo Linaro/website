@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-20 21:50:47+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/

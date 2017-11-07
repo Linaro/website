@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-20 18:50:27+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/

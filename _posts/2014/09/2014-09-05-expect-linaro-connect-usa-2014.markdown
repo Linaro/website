@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2014-09-05 20:18:13+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/expect-linaro-connect-usa-2014/

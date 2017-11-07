@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-01-10 14:10:41+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kong/

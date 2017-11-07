@@ -1,6 +1,6 @@
 ---
 author: linus.walleij
-comments: false
+
 date: 2014-05-21 20:40:35+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-embedded-linux-conference/

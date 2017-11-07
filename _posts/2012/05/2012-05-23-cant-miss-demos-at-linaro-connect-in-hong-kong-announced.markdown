@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-05-23 14:26:03+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/

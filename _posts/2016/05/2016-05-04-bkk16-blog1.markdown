@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-05-04 10:43:51+00:00
 layout: post
 link: https://www.linaro.org/blog/bkk16-blog1/

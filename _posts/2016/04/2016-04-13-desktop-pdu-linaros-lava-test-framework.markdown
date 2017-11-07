@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-04-13 10:19:47+00:00
 layout: post
 link: https://www.linaro.org/blog/desktop-pdu-linaros-lava-test-framework/

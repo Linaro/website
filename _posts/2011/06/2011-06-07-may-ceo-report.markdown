@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2011-06-07 15:41:01+00:00
 layout: post
 link: https://www.linaro.org/blog/may-ceo-report/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-03-09 19:14:22+00:00
 excerpt: Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015
   in Hong Kong, China was an amazing week with over 400 attendees and many keynotes,

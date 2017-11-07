@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-05-30 12:12:47+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-partners-samsung-ecosystem-deliver-exciting-new-low-cost-board-origen-open-source-developers/

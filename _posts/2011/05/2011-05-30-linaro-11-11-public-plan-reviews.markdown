@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-05-30 04:42:09+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-11-11-public-plan-reviews/

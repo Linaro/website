@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-08-11 05:48:26+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-optimizations/

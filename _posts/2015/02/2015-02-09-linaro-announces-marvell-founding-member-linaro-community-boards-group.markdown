@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-02-09 12:58:09+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/

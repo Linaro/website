@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-11-26 21:05:13+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/

@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2015-06-25 14:33:55+00:00
 excerpt: Overview of how Linaro began and why it was created. David Rusling discusses
   some of the challenges in the beginning and what was done to overcome them.

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-15 15:56:10+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/

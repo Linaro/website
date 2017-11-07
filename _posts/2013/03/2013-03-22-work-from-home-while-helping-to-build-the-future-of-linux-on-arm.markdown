@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-22 15:02:29+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/work-from-home-while-helping-to-build-the-future-of-linux-on-arm/

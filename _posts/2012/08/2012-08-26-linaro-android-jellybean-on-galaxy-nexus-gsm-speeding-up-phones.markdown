@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-08-26 23:45:10+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones/

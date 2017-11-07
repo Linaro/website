@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-12-08 19:00:49+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-community-contributor-process-and-team/

@@ -1,6 +1,6 @@
 ---
 author: andy.gross
-comments: false
+
 date: 2016-10-18 19:05:19+00:00
 excerpt: 'The Linux kernel supports a variety of sleep states.  he four sleep states
   are suspend to idle, power-on standby (standby), suspend to ram, and suspend to

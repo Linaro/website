@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-12 16:00:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/

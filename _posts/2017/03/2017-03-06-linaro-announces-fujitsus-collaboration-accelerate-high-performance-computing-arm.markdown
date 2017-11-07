@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2017-03-06 08:01:29+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/

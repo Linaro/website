@@ -1,6 +1,6 @@
 ---
 author: jesse.barker
-comments: false
+
 date: 2011-11-30 19:39:50+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/a-case-for-open-source-gpu-drivers/

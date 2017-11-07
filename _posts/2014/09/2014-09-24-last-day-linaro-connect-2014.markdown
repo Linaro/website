@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-09-24 21:06:33+00:00
 layout: post
 link: https://www.linaro.org/blog/last-day-linaro-connect-2014/

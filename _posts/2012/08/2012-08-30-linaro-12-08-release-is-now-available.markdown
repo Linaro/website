@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-08-30 16:17:14+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-08-release-is-now-available/

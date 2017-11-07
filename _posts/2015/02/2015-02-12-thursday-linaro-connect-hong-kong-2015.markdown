@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-02-12 20:24:31+00:00
 layout: post
 link: https://www.linaro.org/blog/thursday-linaro-connect-hong-kong-2015/

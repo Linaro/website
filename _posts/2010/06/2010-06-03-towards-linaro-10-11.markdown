@@ -1,6 +1,5 @@
 ---
 author: linaro
-comments: false
 date: 2010-06-03 21:26:00+00:00
 layout: post
 link: https://www.linaro.org/blog/towards-linaro-10-11/
@@ -17,10 +16,7 @@ tags:
 - ubuntu
 ---
 
-<blockquote>"Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction". - **Albert Einstein**</blockquote>
-
-
-
+    "Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction". - ** Albert Einstein **
 
 ## A little history
 

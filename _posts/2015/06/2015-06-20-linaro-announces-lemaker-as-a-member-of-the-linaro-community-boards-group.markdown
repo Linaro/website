@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2015-06-20 00:04:38+00:00
 excerpt: LeMaker to pair its hardware expertise with Linaro’s open source software
   experience to enable software developers with new 96Boards hardware platforms

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-05-25 16:09:18+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/thank-you-to-our-sponsors/

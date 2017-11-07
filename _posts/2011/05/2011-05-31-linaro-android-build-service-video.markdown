@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-05-31 17:36:09+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-build-service-video/

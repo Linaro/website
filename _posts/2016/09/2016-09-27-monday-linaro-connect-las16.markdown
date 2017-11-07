@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-09-27 18:13:10+00:00
 layout: post
 link: https://www.linaro.org/blog/monday-linaro-connect-las16/

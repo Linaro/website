@@ -1,6 +1,6 @@
 ---
 author: khasim.mohammed
-comments: false
+
 date: 2014-09-08 13:00:53+00:00
 excerpt: 'The latest Linaro 14.08 AOSP software build provides developers a unique
   pre-integrated Android software distribution that enables them to more easily conduct

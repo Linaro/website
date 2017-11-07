@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2013-08-29 18:31:15+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-08-released/

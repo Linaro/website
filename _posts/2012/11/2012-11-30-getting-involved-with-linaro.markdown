@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-11-30 20:17:55+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/getting-involved-with-linaro/

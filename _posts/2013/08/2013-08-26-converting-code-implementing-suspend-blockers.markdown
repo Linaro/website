@@ -1,6 +1,6 @@
 ---
 author: zoran.markovic
-comments: false
+
 date: 2013-08-26 13:33:07+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/converting-code-implementing-suspend-blockers/

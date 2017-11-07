@@ -1,6 +1,6 @@
 ---
 author: asac
-comments: false
+
 date: 2011-08-06 02:19:30+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/release-of-linaro-11-07/

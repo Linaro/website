@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-04-05 21:53:07+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-at-elc/

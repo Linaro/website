@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-30 17:34:17+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-07-released/

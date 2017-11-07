@@ -1,6 +1,6 @@
 ---
 author: vishal.bhoj
-comments: false
+
 date: 2012-03-20 15:21:41+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/androidization-of-linux-kernel/

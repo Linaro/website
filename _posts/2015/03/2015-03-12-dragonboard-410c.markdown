@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2015-03-12 12:15:30+00:00
 excerpt: The DragonBoard 410c is based on the 64-bit capable Qualcomm® Snapdragon™
   410 processor and is designed to be compatible with the 96Boards Consumer Edition

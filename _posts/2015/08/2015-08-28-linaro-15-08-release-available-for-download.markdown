@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2015-08-28 20:04:47+00:00
 excerpt: Linaro's 15.07 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along

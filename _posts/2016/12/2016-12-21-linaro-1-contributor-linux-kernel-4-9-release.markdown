@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-12-21 12:37:28+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-1-contributor-linux-kernel-4-9-release/

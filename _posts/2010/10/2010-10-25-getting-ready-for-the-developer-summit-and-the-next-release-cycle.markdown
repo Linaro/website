@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2010-10-25 18:52:00+00:00
 layout: post
 link: https://www.linaro.org/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/

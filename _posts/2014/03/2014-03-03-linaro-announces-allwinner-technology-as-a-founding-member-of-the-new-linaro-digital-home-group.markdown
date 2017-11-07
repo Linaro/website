@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2014-03-03 12:05:03+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/

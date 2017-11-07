@@ -1,6 +1,6 @@
 ---
 author: paul.sokolovsky
-comments: false
+
 date: 2011-12-01 14:16:58+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/improving-performance-of-linaro-android-build-service/

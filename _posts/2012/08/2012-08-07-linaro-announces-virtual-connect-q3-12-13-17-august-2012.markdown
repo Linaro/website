@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-08-07 18:34:06+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-virtual-connect-q3-12-13-17-august-2012/

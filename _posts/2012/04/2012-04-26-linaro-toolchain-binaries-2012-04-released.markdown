@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2012-04-26 20:54:50+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-toolchain-binaries-2012-04-released/

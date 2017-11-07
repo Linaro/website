@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-02-15 18:00:00+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/snowball-new-cortex-a9-community-board-from-st-ericsson/

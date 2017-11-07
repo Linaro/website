@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2014-02-20 12:04:06+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-qualcomm-as-the-latest-industry-leader-to-become-a-member/

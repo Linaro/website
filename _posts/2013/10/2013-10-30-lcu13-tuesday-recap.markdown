@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2013-10-30 14:30:25+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-tuesday-recap/

@@ -1,6 +1,6 @@
 ---
 author: koen.kooi
-comments: false
+
 date: 2014-07-31 23:14:37+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-14-07-available-download/

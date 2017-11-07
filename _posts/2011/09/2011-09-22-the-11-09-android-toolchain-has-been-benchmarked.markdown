@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2011-09-22 16:04:47+00:00
 layout: post
 link: https://www.linaro.org/blog/the-11-09-android-toolchain-has-been-benchmarked/

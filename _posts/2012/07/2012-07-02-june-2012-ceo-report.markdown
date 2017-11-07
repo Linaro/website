@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2012-07-02 20:50:43+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/june-2012-ceo-report/

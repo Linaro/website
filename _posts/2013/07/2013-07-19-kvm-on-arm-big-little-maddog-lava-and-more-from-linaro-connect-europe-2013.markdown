@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-19 20:39:35+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/

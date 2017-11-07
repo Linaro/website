@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2012-08-10 21:52:32+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/trying-the-jellybean-on-samsungs-origen-board/

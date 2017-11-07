@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-10-15 12:29:28+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-keynote-speakers-linaro-connect-usa-2013-event-santa-clara/

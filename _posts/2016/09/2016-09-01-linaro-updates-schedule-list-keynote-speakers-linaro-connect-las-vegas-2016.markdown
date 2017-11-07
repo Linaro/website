@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-09-01 20:13:11+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016/

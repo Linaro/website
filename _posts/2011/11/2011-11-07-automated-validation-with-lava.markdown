@@ -1,6 +1,6 @@
 ---
 author: alan.bennett
-comments: false
+
 date: 2011-11-07 20:52:50+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/automated-validation-with-lava/

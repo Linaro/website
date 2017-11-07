@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2012-01-26 18:22:14+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-01-release/

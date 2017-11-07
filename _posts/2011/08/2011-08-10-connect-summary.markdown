@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-08-10 08:25:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/connect-summary/

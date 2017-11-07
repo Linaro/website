@@ -1,6 +1,6 @@
 ---
 author: deepak.saxena
-comments: false
+
 date: 2011-09-09 14:17:05+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-evolution-of-the-linaro-kernel/

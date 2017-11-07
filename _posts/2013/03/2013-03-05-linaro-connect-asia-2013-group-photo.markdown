@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-05 06:44:13+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-group-photo/

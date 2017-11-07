@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-03-06 19:04:06+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/review-of-thursday-at-lca14-team-day/

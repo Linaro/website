@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2010-08-18 19:11:00+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-deliverables/

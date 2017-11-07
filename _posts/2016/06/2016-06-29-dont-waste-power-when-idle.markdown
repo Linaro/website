@@ -1,6 +1,6 @@
 ---
 author: ulf.hansson
-comments: false
+
 date: 2016-06-29 17:17:39+00:00
 excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about idle
   management of platforms.

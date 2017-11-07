@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-02-23 15:49:25+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/dave-pigott-and-the-lava-validation-team-head-to-the-cloud/

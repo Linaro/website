@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2013-10-22 18:34:39+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/remote-participation-for-lcu13/

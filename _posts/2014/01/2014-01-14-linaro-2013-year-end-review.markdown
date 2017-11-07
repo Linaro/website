@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2014-01-14 21:22:02+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-2013-year-end-review/

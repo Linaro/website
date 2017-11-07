@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-21 15:30:41+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/

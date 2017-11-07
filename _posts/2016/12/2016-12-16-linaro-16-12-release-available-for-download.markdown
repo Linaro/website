@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-12-16 16:35:39+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-16-12-release-available-for-download/

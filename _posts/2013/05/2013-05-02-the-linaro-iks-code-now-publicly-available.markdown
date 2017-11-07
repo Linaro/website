@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2013-05-02 05:51:27+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/the-linaro-iks-code-now-publicly-available/

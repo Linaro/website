@@ -1,6 +1,6 @@
 ---
 author: bill.fischofer
-comments: false
+
 date: 2014-02-10 19:17:33+00:00
 layout: post
 link: https://www.linaro.org/blog/opendataplane-project-up-and-running/

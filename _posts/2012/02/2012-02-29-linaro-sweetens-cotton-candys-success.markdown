@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-02-29 22:48:01+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-sweetens-cotton-candys-success/

@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2012-04-09 03:23:57+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-highlights-328-43/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-05-09 02:29:46+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/its-all-maddogs-fault-proclaims-david-rusling-linaro-cto/

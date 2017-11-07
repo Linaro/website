@@ -1,6 +1,6 @@
 ---
 author: alan.bennett
-comments: false
+
 date: 2011-11-30 21:44:03+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-master-images/

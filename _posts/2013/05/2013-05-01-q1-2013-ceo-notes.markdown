@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2013-05-01 18:55:37+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/q1-2013-ceo-notes/

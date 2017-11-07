@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-08-18 14:34:13+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-lts-monarch-release-opendataplane/

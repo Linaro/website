@@ -1,6 +1,6 @@
 ---
 author: alan.bennett
-comments: false
+
 date: 2013-08-31 16:00:09+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/

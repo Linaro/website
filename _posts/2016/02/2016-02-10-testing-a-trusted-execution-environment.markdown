@@ -1,6 +1,6 @@
 ---
 author: joakim.bech
-comments: false
+
 date: 2016-02-10 13:54:07+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/testing-a-trusted-execution-environment/

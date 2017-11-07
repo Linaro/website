@@ -1,6 +1,6 @@
 ---
 author: deepak.saxena
-comments: false
+
 date: 2011-08-15 15:59:00+00:00
 layout: post
 link: https://www.linaro.org/blog/enabling-device-tree-support-on-arm-platforms/

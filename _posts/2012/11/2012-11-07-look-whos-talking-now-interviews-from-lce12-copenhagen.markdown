@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-11-07 16:05:11+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/look-whos-talking-now-interviews-from-lce12-copenhagen/

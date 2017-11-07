@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-10-09 13:14:53+00:00
 excerpt: For those that may not be as familiar with Linaro's LAVA team, this team
   is responsible for engineering and development of the open source Linaro Automated

@@ -1,6 +1,6 @@
 ---
 author: mark.gregotski
-comments: false
+
 date: 2017-05-31 17:27:29+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-digital-home-group-celebrates-three-years/

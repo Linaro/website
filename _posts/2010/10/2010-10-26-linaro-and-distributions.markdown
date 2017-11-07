@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2010-10-26 18:50:00+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-and-distributions/

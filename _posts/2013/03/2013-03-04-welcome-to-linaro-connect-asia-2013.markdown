@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-04 02:50:19+00:00
 layout: post
 link: https://www.linaro.org/blog/welcome-to-linaro-connect-asia-2013/

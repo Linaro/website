@@ -1,6 +1,6 @@
 ---
 author: tony.mansson
-comments: false
+
 date: 2012-03-16 00:06:07+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/

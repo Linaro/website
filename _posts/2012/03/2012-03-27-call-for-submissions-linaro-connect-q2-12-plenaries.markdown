@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-03-27 03:04:06+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/call-for-submissions-linaro-connect-q2-12-plenaries/

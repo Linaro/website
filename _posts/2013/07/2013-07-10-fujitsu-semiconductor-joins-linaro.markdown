@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-10 12:27:23+00:00
 layout: post
 link: https://www.linaro.org/news/fujitsu-semiconductor-joins-linaro/

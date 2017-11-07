@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-09-17 21:33:36+00:00
 layout: post
 link: https://www.linaro.org/blog/lcu14-tuesday-recap/

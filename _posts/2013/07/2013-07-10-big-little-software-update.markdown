@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2013-07-10 15:19:12+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-software-update/

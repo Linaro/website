@@ -1,6 +1,6 @@
 ---
 author: mark.orvek
-comments: false
+
 date: 2015-02-04 22:20:59+00:00
 layout: post
 link: https://www.linaro.org/blog/welcome-linaro-connect-hong-kong-2015/

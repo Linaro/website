@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2010-12-12 12:07:46+00:00
 layout: post
 link: https://www.linaro.org/news/view-linaro-10-11-release-webinar/

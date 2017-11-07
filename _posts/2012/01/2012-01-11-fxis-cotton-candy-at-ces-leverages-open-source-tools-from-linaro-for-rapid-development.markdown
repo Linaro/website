@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-01-11 19:37:08+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development/

@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-11-04 14:08:47+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-networking-groups-happening/

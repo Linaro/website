@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-14 16:57:30+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/

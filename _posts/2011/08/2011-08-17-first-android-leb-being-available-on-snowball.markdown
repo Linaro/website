@@ -1,6 +1,6 @@
 ---
 author: andrea.gallo
-comments: false
+
 date: 2011-08-17 14:33:52+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/first-android-leb-being-available-on-snowball/

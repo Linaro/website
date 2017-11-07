@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-09-19 16:54:42+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/

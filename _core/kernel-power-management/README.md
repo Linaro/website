@@ -1,6 +1,5 @@
 ---
 title: Kernel and Power Management
-permalink: /core/kernel-power-management/
 future: true
 ---
 ## Kernel and Power management

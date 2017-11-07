@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-09-23 02:26:42+00:00
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 2 of Linaro Connect San Francisco 2015.

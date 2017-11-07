@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-04-01 15:02:24+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-releases-android-5-0-0-jujube/

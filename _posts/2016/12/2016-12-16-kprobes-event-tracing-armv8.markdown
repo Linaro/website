@@ -1,6 +1,6 @@
 ---
 author: david.long
-comments: false
+
 date: 2016-12-16 17:37:39+00:00
 layout: post
 link: https://www.linaro.org/blog/kprobes-event-tracing-armv8/

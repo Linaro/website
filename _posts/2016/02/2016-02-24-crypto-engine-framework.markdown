@@ -1,6 +1,6 @@
 ---
 author: baolin.wang
-comments: false
+
 date: 2016-02-24 00:03:51+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/crypto-engine-framework/

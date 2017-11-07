@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2011-04-15 18:21:03+00:00
 layout: post
 link: https://www.linaro.org/blog/android-and-ubuntu-linaro-evaluation-builds/

@@ -1,6 +1,6 @@
 ---
 author: yongqin.liu
-comments: false
+
 date: 2013-02-05 02:53:36+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/update-android-kernel-tools/

@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-11-12 16:50:40+00:00
 layout: post
 link: https://www.linaro.org/blog/latest-update-linaro-stable-kernel-lsk/

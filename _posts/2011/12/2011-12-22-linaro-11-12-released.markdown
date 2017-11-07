@@ -1,6 +1,6 @@
 ---
 author: david.zinman
-comments: false
+
 date: 2011-12-22 19:52:48+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-12-released/

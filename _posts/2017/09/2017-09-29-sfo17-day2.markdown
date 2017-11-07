@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2017-09-29 13:25:17+00:00
 layout: post
 link: https://www.linaro.org/blog/sfo17-day2/

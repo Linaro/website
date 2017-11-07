@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-05 06:47:52+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/women-in-technology-at-linaro/

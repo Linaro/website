@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2013-12-11 21:01:28+00:00
 layout: post
 link: https://www.linaro.org/blog/kernel-blog/being-a-linaro-kernel-maintainer/

@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2015-03-05 14:52:40+00:00
 excerpt: 'The Linaro 96Boards initiative announced at the recent Linaro Connect conference
   in Hong Kong on February 9th is an industry-first, establishing an open standard

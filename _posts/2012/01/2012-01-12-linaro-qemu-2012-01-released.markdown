@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-01-12 17:41:24+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2012-01-released/

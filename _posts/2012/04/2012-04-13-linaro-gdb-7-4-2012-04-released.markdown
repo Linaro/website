@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2012-04-13 06:24:19+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-4-2012-04-released/

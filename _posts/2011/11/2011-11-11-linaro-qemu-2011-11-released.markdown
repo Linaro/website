@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2011-11-11 16:42:23+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2011-11-released/

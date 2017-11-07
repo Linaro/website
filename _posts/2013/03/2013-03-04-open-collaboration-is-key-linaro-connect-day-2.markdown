@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-04 23:56:43+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/open-collaboration-is-key-linaro-connect-day-2/

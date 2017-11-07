@@ -1,6 +1,6 @@
 ---
 author: andrea.gallo
-comments: false
+
 date: 2010-11-08 18:59:00+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/st-ericsson-and-linaro-working-towards-the-first-release/

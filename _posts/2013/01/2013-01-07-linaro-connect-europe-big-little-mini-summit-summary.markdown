@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-01-07 15:04:31+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-europe-big-little-mini-summit-summary/

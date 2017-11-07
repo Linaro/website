@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-04-02 11:57:14+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-alibaba-group-as-latest-member/

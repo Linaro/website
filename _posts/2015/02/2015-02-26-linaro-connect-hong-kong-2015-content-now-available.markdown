@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-02-26 02:45:54+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-content-now-available/

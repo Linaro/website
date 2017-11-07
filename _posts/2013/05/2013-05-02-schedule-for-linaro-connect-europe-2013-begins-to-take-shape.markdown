@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-05-02 16:03:28+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/schedule-for-linaro-connect-europe-2013-begins-to-take-shape/

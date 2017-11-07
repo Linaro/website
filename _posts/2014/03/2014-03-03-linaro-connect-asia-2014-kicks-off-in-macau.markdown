@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-03-03 18:27:36+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-asia-2014-kicks-off-in-macau/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-08-30 12:41:20+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/

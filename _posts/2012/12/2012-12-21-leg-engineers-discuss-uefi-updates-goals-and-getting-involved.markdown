@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-21 19:16:52+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/

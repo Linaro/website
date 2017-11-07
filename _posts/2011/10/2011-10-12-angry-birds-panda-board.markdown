@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2011-10-12 05:02:19+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/angry-birds-panda-board/

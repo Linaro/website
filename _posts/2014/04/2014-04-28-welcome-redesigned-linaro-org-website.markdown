@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-04-28 14:34:21+00:00
 layout: post
 link: https://www.linaro.org/blog/welcome-redesigned-linaro-org-website/

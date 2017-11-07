@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-12-09 14:27:50+00:00
 excerpt: Register now for Linaro Connect Bangkok 2016.   Learn more about the event
   and where it will be held.

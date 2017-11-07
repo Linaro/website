@@ -1,6 +1,6 @@
 ---
 author: christoffer.dall
-comments: false
+
 date: 2016-06-16 18:37:46+00:00
 excerpt: 'The first study of ARM virtualization performance on server hardware, including
   multi-core measurements of two popular ARM and x86 hypervisors, KVM and Xen. We

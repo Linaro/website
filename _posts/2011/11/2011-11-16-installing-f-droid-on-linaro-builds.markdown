@@ -1,6 +1,6 @@
 ---
 author: frans.gifford
-comments: false
+
 date: 2011-11-16 12:42:00+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/installing-f-droid-on-linaro-builds/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-02-09 21:29:48+00:00
 layout: post
 link: https://www.linaro.org/blog/first-day-linaro-connect-hong-kong-2015-kicks-off-many-announcements/

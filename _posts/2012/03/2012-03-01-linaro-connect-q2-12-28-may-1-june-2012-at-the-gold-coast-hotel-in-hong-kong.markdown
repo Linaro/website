@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-03-01 22:59:28+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-28-may-1-june-2012-at-the-gold-coast-hotel-in-hong-kong/

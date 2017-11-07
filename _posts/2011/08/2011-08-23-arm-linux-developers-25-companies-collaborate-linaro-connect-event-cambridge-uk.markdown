@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-08-23 12:13:45+00:00
 layout: post
 link: https://www.linaro.org/news/arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk/

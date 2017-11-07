@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2012-12-03 17:28:35+00:00
 layout: post
 link: https://www.linaro.org/blog/how-linaros-technical-steering-committee-works/

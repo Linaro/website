@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-19 17:21:08+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/registration-opens-for-linaro-connect-asia-2013-book-early/

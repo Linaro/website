@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2017-03-20 20:41:17+00:00
 excerpt: 'A review of all the activities and session materials from the Linaro Connect
   Budapest 2017.  '

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-07-28 20:25:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-16-07-release-available-for-download/

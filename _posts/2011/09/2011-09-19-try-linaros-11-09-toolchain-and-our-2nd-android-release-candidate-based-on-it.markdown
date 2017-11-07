@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2011-09-19 05:24:34+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it/

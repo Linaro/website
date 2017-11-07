@@ -1,6 +1,6 @@
 ---
 author: koen.kooi
-comments: false
+
 date: 2014-09-30 23:14:24+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-14-08-downloads-available/

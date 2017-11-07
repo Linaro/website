@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2017-04-26 11:16:13+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-latest-96boards-product-aosp-development/

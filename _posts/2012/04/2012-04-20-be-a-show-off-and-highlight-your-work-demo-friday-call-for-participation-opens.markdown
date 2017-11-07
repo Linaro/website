@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-04-20 13:28:10+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/

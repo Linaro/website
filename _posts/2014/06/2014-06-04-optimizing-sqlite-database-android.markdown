@@ -1,6 +1,6 @@
 ---
 author: edmund.szeto
-comments: false
+
 date: 2014-06-04 14:35:37+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/optimizing-sqlite-database-android/

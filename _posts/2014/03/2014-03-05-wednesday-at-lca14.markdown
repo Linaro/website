@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-03-05 19:55:58+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/wednesday-at-lca14/

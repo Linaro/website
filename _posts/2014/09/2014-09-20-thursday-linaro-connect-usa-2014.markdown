@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-09-20 01:02:40+00:00
 layout: post
 link: https://www.linaro.org/blog/thursday-linaro-connect-usa-2014/
