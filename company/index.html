@@ -1,14 +1,16 @@
 ---
 title: Company Index Page
 permalink: /company/
-layout: default-no-sub-nav
+layout: company
 pagination:
     title: "Companies - Page :num"
     enabled: true
-    category: News
+    collection: company
+    sort_field: 'title'
+    sort_reverse: true
     trail:
         before: 4
-        after: 4
+        after: 4 
 css-pack: blog
 ---
 {% for post in paginator.posts %}

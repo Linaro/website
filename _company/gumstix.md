@@ -3,8 +3,6 @@ title: Gumstix
 description: |-
     Gumstix gives its customers the power to solve their electronic design challenges with Geppetto D 2O ,­ the online design­ to­ order system­­ and a broad portfolio of small computers and embedded boards.
 company_image: gumstix.jpg
-members_of:
-  - 96boards_manufacturing
 ---
 As a global leader in design­ to­ order hardware and manufacturing solutions, Gumstix® gives its customers the power to solve their electronic design challenges with Geppetto® D 2O ,­ the online design­ to­ order system­­ and a broad portfolio of small computers and embedded boards. In addition to engineers and industrial designers, Gumstix helps students, educators, and makers unlock their creative ideas to bring them to market. Since pioneering the concept of an extremely small computer­
 
