@@ -272,3 +272,29 @@ nav-light: true
    </div>
 </div>
 </div>
+
+
+
+
+<div class="row" id="blogs_home_block">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h1 class="blogs_home_block_text"> Latest News & Blogs </h1>
+        </div>
+        
+        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3%}
+        
+        {% for post in posts %}
+            <div class="col-xs-12 col-sm-4 blogs_home_block_post">
+                <a href="{{post.url}}">
+                    <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
+                </a>
+            </div>
+        {% endfor %}
+        
+        <div class="col-xs-12 text-center">
+            <a href="/blog/" class="btn btn-linaro-home dark">Read More</a>
+        </div>
+
+    </div>
+</div>
