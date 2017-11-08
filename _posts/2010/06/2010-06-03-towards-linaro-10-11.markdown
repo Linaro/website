@@ -16,12 +16,13 @@ tags:
 - ubuntu
 ---
 
-    "Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction". - ** Albert Einstein **
+> "Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction". - ** Albert Einstein **
 
 ## A little history
 
+{% include image.html name="armlogo.gif" class="small-inline" alt="Arm Logo" %}
 
-![](/assets/blog/armlogo.gif)Perhaps a little known fact is that well over [15 billion](http://www.arm.com/about/company-profile/index.php) chips have been shipped using ARM's technologies, [1.3 billion](http://www.arm.com/about/newsroom/26746.php) in the last quarter of 2009 alone and as the Internet goes truly mobile this is set to sky rocket. ARM have sold over 600 processor licenses to more than 200 companies and 12 of the top 20 semiconductor companies use their technologies. ARM based devices really are everywhere. In contrast, Intel have shipped just [3.3 billion](http://www.extremetech.com/article2/0,2845,2363643,00.asp) to date. Renowned for their low power consumption and high performance, ARM based devices really do seem to be the holy grail of computing but why is it that Intel continues to dominates the desktop, laptop, netbook and server market?
+Perhaps a little known fact is that well over [15 billion](http://www.arm.com/about/company-profile/index.php) chips have been shipped using ARM's technologies, [1.3 billion](http://www.arm.com/about/newsroom/26746.php) in the last quarter of 2009 alone and as the Internet goes truly mobile this is set to sky rocket. ARM have sold over 600 processor licenses to more than 200 companies and 12 of the top 20 semiconductor companies use their technologies. ARM based devices really are everywhere. In contrast, Intel have shipped just [3.3 billion](http://www.extremetech.com/article2/0,2845,2363643,00.asp) to date. Renowned for their low power consumption and high performance, ARM based devices really do seem to be the holy grail of computing but why is it that Intel continues to dominates the desktop, laptop, netbook and server market?
 
 
 ## Fragmentation
@@ -32,8 +33,8 @@ Developing for ARM devices isn't without its problems. There are a lot of compan
 
 ## Ubuntu's Linux on ARM initiative
 
-
-![](/assets/blog/ubuntulogo.png)Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms](http://www.ubuntu.com/news/arm-linux).
+{% include image.html name="ubuntulogo.png" class="small-inline" alt="Ubuntu Logo" %}
+Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms](http://www.ubuntu.com/news/arm-linux).
 
 <!-- more -->
 
@@ -42,8 +43,8 @@ Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackal
 
 ## What is Linaro?
 
-
-![](http://www.linaro.org/app/images/linaro-logo-web.png)Linaro is an initiative undertaken by ARM, Canonical and partners with the task of improving the state of the whole Linux on ARM ecosystem. It brings together the vast talents of the open source community and ARM's wealth of experience in the electronics industry to work on key and game-changing projects. It will work in the various upstreams where possible and provide engineering, technical and guidance support for a wide and diverse set of problem area's. Linaro will not just help other projects, there will also be a clear set of deliverables which will culminate Linaro's efforts into regular 6 monthly engineering releases, starting this November.
+{% include image.html name="linaro-logo-web.png" class="small-inline" alt="Linaro Blog Post Logo Image" %}
+Linaro is an initiative undertaken by ARM, Canonical and partners with the task of improving the state of the whole Linux on ARM ecosystem. It brings together the vast talents of the open source community and ARM's wealth of experience in the electronics industry to work on key and game-changing projects. It will work in the various upstreams where possible and provide engineering, technical and guidance support for a wide and diverse set of problem area's. Linaro will not just help other projects, there will also be a clear set of deliverables which will culminate Linaro's efforts into regular 6 monthly engineering releases, starting this November.
 
 
 ## Release Objectives

@@ -1,6 +1,5 @@
 ---
 author: david.rusling
-
 date: 2010-06-02 14:00:00+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-need-for-linaro/

@@ -10,7 +10,6 @@ wordpress_id: 4396
 categories:
 - News
 ---
-
 CAMBRIDGE, UK - 3 JUN 2010
 
 ## Linaro unites industry leaders to foster innovation in the Linux® community through a common foundation of tools and software
