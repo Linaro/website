@@ -194,88 +194,6 @@ nav-light: true
 </div>
 
 
-<div class="row activity-container">
-  <div class="container text-center no-padding">
-    <div class="row activity-holder center-block" id="home-block-sliders">
-     <div class="col-sm-4 col-xs-12 ">
-         <div class="linaro-home-block" style="background: url('{% asset_path 'SFO15-Linaro-Box1.jpg' %}') no-repeat center center scroll;
-             background-size: cover;
-             -webkit-background-size: cover;
-             -moz-background-size: cover;
-             -o-background-size: cover;">
-
-         <h5 class="block-title">
-            Linaro<br />
-            <span class="slider-sub-title">News & Events</span>
-        </h5>
-       <div class="owl-carousel owl-theme">
-           <div class="activity-block item">
-             <a href="http://www.96boards.org/blog/96boards-96brews-automated-home-brewing/">
-             <p class="linaro-home-block-text">96Boards for 96Brews – Automated Home Brewing</p></a>
-           </div>
-           <div class="activity-block item">
-             <a href="http://www.96boards.org/blog/96boards-ce-temp-using-level-shifters-2-line-displays/">
-             <p class="linaro-home-block-text">96Boards CE what temp is it? Using level shifters and 2-line displays</p></a>
-           </div>
-           <div class="activity-block item">
-             <a href="http://www.96boards.org/blog/ce-iot-using-sensors/">
-             <p class="linaro-home-block-text">96Boards Consumer Edition, IoT and using sensors</p></a>
-           </div>
-           <div class="activity-block item">
-             <a href="http://www.96boards.org/blog/96boards-media-server/">
-             <p class="linaro-home-block-text">Setting up a home 96Boards media server<br /><br /></p></a>
-           </div>
-           <div class="activity-block item">
-             <a href="http://www.96boards.org/blog/st-system-level-esd-protection/">
-             <p class="linaro-home-block-text">ST, System Level ESD Protection and OpenHours</p></a>
-           </div>
-       </div>
-        </div>
-     </div>
-
-     <div class="col-sm-4 col-xs-12 ">
-         <div class="linaro-home-block" style="background: url('{% asset_path 'web-linaro-downlaods-over.jpg' %}') no-repeat center center scroll;
-             background-size: cover;
-             -webkit-background-size: cover;
-             -moz-background-size: cover;
-             -o-background-size: cover;">
-             <h5 class="block-title">
-                Linaro<br />
-                <span class="slider-sub-title">Downloads</span>
-            </h5>
-         <p class="linaro-home-block-text">
-         <a href="https://www.linaro.org/downloads/" alt="Linaro Downloads">
-             <b>Linaro Downloads</b> <br/>
-             Now Available!
-          </a>
-         </p>
-     </div>
- </div>
-
-     <div class="col-sm-4 col-xs-12">
-         <div class="linaro-home-block" style="background: url('{% asset_path 'SFO15-Linaro-Box2.jpg' %}') no-repeat center center scroll;
-             background-size: cover;
-             -webkit-background-size: co ver;
-             -moz-background-size: cover;
-             -o-background-size: cover;">
-             <h5 class="block-title">
-                 Linaro<br />
-                 <span class="slider-sub-title">96boards</span>
-             </h5>
-         <p class="linaro-home-block-text">
-             <a href="https://www.96boards.org">32- and 64-bit ARM<br />
-             Open Platform Specifications<br /></a>
-             <a href="https://www.96boards.org/products/ce/">CE Products</a> / <a href="https://www.96boards.org/products/ee/">EE Products</a>
-         </p>
-     </div>
-    </div>
-   </div>
-</div>
-</div>
-
-
-
-
 <div class="row" id="blogs_home_block">
     <div class="container">
         <div class="col-xs-12 text-center">
@@ -285,15 +203,17 @@ nav-light: true
         {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3%}
         
         {% for post in posts %}
-            <div class="col-xs-12 col-sm-4 blogs_home_block_post">
-                <a href="{{post.url}}">
-                    <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
-                </a>
+            <div class="col-xs-12 col-sm-4">
+                <div class="blogs_home_block_post">
+                    <a href="{{post.url}}">
+                        <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
+                    </a>
+                </div>
             </div>
         {% endfor %}
         
         <div class="col-xs-12 text-center">
-            <a href="/blog/" class="btn btn-linaro-home dark">Read More</a>
+            <a href="/hub/" class="btn btn-linaro-home dark">Read More</a>
         </div>
 
     </div>

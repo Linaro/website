@@ -2,6 +2,8 @@
 layout: developer-services
 title: Developer Services
 permalink: /services/
+redirect_from: 
+- /linaro-developer-services-datacenteranddevelopercloud/
 ---
 
 <div class="services-img">
