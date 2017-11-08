@@ -6,7 +6,6 @@ layout: post
 link: https://www.linaro.org/blog/industry-blog/the-need-for-linaro/
 slug: the-need-for-linaro
 title: The need for Linaro
-wordpress_id: 4113
 categories:
 - blog
 tags:
