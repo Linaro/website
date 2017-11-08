@@ -2,6 +2,8 @@
 layout: linaro-home
 css-pack: home
 js-vendor: home
+home: true
+nav-light: true
 ---
 <div class="row">
     <div class="jumbotron text-center homepage-jumbotron" id="homepage-jumbotron" style="background: linear-gradient(
@@ -29,7 +31,7 @@ js-vendor: home
 
 
 
-<div class="row">
+<div class="row" id="main-content-container">
     <div class="container home-inline-carousel">
     
         <div class="owl-carousel owl-theme" id="home-carousel">
@@ -58,7 +60,138 @@ js-vendor: home
     </div>
 </div>
 
-
+<div class="row" id="groups_home_block">
+    <div class="container">
+    
+        <div class="col-md-5ths col-xs-12 group_block leg">
+            <div class="row  group_header leg">
+                <div class="col-xs-3 group_icon center-block">
+                    <picture>
+                      <source srcset="{% asset_path 'LEG-logo.svg' %}" media="(min-width: 992px)" />
+                      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LEG-logo.svg' %}" class="lazyload img-responsive group_icon_img center-block"/>
+                    </picture>
+                </div>
+                <div class="col-xs-9 group_title">
+                    <span class="main-title">LEG</span>
+                    <span class="sub-title">Enterprise</span>
+                </div>
+            </div>
+            <div class="row group_content leg">
+                <div class="col-xs-12 group_content leg">
+                    <p>
+                        Software Defined Storage & Infra-
+                        structure (SDS/SDI), Big Data
+                        (Hadoop/Hive/ Spark/Ambari),
+                        DPDK & SnabbSwitch, HPC, AI/ML
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="col-md-5ths col-xs-12 group_block lng">
+            <div class="row  group_header lng">
+                <div class="col-xs-3 group_icon center-block">
+                    <picture>
+                      <source srcset="{% asset_path 'LNG-logo.svg' %}" media="(min-width: 992px)" />
+                      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LNG-logo.svg' %}" class="lazyload img-responsive group_icon_img center-block"/>
+                    </picture>
+                </div>
+                <div class="col-xs-9 group_title">
+                    <span class="main-title">LNG</span>
+                    <span class="sub-title">Networking</span>
+                </div>
+            </div>
+            <div class="row group_content lng">
+                <div class="col-xs-12 group_content ">
+                    <p>
+                        Networking,
+                        OpenDataPlane (ODP),
+                        SmartNIC
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-5ths col-xs-12 group_block lhg">
+            <div class="row  group_header lhg">
+                <div class="col-xs-3 group_icon center-block">
+                    <picture>
+                      <source srcset="{% asset_path 'LHG-logo.svg' %}" media="(min-width: 992px)" />
+                      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LHG-logo.svg' %}" class="lazyload img-responsive group_icon_img center-block"/>
+                    </picture>
+                </div>
+                <div class="col-xs-9 group_title">
+                    <span class="main-title">LNG</span>
+                    <span class="sub-title">Networking</span>
+                </div>
+            </div>
+            <div class="row group_content lhg">
+                <div class="col-xs-12 group_content">
+                    <p>
+                        Networking,
+                        OpenDataPlane (ODP),
+                        SmartNIC
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-5ths col-xs-12 group_block lmg">
+            <div class="row  group_header lmg">
+                <div class="col-xs-3 group_icon center-block">
+                    <picture>
+                      <source srcset="{% asset_path 'LMG-logo.svg' %}" media="(min-width: 992px)" />
+                      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LMG-logo.svg' %}" class="lazyload img-responsive group_icon_img center-block"/>
+                    </picture>
+                </div>
+                <div class="col-xs-9 group_title">
+                    <span class="main-title">LMG</span>
+                    <span class="sub-title">Networking</span>
+                </div>
+            </div>
+            <div class="row group_content lmg">
+                <div class="col-xs-12 group_content">
+                    <p>
+                        Networking,
+                        OpenDataPlane (ODP),
+                        SmartNIC
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-5ths col-xs-12 group_block lite">
+            <div class="row  group_header lite">
+                <div class="col-xs-3 group_icon center-block">
+                    <picture>
+                      <source srcset="{% asset_path 'LITE-logo.svg' %}" media="(min-width: 992px)" />
+                      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive group_icon_img center-block"/>
+                    </picture>
+                </div>
+                <div class="col-xs-9 group_title">
+                    <span class="main-title">LITE</span>
+                    <span class="sub-title">IoT/Embedded</span>
+                </div>
+            </div>
+            <div class="row group_content lite">
+                <div class="col-xs-12 group_content">
+                    <p>
+                        Networking,
+                        OpenDataPlane (ODP),
+                        SmartNIC
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+    </div>
+</div>
 
 
 <div class="row activity-container">
