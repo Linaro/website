@@ -1,6 +1,5 @@
 ---
 author: kiko
-
 date: 2010-11-12 16:05:00+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-11-05-plan-reviews/
@@ -15,32 +14,16 @@ tags:
 - plans
 - release
 ---
-
 Starting next Monday, Linaro tech leads will be running a set of public phone calls to announce the official plans for each of our engineering units. Calls are daily at 15:00 UTC, and there are local and free dial-in numbers for most countries around the world.  The schedule and details are listed here:
 
 [https://wiki.linaro.org/Releases/1105/PublicPlanReview](https://wiki.linaro.org/Releases/1105/PublicPlanReview)
-
-
-
 	
   * Monday, Nov. 15th, Infrastructure Team
-
-	
   * Tuesday, Nov. 16th, Foundations, Development Platform Technical Topic
-
-	
   * Wednesday, Nov. 17th, Toolchain working group
-
-	
   * Thursday, Nov. 18th, Kernel working group
-
-	
   * Friday, Nov. 19th, Graphics working group
-
-	
   * Monday, Nov. 22nd, Power Management working group
-
-	
   * Tuesday, Nov. 23rd, Multimedia working group
 
 

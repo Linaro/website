@@ -1,6 +1,5 @@
 ---
-author: arir
-
+author: linaro
 date: 2010-11-09 19:52:00+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/open-source-software-fundamental-to-success-in-the-mobile-and-consumer-electronics-markets/
@@ -17,7 +16,6 @@ tags:
 - Panda board
 - TI
 ---
-
 Today more than ever before, our industry views open source software (OSS) as fundamental to success in the mobile and consumer electronics (CE) markets. I see this echoed in my work as the software and system engineering manager for TI's wireless OMAPTM processors, and as a board member of the Linaro Organization. Industry innovators are learning to appreciate the OSS a key to differentiated, speedier designs. While this appreciation runs deep and fuels new opportunities, the OSS world continues to increase in complexity and remind industry players that a "go-at-it-alone" approach yields inefficiency. Gone are the days of "one-size-fits-all" technologies or solutions. Instead, our complicated world reiterates the need for greater collaboration, which rests as a founding block for the Linaro Organization.
 
 This community collaboration has inspired companies like TI to adopt a new culture and approach to technology supply, design and innovation. At TI, we see extremely positive value in extending beyond our TI family to collaborate with the outside world - from developers, to partners and garage designers. Doing so not only helps us share out talents, but learn from others' educational experiences and leverage external contributions to yield success.
