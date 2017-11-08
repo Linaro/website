@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-04-25 04:23:53+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/elc-slides/

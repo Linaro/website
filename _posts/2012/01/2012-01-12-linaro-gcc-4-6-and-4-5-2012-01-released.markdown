@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-01-12 22:29:14+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-and-4-5-2012-01-released/

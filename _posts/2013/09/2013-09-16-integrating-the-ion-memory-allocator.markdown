@@ -1,6 +1,6 @@
 ---
 author: john.stultz
-comments: false
+
 date: 2013-09-16 02:47:42+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/integrating-the-ion-memory-allocator/

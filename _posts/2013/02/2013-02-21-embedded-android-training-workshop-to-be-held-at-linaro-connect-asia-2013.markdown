@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-21 17:14:23+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/

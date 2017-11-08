@@ -1,6 +1,6 @@
 ---
 author: khasim.mohammed
-comments: false
+
 date: 2014-12-17 01:05:59+00:00
 layout: post
 link: https://www.linaro.org/blog/android-l-release-building-tips/

@@ -1,6 +1,6 @@
 ---
 author: koen.kooi
-comments: false
+
 date: 2014-10-30 23:41:58+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-14-10-release-available-immediate-download/

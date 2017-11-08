@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2010-07-02 23:05:00+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-update/

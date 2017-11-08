@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-04-25 03:47:12+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/android-multimedia-on-origen-12-03/

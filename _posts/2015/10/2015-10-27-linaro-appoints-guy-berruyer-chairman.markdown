@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-10-27 13:07:00+00:00
 excerpt: Linaro announced that Guy Berruyer has been appointed as Chairman of the
   Linaro Board.

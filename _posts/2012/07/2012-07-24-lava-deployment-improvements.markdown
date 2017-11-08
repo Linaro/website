@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-07-24 16:54:35+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-deployment-improvements/

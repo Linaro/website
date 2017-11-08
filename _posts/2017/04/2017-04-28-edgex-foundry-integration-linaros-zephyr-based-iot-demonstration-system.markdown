@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2017-04-28 15:26:08+00:00
 layout: post
 link: https://www.linaro.org/blog/edgex-foundry-integration-linaros-zephyr-based-iot-demonstration-system/

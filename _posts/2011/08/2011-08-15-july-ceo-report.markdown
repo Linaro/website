@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2011-08-15 15:38:40+00:00
 layout: post
 link: https://www.linaro.org/blog/july-ceo-report/

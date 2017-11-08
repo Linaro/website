@@ -1,6 +1,6 @@
 ---
 author: christoffer.dall
-comments: false
+
 date: 2014-09-01 10:47:53+00:00
 excerpt: The goal of this spec is to allow suitably-built OS images to run on all
   virtualization solutions for ARM processors, such as KVM or Xen. Recommendations

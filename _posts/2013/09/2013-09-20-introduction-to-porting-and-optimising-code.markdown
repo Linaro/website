@@ -1,6 +1,6 @@
 ---
 author: matthew.gretton-dann
-comments: false
+
 date: 2013-09-20 17:12:11+00:00
 layout: post
 link: https://www.linaro.org/blog/toolchain-blog/introduction-to-porting-and-optimising-code/

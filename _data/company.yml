@@ -7,6 +7,7 @@ mailchimp:
     id: af6cf590b0
 newsletter:
     enabled: true
+
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: Linaro
 linkedin_username: 1026961
@@ -18,10 +19,12 @@ slideshare_username: linaroorg
 
 # Google Anayltics Setup
 google:
-    analytics: UA-16756069-1
+    tag_manager: GTM-5DLPJQ
+
 
 disqus:
     enabled: false
     shortname: Linaro
-#Optional Path to placeholder image for blog - defaults to /assets/images/placeholder.png
+
+
 placeholder: placeholder.jpg

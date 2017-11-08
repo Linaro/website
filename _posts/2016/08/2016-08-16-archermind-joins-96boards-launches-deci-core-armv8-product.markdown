@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-08-16 16:39:55+00:00
 layout: post
 link: https://www.linaro.org/news/archermind-joins-96boards-launches-deci-core-armv8-product/

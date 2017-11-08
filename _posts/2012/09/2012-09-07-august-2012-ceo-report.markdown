@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2012-09-07 01:52:38+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/august-2012-ceo-report/

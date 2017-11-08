@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2011-12-15 23:26:18+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-technology-two-usage-models/

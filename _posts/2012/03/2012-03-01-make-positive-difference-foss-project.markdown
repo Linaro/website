@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2012-03-01 20:53:43+00:00
 layout: post
 link: https://www.linaro.org/blog/make-positive-difference-foss-project/

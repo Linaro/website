@@ -1,6 +1,6 @@
 ---
 author: kiko
-comments: false
+
 date: 2010-11-12 16:05:00+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-11-05-plan-reviews/

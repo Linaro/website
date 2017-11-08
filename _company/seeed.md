@@ -3,8 +3,6 @@ title: Seeed
 company_image: seeed.jpg
 description: |-
     Seeed Technology Co., Ltd, located in Shenzhen, China, is a leading open source hardware supplier in the world.
-members_of:
-  - 96boards_manufacturing
 ---
 Seeed Technology Co., Ltd, located in Shenzhen, China, is a leading open source hardware supplier in the world. Seeed has a significant influence in the world wide Maker community. The company is dedicated to gathering technology, manufacturing, and distribution resources, providing a co-creating platform to global makers, helping more ideas grow into distinctive products to fulfil diversified demands.
 

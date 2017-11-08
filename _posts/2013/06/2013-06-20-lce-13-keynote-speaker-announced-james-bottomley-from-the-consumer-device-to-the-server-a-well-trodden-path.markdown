@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-06-20 18:27:42+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/

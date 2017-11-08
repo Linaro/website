@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-22 20:40:01+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-is-seeking-a-lava-lab-technician-validation/

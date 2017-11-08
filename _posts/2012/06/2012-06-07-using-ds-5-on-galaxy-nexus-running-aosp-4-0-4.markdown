@@ -1,6 +1,6 @@
 ---
 author: vishal.bhoj
-comments: false
+
 date: 2012-06-07 17:16:11+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/using-ds-5-on-galaxy-nexus-running-aosp-4-0-4/

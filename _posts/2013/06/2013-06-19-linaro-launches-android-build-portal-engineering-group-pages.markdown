@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-06-19 12:26:14+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-launches-android-build-portal-engineering-group-pages/

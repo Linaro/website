@@ -1,6 +1,6 @@
 ---
 author: dave.pigott
-comments: false
+
 date: 2017-04-07 15:42:15+00:00
 layout: post
 link: https://www.linaro.org/blog/lets-talk-usb-hubs/

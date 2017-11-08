@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2011-05-17 08:43:59+00:00
 layout: post
 link: https://www.linaro.org/blog/budapest-lds/

@@ -1,6 +1,6 @@
 ---
 author: frans.gifford
-comments: false
+
 date: 2011-10-26 12:52:11+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/using-markets-with-linaro-android-builds/

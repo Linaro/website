@@ -1,6 +1,6 @@
 ---
 author: mathieu.poirier
-comments: false
+
 date: 2017-05-04 13:28:57+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/day-1-ospm-summit-pisa-italy/

@@ -1,6 +1,6 @@
 ---
 author: ebba.simpson
-comments: false
+
 date: 2016-06-14 18:55:35+00:00
 excerpt: Learn about the beautiful location of the next Linaro Connect in Las Vegas,
   September 25-30th, 2016.

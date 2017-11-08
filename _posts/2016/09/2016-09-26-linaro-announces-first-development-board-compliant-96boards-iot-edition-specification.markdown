@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-09-26 19:12:46+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/

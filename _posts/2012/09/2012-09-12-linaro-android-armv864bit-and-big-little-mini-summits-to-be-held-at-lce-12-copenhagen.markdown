@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-09-12 14:55:16+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/

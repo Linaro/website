@@ -1,6 +1,6 @@
 ---
 author: mike.leach
-comments: false
+
 date: 2016-07-29 21:57:01+00:00
 excerpt: This article will describe the programming and operation of the OpenCSD library
   in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology

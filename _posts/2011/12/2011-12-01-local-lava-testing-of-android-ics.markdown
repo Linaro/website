@@ -1,6 +1,6 @@
 ---
 author: frans.gifford
-comments: false
+
 date: 2011-12-01 14:16:11+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/local-lava-testing-of-android-ics/

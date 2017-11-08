@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-09-27 14:57:38+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-12-09-release-now-available/

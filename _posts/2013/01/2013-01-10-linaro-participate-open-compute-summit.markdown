@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-01-10 12:22:58+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-participate-open-compute-summit/

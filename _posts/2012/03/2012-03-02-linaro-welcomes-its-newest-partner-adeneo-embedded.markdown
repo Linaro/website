@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-03-02 22:35:11+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-welcomes-its-newest-partner-adeneo-embedded/

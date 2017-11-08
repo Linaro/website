@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-05-21 20:57:40+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-android-toolchain-nightly-builds-available/

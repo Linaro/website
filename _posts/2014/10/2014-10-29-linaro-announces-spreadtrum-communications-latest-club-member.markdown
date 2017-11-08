@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2014-10-29 16:54:06+00:00
 excerpt: 'Leading China fabless semiconductor company Spreadtrum Communications joins
   Linaro to influence development direction of open source software

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2014-05-29 15:59:15+00:00
 excerpt: Industry leaders Allwinner, ARM, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
   and ZTE have joined Linaro’s new Segment Group focused on accelerating open source

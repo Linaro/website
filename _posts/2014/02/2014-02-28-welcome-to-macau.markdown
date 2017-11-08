@@ -1,6 +1,6 @@
 ---
 author: mark.orvek
-comments: false
+
 date: 2014-02-28 21:18:07+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/welcome-to-macau/

@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2011-02-24 12:10:49+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-mwc-update/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-07 21:46:30+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/welcome-to-linaro-connect-europe-2013/

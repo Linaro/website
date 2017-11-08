@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-02-15 12:10:12+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-makes-snowball-shine/

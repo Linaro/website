@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-03-01 05:00:00+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/new-low-cost-cortex-a8-board-from-freescale/

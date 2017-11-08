@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-05-02 12:25:47+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-broadcom-new-member/

@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2014-06-10 13:01:12+00:00
 excerpt: One of the best places to go to find out what Linaro is working on in the
   Linux kernel is LWN.net. To get the full value, you need to subscribe and keep a

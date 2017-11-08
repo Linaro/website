@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2016-01-19 14:37:54+00:00
 layout: post
 link: https://www.linaro.org/blog/lhg-optee-arm-trustzone/

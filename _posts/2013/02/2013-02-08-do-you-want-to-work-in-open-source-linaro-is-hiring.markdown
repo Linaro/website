@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-08 17:57:12+00:00
 layout: post
 link: https://www.linaro.org/blog/do-you-want-to-work-in-open-source-linaro-is-hiring/

@@ -1,6 +1,6 @@
 ---
 author: chunyan.zhang
-comments: false
+
 date: 2016-09-06 04:24:15+00:00
 excerpt: Read about System Trace Module (STM) which can not only collect trace data
   from software sources, but also monitor hardware events. Learn how to write traces

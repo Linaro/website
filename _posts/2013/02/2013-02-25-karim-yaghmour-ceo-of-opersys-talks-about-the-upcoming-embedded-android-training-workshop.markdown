@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-25 14:57:53+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/karim-yaghmour-ceo-of-opersys-talks-about-the-upcoming-embedded-android-training-workshop/

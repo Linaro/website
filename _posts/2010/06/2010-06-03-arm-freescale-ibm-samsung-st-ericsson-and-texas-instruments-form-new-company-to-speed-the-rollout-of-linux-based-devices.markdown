@@ -1,6 +1,5 @@
 ---
 author: linaro
-comments: false
 date: 2010-06-03 11:50:19+00:00
 layout: post
 link: https://www.linaro.org/news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
@@ -14,26 +13,20 @@ categories:
 
 CAMBRIDGE, UK - 3 JUN 2010
 
-
 ## Linaro unites industry leaders to foster innovation in the Linux® community through a common foundation of tools and software
 
-
-
-
-
-	
   * ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments have created the not-for-profit company, Linaro, committed to providing new resources and industry alignment for open source software developers using Linux on the world’s most sophisticated semiconductor System-on-Chips (SoCs).
 
-	
+
   * Linaro will invest resources in open source projects that can then be used by Linux-based distributions such as Android, LiMo, MeeGo, Ubuntu and webOS.
 
-	
+
   * Linaro will provide a stable and optimized base for distributions and developers by creating new releases of optimized tools, kernel and middleware software validated for a wide range of SoCs, every six months.
 
-	
+
   * Linaro's base of software and tools will be applicable to a wide range of markets, helping reduce time-to-market for products such as smart phones, tablets, digital televisions, automotive entertainment and enterprise equipment.
 
-	
+
   * Linaro's first software and tools release is due out in November 2010, and will provide optimizations for the latest range of ARM® Cortex™-A family of processors.
 
 

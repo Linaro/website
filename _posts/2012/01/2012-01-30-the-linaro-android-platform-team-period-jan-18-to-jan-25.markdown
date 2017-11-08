@@ -1,6 +1,6 @@
 ---
 author: tony.mansson
-comments: false
+
 date: 2012-01-30 10:02:49+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-jan-18-to-jan-25/

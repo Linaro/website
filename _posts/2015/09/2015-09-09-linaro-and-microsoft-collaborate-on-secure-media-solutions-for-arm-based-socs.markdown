@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-09-09 13:01:21+00:00
 excerpt: Linaro announced a major step forward in the delivery of an open source secure
   media solution for the consumption of premium content on ARM Powered devices. The

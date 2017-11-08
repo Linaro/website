@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2011-06-09 14:47:44+00:00
 layout: post
 link: https://www.linaro.org/blog/kernel-upstreaming/

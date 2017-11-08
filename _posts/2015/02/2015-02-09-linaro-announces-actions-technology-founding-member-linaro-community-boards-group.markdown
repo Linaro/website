@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-02-09 01:55:53+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/

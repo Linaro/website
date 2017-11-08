@@ -1,6 +1,6 @@
 ---
 author: mark.gregotski
-comments: false
+
 date: 2016-09-02 15:35:39+00:00
 layout: post
 link: https://www.linaro.org/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/

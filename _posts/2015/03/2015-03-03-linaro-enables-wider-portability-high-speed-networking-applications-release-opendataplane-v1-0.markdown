@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-03-03 14:00:23+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/

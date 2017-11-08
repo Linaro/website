@@ -1,6 +1,6 @@
 ---
 author: khasim.mohammed
-comments: false
+
 date: 2014-02-06 16:58:43+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/many-things-to-do-this-year-in-android/

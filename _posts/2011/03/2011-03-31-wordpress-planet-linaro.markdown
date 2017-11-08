@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-03-31 21:32:59+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/wordpress-planet-linaro/

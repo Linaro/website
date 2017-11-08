@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-06-20 15:06:28+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/

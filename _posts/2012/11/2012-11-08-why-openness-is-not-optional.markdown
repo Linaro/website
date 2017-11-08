@@ -1,6 +1,6 @@
 ---
 author: david.rusling
-comments: false
+
 date: 2012-11-08 14:18:33+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/why-openness-is-not-optional/

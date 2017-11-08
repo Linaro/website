@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-06-25 16:53:03+00:00
 excerpt: Linaro's 15.06 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along

@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-03-06 23:11:07+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-gets-ready-for-gcc-4-7/

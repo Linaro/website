@@ -1,6 +1,6 @@
 ---
 author: alan.bennett
-comments: false
+
 date: 2011-08-10 14:43:24+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/lava-introduction/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-19 14:25:33+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2013-keynote-speaker-videos/

@@ -1,6 +1,6 @@
 ---
 author: deepak.saxena
-comments: false
+
 date: 2011-11-09 03:32:14+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/kernel-working-group-a-linaro-connect-retrospective/

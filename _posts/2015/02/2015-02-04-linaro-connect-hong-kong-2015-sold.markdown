@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2015-02-04 16:18:19+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-sold/

@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2014-12-20 11:09:53+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-confectionary-release-lcr-14-12-released/

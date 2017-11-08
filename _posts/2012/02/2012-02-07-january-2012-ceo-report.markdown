@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2012-02-07 14:37:18+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/january-2012-ceo-report/

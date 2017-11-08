@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-20 21:50:26+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-12-release-now-available/

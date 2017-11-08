@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-10-26 12:19:55+00:00
 layout: post
 link: https://www.linaro.org/news/lg-electronics-joins-linaro/

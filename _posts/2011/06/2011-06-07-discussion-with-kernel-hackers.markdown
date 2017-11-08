@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-06-07 21:09:45+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/discussion-with-kernel-hackers/

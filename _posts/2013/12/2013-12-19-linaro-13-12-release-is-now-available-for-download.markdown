@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2013-12-19 20:51:20+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-12-release-is-now-available-for-download/

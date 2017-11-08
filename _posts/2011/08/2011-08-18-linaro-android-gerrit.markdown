@@ -1,6 +1,6 @@
 ---
 author: paul.sokolovsky
-comments: false
+
 date: 2011-08-18 13:45:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-gerrit/

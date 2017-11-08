@@ -1,6 +1,6 @@
 ---
 author: mark.orvek
-comments: false
+
 date: 2013-09-16 22:08:16+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/back-to-the-future/

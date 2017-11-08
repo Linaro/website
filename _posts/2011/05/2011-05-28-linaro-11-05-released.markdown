@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2011-05-28 22:11:09+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-05-released/

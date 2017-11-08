@@ -6,6 +6,8 @@ js-vendor: extended
 description: |-
     The ARMv8 server cluster is a virtual resource available to ISVs and other software developers who need access to enterprise-class 64-bit ARMv8 hardware before they can get hardware in-house
 keywords: ARMv8, server, cluster, virtual, resource, ISVs, hardware
+redirect_from:
+- /leg/
 ---
 
 The ARMv8 server cluster is a virtual resource available to ISVs and other software developers who need access to enterprise-class 64-bit ARMv8 hardware before they can get hardware in-house. Access to this resource is available on application via the form on the right. Please clearly describe your interest in accessing this resource and we will aim to get back to you within 72 hours. We will collect requests and then allocate access in reserved blocks.

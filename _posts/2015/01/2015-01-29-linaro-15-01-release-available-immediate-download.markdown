@@ -1,6 +1,6 @@
 ---
 author: koen.kooi
-comments: false
+
 date: 2015-01-29 19:29:22+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-15-01-release-available-immediate-download/

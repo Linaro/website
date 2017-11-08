@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2017-07-11 10:59:13+00:00
 layout: post
 link: https://www.linaro.org/blog/lhg-updates-w3c-eme-solution-96boards-hikey-platform/

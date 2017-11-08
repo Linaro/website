@@ -7,7 +7,7 @@ permalink: /members/
 js-vendor: extended
 css-pack: lightbox
 ---
-Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, Linux distributions and other companies who wish to influence the future of Linux on Arm. Core, Club and Group members all provide funding for Linaro and engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](//www.linaro.org/wp-content/uploads/2014/02/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](//www.linaro.org/wp-content/uploads/2014/02/Linaro-Articles-of-Association-New-June-2010.pdf).
+Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, Linux distributions and other companies who wish to influence the future of Linux on Arm. Core, Club and Group members all provide funding for Linaro and engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](/downloads/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](/downloads/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
 
 The current members are listed below. If you are interested in joining these industry leaders, please contact Joe Bates at [contactus@linaro.org](mailto:contactus@linaro.org).
 
@@ -45,7 +45,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                        {% assign core_members = site.data.members["core_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -77,7 +77,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                        {% assign core_members = site.data.members["club_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -107,7 +107,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["group_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -140,7 +140,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["leg_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -172,7 +172,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["lng_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -204,7 +204,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["lhg_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -239,7 +239,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["lmg_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -271,7 +271,7 @@ The current members are listed below. If you are interested in joining these ind
                        <!--Updated-->
                       {% assign core_members = site.data.members["lite_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -309,7 +309,7 @@ Because this group is all about ecosystem development and encouraging the produc
                        <!--Updated-->
                       {% assign sorted_manufacturing_partners = site.data.members.manufacturing_partners | sort: 'name' %}
                       {% for member in sorted_manufacturing_partners %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -333,7 +333,7 @@ Because this group is all about ecosystem development and encouraging the produc
               <div class="col-md-12 members-panel">
                   {% assign sorted_steering_committee = site.data.members.steering_committee | sort: 'name' %}
                   {% for member in sorted_steering_committee %}
-                      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                           <a href="{{member.url}}">
                               <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -359,7 +359,7 @@ Because this group is all about ecosystem development and encouraging the produc
           <div class="col-md-12 members-panel">
               {% assign sorted_mezzanine_partners = site.data.members.mezzanine_partners | sort: 'name' %}
               {% for member in sorted_mezzanine_partners %}
-                  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                       <a href="{{member.url}}">
                           <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -392,7 +392,7 @@ Because this group is all about ecosystem development and encouraging the produc
                        <!--Updated-->
                       {% assign core_members = site.data.members["community_members"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -422,7 +422,7 @@ Because this group is all about ecosystem development and encouraging the produc
                        <!--Updated-->
                       {% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
                       {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                    <a href="{{member.url}}">
                                        <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="

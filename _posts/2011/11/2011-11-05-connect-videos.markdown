@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-11-05 13:38:43+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/connect-videos/

@@ -1,6 +1,6 @@
 ---
 author: frans.gifford
-comments: false
+
 date: 2011-10-18 13:21:18+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro-org/

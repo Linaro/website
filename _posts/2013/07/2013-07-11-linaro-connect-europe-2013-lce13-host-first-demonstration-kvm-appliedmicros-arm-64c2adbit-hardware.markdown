@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-11 12:28:22+00:00
 excerpt: Following the public showing of its X­-GeneTM ARMv8 64­-bit Server on a Chip™
   solution at the Red Hat Summit, AppliedMicro is now ready to demonstrate KVM running

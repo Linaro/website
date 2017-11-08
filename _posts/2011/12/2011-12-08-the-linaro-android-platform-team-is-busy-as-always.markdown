@@ -1,6 +1,6 @@
 ---
 author: tony.mansson
-comments: false
+
 date: 2011-12-08 18:22:02+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-is-busy-as-always/

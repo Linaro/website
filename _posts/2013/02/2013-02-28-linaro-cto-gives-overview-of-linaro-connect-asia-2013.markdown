@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-28 14:18:21+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-cto-gives-overview-of-linaro-connect-asia-2013/

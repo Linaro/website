@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-05-27 12:11:29+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program/

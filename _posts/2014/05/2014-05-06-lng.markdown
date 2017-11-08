@@ -1,6 +1,6 @@
 ---
 author: bill.fischofer
-comments: false
+
 date: 2014-05-06 19:13:45+00:00
 excerpt: OpenDataPlane continues its progress towards a stable ODP v1.0 release via
   the v0.2 development release. This release introduces the ODP scheduler to permit

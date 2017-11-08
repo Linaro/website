@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-04-12 17:00:44+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/q2-12-linaro-connect-promo-video-now-available/

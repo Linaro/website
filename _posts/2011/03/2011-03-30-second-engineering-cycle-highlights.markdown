@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2011-03-30 09:46:49+00:00
 layout: post
 link: https://www.linaro.org/blog/second-engineering-cycle-highlights/

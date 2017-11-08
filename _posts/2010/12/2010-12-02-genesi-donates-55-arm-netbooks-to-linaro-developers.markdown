@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2010-12-02 20:50:00+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/genesi-donates-55-arm-netbooks-to-linaro-developers/

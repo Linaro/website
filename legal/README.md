@@ -1,16 +1,45 @@
 ---
-layout: default-stacked-breadcrumb
+layout: default-no-sub-nav
 title: Legal
 description: |-
     Information about the legal policies of Linaro's website
 permalink: /legal/
 ---
+<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
 
-*   [](#)Ts & Cs
-*   [](#)Privacy policy
-*   [Trademark usage](#)
-*   [Cookie Policy](#)
-*   [Cancellation policy](#)
+  <li role="presentation" class="active">
+    <a href="#t_and_cs" role="tab" data-toggle="tab">
+        <svg class="mk-svg-icon" data-name="mk-icon-legal" data-cacheid="icon-5a009db08b9a5" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1771 1536q0 53-37 90l-107 108q-39 37-91 37-53 0-90-37l-363-364q-38-36-38-90 0-53 43-96l-256-256-126 126q-14 14-34 14t-34-14q2 2 12.5 12t12.5 13 10 11.5 10 13.5 6 13.5 5.5 16.5 1.5 18q0 38-28 68-3 3-16.5 18t-19 20.5-18.5 16.5-22 15.5-22 9-26 4.5q-40 0-68-28l-408-408q-28-28-28-68 0-13 4.5-26t9-22 15.5-22 16.5-18.5 20.5-19 18-16.5q30-28 68-28 10 0 18 1.5t16.5 5.5 13.5 6 13.5 10 11.5 10 13 12.5 12 12.5q-14-14-14-34t14-34l348-348q14-14 34-14t34 14q-2-2-12.5-12t-12.5-13-10-11.5-10-13.5-6-13.5-5.5-16.5-1.5-18q0-38 28-68 3-3 16.5-18t19-20.5 18.5-16.5 22-15.5 22-9 26-4.5q40 0 68 28l408 408q28 28 28 68 0 13-4.5 26t-9 22-15.5 22-16.5 18.5-20.5 19-18 16.5q-30 28-68 28-10 0-18-1.5t-16.5-5.5-13.5-6-13.5-10-11.5-10-13-12.5-12-12.5q14 14 14 34t-14 34l-126 126 256 256q43-43 96-43 52 0 91 37l363 363q37 39 37 91z"></path></svg> Ts & Cs
+    </a>
+  </li>
+
+  <li role="presentation">
+    <a href="#privacy_policy" role="tab" data-toggle="tab">
+        <svg class="mk-svg-icon" data-name="mk-moon-profile" data-cacheid="icon-5a009db08c04c" style=" height:16px; width: 16px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M432 480h-384c-26.4 0-48-21.6-48-48v-416c0-26.4 21.6-48 48-48h384c26.4 0 48 21.6 48 48v416c0 26.4-21.6 48-48 48zm-16-448h-352v384h352v-384zm-288 160h224v-32h-224zm0-64h224v-32h-224zm32 208a48 48 4860 1 0 96 0 48 48 4860 1 0-96 0zm80-48h-64c-26.4 0-48-14.4-48-32v-32h160v32c0 17.6-21.6 32-48 32z" transform="scale(1 -1) translate(0 -480)"></path></svg> Privacy policy
+    </a>
+  </li>
+
+  <li role="presentation">
+    <a href="#trademark_usage" role="tab" data-toggle="tab">
+         Trademark usage
+    </a>
+  </li>
+  
+  <li role="presentation">
+    <a href="#cookie_policy" role="tab" data-toggle="tab">
+         Cookie Policy
+    </a>
+  </li>
+  <li role="presentation">
+    <a href="#cancellation_policy" role="tab" data-toggle="tab">
+         Cancellation policy
+    </a>
+  </li>
+
+</ul>
+
+<div class="tab-content" id="tabbed_nav_content">
+<div role="tabpanel" class="tab-pane tab-pane-legal active" id="t_and_cs" markdown="1">
 
 ### Information about Linaro™
 
@@ -59,10 +88,10 @@ Where Our site contains links to other sites and resources provided by third par
 Thank you for visiting Our site.
 
 LEC-ELA-00989-V1.0, 03 May 2010\. Address updated September 2012\. Copyright (c) 2010 Linaro Limited
+</div>
 
-* * *
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="privacy_policy" markdown="1">
 
-<div id="DIV_58">Privacy policy</div>
 
 As an organization Linaro Limited is committed to fairness, both in the collection and use of personal information. Fairness has two elements:
 
@@ -161,7 +190,7 @@ This cookie is set on confirmation that visitors are happy with the use of cooki
 
 <tr id="TR_115">
 
-<td id="TD_116">___utmas___utmbs___utmcs___utmzs</td>
+<td id="TD_116">\___utmas___utmbs___utmcs___utmzs</td>
 
 <td id="TD_117">These cookies are part of Google Analytics, which we use to monitor traffic levels, search queries and visits to this website, and to highlight potential problems within the site structure.Google Analytics stores IP address anonamously on its servers in the US, and neither we or Google associate your IP address with any personally identifiable information.These cookies enable Google to determine whether you are a return visitor to the site, and to track the pages that you visit during your session.  
 This cookie is set after users have consented to the use of cookies.</td>
@@ -206,7 +235,9 @@ Thank you for visiting Our site.
 
 LEC-ELA-00990-V2.0, 27 April, 2010, Copyright (c) 2010 Linaro Limited
 
-<div id="DIV_156">Trademark usage</div>
+</div>
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="trademark_usage" markdown="1">
 
 Linaro® is a registered trademark of Linaro in the United Kingdom and other countries
 
@@ -218,7 +249,9 @@ The objectives of the Linaro company trademark policy are to: encourage widespre
 
 The Trademark policy and guidelines provide information on what is allowed, what isn’t allowed, and cases in which you should ask permission. If you have any doubt, please contact us at trademarks@linaro.org and a member of our trademark team will be in touch with you shortly.
 
-<div id="DIV_168">Cookie Policy</div>
+</div>
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="cookie_policy" markdown="1">
 
 # Cookie Policy
 
@@ -404,12 +437,18 @@ Third parties may also use cookies over which we have no control. These cookies 
 We may revise this cookie policy at any time by amending this page, and where appropriate, by notification on Our Linaro Websites. You should check this page from time to time to review any changes We have made. Some of the provisions in this cookie policy may also be superseded by provisions or notices published elsewhere on Our Linaro Websites.  
 Thank you for visiting Our site.
 
-* * *
 
-<div id="DIV_314">Cancellation policy</div>
+</div>
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="cancellation_policy" markdown="1">
+
 
 **Cancellation policy:**  
 If you need to cancel for any reason please contact us by emailing [connect@linaro.org](mailto:connect@linaro.org). Refunds will only be issued for cancellations received at least 3 weeks prior to the first day of the event and may take up to 14 days to process. Please note that we reserve the right to charge a 5% processing fee on all refunds.
 
 **Payment instructions:**  
 Payments are done through Paypal. To complete payment, you will need to fill in your billing address, click ‘Make Payment’ and then press the Paypal button on the following page to complete the transaction.
+
+</div>
+
+</div>

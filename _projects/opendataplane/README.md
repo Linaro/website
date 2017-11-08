@@ -28,7 +28,7 @@ governance:
     url: https://collaborate.linaro.org/pages/viewpage.action?pageId=47842677
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsP5AQz0xHG_vaMxbCVRM2jE
 ---
-# Open Data Plane
+# OpenDataPlane
 
 The OpenDataPlane project (ODP) is an open-source, cross-platform set of application programming interfaces (APIs) for the networking data plane. In October 2013, Linaro announced that it was collaborating with members of the Linaro Networking interest Group to develop and host an open standard application programming interface for data plane applications. Initially defined by members of the Linaro Networking Group (LNG), this project is open to contributions from all individuals and companies who share an interest in promoting a standard set of APIs to be used across the full range of network processor architectures available.
 

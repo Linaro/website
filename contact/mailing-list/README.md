@@ -11,7 +11,7 @@ List administrators, you can visit [the list admin overview page](http://lists.l
 
 If you are having trouble using the lists, please contact [mailman@lists.linaro.org](mailto:mailman@lists.linaro.org).
 
-<table id="TABLE_21">
+<table id="TABLE_21" class="table-responsive">
 
 <tbody id="TBODY_22">
 

@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-03-26 15:30:47+00:00
 layout: post
 link: https://www.linaro.org/blog/wrap-final-day-lca14/

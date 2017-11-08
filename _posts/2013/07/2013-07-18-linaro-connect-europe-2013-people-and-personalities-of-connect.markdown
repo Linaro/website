@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-18 15:14:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/

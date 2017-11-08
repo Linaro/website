@@ -5,6 +5,8 @@ title: Hands on Training
 short_name: BSP’s, Builds and Support
 permalink: /services/hands-on-training/
 keywords: training, Linux, ARM, open source, onsite, remote, mentoring, tailored to needs
+redirect_from:
+- /training/
 ---
 Linaro Developer Services provides customized training on a variety of topics.
 

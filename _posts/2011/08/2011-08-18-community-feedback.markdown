@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2011-08-18 18:11:51+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/community-feedback/

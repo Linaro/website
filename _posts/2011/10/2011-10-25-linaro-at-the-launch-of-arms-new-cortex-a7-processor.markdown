@@ -1,6 +1,6 @@
 ---
 author: jesse.barker
-comments: false
+
 date: 2011-10-25 02:20:14+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-at-the-launch-of-arms-new-cortex-a7-processor/

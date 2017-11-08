@@ -1,6 +1,6 @@
 ---
 author: mark.orvek
-comments: false
+
 date: 2015-09-16 20:43:09+00:00
 excerpt: Linaro Connect San Francisco 2015 will take place the week of September 21-25th.  Here
   are some of the events we have planned for the week.

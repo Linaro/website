@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-03-04 17:30:15+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lca14-tuesday-recap/

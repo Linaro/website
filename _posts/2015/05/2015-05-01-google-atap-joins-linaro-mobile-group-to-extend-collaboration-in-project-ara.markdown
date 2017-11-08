@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2015-05-01 12:00:04+00:00
 excerpt: Linaro Ltd, the collaborative engineering organization developing open source
   software for the ARM® architecture, today added the Advanced Technologies and Projects

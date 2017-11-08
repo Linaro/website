@@ -2,10 +2,12 @@
 layout: developer-services
 title: Developer Services
 permalink: /services/
+redirect_from: 
+- /linaro-developer-services-datacenteranddevelopercloud/
 ---
 
 <div class="services-img">
-  <img class="img-responsive" src="{% asset_path 'services.jpg' %}"/>
+  <img class="img-responsive" src="{% asset_path 'developer-services.jpg' %}"/>
   <div class="services-img-text">
     Let Linaro Developer Services experts help you with your project
   </div>

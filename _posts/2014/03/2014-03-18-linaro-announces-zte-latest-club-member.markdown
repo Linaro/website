@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2014-03-18 14:06:23+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-zte-latest-club-member/

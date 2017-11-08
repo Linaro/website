@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2012-08-11 01:09:45+00:00
 layout: post
 link: https://www.linaro.org/blog/trying-linaro-jellybean-android-on-tis-panda-board/

@@ -1,6 +1,6 @@
 ---
 author: andrea.gallo
-comments: false
+
 date: 2014-01-27 20:29:16+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-enterprise-group-1st-year-update/

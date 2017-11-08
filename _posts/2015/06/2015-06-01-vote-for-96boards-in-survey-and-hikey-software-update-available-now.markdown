@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2015-06-01 14:21:55+00:00
 layout: post
 link: https://www.linaro.org/blog/vote-for-96boards-in-survey-and-hikey-software-update-available-now/

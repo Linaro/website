@@ -1,6 +1,6 @@
 ---
 author: david.mandala
-comments: false
+
 date: 2015-03-25 14:17:50+00:00
 layout: post
 link: https://www.linaro.org/blog/armv8-server-lab/

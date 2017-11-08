@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-05-28 09:29:07+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/

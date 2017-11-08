@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-09-22 13:57:21+00:00
 layout: post
 link: https://www.linaro.org/blog/android-platform-development/

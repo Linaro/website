@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2011-09-15 21:35:28+00:00
 layout: post
 link: https://www.linaro.org/blog/switching-out-a-pre-built-android-images-kernel/

@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-04-30 18:11:42+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-running-on-galaxy-nexus/

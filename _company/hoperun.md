@@ -3,9 +3,6 @@ title: HopeRun
 description: |-
     HopeRun Software Co. Ltd. is a large-scale leading enterprise providing integrated software solution and service in software industry of China.
 company_image: hoperun.jpg
-members_of:
-  - 96boards_steering
-  - 96boards_manufacturing
 ---
 Jiangsu HopeRun Software Co., Ltd. is a large-scale leading enterprise providing integrated software solution and service in software industry of China.
 

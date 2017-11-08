@@ -1,6 +1,6 @@
 ---
 author: dave.pigott
-comments: false
+
 date: 2012-11-16 15:40:02+00:00
 layout: post
 link: https://www.linaro.org/blog/that-pesky-connect-crossword/

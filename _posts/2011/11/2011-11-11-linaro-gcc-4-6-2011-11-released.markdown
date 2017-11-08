@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2011-11-11 16:28:12+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-2011-11-released/

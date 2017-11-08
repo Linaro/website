@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2011-09-16 11:03:58+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-3-2011-09-released/

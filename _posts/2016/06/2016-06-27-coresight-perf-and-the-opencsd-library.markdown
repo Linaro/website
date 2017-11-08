@@ -1,6 +1,6 @@
 ---
 author: mathieu.poirier
-comments: false
+
 date: 2016-06-27 22:45:43+00:00
 excerpt: 'Learn how the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.  In the latter

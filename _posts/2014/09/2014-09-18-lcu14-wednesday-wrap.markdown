@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-09-18 21:43:11+00:00
 layout: post
 link: https://www.linaro.org/blog/lcu14-wednesday-wrap/

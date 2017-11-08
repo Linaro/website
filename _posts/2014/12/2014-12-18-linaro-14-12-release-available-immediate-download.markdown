@@ -1,6 +1,6 @@
 ---
 author: koen.kooi
-comments: false
+
 date: 2014-12-18 20:28:48+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-14-12-release-available-immediate-download/

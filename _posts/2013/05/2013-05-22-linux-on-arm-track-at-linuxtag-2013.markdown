@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-05-22 17:57:39+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linux-on-arm-track-at-linuxtag-2013/

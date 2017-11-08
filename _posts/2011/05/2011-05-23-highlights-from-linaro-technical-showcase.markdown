@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2011-05-23 11:27:53+00:00
 layout: post
 link: https://www.linaro.org/blog/highlights-from-linaro-technical-showcase/

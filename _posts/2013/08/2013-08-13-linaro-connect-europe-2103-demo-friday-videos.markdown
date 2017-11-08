@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-08-13 15:44:04+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2103-demo-friday-videos/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-22 16:31:50+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/

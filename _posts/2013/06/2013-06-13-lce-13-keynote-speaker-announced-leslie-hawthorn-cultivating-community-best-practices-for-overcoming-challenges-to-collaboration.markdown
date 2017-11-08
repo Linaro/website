@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-06-13 19:27:03+00:00
 layout: post
 link: https://www.linaro.org/blog/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/

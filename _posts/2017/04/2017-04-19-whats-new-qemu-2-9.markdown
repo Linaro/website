@@ -1,6 +1,6 @@
 ---
 author: alex.bennee
-comments: false
+
 date: 2017-04-19 16:46:38+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/whats-new-qemu-2-9/

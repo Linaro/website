@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2014-04-10 19:30:32+00:00
 layout: post
 link: https://www.linaro.org/blog/april-ceo-note/

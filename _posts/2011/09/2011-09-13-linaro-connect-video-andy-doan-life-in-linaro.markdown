@@ -1,6 +1,6 @@
 ---
 author: michael.opdenacker
-comments: false
+
 date: 2011-09-13 15:02:44+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-video-andy-doan-life-in-linaro/

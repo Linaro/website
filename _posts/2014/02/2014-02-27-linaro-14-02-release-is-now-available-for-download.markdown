@@ -1,6 +1,6 @@
 ---
 author: fathi.boudra
-comments: false
+
 date: 2014-02-27 16:20:39+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-14-02-release-is-now-available-for-download/

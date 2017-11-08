@@ -1,6 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-comments: false
+
 date: 2012-03-29 19:31:31+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-updated-to-4-0-4/

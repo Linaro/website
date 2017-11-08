@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-03-07 10:58:22+00:00
 excerpt: Linaro today announced that the 96Boards HiKey octa-core 64-bit ARMv8 community
   board is supported in AOSP (Android Open Source Project). Developers can now download

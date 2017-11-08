@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2015-03-26 16:39:44+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-15-03-release-available-for-download/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-02-08 17:32:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-takes-an-active-role-in-virtualization-on-arm/

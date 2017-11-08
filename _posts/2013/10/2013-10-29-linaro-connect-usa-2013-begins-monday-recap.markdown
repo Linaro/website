@@ -1,6 +1,6 @@
 ---
 author: steve.taylor
-comments: false
+
 date: 2013-10-29 12:47:32+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-usa-2013-begins-monday-recap/

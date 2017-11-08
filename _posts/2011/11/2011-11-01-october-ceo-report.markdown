@@ -1,6 +1,6 @@
 ---
 author: george.grey
-comments: false
+
 date: 2011-11-01 14:45:07+00:00
 layout: post
 link: https://www.linaro.org/blog/october-ceo-report/

@@ -7,7 +7,7 @@ permalink: /developers/
 
 You will see that there are several ways to become involved and that everything we do is open, not only software but also our [wiki](http://wiki.linaro.org/FrontPage) and our discussions (on IRC and on our mailing lists).
 
-<ul class="nav nav-tabs" role="tablist" id="developers_tabs">
+<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
 
   <li role="presentation" class="active">
     <a href="#individuals" role="tab" data-toggle="tab">
@@ -30,7 +30,7 @@ You will see that there are several ways to become involved and that everything 
 </ul>
 
 
-<div class="tab-content" id="developers_tab_content">
+<div class="tab-content" id="tabbed_nav_content">
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="individuals" markdown="1">
 
 **See how Linaro operates first-hand…**

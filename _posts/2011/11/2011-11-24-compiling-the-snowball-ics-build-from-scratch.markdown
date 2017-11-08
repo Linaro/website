@@ -1,6 +1,6 @@
 ---
 author: zach.pfeffer
-comments: false
+
 date: 2011-11-24 04:24:45+00:00
 layout: post
 link: https://www.linaro.org/blog/compiling-the-snowball-ics-build-from-scratch/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-11-26 16:26:56+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/

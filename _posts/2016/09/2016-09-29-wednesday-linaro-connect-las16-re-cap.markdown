@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-09-29 01:26:31+00:00
 layout: post
 link: https://www.linaro.org/blog/wednesday-linaro-connect-las16-re-cap/

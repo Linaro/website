@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-05-18 19:29:37+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-lemaker-oscon-showcase-hikey/

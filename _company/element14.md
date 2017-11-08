@@ -3,8 +3,6 @@ title: Element14
 description: |-
     As specialists in the design and development of embedded systems, element14’s expertise in hardware design and embedded software development has helped us become a trusted design partner to many of the world’s leading companies.
 company_image: element14.png
-members_of:
-  - 96boards_manufacturing
 ---
 As specialists in the design and development of embedded systems, element14’s expertise in hardware design and embedded software development has helped us become a trusted design partner to many of the world’s leading companies in the semiconductor, medical, aerospace, military, automotive, industrial and consumer markets.
 If you have a design, need development and industrialization assistance, and are ready to go into production, element14’s Design and Manufacturing Services can help you turn that brilliant idea into a finished product ready to be marketed and sold worldwide. Visit us at element14.com/design-services .

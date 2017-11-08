@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-07-09 07:56:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/

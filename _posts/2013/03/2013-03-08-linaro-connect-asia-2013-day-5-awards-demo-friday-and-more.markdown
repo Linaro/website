@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-08 00:08:23+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/

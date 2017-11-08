@@ -1,6 +1,6 @@
 ---
 author: grant.likely
-comments: false
+
 date: 2014-02-03 18:58:27+00:00
 layout: post
 link: https://www.linaro.org/blog/when-will-uefi-and-acpi-be-ready-on-arm/

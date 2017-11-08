@@ -1,6 +1,6 @@
 ---
 author: jennifer.castelino
-comments: false
+
 date: 2014-08-20 15:21:50+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/

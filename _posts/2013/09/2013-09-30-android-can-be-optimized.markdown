@@ -1,6 +1,6 @@
 ---
 author: khasim.mohammed
-comments: false
+
 date: 2013-09-30 19:16:47+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/android-can-be-optimized/

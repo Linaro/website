@@ -1,6 +1,6 @@
 ---
 author: shovan
-comments: false
+
 date: 2015-01-22 16:50:47+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-keynote-speakers-demos-upcoming-linaro-connect-hong-kong/

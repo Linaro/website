@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2010-09-29 11:54:18+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-board-minutes-september-2010/

@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2012-12-14 20:20:42+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/linaro-wants-you-qa-support-engineer-seoul-korea/

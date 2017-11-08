@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2016-09-19 03:21:27+00:00
 layout: post
 link: https://www.linaro.org/blog/firmware-summit-at-linaro-connect-las16/

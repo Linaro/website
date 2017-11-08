@@ -1,6 +1,6 @@
 ---
 author: linaro
-comments: false
+
 date: 2013-03-19 23:04:06+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong/
