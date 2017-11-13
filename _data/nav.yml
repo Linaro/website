@@ -56,12 +56,8 @@ pages:
             url: /news/
           - text: Linaro Blog
             url: /blog/
-          - text: Planet Linaro
-            url: /planet/
           - text: Linaro Connect
             url: https://connect.linaro.org
             external: true
-          - text: Social Media Hub
-            url: /social/
     - title: Contact
       url: /contact/

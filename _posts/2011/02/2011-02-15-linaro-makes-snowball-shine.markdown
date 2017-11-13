@@ -10,13 +10,9 @@ wordpress_id: 4408
 categories:
 - News
 ---
-
 CAMBRIDGE, UK - 15 FEB 2011
 
-
-
 ## Linaro provides optimized base of software and tools for new low cost board (Snowball) using ST-Ericsson's dual-core ARM® CortexTM- A9 based AP9500 chipset.
-
 
 Linaro welcomes the news that the open source community will be able to buy low cost, high performance Snowball development boards using ST-Ericsson's AP9500 chipset and run free open source software and tools that have been optimized by Linaro.
 

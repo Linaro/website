@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2010-12-13 12:08:44+00:00
 layout: post
 link: https://www.linaro.org/news/software-leaders-advise-linaro/
@@ -13,12 +12,7 @@ categories:
 
 CAMBRIDGE, UK - 13 DEC 2010
 
-
-
 ## Canonical, GENIVI, HP, LiMo and MontaVista become Advisors to Linaro
-
-
-
 
 Following completion of its first major release in November, Linaro announces the expansion of its ecosystem to include Advisory Partners Canonical, GENIVI, HP, LiMo Foundation and MontaVista Software all of whom are involved in building complex Linux based software. The Advisors will help to guide the Linaro Technical Steering Committee (TSC) on critical industry needs, facilitating the alignment of requirements.
 

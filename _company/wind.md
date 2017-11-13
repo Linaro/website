@@ -1,6 +1,6 @@
 ---
-title: vamrs
-company_image: vamrs.jpg
+title: Wind
+company_image: wind.jpg
 description: |-
     A global leader in delivering software for intelligent connected systems.
 ---

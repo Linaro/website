@@ -1,6 +1,6 @@
 ---
 title: Xunlong
-company_image: xilinx.jpg
+company_image: xunlong.jpg
 description: |-
     Wrtnode team based in Beijing, China, from 2013, we started the WRTnode1, trying to offer a modularized component both hardware and software.
 ---

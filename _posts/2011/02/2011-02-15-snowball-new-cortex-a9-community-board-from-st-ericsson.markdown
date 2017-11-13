@@ -1,6 +1,5 @@
 ---
-author: michael.opdenacker
-
+author: linaro
 date: 2011-02-15 18:00:00+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/snowball-new-cortex-a9-community-board-from-st-ericsson/
@@ -16,7 +15,6 @@ tags:
 - CortexA9
 - ST-Ericsson
 ---
-
 Barcelona, Mobile World Congress, Feb. 15, 2011
 
 At Linaro, we are pleased to relay the announcement by ST-Ericsson of the Snowball board, a new low cost, low power and high performance board for the embedded Linux community, based on their Nova A9500 dual Cortex A9 processor and the MALI 400 GPU from ARM.
@@ -25,18 +23,19 @@ This board was designed for the needs of both the embedded Linux community devel
 
 First, here are pictures:
 
-![Snowball connectors](/assets/blog/ResizedImage600441-snowball1.jpg)
+{% include image.html name="ResizedImage600441-snowball1.jpg" alt="Snowball Connectors" %}
 
-![Snowball connectors](/assets/blog/ResizedImage600466-snowball2.jpg)
-
+{% include image.html name="ResizedImage600466-snowball2.jpg" alt="Snowball Connectors" %}
 
 
 And then, technical details:
-<table border="0" >
+
+<table border="0" class="responsive-table table-responsive">
 <tbody >
 <tr >
 
-<td >- ARM Dual Cortex A9 @ 1GHz,
+<td markdown="1">
+- ARM Dual Cortex A9 @ 1GHz,
 - 4 / 8GByte e-MMC,
 - 1GByte LP-DDR2,
 - 1x Micro-SD,
@@ -54,7 +53,8 @@ And then, technical details:
 <td >
 </td>
 
-<td >- 1x Serial Port (RS232 / Over USB),
+<td markdown="1">
+- 1x Serial Port (RS232 / Over USB),
 - 1x JTAG Connector,
 - 1x MiPi34 Debug Connector,
 - 1x IEEE 802.11 b/g/n WLAN,
