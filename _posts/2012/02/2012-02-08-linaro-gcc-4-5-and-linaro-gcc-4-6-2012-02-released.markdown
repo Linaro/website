@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2012-02-08 23:32:36+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released/
@@ -20,9 +19,6 @@ fixes and backports Cortex-A7 and Cortex-A15 support from FSF trunk.
 
 Interesting changes include:
 
-
-
-
   * Updates to 4.6.2+svn183786.
 
 
@@ -33,8 +29,6 @@ Interesting changes include:
 
 
   * Backport improvements to 64 bit unsigned comparisons.
-
-
 
 Fixes:
 
@@ -56,8 +50,6 @@ Interesting changes include:
 
 
   * Updates to 4.5.3+svn183785.
-
-
 
 The source tarballs are available from:
 [https://launchpad.net/gcc-linaro/+milestone/4.6-2012.02](https://launchpad.net/gcc-linaro/+milestone/4.6-2012.02)

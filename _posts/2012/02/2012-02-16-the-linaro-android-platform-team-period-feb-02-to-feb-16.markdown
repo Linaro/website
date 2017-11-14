@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2012-02-16 20:24:55+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-linaro-android-platform-team-period-feb-02-to-feb-16/
@@ -33,25 +32,12 @@ Here's a list of this weeks major achievements.
 
 ### Key Points for wider discussion
 
-
-
-
-
-
   * Talks held at Android Builders Summit and Embedded Linux Conference.
 
 
   * iMX6 up and running..
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * iMX6 support added to linaro-image-tools.
 
@@ -79,15 +65,7 @@ Here's a list of this weeks major achievements.
 
   * Completed the video playback HW acceleration on Origen.
 
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 919148 [snowball: 0xbench native test fails to run to completion.](https://bugs.launchpad.net/linaro-android/+bug/919148)
 
@@ -101,37 +79,16 @@ Here's a list of this weeks major achievements.
   * 860588 [Snowball: Bluetooth Turn ON Fails.](https://bugs.launchpad.net/linaro-android/+bug/860588)
 
 
-
-
 ### Miscellaneous
-
-
-
-
 
 
   * Connect q1-12, Android Builders Summit and Embedded Linux Conference - Two intense weeks of collaboration!
 
-
-
-
 ### Issues
-
-
-
-
-
 
   * none
 
-
-
-
 ### Blueprints
-
-
-
-
 
 
   * [12.02 Milestone](https://launchpad.net/linaro-android/+milestone/12.02)

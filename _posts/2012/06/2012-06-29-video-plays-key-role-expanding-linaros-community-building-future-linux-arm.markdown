@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-06-29 12:18:55+00:00
 layout: post
 link: https://www.linaro.org/news/video-plays-key-role-expanding-linaros-community-building-future-linux-arm/

@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2012-03-16 00:06:07+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/
@@ -35,25 +34,12 @@ Here's a list of this weeks major achievements.
 
 ### Key Points for wider discussion
 
-
-
-
-
-
   * The 12.03 toolchains, 4.6 and 4.7, is ready and being tested.
 
 
   * Android runs on A15, A7 and A15/A7 Fast Models.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * Verified that DS-5 5.9 works on Pandaboard with new gator.
 
@@ -63,15 +49,7 @@ Here's a list of this weeks major achievements.
 
   * Progress on porting Iozone and Memtester to Android.
 
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 942307	[ 'asm' operand requires impossible reload](https://bugs.launchpad.net/linaro-android/+bug/942307)
 
@@ -84,26 +62,11 @@ Here's a list of this weeks major achievements.
 
   * 906297	[ Live wallpaper crashing on ICS -panda](https://bugs.launchpad.net/linaro-android/+bug/906297)
 
-
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * mansson will be leaving the Android team. Last day April 5.
 
-
-
-
 ### Blueprints
-
-
-
-
 
 
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)

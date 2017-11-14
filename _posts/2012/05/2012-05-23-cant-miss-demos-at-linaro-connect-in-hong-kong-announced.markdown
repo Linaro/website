@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-05-23 14:26:03+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/
@@ -20,9 +19,6 @@ tags:
 With the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) starting on Monday 28 May, the list of Demos available for the public see and participate in during the [Demo Friday](http://connect.linaro.org/events/linaro-connect-q2-12-demo-friday/) event on 1 June is now available.
 
 Demos include:
-
-
-
 
   * Big.LITTLE in-kernel Switcher (Linaro)
 

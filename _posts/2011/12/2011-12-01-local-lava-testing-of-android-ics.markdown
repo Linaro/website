@@ -1,6 +1,5 @@
 ---
 author: frans.gifford
-
 date: 2011-12-01 14:16:11+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/local-lava-testing-of-android-ics/
@@ -19,19 +18,28 @@ tags:
 
 The Linaro Android team automatically test daily platform builds on our LAVA server[1], but what's less well known is that we can also run Android tests locally using lava-android-test[2]. I tried this out in order to debug a new benchmark I wanted to add, and it turns out that creating a mini version of validation.linaro.org is remarkably easy. It's as simple as getting a board powered up and available to adb, installing the tool and then running three commands to install, run and parse the results of your test case.
 
-[caption id="attachment_1009" align="alignnone" width="300" caption="LAVA on a laptop"][![LAVA on a laptop](/assets/blog/lin4.jpg)](/assets/blog/lin4.jpg)[/caption]
+{% include image.html name="lin4.jpg" alt="LAVA on a laptop" %}
 
 **Get lava-android-test**
+
 There are two options here, Ubuntu users can use the validation team's ppa[3]:
+
 `sudo apt-get install lava-android-test`.
+
+
 Hackers can install from source into a python virtualenv:
-`sudo apt-get install python-virtualenv
+
+```bash
+
+sudo apt-get install python-virtualenv
 virtualenv lava-android-test-env
 . lava-android-test-env/bin/activate
 bzr branch lp:lava-android-test
 cd lava-android-test
 python setup.py install
-deactivate`
+deactivate
+
+```
 
 **List available tests**
 `lava-android-test list-tests`

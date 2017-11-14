@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-02-09 12:18:24+00:00
 layout: post
 link: https://www.linaro.org/news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/

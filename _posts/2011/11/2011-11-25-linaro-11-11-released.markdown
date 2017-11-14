@@ -1,6 +1,5 @@
 ---
 author: david.zinman
-
 date: 2011-11-25 00:24:05+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-11-11-released/
@@ -23,9 +22,6 @@ If you don’t want to read the rest of this announcement but want to get starte
 [http://releases.linaro.org/11.11/android/images-ics-preview](http://releases.linaro.org/11.11/android/images-ics-preview)
 
 Obviously, Linaro continued to deliver great stuff outside of those Android ICS builds. So here are the big items that the Release Team has selected to feature this time:
-
-
-
 	
   * The Android rockstars delivered ICS preview builds but did not detour from their initially stated release goals. Among them we have an upgraded Android LEB based off Android 2.3.7 that comes again with all optimizations and bleeding edge Linaro toolchain integration. Other Android builds showcase a first release for Versatile Express using the Linaro ARM LT kernel, a NEON optimized libpng, preliminary DS-5 support and a host of bug fixes and enhancement's to existing support.
 

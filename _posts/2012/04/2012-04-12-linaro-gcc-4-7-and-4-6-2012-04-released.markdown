@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2012-04-12 06:11:57+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-7-and-4-6-2012-04-released/
@@ -11,7 +10,6 @@ categories:
 - blog
 tags:
 - Releases
-
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of both Linaro GCC 4.7 and Linaro GCC 4.6.
@@ -19,9 +17,6 @@ The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of
 Linaro GCC 4.7 2012.04 is the first release in the 4.7 series. Based off the latest GCC 4.7.0+svn186061 release, it includes performance improvements especially around 64 bit operations.
 
 Interesting changes include:
-
-
-
 
   * Our first 4.7 based release
 

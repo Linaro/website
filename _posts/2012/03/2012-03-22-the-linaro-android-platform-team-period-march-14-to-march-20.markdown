@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2012-03-22 22:53:18+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-march-14-to-march-20/
@@ -44,24 +43,11 @@ Here’s a list of this weeks major achievements.
 ### Key Points for wider discussion
 
 
-
-
-
-
   * Hardware accelerated multimedia is now integrated on Origen.
-
 
   * The 12.03 pre RC#2 have been created and tested.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * A dual-port SD-card for automated testing in LAVA has been designed. The first samples are expected in 2 weeks.
 
@@ -81,13 +67,7 @@ Here’s a list of this weeks major achievements.
   * ConnectivityManager unit tests have been integrated in Android.
 
 
-
-
 ### Bugs fixed
-
-
-
-
 
 
   * 880423	[ Suspend does not work on Samsung Origen.](https://bugs.launchpad.net/linaro-android/+bug/880423)
@@ -102,25 +82,12 @@ Here’s a list of this weeks major achievements.
   * 953056	[ Testcase names don't match between the testcase wiki and testcase spreadsheet.](https://bugs.launchpad.net/linaro-android/+bug/953056)
 
 
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * Nothing
 
 
-
-
 ### Blueprints
-
-
-
-
 
 
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)

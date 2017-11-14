@@ -1,6 +1,5 @@
 ---
 author: bernhard.rosenkranzer
-
 date: 2012-05-21 20:57:40+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-android-toolchain-nightly-builds-available/
@@ -22,7 +21,8 @@ At this time, we recommend using the 4.7 branch for production work (that's also
 
 If you want to always have the latest and greatest for testing, simply add this (or something similar) as a cron job:
 
-`
+```bash
+
 #!/bin/sh
 D=`mktemp -d /tmp/TCXXXXXX`
 [ -z "$D" ] && exit 1
@@ -42,4 +42,5 @@ rm -rf android-toolchain-eabi android-toolchain-trunk
 tar xf "$D"/android-toolchain-eabi-trunk-daily-linux-x86.tar.bz2
 mv android-toolchain-eabi android-toolchain-trunk
 rm -rf "$D"
-`
+
+```

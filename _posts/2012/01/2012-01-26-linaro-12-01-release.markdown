@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2012-01-26 18:22:14+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-01-release/
@@ -13,7 +12,7 @@ tags:
 - Releases
 ---
 
-"_Action is the foundational key to all success._" ~**Pablo Picasso**
+"_Action is the foundational key to all success._" ~ **Pablo Picasso**
 
 We are pleased to announce the release of Linaro 12.01. Linaro engineers worked
 tirelessly on this release to bring hardware accelerated video decoding that is
@@ -23,8 +22,6 @@ TV are also featured.
 
 Ricardo Salveti, team lead for the Developer Platform at Linaro, details these
 successful achievements in the following blog posts:
-
-
 
 
   * [Ubuntu TV fully accelerated on a PandaBoard with Ubuntu LEB](http://rsalveti.wordpress.com/2012/01/16/ubuntu-tv-fully-accelerated-on-a-pandaboard-with-ubuntu-leb/)

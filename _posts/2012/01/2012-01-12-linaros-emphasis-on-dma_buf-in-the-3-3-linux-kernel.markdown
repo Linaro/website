@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-01-12 00:03:27+00:00
 layout: post
 link: https://www.linaro.org/blog/patch-highlights/linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel/

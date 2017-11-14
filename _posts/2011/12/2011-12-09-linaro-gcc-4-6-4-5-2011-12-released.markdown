@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-12-09 10:16:05+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-4-5-2011-12-released/
@@ -28,7 +27,7 @@ Interesting changes include:
 * SLP support for conditions.
 * Pattern recognition support in basic-block SLP.
 * Enhancements to mixed-size condition pattern recognition.
-* Support for 64bit __sync* primitives on ARM.
+* Support for 64bit \_\_sync\* primitives on ARM.
 * Unaligned block-move support for ARMv7.
 * Added Cortex-A15 integer pipeline tuning.
 

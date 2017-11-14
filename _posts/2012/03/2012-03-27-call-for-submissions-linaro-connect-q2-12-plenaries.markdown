@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-03-27 03:04:06+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/call-for-submissions-linaro-connect-q2-12-plenaries/
@@ -14,17 +13,18 @@ tags:
 - Industry
 ---
 
-[![](/assets/blog/Linaro-Connect.jpg)](/assets/blog/Linaro-Connect.jpg)The submission process for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12/#welcome) plenaries is now open!
+{% include image.html name="Linaro-Connect.jpg" alt="Linaro Connect Logo" class="small-inline" %}
+
+
+The submission process for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12/#welcome) plenaries is now open!
 
 There will be 30 minutes of plenary talks daily from Tuesday through Friday at Linaro Connect Q2.12 which is being held from 28 May - 1 June at the [Gold Coast Hotel](http://connect.linaro.org/events/event/linaro-connect-q2-12/#location) in Hong Kong.
 
 The plenary sessions will give Linaro Connect attendees an opportunity to address Linaro, its current and potential Member and Partner representatives as well as the community as a whole. These are broken up into two(2)-15 minute sessions for a total of eight (8) Plenary Slots available for the Linaro Connect Q2.12 event.
 
-Do you have a_** great idea**_ you would like to present to the Linaro Connect Q2.12 attendees?   Want to share a Linaro _**success story**_ and_** motivate**_, _**inspire**_, _**excite**_ or _**educate**_ attendees? Then this is an _**opportunity**_ for you _**to get involved**_ in this Linaro Connect event.
+Do you have a _**great idea**_ you would like to present to the Linaro Connect Q2.12 attendees?   Want to share a Linaro _**success story**_ and _**motivate**_ , _**inspire**_, _**excite**_ or _**educate**_ attendees? Then this is an _**opportunity**_ for you _**to get involved**_ in this Linaro Connect event.
 
 Plenary Submissions and suggested plenary sessions can be added to the [wiki](https://wiki.linaro.org/Events/LinaroConnectQ2.12/Plenaries); however, for your submission to be considered it needs to be emailed to [David Rusling, Linaro CTO](mailto:david.rusling@linaro.org),  and should include the following information:
-
-
 
 
   * **Plenary Title:**

@@ -1,6 +1,5 @@
 ---
 author: vishal.bhoj
-
 date: 2012-03-20 15:21:41+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/androidization-of-linux-kernel/
@@ -19,12 +18,10 @@ tags:
 I have always wondered how one should be applying the Android patches onto any Linux kernel. Recently I had to do the same stuff. Here is a short description on how I androidized the 3.2 Linux kernel. I have added the Android patches to 3.2 Linux kernel for Vexpress-rtsm. Since the kernel was close to the upstream kernel there were no merge conflicts luckily.
 
 Here is the vanilla Linux kernel to which Android patches were added:
-[](http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm)
 
 [http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm](http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm)
 
 Andy Green from the Landing team has provided a topic(linaro-androidization-tracking) branch for 3.2 Linux kernel:
-[](http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking)
 
 [http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking](http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking)
 
@@ -32,11 +29,7 @@ Androidization process was just 4 step process:
 
 1. Clone the Linux kernel and create a branch for androidization :
 
-
     git clone http://git.linaro.org/git/people/dmart/linux-3-arm.git  -b arm/vexpressdt-rtsm
-
-
-
 
     git checkout -b android
 
@@ -51,9 +44,6 @@ Androidization process was just 4 step process:
 
 
     git fetch androidization
-
-
-
 
     git rebase remotes/androidization/linaro-androidization-tracking
 

@@ -1,6 +1,5 @@
 ---
 author: bernhard.rosenkranzer
-
 date: 2012-04-30 18:11:42+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-running-on-galaxy-nexus/
@@ -19,7 +18,9 @@ Linaro Android, built with the Linaro toolchain (my test build was done with the
 There are a couple of limitations (GPS didn't work, the camera didn't work, and turning off Bluetooth caused the phone app to crash), but all the basics work fine, even 3D games could run.
 
 If you want to check it out:
-`
+
+```bash
+
 repo init -u git://android.git.linaro.org/platform/manifest.git -b linaro-playground -m maguro.xml
 repo sync
 export TARGET_TOOLS_PREFIX=/where/you/installed/the/linaro-android-toolchain/bin/arm-linux-androideabi-
@@ -27,8 +28,8 @@ source build/envsetup.sh
 lunch full_maguro-userdebug
 make -j8 otapackage
 
-`
+```
 
-The file to flash to the Galaxy Nexus will be out/target/product/maguro/full_maguro-ota-eng.*.zip - you can flash it using e.g. the ClockworkMod Recovery.
+The file to flash to the Galaxy Nexus will be out/target/product/maguro/full_maguro-ota-eng.\*.zip - you can flash it using e.g. the ClockworkMod Recovery.
 
 As the branch name implies, this is not an official release, and we don't expect to make any official releases of this in the future. However, we will accept patches. ;)

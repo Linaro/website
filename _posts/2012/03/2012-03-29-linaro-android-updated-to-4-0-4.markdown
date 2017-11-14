@@ -1,6 +1,5 @@
 ---
 author: bernhard.rosenkranzer
-
 date: 2012-03-29 19:31:31+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-updated-to-4-0-4/
@@ -22,10 +21,12 @@ The complete source is available in our [git repository](http://android.git.lina
 
 To get a complete Linaro Android 4.0.4 build, run
 
+```bash
 
     repo init -u git://android.git.linaro.org/platform/manifest.git -b linaro_android_4.0.4 -m BUILDTYPE.xml
     repo sync
 
+```
 
 Where BUILDTYPE is the build type you want to use (which build type you want to use depends primarily on your target hardware) - one of landing-panda, landing-snowball, staging-iMX53, staging-iMX6, staging-origen, staging-panda, staging-vexpress-a9, staging-vexpress-rtsm, tracking-origen, tracking-panda or tracking-snowball.
 

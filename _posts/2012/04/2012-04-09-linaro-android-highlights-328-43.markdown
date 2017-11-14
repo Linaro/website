@@ -1,6 +1,5 @@
 ---
 author: zach.pfeffer
-
 date: 2012-04-09 03:23:57+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-highlights-328-43/
@@ -10,20 +9,13 @@ wordpress_id: 1502
 categories:
 - blog
 ---
-
 * Linaro Android now at 4.0.4
-
 
 * Released Android 5.0  ;)
 
-
 * Completed big.LITTLE system tests
 
-
 * Fixed WiFi bug on Origen
-
-
-
 
 
 See all the highlights at:

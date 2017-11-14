@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-12-21 22:39:19+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich/
@@ -25,9 +24,6 @@ When asked about why this announcement was so exciting for Linaro, its members a
 In addition to the Snowball from ST-Ericsson, Origen from Samsung and the PandaBoard from TI, Linaro’s Android team and its Freescale landing team have set the groundwork for bringing acceleration to the i.MX53 Quick Start board by stabilizing and improving ICS on the Quick Start board.
 
 Linaro developers also posted video demonstrations of these boards that include:
-
-
-
 
   * [Snowball dev board running Linaro's build of Android ICS with hardware acceleration](http://youtu.be/XPFy2MFbUys)
 
