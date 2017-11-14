@@ -1,12 +1,10 @@
 ---
 author: linaro
-
 date: 2011-08-10 14:46:10+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-git-tips/
 slug: linaro-connect-git-tips
 title: 'Linaro Connect: kernel hackers share git tips'
-wordpress_id: 374
 categories:
 - blog
 tags:

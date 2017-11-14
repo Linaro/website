@@ -1,12 +1,10 @@
 ---
 author: linaro
-
 date: 2011-08-10 08:25:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/connect-summary/
 slug: connect-summary
 title: 'Linaro Connect videos: achievements, Q&A with management and announcements'
-wordpress_id: 3400
 categories:
 - blog
 tags:
@@ -15,13 +13,9 @@ tags:
 - Linaro
 - videos
 ---
-
 Cambridge, UK, Aug. 5 2011
 
 At the end of Linaro Connect Q3.11, the various working groups share what they achieved during this very intense week. Here are a just a few selected bits:
-
-
-
 
   * Validation platform (LAVA): i.MX53 support, implementation plans for power measurement
 
@@ -53,11 +47,12 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
   * Progress on the boot infrastructure requirements for Linux on ARM servers
 
 
-
 See the below video for details!
 
 After this, a Questions and Answers session opened between Linaro engineers and Linaro's management, mainly about Linaro's strategy for the next months and years.
 
-
+{% include media.html media_url="http://www.youtube.com/embed/keIQ-_OG2KQ" %}
 
 Stephen Doel, Linaro's Chief Operating Officer, closes the event by giving interesting statistics, and by thanking those who contributed to it. Stephen also made announcements for the next Linaro Connect events. Watch to video to have details!
+
+{% include media.html media_url="http://www.youtube.com/embed/wvdfWyvSRcI" %}

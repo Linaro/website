@@ -1,6 +1,5 @@
 ---
 author: david.zinman
-
 date: 2011-10-28 21:03:38+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-10-released/
@@ -11,15 +10,11 @@ categories:
 - blog
 tags:
 - Releases
-
 ---
 
 The Linaro Team is pleased to announce the release of Linaro 11.10, Linaro’s fifth release delivered on a monthly cadence. This release includes components delivered by all Linaro Teams: Working Groups, Landing Teams and Platform Teams. Again, the effort brings a  lot of updates and new features, integrated on top of Android and Ubuntu.
 
 Among the improvements brought by this release and delivered by Linaro engineers, some prominent items worth mentioning are:
-
-
-
 
   * This month Linaro Ubuntu LEB images are based on Ubuntu 11.10 (Oneiric) featuring the latest and greatest Unity 3D experience ported to OpenGL ES by the Linaro Graphics Working Group. Note that this is one month ahead of plan and a remarkable achievement of the Developer Platform Team with support from the whole Linaro engineering organization.
 
@@ -90,9 +85,6 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-
-
-
   * Homepage: [http://www.linaro.org](http://www.linaro.org)
 
 
@@ -102,23 +94,16 @@ More information on Linaro can be found on our websites:
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
 
-  * Announcements:[
-http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+  * Announcements:
+[http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
 
-
-
-  * Development:[
-http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
-
+  * Development:
+[http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
   * IRC:
 #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android irc.linaro.org or irc.freenode.net
-
-
 
 
 ## Known issues with this release

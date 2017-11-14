@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2011-05-23 11:27:53+00:00
 layout: post
 link: https://www.linaro.org/blog/highlights-from-linaro-technical-showcase/
@@ -15,18 +14,17 @@ During the [Linaro Developer Summit (9-13 May 2011)](https://wiki.linaro.org/Eve
 
 Set in the magnificent Grand Ballroom of the Corinthia Hotel in Budapest, the evening attracted over 500 delegates from companies involved with Linaro and from the [Ubuntu Developer Summit](http://uds.ubuntu.com/).
 
+{% include image.html name="Ballroom-med.jpg" alt="Grand Ballroom of the Corinthia Hotel in Budapest" %}
 
-![](/assets/blog/Ballroom-med.jpg)We added a competitive element to the evening, and I’ve listed the results below. But the main point was really to let people know what we’ve been up to, and to see some of the cool ways our output is starting to get used in commercial products.
-
+We added a competitive element to the evening, and I’ve listed the results below. But the main point was really to let people know what we’ve been up to, and to see some of the cool ways our output is starting to get used in commercial products.
 
 I got to see a fair number of the demos, but my highlights were:
-
-
 
 	
   * Catching one of the first ever public displays of ARM’s [new Cortex-A15 processor](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-VE_demo.pdf), which they are bringing into life using the Linaro kernel and filesystem
 
-[caption id="attachment_216" align="alignright" width="300" caption="Linaro Summit Scheduler running on a TI Panda"][![](/assets/blog/Summit-Scheduler.jpg)](/assets/blog/Summit-Scheduler.jpg)[/caption]
+
+{% include image.html name="Summit-Scheduler.jpg" alt="Linaro Summit Scheduler running on a TI Panda" %}
 
 	
   * A last minute entry – the Summit schedule and the Showcase prize entry form running on a TI Panda board running the Linaro based Ubuntu 11.04 Maverick release. Big potential cost savings there, in both hardware and shipping, compared with using an old x86 based machine

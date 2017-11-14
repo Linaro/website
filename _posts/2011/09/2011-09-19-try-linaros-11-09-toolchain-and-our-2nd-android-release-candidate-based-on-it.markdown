@@ -1,6 +1,5 @@
 ---
 author: zach.pfeffer
-
 date: 2011-09-19 05:24:34+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it/
@@ -22,8 +21,6 @@ The 11.09 Release Candidate 2 is out!
 This is the second 11.09 Android release candidate. Each build has been built with the official Linaro 4.6 toolchain release: [https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2011.09/](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2011.09/)
 
 We track the tip toolchain which allowed us to release an update nearly co-incident with the toolchain group's official 11.09 release.
-
-
 
 ### Builds:
 

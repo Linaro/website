@@ -1,6 +1,5 @@
 ---
 author: paul.sokolovsky
-
 date: 2011-08-18 13:45:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-gerrit/
@@ -25,10 +24,10 @@ Gerrit review frontend is available here: [http://review.android.git.linaro.org/
 [![](/assets/blog/Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox.jpg)](http://review.android.git.linaro.org)
 
 
+{% include image.html name="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox.jpg" url="http://review.android.git.linaro.org" %}
+
+
 We are still in the process of deploying and configuring our Gerrit-based setup and workflow, but it is already lively with more than 40 changes having passed thru it. Using Gerrit brings number of benefits to Linaro's Android development process:
-
-
-
 	
   * Using same tools and process as the uptream, Android Open Source Project (AOSP). This brings us closer to the upstream, streamlining communication and contribution, which is one of the main aims of Linaro.
 

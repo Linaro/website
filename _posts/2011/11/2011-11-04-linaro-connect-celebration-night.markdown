@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2011-11-04 14:57:24+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-celebration-night/
@@ -13,16 +12,11 @@ tags:
 - Connect Events
 ---
 
-
-
 We’ve been having another great week at Linaro Connect Q4.11 here in Orlando, with some major work progressed and important decisions reached. But I just want to spend a few paragraphs talking about our Linaro Celebration Evening.
 
 On Wednesday, we took everyone from the Linaro Connect Q4.11 event to BiCE restaurant, next to Universal Studios (great restaurant and location by the way) for a meal and then a short awards session to recognise some of the outstanding work delivered by Linaro guys since we started.
 
-[caption id="" align="alignleft" width="650" caption="Group photo of attendees for Linaro Connect Q4.11"]![Group photo of Linaro Connect Q4.11](/assets/blog/Linaro-Connect-Q4.11-group-photo-e1320418046635.jpg)[/caption]
-
-
-
+{% include image.html name="Linaro-Connect-Q4.11-group-photo-e1320418046635.jpg" alt="Group photo of attendees for Linaro Connect Q4.11" %}
 
 Its worth reflecting on the difference a year makes. This time last year, we had engineers from Samsung, TI, ST-Ericsson, Freescale and others talking and working with each other for the first time.  It was amazing that we had achieved that in itself, but it was unusual if they would also socialise together. Fast forward a year and at the BiCE restaurant, the atmosphere was buzzing. Relationships have moved beyond merely work into friendships, and there is a deep sense of trust and community. That’s a credit not just to the guys themselves, but also their companies and the way they have invested into Linaro.
 

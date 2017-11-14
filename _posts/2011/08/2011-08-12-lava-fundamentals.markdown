@@ -1,6 +1,5 @@
 ---
 author: alan.bennett
-
 date: 2011-08-12 21:24:00+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/lava-fundamentals/
@@ -13,15 +12,9 @@ tags:
 - lava
 - LAVA
 ---
-
 This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the [introduction](http://www.linaro.org/linaro-blog/2011/08/10/lava-introduction/) first.
 
-<!-- more -->
-
 LAVA is a broad project and to make it more manageable for day-to-day engineering we have separated it into a collection of smaller projects, focused on a narrow topic. Today LAVA has the following key sub-projects:
-
-
-
 
   * [LAVA Test](https://launchpad.net/lava-test) is a framework and a command line tool for wrapping existing test programs and translating results into a common format.
 
@@ -45,7 +38,7 @@ During that early period one of the most fundamental interface was formed (that 
 
 Each bundle would contain one or more "test run" that describes the outcome of running a test somewhere. In addition to storing typical "pass/fail/skip/etc" status we wanted to be able to representing benchmarks and performance measurements. As soon as you think of benchmarks you will find the need to store the hardware and software context that describe the environment in which the test was performed. To formalize the format and validate bundles for correctness we have used [JSON Schema](http://tools.ietf.org/html/draft-zyp-json-schema-02). You can [read the actual schema](http://bazaar.launchpad.net/~linaro-validation/linaro-python-dashboard-bundle/trunk/view/head:/linaro_dashboard_bundle/schemas/dashboard_bundle_format_1.2.json) if you are interested in that level of detail. The schema is maintained alongside helper APIs in a library called [linaro-python-dashboard-bundle](https://launchpad.net/linaro-python-dashboard-bundle) (I really wish we could simple drop the "python" part now). Apart from what I already mentioned bundles can have arbitrary text or binary attachments, key-value attributes, references to code branches and a few other interesting features. So far we managed to map all of the tests and results we encountered in a meaningful way but if you think that, based on your experience, something is missing do let us know - the earlier we know the better.
 
-If you are interested in looking at some real-life bundles you can see them using the integrated bundle viewer built into the dashboard. Note, that while bundle format is well-defined, various programs generate _different _bundles: LAVA dispatcher uses one bundle to store results of all the tests that were ran in one go on a single system ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/lava-daily/bundles/bea57bc187496dda60a21432934b800712e5b920/), remember to click on bundle viewer tab), a small script that processes measurements from various benchmarks built with specific version of the toolchain stores source code references and uses external attachments not to duplicate large amounts of data ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/gcc/bundles/04e0bd44704435721a384fb615ef6aea42570520/)) while Abrek introspects software and hardware context for a particular test ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/zyga/bundles/826e8c18b519e40db6aa51c22c65a0f2f62146da/)).
+If you are interested in looking at some real-life bundles you can see them using the integrated bundle viewer built into the dashboard. Note, that while bundle format is well-defined, various programs generate _different bundles_: LAVA dispatcher uses one bundle to store results of all the tests that were ran in one go on a single system ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/lava-daily/bundles/bea57bc187496dda60a21432934b800712e5b920/), remember to click on bundle viewer tab), a small script that processes measurements from various benchmarks built with specific version of the toolchain stores source code references and uses external attachments not to duplicate large amounts of data ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/gcc/bundles/04e0bd44704435721a384fb615ef6aea42570520/)) while Abrek introspects software and hardware context for a particular test ([example](http://validation.linaro.org/lava-server/dashboard/streams/anonymous/zyga/bundles/826e8c18b519e40db6aa51c22c65a0f2f62146da/)).
 
 This Abrek/Launch Control duo was the smallest building block that allowed us to do testing and retrieve the results later. But that's not the full story today.
 

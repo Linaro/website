@@ -1,6 +1,5 @@
 ---
 author: george.grey
-
 date: 2011-11-01 14:45:07+00:00
 layout: post
 link: https://www.linaro.org/blog/october-ceo-report/
@@ -17,7 +16,7 @@ This has a number of implications. In order to maintain battery life in smartpho
 
 Linaro’s Power Management Working Group is focused on exactly these issues. This is a good example of the benefit of Linaro – not only do our members share the development cost of creating the thermal framework for power management in ARM SoC Linux implementations through working in Linaro, but also a single upstreamed framework emerges, eliminating fragmentation, simplifying distribution’s work, and minimizing future porting and maintenance costs.
 
-Recently, Linaro was part of [the San Francisco launch panel ](http://www.arm.com/about/newsroom/arm-unveils-its-most-energy-efficient-application-processor-ever-with-biglittle-processing.php)as ARM announced the new Cortex-A7 core, which is not only the basis of a powerful single or multi-core SoC in its own right, but can also be paired with Cortex-A15 cores in a scheme ARM have dubbed big.LITTLE. When system load is beneath a certain threshold the A7 cores can be used for power efficiency, but when performance is required the load can be switched to A15 cores on the same SoC. This can happen transparently to the OS in as little as 20uS.
+Recently, Linaro was part of [the San Francisco launch panel](http://www.arm.com/about/newsroom/arm-unveils-its-most-energy-efficient-application-processor-ever-with-biglittle-processing.php) as ARM announced the new Cortex-A7 core, which is not only the basis of a powerful single or multi-core SoC in its own right, but can also be paired with Cortex-A15 cores in a scheme ARM have dubbed big.LITTLE. When system load is beneath a certain threshold the A7 cores can be used for power efficiency, but when performance is required the load can be switched to A15 cores on the same SoC. This can happen transparently to the OS in as little as 20uS.
 
 It is likely that switcher software provided by ARM to handle the A7/A15 switch transparent to the OS will be used by many applications; in others we believe that SoC users will want to implement big.LITTLE functionality in the OS itself. Linaro plans to work with ARM and our SoC partner members on both scenarios to ensure that our members have a choice of open source solutions on which to base their products.
 

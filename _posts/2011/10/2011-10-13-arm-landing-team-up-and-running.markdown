@@ -1,6 +1,5 @@
 ---
-author: ryan.harkin
-
+author: linaro
 date: 2011-10-13 14:37:16+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-landing-team-up-and-running/

@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-05-28 22:11:09+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-05-released/
@@ -25,9 +24,6 @@ This is the first release delivering Android, Ubuntu and the Working Group compo
 We encourage everybody to use the 11.05 release. The download links for all images and components are available on our release page: [http://wiki.linaro.org/Cycles/1105/Final](http://http://wiki.linaro.org/Cycles/1105/Final)
 
 Highlights of this release:
-
-
-
 
   * Linaro GCC 4.5, GCC 4.6 and GDB 7.2 2011.05, recently released components created by the Toolchain Working Group.
 
@@ -65,9 +61,6 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-
-
-
   * Homepage: [http://www.linaro.org](http://www.linaro.org)
 
 
@@ -84,8 +77,8 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
   * IRC: #linaro on irc.linaro.org or irc.freenode.net
+  
 #linaro-android irc.linaro.org or irc.freenode.net
-
 
 **Known issues with this release**
 

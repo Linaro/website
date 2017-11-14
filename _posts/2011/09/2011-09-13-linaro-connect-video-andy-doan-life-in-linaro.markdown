@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-09-13 15:02:44+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-video-andy-doan-life-in-linaro/
@@ -15,14 +14,11 @@ tags:
 - technical resources
 - video
 ---
-
 Linaro Connect, Cambridge, UK - August 2011
 
 Andy Doan, from the Linaro Engineering resources team, shares useful technical resources and tips about working with Linaro. While the primary audience is new Linaro engineers, this video should also interest anyone interested in getting involved in the Linaro developer and user community.
 
 Here is a summary of covered topics:
-
-
 
   * Understand Linaro, its development process, its resources
 
@@ -43,9 +39,6 @@ Here is a summary of covered topics:
 
 
   * Linaro bootloaders, kernel (and how to rebuild), hardware packs
-
-
-
 
 
 Make sure you watch this video if you wish to participate to the next [Linaro Connect](http://connect.linaro.org/) event. You will find more engineering resources on the [Linaro Engineering Resources](https://wiki.linaro.org/Resources) wiki page.

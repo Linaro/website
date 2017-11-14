@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-04-25 04:23:53+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/elc-slides/
@@ -15,16 +14,11 @@ tags:
 - embedded
 - Linux
 ---
-
 As one of the most active engineering organizations in the embedded Linux community, Linaro was very well represented in the 2011 edition of the [Embedded Linux Conference](http://www.embeddedlinuxconference.com/) in San Francisco.
 
-![Embedded Linux Conference 2011](http://events.linuxfoundation.org/images/stories/headers/2011/header_elc.png)
+{% include image.html name="header_elc_2011.png" alt="Embedded Linux Conference 2011" lightbox_disabled="True" %}
 
 As usual, presentation slides for this conference are being collected on [elinux.org](http://elinux.org/ELC_2011_Presentations). Here are direct links to presentations from Linaro engineers:
-
-
-
-
 
   * Ard Bergmann (Kernel Working Group)
 [Keynote: Becoming part of the Linux kernel community](http://elinux.org/images/6/63/Elc2011_bergmann_keynote.pdf)
@@ -45,7 +39,6 @@ As usual, presentation slides for this conference are being collected on [elinux
 
   * Jesse Barker (Graphics Working Group):
 [Linux Graphics Meets the ARM Ecosystem](http://elinux.org/images/f/ff/Elc2011_barker.pdf)
-
 
 
 Videos will be available soon too. Stay tuned!

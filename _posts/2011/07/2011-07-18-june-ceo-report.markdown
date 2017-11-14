@@ -1,6 +1,5 @@
 ---
 author: george.grey
-
 date: 2011-07-18 23:56:08+00:00
 layout: post
 link: https://www.linaro.org/blog/june-ceo-report/
@@ -10,7 +9,6 @@ wordpress_id: 3394
 categories:
 - blog
 ---
-
 Linaro exists because our members understood that working together on common non-differentiating problems was far more cost effective than each working to solve those problems again and again.
 
 This month I describe how the"engine" of Linaro, our Working Groups and Landing Teams, deliver results, and how those results end up in customer products. Next month I want to cover some additional ways that Linaro is generating value specifically for members, including through the Linaro Evaluation Builds (LEBs) for key distributions, and the LAVA test & validation suite.
@@ -19,8 +17,6 @@ Linaro's Working Groups team consists of 50 full time engineers (this does not i
 
 The patches and improvements can take several months to be accepted upstream. Once they have been accepted, Linux distributions such as Android, Fedora, Montavista, WebOS, Ubuntu and others will automatically obtain Linaro's work when they build new releases of their distributions from the latest kernel.org builds.  Thus the work items from the TSC, and support and consolidation for the latest member ARM SoCs are delivered into the mainstream Linux distributions. This support accelerates customer time to market, due to less porting work and validation being required in the product development phase.
 
-
-[![](/assets/blog/How-Android-releases-work2.jpg)](/assets/blog/How-Android-releases-work2.jpg)[](/assets/blog/How-Android-releases-work1.jpg)
-
+{% include image.html name="How-Android-releases-work2.jpg" alt="How Android releases work 2"%}
 
 As an example the picture shows how Android 2.3 Gingerbread and subsequent Android releases including Honeycomb and the forthcoming Ice Cream Sandwich release all include work from Linaro. With each distribution release more of Linaro's work is incorporated.

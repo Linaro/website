@@ -1,6 +1,5 @@
 ---
 author: zach.pfeffer
-
 date: 2011-10-19 01:15:25+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/second-android-11-10-pre-release/
@@ -18,22 +17,17 @@ tags:
 
 The second Android pre-release is done and has been tested.
 
-
-
 ## Overview
-
-
 
 Each build is based on Android 2.3.5 and has been compiled with Linaro's 11.10 GCC 4.6 release, with `-O3` and `strict-aliasing` turned on.
 
 Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are generally based on the last stable Android kernel/common.git + linux-linaro. Both build types contain enablement patches that have not been upstreamed yet. Beagle xM is built using an upstream only tree, and represents the state of upstream enablement.  
 
-
-
 ## Builds
 
+{% include image.html name="linaro-android-build-service1.png" alt="Linaro Android Build Service" %}
 
-[![Linaro Android Build Service](/assets/blog/linaro-android-build-service1.png)](/assets/blog/linaro-android-build-service1.png)
+
 [Tracking Panda](https://android-build.linaro.org/builds/~linaro-android/tracking-panda-11.10-release/#build=4) Linux version 3.1.0-rc9+
 [Staging Panda](https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.10-release/#build=3) Linux version 3.1.0-rc9+ (coincidence)
 [Beagle xM](https://android-build.linaro.org/builds/~linaro-android/beagle-11.10-release/#build=3) Linux version 3.1.0-rc9-09767-g52e3db9
@@ -43,5 +37,7 @@ Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are 
 [Staging iMX53](https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.10-release/#build=3) Linux version 2.6.38.7+
 
 See each build page for usage info.
-[![Linaro Android 11.10-rc2 smoke tests](/assets/blog/11.10-rc2-smoke-tests.png)](/assets/blog/11.10-rc2-smoke-tests.png)
+
+{% include image.html name="11.10-rc2-smoke-tests.png" alt="Linaro Android 11.10-rc2 smoke tests" %}
+
 All the smoke tests are listed on [tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE&hl=en_US#gid=0). See the "11.10 Pre Release 2" section.
