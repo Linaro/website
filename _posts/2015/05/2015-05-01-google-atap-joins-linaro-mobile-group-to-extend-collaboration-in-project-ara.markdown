@@ -1,6 +1,5 @@
 ---
 author: shovan
-
 date: 2015-05-01 12:00:04+00:00
 excerpt: Linaro Ltd, the collaborative engineering organization developing open source
   software for the ARM® architecture, today added the Advanced Technologies and Projects
@@ -22,14 +21,11 @@ tags:
 
 ## Google ATAP joins Linaro Mobile Group to extend collaboration in Project Ara
 
-
 CAMBRIDGE,UK; 1 MAY 2015
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the ARM® architecture, today added the Advanced Technologies and Projects (ATAP) Group of Google Inc. as a member of the Linaro Mobile Group ([LMG](https://www.linaro.org/members/#lmg)).
 
 LMG was formed in July 2014 to consolidate and optimize open source software for mobile platforms on ARM. Linaro began working with the Google ATAP group on Project Ara in June 2014. The work has been focused on extending Android for Project Ara, including support for MIPI UniPro and plug-and-play recognition of all types of modules, from batteries and displays to cameras and medical sensors.
-
-
 
 **About Linaro**
 

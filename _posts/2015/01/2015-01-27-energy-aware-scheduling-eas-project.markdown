@@ -19,14 +19,15 @@ tags:
 - Scheduling
 ---
 
-# **![1](/assets/blog/1.jpg)Energy-Aware** Scheduling** (EAS) Project**
+# **Energy-Aware** Scheduling **(EAS) Project**
 
+{% include image.html name="1.jpg" alt="1" %}
 
 The energy-aware scheduling (EAS) project is trying to solve a long-standing design limitation of two key power-management subsystems (CPUFreq and CPUIdle) - they don’t coordinate their decisions with task scheduling decisions.
 
 As shown in the figure below, the scheduler, cpufreq and cpuidle subsystems work in isolation, at different time scales and often at cross-purposes with each other. The scheduler tries to balance the load across all CPUs (without any regards to the power costs) while the CPUFreq and CPUIdle subsystems are trying to save power by scaling down the frequency of the CPUs or idling them, respectively.
 
-![2](/assets/blog/2.jpg)
+{% include image.html name="2.jpg" alt="2" %}
 
 The Power Management (PM) subsystems have heuristics (in their governors) to try to predict the best time to save power on the CPU without affecting performance. These heuristics use their own means to try to gauge the current utilisation of the cpu and have to be run several times a second to react to any changes in the system - it is _reactive_ by design. Moreover, the scheduler is constantly breaking their predictions by task scheduling because it has no knowledge of the power topology of the SoC.
 
@@ -35,8 +36,6 @@ A key observation here is that the scheduler is the best place to know about pas
 “Sounds pretty straightforward and simple change - consolidate the heuristics into the scheduler for tighter integration with power management. Then why is it taking ages to get the changes merged?!” - you ask.
 
 There are several obstacles that make this a complex undertaking. It is like peeling onions - removing one layer reveals more underneath. The key issues being addressed currently are:
-
-
 
 
   1. The scheduler does not have any notion of power topology of the SoC. Simply moving the heuristics wouldn’t allow it to become smarter about task placement. We’ve fixed this problem[ upstream](https://lkml.org/lkml/2014/5/8/189) with the addition of the SD_SHARE_POWERDOMAIN scheduler flag and fixing several problems related to configuration of sched_domain topology along the way.
@@ -63,28 +62,22 @@ There are several obstacles that make this a complex undertaking. It is like pee
   5. Refactoring long-standing code generally takes longer than merging a new feature because we _cannot_ regress existing users of the scheduler, CPUFreq and CPUIdle subsystems. So we’ve had to ensure two things: we don’t regress power management on all existing machines and that the new code doesn’t regress scheduling performance. To top that, there is no single person that understands completely how the scheduler and HW power management work - it is a collaborative effort among several domain experts working for different companies who have other tasks too as part of their jobs. So all the changes need to be broken down into small improvements that are easy to review for everyone concerned and to debug, once merged.
 
 
-**** ****
+* * *
+
 
 I classify all of this work as EAS infrastructure work. Once done, the picture might look a bit like the one below (greatly simplified).
 
-![3](/assets/blog/3.jpg)
+{% include image.html name="3.jpg" alt="3" %}
 
 All these changes will allow sophisticated load balancing heuristics to be developed that allow all of the following:
 
-
-
-
   1. Tune the scheduler to optimise for energy savings and performance
-
 
   2. Schedule correctly on big.LITTLE systems
 
-
   3. Improve PM behavior on SMP systems
-
-
+  
   4. Provide mechanisms for thermal management
-
 
 ARM’s energy model[ patchset](https://lkml.org/lkml/2014/7/3/884) is one example of such a possibility that is currently being reviewed. Other Linaro Members have ideas for other such heuristics that would take advantage of this tight integration between the scheduler and power management subsystems. The Power Management team is collaborating and coordinating with Linaro Members to ensure that the best possible set of solutions is available upstream.
 
@@ -92,4 +85,4 @@ In order to make this useful to Members shipping products in 2016, we’ll also 
 
 If you are interested in more details, perhaps you’ll like the[ LWN article](http://lwn.net/Articles/602479/) that covers some historical background and more technical details and a recent[ report](https://www.linaro.org/blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/) on the Linaro Core Dump blog summarizing the results of the EAS Workshop at the 2014 Linux Kernel Summit.
 
-** Note:_ this article was originally published in Linaro Monthly Engineer Status Update 2014.10 and updated with the latest news to be published in this blog. _**
+**Note: _this article was originally published in Linaro Monthly Engineer Status Update 2014.10 and updated with the latest news to be published in this blog._**

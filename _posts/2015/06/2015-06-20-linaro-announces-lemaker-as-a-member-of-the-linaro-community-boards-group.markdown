@@ -1,6 +1,5 @@
 ---
 author: shovan
-
 date: 2015-06-20 00:04:38+00:00
 excerpt: LeMaker to pair its hardware expertise with Linaro’s open source software
   experience to enable software developers with new 96Boards hardware platforms
@@ -20,7 +19,6 @@ tags:
 
 ## LeMaker to pair its hardware expertise with Linaro’s open source software experience to enable software developers with new 96Boards hardware platforms
 
-
 Shen Zhen, China; 20 June 2015
 
 Linaro Ltd, the not­-for-­profit engineering organization developing open source software for the ARM® architecture, today at the Shen Zhen Maker Faire announced that Chinese Maker development platform vendor LeMaker has joined Linaro as a member of the new Linaro Community Boards Group (LCG).
@@ -33,15 +31,11 @@ LeMaker has joined the LCG to combine its professional experience of working wit
 
 “As a member of the Linaro Community Boards Group (LCG), LeMaker is pleased to participate in the marketing of the 96Boards in Chinese Universities and the Maker market,” said Mr. Tony Zhang, Co­Founder of LeMaker. “Linaro is a key place for collaborative software and hardware engineering on the ARM architecture and we are proud of our long­standing work with the ARM ecosystem, enabling the ‘LeMaker makes innovations more easier,’ for consumers around the world. LeMaker has developed the open­source platform for Banana Pro and today released three new products alongside this announcement. We believe in providing cost-­effective, best-­in-­class platforms for new developers to be able to create a wider array of applications with our SBC platform.”
 
-
-
 **About Linaro**
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not­for­profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non­differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96Boards.org).
-
-
 
 **About LeMaker**
 
