@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-05-30 12:12:47+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-partners-samsung-ecosystem-deliver-exciting-new-low-cost-board-origen-open-source-developers/
@@ -14,10 +13,7 @@ categories:
 
 TAIPEI, TAIWAN - 30 MAY 2011
 
-
-
 ## Linaro provides optimized base of software and tools for highest performance low cost ARM board 'Origen' using Samsung's dual-core ARM® Cortex-A9 based Exynos 4210 chipset
-
 
 Linaro welcomes the news that developers will be able to buy low cost, high performance 'Origen' development boards using Samsung's Exynos 4210 chipset, and run free open source software and tools that have been optimized by Linaro.
 

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-07-07 21:46:30+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/welcome-to-linaro-connect-europe-2013/
@@ -19,8 +18,6 @@ tags:
 ---
 
 Welcome to [Linaro Connect Europe 2013 (LCE13)](http://www.linaro.org/connect) being held in Dublin, Ireland.  LCE13 kicks off tomorrow morning, 8 July 2013 with Linaro CEO, George Grey bringing onto focus the vision that will drive the future of Linux on ARM.
-
-
 
 This week we have exciting keynote speakers which include [James Bottomley](http://www.linaro.org/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/), [Wannes De Smet](http://www.linaro.org/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/), [Leslie Hawthorn](http://www.linaro.org/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/), [Cole Crawford](https://lce-13.zerista.com/event/member/81944), and [Bob Monkman](http://www.linaro.org/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking/).
 

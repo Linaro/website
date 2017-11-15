@@ -1,6 +1,5 @@
 ---
 author: alan.bennett
-
 date: 2011-11-30 21:31:26+00:00
 layout: post
 link: https://www.linaro.org/blog/hardware-update/lava-at-home/
@@ -14,9 +13,9 @@ tags:
 - LAVA
 ---
 
-[![](/assets/blog/IMG_3464.jpg)](/assets/blog/IMG_3464.jpg)
+{% include image.html name="IMG_3464.jpg" alt="IMG_3464" %}
 
-[](http://www.linaro.org/p-content/uploads/2011/11/IMG_3464.jpg)I'm currently working on the flexible [LAVA deployment blueprint](https://blueprints.launchpad.net/lava-lab/+spec/flexible-lava-deployment-11.12). This blueprint is about untying our hands (both as developers and administrators) from having to provide Debian packages for our releases. This is especially important our major new dependency, [celery](http://celeryproject.org/), is not available in Debian. The idea is to deploy both production and development releases from [pypi](http://pypi.python.org/) using a mixture of release tarballs and source branches. This way we can do very frequent releases, test new features in isolation (one of the features of the [deployment tool](http://bazaar.launchpad.net/~linaro-validation/lava-deployment-tool/trunk/view/head:/README) is an ability to install multiple instances of LAVA on one machine, ideally we'd get an instance for each merge request if we wish so).
+I'm currently working on the flexible [LAVA deployment blueprint](https://blueprints.launchpad.net/lava-lab/+spec/flexible-lava-deployment-11.12). This blueprint is about untying our hands (both as developers and administrators) from having to provide Debian packages for our releases. This is especially important our major new dependency, [celery](http://celeryproject.org/), is not available in Debian. The idea is to deploy both production and development releases from [pypi](http://pypi.python.org/) using a mixture of release tarballs and source branches. This way we can do very frequent releases, test new features in isolation (one of the features of the [deployment tool](http://bazaar.launchpad.net/~linaro-validation/lava-deployment-tool/trunk/view/head:/README) is an ability to install multiple instances of LAVA on one machine, ideally we'd get an instance for each merge request if we wish so).
 
 The scrip has been improving and is now semi-production (see [TODO ](http://bazaar.launchpad.net/~linaro-validation/lava-deployment-tool/trunk/view/head:/TODO)for known issues) ready. It would be a shame to break production though so I wanted to do some testing before we actually use this. Since instances and global configuration are at odds I needed to make every component instance aware. This was not that hard, most of the things are using _lava-server manage_ (or have been converted to do so) and thus get automatic configuration management for free. Other things, like the dispatcher did not and had to be improved (thanks for the quick patch mwhudson).
 
@@ -25,9 +24,6 @@ With all the pieces aligning I had only one thing left to do. Deploy an instance
 One of the things you will notice is that you need to prepare a_ master image_ according to the [instructions](https://wiki.linaro.org/Platform/Validation/LAVA/Documentation#Creating_a_master_image). This step is not automated and is quite error prone. Everyone ends up with a different master image. While going through the pain of doing this I learned a few interesting things. I learned how to rebuild an arm initrd on intel (copy qemu-arm-static to your rootfs, mount proc+sys and chroot inside, finally invoke mkimage with all the arguments you can read from linaro-media-create (grep for mkimage), yuck!) I learned how to boot from nfs while using initrd (you need nfs-common in your ramdisk, add "ip=dhcp boot=nfs root=/dev/nfs nfsroot=192.168.1.40:/path/to/rootfs" to kernel command line, add insecure_locks to your nfs export line), I finally learned how to edit u-boot boot script (edit the plain text file and run mkimage with different options).
 
 I have finally come up with a rather nice solution. Let me summarize the benefits:
-
-
-
 
   1. I only need a few megabytes on the SD card for LAVA, the rest can be devoted to testing so a 4GB card is more than enough to test all of our images.
 

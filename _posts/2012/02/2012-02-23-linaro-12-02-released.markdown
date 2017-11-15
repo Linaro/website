@@ -1,6 +1,5 @@
 ---
 author: david.zinman
-
 date: 2012-02-23 19:23:18+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-02-released/
@@ -24,6 +23,7 @@ During the 12.02 cycle, Linaro hosted its [Linaro Connect Q1.12](http://connect.
 During the Linaro Connect event there were daily [plenary, planning, and hacking sessions](http://connect.linaro.org/events/event/lcq1-12/#schedule) which attendees were encouraged to attend and take part in.  This event also marked the first time which [Google+ Hangouts](http://www.google.com/+/learnmore/) were used during a Connect event to encourage remote participation from those developers around the globe.  Also, held during this Connect event was the ever growing [Demo Friday event](http://connect.linaro.org/events/linaro-connect-q1-12-demo-friday/) where Linaro, its [community](http://www.linaro.org/community/), [partners](http://www.linaro.org/linaro-partners-program/) and [members](http://www.linaro.org/members/) came together and demonstrated the agile development process which is highlighted monthly in each of our releases.
 
 Highlights from this Linaro Connect event which influence this and future releases include:
+
 **Plenary Sessions:**
 
 * [ David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0&list=UUAl2MfCBjH5y0nIym0ujHfg&index=9&feature=plcp)
@@ -74,11 +74,7 @@ The release details are linked from the “Details” column for each released a
 
 [http://wiki.linaro.org/Cycles/1202/Release#Release_Information](http://wiki.linaro.org/Cycles/1202/Release#Release_Information)
 
-
-
 ## Using the Android-based images
-
-
 
 The Android-based images come in three parts: system, userdata and boot.
 These need to be combined to form a complete Android install. For an explanation of how to do this please see:
@@ -92,10 +88,7 @@ If you are interested in getting the source and building these images yourself p
 [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
-
 ## Using the Ubuntu-based images
-
-
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
@@ -125,10 +118,7 @@ channels to stay on top of Linaro developments:
 #linaro-android irc.linaro.org or irc.freenode.net
 
 
-
 ## Known issues with this release
-
-
 
 For any errata issues, please see:
 [http://wiki.linaro.org/Cycles/1202/Release#Known_Issues](http://wiki.linaro.org/Cycles/1202/Release#Known_Issues)

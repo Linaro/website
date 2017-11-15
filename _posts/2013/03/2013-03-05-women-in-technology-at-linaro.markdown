@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-05 06:47:52+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/women-in-technology-at-linaro/
@@ -18,4 +17,5 @@ Linaro, the not-for-profit engineering organization which works to consolidate  
 
 At this Connect event, we took a moment to not only take [a group photo](http://www.linaro.org/2013/03/05/linaro-connect-asia-2013-group-photo/) to mark the participation in our event, but we also took a Women in Technology photo to capture how women's participation within the Linaro Community is growing.
 
-[![](/assets/blog/LCA13-Women-a.jpg)](/assets/blog/LCA13-Women-a.jpg)
+{% include image.html name="LCA13-Women-a.jpg" alt="LCA13 Women in Technology at Linaro" %}
+

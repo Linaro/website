@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-12-21 12:14:19+00:00
 layout: post
 link: https://www.linaro.org/news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/

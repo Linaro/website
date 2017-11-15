@@ -1,6 +1,5 @@
 ---
 author: andrea.gallo
-
 date: 2014-01-27 20:29:16+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-enterprise-group-1st-year-update/
@@ -19,7 +18,7 @@ tags:
 
 Linaro Enterprise Group (LEG) was officially announced at Linaro Connect Europe in Copenhagen, November 2012, and founded by fourteen companies and about thirty engineers. The LEG team first focused on identifying the high priority technical areas and building a roadmap. After organizing into sub-teams, LEG has been allocating and completing work based on that roadmap.
 
-LEG engineering work status is now fully documented in the monthly [roadmap](https://wiki.linaro.org/LEG#LEG_Roadmap) updates, in the [card structure](https://cards.linaro.org/secure/StructureBoard.jspa?s=105) and recently in the newly added [dashboard](https://cards.linaro.org/secure/Dashboard.jspa?selectPageId=11405).  The Steering Committee members use the [dashboard](https://cards.linaro.org/secure/Dashboard.jspa?selectPageId=11405)  to monitor the status of the high priority roadmap cards including a card’s break down into use cases, functional views, and dependencies between multiple departments. These high priority cards are updated on a weekly basis.
+LEG engineering work status is now fully documented in the monthly [roadmap](https://wiki.linaro.org/LEG#LEG_Roadmap) updates, in the [card structure](https://cards.linaro.org/secure/StructureBoard.jspa?s=105) and recently in the newly added [dashboard](https://cards.linaro.org/secure/Dashboard.jspa?selectPageId=11405). The Steering Committee members use the [dashboard](https://cards.linaro.org/secure/Dashboard.jspa?selectPageId=11405) to monitor the status of the high priority roadmap cards including a card’s break down into use cases, functional views, and dependencies between multiple departments. These high priority cards are updated on a weekly basis.
 
 The LEG engineering team is now focusing on several technical areas: UEFI, ACPI, OpenJDK, optimizations and workloads.
 

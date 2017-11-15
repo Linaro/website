@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2011-12-08 18:22:02+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-is-busy-as-always/
@@ -15,13 +14,7 @@ tags:
 
 Here's what the Android Platform Team has been up to this week...
 
-
 ### Key Points
-
-
-
-
-
 
   * The Linaro toolchain has been integrated into all Linaro Android 4.0 ICS builds. Still some optimizations to be forward-ported.
 
@@ -31,15 +24,7 @@ Here's what the Android Platform Team has been up to this week...
 
   * 11.12 RC Pre-Release 2 has been validated on all major boards.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * Good progress on integrating libpng into ICS.
 
@@ -74,52 +59,22 @@ Here's what the Android Platform Team has been up to this week...
   * Progress on ICS bringup and feature enablement on ARM VExpress-A9.
 
 
-
-
 ### Bugs fixed>
-
-
-
-
-
 
   * 899145 [Panda builds are not based on device/pandaboard](https://bugs.launchpad.net/linaro-android/+bug/899145).
 
 
   * 897114 [The image url in lava-job is not correct.](https://bugs.launchpad.net/linaro-android/+bug/897114)
 
-
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * Work is ongoing to increase the storage capacity ot "hackbox" the cloud-powered build environment for experimental builds.
 
-
-
-
 ### Issues
-
-
-
-
-
 
   * None
 
 
-
-
 ### Blueprints
-
-
-
-
-
 
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)

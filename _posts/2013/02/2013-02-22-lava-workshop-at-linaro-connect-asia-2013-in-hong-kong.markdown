@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-22 16:31:50+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/
@@ -17,17 +16,13 @@ tags:
 
 Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](http://www.linaro.org/linaro-blog/2013/02/12/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://www.linaro.org/connect/schedule).
 
-
 ## What is LAVA?
-
 
 The [Linaro Automated Validation Architecture (LAVA)](http://www.linaro.org/linaro-blog/2011/08/12/lava-fundamentals/) is an open source test and validation platform available for individuals and companies who wish to establish a test infrastructure for any flavor of Linux running on ARM chips.
 
-
 ## What Will this Workshop Include?
 
-
-[caption id="attachment_2429" align="alignleft" width="359" caption="LAVA Workshop Flyer"][![](/assets/blog/LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg)](/assets/blog/LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg)[/caption]
+{% include image.html name="LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg" alt="LAVA Workshop Flyer" class="small-inline" %}
 
 Members of the Linaro Automated Validation Architecture [(LAVA) team](http://www.linaro.org/linux-on-arm/meet-the-team/lava) will be hosting a workshop that will include 4 hours of training.  This training will include an introduction, a hands on hacking session and a Q&A discussion session.
 
@@ -40,11 +35,6 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](http://www
 
 ## Schedule (All times are listed in [HKT](http://www.timeanddate.com/worldclock/converter.html))
 
-
-
-
-
-
   * 10:00 - 11:00  AM - Tuesday 5 March - [Introduction](https://lca-13.zerista.com/event/member/72489) - Grand Ballroom B
 
 
@@ -54,22 +44,14 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](http://www
   * 12:00 - 1:00 PM - Thursday 7 March - [Q&A Wrap-Up](https://lca-13.zerista.com/event/member/72377) - Grand Ballroom A
 
 
-
-
 ## How to participate
-
-
-
 
 ### _In-Person_
 
 
-__1. Register for LCA13:[ http://connect.linaro.org](http://connect.linaro.org/)
-[](http://connect.linaro.org/)
+1. Register for LCA13:[ http://connect.linaro.org](http://connect.linaro.org/)
+
 2. Register for the “Hands-On LAVA” Session (Wed 4pm)
-
-
-
 
   * max. 20 participants - first come, first served.
 
@@ -92,8 +74,6 @@ __1. Register for LCA13:[ http://connect.linaro.org](http://connect.linaro.org/)
   * at any time, before or during the workshop, send your questions to [lca13-lava@linaro.org](mailto:lca13-lava@linaro.org)
 
 
-
-
 ### _Remote Participation_
 
 
@@ -109,14 +89,10 @@ To find out more about what is happening in and around Linaro  following us on[
 ## About
 
 
-
-
 ### _LAVA Team_
 
 
 _The goal of the LAVA team is to maintain and develop automated testing tools to be used to test Linaro Platform work. We work with several teams in Linaro to help enable them perform continuos integration testing._
-
-
 
 
   * _[Meeting](https://wiki.linaro.org/Platform/LAVA/Meetings): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*_

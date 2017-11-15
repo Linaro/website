@@ -1,6 +1,5 @@
 ---
 author: zach.pfeffer
-
 date: 2011-09-22 16:04:47+00:00
 layout: post
 link: https://www.linaro.org/blog/the-11-09-android-toolchain-has-been-benchmarked/
@@ -20,12 +19,7 @@ Andy Doan has put together the Android benchmarks for the 11.09 toolchain. You c
 Older benchmarks can be found at: [https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking)
 
 
-
 ## Summary
-
-
-
-
 
 	
   * **skia** continues to show monthly improvments.
@@ -47,4 +41,6 @@ The 4.6 graphite optimization "-floop-interchange -floop-strip-mine -floop-block
 
 This chart shows percent improvements against Android 4.4. This was done by comparing the cumulative totals for each benchmark:
 
-![](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-09?action=AttachFile&do=get&target=summary.png)
+
+{% include image.html name="summary.png" alt="Android Toolchain Benchmarking Summary Image"%}
+

@@ -1,6 +1,5 @@
 ---
 author: mark.gregotski
-
 date: 2014-06-09 19:48:48+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-digital-home-group-lhg-launch/

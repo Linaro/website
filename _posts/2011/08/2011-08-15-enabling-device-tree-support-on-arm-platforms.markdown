@@ -1,6 +1,5 @@
 ---
 author: deepak.saxena
-
 date: 2011-08-15 15:59:00+00:00
 layout: post
 link: https://www.linaro.org/blog/enabling-device-tree-support-on-arm-platforms/
@@ -16,9 +15,6 @@ Linaro hosted its first Connect event last week in Cambridge, UK; providing an o
 The team was split into two main groups, the first focusing on continuing the work on enabling Device Tree support on ARM platforms, a technology selected by the ARM Linux community to simplify porting of the kernel to the diverse platforms developed by ARM silicon vendors and ODMs.  ARM-based silicon vendors and ODMs.  Device Tree moves the description of the  devices that make up a platform (memory, I2C connected devices, serial ports, etc) from the kernel to an external file - the Device Tree file. Currently, adding support to a new board for a kernel supported SOC required changing the kernel and rebuilding it even if the change from an already supported board is as simple as a device changing I2C bus addresses or IRQ number. With Device Tree, an engineer simply needs to update the Device Tree Source (DTS) file, compile it with a simple script into a binary blob - the Device Tree, and load it into memory. The kernel reads the device tree at boots and initializes the HW described by the DTB. A new revision of a platform or a brand new platform simply requires a new DTB file. In the case of new hardware not supported by the existing kernel, drivers for such can be modularized and the old kernel can still be used without needing an update. This model also opens up the possibility of updating device support on stable and supported kernels, something that is of importance for moving ARM Linux distributions into the server market.
 
 Basic Device Tree support - passing platform identification and memory size information to the kernel - has been working on a few platforms in Linus' upstream kernel.org tree since 2.6.39 but this is not enough to fully describe a hardware platform. The team at Linaro Connect, led by Grant Likely, set out to enhance DT support and to enable it on some new platforms. By the end of the week, the team had written many patches that will are queued up for the 3.2 kernel tree:
-
-
-
 	
   * Several device drivers for the Freescale iMX were converted to use DT-based discovery.
 
@@ -29,7 +25,7 @@ Basic Device Tree support - passing platform identification and memory size info
   * Initial support for DT was added to the Samsung Exynos, Qualcomm MSM86, and Atmel AT91 ports including a serial console described by the Device Tree.
 
 	
-  * ** **Initial skeleton work for DT was done for the ARM Versatile board.
+  * Initial skeleton work for DT was done for the ARM Versatile board.
 
 
 Device Tree helps us move towards our goals of being able to boot a kernel on any ARM machine and having a cleaner code base; however, it is only part of the solution. The ARM kernel port has been under development for over a decade and in that time has accumulated a lot of cruft that does not make it possible to build a kernel that supports heterogeneous SOCs. Much of it code that has been copy-pasted from one place to another, creating multiple similar implementations of the same functions, using the same symbol names globally, and adding much code bloat. The ARM kernel tree has grown at a very rapid pace, estimated at a quarter million lions of code changes/year.  years and in that time, many decisions have been made that were OK in the context of "traditional embedded" but do not scale to needs of millions of mobile devices or of enterprise commodity servers. Cleaning up this code to remove the cruft and enabling the building of a multi-SOC kernel binary was the other focus of the Kernel Working Group.

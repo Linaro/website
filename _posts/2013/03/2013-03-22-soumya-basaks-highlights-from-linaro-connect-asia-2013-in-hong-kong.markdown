@@ -1,6 +1,5 @@
 ---
 author: soumya.basak
-
 date: 2013-03-22 19:12:23+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong/

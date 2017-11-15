@@ -1,6 +1,5 @@
 ---
 author: jennifer.castelino
-
 date: 2014-08-20 15:21:50+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
@@ -27,30 +26,20 @@ Additionally, Linaro Connect USA 2014 will feature demos of Linaro members’ pr
 
 **Confirmed keynote speakers and topics include:**
 
-
-
-	
   * Paul Eremenko, Director of Project Ara at Google, will discuss  “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem.”
 
-	
   * Dr. Ken Morse, CTO, Connected Devices and SP Video Infrastructure at Cisco, will present “Enabling Internet Speed for Service Providers”
 
-	
   * Linda Knippers, Distinguished Technologist at HP, will give a keynote on “Fueling HP Moonshot”
 
-	
   * Christian Reis, VP Hyperscale at Canonical, will present “Mythology and Potential of the ARM Server”
 
-	
   * George Grey, CEO of Linaro, will give an overview of  "Linaro Past, Present and Future"
 
-	
   * Dr. Christos Kolias, Senior Research Scientist at Orange Silicon Valley  will present  “NFV:  Empowering the Network”
-
 
 For more information about Linaro Connect USA 2014, including how to register and to view the schedule, please visit:  [http://www.linaro.org/connect/lcu/lcu14/](http://www.linaro.org/connect/lcu/lcu14/)
 
-**About Linaro:
-**Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral, its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit:  [http://www.linaro.org](http://www.linaro.org/).
+**About Linaro:** Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral, its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit:  [http://www.linaro.org](http://www.linaro.org/).
 
 

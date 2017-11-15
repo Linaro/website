@@ -1,6 +1,5 @@
 ---
-author: asac
-
+author: linaro
 date: 2011-08-06 02:19:30+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/release-of-linaro-11-07/
@@ -19,10 +18,10 @@ Additionaly, 11.07 saw the Linaro Android move to gcc-linaro 4.6 as the default 
 
 We encourage everybody to use the 11.07 release. The download links for all images and components are available on our release page:
 
-[ ](http://wiki.linaro.org/Cycles/1107/Release)[http://wiki.linaro.org/Cycles/1107/Release](http://wiki.linaro.org/Cycles/1107/Release)
+[http://wiki.linaro.org/Cycles/1107/Release](http://wiki.linaro.org/Cycles/1107/Release)
 
-**Highlights of this release:
-**
+**Highlights of this release:**
+
 * Linaro Evaluation Build (LEB) for Android on PandaBoard is built on Linux 3.0 kernel with gcc-linaro 4.6 as the default compiler which is used for all official Linaro Android Platform builds. This Linaro Android monthly Release exhibits the first official Linaro Android Toolchain release based on the most recent gcc-linaro 4.6, and the first Linaro Android release for ST-Ericsson Snowball using Landing Team kernel based on linux-linaro-android. On top, Linaro Android 11.07 comes with the more advanced more visually appealing Launcher2 by default.
 
 * Android GCC benchmark results for 11.07 release can be found on [http://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07](http://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07)

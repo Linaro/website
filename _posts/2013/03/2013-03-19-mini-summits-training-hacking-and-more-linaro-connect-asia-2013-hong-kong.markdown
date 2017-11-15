@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-19 23:04:06+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong/
@@ -15,52 +14,32 @@ tags:
 - Connect Events
 ---
 
-[![LCA13-Group Photo](/assets/blog/LCA13-Group-001-72dpi.jpg)](/assets/blog/LCA13-Group-001-72dpi.jpg)
+{% include image.html name="LCA13-Group-001-72dpi.jpg" alt="LCA13-Group Photo" %}
+
+
 **Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.  
 
 
 There were a total of **308** people who attended Linaro Connect Asia 2013 representing **46** companies. Co-located with Linaro Connect Asia 2013 was the Open Compute Project (OCP) Asia Summit which had 40 attendees. There were over 3,100 meals served to attendees and 77 sessions and 126 meetings which were held through out the week. Joe Bates, VP of Member Services for Linaro summed up the awesome busyness of this week in his ["Wrap-Up" talk](http://youtu.be/O6s8YsalYus?t=27m) on Friday, 8 March 2013. This was one of the most productive Connect events to date with more moving pieces and parts than ever before.
 
-
-
-
 Engineers returning to their companies after Linaro Connect Asia 2013 should be able to boast about knowledge of the latest software developments around ARM, new ways of optimizing the latest ARM technology and a strong desire to return.
-
-
-
 
 Linaro Connect Asia 2013 was all about engineering. The event sessions as you can see are a mixture of discussion, planning and agreement about how to engineer solutions to the projects being run within Linaro. There were 6 keynotes and the sessions were split into focused kernel, power management, toolchain, graphics and multimedia, platform, validation, and QA tracks with Mini-summits and workshops laced throughout the week to bring focus to cross-team thinking and training in key areas.
 
-
-
-
 There was the opportunity for face to face interaction with leading open source maintainers such as Greg Khoar-Hartman, the upstream stable Linux kernel maintainer and many other engineers which is a key benefit for many attendees.
-
-
-
 
 Remote participation was also available for most sessions via Google Hangouts OnAir, but nothing beats the opportunities for interaction in person. Below are links to the daily schedules, slide decks, etherpad notes, video sessions and interviews from the event.
 
-
-
-
 To join with the team building the future of Linux on ARM, plan on joining us for Linaro Connect Europe 2013 (LCE13) in Dublin from 8 to 12 July.
-
-
-
 
 Keynotes
 
 
-
-
-
-
-<table >
+<table class="table responsive-table">
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Day**
@@ -69,7 +48,7 @@ Keynotes
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **NAME**
@@ -78,7 +57,7 @@ Keynotes
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **SLIDES**
@@ -87,7 +66,7 @@ Keynotes
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **VIDEO**
@@ -98,7 +77,7 @@ Keynotes
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 4 March 2013
@@ -107,7 +86,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Opening Keynote: George Grey - Vision](http://lca-13.zerista.com/event/member/72344)
@@ -116,7 +95,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Opening Keynote: George Grey – Vision](http://www.slideshare.net/linaroorg/lca-keynote)
@@ -125,7 +104,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://youtu.be/AWffRHlCPqw)
@@ -136,7 +115,7 @@ Monday 4 March 2013
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 4 March 2013
@@ -145,7 +124,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote - Jon Corbet, LWN](http://lca-13.zerista.com/event/member/72345)
@@ -154,7 +133,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -163,7 +142,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://youtu.be/81TrG_F8WOE?t=28m58s)
@@ -174,7 +153,7 @@ Monday 4 March 2013
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 4 March 2013
@@ -183,7 +162,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Mark Orvek, Connect Survival Guide](http://lca-13.zerista.com/event/member/72346)
@@ -192,7 +171,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Mark Orvek, Connect Survival Guide](http://www.slideshare.net/linaroorg/lca13-hong-kongconnectsurvivalguide20130304)
@@ -201,7 +180,7 @@ Monday 4 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=QfNbuGSurj0)
@@ -212,7 +191,7 @@ Monday 4 March 2013
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday 5 March 2013
@@ -221,7 +200,7 @@ Tuesday 5 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote - Lars Kurth and Mark Heath, Citrix](http://lca-13.zerista.com/event/member/72404)
@@ -230,7 +209,7 @@ Tuesday 5 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote – Lars Kurth and Mark Heath, Citrix](http://www.slideshare.net/linaroorg/lca13-citrix-xenkeynotev1beta)
@@ -239,7 +218,7 @@ Tuesday 5 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=vyLMZ5iHDHE)
@@ -250,7 +229,7 @@ Tuesday 5 March 2013
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March 2013
@@ -259,7 +238,7 @@ Wednesday 6 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote: Jason Taylor, Facebook](http://lca-13.zerista.com/event/member/72662)
@@ -268,7 +247,7 @@ Wednesday 6 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -277,7 +256,7 @@ Wednesday 6 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=LRfsIMM1KjQ)
@@ -288,7 +267,7 @@ Wednesday 6 March 2013
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Thursday 7 March 2013
@@ -297,7 +276,7 @@ Thursday 7 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote: Greg Kroah-Hartman (Linux Foundation) - "I Don't Want Your Code"](http://lca-13.zerista.com/event/member/72405)
@@ -306,7 +285,7 @@ Thursday 7 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Keynote: Greg Kroah-Hartman (Linux Foundation) – “I Don’t Want Your Code”](http://www.slideshare.net/linaroorg/maintainer)
@@ -315,7 +294,7 @@ Thursday 7 March 2013
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=iiED1K98lnw)
@@ -339,7 +318,7 @@ There were 5 full days of events and sessions
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Link to Daily Schedule
@@ -348,7 +327,7 @@ Link to Daily Schedule
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 # of Daily Sessions
@@ -357,7 +336,7 @@ Link to Daily Schedule
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 Blog Post
@@ -368,7 +347,7 @@ Blog Post
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Monday 4 March 2013](http://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929&start=2013-03-04)
@@ -377,7 +356,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **12 Sessions**
@@ -386,7 +365,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Welcome to Linaro Connect Asia 2013 Blog Post](http://www.linaro.org/linaro-blog/2013/03/04/welcome-to-linaro-connect-asia-2013/)
@@ -397,7 +376,7 @@ Blog Post
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Tuesday 5 March 2013](http://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929&start=2013-03-05)
@@ -406,7 +385,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **13 Sessions**
@@ -415,7 +394,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Open Collaboration…is Key! Linaro Connect Day 2 Blog Post](http://www.linaro.org/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/)
@@ -426,7 +405,7 @@ Blog Post
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Wednesday 6 March 2013](http://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929&start=2013-03-06)
@@ -435,7 +414,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **15 Sessions**
@@ -444,7 +423,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Linaro Connect Asia 2013 – Day 3 – What To Expect Blog Post](http://www.linaro.org/2013/03/06/linaro-connect-asia-2013-day-3-what-to-expect/)
@@ -455,7 +434,7 @@ Blog Post
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Thursday 7 March 2013](http://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929&start=2013-03-07)
@@ -464,7 +443,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **13 Sessions**
@@ -473,7 +452,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Group Photo Blog Post](http://www.linaro.org/2013/03/05/linaro-connect-asia-2013-group-photo/) and [Women in Technology at Linaro Blog Post](http://www.linaro.org/2013/03/05/women-in-technology-at-linaro/)
@@ -484,7 +463,7 @@ Blog Post
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Friday 8 March 2013](http://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929&start=2013-03-08)
@@ -493,7 +472,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **6 Sessions**
@@ -502,7 +481,7 @@ Blog Post
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Linaro Connect Asia 2013 Day 5 – Awards, Demo Friday and more Blog Post](http://www.linaro.org/2013/03/08/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/)
@@ -526,7 +505,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Session Name**
@@ -535,7 +514,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Slides**
@@ -544,7 +523,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Video**
@@ -555,7 +534,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Introduction](http://lca-13.zerista.com/event/member/72489)
@@ -564,7 +543,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Slides](http://www.linaro.org/documents/download/ac564bc8b7fceff9025afb92f1a769395135693629454)
@@ -573,7 +552,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=fyYRbAqMuLU&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3&index=4)
@@ -584,7 +563,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Hands on LAVA](http://lca-13.zerista.com/event/member/72677)
@@ -593,7 +572,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -602,7 +581,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=l3JTxwAYQqA&list=PLHMIcjAkq7EsiBlhFcE8nMpRclPNuMXdI&index=1)
@@ -613,7 +592,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Wrap-up/Q&A](http://lca-13.zerista.com/event/member/72377)
@@ -622,7 +601,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -631,7 +610,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=MAaq9XqAjaE&list=PLHMIcjAkq7EvfYjl-rtaesbJxVKqiw7rs&index=2)
@@ -676,7 +655,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Session Name**
@@ -685,7 +664,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Slides**
@@ -694,7 +673,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Video**
@@ -705,7 +684,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [ARM Server Mini-Summit: UEFI](http://lca-13.zerista.com/event/member/72366)
@@ -714,7 +693,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -723,7 +702,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=MLNTiTsPOvs&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=13)
@@ -734,7 +713,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [ARM Server Mini-Summit: ACPI](http://lca-13.zerista.com/event/member/72367)
@@ -743,7 +722,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Slides (pdf)](http://www.linaro.org/documents/download/898c6dda2b4d77f76452e6260842763b513f9be170ccf)
@@ -752,7 +731,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=RNEiRXek6DI&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=16)
@@ -763,7 +742,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [ARM Server Mini-Summit: Verticals - Web Server and Caching technologies](http://lca-13.zerista.com/event/member/72368)
@@ -772,7 +751,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Slides (pdf)](http://www.linaro.org/documents/download/694584d5b1a054d94759f332a63d59d2513f849b20e89)
@@ -781,7 +760,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=0sGo5H-wodM&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=11)
@@ -792,7 +771,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [ARM Server Mini-Summit: Verticals- HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413)
@@ -801,7 +780,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Slides (pdf)](http://www.linaro.org/documents/download/13f8d06f04c185cf1885fdd1316e3d1c51311d690e719)
@@ -810,7 +789,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=iOhtPU-2UNw&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=12)
@@ -850,7 +829,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Session Name**
@@ -859,7 +838,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Slides**
@@ -868,7 +847,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Video**
@@ -879,7 +858,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Networking: PREEMPT_RT](http://lca-13.zerista.com/event/member/72354)
@@ -888,7 +867,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -897,7 +876,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=YVyszOzVLnE&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=20)
@@ -908,7 +887,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Networking: Data plane](http://lca-13.zerista.com/event/member/72356)
@@ -917,7 +896,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -926,7 +905,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=193RLlTQESQ&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=21)
@@ -937,7 +916,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Networking: Big Endian Challenges in Networking](http://lca-13.zerista.com/event/member/72357)
@@ -946,7 +925,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -955,7 +934,7 @@ While not a mini-summit it did work out that on Wednesday 6 March there were 3 h
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=e84Eq1omjpE&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo&index=18)
@@ -990,7 +969,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Session Name**
@@ -999,7 +978,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Slides**
@@ -1008,7 +987,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Video**
@@ -1019,7 +998,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Embedded Android #1 - Android Internals](http://lca-13.zerista.com/event/member/72385)
@@ -1028,7 +1007,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -1037,7 +1016,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=KLUXPxxJc5c&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3&index=2)
@@ -1048,7 +1027,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Embedded Android #2 - Working with the AOSP](http://lca-13.zerista.com/event/member/72386)
@@ -1057,7 +1036,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -1066,7 +1045,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=LimC0XpeT0k&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3&index=11)
@@ -1077,7 +1056,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Embedded Android #3 - Native Android user-space](http://lca-13.zerista.com/event/member/72387)
@@ -1086,7 +1065,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -1095,7 +1074,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=lHeMfFAFI-I&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3&index=14)
@@ -1106,7 +1085,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Embedded Android #4 - Using and Customizing the Android Framework](http://lca-13.zerista.com/event/member/72388)
@@ -1115,7 +1094,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 --
@@ -1124,7 +1103,7 @@ Specifically, Karim started by introducing Android's overall architecture and th
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video](http://www.youtube.com/watch?v=XwRy8Kv3vDQ&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3&index=18)
@@ -1148,7 +1127,7 @@ There were a total of 108 videos recorded and posted to various YouTube channels
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 **Day** (who/how Videos were recorded) (Number of Videos)
@@ -1157,7 +1136,7 @@ There were a total of 108 videos recorded and posted to various YouTube channels
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Watch Online**
@@ -1166,7 +1145,7 @@ There were a total of 108 videos recorded and posted to various YouTube channels
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Download Video**
@@ -1177,7 +1156,7 @@ There were a total of 108 videos recorded and posted to various YouTube channels
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday (G+ HOA) (8 Videos)
@@ -1186,7 +1165,7 @@ Monday (G+ HOA) (8 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7EvF1R6EPZCN9C6KBycS_h3i)
@@ -1195,7 +1174,7 @@ Monday (G+ HOA) (8 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Monday_4_March_2013/)
@@ -1206,7 +1185,7 @@ Monday (G+ HOA) (8 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday (G+ HOA) (12 Videos)
@@ -1215,7 +1194,7 @@ Tuesday (G+ HOA) (12 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7Eu_89BMwzFY7fru8d46QEgf)
@@ -1224,7 +1203,7 @@ Tuesday (G+ HOA) (12 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Tuesday_5_March_2013/)
@@ -1235,7 +1214,7 @@ Tuesday (G+ HOA) (12 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday (G+ HOA) (13 Videos)
@@ -1244,7 +1223,7 @@ Wednesday (G+ HOA) (13 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7EsiBlhFcE8nMpRclPNuMXdI)
@@ -1253,7 +1232,7 @@ Wednesday (G+ HOA) (13 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Wednesday_6_March_2013/)
@@ -1264,7 +1243,7 @@ Wednesday (G+ HOA) (13 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Thursday (G+ HOA) (13 Videos)
@@ -1273,7 +1252,7 @@ Thursday (G+ HOA) (13 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7EvfYjl-rtaesbJxVKqiw7rs)
@@ -1282,7 +1261,7 @@ Thursday (G+ HOA) (13 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Thursday_7_March_2013/)
@@ -1293,7 +1272,7 @@ Thursday (G+ HOA) (13 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Friday (G+ HOA) (11 Videos)
@@ -1302,7 +1281,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7Eum0xpmCw9Grv6caj1hu1OA)
@@ -1311,7 +1290,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/)
@@ -1322,7 +1301,7 @@ Friday (G+ HOA) (11 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [ARMdevices.net](http://armdevices.net/) (21 Videos)
@@ -1331,7 +1310,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)
@@ -1340,7 +1319,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/)
@@ -1351,7 +1330,7 @@ Friday (G+ HOA) (11 Videos)
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [LinaroOrg Channel](http://www.youtube.com/user/linaroorg) ([FormsComm](/FormsComm)) (30 Videos)
@@ -1360,7 +1339,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube Playlists](http://www.youtube.com/playlist?list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)
@@ -1369,7 +1348,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/)
@@ -1395,7 +1374,7 @@ _(Please note that as new videos from this event are published they will be adde
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 ** Published Date**
@@ -1404,7 +1383,7 @@ _(Please note that as new videos from this event are published they will be adde
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Title**
@@ -1413,7 +1392,7 @@ _(Please note that as new videos from this event are published they will be adde
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Watch Online**
@@ -1422,7 +1401,7 @@ _(Please note that as new videos from this event are published they will be adde
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Download**
@@ -1433,7 +1412,7 @@ _(Please note that as new videos from this event are published they will be adde
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Sunday 3 March
@@ -1442,7 +1421,7 @@ Sunday 3 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Welcome to LCA13 Hong Kong**
@@ -1451,7 +1430,7 @@ Sunday 3 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=NJJy2003s2Q&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1460,7 +1439,7 @@ Sunday 3 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/Linaro%20Connect%20-%20Welcome%20to%20LCA13%20Hong%20Kong-NJJy2003s2Q.mp4)
@@ -1471,7 +1450,7 @@ Sunday 3 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 4 March
@@ -1480,7 +1459,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Dave Piggott LAVA Lab Lead**
@@ -1489,7 +1468,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=sn2M7lw7RdU&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1498,7 +1477,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/Linaro%20Connect%20(LCA13)%20-%20%20Interview%20with%20Dave%20Piggott%20LAVA%20Lab%20Lead-sn2M7lw7RdU.mp4)
@@ -1509,7 +1488,7 @@ Monday 4 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 4 March
@@ -1518,7 +1497,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Vicky Janicki, Program Director Member Services**
@@ -1527,7 +1506,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=NtbC9ZKFBQc&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo) -[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1536,7 +1515,7 @@ Monday 4 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Interview%20with%20Vicky%20Janicki,%20Program%20Director%20Member%20Services-NtbC9ZKFBQc.mp4)
@@ -1547,7 +1526,7 @@ Monday 4 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday 5 March
@@ -1556,7 +1535,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Linaro Connect 2013, George Grey, CEO of Linaro**
@@ -1565,7 +1544,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=EQsPvmS1Pxs&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1574,7 +1553,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linaro%20Connect%202013,%20George%20Grey,%20CEO%20og%20Linaro-EQsPvmS1Pxs.mp4)
@@ -1585,7 +1564,7 @@ Tuesday 5 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday 5 March
@@ -1594,7 +1573,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Lars Kurth, XEN.org Community Manager**
@@ -1603,7 +1582,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=bUxoABBzo_U&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1612,7 +1591,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Interview%20with%20Lars%20Kurth,%20XEN.org%20Community%20Manager-bUxoABBzo_U.mp4)
@@ -1623,7 +1602,7 @@ Tuesday 5 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday 5 March
@@ -1632,7 +1611,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Zach Pfeffer, Linaro Android Tech Lead**
@@ -1641,7 +1620,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=trbdZ1wVvWY&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1650,7 +1629,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Amber%20Graner%20interviews%20Zach%20Pfeffer,%20Linaro%20Android%20Tech%20Lead-trbdZ1wVvWY.mp4)
@@ -1661,7 +1640,7 @@ Tuesday 5 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Tuesday 5 March
@@ -1670,7 +1649,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Tyler Baker, Technical Architect and CI**
@@ -1679,7 +1658,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=ngMfKui_YbI&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1688,7 +1667,7 @@ Tuesday 5 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Amber%20Graner%20interviews%20Tyler%20Baker,%20Technical%20Architect%20and%20CI-ngMfKui_YbI.mp4)
@@ -1699,7 +1678,7 @@ Tuesday 5 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1708,7 +1687,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Linus Valleij and Peter De Schrijver at Linaro Connect 2013**
@@ -1717,7 +1696,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=G3VF7-kU1lk&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1726,7 +1705,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linus%20Valleij%20and%20Peter%20De%20Schrijver%20at%20Linaro%20Connect%202013-G3VF7-kU1lk.mp4)
@@ -1737,7 +1716,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1746,7 +1725,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Citrix Mark Heath VP of XenServer at Linaro Connect 2013**
@@ -1755,7 +1734,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=gUL4qT-IHzA&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1764,7 +1743,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Citrix%20Mark%20Heath%20VP%20of%20XenServer%20at%20Linaro%20Connect%202013-gUL4qT-IHzA.mp4)
@@ -1775,7 +1754,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1784,7 +1763,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Greg Kroah-Hartman at Linaro Connect 2013**
@@ -1793,7 +1772,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=NRfYTQBebvc&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1802,7 +1781,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Greg%20Kroah-Hartman%20at%20Linaro%20Connect%202013-NRfYTQBebvc.mp4)
@@ -1813,7 +1792,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1822,7 +1801,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **John Stultz and Greg Kroah-Hartman talk Android Kernel Upstreaming to the Linux Kernel**
@@ -1831,7 +1810,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=7Dh4CcRl_zs&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1840,7 +1819,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/John%20Stultz%20and%20Greg%20Kroah-Hartman%20talk%20Android%20Kernel%20Upstreaming%20to%20the%20Linux%20Kernel-7Dh4CcRl_zs.mp4)
@@ -1851,7 +1830,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1860,7 +1839,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Wookey of Linaro working on Debian for ARMv8 64bit**
@@ -1869,7 +1848,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=5XdgQ7AmWX0&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1878,7 +1857,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Wookey%20of%20Linaro%20working%20on%20Debian%20for%20ARMv8%2064bit-5XdgQ7AmWX0.mp4)
@@ -1889,7 +1868,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1898,7 +1877,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **ARM Chromebooks at Linaro Connect 2013**
@@ -1907,7 +1886,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=c7wkPUmCgaw&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1916,7 +1895,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/ARM%20Chromebooks%20at%20Linaro%20Connect%202013-c7wkPUmCgaw.mp4)
@@ -1927,7 +1906,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Wednesday 6 March
@@ -1936,7 +1915,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **David Rusling, Linaro CTO chats with Jon Corbet of LWN**
@@ -1945,7 +1924,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=dyB34Kt5AzU&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -1954,7 +1933,7 @@ Wednesday 6 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20David%20Rusling,%20Linaro%20CTO%20chats%20with%20Jon%20Corbet%20of%20LWN-dyB34Kt5AzU.mp4)
@@ -1965,7 +1944,7 @@ Wednesday 6 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Thursday 7 March
@@ -1974,7 +1953,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Kernel work group assignee Satish Kumar at Linaro Connect 2013**
@@ -1983,7 +1962,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=8rYt8jzuTK0&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -1992,7 +1971,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Kernel%20work%20group%20assignee%20Satish%20Kumar%20at%20Linaro%20Connect%202013-8rYt8jzuTK0.mp4)
@@ -2003,7 +1982,7 @@ Thursday 7 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Thursday 7 March
@@ -2012,7 +1991,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Deepak Saxena, Linaro Kernel Team Tech Lead**
@@ -2021,7 +2000,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=p2NxHBkF8RU&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -2030,7 +2009,7 @@ Thursday 7 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Amber%20Graner%20interviews%20Deepak%20Saxena-p2NxHBkF8RU.mp4)
@@ -2041,7 +2020,7 @@ Thursday 7 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Friday 8 March
@@ -2050,7 +2029,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **iOS and Windows apps to soon run on Android?**
@@ -2059,7 +2038,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=1-XN6B0_R3s&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -2068,7 +2047,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/iOS%20and%20Windows%20apps%20to%20soon%20run%20on%20Android-1-XN6B0_R3s.mp4)
@@ -2079,7 +2058,7 @@ Friday 8 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Friday 8 March
@@ -2088,7 +2067,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Jon Corbet (LWN) and Greg Kroah-Hartman (Linux Foundation) **
@@ -2097,7 +2076,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=SuffTg_F6tA&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -2106,7 +2085,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Jon%20Corbet%20(LWN)%20and%20Greg%20Kroah-Hartman%20(Linux%20Foundation)%20interviewed%20by%20Amber%20Graner-SuffTg_F6tA.mp4)
@@ -2117,7 +2096,7 @@ Friday 8 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Friday 8 March
@@ -2126,7 +2105,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Karim Yahmour (CEO Opersys and author)**
@@ -2135,7 +2114,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=Y_N6Zo67fiI&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -2144,7 +2123,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Karim%20Yahmour%20(CEO%20Opersys%20and%20author)%20in%20conversation%20with%20Amber%20Graner-Y_N6Zo67fiI.mp4)
@@ -2155,7 +2134,7 @@ Friday 8 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Friday 8 March
@@ -2164,7 +2143,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Interview with Y. F. Juan of ITRI**
@@ -2173,7 +2152,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=Qs6hrOcg3X4&feature=share&list=PLHMIcjAkq7EurTnoX-xKkXJkQeSciyxlo)-[LinaroOrg](http://www.youtube.com/user/LinaroOrg)
@@ -2182,7 +2161,7 @@ Friday 8 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Y.%20F.%20Juan%20of%20ITRI%20interview%20with%20Amber%20Graner-Qs6hrOcg3X4.mp4)
@@ -2193,7 +2172,7 @@ Friday 8 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Sunday 10 March
@@ -2202,7 +2181,7 @@ Sunday 10 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Botao Sun of the Linaro QA Team at Linaro Connect 2013**
@@ -2211,7 +2190,7 @@ Sunday 10 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=F8BDAHFm8Tw&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -2220,7 +2199,7 @@ Sunday 10 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Botao%20Sun%20of%20the%20Linaro%20QA%20Team%20at%20Linaro%20Connect%202013-F8BDAHFm8Tw.mp4)
@@ -2231,7 +2210,7 @@ Sunday 10 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 11 March
@@ -2240,7 +2219,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **AMD developing Linux on ARM at Linaro Connect 2013**
@@ -2249,7 +2228,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=9ZxzbA84now&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -2258,7 +2237,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/AMD%20developing%20Linux%20on%20ARM%20at%20Linaro%20Connect%202013-9ZxzbA84now.mp4)
@@ -2269,7 +2248,7 @@ Monday 11 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 11 March
@@ -2278,7 +2257,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Marcin Juszkiewicz at Linaro Connect 2013**
@@ -2287,7 +2266,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=6Cpv03gU7UE&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -2296,7 +2275,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Marcin%20Juszkiewicz%20at%20Linaro%20Connect%202013-6Cpv03gU7UE.mp4)
@@ -2307,7 +2286,7 @@ Monday 11 March
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
 
 
 Monday 11 March
@@ -2316,7 +2295,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 **Jon Masters of Red Hat at Linaro Connect 2013**
@@ -2325,7 +2304,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [YouTube](http://www.youtube.com/watch?v=ZRSvewsnHqQ&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)-[Charbax](http://www.youtube.com/user/Charbax)
@@ -2334,7 +2313,7 @@ Monday 11 March
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Jon%20Masters%20of%20Red%20Hat%20at%20Linaro%20Connect%202013-ZRSvewsnHqQ.mp4)
@@ -2537,7 +2516,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 <tbody >
 <tr >
 
-<td >
+<td markdown="1">
 
 
 [Introduction to Linaro (New Assignees/Employees](http://lca-13.zerista.com/event/member/72400)
@@ -2546,7 +2525,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Slides (pdf)](http://www.linaro.org/documents/download/50e8d45eabadf1f6fbe190865e2ca2c051353eb176893)
@@ -2555,7 +2534,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [Video - YouTube](http://www.youtube.com/watch?v=kukUFAL_Z8M&feature=share&list=PLHMIcjAkq7EvXWy6znTD-KY1znDdGd_D3)
@@ -2564,7 +2543,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 </td>
 
-<td >
+<td markdown="1">
 
 
 [.mp4 - Download](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linaro%20Connect%20-%20Introduction%20to%20Linaro%20(New%20Assignees_Employees)-kukUFAL_Z8M.mp4)

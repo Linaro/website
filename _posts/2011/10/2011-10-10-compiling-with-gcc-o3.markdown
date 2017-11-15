@@ -1,6 +1,5 @@
 ---
-author: michael.hope
-
+author: linaro
 date: 2011-10-10 22:18:34+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/compiling-with-gcc-o3/
@@ -18,9 +17,6 @@ Since its inception, the Toolchain Working Group's focus has been on performance
 The compiler theme for next quarter is enabling the -O3 flag. GCC has a range of optimization levels that can be turned on while compiling code from the basic -O1 (basic optimization, best debugging), to -O2 (good optimization, always improves performance), and through to -O3 (best performance, may regress in some areas). The -O3 flag enables many of the advanced features that we've been contributing to, such as the vectorizer, but following historical correctness and size issues, distributions normally build at the -O2 level. This theme covers investigating, improving, and documenting the results to help distributions justify turning on -O3 to get up to 10% speed improvement.
 
 Some of the advantages of gcc -O3 are:
-
-
-
 
   * It enables existing features, giving a significant speed up for little development
 

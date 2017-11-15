@@ -1,6 +1,5 @@
 ---
 author: george.grey
-
 date: 2012-01-10 20:08:30+00:00
 layout: post
 link: https://www.linaro.org/blog/december-ceo-report/
@@ -10,28 +9,27 @@ wordpress_id: 1142
 categories:
 - blog
 ---
-
 Despite the impact of the very welcome holiday season Linaro achieved a new set of monthly deliverables described below. As we start a new year it's worth reminding ourselves of the achievements of the last 12 months:
 
-**In February **we produced our first member newsletter; powerdebug and powertop tools were released on all member SoCs; ST-Ericsson announced Snowball; we made initial deliverables on the LAVA project; and Nokia announced their plans to tie up with Microsoft.
+**In February** we produced our first member newsletter; powerdebug and powertop tools were released on all member SoCs; ST-Ericsson announced Snowball; we made initial deliverables on the LAVA project; and Nokia announced their plans to tie up with Microsoft.
 
-**In March **we introduced the Linaro KPIs at wiki.linaro.org/Metrics; we compiled the first kernel in Thumb-2 mode; we announced the Linaro Partner program; and forthcoming Android Evaluation Builds.
+**In March** we introduced the Linaro KPIs at wiki.linaro.org/Metrics; we compiled the first kernel in Thumb-2 mode; we announced the Linaro Partner program; and forthcoming Android Evaluation Builds.
 
-**In April **the Unified Memory Management project was kicked off; and Device Tree was released initially on OMAP and i.MX51 boards.
+**In April** the Unified Memory Management project was kicked off; and Device Tree was released initially on OMAP and i.MX51 boards.
 
-**In May **the Linaro Showcase at LDS (now Linaro Connect) was a big hit; LAVA started testing Android & Ubuntu images on a daily basis; we held the first Memory Management Summit in Budapest; and Linaro made it's first monthly release, moving away from a biannual delivery cycle.
+**In May** the Linaro Showcase at LDS (now Linaro Connect) was a big hit; LAVA started testing Android & Ubuntu images on a daily basis; we held the first Memory Management Summit in Budapest; and Linaro made it's first monthly release, moving away from a biannual delivery cycle.
 
-**June **was our first birthday; libjpegturbo was released with good performance gains from NEON optimization; we made our first gcc 4.6 toolchain release; initial UMM patches were upstreamed; Samsung announced Origen; and Android builds on demand were available for member boards at android_build.linaro.org
+**June** was our first birthday; libjpegturbo was released with good performance gains from NEON optimization; we made our first gcc 4.6 toolchain release; initial UMM patches were upstreamed; Samsung announced Origen; and Android builds on demand were available for member boards at android_build.linaro.org
 
-**In July **we made our first Linux 3.0 kernel release; Lava received a dashboard UI; and initial hard float build work was handed over to distributions including Debian and Ubuntu.
+**In July** we made our first Linux 3.0 kernel release; Lava received a dashboard UI; and initial hard float build work was handed over to distributions including Debian and Ubuntu.
 
-**August **saw Google announcing the acquisition of Motorola Mobile; HP halted webOS work; Linaro delivered a working sched_mc on ARM; and announced support for 'stable' kernel releases.
+**August** saw Google announcing the acquisition of Motorola Mobile; HP halted webOS work; Linaro delivered a working sched_mc on ARM; and announced support for 'stable' kernel releases.
 
-**In September **Linaro discussed the path towards a single ARM kernel; LAVA started continuous integration of multiple kernel source trees; the toolchain group delivered -O3 as a high performance stable build level on gcc.
+**In September** Linaro discussed the path towards a single ARM kernel; LAVA started continuous integration of multiple kernel source trees; the toolchain group delivered -O3 as a high performance stable build level on gcc.
 
-**In October **Linaro moved into the top 20 in kernel contributors - arch/arm code lines were actually reduced; ARM announced A7, big.LITTLE and the v8 architecture.
+**In October** Linaro moved into the top 20 in kernel contributors - arch/arm code lines were actually reduced; ARM announced A7, big.LITTLE and the v8 architecture.
 
-**In November **Google released Ice Cream Sandwich at last, and Linaro provided initial preview builds on all member platforms within 10 days. The Landing teams have a single tree that builds for both TI OMAP and Samsung Exynos; the UMM project delivers its first dma_buf patchset, and we started evaluating big.LITTLE work.
+**In November** Google released Ice Cream Sandwich at last, and Linaro provided initial preview builds on all member platforms within 10 days. The Landing teams have a single tree that builds for both TI OMAP and Samsung Exynos; the UMM project delivers its first dma_buf patchset, and we started evaluating big.LITTLE work.
 
 With well over 2,500 patches delivered upstream last year by Linaro engineers (and even more with our member assignee engineers) the fruits of our ongoing work are now in use by any customer using new Linux kernels on member SoCs, as well as by the latest Android and Ubuntu releases.
 

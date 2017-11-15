@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2013-10-31 15:19:41+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-wednesday/
@@ -21,9 +20,6 @@ tags:
 Wednesday at Linaro Connect USA 2013 started off with the Linaro attendees going to the Simon Segars keynote for ARM TechCon where he discussed his vision for transformative technology in the Internet of Things (IoT), data center and mobile. ****
 
 Linaro Connect sessions followed the keynote in the morning of Wednesday and the afternoon was filled with engineering working sessions. The morning sessions included:
-
-
-
 
   * [ARM64 kernel features enablement](http://lcu-13.zerista.com/event/member/85118) – [View Video](http://www.youtube.com/watch?v=GxU9EwOqvk0)
 
@@ -53,180 +49,231 @@ Linaro Connect sessions followed the keynote in the morning of Wednesday and the
 
 
 Thursday will be a different type of day where there will be some follow-up sessions on topics presented earlier in the week as well as team meetings and hacking taking place.
-<table cellpadding="0" cellspacing="0" border="0" >
+<table cellpadding="0" cellspacing="0" border="0" class="table responive-table">
 <tbody >
 <tr >
 
-<td >START
+<td markdown="1">
+START
 </td>
 
-<td >FINISH
+<td markdown="1">
+FINISH
 </td>
 
-<td >SESSION
+<td markdown="1">
+SESSION
 </td>
 
-<td >TRACK
+<td markdown="1">
+TRACK
 </td>
 
-<td >WHERE
-</td>
-</tr>
-<tr >
-
-<td valign="top" >09:00AM
-</td>
-
-<td valign="top" >10:00AM
-</td>
-
-<td width="277" valign="top" >Collaborating with other Android communities
-</td>
-
-<td valign="top" >Android
-</td>
-
-<td valign="top" >.Auditorium
+<td markdown="1">
+WHERE
 </td>
 </tr>
 <tr >
 
-<td valign="top" >09:00AM
+<td valign="top" markdown="1">
+09:00AM
 </td>
 
-<td valign="top" >10:00AM
+<td valign="top" markdown="1">
+10:00AM
 </td>
 
-<td width="277" valign="top" >Linaro Infrastructure Update
+<td width="277" valign="top" markdown="1">
+Collaborating with other Android communities
 </td>
 
-<td valign="top" >Automation and Validation
+<td valign="top" markdown="1">
+Android
 </td>
 
-<td valign="top" >.GT America 1
-</td>
-</tr>
-<tr >
-
-<td valign="top" >10:05AM
-</td>
-
-<td valign="top" >11:00AM
-</td>
-
-<td width="277" valign="top" >BOF: ARMv8 Graphics Package Porting
-</td>
-
-<td valign="top" >Graphics and Multimedia
-</td>
-
-<td valign="top" >.GT America 2
+<td valign="top" markdown="1">
+.Auditorium
 </td>
 </tr>
 <tr >
 
-<td valign="top" >10:05AM
+<td valign="top" markdown="1">
+09:00AM
 </td>
 
-<td valign="top" >11:00AM
+<td valign="top" markdown="1">
+10:00AM
 </td>
 
-<td width="277" valign="top" >The Power of Being Idle: On Tuning CPUidle tables for ARM multiprocessor systems
+<td width="277" valign="top" markdown="1">
+Linaro Infrastructure Update
 </td>
 
-<td valign="top" >Power Managment
+<td valign="top" markdown="1">
+Automation and Validation
 </td>
 
-<td valign="top" >.GT America 1
-</td>
-</tr>
-<tr >
-
-<td valign="top" >11:15AM
-</td>
-
-<td valign="top" >12:05PM
-</td>
-
-<td width="277" valign="top" >Deep Dive into ARM Trusted Firmware
-</td>
-
-<td valign="top" >Platform
-</td>
-
-<td valign="top" >.GT America 2
+<td valign="top" markdown="1">
+.GT America 1
 </td>
 </tr>
 <tr >
 
-<td valign="top" >11:15AM
+<td valign="top" markdown="1">
+10:05AM
 </td>
 
-<td valign="top" >12:00PM
+<td valign="top" markdown="1">
+11:00AM
 </td>
 
-<td width="277" valign="top" >Linaro Test Suites preview release
+<td width="277" valign="top" markdown="1">
+BOF: ARMv8 Graphics Package Porting
 </td>
 
-<td valign="top" >Automation and Validation
+<td valign="top" markdown="1">
+Graphics and Multimedia
 </td>
 
-<td valign="top" >.GT America 1
-</td>
-</tr>
-<tr >
-
-<td valign="top" >12:10PM
-</td>
-
-<td valign="top" >01:00PM
-</td>
-
-<td width="277" valign="top" >Deep Dive into ARM Trusted Firmware
-</td>
-
-<td valign="top" >Platform
-</td>
-
-<td valign="top" >.GT America 2
+<td valign="top" markdown="1">
+.GT America 2
 </td>
 </tr>
 <tr >
 
-<td valign="top" >12:10PM
+<td valign="top" markdown="1">
+10:05AM
 </td>
 
-<td valign="top" >01:00PM
+<td valign="top" markdown="1">
+11:00AM
 </td>
 
-<td width="277" valign="top" >LNG SC meeting
+<td width="277" valign="top" markdown="1">
+The Power of Being Idle: On Tuning CPUidle tables for ARM multiprocessor systems
 </td>
 
-<td valign="top" >Networking
+<td valign="top" markdown="1">
+Power Managment
 </td>
 
-<td valign="top" >.GT America 1
+<td valign="top" markdown="1">
+.GT America 1
 </td>
 </tr>
 <tr >
 
-<td valign="top" >02:00PM
+<td valign="top" markdown="1">
+11:15AM
 </td>
 
-<td valign="top" >02:55PM
+<td valign="top" markdown="1">
+12:05PM
 </td>
 
-<td width="277" valign="top" >Backporting & Bug fixing process improvement
+<td width="277" valign="top" markdown="1">
+Deep Dive into ARM Trusted Firmware
 </td>
 
-<td valign="top" >Tools
+<td valign="top" markdown="1">
+Platform
 </td>
 
-<td valign="top" >.GT America 1
+<td valign="top" markdown="1">
+.GT America 2
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+11:15AM
+</td>
+
+<td valign="top" markdown="1">
+12:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+Linaro Test Suites preview release
+</td>
+
+<td valign="top" markdown="1">
+Automation and Validation
+</td>
+
+<td valign="top" markdown="1">
+.GT America 1
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+12:10PM
+</td>
+
+<td valign="top" markdown="1">
+01:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+Deep Dive into ARM Trusted Firmware
+</td>
+
+<td valign="top" markdown="1">
+Platform
+</td>
+
+<td valign="top" markdown="1">
+.GT America 2
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+12:10PM
+</td>
+
+<td valign="top" markdown="1">
+01:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+LNG SC meeting
+</td>
+
+<td valign="top" markdown="1">
+Networking
+</td>
+
+<td valign="top" markdown="1">
+.GT America 1
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+02:00PM
+</td>
+
+<td valign="top" markdown="1">
+02:55PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+Backporting & Bug fixing process improvement
+</td>
+
+<td valign="top" markdown="1">
+Tools
+</td>
+
+<td valign="top" markdown="1">
+.GT America 1
 </td>
 </tr>
 </tbody>
 </table>
+
 Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
 
  

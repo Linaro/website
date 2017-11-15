@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2012-04-26 20:54:50+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-toolchain-binaries-2012-04-released/
@@ -16,9 +15,6 @@ tags:
 The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of the Linaro Toolchain Binaries, a pre-built version of Linaro GCC and Linaro GDB that runs on generic Linux or Windows and targets the glibc Linaro Evaluation Build.
 
 Uses include:
-
-
-
 
   * Cross compiling ARM applications from your laptop
 

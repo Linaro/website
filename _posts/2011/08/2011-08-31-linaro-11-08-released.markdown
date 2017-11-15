@@ -1,12 +1,10 @@
 ---
 author: fathi.boudra
-
 date: 2011-08-31 21:15:16+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-08-released/
 slug: linaro-11-08-released
 title: Linaro 11.08 Released
-wordpress_id: 4124
 categories:
 - blog
 tags:

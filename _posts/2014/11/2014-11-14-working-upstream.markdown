@@ -168,4 +168,4 @@ I strongly recommend Thomas's Petazzonni presentation, "SoC mainlining, lessons 
 
 [8] [https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches)
 
-![working-upstream](/assets/blog/working-upstream.jpg)
+{% include image.html name="working-upstream.jpg" alt="working-upstream" %}

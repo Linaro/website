@@ -1,6 +1,5 @@
 ---
 author: grant.likely
-
 date: 2014-02-03 18:58:27+00:00
 layout: post
 link: https://www.linaro.org/blog/when-will-uefi-and-acpi-be-ready-on-arm/
@@ -36,8 +35,6 @@ UEFI
 GRUB on UEFI
 Linux on UEFI (CONFIG_EFI_STUB)
 ACPI
-
-
 
 
 ## **Why UEFI and ACPI?**
@@ -170,19 +167,7 @@ One potential problem is that Kexec may interact poorly with ACPI. The OS isn’
 _Re-published with permission from Grant Likely from his original blog post at_ [http://www.secretlab.ca/archives/27](http://www.secretlab.ca/archives/27)
 
 
-
-
-
-
 * * *
-
-
-
-
-
-
-
-
 
 	
   1. ARM32 Runtime Service: [http://lwn.net/Articles/575363/](http://lwn.net/Articles/575363/)

@@ -1,6 +1,5 @@
 ---
 author: mark.brown
-
 date: 2013-08-29 22:48:04+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/linaro-stable-kernel-overview/

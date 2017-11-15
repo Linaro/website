@@ -12,11 +12,7 @@ categories:
 tags:
 - Releases
 ---
-
-<blockquote>If you can dream it, you can do it.~Walt Disney</blockquote>
-
-
-
+> If you can dream it, you can do it. ~ Walt Disney
 
 ## The Linaro 13.02 release is now available for [download](http://www.linaro.org/downloads/)!
 
@@ -79,7 +75,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 **Getting involved**
-** ============**
+**============**
 More information on Linaro can be found on our websites:
 
 * Homepage: [http://www.linaro.org](http://www.linaro.org/)

@@ -1,6 +1,5 @@
 ---
 author: david.zinman
-
 date: 2011-12-22 19:52:48+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-12-released/
@@ -63,7 +62,7 @@ The Power Management Team pushed a number of items upstream. Items include: comm
 
 Full details of this release, including detailed release highlights and known issues, can be found on the release pages of our Wiki. [http://wiki.linaro.org/Cycles/1112/Release](http://wiki.linaro.org/Cycles/1112/Release)
 
-We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ http://www.linaro.org/downloads/](../../downloads/)
+We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ http://www.linaro.org/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 

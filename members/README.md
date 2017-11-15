@@ -286,6 +286,38 @@ The current members are listed below. If you are interested in joining these ind
     <hr/>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="members-panel">
+          <div class="panel-heading">
+              <a name="hpc_members"></a>
+              <a href="/sig/hpc/">
+                <h3>High Performance Computing (HPC)</h3>
+              </a>
+          </div>
+          <div class="panel-body members-panel-body">
+              <div class="col-md-12 members-panel">
+                    <p>
+                        The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
+                    </p>
+                       <!--Updated-->
+                      {% assign core_members = site.data.members["hpc_members"] | sort: 'name' %}
+                      {% for member in core_members %}
+                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                                   <a href="{{member.url}}">
+                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                        class="img-responsive members-img lazyload center-block"/>
+                                    </a>
+                               </div>
+                      {% endfor %}
+                </div>
+         </div>
+      </div>
+    </div>
+    <hr/>
+</div>
+
 <h3>
     <a href="https://www.96boards.org/">
         96boards

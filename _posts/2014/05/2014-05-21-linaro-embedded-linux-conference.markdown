@@ -1,6 +1,5 @@
 ---
 author: linus.walleij
-
 date: 2014-05-21 20:40:35+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-embedded-linux-conference/
@@ -16,9 +15,9 @@ tags:
 - Open Source
 ---
 
-[caption id="attachment_5865" align="alignleft" width="150"][![Linus photo 527x 622](/assets/blog/Linus-photo-527x-622.jpg)](/assets/blog/Linus-photo-527x-622.jpg) Linus Walleij[/caption]
+{% include image.html name="Linus-photo-527x-622.jpg" alt="Linus Walleij"%}
 
-Linux Foundation held their annual Embedded Linux Conference (ELC) at the beginning of May. Linaro had many speakers at this event covering sessions with topics including “Android without Java”, “Improving performance of key external projects used in Android”,  “Debugging – Linux Kernel testing”, “What’s going on with SPI”, “Kernel USB gadget configsfs Interface” and a talk that I gave titled “[Fear and Loathing in the media transfer protocol”.](http://events.linuxfoundation.org/sites/events/files/slides/Media%20Transfer%20Protocol.pdf)
+Linux Foundation held their annual Embedded Linux Conference (ELC) at the beginning of May. Linaro had many speakers at this event covering sessions with topics including “Android without Java”, “Improving performance of key external projects used in Android”, “Debugging – Linux Kernel testing”, “What’s going on with SPI”, “Kernel USB gadget configsfs Interface” and a talk that I gave titled “[Fear and Loathing in the media transfer protocol”.](http://events.linuxfoundation.org/sites/events/files/slides/Media%20Transfer%20Protocol.pdf)
 
 ELC was an intense event as would be expected with companies from all strands of things Linux Embedded meeting up to define the state of the embedded Linux world and direction forward for the industry.
 
@@ -30,6 +29,6 @@ Overall this was a most intense event, and it was rather nice that we would spli
 
 I have attended ELC in the Bay Area every year since 2008 and plan to continue to do so, since it is always revitalizing.
 
-To see where Linaro will be speaking next, please visit our [new events page](http://www.linaro.org/hub/).  You can also join Linaro for the next[ Linaro Connect USA 2014 ](http://www.linaro.org/connect/lcu/lcu14/)in September.
+To see where Linaro will be speaking next, please visit our [new events page](http://www.linaro.org/hub/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](http://www.linaro.org/connect/lcu/lcu14/)in September.
 
 

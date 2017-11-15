@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2014-01-31 01:23:11+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-14-01-release-is-now-available-for-download/
@@ -31,17 +30,11 @@ tags:
 - toolchain
 ---
 
-
-
-
-<blockquote>It is not only for what we do that we are held responsible, but also for what we do not do.   ~Moliere</blockquote>
-
+> It is not only for what we do that we are held responsible, but also for what we do not do.   ~ Moliere
 
 The first release of this year contains several improvements and additions over the last 2013 release. Most significantly, various components have gained support for the Arndale Octa board, which makes big.LITTLE support available to a much wider audience, and Android has now been fully migrated to 4.4.x with no regressions compared to 4.3.
 
 As announced at Linaro Connect USA 2013 Linaro GCC is moving to a pattern of quarterly stable releases, with engineering releases in the intervening months.  This is the first stable release, and contains no known regressions compared to the 2013.12 release. The next release of GCC 4.7 will be the 2014.04 stable release.  There will be no engineering releases of GCC 4.7 in 2013.02 or 2013.03.
-
-
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
@@ -88,12 +81,7 @@ If you are interested in getting the source and building these images yourself p
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 
-
-
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
-
-
-
 
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
@@ -138,10 +126,6 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
     * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
-
-
-
-
 
 
 

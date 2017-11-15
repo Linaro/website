@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2012-02-24 01:15:23+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-feb-17-to-feb-23/
@@ -30,21 +29,13 @@ tags:
 - Linux on ARM
 - release
 ---
-
-[gallery]
-
-Hello Linaro fans.
+# Hello Linaro fans.
 
 The 12.02 cycle contained both Linaro Connect and The two Linux Foundation conferences ABS and ELC. All three events were held in the same hotel in Redwood City just south of San Francisco. The Connect conference is a veritable tornado of meetings where technical decisions are made and plans fir the next quarter are hammered out at a breathtaking speed. Nevertheless, there is usually some time in the afternoons to do some honest hacking. So the team managed to make progress on their blueprints and just look at that list of fixed bugs! We also say welcome to i.MX6, a newcomer to our set of supported boards. The 12.02 release is out. Long live the 12.03 release!
 
 Here's a list of this weeks major achievements.
 
-
 ### Key Points for wider discussion
-
-
-
-
 
 
   * The 12.02 Android release is out. See the[ Release Page](https://wiki.linaro.org/Cycles/1202/Release).
@@ -55,15 +46,7 @@ Here's a list of this weeks major achievements.
 
   * Daily builds with i.MX6 are running.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * Most team members attended Android Builders Summit and Embedded Linux Conference.
 
@@ -77,13 +60,7 @@ Here's a list of this weeks major achievements.
   * Progress on fixing bug preventing Bluetooth on Snowball.
 
 
-
-
 ### Bugs fixed
-
-
-
-
 
 
   * 861416	[ Android audio plays but not audible](https://bugs.launchpad.net/linaro-android/+bug/861416)
@@ -118,31 +95,12 @@ Here's a list of this weeks major achievements.
 
   * 932386	[ linaro-android contains old version of ffmpeg](https://bugs.launchpad.net/linaro-android/+bug/932386)
 
-
-
-
 ### Miscellaneous
-
-
-
 
 ### Issues
 
-
-
-
-
-
   * none
-
-
-
-
+  
 ### Blueprints
-
-
-
-
-
 
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)

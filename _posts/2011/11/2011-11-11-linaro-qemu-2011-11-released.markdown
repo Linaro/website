@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-11-11 16:42:23+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2011-11-released/
@@ -21,6 +20,7 @@ qemu-linaro. Based off upstream (trunk) QEMU, it includes a
 number of ARM-focused bug fixes and enhancements.
 
 New in this month's release:
+
 - The ARM vexpress-a9, versatilepb, versatileab and realview-*
 boards now have audio support (thanks to Mathieu Sonet who
 contributed a PL041 implementation upstream)

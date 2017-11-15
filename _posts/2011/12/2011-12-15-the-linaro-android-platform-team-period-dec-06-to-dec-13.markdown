@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2011-12-15 10:28:00+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-dec-06-to-dec-13/
@@ -25,25 +24,12 @@ Here's a list of this weeks major achievements.
 
 ### Key Points for wider discussion
 
-
-
-
-
-
   * Hardware accelerated graphics for Linaro Android Snowball ICS is running. Soon to be released.
 
 
   * gator (for DS-5) is running on Snowball, Pandaboard and Virtual Express.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * Good progress on Hardware accelerated graphics for Linaro Android Origen ICS.
 
@@ -65,53 +51,21 @@ Here's a list of this weeks major achievements.
 
   * Good progress on ELC/Connect/Android Builders Summit planning.
 
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 902563 [gator driver fails to compile on 3.2 rc kernel.](https://bugs.launchpad.net/linaro-android/+bug/902563)
 
 
   * 894491 [https://bugs.launchpad.net/linaro-android/+bug/894491](https://bugs.launchpad.net/linaro-android/+bug/894491)
 
-
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * Goodbye Frans Gifford and Chao Yang. Many thanks for terrific work!
 
-
-
-
 ### Issues
-
-
-
-
-
 
   * none
 
-
-
-
 ### Blueprints
-
-
-
-
-
 
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)

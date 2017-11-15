@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-01-20 13:32:35+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/

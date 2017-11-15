@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-08-23 12:13:45+00:00
 layout: post
 link: https://www.linaro.org/news/arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk/
@@ -15,14 +14,12 @@ categories:
 CAMBRIDGE, UK - 23 AUG 2011
 
 
-
 ## First Linaro Connect Event Enhances Device Tree Support to Accelerate Development of Linux on ARM
 
 
 More than 150 Linux engineers gathered in Cambridge this month to collaborate on the development of Linux on ARM at the first quarterly Linaro™TM Connect event.
 
 Linaro, the not-for-profit open source software engineering company founded by ARM, IBM, TI, Samsung, Freescale and ST-Ericsson is working on consolidation and optimization of Linux on ARM SoCs. Device Tree, a mechanism for describing hardware configuration for the Linux kernel, was among the many topics covered at the recent Linaro Connect event. Members of the ARM Linux community set out to simplify porting of the Linux kernel to the diverse platforms developed by ARM silicon vendors and ODMs. By the end of the weeklong event many patches had been produced that will be queued up for the Linux 3.2 release kernel tree including:
-
 
 
 	

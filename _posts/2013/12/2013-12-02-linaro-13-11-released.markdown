@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2013-12-02 16:34:05+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-11-released/
@@ -27,18 +26,13 @@ tags:
 - tools
 ---
 
-<blockquote>I like Kit-Kat, unless I'm with four or more people. - Mitch Hedberg</blockquote>
-
-
+> I like Kit-Kat, unless I'm with four or more people. - Mitch Hedberg
 
 
 ## The Linaro 13.11 release is now available for download!
 
 
 This month's cycle includes significant developments from Linaro Connect USA 2013 (LCU13). All the Linaro engineering groups got together in Santa Clara at the end of October to discuss work for the next engineering cycle and progress critical projects face to face and this has benefited the releases from each of the groups. In this cycle, three items stand out as particularly significant:
-
-
-
 
   * The long-awaited Android 4.4 "Kit-Kat" was released and this is now included in Linaro Android. As with previous cycles, the team had this up and running on member devices very soon after the official release and there are several videos showing this work, for example:  [http://www.youtube.com/watch?v=bYQK1hT9iTk](http://www.youtube.com/watch?v=bYQK1hT9iTk)
 
@@ -61,14 +55,10 @@ See the detailed highlights of this release to get an overview of what has been 
   * [http://wiki.linaro.org/Cycles/1311/Release#Release_Information](http://wiki.linaro.org/Cycles/1311/Release#Release_Information)
 
 
-
-
 ### USING THE ANDROID-BASED IMAGES
 
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
-
-
 
 
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
@@ -82,16 +72,10 @@ If you are interested in getting the source and building these images yourself p
 
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
-
-
-
 ### USING THE UBUNTU-BASED IMAGES
 
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
-
-
-
 
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
@@ -103,21 +87,12 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-
-
-
   * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
-
-
-
-
+  
 ### GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
-
-
-
 
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
@@ -141,11 +116,6 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
     * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
-
-
-
-
-
 
 
 ### KNOWN ISSUES WITH THIS RELEASE

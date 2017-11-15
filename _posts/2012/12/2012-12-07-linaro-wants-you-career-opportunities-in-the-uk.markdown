@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-07 18:41:18+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-wants-you-career-opportunities-in-the-uk/
@@ -17,9 +16,6 @@ _Yes, then keep reading!_
 
 
 ## What are we looking for?
-
-
-
 
 ### Boot / Kernel Expert - Principal Engineers
 
@@ -59,6 +55,7 @@ All available career opportunities can be found at: [http://www.linaro.org/caree
 _This is the first of a series of weekly  'Linaro Wants You" posts where we will highlight open career opportunities at Linaro._
 
 **About Linaro**
+
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
 _To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/)._

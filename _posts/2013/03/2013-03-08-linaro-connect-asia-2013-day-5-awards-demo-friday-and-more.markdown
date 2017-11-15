@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-08 00:08:23+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
@@ -14,7 +13,9 @@ tags:
 - Connect Events
 ---
 
-[![](/assets/blog/RisingSunHotel.jpg)](/assets/blog/RisingSunHotel.jpg)As the sun rises over the Gold Coast Hotel this morning we are reminded that Linaro Connect Asia 2013 in Hong Kong is coming to an end today.
+{% include image.html name="RisingSunHotel.jpg" alt="Rising Sun Hotel"%}
+
+As the sun rises over the Gold Coast Hotel this morning we are reminded that Linaro Connect Asia 2013 in Hong Kong is coming to an end today.
 
 It's been a busy week of training workshops, mini-summits, planning, hacking, interviewing, and more.
 

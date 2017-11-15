@@ -3,7 +3,7 @@ group_id: 3
 title: Linaro Home Group (LHG)
 description: |-
     The mission of the Linaro Digital Home Group (LHG) is to accelerate the adoption of ARM-based
-    architectures in the digital home (entertainment) segment by working collaboratively on core Linux-based software platforms.﻿
+    architectures in the digital home (entertainment) segment by working collaboratively on core Linux-based software platforms.
 keywords: Linux, ARM, digital home, Android, User Interface, Kernel, Media Framework, Test and validation
 permalink: /groups/lhg/
 group_short_name: lhg

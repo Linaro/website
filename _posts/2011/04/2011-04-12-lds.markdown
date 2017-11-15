@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-04-12 04:31:23+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lds/
@@ -19,7 +18,7 @@ Would you be interested in joining the [Linaro Developer Summit](https://wiki.li
 
 If you have been following Linaro, that's your chance to participate to the specification process for our next engineering cycle. Like most things that Linaro does, this process is open, and anyone is welcome to join us at this event. LDS happens together with the [Ubuntu Developer Summit](http://uds.ubuntu.com/). Both events are free of charge and you could participate to both if you wish. All you need to do is register [here](https://wiki.linaro.org/Events/2011-05-LDS/#Registration%20and%20Travel).
 
-![Ubuntu and Linaro Developer Summit ](https://wiki.linaro.org/Events/2010-10-LDS?action=AttachFile&do=get&target=uds-prague.jpg)
+{% include image.html name="uds-prague.jpg" alt="Ubuntu and Linaro Developer Summit" lightbox_disabled="True" %}
 
 LDS also a chance to learn more about Linaro and the hottest developments for Linux on ARM. In particular, we will have a [technical showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) on Tuesday night. You will be able to see the most recent community boards, some devices running Linaro software, as well as Linaro and Linux on ARM software demos. By the way, if you are using Linaro contributed software in a product or in technical experiments, don't hesitate submit a proposal for the showcase! The best demos will be rewarded by attractive prizes.
 

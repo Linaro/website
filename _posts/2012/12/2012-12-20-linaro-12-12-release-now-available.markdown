@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-20 21:50:26+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-12-release-now-available/
@@ -13,7 +12,7 @@ tags:
 - Releases
 ---
 
-<blockquote>Identify your problems but give your power and energy to solutions. ~Tony Robbins</blockquote>
+> Identify your problems but give your power and energy to solutions. ~ Tony Robbins
 
 
 **We are pleased to announce that Linaro 12.12 is now available and ready for download.**
@@ -46,9 +45,6 @@ Between development cycles you can stay up to date with all the latest news in a
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-
-
-
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
 
@@ -61,42 +57,24 @@ If you are interested in getting the source and building these images yourself p
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
 
-[](http://wiki.linaro.org/Platform/Android/GetSource)
-
-
 ### USING THE UBUNTU-BASED IMAGES
 
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-
-
-
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
-
-
-
 
 ### GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
 
-
-
-
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
-
-[](http://www.linaro.org/)
-
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
-
-
-
 
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
@@ -113,21 +91,9 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
-
-
-
-[](http://lists.linaro.org/mailman/listinfo/linaro-announce)
-
-[](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
 ### KNOWN ISSUES WITH THIS RELEASE
 
-
 For any errata issues, please see:
-
-
-
 
   * [http://wiki.linaro.org/Cycles/1212/Release#Known_Issues](http://wiki.linaro.org/Cycles/1212/Release#Known_Issues)
 
@@ -136,9 +102,6 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
-
 
 #### **About Linaro**
 
@@ -153,4 +116,4 @@ _To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/).
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit_ [Linaro Connect Website](http://www.linaro.org/connect)._
+_To find out more, please visit [Linaro Connect Website](http://www.linaro.org/connect)._

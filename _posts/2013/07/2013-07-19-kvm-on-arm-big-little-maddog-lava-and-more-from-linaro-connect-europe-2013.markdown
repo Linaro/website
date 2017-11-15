@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-07-19 20:39:35+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/
@@ -20,24 +19,14 @@ tags:
 - lava
 ---
 
-[[![9247909880_8d181b882e_b](/assets/blog/9247909880_8d181b882e_b.jpg)](/assets/blog/9247909880_8d181b882e_b.jpg)](http://www.flickr.com/photos/linaroorg/9247909880/)
-
-
+{% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
 
 
 [Linaro Connect Europe 2013 (LCE13)](http://www.linaro.org/connect-lce13) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
 
-
-
-
-
 ## Keynotes
 
-
 There were [5 plenaries with 8 keynotes](http://www.linaro.org/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/) that included:
-
-
-
 
   * [George Grey - CEO Linaro ](http://lce-13.zerista.com/event/member/79585), [Google+ Event Listing](https://plus.google.com/events/c7nkdlrtl8j6cno00fu15gf6dos?partnerid=gplp0), [Video (YouTube)](http://youtu.be/cQ6Kp8R5aow), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Opening%20Keynote-%20George%20Grey%20-%20CEO%20Linaro.mp4), [Presentation](http://www.linaro.org/documents/download/edc5e8e3d27e0001c0ef976858b3b3a651da61bb580c0)
 
@@ -62,43 +51,17 @@ There were [5 plenaries with 8 keynotes](http://www.linaro.org/2013/07/19/linaro
 
   * [Keynote:  David Rusling](http://lce-13.zerista.com/event/member/79665), [Google+ Event Listing](https://plus.google.com/u/0/events/csko8l0vmn8rsd30lrpr72tncm8), [Video (YouTube)](http://youtu.be/2EWg5tOjhm4), [Presentation](http://www.linaro.org/documents/download/ecf75957d5e6de0c74f000444c7cdd5251e5987b1b627)
 
-
-
-
 ## 64-bit Porting Project with Jon Maddog Hall
-
-
-
-
 
 Highlights from this week included Jon maddog Hall and his work on the 64bit porting project that Steve McIntyre of Linaro Enterprise Group (LEG) outlined on his blog post [Scanning for assembly code in Free Software packages](http://blog.einval.com/).  The [full report](https://wiki.linaro.org/LEG/Engineering/OPTIM/Assembly) which maddog will be working from to build community around the code that would need to be ported to work well on 64-bit ARM architecture. Leading up to LCE13 maddog explained in a [company wide Google+ Hangout on Air ](http://youtu.be/CikM676zpi0)the work he would be doing.  During LCE13 David Rusling took a moment to [interview maddog](http://youtu.be/7wijAKFACYY) about that project and later in the week maddog [presented the project to all](http://youtu.be/W7fwu4t5Gtc) those who were interested.
 
-
-
-
-
 ## LAVA! LAVA! LAVA!
-
-
-
 
 LAVA continues to be a hot topic (yes, pun intended) and LCE13 showcased why. There were [10 LAVA team hosted sessions](http://lce-13.zerista.com/event?owner=other&owner_id=453800&terms=LAVA+&event_page=1&tag_ids=76395&start=&event_order=start) which included a Testing and Validation mini-summit, a [LAVA-LMP demonstration](http://youtu.be/3Jaf5ILvVmQ) and more.  Cole Crawford of the Open Compute Project (OCP) and [keynote speaker at LCE13](http://youtu.be/4621j5xQGMM)  even talked about the importance of LAVA-LMP the OCP community [in his interview](http://youtu.be/7FYt-nE6rgo).  LAVA and LAVA-LMP is one of those game changers on the ARM hardware testing front.  In his LCE13 [interview, Tyler Baker](http://youtu.be/Znru9cMsLNg) of the LAVA team discusses how LAVA is improving the lives of Linux kernel developers in the ARM space, as well as how LAVA is improving the workflow for developers and how LAVA is evolving. Alan Bennett, Tech Lead for the LAVA team also took [a moment to tell people](http://youtu.be/bn8NVAZp6aI) about LAVA, LMPs, test and validation and more in his interview.
 
-
-
-
-
 ## big.LITTLE Software Update
 
-
-
-
 During LCE13 George Grey, Linaro CEO took a [moment to blog](http://www.linaro.org/2013/07/10/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](http://www.linaro.org/2013/07/10/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
-
-
-
-
-
 
 
   * Current Status as at end of H1 2013
@@ -125,13 +88,7 @@ During LCE13 George Grey, Linaro CEO took a [moment to blog](http://www.linaro.o
   * Real Life Results
 
 
-
-
 If you need more information on big.LITTLE ARM has published further information on configurations and performance in a blog entry [here](http://blogs.arm.com/soc-design/1009-ten-things-to-know-about-biglittle).
-
-
-
-
 
 ## LCE13 Demo Friday Event
 
@@ -146,11 +103,6 @@ In addition to the KVM on ARM demo there were more than 15 other demos. LEG, LAV
 
 
 Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.youtube.com/user/linaroorg). (More videos will be added to this channel next week)
-
-
-
-
-
 
 
   * LAVA (Linaro Automated Validation Architecture) Demo from Alan Bennett and Tyler Baker at LCE13  - [http://youtu.be/j7pZeV0AKZU](http://youtu.be/j7pZeV0AKZU)
@@ -206,9 +158,6 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
 
 ## Panel Discusion and Wrap Up
 
-
-
-
 David Rusling and guests take questions from the audience about anything ARM, Linaro, and Linaro Connect related.  This panel discussion was followed by Joe Bates, Linaro VP of Member Services who delivered a humorous yet insightful wrap-up of all the week's success.
 
 
@@ -225,11 +174,6 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 ### Monday 8 July 2013
-
-
-
-
-
 
   * **8:30 AM - 9:00 AM** - [Opening Keynote: George Grey - CEO Linaro ](http://lce-13.zerista.com/event/member/79585), [Google+ Event Listing](https://plus.google.com/events/c7nkdlrtl8j6cno00fu15gf6dos?partnerid=gplp0), [Video (YouTube)](http://youtu.be/cQ6Kp8R5aow), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Opening%20Keynote-%20George%20Grey%20-%20CEO%20Linaro.mp4), [Presentation](http://www.linaro.org/documents/download/edc5e8e3d27e0001c0ef976858b3b3a651da61bb580c0)
 
@@ -279,10 +223,6 @@ If you’re looking for a particular session or maybe you missed the live stream
 ### Tuesday 9 July 2013
 
 
-
-
-
-
   * **8:30 AM - 9:00 AM** - [Tuesday Keynote - Wannes De Smet](http://lce-13.zerista.com/event/member/79608),[Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20ARM%20Server%20Keynote.mp4), [Presentation](http://www.linaro.org/documents/download/69024f5c6739ed95da261f9f98eb347e51dbc61c56634)
 
 
@@ -321,7 +261,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **12:00 PM - 1:00 PM** - [Common Display Framework (CDF) Architecture and Implementation](http://lce-13.zerista.com/event/member/79619), [Etherpad](http://pad.linaro.org/p/LCE13_Common_Display_Framework_(CDF)_Status_and_Design), [Google+ Event Listing](https://plus.google.com/u/0/events/ctp1npinh9qu7sqftnsrnmvno8c), [Video (YouTube)](http://youtu.be/INfRM9Ep-P4), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Common%20Display%20Framework%20%2528CDF%2529%20Architecture%20and%20Implementation.mp4)
+  * **12:00 PM - 1:00 PM** - [Common Display Framework (CDF) Architecture and Implementation](http://lce-13.zerista.com/event/member/79619), [Etherpad](http://pad.linaro.org/p/LCE13_Common_Display_Framework_(CDF)\_Status_and_Design), [Google+ Event Listing](https://plus.google.com/u/0/events/ctp1npinh9qu7sqftnsrnmvno8c), [Video (YouTube)](http://youtu.be/INfRM9Ep-P4), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Common%20Display%20Framework%20%2528CDF%2529%20Architecture%20and%20Implementation.mp4)
 
 
   * **12:00 PM - 1:00 PM** - [Test and Validation Summit:  The future of testing at Linaro](http://lce-13.zerista.com/event/member/79639), [Etherpad](http://pad.linaro.org/p/Test_and_Validation_Summit__The_future_of_testing_at_Linaro), [Google+ Event Listing](https://plus.google.com/u/0/events/cj9o7d3vf6p9pd4nca68c4s7uag), [Presentation](http://www.linaro.org/documents/download/32170cd2301980bc235a80d116595ffd51e55eb5834c8) (This session was not recorded)
@@ -329,15 +269,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
   * **12:00 PM - 1:00 PM** - [Virtualization Forum](http://lce-13.zerista.com/event/member/80428), [Etherpad](http://pad.linaro.org/p/Virtualization_Forum), [Google+ Event Listing](https://plus.google.com/u/0/events/cn99060ad6hou6dp9451anqrod8), [Video (YouTube)](http://youtu.be/DU7uhYNgYTo), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Virtualization%20Forum.mp4), [Presentation](http://www.linaro.org/documents/download/7f49d2460fa1ed6022f0d2f8dc580b6b51dbec189f0da)
 
-
-
-
 ### Wednesday 10 July 2013
-
-
-
-
-
 
   * **8:15 AM - 8:35 AM** - [Keynote- Cole Crawford](http://lce-13.zerista.com/event/member/81944), [Google+ Event Listing](https://plus.google.com/u/0/events/cd6jp4ehbuntib9pnrp89qppc2c), [Video (YouTube)](http://youtu.be/4621j5xQGMM), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Wednesday%20Keynote-%20Cole%20Crawford.mp4)
 
@@ -364,9 +296,8 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **10:00 AM - 10:45 AM** - [Engineering Builds - Reviews](http://lce-13.zerista.com/event/member/79617), [Etherpad](http://pad.linaro.org/p/Engineering_Builds_-_Reviews), [Google+ Event Listing](https://plus.google.com/u/0/events/cunq1bqb07fi1ko1tgb78cqfnl4),[ Video (YouTube),](http://youtu.be/Cl5gYOI2aUs) [Video (Linaro Server)](about:blank), Presentation
 
 
-  * **10:00 AM - 10:45 AM** -[Heterogeneous System Architecture (HSA) on ARM](http://lce-13.zerista.com/event/member/80324), [Etherpad](http://pad.linaro.org/p/Heterogeneous_System_Architecture_(HSA)_on_ARM), [Google+ Event Listing](https://plus.google.com/u/0/events/cgplkdisngdbdvttqdhamqmnesk), [Video (YouTube),](http://youtu.be/6e_jUKVImVc) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Heterogeneous%20System%20Architecture%20%2528HSA%2529%20on%20ARM.mp4), [Presentation](http://www.linaro.org/documents/download/de373c5e7c4d43330ad89641f2060bf151de99767830d)
-
-
+  * **10:00 AM - 10:45 AM** -[Heterogeneous System Architecture (HSA) on ARM](http://lce-13.zerista.com/event/member/80324), [Etherpad](http://pad.linaro.org/p/Heterogeneous_System_Architecture_(HSA)
+  \_on\_ARM), [Google+ Event Listing](https://plus.google.com/u/0/events/cgplkdisngdbdvttqdhamqmnesk), [Video (YouTube),](http://youtu.be/6e_jUKVImVc) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Heterogeneous%20System%20Architecture%20%2528HSA%2529%20on%20ARM.mp4), [Presentation](http://www.linaro.org/documents/download/de373c5e7c4d43330ad89641f2060bf151de99767830d)
 
 
   * **11:00 AM - 12:00 AM** - [Real-Time and Foundational Features for Networking Space](http://lce-13.zerista.com/event/member/79649),[Etherpad](http://pad.linaro.org/p/Real-Time_and_Foundational_Features_for_Networking_Space), [Google+ Event Listing](https://plus.google.com/u/0/events/c3qakr94mt6l1hg6rnqe4hf7e68), [Video (YouTube)](http://youtu.be/Q2zMReEs0Ik), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Real-Time%20and%20Foundational%20Features%20for%20Networking%20Space.mp4), [Presentation](http://www.linaro.org/documents/download/c3f339ff6741f1f5de7fd2555876f3c951e6e1ba754ff)
@@ -389,21 +320,14 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **12:00 PM - 1:00 PM** - [Linaro Requirements Lifecycle](http://lce-13.zerista.com/event/member/79577), [Etherpad](http://pad.linaro.org/p/Linaro_Requirements_Lifecycle), Presentation This session was not recorded.
 
 
-
-
 ### Thursday 11 July 2013
-
-
-
-
-
 
   * **8:30 AM - 9:00 AM** -[ Keynote:  Bob Monkman](http://lce-13.zerista.com/event/member/79647), [Google+ Event Listing](https://plus.google.com/u/0/events/cv0np67uol8fff1as3sq58fola0),[ ,](https://www.youtube.com/watch?v=uwx4-m5f_Vw) [Video (YouTube)](http://youtu.be/uwx4-m5f_Vw)[Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/Thursday%20Keynote-%20Bob%20Monkman.mp4), [Presentation](http://www.linaro.org/documents/download/68973aadf85121b747bf209e9a9a276c51de8e0c872fa)
 
 
 
 
-  * **9:00 AM - 10:00 AM** - [Virtualization (KVM) for Networking](http://lce-13.zerista.com/event/member/81079), [Etherpad](http://pad.linaro.org/p/Virtualization_(KVM)_for_Networking), [Google+ Event Listing](https://plus.google.com/u/0/events/cni7dn4ji9bndjvkq0ur3qf8j2o), [Video (YouTube)](http://youtu.be/24RYNyRGfVU), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/Virtualization%20%2528KVM%2529%20for%20Networking.mp4)
+  * **9:00 AM - 10:00 AM** - [Virtualization (KVM) for Networking](http://lce-13.zerista.com/event/member/81079), [Etherpad](http://pad.linaro.org/p/Virtualization_(KVM)\_for\_Networking), [Google+ Event Listing](https://plus.google.com/u/0/events/cni7dn4ji9bndjvkq0ur3qf8j2o), [Video (YouTube)](http://youtu.be/24RYNyRGfVU), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/Virtualization%20%2528KVM%2529%20for%20Networking.mp4)
 
 
   * **9:00 AM - 10:00 AM** -[ eMMC Status and Updates](http://lce-13.zerista.com/event/member/79648), [Etherpad](http://pad.linaro.org/p/LCE13_eMMC_Status_and_Updates), [Google+ Event Listing](https://plus.google.com/u/0/events/c2ubchtsh1lsjkspsbkn488jbmk), [Video (YouTube)](http://youtu.be/K-20aWveaIE), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/eMMC%20Status%20and%20Updates%20(1).mp4) [Part 2](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/eMMC%20Status%20and%20Updates.mp4) ,[ Presentation](http://www.linaro.org/documents/download/19266d69db08ded1531506feacb0957e51de5d015631f)
@@ -450,13 +374,7 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **2:00 PM - 4:00 PM** - [LAVA Workshop II - Adding 3rd Party Boards to LAVA](http://lce-13.zerista.com/event/member/80845), [Etherpad](http://pad.linaro.org/p/LCE13_LAVA_Adding_3rd_Party_Boards), [Google+ Event Listing](https://plus.google.com/u/0/events/c2rk4e3eru9l8t50d5vkeqpdgu8), [Video (YouTube)](http://youtu.be/2650zzSApV8), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/11_July_2013_Thursday/Advanced%20LAVA%20Lab%20configuration.mp4), [Presentation](http://www.linaro.org/documents/download/91edcb145004eed09f7f53053a6d87e651e56208bdfd6)
 
 
-
-
 ### Friday 12 July 2013
-
-
-
-
 
 
   * **8:30 AM - 9:00 AM** - [Keynote:  David Rusling](http://lce-13.zerista.com/event/member/79665), [Google+ Event Listing](https://plus.google.com/u/0/events/csko8l0vmn8rsd30lrpr72tncm8), [Video (YouTube)](http://youtu.be/2EWg5tOjhm4), [Presentation](http://www.linaro.org/documents/download/ecf75957d5e6de0c74f000444c7cdd5251e5987b1b627)

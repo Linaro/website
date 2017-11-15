@@ -37,9 +37,6 @@ group_members:
       - name: Arm
         image: arm.jpg
         url: /company/arm/
-      - name: Canonical
-        image: canonical.jpg
-        url: /company/canonical/
       - name: Cavium
         image: cavium.jpg
         url: /company/cavium/
@@ -224,7 +221,6 @@ lmg_members:
        - name: Texas Instruments
          image: ti.jpg
          url: /company/texas-instruments/
-
 lite_members:
        - name: Acer
          image: acer.png
@@ -232,9 +228,6 @@ lite_members:
        - name: Arm
          image: arm.jpg
          url: /company/arm/
-       - name: Canonical
-         image: canonical.jpg
-         url: /company/canonical/
        - name: Hisilicon
          image: hisilicon.jpg
          url: /company/hisilicon/
@@ -259,6 +252,28 @@ lite_members:
        - name: Xilinx
          image: xilinx.jpg
          url: /company/xilinx/
+hpc_members:
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Fujitsu
+        image: fujitsu.jpg
+        url: /company/fujitsu/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
+      - name: Qualcomm Datacenter Technologies
+        image: QualcommDatacenter.png
+        url: /company/qualcomm-datacenter-technologies/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
 steering_committee:
       - name: Actions
         image: actions.jpg
@@ -275,9 +290,6 @@ steering_committee:
       - name: Arrow Electronics
         image: arrow.jpg
         url: /company/arrow/
-      - name: Canonical
-        image: canonical.jpg
-        url: /company/canonical/
       - name: Hisilicon
         image: hisilicon.jpg
         url: /company/hisilicon/
@@ -320,6 +332,9 @@ steering_committee:
       - name: ThunderSoft
         image: thundersoft.jpg
         url: /company/thundersoft/
+      - name: Xilinx
+        image: xilinx.jpg
+        url: /company/xilinx/
 manufacturing_partners:
     - name: Archer Mind
       image: archermind.jpg

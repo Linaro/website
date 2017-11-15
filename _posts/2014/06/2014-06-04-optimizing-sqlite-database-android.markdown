@@ -1,6 +1,5 @@
 ---
 author: edmund.szeto
-
 date: 2014-06-04 14:35:37+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/optimizing-sqlite-database-android/
@@ -21,9 +20,6 @@ tags:
 ---
 
 Wait, what? You might be thinking "Why would a smartphone need a database? Don't those belong on major website backend servers?" Yes, that is true for large client-server databases such as online accounts for an eCommerce website implemented using MySQL. However, Android supports SQLite, a lighter weight database management system that does not require a server backend. SQLite is very useful for smaller collections of data, such as application settings, bookmarks in browsers, high scores in games, etc. The support for SQLite is available natively in the Android OS, and is thus widely used by many Android apps. As such, it is beneficial to optimize the performance of SQLite in Android and hopefully lead to an overall improvement. **So how do we attack the task to improve the performance of SQLite? There are three main places to look:**
-
-
-
 
   * **The actual SQLite implementation**
 

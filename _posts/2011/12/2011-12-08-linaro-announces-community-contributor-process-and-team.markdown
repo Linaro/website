@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-12-08 19:00:49+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-community-contributor-process-and-team/
@@ -11,21 +10,11 @@ categories:
 - blog
 tags:
 - Community
-
 ---
-
-
 
 Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://launchpad.net/~linaro-community-contributors).
 
 [Linaro](http://www.linaro.org/) itself is now an organisation of around 120 engineers, but as we continue to grow the community around us is also growing fast. We're grateful to the many people who are participating in our success, and so we're introducing the Community Contributor process to recognise those community members who have sustained contributions over a significant period of time. Our Technical Leads now have the opportunity to nominate an individual as a Community Contributor of Linaro.
-
-
-
-
-
-
-
 
 "When we founded Linaro we had no idea we'd have this amount of engagement and interest from this really broad community of developers interested in Linux on ARM. Interacting with them has been by far the most rewarding part of my role as VP of Engineering (sometimes known as VP of Troublemaking!),” says Linaro’s Engineering VP, Christian Reis. “Officializing the engagement of these engineers and rewarding their participation are important steps that Linaro is undertaking to ensure we run an open forum where multiple (sometimes conflicting) perspectives are considered and converged."
 
@@ -57,13 +46,6 @@ Once that's done, the Technical Lead submits the nomination and completed Agreem
 The Community Board then will evaluate all nominations within 2 weeks of submission and all being well the community member will be welcomed as a Community Contributor. We currently have nominations and signed agreements filtering in so this is an exciting time for all of us.
 
 We place a lot of value on having a vibrant network of Community Contributors so this does mean we reserve the right to cancel an appointment at any time if we feel the Contributor is not active in using the above benefits.
-
-
-
-
-
-
-
 
 **Getting Involved**
 

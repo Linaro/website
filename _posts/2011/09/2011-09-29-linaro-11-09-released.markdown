@@ -1,26 +1,20 @@
 ---
 author: fathi.boudra
-
 date: 2011-09-29 19:31:40+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-09-released/
 slug: linaro-11-09-released
 title: Linaro 11.09 released
-wordpress_id: 581
 categories:
 - blog
 tags:
 - Releases
 ---
-
 The Linaro Team is pleased to announce the release of Linaro 11.09, the Linaro’s fourth release delivered on a monthly cadence.
 
 This release includes components delivered by all Linaro Teams: Working Groups, Landing Teams and Platform Teams. As usual, it brings a lot of updates and new features, integrated on top of Android and Ubuntu.
 
 Among the improvements brought by this release and delivered by Linaro engineers, it worths mentioning:
-
-
-
 
   * Beta release of our Continuous Integration (CI) Build Service focused on continuous large scale kernel tracking. This is a first step in support of the new Kernel Working Group developement model based on a stable tree and continuous integration of the Working Groups and Landing Teams Kernel.
 
@@ -71,41 +65,30 @@ If you are interested in getting the source and building these images yourself p
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
-
 ## Getting involved
 
 
 More information on Linaro can be found on our websites:
 
+* Homepage: 
+    [http://www.linaro.org](http://www.linaro.org/)
 
-
-
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
-
-
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
-
+* Wiki: 
+    [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
+* Announcements:
+    [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-  * Announcements:
-[http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+* Development:
+    [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-
-  * Development:
-[http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
-  * IRC:
-#linaro on irc.linaro.org or irc.freenode.net
-#linaro-android on irc.linaro.org or irc.freenode.net
-
-
-
+* IRC:
+    # linaro on irc.linaro.org or irc.freenode.net
+    # linaro-android on irc.linaro.org or irc.freenode.net
 
 ## Known issues with this release
-
 
 For any errata issues, please see:
 [http://wiki.linaro.org/Cycles/1109/Release#Known_Issues](http://wiki.linaro.org/Cycles/1109/Release#Known_Issues)

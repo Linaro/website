@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2012-01-30 10:02:49+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-jan-18-to-jan-25/
@@ -27,25 +26,12 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 ### Key Points for wider discussion
 
-
-
-
-
-
   * The 12.01  [ release ](http://releases.linaro.org/12.01/android/)of the Android Platform is done.
 
 
   * The schedule for the San Francisco Connect meeting is  [ finalized.](http://summit.ubuntu.com/lcq1-12/track/linaro-platforms/)
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * A presentation of running platforms with h/w accelerated graphics was made at the Linaro member meeting.
 
@@ -61,15 +47,7 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
   * Progress on getting Freescale based kernel into Linaro trees for iMX53.
 
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 907153	[ landing-panda's graphics enablement is broken on 4.0.3](https://bugs.launchpad.net/linaro-android/+bug/907153)
 
@@ -95,14 +73,7 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
   * 919043	[ landing-panda and aosp-panda don't boot with linaro-uboot](https://bugs.launchpad.net/linaro-android/+bug/919043)
 
 
-
-
 ### Blueprints
-
-
-
-
-
 
   * [12.01 Milestone](https://launchpad.net/linaro-android/+milestone/12.01)
 

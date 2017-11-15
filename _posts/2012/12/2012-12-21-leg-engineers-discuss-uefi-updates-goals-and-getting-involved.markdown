@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-21 19:16:52+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/
@@ -29,7 +28,7 @@ The formation of LEG was [announced](http://www.linaro.org/news/industry-leaders
 
 UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work) that [LEG](http://www.linaro.org/engineering/leg) will be working on in 2013.
 
-[caption id="attachment_2186" align="alignleft" width="960" caption="Linaro Enterprise Group (LEG) Roadmap"][![](/assets/blog/LEG-Roadmap-2012Q4.png)](https://wiki.linaro.org/LEG#Scope_of_Work)[/caption]
+{% include image.html name="LEG-Roadmap-2012Q4.png" alt="Linaro Enterprise Group (LEG) Roadmap" url="https://wiki.linaro.org/LEG#Scope_of_Work" %}
 
 More information about LEG and its goals and release schedule can be found on the [Linaro Website](http://www.linaro.org/engineering/leg) and [Wiki pages](https://wiki.linaro.org/LEG).
 
@@ -55,4 +54,4 @@ _To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/).
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit_ [Linaro Connect Website](http://www.linaro.org/connect)._
+_To find out more, please visit [Linaro Connect Website](http://www.linaro.org/connect)._

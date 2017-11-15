@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2011-12-28 17:42:08+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-dec-21-to-dec-27/
@@ -20,26 +19,11 @@ tags:
 
 Season's Greetings from Linaro! Well, for some it's working season :) This week has been slow in the western hemisphere, but at Linaro there are always a crew at work. Here's what has been acomplished last week:
 
-
-
 ### Key Points for wider discussion
-
-
-
-
-
 
   * The 11.12 Release is [ out. ](http://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * Enhanced sincos() implementation added to bionic.
 
@@ -58,51 +42,20 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
   * Good progress on WiFi integration for Snowball.
 
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 894488	[ No busybox on ICS.](https://bugs.launchpad.net/linaro-android/+bug/894488)
 
-
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * Welcome Annamalai Lakshmanan from Samsung.
 
-
-
-
 ### Issues
-
-
-
-
-
 
   * none
 
 
-
-
 ### Blueprints
-
-
-
-
-
 
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)
 

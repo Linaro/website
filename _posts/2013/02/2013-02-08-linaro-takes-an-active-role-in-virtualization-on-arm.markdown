@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-08 17:32:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-takes-an-active-role-in-virtualization-on-arm/
@@ -30,18 +29,12 @@ _**About the Linaro Virtualization Team**_
 
 _The direction of the Linaro Virtualization Team is set by the [LEG Steering Committee](https://wiki.linaro.org/LEG-SC) and [Linaro Steering Committee](https://wiki.linaro.org/TSC). Work is done by a virtual team comprised of assignees from various teams within Linaro._
 
-
-
-	
   * _Meeting: TBD_
 
-	
   * _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-	
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-	
   * _[Team Members](https://wiki.linaro.org/LEG/Engineering/Virtualization)_
 
 

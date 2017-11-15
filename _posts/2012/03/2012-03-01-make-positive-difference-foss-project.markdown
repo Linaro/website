@@ -1,6 +1,5 @@
 ---
 author: jennifer.castelino
-
 date: 2012-03-01 20:53:43+00:00
 layout: post
 link: https://www.linaro.org/blog/make-positive-difference-foss-project/
@@ -10,24 +9,11 @@ wordpress_id: 4544
 categories:
 - blog
 ---
-
 By:  Paul McKenney, Linaro OCTO
-
-
-
 
 Success in proprietary and personal projects in no way guarantees success in a FOSS project such as the Linux kernel. In fact, in my experience, only about 30% of people who try to join a FOSS project are successful, and the success rates for people attempting to start a FOSS project are even more dismal. This document lists some things you can do to improve your odds of successfully joining and contributing to a FOSS project: Information on starting your own FOSS project is left to those with actual experience.
 
-
-
-
 This document covers this area with the following sections:
-
-
-
-
-
-
 
   * What is a FOSS project?
 
@@ -58,26 +44,11 @@ This document covers this area with the following sections:
 
   * Other material
 
-
-
-
 This document is not a substitute for diving in and getting your hands dirty, but it should help you avoid some of the larger rocks on your first attempt to dive in.
-
-
-
-
 
 ### **What is a FOSS project?**
 
-
-
-
 A major reason for failure is a misunderstanding of what a FOSS project really is. Let's start with what a FOSS project is not:
-
-
-
-
-
 
 
   * Not a strict hierarchy: Linus almost never commands anyone to do anything. Instead, he usually limits himself to rejecting submissions.
@@ -103,43 +74,18 @@ A major reason for failure is a misunderstanding of what a FOSS project really
 
   * Not a group that knows who you are.
 
-
-
-
 Instead, a FOSS project is a group that has come together to develop software to solve specific problems. If you think of a FOSS project as a standards committee that produces source code rather than English prose, you won't go too far wrong. In particular, working with a FOSS project is as much about working with people as it is about working with code.
-
-
 
 
 The following sections discuss some strategies to help you work successfully with a FOSS project.
 
-
-
-
-
 ### **Do your homework**
-
-
-
 
 Most FOSS projects conduct their business on public mailing lists. This means that you can easily review their discussions in order to determine what sorts of help they might be interested in, and most especially, how they have reacted to earlier proposals similar to yours. (After all, if you didn't have a proposal in mind, you probably would not be interested in the project, right?)
 
-
-
-
 So do your homework, which includes reading the relevant portions of the project's source code and scanning the email archives for relevant discussions. If you are not sure whether a few emails are relevant or not, it is probably best to read them. (On the other hand, if you find yourself reading hundreds of irrelevant emails, you should think more carefully about what search terms you are using.) In the case of the Linux kernel, you should search lkml.org and lwn.net for keywords related to your proposal. There are quite a few additional mailing lists related to subsystems of the Linux kernel as well (Google for the keywords or see the MAINTAINERS file to determine what list to use). Read the discussions and learn why the community did not like the proposal. After all, if they did like it, they would likely have already implemented it, right? Use this information to refine and reformulate your proposal.
 
-
-
-
 In addition, the mailing lists are a great source of information on coding-style guidelines, preferred techniques and algorithms, the overall goals of the project, and the personalities of key project members. Taking all of these things into account will help you produce an acceptable contribution. For example, if the group prefers hash tables to trees, you should of course make sure that your contributions avoid trees in favor of hash tables.
-
-
-
-
-
-
-
 
 ### **Do give them the benefit of the doubt**
 
@@ -149,57 +95,21 @@ All too often, when we see our proposal (or something like it) being rejected, o
 
 ### **Prove yourself**
 
-
-
-
-
-
-
-
-
-
 Although it is natural to expect that a new group of people will have a deep appreciation of your experience, skills, and worth, such expectations are usually wildly unrealistic. After all, how
 would the members of the FOSS project know anything about you? Do you have a page in Wikipedia? Do you have published research in your area of expertise? Does your published
 research have a history of being used in practice?
 
-
-
-
 Even if you do have a page on Wikipedia or are a published researcher whose ideas are frequently used in practice, this is no guarantee that the members of the FOSS project have read about you. And even if they have read about you, this is no guarantee that they remember you. And even if they remember you, this is no guarantee that they have a positive view of you.
-
-
-
 
 You will therefore need to prove yourself to them. One excellent way of doing this is to provide a solution to a problem that they are facing. Please note that this must be a problem that they realize they face, and that they are highly motivated to solve. In other words, you need to solve a problem they know they have rather than a problem that you think that they have. The most straightforward way to do this is to provide a fix to a bug that they already recognize as a bug.
 
-
-
-
 Please note that I am not asking you to do anything that I have not done myself.  My being the world's expert on RCU in the early 2000s did not enable me to ignore the concerns of the Linux kernel community, despite the fact that they were not yet up to speed on SMP scalability in general, let alone RCU in particular. The version of RCU that Dipankar Sarma eventually got accepted into the Linux kernel did resemble my original design more than it did any of the competing proposals, but: (1) my original design was improved significantly by all the feedback, (2) the discussion helped Dipankar and I learn quite a bit about the Linux kernel, and (3) the discussion helped the Linux kernel maintainers learn quite a bit about RCU. For more details on this journey, see:
-
-
-
 
 [http://web.cecs.pdx.edu/~walpole/papers/OSRepilog.pdf](http://web.cecs.pdx.edu/~walpole/papers/OSRepilog.pdf)  -- The next challenge is getting your fix accepted. This works quite a bit differently in FOSS projects than in proprietary projects.
 
-
-
-
-
 ### **Getting a bugfix accepted**
 
-
-
-
 So you found a problem that all of the members of the project agreed constituted a critical bug, produced a fix, ensured that your fix adhered to the groups preferences on code style and algorithms, and you did appropriate testing. If you are lucky, your patch will be accepted directly. However, you will need to be prepared to update your patch based on feedback, for example, for the following reasons:
-
-
-
-
-
-
-
-
 
   * The bug had some non-obvious implications that your fix did not address.
 
@@ -213,32 +123,13 @@ So you found a problem that all of the members of the project agreed constituted
   * One of the participants is working on a feature that conflicts with your fix.
 
 
-
-
-
-
-
 If your patch does get accepted immediately, well and good! But you should be prepared for a bit of back-and-forth before it is accepted. Either way, getting a series of bug fixes accepted is an excellent way to build trust with the members of the FOSS project.
 
-
-
-
-
 ### **Responding to "open and honest" feedback**
-
-
-
-
-
 
 Sometimes the feedback to your patches will be helpful and polite. Sometimes it will be anything but. The feedback might well look a lot like an attack on you personally, and it might also appear to be an attack on your  employer. Regardless of how the feedback looks, you must interpret it and respond to it as feedback on your technical work not as an attack on your employer or on you personally.
 
 Always remember that the irritation from angry feedback is momentary, but an ill-considered response on an open email list is archived forever. It is therefore critically important to respond only to the technical points raised in an angry feedback email. Respond in a calm and professional manner. This is harder than is sounds, but there are a number of things you can do to make it easier:
-
-
-
-
-
 
 
   * Sleep on it before replying. For whatever reason, lack of sleep makes us more likely to interpret honest feedback as an attack. Very often, things look better the next morning. 
@@ -251,26 +142,9 @@ Always remember that the irritation from angry feedback is momentary, but an ill
 
 
 
-
-
-
-
 Yes, people should avoid giving angry feedback. But to err is human, and FOSS community members are just as human as the next guy.
 
-
-
-
-
-
-
-
-
 So why is the burden on you instead of on the existing project members? Simple. -You- are the outsider who is trying to get a patch in. Unfair, perhaps, but if you are only capable of winning fair contests, you will be losing  a very large number of contests.   All that aside, it is also important to react thoughtfully to the technical component of the feedback, instead of just reacting. The following list is a good general guide:
-
-
-
-
-
 
 
   * If the requested change is trivial or obviously correct, just make the change and resubmit the patch. 
@@ -288,23 +162,7 @@ So why is the burden on you instead of on the existing project members? Simple. 
   * If a lot of the comments focus on an unimportant part of your patch, offer to remove or postpone that part of your patch in order to speed up acceptance of the important parts.
 
 
-
-
 ### **Getting a new feature accepted**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 New features are more difficult than bug fixes because while most people will agree on the necessity of a bug fix, many of them will resist a new feature unless that feature is something that they need or are interested in. In addition, accepting a new feature is an act of trust.  Accepting a new feature is like accepting a puppy: It is initially very cute, but it will grow up to be a dog, and just who is going to feed it, care for it, and clean up after it? Are you committing to maintain the feature indefinitely, or will you cut and run as soon as your feature is accepted? Sure, you can -say- that you are committing to maintain the feature indefinitely, but why should they believe you?
 
@@ -318,47 +176,19 @@ So how do you recognize potential allies? Usually because they are the ones init
 
 Finally, different types of changes require different levels of trust. For example, in the Linux kernel, the following types of changes are ordered by increasing levels of trust required:
 
-
-
-
-  *  Bug.
-
+  * Bug.
 
   * New device driver that uses existing interfaces.
 
-
-  *
-
-
-Cleanup of existing isolated code.
-
-
-
-
+  * Cleanup of existing isolated code
 
   * Consolidation of similar existing code into a common module. 
 
-
-  *
-
-
-Global cleanup of identical code.
-
-
-
-
+  * Global cleanup of identical code.
 
   * Introduction of new infrastructure to be used by other code. 
 
-
-  *
-
-
-Additional copy of existing infrastructure to be used in a new way.
-
-
-
-
+  * Additional copy of existing infrastructure to be used in a new way.
 
   * Addition of new user-visible interfaces (syscalls, ioctls, ...) 
 
@@ -372,9 +202,6 @@ The worst thing that can happen to you is to be ignored. Again, this is why you 
 
 
 Whatever your first patch, the maintainer will want some changes. After all, people usually want more, no matter how much they are given. However, it is also true that you will need some trial and error to learn what the maintainer really wants. So yes, do your homework beforehand, but also expect to learn more after submitting the patch. More importantly, send out a prototype patch sooner rather than later, and release updates frequently. This will be difficult if you are used to releasing software only after it is "done", but this advice has a number of benefits:
-
-
-
 
   * It reduces the amount of rework you will need to do. Getting feedback on your high-level design will prevent wasting time producing bad code from a bad design.  
 
@@ -408,19 +235,10 @@ Achieving full fluency seems to require about five years full-time work programm
 
 For more on the concept of fluency and methods for attaining it, see the books "Outliers" and "Talent is Overrated".
 
-
-###
-
-
-
-
 ### **Succeeding Without Fluency**
 
 
 But maybe you cannot afford to to wait five years, or even the 2.5 years that would be required if you program 80 hours per week. Here are some things that can help:
-
-
-
 
   * Do your homework really really well, so that you only need to write the code from scratch 2-3 times rather than 10-20 times. 
 
@@ -430,31 +248,15 @@ But maybe you cannot afford to to wait five years, or even the 2.5 years that wo
 
   * Assign the people who are most passionate about programming to interact with open-source communities. 
 
-
-
-
-
-
-
 ### **Do Your Homework**
 
 
 If your contribution will require 1,000 lines of code, and if you can produce 10 lines of code per day, then each rewrite will consume 100 days, or about 3-4 months. If you need to get your contribution accepted within a year, you can only afford three from-scratch implementations. This means that you will need to converge quickly on a version that is acceptable to the community, which in turn means that you will need to do an excellent job of doing your homework on the community's culture and code base. Of course, if you do your homework perfectly, your first attempt will be accepted, but this almost never happens. When it does, make sure to celebrate appropriately!
 
-
-
-
-
-
-
-
 ### **The Front Man (or Woman)**
 
 
 Another approach is to have ten people each writing 100 lines of code, thus producing the required 1,000 lines in only ten days. However, you should first read the classic "The Mythical Man-Month" by Frederick Brooks. Besides, if all ten coders interact individually with the community, chaos will ensue. One way to avoid chaos is for your team of programmers to have a "front man" (or woman) interacting with the community. The "front man" job is intense, often consuming more than 80 hours per week due to the large amount of communication required. In addition, substantial experience with software is required, along with excellent inter-personal skills. That said, I have seen this model used successfully in a number of cases, at least for modest time periods (a few years). Longer term, you should slowly introduce the individual members of the team to the community. Of course, the person who is in the best position to work out who to introduce when is the front man. Given that this is also the person who might be most threatened by a successful relationship between team members and the community... Suffice it to say that the front-man approach is not without serious risks. However, sometimes it is the only viable approach.
-
-
-
 
 
 ### **Let the Passionate Lead**
@@ -463,26 +265,10 @@ Another approach is to have ten people each writing 100 lines of code, thus prod
 The third approach is up to the individual developer: The developer takes on the open-source project as a hobby instead of merely as a job. This may sound strange, but the plain fact is that hobbyists have made many valuable contributions to the Linux kernel. In addition, people who have a passion for a given project are the ones who will invest the time required to become fluent. However, this is the individual developer's personal choice, and cannot be coerced or otherwise planned for. But you might choose the person with the most passion for programming for open-source assignments.
 
 
-
-
-
-
-
-
 ### **Coping With Requests/Demands for Changes: Summary**
 
 
 The key point is that contributing to a community requires more than just a single prototype of the needed code. Although there are a number of approaches that will work, you will need to carefully map out your strategy based on the capabilities and passions of the available developers.
-
-
-
-
-
-
-
-
-
-
 
 
 ### **Open-source licensing issues**
@@ -509,8 +295,6 @@ All that aside, the most important thing that an organization needs with respect
 
 
 The following files in the Linux source tree should be read before submitting anything to the Linux kernel community:
-
-
 
 
   * Documentation/SubmitChecklist

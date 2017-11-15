@@ -1,6 +1,5 @@
 ---
 author: george.grey
-
 date: 2014-01-14 21:22:02+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-2013-year-end-review/
@@ -25,14 +24,11 @@ tags:
 - toolchain
 - tools
 ---
-
 It’s the traditional time of year to look back and reflect on the last 12 months. Linaro’s continued growth has led to more engineering output and new challenges. Looking forward we want to build on the successes, learn from those challenges, and deliver increasing benefit to all our members in 2014.
 
 With growth in membership and resources Linaro has been able to deliver more than in any previous year, and many building blocks for 2014 are already in place.
 
-
 ### **Let’s quickly summarize some of the achievements:**
-
 
 [Membership](http://www.linaro.org/members) has grown to two Core members, six Club members and 16 Group members. This has enabled Linaro to grow to 106 employees and 95 assignees – providing a $40M+ engineering organization working on the ARM software ecosystem directed by, and for the benefit of, its members.
 
@@ -50,15 +46,11 @@ The [Linaro Networking Group (LNG)](http://www.linaro.org/engineering/engineerin
 
 
 ### **Looking Forward****
-**
-
 
 While much of our work is common to ARMv7 and ARMv8 it is clear that the major story of 2014 is going to be the delivery of multiple ARMv8 SoCs into the market targeting multiple segments – mobile, digital home, networking equipment and servers. Much of our work over the last two years will come to fruition as these products roll out with Linux distributions including Android, Ubuntu and Red Hat, incorporating many technical contributions from Linaro and its members.
 
 
-### **Making the most of Linaro Membership
-**
-
+### **Making the most of Linaro Membership**
 
 As the year comes to an end members ask “how to quantify the ROI from Linaro”? The follow up is often “What do members get that non-members don’t?”
 
@@ -66,14 +58,8 @@ A simple analysis shows that members are realizing an increasing ROI as membersh
 
 The apparent paradox can be resolved only by understanding the difference between working within the open source community effectively, and simply using the output. Followers try to do the latter with decidedly mixed results. Products take longer to get to market, and development cost and maintenance cost increases over time. Leaders, including Linaro’s members, realize that to truly extract the maximum value from open source you must be part of the engineering effort that collaboratively creates it.
 
-
 ### **An ARM SoC vendor can take one of three positions:**
 
-
-
-
-
-	
   1. Software is not important to our business plan – we just deliver silicon.
 
 	
@@ -81,7 +67,6 @@ The apparent paradox can be resolved only by understanding the difference betwee
 
 	
   3. Software is important and business success comes from investing in open source development to reduce costs, enabling further investment in proprietary innovation.
-
 
 **I would argue that the first option is no longer a tenable strategy**. Customers demand high quality software, and ARM SoC differentiation and innovation requires excellent software support that meets the needs of the various application ecosystems. 
 

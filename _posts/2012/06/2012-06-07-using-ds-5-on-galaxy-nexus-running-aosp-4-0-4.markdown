@@ -1,6 +1,5 @@
 ---
 author: vishal.bhoj
-
 date: 2012-06-07 17:16:11+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/using-ds-5-on-galaxy-nexus-running-aosp-4-0-4/
@@ -34,18 +33,24 @@ Download the boot image from here:
 You will need  an unlocked galaxy nexus running AOSP 4.0.4.
 Test the above boot image by soft booting it to see that it works with the build running on your device . To do that, reboot the device into fastboot mode and boot with above image:
 
+```
 #adb reboot bootloader                                    // should get you to bootloader mode
 #fastboot boot boot_gator.img                     // boots the image with gator module
+
+```
 
 You can then connect over adb and check that gatord daemon is running to confirm that device can work with DS-5.
 
 If everything seems to be stable then flash the boot image:
 
+```
 #adb reboot bootloader
 #fastboot flash  boot boot_gator.img
+```
 
 Here is a video on how to setup and use DS-5 Streamline for app developers:
-http://www.youtube.com/watch?v=LgRHpRI6C_4
+
+{% include media.html media_url="http://www.youtube.com/watch?v=LgRHpRI6C_4" %}
 
 One can connect to device by typing the IP address of  the phone in streamline configuration. DS-5  won't be able to give GPU activity on Galaxy Nexus since GPU on OMAP4 is not supported by DS-5 .
 

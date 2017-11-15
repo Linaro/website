@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-09-21 05:30:28+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-kernel-2011-09-release/

@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-11-11 16:28:12+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-2011-11-released/
@@ -25,9 +24,6 @@ Linaro GCC 4.6 2011.11 is the ninth release in the 4.6 series.  Based off the la
 
 Interesting changes include:
 
-
-
-
   * Updates to 4.6.2
 
 
@@ -51,14 +47,9 @@ Interesting changes include:
 
   * Support for scheduling register moves in SMS
 
-
-
 Fixes:
 
-
   * LP: [#836401](http://launchpad.net/bugs/836401) ICE on a | (b << negative-constant)
-
-
 
 The source tarballs are available from:
 [https://launchpad.net/gcc-linaro/+milestone/4.6-2011.11](https://launchpad.net/gcc-linaro/+milestone/4.6-2011.11)

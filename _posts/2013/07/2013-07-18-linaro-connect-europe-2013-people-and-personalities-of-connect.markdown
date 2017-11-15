@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-07-18 15:14:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/
@@ -33,31 +32,17 @@ Last but not least, is [Cole Crawford](http://www.opencompute.org/2012/11/16/col
 
 Check out these videos and more on our [LinaroOrg](http://www.youtube.com/user/LinaroOrg) and [Linaro OnAir](http://www.youtube.com/user/LinaroOnAir) Youtube Channels.
 
-
-# 
-
-
-
-
 # Jon 'Maddog' Hall
-
-
-
 
 Linaro CTO, David A Rusling discusses Maddog's involvement with Linaro on a project to port linux code to the ARM 64-bit processor.  This project is based of [a report](with Jon Maddog Hall including a ) done by Steve McIntyre of the Linaro Enterprise Group (LEG).
 
 
 # Google Glass as worn by Jon Masters at LCE13
 
-
-
-
 Jon Masters of Red Hat talking with Amber Graner about Linaro Connect as seen through his Google Glass, as well as discussing Red Hat, ARM 64-bit etc.
 
 
 # Leslie Hawthorn, Red Hat Interview at LCE13
-
-
 
 Leslie talks about how she developed her keynote talk. The need for discussion about open collaboration, what she is enjoying about Linaro Connect Europe and what she is looking forward to on the ARM front.
 
@@ -65,30 +50,20 @@ Leslie talks about how she developed her keynote talk. The need for discussion a
 # Larry Wikelius Interviewed at Linaro Connect Europe (LCE13)
 
 
-
-
 Larry Wikelius of Calxeda at Linaro Connect Europe (LCE13) talking with Amber Graner about 64-bit ARM Server
 
 
 # LCE 13: Alan Bennett talking LAVA with Amber Graner
-
-
-
 
 Linaro Connect (LCE 13): Alan Bennett, Linaro LAVA Engineering Manager talking LAVA, LMPs, test and validation, etc with Amber Graner.
 
 
 # Tyler Baker, Technical Architect, LAVA discusses how LAVA is improving Developer Workflow and more.
 
-
-
-
 Tyler discusses how LAVA is improving the lives of Linux kernel developers in the Linux on ARM space. How LAVA is improving the workflow for developers and how LAVA is evolving.
 
 
 # Andrea Gallo interviewed at LCE 13 discussed Connect, ACPI, Open JDK, etc.
-
-
 
 Andrea Gallo Director of the Linaro Engineering Group (LEG) interviewed by Amber Graner at Linaro Connnect Europe 13.
 
@@ -108,8 +83,6 @@ Rob Booth, Linaro COO at Linaro Connect Europe 13 giving his views to Amber Gran
 
 
 # LCE13 interview with Cole Crawford of the Open Compute Project
-
-
 
 
 LCE13 interview with Cole Crawford of the Open Compute Project by Amber Graner talking Community, Data Centre, At Scale Computing etc.

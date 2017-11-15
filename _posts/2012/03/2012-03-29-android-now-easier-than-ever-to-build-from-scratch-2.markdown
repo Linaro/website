@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-03-29 20:37:41+00:00
 layout: post
 link: https://www.linaro.org/blog/android-now-easier-than-ever-to-build-from-scratch-2/
@@ -14,25 +13,15 @@ categories:
 Building products from source is always hard, and Android can be one of the worst. We get a lot of questions at Linaro about how to reproduce our builds. This month the Android team spent some time helping make this as easy as possible.
 
 Android builds now include two small shell scripts:
-
-
-
 	
   * linaro_android_build_cmds.sh
 
 	
   * linaro_kernel_build_cmds.sh
 
-
-
-
 ### linaro_android_build_cmds.sh
 
-
 This script will reproduce an entire Android build for you. It performs several actions for the user:
-
-
-
 	
   * Ensure packages required for build are installed.
 
@@ -47,8 +36,6 @@ This script will reproduce an entire Android build for you. It performs several 
 
 
 The script is fairly short, so you can take bits and pieces of it to include in your own work flow.
-
-
 
 ### linaro_kernel_build_cmds.sh
 

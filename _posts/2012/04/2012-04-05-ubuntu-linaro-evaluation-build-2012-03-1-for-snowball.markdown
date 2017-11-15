@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2012-04-05 14:55:56+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/ubuntu-linaro-evaluation-build-2012-03-1-for-snowball/
@@ -58,8 +57,6 @@ and
 Main supported features
 
 
-
-
   * Based on Linux 3.3.0 and the Linaro Ubuntu desktop file system
 
 
@@ -101,8 +98,8 @@ Features to be included in future releases
 
 Known limitations
 
-
   * USB OTG host mode is working only in a limited fashion:
+  
 [http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue](http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue)
 
 

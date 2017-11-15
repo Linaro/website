@@ -1,6 +1,5 @@
 ---
 author: jennifer.castelino
-
 date: 2014-04-28 14:34:21+00:00
 layout: post
 link: https://www.linaro.org/blog/welcome-redesigned-linaro-org-website/
@@ -22,37 +21,24 @@ Immediately you will notice streamlined menus, simple navigation and access to t
 
 **Three things you’ll love about the new Linaro website:**
 
+  * **Homepage** – [at a glance](http://www.linaro.org/), see upcoming events, quick links to team updates, direct links to the latest downloads.
 
-
-	
-  * **Homepage **– [at a glance](http://www.linaro.org/), see upcoming events, quick links to team updates, direct links to the latest downloads.
-
-	
   * **Social Media Hub** –  [see what it is being said](http://www.linaro.org/social/) all in one place, a powerful yet simple feature, follow all the updates happening real time on Linaro’s social media sites all on one page
 
-	
-  * **Projects **–[click and see all the projects](http://www.linaro.org/projects/) within Linaro.  This new section of the site gives you a consolidated place to find out all the latest information about the projects taking place at Linaro.
-
-
+  * **Projects** –[click and see all the projects](http://www.linaro.org/projects/) within Linaro.  This new section of the site gives you a consolidated place to find out all the latest information about the projects taking place at Linaro.
+  
 We will continually be expanding our online content to bring you updated and relevant information, so we encourage you to bookmark it, check back often and connect with us on [Facebook](https://www.facebook.com/LinaroOrg),  [Google+](https://plus.google.com/112814496864921562564/posts)  and  [Twitter](https://twitter.com/linaroorg) to find out when updates and new content are added.
 
 **Start exploring:**
 
-
-
-	
   * [Learn](http://www.linaro.org/about/) - about Linaro, what we do and how far we have come in the last 4 years.
 
-	
   * [Attend](http://www.linaro.org/connect/lcu/lcu14/) – register for our next [Linaro Connect](http://www.linaro.org/connect/lcu/lcu14/) in September 2014 to be part of designing the future of Linux on ARM
 
-	
   * [Discover career opportunities](http://www.linaro.org/careers/) - within Linaro.  We are an organization with employees working in cities all over the world.
 
-	
   * [Downloads a click away](http://www.linaro.org/downloads/) - the newly organized downloads page makes it easy to access what you need.
 
-	
   * And finally, you can always [contact us](http://www.linaro.org/contact/) about various topics or questions.
 
 

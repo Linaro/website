@@ -1,6 +1,5 @@
 ---
 author: alan.bennett
-
 date: 2011-11-07 20:52:50+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/automated-validation-with-lava/
@@ -14,14 +13,13 @@ tags:
 - Hardware
 - LAVA
 ---
-
 LAVA is at the heart of the value Linaro brings:  its aims are improving automated testing of the open source components that are used in the major Linux-based software platforms, and increasing confidence in the quality of enablement for our members' platforms.
 
 LAVA has evolved as Linaro's development and release process has changed. For instance, over the past 6 months, the Linaro Platform team has transitioned to monthly releases of all Ubuntu and Android-based Linaro evaluation builds. Test builds of these images happen daily, sometimes with multiple builds a day. With the increased release frequency, automated validation is crucial, and LAVA is therefore a central component in this change. As a consequence, LAVA itself is improved and released at an increased rate to handle the continuous demands of rapid platform development.
 
-**The Validation Lab **
+**The Validation Lab**
 
-[caption id="attachment_844" align="alignleft" width="251"]![Linaro Validation Lab](/assets/blog/Linaro-Validation-Lab.jpg) Linaro Validation Lab[/caption]
+{% include image.html name="Linaro-Validation-Lab.jpg" alt="Linaro Validation Lab" class="small-inline" %}
 
 Over the past few months, the Linaro validation lab has been expanded to cover testing on MX53, Snowball, Pandaboard, and Beagle XM. Support for Origen boards is in progress and boards have now arrived in volume in the lab. Capacity has increased considerably through the addition of dozens of boards and additional infrastructure to handle this increased capacity; for instance, LAVA added a scheduler component to facilitate management of jobs across all these different boards and board types. Since the scheduler came online, which was just a few months ago, about 3000 jobs have been executed. Jobs can be monitored from the web interface while they are running, with live output streaming.
 
@@ -43,6 +41,6 @@ Usability, scalability and stability of LAVA will be the focus areas in the comi
 
 Additionally, bringing together results in a more readily consumable form, with focus on specific areas of interest will also be looked at. Ultimately, the goal of automated testing is to help developers quickly find out when things are broken, or see when changes they make affect performance. Armed with this information, developers can focus on the task of making Linaro better from one monthly release to the next. For the LAVA source code and the site itself, follow the links below:
 
-● LAVA Project Page on Launchpad - http://launchpad.net/lava
+* LAVA Project Page on Launchpad - http://launchpad.net/lava
 
-● LAVA Server - http://validation.linaro.org/lava-server
+* LAVA Server - http://validation.linaro.org/lava-server

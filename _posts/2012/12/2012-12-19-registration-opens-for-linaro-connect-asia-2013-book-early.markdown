@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-19 17:21:08+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/registration-opens-for-linaro-connect-asia-2013-book-early/
@@ -17,8 +16,7 @@ tags:
 
 # Announcing Linaro Connect Asia 2013
 
-
-[![](/assets/blog/lca131.png)](http://www.linaro.org/connect)
+{% include image.html name="lca131.png" alt="LCA13 Linaro Connect" url="http://www.linaro.org/connect" %}
 
 We’re thrilled to announce that [event registration](http://linaro.eventbrite.co.uk/) and hotel booking at the Gold Coast Hotel in Hong Kong is now available for  the Linaro Connect Asia 2013 (LCA13) - Hong Kong event  – the industry’s foremost event for developing Linux on ARM— scheduled to be held on  4 - 8 March 2013. Book early because registration is limited. To book the hotel you will need to download the booking form ([odt](/assets/blog/Hotel-Reservation-Form.odt) and [doc](/assets/blog/Hotel-Reservation-Form.doc) formats) and email it to: [reservations@goldcoasthotel.com.hk](mailto:reservations@goldcoasthotel.com.hk) If you have question about booking your hotel accommodations please send an email to [connect@linaro.org](mailto:connect@linaro.org).
 
@@ -26,14 +24,9 @@ This intensive week will involve the best software developers participating in d
 
 For LCA13 Track participants can expect the track sessions throughout the week to include:
 
-
-
-
   * Server
-
-
+  
   * Android
-
 
   * Graphics and multimedia
 
@@ -73,11 +66,6 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### 3 Mini - Summits
 
-
-
-
-
-
   * [Android Mini-Summit](http://www.linaro.org/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 
@@ -86,15 +74,7 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
   * big.LITTLE
 
-
-
-
 ### Session Tracks
-
-
-
-
-
 
   * [Android](http://summit.linaro.org/lce12/track/linaro-android)
 
@@ -134,15 +114,7 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
   * [Training](http://summit.linaro.org/lce12/track/linaro-training)
 
-
-
-
 ### Demo Friday Event
-
-
-
-
-
 
   * Linaro – Linaro-Linux Kernel Demo – Various Member Boards
 
@@ -171,14 +143,7 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
   * JogAmp Community - JogAmp graphics, audio, media and processing libraries
 
 
-
-
 ### Announcements
-
-
-
-
-
 
   * [LEG](http://www.linaro.org/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/)
 
@@ -186,10 +151,7 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
   * [HiSilicon](http://www.linaro.org/news/hisilicon-joins-linaro-as-core-member/en/), [LG Electronics](http://www.linaro.org/news/lg-electronics-joins-linaro/en/)
 
 
-
-
 ## Why come to Linaro Connect?
-
 
 Are you passionate about – or are just wanting to get involved in – the latest Linux on ARM developments, then this is a key event for you! You will be defining the ARM tools, Linux kernels and builds of key Linux distributions, including Android and Ubuntu, on our member and other ARM SoCs.
 

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-05-28 09:29:07+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/
@@ -20,9 +19,6 @@ Day 1 of Linaro Connect Q2.12 on 28 May 2012 has already had some interesting mo
 For the first time Linaro is using Google+ Hangouts on air to live stream the morning sessions and asking those who are remotely participating to be patient as they work out the kinks-- sound issues, session leads being camera aware and slide presentations.
 
 If you are interested in seeing the sessions that were recorded on Day 1 you can click on the links below or you can go to Amber Graner's  [YouTube channel](http://www.youtube.com/user/AmberGraner) and follow along there as well.
-
-
-
 
   * [Introduction to Pinmux](http://youtu.be/Zd5SseuszQ0)
 

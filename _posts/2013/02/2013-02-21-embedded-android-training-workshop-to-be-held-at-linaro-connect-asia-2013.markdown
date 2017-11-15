@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-21 17:14:23+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/
@@ -14,11 +13,11 @@ tags:
 - Connect Events
 ---
 
-[](https://twitter.com/karimyaghmour)[![](/assets/blog/Karim_Yaghmour.jpg)](https://plus.google.com/108468544076975482998/posts)Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](http://www.linaro.org/connect) in Hong Hong.
+{% include image.html name="Karim_Yaghmour.jpg" alt="Karim Yahhmour" url="https://plus.google.com/108468544076975482998/posts"%}
 
+Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](http://www.linaro.org/connect) in Hong Hong.
 
 ## Embedded Android Training Workshop
-
 
 While Android has been created for mobile devices -- phones first and now tablets -- it can, nonetheless, be used as the basis of any touch-screen system and due to Karim's headless Android work, non-touch embedded systems, whether it be mobile or not. Essentially, Android is a custom-built embedded Linux distribution with a very elaborate and rich set of user-space abstractions, APIs, services and virtual machine. This four-part workshop is aimed at embedded developers wanting to build touch-based embedded systems using Android. It will cover Android from the ground up, enabling developers to get a firm hold on the components that make up Android and how they need to be adapted to an embedded system.
 
@@ -26,11 +25,6 @@ Specifically, we will start by introducing Android's overall architecture and th
 
 
 ## Schedule (all times are listed in[ HKT](http://www.timeanddate.com/worldclock/converter.html))
-
-
-
-
-
 
   * **10:00 AM** - Monday 4 March  - **[Android Internals](https://lca-13.zerista.com/event/member/72385)** - Grand Ballroom A
 
@@ -44,8 +38,6 @@ Specifically, we will start by introducing Android's overall architecture and th
   * **10:00 AM** - Friday 8 March - **[Using and Customizing the  Android Framework](https://lca-13.zerista.com/event/member/72388)** - Grand Ballroom B
 
 
-
-
 ## Attending the Sessions
 
 
@@ -56,10 +48,7 @@ To attend in person you need to register to attend Linaro Connect Asia 2013 (ple
 
 _**Remote Participation**_
 The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
-[](http://www.linaro.org/connect/remote-participation)
 For the best remote participation experience you’ll need to do the following:
-
-
 
 
   * Add Linaro onAir to your Google+ circles-[ https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-05-31 17:36:09+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-android-build-service-video/
@@ -27,7 +26,6 @@ This approach makes it very easy to try Android on one of the boards supported b
 For the moment, only authorized users can submit their own requests to the Linaro Android Build Service. Anyone can already log in, and will soon be able to submit requests.
 
 In the below video, we show how to use one of the images already available on the website:
-
 
 
 The video can also be downloaded in WebM format (VP8 codec):

@@ -1,11 +1,8 @@
 ---
 author: shovan
-
 date: 2014-10-29 16:54:06+00:00
 excerpt: 'Leading China fabless semiconductor company Spreadtrum Communications joins
-  Linaro to influence development direction of open source software
-
-  '
+  Linaro to influence development direction of open source software'
 layout: post
 link: https://www.linaro.org/news/linaro-announces-spreadtrum-communications-latest-club-member/
 slug: linaro-announces-spreadtrum-communications-latest-club-member
@@ -17,13 +14,9 @@ tags:
 - Club
 - Spreadtrum
 ---
-
 ## Leading China fabless semiconductor company Spreadtrum Communications joins Linaro to influence development direction of open source software
 
-
 CAMBRIDGE, UK – 29 OCTOBER 2014
-
-
 
 Linaro Ltd, the not-for-profit engineering organization developing open source software for the ARM® architecture, today announced that Spreadtrum Communications (Shanghai) Co., Ltd. has joined Linaro as a Club Member.
 

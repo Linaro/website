@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-28 20:20:04+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-03-released/
@@ -13,9 +12,9 @@ tags:
 - Releases
 ---
 
-<blockquote>"Vision is not enough, it must be combined with venture. It is not enough to stare up the steps, we must step up the stairs."
-
-~ Vaclav Havel</blockquote>
+> "Vision is not enough, it must be combined with venture. It is not enough to stare up the steps, we must step up the stairs."
+>
+> ~ Vaclav Havel
 
 
 **The Linaro 13.03 release is now available for download!**
@@ -24,8 +23,6 @@ The 13.03 Linaro release highlights the focused efforts of all the Linaro Teams 
 
 
 ## **About this release:**
-
-
 
 
 13.03 was a exceptional cycle for the** Linaro Android Team**. There was a lot of planning done during the most recent Linaro Connect event in Hong Kong and some of those plans have already been put into action during this cycle. The initial bring up of Android for Arndale as an engineering platform is now complete and we now have a Tiny Android build for Arndale. Engineers should see an Android with GUI released for the 13.04 Linaro release cycle. The Origen-Quad build is now updated with the new bootloaders and the needed changes for linaro-image-tools have been completed. Bernhard Rosenkränzer, Android Engineer at Linaro did an exceptional job in making the current toolchain available natively inside Linaro Android builds. The builds now include gcc, g++, vim, make, a terminal emulator and a vi-friendly keyboard; however, compiling the kernel on the board itself has yet to be tried. The team encourages interested individuals to give a try and report any bugs. Axel Fagerstedt, Android Engineer at Linaro, did an excellent job in unifying all the different manifests with the groups feature. The team started with 17 manifests and have now come to 1 manifest supporting 8 different builds and one additional manifest for a member build. The released toolchains are now being checked into a prebuilts/ git repository and pulled in by the manifest as opposed to being downloaded as separate tarballs. This is the approach used by AOSP to distribute the toolchain. The Linaro Android Team have also enabled CTS in LAVA for 4.2. The support for CTS in lava-android-test was reworked for stability during the upgrade and as a result more than 99% of CTS tests are now passing for Galaxy Nexus with linaro-android build when tested manually with lava-android-test. CTS was enabled for the engineering builds; however, more investigation need to be done on CTS tests that are not getting executed in LAVA for these engineering builds.
@@ -46,13 +43,7 @@ The **Linaro Enterprise Group** (LEG) announced that the initial GRUB port on A
 
 ## **Announcements:**
 
-
-
-
 During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, formerly the Director for the Kernel Working Groups at Linaro, has now taken on the role of VP of Engineering. More information on this appointment can be found in the press release at: [http://www.linaro.org/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/](http://www.linaro.org/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/)
-
-
-
 
 
 ## **Linaro Connect:**

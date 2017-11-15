@@ -1,6 +1,5 @@
 ---
 author: bernhard.rosenkranzer
-
 date: 2012-03-06 23:11:07+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-gets-ready-for-gcc-4-7/
@@ -32,7 +31,6 @@ for(size_t i=0; ...) {
             ...
 
 ```
-
 
 Currently, the gcc 4.7 based toolchain is available on [android-build](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.7-bzr/). 2 builds already using it -- [Pandaboard](https://android-build.linaro.org/builds/~linaro-android/panda-ics-gcc47-tilt-tracking-blob/) and [iMX6](https://android-build.linaro.org/builds/~linaro-android/imx6-ics-gcc47-freescalelt-stable-open/) -- are also available, and seem to work as expected.
 

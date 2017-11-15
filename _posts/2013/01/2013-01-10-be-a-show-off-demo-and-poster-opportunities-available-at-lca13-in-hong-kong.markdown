@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-01-10 14:10:41+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kong/
@@ -16,12 +15,12 @@ tags:
 
 # Call for Participation!
 
+{% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://www.linaro.org/connect"%}
 
-[![](/assets/blog/lca13.png)](http://www.linaro.org/connect)Linaro is excited to announce that we will once again host a [Demo Friday](http://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://www.linaro.org/connect) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](http://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://www.linaro.org/connect) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?
-
 
 Demo Friday is a two-hour event that will showcase new and innovative ways Linaro members, partners and community are using various Linaro builds and other Linaro based code on ARM based processor boards. Demo Friday will take place on Friday, March 8, 2013 at Gold Coast Hotel in Hong Kong (_Exact time and location to be determined_). Demo Friday is open to the public. This is an exciting and educational opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM based processor boards for Linux on ARM.
 
@@ -48,14 +47,10 @@ All companies and engineers who are using Linaro on ARM based processor boards a
 When emailing please include the following information:
 
 
-
-
   * **Name**
 
 
-  * **Company
-**
-
+  * **Company**
 
   * **Title of demonstration or Poster**
 
@@ -89,8 +84,7 @@ What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and 
 ### **_About_**
 
 
-_**_**Linaro **_
-**_
+_**Linaro **_
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 

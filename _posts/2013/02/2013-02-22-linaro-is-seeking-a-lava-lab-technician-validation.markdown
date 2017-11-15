@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-22 20:40:01+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-is-seeking-a-lava-lab-technician-validation/
@@ -20,9 +19,6 @@ Today we are highlighting career opportunities at Linaro for a LAVA Lab Technici
 
 
 ## **What are we looking for?**
-
-
-
 
 ## LAVA Lab Technician (Validation)
 
@@ -45,7 +41,6 @@ Want to apply for this role? Then email your information to[ careers@linaro.org]
 
 
 All available career opportunities can be found at:[ http://www.linaro.org/careers/](http://www.linaro.org/careers/)
-[](http://www.linaro.org/careers/)
 **Follow Linaro**
 To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
 

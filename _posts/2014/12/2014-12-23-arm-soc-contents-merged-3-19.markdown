@@ -52,7 +52,7 @@ Overall diffstat:
 
 Dirstat:
 
-
+```bash
     $ git diff --dirstat=0.2 v3.18..for-next
     0.4% Documentation/devicetree/bindings/arm/
     0.5% Documentation/devicetree/bindings/
@@ -89,10 +89,11 @@ Dirstat:
     0.6% drivers/
     0.4% include/dt-bindings/
     0.6% include/linux/
-
+```
 
 Top 20 contributors by patch count (no merges):
 
+```bash
 
     $ git log --format=%an --no-merges v3.18..for-next  | sort | uniq -c  |sort -nr | head -n 20
     56 Geert Uytterhoeven
@@ -115,10 +116,7 @@ Top 20 contributors by patch count (no merges):
     12 Thierry Reding
     12 Dmitry Lifshitz
     11 Zhangfei Gao
-
-
-<!-- more -->
-
+```
 
 ## ARM: SoC non-critical bug fixes for 3.19
 
@@ -477,9 +475,6 @@ Other notable changes include:
 
   * various: provide stdout-path property for earlycon
 
-
-
-
 ## ARM: SoC/OMAP GPMC driver cleanup and move for 3.19
 
 
@@ -492,9 +487,7 @@ that does not require an interface to architecture code.
 
 This is a separate branch because of dependencies on multiple other branches, and to keep the drivers changes separate from the normal cleanups.
 
-
 ## ARM: SoC defconfig changes for 3.19
-
 
 Commit [151cd97630f8](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=151cd97630f87451cab412e40750d0e5f7581c98)
 
@@ -502,63 +495,40 @@ This is a collection of the various changes to defconfig files, most importantly
 
 This also touches 12 other defconfig files for shmobile, at91, hisilicon, keystone, mvebu, omap, and tegra.
 
-
 ## ARM64: SoC changes for 3.19
-
 
 Commit [ed8efd2de754](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ed8efd2de75479a175bd21df073d9e97df65a820)
 
 This adds support for two new ARM64 platforms:
 
-
-
-
   * ARM Juno
-
-
   * AMD Seattle
-
-
+  
 We had submissions for a number of additional platforms from Samsung, Freescale and Spreadtrum but are still working out the best process for getting these merged.
-
 
 # Second set of pull requests
 
-
-
-
 ## ARM: SoC DT updates part 2
-
 
 Commit [205dc205ed3b](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=205dc205ed3ba748bab9770016bbbffb68558146)
 
 This is a follow-up to the early ARM SoC DT changes, with additional content that has external dependencies:
 
-
-
-
   * The Tegra IOMMU DT support depends on changes from the iommu tree, plus the contents of the arm-soc drivers branch
-
-
   * The MVEBU PHY support depends on changes from the phy tree The AT91 DT support depends on changes from the RTC and DMA-slave trees
-
 
 All of these changes just enable additional devices for existing platforms
 
-
 ## ARM: SoC/iommu configuration for 3.19
-
 
 Commit [6f51ee709e4c](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6f51ee709e4c6b56f2c2a071da2d056a109b9d26)
 
 The iommu-config branch contains work from Will Deacon, quoting his description:
 
-
-<blockquote>"This series adds automatic IOMMU and DMA-mapping configuration for OF-based DMA masters described using the generic IOMMU devicetree bindings. Although there is plenty of future work around splitting up iommu_ops, adding default IOMMU domains and sorting out automatic IOMMU group creation for the platform_bus, this is already useful enough for people to port over their IOMMU drivers and start using the new probing infrastructure (indeed, Marek has patches queued for the Exynos IOMMU)".</blockquote>
-
+> "This series adds automatic IOMMU and DMA-mapping configuration for OF-based DMA masters described using the generic IOMMU devicetree bindings. Although there is plenty of future work around
+splitting up iommu_ops, adding default IOMMU domains and sorting out automatic IOMMU group creation for the platform_bus, this is already useful enough for people to port over their IOMMU drivers and start using the new probing infrastructure (indeed, Marek has patches queued for the Exynos IOMMU)".
 
 The branch touches core ARM and IOMMU driver files, and the respective maintainers (Russell King and Joerg Roedel) agreed to have the contents merged through the arm-soc tree. The final version was ready just before the merge window, so we ended up delaying it a bit longer than the rest, but we don't expect to see regressions because this is just additional infrastructure that will get used in drivers starting in 3.20 but is unused so far.
-
 
 # Other ARM related trees
 
@@ -566,41 +536,41 @@ The branch touches core ARM and IOMMU driver files, and the respective maintaine
 A number of subsystem maintainers are merging code device driver code that is relevant to ARM platforms. This is a selection of relevant upstream commits for branches that are already merged into what will become Linux-3.19-rc1.
 
 
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f2fb38049c72">f2fb38049c72</a> Pull MMC updates from Ulf Hansson
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a7dbed7f23c">3a7dbed7f23c</a> Pull MFD updates from Lee Jones
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=177808cd28ac">177808cd28ac</a> Pull hwmon updates from Guenter Roeck
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=de740386447f">de740386447f</a> Pull regmap updates from Mark Brown
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f94784bdb114">f94784bdb114</a> Pull regulator updates from Mark Brown
-    Commit <strong><a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b64bb1d75816">b64bb1d75816</a></strong> Pull arm64 updates from Will Deacon
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a0e4467726cd">a0e4467726cd</a> Pull asm-generic asm/io.h rewrite from Arnd Bergmann
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a157508c9790">a157508c9790</a> Pull timer core updates from Thomas Gleixner
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ecb50f0afd35">ecb50f0afd35</a> Pull irq core updates from Thomas Gleixner
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=9e66645d72d3">9e66645d72d3</a> Pull irq domain updates from Thomas Gleixner
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4b0a268eecca">4b0a268eecca</a> Pull f2fs updates from Jaegeuk Kim
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c75059c46293">c75059c46293</a> Pull PCI changes from Bjorn Helgaas
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=92a578b064d0">92a578b064d0</a> Pull ACPI and power management updates from Rafael Wysocki
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c1b30e4d9466">c1b30e4d9466</a> Pull pin control changes from Linus Walleij
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e28870f9b3e9">e28870f9b3e9</a> Pull backlight updates from Lee Jones
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2183a58803c2">2183a58803c2</a> Pull media updates from Mauro Carvalho Chehab
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b859e7d13bcc">b859e7d13bcc</a> Pull spi updates from Mark Brown
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=14ba9a2e4bac">14ba9a2e4bac</a> Pull mailbox framework updates from Jassi Brar
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=413fd0e3fbf5">413fd0e3fbf5</a> Pull fbdev updates from Tomi Valkeinen
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7ef58b32f571">7ef58b32f571</a> Pull devicetree changes from Grant Likely
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e5edba464c11">e5edba464c11</a> Pull ASoC Updates from Mark Brown (through alsa tree)
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=87c779baabff">87c779baabff</a> Pull dmaengine updates from Vinod Koul
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8d1406675559">8d1406675559</a> Pull IOMMU updates from Joerg Roedel
-    Commit <strong><a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=26ceb127f7bc">26ceb127f7bc</a></strong> Pull ARM updates from Russell King
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=96895199c864">96895199c864</a> Pull i2c updates from Wolfram Sang
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=980f3c344ff1">980f3c344ff1</a> Pull take two of the GPIO updates
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=988adfdffdd4">988adfdffdd4</a> Pull drm updates from Dave Airlie
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=27cb8823e26c">27cb8823e26c</a> Pull rpmsg update from Ohad Ben-Cohen
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=60d7ef3fd34d">60d7ef3fd34d</a> Pull irq domain ARM updates from Thomas Gleixner
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7051d8e63086">7051d8e63086</a> Pull power supply updates from Sebastian Reichel
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dbfca5a1819">2dbfca5a1819</a> Pull LED subsystem update from Bryan Wu
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=36c0a48fe5fa">36c0a48fe5fa</a> Pull arm64 fixes from Will Deacon
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d6666be6f0c4">d6666be6f0c4</a> Pull MTD updates from Brian Norris
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0b4954c46943">0b4954c46943</a> Pull pwm updates from Thierry Reding
-    Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=bfc7249cc293">bfc7249cc293</a> Pull clk framework updates from Mike Turquette
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f2fb38049c72">f2fb38049c72</a> Pull MMC updates from Ulf Hansson
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a7dbed7f23c">3a7dbed7f23c</a> Pull MFD updates from Lee Jones
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=177808cd28ac">177808cd28ac</a> Pull hwmon updates from Guenter Roeck
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=de740386447f">de740386447f</a> Pull regmap updates from Mark Brown
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f94784bdb114">f94784bdb114</a> Pull regulator updates from Mark Brown
+Commit <strong><a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b64bb1d75816">b64bb1d75816</a></strong> Pull arm64 updates from Will Deacon
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a0e4467726cd">a0e4467726cd</a> Pull asm-generic asm/io.h rewrite from Arnd Bergmann
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a157508c9790">a157508c9790</a> Pull timer core updates from Thomas Gleixner
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ecb50f0afd35">ecb50f0afd35</a> Pull irq core updates from Thomas Gleixner
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=9e66645d72d3">9e66645d72d3</a> Pull irq domain updates from Thomas Gleixner
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4b0a268eecca">4b0a268eecca</a> Pull f2fs updates from Jaegeuk Kim
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c75059c46293">c75059c46293</a> Pull PCI changes from Bjorn Helgaas
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=92a578b064d0">92a578b064d0</a> Pull ACPI and power management updates from Rafael Wysocki
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c1b30e4d9466">c1b30e4d9466</a> Pull pin control changes from Linus Walleij
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e28870f9b3e9">e28870f9b3e9</a> Pull backlight updates from Lee Jones
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2183a58803c2">2183a58803c2</a> Pull media updates from Mauro Carvalho Chehab
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b859e7d13bcc">b859e7d13bcc</a> Pull spi updates from Mark Brown
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=14ba9a2e4bac">14ba9a2e4bac</a> Pull mailbox framework updates from Jassi Brar
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=413fd0e3fbf5">413fd0e3fbf5</a> Pull fbdev updates from Tomi Valkeinen
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7ef58b32f571">7ef58b32f571</a> Pull devicetree changes from Grant Likely
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e5edba464c11">e5edba464c11</a> Pull ASoC Updates from Mark Brown (through alsa tree)
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=87c779baabff">87c779baabff</a> Pull dmaengine updates from Vinod Koul
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8d1406675559">8d1406675559</a> Pull IOMMU updates from Joerg Roedel
+Commit <strong><a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=26ceb127f7bc">26ceb127f7bc</a></strong> Pull ARM updates from Russell King
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=96895199c864">96895199c864</a> Pull i2c updates from Wolfram Sang
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=980f3c344ff1">980f3c344ff1</a> Pull take two of the GPIO updates
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=988adfdffdd4">988adfdffdd4</a> Pull drm updates from Dave Airlie
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=27cb8823e26c">27cb8823e26c</a> Pull rpmsg update from Ohad Ben-Cohen
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=60d7ef3fd34d">60d7ef3fd34d</a> Pull irq domain ARM updates from Thomas Gleixner
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7051d8e63086">7051d8e63086</a> Pull power supply updates from Sebastian Reichel
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dbfca5a1819">2dbfca5a1819</a> Pull LED subsystem update from Bryan Wu
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=36c0a48fe5fa">36c0a48fe5fa</a> Pull arm64 fixes from Will Deacon
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d6666be6f0c4">d6666be6f0c4</a> Pull MTD updates from Brian Norris
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0b4954c46943">0b4954c46943</a> Pull pwm updates from Thierry Reding
+Commit <a href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=bfc7249cc293">bfc7249cc293</a> Pull clk framework updates from Mike Turquette
 
 
 While most of these trees cover multiple CPU architectures, it is interesting to note that a lot of the work going into them is driven by the needs of ARM SoCs or is specific to a particular SoC family. Also, over one third of the subsystems in this list are maintained or co-maintained by someone in Linaro. In a future post, I am going to talk about the significance of having subsystem maintainers in Linaro and how we work as maintainers.

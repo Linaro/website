@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2014-03-03 12:05:03+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/
@@ -27,8 +26,7 @@ Allwinner Technology is a founding member of a new market segment group being fo
 
 “We are pleased to join Linaro as a founding member of the new Linaro Digital Home Group,” said Jack Lee, Chief Marketing Officer of Allwinner. “We will take an active role in the organization and work with Linaro and the open source community to drive new ARM technologies.”
 
-_*Video of the announcement is available on YouTube: _[_http://www.youtube.com/watch?v=L7gPPJSNJBM_](http://www.youtube.com/watch?v=L7gPPJSNJBM)_. __See Allwinner announcement at 24 minutes 28 seconds._
-
+_*Video of the announcement is available on YouTube:_ [_http://www.youtube.com/watch?v=L7gPPJSNJBM_](http://www.youtube.com/watch?v=L7gPPJSNJBM)_. _See Allwinner announcement at 24 minutes 28 seconds._
 
 
 About Linaro
@@ -37,8 +35,7 @@ Linaro is the place where engineers from the world’s leading technology compan
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/).
 
-*LWN lists Linaro as the number 2 company contributor to kernels 3.12 and 3.13 and #3 to kernels 3.10 and 3.11:  [http://lwn.net/Articles/579081/](http://lwn.net/Articles/579081/),[http://lwn.net/Articles/570483/](http://lwn.net/Articles/570483/),[http://lwn.net/Articles/563977/](http://lwn.net/Articles/563977/),[http://lwn.net/Articles/555968/](http://lwn.net/Articles/555968/).
-
+\*LWN lists Linaro as the number 2 company contributor to kernels 3.12 and 3.13 and #3 to kernels 3.10 and 3.11:  [http://lwn.net/Articles/579081/](http://lwn.net/Articles/579081/),[http://lwn.net/Articles/570483/](http://lwn.net/Articles/570483/),[http://lwn.net/Articles/563977/](http://lwn.net/Articles/563977/),[http://lwn.net/Articles/555968/](http://lwn.net/Articles/555968/).
 
 
 About Allwinner

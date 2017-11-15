@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-09-26 15:31:07+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lce-12-copenhagen-demo-friday-call-for-participation/
@@ -42,7 +41,7 @@ If you or someone you know is interested in presenting a demonstration on Friday
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after to close down_
 
 
-  * _A poster ([template attached](/assets/blog/Demo-Friday-Poster-Template_LCE_12_Copenhagen.odp)), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 19 October 2012 in order to guarantee printing)**_
+  * _A poster ([template attached](/assets/downloads/Demo-Friday-Poster-Template_LCE_12_Copenhagen.odp)), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 19 October 2012 in order to guarantee printing)**_
 
 
 
@@ -64,7 +63,7 @@ Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/events/eve
 
 [connect.linaro.org](http://connect.linaro.org/events/event/linaro-connect-q2-12/)
 
-**About Linaro **
+**About Linaro**
 
 Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
 

@@ -1,6 +1,5 @@
 ---
 author: tony.mansson
-
 date: 2011-12-22 14:57:48+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/the-linaro-android-platform-team-period-dec-14-to-dec-20/
@@ -21,14 +20,7 @@ tags:
 
 As you may have already heard, some great things are coming out of Linaro this week. Hardware accellerated graphics in Linaro Evaluation Builds! Incredible. My awesome collegues in Linaro worked together with member companies and communities in a focused effort, and it paid off! Here's what the Linaro Android Team did last week.
 
-
-
 ### Key Points for wider discussion
-
-
-
-
-
 
   * Hardware accelerated graphics for Linaro Android Snowball ICS is released.
 
@@ -38,15 +30,7 @@ As you may have already heard, some great things are coming out of Linaro this w
 
   * 11.12 final Release Candidate testing done on all boards and builds.
 
-
-
-
 ### Team Highlights
-
-
-
-
-
 
   * libpng integrated into ICS.
 
@@ -59,16 +43,7 @@ As you may have already heard, some great things are coming out of Linaro this w
 
   * Good progress on WiFi integration for Snowball.
 
-
-
-
-
 ### Bugs fixed
-
-
-
-
-
 
   * 903951	[ The kernel on staging-panda does not boot with the 11.12 released toolchain.](https://bugs.launchpad.net/linaro-android/+bug/903951)
 
@@ -94,38 +69,16 @@ As you may have already heard, some great things are coming out of Linaro this w
   * 894296	[ kernel rebuild script should be deployed somewhere.](https://bugs.launchpad.net/linaro-android/+bug/894296)
 
 
-
-
-
 ### Miscellaneous
-
-
-
-
-
 
   * Linaro will operate with reduced staff during Christmas holliday until Jan. 2
 
 
-
-
 ### Issues
-
-
-
-
-
 
   * none
 
-
-
-
 ### Blueprints
-
-
-
-
 
 
   * [11.12 Milestone](https://launchpad.net/linaro-android/+milestone/11.12)

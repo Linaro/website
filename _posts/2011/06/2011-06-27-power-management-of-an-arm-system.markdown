@@ -1,6 +1,5 @@
 ---
 author: vincent.guittot
-
 date: 2011-06-27 17:40:36+00:00
 layout: post
 link: https://www.linaro.org/blog/power-management-of-an-arm-system/

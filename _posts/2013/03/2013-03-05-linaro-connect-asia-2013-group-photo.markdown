@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-05 06:44:13+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-group-photo/
@@ -14,7 +13,7 @@ tags:
 - Connect Events
 ---
 
-[caption id="attachment_2541" align="aligncenter" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](/assets/blog/LCA13-Group-001-72dpi.jpg)](/assets/blog/LCA13-Group-001-72dpi.jpg)[/caption]
+{% include image.html name="LCA13-Group-001-72dpi.jpg" alt="Linaro Connect Asia 2013 Group Photo" %}
 
 More information about Linaro Connect can be found at: [http://www.linaro.org/connect](http://www.linaro.org/connect)
 

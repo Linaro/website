@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2013-09-27 20:18:13+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-09-released/
@@ -20,22 +19,15 @@ tags:
 - release cycle
 ---
 
-<blockquote>No endeavor that is worthwhile is simple in prospect;  if it is right, it will be simple in retrospect.
-
-~Edward Teller</blockquote>
-
-
-
+> No endeavor that is worthwhile is simple in prospect;  if it is right, it will be simple in retrospect.
+>
+> ~Edward Teller
 
 ## Linaro 13.09 is now ready for download
-
 
 The 13.09 release includes the first formal release of the Linaro Stable Kernel (LSK). The LSK will provide access to new Linaro features integrated with the most recent kernel.org Long Term Stable (LTS) release. For more details, please refer to the [LSK web site.](https://wiki.linaro.org/LSK)
 
 Here are some of the other highlights, by group:
-
-
-
 
   * LAVA has seen significant new hardware additions, with more expected over the next couple of months. In the hardware area, the Calxeda Midway server is now available to Linaro developers and the Linaro Networking Group (LNG) rack has been deployed. Software support is available for the LAVA Multi-purpose Probe (LMP) in lava-test-shell and the SD-MUX is in staging. The LAVA team has also completed the migration from Bazaar (bzr) to Git with this release.
 
@@ -76,8 +68,6 @@ Registration for [Linaro Connect US 2013 (LCU13)](http://www.linaro.org/connect
 We encourage everybody to use the 13.09 release. The download links for all images and components are available on our downloads page:
 
 
-
-
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
@@ -85,8 +75,6 @@ See the detailed highlights of this release to get an overview of what has been 
 
 
   * [https://wiki.linaro.org/Cycles/1309/Release#Release_Information](https://wiki.linaro.org/Cycles/1309/Release#Release_Information)
-
-
 
 
 ### USING THE ANDROID-BASED IMAGES

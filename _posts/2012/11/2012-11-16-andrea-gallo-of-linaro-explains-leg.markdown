@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-11-16 04:32:47+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/andrea-gallo-of-linaro-explains-leg/
@@ -29,14 +28,9 @@ Andrea also looks to the future and outlines what attendees of the next Linaro C
 
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 
-
-
-
   * [LEG Website Page](http://www.linaro.org/engineering/leg)
-
-
+  
   * Mailing Lists
-
 
     * [linaro-enterprise@lists.linaro.org ](mailto:linaro-enterprise@lists.linaro.org)
 
@@ -45,10 +39,6 @@ For those who want more information about how you can get in touch with Andrea a
 
 
     * how and where to get help - [linaro-enterprise-request@lists.linaro.org](mailto:linaro-enterprise-request@lists.linaro.org) (just remember to add 'help' without the quotes in the subject or body of the email).
-
-
-
-
 
   * IRC Channel - #linaro-enterprise on _irc.linaro.org_
 

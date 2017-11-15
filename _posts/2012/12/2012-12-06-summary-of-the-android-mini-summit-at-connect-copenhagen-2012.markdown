@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-06 14:43:33+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/
@@ -22,9 +21,6 @@ The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-min
 
 Through the collaboration of those involved in the discussion the Android Mini-Summit was born. What emerged was a 4 hour mini-summit centered on optimization and unification made up of an overview and welcome, two plenary sessions and four 1 hour follow-on sessions that included :
 
-
-
-
   * Android Dalvik, V8 and Bionic Optimization Discussion
 
 
@@ -40,9 +36,6 @@ Through the collaboration of those involved in the discussion the Android Mini-S
 The [Android Mini-Summit](http://summit.linaro.org/lce12/meeting/20937/android-mini-summit-1/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
 
 During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](http://www.linaro.org/linaro-blog/2012/12/03/how-linaros-technical-steering-committee-works/) (TSC) [representative](http://www.linaro.org/linux-on-arm/steering-committee) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
-
-
-
 
   * Be small, aggressive, tactical, moveable
 
@@ -72,9 +65,6 @@ During the first plenary session the ST-Ericsson [Linaro Technical Steering Comm
 
 
 Thomas Langås VP Engineering for  [FXI](http://www.fxitech.com/),  presented the second plenary. Langås covered how [Linaro helped FXI accelerate](http://www.linaro.org/linaro-blog/2012/02/29/linaro-sweetens-cotton-candys-success/) their development of the revolutionary [Cotton Candy stick](http://www.fxitech.com/products/). Echoed in this presentation were the importance of how community involvement can speed development and how Linaro's upstream focused builds allowed them to more easily work with their upstreams which Bejram pointed out in the early plenary session as well.  Key ‘take away’ message from this talk:
-
-
-
 
   * Linaro's upstream focus speeds development of end products
 
@@ -126,9 +116,6 @@ You can also stay in touch with what is happening in around Linaro by following 
 **The Linaro Android Team**
 
 _The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
-
-
-
 
   * _[Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
 

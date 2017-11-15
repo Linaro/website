@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-04-03 20:36:23+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/through-the-camera-eye-linaro-connect-asia-2013-a-review-in-pictures/

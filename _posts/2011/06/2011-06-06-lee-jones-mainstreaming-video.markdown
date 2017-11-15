@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-06-06 21:56:19+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lee-jones-mainstreaming-video/
@@ -21,9 +20,6 @@ I brought my HD camcorder at the Linaro Developer Summit in Budapest last month,
 This talk was plenty of good advice, not only for Linaro kernel engineers but also for anyone who wishes to contribute to the Linux kernel, in particular on the ARM platform. Remember that Linaro is only about getting new features into mainstream projects (Linux kernel, compiling toolchains, C libraries...). We know that any piece of code that doesn't make its way into mainline will sooner or later bitrot in oblivion, even with the best intentions and efforts to maintain it.
 
 By watching the video or reading the slides, you will learn about:
-
-
-
 
 
   * The complexity of the maintainer hierarchy
@@ -51,10 +47,7 @@ By watching the video or reading the slides, you will learn about:
 We also had the pleasure to have famous kernel contributors in the room: Thomas Gleixner and Grant Likely, who now work for Linaro (see our [MeetTheTeam wiki page](https://wiki.linaro.org/MeetTheTeam) for details), and added insightful comments.
 
 
-
 The video can also be downloaded in WebM format:
-
-
 
 
   * [WebM / VP8 codec, 800x450 resolution](http://free-electrons.com/pub/video/2011/may/lds-2011-05-jones-mainstreaming-450p.webm)

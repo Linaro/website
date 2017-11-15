@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-11-26 21:05:13+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/
@@ -15,14 +14,11 @@ tags:
 - LAVA
 ---
 
-<blockquote>Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled. ~Dave Pigott, LAVA Lab Lead</blockquote>
-
+> Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled. ~Dave Pigott, LAVA Lab Lead 
 
 [Dave Pigott, ](http://www.linaro.org/linux-on-arm/meet-the-team/dave-pigott/)Lava Lab Lead at Linaro recently gave a presentation about [LAVA—](https://wiki.linaro.org/Platform/LAVA)Linaro Automated Validation Architecture—and as part of this showed [an animated version of LAVA](http://youtu.be/_m1nbcRba5w) from its go live date of 27 July 2011 through 6 November 2012.
 
 I was curious as to how he created this video presentation, so I asked him about the process, the software he used and more.
-
-
 
 **Question:** What software did you use to create this LAVA animation?
 
@@ -30,14 +26,14 @@ I was curious as to how he created this video presentation, so I asked him about
 
 **Question:** Where can people get it? Is it free?
 
-**Dave Pigott: **Gource and FFmpeg are open source. Of course. :)
+**Dave Pigott:** Gource and FFmpeg are open source. Of course. :)
 
 More information about Gource can be found at: [http://code.google.com/p/gource/](http://code.google.com/p/gource/)
 More information about FFmpeg can be found at: [http://ffmpeg.org/](http://ffmpeg.org/)
 
 **Question:** When people look at the video what are they seeing represented?
 
-**Dave Pigott: **Going from the centre, each “arm” represents a platform type (beagle, panda, snowball, fastModel, origen etc), each arm off the end of those arms represents a specific instance of that platform (panda01, panda02...), and then (finally) off each of those spurs is a job id - just a number, representing the LAVA runs being executed on that board.
+**Dave Pigott:** Going from the centre, each “arm” represents a platform type (beagle, panda, snowball, fastModel, origen etc), each arm off the end of those arms represents a specific instance of that platform (panda01, panda02...), and then (finally) off each of those spurs is a job id - just a number, representing the LAVA runs being executed on that board.
 
 Outside of that, the little avatars represent people or processes submitting jobs. You see one or two notable engineers identified a lot of the time as they test specific things.
 
@@ -47,15 +43,15 @@ Outside of that, the little avatars represent people or processes submitting job
 
 **Question:** How has LAVA testing grown over the last year to 18 months?
 
-**Dave Pigott: **As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](http://www.linaro.org/engineering/leg) to the mix, so it’s just going to get bigger.
+**Dave Pigott:** As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](http://www.linaro.org/engineering/leg) to the mix, so it’s just going to get bigger.
 
 **Question:** What do you want people to know about LAVA?
 
-**Dave Pigott: **That LAVA is an enabler. We don’t dictate what you test, we just give you the tools to do it and record the results.
+**Dave Pigott:** That LAVA is an enabler. We don’t dictate what you test, we just give you the tools to do it and record the results.
 
 **Question:** How can other projects benefit from LAVA?
 
-**Dave Pigott: **By submitting tests on a regular basis, people can benchmark their work over time. Has it improved in performance? Have we introduced a regression? Does it use less power? That sort of thing. Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled.
+**Dave Pigott:** By submitting tests on a regular basis, people can benchmark their work over time. Has it improved in performance? Have we introduced a regression? Does it use less power? That sort of thing. Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled.
 
 
 ### About LAVA
@@ -70,7 +66,8 @@ _More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, 
 
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation._
-_ To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/)._
+
+_To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/)._
 
 
 ### About Linaro Connect

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-20 18:50:27+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/
@@ -18,7 +17,9 @@ tags:
 
 Today, Linaro CEO [George Grey](http://www.linaro.org/linux-on-arm/meet-the-team/george-grey/), on stage at the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/staff#zemlin), the executive director of the Linux Foundation, [announced](http://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/en/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](http://www.linaro.org/engineering/lng).
 
-[![](/assets/blog/GG_Slide_LNG.jpg)](/assets/blog/GG_Slide_LNG.jpg)“The strength of the ARM community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using ARM SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
+{% include image.html name="GG_Slide_LNG.jpg"%}
+
+“The strength of the ARM community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using ARM SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 
 In November 2012, at ARM TechCon, Grey [announced](http://www.linaro.org/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) the Linaro Enterprise Group ([LEG](http://www.linaro.org/engineering/leg)). The formation of LNG builds on the experience of LEG and the desire of companies to actively work together on common engineering goals and drive forward the development of Linux on ARM.
 
@@ -53,17 +54,11 @@ An interim steering committee formed from the companies interested in forming LN
 
 Discussion of these areas and the formal kick off for the group will happen at the next Linaro Connect, in Hong Kong 4-8 March (see [www.linaro.org/connect](http://www.linaro.org/connect) for more information).
 
-_ _
-
-_ _
-
 
 ## Collaboration is key!
 
 
-_ _As with any open source project, open and transparent collaboration is key and these philosophies are what we are bringing to the ARM ecosystem in many ways through our working groups, LEG, and now LNG. The LNG efforts will not only help accelerate Linux networking development on ARM but also place a strong cornerstone of collaboration and foundation of transparency with its group members and the upstream networking communities.
-
-_ _
+_As with any open source project, open and transparent collaboration is key and these philosophies are what we are bringing to the ARM ecosystem in many ways through our working groups, LEG, and now LNG. The LNG efforts will not only help accelerate Linux networking development on ARM but also place a strong cornerstone of collaboration and foundation of transparency with its group members and the upstream networking communities._
 
 
 ## More information:
@@ -79,6 +74,3 @@ Slides from ELC Keynote can be found at:
 
 [http://www.linaro.org/linux-on-arm/presentations](http://www.linaro.org/linux-on-arm/presentations)
 
-_ _
-
-_ _

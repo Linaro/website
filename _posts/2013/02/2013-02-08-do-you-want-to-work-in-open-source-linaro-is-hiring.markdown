@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-08 17:57:12+00:00
 layout: post
 link: https://www.linaro.org/blog/do-you-want-to-work-in-open-source-linaro-is-hiring/
@@ -18,53 +17,25 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 
 ## Linaro is looking for...
 
-
-
-
-
 	
   * Project Managers:  [http://www.linaro.org/careers/project-managers](http://www.linaro.org/careers/project-managers)
 
-
-
-	
   * OS Engineer - Kernel/Bootloader: [http://www.linaro.org/careers/os-engineer-kernelbootloader](http://www.linaro.org/careers/os-engineer-kernelbootloader)
 
-
-
-	
   * Engineering Manager - Automation & CI: [http://www.linaro.org/careers/engineering-manager-automation-ci](http://www.linaro.org/careers/engineering-manager-automation-ci)
 
-
-
-	
   * LAVA Tech Lead: [http://www.linaro.org/careers/lava-tech-lead](http://www.linaro.org/careers/lava-tech-lead)
 
-
-
-	
   * Android Ubuntu Linux Kernel Engineer: [http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer](http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer)
 
-
-
-	
   * Boot / Kernel Expert - Principal Engineers: [http://www.linaro.org/careers/boot-kernel-expert-principal-engineers](http://www.linaro.org/careers/boot-kernel-expert-principal-engineers)
 
-
-
-	
   * Principal Engineers: [http://www.linaro.org/careers/principal-engineers](http://www.linaro.org/careers/principal-engineers)
 
-
-
-	
   * QA Services Lead: [http://www.linaro.org/careers/qa-services-lead](http://www.linaro.org/careers/qa-services-lead)
 
 
-
-
 ## How to apply
-
 
 Want to apply for one of these roles? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
 

@@ -1,6 +1,5 @@
 ---
 author: yongqin.liu
-
 date: 2013-02-05 02:53:36+00:00
 layout: post
 link: https://www.linaro.org/blog/android-blog/update-android-kernel-tools/
@@ -26,27 +25,19 @@ The Linaro Android team now has tools to help you update kernel related files fo
 
 Do you want to update the kernel related files with a new boot.tar.bz2? You can do so with the following command:
 
-
     ./update-android.sh out/target/product/pandaboard/boot.tar.bz2
-
 
 Do you want to update only the board.dtb file? No problem, you can do:
 
-
     ./update-android.sh out/target/product/pandaboard/boot/board.dtb
-
 
 Do you just want to update the loglevel in /init.rc to 8?  Use the following command:
 
-
     ./update-uInitrd.sh /tmp/init.rc
-
 
 What do you think about the tools? Do you want to give these commands a try? If so, you can get these scripts by using the following command:
 
-
     git clone http://android.git.linaro.org/git-ro/platform/external/linaro-android-tools.git
-
 
 More information on these tools can be found at:
 [https://wiki.linaro.org/Platform/Android/KernelUpdateTools](https://wiki.linaro.org/Platform/Android/KernelUpdateTools)
@@ -54,9 +45,6 @@ More information on these tools can be found at:
 _**About the Linaro Android Team**_
 
 _The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
-
-
-
 
   * _[Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
 
@@ -75,9 +63,6 @@ _More information about the Linaro Android Team can be found at: [https://wiki.
 _**About the Linaro Kernel Team**_
 
 _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern ARM SoCs._
-
-
-
 
   * _[Meeting](https://wiki.linaro.org/WorkingGroups/Kernel/Meetings): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*_
 

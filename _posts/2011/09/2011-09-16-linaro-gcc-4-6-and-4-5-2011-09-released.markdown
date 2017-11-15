@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2011-09-16 11:13:13+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-and-4-5-2011-09-released/

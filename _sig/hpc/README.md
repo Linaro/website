@@ -4,6 +4,9 @@ title: High Performance Computing (HPC)
 permalink: /sig/hpc/
 director: Martin Stadtler
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv
+members_key: hpc_members
+group_long_name: High Performance Computing (HPC)
+group_short_name: HPC
 ---
 # High Performance Computing (HPC)
 

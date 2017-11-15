@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-04-04 13:21:28+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/whats-new-in-the-12-03-linaro-android-origen-release/
@@ -16,7 +15,7 @@ tags:
 - Releases
 ---
 
-_**[Amit Pundir](http://www.linaro.org/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
+_** [Amit Pundir](http://www.linaro.org/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
 
 Its been almost a week since [Linaro 12.03 was released](http://www.linaro.org/linaro-blog/2012/03/29/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
 

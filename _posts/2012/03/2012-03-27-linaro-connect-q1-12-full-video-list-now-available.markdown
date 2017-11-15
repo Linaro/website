@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-03-27 02:28:31+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q1-12-full-video-list-now-available/
@@ -22,8 +21,6 @@ tags:
 The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](http://connect.linaro.org/events/event/lcq1-12/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.
 
 Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on the ones you want to view or check out the[ Linaro youtube channel](http://www.youtube.com/user/LinaroOrg) for these and other videos we've posted from other events as well.
-
-
 
 
   * [Sangwook Lee Demos Icecream Sandwich on Origen Board](http://www.youtube.com/watch?v=wfjqn06s4C8)
@@ -109,9 +106,12 @@ If you think this range of topics, speakers, interviewees and demos are fantasti
 **About Linaro**
 
 
-<blockquote>Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
-
-To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.</blockquote>
+> Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain,
+> the Linux kernel, ARM power management, graphics and multimedia interfaces.
+>
+> To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the  
+> start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and 
+> costly low level fragmentation.
 
 
 More information about Linaro can be found at: [http://www.linaro.org](http://www.linaro.org/about/)
@@ -119,9 +119,9 @@ More information about Linaro can be found at: [http://www.linaro.org](http://w
 **About Linaro Connect**
 
 
-<blockquote>The industry’s largest and most important event for developing Linux on ARM, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
+> The industry’s largest and most important event for developing Linux on ARM, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
 
-All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon and socialising in the evening.</blockquote>
+> All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon > and socialising in the evening.
 
 
 More information about Linaro Connect can be found at: [http://connect.linaro.org/events/event/linaro-connect-q2-12/](http://connect.linaro.org/events/event/linaro-connect-q2-12/)

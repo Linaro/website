@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2011-05-27 12:11:29+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program/
@@ -11,10 +10,7 @@ wordpress_id: 4410
 categories:
 - News
 ---
-
 CAMBRIDGE, UK - 27 MAY 2011
-
-
 
 ## Milestone highlights Linaro delivering on its promise to make it easier and quicker to develop open source products
 
@@ -25,10 +21,6 @@ Linaro was launched at Computex in 2010 by ARM, IBM, Freescale, Samsung, ST-Eric
 
 
 ### Key milestones:
-
-
-
-
 
 	
   * In the first year, Linaro has built a team of more than 100 talented open source developers that have worked on the open source Linux platform on member chips and delivered code upstream that benefits all Linux-based distributions.
@@ -47,13 +39,11 @@ The demonstrations at LDS showcased the Android and Ubuntu Linaro Evaluation Bui
 
 ### Linaro Partner Program
 
-
 Linaro also announced today the Linaro Partner Program, which is designed to enable companies and organizations to get involved with Linaro's engineering team. The Linaro Partner Program will enable ISVs, software service providers and device manufacturers the ability to embed engineers in Linaro and work together on projects of common interest. This alignment with Linaro will be beneficial to both sides, extending the engineering effort available to Linaro and enabling the sponsoring companies to work with a larger team and build profitable businesses around Linaro's roadmap.
 
 "A year ago, Linaro was formed to enhance open source innovation for the next wave of always-connected, always-on computing," said Chief Operations Officer Stephen Doel. "Today, as we turn 1 year old, we are pleased to share our major achievements as we announce Linaro's Partner Program that will continue to accelerate the depth of engagement from electronics companies and encourage continuous involvement from the wider community."
 
 At launch, the Linaro Partner Program includes Thundersoft, Canonical, Mentor Graphics, Genesi and Collabora. Companies interested in aligning with Linaro and joining the Linaro Partner Program should contact the management team.
-
 
 ### Linaro Founding Member Quotes
 

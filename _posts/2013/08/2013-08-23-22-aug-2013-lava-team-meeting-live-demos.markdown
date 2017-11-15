@@ -1,6 +1,5 @@
 ---
 author: alan.bennett
-
 date: 2013-08-23 19:36:37+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/22-aug-2013-lava-team-meeting-live-demos/
@@ -25,11 +24,6 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
 
 ## Beta testing staging.git.l.o & staging.review.l.o by Milo Casagrande
 
-
-
-
-
-
   * git-web, gitolite, gerrit working together
 
 
@@ -38,15 +32,7 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
 
   * [https://wiki.linaro.org/Platform/Infrastructure/StagingGit](https://wiki.linaro.org/Platform/Infrastructure/StagingGit)
 
-
-
-
 ## Guide to multi-node documentation by Neil Williams
-
-
-
-
-
 
   * What is Multi-node?  Where do I go to find out more about it?
 
@@ -92,17 +78,7 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
     * LAVA Administrators will need to carefully monitor and adjust resources as necessary.
 
 
-
-
-
-
-
 ## Image Report Editor by Stevan Radakovic
-
-
-
-
-
 
   * An abstraction layer to provide the ability to create and combine mulitple LAVA filters and produce customized/targeted Image Reports that help the test administrator share the results they want to with more flexibility and power.
 
@@ -113,16 +89,7 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
     * [https://cards.linaro.org/browse/LAVA-634](https://cards.linaro.org/browse/LAVA-634)
 
 
-
-
-
-
-
 ## Bootloader/lava-test-shell & LAVA Continuous Integration by Tyler Baker
-
-
-
-
 
 
   * Using Jenkins and LAVA to verify LAVA on [http://community.validation.linaro.org](http://community.validation.linaro.org/) and[http://community.validation.linaro.org:8082](http://community.validation.linaro.org:8082/)
