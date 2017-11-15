@@ -1,6 +1,5 @@
 ---
 author: khasim.mohammed
-
 date: 2014-12-17 01:05:59+00:00
 layout: post
 link: https://www.linaro.org/blog/android-l-release-building-tips/
@@ -18,9 +17,7 @@ tags:
 - Linux on ARM
 ---
 
-[![android](/assets/blog/android.png)](/assets/blog/android.png)
-
-
+{% include image.html name="android.png" alt="android" %}
 
 Linaro has been working for the past several months to enable the full Android experience on the ARM 64-bit architecture and we are now able to test this on the commercially available Nexus 9 ARMv8 AArch64 based platform.
 

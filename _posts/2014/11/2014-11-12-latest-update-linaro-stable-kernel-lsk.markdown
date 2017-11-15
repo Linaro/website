@@ -1,6 +1,5 @@
 ---
 author: jennifer.castelino
-
 date: 2014-11-12 16:50:40+00:00
 layout: post
 link: https://www.linaro.org/blog/latest-update-linaro-stable-kernel-lsk/
@@ -15,41 +14,18 @@ Linaro Stable Kernel (LSK) was announced in 2013 as an effort to address the ch
 
 If you were not able to attend, here's a recap of the LSK session during the show as well as an interview with the team's leaders discussing the activities the team has been working on and what is coming up.
 
-
-
 * * *
-
-
-
-
 
 ### **Linaro Stable Kernel (LSK) team leads discuss the team's current status and future:**
 
-
-
-
-
-
-
-
-
 * * *
-
-
-
-
 
 ### ** Session Videos during Linaro Connect USA 2014**
 
-
 During Linaro Connect USA the LSK team held a session to discuss in detail the team's activities taking place.
 
-
-
-	
   * **LCU14-511: LSK Overview and Status AVA Use Cases: Upstream Kernel CI**
-
-	
+  
     * **Session Summary:**
 This session will provide a summary of the current status of LSK, an introduction for those not familiar with it and provide a forum for discussion of the status and direction with members.
 ---------------------------------------------------
@@ -58,17 +34,7 @@ Presentation: [http://www.slideshare.net/linaroorg/lcu14-511-lsk-update-and-ove
 Video: [https://www.youtube.com/watch?v=PwbpAz12L9k&list=UUIVqQKxCyQLJS6xvSmfndLA](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DPwbpAz12L9k%26list%3DUUIVqQKxCyQLJS6xvSmfndLA&sa=D&usg=ALhdy2-szRQ9gxm6u7GojtHX4i9wLFI7Lw)
 
 
-
-
-
-
-
-
 * * *
-
-
-
-
 
 ### **Linaro Stable Kernel**
 
