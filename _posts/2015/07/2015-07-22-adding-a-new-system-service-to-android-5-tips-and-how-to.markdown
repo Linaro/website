@@ -375,50 +375,36 @@ _$ cp -r out/host/linux-x86/sdk/jetson/android-sdk_eng.jmondi_linux-x86 ~/Androi
 
 Now we can test our implementation with the simplest possible application
 
-_import android.app.Activity;
-__import android.content.Context;
-__import android.joffee.JoffeeManager;_
+
+```java
+
+    import android.app.Activity;import android.content.Context;
+    import android.joffee.JoffeeManager;
 
 
-_public class MainActivity extends Activity {
-__private JoffeeManager joffeeManager;_
+    public class MainActivity extends Activity {
+        
+        private JoffeeManager joffeeManager;
+        
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activitymain);
+        
+        joffeeManager = getSystemService(JOFFEE_SERVICE);
 
+        joffeeManager.callJoffeeMethod();
+        
+        }
+    
+    
+}
+```
 
-
-
-_@Override
-__protected void onCreate(Bundle savedInstanceState) {
-__super.onCreate(savedInstanceState);
-__setContentView(R.layout.activity_main);_
-
-
-
-
-_joffeeManager = getSystemService(JOFFEE_SERVICE);_
-
-
-
-
-_ joffeeManager.callJoffeeMethod();
-__}_
-
-
-
-
-_}_
-
-
-If everything has gone in the right way, you should see the “_Hello Android!!” _printout on logcat!
-
+If everything has gone in the right way, you should see the _“Hello Android!!”_ printout on logcat!
 
 ### **Conclusions**
 
-
-
-
 Adding new services to Android requires a vast knowledge of many system aspects, and a lot of tweaking of existing parts, where most of the time the only resource you have is the existing code in AOSP.
-
-
-
 
 Android features a nice structured and layered design, which allows it to expose a well defined and well documented set of API to application developer. The counter of all of this is the depth of its internals, and the number of “mobile parts” you have to touch to to include new features of modify existing ones.
