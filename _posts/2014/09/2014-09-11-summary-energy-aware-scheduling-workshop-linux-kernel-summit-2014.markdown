@@ -26,11 +26,9 @@ tags:
 
 # Summary of Energy-Aware Scheduling workshop, Linux Kernel Summit 2014
 
+## **What is energy-aware scheduling?**
 
-
-
-
-## **![Linux-Kernel-Summit](/assets/blog/Linux-Kernel-Summit.png)What is energy-aware scheduling?**
+{% include image.html name="Linux-Kernel-Summit.png" alt="Linux-Kernel-Summit" %}
 
 
 A topic of increasing interest is the push for energy awareness in the Linux kernel scheduler. While the topic is broad and deep, the general goal is to adapt the Linux kernel scheduler to take into account the energy cost of the decisions it makes and, with knowledge of the underlying hardware platform, make more intelligent decisions that can save power whilst maintaining existing performance levels. This general goal will be achieved through many efforts including new tools to help test changes and validate assumptions, as well as the integration of existing power management subsystems such as CPUfreq and CPUidle with the scheduler. The end result will be Linux-powered devices that consume less energy, manage thermal events with panache and perhaps are even more performant. This is a boon for battery-powered mobile devices, big iron data centers and everything in between and the backgrounds of the workshop attendees reflect that.
@@ -77,7 +75,9 @@ While some time was spent on the mechanism to get the per-platform and per-machi
 
 **Frequent flyers**
 
-![tux-eas](/assets/blog/tux-eas.jpg)The workshop moved on to discuss the integration of the Linux CPUfreq subsystem with the scheduler. Happily much of the discussion aligned nicely with the experiments being conducted within Linaro. [Paul Turner](http://www.linkedin.com/pub/paul-turner/23/0/586) and [Peter Zijlstra](http://nl.linkedin.com/pub/peter-zijlstra/0/568/797) both referred to the scheduler-facing interface as an “oracle”, meaning that the scheduler queries the platform energy model about such topics and task placement and cpu frequency scaling. The main benefit here is to unify the cpu frequency selection with task placement selection, something that is sorely lacking in products today.
+{% include image.html name="tux-eas.jpg" alt="tux-eas" %}
+
+The workshop moved on to discuss the integration of the Linux CPUfreq subsystem with the scheduler. Happily much of the discussion aligned nicely with the experiments being conducted within Linaro. [Paul Turner](http://www.linkedin.com/pub/paul-turner/23/0/586) and [Peter Zijlstra](http://nl.linkedin.com/pub/peter-zijlstra/0/568/797) both referred to the scheduler-facing interface as an “oracle”, meaning that the scheduler queries the platform energy model about such topics and task placement and cpu frequency scaling. The main benefit here is to unify the cpu frequency selection with task placement selection, something that is sorely lacking in products today.
 
 Those shipping power sensitive devices have no doubt felt the pain of tuning a CPUfreq governor and seen it scale the cpu frequency in a way that is at odds with the scheduler’s task placement, especially for high value use cases such as low power MP3 playback or web browsing. Integrating CPUfreq with the scheduler hopes to resolve these issues.
 
@@ -85,9 +85,7 @@ It was pointed out that some CPUfreq drivers might sleep or block in the course 
 
 Additionally there was some discussion of the dependencies for this work. The ultimate goal would be to select cpu frequency based on the energy model mentioned above, but it was decided to not depend on the energy model to get the first RFC on the list. The attendees agreed that a naive and simple solution which uses cpu utilization as the cpu scaling heuristic would be a reasonable first step. Energy model integration can come later.
 
-Finally there was a good amount of discussion around where this development leaves legacy CPUfreq governors and their corresponding tunable parameters. Especially for those shipping power-sensitive mobile devices there is a strong desire to retain knobs and switches by which a vendor can tune their cpu scaling algorithm on a per-product basis. There was mostly consensus in the room that much of the existing knobs in the CPUfreq governors today are indicative of an outdated design. Instead the energy model itself can be tuned in downstream kernels on a per-product and per-platform basis. Doubtless it will be tuned _to death_ by those shipping devices with small batteries, and the hope is that better energy savings _and_better system responsiveness can be achieved by combining the per-platform energy model with scheduler-driven decision making. Some in the workshop remained skeptical and as always this topic will be sorted out on the mailing list in time.
-
-
+Finally there was a good amount of discussion around where this development leaves legacy CPUfreq governors and their corresponding tunable parameters. Especially for those shipping power-sensitive mobile devices there is a strong desire to retain knobs and switches by which a vendor can tune their cpu scaling algorithm on a per-product basis. There was mostly consensus in the room that much of the existing knobs in the CPUfreq governors today are indicative of an outdated design. Instead the energy model itself can be tuned in downstream kernels on a per-product and per-platform basis. Doubtless it will be tuned _to death_ by those shipping devices with small batteries, and the hope is that better energy savings _and_ better system responsiveness can be achieved by combining the per-platform energy model with scheduler-driven decision making. Some in the workshop remained skeptical and as always this topic will be sorted out on the mailing list in time.
 
 **Idle minds**
 
@@ -100,8 +98,6 @@ This work hopes to improve selection of idle states on systems with complex topo
 In addition Daniel has recently posted an RFC series to the linux-kernel mailing list that tracks per-tasks wake-ups as a way to have a more accurate prediction of wake-up behavior. This departs from the old way of predicting wake-ups, which did not take the individual tasks into account for a more fine-grained estimate.
 
 The feeling in the room was positive towards this progress and it seems the work will continue forward without a major shift in direction.
-
-
 
 **Virtually done**
 

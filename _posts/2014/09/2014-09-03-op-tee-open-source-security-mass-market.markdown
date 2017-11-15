@@ -17,8 +17,7 @@ tags:
 - qemu
 ---
 
-# ![thumb_STMicroTransparent](/assets/blog/thumb_STMicroTransparent.png)OP-TEE, open-source security for the mass-market
-
+{% include image.html name="thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" %}
 
 TEE. Behind this acronym hides the Trusted Execution Environment, a small OS-like environment that sits aside a rich operating system – for instance Android. The purpose of the TEE is to keep all secret credentials and data manipulation in the small TEE rather than in a larger rich OS that is often the vulnerable target of malware and hackers in general. In order to reach this goal, application software is architected in a way such that sensitive functions are precisely defined and offloaded to the TEE in the form of Trusted Applications.
 
@@ -34,27 +33,21 @@ It has been almost a year since STMicroelectronics, with the full support from E
 
 OP-TEE is now available on GitHub, at [https://github.com/OP-TEE](https://github.com/OP-TEE). It consists of three components in separate gits: the normal world user space client APIs (optee_client), a Linux kernel TEE device driver (optee_linuxdriver) and the Trusted OS (optee_os). OP-TEE currently adheres to GlobalPlatform APIs, namely the GlobalPlatform TEE Client API 1.0 and GlobalPlatform TEE Internal API 1.0 specifications, available freely on the GlobalPlatform website. The Trusted OS part is under a BSD license, so that SoC vendors and device manufacturers may modify it without any obligation to disclose the modifications. This choice was key to make OP-TEE usable in commercial products, and thus to build an industry community around OP-TEE. The other major task was the abstraction of platform-specific parts in such a way that it should be fairly easy to port and incorporate OP-TEE in products from different vendors.
 
-
-
-[caption id="attachment_6508" align="aligncenter" width="800"][![OP-TEE architecture with the scope of its three gits](/assets/blog/op-tee_diagram.png)](/assets/blog/op-tee_diagram.png) OP-TEE architecture with the scope of its three gits[/caption]
+{% include image.html name="op-tee_diagram.png" alt="OP-TEE architecture with the scope of its three gits" %}
 
 OP-TEE targets ARM cores and therefore includes a secure monitor code for TrustZone – which is the code executed when the core switches between TrustZone and non-TrustZone modes. We expect that it should still be fairly easy to use OP-TEE on architectures other than ARM TrustZone – for instance on the Cortex-M and Cortex-R range of ARM cores, and therefore further defragment security in embedded electronics, in areas such as Internet of Things or automotive.
 By releasing OP-TEE to the public, ST and Linaro have provided a seed that will grow from contributions coming from the ARM ecosystem, and especially from Linaro members. An open-source TEE supporting standard interfaces and bringing a community will reduce fragmentation in the way ARM TrustZone is used to everyone’s benefit. We also anticipate that it will foster private and public applied research in security, by giving access to the technology to universities, researchers and governments around the world.
 
 
-
 * * *
 
 
-
-
-
-**Hervé Sibert  / **System Security Architect, Director / STMicroelectronics
+**Hervé Sibert**  / System Security Architect, Director / STMicroelectronics
 
 Hervé is Security architect, Director, at STMicroelectronics. After 3 years as an engineer and researcher in cryptography and network security at France Telecom, he joined the Mobile and Personal Division of NXP in 2006, which was merged into ST-Ericsson. He is now driving integration of TEE in the architecture of ST products. He works closely with Linaro and is also active in standards organizations such as the Trusted Computing Group (TCG) and GlobalPlatform, where he coordinates the TEE Security Working Group.
 
 
 
-**Joakim Bech / **Security Working Group, Tech Lead / Linaro
+**Joakim Bech** / Security Working Group, Tech Lead / Linaro
 
 Joakim has been a Linux user for about 15 years and for the 8 years prior to joining Linaro he was working in the telecom industry for companies such as Sony Ericsson, EMP and ST-Ericsson. Roles there included architect, team leader and development engineer. Most of his time has been spent in embedded security where he was a major contributor to the GlobalPlatform certified TEE / TrustZone solution created by ST-Ericsson.

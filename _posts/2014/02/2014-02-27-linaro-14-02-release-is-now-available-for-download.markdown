@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2014-02-27 16:20:39+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-14-02-release-is-now-available-for-download/
@@ -31,18 +30,13 @@ tags:
 - toolchain
 ---
 
-<blockquote>The three great essentials to achieve anything worth while are: Hard work, Stick-to-itiveness, and Common sense.   ~Thomas A. Edison</blockquote>
-
+> The three great essentials to achieve anything worth while are: Hard work, Stick-to-itiveness, and Common sense.   ~Thomas A. Edison
 
 As announced at Linaro Connect USA 2013 Linaro GCC has moved to a pattern of quarterly stable releases, with engineering releases in the intervening months.  14.01 was the first stable release. The next release of GCC 4.7 will be the 2014.04 stable release.  There will be no engineering releases of GCC 4.7 in 14.02 or 14.03.
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
 
-
-
-
   * [https://wiki.linaro.org/Cycles/1402/Release#Release_Information](https://wiki.linaro.org/Cycles/1402/Release#Release_Information)
-
 
 We encourage everybody to use the 14.02 release.
 
@@ -52,14 +46,10 @@ This post includes links to more information and instructions for using the imag
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
 
-
-
 ### USING THE ANDROID-BASED IMAGES
 
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
-
-
 
 
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
@@ -72,8 +62,6 @@ If you are interested in getting the source and building these images yourself p
 
 
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
-
-
 
 
 ### USING THE UBUNTU-BASED IMAGES
@@ -132,11 +120,6 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
     * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
-
-
-
-
-
 
 
 ### KNOWN ISSUES WITH THIS RELEASE

@@ -1,6 +1,5 @@
 ---
 author: jennifer.castelino
-
 date: 2014-09-24 21:06:33+00:00
 layout: post
 link: https://www.linaro.org/blog/last-day-linaro-connect-2014/
@@ -26,254 +25,324 @@ tags:
 - video
 ---
 
-Friday September 19th was the last day of Linaro Connect USA 2014.  The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.   Following the keynote, there were demonstrations of some of the latest Linux developments on ARM.   The demonstrations also included interactive demonstrations showcasing ARM-processor-based boards and Linaro builds by Linaro members, partners and the community.  This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM processor-based boards for Linux on ARM.  
+Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on ARM.  The demonstrations also included interactive demonstrations showcasing ARM-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM processor-based boards for Linux on ARM.
 
-After a fantastic week in Burlingame, CA we are already looking forward to our next Connect.  Our next Linaro Connect will be February 9-13, 2015 in Hong Kong.  Registration is now open -[ reserve your spot today!](http://connect.linaro.org/hkg15/)
-
+After a fantastic week in Burlingame, CA we are already looking forward to our next Connect. Our next Linaro Connect will be February 9-13, 2015 in Hong Kong. Registration is now open -[ reserve your spot today!](http://connect.linaro.org/hkg15/)
 
 ### **Friday September 19, 2014**
 
-
-<table width="1114" style="height: 334px;" >
+<table width="1114" style="height: 334px;" class="table responsive-table" >
 <tbody >
 <tr >
 
-<td width="35%" >**Session**
+<td width="35%" markdown="1">
+**Session**
 </td>
 
-<td >**Track**
+<td markdown="1">
+**Track**
 </td>
 
-<td >**Session Description**
+<td markdown="1">
+**Session Description**
 </td>
 
-<td >**YouTube Video**
+<td markdown="1">
+**YouTube Video**
 </td>
 
-<td >**Presentation**
+<td markdown="1">
+**Presentation**
 </td>
 
-<td >**Video (Linaro Server)**
-</td>
-</tr>
-<tr >
-
-<td >Keynote:  Jim Zemlin, Executive Director of the Linux Foundation
-</td>
-
-<td >Keynote
-</td>
-
-<td >[Description](http://lcu14.zerista.com/event/member/137800)
-</td>
-
-<td >[Video](https://www.youtube.com/watch?v=-ylsAYzEcpo)
-</td>
-
-<td >Not Available 
-</td>
-
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/Jim%20Zemlin%20-%20Linux%20Foundation.mp4)
+<td markdown="1">
+**Video (Linaro Server)**
 </td>
 </tr>
 <tr >
 
-<td >LCU14-500: ARM Trusted Firmware roadmap and progress
+<td markdown="1">
+Keynote: Jim Zemlin, Executive Director of the Linux Foundation
 </td>
 
-<td >Security
+<td markdown="1">
+Keynote
 </td>
 
-<td >[Description](http://lcu14.zerista.com/event/member/137787)
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137800)
 </td>
 
-<td >[Video](https://www.youtube.com/watch?v=je0_-yYgKdc&list=UUIVqQKxCyQLJS6xvSmfndLA)
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=-ylsAYzEcpo)
 </td>
 
-<td >[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-500-arm-trusted-firmware)
+<td markdown="1">
+Not Available 
 </td>
 
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-500-%20ARM%20Trusted%20Firmware%20roadmap%20and%20progress.mp4)
-</td>
-</tr>
-<tr >
-
-<td >LCU14-501: OpenStack and elastic scaling
-</td>
-
-<td >Enterprise Server
-</td>
-
-<td >[Description](http://lcu14.zerista.com/event/member/137788)
-</td>
-
-<td >[Video](https://www.youtube.com/watch?v=sb7pXg5LugA&list=UUIVqQKxCyQLJS6xvSmfndLA)
-</td>
-
-<td >Available soon
-</td>
-
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-501-%20OpenStack%20and%20elastic%20scaling.mp4)
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/Jim%20Zemlin%20-%20Linux%20Foundation.mp4)
 </td>
 </tr>
 <tr >
 
-<td >LCU14-502: Android User-Space Tests: Multimedia codec tests, Status and Open Discussions
+<td markdown="1">
+LCU14-500: ARM Trusted Firmware roadmap and progress
 </td>
 
-<td >Android
+<td markdown="1">
+Security
 </td>
 
-<td >[Description](http://lcu14.zerista.com/event/member/137789)
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137787)
 </td>
 
-<td >[Video](https://www.youtube.com/watch?v=xNr6xsvnNVA&list=UUIVqQKxCyQLJS6xvSmfndLA)
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=je0_-yYgKdc&list=UUIVqQKxCyQLJS6xvSmfndLA)
 </td>
 
-<td >[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-502-androiduserspacetests)
+<td markdown="1">
+[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-500-arm-trusted-firmware)
 </td>
 
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-502-%20Android%20User-Space%20Tests-%20Multimedia%20codec%20tests%252C%20Status%20and%20Open%20Discussions.mp4)
-</td>
-</tr>
-<tr >
-
-<td >LCU14-503: What To Do About ADF?
-</td>
-
-<td >Linux Kernel
-</td>
-
-<td >[Description](http://lcu14.zerista.com/event/member/137790)
-</td>
-
-<td >[Video](https://www.youtube.com/watch?v=umnEXIBULnQ&list=UUIVqQKxCyQLJS6xvSmfndLA)
-</td>
-
-<td >[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-503-what-to-do-about-adf)
-</td>
-
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-503-%20What%20To%20Do%20About%20ADF%3f.mp4)
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-500-%20ARM%20Trusted%20Firmware%20roadmap%20and%20progress.mp4)
 </td>
 </tr>
 <tr >
 
-<td >LCU14-504: Taming ARMv8 NEON: from theory to benchmark results
+<td markdown="1">
+LCU14-501: OpenStack and elastic scaling
 </td>
 
-<td >Android
+<td markdown="1">
+Enterprise Server
 </td>
 
-<td >[Description](http://lcu14.zerista.com/event/member/137791)
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137788)
 </td>
 
-<td >[Video](https://www.youtube.com/watch?v=ixuDntaSnHI&list=UUIVqQKxCyQLJS6xvSmfndLA)
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=sb7pXg5LugA&list=UUIVqQKxCyQLJS6xvSmfndLA)
 </td>
 
-<td >Available soon
+<td markdown="1">
+Available soon
 </td>
 
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-504-%20Taming%20ARMv8%20NEON-%20from%20theory%20to%20benchmark%20results.mp4)
-</td>
-</tr>
-<tr >
-
-<td >LCU14-505: ACPI upstreaming and patch review
-</td>
-
-<td >Enterprise Server
-</td>
-
-<td >[Description](http://lcu14.zerista.com/event/member/137792)
-</td>
-
-<td >[Video](https://www.youtube.com/watch?v=IsjL8-4-L5w&list=UUIVqQKxCyQLJS6xvSmfndLA)
-</td>
-
-<td >Available soon
-</td>
-
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-505-%20ACPI%20upstreaming%20and%20patch%20review.mp4)
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-501-%20OpenStack%20and%20elastic%20scaling.mp4)
 </td>
 </tr>
 <tr >
 
-<td >LCU14-506: KVM Development Status
+<td markdown="1">
+LCU14-502: Android User-Space Tests: Multimedia codec tests, Status and Open Discussions
 </td>
 
-<td >Virtualization
+<td markdown="1">
+Android
 </td>
 
-<td >[Description](http://lcu14.zerista.com/event/member/137793)
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137789)
 </td>
 
-<td >[Video](https://www.youtube.com/watch?v=XGQrMaUW5Yo&list=UUIVqQKxCyQLJS6xvSmfndLA)
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=xNr6xsvnNVA&list=UUIVqQKxCyQLJS6xvSmfndLA)
 </td>
 
-<td >[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-506-kvm-development-status)
+<td markdown="1">
+[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-502-androiduserspacetests)
 </td>
 
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-506-%20KVM%20Development%20Status.mp4)
-</td>
-</tr>
-<tr >
-
-<td >LCU14-508 BOF: OpenEmbedded
-</td>
-
-<td >BoF
-</td>
-
-<td >[Description](http://lcu14.zerista.com/event/member/137796)
-</td>
-
-<td >[Video](https://www.youtube.com/watch?v=vrLrIGkyAEk&list=UUIVqQKxCyQLJS6xvSmfndLA)
-</td>
-
-<td >Available soon
-</td>
-
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-508%20BOF-%20OpenEmbedded.mp4)
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-502-%20Android%20User-Space%20Tests-%20Multimedia%20codec%20tests%252C%20Status%20and%20Open%20Discussions.mp4)
 </td>
 </tr>
 <tr >
 
-<td >LCU14-511: LSK overview and status update
+<td markdown="1">
+LCU14-503: What To Do About ADF?
 </td>
 
-<td >LSK
+<td markdown="1">
+Linux Kernel
 </td>
 
-<td >[Description](http://lcu14.zerista.com/event/member/137799)
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137790)
 </td>
 
-<td >[Video](https://www.youtube.com/watch?v=PwbpAz12L9k&list=UUIVqQKxCyQLJS6xvSmfndLA)
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=umnEXIBULnQ&list=UUIVqQKxCyQLJS6xvSmfndLA)
 </td>
 
-<td >[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-511-lsk-update-and-overview)
+<td markdown="1">
+[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-503-what-to-do-about-adf)
 </td>
 
-<td >[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-511-%20LSK%20overview%20and%20status%20update.mp4)
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-503-%20What%20To%20Do%20About%20ADF%3f.mp4)
 </td>
 </tr>
 <tr >
 
-<td >
+<td markdown="1">
+LCU14-504: Taming ARMv8 NEON: from theory to benchmark results
 </td>
 
-<td >
+<td markdown="1">
+Android
 </td>
 
-<td >
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137791)
 </td>
 
-<td >
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=ixuDntaSnHI&list=UUIVqQKxCyQLJS6xvSmfndLA)
 </td>
 
-<td >
+<td markdown="1">
+Available soon
 </td>
 
-<td >
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-504-%20Taming%20ARMv8%20NEON-%20from%20theory%20to%20benchmark%20results.mp4)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+LCU14-505: ACPI upstreaming and patch review
+</td>
+
+<td markdown="1">
+Enterprise Server
+</td>
+
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137792)
+</td>
+
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=IsjL8-4-L5w&list=UUIVqQKxCyQLJS6xvSmfndLA)
+</td>
+
+<td markdown="1">
+Available soon
+</td>
+
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-505-%20ACPI%20upstreaming%20and%20patch%20review.mp4)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+LCU14-506: KVM Development Status
+</td>
+
+<td markdown="1">
+Virtualization
+</td>
+
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137793)
+</td>
+
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=XGQrMaUW5Yo&list=UUIVqQKxCyQLJS6xvSmfndLA)
+</td>
+
+<td markdown="1">
+[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-506-kvm-development-status)
+</td>
+
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-506-%20KVM%20Development%20Status.mp4)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+LCU14-508 BOF: OpenEmbedded
+</td>
+
+<td markdown="1">
+BoF
+</td>
+
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137796)
+</td>
+
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=vrLrIGkyAEk&list=UUIVqQKxCyQLJS6xvSmfndLA)
+</td>
+
+<td markdown="1">
+Available soon
+</td>
+
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-508%20BOF-%20OpenEmbedded.mp4)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+LCU14-511: LSK overview and status update
+</td>
+
+<td markdown="1">
+LSK
+</td>
+
+<td markdown="1">
+[Description](http://lcu14.zerista.com/event/member/137799)
+</td>
+
+<td markdown="1">
+[Video](https://www.youtube.com/watch?v=PwbpAz12L9k&list=UUIVqQKxCyQLJS6xvSmfndLA)
+</td>
+
+<td markdown="1">
+[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-511-lsk-update-and-overview)
+</td>
+
+<td markdown="1">
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-511-%20LSK%20overview%20and%20status%20update.mp4)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+
+</td>
+
+<td markdown="1">
+
+</td>
+
+<td markdown="1">
+
+</td>
+
+<td markdown="1">
+
+</td>
+
+<td markdown="1">
+
+</td>
+
+<td markdown="1">
+
 </td>
 </tr>
 </tbody>
@@ -282,63 +351,32 @@ After a fantastic week in Burlingame, CA we are already looking forward to our n
 
 ### A week in pictures
 
-
-Overall it was a great week with many exciting activities where those attending had a chance to learn, share their experience, network with leaders in their field and see demonstrations of the work that Linaro is doing.  Below are just a few photos of the activities that took place.  To see all the photos from the week please visit our flickr page:  [https://www.flickr.com/photos/linaroorg/](https://www.flickr.com/photos/linaroorg/)
+Overall it was a great week with many exciting activities where those attending had a chance to learn, share their experience, network with leaders in their field and see demonstrations of the work that Linaro is doing. Below are just a few photos of the activities that took place. To see all the photos from the week please visit our flickr page: [https://www.flickr.com/photos/linaroorg/](https://www.flickr.com/photos/linaroorg/)
 
 **Demos**
 There were demos each day of the week during Connect, including a robot that drew the Linaro Connect logo.
 
-[![Picture2](/assets/blog/Picture2.png)](/assets/blog/Picture2.png)
-
-
-
-
-
-
-
-
-
-
-
+{% include image.html name="Picture2.png" alt="Linaro Connect Picture 2"%}
 
 **Parties**
 Many parties and team dinners took place during the week, including the Connect Superhero Jamboree.
 
-[![superheros](/assets/blog/superheros.png)](/assets/blog/superheros.png)
+{% include image.html name="superheros.png" alt="Linaro Connect Superheroes" %}
 
+{% include image.html name="parties-2.jpg" alt="Linaro Connect Parties 2" %}
 
+{% include image.html name="parties.jpg" alt="Linaro Connect parties" %}
 
-
-
-
-
-
-
-
-
-
-
-[![parties 2](/assets/blog/parties-2.jpg)](/assets/blog/parties-2.jpg) [![parties](/assets/blog/parties.jpg)](/assets/blog/parties.jpg)
-
-[![party 3.5](/assets/blog/party-3.5.jpg)](/assets/blog/party-3.5.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% include image.html name="party-3.5.jpg" alt="Linaro Connect party 3.5" %}
 
 
 **Sessions, Learning and Hacking**
-Each day started with a variety of sessions to attend and demos to view.  The afternoons gave the teams time to meet and time for hacking.
 
-[![demos](/assets/blog/demos.jpg)](/assets/blog/demos.jpg) [![working](/assets/blog/working.jpg)](/assets/blog/working.jpg) [![sessions](/assets/blog/sessions.jpg)](/assets/blog/sessions.jpg)
+Each day started with a variety of sessions to attend and demos to view. The afternoons gave the teams time to meet and time for hacking.
+
+{% include image.html name="demos.jpg" alt="demos" %}
+
+{% include image.html name="working.jpg" alt="working" %}
+
+{% include image.html name="sessions.jpg" alt="sessions" %}
+

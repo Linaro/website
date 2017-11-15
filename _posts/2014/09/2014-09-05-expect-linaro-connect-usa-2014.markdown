@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2014-09-05 20:18:13+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/expect-linaro-connect-usa-2014/
@@ -19,7 +18,9 @@ tags:
 - Open Source
 ---
 
-[![lcu14](/assets/blog/lcu14.jpg)](http://www.linaro.org/connect/lcu/lcu14/)The next [Linaro Connect USA 2014](http://www.linaro.org/connect/lcu/lcu14/) (LCU14) is planned on 15th-19th September in   the Bay area, just over a week away. Close to four hundred people participated in the last [Linaro Connect in Macau ](http://www.linaro.org/connect/lca/lca14/)and registration for this next one is already exceeding this. There are several exciting activities that will be taking place at LCU14:
+{% include image.html name="lcu14.jpg" alt="LCU14" url="http://www.linaro.org/connect/lcu/lcu14/"%}
+
+The next [Linaro Connect USA 2014](http://www.linaro.org/connect/lcu/lcu14/) (LCU14) is planned on 15th-19th September in   the Bay area, just over a week away. Close to four hundred people participated in the last [Linaro Connect in Macau ](http://www.linaro.org/connect/lca/lca14/)and registration for this next one is already exceeding this. There are several exciting activities that will be taking place at LCU14:
 
 **Monday 15th September** has a mobile theme, beginning with a look at Linaro’s past, present and future by CEO George Grey and then a keynote entitled “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem” given by Google Project Ara Director [Paul Eremenko](http://www.linaro.org/connect/lcu/lcu14/schedule/). Following the keynotes there will be sessions that talk about ART, Android on ARMv8-A SoCs, a panel discussion on a more open AOSP, power management, Coresight, QEMU and security. The latter of these topics includes a couple of sessions on the open source trusted execution environment (TEE) that ST has released with Linaro’s assistance. The afternoon includes some introductory sessions on a variety of topics including ODP, upstreaming, Xen and ACPI, and embedded systems.
 

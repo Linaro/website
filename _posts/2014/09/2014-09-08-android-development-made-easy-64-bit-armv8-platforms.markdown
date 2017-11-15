@@ -1,12 +1,9 @@
 ---
 author: khasim.mohammed
-
 date: 2014-09-08 13:00:53+00:00
-excerpt: 'The latest Linaro 14.08 AOSP software build provides developers a unique
+excerpt:  The latest Linaro 14.08 AOSP software build provides developers a unique
   pre-integrated Android software distribution that enables them to more easily conduct
   64-bit development for Android on ARMv8-A based SOCs & platforms.
-
-  '
 layout: post
 link: https://www.linaro.org/blog/android-blog/android-development-made-easy-64-bit-armv8-platforms/
 slug: android-development-made-easy-64-bit-armv8-platforms
@@ -29,10 +26,11 @@ Multiple engineering teams at ARM and Linaro have worked together to provide thi
 
 The following video from ARM helps developers easily understand the Android development and booting procedure using Linaro Android release for ARMv8 based Juno platforms:
 
-https://www.youtube.com/watch?v=ojg4eZ-l3Po
+
+{% include media.html media_url="https://www.youtube.com/watch?v=ojg4eZ-l3Po" %}
 
 The latest release from Linaro is available is here
-
+    
 [http://releases.linaro.org/14.08/members/arm/android/images/armv8-android-juno-lsk](http://releases.linaro.org/14.08/members/arm/android/images/armv8-android-juno-lsk)
 
 **How does this release helps developers?** Android and other software components like the Linux kernel, and the UEFI boot loader are built with a common toolchain - in this case, the Linaro GCC compiler version 4.9 - and this helps to reduce the number of debug and development cycles. Developers have access to documentation that provides a build procedure, Android booting instructions for both the ARM Fast models and Juno hardware. The release provides both source and pre-built binaries to ease the initial setup and facilitates porting to custom hardware or integration with custom software components in Android.
@@ -43,11 +41,9 @@ The latest release from Linaro is available is here
 
 The release includes ARMv8 optimizations for Android of OpenSSL, LibPNG and BIONIC cortex C strings. These optimizations have also been submitted by Linaro to AOSP. By default ART runtime is enabled in “compiler” mode. SELinux is enabled in enforcing mode and validated with CTS packages. Recently Google released the Android NDK with support for 64-bit platforms and the changes to Andrid NDK are also starting to show up in the AOSP master codebase. The release includes Android latest NDK from AOSP master built with Linaro tool chains.
 
-**Can 32-bit applications be run? **The release is built for a 64-bit primary and 32-bit secondary configuration. So, the libraries are built for both 32-bit and 64-bit versions giving applications a fair chance to run on the 64-bit Android rootfs.
+**Can 32-bit applications be run?** The release is built for a 64-bit primary and 32-bit secondary configuration. So, the libraries are built for both 32-bit and 64-bit versions giving applications a fair chance to run on the 64-bit Android rootfs.
 
 **by Khasim Syed Mohammed, Tech Lead - Android, Linaro Mobile Group.**
-
-
 
 **A lot More @ ****[2014 Linaro Connect USA](http://www.linaro.org/connect/lcu/lcu14/)**
 

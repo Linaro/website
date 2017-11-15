@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2014-07-02 12:00:56+00:00
 excerpt: Following the recent announcement of the Android™ L Developer Preview, Linaro,
   the collaborative engineering organization developing open source software for the
