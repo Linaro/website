@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-11-30 20:17:55+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/getting-involved-with-linaro/
@@ -27,11 +26,7 @@ Below is a list of the various Linaro teams, what their primary goals are and ho
 
 ### Android
 
-
 The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking).
-
-
-
 
   * [Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
@@ -52,9 +47,6 @@ More information about the Linaro Android Team can be found at: [https://wiki.l
 
 
 The Developer Platform Team's primary goal is to provide a common platform to use as the basis for [Validation](https://wiki.linaro.org/Platform/Validation) test heads and optimized hardware-specific builds. We work with several teams within Linaro to make this happen.
-
-
-
 
   * [Meeting](https://wiki.linaro.org/Platform/DevPlatform/Meetings): Weekly on Thursday at 1400 UTC in #linaro-meeting on irc.freenode.net*
 
@@ -77,8 +69,6 @@ More information about the Linaro Developer Platform Team can be found at: [htt
 The goal of the LAVA team is to maintain and develop automated testing tools to be used to test Linaro Platform work. We work with several teams in Linaro to help enable them perform continuos integration testing.
 
 
-
-
   * [Meeting](https://wiki.linaro.org/Platform/LAVA/Meetings): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*
 
 
@@ -96,16 +86,7 @@ More information about the LAVA Team can be found at: [https://wiki.linaro.org/
 
 ### Infrastructure
 
-
-
-
 The scope of the Infrastructure Team is to maintain and develop archive management tools as well as the automated testing, etc. tools to be used to test Linaro platform work.
-
-
-
-
-
-
 
   * [Meeting](https://wiki.linaro.org/Platform/Infrastructure/Meetings): Weekly on Tuesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
@@ -127,9 +108,6 @@ More information about the Linaro Infrastructure Team can be found at: [https:/
 
 The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern ARM SoCs.
 
-
-
-
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Kernel/Meetings): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*
 
 
@@ -149,9 +127,6 @@ More information about the Linaro Kernel Team can be found at: [https://wiki.li
 
 
 The toolchain working group deals with all aspects of system-level tools - the core development toolchain (compiler, assembler, linker, debugger), emulation, profiling and analysis (oprofile, performance events) and instrumentation (ftrace).
-
-
-
 
   * Meeting: Weekly Conference Call see [Wiki](https://wiki.linaro.org/WorkingGroups/ToolChain) for more details.*
 
@@ -173,9 +148,6 @@ More information about the Linaro Toolchain Team can be found at: [https://wiki
 
 The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple ARM SoCs.
 
-
-
-
   * [Meeting](https://wiki.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly Conference Call (not a public call but minutes are sent to the mailing list)*
 
 
@@ -196,9 +168,6 @@ More information about the Linaro Power Management Team can be found at: [https
 
 The Graphics Working Group is set to improve the Linux graphics stack for current and future GPUs used in modern ARM devices like smart phones, tablets and netbooks.
 
-
-
-
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics#Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
 
@@ -215,11 +184,6 @@ More information about the Linaro Graphics Team can be found at: [https://wiki.
 
 
 ### Linaro Enterprise Group (LEG)
-
-
-
-
-
 
   * [Meeting](https://wiki.linaro.org/LEG/Engineering/Meetings/): Minutes are available*
 
@@ -238,19 +202,13 @@ More information about the Linaro Enterprise Group (LEG)  can be found at: [ht
 
 ###### _*Times and dates to the meetings are subject to change so check the respective wiki pages for any changes and updates.  Also please feel free to email the teams to find out more information. All times are listed in [UTC](http://www.timeanddate.com/) unless otherwise stated._
 
-
-
-
 #### About Linaro
-
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
 
-#### To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/).[](http://www.linaro.org/linux-on-arm/)
-[](http://www.linaro.org/linux-on-arm/)
+#### To find out more, please visit [http://www.linaro.org](http://www.linaro.org/).
 About Linaro Connect
-
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 

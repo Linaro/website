@@ -1,6 +1,5 @@
 ---
 author: dave.pigott
-
 date: 2012-11-16 15:40:02+00:00
 layout: post
 link: https://www.linaro.org/blog/that-pesky-connect-crossword/
@@ -24,6 +23,7 @@ Little did she know that in my spare time, as a hobby, I compile Cryptic Crosswo
 Anyway, all of that said, time has passed, and there are some of you who want to know how it all worked. So, what follows is my attempt at explaining, along with the message that was hidden in all the letters around the outside of the puzzle. Where appropriate, I've underlined the "object word(s)", i.e the thing that is being defined by the rest of the clue, which in crossword land should always be at the beginning or end of the clue:
 
 **Across**
+
 8  Incite no confusion for dangerous chemical (8)
 Answer: NICOTINE
 It's an anagram (indicated by "confusion") of INCITE NO. The object is "dangerous chemical", which nicotine most definitely is.
@@ -162,4 +162,4 @@ And once it's all solved, the letters around the edge, reading from the top left
 
 I sincerely hope this helps. I hope that on the back of this some of you will seek out cryptic crosswords. They really are mind expanding. My vocabulary has massively increased since I started doing them because there are often worlds you don't know, but when you've worked them out you will know them forever because of the effort you had to expend.
 
-[Copenhagen (unmodified)](/assets/blog/Copenhagen-unmodified.pdf)
+[Copenhagen (unmodified)](/assets/downloads/Copenhagen-unmodified.pdf)

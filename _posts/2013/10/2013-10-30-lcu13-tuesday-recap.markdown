@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2013-10-30 14:30:25+00:00
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-tuesday-recap/
@@ -57,202 +56,259 @@ Linaro Connect's first ever "Crazy Shirt" Contest began on Tuesday and we have m
 Linaro Connect begins on Wednesday by coming together with ARM TechCon briefly for the keynote from ARM’s CEO, Simon Segars. He will speak about his vision for transformative technology in the Internet of Things (IoT), data centers and mobile.
 
 **Linaro Connect sessions then continue after the keynote**:
-<table cellpadding="0" cellspacing="0" border="0" >
+
+<table cellpadding="0" cellspacing="0" border="0" class="table responsive-table">
 <tbody >
 <tr >
-
-<td colspan="5" >** ****Wednesday Oct 30, 2013**
+<td colspan="5" markdown="1">
+**Wednesday Oct 30, 2013**
 </td>
 </tr>
 <tr >
 
-<td >START
+<td markdown="1" >
+START
 </td>
 
-<td >FINISH
+<td markdown="1" >
+FINISH
 </td>
 
-<td >SESSION
+<td markdown="1" >
+SESSION
 </td>
 
-<td >TRACK
+<td markdown="1" >
+TRACK
 </td>
 
-<td >WHERE
-</td>
-</tr>
-<tr >
-
-<td valign="top" >09:00AM
-</td>
-
-<td valign="top" >10:00AM
-</td>
-
-<td width="277" valign="top" >**Simon Segars Keynote**
-</td>
-
-<td valign="top" >Keynote
-</td>
-
-<td valign="top" >.Auditorium
+<td markdown="1" >
+WHERE
 </td>
 </tr>
 <tr >
 
-<td valign="top" >10:05AM
+<td valign="top" markdown="1">
+09:00AM
 </td>
 
-<td valign="top" >11:00AM
+<td valign="top" markdown="1">
+10:00AM
 </td>
 
-<td width="277" valign="top" >**ARM64 kernel features enablement**
+<td width="277" valign="top" markdown="1">
+**Simon Segars Keynote**
 </td>
 
-<td valign="top" >Linux Kernel
+<td valign="top" markdown="1">
+Keynote
 </td>
 
-<td valign="top" >.GT America 1
-</td>
-</tr>
-<tr >
-
-<td valign="top" >10:05AM
-</td>
-
-<td valign="top" >11:00AM
-</td>
-
-<td width="277" valign="top" >**GPGPU on ARM Experience Report**
-</td>
-
-<td valign="top" >Graphics and Multimedia
-</td>
-
-<td valign="top" >.Auditorium
+<td valign="top" markdown="1">
+.Auditorium
 </td>
 </tr>
 <tr >
 
-<td valign="top" >10:05AM
+<td valign="top" markdown="1">
+10:05AM
 </td>
 
-<td valign="top" >11:00AM
+<td valign="top" markdown="1">
+11:00AM
 </td>
 
-<td width="277" valign="top" >**RAS, ACPI and the secure monitor**
+<td width="277" valign="top" markdown="1">
+**ARM64 kernel features enablement**
 </td>
 
-<td valign="top" >Enterprise
+<td valign="top" markdown="1">
+Linux Kernel
 </td>
 
-<td valign="top" >.GT America 2
-</td>
-</tr>
-<tr >
-
-<td valign="top" >11:15AM
-</td>
-
-<td valign="top" >12:05PM
-</td>
-
-<td width="277" valign="top" >**Xen/KVM Bootup: FDT or how we learned to stop worrying and love ACPI**
-</td>
-
-<td valign="top" >Virtualization
-</td>
-
-<td valign="top" >.GT America 2
+<td valign="top" markdown="1">
+.GT America 1
 </td>
 </tr>
 <tr >
 
-<td valign="top" >11:15AM
+<td valign="top" markdown="1">
+10:05AM
 </td>
 
-<td valign="top" >12:05PM
+<td valign="top" markdown="1">
+11:00AM
 </td>
 
-<td width="277" valign="top" >**SPEC Investigations and Next Steps Discussion**
+<td width="277" valign="top" markdown="1">
+**GPGPU on ARM Experience Report**
 </td>
 
-<td valign="top" >Tools
+<td valign="top" markdown="1">
+Graphics and Multimedia
 </td>
 
-<td valign="top" >.GT America 1
-</td>
-</tr>
-<tr >
-
-<td valign="top" >11:15AM
-</td>
-
-<td valign="top" >12:05PM
-</td>
-
-<td width="277" valign="top" >**LSK - How to best use the Linaro Stable Kernel (LSK) within Member companies**
-</td>
-
-<td valign="top" >Platform
-</td>
-
-<td valign="top" >.Auditorium
+<td valign="top" markdown="1">
+.Auditorium
 </td>
 </tr>
 <tr >
 
-<td valign="top" >12:10PM
+<td valign="top" markdown="1">
+10:05AM
 </td>
 
-<td valign="top" >01:00PM
+<td valign="top" markdown="1">
+11:00AM
 </td>
 
-<td width="277" valign="top" >**ACPI power state mapping**
+<td width="277" valign="top" markdown="1">
+**RAS, ACPI and the secure monitor**
 </td>
 
-<td valign="top" >Enterprise
+<td valign="top" markdown="1">
+Enterprise
 </td>
 
-<td valign="top" >.GT America 2
-</td>
-</tr>
-<tr >
-
-<td valign="top" >12:10PM
-</td>
-
-<td valign="top" >01:00PM
-</td>
-
-<td width="277" valign="top" >**Cross distro collaboration**
-</td>
-
-<td valign="top" >Platform
-</td>
-
-<td valign="top" >.GT America 1
+<td valign="top" markdown="1">
+.GT America 2
 </td>
 </tr>
 <tr >
 
-<td valign="top" >12:10PM
+<td valign="top" markdown="1">
+11:15AM
 </td>
 
-<td valign="top" >01:00PM
+<td valign="top" markdown="1">
+12:05PM
 </td>
 
-<td width="277" valign="top" >**LAVA Multi-node**
+<td width="277" valign="top" markdown="1">
+**Xen/KVM Bootup: FDT or how we learned to stop worrying and love ACPI**
 </td>
 
-<td valign="top" >Automation and Validation
+<td valign="top" markdown="1">
+Virtualization
 </td>
 
-<td valign="top" >.Auditorium
+<td valign="top" markdown="1">
+.GT America 2
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+11:15AM
+</td>
+
+<td valign="top" markdown="1">
+12:05PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+**SPEC Investigations and Next Steps Discussion**
+</td>
+
+<td valign="top" markdown="1">
+Tools
+</td>
+
+<td valign="top" markdown="1">
+.GT America 1
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+11:15AM
+</td>
+
+<td valign="top" markdown="1">
+12:05PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+**LSK - How to best use the Linaro Stable Kernel (LSK) within Member companies**
+</td>
+
+<td valign="top" markdown="1">
+Platform
+</td>
+
+<td valign="top" markdown="1">
+.Auditorium
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+12:10PM
+</td>
+
+<td valign="top" markdown="1">
+01:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+**ACPI power state mapping**
+</td>
+
+<td valign="top" markdown="1">
+Enterprise
+</td>
+
+<td valign="top" markdown="1">
+.GT America 2
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+12:10PM
+</td>
+
+<td valign="top" markdown="1">
+01:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+**Cross distro collaboration**
+</td>
+
+<td valign="top" markdown="1">
+Platform
+</td>
+
+<td valign="top" markdown="1">
+.GT America 1
+</td>
+</tr>
+<tr >
+
+<td valign="top" markdown="1">
+12:10PM
+</td>
+
+<td valign="top" markdown="1">
+01:00PM
+</td>
+
+<td width="277" valign="top" markdown="1">
+**LAVA Multi-node**
+</td>
+
+<td valign="top" markdown="1">
+Automation and Validation
+</td>
+
+<td valign="top" markdown="1">
+.Auditorium
 </td>
 </tr>
 </tbody>
 </table>
-Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
+
+Can’t make it to Santa Clara? Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts. There will be links to the live stream in each session descriptions. [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
 
  

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-07-09 07:56:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
@@ -14,19 +13,16 @@ tags:
 - Connect Events
 ---
 
-[![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](/assets/blog/lce13-mico.png)
+{% include image.html name="lce13-mico.png" alt="Linaro Connect Europe Banner Image" %}
 
-[caption id="attachment_2810" align="alignleft" width="230"][![LCE13001](/assets/blog/LCE13001.jpg)](/assets/blog/LCE13001.jpg) George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013[/caption]
+{% include image.html name="LCE13001.jpg" alt="George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013"%}
+
+> Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](http://www.linaro.org/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)
 
 
-<blockquote>Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](http://www.linaro.org/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)</blockquote>
-
-
-[caption id="attachment_2809" align="alignright" width="230"][![Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE](/assets/blog/LCE130010.jpg)](/assets/blog/LCE130010.jpg) Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE[/caption]
+{% include image.html name="LCE130010.jpg" alt="Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE" class="small-inline right"%}
 
 **Day 1** of Linaro Connect Europe 2013 (LCE13) was a busy day of exciting sessions, meetings and "hallway" that kicked off this amazing week of engineering and included the following sessions:
-
-
 
 
   * [Opening Keynote: George Grey - CEO Linaro](http://lce-13.zerista.com/event/member/79585)
@@ -71,14 +67,12 @@ tags:
   * [LAVA Workshop 1 - LAVA Lab Deployment Training](http://lce-13.zerista.com/event/member/79618)
 
 
-[caption id="attachment_2775" align="alignleft" width="150"][![Wannes De Smet](/assets/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png)](/assets/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png) Wannes De Smet[/caption]
+{% include image.html name="W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline"%}
+
 
 **Day 2** - 9 July 2013 Sessions include:
 
 **8:30 - 9:00am**
-
-
-
 
   * [Tuesday Keynote - Wannes De Smet](http://lce-13.zerista.com/event/member/79608)
 

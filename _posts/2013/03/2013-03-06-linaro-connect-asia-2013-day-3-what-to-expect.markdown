@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-06 00:12:38+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
@@ -22,7 +21,7 @@ Which was followed by the ARM Server Mini-Summit, Embedded Android Training, LAV
 
 Linaro is growing and so is participation in Linaro Connect.
 
-[caption id="attachment_2550" align="alignleft" width="640" caption="Linaro Connect Asia 2013 Group Photo"][![](/assets/blog/LCA13-Group-001-72dpi1.jpg)](/assets/blog/LCA13-Group-001-72dpi1.jpg)[/caption]
+{% include image.html name="LCA13-Group-001-72dpi1.jpg" alt="Linaro Connect Asia 2013 Group Photo"%}
 
 
 ## Videos and Presentation Slides?

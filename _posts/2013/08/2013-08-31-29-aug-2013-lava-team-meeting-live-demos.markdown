@@ -1,6 +1,5 @@
 ---
 author: alan.bennett
-
 date: 2013-08-31 16:00:09+00:00
 layout: post
 link: https://www.linaro.org/blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/
@@ -26,70 +25,24 @@ http://www.youtube.com/watch?v=LSBWDuBUP0I
 
 ## New Features in lava-tool by Antonio Terceiro
 
-
-
-
-
-
-  1.
-
-
-    lava testdef new demo.yaml
-
-
-
-
+  1. lava testdef new demo.yaml
     1. Will create a basic test definition in demo.yaml. User can edit it to add the specifics of his/her test suite.
 
-
-
-
-
-  2.
-
-
-    lava testdef run demo.yaml
-
-
-
-
+  2. lava testdef run demo.yaml
+  
     1. Will run the test definifion on demo.yaml agains a locally configured device. After entering the desired parameters, such as device type and image, the user can choose one of the local devices, and have that test definition run on the device. The job will start and the user can watch the run directly in the shell session.
 
-
-
-
-
-  3.
-
-
-    lava testdef submit demo.yaml
-
-
-
-
+  3. lava testdef submit demo.yaml
+  
     1. Will submit the test definition in demo.yaml to a chosen LAVA server.
-
-
-
-
-
-
 
 ## LAVA PDU Daemon by Matt Hart
 
-
-
-
 In LAVA, we use standard Power Distribution Units (PDUs) to remotely apply power to a target device.  The problem is that multi-node can fire off many simultaneous PDU requests (turn all machines on (or off) at the same time.)  However, not all PDUs function well in this type of an environment.  Perhaps they are expected to be used much less frequently.
-
-
-
 
 Matt describes a new LAVA utility, the PDU Daemon, that provides a simple socket-daemon that is used to combine accesses to the PDUs within the LAVA lab to make sure the messages are processed sequentially in to ease the burden placed on the PDU.
 
-
 - The code can be retrieved from [https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary](https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary)
-
 
 ## Boot testing tip kernels on x86_64 KVMs
 
@@ -101,8 +54,6 @@ In addition to demonstrating the TIP kernel booting on a KVM x86_64 device, Tyle
 
 
 Though there was no demo of this last feature in today's meeting, we wanted to highlight an upstream improvement from Linaro’s QA Test Lead, Milosz Wasilewski.  We added this contribution and now the “Complete Log” view contains Section & Line Numbers that can help a user navigate a LAVA log file, during and after a job executes.  With this feature, it is easier to navigate through long multi-part LAVA test logs, identify a specific location and share that location using a direct URL.
-
-![](https://lh3.googleusercontent.com/MofTmMQDAGuNx96IY3PnO1E66_RBMreQ9zAPkNfKg5HLfOzRWaierlmEuhMoLSbVFuOgfZXXXvCvzj3V8Ae2nrAiLQ-pUv936A40cQ9uAq_l-aQeGrZdn6A2)
 
 
 ## Multi-node testing in LAVA

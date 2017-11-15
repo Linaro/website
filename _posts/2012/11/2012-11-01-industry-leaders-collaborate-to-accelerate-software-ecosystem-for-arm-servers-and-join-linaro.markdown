@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-11-01 12:21:45+00:00
 excerpt: 'AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell and
   Red Hat join existing Linaro members ARM, HiSilicon, Samsung and ST-Ericsson to
@@ -39,9 +38,9 @@ Linaro uses a unique business model where multiple companies jointly invest in a
 
 ARM servers are expected to be initially adopted in hyperscale computing environments, especially in large web farms and clusters, where flexible scaling, energy efficiency and an optimal footprint are key design requirements. The Linaro Enterprise Group will initially work on low-level Linux boot architecture and kernel software for use by SoC vendors, commercial Linux providers and OEMs in delivering the next generation of low-power ARM-based 32- and 64-bit servers. Linaro expects initial software delivery before the end of 2012 with ongoing releases thereafter.
 
-*Source: Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012: [https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required)
+*Source: Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012: [https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required)**
 
-** Source: Torvalds touts Linux’s advances in power, ARM and cell phones Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
+Source: Torvalds touts Linux’s advances in power, ARM and cell phones Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
 
 **About Linaro**
 

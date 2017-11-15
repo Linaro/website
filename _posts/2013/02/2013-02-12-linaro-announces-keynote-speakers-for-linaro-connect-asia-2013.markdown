@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-12 16:00:15+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/
@@ -14,7 +13,9 @@ tags:
 - Connect Events
 ---
 
-[![](/assets/blog/Linaro-Connect.jpg)](http://www.linaro.org/connect)[Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) in Hong Kong is gearing up to be another educational and [exciting event](http://www.linaro.org/connect/schedule) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
+{% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="http://www.linaro.org/connect"%}
+
+[Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) in Hong Kong is gearing up to be another educational and [exciting event](http://www.linaro.org/connect/schedule) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
 
 **Keynote Speakers**
 
@@ -23,9 +24,6 @@ Memorable and awesome guest personalities such as Jonathan Corbet of LWN, Lars K
 **Tracks**
 
 There are many interesting [planning and discussion sessions](https://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929) which center on the following tracks:
-
-
-
 
   * Builds and Baselines
 
@@ -55,8 +53,6 @@ Also being held during this event is an ARM Enterprise Server Mini-Summit which 
 **Demo Friday**
 
 There will also be new demos added to the [Demo Friday](http://www.linaro.org/connect/demo-friday) at event as well.  These include:
-
-
 
 
   * DLNA Premium Video HTML5 RUI Demo

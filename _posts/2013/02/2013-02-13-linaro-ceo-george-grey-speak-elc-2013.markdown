@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-13 12:23:28+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-ceo-george-grey-speak-elc-2013/
@@ -17,92 +16,34 @@ Linaro, the not-for-profit engineering organization developing open source softw
 
 This year [Linaro CEO, George Grey, and many key engineers for Linaro will be speaking](http://events.linuxfoundation.org/events/embedded-linux-conference/schedule) in several sessions. The time and topic of these talks are:
 
-
-
-
-
-
-	
   * **George Grey, Chief Executive Officer**
 
-	
     * Wednesday, February 20
 
-	
       * 9:00am: Keynote - Working Together to Accelerate Linux Development - Jim Zemlin, Executive Director, The Linux Foundation and George Grey, CEO, Linaro
 
-
-
-
-
-
-
-	
   * **Jesse Barker,Graphics Working Group**
 
-	
     * Thursday, February 21
-
-	
       * 4:00pm: Common Display Framework (Part I)
+	  * 5:00pm: Common Display Framework (Part II)
 
-	
-      * 5:00pm: Common Display Framework (Part II)
-
-
-
-
-
-
-
-	
   * **Mark Orvek, Director, Kernel Working Groups**
 
-	
     * Thursday, February 21
-
 	
       * 1:45pm: Application Diversity Demands Accelerated Linux Innovation
 
-
-
-
-
-
-
-	
   * **Mans Rullgard, Toolchain Engineer**
 
-	
     * Thursday, February 21
-
 	
       * 4:00pm: Designing for Optimization
 
-
-
-
-
-
-
-	
   * **Mathieu Poirier, Kernel Engineer**
 
-	
     * Friday, February 22
-
-	
       * 9:00am: In Kernel Switcher: A Solution to Support ARM's New big.LITTLE Implementation
-
-
-
-
-
-
-
-
-
-
 
 Stop by any of our speaking sessions to learn more about Linaro's work in consolidating and optimizing open source software for the ARM architecture.
 
@@ -111,8 +52,5 @@ Linaro is the place where engineers from the world’s leading technology compan
 
 
 **Join us at Linaro Connect**
-
-
-
 
 Linaro Connect is held every three to four months to bring the Linux on ARM community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the ARM tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. The next Linaro Connect will be March 4-8, 2013 in Hong Kong. Learn more at [www.linaro.org/connect](http://www.linaro.org/connect)

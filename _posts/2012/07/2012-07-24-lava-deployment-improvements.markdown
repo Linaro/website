@@ -50,14 +50,10 @@ The new mechanism we've choosen also allows makes it a little nicer for doing lo
 
 You can pull in components you'd like to work against into that directory. For instance, you can work off the latest tip of the lava-dispatcher with:
 
-
-
     cd /srv/lava/instances/<instance>/code/current/local
     bzr branch lp:lava-dispatcher
     cd .. # you are now in /srv/lava/instances/<instance>/code/current
     ./bin/buildout #this pulls in the updated component
-
-
 
 **NOTE:** Directory names don't matter under code/current/local. buildout finds out the package information by looking at its setup.py. So you could rename the above directory to "lava-dispatcher-devcopy" and re-reun the "buildout" command.
 

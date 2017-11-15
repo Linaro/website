@@ -1,6 +1,5 @@
 ---
 author: fathi.boudra
-
 date: 2013-12-19 20:51:20+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-12-release-is-now-available-for-download/
@@ -29,19 +28,12 @@ tags:
 - ubuntu
 ---
 
-<blockquote>
-
 >
-> <blockquote>After climbing a great hill, one only finds that there are many more hills to climb.</blockquote>
+> After climbing a great hill, one only finds that there are many more hills to climb.
 >
->
-**~Nelson Mandela **</blockquote>
-
+> **~Nelson Mandela**
 
 To avoid clashing with the holidays in many parts of the world, this month's release - the last for 2013 - is a week early, but contains some key Linaro Android and Ubuntu baselines developments.
-
-
-
 
   *  For Android,  the ARMv8 LSK and Nexus7_2013-AOSP builds have been setup and Android can be now built using llvm-clang toolchain with the related patches submitted to upstream.
 
@@ -59,21 +51,12 @@ See the detailed highlights of this release to get an overview of what has been 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-
-
-
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
-
-
-
 
 ### USING THE ANDROID-BASED IMAGES
 
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
-
-
-
 
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
 
@@ -86,21 +69,12 @@ If you are interested in getting the source and building these images yourself p
 
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
-
-
-
 ### USING THE UBUNTU-BASED IMAGES
 
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-
-
-
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
-
-
-
 
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
@@ -108,20 +82,12 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-
-
   * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
-
-
-
 
 ### GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
-
-
-
 
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
 
@@ -146,19 +112,10 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
     * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
 
-
-
-
-
-
-
 ### KNOWN ISSUES WITH THIS RELEASE
 
 
 For any errata issues, please see:
-
-
-
 
   * [http://wiki.linaro.org/Cycles/1312/Release#Known_Issues](http://wiki.linaro.org/Cycles/1311/Release#Known_Issues)
 
@@ -167,8 +124,6 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-
-
 
 
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT Asia (LCA14)

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-10-23 23:34:00+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lce-12-copenhagen-remote-participation/
@@ -50,9 +49,6 @@ The schedule is also available at: [http://summit.linaro.org/lce12/](http://summ
 
 If a session is listed in one of the following rooms then it will be broadcast live during the event and will also be recorded and accessible via the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792/posts).
 
-
-
-
   * Auditorium BC12
 
 
@@ -70,16 +66,10 @@ If a session is listed in one of the following rooms then it will be broadcast l
 
   * BC17
 
-
-
-
 ## How to get the most out of remote participation
 
 
 In order to get the most out of your remote participation experience you'll need to do the following:
-
-
-
 
   * add Linaro onAir to your Google+ circles- [https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)
 
@@ -106,10 +96,6 @@ In order to get the most out of your remote participation experience you'll need
 
 
     * #lce-bc17
-
-
-
-
 
 You can join these channels using your favorite IRC client or if you prefer you can use [webchat](http://webchat.freenode.net/?channels=lce-bc12%2Clce-bv2%2Clce-bv3%2C%20%23lce-bc16%2C%20%23lce-bc17%2Clce-bv1&uio=OT10cnVlJjEwPXRydWUmMTE9MjM218).
 

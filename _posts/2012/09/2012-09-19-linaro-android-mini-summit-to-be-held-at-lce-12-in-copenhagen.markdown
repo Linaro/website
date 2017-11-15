@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-09-19 16:54:42+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/
@@ -22,31 +21,13 @@ As mentioned in [early posts](http://www.linaro.org/linaro-blog/2012/09/12/linar
 
 Pfeffer also mentioned that the the preliminary topics include:
 
-
-
-
   * Optimization Opportunities
-
-
     * Introduction using the benchmark driven
-
-
     * Power improvements
 
-
-
-
-
   * Unification of Android and generic Linux
-
-
     * Embedded Android, in car audio, set top boxes
-
-
     * Kernel upstreaming
-
-
-
 
 
 Pfeffer was also quick to point out that these are preliminary topics and as such are subject to change.  So check the [schedule](http://connect.linaro.org/events/event/lce12-copenhagen/#schedule) as we get closer to the start of Connect for the final list of agenda and topic items.

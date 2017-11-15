@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-05-09 18:20:58+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/renato-golin-on-eurollvm-linaro-toolchain-team-and-more/
@@ -13,9 +12,7 @@ tags:
 - community
 ---
 
-
-
-[caption id="attachment_2710" align="alignleft" width="150"][![Renato Golin, Linaro Toolchain Engineer](/assets/blog/Renato-Small.jpg)](/assets/blog/Renato-Small.jpg) Renato Golin, Linaro Toolchain Engineer[/caption]
+{% include image.html name="Renato-Small.jpg" alt="Renato Golin, Linaro Toolchain Engineer" class="small-inline" %}
 
 Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](http://www.linaro.org/linux-on-arm/meet-the-team/renato-golin/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about [EuroLLVM](http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
 

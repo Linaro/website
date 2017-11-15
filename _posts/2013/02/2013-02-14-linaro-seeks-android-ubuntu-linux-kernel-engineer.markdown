@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-02-14 22:05:26+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-seeks-android-ubuntu-linux-kernel-engineer/
@@ -19,9 +18,6 @@ Today we are highlighting career opportunities at Linaro for an Android Ubuntu L
 
 
 ## What are we looking for?
-
-
-
 
 ### **Android Ubuntu Linux Kernel Engineer**
 

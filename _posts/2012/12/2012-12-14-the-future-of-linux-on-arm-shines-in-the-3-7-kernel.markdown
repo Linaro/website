@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-14 16:57:30+00:00
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/
@@ -18,7 +17,6 @@ The [3.7 Linux Kernel](http://kernelnewbies.org/Linux_3.7) which [was released](
 
 
 ### ARM multi-platform support
-
 
 ARM multi-platform support adds the ability to build a single ARM kernel image which is able to boot multiple platforms.  While not the primary goal of the Linaro kernel consolidation program, a single [zImage](http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commit;h=9cd11c0c47b8690b47e7573311ce5c483cb344ed) from Linaro was demonstrated at [Demo Friday](http://connect.linaro.org/events/lce-12-copenhagen-demo-friday/) during the [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/events/event/lce12-copenhagen/) event in Copenhagen at the beginning of November by members of the Linaro Kernel Team, and highlights the progress which Linaro has made in regards to its kernel consolidation program.  This consolidation effort is what makes the single kernel binary possible. “A single zImage is a key ingredient for Server and as such is important to the Linaro Engineering Group (LEG).” added [David Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/), Linaro CTO.
 
@@ -69,9 +67,6 @@ The latest release of the Linaro-Linux Kernel - 12.11 - is available on our [dow
 
 ### **About**
 
-
-
-
 #### **Getting involved with The Linaro Kernel Team**
 
 
@@ -99,6 +94,7 @@ _More information about the Linaro Kernel Team can be found at: [https://wiki.li
 
 
 _Linaro is a member-sponsored, not-for-profit engineering organization focused on consolidating and optimizing open source software for member hardware platforms based on the ARM architecture._
-_ Membership is open to ARM licensees, Linux distributions and other companies who wish to influence the future of Linux on ARM_
+
+_Membership is open to ARM licensees, Linux distributions and other companies who wish to influence the future of Linux on ARM_
 
 _Find out more about how your organization can become a Linaro member at: [http://www.linaro.org/members](http://www.linaro.org/members)_

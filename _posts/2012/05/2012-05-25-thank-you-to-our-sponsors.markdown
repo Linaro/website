@@ -27,9 +27,9 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 
 {% include image.html name="ARM_Corp_CMYK.jpg" alt="Arm Corp" url="http://www.arm.com/"%}
 
-{% include image.html name="logo-canonical_no™-aubergine-hex.jpg" alt="Canonical" url="http://www.canonical.com/" %}
+{% include image.html name="canonical.jpg" alt="Canonical" url="http://www.canonical.com/" %}
 
-{% include image.html name="samsung-logo.jpg" alt="Saumsung" url="http://www.samsung.com/us/#latest-home" %}
+{% include image.html name="samsung.jpg" alt="Saumsung" url="http://www.samsung.com/us/#latest-home" %}
 
 {% include image.html name="logo-lj.jpg" alt="Linux Journal" url="http://www.linuxjournal.com/" %}
 

@@ -1,6 +1,6 @@
 ---
 title: Spreadtrum
-company_image: st.jpg
+company_image: spreadtrum.jpg
 description: |-
     Spreadtrum Communications is a fabless semiconductor company that develops mobile chipset platforms for smart phones.
 ---

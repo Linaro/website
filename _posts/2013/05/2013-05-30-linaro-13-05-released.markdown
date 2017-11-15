@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-05-30 20:39:54+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-05-released/
@@ -13,58 +12,26 @@ tags:
 - Releases
 ---
 
-<blockquote>
-
 >
 > The only way to predict the future is to have the power to shape it. ~Eric Hofer
 >
 >
-</blockquote>
-
-
-
 
 ## The Linaro 13.05 release is now available for [download](http://www.linaro.org/downloads/)!
 
-
-
-
 The 13.05 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle.
-
-
-
 
 It is through these monthly releases that Linaro, our members and community do more than predict the future of Linux on ARM; we plan and progress that future with open and collaborative teamwork and success. The 13.05 Linaro release gives a vision of that future as we highlight the accomplishments of each of our teams. Those accomplishments include:
 
-
-
-
 The foundation for the Linaro Stable Kernel (LSK) tree has been prepared. LSK will track the kernel.org community released LTS (Long-Term Stable) kernel tree, and Linaro will add member selected features, platform support and bug fixes. During the 13.05 development cycle, a preview/proof of concept has been delivered, based on linux-3.9.4 stable tree with ARM LT topic branches (TC platform support) and big.LITTLE work (MP and IKS).
-
-
-
 
 The announcement of big.LITTLE in-kernel switcher (IKS) code now available to the public. “This code was also developed for and tested on the Versatile Express TC2 development platform. An MCPM backend and possibly a special cpufreq clock driver are required for this code to be usable on other platforms,” wrote Nicolas Pitre in his announcement to the linaro development mailing list. More information and helpful links can be found at: [http://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/](http://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/)
 
-
-
-
 Quality remains a focus at Linaro and on the testing and validation front, members of the LAVA team completed and tested the functionality of the first prototype production run of LAVA LMP. The Platform teams also announced that Texas Instruments Beaglebone Black is now running in LAVA. As part of the effort to improve the developers experience with LAVA, the different client tools were also consolidated into a single package in order to make it easier for the team to provide new features for LAVA users.
-
-
-
 
 The Builds and Baselines team mirrors the quality efforts of the testing and validation team and notes various accomplishments across several of the Linaro teams and Working Groups (WG). The team notes that a detailed Compatibility Test Suite (CTS) report in the standard format is now being generated in LAVA and the QA Services team will include these reports in its weekly/monthly testing reports for platforms in LAVA. Another highlight for this cycle includes the completion of the Galaxy Nexus CI loop and images (without graphics acceleration) can be deployed with a graphics overlay for testing in LAVA. The team also reports that the full Android engineering build for Arndale is now available with virtual framebuffer.
 
-
-
-
 The various releases that help make up the Linaro 13.05 release include:
-
-
-
-
-
 
 
   * Linaro UEFI 2013.05
@@ -144,72 +111,33 @@ If you are interested in getting the source and building these images yourself p
 [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
 
-
-
 [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
 
-
-
-
-
 ## USING THE UBUNTU-BASED IMAGES
-
-
 
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 
-
-
 [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
-
-
-
-
-
 ## USING THE OPEN EMBEDDED-BASED IMAGES
-
-
 
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-
-
 [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
-
-
-
-
-
 ## GETTING INVOLVED
-
-
 
 
 More information on Linaro can be found on our websites:
 
 
-
-
-
-
-
   * Homepage: [http://www.linaro.org](http://www.linaro.org/)
-
-
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
-
-
-
+    * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+    
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
-
-
-
-
 
 
 
@@ -227,16 +155,7 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
     * #linaro-android irc.linaro.org or irc.freenode.net
 
-
-
-
-
-
-
 ## KNOWN ISSUES WITH THIS RELEASE
-
-
-
 
 For any errata issues, please see:
 

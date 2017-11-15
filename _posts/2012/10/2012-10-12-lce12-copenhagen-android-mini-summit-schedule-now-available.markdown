@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-10-12 15:57:16+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/lce12-copenhagen-android-mini-summit-schedule-now-available/
@@ -15,7 +14,7 @@ tags:
 - Connect Events
 ---
 
-_As plans for [LCE12 - Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/#welcome) are finalized we are pleased to announce [schedules](http://connect.linaro.org/events/event/lce12-copenhagen/#schedule) for the various mini-summits which are being held in conjunction with this Linaro Connect event. _
+_As plans for [LCE12 - Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/#welcome) are finalized we are pleased to announce [schedules](http://connect.linaro.org/events/event/lce12-copenhagen/#schedule) for the various mini-summits which are being held in conjunction with this Linaro Connect event._
 
 _Below is a look at the Android Mini-Summit which is scheduled to take place on Wednesday, October 31, 2012 during LCE12 at the Bella Center in Copenhagen, Denmark._
 
@@ -53,15 +52,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 ## What are the sessions being offered at the Linaro Android Mini-Summit?
 
-
-
-
 ### Optimization: Android Benchmarking and Optimization Opportunities - Vishal Bhoj
-
-
-
-
-
 
   * Talk about what was planned in Hong Kong and give a summary
 
@@ -82,11 +73,6 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 ### Optimization: Android Dalvik and V8 JIT Improvements - Michael Hope
 
-
-
-
-
-
   * Discuss Dalvik's VM and JIT architecture
 
 
@@ -103,23 +89,9 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 ### Optimization: Android Power Improvements - Amit Kucheria
 
-
-
-
-
-
   * Power optimizations for mobile use cases
 
-
-
-
-###
-Unification: Android Kernel Upstreaming: Graphics - Jesse Barker
-
-
-
-
-
+### Unification: Android Kernel Upstreaming: Graphics - Jesse Barker
 
   * Quick ION overview
 
@@ -138,29 +110,14 @@ Unification: Android Kernel Upstreaming: Graphics - Jesse Barker
 
 
 
-###
-Unification: Android Kernel Upstreaming - Deepak Saxena
-
-
-
-
-
+### Unification: Android Kernel Upstreaming - Deepak Saxena
 
   * Status of the Android patchset in the upstream
 
 
   * Plan for the future
 
-
-
-
-###
-Unification: Embedded Android - Karim Yaghmour (Remote)
-
-
-
-
-
+### Unification: Embedded Android - Karim Yaghmour (Remote)
 
   * Why are new products using Android as a base?
 
@@ -176,61 +133,28 @@ Unification: Embedded Android - Karim Yaghmour (Remote)
 
   * Create project list
 
-
-
-
-###
-The Last Mile: Android Productization Challenges at ST-Ericsson - ST-Ericsson Android Engineers
-
-
-
-
-
+### The Last Mile: Android Productization Challenges at ST-Ericsson - ST-Ericsson Android Engineers
 
   * Discuss past issues in creating Android products
 
 
   * Discuss new issues and get feedback
 
-
-
-
 ### The Last Mile: Upstream to productization, productization to upstream - Zach Pfeffer
-
-
-
-
-
 
   * Discuss how to streamline upstreaming and productization synchronization
 
-
-
-
 ### Questions and Action Item Review - Zach Pfeffer
 
-
-
-
-
-
   * Answer questions
-
-
   * Make sure Actions are recorded
-
-
-
-
+  
 ## Will there be other Android sessions being held at LCE12 or will the mini-summit be the only time to participate in the various Linaro Android Sessions?
 
 
 Yes, there will be a standard Linaro Android track which will take place throughout the week.  As the schedule is finalized, you can see more about the other scheduled track sessions [here](http://connect.linaro.org/events/event/lce12-copenhagen/#schedule) (be sure to click on the days of the week to see the schedule by day).
 
 The following are some of the additional Android sessions that will be held in addition to the mini-summit.
-
-
-
 
   * Android Dalvik, V8 and Bionic Optimization Discussion - Michael Hope and Vishal Bhoj
 
@@ -243,16 +167,9 @@ The following are some of the additional Android sessions that will be held in a
 
   * Embedded Android - Karim Yaghmour (Remote)
 
-
-
-
 ## Will the Linaro Android Team present any demos during the LCE12-Copenhagen Demo Friday Event?
 
-
 Yes, and those demos will include (but may not be limited too):
-
-
-
 
   * Galaxy Nexus with Linaro Improvements Programming Station
 
@@ -264,9 +181,6 @@ Yes, and those demos will include (but may not be limited too):
 
 
   * Android/Standard Linux on Galaxy Nexus
-
-
-
 
 ## Demo Friday event; what is this and how can myself or my organization participate?
 
@@ -287,4 +201,6 @@ Yes, the sessions will be recorded and live streamed via Google + Hangouts on Ai
 
 
 
-_More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](http://connect.linaro.org/events/event/lce12-copenhagen/#welcome). __Find out more about Linaro at [linaro.org](http://www.linaro.org/). _
+_More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](http://connect.linaro.org/events/event/lce12-copenhagen/#welcome)._
+
+ _Find out more about Linaro at [linaro.org](http://www.linaro.org/). _

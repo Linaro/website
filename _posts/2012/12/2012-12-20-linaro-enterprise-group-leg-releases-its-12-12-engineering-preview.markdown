@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-12-20 21:50:47+00:00
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/
@@ -34,26 +33,13 @@ _**This is an engineering preview and should NOT be used for production purposes
 ### GETTING INVOLVED
 More information on Linaro can be found on our websites:
 
-
-
-
-
-
   * Homepage: [http://www.linaro.org/engineering/leg](http://www.linaro.org/engineering/leg)
 
 
   * Wiki: [https://wiki.linaro.org/LEG](https://wiki.linaro.org/LEG)
 
 
-
-
-### [](http://www.linaro.org/engineering/leg)
-
-
 Also subscribe to the LEG mailing list and join our IRC channel to stay on top of Linaro developments:
-
-
-
 
   * LEG's public mailing list - [linaro-enterprise](http://lists.linaro.org/mailman/listinfo/linaro-enterprise). Archive is [here](http://lists.linaro.org/pipermail/linaro-enterprise/)
 
@@ -67,9 +53,7 @@ Between development cycles you can stay up to date with all the latest news in a
 
 [1]The 2013 LEG release schedule has yet to be finalized; however; you can follow our [wiki page](https://wiki.linaro.org/LEG) for all the latest updates.
 
-
 #### About
-
 
 **Linaro Enterprise Group (LEG)**
 

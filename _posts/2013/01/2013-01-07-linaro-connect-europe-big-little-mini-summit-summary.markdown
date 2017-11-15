@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-01-07 15:04:31+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-europe-big-little-mini-summit-summary/
@@ -17,15 +16,12 @@ tags:
 
 The [Linaro big.LITTLE Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Thursday, 1 November, 2012 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/events/event/lce12-copenhagen/) at the Bella Center in Copenhagen, Denmark.
 
-
 ## big.LITTLE Mini-Summit information
 
 
 The big.LITTLE mini-summit followed the same format as both the [Android](http://www.linaro.org/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](http://www.linaro.org/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
 
 Those four sessions included topics focused on the following:
-
-
 
 
   * A big.LITTLE status update and Making Linux work with asymmetric systems
@@ -40,7 +36,8 @@ Those four sessions included topics focused on the following:
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
-[caption id="attachment_2208" align="alignleft" width="384" caption="ARMs Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit"][![](/assets/blog/ARMs_Test_Chip_2TC2_An_Overview.png)](/assets/blog/ARMs_Test_Chip_2TC2_An_Overview.png)[/caption]
+{% include image.html name="ARMs_Test_Chip_2TC2_An_Overview.png" alt="ARMs Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
+
 
 During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at ARM) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and ARM.
 
@@ -50,9 +47,6 @@ The key take-away message from these talks was that initial power and performanc
 
 The highly technical sessions were dedicated to finding solutions to known problems in Linux that will allow it to work more efficiently on b.L hardware. These problems included:
 
-
-
-
   1. IKS optimisations
 
 
@@ -60,10 +54,6 @@ The highly technical sessions were dedicated to finding solutions to known probl
 
 
     2. To profile and optimise the cpufreq driver
-
-
-
-
 
   2. Speeding up Hotplug
 
@@ -75,9 +65,6 @@ The highly technical sessions were dedicated to finding solutions to known probl
 
 
     2. Adaptive NOHZ patchset
-
-
-
 
 
   4. Scheduler optimisations

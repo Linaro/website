@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-04 23:56:43+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/open-collaboration-is-key-linaro-connect-day-2/
@@ -19,10 +18,6 @@ tags:
 
 
 ## Keynote Videos
-
-
-
-
 
 We had 12 sessions that were broadcast or recorded and while it wasn't without some of he first day hiccups, we did manage to capture most of those sessions.  Today should be even better; however, if you are having trouble with remote participation please let us know by popping into #linaro on freenode.net or emailing us at [connect@linaro.org](mailto:connect@linaro.org)
 

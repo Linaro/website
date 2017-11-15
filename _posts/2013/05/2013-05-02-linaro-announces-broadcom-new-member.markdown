@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-05-02 12:25:47+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-broadcom-new-member/
@@ -23,12 +22,11 @@ Broadcom, a global innovation leader in semiconductor solutions for wired and wi
 
 Linaro has a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro becoming one of the largest company contributors to recent Linux kernels*. Linaro’s contribution to improving ARM’s support in the open source Linux community has also been recognized by Linus Torvalds**.
 
-*Sources: _Some 3.8 development statistics _Jonathan Corbet, LWN, 13 February 2013: [https://lwn.net/Articles/537110/](https://lwn.net/Articles/537110/) (subscription required); _Statistics from the 3.7 development cycle_ Jonathan Corbet, LWN, 28 November 2012:[http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/)(subscription required) and earlier LWN articles.
+**Sources**: _Some 3.8 development statistics_ Jonathan Corbet, LWN, 13 February 2013: [https://lwn.net/Articles/537110/](https://lwn.net/Articles/537110/) (subscription required); _Statistics from the 3.7 development cycle_ Jonathan Corbet, LWN, 28 November 2012:[http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/)(subscription required) and earlier LWN articles.
 
-** Sources: _Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net, _4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); _Torvalds touts Linux’s advances in power, ARM and cell phones _Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
+**Sources**: _Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net,_ 4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); _Torvalds touts Linux’s advances in power, ARM and cell phones_ Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
 
-[
-](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)**About Linaro**
+[](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)**About Linaro**
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 

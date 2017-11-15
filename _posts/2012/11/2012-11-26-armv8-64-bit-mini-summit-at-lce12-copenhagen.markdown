@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2012-11-26 16:26:56+00:00
 layout: post
 link: https://www.linaro.org/blog/community-blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/
@@ -14,10 +13,9 @@ tags:
 - Connect Events
 ---
 
-<blockquote>ARMv8—we can do that; it’s all in the open now, the code’s been published. ~David Rusling, Linaro CTO</blockquote>
+> ARMv8—we can do that; it’s all in the open now, the code’s been published. ~David Rusling, Linaro CTO
 
-
-[caption id="attachment_2013" align="alignleft" width="300" caption="ARMv8 Mini-Summit Panel Discussion photo by David Rusling"][![](/assets/blog/P1000296.jpg)](/assets/blog/P1000296.jpg)[/caption]
+{% include image.html name="P1000296.jpg" alt="ARMv8 Mini-Summit Panel Discussion photo by David Rusling" %}
 
 Linaro held [three mini-summits](http://summit.linaro.org/lce12/track/linaro-mini-summit/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/events/event/lce12-copenhagen/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
 
@@ -26,9 +24,6 @@ First time Linaro Connect attendee, Andrew Thoelke of ARM ran the ARMv8 (64-bit)
 This mini-summit was an in-depth discussion about the status of open source software for [ARMv8’s 64-bit execution state (AArch64)](http://www.arm.com/products/tools/models/fast-models/foundation-model.php) and what the next steps for this should be.
 
 Topics discussed during this event included:
-
-
-
 
   * The current state of ARMv8 (64-bit), what has been released and what is happening
 

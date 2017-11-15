@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2013-03-04 02:50:19+00:00
 layout: post
 link: https://www.linaro.org/blog/welcome-to-linaro-connect-asia-2013/
@@ -10,14 +9,9 @@ wordpress_id: 2490
 categories:
 - blog
 ---
-
 Welcome to Linaro Connect Asia 2013 in Hong Kong.
 
-
-
-
 ## Sessions for Monday 4 March
-
 
 Sessions you can look forward to today include:
 
@@ -51,8 +45,9 @@ The Connector Newsletter  - Download the [pdf here](/assets/blog/The-Connector-
 
 ## Sharing your experience at Connect using the Social Media of your choice
 
+{% include image.html name="LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
 
-[![](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg)](/assets/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg)To stay up on event happenings with
+To stay up on event happenings with
 [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](http://www.linaro.org/blog)
 
 To follow the daily live steam use
