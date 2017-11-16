@@ -11,15 +11,10 @@ wordpress_id: 9297
 categories:
 - blog
 ---
-
-{% include image.html name="SFO15-logo.jpg" alt="sfo15 logo" %}
-
 Welcome to [Linaro Connect San Francisco 2015!](http://connect.linaro.org/sfo15/)
-
-
 We are returning to the [Hyatt Regency Hotel](http://sanfranciscoairport.hyatt.com/en/hotel/our-hotel.html) in Burlingame, CA which is conveniently located next to the San Francisco airport. Hence, the shortcut reference of SFO15.
 
-{% include image.html name="stock-photo-evening-commute-55914128.jpg" alt="Evening Commute"%}
+{% include image.html name="evening-commute.jpg" alt="Evening Commute"%}
 
 Why the same venue? It could be because we were hoping to overlap with the YaoiCon[1] convention as we did last year. Trust me, that is definitely not the reason although the convention was a topic of some interesting hallway discussions. As with most Connects, this venue offers a combination of convenience to a major airport as well as access to a cosmopolitan city with great people, restaurants, nightlif and attractions. In addition, the San Francisco Bay Area is a world center of innovation and is home (headquarters or major facility) for many of our member companies. 
 

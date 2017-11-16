@@ -218,4 +218,4 @@ Also on display on Tuesday was the first board available as part of the [96Board
 
 Keep checking to see more highlights from the event this week.
 
-{% include image.html name="hikey-board.jpg" alt="Hikey Board Image" %}
+{% include image.html name="hikey-960-hd-front.png" alt="Hikey Board Image" %}

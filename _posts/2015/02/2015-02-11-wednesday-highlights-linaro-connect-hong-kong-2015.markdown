@@ -18,8 +18,6 @@ After the morning keynotes the attendees kicked off another day of sessions and 
 
 **Bob Monkman and Greg Kroah-Hartman Keynotes from Linaro Connect Hong Kong 2015**
 
-{% include image.html name="phantom-2.jpg" alt="Phantom 2" %}
-
 Finally Wednesday was when the voting started for our photo contest for attendees to win a Phantom 2.
 
 **We asked attendees to take pictures around the following categories:**
