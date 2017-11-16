@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-10-28 13:05:39+00:00
 excerpt: Tinno Mobile joins Linaro Mobile Group
 layout: post

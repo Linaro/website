@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-11-02 19:23:25+00:00
 excerpt: Linaro's 15.10 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along

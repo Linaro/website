@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-12-09 14:27:50+00:00
 excerpt: Register now for Linaro Connect Bangkok 2016.   Learn more about the event
   and where it will be held.
@@ -20,8 +19,6 @@ tags:
 - Linaro Connect
 - Opensource
 ---
-
-
 
 Mark your calendar for March 7-11, 2016, because it’s the official date of Linaro Connect Bangkok 2016 (BKK16).  It may be 3 months away, but we are already busy planning to make sure this will be the best Linaro Connect yet.  Registration is now open, so claim your spot today.  [Register here](http://connect.linaro.org/bkk16/)
 

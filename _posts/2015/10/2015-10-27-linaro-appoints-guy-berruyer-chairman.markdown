@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-10-27 13:07:00+00:00
 excerpt: Linaro announced that Guy Berruyer has been appointed as Chairman of the
   Linaro Board.
@@ -33,9 +32,6 @@ Mr Berruyer, formerly CEO of Sage Group Plc, a FTSE 100 multi-national software 
 
 
 Mr Berruyer, a French national, with a degree in Electrical Engineering and an MBA from Harvard Business School has operational and M&A experience across all continents. He joined Sage as CEO France in 1997 and was appointed to the SAGE Group Board in January 2000 and to the position of CEO in 2010, which he held until retiring in November 2014. His early career was spent with US and European software and hardware vendors in Sales, Marketing and general management roles. He has held a number of directorships and is currently a non-executive director on the Board of Meggitt PLC and a member of the University of Southampton’s governing body, the University Council.
-
-
-
 
 **About Linaro**
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.

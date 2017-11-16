@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-12-17 23:42:37+00:00
 excerpt: Linaro's 15.11 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
@@ -27,8 +26,6 @@ tags:
 ---
 
 > “Of course, some people consider hidden bugs to _be_ fixed. I don't believe in that particular philosophy myself." _**~ Linus Torvalds**_
-
-
 
 Linaro 15.12  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 15.12 release.
 

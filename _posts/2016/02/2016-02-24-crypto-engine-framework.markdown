@@ -1,6 +1,5 @@
 ---
 author: baolin.wang
-
 date: 2016-02-24 00:03:51+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/crypto-engine-framework/
@@ -17,42 +16,39 @@ tags:
 - Linux on ARM
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
+{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
-**Introduction
-**Recently I got some patches introducing the crypto engine framework merged into the crypto layer for v4.6, which are applied in Herbert Xu’s git:  [http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git](http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git)
 
-**Background
-**In crypto layer, the block cipher hardware engine driver fetches the request from dm-crypt into its queue to wait for its thread or workqueue to handle, and finalizes the request when finishing the encryption/decryption.
+**Introduction** Recently I got some patches introducing the crypto engine framework merged into the crypto layer for v4.6, which are applied in Herbert Xu’s git:  [http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git](http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git)
+
+**Background** In crypto layer, the block cipher hardware engine driver fetches the request from dm-crypt into its queue to wait for its thread or workqueue to handle, and finalizes the request when finishing the encryption/decryption.
 
 However, the old method needed each hardware engine driver to implement and maintain their own queue and thread for processing requests.  Previously the API provided helpers for only the queue itself (in crypto_enqueue_request() and crypto_dequeue_request()) but they don't help with the mechanics of driving the hardware (things like running the request immediately, DMA map it or providing a thread to process the queue in), even though a lot of that code really shouldn't vary that much from device to device.
 
-**Introduce crypto engine framework
-**Therefore we provide a crypto engine framework that implements the queue and thread for pushing requests to the hardware, as the hardware becomes free so that drivers could use it. At the same time it can avoid some reduplicated code in hardware engine driver.
+**Introduce crypto engine framework** Therefore we provide a crypto engine framework that implements the queue and thread for pushing requests to the hardware, as the hardware becomes free so that drivers could use it. At the same time it can avoid some reduplicated code in hardware engine driver.
 
-**How to use it
-**The section below shows how to integrate with the new crypto engine framework to make the omap aes driver be under utilized.
+**How to use it** The section below shows how to integrate with the new crypto engine framework to make the omap aes driver be under utilized.
 
 **(1) Remove the request queue and the thread/workqueue/tasklet which is used to queue requests in your driver, meanwhile add the 'crypto_engine' structure in your device descriptor structure.**
 
-`
+```
 @@ -152,13 +153,10 @@ struct omap_aes_dev {
 unsigned long           flags;
 int                     err;
--       spinlock_t              lock;
--       struct crypto_queue     queue;
--
+       spinlock_t              lock;
+       struct crypto_queue     queue;
+
 struct tasklet_struct   done_task;
--       struct tasklet_struct   queue_task;
-struct ablkcipher_request       *req;
-+       struct crypto_engine            *engine;
-@@ -1177,9 +1160,6 @@ static int omap_aes_probe(struct platform_device *pdev)
--       spin_lock_init(&dd->lock);
--       crypto_init_queue(&dd->queue, OMAP_AES_QUEUE_LENGTH);
-@@ -1211,7 +1191,6 @@ static int omap_aes_probe(struct platform_device *pdev)
+       struct tasklet_struct   queue_task;
+struct ablkcipher_request       \*req;
+       struct crypto_engine            \*engine;
+@@ -1177,9 +1160,6 @@ static int omap_aes_probe(struct platform_device \*pdev)
+       spin_lock_init(&dd->lock);
+       crypto_init_queue(&dd->queue, OMAP_AES_QUEUE_LENGTH);
+@@ -1211,7 +1191,6 @@ static int omap_aes_probe(struct platform_device \*pdev)
 tasklet_init(&dd->done_task, omap_aes_done_task, (unsigned long)dd);
--       tasklet_init(&dd->queue_task, omap_aes_queue_task, (unsigned long)dd);
-`
+       tasklet_init(&dd->queue_task, omap_aes_queue_task, (unsigned long)dd);
+```
 
 **(2) Add some code to initialize the crypto engine.**
 You can initialize the crypto engine with crypto_engine_alloc_init() function and remove it with crypto_engine_exit() function.
