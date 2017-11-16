@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-11-28 20:41:26+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-1611-release/
@@ -28,26 +27,15 @@ tags:
 - ubuntu
 ---
 
-<blockquote>
-
->
-> "What we wish, that we readily believe."  -- Demosthenes
->
-> </blockquote>
+> "What we wish, that we readily believe." -- Demosthenes
 
 
 
-
-Linaro 16.11  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.11 release.  To sign-up for the release mailing list go here:  [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
-
-
-
+Linaro 16.11 release is now available for download. See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.11 release. To sign-up for the release mailing list go here: [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
 
 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
-
-
 
 
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
@@ -84,7 +72,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 **USING THE DEBIAN-BASED IMAGES**
 
-The Debian-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader).  The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
+The Debian-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 
 

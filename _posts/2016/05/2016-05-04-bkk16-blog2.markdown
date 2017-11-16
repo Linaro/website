@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-05-04 10:49:39+00:00
 layout: post
 link: https://www.linaro.org/blog/bkk16-blog2/
@@ -28,9 +27,6 @@ Type of Session: Presentation/Training
 
 
 * * *
-
-
-
 
 
 #### Title: [BKK16-100](http://connect.linaro.org/resource/bkk16/bkk16-100/) **Evolution of the Reference Software Platform Project**

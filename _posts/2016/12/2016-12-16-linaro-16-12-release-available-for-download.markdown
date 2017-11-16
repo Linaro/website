@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-12-16 16:35:39+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-16-12-release-available-for-download/
@@ -28,27 +27,13 @@ tags:
 - ubuntu
 ---
 
-<blockquote>
-
->
 > "I retain the right to change my mind, as always. Le Linus e mobile."  -- Linus Torvalds
->
-> </blockquote>
-
-
 
 
 Linaro 16.12  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.12 release.  To sign-up for the release mailing list go here:  [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
 
 
-
-
-
-
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
-
-
-
 
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 

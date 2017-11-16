@@ -1,6 +1,5 @@
 ---
 author: mathieu.poirier
-
 date: 2016-06-27 22:45:43+00:00
 excerpt: 'Learn how the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.  In the latter
@@ -26,13 +25,13 @@ tags:
 - Perf
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
+{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
 
 ### **Introduction**
 
 
-In this article we explain how the CoreSight framework found in the Linux kernel has been integrated with the standard Perf core, both at the kernel and user space level.  In the latter part the newly introduced Open CoreSight Decoding Library (OpenCSD) is used to assist with trace decoding.  The topic of trace decoding with openCSD will be covered in an upcoming post.
+In this article we explain how the CoreSight framework found in the Linux kernel has been integrated with the standard Perf core, both at the kernel and user space level.  In the latter part the newly introduced Open CoreSight Decoding Library (OpenCSD) is used to assist with trace decoding. The topic of trace decoding with openCSD will be covered in an upcoming post.
 
 All examples presented in this post have been collected on a juno-R0 platform using code that is [public and accessible to everyone](https://github.com/Linaro/OpenCSD).
 
@@ -40,13 +39,13 @@ All examples presented in this post have been collected on a juno-R0 platform us
 ### **Background on Perf and the Performance Management Units**
 
 
-The standard Perf core is a performance analysis tool found in the Linux kernel.  It comes with a complement user space tool, simply called _perf_, that provides a suite of sub-commands to control and present trace profiling sessions.  Perf is most commonly used to access SoC performance counters, but over the years it has grown well beyond that and now covers tracepoints, software performance counters and dynamic probes.  
+The standard Perf core is a performance analysis tool found in the Linux kernel. It comes with a complement user space tool, simply called _perf_, that provides a suite of sub-commands to control and present trace profiling sessions. Perf is most commonly used to access SoC performance counters, but over the years it has grown well beyond that and now covers tracepoints, software performance counters and dynamic probes. 
 
-The perf core is generic and caters to many architectures.  To hide variations between HW implementation and profiling metrics the concept of Performance Monitoring Unit (PMU) is used.  A PMU is a [structure](http://lxr.free-electrons.com/source/include/linux/perf_event.h?v=4.6#L223) providing a well defined set of interfaces that PMU drivers implement in order to carry action on behalf of the Perf core.  The actions carried out the by the PMU drivers are not relevant to the Perf core itself, as long as the semantic of the API is respected.
+The perf core is generic and caters to many architectures. To hide variations between HW implementation and profiling metrics the concept of Performance Monitoring Unit (PMU) is used. A PMU is a [structure](http://lxr.free-electrons.com/source/include/linux/perf_event.h?v=4.6#L223) providing a well defined set of interfaces that PMU drivers implement in order to carry action on behalf of the Perf core. The actions carried out the by the PMU drivers are not relevant to the Perf core itself, as long as the semantic of the API is respected.
 
-Every time a process is installed on a CPU for execution, the scheduler invokes the Perf core.   From there Perf will see if any event is associated with that process and if so, the PMU API performing HW specific operations is invoked.  The same happens when the process is removed from a CPU.  That way statistics and performance counters are collected for that process only and aren’t impacted by other activities concurrently happening in the system.  Traces collected during a session are transferred to user space using a mmap’ed area and made available to users in the _perf.data_ file.  The latter is then read by the various _perf_ [sub-command](https://perf.wiki.kernel.org/index.php/Main_Page) for rendering in human readable format.  
+Every time a process is installed on a CPU for execution, the scheduler invokes the Perf core.  From there Perf will see if any event is associated with that process and if so, the PMU API performing HW specific operations is invoked. The same happens when the process is removed from a CPU. That way statistics and performance counters are collected for that process only and aren’t impacted by other activities concurrently happening in the system. Traces collected during a session are transferred to user space using a mmap’ed area and made available to users in the _perf.data_ file. The latter is then read by the various _perf_ [sub-command](https://perf.wiki.kernel.org/index.php/Main_Page) for rendering in human readable format. 
 
-Integrating the CoreSight drivers with the Perf core was advantageous on many fronts.  On the kernel side it streamlined the configuration of trace sessions - with hundreds of parameters per CPU this was certainly not something to pass on.  It also offered a way to easily transfer massive amounts of trace data to user space with little overhead.  In user space the metadata pertaining to each trace session could be embedded in the _perf.data_ file and _perf_ sub-commands like _report_ and _script_ used to decode trace data.  Last but not least most of the upstream code can be re-used in the PMU abstraction.
+Integrating the CoreSight drivers with the Perf core was advantageous on many fronts. On the kernel side it streamlined the configuration of trace sessions - with hundreds of parameters per CPU this was certainly not something to pass on. It also offered a way to easily transfer massive amounts of trace data to user space with little overhead. In user space the metadata pertaining to each trace session could be embedded in the _perf.data_ file and _perf_ sub-commands like _report_ and _script_ used to decode trace data. Last but not least most of the upstream code can be re-used in the PMU abstraction.
 
 
 ### **Integration of CoreSight with the Perf Framework**
@@ -65,7 +64,8 @@ _static struct pmu etm_pmu;_
 
 _…_
 
-_static int __init etm_perf_init(void)
+```
+static int __init etm_perf_init(void)
 {
          int ret;
  
@@ -90,21 +90,28 @@ _static int __init etm_perf_init(void)
  
          return ret;
  }
-device_initcall(etm_perf_init);_
+device_initcall(etm_perf_init);
+
+
+```
+
 
 Calling _perf_pmu_register() _creates a new PMU with the characteristics found in the _struct pmu_ given as a parameter.  When a successful registration has completed the new PMU can be found alongside the other PMUs catalogued at boot time:
 
-_linaro@linaro-nano:~$
+```bash
+linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/
 breakpoint  cs_etm  software  tracepoint
 linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/cs_etm
 cpu0  cpu1  cpu2  cpu3  cpu4  cpu5  format  perf_event_mux_interval_ms  power  subsystem  type  uevent
-linaro@linaro-nano:~$ _
+linaro@linaro-nano:~$
+```
 
 The astute reader will notice that cpu[0… 5] are not part of the typical sysFS entries associated with PMUs, and they will be correct.  Upon successful registration with the CoreSight core, the ETMv3/PTM and ETMv4 drivers create a symbolic link between their sysFS entries and the new_ cs_etm_ PMU, allowing the Perf user space API to quickly retrieve the metadata associated with a tracer:
 
-_linaro@linaro-nano:~$ ls -l /sys/bus/event_source/devices/cs_etm/cpu0
+```bash
+linaro@linaro-nano:~$ ls -l /sys/bus/event_source/devices/cs_etm/cpu0
 lrwxrwxrwx 1 root root 0 Jun  1 20:19 /sys/bus/event_source/devices/cs_etm/cpu0 -> ../platform/23040000.etm/23040000.etm
 linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/cs_etm/cpu0/trcidr/
@@ -112,21 +119,21 @@ trcidr0  trcidr1  trcidr10  trcidr11  trcidr12  trcidr13  trcidr2  trcidr
 linaro@linaro-nano:~$
 linaro@linaro-nano:~$ ls /sys/bus/event_source/devices/cs_etm/cpu0/mgmt/
 trcauthstatus  trcdevid    trclsr    trcpdcr  trcpidr0  trcpidr2  trctraceid trcconfig      trcdevtype  trcoslsr  trcpdsr  trcpidr1  trcpidr3
-linaro@linaro-nano:~$_
-
+linaro@linaro-nano:~$
+```
 
 #### The user space side
 
 
 In user space integration is done around three tools: _perf record_, _perf report_ and _perf script_, which are the perf sub-commands we have been referring to.  The first deals with event configuration and creation while the latter two assist in rendering trace data collected during a session in a human readable format.
 
-
 ##### **perf record**
 
 
 Integration in the _perf record_ sub-command is done by providing an architecture specific function that return a [struct auxtrace_record](http://lxr.free-electrons.com/source/tools/perf/util/auxtrace.h?v=4.6#L292).  As with the kernel PMU abstraction the auxtrace_record structure allows the generic core to perform architecture-specific operations without losing genericity.  That way it is possible to process traces data generated by IntePT and CoreSight without changing anything to the common core.
 
-_struct auxtrace_record *cs_etm_record_init(int *err)
+```
+struct auxtrace_record *cs_etm_record_init(int *err)
 {
        struct perf_pmu *cs_etm_pmu;
        struct cs_etm_recording *ptr;
@@ -152,7 +159,10 @@ _
        return &ptr->itr;
 out:
        return NULL;
-}_
+}
+
+```
+
 Among other things, functions provided to the _struct auxtrace_record_ deal with how to find tracer specific metadata, the presentation and formatting of the metadata in the _perf.data_ file along with specifics related to the size and mapping of the ring buffer shared between the kernel and user space.  That ring buffer is then used to retrieve trace data from the kernel.
 
 
@@ -200,10 +210,7 @@ When using the _report_ utility packets are synthesises to form a flame graph, w
 _mpoirier@t430:~/work/linaro/coresight/jun01-user$ perf report --stdio_
 
 
-
-_[clip …]_
-
-_
+```
 # Children      Self  Command  Shared Object     Symbol                
 # ........  ........  .......  ................  ......................
 #
@@ -232,13 +239,15 @@ _
     0.79%     0.79%  uname    libc-2.21.so      [.] 0x0000000000078e54
     0.79%     0.79%  uname    libc-2.21.so      [.] 0x00000000000728d0
     0.75%     0.75%  uname    libc-2.21.so      [.] 0x0000000000078e74_
-
+```
 
 The above shows that 4.13% of all the instruction ranges started in library libc-2.21.so at address 0x0000000000078758.  Using the source code, the DSO file and an objdump utility it is possible to quickly identify the function that was referenced.  It is important to keep in mind that flame graphs are generated using the _entry_ point only.  Nothing can be deduced about the path through the code that was taken after that.
 
 From more accurate results it is suggested to work with the _script_ command where a user supplied script can take advantage of all the information conveyed by synthesised events by way of the [perf_sample structure](http://lxr.free-electrons.com/source/tools/perf/util/event.h#L180).  An example is the _cs-trace-disasm.py_ script produced by Linaro:
 
-_FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
+
+```
+FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
          7f9175cd80:   910003e0        mov     x0, sp
          7f9175cd84:   94000d53        bl      7f917602d0 <free@plt+0x3790>
 FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
@@ -265,10 +274,11 @@ FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
          7f91760300:   f800841f        str     xzr, [x0],#8
          7f91760304:   eb01001f        cmp     x0, x1
          7f91760308:   54ffffc1        b.ne    7f91760300 <free@plt+0x37c0>
-FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0_
+FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
+
+```
 
 Here we can see exactly the path a processor took through the code.  The first field is the address in the DSO, the second the OPcode as found in the DSO at that specific address while the remaining of the line depicts an assembly language representation of the instructions as provided by objdump.  Instructions on how to setup an environment capable of producing the above output can be found on the [openCSD](https://github.com/Linaro/OpenCSD/blob/opencsd-0v002/HOWTO.md) website.
-
 
 ### **Conclusion**
 

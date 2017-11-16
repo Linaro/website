@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-03-07 11:01:23+00:00
 excerpt: 'Linaro announces the rollout of an ARMv8 based Developer Cloud today at
   Linaro Connect in Bangkok.  '
@@ -39,21 +38,20 @@ Access to the Developer Cloud will be provided via the [linaro.cloud](http://lin
 
 **Partner Quotes**
 
-**Suresh Gopalakrishnan, Corporate Vice President, Enterprise Solutions Engineering, AMD
-**“AMD has been working closely with Linaro and its members to make available a complete software stack for installations like the Linaro Developer Cloud for AMD’s ARM based server processors” said Suresh Gopalakrishnan, Corporate Vice President, Enterprise Solutions Engineering at AMD. “The Opteron™ A1100 processor is built with these workloads in mind. We are providing the necessary support so the Opteron™ A1100 is readily available in the Linaro Developer Cloud and in a range of commercially available systems.”
+**Suresh Gopalakrishnan, Corporate Vice President, Enterprise Solutions Engineering, AMD**
+“AMD has been working closely with Linaro and its members to make available a complete software stack for installations like the Linaro Developer Cloud for AMD’s ARM based server processors” said Suresh Gopalakrishnan, Corporate Vice President, Enterprise Solutions Engineering at AMD. “The Opteron™ A1100 processor is built with these workloads in mind. We are providing the necessary support so the Opteron™ A1100 is readily available in the Linaro Developer Cloud and in a range of commercially available systems.”
 
-**Jeff Underhill,** **Director of Server Programs, ARM
-**“Linaro’s reference software platform already gives developers easy access to open source project contributions that advance highly efficient ARM technologies across a variety of markets,” said Jeff Underhill, Director of Server Programs at ARM. “The Linaro Developer Cloud builds on this with a rich new development environment supporting a range of applications but it’s particularly exciting to see the immediate value this will bring to the growing ARM-based server ecosystem.”
+**Jeff Underhill,** **Director of Server Programs, ARM**
+“Linaro’s reference software platform already gives developers easy access to open source project contributions that advance highly efficient ARM technologies across a variety of markets,” said Jeff Underhill, Director of Server Programs at ARM. “The Linaro Developer Cloud builds on this with a rich new development environment supporting a range of applications but it’s particularly exciting to see the immediate value this will bring to the growing ARM-based server ecosystem.”
 
-**Larry Wikelius, Vice President Software Ecosystem and Solutions Group, Cavium
-**“Data Center customers are continuing to drive demand for ARMv8 server solutions and the requirements for optimized software and applications are growing dramatically," said Larry Wikelius, Vice President Software Ecosystem and Solutions Group at Cavium. “Cavium has partnered with OVH to deliver a Public Cloud solution based on ThunderX®, Cavium’s ARMv8 Workload Optimized Processor. We are pleased to be part of the Linaro Developer Cloud, which we expect would accelerate development of optimized software on ARMv8 servers and enhance services offered by the Cloud providers and enterprises.”
+**Larry Wikelius, Vice President Software Ecosystem and Solutions Group, Cavium**
+“Data Center customers are continuing to drive demand for ARMv8 server solutions and the requirements for optimized software and applications are growing dramatically," said Larry Wikelius, Vice President Software Ecosystem and Solutions Group at Cavium. “Cavium has partnered with OVH to deliver a Public Cloud solution based on ThunderX®, Cavium’s ARMv8 Workload Optimized Processor. We are pleased to be part of the Linaro Developer Cloud, which we expect would accelerate development of optimized software on ARMv8 servers and enhance services offered by the Cloud providers and enterprises.”
 
-**Elsie Wahlig, Principal Engineer, Data Center Group, Qualcomm Technologies, Inc.
-**“Qualcomm Technologies is pleased to be supporting the Linaro Developer Cloud,” says Elsie Wahlig, Principal Engineer, Data Center Group, Qualcomm Technologies, Inc. “As the software ecosystem for ARM servers gains momentum, the Developer Cloud presents a new vehicle for friction-less access to standards-based hardware and software to enable accelerated development by our software partners and open source community participants.”
+**Elsie Wahlig, Principal Engineer, Data Center Group, Qualcomm Technologies, Inc.**
+“Qualcomm Technologies is pleased to be supporting the Linaro Developer Cloud,” says Elsie Wahlig, Principal Engineer, Data Center Group, Qualcomm Technologies, Inc. “As the software ecosystem for ARM servers gains momentum, the Developer Cloud presents a new vehicle for friction-less access to standards-based hardware and software to enable accelerated development by our software partners and open source community participants.”
 
-**Jon Masters, chief ARM architect, Red Hat
-**“Since the founding of the Linaro Enterprise Group in 2012, Red Hat has been at the forefront in developing key open standards for the ARM ecosystem, and our active participation through the Fedora and CentOS communities as well as the Red Hat ARM Partner Early Access Program has helped to extend the reach of cloud computing to encompass ARM architecture” said Jon Masters, chief ARM architect, Red Hat. “We are pleased to see the availability of Linaro Developer Cloud and look forward to additional innovation streams that it will enable.”
-
+**Jon Masters, chief ARM architect, Red Hat**
+“Since the founding of the Linaro Enterprise Group in 2012, Red Hat has been at the forefront in developing key open standards for the ARM ecosystem, and our active participation through the Fedora and CentOS communities as well as the Red Hat ARM Partner Early Access Program has helped to extend the reach of cloud computing to encompass ARM architecture” said Jon Masters, chief ARM architect, Red Hat. “We are pleased to see the availability of Linaro Developer Cloud and look forward to additional innovation streams that it will enable.”
 
 #### About Linaro
 

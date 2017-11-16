@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-05-18 19:29:37+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-lemaker-oscon-showcase-hikey/
@@ -28,5 +27,3 @@ Also at OSCON is Linaro’s very own Director of Systems - David Mandala - who w
 **David Mandala, Systems Engineering Director - Linaro**
 
 David Mandala has worked in the Linux industry since 1995, when his company, THEM Productions, started deploying Linux for businesses. At Linaro, David focuses on Linaro’s infrastructure, ARMservers. He runs the Linaro Hardware Server cluster, is involved with the Linaro Developer Cloud, and works with the 96Board project. He wrote the 96BoardsGPIO library, regularly blogs about 96Boards, and is working to bring the 96Boards to the maker community. Previously, David worked for Canonical, where he was responsible for the ARM port of Ubuntu and for making Ubuntu for ARM as close to Ubuntu for x86 as possible.
-
-

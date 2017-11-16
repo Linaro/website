@@ -1,6 +1,5 @@
 ---
 author: eric.auger
-
 date: 2016-02-29 23:08:58+00:00
 excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM, also
   known as device assignment) is supported through a mostly architecture-agnostic
@@ -26,7 +25,7 @@ tags:
 - VFIO
 ---
 
-[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
+{% include image.html name="core-dump.png" alt="core-dump" url="https://wiki.linaro.org/CoreDevelopment" %}
 
 While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an ARM-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on ARM server systems.
 
@@ -38,31 +37,18 @@ MSIs are an alternative to wire based interrupts. A device using MSIs does not n
 
 Thus, the MSI-enabled device must be programmed with:
 
-
-
-
   * the address to write to
-
-
   * and a payload
-
-
-
 
 # ARM MSI Controllers
 
-
 This chapter gives a brief introduction of 2 ARM MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. Please refer to the [references](https://docs.google.com/document/d/19-ZLE_xXKbebXKysIrAhmpXIdcRz6BjJlhP4NNWom8Y/edit#heading=h.p2pt38fekl4d) for more details.
-
 
 ## GICv2M
 
-
 The GICv2m widget contains one or more MSI frames. Each MSI frame is wired up to a set of GIC SPI wires (shared peripheral interrupt). MSI frames should not target the same SPI IDs for isolation purpose.
 
-![KVM blog image 1](/assets/blog/KVM-blog-image-1.jpg)
-
-
+{% include image.html name="KVM-blog-image-1.jpg" alt="KVM blog image 1" %}
 
 From the CPU perspective each MSI frame is 4kB wide and contains some info registers telling the base and number of associated SPI IDs and the MSI_SETSPI_NS 32-bit register.
 
@@ -72,8 +58,7 @@ The GICv2M does not require any functional programming since the SPIs are static
 
 Separate MSI frames are provisioned for interrupt isolation purpose. Each frame is supposed to target separate SPI ID windows. Devices attached to separate MSI frames have different SPI ID domains. Of course MSI frame access must be restricted by the bus topology, an IOMMU, or by other means. On the other hand, a system with a single MSI frame cannot do HW IRQ isolation between devices allowed to access that single MSI frame.
 
-![KVM blog image 2](/assets/blog/KVM-blog-image-2.jpg)
-
+{% include image.html name="KVM-blog-image-2.jpg" alt="KVM blog image 2" %}
 
 ## GICv3 ITS
 
@@ -90,8 +75,8 @@ As opposed to the GICv2M, the ITS must be configured by software before it is us
 
   * An entry must exist in the device interrupt translation table for each eventid the device is likely to produce. This entry basically tells which LPI ID to trigger (and the CPU it targets)
 
+{% include image.html name="KVM-blog-image-3.jpg" alt="KVM blog image 3" %}
 
-![KVM blog image 3](/assets/blog/KVM-blog-image-3.jpg)
 
 Interrupt translation is also supported on Intel hardware as part of the VT-d spec. The Intel IRQ remapping HW provides a translation service similar to the ITS. The difference is that the intel implementation looks more like a true IOMMU in the sense the translation process uses the MSI address as input as well the MSI data payload. On ARM the deviceid is conveyed out of band.
 
@@ -165,11 +150,9 @@ When an MSI enabled device is assigned to a guest we need to guarantee it cannot
 
 On the figure below we can image device #0 is used by the host while devices #1 and #2 are assigned to a guest.
 
-![KVM blog image 4](/assets/blog/KVM-blog-image-4.jpg)
-
+{% include image.html name="KVM-blog-image-4.jpg" alt="KVM blog image 4" %}
 
 ## Interrupt Safety with GICv2m
-
 
 On GICv2m the standard way to implement interrupt isolation is to support several MSI frames and make sure guests are assigned with separate MSI frames (host and each guest must have separate MSI frames). This is due to the fact the GICv2m does not support interrupt translation, also known as IRQ remapping (Intel naming).
 
@@ -202,7 +185,7 @@ This chapter illustrates the assignment of 2 different PCIe devices:
 
 
 
-  * Intel 82574L Ethernet Controller** (**e1000e)
+  * Intel 82574L Ethernet Controller (**e1000e**)
 
 
   * Intel X540-T2 Ethernet Controller (SR-IOV capable)
@@ -214,22 +197,20 @@ on  AMD 64-bit ARM Overdrive featuring a single GICv2M MSI frame.
 ## e1000e Assignment
 
 
-
-
 #### Host Compilation
 
 
-_make defconfig
-__scripts/config -e CONFIG_IOMMU_SUPPORT
-__scripts/config -e CONFIG_IOMMU_API
-__scripts/config -e CONFIG_ARM_SMMU
-__scripts/config -m CONFIG_VFIO
-__scripts/config -m CONFIG_VFIO_PCI
-__scripts/config -m CONFIG_VFIO_IOMMU_TYPE1
-__scripts/config -e CONFIG_NETDEVICES
-__scripts/config -e CONFIG_NET_VENDOR_AMD
-__scripts/config -e CONFIG_AMD_XGBE
-__scripts/config -e CONFIG_E1000E_
+_make defconfig_
+_scripts/config -e CONFIG_IOMMU_SUPPORT_
+_scripts/config -e CONFIG_IOMMU_API_
+_scripts/config -e CONFIG_ARM_SMMU_
+_scripts/config -m CONFIG_VFIO_
+_scripts/config -m CONFIG_VFIO_PCI_
+_scripts/config -m CONFIG_VFIO_IOMMU_TYPE1_
+_scripts/config -e CONFIG_NETDEVICES_
+_scripts/config -e CONFIG_NET_VENDOR_AMD_
+_scripts/config -e CONFIG_AMD_XGBE_
+_scripts/config -e CONFIG_E1000E_
 
 
 #### Host PCIe Topology
@@ -241,17 +222,16 @@ Subsystem: 1022:1a00
 00:02.2 0604: 1022:1a02
 Kernel driver in use: pcieport
 **01:00.0 0200: 8086:10d3**
-**      Subsystem: 8086:a01f**
-**      Kernel driver in use: e1000e**_
+      **Subsystem: 8086:a01f**
+      **Kernel driver in use: e1000e**_
 
-_00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1a00
-__00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1a01
-__00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1a02
-_**_01:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection_**
+_00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1a00_
+_00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1a01_
+_00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1a02_
+**_01:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection_**
 
 
 #### Module Loading
-
 
 allow_unsage_interrupts opt-in:
 _sudo modprobe -v vfio-pci
@@ -264,33 +244,29 @@ sudo modprobe -v vfio_iommu_type1 allow_unsafe_interrupts=1_
 
 The following command lines unbind the native e1000e driver and bind the vfio-pci driver instead:
 
-_echo vfio-pci > /sys/bus/pci/devices/0000:01:00.0/driver_override
-__echo 0000:01:00.0 > /sys/bus/pci/drivers/e1000e/unbind
-__echo 0000:01:00.0 > /sys/bus/pci/drivers_probe_
+_echo vfio-pci > /sys/bus/pci/devices/0000:01:00.0/driver_override_
+_echo 0000:01:00.0 > /sys/bus/pci/drivers/e1000e/unbind_
+_echo 0000:01:00.0 > /sys/bus/pci/drivers_probe_
 
 
 #### QEMU command line example
 
-
-_qemu-system-aarch64 -M virt -smp 4 -m 12G -cpu host -serial stdio -display none \
-__--enable-kvm -kernel /root/VM/Image \
-__-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=guestrootfs \
-__-device virtio-blk-device,drive=guestrootfs \
-__-net none \
-_**_-device vfio-pci,host=01:00.0_**_ \
-__-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
+_qemu-system-aarch64 -M virt -smp 4 -m 12G -cpu host -serial stdio -display none \_
+_--enable-kvm -kernel /root/VM/Image \_
+_-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=guestrootfs \_
+_-device virtio-blk-device,drive=guestrootfs \_
+_-net none \_
+**_-device vfio-pci,host=01:00.0_** \
+_-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
 
 
 ## X540-T2 (SR-IOV capable) Assignment
 
-
-
-
 #### Host Compilation
 
 
-**ACS Capability Override
-**PCIe ACS capability (Access Control Service) is not properly exposed on this HW.
+**ACS Capability Override**
+PCIe ACS capability (Access Control Service) is not properly exposed on this HW.
 
 Without any action the PF (physical function) and all the VFs (virtual functions) belong to the same iommu group. This prevents from assigning the VF since the vfio group is not viable (the PF must remain bound to the ixgbe native driver else the VFs disappear).
 
@@ -298,56 +274,54 @@ This problem is pretty well know on other architectures too. There is a patch av
 
 After applying the patch and adding _pcie_acs_override=downstream_ to the grub cmd line the PF/VF are in separate iommu groups.
 
-
 #### **ixgbe Module Addition**
 
-
 Compile the ixgbe as a module (needed to turn VFs on) by adding the following options:
-_scripts/config -m CONFIG_IXGB
-__
-__scripts/config -m CONFIG_IXGBE
-__scripts/config -m CONFIG_IXGBEVF_
+
+_scripts/config -m CONFIG_IXGB_
+_scripts/config -m CONFIG_IXGBE_
+_scripts/config -m CONFIG_IXGBEVF_
 
 Host PCIe Topology
-**Before SR-IOV enabling:
-**_00:00.0 0600: 1022:1a00
-__       Subsystem: 1022:1a00
-__00:02.0 0600: 1022:1a01
-__00:02.2 0604: 1022:1a02
-__       Kernel driver in use: pcieport
-__01:00.0 0200: 8086:1528 (rev 01)
-__       Subsystem: 8086:0002
-__       Kernel driver in use: ixgbe_
+**Before SR-IOV enabling:**
+**_00:00.0 0600: 1022:1a00_**
+       _Subsystem: 1022:1a00_
+_00:02.0 0600: 1022:1a01_
+_00:02.2 0604: 1022:1a02_
+       _Kernel driver in use: pcieport_
+_01:00.0 0200: 8086:1528 (rev 01)_
+       _Subsystem: 8086:0002_
+       _Kernel driver in use: ixgbe_
 
 **SR-IOV enabling:**
 
 reload the ixgbe module with max_vfs parameter set to the wished number of virtual functions:
 
-_modprobe -r ixgbe
-__modprobe ixgbe max_vfs=2_
+_modprobe -r ixgbe_
+_modprobe ixgbe max_vfs=2_
 
 Now the PCIe topology looks like:
 
-_-[0000:00]-+-00.0
-__          +-02.0
-__          \-02.2-[01]--+-00.0
-__                       +-10.0
-__                       \-10.2_
+_-[0000:00]-+-00.0_
+          _+-02.0_
+          _\-02.2-[01]--+-00.0_
+                       _+-10.0_
+                       _\-10.2_
 
-_00:00.0 0600: 1022:1a00
-__       Subsystem: 1022:1a00
-__00:02.0 0600: 1022:1a01
-__00:02.2 0604: 1022:1a02
-__       Kernel driver in use: pcieport
-__01:00.0 0200: 8086:1528 (rev 01) eth4
-__       Subsystem: 8086:0002
-__       Kernel driver in use: ixgbe
+_00:00.0 0600: 1022:1a00_
+       _Subsystem: 1022:1a00_
+_00:02.0 0600: 1022:1a01_
+_00:02.2 0604: 1022:1a02_
+       _Kernel driver in use: pcieport_
+_01:00.0 0200: 8086:1528 (rev 01) eth4_
+       _Subsystem: 8086:0002_
+       _Kernel driver in use: ixgbe
 _**_01:10.0 0200: 8086:1515 (rev 01)
-_****_       Subsystem: 8086:0002
-_****_       Kernel driver in use: ixgbevf
-_****_01:10.2 0200: 8086:1515 (rev 01)
-_****_       Subsystem: 8086:0002
-_****_       Kernel driver in use: ixgbevf_**
+       _**Subsystem: 8086:0002**_
+       _**Kernel driver in use: ixgbevf**_
+_**01:10.2 0200: 8086:1515 (rev 01)**_
+      _**Subsystem: 8086:0002v**_ 
+      _**Kernel driver in use: ixgbevf**_ 
 
 
 #### Allow Unsafe Interrupts
@@ -378,11 +352,11 @@ echo 0000:01:10.0 > /sys/bus/pci/drivers_probe
 #### QEMU Command line
 
 
-_qemu-system-aarch64 -M virt -smp 4 -m 4096 -cpu host -serial stdio -display none \
-__--enable-kvm -kernel /root/VM/Image1 \
-__-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=guestrootfs -device virtio-blk-device,drive=guestrootfs \
-__-net none **-device vfio-pci,host=01:10.0** \
-__-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
+_qemu-system-aarch64 -M virt -smp 4 -m 4096 -cpu host -serial stdio -display none \_
+_--enable-kvm -kernel /root/VM/Image1 \_
+_-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=guestrootfs -device virtio-blk-device,drive=guestrootfs \_
+_-net none **-device vfio-pci,host=01:10.0** \_
+_-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
 
 
 # References

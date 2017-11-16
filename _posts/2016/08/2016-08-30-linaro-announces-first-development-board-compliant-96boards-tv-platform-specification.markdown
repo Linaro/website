@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-08-30 12:41:20+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
@@ -36,7 +35,8 @@ The Poplar board will serve as a common platform for LHG members to continue cre
 
 Developers using the Poplar board can experiment with “secure world” operating systems, such as OP-TEE, running on ARM TrustZone™, with reference platform builds provided by Linaro. The Poplar board has security processing capabilities that allow developers to integrate commercial DRMs and downloadable conditional access (DCAS) solutions. Poplar supports HDCP 2.2 copy protection to protect 4K Ultra HD content.
 
-![](/assets/blog/chart-4.jpg)
+
+{% include image.html name="chart-4.jpg" alt="Chart 4 Image" %}
 
 
 

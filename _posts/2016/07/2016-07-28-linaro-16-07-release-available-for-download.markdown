@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-07-28 20:25:45+00:00
 layout: post
 link: https://www.linaro.org/blog/linaro-16-07-release-available-for-download/
@@ -28,23 +27,14 @@ tags:
 - ubuntu
 ---
 
-<blockquote>
-
->
 > “As soon as we started programming, we found to our surprise that it wasn't
-as easy to get programs right as we had thought.  Debugging had to be
-discovered.  I can remember the exact instant when I realized that a large
-part of my life from then on was going to be spent in finding mistakes in
-my own programs." _**~ Maurice Wilkes, designer of EDSAC, on programming, 1949**_
->
-> </blockquote>
+> as easy to get programs right as we had thought.  Debugging had to be
+> discovered.  I can remember the exact instant when I realized that a large
+> part of my life from then on was going to be spent in finding mistakes in
+> my own programs." _**~ Maurice Wilkes, designer of EDSAC, on programming, 1949**_
 
 
-
-
-
-
-Linaro 16.07  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.07 release.  To sign-up for the release mailing list go here:  [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
+Linaro 16.07 release is now available for download. See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.07 release. To sign-up for the release mailing list go here: [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
@@ -95,7 +85,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 **USING THE DEBIAN-BASED IMAGES**
 
-The Debian-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader).  The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
+The Debian-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 
 

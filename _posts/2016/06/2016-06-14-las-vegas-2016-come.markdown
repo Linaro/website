@@ -1,6 +1,5 @@
 ---
 author: ebba.simpson
-
 date: 2016-06-14 18:55:35+00:00
 excerpt: Learn about the beautiful location of the next Linaro Connect in Las Vegas,
   September 25-30th, 2016.
@@ -21,7 +20,7 @@ tags:
 
 Having just about recovered from the jetlag, it’s time to report on my site visit to the [JW Marriott](http://www.marriott.com/hotels/travel/lasjw-jw-marriott-las-vegas-resort-and-spa/) in Las Vegas where we will hold the next Linaro Connect September 26-30th. With only four months to go, it was high time we paid the Marriott another visit for some event planning and menu tasting among other things. 
 
-I arrived at the Vegas hotel along with Dale, from Form AV, on Thursday afternoon after a ten hour flight and 30-minute taxi drive - just in time for the heatwave. Sunny and 42 degrees Celsius (107 Fahrenheit), it was quite the contrast to the rainy, grey London we flew out from.  Luckily the average temperature for September in Las Vegas is 35 degrees celsius (95 degrees  Fahrenheit) which will still be warm but nice enough to enjoy the outdoor amenities.
+I arrived at the Vegas hotel along with Dale, from Form AV, on Thursday afternoon after a ten hour flight and 30-minute taxi drive - just in time for the heatwave. Sunny and 42 degrees Celsius (107 Fahrenheit), it was quite the contrast to the rainy, grey London we flew out from.  Luckily the average temperature for September in Las Vegas is 35 degrees celsius (95 degrees Fahrenheit) which will still be warm but nice enough to enjoy the outdoor amenities.
 
 We were met b![Tivoli village](/assets/blog/Tivoli-village.jpg)y our Event Manager, Bobbi, who got us checked into our fantastic suites. The suite was beautifully decorated and felt very homely, with a spacious bathroom, big comfy bed and great view of the mountains surrounding Vegas. 
 

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-07-25 14:05:49+00:00
 layout: post
 link: https://www.linaro.org/blog/introducing-devicetree-org/
