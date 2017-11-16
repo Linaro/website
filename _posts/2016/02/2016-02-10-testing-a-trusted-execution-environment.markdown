@@ -1,6 +1,5 @@
 ---
 author: joakim.bech
-
 date: 2016-02-10 13:54:07+00:00
 layout: post
 link: https://www.linaro.org/blog/core-dump/testing-a-trusted-execution-environment/
@@ -12,36 +11,16 @@ categories:
 tags:
 - Core Dump
 ---
-
-[![core-dump](/wp-content/uploads/2016/02/core-dump.png)](https://wiki.linaro.org/CoreDevelopment)
-
-
-
+{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
   * Background
-
-
   * Linaro gets into the picture
-
-
   * Software components
-
-
   * Host application
-
-
   * Test Trusted Applications
-
-
   * What about the tests coming from GlobalPlatform?
-
-
   * Licenses
-
-
   * Shortcomings and future improvements
-
-
   * Final words
 
 
@@ -53,7 +32,7 @@ Why you need to test your software is quite obvious and therefore this blog post
 
 Just as the other components in OP-TEE the test framework also has origins from ST-Ericsson and STMicroelectronics. A couple of years ago, when OP-TEE was being developed, the developers were engaged in GlobalPlatform testing, in the so called TestFest (for simplicity let’s call it OP-TEE even though it strictly isn’t correct, since back then the TEE solution didn’t really have a name, it was the ST-Ericsson TEE solution). At this time there were no official test suite nor compliance program ready and the goals with the TestFests were twofold, first to ensure that the different TEE vendors respective TEE solution was behaving according to the specification, secondly that the test tool(s) and the specifications themselves were correct. At the same time as this work took place there were quite a few “standalone” test cases being implemented as a complement to the GlobalPlatform tests. The nature of those were more to address the missing pieces in GlobalPlatform and to test corner cases, hardware- and extended features. So side by side the engineers at ST-Ericsson were running their own tests as well as the tests provided by the ones in charge of GlobalPlatform compliance program.
 
-![figure1](/wp-content/uploads/2016/02/figure1.png)
+{% include image.html name="figure1.png" alt="figure1" %}
 
 **Figure 1: Output from xtest**
 
@@ -127,10 +106,6 @@ Within each test you can define sub-tests and to do so you have to wrap your cod
 As I’ve mentioned above, all code related to testing could be found within a set of Trusted Applications. Below is a list of the Trusted Applications that are used by xtest.
 
 
-
-
-
-
   * [**concurrent**](https://github.com/OP-TEE/optee_test/tree/master/ta/concurrent): The concurrent Trusted Application is responsible for testing the ability to run several Trusted Applications simultaneously – a feature that has been [merged](https://github.com/OP-TEE/optee_os/pull/536/commits) into OP-TEE quite recently. For the host application you will find this application’s code in the [xtest_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_1000.c#L156-L165) file.
 
 
@@ -154,16 +129,12 @@ As I’ve mentioned above, all code related to testing could be found within a s
 
   * [**storage_benchmark**](https://github.com/OP-TEE/optee_test/tree/master/ta/storage_benchmark): As the name indicates, this TA benchmarks storage operations. It reads and writes data of various chunk sizes and then in the end creates a performance report.
 
-
-
-
-
 # What about the tests coming from GlobalPlatform?
 
 
 The compliance test suite ([GlobalPlatform TEE Initial Configuration Compliance Test Suite v1.1.0.4](http://globalplatform.org/storecontent.asp?show=configurations)) that can be purchased from GlobalPlatform (free for GP members) consists of a _compliance adaptation layer specification_ that needs to be implemented to run the tests. It also contains a set of configuration files, more specifically – XML files specifying how functions should be called, what parameters to pass to them and what kind of test results to expect, i.e., you will **not** get any actual code that is ready to be compiled. How those XML files will end up being used is up to the end user. What we did early on was to configure xtest, so that it would be easy to extend it later to also include the compliance test suite from GlobalPlatform. So by putting the XML files on a certain [path](https://github.com/OP-TEE/optee_test#extended-test-global-platform-tests), using the adaptation layer, installing a couple of tools ([xalan](https://xalan.apache.org)) and running make with the “patch” as an argument, there will be a set of new Trusted Applications as well as patch xtest itself to also include the compliance tests. I.e., the XML files will be transformed into C code in this step. After performing that step you will not only run the so called standard test, but you will also run the compliance tests from GP in the same run.
 
-![figure2](/wp-content/uploads/2016/02/figure2.png)
+{% include image.html name="figure2.png" alt="figure2" %}
 
 **Figure 2: xtest overview**
 
@@ -179,7 +150,8 @@ One has to be careful when working with xtest, since there are different license
 
 Today xtest is a test framework that does API testing of the exposed functionality for the Client API and for the Internal Core API. It contains quite a few test cases. Running the standard test on QEMU (Intel Core i5-4670K CPU @ 3.40GHz) results in the following:
 
-![figure3](/wp-content/uploads/2016/02/figure3.png)
+{% include image.html name="figure3.png" alt="figure3" %}
+
 
 **Figure 3: xtest standard test result**
 

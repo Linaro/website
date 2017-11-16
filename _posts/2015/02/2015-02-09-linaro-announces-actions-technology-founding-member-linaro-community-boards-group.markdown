@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-02-09 01:55:53+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/
@@ -20,7 +19,6 @@ tags:
 ---
 
 ## Actions Technology invests in enabling the open source development community with the development of a new cost-effective ARM 64-bit development board
-
 
 HONG KONG, China; 9  FEBRUARY 2015
 

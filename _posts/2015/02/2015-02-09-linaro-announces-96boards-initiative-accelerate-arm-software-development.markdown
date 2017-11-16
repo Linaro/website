@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-02-09 01:55:19+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/
@@ -19,7 +18,6 @@ tags:
 ---
 
 ## 96Boards is an open hardware specification for ARM 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs
-
 
 HONG KONG, China; 9  FEBRUARY 2015
 

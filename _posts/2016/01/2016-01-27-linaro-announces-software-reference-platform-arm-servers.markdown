@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-01-27 14:00:24+00:00
 excerpt: Linaro announces a complete open source Software Reference Platform for servers
   running on ARMv8-A processors.
@@ -25,11 +24,11 @@ tags:
 
 Cambridge, UK; 27 January 2016
 
-Linaro Ltd, the collaborative engineering organization developing software for the ARM® architecture, today announced a complete open source Software Reference Platform for servers running on ARMv8-A processors. Linaro released alpha source code on 23 December 2015, and plans to partner with its members to provide access to the Software Reference Platform running on developer cloud instances in Europe, China and the US in the first half of 2016. 
+Linaro Ltd, the collaborative engineering organization developing software for the ARM® architecture, today announced a complete open source Software Reference Platform for servers running on ARMv8-A processors. Linaro released alpha source code on 23 December 2015, and plans to partner with its members to provide access to the Software Reference Platform running on developer cloud instances in Europe, China and the US in the first half of 2016.
 
 This launch has, for the first time, made not only a complete end to end open source server software stack for servers and cloud providers available, but will also provide access to enterprise-class ARM based server hardware for developers worldwide.
 
-The Reference Software Platform releases are expected to be used by Linaro members and the wider community for enterprise products and cloud instance development and deployment. Releases will be provided for different market segments, and early access to the Linaro Enterprise Group (LEG) and Linaro Mobile Group (LMG) builds is now available. The alpha release of the LEG build offers a complete reference implementation for ARM servers, including open source boot software and firmware implementing the ARM Trusted Firmware, UEFI and ACPI standards, a Linux 4.4 kernel, tested latest Debian and CentOS distributions, OpenStack, OpenJDK, Hadoop and Spark. 
+The Reference Software Platform releases are expected to be used by Linaro members and the wider community for enterprise products and cloud instance development and deployment. Releases will be provided for different market segments, and early access to the Linaro Enterprise Group (LEG) and Linaro Mobile Group (LMG) builds is now available. The alpha release of the LEG build offers a complete reference implementation for ARM servers, including open source boot software and firmware implementing the ARM Trusted Firmware, UEFI and ACPI standards, a Linux 4.4 kernel, tested latest Debian and CentOS distributions, OpenStack, OpenJDK, Hadoop and Spark.
 
 During 2016 the Linaro Software Reference Platform releases will support an increasing range of data center, networking and home gateway applications. These releases will provide market segment specific application stacks for end to end use case development.
 

@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-05-28 17:57:37+00:00
 excerpt: Linaro's 15.05 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
@@ -25,58 +24,33 @@ tags:
 - ubuntu
 ---
 
-<blockquote>
-
->
 > “The way to gain a good reputation is to endeavor to be what you desire to appear." _**~ Socrates**_
->
-> </blockquote>
-
-
-
-
-
 
 Linaro 15.05  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
 
-
-
-
   * [https://wiki.linaro.org/Cycles/1505/Release#Release_Information](https://wiki.linaro.org/Cycles/1505/Release#Release_Information)
-
 
 We encourage everybody to use the 15.05 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
-
 
 **USING THE ANDROID-BASED IMAGES**
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-
-
-
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
-
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-
   * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
 
-
   * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
-
 
 **USING THE UBUNTU-BASED IMAGES**
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
-
-
 
 
   * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)

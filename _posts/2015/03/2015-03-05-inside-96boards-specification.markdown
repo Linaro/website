@@ -1,11 +1,9 @@
 ---
 author: george.grey
-
 date: 2015-03-05 14:52:40+00:00
 excerpt: 'The Linaro 96Boards initiative announced at the recent Linaro Connect conference
   in Hong Kong on February 9th is an industry-first, establishing an open standard
   for low cost developer hardware from multiple SoC vendors.
-
   '
 layout: post
 link: https://www.linaro.org/blog/inside-96boards-specification/
@@ -16,65 +14,39 @@ categories:
 - blog
 ---
 
-[vc_row][vc_column][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
-
-
 # Inside the 96Boards Specification
 
-
-
-
-
-	
   * The Specification
-
-	
   * Goals
 
-	
   * Linaro
 
-	
   * Footprint
 
-	
   * SoCs and Price Points
 
-	
   * Memory
 
-	
   * Storage
 
-	
   * Networking Interfaces
 
-	
   * Displays and Cameras
 
-	
   * USB
 
-	
   * UARTs
 
-	
   * Audio
 
-	
-  * Power Supplies and
-Power Measurement
+  * Power Supplies and Power Measurement
 
-	
   * Expansion Connectors
 
-	
   * Software
 
-	
   * 96Boards Enterprise Edition
 
-	
   * The Future
 
 
@@ -83,36 +55,24 @@ The Linaro 96Boards initiative announced at the recent Linaro Connect conference
 The initiative has already resulted in the cost of 64-bit ARM hardware for developers dropping by more than an order of magnitude to $129 for the 96Boards [HiKey](https://www.96boards.org/products/hikey/) product from CircuitCo Inc., featuring an 8 core ARM Cortex-A53 SoC from HiSilicon with a Mali 450 3D graphics accelerator.
 
 
-## **The Specification **
+## **The Specification**
 
-
-The 96Boards Consumer Edition [specification](https://www.96boards.org/wp-content/uploads/2015/02/96BoardsCESpecificationv1.0-EA1.pdf) has been published by Linaro. It defines an open platform with a required set of minimum functionality, and standardized expansion buses to enable third parties to create mezzanine boards and modules that will work on any 96Boards compliant product.
+The 96Boards Consumer Edition [specification](https://linaro.co/ce-specification) has been published by Linaro. It defines an open platform with a required set of minimum functionality, and standardized expansion buses to enable third parties to create mezzanine boards and modules that will work on any 96Boards compliant product.
 
 In any effort like this the final specification will represent a set of compromises and cannot meet all possible user’s requirements. So how did Linaro set about developing this specification and why were the design and functionality decisions made?
 
 
 ### **Goals**
 
-
 At the outset the Consumer Edition was designed with 3 main use cases in mind:
 
-
-
-	
   * Software developers, particularly those working on the new 64-bit ARMv8 architecture
-
-	
   * Universities and the Maker community
-
-	
   * Embedded product manufacturers
-
 
 In addition a key attribute of the ARM ecosystem is the speed of innovation and the differentiated products that the many ARM licensees produce. A goal of 96Boards is to embrace this differentiation and innovation and not to create a “one size fits all” commoditized product. This led to the concept of a minimum set of required functionality enabling a base software platform, leaving additional features, options and interfaces to the board designer.
 
-
 ### **Linaro**
-
 
 Linaro is a not for profit company funded by its members - these members pay substantial fees and contribute engineers to enable Linaro to be a substantial software engineering company, delivering software to its members and the community, primarily through upstreaming technology to open source projects, including the Linux kernel. Linaro is fortunate enough to have many of the ARM Cortex-A series SoC licensees as members. As a member-led organization we therefore looked to our members for input once the idea for the 96Boards initiative was formed.
 
@@ -126,12 +86,7 @@ Here is some background to the choices that the technical team made for the 96Bo
 
 For the maker and embedded product market a small physical footprint was a requirement. For example, for robots and drones/UAVs small physical size and low weight is critical. For many embedded products the smaller the computing engine the better. We therefore decided that the “standard” credit card format would be our goal (as used by Raspberry Pi, Beaglebone and other community boards). Two other design objectives were:
 
-
-
-	
   * low-height footprint to enabled easy stacking of boards, or fitting into a low profile embedded product
-
-	
   * Connectors/cabling from only two opposite sides to improve ergonomics and make the board easier to stack for build or test farms
 
 
@@ -175,15 +130,10 @@ Most modern ARM Cortex-A mobile SoCs support MIPI DSI and most also support MIPI
 
 Looking at our three use cases (above) we recognized that:
 
-
-
-	
   * Software developers and universities want to work on multi-core GPU tools and optimization. This is a good use case for many of the mobile SoCs which utilize high performance GPUs.
 
-	
   * Universities and the Maker community are working on diverse products that use displays and cameras; for example vision systems, robots, and drones/UAVs.
 
-	
   * Some large embedded markets require simple or intelligent displays (e.g. industrial or embedded displays in everything from white goods to elevators or airplane and car seat backs).
 
 
@@ -228,46 +178,33 @@ Given the use of these boards for software development we wanted to provide good
 Expansion connectors and networking connectivity were probably the two most debated areas, as well as the two where the opinions from the stakeholders and community were most diverse. After much discussion and input we made the following decisions:
 
 
-
-	
   * To have a separate low speed and high speed connector. This allows maker, education and “low cost” usage with “pins” and expansion products using the low speed signals only (i.e expansion mezzanine boards/modules are not required to use the high speed connector if they do not need the high speed functionality). The high speed connector is then used because modern high speed buses such as CSI, DSI and HSIC need impedance matched connectors, and cannot provide reliable performance over traditional header block style connectors.
-
-	
+  
   * To use 1.8V as the standard expansion interface voltage. The majority of mobile/embedded SoCs use 1.8V for I/O. We looked at implementing a scheme allowing support for multiple I/O voltages but this was considered to be overly complex and costly. We also considered standardizing on 3.3V or 5V but realized that for add-on boards/modules there would then be many cases where we were level shifting up to 3.3V or 5V on the baseboard and then down again to 1.8V on the mezzanine board/module.
-
-	
+  
   * To use a 2mm header block for the low speed expansion module. While less popular in the maker community than 0.1” it was agreed that this would provide users with an indication that this was not compatible with other 3.3V/5V community boards and would help reduce accidental damage through trying to interface with 3.3V or 5V external levels. 2mm connector hardware is readily available through DIY and electronics distributors. We expect early mezzanine boards to support level conversion to 3.3/5V and 0.1” headers for the DIY/Maker community.
-
-
-
 
 ### **Software**
 
-
 While anyone can use the 96Boards specification to design a product, only products that have been certified can carry the 96Boards brand or logo. Part of the specification therefore involves software expectations and requirements. The minimal requirement is designed to enable community, maker and embedded OEM use of a 96Boards product out of the box with minimal licensing requirements and integration issues. For compliance, buildable Linux kernel source code is required. Linaro will work with vendors to enable full upstream support for 96Boards branded products.
-
 
 ### **96Boards Enterprise Edition**
 
 
 The 96Boards Enterprise Edition specification is in the final stages of development alongside an initial vendor implementation. As for the Consumer Edition, input on the specification has been sought from a variety of Linaro members and from community users. The target users include software developers in the networking and server space, as well as universities and applications ranging from build and test farms to High Performance Computing (HPC). The goal is to create a low cost standalone development board for high end SoCs, rather than an embedded server or PC chassis class product.
 
-
 ### **The Future**
 
 
 Ongoing development and evolution of the 96Boards specifications will be the responsibility of the Linaro Community Board Group (LCG) Steering Committee, which will be made up of key stakeholders and representation from 96Boards product vendors and from the community.
 
-We look forward to the community delivering add-on mezzanine boards and modules for the 96Boards products. A key benefit of the 96Boards initiative is that these add-on boards will be used on multiple 96Boards SoC products - for example a “maker” board with 3.3V I/O and Arduino® or mbed® compatibility, or an intelligent display module built for one Consumer Edition board will also work on another with a completely different SoC.**** ****
+We look forward to the community delivering add-on mezzanine boards and modules for the 96Boards products. A key benefit of the 96Boards initiative is that these add-on boards will be used on multiple 96Boards SoC products - for example a “maker” board with 3.3V I/O and Arduino® or mbed® compatibility, or an intelligent display module built for one Consumer Edition board will also work on another with a completely different SoC.
 
-We are also investigating additional Platform specifications for specific segments or markets which are looking to support a diversity of SoCs from multiple vendors, such as deeply embedded/IoT, digital home and automotive applications.**** ****
+We are also investigating additional Platform specifications for specific segments or markets which are looking to support a diversity of SoCs from multiple vendors, such as deeply embedded/IoT, digital home and automotive applications.
 
 We look forward to working with all interested parties as 96Boards evolves. If you are interested in early access to the Enterprise Edition specification to provide input and feedback, or have a use case for a different Platform specification please email us at [96Boards@linaro.org](mailto:96Boards@linaro.org)
 
-
-
-![george-grey](/wp-content/uploads/2014/02/george-grey.png)
+{% include image.html name="george-grey.png" alt="George Grey CEO, Linaro" %}
 
 George Grey
-
-**CEO, Linaro**[/vc_column_text][vc_raw_html]JTNDc3R5bGUlMjB0eXBlJTNEJTIydGV4dCUyRmNzcyUyMiUzRSUwQWgxLnBhZ2UtaW50cm9kdWNlLXRpdGxlJTIwJTdCJTBBJTIwJTIwZGlzcGxheSUzQSUyMG5vbmUlM0IlMEElN0QlMEElM0MlMkZzdHlsZSUzRQ==[/vc_raw_html][/vc_column][/vc_row]
+**CEO, Linaro**

@@ -21,7 +21,6 @@ tags:
 
 # Introduction
 
-
 Every kernel release has a two week merge window following the release of the previous kernel during which all new features are merged, followed by several weeks of stabilization period during which only bug fixes are applied.
 
 The merge window for the 3.19 kernel is coming to an end, which gives me as one of the arm-soc maintainers the chance to talk a bit more about the work that has been going into the release from our end. We have sent a total of eleven pull requests that were included in 3.19, each with a separate topic spreading across the various SoC families. Each pull request is one email sent to the linux-kernel and linux-arm-kernel mailing lists, and is associated with signed tag on [arm-soc.git](https://git.kernel.org/cgit/linux/kernel/git/arm/arm-soc.git/). While the descriptions are all publicly accessible through the mailing list archives or the git history, I hope to make it easier to find by reposting them here together with all the relevant links . I'm also including a list of related trees that have been merged already, in particular the arm and arm64 architecture trees.

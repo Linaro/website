@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-02-11 21:45:45+00:00
 layout: post
 link: https://www.linaro.org/blog/wednesday-highlights-linaro-connect-hong-kong-2015/
@@ -11,24 +10,15 @@ categories:
 - blog
 tags:
 - Connect Events
-
 ---
-
-[vc_row][vc_column width="1/2"][mk_padding_divider size="40"][mk_padding_divider size="20"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
-
 
 Wednesday began with two guest keynotes for attendees to go to.  The first was by Bob Monkman, Enterprise Segment Marketing Manager at ARM.  Bob's keynote topic was "The impact of ARM in the next generation cloud and communication network infrastructure".  He spoke about the new era of workload optimized servers and how one size does not fit all any longer.  The second keynote of the day was given by Greg Kroah-Hartman, Fellow at Linux Foundation.  Greg's keynote topic was "An introduction to the Greybus Project".  Greg gave a great overview of the status of this Google sponsored project he worked on with Linaro.
 
-
-[/vc_column_text][vc_row_inner][vc_column_inner width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
-
-
 After the morning keynotes the attendees kicked off another day of sessions and hacking.  To see all the presentations available from this week please visit the [Linaro slideshare. ](http://www.slideshare.net/linaroorg)  Also many of the videos from sessions on Monday and Tuesday are now available for viewing and can be watched on the [Linaro YouTube Channel.](https://www.youtube.com/user/LinaroOnAir/videos)
 
+**Bob Monkman and Greg Kroah-Hartman Keynotes from Linaro Connect Hong Kong 2015**
 
-[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]**Bob Monkman and Greg Kroah-Hartman Keynotes from Linaro Connect Hong Kong 2015**
-
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/4"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]**Phantom 2**[/vc_column_text][mk_image src="/assets/blog/phantom-2.jpg" image_width="800" image_height="506" crop="true" lightbox="false" frame_style="simple" target="_self" caption_location="inside-image" align="left" margin_bottom="10"][vc_row_inner][vc_column_inner width="1/1"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="3/4"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]Finally Wednesday was when the voting started for our photo contest for attendees to win a Phantom 2.
+Finally Wednesday was when the voting started for our photo contest for attendees to win a Phantom 2.
 
 **We asked attendees to take pictures around the following categories:**
 Photo that best reflects collaboration

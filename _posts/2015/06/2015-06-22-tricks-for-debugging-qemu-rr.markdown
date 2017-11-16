@@ -33,45 +33,15 @@ At this point I was pretty sure I was near to tracking down the cause of the bug
 
 Recording is simple: just rr record qemu-system-arm args.... Then rr replay will start replaying the last record, and by default will drop you into a gdb at the start of the recording. Let’s just let it run forward until the assertion:
 
-[![code section 1.7](/assets/blog/code-section-1.7.jpg)](/assets/blog/code-section-1.7.jpg)
-
-
-
-
-
-
-
-
+{% include image.html name="code-section-1.7.jpg" alt="code section 1.7" %}
 
 Looking back up the stack we find that we were definitely trying to flush a valid TLB entry:
 
-[![code section 2.7](/assets/blog/code-section-2.7.jpg)](/assets/blog/code-section-2.7.jpg)
-
-
-
-
-
-
-
-
+{% include image.html name="code-section-2.7.jpg" alt="code section 2.7" %}
 
 and checking env->tlb_flush_mask and env->tlb_flush_addr shows that QEMU thinks this address is outside the range covered by huge pages. Maybe we miscalculated them when we were adding the page? Let’s go back and find out what happened then:
 
-[![code section 3.7](/assets/blog/code-section-3.7.jpg)](/assets/blog/code-section-3.7.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{% include image.html name="code-section-3.7.jpg" alt="code section 3.7" %}
 
 (Notice that we hit the assertion again as we went backwards over it, so we just repeat the reverse-continue.) We stop exactly where we want to be to investigate the insertion of the TLB entry. In a normal debug session we could have tried restarting execution from the beginning with a conditional breakpoint, but there would be no guarantee that guest execution was deterministic enough for the guest address to be the same, or that the call we wanted to stop at was the only time we added a TLB entry for this address. Stepping forwards through the tlb code I notice we don’t think this is a huge page at all, and in fact you can see from the function parameters that the size is 1024, not the expected 4096. Where did this come from? Setting a breakpoint inarm_cpu_handle_mmu_fault and doing yet another reverse-continue brings us to the start of the code that’s doing the page table walk so we can step forwards through it. (You can use rn and rs to step backwards if you like but personally I find that a little confusing.). Now rr has led us to the scene of the crime it’s very obvious that the problem is in our handling of an XScale-specific page table descriptor, which we’re incorrectly claiming to indicate a 1K page rather than 4K.  [Fix that](http://lists.gnu.org/archive/html/qemu-devel/2015-05/msg05956.html), and the bug is vanquished.
 

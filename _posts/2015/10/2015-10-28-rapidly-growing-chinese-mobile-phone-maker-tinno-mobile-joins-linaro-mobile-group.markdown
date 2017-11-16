@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2015-10-28 13:05:39+00:00
 excerpt: Tinno Mobile joins Linaro Mobile Group
 layout: post
@@ -31,12 +30,12 @@ LMG was formed in July 2014 to consolidate and optimize open source software for
 
 “Tinno Mobile is proud of its technological leadership in areas such as dual-SIM mobile phones”, said Wang Bin, CTO of Tinno Mobile. “We’re very pleased to join Linaro to work with other leading mobile players on core platform software that will enable us to fully leverage and contribute to the long-term development of open source software.”
 
-**About Linaro
-**Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+**About Linaro**
+Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org).
 
-**About Tinno Mobile
-**Shenzhen Tinno Mobile Technology Company Ltd is one of the most famous mobile phone manufacturers in China. Established in 2002, the company’s headquarters are located in Shenzhen, with two factories in DongGuan specializing in designing and manufacturing mobile phones. Tinno Mobile has complete in-house capabilities including strong R&D, manufacturing and worldwide sales. The company is the manufacturer of the first double GSM double online mobile phone in the world, with its own dual SIM mobile phone core technology patent and extensive experience in this area.
+**About Tinno Mobile**
+Shenzhen Tinno Mobile Technology Company Ltd is one of the most famous mobile phone manufacturers in China. Established in 2002, the company’s headquarters are located in Shenzhen, with two factories in DongGuan specializing in designing and manufacturing mobile phones. Tinno Mobile has complete in-house capabilities including strong R&D, manufacturing and worldwide sales. The company is the manufacturer of the first double GSM double online mobile phone in the world, with its own dual SIM mobile phone core technology patent and extensive experience in this area.
 
 Every month, over a quarter of a million Tinno Mobile products (mainly dual GSM Sim mobile phone) are exported to overseas markets including Germany, France, Turkey, Ukraine, Brasil and some Asian countries like India, Thailand and the Philippines. The company’s export quantity has been rising sharply. It has not yet entered into most of the South American markets yet, so there are strong potential growth opportunities being developed. [www.tinno.com](http://www.tinno.com/)
