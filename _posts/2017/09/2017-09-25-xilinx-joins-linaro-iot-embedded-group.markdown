@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2017-09-25 15:58:01+00:00
 layout: post
 link: https://www.linaro.org/news/xilinx-joins-linaro-iot-embedded-group/

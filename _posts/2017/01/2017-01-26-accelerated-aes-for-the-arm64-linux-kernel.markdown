@@ -18,8 +18,7 @@ tags:
 - Linux
 - linux kernel
 ---
-
-![core-dump](/assets/blog/core-dump.png)
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://www.google.com" %}
 
 The ARMv8 architecture extends the AArch64 and AArch32 instruction sets with dedicated instructions for AES encryption, SHA-1 and SHA-256 cryptographic hashing, and 64×64 to 128 polynomial multiplication, and implementations of the various algorithms that use these instructions have been added to the ARM and arm64 ports of the Linux kernel over the past couple of years. Given that my main focus is on enterprise class systems, which typically use high end SoCs, I have never felt the urge to spend too much time on accelerated implementations for systems that lack these optional instructions (although I did contribute a plain NEON version of AES in ECB/CBC/CTR/XTS modes back in 2013). Until recently, that is, when I received a Raspberry Pi 3 from my esteemed colleague Joakim Bech, the tech lead of the Linaro Security Working Group. This system is built around a Broadcom SoC containing 4 Cortex-A53 cores that lack the ARMv8 Crypto Extensions, and as it turns out, its AES performance was dreadful.
 
@@ -29,7 +28,7 @@ The ARMv8 architecture extends the AArch64 and AArch32 instruction sets with ded
 
 The American Encryption Standard (AES) is a variant of the Rijndael cipher with a fixed block size of 16 bytes, and supports key sizes of 16, 24 and 32 bytes, referred to as AES-128, AES-192 and AES-256, respectively. It consists of a sequence of rounds (10, 12, or 14 for the respective key sizes) that operate on a state that can be expressed in matrix notation as follows:
 
-![](/assets/blog/blog-pic-1.jpg)
+{% include image.html name="blog-pic-1.jpg" alt="Blog Pic 1" %}
 
 where each element represents one byte, in column major order (i.e., the elements are assigned from the input in the order a0, a1, a2, a3, b0, b1, etc)
 
@@ -41,7 +40,8 @@ Each round consists of a sequence of operations performed on the state, called A
 
 AES defines a key schedule generation algorithm, which turns the input key into a key schedule consisting of 11, 13 or 15 _round keys_ (depending on key size), of 16 bytes each. The AddRoundKey operation simply xor’s the round key of the current round with the AES state, i.e.,
 
-![](/assets/blog/blog-pic-2.jpg)
+
+{% include image.html name="blog-pic-2.jpg" alt="Blog Pic 2" %}
 
 where _rkN_ refers to byte N of the round key of the current round.
 
@@ -51,7 +51,7 @@ where _rkN_ refers to byte N of the round key of the current round.
 
 The SubBytes operation is a byte wise substitution, using one of two S-boxes defined by AES, one for encryption and one for decryption. It simply maps each possible 8-bit value onto another 8-bit value, like below
 
-![](/assets/blog/blog-pic-3.jpg)
+{% include image.html name="blog-pic-3.jpg" alt="Blog Pic 3" %}
 
 
 ## ShiftRows
@@ -59,7 +59,7 @@ The SubBytes operation is a byte wise substitution, using one of two S-boxes def
 
 The ShiftRows operation is a transposition step, where all rows of the state except the first one are shifted left or right (for encryption or decryption, respectively), by 1, 2 or 3 positions (depending on the row). For encryption, it looks like this:
 
-![](/assets/blog/blog-pic-4.jpg)
+{% include image.html name="blog-pic-4.jpg" alt="Blog Pic 4" %}
 
 
 ## MixColumns
@@ -67,21 +67,22 @@ The ShiftRows operation is a transposition step, where all rows of the state exc
 
 The MixColumns operation is also essentially a transposition step, but in a somewhat more complicated manner. It involves the following matrix multiplication, which is carried out in GF(2^8) using the characteristic polynomial 0x11b. (An excellent treatment of Galois fields can be found [here.](https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture7.pdf))
 
-![](/assets/blog/blog-pic-5.jpg)
-
+{% include image.html name="blog-pic-5.jpg" alt="Blog Pic 5" %}
 
 ## Table based AES
 
 
 The MixColumns operation is computationally costly when executed sequentially, so it is typically implemented using lookup tables when coded in C. This turns the operation from a transposition into a substitution, which means it can be merged with the SubBytes operation. Even the ShiftRows operation can be folded in as well, resulting in the following transformation:
 
-![](/assets/blog/blog-pic-6.jpg)
+{% include image.html name="blog-pic-6.jpg" alt="Blog Pic 6" %}
+
 
 The generic AES implementation in the Linux kernel implements this by using 4 lookup tables of 256 32-bit words each, where each of those tables corresponds with a column in the matrix on the left, and each element N contains the product of that column with the vector { sub(N) }. (A separate set of 4 lookup tables based on the identity matrix is used in the last round, since it omits the MixColumns operation.)
 
 The combined SubBytes/ShiftRows/MixColumns encryption operation can now be summarized as
 
-![](/assets/blog/blog-pic-7.jpg)
+{% include image.html name="blog-pic-7.jpg" alt="Blog Pic 7" %}
+
 
 where tbIN refers to each of the lookup tables, (+) refers to exclusive-or, and the AES state columns are represented using 32-bit words.
 
@@ -105,7 +106,8 @@ The AArch64 version of the NEON instruction set has one huge advantage over othe
 
 This does imply that we will not be able to implement the MixColumns operation using table lookups, and instead, we will need to perform the matrix multiplication in GF(2^8) explicitly. Fortunately, this is not as complicated as it sounds: with some shifting, masking and xor’ing, and using a table lookup (using a permute vector in v14) to perform the 32-bit rotation, we can perform the entire matrix multiplication in 9 NEON instructions. The SubBytes operation takes another 8 instructions, since we need to split the 256 byte S-box lookup into 4 separate tbl/tbx instructions. This gives us the following sequence for a single inner round of encryption, where the input AES state is in register v0. (See below for a breakdown of the MixColumns transformation)
 
-![](/assets/blog/blog-pic-8.jpg)
+{% include image.html name="blog-pic-8.jpg" alt="Blog Pic 8" %}
+
 
 Looking at the _instruction_ count, one would expect the performance of this algorithm to be around 15 cycles per byte when interleaved 2x or 4x (i.e., the code above, but operating on 2 or 4 AES states in parallel, to eliminate data dependencies between adjacent instructions). However, on the Raspberry Pi 3, this code manages only 22.0 cycles per byte, which is still a huge improvement over the scalar code, but not as fast as we had hoped. This is due to the micro-architectural properties of the tbl/tbx instructions, which take 4 cycles to complete on the Cortex-A53 when using the 4 register variant. And indeed, if we base the estimation on the _cycle_ count, by taking 4 cycles for each such tbl/tbx instruction, and 1 cycle for all other instructions, we get the more realistic number of 21.25 cycles per byte.
 
@@ -129,10 +131,11 @@ The code can be found [here](http://git.kernel.org/cgit/linux/kernel/git/ardb/li
 
 For the Raspberry Pi 3 (as well as any other system using version r0p4 of the Cortex-A53), we can summarize the AES performance as follows:
 
-![](/assets/blog/blog-pic-9.jpg)
+{% include image.html name="blog-pic-9.jpg" alt="Blog Pic 9" %}
 
 
 ## Appendix: Breakdown of the MixColumns transform using NEON instructions
 
 
-![](/assets/blog/blog-pic-10.jpg)
+{% include image.html name="blog-pic-10.jpg" alt="Blog Pic 10" %}
+

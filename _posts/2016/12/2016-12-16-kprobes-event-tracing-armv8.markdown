@@ -18,7 +18,7 @@ tags:
 - Perf
 - Tracing
 ---
-{% include image.html name="core-dump.png" alt="Core Dump Banner" %}
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 
 ## Introduction

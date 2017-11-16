@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2017-03-06 07:57:57+00:00
 layout: post
 link: https://www.linaro.org/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
@@ -37,7 +36,7 @@ LEG was established in November 2012 as the first vertical segment group within 
 
 Guizhou Huaxintong Semiconductor Technologies Co., Ltd is a joint venture between the People’s Government of Guizhou Province and Qualcomm, registered at Gui’An New Area, Guizhou Province, with operations and R&D center in Beijing and Shanghai. HXT Semiconductor specializes in designing, developing, and selling sophisticated server chips that will fulfill the needs of enterprises in China. Its establishment will contribute to the growth of China’s IC industry and improve the design and development capacities of China’s chips industry. In this way it will help China to achieve the dream of strong chips. To learn more, please visit: [http://www.hxt-semitech.com/.](http://www.hxt-semitech.com/.)
 
-**A****bout Linaro**
+**About Linaro**
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company is headquartered in the UK with over 300 engineers working in 26 countries on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 

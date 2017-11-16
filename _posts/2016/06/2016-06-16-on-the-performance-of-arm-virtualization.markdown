@@ -26,7 +26,7 @@ tags:
 - Xen
 ---
 
-{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
 
 # Abstract

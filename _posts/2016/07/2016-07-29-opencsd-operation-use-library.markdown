@@ -24,7 +24,7 @@ tags:
 - Opensource
 ---
 
-{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
 
 This article will describe the programming and operation of the OpenCSD library in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology and terminology, these elements will be related to the configuration of the library in order to successfully decode a captured trace stream.
