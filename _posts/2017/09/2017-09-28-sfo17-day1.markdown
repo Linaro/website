@@ -48,7 +48,7 @@ In concluding, Grey talked about Linaro’s mission and a new Associates program
 Grey made these announcements and demonstrations during the opening keynote at the company’s twice-a-year engineering event, held this time at the Hyatt Regency San Francisco Airport in Burlingame, California. Running through Friday 29 September, the Linaro Connect event brings together close to 500 engineers from across the Arm ecosystem to discuss the latest technology developments and work on today’s most pressing challenges.
 
 
-{% include image.html name="sfo17-group-photo.jpg" alt="SFO17 Group Photo" url="https://www.flickr.com/photos/linaroorg/37057590300/in/album-72157687039294924/" %}
+{% include image.html name="sfo17-group-photo.jpg" alt="SFO17 Group Photo" url="https://www.flickr.com/photos/linaroorg/37057590300/" %}
 
 To find out more about Linaro Connect SFO17, please visit connect.linaro.org and you can see what is happening at the following links:Flickr
 
