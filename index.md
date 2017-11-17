@@ -1,7 +1,7 @@
 ---
 layout: linaro-home
 css-pack: home
-js-vendor: home
+js-package: home
 home: true
 nav-light: true
 ---

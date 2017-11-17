@@ -2,7 +2,7 @@
 title: Search
 permalink: /search/
 layout: default-no-sub-nav
-js-vendor: search
+js-package: search
 description: |-
     Search the Linaro Website.
 ---

@@ -15,7 +15,7 @@ title: Xilinx joins Linaro IoT and Embedded Group
 wordpress_id: 12806
 ---
 
-[Linaro Connect SFO17, 25 September 2017] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment Group.
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment Group.
 
 LITE members work collaboratively in Linaro on reducing fragmentation in operating systems, middleware and cloud connectivity solutions, and delivering open source device reference platforms to enable faster time to market, improved security and lower maintenance costs for connected products. With a key goal to complete essential, non-differentiating, shared work as reliably as possible, Linaro relies on open source platforms - including Zephyr for Arm Cortex-M devices and EdgeX for Cortex-A gateways - to develop, continuously integrate and test code.
 

@@ -4,7 +4,7 @@ description: |-
     A Landing Team is a team of software engineers composed of engineers from both Linaro and a Member company. Unlike the Working Groups, the Landing Team is directed by and delivers to a single Member company.
 layout: default-no-sub-nav
 permalink: /about/landing/
-js-vendor: extended
+js-package: extended
 css-pack: lightbox
 ---
 ## What is a Landing Team?

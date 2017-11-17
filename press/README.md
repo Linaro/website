@@ -4,7 +4,7 @@ description: |-
     Information for the press including links to logos and images
 layout: default-no-sub-nav
 permalink: /press/
-js-vendor: extended
+js-package: extended
 css-pack: lightbox
 ---
 
