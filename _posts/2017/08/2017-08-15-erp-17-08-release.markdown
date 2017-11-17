@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2017-08-15 10:03:50+00:00
 layout: post
 link: https://www.linaro.org/blog/erp-17-08-release/
@@ -20,96 +19,46 @@ The Linaro Enterprise Group has worked closely with Linaro’s Core Technology &
 Below is the complete list of 17.08 features:
 
 **Reference Platform Kernel**
-
-
-
- 	
   * 4.12 based, including under-review topic branches to extend hardware platform support
-
- 	
   * Unified tree, used by the Debian Reference Platform
-
- 	
   * ACPI and PCIe support
-
- 	
   * Single kernel config and binary (package) for all hardware platforms
-
 
 **UEFI**
 
-
-
- 	
   * Tianocore EDK II and OpenPlatformPkg containing reference implementations for Huawei D03/D05
 
 
 **17.08 with Debian based installer and userspace**
 
 
-
- 	
   * Network Installer based on Debian 8.9 “Jessie”
-
- 	
   * Unified Reference Platform (Common) Kernel based on 4.12
 
 
 **Enterprise Components**
 
 
-
- 	
   * Bigtop 1.2 (Hadoop 2.7.3, Spark 2.1.0, Hive 1.2.1,HBase 1.1.3)
-
- 	
   * Ceph 10.2.7
-
- 	
   * DPDK 17.05
-
- 	
   * Docker 1.12.6
-
- 	
   * ERP 17.08 OpenStack Newton
-
- 	
     * New Swift package released
 
-
-
-
- 	
   * ELK - ElasticSearch, LogStash and Kibana 5.4.1
-
- 	
   * Libvirt 3.4.0
-
- 	
   * OpenJDK 8
-
- 	
   * QEMU 2.9
 
 
 **Supported Hardware Platforms**
 
 
-
- 	
   * Cavium ThunderX
-
- 	
   * HiSilicon D03
-
- 	
   * HiSilicon D05
-
- 	
   * HPE Proliant m400
-
- 	
   * Qualcomm Centriq 2400
 
 

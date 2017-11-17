@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-03-31 20:07:53+00:00
 excerpt: Linaro's 16.03 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
@@ -26,24 +25,12 @@ tags:
 - release cycle
 ---
 
-<blockquote>
-
->
 > “But it does move!" _**~ Gaileo Galilei**_
->
-> </blockquote>
 
 
-
-
-
-
-Linaro 16.03  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.03 release.  To sign-up for the release mailing list go here:  [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
+Linaro 16.03 release is now available for download. See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.03 release. To sign-up for the release mailing list go here: [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
-
-
-
 
   * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
 
@@ -51,8 +38,6 @@ This post includes links to more information and instructions for using the imag
 **USING THE ANDROID-BASED IMAGES**
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
-
-
 
 
   * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
@@ -118,17 +103,9 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
     * #linaro-android irc.linaro.org or irc.freenode.net
 
 
-
-
-
 **KNOWN ISSUES WITH THIS RELEASE**
 
-
-
-
   * Bug reports for this release should be filed in Bugzilla ([http://bugs.linaro.org](http://bugs.linaro.org/)) against the individual packages or projects that are affected.
-
-
 
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT BANGKOK 2016**

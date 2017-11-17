@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-05-20 16:22:57+00:00
 excerpt: 'Learn more about what was discussed in the 96Boards OpenHours week 2 session
   covering 96Boards out of box experience guide - part 2.  '

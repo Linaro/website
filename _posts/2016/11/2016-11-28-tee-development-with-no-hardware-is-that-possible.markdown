@@ -1,6 +1,5 @@
 ---
 author: joakim.bech
-
 date: 2016-11-28 17:06:06+00:00
 excerpt: Read about System Trace Module (STM) which can not only collect trace data
   from software sources, but also monitor hardware events. Learn how to write traces
@@ -24,7 +23,7 @@ tags:
 - TEE
 ---
 
-![core-dump](/assets/blog/core-dump.png)
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 
 It is a well-known fact that it has been hard to get started with TEE development for a couple of reasons. For example, it has been hard to get access to the software because in the past TEE software has typically been proprietary and therefore kept within the company or under a non-disclosure agreement. On the hardware side it hasn’t been much better, and even today it is still hard to find hardware readily available for TEE development, at least if you intend to make a completely secure product. So wouldn’t it be great if we could emulate it all on a local desktop? The question is whether you actually need hardware for TEE development. As it turns out, QEMU, the machine emulator that can emulate a multitude of CPUs, officially received TrustZone support at the beginning of this year and QEMU currently supports TrustZone on both ARMv7-A and ARMv8-A architecture. But just the support in QEMU isn’t enough: you will still need the software for the TEE.

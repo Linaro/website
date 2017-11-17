@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2017-03-06 07:55:31+00:00
 layout: post
 link: https://www.linaro.org/news/acer-joins-linaro-iot-and-embedded-group/

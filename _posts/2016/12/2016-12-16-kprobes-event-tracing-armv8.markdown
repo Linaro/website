@@ -1,6 +1,5 @@
 ---
 author: david.long
-
 date: 2016-12-16 17:37:39+00:00
 layout: post
 link: https://www.linaro.org/blog/kprobes-event-tracing-armv8/
@@ -19,10 +18,7 @@ tags:
 - Perf
 - Tracing
 ---
-
-## ![core-dump](/assets/blog/core-dump.png)
-
-
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 
 ## Introduction
@@ -131,16 +127,19 @@ One common use case for kprobes is instrumenting function entry and/or exit. It 
 
 Instrumenting a USB ethernet driver reset function:
 
-_$ pwd
+```
+$ pwd
 /sys/kernel/debug/tracing
 $ cat > kprobe_events <<EOF
 p ax88772_reset %x0
 EOF
-$ echo 1 > events/kprobes/enable_
+$ echo 1 > events/kprobes/enable
+```
 
 At this point a trace event will be recorded every time the driver’s _ax8872_reset()_ function is called. The event will display the pointer to the _usbnet_ structure passed in via X0 (as per the ARMv8 calling standard) as this function’s only argument. After plugging in a USB dongle requiring this ethernet driver we see the following trace information:
 
-_$ cat trace
+```
+$ cat trace
 # tracer: nop
 #
 # entries-in-buffer/entries-written: 1/1   #P:8
@@ -153,7 +152,8 @@ _$ cat trace
 #        TASK-PID   CPU#  |||| TIMESTAMP  FUNCTION
 #           | |    |   ||||    |      |
 kworker/0:0-4             [000] d... 10972.102939:   p_ax88772_reset_0:
-(ax88772_reset+0x0/0x230)   arg1=0xffff800064824c80_
+(ax88772_reset+0x0/0x230)   arg1=0xffff800064824c80
+```
 
 Here we can see the value of the pointer argument passed in to our probed function. Since we did not use the optional labelling features of kprobes event tracing the information we requested is automatically labeled _arg1_.  Note that this refers to the first value in the list of values we requested that kprobes log for this probe, not the actual position of the argument to the function. In this case it also just happens to be the first argument to the function we’ve probed.
 
@@ -163,21 +163,23 @@ Here we can see the value of the pointer argument passed in to our probed functi
 
 The kretprobe feature is used specifically to probe a function return. At function entry the kprobes subsystem will be called and will set up a hook to be called at function return, where it will record the requested event information. For the most common case the return information, typically in the X0 register, is quite useful. The return value in %x0 can also be referred to as _$retval_. The following example also demonstrates how to provide a human-readable label to be displayed with the information of interest.
 
-Example of instrumenting the kernel __do_fork()_ function to record arguments and results using a kprobe and a kretprobe:
+Example of instrumenting the kernel _\_do_fork()_ function to record arguments and results using a kprobe and a kretprobe:
 
-
-_$ cd /sys/kernel/debug/tracing
+```
+$ cd /sys/kernel/debug/tracing
 $ cat > kprobe_events <<EOF
 p _do_fork %x0 %x1 %x2 %x3 %x4 %x5
 r _do_fork pid=%x0
 EOF
-$ echo 1 > events/kprobes/enable_
+$ echo 1 > events/kprobes/enable
+```
 
 
 At this point every call to _do_fork() will produce two kprobe events recorded into the "_trace_" file, one reporting the calling argument values and one reporting the return value. The return value shall be labeled "_pid_" in the trace file. Here are the contents of the trace file after three fork syscalls have been made:
 
 
-_$ cat trace
+```
+$ cat trace
 # tracer: nop
 #
 # entries-in-buffer/entries-written: 6/6   #P:8
@@ -194,8 +196,8 @@ _$ cat trace
               bash-1671  [001] d...   208.845749: p__do_fork_0: (_do_fork+0x0/0x3e4) arg1=0x1200011 arg2=0x0 arg3=0x0 arg4=0x0 arg5=0xffff78b690d0 arg6=0x0
               bash-1671  [001] d..1   208.846127: r__do_fork_0: (SyS_clone+0x18/0x20 <- _do_fork) pid=0x725
               bash-1671  [001] d...   214.401604: p__do_fork_0: (_do_fork+0x0/0x3e4) arg1=0x1200011 arg2=0x0 arg3=0x0 arg4=0x0 arg5=0xffff78b690d0 arg6=0x0
-              bash-1671  [001] d..1   214.401975: r__do_fork_0: (SyS_clone+0x18/0x20 <- _do_fork) pid=0x726_
-
+              bash-1671  [001] d..1   214.401975: r__do_fork_0: (SyS_clone+0x18/0x20 <- _do_fork) pid=0x726
+```
 
 ### Example: Dereferencing pointer arguments
 
@@ -204,11 +206,13 @@ For pointer values the kprobe event processing subsystem also allows dereferenci
 
 Instrumenting the _do_wait()_ function:
 
-_$ cat > kprobe_events <<EOF
+```
+$ cat > kprobe_events <<EOF
 p:wait_p do_wait wo_type=+0(%x0):u32 wo_flags=+4(%x0):u32
 r:wait_r do_wait $retval
 EOF
-$ echo 1 > events/kprobes/enable_
+$ echo 1 > events/kprobes/enable
+```
 
 Note that the argument labels used in the first probe are optional and can be used to more clearly identify the information recorded in the trace log. The signed offset and parentheses indicate that the register argument is a pointer to memory contents to be recorded in the trace log. The "_:u32_" indicates that the memory location contains an unsigned four-byte wide datum (an enum and an int in a locally defined structure in this case).
 
@@ -218,7 +222,8 @@ Also note the "_$retval_" argument could just be specified as "_%x0_".
 
 Here are the contents of the "_trace_" file after two fork syscalls have been made:
 
-_$ cat trace
+```
+$ cat trace
 # tracer: nop
 #
 # entries-in-buffer/entries-written: 4/4   #P:8
@@ -233,7 +238,8 @@ _$ cat trace
              bash-1702  [001] d...   175.342074: wait_p: (do_wait+0x0/0x260) wo_type=0x3 wo_flags=0xe
              bash-1702  [002] d..1   175.347236: wait_r: (SyS_wait4+0x74/0xe4 <- do_wait) arg1=0x757
              bash-1702  [002] d...   175.347337: wait_p: (do_wait+0x0/0x260) wo_type=0x3 wo_flags=0xf
-             bash-1702  [002] d..1   175.347349: wait_r: (SyS_wait4+0x74/0xe4 <- do_wait) arg1=0xfffffffffffffff6_
+             bash-1702  [002] d..1   175.347349: wait_r: (SyS_wait4+0x74/0xe4 <- do_wait) arg1=0xfffffffffffffff6
+```
 
 
 ### Example: Probing arbitrary instruction addresses
@@ -241,13 +247,16 @@ _$ cat trace
 
 In previous examples we have inserted probes for function entry and exit, however it is possible to probe an arbitrary instruction (with a few exceptions). If we are placing a probe inside a C function the first step is to look at the assembler version of the code to identify where we want to place the probe. One way to do this is to use gdb on the vmlinux file and display the instructions in the function where you wish to place the probe. An example of doing this for the _module_alloc_ function in arch/arm64/kernel/modules.c follows. In this case, because gdb seems to prefer using the weak symbol definition and it’s associated stub code for this function, we get the symbol value from System.map instead:
 
-_$ grep module_alloc System.map
+```bash
+$ grep module_alloc System.map
 ffff2000080951c4 T module_alloc
-ffff200008297770 T kasan_module_alloc_
+ffff200008297770 T kasan_module_alloc
+```
 
 In this example we’re using cross-development tools and we invoke gdb on our host system to examine the instructions comprising our function of interest:
 
-_$ ${CROSS_COMPILE}gdb vmlinux
+```c
+$ ${CROSS_COMPILE}gdb vmlinux
 (gdb) x/30i 0xffff2000080951c4
         0xffff2000080951c4 <module_alloc>:    sub    sp, sp, #0x30
         0xffff2000080951c8 <module_alloc+4>:    adrp    x3, 0xffff200008d70000
@@ -279,29 +288,37 @@ _$ ${CROSS_COMPILE}gdb vmlinux
         0xffff20000809522c <module_alloc+104>:    ldp    x29, x30, [sp],#32
         0xffff200008095230 <module_alloc+108>:    ret
         0xffff200008095234 <module_alloc+112>:    mov    sp, x29
-        0xffff200008095238 <module_alloc+116>:    mov    x19, #0x0               // #0_
+        0xffff200008095238 <module_alloc+116>:    mov    x19, #0x0               // #0
+```
 
 In this case we are going to display the result from the following source line in this function:
 
-_p = __vmalloc_node_range(size, MODULE_ALIGN, VMALLOC_START,
+```c
+p = __vmalloc_node_range(size, MODULE_ALIGN, VMALLOC_START,
 VMALLOC_END, GFP_KERNEL, PAGE_KERNEL_EXEC, 0,
-NUMA_NO_NODE, __builtin_return_address(0));_
+NUMA_NO_NODE, __builtin_return_address(0));
+```
 
 ...and also the return value from the function call in this line:
 
-_if (p && (kasan_module_alloc(p, size) < 0)) {_
+```c
+if (p && (kasan_module_alloc(p, size) < 0)) {
+```
 
 We can identify these in the assembler code from the call to the external functions. To display these values we will place probes at 0xffff20000809520c _and _0xffff20000809521c on our target system:
 
-_$ cat > kprobe_events <<EOF
+```
+$ cat > kprobe_events <<EOF
 p 0xffff20000809520c %x0
 p 0xffff20000809521c %x0
 EOF
-$ echo 1 > events/kprobes/enable_
+$ echo 1 > events/kprobes/enable
+``§
 
 Now after plugging an ethernet adapter dongle into the USB port we see the following written into the trace log:
 
-_$ cat trace
+```
+$ cat trace
 # tracer: nop
 #
 # entries-in-buffer/entries-written: 12/12   #P:8
@@ -325,12 +342,16 @@ _$ cat trace
       modprobe-2097  [002] d... 78.030761: p_0xffff20000809521c: (module_alloc+0x58/0x98) arg1=0x0
       modprobe-2097  [002] d... 78.031132: p_0xffff20000809520c: (module_alloc+0x48/0x98) arg1=0xffff200001270000
       modprobe-2097  [002] d... 78.031187: p_0xffff20000809521c: (module_alloc+0x58/0x98) arg1=0x0_
+```
 
 One more feature of the kprobes event system is recording of statistics information, which can be found in kprobe_profile.  After the above trace the contents of that file are:
 
-_$ cat kprobe_profile
+```
+$ cat kprobe_profile
  p_0xffff20000809520c                                    6            0
-p_0xffff20000809521c                                    6            0_
+p_0xffff20000809521c                                 6            0
+```
+
 
 This indicates that there have been a total of 8 hits each of the two breakpoints we set, which of course is consistent with the trace log data.  More kprobe_profile features are described in the kprobetrace documentation.
 

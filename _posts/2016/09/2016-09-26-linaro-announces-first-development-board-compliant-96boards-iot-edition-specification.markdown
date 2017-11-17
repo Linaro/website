@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-09-26 19:12:46+00:00
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
@@ -28,147 +27,182 @@ Designed by SeeedStudio and Linaro, the 96Boards Carbon is an IoT reference deve
 The [IoT Edition (IE) specification](https://www.96boards.org/ie-specification) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using ARM Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](http://www.96boards.org/forums/forum/specification/). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
 
-<table border="1" >
+<table border="1" class="table responsive-table">
 <tbody >
 <tr >
 
-<td >**COMPONENT**
+<td markdown="1">
+**COMPONENT**
 </td>
 
-<td >**DESCRIPTION**
-</td>
-</tr>
-<tr >
-
-<td >SoC
-</td>
-
-<td >STMicroelectronics STM32F401RE
+<td markdown="1">
+**DESCRIPTION**
 </td>
 </tr>
 <tr >
 
-<td >CPU
+<td markdown="1">
+SoC
 </td>
 
-<td >Cortex-M4
-</td>
-</tr>
-<tr >
-
-<td >Clock speed
-</td>
-
-<td >84MHz maximum
+<td markdown="1">
+STMicroelectronics STM32F401RE
 </td>
 </tr>
 <tr >
 
-<td >SRAM
+<td markdown="1">
+CPU
 </td>
 
-<td >96KB
-</td>
-</tr>
-<tr >
-
-<td >Storage
-</td>
-
-<td >512KB onboard Flash
+<td markdown="1">
+Cortex-M4
 </td>
 </tr>
 <tr >
 
-<td >Wireless
+<td markdown="1">
+Clock speed
 </td>
 
-<td >nRF51822 Bluetooth*
-</td>
-</tr>
-<tr >
-
-<td >USB
-</td>
-
-<td >2 x Micro USB
+<td markdown="1">
+84MHz maximum
 </td>
 </tr>
 <tr >
 
-<td >Expansion Interface
+<td markdown="1">
+SRAM
 </td>
 
-<td >30 pin low speed expansion connector: +3.3V, +5V, VCC, GND, UART, I2C, SPI, GPIO x4
-</td>
-</tr>
-<tr >
-
-<td >Digital Out Voltage
-</td>
-
-<td >3.3V
+<td markdown="1">
+96KB
 </td>
 </tr>
 <tr >
 
-<td >Analog In Voltage
+<td markdown="1">
+Storage
 </td>
 
-<td >0-3.3V
-</td>
-</tr>
-<tr >
-
-<td >Analog Pins
-</td>
-
-<td >6
+<td markdown="1">
+512KB onboard Flash
 </td>
 </tr>
 <tr >
 
-<td >LED
+<td markdown="1">
+Wireless
 </td>
 
-<td >1 x UART Tx, 1 x UART Rx, 1 x Power, 1 x Bluetooth, 2 x User LEDs
-</td>
-</tr>
-<tr >
-
-<td >Button
-</td>
-
-<td >RST (Reset the STM32F4), BOOT0 (Boot into bootloader for flashing)
+<td markdown="1">
+nRF51822 Bluetooth*
 </td>
 </tr>
 <tr >
 
-<td >Power Source
+<td markdown="1">
+USB
 </td>
 
-<td >micro-USB
-</td>
-</tr>
-<tr >
-
-<td >OS Support
-</td>
-
-<td >Zephyr
+<td markdown="1">
+2 x Micro USB
 </td>
 </tr>
 <tr >
 
-<td >Size
+<td markdown="1">
+Expansion Interface
 </td>
 
-<td >60x30mm
+<td markdown="1">
+30 pin low speed expansion connector: +3.3V, +5V, VCC, GND, UART, I2C, SPI, GPIO x4
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Digital Out Voltage
+</td>
+
+<td markdown="1">
+3.3V
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Analog In Voltage
+</td>
+
+<td markdown="1">
+0-3.3V
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Analog Pins
+</td>
+
+<td markdown="1">
+6
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+LED
+</td>
+
+<td markdown="1">
+1 x UART Tx, 1 x UART Rx, 1 x Power, 1 x Bluetooth, 2 x User LEDs
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Button
+</td>
+
+<td markdown="1">
+RST (Reset the STM32F4), BOOT0 (Boot into bootloader for flashing)
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Power Source
+</td>
+
+<td markdown="1">
+micro-USB
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+OS Support
+</td>
+
+<td markdown="1">
+Zephyr
+</td>
+</tr>
+<tr >
+
+<td markdown="1">
+Size
+</td>
+
+<td markdown="1">
+60x30mm
 </td>
 </tr>
 </tbody>
 </table>
-*Note: Flashing the nRF51 chip requires a SWD programmer such as an ST-Linkv2 or Segger JLink
+
+\*Note: Flashing the nRF51 chip requires a SWD programmer such as an ST-Linkv2 or Segger JLink
 
 For more information, visit [http://www.96boards.org/carbon/](http://www.96boards.org/carbon/)
 

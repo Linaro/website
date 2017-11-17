@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-11-29 16:51:38+00:00
 layout: post
 link: https://www.linaro.org/blog/bud17-registration-launched/
@@ -35,7 +34,7 @@ If you are a Keynote Speaker, Sponsor, Linaro Employee, Assignee or Member, plea
 ### **[Register here ](http://linaro.co/BUD17)**
 
 
-**Accommodation **
+**Accommodation**
 
 Linaro has negotiated a discounted room rate at the Corinthia Hotel - €125 for a single room and €145 for a double room (both rates include breakfast and WiFi). Rooms are available on a first come, first served basis so make sure to book accommodation as soon as possible. You can access the link to book accommodation [here](https://gc.synxis.com/rez.aspx?Hotel=28704&Chain=11693&template=RBE&arrive=3/4/2017&depart=3/8/2017&adult=1&child=0&group=1703H2RSOU_002&utm_source=MICE&utm_medium=MICE&utm_campaign=Mice-budapestGroup1703H2RSOU_002).
 

@@ -1,6 +1,5 @@
 ---
 author: mike.leach
-
 date: 2016-07-29 21:57:01+00:00
 excerpt: This article will describe the programming and operation of the OpenCSD library
   in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology
@@ -25,7 +24,9 @@ tags:
 - Opensource
 ---
 
-![core-dump](/assets/blog/core-dump.png)
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
+
+
 This article will describe the programming and operation of the OpenCSD library in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology and terminology, these elements will be related to the configuration of the library in order to successfully decode a captured trace stream.
 
 A brief exploration of the key programming APIs will be provided, along with a description of the test and example programs and the test data that drives these.
@@ -62,8 +63,7 @@ The trace sink will format the incoming trace data into a CoreSight frame format
 
   3. **Trace Infrastructure:**  The funnels, CTIs (not shown) and  replicators (not shown) which direct and multiplex sources to sinks, and can be used to control events which control the capture of trace.
 
-
-![Picture1](/assets/blog/Picture1.jpg)
+{% include image.html name="Picture1-core-dump.jpg" alt="Picture1"%}
 
 
 Figure 1:  Typical CoreSight System.
@@ -71,16 +71,13 @@ Figure 1:  Typical CoreSight System.
 
 The system software, or a program using the trace system, must program up the CoreSight components to generate trace as required. Each trace source is programmed with a CoreSight Trace ID, to allow the source to be identified when de-multiplexing the buffer and decoding the Trace.
 
-![image 1](/assets/blog/image-1.jpg)
+{% include image.html name="image-1-core-dump.jpg" alt="image 1"%}
 
 
 ## **The Decode Process.**
 
 
 The task of decoding the incoming trace stream is a three stage process.
-
-
-
 
   1. **De-multiplex** by Trace ID. The library provides a de-multiplexing component that will split the incoming frame formatted stream into individual Trace ID streams.
 
@@ -99,8 +96,9 @@ The task of decoding the incoming trace stream is a three stage process.
 
 This section discusses the basic concepts involved in configuring the library for trace decode. API specifics are presented in the next section.
 
-The library provides a decoder management component called a “**decode tree**”. This provides an API to create a connected set of decode components. **Figure 2** shows a configured decode tree inside a client application.![figure 2](/assets/blog/figure-2.jpg)
+The library provides a decoder management component called a “**decode tree**”. This provides an API to create a connected set of decode components. **Figure 2** shows a configured decode tree inside a client application.
 
+{% include image.html name="figure-2-core-dump.jpg" alt="figure 2"%}
 
 Figure 2: Configured Decode Tree.
 
@@ -126,8 +124,6 @@ The library is now ready for use and the client can begin pushing the trace data
 Trace sources allow a number of different configuration options. These vary depending on the protocol type and version but can generally be classified into two groups:-
 
 
-
-
   1. Options that control the type and format of the trace packets generated. These are options that determine if cycle accurate trace is generated, if timestamps packets are generated or if certain protocol optimisations are used, and of course the programmed Trace ID. These trace options, in the form of the programmed register values, are required by the decoder in order to correctly decode the trace.
 
 
@@ -145,7 +141,7 @@ The decoder API contains a structure for the required trace configuration regist
 
 This section covers specific API functions and data types. Further API documentation is available in the source code, formatted for extraction by the ‘doxygen’ tool to create a reference manual.
 
-![figure 3](/assets/blog/figure-3.jpg)
+{% include image.html name="figure-3-core-dump.jpg" alt="figure 3"%}
 
 
 Figure 3 introduces some of the components and interface types used when connecting components within the decode tree. These connections are created automatically as the API is used to create the decoder objects within the tree. The diagram shows the path of the data through the decoder to the client application.
@@ -169,22 +165,23 @@ _**IPktRawDataMon<P>**_: This interface is optionally provided by the client app
 
 Configuration using the C++ API begins with the creation of a decode tree.
 
-![](/assets/blog/redo-box-1.jpg)
+{% include image.html name="redo-box-1-core-dump.jpg" alt="Redo Box 1"%}
+
 
 The flag [_OCSD_TRC_SRC_FRAME_FORMATTED_] tells the creation function to automatically set up the de-multiplexor for the CoreSight trace formatted frame. The second parameter tells the de-multiplexor that there are no frame syncs in the incoming raw trace stream (frame syncs are used when trace is output via a TPIU). This is by far the most common trace format when analysing trace captured on target. The library has a  built-in  ARM instruction set opcode analyser which will be created and automatically attached to the decoders.
 
 Next the individual decoders are created. The creation of a decoder requires that the decoder configuration information is provided – this is in the form of the ocsd_xyz_cfg structures and classes. The client application must fill in the structure / class and pass this to the decoder creation API on the decoder tree.
 
-![box 3](/assets/blog/box-3.jpg)
+{% include image.html name="box-3-core-dump.jpg" alt="Box 3"%}
+
 
 Decoders are selected by name – those built-in to the library have defined names in the library headers  [e.g. _OCSD_BUILTIN_DCD_PTM_]. The API allows for the creation of a packet processor only (used for debugging trace hardware), or more usually a full packet processor / packet decoder pair [_OCSD_CREATE_FLG_FULL_DECODER_].
 
-![](/assets/blog/redo-box-2.jpg)
+
+{% include image.html name="redo-box-2-core-dump.jpg" alt="Redo Box 2"%}
+
 
 Having created all the required decoders, the next stage is to add the memory images to the memory access handler interface. Memory images can take a number of forms:
-
-
-
 
   * Simple memory dumps from the target system in form of contiguous binary files.
 
@@ -204,46 +201,50 @@ Single or multiple memory accessors can be used, which are handed by the memory 
 
 API calls for to create the memory accessors and add them to the memory accessor mapper are provided on the Decode Tree.
 
-![figure 4](/assets/blog/figure-4.jpg)
-
+{% include image.html name="figure-4-core-dump.jpg" alt="Figure 4"%}
 
 Figure 4:  Memory Access Handler
 
 
 Figure 4 shows a typical example – a trace session has been run tracing a program ‘my_prog’ which in turn loads ‘my_lib.so’. The client adds these as memory images using a file memory accessor object to the decode tree in order to correctly process the trace data. The example code below shows how this is achieved:
 
-![](/assets/blog/redo-box-3.jpg)A memory  accessor  mapper is created in the decode tree. This needs to occur only once per decode tree. The file images are then added by populating the _ocsd_file_mem_region_t _structure. An array of these structures is passed to the memory accessor creation function which adds the accessor to the mapper.
+{% include image.html name="redo-box-3-core-dump.jpg" alt="Redo Box 3" %}
+
+A memory  accessor  mapper is created in the decode tree. This needs to occur only once per decode tree. The file images are then added by populating the _ocsd_file_mem_region_t _structure. An array of these structures is passed to the memory accessor creation function which adds the accessor to the mapper.
 
 The _OCSD_MEM_SPACE_ANY_ parameter tags this memory image as existing for any memory space. The memory image can be tagged as existing in secure memory space,  the non-secure memory space, or as in this case both.  When decoding the trace, the decoder will use the memory space according to the trace data. The example is created with the ‘any’ tag – indicating it is valid for any memory space that the trace covers. The memory mapper will handle selecting the correct memory image according to address range and memory space when a memory request arrives from the decoder. The narrowest memory space will take priority over a more general one – overlapping memory ranges are only allowed if the memory spaces are different.
 
 Finally, the client must also provide the interface that will receive the generic  output packets from the decoders.
 
-![](/assets/blog/redo-box-4.jpg)The decode tree is now ready to process trace data.
+{% include image.html name="redo-box-4-core-dump.jpg" alt="Redo Box 4" %}
 
+The decode tree is now ready to process trace data.
 
-### **Configuration using the C API **
-
+### **Configuration using the C API**
 
 Configuration using the C API follows the same pattern as with the C++ API. Many of the C API functions serve as wrappers for the C++ API equivalents.
 
 Create a decode tree – will return a handle for the tree or 0 on failure.
 
-![box 7](/assets/blog/box-7.jpg)
+
+{% include image.html name="box-7-core-dump.jpg" alt="Box 7 " %}
+
 
 Create decoders, using the handle supplied in the create tree operation:-
 
-![](/assets/blog/redo-box-5.jpg)
+{% include image.html name="redo-box-5-core-dump.jpg" alt="Box 5 " %}
+
 
 It should be noted here that the creation function returns the Trace ID that the decoder is associated with. This is extracted from the configuration data and may be used in other C API calls for operations related to this specific decoder.
 
 Add the memory images for the trace decoding. One key difference here is that the mapper is created automatically on the first “add image” call on the decode tree.
 
-![](/assets/blog/redo-box-6.jpg)
+{% include image.html name="redo-box-6-core-dump.jpg" alt="Box 6" %}
+
 
 The output interface is provided by registering a call-back function.
 
-![](/assets/blog/redo-box-7.jpg)
-
+{% include image.html name="redo-box-7-core-dump.jpg" alt="Box 7" %}
 
 ## **The Trace Data Path and API**
 
@@ -252,7 +253,9 @@ The decode tree provides a single input interface for the raw trace data (**_ITr
 
 The input interface defines a series of data path operations that are used to control the processing of the trace data on the configured decoder. The interface function on _**ITrcDataIn**_ is:-
 
-_ocsd_datapath_resp_t TraceDataIn( const ocsd_datapath_op_t  op,_
+
+```
+ocsd_datapath_resp_t TraceDataIn( const ocsd_datapath_op_t op,
 
 
 _                                  const ocsd_trc_index_t  index,_
@@ -272,6 +275,8 @@ _                                  const uint8_
 
 _                                  uint32_t  *numBytesProcessed)_
 
+```
+
 
 The _ocsd_datapath_op_t op _parameter defines the operation for the current call. The data path  response type returned (_ocsd_datapath_resp_t_) will inform the next operation required.  A single byte of data input to the decoder can result in multiple output packets, so a response mechanism provides the ability for downstream processing to tell the input operation to WAIT.
 
@@ -279,6 +284,7 @@ The index parameter defines the byte index within the captured trace data being 
 
 The equivalent C API function contains the same set of parameters, plus a decode tree handle:
 
+```
 _ocsd_datapath_resp_t ocsd_dt_process_data(const dcd_tree_handle_t handle,_
 
 
@@ -303,15 +309,16 @@ _                                        
 
 
 _                                            uint32_t *numBytesProcessed)_
-
+```
 
 The data path operations are shown in the table below:-
 
-![data ops table 1](/assets/blog/data-ops-table-1.jpg)
+{% include image.html name="data-ops-table-1.jpg" alt="data ops table 1" %}
 
 The data path response types are shown below:-
 
-![data resp table 2](/assets/blog/data-resp-table-2.jpg)
+{% include image.html name="data-resp-table-2.jpg" alt="data resp table 2" %}
+
 
 If a fatal error occurs then the client may look at the last logged error to determine the cause (the decode tree API provides a getLastError function).  Depending on the nature of the error the decoder may be able to be re-used by sending the _OCSD_OP_RESET_ operation through the input interface.
 
@@ -319,7 +326,9 @@ The operation parameter is propagated through to the packet decoder stage, but n
 
 The interface function on the generic packet output (_**ITrcGenElemIn**_)  interface is:-
 
-_ocsd_datapath_resp_t TraceElemIn(const ocsd_trc_index_t   index_sop,_
+
+```
+ocsd_datapath_resp_t TraceElemIn(const ocsd_trc_index_t   index_sop,
 
 
 _                              const uint8_t           trc_chan_id,_
@@ -328,13 +337,13 @@ _                              const uint8_t    �
 
 
 _                                     const OcsdTraceElement & elem)_
-
+```
 
 The _index_sop_ parameter is the byte index within the captured trace buffer for the trace protocol packet that generated the output packet. As a single protocol packet can generate a number of output packets this may be the same for a number of packets.
 
 The _trc_chan_id_ is the Trace ID of the trace source that generated the packet, and elem is the output packet itself.
 
-This interface returns a data path response type, allowing the client analyser to cause the processing to WAIT, if for example it is buffering packets and needs to process the current batch before continuing,  or signal an error using a _FATAL code.
+This interface returns a data path response type, allowing the client analyser to cause the processing to WAIT, if for example it is buffering packets and needs to process the current batch before continuing,  or signal an error using a _FATAL code._
 
 The client is responsible for ensuring that the correct operations are used, including the WAIT / FLUSH requirements. The test programs give an example of correctly driving the decode tree.
 
@@ -351,23 +360,11 @@ The test programs are used for testing the library components and APIs, and are 
 The library source ships with some test data in the _**\snapshots**_ directory. This data is trace captured from target systems and saved in a “snapshot” format – an ARM DS-5 open standard1 format that provides sufficient information to decode the captured trace. The snapshot consists of a set of _**.ini**_ files and binary data that provide:
 
 
-
-
   * Configuration of the ETM/PTM registers.
-
-
   * Core architecture and type.
-
-
   * Binary files with captured trace data from the trace buffers in the system.
-
-
   * Binary files with memory image dumps from the trace run.
-
-
   * The connections between cores / ETMs & PTMs and trace buffers.
-
-
 
 
 ### **trc_pkt_lister****: The C++ library test program.**
@@ -393,7 +390,9 @@ The _–decode_ option forces a full decode, the –id option is a Trace ID filt
 
 This will produce an output file – defaulting to _trc_pkt_lister.ppl_, a small portion of the output is shown below, both the packet processor ETMv4 specific packets  (highlighted in blue), and the generic trace decoder output packets (highlight in red).
 
-_Idx:1643; ID:10; [0x00 0xf7 0x95 0xa2 0xa5 0xdb ]; I_NOT_SYNC : I Stream not synchronised
+
+```
+Idx:1643; ID:10; [0x00 0xf7 0x95 0xa2 0xa5 0xdb ]; I_NOT_SYNC : I Stream not synchronised
 Idx:1650; ID:10; [0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x80 ]; I_ASYNC : Alignment Synchronisation.
 Idx:1662; ID:10; [0x01 0x01 0x00 ]; I_TRACE_INFO : Trace Info.
 Idx:1666; ID:10; [0x9d 0x00 0x35 0x09 0x00 0xc0 0xff 0xff 0xff ]; I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000096A00;
@@ -409,7 +408,9 @@ _Idx:1692; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000096a00:[0
 _Idx:1693; ID:10; [0x9d 0x30 0x25 0x59 0x00 0xc0 0xff 0xff 0xff ]; I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000594AC0;
 Idx:1703; ID:10; [0xf7 ]; I_ATOM_F1 : Atom format 1.; E_
 
-_Idx:1703; ID:10; OCSD_GEN_TRC_ELEM_ADDR_NACC( 0xffffffc000594ac0 )_
+_Idx:1703; ID:10; OCSD_GEN_TRC_ELEM_ADDR_NACC( 0xffffffc000594ac0 )
+
+```
 
 This part of the output shows the point where the decoder finds a synchronisation point in the trace stream. We can see the ETMv4 ASYNC, TRACE_INFO, address and context packets which set the core state and start address for the trace session.  This will cause the output of the OCSD_GEN_TRACE_ELEM_ON() and OCSD_GEN_TRC_ELEM_PE_CONTEXT() packets.
 
@@ -417,16 +418,19 @@ The next packet (ATOM_F1) indicates a waypoint in the waypoint trace (_for infor
 
 This next output portion shows that a single byte packet can result in multiple generic output packets and many lines of instruction execution decoded:
 
-_Idx:1737; ID:10; [0xfd ]; I_ATOM_F3 : Atom format 3.; ENE_
+```
+Idx:1737; ID:10; [0xfd ]; I_ATOM_F3 : Atom format 3.; ENE
 
-_Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083280:[0xffffffc000083284] (ISA=A64) E BR  )
+Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083280:[0xffffffc000083284] (ISA=A64) E BR  )
 Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083d40:[0xffffffc000083d9c] (ISA=A64) N BR  )
-Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083d9c:[0xffffffc000083dac] (ISA=A64) E iBR b+link )_
+Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083d9c:[0xffffffc000083dac] (ISA=A64) E iBR b+link )
+
+```
 
 The single ATOM packet represents 3 waypoint instructions. This results in 3 traced ranges;  with 1, 23 and 4 instructions executed.
 
 
-### **c_api_pkt_print_test****: The C API test program**
+### **c_api_pkt_print_test** **: The C API test program**
 
 
 This test program checks the correct function and implementation of the C API wrapper library and interfaces.
@@ -454,15 +458,6 @@ Information on the CoreSight components and trace protocols mentioned here is av
 This article has covered configuring the existing trace decoders built into the library for the currently supported set of ARM trace protocols. A future article in this series on OpenCSD will cover adding additional decoders into the library to cope with new or custom trace protocols or for other specialised decode. These custom decoders can either be compiled in as part of the C++ library, using the existing base infrastructure, or as an external binary implementation using an external registration API in the C API interface.
 
 
-
-
-
 * * *
-
-
-
-
-
-
 
   1.  To be published soon

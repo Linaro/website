@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2017-03-06 12:00:37+00:00
 excerpt: Linaro Ltd, the open source collaborative engineering organization developing
   software for the ARM® ecosystem, today announced that Google Inc. has joined Linaro
@@ -25,7 +24,7 @@ Budapest, Hungary; 6 March 2017
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the ARM® ecosystem, today announced that Google Inc. has joined Linaro as a Club member.
 
-https://youtu.be/BUikAFy21ZI?list=PLKZSArYQptsN6EIfYlON9fQzBIYYIAVLH&t;=89
+{% include media.html media_url="https://www.youtube.com/watch?v=BUikAFy21ZI" %}
 
 Google’s membership of Linaro demonstrates its strong support for open source collaboration, which it plans to leverage working together with Linaro and its member companies. Google develops Android to run on multiple architectures and the Linaro engagement is in particular aimed at collaboration with ARM based system-on-chip (SoC) partners. Android Open Source Project (AOSP) has been a key part of Linaro’s work since its founding in 2010, and Linaro’s AOSP contributions have now spanned 24 kernel versions from Linux kernel 2.6.36 in Android Honeycomb (3.0) to Linux 4.10 today.
 

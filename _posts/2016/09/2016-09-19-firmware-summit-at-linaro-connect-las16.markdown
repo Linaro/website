@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-09-19 03:21:27+00:00
 layout: post
 link: https://www.linaro.org/blog/firmware-summit-at-linaro-connect-las16/
@@ -35,7 +34,7 @@ Below is an overview of the sessions that will be part of the summit:
 **Speaker**: Al Stone, Hanjun Guo
 
 
-**Title: SCMI - System Management and Control Interfac**e
+**Title: SCMI - System Management and Control Interface**
 **Abstract:** In this session we present a new standard proposal for system control and management. The industry, both in high end mobile and enterprise, is trending towards the use of power and system controllers. In most cases the controllers have very similar communication mechanisms between application processors and controllers. In addition, these controllers generally provide very similar functions, e.g. DVFS, power domain management, sensor management. This standard proposal provides an extensible, OS agnostic, and virtualizable interface to access these functions.
 **Speaker(s):**Charles Garcia-Tobin
 

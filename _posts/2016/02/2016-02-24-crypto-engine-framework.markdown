@@ -16,7 +16,7 @@ tags:
 - Linux on ARM
 ---
 
-{% include image.html name="core-dump.png" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
 
 
 **Introduction** Recently I got some patches introducing the crypto engine framework merged into the crypto layer for v4.6, which are applied in Herbert Xu’s git:  [http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git](http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git)
@@ -35,19 +35,19 @@ However, the old method needed each hardware engine driver to implement and main
 @@ -152,13 +153,10 @@ struct omap_aes_dev {
 unsigned long           flags;
 int                     err;
-       spinlock_t              lock;
-       struct crypto_queue     queue;
-
+-       spinlock_t              lock;
+-       struct crypto_queue     queue;
+-
 struct tasklet_struct   done_task;
-       struct tasklet_struct   queue_task;
+-       struct tasklet_struct   queue_task;
 struct ablkcipher_request       \*req;
-       struct crypto_engine            \*engine;
++       struct crypto_engine            \*engine;
 @@ -1177,9 +1160,6 @@ static int omap_aes_probe(struct platform_device \*pdev)
-       spin_lock_init(&dd->lock);
-       crypto_init_queue(&dd->queue, OMAP_AES_QUEUE_LENGTH);
+-       spin_lock_init(&dd->lock);
+-       crypto_init_queue(&dd->queue, OMAP_AES_QUEUE_LENGTH);
 @@ -1211,7 +1191,6 @@ static int omap_aes_probe(struct platform_device \*pdev)
 tasklet_init(&dd->done_task, omap_aes_done_task, (unsigned long)dd);
-       tasklet_init(&dd->queue_task, omap_aes_queue_task, (unsigned long)dd);
+-       tasklet_init(&dd->queue_task, omap_aes_queue_task, (unsigned long)dd);
 ```
 
 **(2) Add some code to initialize the crypto engine.**
@@ -61,7 +61,7 @@ Drivers can also set ‘prepare_request’ member if they need do some preparati
 
 Drivers must also provide a function to handle each request by setting ‘crypt_one_request’.
 
-`
+```
 @@ -1252,7 +1231,20 @@ static int omap_aes_probe(struct platform_device *pdev)
 +       /* Initialize crypto engine */
 +       dd->engine = crypto_engine_alloc_init(dev, 1);
@@ -79,11 +79,11 @@ return 0;
 +       crypto_engine_exit(dd->engine);
 @@ -1288,8 +1279,8 @@ static int omap_aes_remove(struct platform_device *pdev)
 +       crypto_engine_exit(dd->engine);
-`
+```
 
 **(3) Implement callbacks to prepare requests and encrypt one request.**
 
-`
+```
 +static int omap_aes_prepare_req(struct crypto_engine *engine,
 +                               struct ablkcipher_request *req)
 +{
@@ -110,12 +110,12 @@ dd->req = req;
 +
 +       return omap_aes_crypt_dma_start(dd);
 }
-`
+```
 
 **(4) Modify the handle queue method replacing with crypto_transfer_request_to_engine() function.**
 You can issue crypto_transfer_request_to_engine() function to add a request into the engine queue and wait for pushing the request by engine.
 
-`
+```
 static int omap_aes_handle_queue(struct omap_aes_dev *dd,
 struct ablkcipher_request *req)
 {
@@ -142,31 +142,31 @@ if (req)
 -               return ret;
 +       return 0;
 +}
-`
+```
 
 **(5) Modify the method to finalize one request replacing with crypto_finalize_request() function.**
 When one request is finished encrypting or decrypting, you can finalize the request by crypto_finalize_request() function.
 
-`
+```
 @@ -532,9 +530,7 @@ static void omap_aes_finish_req(struct omap_aes_dev *dd, int err)
 -       req->base.complete(&req->base, err);
 +       crypto_finalize_request(dd->engine, req, err);
 }
-`
+```
 
 Once all above modifications are completed, the crypto engine framework can work well on your driver.
 
 **In the future**
 
-**Current problem
-**Users will use dm-crypt, which is a transparent disk encryption, to encrypt and decrypt block device. Refer to the link to see what is dm-crypt ([https://en.wikipedia.org/wiki/Dm-crypt](https://en.wikipedia.org/wiki/Dm-crypt)).
+**Current problem**
+Users will use dm-crypt, which is a transparent disk encryption, to encrypt and decrypt block device. Refer to the link to see what is dm-crypt ([https://en.wikipedia.org/wiki/Dm-crypt](https://en.wikipedia.org/wiki/Dm-crypt)).
 
 Now dm-crypt will send encryption or decryption requests to the crypto layer one block at a time, making each request 512 bytes long, which is a much smaller size for hardware engine, which means the hardware engine cannot deliver its best performance.
 
-**Introduce bulk mode
-**Some cipher hardware engines prefer to handle bulk block rather than one sector (512 bytes) created by dm-crypt, cause these cipher engines can handle the intermediate values (IV) by themselves in one bulk block. This means we can increase the size of the request rather than always 512 bytes and thus increase the hardware engine processing speed, which is the bulk mode for crypto engine framework what we want to introduce in the future.
+**Introduce bulk mode**
+Some cipher hardware engines prefer to handle bulk block rather than one sector (512 bytes) created by dm-crypt, cause these cipher engines can handle the intermediate values (IV) by themselves in one bulk block. This means we can increase the size of the request rather than always 512 bytes and thus increase the hardware engine processing speed, which is the bulk mode for crypto engine framework what we want to introduce in the future.
 
 There are more works that need to be investigated in the future, especially in below 3 problems:
-(1) Finding the best method to check the requests are compatible for merging requests.
-(2) Thinking of the request numbers on how much we were able to combine together for bulk mode.
-(3) How much benefit we can get from bulk mode.
+1. Finding the best method to check the requests are compatible for merging requests.
+2. Thinking of the request numbers on how much we were able to combine together for bulk mode.
+3. How much benefit we can get from bulk mode.

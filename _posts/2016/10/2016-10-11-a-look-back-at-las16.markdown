@@ -1,6 +1,5 @@
 ---
 author: linaro
-
 date: 2016-10-11 20:34:00+00:00
 excerpt: A review of all the activities and session materials from the Linaro Connect
   Las Vegas that took place in September 2016
@@ -22,170 +21,95 @@ tags:
 - Opensource
 ---
 
-[vc_row][vc_column][vc_column_text]
 
+The Linaro Connect Las Vegas 2016 (LAS16) was one of the largest Connect events to date. Linaro Connect Las Vegas 2016 (LAS16) was a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on ARM community and LAS16 was no exception. The week was full of great keynotes each morning covering many different topics in the community. There was an announcement of a new segment group at Linaro, the [Linaro IoT and Embedded Group (LITE)](http://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/).  The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Standards are essential to the success of IoT and the LITE group will bring together ARM ecosystem support for key standards and engineering work to support reliable implementations.
 
-The Linaro Connect Las Vegas 2016 (LAS16) was one of the largest Connect events to date.  Linaro Connect Las Vegas 2016 (LAS16) was a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on ARM community and LAS16 was no exception.  The week was full of great keynotes each morning covering many different topics in the community.  There was an announcement of a new segment group at Linaro, the [Linaro IoT and Embedded Group (LITE)](http://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/).  The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities.  Standards are essential to the success of IoT and the LITE group will bring together ARM ecosystem support for key standards and engineering work to support reliable implementations.
+The week of sessions included many different tracks that attendees could attend, with each day focused on a particular segment within Linaro. Along with all the sessions and hacking there was also the traditional demo Friday that was held to showcase all the hard work that was done by the various teams over the last several months. Attendees were able to enjoy lunch while wandering the exhibit hall full of demos by both Linaro and it's member companies.
 
+{% include media.html media_url="https://www.youtube.com/watch?v=fuAebQvFnRI" %}
 
-[/vc_column_text][vc_row_inner][vc_column_inner width="1/2"][vc_column_text]
-
-
-The week of sessions included many different tracks that attendees could attend, with each day focused on a particular segment within Linaro.  Along with all the sessions and hacking there was also the traditional demo Friday that was held to showcase all the hard work that was done by the various teams over the last several months.  Attendees were able to enjoy lunch while wandering the exhibit hall full of demos by both Linaro and it's member companies.
-
-
-[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][mk_image_slideshow images="11754,11755,11757,11759,11760,11762,11763"][vc_column_text]
-
-
-Images from Demo Friday
-
-
-[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column width="1/2"][vc_video link="https://www.youtube.com/watch?v=fuAebQvFnRI"][/vc_column][vc_column width="1/2"][vc_column_text]
-
-
-The last day of Linaro Connect gave attendees an opportunity to listen to two Linux pioneers, David Rusling (Linaro) and Linus Torvalds (Linux Foundation) chat about the past, present and future of Linux and the Open Source community.  They also answered questions that were submitted by the attendees earlier in the week.
-
-
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_row_inner][vc_column_inner][vc_column_text]
-
+The last day of Linaro Connect gave attendees an opportunity to listen to two Linux pioneers, David Rusling (Linaro) and Linus Torvalds (Linux Foundation) chat about the past, present and future of Linux and the Open Source community. They also answered questions that were submitted by the attendees earlier in the week.
 
 ## **Keynotes During the Week**
 
-
-
-
-
 * * *
-
-
 
 **Monday:**
 
 On Monday the [Welcome Keynote](http://connect.linaro.org/resource/las16/las16-100k1/) was given by Linaro’s CEO, George Grey, who welcomed attendees to the event and gave an overview of the many projects that Linaro is working on with its member companies.  George then went on to demo several of these projects.
 
-Morgan Quigley, Chief Architect of the Open Source Robotics Foundation, then gave a second keynote on “The Robot Operating System: An Open Source Framework for Modern Robotics”.  Morgan discussed the many challenges in trying to create robust, general-purpose robot software.  [Watch keynote and view the presentation](http://connect.linaro.org/resource/las16/las16-100k1/)
-
-
+Morgan Quigley, Chief Architect of the Open Source Robotics Foundation, then gave a second keynote on “The Robot Operating System: An Open Source Framework for Modern Robotics”.  Morgan discussed the many challenges in trying to create robust, general-purpose robot software. [Watch keynote and view the presentation](http://connect.linaro.org/resource/las16/las16-100k1/)
 
 * * *
-
-
 
 **Tuesday:**
 
-Sarah Sharp, who is the founder of Otter Tech gave the Tuesday keynote titled: “Corporate Open Source Fail” in which she discussed how many company’s good intentions of being productive open source citizens go bad.  She explained ways that engineers and managers can work with their teams to influence strategies.  [Watch the keynote](http://connect.linaro.org/resource/las16/las16-100k2/)
-
-
+Sarah Sharp, who is the founder of Otter Tech gave the Tuesday keynote titled: “Corporate Open Source Fail” in which she discussed how many company’s good intentions of being productive open source citizens go bad. She explained ways that engineers and managers can work with their teams to influence strategies. [Watch the keynote](http://connect.linaro.org/resource/las16/las16-100k2/)
 
 * * *
-
-
 
 **Wednesday:**
 
-Geoff Thorpe who heads up security within the Microcontroller group of NXP, gave the Wednesday morning keynote which was an overview of  Zephyr and talked about the what, where, why as well as gave an update on the status of Zephyr.  Geoff also discussed IoT security including the terminology, disruptions, observations and how Zephyr fits into this.  [Watch the keynote and see the slides](http://connect.linaro.org/resource/las16/las16-300k2/)
-
-
+Geoff Thorpe who heads up security within the Microcontroller group of NXP, gave the Wednesday morning keynote which was an overview of  Zephyr and talked about the what, where, why as well as gave an update on the status of Zephyr. Geoff also discussed IoT security including the terminology, disruptions, observations and how Zephyr fits into this. [Watch the keynote and see the slides](http://connect.linaro.org/resource/las16/las16-300k2/)
 
 * * *
-
-
 
 **Thursday:**
 
-Brian Richardson, who is an an Intel technical evangelist and is a blogger for the Intel Software Evangelists project, a former writer for linux.com, and executive producer for DragonConTV was on hand to give the Thursday keynote.  Brian gave a keynote on “TianoCore – Open Source UEFI Community Update".  [Watch the keynote and view the presentation](http://connect.linaro.org/resource/las16/las16-400k2/)
+Brian Richardson, who is an an Intel technical evangelist and is a blogger for the Intel Software Evangelists project, a former writer for linux.com, and executive producer for DragonConTV was on hand to give the Thursday keynote. Brian gave a keynote on “TianoCore – Open Source UEFI Community Update". [Watch the keynote and view the presentation](http://connect.linaro.org/resource/las16/las16-400k2/)
 
 
 
 * * *
-
-
 
 **Friday:**
 
-Jono Bacon, Previously Director of Community at Canonical, GitHub, XPRIZE, and OpenAdvantage. Advisor to organizations includingAlienVault, Open Networking Foundation, Open Cloud Consortium, Mycroft, and others and is now Founder of Jono Bacon Consulting, kicked off our final day by giving a keynote on how community has evolved over the years, the structure of building powerful technical and open source communities, building workflow and on-ramps, building growth, and the balance between company and community relations.   [Watch the Keynote](http://connect.linaro.org/resource/las16/las16-500k2/)
+Jono Bacon, Previously Director of Community at Canonical, GitHub, XPRIZE, and OpenAdvantage. Advisor to organizations includingAlienVault, Open Networking Foundation, Open Cloud Consortium, Mycroft, and others and is now Founder of Jono Bacon Consulting, kicked off our final day by giving a keynote on how community has evolved over the years, the structure of building powerful technical and open source communities, building workflow and on-ramps, building growth, and the balance between company and community relations.  [Watch the Keynote](http://connect.linaro.org/resource/las16/las16-500k2/)
 
 
 
 * * *
 
 
-
-[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_row_inner][vc_column_inner width="2/3"][vc_column_text]
-
-
-## **Mini Conferences: **
+## **Mini Conferences:**
 
 
-[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3"][vc_single_image image="11684" img_size="medium"][/vc_column_inner][/vc_row_inner][vc_column_text]During LAS16 we also had three mini conferences that took place.  Below is an overview of each conference and the resources available from each one:
-
-[/vc_column_text][vc_row_inner][vc_column_inner width="1/3"][vc_column_text]
+During LAS16 we also had three mini conferences that took place. Below is an overview of each conference and the resources available from each one:
 
 
-** Firmware Summit**
-
-
-
-
-
+**Firmware Summit**
 
 * * *
 
+Presentations and Videos: [http://connect.linaro.org/resource/las16/las16-200/](http://connect.linaro.org/resource/las16/las16-200/)
 
-
-
-Presentations and Videos:  [http://connect.linaro.org/resource/las16/las16-200/](http://connect.linaro.org/resource/las16/las16-200/)
-
-
-
-
-**Title:  ARM64 ASWG and Linux ACPI update**
+**Title: ARM64 ASWG and Linux ACPI update**
 Speaker: Al Stone, Hanjun Guo
-
-
 
 
 **Title: SCMI – System Management and Control Interface**
 Speaker(s):Charles Garcia-Tobin
 
 
-
-
 **Title: Tianocore Progress and Status**
 Speaker: Leif Lindholm
 
-
-
-
 **Title: Secure Boot**
 Speaker: Ard Biesheuvel
-
-
-
 
 **Title: RAS What is it? Why do we need it?**
 Speaker: Yazen Ghannam, Fu Wei
 
 
-[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3"][vc_column_text]
-
-
-** Cortex-M Software**
-
-
-
-
-
+**Cortex-M Software**
 
 * * *
 
-
-
-**Title:  Cortex-M Software - Device**
+**Title: Cortex-M Software - Device**
 Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-300/
 ](http://connect.linaro.org/resource/las16/las16-300/)Speakers: Andy Gross[
 ](http://connect.linaro.org/resource/las16/las16-300/)
-**Title:  Cortex-M Software - Build Systems**
+**Title: Cortex-M Software - Build Systems**
 Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-304/](http://connect.linaro.org/resource/las16/las16-304/)
 
 **Title: Cortex-M Software - Security Architecture for Cortex-M**
@@ -194,26 +118,13 @@ Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-308/
 ](http://connect.linaro.org/resource/las16/las16-308/)[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3"][vc_column_text]
 
 
-** AOSP**
-
-
-
-
-
+**AOSP**
 
 * * *
 
-
-
-
-**Title:  AOSP (Session 1)**
-
-
-
+**Title: AOSP (Session 1)**
 
 Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-400/](http://connect.linaro.org/resource/las16/las16-400/)
-
-
 
 
 Topics covered included:
@@ -231,52 +142,28 @@ Topics covered included:
 Speakers: Thomas Gall, Bernhard Rosenkränzer
 
 
-[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_separator color="black" border_width="3"][/vc_column][/vc_row][vc_row][vc_column][vc_row_inner][vc_column_inner][vc_column_text]
+## **Segment Team Sessions**
 
 
-## **Segment Team Sessions **
+Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect LAS16. To see all the sessions held during the week and get access to all presentations and videos please visit the [Linaro Connect LAS16 Resources.](http://connect.linaro.org/las16/resources/)
 
 
-[/vc_column_text][vc_column_text]Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect LAS16.  To see all the sessions held during the week and get access to all presentations and videos please visit the [Linaro Connect LAS16 Resources.](http://connect.linaro.org/las16/resources/)[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]
-
-
-**96Boards **
-
-
-
-
+**96Boards**
 
 
 * * *
-
-
-
-
-
-
 
   * **LAS16-109: LAS16-109: The status quo and the future of 96Boards**
 
 
     * Community development, Compliance (for members and partners), Reference platform software, product development platform.
-
-
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-109/](http://connect.linaro.org/resource/las16/las16-109/)
-
-
-
-
 
   * **LAS16-412 96Boards Openhours**
 
 
     * 96Boards will be hosting Openhours live from Linaro Connect! Join us in person or remotely to talk about all things 96Boards related.
-
-
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-412/](http://connect.linaro.org/resource/las16/las16-412/)
-
-
-
 
 
   * **LAS16-502: 96Boards Community Panel**
@@ -286,9 +173,6 @@ Speakers: Thomas Gall, Bernhard Rosenkränzer
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-502/](http://connect.linaro.org/resource/las16/las16-502/)
-
-
-
 
 
   * **LAS16-506: The future of 96Boards documentation**
@@ -301,24 +185,10 @@ Speakers: Thomas Gall, Bernhard Rosenkränzer
 
 
 
-
-
-[/vc_column_text][vc_column_text]
-
-
-**LEG **
-
-
-
-
+**LEG**
 
 
 * * *
-
-
-
-
-
 
 
   * **LAS16-301: OpenStack on Aarch64, running in production, upstream improvements, and interoperability**
@@ -329,10 +199,6 @@ Speakers: Thomas Gall, Bernhard Rosenkränzer
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-301/](http://connect.linaro.org/resource/las16/las16-301/)
 
-
-
-
-
   * **LAS16-305: Smart City Big Data Visualization on 96Boards**
 
 
@@ -341,12 +207,7 @@ Speakers: Thomas Gall, Bernhard Rosenkränzer
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-305/](http://connect.linaro.org/resource/las16/las16-305/)
 
-
-
-
-
   * **LAS16-309: Server Ecosystem: Xen on ARM, from Big Iron to IoT & LuaJIT status on Aarch64**
-
 
     * Abstract Xen on ARM: The Xen port is exploiting this set of new hardware capabilities to run guest VMs in the most efficient way possible while keeping ARM specific changes to Xen and Linux to a minimum. ARM virtualization is set to be increasingly relevant for the embedded industry in the coming years.Whilst Xen is best known as the technology powering the biggest clouds in the industry, it also a great fit for automotive deployments and mobile devices that can fit in your pocket. The talk will give concrete examples of the ways Xen can add value to your platforms, not only by providing an excellent general purpose virtualization solution, but also by providing simple, yet effective ways to partition the platform into different security domains.
 This presentation will include a brief overview of the Xen on ARM architecture, covering the key design principles employed. The techniques pioneered during the ARM port that allowed the Xen community to remove many legacy components from the Xen code base, streamlining both the ARM and x86 implementations. The talk will conclude explaining how to port Xen to any new ARM boards with the least amount of effort.
@@ -372,23 +233,10 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
 
-
-[/vc_column_text][vc_column_text]
-
-
-**LHG **
-
-
-
-
+**LHG**
 
 
 * * *
-
-
-
-
-
 
 
   * **LAS16-302: LHG Reference Security Solutions**
@@ -400,9 +248,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-302/](http://connect.linaro.org/resource/las16/las16-302/)
 
 
-
-
-
   * **LAS16-306: Exploring the Open Trusted Protocol**
 
 
@@ -410,9 +255,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-306/](http://connect.linaro.org/resource/las16/las16-306/)
-
-
-
 
 
   * **LAS16-310: Introducing the first 96Boards TV Platform: Poplar by Hisilicon**
@@ -424,24 +266,9 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-310/](http://connect.linaro.org/resource/las16/las16-310/)
 
 
-
-
-
-[/vc_column_text][vc_column_text]
-
-
 **LITE**
 
-
-
-
-
-
 * * *
-
-
-
-
 
 
 
@@ -453,10 +280,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-100/](http://connect.linaro.org/resource/las16/las16-100/)
 
-
-
-
-
   * **LAS16-112: mbed OS Technical Overview**
 
 
@@ -464,10 +287,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-112/](http://connect.linaro.org/resource/las16/las16-112/)
-
-
-
-
 
   * **LAS16-104: MyNewt technical overview**
 
@@ -477,10 +296,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-104/](http://connect.linaro.org/resource/las16/las16-104/)
 
-
-
-
-
   * **LAS16-108: JerryScript and other scripting languages for IoT**
 
 
@@ -488,10 +303,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-108/](http://connect.linaro.org/resource/las16/las16-108/)
-
-
-
-
 
   * **LAS16-203: Platform security architecture for embedded devices**
 
@@ -502,9 +313,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-203/](http://connect.linaro.org/resource/las16/las16-203/)
 
 
-
-
-
   * **LAS16-300K2: Overview of IoT Zephyr**
 
 
@@ -512,10 +320,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-300k2/](http://connect.linaro.org/resource/las16/las16-300k2/)
-
-
-
-
 
   * **LAS16-407: Internet of Tiny Linux (IoTL): the sequel**
 
@@ -526,25 +330,10 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-407/](http://connect.linaro.org/resource/las16/las16-407/)
 
 
-
-
-
-[/vc_column_text][vc_column_text]
-
-
-**LMG **
-
-
-
-
+**LMG**
 
 
 * * *
-
-
-
-
-
 
 
   * **LAS16-205: The State of AOSP common android-4.4 Kernel**
@@ -556,9 +345,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-205/](http://connect.linaro.org/resource/las16/las16-205/)
 
 
-
-
-
   * **LAS16-201: ART JIT in Android N**
 
 
@@ -566,10 +352,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-201/](http://connect.linaro.org/resource/las16/las16-201/)
-
-
-
-
 
   * **LAS16-209: Finished and Upcoming Projects in LMG**
 
@@ -579,26 +361,10 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-209](http://connect.linaro.org/resource/las16/las16-209/)
 
-
-
-
-
-[/vc_column_text][vc_column_text]
-
-
-**LNG **
-
-
-
-
+**LNG**
 
 
 * * *
-
-
-
-
-
 
 
   * **LAS16-401: Accelerating applications with OFP+ODP: highlighting NGINX, OpenSSL and L3FWD**
@@ -610,9 +376,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-401/](http://connect.linaro.org/resource/las16/las16-401/)
 
 
-
-
-
   * **LAS16-405: OpenDataPlane: Software Defined Dataplane leader**
 
 
@@ -620,9 +383,6 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-405/](http://connect.linaro.org/resource/las16/las16-405/)
-
-
-
 
 
   * **LAS16-409: Time Sensitive Networking: kernel modifications for automotive/industrial**
@@ -633,8 +393,4 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-409/](http://connect.linaro.org/resource/las16/las16-409/)
 
-
-
-
-
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]We hope you join us for our next Linaro Connect to be held in March 2017.  Details and registration will be available soon.[/vc_column_text][/vc_column][/vc_row]
+We hope you join us for our next Linaro Connect to be held in March 2017. Details and registration will be available soon.
