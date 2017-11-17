@@ -5,6 +5,7 @@ categories:
 date: 2012-04-10 18:06:29
 description: "George Grey, our CEO, details the new Member-first strategy with Linaro\xE2\x80\x99s
   in-kernel big.LITTLE Switcher functionality"
+keywords: Linux, ARM, Linaro, big.LITTLE, kernel, ARM v8 architecture
 layout: post
 link: https://www.linaro.org/blog/industry-blog/march-2012-ceo-report/
 slug: march-2012-ceo-report

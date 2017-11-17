@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2012-03-22 22:53:18
 description: The Linaro Android Platform Team
+keywords: Linaro Android Platform Team, DS-5, MALI400, MALI
 layout: post
 link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-march-14-to-march-20/
 slug: the-linaro-android-platform-team-period-march-14-to-march-20

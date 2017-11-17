@@ -5,6 +5,8 @@ categories:
 date: 2012-04-20 13:28:10
 description: Linaro invites those who are using Linaro builds and ARM-processor based
   boards to participate in its Q2.12 Linaro Connect Demo Friday Event on 1 June 2012.
+keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, registration, Hong
+  Kong, Gold Coast Hotel, May, June, Demo Friday, Call for Participation
 layout: post
 link: https://www.linaro.org/blog/industry-blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/
 slug: be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens

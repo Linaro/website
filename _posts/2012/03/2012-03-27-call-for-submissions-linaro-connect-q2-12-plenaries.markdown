@@ -5,6 +5,8 @@ categories:
 date: 2012-03-27 03:04:06
 description: Linaro issues Call for Submissions for the Plenary Sessions at the Linaro
   Connect Q2.12 event to be held at the Gold Coast Hotel, Hong Kong, 28 May - 1 June.
+keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, Plenary Session,
+  Call for Submissions, Hong Kong, Gold Coast Hotel, May, June
 layout: post
 link: https://www.linaro.org/blog/industry-blog/call-for-submissions-linaro-connect-q2-12-plenaries/
 slug: call-for-submissions-linaro-connect-q2-12-plenaries

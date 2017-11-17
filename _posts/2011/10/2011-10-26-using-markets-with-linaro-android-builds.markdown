@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2011-10-26 12:52:11
 description: Using app markets with Linaro Android builds
+keywords: linaro, app, market, android, f-droid, cyanogenmod, android market
 layout: post
 link: https://www.linaro.org/blog/android-blog/using-markets-with-linaro-android-builds/
 slug: using-markets-with-linaro-android-builds

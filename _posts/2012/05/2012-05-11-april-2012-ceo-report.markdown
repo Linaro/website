@@ -6,6 +6,8 @@ date: 2012-05-11 21:13:36
 description: Discussion on how Linaro's work affects many segments other than mobile
   and enabling optimized hardware for a particular application, the software platforms
   required to drive them are becoming increasingly complex.
+keywords: Linaro, CEO report, ARM SoC, ARM Architecture, Linux, open-source software,
+  ARM,  big.LITTLE
 layout: post
 link: https://www.linaro.org/blog/industry-blog/april-2012-ceo-report/
 slug: april-2012-ceo-report

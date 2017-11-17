@@ -5,6 +5,8 @@ categories:
 date: 2012-12-28 18:35:13
 description: Join Linaro CTO, David Rusling and Tim Wesselman of HP's HyperScale Business
   Unit on Monday 7 January 2013 as the discuss, 'Openness, Why it is not optional'.
+keywords: Linaro, Linux on ARM, Open Source, Linaro On Air, Hangouts on Air, Openness,
+  Discussion 2013
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-hangouts-on-air-openness-why-it-is-not-optional/
 slug: linaro-hangouts-on-air-openness-why-it-is-not-optional

@@ -5,6 +5,10 @@ categories:
 date: 2012-12-20 21:50:47
 description: Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12
   "Engineering Preview" Release is Now Available
+keywords: Linaro, Linux on ARM, Linux, Open Source, ARM, Canonical, Red Hat, Fedora,
+  Ubuntu, Linaro Enterprise Group, LEG, Engineering Preview, Release, 12.12, Announcements,CRC32,
+  Compression Analysis, NUMA, HugePages, GRUB on ARM, Ubuntu 12.04 Server,Samsung,
+  Arndale Board
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/
 slug: linaro-enterprise-group-leg-releases-its-12-12-engineering-preview

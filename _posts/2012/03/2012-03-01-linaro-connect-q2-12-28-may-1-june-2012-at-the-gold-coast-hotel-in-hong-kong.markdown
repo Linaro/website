@@ -5,6 +5,8 @@ categories:
 date: 2012-03-01 22:59:28
 description: Announced today Linaro Connect Q2.12 will be held at the Gold Coast Hotel
   in Hong Kong. Event registration and hotel bookings now open.
+keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, registration, Hong
+  Kong, Gold Coast Hotel, May, June
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-28-may-1-june-2012-at-the-gold-coast-hotel-in-hong-kong/
 slug: linaro-connect-q2-12-28-may-1-june-2012-at-the-gold-coast-hotel-in-hong-kong

@@ -5,6 +5,8 @@ categories:
 date: 2012-12-21 19:16:52
 description: LEG Engineers held a public Hangout on Air where they discussed UEFI
   updates, future goals and how to get involved.
+keywords: Linaro, Linux on ARM, ARM, Open Source, Linux, LEG, Linaro Enterprise Group,
+  Announcement, Releases, Hangout on Air, UEFI
 layout: post
 link: https://www.linaro.org/blog/community-blog/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/
 slug: leg-engineers-discuss-uefi-updates-goals-and-getting-involved

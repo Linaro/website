@@ -8,6 +8,8 @@ description: "Linaro announces the availability of its 12.07 release. This relea
   Groups, Landing Teams and Platform Teams \xE2\x80\x93 who have provided all the
   updates and new features that are integrated on top of Android and Ubuntu during
   this release cycle."
+keywords: Linaro, Linux On ARM, Open Source, ARM, 12.07, Release, Announcement, Ubuntu,
+  Android
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-07-released/
 slug: linaro-12-07-released

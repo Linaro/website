@@ -8,6 +8,7 @@ description: At the 2013 Linux Plumbers conference we'll be discussing the ION m
   the Android + Graphics micro-conference. I wanted to create some background documentation
   to try to provide context to the issues we will discuss and try to resolve at the
   micro-conference so I wrote an article for LWN to give more detail.
+keywords: Android, Linux, Linux plumbers, Linaro
 layout: post
 link: https://www.linaro.org/blog/android-blog/integrating-the-ion-memory-allocator/
 slug: integrating-the-ion-memory-allocator

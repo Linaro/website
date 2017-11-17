@@ -5,6 +5,8 @@ categories:
 date: 2013-02-22 16:31:50
 description: Linaro is pleased to announce that it will be offering a four hour comprehensive
   and hands-on LAVA workshop as part of Linaro Connect Asia 2013.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+  Kong, LAVA, Workshop, Training
 layout: post
 link: https://www.linaro.org/blog/community-blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/
 slug: lava-workshop-at-linaro-connect-asia-2013-in-hong-kong

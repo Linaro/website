@@ -1,13 +1,12 @@
 ---
 author: tony.mansson
-date: 2012-02-24 01:15:23+00:00
+categories:
+- blog
+date: 2012-02-24 01:15:23
+keywords: Linaro Android Platform Team
 layout: post
 link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-feb-17-to-feb-23/
 slug: the-linaro-android-platform-team-period-feb-17-to-feb-23
-title: The Linaro Android Platform Team, Period Feb. 17 to Feb. 23
-wordpress_id: 1288
-categories:
-- blog
 tags:
 - Android
 - Community
@@ -28,7 +27,10 @@ tags:
 - Linux
 - Linux on ARM
 - release
+title: The Linaro Android Platform Team, Period Feb. 17 to Feb. 23
+wordpress_id: 1288
 ---
+
 # Hello Linaro fans.
 
 The 12.02 cycle contained both Linaro Connect and The two Linux Foundation conferences ABS and ELC. All three events were held in the same hotel in Redwood City just south of San Francisco. The Connect conference is a veritable tornado of meetings where technical decisions are made and plans fir the next quarter are hammered out at a breathtaking speed. Nevertheless, there is usually some time in the afternoons to do some honest hacking. So the team managed to make progress on their blueprints and just look at that list of fixed bugs! We also say welcome to i.MX6, a newcomer to our set of supported boards. The 12.02 release is out. Long live the 12.03 release!

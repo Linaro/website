@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2012-12-17 19:05:12
 description: Reflections on 2012 from Linaro's CTO
+keywords: Linaro, Linux on ARM, ARM, Open Source, Reflections, CTO, David A. Rusling,
+  2012
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-ctos-end-of-year-report-2012/
 slug: linaro-ctos-end-of-year-report-2012

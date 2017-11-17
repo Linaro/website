@@ -5,6 +5,10 @@ categories:
 date: 2013-07-19 14:25:33
 description: Keynote Speakers, videos, presentations from Linaro Connect Europe 2013
   now available.
+keywords: Linaro, Linux on ARM, ARM, Open Source, Events, Connect, Linaro Connect
+  Europe 2013, LCE13, Dublin, Ireland, LCU13, Santa Clara, TechCon, ARM TechCon, George
+  Grey, James Bottomley, Wannes de Smet, Cole Crawford, Leslie Hawthorn, Bob Monkman,
+  David Rusling
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2013-keynote-speaker-videos/
 slug: linaro-connect-europe-2013-keynote-speaker-videos

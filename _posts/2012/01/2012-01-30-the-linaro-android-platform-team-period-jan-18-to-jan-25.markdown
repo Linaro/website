@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2012-01-30 10:02:49
 description: The Linaro Android Platform Team weekly report
+keywords: Linaro Android Report
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-jan-18-to-jan-25/
 slug: the-linaro-android-platform-team-period-jan-18-to-jan-25

@@ -5,6 +5,7 @@ categories:
 date: 2012-01-12 17:41:24
 description: Announcement of the Linaro QEMU 2012.01 release. New features and known
   issues.
+keywords: Linaro, Linux on ARM, Toolchain, QEMU, Open Source
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2012-01-released/
 slug: linaro-qemu-2012-01-released

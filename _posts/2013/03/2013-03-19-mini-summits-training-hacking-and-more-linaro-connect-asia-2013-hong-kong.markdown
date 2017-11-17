@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2013-03-19 23:04:06
 description: Find out what all the excitement was about at Linaro Connect Asia 2013.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+  Kong, Speakers, Announcement, LAVA, Embedded Android, ARM Server Mini-Summit,
 layout: post
 link: https://www.linaro.org/blog/community-blog/mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong/
 slug: mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong

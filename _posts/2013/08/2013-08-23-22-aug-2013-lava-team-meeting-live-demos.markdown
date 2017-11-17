@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2013-08-23 19:36:37
 description: Recap of the weekly LAVA team meeting and LIVE demos
+keywords: Linaro, Linux, LAVA, opensource, multinode
 layout: post
 link: https://www.linaro.org/blog/lava-blog/22-aug-2013-lava-team-meeting-live-demos/
 slug: 22-aug-2013-lava-team-meeting-live-demos

@@ -5,6 +5,8 @@ categories:
 date: 2012-05-25 16:09:18
 description: Linaro thanks its sponsors for their up role in the upcoming Q2.12 Linaro
   Connect being held at the Gold Coast Hotel in Hong Kong on 28 May-1 June.
+keywords: Linaro Connect, Linaro, Linux On ARM, Open Source, Hong Kong, Sponsors,
+  Thank you, ARM, Canonical, LinuxQuestions.Org, Samsung, Linux Journal, Ubuntu User
 layout: post
 link: https://www.linaro.org/blog/industry-blog/thank-you-to-our-sponsors/
 slug: thank-you-to-our-sponsors

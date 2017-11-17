@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2011-09-07 15:09:49
 description: Update on the latest news from Linaro
+keywords: Linaro, meego, Google, Mobile, Motorola, Web-os
 layout: post
 link: https://www.linaro.org/blog/august-ceo-report/
 slug: august-ceo-report

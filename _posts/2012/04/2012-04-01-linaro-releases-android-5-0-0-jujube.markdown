@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2012-04-01 15:02:24
 description: Linaro announces the release of Android 5.0.0 "Jujube"
+keywords: Linaro,Android,Linaro Android,linaro-android,Jujube,Android 5.0.0,April
+  Fools,April 1st
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-releases-android-5-0-0-jujube/
 slug: linaro-releases-android-5-0-0-jujube

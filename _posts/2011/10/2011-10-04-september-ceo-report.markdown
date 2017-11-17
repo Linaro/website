@@ -5,6 +5,7 @@ categories:
 date: 2011-10-04 16:15:16
 description: Differentiation and a Single ARM Linux Kernel- discussion on consolidating
   and optimizing Linux on ARM.
+keywords: ARM Linux, Linux ARM, kernel, Linaro, ARM fragmentation, SOCs, ARM SOCs,
 layout: post
 link: https://www.linaro.org/blog/industry-blog/september-ceo-report/
 slug: september-ceo-report

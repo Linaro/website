@@ -5,6 +5,7 @@ categories:
 date: 2012-09-07 01:52:38
 description: Overview of new membership levels within Linaro as well as an update
   on big.LITTLE work at Linaro.
+keywords: Linaro, ARM, big.LITTLE, Linux, open source, Linaro Connect
 layout: post
 link: https://www.linaro.org/blog/connect-update/august-2012-ceo-report/
 slug: august-2012-ceo-report

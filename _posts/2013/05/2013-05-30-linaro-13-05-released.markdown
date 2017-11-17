@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2013-05-30 20:39:54
 description: The Linaro 13.05 release is now available for download!
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+  Linaro 13.05 release, release, announcement, IKS, Linaro Stable Kernel, LSK
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-05-released/
 slug: linaro-13-05-released

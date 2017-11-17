@@ -5,6 +5,8 @@ categories:
 date: 2013-07-10 15:19:12
 description: "Progress report on Linaro\xE2\x80\x99s activities and plans for support
   of ARM\xE2\x80\x99s big.LITTLE SoCs with Linux and Android software."
+keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, big.LITTLE, Android, Cortex-A7,
+  Cortex-A15, Kernel
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-software-update/
 slug: big-little-software-update

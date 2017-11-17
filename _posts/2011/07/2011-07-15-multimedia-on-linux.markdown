@@ -5,6 +5,7 @@ categories:
 date: 2011-07-15 16:01:50
 description: Discussion of Multimedia on Linux challenges and Linaro.org's work with
   Multimedia on Linux
+keywords: Linux, Linaro, Multimedia, OpenMax
 layout: post
 link: https://www.linaro.org/blog/industry-blog/multimedia-on-linux/
 slug: multimedia-on-linux

@@ -5,6 +5,8 @@ categories:
 date: 2014-02-06 16:58:43
 description: Linaro Android team update on their optimization efforts for 2014. What
   they will be working on in Q1 and the progress they have made so far.
+keywords: Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
+  on ARM, Android community, opensource software
 layout: post
 link: https://www.linaro.org/blog/android-blog/many-things-to-do-this-year-in-android/
 slug: many-things-to-do-this-year-in-android

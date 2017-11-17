@@ -6,6 +6,8 @@ date: 2012-01-20 13:32:35
 description: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
   on ARM. Linaro members, partners and community offer interactive demonstrations
   showcasing ARM-processor-based boards and Linaro builds of Android and Ubuntu.
+keywords: Linaro, ARM, Ubuntu, Android, Snowball, Linux, Linux on ARM, ARM SOCs, Linaro
+  Connect
 layout: post
 link: https://www.linaro.org/blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/
 slug: demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm

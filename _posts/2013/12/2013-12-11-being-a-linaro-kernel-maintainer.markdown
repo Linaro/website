@@ -7,6 +7,8 @@ description: "Linaro is a very open environment but with access to a lot of priv
   information and knowledge about our member\xE2\x80\x99s products and strategies.
   This can sometimes make being a kernel maintainer somewhat of a balancing act, especially
   with public discussions in kernel mailing lists and in open forums"
+keywords: Linaro, kernel, linux, linux on ARM, kernel maintainer, open source software,
+  software
 layout: post
 link: https://www.linaro.org/blog/kernel-blog/being-a-linaro-kernel-maintainer/
 slug: being-a-linaro-kernel-maintainer

@@ -6,6 +6,8 @@ date: 2013-03-05 06:47:52
 description: Linaro together with its members, partners and community are growing
   and influencing many areas of the ARM ecosystem and as such its women in technology
   footprint is growing well.
+keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+  Women in Technology
 layout: post
 link: https://www.linaro.org/blog/community-blog/women-in-technology-at-linaro/
 slug: women-in-technology-at-linaro

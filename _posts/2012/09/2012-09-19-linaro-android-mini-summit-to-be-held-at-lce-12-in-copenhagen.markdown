@@ -6,6 +6,8 @@ date: 2012-09-19 16:54:42
 description: Zach Pfeffer, Linaro Android Tech Lead took a few minutes out of his
   day to answer a few questions about the this mini summit and what you can expect
   out of this event.
+keywords: Linaro, Linux on ARM, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
+  ARMv8(64bit), mini-summits, events, community, LCE 12 Copenhagen, Zach Pfeffer
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/
 slug: linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen

@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2013-10-31 15:19:41
 description: Review of what took place during LCU13 on Wednesday October 30, 2013
+keywords: Linaro, ARM, Linux, opensource, linaro connect, LCU13,
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-wednesday/
 slug: lcu13-wednesday

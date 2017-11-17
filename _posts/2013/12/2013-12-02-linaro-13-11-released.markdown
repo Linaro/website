@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2013-12-02 16:34:05
 description: Linaro 13.11 release information and links to downloads
+keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.11 release, Android,
+  LAVA, ARMv8
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-11-released/
 slug: linaro-13-11-released

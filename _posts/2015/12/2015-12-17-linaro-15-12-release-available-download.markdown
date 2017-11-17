@@ -9,6 +9,7 @@ description: Linaro's 15.12 release is now available for download. See the detai
 excerpt: Linaro's 15.11 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
+keywords: Linaro
 layout: post
 link: https://www.linaro.org/blog/linaro-15-12-release-available-download/
 slug: linaro-15-12-release-available-download

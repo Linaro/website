@@ -5,6 +5,7 @@ categories:
 date: 2011-09-19 05:24:34
 description: Android builds for 6 boards supported by Linaro, built with the official
   11.09 of the Linaro 4.6 toolchain.
+keywords: linaro,android,toolchain
 layout: post
 link: https://www.linaro.org/blog/releases-blog/try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it/
 slug: try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it

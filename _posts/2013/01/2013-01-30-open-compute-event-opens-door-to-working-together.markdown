@@ -5,6 +5,8 @@ categories:
 date: 2013-01-30 18:48:51
 description: Overview of Linaro's participation in Open Compute Summit. Including
   a presentation that discusses how Linaro and the Open Compute Project are complementary
+keywords: Linaro, Open Compute summit, Open source, Linux, Open sourced hardware,
+  Linaro enterprise group, ARM
 layout: post
 link: https://www.linaro.org/blog/community-blog/open-compute-event-opens-door-to-working-together/
 slug: open-compute-event-opens-door-to-working-together

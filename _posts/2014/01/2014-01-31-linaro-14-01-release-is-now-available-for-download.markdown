@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2014-01-31 01:23:11
 description: Information and links for the Linaro 14.01 release
+keywords: Linaro, linux, open source, ARM, linux on ARM, Android, Ubuntu, kernel,
+  linux kernel, ARMv8, Linaro Connect,
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-14-01-release-is-now-available-for-download/
 slug: linaro-14-01-release-is-now-available-for-download

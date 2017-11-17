@@ -6,6 +6,8 @@ date: 2013-03-28 20:20:04
 description: The 13.03 Linaro release highlights the focused efforts of all the Linaro
   Teams who have provided all the updates and new features that are integrated on
   top of Android, Ubuntu and OpenEmbedded during this release cycle.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+  Linaro 13.03 release. release, announcement
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-03-released/
 slug: linaro-13-03-released

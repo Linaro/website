@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2013-09-16 22:08:16
 description: Overview of what to expect at Linaro Connect USA 2013.
+keywords: Linaro, Linaro Connect, Linaro Connect USA, LCU2013, LCU, ARM, ARM TechCon,
+  Linux, Linux on ARM
 layout: post
 link: https://www.linaro.org/blog/connect-update/back-to-the-future/
 slug: back-to-the-future

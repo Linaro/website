@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2011-08-15 15:38:40
 description: Update on Linaro activities for July 2011
+keywords: Linux Kernel, ARM, SoCs, evaluation builds, ARM toolchain, Test, Validation,
+  Android
 layout: post
 link: https://www.linaro.org/blog/july-ceo-report/
 slug: july-ceo-report

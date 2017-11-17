@@ -5,6 +5,7 @@ categories:
 date: 2011-10-19 01:15:25
 description: Multiple builds corresponding to the second pre-release of Linaro Android
   11.10, available for several community boards supported by Linaro.
+keywords: android, linaro, release
 layout: post
 link: https://www.linaro.org/blog/android-blog/second-android-11-10-pre-release/
 slug: second-android-11-10-pre-release

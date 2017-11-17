@@ -1,14 +1,13 @@
 ---
 author: christoffer.dall
+categories:
+- blog
 comments: true
-date: 2016-12-20 16:39:41+00:00
+date: 2016-12-20 16:39:41
+keywords: virtualization, kvm, xen, arm, aarch64, qemu, cross-distro, standards
 layout: post
 link: https://www.linaro.org/blog/core-dump/ensuring-bootable-arm-vm-images/
 slug: ensuring-bootable-arm-vm-images
-title: Ensuring Bootable ARM VM Images
-wordpress_id: 11992
-categories:
-- blog
 tags:
 - Core Dump
 - AArch64
@@ -19,7 +18,10 @@ tags:
 - standards
 - virtualization
 - Xen
+title: Ensuring Bootable ARM VM Images
+wordpress_id: 11992
 ---
+
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 _A while back, during Linaro Connect 2013, Riku Voipio (Linaro) asked a simple but important question: “When you guys are done building hypervisors that work on ARM, how do we actually make sure that a user can run something on there?”. Of course, he didn’t have in mind that users could manually build a kernel with the required options, remember a long and complicated QEMU command line, bootstrap their own root file systems, pray to the KVM gods, and hope to get a system running. Instead he was thinking of the general problem of how distribution vendors could package a cloud image that was known to work across multiple versions of multiple different ARM hypervisor implementations._

@@ -6,6 +6,7 @@ date: 2011-12-08 19:00:49
 description: Linaro announces the formation of the Linaro Community Contributor Process
   and Team, introducing a process to recognise community members who have sustained
   contributions over a significant period of time.
+keywords: Linux on ARM, Community, Contributor, Linaro, Process, Linaro Connect, Announcement
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-community-contributor-process-and-team/
 slug: linaro-announces-community-contributor-process-and-team

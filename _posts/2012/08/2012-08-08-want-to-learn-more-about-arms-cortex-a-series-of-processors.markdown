@@ -7,6 +7,8 @@ description: "If you are looking for more information about the ARM Cortex-A ser
   of processors, the Cortex-A Series Programmer\xE2\x80\x99s Guide is the definitive
   resource for software engineers to find tips on writing and optimizing software
   for ARM Cortex-A series processors."
+keywords: ARM, ARM Cortex-A, Cortex-A, ARMv7-A, ARM architecture, big.LITTLE, Linaro,
+  Open source
 layout: post
 link: https://www.linaro.org/blog/industry-blog/want-to-learn-more-about-arms-cortex-a-series-of-processors/
 slug: want-to-learn-more-about-arms-cortex-a-series-of-processors

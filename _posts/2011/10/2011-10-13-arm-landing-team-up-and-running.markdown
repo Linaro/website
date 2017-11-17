@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2011-10-13 14:37:16
 description: Introduction of the members and plans for the Linaro ARM Landing team
+keywords: Linaro, Linux, ARM, Linux ARM, kernel, ARM A5, ARM A9, Android, Ubuntu
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-landing-team-up-and-running/
 slug: arm-landing-team-up-and-running

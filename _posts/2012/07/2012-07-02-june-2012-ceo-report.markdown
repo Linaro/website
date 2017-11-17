@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2012-07-02 20:50:43
 description: Overview on the lastest products that are supported by the ARM Ecosystem.
+keywords: Linaro, ARM, Linux on ARM, ARM Ecosystem, Biglittle, Cortex, Android, Jellybean
 layout: post
 link: https://www.linaro.org/blog/industry-blog/june-2012-ceo-report/
 slug: june-2012-ceo-report

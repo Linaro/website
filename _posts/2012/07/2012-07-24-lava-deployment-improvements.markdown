@@ -5,6 +5,7 @@ categories:
 date: 2012-07-24 16:54:35
 description: This article goes over the latest improvements to the LAVA deployment
   process
+keywords: LAVA lava-deployment-tool buildout
 layout: post
 link: https://www.linaro.org/blog/lava-deployment-improvements/
 slug: lava-deployment-improvements

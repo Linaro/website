@@ -5,6 +5,9 @@ categories:
 date: 2012-01-10 20:08:30
 description: Linaro CEO report on the activities within Linaro and with their partners.
   Overview of the 2011 accomplishments.
+keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, open
+  source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
+  Cortex-A9, Cortex, Android, Ubuntu
 layout: post
 link: https://www.linaro.org/blog/december-ceo-report/
 slug: december-ceo-report

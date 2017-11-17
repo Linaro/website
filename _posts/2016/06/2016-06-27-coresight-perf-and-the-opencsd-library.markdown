@@ -12,6 +12,7 @@ excerpt: 'Learn how the CoreSight framework found in the Linux kernel has been i
   an upcoming post.
 
 '
+keywords: CoreSight, Perf, OpenCSD Library
 layout: post
 link: https://www.linaro.org/blog/core-dump/coresight-perf-and-the-opencsd-library/
 slug: coresight-perf-and-the-opencsd-library

@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2011-11-01 14:45:07
 description: Discussion on the latest developments within Linaro
+keywords: Linaro, ARM, Linux kernel, Linux, kernel, ARM SOCs, opensource, ARM Cortex,
+  big.LITTLE
 layout: post
 link: https://www.linaro.org/blog/october-ceo-report/
 slug: october-ceo-report

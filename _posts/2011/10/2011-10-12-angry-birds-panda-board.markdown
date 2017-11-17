@@ -5,6 +5,7 @@ categories:
 date: 2011-10-12 05:02:19
 description: Instructions to test the Angry Birds game on the Linaro Android Evaluation
   Build for the Panda board.
+keywords: android, linaro,panda
 layout: post
 link: https://www.linaro.org/blog/releases-blog/angry-birds-panda-board/
 slug: angry-birds-panda-board

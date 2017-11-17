@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2012-03-20 20:53:23
 description: George Grey discusses Linaro Member ROI in-depth
+keywords: Linaro, ARM, Linux, Linux on ARM, ARM SoC, LAVA, Intel,  Linaro members
 layout: post
 link: https://www.linaro.org/blog/industry-blog/february-2012-ceo-report/
 slug: february-2012-ceo-report

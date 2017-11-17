@@ -5,6 +5,8 @@ categories:
 date: 2013-07-09 07:56:15
 description: Engineers at Linaro Connect Europe 2013 iron out the plans for the future
   of Linux on ARM in over 14 sessions on Day 1 and 16 sessions on Day 2.
+keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
+  LCE13, Dublin, George Grey, Wannes De Smet, Video, Linaro OnAir, Day 1, Day 2
 layout: post
 link: https://www.linaro.org/blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
 slug: wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013

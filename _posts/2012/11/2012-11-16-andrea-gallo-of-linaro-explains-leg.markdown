@@ -5,6 +5,9 @@ categories:
 date: 2012-11-16 04:32:47
 description: Find out more about the newly formed Linaro Enterprise Group (LEG) from
   Amber Graner's interview with the group's director, Andrea Gallo.
+keywords: Linaro, Linaro Connect, LCE12-Copenhagen, LCA13-Hong Kong, LEG, Linaro Enterprise
+  Group, ARM Servers, Linux on ARM, ARM, Open Source, Andrea Gallo, Amber Graner,
+  Interview
 layout: post
 link: https://www.linaro.org/blog/community-blog/andrea-gallo-of-linaro-explains-leg/
 slug: andrea-gallo-of-linaro-explains-leg

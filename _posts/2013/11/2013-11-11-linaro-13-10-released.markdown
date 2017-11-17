@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2013-11-11 16:50:21
 description: Information on links to the 13.10 release
+keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.10 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-10-released/
 slug: linaro-13-10-released

@@ -5,6 +5,7 @@ categories:
 date: 2013-10-30 14:30:25
 description: Recap of the events that took place on Tuesday October 29th at the Linaro
   Connect USA 2013 in Santa Clara.
+keywords: Linaro, ARM, Facebook, Linux, opensource, Android
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-tuesday-recap/
 slug: lcu13-tuesday-recap

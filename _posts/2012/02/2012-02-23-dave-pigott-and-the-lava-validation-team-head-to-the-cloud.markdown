@@ -6,6 +6,8 @@ date: 2012-02-23 15:49:25
 description: Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new
   hardware, configuration challenges and the ultimate success of deploying of their
   own cloud.
+keywords: Linaro, Linux on ARM, LAVA, Validation, Hardware, Testing, LAVA-Lab, Cloud,  ARM,
+  Fast Model, System 76, Canonical, Ubuntu Server 11.10, Linaro Connect Q1.12
 layout: post
 link: https://www.linaro.org/blog/hardware-update/dave-pigott-and-the-lava-validation-team-head-to-the-cloud/
 slug: dave-pigott-and-the-lava-validation-team-head-to-the-cloud

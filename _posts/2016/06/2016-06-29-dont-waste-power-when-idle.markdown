@@ -7,6 +7,7 @@ description: How the CoreSight framework found in the Linux kernel has been inte
   with the standard Perf core, both at the kernel and user space level.
 excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about idle
   management of platforms. '
+keywords: Power Management
 layout: post
 link: https://www.linaro.org/blog/core-dump/dont-waste-power-when-idle/
 slug: dont-waste-power-when-idle

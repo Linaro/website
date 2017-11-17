@@ -6,6 +6,8 @@ date: 2013-05-09 02:29:46
 description: Amber Graner interviews David Rusling and Jon 'maddog' Hall. Find out
   how they met, who they've met, what advice they give, predictions they make and
   more.
+keywords: Amber Graner, David Rusling, Jon 'maddog' Hall, Linaro, Linux on ARM, Open
+  Source, FOSS, Interviews, Mentors
 layout: post
 link: https://www.linaro.org/blog/community-blog/its-all-maddogs-fault-proclaims-david-rusling-linaro-cto/
 slug: its-all-maddogs-fault-proclaims-david-rusling-linaro-cto

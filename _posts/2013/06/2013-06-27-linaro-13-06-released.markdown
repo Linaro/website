@@ -4,6 +4,9 @@ categories:
 - blog
 date: 2013-06-27 18:01:37
 description: The Linaro 13.06 release is now available for download!
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+  Linaro 13.06 release, release, announcement, IKS, Linaro Stable Kernel, LSK, LAVA,
+  Builds and Baselines, Kernel, QA Services
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-06-released/
 slug: linaro-13-06-released

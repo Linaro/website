@@ -5,6 +5,9 @@ categories:
 date: 2011-12-15 23:26:18
 description: Discussion on the big.LITTLE technology announced by ARM in October and
   the two usage models.
+keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, open
+  source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
+  Cortex-A9, Cortex, Android, Ubuntu, big.LITTLE
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-technology-two-usage-models/
 slug: big-little-technology-two-usage-models

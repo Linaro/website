@@ -8,6 +8,8 @@ description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U
   and FDT coexist? And so on. I want to quickly address those questions in this blog
   post, and then I want to discuss a development plan to get UEFI and ACPI onto shipping
   servers.
+keywords: Linaro, software on ARM, Linux, Linux on ARM, UEFI, ACPI, enterprisse software,
+  ARM, U-Boot, FDT, kernel
 layout: post
 link: https://www.linaro.org/blog/when-will-uefi-and-acpi-be-ready-on-arm/
 slug: when-will-uefi-and-acpi-be-ready-on-arm

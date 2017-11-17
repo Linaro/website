@@ -4,6 +4,7 @@ categories:
 - blog
 date: 2011-11-16 12:42:00
 description: Installing F-Droid on Linaro builds
+keywords: linaro, app, market, android, f-droid, cyanogenmod
 layout: post
 link: https://www.linaro.org/blog/android-blog/installing-f-droid-on-linaro-builds/
 slug: installing-f-droid-on-linaro-builds

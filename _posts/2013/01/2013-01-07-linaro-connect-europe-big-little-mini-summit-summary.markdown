@@ -6,6 +6,8 @@ date: 2013-01-07 15:04:31
 description: Take a look at the key take-away message for the big.LITTLE Mini-Summit
   as you find out how you can get involved with the Linaro Power Management team at
   LCA13.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE12-Copenhagen,
+  LCA13-Hong Kong, big.LITTLE Mini-Summit, Power Management, b.L, IKS, TC2
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-europe-big-little-mini-summit-summary/
 slug: linaro-connect-europe-big-little-mini-summit-summary
