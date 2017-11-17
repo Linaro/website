@@ -1,16 +1,17 @@
 ---
 author: linaro
-date: 2016-05-27 19:37:23+00:00
+categories:
+- blog
+date: 2016-05-27 19:37:23
+description: Linaro's 16.05 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 16.05 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-16-05-release-available-for-download/
 slug: linaro-16-05-release-available-for-download
-title: Linaro 16.05 Release Available for Download
-wordpress_id: 10639
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -23,6 +24,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 16.05 Release Available for Download
+wordpress_id: 10639
 ---
 
 > “No amount of careful planning will ever replace dumb luck." _**~ Anonymous**_

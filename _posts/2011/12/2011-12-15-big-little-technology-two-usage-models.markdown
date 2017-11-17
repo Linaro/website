@@ -1,15 +1,17 @@
 ---
 author: david.rusling
-date: 2011-12-15 23:26:18+00:00
+categories:
+- blog
+date: 2011-12-15 23:26:18
+description: Discussion on the big.LITTLE technology announced by ARM in October and
+  the two usage models.
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-technology-two-usage-models/
 slug: big-little-technology-two-usage-models
-title: big.LITTLE Technology - Two Usage Models
-wordpress_id: 1077
-categories:
-- blog
 tags:
 - Hardware
+title: big.LITTLE Technology - Two Usage Models
+wordpress_id: 1077
 ---
 
 ARM announced its big.LITTLE technology on 19th October and Linaro were invited to participate in both the London and San Francisco launches. It is interesting technology, with two clusters of Cortex ARMv7 architecture cores (Cortex-A15 and Cortex-A7) joined together via a coherent interconnect. ARM has proposed two usage models, task migration and MP.

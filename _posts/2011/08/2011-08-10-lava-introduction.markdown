@@ -1,16 +1,17 @@
 ---
 author: alan.bennett
-date: 2011-08-10 14:43:24+00:00
+categories:
+- blog
+date: 2011-08-10 14:43:24
+description: Introduction to the concept of LAVA by one of the Linaro Validation developers
 layout: post
 link: https://www.linaro.org/blog/lava-blog/lava-introduction/
 slug: lava-introduction
-title: LAVA Introduction
-wordpress_id: 4116
-categories:
-- blog
 tags:
 - lava
 - LAVA
+title: LAVA Introduction
+wordpress_id: 4116
 ---
 
 Hi there.

@@ -1,16 +1,17 @@
 ---
 author: linaro
-date: 2016-07-06 16:48:57+00:00
+categories:
+- blog
+date: 2016-07-06 16:48:57
+description: Linaro's 16.06 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 16.06 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-16-06-release-available-for-download/
 slug: linaro-16-06-release-available-for-download
-title: Linaro 16.06 Release Available for Download
-wordpress_id: 11122
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -23,6 +24,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 16.06 Release Available for Download
+wordpress_id: 11122
 ---
 
 > “The aim of science is to seek the simplest explanations of complex facts. Seek simplicity and distrust it." _**~ Whitehead**_

@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2011-10-10 22:18:34+00:00
+categories:
+- blog
+date: 2011-10-10 22:18:34
+description: Discussion of Linaro toolchain working group focus, and the enablement
+  of -O3 flag
 layout: post
 link: https://www.linaro.org/blog/community-blog/compiling-with-gcc-o3/
 slug: compiling-with-gcc-o3
-title: Compiling with gcc -O3
-wordpress_id: 598
-categories:
-- blog
 tags:
 - Community
+title: Compiling with gcc -O3
+wordpress_id: 598
 ---
 
 Since its inception, the Toolchain Working Group's focus has been on performance, particularly on improving the speed of compiled code. For each tool, we've decided to pick a theme per quarter and use this to focus the many, small improvements we do, while also giving better visibility into their results.

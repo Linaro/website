@@ -1,13 +1,13 @@
 ---
 author: linaro
-date: 2011-11-05 13:38:43+00:00
+categories:
+- blog
+date: 2011-11-05 13:38:43
+description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
+  Technical discussions and interviews with Linaro and community engineers.
 layout: post
 link: https://www.linaro.org/blog/connect-update/connect-videos/
 slug: connect-videos
-title: First videos from Linaro Connect Q4.11
-wordpress_id: 812
-categories:
-- blog
 tags:
 - Connect Events
 - arm
@@ -15,7 +15,10 @@ tags:
 - Linaro
 - Linux
 - video
+title: First videos from Linaro Connect Q4.11
+wordpress_id: 812
 ---
+
 [Linaro Connect Q4.11](http://connect.linaro.org/events/event/linaro-connect-q411/) was a great place to learn about Linaro projects and to contribute to them, as well as to build tighter ties with the Linaro engineers and community.
 
 For those who couldn't participate to this event, here are all the videos that I shot. Note that I mostly didn't cover plenaries, because they were either filmed by [Novacut](http://novacut.com/) or by the Ubuntu video crew, with better equipment. As soon as their videos are available, we will let you know through a comment to this article.

@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2013-05-02 15:48:01+00:00
+categories:
+- blog
+date: 2013-05-02 15:48:01
+description: Show off how you are pairing Linaro's engineering output--a build, toolchain,
+  or code--and ARM processor-based hardware solutions at the LCE13 Demo Friday event.
 layout: post
 link: https://www.linaro.org/blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
 slug: call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013
-title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
-wordpress_id: 2677
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
+wordpress_id: 2677
 ---
 
 Demo Friday will take place on Friday 12 July at the Burlington Hotel in Dublin, Ireland, as part of [Linaro Connect Europe 2013 (LCE13](http://www.linaro.org/connect)).

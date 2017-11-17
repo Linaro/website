@@ -1,18 +1,21 @@
 ---
 author: linaro
-date: 2012-05-25 16:09:18+00:00
+categories:
+- blog
+date: 2012-05-25 16:09:18
+description: Linaro thanks its sponsors for their up role in the upcoming Q2.12 Linaro
+  Connect being held at the Gold Coast Hotel in Hong Kong on 28 May-1 June.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/thank-you-to-our-sponsors/
 slug: thank-you-to-our-sponsors
-title: 'Thank you to our sponsors!'
-wordpress_id: 1645
-categories:
-- blog
 tags:
 - Community
 - Connect Events
 - Industry
+title: Thank you to our sponsors!
+wordpress_id: 1645
 ---
+
 **_“We must find time to stop and thank the people who make a difference in our lives.”_** ~_John F. Kennedy_
 
 The upcoming [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) event is made possible by not only the group of organizers and volunteers, but also by the efforts and contributions of those organizations who sponsor our events.

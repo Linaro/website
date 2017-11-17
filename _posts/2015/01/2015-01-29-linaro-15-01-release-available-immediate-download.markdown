@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2015-01-29 19:29:22+00:00
+categories:
+- blog
+date: 2015-01-29 19:29:22
+description: The Linaro 15.01 software release is available for immediate download.
+  All related links can be found here.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-01-release-available-immediate-download/
 slug: linaro-15-01-release-available-immediate-download
-title: Linaro 15.01 Release Available for Immediate Download!
-wordpress_id: 7829
-categories:
-- blog
 tags:
 - android
 - arm
@@ -21,6 +21,8 @@ tags:
 - release cycle
 - software
 - toolchain
+title: Linaro 15.01 Release Available for Immediate Download!
+wordpress_id: 7829
 ---
 
 > “Clouds come floating into my life, no longer to carry rain or usher storm, but to add color to my sunset sky.." _**~ Rabindranath Tagore**_
@@ -99,5 +101,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
 Linaro Connect Hong Kong 2015 will be held February 9-13, 2015.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](http://connect.linaro.org/hkg15/%20)
-
-

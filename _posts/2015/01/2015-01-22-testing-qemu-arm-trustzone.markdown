@@ -1,23 +1,26 @@
 ---
 author: greg.bellows
+categories:
+- blog
 comments: true
-date: 2015-01-22 10:57:37+00:00
+date: 2015-01-22 10:57:37
+description: Since the last post, the bulk of the ARM CPU Security Extension support
+  has made it to upstream QEMU. Although the functional support is now available upstream,
+  it is currently disabled while the details of the usage are ironed out
 excerpt: Since the last post, the bulk of the ARM CPU Security Extension support has
   made it to upstream QEMU. Although the functional support is now available upstream,
   it is currently disabled while the details of the usage are ironed out
 layout: post
 link: https://www.linaro.org/blog/core-dump/testing-qemu-arm-trustzone/
 slug: testing-qemu-arm-trustzone
-title: Testing QEMU ARM TrustZone
-wordpress_id: 7787
-categories:
-- blog
 tags:
 - Core Dump
 - arm
 - qemu
 - testing
 - TrustZone
+title: Testing QEMU ARM TrustZone
+wordpress_id: 7787
 ---
 
 # Testing QEMU ARM TrustZone

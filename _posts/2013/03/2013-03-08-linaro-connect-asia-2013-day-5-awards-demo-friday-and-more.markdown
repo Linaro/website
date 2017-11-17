@@ -1,16 +1,19 @@
 ---
 author: linaro
-date: 2013-03-08 00:08:23+00:00
+categories:
+- blog
+date: 2013-03-08 00:08:23
+description: As the sun rises over the Gold Coast Hotel this morning we are reminded
+  that Linaro Connect Asia 2013 in Hong Kong comes to an end today.It's been a busy
+  week of training workshops, mini-summits, planning, hacking, interviewing, and more.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
 slug: linaro-connect-asia-2013-day-5-awards-demo-friday-and-more
-title: Linaro Connect Asia 2013 Day 5 - Awards, Demo Friday and more
-wordpress_id: 2554
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Linaro Connect Asia 2013 Day 5 - Awards, Demo Friday and more
+wordpress_id: 2554
 ---
 
 {% include image.html name="RisingSunHotel.jpg" alt="Rising Sun Hotel"%}

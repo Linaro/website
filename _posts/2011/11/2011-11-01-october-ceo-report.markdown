@@ -1,13 +1,14 @@
 ---
 author: george.grey
-date: 2011-11-01 14:45:07+00:00
+categories:
+- blog
+date: 2011-11-01 14:45:07
+description: Discussion on the latest developments within Linaro
 layout: post
 link: https://www.linaro.org/blog/october-ceo-report/
 slug: october-ceo-report
 title: October CEO Report
 wordpress_id: 756
-categories:
-- blog
 ---
 
 With the advent of the Cortex-A15, ARM CPU cores have become considerably more powerful, and despite ARM’s flagship SoC MIPS/watt ratings, the increasing number of MIPs inevitably also requires an increasing amount of Watts. Despite remaining the low power industry leaders, the next generation of ARM processors will literally be hotter than the last.
@@ -21,5 +22,3 @@ Recently, Linaro was part of [the San Francisco launch panel](http://www.arm.com
 It is likely that switcher software provided by ARM to handle the A7/A15 switch transparent to the OS will be used by many applications; in others we believe that SoC users will want to implement big.LITTLE functionality in the OS itself. Linaro plans to work with ARM and our SoC partner members on both scenarios to ensure that our members have a choice of open source solutions on which to base their products.
 
 As ARM introduces these innovative new cores Linaro’s mission is to enable our members to develop common frameworks to take advantage of the new architectural features in the core ARM platform including the upstream Linux kernel, and to avoid the fragmentation that has historically delayed product time to market. We look forward to helping our members derive the maximum value from their investment into these new products.
-
-

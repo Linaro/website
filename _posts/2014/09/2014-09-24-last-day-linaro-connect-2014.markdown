@@ -1,13 +1,14 @@
 ---
 author: jennifer.castelino
-date: 2014-09-24 21:06:33+00:00
+categories:
+- blog
+date: 2014-09-24 21:06:33
+description: Overview of what took place on the Friday of Linaro Connect USA 2014.
+  Links to presentations, videos and session descriptions are included in the blog
+  as well as photos of the weeks activities
 layout: post
 link: https://www.linaro.org/blog/last-day-linaro-connect-2014/
 slug: last-day-linaro-connect-2014
-title: Last Day of Linaro Connect 2014
-wordpress_id: 6715
-categories:
-- blog
 tags:
 - Connect Events
 - android
@@ -23,6 +24,8 @@ tags:
 - software
 - toolchain
 - video
+title: Last Day of Linaro Connect 2014
+wordpress_id: 6715
 ---
 
 Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on ARM.  The demonstrations also included interactive demonstrations showcasing ARM-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM processor-based boards for Linux on ARM.
@@ -379,4 +382,3 @@ Each day started with a variety of sessions to attend and demos to view. The aft
 {% include image.html name="working.jpg" alt="working" %}
 
 {% include image.html name="sessions.jpg" alt="sessions" %}
-

@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2013-02-14 21:28:43+00:00
+categories:
+- blog
+date: 2013-02-14 21:28:43
+description: Find out how you can connect with Linaro during the The Android Builders
+  Summit or The Embedded Linux Conference 2013?
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-team-to-participate-in-android-builders-summit-2013/
 slug: linaro-android-team-to-participate-in-android-builders-summit-2013
-title: Linaro Android Team to Participate in Android Builders Summit 2013
-wordpress_id: 2346
-categories:
-- blog
 tags:
 - Android
 - Community
+title: Linaro Android Team to Participate in Android Builders Summit 2013
+wordpress_id: 2346
 ---
 
 Are you attending either The Android Builders Summit or The Embedded Linux Conference 2013? Are you interested in Linaro?  If you answered “yes” to these questions then keep reading to find out how you can connect with Linaro at these events.

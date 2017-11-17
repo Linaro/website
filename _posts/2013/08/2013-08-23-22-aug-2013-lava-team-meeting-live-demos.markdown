@@ -1,13 +1,12 @@
 ---
 author: alan.bennett
-date: 2013-08-23 19:36:37+00:00
+categories:
+- blog
+date: 2013-08-23 19:36:37
+description: Recap of the weekly LAVA team meeting and LIVE demos
 layout: post
 link: https://www.linaro.org/blog/lava-blog/22-aug-2013-lava-team-meeting-live-demos/
 slug: 22-aug-2013-lava-team-meeting-live-demos
-title: 22 Aug 2013 - LAVA Team meeting - LIVE demos
-wordpress_id: 2863
-categories:
-- blog
 tags:
 - LAVA
 - arm
@@ -15,6 +14,8 @@ tags:
 - Linaro
 - Linux
 - Opensource
+title: 22 Aug 2013 - LAVA Team meeting - LIVE demos
+wordpress_id: 2863
 ---
 
 In this week's LAVA team meeting, the LAVA team opens a beta program for new git service (integrated with an optional code-review system/Gerrit), shows you where to learn about multi-node, introduces the new concept of an Image Report Editor, demos a lightweight bootloader class for netbooting lava-test-shell and discusses the use of Jenkins + LAVA to verify LAVA.

@@ -1,13 +1,15 @@
 ---
 author: linaro
-date: 2014-02-20 12:00:29+00:00
+categories:
+- News
+date: 2014-02-20 12:00:29
+description: "Linaro has started a Working Group dedicated to the delivery of open
+  source reference implementations of secure software on ARM\xC2\xAE platforms"
 layout: post
 link: https://www.linaro.org/news/linaro-forms-security-working-group/
 slug: linaro-forms-security-working-group
 title: Linaro Forms Security Working Group
 wordpress_id: 5057
-categories:
-- News
 ---
 
 ## Linaro has started a Working Group dedicated to the delivery of open source reference implementations of secure software on ARM® platforms

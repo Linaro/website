@@ -1,13 +1,13 @@
 ---
 author: steve.taylor
-date: 2014-09-05 20:18:13+00:00
+categories:
+- blog
+date: 2014-09-05 20:18:13
+description: Overview of the events taking place at Linaro Connect USA 2014 the week
+  of September 14-19th in Burlingame, California.
 layout: post
 link: https://www.linaro.org/blog/connect-update/expect-linaro-connect-usa-2014/
 slug: expect-linaro-connect-usa-2014
-title: 'What To Expect At Linaro Connect USA 2014 '
-wordpress_id: 6532
-categories:
-- blog
 tags:
 - Connect Events
 - conference
@@ -16,6 +16,8 @@ tags:
 - Linaro Connect
 - Linux
 - Open Source
+title: 'What To Expect At Linaro Connect USA 2014 '
+wordpress_id: 6532
 ---
 
 {% include image.html name="lcu14.jpg" alt="LCU14" url="http://www.linaro.org/connect/lcu/lcu14/"%}

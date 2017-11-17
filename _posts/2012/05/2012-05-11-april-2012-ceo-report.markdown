@@ -1,15 +1,18 @@
 ---
 author: george.grey
-date: 2012-05-11 21:13:36+00:00
+categories:
+- blog
+date: 2012-05-11 21:13:36
+description: Discussion on how Linaro's work affects many segments other than mobile
+  and enabling optimized hardware for a particular application, the software platforms
+  required to drive them are becoming increasingly complex.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/april-2012-ceo-report/
 slug: april-2012-ceo-report
-title: April 2012 CEO Report
-wordpress_id: 1626
-categories:
-- blog
 tags:
 - Industry
+title: April 2012 CEO Report
+wordpress_id: 1626
 ---
 
 Linaro's work affects many segments other than mobile - cars, TV, cameras, kiosks, printers, consumer and enterprise routers, servers - the market for Linux on ARM extends to billions of devices. The ARM architecture and business model encourages SoC vendors to create customized and value-added products for different market segments. While this enables optimized hardware for a particular application, the software platforms required to drive them are becoming increasingly complex. Standardization on core Linux software is becoming increasingly critical to avoid excessive engineering development and maintenance costs, and to avoid lengthy testing, validation and bug fixing cycles, which ultimately lead to product delays. The quality of Linaro's engineering team and its focus on consolidating and developing Linux core software on ARM will be of strategic importance for ARM SoC vendors for years to come.

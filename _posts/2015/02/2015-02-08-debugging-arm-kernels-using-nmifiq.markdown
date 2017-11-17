@@ -1,20 +1,24 @@
 ---
 author: daniel.thompson
+categories:
+- blog
 comments: true
-date: 2015-02-08 03:32:23+00:00
-excerpt: Daniel Thompson talks about how Linaro’s work to upstream a little known
-  tool for Android evolved into an effort, in collaboration with other contributors,
+date: 2015-02-08 03:32:23
+description: "Daniel Thompson talks about how Linaro\xE2\x80\x99s work to upstream
+  a little known tool for Android evolved into an effort, in collaboration with other
+  contributors, to build a framework to exploit fast interrupt requests and, as a
+  result, port a wide variety of NMI-based diagnostic techniques to ARM."
+excerpt: "Daniel Thompson talks about how Linaro\u2019s work to upstream a little
+  known tool for Android evolved into an effort, in collaboration with other contributors,
   to build a framework to exploit fast  interrupt requests and, as a result, port
-  a wide variety of NMI-based  diagnostic techniques to ARM.
+  a wide variety of NMI-based  diagnostic techniques to ARM."
 layout: post
 link: https://www.linaro.org/blog/core-dump/debugging-arm-kernels-using-nmifiq/
 slug: debugging-arm-kernels-using-nmifiq
-title: Debugging ARM kernels using NMI/FIQ
-wordpress_id: 7904
-categories:
-- blog
 tags:
 - Core Dump
+title: Debugging ARM kernels using NMI/FIQ
+wordpress_id: 7904
 ---
 
 # Debugging ARM kernels using NMI/FIQ

@@ -1,18 +1,21 @@
 ---
 author: zach.pfeffer
-date: 2011-10-12 05:02:19+00:00
+categories:
+- blog
+date: 2011-10-12 05:02:19
+description: Instructions to test the Angry Birds game on the Linaro Android Evaluation
+  Build for the Panda board.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/angry-birds-panda-board/
 slug: angry-birds-panda-board
-title: Bored? Try Angry Birds Rio on the Panda board!
-wordpress_id: 601
-categories:
-- blog
 tags:
 - Releases
 - android
 - release
+title: Bored? Try Angry Birds Rio on the Panda board!
+wordpress_id: 601
 ---
+
 ## Angry Birds Rio runs on the first 11.10 Panda staging build!
 
 For these instructions, you need a PC running Ubuntu 11.04 or later. You also need to get the Android SDK from [http://developer.android.com/sdk/](http://developer.android.com/sdk/) and install it. Also download the apk package file for the Angry Birds game (`Angry_Birds_1.3.2.apk`).

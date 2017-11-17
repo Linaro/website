@@ -1,13 +1,14 @@
 ---
 author: jennifer.castelino
-date: 2014-09-18 21:43:11+00:00
+categories:
+- blog
+date: 2014-09-18 21:43:11
+description: Description of the keynotes and sessions that took place on Wednesday
+  of Linaro Connect USA 2014. Including links to videos, presentations and session
+  summaries.
 layout: post
 link: https://www.linaro.org/blog/lcu14-wednesday-wrap/
 slug: lcu14-wednesday-wrap
-title: LCU14 Wednesday Wrap-up
-wordpress_id: 6708
-categories:
-- blog
 tags:
 - Connect Events
 - android
@@ -25,6 +26,8 @@ tags:
 - Open Source
 - Opensource
 - toolchain
+title: LCU14 Wednesday Wrap-up
+wordpress_id: 6708
 ---
 
 Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the ARM Server”. The [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) had a dedicated [ARM Server Ecosystem Day ](http://www.linaro.org/connect/lcu/lcu14/schedule/leg/)to introduce maintainers and leaders of key open source projects to Linux on ARMv8 servers. 

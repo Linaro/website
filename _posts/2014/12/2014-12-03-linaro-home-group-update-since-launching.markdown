@@ -1,13 +1,13 @@
 ---
 author: mark.gregotski
-date: 2014-12-03 23:51:32+00:00
+categories:
+- blog
+date: 2014-12-03 23:51:32
+description: Overview of the activities and projects the Linaro Home Group has been
+  working on since the group announcement in May 2014
 layout: post
 link: https://www.linaro.org/blog/linaro-home-group-update-since-launching/
 slug: linaro-home-group-update-since-launching
-title: Linaro Home Group Update Since Launching
-wordpress_id: 7602
-categories:
-- blog
 tags:
 - android
 - ARMv8
@@ -17,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Linaro Home Group Update Since Launching
+wordpress_id: 7602
 ---
 
 Linaro’s Home Group (LHG) was announced on May 29, 2014 and is the newest group within Linaro.  LHG works on solutions for members in reference to open source software for ARM-based set-top boxes, smart TVs, media boxes, TV dongles and home gateway products.  LHG was tasked by its’ members to work on several key initiatives including:
@@ -64,4 +66,3 @@ To learn more about the Linaro Home Group (LHG) please visit:  [https://wiki.li
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
 Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](http://connect.linaro.org/hkg15/%20)
-

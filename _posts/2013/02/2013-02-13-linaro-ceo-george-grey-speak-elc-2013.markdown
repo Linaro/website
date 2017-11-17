@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2013-02-13 12:23:28+00:00
+categories:
+- News
+date: 2013-02-13 12:23:28
+description: CAMBRIDGE, UK - 13 FEB 2013
 layout: post
 link: https://www.linaro.org/news/linaro-ceo-george-grey-speak-elc-2013/
 slug: linaro-ceo-george-grey-speak-elc-2013
 title: Linaro CEO George Grey to speak at ELC 2013
 wordpress_id: 4421
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 13 FEB 2013

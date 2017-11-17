@@ -1,13 +1,12 @@
 ---
 author: tony.mansson
-date: 2012-03-16 00:06:07+00:00
+categories:
+- blog
+date: 2012-03-16 00:06:07
+description: The Linaro Android Platform Team. big.LITTLE on Fast Model.
 layout: post
 link: https://www.linaro.org/blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/
 slug: the-linaro-android-platform-team-period-march-7-to-march-13
-title: The Linaro Android Platform Team, Period March 7 to March 13.
-wordpress_id: 1383
-categories:
-- blog
 tags:
 - Android
 - Hardware
@@ -19,6 +18,8 @@ tags:
 - fast model
 - Linaro
 - Linux on ARM
+title: The Linaro Android Platform Team, Period March 7 to March 13.
+wordpress_id: 1383
 ---
 
 Hello Linaro fans.

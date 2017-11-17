@@ -1,20 +1,23 @@
 ---
 author: yongqin.liu
-date: 2013-02-05 02:53:36+00:00
+categories:
+- blog
+date: 2013-02-05 02:53:36
+description: With the kernel update tools provided by the Linaro Android team, users
+  and developers can now update the kernel related files easily by using a few simple
+  commands.
 layout: post
 link: https://www.linaro.org/blog/android-blog/update-android-kernel-tools/
 slug: update-android-kernel-tools
-title: An Easy Way to Update Android Kernel Related Files Without Getting the sdcard
-  Out
-wordpress_id: 2231
-categories:
-- blog
 tags:
 - Android
 - android
 - kernel
 - Linaro
 - tools
+title: An Easy Way to Update Android Kernel Related Files Without Getting the sdcard
+  Out
+wordpress_id: 2231
 ---
 
 Do you feel it's difficult or complicated to update kernel related files for a running Android device?

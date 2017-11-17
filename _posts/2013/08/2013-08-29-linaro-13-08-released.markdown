@@ -1,14 +1,13 @@
 ---
 author: steve.taylor
-
-date: 2013-08-29 18:31:15+00:00
+categories:
+- blog
+date: 2013-08-29 18:31:15
+description: Linaro 13.08 release notes and highlights. Links to relevant downloads
+  for the release.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-08-released/
 slug: linaro-13-08-released
-title: Linaro 13.08 Released
-wordpress_id: 2910
-categories:
-- blog
 tags:
 - Releases
 - big.little
@@ -18,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - release
+title: Linaro 13.08 Released
+wordpress_id: 2910
 ---
 
 <blockquote>People with goals succeed because they know where they're going.

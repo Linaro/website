@@ -1,15 +1,17 @@
 ---
 author: george.grey
-date: 2012-09-07 01:52:38+00:00
+categories:
+- blog
+date: 2012-09-07 01:52:38
+description: Overview of new membership levels within Linaro as well as an update
+  on big.LITTLE work at Linaro.
 layout: post
 link: https://www.linaro.org/blog/connect-update/august-2012-ceo-report/
 slug: august-2012-ceo-report
-title: August 2012 CEO Report
-wordpress_id: 1884
-categories:
-- blog
 tags:
 - Connect Events
+title: August 2012 CEO Report
+wordpress_id: 1884
 ---
 
 Following the recent Members and Board meetings I am pleased to let the members know that the new category of Linaro membership - Group membership - has been approved. Linaro Core and Club membership continue to offer a high ROI for core Linaro work, consolidating and optimizing Linux on the ARM architecture, and also working in the mobile space (Android). Over the past 12 months our focus has been able to move from fixing the problems of the past, to learning from them and making Linux on ARM stronger in the future.

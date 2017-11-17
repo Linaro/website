@@ -1,15 +1,16 @@
 ---
 author: david.rusling
-date: 2012-12-17 19:05:12+00:00
+categories:
+- blog
+date: 2012-12-17 19:05:12
+description: Reflections on 2012 from Linaro's CTO
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-ctos-end-of-year-report-2012/
 slug: linaro-ctos-end-of-year-report-2012
-title: Linaro, CTO’s End of Year Report (2012)
-wordpress_id: 2128
-categories:
-- blog
 tags:
 - Industry
+title: "Linaro, CTO\u2019s End of Year Report (2012)"
+wordpress_id: 2128
 ---
 
 When I was a young lad at school, I loved the Christmas holiday. You could bring your toys into school and play games on the last afternoon. In those pre-electronic days, it was likely to be strategy board games such as Monopoly or card games featuring superheroes. Looking back at 2012, I realize that things are not so different now.

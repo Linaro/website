@@ -1,17 +1,17 @@
 ---
 author: linaro
-
-date: 2015-09-23 21:42:05+00:00
+categories:
+- blog
+date: 2015-09-23 21:42:05
+description: Linaro's 15.09 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.09 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-09-release-available-for-download/
 slug: linaro-15-09-release-available-for-download
-title: Linaro 15.09 Release Available for Download
-wordpress_id: 9316
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -24,6 +24,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 15.09 Release Available for Download
+wordpress_id: 9316
 ---
 
 > “Tell everyone what you want to do and someone will want to help you do it." _**~ W. Clement Stone**_

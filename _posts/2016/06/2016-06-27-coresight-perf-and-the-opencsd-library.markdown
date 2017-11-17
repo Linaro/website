@@ -1,20 +1,20 @@
 ---
 author: mathieu.poirier
-date: 2016-06-27 22:45:43+00:00
+categories:
+- blog
+date: 2016-06-27 22:45:43
+description: How the CoreSight framework found in the Linux kernel has been integrated
+  with the standard Perf core, both at the kernel and user space level.
 excerpt: 'Learn how the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.  In the latter
   part the newly introduced Open CoreSight Decoding Library (OpenCSD) is used to assist
   with trace decoding.  The topic of trace decoding with openCSD will be covered in
   an upcoming post.
 
-  '
+'
 layout: post
 link: https://www.linaro.org/blog/core-dump/coresight-perf-and-the-opencsd-library/
 slug: coresight-perf-and-the-opencsd-library
-title: CoreSight, Perf and the OpenCSD Library
-wordpress_id: 10726
-categories:
-- blog
 tags:
 - Core Dump
 - CoreSight
@@ -23,6 +23,8 @@ tags:
 - Linux on ARM
 - OpenCSD library
 - Perf
+title: CoreSight, Perf and the OpenCSD Library
+wordpress_id: 10726
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}

@@ -1,18 +1,21 @@
 ---
 author: alan.bennett
-date: 2011-11-07 20:52:50+00:00
+categories:
+- blog
+date: 2011-11-07 20:52:50
+description: Discussion on Linaro's LAVA efforts including Android testing, visualization
+  and reporting as well as links to project updates and source code.
 layout: post
 link: https://www.linaro.org/blog/community-blog/automated-validation-with-lava/
 slug: automated-validation-with-lava
-title: Automated Validation with LAVA
-wordpress_id: 842
-categories:
-- blog
 tags:
 - Community
 - Hardware
 - LAVA
+title: Automated Validation with LAVA
+wordpress_id: 842
 ---
+
 LAVA is at the heart of the value Linaro brings:  its aims are improving automated testing of the open source components that are used in the major Linux-based software platforms, and increasing confidence in the quality of enablement for our members' platforms.
 
 LAVA has evolved as Linaro's development and release process has changed. For instance, over the past 6 months, the Linaro Platform team has transitioned to monthly releases of all Ubuntu and Android-based Linaro evaluation builds. Test builds of these images happen daily, sometimes with multiple builds a day. With the increased release frequency, automated validation is crucial, and LAVA is therefore a central component in this change. As a consequence, LAVA itself is improved and released at an increased rate to handle the continuous demands of rapid platform development.

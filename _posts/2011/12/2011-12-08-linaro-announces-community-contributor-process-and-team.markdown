@@ -1,15 +1,18 @@
 ---
 author: linaro
-date: 2011-12-08 19:00:49+00:00
+categories:
+- blog
+date: 2011-12-08 19:00:49
+description: Linaro announces the formation of the Linaro Community Contributor Process
+  and Team, introducing a process to recognise community members who have sustained
+  contributions over a significant period of time.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-community-contributor-process-and-team/
 slug: linaro-announces-community-contributor-process-and-team
-title: Linaro Announces Community Contributor Process and Team
-wordpress_id: 1042
-categories:
-- blog
 tags:
 - Community
+title: Linaro Announces Community Contributor Process and Team
+wordpress_id: 1042
 ---
 
 Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://launchpad.net/~linaro-community-contributors).

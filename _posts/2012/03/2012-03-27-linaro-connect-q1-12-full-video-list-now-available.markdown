@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2012-03-27 02:28:31+00:00
+categories:
+- blog
+date: 2012-03-27 02:28:31
+description: Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and
+  information on how to take part in Linaro Connect Q2.12, 28 May - 1 June, in Hong
+  Kong
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q1-12-full-video-list-now-available/
 slug: linaro-connect-q1-12-full-video-list-now-available
-title: Linaro Connect Q1.12 Full Video List Now Available
-wordpress_id: 1437
-categories:
-- blog
 tags:
 - Android
 - Community
@@ -16,6 +17,8 @@ tags:
 - Industry
 - LAVA
 - Patch-Highlights
+title: Linaro Connect Q1.12 Full Video List Now Available
+wordpress_id: 1437
 ---
 
 The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](http://connect.linaro.org/events/event/lcq1-12/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.

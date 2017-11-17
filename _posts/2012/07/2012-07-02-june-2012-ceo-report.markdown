@@ -1,17 +1,19 @@
 ---
 author: george.grey
-date: 2012-07-02 20:50:43+00:00
+categories:
+- blog
+date: 2012-07-02 20:50:43
+description: Overview on the lastest products that are supported by the ARM Ecosystem.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/june-2012-ceo-report/
 slug: june-2012-ceo-report
-title: June 2012 CEO Report
-wordpress_id: 1690
-categories:
-- blog
 tags:
 - Android
 - Industry
+title: June 2012 CEO Report
+wordpress_id: 1690
 ---
+
 Although Linaro is now only two years old and has already achieved substantial success, it seems like we have only just begun.
 
 Differentiation and innovation lie at the heart of the ARM ecosystem. The PC market was built on a single hardware platform. For a while it has looked like the tablet market would be also a single platform, but Amazon's Kindle Fire showed that through differentiation an  alternative tablet could ship millions of units. More recently Microsoft has (re)entered the tablet market with the Surface, and Google has just announced its next generation Nexus 7 tablet running the new Jellybean version of Android. Suddenly non-Apple tablets are seeing a resurgence, led by Google's Linux-based software (including more and more of Linaro's ARM improvements and consolidations with each iteration of Android).

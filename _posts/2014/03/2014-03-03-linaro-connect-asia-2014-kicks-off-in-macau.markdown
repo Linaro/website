@@ -1,13 +1,12 @@
 ---
 author: jennifer.castelino
-date: 2014-03-03 18:27:36+00:00
+categories:
+- blog
+date: 2014-03-03 18:27:36
+description: Recap of the first day of LCA14
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-asia-2014-kicks-off-in-macau/
 slug: linaro-connect-asia-2014-kicks-off-in-macau
-title: Linaro Connect Asia 2014 - Kicks Off in Macau
-wordpress_id: 3430
-categories:
-- blog
 tags:
 - Connect Events
 - conference
@@ -18,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Linaro Connect Asia 2014 - Kicks Off in Macau
+wordpress_id: 3430
 ---
 
 [Linaro Connect Asia 2014 ](http://www.linaro.org/connect-lca14)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](http://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/en/) and is a founding member of the new [Linaro Digital Home Group](https://wiki.linaro.org/WorkingGroups/LHG). 

@@ -1,16 +1,17 @@
 ---
 author: linaro
-
-date: 2013-01-30 18:48:51+00:00
+categories:
+- blog
+date: 2013-01-30 18:48:51
+description: Overview of Linaro's participation in Open Compute Summit. Including
+  a presentation that discusses how Linaro and the Open Compute Project are complementary
 layout: post
 link: https://www.linaro.org/blog/community-blog/open-compute-event-opens-door-to-working-together/
 slug: open-compute-event-opens-door-to-working-together
-title: Open Compute Event Opens Door to Working Together
-wordpress_id: 2252
-categories:
-- blog
 tags:
 - Community
+title: Open Compute Event Opens Door to Working Together
+wordpress_id: 2252
 ---
 
 The fourth [Open Compute Summit ](http://www.opencompute.org/summit-2013/)was held on January 16-17, 2013, at the Santa Clara Convention Center in  Santa Clara, California. The Open Compute Summit is an international conference sponsored by the Open Compute Project (OCP) and is focused on companies and projects in the industry that are collectively working to develop the most efficient computing infrastructure possible. This was an impressive event with over 1500 attendees, many from server end users, server OEM and ODMs, storage vendors and silicon companies including ARM and its partner vendors such as Calxeda and Applied Micro.

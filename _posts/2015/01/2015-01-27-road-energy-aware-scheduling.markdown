@@ -1,24 +1,25 @@
 ---
 author: nicolas.pitre
+categories:
+- blog
 comments: true
-date: 2015-01-27 17:26:36+00:00
+date: 2015-01-27 17:26:36
+description: Hardware became much less energy hungry while providing increased performance
+  of many orders of magnitude.
 excerpt: 'The computing industry has gone through multiple "power" phases since its
   infancy.  The first computers consumed quite a lot of power. However they weren''t
   very powerful in the computational sense. With the large technological advancements
   that followed, the hardware became much less energy hungry while providing increased
-  performance of many orders of magnitude.
-  '
+  performance of many orders of magnitude. '
 layout: post
 link: https://www.linaro.org/blog/core-dump/road-energy-aware-scheduling/
 slug: road-energy-aware-scheduling
-title: The Road to Energy-Aware Scheduling
-wordpress_id: 7806
-categories:
-- blog
 tags:
 - Core Dump
 - Energy-Aware
 - Scheduling
+title: The Road to Energy-Aware Scheduling
+wordpress_id: 7806
 ---
 
 # **The Road to Energy-Aware Scheduling**

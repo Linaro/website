@@ -1,16 +1,19 @@
 ---
 author: linaro
-date: 2012-02-23 15:49:25+00:00
+categories:
+- blog
+date: 2012-02-23 15:49:25
+description: Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new
+  hardware, configuration challenges and the ultimate success of deploying of their
+  own cloud.
 layout: post
 link: https://www.linaro.org/blog/hardware-update/dave-pigott-and-the-lava-validation-team-head-to-the-cloud/
 slug: dave-pigott-and-the-lava-validation-team-head-to-the-cloud
-title: 'Dave Pigott and the LAVA Validation Team Head to the Cloud '
-wordpress_id: 1253
-categories:
-- blog
 tags:
 - Hardware
 - LAVA
+title: 'Dave Pigott and the LAVA Validation Team Head to the Cloud '
+wordpress_id: 1253
 ---
 
 **_Article contributed by Dave Pigott_**

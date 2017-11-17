@@ -1,15 +1,17 @@
 ---
 author: jesse.barker
-date: 2011-10-25 02:20:14+00:00
+categories:
+- blog
+date: 2011-10-25 02:20:14
+description: Description of Linaro's participation in the ARM Cortex-A7 launch event
+  and how Linaro is contributing to the success of this product.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-at-the-launch-of-arms-new-cortex-a7-processor/
 slug: linaro-at-the-launch-of-arms-new-cortex-a7-processor
-title: Linaro at the launch of ARM's new Cortex-A7 processor
-wordpress_id: 725
-categories:
-- blog
 tags:
 - Industry
+title: Linaro at the launch of ARM's new Cortex-A7 processor
+wordpress_id: 725
 ---
 
 I was in San Francisco for the launch of ARM's new Cortex-A7 processor last week. ARM invited me along to talk about Linaro's involvement in enabling big.LITTLE support in new devices. Jeff Chu from ARM talked with me about this for YouTube: [http://www.youtube.com/watch?v=s8gnnf_kC6Y](http://www.youtube.com/watch?v=s8gnnf_kC6Y). This largely focused on power management and scheduling (what is officially being called "task migration").

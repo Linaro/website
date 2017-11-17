@@ -1,14 +1,12 @@
 ---
 author: linaro
-date: 2016-09-26 19:12:46+00:00
+categories:
+- News
+date: 2016-09-26 19:12:46
+description: Cambridge, UK; 26 September 2016
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
 slug: linaro-announces-first-development-board-compliant-96boards-iot-edition-specification
-title: Linaro Announces First Development Board Compliant with 96Boards IoT Edition
-  Specification
-wordpress_id: 11672
-categories:
-- News
 tags:
 - 96Boards
 - hardware
@@ -16,6 +14,9 @@ tags:
 - Linaro Connect
 - Linux
 - Linux on ARM
+title: Linaro Announces First Development Board Compliant with 96Boards IoT Edition
+  Specification
+wordpress_id: 11672
 ---
 
 Cambridge, UK; 26 September 2016

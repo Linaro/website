@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2012-01-26 18:22:14+00:00
+categories:
+- blog
+date: 2012-01-26 18:22:14
+description: Links to all the downloads for the Linaro 12.01 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-01-release/
 slug: linaro-12-01-release
-title: Linaro 12.01 release
-wordpress_id: 1212
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 12.01 release
+wordpress_id: 1212
 ---
 
 "_Action is the foundational key to all success._" ~ **Pablo Picasso**

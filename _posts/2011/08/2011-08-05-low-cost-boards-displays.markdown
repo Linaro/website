@@ -1,18 +1,22 @@
 ---
 author: linaro
-date: 2011-08-05 15:04:54+00:00
+categories:
+- blog
+date: 2011-08-05 15:04:54
+description: Linaro Matt Waddel shares his experience running desktop distributions
+  with Linaro software on development boards, for extended durations, and at a public
+  event
 layout: post
 link: https://www.linaro.org/blog/hardware-update/low-cost-boards-displays/
 slug: low-cost-boards-displays
-title: Using ARM low cost boards for displays
-categories:
-- blog
 tags:
 - Hardware
 - board
 - desktop
 - Linaro
+title: Using ARM low cost boards for displays
 ---
+
 {% include image.html name="disp.jpg" alt="DISP" class="small-inline right" %}
 
 During the Linaro Connect Q3.11 event in Cambridge, UK, I was asked to put together a system to display the schedule/conference info and IRC discussions on screens throughout the venue.
@@ -36,4 +40,3 @@ and the hardware you actually use, in particular in a public event!
 
 
   3. Be ready for last minute requests.
-

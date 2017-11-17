@@ -1,18 +1,20 @@
 ---
 author: linaro
-date: 2012-01-12 17:41:24+00:00
+categories:
+- blog
+date: 2012-01-12 17:41:24
+description: Announcement of the Linaro QEMU 2012.01 release. New features and known
+  issues.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2012-01-released/
 slug: linaro-qemu-2012-01-released
-title: Linaro QEMU 2012.01 released
-wordpress_id: 1173
-categories:
-- blog
 tags:
 - Releases
 - Linaro
 - qemu
 - release
+title: Linaro QEMU 2012.01 released
+wordpress_id: 1173
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2012.01.

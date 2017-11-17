@@ -1,15 +1,17 @@
 ---
 author: fathi.boudra
-date: 2012-04-12 12:45:50+00:00
+categories:
+- blog
+date: 2012-04-12 12:45:50
+description: Announcement of the Linaro QEMU 2012.04 release. New features and known
+  issues.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2012-04-released/
 slug: linaro-qemu-2012-04-released
-title: Linaro QEMU 2012.04 released
-wordpress_id: 1546
-categories:
-- blog
 tags:
 - Releases
+title: Linaro QEMU 2012.04 released
+wordpress_id: 1546
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2012.04.

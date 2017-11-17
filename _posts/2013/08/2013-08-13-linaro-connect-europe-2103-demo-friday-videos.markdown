@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2013-08-13 15:44:04+00:00
+categories:
+- blog
+date: 2013-08-13 15:44:04
+description: Demo Friday videos from from Linaro Connect Europe 2013 are now available
+  for viewing.
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2103-demo-friday-videos/
 slug: linaro-connect-europe-2103-demo-friday-videos
-title: Linaro Connect Europe 2013 - Demo Friday Videos
-wordpress_id: 2852
-categories:
-- blog
 tags:
 - Connect Events
+title: Linaro Connect Europe 2013 - Demo Friday Videos
+wordpress_id: 2852
 ---
 
 [Demo Friday](http://www.linaro.org/connect-lce13/demo-friday) at the Linaro Connect events is always an educational and inspiring way to wrap-up the fast paced, high energy week of creating the plans which continue to drive the future of Linux on ARM.

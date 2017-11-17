@@ -1,15 +1,16 @@
 ---
 author: david.zinman
-date: 2011-12-22 19:52:48+00:00
+categories:
+- blog
+date: 2011-12-22 19:52:48
+description: Links to all the downloads for the Linaro 11.12 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-11-12-released/
 slug: linaro-11-12-released
-title: Linaro 11.12 Released
-wordpress_id: 1113
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 11.12 Released
+wordpress_id: 1113
 ---
 
 "We are what we repeatedly do. Excellence, therefore, is not an act but a habit." ~Aristotle

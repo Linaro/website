@@ -1,15 +1,17 @@
 ---
 author: george.grey
-date: 2013-05-01 18:55:37+00:00
+categories:
+- blog
+date: 2013-05-01 18:55:37
+description: Overview of the first quarter of Linaro in 2013 and how the ARM ecosystem
+  and Linaro are growing.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/q1-2013-ceo-notes/
 slug: q1-2013-ceo-notes
-title: Q1 2013 CEO Notes
-wordpress_id: 2665
-categories:
-- blog
 tags:
 - Industry
+title: Q1 2013 CEO Notes
+wordpress_id: 2665
 ---
 
 **The Expanding ARM Ecosystem**

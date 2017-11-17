@@ -1,18 +1,19 @@
 ---
 author: george.grey
-date: 2012-03-20 20:53:23+00:00
+categories:
+- blog
+date: 2012-03-20 20:53:23
+description: George Grey discusses Linaro Member ROI in-depth
 layout: post
 link: https://www.linaro.org/blog/industry-blog/february-2012-ceo-report/
 slug: february-2012-ceo-report
-title: February 2012 CEO Report
-wordpress_id: 1405
-categories:
-- blog
 tags:
 - Industry
 - arm
 - Linaro
 - market
+title: February 2012 CEO Report
+wordpress_id: 1405
 ---
 
 Linaro is now receiving industry recognition for its work, both from a purely technical viewpoint, and in helping the member ARM SoC vendors work together on common challenges, while remaining fierce competitors with successful differentiation. This month I’d like to say a little about how we achieve this, and as a result, why Linaro members derive significant value and ROI from their involvement.

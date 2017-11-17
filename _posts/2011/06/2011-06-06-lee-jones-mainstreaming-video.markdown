@@ -1,18 +1,20 @@
 ---
 author: linaro
-date: 2011-06-06 21:56:19+00:00
+categories:
+- blog
+date: 2011-06-06 21:56:19
+description: Video - Lee Jones - What is upstreaming and why should we bother? Linaro
+  Developer Summit, May 2011, Budapest.
 layout: post
 link: https://www.linaro.org/blog/community-blog/lee-jones-mainstreaming-video/
 slug: lee-jones-mainstreaming-video
-title: 'LDS video: what is upstreaming?'
-wordpress_id: 3388
-categories:
-- blog
 tags:
 - Community
 - kernel
 - Linux
 - upstreaming
+title: 'LDS video: what is upstreaming?'
+wordpress_id: 3388
 ---
 
 I brought my HD camcorder at the Linaro Developer Summit in Budapest last month, and I managed to videotape an interesting talk from Lee Jones (ST-Ericsson Landing Team Lead).

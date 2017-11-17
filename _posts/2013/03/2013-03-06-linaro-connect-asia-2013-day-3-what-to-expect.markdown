@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2013-03-06 00:12:38+00:00
+categories:
+- blog
+date: 2013-03-06 00:12:38
+description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
+  you can participate remotely and as well as the schedule of events for Day 3.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
 slug: linaro-connect-asia-2013-day-3-what-to-expect
-title: Linaro Connect Asia 2013 - Day 3 - What To Expect
-wordpress_id: 2548
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Linaro Connect Asia 2013 - Day 3 - What To Expect
+wordpress_id: 2548
 ---
 
 [Linaro Connect Asia Day 2](http://www.linaro.org/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.

@@ -1,15 +1,16 @@
 ---
 author: linaro
-
-date: 2010-11-10 12:06:52+00:00
+categories:
+- News
+date: 2010-11-10 12:06:52
+description: CAMBRIDGE, UK - 10 NOV 2010
 layout: post
 link: https://www.linaro.org/news/linaro-gains-momentum-demonstrates-progress-accelerating-open-source-development/
 slug: linaro-gains-momentum-demonstrates-progress-accelerating-open-source-development
 title: Linaro gains momentum and demonstrates progress accelerating open source development
 wordpress_id: 4404
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 10 NOV 2010
 
 ## Linaro completes 10.11 release on time and showcases its engineering on multiple ARM Cortex-A9 chips running multiple software distributions

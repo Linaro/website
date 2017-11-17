@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2012-12-21 19:16:52+00:00
+categories:
+- blog
+date: 2012-12-21 19:16:52
+description: LEG Engineers held a public Hangout on Air where they discussed UEFI
+  updates, future goals and how to get involved.
 layout: post
 link: https://www.linaro.org/blog/community-blog/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/
 slug: leg-engineers-discuss-uefi-updates-goals-and-getting-involved
-title: 'LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved'
-wordpress_id: 2183
-categories:
-- blog
 tags:
 - Community
+title: 'LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved'
+wordpress_id: 2183
 ---
 
 A UEFI Mini-Sprint was held at the Linaro offices in Cambridge UK on 11-13 December.

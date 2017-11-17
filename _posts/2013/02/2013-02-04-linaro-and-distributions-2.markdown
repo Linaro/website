@@ -1,13 +1,14 @@
 ---
 author: david.rusling
-date: 2013-02-04 15:14:04+00:00
+categories:
+- blog
+date: 2013-02-04 15:14:04
+description: How Linaro interacts with distributions
 layout: post
 link: https://www.linaro.org/blog/linaro-and-distributions-2/
 slug: linaro-and-distributions-2
 title: Linaro and Distributions
 wordpress_id: 2244
-categories:
-- blog
 ---
 
 From the by start of Linaro there has been much confusion about Linaro and distributions. Part of this, I'm sure is because Linaro is different from most open source entities which, by and large, are either industry consortiums or distributions or a mixture of the two. So what is the relationship between Linaro and ARM Linux based distributions?

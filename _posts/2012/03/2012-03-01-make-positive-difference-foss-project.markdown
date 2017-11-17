@@ -1,14 +1,17 @@
 ---
 author: jennifer.castelino
-date: 2012-03-01 20:53:43+00:00
+categories:
+- blog
+date: 2012-03-01 20:53:43
+description: Blog on how to make a positive difference in a FOSS project. Includes
+  information on how to participate and contribute to a FOSS project.
 layout: post
 link: https://www.linaro.org/blog/make-positive-difference-foss-project/
 slug: make-positive-difference-foss-project
 title: How to make a positive difference in a FOSS project
 wordpress_id: 4544
-categories:
-- blog
 ---
+
 By:  Paul McKenney, Linaro OCTO
 
 Success in proprietary and personal projects in no way guarantees success in a FOSS project such as the Linux kernel. In fact, in my experience, only about 30% of people who try to join a FOSS project are successful, and the success rates for people attempting to start a FOSS project are even more dismal. This document lists some things you can do to improve your odds of successfully joining and contributing to a FOSS project: Information on starting your own FOSS project is left to those with actual experience.

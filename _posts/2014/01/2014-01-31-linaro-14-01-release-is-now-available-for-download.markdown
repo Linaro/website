@@ -1,13 +1,12 @@
 ---
 author: fathi.boudra
-date: 2014-01-31 01:23:11+00:00
+categories:
+- blog
+date: 2014-01-31 01:23:11
+description: Information and links for the Linaro 14.01 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-14-01-release-is-now-available-for-download/
 slug: linaro-14-01-release-is-now-available-for-download
-title: Linaro 14.01 release is now available for download!
-wordpress_id: 3319
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -28,6 +27,8 @@ tags:
 - release cycle
 - software
 - toolchain
+title: Linaro 14.01 release is now available for download!
+wordpress_id: 3319
 ---
 
 > It is not only for what we do that we are held responsible, but also for what we do not do.   ~ Moliere

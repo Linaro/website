@@ -1,19 +1,20 @@
 ---
 author: frans.gifford
-date: 2011-10-26 12:52:11+00:00
+categories:
+- blog
+date: 2011-10-26 12:52:11
+description: Using app markets with Linaro Android builds
 layout: post
 link: https://www.linaro.org/blog/android-blog/using-markets-with-linaro-android-builds/
 slug: using-markets-with-linaro-android-builds
-title: Using App Markets with Linaro Android builds
-wordpress_id: 748
-categories:
-- blog
 tags:
 - Android
 - android
 - app
 - Linaro
 - market
+title: Using App Markets with Linaro Android builds
+wordpress_id: 748
 ---
 
 Software distribution on modern smartphones tends to be centralised in markets. Just as iPhone has iTunes, Android has the Android Market, but also allows other markets such as F-Droid.

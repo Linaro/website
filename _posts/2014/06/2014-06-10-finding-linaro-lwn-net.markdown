@@ -1,6 +1,10 @@
 ---
 author: steve.taylor
-date: 2014-06-10 13:01:12+00:00
+categories:
+- blog
+date: 2014-06-10 13:01:12
+description: One of the best places to go to find out what Linaro is working on in
+  the Linux kernel is LWN.net. Over the last four years Linaro has had numerous articles
 excerpt: One of the best places to go to find out what Linaro is working on in the
   Linux kernel is LWN.net. To get the full value, you need to subscribe and keep a
   daily watch on it. LWN has been going since 1998 and so I reckon  estimate they
@@ -9,10 +13,6 @@ excerpt: One of the best places to go to find out what Linaro is working on in t
 layout: post
 link: https://www.linaro.org/blog/finding-linaro-lwn-net/
 slug: finding-linaro-lwn-net
-title: Finding out about Linaro on LWN.net
-wordpress_id: 5888
-categories:
-- blog
 tags:
 - Engineering cycle
 - Linaro
@@ -20,6 +20,8 @@ tags:
 - Linux on ARM
 - LWN
 - Open Source
+title: Finding out about Linaro on LWN.net
+wordpress_id: 5888
 ---
 
 One of the best places to go to find out what Linaro is working on in the Linux kernel is LWN.net. To get the full value, you need to subscribe and keep a daily watch on it. LWN has been going since 1998 and so I estimate they have already delivered over 830 weekly editions, but the number of postings is significantly higher. Following a site redesign in May 2002, it appears that they have generated close to 600,000 postings (note that each comment on an article, as well as the original article, has a unique URL and counts as a posting), which would be an average of about 140 a day. Finding older postings is challenging not only because of this quantity, but also because the search engine ‘remains relatively primitive; search terms are alphanumeric strings (with "-" and "\_" as well); there is no quoting or any sort of special qualifiers (like "+word"). We'll make it better someday, we promise.’

@@ -1,13 +1,13 @@
 ---
 author: mark.orvek
-date: 2015-02-04 22:20:59+00:00
+categories:
+- blog
+date: 2015-02-04 22:20:59
+description: A look ahead of what will be taking place during Linaro Connect Hong
+  Kong 2015.
 layout: post
 link: https://www.linaro.org/blog/welcome-linaro-connect-hong-kong-2015/
 slug: welcome-linaro-connect-hong-kong-2015
-title: Welcome to Linaro Connect Hong Kong 2015!
-wordpress_id: 7859
-categories:
-- blog
 tags:
 - connect
 - Connect Events
@@ -15,7 +15,10 @@ tags:
 - Linaro Connect
 - Linux on ARM
 - Open Source
+title: Welcome to Linaro Connect Hong Kong 2015!
+wordpress_id: 7859
 ---
+
 {% include image.html name="hotelbuilding1.jpg" alt="Hong Kong 2015 Hotel"%}
 
 We are returning to Hong Kong for this year’s[ Linaro Connect](http://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights [1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.

@@ -1,15 +1,17 @@
 ---
 author: george.grey
-date: 2012-04-10 18:06:29+00:00
+categories:
+- blog
+date: 2012-04-10 18:06:29
+description: "George Grey, our CEO, details the new Member-first strategy with Linaro\xE2\x80\x99s
+  in-kernel big.LITTLE Switcher functionality"
 layout: post
 link: https://www.linaro.org/blog/industry-blog/march-2012-ceo-report/
 slug: march-2012-ceo-report
-title: March 2012 CEO Report
-wordpress_id: 1528
-categories:
-- blog
 tags:
 - Industry
+title: March 2012 CEO Report
+wordpress_id: 1528
 ---
 
 Linaro has made substantial progress in its goal of consolidating and optimizing Linux on the ARM architecture. As an open source-focused organization this work has been carried out completely in the open, and has benefited from the active participation of the Linux community. Part of our key focus for 2012 is to work closely with ARM on new technology with the goal of upstreaming early, and preventing fragmentation around new core technology before it starts. Linaro's members together represent a substantial part of the ARM ecosystem. Linaro projects including Unified Memory Management (UMM) have already proved that we can make significant contributions to architectural infrastructure improvements for ARM.

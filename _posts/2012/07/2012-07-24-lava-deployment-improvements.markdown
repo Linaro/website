@@ -1,13 +1,15 @@
 ---
 author: linaro
-date: 2012-07-24 16:54:35+00:00
+categories:
+- blog
+date: 2012-07-24 16:54:35
+description: This article goes over the latest improvements to the LAVA deployment
+  process
 layout: post
 link: https://www.linaro.org/blog/lava-deployment-improvements/
 slug: lava-deployment-improvements
 title: LAVA Deployment Improvements
 wordpress_id: 1701
-categories:
-- blog
 ---
 
 Last month the LAVA team made a big update to the way their [deployment tool](http://launchpad.net/lava-deployment-tool) works. The new method uses [zc.buildout](http://www.buildout.org/). The result is that we now have a deployment tool in place that works consistently and repeatably.

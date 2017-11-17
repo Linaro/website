@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-07-31 23:14:37+00:00
+categories:
+- blog
+date: 2014-07-31 23:14:37
+description: The Linaro 14.07 release is now available for immediate download. Here
+  you will find links to all the products in this release.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-07-available-download/
 slug: linaro-14-07-available-download
-title: Linaro 14.07 Available for Download!
-wordpress_id: 6239
-categories:
-- blog
 tags:
 - android
 - connect
@@ -19,6 +19,8 @@ tags:
 - release cycle
 - software
 - toolchain
+title: Linaro 14.07 Available for Download!
+wordpress_id: 6239
 ---
 
 > “If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.” Morris West
@@ -94,5 +96,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
 Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [http://www.linaro.org/connect/lcu/lcu14/](http://www.linaro.org/connect/lcu/lcu14/)
-
-

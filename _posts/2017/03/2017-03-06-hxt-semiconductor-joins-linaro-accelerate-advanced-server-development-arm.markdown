@@ -1,14 +1,12 @@
 ---
 author: linaro
-date: 2017-03-06 07:57:57+00:00
+categories:
+- News
+date: 2017-03-06 07:57:57
+description: Budapest, Hungary; 6 March 2017
 layout: post
 link: https://www.linaro.org/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
 slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
-title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
-  ARM
-wordpress_id: 12223
-categories:
-- News
 tags:
 - arm
 - ARM servers
@@ -18,6 +16,9 @@ tags:
 - Linaro
 - Linaro Connect
 - linaro members
+title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
+  ARM
+wordpress_id: 12223
 ---
 
 Budapest, Hungary; 6 March 2017
@@ -41,5 +42,3 @@ Guizhou Huaxintong Semiconductor Technologies Co., Ltd is a joint venture betwee
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company is headquartered in the UK with over 300 engineers working in 26 countries on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org).
-
-

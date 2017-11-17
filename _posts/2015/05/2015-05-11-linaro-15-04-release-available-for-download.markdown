@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2015-05-11 14:16:55+00:00
+categories:
+- blog
+date: 2015-05-11 14:16:55
+description: Linaro's 15.04 release is not available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-04-release-available-for-download/
 slug: linaro-15-04-release-available-for-download
-title: Linaro 15.04 Release Available for Download
-wordpress_id: 8612
-categories:
-- blog
 tags:
 - Releases
 - Engineering cycle
@@ -19,6 +20,8 @@ tags:
 - software
 - toolchain
 - tools
+title: Linaro 15.04 Release Available for Download
+wordpress_id: 8612
 ---
 
 > “When I was a boy and I would see scary things in the news, my mother would say to me, ‘Look for the helpers. You will always find people who are helping." _**~ Fred Rogers**_

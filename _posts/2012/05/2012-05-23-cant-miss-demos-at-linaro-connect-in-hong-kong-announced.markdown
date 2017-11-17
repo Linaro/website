@@ -1,19 +1,21 @@
 ---
 author: linaro
-date: 2012-05-23 14:26:03+00:00
+categories:
+- blog
+date: 2012-05-23 14:26:03
+description: The list of demos being offered at the Q2.12 Linaro Connect event in
+  Hong Kong during the Demo Friday event on 1 June 2012 is now available.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/
 slug: cant-miss-demos-at-linaro-connect-in-hong-kong-announced
-title: Can't Miss Demos at Linaro Connect in Hong Kong Announced
-wordpress_id: 1643
-categories:
-- blog
 tags:
 - Android
 - Community
 - Connect Events
 - Hardware
 - Industry
+title: Can't Miss Demos at Linaro Connect in Hong Kong Announced
+wordpress_id: 1643
 ---
 
 With the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) starting on Monday 28 May, the list of Demos available for the public see and participate in during the [Demo Friday](http://connect.linaro.org/events/linaro-connect-q2-12-demo-friday/) event on 1 June is now available.

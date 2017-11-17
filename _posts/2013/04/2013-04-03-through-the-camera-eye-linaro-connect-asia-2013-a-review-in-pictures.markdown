@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2013-04-03 20:36:23+00:00
+categories:
+- blog
+date: 2013-04-03 20:36:23
+description: Check out this photo montage that takes you through Linaro Connect Asia
+  2013 in pictures.
 layout: post
 link: https://www.linaro.org/blog/connect-update/through-the-camera-eye-linaro-connect-asia-2013-a-review-in-pictures/
 slug: through-the-camera-eye-linaro-connect-asia-2013-a-review-in-pictures
-title: Through the Camera Eye - Linaro Connect Asia 2013 A Review in Pictures
-wordpress_id: 2636
-categories:
-- blog
 tags:
 - Connect Events
+title: Through the Camera Eye - Linaro Connect Asia 2013 A Review in Pictures
+wordpress_id: 2636
 ---
 
 [Linaro Connect Europe 2013](http://www.linaro.org/connect/) planning is now underway and [registration is open](http://www.linaro.org/linaro-blog/2013/03/21/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/).

@@ -1,22 +1,23 @@
 ---
 author: david.rusling
-
-date: 2015-06-25 14:33:55+00:00
+categories:
+- blog
+date: 2015-06-25 14:33:55
+description: Overview of how Linaro began and why it was created. David Rusling discusses
+  some of the challenges in the beginning and what was done to overcome them.
 excerpt: Overview of how Linaro began and why it was created. David Rusling discusses
   some of the challenges in the beginning and what was done to overcome them.
 layout: post
 link: https://www.linaro.org/blog/a-short-history-of-the-future-part-i/
 slug: a-short-history-of-the-future-part-i
-title: A short History of the Future - Part I
-wordpress_id: 8807
-categories:
-- blog
 tags:
 - arm
 - Linaro
 - Linux
 - Linux on ARM
 - software
+title: A short History of the Future - Part I
+wordpress_id: 8807
 ---
 
 When the idea that became Linaro came to us in late 2009, the world was (or at least appeared to be) a much simpler place. The technical problems were more immediate, more concrete and easier to grasp and understand. The ARM parts of the Linux kernel were a mess, the GNU toolchain for ARM was not competitive (or even particularly stable).  The social problems were also eminently tangible. It was clear that ARM’s business model generated fragmented and (sometimes even lackadaisical) open source efforts. The original Linaro membership was split between companies that were wildly enthusiastic about open source and companies that were skeptical at best. Some even believing that to donate code into projects was equivalent to giving your fiercest rivals your secrets.
@@ -62,4 +63,3 @@ _References_
 
   1. [http://article.gmane.org/gmane.linux.ports.arm.omap/55060](http://article.gmane.org/gmane.linux.ports.arm.omap/55060)
   2. [https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn](https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn)
-

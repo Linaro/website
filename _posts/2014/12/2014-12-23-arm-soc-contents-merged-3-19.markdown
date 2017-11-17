@@ -1,14 +1,14 @@
 ---
 author: arnd.bergmann
+categories:
+- blog
 comments: true
-date: 2014-12-23 10:00:32+00:00
+date: 2014-12-23 10:00:32
+description: An overview of what was merged into version 3.19 of the Linux kernel
+  through the arm-soc tree
 layout: post
 link: https://www.linaro.org/blog/core-dump/arm-soc-contents-merged-3-19/
 slug: arm-soc-contents-merged-3-19
-title: arm-soc contents merged into 3.19
-wordpress_id: 7731
-categories:
-- blog
 tags:
 - Core Dump
 - '3.19'
@@ -17,6 +17,8 @@ tags:
 - arm64
 - kernel
 - Linux
+title: arm-soc contents merged into 3.19
+wordpress_id: 7731
 ---
 
 # Introduction

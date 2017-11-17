@@ -1,13 +1,13 @@
 ---
 author: jennifer.castelino
-date: 2014-09-17 21:33:36+00:00
+categories:
+- blog
+date: 2014-09-17 21:33:36
+description: Overview of the events that took place on Tuesday September 16, 2014
+  at Linaro Connect USA
 layout: post
 link: https://www.linaro.org/blog/lcu14-tuesday-recap/
 slug: lcu14-tuesday-recap
-title: LCU14 Tuesday Recap
-wordpress_id: 6698
-categories:
-- blog
 tags:
 - Connect Events
 - android
@@ -24,6 +24,8 @@ tags:
 - LSK
 - Opensource
 - toolchain
+title: LCU14 Tuesday Recap
+wordpress_id: 6698
 ---
 
 Day two of Linaro Connect USA 2014 highlighted the digital home and began with a keynote address entitled “Enabling Internet Speed for Service Providers” from Cisco’s CTO Connected Devices and SP Video Infrastructure, [Ken Morse.](http://www.linaro.org/connect/lcu/lcu14/schedule/)  He focused on the changes to the architecture of video delivery and the role of the set-top in the digital connected home. Following the keynote, there was a presentation from a DLNA ambassador on secure delivery of Pay TV content throughout the connected home.   If you are interested in learning more about any of these keynotes or sessions below are links to more information.

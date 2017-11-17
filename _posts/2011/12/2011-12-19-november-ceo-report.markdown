@@ -1,15 +1,17 @@
 ---
 author: george.grey
-date: 2011-12-19 04:38:37+00:00
+categories:
+- blog
+date: 2011-12-19 04:38:37
+description: Discussion on where Linaro is going and the roadmap they have built that
+  will benefit their members.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/november-ceo-report/
 slug: november-ceo-report
-title: November CEO Report
-wordpress_id: 1086
-categories:
-- blog
 tags:
 - Industry
+title: November CEO Report
+wordpress_id: 1086
 ---
 
 **Looking Forward**

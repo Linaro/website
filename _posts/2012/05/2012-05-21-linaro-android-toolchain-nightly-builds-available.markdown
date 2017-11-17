@@ -1,16 +1,18 @@
 ---
 author: bernhard.rosenkranzer
-date: 2012-05-21 20:57:40+00:00
+categories:
+- blog
+date: 2012-05-21 20:57:40
+description: Announcement of the availability of Linaro Android toolchain nightly
+  builds, including a script to download and update toolchains.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-android-toolchain-nightly-builds-available/
 slug: linaro-android-toolchain-nightly-builds-available
-title: Linaro Android toolchain nightly builds available
-wordpress_id: 1638
-categories:
-- blog
 tags:
 - Android
 - Releases
+title: Linaro Android toolchain nightly builds available
+wordpress_id: 1638
 ---
 
 Those have been up and running for a while, but we never announced it, so it may well be news ;-)

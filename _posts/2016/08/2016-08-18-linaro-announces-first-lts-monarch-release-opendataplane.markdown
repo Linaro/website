@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2016-08-18 14:34:13+00:00
+categories:
+- News
+date: 2016-08-18 14:34:13
+description: 'Cambridge, UK: 18 August 2016'
 layout: post
 link: https://www.linaro.org/news/linaro-announces-first-lts-monarch-release-opendataplane/
 slug: linaro-announces-first-lts-monarch-release-opendataplane
 title: Linaro Announces First LTS Monarch Release of OpenDataPlane
 wordpress_id: 11334
-categories:
-- News
 ---
 
 Cambridge, UK: 18 August 2016

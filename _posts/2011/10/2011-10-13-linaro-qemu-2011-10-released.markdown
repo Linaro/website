@@ -1,15 +1,17 @@
 ---
 author: fathi.boudra
-date: 2011-10-13 11:52:56+00:00
+categories:
+- blog
+date: 2011-10-13 11:52:56
+description: Announcement of the Linaro QEMU 2011.10 release. New features and known
+  issues.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2011-10-released/
 slug: linaro-qemu-2011-10-released
-title: Linaro QEMU 2011.10 released
-wordpress_id: 658
-categories:
-- blog
 tags:
 - Releases
+title: Linaro QEMU 2011.10 released
+wordpress_id: 658
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2011.10.

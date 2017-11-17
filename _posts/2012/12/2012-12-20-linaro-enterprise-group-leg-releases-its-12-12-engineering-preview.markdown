@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2012-12-20 21:50:47+00:00
+categories:
+- blog
+date: 2012-12-20 21:50:47
+description: Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12
+  "Engineering Preview" Release is Now Available
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/
 slug: linaro-enterprise-group-leg-releases-its-12-12-engineering-preview
-title: Linaro Enterprise Group (LEG) Releases its 12.12 "Engineering Preview"
-wordpress_id: 2172
-categories:
-- blog
 tags:
 - Releases
+title: Linaro Enterprise Group (LEG) Releases its 12.12 "Engineering Preview"
+wordpress_id: 2172
 ---
 
 ### Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12 "Engineering Preview" Release is Now Available

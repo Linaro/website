@@ -1,13 +1,13 @@
 ---
 author: mark.brown
-date: 2013-08-29 22:48:04+00:00
+categories:
+- blog
+date: 2013-08-29 22:48:04
+description: Overview about the Linaro Stable Kernel. Includes updates from the team
+  and information about the beta release.
 layout: post
 link: https://www.linaro.org/blog/android-blog/linaro-stable-kernel-overview/
 slug: linaro-stable-kernel-overview
-title: Linaro Stable Kernel overview
-wordpress_id: 2899
-categories:
-- blog
 tags:
 - Android
 - '13.08'
@@ -19,6 +19,8 @@ tags:
 - LTS
 - release
 - stable
+title: Linaro Stable Kernel overview
+wordpress_id: 2899
 ---
 
 One of the challenges often faced by system integrators is balancing the desire to adopt and benefit from the most current technology with the need to stabilize the system for release, especially around the kernel. The kernel community provides [stable releases](https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/) which add bug fixes to the base kernel releases, including long term stable (LTS) releases which are maintained for extended periods, but these do not integrate new features so system integrators often need to backport some features from newer kernel versions

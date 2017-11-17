@@ -1,16 +1,19 @@
 ---
 author: linaro
-date: 2013-02-12 16:00:15+00:00
+categories:
+- blog
+date: 2013-02-12 16:00:15
+description: Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and
+  Greg Kroah-Hartman of the Linux Foundation are all set to give enthusiastic and
+  motivating keynotes.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/
 slug: linaro-announces-keynote-speakers-for-linaro-connect-asia-2013
-title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
-wordpress_id: 2323
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
+wordpress_id: 2323
 ---
 
 {% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="http://www.linaro.org/connect"%}

@@ -1,13 +1,13 @@
 ---
 author: steve.taylor
-date: 2013-10-22 18:34:39+00:00
+categories:
+- blog
+date: 2013-10-22 18:34:39
+description: Information on how to attend Linaro Connect USA 2013 remotely by going
+  to Google events and YouTube to watch videos
 layout: post
 link: https://www.linaro.org/blog/connect-update/remote-participation-for-lcu13/
 slug: remote-participation-for-lcu13
-title: Remote Participation for LCU13
-wordpress_id: 3098
-categories:
-- blog
 tags:
 - Connect Events
 - conference
@@ -18,6 +18,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Remote Participation for LCU13
+wordpress_id: 3098
 ---
 
 We are less than one week away from the start of Linaro Connect USA 2013 (LCU13).  LCU13 kicks off on Monday October 28th at the Santa Clara Convention Center.  Linaro’s CEO, George Grey, will welcome attendees and be speaking about the future for open source software across a full range of segments, from servers to the Internet of Things (IoT).

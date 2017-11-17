@@ -1,17 +1,19 @@
 ---
 author: linaro
-date: 2011-09-09 20:39:16+00:00
+categories:
+- blog
+date: 2011-09-09 20:39:16
+description: Usman Ahmad - Intensive development week for the Linaro Freescale Landing
+  Team at the Freescale Shanghai offices. Achievements and upstream contributions.
 layout: post
 link: https://www.linaro.org/blog/linaro-landing-team-makes-great-progress/
 slug: linaro-landing-team-makes-great-progress
-title: Linaro Landing Team makes great progress
-wordpress_id: 4127
-categories:
-- blog
 tags:
 - Freescale
 - Landing teams
 - Quickstart board
+title: Linaro Landing Team makes great progress
+wordpress_id: 4127
 ---
 
 The Freescale Landing Team wrapped up a week of intensive development at the Freescale Shanghai offices. Called a “Sprint”, the Landing Team locked itself up in a room and made significant headway in forward porting from their current Linaro 2.6.38 kernel to a v3.1 kernel. The team ported most of the key drivers, and resolved many blocking issues. Also  the team contributed to the Linux community by submitting  several SATA and PWM patches to the upstream mailing lists. We expect to see the patches in a future 3.X Linux release.
@@ -23,6 +25,3 @@ The latest evaluation builds for Freescale i.MX53 (based on Linaro 2.6.38) can b
 Linaro Evaluation Builds for i.MX53 based on v3.1 will be available in the next couple of months.  Stay tuned.
 
 {% include image.html name="Freescale-Sprint.jpg" alt="Freescale Sprint" %}
-
-
-

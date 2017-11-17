@@ -1,15 +1,13 @@
 ---
 author: linaro
-date: 2015-10-28 13:05:39+00:00
+categories:
+- News
+date: 2015-10-28 13:05:39
+description: Tinno Mobile joins Linaro Mobile Group
 excerpt: Tinno Mobile joins Linaro Mobile Group
 layout: post
 link: https://www.linaro.org/news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
 slug: rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group
-title: Rapidly growing Chinese mobile phone maker Tinno Mobile joins Linaro Mobile
-  Group
-wordpress_id: 9608
-categories:
-- News
 tags:
 - Linaro
 - Linaro Mobile Group
@@ -18,6 +16,9 @@ tags:
 - lmg
 - Open Source
 - Opensource
+title: Rapidly growing Chinese mobile phone maker Tinno Mobile joins Linaro Mobile
+  Group
+wordpress_id: 9608
 ---
 
 Cambridge, UK; 28 October 2015

@@ -1,15 +1,16 @@
 ---
 author: deepak.saxena
-date: 2011-09-09 14:17:05+00:00
+categories:
+- blog
+date: 2011-09-09 14:17:05
+description: Discusses the changes in the Linaro Kernel
 layout: post
 link: https://www.linaro.org/blog/industry-blog/the-evolution-of-the-linaro-kernel/
 slug: the-evolution-of-the-linaro-kernel
-title: The Evolution of the Linaro Kernel
-wordpress_id: 4126
-categories:
-- blog
 tags:
 - Industry
+title: The Evolution of the Linaro Kernel
+wordpress_id: 4126
 ---
 
 In the last few months Linaro has shifted from releasing a kernel every 6 months to releasing monthly kernel snapshots, which allow members and the broader ARM community to have access to an updated kernel in a more timely manner. This is the first step of the evolution of Linaro's kernel process, and over the next several months we will continue to make changes to provide more value to our members and the upstream Linux community.

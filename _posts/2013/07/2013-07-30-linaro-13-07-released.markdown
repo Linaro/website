@@ -1,15 +1,16 @@
 ---
 author: linaro
-date: 2013-07-30 17:34:17+00:00
+categories:
+- blog
+date: 2013-07-30 17:34:17
+description: The Linaro 13.07 release is now available for download!
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-07-released/
 slug: linaro-13-07-released
-title: Linaro 13.07 Released!
-wordpress_id: 2848
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 13.07 Released!
+wordpress_id: 2848
 ---
 
 >

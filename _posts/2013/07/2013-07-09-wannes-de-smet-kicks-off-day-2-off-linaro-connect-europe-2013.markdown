@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2013-07-09 07:56:15+00:00
+categories:
+- blog
+date: 2013-07-09 07:56:15
+description: Engineers at Linaro Connect Europe 2013 iron out the plans for the future
+  of Linux on ARM in over 14 sessions on Day 1 and 16 sessions on Day 2.
 layout: post
 link: https://www.linaro.org/blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
 slug: wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013
-title: Wannes De Smet Kicks Off Day 2 Of Linaro Connect Europe 2013
-wordpress_id: 2808
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Wannes De Smet Kicks Off Day 2 Of Linaro Connect Europe 2013
+wordpress_id: 2808
 ---
 
 {% include image.html name="lce13-mico.png" alt="Linaro Connect Europe Banner Image" %}

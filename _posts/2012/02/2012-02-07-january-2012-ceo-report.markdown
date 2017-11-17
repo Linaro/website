@@ -1,16 +1,17 @@
 ---
 author: george.grey
-date: 2012-02-07 14:37:18+00:00
+categories:
+- blog
+date: 2012-02-07 14:37:18
+description: Linaro CEO gives an overview of the 2012 goals for Linaro.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/january-2012-ceo-report/
 slug: january-2012-ceo-report
-title: January 2012 CEO Report
-wordpress_id: 1233
-categories:
-- blog
 tags:
 - Hardware
 - Industry
+title: January 2012 CEO Report
+wordpress_id: 1233
 ---
 
 There are three themes that run through our plans for 2012. These are in addition to continuing our work in consolidation and defragmentation of existing ARM open source code in the various relevant upstream projects, with most but not all of our output targeting kernel.org and the gcc toolchain upstream.

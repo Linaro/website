@@ -1,16 +1,16 @@
 ---
 author: linaro
-date: 2015-03-09 19:14:22+00:00
+categories:
+- blog
+date: 2015-03-09 19:14:22
+description: Overview of the week of Linaro Connect Hong Kong 2015 including keynotes,
+  theme days, demos and awards that took place during the week.
 excerpt: Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015
   in Hong Kong, China was an amazing week with over 400 attendees and many keynotes,
   sessions and demos for attendees to enjoy.
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-week-review/
 slug: linaro-connect-hong-kong-2015-week-review
-title: Linaro Connect Hong Kong 2015- week in review
-wordpress_id: 8250
-categories:
-- blog
 tags:
 - connect
 - Connect Events
@@ -19,7 +19,10 @@ tags:
 - Linux
 - Linux on ARM
 - Open Source
+title: Linaro Connect Hong Kong 2015- week in review
+wordpress_id: 8250
 ---
+
 {% include image.html name="hkg15-group-photo.jpg" alt="Hong Kong Group Photo 2015" %}
 
 Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015 in Hong Kong, China was an amazing week with over 400 attendees and many keynotes, sessions and demos for attendees to enjoy. To see a list of all the available materials from all the sessions held during the week please [click here](http://www.linaro.org/blog/linaro-connect-hong-kong-2015-content-now-available/).
@@ -153,6 +156,3 @@ Linaro Connect Hong Kong 2015 ended once again with a rich assortment of demonst
   * UEFI on BeagleBone Black
 
 You can register now to attend our next event, Linaro Connect San Francicso 2015 (SFO15) September 21-25, 2015. [Learn more](http://connect.linaro.org/sfo15/)
-
-
-

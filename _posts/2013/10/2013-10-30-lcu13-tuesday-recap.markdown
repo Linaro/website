@@ -1,13 +1,13 @@
 ---
 author: steve.taylor
-date: 2013-10-30 14:30:25+00:00
+categories:
+- blog
+date: 2013-10-30 14:30:25
+description: Recap of the events that took place on Tuesday October 29th at the Linaro
+  Connect USA 2013 in Santa Clara.
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-tuesday-recap/
 slug: lcu13-tuesday-recap
-title: LCU13 Tuesday Recap
-wordpress_id: 3128
-categories:
-- blog
 tags:
 - Connect Events
 - connect
@@ -15,6 +15,8 @@ tags:
 - Linux
 - Linux on ARM
 - Opensource
+title: LCU13 Tuesday Recap
+wordpress_id: 3128
 ---
 
 Linaro Connect USA 2013 continued on Tuesday October 29 in Santa Clara, California.  On Tuesday Linaro had multiple keynote speakers.  The day started off with the [“Fireside Chat with Frank Frankovsky and Vijay Rao](http://www.youtube.com/watch?v=UUAU5JnP1EM)”, both from Facebook. The director of the Linaro Enterprise Group (LEG), Andrea Gallo, hosted this discussion about server trends and requirements. Linaro CEO George Grey then made a short appearance toannounce the [launch of OpenDataPlane™ (ODP)](http://www.linaro.org/news/linaro-launches-opendataplane-odp-project-to-deliver-open-source-cross-platform-interoperability-for-networking-platforms/en/).  This has been begun by industry leaders in the Linaro Networking Group (LNG) collaborating to develop and host a truly open source, cross-platform application programming interface (API) for data plane applications on [www.opendataplane.org](http://www.opendataplane.org/). Jarmo Hillo, Head of Processor Technology at Nokia Solutions and Networks, rounded out the keynotes with a talk on [High End Telecom Networking.](http://www.linaro.org/documents/download/379b13e6591ba569da31763d12455781526969fd49033)** ******
@@ -310,5 +312,3 @@ Automation and Validation
 </table>
 
 Can’t make it to Santa Clara? Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts. There will be links to the live stream in each session descriptions. [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
-
- 

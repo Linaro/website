@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2015-02-09 01:55:19+00:00
+categories:
+- News
+date: 2015-02-09 01:55:19
+description: 96Boards is an open hardware specification for ARM 32-bit and 64-bit
+  developer boards, and a Community Program for software delivery to developers, makers
+  and OEMs
 layout: post
 link: https://www.linaro.org/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/
 slug: linaro-announces-96boards-initiative-accelerate-arm-software-development
-title: Linaro announces 96Boards initiative to accelerate ARM software development
-wordpress_id: 7920
-categories:
-- News
 tags:
 - Linaro
 - Linaro Connect
@@ -15,6 +16,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Linaro announces 96Boards initiative to accelerate ARM software development
+wordpress_id: 7920
 ---
 
 ## 96Boards is an open hardware specification for ARM 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs
@@ -50,5 +53,3 @@ Prior to the launch of 96Boards compatible boards, Linaro will work with the boa
 Linaro is the place where engineers from the world’s leading technology companies define the future of open source on ARM. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [http://www.linaro.org](http://www.linaro.org).
-
-

@@ -1,13 +1,12 @@
 ---
 author: tony.mansson
-date: 2012-03-22 22:53:18+00:00
+categories:
+- blog
+date: 2012-03-22 22:53:18
+description: The Linaro Android Platform Team
 layout: post
 link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-march-14-to-march-20/
 slug: the-linaro-android-platform-team-period-march-14-to-march-20
-title: The Linaro Android Platform Team, Period March 14 to March 20.
-wordpress_id: 1415
-categories:
-- blog
 tags:
 - Android
 - Community
@@ -23,6 +22,8 @@ tags:
 - Linux on ARM
 - Open Source
 - software
+title: The Linaro Android Platform Team, Period March 14 to March 20.
+wordpress_id: 1415
 ---
 
 Hello Linaro fans.

@@ -1,20 +1,23 @@
 ---
 author: david.mandala
-date: 2015-03-25 14:17:50+00:00
+categories:
+- blog
+date: 2015-03-25 14:17:50
+description: Overview of the process and challenges faced in setting up Linaro's ARMv8
+  server lab in Austin, Texas
 layout: post
 link: https://www.linaro.org/blog/armv8-server-lab/
 slug: armv8-server-lab
-title: "ARMv8 Server Lab\t"
-wordpress_id: 8336
-categories:
-- blog
 tags:
 - arm
 - ARMv8
 - ARMv8 server
 - Linux on ARM
 - server
+title: "ARMv8 Server Lab\t"
+wordpress_id: 8336
 ---
+
 Last October was very busy for us (the Linaro System team), ­ we were tasked with the build out of the ARMv8 Server Cluster in Austin, TX.  Now this is an interesting situation, Linaro already has a LAVA (Linaro Automated Validation Architecture) lab in Cambridge UK so why would we build out a Collocation facility with ARMv8 servers?  Well it’s simple really, ARM server hardware is still pretty hard to find, and even though it is being built it is hard to get access to.  Unless you are a major ISV no one is going to just give you access, so smaller ISV’s and researchers had little to no options.  Well that was true until now.  With the Linaro ARMv8 Server Lab you can ask for and get free access to ARMv8 server hardware at no cost to you so you can recompile your X86 applications on ARM, port code if necessary, test them, tune them and be ready for when these servers ship in volume.
 
 So if you sign up to use a system you can get access to one or more APM or AMD server running Ubuntu or Fedora or Red Hat(1) or AMD servers(2) running Fedora or Red Hat(1).  We believe other vendors will soon provide additional branded servers in the Lab.  Depending on demand and what you want to do with the servers they are loaned to you for a week to a month at a time.  For security purposes all of the servers are behind a firewall and require ssh access only via a bounce firewall machine.  Once the server is deployed and access is turned over to the ISV Linaro staff no longer have access to the contents of the server in any way except to redeploy it later which destroys all information on the machine.
@@ -47,4 +50,3 @@ In our next blog your will hear from Linaro’s Andy Doan where he will talk abo
 
 _(1.) Requires executing an NDA with RedHat and being part of their ARM early access program_
 _(2.) Requires executing an NDA with AMD for access to the AMD server hardware at this time.  Only RedHat and Fedora Linux is available on the AMD systems.._
-

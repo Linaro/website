@@ -1,23 +1,24 @@
 ---
 author: jacopo.mondi
+categories:
+- blog
 comments: true
-date: 2015-07-22 20:22:08+00:00
-excerpt: 'This article explains how to add a new service and associated application
+date: 2015-07-22 20:22:08
+description: This article explains how to add a new service and associated application
   APIs to Android Lollipop 5
-  '
+excerpt: 'This article explains how to add a new service and associated application
+  APIs to Android Lollipop 5 '
 layout: post
 link: https://www.linaro.org/blog/adding-a-new-system-service-to-android-5-tips-and-how-to/
 slug: adding-a-new-system-service-to-android-5-tips-and-how-to
-title: 'Adding A New System Service To Android 5: Tips and How To'
-wordpress_id: 9019
-categories:
-- blog
 tags:
 - android
 - kernel
 - Linaro
 - Linux
 - Linux on ARM
+title: 'Adding A New System Service To Android 5: Tips and How To'
+wordpress_id: 9019
 ---
 
 ### **Intro:**

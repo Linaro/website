@@ -1,16 +1,19 @@
 ---
 author: linaro
-date: 2012-01-20 13:32:35+00:00
+categories:
+- blog
+date: 2012-01-20 13:32:35
+description: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
+  on ARM. Linaro members, partners and community offer interactive demonstrations
+  showcasing ARM-processor-based boards and Linaro builds of Android and Ubuntu.
 layout: post
 link: https://www.linaro.org/blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/
 slug: demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm
+tags:
+- Connect Events
 title: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments on
   ARM
 wordpress_id: 1207
-categories:
-- blog
-tags:
-- Connect Events
 ---
 
 Linaro is excited to announce that we will once again be having our Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments on ARM. Linaro members, partners and community offer interactive demonstrations showcasing ARM-processor-based boards and Linaro builds of Android and Ubuntu.

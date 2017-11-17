@@ -1,16 +1,18 @@
 ---
 author: soumya.basak
-date: 2013-03-22 19:12:23+00:00
+categories:
+- blog
+date: 2013-03-22 19:12:23
+description: Soumya Basak, QA Services Expert on the Linaro QA Team gives his impressions,
+  highlights, and exciting moments of Linaro Connect Asia 2013 in Hong Kong.
 layout: post
 link: https://www.linaro.org/blog/community-blog/soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong/
 slug: soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong
-title: Soumya Basak's Highlights from Linaro Connect Asia 2013 in Hong Kong
-wordpress_id: 2602
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Soumya Basak's Highlights from Linaro Connect Asia 2013 in Hong Kong
+wordpress_id: 2602
 ---
 
 A few weeks back [I](http://www.linaro.org/linux-on-arm/meet-the-team/soumya-basak/) went to Hong Kong to attend [Linaro Connect Asia 2013](https://wiki.linaro.org/Events/LCA13) in Hong Kong(LCA13-Hong Kong). This event took place at the Gold Coast Hotel on 4-8 March.  It was a really awesome experience with many enthusiastic participants from around the world sharing their exciting presentations, participating in interactive sessions on upcoming challenges, attending advanced training sessions, learning latest techniques on hacking member boards and so much more.

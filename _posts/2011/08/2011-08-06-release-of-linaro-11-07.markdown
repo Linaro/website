@@ -1,15 +1,16 @@
 ---
 author: linaro
-date: 2011-08-06 02:19:30+00:00
+categories:
+- blog
+date: 2011-08-06 02:19:30
+description: Listing of the links to all the downloads for the release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/release-of-linaro-11-07/
 slug: release-of-linaro-11-07
-title: Release of Linaro 11.07
-wordpress_id: 3399
-categories:
-- blog
 tags:
 - Releases
+title: Release of Linaro 11.07
+wordpress_id: 3399
 ---
 
 11.07 is the Linaro’s second release delivered on the new monthly cadence. This release includes components from all Working Groups and Landing Teams as well as set of Android and Ubuntu based images that come with integrated Linaro updates to provide a fastpath to Linaro technology. The 11.07 Linaro release moved all main kernel efforts to Linux 3.0. It features a 3.0 linux-linaro, linux-linaro-android kernel and comes with Linaro Evaluation Builds (LEBs)of Ubuntu and Android based on linux-linaro-3.0 TI Landing Team's kernel.

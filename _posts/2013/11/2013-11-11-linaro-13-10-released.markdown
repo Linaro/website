@@ -1,13 +1,12 @@
 ---
 author: fathi.boudra
-date: 2013-11-11 16:50:21+00:00
+categories:
+- blog
+date: 2013-11-11 16:50:21
+description: Information on links to the 13.10 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-10-released/
 slug: linaro-13-10-released
-title: Linaro 13.10 Released
-wordpress_id: 3147
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -19,6 +18,8 @@ tags:
 - release
 - release cycle
 - software
+title: Linaro 13.10 Released
+wordpress_id: 3147
 ---
 
 > Creativity is the power to connect the seemingly unconnected.~William Plomer 

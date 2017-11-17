@@ -1,17 +1,18 @@
 ---
 author: linaro
-date: 2013-03-19 23:04:06+00:00
+categories:
+- blog
+date: 2013-03-19 23:04:06
+description: Find out what all the excitement was about at Linaro Connect Asia 2013.
 layout: post
 link: https://www.linaro.org/blog/community-blog/mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong/
 slug: mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong
-title: Mini-Summits, Training, Hacking and More - Linaro Connect Asia 2013 - Hong
-  Kong
-wordpress_id: 2560
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Mini-Summits, Training, Hacking and More - Linaro Connect Asia 2013 - Hong
+  Kong
+wordpress_id: 2560
 ---
 
 {% include image.html name="LCA13-Group-001-72dpi.jpg" alt="LCA13-Group Photo" %}

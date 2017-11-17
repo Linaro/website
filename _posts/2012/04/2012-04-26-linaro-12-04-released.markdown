@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2012-04-26 21:03:25+00:00
+categories:
+- blog
+date: 2012-04-26 21:03:25
+description: Links to all the downloads for the Linaro 12.04 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-04-released/
 slug: linaro-12-04-released
-title: Linaro 12.04 released
-wordpress_id: 1609
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 12.04 released
+wordpress_id: 1609
 ---
 
 "Your talent determines what you can do. Your motivation determines how much you are willing to do. Your attitude determines how well you do it." ~Lou Holtz

@@ -1,15 +1,16 @@
 ---
 author: david.zinman
-date: 2012-02-23 19:23:18+00:00
+categories:
+- blog
+date: 2012-02-23 19:23:18
+description: Links to all the downloads for the Linaro 12.02 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-02-released/
 slug: linaro-12-02-released
-title: Linaro 12.02 Released
-wordpress_id: 1278
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 12.02 Released
+wordpress_id: 1278
 ---
 
 _If I have seen further than others, it is by standing upon the shoulders of giants._ ~**Isaac Newton**

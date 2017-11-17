@@ -1,15 +1,16 @@
 ---
 author: linaro
-
-date: 2011-02-15 12:10:12+00:00
+categories:
+- News
+date: 2011-02-15 12:10:12
+description: CAMBRIDGE, UK - 15 FEB 2011
 layout: post
 link: https://www.linaro.org/news/linaro-makes-snowball-shine/
 slug: linaro-makes-snowball-shine
 title: Linaro Makes Snowball Shine
 wordpress_id: 4408
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 15 FEB 2011
 
 ## Linaro provides optimized base of software and tools for new low cost board (Snowball) using ST-Ericsson's dual-core ARM® CortexTM- A9 based AP9500 chipset.

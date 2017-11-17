@@ -1,13 +1,12 @@
 ---
 author: mark.orvek
-date: 2014-02-28 21:18:07+00:00
+categories:
+- blog
+date: 2014-02-28 21:18:07
+description: Overview of what to expect at LCA14
 layout: post
 link: https://www.linaro.org/blog/connect-update/welcome-to-macau/
 slug: welcome-to-macau
-title: Welcome to Macau!
-wordpress_id: 3405
-categories:
-- blog
 tags:
 - connect
 - Connect Events
@@ -15,6 +14,8 @@ tags:
 - Linaro Connect
 - Linux
 - Linux on ARM
+title: Welcome to Macau!
+wordpress_id: 3405
 ---
 
 [Linaro Connect Asia 2014](http://www.linaro.org/connect-lca14) promises to be the largest Connect to date (again).  As always, there will be a few surprises during the week including one that may make you think about “Home” while enjoying the pleasures of [one of the world’s richest cities](http://en.wikipedia.org/wiki/Macau).

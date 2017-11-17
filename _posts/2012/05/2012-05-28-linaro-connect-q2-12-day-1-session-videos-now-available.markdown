@@ -1,17 +1,18 @@
 ---
 author: linaro
-date: 2012-05-28 09:29:07+00:00
+categories:
+- blog
+date: 2012-05-28 09:29:07
+description: Day 1 Linaro Connect Q2.12 video'd sessions are now available online.
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/
 slug: linaro-connect-q2-12-day-1-session-videos-now-available
-title: Linaro Connect Q2.12 Day 1 Session Videos Now Available
-wordpress_id: 1659
-categories:
-- blog
 tags:
 - Community
 - Connect Events
 - Industry
+title: Linaro Connect Q2.12 Day 1 Session Videos Now Available
+wordpress_id: 1659
 ---
 
 Day 1 of Linaro Connect Q2.12 on 28 May 2012 has already had some interesting moments which started with a packed room for the opening plenary sessions to standing room only for the big.LITTLE session.

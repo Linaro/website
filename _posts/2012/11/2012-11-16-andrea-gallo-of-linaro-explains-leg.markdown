@@ -1,17 +1,19 @@
 ---
 author: linaro
-date: 2012-11-16 04:32:47+00:00
+categories:
+- blog
+date: 2012-11-16 04:32:47
+description: Find out more about the newly formed Linaro Enterprise Group (LEG) from
+  Amber Graner's interview with the group's director, Andrea Gallo.
 layout: post
 link: https://www.linaro.org/blog/community-blog/andrea-gallo-of-linaro-explains-leg/
 slug: andrea-gallo-of-linaro-explains-leg
-title: Andrea Gallo of Linaro Explains LEG
-wordpress_id: 1995
-categories:
-- blog
 tags:
 - Community
 - Connect Events
 - Hardware
+title: Andrea Gallo of Linaro Explains LEG
+wordpress_id: 1995
 ---
 
 Earlier this week [I](http://www.linaro.org/linux-on-arm/meet-the-team/amber-graner/) had the opportunity to sit down with [Andrea Gallo](http://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/) our Director of the [Linaro Enterprise Group (LEG)](http://www.linaro.org/engineering/leg) via a [Google+ Hangout on Air](http://www.youtube.com/user/LinaroOnAir) and discuss this newly formed and [announced](http://www.linaro.org/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) Linaro Group in more detail.

@@ -1,15 +1,18 @@
 ---
 author: linaro
-date: 2013-02-22 20:40:01+00:00
+categories:
+- blog
+date: 2013-02-22 20:40:01
+description: Today we are highlighting career opportunities at Linaro for a LAVA Lab
+  Technician (Validation). Are you located in or near Cambridge, UK and want to be
+  part of the future of Linux on ARM?
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-is-seeking-a-lava-lab-technician-validation/
 slug: linaro-is-seeking-a-lava-lab-technician-validation
-title: Linaro is Seeking a LAVA Lab Technician - Validation
-wordpress_id: 2450
-categories:
-- blog
 tags:
 - Community
+title: Linaro is Seeking a LAVA Lab Technician - Validation
+wordpress_id: 2450
 ---
 
 Today we are highlighting career opportunities at Linaro for a LAVA Lab Technician (Validation). Are you located in or near Cambridge, UK and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

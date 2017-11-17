@@ -1,13 +1,13 @@
 ---
 author: tony.mansson
-date: 2011-12-15 10:28:00+00:00
+categories:
+- blog
+date: 2011-12-15 10:28:00
+description: Achievements from the The Linaro Android Platform Team, from Dec. 6 to
+  13. to Dec. Bug fixes and substantial progress on multiple fronts.
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-dec-06-to-dec-13/
 slug: the-linaro-android-platform-team-period-dec-06-to-dec-13
-title: The Linaro Android Platform Team, Period Dec. 06 to Dec. 13
-wordpress_id: 1068
-categories:
-- blog
 tags:
 - Android
 - Connect Events
@@ -15,6 +15,8 @@ tags:
 - connect
 - Linaro
 - Linux
+title: The Linaro Android Platform Team, Period Dec. 06 to Dec. 13
+wordpress_id: 1068
 ---
 
 It's getting real close to the 11.12 release now. We are all putting in a little extra effort. Hardware acceleration will make a huge difference to our platform, and it is happening right now on two of our boards. The other exciting news is that we are introducing support for the [ARM DS-5 debugger](http://www.arm.com/products/tools/software-tools/ds-5/community-edition/index.php). This Eclipse plug-in really [rocks](https://wiki.linaro.org/Platform/DevPlatform/DS5)! Also, we are preparing for the February 2012 "Super Weeks" in San Francisco. First [Linaro Connect](http://connect.linaro.org/), Then [Android Builders Summit](https://events.linuxfoundation.org/events/android-builders-summit/) and finally the [Embedded Linux Conference](https://events.linuxfoundation.org/events/embedded-linux-conference). See you there!

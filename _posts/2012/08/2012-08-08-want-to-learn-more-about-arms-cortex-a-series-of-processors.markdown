@@ -1,16 +1,21 @@
 ---
 author: linaro
-date: 2012-08-08 20:11:56+00:00
+categories:
+- blog
+date: 2012-08-08 20:11:56
+description: "If you are looking for more information about the ARM Cortex-A series
+  of processors, the Cortex-A Series Programmer\xE2\x80\x99s Guide is the definitive
+  resource for software engineers to find tips on writing and optimizing software
+  for ARM Cortex-A series processors."
 layout: post
 link: https://www.linaro.org/blog/industry-blog/want-to-learn-more-about-arms-cortex-a-series-of-processors/
 slug: want-to-learn-more-about-arms-cortex-a-series-of-processors
-title: Want to learn more about ARM’s Cortex-A series of processors?
-wordpress_id: 1762
-categories:
-- blog
 tags:
 - Industry
+title: "Want to learn more about ARM\u2019s Cortex-A series of processors?"
+wordpress_id: 1762
 ---
+
 If you are looking for more information about the ARM Cortex-A series of processors, the Cortex-A Series Programmer’s Guide is the definitive resource for software engineers to find tips on writing and optimizing software for ARM Cortex-A series processors. The latest version of the guide has been extensively updated to include feedback from partners and improvements by the ARM authors themselves. This document introduces application programmers to processors that implement the ARMv7-A architecture profile, including the Cortex-A8, Cortex-A9, Cortex-A5, Cortex-A7 and Cortex-A15 processors. It complements other documentation, such as the ARM Technical Reference Manuals and the ARM Architecture Reference Manual, ARMv7-A and ARMv7-R editions. The guide also includes preliminary information on big.LITTLE.  According to the introduction, it is ideally suited for programmers with a desktop PC or x86 background taking their first steps into the world of ARM processors. Familiarity with C coding and some knowledge of microprocessor architectures is assumed, although no ARM processor-specific background is needed.
 
 **Topics that are covered include:**

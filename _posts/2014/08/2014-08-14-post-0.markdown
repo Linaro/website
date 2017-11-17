@@ -1,22 +1,25 @@
 ---
 author: agustin.benito
+categories:
+- blog
 comments: true
-date: 2014-08-14 07:35:14+00:00
+date: 2014-08-14 07:35:14
+description: The Linaro Core Development Group publishes a blog to promote the work
+  our engineers are doing in the kernel, power management, security and virtualization
+  areas, focusing on upstream work.
 excerpt: The Linaro Core Development Group publishes a blog to promote the work our
   engineers are doing in the kernel, power management, security and virtualization
   areas, focusing on upstream work.
 layout: post
 link: https://www.linaro.org/blog/core-dump/post-0/
 slug: post-0
-title: 'Core Dump: Post #0'
-wordpress_id: 6293
-categories:
-- blog
 tags:
 - Core Dump
 - engineer
 - foss
 - pov
+title: 'Core Dump: Post #0'
+wordpress_id: 6293
 ---
 
 # Core Dump: Post #0

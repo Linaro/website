@@ -1,13 +1,14 @@
 ---
 author: jennifer.castelino
-date: 2014-03-26 15:30:47+00:00
+categories:
+- blog
+date: 2014-03-26 15:30:47
+description: Wrap-up of the LCA14 final days activities and awards
 layout: post
 link: https://www.linaro.org/blog/wrap-final-day-lca14/
 slug: wrap-final-day-lca14
 title: Wrap-up of the final day of LCA14
 wordpress_id: 5414
-categories:
-- blog
 ---
 
 As the saying goes “All good things must come to an end” and so it was that last Friday wrapped up a great week of Linaro Connect Asia 2014 in Macau. The final day started off with a [keynote from Linaro’s Chief Technical Officer, David Rusling](https://www.youtube.com/watch?v=AQRVNO4NEaM) ([view on Linaro server](http://people.linaro.org/linaro-connect/lca14/videos/03-07-Friday/Keynote-%20David%20Rusling.mp4)). David spoke about his vision for the future of Linaro and where he sees the industry moving to down the road.
@@ -194,13 +195,3 @@ No Video available
 
 
 Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](http://www.linaro.org/connect-lcu14)
-
-
-
-
-
-
-
-
-
-

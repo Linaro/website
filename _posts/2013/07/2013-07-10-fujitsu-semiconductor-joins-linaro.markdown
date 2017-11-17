@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2013-07-10 12:27:23+00:00
+categories:
+- News
+date: 2013-07-10 12:27:23
+description: CAMBRIDGE, UK - 10 JUL 2013
 layout: post
 link: https://www.linaro.org/news/fujitsu-semiconductor-joins-linaro/
 slug: fujitsu-semiconductor-joins-linaro
 title: Fujitsu Semiconductor joins Linaro
 wordpress_id: 4427
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 10 JUL 2013

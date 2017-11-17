@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-09-30 23:14:24+00:00
+categories:
+- blog
+date: 2014-09-30 23:14:24
+description: The Linaro 14.08 release is now available for immediate download. Here
+  you will find links to all the products in this release.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-08-downloads-available/
 slug: linaro-14-08-downloads-available
-title: Linaro 14.08 Available for Download!
-wordpress_id: 6429
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -24,7 +24,10 @@ tags:
 - release cycle
 - toolchain
 - ubuntu
+title: Linaro 14.08 Available for Download!
+wordpress_id: 6429
 ---
+
 > “Technology made large populations possible; large populations now make technology indispensable.” - Joseph Wood Krutch
 
 

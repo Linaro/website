@@ -1,13 +1,14 @@
 ---
 author: george.grey
-date: 2014-04-10 19:30:32+00:00
+categories:
+- blog
+date: 2014-04-10 19:30:32
+description: Linaro's CEO discusses activities from Q1 2014 including The announcement
+  of five new members at Linaro Connect, Linaro's ARMv8 work, LSK work and the latest
+  Linux Foundation report
 layout: post
 link: https://www.linaro.org/blog/april-ceo-note/
 slug: april-ceo-note
-title: Q1 2014 CEO Note
-wordpress_id: 5667
-categories:
-- blog
 tags:
 - ARMv8
 - connect
@@ -15,6 +16,8 @@ tags:
 - Linux
 - Linux on ARM
 - LSK
+title: Q1 2014 CEO Note
+wordpress_id: 5667
 ---
 
 > The announcement of five new members at Linaro Connect, including Club members Qualcomm, MediaTek and ZTE, is a significant endorsement of the value of Linaro’s business model, and further increases the ROI for every one of our members.
@@ -40,7 +43,3 @@ As additional member hardware becomes available to Linaro we are committed to ha
 
 
 [1 Linux Foundation Collaborative Development Trends Report 2014](http://www.linuxfoundation.org/publications/linux-foundation/collaborative-development-trends-report-2014)
-
-
-
-

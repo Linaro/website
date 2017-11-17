@@ -1,19 +1,22 @@
 ---
 author: george.grey
-date: 2015-02-24 16:50:15+00:00
+categories:
+- blog
+date: 2015-02-24 16:50:15
+description: Linaro CEO discusses the new 96Boards initiative and Open Source Hardware.
+  The goal of 96Boards is to provide an option for standardization of SoC boards for
+  software developers, the maker community and embedded product manufacturers.
 layout: post
 link: https://www.linaro.org/blog/96boards-open-source-hardware/
 slug: 96boards-open-source-hardware
-title: 96Boards and Open Source Hardware
-wordpress_id: 8125
-categories:
-- blog
 tags:
 - 96Boards
 - arm
 - Linaro
 - Linux on ARM
 - Open Source Hardware
+title: 96Boards and Open Source Hardware
+wordpress_id: 8125
 ---
 
 Linaro announced the [96Boards initiative](https://www.96boards.org/) at the recent [Linaro Connect](http://connect.linaro.org/sfo15/) conference in Hong Kong on February 9th. Linaro is a software company, and the goal of 96Boards is to provide an option for standardization of SoC boards for software developers, the maker community and embedded product manufacturers. By reducing design time and defining common hardware interfaces, the goal is to create a platform that can enable the delivery of boards for software developers from a range of SoC vendors.
@@ -51,7 +54,3 @@ At $129, the first [96Boards product](https://www.96boards.org/products/), the H
 George Grey
 
 CEO, Linaro
-
-
-
-

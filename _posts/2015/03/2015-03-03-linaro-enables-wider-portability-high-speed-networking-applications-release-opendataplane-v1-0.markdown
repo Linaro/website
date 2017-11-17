@@ -1,14 +1,14 @@
 ---
 author: linaro
-date: 2015-03-03 14:00:23+00:00
+categories:
+- News
+date: 2015-03-03 14:00:23
+description: OpenDataPlane (ODP) enables proven software portability between network
+  compute platforms, regardless of the underlying instruction set architecture (ISA),
+  as well as transparent support for any hardware or software acceleration capability.
 layout: post
 link: https://www.linaro.org/news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/
 slug: linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0
-title: Linaro Enables Wider Portability of High Speed Networking Applications with
-  Release of OpenDataPlane v1.0
-wordpress_id: 8220
-categories:
-- News
 tags:
 - connect
 - Data Plane
@@ -23,6 +23,9 @@ tags:
 - OpenDataPlane
 - Opensource
 - SDN
+title: Linaro Enables Wider Portability of High Speed Networking Applications with
+  Release of OpenDataPlane v1.0
+wordpress_id: 8220
 ---
 
 ## OpenDataPlane (ODP) enables proven software portability between network compute platforms, regardless of the underlying instruction set architecture (ISA), as well as transparent support for any hardware or software acceleration capability.
@@ -96,5 +99,3 @@ Freescale Semiconductor (NYSE:FSL) enables secure, embedded processing solutions
 Nokia invests in technologies important in a world where billions of devices are connected. We are focused on three businesses: network infrastructure software, hardware and services, which we offer through Nokia Networks; location intelligence, which we provide through HERE; and advanced technology development and licensing, which we pursue through Nokia Technologies. Each of these businesses is a leader in its respective field.
 
 Nokia Networks is the world’s specialist in mobile broadband. From the first ever call on GSM, to the first call on LTE, we operate at the forefront of each generation of mobile technology. Our global experts invent the new capabilities our customers need in their networks. We provide the world’s most efficient mobile networks, the intelligence to maximize the value of those networks, and the services to make it all work seamlessly. [http://networks.nokia.com/](http://networks.nokia.com/)   [http://company.nokia.com](http://company.nokia.com)
-
-

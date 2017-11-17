@@ -1,17 +1,18 @@
 ---
 author: bernhard.rosenkranzer
-date: 2012-04-01 15:02:24+00:00
+categories:
+- blog
+date: 2012-04-01 15:02:24
+description: Linaro announces the release of Android 5.0.0 "Jujube"
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-releases-android-5-0-0-jujube/
 slug: linaro-releases-android-5-0-0-jujube
-title: Linaro releases Android 5.0.0 "Jujube"
-wordpress_id: 1484
-categories:
-- blog
 tags:
 - Android
 - Community
 - Releases
+title: Linaro releases Android 5.0.0 "Jujube"
+wordpress_id: 1484
 ---
 
 Linaro has always ensured that its Android releases contain the most up-to-date components possible. Today, we're excited to announce that we're able to release our version of Android 5.0.0 "Jujube".

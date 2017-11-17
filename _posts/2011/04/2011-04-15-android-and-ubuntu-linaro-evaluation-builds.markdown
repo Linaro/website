@@ -1,13 +1,13 @@
 ---
 author: steve.taylor
-date: 2011-04-15 18:21:03+00:00
+categories:
+- blog
+date: 2011-04-15 18:21:03
+description: Overview of the Android and Ubuntu Linaro evaluation builds and the progress
+  made so far and what is planned for the future.
 layout: post
 link: https://www.linaro.org/blog/android-and-ubuntu-linaro-evaluation-builds/
 slug: android-and-ubuntu-linaro-evaluation-builds
-title: Android and Ubuntu Linaro Evaluation Builds
-wordpress_id: 3381
-categories:
-- blog
 tags:
 - Evaluation builds
 - Landing teams
@@ -16,7 +16,10 @@ tags:
 - test heads
 - validation
 - working groups
+title: Android and Ubuntu Linaro Evaluation Builds
+wordpress_id: 3381
 ---
+
 Linaro will be one year old when Computex comes around again at the end of May. When we launched we stated we would help device makers get products based on open source software (OSS) to market more quickly and with improved levels of performance. One of Linaro’s main activities this year has been the expansion of the platforms group to deliver fully enabled and validated “Linaro Evaluation Builds” (LEBs) that can be consumed by ODMs and OEMs as a baseline for building products using the latest ARM SoCs.
 
 In 2010, the initial focus for Linaro was on identifying initial upstream topics and bootstrapping the Working Group teams: toolchain, kernel, power management, graphics and multimedia. From the beginning Linaro concentrated on making sure that Linaro provided a platform and engineering infrastructure that would support and strengthen the open and distributed engineering model used by Linaro.

@@ -1,19 +1,21 @@
 ---
 author: linaro
-date: 2012-10-25 16:35:47+00:00
+categories:
+- blog
+date: 2012-10-25 16:35:47
+description: Find out how you can get the latest Linaro release--12.10, what the highlights
+  are for this release and how you can participate in LCE 12-Copenhagen remotely.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-12-10-release-is-now-available/
 slug: linaro-12-10-release-is-now-available
-title: Linaro 12.10 Release is Now Available
-wordpress_id: 1959
-categories:
-- blog
 tags:
 - Android
 - Community
 - Connect Events
 - Hardware
 - Releases
+title: Linaro 12.10 Release is Now Available
+wordpress_id: 1959
 ---
 
 > A dream doesn't become reality through magic; it takes sweat, determination and hard work ~ Colin Powell

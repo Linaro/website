@@ -1,19 +1,21 @@
 ---
 author: steve.taylor
-date: 2015-06-01 14:21:55+00:00
+categories:
+- blog
+date: 2015-06-01 14:21:55
+description: 96Boards has two representatives in this with both Qualcomm's DragonBoard
+  410c and the HiSilicon-based HiKey boards listed. You can vote now.
 layout: post
 link: https://www.linaro.org/blog/vote-for-96boards-in-survey-and-hikey-software-update-available-now/
 slug: vote-for-96boards-in-survey-and-hikey-software-update-available-now
-title: Vote for 96Boards in survey and HiKey software update available now!
-wordpress_id: 8650
-categories:
-- blog
 tags:
 - 96Boards
 - dragonboard
 - HiKey Board
 - Linaro
 - software
+title: Vote for 96Boards in survey and HiKey software update available now!
+wordpress_id: 8650
 ---
 
 We'd like to invite you to spend 1-3 minutes before Wednesday 3 June to respond to a survey on sub-$200 single board computers that has been launched by [Linux.com](http://www.linux.com/news/embedded-mobile/mobile-linux/831550-survey-best-linux-hacker-sbcs-for-under-200) and [LinuxGizmos.com](http://linuxgizmos.com/rate-these-sub-200dollar-hacker-sbcs-win-one-of-20/). 96Boards has two representatives in this with both Qualcomm's DragonBoard 410c and the HiSilicon-based HiKey boards listed. You can do the survey here: [https://www.surveymonkey.com/r/2015SBCS](https://www.surveymonkey.com/r/2015SBCS).

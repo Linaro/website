@@ -1,13 +1,13 @@
 ---
 author: jennifer.castelino
-date: 2014-04-24 19:06:07+00:00
+categories:
+- blog
+date: 2014-04-24 19:06:07
+description: Linaro's 14.04 release - links to all the downloads available for this
+  release
 layout: post
 link: https://www.linaro.org/blog/linaro-14-04-release-now-available-download/
 slug: linaro-14-04-release-now-available-download
-title: Linaro 14.04 Release Now Available for Download!
-wordpress_id: 5737
-categories:
-- blog
 tags:
 - android
 - Evaluation builds
@@ -17,6 +17,8 @@ tags:
 - software
 - toolchain
 - ubuntu
+title: Linaro 14.04 Release Now Available for Download!
+wordpress_id: 5737
 ---
 
 > "The world is full of magical things patiently waiting for our wits to grow sharper." _~ Bertrand Russell_
@@ -96,5 +98,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
 Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [http://www.linaro.org/connect/lcu/lcu14/](http://www.linaro.org/connect/lcu/lcu14/)
-
-

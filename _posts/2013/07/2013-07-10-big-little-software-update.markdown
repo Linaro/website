@@ -1,15 +1,17 @@
 ---
 author: george.grey
-date: 2013-07-10 15:19:12+00:00
+categories:
+- blog
+date: 2013-07-10 15:19:12
+description: "Progress report on Linaro\xE2\x80\x99s activities and plans for support
+  of ARM\xE2\x80\x99s big.LITTLE SoCs with Linux and Android software."
 layout: post
 link: https://www.linaro.org/blog/hardware-update/big-little-software-update/
 slug: big-little-software-update
-title: big.LITTLE Software Update
-wordpress_id: 2821
-categories:
-- blog
 tags:
 - Hardware
+title: big.LITTLE Software Update
+wordpress_id: 2821
 ---
 
 With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters.

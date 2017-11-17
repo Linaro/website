@@ -1,6 +1,10 @@
 ---
 author: mark.orvek
-date: 2015-09-16 20:43:09+00:00
+categories:
+- blog
+date: 2015-09-16 20:43:09
+description: Welcome to Linaro Connect SFO15 - here is what we have planned for the
+  event.
 excerpt: Linaro Connect San Francisco 2015 will take place the week of September 21-25th.  Here
   are some of the events we have planned for the week.
 layout: post
@@ -8,9 +12,8 @@ link: https://www.linaro.org/blog/what-to-expect-at-sfo15-next-week/
 slug: what-to-expect-at-sfo15-next-week
 title: What to expect at SFO15 next week
 wordpress_id: 9297
-categories:
-- blog
 ---
+
 Welcome to [Linaro Connect San Francisco 2015!](http://connect.linaro.org/sfo15/)
 We are returning to the [Hyatt Regency Hotel](http://sanfranciscoairport.hyatt.com/en/hotel/our-hotel.html) in Burlingame, CA which is conveniently located next to the San Francisco airport. Hence, the shortcut reference of SFO15.
 
@@ -38,4 +41,3 @@ See you all in San Francisco!
 [1] [https://en.wikipedia.org/wiki/Yaoi-Con](https://en.wikipedia.org/wiki/Yaoi-Con), [YaoiCon 2014](https://www.google.com/search?q=yaoicon+2014&espv=2&biw=1520&bih=893&tbm=isch&tbo=u&source=univ&sa=X&ved=0CDsQsARqFQoTCM6Ms7-c7ccCFQJaiAodp3sPqw&dpr=1)
 
 [2] [http://www.computerhistory.org/](http://www.computerhistory.org/)
-

@@ -1,20 +1,23 @@
 ---
 author: shovan
-date: 2015-06-20 00:04:38+00:00
-excerpt: LeMaker to pair its hardware expertise with Linaro’s open source software
-  experience to enable software developers with new 96Boards hardware platforms
+categories:
+- News
+date: 2015-06-20 00:04:38
+description: "LeMaker to pair its hardware expertise with Linaro\xE2\x80\x99s open
+  source software experience to enable software developers with new 96Boards hardware
+  platforms"
+excerpt: "LeMaker to pair its hardware expertise with Linaro\u2019s open source software
+  experience to enable software developers with new 96Boards hardware platforms"
 layout: post
 link: https://www.linaro.org/news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/
 slug: linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group
-title: Linaro announces LeMaker as a member of the Linaro Community Boards Group
-wordpress_id: 8745
-categories:
-- News
 tags:
 - 96Boards
 - LCG
 - LeMaker
 - Linaro
+title: Linaro announces LeMaker as a member of the Linaro Community Boards Group
+wordpress_id: 8745
 ---
 
 ## LeMaker to pair its hardware expertise with Linaro’s open source software experience to enable software developers with new 96Boards hardware platforms

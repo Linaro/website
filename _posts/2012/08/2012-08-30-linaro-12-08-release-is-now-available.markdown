@@ -1,16 +1,17 @@
 ---
 author: linaro
-date: 2012-08-30 16:17:14+00:00
+categories:
+- blog
+date: 2012-08-30 16:17:14
+description: Links to all the downloads for the Linaro 12.08 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-08-release-is-now-available/
 slug: linaro-12-08-release-is-now-available
-title: Linaro 12.08 Release Is Now Available
-wordpress_id: 1842
-categories:
-- blog
 tags:
 - Connect Events
 - Releases
+title: Linaro 12.08 Release Is Now Available
+wordpress_id: 1842
 ---
 
 > Coming together is a beginning; keeping together is progress; working together is success.~ Henry Ford

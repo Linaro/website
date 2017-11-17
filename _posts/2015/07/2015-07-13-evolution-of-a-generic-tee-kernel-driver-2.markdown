@@ -1,18 +1,18 @@
 ---
 author: joakim.bech
+categories:
+- blog
 comments: true
-date: 2015-07-13 19:05:06+00:00
-excerpt: ' Getting a TEE driver into Linux upstream has been the ultimate goal for
+date: 2015-07-13 19:05:06
+description: Getting a TEE driver into Linux upstream has been the ultimate goal for
   a long time. This blog post will talk about the history, design choices and lessons
   learned when implementing and submitting a generic TEE driver for the Linux kernel.
-  '
+excerpt: ' Getting a TEE driver into Linux upstream has been the ultimate goal for
+  a long time. This blog post will talk about the history, design choices and lessons
+  learned when implementing and submitting a generic TEE driver for the Linux kernel. '
 layout: post
 link: https://www.linaro.org/blog/core-dump/evolution-of-a-generic-tee-kernel-driver-2/
 slug: evolution-of-a-generic-tee-kernel-driver-2
-title: Evolution of a generic TEE kernel driver
-wordpress_id: 8967
-categories:
-- blog
 tags:
 - Core Dump
 - Linaro
@@ -20,6 +20,8 @@ tags:
 - Security
 - TEE
 - TrustZone
+title: Evolution of a generic TEE kernel driver
+wordpress_id: 8967
 ---
 
 ## **What is TrustZone?**

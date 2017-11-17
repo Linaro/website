@@ -1,18 +1,20 @@
 ---
 author: linaro
-date: 2011-05-30 04:42:09+00:00
+categories:
+- blog
+date: 2011-05-30 04:42:09
+description: Public phone calls to review plans for the 2011.11 engineering cycle.
+  Anyone is welcome to join and ask questions through IRC.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-11-11-public-plan-reviews/
 slug: linaro-11-11-public-plan-reviews
-title: Linaro 11.11 public plan reviews
-wordpress_id: 3386
-categories:
-- blog
 tags:
 - Community
 - Engineering cycle
 - Linaro
 - plans
+title: Linaro 11.11 public plan reviews
+wordpress_id: 3386
 ---
 
 Now that the [11.05 release](/linaro-blog/2011/05/28/linaro-11-05-released/) is out, and after the [Linaro Developer Summit in Budapest](https://wiki.linaro.org/Events/2011-05-LDS), Linaro would like to invite the ARM Linux community to join reviews of its plans for the upcoming engineering cycle.

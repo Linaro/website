@@ -1,15 +1,17 @@
 ---
 author: steve.taylor
-date: 2013-10-29 12:47:32+00:00
+categories:
+- blog
+date: 2013-10-29 12:47:32
+description: Recap of events that took place on Monday October 28th 2013 at Linaro
+  Connect 2013
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-usa-2013-begins-monday-recap/
 slug: linaro-connect-usa-2013-begins-monday-recap
-title: Linaro Connect USA 2013 Begins- Monday Recap
-wordpress_id: 3115
-categories:
-- blog
 tags:
 - Connect Events
+title: Linaro Connect USA 2013 Begins- Monday Recap
+wordpress_id: 3115
 ---
 
 [Linaro Connect USA 2013](http://www.linaro.org/connect-lcu13) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](http://www.linaro.org/news/linaro-brings-open-source-test-platform-to-open-compute-project/en/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation. Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on ARM-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions. 
@@ -262,5 +264,3 @@ After the keynotes there will be several sessions for attendees to participate i
 </tbody>
 </table>
 Can’t make it to Santa Clara?  Don’t worry.  Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.  [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
-
- 

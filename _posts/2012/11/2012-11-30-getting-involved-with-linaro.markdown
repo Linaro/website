@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2012-11-30 20:17:55+00:00
+categories:
+- blog
+date: 2012-11-30 20:17:55
+description: Whether you are an individual or an employee of a organization it is
+  easy to get involved with Linaro. Find out how in this post.
 layout: post
 link: https://www.linaro.org/blog/community-blog/getting-involved-with-linaro/
 slug: getting-involved-with-linaro
-title: Getting Involved with Linaro
-wordpress_id: 2054
-categories:
-- blog
 tags:
 - Community
+title: Getting Involved with Linaro
+wordpress_id: 2054
 ---
 
 ## Getting Started

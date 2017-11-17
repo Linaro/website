@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2012-04-12 06:11:57+00:00
+categories:
+- blog
+date: 2012-04-12 06:11:57
+description: Announcement and release notes for Linaro GCC 4.7 and 4.6 2012.04
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-7-and-4-6-2012-04-released/
 slug: linaro-gcc-4-7-and-4-6-2012-04-released
-title: Linaro GCC 4.7 and 4.6 2012.04 released
-wordpress_id: 1534
-categories:
-- blog
 tags:
 - Releases
+title: Linaro GCC 4.7 and 4.6 2012.04 released
+wordpress_id: 1534
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of both Linaro GCC 4.7 and Linaro GCC 4.6.

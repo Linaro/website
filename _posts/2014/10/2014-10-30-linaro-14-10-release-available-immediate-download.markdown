@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-10-30 23:41:58+00:00
+categories:
+- blog
+date: 2014-10-30 23:41:58
+description: The Linaro 14.10 software release is available for immediate download.
+  All related links can be found here.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-10-release-available-immediate-download/
 slug: linaro-14-10-release-available-immediate-download
-title: Linaro 14.10 Release Available for Immediate Download
-wordpress_id: 7178
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -27,6 +27,8 @@ tags:
 - software
 - toolchain
 - ubuntu
+title: Linaro 14.10 Release Available for Immediate Download
+wordpress_id: 7178
 ---
 
 >

@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2012-03-29 20:52:35+00:00
+categories:
+- blog
+date: 2012-03-29 20:52:35
+description: Links to all the downloads for the Linaro 12.03 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-03-release/
 slug: linaro-12-03-release
-title: Linaro 12.03 release
-wordpress_id: 1477
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 12.03 release
+wordpress_id: 1477
 ---
 
 “Excellence is the Result of Caring more than others think is Wise, Risking

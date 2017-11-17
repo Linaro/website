@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2011-09-21 05:30:28+00:00
+categories:
+- blog
+date: 2011-09-21 05:30:28
+description: Announcement and release notes for Linaro Kernel 2011.09 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-kernel-2011-09-release/
 slug: linaro-kernel-2011-09-release
-title: Linaro Kernel 2011.09 release
-wordpress_id: 541
-categories:
-- blog
 tags:
 - Releases
+title: Linaro Kernel 2011.09 release
+wordpress_id: 541
 ---
 
 The Linaro Kernel Working Group (KWG) is excited to announce the availability of our September 2011 development snapshot:

@@ -1,14 +1,18 @@
 ---
 author: linaro
-date: 2017-09-25 15:58:01+00:00
+categories:
+- News
+date: 2017-09-25 15:58:01
+description: "[Linaro Connect SFO17, 25 September 2017] Linaro Ltd, the open source
+  collaborative engineering organization developing software for the Arm\xC2\xAE ecosystem,
+  today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment
+  Group."
+featured_on_home: true
 layout: post
 link: https://www.linaro.org/news/xilinx-joins-linaro-iot-embedded-group/
 slug: xilinx-joins-linaro-iot-embedded-group
 title: Xilinx joins Linaro IoT and Embedded Group
 wordpress_id: 12806
-categories:
-- News
-featured_on_home: true
 ---
 
 [Linaro Connect SFO17, 25 September 2017] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment Group.

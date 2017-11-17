@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2010-12-13 12:08:44+00:00
+categories:
+- News
+date: 2010-12-13 12:08:44
+description: CAMBRIDGE, UK - 13 DEC 2010
 layout: post
 link: https://www.linaro.org/news/software-leaders-advise-linaro/
 slug: software-leaders-advise-linaro
 title: Software Leaders to Advise Linaro
 wordpress_id: 4406
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 13 DEC 2010

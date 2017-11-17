@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2011-10-13 11:50:58+00:00
+categories:
+- blog
+date: 2011-10-13 11:50:58
+description: Announcement and release notes for Linaro GDB 7.3 2011.10
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-3-2011-10-released/
 slug: linaro-gdb-7-3-2011-10-released
-title: Linaro GDB 7.3 2011.10 released
-wordpress_id: 654
-categories:
-- blog
 tags:
 - Releases
+title: Linaro GDB 7.3 2011.10 released
+wordpress_id: 654
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro GDB 7.3.

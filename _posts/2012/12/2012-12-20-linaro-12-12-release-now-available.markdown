@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2012-12-20 21:50:26+00:00
+categories:
+- blog
+date: 2012-12-20 21:50:26
+description: We are pleased to announce that Linaro 12.12 is now available and ready
+  for download.
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-12-12-release-now-available/
 slug: linaro-12-12-release-now-available
-title: Linaro 12.12 Release Now Available
-wordpress_id: 2159
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 12.12 Release Now Available
+wordpress_id: 2159
 ---
 
 > Identify your problems but give your power and energy to solutions. ~ Tony Robbins

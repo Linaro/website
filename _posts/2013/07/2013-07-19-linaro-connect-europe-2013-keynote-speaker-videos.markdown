@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2013-07-19 14:25:33+00:00
+categories:
+- blog
+date: 2013-07-19 14:25:33
+description: Keynote Speakers, videos, presentations from Linaro Connect Europe 2013
+  now available.
 layout: post
 link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2013-keynote-speaker-videos/
 slug: linaro-connect-europe-2013-keynote-speaker-videos
-title: 'Linaro Connect Europe 2013:  Keynote Speaker Videos'
-wordpress_id: 2840
-categories:
-- blog
 tags:
 - Connect Events
+title: 'Linaro Connect Europe 2013:  Keynote Speaker Videos'
+wordpress_id: 2840
 ---
 
 Linaro Connect Europe 2013 (LCE13) which took place in Dublin, Ireland on 8 - 12 July and each day started with some great keynote speakers.

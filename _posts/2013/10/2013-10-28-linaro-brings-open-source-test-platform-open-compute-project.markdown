@@ -1,6 +1,10 @@
 ---
 author: linaro
-date: 2013-10-28 12:30:08+00:00
+categories:
+- News
+date: 2013-10-28 12:30:08
+description: Linaro has joined the Open Compute Project (OCP) as an official member
+  and contributes the LAVA LMP (Linaro Multi-purpose probe) to the foundation
 excerpt: Linaro has joined the Open Compute Project (OCP) as an official member and
   contributes the LAVA LMP (Linaro Multi-purpose probe) to the foundation
 layout: post
@@ -8,8 +12,6 @@ link: https://www.linaro.org/news/linaro-brings-open-source-test-platform-open-c
 slug: linaro-brings-open-source-test-platform-open-compute-project
 title: Linaro Brings Open Source Test Platform to Open Compute Project
 wordpress_id: 4430
-categories:
-- News
 ---
 
 SANTA CLARA, US - 28 OCT 2013
