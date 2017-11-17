@@ -7,12 +7,21 @@ permalink: /contact/irc/
 ---
 
 <div class="row no-padding">
+<div class="col-xs-12 text-center" markdown="1">
+[Freenode](http://freenode.net/) is the public IRC system that Linaro uses to communicate.
+
+Server: irc.linaro.org or irc.freenode.net
+
+SSL: Yes, use port 6697s
+
+Channels:
+</div>
+
+</div>
+
+<div class="row no-padding">
 
 <div class="col-sm-6" markdown="1">
-[Freenode](http://freenode.net/) is the public IRC system that Linaro uses to communicate.
-Server: irc.linaro.org or irc.freenode.net
-SSL: Yes, use port 6697s
-Channels:
 
 #linaro for general conversation  
 #linaro-android for Android discussions  
@@ -143,5 +152,3 @@ Click here linaro IRC Logs [http://irclogs.linaro.org/](http://irclogs.linaro.or
 </div>
 
 * * *
-
-
