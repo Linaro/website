@@ -1,19 +1,22 @@
 ---
 author: jennifer.castelino
-date: 2014-11-04 14:08:47+00:00
+categories:
+- blog
+date: 2014-11-04 14:08:47
+description: Overview of the latest group at Linaro, the Linaro Networking Group (LNG).
+  Update on the past 6 months of work and activities and demos that took place at
+  LCU14
 layout: post
 link: https://www.linaro.org/blog/linaro-networking-groups-happening/
 slug: linaro-networking-groups-happening
-title: Linaro Networking Group - What Has Been Happening?
-wordpress_id: 6931
-categories:
-- blog
 tags:
 - connect
 - LCU14
 - Linaro Connect USA 2014
 - linaro networking group
 - LNG
+title: Linaro Networking Group - What Has Been Happening?
+wordpress_id: 6931
 ---
 
 Linaro Networking Group (LNG) has been very busy.  During the week of Linaro Connect USA (LCU14) the team had many activities that took place.   On the Thursday of Connect there were some surprising demonstrations involving OpenDataPlane (ODP) in the LNG hacking room. Surprising because of the breadth of multiarchitecture platforms (include ARM, MIPS and x86) as well as functional ODP applications that showed bare metal performance running in userspace on Linux. ODP has come a long way since LCA14. If you were not able to attend, here's a recap of the LNG activities, sessions and demos during the show as well as an interview with the team's Director discussing the activities the team has been working on and what is coming up.

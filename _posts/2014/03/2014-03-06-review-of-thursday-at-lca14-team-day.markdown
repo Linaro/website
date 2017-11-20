@@ -1,13 +1,12 @@
 ---
 author: jennifer.castelino
-date: 2014-03-06 19:04:06+00:00
+categories:
+- blog
+date: 2014-03-06 19:04:06
+description: Recap of the Thursday activities that took place at LCA14
 layout: post
 link: https://www.linaro.org/blog/connect-update/review-of-thursday-at-lca14-team-day/
 slug: review-of-thursday-at-lca14-team-day
-title: Review of Thursday at LCA14 - "Team Day"
-wordpress_id: 3532
-categories:
-- blog
 tags:
 - Connect Events
 - conference
@@ -18,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Review of Thursday at LCA14 - "Team Day"
+wordpress_id: 3532
 ---
 
 LCA14 on Thursday was unofficially themed “Team Day”.  Unlike the other days of Connect Asia, Thursday did not begin with a keynote, instead we decided to have a lively panel discussion on “[Best Practices working in a Distributed Environment”](https://www.youtube.com/watch?v=8UdqAjAoD3A).  The panel discussed how Linaro operates with people spread over 30 different countries; including best practices to communicate with a global team, staying motivated and handling distractions.

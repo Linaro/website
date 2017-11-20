@@ -1,14 +1,13 @@
 ---
 author: ard.biesheuvel
+categories:
+- blog
 comments: true
-date: 2017-01-26 08:44:07+00:00
+date: 2017-01-26 08:44:07
+keywords: Accelerated AES, arm64, Linux, kernel
 layout: post
 link: https://www.linaro.org/blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel/
 slug: accelerated-aes-for-the-arm64-linux-kernel
-title: Accelerated AES for the ARM64 Linux kernel
-wordpress_id: 12087
-categories:
-- blog
 tags:
 - Core Dump
 - AArch64
@@ -17,7 +16,10 @@ tags:
 - kernel
 - Linux
 - linux kernel
+title: Accelerated AES for the ARM64 Linux kernel
+wordpress_id: 12087
 ---
+
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://www.google.com" %}
 
 The ARMv8 architecture extends the AArch64 and AArch32 instruction sets with dedicated instructions for AES encryption, SHA-1 and SHA-256 cryptographic hashing, and 64×64 to 128 polynomial multiplication, and implementations of the various algorithms that use these instructions have been added to the ARM and arm64 ports of the Linux kernel over the past couple of years. Given that my main focus is on enterprise class systems, which typically use high end SoCs, I have never felt the urge to spend too much time on accelerated implementations for systems that lack these optional instructions (although I did contribute a plain NEON version of AES in ECB/CBC/CTR/XTS modes back in 2013). Until recently, that is, when I received a Raspberry Pi 3 from my esteemed colleague Joakim Bech, the tech lead of the Linaro Security Working Group. This system is built around a Broadcom SoC containing 4 Cortex-A53 cores that lack the ARMv8 Crypto Extensions, and as it turns out, its AES performance was dreadful.
@@ -138,4 +140,3 @@ For the Raspberry Pi 3 (as well as any other system using version r0p4 of the Co
 
 
 {% include image.html name="blog-pic-10.jpg" alt="Blog Pic 10" %}
-

@@ -1,13 +1,13 @@
 ---
 author: steve.taylor
-date: 2013-10-31 15:19:41+00:00
+categories:
+- blog
+date: 2013-10-31 15:19:41
+description: Review of what took place during LCU13 on Wednesday October 30, 2013
+keywords: Linaro, ARM, Linux, opensource, linaro connect, LCU13,
 layout: post
 link: https://www.linaro.org/blog/connect-update/lcu13-wednesday/
 slug: lcu13-wednesday
-title: LCU13 - Wednesday
-wordpress_id: 3140
-categories:
-- blog
 tags:
 - Connect Events
 - arm
@@ -15,6 +15,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: LCU13 - Wednesday
+wordpress_id: 3140
 ---
 
 Wednesday at Linaro Connect USA 2013 started off with the Linaro attendees going to the Simon Segars keynote for ARM TechCon where he discussed his vision for transformative technology in the Internet of Things (IoT), data center and mobile. ****
@@ -275,5 +277,3 @@ Tools
 </table>
 
 Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](http://www.linaro.org/connect-lcu13/schedule/remote-participation)
-
- 

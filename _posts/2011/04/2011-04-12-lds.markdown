@@ -1,17 +1,19 @@
 ---
 author: linaro
-date: 2011-04-12 04:31:23+00:00
+categories:
+- blog
+date: 2011-04-12 04:31:23
+description: Invitation to the Linaro Developer Summit, May 9-13, 2011 in Budapest.
+  A great opportunity to know Linaro better and get involved.
 layout: post
 link: https://www.linaro.org/blog/community-blog/lds/
 slug: lds
-title: Linaro Developer Summit in Budapest, May 9-13
-wordpress_id: 3380
-categories:
-- blog
 tags:
 - Community
 - community
 - developer summit
+title: Linaro Developer Summit in Budapest, May 9-13
+wordpress_id: 3380
 ---
 
 Would you be interested in joining the [Linaro Developer Summit](https://wiki.linaro.org/Events/2011-05-LDS/) (LDS) next month in Budapest (May 9-13)?

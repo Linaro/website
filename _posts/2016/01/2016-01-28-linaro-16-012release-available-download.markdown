@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2016-01-28 19:22:39+00:00
+categories:
+- blog
+date: 2016-01-28 19:22:39
+description: Linaro's 16.01 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.11 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
+keywords: Linaro
 layout: post
 link: https://www.linaro.org/blog/linaro-16-012release-available-download/
 slug: linaro-16-012release-available-download
-title: Linaro 16.01 Release Available for Download
-wordpress_id: 9943
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -23,6 +25,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 16.01 Release Available for Download
+wordpress_id: 9943
 ---
 
 > “Digital circuits are made from analog parts." _**~ Don Vonada**_

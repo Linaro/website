@@ -1,13 +1,16 @@
 ---
 author: linaro
-date: 2013-02-08 17:57:12+00:00
+categories:
+- blog
+date: 2013-02-08 17:57:12
+description: Yes! Linaro is hiring! Does working for an open source company appeal
+  to you? Do you want to be part of the future of Linux on ARM?
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Careers
 layout: post
 link: https://www.linaro.org/blog/do-you-want-to-work-in-open-source-linaro-is-hiring/
 slug: do-you-want-to-work-in-open-source-linaro-is-hiring
 title: Do You Want to Work in Open Source? Linaro is Hiring!
 wordpress_id: 2310
-categories:
-- blog
 ---
 
 Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

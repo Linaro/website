@@ -1,13 +1,13 @@
 ---
 author: linaro
-date: 2011-06-07 21:09:45+00:00
+categories:
+- blog
+date: 2011-06-07 21:09:45
+description: Discussion at the Linaro Developer Summit with kernel hackers Thomas
+  Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney.
 layout: post
 link: https://www.linaro.org/blog/community-blog/discussion-with-kernel-hackers/
 slug: discussion-with-kernel-hackers
-title: Discussion with Thomas Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney
-wordpress_id: 3390
-categories:
-- blog
 tags:
 - Community
 - arm
@@ -18,6 +18,8 @@ tags:
 - mtd
 - servers
 - video
+title: Discussion with Thomas Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney
+wordpress_id: 3390
 ---
 
 At the Linaro Developer Summit in Budapest, I managed to catch four famous kernel developers and record an interesting discussion with them (together with restaurant noise in the background, unless these were echoes of the big kernel lock being torn apart).

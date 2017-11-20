@@ -1,19 +1,21 @@
 ---
 author: shovan
-date: 2015-02-04 16:18:19+00:00
+categories:
+- blog
+date: 2015-02-04 16:18:19
+description: The week before the event is due to start, Linaro Connect Hong Kong 2015
+  (HKG15) is officially sold out.
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-sold/
 slug: linaro-connect-hong-kong-2015-sold
-title: Linaro Connect Hong Kong 2015 -  Sold Out!
-wordpress_id: 7855
-categories:
-- blog
 tags:
 - Connect Events
 - connect
 - Linaro
 - Linaro Connect
 - Linux on ARM
+title: Linaro Connect Hong Kong 2015 -  Sold Out!
+wordpress_id: 7855
 ---
 
 The week before the event is due to start, Linaro Connect Hong Kong 2015 (HKG15) is officially sold out. Each event for the last four years has grown about 10% and Linaro has booked increasingly larger venues to hold the more than 500 attendees. This is the first time that registration has reached capacity before the event and Linaro has needed to shut registration.

@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-12-18 20:28:48+00:00
+categories:
+- blog
+date: 2014-12-18 20:28:48
+description: The Linaro 14.12 software release is available for immediate download.
+  All related links can be found here.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-12-release-available-immediate-download/
 slug: linaro-14-12-release-available-immediate-download
-title: Linaro 14.12 Release Available for Immediate Download!
-wordpress_id: 7740
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -28,6 +28,8 @@ tags:
 - release cycle
 - tools
 - ubuntu
+title: Linaro 14.12 Release Available for Immediate Download!
+wordpress_id: 7740
 ---
 
 > “Any technology that does not appear magical is insufficiently advanced." _**~ Gregory Benford**_

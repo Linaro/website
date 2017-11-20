@@ -1,19 +1,23 @@
 ---
 author: baolin.wang
-date: 2016-02-24 00:03:51+00:00
+categories:
+- blog
+date: 2016-02-24 00:03:51
+description: "Recently I got some patches introducing the crypto engine framework
+  merged into the crypto layer for v4.6, which are applied in Herbert Xu\xE2\x80\x99s
+  git..."
+keywords: Crypto Engine
 layout: post
 link: https://www.linaro.org/blog/core-dump/crypto-engine-framework/
 slug: crypto-engine-framework
-title: Crypto Engine Framework
-wordpress_id: 9995
-categories:
-- blog
 tags:
 - Core Dump
 - crypto engine
 - kernel
 - Linux
 - Linux on ARM
+title: Crypto Engine Framework
+wordpress_id: 9995
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}

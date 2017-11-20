@@ -1,13 +1,15 @@
 ---
 author: linaro
-date: 2013-07-19 20:39:35+00:00
+categories:
+- blog
+date: 2013-07-19 20:39:35
+description: Want to see what happens at Linaro Connect? Check out this Linaro Connect
+  Europe 2013 summary.
+keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, LCE13, LCU13, KVM on ARM,
+  big.LITTLE, Maddog, LAVA, Linaro Connect Europe 2013
 layout: post
 link: https://www.linaro.org/blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/
 slug: kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013
-title: KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013
-wordpress_id: 2843
-categories:
-- blog
 tags:
 - Community
 - Connect Events
@@ -17,6 +19,8 @@ tags:
 - Connect Events
 - Hangouts on Air
 - lava
+title: KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013
+wordpress_id: 2843
 ---
 
 {% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}

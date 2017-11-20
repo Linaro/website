@@ -1,14 +1,20 @@
 ---
 author: george.grey
-date: 2012-01-10 20:08:30+00:00
+categories:
+- blog
+date: 2012-01-10 20:08:30
+description: Linaro CEO report on the activities within Linaro and with their partners.
+  Overview of the 2011 accomplishments.
+keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, open
+  source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
+  Cortex-A9, Cortex, Android, Ubuntu
 layout: post
 link: https://www.linaro.org/blog/december-ceo-report/
 slug: december-ceo-report
 title: December CEO Report
 wordpress_id: 1142
-categories:
-- blog
 ---
+
 Despite the impact of the very welcome holiday season Linaro achieved a new set of monthly deliverables described below. As we start a new year it's worth reminding ourselves of the achievements of the last 12 months:
 
 **In February** we produced our first member newsletter; powerdebug and powertop tools were released on all member SoCs; ST-Ericsson announced Snowball; we made initial deliverables on the LAVA project; and Nokia announced their plans to tie up with Microsoft.
@@ -36,5 +42,3 @@ With well over 2,500 patches delivered upstream last year by Linaro engineers (a
 Our goal is to grow the Linaro organization, to achieve even more in 2012, and to deliver quantifiable return on investment to each of our members.
 
 All of us at Linaro wish you a very successful 2012.
-
-

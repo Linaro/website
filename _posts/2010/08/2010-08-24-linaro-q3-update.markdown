@@ -1,14 +1,16 @@
 ---
 author: linaro
-date: 2010-08-24 11:52:43+00:00
+categories:
+- News
+date: 2010-08-24 11:52:43
+description: CAMBRIDGE, UK - 24 AUG 2010
 layout: post
 link: https://www.linaro.org/news/linaro-q3-update/
 slug: linaro-q3-update
 title: Linaro Q3 update
 wordpress_id: 4398
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 24 AUG 2010
 
 Learn about the latest developments and product plans. [Download the update](/resources/).

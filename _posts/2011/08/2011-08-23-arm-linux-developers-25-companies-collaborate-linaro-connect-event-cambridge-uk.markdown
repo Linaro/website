@@ -1,14 +1,15 @@
 ---
 author: linaro
-date: 2011-08-23 12:13:45+00:00
+categories:
+- News
+date: 2011-08-23 12:13:45
+description: CAMBRIDGE, UK - 23 AUG 2011
 layout: post
 link: https://www.linaro.org/news/arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk/
 slug: arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk
 title: ARM Linux Developers from over 25 Companies Collaborate at Linaro Connect Event
   in Cambridge, UK
 wordpress_id: 4412
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 23 AUG 2011
@@ -57,5 +58,3 @@ Linaro announced the dates of future Linaro Connect events:
 
 	
   * May 7 - 11, 2012, co-located with Ubuntu Developer Summit
-
-

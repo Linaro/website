@@ -1,21 +1,23 @@
 ---
 author: mark.gregotski
-date: 2015-08-27 21:36:08+00:00
+categories:
+- blog
+date: 2015-08-27 21:36:08
+description: Learn about what the Linaro Digital Home Group (LHG) has planned for
+  the week of Linaro Connect San Francisco 2015 in September.
 excerpt: Learn about what the Linaro Digital Home Group (LHG) has planned for the
   week of Linaro Connect San Francisco 2015 in September.
 layout: post
 link: https://www.linaro.org/blog/linaro-digital-home-group-at-sfo15/
 slug: linaro-digital-home-group-at-sfo15
-title: Linaro Digital Home Group at SFO15
-wordpress_id: 9189
-categories:
-- blog
 tags:
 - connect
 - LHG
 - Linaro
 - Linaro Connect
 - Linaro Digital Home Group
+title: Linaro Digital Home Group at SFO15
+wordpress_id: 9189
 ---
 
 The Linaro Digital Home Group (LHG) will once again be very active at Linaro Connect San Francisco 2015 (SFO15) and has scheduled a wide array of interesting events, presentations, and demos.

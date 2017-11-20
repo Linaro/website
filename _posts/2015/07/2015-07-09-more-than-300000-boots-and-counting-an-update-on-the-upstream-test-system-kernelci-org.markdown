@@ -1,27 +1,31 @@
 ---
 author: linaro
+categories:
+- blog
 comments: true
-date: 2015-07-09 23:58:58+00:00
-excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there’s\
-  \ never enough time to thoroughly test every change.  At Linaro, we wanted to expand\
-  \ the system and add the capabilities to perform additional test activities beyond\
-  \ build and boot and leverage our LAVA test framework.  Thus the LAVA team has been\
-  \ working with these maintainers to leverage Linaro’s LAVA automation and test platform.\
-  \  \n"
+date: 2015-07-09 23:58:58
+description: "Linux maintainers see hundreds of patches during a Kernel version and
+  there\xE2\x80\x99s never enough time to thoroughly test every change. The LAVA team
+  has been working with these maintainers to leverage Linaro\xE2\x80\x99s LAVA automation
+  and test platform."
+excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there\u2019s
+  never enough time to thoroughly test every change.  At Linaro, we wanted to expand
+  the system and add the capabilities to perform additional test activities beyond
+  build and boot and leverage our LAVA test framework.  Thus the LAVA team has been
+  working with these maintainers to leverage Linaro\u2019s LAVA automation and test
+  platform.  \n"
 layout: post
 link: https://www.linaro.org/blog/more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org/
 slug: more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org
-title: 'More than 300,000 boots and counting: An update on the upstream test system
-  - kernelci.org'
-wordpress_id: 8894
-categories:
-- blog
 tags:
 - arm
 - kernel
 - lava
 - Linux on ARM
 - maintainers
+title: 'More than 300,000 boots and counting: An update on the upstream test system
+  - kernelci.org'
+wordpress_id: 8894
 ---
 
 _**Authors: Alan Bennett, Tyler Baker, Kevin Hilman and Milo Casagrande**_
@@ -127,4 +131,3 @@ When the 96boards arrive, both physically and as support also arrives in the ups
   * kernelci.org wiki: [http://wiki.kernelci.org](http://wiki.kernelci.org)
   * kernelci.org api: [http://api.kernelci.org](http://api.kernelci.org)
   * kernelci.org frontend: [http://kernelci.org/](http://kernelci.org/?May2015)
-

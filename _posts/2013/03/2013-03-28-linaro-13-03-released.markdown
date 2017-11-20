@@ -1,15 +1,20 @@
 ---
 author: linaro
-date: 2013-03-28 20:20:04+00:00
+categories:
+- blog
+date: 2013-03-28 20:20:04
+description: The 13.03 Linaro release highlights the focused efforts of all the Linaro
+  Teams who have provided all the updates and new features that are integrated on
+  top of Android, Ubuntu and OpenEmbedded during this release cycle.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+  Linaro 13.03 release. release, announcement
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-03-released/
 slug: linaro-13-03-released
-title: Linaro 13.03 Released!
-wordpress_id: 2612
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 13.03 Released!
+wordpress_id: 2612
 ---
 
 > "Vision is not enough, it must be combined with venture. It is not enough to stare up the steps, we must step up the stairs."

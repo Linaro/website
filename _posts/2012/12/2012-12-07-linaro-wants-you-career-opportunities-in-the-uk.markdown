@@ -1,13 +1,18 @@
 ---
 author: linaro
-date: 2012-12-07 18:41:18+00:00
+categories:
+- blog
+date: 2012-12-07 18:41:18
+description: Today we are highlighting career opportunities at Linaro in our Cambridge
+  office. Are you or someone you know located in or near Cambridge, UK and want to
+  be part of the future of Linux on ARM?
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, Careers,
+  Cambridge, UK, QA, LAVA, Kernel
 layout: post
 link: https://www.linaro.org/blog/linaro-wants-you-career-opportunities-in-the-uk/
 slug: linaro-wants-you-career-opportunities-in-the-uk
 title: Linaro Wants You - Career Opportunities in the UK
 wordpress_id: 2092
-categories:
-- blog
 ---
 
 Today we are highlighting career opportunities at Linaro in our Cambridge office. Are you or someone you know located in or near Cambridge, UK and want to be part of the [future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

@@ -1,19 +1,23 @@
 ---
 author: linaro
-date: 2015-09-09 13:01:21+00:00
-excerpt: Linaro announced a major step forward in the delivery of an open source secure
-  media solution for the consumption of premium content on ARM Powered devices. The
-  Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
+categories:
+- News
+date: 2015-09-09 13:01:21
+description: "Linaro announced a major step forward in the delivery of an open source
+  secure media solution for the consumption of premium content on ARM Powered devices.
+  The Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
   and the OpenCDM project, has successfully integrated several security features required
-  by premium content service providers with the Microsoft® PlayReady® Digital Rights
-  Management (DRM).
+  by premium content service providers with the Microsoft\xC2\xAE PlayReady\xC2\xAE
+  Digital Rights Management (DRM)."
+excerpt: "Linaro announced a major step forward in the delivery of an open source
+  secure media solution for the consumption of premium content on ARM Powered devices.
+  The Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
+  and the OpenCDM project, has successfully integrated several security features required
+  by premium content service providers with the Microsoft\xAE PlayReady\xAE Digital
+  Rights Management (DRM)."
 layout: post
 link: https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/
 slug: linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs
-title: Linaro and Microsoft collaborate on secure media solutions for ARM-based SoCs
-wordpress_id: 9236
-categories:
-- News
 tags:
 - arm
 - Chromium
@@ -23,6 +27,8 @@ tags:
 - OP-TEE
 - Open Source
 - Opensource
+title: Linaro and Microsoft collaborate on secure media solutions for ARM-based SoCs
+wordpress_id: 9236
 ---
 
 Cambridge, UK; 9 September 2015
@@ -54,6 +60,3 @@ The secure media solution has been implemented on an STMicroelectronics STiH410 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [http://www.linaro.org](http://www.linaro.org/).
-
-
-

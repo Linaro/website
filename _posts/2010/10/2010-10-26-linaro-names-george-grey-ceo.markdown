@@ -1,14 +1,16 @@
 ---
 author: linaro
-date: 2010-10-26 12:01:05+00:00
+categories:
+- News
+date: 2010-10-26 12:01:05
+description: CAMBRIDGE, UK - 26 OCT 2010
 layout: post
 link: https://www.linaro.org/news/linaro-names-george-grey-ceo/
 slug: linaro-names-george-grey-ceo
 title: Linaro names George Grey as CEO
 wordpress_id: 4400
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 26 OCT 2010
 
 Linaro, at its inaugural developer conference, announced that its board of directors has named George Grey as the company's chief executive officer. Grey's 27-year career has included a number of software and hardware high-tech companies in Europe and the U.S. Prior to this role, he was founder and CEO of Mobicious, a mobile content start-up, and president and COO of SavaJe, a Java-based smart phone operating system.

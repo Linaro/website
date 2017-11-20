@@ -1,18 +1,20 @@
 ---
 author: linus.walleij
-date: 2014-05-21 20:40:35+00:00
+categories:
+- blog
+date: 2014-05-21 20:40:35
+description: Overview of Linaro's participation at Embedded Linux Conference in May
+  2014
 layout: post
 link: https://www.linaro.org/blog/linaro-embedded-linux-conference/
 slug: linaro-embedded-linux-conference
-title: Linaro At Embedded Linux Conference
-wordpress_id: 5861
-categories:
-- blog
 tags:
 - kernel
 - Linaro
 - Linux on ARM
 - Open Source
+title: Linaro At Embedded Linux Conference
+wordpress_id: 5861
 ---
 
 {% include image.html name="Linus-photo-527x-622.jpg" alt="Linus Walleij"%}
@@ -30,5 +32,3 @@ Overall this was a most intense event, and it was rather nice that we would spli
 I have attended ELC in the Bay Area every year since 2008 and plan to continue to do so, since it is always revitalizing.
 
 To see where Linaro will be speaking next, please visit our [new events page](http://www.linaro.org/hub/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](http://www.linaro.org/connect/lcu/lcu14/)in September.
-
-

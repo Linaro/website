@@ -1,14 +1,16 @@
 ---
 author: linaro
-date: 2012-10-26 12:19:55+00:00
+categories:
+- News
+date: 2012-10-26 12:19:55
+description: SEOUL, KOREA AND CAMBRIDGE, UK - 26 OCT 2012
 layout: post
 link: https://www.linaro.org/news/lg-electronics-joins-linaro/
 slug: lg-electronics-joins-linaro
 title: LG Electronics Joins Linaro
 wordpress_id: 4417
-categories:
-- News
 ---
+
 SEOUL, KOREA AND CAMBRIDGE, UK - 26 OCT 2012
 
 Consumer electronics leader LG Electronics and Linaro, the not-for-profit engineering organization develop-ing open source soft-ware for the ARM architecture, today announced that LG will join Linaro to cooperate on new ARM technologies.

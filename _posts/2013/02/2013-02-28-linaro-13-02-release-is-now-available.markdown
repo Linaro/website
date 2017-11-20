@@ -1,17 +1,18 @@
 ---
 author: linaro
-
-date: 2013-02-28 18:58:24+00:00
+categories:
+- blog
+date: 2013-02-28 18:58:24
+description: Links to all the downloads for the Linaro 13.02 release
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-02-release-is-now-available/
 slug: linaro-13-02-release-is-now-available
-title: Linaro 13.02 Release is Now Available
-wordpress_id: 2480
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 13.02 Release is Now Available
+wordpress_id: 2480
 ---
+
 > If you can dream it, you can do it. ~ Walt Disney
 
 ## The Linaro 13.02 release is now available for [download](http://www.linaro.org/downloads/)!

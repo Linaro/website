@@ -1,13 +1,15 @@
 ---
 author: linaro
-date: 2013-07-07 21:46:30+00:00
+categories:
+- blog
+date: 2013-07-07 21:46:30
+description: LCE13 is all about engineering. Find out what goes into planning and
+  building the future of Linux on ARM. Find out how to participate remotely.
+keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
+  LCE13, Dublin, George Grey, Jon Maddog Hall, Video, Linaro OnAir
 layout: post
 link: https://www.linaro.org/blog/community-blog/welcome-to-linaro-connect-europe-2013/
 slug: welcome-to-linaro-connect-europe-2013
-title: Welcome to Linaro Connect Europe 2013
-wordpress_id: 2802
-categories:
-- blog
 tags:
 - Community
 - Connect Events
@@ -15,6 +17,8 @@ tags:
 - community
 - Connect Events
 - Hangouts on Air
+title: Welcome to Linaro Connect Europe 2013
+wordpress_id: 2802
 ---
 
 Welcome to [Linaro Connect Europe 2013 (LCE13)](http://www.linaro.org/connect) being held in Dublin, Ireland.  LCE13 kicks off tomorrow morning, 8 July 2013 with Linaro CEO, George Grey bringing onto focus the vision that will drive the future of Linux on ARM.

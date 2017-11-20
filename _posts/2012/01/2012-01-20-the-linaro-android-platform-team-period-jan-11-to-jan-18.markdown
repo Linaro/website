@@ -1,13 +1,12 @@
 ---
 author: tony.mansson
-date: 2012-01-20 01:30:57+00:00
+categories:
+- blog
+date: 2012-01-20 01:30:57
+keywords: Linaro, Android, 12.01
 layout: post
 link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-jan-11-to-jan-18/
 slug: the-linaro-android-platform-team-period-jan-11-to-jan-18
-title: The Linaro Android Platform Team, Period Jan. 11 to Jan. 18
-wordpress_id: 1203
-categories:
-- blog
 tags:
 - Android
 - '12.01'
@@ -16,6 +15,8 @@ tags:
 - Linaro
 - release
 - toolchain
+title: The Linaro Android Platform Team, Period Jan. 11 to Jan. 18
+wordpress_id: 1203
 ---
 
 Hello again.

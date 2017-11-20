@@ -1,18 +1,21 @@
 ---
 author: linaro
-date: 2011-08-10 08:25:15+00:00
+categories:
+- blog
+date: 2011-08-10 08:25:15
+description: 'Videos: Linaro Connect, Cambridge, UK, Aug. 2011 - Achievements during
+  the week, Q&A session with management, and announcements for the next events.'
 layout: post
 link: https://www.linaro.org/blog/community-blog/connect-summary/
 slug: connect-summary
-title: 'Linaro Connect videos: achievements, Q&A with management and announcements'
-categories:
-- blog
 tags:
 - Community
 - connect
 - Linaro
 - videos
+title: 'Linaro Connect videos: achievements, Q&A with management and announcements'
 ---
+
 Cambridge, UK, Aug. 5 2011
 
 At the end of Linaro Connect Q3.11, the various working groups share what they achieved during this very intense week. Here are a just a few selected bits:

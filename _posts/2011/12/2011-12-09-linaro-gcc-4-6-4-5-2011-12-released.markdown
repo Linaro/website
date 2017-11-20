@@ -1,19 +1,22 @@
 ---
 author: fathi.boudra
-date: 2011-12-09 10:16:05+00:00
+categories:
+- blog
+date: 2011-12-09 10:16:05
+description: Announcing the 2011.12 release of Linaro GCC 4.6 and Linaro GCC 4.5.
+  Changes, new features and download information.
+keywords: gcc, toolchain, release, Linaro
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-4-5-2011-12-released/
 slug: linaro-gcc-4-6-4-5-2011-12-released
-title: Linaro GCC 4.6 & 4.5 2011.12 released
-wordpress_id: 1055
-categories:
-- blog
 tags:
 - Releases
 - gcc
 - Linaro
 - release
 - toolchain
+title: Linaro GCC 4.6 & 4.5 2011.12 released
+wordpress_id: 1055
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2011.12 release of both Linaro GCC 4.6 and Linaro GCC 4.5.

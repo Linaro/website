@@ -1,15 +1,21 @@
 ---
 author: linaro
-date: 2013-06-13 19:27:03+00:00
+categories:
+- blog
+date: 2013-06-13 19:27:03
+description: We're excited to announce that Leslie Hawthorn, Community Action and
+  Impact Manager for Red Hat, Inc. will be giving the Wednesday, July 10 keynote at
+  Linaro Connect Europe 2013 (LCE-13).
+keywords: Linaro, Linux on ARM, Open Source, ARM, Red Hat, Leslie Hawthorn, Community,
+  Best Practice, Linaro Connect, Linaro Connect Europe, LCE-13. Dublin, Ireland
 layout: post
 link: https://www.linaro.org/blog/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/
 slug: lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration
 title: 'LCE-13 Keynote Speaker Announced: Leslie Hawthorn - Cultivating Community:
   Best Practices for Overcoming Challenges to Collaboration'
 wordpress_id: 2759
-categories:
-- blog
 ---
+
 {% include image.html name="2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg" alt="Leslie Hawthorn" class="small-inline"%}
 
 We're excited to announce that Leslie Hawthorn, Community Action and Impact Manager for [Red Hat, Inc.](http://www.redhat.com/) will be giving the Wednesday, July 10 keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).

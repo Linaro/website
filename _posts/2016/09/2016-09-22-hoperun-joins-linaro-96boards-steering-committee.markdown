@@ -1,6 +1,12 @@
 ---
 author: linaro
-date: 2016-09-22 11:57:54+00:00
+categories:
+- News
+date: 2016-09-22 11:57:54
+description: Jiangsu HopeRun Software has joined the 96Boards initiative as a Steering
+  Committee member. This new collaboration allows HopeRun to cooperate with 96Boards
+  Manufacturing Partners and SoC vendors to market products under the 96Boards brand
+  and influence the development of the 96Boards specifications and initiative.
 excerpt: Jiangsu HopeRun Software has joined the 96Boards initiative as a Steering
   Committee member. This new collaboration allows HopeRun to cooperate with 96Boards
   Manufacturing Partners and SoC vendors to market products under the 96Boards brand
@@ -8,10 +14,6 @@ excerpt: Jiangsu HopeRun Software has joined the 96Boards initiative as a Steeri
 layout: post
 link: https://www.linaro.org/news/hoperun-joins-linaro-96boards-steering-committee/
 slug: hoperun-joins-linaro-96boards-steering-committee
-title: HopeRun joins Linaro 96Boards Steering Committee
-wordpress_id: 11582
-categories:
-- News
 tags:
 - 96Boards
 - board
@@ -25,6 +27,8 @@ tags:
 - Opensource
 - software
 - Steering Committee
+title: "HopeRun\_joins\_Linaro\_96Boards Steering Committee"
+wordpress_id: 11582
 ---
 
 Cambridge, UK: 22 September 2016
@@ -48,5 +52,3 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 Jiangsu HopeRun Software Co., Ltd is a leading integrated software solution and services provider headquartered in China with global offices. Founded in 2006, HopeRun today has 5,000 employees and is a member of the Information Technology Service Standards (ITSS) Working Group run by China’s MIIT (Ministry of industry and information technology). The company was recently ranked in the top 20 of companies in China with great potential by Forbes and listed as one of the Forbes China “Up-and-Comers” companies.
 
 HopeRun provides an end-to-end software service, from initial consultation through to planning, design, development, testing, operation and maintenance. It specialises in telematics, device to device communications solutions, in-vehicle systems, financial informatization, intelligent terminal embedded software, supply chain management software and smart grid informatization software. In addition, the company offers data warehousing, analysis, and migration and integration services. For further information, please visit [HopeRun.net](http://www.hoperun.net)
-
-

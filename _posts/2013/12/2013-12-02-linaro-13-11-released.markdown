@@ -1,13 +1,14 @@
 ---
 author: fathi.boudra
-date: 2013-12-02 16:34:05+00:00
+categories:
+- blog
+date: 2013-12-02 16:34:05
+description: Linaro 13.11 release information and links to downloads
+keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.11 release, Android,
+  LAVA, ARMv8
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-11-released/
 slug: linaro-13-11-released
-title: Linaro 13.11 Released
-wordpress_id: 3206
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -24,6 +25,8 @@ tags:
 - release cycle
 - toolchain
 - tools
+title: Linaro 13.11 Released
+wordpress_id: 3206
 ---
 
 > I like Kit-Kat, unless I'm with four or more people. - Mitch Hedberg

@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2016-02-25 22:13:26+00:00
+categories:
+- blog
+date: 2016-02-25 22:13:26
+description: Linaro's 16.02 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 16.02 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
+keywords: Linaro
 layout: post
 link: https://www.linaro.org/blog/linaro-16-02-release-available-download/
 slug: linaro-16-02-release-available-download
-title: Linaro 16.02 Release Available for Download
-wordpress_id: 10009
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -23,6 +25,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 16.02 Release Available for Download
+wordpress_id: 10009
 ---
 
 > “Sir, it's very possible this asteroid is not stable." _**~ C3PO**_

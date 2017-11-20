@@ -1,14 +1,13 @@
 ---
 author: linaro
-date: 2015-02-09 01:55:53+00:00
+categories:
+- News
+date: 2015-02-09 01:55:53
+description: Actions Technology invests in enabling the open source development community
+  with the development of a new cost-effective ARM 64-bit development board
 layout: post
 link: https://www.linaro.org/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/
 slug: linaro-announces-actions-technology-founding-member-linaro-community-boards-group
-title: Linaro announces Actions Technology as a founding member of the Linaro Community
-  Boards Group
-wordpress_id: 7925
-categories:
-- News
 tags:
 - Linaro
 - Linaro Connect
@@ -16,6 +15,9 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Linaro announces Actions Technology as a founding member of the Linaro Community
+  Boards Group
+wordpress_id: 7925
 ---
 
 ## Actions Technology invests in enabling the open source development community with the development of a new cost-effective ARM 64-bit development board
@@ -45,5 +47,3 @@ Actions Technology focuses on solutions for smart handheld and smart home device
 **About Actions Semiconductor Co., Ltd.**
 
 Actions Semiconductor is one of China's leading fabless semiconductor companies that provides comprehensive portable multimedia and mobile internet system-on-a-chip (SoC) solutions for portable consumer electronics. Actions Semiconductor products include SoCs, firmware, software, solution development kits, as well as detailed specifications of other required components. Actions Semiconductor also provides total product and technology solutions that allow customers to quickly introduce new portable consumer electronics to the mass market in a cost effective way. The Company is headquartered in Zhuhai, China, with offices in Shanghai, Shenzhen, Hong Kong and Taipei. For more information, please visit the Actions Semiconductor website at [http://www.actions-semi.com](http://www.actions-semi.com/).
-
-

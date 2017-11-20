@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2011-10-13 14:37:16+00:00
+categories:
+- blog
+date: 2011-10-13 14:37:16
+description: Introduction of the members and plans for the Linaro ARM Landing team
+keywords: Linaro, Linux, ARM, Linux ARM, kernel, ARM A5, ARM A9, Android, Ubuntu
 layout: post
 link: https://www.linaro.org/blog/community-blog/arm-landing-team-up-and-running/
 slug: arm-landing-team-up-and-running
-title: ARM Landing Team Up and Running
-wordpress_id: 670
-categories:
-- blog
 tags:
 - Community
+title: ARM Landing Team Up and Running
+wordpress_id: 670
 ---
 
 The ARM Landing Team is now up and running.  This small team consists of Jon Medhurst (Tixy) and Ryan Harkin.

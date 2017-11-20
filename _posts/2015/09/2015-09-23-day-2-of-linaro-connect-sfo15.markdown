@@ -1,24 +1,23 @@
 ---
 author: linaro
-date: 2015-09-23 02:26:42+00:00
+categories:
+- blog
+date: 2015-09-23 02:26:42
+description: Overview of the keynotes and sessions that took place during day 2 of
+  Linaro Connect San Francisco 2015.
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 2 of Linaro Connect San Francisco 2015.
 layout: post
 link: https://www.linaro.org/blog/day-2-of-linaro-connect-sfo15/
 slug: day-2-of-linaro-connect-sfo15
-title: Day 2 of Linaro Connect SFO15
-wordpress_id: 9403
-categories:
-- blog
 tags:
 - connect
 - Connect Events
 - Linaro
 - Linaro Connect
+title: Day 2 of Linaro Connect SFO15
+wordpress_id: 9403
 ---
-
-
-
 
 Linaro Connect San Francisco 2015 began with another exciting day of announcements and keynotes.  First up was an announcement that two new members have joined Linaro just this week. [Acadine Technologies](https://youtu.be/S3YMBLOTXSI?t=3m6s) and [Tinno Mobile](https://youtu.be/5viiqYeOATI?t=1h29m16s) have joined as members of the Linaro Mobile Group (LMG).
 

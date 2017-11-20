@@ -1,22 +1,24 @@
 ---
 author: peter.maydell
+categories:
+- blog
 comments: true
-date: 2015-06-22 23:02:00+00:00
+date: 2015-06-22 23:02:00
+description: "Over the years I\xE2\x80\x99ve picked up a few tricks for tracking down
+  problems in QEMU, and it seemed worth writing them up."
 excerpt: 'Peter Maydell  talks about some helpful tricks for debugging QEMU - rr that
   he has learned working with it. '
 layout: post
 link: https://www.linaro.org/blog/core-dump/tricks-for-debugging-qemu-rr/
 slug: tricks-for-debugging-qemu-rr
-title: Tricks for debugging QEMU — rr
-wordpress_id: 8764
-categories:
-- blog
 tags:
 - Core Dump
 - arm
 - Linaro
 - qemu
 - QEMU-rr
+title: "Tricks for debugging QEMU \u2014 rr"
+wordpress_id: 8764
 ---
 
 Over the years I’ve picked up a few tricks for tracking down problems in QEMU, and it seemed worth writing them up. First on the list is a tool I’ve found relatively recently: [rr, from the folks at Mozilla.](http://rr-project.org/)

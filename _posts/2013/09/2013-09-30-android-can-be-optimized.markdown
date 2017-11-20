@@ -1,13 +1,14 @@
 ---
 author: khasim.mohammed
-date: 2013-09-30 19:16:47+00:00
+categories:
+- blog
+date: 2013-09-30 19:16:47
+description: Blog on how Linaro is analyzing and working on ways to optimize Android.
+keywords: Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
+  on ARM, Android community, opensource software
 layout: post
 link: https://www.linaro.org/blog/community-blog/android-can-be-optimized/
 slug: android-can-be-optimized
-title: Android Can Be Optimized
-wordpress_id: 3082
-categories:
-- blog
 tags:
 - Community
 - android
@@ -18,6 +19,8 @@ tags:
 - Linaro Connect
 - Open Source
 - software
+title: Android Can Be Optimized
+wordpress_id: 3082
 ---
 
 Instead of posting this as a question “can or should Android be optimized?” and trying to find and justify the answer it’s good to begin with a conclusion, this shows that we are quite confident that it’s important to optimize Android and there is definitely enough room or scope for optimizations.

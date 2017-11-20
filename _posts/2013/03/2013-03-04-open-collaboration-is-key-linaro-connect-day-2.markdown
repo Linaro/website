@@ -1,17 +1,21 @@
 ---
 author: linaro
-date: 2013-03-04 23:56:43+00:00
+categories:
+- blog
+date: 2013-03-04 23:56:43
+description: Linaro Connect Asia session highlights from day 1 and what people can
+  expect to particpate in on day 2
+keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+  George Grey, Jon Corbet, LWN, Open Collaboration
 layout: post
 link: https://www.linaro.org/blog/community-blog/open-collaboration-is-key-linaro-connect-day-2/
 slug: open-collaboration-is-key-linaro-connect-day-2
-title: Open Collaboration...is Key! Linaro Connect Day 2
-wordpress_id: 2528
-categories:
-- blog
 tags:
 - Community
 - Connect Events
 - Hangouts on Air
+title: Open Collaboration...is Key! Linaro Connect Day 2
+wordpress_id: 2528
 ---
 
 [Day 1 of Linaro Connect Asia 2013](http://www.linaro.org/linaro-blog/2013/03/04/welcome-to-linaro-connect-asia-2013/) was full of energy, excitement and yes, a little exhaustion as jet lagged settled in on more than a few attendees.  George Grey, Linaro CEO and Jon Corbet of LWN.net set the tone of the day in their opening keynotes--open collaboration. The buzz in the sessions and in the "hallway" tracks really focused on making sure Linaro finds the correct balance of open collaboration with our members interests and those of upstreams and community.  Jon Corbet "gently" reminded Linaro about the importance of open collaboration in his keynote.

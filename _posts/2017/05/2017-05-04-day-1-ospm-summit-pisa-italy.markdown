@@ -1,13 +1,12 @@
 ---
 author: mathieu.poirier
-date: 2017-05-04 13:28:57+00:00
+categories:
+- blog
+date: 2017-05-04 13:28:57
+keywords: power management, scheduling disciplines
 layout: post
 link: https://www.linaro.org/blog/core-dump/day-1-ospm-summit-pisa-italy/
 slug: day-1-ospm-summit-pisa-italy
-title: Day 1 at the OSPM Summit Pisa, Italy
-wordpress_id: 12377
-categories:
-- blog
 tags:
 - Core Dump
 - arm
@@ -16,6 +15,8 @@ tags:
 - PELT
 - power management
 - scheduling discplines
+title: Day 1 at the OSPM Summit Pisa, Italy
+wordpress_id: 12377
 ---
 
 [The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by ARM and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 1 (to view the summary from day 2, click [here](https://www.linaro.org/blog/core-dump/day-2-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.

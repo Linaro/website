@@ -1,16 +1,22 @@
 ---
 author: linaro
-date: 2013-02-28 14:18:21+00:00
+categories:
+- blog
+date: 2013-02-28 14:18:21
+description: David A. Rusling, Linaro CTO gives an overview of the upcoming Linaro
+  Connect Asia 2013 event which will take place from 4 - 8 March at the Gold Coast
+  Hotel in Hong Kong.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+  Kong, Speakers, Announcement, Jonathan Corbet, Lars Kurth, Jason Taylor, Greg K-H,
+  Greg Kroah-Hartman
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-cto-gives-overview-of-linaro-connect-asia-2013/
 slug: linaro-cto-gives-overview-of-linaro-connect-asia-2013
-title: Linaro CTO Gives Overview of Linaro Connect Asia 2013
-wordpress_id: 2467
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Linaro CTO Gives Overview of Linaro Connect Asia 2013
+wordpress_id: 2467
 ---
 
 In a video interview, [David A. Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](http://www.linaro.org/connect) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.

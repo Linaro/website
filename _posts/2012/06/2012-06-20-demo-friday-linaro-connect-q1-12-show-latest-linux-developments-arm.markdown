@@ -1,15 +1,16 @@
 ---
 author: linaro
-
-date: 2012-06-20 12:17:41+00:00
+categories:
+- News
+date: 2012-06-20 12:17:41
+description: CAMBRIDGE, UK - 20 JAN 2012
 layout: post
 link: https://www.linaro.org/news/demo-friday-linaro-connect-q1-12-show-latest-linux-developments-arm/
 slug: demo-friday-linaro-connect-q1-12-show-latest-linux-developments-arm
 title: Demo Friday at Linaro Connect Q1.12 to show latest Linux developments on ARM
 wordpress_id: 4414
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 20 JAN 2012
 
 ## Linaro members, partners and community offer interactive demonstrations showcasing ARM-processor-based boards and Linaro builds of Android and Ubuntu

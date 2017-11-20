@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2013-02-01 13:12:29+00:00
+categories:
+- blog
+date: 2013-02-01 13:12:29
+description: Linaro announces the release of Linaro 13.01.
+keywords: Linaro, Linux on ARM, Linux, Open Source, ARM, Android, Ubuntu, Linaro Enterprise
+  Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, ARMv8, Release, 13.01, Announcement
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-01-released/
 slug: linaro-13-01-released
 title: Linaro 13.01 released
 wordpress_id: 2266
-categories:
-- blog
-tags:
-- Releases
 ---
 
 > All things are created twice; first mentally; then physically. The key to creativity is to begin with the end in mind, with a vision and a blue > print of the desired result.

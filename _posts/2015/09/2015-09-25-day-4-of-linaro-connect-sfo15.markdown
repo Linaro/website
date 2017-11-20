@@ -1,20 +1,22 @@
 ---
 author: linaro
-date: 2015-09-25 00:20:25+00:00
+categories:
+- blog
+date: 2015-09-25 00:20:25
+description: Overview of the keynotes and sessions that took place during day 4 of
+  Linaro Connect San Francisco 2015.
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 4 of Linaro Connect San Francisco 2015.
 layout: post
 link: https://www.linaro.org/blog/day-4-of-linaro-connect-sfo15/
 slug: day-4-of-linaro-connect-sfo15
-title: Day 4 of Linaro Connect SFO15
-wordpress_id: 9459
-categories:
-- blog
 tags:
 - connect
 - Connect Events
 - Linaro
 - Linaro Connect
+title: Day 4 of Linaro Connect SFO15
+wordpress_id: 9459
 ---
 
 {% include image.html name="LNG-day-image.jpg" alt="LNG day image" %}
@@ -200,4 +202,3 @@ Energy Aware Scheduling: Power vs. Performance policy
 
 
 Be sure to check back in tomorrow for the final day of Linaro Connect. Tomorrow will start out with a keynote by Karen Sandler on "Ideology in Open Source Compliance" following that will be a Security Panel discussion. To learn more about the agenda tomorrow please visit: [https://sfo15.pathable.com/meetings](https://sfo15.pathable.com/meetings)
-

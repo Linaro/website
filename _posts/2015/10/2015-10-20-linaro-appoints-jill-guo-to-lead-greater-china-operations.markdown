@@ -1,20 +1,22 @@
 ---
 author: linaro
-date: 2015-10-20 15:25:54+00:00
-excerpt: Linaro announced that Jill Guo has been appointed as the Executive Vice President
-  to head up the company’s growing Greater China operations.
+categories:
+- News
+date: 2015-10-20 15:25:54
+description: "Linaro announced that Jill Guo has been appointed as the Executive Vice
+  President to head up the company\xE2\x80\x99s growing Greater China operations."
+excerpt: "Linaro announced that Jill Guo has been appointed as the Executive Vice
+  President to head up the company\u2019s growing Greater China operations."
 layout: post
 link: https://www.linaro.org/news/linaro-appoints-jill-guo-to-lead-greater-china-operations/
 slug: linaro-appoints-jill-guo-to-lead-greater-china-operations
-title: Linaro appoints Jill Guo to lead Greater China operations
-wordpress_id: 9547
-categories:
-- News
 tags:
 - Linaro
 - Linux
 - Linux on ARM
 - Open Source
+title: Linaro appoints Jill Guo to lead Greater China operations
+wordpress_id: 9547
 ---
 
 Cambridge, UK; October 20, 2015

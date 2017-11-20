@@ -1,23 +1,28 @@
 ---
 author: mathieu.poirier
+categories:
+- blog
 comments: true
-date: 2014-10-30 14:33:00+00:00
-excerpt: A lot of exciting things have happened in the world of ARM® Coresight™ since
-  our first blog post a few months ago. Good progress was achieved on several fronts
-  and we thought an update was in order to keep readers informed on the latest developments.
+date: 2014-10-30 14:33:00
+description: "A lot of exciting things have happened in the world of ARM\xC2\xAE Coresight\xE2\x84\xA2
+  since our first blog post a few months ago. Good progress was achieved on several
+  fronts"
+excerpt: "A lot of exciting things have happened in the world of ARM\xAE Coresight\u2122
+  since our first blog post a few months ago. Good progress was achieved on several
+  fronts and we thought an update was in order to keep readers informed on the latest
+  developments."
 layout: post
 link: https://www.linaro.org/blog/core-dump/coresight-tracing-update/
 slug: coresight-tracing-update
-title: 'Coresight: Tracing the Update'
-wordpress_id: 7171
-categories:
-- blog
 tags:
 - Core Dump
 - arm
 - CoreSight
 - kernel
+title: 'Coresight: Tracing the Update'
+wordpress_id: 7171
 ---
+
 # Coresight: Tracing the Update
 
 A lot of exciting things have happened in the world of ARM® Coresight™ [since our first blog post](http://www.linaro.org/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/) a few months ago. Good progress was achieved on several fronts and we thought an update was in order to keep readers informed on the latest developments.

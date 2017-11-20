@@ -1,6 +1,13 @@
 ---
 author: linaro
-date: 2016-06-15 11:58:50+00:00
+categories:
+- News
+date: 2016-06-15 11:58:50
+description: Linaro announces that Thundersoft has joined the 96Boards initiative
+  as a Steering Committee member and Manufacturing Partner. This new collaboration
+  allows Thundersoft to both influence the development of the 96Boards specifications
+  and initiative, and produce 96Boards products with support provided on the 96Boards
+  forum.
 excerpt: Linaro announces that Thundersoft has joined the 96Boards initiative as a
   Steering Committee member and Manufacturing Partner. This new collaboration allows
   Thundersoft to both influence the development of the 96Boards specifications and
@@ -9,11 +16,6 @@ excerpt: Linaro announces that Thundersoft has joined the 96Boards initiative as
 layout: post
 link: https://www.linaro.org/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
 slug: thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member
-title: Thundersoft joins Linaro 96Boards as both Manufacturing Partner and Steering
-  Committee member
-wordpress_id: 10684
-categories:
-- News
 tags:
 - 96Boards
 - Linaro
@@ -21,6 +23,9 @@ tags:
 - members
 - Open Source
 - Opensource
+title: Thundersoft joins Linaro 96Boards as both Manufacturing Partner and Steering
+  Committee member
+wordpress_id: 10684
 ---
 
 Cambridge, UK: 15 June 2016
@@ -44,5 +49,3 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 **About Thundersoft**
 
 Thundersoft, listed on the Shenzhen Stock Exchange (SZ: 300496), is the world's leading provider of mobile operating system and smart device solutions. Focusing in areas like mobile phone/tablet, IoT, automotive and enterprise, etc., with full-stack engineering resource covering mobile software, hardware and all layers of operating system, rich technology/solution portfolio, strategic partnership with key SoC/ISV/IHV vendors, and global support networks, Thundersoft is able to provide professional, solid, responsive and turn-key mobile platform technology, services and solutions, and enable customers worldwide to build high-quality and quick-to-market products. Learn more at [www.thundersoft.com](http://www.thundersoft.com)
-
-

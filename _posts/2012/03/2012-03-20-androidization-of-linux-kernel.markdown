@@ -1,18 +1,21 @@
 ---
 author: vishal.bhoj
-date: 2012-03-20 15:21:41+00:00
+categories:
+- blog
+date: 2012-03-20 15:21:41
+description: Vishal Bhoj of the Linaro Android team explains how he recently "androidized"
+  the 3.2 Linux Kernel for Vexpress-rtsm.
+keywords: Linaro, Linux on ARM, ARM, ARM SoC, Android, 3.3 Linux Kernel, Androidization
 layout: post
 link: https://www.linaro.org/blog/android-blog/androidization-of-linux-kernel/
 slug: androidization-of-linux-kernel
-title: Androidization of linux kernel
-wordpress_id: 1392
-categories:
-- blog
 tags:
 - Android
 - android
 - linaro
 - patch
+title: Androidization of linux kernel
+wordpress_id: 1392
 ---
 
 I have always wondered how one should be applying the Android patches onto any Linux kernel. Recently I had to do the same stuff. Here is a short description on how I androidized the 3.2 Linux kernel. I have added the Android patches to 3.2 Linux kernel for Vexpress-rtsm. Since the kernel was close to the upstream kernel there were no merge conflicts luckily.

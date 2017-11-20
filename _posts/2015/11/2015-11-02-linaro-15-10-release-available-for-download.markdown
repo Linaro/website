@@ -1,16 +1,17 @@
 ---
 author: linaro
-date: 2015-11-02 19:23:25+00:00
+categories:
+- blog
+date: 2015-11-02 19:23:25
+description: Linaro's 15.10 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.10 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-10-release-available-for-download/
 slug: linaro-15-10-release-available-for-download
-title: Linaro 15.10 Release Available for Download
-wordpress_id: 9641
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -23,6 +24,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 15.10 Release Available for Download
+wordpress_id: 9641
 ---
 
 > “Once a word has been allowed to escape, it cannot be recalled." _**~ Horace, Epistles**_

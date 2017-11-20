@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-07-02 16:18:18+00:00
+categories:
+- blog
+date: 2014-07-02 16:18:18
+description: The Linaro 14.06 release is now available for immediate download. Here
+  you will find links to all the products in this release.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-06-available-download/
 slug: linaro-14-06-available-download
-title: Linaro 14.06 Available for Download!
-wordpress_id: 6054
-categories:
-- blog
 tags:
 - android
 - arm
@@ -28,6 +28,8 @@ tags:
 - software
 - toolchain
 - ubuntu
+title: Linaro 14.06 Available for Download!
+wordpress_id: 6054
 ---
 
 > "Every worthwhile accomplishment, big or little, has its stages of drudgery and triumph; a beginning, a struggle and a victory." Ghandi 
@@ -105,5 +107,3 @@ Bug reports for this release should be filed in Launchpad against the individual
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
 Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [http://www.linaro.org/connect/lcu/lcu14/](http://www.linaro.org/connect/lcu/lcu14/)
-
-

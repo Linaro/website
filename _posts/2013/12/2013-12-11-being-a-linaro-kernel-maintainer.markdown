@@ -1,13 +1,17 @@
 ---
 author: david.rusling
-date: 2013-12-11 21:01:28+00:00
+categories:
+- blog
+date: 2013-12-11 21:01:28
+description: "Linaro is a very open environment but with access to a lot of privileged
+  information and knowledge about our member\xE2\x80\x99s products and strategies.
+  This can sometimes make being a kernel maintainer somewhat of a balancing act, especially
+  with public discussions in kernel mailing lists and in open forums"
+keywords: Linaro, kernel, linux, linux on ARM, kernel maintainer, open source software,
+  software
 layout: post
 link: https://www.linaro.org/blog/kernel-blog/being-a-linaro-kernel-maintainer/
 slug: being-a-linaro-kernel-maintainer
-title: Being a Linaro Kernel Maintainer
-wordpress_id: 3216
-categories:
-- blog
 tags:
 - Kernel
 - kernel
@@ -15,6 +19,8 @@ tags:
 - Linux
 - Linux on ARM
 - Open Source
+title: Being a Linaro Kernel Maintainer
+wordpress_id: 3216
 ---
 
 Linaro is a very open environment but with access to a lot of privileged information and knowledge about our member’s products and strategies. This can sometimes make being a kernel maintainer somewhat of a balancing act, especially with public discussions in kernel mailing lists and in open forums.

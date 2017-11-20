@@ -1,15 +1,18 @@
 ---
 author: david.rusling
-date: 2012-11-08 14:18:33+00:00
+categories:
+- blog
+date: 2012-11-08 14:18:33
+description: Why Linaro's culture of openness is key to its success.
+keywords: Linux on ARM, Open Source, open, Linux, kernel, Linaro, Connect, LEG, Linaro
+  Enterprise Group
 layout: post
 link: https://www.linaro.org/blog/industry-blog/why-openness-is-not-optional/
 slug: why-openness-is-not-optional
-title: Why Openness is Not Optional
-wordpress_id: 1981
-categories:
-- blog
 tags:
 - Industry
+title: Why Openness is Not Optional
+wordpress_id: 1981
 ---
 
 When we started Linaro, we spent a lot of time discussing how it would operate. Most ARM companies have a culture of secrecy, and why not? After all, the mobile phone space is worth billions of dollars and demands a relentless pace of innovation. Worse still, it ruthlessly punishes missed deadlines and 'nearly' products. This culture of secrecy becomes a problem and an easy default position (I call it the 'foetal position'). It takes a more sophisticated view of open source to realise that there is much that has no business being secret.

@@ -1,19 +1,21 @@
 ---
 author: linaro
-date: 2015-04-02 11:57:14+00:00
+categories:
+- News
+date: 2015-04-02 11:57:14
+description: Alibaba Group joins Linaro to accelerate development of software platforms
+  for ARM Powered servers
 layout: post
 link: https://www.linaro.org/news/linaro-announces-alibaba-group-as-latest-member/
 slug: linaro-announces-alibaba-group-as-latest-member
-title: Linaro announces Alibaba Group as latest member
-wordpress_id: 8428
-categories:
-- News
 tags:
 - arm
 - ARMv8
 - LEG
 - Linaro
 - Linux on ARM
+title: Linaro announces Alibaba Group as latest member
+wordpress_id: 8428
 ---
 
 ## Alibaba Group joins Linaro to accelerate development of software platforms for ARM Powered servers
@@ -41,5 +43,3 @@ In 2014, three members publicly demonstrated fully integrated ARMv8-A 64-bit ser
 Linaro is the place where engineers from the world’s leading technology companies collaborate with Linaro's own engineering team to define the future of open source on ARM. The company's engineering organization comprises over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [http://www.linaro.org](http://www.linaro.org/).
-
-

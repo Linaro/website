@@ -1,19 +1,22 @@
 ---
 author: linaro
-date: 2015-02-26 02:45:54+00:00
+categories:
+- blog
+date: 2015-02-26 02:45:54
+description: 'Content from the Linaro Connect Hong Kong 2015 event is now available.
+  Materials include: slide presentations, session descriptions and sessions videos'
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-content-now-available/
 slug: linaro-connect-hong-kong-2015-content-now-available
-title: Linaro Connect Hong Kong 2015 Content Now Available
-wordpress_id: 8167
-categories:
-- blog
 tags:
 - connect
 - Connect Events
 - Linaro
 - Linaro Connect
+title: Linaro Connect Hong Kong 2015 Content Now Available
+wordpress_id: 8167
 ---
+
 Linaro Connect Hong Kong 2015 was a great success, with over 400 attendees during the week. There were many different sessions that took place giving attendees the opportunity to take advantage of the different tracks available. If you were unable to attend but would like to see some of the sessions and materials that were presented we have compiled a list of all the available presentations and session videos below.
 
 If you’re looking for a particular session below is a list of the sessions by day. Each session has a link to the schedule site, the link to the YouTube Video as well as the link the .mp4 that can be downloaded from the Linaro server for those who can’t access YouTube. Where possible session slides are also available. Please note not all sessions are recorded and not all have slides available. You can always check out the HKG15 [event hub](http://connect.linaro.org/hub/), [Flickr](https://www.flickr.com/photos/linaroorg/), [YouTube](https://www.youtube.com/user/LinaroOnAir/), and [Slideshare](http://www.slideshare.net/linaroorg) for any materials that may be added at a later date. Remember that registration is now available for our next Linaro Connect. Linaro Connect San Francisco 2015 will take place in September - [Register Now](http://connect.linaro.org/sfo15/).
@@ -1860,5 +1863,3 @@ Not Available
 </tr>
 </tbody>
 </table>
-
-

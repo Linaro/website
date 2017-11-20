@@ -1,13 +1,13 @@
 ---
 author: linaro
-date: 2011-05-31 17:36:09+00:00
+categories:
+- blog
+date: 2011-05-31 17:36:09
+description: 'Video: trying the Linaro Android Build Service on the Panda board -
+  Only 15 minutes needed. Other boards available.'
 layout: post
 link: https://www.linaro.org/blog/linaro-android-build-service-video/
 slug: linaro-android-build-service-video
-title: 'Video: Linaro Android Build Service on Panda board'
-wordpress_id: 3387
-categories:
-- blog
 tags:
 - android
 - Evaluation builds
@@ -15,6 +15,8 @@ tags:
 - Linaro
 - Panda board
 - video
+title: 'Video: Linaro Android Build Service on Panda board'
+wordpress_id: 3387
 ---
 
 Linaro has just opened a new service to generate Android images built with the Linaro kernel, and with Linaro optimizations (binaries built with optimized ARM toolchains, optimized C library...).
@@ -107,5 +109,3 @@ Unplug the SD card.
 
 	
   * You should see `0xBenchmark`
-
-

@@ -1,13 +1,16 @@
 ---
 author: steve.taylor
-date: 2013-09-27 20:18:13+00:00
+categories:
+- blog
+date: 2013-09-27 20:18:13
+description: Linaro 13.09 release notes and highlights. Links to relevant downloads
+  for the release.
+keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro stable kernel, LSK,
+  Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
+  OpenEmbedded, big.LITTLE, LAVA,  KVM on ARM
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-09-released/
 slug: linaro-13-09-released
-title: Linaro 13.09 Released
-wordpress_id: 3055
-categories:
-- blog
 tags:
 - Releases
 - Linaro
@@ -17,6 +20,8 @@ tags:
 - Opensource
 - release
 - release cycle
+title: Linaro 13.09 Released
+wordpress_id: 3055
 ---
 
 > No endeavor that is worthwhile is simple in prospect;  if it is right, it will be simple in retrospect.

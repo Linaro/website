@@ -1,16 +1,21 @@
 ---
 author: linaro
-date: 2012-04-12 17:00:44+00:00
+categories:
+- blog
+date: 2012-04-12 17:00:44
+description: Thanks to Tara Oldfield at Novacut the Q2.12 Linaro Connect event now
+  has a promo video. Check it out! Hope to see you in Hong Kong!
+keywords: Promo Video Linaro, Linux on ARM, Linaro Connect, Q1.12, Videos, Interviews,
+  Plenaries, Demos, Q2.12, developers, registration, Hong Kong, Gold Coast Hotel,
+  May, June, Novacut
 layout: post
 link: https://www.linaro.org/blog/community-blog/q2-12-linaro-connect-promo-video-now-available/
 slug: q2-12-linaro-connect-promo-video-now-available
-title: Q2.12 Linaro Connect Promo Video Now Available
-wordpress_id: 1554
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Q2.12 Linaro Connect Promo Video Now Available
+wordpress_id: 1554
 ---
 
 {% include image.html name="event-221.png" alt="Linaro Connect Event Q2 12" url="http://connect.linaro.org/events/event/linaro-connect-q2-12/" %}

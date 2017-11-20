@@ -1,16 +1,17 @@
 ---
 author: linaro
-date: 2015-06-25 16:53:03+00:00
+categories:
+- blog
+date: 2015-06-25 16:53:03
+description: Linaro's 15.06 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.06 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-06-release-available-for-download/
 slug: linaro-15-06-release-available-for-download
-title: Linaro 15.06 Release Available for Download
-wordpress_id: 8829
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -26,6 +27,8 @@ tags:
 - release cycle
 - software
 - ubuntu
+title: Linaro 15.06 Release Available for Download
+wordpress_id: 8829
 ---
 
 > _**“There's coffee in that nebula!" Capt. Kathryn Janeway, Star Trek: Voyager, "The Cloud"**_

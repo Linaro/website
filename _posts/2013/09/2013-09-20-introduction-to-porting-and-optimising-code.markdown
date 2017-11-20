@@ -1,13 +1,16 @@
 ---
 author: linaro
-date: 2013-09-20 17:12:11+00:00
+categories:
+- blog
+date: 2013-09-20 17:12:11
+description: Impressions of Campus Party Europe 2013 by Matthew Gretton-Dann who presented
+  "Introduction to Porting And Optimising Code".  Overview on porting code from 32-bit
+  ARM to 64-bit ARM and upgrading your compiler.
+keywords: Campus Party Europe, Linaro, ARM, Toolchain, Linux, Linux on ARM, Opensource,
+  32-bit ARM, 64-bit ARM
 layout: post
 link: https://www.linaro.org/blog/toolchain-blog/introduction-to-porting-and-optimising-code/
 slug: introduction-to-porting-and-optimising-code
-title: Introduction to Porting And Optimising Code
-wordpress_id: 3016
-categories:
-- blog
 tags:
 - Toolchain
 - Linaro
@@ -15,6 +18,8 @@ tags:
 - Linux on ARM
 - Open Source
 - toolchain
+title: Introduction to Porting And Optimising Code
+wordpress_id: 3016
 ---
 
 {% include image.html name="campus-party-image-1.jpg" alt="Picture of Campus Party Europe 2013" class="small-inline right"%}

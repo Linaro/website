@@ -1,14 +1,15 @@
 ---
 author: linaro
-date: 2012-06-29 12:18:55+00:00
+categories:
+- News
+date: 2012-06-29 12:18:55
+description: HONG KONG - 29 JUN 2012
 layout: post
 link: https://www.linaro.org/news/video-plays-key-role-expanding-linaros-community-building-future-linux-arm/
 slug: video-plays-key-role-expanding-linaros-community-building-future-linux-arm
-title: Video plays a key role in expanding Linaro’s community and building the future
-  of Linux on ARM
+title: "Video plays a key role in expanding Linaro\u2019s community and building the
+  future of Linux on ARM"
 wordpress_id: 4416
-categories:
-- News
 ---
 
 HONG KONG - 29 JUN 2012

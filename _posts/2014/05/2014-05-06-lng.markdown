@@ -1,6 +1,10 @@
 ---
 author: bill.fischofer
-date: 2014-05-06 19:13:45+00:00
+categories:
+- blog
+date: 2014-05-06 19:13:45
+description: OpenDataPlane continues its progress towards a stable ODP v1.0 release
+  via the v0.2 development release.
 excerpt: OpenDataPlane continues its progress towards a stable ODP v1.0 release via
   the v0.2 development release. This release introduces the ODP scheduler to permit
   seamless scale-out across multiple cores as well as additional enhancements in queuing
@@ -9,13 +13,11 @@ excerpt: OpenDataPlane continues its progress towards a stable ODP v1.0 release 
 layout: post
 link: https://www.linaro.org/blog/lng/
 slug: lng
-title: OpenDataPlane project releases v0.2 development release
-wordpress_id: 5770
-categories:
-- blog
 tags:
 - ODP
 - OpenDataPlane
+title: OpenDataPlane project releases v0.2 development release
+wordpress_id: 5770
 ---
 
 [OpenDataPlane](http://www.opendataplane.org/) continues its progress towards a stable ODP v1.0 release via the [v0.2 development release](http://www.opendataplane.org/news/odp-v0-2/). This release introduces the ODP scheduler to permit seamless scale-out across multiple cores as well as additional enhancements in queuing and basic timer management functions. Also included is netmap acceleration of packet I/O on x86 platforms.

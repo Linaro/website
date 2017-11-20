@@ -1,13 +1,12 @@
 ---
 author: jennifer.castelino
-date: 2014-03-04 17:30:15+00:00
+categories:
+- blog
+date: 2014-03-04 17:30:15
+description: Review of all the activities that took place on Tuesday of LCA14
 layout: post
 link: https://www.linaro.org/blog/connect-update/lca14-tuesday-recap/
 slug: lca14-tuesday-recap
-title: LCA14 - Tuesday Recap
-wordpress_id: 3470
-categories:
-- blog
 tags:
 - conference
 - Connect Events
@@ -18,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: LCA14 - Tuesday Recap
+wordpress_id: 3470
 ---
 
 Linaro Connect continued on Tuesday with two guest keynote speakers.  First up was Sreekant Kotay, SVP- Chief Software Architect at Comcast.  Mr. Kotay gave a talk on how the open source community and modern development models are re-shaping the feature velocity and security models for embedded devices like set-top boxes, cable modems and gateways.   Following Mr. Kotay was Pradeep Kathail, Chief Network Architect for Cisco.  Mr. Kathail gave a presentation titled “Open Network Environment:  Software Defined Networking & Beyond”.   He spoke about Software Defined Networking (SDN) as a new approach to networking, complementing traditional network architectures. SDN aims at the normalization of network configuration and control through open programmatic interfaces to individual network devices as well as to the whole network.

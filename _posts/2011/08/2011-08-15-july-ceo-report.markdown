@@ -1,13 +1,16 @@
 ---
 author: george.grey
-date: 2011-08-15 15:38:40+00:00
+categories:
+- blog
+date: 2011-08-15 15:38:40
+description: Update on Linaro activities for July 2011
+keywords: Linux Kernel, ARM, SoCs, evaluation builds, ARM toolchain, Test, Validation,
+  Android
 layout: post
 link: https://www.linaro.org/blog/july-ceo-report/
 slug: july-ceo-report
 title: July CEO Report
 wordpress_id: 4119
-categories:
-- blog
 ---
 
 Last month I discussed how Linaro's working groups deliver technology to kernel.org and other upstreams.   Over time, open source distributions including Google's Android utilize this work in their latest releases, benefiting Linaro's ARM SoC members by accelerating their time to market, and reducing their engineering costs. This is the core strategic value generated from membership of Linaro. This month I explore some of the additional benefits and value of Linaro membership.
@@ -37,7 +40,3 @@ The CTO office within Linaro works with members on new technology relevant to AR
 Finally, Linaro is a place where all ARM vendors can work together on issues that are difficult for a particular member to address on their own. For example, the current Unified Memory Management project is being coordinated by Linaro, and is being worked on by a variety of resources from Linaro members and nonmembers in the community. Members of Linaro can identify and work together to help address such issues where fragmentation has historically caused duplication of engineering effort or difficulty in upstreaming, increasing engineering costs and ultimately delaying end product time to market.
 
 In conclusion, Linaro is working to deliver both strategic and tactical value, and most importantly a substantial return on the shared investment being made into Linaro by its members.
-
-
-
-

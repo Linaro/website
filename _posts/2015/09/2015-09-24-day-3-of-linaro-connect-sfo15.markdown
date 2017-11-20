@@ -1,20 +1,22 @@
 ---
 author: linaro
-date: 2015-09-24 03:33:57+00:00
+categories:
+- blog
+date: 2015-09-24 03:33:57
+description: Overview of the keynotes and sessions that took place during day 3 of
+  Linaro Connect San Francisco 2015.
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 3 of Linaro Connect San Francisco 2015.
 layout: post
 link: https://www.linaro.org/blog/day-3-of-linaro-connect-sfo15/
 slug: day-3-of-linaro-connect-sfo15
-title: Day 3 of Linaro Connect SFO15
-wordpress_id: 9436
-categories:
-- blog
 tags:
 - connect
 - Connect Events
 - Linaro
 - Linaro Connect
+title: Day 3 of Linaro Connect SFO15
+wordpress_id: 9436
 ---
 
 {% include image.html name="ecosystem-day-slide.jpg" alt="Ecosystem Day Slide"%}
@@ -216,4 +218,3 @@ ConfigFS Gadget - An Introduction
 </table>
 
 Tomorrow is Linaro Networking Group day and the keynotes will both focused on networking. First up is Dave Neary from Red Hat that will give a talk titled "An NFV Primer: The Next Generation for Telco" following Dave will be Roger Casals from Symantec Corporation who will give a keynote titled "Security and Trust in a Mobile World". To learn more about the agenda tomorrow please visit: [https://sfo15.pathable.com/meetings](https://sfo15.pathable.com/meetings)
-

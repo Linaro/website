@@ -1,18 +1,22 @@
 ---
 author: linaro
-date: 2012-12-06 14:43:33+00:00
+categories:
+- blog
+date: 2012-12-06 14:43:33
+description: Find out more about the Linaro Android Mini-Summit held on 31 Oct 2012
+  in Copenhagen, Includes session topics, action items, take away points and more.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE12-Copenhagen,
+  Android Mini-Summit, Android, FXI, Cotton Candy, ST-Ericsson,
 layout: post
 link: https://www.linaro.org/blog/industry-blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/
 slug: summary-of-the-android-mini-summit-at-connect-copenhagen-2012
-title: Summary of the Android Mini-Summit at Connect Copenhagen 2012
-wordpress_id: 2078
-categories:
-- blog
 tags:
 - Android
 - Community
 - Connect Events
 - Industry
+title: Summary of the Android Mini-Summit at Connect Copenhagen 2012
+wordpress_id: 2078
 ---
 
 The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/events/event/lce12-copenhagen/) at the Bella Center in Copenhagen, Denmark.

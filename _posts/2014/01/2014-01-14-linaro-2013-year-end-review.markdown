@@ -1,13 +1,16 @@
 ---
 author: george.grey
-date: 2014-01-14 21:22:02+00:00
+categories:
+- blog
+date: 2014-01-14 21:22:02
+description: A look back at achievements in 2013 within Linaro and a look forward
+  into 2014 goals. This blog looks at the progress Linaro has made in a short time
+  with it's engineering efforts and the benefit that gives to it's members
+keywords: linaro, linux, linux on ARM, open source, software, ARM-CortexA, ARMv8,
+  big.Little, LAVA, LEG, LNG,
 layout: post
 link: https://www.linaro.org/blog/linaro-2013-year-end-review/
 slug: linaro-2013-year-end-review
-title: Linaro 2013 Year End Review
-wordpress_id: 3247
-categories:
-- blog
 tags:
 - android
 - arm
@@ -23,7 +26,10 @@ tags:
 - software
 - toolchain
 - tools
+title: Linaro 2013 Year End Review
+wordpress_id: 3247
 ---
+
 It’s the traditional time of year to look back and reflect on the last 12 months. Linaro’s continued growth has led to more engineering output and new challenges. Looking forward we want to build on the successes, learn from those challenges, and deliver increasing benefit to all our members in 2014.
 
 With growth in membership and resources Linaro has been able to deliver more than in any previous year, and many building blocks for 2014 are already in place.
@@ -82,6 +88,4 @@ The apparent paradox can be resolved only by understanding the difference betwee
 
 We also believe that because of the range of activities in Linaro, being outside and attempting to be a follower is now at least as expensive as becoming a member of Linaro. It also causes delayed time to market.  
 
-I look forward to 2014 with great optimism, and the entire Linaro team has a strong determination to continue to deliver further value to all our members. 
-
- 
+I look forward to 2014 with great optimism, and the entire Linaro team has a strong determination to continue to deliver further value to all our members.

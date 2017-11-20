@@ -1,19 +1,23 @@
 ---
 author: andrea.gallo
-date: 2014-01-27 20:29:16+00:00
+categories:
+- blog
+date: 2014-01-27 20:29:16
+description: Overview of the Linaro Enterprise Groups one year update. Details on
+  what has been accomplished in the first year and what the team will be focused on
+  going forward.
+keywords: LEG, Linaro, ARM, open source software, Linux, ARMv7, 64-bit, LAVA
 layout: post
 link: https://www.linaro.org/blog/linaro-enterprise-group-1st-year-update/
 slug: linaro-enterprise-group-1st-year-update
-title: Linaro Enterprise Group 1st Year update
-wordpress_id: 3269
-categories:
-- blog
 tags:
 - embedded
 - Linaro
 - Open Source
 - Opensource
 - software
+title: Linaro Enterprise Group 1st Year update
+wordpress_id: 3269
 ---
 
 Linaro Enterprise Group (LEG) was officially announced at Linaro Connect Europe in Copenhagen, November 2012, and founded by fourteen companies and about thirty engineers. The LEG team first focused on identifying the high priority technical areas and building a roadmap. After organizing into sub-teams, LEG has been allocating and completing work based on that roadmap.

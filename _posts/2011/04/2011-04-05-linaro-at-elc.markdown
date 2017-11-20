@@ -1,19 +1,22 @@
 ---
 author: linaro
-date: 2011-04-05 21:53:07+00:00
+categories:
+- blog
+date: 2011-04-05 21:53:07
+description: Overview of talks given by Linaro engineers at the 2011 edition of the
+  Embedded Linux Conference in San Francisco.
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-at-elc/
 slug: linaro-at-elc
-title: Linaro at the Embedded Linux Conference
-wordpress_id: 3379
-categories:
-- blog
 tags:
 - Community
 - conference
 - embedded
 - Linux
+title: Linaro at the Embedded Linux Conference
+wordpress_id: 3379
 ---
+
 {% include image.html name="header_elc_2011.png" alt="Embedded Linux Conference 2011" lightbox_disabled="True" %}
 
 Next week, the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) will start in San Francisco, and this year several Linaro engineers will share their work and experience. There will be six talks related to Linaro!

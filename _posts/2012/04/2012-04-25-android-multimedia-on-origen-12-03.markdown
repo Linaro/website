@@ -1,18 +1,21 @@
 ---
 author: linaro
-date: 2012-04-25 03:47:12+00:00
+categories:
+- blog
+date: 2012-04-25 03:47:12
+description: The 12.03 release of Android on Origen has fully enabled HW acceleration
+  ranging from 3D, HDMI and Video Playback support
+keywords: Multimedia, OMX, Android, Origen, Binary Blob
 layout: post
 link: https://www.linaro.org/blog/community-blog/android-multimedia-on-origen-12-03/
 slug: android-multimedia-on-origen-12-03
-title: Android Multimedia on Origen, 12.03
-wordpress_id: 1592
-categories:
-- blog
 tags:
 - Android
 - Community
 - Hardware
 - Releases
+title: Android Multimedia on Origen, 12.03
+wordpress_id: 1592
 ---
 
 **Multimedia HW Acceleration from Origen**

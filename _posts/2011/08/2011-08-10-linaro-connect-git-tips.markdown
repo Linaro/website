@@ -1,18 +1,20 @@
 ---
 author: linaro
-date: 2011-08-10 14:46:10+00:00
+categories:
+- blog
+date: 2011-08-10 14:46:10
+description: 'Video from Linaro Connect, August 2011: Linux kernel hackers share their
+  best tips for advanced git usage.'
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-connect-git-tips/
 slug: linaro-connect-git-tips
-title: 'Linaro Connect: kernel hackers share git tips'
-categories:
-- blog
 tags:
 - Community
 - community
 - git
 - kernel
 - video
+title: 'Linaro Connect: kernel hackers share git tips'
 ---
 
 Cambridge, UK, August 2011.

@@ -1,13 +1,13 @@
 ---
 author: koen.kooi
-date: 2014-05-29 17:52:04+00:00
+categories:
+- blog
+date: 2014-05-29 17:52:04
+description: The Linaro 14.05 release is now available for immediate download. Here
+  you will find links to all the products in this release.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-05-available-download/
 slug: linaro-14-05-available-download
-title: Linaro 14.05 Available for Download!
-wordpress_id: 5912
-categories:
-- blog
 tags:
 - android
 - connect
@@ -26,6 +26,8 @@ tags:
 - software
 - toolchain
 - tools
+title: Linaro 14.05 Available for Download!
+wordpress_id: 5912
 ---
 
 > "Wisdom is the abstract of the past, but beauty is the promise of the future."  _~ Oliver Wendell Holmes, Sr_

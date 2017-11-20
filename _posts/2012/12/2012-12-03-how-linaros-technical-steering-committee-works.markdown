@@ -1,13 +1,16 @@
 ---
 author: david.rusling
-date: 2012-12-03 17:28:35+00:00
+categories:
+- blog
+date: 2012-12-03 17:28:35
+description: A look at how Linaro's Technical Steering Committee (TSC) works and how
+  this has evolved over time.
+keywords: Linaro, TSC, Committee, missions, roadmap, working groups
 layout: post
 link: https://www.linaro.org/blog/how-linaros-technical-steering-committee-works/
 slug: how-linaros-technical-steering-committee-works
 title: How Linaro's Technical Steering Committee Works
 wordpress_id: 2064
-categories:
-- blog
 ---
 
 I often get asked about the role of the Linaro Technical Steering Committee (TSC), what it is and how it operates. As an aside, I don’t even like the word ‘committee’, it smacks of inefficiency; of a room full of people churning out specifications and standards. Maybe this is because, I was, in the dim and distant past, involved with an ISO standards body (for the ISO Transport protocol). It pontificated for years and was overtaken by TCP/IP. Why? TCP/IP standards were driven by implementations that were proven to work. This has left me with a bit of distrust of Committees, but back to the topic in hand.

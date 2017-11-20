@@ -4,7 +4,7 @@ description: |-
     Listing of Linaro's management team members and biographies
 layout: default-no-sub-nav
 permalink: /about/executive/
-js-vendor: extended
+js-package: extended
 css-pack: lightbox
 ---
 

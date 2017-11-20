@@ -1,19 +1,25 @@
 ---
 author: linaro
-date: 2013-02-25 14:57:53+00:00
+categories:
+- blog
+date: 2013-02-25 14:57:53
+description: Karim Yaghmour, CEO Opersys discusses the upcoming Embedded Android Training
+  Workshop that is scheduled to take place at the upcoming Linaro Connect Asia 2013..
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+  Kong, Android, Workshop, Training, Karim Yaghmour, Zach Pfeffer Embedded Android,
+  Opersys
 layout: post
 link: https://www.linaro.org/blog/community-blog/karim-yaghmour-ceo-of-opersys-talks-about-the-upcoming-embedded-android-training-workshop/
 slug: karim-yaghmour-ceo-of-opersys-talks-about-the-upcoming-embedded-android-training-workshop
-title: 'Karim Yaghmour, CEO of Opersys Talks About the Upcoming Embedded Android Training
-  Workshop '
-wordpress_id: 2458
-categories:
-- blog
 tags:
 - Android
 - Community
 - Connect Events
+title: 'Karim Yaghmour, CEO of Opersys Talks About the Upcoming Embedded Android Training
+  Workshop '
+wordpress_id: 2458
 ---
+
 [Karim Yaghmour](https://twitter.com/karimyaghmour), CEO of [Opersys](http://www.opersys.com/) and [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), Linaro Android [Team](http://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead took a moment to discuss the upcoming [Embedded Android Training Workshop](http://www.linaro.org/linaro-blog/2013/02/21/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/) that is scheduled to take place at [Linaro Connect Asia 2013](http://www.linaro.org/connect) in Hong Kong next week (4-8 March).
 
 In this [Google+ Hangout on Air](https://plus.google.com/u/0/events/cqde9n1fdiqnv0gcqj868ivuj0g), Karim and Zach discuss topics such as:

@@ -1,13 +1,13 @@
 ---
 author: alan.bennett
-date: 2013-08-31 16:00:09+00:00
+categories:
+- blog
+date: 2013-08-31 16:00:09
+description: Recap of the weekly LAVA team meeting and summary of the LIVE demos
+keywords: Linaro, Linux, LAVA, opensource, multi-node, kvm
 layout: post
 link: https://www.linaro.org/blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/
 slug: 29-aug-2013-lava-team-meeting-live-demos
-title: 29 Aug 2013 - LAVA Team meeting - LIVE Demos
-wordpress_id: 2985
-categories:
-- blog
 tags:
 - LAVA
 - arm
@@ -15,6 +15,8 @@ tags:
 - Linaro
 - Linux
 - Opensource
+title: 29 Aug 2013 - LAVA Team meeting - LIVE Demos
+wordpress_id: 2985
 ---
 
 In this week's LAVA meeting, the LAVA team demonstrates how new lava tool improvements simplify test creation, a new PDU daemon that can prepare our LAB PDUs for the simultaneous demands multi-node introduces, boot-testing tip x86_64 kernels in LAVA multinode and finishes with a full team demo that spawns 13 interactive hack sessions for the LAVA team during the meeting.

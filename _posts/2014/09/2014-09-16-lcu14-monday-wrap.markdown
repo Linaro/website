@@ -1,13 +1,13 @@
 ---
 author: jennifer.castelino
-date: 2014-09-16 21:26:20+00:00
+categories:
+- blog
+date: 2014-09-16 21:26:20
+description: Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
+  California. Here is a recap of what took place the first day of the event.
 layout: post
 link: https://www.linaro.org/blog/lcu14-monday-wrap/
 slug: lcu14-monday-wrap
-title: LCU14 Monday Wrap-up
-wordpress_id: 6682
-categories:
-- blog
 tags:
 - Connect Events
 - android
@@ -26,6 +26,8 @@ tags:
 - Open Source
 - Opensource
 - toolchain
+title: LCU14 Monday Wrap-up
+wordpress_id: 6682
 ---
 
 Linaro Connect USA 2014 began yesterday in Burlingame, California with over 500 attendees. Mobile was the theme for the day and began with an opening keynote by Linaro's CEO, George Grey titled "Linaro’s past, present and future". Following Mr Grey was [Paul Eremenko](http://www.linaro.org/connect/lcu/lcu14/schedule/), Direct of Project Ara at Google who gave a keynote titled “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem”. 

@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2011-05-27 12:11:29+00:00
+categories:
+- News
+date: 2011-05-27 12:11:29
+description: CAMBRIDGE, UK - 27 MAY 2011
 layout: post
 link: https://www.linaro.org/news/linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program/
 slug: linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program
 title: Linaro completes first year with demonstrations of Linaro Evaluation Builds
   for Android and Ubuntu and introduction of new partner program
 wordpress_id: 4410
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 27 MAY 2011
 
 ## Milestone highlights Linaro delivering on its promise to make it easier and quicker to develop open source products

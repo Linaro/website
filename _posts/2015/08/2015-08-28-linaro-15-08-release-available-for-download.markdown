@@ -1,16 +1,17 @@
 ---
 author: shovan
-date: 2015-08-28 20:04:47+00:00
+categories:
+- blog
+date: 2015-08-28 20:04:47
+description: Linaro's 15.08 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.07 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-08-release-available-for-download/
 slug: linaro-15-08-release-available-for-download
-title: Linaro 15.08 Release Available for Download
-wordpress_id: 9185
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -24,6 +25,8 @@ tags:
 - release cycle
 - software
 - ubuntu
+title: Linaro 15.08 Release Available for Download
+wordpress_id: 9185
 ---
 
 > “Tell everyone what you want to do and someone will want to help you do it." _**~ W. Clement Stone**_

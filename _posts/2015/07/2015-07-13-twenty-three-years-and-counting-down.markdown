@@ -1,7 +1,12 @@
 ---
 author: john.stultz
+categories:
+- blog
 comments: true
-date: 2015-07-13 22:24:39+00:00
+date: 2015-07-13 22:24:39
+description: On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st
+  1970) will be larger than can be held in a signed 32-bit value. This means on 32-bit
+  systems time will overflow and jump back to 1901.
 excerpt: 'On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st 1970)
   will be larger than can be held in a signed 32-bit value. This means on 32-bit systems
   time will overflow and jump back to 1901.  Read about this issue and what is being
@@ -9,10 +14,6 @@ excerpt: 'On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st 1
 layout: post
 link: https://www.linaro.org/blog/core-dump/twenty-three-years-and-counting-down/
 slug: twenty-three-years-and-counting-down
-title: Twenty three years and counting down
-wordpress_id: 8971
-categories:
-- blog
 tags:
 - Core Dump
 - 32-bit systems
@@ -20,6 +21,8 @@ tags:
 - Linux
 - unix
 - y2038
+title: Twenty three years and counting down
+wordpress_id: 8971
 ---
 
 For most of us, life keeps us busy enough that just planning for the weekend can be difficult, and plotting plans for anything past six months out is rarely more detailed than a hand wave.

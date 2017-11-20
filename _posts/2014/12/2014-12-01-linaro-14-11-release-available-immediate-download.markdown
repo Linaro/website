@@ -1,14 +1,14 @@
 ---
 author: koen.kooi
+categories:
+- blog
 comments: true
-date: 2014-12-01 17:46:04+00:00
+date: 2014-12-01 17:46:04
+description: The Linaro 14.11 software release is available for immediate download.
+  All related links can be found here.
 layout: post
 link: https://www.linaro.org/blog/linaro-14-11-release-available-immediate-download/
 slug: linaro-14-11-release-available-immediate-download
-title: Linaro 14.11 Release Available for Immediate Download!
-wordpress_id: 7598
-categories:
-- blog
 tags:
 - Releases
 - android
@@ -29,6 +29,8 @@ tags:
 - software
 - toolchain
 - tools
+title: Linaro 14.11 Release Available for Immediate Download!
+wordpress_id: 7598
 ---
 
 > “Small opportunities are often the beginning of great enterprises." _~ **Demosthenes**_

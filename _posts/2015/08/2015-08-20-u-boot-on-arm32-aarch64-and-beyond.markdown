@@ -1,23 +1,27 @@
 ---
 author: linus.walleij
+categories:
+- blog
 comments: true
-date: 2015-08-20 16:14:21+00:00
-excerpt: U-Boot became the de facto bootloader on most ARM systems during the early
+date: 2015-08-20 16:14:21
+description: U-Boot became the de facto bootloader on most ARM systems during the
+  early 2000s. What is the best bootloader to use for any one system is a subject
+  of debate.
+excerpt: "U-Boot became the de facto bootloader on most ARM systems during the early
   2000s.  What is the best bootloader to use for any one system is a subject of debate.
-  There have been pushes to different “there can be only one” approaches, but the
-  recent consensus is to “use the right tool for the job”  Learn more
+  There have been pushes to different \u201Cthere can be only one\u201D approaches,
+  but the recent consensus is to \u201Cuse the right tool for the job\u201D  Learn
+  more"
 layout: post
 link: https://www.linaro.org/blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
 slug: u-boot-on-arm32-aarch64-and-beyond
-title: U-Boot on ARM32, AArch64 and beyond
-wordpress_id: 9094
-categories:
-- blog
 tags:
 - Core Dump
 - AArch64
 - arm
 - U-Boot
+title: U-Boot on ARM32, AArch64 and beyond
+wordpress_id: 9094
 ---
 
 U-Boot became the de facto bootloader on most ARM systems during the early 2000s. It grew out of an earlier flora of smaller and custom boot loaders such as RedBoot and Open Handhelds ARM Bootloader. Currently the main alternatives are [the Little Kernel bootloader](https://developer.qualcomm.com/download/db410c/little-kernel-boot-loader-overview.pdf), which has been used by Qualcomm and Google for a series of Android devices, and the [UEFI-compliant Tianocore](http://www.tianocore.org/) (also known as EDK II) bootloader.

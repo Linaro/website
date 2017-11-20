@@ -1,19 +1,26 @@
 ---
 author: grant.likely
-date: 2014-02-03 18:58:27+00:00
+categories:
+- blog
+date: 2014-02-03 18:58:27
+description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot
+  and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI
+  and FDT coexist? And so on. I want to quickly address those questions in this blog
+  post, and then I want to discuss a development plan to get UEFI and ACPI onto shipping
+  servers.
+keywords: Linaro, software on ARM, Linux, Linux on ARM, UEFI, ACPI, enterprisse software,
+  ARM, U-Boot, FDT, kernel
 layout: post
 link: https://www.linaro.org/blog/when-will-uefi-and-acpi-be-ready-on-arm/
 slug: when-will-uefi-and-acpi-be-ready-on-arm
-title: When Will UEFI and ACPI Be Ready On ARM?
-wordpress_id: 3284
-categories:
-- blog
 tags:
 - kernel
 - Linaro
 - Linux
 - Linux on ARM
 - software
+title: When Will UEFI and ACPI Be Ready On ARM?
+wordpress_id: 3284
 ---
 
 As part of the work to prepare for ARM servers, the Linaro Enterprise Group has spent the last year getting ACPI and UEFI working on ARM. We’ve been working closely with ARM and ARM’s partners on this to make sure the firmware architecture meets the needs of the server market.
@@ -184,6 +191,3 @@ _Re-published with permission from Grant Likely from his original blog post at_ 
 
 	
   5. This is still up for debate, the priority of ACPI over FDT may yet be changed
-
-
- 

@@ -1,13 +1,15 @@
 ---
 author: linaro
-date: 2012-01-12 00:03:27+00:00
+categories:
+- blog
+date: 2012-01-12 00:03:27
+description: "UMM (Unified Memory Management) is a key part of Linaro\xE2\x80\x99s
+  work and acceptance of this dma-buf patchset upstream is the latest recognition
+  of Linaro\xE2\x80\x99s contributions to the Linux kernel."
+keywords: Linaro, Linux on ARM, Linaro Connect, 3.3 Linux Kernel,  dma_buf, Open Source
 layout: post
 link: https://www.linaro.org/blog/patch-highlights/linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel/
 slug: linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel
-title: Linaro's Emphasis on dma_buf in the 3.3 Linux Kernel
-wordpress_id: 1162
-categories:
-- blog
 tags:
 - dma_buf
 - Patch-Highlights
@@ -16,6 +18,8 @@ tags:
 - Linaro Connect
 - Linux on ARM
 - Open Source
+title: Linaro's Emphasis on dma_buf in the 3.3 Linux Kernel
+wordpress_id: 1162
 ---
 
 [Jesse Barker](https://launchpad.net/~jesse-barker), [Graphics WG (Working Group)](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics) Tech Lead for Linaro shares with readers the importance and challenges in getting dma_buf inclusion for 3.3 Linux Kernel.

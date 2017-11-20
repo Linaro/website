@@ -1,15 +1,20 @@
 ---
 author: linaro
-date: 2012-09-26 15:31:07+00:00
+categories:
+- blog
+date: 2012-09-26 15:31:07
+description: Are you running a Linaro build on an ARM processor-based board? Linaro
+  invites you to show off your work at Demo Friday during LCE 12 Copenhagen.
+keywords: Linaro, Linux on ARM, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
+  ARMv8(64bit), mini-summits, events, community, LCE 12 Copenhagen, Demo Friday, Call
+  for Participation
 layout: post
 link: https://www.linaro.org/blog/connect-update/lce-12-copenhagen-demo-friday-call-for-participation/
 slug: lce-12-copenhagen-demo-friday-call-for-participation
-title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
-wordpress_id: 1911
-categories:
-- blog
 tags:
 - Connect Events
+title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
+wordpress_id: 1911
 ---
 
 Linaro Connect ([LCE 12 - Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/)) is just around the corner and with a little over one month until the event we are pleased to announce the call for demonstrations is now open. The Demo Friday event will take place on Friday 2 November at the Bella Center, in Copenhagen, Denmark as part of LCE 12 Copenhagen.

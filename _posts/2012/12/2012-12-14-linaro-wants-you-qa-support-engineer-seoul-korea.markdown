@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2012-12-14 20:20:42+00:00
+categories:
+- blog
+date: 2012-12-14 20:20:42
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Careers, Seoul, Korea, QA,
+  LAVA, Support Engineer
 layout: post
 link: https://www.linaro.org/blog/lava-blog/linaro-wants-you-qa-support-engineer-seoul-korea/
 slug: linaro-wants-you-qa-support-engineer-seoul-korea
-title: Linaro Wants You - QA Support Engineer- Seoul Korea
-wordpress_id: 2121
-categories:
-- blog
 tags:
 - LAVA
+title: Linaro Wants You - QA Support Engineer- Seoul Korea
+wordpress_id: 2121
 ---
 
 Today we are highlighting career opportunities at Linaro in Seoul, Korea. Are you or someone you know located in or near Seoul, Korea  and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?

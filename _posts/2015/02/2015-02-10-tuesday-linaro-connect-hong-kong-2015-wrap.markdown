@@ -1,13 +1,13 @@
 ---
 author: linaro
-date: 2015-02-10 21:54:21+00:00
+categories:
+- blog
+date: 2015-02-10 21:54:21
+description: Overview of the activities that took place on Tuesday at Linaro Connect
+  including links to videos and presentations from the day
 layout: post
 link: https://www.linaro.org/blog/tuesday-linaro-connect-hong-kong-2015-wrap/
 slug: tuesday-linaro-connect-hong-kong-2015-wrap
-title: 'Tuesday of Linaro Connect Hong Kong 2015 Wrap-up '
-wordpress_id: 7959
-categories:
-- blog
 tags:
 - connect
 - Connect Events
@@ -17,6 +17,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: 'Tuesday of Linaro Connect Hong Kong 2015 Wrap-up '
+wordpress_id: 7959
 ---
 
 Tuesday of Linaro Connect Hong Kong 2015 began with another great keynote from guest speaker, Dejan Milojicic, Senior Researcher and Manager, HP Labs.  Mr. Milojicic gave a keynote titled: "The Machine: A new kind of computer" about The Machine which is a new system from HP, based on Memristor Non-Volatile Memory (NVM) and photonic interconnects, enabling new innovative solutions and applications. The talk discussed the changes HP is introducing to the system software stack to leverage The Machine.

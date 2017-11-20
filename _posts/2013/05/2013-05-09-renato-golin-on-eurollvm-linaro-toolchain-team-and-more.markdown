@@ -1,15 +1,19 @@
 ---
 author: linaro
-date: 2013-05-09 18:20:58+00:00
+categories:
+- blog
+date: 2013-05-09 18:20:58
+description: Renato Golin explains the significance of the EuroLLVM event, discusses
+  the importance of LLVM and his role at Linaro.
+keywords: Linaro, Linux on ARM, Open Source, Renato Golin, LLVM, EuroLLVM, events,
+  Linaro Connect Europe
 layout: post
 link: https://www.linaro.org/blog/community-blog/renato-golin-on-eurollvm-linaro-toolchain-team-and-more/
 slug: renato-golin-on-eurollvm-linaro-toolchain-team-and-more
-title: Renato Golin on EuroLLVM, Linaro Toolchain Team and More
-wordpress_id: 2709
-categories:
-- blog
 tags:
 - community
+title: Renato Golin on EuroLLVM, Linaro Toolchain Team and More
+wordpress_id: 2709
 ---
 
 {% include image.html name="Renato-Small.jpg" alt="Renato Golin, Linaro Toolchain Engineer" class="small-inline" %}

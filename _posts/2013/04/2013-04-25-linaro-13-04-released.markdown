@@ -1,15 +1,18 @@
 ---
 author: linaro
-date: 2013-04-25 16:45:10+00:00
+categories:
+- blog
+date: 2013-04-25 16:45:10
+description: The Linaro 13.04 release is now available for download!
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+  Linaro 13.04 release. release, announcement
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-13-04-released/
 slug: linaro-13-04-released
-title: Linaro 13.04 Released
-wordpress_id: 2644
-categories:
-- blog
 tags:
 - Releases
+title: Linaro 13.04 Released
+wordpress_id: 2644
 ---
 
 >

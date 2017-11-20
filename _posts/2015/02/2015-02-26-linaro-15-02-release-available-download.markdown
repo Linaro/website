@@ -1,13 +1,12 @@
 ---
 author: linaro
-date: 2015-02-26 20:29:14+00:00
+categories:
+- blog
+date: 2015-02-26 20:29:14
+description: The Linaro 15.02 release is now available for immediate download.
 layout: post
 link: https://www.linaro.org/blog/linaro-15-02-release-available-download/
 slug: linaro-15-02-release-available-download
-title: Linaro 15.02 Release Available for Download
-wordpress_id: 8212
-categories:
-- blog
 tags:
 - Releases
 - Linaro
@@ -16,7 +15,10 @@ tags:
 - Opensource
 - release
 - release cycle
+title: Linaro 15.02 Release Available for Download
+wordpress_id: 8212
 ---
+
 > “Begin, be bold, and venture to be wise" _**~ Horace**_
 
 Linaro 15.02  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:

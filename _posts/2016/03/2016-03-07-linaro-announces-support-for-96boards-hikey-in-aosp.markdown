@@ -1,6 +1,12 @@
 ---
 author: linaro
-date: 2016-03-07 10:58:22+00:00
+categories:
+- News
+date: 2016-03-07 10:58:22
+description: Linaro today announced that the 96Boards HiKey octa-core 64-bit ARMv8
+  community board is supported in AOSP (Android Open Source Project). Developers can
+  now download source code from AOSP and create a working build without the need to
+  pull patches from any other repository.
 excerpt: Linaro today announced that the 96Boards HiKey octa-core 64-bit ARMv8 community
   board is supported in AOSP (Android Open Source Project). Developers can now download
   source code from AOSP and create a working build without the need to pull patches
@@ -8,16 +14,14 @@ excerpt: Linaro today announced that the 96Boards HiKey octa-core 64-bit ARMv8 c
 layout: post
 link: https://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/
 slug: linaro-announces-support-for-96boards-hikey-in-aosp
-title: Linaro announces support for 96Boards HiKey in AOSP
-wordpress_id: 10077
-categories:
-- News
 tags:
 - 96Boards
 - android
 - AOSP
 - Linaro
 - Opensource
+title: Linaro announces support for 96Boards HiKey in AOSP
+wordpress_id: 10077
 ---
 
 Cambridge, UK;  7 March 2016
@@ -34,5 +38,3 @@ Information about the HiKey board and Running Android on HiKey are available her
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org).
-
-

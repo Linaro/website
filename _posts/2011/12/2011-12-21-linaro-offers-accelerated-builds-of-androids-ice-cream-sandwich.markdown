@@ -1,18 +1,23 @@
 ---
 author: linaro
-date: 2011-12-21 22:39:19+00:00
+categories:
+- blog
+date: 2011-12-21 22:39:19
+description: 'Linaro announced the availability of builds of Android Ice Cream Sandwich
+  (ICS) supporting accelerated graphics on two of its member''s low cost development
+  boards: the Samsung Origen and ST-Ericsson Snowball boards.'
+keywords: Linux on ARM, Linaro, Process, Announcement, Releases, Community, Android,
+  Linaro.org
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich/
 slug: linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich
-title: Linaro offers accelerated builds of Android’s Ice Cream Sandwich
-wordpress_id: 1101
-categories:
-- blog
 tags:
 - Android
 - Community
 - Hardware
 - Releases
+title: "Linaro offers accelerated builds of Android\u2019s Ice Cream Sandwich"
+wordpress_id: 1101
 ---
 
 In [a press release](http://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/) earlier today, [Linaro](http://www.linaro.org/) announced the availability of builds of [Android](http://www.android.com/) Ice Cream Sandwich (ICS) supporting accelerated graphics on two of [its member's](http://www.linaro.org/members/) low cost development boards: the Samsung Origen and ST-Ericsson Snowball boards.

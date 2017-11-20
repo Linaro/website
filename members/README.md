@@ -4,7 +4,7 @@ description: |-
     Members currently working with Linaro and how to become a member of Linaro
 layout: default-no-sub-nav
 permalink: /members/
-js-vendor: extended
+js-package: extended
 css-pack: lightbox
 ---
 Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, Linux distributions and other companies who wish to influence the future of Linux on Arm. Core, Club and Group members all provide funding for Linaro and engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](/downloads/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](/downloads/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).

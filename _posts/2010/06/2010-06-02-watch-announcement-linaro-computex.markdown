@@ -1,12 +1,15 @@
 ---
 author: linaro
-date: 2010-06-02 11:46:06+00:00
+categories:
+- News
+date: 2010-06-02 11:46:06
+description: Linaro is a collaborative engineering organization consolidating and
+  optimizing open source software and tools for the ARM architecture.
 link: https://www.linaro.org/news/watch-announcement-linaro-computex/
 slug: watch-announcement-linaro-computex
 title: Watch the announcement of Linaro at Computex
-categories:
-- News
 ---
+
 {% include media.html media_url="https://www.youtube.com/watch?v=sqL-vGR2puk" %}
 
 CAMBRIDGE, UK - 2 JUN 2010

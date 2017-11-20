@@ -1,14 +1,15 @@
 ---
 author: linaro
-date: 2013-10-15 12:29:28+00:00
+categories:
+- News
+date: 2013-10-15 12:29:28
+description: CAMBRIDGE, UK - 15 OCT 2013
 layout: post
 link: https://www.linaro.org/news/linaro-announces-keynote-speakers-linaro-connect-usa-2013-event-santa-clara/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2013-event-santa-clara
 title: Linaro Announces Keynote Speakers for Linaro Connect USA 2013 Event in Santa
   Clara
 wordpress_id: 4429
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 15 OCT 2013
@@ -32,7 +33,3 @@ Held at the Santa Clara Convention Center, LCU13 is the place to learn about the
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 140 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/)
-
-
-
-

@@ -1,16 +1,20 @@
 ---
 author: linaro
-date: 2013-01-10 14:10:41+00:00
+categories:
+- blog
+date: 2013-01-10 14:10:41
+description: Individuals and organizations who are using Linaro Code on ARM based
+  processor boards are invited to participate in Demo Friday and highlight their work.
+keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+  Kong, LCA13, Linaro Connect, Demo Friday, Poster Program,  Sponsorship, Registration
 layout: post
 link: https://www.linaro.org/blog/community-blog/be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kong/
 slug: be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kong
-title: Be a show off!  Demo and Poster Opportunities available at LCA13 in Hong Kong
-wordpress_id: 2216
-categories:
-- blog
 tags:
 - Community
 - Connect Events
+title: Be a show off!  Demo and Poster Opportunities available at LCA13 in Hong Kong
+wordpress_id: 2216
 ---
 
 # Call for Participation!

@@ -1,13 +1,14 @@
 ---
 author: linaro
-date: 2012-10-29 12:21:01+00:00
+categories:
+- News
+date: 2012-10-29 12:21:01
+description: SHENZHEN, CHINA AND CAMBRIDGE, UK - 29 OCT 2012
 layout: post
 link: https://www.linaro.org/news/hisilicon-joins-linaro-as-core-member/
 slug: hisilicon-joins-linaro-as-core-member
 title: HiSilicon Joins Linaro as Core Member
 wordpress_id: 4418
-categories:
-- News
 ---
 
 SHENZHEN, CHINA AND CAMBRIDGE, UK - 29 OCT 2012

@@ -1,15 +1,15 @@
 ---
 author: linaro
-date: 2015-10-21 19:46:53+00:00
+categories:
+- blog
+date: 2015-10-21 19:46:53
+description: Overview of the keynotes, sessions and activities that took place during
+  the week of Linaro Connect SFO15.
 excerpt: Overview of the keynotes, sessions and activities that took place during
   the week of Linaro Connect SFO15.
 layout: post
 link: https://www.linaro.org/blog/linaro-connect-sfo15-week-in-review/
 slug: linaro-connect-sfo15-week-in-review
-title: Linaro Connect SFO15 week in review
-wordpress_id: 9565
-categories:
-- blog
 tags:
 - conference
 - connect
@@ -20,6 +20,8 @@ tags:
 - Linux on ARM
 - Open Source
 - Opensource
+title: Linaro Connect SFO15 week in review
+wordpress_id: 9565
 ---
 
 Linaro Connect celebrated its fifth anniversary at the Linaro Connect San Francisco held September 21-25, 2015. It was the largest Linaro Connect to date. There were keynotes each morning as well as many sessions and social events for attendees to select from. Many of the keynote and session presentations and videos are now available and can be found on the **[Linaro Connect SFO15 resources page](http://connect.linaro.org/sfo15/)**

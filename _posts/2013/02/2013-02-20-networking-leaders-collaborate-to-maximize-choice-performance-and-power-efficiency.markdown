@@ -1,16 +1,21 @@
 ---
 author: linaro
-date: 2013-02-20 12:24:07+00:00
-excerpt: Industry leaders including AppliedMicro, ARM, Enea, Freescale®, LSI, MontaVista,
-  Nokia Siemens Networks and Texas Instruments (TI) have formed a new group focused
-  on accelerating Linux development for ARM processors in cloud and mobile infrastructure.
+categories:
+- News
+date: 2013-02-20 12:24:07
+description: "Industry leaders including AppliedMicro, ARM, Enea, Freescale\xC2\xAE,
+  LSI, MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a
+  new group focused on accelerating Linux development for ARM processors in cloud
+  and mobile infrastructure."
+excerpt: "Industry leaders including AppliedMicro, ARM, Enea, Freescale\xAE, LSI,
+  MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a new
+  group focused on accelerating Linux development for ARM processors in cloud and
+  mobile infrastructure."
 layout: post
 link: https://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
 slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency
 title: Networking Leaders Collaborate to Maximize Choice, Performance and Power Efficiency
 wordpress_id: 4422
-categories:
-- News
 ---
 
 CAMBRIDGE, UK - 20 FEB 2013

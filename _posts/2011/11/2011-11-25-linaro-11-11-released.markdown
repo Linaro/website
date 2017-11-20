@@ -1,13 +1,14 @@
 ---
 author: david.zinman
-date: 2011-11-25 00:24:05+00:00
+categories:
+- blog
+date: 2011-11-25 00:24:05
+description: Links to all the downloads for the Linaro 11.11 release
 layout: post
 link: https://www.linaro.org/blog/linaro-11-11-released/
 slug: linaro-11-11-released
 title: Linaro 11.11 Released
 wordpress_id: 949
-categories:
-- blog
 ---
 
 The Linaro Team is pleased to announce the release of Linaro 11.11, another of Linaro’s releases delivered on a monthly cadence.This release includes components delivered by all Linaro Teams: Working Groups, Landing Teams and Platform Teams. Some outstanding effort has gone into delivering a lot of exciting updates and features integrated on top of Android and Ubuntu.

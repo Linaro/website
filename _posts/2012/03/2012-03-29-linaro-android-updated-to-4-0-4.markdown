@@ -1,18 +1,20 @@
 ---
 author: bernhard.rosenkranzer
-date: 2012-03-29 19:31:31+00:00
+categories:
+- blog
+date: 2012-03-29 19:31:31
+description: Linaro's build of Android ICS has been updated to 4.0.4
+keywords: linaro,android,linaro-android,ics,android 4.0.4,ice cream sandwich,4.0.4,update,source
 layout: post
 link: https://www.linaro.org/blog/community-blog/linaro-android-updated-to-4-0-4/
 slug: linaro-android-updated-to-4-0-4
-title: Linaro Android updated to 4.0.4
-wordpress_id: 1457
-categories:
-- blog
 tags:
 - Android
 - Community
 - Patch-Highlights
 - Releases
+title: Linaro Android updated to 4.0.4
+wordpress_id: 1457
 ---
 
 Less than 24 hours after Android 4.0.4 appeared on Google's servers, we're pleased to announce the availability of a Linaro-ified Android 4.0.4. (This is not an official release - it's the beginning of the 12.04 builds.)

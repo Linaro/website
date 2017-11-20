@@ -1,6 +1,13 @@
 ---
 author: christoffer.dall
-date: 2016-06-16 18:37:46+00:00
+categories:
+- blog
+date: 2016-06-16 18:37:46
+description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
+  also known as device assignment) is supported through a mostly architecture-agnostic
+  subsystem called VFIO, there are intricate details of an ARM-based system that require
+  special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
+  on ARM server systems.
 excerpt: 'The first study of ARM virtualization performance on server hardware, including
   multi-core measurements of two popular ARM and x86 hypervisors, KVM and Xen. We
   show how ARM hardware support for virtualization can enable much faster transitions
@@ -8,10 +15,6 @@ excerpt: 'The first study of ARM virtualization performance on server hardware, 
 layout: post
 link: https://www.linaro.org/blog/core-dump/on-the-performance-of-arm-virtualization/
 slug: on-the-performance-of-arm-virtualization
-title: On the Performance of ARM Virtualization
-wordpress_id: 10716
-categories:
-- blog
 tags:
 - Core Dump
 - arm
@@ -24,6 +27,8 @@ tags:
 - VM
 - x86 hypervisors
 - Xen
+title: On the Performance of ARM Virtualization
+wordpress_id: 10716
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}

@@ -1,15 +1,16 @@
 ---
 author: fathi.boudra
-date: 2012-04-13 06:24:19+00:00
+categories:
+- blog
+date: 2012-04-13 06:24:19
+description: Announcements and release notes for Linaro GDB 7.4 2012.04
 layout: post
 link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-4-2012-04-released/
 slug: linaro-gdb-7-4-2012-04-released
-title: Linaro GDB 7.4 2012.04 released
-wordpress_id: 1563
-categories:
-- blog
 tags:
 - Releases
+title: Linaro GDB 7.4 2012.04 released
+wordpress_id: 1563
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro GDB 7.4 2012.04.

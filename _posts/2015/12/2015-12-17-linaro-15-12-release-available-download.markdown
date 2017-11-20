@@ -1,16 +1,18 @@
 ---
 author: linaro
-date: 2015-12-17 23:42:37+00:00
+categories:
+- blog
+date: 2015-12-17 23:42:37
+description: Linaro's 15.12 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by each
+  team along with all available software downloads.
 excerpt: Linaro's 15.11 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
+keywords: Linaro
 layout: post
 link: https://www.linaro.org/blog/linaro-15-12-release-available-download/
 slug: linaro-15-12-release-available-download
-title: Linaro 15.12 Release Available for Download
-wordpress_id: 9901
-categories:
-- blog
 tags:
 - android
 - Releases
@@ -23,6 +25,8 @@ tags:
 - Open Source
 - release
 - release cycle
+title: Linaro 15.12 Release Available for Download
+wordpress_id: 9901
 ---
 
 > “Of course, some people consider hidden bugs to _be_ fixed. I don't believe in that particular philosophy myself." _**~ Linus Torvalds**_

@@ -1,15 +1,15 @@
 ---
 author: linaro
-date: 2015-10-29 13:03:01+00:00
+categories:
+- News
+date: 2015-10-29 13:03:01
+description: Linaro announces Acadine Technologies as the first systems software company
+  to become a member of the Linaro Mobile Group
 excerpt: Linaro announces Acadine Technologies as the first systems software company
   to become a member of the Linaro Mobile Group
 layout: post
 link: https://www.linaro.org/news/first-systems-software-company-acadine-joins-linaro-mobile-group/
 slug: first-systems-software-company-acadine-joins-linaro-mobile-group
-title: First systems software company Acadine joins Linaro Mobile Group
-wordpress_id: 9631
-categories:
-- News
 tags:
 - Linaro
 - Linux
@@ -19,6 +19,8 @@ tags:
 - mobile group
 - Open Source
 - Opensource
+title: First systems software company Acadine joins Linaro Mobile Group
+wordpress_id: 9631
 ---
 
 Cambridge, UK; 29 October 2015
@@ -45,5 +47,3 @@ Acadine™ Technologies is a startup company specializing in innovative mobile o
 A completely web-centric operating system, H5OS eliminates the native APIs that give the conventional mobile OS owners full business control over other mobile industry participants. As a result, H5OS offers the huge potential of a simpler technical architecture, more efficient memory and power consumption, and completely dynamic and seamless interactions between the mobile operating system, on-device applications, and the millions of web apps and services on the Internet at large.
 
 The H5OS open architecture also brings about an open mobile ecosystem with open participation, thus enabling choices for everyone, from device makers to operators to consumers, to freely select and experience the best of the web. For more information about our products, please contact [press@acadine.com](mailto:press@acadine.com).
-
-

@@ -1,20 +1,26 @@
 ---
 author: linaro
-date: 2012-09-27 14:57:38+00:00
+categories:
+- blog
+date: 2012-09-27 14:57:38
+description: The Linaro 12.09 release cycle highlights the combined work and enthusiasm
+  of all the Linaro Teams and is now available for download.
+keywords: Linaro, Linux on ARM, Open Source, Releases, Working Group, Landing Teams,
+  Community, Ubuntu, Android, 12.09. Linaro 12.09, Linaro Connect, Bella Center, Copenhagen,
+  Demo Friday
 layout: post
 link: https://www.linaro.org/blog/industry-blog/linaro-12-09-release-now-available/
 slug: linaro-12-09-release-now-available
-title: Linaro 12.09 Release Now Available
-wordpress_id: 1920
-categories:
-- blog
 tags:
 - Android
 - Community
 - Connect Events
 - Industry
 - Releases
+title: Linaro 12.09 Release Now Available
+wordpress_id: 1920
 ---
+
 >
 > There is a real magic in enthusiasm. It spells the difference between mediocrity and accomplishment.
 >

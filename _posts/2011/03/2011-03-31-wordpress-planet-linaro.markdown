@@ -1,20 +1,23 @@
 ---
 author: linaro
-
-date: 2011-03-31 21:32:59+00:00
+categories:
+- blog
+date: 2011-03-31 21:32:59
+description: Announcing the switch to WordPress 3.1 for this blog, and the availability
+  of Planet Linaro, to aggregate this blog to individual Linaro developer blogs.
 layout: post
 link: https://www.linaro.org/blog/community-blog/wordpress-planet-linaro/
 slug: wordpress-planet-linaro
-title: Switch to a WordPress blog - Planet Linaro available
-wordpress_id: 3377
-categories:
-- blog
 tags:
 - Community
 - website
+title: Switch to a WordPress blog - Planet Linaro available
+wordpress_id: 3377
 ---
 
-![WordPress logo](http://s.wordpress.org/about/images/logo-grey/grey-m.png)If you haven't noticed yet, we have replaced our [SilverStripe](http://www.silverstripe.com/) blog engine by a something orders of magnitude better: [WordPress ](http://wordpress.org)3.1, with the TwentyTen theme.
+![WordPress logo](http://s.wordpress.org/about/images/logo-grey/grey-m.png)
+
+If you haven't noticed yet, we have replaced our [SilverStripe](http://www.silverstripe.com/) blog engine by a something orders of magnitude better: [WordPress ](http://wordpress.org)3.1, with the TwentyTen theme.
 
 SilverStripe had several shortcomings, but its main one was the inability to accept comments without letting the doors wide open to comment spam. Comments were eventually enabled, but SilverStripe just kept them in a secret location where nobody would ever find them. We probably lost valuable comments from our community, and we are very sorry about it. This should be fixed now with the switch to WordPress, and we shouldn't miss any legitimate comment any more.
 

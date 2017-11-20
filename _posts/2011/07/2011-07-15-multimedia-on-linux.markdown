@@ -1,15 +1,18 @@
 ---
 author: kiko
-date: 2011-07-15 16:01:50+00:00
+categories:
+- blog
+date: 2011-07-15 16:01:50
+description: Discussion of Multimedia on Linux challenges and Linaro.org's work with
+  Multimedia on Linux
+keywords: Linux, Linaro, Multimedia, OpenMax
 layout: post
 link: https://www.linaro.org/blog/industry-blog/multimedia-on-linux/
 slug: multimedia-on-linux
-title: Multimedia on Linux
-wordpress_id: 3393
-categories:
-- blog
 tags:
 - Industry
+title: Multimedia on Linux
+wordpress_id: 3393
 ---
 
 Multimedia is one of the most important reasons Linux is used on ARM: mobile phones, tablets, digital TV stations and desktop all fundamentally require multimedia playback and recording. It is also one of the most complex and poorly-understood areas on Linux, stemming from the inherent challenges in providing high performance multimedia, IP restrictions on technology and content and the impressive rate at which new formats and capabilities have been developed to match increasing network and processing power.

@@ -1,15 +1,17 @@
 ---
 author: linaro
-date: 2010-06-03 11:50:19+00:00
+categories:
+- News
+date: 2010-06-03 11:50:19
+description: CAMBRIDGE, UK - 3 JUN 2010
 layout: post
 link: https://www.linaro.org/news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
 slug: arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices
 title: ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
   to Speed the Rollout of Linux-Based Devices
 wordpress_id: 4396
-categories:
-- News
 ---
+
 CAMBRIDGE, UK - 3 JUN 2010
 
 ## Linaro unites industry leaders to foster innovation in the Linux® community through a common foundation of tools and software

@@ -1,15 +1,15 @@
 ---
 author: linaro
-date: 2015-08-28 20:01:52+00:00
+categories:
+- blog
+date: 2015-08-28 20:01:52
+description: Linaro Connect SFO15 is coming soon and one the ways to get the most
+  out of the event is to use the Pathable event tool. Here are some basics...
 excerpt: Linaro Connect SFO15 is coming soon and one the ways to get the most out
   of the event is to use the Pathable event tool.  Here are some basics...
 layout: post
 link: https://www.linaro.org/blog/going-to-sfo15-you-will-need-to-know-pathable/
 slug: going-to-sfo15-you-will-need-to-know-pathable
-title: Going to SFO15?  You will need to know Pathable
-wordpress_id: 9193
-categories:
-- blog
 tags:
 - Connect Events
 - conference
@@ -17,6 +17,8 @@ tags:
 - Connect Events
 - Linaro
 - Linaro Connect
+title: Going to SFO15?  You will need to know Pathable
+wordpress_id: 9193
 ---
 
 Linaro Connect SFO15 is just around the corner and we are expecting another great event. There will be daily keynotes given by several industry leaders, numerous interesting sessions that attendees will want to participate in, afternoon hacking and a lot of meetings. So how do you keep track of everything happening each day? You will need to logon to the very easy to use Pathable event schedule system. 
