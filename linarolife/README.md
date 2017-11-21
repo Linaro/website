@@ -16,9 +16,9 @@ image:
             -moz-background-size: cover;
             -o-background-size: cover;">
             <div class="cover-image-info">
-                <strong>Linaro Life Magazine</strong>
-                <small><em>First Edition</em>, is Launched</small>
-                <a href="" class="btn btn-linaro-home light">View First Edition</a>
+                <strong class="fade-in-one">Linaro Life Magazine</strong><br>
+                <small class="fade-in-two"><em>First Edition</em>, is Launched</small><br>
+                <a href="/linarolife/e1/" class="btn btn-linaro-home light btn-lg fade-in-three">View First Edition</a>
             </div>
         </div>
 </div>
