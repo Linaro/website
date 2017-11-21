@@ -25,6 +25,8 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LHG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNM2Muw_4qDSB8hvqfQZGWX
 members_key: lhg_members
+redirect_from:
+- /lhg/
 ---
 # Linaro Home Group (LHG)
 

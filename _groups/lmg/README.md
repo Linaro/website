@@ -24,6 +24,8 @@ other_projects:
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 members_key: lmg_members
+redirect_from:
+- /lmg/
 ---
 # Linaro Mobile Group (LMG)
 

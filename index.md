@@ -33,28 +33,80 @@ nav-light: true
 
 <div class="row" id="main-content-container">
     <div class="container home-inline-carousel">
-    
         <div class="owl-carousel owl-theme" id="home-carousel">
             <div class="item home-page-slider-item">
-                <a href="https://www.linaro.org/services/" alt="Linaro Connect">
-                    <img src="{% asset_path 'linaro-home-page-graphic-01.png'%}" class="img-responsive" alt="Linaro Connect">
-                </a>
+                <div class="main-slider-image"><img  class="lazyload" data-src="{% asset_path 'services-home-page.png' %}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div>
+                <div class="col-xs-12 home-page-slider-info">
+                    <div class="home-page-slider-image">
+                        <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                        data-src="{% asset_path 'developer-services-logo.png' %}"/>
+                    </div>
+                    <div class="home-page-slider-text">
+                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
+                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                    </div>
+                    <div class="home-page-slider-button text-center">
+                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="item home-page-slider-item">
-                <a href="https://www.linaro.org/events/armhpcjapan2017/" alt="96boards">
-                    <img src="{% asset_path 'linaro-home-page-graphic-02.png'%}" class="img-responsive" alt="96boards ">
-                </a>
+                <div class="main-slider-image"><img  class="lazyload" data-src="{% asset_path 'hpc-home-page.png' %}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div>
+                <div class="col-xs-12 home-page-slider-info">
+                    <div class="home-page-slider-image">
+                        <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                        data-src="{% asset_path 'developer-services-logo.png' %}"/>
+                    </div>
+                    <div class="home-page-slider-text">
+                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
+                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                    </div>
+                    <div class="home-page-slider-button text-center">
+                        <a href="https://www.linaro.org/events/armhpcjapan2017/" class="btn btn-linaro-home">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="item home-page-slider-item">
-                <a href="https://www.96boards.org" alt="Arm HPC Workshop">
-                    <img src="{% asset_path 'linaro-home-page-graphic-03.png'%}" class="img-responsive" alt="Arm HPC Workshop">
-                </a>
+                <div class="main-slider-image"><img  class="lazyload" data-src="{% asset_path '96boards-home-page.png' %}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div>
+                <div class="col-xs-12 home-page-slider-info">
+                    <div class="home-page-slider-image">
+                        <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                        data-src="{% asset_path 'developer-services-logo.png' %}"/>
+                    </div>
+                    <div class="home-page-slider-text">
+                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
+                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                    </div>
+                    <div class="home-page-slider-button text-center">
+                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="item home-page-slider-item">
-                <a href="http://connect.linaro.org" alt="Linaro Developer Services">
-                    <img src="{% asset_path 'linaro-home-page-graphic-04.png'%}" class="img-responsive" alt="Linaro Developer Services">
-                </a>
+                <div class="main-slider-image"><img  class="lazyload" data-src="{% asset_path 'connect-home-page.png' %}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div>
+                <div class="col-xs-12 home-page-slider-info">
+                    <div class="home-page-slider-image">
+                        <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                        data-src="{% asset_path 'developer-services-logo.png' %}"/>
+                    </div>
+                    <div class="home-page-slider-text">
+                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
+                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                    </div>
+                    <div class="home-page-slider-button text-center">
+                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
             </div>
+            
         </div>
         
     </div>

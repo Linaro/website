@@ -18,6 +18,8 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LNG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsN0Hx7wRWQEbRfzb0D1ms-8
 members_key: lng_members
+redirect_from:
+- /lng/
 ---
 # Linaro Networking Group (LNG)
 
