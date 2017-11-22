@@ -1,9 +1,9 @@
 ---
 layout: linaro-home
-css-pack: home
 js-package: home
 home: true
 nav-light: true
+css-include: main-home
 ---
 <div class="row">
     <div class="jumbotron text-center homepage-jumbotron" id="homepage-jumbotron" style="background: linear-gradient(
@@ -41,33 +41,33 @@ nav-light: true
                         <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
                         data-src="{% asset_path 'developer-services-logo.png' %}"/>
                     </div>
-                    <div class="home-page-slider-text">
+                    <div class="home-page-slider-text text-center">
                     <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
                     <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
                     </div>
-                    <div class="home-page-slider-button text-center">
-                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
-                            Learn more
-                        </a>
-                    </div>
+                </div>
+                <div class="home-page-slider-button text-center">
+                    <a href="/services/" class="btn btn-linaro-home services">
+                        Learn more
+                    </a>
                 </div>
             </div>
             <div class="item home-page-slider-item">
                 <div class="main-slider-image"><img  class="lazyload" data-src="{% asset_path 'hpc-home-page.png' %}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div>
                 <div class="col-xs-12 home-page-slider-info">
-                    <div class="home-page-slider-image">
-                        <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
-                        data-src="{% asset_path 'developer-services-logo.png' %}"/>
-                    </div>
                     <div class="home-page-slider-text">
-                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
-                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                        <span class="arm-hpc-japan-slide-line-1">ARM HPC Workshop</span><br>
+                        <span class="arm-hpc-japan-slide-line-2">
+                            BY RIKEN AICS AND LINARO
+                            <div class="arm-hpc-divider"></div>
+                        </span>
+                        <span class="arm-hpc-japan-slide-line-3">12-13th DEC 2017 - AKIHABARA HALL, TOKYO </span>
                     </div>
-                    <div class="home-page-slider-button text-center">
-                        <a href="https://www.linaro.org/events/armhpcjapan2017/" class="btn btn-linaro-home connect">
-                            Learn more
-                        </a>
-                    </div>
+                </div>
+                <div class="home-page-slider-button hpc">
+                    <a href="/events/armhpcjapan2017/" class="btn btn-linaro-home">
+                        Learn more
+                    </a>
                 </div>
             </div>
             <div class="item home-page-slider-item">
@@ -77,15 +77,15 @@ nav-light: true
                         <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
                         data-src="{% asset_path 'developer-services-logo.png' %}"/>
                     </div>
-                    <div class="home-page-slider-text">
-                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
-                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                    <div class="home-page-slider-text text-center">
+                        <span class="96boards-slider-line-1">Developer & Prototype on the</span> <br>
+                        <span class="96boards-slider-line-2">Latest Arm Technology</span>
                     </div>
-                    <div class="home-page-slider-button text-center">
-                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
-                            Learn more
-                        </a>
-                    </div>
+                </div>
+                <div class="home-page-slider-button text-center">
+                    <a href="/initiatives/96boards/" class="btn btn-linaro-home 96boards">
+                        Learn more
+                    </a>
                 </div>
             </div>
             <div class="item home-page-slider-item">
@@ -95,16 +95,17 @@ nav-light: true
                         <img class="lazyload logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
                         data-src="{% asset_path 'developer-services-logo.png' %}"/>
                     </div>
-                    <div class="home-page-slider-text">
+                    <div class="home-page-slider-text text-center">
                         <span class="linaro-connect-slide-text">
                             Linaro Connect brings together engineers and industry experts to discuss, learn, network and push new technologies forward.
                         </span>
                     </div>
-                    <div class="home-page-slider-button text-center">
-                        <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
-                            Learn more
-                        </a>
-                    </div>
+    
+                </div>
+                <div class="home-page-slider-button text-center">
+                    <a href="/initiatives/connect/" class="btn btn-linaro-home connect">
+                        Learn more
+                    </a>
                 </div>
             </div>
             
