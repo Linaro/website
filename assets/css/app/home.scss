@@ -6,13 +6,12 @@
 }
 
 @media(max-width:767px){
-    span.linaro-connect-slide-text {
-        font-size: 12px;
-    }
+
+
 }
 //Home Page Sliders
 .item.home-page-slider-item {
-    height: 260px;
+    height: 300px;
 }
 
 
@@ -102,7 +101,7 @@ div.row.slide-content-row{
 }
 
 span.linaro-connect-slide-text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -117,13 +116,15 @@ span.linaro-connect-slide-text {
 }
 
 div.home-page-slider-image > img.logo {
-    width: 100px;
+    height: 100px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .home-page-slider-text {
     color: #fff;
+    min-height: 70px;
 }
 
 // Home Page Blog Posts 
