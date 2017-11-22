@@ -64,7 +64,7 @@ nav-light: true
                     <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
                     </div>
                     <div class="home-page-slider-button text-center">
-                        <a href="https://www.linaro.org/events/armhpcjapan2017/" class="btn btn-linaro-home">
+                        <a href="https://www.linaro.org/events/armhpcjapan2017/" class="btn btn-linaro-home connect">
                             Learn more
                         </a>
                     </div>
@@ -96,8 +96,9 @@ nav-light: true
                         data-src="{% asset_path 'developer-services-logo.png' %}"/>
                     </div>
                     <div class="home-page-slider-text">
-                    <span class="developer-services-line-1">Advanced Developer Software Services</span><br>
-                    <span class="developer-services-line-2">Including SoC and MCU upstreaming</span>
+                        <span class="linaro-connect-slide-text">
+                            Linaro Connect brings together engineers and industry experts to discuss, learn, network and push new technologies forward.
+                        </span>
                     </div>
                     <div class="home-page-slider-button text-center">
                         <a href="https://www.linaro.org/services/" class="btn btn-linaro-home">
