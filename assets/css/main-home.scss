@@ -10,18 +10,21 @@
 
 // Linaro Jekyll Theme Includes
 @import "core/fonts";
-@import "core/font-awesome.min";
 @import "core/nav";
 @import "core/theme";
 @import "core/cookieconsent";
 @import "core/footer";
-@import "core/owl.carousel.min";
-@import "core/owl.theme.default.min";
 @import "core/social-media-icons";
-@import "core/breadcrumb";
-@import "core/tables";
-
 @import "core/animations";
+@import "core/carousel-styles";
+@import 'core/homepage';
 
 // App Includes
+// Page specific styling
+@import "app/home";
 @import "app/common";
+
+
+
+
+

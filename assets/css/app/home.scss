@@ -1,0 +1,138 @@
+
+// Import the Open Sans Font for Home Page Sliders
+@font-face {
+    font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+
+//Home Page Sliders
+.home-page-slider-text {
+    font-family: 'Open Sans', Arial;
+}
+
+span.arm-hpc-japan-slide-line-1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    top: 8px;
+    left: 2px;
+    position: relative;
+    padding: -14px;
+    /* line-height: 33px; */
+}
+
+span.arm-hpc-japan-slide-line-2 {
+    font-weight: bold;
+}
+
+//ARM HPC
+.row.no-padding.arm-hpc-row {
+    background-color: #2b2130;
+}
+.row.no-padding.arm-hpc-row.top {
+    margin-bottom: 30px;
+}
+.row.no-padding.arm-hpc-row.bottom {
+    margin-top: 30px;
+}
+
+.owl-stage-outer {
+    height: 280px;
+}
+.container.home-inline-carousel {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+//Home Page
+
+.arm-hpc-divider {
+    background: linear-gradient(to right, #d12d0d 50%, #1aa8ff 50%);
+    height: 2px;
+    width: 204px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    border-radius: 1px;
+}
+
+a.btn.btn-linaro-home.connect {
+    background-color: #97ce1e;
+    border-color: #6a9015;
+}
+
+.home-page-slider-button {
+    bottom: 80px;
+    position: relative;
+}
+
+.home-page-slider-button.hpc {
+    bottom: 25px;
+    left: 15px;
+    margin:0;
+    position: absolute;
+}
+
+
+span.linaro-connect-slide-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+.col-xs-12.home-page-slider-info {
+    position: absolute;
+    top: 0;
+    z-index: 10000000;
+    margin-top:20px;
+}
+
+div.home-page-slider-image > img.logo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-page-slider-text {
+    color: #fff;
+}
+
+// Home Page Blog Posts 
+h1.blogs_home_block_text {
+    font-style: italic;
+    font-size: 26px;
+}
+h3.blogs_home_block_post_title {
+    font-weight: normal;
+    font-style: italic;
+    color: #4d4d4d;
+    
+    transition: all 1s ease;
+}
+div.blogs_home_block_post {
+    border: 1px solid #eee;
+    min-height: 200px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.blogs_home_block_post:nth-child(3) {
+    background-color: black;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+div.blogs_home_block_post > a:hover > h3.blogs_home_block_post_title  {
+    color: $brand-primary;
+}
+
+h3.blogs_home_block_post_title {
+    font-weight: normal;
+    font-style: italic;
+    color: #4d4d4d;
+}
