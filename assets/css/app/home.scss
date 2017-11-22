@@ -5,12 +5,43 @@
 	src: url('../fonts/OpenSans-Regular.ttf');
 }
 
-
+@media(max-width:767px){
+    span.linaro-connect-slide-text {
+        font-size: 12px;
+    }
+}
 //Home Page Sliders
+.item.home-page-slider-item {
+    height: 260px;
+}
+
+
 .home-page-slider-text {
     font-family: 'Open Sans', Arial;
 }
 
+// Developer Sertvices
+span.developer-services-line-1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+span.developer-services-line-2 {
+    font-size: 20px;
+}
+
+// Developer Sertvices
+span.boards-slide-line-1 {
+    font-size: 20px;
+    color: #ffdf84;
+}
+span.boards-slide-line-2 {
+    font-size: 20px;
+    color: #ffdf84;
+    font-weight: bold;
+}
+
+
+// Arm HPC
 span.arm-hpc-japan-slide-line-1 {
     font-size: 24px;
     font-weight: bold;
@@ -63,17 +94,12 @@ a.btn.btn-linaro-home.connect {
 }
 
 .home-page-slider-button {
-    bottom: 80px;
-    position: relative;
 }
 
-.home-page-slider-button.hpc {
-    bottom: 25px;
-    left: 15px;
-    margin:0;
-    position: absolute;
+div.row.slide-content-row{
+    padding-left:15px;
+    padding-right: 15px;
 }
-
 
 span.linaro-connect-slide-text {
     font-size: 20px;
