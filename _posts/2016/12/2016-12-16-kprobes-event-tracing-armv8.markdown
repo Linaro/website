@@ -301,11 +301,11 @@ NUMA_NO_NODE, __builtin_return_address(0));
 
 ...and also the return value from the function call in this line:
 
-```c
+```
 if (p && (kasan_module_alloc(p, size) < 0)) {
 ```
 
-We can identify these in the assembler code from the call to the external functions. To display these values we will place probes at 0xffff20000809520c _and _0xffff20000809521c on our target system:
+We can identify these in the assembler code from the call to the external functions. To display these values we will place probes at 0xffff20000809520c _and_ 0xffff20000809521c on our target system:
 
 ```
 $ cat > kprobe_events <<EOF
@@ -313,7 +313,7 @@ p 0xffff20000809520c %x0
 p 0xffff20000809521c %x0
 EOF
 $ echo 1 > events/kprobes/enable
-``§
+```
 
 Now after plugging an ethernet adapter dongle into the USB port we see the following written into the trace log:
 
@@ -323,10 +323,10 @@ $ cat trace
 #
 # entries-in-buffer/entries-written: 12/12   #P:8
 #
-#                           _-----=> irqs-off
-#                          / _----=> need-resched
-#                         | / _---=> hardirq/softirq
-#                         || / _--=> preempt-depth
+#                           -----=> irqs-off
+#                          ----=> need-resched
+#                         | ---=> hardirq/softirq
+#                         ||  _--=> preempt-depth
 #                         ||| /  delay
 #        TASK-PID   CPU#  |||| TIMESTAMP  FUNCTION
 #           | |    |   ||||    |      |
@@ -341,7 +341,7 @@ $ cat trace
       modprobe-2097  [002] d... 78.030643: p_0xffff20000809520c: (module_alloc+0x48/0x98) arg1=0xffff2000011b8000
       modprobe-2097  [002] d... 78.030761: p_0xffff20000809521c: (module_alloc+0x58/0x98) arg1=0x0
       modprobe-2097  [002] d... 78.031132: p_0xffff20000809520c: (module_alloc+0x48/0x98) arg1=0xffff200001270000
-      modprobe-2097  [002] d... 78.031187: p_0xffff20000809521c: (module_alloc+0x58/0x98) arg1=0x0_
+      modprobe-2097  [002] d... 78.031187: p_0xffff20000809521c: (module_alloc+0x58/0x98) arg1=0x0
 ```
 
 One more feature of the kprobes event system is recording of statistics information, which can be found in kprobe_profile.  After the above trace the contents of that file are:

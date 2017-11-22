@@ -12,7 +12,7 @@ categories:
 - blog
 ---
 
-{% include image.html name="board-picture.png" alt="Board Picture"%}
+{% include image.html name="board-picture.png" alt="Board Picture" class="medium-inline right"%}
 
 _First revision of Hisilicon 96Boards TV Platform board (codenamed Poplar)._
 

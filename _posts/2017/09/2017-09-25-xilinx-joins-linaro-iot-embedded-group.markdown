@@ -3,7 +3,7 @@ author: linaro
 categories:
 - News
 date: 2017-09-25 15:58:01
-description: "[Linaro Connect SFO17, 25 September 2017] Linaro Ltd, the open source
+description: "Linaro Ltd, the open source
   collaborative engineering organization developing software for the Arm\xC2\xAE ecosystem,
   today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment
   Group."

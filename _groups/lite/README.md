@@ -17,6 +17,8 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LITE/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: lite_members
+redirect_from:
+- /lite/
 ---
 # Linaro IoT and Embedded (LITE)
 

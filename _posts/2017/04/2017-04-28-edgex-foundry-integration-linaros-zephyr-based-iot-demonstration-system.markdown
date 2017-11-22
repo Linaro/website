@@ -10,7 +10,7 @@ categories:
 - blog
 ---
 
-{% include image.html name="hannover-messe-logo.jpg" alt="Hannover Messe Logo" %}
+{% include image.html name="hannover-messe-logo.jpg" alt="Hannover Messe Logo" class="medium-inline"%}
 
 "The creation of a standard, secure, open, and architecture- and vendor-neutral gateway framework is a critical component of IoT based solutions. Hosted by The Linux Foundation, EdgeX Foundry's impressive industry support and open governance model allows open collaboration on a common gateway architecture by industry leaders," said Matt Locke, Director of the Linaro IoT and Embedded (LITE) Group. "This much needed unifying project will allow vendors to define and build a common gateway platform; a platform upon which they can build unique and compelling solutions across a wide range of market segments. We look forward to welcoming new members into LITE to work closely on the engineering needed to accelerate adoption of EdgeX Foundry. Supporting this new project complements and builds on LITE's engineering and technical support of The Linux Foundation's Zephyr project, which is aimed at enabling embedded and IoT devices."
 
