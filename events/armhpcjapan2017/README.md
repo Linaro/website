@@ -1,11 +1,17 @@
 ---
 title: Arm HPC Japan 2017
-layout: default-plain
+layout: event
 permalink: /events/armhpcjapan2017/
 ---
-{% include image.html name="arm-hpc-workshop-japan_website-banner-top.png" alt="Arm HPC Workshop Top Banner" %}
 
+<div class="row no-padding arm-hpc-row top">
+    <div class="container">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'arm-hpc-workshop-japan_website-banner-top.png' %}" alt="Arm HPC Workshop Top Banner" class="img-responsive lazyload center-block"/>
+    </div>
+</div>
 
+<div class="row arm-hpc-row main">
+    <div class="container">
 <div class="col-sm-6" markdown="1">
 
 **ARM HPC Workshop** _by RIKEN AICS and Linaro on 12-13th Dec 2017 – [Room 5A on 5F, Akihabara Hall, Tokyo](http://www.akibahall.jp/data/access_eng.html)._
@@ -38,7 +44,7 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 **Thanks to our sponsors**
 
-{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" %}
+{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
 
@@ -62,5 +68,12 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 
 </div>
+    </div>
 
-{% include image.html name="arm-hpc-workshop-japan_website-banner-base.png" alt="Arm HPC Workshop Japan Bottom Banner"%}
+</div>
+
+<div class="row no-padding arm-hpc-row bottom">
+    <dic class="container">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'arm-hpc-workshop-japan_website-banner-base.png' %}" alt="Arm HPC Workshop Japan Bottom Banner" class="img-responsive lazyload center-block"/>
+    </div>
+</div>
