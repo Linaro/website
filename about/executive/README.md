@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /about/executive/
 js-package: extended
-css-pack: lightbox
+css-include: main-lightbox
 ---
 
 **The management team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.**
