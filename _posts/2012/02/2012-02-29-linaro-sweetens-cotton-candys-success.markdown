@@ -29,7 +29,7 @@ Linaro community specialist, Amber Graner, asked FXI Technologies  founder and 
 
 [LEBs (Linaro Evaluations Builds)](http://www.linaro.org/downloads/1202) for the [Samsung Origen](http://www.origenboard.org/About_us) allowed FXI Technologies  to boot Cotton Candy immediately and start working on differentiation from day one. Without Linaro, FXI Technologies would still be bringing up either Android or Ubuntu, with Linaro they have both, today, and are in the market. That is the power of the Linaro open-collaboration power-house.
 
-{% include image.html name="Cotton-Candy.jpg" alt="Cotton Candy FXI" class="small-inline right" %}
+{% include image.html name="fxi-blog-image.jpg" alt="Cotton Candy FXI" class="small-inline right" %}
 
 Cotton Candy has [been on display](http://mymwc.mobileworldcongress.com/exhibitors/fxi-technologies-as) at this week’s Mobile World Congress and according to FXI Technologies, it is the unique architecture that allows the device to serve as a companion to smartphones, tablets, notebook PCs and Macs and will add smart capabilities to existing displays, set top boxes and game consoles.
 
