@@ -14,6 +14,14 @@
     height: 300px;
 }
 
+.home-page-slider-button {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
 
 .home-page-slider-text {
     font-family: 'Open Sans', Arial;
@@ -55,16 +63,8 @@ span.arm-hpc-japan-slide-line-1 {
 span.arm-hpc-japan-slide-line-2 {
     font-weight: bold;
 }
-
-//ARM HPC
-.row.no-padding.arm-hpc-row {
-    background-color: #2b2130;
-}
-.row.no-padding.arm-hpc-row.top {
-    margin-bottom: 30px;
-}
-.row.no-padding.arm-hpc-row.bottom {
-    margin-top: 30px;
+span.arm-hpc-japan-slide-line-3 {
+    color: #1aa8ff;
 }
 
 .owl-stage-outer {
@@ -92,8 +92,6 @@ a.btn.btn-linaro-home.connect {
     border-color: #6a9015;
 }
 
-.home-page-slider-button {
-}
 
 div.row.slide-content-row{
     padding-left:15px;

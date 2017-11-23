@@ -21,6 +21,9 @@ CB22 7GG <br>
 <div class="col-xs-6 text-center" markdown="1">
 [Linaro IRC](/contact/irc/)
 </div>
+
+<hr>
+
 <div class="col-xs-6 text-center" markdown="1">
 [Linaro Mailing List](/contact/mailing-list/)
 </div>
