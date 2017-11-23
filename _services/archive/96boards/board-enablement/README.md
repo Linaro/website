@@ -14,7 +14,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/96boards/board-enablement/android/">
+                        <a href="/archive/services/96boards/board-enablement/android/">
                             <h3>Android</h3>
                         </a>
                     </div>
@@ -25,7 +25,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
                         <p>
                             Linaro Developer Services has experience developing, porting and maintaining Android on a variety of platforms.
                         </p>
-                        <a class="btn btn-primary" href="/services/96boards/board-enablement/android/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/96boards/board-enablement/android/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/96boards/board-enablement/linux/">
+                        <a href="/archive/services/96boards/board-enablement/linux/">
                             <h3>Linux</h3>
                         </a>
                     </div>
@@ -47,7 +47,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
                         <p>
                             Linaro Develop Services develops and supports several Linux distributions on a variety of platforms.
                         </p>
-                        <a class="btn btn-primary" href="/services/96boards/board-enablement/linux/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/96boards/board-enablement/linux/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                    <a href="/services/96boards/board-enablement/op-tee/">
+                    <a href="/archive/services/96boards/board-enablement/op-tee/">
                         <h3>OP-TEE</h3>
                     </a>
                     </div>
@@ -69,7 +69,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
                         <p>
                             OP-TEE (Open Portable Trusted Execution Environment) is Linaro's implementation of a Trusted Execution Environment (TEE).
                         </p>
-                        <a class="btn btn-primary" href="/services/96boards/board-enablement/op-tee/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/96boards/board-enablement/op-tee/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                    <a href="/services/96boards/board-enablement/os-distribution-integration/">
+                    <a href="/archive/services/96boards/board-enablement/os-distribution-integration/">
                         <h3>OS Distribution Integration</h3>
                     </a>
                     </div>
@@ -91,7 +91,7 @@ Linaro Developer Services offers 96Boards designers and manufacturing partners w
                         <p>
                            Linaro Developer Services specialises in distribution integration in two particular areas; AOSP and Android, and Linux and Debian.
                         </p>
-                        <a class="btn btn-primary" href="/services/96boards/board-enablement/os-distribution-integration/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/96boards/board-enablement/os-distribution-integration/">Learn More</a>
                     </div>
                 </div>
             </div>

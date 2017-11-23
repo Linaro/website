@@ -8,35 +8,45 @@
 .owl-dots {
     margin-bottom: 0;
 }
-.blogs_home_block_post.connect {
-    border-bottom: 5px solid #97ce1e;
-}
-.blogs_home_block_post.lite {
-    border-bottom: 5px solid #ea9538;
-}
-.blogs_home_block_post.boards {
-    border-bottom: 5px solid #000;
-}
 
-.blogs_home_block_post.connect:hover {
-    border-bottom: 5px solid #97ce1e;
+.blogs_home_block_post.connect {
+    border-bottom: 1px solid #97ce1e;
     border-left: 1px solid #97ce1e;
     border-right: 1px solid #97ce1e;
     border-top: 1px solid #97ce1e;
 }
 
-.blogs_home_block_post.lite:hover {
-    border-bottom: 5px solid #ea9538;
+.blogs_home_block_post.lite {
+    border-bottom: 1px solid #ea9538;
     border-left: 1px solid #ea9538;
     border-right: 1px solid #ea9538;
     border-top: 1px solid #ea9538;
 }
 
-.blogs_home_block_post.boards:hover {
-    border-bottom: 5px solid #000;
+.blogs_home_block_post.boards {
+    border-bottom: 1px solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     border-top: 1px solid #000;
+}
+
+.blogs_home_block_post.connect:hover {
+    background-color: #97ce1e;
+    color: white;
+}
+
+.blogs_home_block_post.lite:hover {
+    background-color: #ea9538;
+    color: white;
+}
+
+.blogs_home_block_post.boards:hover {
+    background-color: #000;
+    color: white;
+}
+
+.blogs_home_block_post:hover > a {
+    color: white;
 }
 
 //Smallest mobile view
@@ -226,9 +236,8 @@ div.blogs_home_block_post {
     margin-bottom: 20px;
     position: relative;
     
-    transition: all 1s ease;
+    transition: all 200ms ease;
 }
-div.blogs_home_block_post::before,
 div.blogs_home_block_post::after {
     content: '';
     position: absolute;
@@ -238,32 +247,26 @@ div.blogs_home_block_post::after {
     border-style: solid;
 }
 
-div.blogs_home_block_post::before {
+div.blogs_home_block_post::after {
     border-width:44px;
     border-right-color: #eee;
     border-bottom-color: #eee;
 }
-div.blogs_home_block_post.connect::before {
+div.blogs_home_block_post.connect::after {
     border-width:44px;
     border-right-color: #97ce1e;
     border-bottom-color: #97ce1e;
 }
 
-div.blogs_home_block_post.lite::before {
+div.blogs_home_block_post.lite::after {
     border-width:44px;
     border-right-color: #ea9538;
     border-bottom-color: #ea9538;
 }
-div.blogs_home_block_post.boards::before {
+div.blogs_home_block_post.boards::after {
     border-width:44px;
     border-right-color: #000;
     border-bottom-color: #000;
-}
-
-div.blogs_home_block_post::after {
-    border-width: 40px;
-    border-right-color: #fff;
-    border-bottom-color: #fff;
 }
 
 div.blogs_home_block_post:nth-child(3) {

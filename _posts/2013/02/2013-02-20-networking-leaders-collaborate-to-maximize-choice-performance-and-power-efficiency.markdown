@@ -47,7 +47,7 @@ An interim steering committee for LNG has been meeting since the end of 2012 and
 
 Linaro expects initial software deliveries from the Linaro Networking Group during the first half of 2013 with on-going monthly releases thereafter.
 
-_*Sources: Statistics from the 3.7 development cycle Jonathan Corbet, LWN, 28 November 2012: [http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/%20)(subscription required), Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012:[ https://lwn.net/Articles/507986/](https:/lwn.net/Articles/507986/) (subscription required) and earlier LWN articles._
+_*Sources: Statistics from the 3.7 development cycle Jonathan Corbet, LWN, 28 November 2012: [http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/%20)(subscription required), Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012:[ https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required) and earlier LWN articles._
 
 
 

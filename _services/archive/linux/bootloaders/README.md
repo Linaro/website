@@ -13,7 +13,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/linux/bootloaders/arm-trusted-firmware/">
+                        <a href="/archive/services/linux/bootloaders/arm-trusted-firmware/">
                             <h3>Arm Trusted Firmware</h3>
                         </a>
                     </div>
@@ -24,7 +24,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
                         <p>
                             We have provided several of our clients with ports of ARM Trusted Firmware.
                         </p>
-                        <a class="btn btn-primary" href="/services/linux/bootloaders/arm-trusted-firmware/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/linux/bootloaders/arm-trusted-firmware/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/linux/bootloaders/u-boot/">
+                        <a href="/archive/services/linux/bootloaders/u-boot/">
                             <h3>U-Boot</h3>
                         </a>
                     </div>
@@ -46,7 +46,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
                         <p>
                             We also have experience in providing clients with upstreamed ports of U-Boot.
                         </p>
-                        <a class="btn btn-primary" href="/services/linux/bootloaders/u-boot/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/linux/bootloaders/u-boot/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                    <a href="/services/linux/bootloaders/uefi/">
+                    <a href="/archive/services/linux/bootloaders/uefi/">
                         <h3>UEFI</h3>
                     </a>
                     </div>
@@ -68,7 +68,7 @@ We have extensive experience developing and maintaining bootloaders for a variet
                         <p>
                             Linaro Developer Services has provided several of its clients with upstreamed ports of the Unified Extensible Firmware Interface (UEFI).
                         </p>
-                        <a class="btn btn-primary" href="/services/linux/bootloaders/uefi/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/linux/bootloaders/uefi/">Learn More</a>
                     </div>
                 </div>
             </div>

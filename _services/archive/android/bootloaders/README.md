@@ -14,7 +14,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/bootloaders/arm-trusted-firmware/">
+                        <a href="/archive/services/android/bootloaders/arm-trusted-firmware/">
                             <h3>Arm Trusted Firmware</h3>
                         </a>
                     </div>
@@ -25,7 +25,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
                         <p>
                             We have provided several of our clients with ports of ARM Trusted Firmware.
                         </p>
-                        <a class="btn btn-primary" href="/services/android/bootloaders/arm-trusted-firmware/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/bootloaders/arm-trusted-firmware/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/bootloaders/u-boot/">
+                        <a href="/archive/services/android/bootloaders/u-boot/">
                             <h3>U-Boot</h3>
                         </a>
                     </div>
@@ -47,7 +47,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
                         <p>
                             We also have experience in providing clients with upstreamed ports of U-Boot.
                         </p>
-                        <a class="btn btn-primary" href="/services/android/bootloaders/u-boot/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/bootloaders/u-boot/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/bootloaders/uefi/">
+                        <a href="/archive/services/android/bootloaders/uefi/">
                             <h3>UEFI</h3>
                         </a>
                     </div>
@@ -69,7 +69,7 @@ Linaro Developer Services has extensive experience developing and maintaining bo
                         <p>
                             Linaro Developer Services has provided several of its clients with upstreamed ports of the Unified Extensible Firmware Interface (UEFI).
                         </p>
-                        <a class="btn btn-primary" href="/services/android/bootloaders/uefi/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/bootloaders/uefi/">Learn More</a>
                     </div>
                 </div>
             </div>
