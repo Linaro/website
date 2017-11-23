@@ -27,7 +27,7 @@ wordpress_id: 1148
 
 [caption id="" align="alignleft" width="198" caption="Cotton Candy (Prototype)"]
 
-{% include image.html name="Cotton-Candy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
+{% include image.html name="CottonCandy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
 
 [FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](http://www.linaro.org/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](http://www.android.com/about/ice-cream-sandwich/) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
 
