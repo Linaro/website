@@ -275,11 +275,7 @@ css-include: main-home
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
+
     </div>
 </div>
 
@@ -290,11 +286,11 @@ css-include: main-home
             <h1 class="blogs_home_block_text"> Latest News & Blogs </h1>
         </div>
         
-        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3%}
+        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3 %}
         
         {% for post in posts %}
             <div class="col-xs-12 col-sm-4">
-                <div class="blogs_home_block_post">
+                <div class="blogs_home_block_post  {{post.home_cat}}">
                     <a href="{{post.url}}">
                         <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
                     </a>

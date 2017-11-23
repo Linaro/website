@@ -5,10 +5,73 @@
 	src: url('../fonts/OpenSans-Regular.ttf');
 }
 
-@media(max-width:767px){
-
-
+.owl-dots {
+    margin-bottom: 0;
 }
+.blogs_home_block_post.connect {
+    border-bottom: 5px solid #97ce1e;
+}
+.blogs_home_block_post.lite {
+    border-bottom: 5px solid #ea9538;
+}
+.blogs_home_block_post.boards {
+    border-bottom: 5px solid #000;
+}
+
+.blogs_home_block_post.connect:hover {
+    border-bottom: 5px solid #97ce1e;
+    border-left: 1px solid #97ce1e;
+    border-right: 1px solid #97ce1e;
+    border-top: 1px solid #97ce1e;
+}
+
+.blogs_home_block_post.lite:hover {
+    border-bottom: 5px solid #ea9538;
+    border-left: 1px solid #ea9538;
+    border-right: 1px solid #ea9538;
+    border-top: 1px solid #ea9538;
+}
+
+.blogs_home_block_post.boards:hover {
+    border-bottom: 5px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+//Smallest mobile view
+@media(max-width:767px){
+    h1.linaro-title{
+        font-size:38px;
+        font-weight: 600;
+    }
+    h2.linaro-sub-title{
+        font-size:30px;
+        font-weight:400;
+        margin-top: 50px;
+    }
+    
+    #homepage-jumbotron {
+        padding: 20px;
+    }
+    .carousel-caption.right-caption {
+        top: 0;
+        margin-top: 47px;
+        right:0;
+        left:0;
+    }
+    a.boards-home-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #home-block-sliders .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        position: relative;
+        top: -60px;
+    }
+}
+
 //Home Page Sliders
 .item.home-page-slider-item {
     height: 300px;
@@ -71,8 +134,8 @@ span.arm-hpc-japan-slide-line-3 {
     height: 280px;
 }
 .container.home-inline-carousel {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 
 
@@ -103,6 +166,23 @@ span.linaro-connect-slide-text {
     font-weight: 500;
 }
 
+.row.group_content {
+    opacity: 0;
+    top: -100px;
+    transition: all 500ms linear;
+}
+
+.row.group_header {
+    transition: opacity 500ms linear;
+}
+.row.group_header:hover {
+    opacity: .8;
+    cursor:pointer;
+}
+.row.group_header:hover + .row.group_content {
+    opacity:1;
+    top: 0;
+}
 
 
 
@@ -142,8 +222,48 @@ div.blogs_home_block_post {
     min-height: 200px;
     padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
+    position: relative;
+    
+    transition: all 1s ease;
+}
+div.blogs_home_block_post::before,
+div.blogs_home_block_post::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+div.blogs_home_block_post::before {
+    border-width:44px;
+    border-right-color: #eee;
+    border-bottom-color: #eee;
+}
+div.blogs_home_block_post.connect::before {
+    border-width:44px;
+    border-right-color: #97ce1e;
+    border-bottom-color: #97ce1e;
+}
+
+div.blogs_home_block_post.lite::before {
+    border-width:44px;
+    border-right-color: #ea9538;
+    border-bottom-color: #ea9538;
+}
+div.blogs_home_block_post.boards::before {
+    border-width:44px;
+    border-right-color: #000;
+    border-bottom-color: #000;
+}
+
+div.blogs_home_block_post::after {
+    border-width: 40px;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
 }
 
 div.blogs_home_block_post:nth-child(3) {
@@ -160,4 +280,39 @@ h3.blogs_home_block_post_title {
     font-weight: normal;
     font-style: italic;
     color: #4d4d4d;
+}
+
+// Home Carousel
+.home-inline-carousel{
+    margin-top: 20px;
+}
+//Home Page
+#homepage-jumbotron {
+    padding: 80px;
+}
+#home-block-sliders {
+    margin-bottom: 60px;
+}
+
+#home-block-sliders > p.linaro-home-block-text > a {
+    color: #fff;
+    transition: all 500ms ease;
+}
+#home-block-sliders > p.linaro-home-block-text > a:hover {
+    color: $brand-primary;
+    text-decoration: none;
+}
+h5 > span.slider-sub-title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.linaro-sub-title{
+    color: #fff;
+    text-shadow: rgb(111, 111, 111) 1px 1px 7px;
+}
+.linaro-title{
+    text-shadow: rgb(111, 111, 111) 1px 1px 7px;
+    font-size: 70px;
 }

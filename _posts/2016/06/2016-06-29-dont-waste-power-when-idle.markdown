@@ -59,7 +59,7 @@ In these cases, a subsystem/driver can easily deploy system PM support by using 
 
 Below is the typical code needed for driver/subsystem to deploy system PM via the runtime PM centric approach:
 
-```
+```c
 static const struct dev_pm_ops mydrv_dev_pm_ops = {
            SET_SYSTEM_SLEEP_PM_OPS(pm_runtime_force_suspend,
                                                  pm_runtime_force_resume)

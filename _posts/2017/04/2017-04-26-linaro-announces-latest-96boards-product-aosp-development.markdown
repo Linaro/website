@@ -11,6 +11,7 @@ description: "[96Boards OpenHours 25 April 2017 6.00pm PST, 26 April 2017 9.00am
   now listed on the 96Boards website and is available through global distribution
   channels."
 featured_on_home: true
+home_cat: boards
 layout: post
 link: https://www.linaro.org/news/linaro-announces-latest-96boards-product-aosp-development/
 slug: linaro-announces-latest-96boards-product-aosp-development

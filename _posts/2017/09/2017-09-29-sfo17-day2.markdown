@@ -9,6 +9,7 @@ wordpress_id: 12863
 categories:
 - blog
 featured_on_home: true
+home_cat: connect
 ---
 
 Linaro CEO George Grey, in looking forward to day two of Linaro Connect SFO17, said “Linaro Connect is once again the place to be if you are involved in open source on ARM - from IoT to Digital Home, automotive to networking, datacenter to HPC. End to end ARM device to cloud demos and the announcement of Open Source Foundries started the week, and we look forward to announcements from Socionext on ARM hardware, as well as a keynote on AI/machine learning and automotive focused sessions today.”

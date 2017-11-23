@@ -240,3 +240,76 @@ div#stacked-nav-bar {
         max-height: 100%;
     }
 }
+// Services Image
+.services-img img.img-responsive {
+    width: 100%;
+}
+//Developer Services Contact Form
+#developer-services-contact-form input.btn.btn-success {
+    background-color: #cc0033 ;
+    border: 0;
+}
+
+.developer-services-content-title > h1 {
+    font-size: 22px;
+}
+
+@media(max-width:767px){
+    #developer-services-main .row.developer-services-content-header-row {
+        height: auto;
+      }
+    #developer-services-main .developer-services-content-title {
+      padding: 0;
+    }
+    #developer-services-main .row.developer-services-content-row {
+        padding: 15px;
+    }
+    #developer-services-main .developer-services-snapshot-col>.row {
+       padding: 0;
+    }
+    #developer-services-main .row.find-out-more {
+        margin: 0px;
+    }
+    #developer-services-main span.developer-services-title {
+      width: 100%;
+    }
+
+    a.dev-services.btn.btn-primary.btn-contact-developer-services {
+      margin-right: auto;
+      display: block;
+      position: relative;
+      margin-top: 27px;
+      line-height: 16px;
+      height: 35px;
+      float: left !important;
+  }
+
+    img.img-responsive.main-logo-developer-services.center-block {
+        padding: 10px !important;
+        height: 170px;
+        width: auto;
+        margin-top: -20px;
+    }
+    span.developer-services-title{
+        font-size: 20px !important;
+        margin-top:0px !important;
+    }
+    .container.developer-services-header {
+        padding-top:0px;
+    }
+}
+
+.developer-services-image-caption {
+    position: relative;
+    color: white;
+    background: black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.developer-services-image-container {
+    margin-bottom: 20px;
+}
