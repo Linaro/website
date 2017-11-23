@@ -25,7 +25,7 @@ Mark your calendar for March 7-11, 2016, because it’s the official date of Lin
 
 {% include image.html name="Linaro-Connect-Logo_BKK16-Standard.png" alt="Linaro Connect Logo_BKK16 Standard" %}
 
-{% include image.html name="hotelbuidling1.jpg" alt="Hotel Building"%}
+{% include image.html name="hotelbuilding1.jpg" alt="Hotel Building"%}
 
 BKK16 will be held at the 5-star Centara Grand Hotel & Bangkok Convention Centre at CentralWorld. Situated in the very heart of Bangkok’s shopping and business district. The hotel has 55 floors and offers spectacular city views.  A complete lifestyles complex on the 26th floor includes the award-winning SPA Cenvaree along with a fitness centre, tennis courts and an outdoor pool with sundeck.
 
