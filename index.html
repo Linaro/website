@@ -296,27 +296,27 @@ css-include: main-home
         
         {% for post in posts %}
             <div class="col-xs-12 col-sm-4">
-                <div class="blogs_home_block_post  {{post.home_cat}}">
-                    <a href="{{post.url}}">
+                <a href="{{post.url}}">
+                    <div class="blogs_home_block_post  {{post.home_cat}}">
                         <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
-                    </a>
-                    
-                    <div class="blog-post-icon">
-                        {% if post.home_cat == "boards" %}
-                            <picture>
-                              <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
-                            </picture>
-                        {% elsif post.home_cat == "lite" %}
-                            <picture>
-                              <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive post_icon center-block"/>
-                            </picture>
-                        {% elsif post.home_cat == "connect"%}
-                            <picture>   
-                              <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'connect-icon.png' %}" class="lazyload img-responsive post_icon center-block"/>
-                            </picture>
-                        {% endif %}
-                    </div>
-                </div>
+                        
+                        <div class="blog-post-icon">
+                            {% if post.home_cat == "boards" %}
+                                <picture>
+                                  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
+                                </picture>
+                            {% elsif post.home_cat == "lite" %}
+                                <picture>
+                                  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive post_icon center-block"/>
+                                </picture>
+                            {% elsif post.home_cat == "connect"%}
+                                <picture>   
+                                  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'connect-icon.png' %}" class="lazyload img-responsive post_icon center-block"/>
+                                </picture>
+                            {% endif %}
+                        </div>
+                    </div>                
+                </a>
             </div>
         {% endfor %}
         

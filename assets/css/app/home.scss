@@ -14,15 +14,15 @@
 
 
 .blogs_home_block_post.connect {
-    border-bottom: 1px solid #97ce1e;
+    border-bottom: 2px solid #97ce1e;
 }
 
 .blogs_home_block_post.lite {
-    border-bottom: 1px solid #ea9538;
+    border-bottom: 2px solid #ea9538;
 }
 
 .blogs_home_block_post.boards {
-    border-bottom: 1px solid #999;
+    border-bottom: 2px solid #999;
 }
 
 .blogs_home_block_post.connect:hover {
@@ -221,24 +221,24 @@ div.home-page-slider-image > img.logo {
 
 // Home Page Blog Posts 
 h1.blogs_home_block_text {
-    font-style: italic;
-    font-size: 26px;
+    font-style: normal;
+    font-size: 20px;
 }
 h3.blogs_home_block_post_title {
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     color: #4d4d4d;
 }
 div.blogs_home_block_post {
-    border: 1px solid #eee;
+    border: 3px solid #eee;
     min-height: 200px;
     padding: 20px;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 20px;
-    position: relative;
-    
+    position: relative;    
 }
+
 .blog-post-icon > picture{
     position: absolute;
     bottom:10px;
@@ -285,14 +285,14 @@ div.blogs_home_block_post:nth-child(3) {
     margin-right:20px;
 }
 
-div.blogs_home_block_post:hover > a > h3.blogs_home_block_post_title  {
+div.blogs_home_block_post:hover > h3.blogs_home_block_post_title  {
     color: #fff;
 }
 
 h3.blogs_home_block_post_title {
     font-weight: normal;
-    font-style: italic;
     color: #000;
+    font-size: 20px;
 }
 
 // Home Carousel

@@ -2,7 +2,7 @@
 ---
 //Bootstrap Overrides
 @import "app/overrides";
-@import "app/custom";
+
 
 //Boostrap Includes
 @import 'bootstrap';
@@ -24,3 +24,4 @@
 // App Includes
 // Page specific styling
 @import "app/home";
+@import "app/custom";

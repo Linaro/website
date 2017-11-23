@@ -1,0 +1,37 @@
+div.previous_post{
+    display:none;
+}
+div.next_post{
+    display:none;
+}
+ 
+@media(min-width:992px){
+    
+    div.previous_post{
+        display:block;
+        width: 0; 
+        height: 0; 
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid transparent;
+        border-left: 60px solid #eee;
+    }
+    div.next_post{
+        display:block;
+        width: 0; 
+        height: 0; 
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid transparent;
+        border-right: 60px solid #eee;
+    }
+}
+
+a.previous_post_anchor {
+    position: fixed;
+    top: 50%;
+    right:0;
+}
+a.next_post_anchor {
+    position: fixed;
+    top: 50%;
+    left:0;
+}
