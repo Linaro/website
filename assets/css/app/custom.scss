@@ -126,109 +126,6 @@ nav.nav-dark {
     background: transparent;
 }
 
-//Home Groups Block
-div#blogs_home_block {
-    margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-span.sub-title {
-    display: block;
-    color: #fff;
-}
-span.main-title {
-    font-weight: bold;
-    font-size: 14px;
-    color: #fff;
-}
-
-.row.group_header {
-    background-color: #999;
-    height: auto;
-    padding: 15px;
-}
-
-
-.col-md-5ths.col-xs-12.group_block {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.col-xs-3.group_icon.center-block {
-    padding: 0;
-    padding-left: 10px;
-}
-
-.col-xs-3.group_icon.center-block > picture > img {
-    height: 55px;
-    margin-top: -5px;
-
-}
-
-
-.col-xs-12.group_content > p{
-    font-size: 12px;
-    padding-bottom:10px;
-    padding-top:10px;
-    color: #333;
-    margin-bottom: 0 !important;
-    height: 85px;
-}
-
-div#groups_home_block {
-    margin-bottom: 50px;
-}
-
-.row.group_header {
-    background-color: #0195ca;
-    padding: 0;
-    padding-top: 15px;
-    height: 80px;
-}
-
-.col-xs-12.group_content {
-    height: 100px;
-}
-
-
-.row.group_header.leg {
-    background-color: #0195ca;
-}
-.row.group_header.lng {
-    background-color: #00a456;
-}
-.row.group_header.lhg {
-    background-color: #00adea;
-}
-.row.group_header.lmg {
-    background-color: #907cb0;
-}
-.row.group_header.lite {
-    background-color: #ea9538;
-}
-
-.row.group_content.leg {
-    background-color: #e6f4f9;
-    border-bottom: 2px solid #0195ca;
-}
-.row.group_content.lng {
-    background-color: #e6f5ee;
-    border-bottom: 2px solid #00a456;
-}
-.row.group_content.lhg {
-    background-color: #e6f6fc;
-    border-bottom: 2px solid #00adea;
-}
-.row.group_content.lmg {
-    background-color: #f4f2f7;
-    border-bottom: 2px solid #907cb0;
-}
-.row.group_content.lite {
-    background-color: #fcf4eb;
-    border-bottom: 2px solid #ea9538;
-}
-
-
 
 a.btn.btn-linaro-home {
     border: 2px solid #fff;
@@ -1510,4 +1407,217 @@ a.btn-contact-developer-services:hover{
     display: table-cell;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 0px) {
+    #searchform > div > input.form-control{
+        width:100%;
+    }
+    #searchform{
+        margin-bottom: 20px;
+    }
+    #navbar-collapse {
+        padding-top:5px;
+    }
+    #navbar-buttons{
+        margin-top: -10px;
+    }
+    button.navbar-toggle {
+        margin-right: 10px;
+    }
+    #searchform button.btn.btn-default {
+        height: 45px;
+    }
+
+    .navbar-collapse form[role="search"]{
+        margin-bottom:10px;
+    }
+}
+
+.navbar-collapse {
+    position: relative;
+    padding-top: 30px;
+    max-height: 270px;
+}
+.navbar-collapse form[role="search"] {
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+}
+.navbar-collapse form[role="search"] button,
+.navbar-collapse form[role="search"] input {
+    padding: 8px 12px;
+    border-radius: 0px;
+    border-width: 0px;
+    color: $navbar-base-text-color;
+    border-color: rgb(231, 231, 231);
+    box-shadow: none;
+    outline: none;
+}
+ .navbar-collapse form[role="search"] button[type="reset"]:focus {outline:0;background-color: transparent}
+ .navbar-collapse form[role="search"] button[type="reset"]:active {outline:0;background-color: transparent}
+ .navbar-collapse form[role="search"] button[type="submit"]:focus {outline:0;background-color: transparent}
+ .navbar-collapse form[role="search"] button[type="submit"]:active {outline:0;background-color: transparent}
+ .navbar-collapse form[role="search"] button[type="submit"] {
+    background-color: transparent;
+}
+ .navbar-collapse form[role="search"] button[type="submit"]:hover {
+    display: table-cell;
+    color: $brand-primary;
+    transition: color .5s ease;
+   -moz-transition: color .5s ease;
+   -webkit-transition: color .5s ease;
+}
+ .navbar-collapse form[role="search"] input {
+    padding: 16px 12px;
+    font-size: 14pt;
+    font-style: normal;
+    color: $navbar-base-text-color;
+    box-shadow: none;
+    background-color: $navbar-inverse-bg;
+}
+
+@media (min-width: 1200px) {
+
+     .navbar-collapse {
+        padding-top: 0px;
+        padding-right: 38px;
+        margin-right: -40px !important;
+        margin-left: -15px !important;
+
+    }
+     ul.dropdown-menu {
+        margin-top: -1px !important;
+    }
+     .navbar-collapse form[role="search"] {
+        position: absolute;
+        min-width: 50px;
+        display: block;
+    }
+     .navbar-collapse form[role="search"] button {
+        margin-right: 0;
+        min-width: 90px;
+    }
+     .navbar-collapse form[role="search"] button[type="submit"]:hover {
+        color: $brand-primary;
+        transition: color .5s ease;
+       -moz-transition: color .5s ease;
+       -webkit-transition: color .5s ease;
+    }
+     .navbar-collapse form[role="search"] button,
+     .navbar-collapse form[role="search"] input {
+        height:51px;
+        padding: 15px 12px;
+    }
+     .navbar-collapse form[role="search"] input {
+        padding: 25px 12px;
+        font-size: 18pt;
+        opacity: 0;
+        display: none;
+    }
+     .navbar-collapse form[role="search"].active {
+        width: 100%;
+        transition: width 2s ease;
+       -moz-transition: width 2s ease;
+       -webkit-transition: width 2s ease;
+    }
+     .navbar-collapse form[role="search"].active button,
+     .navbar-collapse form[role="search"].active input {
+        display: table-cell;
+        opacity: 1;
+    }
+     .navbar-collapse form[role="search"].active input {
+        width: 650px;
+        height: 51px;
+        text-align: right;
+        transition: width 1s ease;
+        -moz-transition: width 1s ease;
+        -webkit-transition: width 1s ease;
+    }
+     .navbar-collapse form[role="search"].active button[type="submit"] {
+        background-color: transparent;
+    }
+     .navbar-collapse form[role="search"].active button[type="reset"] {
+        min-width: 40px;
+        background-color: $navbar-inverse-bg;
+        display: table-cell;
+    }
+     .navbar-collapse form[role="search"].active button[type="submit"]:hover {
+        display: table-cell;
+        color: $brand-primary;
+        transition: color .5s ease;
+       -moz-transition: color .5s ease;
+       -webkit-transition: color .5s ease;
+    }
+     .navbar-collapse form[role="search"].active button[type="reset"]:hover {
+        display: table-cell;
+        color: $brand-primary;
+        transition: color .5s ease;
+       -moz-transition: color .5s ease;
+       -webkit-transition: color .5s ease;
+    }
+     form#searchform {
+        width: auto;
+        margin-top: 13px;
+    }
+     nav form[role="search"] #searchform  input {
+        height:51px;
+        width: 600px;
+    }
+    #navbar-buttons {
+        margin-right: 40px;
+    }
+
+
+
+    #navbar-collapse {
+        width: 80%;
+        float: right;
+    }
+
 }
