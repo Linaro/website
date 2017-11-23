@@ -13,24 +13,15 @@ pagination:
         after: 4 
 css-include: main-blog
 ---
-{% for post in paginator.posts %}
+{% for author in paginator.posts %}
 <div class="row blog_post">
-    <div class="col-xs-4">
-        <a href="{{post.url}}">
-            <img class="img-responsive company-img lazyload"
-            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-src="{% asset_path '{{post.company_image}}' %}"
-             alt="{{post.title}}" />
+    <div class="col-xs-12 post_title no-padding">
+        <a href="{{author.url}}">
+            <h3 class="blog_title">{{ author.name}}</h3>
         </a>
-    </div>
-    <div class="col-xs-8 post_title no-padding">
-        <a href="{{post.url}}"><h3 class="blog_title">{{ post.title}}</h3></a>
-        <p class="post_excerpt">
-        {{ post.content | strip_html | truncatewords:30 }}
-        </p>
         <p>
-            <a href="{{post.url}}">
-                <button class="btn btn-linaro-home dark pull-right">View</button>
+            <a href="{{author.url}}">
+                <button class="btn btn-linaro-home dark pull-right">View Posts</button>
             </a>
         </p>
     </div>
