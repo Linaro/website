@@ -45,9 +45,6 @@
     color: white;
 }
 
-.blogs_home_block_post:hover > a {
-    color: white;
-}
 
 //Smallest mobile view
 @media(max-width:767px){
@@ -178,20 +175,29 @@ span.linaro-connect-slide-text {
 
 .row.group_content {
     opacity: 0;
+    position: absolute;
     top: -100px;
-    transition: all 500ms linear;
+    transition: all 100ms linear;
 }
 
 .row.group_header {
-    transition: opacity 500ms linear;
+    opacity: 1;
+    transition: opacity 100ms linear;
 }
-.row.group_header:hover {
-    opacity: .8;
+
+
+.col-md-5ths.col-xs-12.group_block {
+
+
+}
+
+.col-md-5ths.col-xs-12.group_block:hover  .row.group_header {
+    opacity: 0;
     cursor:pointer;
 }
-.row.group_header:hover + .row.group_content {
+.col-md-5ths.col-xs-12.group_block:hover  .row.group_content {
     opacity:1;
-    top: 0;
+    top: -10px ;
 }
 
 
@@ -275,14 +281,14 @@ div.blogs_home_block_post:nth-child(3) {
     margin-right:20px;
 }
 
-div.blogs_home_block_post > a:hover > h3.blogs_home_block_post_title  {
-    color: $brand-primary;
+div.blogs_home_block_post:hover > a > h3.blogs_home_block_post_title  {
+    color: #fff;
 }
 
 h3.blogs_home_block_post_title {
     font-weight: normal;
     font-style: italic;
-    color: #4d4d4d;
+    color: #000;
 }
 
 // Home Carousel
