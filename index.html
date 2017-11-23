@@ -55,7 +55,7 @@ css-include: main-home
                         </div>
                     </div>
                 </div>
-                <div class="home-page-slider-button text-center">
+                <div class="home-page-slider-button">
                     <a href="/services/" class="btn btn-linaro-home services">
                         Learn more
                     </a>
@@ -80,15 +80,12 @@ css-include: main-home
                             <span class="arm-hpc-japan-slide-line-3">12-13th DEC 2017 - AKIHABARA HALL, TOKYO </span>
                         </div>
                     </div>
-                    <div class="row slide-content-row">
-                        <div class="home-page-slider-button">
-                            <a href="/events/armhpcjapan2017/" class="btn btn-linaro-home">
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                
+                <div class="home-page-slider-button">
+                    <a href="/events/armhpcjapan2017/" class="btn btn-linaro-home">
+                        Learn more
+                    </a>
+                </div>
             </div>
             <div class="item home-page-slider-item" style="background: linear-gradient(
                          rgba(20,20,20, .5),
@@ -111,15 +108,12 @@ css-include: main-home
                             <span class="boards-slide-line-2">Latest Arm Technology</span>
                         </div>
                     </div>
-                    <div class="row slide-content-row">
-                        <div class="home-page-slider-button text-center">
-                            <a href="/initiatives/96boards/" class="btn btn-linaro-home 96boards">
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                
+                <div class="home-page-slider-button">
+                    <a href="/initiatives/96boards/" class="btn btn-linaro-home 96boards">
+                        Learn more
+                    </a>
+                </div>
             </div>
             <div class="item home-page-slider-item" style="background: linear-gradient(
                          rgba(20,20,20, .5),
@@ -143,15 +137,12 @@ css-include: main-home
                             </span>
                         </div>
                     </div>
-                    <div class="row slide-content-row">
-                        <div class="home-page-slider-button text-center">
-                            <a href="/initiatives/connect/" class="btn btn-linaro-home connect">
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                
+                <div class="home-page-slider-button">
+                    <a href="/initiatives/connect/" class="btn btn-linaro-home connect">
+                        Learn more
+                    </a>
+                </div>
             </div>
             
         </div>
@@ -284,11 +275,7 @@ css-include: main-home
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
+
     </div>
 </div>
 
@@ -299,11 +286,11 @@ css-include: main-home
             <h1 class="blogs_home_block_text"> Latest News & Blogs </h1>
         </div>
         
-        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3%}
+        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3 %}
         
         {% for post in posts %}
             <div class="col-xs-12 col-sm-4">
-                <div class="blogs_home_block_post">
+                <div class="blogs_home_block_post  {{post.home_cat}}">
                     <a href="{{post.url}}">
                         <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
                     </a>

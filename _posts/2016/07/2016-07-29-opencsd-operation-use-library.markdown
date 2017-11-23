@@ -52,8 +52,6 @@ A typical CoreSight system is shown in Figure 1.
 The components can be classified as follows:-
 
 
-
-
   1. **Trace sources:** These are the ETMs (or PTM) attached to the Cortex cores which trace the execution of the program running on that core, or software trace sources such as the STM, which can be directly written to by software running on a core to provide “printf” like messaging.
 
 
@@ -254,26 +252,16 @@ The decode tree provides a single input interface for the raw trace data (**_ITr
 The input interface defines a series of data path operations that are used to control the processing of the trace data on the configured decoder. The interface function on _**ITrcDataIn**_ is:-
 
 
-```
+```c
 ocsd_datapath_resp_t TraceDataIn( const ocsd_datapath_op_t op,
 
+    const ocsd_trc_index_t  index,
 
-_                                  const ocsd_trc_index_t  index,_
+    const uint32_t  dataBlockSize,
 
+    const uint8_t * pDataBlock,
 
-
-
-_                                  const uint32_t  dataBlockSize,_
-
-
-
-
-_                                  const uint8_t * pDataBlock,_
-
-
-
-
-_                                  uint32_t  *numBytesProcessed)_
+    uint32_t  *numBytesProcessed)
 
 ```
 
@@ -284,31 +272,18 @@ The index parameter defines the byte index within the captured trace data being 
 
 The equivalent C API function contains the same set of parameters, plus a decode tree handle:
 
-```
-_ocsd_datapath_resp_t ocsd_dt_process_data(const dcd_tree_handle_t handle,_
+```c
+ocsd_datapath_resp_t ocsd_dt_process_data(const dcd_tree_handle_t handle,
 
+    const ocsd_datapath_op_t op,
 
-_                                            const ocsd_datapath_op_t op,_
+    const ocsd_trc_index_t index,
 
+    const uint32_t dataBlockSize,
 
+    const uint8_t *pDataBlock,
 
-
-_                                            const ocsd_trc_index_t index,_
-
-
-
-
-_                                            const uint32_t dataBlockSize,_
-
-
-
-
-_                                            const uint8_t *pDataBlock,_
-
-
-
-
-_                                            uint32_t *numBytesProcessed)_
+    uint32_t *numBytesProcessed)
 ```
 
 The data path operations are shown in the table below:-
@@ -327,16 +302,12 @@ The operation parameter is propagated through to the packet decoder stage, but n
 The interface function on the generic packet output (_**ITrcGenElemIn**_)  interface is:-
 
 
-```
+```c
 ocsd_datapath_resp_t TraceElemIn(const ocsd_trc_index_t   index_sop,
 
+    const uint8_ttrc_chan_id,
 
-_                              const uint8_t           trc_chan_id,_
-
-
-
-
-_                                     const OcsdTraceElement & elem)_
+    const OcsdTraceElement & elem)
 ```
 
 The _index_sop_ parameter is the byte index within the captured trace buffer for the trace protocol packet that generated the output packet. As a single protocol packet can generate a number of output packets this may be the same for a number of packets.
@@ -391,24 +362,24 @@ The _–decode_ option forces a full decode, the –id option is a Trace ID filt
 This will produce an output file – defaulting to _trc_pkt_lister.ppl_, a small portion of the output is shown below, both the packet processor ETMv4 specific packets  (highlighted in blue), and the generic trace decoder output packets (highlight in red).
 
 
-```
+```c
 Idx:1643; ID:10; [0x00 0xf7 0x95 0xa2 0xa5 0xdb ]; I_NOT_SYNC : I Stream not synchronised
 Idx:1650; ID:10; [0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x80 ]; I_ASYNC : Alignment Synchronisation.
 Idx:1662; ID:10; [0x01 0x01 0x00 ]; I_TRACE_INFO : Trace Info.
 Idx:1666; ID:10; [0x9d 0x00 0x35 0x09 0x00 0xc0 0xff 0xff 0xff ]; I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000096A00;
 Idx:1675; ID:10; [0x04 ]; I_TRACE_ON : Trace On.
 Idx:1676; ID:10; [0x85 0x00 0x35 0x09 0x00 0xc0 0xff 0xff 0xff 0xf1 0x00 0x00 0x00 0x00 0x00 ]; I_ADDR_CTXT_L_64IS0 : Address & Context, Long, 64 bit, IS0.; Addr=0xFFFFFFC000096A00; Ctxt: AArch64,EL1, NS; CID=0x00000000; VMID=0x0000;
-Idx:1692; ID:10; [0xf7 ]; I_ATOM_F1 : Atom format 1.; E_
+Idx:1692; ID:10; [0xf7 ]; I_ATOM_F1 : Atom format 1.; E
 
-_Idx:1675; ID:10; OCSD_GEN_TRC_ELEM_TRACE_ON( [begin or filter])
-Idx:1676; ID:10; OCSD_GEN_TRC_ELEM_PE_CONTEXT((ISA=Unk) EL1N; 64-bit; VMID=0x0; CTXTID=0x0; )_
+Idx:1675; ID:10; OCSD_GEN_TRC_ELEM_TRACE_ON( [begin or filter])
+Idx:1676; ID:10; OCSD_GEN_TRC_ELEM_PE_CONTEXT((ISA=Unk) EL1N; 64-bit; VMID=0x0; CTXTID=0x0; )
 
-_Idx:1692; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000096a00:[0xffffffc000096a10] (ISA=A64) E ISB )_
+Idx:1692; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000096a00:[0xffffffc000096a10] (ISA=A64) E ISB )
 
-_Idx:1693; ID:10; [0x9d 0x30 0x25 0x59 0x00 0xc0 0xff 0xff 0xff ]; I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000594AC0;
-Idx:1703; ID:10; [0xf7 ]; I_ATOM_F1 : Atom format 1.; E_
+Idx:1693; ID:10; [0x9d 0x30 0x25 0x59 0x00 0xc0 0xff 0xff 0xff ]; I_ADDR_L_64IS0 : Address, Long, 64 bit, IS0.; Addr=0xFFFFFFC000594AC0;
+Idx:1703; ID:10; [0xf7 ]; I_ATOM_F1 : Atom format 1.; E
 
-_Idx:1703; ID:10; OCSD_GEN_TRC_ELEM_ADDR_NACC( 0xffffffc000594ac0 )
+Idx:1703; ID:10; OCSD_GEN_TRC_ELEM_ADDR_NACC( 0xffffffc000594ac0 )
 
 ```
 
@@ -418,7 +389,7 @@ The next packet (ATOM_F1) indicates a waypoint in the waypoint trace (_for infor
 
 This next output portion shows that a single byte packet can result in multiple generic output packets and many lines of instruction execution decoded:
 
-```
+```c
 Idx:1737; ID:10; [0xfd ]; I_ATOM_F3 : Atom format 3.; ENE
 
 Idx:1737; ID:10; OCSD_GEN_TRC_ELEM_INSTR_RANGE(exec range=0xffffffc000083280:[0xffffffc000083284] (ISA=A64) E BR  )

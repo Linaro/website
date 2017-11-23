@@ -30,6 +30,17 @@
     margin-top: -21px;
 }
 
+//ARM HPC
+.row.no-padding.arm-hpc-row {
+    background-color: #2b2130;
+}
+.row.no-padding.arm-hpc-row.top {
+    margin-bottom: 30px;
+}
+.row.no-padding.arm-hpc-row.bottom {
+    margin-top: 30px;
+}
+
 //Small Inline Blog Images
 img.small-inline {
     width: 100px !important;
@@ -217,41 +228,6 @@ div#groups_home_block {
     border-bottom: 2px solid #ea9538;
 }
 
-
-// Home Carousel
-.home-inline-carousel{
-    margin-top: 20px;
-}
-//Home Page
-#homepage-jumbotron {
-    padding: 60px;
-}
-#home-block-sliders {
-    margin-bottom: 60px;
-}
-
-#home-block-sliders > p.linaro-home-block-text > a {
-    color: #fff;
-    transition: all 500ms ease;
-}
-#home-block-sliders > p.linaro-home-block-text > a:hover {
-    color: $brand-primary;
-    text-decoration: none;
-}
-h5 > span.slider-sub-title {
-    font-size: 16px;
-    color: #fff;
-    font-weight: normal;
-}
-
-.linaro-sub-title{
-    color: #fff;
-    text-shadow: rgb(111, 111, 111) 1px 1px 7px;
-}
-.linaro-title{
-    text-shadow: rgb(111, 111, 111) 1px 1px 7px;
-    font-size: 70px;
-}
 
 
 a.btn.btn-linaro-home {
@@ -777,19 +753,6 @@ ul {
     padding-right: 30px;
 }
 
-// Services Image
-.services-img img.img-responsive {
-    width: 100%;
-}
-//Developer Services Contact Form
-#developer-services-contact-form input.btn.btn-success {
-    background-color: #cc0033 ;
-    border: 0;
-}
-
-.developer-services-content-title > h1 {
-    font-size: 22px;
-}
 
 
 span.linaro-green{
@@ -863,75 +826,6 @@ label.navbar-toggle.collapsed {
 #developer-services-content a.dev-services.btn.btn-primary.pull-right:hover {
     color: #fff;
     text-decoration: none;
-}
-ul#navbar-buttons > li {
-    padding-top: 15px;
-}
-a.navbar-brand {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    padding-top: 0 !important;
-}
-.dropdown-menu li:hover {
-    background-color: #eee;
-    transition: all 500ms ease;
-}
-.dropdown-menu li {
-    transition: all 500ms ease;
-}
-
-#navbar-buttons .dropdown-menu {
-    background-color: #fff;
-    border-top: 2px solid #a682b8;
-}
-
-@media (min-width: 1200px){
-    #brand-image {
-        height: 66px !important;
-    }
-}
-#brand-image {
-    height: 66px !important;
-}
-
-#navbar-buttons .dropdown-menu>li>a {
-    color: #444444;
-    letter-spacing: 0;
-    font-size:12px;
-    outline: 0;
-}
-ul#searchDropdown {
-    border-top: 1px solid #ccc !important;
-}
-#navbar-buttons .dropdown-menu>li>a:hover {
-    color: $brand-primary;
-    letter-spacing: 0;
-    font-size:12px;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: #444444;
-    font-size: 12px;
-    font-weight: bold;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-}
-.navbar-inverse #navbar-buttons >li>a {
-    color: #444444;
-}
-.navbar-inverse #navbar-buttons>li>a:hover{
-    color: $brand-primary;
-}
-i.glyphicon.glyphicon-search {
-    font-size: 16px;
-}
-
-@media (min-width: 1200px) {
-    .navbar-right .dropdown-menu {
-        right: auto;
-        left: 0;
-    }
 }
 
 .carousel-inner > .item > div.slider-img {
@@ -1343,64 +1237,9 @@ a.btn.linaro-download-button {
 div.dark {
     background: #696969;
 }
-.developer-services-image-caption {
-    position: relative;
-    color: white;
-    background: black;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 26px;
-    font-weight: bold;
-}
-.developer-services-image-container {
-    margin-bottom: 20px;
-}
+
 //Smallest mobile view
 @media(max-width:767px){
-    #developer-services-main .row.developer-services-content-header-row {
-        height: auto;
-      }
-    #developer-services-main .developer-services-content-title {
-      padding: 0;
-    }
-    #developer-services-main .row.developer-services-content-row {
-        padding: 15px;
-    }
-    #developer-services-main .developer-services-snapshot-col>.row {
-       padding: 0;
-    }
-    #developer-services-main .row.find-out-more {
-        margin: 0px;
-    }
-    #developer-services-main span.developer-services-title {
-      width: 100%;
-    }
-
-    a.dev-services.btn.btn-primary.btn-contact-developer-services {
-      margin-right: auto;
-      display: block;
-      position: relative;
-      margin-top: 27px;
-      line-height: 16px;
-      height: 35px;
-      float: left !important;
-  }
-
-    img.img-responsive.main-logo-developer-services.center-block {
-        padding: 10px !important;
-        height: 170px;
-        width: auto;
-        margin-top: -20px;
-    }
-    span.developer-services-title{
-        font-size: 20px !important;
-        margin-top:0px !important;
-    }
-    .container.developer-services-header {
-        padding-top:0px;
-    }
 
     img.img-responsive.right-aligned-image.lazyloaded {
         float: none;

@@ -8,6 +8,7 @@ description: "Linaro Ltd, the open source
   today announced that Xilinx has joined the Linaro IoT and Embedded (LITE) Segment
   Group."
 featured_on_home: true
+home_cat: lite
 layout: post
 link: https://www.linaro.org/news/xilinx-joins-linaro-iot-embedded-group/
 slug: xilinx-joins-linaro-iot-embedded-group
