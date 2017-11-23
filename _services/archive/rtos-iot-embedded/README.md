@@ -15,7 +15,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/rtos-iot-embedded/iot-security/">
+                        <a href="/archive/services/rtos-iot-embedded/iot-security/">
                             <h3>IoT Security</h3>
                         </a>
                     </div>
@@ -23,7 +23,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
                 <div class="back">
                     <div class="back-content">
                         <h3>IoT Security</h3>
-                        <a class="btn btn-primary" href="/services/rtos-iot-embedded/iot-security/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/rtos-iot-embedded/iot-security/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/rtos-iot-embedded/mbed/">
+                        <a href="/archive/services/rtos-iot-embedded/mbed/">
                             <h3>mbed</h3>
                         </a>
                     </div>
@@ -45,7 +45,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
                         <p>
                             
                         </p>
-                        <a class="btn btn-primary" href="/services/rtos-iot-embedded/mbed/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/rtos-iot-embedded/mbed/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
                         <p>
                             Linaro Developer Services works on, and supports, OpenEmbedded layers (modular collections of packages that combine to provide a fully customized embedded Linux OS).
                         </p>
-                        <a class="btn btn-primary" href="/services/rtos-iot-embedded/open-embedded-yocto/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/rtos-iot-embedded/open-embedded-yocto/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ We have worked in Zephyr and mbed to support tiny IoT devices that can only run 
                         <p>
                             Linaro is a platinum member of the Zephyr Project. Linaro Developer Services provides clients with Zephyr porting and hardware enablement services.
                         </p>
-                        <a class="btn btn-primary" href="/services/rtos-iot-embedded/zephyr/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/rtos-iot-embedded/zephyr/">Learn More</a>
                     </div>
                 </div>
             </div>

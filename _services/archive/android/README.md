@@ -12,7 +12,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/aosp-enablement/">
+                        <a href="/archive/services/android/aosp-enablement/">
                             <h3>AOSP Enablement</h3>
                         </a>
                     </div>
@@ -22,7 +22,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
                         <h3>AOSP Enablement</h3>
                         <p>
                         </p>
-                        <a class="btn btn-primary" href="/services/android/aosp-enablement/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/aosp-enablement/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/bootloaders/">
+                        <a href="/archive/services/android/bootloaders/">
                             <h3>Bootloaders</h3>
                         </a>
                     </div>
@@ -45,7 +45,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
                             Linaro Developer Services has extensive experience developing
                             and maintaining bootloaders for a variety of boards that boot embedded Linux or AOSP.
                         </p>
-                        <a class="btn btn-primary" href="/services/android/bootloaders/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/bootloaders/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/fastboot/">
+                        <a href="/archive/services/android/fastboot/">
                             <h3>Fastboot</h3>
                         </a>
                     </div>
@@ -67,7 +67,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
                         <p>
                             Linaro Developer Services has provided several of its clients with upstreamed ports of the Unified Extensible Firmware Interface (UEFI).
                         </p>
-                        <a class="btn btn-primary" href="/services/android/fastboot/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/fastboot/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/linux-kernel/">
+                        <a href="/archive/services/android/linux-kernel/">
                             <h3>Linux Kernel</h3>
                         </a>
                     </div>
@@ -89,7 +89,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
                         <p>
                             Linaro is consistently listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
                         </p>
-                        <a class="btn btn-primary" href="/services/android/linux-kernel/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/linux-kernel/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
             <div class="flipper">
                 <div class="front">
                     <div class="front-content">
-                        <a href="/services/android/optimization-services/">
+                        <a href="/archive/services/android/optimization-services/">
                             <h3>Optimization Services</h3>
                         </a>
                     </div>
@@ -112,7 +112,7 @@ Linaro Developer Services develops, ports and maintains Android on a variety of 
                             Linaro Developer Services has extensive experience in helping clients 
                             improve their existing tools and infrastructure through optimization and automation.
                         </p>
-                        <a class="btn btn-primary" href="/services/android/optimization-services/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/android/optimization-services/">Learn More</a>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@ Linaro Developer Services specialises in high level design of complex subsystems
                         <p>
                             Development Tools are key in getting the most performance and utility out of the underlying hardware. Linaro Developer Services has the experts to make that happen.
                         </p>
-                        <a class="btn btn-primary" href="/services/servers-gateways-development-boards/development-tools/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/servers-gateways-development-boards/development-tools/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ Linaro Developer Services specialises in high level design of complex subsystems
                         <p>
                             Linaro Developer Services provides the ARM ecosystem with extensive board enablement services.
                         </p>
-                        <a class="btn btn-primary" href="/services/servers-gateways-development-boards/hardware-enablement/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/servers-gateways-development-boards/hardware-enablement/">Learn More</a>
                     </div>
                 </div>
             </div>

@@ -34,7 +34,7 @@ All of the projects Linaro Developer Services takes on will involve verification
                         <p>
                             Linaro Developer Services provides 96Boards designers and manufacturing partners with expert advice and services to allow your board to meet the 96Boards compliance requirements.
                         </p>
-                        <a class="btn btn-primary" href="/services/verification-testing-ci/96boards-compliance/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/verification-testing-ci/96boards-compliance/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ All of the projects Linaro Developer Services takes on will involve verification
                         <p>
                             Android CTS runs on a desktop machine and executes test cases directly on attached devices or an emulator.
                         </p>
-                        <a class="btn btn-primary" href="/services/verification-testing-ci/android-cts-testing/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/verification-testing-ci/android-cts-testing/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ All of the projects Linaro Developer Services takes on will involve verification
                         <p>
                             Linaro has a team dedicated to Build Automation and CI.
                         </p>
-                        <a class="btn btn-primary" href="/services/verification-testing-ci/build-automation-continuous-integration/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/verification-testing-ci/build-automation-continuous-integration/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ All of the projects Linaro Developer Services takes on will involve verification
                         <p>
                             Linaro has developed an automated testing system called LAVA (Linaro Automated Validation Architecture) which delivers device automation and result collection.
                         </p>
-                        <a class="btn btn-primary" href="/services/verification-testing-ci/lava-integration/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/verification-testing-ci/lava-integration/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@ All of the projects Linaro Developer Services takes on will involve verification
                         <p>
                             Linaro Developer Services provides services to design and develop tests to use during product development.
                         </p>
-                        <a class="btn btn-primary" href="/services/verification-testing-ci/test-design-development/">Learn More</a>
+                        <a class="btn btn-primary" href="/archive/services/verification-testing-ci/test-design-development/">Learn More</a>
                     </div>
                 </div>
             </div>
