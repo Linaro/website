@@ -97,158 +97,99 @@ _This is an example of a PM domain topology of a SoC._
 To describe the topology from the picture above in DT, this is typically what needs to be encoded in the DTS.
 
 
+```c
 
-_pm_domain: power-controller@12340000 {_
+pm_domain: power-controller@12340000 {
 
+    compatible = "foo,power-controller";
 
-_compatible = "foo,power-controller";_
+    reg = <0x12340000 0x1000>;
 
+    #power-domain-cells = <1>;
 
 
+};
 
-_reg = <0x12340000 0x1000>;_
+pm_subdomain: power-controller@12341000 {
 
+    compatible = "foo,power-controller";
 
+    reg = <0x12341000 0x1000>;
 
+    power-domains = <&pm_domain 0>;
 
-_#power-domain-cells = <1>;_
+    #power-domain-cells = <1>;
 
 
-_};_
+};
 
-_pm_subdomain: power-controller@12341000 {_
+dev0@12350000 {
 
+    compatible = "foo,i-leak-current";
 
-_compatible = "foo,power-controller";_
+    reg = <0x12350000 0x1000>;
 
+    power-domains = <&pm_domain 0>;
 
 
+};
 
-_reg = <0x12341000 0x1000>;_
+dev1@12351000 {
 
+    compatible = "foo,i-leak-current";
 
+    reg = <0x12351000 0x1000>;
 
+    power-domains = <&pm_domain 0>;
 
-_power-domains = <&pm_domain 0>;_
 
+};
 
+dev2@12356000 {
 
+    compatible = "bar,i-leak-current";
 
-_#power-domain-cells = <1>;_
+    reg = <0x12356000 0x1000>;
 
+    power-domains = <&pm_subdomain 0>;
 
-_};_
 
-_dev0@12350000 {_
+};
 
+dev3@12356100 {
 
-_compatible = "foo,i-leak-current";_
+    compatible = "bar,i-leak-current";
 
+    reg = <0x12356100 0x1000>;
 
+    power-domains = <&pm_subdomain 0>;
 
 
-_reg = <0x12350000 0x1000>;_
+};
 
+dev4@12356200 {
 
+    compatible = "bar,i-leak-current";
 
+    reg = <0x12356200 0x1000>;
 
-_power-domains = <&pm_domain 0>;_
+    power-domains = <&pm_subdomain 0>;
 
 
-_};_
+};
 
-_dev1@12351000 {_
+dev5@12356300 {
 
+    compatible = "bar,i-leak-current";
 
-_compatible = "foo,i-leak-current";_
+    reg = <0x12356300 0x1000>;
 
+    power-domains = <&pm_subdomain 0>;
 
+};
+```
 
-
-_reg = <0x12351000 0x1000>;_
-
-
-
-
-_power-domains = <&pm_domain 0>;_
-
-
-_};_
-
-_dev2@12356000 {_
-
-
-_compatible = "bar,i-leak-current";_
-
-
-
-
-_reg = <0x12356000 0x1000>;_
-
-
-
-
-_power-domains = <&pm_subdomain 0>;_
-
-
-_};_
-
-_dev3@12356100 {_
-
-
-_compatible = "bar,i-leak-current";_
-
-
-
-
-_reg = <0x12356100 0x1000>;_
-
-
-
-
-_power-domains = <&pm_subdomain 0>;_
-
-
-_};_
-
-_dev4@12356200 {_
-
-
-_compatible = "bar,i-leak-current";_
-
-
-
-
-_reg = <0x12356200 0x1000>;_
-
-
-
-
-_power-domains = <&pm_subdomain 0>;_
-
-
-_};_
-
-_dev5@12356300 {_
-
-
-_compatible = "bar,i-leak-current";_
-
-
-
-
-_reg = <0x12356300 0x1000>;_
-
-
-
-
-_power-domains = <&pm_subdomain 0>;_
-
-
-_};_
-
-
-_Did you know this about genpd?_
+**Did you know this about genpd?**
 
 _The genpd has been around in the Linux kernel for quite a while, as it was introduced in version 3.1. From version 3.18, Linaro actively started contributing to an evolution of its code and now the community is steadily growing as can be seen in the below picture._
 
