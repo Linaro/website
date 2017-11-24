@@ -38,4 +38,4 @@ function getAllUrlParams(url) {
 var searchQuery = getAllUrlParams().q;
 
 
-$('#searchIframe').attr('src', "https://www.linaro.org/?s=" + searchQuery);
+$('#searchIframe').attr('src', "https://search.linaro.org/search/?fields.label=Linaro&q=" + searchQuery);

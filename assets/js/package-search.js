@@ -6,4 +6,4 @@
 //= require app/main
 //= require app/search-page
 //= require app/tables
-//= require vendor/mc-validate
+
