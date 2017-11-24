@@ -2,6 +2,7 @@
 title: Arm HPC Japan 2017
 layout: event
 permalink: /events/armhpcjapan2017/
+css-include: main-arm-hpc
 ---
 
 <div class="row no-padding arm-hpc-row top">

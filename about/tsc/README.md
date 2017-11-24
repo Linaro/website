@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /about/tsc/
 js-package: extended
-css-include: main-lightbox
+css-include: main-about
 ---
 
 **The Technical Steering Committee (TSC) is the primary decision-making forum for Linaro development projects. Its purpose is to:**

@@ -3,6 +3,7 @@ title: Work
 layout: default-no-sub-nav
 permalink: /work/
 js-package: extended
+css-include: main-work
 ---
 The direction of Linaro is determined by its [board of directors](/organization/board/ "Linaro board of directors"), formed from representatives of member companies and the CEO of Linaro. Execution of long-term objectives and delivery of nearer term development roadmaps is assigned to the [Linaro executive management team](/organization/executive/ "Linaro management team"), [Technical Steering Committee (TSC)](/organization/tsc/) and segment group steering committees. The TSC includes senior engineers from each of the Linaro member companies, a representative from each segment engineering group, plus Linaro’s CTO and VP of engineering. Under the management team and steering committees, Linaro’s engineering team is split into [Core Engineering](/core/), [Professional Services](/professional-services/) and [Segment Groups](/groups/).
 

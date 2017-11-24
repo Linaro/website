@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /about/landing/
 js-package: extended
-css-include: main-lightbox
+css-include: main-about
 ---
 ## What is a Landing Team?
 
