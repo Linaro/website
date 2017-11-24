@@ -3,6 +3,9 @@
     vertical-align: middle;
     display: table-cell;
 }
+#developer-services-content ul {
+    font-size: 16px !important;
+}
 
 img.developer-services-icon{
     width: 70px;
@@ -23,8 +26,7 @@ span.developer-services-title{
     text-align: center;
     font-size: 30px;
     color: #fff;
-    width: 80%;
-    margin-left: auto;
+    width: 80%;margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     display: block;
@@ -312,4 +314,216 @@ div#stacked-nav-bar {
 }
 .developer-services-image-container {
     margin-bottom: 20px;
+}
+
+#developer-services-content h1, #developer-services-content h2, #developer-services-content h3, #developer-services-content h4, #developer-services-content h5{
+    color: #1f1f1f;
+}
+
+#developer-services-content{
+    background-color:#fff;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#developer-services-navigation button.navbar-toggle {
+    margin-top: 6px;
+}
+
+#developer-services-navigation .navbar-header {
+    padding-left: 15px;
+    padding-top: 14px;
+}
+#developer-services-content a.dev-services.btn.btn-primary.pull-right {
+    color: #fff;
+}
+#developer-services-content a.dev-services.btn.btn-primary.pull-right:hover {
+    color: #fff;
+    text-decoration: none;
+}
+@media(max-width:991px){
+
+    .row.developer-services-contact-row {
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+
+    a.btn-contact-developer-services {
+        margin-top: 10px;
+    }
+    .row.developer-services-contact-row {
+        padding: 5px;
+    }
+    a.btn-contact-developer-services {
+        top: -11px;
+        border-top-right-radius: 0px;
+    }
+    .developer-services-content-title>h1 {
+        font-size: 18px;
+    }
+    .find-out-more-text {
+        font-size: 12px;
+    }
+
+    a.dev-services.btn.btn-primary.btn-find-out-more-contact-btn.pull-right {
+        width: 100%;
+    }
+    .col-xs-12.col-sm-9.find-out-more-text {
+        border-right: 1px solid #eee;
+    }
+    .arrow-right-contact-button {
+        display: none;
+    }
+    .col-xs-12.col-sm-3.find-out-more-contact-btn {
+        padding: 0;
+        margin-top: 8px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  a.dev-services.btn.btn-primary.btn-find-out-more-contact-btn.pull-right {
+      margin-top: -8px;
+  }
+}
+
+.services-home-content {
+    padding-top: 22px;
+}
+#developer-services-content li.active.side-nav-button a{
+    background-color: #fff;
+    color: #cc0033;
+}
+
+#developer-services-content li.side-nav-button a{
+    color: #000;
+    clear:both;
+    padding: 0;
+}
+#developer-services-content li.side-nav-button{
+    width: 100%;
+    margin: 0;
+}
+
+.developer-services-content-title {
+    padding: 20px;
+}
+.row.developer-services-content-header-row {
+    height: 95px;
+    border-bottom: 1px solid #eee;
+    padding-left: 0;
+  }
+
+  .developer-services-snapshot-col strong {
+      font-size: 14px;
+  }
+  .developer-services-snapshot-col > .row > h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #cc0133 !important;
+  }
+  .find-out-more-text {
+    border-left: 10px solid #eee;
+    line-height: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: #212121;
+}
+.row.find-out-more {
+    height: 60px;
+    border-top: 1px solid #eee;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    margin: 2px;
+}
+.arrow-right {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #eee;
+}
+.arrow-right-contact-button {
+    width: 0;
+    display: inline-block;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: relative;
+    left: -15px;
+    top: 4px;
+}
+
+a.btn.btn-primary.btn-find-out-more-contact-btn {
+    border-radius: 0px;
+    border: 0;
+    background-color: #cc0133;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    height: 60px;
+    transition: all .4s ease;
+}
+a.btn.btn-primary.btn-find-out-more-contact-btn:hover {
+    background-color: #ab022c;
+    transition: all .4s ease;
+}
+.col-xs-12.col-sm-3.find-out-more-contact-btn {
+    padding: 0;
+}
+
+.find-out-more-contact-btn {
+  top: -1px;
+  padding-right: 0px;
+}
+
+.developer-services-snapshot-col > .row > p {
+    font-size: 15px !important;
+    text-align: left !important;
+}
+.developer-services-snapshot-col > .row {
+    padding: 0px;
+}
+
+a.btn-contact-developer-services {
+    background-color: #cc0033;
+    border: 0;
+    color: #fff;
+    top: 0;
+    height: 95px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-right: 0;
+    width: 200px;
+    right: -1px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    transition: all 500ms ease;
+}
+a.btn-contact-developer-services:hover{
+    background-color: #ab022c;
+    color: #fff;
+    transition: all 500ms ease;
+}
+.services-img-text {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
