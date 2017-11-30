@@ -5,6 +5,7 @@ permalink: /linarolife/
 image:
     path: /assets/images/content/linarolife.jpg
     name: linarolife.jpg
+css-include: main-life
 ---
 <div class="row" class="linaro-life" style="height: 1000px; background-color: white;">
         <div class="cover-image" style="background: linear-gradient(

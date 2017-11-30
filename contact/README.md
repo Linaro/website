@@ -16,22 +16,21 @@ Harston <br>
 Cambridge <br>
 CB22 7GG <br>
 </address>
+
 <hr>
 
 <div class="col-xs-6 text-center" markdown="1">
 [Linaro IRC](/contact/irc/)
 </div>
 
-<hr>
-
 <div class="col-xs-6 text-center" markdown="1">
 [Linaro Mailing List](/contact/mailing-list/)
 </div>
 
-<hr>
+
 
 <ul class="list-unstyled">
-
+<hr>
 <li markdown="1">
 For technical questions, please visit [Linaro Support](https://linaro.zendesk.com/) to post your question there and receive answers from our community of experts.
 </li><hr>

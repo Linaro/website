@@ -8,26 +8,21 @@
 .owl-dots {
     margin-bottom: 0;
 }
+.row.group_content {
+    height: 100px;
+}
+
 
 .blogs_home_block_post.connect {
-    border-bottom: 1px solid #97ce1e;
-    border-left: 1px solid #97ce1e;
-    border-right: 1px solid #97ce1e;
-    border-top: 1px solid #97ce1e;
+    border-bottom: 2px solid #97ce1e;
 }
 
 .blogs_home_block_post.lite {
-    border-bottom: 1px solid #ea9538;
-    border-left: 1px solid #ea9538;
-    border-right: 1px solid #ea9538;
-    border-top: 1px solid #ea9538;
+    border-bottom: 2px solid #ea9538;
 }
 
 .blogs_home_block_post.boards {
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
+    border-bottom: 2px solid #999;
 }
 
 .blogs_home_block_post.connect:hover {
@@ -44,7 +39,17 @@
     background-color: #000;
     color: white;
 }
-
+//SM
+@media(min-width:992px){
+    .col-md-5ths.col-xs-12.group_block:hover  .row.group_header {
+        opacity: 0;
+        cursor:pointer;
+    }
+    .col-md-5ths.col-xs-12.group_block:hover  .row.group_content {
+        opacity:1;
+        transform: scaleY(1);
+    }
+}
 
 //Smallest mobile view
 @media(max-width:767px){
@@ -100,10 +105,10 @@
 // Developer Sertvices
 span.developer-services-line-1 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 span.developer-services-line-2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 // Developer Sertvices
@@ -119,6 +124,11 @@ span.boards-slide-line-2 {
 
 
 // Arm HPC
+
+.home-page-slider-text.hpc {
+    margin-top: 40px;
+}
+
 span.arm-hpc-japan-slide-line-1 {
     font-size: 24px;
     font-weight: bold;
@@ -169,35 +179,22 @@ div.row.slide-content-row{
 }
 
 span.linaro-connect-slide-text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .row.group_content {
-    opacity: 0;
+    transform: scaleY(0.1);
     position: absolute;
-    top: -100px;
-    transition: all 100ms linear;
+    opacity: 0;
+    width: 100%;
+    top: -10px;
+    transition: all 250ms linear;
 }
 
 .row.group_header {
     opacity: 1;
-    transition: opacity 100ms linear;
-}
-
-
-.col-md-5ths.col-xs-12.group_block {
-
-
-}
-
-.col-md-5ths.col-xs-12.group_block:hover  .row.group_header {
-    opacity: 0;
-    cursor:pointer;
-}
-.col-md-5ths.col-xs-12.group_block:hover  .row.group_content {
-    opacity:1;
-    top: -10px ;
+    transition: opacity 250ms linear;
 }
 
 
@@ -206,7 +203,7 @@ span.linaro-connect-slide-text {
     position: absolute;
     top: 0;
     z-index: 10000000;
-    margin-top:20px;
+    margin-top:10px;
 }
 
 div.home-page-slider-image > img.logo {
@@ -214,6 +211,7 @@ div.home-page-slider-image > img.logo {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .home-page-slider-text {
@@ -223,27 +221,33 @@ div.home-page-slider-image > img.logo {
 
 // Home Page Blog Posts 
 h1.blogs_home_block_text {
-    font-style: italic;
-    font-size: 26px;
+    font-style: normal;
+    font-size: 20px;
 }
 h3.blogs_home_block_post_title {
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     color: #4d4d4d;
-    
-    transition: all 1s ease;
 }
 div.blogs_home_block_post {
-    border: 1px solid #eee;
+    border: 3px solid #eee;
     min-height: 200px;
     padding: 20px;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 20px;
-    position: relative;
-    
-    transition: all 200ms ease;
+    position: relative;    
 }
+
+.blog-post-icon > picture{
+    position: absolute;
+    bottom:10px;
+    right:5px;
+    height:auto;
+    width:32px;
+    z-index:1;
+}
+
 div.blogs_home_block_post::after {
     content: '';
     position: absolute;
@@ -281,14 +285,14 @@ div.blogs_home_block_post:nth-child(3) {
     margin-right:20px;
 }
 
-div.blogs_home_block_post:hover > a > h3.blogs_home_block_post_title  {
+div.blogs_home_block_post:hover > h3.blogs_home_block_post_title  {
     color: #fff;
 }
 
 h3.blogs_home_block_post_title {
     font-weight: normal;
-    font-style: italic;
     color: #000;
+    font-size: 20px;
 }
 
 // Home Carousel
@@ -324,4 +328,106 @@ h5 > span.slider-sub-title {
 .linaro-title{
     text-shadow: rgb(111, 111, 111) 1px 1px 7px;
     font-size: 70px;
+}
+
+//Home Groups Block
+div#blogs_home_block {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+span.sub-title {
+    display: block;
+    color: #fff;
+}
+span.main-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+.row.group_header {
+    background-color: #999;
+    height: auto;
+    padding: 15px;
+}
+
+
+.col-md-5ths.col-xs-12.group_block {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-xs-3.group_icon.center-block {
+    padding: 0;
+    padding-left: 10px;
+}
+
+.col-xs-3.group_icon.center-block > picture > img {
+    height: 55px;
+    margin-top: -5px;
+
+}
+
+
+.col-xs-12.group_content > p{
+    font-size: 12px;
+    padding-bottom:10px;
+    padding-top:10px;
+    color: #333;
+    margin-bottom: 0 !important;
+    height: 85px;
+}
+
+div#groups_home_block {
+    margin-bottom: 50px;
+}
+
+.row.group_header {
+    background-color: #0195ca;
+    padding: 0;
+    padding-top: 15px;
+    height: 80px;
+}
+
+.row.group_header.leg {
+    background-color: #0195ca;
+}
+.row.group_header.lng {
+    background-color: #00a456;
+}
+.row.group_header.lhg {
+    background-color: #00adea;
+}
+.row.group_header.lmg {
+    background-color: #907cb0;
+}
+.row.group_header.lite {
+    background-color: #ea9538;
+}
+
+.row.group_content.leg {
+    background-color: #e6f4f9;
+    border-bottom: 2px solid #0195ca;
+    border-top: 2px solid #0195ca;
+}
+.row.group_content.lng {
+    background-color: #e6f5ee;
+    border-bottom: 2px solid #00a456;
+    border-top: 2px solid #00a456;
+}
+.row.group_content.lhg {
+    background-color: #e6f6fc;
+    border-bottom: 2px solid #00adea;
+    border-top: 2px solid #00adea;
+}
+.row.group_content.lmg {
+    background-color: #f4f2f7;
+    border-bottom: 2px solid #907cb0;
+    border-top: 2px solid #907cb0;
+}
+.row.group_content.lite {
+    background-color: #fcf4eb;
+    border-bottom: 2px solid #ea9538;
+    border-top: 2px solid #ea9538;
 }

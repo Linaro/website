@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /about/board/
 js-package: extended
-css-include: main-lightbox
+css-include: main-about
 ---
 The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry positioning, key partnerships, membership, and funding.
 
