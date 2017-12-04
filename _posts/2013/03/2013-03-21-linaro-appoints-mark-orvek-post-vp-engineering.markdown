@@ -13,7 +13,9 @@ wordpress_id: 4423
 
 CAMBRIDGE, UK - 21 MAR 2013
 
-Linaro, the not-for-profit engineering organization developing open source software for the ARM architecture, today announced the appointment of Mark Orvek as VP of Engineering. ![Mark Orvek - VP of Engineering at Linaro](http://www.linaro.org/assets/common/w128/thumb_Mark_Orvek_High_Res_128x85.jpg)
+Linaro, the not-for-profit engineering organization developing open source software for the ARM architecture, today announced the appointment of Mark Orvek as VP of Engineering. 
+
+{% include image.html class="medium-inline right" name="mark-orvek.png" alt="Mark Orvek - VP of Engineering at Linaro" %}
 
 The announcement was made during the opening keynote at Linaro Connect Asia 2013 in Hong Kong by George Grey, Linaro CEO. He said ""We are very pleased to appoint Mark to the Vice President of  Engineering role. With his extensive previous work in open source software at MontaVista, he brings a strong industry background and experience in high quality software delivery to the Linaro team."
 
@@ -23,8 +25,7 @@ The Vice President of Engineering is responsible for leading the Linaro engineer
 
 Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers.  Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.
 
-[Hi-res images of Mark are available here.](http://www.linaro.org/assets/gallery/Mark_Orvek_High_Res.jpg)
-
+[Hi-res images of Mark are available here.]({% asset_path 'Mark_Orvek_High_Res.jpg' %})
 
 
 **About Linaro**

@@ -21,7 +21,7 @@ title: Wednesday at LCA14
 wordpress_id: 3505
 ---
 
-Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for ARM64”.   This got the day off with a good overview of enterprise workloads on Linux on ARM64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”.
+Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for ARM64”.  This got the day off with a good overview of enterprise workloads on Linux on ARM64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”.
 
 Keynotes:
 <table cellpadding="0" width="774" cellspacing="0" border="1" class="table responsive-table" >
@@ -71,7 +71,7 @@ Wednesday was another full day filled with sessions from the working groups, eng
 <tr >
 
 <td colspan="4" width="874" valign="top" markdown="1">
-Wednesday  March 5, 2014
+Wednesday March 5, 2014
 </td>
 </tr>
 <tr >
@@ -260,8 +260,10 @@ Linaro’s “Bond Themed” gala was a great night of team building and network
 
 Below are some scenes from the this week's evening social activities:
 
- [![12941187924_7dc616613c](/assets/blog/12941187924_7dc616613c.jpg)](/assets/blog/12941187924_7dc616613c.jpg)       [![12941194354_bc7157b93d](/assets/blog/12941194354_bc7157b93d.jpg)](/assets/blog/12941194354_bc7157b93d.jpg)
+{% include image.html name="12941187924_7dc616613c.jpg" alt="12941187924_7dc616613c" %}
+{% include image.html name="12941194354_bc7157b93d.jpg" alt="12941194354_bc7157b93d" %}
 
-[![12940899483_8f0455ebfb](/assets/blog/12940899483_8f0455ebfb.jpg)](/assets/blog/12940899483_8f0455ebfb.jpg)        [![12940769495_fdacae9f40](/assets/blog/12940769495_fdacae9f40.jpg)](/assets/blog/12940769495_fdacae9f40.jpg)
+{% include image.html name="12940899483_8f0455ebfb.jpg" alt="12940899483_8f0455ebfb" %}
+{% include image.html name="12940769495_fdacae9f40.jpg" alt="12940769495_fdacae9f40" %}
 
-As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.
+As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts) or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts. There will be links to the live stream in each session descriptions. [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.

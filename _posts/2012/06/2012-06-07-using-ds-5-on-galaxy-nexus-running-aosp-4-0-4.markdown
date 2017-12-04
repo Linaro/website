@@ -50,7 +50,7 @@ If everything seems to be stable then flash the boot image:
 
 Here is a video on how to setup and use DS-5 Streamline for app developers:
 
-{% include media.html media_url="http://www.youtube.com/watch?v=LgRHpRI6C_4" %}
+{% include media.html media_url="http://www.youtube.com/embed/LgRHpRI6C_4" %}
 
 One can connect to device by typing the IP address of  the phone in streamline configuration. DS-5  won't be able to give GPU activity on Galaxy Nexus since GPU on OMAP4 is not supported by DS-5 .
 
