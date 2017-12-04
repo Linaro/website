@@ -8,7 +8,7 @@ js-package: rss
 css-include: main-planet
 ---
 
-<div class="row no-padding">
+<div class="row">
 <div class="col-xs-12">
 
 <h1>Linaro Feeds</h1>
@@ -19,7 +19,7 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 </div>
 </div>
 
-<div class="row no-padding">
+<div class="row">
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Neil Williams
 [linux.codehelp.co.uk](https://linux.codehelp.co.uk/)
@@ -39,7 +39,7 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 </div>
 </div>
 
-<div class="row no-padding">
+<div class="row">
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Peter Maydell
@@ -61,7 +61,7 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 
 </div>
 
-<div class="row no-padding">
+<div class="row">
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### James Arnett
@@ -86,7 +86,7 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 
 
 
-<div class="row no-padding">
+<div class="row">
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Leif Lindholm
@@ -109,7 +109,7 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 </div>
 
 
-<div class="row no-padding">
+<div class="row">
 
 <div class="col-xs-12">
 <h1>Other Feeds</h1>
