@@ -13,8 +13,6 @@ $(document).mouseup(function(e)
 $(document).ready(function () {
     
     // Search Bar
-    
-    
     // SHOW SEARCH - show search bar when you click the search icon
     
     // Show Search Bar on click
