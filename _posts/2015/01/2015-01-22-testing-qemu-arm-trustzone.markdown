@@ -137,9 +137,10 @@ Test execution behaves as you might expect with a Trusted Execution Environment 
 
 
 Currently, the test provides the necessary infrastructure for validating the proper operation of code executing in the secure and non-secure worlds. The infrastructure includes functionality for performing transitions between the worlds as well as utilities for verifying exception behavior. As well, the below set of tests are provided for testing certain TrustZone architectural features as well as to serve as an example.
+
 <table class="table responsive-table">
-<tbody >
-<tr >
+<tbody>
+<tr>
 
 <td align="left" markdown="1">
 **Test**
@@ -155,16 +156,14 @@ Currently, the test provides the necessary infrastructure for validating the pro
 </tr>
 <tr >
 
-<td align="left" markdown="1"r
-owspan="3" >Initial State Check
+<td align="left" markdown="1" rowspan="3" >Initial State Check
 </td>
 
 <td align="left" markdown="1">
 Test that the processor supports the security extension
 </td>
 
-<td align="left" markdown="1"r
-owspan="3" >
+<td align="left" markdown="1" rowspan="3" >
 </td>
 </tr>
 <tr >

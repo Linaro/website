@@ -25,10 +25,12 @@ If you were not able to attend, here's a recap of the LSK session during the sho
 During Linaro Connect USA the LSK team held a session to discuss in detail the team's activities taking place.
 
   * **LCU14-511: LSK Overview and Status AVA Use Cases: Upstream Kernel CI**
-  
     * **Session Summary:**
+    
 This session will provide a summary of the current status of LSK, an introduction for those not familiar with it and provide a forum for discussion of the status and direction with members.
----------------------------------------------------
+
+* * * 
+
 **Resources:**
 Presentation: [http://www.slideshare.net/linaroorg/lcu14-511-lsk-update-and-overview ](http://www.slideshare.net/linaroorg/lcu14-511-lsk-update-and-overview) 
 Video: [https://www.youtube.com/watch?v=PwbpAz12L9k&list=UUIVqQKxCyQLJS6xvSmfndLA](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DPwbpAz12L9k%26list%3DUUIVqQKxCyQLJS6xvSmfndLA&sa=D&usg=ALhdy2-szRQ9gxm6u7GojtHX4i9wLFI7Lw)

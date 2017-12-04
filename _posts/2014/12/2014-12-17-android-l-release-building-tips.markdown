@@ -21,7 +21,7 @@ title: Android L release - building tips
 wordpress_id: 7725
 ---
 
-{% include image.html name="android.png" alt="android" %}
+{% include image.html name="android.png" alt="android" class="medium-inline right" %}
 
 Linaro has been working for the past several months to enable the full Android experience on the ARM 64-bit architecture and we are now able to test this on the commercially available Nexus 9 ARMv8 AArch64 based platform.
 

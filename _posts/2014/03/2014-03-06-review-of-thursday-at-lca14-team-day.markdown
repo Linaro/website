@@ -42,7 +42,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download **](http://www.linaro.org/documents/download/e687a74c34b5a5e3b1c98fc0070264c0531699106f260)slides
+[**Download **](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-401-%20BoF,%20Networking%20-%20Debug-tracing-counter.pdf)slides
 </td>
 </tr>
 <tr >
@@ -52,7 +52,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download **](http://www.linaro.org/documents/download/ba9674ce410d1bf8a1f5c961c6f5cfcc530f5a5e25013)slides
+[**Download **](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-402-%20Build%20your%20Own%20Toolchains.pdf)slides
 </td>
 </tr>
 <tr >
@@ -62,7 +62,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[** Download **](http://www.linaro.org/documents/download/6fafd03797c24323a0133be696b5e58a53169a2e1e653)slides
+[** Download **](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-403-%20Importance%20of%20migrating%20external%20projects%20used%20in%20Android%20to%20it's%20latest%20version.pdf)slides
 </td>
 </tr>
 <tr >
@@ -72,7 +72,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/5d5e2588d8576fa23915ada214ce8b8753169dad66865) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-405-%20Creating%20test%20plan%20(workshop).pdf) slides
 </td>
 </tr>
 <tr >
@@ -82,7 +82,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/48928de6fc23a159f8dff9533e47390053169afb12c67) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-407-%20Deploying%20runtime%20PM%20on%20ARM%20SoCs.pdf) slides
 </td>
 </tr>
 <tr >
@@ -92,7 +92,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/9b2c4fb13c8894daafa8fc5b3a5167a9530f5abc9e6f5) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-411-%20GDB%20Status%20&%20Improvements.pdf) slides
 </td>
 </tr>
 <tr >
@@ -102,7 +102,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/ed95c95480a295e07677f40bc625cd36530d17232ca0f) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-412-%20GPGPU%20on%20ARM%20SoC%20session.pdf) slides
 </td>
 </tr>
 <tr >
@@ -112,7 +112,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/b928aa25929b1cad583f3080f51f5853530d17a0ca3e4) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-417-%20mmap,%20allocators%20&%20sharing%20buffers%20-%20userland%20experience.pdf) slides
 </td>
 </tr>
 <tr >
@@ -122,7 +122,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/b5910bec03e9bef0da54a793e4834b8e531788dfe033e) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-416-%20Big%20Endian%20-%20where%20are%20we-.pdf) slides
 </td>
 </tr>
 <tr >
@@ -132,7 +132,7 @@ Below are the available presentations from Thursday.**
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/2aafe41931b6604b05f058a54e5e656f530d17f57c0ea) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-418-%20Testing%20a%20secure%20framework.pdfv) slides
 </td>
 </tr>
 </tbody>
