@@ -204,7 +204,7 @@ We are also investigating additional Platform specifications for specific segmen
 
 We look forward to working with all interested parties as 96Boards evolves. If you are interested in early access to the Enterprise Edition specification to provide input and feedback, or have a use case for a different Platform specification please email us at [96Boards@linaro.org](mailto:96Boards@linaro.org)
 
-{% include image.html name="george-grey.png" alt="George Grey CEO, Linaro" %}
+{% include image.html name="george-grey.png" alt="George Grey CEO, Linaro" class="img-thumbnail" %}
 
 George Grey
 **CEO, Linaro**

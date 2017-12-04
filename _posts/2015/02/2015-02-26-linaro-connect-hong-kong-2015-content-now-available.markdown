@@ -393,8 +393,8 @@ LAVA, Validation
 </tr>
 </tbody>
 </table>
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1"][mk_divider style="double_dot" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
+* * * 
 
 ### **Tuesday February 10, 2015**
 
@@ -845,8 +845,8 @@ Training
 </tr>
 </tbody>
 </table>
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1"][mk_divider style="double_dot" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
+* * * 
 
 ### **Wednesday February 11, 2015**
 
@@ -1245,8 +1245,8 @@ Training
 </tr>
 </tbody>
 </table>
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1"][mk_divider style="double_dot" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
+* * *
 
 ### **Thursday February 12, 2015**
 
@@ -1619,8 +1619,8 @@ Digital Home
 </tr>
 </tbody>
 </table>
-[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1"][mk_divider style="double_dot" divider_width="full_width" margin_top="20" margin_bottom="20"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][vc_column_text disable_pattern="true" align="left" margin_bottom="0"]
 
+* * * 
 
 ### **Friday February 13, 2015**
 

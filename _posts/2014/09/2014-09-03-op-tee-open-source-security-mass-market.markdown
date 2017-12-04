@@ -17,7 +17,7 @@ tags:
 - qemu
 ---
 
-{% include image.html name="thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" %}
+{% include image.html name="thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" class="small-inline" %}
 
 TEE. Behind this acronym hides the Trusted Execution Environment, a small OS-like environment that sits aside a rich operating system – for instance Android. The purpose of the TEE is to keep all secret credentials and data manipulation in the small TEE rather than in a larger rich OS that is often the vulnerable target of malware and hackers in general. In order to reach this goal, application software is architected in a way such that sensitive functions are precisely defined and offloaded to the TEE in the form of Trusted Applications.
 
