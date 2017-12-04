@@ -665,6 +665,8 @@
 # Page Redirects
 /resources/index.html,http://connect.linaro.org/resources
 /resources,http://connect.linaro.org/resources
+/connect,http://connect.linaro.org/
+/connect/,http://connect.linaro.org/
 # Edge Slider Redirects
 /edge/96boards/index.html,https://www.linaro.org
 /edge/96boards,https://www.linaro.org

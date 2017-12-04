@@ -21,7 +21,7 @@ title: LCA14 - Tuesday Recap
 wordpress_id: 3470
 ---
 
-Linaro Connect continued on Tuesday with two guest keynote speakers.  First up was Sreekant Kotay, SVP- Chief Software Architect at Comcast.  Mr. Kotay gave a talk on how the open source community and modern development models are re-shaping the feature velocity and security models for embedded devices like set-top boxes, cable modems and gateways.   Following Mr. Kotay was Pradeep Kathail, Chief Network Architect for Cisco.  Mr. Kathail gave a presentation titled “Open Network Environment:  Software Defined Networking & Beyond”.   He spoke about Software Defined Networking (SDN) as a new approach to networking, complementing traditional network architectures. SDN aims at the normalization of network configuration and control through open programmatic interfaces to individual network devices as well as to the whole network.
+Linaro Connect continued on Tuesday with two guest keynote speakers. First up was Sreekant Kotay, SVP- Chief Software Architect at Comcast. Mr. Kotay gave a talk on how the open source community and modern development models are re-shaping the feature velocity and security models for embedded devices like set-top boxes, cable modems and gateways.  Following Mr. Kotay was Pradeep Kathail, Chief Network Architect for Cisco. Mr. Kathail gave a presentation titled “Open Network Environment: Software Defined Networking & Beyond”.  He spoke about Software Defined Networking (SDN) as a new approach to networking, complementing traditional network architectures. SDN aims at the normalization of network configuration and control through open programmatic interfaces to individual network devices as well as to the whole network.
 
 
 **Keynotes:**
@@ -42,7 +42,7 @@ Tuesday March 4, 2014
 </td>
 
 <td width="151" valign="top" markdown="1">
-**[Video](http://www.youtube.com/watch?v=iXFSCvjDmzo)**  (YouTube)
+**[Video](http://www.youtube.com/watch?v=iXFSCvjDmzo)** (YouTube)
 </td>
 
 <td width="184" valign="top" markdown="1">
@@ -73,16 +73,17 @@ Tuesday March 4, 2014
 </tr>
 </tbody>
 </table>
-After the opening keynotes concluded all the attendees gathered for our traditional group photo.[![Group Photo at LCA14](/assets/blog/group-photo-LCA14.jpg)](/assets/blog/group-photo-LCA14.jpg)
+After the opening keynotes concluded all the attendees gathered for our traditional group photo.
+
+
+{% include image.html name="group-photo-LCA14.jpg" alt="Group Photo at LCA14" %}
 
 
 ### **Group Photo at LCA14**
 
 
 
-
-
-Once group photo was taken the sessions for the day began.  Tuesday was full day of sessions, whether you were interested in Linux Kernel, Tools, Automation and Validation, Android, Power management and many others there was something on the agenda for you.  Below are the videos and presentations from those sessions.   
+Once group photo was taken the sessions for the day began. Tuesday was full day of sessions, whether you were interested in Linux Kernel, Tools, Automation and Validation, Android, Power management and many others there was something on the agenda for you. Below are the videos and presentations from those sessions.   
 
 
 
@@ -276,7 +277,7 @@ No Video Available
 </tr>
 </tbody>
 </table>
-Wednesday LCA14 will continue with more great sessions and two more keynote speakers.  Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
+Wednesday LCA14 will continue with more great sessions and two more keynote speakers. Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
 
 Tomorrow the [Linaro “Bond Themed” gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner) takes place so look for some great photos of our attendees J
 
