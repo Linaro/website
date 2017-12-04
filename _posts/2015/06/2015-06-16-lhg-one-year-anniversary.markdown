@@ -41,9 +41,9 @@ At the time the group was launched, the LHG steering committee also got to work 
 
 The target platforms of interest to LHG members were the RDK and Android (and later Android TV).
 
-{% include image.html name="RDK.jpg" alt="RDK" %}
-{% include image.html name="androidTV2.jpg" alt="androidTV2" %}
-{% include image.html name="Android.jpg" alt="Android" %}
+{% include image.html name="RDK.jpg" alt="RDK" class="small-inline" %}
+{% include image.html name="androidTV2.jpg" alt="androidTV2" class="small-inline" %}
+{% include image.html name="Android.jpg" alt="Android" class="small-inline" %}
 
 #### **Looking back…**
 
