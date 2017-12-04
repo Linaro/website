@@ -15,7 +15,7 @@ title: Switch to a WordPress blog - Planet Linaro available
 wordpress_id: 3377
 ---
 
-![WordPress logo](http://s.wordpress.org/about/images/logo-grey/grey-m.png)
+{% include image.html name="wordpress-logo.png" alt="WordPress logo" class="small-inline right"%}
 
 If you haven't noticed yet, we have replaced our [SilverStripe](http://www.silverstripe.com/) blog engine by a something orders of magnitude better: [WordPress ](http://wordpress.org)3.1, with the TwentyTen theme.
 

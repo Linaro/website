@@ -20,7 +20,7 @@ At the end of last week, we started final stage of Linaro Android migration to G
 
 Gerrit review frontend is available here: [http://review.android.git.linaro.org/](http://review.android.git.linaro.org/) :
 
-{% include image.html name="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox.jpg" alt="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox" url="https://git.linaro.org/"%}
+{% include image.html name="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox.jpg" alt="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox" class="small-inline right" url="https://git.linaro.org/"%}
 
 We are still in the process of deploying and configuring our Gerrit-based setup and workflow, but it is already lively with more than 40 changes having passed thru it. Using Gerrit brings number of benefits to Linaro's Android development process:
 	
