@@ -26,9 +26,13 @@ $(document).ready(function () {
     var search_form = $("form#search_form");
     var search_hidden_input = $("div#search_bar input[type='hidden']");
     
+    var nav_light = $('nav.nav-light');
+    
     $("a#search_icon").click(function() {
         search_bar.css('display','block');
     });
+    
+    
     
     // CLICK AWAY CLOSE - Close Search bar on click away from input
 

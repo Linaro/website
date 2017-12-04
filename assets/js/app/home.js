@@ -16,7 +16,6 @@ $(document).ready(function(){
         function scroll() {
         
             if ( $(window).scrollTop() > origOffsetY) {
-                console.log("Triggered");
                 if(nav_light.length){
                     $('nav#main-navigation').removeClass('nav-light');
                 }
@@ -24,9 +23,7 @@ $(document).ready(function(){
                     $('nav#main-navigation').removeClass('nav-dark');
                 }
             }
-            else {
-                console.log("Adding Class");
-                
+            else {                
                 if(nav_light.length){
                     $('nav#main-navigation').addClass('nav-light');
                 }
