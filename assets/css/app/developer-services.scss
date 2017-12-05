@@ -8,7 +8,12 @@
 }
 a.btn.btn-contact-developer-services.pull-right:hover  {
    color: white !important;
+   border-radius: 0px;
 }
+a.btn.btn-contact-developer-services.pull-right  {
+   border-radius: 0px !important;
+}
+
 
 img.developer-services-icon{
     width: 70px;
