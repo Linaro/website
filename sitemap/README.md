@@ -11,7 +11,7 @@ permalink: /sitemap/
 <ul class="list-unstyled">
 {% for author in site.authors %}
 <a href="{{author.url}}">
-    <li>{{author.name}}<li>
+    <li>{{author.name}}</li>
 </a>
 {% endfor %}
 </ul>
