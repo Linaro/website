@@ -53,7 +53,7 @@
 
 //Smallest mobile view
 @media(max-width:767px){
-    h1.linaro-title{
+    h1.linaro-title > span{
         font-size:38px;
         font-weight: 600;
     }

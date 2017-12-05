@@ -1,16 +1,28 @@
-$(document).mouseup(function(e) 
-{
-    var search_container = $("div#search_bar");
-
-    // if the target of the click isn't the container nor a descendant of the container
-    if (!search_container.is(e.target) && search_container.has(e.target).length === 0) 
-    {
-        search_container.hide();
-    }
-    
-});
-
+// $(document).mouseup(function(e) 
+// {
+//     var search_container = $("div#search_bar");
+//     
+//     // if the target of the click isn't the container nor a descendant of the container
+//     if (!search_container.is(e.target) && search_container.has(e.target).length === 0) 
+//     {
+//         search_container.hide();
+//     
+//     }
+// });
+// 
 $(document).ready(function () {
+    
+    $('.dropdown-toggle').dropdown();
+    
+    
+    // $(document).on('touchstart.dropdown.data-api', '.dropdown-submenu > a', function (event) {
+    //   event.preventDefault();
+    // });
+    // 
+    // $("li.dropdown-submenu.sub-menu>a").click(function(event){
+    //     event.preventDefault();
+    //     $("li.dropdown-submenu.sub-menu>a").next("ul.dropdown-menu.sub-menu").show();
+    // });
     
     // Search Bar
     // SHOW SEARCH - show search bar when you click the search icon
@@ -41,31 +53,31 @@ $(document).ready(function () {
         search_bar.css('display','none');
     });
     
-    // Youtube Video Thumbnails
-
-    var youtube = document.querySelectorAll( ".youtube" );
-
-    for (var i = 0; i < youtube.length; i++) {
-
-        var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
-
-        var image = new Image();
-           image.src = source;
-           image.addEventListener( "load", function() {
-               youtube[ i ].appendChild( image );
-           }(i) );
-
-           youtube[i].addEventListener( "click", function() {
-               var iframe = document.createElement( "iframe" );
-               iframe.setAttribute( "frameborder", "0" );
-               iframe.setAttribute( "allowfullscreen", "" );
-               iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
-               this.innerHsTML = "";
-               this.appendChild( iframe );
-           } );
-    };
-    
+    // // Youtube Video Thumbnails
+    // 
+    // var youtube = document.querySelectorAll( ".youtube" );
+    // 
+    // for (var i = 0; i < youtube.length; i++) {
+    // 
+    //     var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+    // 
+    //     var image = new Image();
+    //        image.src = source;
+    //        image.addEventListener( "load", function() {
+    //            youtube[ i ].appendChild( image );
+    //        }(i) );
+    // 
+    //        youtube[i].addEventListener( "click", function() {
+    //            var iframe = document.createElement( "iframe" );
+    //            iframe.setAttribute( "frameborder", "0" );
+    //            iframe.setAttribute( "allowfullscreen", "" );
+    //            iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+    // 
+    //            this.innerHsTML = "";
+    //            this.appendChild( iframe );
+    //        } );
+    // };
+    // 
 
     //Reset form when bootstrap modal closes.
     $('.modal').on('hidden.bs.modal', function(){
@@ -90,26 +102,12 @@ $(document).ready(function () {
     if (navigator.userAgent.match(/.*CPU.*OS 7_\d/i)){$('html').addClass('ios7');}
     
     
-    //Nav Bar
-    
-    $('nav').removeClass('no-js');
+    // //Nav Bar
+    // 
+    // $('nav').removeClass('no-js');
 
     // Nav Bar Drop Down Animation
     
-    $('nav.dropdown.main').on('show.bs.dropdown', function() {
-      $(this).find('.dropdown-menu.menu').first().stop(true, true).css('opacity', 0).slideDown("fast").animate(
-        { opacity: 1 },
-        { queue: false, duration: 'fast' }
-      );
-    });
-    
-    $('nav.dropdown.main').on('hide.bs.dropdown', function() {
-      $(this).find('.dropdown-menu.menu').first().stop(true, true).slideUp("fast").animate(
-        { opacity: 0 },
-        { queue: false, duration: 'fast' }
-      );
-    });
-
     $('nav li.dropdown.main > ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
         event.preventDefault();
         event.stopPropagation();
@@ -126,9 +124,13 @@ $(document).ready(function () {
         menu.css({ left:newpos });
     });
     
+    
+    
     // Remove any zoom class added to body 
     $('body').css('zoom', '');
-
+    
+    
+    // External Links Opening in new window.
     $('a').each(function() {
        var a = new RegExp('/' + window.location.host + '/');
        if (!a.test(this.href)) {
@@ -137,31 +139,4 @@ $(document).ready(function () {
     });
     
     
-});
-
-
-$(function () {
-
-    function closeSearch() {
-        var $form = $('.navbar-collapse form[role="search"].active');
-        $form.removeClass('active');
-        $form.trigger('reset');
-    }
-    
-    $(document).on('click', '.navbar-collapse form[role="search"].active button[type="submit"]', function(event) {
-
-        event.preventDefault();
-        var $form = $(this).closest('form'),
-            $input = $form.find('input');
-
-        $("input[type='hidden']").attr("value", "96Boards"); //Needed to stop the hidden input from being not included on second search.
-        
-        if($input.val().length !== 0){
-            $form.submit();
-            closeSearch();
-        }
-
-    });
-    
-
 });
