@@ -1,0 +1,72 @@
+image: Linaro-Logo.svg
+columns:
+    - title: About
+      url: /about/
+      items:
+        - text: Linaro Overview
+          url : /about/
+        - text: Organisation
+          url : /work/
+        - text: Members
+          url : /members/
+        - text: Careers
+          url : /careers/
+    - title: Work
+      url: /work/
+      items:
+        - text: Core Engineering
+          url : /core/
+        - text: Segment Groups
+          url : /groups/
+        - text: Lead Projects
+          url : /projects/
+        - text: Initiatives
+          url : /initiatives/
+        - text: Developer Services
+          url : /services/
+    - title: Downloads
+      url: "/downloads/"
+      items:
+         - text: Software Downloads
+           url : /downloads/
+         - text: Developers
+           url : /developers/
+    - title: News & Events
+      items:
+          - text: "News & Events"
+            url: /hub/
+          - text: News
+            url: /news/
+          - text: Linaro Blog
+            url: /blog/
+          - text: Planet Linaro
+            url: /planet/
+          - text: Linaro Connect
+            url: https://connect.linaro.org
+            external: true
+          - text: Social Media Hub
+            url: /social/
+    - title: Social Media
+      items:
+         - text: Github
+           url : https://github.com/linaro
+         - text: Facebook
+           url : https://www.facebook.com/LinaroOrg
+         - text: Youtube
+           url : https://www.youtube.com/user/linaroorg
+         - text: Twitter
+           url : https://twitter.com/linaroorg
+         - text: News Hub
+           url : /hub/
+         - text: OnAir
+           url : https://www.youtube.com/user/linaroOnAir
+
+companylinks:
+    - name: Careers
+      url: /careers/
+    - name: Legal
+      url: /legal/
+    - name: Sitemap
+      url: /sitemap.xml
+    - name: Contact
+      url: /contact/

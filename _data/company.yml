@@ -1,0 +1,30 @@
+favicon: favicon.png
+search-label: Linaro
+name: Linaro
+slogan: Leading collaboration in the ARM Ecosystem
+mailchimp:
+    enabled: true
+    id: af6cf590b0
+newsletter:
+    enabled: true
+
+# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
+github_username: Linaro
+linkedin_username: 1026961
+google_plus_username: +LinaroOnAir
+facebook_username: LinaroOrg
+youtube_username: linaroorg
+twitter_username: linaroorg
+slideshare_username: linaroorg
+
+# Google Anayltics Setup
+google:
+    tag_manager: GTM-5DLPJQ
+
+
+disqus:
+    enabled: false
+    shortname: Linaro
+
+
+placeholder: placeholder.jpg
