@@ -8,6 +8,13 @@
     padding-left: 0;
 }
 
+
+// Padding fix for sub menu in work section
+div#work_section {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .col-sm-4.work_footer_col li:first-child {
     border-top: 0 !important;
 }
