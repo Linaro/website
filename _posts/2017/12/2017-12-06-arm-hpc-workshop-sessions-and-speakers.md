@@ -884,6 +884,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 ## Schedule 
 
+{:.table-responsive.responsive-table}
 |Start Time|End Time|Title|Reserved for|
 |----------|--------|-----|------------|
 |09:00|Room Opens for Setup|
