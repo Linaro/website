@@ -19,7 +19,7 @@ keywords: Arm, HPC, Workshop, Japan
 
 We are pleased to announce the sessions and speakers for the first ever Arm HPC workshop taking place in Tokyo from 12-13th Dec 2017. The sold out event attracts over 100 attendees from Japan, UK, USA, China and other parts of the world. Joining us are speakers from RIKEN AICS, Fujitsu, Arm, Linaro as well as from other Research institutions. Please find the detailed schedule below. For more info on Linaro High Performance Computing (HPC) work click [here](/sig/hpc/). 
 
-## Speakers
+## Sessions
 
 <div class="speakers-arm-hpc">
 
@@ -111,6 +111,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 </div>
 
 
+## Session Details
 
 <div class="arm-hpc-session">
 
@@ -879,6 +880,49 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 
 <hr>
+
+
+## Schedule 
+
+|Start Time|End Time|Title|Reserved for|
+|----------|--------|-----|------------|
+|09:00|Room Opens for Setup|
+|09:15|09:30|Welcome Note|David Rusling CTO, Linaro| |
+|09:30|09:55|Introduction of Post-K development|Yutaka Ishikawa (RIKEN)|
+|10:00|10:25|Post-K: Building the Arm HPC Ecosystem|Kouichi Hirai (Fujitsu)|
+|10:30|10:55|Arm tools and roadmap for SVE compiler support|Richard Sandiford, Florian Hahn (Arm)|
+|11:00|11:20|AM Coffee Break|
+|11:30|11:55|HCQC : HPC Compiler Quality Checker|Masaki Arai (Fujitsu)|
+|12:00|12:25|State of the Scalasca Toolset|Itaru Kitayama (RIKEN)|
+|12:30|13:20|Lunch|
+|13:30|13:55|Porting and Optimization of Numerical Libraries for Arm SVE|Toshiyuki Imamura (RIKEN), Tetsuzou Usui (Fujitsu)|
+|14:00|14:25|An Evaluation of EasyBuild for Open Source Software Deployment|Takahiro Ogura (RIKEN)|
+|14:30|14:55|An Overview of the IHK/McKernel Multi-kernel Operating System|Balazs Gerofi (RIKEN)|
+|15:00|15:20|PM Coffee Break|
+|15:30|15:55|Compilation of COSMO for GPU using LLVM|Tobias Grosser (Scalable Parallel Computing Laboratory (SPCL))|
+|16:00|16:25|Involvement in OpenHPC|Takeharu Kato (Fujitsu)|
+|16:30|17:00|Breakdown/clean up|
+|18:00|Dinner|Sponsored by Fujitsu and Linaro|
+|Day 2 – Wed 13th Dec|
+|Start Time|End Time|Title|Reserved for|
+|09:00|Room Opens for Setup|
+|09:15|09:30|Welcome Note|Kanta Vekaria, Head of HPC, Linaro|
+|09:30|10:20|Cyber-physical System and Industrial Applications of Large-Scale Graph Analysis and Optimization Problem|Katsuki Fujisawa, (IMI) of Kyushu University|
+|10:30|10:55|New Process/Thread Runtime|Atsushi Hori (RIKEN)|
+|11:00|11:20|AM Coffee Break|
+|11:30|11:55|An evaluation of LLVM compiler for SVE with fairly complicated loops|Hiroshi Nakashima (Kyoto Univ.)|
+|12:00|12:25|Oopstreaming|Renato Golin (Linaro)|
+|12:30|13:20|Lunch|
+|13:30|Programming Languages & Tools for Higher Performance & Productivity|Hitoshi Murai (RIKEN)|
+|Advantages of the Compiler for Post-K computer|Shun Kamatsuka (Fujitsu)|
+|14:25|Overview of Programming Assistance Tools for Post-K computer|Tomotake Nakamura (Fujitsu)|
+|14:30|14:55|OpenHPC Upstream Update|Renato Golin (Linaro)|
+|15:00|15:20|PM Coffee Break|
+|15:30|15:55|OpenMP Extension for Explicit SIMD Programming using ARM SVE|Jinpil Lee (RIKEN)|
+|16:00|16:25|Performance evaluation with Arm HPC tools for SVE|Miwako Tsuji (RIKEN), Yuetsu Kodama (RIKEN)|
+|16:30|16:40|Closing Note|David Rusling CTO, Linaro|
+|16:40|17:00|Breakdown/clean up|
+
 
 
 
