@@ -192,7 +192,7 @@ This cookie is set on confirmation that visitors are happy with the use of cooki
 
 <td id="TD_116">\___utmas___utmbs___utmcs___utmzs</td>
 
-<td id="TD_117">These cookies are part of Google Analytics, which we use to monitor traffic levels, search queries and visits to this website, and to highlight potential problems within the site structure.Google Analytics stores IP address anonamously on its servers in the US, and neither we or Google associate your IP address with any personally identifiable information.These cookies enable Google to determine whether you are a return visitor to the site, and to track the pages that you visit during your session.  
+<td id="TD_117">These cookies are part of Google Analytics, which we use to monitor traffic levels, search queries and visits to this website, and to highlight potential problems within the site structure.Google Analytics stores IP address anonymously on its servers in the US, and neither we or Google associate your IP address with any personally identifiable information.These cookies enable Google to determine whether you are a return visitor to the site, and to track the pages that you visit during your session.  
 This cookie is set after users have consented to the use of cookies.</td>
 
 </tr>

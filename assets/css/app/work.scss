@@ -8,6 +8,13 @@
     padding-left: 0;
 }
 
+
+// Padding fix for sub menu in work section
+div#work_section {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .col-sm-4.work_footer_col li:first-child {
     border-top: 0 !important;
 }
@@ -135,4 +142,10 @@ div.group_member_images > h5 {
 
 div.group_member_images > .col-md-2.col-sm-3.col-xs-4 {
     min-height: 100px;
+}
+//Smallest mobile view
+@media(max-width:767px){
+    .col-xs-6.col-md-3.text-center.work_icon_col {
+        margin-bottom: 35px;
+    }
 }

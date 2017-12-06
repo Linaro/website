@@ -19,7 +19,7 @@ Guy assumed the post of Chairman at the Linaro Board meeting held on Thursday 8 
 
 Prior to joining Sage he was Country Manager and then European Managing Director for Intuit, the US software company. Previously he worked at the French hardware company Groupe Bull where he was a Director of Marketing and Claris as Southern European General Manager. Guy has an MBA from Harvard University and an Engineering degree from “Ecole Polytechnique Federal de Lausanne” (Switzerland).
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="Guy-Berruyer1.jpg" class="linaro-profile-image" alt="Guy Berruyer Profile Photo"%}
 </div>
 </div>
@@ -30,7 +30,7 @@ Prior to joining Sage he was Country Manager and then European Managing Director
 
 George has led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets.
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
@@ -41,7 +41,7 @@ George has led software and hardware technology companies for over 25 years, gai
 
 Jinxi Li (Louis) is senior director of System Software for Huawei. He has more than 16 years experience in telecom and system software design, and for the past 6 years has especially focused on OS and Linux Kernel and Open Source. Louis led OS product management and strategy planning team with driving ARM technology into embedded system such as base station, core network , and cloud infrastructure such as server and data center.
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Ian Ferguson is vice president of corporate marketing at ARM. Ian joined ARM in 
 Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and QuickLogic. He has also worked as European marketing manager for IDT and as technical marketing engineer for Motorola.
 
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="Ian-Ferguson.jpg" class="linaro-profile-image" alt="Ian Ferguson Profile Photo"%}
 </div>
 </div>
@@ -66,7 +66,7 @@ Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and Q
 
 Jason Pettit is Senior Director Product Management for Qualcomm. Jason joined Qualcomm in 2008 to develop Qualcomm’s Android products and strategy. He has more than 15 years of experience working with Linux and Open Source. Prior to joining Qualcomm Jason held positions at Silicon Graphics, Penguin Computing, and Wind River working on Linux-based product development.
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="Jason-Pettit.jpg" class="linaro-profile-image" alt="Jason Pettit Profile Photo"%}
 </div>
 </div>
@@ -78,7 +78,7 @@ Jason Pettit is Senior Director Product Management for Qualcomm. Jason joined Qu
 Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the ARM software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
 
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
 </div>
 </div>
@@ -89,7 +89,7 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 
 Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3 text-center">
 {% include circular-image.html name="Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
 </div>
 </div>
