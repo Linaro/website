@@ -301,59 +301,142 @@ css-include: main-home
 </div>
 
 
-<div class="row" id="blogs_home_block">
-    <div class="container">
+<div class="row" id="main-content-container">
+    <div class="container home-blog-post-carousel-container">
+        
         <div class="col-xs-12 text-center">
             <h2 class="blogs_home_block_text"> Latest News & Blogs </h2>
         </div>
-    
-        {% assign posts = site.posts | where: "featured_on_home", "true" | limit: 3 %}
         
-        {% for post in posts %}
-            <div class="col-xs-12 col-sm-4">
-                <a href="{{post.url}}">
-                    <div class="blogs_home_block_post  {{post.home_cat}}">
-                        <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
-                        
-                        <div class="blog-post-icon">
-                            {% if post.home_cat == "boards" %}
-                                <picture>
-                                  <img alt="96boards Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
-                                </picture>
-                            {% elsif post.home_cat == "lite" %}
-                                <picture>
-                                  <img alt="Lite Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive post_icon center-block"/>
-                                </picture>
-                            {% elsif post.home_cat == "connect"%}
-                                <picture>   
-                                  <img alt="Connect Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'connect-icon.png' %}" class="lazyload img-responsive post_icon center-block"/>
-                                </picture>
-                            {% endif %}
-                        </div>
-                    </div>                
-                </a>
-            </div>
-        {% endfor %}
         
-        <div class="col-xs-12 col-sm-4">
-            <a href="https://www.96boards.org/blog/getting-started-with-the-secure96-tpm/">
-                <div class="blogs_home_block_post  boards">
-                    <h3 class="blogs_home_block_post_title">Getting Started With The Secure96 TPM</h3>
-                    
-                    <div class="blog-post-icon">
-                            <picture>
-                              <img alt="96boards logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
-                            </picture>
+        <div class="owl-carousel owl-theme" id="home-blog-carousel">
+            
+            
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="/blog/arm-hpc-workshop-sessions-and-speakers/">
+                            <div class="blogs_home_block_post  hpc">
+                                <h3 class="blogs_home_block_post_title">Arm HPC Workshop Sessions and Speakers</h3>
+                                <div class="blog-post-icon">
+                                    <picture>
+                                      <img alt="96boards Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                       data-src="{% asset_path 'hpc-icon.svg' %}" class="lazyload img-responsive post_icon center-block"/>
+                                    </picture>
+                                </div>
+                            </div>                
+                        </a>
                     </div>
-                </div>                
-            </a>
+                </div>
+                
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="https://www.96boards.org/blog/getting-started-with-the-secure96-tpm/">
+                            <div class="blogs_home_block_post  boards">
+                                <h3 class="blogs_home_block_post_title">Getting Started With The Secure96 TPM</h3>
+                                
+                                <div class="blog-post-icon">
+                                        <picture>
+                                          <img alt="96boards logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
+                                        </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="/news/xilinx-joins-linaro-iot-embedded-group/">
+                            <div class="blogs_home_block_post lite">
+                                <h3 class="blogs_home_block_post_title">Xilinx joins Linaro IoT and Embedded Group</h3>
+                                
+                                <div class="blog-post-icon">
+                                        <picture>
+                                          <img alt="Lite logo" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive post_icon center-block"/>
+                                        </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="/news/linaro-announces-latest-96boards-product-aosp-development/">
+                            <div class="blogs_home_block_post boards">
+                                <h3 class="blogs_home_block_post_title">Linaro Announces Latest 96boards Product for Aosp Development</h3>
+                                
+                                <div class="blog-post-icon">
+                                    <picture>
+                                      <img alt="96boards Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                                      data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
+                                    </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="/news/google-becomes-club-member-linaro/">
+                            <div class="blogs_home_block_post linaro">
+                                <h3 class="blogs_home_block_post_title">Google becomes Club Member of Linaro</h3>
+                                
+                                <div class="blog-post-icon">
+                                    <picture>
+                                      <img alt="Linaro Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                                      data-src="{% asset_path 'Linaro-Sprinkle.svg' %}" class="lazyload img-responsive post_icon center-block"/>
+                                    </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="/blog/sfo17-day2/">
+                            <div class="blogs_home_block_post  connect">
+                                <h3 class="blogs_home_block_post_title">Linaro Connect SFO17 Day One Summary and day two begins with new Arm Developer System</h3>
+                                
+                                <div class="blog-post-icon">
+                                    <picture>   
+                                      <img alt="Connect Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'connect-icon.png' %}" class="lazyload img-responsive post_icon center-block"/>
+                                    </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
+                
         </div>
-        
-        
-        
-        <div class="col-xs-12 text-center">
-            <a href="/hub/" class="btn btn-linaro-home dark">Read More</a>
-        </div>
-
     </div>
+</div>
+
+
+
+<div class="blog-post-icon">
+    {% if post.home_cat == "boards" %}
+        <picture>
+          <img alt="96boards Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '96boards-logo-white-vertical.png' %}" class="lazyload img-responsive post_icon center-block"/>
+        </picture>
+    {% elsif post.home_cat == "lite" %}
+        <picture>
+          <img alt="Lite Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'LITE-logo.svg' %}" class="lazyload img-responsive post_icon center-block"/>
+        </picture>
+    {% elsif post.home_cat == "connect"%}
+        <picture>   
+          <img alt="Connect Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'connect-icon.png' %}" class="lazyload img-responsive post_icon center-block"/>
+        </picture>
+    {% endif %}
 </div>
