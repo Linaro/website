@@ -4,6 +4,9 @@
     font-family: 'Open Sans';
 	src: url('../fonts/OpenSans-Regular.ttf');
 }
+.container.home-blog-post-carousel-container {
+    padding-bottom: 30px;
+}
 
 .owl-dots {
     margin-bottom: 0;
@@ -434,3 +437,16 @@ div#groups_home_block {
     border-bottom: 2px solid #ea9538;
     border-top: 2px solid #ea9538;
 }
+
+
+.blogs_home_block_post.hpc:hover {
+    background-color: #0182ad;
+}
+.blogs_home_block_post.linaro:hover {
+    background-color: #8f7bb0;
+}
+
+.blogs_home_block_post > a {
+    text-decoration: none;
+}
+
