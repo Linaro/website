@@ -143,3 +143,9 @@ div.group_member_images > h5 {
 div.group_member_images > .col-md-2.col-sm-3.col-xs-4 {
     min-height: 100px;
 }
+//Smallest mobile view
+@media(max-width:767px){
+    .col-xs-6.col-md-3.text-center.work_icon_col {
+        margin-bottom: 35px;
+    }
+}
