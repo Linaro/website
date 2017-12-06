@@ -33,3 +33,22 @@ dt {
     font-size: 18px;
     color: rgb(37,37,37);
 }
+
+//Smallest mobile view
+@media(max-width:767px){
+    .linaro-profile-image {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        float:none !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-size: cover;
+        background-position: center;
+        clear: both;
+    
+}
+    
+
