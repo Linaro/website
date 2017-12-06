@@ -11,7 +11,10 @@
 .row.group_content {
     height: 100px;
 }
-
+h1.linaro-title > span{
+    font-size:70px;
+    font-weight: 700;
+}
 
 .blogs_home_block_post.connect {
     border-bottom: 2px solid #97ce1e;
@@ -328,7 +331,6 @@ h5 > span.slider-sub-title {
 }
 .linaro-title{
     text-shadow: rgb(111, 111, 111) 1px 1px 7px;
-    font-size: 70px;
 }
 
 //Home Groups Block
