@@ -691,3 +691,107 @@ div.dark {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+
+//SVG Animation
+
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-1 {
+    fill: #749b28;
+}
+
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-2 {
+    fill: #749b28;
+}
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-3 {
+    fill: #749b28;
+}
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-4 {
+    fill: #749b28;
+}
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-5 {
+    fill: #749b28;
+}
+svg#navbar_svg:hover > g > path.cls-3.sprinkle-block-6 {
+    fill: #749b28;
+}
+
+
+svg#navbar_svg > g > path.cls-3.sprinkle-block-1 {
+
+        -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+svg#navbar_svg > g > path.cls-3.sprinkle-block-2 {
+            -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+     -webkit-transition-delay: 200ms;
+    -moz-transition-delay: 200ms;
+    -o-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+svg#navbar_svg > g > path.cls-3.sprinkle-block-3 {
+                -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+     -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+svg#navbar_svg > g > path.cls-3.sprinkle-block-4 {
+                    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+     -webkit-transition-delay: 400ms;
+    -moz-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+svg#navbar_svg > g > path.cls-3.sprinkle-block-5 {
+                   -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+     -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+svg#navbar_svg > g > path.cls-3.sprinkle-block-6 {
+           -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+     -webkit-transition-delay: 600ms;
+    -moz-transition-delay: 600ms;
+    -o-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+
+// Flexbox for Work Page Full width column reordering
+@media (max-width: 768px) {
+  .reorder .row {
+    display: flex;
+    display: -ms-flex;
+    flex-direction: column;
+  }
+  .reorder .row .item1 {
+    order: 2;
+  }
+  .reorder .row .item2 {
+    order: 1;
+  }
+}

@@ -7,8 +7,11 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyX
 members_key: hpc_members
 group_long_name: High Performance Computing (HPC)
 group_short_name: HPC
+icon: hpc-icon.svg
 ---
 # High Performance Computing (HPC)
+
+{% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/ztRPGcumfeBoru" %}
 
 The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
 
