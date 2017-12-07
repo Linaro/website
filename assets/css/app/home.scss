@@ -401,6 +401,7 @@ span.main-title {
 
 div#groups_home_block {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .row.group_header {
@@ -462,5 +463,9 @@ div#groups_home_block {
 
 .blogs_home_block_post > a {
     text-decoration: none;
+}
+
+#blog-slider > .owl-dots {
+    margin-bottom: 25px;
 }
 
