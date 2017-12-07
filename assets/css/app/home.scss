@@ -64,10 +64,19 @@ h1.linaro-title > span{
         font-size:38px;
         font-weight: 600;
     }
+    
     h2.linaro-sub-title{
-        font-size:30px;
-        font-weight:400;
+        font-size: 28px !important;
+        font-weight: 400;
         margin-top: 50px;
+        margin-bottom: -15px;
+    }
+    h2.blogs_home_block_text {
+        font-size: 20px;
+    }
+    div#groups_home_block {
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
     
     #homepage-jumbotron {
@@ -113,14 +122,14 @@ h1.linaro-title > span{
 // Developer Sertvices
 span.developer-services-line-1 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 span.developer-services-line-2 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 // Developer Sertvices
-span.boards-slide-line-1 {
+span.boards-slide-line-1 {    
     font-size: 20px;
     color: #ffdf84;
 }
