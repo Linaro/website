@@ -1,15 +1,15 @@
-// $(document).mouseup(function(e) 
-// {
-//     var search_container = $("div#search_bar");
-//     
-//     // if the target of the click isn't the container nor a descendant of the container
-//     if (!search_container.is(e.target) && search_container.has(e.target).length === 0) 
-//     {
-//         search_container.hide();
-//     
-//     }
-// });
-// 
+$(document).mouseup(function(e) 
+{
+    var search_container = $("div#search_bar");
+    
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!search_container.is(e.target) && search_container.has(e.target).length === 0) 
+    {
+        search_container.hide();
+    }
+    
+});
+
 $(document).ready(function () {
     
     $('.dropdown-toggle').dropdown();
@@ -46,7 +46,6 @@ $(document).ready(function () {
     
     // CLICK AWAY CLOSE - Close Search bar on click away from input
 
-    
     // RESET BUTTON - Clear and Close search
     $("button#search_close").click(function() {
         search_form.trigger('reset');

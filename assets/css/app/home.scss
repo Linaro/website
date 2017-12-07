@@ -64,10 +64,12 @@ h1.linaro-title > span{
         font-size:38px;
         font-weight: 600;
     }
+    
     h2.linaro-sub-title{
-        font-size:30px;
-        font-weight:400;
+        font-size: 28px !important;
+        font-weight: 400;
         margin-top: 50px;
+        margin-bottom: -15px;
     }
     
     #homepage-jumbotron {
@@ -113,10 +115,10 @@ h1.linaro-title > span{
 // Developer Sertvices
 span.developer-services-line-1 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 span.developer-services-line-2 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 // Developer Sertvices
