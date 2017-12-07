@@ -243,7 +243,13 @@ div.blogs_home_block_post {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
-    position: relative;    
+    height: 142%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .blog-post-icon > picture{
