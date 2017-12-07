@@ -296,12 +296,6 @@ steering_committee:
       - name: HopeRun
         image: hoperun.jpg
         url: /company/hoperun/
-      - name: LeMaker
-        image: lemaker.jpg
-        url: /company/lemaker/
-      - name: Longsung
-        image: longsung.jpg
-        url: /company/longsung/
       - name: MediaTek
         image: mediatek.jpg
         url: /company/mediatek/
@@ -369,9 +363,6 @@ manufacturing_partners:
     - name: Huaqin
       image: huaqin.jpg
       url: /company/huaqin/
-    - name: Lemaker
-      image: lemaker.jpg
-      url: /company/lemaker/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
