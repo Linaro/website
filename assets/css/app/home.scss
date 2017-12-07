@@ -57,6 +57,7 @@ h1.linaro-title > span{
     }
 }
 
+
 //Smallest mobile view
 @media(max-width:767px){
     h1.linaro-title > span{
@@ -203,7 +204,6 @@ span.linaro-connect-slide-text {
     opacity: 1;
     transition: opacity 250ms linear;
 }
-
 
 
 .col-xs-12.home-page-slider-info {
@@ -356,8 +356,16 @@ span.main-title {
     background-color: #999;
     height: auto;
     padding: 15px;
+    
+    transition-delay: 100ms;
+    transition: all 100ms linear;
 }
 
+.col-xs-12.group_content {
+    
+    transition-delay: 200ms;
+    transition: all 300ms linear;
+}
 
 .col-md-5ths.col-xs-12.group_block {
     margin-bottom: 20px;
