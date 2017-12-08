@@ -103,7 +103,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
           </a>
           <a href="#18" class="list-group-item">
             <h4 class="list-group-item-heading">The perfect mix: SUSE's HPC, ARM and Containers</h4>
-            <p class="list-group-item-text">Vojtech Pavlik, Suse</p>
+            <p class="list-group-item-text">Vojtech Pavlik, SUSE</p>
           </a>
           <a href="#19" class="list-group-item">
             <h4 class="list-group-item-heading">OpenMP Extension for Explicit SIMD Programming using ARM SVE</h4>
@@ -673,7 +673,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             The perfect mix: SUSE's HPC, ARM and Containers
         </h4>
         
-            <em>By</em> Vojtech Pavlik , Linaro
+            <em>By</em> Vojtech Pavlik , SUSE
         
         <p class="talk-abstract">
         SUSE's operating system is well established in the HPC market as a solid and flexible foundation to build on. SUSE is complementing that with strong ARM expertise and Container skills and tools. A perfect mix for the next generation of ARM-based supercomputer with scalable management. The talk discusses the details of what SUSE offers, including how it was achieved on the technical level, from ARM enablement to its HPCaaS - High Performance Computing as a Service.
