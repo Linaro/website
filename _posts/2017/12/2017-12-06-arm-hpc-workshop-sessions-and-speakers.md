@@ -102,8 +102,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             <p class="list-group-item-text">Tomotake Nakamura, Fujitsu</p>
           </a>
           <a href="#18" class="list-group-item">
-            <h4 class="list-group-item-heading">OpenHPC Upstream Update</h4>
-            <p class="list-group-item-text">Renato Golin, Linaro</p>
+            <h4 class="list-group-item-heading">The perfect mix: SUSE's HPC, ARM and Containers</h4>
+            <p class="list-group-item-text">Vojtech Pavlik, Suse</p>
           </a>
           <a href="#19" class="list-group-item">
             <h4 class="list-group-item-heading">OpenMP Extension for Explicit SIMD Programming using ARM SVE</h4>
@@ -670,18 +670,22 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-sm-9 session-info">
         <a name="18"></a>
         <h4 class="talk-title">
-            OpenHPC Upstream Update
+            The perfect mix: SUSE's HPC, ARM and Containers
         </h4>
         
-            <em>By</em> Renato Golin, Linaro
+            <em>By</em> Vojtech Pavlik , Linaro
         
         <p class="talk-abstract">
+        SUSE's operating system is well established in the HPC market as a solid and flexible foundation to build on. SUSE is complementing that with strong ARM expertise and Container skills and tools. A perfect mix for the next generation of ARM-based supercomputer with scalable management. The talk discusses the details of what SUSE offers, including how it was achieved on the technical level, from ARM enablement to its HPCaaS - High Performance Computing as a Service.
         </p>
         
     </div>
 
     <div class="col-sm-3 speaker-info">
-
+        <strong>Vojtech Pavlik Bio</strong>
+        <p>
+            Vojtěch Pavlík is the director of SUSE Labs, a department of SUSE R&D focusing on core Linux technologies - kernel, compiler, as well as specific applications of those - Real Time and High performance Computing. In his kernel developer past Vojtěch Pavlík worked on support of USB and human input devices in Linux, work which is used today on every Linux and Android device. He enjoys solving interesting problems facing Linux, most recently working on Linux live patching technology.
+        </p>
     </div>
 
 </div>
