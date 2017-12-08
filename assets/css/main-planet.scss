@@ -2,7 +2,7 @@
 ---
 //Bootstrap Overrides
 @import "app/overrides";
-@import "app/custom";
+
 
 //Boostrap Includes
 @import 'bootstrap';
@@ -26,3 +26,4 @@
 
 // App Includes
 @import "app/planet";
+@import "app/custom";

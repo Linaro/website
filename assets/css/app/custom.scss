@@ -795,3 +795,77 @@ svg#navbar_svg > g > path.cls-3.sprinkle-block-6 {
     order: 1;
   }
 }
+
+// Nav Bar SVG Base Style 
+#navbar_svg .cls-1 {
+    fill: none;
+}
+
+#navbar_svg .cls-2 {
+    fill: #666;
+}
+
+#navbar_svg .cls-3 {
+    fill: #9c3;
+}
+#navbar_svg .cls-8 {
+    fill: #9c3;
+}
+
+#navbar_svg .cls-4,
+#navbar_svg .cls-5 {
+    fill: #c03;
+}
+
+#navbar_svg .cls-5 {
+    opacity: 0.6;
+}
+
+#navbar_svg .cls-6,
+#navbar_svg .cls-7 {
+    fill: #909;
+}
+
+#navbar_svg .cls-7,
+#navbar_svg .cls-8 {
+    opacity: 0.7;
+}
+
+
+
+
+
+// Navbar App menu Quick style
+
+.navbar-right {
+    float: right;
+}
+.nav.navbar-nav.navbar-right ul {
+    float: right;
+}
+.nav.navbar-nav.navbar-right li {
+    float: left;
+}
+.navbar-toggle {
+    float: right;
+}
+@media all and (max-width:767px) {
+    .navbar-header {
+        float: left;
+    }
+    
+    .navbar-collapse {
+        clear: both;
+        float: none;
+    }
+}
+
+div#navbar-collapse {
+    float: right !important;
+    text-align: right;
+}
+
+ul#navbar-buttons {
+    position: relative;
+    float: right;
+}
