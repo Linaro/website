@@ -13,4 +13,4 @@ wordpress_id: 4409
 
 CAMBRIDGE, UK - 24 FEB 2011
 
-Learn about the latest product development news including updates from the working groups, evaluation builds and the test and validation farm. [Download update](/resources)
+Learn about the latest product development news including updates from the working groups, evaluation builds and the test and validation farm. [Download update]()
