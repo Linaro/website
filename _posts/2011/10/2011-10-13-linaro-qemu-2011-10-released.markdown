@@ -23,7 +23,7 @@ New in this month's release:
 * Beagle models now support USB networking (run the model with "-usb -device usb-net,netdev=mynet -netdev user,id=mynet")
 
 Known issues:
-* There may be some problems with running multithreaded programs in linux-user mode (LP: [#823902](/bugs/823902))
+* There may be some problems with running multithreaded programs in linux-user mode (LP: [#823902]())
 
 The source tarball is available at:
 [http://launchpad.net/qemu-linaro/+milestone/2011.10](http://launchpad.net/qemu-linaro/+milestone/2011.10)
