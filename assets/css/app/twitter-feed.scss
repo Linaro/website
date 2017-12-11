@@ -121,6 +121,7 @@ height: 50px;
 }
 
 #linaro-latest-tweets .twitter-bird  {
+    
 padding: 0;
 margin: 0;
 margin-top: 5px;
@@ -162,28 +163,27 @@ transition: all 100ms ease;
 }
 
 .flying-twitter-bird.small {
-animation-delay: 3s;
+animation-delay: 6s;
 }
-
 .flying-twitter-bird.small {
 width: 20px;
 height: 20px;
 }
 .flying-twitter-bird.small.two{
 margin-top: 200px;
-animation-delay: 7s;
+animation-delay: 12s;
 }
 .flying-twitter-bird.small.three {
 margin-top: 160px;
-animation-delay: 15s;
+animation-delay: 18s;
 }
 .flying-twitter-bird.small.four {
 margin-top: 70px;
-animation-delay: 20s;
+animation-delay: 24s;
 }
 .flying-twitter-bird.small.five {
 margin-top: 200px;
-animation-delay: 25s;
+animation-delay: 30s;
 }
 
 .flying-twitter-bird.big {
@@ -192,22 +192,22 @@ width: 60px;
 }
 .flying-twitter-bird.big.two {
 margin-top: 200px;    
-animation-delay: 5s;
+animation-delay: 10s;
 }
 
 .flying-twitter-bird.big.three {
 margin-top: 150px;    
-animation-delay: 12s;
+animation-delay: 15s;
 }
 
 .flying-twitter-bird.big.four {
 margin-top: 70px;    
-animation-delay: 16s;
+animation-delay: 20s;
 }
 
 .flying-twitter-bird.big.five {
 margin-top: 180px;    
-animation-delay: 24s;
+animation-delay: 22s;
 }
 
 
