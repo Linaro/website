@@ -17,7 +17,6 @@ tags:
 - qemu
 - standards
 - virtualization
-- Xen
 title: Ensuring Bootable ARM VM Images
 wordpress_id: 11992
 ---
