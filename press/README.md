@@ -126,7 +126,7 @@ Steve Taylor : 72 dpi
 <div class="col-sm-3" markdown="1">
 Steve Taylor : Hi Res
 {% include image.html name="Steve_Taylor_Hi_Res.jpg" alt="Steve Taylor High Res Management Photo" %}
-<a href="/assets/Steve_Taylor_Hi_Res.jpg" class="btn linaro-download-button" download>Download</a>
+<a href="/assets/images/people/Steve_Taylor_Hi_Res.jpg" class="btn linaro-download-button" download>Download</a>
 </div>
 </div>
 </div>
@@ -134,7 +134,7 @@ Steve Taylor : Hi Res
 
 <div role="tabpanel" class="tab-pane tab-pane-legal text-center" id="print-pack" markdown="1">
 {% include image.html name="print-pack.jpg" alt="Print Pack Preview Image" %}
-<a href="downloads/linaro-logo-print.zip" class="btn linaro-download-button" download>Download Print Ready Logos</a>
+<a href="/assets/downloads/linaro-logo-print.zip" class="btn linaro-download-button" download>Download Print Ready Logos</a>
 </div>
 
 </div>
