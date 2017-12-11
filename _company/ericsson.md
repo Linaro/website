@@ -12,4 +12,4 @@ With approximately 115,000 professionals and customers in 180 countries, we comb
 
 Founded in 1876, Ericsson has its headquarters in Stockholm, Sweden. Net sales in 2014 were SEK 228.0 billion (USD 33.1 billion). Ericsson is listed on NASDAQ OMX stock exchange in Stockholm and the NASDAQ in New York.
 
-[www.ericsson.com](//www.ericsson.com)
+[www.ericsson.com](https://www.ericsson.com)
