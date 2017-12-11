@@ -50,7 +50,7 @@ While the above technology exists for enabling secure compute, it is typically o
 
 {% include image.html name="Qemu-logo.png" alt="Qemu-logo" class="small-inline" %}
 
-QEMU, short for “quick emulator”, is very widely used open source machine emulator. QEMU is capable of emulating a variety of client architectures across a number of host architectures through the use of dynamic binary translation. In addition to being a standalone emulator the QEMU sources are also the foundation for other emulated environments. Most notably, the Android Emulator, which is shipped as part of the Android SDK, is based on an older stripped down version of QEMU (go [here](/blog/core-dump/running-64bit-android-l-qemu/) for more details).
+QEMU, short for “quick emulator”, is very widely used open source machine emulator. QEMU is capable of emulating a variety of client architectures across a number of host architectures through the use of dynamic binary translation. In addition to being a standalone emulator the QEMU sources are also the foundation for other emulated environments. Most notably, the Android Emulator, which is shipped as part of the Android SDK, is based on an older stripped down version of QEMU (go [here](/blog/running-64bit-android-l-qemu/) for more details).
 
 QEMU supports multiple emulation modes including full-system emulation of an entire system and its peripherals, as an emulated guest machine on a given host. One example would be emulating a virtual ARM Linux system on an x86 host. Alternatively, QEMU supports user-mode emulation which allows a single execution binary compiled for one architecture to be executed on a different host architecture. For example, executing gcc compiled for x86 on an ARM host.
 
