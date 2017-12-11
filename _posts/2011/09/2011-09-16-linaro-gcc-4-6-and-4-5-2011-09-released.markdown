@@ -42,7 +42,7 @@ Interesting changes in 4.5 include:
 * Updates to 4.5.3+svn178560
 
 Fixes:
-* LP: [#823711](/bugs/823711) libvirt version 0.9.2-4ubuntu8 failed to build on armel
+* LP: [#823711]() libvirt version 0.9.2-4ubuntu8 failed to build on armel
 
 The source tarballs are available from:
 [https://launchpad.net/gcc-linaro/+milestone/4.6-2011.09](https://launchpad.net/gcc-linaro/+milestone/4.6-2011.09)

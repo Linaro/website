@@ -13,4 +13,4 @@ wordpress_id: 4407
 
 CAMBRIDGE, UK - 21 JAN 2011
 
-Learn about the latest developments and product plans. [Download Q1 update](/resources/)
+Learn about the latest developments and product plans. [Download Q1 update]()

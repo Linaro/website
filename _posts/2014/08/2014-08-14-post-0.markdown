@@ -38,7 +38,7 @@ In summary, why is it worth investing in Linaro, to invest in what we do?
 
 Again our approach to this challenge is to describe our work on a regular basis in a way that can be understood by people not only with technical backgrounds but also by our stakeholders, from Linaro Members. So Core Dump is going to be a series of technical posts with an eye on the technical decision makers in industries we are involved on. The challenge ahead of us is big, but that is what Linaro is all about…
 
-Will we be able to help in providing answers to all these questions by simply explaining what we are doing? Well, you will have to read on to find out. The first blog post by Mathieu Poirier about [ARM® CoreSight™ is a good place to start ](/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/).
+Will we be able to help in providing answers to all these questions by simply explaining what we are doing? Well, you will have to read on to find out. The first blog post by Mathieu Poirier about [ARM® CoreSight™ is a good place to start ](/blog/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/).
 
 
 ARM® CoreSight™  is an [ARM trademark](http://www.arm.com/about/trademarks/arm-trademark-list/CoreSight-trademark.php)

@@ -40,7 +40,7 @@ In your email please include the following:
 
   * Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends.
 
-Please create a poster that lets attendees know all about your demonstration. The template for creating the demonstration poster is available [here](/assets/blog/Demo-Friday-Demo-Poster-Template_LCE13_Dublin.odp). All posters must be returned to Linaro by **Friday June 7** in order to guarantee printing for Demo Friday event. Poster Size when printed will be A2 (11.7x16.5 inches).
+Please create a poster that lets attendees know all about your demonstration. The template for creating the demonstration poster is available [here](/assets/downloads/Demo-Friday-Demo-Poster-Template_LCE13_Dublin.odp). All posters must be returned to Linaro by **Friday June 7** in order to guarantee printing for Demo Friday event. Poster Size when printed will be A2 (11.7x16.5 inches).
 
 By participating in this Demo Friday event you will also be given the opportunity to have your Demo recorded and promoted via the[ Linaro YouTube Channel](http://www.youtube.com/playlist?list=PLHMIcjAkq7Et20mZ_LMoJXpRxxoGNlQjV) and various Linaro Social Media sites.
 

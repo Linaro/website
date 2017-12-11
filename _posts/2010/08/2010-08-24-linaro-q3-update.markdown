@@ -13,6 +13,6 @@ wordpress_id: 4398
 
 CAMBRIDGE, UK - 24 AUG 2010
 
-Learn about the latest developments and product plans. [Download the update](/resources/).
+Learn about the latest developments and product plans. [Download the update]().
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](/)

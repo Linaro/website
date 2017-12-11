@@ -143,10 +143,10 @@ More information on Linaro can be found on our websites:
   * IRC:
 
 
-    * #linaro on [irc.linaro.org](irc.linaro.org) or [irc.freenode.net](irc.freenode.net)
+    * #linaro on [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
-    * #linaro-android [irc.linaro.org](irc.linaro.org) or [irc.freenode.net](irc.freenode.net)
+    * #linaro-android [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
 ### KNOWN ISSUES WITH THIS RELEASE

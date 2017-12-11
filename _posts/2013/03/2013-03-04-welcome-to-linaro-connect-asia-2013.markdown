@@ -44,7 +44,7 @@ Sessions you can look forward to today include:
 ## Staying Connected
 
 
-The Connector Newsletter  - Download the [pdf here](/assets/blog/The-Connector-4-March-2013_Final.pdf)
+The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Connector-4-March-2013_Final.pdf)
 
 
 ## Sharing your experience at Connect using the Social Media of your choice

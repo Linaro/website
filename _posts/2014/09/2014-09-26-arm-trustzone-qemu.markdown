@@ -50,7 +50,7 @@ While the above technology exists for enabling secure compute, it is typically o
 
 {% include image.html name="Qemu-logo.png" alt="Qemu-logo" class="small-inline" %}
 
-QEMU, short for “quick emulator”, is very widely used open source machine emulator. QEMU is capable of emulating a variety of client architectures across a number of host architectures through the use of dynamic binary translation. In addition to being a standalone emulator the QEMU sources are also the foundation for other emulated environments. Most notably, the Android Emulator, which is shipped as part of the Android SDK, is based on an older stripped down version of QEMU (go [here](/blog/core-dump/running-64bit-android-l-qemu/) for more details).
+QEMU, short for “quick emulator”, is very widely used open source machine emulator. QEMU is capable of emulating a variety of client architectures across a number of host architectures through the use of dynamic binary translation. In addition to being a standalone emulator the QEMU sources are also the foundation for other emulated environments. Most notably, the Android Emulator, which is shipped as part of the Android SDK, is based on an older stripped down version of QEMU (go [here](/blog/running-64bit-android-l-qemu/) for more details).
 
 QEMU supports multiple emulation modes including full-system emulation of an entire system and its peripherals, as an emulated guest machine on a given host. One example would be emulating a virtual ARM Linux system on an x86 host. Alternatively, QEMU supports user-mode emulation which allows a single execution binary compiled for one architecture to be executed on a different host architecture. For example, executing gcc compiled for x86 on an ARM host.
 
@@ -66,7 +66,7 @@ The primary goal of adding the security extensions support to QEMU’s ARM targe
 
 Developers can use the QEMU ARM Security Extensions to develop and work with Trusted Execution Environments (TEEs) that are likely to be the primary consumers of the added functionality. Secure applications can then be developed on the added TEEs without the need for dedicated hardware.
 
-Linaro is currently working on running open-source TEE (OP-TEE) software on top of QEMU for two reasons. Firstly, to provide a concrete real-world use case. Secondly, to stress-test the added QEMU functionality to insure proper operation. Linaro is already engaged in efforts of developing an open source TEE solution that will be a likely candidate. More details about the OP-TEE work can be found [here](/blog/core-dump/op-tee-open-source-security-mass-market/).
+Linaro is currently working on running open-source TEE (OP-TEE) software on top of QEMU for two reasons. Firstly, to provide a concrete real-world use case. Secondly, to stress-test the added QEMU functionality to insure proper operation. Linaro is already engaged in efforts of developing an open source TEE solution that will be a likely candidate. More details about the OP-TEE work can be found [here](/blog/op-tee-open-source-security-mass-market/).
 
 To reiterate, the addition of the ARM Security Extensions to QEMU allows for the coexistence of separate secure and non-secure software where QEMU emulates the architectural facilities that bridge the two worlds.
 

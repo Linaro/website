@@ -25,7 +25,7 @@ wordpress_id: 7787
 
 # Testing QEMU ARM TrustZone
 
-A while back we wrote about the [QEMU implementation of ARM TrustZone](/blog/core-dump/arm-trustzone-qemu/), also known as ARM Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
+A while back we wrote about the [QEMU implementation of ARM TrustZone](/blog/arm-trustzone-qemu/), also known as ARM Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
 
 ### Ongoing Work and Progress
 
@@ -312,7 +312,7 @@ Test for the secure to non-secure world handshake. This test is provided to insu
 
 #### Where can I TrustZone enabled QEMU?
 
-Since the past blog post ([https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](/blog/core-dump/arm-trustzone-qemu/)), the QEMU ARM TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
+Since the past blog post ([https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)), the QEMU ARM TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
 
 The instructions in the previous blog post are still relevant and may be followed for executing secure images.
 
@@ -367,4 +367,4 @@ Currently, the tests are restricted to the ARM Versatile Express and Virt machin
 
 [5] DDI0406C ARM® Architecture Reference Manual - ARMv7-A and ARMv7-R edition
 
-[6] [https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/)
+[6] [https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](https://www.linaro.org/blog/arm-trustzone-qemu/)

@@ -466,7 +466,7 @@ March
 </dt>
 
 <dd markdown="1">
-Linaro Connect Asia 2014 (LCA14) in Macau [Learn more](/connect/lca/lca14/ "Linaro Connect Asia 2014 (LCA14)")
+Linaro Connect Asia 2014 (LCA14) in Macau [Learn more](http://connect.linaro.org/lca14/ "Linaro Connect Asia 2014 (LCA14)")
 </dd>
 
 <dt markdown="1">
@@ -604,7 +604,7 @@ June
 
 <dd markdown="1">
 Linux Kernel 3.10 released, Linaro ranked #3 company contributor [Read More](http://lwn.net/Articles/555968/ "Linaro ranked #3 company contributor")
-</dd>
+</dd>"Linaro board meeting May"
 
 <dt markdown="1">
 May
@@ -619,7 +619,7 @@ May
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Board_Minutes_30th_May_2013-signed.pdf "Linaro board meeting May")
+Linaro board meeting [View meeting minutes](/assets/downloads/Board_Minutes_30th_May_2013-signed.pdf "Linaro board meeting May")
 </dd>
 
 <dt markdown="1">
@@ -627,7 +627,7 @@ April
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Board_Minutes_9_April_2013.pdf "Linaro board meeting April")
+Linaro board meeting [View meeting minutes](/assets/downloads/Board_Minutes_9_April_2013.pdf "Linaro board meeting April")
 </dd>
 
 <dt markdown="1">
@@ -659,7 +659,7 @@ February
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [Viewmeeting minutes](/downloads/pdf/Board_Minutes_5_Feb_2013.pdf "Linaro board meeting Feb")
+Linaro board meeting [Viewmeeting minutes](/assets/downloads/Board_Minutes_5_Feb_2013.pdf "Linaro board meeting Feb")
 </dd>
 
 <dt markdown="1">
@@ -695,7 +695,7 @@ December
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Board_Minutes_5_December_20121.pdf "December Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Board_Minutes_5_December_20121.pdf "December Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -753,7 +753,7 @@ September
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Board_Minutes_11_Sept_2012.2_.pdf "September Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Board_Minutes_11_Sept_2012.2_.pdf "September Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -769,7 +769,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Board_Minutes_26_July_20122.pdf "July Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Board_Minutes_26_July_20122.pdf "July Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -802,7 +802,7 @@ April
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Linaro-Board-Meeting-Minutes-17-April.pdf "April Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Linaro-Board-Meeting-Minutes-17-April.pdf "April Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -826,7 +826,7 @@ January
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Linaro_Board_Meeting_Minutes_January_20122.pdf "January Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Linaro_Board_Meeting_Minutes_January_20122.pdf "January Linaro board meeting")
 </dd>
 
 </dl>
@@ -880,7 +880,7 @@ October
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Linaro-Board-Meeting-Minutes-October-2011.pdf "October Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Linaro-Board-Meeting-Minutes-October-2011.pdf "October Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -905,7 +905,7 @@ August
 </dt>
 
 <dd markdown="1">
-Linaro board meeting  [View meeting minutes](/downloads/pdf/August-2011-Linaro-Board-Public-Meeting-Minutes.pdf "August Linaro board meeting")
+Linaro board meeting  [View meeting minutes](/assets/downloads/August-2011-Linaro-Board-Public-Meeting-Minutes.pdf "August Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -929,7 +929,7 @@ May
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/LinaroBoardMinutesMay2011.pdf "May Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/LinaroBoardMinutesMay2011.pdf "May Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -953,7 +953,7 @@ January
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/January-2011-Board-Meeting-Minutes.pdf "January Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/January-2011-Board-Meeting-Minutes.pdf "January Linaro board meeting")
 </dd>
 
 </dl>
@@ -979,7 +979,7 @@ September
 </dt>
 
 <dd markdown="1">
-Linaro board meeting [View meeting minutes](/downloads/pdf/Linaro-Board-Minutes-2010-09-OPEN-Publish-Final.pdf "September Linaro board meeting")
+Linaro board meeting [View meeting minutes](/assets/downloads/Linaro-Board-Minutes-2010-09-OPEN-Publish-Final.pdf "September Linaro board meeting")
 </dd>
 
 <dt markdown="1">
@@ -987,7 +987,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro membership rules created [Learn more](/downloads/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf "Linaro membership rules created")
+Linaro membership rules created [Learn more](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf "Linaro membership rules created")
 </dd>
 
 <dt markdown="1">
@@ -1013,7 +1013,7 @@ Freescale, Samsung, ST-Ericsson, Texas Instruments (TI) [Press release](/news/ar
 June</dt>
 
 <dd markdown="1">
-Articles of Association created [Learn more](/downloads/pdf/Linaro-Articles-of-Association-New-June-2010.pdf "Articles of Association created")
+Articles of Association created [Learn more](/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf "Articles of Association created")
 </dd>
 
 <dt markdown="1">
