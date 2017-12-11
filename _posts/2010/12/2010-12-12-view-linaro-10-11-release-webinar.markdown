@@ -34,5 +34,3 @@ This talk outlined the progress made by Linaro, a new not for profit organisatio
   4. How silicon partners can use Linaro to improve their Linux support
   5. How to join the Linaro community and get involved
 
-
-[View this Webinar](/resources)
