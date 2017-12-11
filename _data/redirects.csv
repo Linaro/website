@@ -1,33 +1,48 @@
-/developers/organizations/,https://www.linaro.org/developers/
+/developers/organizations/index.html,https://www.linaro.org/developers/
 /developers/organizations,https://www.linaro.org/developers/
-/developers/individuals/,https://www.linaro.org/developers/
+/developers/individuals/index.html,https://www.linaro.org/developers/
 /developers/individuals,https://www.linaro.org/developers/
-/leg/,https://www.linaro.org/leg/servercluster/
-/downloads-draft/,https://www.linaro.org/downloads/
+/leg/index.html,https://www.linaro.org/leg/servercluster/
+/downloads-draft/index.html,https://www.linaro.org/downloads/
 /downloads-draft,https://www.linaro.org/downloads/
 # Developer Services
-/linaro-developer-services-android/,https://www.linaro.org/services/android/
+/linaro-developer-services-android/index.html,https://www.linaro.org/services/android/
 /linaro-developer-services-android,https://www.linaro.org/services/android/
-/services-linux/linux-kernel/,https://www.linaro.org/services/linux/kernel/
+/services-linux/linux-kernel/index.html,https://www.linaro.org/services/linux/kernel/
 /services-linux/linux-kernel,https://www.linaro.org/services/linux/kernel/
-/linaro-developer-services-96boards-2/,https://www.linaro.org/services/96boards/
+/linaro-developer-services-96boards-2/index.html,https://www.linaro.org/services/96boards/
 /linaro-developer-services-96boards-2,https://www.linaro.org/services/96boards/
-/linaro-developer-services-datacenteranddevelopercloud/,https://www.linaro.org/services/datacenter-developer-cloud/
+/linaro-developer-services-datacenteranddevelopercloud/index.html,https://www.linaro.org/services/datacenter-developer-cloud/
 /linaro-developer-services-datacenteranddevelopercloud,https://www.linaro.org/services/datacenter-developer-cloud/
-/verification-testing-continuous-integration-ci/,https://www.linaro.org/services/verification-testing-ci/
+/verification-testing-continuous-integration-ci/index.html,https://www.linaro.org/services/verification-testing-ci/
 /verification-testing-continuous-integration-ci,https://www.linaro.org/services/verification-testing-ci/
-/training/,https://www.linaro.org/services/training/
+/training/index.html,https://www.linaro.org/services/training/
 /training,https://www.linaro.org/services/training/
-/services-linux/security/,https://www.linaro.org/services/linux/security/
+/services-linux/security/index.html,https://www.linaro.org/services/linux/security/
 /services-linux/security,https://www.linaro.org/services/linux/security/
-/services-linux/optimization-services/,https://www.linaro.org/services/linux/optimization-services/
+/services-linux/optimization-services/index.html,https://www.linaro.org/services/linux/optimization-services/
 /services-linux/optimization-services,https://www.linaro.org/services/linux/optimization-services/
-/services-linux/,https://www.linaro.org/services/
+/services-linux/index.html,https://www.linaro.org/services/
 /services-linux,https://www.linaro.org/services/
-/services-linux/bootloaders/,https://www.linaro.org/services/linux/bootloaders/
+/services-linux/bootloaders/index.html,https://www.linaro.org/services/linux/bootloaders/
 /services-linux/bootloaders,https://www.linaro.org/services/linux/bootloaders/
 /professional-services/index.html,https://www.linaro.org/services/
 /professional-services,https://www.linaro.org/services/
+# Developer Service Redirects
+/services/android,https://www.linaro.org/services/
+/services/android/index.html,https://www.linaro.org/services/
+/services/linux,https://www.linaro.org/services/
+/services/linux/index.html,https://www.linaro.org/services/
+/services/training,https://www.linaro.org/services/
+/services/training/index.html,https://www.linaro.org/services/
+/services/datacenter-developer-cloud,https://www.linaro.org/services/
+/services/datacenter-developer-cloud/index.html,https://www.linaro.org/services/
+/services/rtos-iot-embedded,https://www.linaro.org/services/
+/services/rtos-iot-embedded/index.html,https://www.linaro.org/services/
+/services/servers-gateways-development-boards,https://www.linaro.org/services/
+/services/servers-gateways-development-boards/index.html,https://www.linaro.org/services/
+/services/verification-testing-ci,https://www.linaro.org/services/
+/services/verification-testing-ci/index.html,https://www.linaro.org/services/
 # Companies Pages Redirects
 /companies/96boards/index.html,https://www.linaro.org/company/
 /companies/96boards,https://www.linaro.org/company/
@@ -657,7 +672,7 @@
 /blog/core-dump/ensuring-bootable-arm-vm-images,https://www.linaro.org/blog/ensuring-bootable-arm-vm-images/
 /blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel,https://www.linaro.org/blog/accelerated-aes-for-the-arm64-linux-kernel/
 /blog/core-dump/day-2-ospm-summit-pisa-italy,https://www.linaro.org/blog/day-2-ospm-summit-pisa-italy/
-/linaro-blog/2011/05/28/linaro-11-05-released/,https://www.linaro.org/blog/linaro-11-05-released/
+/linaro-blog/2011/05/28/linaro-11-05-released/index.html,https://www.linaro.org/blog/linaro-11-05-released/
 #
 /blog/core-dump/day-1-ospm-summit-pisa-italy/index.html,https://www.linaro.org/blog/day-1-ospm-summit-pisa-italy/
 /blog/core-dump/whats-new-qemu-2-9/index.html,https://www.linaro.org/blog/whats-new-qemu-2-9/
@@ -667,7 +682,7 @@
 /resources/index.html,http://connect.linaro.org/resources
 /resources,http://connect.linaro.org/resources
 /connect,http://connect.linaro.org/
-/connect/,http://connect.linaro.org/
+/connect/index.html,http://connect.linaro.org/
 # Edge Slider Redirects
 /edge/96boards/index.html,https://www.linaro.org
 /edge/96boards,https://www.linaro.org
@@ -717,7 +732,7 @@
 /downloads/pdf/January-2011-Board-Meeting-Minutes.pdf,https://www.linaro.org/assets/downloads/January-2011-Board-Meeting-Minutes.pdf
 /app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf,https://www.linaro.org/assets/downloads/VMSystemSpecificationForARM-v2.0.pdf
 # Projects
-/projects/networking/,https://www.linaro.org/groups/lng/
+/projects/networking,https://www.linaro.org/groups/lng/
 /projects/networking/index.html,https://www.linaro.org/groups/lng/
 
 
