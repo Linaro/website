@@ -25,7 +25,7 @@ wordpress_id: 7787
 
 # Testing QEMU ARM TrustZone
 
-A while back we wrote about the [QEMU implementation of ARM TrustZone](/blog/core-dump/arm-trustzone-qemu/), also known as ARM Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
+A while back we wrote about the [QEMU implementation of ARM TrustZone](/blog/arm-trustzone-qemu/), also known as ARM Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
 
 ### Ongoing Work and Progress
 
