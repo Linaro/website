@@ -25,7 +25,7 @@ The ARM Server is taking a front row seat at Linaro Connect Asia 2013 in Hong Ko
 
 ## **ARM Server Mini-Summit**
 
-{% include image.html name="Mark-Heath-.jpg" alt="Mark Heath" url="uk.linkedin.com/pub/mark-heath/1/a84/9b8" class="small-inline"%}
+{% include image.html name="Mark-Heath-.jpg" alt="Mark Heath" url="https://www.linkedin.com/in/markheathuk/" class="small-inline"%}
 
 This mini-summit--a full day of topics focused on ARM servers -- opens with [Lars Kurth](http://wiki.xen.org/wiki/User:Lars.kurth) and [Mark Heath](http://www.linkedin.com/pub/mark-heath/1/a84/9b8) from Citrix. The keynote will highlight the architectural match between the Xen and the ARM architectures. “Xen is an important Platform for Citrix and that by supporting ARM, we are extending the addressable market for Xen into new use-cases. This is also a great match with the Citrix position and vision”, said Kurth in an email response about the audience could “take-away” from this keynote. Kurth also noted that Xen on ARM will create a lot of interesting opportunities for the greater Linaro community.
 
