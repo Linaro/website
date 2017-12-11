@@ -6,7 +6,6 @@
 //= require vendor/twitter
 
 //= require app/main
-//= require app/twitter-birds
 //= require app/home
 //= require app/tables
 //= require vendor/mc-validate

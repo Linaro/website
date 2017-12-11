@@ -1,188 +1,324 @@
+
+div#birds-container {
+top: 320px;
+position: relative;
+}
+
+
 #linaro-latest-tweets .linaro-tweet {
-    padding: 20px;
+padding: 20px;
 }
 
 #linaro-latest-tweets .tweet-header {
-    overflow: auto;
-    padding: 5px;
-    border-bottom: 1px solid #eee;
+overflow: auto;
+padding: 5px;
+border-bottom: 1px solid #eee;
 }
 
 #linaro-latest-tweets .tweet-inner-content {
-    overflow: auto;
-    padding-top: 0;
-    padding: 5px;
-    border-bottom: 1px solid #eee;
+overflow: auto;
+padding-top: 0;
+padding: 5px;
+border-bottom: 1px solid #eee;
 }
 #linaro-latest-tweets .tweet-footer {
-    overflow: auto;
-    padding-top: 0;
-    padding: 5px;
+overflow: auto;
+padding-top: 0;
+padding: 5px;
 }
 
 
 
 #linaro-latest-tweets  p.tweet-content{
-    font-size: 12px;
-    margin-bottom: 0;
+font-size: 12px;
+margin-bottom: 0;
 }
 
 
 #linaro-latest-tweets  div.tweet-img{
-    width: 100%;
-    padding:0px;
-    margin-top: 0px;
-    height: auto;
+width: 100%;
+padding:0px;
+margin-top: 0px;
+height: auto;
 }
 
 #linaro-latest-tweets  div.tweet-img > img {
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
+width: 100%;
+height: auto;
+margin-top: 5px;
 }
 
 #linaro-latest-tweets  .tweet-inner {
-    border: 1px solid #eee;
-    overflow: auto;
-    background-color: white;
-    z-index: 99999;
+border: 1px solid #eee;
+overflow: auto;
+background-color: white;
+z-index: 99999;
 }
 
-.row.tweet-row {    overflow: auto;
-    padding: 10px;
-    margin-top:100px;
-    margin-bottom: 100px;
+.row.tweet-row {
+padding: 10px;
+margin-top:100px;
+margin-bottom: 100px;
 }
 
 #linaro-latest-tweets p.interact {
-    margin-bottom: 0;
-    float: left;
-    width: auto;
-    padding-left:5px;
-    font-size: 12px;
+margin-bottom: 0;
+float: left;
+width: auto;
+padding-left:5px;
+font-size: 12px;
 }
 #linaro-latest-tweets p.interact > a {
-    color: #b3b3b3;
-    transition: all .5s linear;
+color: #b3b3b3;
+transition: all .5s linear;
 }
 #linaro-latest-tweets p.interact > a:hover {
-    color: #252525;
+color: #252525;
 }
 #linaro-latest-tweets p.interact > a > i {
-    margin-bottom: 0;
-    float: left;
-    width: 20px;
-    margin-right:5px;
+margin-bottom: 0;
+float: left;
+width: 20px;
+margin-right:5px;
 }
 
 
-
-// New
-
 #linaro-latest-tweets p.tweet-infos {
-    margin-bottom: 0px;
-    font-size: 12px;
-    text-align: right;
+margin-bottom: 0px;
+font-size: 12px;
+text-align: right;
 }
 
 #linaro-latest-tweets .tweet-user-img {
-    padding: 0;
+padding: 0;
 }
 #linaro-latest-tweets .tweet-user-img > img {
-        border: 1px solid #eee;
+    border: 1px solid #eee;
 }
 #linaro-latest-tweets .tweet-user-name {
-       padding:0;
-       padding-left: 20px;
+   padding:0;
+   padding-left: 20px;
 }
 #linaro-latest-tweets .tweet-user-name a {
-    color: #252525;
+color: #252525;
 }
 #linaro-latest-tweets .tweet-user-name a >  h3 {
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    font-size: 16px;
+padding: 0;
+margin: 0;
+margin-top: 5px;
+font-size: 16px;
 }
 
 #linaro-latest-tweets .tweet-user-name  a > small {
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    font-size: 12px;
+padding: 0;
+margin: 0;
+margin-top: 5px;
+font-size: 12px;
 }
 #linaro-latest-tweets .tweet-user-img > a > img {
-    border: 1px solid #eee;
-    height: 50px;
+border: 1px solid #eee;
+height: 50px;
 }
 
 #linaro-latest-tweets .twitter-bird  {
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    font-size: 12px;
-    color: #1da1f2;
-    transition: all .5s linear;
+padding: 0;
+margin: 0;
+margin-top: 5px;
+font-size: 12px;
+color: #1da1f2;
+transition: all .5s linear;
 }
 #linaro-latest-tweets .twitter-bird > a  {
-    color: #1da1f2;
-    transition: all .5s linear;
+color: #1da1f2;
+transition: all .5s linear;
 }
 
 #linaro-latest-tweets .twitter-bird > a:hover {
-    color: #106ca5;
+color: #106ca5;
 }
 
 
 
 
-.flying-twitter-bird  path.bird {
-    fill:  #dae1e5;  
+.flying-twitter-bird > svg > g > path {
+fill:  #dae1e5;  
 }
+
+.flying-twitter-bird > svg {
+transform: rotate(22deg);
+}
+
 
 .flying-twitter-bird {
-    // Position set to absolute
-    position: absolute;
-    
-    //Initial Rotation to make the birds actually face forwards    
-    transform: rotate(30deg);
+position: absolute;
+left: 0px;
 
-    // Subtle animation to couple with the javascript animation
-    animation: movement 5s linear infinite;
-    
+opacity: 0;
+
+animation: movement 30s linear infinite;
+
+transition: all 100ms ease;
+
 }
 
-// Big Birds
-.flying-twitter-bird.big {
-    height: 60px;
-    width: 60px;
-}
-.flying-twitter-bird.big.1 {top: 10px; right: 10px;}
-.flying-twitter-bird.big.2 {top: 0px; right: 100px;}
-.flying-twitter-bird.big.3 {top: 100px; right: 100px;}
-.flying-twitter-bird.big.4 {top: 0px; right: 200px;}
-.flying-twitter-bird.big.5 {top: 100px; right: 200px;}
-
-
-.flying-twitter-bird.small.1 {top: 10px; right: 60px;}
-.flying-twitter-bird.small.2 {top: 0px; right: 160px;}
-.flying-twitter-bird.small.3 {top: 100px; right: 160px;}
-.flying-twitter-bird.small.4 {top: 0px; right: 260px;}
-.flying-twitter-bird.small.5 {top: 100px; right: 260px;}
-
-// Small Birds
 .flying-twitter-bird.small {
-    width: 40px;
-    height: 40px;
+animation-delay: 3s;
 }
+
+.flying-twitter-bird.small {
+width: 20px;
+height: 20px;
+}
+.flying-twitter-bird.small.two{
+margin-top: 200px;
+animation-delay: 7s;
+}
+.flying-twitter-bird.small.three {
+margin-top: 160px;
+animation-delay: 15s;
+}
+.flying-twitter-bird.small.four {
+margin-top: 70px;
+animation-delay: 20s;
+}
+.flying-twitter-bird.small.five {
+margin-top: 200px;
+animation-delay: 25s;
+}
+
+.flying-twitter-bird.big {
+height: 60px;
+width: 60px;
+}
+.flying-twitter-bird.big.two {
+margin-top: 200px;    
+animation-delay: 5s;
+}
+
+.flying-twitter-bird.big.three {
+margin-top: 150px;    
+animation-delay: 12s;
+}
+
+.flying-twitter-bird.big.four {
+margin-top: 70px;    
+animation-delay: 16s;
+}
+
+.flying-twitter-bird.big.five {
+margin-top: 180px;    
+animation-delay: 24s;
+}
+
+
 
 
 @keyframes movement{
+0% {
+  left: 0px;
+  transform: rotate(30deg);
+  transform: translateY(0px);
+}
+1%{
+    opacity: 0;
+}
+2%{
+    opacity: .1;
+}
+3%{
+    opacity: .3;
+}
+4%{
+    opacity: .5;
+}
+5%{
+    opacity: .7;
+}
+10% {
+    opacity: 1;
+    transform: rotate(29deg);
+    transform: translateY(2px);
+}
+20% {
+    transform: rotate(28deg);
+    transform: translateY(5px);
+}
+30% {
+    transform: rotate(27deg);
+    transform: translateY(10px);
+}
+40% {
+    transform: rotate(26deg);
+    transform: translateY(15px);
+}
+50% {
+    transform: rotate(26deg);
+    transform: translateY(15px);
+    left: 50vw
+}
+60% {
+    transform: rotate(26deg);
+    transform: translateY(15px);
+}
+70% {
+    transform: rotate(27deg);
+    transform: translateY(10px);
+}
+80% {
+    transform: rotate(28deg);
+    transform: translateY(5px);
+}
+90% {
+    transform: rotate(29deg);
+    transform: translateY(2px);
+}
+95%{
+    opacity: 1;
+}
+96%{
+    opacity: .7;
+}
+97%{
+    opacity: .5;
+}
+98%{
+    opacity: .3;
+}
+99%{
+    opacity: .1;
+}
+100% {
+    transform: rotate(30deg);
+    transform: translateY(0px);
+    opacity: 0;
+    left: 90vw;
+}
+}
+
+@media(max-width:767px){
+@keyframes movement{
     0% {
+      left: 0px;
       transform: rotate(30deg);
       transform: translateY(0px);
     }
+    1%{
+        opacity: 0;
+    }
+    2%{
+        opacity: .1;
+    }
+    3%{
+        opacity: .3;
+    }
+    4%{
+        opacity: .5;
+    }
+    5%{
+        opacity: .7;
+    }
     10% {
+        opacity: 1;
         transform: rotate(29deg);
         transform: translateY(2px);
     }
@@ -201,6 +337,7 @@
     50% {
         transform: rotate(26deg);
         transform: translateY(15px);
+        left: 50vw
     }
     60% {
         transform: rotate(26deg);
@@ -215,11 +352,29 @@
         transform: translateY(5px);
     }
     90% {
-        transform: rotate(29deg);
+        transform: rotate(29deg);transform: translateY(2px);
         transform: translateY(2px);
+    }
+    95%{
+        opacity: 1;
+    }
+    96%{
+        opacity: .7;
+    }
+    97%{
+        opacity: .5;
+    }
+    98%{
+        opacity: .3;
+    }
+    99%{
+        opacity: .1;
     }
     100% {
         transform: rotate(30deg);
         transform: translateY(0px);
+        opacity: 0;
+        left: 80vw;
     }
+}
 }
