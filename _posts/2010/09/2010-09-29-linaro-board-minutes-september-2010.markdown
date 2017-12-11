@@ -13,4 +13,4 @@ wordpress_id: 4399
 
 CAMBRIDGE, UK - 29 SEP 2010
 
-See the latest meeting minutes of the Linaro board meeting. [Download the PDF](/assets/downloads/pdf/Linaro-Board-Minutes-2010-09-OPEN-Publish-Final.pdf)
+See the latest meeting minutes of the Linaro board meeting. [Download the PDF](/assets/downloads/Linaro-Board-Minutes-2010-09-OPEN-Publish-Final.pdf)
