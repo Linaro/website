@@ -1336,7 +1336,7 @@ Friday (G+ HOA) (11 Videos)
 <td markdown="1">
 
 
-[LinaroOrg Channel](http://www.youtube.com/user/linaroorg) ([FormsComm](/FormsComm)) (30 Videos)
+[LinaroOrg Channel](http://www.youtube.com/user/linaroorg) ([FormsComm]()) (30 Videos)
 
 
 
@@ -2497,7 +2497,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-**Congratulations to all who received these awards.** The video for the Awards session can be seen [here](http://youtu.be/ptznEo_8hEU). For those who can’t access [YouTube](/YouTube) the download is available [here](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/LCA-13%20Awards-ptznEo_8hEU.mp4).
+**Congratulations to all who received these awards.** The video for the Awards session can be seen [here](http://youtu.be/ptznEo_8hEU). For those who can’t access YouTube the download is available [here](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/LCA-13%20Awards-ptznEo_8hEU.mp4).
 
 
 
