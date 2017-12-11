@@ -37,7 +37,7 @@ In the current setup, we offer a tar package(or overlay) of binaries (MM, HDMI, 
 Detailed instructions are given on [the release page](https://android-build.linaro.org/builds/~linaro-android/origen-ics-gcc46-samsunglt-stable-blob-12.03-release/).
 
 **Getting Involved**
-Checkout the 12.03 Linaro Android Origen release and fire up a bug report if you come across any or ask for support/queries on our [linaro-android mailing list](linaro-android@lists.linaro.org). We also hang out on the _#linaro-android_ IRC channel on Freenode.
+Checkout the 12.03 Linaro Android Origen release and fire up a bug report if you come across any or ask for support/queries on our [linaro-android mailing list](mailto:linaro-android@lists.linaro.org). We also hang out on the _#linaro-android_ IRC channel on Freenode.
 
 Users can also download sample video files from [http://samplemedia.linaro.org/H264/](http://samplemedia.linaro.org/H264/) to validate/test video on their Origen board.
 
