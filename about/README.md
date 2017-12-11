@@ -466,7 +466,7 @@ March
 </dt>
 
 <dd markdown="1">
-Linaro Connect Asia 2014 (LCA14) in Macau [Learn more](/connect/lca/lca14/ "Linaro Connect Asia 2014 (LCA14)")
+Linaro Connect Asia 2014 (LCA14) in Macau [Learn more](http://connect.linaro.org/lca14/ "Linaro Connect Asia 2014 (LCA14)")
 </dd>
 
 <dt markdown="1">
