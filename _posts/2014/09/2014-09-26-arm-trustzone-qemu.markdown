@@ -66,7 +66,7 @@ The primary goal of adding the security extensions support to QEMU’s ARM targe
 
 Developers can use the QEMU ARM Security Extensions to develop and work with Trusted Execution Environments (TEEs) that are likely to be the primary consumers of the added functionality. Secure applications can then be developed on the added TEEs without the need for dedicated hardware.
 
-Linaro is currently working on running open-source TEE (OP-TEE) software on top of QEMU for two reasons. Firstly, to provide a concrete real-world use case. Secondly, to stress-test the added QEMU functionality to insure proper operation. Linaro is already engaged in efforts of developing an open source TEE solution that will be a likely candidate. More details about the OP-TEE work can be found [here](/blog/core-dump/op-tee-open-source-security-mass-market/).
+Linaro is currently working on running open-source TEE (OP-TEE) software on top of QEMU for two reasons. Firstly, to provide a concrete real-world use case. Secondly, to stress-test the added QEMU functionality to insure proper operation. Linaro is already engaged in efforts of developing an open source TEE solution that will be a likely candidate. More details about the OP-TEE work can be found [here](/blog/op-tee-open-source-security-mass-market/).
 
 To reiterate, the addition of the ARM Security Extensions to QEMU allows for the coexistence of separate secure and non-secure software where QEMU emulates the architectural facilities that bridge the two worlds.
 
