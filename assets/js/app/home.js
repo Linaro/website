@@ -1,25 +1,4 @@
 $(document).ready(function(){
-    
-    
-    // Home Twitter Birds
-    
-   // var screenWidth = $(window).innerHeight;
-   // 
-   // var startPos = screenWidth;
-   // var bird = $('.flying-twitter-bird');
-   // 
-   //  function flyBird(){
-   //      bird.css('right', startPos);
-   //      bird.animate({right: -200}, 1000, 'linear')
-   //  };
-   // 
-   //  
-   //  flyBird();
-   //  
-   //  setInterval(function() {
-   //      flyBird();
-   //  },9000);
-   //  
 
     // Home Stick Nav
 
