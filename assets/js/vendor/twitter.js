@@ -89,9 +89,9 @@ function populateTpl(tweets){
       
     var tweetObject = tweets[i];
     
-    console.log(tweetObject);
+    // console.log(tweetObject);
     
-    html += '<div class="col-xs-12 col-md-5ths linaro-tweet tweet-id-' + i + '">'
+    html += '<div class="col-xs-12 col-sm-4 col-md-4 col-lg-5ths linaro-tweet tweet-id-' + i + '">'
       + '<div class="tweet-inner">'
       + '<div class="tweet-header">'
       + '<div class="col-xs-2 tweet-user-img">'
