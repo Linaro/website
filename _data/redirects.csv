@@ -734,11 +734,17 @@
 # Projects
 /projects/networking,https://www.linaro.org/groups/lng/
 /projects/networking/index.html,https://www.linaro.org/groups/lng/
-
-
-
-
-
+# Old Wordpress Apache Level Redirects
+/watercooler,https://bluejeans.com/555111222333/
+/watercooler/index.html,https://bluejeans.com/555111222333/
+/lngadmin,https://bluejeans.com/564564564/
+/lngadmin/index.html,https://bluejeans.com/564564564/
+/lnginternal,https://bluejeans.com/564564564564/
+/lnginternal/index.html,https://bluejeans.com/564564564564/
+/lngexternal,https://bluejeans.com/564564564564564/
+/lngexternal/index.html,https://bluejeans.com/564564564564564/
+/lmgroom,https://bluejeans.com/5073963641/
+/lmgroom/index.html,https://bluejeans.com/5073963641/
 
 
 
