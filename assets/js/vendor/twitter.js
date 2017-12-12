@@ -68,7 +68,7 @@ handleTweets(arrayTweets);inProgress=false;if(queue.length>0){twitterFetcher.fet
 var twitterConfig = {
     "profile": {"screenName": 'LinaroOrg'},
     "dataOnly": true,
-    "maxTweets": 5,
+    "maxTweets": 4,
     "enableLinks": true,
     "showUser": true,
     "showImages": true,
@@ -91,7 +91,7 @@ function populateTpl(tweets){
     
     // console.log(tweetObject);
     
-    html += '<div class="col-xs-12 col-sm-4 col-md-4 col-lg-5ths linaro-tweet tweet-id-' + i + '">'
+    html += '<div class="col-xs-12 col-sm-4 col-md-3 linaro-tweet tweet-id-' + i + '">'
       + '<div class="tweet-inner">'
       + '<div class="tweet-header">'
       + '<div class="col-xs-2 tweet-user-img">'

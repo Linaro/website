@@ -1,7 +1,14 @@
 
 div#birds-container {
-top: 320px;
+top: 200px;
 position: relative;
+}
+
+@media(max-width:767px){
+    div#birds-container {
+        top: -80px;
+        position: relative;
+    }
 }
 
 
@@ -16,10 +23,12 @@ border-bottom: 1px solid #eee;
 }
 
 #linaro-latest-tweets .tweet-inner-content {
-overflow: auto;
-padding-top: 0;
-padding: 5px;
-border-bottom: 1px solid #eee;
+    padding-top: 0;
+    padding: 5px;
+    padding-top:0px;
+    padding-right:0px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
 }
 #linaro-latest-tweets .tweet-footer {
 overflow: auto;
@@ -27,19 +36,44 @@ padding-top: 0;
 padding: 5px;
 }
 
+// Anything below the large container size
+@media(min-width:1459px){
+    #linaro-latest-tweets .tweet-user-name {
+        padding-left: 35px;
+    }
+}
+
+
+
+p.tweet-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+p.tweet-content::-webkit-scrollbar-track {
+    border: 1px solid #eee;
+}
+
+p.tweet-content::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    border: 1px solid #eee;
+    background-color: #eee;
+}
 
 
 #linaro-latest-tweets  p.tweet-content{
-font-size: 12px;
-margin-bottom: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+    height: 130px;
+    padding-right: 5px;
+    overflow-y: scroll;
 }
 
 
 #linaro-latest-tweets  div.tweet-img{
-width: 100%;
-padding:0px;
-margin-top: 0px;
-height: auto;
+    width: 100%;
+    padding:0px;
+    margin-top: 0px;
+    height: 170px;
 }
 
 #linaro-latest-tweets  div.tweet-img > img {
