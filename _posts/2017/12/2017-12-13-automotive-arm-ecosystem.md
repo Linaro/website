@@ -22,7 +22,7 @@ Over the last year we have been discussing how Linaro might help the Arm Ecosyst
 
 First, we should define some automotive platforms. Standard hardware platforms, including 96boards, have really helped pull software together for various projects within Linaro and will greatly help with automotive. There’s a lot of Linaro activity already on these platforms, much of which is useful for automotive - for example OP-TEE, an open source trusted execution environment. These efforts are already being used by Linaro members in their automotive offerings.
 
-Secondly, there is some useful work that we could do ensuring that today’s automotive needs are better met by the Arm automotive ecosystem. Linux is mostly used in the dashboard for In Vehicle Infotainment (IFI) and Advanced Driver Assistance Systems (ADAS). Here, the Linux Foundation AGL project (https://www.automotivelinux.org/) has helped, and Linaro is a member. Dan Cauchy, who directs AGL, was at SFO17 and gave an interesting (and well attended) presentation @ SFO17. The main issue for the Arm ecosystem here is fragmentation, but simple things like building software on multiple platforms will show us many issues that might need solving. 
+Secondly, there is some useful work that we could do ensuring that today’s automotive needs are better met by the Arm automotive ecosystem. Linux is mostly used in the dashboard for In Vehicle Infotainment (IFI) and Advanced Driver Assistance Systems (ADAS). Here, the [Linux Foundation AGL project](https://www.automotivelinux.org/) has helped, and Linaro is a member. Dan Cauchy, who directs AGL, was at SFO17 and gave an interesting (and well attended) presentation @ SFO17. The main issue for the Arm ecosystem here is fragmentation, but simple things like building software on multiple platforms will show us many issues that might need solving. 
 
 </div>
 <div class="col-md-4">
@@ -53,7 +53,7 @@ One simple aspect of this is the need to run both safety critical, often real ti
 </div>
 <div class="col-md-8" markdown="1">
 
-Going beyond ADAS towards autonomous driving, we will need to integrate client-side machine learning with the vehicle’s control systems in order to analyse conditions and issue driving instructions to the vehicle. The decision making software will be based around machine learning algorithms (a whole other topic) and you need a subsystem that will control the vehicle. The Robot Operating System, or ROS (http://www.ros.org/) is a good fit on the control side. After all, a vehicle is becoming a robot with wheels. 
+Going beyond ADAS towards autonomous driving, we will need to integrate client-side machine learning with the vehicle’s control systems in order to analyse conditions and issue driving instructions to the vehicle. The decision making software will be based around machine learning algorithms (a whole other topic) and you need a subsystem that will control the vehicle. The Robot Operating System, or [ROS](http://www.ros.org/) is a good fit on the control side. After all, a vehicle is becoming a robot with wheels. 
 
 Fourthly, enable an open dialog between the various suppliers, distributions and end users of the automotive industry. The automotive industry is comprised of long established and trusting supply chains, getting everyone on the same page is important. This is one of the key ingredients for success in other Linaro groups, for example the HPC Special Interest Group (SIG) in LEG, as it helps us choose the right problems to focus on and get the most benefit.
 
