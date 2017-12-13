@@ -14,7 +14,7 @@ keywords: Arm, Automotive, Ecosystem, hardware, 96boards
 featured_image: automotive-arm-ecosystem.png
 ---
 
-<div class="col-sm-8" markdown="1">
+<div class="col-md-8" markdown="1">
 
 # Automotive 
 
@@ -25,14 +25,14 @@ First, we should define some automotive platforms. Standard hardware platforms, 
 Secondly, there is some useful work that we could do ensuring that today’s automotive needs are better met by the Arm automotive ecosystem. Linux is mostly used in the dashboard for In Vehicle Infotainment (IFI) and Advanced Driver Assistance Systems (ADAS). Here, the Linux Foundation AGL project (https://www.automotivelinux.org/) has helped, and Linaro is a member. Dan Cauchy, who directs AGL, was at SFO17 and gave an interesting (and well attended) presentation @ SFO17. The main issue for the Arm ecosystem here is fragmentation, but simple things like building software on multiple platforms will show us many issues that might need solving. 
 
 </div>
-<div class="col-sm-4">
+<div class="col-md-4">
 
 {% include media.html media_url="https://youtu.be/XSk4oeIRRyU" %}
 
 </div>
 
 
-<div class="col-sm-8" markdown="1">
+<div class="col-md-8" markdown="1">
 
 Another aspect of deploying software today is that of being able to update portions of the vehicle software dynamically, just like our everyday mobile devices. It’s unfortunate when your new car is running 10 year old software (as mine is). In Linaro, we have been investigating OpenEmbedded (OE) based gateway frameworks, integrating over the air updates. George Grey (Linaro CEO) demonstrated OTA updates via this platform in his keynote @ SFO17 and some Linaro alumni have started Open Source Foundries to bring this to market as an open source product. 
 
@@ -46,13 +46,12 @@ One simple aspect of this is the need to run both safety critical, often real ti
 
 
 </div>
-
-<div class="col-sm-4">
+<div class="col-md-4">
 
 {% include media.html media_url="https://youtu.be/NEYO7q-x7b0" %}
 
 </div>
-<div class="col-sm-8" markdown="1">
+<div class="col-md-8" markdown="1">
 
 Going beyond ADAS towards autonomous driving, we will need to integrate client-side machine learning with the vehicle’s control systems in order to analyse conditions and issue driving instructions to the vehicle. The decision making software will be based around machine learning algorithms (a whole other topic) and you need a subsystem that will control the vehicle. The Robot Operating System, or ROS (http://www.ros.org/) is a good fit on the control side. After all, a vehicle is becoming a robot with wheels. 
 
@@ -65,7 +64,7 @@ What’s next for automotive in Linaro? In September, at SFO17, the TSC agreed t
 
 </div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
 
 {% include media.html media_url="https://youtu.be/DSFjAawIvmU" %}
 
