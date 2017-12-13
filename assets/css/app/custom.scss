@@ -27,8 +27,31 @@
     }
 }
 
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+    margin-bottom: 25px;
+}
+
+article.post-content {
+    overflow: auto;
+}
+
+article.post-content > .col-md-8 {
+    padding: 0;
+}
+article.post-content > .col-md-4 {
+    padding: 15px;
+}
+
 
 @media (max-width: 767px) {
+    
+    
+    article.post-content > .col-md-4 {
+        padding: 0px;
+    }
+    
+    
     a.left.carousel-control {
         display: none;
     }
