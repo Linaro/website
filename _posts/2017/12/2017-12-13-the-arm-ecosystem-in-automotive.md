@@ -2,16 +2,16 @@
 author: david.rusling
 date: 2017-12-13 8:00:00+00:00
 layout: featured-image-post
-title: Automotive Arm Ecosystem
+title: The Arm Ecosystem in Automotive
 categories:
 - blog
-tags: 
-- Arm
-- HPC
-- Workshop
-- Japan
-keywords: Arm, Automotive, Ecosystem, hardware, 96boards
-featured_image: automotive-arm-ecosystem.png
+tags: Arm, Automotive, Ecosystem, Hardware, 96boards
+keywords: Arm, Automotive, Ecosystem, Hardware, 96boards
+image:
+    featured: true
+    path: /assets/images/blog/automotive-arm-ecosystem.png
+    name: automotive-arm-ecosystem.png
+
 ---
 
 <div class="col-md-8" markdown="1">

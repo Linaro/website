@@ -11,7 +11,10 @@ tags:
 - Workshop
 - Japan
 keywords: Arm, HPC, Workshop, Japan
-featured_image: arm-hpc-bg.png
+image:
+    featured: true
+    path: /assets/images/blog/arm-hpc-bg.png
+    name: arm-hpc-bg.png
 ---
 # Arm HPC Workshop Sessions and Speakers
 

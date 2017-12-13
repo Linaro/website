@@ -477,6 +477,20 @@ div.blogs_home_block_post.linaro:hover {
     background-color: #a080b7;
 }
 
+
+//Linaro Home Block
+div.blogs_home_block_post.linaro-two::after {
+    border-width: 44px;
+    border-right-color: #9c3;
+    border-bottom-color: #9c3;
+}
+div.blogs_home_block_post.linaro-two {
+    border-bottom-color: #9c3;
+}
+div.blogs_home_block_post.linaro-two:hover {
+    background-color: #9c3;
+}
+
 // HPC Home Block
 div.blogs_home_block_post.hpc::after {
     border-width: 44px;
