@@ -49,7 +49,7 @@ Want to apply for one of these roles? Then email your information to[ careers@li
 All available career opportunities can be found at:[ http://www.linaro.org/careers/](http://www.linaro.org/careers/)
 
 _**Follow Linaro**_
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](http://www.linaro.org/careers/)
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](http://www.linaro.org/careers/)
 
 _**About Linaro**_
 

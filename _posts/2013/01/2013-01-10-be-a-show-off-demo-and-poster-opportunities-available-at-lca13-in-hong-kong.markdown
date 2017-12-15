@@ -102,4 +102,4 @@ __To find out more, please visit the _[ Linaro Connect Website](http://connect.l
 
 _**Follow Linaro**_
 
-To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
+To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).

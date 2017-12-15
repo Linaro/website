@@ -31,4 +31,4 @@ Below is the abstract of this talk:
 Last year a lot of hype started building around ARM servers, garnering interest from the Sizing Servers lab to determine how well these ARM CPUs actually perform. Testing was performed on the first real ARM server, from Calxeda, to gauge its processing power and power efficiency during standard intrinsic benchmarks as well as realistic workloads. Besides benchmarking we provided a brief introduction to the hardware itself and the management software used to for the Calxeda EnergyCore. You can read our full review at [Anandtech](http://www.anandtech.com/show/6757/calxedas-arm-server-tested).
 
 
-More information on the LCE-13 schedule can be found at: [http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
+More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

@@ -77,4 +77,4 @@ The Google+ Hangout on Air session videos can be found at on the [Linaro on Air 
 ## Remote Participation
 
 
-Remote Participation instructions can be found at: [http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+Remote Participation instructions can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

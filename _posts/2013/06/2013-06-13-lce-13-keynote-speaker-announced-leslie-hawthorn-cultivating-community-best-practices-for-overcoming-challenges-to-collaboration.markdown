@@ -66,4 +66,4 @@ Drawing on years of experience working with hundreds of open source projects, Le
 With open source development as our lens, we will also examine how Negotiation Theory and Collaborative Communication can best be brought to bear in our communities. Attendees will be treated to an examination of real-world scenarios faced by various communities, an understanding of how these communities overcame their challenges and the ongoing work required to maintain community cohesion. Participants will leave with food for discussion on improving their own practices and armed with strategies for improving and strengthening their community relationships.
 
 
-More information on the LCE-13 schedule can be found at: [http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
+More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

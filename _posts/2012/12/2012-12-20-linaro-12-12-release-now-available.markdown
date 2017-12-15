@@ -41,7 +41,7 @@ The [Linaro Enterprise Group (LEG)](http://www.linaro.org/engineering/leg) which
 
 Other Highlights and items of interest for this release cycle are that we have announced the dates and opened registration for[ Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) which will be held at the Gold Coast Hotel in Hong Kong on 4-8 March. Register early as the registration window for this event will close prior to the start of the event. More information about LCA13 can be found [here](http://www.linaro.org/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early) and on [the Linaro website](http://www.linaro.org/connect).
 
-Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
+Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
 
 ### USING THE ANDROID-BASED IMAGES

@@ -41,7 +41,7 @@ All available career opportunities can be found at:[ http://www.linaro.org/caree
 
 _**Follow Linaro**_
 
-_To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)._
+_To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._
 
 _**About Linaro**_
 

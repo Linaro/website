@@ -57,7 +57,7 @@ The 12.11 release cycle has been a busy yet exciting cycle as teams not only con
 
 
 
-Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/112814496864921562564/posts) and [Facebook](https://www.facebook.com/LinaroOrg).
+Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
 ## USING THE ANDROID-BASED IMAGES
 

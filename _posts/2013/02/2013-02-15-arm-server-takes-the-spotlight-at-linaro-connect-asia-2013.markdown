@@ -73,10 +73,10 @@ It’s not too late to join us in Hong Kong and registration for Linaro Connect 
 ### More information:
 
 
-  * **LCA13-Hong Kong**: [http://www.linaro.org/connect](http://www.linaro.org/connect)
+  * **LCA13-Hong Kong**: [Connect](http://connect.linaro.org)
 
 
-  * **Remote Participation: **[http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+  * **Remote Participation: **[http://connect.linaro.org/about/](http://connect.linaro.org/about/)
 
 
-  * **Schedule: **[http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
+  * **Schedule: **[http://connect.linaro.org/about/](http://connect.linaro.org/about/)

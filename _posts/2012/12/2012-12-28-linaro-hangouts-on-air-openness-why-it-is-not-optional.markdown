@@ -27,6 +27,6 @@ We are still ironing out the details and lining up the guests for the other hang
 
 More about the 'Openness, Why it is Not Optional' Hangout can be found on our [Linaro OnAir Event Page](https://plus.google.com/u/0/events/c0j8ui7b1qgavvhluktlsla95pc).
 
-To stay up to date with upcoming Linaro Hangouts on Air be sure to add[ Linaro OnAir](https://plus.google.com/u/0/116754366033915823792/posts) to your circles.  You can also find out more about what is happening in and around Linaro by following us on[ Twitter](https://twitter.com/LinaroOrg), circling us on [ Google+](https://plus.google.com/112814496864921562564/posts) and liking us[ Facebook](https://www.facebook.com/LinaroOrg).
+To stay up to date with upcoming Linaro Hangouts on Air be sure to add[ Linaro OnAir](https://plus.google.com/u/0/116754366033915823792/posts) to your circles.  You can also find out more about what is happening in and around Linaro by following us on[ Twitter](https://twitter.com/LinaroOrg), circling us on [ Google+](https://plus.google.com/+LinaroOnAir) and liking us[ Facebook](https://www.facebook.com/LinaroOrg).
 
 Do you have a topic suggestion for our Hangouts On Air?  Is there a guest you would like to attend and contribute to the discussion; then [let us know](maito:on.air@linaro.org).

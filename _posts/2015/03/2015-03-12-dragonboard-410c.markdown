@@ -35,4 +35,4 @@ Follow 96Boards: [Facebook](https://www.facebook.com/96Boards) / [Twitter](https
 
 Follow Qualcomm: [Facebook](https://www.facebook.com/UKQualcomm?brand_redir=1) / [Twitter](https://twitter.com/qualcomm) / [Youtube](https://www.youtube.com/user/QUALCOMMVlog/videos)  / [Google +](https://plus.google.com/+qualcomm/posts)
 
-Follow Linaro: [Facebook](https://www.facebook.com/LinaroOrg) / [Twitter](https://twitter.com/linaroorg) / [Youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1) / [Google +](https://plus.google.com/112814496864921562564/posts)[/vc_column_text][/vc_column][/vc_row]
+Follow Linaro: [Facebook](https://www.facebook.com/LinaroOrg) / [Twitter](https://twitter.com/linaroorg) / [Youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1) / [Google +](https://plus.google.com/+LinaroOnAir)[/vc_column_text][/vc_column][/vc_row]

@@ -19,7 +19,7 @@ title: Summary of the Android Mini-Summit at Connect Copenhagen 2012
 wordpress_id: 2078
 ---
 
-The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/events/event/lce12-copenhagen/) at the Bella Center in Copenhagen, Denmark.
+The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
 “When we began planning the Mini-Summit Linaro's CTO [[David Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), Tech Lead for the [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
 
@@ -111,7 +111,7 @@ Current Linaro Android Builds can be found at: [https://android-build.linaro.org
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 
-You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/112814496864921562564/posts) and [Facebook](https://www.facebook.com/LinaroOrg).
+You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
 
 ### About:

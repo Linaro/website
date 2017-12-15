@@ -34,10 +34,10 @@ More information about the topics discussed in this interview  can be found at:
   * **Linaro Connect:** [http://www.linaro.org/connect/](http://www.linaro.org/connect/)
 
 
-  * **Linaro Connect Schedule:** [http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
+  * **Linaro Connect Schedule:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
 
 
-  * **Remote Participation:** [http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+  * **Remote Participation:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
 
 
   * **Lava Workshop:** [http://www.linaro.org/2013/02/22/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/](http://www.linaro.org/2013/02/22/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/)

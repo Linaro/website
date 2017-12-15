@@ -55,7 +55,7 @@ Also subscribe to the LEG mailing list and join our IRC channel to stay on top o
 
 For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on ARM.  [Registration for this event is now open](http://www.linaro.org/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/).
 
-Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
+Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
 [1]The 2013 LEG release schedule has yet to be finalized; however; you can follow our [wiki page](https://wiki.linaro.org/LEG) for all the latest updates.
 

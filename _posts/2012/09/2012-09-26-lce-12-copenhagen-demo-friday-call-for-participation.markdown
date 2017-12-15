@@ -17,7 +17,7 @@ title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
 wordpress_id: 1911
 ---
 
-Linaro Connect ([LCE 12 - Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/)) is just around the corner and with a little over one month until the event we are pleased to announce the call for demonstrations is now open. The Demo Friday event will take place on Friday 2 November at the Bella Center, in Copenhagen, Denmark as part of LCE 12 Copenhagen.
+Linaro Connect ([LCE 12 - Copenhagen](http://connect.linaro.org/resources/)) is just around the corner and with a little over one month until the event we are pleased to announce the call for demonstrations is now open. The Demo Friday event will take place on Friday 2 November at the Bella Center, in Copenhagen, Denmark as part of LCE 12 Copenhagen.
 
 If you’ve not participated or attended previously, you can get an idea of what the event entails by taking a look at the previous events videos: [http://www.youtube.com/user/linaroorg](http://www.youtube.com/user/linaroorg)
 
@@ -64,7 +64,7 @@ This coming October, over 200 participants, ranging from kernel hackers to integ
 
 As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](http://www.linaro.org/linaro-blog/2012/09/19/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [ARMv8(64bit) and big.LITTLE](http://www.linaro.org/linaro-blog/2012/09/12/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
 
-Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/#travel) and help drive the future of Linux on ARM!
+Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on ARM!
 
 [connect.linaro.org](http://connect.linaro.org/events/event/linaro-connect-q2-12/)
 

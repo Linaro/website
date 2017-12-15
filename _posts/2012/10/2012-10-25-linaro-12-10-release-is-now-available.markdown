@@ -34,7 +34,7 @@ The Linaro 12.10 release cycle highlights the determination and hard work of all
 
 * * *
 
-In addition to the successful release of Linaro 12.10, [the plans](http://connect.linaro.org/events/event/lce12-copenhagen/#schedule) for the upcoming Linaro Connect (LCE 12 -Copenhagen) have been finalized as well. Added to the Connect schedule will be three mini-summits which focus on Android, ARMv8 (64 bit) and big.LITTLE. The summits showcase the exciting work that is now being seen in the 12.10 release cycle.
+In addition to the successful release of Linaro 12.10, [the plans](http://connect.linaro.org/resources/#schedule) for the upcoming Linaro Connect (LCE 12 -Copenhagen) have been finalized as well. Added to the Connect schedule will be three mini-summits which focus on Android, ARMv8 (64 bit) and big.LITTLE. The summits showcase the exciting work that is now being seen in the 12.10 release cycle.
 
 
 * * *
@@ -71,7 +71,7 @@ While some wondered if the idea of a consolidated kernel in the ARM ecosystem wo
 * * *
 
 
-For those who will be at [LCE 12 - Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/) next week (29 Oct - 2 Nov) we look forward to seeing you there; however, if you are unable to attend, but would like to participate we are offering remote participation. Visit the [Linaro Connect Website](http://connect.linaro.org/events/lce-12-copenhagen-remote-participation/) to find out how you or someone you know can participate remotely.
+For those who will be at [LCE 12 - Copenhagen](http://connect.linaro.org/resources/) next week (29 Oct - 2 Nov) we look forward to seeing you there; however, if you are unable to attend, but would like to participate we are offering remote participation. Visit the [Linaro Connect Website](http://connect.linaro.org/events/lce-12-copenhagen-remote-participation/) to find out how you or someone you know can participate remotely.
 
 
 

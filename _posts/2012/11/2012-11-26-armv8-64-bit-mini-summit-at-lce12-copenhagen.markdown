@@ -22,7 +22,7 @@ wordpress_id: 2012
 
 {% include image.html name="P1000296.jpg" alt="ARMv8 Mini-Summit Panel Discussion photo by David Rusling" %}
 
-Linaro held [three mini-summits](http://summit.linaro.org/lce12/track/linaro-mini-summit/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/events/event/lce12-copenhagen/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
+Linaro held [three mini-summits](http://summit.linaro.org/lce12/track/linaro-mini-summit/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/resources/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
 
 First time Linaro Connect attendee, Andrew Thoelke of ARM ran the ARMv8 (64-bit) Mini Summit which kicked off at 8:30 am with introductory and lightning-talk plenary sessions. The plenary sessions were both a “welcome” to the summit and a “here’s what to expect” outline of the event.
 
@@ -61,4 +61,4 @@ Additional presentations and videos from LCE12-Copenhagen can be found on the re
 
 Current Linaro ARMv8 Builds can be found at: [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8) and information and links to all Linaro builds can be found on the [Linaro website](http://www.linaro.org/) on the [downloads page](http://www.linaro.org/downloads/).
 
-More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).  You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/112814496864921562564/posts) and [Facebook](https://www.facebook.com/LinaroOrg).
+More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).  You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).

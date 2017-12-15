@@ -19,7 +19,7 @@ wordpress_id: 2393
 ## Linaro Announces New Networking Group
 
 
-Today, Linaro CEO [George Grey](http://www.linaro.org/linux-on-arm/meet-the-team/george-grey/), on stage at the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/staff#zemlin), the executive director of the Linux Foundation, [announced](http://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/en/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](http://www.linaro.org/engineering/lng).
+Today, Linaro CEO [George Grey](/about/executive/), on stage at the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/staff#zemlin), the executive director of the Linux Foundation, [announced](http://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/en/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](http://www.linaro.org/engineering/lng).
 
 {% include image.html name="GG_Slide_LNG.jpg"%}
 
@@ -56,7 +56,7 @@ An interim steering committee formed from the companies interested in forming LN
   4. Dealing with legacy software and mixed-endian issues prevalent in the networking space.
 
 
-Discussion of these areas and the formal kick off for the group will happen at the next Linaro Connect, in Hong Kong 4-8 March (see [www.linaro.org/connect](http://www.linaro.org/connect) for more information).
+Discussion of these areas and the formal kick off for the group will happen at the next Linaro Connect, in Hong Kong 4-8 March (see [Connect](http://connect.linaro.org) for more information).
 
 
 ## Collaboration is key!
@@ -68,7 +68,7 @@ _As with any open source project, open and transparent collaboration is key and 
 ## More information:
 
 
-More information about joining Linaro can be found at: [http://www.linaro.org/linux-on-arm/how-to-join](http://www.linaro.org/linux-on-arm/how-to-join)
+More information about joining Linaro can be found at: [Members](http://www.linaro.org/members/)
 
 More information about LNG can be found at: [http://www.linaro.org/engineering/lng](http://www.linaro.org/engineering/lng)
 
@@ -76,4 +76,4 @@ Full Press Release can be found at: [http://www.linaro.org/news/networking-leade
 
 Slides from ELC Keynote can be found at:
 
-[http://www.linaro.org/linux-on-arm/presentations](http://www.linaro.org/linux-on-arm/presentations)
+[Presentations](https://www.slideshare.net/linaroorg/presentations)

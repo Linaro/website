@@ -39,6 +39,6 @@ In this [Google+ Hangout on Air](https://plus.google.com/u/0/events/cqde9n1fdiqn
 
   * And more...
 
-More information about Linaro Connect can be found at: [http://www.linaro.org/connect](http://www.linaro.org/connect)
+More information about Linaro Connect can be found at: [Connect](http://connect.linaro.org)
 
-If you aren't able join Linaro in Hong Kong, there is a remote participation option available at: [http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+If you aren't able join Linaro in Hong Kong, there is a remote participation option available at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

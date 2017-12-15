@@ -81,13 +81,13 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](http://www
 ### _Remote Participation_
 
 
-Many of our sessions are being offered via Google+ Hangouts on Air.  To find out more about remote participation go to: [http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+Many of our sessions are being offered via Google+ Hangouts on Air.  To find out more about remote participation go to: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
 
 
 ### **Follow Linaro**
 
 
-To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)
+To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)
 
 
 ## About
@@ -119,7 +119,7 @@ _More information about the LAVA Team can be found at: [https://wiki.linaro.org/
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_To find out more, please visit: [http://www.linaro.org/connect](http://www.linaro.org/connect)_
+_To find out more, please visit: [Connect](http://connect.linaro.org)_
 
 
 ### _About Linaro_

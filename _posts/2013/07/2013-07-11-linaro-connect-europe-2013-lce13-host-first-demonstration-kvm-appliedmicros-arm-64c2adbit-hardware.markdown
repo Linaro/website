@@ -31,7 +31,7 @@ ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while 
 
 “It’s very exciting to be working with AppliedMicro on the world’s first ARMv8 64­-bit hardware platform,” said George Grey, Linaro CEO. “We look forward to showcasing KVM virtualization running on this platform tomorrow during the Linaro Connect Demo Friday.”
 
-This Linaro Connect in Dublin, Ireland is playing host to over 300 engineers working on open source software for the latest ARM processor technology. The attendees from Linaro’s 25 member companies have been joined by other key players in the ARM ecosystem to define the future of Linux on ARM. The event concludes on Friday, 12 July with Demo Friday ­- an opportunity for working groups, individual contributors and member companies like AppliedMicro to showcase their most recent developments. More information about Linaro Connect can be found at [http://www.linaro.org/connect](http://www.linaro.org/connect).
+This Linaro Connect in Dublin, Ireland is playing host to over 300 engineers working on open source software for the latest ARM processor technology. The attendees from Linaro’s 25 member companies have been joined by other key players in the ARM ecosystem to define the future of Linux on ARM. The event concludes on Friday, 12 July with Demo Friday ­- an opportunity for working groups, individual contributors and member companies like AppliedMicro to showcase their most recent developments. More information about Linaro Connect can be found at [Connect](http://connect.linaro.org).
 
 About Linaro
 
