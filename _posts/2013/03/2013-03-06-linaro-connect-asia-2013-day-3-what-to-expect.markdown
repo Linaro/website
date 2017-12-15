@@ -31,7 +31,7 @@ Linaro is growing and so is participation in Linaro Connect.
 ## Videos and Presentation Slides?
 
 
-Presentation Slides for various sessions can be found on the [resources page](http://www.linaro.org/linux-on-arm/presentations) of  [linaro.org](http://www.linaro.org/).
+Presentation Slides for various sessions can be found on the [resources page](https://www.slideshare.net/linaroorg/presentations) of  [linaro.org](http://www.linaro.org/).
 
 The Google+ Hangout on Air session videos can be found at on the [Linaro on Air YouTube channel](http://www.youtube.com/user/LinaroOnAir).
 
