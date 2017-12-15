@@ -19,7 +19,6 @@ Member companies fund Linaro and provide a significant proportion of its engine
 The members determine what work is done by the Linaro engineering team. As the number of Linaro members increases, the company’s capacity to provide engineering solutions grows and so the return on a member’s investment increases. This results in more common engineering work being completed by the Linaro engineers, enabling the members to focus more of their own resources on innovation and differentiation.
 
 
-
 <div class="container no-padding about-page-text">
 <div class="col-md-7 no-padding" markdown="1">
 
@@ -996,7 +995,7 @@ July
 
 <dd markdown="1">
 First “Linaro Connect” event: Linaro and Ubuntu Platform Sprint in  
-Prague [Learn more](https://wiki.linaro.org/Internal/Events/2010-07-PlatformSprint "First “Linaro Connect” event")
+Prague [Learn more](https://wiki.linaro.org/Internal/Events/ "First “Linaro Connect” event")
 </dd>
 
 <dt markdown="1">
