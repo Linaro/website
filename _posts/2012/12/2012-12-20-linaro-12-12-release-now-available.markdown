@@ -39,7 +39,7 @@ Even as the physical year comes to a close Linaro continues to identify problems
 
 The [Linaro Enterprise Group (LEG)](http://www.linaro.org/engineering/leg) which was announced in November at TechCon set some very agressive goals and is pleased to announce its 12.12 engineering preview release which includes completed investigation of CRC32 for HDFS optimisation, ported and submitted Non-Uniform Memory Access  patches to upstream, enabled GRUB on U-boot and UEFI on the Samsung Arndale board. More information on LEG release preview can be found at: [https://wiki.linaro.org/LEG/Engineering/Releases/12.12](https://wiki.linaro.org/LEG/Engineering/Releases/12.12)
 
-Other Highlights and items of interest for this release cycle are that we have announced the dates and opened registration for[ Linaro Connect Asia 2013 (LCA13)](http://www.linaro.org/connect) which will be held at the Gold Coast Hotel in Hong Kong on 4-8 March. Register early as the registration window for this event will close prior to the start of the event. More information about LCA13 can be found [here](http://www.linaro.org/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early) and on [the Linaro website](http://www.linaro.org/connect).
+Other Highlights and items of interest for this release cycle are that we have announced the dates and opened registration for[ Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) which will be held at the Gold Coast Hotel in Hong Kong on 4-8 March. Register early as the registration window for this event will close prior to the start of the event. More information about LCA13 can be found [here](http://www.linaro.org/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early) and on [the Linaro website](http://connect.linaro.org).
 
 Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
@@ -120,4 +120,4 @@ _To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/).
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_To find out more, please visit [Linaro Connect Website](http://www.linaro.org/connect)._
+_To find out more, please visit [Linaro Connect Website](http://connect.linaro.org)._

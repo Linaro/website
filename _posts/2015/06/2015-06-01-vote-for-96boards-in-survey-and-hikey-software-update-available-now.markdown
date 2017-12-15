@@ -22,6 +22,6 @@ We'd like to invite you to spend 1-3 minutes before Wednesday 3 June to respond 
 
 The HiKey boards are in production and the [Getting Started](https://github.com/96boards/documentation/wiki/HiKeyGettingStarted) and software builds have been updated.  If you received an early access board and wish to get the latest software on to it, you will need to go to [Section 4: Boot Recovery](https://github.com/96boards/documentation/wiki/HiKeyGettingStarted#section-4). People who receive a production board should be able to boot straight into Debian and then set-up WiFi Internet access.
 
-Please feel free to share your experiences on the [96Boards forum](https://www.96boards.org/forums/forum/products/hikey/) and, if you need any help, the best place to go is the [mailing list](https://lists.96boards.org/mailman/listinfo/dev).
+Please feel free to share your experiences on the [96Boards forum](https://discuss.96boards.org) and, if you need any help, the best place to go is the [mailing list](https://lists.96boards.org/mailman/listinfo/dev).
 
 Please keep an eye on the 96Boards website - the survey pointed to above is only including boards that will be available before the end of June. We expect to post information about some more boards over the next few months.  Go to [96boards@linaro.org](mailto:96boards@linaro.org) to get the latest updates.

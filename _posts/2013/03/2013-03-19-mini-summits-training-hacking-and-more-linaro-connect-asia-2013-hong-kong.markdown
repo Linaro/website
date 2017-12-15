@@ -2562,10 +2562,10 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 Join Linaro in Dublin
 
-If you or your organization joined us in Hong Kong, thank you! If you are looking through this amazing list of sessions and videos and thinking that you or your organization would benefit from attending a Linaro Connect event and you're kicking yourself because you missed all the energy and excitement that comes from building the future of Linux on ARM; [then join us in Dublin](http://www.linaro.org/connect)
+If you or your organization joined us in Hong Kong, thank you! If you are looking through this amazing list of sessions and videos and thinking that you or your organization would benefit from attending a Linaro Connect event and you're kicking yourself because you missed all the energy and excitement that comes from building the future of Linux on ARM; [then join us in Dublin](http://connect.linaro.org)
 
 
-More information on Linaro Connect can be found at: [connect.linaro.org](http://www.linaro.org/connect). Registration for Linaro Connect Europe 2013 is now [open](http://linaroconnect-lce13-eorg.eventbrite.com/).
+More information on Linaro Connect can be found at: [connect.linaro.org](http://connect.linaro.org). Registration for Linaro Connect Europe 2013 is now [open](http://linaroconnect-lce13-eorg.eventbrite.com/).
 
 
-[![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](http://www.linaro.org/connect) Linaro Connect Europe 2013 Banner Image
+[![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](http://connect.linaro.org) Linaro Connect Europe 2013 Banner Image

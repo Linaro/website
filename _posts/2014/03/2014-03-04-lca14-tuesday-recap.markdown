@@ -38,7 +38,7 @@ Tuesday March 4, 2014
 </td>
 
 <td width="94" valign="top" markdown="1">
-**[Slides](http://www.linaro.org/documents/download/f2f64912d7c640c6cbe3e2c04095c1cc5314a39f3fb2b)**
+**[Slides](https://www.slideshare.net/linaroorg/lca14-sree-kotaykeynote)**
 </td>
 
 <td width="151" valign="top" markdown="1">
@@ -60,7 +60,7 @@ Tuesday March 4, 2014
 </td>
 
 <td width="94" valign="top" markdown="1">
-[Slides](http://www.linaro.org/documents/download/9f95e3ee658c06ef741960f21c2050ee5310ca6e4385a)
+[Slides](https://www.slideshare.net/linaroorg/keynote-open-networkenvironmentpradeepkathail04032014)
 </td>
 
 <td width="151" valign="top" markdown="1">

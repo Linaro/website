@@ -17,7 +17,7 @@ wordpress_id: 2767
 
 {% include image.html name="mB30DHjdm4Js-Ts7VSYsDnIMHxBkRy5dKYZlJ1gpXhrlg01iK0w2EHcEUcsXDMkgeQs2000.jpg" alt="Bob Monkman" class="small-inline"%}
 
-We're pleased to announce that Bob Monkman of the Enterprise Segment Marketing Team at [ARM](http://www.arm.com/) will be giving the Thursday, July 11th keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).
+We're pleased to announce that Bob Monkman of the Enterprise Segment Marketing Team at [ARM](http://www.arm.com/) will be giving the Thursday, July 11th keynote at [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13).
 
 As part of the Enterprise Segment Marketing Team at ARM, located in San Jose, CA, Monkman is focused on Enterprise Networking and Software Initiatives for the Enterprise Segment like Linaro Networking Group, SDN and NFV. Bob has been in embedded computing for 25+ years (Let’s just say before the term “world-wide web” , when sending an email beyond your own company was a challenge!), much of it in the commercial RTOS/Middleware world focused on the network communications infrastructure space and did a stint in High Performance Clustered Computing. The bulk of Bob’s career has been in Product Management/Marketing, Strategic Alliances, and Business Development, but he started his career as a hardware/software engineer for Tellabs. Bob’s technology experience includes embedded RTOS, Linux, M2M/IoT, Systems Management Middleware strategy and development tools- now delving deeper into silicon designs. Bob was the Carrier-Grade Linux PM at MontaVista from 2003-2005, where he was active in the Service Availability Forum and OSDL CGL Working Group. Bob holds a BSEE from the University of Illinois.
 

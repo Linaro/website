@@ -21,7 +21,7 @@ wordpress_id: 2216
 
 {% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://www.linaro.org/connect"%}
 
-Linaro is excited to announce that we will once again host a [Demo Friday](http://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://www.linaro.org/connect) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](http://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?

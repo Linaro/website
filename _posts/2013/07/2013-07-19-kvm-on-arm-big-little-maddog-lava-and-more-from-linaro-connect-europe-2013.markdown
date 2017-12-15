@@ -168,7 +168,7 @@ David Rusling and guests take questions from the audience about anything ARM, Li
 ## Linaro Connect US 2013 - Santa Clara, CA
 
 
-We have good news for those who are already looking forward to [Linaro Connect US 2013](http://www.linaro.org/connect-lcu13) (LCE13) which will be co-located with ARM’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](http://www.linaro.org/connect-lcu13) for more information on how you can be part of the future of Linux on ARM.
+We have good news for those who are already looking forward to [Linaro Connect US 2013](http://connect.linaro.org/lcu13/) (LCE13) which will be co-located with ARM’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](http://connect.linaro.org/lcu13/) for more information on how you can be part of the future of Linux on ARM.
 
 
 ## LCE13 Daily Schedule

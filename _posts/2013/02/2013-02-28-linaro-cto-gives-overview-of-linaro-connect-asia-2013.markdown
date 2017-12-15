@@ -19,7 +19,7 @@ title: Linaro CTO Gives Overview of Linaro Connect Asia 2013
 wordpress_id: 2467
 ---
 
-In a video interview, [David A. Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](http://www.linaro.org/connect) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.
+In a video interview, [David A. Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](http://connect.linaro.org) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.
 
 {% include image.html name="Keynotes_HK.jpg" alt="Keynotes Hong Kong" class="small-inline" %}
 

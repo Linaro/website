@@ -35,7 +35,7 @@ The QA Services team notes that is has successfully fully automated big.LITTLE b
 
 For more information and a detailed list of highlights for the 13.06 release, please see the [release wiki](https://wiki.linaro.org/Cycles/1306/Release#Release_Information).
 
-[Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](http://www.linaro.org/connect/schedule).
+[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](http://www.linaro.org/connect/schedule).
 
 ### USING THIS RELEASE:
 

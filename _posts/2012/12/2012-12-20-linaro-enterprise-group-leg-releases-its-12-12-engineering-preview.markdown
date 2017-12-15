@@ -77,4 +77,4 @@ _To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/).
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_More information on upcoming Linaro Connect events can be found on the  [Linaro Connect Website](http://www.linaro.org/connect)._
+_More information on upcoming Linaro Connect events can be found on the  [Linaro Connect Website](http://connect.linaro.org)._
