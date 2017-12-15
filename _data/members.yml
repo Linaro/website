@@ -419,7 +419,7 @@ community_initiatives:
       url: http://connect.linaro.org
     - name: Lava
       image: lava-logo.png
-      url: https://www.linaro.org/lava/
+      url: /initiatives/lava/
     - name: Developer Cloud
       image: developer-cloud-logo.png
       url: https://www.linaro.cloud/
