@@ -23,7 +23,7 @@ CAMBRIDGE, UK – 22 JANUARY 2015
 
 [Linaro](http://www.linaro.org/), the collaborative engineering organization developing open source software for the ARM architecture, today announced the keynote speakers for the upcoming [Linaro Connect ](http://connect.linaro.org/hkg15/)Hong Kong 2015 that will take place February 9th – 13th in Hong Kong, China.  The week will kick-off with Linaro’s Chief Executive Officer, George Grey, welcoming attendees to Linaro Connect and giving an update on the latest Linaro developments.  Each day will then begin with a keynote from various industry leaders and the week will end with a rich assortment of demonstrations, including much of Linaro’s latest ARMv8-A 64-bit software developments.
 
-**Industry speakers for** [**Linaro Connect Hong Kong 2015 keynotes**](http://connect.linaro.org/hkg15/program/) **include:**
+**Industry speakers for** [**Linaro Connect Hong Kong 2015 keynotes**](http://connect.linaro.org/hkg15/) **include:**
 
   * Jon Masters - Chief ARM Architect, Redhat
 
@@ -36,7 +36,7 @@ CAMBRIDGE, UK – 22 JANUARY 2015
   * Warren Rehman -  Android Partner Engineering Manager, Google
 
 
-The Linaro Connect agenda also features sessions covering: Android, ARMv8-A, Automation & Validation, Digital Home, Enterprise Servers, LAVA, Linux Kernel, Networking, Power Management, Security, Toolchain, Virtualization and multiple training sessions. Additionally, [Linaro Connect Hong Kong 2015 will feature the following demos: ](http://connect.linaro.org/hkg15/program/demos/)
+The Linaro Connect agenda also features sessions covering: Android, ARMv8-A, Automation & Validation, Digital Home, Enterprise Servers, LAVA, Linux Kernel, Networking, Power Management, Security, Toolchain, Virtualization and multiple training sessions. Additionally, [Linaro Connect Hong Kong 2015 will feature the following demos: ](http://connect.linaro.org/hkg15/demos/)
 
   * Linaro Clear Key CDM
   
