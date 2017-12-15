@@ -25,4 +25,4 @@ The deliverables at the end of each six month cycle is a baseline release of all
 
 To find out more about the releases or to download tools or code visit
 
-[http://www.linaro.org/developer/](http://www.linaro.org/developer/)
+[http://www.linaro.org/developers/](http://www.linaro.org/developers/)

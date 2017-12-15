@@ -53,7 +53,7 @@ There were several sessions that took place on Monday after the keynotes had con
 
 On Tuesday Linaro will be kicking off their first official “Crazy Shirt Day” which looks like it will showcase the attendees creative side. [Look for pictures on Facebook ](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)tomorrow to vote for your favorites.
 
-Linaro Connect is starting today with several exciting [keynotes.](http://www.linaro.org/connect-lcu13/schedule/keynote-speakers-at-lcu13) First up is a fireside chat with Frank Frankovsky and Vijay Rao, both from Facebook. Then Jarmo Hillo Head of Processor Technology at Nokia Solutions and Networks, Technology and Innovations, Research will give a talk about High End Telecom Networking. George Grey is also expected to make a short appearance with a networking-related announcement.
+Linaro Connect is starting today with several exciting [keynotes.](http://connect.linaro.org/lcu13/) First up is a fireside chat with Frank Frankovsky and Vijay Rao, both from Facebook. Then Jarmo Hillo Head of Processor Technology at Nokia Solutions and Networks, Technology and Innovations, Research will give a talk about High End Telecom Networking. George Grey is also expected to make a short appearance with a networking-related announcement.
 
 After the keynotes there will be several sessions for attendees to participate in. Including:
 <table cellpadding="0" cellspacing="0" border="0" class="table responsive-table" >

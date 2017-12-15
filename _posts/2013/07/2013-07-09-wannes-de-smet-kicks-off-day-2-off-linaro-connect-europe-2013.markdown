@@ -143,6 +143,6 @@ wordpress_id: 2808
   * [Virtualization Forum](http://lce-13.zerista.com/event/member/80428)
 
 
-Want to be part of the future of Linux on ARM and you can't make it to Dublin this week be sure to check out our [remote participation option](http://www.linaro.org/connect/schedule/remote-participation-LCE13).
+Want to be part of the future of Linux on ARM and you can't make it to Dublin this week be sure to check out our [remote participation option](http://connect.linaro.org/lcu13/).
 
 You can also view the live streams via the [Linaro On Air Google+](https://plus.google.com/u/0/116754366033915823792/posts) and [YouTube](http://www.youtube.com/user/LinaroOnAir) pages.
