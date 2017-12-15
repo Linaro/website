@@ -48,4 +48,4 @@ Below are the links to the information about each these talks as well as informa
 
 If you weren't able to join us in Dublin and you're wondering what you missed?
 
-If you liked these keynotes, just wait til you see the line-up for [Linaro Connect US (LCU13)](http://www.linaro.org/connect-lcu13) which will be co-located with ARM's TechCon in Santa Clara California this fall.  [Registration for LCU13 in Santa Clara is now open.](http://linaroconnect-lcu13.eventbrite.co.uk/)  Remember to [follow the Connect site](http://www.linaro.org/connect-lcu13) for more information on past as well as upcoming events.
+If you liked these keynotes, just wait til you see the line-up for [Linaro Connect US (LCU13)](http://connect.linaro.org/lcu13/) which will be co-located with ARM's TechCon in Santa Clara California this fall.  [Registration for LCU13 in Santa Clara is now open.](http://linaroconnect-lcu13.eventbrite.co.uk/)  Remember to [follow the Connect site](http://connect.linaro.org/lcu13/) for more information on past as well as upcoming events.

@@ -37,7 +37,7 @@ The Linaro Kernel WG focused on the following areas during this release cycle: r
 
 Additional highlights include the release of a big.LITTLE porting guide by the Power Management WG and Linaro GCC 4.8 by the Linaro Toolchain WG. To find out more about the highlights and a more detailed list of the updates, fixes, and features that were added this cycle please see the release notes.
 
-Just a reminder that [registration](http://linaroconnect-lce13-eorg.eventbrite.com/) for [Linaro Connect Europe 2013](http://www.linaro.org/connect) which is being held in Dublin, Ireland at the Burlington Hotel on 8 - 12 July 2013 is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/). Register and make your hotel reservations today. Additionally, the top level schedule of sessions is now coming together. A [schedule of events](http://lce-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=453800) can be found on the [Linaro Connect website](http://www.linaro.org/connect/).
+Just a reminder that [registration](http://linaroconnect-lce13-eorg.eventbrite.com/) for [Linaro Connect Europe 2013](http://connect.linaro.org) which is being held in Dublin, Ireland at the Burlington Hotel on 8 - 12 July 2013 is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/). Register and make your hotel reservations today. Additionally, the top level schedule of sessions is now coming together. A [schedule of events](http://lce-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=453800) can be found on the [Linaro Connect website](http://www.linaro.org/connect/).
 
 We hope to see you in Dublin, where you too can be part of this amazing future of Linux on ARM.
 

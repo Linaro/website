@@ -19,7 +19,7 @@ wordpress_id: 2687
 {% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="http://www.linaro.org/connect" %}
 
 
-[Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE13) is being held at the Burlington Hotel in Dublin, Ireland on 8-12 July.  As we enter this stage in our planning I wanted to remind you to [register today](http://linaroconnect-lce13-eorg.eventbrite.com/)!
+[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) is being held at the Burlington Hotel in Dublin, Ireland on 8-12 July.  As we enter this stage in our planning I wanted to remind you to [register today](http://linaroconnect-lce13-eorg.eventbrite.com/)!
 
 
 Still haven’t decided if you should attend?  Do you or others in your organization wonder what is new with GNU Tools? Are you new to Linux on ARM? Maybe Android is your passion? What about those Linaro builds that are built on top of Ubuntu, Fedora, or OpenEmbedded? Do you want to help direct the future of ARM Enterprise Server?  And, let’s not forget about Networking on ARM.  If you have just read the list and thought,  “I need to know more about Linaro and the future of Linux on ARM”, then you definitely need to see how the [schedule of events](http://www.linaro.org/connect/schedule) is coming together.
@@ -34,7 +34,7 @@ LCE13 in Dublin is going to be a fast-moving, high-energy event where those who 
 
 You can see the session titles, tracks and place holders on the [Linaro Connect website](http://www.linaro.org/connect/schedule). Keep in mind the schedule is subject to change and the confirmed schedule with session abstracts, keynotes and more will be announced mid-May.
 
-Registration for LCE13 is open, so [register today](http://www.linaro.org/connect).
+Registration for LCE13 is open, so [register today](http://connect.linaro.org).
 
 Use the Linaro Social Media Channels to stay up to date on the latest announcements, downloads, Blog posts, team news and more.
 

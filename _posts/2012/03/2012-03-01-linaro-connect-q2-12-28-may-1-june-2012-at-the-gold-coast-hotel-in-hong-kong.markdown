@@ -67,4 +67,4 @@ So, if you are passionate about – or are just wanting to get involved in – t
 
 Linaro Connect is also an ideal event to attend for technical executives interested in investing into Linaro. The [Linaro management team](/about/) is available throughout the week to introduce you to the company and explain the many benefits of collaboration for your company and market situation. [Contact me](mailto:stephen.doel@linaro.org), Stephen Doel, prior to the event so we can organise discussion with you during the week.
 
-Finally, sponsorship of Linaro Connect Q2.12 is now available, with a [variety of great packages](http://connect.linaro.org/sponsorship/). Again, contact me for more details.
+Finally, sponsorship of Linaro Connect Q2.12 is now available, with a [variety of great packages](http://connect.linaro.org/sponsors/). Again, contact me for more details.

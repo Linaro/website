@@ -81,7 +81,7 @@ For updates on these topics, as well as links to videos, pictures, presentations
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://www.linaro.org/connect-lcu13), which will be co-located with ARM's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://www.linaro.org/connect-lcu13](http://www.linaro.org/connect-lcu13)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 ### USING THIS RELEASE:
 

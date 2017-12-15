@@ -17,7 +17,7 @@ title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
 wordpress_id: 2677
 ---
 
-Demo Friday will take place on Friday 12 July at the Burlington Hotel in Dublin, Ireland, as part of [Linaro Connect Europe 2013 (LCE13](http://www.linaro.org/connect)).
+Demo Friday will take place on Friday 12 July at the Burlington Hotel in Dublin, Ireland, as part of [Linaro Connect Europe 2013 (LCE13](http://connect.linaro.org)).
 
 Are you currently using a [Linaro build, toolchain, or code](http://www.linaro.org/downloads/) and want to show off your work?
 

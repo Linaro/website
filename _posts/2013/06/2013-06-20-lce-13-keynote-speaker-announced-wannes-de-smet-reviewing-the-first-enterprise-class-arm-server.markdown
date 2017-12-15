@@ -19,7 +19,7 @@ wordpress_id: 2774
 
 {% include image.html name="W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline" %}
 
-We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](http://www.linaro.org/connect) (LCE-13).
+We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13).
 
 
 As an Applied IT researcher, Wannes improves server and data center efficiency by researching ways to make current infrastructure perform better using less power. Working with industry leaders and hot startups, he reviews next-gen hardware and formulates advise towards small and enterprise customers. Wannes also is a virtualisation expert with a strong programming background.
