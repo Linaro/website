@@ -292,4 +292,4 @@ We also ask you join the Freenode IRC channel #linaro-connect ([webchat](http://
 
 All sessions will be broadcast live and recorded in the [Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA?feature=mhee), where they can be viewed later. Session minutes, including the IRC transcript, will be [stored in Etherpad](http://pad.linaro.org/zXeyEakj4V) and linked from the video description and the event entry.
 
-And if you liked the experience, pen in the dates for the next, non-virtual, Linaro Connect, which will [be in Copenhagen](http://connect.linaro.org/events/event/lce12-copenhagen/) during the week of October 29th, co-hosted with [UDS](http://uds.ubuntu.com/). See you all there, and thanks!
+And if you liked the experience, pen in the dates for the next, non-virtual, Linaro Connect, which will [be in Copenhagen](http://connect.linaro.org/resources/) during the week of October 29th, co-hosted with [UDS](http://uds.ubuntu.com/). See you all there, and thanks!

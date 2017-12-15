@@ -26,7 +26,7 @@ Linaro Connect sessions followed the keynote in the morning of Wednesday and the
   * [ARM64 kernel features enablement](http://lcu-13.zerista.com/event/member/85118) – [View Video](http://www.youtube.com/watch?v=GxU9EwOqvk0)
 
 
-  * [GPGPU on ARM Experience Report](http://lcu-13.zerista.com/event/member/85117) – [View Video](http://www.youtube.com/watch?v=57PrMlF17gQ), [Download Slides](http://www.linaro.org/documents/download/ae6fa90d17f241cc65ecce3172b1f71a526e924079f01)      
+  * [GPGPU on ARM Experience Report](http://lcu-13.zerista.com/event/member/85117) – [View Video](http://www.youtube.com/watch?v=57PrMlF17gQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-gpgpu-armfinalv2?qid=248ac3ce-548d-416d-a428-6ff3d6c1d97c&v=&b=&from_search=1)      
 
 
   * [RAS, ACPI and the secure monitor](http://lcu-13.zerista.com/event/member/85119) – [View Video](http://www.youtube.com/watch?v=mQx22SH7_wY)           
@@ -35,19 +35,19 @@ Linaro Connect sessions followed the keynote in the morning of Wednesday and the
   * [Xen/KVM Bootup: FDT or how we learned to stop worrying and love ACPI](http://lcu-13.zerista.com/event/member/85124) – [View Video](http://www.youtube.com/watch?v=3EvV_k-brlU) 
 
 
-  * [SPEC Investigations and Next Steps Discussion](http://lcu-13.zerista.com/event/member/85122) - [View Video](http://www.youtube.com/watch?v=tnDWww191t8), [Download Slides](http://www.linaro.org/documents/download/e00d38f7d38c86bb6b439a60242bea855269a60cbfab2)
+  * [SPEC Investigations and Next Steps Discussion](http://lcu-13.zerista.com/event/member/85122) - [View Video](http://www.youtube.com/watch?v=tnDWww191t8), [Download Slides](https://www.slideshare.net/linaroorg/lcu-spec-study2?qid=e1fae77d-64f5-436d-a7a2-fa372d2f6a39&v=&b=&from_search=1)
 
 
-  * [LSK - How to best use the Linaro Stable Kernel (LSK) within Member companies ](http://lcu-13.zerista.com/event/member/85094)- [View Video](http://www.youtube.com/watch?v=6SihAqYiZYs), [Download Slides](http://www.linaro.org/documents/download/d2916565ae5f004c00d315c242fe847d52696b27a635a)
+  * [LSK - How to best use the Linaro Stable Kernel (LSK) within Member companies ](http://lcu-13.zerista.com/event/member/85094)- [View Video](http://www.youtube.com/watch?v=6SihAqYiZYs), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-linarostablekernel?qid=605e752e-dcde-456a-8eaf-0daad9412e15&v=&b=&from_search=1)
 
 
   * [ACPI power state mapping](http://lcu-13.zerista.com/event/member/85126) – [View Video](http://www.youtube.com/watch?v=rrW9kNWyy9A)   
 
 
-  * [Cross distro collaboration](http://lcu-13.zerista.com/event/member/85125) – [View Video](http://www.youtube.com/watch?v=Lh1gVlQyVEI), [Download Slides](http://www.linaro.org/documents/download/79480a931d7e4eb1665bdc96584facba52696d20c7e16)     
+  * [Cross distro collaboration](http://lcu-13.zerista.com/event/member/85125) – [View Video](http://www.youtube.com/watch?v=Lh1gVlQyVEI), [Download Slides](https://www.slideshare.net/linaroorg/riku-voipio-crossdistro?qid=7ae138ba-7b61-4bb3-b43c-57efb37da358&v=&b=&from_search=1)     
 
 
-  * [LAVA Multi-node](http://lcu-13.zerista.com/event/member/85106) – [View Video](http://www.youtube.com/watch?v=zCyou3oUM6I), [Download Slides](http://www.linaro.org/documents/download/5f1f3de157162bf4160f80ebfc1f447352696eb6da34f)            
+  * [LAVA Multi-node](http://lcu-13.zerista.com/event/member/85106) – [View Video](http://www.youtube.com/watch?v=zCyou3oUM6I), [Download Slides](https://www.slideshare.net/linaroorg/06-lava-multinodetestingantoniosenthilneiljamesfuwei)            
 
 
 Thursday will be a different type of day where there will be some follow-up sessions on topics presented earlier in the week as well as team meetings and hacking taking place.

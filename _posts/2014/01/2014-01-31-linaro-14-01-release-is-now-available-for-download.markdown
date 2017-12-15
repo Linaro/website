@@ -125,10 +125,10 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
   * IRC:
 
 
-    * #linaro on [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
+    * #linaro on [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
-    * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
+    * #linaro-android [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
 
@@ -154,4 +154,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT Asia (LCA14)
 
 
-Registration for Linaro Connect Asia 2014 (LCA14), which will be in Macau, China from March 3 - 7, 2014 is now open.  More information on this event can be found at: [http://www.linaro.org/connect-lca14](http://www.linaro.org/connect-lca14)
+Registration for Linaro Connect Asia 2014 (LCA14), which will be in Macau, China from March 3 - 7, 2014 is now open.  More information on this event can be found at: [http://connect.linaro.org/lca14/](http://connect.linaro.org/lca14/)

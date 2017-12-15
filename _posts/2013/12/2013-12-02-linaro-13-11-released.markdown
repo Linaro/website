@@ -115,10 +115,10 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
   * IRC:
 
 
-    * #linaro on [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
+    * #linaro on [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
-    * #linaro-android [irc.linaro.org](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.linaro.org) or [irc.freenode.net](http://www.linaro.org/linaro-blog/2013/07/30/linaro-13-07-released/irc.freenode.net)
+    * #linaro-android [irc.linaro.org](/contact/irc/) or [irc.freenode.net](/contact/irc/)
 
 
 ### KNOWN ISSUES WITH THIS RELEASE

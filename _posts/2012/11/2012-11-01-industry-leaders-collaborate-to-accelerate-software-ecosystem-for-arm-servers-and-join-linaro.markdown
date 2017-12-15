@@ -77,7 +77,7 @@ _About ARM:_ ARM designs the technology that lies at the heart of advanced digi
 
 “ARM has the potential to take significant market share with a range of products from different ARM partners; this is a movie we have all seen before playing out in the mobile space,” said Barry Evans, CEO and founder of Calxeda. “But unlike the mobile space, the data center requires consistent interfaces to allow a single kernel to support everyone’s hardware. LEG is exactly what is needed to bring the industry together to ensure software compatibility across the range of innovative ARM server implementations.”
 
-_About Calxeda:_ Founded in January 2008, Calxeda brings new performance density to the datacenter on a very attractive power foot print by leveraging ultra-low power processors as used on mobile phones as a foundation for its revolutionary technology. Calxeda will make it possible for datacenter managers to increase the density of their computer resources while significantly reducing the need for power, space and cooling. See [www.calxeda.com](http://www.calxeda.com/) for more information. Media contact: Laura Beck, +1 512-786-1098, pr@calxeda.com
+_About Calxeda:_ Founded in January 2008, Calxeda brings new performance density to the datacenter on a very attractive power foot print by leveraging ultra-low power processors as used on mobile phones as a foundation for its revolutionary technology. Calxeda will make it possible for datacenter managers to increase the density of their computer resources while significantly reducing the need for power, space and cooling. See [www.calxeda.com](http://silverlining-systems.com//) for more information. Media contact: Laura Beck, +1 512-786-1098, pr@calxeda.com
 
 **Canonical**
 

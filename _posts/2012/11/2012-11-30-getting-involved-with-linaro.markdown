@@ -24,7 +24,7 @@ Whether you are an individual or an employee of a organization it is easy to [ge
 
 You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](http://www.linaro.org/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](http://www.linaro.org/engineering/mailing-lists) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
 
-Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://plus.google.com/112814496864921562564/posts) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
+Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://plus.google.com/+LinaroOnAir) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
 
 Below is a list of the various Linaro teams, what their primary goals are and how to find out more about getting involved with each of them.
 
@@ -62,7 +62,7 @@ The Developer Platform Team's primary goal is to provide a common platform to us
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/developer-platform)
+  * [Team Members](/developers/)
 
 
 More information about the Linaro Developer Platform Team can be found at: [https://wiki.linaro.org/Platform/DevPlatform](https://wiki.linaro.org/Platform/DevPlatform)

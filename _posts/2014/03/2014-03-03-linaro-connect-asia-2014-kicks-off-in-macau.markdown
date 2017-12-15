@@ -21,7 +21,7 @@ title: Linaro Connect Asia 2014 - Kicks Off in Macau
 wordpress_id: 3430
 ---
 
-[Linaro Connect Asia 2014 ](http://www.linaro.org/connect-lca14)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](http://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/en/) and is a founding member of the new [Linaro Digital Home Group](https://wiki.linaro.org/WorkingGroups/LHG). 
+[Linaro Connect Asia 2014 ](http://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](http://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/en/) and is a founding member of the new [Linaro Digital Home Group](https://wiki.linaro.org/WorkingGroups/LHG). 
 
 In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief ARM Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: ARM in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for ARM in the Enterprise. 
 
@@ -502,4 +502,4 @@ LNG Advance GIT (Invitation Only)
 </table>
  
 
-Can’t make it to Macau?  Don’t worry.  Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.
+Can’t make it to Macau?  Don’t worry.  Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://connect.linaro.org/lca14//schedule/remote-participation) please visit the Linaro Connect website.

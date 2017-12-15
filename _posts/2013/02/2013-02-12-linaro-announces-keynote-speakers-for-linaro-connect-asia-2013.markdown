@@ -98,7 +98,7 @@ _ [](http://www.linaro.org/linux-on-arm/)_
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit [http://www.linaro.org/connect](http://www.linaro.org/connect)__
+__To find out more, please visit [Connect](http://connect.linaro.org)__
 
 **_Follow Linaro_**
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)._
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

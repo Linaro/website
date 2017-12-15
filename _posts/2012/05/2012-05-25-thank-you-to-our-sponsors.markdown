@@ -20,7 +20,7 @@ wordpress_id: 1645
 
 **_“We must find time to stop and thank the people who make a difference in our lives.”_** ~_John F. Kennedy_
 
-The upcoming [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) event is made possible by not only the group of organizers and volunteers, but also by the efforts and contributions of those organizations who sponsor our events.
+The upcoming [Q2.12 Linaro Connect](http://connect.linaro.org/resources/) event is made possible by not only the group of organizers and volunteers, but also by the efforts and contributions of those organizations who sponsor our events.
 
 We would like to thank the Q2.12 Linaro Connect sponsors.
 
@@ -44,4 +44,4 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 
-If you want to know more about Linaro and [our events](http://connect.linaro.org/events/event/linaro-connect-q2-12/) please see the [our website](http://www.linaro.org/).
+If you want to know more about Linaro and [our events](http://connect.linaro.org/resources/) please see the [our website](http://www.linaro.org/).

@@ -52,4 +52,4 @@ More information about the **Linaro Toolchain Team** can be found at: [https://
 
 More information about **LLVM** can be found at: [http://llvm.org/](http://llvm.org/)
 
-More information on **Linaro Connect Europe 2013** can be found at: [http://www.linaro.org/connect](http://www.linaro.org/connect)
+More information on **Linaro Connect Europe 2013** can be found at: [Connect](http://connect.linaro.org)

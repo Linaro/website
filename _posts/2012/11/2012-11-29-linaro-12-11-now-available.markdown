@@ -39,7 +39,7 @@ The Power Management Working Group continues its progress on big.LITTLE MP by de
 
 
 
-"[**B**ernhard Rosenkranzer](http://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/) developed a very exciting demo of a native VI editor and native gcc compilers running on Android for Connect. Perf support on android is improved and is now on the linux-linaro tree and builds for Origen 4412 were set up." said [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), Linaro Android Tech Lead.
+"[**B**ernhard Rosenkranzer](http://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/) developed a very exciting demo of a native VI editor and native gcc compilers running on Android for Connect. Perf support on android is improved and is now on the linux-linaro tree and builds for Origen 4412 were set up." said [Zach Pfeffer](/about/), Linaro Android Tech Lead.
 
 
 
@@ -57,7 +57,7 @@ The 12.11 release cycle has been a busy yet exciting cycle as teams not only con
 
 
 
-Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/112814496864921562564/posts) and [Facebook](https://www.facebook.com/LinaroOrg).
+Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
 ## USING THE ANDROID-BASED IMAGES
 

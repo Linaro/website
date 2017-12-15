@@ -13,7 +13,7 @@ title: Do You Want to Work in Open Source? Linaro is Hiring!
 wordpress_id: 2310
 ---
 
-Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](/)?
 
 **Yes, then keep reading!**
 
@@ -21,26 +21,26 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 ## Linaro is looking for...
 
 	
-  * Project Managers:  [http://www.linaro.org/careers/project-managers](http://www.linaro.org/careers/project-managers)
+  * Project Managers:  [/careers/](/careers/)
 
-  * OS Engineer - Kernel/Bootloader: [http://www.linaro.org/careers/os-engineer-kernelbootloader](http://www.linaro.org/careers/os-engineer-kernelbootloader)
+  * OS Engineer - Kernel/Bootloader: [/careers/](/careers/)
 
-  * Engineering Manager - Automation & CI: [http://www.linaro.org/careers/engineering-manager-automation-ci](http://www.linaro.org/careers/engineering-manager-automation-ci)
+  * Engineering Manager - Automation & CI: [/careers/](/careers/)
 
-  * LAVA Tech Lead: [http://www.linaro.org/careers/lava-tech-lead](http://www.linaro.org/careers/lava-tech-lead)
+  * LAVA Tech Lead: [/careers/](/careers/)
 
-  * Android Ubuntu Linux Kernel Engineer: [http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer](http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer)
+  * Android Ubuntu Linux Kernel Engineer: [/careers/](/careers/)
 
-  * Boot / Kernel Expert - Principal Engineers: [http://www.linaro.org/careers/boot-kernel-expert-principal-engineers](http://www.linaro.org/careers/boot-kernel-expert-principal-engineers)
+  * Boot / Kernel Expert - Principal Engineers: [/careers/](/careers/)
 
-  * Principal Engineers: [http://www.linaro.org/careers/principal-engineers](http://www.linaro.org/careers/principal-engineers)
+  * Principal Engineers: [/careers/](/careers/)
 
-  * QA Services Lead: [http://www.linaro.org/careers/qa-services-lead](http://www.linaro.org/careers/qa-services-lead)
+  * QA Services Lead: [/careers/](/careers/)
 
 
 ## How to apply
 
-Want to apply for one of these roles? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for one of these roles? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro
@@ -49,7 +49,7 @@ Want to apply for one of these roles? Then email your information to[ careers@li
 All available career opportunities can be found at:[ http://www.linaro.org/careers/](http://www.linaro.org/careers/)
 
 _**Follow Linaro**_
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](http://www.linaro.org/careers/)
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](http://www.linaro.org/careers/)
 
 _**About Linaro**_
 

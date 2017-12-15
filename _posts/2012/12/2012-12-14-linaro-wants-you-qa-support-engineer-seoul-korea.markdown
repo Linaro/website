@@ -14,7 +14,7 @@ title: Linaro Wants You - QA Support Engineer- Seoul Korea
 wordpress_id: 2121
 ---
 
-Today we are highlighting career opportunities at Linaro in Seoul, Korea. Are you or someone you know located in or near Seoul, Korea  and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities at Linaro in Seoul, Korea. Are you or someone you know located in or near Seoul, Korea  and want to be part of the[ future of Linux on ARM](/)?
 
 _**Yes, then keep reading!**_
 
@@ -25,13 +25,13 @@ _**Yes, then keep reading!**_
 
 Linaro is looking for an experienced support engineer to help automated deployment, validation and result analysis for Android and Ubuntu based on our member’s ARM development boards. You will be a part of Member Services team and provide LAVA ( Linaro automated validation Architecture - http://lava.readthedocs.org/en/latest/) solution to our members, reporting on test status, bug tracking as well as help to setup in-house validation solution, resolve technical issue or question of Linaro's members, partners and prospects.
 
-More information on this role can be found at: [http://www.linaro.org/careers/lavaqasupport-engineer](http://www.linaro.org/careers/lavaqasupport-engineer)
+More information on this role can be found at: [/careers/](/careers/)
 
 
 ## How to apply
 
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro
@@ -41,7 +41,7 @@ All available career opportunities can be found at:[ http://www.linaro.org/caree
 
 _**Follow Linaro**_
 
-_To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg)._
+_To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._
 
 _**About Linaro**_
 

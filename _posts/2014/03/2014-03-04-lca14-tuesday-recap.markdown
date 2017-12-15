@@ -102,7 +102,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](http://www.linaro.org/documents/download/cf7de5f9b4f93a62e5cbd5573de2110c530f5961ed1aa)slides
+[**Download **](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-201-%2064-bit%20GNU%20%26%20LLVM%20toolchains%20status%20report.pdf)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -120,7 +120,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](http://www.linaro.org/documents/download/196ea2707b19e918935a1e9b43acffbd531117dbad83f)slides
+[**Download **](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-202-%20ARM-SOC%20Status%20and%20directions.pdf)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -138,7 +138,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[** Download **](http://www.linaro.org/documents/download/f1fa5e3735e5d699217f243bff6019335314fdbad92a6)slides
+[** Download **](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-203-%20Intro%20to%20CI%40%20Linaro%201of%203.pdf)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -156,7 +156,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/71bdeccb53181f14c4881dd715addf49531118dce76d9) slides
+[**Download**](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-204-%20Intro%20to%20CI%20%40%20Linaro%202%20of%203.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -174,7 +174,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/4e0b1c9d7ba11777fdef78a8ff4b29f753151914a1fc2) slides
+[**Download**](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-205-%20Optimizing%20SQLite%20for%20Android%20Mobile.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -192,7 +192,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/959118736217b4e948878395b1cf8eea5315341266422) slides
+[**Download**](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-206-%20Scheduler%20tooling%20and%20benchmarking.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -210,7 +210,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/3bb633ed8cf1701e3732908ff4a8ab71530f54c5648fb) slides
+[**Download**](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-207-ACPI%20AML%20usage%20and%20ASL%20guidelines.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -228,7 +228,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/7126de82e80d4b0ebc31ef46efea71a453111ddf8bdde) slides
+[**Download**](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-208-%20Intro%20to%20CI%40Linaro%203%20of%203.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -236,7 +236,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="227" valign="top" markdown="1">
-[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-04-Tuesday/LCA14-208-%20Introduction%20to%20CI%20%2540%20Linaro%203%20of%203.mp4) (Linaro Server)
+[**Video**](http://connect.linaro.org.s3.amazonaws.com/lca14/videos/03-04-Tuesday/LCA14-208-%20Introduction%20to%20CI%20%2540%20Linaro%203%20of%203.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -246,7 +246,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/873a3b842d1195ad6aa34acded2a3a6353111e6151d15) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-209-%20ODP%20project%20update.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -264,7 +264,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](http://www.linaro.org/documents/download/4095ec44323783d342dda197ac4b46c4530d08706c4b5) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-210-%20ETM-ETB-Coresight%20BoF.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -279,6 +279,6 @@ No Video Available
 </table>
 Wednesday LCA14 will continue with more great sessions and two more keynote speakers. Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
 
-Tomorrow the [Linaro “Bond Themed” gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner) takes place so look for some great photos of our attendees J
+Tomorrow the [Linaro “Bond Themed” gala dinner](http://connect.linaro.org/lca14/) takes place so look for some great photos of our attendees J
 
-As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.
+As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://connect.linaro.org/lca14//schedule/remote-participation) please visit the Linaro Connect website.

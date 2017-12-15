@@ -100,4 +100,4 @@ Video: [https://www.youtube.com/watch?v=Om7V8NEaC3k&list=UUIVqQKxCyQLJS6xvSmfnd
 ### **Validation at Linaro**
 
 
-To learn more about this team and keep up to date with their latest work you can find more information at:  [http://www.linaro.org/projects/test-validation/](http://www.linaro.org/projects/test-validation/)
+To learn more about this team and keep up to date with their latest work you can find more information at:  [/services/testing-validation-services/](/services/testing-validation-services/)

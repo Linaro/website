@@ -18,20 +18,20 @@ title: Q2.12 Linaro Connect Promo Video Now Available
 wordpress_id: 1554
 ---
 
-{% include image.html name="event-221.png" alt="Linaro Connect Event Q2 12" url="http://connect.linaro.org/events/event/linaro-connect-q2-12/" %}
+{% include image.html name="event-221.png" alt="Linaro Connect Event Q2 12" url="http://connect.linaro.org/resources/" %}
 
 Do you wonder what a Linaro Connect event is like?  Did you miss the last one?  If you answered yes to either of these questions, then we have something for you.
 
-Thanks to [Tara Oldfield](https://plus.google.com/117647229006247247428/posts) at [Novacut](https://plus.google.com/109582833728734114979/posts) the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) which is being held from 28 May-1 June, 2012 at the Gold Coast Hotel in Hong Kong now has a [promo video](http://youtu.be/xkFQzhYLsQI).
+Thanks to [Tara Oldfield](https://plus.google.com/117647229006247247428/posts) at [Novacut](https://plus.google.com/109582833728734114979/posts) the [Q2.12 Linaro Connect](http://connect.linaro.org/resources/) which is being held from 28 May-1 June, 2012 at the Gold Coast Hotel in Hong Kong now has a [promo video](http://youtu.be/xkFQzhYLsQI).
 
 {% include image.html name="novacut-solo-brandmark_PINK_FINAL-PNG-512px.png" alt="Novacut Solo Brand Mark" url="http://novacut.com/" %}
 
 
 But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.
 
-Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on ARM.  [Register today](http://connect.linaro.org/register-connect/).
+Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on ARM.  [Register today](http://connect.linaro.org/attend/).
 
-If you or someone you know is interested in Linaro Connect, then take a look at the [Connect Website](http://connect.linaro.org/events/event/linaro-connect-q2-12/), the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg), and share the [promo video](http://youtu.be/xkFQzhYLsQI).
+If you or someone you know is interested in Linaro Connect, then take a look at the [Connect Website](http://connect.linaro.org/resources/), the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg), and share the [promo video](http://youtu.be/xkFQzhYLsQI).
 
 
 ## About Linaro
@@ -51,4 +51,4 @@ The industry’s largest and most important event for developing Linux on ARM,
 
 All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon and socialising in the evening.
 
-[http://connect.linaro.org/events/event/linaro-connect-q2-12/](http://connect.linaro.org/events/event/linaro-connect-q2-12/)
+[http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)

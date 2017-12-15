@@ -22,7 +22,7 @@ other_projects:
   - name: OpenJDK
     url: http://openjdk.linaro.org/
   - name: OpenStack
-    url: https://openstack.linaro.org/
+    url: https://wiki.linaro.org/OpenStack
 related_tags:
   - leg
   - LEG

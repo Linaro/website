@@ -22,7 +22,7 @@ title: Many Things To Do This Year In Android
 wordpress_id: 3350
 ---
 
-I am sure this new year has already opened up quite a few challenges for you, same here.  I apologize for not keeping you posted on our progress on optimizations, ([discussed here previously](http://www.linaro.org/linaro-blog/2013/09/30/android-can-be-optimized/)) and  [Android engineering activities](http://www.linaro.org/engineering/engineering-groups/android-build) in general, this year I will make sure you get more frequent updates from us. To begin with, let me give a quick update on the roadmap and plans we have for this year.  My team is very focused on delivering:
+I am sure this new year has already opened up quite a few challenges for you, same here.  I apologize for not keeping you posted on our progress on optimizations, ([discussed here previously](http://www.linaro.org/linaro-blog/2013/09/30/android-can-be-optimized/)) and  [Android engineering activities](/groups/lmg/) in general, this year I will make sure you get more frequent updates from us. To begin with, let me give a quick update on the roadmap and plans we have for this year.  My team is very focused on delivering:
 
   * Optimizing Android for better user experience on ARMv7 based SOCs
 
@@ -59,7 +59,7 @@ One important point that I missed before is the hardware platform that we are us
 
 As mentioned before, we will keep you posted periodically as we make some considerable progress on any of these topics. If you have any questions or suggestions on these topics please write to us on [linaro-android@lists.linaro.org](mailto:linaro-android@lists.linaro.org) or join us on IRC #linaro-android on Freenode.**** ****
 
-If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7th  [www.linaro.org/connect-lca14](http://www.linaro.org/connect-lca14) -- please join us for our Android sessions on
+If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7th  [www.linaro.org/connect-lca14](http://connect.linaro.org/lca14/) -- please join us for our Android sessions on
 
 
   * March 4th 2014 : Optimizing SQLite for Android mobile

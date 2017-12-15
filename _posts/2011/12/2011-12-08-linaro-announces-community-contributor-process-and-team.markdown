@@ -16,7 +16,7 @@ title: Linaro Announces Community Contributor Process and Team
 wordpress_id: 1042
 ---
 
-Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://launchpad.net/~linaro-community-contributors).
+Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://wiki.linaro.org/CommunityContributor).
 
 [Linaro](http://www.linaro.org/) itself is now an organisation of around 120 engineers, but as we continue to grow the community around us is also growing fast. We're grateful to the many people who are participating in our success, and so we're introducing the Community Contributor process to recognise those community members who have sustained contributions over a significant period of time. Our Technical Leads now have the opportunity to nominate an individual as a Community Contributor of Linaro.
 
@@ -53,9 +53,9 @@ We place a lot of value on having a vibrant network of Community Contributors so
 
 **Getting Involved**
 
-[Linaro](http://www.linaro.org/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](http://www.linaro.org/community/). Most of Linaro day-to-day affairs take place on [IRC and via public mailing lists](https://wiki.linaro.org/GettingInvolved). We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
+[Linaro](http://www.linaro.org/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/hub/). Most of Linaro day-to-day affairs take place on [IRC and via public mailing lists](https://wiki.linaro.org/GettingInvolved). We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
 
-Find out you can be part of this exciting and growing community by visiting our [community page](http://www.linaro.org/community/).
+Find out you can be part of this exciting and growing community by visiting our [community page](/hub/).
 
 **About Linaro**
 _Linaro ™  is a  Not-For-Profit software engineering company that works with the open source community to make it easier and faster to develop open source based devices. Linaro has the aim of investing new resources and aligning efforts from the industry to continuously improve and optimize open source software and tools on the ARM architecture with the goal of accelerating industry innovation.[ www.linaro.org](http://www.linaro.org/)_

@@ -31,4 +31,4 @@ What this shows, of course, is that even for an incredibly well funded assault o
 
 We'll also look at the evolving nature of the server and the modern data centre and what changes this might force in processor architectures and explain why the solution to power budgets and green computing might not necessarily be the magic bullet with ARMs name on it.
 
-More information on the LCE-13 schedule can be found at: [http://www.linaro.org/connect/schedule](http://www.linaro.org/connect/schedule)
+More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

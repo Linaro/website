@@ -16,7 +16,7 @@ title: Work From Home While Helping to Build the Future of Linux on ARM
 wordpress_id: 2590
 ---
 
-Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on ARM](/)?
 
 
 **Yes, then keep reading!**
@@ -29,7 +29,7 @@ Linaro has a long term goal of making ARM devices more competitive by making a b
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/gcc-developer](http://www.linaro.org/careers/gcc-developer)
+[/careers/](/careers/)
 
 ### Kernel Baselines Lead Engineer
 
@@ -37,7 +37,7 @@ A lead Linux kernel maintainer responsible for creating and maintaining a LLTS (
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/kernel-baselines-lead-engineer](http://www.linaro.org/careers/kernel-baselines-lead-engineer)
+[/careers/](/careers/)
 
 
 
@@ -58,7 +58,7 @@ More information on this opportunity can be found at:
 
 
 
-[http://www.linaro.org/careers/qa-services-lead](http://www.linaro.org/careers/qa-services-lead)
+[/careers/](/careers/)
 
 
 
@@ -73,7 +73,7 @@ As a Senior Android Platform Engineer, you will be a technical and thought leade
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/senior-android-platform-engineer-technical-lead](http://www.linaro.org/careers/senior-android-platform-engineer-technical-lead)
+[/careers/](/careers/)
 
 ### OS Engineer - Kernel/Bootloader
 
@@ -83,7 +83,7 @@ Linaro Platform Engineering is providing full system stack baselines as well as 
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/os-engineer-kernelbootloader](http://www.linaro.org/careers/os-engineer-kernelbootloader)
+[/careers/](/careers/)
 
 ### Engineering Manager - Automation & CI
 
@@ -92,12 +92,12 @@ The person taking this role will oversee Linaro’s Automation Infrastructure te
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/engineering-manager-automation-ci](http://www.linaro.org/careers/engineering-manager-automation-ci)
+[/careers/](/careers/)
 
 
 ## How to apply
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro
@@ -108,7 +108,7 @@ All available career opportunities can be found at:[ http://www.linaro.org/caree
 **Follow Linaro**
 
 
-To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
+To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
 **About Linaro**
 

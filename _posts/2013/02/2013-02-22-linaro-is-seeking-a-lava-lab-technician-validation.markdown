@@ -17,7 +17,7 @@ title: Linaro is Seeking a LAVA Lab Technician - Validation
 wordpress_id: 2450
 ---
 
-Today we are highlighting career opportunities at Linaro for a LAVA Lab Technician (Validation). Are you located in or near Cambridge, UK and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities at Linaro for a LAVA Lab Technician (Validation). Are you located in or near Cambridge, UK and want to be part of the[ future of Linux on ARM](/)?
 
 
 **Yes, then keep reading!**
@@ -39,7 +39,7 @@ More information on this role can be found at:
 ## **How to apply**
 
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## **Other career opportunities at Linaro**
@@ -47,7 +47,7 @@ Want to apply for this role? Then email your information to[ careers@linaro.org]
 
 All available career opportunities can be found at:[ http://www.linaro.org/careers/](http://www.linaro.org/careers/)
 **Follow Linaro**
-To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/112814496864921562564/posts) and[ Facebook](https://www.facebook.com/LinaroOrg).
+To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
 **About Linaro**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure.

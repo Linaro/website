@@ -42,7 +42,7 @@ The cut-off date for booking a room at the Corinthia Hotel using Linaro's discou
 
 **Travel - Visas and Business Invitation Letters**
 
-If you plan to attend and require a visa for Hungary, please request an invitation letter by emailing [connect@linaro.org](http://www.linaro.org/cdn-cgi/l/email-protection#42212d2c2c272136022e2b2c23302d6c2d3025). We aim to send all invitation letters within two weeks of receiving the request, please contact [connect@linaro.org](http://www.linaro.org/cdn-cgi/l/email-protection#b3d0dcddddd6d0c7f3dfdaddd2c1dc9ddcc1d4) if you do not receive it within four weeks after sending the request. Please aim to send requests before Friday 6 January 2017, otherwise we cannot guarantee fulfilling requests in time for your visa application process.
+If you plan to attend and require a visa for Hungary, please request an invitation letter by emailing [connect@linaro.org](mailto:connect@linaro.org). We aim to send all invitation letters within two weeks of receiving the request, please contact [connect@linaro.org](mailto:connect@linaro.org) if you do not receive it within four weeks after sending the request. Please aim to send requests before Friday 6 January 2017, otherwise we cannot guarantee fulfilling requests in time for your visa application process.
 
 We will continue updating the website with topics, keynote speakers and much more so keep checking in to stay updated.
 

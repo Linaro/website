@@ -22,7 +22,7 @@ wordpress_id: 9600
 Cambridge, UK; October 27, 2015
 
 
-Linaro Ltd, the collaborative engineering organisation developing open source software for the ARM® architecture, today announced that Guy Berruyer has been appointed to the position of Chairman of the [Linaro Board.](http://www.linaro.org/organization/board/)
+Linaro Ltd, the collaborative engineering organisation developing open source software for the ARM® architecture, today announced that Guy Berruyer has been appointed to the position of Chairman of the [Linaro Board.](/about/board/)
 
 Mr Berruyer, formerly CEO of Sage Group Plc, a FTSE 100 multi-national software company, assumed the post of Chairman at the Linaro Board meeting held on Thursday 8 October.
 

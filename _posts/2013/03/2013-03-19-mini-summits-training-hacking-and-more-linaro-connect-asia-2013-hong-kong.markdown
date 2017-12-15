@@ -2343,7 +2343,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Roger Teague](http://www.linaro.org/linux-on-arm/steering-committee) and the ARM Engineers
+  * [Roger Teague](/about/tsc/) and the ARM Engineers
 
 
 

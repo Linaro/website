@@ -30,4 +30,4 @@ Also at the event was Linaro CEO George Grey, who had an opportunity to be a par
 
 This presentation showed how complementary the Open Compute Project and Linaro are, with Linaro focusing on accelerating the software ecosystem for ARM based servers and OCP open sourcing innovation in the data center to help reduce costs, complexity and power consumption.  OCP is a key enabler for the LEG efforts of delivering interoperable low power servers, firstly by adopting standard, open sourced, hardware components and secondly by championing open vertical software standards such as OpenStack.
 
-To view the presentation and learn more about how Linaro is working toward this goal [click here.](http://www.linaro.org/linux-on-arm/presentations/)
+To view the presentation and learn more about how Linaro is working toward this goal [click here.](https://www.slideshare.net/linaroorg/presentations/)

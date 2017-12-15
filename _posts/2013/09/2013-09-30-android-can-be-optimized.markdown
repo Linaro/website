@@ -69,7 +69,7 @@ In our next post we will provide you with:
 
   * How much of that we can we do without breaking compatibility too badly.
 
-**Related Links:**  [Linaro Android Team page](http://www.linaro.org/engineering/engineering-groups/android-build)
+**Related Links:**  [Linaro Android Team page](/groups/lmg/)
 
 If you are attending [Linaro Connect USA 2013 ](http://www.linaro.org/connect-lcu13)in Santa Clara, CA October 28th-November 1st  -- please join us for our Android sessions on:
 
