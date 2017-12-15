@@ -44,7 +44,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-  * [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
+  * [Zach Pfeffer](/about/), [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
 
 
   * [Christian Bejram](https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort

@@ -22,7 +22,7 @@ Are you attending either The Android Builders Summit or The Embedded Linux Confe
 
 [The Android Builders Summit](http://events.linuxfoundation.org/events/android-builders-summit) (ABS 2013)  will take place on February 18-19 at the Parc 55 Hotel in San Francisco and scheduled to participate in this [Linux Foundation](http://www.linuxfoundation.org/) event are Zach Pfeffer and Bernhard Rosenkränzer of the Linaro Android Team.
 
-[Zach Pfeffer, Linaro Android Team Tech Lead](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/) is scheduled to participate in the panel discussion entitled ‘[Is Android the New Embedded Linux](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ at 9:00am on Tuesday 19 February.  Joining Pfeffer will be Mike Anderson of The PTR Group, Tim Bird of Sony Network Entertainment, David Stewart of Intel, and Karim Yaghmour of Opersys as moderator.
+[Zach Pfeffer, Linaro Android Team Tech Lead](/about/) is scheduled to participate in the panel discussion entitled ‘[Is Android the New Embedded Linux](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ at 9:00am on Tuesday 19 February.  Joining Pfeffer will be Mike Anderson of The PTR Group, Tim Bird of Sony Network Entertainment, David Stewart of Intel, and Karim Yaghmour of Opersys as moderator.
 
 [Bernhard Rosenkränzer, Linaro Android Engineer](http://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), will take part in the ‘[Ask the Experts](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
 

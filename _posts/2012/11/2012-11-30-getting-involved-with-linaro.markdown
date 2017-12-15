@@ -62,7 +62,7 @@ The Developer Platform Team's primary goal is to provide a common platform to us
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/developer-platform)
+  * [Team Members](/developers/)
 
 
 More information about the Linaro Developer Platform Team can be found at: [https://wiki.linaro.org/Platform/DevPlatform](https://wiki.linaro.org/Platform/DevPlatform)

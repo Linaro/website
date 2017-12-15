@@ -13,7 +13,7 @@ title: Do You Want to Work in Open Source? Linaro is Hiring!
 wordpress_id: 2310
 ---
 
-Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Yes! Linaro is hiring! Does working for an open source company appeal to you? Do you want to be part of the[ future of Linux on ARM](/)?
 
 **Yes, then keep reading!**
 
@@ -21,26 +21,26 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 ## Linaro is looking for...
 
 	
-  * Project Managers:  [http://www.linaro.org/careers/project-managers](http://www.linaro.org/careers/project-managers)
+  * Project Managers:  [/careers/](/careers/)
 
-  * OS Engineer - Kernel/Bootloader: [http://www.linaro.org/careers/os-engineer-kernelbootloader](http://www.linaro.org/careers/os-engineer-kernelbootloader)
+  * OS Engineer - Kernel/Bootloader: [/careers/](/careers/)
 
-  * Engineering Manager - Automation & CI: [http://www.linaro.org/careers/engineering-manager-automation-ci](http://www.linaro.org/careers/engineering-manager-automation-ci)
+  * Engineering Manager - Automation & CI: [/careers/](/careers/)
 
-  * LAVA Tech Lead: [http://www.linaro.org/careers/lava-tech-lead](http://www.linaro.org/careers/lava-tech-lead)
+  * LAVA Tech Lead: [/careers/](/careers/)
 
   * Android Ubuntu Linux Kernel Engineer: [/careers/](/careers/)
 
-  * Boot / Kernel Expert - Principal Engineers: [http://www.linaro.org/careers/boot-kernel-expert-principal-engineers](http://www.linaro.org/careers/boot-kernel-expert-principal-engineers)
+  * Boot / Kernel Expert - Principal Engineers: [/careers/](/careers/)
 
-  * Principal Engineers: [http://www.linaro.org/careers/principal-engineers](http://www.linaro.org/careers/principal-engineers)
+  * Principal Engineers: [/careers/](/careers/)
 
-  * QA Services Lead: [http://www.linaro.org/careers/qa-services-lead](http://www.linaro.org/careers/qa-services-lead)
+  * QA Services Lead: [/careers/](/careers/)
 
 
 ## How to apply
 
-Want to apply for one of these roles? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for one of these roles? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro

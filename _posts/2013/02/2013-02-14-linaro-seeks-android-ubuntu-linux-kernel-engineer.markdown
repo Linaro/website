@@ -16,7 +16,7 @@ title: Linaro Seeks Android Ubuntu Linux Kernel Engineer
 wordpress_id: 2352
 ---
 
-Today we are highlighting career opportunities at Linaro for an Android Ubuntu Linux Kernel Engineer. Are you located in or near Seoul, Korea and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities at Linaro for an Android Ubuntu Linux Kernel Engineer. Are you located in or near Seoul, Korea and want to be part of the[ future of Linux on ARM](/)?
 
 **Yes, then keep reading!**
 
@@ -32,7 +32,7 @@ Linaro is looking for an experienced support engineer to help automated deployme
 [/careers/](/careers/)
 
 **How to apply**
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro

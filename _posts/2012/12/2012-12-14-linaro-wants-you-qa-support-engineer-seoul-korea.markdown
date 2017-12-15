@@ -14,7 +14,7 @@ title: Linaro Wants You - QA Support Engineer- Seoul Korea
 wordpress_id: 2121
 ---
 
-Today we are highlighting career opportunities at Linaro in Seoul, Korea. Are you or someone you know located in or near Seoul, Korea  and want to be part of the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities at Linaro in Seoul, Korea. Are you or someone you know located in or near Seoul, Korea  and want to be part of the[ future of Linux on ARM](/)?
 
 _**Yes, then keep reading!**_
 
@@ -31,7 +31,7 @@ More information on this role can be found at: [http://www.linaro.org/careers/la
 ## How to apply
 
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro

@@ -21,7 +21,7 @@ wordpress_id: 2078
 
 The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
-“When we began planning the Mini-Summit Linaro's CTO [[David Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](http://www.linaro.org/linux-on-arm/meet-the-team/zach-pfeffer/), Tech Lead for the [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
+“When we began planning the Mini-Summit Linaro's CTO [[David Rusling](http://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](/about/), Tech Lead for the [Linaro Android Team](http://www.linaro.org/linux-on-arm/meet-the-team/android).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
 
 Through the collaboration of those involved in the discussion the Android Mini-Summit was born. What emerged was a 4 hour mini-summit centered on optimization and unification made up of an overview and welcome, two plenary sessions and four 1 hour follow-on sessions that included :
 
@@ -39,7 +39,7 @@ Through the collaboration of those involved in the discussion the Android Mini-S
 
 The [Android Mini-Summit](http://summit.linaro.org/lce12/meeting/20937/android-mini-summit-1/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
 
-During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](http://www.linaro.org/linaro-blog/2012/12/03/how-linaros-technical-steering-committee-works/) (TSC) [representative](http://www.linaro.org/linux-on-arm/steering-committee) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
+During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](http://www.linaro.org/linaro-blog/2012/12/03/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/tsc/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
 
   * Be small, aggressive, tactical, moveable
 

@@ -16,7 +16,7 @@ title: Work From Home While Helping to Build the Future of Linux on ARM
 wordpress_id: 2590
 ---
 
-Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on ARM](http://www.linaro.org/linux-on-arm)?
+Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on ARM](/)?
 
 
 **Yes, then keep reading!**
@@ -58,7 +58,7 @@ More information on this opportunity can be found at:
 
 
 
-[http://www.linaro.org/careers/qa-services-lead](http://www.linaro.org/careers/qa-services-lead)
+[/careers/](/careers/)
 
 
 
@@ -83,7 +83,7 @@ Linaro Platform Engineering is providing full system stack baselines as well as 
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/os-engineer-kernelbootloader](http://www.linaro.org/careers/os-engineer-kernelbootloader)
+[/careers/](/careers/)
 
 ### Engineering Manager - Automation & CI
 
@@ -92,12 +92,12 @@ The person taking this role will oversee Linaro’s Automation Infrastructure te
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/engineering-manager-automation-ci](http://www.linaro.org/careers/engineering-manager-automation-ci)
+[/careers/](/careers/)
 
 
 ## How to apply
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
 
 ## Other career opportunities at Linaro

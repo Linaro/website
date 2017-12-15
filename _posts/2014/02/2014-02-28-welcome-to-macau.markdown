@@ -31,7 +31,7 @@ Monday through Wednesday are filled with [sessions](http://lca-14.zerista.com/) 
 
 {% include image.html name="W2_shovan-03.png" alt="W2_shovan-03" %}
 
-On Wednesday night, suspend disbelief for an evening of Bond, James Bond..... Think ‘Casino Royale’ ([1] not [2]) for this Bond themed [gala dinner](http://www.linaro.org/connect-lca14/socializing/gala-dinner). There will be prizes for the best dressed male and female characters, best accessory and luckiest guest of the night!  Rumor has it that Jon Masters is in line to be the next James Bond.  However, this seems unlikely given his fascination with world domination and fluffy white cats.
+On Wednesday night, suspend disbelief for an evening of Bond, James Bond..... Think ‘Casino Royale’ ([1] not [2]) for this Bond themed [gala dinner](http://connect.linaro.org/lca14/). There will be prizes for the best dressed male and female characters, best accessory and luckiest guest of the night!  Rumor has it that Jon Masters is in line to be the next James Bond.  However, this seems unlikely given his fascination with world domination and fluffy white cats.
 
 
 Thursday is ‘Team Day’ and is jammed packed with sessions from start to finish.  The sessions include some topic areas not covered earlier in the week such as Testing a secure framework, GPGPU, Big Endian, Chromium optimization and profiling.  In addition, there will be hacking all day in each of the team hacking rooms.  What to do?   You can’t do it all so you will have to choose...choose wisely :)
