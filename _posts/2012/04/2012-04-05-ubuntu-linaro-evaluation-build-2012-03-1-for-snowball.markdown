@@ -16,7 +16,7 @@ This is an intermediate release due to problems with HDMI output around the 2012
 
 The 2012.03-1 Ubuntu Desktop release from Linaro and Igloo Community is now available for download at
 
-[http://releases.linaro.org/12.03.1/ubuntu/leb-snowball/](http://releases.linaro.org/12.03.1/ubuntu/leb-snowball/)
+[http://releases.linaro.org/12.03.1/ubuntu/leb-snowball/](http://releases.linaro.org/ubuntu/images/)
 
 Please follow the instructions there for installing the image on microSD card.
 
