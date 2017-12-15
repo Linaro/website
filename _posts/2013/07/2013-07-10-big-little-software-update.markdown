@@ -45,7 +45,7 @@ The second is the Global Task Scheduling (GTS) software developed (and now named
 
 **Core Software Configuration for GTS (4+4)**
 
-[![Pic2](/assets/blog/Pic2.jpg)](/assets/blog/Pic2.jpg)
+{% include image.html name="Pic2.jpg" alt="Pic2" %}
 
 The key benefits of GTS over IKS are:
 
