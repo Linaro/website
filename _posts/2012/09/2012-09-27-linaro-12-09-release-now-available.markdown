@@ -33,7 +33,7 @@ wordpress_id: 1920
 
 ## The Linaro 12.09 release is now available!
 
-The Linaro 12.09 release cycle highlights the combined work and enthusiasm of all the [Linaro Teams](http://www.linaro.org/linux-on-arm/meet-the-team) – Working Groups, Landing Teams andPlatform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this development cycle. The 12.09 release is another example of how Linaro succesfully–together with its members, partners and community–continue to build the future of Linux on ARM.
+The Linaro 12.09 release cycle highlights the combined work and enthusiasm of all the [Linaro Teams](/about/) – Working Groups, Landing Teams andPlatform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this development cycle. The 12.09 release is another example of how Linaro succesfully–together with its members, partners and community–continue to build the future of Linux on ARM.
 
 * * *
 
@@ -42,7 +42,7 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 * * *
 
-"During the 12.09 cycle the team started early work on a minimal ARMv8 bootstrap, and we already have a very minimal rootfs with some parts to help other developers that want to get involved with the porting," says [Ricardo Salveti](http://www.linaro.org/linux-on-arm/meet-the-team/ricardo-salveti/), [Developer Platform Team](/developers/) Tech Lead. "This work will be critical for the future of Linux on ARMv8, as the major GNU/Linux distributions can use it as base to bootstrap and support this new architechture." In addition to the work highlighted by Salveti, the Developer Platform team also updated the kernel and test components for the big.LITTLE project, made substantial progress on the Debian/Ubuntu Perl and Python multi-arch/cross-build support, and noted that Hwpacks for Vexpress, Origen and PandaBoard now include the support for UEFI and can be selected while flashing the image with linaro-media-tools.
+"During the 12.09 cycle the team started early work on a minimal ARMv8 bootstrap, and we already have a very minimal rootfs with some parts to help other developers that want to get involved with the porting," says [Ricardo Salveti](/about/), [Developer Platform Team](/developers/) Tech Lead. "This work will be critical for the future of Linux on ARMv8, as the major GNU/Linux distributions can use it as base to bootstrap and support this new architechture." In addition to the work highlighted by Salveti, the Developer Platform team also updated the kernel and test components for the big.LITTLE project, made substantial progress on the Debian/Ubuntu Perl and Python multi-arch/cross-build support, and noted that Hwpacks for Vexpress, Origen and PandaBoard now include the support for UEFI and can be selected while flashing the image with linaro-media-tools.
 
 * * * 
 

@@ -65,4 +65,4 @@ As always it was a pleasure to work with Form AV folks and all of the staff at U
 
 ## Feedback and Questions
 
-Do you have questions for Linaro Team members?  If so, let me know. I'll be conducting both email and Hangout interviews over the next few weeks so take a look at our [Meet the Team](http://www.linaro.org/linux-on-arm/meet-the-team) page and [email me](mailto:akgraner@linaro.org) (Amber Graner) any questions or topics you like more information about.
+Do you have questions for Linaro Team members?  If so, let me know. I'll be conducting both email and Hangout interviews over the next few weeks so take a look at our [Meet the Team](/about/) page and [email me](mailto:akgraner@linaro.org) (Amber Graner) any questions or topics you like more information about.
