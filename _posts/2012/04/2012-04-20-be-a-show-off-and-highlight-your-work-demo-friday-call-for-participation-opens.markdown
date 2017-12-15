@@ -57,7 +57,7 @@ Please let me know if you have any questions about Demo Friday or Linaro Connect
 
 _**Now's your time to show off what you've been working on. [ Send in your Demo Friday submission today](mailto:events@linaro.org). **_
 
-_**Registration for the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) event being held from 28 May through 1 June at at the Gold Coast Hotel in Hong Kong is open.  Don't forget to [register today](http://connect.linaro.org/register-connect/).**_
+_**Registration for the [Q2.12 Linaro Connect](http://connect.linaro.org/events/event/linaro-connect-q2-12/) event being held from 28 May through 1 June at at the Gold Coast Hotel in Hong Kong is open.  Don't forget to [register today](http://connect.linaro.org/attend/).**_
 
 **_Many thanks to our Diamond sponsors - [ARM](http://www.arm.com/) and [Canonical](http://www.canonical.com/) - for their sponsorship of the Q2.12 Linaro Connect[ Demo Friday](http://connect.linaro.org/events/linaro-connect-q2-12-demo-friday/) event._**
 

@@ -19,7 +19,7 @@ title: 'Linaro Connect Q2.12: 28 May - 1 June 2012 at the Gold Coast Hotel in Ho
 wordpress_id: 1329
 ---
 
-We’re thrilled to announce that [event registration](http://connect.linaro.org/register-connect/) and [hotel booking](http://connect.linaro.org/wp-content/uploads/2012/02/Hotel-Reservation-Form1.odt) at the Gold Coast Hotel in Hong Kong is now available for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12) – the industry’s foremost event for developing Linux on ARM. Book early to avoid disappointment!
+We’re thrilled to announce that [event registration](http://connect.linaro.org/attend/) and [hotel booking](http://connect.linaro.org/wp-content/uploads/2012/02/Hotel-Reservation-Form1.odt) at the Gold Coast Hotel in Hong Kong is now available for [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12) – the industry’s foremost event for developing Linux on ARM. Book early to avoid disappointment!
 As usual, this intensive week will involve the best software developers participating in discussion and planning in the morning, engineering in the afternoon and socialising in the evening, with the following primary themes:
 
   1. **Consolidation:** Continuing our current major initiatives including refactoring the kernel, supporting the ARM Linux Maintainer's tree, upstreaming CPU idle, unified memory management and moving towards a single zImage, all with a focus on reducing maintenance costs and speeding time to market for companies using our Member's silicon
