@@ -16,7 +16,7 @@ title: Linaro Announces Community Contributor Process and Team
 wordpress_id: 1042
 ---
 
-Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://launchpad.net/~linaro-community-contributors).
+Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://wiki.linaro.org/CommunityContributor).
 
 [Linaro](http://www.linaro.org/) itself is now an organisation of around 120 engineers, but as we continue to grow the community around us is also growing fast. We're grateful to the many people who are participating in our success, and so we're introducing the Community Contributor process to recognise those community members who have sustained contributions over a significant period of time. Our Technical Leads now have the opportunity to nominate an individual as a Community Contributor of Linaro.
 
