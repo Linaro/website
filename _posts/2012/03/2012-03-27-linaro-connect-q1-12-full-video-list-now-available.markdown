@@ -107,7 +107,7 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
   * [David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0)
 
 
-If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](http://connect.linaro.org/events/event/linaro-connect-q2-12/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](http://connect.linaro.org/events/event/linaro-connect-q2-12/#location).  Registration for this event is [now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
+If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](http://connect.linaro.org/resources/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](http://connect.linaro.org/resources/#location).  Registration for this event is [now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
 
 **About Linaro**
 
@@ -130,4 +130,4 @@ More information about Linaro can be found at: [http://www.linaro.org](http://w
 > All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon > and socialising in the evening.
 
 
-More information about Linaro Connect can be found at: [http://connect.linaro.org/events/event/linaro-connect-q2-12/](http://connect.linaro.org/events/event/linaro-connect-q2-12/)
+More information about Linaro Connect can be found at: [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)

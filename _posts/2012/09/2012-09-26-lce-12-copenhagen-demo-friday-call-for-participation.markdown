@@ -66,7 +66,7 @@ As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sess
 
 Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on ARM!
 
-[connect.linaro.org](http://connect.linaro.org/events/event/linaro-connect-q2-12/)
+[connect.linaro.org](http://connect.linaro.org/resources/)
 
 **About Linaro**
 
