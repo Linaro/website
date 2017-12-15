@@ -29,7 +29,7 @@ Linaro has a long term goal of making ARM devices more competitive by making a b
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/gcc-developer](http://www.linaro.org/careers/gcc-developer)
+[/careers/](/careers/)
 
 ### Kernel Baselines Lead Engineer
 
@@ -37,7 +37,7 @@ A lead Linux kernel maintainer responsible for creating and maintaining a LLTS (
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/kernel-baselines-lead-engineer](http://www.linaro.org/careers/kernel-baselines-lead-engineer)
+[/careers/](/careers/)
 
 
 
@@ -73,7 +73,7 @@ As a Senior Android Platform Engineer, you will be a technical and thought leade
 
 More information on this opportunity can be found at:
 
-[http://www.linaro.org/careers/senior-android-platform-engineer-technical-lead](http://www.linaro.org/careers/senior-android-platform-engineer-technical-lead)
+[/careers/](/careers/)
 
 ### OS Engineer - Kernel/Bootloader
 

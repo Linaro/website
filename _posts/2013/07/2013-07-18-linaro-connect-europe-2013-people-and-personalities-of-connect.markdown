@@ -20,7 +20,7 @@ Another highlight for me, was to speak with [Jon Masters](https://plus.google.co
 
 Also from [Red Hat](http://www.redhat.com/), [Leslie Hawthorn](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CCwQFjAA&url=http%3A%2F%2Fhawthornlandings.org%2F&ei=vQLoUe7kH9Ww4AOimYDoBQ&usg=AFQjCNGR-S4V1kzg4BbKOHea-IQU_5WreQ&sig2=sGKCFVT0t9ChkMW5auaNyw&bvm=bv.49478099,d.dmg) who welcomed everyone on Wednesday morning with a keynote about why open collaboration is important. Leslie also gave pointers on how to achieve successful and effective open collaboration with a community.
 
-[Larry Wikelius](http://www.calxeda.com/company/management/) of [Calexda](http://www.calxeda.com/) took a few moments out of his busy schedule to talk ARM 64-bit servers and what we can expect to see from Calexda over the next 6 months to a year.
+[Larry Wikelius](http://silverlining-systems.com//company/management/) of [Calexda](http://silverlining-systems.com//) took a few moments out of his busy schedule to talk ARM 64-bit servers and what we can expect to see from Calexda over the next 6 months to a year.
 
 [LAVA, LAVA, LAVA!](http://www.linaro.org/engineering/engineering-groups/validation) There were so many sessions, demo's and even a mini-summit related to testing and validation at LCE13 that I snagged two members of the LAVA team-[Alan Bennett](http://www.linaro.org/linux-on-arm/meet-the-team/alan-bennett/) and [Tyler Baker](http://www.linaro.org/linux-on-arm/meet-the-team/tyler-baker/)- to chat with me about why LAVA is so awesome and how it's making a difference for developers in the Linux on ARM space.
 

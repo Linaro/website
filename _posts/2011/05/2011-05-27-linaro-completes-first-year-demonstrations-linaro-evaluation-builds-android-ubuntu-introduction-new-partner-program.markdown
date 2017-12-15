@@ -34,7 +34,7 @@ Linaro was launched at Computex in 2010 by ARM, IBM, Freescale, Samsung, ST-Eric
   * To help device makers get to market more quickly, Linaro has focused on delivering product quality software and has created the Linaro Automated Validation Architecture (LAVA) platform which runs on a test farm of members' low-cost boards.
 
 
-The demonstrations at LDS showcased the Android and Ubuntu Linaro Evaluation Builds for the first time and will be extended further at Computex to include new hardware that will be launched at the show. To follow Linaro's engineering progress, an up-to-date status report can be found at [http://status.linaro.org](http://status.linaro.org/)
+The demonstrations at LDS showcased the Android and Ubuntu Linaro Evaluation Builds for the first time and will be extended further at Computex to include new hardware that will be launched at the show. To follow Linaro's engineering progress, an up-to-date status report can be found at [https://releases.linaro.org](https://releases.linaro.org/)
 
 "The demonstration of Android and Ubuntu Linaro Evaluation Builds and the development of the validation test farm are tangible proof points of the progress Linaro has made on delivering on its mission," said George Grey, Chief Executive Officer of Linaro. "We have delivered consolidation and performance features upstream, worked with our members on support for their latest SoCs, created optimized implementations of popular distributions and focused on the development and testing of product quality software for the benefit of our members."
 

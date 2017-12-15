@@ -25,7 +25,7 @@ _**Yes, then keep reading!**_
 
 Linaro is looking for an experienced support engineer to help automated deployment, validation and result analysis for Android and Ubuntu based on our member’s ARM development boards. You will be a part of Member Services team and provide LAVA ( Linaro automated validation Architecture - http://lava.readthedocs.org/en/latest/) solution to our members, reporting on test status, bug tracking as well as help to setup in-house validation solution, resolve technical issue or question of Linaro's members, partners and prospects.
 
-More information on this role can be found at: [http://www.linaro.org/careers/lavaqasupport-engineer](http://www.linaro.org/careers/lavaqasupport-engineer)
+More information on this role can be found at: [/careers/](/careers/)
 
 
 ## How to apply
