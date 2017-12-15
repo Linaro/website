@@ -19,7 +19,7 @@ title: 'Be a Show Off and Highlight Your Work - Demo Friday: Call for Participat
 wordpress_id: 1569
 ---
 
-_**Linaro Events Manager, [Arwen Donaghey](http://www.linaro.org/about/meet-the-team/arwen-donaghey/), issued the Call for Participation for [Q2.12 Linaro Connect](http://connect.linaro.org/resources/) [Demo Friday event](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/), in an email to the connect mailing list yesterday. Below is the Call for Participation in full:**_
+_**Linaro Events Manager, [Arwen Donaghey](/about/), issued the Call for Participation for [Q2.12 Linaro Connect](http://connect.linaro.org/resources/) [Demo Friday event](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/), in an email to the connect mailing list yesterday. Below is the Call for Participation in full:**_
 
 
 Linaro Connect Q2.12 is just around the corner. With a little over 5 weeks until the event I am pleased to announce the call for demonstrations is now open. Taking place on Friday 1 June from 4pm, demonstrations will be set up in the very grand, Grand Ballroom of the Gold Coast Hotel, Hong Kong as part of Linaro Connect Q2.12.
