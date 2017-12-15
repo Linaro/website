@@ -92,7 +92,7 @@ Help on filing a bug using Launchpad can be found [here](https://wiki.linaro.org
 
 Internet Relay Chat (IRC) is a form of realtime Internet chat. It is mainly designed for group (many-to-many) communication in discussion forums called channels, but also allows one-to-one communication via private message. On IRC you can talk to many of the Linaro developers, about a range of topics. The [IRC page](http://irclogs.linaro.org/ "Linaro IRC logs") on this site shows archived conversations from the Linaro IRC channel.
 
-Linaro’s IRC channels are hosted on [Freenode](http://freenode.net/). Users can join **#linaro** on [irc.freenode.net](http://irc.freenode.net/) to chat with Linaro developers.
+Linaro’s IRC channels are hosted on [Freenode](http://freenode.net/). Users can join **#linaro** on [irc.freenode.net](http://freenode.net/) to chat with Linaro developers.
 
 A complete list of Linaro IRC channels can be found [here](https://wiki.linaro.org/GettingInvolved/IRC).
 

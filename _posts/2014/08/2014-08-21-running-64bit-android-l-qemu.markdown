@@ -63,7 +63,7 @@ As with all our code we at Linaro do our work in public and with presumption of 
 
 ### You will need:
 
-A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christoffer.dall/linux-android.git/shortlog/refs/tags/ranchu-linaro-beta1)
+A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christoffer.dall/linux-android.git/)
 
     ARCH=arm64 make ranchu_defconfig
 
@@ -82,7 +82,7 @@ A [patched ](http://people.linaro.org/~christoffer.dall/linaro-devices.tar.gz)ve
 
 ```
 
-A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/shortlog/refs/heads/ranchu-linaro-beta1)
+A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/refs/heads)
 
 ```bash
 

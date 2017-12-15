@@ -31,7 +31,7 @@ The Mobile AOSP Optimization Lead Project serves as the focus of LMG Engineering
 **Useful Information:**
 
 - [**Governance**](https://wiki.linaro.org/Internal/LMGSC): Linaro Mobile Group Steering Committee (MEMBERS ONLY)
-- [**Mailing lists**](https://lists.linaro.org/mailman/listinfo/android-dev): Android Developer
+- [**Mailing lists**](https://lists.linaro.org/mailman/listinfo/linaro-android): Android Developer
 - [**Engineering**](https://wiki.linaro.org/LMG): Linaro Mobile Group Engineering Wiki
 - [**JIRA Project**](https://projects.linaro.org/projects/LMG/summary): Project Summary
 - [LMG Engineering Team](https://wiki.linaro.org/Internal/LMG/MeetTheTeam)

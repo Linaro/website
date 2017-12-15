@@ -46,7 +46,7 @@ The now famous [Linaro Awards Dinner ](http://connect.linaro.org/hkg15/socials/)
 
 Greg Kroah-Hartman (aka, Greg KH) will give the closing keynote on Friday morning with an update on “How Linaro is doing?” (from the Linux kernel community perspective). Greg gave some interesting, useful (and a few critical) insights during Linaro Connect Asia 2013.  Have we exceeded his expectations? We will know the answer on Friday morning.
 
-After the Friday keynote and mornings sessions, Joe Bates will provide his closing summary of the week followed by lunch, refreshments and a number of interesting[ technology demos](http://connect.linaro.org/hkg15/demos/).
+After the Friday keynote and mornings sessions, Joe Bates will provide his closing summary of the week followed by lunch, refreshments and a number of interesting[ technology demos](http://connect.linaro.org/hkg15/).
 
 See you all in Hong Kong!
 

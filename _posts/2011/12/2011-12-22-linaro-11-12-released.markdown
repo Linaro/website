@@ -110,8 +110,8 @@ Development:
 [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
 IRC:
-#linaro on [irc.linaro.org](http://irc.linaro.org/) or [irc.freenode.net](http://irc.freenode.net/)
-#linaro-android [irc.linaro.org](http://irc.linaro.org/) or [irc.freenode.net](http://irc.freenode.net/)
+#linaro on [irc.linaro.org](http://irc.linaro.org/) or [irc.freenode.net](http://freenode.net/)
+#linaro-android [irc.linaro.org](http://irc.linaro.org/) or [irc.freenode.net](http://freenode.net/)
 
 
 ## Known issues with this release
