@@ -29,7 +29,7 @@ Today we are highlighting career opportunities at Linaro for an Android Ubuntu L
 Linaro is looking for an experienced support engineer to help automated deployment, validation and result analysis for Android and Ubuntu based on our member’s ARM development boards. You will be a part of Member Services team and provide LAVA ( Linaro Automated Validation Architecture - [http://lava.readthedocs.org/en/latest/](http://lava.readthedocs.org/en/latest/)) solution to our members, reporting on test status, bug tracking as well as help to setup in-house validation solution, resolve technical issue or question of Linaro's members, partners and prospects.
 
 **More information on this role can be found at:**
-[http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer](http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer)
+[/careers/](/careers/)
 
 **How to apply**
 Want to apply for this role? Then email your information to[ careers@linaro.org](http://www.linaro.org/linaro-blog/wp-admin/careers@linaro.org)

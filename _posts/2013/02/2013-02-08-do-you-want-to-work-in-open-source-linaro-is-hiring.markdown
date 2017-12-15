@@ -29,7 +29,7 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 
   * LAVA Tech Lead: [http://www.linaro.org/careers/lava-tech-lead](http://www.linaro.org/careers/lava-tech-lead)
 
-  * Android Ubuntu Linux Kernel Engineer: [http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer](http://www.linaro.org/careers/android-ubuntu-linux-kernel-engineer)
+  * Android Ubuntu Linux Kernel Engineer: [/careers/](/careers/)
 
   * Boot / Kernel Expert - Principal Engineers: [http://www.linaro.org/careers/boot-kernel-expert-principal-engineers](http://www.linaro.org/careers/boot-kernel-expert-principal-engineers)
 
