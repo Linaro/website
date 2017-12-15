@@ -59,7 +59,7 @@ One important point that I missed before is the hardware platform that we are us
 
 As mentioned before, we will keep you posted periodically as we make some considerable progress on any of these topics. If you have any questions or suggestions on these topics please write to us on [linaro-android@lists.linaro.org](mailto:linaro-android@lists.linaro.org) or join us on IRC #linaro-android on Freenode.**** ****
 
-If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7th  [www.linaro.org/connect-lca14](http://www.linaro.org/connect-lca14) -- please join us for our Android sessions on
+If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7th  [www.linaro.org/connect-lca14](http://connect.linaro.org/lca14/) -- please join us for our Android sessions on
 
 
   * March 4th 2014 : Optimizing SQLite for Android mobile

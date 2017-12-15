@@ -18,9 +18,9 @@ title: Welcome to Macau!
 wordpress_id: 3405
 ---
 
-[Linaro Connect Asia 2014](http://www.linaro.org/connect-lca14) promises to be the largest Connect to date (again).  As always, there will be a few surprises during the week including one that may make you think about “Home” while enjoying the pleasures of [one of the world’s richest cities](http://en.wikipedia.org/wiki/Macau).
+[Linaro Connect Asia 2014](http://connect.linaro.org/lca14/) promises to be the largest Connect to date (again).  As always, there will be a few surprises during the week including one that may make you think about “Home” while enjoying the pleasures of [one of the world’s richest cities](http://en.wikipedia.org/wiki/Macau).
 
-There will be [keynote sessions](http://www.linaro.org/connect-lca14/schedule/keynote-speakers-at-lca14) each of the five days with topics ranging from the state of [![LCE13 Opening Keynote](/assets/blog/LCE13-Opening-Keynote.jpg)](/assets/blog/LCE13-Opening-Keynote.jpg)ARM Servers and Software Defined Networking to open source development for carrier class equipment.  And, of course, a look into the future with David Rusling (Linaro, CTO). What are the extents of David’s vision?  Stay through Friday and you may find out!
+There will be [keynote sessions](http://connect.linaro.org/lca14//schedule/keynote-speakers-at-lca14) each of the five days with topics ranging from the state of [![LCE13 Opening Keynote](/assets/blog/LCE13-Opening-Keynote.jpg)](/assets/blog/LCE13-Opening-Keynote.jpg)ARM Servers and Software Defined Networking to open source development for carrier class equipment.  And, of course, a look into the future with David Rusling (Linaro, CTO). What are the extents of David’s vision?  Stay through Friday and you may find out!
 
 
 ARMv8 will be a key theme of the week.  ARMv8 SoC’s and platforms are here and more are coming this year.  Software development for ARMv8 has been ongoing for many months and a tipping point has been reached when hardware and software combine to accelerate market adoption of this largest generation of the ARM architecture.  Expect ARMv8 to be front and center in many of the sessions this week.
@@ -51,4 +51,4 @@ Friends don’t let friends go home empty. :)_
 
 [2] [http://en.wikipedia.org/wiki/Casino_Royale_(1967_film)](http://en.wikipedia.org/wiki/Casino_Royale_(1967_film))
 
-** If you are unable to attend in person remote participation has been set-up for most of the sessions.  [Learn more](http://www.linaro.org/connect-lca14/schedule/remote-participation)
+** If you are unable to attend in person remote participation has been set-up for most of the sessions.  [Learn more](http://connect.linaro.org/lca14//schedule/remote-participation)

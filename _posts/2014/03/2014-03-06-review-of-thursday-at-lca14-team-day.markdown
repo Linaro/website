@@ -139,4 +139,4 @@ Below are the available presentations from Thursday.**
 </table>
 
 
-As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://www.linaro.org/connect-lca14/schedule/remote-participation) please visit the Linaro Connect website.
+As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation](http://connect.linaro.org/lca14//schedule/remote-participation) please visit the Linaro Connect website.
