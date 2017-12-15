@@ -36,7 +36,7 @@ CAMBRIDGE, UK – 22 JANUARY 2015
   * Warren Rehman -  Android Partner Engineering Manager, Google
 
 
-The Linaro Connect agenda also features sessions covering: Android, ARMv8-A, Automation & Validation, Digital Home, Enterprise Servers, LAVA, Linux Kernel, Networking, Power Management, Security, Toolchain, Virtualization and multiple training sessions. Additionally, [Linaro Connect Hong Kong 2015 will feature the following demos: ](http://connect.linaro.org/hkg15/demos/)
+The Linaro Connect agenda also features sessions covering: Android, ARMv8-A, Automation & Validation, Digital Home, Enterprise Servers, LAVA, Linux Kernel, Networking, Power Management, Security, Toolchain, Virtualization and multiple training sessions. Additionally, [Linaro Connect Hong Kong 2015 will feature the following demos: ](http://connect.linaro.org/hkg15/)
 
   * Linaro Clear Key CDM
   
