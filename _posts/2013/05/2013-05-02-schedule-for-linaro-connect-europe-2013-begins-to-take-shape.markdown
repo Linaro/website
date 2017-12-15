@@ -16,7 +16,7 @@ title: Schedule for Linaro Connect Europe 2013 Begins to Take Shape
 wordpress_id: 2687
 ---
 
-{% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="http://www.linaro.org/connect" %}
+{% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="http://connect.linaro.org" %}
 
 
 [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) is being held at the Burlington Hotel in Dublin, Ireland on 8-12 July.  As we enter this stage in our planning I wanted to remind you to [register today](http://linaroconnect-lce13-eorg.eventbrite.com/)!
