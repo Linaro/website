@@ -24,7 +24,7 @@ title: Linaro Connect Q1.12 Full Video List Now Available
 wordpress_id: 1437
 ---
 
-The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](http://connect.linaro.org/events/event/lcq1-12/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.
+The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](http://connect.linaro.org/resources/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.
 
 Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on the ones you want to view or check out the[ Linaro youtube channel](http://www.youtube.com/user/LinaroOrg) for these and other videos we've posted from other events as well.
 
