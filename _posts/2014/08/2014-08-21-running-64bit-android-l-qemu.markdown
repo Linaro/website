@@ -82,7 +82,7 @@ A [patched ](http://people.linaro.org/~christoffer.dall/linaro-devices.tar.gz)ve
 
 ```
 
-A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/shortlog/refs/heads/ranchu-linaro-beta1)
+A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/refs/heads)
 
 ```bash
 
