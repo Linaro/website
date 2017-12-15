@@ -34,7 +34,7 @@ The following video from ARM helps developers easily understand the Android deve
 
 The latest release from Linaro is available is here
     
-[http://releases.linaro.org/14.08/members/arm/android/images/armv8-android-juno-lsk](http://releases.linaro.org/14.08/members/arm/android/images/armv8-android-juno-lsk)
+[http://releases.linaro.org/14.08/members/arm/android/images/armv8-android-juno-lsk](http://releases.linaro.org/android/member-lcr/juno/)
 
 **How does this release helps developers?** Android and other software components like the Linux kernel, and the UEFI boot loader are built with a common toolchain - in this case, the Linaro GCC compiler version 4.9 - and this helps to reduce the number of debug and development cycles. Developers have access to documentation that provides a build procedure, Android booting instructions for both the ARM Fast models and Juno hardware. The release provides both source and pre-built binaries to ease the initial setup and facilitates porting to custom hardware or integration with custom software components in Android.
 
