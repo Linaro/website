@@ -161,4 +161,4 @@ Are you passionate about – or are just wanting to get involved in – the late
 
 Linaro Connect is also an ideal event to attend for technical executives interested in investing into Linaro. The [Linaro management team](http://www.linaro.org/about/management-team) is available throughout the week to introduce you to the company and explain the many benefits of collaboration for your company and market situation. If you would like to meet with a member of the management team during LCA13 please send an email to contactus@linaro.org prior to the event so that a meeting during the event can be arranged.
 
-Finally, sponsorship of LCA13  is now available, with a variety of [great packages](http://www.linaro.org/connect/sponsorship).  Email [connect@linaro.org](mailto:connect@linaro.org) for more details.
+Finally, sponsorship of LCA13  is now available, with a variety of [great packages](http://connect.linaro.org/sponsors/).  Email [connect@linaro.org](mailto:connect@linaro.org) for more details.

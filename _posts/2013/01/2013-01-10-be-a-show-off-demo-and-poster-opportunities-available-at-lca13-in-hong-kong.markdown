@@ -74,7 +74,7 @@ Demo Friday details can be found on the [Linaro Connect Site](http://www.linaro.
 ## Sponsorship Opportunities Still Available
 
 
-LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on March 4 -10 and sponsorship opportunities are still available. More information about levels and benefits of Linaro Connect sponsorship can be found [here](http://www.linaro.org/connect/sponsorship).
+LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on March 4 -10 and sponsorship opportunities are still available. More information about levels and benefits of Linaro Connect sponsorship can be found [here](http://connect.linaro.org/sponsors/).
 
 
 ## Register Today
