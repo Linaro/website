@@ -6,7 +6,7 @@ date: 2011-09-16 11:05:37
 description: Announcement of the Linaro QEMU 2011.09 release. New features and known
   issues.
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-qemu-2011-09-released/
+link: /blog/releases-blog/linaro-qemu-2011-09-released/
 slug: linaro-qemu-2011-09-released
 tags:
 - Releases

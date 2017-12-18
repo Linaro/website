@@ -14,7 +14,7 @@ excerpt: For those that may not be as familiar with Linaro's LAVA team, this tea
   during the show as well as an interview with the team's director discussing the
   activities the team has been working on and what is coming up.
 layout: post
-link: https://www.linaro.org/blog/linaro-lava-group-team-update/
+link: /blog/linaro-lava-group-team-update/
 slug: linaro-lava-group-team-update
 tags:
 - LAVA

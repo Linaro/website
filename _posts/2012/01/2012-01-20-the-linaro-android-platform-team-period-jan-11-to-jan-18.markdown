@@ -5,7 +5,7 @@ categories:
 date: 2012-01-20 01:30:57
 keywords: Linaro, Android, 12.01
 layout: post
-link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-jan-11-to-jan-18/
+link: /blog/android-blog/the-linaro-android-platform-team-period-jan-11-to-jan-18/
 slug: the-linaro-android-platform-team-period-jan-11-to-jan-18
 tags:
 - Android

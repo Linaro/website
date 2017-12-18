@@ -8,7 +8,7 @@ description: Demo Friday videos from from Linaro Connect Europe 2013 are now ava
 keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
   LCE13, Dublin, Demo Friday, KVM, LAVA, ZEN, UEFI, LCU13, Santa Clara, 64-bit, ARMv8
 layout: post
-link: https://www.linaro.org/blog/connect-update/linaro-connect-europe-2103-demo-friday-videos/
+link: /blog/connect-update/linaro-connect-europe-2103-demo-friday-videos/
 slug: linaro-connect-europe-2103-demo-friday-videos
 tags:
 - Connect Events
@@ -47,18 +47,18 @@ While we didn't get the opportunity to record all the Demos, below are links to 
   * [ LAVA - LMP (LAVA Multi-purpose Probe)](http://www.youtube.com/watch?v=3Jaf5ILvVmQ)
 
 
-Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](https://www.linaro.org/linaro-blog/category/connect-events/):
+Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](/linaro-blog/category/connect-events/):
 
 
 
 
-  * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](https://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+  * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 
-  * [Linaro Connect Europe 2013: Keynote Speaker Videos](https://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * [Linaro Connect Europe 2013: Keynote Speaker Videos](/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * [Linaro Connect Europe 2013: People and Personalities of Connect](https://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * [Linaro Connect Europe 2013: People and Personalities of Connect](/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
 For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [http://connect.linaro.org/lce13//demo-friday](http://connect.linaro.org/lce13//demo-friday)

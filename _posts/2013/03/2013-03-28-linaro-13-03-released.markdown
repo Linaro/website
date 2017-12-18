@@ -9,7 +9,7 @@ description: The 13.03 Linaro release highlights the focused efforts of all the 
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
   Linaro 13.03 release. release, announcement
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-03-released/
+link: /blog/releases-blog/linaro-13-03-released/
 slug: linaro-13-03-released
 tags:
 - Releases
@@ -48,7 +48,7 @@ The **Linaro Enterprise Group** (LEG) announced that the initial GRUB port on A
 
 ## **Announcements:**
 
-During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, formerly the Director for the Kernel Working Groups at Linaro, has now taken on the role of VP of Engineering. More information on this appointment can be found in the press release at: [https://www.linaro.org/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/](https://www.linaro.org/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/)
+During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, formerly the Director for the Kernel Working Groups at Linaro, has now taken on the role of VP of Engineering. More information on this appointment can be found in the press release at: [/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/](/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/)
 
 
 ## **Linaro Connect:**
@@ -72,7 +72,7 @@ We encourage everybody to use the 13.03 release. The download links for all imag
 
 
 
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -124,7 +124,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 More information on Linaro can be found on our websites:
 
 
-* Homepage: [https://www.linaro.org](https://www.linaro.org/)
+* Homepage: [](/)
 
 
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

@@ -9,7 +9,7 @@ description: "LeMaker to pair its hardware expertise with Linaro\xE2\x80\x99s op
 excerpt: "LeMaker to pair its hardware expertise with Linaro\u2019s open source software
   experience to enable software developers with new 96Boards hardware platforms"
 layout: post
-link: https://www.linaro.org/news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/
+link: /news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/
 slug: linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group
 tags:
 - 96Boards
@@ -38,7 +38,7 @@ LeMaker has joined the LCG to combine its professional experience of working wit
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not­for­profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non­differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org) and [http://www.96Boards.org](http://www.96Boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96Boards.org).
 
 **About LeMaker**
 

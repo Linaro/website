@@ -5,7 +5,7 @@ categories:
 date: 2014-08-20 15:21:50
 description: 'CAMBRIDGE, UK; 20 AUGUST 2014:'
 layout: post
-link: https://www.linaro.org/news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
+link: /news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2014
 tags:
 - connect
@@ -39,6 +39,6 @@ Additionally, Linaro Connect USA 2014 will feature demos of Linaro members’ pr
 
   * Dr. Christos Kolias, Senior Research Scientist at Orange Silicon Valley  will present  “NFV:  Empowering the Network”
 
-For more information about Linaro Connect USA 2014, including how to register and to view the schedule, please visit:  [https://www.linaro.org/connect/lcu/lcu14/](https://www.linaro.org/connect/lcu/lcu14/)
+For more information about Linaro Connect USA 2014, including how to register and to view the schedule, please visit:  [/connect/lcu/lcu14/](/connect/lcu/lcu14/)
 
-**About Linaro:** Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral, its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit:  [https://www.linaro.org](https://www.linaro.org/).
+**About Linaro:** Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral, its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit:  [](/).

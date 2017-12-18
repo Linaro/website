@@ -12,7 +12,7 @@ excerpt: Linaro announced the complete line up of keynote speakers for the upcom
   in Burlingame, California. The San Francisco conference will feature several keynote
   speakers.
 layout: post
-link: https://www.linaro.org/news/keynote-speakers-lined-up-for-linaro-connect-sfo15/
+link: /news/keynote-speakers-lined-up-for-linaro-connect-sfo15/
 slug: keynote-speakers-lined-up-for-linaro-connect-sfo15
 title: Keynote Speakers Lined Up for Linaro Connect SFO15
 wordpress_id: 9244
@@ -43,4 +43,4 @@ To learn more about Linaro Connect SFO15 please visit: [http://connect.linaro.or
 **About Linaro**
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/) and [http://www.96Boards.org](http://www.96boards.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](/) and [http://www.96Boards.org](http://www.96boards.org/).

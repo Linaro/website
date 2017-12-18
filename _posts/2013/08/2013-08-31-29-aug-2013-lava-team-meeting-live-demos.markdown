@@ -6,7 +6,7 @@ date: 2013-08-31 16:00:09
 description: Recap of the weekly LAVA team meeting and summary of the LIVE demos
 keywords: Linaro, Linux, LAVA, opensource, multi-node, kvm
 layout: post
-link: https://www.linaro.org/blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/
+link: /blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/
 slug: 29-aug-2013-lava-team-meeting-live-demos
 tags:
 - LAVA

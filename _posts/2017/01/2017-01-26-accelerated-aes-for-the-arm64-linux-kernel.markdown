@@ -6,7 +6,7 @@ comments: true
 date: 2017-01-26 08:44:07
 keywords: Accelerated AES, arm64, Linux, kernel
 layout: post
-link: https://www.linaro.org/blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel/
+link: /blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel/
 slug: accelerated-aes-for-the-arm64-linux-kernel
 tags:
 - Core Dump

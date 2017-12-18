@@ -8,7 +8,7 @@ description: Want to see what happens at Linaro Connect? Check out this Linaro C
 keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, LCE13, LCU13, KVM on ARM,
   big.LITTLE, Maddog, LAVA, Linaro Connect Europe 2013
 layout: post
-link: https://www.linaro.org/blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/
+link: /blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/
 slug: kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013
 tags:
 - Community
@@ -30,7 +30,7 @@ wordpress_id: 2843
 
 ## Keynotes
 
-There were [5 plenaries with 8 keynotes](https://www.linaro.org/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/) that included:
+There were [5 plenaries with 8 keynotes](/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/) that included:
 
   * [George Grey - CEO Linaro ](http://lce-13.zerista.com/event/member/79585), [Google+ Event Listing](https://plus.google.com/events/c7nkdlrtl8j6cno00fu15gf6dos?partnerid=gplp0), [Video (YouTube)](http://youtu.be/cQ6Kp8R5aow), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Opening%20Keynote-%20George%20Grey%20-%20CEO%20Linaro.mp4), [Presentation](https://www.slideshare.net/linaroorg/george-grey-keynotemondayjuly82013)
 
@@ -64,7 +64,7 @@ LAVA continues to be a hot topic (yes, pun intended) and LCE13 showcased why. Th
 
 ## big.LITTLE Software Update
 
-During LCE13 George Grey, Linaro CEO took a [moment to blog](https://www.linaro.org/2013/07/10/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](https://www.linaro.org/2013/07/10/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
+During LCE13 George Grey, Linaro CEO took a [moment to blog](/2013/07/10/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](/2013/07/10/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
 
 
   * Current Status as at end of H1 2013
@@ -99,7 +99,7 @@ If you need more information on big.LITTLE ARM has published further information
 The Demo Friday at LCE13 which took place on 12 July 2013 played host to the world’s first demonstration of KVM (Kernel-based Virtual Machine) running on an ARMv8 64-­bit silicon platform from Applied Micro Circuits Corporation. The demonstration showed KVM ARMv8 64-­bit based virtualization on the AppliedMicro X-­C1 hardware platform featuring the company’s X-Gene Server on a ChipTM silicon solution. This solution consists of eight ARMv8 64-­bit processors running four SMP Linux guest VMs (two ARMv7 32­-bit and two ARMv8 64-­bit guests) with web servers running concurrently on each VM using VirtIO-based network virtualization. The web servers delivered HTML web pages with varying graphical content.
 
 
-ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](https://www.linaro.org/news/linaro-connect-europe-2013-lce13-to-host-first-demonstration-of-kvm-on-appliedmicros-arm-64bit-hardware/en/).
+ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](/news/linaro-connect-europe-2013-lce13-to-host-first-demonstration-of-kvm-on-appliedmicros-arm-64bit-hardware/en/).
 
 
 In addition to the KVM on ARM demo there were more than 15 other demos. LEG, LAVA, Android, XEN, Sysops and more opted to showcase their work.
@@ -122,7 +122,7 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
 ## LCE 13 Interviews
 
 
-[Interviews from LCE13](https://www.linaro.org/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/) include:
+[Interviews from LCE13](/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/) include:
 
 
 
@@ -209,7 +209,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **12:00 PM - 1:00 PM** - [Why all this sudden attention on the Linux Scheduler?](http://lce-13.zerista.com/event/member/79597)  - [Etherpad](http://pad.linaro.org/p/LCE13_why_all_this_attention_on_the_Linux_scheduler), [Google+ Event Listing](https://plus.google.com/u/0/events/ccuka8t9o6qdfine2o4sr71vgh4), [Video (YouTube)](http://youtu.be/NoeHIjqlriI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Why%20all%20this%20sudden%20attention%20on%20the%20Linux%20schedule.mp4),[ Presentation](Why all this sudden attention on the Linux Scheduler?)
+  * **12:00 PM - 1:00 PM** - [Why all this sudden attention on the Linux Scheduler?](http://lce-13.zerista.com/event/member/79597)  - [Etherpad](http://pad.linaro.org/p/LCE13_why_all_this_attention_on_the_Linux_scheduler), [Google+ Event Listing](https://plus.google.com/u/0/events/ccuka8t9o6qdfine2o4sr71vgh4), [Video (YouTube)](http://youtu.be/NoeHIjqlriI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Why%20all%20this%20sudden%20attention%20on%20the%20Linux%20schedule.mp4),[ Presentation](https://www.slideshare.net/linaroorg/lce13-whyattentiononschedulertalk)
 
 
   * **12:00 AM - 1:00 PM** - [LEG - UEFI next steps](http://lce-13.zerista.com/event/member/79593) - [Etherpad](http://pad.linaro.org/p/LCE13_LEG-UEFI), [Google+ Event Listing](https://plus.google.com/u/0/events/cmemkr62sj903ukq7uln3rljhjk), [Video (YouTube)](http://youtu.be/MemQ2hNf-QE), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/LEG%20-%20UEFI%20next%20steps.mp4)

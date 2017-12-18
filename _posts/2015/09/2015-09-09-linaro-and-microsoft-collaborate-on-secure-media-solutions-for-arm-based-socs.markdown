@@ -16,7 +16,7 @@ excerpt: "Linaro announced a major step forward in the delivery of an open sourc
   by premium content service providers with the Microsoft\xAE PlayReady\xAE Digital
   Rights Management (DRM)."
 layout: post
-link: https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/
+link: /news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/
 slug: linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs
 tags:
 - arm
@@ -59,4 +59,4 @@ The secure media solution has been implemented on an STMicroelectronics STiH410 
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [https://www.linaro.org](https://www.linaro.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [](/).

@@ -6,7 +6,7 @@ date: 2011-06-09 14:47:44
 description: Linaro Kernel upstreaming efforts.
 keywords: Kernel, Linux Kernel, ARM, Linaro, ARM architecture, embedded linux conference
 layout: post
-link: https://www.linaro.org/blog/kernel-upstreaming/
+link: /blog/kernel-upstreaming/
 slug: kernel-upstreaming
 title: Kernel Upstreaming
 wordpress_id: 3391

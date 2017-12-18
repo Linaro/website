@@ -2,7 +2,7 @@
 author: fathi.boudra
 date: 2012-04-26 20:54:50+00:00
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-toolchain-binaries-2012-04-released/
+link: /blog/releases-blog/linaro-toolchain-binaries-2012-04-released/
 slug: linaro-toolchain-binaries-2012-04-released
 title: Linaro Toolchain Binaries 2012.04 released
 wordpress_id: 1604

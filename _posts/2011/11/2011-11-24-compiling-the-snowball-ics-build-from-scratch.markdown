@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2011-11-24 04:24:45+00:00
 layout: post
-link: https://www.linaro.org/blog/compiling-the-snowball-ics-build-from-scratch/
+link: /blog/compiling-the-snowball-ics-build-from-scratch/
 slug: compiling-the-snowball-ics-build-from-scratch
 title: Compiling the Snowball ICS Build from Scratch
 wordpress_id: 913

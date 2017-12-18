@@ -4,7 +4,7 @@ date: 2016-07-25 16:20:26+00:00
 excerpt: 'Read the latest update from the LHG sprint held at the Huawei/Hisilicon
   facilities in Shenzhen, China on July 11-14.  '
 layout: post
-link: https://www.linaro.org/blog/lhg-sprint-report/
+link: /blog/lhg-sprint-report/
 slug: lhg-sprint-report
 title: LHG Sprint Report
 wordpress_id: 11201

@@ -9,7 +9,7 @@ description: This article explains how to add a new service and associated appli
 excerpt: 'This article explains how to add a new service and associated application
   APIs to Android Lollipop 5 '
 layout: post
-link: https://www.linaro.org/blog/adding-a-new-system-service-to-android-5-tips-and-how-to/
+link: /blog/adding-a-new-system-service-to-android-5-tips-and-how-to/
 slug: adding-a-new-system-service-to-android-5-tips-and-how-to
 tags:
 - android

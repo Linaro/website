@@ -7,7 +7,7 @@ description: Linaro 16.07 release is now available for download. See the detaile
   highlights of this release to get an overview of what has been accomplished by the
   Working Groups, Landing Teams and Platform Teams.
 layout: post
-link: https://www.linaro.org/blog/linaro-16-07-release-available-for-download/
+link: /blog/linaro-16-07-release-available-for-download/
 slug: linaro-16-07-release-available-for-download
 tags:
 - Releases
@@ -44,7 +44,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -83,7 +83,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **USING THE DEBIAN-BASED IMAGES**
@@ -103,7 +103,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

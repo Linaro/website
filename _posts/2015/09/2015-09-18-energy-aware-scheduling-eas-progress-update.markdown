@@ -10,7 +10,7 @@ excerpt: ARM and Linaro are jointly developing "Energy Aware Scheduling", a tech
   that improves power management on Linux by making it more central and easier to
   tune. See the latest update.
 layout: post
-link: https://www.linaro.org/blog/core-dump/energy-aware-scheduling-eas-progress-update/
+link: /blog/core-dump/energy-aware-scheduling-eas-progress-update/
 slug: energy-aware-scheduling-eas-progress-update
 tags:
 - Core Dump
@@ -44,7 +44,7 @@ EAS will unify 3 separate frameworks in the Linux kernel that are currently only
   * Linux cpuidle
   * Linux cpufreq
 
-These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](https://www.linaro.org/blog/core-dump/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
+These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/core-dump/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
 
 The optimal solution is to fully integrate these functions into the Linux scheduler itself, with sufficient information to enable the most energy-efficient scheduling decisions to be made.
 

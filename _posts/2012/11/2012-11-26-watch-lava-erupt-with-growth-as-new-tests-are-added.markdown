@@ -9,7 +9,7 @@ description: Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LAVA, Dave
   Pigott, Testing, Gource, FFmpeg, Python
 layout: post
-link: https://www.linaro.org/blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/
+link: /blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/
 slug: watch-lava-erupt-with-growth-as-new-tests-are-added
 tags:
 - Community
@@ -21,7 +21,7 @@ wordpress_id: 2028
 
 > Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled. ~Dave Pigott, LAVA Lab Lead 
 
-[Dave Pigott, ](https://www.linaro.org/linux-on-arm/meet-the-team/dave-pigott/)Lava Lab Lead at Linaro recently gave a presentation about [LAVA—](https://wiki.linaro.org/Platform/LAVA)Linaro Automated Validation Architecture—and as part of this showed [an animated version of LAVA](http://youtu.be/_m1nbcRba5w) from its go live date of 27 July 2011 through 6 November 2012.
+[Dave Pigott, ](/linux-on-arm/meet-the-team/dave-pigott/)Lava Lab Lead at Linaro recently gave a presentation about [LAVA—](https://wiki.linaro.org/Platform/LAVA)Linaro Automated Validation Architecture—and as part of this showed [an animated version of LAVA](http://youtu.be/_m1nbcRba5w) from its go live date of 27 July 2011 through 6 November 2012.
 
 I was curious as to how he created this video presentation, so I asked him about the process, the software he used and more.
 
@@ -48,7 +48,7 @@ Outside of that, the little avatars represent people or processes submitting job
 
 **Question:** How has LAVA testing grown over the last year to 18 months?
 
-**Dave Pigott:** As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](https://www.linaro.org/engineering/leg) to the mix, so it’s just going to get bigger.
+**Dave Pigott:** As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](/engineering/leg) to the mix, so it’s just going to get bigger.
 
 **Question:** What do you want people to know about LAVA?
 
@@ -72,7 +72,7 @@ _More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, 
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation._
 
-_To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/)._
+_To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](/)._
 
 
 ### About Linaro Connect

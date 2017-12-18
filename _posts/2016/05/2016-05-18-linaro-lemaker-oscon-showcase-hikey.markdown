@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-05-18 19:29:37+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-lemaker-oscon-showcase-hikey/
+link: /blog/linaro-lemaker-oscon-showcase-hikey/
 slug: linaro-lemaker-oscon-showcase-hikey
 title: Linaro and Lemaker at OSCON to showcase HiKey
 wordpress_id: 10627

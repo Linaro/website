@@ -6,7 +6,7 @@ date: 2011-04-05 21:53:07
 description: Overview of talks given by Linaro engineers at the 2011 edition of the
   Embedded Linux Conference in San Francisco.
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-at-elc/
+link: /blog/community-blog/linaro-at-elc/
 slug: linaro-at-elc
 tags:
 - Community

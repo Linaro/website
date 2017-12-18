@@ -6,7 +6,7 @@ date: 2012-12-14 20:20:42
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Careers, Seoul, Korea, QA,
   LAVA, Support Engineer
 layout: post
-link: https://www.linaro.org/blog/lava-blog/linaro-wants-you-qa-support-engineer-seoul-korea/
+link: /blog/lava-blog/linaro-wants-you-qa-support-engineer-seoul-korea/
 slug: linaro-wants-you-qa-support-engineer-seoul-korea
 tags:
 - LAVA
@@ -37,7 +37,7 @@ Want to apply for this role? Then email your information to[ careers@linaro.org]
 ## Other career opportunities at Linaro
 
 
-All available career opportunities can be found at:[ https://www.linaro.org/careers/](https://www.linaro.org/careers/)
+All available career opportunities can be found at:[ /careers/](/careers/)
 
 _**Follow Linaro**_
 
@@ -47,4 +47,4 @@ _**About Linaro**_
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
-_To find out more, please visit[ https://www.linaro.org](https://www.linaro.org/)._
+_To find out more, please visit[ ](/)._

@@ -5,7 +5,7 @@ categories:
 date: 2010-10-26 12:01:05
 description: CAMBRIDGE, UK - 26 OCT 2010
 layout: post
-link: https://www.linaro.org/news/linaro-names-george-grey-ceo/
+link: /news/linaro-names-george-grey-ceo/
 slug: linaro-names-george-grey-ceo
 title: Linaro names George Grey as CEO
 wordpress_id: 4400

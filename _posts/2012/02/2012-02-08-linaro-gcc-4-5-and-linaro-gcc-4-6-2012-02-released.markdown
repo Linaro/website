@@ -2,7 +2,7 @@
 author: fathi.boudra
 date: 2012-02-08 23:32:36+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released/
+link: /blog/linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released/
 slug: linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released
 title: Linaro GCC 4.5 and Linaro GCC 4.6 2012.02 released
 wordpress_id: 1239

@@ -7,7 +7,7 @@ description: See the sessions that are happening today, tips and tricks for stay
   connected to the days events, and how attendees can share their experiences through
   social media.
 layout: post
-link: https://www.linaro.org/blog/welcome-to-linaro-connect-asia-2013/
+link: /blog/welcome-to-linaro-connect-asia-2013/
 slug: welcome-to-linaro-connect-asia-2013
 title: Welcome to Linaro Connect Asia 2013
 wordpress_id: 2490
@@ -52,7 +52,7 @@ The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Conne
 {% include image.html name="LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
 
 To stay up on event happenings with
-[Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](https://www.linaro.org/blog)
+[Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](/blog)
 
 To follow the daily live steam use
 [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts)

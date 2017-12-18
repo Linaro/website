@@ -10,7 +10,7 @@ keywords: Linaro, Linaro Connect, LCE12-Copenhagen, UDS-R, Announcement, Linux o
   ARM, Ubuntu, Android, ARM, Copenhagen, October, Events, Interviews, LEG, Linaro
   Enterprise Group
 layout: post
-link: https://www.linaro.org/blog/industry-blog/look-whos-talking-now-interviews-from-lce12-copenhagen/
+link: /blog/industry-blog/look-whos-talking-now-interviews-from-lce12-copenhagen/
 slug: look-whos-talking-now-interviews-from-lce12-copenhagen
 tags:
 - Android

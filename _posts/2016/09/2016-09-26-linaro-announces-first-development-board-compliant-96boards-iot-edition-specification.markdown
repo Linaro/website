@@ -5,7 +5,7 @@ categories:
 date: 2016-09-26 19:12:46
 description: Cambridge, UK; 26 September 2016
 layout: post
-link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
+link: /news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
 slug: linaro-announces-first-development-board-compliant-96boards-iot-edition-specification
 tags:
 - 96Boards
@@ -211,4 +211,4 @@ For more information, visit [http://www.96boards.org/carbon/](http://www.96board
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit[ https://www.linaro.org](https://www.linaro.org/) and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit[ ](/) and [http://www.96Boards.org](http://www.96boards.org).

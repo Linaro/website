@@ -10,7 +10,7 @@ description: If you are in Berlin, interested in Linux on ARM, want to connect w
 keywords: Linux, Linux on ARM, LEG, Linaro, Linaro Enterprise Group, LinuxTag, Germany,
   Berlin,
 layout: post
-link: https://www.linaro.org/blog/industry-blog/linux-on-arm-track-at-linuxtag-2013/
+link: /blog/industry-blog/linux-on-arm-track-at-linuxtag-2013/
 slug: linux-on-arm-track-at-linuxtag-2013
 tags:
 - Industry
@@ -22,7 +22,7 @@ wordpress_id: 2731
 
 {% include image.html name="AGallo_150x187.jpg" alt="Andrea Gallo, Director Linaro Enterprise Group (LEG)" class="small-inline"%}
 
-For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at LinuxTag.  If you are in Berlin, interested in Linux on ARM and want to connect with developers from Linaro then you are in luck as [Andrea Gallo](https://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/), Director of the [Linaro Enterprise Group (LEG)](https://www.linaro.org/engineering/leg) is set to open the [Linux on ARM/Hardware in Action](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html) track. Gallo's talk will explain how the governance works for both the core Linaro activities and the group specific ones, will describe the latest achievements in the various sub-teams, the mid-term roadmap and the resources available to all community developers to get involved and contribute.
+For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at LinuxTag.  If you are in Berlin, interested in Linux on ARM and want to connect with developers from Linaro then you are in luck as [Andrea Gallo](/linux-on-arm/meet-the-team/andrea-gallo/), Director of the [Linaro Enterprise Group (LEG)](/engineering/leg) is set to open the [Linux on ARM/Hardware in Action](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html) track. Gallo's talk will explain how the governance works for both the core Linaro activities and the group specific ones, will describe the latest achievements in the various sub-teams, the mid-term roadmap and the resources available to all community developers to get involved and contribute.
 
 **Sessions given in English include:**
 
@@ -58,4 +58,4 @@ _More information about the full program being offered to attendees of LinuxTag 
 
 
 
-_More information about Linaro can be found at: [https://www.linaro.org/](https://www.linaro.org/)_
+_More information about Linaro can be found at: [/](/)_

@@ -2,7 +2,7 @@
 author: linaro
 date: 2017-08-15 10:03:50+00:00
 layout: post
-link: https://www.linaro.org/blog/erp-17-08-release/
+link: /blog/erp-17-08-release/
 slug: erp-17-08-release
 title: The 17.08 release for the Linaro Enterprise Reference Platform is now available
 wordpress_id: 12731

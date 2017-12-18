@@ -3,7 +3,7 @@ author: alex.bennee
 comments: true
 date: 2014-08-21 07:00:04+00:00
 layout: post
-link: https://www.linaro.org/blog/core-dump/running-64bit-android-l-qemu/
+link: /blog/core-dump/running-64bit-android-l-qemu/
 slug: running-64bit-android-l-qemu
 title: Running Android L Developer Preview on 64-bit ARM QEMU
 wordpress_id: 6354

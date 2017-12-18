@@ -6,7 +6,7 @@ excerpt: The DragonBoard 410c is based on the 64-bit capable Qualcomm® Snapdrag
   specification. It should be commercially available this summer through distributors,
   but you can sign up now
 layout: post
-link: https://www.linaro.org/blog/dragonboard-410c/
+link: /blog/dragonboard-410c/
 slug: dragonboard-410c
 title: A new 96Boards-compliant product has been announced by Qualcomm
 wordpress_id: 8298

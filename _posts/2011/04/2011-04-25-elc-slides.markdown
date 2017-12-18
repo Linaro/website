@@ -6,7 +6,7 @@ date: 2011-04-25 04:23:53
 description: Slides from presentations by Linaro engineers at the 2011 edition of
   the Embedded Linux Conference in San Francisco.
 layout: post
-link: https://www.linaro.org/blog/community-blog/elc-slides/
+link: /blog/community-blog/elc-slides/
 slug: elc-slides
 tags:
 - Community

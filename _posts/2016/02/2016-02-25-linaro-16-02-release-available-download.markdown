@@ -11,7 +11,7 @@ excerpt: Linaro's 16.02 release is now available for download. See the detailed 
   with all available software downloads.
 keywords: Linaro
 layout: post
-link: https://www.linaro.org/blog/linaro-16-02-release-available-download/
+link: /blog/linaro-16-02-release-available-download/
 slug: linaro-16-02-release-available-download
 tags:
 - Releases
@@ -36,7 +36,7 @@ Linaro 16.02 release is now available for download. See the detailed highlights 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 **USING THE ANDROID-BASED IMAGES**
 
@@ -65,14 +65,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **GETTING INVOLVED**
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

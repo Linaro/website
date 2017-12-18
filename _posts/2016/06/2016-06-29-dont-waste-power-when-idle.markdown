@@ -9,7 +9,7 @@ excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about id
   management of platforms. '
 keywords: Power Management
 layout: post
-link: https://www.linaro.org/blog/core-dump/dont-waste-power-when-idle/
+link: /blog/core-dump/dont-waste-power-when-idle/
 slug: dont-waste-power-when-idle
 tags:
 - Core Dump

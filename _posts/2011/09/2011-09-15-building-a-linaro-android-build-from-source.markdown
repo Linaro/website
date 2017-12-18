@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2011-09-15 21:54:56+00:00
 layout: post
-link: https://www.linaro.org/blog/building-a-linaro-android-build-from-source/
+link: /blog/building-a-linaro-android-build-from-source/
 slug: building-a-linaro-android-build-from-source
 title: "Building a Linaro Android Build from Source"
 categories:

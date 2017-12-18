@@ -8,7 +8,7 @@ description: Show off how you are pairing Linaro's engineering output--a build, 
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE13-Dublin,
   Announcement, Call for Participation, Demo Friday
 layout: post
-link: https://www.linaro.org/blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
+link: /blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
 slug: call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013
 tags:
 - Community
@@ -19,7 +19,7 @@ wordpress_id: 2677
 
 Demo Friday will take place on Friday 12 July at the Burlington Hotel in Dublin, Ireland, as part of [Linaro Connect Europe 2013 (LCE13](http://connect.linaro.org)).
 
-Are you currently using a [Linaro build, toolchain, or code](https://www.linaro.org/downloads/) and want to show off your work?
+Are you currently using a [Linaro build, toolchain, or code](/downloads/) and want to show off your work?
 
 Then Demo Friday is the place for you. We want to see how you are pairing Linaro's engineering output and ARM processor-based hardware solutions.
 
@@ -44,4 +44,4 @@ Please create a poster that lets attendees know all about your demonstration. Th
 
 By participating in this Demo Friday event you will also be given the opportunity to have your Demo recorded and promoted via the[ Linaro YouTube Channel](http://www.youtube.com/playlist?list=PLHMIcjAkq7Et20mZ_LMoJXpRxxoGNlQjV) and various Linaro Social Media sites.
 
-If you want to know more about Linaro Connect and Demo Friday you can find highlights and demonstrations from previous Linaro Connect events on the [Linaro YouTube Channel](http://www.youtube.com/user/linaroorg) and on the [Connect Resources page](https://www.linaro.org/connect-resources/Q/lce12#videos).
+If you want to know more about Linaro Connect and Demo Friday you can find highlights and demonstrations from previous Linaro Connect events on the [Linaro YouTube Channel](http://www.youtube.com/user/linaroorg) and on the [Connect Resources page](/connect-resources/Q/lce12#videos).

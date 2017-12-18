@@ -2,7 +2,7 @@
 author: deepak.saxena
 date: 2011-08-15 15:59:00+00:00
 layout: post
-link: https://www.linaro.org/blog/enabling-device-tree-support-on-arm-platforms/
+link: /blog/enabling-device-tree-support-on-arm-platforms/
 slug: enabling-device-tree-support-on-arm-platforms
 title: Enabling Device Tree support on ARM platforms
 wordpress_id: 4120

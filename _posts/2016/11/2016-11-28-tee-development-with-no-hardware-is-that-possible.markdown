@@ -11,7 +11,7 @@ excerpt: Read about System Trace Module (STM) which can not only collect trace d
   from software sources, but also monitor hardware events. Learn how to write traces
   to STM and how many approaches to do this, etc.
 layout: post
-link: https://www.linaro.org/blog/tee-development-with-no-hardware-is-that-possible/
+link: /blog/tee-development-with-no-hardware-is-that-possible/
 slug: tee-development-with-no-hardware-is-that-possible
 tags:
 - Core Dump

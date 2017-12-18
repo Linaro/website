@@ -6,7 +6,7 @@ date: 2011-05-30 04:42:09
 description: Public phone calls to review plans for the 2011.11 engineering cycle.
   Anyone is welcome to join and ask questions through IRC.
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-11-11-public-plan-reviews/
+link: /blog/community-blog/linaro-11-11-public-plan-reviews/
 slug: linaro-11-11-public-plan-reviews
 tags:
 - Community

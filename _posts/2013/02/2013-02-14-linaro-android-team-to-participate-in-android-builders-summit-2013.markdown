@@ -9,7 +9,7 @@ keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Android Builders Summit
   ABS 2013, Embedded Linux Conference 2013, ELC 2013, Android, Linaro Android Team,
   Zach Pfeffer, Bernard Rosenkranzer, George Grey
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-android-team-to-participate-in-android-builders-summit-2013/
+link: /blog/community-blog/linaro-android-team-to-participate-in-android-builders-summit-2013/
 slug: linaro-android-team-to-participate-in-android-builders-summit-2013
 tags:
 - Android
@@ -24,9 +24,9 @@ Are you attending either The Android Builders Summit or The Embedded Linux Confe
 
 [Zach Pfeffer, Linaro Android Team Tech Lead](/about/) is scheduled to participate in the panel discussion entitled ‘[Is Android the New Embedded Linux](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ at 9:00am on Tuesday 19 February.  Joining Pfeffer will be Mike Anderson of The PTR Group, Tim Bird of Sony Network Entertainment, David Stewart of Intel, and Karim Yaghmour of Opersys as moderator.
 
-[Bernhard Rosenkränzer, Linaro Android Engineer](https://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), will take part in the ‘[Ask the Experts](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
+[Bernhard Rosenkränzer, Linaro Android Engineer](/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), will take part in the ‘[Ask the Experts](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
 
-Following ABS will be the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](https://www.linaro.org/news/linaro-ceo-george-grey-to-speak-at-elc-2013/en/), including [George Grey, Linaro CEO](/about/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘[Working Together to Accelerate Linux Development](http://events.linuxfoundation.org/events/embedded-linux-conference/schedule)’.
+Following ABS will be the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](/news/linaro-ceo-george-grey-to-speak-at-elc-2013/en/), including [George Grey, Linaro CEO](/about/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘[Working Together to Accelerate Linux Development](http://events.linuxfoundation.org/events/embedded-linux-conference/schedule)’.
 
 Stop by any of the sessions where Linaro is participating to learn more about Linaro's work in consolidating and optimizing open source software for the ARM architecture.
 
@@ -45,12 +45,12 @@ The primary goals of the Linaro Android Team is to develop and release tested[ m
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/android)
+  * [Team Members](/linux-on-arm/meet-the-team/android)
 
 
 **About Linaro:**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online.
-Learn more at: [https://www.linaro.org/](https://www.linaro.org/)
+Learn more at: [/](/)
 
 **Join us at Linaro Connect:**
 Linaro Connect is held every three to four months to bring the Linux on ARM community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the ARM tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. The next Linaro Connect will be March 4-8, 2013 in Hong Kong. Learn more at [www.linaro.org/connect](http://connect.linaro.org)

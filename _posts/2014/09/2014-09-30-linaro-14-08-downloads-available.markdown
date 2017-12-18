@@ -6,7 +6,7 @@ date: 2014-09-30 23:14:24
 description: The Linaro 14.08 release is now available for immediate download. Here
   you will find links to all the products in this release.
 layout: post
-link: https://www.linaro.org/blog/linaro-14-08-downloads-available/
+link: /blog/linaro-14-08-downloads-available/
 slug: linaro-14-08-downloads-available
 tags:
 - Releases
@@ -39,7 +39,7 @@ We encourage everybody to use the 14.08 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -71,14 +71,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **GETTING INVOLVED**
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
@@ -115,4 +115,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
-Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [https://www.linaro.org/connect/lcu/lcu14/](https://www.linaro.org/connect/lcu/lcu14/)
+Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [/connect/lcu/lcu14/](/connect/lcu/lcu14/)

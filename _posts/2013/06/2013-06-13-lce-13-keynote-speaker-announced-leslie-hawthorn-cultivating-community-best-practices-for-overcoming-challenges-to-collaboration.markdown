@@ -9,7 +9,7 @@ description: We're excited to announce that Leslie Hawthorn, Community Action an
 keywords: Linaro, Linux on ARM, Open Source, ARM, Red Hat, Leslie Hawthorn, Community,
   Best Practice, Linaro Connect, Linaro Connect Europe, LCE-13. Dublin, Ireland
 layout: post
-link: https://www.linaro.org/blog/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/
+link: /blog/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/
 slug: lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration
 title: 'LCE-13 Keynote Speaker Announced: Leslie Hawthorn - Cultivating Community:
   Best Practices for Overcoming Challenges to Collaboration'

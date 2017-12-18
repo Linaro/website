@@ -37,8 +37,8 @@ Linaro has developed an automated testing system called LAVA (Linaro Automated V
 
 The LAVA software includes the lava-server component to schedule jobs, administer device configurations and store results.  The dispatcher component supports processing test jobs that can deploy Debian, Ubuntu, Open Embedded and Android images on supported development boards. Generic support can be extended and customised to support additional client types (development boards) and interface with external equipment. The LAVA software includes helpers that can provide a consistent interface to various Linux distributions. The LAVA Manual provides additional information including how to contribute and communicate with the LAVA Team. You can view the types of devices currently available in any instance of the LAVA software by viewing the main scheduler status page, e.g. for the Linaro production instance at [validation.linaro.org](https://validation.linaro.org/scheduler/).
 
-- [Introduction to LAVA](https://www.linaro.org/blog/community-blog/automated-validation-with-lava/)
-- [LAVA fundamentals](https://www.linaro.org/blog/lava-blog/lava-fundamentals/)
+- [Introduction to LAVA](/blog/community-blog/automated-validation-with-lava/)
+- [LAVA fundamentals](/blog/lava-blog/lava-fundamentals/)
 - [LAVA Manual](https://validation.linaro.org/static/docs/)
 
 {% include image.html name="lava-debian-jessie-installation.jpg" url="http://www.youtube.com/watch?v=T8jFzXRrFh8"%}

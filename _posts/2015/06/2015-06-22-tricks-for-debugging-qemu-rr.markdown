@@ -9,7 +9,7 @@ description: "Over the years I\xE2\x80\x99ve picked up a few tricks for tracking
 excerpt: 'Peter Maydell  talks about some helpful tricks for debugging QEMU - rr that
   he has learned working with it. '
 layout: post
-link: https://www.linaro.org/blog/core-dump/tricks-for-debugging-qemu-rr/
+link: /blog/core-dump/tricks-for-debugging-qemu-rr/
 slug: tricks-for-debugging-qemu-rr
 tags:
 - Core Dump

@@ -11,7 +11,7 @@ excerpt: Since the last post, the bulk of the ARM CPU Security Extension support
   made it to upstream QEMU. Although the functional support is now available upstream,
   it is currently disabled while the details of the usage are ironed out
 layout: post
-link: https://www.linaro.org/blog/core-dump/testing-qemu-arm-trustzone/
+link: /blog/core-dump/testing-qemu-arm-trustzone/
 slug: testing-qemu-arm-trustzone
 tags:
 - Core Dump
@@ -312,7 +312,7 @@ Test for the secure to non-secure world handshake. This test is provided to insu
 
 #### Where can I TrustZone enabled QEMU?
 
-Since the past blog post ([https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)), the QEMU ARM TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
+Since the past blog post ([/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)), the QEMU ARM TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
 
 The instructions in the previous blog post are still relevant and may be followed for executing secure images.
 
@@ -367,4 +367,4 @@ Currently, the tests are restricted to the ARM Versatile Express and Virt machin
 
 [5] DDI0406C ARM® Architecture Reference Manual - ARMv7-A and ARMv7-R edition
 
-[6] [https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/](https://www.linaro.org/blog/arm-trustzone-qemu/)
+[6] [/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)

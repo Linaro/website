@@ -11,7 +11,7 @@ description: "Linaro announces the availability of its 12.07 release. This relea
 keywords: Linaro, Linux On ARM, Open Source, ARM, 12.07, Release, Announcement, Ubuntu,
   Android
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-12-07-released/
+link: /blog/releases-blog/linaro-12-07-released/
 slug: linaro-12-07-released
 tags:
 - Releases
@@ -27,9 +27,9 @@ wordpress_id: 1720
 
 The Linaro 12.07 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu  during this release cycle. The 12.07 release is another example of how Linaro, together with its members, partners and community continue to build upon the future of Linux on ARM one release and line of code at a time.
 
-[The LAVA team](https://www.linaro.org/about/meet-the-team/lava) added new test views for its daily testing processes as well as updates to the way its deployment tool works by [implementing a new method](https://www.linaro.org/linaro-blog/2012/07/24/lava-deployment-improvements/) which uses zc.buildout which works consistently and in a repeatable fashion.[](https://www.linaro.org/linaro-blog/2012/07/24/lava-deployment-improvements/))
+[The LAVA team](/about/meet-the-team/lava) added new test views for its daily testing processes as well as updates to the way its deployment tool works by [implementing a new method](/linaro-blog/2012/07/24/lava-deployment-improvements/) which uses zc.buildout which works consistently and in a repeatable fashion.[](/linaro-blog/2012/07/24/lava-deployment-improvements/))
 
-Linaro continues to make progress in big.LITTLE development as the [ARM Landing Team](https://www.linaro.org/about/meet-the-team/arm-landing-team) delivers support for ARM TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](https://www.linaro.org/about/meet-the-team/power-management) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
+Linaro continues to make progress in big.LITTLE development as the [ARM Landing Team](/about/meet-the-team/arm-landing-team) delivers support for ARM TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](/about/meet-the-team/power-management) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
 
 {% include image.html name="Lava-blog-image.jpg" alt="Lava Image" %}
 
@@ -43,7 +43,7 @@ The Infrastructure, Graphics, Kernel, Multimedia, Toolchain, and Validation team
 
 We encourage everybody to use the 12.07 release. The download links for all images and components are available on our downloads page:
 
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -78,7 +78,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [https://www.linaro.org](https://www.linaro.org/)
+* Homepage: [](/)
 
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 

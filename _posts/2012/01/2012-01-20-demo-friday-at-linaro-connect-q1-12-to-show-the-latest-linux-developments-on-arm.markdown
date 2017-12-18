@@ -9,7 +9,7 @@ description: Demo Friday at Linaro Connect Q1.12 to show the latest Linux develo
 keywords: Linaro, ARM, Ubuntu, Android, Snowball, Linux, Linux on ARM, ARM SOCs, Linaro
   Connect
 layout: post
-link: https://www.linaro.org/blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/
+link: /blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/
 slug: demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm
 tags:
 - Connect Events

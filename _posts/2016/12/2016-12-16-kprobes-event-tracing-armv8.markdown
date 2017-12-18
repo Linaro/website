@@ -2,7 +2,7 @@
 author: david.long
 date: 2016-12-16 17:37:39+00:00
 layout: post
-link: https://www.linaro.org/blog/kprobes-event-tracing-armv8/
+link: /blog/kprobes-event-tracing-armv8/
 slug: kprobes-event-tracing-armv8
 title: Kprobes Event Tracing on ARMv8
 wordpress_id: 11979

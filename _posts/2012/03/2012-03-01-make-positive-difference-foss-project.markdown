@@ -6,7 +6,7 @@ date: 2012-03-01 20:53:43
 description: Blog on how to make a positive difference in a FOSS project. Includes
   information on how to participate and contribute to a FOSS project.
 layout: post
-link: https://www.linaro.org/blog/make-positive-difference-foss-project/
+link: /blog/make-positive-difference-foss-project/
 slug: make-positive-difference-foss-project
 title: How to make a positive difference in a FOSS project
 wordpress_id: 4544

@@ -8,7 +8,7 @@ keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2
   LCE13, Dublin, Linaro Connect US 2013, LCU13,  Linaro 13.07, Release, Announcement,
   Ubuntu, Android, OpenEmbedded, big.LITTLE, LAVA, Jon Maddog Hall, KVM on ARM
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-07-released/
+link: /blog/releases-blog/linaro-13-07-released/
 slug: linaro-13-07-released
 tags:
 - Releases
@@ -63,10 +63,10 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 Other highlights from LCE13 include:
 
-  * Linaro Connect Europe 2013: Keynote Speaker Videos - [https://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](https://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * Linaro Connect Europe 2013: Keynote Speaker Videos - [/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * Linaro Connect Europe 2013: People and Personalities of Connect - [https://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](https://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * Linaro Connect Europe 2013: People and Personalities of Connect - [/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
   * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
@@ -77,7 +77,7 @@ Other highlights from LCE13 include:
 
 
 
-For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [https://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](https://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 
@@ -87,7 +87,7 @@ Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu1
 
 We encourage everybody to use the 13.07 release. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -121,13 +121,13 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
 
 ### GETTING INVOLVED
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

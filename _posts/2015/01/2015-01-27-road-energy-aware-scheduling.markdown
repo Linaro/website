@@ -12,7 +12,7 @@ excerpt: 'The computing industry has gone through multiple "power" phases since 
   that followed, the hardware became much less energy hungry while providing increased
   performance of many orders of magnitude. '
 layout: post
-link: https://www.linaro.org/blog/core-dump/road-energy-aware-scheduling/
+link: /blog/core-dump/road-energy-aware-scheduling/
 slug: road-energy-aware-scheduling
 tags:
 - Core Dump
@@ -61,7 +61,7 @@ Discussions around those changes are deeply technical and require a constant dia
 
 Last but not least, Linaro is playing a role in preventing fragmentation of the ARM ecosystem by gathering EAS related requirements, and in some cases the implementation, that its members have produced internally and making a coherent proposal to the Linux community. Many EAS concepts are generally simple to understand but very complex to implement in a generic way in a kernel that serves the need of portable devices as well as big supercomputers, with various system types in between. Making sure that everyone's interest is well served is a challenge for sure, but future savings in maintenance costs are well worth it.
 
-Note: _This article was first published at Linaro’s Executive Member Update Q3’2014 and reproduced here. That was before Linux Plumbers 2014. Amit’s article, posted in this blog ([link](https://www.linaro.org/blog/core-dump/energy-aware-scheduling-eas-project/)) represent an update of this article._
+Note: _This article was first published at Linaro’s Executive Member Update Q3’2014 and reproduced here. That was before Linux Plumbers 2014. Amit’s article, posted in this blog ([link](/blog/core-dump/energy-aware-scheduling-eas-project/)) represent an update of this article._
 
 References:
 
@@ -71,7 +71,7 @@ References:
 
 [3][ http://lwn.net/Articles/552885/](http://lwn.net/Articles/552885/)
 
-[4][ https://www.linaro.org/blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/](https://www.linaro.org/blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/)
+[4][ /blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/](/blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/)
 
 [5][ http://lwn.net/Articles/609969/](http://lwn.net/Articles/609969/)
 

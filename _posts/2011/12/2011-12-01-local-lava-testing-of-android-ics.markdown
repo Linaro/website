@@ -6,7 +6,7 @@ date: 2011-12-01 14:16:11
 description: HOWTO run LAVA Android tests on a local machine.
 keywords: LAVA, android, linaro, testing, howto
 layout: post
-link: https://www.linaro.org/blog/lava-blog/local-lava-testing-of-android-ics/
+link: /blog/lava-blog/local-lava-testing-of-android-ics/
 slug: local-lava-testing-of-android-ics
 tags:
 - Android

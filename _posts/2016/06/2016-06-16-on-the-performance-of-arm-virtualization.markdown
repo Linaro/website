@@ -13,7 +13,7 @@ excerpt: 'The first study of ARM virtualization performance on server hardware, 
   show how ARM hardware support for virtualization can enable much faster transitions
   between VMs and the hypervisor, a key hypervisor operation. '
 layout: post
-link: https://www.linaro.org/blog/core-dump/on-the-performance-of-arm-virtualization/
+link: /blog/core-dump/on-the-performance-of-arm-virtualization/
 slug: on-the-performance-of-arm-virtualization
 tags:
 - Core Dump

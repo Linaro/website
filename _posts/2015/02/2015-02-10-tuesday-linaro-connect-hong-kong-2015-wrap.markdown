@@ -6,7 +6,7 @@ date: 2015-02-10 21:54:21
 description: Overview of the activities that took place on Tuesday at Linaro Connect
   including links to videos and presentations from the day
 layout: post
-link: https://www.linaro.org/blog/tuesday-linaro-connect-hong-kong-2015-wrap/
+link: /blog/tuesday-linaro-connect-hong-kong-2015-wrap/
 slug: tuesday-linaro-connect-hong-kong-2015-wrap
 tags:
 - connect

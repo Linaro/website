@@ -8,7 +8,7 @@ description: "Recently I got some patches introducing the crypto engine framewor
   git..."
 keywords: Crypto Engine
 layout: post
-link: https://www.linaro.org/blog/core-dump/crypto-engine-framework/
+link: /blog/core-dump/crypto-engine-framework/
 slug: crypto-engine-framework
 tags:
 - Core Dump

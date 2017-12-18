@@ -9,7 +9,7 @@ description: Take a look at the Android Mini-Summit which is scheduled to take p
 keywords: Linaro, Linux on ARM, Open Source, Community, Linaro Connect, Bella Center,
   Copenhagen, Demo Friday, LCE12, Android Mini-Summit, Mini-Summit, Schedule
 layout: post
-link: https://www.linaro.org/blog/community-blog/lce12-copenhagen-android-mini-summit-schedule-now-available/
+link: /blog/community-blog/lce12-copenhagen-android-mini-summit-schedule-now-available/
 slug: lce12-copenhagen-android-mini-summit-schedule-now-available
 tags:
 - Android
@@ -44,7 +44,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-  * [Zach Pfeffer](/about/), [Linaro Android Team](https://www.linaro.org/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
+  * [Zach Pfeffer](/about/), [Linaro Android Team](/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
 
 
   * [Christian Bejram](https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort
@@ -190,7 +190,7 @@ Yes, and those demos will include (but may not be limited too):
 ## Demo Friday event; what is this and how can myself or my organization participate?
 
 
-Demo Friday is the opportunity for you to highlight the work you and or your organization have done using ARM boards and Linaro builds.  More information on Demo Friday can be found [here](https://www.linaro.org/linaro-blog/2012/09/26/lce-12-copenhagen-demo-friday-call-for-participation/).
+Demo Friday is the opportunity for you to highlight the work you and or your organization have done using ARM boards and Linaro builds.  More information on Demo Friday can be found [here](/linaro-blog/2012/09/26/lce-12-copenhagen-demo-friday-call-for-participation/).
 
 
 ## Is there still time to register for LCE12-Copenhagen?
@@ -208,4 +208,4 @@ Yes, the sessions will be recorded and live streamed via Google + Hangouts on Ai
 
 _More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](http://connect.linaro.org/resources/#welcome)._
 
- _Find out more about Linaro at [linaro.org](https://www.linaro.org/). _
+ _Find out more about Linaro at [linaro.org](/). _

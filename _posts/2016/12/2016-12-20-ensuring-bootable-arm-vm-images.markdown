@@ -6,7 +6,7 @@ comments: true
 date: 2016-12-20 16:39:41
 keywords: virtualization, kvm, xen, arm, aarch64, qemu, cross-distro, standards
 layout: post
-link: https://www.linaro.org/blog/core-dump/ensuring-bootable-arm-vm-images/
+link: /blog/core-dump/ensuring-bootable-arm-vm-images/
 slug: ensuring-bootable-arm-vm-images
 tags:
 - Core Dump

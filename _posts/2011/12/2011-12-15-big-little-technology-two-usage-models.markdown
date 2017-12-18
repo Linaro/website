@@ -9,7 +9,7 @@ keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, o
   source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
   Cortex-A9, Cortex, Android, Ubuntu, big.LITTLE
 layout: post
-link: https://www.linaro.org/blog/hardware-update/big-little-technology-two-usage-models/
+link: /blog/hardware-update/big-little-technology-two-usage-models/
 slug: big-little-technology-two-usage-models
 tags:
 - Hardware

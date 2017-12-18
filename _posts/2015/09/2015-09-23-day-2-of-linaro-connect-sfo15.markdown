@@ -8,7 +8,7 @@ description: Overview of the keynotes and sessions that took place during day 2 
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 2 of Linaro Connect San Francisco 2015.
 layout: post
-link: https://www.linaro.org/blog/day-2-of-linaro-connect-sfo15/
+link: /blog/day-2-of-linaro-connect-sfo15/
 slug: day-2-of-linaro-connect-sfo15
 tags:
 - connect

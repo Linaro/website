@@ -6,7 +6,7 @@ date: 2011-06-07 21:09:45
 description: Discussion at the Linaro Developer Summit with kernel hackers Thomas
   Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney.
 layout: post
-link: https://www.linaro.org/blog/community-blog/discussion-with-kernel-hackers/
+link: /blog/community-blog/discussion-with-kernel-hackers/
 slug: discussion-with-kernel-hackers
 tags:
 - Community

@@ -6,7 +6,7 @@ date: 2011-08-05 10:15:20
 description: Sangwook Lee (Samsung Landing Team at Linaro), showing how to assemble
   the kit adding an LCD and touchscreen interface to the Samsung Origen board.
 layout: post
-link: https://www.linaro.org/blog/hardware-update/assemble-origen-lcd-kit/
+link: /blog/hardware-update/assemble-origen-lcd-kit/
 slug: assemble-origen-lcd-kit
 tags:
 - Hardware

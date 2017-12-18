@@ -7,7 +7,7 @@ description: Demonstration of the Linux framework to keep the temperature of an 
   cpu under control by automatically reducing frequency. Using hot coffee and cold
   water!
 layout: post
-link: https://www.linaro.org/blog/hardware-update/thermal-management/
+link: /blog/hardware-update/thermal-management/
 slug: thermal-management
 tags:
 - Hardware

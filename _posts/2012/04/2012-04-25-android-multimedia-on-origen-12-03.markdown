@@ -7,7 +7,7 @@ description: The 12.03 release of Android on Origen has fully enabled HW acceler
   ranging from 3D, HDMI and Video Playback support
 keywords: Multimedia, OMX, Android, Origen, Binary Blob
 layout: post
-link: https://www.linaro.org/blog/community-blog/android-multimedia-on-origen-12-03/
+link: /blog/community-blog/android-multimedia-on-origen-12-03/
 slug: android-multimedia-on-origen-12-03
 tags:
 - Android

@@ -2,7 +2,7 @@
 author: linaro
 date: 2017-09-28 18:27:46+00:00
 layout: post
-link: https://www.linaro.org/blog/sfo17-day1/
+link: /blog/sfo17-day1/
 slug: sfo17-day1
 title: Linaro Connect SFO17 kicks off with new 96Boards products, members and technology
   demonstrations
@@ -13,7 +13,7 @@ categories:
 
 The 22nd Linaro Connect began on Monday 25 September with the [keynote](http://connect.linaro.org/resource/sfo17/sfo17-100k1/) given by Linaro CEO George Grey. As usual, Grey packed the opening hour with an update on new Linaro members, key engineering achievements, a look at areas of future interest and a series of demonstrations pulling together various aspects of Linaro’s current activities.
 
-New members this time included [Xilinx joining the Linaro Iot and Embedded (LITE) Group](https://www.linaro.org/news/xilinx-joins-linaro-iot-embedded-group/), Kylin joining the Linaro Enterprise Group ([LEG](https://www.linaro.org/groups/leg/)) and NXP extending their existing LITE membership to also participate in the Linaro Digital Home Group ([LHG](https://www.linaro.org/groups/lhg/)).
+New members this time included [Xilinx joining the Linaro Iot and Embedded (LITE) Group](/news/xilinx-joins-linaro-iot-embedded-group/), Kylin joining the Linaro Enterprise Group ([LEG](/groups/leg/)) and NXP extending their existing LITE membership to also participate in the Linaro Digital Home Group ([LHG](/groups/lhg/)).
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/n5bP3lJ0YNS1gU" %}
 

@@ -3,7 +3,7 @@ author: linaro
 date: 2016-09-28 03:49:38+00:00
 excerpt: See what took place on Tuesday during Linaro Connect LAS16.
 layout: post
-link: https://www.linaro.org/blog/tuesday-highlights-linaro-connect-las16/
+link: /blog/tuesday-highlights-linaro-connect-las16/
 slug: tuesday-highlights-linaro-connect-las16
 title: Tuesday Highlights at Linaro Connect LAS16
 wordpress_id: 11701

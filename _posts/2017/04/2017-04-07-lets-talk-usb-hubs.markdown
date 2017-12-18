@@ -2,7 +2,7 @@
 author: dave.pigott
 date: 2017-04-07 15:42:15+00:00
 layout: post
-link: https://www.linaro.org/blog/lets-talk-usb-hubs/
+link: /blog/lets-talk-usb-hubs/
 slug: lets-talk-usb-hubs
 title: So, let’s talk USB hubs.
 wordpress_id: 12308

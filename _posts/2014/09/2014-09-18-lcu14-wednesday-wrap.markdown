@@ -7,7 +7,7 @@ description: Description of the keynotes and sessions that took place on Wednesd
   of Linaro Connect USA 2014. Including links to videos, presentations and session
   summaries.
 layout: post
-link: https://www.linaro.org/blog/lcu14-wednesday-wrap/
+link: /blog/lcu14-wednesday-wrap/
 slug: lcu14-wednesday-wrap
 tags:
 - Connect Events
@@ -30,7 +30,7 @@ title: LCU14 Wednesday Wrap-up
 wordpress_id: 6708
 ---
 
-Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the ARM Server”. The [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) had a dedicated [ARM Server Ecosystem Day ](https://www.linaro.org/connect/lcu/lcu14/schedule/leg/)to introduce maintainers and leaders of key open source projects to Linux on ARMv8 servers. 
+Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the ARM Server”. The [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) had a dedicated [ARM Server Ecosystem Day ](/connect/lcu/lcu14/schedule/leg/)to introduce maintainers and leaders of key open source projects to Linux on ARMv8 servers. 
 
 LEG has been a group that has been up and running for a while. Many people are aware of the LEG group's work because they’ve seen the patches and LEG is now starting to broaden their scope and would like more projects to be aware of and hopefully involved in supporting ARMv8 servers. The goal of ARM Server Ecosystem day is to connect Linux/Linaro developers with other project developers, so the focus of the event was mainly technical, but it also was an opportunity to see the latest 64-bit ARM hardware and software development in this space. Sessions covered topics including Hadoop, OpenJDK, Red Hat, Ubuntu, OpenStack, KVM, Xen and the toolchain.
 

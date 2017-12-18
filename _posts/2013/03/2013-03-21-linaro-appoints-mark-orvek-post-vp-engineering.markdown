@@ -5,7 +5,7 @@ categories:
 date: 2013-03-21 12:25:02
 description: CAMBRIDGE, UK - 21 MAR 2013
 layout: post
-link: https://www.linaro.org/news/linaro-appoints-mark-orvek-post-vp-engineering/
+link: /news/linaro-appoints-mark-orvek-post-vp-engineering/
 slug: linaro-appoints-mark-orvek-post-vp-engineering
 title: Linaro appoints Mark Orvek to post of VP of Engineering
 wordpress_id: 4423
@@ -32,4 +32,4 @@ Mark joined Linaro as Director of Working Groups in August 2012. Prior to this h
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 140 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](/).

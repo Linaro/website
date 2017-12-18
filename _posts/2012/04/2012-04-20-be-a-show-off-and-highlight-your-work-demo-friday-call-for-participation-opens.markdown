@@ -8,7 +8,7 @@ description: Linaro invites those who are using Linaro builds and ARM-processor 
 keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, registration, Hong
   Kong, Gold Coast Hotel, May, June, Demo Friday, Call for Participation
 layout: post
-link: https://www.linaro.org/blog/industry-blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/
+link: /blog/industry-blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/
 slug: be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens
 tags:
 - Community
@@ -71,4 +71,4 @@ This coming May, over 200 participants, ranging from kernel hackers to integrati
 
 Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
 
-[www.linaro.org](https://www.linaro.org/)
+[www.linaro.org](/)

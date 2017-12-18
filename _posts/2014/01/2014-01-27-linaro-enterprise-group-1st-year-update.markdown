@@ -8,7 +8,7 @@ description: Overview of the Linaro Enterprise Groups one year update. Details o
   going forward.
 keywords: LEG, Linaro, ARM, open source software, Linux, ARMv7, 64-bit, LAVA
 layout: post
-link: https://www.linaro.org/blog/linaro-enterprise-group-1st-year-update/
+link: /blog/linaro-enterprise-group-1st-year-update/
 slug: linaro-enterprise-group-1st-year-update
 tags:
 - embedded

@@ -2,7 +2,7 @@
 author: linaro
 date: 2010-06-03 21:26:00+00:00
 layout: post
-link: https://www.linaro.org/blog/towards-linaro-10-11/
+link: /blog/towards-linaro-10-11/
 slug: towards-linaro-10-11
 title: Towards Linaro 10.11
 wordpress_id: 4112
@@ -38,7 +38,7 @@ Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to
 
 <!-- more -->
 
-Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/ARM/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/ARM/LucidReleaseNotes) even added support for a third ARM platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](http://www.linuxuk.org/2010/05/ubuntu-lucid-lynx-on-arm/), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](https://www.linaro.org/) fits into the story.
+Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/ARM/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/ARM/LucidReleaseNotes) even added support for a third ARM platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](http://www.linuxuk.org/2010/05/ubuntu-lucid-lynx-on-arm/), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](/) fits into the story.
 
 
 ## What is Linaro?
@@ -91,7 +91,7 @@ And much, much more. A full list of blueprints which capture what we are trying 
 ## Get Involved
 
 
-For more information on the Linaro initiative please see the official [website](https://www.linaro.org) and the [wiki](http://wiki.linaro.org). We have [mailing lists](http://lists.linaro.org) and a [Launchpad project page](http://www.launchpad.net/linaro) and I invite you all to come and participate in this exciting and ground-breaking venture.
+For more information on the Linaro initiative please see the official [website]() and the [wiki](http://wiki.linaro.org). We have [mailing lists](http://lists.linaro.org) and a [Launchpad project page](http://www.launchpad.net/linaro) and I invite you all to come and participate in this exciting and ground-breaking venture.
 
 
 ## What next?

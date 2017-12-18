@@ -10,7 +10,7 @@ keywords: Remote, Participation, Linaro, Linux on ARM, Open Source, Community, L
   Schedule, Andy Doan, Jesse Barker, Mark Orvek, Michael Hope, Vicky Janicki, Zach
   Pfeffer, Amber Graner
 layout: post
-link: https://www.linaro.org/blog/community-blog/lce-12-copenhagen-remote-participation/
+link: /blog/community-blog/lce-12-copenhagen-remote-participation/
 slug: lce-12-copenhagen-remote-participation
 tags:
 - Community
@@ -33,7 +33,7 @@ Regular track sessions will follow the plenaries in the mornings Monday through 
 This is the place to meet the engineers and managers deciding where Linux on ARM is going, and also to make the world aware of your own development projects.
 
 
-Meet some of the Linaro Tech Leads and Managers before Linaro Connect and hear what they had to say about this fast paced, educational, hands-on, future shaping, community building event on this Google+ Hangout on Air where [Amber Graner](https://www.linaro.org/linux-on-arm/meet-the-team/amber-graner/), Linaro Community Specialist sits down with the following Linaro Tech Leads and Managers--[Andy Doan](https://www.linaro.org/linux-on-arm/meet-the-team/andy-doan/), [Jesse Barker](https://www.linaro.org/linux-on-arm/meet-the-team/jesse-barker/), [Mark Orvek](/about/), [Michael Hope](/about/), [Vicky Janicki](/about/), [Zach Pfeffer](/about/).
+Meet some of the Linaro Tech Leads and Managers before Linaro Connect and hear what they had to say about this fast paced, educational, hands-on, future shaping, community building event on this Google+ Hangout on Air where [Amber Graner](/linux-on-arm/meet-the-team/amber-graner/), Linaro Community Specialist sits down with the following Linaro Tech Leads and Managers--[Andy Doan](/linux-on-arm/meet-the-team/andy-doan/), [Jesse Barker](/linux-on-arm/meet-the-team/jesse-barker/), [Mark Orvek](/about/), [Michael Hope](/about/), [Vicky Janicki](/about/), [Zach Pfeffer](/about/).
 
 Sounds exciting and fun, right? Can't make it?  Don't worry you can still help shape the future of Linux on ARM! How? Keep reading.
 

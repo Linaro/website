@@ -10,7 +10,7 @@ keywords: Linaro, Linux on ARM, Linaro Connect, Q1.12, Videos, Interviews, Plena
   Demos, Q2.12, developers, registration, Hong Kong, Gold Coast Hotel, May, June,
   Novacut
 layout: post
-link: https://www.linaro.org/blog/industry-blog/linaro-connect-q1-12-full-video-list-now-available/
+link: /blog/industry-blog/linaro-connect-q1-12-full-video-list-now-available/
 slug: linaro-connect-q1-12-full-video-list-now-available
 tags:
 - Android
@@ -120,7 +120,7 @@ If you think this range of topics, speakers, interviewees and demos are fantasti
 > costly low level fragmentation.
 
 
-More information about Linaro can be found at: [https://www.linaro.org](https://www.linaro.org/about/)
+More information about Linaro can be found at: [](/about/)
 
 **About Linaro Connect**
 

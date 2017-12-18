@@ -7,7 +7,7 @@ description: Information about the Linaro 11.08 release. Feature highlights, rea
   to use binary images for Android and Ubuntu.
 keywords: Linaro, Android, Ubuntu, Linux,
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-11-08-released/
+link: /blog/releases-blog/linaro-11-08-released/
 slug: linaro-11-08-released
 tags:
 - Releases
@@ -57,7 +57,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

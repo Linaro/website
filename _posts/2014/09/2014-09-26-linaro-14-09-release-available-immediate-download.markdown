@@ -5,7 +5,7 @@ categories:
 date: 2014-09-26 14:32:24
 description: Linaro 14.09 release information with links to all downloads available.
 layout: post
-link: https://www.linaro.org/blog/linaro-14-09-release-available-immediate-download/
+link: /blog/linaro-14-09-release-available-immediate-download/
 slug: linaro-14-09-release-available-immediate-download
 tags:
 - Releases
@@ -32,7 +32,7 @@ We encourage everybody to use the 14.09 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 **USING THE ANDROID-BASED IMAGES**
 
@@ -59,7 +59,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **GETTING INVOLVED**
@@ -67,7 +67,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 More information on Linaro can be found on our websites:
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

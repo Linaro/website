@@ -5,7 +5,7 @@ categories:
 date: 2010-06-03 11:50:19
 description: CAMBRIDGE, UK - 3 JUN 2010
 layout: post
-link: https://www.linaro.org/news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
+link: /news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
 slug: arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices
 title: ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
   to Speed the Rollout of Linux-Based Devices
@@ -89,4 +89,4 @@ Linaro is a growing organization with additional partners expected to join, thus
 
 "The Linux Foundation is happy to see ARM and Linaro increase their investment in Linux," said Jim Zemlin, executive director of The Linux Foundation. "We are supportive of any investment that contributes to the mainline kernel and the many upstream open source projects that make up Linux based operating systems today."
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](https://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](/)

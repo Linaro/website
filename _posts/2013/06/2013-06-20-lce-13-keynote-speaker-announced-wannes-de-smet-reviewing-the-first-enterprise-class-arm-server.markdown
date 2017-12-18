@@ -8,7 +8,7 @@ description: Linaro announces Wannes De Smet an Applied IT researcher at Sizing 
 keywords: Wannes De Smet, Sizing Servers, Benchmarking, Linaro, Linux on ARM, Open
   Source, ARM, Linaro Connect Europe, LCE-13, Dublin, Keynote, Speakers, Announcement
 layout: post
-link: https://www.linaro.org/blog/connect-update/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/
+link: /blog/connect-update/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/
 slug: lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server
 tags:
 - Connect Events

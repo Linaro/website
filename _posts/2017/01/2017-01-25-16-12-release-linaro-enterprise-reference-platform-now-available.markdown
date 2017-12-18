@@ -2,7 +2,7 @@
 author: linaro
 date: 2017-01-25 11:54:43+00:00
 layout: post
-link: https://www.linaro.org/blog/16-12-release-linaro-enterprise-reference-platform-now-available/
+link: /blog/16-12-release-linaro-enterprise-reference-platform-now-available/
 slug: 16-12-release-linaro-enterprise-reference-platform-now-available
 title: 16.12 release for Linaro Enterprise Reference Platform is now available
 wordpress_id: 12081

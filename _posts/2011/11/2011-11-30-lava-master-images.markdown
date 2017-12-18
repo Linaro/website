@@ -2,7 +2,7 @@
 author: alan.bennett
 date: 2011-11-30 21:44:03+00:00
 layout: post
-link: https://www.linaro.org/blog/lava-master-images/
+link: /blog/lava-master-images/
 published: false
 slug: lava-master-images
 title: LAVA master images

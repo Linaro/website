@@ -5,7 +5,7 @@ categories:
 date: 2011-02-24 12:10:49
 description: CAMBRIDGE, UK - 24 FEB 2011
 layout: post
-link: https://www.linaro.org/news/linaro-mwc-update/
+link: /news/linaro-mwc-update/
 slug: linaro-mwc-update
 title: Linaro MWC update
 wordpress_id: 4409

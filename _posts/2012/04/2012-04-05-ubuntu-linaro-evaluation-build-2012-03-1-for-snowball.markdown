@@ -2,7 +2,7 @@
 author: fathi.boudra
 date: 2012-04-05 14:55:56+00:00
 layout: post
-link: https://www.linaro.org/blog/releases-blog/ubuntu-linaro-evaluation-build-2012-03-1-for-snowball/
+link: /blog/releases-blog/ubuntu-linaro-evaluation-build-2012-03-1-for-snowball/
 slug: ubuntu-linaro-evaluation-build-2012-03-1-for-snowball
 title: Ubuntu Linaro Evaluation Build 2012.03.1 for Snowball
 wordpress_id: 1492

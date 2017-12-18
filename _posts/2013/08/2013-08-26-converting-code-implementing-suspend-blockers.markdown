@@ -12,7 +12,7 @@ description: "This article discusses the issues of suspend blockers originally i
 keywords: Linaro, Android, Linux, Opensource, Android Kernel, Linux kernel, wake locks,
   wakeup sources
 layout: post
-link: https://www.linaro.org/blog/android-blog/converting-code-implementing-suspend-blockers/
+link: /blog/android-blog/converting-code-implementing-suspend-blockers/
 slug: converting-code-implementing-suspend-blockers
 tags:
 - Android

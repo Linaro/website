@@ -9,7 +9,7 @@ keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro stable kernel, L
   Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
   OpenEmbedded, big.LITTLE, LAVA,  KVM on ARM
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-08-released/
+link: /blog/releases-blog/linaro-13-08-released/
 slug: linaro-13-08-released
 tags:
 - Releases
@@ -48,7 +48,7 @@ Most of Linaro's working groups now have approved public roadmaps so it is possi
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [https://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:
@@ -59,7 +59,7 @@ We encourage everybody to use the 13.08 release. The download links for all imag
 
 
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -113,7 +113,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
 
 
 
@@ -126,7 +126,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

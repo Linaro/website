@@ -5,7 +5,7 @@ categories:
 date: 2011-05-28 22:11:09
 description: Links to all the downloads for the Linaro 11.05 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-11-05-released/
+link: /blog/releases-blog/linaro-11-05-released/
 slug: linaro-11-05-released
 tags:
 - Releases
@@ -62,7 +62,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org)
+  * Homepage: []()
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)

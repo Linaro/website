@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-04-13 10:19:47+00:00
 layout: post
-link: https://www.linaro.org/blog/desktop-pdu-linaros-lava-test-framework/
+link: /blog/desktop-pdu-linaros-lava-test-framework/
 slug: desktop-pdu-linaros-lava-test-framework
 title: A desktop PDU for Linaro's LAVA test framework
 wordpress_id: 10503

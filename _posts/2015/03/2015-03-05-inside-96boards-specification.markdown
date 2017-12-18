@@ -6,7 +6,7 @@ excerpt: 'The Linaro 96Boards initiative announced at the recent Linaro Connect 
   for low cost developer hardware from multiple SoC vendors.
   '
 layout: post
-link: https://www.linaro.org/blog/inside-96boards-specification/
+link: /blog/inside-96boards-specification/
 slug: inside-96boards-specification
 title: Inside the 96Boards Specification
 wordpress_id: 8232

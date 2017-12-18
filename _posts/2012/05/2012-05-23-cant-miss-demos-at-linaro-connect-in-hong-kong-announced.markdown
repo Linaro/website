@@ -8,7 +8,7 @@ description: The list of demos being offered at the Q2.12 Linaro Connect event i
 keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, Hong Kong, Gold
   Coast Hotel, May, June, Demo Friday, Demos
 layout: post
-link: https://www.linaro.org/blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/
+link: /blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/
 slug: cant-miss-demos-at-linaro-connect-in-hong-kong-announced
 tags:
 - Android

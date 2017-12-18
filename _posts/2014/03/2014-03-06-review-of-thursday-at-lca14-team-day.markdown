@@ -5,7 +5,7 @@ categories:
 date: 2014-03-06 19:04:06
 description: Recap of the Thursday activities that took place at LCA14
 layout: post
-link: https://www.linaro.org/blog/connect-update/review-of-thursday-at-lca14-team-day/
+link: /blog/connect-update/review-of-thursday-at-lca14-team-day/
 slug: review-of-thursday-at-lca14-team-day
 tags:
 - Connect Events

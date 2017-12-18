@@ -6,7 +6,7 @@ date: 2015-02-04 22:20:59
 description: A look ahead of what will be taking place during Linaro Connect Hong
   Kong 2015.
 layout: post
-link: https://www.linaro.org/blog/welcome-linaro-connect-hong-kong-2015/
+link: /blog/welcome-linaro-connect-hong-kong-2015/
 slug: welcome-linaro-connect-hong-kong-2015
 tags:
 - connect

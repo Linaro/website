@@ -7,7 +7,7 @@ description: Description of Linaro's participation in the ARM Cortex-A7 launch e
   and how Linaro is contributing to the success of this product.
 keywords: Linaro, ARM, Cortex A7, Linux, Linux kernel, Samsung, TI, ST-Ericsson, IBM
 layout: post
-link: https://www.linaro.org/blog/industry-blog/linaro-at-the-launch-of-arms-new-cortex-a7-processor/
+link: /blog/industry-blog/linaro-at-the-launch-of-arms-new-cortex-a7-processor/
 slug: linaro-at-the-launch-of-arms-new-cortex-a7-processor
 tags:
 - Industry

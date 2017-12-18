@@ -7,7 +7,7 @@ excerpt: The Linaro Digital Home Group (LHG) is pleased to announce a reference 
   OP-TEE running on ARM TrustZone.  The OpenEmbedded build system is employed in this
   Linux-based implementation.
 layout: post
-link: https://www.linaro.org/blog/engineering-update-16-04/
+link: /blog/engineering-update-16-04/
 slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695

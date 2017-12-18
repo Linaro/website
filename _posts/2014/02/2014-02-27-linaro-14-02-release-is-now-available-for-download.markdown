@@ -5,7 +5,7 @@ categories:
 date: 2014-02-27 16:20:39
 description: Information and links for the Linaro 14.02 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-14-02-release-is-now-available-for-download/
+link: /blog/releases-blog/linaro-14-02-release-is-now-available-for-download/
 slug: linaro-14-02-release-is-now-available-for-download
 tags:
 - Releases
@@ -44,7 +44,7 @@ We encourage everybody to use the 14.02 release.
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 ### USING THE ANDROID-BASED IMAGES
@@ -86,7 +86,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
 
 
 
@@ -99,7 +99,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

@@ -6,7 +6,7 @@ date: 2011-06-06 21:56:19
 description: Video - Lee Jones - What is upstreaming and why should we bother? Linaro
   Developer Summit, May 2011, Budapest.
 layout: post
-link: https://www.linaro.org/blog/community-blog/lee-jones-mainstreaming-video/
+link: /blog/community-blog/lee-jones-mainstreaming-video/
 slug: lee-jones-mainstreaming-video
 tags:
 - Community

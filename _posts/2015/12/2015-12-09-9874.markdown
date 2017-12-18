@@ -7,7 +7,7 @@ excerpt: Register now for Linaro Connect Bangkok 2016.   Learn more about the ev
   and where it will be held.
 keywords: Linaro Connect
 layout: post
-link: https://www.linaro.org/blog/9874/
+link: /blog/9874/
 slug: '9874'
 tags:
 - Connect Events

@@ -9,7 +9,7 @@ description: In the last episode, I talked about how Linaro got started and how 
 excerpt: In the last episode, I talked about how Linaro got started and how the mobile
   market matured.   In this blog I write about how Linaro evolved.
 layout: post
-link: https://www.linaro.org/blog/a-short-history-of-the-future-part-ii/
+link: /blog/a-short-history-of-the-future-part-ii/
 slug: a-short-history-of-the-future-part-ii
 tags:
 - arm

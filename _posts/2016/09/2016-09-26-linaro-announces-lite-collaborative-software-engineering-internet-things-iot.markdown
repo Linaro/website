@@ -5,7 +5,7 @@ categories:
 date: 2016-09-26 18:11:36
 description: Cambridge, UK; 26 September 2016
 layout: post
-link: https://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/
+link: /news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/
 slug: linaro-announces-lite-collaborative-software-engineering-internet-things-iot
 tags:
 - IoT
@@ -57,4 +57,4 @@ LITE is today releasing a preview of technology that will be delivered in the in
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).

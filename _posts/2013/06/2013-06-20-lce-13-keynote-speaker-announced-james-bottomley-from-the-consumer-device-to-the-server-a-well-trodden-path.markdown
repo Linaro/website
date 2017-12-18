@@ -8,7 +8,7 @@ description: Linaro announces that James Bottomley, will be giving the Monday, J
 keywords: James Bottomley, Virtualisation, Parallels, Keynote, Announced, Linaro,
   Linux on ARM, Open Source, ARM, Linaro Connect Europe, LCE-13, Dublin
 layout: post
-link: https://www.linaro.org/blog/connect-update/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/
+link: /blog/connect-update/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/
 slug: lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path
 tags:
 - Connect Events

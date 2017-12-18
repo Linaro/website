@@ -8,7 +8,7 @@ keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dub
   Linaro 13.06 release, release, announcement, IKS, Linaro Stable Kernel, LSK, LAVA,
   Builds and Baselines, Kernel, QA Services
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-06-released/
+link: /blog/releases-blog/linaro-13-06-released/
 slug: linaro-13-06-released
 tags:
 - Releases
@@ -35,13 +35,13 @@ The QA Services team notes that is has successfully fully automated big.LITTLE b
 
 For more information and a detailed list of highlights for the 13.06 release, please see the [release wiki](https://wiki.linaro.org/Cycles/1306/Release#Release_Information).
 
-[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](https://www.linaro.org/connect/schedule).
+[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](/connect/schedule).
 
 ### USING THIS RELEASE:
 
 We encourage everybody to use the 13.05 release. The download links for all images and components are available on our downloads page:
 
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -69,13 +69,13 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-[https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+[/engineering/armv8](/engineering/armv8)
 
 ### GETTING INVOLVED
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [https://www.linaro.org](https://www.linaro.org/)
+* Homepage: [](/)
 
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 

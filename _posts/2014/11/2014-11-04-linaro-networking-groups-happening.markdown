@@ -7,7 +7,7 @@ description: Overview of the latest group at Linaro, the Linaro Networking Group
   Update on the past 6 months of work and activities and demos that took place at
   LCU14
 layout: post
-link: https://www.linaro.org/blog/linaro-networking-groups-happening/
+link: /blog/linaro-networking-groups-happening/
 slug: linaro-networking-groups-happening
 tags:
 - connect

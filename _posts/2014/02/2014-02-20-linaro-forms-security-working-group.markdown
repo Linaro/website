@@ -6,7 +6,7 @@ date: 2014-02-20 12:00:29
 description: "Linaro has started a Working Group dedicated to the delivery of open
   source reference implementations of secure software on ARM\xC2\xAE platforms"
 layout: post
-link: https://www.linaro.org/news/linaro-forms-security-working-group/
+link: /news/linaro-forms-security-working-group/
 slug: linaro-forms-security-working-group
 title: Linaro Forms Security Working Group
 wordpress_id: 5057
@@ -46,4 +46,4 @@ Linaro is the place where engineers from the world’s leading technology compan
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online.
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](https://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](/)

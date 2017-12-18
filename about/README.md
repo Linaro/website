@@ -10,9 +10,9 @@ css-include: main-about
 
 {% include image.html name="connect-collective-500x333.jpeg" class="right-aligned-image" alt="Linaro Employees at Connect Event" %}
 
-Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the [work](https://www.linaro.org/work/) benefits Linaro members and the ARM ecosystem.
+Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the [work](/work/) benefits Linaro members and the ARM ecosystem.
 
-Member companies fund Linaro and provide a significant proportion of its engineering resources as assignees who work full time on Linaro projects and member engineers who work on member-sponsored projects. Linaro’s engineering team, including contributed member resources, consists of about 300 software developers. Linaro engages with the broader open source community on a daily basis on IRC, mailing lists and at industry events, including at its own Linaro Connect events. The [work](https://www.linaro.org/work/) page provides an overview of, and links to more information about, Linaro’s organization, groups, projects and initiatives.
+Member companies fund Linaro and provide a significant proportion of its engineering resources as assignees who work full time on Linaro projects and member engineers who work on member-sponsored projects. Linaro’s engineering team, including contributed member resources, consists of about 300 software developers. Linaro engages with the broader open source community on a daily basis on IRC, mailing lists and at industry events, including at its own Linaro Connect events. The [work](/work/) page provides an overview of, and links to more information about, Linaro’s organization, groups, projects and initiatives.
 
 ## Many hands make light work
 
@@ -38,7 +38,7 @@ Linaro’s work is at the heart of all modern Linux-based devices running on ARM
 
 
 
-This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro Connect historical events and key organizational developments. The member announcements and organizational development milestones clearly show Linaro growth in both core and club membership and the expansion of Linaro’s work with the establishment of segment focused groups: the [Linaro Enterprise Group (LEG)](https://www.linaro.org/groups/leg/) in November 2012, the [Linaro Networking Group (LNG)](https://www.linaro.org/groups/lng/) in February 2013, [The Linaro Digital Home Group (LHG)](https://www.linaro.org/groups/lhg/) in May 2014, [Linaro Mobile Group (LMG)](https://www.linaro.org/groups/lmg/) in July 2014, the [Linaro 96Boards Group](https://www.linaro.org/initiatives/96boards/) in February 2015, and the [Linaro IoT and Embedded (LITE) Group](https://www.linaro.org/groups/lite/) in September 2016.
+This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro Connect historical events and key organizational developments. The member announcements and organizational development milestones clearly show Linaro growth in both core and club membership and the expansion of Linaro’s work with the establishment of segment focused groups: the [Linaro Enterprise Group (LEG)](/groups/leg/) in November 2012, the [Linaro Networking Group (LNG)](/groups/lng/) in February 2013, [The Linaro Digital Home Group (LHG)](/groups/lhg/) in May 2014, [Linaro Mobile Group (LMG)](/groups/lmg/) in July 2014, the [Linaro 96Boards Group](/initiatives/96boards/) in February 2015, and the [Linaro IoT and Embedded (LITE) Group](/groups/lite/) in September 2016.
 
 <h3>
 <span class="coloured-title" markdown="1">
@@ -52,7 +52,7 @@ This timeline includes links to Linaro’s articles of association, membership r
 
 <dd markdown="1">
 
-Google becomes Club Member of Linaro [Learn more](https://www.linaro.org/news/google-becomes-club-member-linaro/)
+Google becomes Club Member of Linaro [Learn more](/news/google-becomes-club-member-linaro/)
 
 </dd>
 
@@ -61,7 +61,7 @@ March</dt>
 
 <dd markdown="1">
 
-Linaro announces Fujisu’s collaboration to accelerate High Performance Computin on ARM [Learn more](https://www.linaro.org/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)
+Linaro announces Fujisu’s collaboration to accelerate High Performance Computin on ARM [Learn more](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)
 
 </dd>
 
@@ -70,7 +70,7 @@ March</dt>
 
 <dd markdown="1">
 
-HXT Semiconductor joins Linaro to accelerate Advanced Server Development on ARM [Learn more](https://www.linaro.org/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)
+HXT Semiconductor joins Linaro to accelerate Advanced Server Development on ARM [Learn more](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)
 
 </dd>
 
@@ -79,7 +79,7 @@ March</dt>
 
 <dd markdown="1">
 
-Acer joins Linaro IoT and Embedded Group [Learn more](https://www.linaro.org/news/acer-joins-linaro-iot-and-embedded-group/)
+Acer joins Linaro IoT and Embedded Group [Learn more](/news/acer-joins-linaro-iot-and-embedded-group/)
 
 </dd>
 
@@ -106,7 +106,7 @@ Linaro Connect Budapest 2017 (BUD17) [Learn more](http://connect.linaro.org/)
 
 <dd markdown="1">
 
-Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification [Learn more](https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/ "Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification")
+Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification [Learn more](/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/ "Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification")
 
 </dd>
 
@@ -115,7 +115,7 @@ September</dt>
 
 <dd markdown="1">
 
-Linaro Announces LITE – Collaborative Software Engineering for the Internet of Things (IoT) [Learn more](https://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/)
+Linaro Announces LITE – Collaborative Software Engineering for the Internet of Things (IoT) [Learn more](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/)
 
 </dd>
 
@@ -135,7 +135,7 @@ August
 
 <dd markdown="1">
 
-Linaro Announces First Development Board Compliant with 96Boards TV Platform Specification [Learn more](https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/ "Linaro Announces First Development Board Compliant with 96Boards TV Platform Specification")
+Linaro Announces First Development Board Compliant with 96Boards TV Platform Specification [Learn more](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/ "Linaro Announces First Development Board Compliant with 96Boards TV Platform Specification")
 
 </dd>
 
@@ -145,7 +145,7 @@ August
 
 <dd markdown="1">
 
-Linaro announces First LTS Monarch Release of OpenDataPlane [Learn more](https://www.linaro.org/news/linaro-announces-first-lts-monarch-release-opendataplane/ "Linaro announces First LTS Monarch Release of OpenDataPlane")
+Linaro announces First LTS Monarch Release of OpenDataPlane [Learn more](/news/linaro-announces-first-lts-monarch-release-opendataplane/ "Linaro announces First LTS Monarch Release of OpenDataPlane")
 
 </dd>
 
@@ -155,7 +155,7 @@ August
 
 <dd markdown="1">
 
-ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product [Learn more](https://www.linaro.org/news/archermind-joins-96boards-launches-deci-core-armv8-product/ "ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product")
+ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product [Learn more](/news/archermind-joins-96boards-launches-deci-core-armv8-product/ "ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product")
 
 </dd>
 
@@ -165,7 +165,7 @@ June
 
 <dd markdown="1">
 
-Linaro announces Thundersoft joins Linaro 96Boards [Learn more](https://www.linaro.org/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/ "Linaro announces Thundersoft joins Linaro 96Boards")
+Linaro announces Thundersoft joins Linaro 96Boards [Learn more](/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/ "Linaro announces Thundersoft joins Linaro 96Boards")
 
 </dd>
 
@@ -175,7 +175,7 @@ March
 
 <dd markdown="1">
 
-Linaro announces ARM Based Developer Cloud [Learn more](https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/ "Linaro announces ARM Based Developer Cloud")
+Linaro announces ARM Based Developer Cloud [Learn more](/news/linaro-announces-arm-based-developer-cloud-2/ "Linaro announces ARM Based Developer Cloud")
 
 </dd>
 
@@ -185,7 +185,7 @@ March
 
 <dd markdown="1">
 
-Linaro announces support for 96Boards HiKey in AOSP [Learn more](https://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/)
+Linaro announces support for 96Boards HiKey in AOSP [Learn more](/news/linaro-announces-support-for-96boards-hikey-in-aosp/)
 
 </dd>
 
@@ -205,7 +205,7 @@ January
 
 <dd markdown="1">
 
-Linaro announces Software Reference Platform for ARM servers [Read More](https://www.linaro.org/news/linaro-announces-software-reference-platform-arm-servers/)
+Linaro announces Software Reference Platform for ARM servers [Read More](/news/linaro-announces-software-reference-platform-arm-servers/)
 
 </dd>
 
@@ -224,7 +224,7 @@ Linaro announces Software Reference Platform for ARM servers [Read More](https:/
 
 <dd markdown="1">
 
-Linaro announces Acadine Technologies joins Linaro Mobile Group [Read More](https://www.linaro.org/news/first-systems-software-company-acadine-joins-linaro-mobile-group/)
+Linaro announces Acadine Technologies joins Linaro Mobile Group [Read More](/news/first-systems-software-company-acadine-joins-linaro-mobile-group/)
 
 </dd>
 
@@ -234,7 +234,7 @@ October
 
 <dd markdown="1">
 
-Linaro announces Tinno Mobile joins Linaro Mobile Group [Read More](https://www.linaro.org/news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/)
+Linaro announces Tinno Mobile joins Linaro Mobile Group [Read More](/news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/)
 
 </dd>
 
@@ -244,7 +244,7 @@ October
 
 <dd markdown="1">
 
-Linaro appoints Guy Berruyer Chairman [Read More](https://www.linaro.org/news/linaro-appoints-guy-berruyer-chairman/)
+Linaro appoints Guy Berruyer Chairman [Read More](/news/linaro-appoints-guy-berruyer-chairman/)
 
 </dd>
 
@@ -265,7 +265,7 @@ August
 </dt>
 
 <dd markdown="1">
-Linaro announces Meizu as latest member of Linaro Mobile Group [Read More](https://www.linaro.org/news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/)
+Linaro announces Meizu as latest member of Linaro Mobile Group [Read More](/news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/)
 </dd>
 
 <dt markdown="1">
@@ -273,7 +273,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro announces Qualcomm Innovation Center as latest Core member of Linaro [Read More](https://www.linaro.org/news/qualcomm-innovation-center-becomes-core-member-of-linaro/)
+Linaro announces Qualcomm Innovation Center as latest Core member of Linaro [Read More](/news/qualcomm-innovation-center-becomes-core-member-of-linaro/)
 </dd>
 
 <dt markdown="1">
@@ -281,7 +281,7 @@ June
 </dt>
 
 <dd markdown="1">
-Linaro announces LeMaker as latest member of Linaro Community Boards Group [Read More](https://www.linaro.org/news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/)
+Linaro announces LeMaker as latest member of Linaro Community Boards Group [Read More](/news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/)
 </dd>
 
 <dt markdown="1">
@@ -289,7 +289,7 @@ May
 </dt>
 
 <dd markdown="1">
-Google ATAP joins Linaro Mobile Group to extend collaboration in Project Ara [Read More](https://www.linaro.org/news/google-atap-joins-linaro-mobile-group-to-extend-collaboration-in-project-ara/)
+Google ATAP joins Linaro Mobile Group to extend collaboration in Project Ara [Read More](/news/google-atap-joins-linaro-mobile-group-to-extend-collaboration-in-project-ara/)
 </dd>
 
 <dt markdown="1">
@@ -297,7 +297,7 @@ April
 </dt>
 
 <dd markdown="1">
-Linaro announces Alibaba as latest member of Linaro Enterprise Group [Read More](https://www.linaro.org/news/linaro-announces-alibaba-group-as-latest-member/)
+Linaro announces Alibaba as latest member of Linaro Enterprise Group [Read More](/news/linaro-announces-alibaba-group-as-latest-member/)
 </dd>
 
 <dt markdown="1">
@@ -313,7 +313,7 @@ March
 </dt>
 
 <dd markdown="1">
-Linaro announces release of OpenDataPlane v1.0 [Read More](https://www.linaro.org/news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/)
+Linaro announces release of OpenDataPlane v1.0 [Read More](/news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/)
 </dd>
 
 <dt markdown="1">
@@ -321,7 +321,7 @@ February
 </dt>
 
 <dd markdown="1">
-Linaro announces Marvell as a founding member of Linaro Community Boards Group [Read More](https://www.linaro.org/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/)
+Linaro announces Marvell as a founding member of Linaro Community Boards Group [Read More](/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/)
 </dd>
 
 <dt markdown="1">
@@ -329,7 +329,7 @@ February
 </dt>
 
 <dd markdown="1">
-Linaro announces Actions Technology as a founding member of Linaro Community Boards Group [Read More ](https://www.linaro.org/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/)
+Linaro announces Actions Technology as a founding member of Linaro Community Boards Group [Read More ](/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/)
 </dd>
 
 <dt markdown="1">
@@ -337,7 +337,7 @@ February
 </dt>
 
 <dd markdown="1">
-Linaro announces 96Boards initiative [Learn more](https://www.linaro.org/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)
+Linaro announces 96Boards initiative [Learn more](/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)
 </dd>
 
 <dt markdown="1">
@@ -378,7 +378,7 @@ September
 </dt>
 
 <dd markdown="1">
-Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More](https://www.linaro.org/connect/lcu/lcu14/ "https://www.linaro.org/connect/lcu/lcu14/")
+Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More](/connect/lcu/lcu14/ "/connect/lcu/lcu14/")
 </dd>
 
 <dt id="2014-2">August
@@ -393,7 +393,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro announces Android Open Source Project build for ARMv8-A Architecture is ready on 64-bit multi-core SoC [Read More](https://www.linaro.org/news/aosp-on-64-bit/ "Linaro announces Android Open Source Project build for ARMv8-A Architecture is ready on 64-bit multi-core SoC")
+Linaro announces Android Open Source Project build for ARMv8-A Architecture is ready on 64-bit multi-core SoC [Read More](/news/aosp-on-64-bit/ "Linaro announces Android Open Source Project build for ARMv8-A Architecture is ready on 64-bit multi-core SoC")
 </dd>
 
 <dt markdown="1">
@@ -401,7 +401,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro announces the Linaro Mobile Group [Read More](https://www.linaro.org/projects/mobile// "Linaro announces the Linaro Mobile Group ")
+Linaro announces the Linaro Mobile Group [Read More](/projects/mobile// "Linaro announces the Linaro Mobile Group ")
 </dd>
 
 <dt markdown="1">
@@ -417,7 +417,7 @@ May
 </dt>
 
 <dd markdown="1">
-Comcast joins the Linaro Digital Home Group as a founding member [Read More](https://www.linaro.org/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/ " Comcast joins the Linaro Digital Home Group as a founding member")
+Comcast joins the Linaro Digital Home Group as a founding member [Read More](/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/ " Comcast joins the Linaro Digital Home Group as a founding member")
 </dd>
 
 <dt markdown="1">
@@ -425,7 +425,7 @@ May
 </dt>
 
 <dd markdown="1">
-Linaro forms the Linaro Digital Home Group [Read More](https://www.linaro.org/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/ "Linaro forms the Linaro Digital Home Group")
+Linaro forms the Linaro Digital Home Group [Read More](/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/ "Linaro forms the Linaro Digital Home Group")
 </dd>
 
 <dt markdown="1">
@@ -433,7 +433,7 @@ March
 </dt>
 
 <dd markdown="1">
-Allwinner Technology joins Linaro as a founding member of LHG [Read More](https://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/ "Allwinner Technology joins Linaro as a founding member of LHG")
+Allwinner Technology joins Linaro as a founding member of LHG [Read More](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/ "Allwinner Technology joins Linaro as a founding member of LHG")
 </dd>
 
 <dt markdown="1">

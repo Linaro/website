@@ -6,7 +6,7 @@ date: 2013-02-04 15:14:04
 description: How Linaro interacts with distributions
 keywords: Linaro, distribution, open source, LAVA, ARMv8, Linux, ARM,
 layout: post
-link: https://www.linaro.org/blog/linaro-and-distributions-2/
+link: /blog/linaro-and-distributions-2/
 slug: linaro-and-distributions-2
 title: Linaro and Distributions
 wordpress_id: 2244

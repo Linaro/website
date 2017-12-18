@@ -5,7 +5,7 @@ categories:
 date: 2012-04-12 06:11:57
 description: Announcement and release notes for Linaro GCC 4.7 and 4.6 2012.04
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-7-and-4-6-2012-04-released/
+link: /blog/releases-blog/linaro-gcc-4-7-and-4-6-2012-04-released/
 slug: linaro-gcc-4-7-and-4-6-2012-04-released
 tags:
 - Releases

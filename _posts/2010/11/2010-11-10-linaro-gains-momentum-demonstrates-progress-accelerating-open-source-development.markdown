@@ -5,7 +5,7 @@ categories:
 date: 2010-11-10 12:06:52
 description: CAMBRIDGE, UK - 10 NOV 2010
 layout: post
-link: https://www.linaro.org/news/linaro-gains-momentum-demonstrates-progress-accelerating-open-source-development/
+link: /news/linaro-gains-momentum-demonstrates-progress-accelerating-open-source-development/
 slug: linaro-gains-momentum-demonstrates-progress-accelerating-open-source-development
 title: Linaro gains momentum and demonstrates progress accelerating open source development
 wordpress_id: 4404
@@ -70,7 +70,7 @@ In the second cycle Linaro will build on this momentum by:
   * Announcing a new member of the TSC
 
 
-Companies interested in joining this collaborative venture are invited to discuss membership with the Linaro executive team. For more information on the company or to download software and tools, visit [www.linaro.org](https://www.linaro.org/).
+Companies interested in joining this collaborative venture are invited to discuss membership with the Linaro executive team. For more information on the company or to download software and tools, visit [www.linaro.org](/).
 
 ### Background
 

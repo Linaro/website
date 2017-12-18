@@ -2,7 +2,7 @@
 author: fathi.boudra
 date: 2014-12-20 11:09:53+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-confectionary-release-lcr-14-12-released/
+link: /blog/linaro-confectionary-release-lcr-14-12-released/
 slug: linaro-confectionary-release-lcr-14-12-released
 title: Linaro Confectionary Release (LCR) 14.12 released
 wordpress_id: 7753

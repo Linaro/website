@@ -2,7 +2,7 @@
 author: tony.mansson
 date: 2011-12-28 17:42:08+00:00
 layout: post
-link: https://www.linaro.org/blog/android-blog/the-linaro-android-platform-team-period-dec-21-to-dec-27/
+link: /blog/android-blog/the-linaro-android-platform-team-period-dec-21-to-dec-27/
 slug: the-linaro-android-platform-team-period-dec-21-to-dec-27
 title: The Linaro Android Platform Team, Period Dec. 21 to Dec. 27
 wordpress_id: 1126
@@ -21,7 +21,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 ### Key Points for wider discussion
 
-  * The 11.12 Release is [ out. ](https://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
+  * The 11.12 Release is [ out. ](/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
 
 ### Team Highlights
 

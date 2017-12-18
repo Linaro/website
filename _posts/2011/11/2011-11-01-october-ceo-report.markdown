@@ -7,7 +7,7 @@ description: Discussion on the latest developments within Linaro
 keywords: Linaro, ARM, Linux kernel, Linux, kernel, ARM SOCs, opensource, ARM Cortex,
   big.LITTLE
 layout: post
-link: https://www.linaro.org/blog/october-ceo-report/
+link: /blog/october-ceo-report/
 slug: october-ceo-report
 title: October CEO Report
 wordpress_id: 756

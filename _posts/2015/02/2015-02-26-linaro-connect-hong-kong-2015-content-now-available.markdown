@@ -6,7 +6,7 @@ date: 2015-02-26 02:45:54
 description: 'Content from the Linaro Connect Hong Kong 2015 event is now available.
   Materials include: slide presentations, session descriptions and sessions videos'
 layout: post
-link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-content-now-available/
+link: /blog/linaro-connect-hong-kong-2015-content-now-available/
 slug: linaro-connect-hong-kong-2015-content-now-available
 tags:
 - connect

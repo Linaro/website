@@ -5,7 +5,7 @@ categories:
 date: 2011-08-06 02:19:30
 description: Listing of the links to all the downloads for the release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/release-of-linaro-11-07/
+link: /blog/releases-blog/release-of-linaro-11-07/
 slug: release-of-linaro-11-07
 tags:
 - Releases

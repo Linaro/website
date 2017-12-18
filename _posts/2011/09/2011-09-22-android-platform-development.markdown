@@ -7,7 +7,7 @@ description: 'Linaro Connect Q3.11 video: Zach Pfeffer explains what Android is,
   the project works and how to make it work on a new board.'
 keywords: linaro,connect,android,arm,video
 layout: post
-link: https://www.linaro.org/blog/android-platform-development/
+link: /blog/android-platform-development/
 slug: android-platform-development
 tags:
 - android

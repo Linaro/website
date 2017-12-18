@@ -2,7 +2,7 @@
 author: shovan
 date: 2016-01-19 14:37:54+00:00
 layout: post
-link: https://www.linaro.org/blog/lhg-optee-arm-trustzone/
+link: /blog/lhg-optee-arm-trustzone/
 slug: lhg-optee-arm-trustzone
 title: LHG takes another step forward in Enhanced Content Protection with OPTEE on
   ARM® TrustZone®
@@ -52,7 +52,7 @@ The latest solution is accessible now to our members who are PlayReady Licensees
 The next stage that LHG is working on is the implementation of a secure video path that uses a secure buffer memory allocation framework in TrustZone for the media pipeline. Stay tuned for the latest updates in the LHG security solution development.
 	
   1. [https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx](https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx)
-  2. [https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
+  2. [/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
   3. [http://globalplatform.org/specificationsdevice.asp](http://globalplatform.org/specificationsdevice.asp)
   4. [https://github.com/kuscsik/linaro-cdmi](https://github.com/kuscsik/linaro-cdmi)
 

@@ -5,7 +5,7 @@ categories:
 date: 2014-02-10 19:17:33
 description: Update on the status of the OpenDataPlane project since it was annoounced
 layout: post
-link: https://www.linaro.org/blog/opendataplane-project-up-and-running/
+link: /blog/opendataplane-project-up-and-running/
 slug: opendataplane-project-up-and-running
 tags:
 - arm

@@ -7,7 +7,7 @@ description: Linaro's CEO discusses activities from Q1 2014 including The announ
   of five new members at Linaro Connect, Linaro's ARMv8 work, LSK work and the latest
   Linux Foundation report
 layout: post
-link: https://www.linaro.org/blog/april-ceo-note/
+link: /blog/april-ceo-note/
 slug: april-ceo-note
 tags:
 - ARMv8

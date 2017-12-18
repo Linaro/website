@@ -2,7 +2,7 @@
 author: deepak.saxena
 date: 2011-11-09 03:32:14+00:00
 layout: post
-link: https://www.linaro.org/blog/connect-update/kernel-working-group-a-linaro-connect-retrospective/
+link: /blog/connect-update/kernel-working-group-a-linaro-connect-retrospective/
 slug: kernel-working-group-a-linaro-connect-retrospective
 title: Kernel Working Group - A Linaro Connect Retrospective
 wordpress_id: 830

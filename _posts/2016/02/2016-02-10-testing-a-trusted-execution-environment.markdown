@@ -2,7 +2,7 @@
 author: joakim.bech
 date: 2016-02-10 13:54:07+00:00
 layout: post
-link: https://www.linaro.org/blog/core-dump/testing-a-trusted-execution-environment/
+link: /blog/core-dump/testing-a-trusted-execution-environment/
 slug: testing-a-trusted-execution-environment
 title: Testing a Trusted Execution Environment
 wordpress_id: 9949

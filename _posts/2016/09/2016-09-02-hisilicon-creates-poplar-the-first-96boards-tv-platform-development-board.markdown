@@ -2,7 +2,7 @@
 author: mark.gregotski
 date: 2016-09-02 15:35:39+00:00
 layout: post
-link: https://www.linaro.org/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/
+link: /blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/
 slug: hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board
 wordpress_id: 11525
@@ -17,7 +17,7 @@ tags:
 - Linux on ARM
 ---
 
-HiSilicon Technologies announced the arrival of Poplar, the first Linaro 96Boards TV Platform development board (Press release:[ https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/](https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/) ).
+HiSilicon Technologies announced the arrival of Poplar, the first Linaro 96Boards TV Platform development board (Press release:[ /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/) ).
 
 The Poplar board is manufactured by Tocoding Technologies and is described here:[ http://en.tocoding.com/index.php/96boards-poplar/](http://en.tocoding.com/index.php/96boards-poplar/)
 

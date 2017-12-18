@@ -9,7 +9,7 @@ description: Linaro held its first virtual KVM/QEMU mini-summit to synchronize o
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA-Hong
   Kong, KVM/QEMU Mini-Summit
 layout: post
-link: https://www.linaro.org/blog/linaro-takes-an-active-role-in-virtualization-on-arm/
+link: /blog/linaro-takes-an-active-role-in-virtualization-on-arm/
 slug: linaro-takes-an-active-role-in-virtualization-on-arm
 title: Linaro Takes an Active Role in Virtualization on ARM
 wordpress_id: 2291
@@ -17,7 +17,7 @@ wordpress_id: 2291
 
 Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on ARM.
 
-In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html ), [Serge Broslavsky](https://www.linaro.org/linux-on-arm/meet-the-team/serge-broslavsky/ ), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
+In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html ), [Serge Broslavsky](/linux-on-arm/meet-the-team/serge-broslavsky/ ), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
 
 **Day One**
 On the first day of the mini-summit included a discussion of the current status of the KVM on ARMv7 and ARMv8, IO Virtualization, virtio and IOMMU support code. The current process of maintainer-ship and a prioritized list of any outstanding tasks or development on v7 was reviewed.  The attendees also discussed what role Linaro could play in regards to development and testing.

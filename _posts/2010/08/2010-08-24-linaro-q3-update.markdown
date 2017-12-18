@@ -5,7 +5,7 @@ categories:
 date: 2010-08-24 11:52:43
 description: CAMBRIDGE, UK - 24 AUG 2010
 layout: post
-link: https://www.linaro.org/news/linaro-q3-update/
+link: /news/linaro-q3-update/
 slug: linaro-q3-update
 title: Linaro Q3 update
 wordpress_id: 4398

@@ -2,7 +2,7 @@
 author: andrea.gallo
 date: 2010-11-08 18:59:00+00:00
 layout: post
-link: https://www.linaro.org/blog/industry-blog/st-ericsson-and-linaro-working-towards-the-first-release/
+link: /blog/industry-blog/st-ericsson-and-linaro-working-towards-the-first-release/
 slug: st-ericsson-and-linaro-working-towards-the-first-release
 title: ST-Ericsson and Linaro, working towards the first release
 wordpress_id: 4106
@@ -41,7 +41,7 @@ At ST-Ericsson we dedicated a number of engineers to Linaro related activities a
 
 - We will see first results of Linaro in the November release and thereafter an accelerated utilization as we converge our development efforts and bring in even more of our experts as well as start a dedicated Landing Team focusing on ST-Ericsson hardware.
 
-It is busy days around the Linaro initiative nowadays. At the Milan meeting a couple of weeks ago, working groups and requirements were set for the next release 11.05 ([https://wiki.linaro.org/Releases/1105/TechnicalTopics](https://wiki.linaro.org/Releases/1105/TechnicalTopics) ). The end of the first 6 months cycle is approaching and on November 11th the next cycle will start ( [https://www.linaro.org/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/](https://www.linaro.org/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/) ).
+It is busy days around the Linaro initiative nowadays. At the Milan meeting a couple of weeks ago, working groups and requirements were set for the next release 11.05 ([https://wiki.linaro.org/Releases/1105/TechnicalTopics](https://wiki.linaro.org/Releases/1105/TechnicalTopics) ). The end of the first 6 months cycle is approaching and on November 11th the next cycle will start ( [/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/](/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/) ).
 
 Linaro engineers and other contributors met in Orlando at the Ubuntu developer summit and I am sure many will meet again at the TechCon conference on November 10th and 11th. Don't miss demonstrations there from us and other semiconductor partners as well as updates from the Linaro organization.
 

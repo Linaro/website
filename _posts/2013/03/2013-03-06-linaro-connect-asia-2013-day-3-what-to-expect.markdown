@@ -8,7 +8,7 @@ description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out ho
 keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 3
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
+link: /blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
 slug: linaro-connect-asia-2013-day-3-what-to-expect
 tags:
 - Community
@@ -17,7 +17,7 @@ title: Linaro Connect Asia 2013 - Day 3 - What To Expect
 wordpress_id: 2548
 ---
 
-[Linaro Connect Asia Day 2](https://www.linaro.org/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.
+[Linaro Connect Asia Day 2](/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.
 
 
 
@@ -31,7 +31,7 @@ Linaro is growing and so is participation in Linaro Connect.
 ## Videos and Presentation Slides?
 
 
-Presentation Slides for various sessions can be found on the [resources page](https://www.slideshare.net/linaroorg/presentations) of  [linaro.org](https://www.linaro.org/).
+Presentation Slides for various sessions can be found on the [resources page](https://www.slideshare.net/linaroorg/presentations) of  [linaro.org](/).
 
 The Google+ Hangout on Air session videos can be found at on the [Linaro on Air YouTube channel](http://www.youtube.com/user/LinaroOnAir).
 

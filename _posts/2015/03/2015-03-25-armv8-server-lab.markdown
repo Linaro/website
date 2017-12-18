@@ -6,7 +6,7 @@ date: 2015-03-25 14:17:50
 description: Overview of the process and challenges faced in setting up Linaro's ARMv8
   server lab in Austin, Texas
 layout: post
-link: https://www.linaro.org/blog/armv8-server-lab/
+link: /blog/armv8-server-lab/
 slug: armv8-server-lab
 tags:
 - arm
@@ -26,7 +26,7 @@ So if you sign up to use a system you can get access to one or more APM or AMD s
 
 In early October, we began the buildout of the ARMv8 Server Lab in Austin, Texas. We installed a small cluster of forty (40) 64­bit Applied Micro ARM servers into a co­location facility near the Austin International Airport. The cluster is composed of two racks; one rack targeted at RedHat/Fedora OS deployed servers and one rack targeted at Ubuntu deployed servers (bare ­metal with MAAS and VM's with OpenStack). Later in November we received six AMD 64­bit ARM servers and they too have been deployed into the racks.
 
-ISV’s and Community members may apply for access ([https://www.linaro.org/leg/servercluster/](https://www.linaro.org/leg/servercluster/)) to the cluster where they will be given a freshly provisioned system that is totally private to them. Linaro administrators don’t have access to deployed systems. The standard “lease” for use of the system is 1­ to 2 weeks so that an ISV can recompile their software on 64­bit ARM and validate it works the same as on a 64­bit Intel system. The lease time can be extended on a case by case basis. The systems are hidden behind an SSH proxy server and are safely isolated from one another.
+ISV’s and Community members may apply for access ([/leg/servercluster/](/leg/servercluster/)) to the cluster where they will be given a freshly provisioned system that is totally private to them. Linaro administrators don’t have access to deployed systems. The standard “lease” for use of the system is 1­ to 2 weeks so that an ISV can recompile their software on 64­bit ARM and validate it works the same as on a 64­bit Intel system. The lease time can be extended on a case by case basis. The systems are hidden behind an SSH proxy server and are safely isolated from one another.
 
 In November we started a beta test to make sure we could actually deploy these systems in a safe and useful manner.  The test ran until February.  Some of the most interesting usages have been:
 

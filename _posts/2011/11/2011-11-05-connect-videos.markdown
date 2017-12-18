@@ -7,7 +7,7 @@ description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Flor
   Technical discussions and interviews with Linaro and community engineers.
 keywords: linaro,connect,videos,arm,linux
 layout: post
-link: https://www.linaro.org/blog/connect-update/connect-videos/
+link: /blog/connect-update/connect-videos/
 slug: connect-videos
 tags:
 - Connect Events

@@ -10,7 +10,7 @@ excerpt: Read about System Trace Module (STM) which can not only collect trace d
   from software sources, but also monitor hardware events. Learn how to write traces
   to STM and how many approaches to do this, etc.
 layout: post
-link: https://www.linaro.org/blog/core-dump/stm-and-its-usage/
+link: /blog/core-dump/stm-and-its-usage/
 slug: stm-and-its-usage
 tags:
 - Core Dump

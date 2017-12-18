@@ -7,7 +7,7 @@ description: Why Linaro's culture of openness is key to its success.
 keywords: Linux on ARM, Open Source, open, Linux, kernel, Linaro, Connect, LEG, Linaro
   Enterprise Group
 layout: post
-link: https://www.linaro.org/blog/industry-blog/why-openness-is-not-optional/
+link: /blog/industry-blog/why-openness-is-not-optional/
 slug: why-openness-is-not-optional
 tags:
 - Industry
