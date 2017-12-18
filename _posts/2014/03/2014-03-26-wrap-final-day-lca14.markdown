@@ -179,7 +179,7 @@ No Video available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/91c1d2f4fa171f0c3f33a72b01a42d3c53270588e2d36) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-openjdk) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
