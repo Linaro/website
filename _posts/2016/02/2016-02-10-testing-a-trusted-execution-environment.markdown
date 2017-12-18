@@ -93,7 +93,7 @@ The main function could be found in the file [xtest_main.c](https://github.com/O
 
 
 
-On a top level, a test case is added using the macro ADBG_CASE_DEFINE and that is what you can see on the top in each and every file listed above. As arguments, this macro takes a test label, a function pointer, a title, a short description of what it **is** testing, requirement ID and a short description of **how** it will be tested. As an example, have a look at _XTEST_TEE_10001_ which is defined [here](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_10000.c#L29-L38). As you can see, this particular test is supposed to test functionality related to key derivation.
+On a top level, a test case is added using the macro ADBG_CASE_DEFINE and that is what you can see on the top in each and every file listed above. As arguments, this macro takes a test label, a function pointer, a title, a short description of what it **is** testing, requirement ID and a short description of **how** it will be tested. As an example, have a look at _XTEST_TEE_10001_ which is defined [here](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/). As you can see, this particular test is supposed to test functionality related to key derivation.
 
 
 
@@ -106,7 +106,7 @@ Within each test you can define sub-tests and to do so you have to wrap your cod
 As I’ve mentioned above, all code related to testing could be found within a set of Trusted Applications. Below is a list of the Trusted Applications that are used by xtest.
 
 
-  * [**concurrent**](https://github.com/OP-TEE/optee_test/tree/master/ta/concurrent): The concurrent Trusted Application is responsible for testing the ability to run several Trusted Applications simultaneously – a feature that has been [merged](https://github.com/OP-TEE/optee_os/pull/536/commits) into OP-TEE quite recently. For the host application you will find this application’s code in the [xtest_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/xtest_1000.c#L156-L165) file.
+  * [**concurrent**](https://github.com/OP-TEE/optee_test/tree/master/ta/concurrent): The concurrent Trusted Application is responsible for testing the ability to run several Trusted Applications simultaneously – a feature that has been [merged](https://github.com/OP-TEE/optee_os/pull/536/commits) into OP-TEE quite recently. For the host application you will find this application’s code in the [xtest_1000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/regression_1000.c#L156-L165) file.
 
 
   * ****[**create_fail_test**](https://github.com/OP-TEE/optee_test/tree/master/ta/create_fail_test)**:** This is a tiny little TA used solely to test OP-TEE’s behaviour when loading a corrupt or fake Trusted Application.****
