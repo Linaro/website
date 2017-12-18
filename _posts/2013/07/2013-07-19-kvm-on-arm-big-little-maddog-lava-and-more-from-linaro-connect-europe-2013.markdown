@@ -209,7 +209,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **12:00 PM - 1:00 PM** - [Why all this sudden attention on the Linux Scheduler?](http://lce-13.zerista.com/event/member/79597)  - [Etherpad](http://pad.linaro.org/p/LCE13_why_all_this_attention_on_the_Linux_scheduler), [Google+ Event Listing](https://plus.google.com/u/0/events/ccuka8t9o6qdfine2o4sr71vgh4), [Video (YouTube)](http://youtu.be/NoeHIjqlriI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Why%20all%20this%20sudden%20attention%20on%20the%20Linux%20schedule.mp4),[ Presentation](Why all this sudden attention on the Linux Scheduler?)
+  * **12:00 PM - 1:00 PM** - [Why all this sudden attention on the Linux Scheduler?](http://lce-13.zerista.com/event/member/79597)  - [Etherpad](http://pad.linaro.org/p/LCE13_why_all_this_attention_on_the_Linux_scheduler), [Google+ Event Listing](https://plus.google.com/u/0/events/ccuka8t9o6qdfine2o4sr71vgh4), [Video (YouTube)](http://youtu.be/NoeHIjqlriI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Why%20all%20this%20sudden%20attention%20on%20the%20Linux%20schedule.mp4),[ Presentation](https://www.slideshare.net/linaroorg/lce13-whyattentiononschedulertalk)
 
 
   * **12:00 AM - 1:00 PM** - [LEG - UEFI next steps](http://lce-13.zerista.com/event/member/79593) - [Etherpad](http://pad.linaro.org/p/LCE13_LEG-UEFI), [Google+ Event Listing](https://plus.google.com/u/0/events/cmemkr62sj903ukq7uln3rljhjk), [Video (YouTube)](http://youtu.be/MemQ2hNf-QE), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/LEG%20-%20UEFI%20next%20steps.mp4)
