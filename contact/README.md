@@ -55,14 +55,7 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
     <div class="col-xs-12 contact_form lazyload">
         <hr />
         <div class="cognito">
-            <script>
-            document.addEventListener("DOMContentLoaded", function(event) { 
-                Cognito.load("forms", { id: "7", entry: {
-                    "PageUrl": "{{site.url}}{{page.url}}" ,
-                    "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
-                }});
-            });
-            </script>
+            <div class="lazyload" data-script="{% asset_path 'cognito.js' %}" ></div>
         </div>
     </div>
 </div>
