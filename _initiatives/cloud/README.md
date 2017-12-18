@@ -28,7 +28,7 @@ The Developer Cloud allows users to implement, port and test server, cloud and I
 
 ### Community Information
 
-Linaro is inviting individuals and companies interested in contributing to, sponsoring and making use of this service to contact us – please fill in the form on this page and we’ll get back to you. [The Developer Cloud](http://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/) was announced at Linaro Connect BKK16 at the beginning of March 2016 and alpha testing has begun on a fully functional Linaro hosted Developer Cloud located in Cambridge, UK.
+Linaro is inviting individuals and companies interested in contributing to, sponsoring and making use of this service to contact us – please fill in the form on this page and we’ll get back to you. [The Developer Cloud](https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/) was announced at Linaro Connect BKK16 at the beginning of March 2016 and alpha testing has begun on a fully functional Linaro hosted Developer Cloud located in Cambridge, UK.
 
 To access the Linaro Developer Cloud, please register here:
 

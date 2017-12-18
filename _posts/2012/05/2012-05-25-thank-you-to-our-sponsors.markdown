@@ -44,4 +44,4 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 
-If you want to know more about Linaro and [our events](http://connect.linaro.org/resources/) please see the [our website](http://www.linaro.org/).
+If you want to know more about Linaro and [our events](http://connect.linaro.org/resources/) please see the [our website](https://www.linaro.org/).

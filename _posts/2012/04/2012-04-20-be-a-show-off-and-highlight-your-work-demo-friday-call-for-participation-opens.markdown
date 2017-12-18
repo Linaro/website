@@ -71,4 +71,4 @@ This coming May, over 200 participants, ranging from kernel hackers to integrati
 
 Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
 
-[www.linaro.org](http://www.linaro.org/)
+[www.linaro.org](https://www.linaro.org/)

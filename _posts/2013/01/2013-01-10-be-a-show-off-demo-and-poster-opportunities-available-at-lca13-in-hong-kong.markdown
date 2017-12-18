@@ -21,7 +21,7 @@ wordpress_id: 2216
 
 {% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://connect.linaro.org/lca13/"%}
 
-Linaro is excited to announce that we will once again host a [Demo Friday](http://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](https://www.linaro.org/connect/demo-friday) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?
@@ -34,7 +34,7 @@ Demo Friday is a two-hour event that will showcase new and innovative ways Linar
 
 New to our Demo Friday event will be a Poster Program.  This program is for those who would like to let attendees know how they or their organization is using Linaro code and ARM based processors, but can’t actually bring the equipment to the Linaro Connect event.
 
-More information on this program can be found [here](http://www.linaro.org/connect/demo-friday).
+More information on this program can be found [here](https://www.linaro.org/connect/demo-friday).
 
 
 ## Previous Demonstrations
@@ -68,7 +68,7 @@ When emailing please include the following information:
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends. If you are entering a poster a representative for the project or organization must be with the poster at the event to answer questions)_
 
 
-Demo Friday details can be found on the [Linaro Connect Site](http://www.linaro.org/connect/demo-friday).
+Demo Friday details can be found on the [Linaro Connect Site](https://www.linaro.org/connect/demo-friday).
 
 
 ## Sponsorship Opportunities Still Available
@@ -82,7 +82,7 @@ LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on Mar
 
 While Demo Friday is open to the public we would like to encourage everyone to join us for the full week of LCA13.  Many demos are refined and patched during the week as participants have the opportunity to work with top industry developers during the many hacking sessions throughout the week.
 
-What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and join us in Hong Kong for the [2013 Linaro Connect Asia Event](http://www.linaro.org/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/) (LCA13).
+What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and join us in Hong Kong for the [2013 Linaro Connect Asia Event](https://www.linaro.org/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/) (LCA13).
 
 
 ### **_About_**
@@ -92,7 +92,7 @@ _**Linaro **_
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
-_To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/)._
+_To find out more, please visit[ https://www.linaro.org](https://www.linaro.org/)._
 
 _**Linaro Connect**_
 

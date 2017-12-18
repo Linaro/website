@@ -21,7 +21,7 @@ Season's Greetings from Linaro! Well, for some it's working season :) This week 
 
 ### Key Points for wider discussion
 
-  * The 11.12 Release is [ out. ](http://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
+  * The 11.12 Release is [ out. ](https://www.linaro.org/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards/)
 
 ### Team Highlights
 

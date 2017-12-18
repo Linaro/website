@@ -17,7 +17,7 @@ title: Through the Camera Eye - Linaro Connect Asia 2013 A Review in Pictures
 wordpress_id: 2636
 ---
 
-[Linaro Connect Europe 2013](http://www.linaro.org/connect/) planning is now underway and [registration is open](http://www.linaro.org/linaro-blog/2013/03/21/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/).
+[Linaro Connect Europe 2013](/initiatives/connect/) planning is now underway and [registration is open](https://www.linaro.org/linaro-blog/2013/03/21/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/).
 
 Linaro Connect Europe 2013 will take place on 8-12 July at The Burlington Hotel in Dublin, Ireland.
 

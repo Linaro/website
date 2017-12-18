@@ -62,7 +62,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)

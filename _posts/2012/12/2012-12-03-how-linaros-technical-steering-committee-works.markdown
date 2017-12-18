@@ -21,7 +21,7 @@ So, history has taught us that you cannot run an complex engineering organisatio
 
 One (important) side effect of setting up OPSCOM is that we realized that we need tools and we settled on Jira, which we currently use to handle Linaro’s requirements. Engineering work is described in blueprints, but we’re experimenting with using Jira for those too as it is a bit of a pain to use two different tools for planning. The project managers are experimenting with generating spreadsheets of deliverables (date started, date finished, date upstreamed etc) automatically. That should simplify things and make it easier for our members to see what we’re doing (without the need for delving into wikis, code bases, Jira and launchpad) and to align their activities with ours.
 
-This is a good time to make these changes as we have just launched the Linaro Enterprise Group (LEG). This has brought many new members into Linaro and having a simple and straightforward way to interact with Linaro planning and engineering teams is not just a ‘nice to have’ but essential.  You can find the LEG web pages at [http://www.linaro.org/engineering/leg](http://www.linaro.org/engineering/leg).
+This is a good time to make these changes as we have just launched the Linaro Enterprise Group (LEG). This has brought many new members into Linaro and having a simple and straightforward way to interact with Linaro planning and engineering teams is not just a ‘nice to have’ but essential.  You can find the LEG web pages at [https://www.linaro.org/engineering/leg](https://www.linaro.org/engineering/leg).
 
 Speaking of LEG, the LEG steering committee will elect a representative into the main TSC.
 

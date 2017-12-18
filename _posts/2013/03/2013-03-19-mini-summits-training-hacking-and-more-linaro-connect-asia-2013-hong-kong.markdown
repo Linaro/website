@@ -371,7 +371,7 @@ Blog Post
 <td markdown="1">
 
 
-[Welcome to Linaro Connect Asia 2013 Blog Post](http://www.linaro.org/linaro-blog/2013/03/04/welcome-to-linaro-connect-asia-2013/)
+[Welcome to Linaro Connect Asia 2013 Blog Post](https://www.linaro.org/linaro-blog/2013/03/04/welcome-to-linaro-connect-asia-2013/)
 
 
 
@@ -400,7 +400,7 @@ Blog Post
 <td markdown="1">
 
 
-[Open Collaboration…is Key! Linaro Connect Day 2 Blog Post](http://www.linaro.org/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/)
+[Open Collaboration…is Key! Linaro Connect Day 2 Blog Post](https://www.linaro.org/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/)
 
 
 
@@ -429,7 +429,7 @@ Blog Post
 <td markdown="1">
 
 
-[Linaro Connect Asia 2013 – Day 3 – What To Expect Blog Post](http://www.linaro.org/2013/03/06/linaro-connect-asia-2013-day-3-what-to-expect/)
+[Linaro Connect Asia 2013 – Day 3 – What To Expect Blog Post](https://www.linaro.org/2013/03/06/linaro-connect-asia-2013-day-3-what-to-expect/)
 
 
 
@@ -458,7 +458,7 @@ Blog Post
 <td markdown="1">
 
 
-[Group Photo Blog Post](http://www.linaro.org/2013/03/05/linaro-connect-asia-2013-group-photo/) and [Women in Technology at Linaro Blog Post](http://www.linaro.org/2013/03/05/women-in-technology-at-linaro/)
+[Group Photo Blog Post](https://www.linaro.org/2013/03/05/linaro-connect-asia-2013-group-photo/) and [Women in Technology at Linaro Blog Post](https://www.linaro.org/2013/03/05/women-in-technology-at-linaro/)
 
 
 
@@ -487,7 +487,7 @@ Blog Post
 <td markdown="1">
 
 
-[Linaro Connect Asia 2013 Day 5 – Awards, Demo Friday and more Blog Post](http://www.linaro.org/2013/03/08/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/)
+[Linaro Connect Asia 2013 Day 5 – Awards, Demo Friday and more Blog Post](https://www.linaro.org/2013/03/08/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/)
 
 
 
@@ -549,7 +549,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 <td markdown="1">
 
 
-[Slides](http://www.linaro.org/documents/download/ac564bc8b7fceff9025afb92f1a769395135693629454)
+[Slides](https://www.linaro.org/documents/download/ac564bc8b7fceff9025afb92f1a769395135693629454)
 
 
 
@@ -728,7 +728,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](http://www.linaro.org/documents/download/898c6dda2b4d77f76452e6260842763b513f9be170ccf)
+[Slides (pdf)](https://www.linaro.org/documents/download/898c6dda2b4d77f76452e6260842763b513f9be170ccf)
 
 
 
@@ -757,7 +757,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](http://www.linaro.org/documents/download/694584d5b1a054d94759f332a63d59d2513f849b20e89)
+[Slides (pdf)](https://www.linaro.org/documents/download/694584d5b1a054d94759f332a63d59d2513f849b20e89)
 
 
 
@@ -786,7 +786,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](http://www.linaro.org/documents/download/13f8d06f04c185cf1885fdd1316e3d1c51311d690e719)
+[Slides (pdf)](https://www.linaro.org/documents/download/13f8d06f04c185cf1885fdd1316e3d1c51311d690e719)
 
 
 
@@ -2356,31 +2356,31 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Nicolas Pitre](http://www.linaro.org/linux-on-arm/meet-the-team/nicolas-pitre/), Technical Architect, Office of the CTO, Linaro
+  * [Nicolas Pitre](https://www.linaro.org/linux-on-arm/meet-the-team/nicolas-pitre/), Technical Architect, Office of the CTO, Linaro
 
 
   * Dave Martin, Kernel Engineer, ARM
 
 
-  * [Viresh Kumar](http://www.linaro.org/linux-on-arm/meet-the-team/viresh-kumar/), Power Management Engineer, Power Management Team, Linaro
+  * [Viresh Kumar](https://www.linaro.org/linux-on-arm/meet-the-team/viresh-kumar/), Power Management Engineer, Power Management Team, Linaro
 
 
-  * [Amit Kucheria](http://www.linaro.org/linux-on-arm/meet-the-team/amit-kucheria/), Tech Lead, Power Management Team, Linaro
+  * [Amit Kucheria](https://www.linaro.org/linux-on-arm/meet-the-team/amit-kucheria/), Tech Lead, Power Management Team, Linaro
 
 
-  * [Mathieu Poirer](http://www.linaro.org/linux-on-arm/meet-the-team/mathieu-poirier/), Kernel Engineer, Samsung Landing Team, Linaro
+  * [Mathieu Poirer](https://www.linaro.org/linux-on-arm/meet-the-team/mathieu-poirier/), Kernel Engineer, Samsung Landing Team, Linaro
 
 
-  * [David Zinman](http://www.linaro.org/linux-on-arm/meet-the-team/david-zinman/), Project Manager, Technical Management Team, Linaro
+  * [David Zinman](https://www.linaro.org/linux-on-arm/meet-the-team/david-zinman/), Project Manager, Technical Management Team, Linaro
 
 
-  * [Naresh Kamboju](http://www.linaro.org/linux-on-arm/meet-the-team/naresh-kamboju/), QA Services Expert, QA Services Team, Linaro
+  * [Naresh Kamboju](https://www.linaro.org/linux-on-arm/meet-the-team/naresh-kamboju/), QA Services Expert, QA Services Team, Linaro
 
 
-  * [Vishal Bhoj](http://www.linaro.org/linux-on-arm/meet-the-team/vishal-bhoj/), Android Engineer, Android Team, Linaro
+  * [Vishal Bhoj](https://www.linaro.org/linux-on-arm/meet-the-team/vishal-bhoj/), Android Engineer, Android Team, Linaro
 
 
-  * [Amit Pundir](http://www.linaro.org/linux-on-arm/meet-the-team/amit-pundir/), Android Engineer, Android Team, Linaro
+  * [Amit Pundir](https://www.linaro.org/linux-on-arm/meet-the-team/amit-pundir/), Android Engineer, Android Team, Linaro
 
 
 
@@ -2393,7 +2393,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Arnd Bergmann](http://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Upstream Kernel Engineer, Kernel Team, Linaro
+  * [Arnd Bergmann](https://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Upstream Kernel Engineer, Kernel Team, Linaro
 
 
 
@@ -2409,10 +2409,10 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
   * Jesse Barker, former Graphics WG Technical Lead, ARM
 
 
-  * [Sumit Semwal](http://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Graphic Engineer, Graphics Team, Linaro
+  * [Sumit Semwal](https://www.linaro.org/linux-on-arm/meet-the-team/arnd-bergmann/), Graphic Engineer, Graphics Team, Linaro
 
 
-  * [Benjamin Gaignard](http://www.linaro.org/linux-on-arm/meet-the-team/benjamin-gaignard/), Multimedia Specialist, Graphics Team, Linaro
+  * [Benjamin Gaignard](https://www.linaro.org/linux-on-arm/meet-the-team/benjamin-gaignard/), Multimedia Specialist, Graphics Team, Linaro
 
 
   * Rob Clark, Graphics Engineer, Graphics Team, TI
@@ -2428,13 +2428,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Fathi Boudra](http://www.linaro.org/linux-on-arm/meet-the-team/fathi-boudra/), Tech Lead, Developer Platform, Linaro
+  * [Fathi Boudra](https://www.linaro.org/linux-on-arm/meet-the-team/fathi-boudra/), Tech Lead, Developer Platform, Linaro
 
 
-  * [Andy Green](http://www.linaro.org/linux-on-arm/meet-the-team/andy-green/), Tech Lead, Fujitsu Landing Team, Linaro
+  * [Andy Green](https://www.linaro.org/linux-on-arm/meet-the-team/andy-green/), Tech Lead, Fujitsu Landing Team, Linaro
 
 
-  * [Ilias Biris](http://www.linaro.org/linux-on-arm/meet-the-team/ilias-biris/), Technical Program Manager, Linaro Enterprise Group
+  * [Ilias Biris](https://www.linaro.org/linux-on-arm/meet-the-team/ilias-biris/), Technical Program Manager, Linaro Enterprise Group
 
 
 
@@ -2447,7 +2447,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Andrea Gallo](http://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/), Director Linaro Enterprise Group
+  * [Andrea Gallo](https://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/), Director Linaro Enterprise Group
 
 
 
@@ -2460,7 +2460,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Anmar Oueja](http://www.linaro.org/linux-on-arm/meet-the-team/anmar-oueja/), Technical Program Manager, Linaro Enterprise Group
+  * [Anmar Oueja](https://www.linaro.org/linux-on-arm/meet-the-team/anmar-oueja/), Technical Program Manager, Linaro Enterprise Group
 
 
 
@@ -2473,7 +2473,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Bernhard Rosenkränzer](http://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), Android Engineer, Android Team Linaro
+  * [Bernhard Rosenkränzer](https://www.linaro.org/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), Android Engineer, Android Team Linaro
 
 
 
@@ -2486,13 +2486,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Sachin Kamat](http://www.linaro.org/linux-on-arm/meet-the-team/sachin-kamat/), Multimedia Engineer, Samsung Landing Team, Linaro
+  * [Sachin Kamat](https://www.linaro.org/linux-on-arm/meet-the-team/sachin-kamat/), Multimedia Engineer, Samsung Landing Team, Linaro
 
 
-  * [Linus Walleij](http://www.linaro.org/linux-on-arm/meet-the-team/linus-walleij/), Kernel Engineer, Kernel Team, Linaro
+  * [Linus Walleij](https://www.linaro.org/linux-on-arm/meet-the-team/linus-walleij/), Kernel Engineer, Kernel Team, Linaro
 
 
-  * [John Stultz](http://www.linaro.org/linux-on-arm/meet-the-team/john-stultz/), Kernel Engineer, Kernel Team, Linaro
+  * [John Stultz](https://www.linaro.org/linux-on-arm/meet-the-team/john-stultz/), Kernel Engineer, Kernel Team, Linaro
 
 
 
@@ -2505,7 +2505,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 Demo Friday
 
 
-Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](http://www.linaro.org/connect/demo-friday) for more information.
+Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](https://www.linaro.org/connect/demo-friday) for more information.
 
 
 Introduction to Linaro
@@ -2531,7 +2531,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 <td markdown="1">
 
 
-[Slides (pdf)](http://www.linaro.org/documents/download/50e8d45eabadf1f6fbe190865e2ca2c051353eb176893)
+[Slides (pdf)](https://www.linaro.org/documents/download/50e8d45eabadf1f6fbe190865e2ca2c051353eb176893)
 
 
 

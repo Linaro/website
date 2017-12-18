@@ -44,7 +44,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
-  * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -83,7 +83,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [http://www.linaro.org/projects/armv8/](http://www.linaro.org/projects/armv8/)
+  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
 
 
 **USING THE DEBIAN-BASED IMAGES**
@@ -103,7 +103,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

@@ -25,7 +25,7 @@ wordpress_id: 3016
 {% include image.html name="campus-party-image-1.jpg" alt="Picture of Campus Party Europe 2013" class="small-inline right"%}
 
 
-Recently I was asked to go and present on porting from 32-bit ARM to 64-bit ARM at [Campus Party Europe](http://www.campus-party.eu/) at the [O2 Arena](http://www.theo2.co.uk/) in London.  This occurred early in September and it can be watched on [YouTube](http://www.youtube.com/watch?v=epzYErIIx0Y)* and the slides are also [available here](http://www.linaro.org/assets/common/campus-party-presentation-Sept_2013.pdf).
+Recently I was asked to go and present on porting from 32-bit ARM to 64-bit ARM at [Campus Party Europe](http://www.campus-party.eu/) at the [O2 Arena](http://www.theo2.co.uk/) in London.  This occurred early in September and it can be watched on [YouTube](http://www.youtube.com/watch?v=epzYErIIx0Y)* and the slides are also [available here](https://www.linaro.org/assets/common/campus-party-presentation-Sept_2013.pdf).
 
 Campus Party is organised by Telefonica/O2 and is aimed at students and recent graduates.  They had several thousand people at the event.  And on the day I went as well as my presentation there were presentations ranging from e-Sports, through [IPv4 address starvation and how to deal with it](http://www.youtube.com/watch?v=IYlbRY0JHdg), via [Optimizing 3D Graphics on Mobile](http://www.youtube.com/watch?v=9DLxGwDWUWs), and through to a [keynote](http://www.youtube.com/watch?v=Lw2kC3L6Yu0) touching on the history of Mozilla.  There was also a large area devoted to hacking and coding, with gaming areas as well.  All-in-all it felt like a Linaro Connect - just ten times larger…
 
@@ -41,7 +41,7 @@ Auto-vectorisation is great, but there are algorithms that it can’t work for. 
 
 I hope that the presentation does make my point - compilers should be trusted - and when they get it wrong the reason should be investigated.  They can’t get it right all the time, but they do a very good job in the most part.
 
-View the my presentation on "[Introduction to Porting And Optimising Code](http://www.youtube.com/watch?v=epzYErIIx0Y)"  and [download the slides ](http://www.linaro.org/assets/common/campus-party-presentation-Sept_2013.pdf)for the presentation.
+View the my presentation on "[Introduction to Porting And Optimising Code](http://www.youtube.com/watch?v=epzYErIIx0Y)"  and [download the slides ](https://www.linaro.org/assets/common/campus-party-presentation-Sept_2013.pdf)for the presentation.
 
 Learn about all the exciting developments happening in [Linaro's Toolchain Group](https://wiki.linaro.org/WorkingGroups/ToolChain).
 

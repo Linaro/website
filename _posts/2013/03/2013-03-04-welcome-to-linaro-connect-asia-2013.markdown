@@ -52,7 +52,7 @@ The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Conne
 {% include image.html name="LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
 
 To stay up on event happenings with
-[Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](http://www.linaro.org/blog)
+[Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](https://www.linaro.org/blog)
 
 To follow the daily live steam use
 [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts)

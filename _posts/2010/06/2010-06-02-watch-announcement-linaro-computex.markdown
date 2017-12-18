@@ -14,4 +14,4 @@ title: Watch the announcement of Linaro at Computex
 
 CAMBRIDGE, UK - 2 JUN 2010
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](https://www.linaro.org/)

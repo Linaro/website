@@ -57,7 +57,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

@@ -19,7 +19,7 @@ title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
 wordpress_id: 1735
 ---
 
-[Linaro](http://www.linaro.org/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](http://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
+[Linaro](https://www.linaro.org/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](http://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
 
 ## What's a Virtual Connect?
 
@@ -70,7 +70,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[](https://plus.google.com/u/4/events/chg423plp1gk0quvti1d0q1o7fc/116754366033915823792)[Analyzing vectorizer performance regressions in GCC 4.7 and 4.8](https://plus.google.com/u/4/events/chg423plp1gk0quvti1d0q1o7fc/116754366033915823792)
 </td>
 
-<td markdown="1">[Michael Hope](http://www.linaro.org/about/meet-the-team/michael-hope/)
+<td markdown="1">[Michael Hope](https://www.linaro.org/about/meet-the-team/michael-hope/)
 </td>
 </tr>
 <tr >
@@ -81,7 +81,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Bootstrapping OpenEmbedded for ARMv8's AArch64](https://plus.google.com/u/4/events/c8oj8uf68bgd8qc8jen3i4n5n7c/116754366033915823792)
 </td>
 
-<td markdown="1">[Ricardo Salveti](http://www.linaro.org/about/meet-the-team/ricardo-salveti/)
+<td markdown="1">[Ricardo Salveti](https://www.linaro.org/about/meet-the-team/ricardo-salveti/)
 </td>
 </tr>
 <tr >
@@ -92,7 +92,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Breaking New Ground Through Host-Side Test Automation](https://plus.google.com/u/4/events/c8ej4ed9oqcf50bhrno4unb6feo/116754366033915823792)
 </td>
 
-<td markdown="1">[Andy Doan](http://www.linaro.org/about/meet-the-team/andy-doan/)
+<td markdown="1">[Andy Doan](https://www.linaro.org/about/meet-the-team/andy-doan/)
 </td>
 </tr>
 <tr >
@@ -114,7 +114,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Streamlining Manual QA Testing of ARM Devices](https://plus.google.com/u/4/events/cc886k14b73mebcp89ucpqccr5o/116754366033915823792)
 </td>
 
-<td markdown="1">[Paul Larson](http://www.linaro.org/about/meet-the-team/paul-larson/)
+<td markdown="1">[Paul Larson](https://www.linaro.org/about/meet-the-team/paul-larson/)
 </td>
 </tr>
 <tr >
@@ -125,7 +125,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Single Kernel Binary for ARM Devices: A Health Check](https://plus.google.com/u/4/events/cncjqpf76o5ps9d8igj068gibeo/116754366033915823792)
 </td>
 
-<td markdown="1">[Deepak Saxena](http://www.linaro.org/about/meet-the-team/deepak-saxena/)
+<td markdown="1">[Deepak Saxena](https://www.linaro.org/about/meet-the-team/deepak-saxena/)
 </td>
 </tr>
 <tr >
@@ -136,7 +136,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Android and Traditional Linux: Differences and Convergence](https://plus.google.com/u/4/events/cj4fohi8vddvjj5j9oee5mp3vhc/116754366033915823792)
 </td>
 
-<td markdown="1">[Zach Pfeffer](http://www.linaro.org/about/meet-the-team/zach-pfeffer/)
+<td markdown="1">[Zach Pfeffer](https://www.linaro.org/about/meet-the-team/zach-pfeffer/)
 </td>
 </tr>
 <tr >
@@ -158,7 +158,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[The big.LITTLE MP Roadmap](https://plus.google.com/u/4/events/chpcpo0nu406sghml0raft5lioc/116754366033915823792)
 </td>
 
-<td markdown="1">[Amit Kucheria](http://www.linaro.org/about/meet-the-team/amit-kucheria/)
+<td markdown="1">[Amit Kucheria](https://www.linaro.org/about/meet-the-team/amit-kucheria/)
 </td>
 </tr>
 <tr >
@@ -169,7 +169,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Bridging the Gaps in the Android and Linux Graphics Stacks](https://plus.google.com/u/4/events/c8d0o49ktnp7js605t5r6nkjvr4/116754366033915823792)
 </td>
 
-<td markdown="1">[Jesse Barker](http://www.linaro.org/about/meet-the-team/jesse-barker/)
+<td markdown="1">[Jesse Barker](https://www.linaro.org/about/meet-the-team/jesse-barker/)
 </td>
 </tr>
 <tr >
@@ -180,7 +180,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[A closer look at Dalvik & native performance on the Cortex A9 and A15](https://plus.google.com/u/4/events/c9r67l6t01cgvgo6sjclfccqo00/116754366033915823792)
 </td>
 
-<td markdown="1">[Zach Pfeffer](http://www.linaro.org/about/meet-the-team/zach-pfeffer/)
+<td markdown="1">[Zach Pfeffer](https://www.linaro.org/about/meet-the-team/zach-pfeffer/)
 </td>
 </tr>
 <tr >
@@ -202,7 +202,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Exploring The Performance Impact of PGO and LTO on ARM](https://plus.google.com/u/4/events/ctbhhsk4rearkp4hfdt99ei3110/116754366033915823792)
 </td>
 
-<td markdown="1">[Michael Hope](http://www.linaro.org/about/meet-the-team/michael-hope/)
+<td markdown="1">[Michael Hope](https://www.linaro.org/about/meet-the-team/michael-hope/)
 </td>
 </tr>
 <tr >
@@ -213,7 +213,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Adding support for new Android platforms in Linaro, Summer Edition](https://plus.google.com/u/4/events/cuedgatkfdhfcf88co78q65g3s0/116754366033915823792)
 </td>
 
-<td markdown="1">[Zach Pfeffer](http://www.linaro.org/about/meet-the-team/zach-pfeffer/)
+<td markdown="1">[Zach Pfeffer](https://www.linaro.org/about/meet-the-team/zach-pfeffer/)
 </td>
 </tr>
 <tr >
@@ -224,7 +224,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Collecting Linux test results in QA Dashboards for LAVA](https://plus.google.com/u/4/events/ci47ba7bu2o2lh1281mpqhuh490/116754366033915823792)
 </td>
 
-<td markdown="1">[Paul Larson](http://www.linaro.org/about/meet-the-team/paul-larson/)
+<td markdown="1">[Paul Larson](https://www.linaro.org/about/meet-the-team/paul-larson/)
 </td>
 </tr>
 <tr >
@@ -246,7 +246,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Idling SoCs in a busy world: cpuidle, hotplug and beyond](https://plus.google.com/u/4/events/cvmu9bh44hft0b11desgfvt8euo/116754366033915823792)
 </td>
 
-<td markdown="1">[Amit Kucheria](http://www.linaro.org/about/meet-the-team/amit-kucheria/)
+<td markdown="1">[Amit Kucheria](https://www.linaro.org/about/meet-the-team/amit-kucheria/)
 </td>
 </tr>
 <tr >
@@ -257,7 +257,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Bringing ARM STM support to Linux: A Status Update](https://plus.google.com/u/4/events/cfkf94b6tlhr2oos4kh25jq3fbo/116754366033915823792)
 </td>
 
-<td markdown="1">[Deepak Saxena](http://www.linaro.org/about/meet-the-team/deepak-saxena/)
+<td markdown="1">[Deepak Saxena](https://www.linaro.org/about/meet-the-team/deepak-saxena/)
 </td>
 </tr>
 <tr >
@@ -268,7 +268,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[Functional Regression Testing for Graphical Environments](https://plus.google.com/u/4/events/cpnvifmi8tvgnbq72eelo0a17do/116754366033915823792)
 </td>
 
-<td markdown="1">[Jesse Barker](http://www.linaro.org/about/meet-the-team/jesse-barker/)
+<td markdown="1">[Jesse Barker](https://www.linaro.org/about/meet-the-team/jesse-barker/)
 </td>
 </tr>
 </tbody>

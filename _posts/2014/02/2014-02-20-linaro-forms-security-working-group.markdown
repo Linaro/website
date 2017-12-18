@@ -46,4 +46,4 @@ Linaro is the place where engineers from the world’s leading technology compan
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online.
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](https://www.linaro.org/)

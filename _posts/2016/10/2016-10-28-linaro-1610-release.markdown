@@ -30,7 +30,7 @@ title: Linaro 16.10 Release Available for Download
 wordpress_id: 11844
 ---
 
-[**Click here for Linaro 16.11 Release**](http://www.linaro.org/blog/linaro-16-11-release-available-for-download/)
+[**Click here for Linaro 16.11 Release**](https://www.linaro.org/blog/linaro-16-11-release-available-for-download/)
 
 
 > "The first rule of all intelligent tinkering is to keep all the parts." -- Aldo Leopold, quoted in Donald Wurster's "Nature's Economy"
@@ -41,7 +41,7 @@ Linaro 16.10 release is now available for download. See the detailed highlights 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -66,7 +66,7 @@ If you are interested in getting the source and building these images yourself p
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [http://www.linaro.org/projects/armv8/](http://www.linaro.org/projects/armv8/)
+  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
 
 
 **USING THE DEBIAN-BASED IMAGES**
@@ -81,7 +81,7 @@ The Debian-based images consist of two parts. The first part is a hardware pack
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

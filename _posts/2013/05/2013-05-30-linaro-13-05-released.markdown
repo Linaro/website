@@ -20,7 +20,7 @@ wordpress_id: 2749
 >
 >
 
-## The Linaro 13.05 release is now available for [download](http://www.linaro.org/downloads/)!
+## The Linaro 13.05 release is now available for [download](https://www.linaro.org/downloads/)!
 
 The 13.05 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle.
 
@@ -28,7 +28,7 @@ It is through these monthly releases that Linaro, our members and community do m
 
 The foundation for the Linaro Stable Kernel (LSK) tree has been prepared. LSK will track the kernel.org community released LTS (Long-Term Stable) kernel tree, and Linaro will add member selected features, platform support and bug fixes. During the 13.05 development cycle, a preview/proof of concept has been delivered, based on linux-3.9.4 stable tree with ARM LT topic branches (TC platform support) and big.LITTLE work (MP and IKS).
 
-The announcement of big.LITTLE in-kernel switcher (IKS) code now available to the public. “This code was also developed for and tested on the Versatile Express TC2 development platform. An MCPM backend and possibly a special cpufreq clock driver are required for this code to be usable on other platforms,” wrote Nicolas Pitre in his announcement to the linaro development mailing list. More information and helpful links can be found at: [http://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/](http://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/)
+The announcement of big.LITTLE in-kernel switcher (IKS) code now available to the public. “This code was also developed for and tested on the Versatile Express TC2 development platform. An MCPM backend and possibly a special cpufreq clock driver are required for this code to be usable on other platforms,” wrote Nicolas Pitre in his announcement to the linaro development mailing list. More information and helpful links can be found at: [https://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/](https://www.linaro.org/linaro-blog/2013/05/02/the-linaro-iks-code-now-publicly-available/)
 
 Quality remains a focus at Linaro and on the testing and validation front, members of the LAVA team completed and tested the functionality of the first prototype production run of LAVA LMP. The Platform teams also announced that Texas Instruments Beaglebone Black is now running in LAVA. As part of the effort to improve the developers experience with LAVA, the different client tools were also consolidated into a single package in order to make it easier for the team to provide new features for LAVA users.
 
@@ -59,7 +59,7 @@ A complete list of highlights and accomplishments for LAVA, Builds and Baselines
 
 
 
-Do you want to help predict the future of Linux on ARM?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and ARM-processor based boards then be a show off and participate in our [Demo Friday](http://www.linaro.org/connect/demo-friday) event at LCE-13.
+Do you want to help predict the future of Linux on ARM?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and ARM-processor based boards then be a show off and participate in our [Demo Friday](https://www.linaro.org/connect/demo-friday) event at LCE-13.
 
 
 
@@ -75,7 +75,7 @@ We encourage everybody to use the 13.05 release. The download links for all imag
 
 
 
-[http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 
 
@@ -129,14 +129,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-[http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
+[https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
 ## GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
 
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
     * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
     
 

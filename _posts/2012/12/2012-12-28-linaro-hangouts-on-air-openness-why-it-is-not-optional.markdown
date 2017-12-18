@@ -21,9 +21,9 @@ wordpress_id: 2196
 
 [Mark your calendars](https://wiki.linaro.org/2013/HangoutsOnAir), add [Linaro OnAir](https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ Circles and plan on joining the discussion in our Bi-Monthly Hangouts where topics are suggestions and the conversations are limited only by the host(s) and guest(s). However, most of these conversations will be tied to Linaro, ARM, Open Source and other topics suggested by our developers, members, and community, so [tell us](mailto:on.air@linaro.org) what you want to discuss.
 
-Our first 2013 Hangout on Air  [is scheduled](https://plus.google.com/u/0/events/c0j8ui7b1qgavvhluktlsla95pc) for **Monday, 7 January at <del>13:00 UTC</del> [18:00 UTC](http://www.timeanddate.com/worldclock/converter.html)** and the topic of discussion will be '[openness, why it is not optional](http://www.linaro.org/linaro-blog/2012/11/08/why-openness-is-not-optional/)' with Linaro CTO, David Rusling and Tim Wesselman of HP's HyperScale Business Unit.
+Our first 2013 Hangout on Air  [is scheduled](https://plus.google.com/u/0/events/c0j8ui7b1qgavvhluktlsla95pc) for **Monday, 7 January at <del>13:00 UTC</del> [18:00 UTC](http://www.timeanddate.com/worldclock/converter.html)** and the topic of discussion will be '[openness, why it is not optional](https://www.linaro.org/linaro-blog/2012/11/08/why-openness-is-not-optional/)' with Linaro CTO, David Rusling and Tim Wesselman of HP's HyperScale Business Unit.
 
-We are still ironing out the details and lining up the guests for the other hangouts in 2013, but as soon as we lock in the topics of discussion and the guests we will announce those here on the [Linaro Blog](http://www.linaro.org/blog), across our social media and create a Google+ event as well.
+We are still ironing out the details and lining up the guests for the other hangouts in 2013, but as soon as we lock in the topics of discussion and the guests we will announce those here on the [Linaro Blog](https://www.linaro.org/blog), across our social media and create a Google+ event as well.
 
 More about the 'Openness, Why it is Not Optional' Hangout can be found on our [Linaro OnAir Event Page](https://plus.google.com/u/0/events/c0j8ui7b1qgavvhluktlsla95pc).
 
