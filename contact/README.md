@@ -50,14 +50,22 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
 
 </div>
 <div class="col-sm-8">
-<div class="cognito">
-    <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-    <script>
-    Cognito.load("forms", { id: "7", entry: {
-        "PageUrl": "{{site.url}}{{page.url}}" ,
-        "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
-    }});
-    </script>
+
+<div class="lazyload" data-script="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw" >
+    <div class="col-xs-12 contact_form lazyload">
+        <hr />
+        <div class="cognito">
+            <script>
+            document.addEventListener("DOMContentLoaded", function(event) { 
+                Cognito.load("forms", { id: "7", entry: {
+                    "PageUrl": "{{site.url}}{{page.url}}" ,
+                    "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
+                }});
+            });
+            </script>
+        </div>
+    </div>
 </div>
+
 </div>
 </div>
