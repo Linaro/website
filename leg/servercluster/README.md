@@ -16,8 +16,8 @@ The ARMv8 server cluster is a virtual resource available to ISVs and other softw
 
 This server cluster will allow porting and verification of enterprise software on ARM 64-bit servers running standard Linux distributions. Current plans are for the following:
 
-*   AMD “[Seattle Overdrive](http://www.amd.com/en-us/innovations/software-technologies/server-solution/arm "AMD 64-bit ARM Computing")” development platforms based around the Opteron A1100 Cortex-A57 CPU
-*   Applied Micro [X-Gene](http://www.apm.com/products/data-center/x-gene-family/x-gene/) servers.
+*   AMD “[Seattle Overdrive](http://www.amd.com/en-us/innovations/software-technologies/server-solution "AMD 64-bit ARM Computing")” development platforms based around the Opteron A1100 Cortex-A57 CPU
+*   Applied Micro [X-Gene](https://www.apm.com/products/data-center/x-gene-family/x-gene/) servers.
 *   Support for Fedora, Red Hat ARM Partner Early Access Program or Ubuntu 14.04 via both bare-metal and OpenStack instances.
 *   Access to some hardware may require acceptance of limited use license.
 *   Access dependent on demand and available bandwidth, provided at the sole discretion of Linaro and relevant hardware providers. All efforts will be made to respond to an application within 72 hours.
