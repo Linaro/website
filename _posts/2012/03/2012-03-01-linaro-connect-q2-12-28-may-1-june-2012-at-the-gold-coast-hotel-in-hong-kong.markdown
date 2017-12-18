@@ -31,7 +31,7 @@ These themes reflect the key elements of the Linaro roadmap, which is driven by 
 [Linaro Connect Q1.12](http://connect.linaro.org/resources/) happened last month in Redwood City, CA with more than 300 delegates from over 50 companies. These were some of my personal highlights, which also give you a nice overview of what happens at a Linaro Connect event:
 We hosted 5 Summits including:
 
-  * [Scheduler Summit:](https://wiki.linaro.org/WorkingGroups/PowerManagement/Doc/HMPscheduling) Together with several Linux maintainers, Linaro set out plans to enhance the Linux scheduler to support big.LITTLE systems and make the scheduler more power-aware
+  * [Scheduler Summit:](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources) Together with several Linux maintainers, Linaro set out plans to enhance the Linux scheduler to support big.LITTLE systems and make the scheduler more power-aware
 
 
   * [Storage Summit](http://summit.linaro.org/lcq1-12/meeting/20093/linaro-kernel-q112-storage-mini-summit/): Reached agreement on performance and lifetime improvements for flash media

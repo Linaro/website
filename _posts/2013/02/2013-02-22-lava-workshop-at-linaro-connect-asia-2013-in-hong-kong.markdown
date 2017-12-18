@@ -99,7 +99,7 @@ To find out more about what is happening in and around Linaro  following us on[
 _The goal of the LAVA team is to maintain and develop automated testing tools to be used to test Linaro Platform work. We work with several teams in Linaro to help enable them perform continuos integration testing._
 
 
-  * _[Meeting](https://wiki.linaro.org/Platform/LAVA/Meetings): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*_
+  * _[Meeting](https://wiki.linaro.org/Platform/LAB): Weekly on a rotating schedule #linaro-meeting on irc.freenode.net*_
 
 
   * _Mailing List: mailto:linaro-validation@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-validation))_

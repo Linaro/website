@@ -32,7 +32,7 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
   * How does a beta tester get started
 
 
-  * [https://wiki.linaro.org/Platform/Infrastructure/StagingGit](https://wiki.linaro.org/Platform/Infrastructure/StagingGit)
+  * [https://wiki.linaro.org/Infrastructure/StagingGit](https://wiki.linaro.org/Infrastructure/)
 
 ## Guide to multi-node documentation by Neil Williams
 

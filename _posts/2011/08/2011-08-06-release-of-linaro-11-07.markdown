@@ -46,6 +46,6 @@ Additional highlights for our Ubuntu efforts include working hwpacks for all Lan
 
 * This month LAVA main changes is the UI for the dashboard got an overhaul with new features added. Basic UI is added to the sheduler to see the status of boards and jobs. The ability to schedule jobs by device type is also added to the scheduler. The dispatcher has better error handling and preliminary support for Snowball boards and lava-test now streams results while the test is running.
 
-* Office of the CTO (OCTO) has produced its first ARM hard-float images (alpha stage). More information on the usage and the work related to those images can be found on [https://blueprints.launchpad.net/+spec/engr-octo-armhf-images](https://blueprints.launchpad.net/+spec/engr-octo-armhf-images)
+* Office of the CTO (OCTO) has produced its first ARM hard-float images (alpha stage). More information on the usage and the work related to those images can be found on [https://blueprints.launchpad.net/linaro/+spec/engr-octo-armhf-images](https://blueprints.launchpad.net/linaro/+spec/engr-octo-armhf-images)
 
 * And much more... The release details are linked from the "Details" column for each release artifact on the 11.07 release page.

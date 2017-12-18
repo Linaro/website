@@ -133,7 +133,7 @@ For more information about each of these sessions and how you can get involved, 
 
 According to ARM’s big.LITTLE webpage it is described as, “big.LITTLE processing addresses one of today’s industry challenges: how to create a System on Chip (SoC) that provides both high performance as well as extreme power efficiency to extend battery life. big.LITTLE connects the performance of the [ARM Cortex-A15](http://www.arm.com/products/processors/cortex-a/cortex-a15.php) or [Cortex-A57](http://www.arm.com/products/processors/cortex-a50/cortex-a57-processor.php) processor with the energy efficiency of the [Cortex-A7](http://www.arm.com/products/processors/cortex-a/cortex-a7.php) or [Cortex-A53](http://www.arm.com/products/processors/cortex-a50/cortex-a53-processor.php) processors respectively, enabling the same application software to switch seamlessly between them. By selecting the optimum processor for each task, big.LITTLE can extend battery life by up to 70%.”  - From the [ARM website on big.LITTLE Processing](http://www.arm.com/products/processors/technologies/biglittleprocessing.php)
 
-More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel/Big.Little.Switcher](https://wiki.linaro.org/WorkingGroups/Kernel/Big.Little.Switcher)
+More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel/](https://wiki.linaro.org/WorkingGroups/Kernel/)
 
 
 ## LCE12 - Resources
