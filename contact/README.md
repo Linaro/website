@@ -51,14 +51,5 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
 </div>
 <div class="col-sm-8">
 
-<div class="lazyload" data-script="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw" >
-    <div class="col-xs-12 contact_form lazyload">
-        <hr />
-        <div class="cognito">
-            <div class="lazyload" data-script="{% asset_path 'cognito.js' %}" ></div>
-        </div>
-    </div>
-</div>
-
 </div>
 </div>
