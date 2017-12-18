@@ -22,7 +22,7 @@ wordpress_id: 2054
 
 Whether you are an individual or an employee of a organization it is easy to [get involved with Linaro](http://www.linaro.org/engineering/getting-started#tab1).  If you or your organization is new to open source, want to know about running Linaro builds with or without your own hardware, using the Linaro Toolchain or the Linaro Linux Kernel we'll show you how to get started.
 
-You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](http://www.linaro.org/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](http://www.linaro.org/engineering/mailing-lists) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
+You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](http://www.linaro.org/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](/contact/mailing-list/) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
 
 Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://plus.google.com/+LinaroOnAir) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
 
