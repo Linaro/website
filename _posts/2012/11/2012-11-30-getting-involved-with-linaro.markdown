@@ -113,7 +113,7 @@ More information about the Linaro Infrastructure Team can be found at: [https:/
 
 The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern ARM SoCs.
 
-  * [Meeting](https://wiki.linaro.org/WorkingGroups/Kernel/Meetings): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*
+  * [Meeting](https://wiki.linaro.org/WorkingGroups/Kernel): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*
 
 
   * Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
