@@ -69,7 +69,7 @@ Other highlights from LCE13 include:
   * Linaro Connect Europe 2013: People and Personalities of Connect - [http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
-  * Resources - [http://www.linaro.org/connect-lcu13/resources](http://www.linaro.org/connect-lcu13/resources)
+  * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
 
 
   * Pictures from Connect - [http://www.flickr.com/photos/linaroorg/](http://www.flickr.com/photos/linaroorg/)
