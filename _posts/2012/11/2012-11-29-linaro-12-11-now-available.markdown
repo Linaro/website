@@ -35,7 +35,7 @@ As we look over improvements to the Linaro toolchain, it is notable that Linaro 
 The Power Management Working Group continues its progress on big.LITTLE MP by delivering the v11 and v12 branches, as the Graphics Working Group notes that there is a new GLMark2 release which demonstrates shadow mapping. Additionally our LAVA team reports that the NI Battery Simulator is now available in the lab and can now be accessed remotely.
 
 
-"Linaro 12.11 includes a number of important contributions from the engineering teams, most significant are the v11 and v12 releases of the big.LITTLE MP tree. These releases integrate a number of feature patches required for commercial products in 2013.  It is very satisfying to know the work our teams do will be put to good use in great products developed by our member companies," said [Mark Orvek](http://www.linaro.org/linux-on-arm/meet-the-team/mark-orvek/), Director, Kernel Working Group at Linaro.
+"Linaro 12.11 includes a number of important contributions from the engineering teams, most significant are the v11 and v12 releases of the big.LITTLE MP tree. These releases integrate a number of feature patches required for commercial products in 2013.  It is very satisfying to know the work our teams do will be put to good use in great products developed by our member companies," said [Mark Orvek](/about/), Director, Kernel Working Group at Linaro.
 
 
 

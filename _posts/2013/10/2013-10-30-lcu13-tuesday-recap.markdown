@@ -27,19 +27,19 @@ Linaro Connect sessions followed the keynotes in the morning of Tuesday and the
 
 
 
-  * [Android upstreaming - status and future:](http://lcu-13.zerista.com/event/member/85107)[View Video](http://www.youtube.com/watch?v=BeK28igciCk), [Download slides](http://www.linaro.org/documents/download/267fe5b654b3391646d62d4ce9ced418526967bd567ea)
+  * [Android upstreaming - status and future:](http://lcu-13.zerista.com/event/member/85107)[View Video](http://www.youtube.com/watch?v=BeK28igciCk), [Download slides](https://www.slideshare.net/linaroorg/android-statusandfuture)
 
 
-  * [High Performance Networking - Deep dive](http://lcu-13.zerista.com/event/member/85112):  [View Video](http://www.youtube.com/watch?v=QTtKOoIteaY), [Download Slides](http://www.linaro.org/documents/download/d5fc06fdc56007d0aba563d82141a8ab5269a3271bc36)
+  * [High Performance Networking - Deep dive](http://lcu-13.zerista.com/event/member/85112):  [View Video](http://www.youtube.com/watch?v=QTtKOoIteaY), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-highpernetwkingdeepdivejarmo131023)
 
 
-  * [LAVA LMP Round Table](http://lcu-13.zerista.com/event/member/85123):  [Download Slides](http://www.linaro.org/documents/download/a8a8bd7d571665296475d868d71652a852696f8f90a08)
+  * [LAVA LMP Round Table](http://lcu-13.zerista.com/event/member/85123):  [Download Slides](https://www.slideshare.net/linaroorg/02-lava-lmpdave)
 
 
-  * [Clock Bindings](http://lcu-13.zerista.com/event/member/85110):  [View Video](http://www.youtube.com/watch?v=ZwwQdAwQsKg), [Download Slides](http://www.linaro.org/documents/download/fe73f018507ae60e2945fb74af9b28375270498b14a89)
+  * [Clock Bindings](http://lcu-13.zerista.com/event/member/85110):  [View Video](http://www.youtube.com/watch?v=ZwwQdAwQsKg), [Download Slides](https://www.slideshare.net/linaroorg/common-clockbindingsandstuff)
 
 
-  * [Tracing and Debugging for Networking Applications](http://lcu-13.zerista.com/event/member/85105):  [View Video](http://www.youtube.com/watch?v=z3BdRxMNuwA), [Download Slides](http://www.linaro.org/documents/download/31d34eee0b68bea09e08af115a36097a5266dfa5785dc)
+  * [Tracing and Debugging for Networking Applications](http://lcu-13.zerista.com/event/member/85105):  [View Video](http://www.youtube.com/watch?v=z3BdRxMNuwA), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-trackdebugmagnushd)
 
 
   * [UEFI Next Steps for Enterprise](http://lcu-13.zerista.com/event/member/85111)[:  View Video](http://www.youtube.com/watch?v=IwlOpwHVzwM)
@@ -51,7 +51,7 @@ Linaro Connect sessions followed the keynotes in the morning of Tuesday and the
   * [Is UEFI EDK II Ready for Android Mobile?](http://lcu-13.zerista.com/event/member/85114):  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
 
 
-  * [Discussion on ODP – Fastpath networking applications on Many Core SoCs](http://lcu-13.zerista.com/event/member/85109):  [View Video](http://www.youtube.com/watch?v=moWTXkbDrCQ), [Download Slides](http://www.linaro.org/documents/download/58c05d8029f91e051d6afc229e9afd2c526968f898e13)
+  * [Discussion on ODP – Fastpath networking applications on Many Core SoCs](http://lcu-13.zerista.com/event/member/85109):  [View Video](http://www.youtube.com/watch?v=moWTXkbDrCQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-odpdiscussolavv7)
 
 
 Linaro Connect's first ever "Crazy Shirt" Contest began on Tuesday and we have many people competing to win on the Linaro Facebook page.  To "LIKE" your favorite crazy go to: [https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)  the person with the most "LIKES" on Friday November 1st wins.
