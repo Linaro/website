@@ -1,0 +1,28 @@
+- title: The Arm Ecosystem in Automotive
+  url: /blog/the-arm-ecosystem-in-automotive/
+  class: linaro-two
+  icon: Linaro-Logo_white-icon.svg
+- title: Arm HPC Workshop Sessions and Speakers
+  url: /blog/arm-hpc-workshop-sessions-and-speakers/
+  class: hpc
+  icon: hpc-logo-white.png
+- title: Getting Started With The Secure96 TPM
+  url: https://www.96boards.org/blog/getting-started-with-the-secure96-tpm/
+  class: boards
+  icon: 96boards-logo-white-vertical.png
+- title: Xilinx joins Linaro IoT and Embedded Group
+  url: /news/xilinx-joins-linaro-iot-embedded-group/
+  class: lite
+  icon: LITE-logo.svg
+- title: Linaro Announces Latest 96boards Product for Aosp Development
+  url: /news/linaro-announces-latest-96boards-product-aosp-development/
+  class: boards
+  icon: 96boards-logo-white-vertical.png
+- title: Google becomes Club Member of Linaro
+  url: /news/google-becomes-club-member-linaro/
+  class: linaro
+  icon: Linaro-Sprinkle.svg
+- title: Linaro Connect SFO17 Day One Summary and day two begins with new Arm Developer System
+  url: /blog/sfo17-day2/
+  class: connect
+  icon: connect-icon.png
