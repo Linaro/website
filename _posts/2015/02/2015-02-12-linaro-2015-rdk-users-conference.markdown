@@ -7,7 +7,7 @@ excerpt: Linaro is proud to announce that it is a gold sponsor of the 2015 RDK U
   open source software for the ARM architecture, including developer tools, the Linux
   kernel, ARM power management, and other software infrastructure.
 layout: post
-link: https://www.linaro.org/blog/linaro-2015-rdk-users-conference/
+link: /blog/linaro-2015-rdk-users-conference/
 slug: linaro-2015-rdk-users-conference
 title: Linaro at the 2015 RDK Users Conference
 wordpress_id: 7990

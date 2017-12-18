@@ -14,7 +14,7 @@ excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM,
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
   on ARM server systems.
 layout: post
-link: https://www.linaro.org/blog/core-dump/kvm-pciemsi-passthrough-armarm64/
+link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
 slug: kvm-pciemsi-passthrough-armarm64
 tags:
 - Core Dump

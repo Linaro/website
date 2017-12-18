@@ -8,7 +8,7 @@ description: "Progress report on Linaro\xE2\x80\x99s activities and plans for su
 keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, big.LITTLE, Android, Cortex-A7,
   Cortex-A15, Kernel
 layout: post
-link: https://www.linaro.org/blog/hardware-update/big-little-software-update/
+link: /blog/hardware-update/big-little-software-update/
 slug: big-little-software-update
 tags:
 - Hardware

@@ -7,7 +7,7 @@ description: Instructions to test the Angry Birds game on the Linaro Android Eva
   Build for the Panda board.
 keywords: android, linaro,panda
 layout: post
-link: https://www.linaro.org/blog/releases-blog/angry-birds-panda-board/
+link: /blog/releases-blog/angry-birds-panda-board/
 slug: angry-birds-panda-board
 tags:
 - Releases

@@ -11,7 +11,7 @@ excerpt: "This blog post gives a short introduction to the ARM\xAE CoreSight\u21
   technology and goes over the upstreaming effort currently ongoing at Linaro to provide
   a uniform architecture across all platforms. "
 layout: post
-link: https://www.linaro.org/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/
+link: /blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/
 slug: coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs
 tags:
 - Core Dump

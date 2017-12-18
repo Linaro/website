@@ -7,7 +7,7 @@ description: "Part one of this series gave an overview of the ARMv8 Server Clust
   This article deals with some of the challenges we faced with our \xE2\x80\x9Crack
   1\xE2\x80\x9D Ubuntu systems."
 layout: post
-link: https://www.linaro.org/blog/ubuntu-rack-deployment-within-the-armv8-server-lab/
+link: /blog/ubuntu-rack-deployment-within-the-armv8-server-lab/
 slug: ubuntu-rack-deployment-within-the-armv8-server-lab
 tags:
 - arm
@@ -20,7 +20,7 @@ wordpress_id: 8419
 ---
 
 **About**
-[Part one of this series](https://www.linaro.org/blog/armv8-server-lab/) gave an overview of the ARMv8 Server Cluster. This article deals with some of the challenges we faced with our “rack 1” Ubuntu systems.
+[Part one of this series](/blog/armv8-server-lab/) gave an overview of the ARMv8 Server Cluster. This article deals with some of the challenges we faced with our “rack 1” Ubuntu systems.
 
 We wanted the Ubuntu rack to use Canonical technologies for handling server deployments. As a result we focused on using [MAAS](https://maas.ubuntu.com/) for bare-metal deployment and [Juju](https://juju.ubuntu.com/) for deploying [OpenStack](http://www.openstack.org/). This would allow us to loan out both bare-metal systems and virtual machines.
 

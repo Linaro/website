@@ -9,7 +9,7 @@ description: Linaro Android 12.08 is not just the first Linaro Android release b
 keywords: Linaro, Linux on ARM, JellyBean, Galaxy Nexus, Android, Linaro Android Build,
   Benchmarking, Acceleration, phones, mobile devices, improved speeds.
 layout: post
-link: https://www.linaro.org/blog/hardware-update/linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones/
+link: /blog/hardware-update/linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones/
 slug: linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones
 tags:
 - Android
@@ -27,6 +27,6 @@ The result is [a build](https://android-build.linaro.org/builds/~linaro-android/
 SunSpider shows a speed increase of 13% on average, with speedups of up to 30% on some tests, and slowdowns of less than 3% in the worst cases. Improvements here can be attributed to the string routines, newer compiler, and better compiler flags used in Linaro Android.
 0xBench 2D tests show a significant performance increase in particular in the DrawArc tests - likely for the most part due to sincos().
 
-Unlike the [earlier port](https://www.linaro.org/linaro-blog/2012/04/30/linaro-android-running-on-galaxy-nexus/), this is an official build that will be updated every month.
+Unlike the [earlier port](/linaro-blog/2012/04/30/linaro-android-running-on-galaxy-nexus/), this is an official build that will be updated every month.
 
 Of course, the source for all improvements is[ publicly available](https://android-build.linaro.org/builds/~linaro-android/galaxynexus-jb-gcc47-aosp-blob-12.08-release/), and will be submitted to AOSP after getting some more testing.

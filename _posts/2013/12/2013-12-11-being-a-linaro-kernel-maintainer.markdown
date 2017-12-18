@@ -10,7 +10,7 @@ description: "Linaro is a very open environment but with access to a lot of priv
 keywords: Linaro, kernel, linux, linux on ARM, kernel maintainer, open source software,
   software
 layout: post
-link: https://www.linaro.org/blog/kernel-blog/being-a-linaro-kernel-maintainer/
+link: /blog/kernel-blog/being-a-linaro-kernel-maintainer/
 slug: being-a-linaro-kernel-maintainer
 tags:
 - Kernel

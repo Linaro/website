@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-09-19 03:21:27+00:00
 layout: post
-link: https://www.linaro.org/blog/firmware-summit-at-linaro-connect-las16/
+link: /blog/firmware-summit-at-linaro-connect-las16/
 slug: firmware-summit-at-linaro-connect-las16
 title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577

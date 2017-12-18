@@ -5,7 +5,7 @@ categories:
 date: 2014-03-26 15:30:47
 description: Wrap-up of the LCA14 final days activities and awards
 layout: post
-link: https://www.linaro.org/blog/wrap-final-day-lca14/
+link: /blog/wrap-final-day-lca14/
 slug: wrap-final-day-lca14
 title: Wrap-up of the final day of LCA14
 wordpress_id: 5414
@@ -179,7 +179,7 @@ No Video available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/91c1d2f4fa171f0c3f33a72b01a42d3c53270588e2d36) slides
+[**Download**](/documents/download/91c1d2f4fa171f0c3f33a72b01a42d3c53270588e2d36) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -194,4 +194,4 @@ No Video available
 </table>
 
 
-Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](https://www.linaro.org/connect-lcu14)
+Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](/connect-lcu14)

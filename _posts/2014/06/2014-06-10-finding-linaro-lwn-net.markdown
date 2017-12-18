@@ -11,7 +11,7 @@ excerpt: One of the best places to go to find out what Linaro is working on in t
   have already delivered over 830 weekly editions, but the number of postings is significantly
   higher
 layout: post
-link: https://www.linaro.org/blog/finding-linaro-lwn-net/
+link: /blog/finding-linaro-lwn-net/
 slug: finding-linaro-lwn-net
 tags:
 - Engineering cycle

@@ -9,7 +9,7 @@ description: A look back at achievements in 2013 within Linaro and a look forwar
 keywords: linaro, linux, linux on ARM, open source, software, ARM-CortexA, ARMv8,
   big.Little, LAVA, LEG, LNG,
 layout: post
-link: https://www.linaro.org/blog/linaro-2013-year-end-review/
+link: /blog/linaro-2013-year-end-review/
 slug: linaro-2013-year-end-review
 tags:
 - android
@@ -36,7 +36,7 @@ With growth in membership and resources Linaro has been able to deliver more tha
 
 ### **Let’s quickly summarize some of the achievements:**
 
-[Membership](https://www.linaro.org/members) has grown to two Core members, six Club members and 16 Group members. This has enabled Linaro to grow to 106 employees and 95 assignees – providing a $40M+ engineering organization working on the ARM software ecosystem directed by, and for the benefit of, its members.
+[Membership](/members) has grown to two Core members, six Club members and 16 Group members. This has enabled Linaro to grow to 106 employees and 95 assignees – providing a $40M+ engineering organization working on the ARM software ecosystem directed by, and for the benefit of, its members.
 
 Linaro has along the way become one of the most important company contributors to the Linux kernel, and is home to several kernel subsystem maintainers. Linaro also contributes to many other open source projects including GNU, AOSP, OpenEmbedded/Yocto, and OpenJDK.
 

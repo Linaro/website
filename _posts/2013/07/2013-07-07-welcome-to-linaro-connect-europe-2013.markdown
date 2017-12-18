@@ -8,7 +8,7 @@ description: LCE13 is all about engineering. Find out what goes into planning an
 keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
   LCE13, Dublin, George Grey, Jon Maddog Hall, Video, Linaro OnAir
 layout: post
-link: https://www.linaro.org/blog/community-blog/welcome-to-linaro-connect-europe-2013/
+link: /blog/community-blog/welcome-to-linaro-connect-europe-2013/
 slug: welcome-to-linaro-connect-europe-2013
 tags:
 - Community
@@ -23,7 +23,7 @@ wordpress_id: 2802
 
 Welcome to [Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org) being held in Dublin, Ireland.  LCE13 kicks off tomorrow morning, 8 July 2013 with Linaro CEO, George Grey bringing onto focus the vision that will drive the future of Linux on ARM.
 
-This week we have exciting keynote speakers which include [James Bottomley](https://www.linaro.org/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/), [Wannes De Smet](https://www.linaro.org/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/), [Leslie Hawthorn](https://www.linaro.org/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/), [Cole Crawford](https://lce-13.zerista.com/event/member/81944), and [Bob Monkman](https://www.linaro.org/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking/).
+This week we have exciting keynote speakers which include [James Bottomley](/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/), [Wannes De Smet](/linaro-blog/2013/06/20/lce-13-keynote-speaker-announced-wannes-de-smet-reviewing-the-first-enterprise-class-arm-server/), [Leslie Hawthorn](/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-leslie-hawthorn-cultivating-community-best-practices-for-overcoming-challenges-to-collaboration/), [Cole Crawford](https://lce-13.zerista.com/event/member/81944), and [Bob Monkman](/linaro-blog/2013/06/13/lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking/).
 
 LCE13 will also host the Testing and Validation mini-summit which includes sessions on [Evolution of Testing in Linaro (I)](https://lce-13.zerista.com/event/member/79630) and II, [Review Current Linaro Engineering Processes](https://lce-13.zerista.com/event/member/79636) and [The future of testing at Linaro](https://lce-13.zerista.com/event/member/79639).  Additionally there will be many sessions on LAVA as well such as [Introductions and Updates](https://lce-13.zerista.com/event/member/79595), a [2-part LAVA workshop](https://lce-13.zerista.com/event?owner=other&owner_id=453800&terms=LAVA+Workshop&event_page=1&tag_ids=76135&start=&event_order=start), [Multi-Node Testing](https://lce-13.zerista.com/event/member/79669), [Advanced LAVA Lab Configuration](https://lce-13.zerista.com/event/member/79655) and an [Introduction to QA Services and Case Study](https://lce-13.zerista.com/event/member/81054).
 

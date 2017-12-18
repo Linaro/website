@@ -2,7 +2,7 @@
 author: paul.sokolovsky
 date: 2011-08-18 13:45:45+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-android-gerrit/
+link: /blog/linaro-android-gerrit/
 slug: linaro-android-gerrit
 title: Linaro Android codebase migrated to Gerrit (location changed!)
 wordpress_id: 4122

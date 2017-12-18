@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2012-08-10 21:52:32+00:00
 layout: post
-link: https://www.linaro.org/blog/android-blog/trying-the-jellybean-on-samsungs-origen-board/
+link: /blog/android-blog/trying-the-jellybean-on-samsungs-origen-board/
 slug: trying-the-jellybean-on-samsungs-origen-board
 title: Trying Linaro Jellybean Android on Samsung's Origen board
 wordpress_id: 1769

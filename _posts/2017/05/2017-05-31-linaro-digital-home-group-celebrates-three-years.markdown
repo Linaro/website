@@ -2,7 +2,7 @@
 author: mark.gregotski
 date: 2017-05-31 17:27:29+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-digital-home-group-celebrates-three-years/
+link: /blog/linaro-digital-home-group-celebrates-three-years/
 slug: linaro-digital-home-group-celebrates-three-years
 title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
@@ -21,7 +21,7 @@ tags:
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
-[The Linaro Digital Home Group ](https://www.linaro.org/groups/lhg/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2.png)](https://www.linaro.org/groups/lhg/)
+[The Linaro Digital Home Group ](/groups/lhg/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2.png)](/groups/lhg/)
 
 {% include image.html name="blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
 
@@ -68,7 +68,7 @@ The past three years have passed quickly. Now moving forward with ten member com
 
 We will continue to innovate and develop compelling media solutions with the aim of them becoming commonplace in the ARM ecosystem. I am certain that with the dedication from the LHG engineers, steering committee and our member companies, this will indeed continue to be the case.
 
-For more information on LHG, click [here.](https://www.linaro.org/groups/lhg/)
+For more information on LHG, click [here.](/groups/lhg/)
 
 **Recent LHG Achievements**
 
@@ -102,18 +102,18 @@ For more information on LHG, click [here.](https://www.linaro.org/groups/lhg/)
 
 **LHG Making News!**
 
-  * [LHG Releases FIrst Sample Android “AOSP TV” build on HiKey](https://www.linaro.org/blog/lhg-releases-first-sample-android-aosp-tv-build-on-hikey/)
+  * [LHG Releases FIrst Sample Android “AOSP TV” build on HiKey](/blog/lhg-releases-first-sample-android-aosp-tv-build-on-hikey/)
   * [Linaro RDK GStreamer-V4L2 video acceleration on DB410C](https://www.youtube.com/watch?v=zmOTyKFeyCs&t=100s)
   * [LHG Android “AOSP TV” Demonstration](https://www.youtube.com/watch?v=lkAERtIry4w&t=10s)
-  * [Hisilicon creates Poplar First 96Boards TV Platform](https://www.linaro.org/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/)
-  * [Poplar Press Release](https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/)
-  * [LHG Sprint Report](https://www.linaro.org/blog/lhg-sprint-report/)
-  * [LHG takes another step forward in Enhanced Content Protection with OPTEE on ARM® TrustZone®](https://www.linaro.org/blog/lhg-optee-arm-trustzone/)
-  * [First open source W3C EME solution provided on the 96Boards HiKey platform](https://www.linaro.org/blog/engineering-update-16-04/)
-  * [Linaro Digital Home Group at SFO15](https://www.linaro.org/blog/linaro-digital-home-group-at-sfo15/)
-  * [LHG One-Year Anniversary](https://www.linaro.org/blog/lhg-one-year-anniversary/)
-  * [LHG at the 2015 RDK Users Conference](https://www.linaro.org/blog/linaro-2015-rdk-users-conference/)
-  * [Linaro Home Group Update](https://www.linaro.org/blog/linaro-home-group-update-since-launching/)
+  * [Hisilicon creates Poplar First 96Boards TV Platform](/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/)
+  * [Poplar Press Release](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/)
+  * [LHG Sprint Report](/blog/lhg-sprint-report/)
+  * [LHG takes another step forward in Enhanced Content Protection with OPTEE on ARM® TrustZone®](/blog/lhg-optee-arm-trustzone/)
+  * [First open source W3C EME solution provided on the 96Boards HiKey platform](/blog/engineering-update-16-04/)
+  * [Linaro Digital Home Group at SFO15](/blog/linaro-digital-home-group-at-sfo15/)
+  * [LHG One-Year Anniversary](/blog/lhg-one-year-anniversary/)
+  * [LHG at the 2015 RDK Users Conference](/blog/linaro-2015-rdk-users-conference/)
+  * [Linaro Home Group Update](/blog/linaro-home-group-update-since-launching/)
 
 
 

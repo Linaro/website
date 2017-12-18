@@ -12,7 +12,7 @@ excerpt: 'On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st 1
   time will overflow and jump back to 1901.  Read about this issue and what is being
   done to get ready.  '
 layout: post
-link: https://www.linaro.org/blog/core-dump/twenty-three-years-and-counting-down/
+link: /blog/core-dump/twenty-three-years-and-counting-down/
 slug: twenty-three-years-and-counting-down
 tags:
 - Core Dump

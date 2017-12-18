@@ -5,7 +5,7 @@ categories:
 date: 2011-05-17 08:43:59
 description: Linaro Developer Summit - hard work but fun
 layout: post
-link: https://www.linaro.org/blog/budapest-lds/
+link: /blog/budapest-lds/
 slug: budapest-lds
 tags:
 - memory management

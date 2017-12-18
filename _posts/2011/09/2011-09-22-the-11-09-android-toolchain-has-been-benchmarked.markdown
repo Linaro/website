@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2011-09-22 16:04:47+00:00
 layout: post
-link: https://www.linaro.org/blog/the-11-09-android-toolchain-has-been-benchmarked/
+link: /blog/the-11-09-android-toolchain-has-been-benchmarked/
 slug: the-11-09-android-toolchain-has-been-benchmarked
 title: The 11.09 Android Toolchain has been Benchmarked
 wordpress_id: 4130

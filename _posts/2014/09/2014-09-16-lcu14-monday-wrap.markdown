@@ -6,7 +6,7 @@ date: 2014-09-16 21:26:20
 description: Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
   California. Here is a recap of what took place the first day of the event.
 layout: post
-link: https://www.linaro.org/blog/lcu14-monday-wrap/
+link: /blog/lcu14-monday-wrap/
 slug: lcu14-monday-wrap
 tags:
 - Connect Events
@@ -30,7 +30,7 @@ title: LCU14 Monday Wrap-up
 wordpress_id: 6682
 ---
 
-Linaro Connect USA 2014 began yesterday in Burlingame, California with over 500 attendees. Mobile was the theme for the day and began with an opening keynote by Linaro's CEO, George Grey titled "Linaro’s past, present and future". Following Mr Grey was [Paul Eremenko](https://www.linaro.org/connect/lcu/lcu14/schedule/), Direct of Project Ara at Google who gave a keynote titled “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem”. 
+Linaro Connect USA 2014 began yesterday in Burlingame, California with over 500 attendees. Mobile was the theme for the day and began with an opening keynote by Linaro's CEO, George Grey titled "Linaro’s past, present and future". Following Mr Grey was [Paul Eremenko](/connect/lcu/lcu14/schedule/), Direct of Project Ara at Google who gave a keynote titled “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem”. 
 
 After the keynotes there were sessions about ART, Android on ARMv8-A SoCs, a panel discussion on a more open AOSP, power management, Coresight, QEMU and security. The latter of these topics also had a couple of sessions on the open source trusted execution environment (TEE) that ST has released with Linaro’s assistance. Later in the afternoon introductory sessions on a variety of topics including ODP, upstreaming, Xen and ACPI, and embedded systems were given. If you are interested in learning more about any of these keynotes or sessions below are links to more information.
 
@@ -508,7 +508,7 @@ Training
 </tr>
 </tbody>
 </table>
-Can’t make it to LCU14? Don’t worry. You can still participate remotely and watch the sessions. [More information on Remote Participation](https://www.linaro.org/connect/lcu/lcu14/remote/) 
+Can’t make it to LCU14? Don’t worry. You can still participate remotely and watch the sessions. [More information on Remote Participation](/connect/lcu/lcu14/remote/) 
 
 
 ### Below are the summaries of the sessions that took place on Monday:

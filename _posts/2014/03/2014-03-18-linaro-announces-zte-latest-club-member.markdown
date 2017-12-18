@@ -6,7 +6,7 @@ date: 2014-03-18 14:06:23
 description: Telecoms and networking leader ZTE joins Linaro to promote global development
   of open source software
 layout: post
-link: https://www.linaro.org/news/linaro-announces-zte-latest-club-member/
+link: /news/linaro-announces-zte-latest-club-member/
 slug: linaro-announces-zte-latest-club-member
 title: Linaro announces ZTE as latest Club Member
 wordpress_id: 5329
@@ -31,7 +31,7 @@ ZTE has a strong track record demonstrating commitment to open source technology
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of open source on ARM. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [https://www.linaro.org](https://www.linaro.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [](/).
 
 **About ZTE**
 

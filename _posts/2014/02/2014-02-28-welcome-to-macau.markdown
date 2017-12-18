@@ -5,7 +5,7 @@ categories:
 date: 2014-02-28 21:18:07
 description: Overview of what to expect at LCA14
 layout: post
-link: https://www.linaro.org/blog/connect-update/welcome-to-macau/
+link: /blog/connect-update/welcome-to-macau/
 slug: welcome-to-macau
 tags:
 - connect

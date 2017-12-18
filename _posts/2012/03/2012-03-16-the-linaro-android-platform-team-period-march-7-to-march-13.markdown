@@ -5,7 +5,7 @@ categories:
 date: 2012-03-16 00:06:07
 description: The Linaro Android Platform Team. big.LITTLE on Fast Model.
 layout: post
-link: https://www.linaro.org/blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/
+link: /blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/
 slug: the-linaro-android-platform-team-period-march-7-to-march-13
 tags:
 - Android

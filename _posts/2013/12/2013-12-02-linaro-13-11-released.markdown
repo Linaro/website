@@ -7,7 +7,7 @@ description: Linaro 13.11 release information and links to downloads
 keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.11 release, Android,
   LAVA, ARMv8
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-11-released/
+link: /blog/releases-blog/linaro-13-11-released/
 slug: linaro-13-11-released
 tags:
 - Releases
@@ -49,7 +49,7 @@ This month's cycle includes significant developments from Linaro Connect USA 201
 We encourage everybody to use the 13.11 release. This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -90,14 +90,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
   
 ### GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

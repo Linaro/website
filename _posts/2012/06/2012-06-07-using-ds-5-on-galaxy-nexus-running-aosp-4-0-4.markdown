@@ -2,7 +2,7 @@
 author: vishal.bhoj
 date: 2012-06-07 17:16:11+00:00
 layout: post
-link: https://www.linaro.org/blog/android-blog/using-ds-5-on-galaxy-nexus-running-aosp-4-0-4/
+link: /blog/android-blog/using-ds-5-on-galaxy-nexus-running-aosp-4-0-4/
 slug: using-ds-5-on-galaxy-nexus-running-aosp-4-0-4
 title: using DS-5 on Galaxy Nexus running AOSP 4.0.4
 wordpress_id: 1669

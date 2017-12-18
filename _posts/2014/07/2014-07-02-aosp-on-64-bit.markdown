@@ -18,7 +18,7 @@ excerpt: "Following the recent announcement of the Android\u2122 L Developer Pre
   platform, code-named \u201CJuno\u201D, available from ARM for lead and ecosystem
   partners."
 layout: post
-link: https://www.linaro.org/news/aosp-on-64-bit/
+link: /news/aosp-on-64-bit/
 slug: aosp-on-64-bit
 tags:
 - 64-bit
@@ -53,7 +53,7 @@ The ARMv8-A hardware development platform includes an SoC with a quad-core ARM C
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit [](/).
 
 **About ARM**
 

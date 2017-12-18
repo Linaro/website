@@ -2,7 +2,7 @@
 author: david.rusling
 date: 2010-07-01 16:50:00+00:00
 layout: post
-link: https://www.linaro.org/blog/community-blog/is-linaro-a-distribution/
+link: /blog/community-blog/is-linaro-a-distribution/
 slug: is-linaro-a-distribution
 title: Is Linaro a Distribution?
 wordpress_id: 4111

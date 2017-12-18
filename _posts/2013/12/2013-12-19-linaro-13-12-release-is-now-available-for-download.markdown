@@ -7,7 +7,7 @@ description: Information and links for the Linaro 13.12 release
 keywords: Linaro, linux, open source, ARM, linux on ARM, Android, Ubuntu, kernel,
   linux kernel, ARMv8, Linaro Connect,
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-12-release-is-now-available-for-download/
+link: /blog/releases-blog/linaro-13-12-release-is-now-available-for-download/
 slug: linaro-13-12-release-is-now-available-for-download
 tags:
 - Releases
@@ -54,7 +54,7 @@ See the detailed highlights of this release to get an overview of what has been 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 ### USING THE ANDROID-BASED IMAGES
 
@@ -85,14 +85,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
 
 ### GETTING INVOLVED
 
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

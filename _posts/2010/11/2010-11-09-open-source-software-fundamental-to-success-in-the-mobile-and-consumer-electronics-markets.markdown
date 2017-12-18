@@ -2,7 +2,7 @@
 author: linaro
 date: 2010-11-09 19:52:00+00:00
 layout: post
-link: https://www.linaro.org/blog/industry-blog/open-source-software-fundamental-to-success-in-the-mobile-and-consumer-electronics-markets/
+link: /blog/industry-blog/open-source-software-fundamental-to-success-in-the-mobile-and-consumer-electronics-markets/
 slug: open-source-software-fundamental-to-success-in-the-mobile-and-consumer-electronics-markets
 title: Open source software fundamental to success in the mobile and consumer electronics markets
 wordpress_id: 4105

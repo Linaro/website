@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-05-04 10:49:39+00:00
 layout: post
-link: https://www.linaro.org/blog/bkk16-blog2/
+link: /blog/bkk16-blog2/
 slug: bkk16-blog2
 title: BKK16 Summary Blog 2 - Sessions
 wordpress_id: 10577

@@ -5,7 +5,7 @@ categories:
 date: 2011-02-15 12:10:12
 description: CAMBRIDGE, UK - 15 FEB 2011
 layout: post
-link: https://www.linaro.org/news/linaro-makes-snowball-shine/
+link: /news/linaro-makes-snowball-shine/
 slug: linaro-makes-snowball-shine
 title: Linaro Makes Snowball Shine
 wordpress_id: 4408

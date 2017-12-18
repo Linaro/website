@@ -8,7 +8,7 @@ description: Overview of the keynotes and sessions that took place during day 3 
 excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 3 of Linaro Connect San Francisco 2015.
 layout: post
-link: https://www.linaro.org/blog/day-3-of-linaro-connect-sfo15/
+link: /blog/day-3-of-linaro-connect-sfo15/
 slug: day-3-of-linaro-connect-sfo15
 tags:
 - connect

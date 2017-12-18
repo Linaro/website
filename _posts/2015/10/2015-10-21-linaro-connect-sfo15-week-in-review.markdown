@@ -8,7 +8,7 @@ description: Overview of the keynotes, sessions and activities that took place d
 excerpt: Overview of the keynotes, sessions and activities that took place during
   the week of Linaro Connect SFO15.
 layout: post
-link: https://www.linaro.org/blog/linaro-connect-sfo15-week-in-review/
+link: /blog/linaro-connect-sfo15-week-in-review/
 slug: linaro-connect-sfo15-week-in-review
 tags:
 - conference

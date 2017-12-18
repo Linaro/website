@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2011-09-27 19:40:48+00:00
 layout: post
-link: https://www.linaro.org/blog/11-09-linaro-android-release-candidates-are-available/
+link: /blog/11-09-linaro-android-release-candidates-are-available/
 slug: 11-09-linaro-android-release-candidates-are-available
 title: 11.09 Linaro Android Release Candidates are Available
 categories:
@@ -73,7 +73,7 @@ If you're really adventurous, you can play a Linaro Android QA engineer and fill
 Happy Androiding!
 
 ...and to build all these builds from source:
-[https://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/](https://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/)
+[/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/](/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/)
 
 ...and to start contributing:
 [http://review.android.git.linaro.org/](http://review.android.git.linaro.org/)

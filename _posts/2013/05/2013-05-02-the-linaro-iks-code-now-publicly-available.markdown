@@ -2,7 +2,7 @@
 author: fathi.boudra
 date: 2013-05-02 05:51:27+00:00
 layout: post
-link: https://www.linaro.org/blog/releases-blog/the-linaro-iks-code-now-publicly-available/
+link: /blog/releases-blog/the-linaro-iks-code-now-publicly-available/
 slug: the-linaro-iks-code-now-publicly-available
 title: The Linaro IKS code now publicly available
 wordpress_id: 2674
@@ -46,4 +46,4 @@ The core MCPM patches are queued for inclusion into the v3.10 mainline
 kernel.  The MCPM backend for TC2 and the IKS patches will tentatively
 be submitted for v3.11.
 
-_Originally posted to the [linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-May/015882.html) by [Nicolas Pitre](https://www.linaro.org/linux-on-arm/meet-the-team/nicolas-pitre/) on Wed May 1 18:33:38 UTC 2013_
+_Originally posted to the [linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-May/015882.html) by [Nicolas Pitre](/linux-on-arm/meet-the-team/nicolas-pitre/) on Wed May 1 18:33:38 UTC 2013_

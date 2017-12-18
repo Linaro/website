@@ -8,7 +8,7 @@ description: Overview of Linaro's participation in Open Compute Summit. Includin
 keywords: Linaro, Open Compute summit, Open source, Linux, Open sourced hardware,
   Linaro enterprise group, ARM
 layout: post
-link: https://www.linaro.org/blog/community-blog/open-compute-event-opens-door-to-working-together/
+link: /blog/community-blog/open-compute-event-opens-door-to-working-together/
 slug: open-compute-event-opens-door-to-working-together
 tags:
 - Community
@@ -22,7 +22,7 @@ Linaro was a [sponsor of the event ](http://www.opencompute.org/ocp-2013-summit-
 
 {% include image.html name="Open-Compute-booth-2013.jpg" alt="Open Compute booth 2013"%}
 
-The booth was a busy hub of activity with a constant stream of inquiries. It was a great opportunity for those attending to discuss Linaro with some of our engineers as well as learn about our newest working group the Linaro Enterprise Group (LEG). The group’s technical program managers, Ilias Biris and Anmar Oueja, and director, Andrea Gallo, were on hand to answer questions and talk about how to get involved. To learn about the most recent activities of the LEG team check out their latest blog post [“LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved”.](https://www.linaro.org/2012/12/21/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/)
+The booth was a busy hub of activity with a constant stream of inquiries. It was a great opportunity for those attending to discuss Linaro with some of our engineers as well as learn about our newest working group the Linaro Enterprise Group (LEG). The group’s technical program managers, Ilias Biris and Anmar Oueja, and director, Andrea Gallo, were on hand to answer questions and talk about how to get involved. To learn about the most recent activities of the LEG team check out their latest blog post [“LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved”.](/2012/12/21/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/)
 
 Also at the event was Linaro CEO George Grey, who had an opportunity to be a part of the Industry Luminaries session. He gave a talk on "Building interoperability in low-power SOCs".
 

@@ -7,7 +7,7 @@ description: Amit Pundir, Android Engineer at Linaro, tells readers about some o
   the new features being offered in the 12.03 Linaro Android Origen release.
 keywords: Linaro, Linux on ARM, Android, 12.03, Release, Origen, Samsung
 layout: post
-link: https://www.linaro.org/blog/community-blog/whats-new-in-the-12-03-linaro-android-origen-release/
+link: /blog/community-blog/whats-new-in-the-12-03-linaro-android-origen-release/
 slug: whats-new-in-the-12-03-linaro-android-origen-release
 tags:
 - Android
@@ -18,9 +18,9 @@ title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 ---
 
-_** [Amit Pundir](https://www.linaro.org/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
+_** [Amit Pundir](/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
 
-Its been almost a week since [Linaro 12.03 was released](https://www.linaro.org/linaro-blog/2012/03/29/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
+Its been almost a week since [Linaro 12.03 was released](/linaro-blog/2012/03/29/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
 
 **What's new in the 12.03 Linaro Android Origen release?**
 

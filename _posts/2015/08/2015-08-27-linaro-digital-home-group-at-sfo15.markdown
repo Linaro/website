@@ -8,7 +8,7 @@ description: Learn about what the Linaro Digital Home Group (LHG) has planned fo
 excerpt: Learn about what the Linaro Digital Home Group (LHG) has planned for the
   week of Linaro Connect San Francisco 2015 in September.
 layout: post
-link: https://www.linaro.org/blog/linaro-digital-home-group-at-sfo15/
+link: /blog/linaro-digital-home-group-at-sfo15/
 slug: linaro-digital-home-group-at-sfo15
 tags:
 - connect

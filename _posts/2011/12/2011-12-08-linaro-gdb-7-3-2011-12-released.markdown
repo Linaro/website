@@ -5,7 +5,7 @@ categories:
 date: 2011-12-08 12:22:33
 description: Announcement and release notes for Linaro GDB 7.3 2011.12
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-3-2011-12-released/
+link: /blog/releases-blog/linaro-gdb-7-3-2011-12-released/
 slug: linaro-gdb-7-3-2011-12-released
 tags:
 - Releases

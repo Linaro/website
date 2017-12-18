@@ -7,7 +7,7 @@ description: Linaro Matt Waddel shares his experience running desktop distributi
   with Linaro software on development boards, for extended durations, and at a public
   event
 layout: post
-link: https://www.linaro.org/blog/hardware-update/low-cost-boards-displays/
+link: /blog/hardware-update/low-cost-boards-displays/
 slug: low-cost-boards-displays
 tags:
 - Hardware

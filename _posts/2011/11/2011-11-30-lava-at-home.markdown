@@ -2,7 +2,7 @@
 author: alan.bennett
 date: 2011-11-30 21:31:26+00:00
 layout: post
-link: https://www.linaro.org/blog/hardware-update/lava-at-home/
+link: /blog/hardware-update/lava-at-home/
 slug: lava-at-home
 title: LAVA@Home
 wordpress_id: 965

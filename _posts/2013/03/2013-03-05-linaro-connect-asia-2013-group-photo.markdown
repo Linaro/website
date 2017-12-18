@@ -7,7 +7,7 @@ description: Linaro Connect Asia 2013 Group Photo
 keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Group Photo
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-group-photo/
+link: /blog/community-blog/linaro-connect-asia-2013-group-photo/
 slug: linaro-connect-asia-2013-group-photo
 tags:
 - Community
@@ -20,4 +20,4 @@ wordpress_id: 2540
 
 More information about Linaro Connect can be found at: [Connect](http://connect.linaro.org)
 
-Find out you can participate remotely at:[ https://www.linaro.org/connect/remote-participation](https://www.linaro.org/connect/remote-participation)
+Find out you can participate remotely at:[ /connect/remote-participation](/connect/remote-participation)

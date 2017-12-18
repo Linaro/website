@@ -6,7 +6,7 @@ date: 2011-08-10 08:25:15
 description: 'Videos: Linaro Connect, Cambridge, UK, Aug. 2011 - Achievements during
   the week, Q&A session with management, and announcements for the next events.'
 layout: post
-link: https://www.linaro.org/blog/community-blog/connect-summary/
+link: /blog/community-blog/connect-summary/
 slug: connect-summary
 tags:
 - Community

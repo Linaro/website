@@ -2,7 +2,7 @@
 author: linaro
 date: 2011-04-04 21:47:38+00:00
 layout: post
-link: https://www.linaro.org/blog/community-blog/lds-showcase/
+link: /blog/community-blog/lds-showcase/
 slug: lds-showcase
 title: Technical showcase at the Linaro Developer Summit
 wordpress_id: 3378

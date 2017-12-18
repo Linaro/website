@@ -11,7 +11,7 @@ excerpt: Linaro's 15.11 release is now available for download. See the detailed 
   with all available software downloads.
 keywords: Linaro
 layout: post
-link: https://www.linaro.org/blog/linaro-16-012release-available-download/
+link: /blog/linaro-16-012release-available-download/
 slug: linaro-16-012release-available-download
 tags:
 - Releases
@@ -35,7 +35,7 @@ Linaro 16.01 release is now available for download. See the detailed highlights 
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -74,7 +74,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **GETTING INVOLVED**
@@ -84,7 +84,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

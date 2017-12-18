@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-05-05 16:49:21+00:00
 layout: post
-link: https://www.linaro.org/blog/las16/
+link: /blog/las16/
 slug: las16
 title: LAS16 Connect Registration is now open
 wordpress_id: 10606

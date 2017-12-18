@@ -6,7 +6,7 @@ date: 2014-05-21 20:40:35
 description: Overview of Linaro's participation at Embedded Linux Conference in May
   2014
 layout: post
-link: https://www.linaro.org/blog/linaro-embedded-linux-conference/
+link: /blog/linaro-embedded-linux-conference/
 slug: linaro-embedded-linux-conference
 tags:
 - kernel
@@ -31,4 +31,4 @@ Overall this was a most intense event, and it was rather nice that we would spli
 
 I have attended ELC in the Bay Area every year since 2008 and plan to continue to do so, since it is always revitalizing.
 
-To see where Linaro will be speaking next, please visit our [new events page](https://www.linaro.org/hub/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](https://www.linaro.org/connect/lcu/lcu14/)in September.
+To see where Linaro will be speaking next, please visit our [new events page](/hub/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](/connect/lcu/lcu14/)in September.

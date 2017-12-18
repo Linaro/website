@@ -8,7 +8,7 @@ description: Engineers at Linaro Connect Europe 2013 iron out the plans for the 
 keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
   LCE13, Dublin, George Grey, Wannes De Smet, Video, Linaro OnAir, Day 1, Day 2
 layout: post
-link: https://www.linaro.org/blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
+link: /blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
 slug: wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013
 tags:
 - Community
@@ -21,7 +21,7 @@ wordpress_id: 2808
 
 {% include image.html name="LCE13001.jpg" alt="George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013"%}
 
-> Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](https://www.linaro.org/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)
+> Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)
 
 
 {% include image.html name="LCE130010.jpg" alt="Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE" class="small-inline right"%}

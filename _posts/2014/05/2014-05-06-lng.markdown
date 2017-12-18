@@ -11,7 +11,7 @@ excerpt: OpenDataPlane continues its progress towards a stable ODP v1.0 release 
   and basic timer management functions. Also included is netmap acceleration of packet
   I/O on x86 platforms.
 layout: post
-link: https://www.linaro.org/blog/lng/
+link: /blog/lng/
 slug: lng
 tags:
 - ODP

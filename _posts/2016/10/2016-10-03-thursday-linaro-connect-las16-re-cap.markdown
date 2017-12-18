@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-10-03 20:40:20+00:00
 layout: post
-link: https://www.linaro.org/blog/thursday-linaro-connect-las16-re-cap/
+link: /blog/thursday-linaro-connect-las16-re-cap/
 slug: thursday-linaro-connect-las16-re-cap
 title: Thursday Linaro Connect LAS16 Re-cap
 wordpress_id: 11721

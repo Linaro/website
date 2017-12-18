@@ -5,7 +5,7 @@ categories:
 date: 2011-12-22 19:52:48
 description: Links to all the downloads for the Linaro 11.12 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-11-12-released/
+link: /blog/releases-blog/linaro-11-12-released/
 slug: linaro-11-12-released
 tags:
 - Releases
@@ -63,7 +63,7 @@ The Power Management Team pushed a number of items upstream. Items include: comm
 
 Full details of this release, including detailed release highlights and known issues, can be found on the release pages of our Wiki. [http://wiki.linaro.org/Cycles/1112/Release](http://wiki.linaro.org/Cycles/1112/Release)
 
-We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ https://www.linaro.org/downloads/](/downloads/)
+We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ /downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 
@@ -98,7 +98,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-Homepage: [https://www.linaro.org](../../)
+Homepage: [](../../)
 Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments.

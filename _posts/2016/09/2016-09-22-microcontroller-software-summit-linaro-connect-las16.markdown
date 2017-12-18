@@ -2,7 +2,7 @@
 author: kumar.gala
 date: 2016-09-22 14:32:26+00:00
 layout: post
-link: https://www.linaro.org/blog/microcontroller-software-summit-linaro-connect-las16/
+link: /blog/microcontroller-software-summit-linaro-connect-las16/
 slug: microcontroller-software-summit-linaro-connect-las16
 title: Microcontroller Software Summit at Linaro Connect LAS16
 wordpress_id: 11590

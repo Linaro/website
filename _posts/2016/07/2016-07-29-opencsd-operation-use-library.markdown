@@ -6,7 +6,7 @@ excerpt: This article will describe the programming and operation of the OpenCSD
   and terminology, these elements will be related to the configuration of the library
   in order to successfully decode a captured trace stream.
 layout: post
-link: https://www.linaro.org/blog/core-dump/opencsd-operation-use-library/
+link: /blog/core-dump/opencsd-operation-use-library/
 slug: opencsd-operation-use-library
 title: OpenCSD – Operation and Use of the Library
 wordpress_id: 11243

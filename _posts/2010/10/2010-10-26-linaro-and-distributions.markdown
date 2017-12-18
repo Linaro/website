@@ -2,7 +2,7 @@
 author: david.rusling
 date: 2010-10-26 18:50:00+00:00
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-and-distributions/
+link: /blog/community-blog/linaro-and-distributions/
 slug: linaro-and-distributions
 title: Linaro and Distributions
 wordpress_id: 4107

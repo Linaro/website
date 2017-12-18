@@ -2,7 +2,7 @@
 author: kiko
 date: 2010-11-12 16:05:00+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-11-05-plan-reviews/
+link: /blog/linaro-11-05-plan-reviews/
 slug: linaro-11-05-plan-reviews
 title: Linaro 11.05 plan reviews
 wordpress_id: 3375

@@ -2,7 +2,7 @@
 author: jennifer.castelino
 date: 2014-11-12 16:50:40+00:00
 layout: post
-link: https://www.linaro.org/blog/latest-update-linaro-stable-kernel-lsk/
+link: /blog/latest-update-linaro-stable-kernel-lsk/
 slug: latest-update-linaro-stable-kernel-lsk
 title: Latest Update On Linaro Stable Kernel (LSK)
 wordpress_id: 7089

@@ -9,7 +9,7 @@ description: As the sun rises over the Gold Coast Hotel this morning we are remi
 keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 5, Awards, Demo Friday
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
+link: /blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
 slug: linaro-connect-asia-2013-day-5-awards-demo-friday-and-more
 tags:
 - Community
@@ -38,7 +38,7 @@ Please note: If the slide deck is not there for a session you are looking for it
 
 The sessions that were streamed using Google+ Hangouts on Air can be found on the [Linaro On Air Youtube Channel.](http://www.youtube.com/user/LinaroOnAir)
 
-The video interviews and sessions that were filmed by FormsCom can be found on the [LinaroOrg YouTube Channel](https://www.linaro.org/blog).
+The video interviews and sessions that were filmed by FormsCom can be found on the [LinaroOrg YouTube Channel](/blog).
 
 The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can be found on [armdevices.net](http://armdevices.net/).
 
@@ -58,7 +58,7 @@ The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can 
 ## Demo Friday
 
 
-Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [https://www.linaro.org/connect/demo-friday](https://www.linaro.org/connect/demo-friday)
+Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [/connect/demo-friday](/connect/demo-friday)
 
 
 ## Remote Participation

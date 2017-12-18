@@ -9,7 +9,7 @@ keywords: Linaro, Linux on ARM, Open Source, Releases, Working Group, Landing Te
   Community, Ubuntu, Android, 12.09. Linaro 12.09, Linaro Connect, Bella Center, Copenhagen,
   Demo Friday
 layout: post
-link: https://www.linaro.org/blog/industry-blog/linaro-12-09-release-now-available/
+link: /blog/industry-blog/linaro-12-09-release-now-available/
 slug: linaro-12-09-release-now-available
 tags:
 - Android
@@ -37,7 +37,7 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 * * *
 
-[Zach Pfeffer](/about/), the [Linaro Android Team](https://www.linaro.org/linux-on-arm/meet-the-team/android), Tech Lead, explains to the Linaro Release team what he and his team have accomplished during this cycle.  Linaro’s patches to AOSP are now available on Jelly Bean and Linaro Android users should now see a 15% performance bump in their Android builds when combined with the Linaro toolchain.  Developers now have another MALI based accelerated platform to work with as the Snowball graphics enablement is now available on the Linaro Jelly Bean build.  The team also analyzed 10 of the most popular Android benchmarking tools: AndEBench, AndEBench Java,  Linpack, CaffeineMark, Antutu 2D and 3D, NBench, Quadrant, I/O Benchmark and Vellamo.  Additionally, the team has put together the NI PXIe-4154 based power measurement system with a VI which will allow the instrument to be easily integrated into [LAVA](https://wiki.linaro.org/Platform/LAVA). Also there is now an AOSP test automation framework that is able to automatically read and execute in-tree AOSP tests.
+[Zach Pfeffer](/about/), the [Linaro Android Team](/linux-on-arm/meet-the-team/android), Tech Lead, explains to the Linaro Release team what he and his team have accomplished during this cycle.  Linaro’s patches to AOSP are now available on Jelly Bean and Linaro Android users should now see a 15% performance bump in their Android builds when combined with the Linaro toolchain.  Developers now have another MALI based accelerated platform to work with as the Snowball graphics enablement is now available on the Linaro Jelly Bean build.  The team also analyzed 10 of the most popular Android benchmarking tools: AndEBench, AndEBench Java,  Linpack, CaffeineMark, Antutu 2D and 3D, NBench, Quadrant, I/O Benchmark and Vellamo.  Additionally, the team has put together the NI PXIe-4154 based power measurement system with a VI which will allow the instrument to be easily integrated into [LAVA](https://wiki.linaro.org/Platform/LAVA). Also there is now an AOSP test automation framework that is able to automatically read and execute in-tree AOSP tests.
 
 
 * * *
@@ -46,7 +46,7 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 * * * 
 
-[Linaro](/) would also like to to remind everyone that Linaro Connect ([LCE 12 Copenhagen](http://connect.linaro.org/resources/#welcome)) is less than 5 weeks away and [registration is open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).  LCE 12 Copenhagen will be held from 29 Oct to 2 Nov at the [Bella Center](http://connect.linaro.org/resources/#travel) in Copenhagen, Demark. In addition to the [regular track sessions](http://connect.linaro.org/resources/#schedule), LCE 12 will host [three mini summits](https://www.linaro.org/linaro-blog/2012/09/12/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/): an ARMv8 (64-bit) mini-summit on the Tuesday, an [Android mini-summit](https://www.linaro.org/linaro-blog/2012/09/19/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/) on the Wednesday and a big.LITTLE mini-summit on the Thursday. For those who are attending already and would like to or are planning on providing a demo for our Demo Friday the '[Call for Participation](https://www.linaro.org/linaro-blog/2012/09/26/lce-12-copenhagen-demo-friday-call-for-participation/)' is now open. More information about this and other Linaro events can be found on the [Linaro Connect website](http://connect.linaro.org/resources/#welcome). What are you waiting for join Linaro in Copenhagen for LCE 12. Dont forget; [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/)!
+[Linaro](/) would also like to to remind everyone that Linaro Connect ([LCE 12 Copenhagen](http://connect.linaro.org/resources/#welcome)) is less than 5 weeks away and [registration is open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).  LCE 12 Copenhagen will be held from 29 Oct to 2 Nov at the [Bella Center](http://connect.linaro.org/resources/#travel) in Copenhagen, Demark. In addition to the [regular track sessions](http://connect.linaro.org/resources/#schedule), LCE 12 will host [three mini summits](/linaro-blog/2012/09/12/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/): an ARMv8 (64-bit) mini-summit on the Tuesday, an [Android mini-summit](/linaro-blog/2012/09/19/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/) on the Wednesday and a big.LITTLE mini-summit on the Thursday. For those who are attending already and would like to or are planning on providing a demo for our Demo Friday the '[Call for Participation](/linaro-blog/2012/09/26/lce-12-copenhagen-demo-friday-call-for-participation/)' is now open. More information about this and other Linaro events can be found on the [Linaro Connect website](http://connect.linaro.org/resources/#welcome). What are you waiting for join Linaro in Copenhagen for LCE 12. Dont forget; [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/)!
 
 
 * * *
@@ -79,7 +79,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 More information on Linaro can be found on our websites:
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

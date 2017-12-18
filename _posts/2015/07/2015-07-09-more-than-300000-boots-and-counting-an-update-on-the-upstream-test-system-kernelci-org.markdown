@@ -15,7 +15,7 @@ excerpt: "Linux maintainers see hundreds of patches during a Kernel version and 
   working with these maintainers to leverage Linaro\u2019s LAVA automation and test
   platform.  \n"
 layout: post
-link: https://www.linaro.org/blog/more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org/
+link: /blog/more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org/
 slug: more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org
 tags:
 - arm

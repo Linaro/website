@@ -6,7 +6,7 @@ date: 2011-09-16 11:13:13
 description: Announcement and release notes for the 2011.09 release of Linaro gcc
   4.6 and 4.5
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-gcc-4-6-and-4-5-2011-09-released/
+link: /blog/releases-blog/linaro-gcc-4-6-and-4-5-2011-09-released/
 slug: linaro-gcc-4-6-and-4-5-2011-09-released
 tags:
 - Releases

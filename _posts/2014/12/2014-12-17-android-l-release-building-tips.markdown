@@ -8,7 +8,7 @@ description: "Linaro's experiences in successfully running Android on ARMv8 plat
   on Android work has written a useful blog about his experience of getting it building
   on his machines."
 layout: post
-link: https://www.linaro.org/blog/android-l-release-building-tips/
+link: /blog/android-l-release-building-tips/
 slug: android-l-release-building-tips
 tags:
 - Android

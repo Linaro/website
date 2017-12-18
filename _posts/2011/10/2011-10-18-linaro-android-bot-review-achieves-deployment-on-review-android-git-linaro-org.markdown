@@ -8,7 +8,7 @@ description: First deployment of Linaro Android Review Bot. This integrates our 
 keywords: continuous integration, LAVA, gerrit, jenkins, linaro android review bot,
   android, linaro, automation
 layout: post
-link: https://www.linaro.org/blog/lava-blog/linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro-org/
+link: /blog/lava-blog/linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro-org/
 slug: linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro-org
 tags:
 - Android

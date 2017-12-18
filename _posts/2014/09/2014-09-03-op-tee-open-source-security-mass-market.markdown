@@ -3,7 +3,7 @@ author: joakim.bech
 comments: true
 date: 2014-09-03 17:06:05+00:00
 layout: post
-link: https://www.linaro.org/blog/core-dump/op-tee-open-source-security-mass-market/
+link: /blog/core-dump/op-tee-open-source-security-mass-market/
 slug: op-tee-open-source-security-mass-market
 title: OP-TEE, open-source security for the mass-market
 wordpress_id: 6500

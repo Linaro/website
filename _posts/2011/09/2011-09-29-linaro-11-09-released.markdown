@@ -5,7 +5,7 @@ categories:
 date: 2011-09-29 19:31:40
 description: Links to all the downloads for the Linaro 11.09 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-11-09-released/
+link: /blog/releases-blog/linaro-11-09-released/
 slug: linaro-11-09-released
 tags:
 - Releases
@@ -43,7 +43,7 @@ Among the improvements brought by this release and delivered by Linaro engineer
 
 
 We encourage everybody to use the 11.09 release. The download links for all images and components are available on our downloads page:
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 The release details are linked from the "Details" column for each released artifact on the release information:
@@ -73,7 +73,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 More information on Linaro can be found on our websites:
 
 * Homepage: 
-    [https://www.linaro.org](https://www.linaro.org/)
+    [](/)
 
 * Wiki: 
     [http://wiki.linaro.org](http://wiki.linaro.org/)

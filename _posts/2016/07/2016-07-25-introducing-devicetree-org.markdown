@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-07-25 14:05:49+00:00
 layout: post
-link: https://www.linaro.org/blog/introducing-devicetree-org/
+link: /blog/introducing-devicetree-org/
 slug: introducing-devicetree-org
 title: Introducing devicetree.org
 wordpress_id: 11198

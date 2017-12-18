@@ -7,7 +7,7 @@ description: Blog on how Linaro is analyzing and working on ways to optimize And
 keywords: Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
   on ARM, Android community, opensource software
 layout: post
-link: https://www.linaro.org/blog/community-blog/android-can-be-optimized/
+link: /blog/community-blog/android-can-be-optimized/
 slug: android-can-be-optimized
 tags:
 - Community

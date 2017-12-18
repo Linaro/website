@@ -9,7 +9,7 @@ keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, o
   source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
   Cortex-A9, Cortex, Android, Ubuntu
 layout: post
-link: https://www.linaro.org/blog/december-ceo-report/
+link: /blog/december-ceo-report/
 slug: december-ceo-report
 title: December CEO Report
 wordpress_id: 1142

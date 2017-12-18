@@ -6,7 +6,7 @@ date: 2015-02-04 16:18:19
 description: The week before the event is due to start, Linaro Connect Hong Kong 2015
   (HKG15) is officially sold out.
 layout: post
-link: https://www.linaro.org/blog/linaro-connect-hong-kong-2015-sold/
+link: /blog/linaro-connect-hong-kong-2015-sold/
 slug: linaro-connect-hong-kong-2015-sold
 tags:
 - Connect Events

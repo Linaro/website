@@ -5,7 +5,7 @@ categories:
 date: 2011-11-25 00:24:05
 description: Links to all the downloads for the Linaro 11.11 release
 layout: post
-link: https://www.linaro.org/blog/linaro-11-11-released/
+link: /blog/linaro-11-11-released/
 slug: linaro-11-11-released
 title: Linaro 11.11 Released
 wordpress_id: 949
@@ -49,7 +49,7 @@ Full details of this release, including detailed release highlights and known is
 
 We encourage everybody to use the 11.11 release. The download links  for all images and components are available on our downloads page:
 
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of  what has been accomplished by the Working Groups, Landing Teams and  Platform Teams.
 
@@ -92,7 +92,7 @@ More information on Linaro can be found on our websites:
 
 
 	
-  * Homepage: [https://www.linaro.org](https://www.linaro.org)
+  * Homepage: []()
 
 	
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)

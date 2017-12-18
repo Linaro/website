@@ -8,7 +8,7 @@ description: Linaro publicly announced the formation of LHG with the founding me
   open source software in digital home applications, including IP/Cable set-top boxes,
   televisions, media boxes and home gateway devices.
 layout: post
-link: https://www.linaro.org/blog/linaro-digital-home-group-lhg-launch/
+link: /blog/linaro-digital-home-group-lhg-launch/
 slug: linaro-digital-home-group-lhg-launch
 tags:
 - arm
@@ -19,7 +19,7 @@ title: Linaro Digital Home Group (LHG) Launch
 wordpress_id: 5986
 ---
 
-On May 29th, Linaro [publicly announced](https://www.linaro.org/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/) the formation of LHG with the founding member companies (see also an announcement from [Cisco](http://blogs.cisco.com/sp/why-were-joining-the-linaro-digital-home-group/)).
+On May 29th, Linaro [publicly announced](/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/) the formation of LHG with the founding member companies (see also an announcement from [Cisco](http://blogs.cisco.com/sp/why-were-joining-the-linaro-digital-home-group/)).
 
 LHG will focus on supporting the proliferation of ARM processors and open source software in digital home applications, including IP/Cable set-top boxes, televisions, media boxes and home gateway devices.
 

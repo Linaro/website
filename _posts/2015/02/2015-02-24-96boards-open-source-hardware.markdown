@@ -7,7 +7,7 @@ description: Linaro CEO discusses the new 96Boards initiative and Open Source Ha
   The goal of 96Boards is to provide an option for standardization of SoC boards for
   software developers, the maker community and embedded product manufacturers.
 layout: post
-link: https://www.linaro.org/blog/96boards-open-source-hardware/
+link: /blog/96boards-open-source-hardware/
 slug: 96boards-open-source-hardware
 tags:
 - 96Boards

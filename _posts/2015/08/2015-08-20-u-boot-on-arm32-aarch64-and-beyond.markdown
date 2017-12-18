@@ -13,7 +13,7 @@ excerpt: "U-Boot became the de facto bootloader on most ARM systems during the e
   but the recent consensus is to \u201Cuse the right tool for the job\u201D  Learn
   more"
 layout: post
-link: https://www.linaro.org/blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
+link: /blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
 slug: u-boot-on-arm32-aarch64-and-beyond
 tags:
 - Core Dump

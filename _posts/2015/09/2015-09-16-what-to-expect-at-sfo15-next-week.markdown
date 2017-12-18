@@ -8,7 +8,7 @@ description: Welcome to Linaro Connect SFO15 - here is what we have planned for 
 excerpt: Linaro Connect San Francisco 2015 will take place the week of September 21-25th.  Here
   are some of the events we have planned for the week.
 layout: post
-link: https://www.linaro.org/blog/what-to-expect-at-sfo15-next-week/
+link: /blog/what-to-expect-at-sfo15-next-week/
 slug: what-to-expect-at-sfo15-next-week
 title: What to expect at SFO15 next week
 wordpress_id: 9297

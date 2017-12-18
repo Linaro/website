@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-09-27 18:13:10+00:00
 layout: post
-link: https://www.linaro.org/blog/monday-linaro-connect-las16/
+link: /blog/monday-linaro-connect-las16/
 slug: monday-linaro-connect-las16
 title: Monday at Linaro Connect LAS16
 wordpress_id: 11682
@@ -16,7 +16,7 @@ Linaro Connect began today in Las Vegas and welcomed over 425 attendees making i
 It began with a [Welcome Keynote](http://connect.linaro.org/resource/las16/las16-100k1/) by Linaro’s CEO, George Grey, who welcomed attendees to the event and gave an overview of the many projects that Linaro is working on with its member companies. George then went on to demo several of these projects.
 
 
-George then wrapped up this keynote by announcing Linaro’s newest segment group, the [Linaro IoT and Embedded Group (LITE)](https://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/). The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. Standards are essential to the success of IoT and the LITE group will bring together ARM ecosystem support for key standards and engineering work to support reliable implementations. LITE will benefit from Linaro’s other engineering activities in the same way as the other groups.
+George then wrapped up this keynote by announcing Linaro’s newest segment group, the [Linaro IoT and Embedded Group (LITE)](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/). The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. Standards are essential to the success of IoT and the LITE group will bring together ARM ecosystem support for key standards and engineering work to support reliable implementations. LITE will benefit from Linaro’s other engineering activities in the same way as the other groups.
 
 * * *
 

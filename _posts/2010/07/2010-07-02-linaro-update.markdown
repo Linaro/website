@@ -3,7 +3,7 @@ author: steve.taylor
 
 date: 2010-07-02 23:05:00+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-update/
+link: /blog/linaro-update/
 slug: linaro-update
 title: Linaro update
 wordpress_id: 4110
@@ -15,7 +15,7 @@ tags:
 
 As head of Linaro's Head of Operations I've been working behind the scenes to get Linaro up and running and delivering great code as soon as we can.
 
-This is my first involvement in a start-up and it's been an exciting ride. There were many late nights and huge amounts of activity leading up to our [launch at Computex](https://www.linaro.org/news/watch-announcement-linaro-computex/), but this has paid off. We have a great set of initial [Members](/members/), leaders in the Open Source world. Linaro has had excellent coverage in both the technical and financial press, including both Wall Street Journal and Financial Times. The venture has also been widely reported in much of the popular press, and sentiment has been broadly positive.
+This is my first involvement in a start-up and it's been an exciting ride. There were many late nights and huge amounts of activity leading up to our [launch at Computex](/news/watch-announcement-linaro-computex/), but this has paid off. We have a great set of initial [Members](/members/), leaders in the Open Source world. Linaro has had excellent coverage in both the technical and financial press, including both Wall Street Journal and Financial Times. The venture has also been widely reported in much of the popular press, and sentiment has been broadly positive.
 
 A consistent message from the open source community has been to welcome the level of openness and visibility we are providing, although of course the proof will be in the code we produce. Our website received over 36,000 visitors in the first week and there is growing interest in the [engineering pages](https://wiki.linaro.org/FrontPage). Googling "Linaro ARM" now generates over 140,000 hits.
 

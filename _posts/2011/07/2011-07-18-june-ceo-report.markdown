@@ -2,7 +2,7 @@
 author: george.grey
 date: 2011-07-18 23:56:08+00:00
 layout: post
-link: https://www.linaro.org/blog/june-ceo-report/
+link: /blog/june-ceo-report/
 slug: june-ceo-report
 title: June CEO Report
 wordpress_id: 3394

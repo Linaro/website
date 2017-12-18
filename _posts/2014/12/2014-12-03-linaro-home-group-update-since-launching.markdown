@@ -6,7 +6,7 @@ date: 2014-12-03 23:51:32
 description: Overview of the activities and projects the Linaro Home Group has been
   working on since the group announcement in May 2014
 layout: post
-link: https://www.linaro.org/blog/linaro-home-group-update-since-launching/
+link: /blog/linaro-home-group-update-since-launching/
 slug: linaro-home-group-update-since-launching
 tags:
 - android

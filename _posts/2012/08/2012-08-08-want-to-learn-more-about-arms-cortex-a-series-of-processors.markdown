@@ -10,7 +10,7 @@ description: "If you are looking for more information about the ARM Cortex-A ser
 keywords: ARM, ARM Cortex-A, Cortex-A, ARMv7-A, ARM architecture, big.LITTLE, Linaro,
   Open source
 layout: post
-link: https://www.linaro.org/blog/industry-blog/want-to-learn-more-about-arms-cortex-a-series-of-processors/
+link: /blog/industry-blog/want-to-learn-more-about-arms-cortex-a-series-of-processors/
 slug: want-to-learn-more-about-arms-cortex-a-series-of-processors
 tags:
 - Industry

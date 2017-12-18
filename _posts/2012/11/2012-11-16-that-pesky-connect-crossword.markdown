@@ -2,7 +2,7 @@
 author: dave.pigott
 date: 2012-11-16 15:40:02+00:00
 layout: post
-link: https://www.linaro.org/blog/that-pesky-connect-crossword/
+link: /blog/that-pesky-connect-crossword/
 slug: that-pesky-connect-crossword
 title: That pesky Connect Crossword
 wordpress_id: 2002

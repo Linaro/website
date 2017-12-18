@@ -9,7 +9,7 @@ description: Discussion on how Linaro's work affects many segments other than mo
 keywords: Linaro, CEO report, ARM SoC, ARM Architecture, Linux, open-source software,
   ARM,  big.LITTLE
 layout: post
-link: https://www.linaro.org/blog/industry-blog/april-2012-ceo-report/
+link: /blog/industry-blog/april-2012-ceo-report/
 slug: april-2012-ceo-report
 tags:
 - Industry

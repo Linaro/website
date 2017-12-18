@@ -2,7 +2,7 @@
 author: shovan
 date: 2017-09-29 13:25:17+00:00
 layout: post
-link: https://www.linaro.org/blog/sfo17-day2/
+link: /blog/sfo17-day2/
 slug: sfo17-day2
 title: Linaro Connect SFO17 day one summary and day two begins with new ARM developer system
 wordpress_id: 12863

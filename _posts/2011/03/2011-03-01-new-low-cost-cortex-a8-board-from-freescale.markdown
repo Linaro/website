@@ -2,7 +2,7 @@
 author: linaro
 date: 2011-03-01 05:00:00+00:00
 layout: post
-link: https://www.linaro.org/blog/hardware-update/new-low-cost-cortex-a8-board-from-freescale/
+link: /blog/hardware-update/new-low-cost-cortex-a8-board-from-freescale/
 slug: new-low-cost-cortex-a8-board-from-freescale
 title: New low-cost Cortex A8 board from Freescale
 wordpress_id: 3372

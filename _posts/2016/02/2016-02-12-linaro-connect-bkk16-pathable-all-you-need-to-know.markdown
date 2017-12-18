@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-02-12 16:45:35+00:00
 layout: post
-link: https://www.linaro.org/blog/connect-update/linaro-connect-bkk16-pathable-all-you-need-to-know/
+link: /blog/connect-update/linaro-connect-bkk16-pathable-all-you-need-to-know/
 slug: linaro-connect-bkk16-pathable-all-you-need-to-know
 title: Linaro Connect Bangkok 2016 - Scheduling...
 wordpress_id: 9988

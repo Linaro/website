@@ -5,7 +5,7 @@ categories:
 date: 2013-01-10 12:22:58
 description: CAMBRIDGE, UK - 10 JAN 2013
 layout: post
-link: https://www.linaro.org/news/linaro-participate-open-compute-summit/
+link: /news/linaro-participate-open-compute-summit/
 slug: linaro-participate-open-compute-summit
 title: Linaro to Participate in Open Compute Summit
 wordpress_id: 4420

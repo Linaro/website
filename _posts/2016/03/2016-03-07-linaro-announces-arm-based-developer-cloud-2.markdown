@@ -8,7 +8,7 @@ description: Linaro announces the rollout of an ARMv8 based Developer Cloud toda
 excerpt: 'Linaro announces the rollout of an ARMv8 based Developer Cloud today at
   Linaro Connect in Bangkok.  '
 layout: post
-link: https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/
+link: /news/linaro-announces-arm-based-developer-cloud-2/
 slug: linaro-announces-arm-based-developer-cloud-2
 tags:
 - ARMv8
@@ -60,4 +60,4 @@ Access to the Developer Cloud will be provided via the [linaro.cloud](http://lin
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/) and [http://www.96Boards.org](http://www.96boards.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](/) and [http://www.96Boards.org](http://www.96boards.org/).

@@ -7,7 +7,7 @@ description: Discussion of Multimedia on Linux challenges and Linaro.org's work 
   Multimedia on Linux
 keywords: Linux, Linaro, Multimedia, OpenMax
 layout: post
-link: https://www.linaro.org/blog/industry-blog/multimedia-on-linux/
+link: /blog/industry-blog/multimedia-on-linux/
 slug: multimedia-on-linux
 tags:
 - Industry

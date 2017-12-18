@@ -11,7 +11,7 @@ excerpt: The blog post describes why introducing ARM TrustZone support in QEMU i
   important and the accompanying benefits.  The post outlines the turbulent history
   behind the current development as well as an explanation of the added features.
 layout: post
-link: https://www.linaro.org/blog/core-dump/arm-trustzone-qemu/
+link: /blog/core-dump/arm-trustzone-qemu/
 slug: arm-trustzone-qemu
 tags:
 - Core Dump

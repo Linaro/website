@@ -10,7 +10,7 @@ excerpt: Linaro's 15.09 release is now available for download. See the detailed 
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
-link: https://www.linaro.org/blog/linaro-15-09-release-available-for-download/
+link: /blog/linaro-15-09-release-available-for-download/
 slug: linaro-15-09-release-available-for-download
 tags:
 - Releases
@@ -38,7 +38,7 @@ We encourage everybody to use the 15.09 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -62,14 +62,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [https://www.linaro.org/projects/armv8/](https://www.linaro.org/projects/armv8/)
+  * [/projects/armv8/](/projects/armv8/)
 
 
 **GETTING INVOLVED**
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 

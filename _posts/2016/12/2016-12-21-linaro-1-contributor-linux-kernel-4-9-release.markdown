@@ -2,7 +2,7 @@
 author: linaro
 date: 2016-12-21 12:37:28+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-1-contributor-linux-kernel-4-9-release/
+link: /blog/linaro-1-contributor-linux-kernel-4-9-release/
 slug: linaro-1-contributor-linux-kernel-4-9-release
 title: 'Linaro #1 contributor to the Linux kernel 4.9 release'
 wordpress_id: 11995

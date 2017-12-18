@@ -7,7 +7,7 @@ description: This article goes over the latest improvements to the LAVA deployme
   process
 keywords: LAVA lava-deployment-tool buildout
 layout: post
-link: https://www.linaro.org/blog/lava-deployment-improvements/
+link: /blog/lava-deployment-improvements/
 slug: lava-deployment-improvements
 title: LAVA Deployment Improvements
 wordpress_id: 1701

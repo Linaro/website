@@ -6,7 +6,7 @@ date: 2012-01-11 19:37:08
 description: FXI's Cotton Candy at CES is proof of how Linaro can help a system vendor
   rapidly develop a product that is running the latest Android ICS and Ubuntu.
 layout: post
-link: https://www.linaro.org/blog/hardware-update/fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development/
+link: /blog/hardware-update/fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development/
 slug: fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development
 tags:
 - Android
@@ -27,9 +27,9 @@ wordpress_id: 1148
 
 {% include image.html name="CottonCandy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
 
-[FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](https://www.linaro.org/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](http://www.android.com/about/ice-cream-sandwich/) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
+[FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](http://www.android.com/about/ice-cream-sandwich/) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
 
-FXI said in it's announcement it leveraged the [Linaro](https://www.linaro.org/) for ARM open software and tools and leveraged its access to the [ARM Mali Graphics software development ecosystem](http://www.malideveloper.com/).
+FXI said in it's announcement it leveraged the [Linaro](/) for ARM open software and tools and leveraged its access to the [ARM Mali Graphics software development ecosystem](http://www.malideveloper.com/).
 
 “FXI engineers used the pre-integrated and tested Android ICS and Ubuntu images from the Linaro platform team as a base in developing support for two new operating systems on Cotton Candy. They also got support from the platform team on the #linaro and #linaro-android IRC channels on Freenode," said Alexander Sack, Platform Technical Director at Linaro in the announcement.  "FXI has demonstrated how Linaro's work can be leveraged effectively to develop real products rapidly and reliably."
 

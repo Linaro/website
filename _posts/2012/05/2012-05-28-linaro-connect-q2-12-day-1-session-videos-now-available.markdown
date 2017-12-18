@@ -7,7 +7,7 @@ description: Day 1 Linaro Connect Q2.12 video'd sessions are now available onlin
 keywords: Linaro Connect, Linaro, Linux On ARM, Open Source, Hong Kong, Sessions,
   Hangouts, Day 1, Video
 layout: post
-link: https://www.linaro.org/blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/
+link: /blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/
 slug: linaro-connect-q2-12-day-1-session-videos-now-available
 tags:
 - Community

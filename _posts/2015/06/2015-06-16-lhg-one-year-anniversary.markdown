@@ -6,7 +6,7 @@ date: 2015-06-16 13:28:03
 description: Linaro Home Group celebrates it's one year anniversary. Read an update
   on what the team is working on as well as a recap from the first year.
 layout: post
-link: https://www.linaro.org/blog/lhg-one-year-anniversary/
+link: /blog/lhg-one-year-anniversary/
 slug: lhg-one-year-anniversary
 tags:
 - android
@@ -137,6 +137,6 @@ It’s hard to believe the first year has gone by so quickly. Thank you to all t
 
 We look forward to an exciting second year in LHG as we continue our major work in RDK and AndroidTV, and also look to branch out with more involvement in community boards (96Boards) and supplying LHG reference solutions.
 
-**[Current LHG Members](https://www.linaro.org/members/)**
+**[Current LHG Members](/members/)**
 
 {% include image.html name="LHG-members-5.jpg" alt="LHG Members Image"%}

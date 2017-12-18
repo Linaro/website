@@ -11,7 +11,7 @@ excerpt: The Linaro Core Development Group publishes a blog to promote the work 
   engineers are doing in the kernel, power management, security and virtualization
   areas, focusing on upstream work.
 layout: post
-link: https://www.linaro.org/blog/core-dump/post-0/
+link: /blog/core-dump/post-0/
 slug: post-0
 tags:
 - Core Dump

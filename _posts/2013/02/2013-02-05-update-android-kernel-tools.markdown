@@ -9,7 +9,7 @@ description: With the kernel update tools provided by the Linaro Android team, u
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM,Android, Kernel, Updates,
   Tools
 layout: post
-link: https://www.linaro.org/blog/android-blog/update-android-kernel-tools/
+link: /blog/android-blog/update-android-kernel-tools/
 slug: update-android-kernel-tools
 tags:
 - Android
@@ -60,7 +60,7 @@ _The primary goals of the Linaro Android Team is to develop and release tested 
   * _IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net_
 
 
-  * _[Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/android)_
+  * _[Team Members](/linux-on-arm/meet-the-team/android)_
 
 
 _More information about the Linaro Android Team can be found at: [https://wiki.linaro.org/Platform/Android](https://wiki.linaro.org/Platform/Android)_
@@ -78,7 +78,7 @@ _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are 
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
 
-  * _[Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/kernel)_
+  * _[Team Members](/linux-on-arm/meet-the-team/kernel)_
 
 
 _More information about the Linaro Kernel Team can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel](https://wiki.linaro.org/WorkingGroups/Kernel)_

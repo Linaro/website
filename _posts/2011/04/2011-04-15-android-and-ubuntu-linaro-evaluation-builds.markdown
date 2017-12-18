@@ -7,7 +7,7 @@ description: Overview of the Android and Ubuntu Linaro evaluation builds and the
   made so far and what is planned for the future.
 keywords: Linaro, evaluation builds, Android, Ubuntu, LEBS
 layout: post
-link: https://www.linaro.org/blog/android-and-ubuntu-linaro-evaluation-builds/
+link: /blog/android-and-ubuntu-linaro-evaluation-builds/
 slug: android-and-ubuntu-linaro-evaluation-builds
 tags:
 - Evaluation builds

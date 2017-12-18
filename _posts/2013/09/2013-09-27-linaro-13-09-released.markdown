@@ -9,7 +9,7 @@ keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro stable kernel, L
   Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
   OpenEmbedded, big.LITTLE, LAVA,  KVM on ARM
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-13-09-released/
+link: /blog/releases-blog/linaro-13-09-released/
 slug: linaro-13-09-released
 tags:
 - Releases
@@ -46,7 +46,7 @@ Here are some of the other highlights, by group:
   * Also leading the way on developments for the future, the Virtualization team has completed upstreaming of AArch64 preparation support for QEMU and the first patches for Xen bring up on APM ARMv8 hardware. Many items are also in the upstream pipe, including ARMV7-A Guest Migration functionality, Xen device tree editing, mach-virt and the ARMv8-A port of libvirt. This last item, libvirt, is now functional on ARMv7-A and functional testing has started.
 
 
-  * If youre interesting in an approach for converting older code that uses wake locks to code using wakeup sources, Zoran Markovic from the Power Management working group has posted a blog discussing this here: https://www.linaro.org/linaro-blog/2013/08/26/converting-code-implementing-suspend-blockers/. The group has also released Linaro Powerdebug 0.7.1-2013.09 and Linaro PM QA 0.4.4-2013.09.
+  * If youre interesting in an approach for converting older code that uses wake locks to code using wakeup sources, Zoran Markovic from the Power Management working group has posted a blog discussing this here: /linaro-blog/2013/08/26/converting-code-implementing-suspend-blockers/. The group has also released Linaro Powerdebug 0.7.1-2013.09 and Linaro PM QA 0.4.4-2013.09.
 
 
   * In the 13.09 release, in addition to the Linaro Stable Kernel (LSK) 3.10.12-2013.09, the Builds and Baselines team have released Linux Linaro 3.11-2013.09, Linaro Toolchain Binaries 2013.09 and various improvements on the baselines. In collaboration with the ARM Landing team, the AArch64 OpenEmbedded Engineering Build for ARM Fast Models for ARMv8 is produced, validated and released, based on the latest AArch64 open source software from Tianocore EDK2 (UEFI), the Linux kernel, ARM Trusted Firmware and OpenEmbedded. This release includes Linaro OpenEmbedded images for Foundation, Versatile Express and FVP Base fast models from ARM.
@@ -64,7 +64,7 @@ This months release not only includes many line items from each group within Lin
 ### Upcoming LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [https://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:
@@ -73,7 +73,7 @@ Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu
 We encourage everybody to use the 13.09 release. The download links for all images and components are available on our downloads page:
 
 
-  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+  * [/downloads/](/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -125,7 +125,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
+  * [/engineering/armv8](/engineering/armv8)
 
 
 
@@ -138,7 +138,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
+  * Homepage: [](/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

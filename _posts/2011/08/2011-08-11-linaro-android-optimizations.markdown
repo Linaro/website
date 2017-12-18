@@ -7,7 +7,7 @@ description: Video - Zach Pfeffer, Linaro Android Tech Lead, demonstrates two Pa
   boards, one running stock Android, and the other one, Linaro's optimized Android
   build.
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-android-optimizations/
+link: /blog/community-blog/linaro-android-optimizations/
 slug: linaro-android-optimizations
 tags:
 - Community
@@ -25,4 +25,4 @@ Zach Pfeffer, Linaro Android Tech Lead, demonstrates two Panda boards running An
 
 You will see that there is a noticeable difference in the time taken by both boards to execute the demo.
 
-You can test the latest Android Linaro builds for the Panda board by following instructions on [this blog post](https://www.linaro.org/linaro-blog/2011/05/31/linaro-android-build-service-video/), or by downloading our [latest monthly release](https://www.linaro.org/downloads/).
+You can test the latest Android Linaro builds for the Panda board by following instructions on [this blog post](/linaro-blog/2011/05/31/linaro-android-build-service-video/), or by downloading our [latest monthly release](/downloads/).

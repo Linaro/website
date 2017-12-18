@@ -5,7 +5,7 @@ categories:
 date: 2012-02-24 01:15:23
 keywords: Linaro Android Platform Team
 layout: post
-link: https://www.linaro.org/blog/community-blog/the-linaro-android-platform-team-period-feb-17-to-feb-23/
+link: /blog/community-blog/the-linaro-android-platform-team-period-feb-17-to-feb-23/
 slug: the-linaro-android-platform-team-period-feb-17-to-feb-23
 tags:
 - Android

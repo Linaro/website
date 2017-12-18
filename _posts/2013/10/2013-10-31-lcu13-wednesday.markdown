@@ -6,7 +6,7 @@ date: 2013-10-31 15:19:41
 description: Review of what took place during LCU13 on Wednesday October 30, 2013
 keywords: Linaro, ARM, Linux, opensource, linaro connect, LCU13,
 layout: post
-link: https://www.linaro.org/blog/connect-update/lcu13-wednesday/
+link: /blog/connect-update/lcu13-wednesday/
 slug: lcu13-wednesday
 tags:
 - Connect Events
@@ -276,4 +276,4 @@ Tools
 </tbody>
 </table>
 
-Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](https://www.linaro.org/connect-lcu13/schedule/remote-participation)
+Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](/connect-lcu13/schedule/remote-participation)

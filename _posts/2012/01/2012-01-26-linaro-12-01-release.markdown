@@ -5,7 +5,7 @@ categories:
 date: 2012-01-26 18:22:14
 description: Links to all the downloads for the Linaro 12.01 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-12-01-release/
+link: /blog/releases-blog/linaro-12-01-release/
 slug: linaro-12-01-release
 tags:
 - Releases
@@ -64,7 +64,7 @@ test suite on Linaro Android with LAVA.
 We encourage everybody to use the 12.01 release. The download links for all
 images and components are available on our downloads page:
 
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been
 accomplished by the Working Groups, Landing Teams and Platform Teams.
@@ -104,7 +104,7 @@ Getting involved
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [https://www.linaro.org](https://www.linaro.org)
+* Homepage: []()
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC

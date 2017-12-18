@@ -10,7 +10,7 @@ keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-H
   Kong, Lars Kurth, Mark Heath, Citrix, ARM Server Mini-Summit, Andrea Gallo, LEG,
   Linaro Enterprise Group
 layout: post
-link: https://www.linaro.org/blog/community-blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/
+link: /blog/community-blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/
 slug: arm-server-takes-the-spotlight-at-linaro-connect-asia-2013
 tags:
 - Community
@@ -20,7 +20,7 @@ title: ARM Server takes the spotlight at Linaro Connect Asia 2013
 wordpress_id: 2364
 ---
 
-The ARM Server is taking a front row seat at Linaro Connect Asia 2013 in Hong Kong as [Andrea Gallo, Director of the Linaro Enterprise Group (LEG)](https://www.linaro.org/linux-on-arm/meet-the-team/andrea-gallo/) and his team host an ARM Server Mini-Summit.
+The ARM Server is taking a front row seat at Linaro Connect Asia 2013 in Hong Kong as [Andrea Gallo, Director of the Linaro Enterprise Group (LEG)](/linux-on-arm/meet-the-team/andrea-gallo/) and his team host an ARM Server Mini-Summit.
 
 
 ## **ARM Server Mini-Summit**
@@ -46,7 +46,7 @@ The mini-summit will take place on Tuesday 5 March with sessions on the followin
   * **Verticals- HipHopVM and Hadoop Distributed File System**: Updates on HipHopVM porting onto the v8 Foundation model, interpreter and bytecode jitting. Updates on Hadoop Distributed Filesystem performance.
 
 
-Members of the [Linaro Enterprise Group (LEG)](https://www.linaro.org/engineering/leg) took time out for a quick Google+ Hangout on Air where they discussed the mini-summit and what they were looking forward to about not only the mini-summit but LCA13-Hong Kong as well.
+Members of the [Linaro Enterprise Group (LEG)](/engineering/leg) took time out for a quick Google+ Hangout on Air where they discussed the mini-summit and what they were looking forward to about not only the mini-summit but LCA13-Hong Kong as well.
 
 ## **Other Server Sessions at LCA13-Hong Kong**
 

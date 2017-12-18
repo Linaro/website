@@ -8,7 +8,7 @@ description: Overview about the Linaro Stable Kernel. Includes updates from the 
 keywords: Linaro, Kernel, Linux, ARM, opensource, opensource software, LSK, big.little,
   android, reelase, 13.08
 layout: post
-link: https://www.linaro.org/blog/android-blog/linaro-stable-kernel-overview/
+link: /blog/android-blog/linaro-stable-kernel-overview/
 slug: linaro-stable-kernel-overview
 tags:
 - Android

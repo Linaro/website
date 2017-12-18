@@ -8,7 +8,7 @@ description: Linaro thanks its sponsors for their up role in the upcoming Q2.12 
 keywords: Linaro Connect, Linaro, Linux On ARM, Open Source, Hong Kong, Sponsors,
   Thank you, ARM, Canonical, LinuxQuestions.Org, Samsung, Linux Journal, Ubuntu User
 layout: post
-link: https://www.linaro.org/blog/industry-blog/thank-you-to-our-sponsors/
+link: /blog/industry-blog/thank-you-to-our-sponsors/
 slug: thank-you-to-our-sponsors
 tags:
 - Community
@@ -44,4 +44,4 @@ Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User M
 
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 
-If you want to know more about Linaro and [our events](http://connect.linaro.org/resources/) please see the [our website](https://www.linaro.org/).
+If you want to know more about Linaro and [our events](http://connect.linaro.org/resources/) please see the [our website](/).

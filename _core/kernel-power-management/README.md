@@ -11,12 +11,12 @@ future: true
 
 ### Jill
 
-![Jill ](https://www.linaro.org/wp-content/uploads/2015/10/JillGuo1.jpg)
+![Jill ](/wp-content/uploads/2015/10/JillGuo1.jpg)
 
 
 ### Jill
 
-![Jill ](https://www.linaro.org/wp-content/uploads/2015/10/JillGuo1.jpg)
+![Jill ](/wp-content/uploads/2015/10/JillGuo1.jpg)
 
 **LCG News**
 

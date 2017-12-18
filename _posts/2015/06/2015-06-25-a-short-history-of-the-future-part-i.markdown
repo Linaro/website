@@ -8,7 +8,7 @@ description: Overview of how Linaro began and why it was created. David Rusling 
 excerpt: Overview of how Linaro began and why it was created. David Rusling discusses
   some of the challenges in the beginning and what was done to overcome them.
 layout: post
-link: https://www.linaro.org/blog/a-short-history-of-the-future-part-i/
+link: /blog/a-short-history-of-the-future-part-i/
 slug: a-short-history-of-the-future-part-i
 tags:
 - arm

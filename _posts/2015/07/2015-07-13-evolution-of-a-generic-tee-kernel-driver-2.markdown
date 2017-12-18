@@ -11,7 +11,7 @@ excerpt: ' Getting a TEE driver into Linux upstream has been the ultimate goal f
   a long time. This blog post will talk about the history, design choices and lessons
   learned when implementing and submitting a generic TEE driver for the Linux kernel. '
 layout: post
-link: https://www.linaro.org/blog/core-dump/evolution-of-a-generic-tee-kernel-driver-2/
+link: /blog/core-dump/evolution-of-a-generic-tee-kernel-driver-2/
 slug: evolution-of-a-generic-tee-kernel-driver-2
 tags:
 - Core Dump

@@ -6,7 +6,7 @@ date: 2011-05-31 17:36:09
 description: 'Video: trying the Linaro Android Build Service on the Panda board -
   Only 15 minutes needed. Other boards available.'
 layout: post
-link: https://www.linaro.org/blog/linaro-android-build-service-video/
+link: /blog/linaro-android-build-service-video/
 slug: linaro-android-build-service-video
 tags:
 - android

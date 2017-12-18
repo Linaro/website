@@ -6,7 +6,7 @@ date: 2011-08-10 14:43:24
 description: Introduction to the concept of LAVA by one of the Linaro Validation developers
 keywords: lava, quality, automation, tools, introduction,
 layout: post
-link: https://www.linaro.org/blog/lava-blog/lava-introduction/
+link: /blog/lava-blog/lava-introduction/
 slug: lava-introduction
 tags:
 - lava

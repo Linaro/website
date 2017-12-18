@@ -14,7 +14,7 @@ excerpt: Linaro announces that Thundersoft has joined the 96Boards initiative as
   initiative, and produce 96Boards products with support provided on the 96Boards
   forum.
 layout: post
-link: https://www.linaro.org/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
+link: /news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
 slug: thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member
 tags:
 - 96Boards
@@ -44,7 +44,7 @@ The 96Boards steering committee now includes ten companies who are working toget
 
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org)
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org)
 
 **About Thundersoft**
 

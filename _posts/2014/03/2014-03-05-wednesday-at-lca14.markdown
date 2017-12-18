@@ -5,7 +5,7 @@ categories:
 date: 2014-03-05 19:55:58
 description: Recap of the sessions and social events that took place at LCA14
 layout: post
-link: https://www.linaro.org/blog/connect-update/wednesday-at-lca14/
+link: /blog/connect-update/wednesday-at-lca14/
 slug: wednesday-at-lca14
 tags:
 - Connect Events
@@ -81,7 +81,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](https://www.linaro.org/documents/download/99f9812a5239175f07479c370f2f148a5314a5f589be6)slides
+[**Download **](/documents/download/99f9812a5239175f07479c370f2f148a5314a5f589be6)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -99,7 +99,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](https://www.linaro.org/documents/download/1f0cb91faa00393731e42fbd58a68443530d0bc728d94)slides
+[**Download **](/documents/download/1f0cb91faa00393731e42fbd58a68443530d0bc728d94)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -117,7 +117,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[** Download **](https://www.linaro.org/documents/download/92b7dcfba6b8cd97dd976b20d20b2a0a5316345bd66d2)slides
+[** Download **](/documents/download/92b7dcfba6b8cd97dd976b20d20b2a0a5316345bd66d2)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -135,7 +135,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/3f93fcbf09ca9e15ea7b2987efaf18f4530f9716323ac) slides
+[**Download**](/documents/download/3f93fcbf09ca9e15ea7b2987efaf18f4530f9716323ac) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -153,7 +153,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/940699956e8235ba29ec5ba0ecfc4cee53163e420f209) slides
+[**Download**](/documents/download/940699956e8235ba29ec5ba0ecfc4cee53163e420f209) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -171,7 +171,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/32a58e6375da6b6a714e5c99d0655ac8531697a2c3b69) slides
+[**Download**](/documents/download/32a58e6375da6b6a714e5c99d0655ac8531697a2c3b69) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -189,7 +189,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/c823427ea5e84565d111baf3aaa29b57530d16ed3fff8) slides
+[**Download**](/documents/download/c823427ea5e84565d111baf3aaa29b57530d16ed3fff8) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -207,7 +207,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/83861a3d1ef8e5b7384d7a2f49887e725310c8bc33ac2) slides
+[**Download**](/documents/download/83861a3d1ef8e5b7384d7a2f49887e725310c8bc33ac2) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -225,7 +225,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/37f5c01aace010048e2491f149a0379753163f0c567ab) slides
+[**Download**](/documents/download/37f5c01aace010048e2491f149a0379753163f0c567ab) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -243,7 +243,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://www.linaro.org/documents/download/aa83e28f8ca3b56d9bc1dfc880ee76d253163fda4ff20) slides
+[**Download**](/documents/download/aa83e28f8ca3b56d9bc1dfc880ee76d253163fda4ff20) slides
 </td>
 
 <td width="204" valign="top" markdown="1">

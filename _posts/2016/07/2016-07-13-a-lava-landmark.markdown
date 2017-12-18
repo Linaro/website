@@ -5,7 +5,7 @@ date: 2016-07-13 10:32:53+00:00
 excerpt: At 18:23 UTC on July 5th, 2016, a landmark was reached in the LAVA Lab. Job
   number 1,000,000 was submitted by the kernel-ci bot to the main production instance.
 layout: post
-link: https://www.linaro.org/blog/a-lava-landmark/
+link: /blog/a-lava-landmark/
 slug: a-lava-landmark
 title: A LAVA Landmark
 wordpress_id: 11157
@@ -49,7 +49,7 @@ What’s so special about V2? That is worthy of a blog post all on it’s own, b
 
 I’ll keep you posted.
 
-To find out more about LAVA, please follow this [link](https://www.linaro.org/initiatives/lava/).
+To find out more about LAVA, please follow this [link](/initiatives/lava/).
 
 Do you want to see how LAVA can help your company?
 

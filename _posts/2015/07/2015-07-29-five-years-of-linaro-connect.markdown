@@ -9,7 +9,7 @@ description: Linaro Connect is celebrating it's fifth anniversary and has evolve
 excerpt: 'Linaro Connect is celebrating it''s fifth anniversary and has evolved into
   a premiere event for those interested or working with Linux on ARM.  '
 layout: post
-link: https://www.linaro.org/blog/five-years-of-linaro-connect/
+link: /blog/five-years-of-linaro-connect/
 slug: five-years-of-linaro-connect
 tags:
 - community

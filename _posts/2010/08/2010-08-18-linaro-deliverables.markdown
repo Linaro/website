@@ -2,7 +2,7 @@
 author: david.rusling
 date: 2010-08-18 19:11:00+00:00
 layout: post
-link: https://www.linaro.org/blog/linaro-deliverables/
+link: /blog/linaro-deliverables/
 slug: linaro-deliverables
 title: Linaro deliverables
 wordpress_id: 4109
@@ -25,4 +25,4 @@ The deliverables at the end of each six month cycle is a baseline release of all
 
 To find out more about the releases or to download tools or code visit
 
-[https://www.linaro.org/developers/](https://www.linaro.org/developers/)
+[/developers/](/developers/)

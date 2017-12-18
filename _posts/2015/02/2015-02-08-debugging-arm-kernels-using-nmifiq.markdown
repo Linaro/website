@@ -13,7 +13,7 @@ excerpt: "Daniel Thompson talks about how Linaro\u2019s work to upstream a littl
   to build a framework to exploit fast  interrupt requests and, as a result, port
   a wide variety of NMI-based  diagnostic techniques to ARM."
 layout: post
-link: https://www.linaro.org/blog/core-dump/debugging-arm-kernels-using-nmifiq/
+link: /blog/core-dump/debugging-arm-kernels-using-nmifiq/
 slug: debugging-arm-kernels-using-nmifiq
 tags:
 - Core Dump
@@ -61,7 +61,7 @@ We regularly [shared the resulting patchset](http://thread.gmane.org/gmane.linux
 # Backtrace on all CPUs**** ****
 
 
-Most [advice on upstreaming](https://www.linaro.org/blog/core-dump/working-upstream/) includes somewhere within it the idea that the way to build new kernel features is one patch at a time, piece by piece, little by little. In the context of NMI based diagnostics the question we must answer is _“what is the smallest change that can do something useful with an NMI?”_**** ****
+Most [advice on upstreaming](/blog/core-dump/working-upstream/) includes somewhere within it the idea that the way to build new kernel features is one patch at a time, piece by piece, little by little. In the context of NMI based diagnostics the question we must answer is _“what is the smallest change that can do something useful with an NMI?”_**** ****
 
 Our answer (admittedly supplied to us in a [post from Thomas Gleixner](http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027/focus=1778905)) was to implement a function called arch_trigger_all_cpu_backtrace().
 
@@ -150,7 +150,7 @@ ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make -j 12
 
 *  *  *
 
-If you don’t have a board capable of running a multi-platform kernel or that cannot boot into secure mode then you might prefer to test using the [TrustZone support in qemu](https://www.linaro.org/blog/core-dump/testing-qemu-arm-trustzone/).
+If you don’t have a board capable of running a multi-platform kernel or that cannot boot into secure mode then you might prefer to test using the [TrustZone support in qemu](/blog/core-dump/testing-qemu-arm-trustzone/).
 
 Booting the kernel as normal will give you access to all of the features discussed above, with the exception of kgdb.
 

@@ -2,7 +2,7 @@
 author: zach.pfeffer
 date: 2012-08-11 01:09:45+00:00
 layout: post
-link: https://www.linaro.org/blog/trying-linaro-jellybean-android-on-tis-panda-board/
+link: /blog/trying-linaro-jellybean-android-on-tis-panda-board/
 slug: trying-linaro-jellybean-android-on-tis-panda-board
 title: Trying Linaro Jellybean Android on TI's Panda board
 wordpress_id: 1826

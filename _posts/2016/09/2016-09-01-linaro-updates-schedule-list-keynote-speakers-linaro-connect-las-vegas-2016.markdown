@@ -5,7 +5,7 @@ categories:
 date: 2016-09-01 20:13:11
 description: "Cambridge, UK: 1\xC2\_September 2016"
 layout: post
-link: https://www.linaro.org/news/linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016/
+link: /news/linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016/
 slug: linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016
 tags:
 - conference
@@ -24,7 +24,7 @@ wordpress_id: 11545
 
 Cambridge, UK: 1 September 2016
 
-[Linaro](https://www.linaro.org/), the not-for-profit engineering organization developing open source software for the ARM architecture, today updated the schedule and full list of keynote speakers for the upcoming [Linaro Connect Las Vegas 2016](http://connect.linaro.org/las16/) (LAS16) that will take place September 26-30th. Join the over 400 already registered engineers to discuss the latest ARM open source software engineering by [registering](https://www.eventbrite.co.uk/e/linaro-connect-las-vegas-2016-las16-tickets-21812925046?mc_cid=885b42f55f&mc_eid=7fd0e8f93e) today. The event will feature several keynote speakers covering topics including open source benefits for IoT and embedded applications, open source robotics, the challenges of open source in a corporate environment, the importance of end to end security and community 3.0. Linaro’s Chief Executive Officer, George Grey, will kick-off the event with announcements about Linaro’s new development directions and demonstrations of ongoing engineering work.
+[Linaro](/), the not-for-profit engineering organization developing open source software for the ARM architecture, today updated the schedule and full list of keynote speakers for the upcoming [Linaro Connect Las Vegas 2016](http://connect.linaro.org/las16/) (LAS16) that will take place September 26-30th. Join the over 400 already registered engineers to discuss the latest ARM open source software engineering by [registering](https://www.eventbrite.co.uk/e/linaro-connect-las-vegas-2016-las16-tickets-21812925046?mc_cid=885b42f55f&mc_eid=7fd0e8f93e) today. The event will feature several keynote speakers covering topics including open source benefits for IoT and embedded applications, open source robotics, the challenges of open source in a corporate environment, the importance of end to end security and community 3.0. Linaro’s Chief Executive Officer, George Grey, will kick-off the event with announcements about Linaro’s new development directions and demonstrations of ongoing engineering work.
 
 The keynote speakers currently scheduled for Linaro Connect LAS16 are:
 
@@ -50,4 +50,4 @@ The theme for LAS16 is _Engineers and Devices Working Together._  Linaro’s le
 **About Linaro**
 Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/) and [http://www.96Boards.org](http://www.96boards.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](/) and [http://www.96Boards.org](http://www.96boards.org/).

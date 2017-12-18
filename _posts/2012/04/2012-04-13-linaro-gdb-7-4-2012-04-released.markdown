@@ -5,7 +5,7 @@ categories:
 date: 2012-04-13 06:24:19
 description: Announcements and release notes for Linaro GDB 7.4 2012.04
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-gdb-7-4-2012-04-released/
+link: /blog/releases-blog/linaro-gdb-7-4-2012-04-released/
 slug: linaro-gdb-7-4-2012-04-released
 tags:
 - Releases

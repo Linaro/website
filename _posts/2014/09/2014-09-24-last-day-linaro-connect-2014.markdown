@@ -7,7 +7,7 @@ description: Overview of what took place on the Friday of Linaro Connect USA 201
   Links to presentations, videos and session descriptions are included in the blog
   as well as photos of the weeks activities
 layout: post
-link: https://www.linaro.org/blog/last-day-linaro-connect-2014/
+link: /blog/last-day-linaro-connect-2014/
 slug: last-day-linaro-connect-2014
 tags:
 - Connect Events

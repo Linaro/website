@@ -5,7 +5,7 @@ categories:
 date: 2012-04-26 21:03:25
 description: Links to all the downloads for the Linaro 12.04 release
 layout: post
-link: https://www.linaro.org/blog/releases-blog/linaro-12-04-released/
+link: /blog/releases-blog/linaro-12-04-released/
 slug: linaro-12-04-released
 tags:
 - Releases
@@ -35,7 +35,7 @@ The Infrastructure, Graphics, Kernel, Multimedia, Toolchain, and Validation team
 
 
 We encourage everybody to use the 12.04 release. The download links for all images and components are available on our downloads page:
-[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
+[/downloads/](/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -68,7 +68,7 @@ Getting involved
 
 
 More information on Linaro can be found on our websites:
-* Homepage: [https://www.linaro.org](https://www.linaro.org)
+* Homepage: []()
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 

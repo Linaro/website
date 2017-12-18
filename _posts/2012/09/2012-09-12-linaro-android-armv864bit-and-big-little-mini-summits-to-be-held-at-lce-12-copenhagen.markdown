@@ -9,7 +9,7 @@ description: "Linaro Connect will host three mini-summits\xE2\x80\x94tracks focu
 keywords: Linaro, Linux on ARM, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
   ARMv8(64bit), mini-summits, events, community, LCE 12 Copenhagen
 layout: post
-link: https://www.linaro.org/blog/community-blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/
+link: /blog/community-blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/
 slug: linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen
 tags:
 - Android
@@ -27,10 +27,10 @@ Linaro Connect (LCE 12) will take place at the [Bella Center](https://booking.be
 
 Those mini-summits—tracks focused on a single strategic topic held on a single day to be held from 8.30am until lunchtime— include an Android, ARMv8 (64-bit) and a big.LITTLE mini-summit. These summits are schedule to be held on the Tuesday, Wednesday and Thursday of Linaro Connect. (The [schedule](http://connect.linaro.org/resources/#schedule) is subject to change and still being finalized, so check the [Linaro Connect website](http://connect.linaro.org/resources/) for updated information.)
 
-Earlier this week, I had the opportunity [to speak](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) with our CTO, [David Rusling](https://www.linaro.org/linux-on-arm/meet-the-team/david-a-rusling/) about the ARMv8 and big.LITTLE mini-summits, our chat [was recorded](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) and you [can watch](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) as David sums up, describes and gives insight as to why these summits are so important.
+Earlier this week, I had the opportunity [to speak](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) with our CTO, [David Rusling](/linux-on-arm/meet-the-team/david-a-rusling/) about the ARMv8 and big.LITTLE mini-summits, our chat [was recorded](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) and you [can watch](http://www.youtube.com/watch?v=sov5c2FSlkc&feature=plcp) as David sums up, describes and gives insight as to why these summits are so important.
 
 [Linaro Connect](http://connect.linaro.org/resources/#welcome), as its name suggests is for "connecting"! This event gives over 200 participants who range from kernel hackers to integration engineers to ARM SoC industry executives to gather for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and more.
 
-If you want to get involved with [Linaro](https://www.linaro.org/), its [members](https://www.linaro.org/members), [partners](/members/) and [community](/leg/) then [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/) to "Connect" with engineers and managers who collaboratively decide on the direction and future of Linux on ARM. This event will also allow you or your organization to [make the world aware](http://connect.linaro.org/resources/#socializing) of your work in the Linux on ARM ecosystem.
+If you want to get involved with [Linaro](/), its [members](/members), [partners](/members/) and [community](/leg/) then [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/) to "Connect" with engineers and managers who collaboratively decide on the direction and future of Linux on ARM. This event will also allow you or your organization to [make the world aware](http://connect.linaro.org/resources/#socializing) of your work in the Linux on ARM ecosystem.
 
 Remember, if you want to have fun while helping shape the future of Linux on ARM then [join us](http://connect.linaro.org/resources/#welcome) at [The Bella Center](http://connect.linaro.org/resources/#location) in Copenhagen, Denmark in October!
