@@ -46,7 +46,7 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 ### Highlights from Linaro Connect Europe 2013 (LCE13)
 
-[Linaro Connect Europe 2013 (LCE13)](http://www.linaro.org/connect-lce13) was took place during the 13.07 release cycle and highlights from that event include:
+[Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org/lce13/) was took place during the 13.07 release cycle and highlights from that event include:
 
 
   * Jon Maddog Hall and the 64-bit porting project

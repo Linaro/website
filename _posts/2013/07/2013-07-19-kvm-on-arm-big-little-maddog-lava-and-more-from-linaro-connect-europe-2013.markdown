@@ -26,7 +26,7 @@ wordpress_id: 2843
 {% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
 
 
-[Linaro Connect Europe 2013 (LCE13)](http://www.linaro.org/connect-lce13) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
+[Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org/lce13/) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
 
 ## Keynotes
 

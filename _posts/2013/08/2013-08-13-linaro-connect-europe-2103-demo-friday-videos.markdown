@@ -16,7 +16,7 @@ title: Linaro Connect Europe 2013 - Demo Friday Videos
 wordpress_id: 2852
 ---
 
-[Demo Friday](http://www.linaro.org/connect-lce13/demo-friday) at the Linaro Connect events is always an educational and inspiring way to wrap-up the fast paced, high energy week of creating the plans which continue to drive the future of Linux on ARM.
+[Demo Friday](http://connect.linaro.org/lce13//demo-friday) at the Linaro Connect events is always an educational and inspiring way to wrap-up the fast paced, high energy week of creating the plans which continue to drive the future of Linux on ARM.
 
 While we didn't get the opportunity to record all the Demos, below are links to the ones we were able to capture.  These include:
 
@@ -61,4 +61,4 @@ Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or
   * [Linaro Connect Europe 2013: People and Personalities of Connect](http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
-For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [http://www.linaro.org/connect-lce13/demo-friday](http://www.linaro.org/connect-lce13/demo-friday)
+For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [http://connect.linaro.org/lce13//demo-friday](http://connect.linaro.org/lce13//demo-friday)
