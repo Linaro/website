@@ -64,7 +64,7 @@ Outside of that, the little avatars represent people or processes submitting job
 
 _[LAVA ](http://lava.readthedocs.org/en/latest/)is an automated testing framework developed by Linaro. It includes a web framework with extensions for scheduling jobs and storing results. The web framework can be extended with custom extensions for storing new types of data, or presenting custom result views. LAVA has a dispatcher component for processing test jobs that can deploy Ubuntu based and Android based Linaro images on supported development boards. Custom extensions can be written to support additional client types, or operations to perform. LAVA has test runners that can provide a consistent interface to various Linux and Android test suites with additional test suites added easily._
 
-_More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, or getting involved with the team can be found on the [Linaro Wiki](https://wiki.linaro.org/Platform/LAVA). The LAVA Team has a [weekly meeting](https://wiki.linaro.org/Platform/LAVA/Meetings), a [mailing list](http://lists.linaro.org/mailman/listinfo/linaro-validation) and members of the team can be found in the #linaro IRC channel on irc.freenode.net._
+_More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, or getting involved with the team can be found on the [Linaro Wiki](https://wiki.linaro.org/Platform/LAVA). The LAVA Team has a [weekly meeting](https://wiki.linaro.org/Platform/LAB), a [mailing list](http://lists.linaro.org/mailman/listinfo/linaro-validation) and members of the team can be found in the #linaro IRC channel on irc.freenode.net._
 
 
 ### About Linaro
