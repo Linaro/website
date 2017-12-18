@@ -52,7 +52,7 @@ The latest solution is accessible now to our members who are PlayReady Licensees
 The next stage that LHG is working on is the implementation of a secure video path that uses a secure buffer memory allocation framework in TrustZone for the media pipeline. Stay tuned for the latest updates in the LHG security solution development.
 	
   1. [https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx](https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx)
-  2. [http://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](http://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
+  2. [https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](https://www.linaro.org/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
   3. [http://globalplatform.org/specificationsdevice.asp](http://globalplatform.org/specificationsdevice.asp)
   4. [https://github.com/kuscsik/linaro-cdmi](https://github.com/kuscsik/linaro-cdmi)
 

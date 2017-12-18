@@ -15,7 +15,7 @@ wordpress_id: 2480
 
 > If you can dream it, you can do it. ~ Walt Disney
 
-## The Linaro 13.02 release is now available for [download](http://www.linaro.org/downloads/)!
+## The Linaro 13.02 release is now available for [download](https://www.linaro.org/downloads/)!
 
 
 The Linaro 13.02 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this release cycle. The 13.02 cycle shows the reality of a dream and desire to unify, improve and build a better more effective future for Linux on ARM. Linux on ARM is not a dream, but together--Linaro, its Members, Groups, and community--continue to make the visions of Linux on ARM a reality.
@@ -38,7 +38,7 @@ The Linaro Toolchain Team released Linaro GCC 4.7-2013.02-01 based off GCC 4.7.2
 ## Announcements
 
 
-More exciting news for the 13.02 cycle in addition to all the work done for this release came with the [announcement](http://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/en/) by George Grey, Linaro CEO about the formation of a new Linaro engineering group--The Linaro Networking Group (LNG).  [LNG](http://www.linaro.org/linaro-blog/2013/02/20/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/) is a group dedicated to accelerating Linux networking on ARM. Membership to this group is based on a new Linaro membership category which will initially include ARM, equipment OEMs, silicon partners and distribution partners to leverage and extend Linaro’s existing shared engineering, legal and open source collaboration resources and infrastructure. Discussion of LNG's focus areas and the formal kick off for the group will happen during Linaro Connect Asia 2013 on 4-8 March in Hong Kong.
+More exciting news for the 13.02 cycle in addition to all the work done for this release came with the [announcement](https://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/en/) by George Grey, Linaro CEO about the formation of a new Linaro engineering group--The Linaro Networking Group (LNG).  [LNG](https://www.linaro.org/linaro-blog/2013/02/20/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/) is a group dedicated to accelerating Linux networking on ARM. Membership to this group is based on a new Linaro membership category which will initially include ARM, equipment OEMs, silicon partners and distribution partners to leverage and extend Linaro’s existing shared engineering, legal and open source collaboration resources and infrastructure. Discussion of LNG's focus areas and the formal kick off for the group will happen during Linaro Connect Asia 2013 on 4-8 March in Hong Kong.
 
 
 ## Linaro Connect
@@ -52,7 +52,7 @@ Registration for [LCA-13 in Hong Kong](http://connect.linaro.org) is now closed,
 
 We encourage everybody to use the 13.02 release. The download links for all images and components are available on our downloads page:
 
-[http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -79,7 +79,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 **============**
 More information on Linaro can be found on our websites:
 
-* Homepage: [http://www.linaro.org](http://www.linaro.org/)
+* Homepage: [https://www.linaro.org](https://www.linaro.org/)
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:

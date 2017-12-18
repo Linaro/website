@@ -29,10 +29,10 @@ The Linaro Enterprise Group (LEG) has released Linaro UEFI 2013.01. The highligh
 
 The Power Management Group hosted a big.LITTLE sprint in Cambridge led by Amit Kucheria. A meeting of minds between ARM, Linaro and the community succeeded in achieving enhanced focus and a more defined roadmap for the big.LITTLE story. Topics included clearly defined benchmarking to determine the effectiveness of the platform, enhanced verification to augment the traditional kernel power/performance testing, and a well defined roadmap for big.LITTLE on Android. In related big.LITTLE MP development, version 14 of the big.LITTLE MP tree has been released [http://lists.linaro.org/pipermail/linaro-dev/2013-January/015037.html].
 
-On the social front Linaro is looking forward to [Linaro Connect Asia 2013](http://www.linaro.org/connect/) in Hong Kong. Once again a [Demo Friday event](http://www.linaro.org/connect/demo-friday) will showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](https://www.linaro.org/connect/demo-friday) will showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 We encourage everybody to use the 13.01 release. The download links for all images and components are available on our downloads page:
-[http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 [http://wiki.linaro.org/Cycles/1301/Release#Release_Information](http://wiki.linaro.org/Cycles/1301/Release#Release_Information)
@@ -60,7 +60,7 @@ Getting involved
 * * *
 
 More information on Linaro can be found on our websites:
-* Homepage: [http://www.linaro.org](http://www.linaro.org)
+* Homepage: [https://www.linaro.org](https://www.linaro.org)
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:

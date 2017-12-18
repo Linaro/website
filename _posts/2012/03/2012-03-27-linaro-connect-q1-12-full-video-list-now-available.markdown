@@ -120,7 +120,7 @@ If you think this range of topics, speakers, interviewees and demos are fantasti
 > costly low level fragmentation.
 
 
-More information about Linaro can be found at: [http://www.linaro.org](http://www.linaro.org/about/)
+More information about Linaro can be found at: [https://www.linaro.org](https://www.linaro.org/about/)
 
 **About Linaro Connect**
 

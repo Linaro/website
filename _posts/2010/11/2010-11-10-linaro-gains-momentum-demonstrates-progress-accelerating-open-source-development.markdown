@@ -70,7 +70,7 @@ In the second cycle Linaro will build on this momentum by:
   * Announcing a new member of the TSC
 
 
-Companies interested in joining this collaborative venture are invited to discuss membership with the Linaro executive team. For more information on the company or to download software and tools, visit [www.linaro.org](http://www.linaro.org/).
+Companies interested in joining this collaborative venture are invited to discuss membership with the Linaro executive team. For more information on the company or to download software and tools, visit [www.linaro.org](https://www.linaro.org/).
 
 ### Background
 

@@ -15,7 +15,7 @@ tags:
 
 Linaro Connect Bangkok (BKK16) was our 19th event to date and our first in Thailand. It was a great event at a beautiful venue. Our Thai hosts at the Centara Grand were wonderfully welcoming and helped to make BKK16 an event to remember.
 
-On Monday 7 March, George Grey, CEO of Linaro, started proceedings with his now traditional [welcome keynote](https://www.youtube.com/watch?v=HpvZ2HwL4zI). He made several announcements including the [ARM Based Developer Cloud](http://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/) and [96Boards HiKey in AOSP](http://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/).
+On Monday 7 March, George Grey, CEO of Linaro, started proceedings with his now traditional [welcome keynote](https://www.youtube.com/watch?v=HpvZ2HwL4zI). He made several announcements including the [ARM Based Developer Cloud](https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/) and [96Boards HiKey in AOSP](https://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/).
 
 {% include media.html media_url="https://www.youtube.com/watch?v=HpvZ2HwL4zI" %}
 

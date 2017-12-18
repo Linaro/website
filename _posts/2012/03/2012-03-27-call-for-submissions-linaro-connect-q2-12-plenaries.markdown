@@ -52,7 +52,7 @@ Linaro is a not-for-profit engineering organization with over 120 engineers work
 
 To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
-More information about Linaro can be found at: [http://www.linaro.org](http://www.linaro.org/about/)
+More information about Linaro can be found at: [https://www.linaro.org](https://www.linaro.org/about/)
 
 **About Linaro Connect**
 

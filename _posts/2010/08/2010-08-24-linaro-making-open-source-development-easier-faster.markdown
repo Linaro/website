@@ -15,4 +15,4 @@ CAMBRIDGE, UK - 24 AUG 2010
 
 Learn how Linaro is continuing to make Open Source development easier and faster.  [Download the latest update](/developers/).
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](https://www.linaro.org/)

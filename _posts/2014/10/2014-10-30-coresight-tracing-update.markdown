@@ -25,7 +25,7 @@ wordpress_id: 7171
 
 # Coresight: Tracing the Update
 
-A lot of exciting things have happened in the world of ARM® Coresight™ [since our first blog post](http://www.linaro.org/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/) a few months ago. Good progress was achieved on several fronts and we thought an update was in order to keep readers informed on the latest developments.
+A lot of exciting things have happened in the world of ARM® Coresight™ [since our first blog post](https://www.linaro.org/blog/core-dump/coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs/) a few months ago. Good progress was achieved on several fronts and we thought an update was in order to keep readers informed on the latest developments.
 
 As of this writing, the [8th](https://lkml.org/lkml/2014/10/20/548) version of the “Coresight framework and drivers” patchset has been posted for review. The most important modification to the framework since our first write up was to revert to the creation of a new “Coresight” bus where discovered IP blocks are aggregated. As such the configuration blocks for each component were taken out of debugfs and added back to sysfs, following the Linux kernel’s bus model and the original implementation.
 

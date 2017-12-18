@@ -48,7 +48,7 @@ Most of Linaro's working groups now have approved public roadmaps so it is possi
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [https://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:
@@ -59,7 +59,7 @@ We encourage everybody to use the 13.08 release. The download links for all imag
 
 
 
-  * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -113,7 +113,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
+  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
 
 
 
@@ -126,7 +126,7 @@ More information on Linaro can be found on our websites:
 
 
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

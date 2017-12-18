@@ -42,7 +42,7 @@ We encourage everybody to use the 14.06 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 **USING THE ANDROID-BASED IMAGES**
 
@@ -69,14 +69,14 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
+  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
 
 
 **GETTING INVOLVED**
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 
@@ -106,4 +106,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
-Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [http://www.linaro.org/connect/lcu/lcu14/](http://www.linaro.org/connect/lcu/lcu14/)
+Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [https://www.linaro.org/connect/lcu/lcu14/](https://www.linaro.org/connect/lcu/lcu14/)

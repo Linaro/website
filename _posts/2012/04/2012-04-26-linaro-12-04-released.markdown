@@ -35,7 +35,7 @@ The Infrastructure, Graphics, Kernel, Multimedia, Toolchain, and Validation team
 
 
 We encourage everybody to use the 12.04 release. The download links for all images and components are available on our downloads page:
-[http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -68,7 +68,7 @@ Getting involved
 
 
 More information on Linaro can be found on our websites:
-* Homepage: [http://www.linaro.org](http://www.linaro.org)
+* Homepage: [https://www.linaro.org](https://www.linaro.org)
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
 
 

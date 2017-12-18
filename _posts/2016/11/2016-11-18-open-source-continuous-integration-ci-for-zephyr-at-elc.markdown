@@ -63,7 +63,7 @@ Incidentally, the entire build and test infrastructure was built with scalabilit
 
 For more information on Linaro LITE please check out: 
 
-[www.linaro.org/groups/lite/](http://www.linaro.org/groups/lite/)
+[www.linaro.org/groups/lite/](https://www.linaro.org/groups/lite/)
 
 
 * * *
@@ -83,7 +83,7 @@ Since I was presenting a demo that was based on Zephyr, which is a real-time ope
 
 As a result of the decision to create this group, Linaro joined the Linux Foundation Zephyr Project as a Platinum member. The LITE group within Linaro will use Zephyr as a neutral industry RTOS platform as a place to land its collaborative engineering output.
 
-For more information on Linaro please see [www.linaro.org](http://www.linaro.org), and for the Zephyr project, go to [www.zephyrproject.org/](http://www.zephyrproject.org/)
+For more information on Linaro please see [www.linaro.org](https://www.linaro.org), and for the Zephyr project, go to [www.zephyrproject.org/](http://www.zephyrproject.org/)
 
 
 More photos at: [https://drive.google.com/open?id=0B1ntKia_78FZRWhNMjRzcUpTWHM](https://drive.google.com/open?id=0B1ntKia_78FZRWhNMjRzcUpTWHM)

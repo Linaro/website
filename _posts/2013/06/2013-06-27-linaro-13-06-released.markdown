@@ -35,13 +35,13 @@ The QA Services team notes that is has successfully fully automated big.LITTLE b
 
 For more information and a detailed list of highlights for the 13.06 release, please see the [release wiki](https://wiki.linaro.org/Cycles/1306/Release#Release_Information).
 
-[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](http://www.linaro.org/connect/schedule).
+[Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) which is being held at the Burlington Hotel in Dublin Ireland on 8-12 July is just over a week away.  We look forward to seeing you there and for those who may not be able to make but would still like to attend we will have the opportunity for you to [participate remotely](https://www.linaro.org/connect/schedule).
 
 ### USING THIS RELEASE:
 
 We encourage everybody to use the 13.05 release. The download links for all images and components are available on our downloads page:
 
-[http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+[https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -69,13 +69,13 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-[http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
+[https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
 
 ### GETTING INVOLVED
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [http://www.linaro.org](http://www.linaro.org/)
+* Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
 

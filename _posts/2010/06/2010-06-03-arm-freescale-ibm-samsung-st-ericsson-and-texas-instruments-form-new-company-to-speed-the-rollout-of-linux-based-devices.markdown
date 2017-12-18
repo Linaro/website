@@ -89,4 +89,4 @@ Linaro is a growing organization with additional partners expected to join, thus
 
 "The Linux Foundation is happy to see ARM and Linaro increase their investment in Linux," said Jim Zemlin, executive director of The Linux Foundation. "We are supportive of any investment that contributes to the mainline kernel and the many upstream open source projects that make up Linux based operating systems today."
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit[www.linaro.org](https://www.linaro.org/)

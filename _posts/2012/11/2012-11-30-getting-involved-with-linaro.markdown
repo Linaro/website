@@ -20,9 +20,9 @@ wordpress_id: 2054
 ## Getting Started
 
 
-Whether you are an individual or an employee of a organization it is easy to [get involved with Linaro](http://www.linaro.org/engineering/getting-started#tab1).  If you or your organization is new to open source, want to know about running Linaro builds with or without your own hardware, using the Linaro Toolchain or the Linaro Linux Kernel we'll show you how to get started.
+Whether you are an individual or an employee of a organization it is easy to [get involved with Linaro](https://www.linaro.org/engineering/getting-started#tab1).  If you or your organization is new to open source, want to know about running Linaro builds with or without your own hardware, using the Linaro Toolchain or the Linaro Linux Kernel we'll show you how to get started.
 
-You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](http://www.linaro.org/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](/contact/mailing-list/) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
+You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](https://www.linaro.org/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](/contact/mailing-list/) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
 
 Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://plus.google.com/+LinaroOnAir) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
 
@@ -42,7 +42,7 @@ The primary goals of the Linaro Android Team is to develop and release tested [
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/android)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/android)
 
 
 More information about the Linaro Android Team can be found at: [https://wiki.linaro.org/Platform/Android](https://wiki.linaro.org/Platform/Android)
@@ -83,7 +83,7 @@ The goal of the LAVA team is to maintain and develop automated testing tools to 
   * IRC Channel: #linaro-lava on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/lava)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/lava)
 
 
 More information about the LAVA Team can be found at: [https://wiki.linaro.org/Platform/LAVA](https://wiki.linaro.org/Platform/LAVA)
@@ -102,7 +102,7 @@ The scope of the Infrastructure Team is to maintain and develop archive manageme
   * IRC Channel: #linaro-infrastructure and #linaro on irc.linaro.org or  irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/infrastructure)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/infrastructure)
 
 
 More information about the Linaro Infrastructure Team can be found at: [https://wiki.linaro.org/Infrastructure](https://wiki.linaro.org/Infrastructure)
@@ -122,7 +122,7 @@ The Kernel Consolidation Working Group targets the Linux kernel. Its goals are t
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/kernel)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/kernel)
 
 
 More information about the Linaro Kernel Team can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel](https://wiki.linaro.org/WorkingGroups/Kernel)
@@ -142,7 +142,7 @@ The toolchain working group deals with all aspects of system-level tools - the c
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/toolchain)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/toolchain)
 
 
 More information about the Linaro Toolchain Team can be found at: [https://wiki.linaro.org/WorkingGroups/ToolChain](https://wiki.linaro.org/WorkingGroups/ToolChain)
@@ -162,7 +162,7 @@ The Power Management WG will look at the entire software stack (kernel, middlewa
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/power-management)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/power-management)
 
 
 More information about the Linaro Power Management Team can be found at: [https://wiki.linaro.org/WorkingGroups/PowerManagement](https://wiki.linaro.org/WorkingGroups/PowerManagement)
@@ -182,7 +182,7 @@ The Graphics Working Group is set to improve the Linux graphics stack for curren
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/graphics)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/graphics)
 
 
 More information about the Linaro Graphics Team can be found at: [https://wiki.linaro.org/WorkingGroups/Middleware/Graphics](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics)
@@ -199,7 +199,7 @@ More information about the Linaro Graphics Team can be found at: [https://wiki.
   * IRC Channel: #linaro-enterprise on irc.linaro.org or  irc.freenode.net.
 
 
-  * [Team Members](http://www.linaro.org/linux-on-arm/meet-the-team/linaro-enterprise-group-leg)
+  * [Team Members](https://www.linaro.org/linux-on-arm/meet-the-team/linaro-enterprise-group-leg)
 
 
 More information about the Linaro Enterprise Group (LEG)  can be found at: [https://wiki.linaro.org/LEG/](https://wiki.linaro.org/LEG/)
@@ -212,7 +212,7 @@ More information about the Linaro Enterprise Group (LEG)  can be found at: [ht
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
 
-#### To find out more, please visit [http://www.linaro.org](http://www.linaro.org/).
+#### To find out more, please visit [https://www.linaro.org](https://www.linaro.org/).
 About Linaro Connect
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._

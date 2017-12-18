@@ -32,7 +32,7 @@ Linaro is also offering cross-toolchains for Linux and Windows hosts in two flav
 
 Detailed instructions on downloading, running, and rebuilding the images and on using the toolchains are at:
 
-[http://www.linaro.org/engineering/armv8/](http://www.linaro.org/engineering/armv8/)
+[https://www.linaro.org/engineering/armv8/](https://www.linaro.org/engineering/armv8/)
 
 ## Bugs
 

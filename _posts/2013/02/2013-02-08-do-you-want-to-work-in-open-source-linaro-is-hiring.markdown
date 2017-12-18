@@ -46,13 +46,13 @@ Want to apply for one of these roles? Then email your information to[ careers@li
 ## Other career opportunities at Linaro
 
 
-All available career opportunities can be found at:[ http://www.linaro.org/careers/](http://www.linaro.org/careers/)
+All available career opportunities can be found at:[ https://www.linaro.org/careers/](https://www.linaro.org/careers/)
 
 _**Follow Linaro**_
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](http://www.linaro.org/careers/)
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](https://www.linaro.org/careers/)
 
 _**About Linaro**_
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
-_To find out more, please visit[ http://www.linaro.org](http://www.linaro.org/)._
+_To find out more, please visit[ https://www.linaro.org](https://www.linaro.org/)._

@@ -61,7 +61,7 @@ Discussions around those changes are deeply technical and require a constant dia
 
 Last but not least, Linaro is playing a role in preventing fragmentation of the ARM ecosystem by gathering EAS related requirements, and in some cases the implementation, that its members have produced internally and making a coherent proposal to the Linux community. Many EAS concepts are generally simple to understand but very complex to implement in a generic way in a kernel that serves the need of portable devices as well as big supercomputers, with various system types in between. Making sure that everyone's interest is well served is a challenge for sure, but future savings in maintenance costs are well worth it.
 
-Note: _This article was first published at Linaro’s Executive Member Update Q3’2014 and reproduced here. That was before Linux Plumbers 2014. Amit’s article, posted in this blog ([link](http://www.linaro.org/blog/core-dump/energy-aware-scheduling-eas-project/)) represent an update of this article._
+Note: _This article was first published at Linaro’s Executive Member Update Q3’2014 and reproduced here. That was before Linux Plumbers 2014. Amit’s article, posted in this blog ([link](https://www.linaro.org/blog/core-dump/energy-aware-scheduling-eas-project/)) represent an update of this article._
 
 References:
 

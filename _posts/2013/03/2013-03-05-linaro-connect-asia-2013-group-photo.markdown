@@ -20,4 +20,4 @@ wordpress_id: 2540
 
 More information about Linaro Connect can be found at: [Connect](http://connect.linaro.org)
 
-Find out you can participate remotely at:[ http://www.linaro.org/connect/remote-participation](http://www.linaro.org/connect/remote-participation)
+Find out you can participate remotely at:[ https://www.linaro.org/connect/remote-participation](https://www.linaro.org/connect/remote-participation)

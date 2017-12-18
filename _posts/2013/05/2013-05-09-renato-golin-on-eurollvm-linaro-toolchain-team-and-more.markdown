@@ -18,7 +18,7 @@ wordpress_id: 2709
 
 {% include image.html name="Renato-Small.jpg" alt="Renato Golin, Linaro Toolchain Engineer" class="small-inline" %}
 
-Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](http://www.linaro.org/linux-on-arm/meet-the-team/renato-golin/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about [EuroLLVM](http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
+Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](https://www.linaro.org/linux-on-arm/meet-the-team/renato-golin/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about [EuroLLVM](http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
 
 **Question: What is EuroLLVM and what was your role in this event?**
 

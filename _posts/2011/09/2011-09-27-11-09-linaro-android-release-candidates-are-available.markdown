@@ -73,7 +73,7 @@ If you're really adventurous, you can play a Linaro Android QA engineer and fill
 Happy Androiding!
 
 ...and to build all these builds from source:
-[http://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/](http://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/)
+[https://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/](https://www.linaro.org/linaro-blog/2011/09/15/%EF%BB%BFbuilding-a-linaro-android-build-from-source/)
 
 ...and to start contributing:
 [http://review.android.git.linaro.org/](http://review.android.git.linaro.org/)

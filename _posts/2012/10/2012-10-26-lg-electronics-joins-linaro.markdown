@@ -31,7 +31,7 @@ LG Electronics, Inc. (KSE: 066570.KS) is a global leader and technology innovato
 
 Linaro is the place where engineers from the world's leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best soft-ware foundations to everyone, and to reduce non-differentiating and costly low level frag-mentation.
 
-To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. To find out more, please visit http://www.linaro.org.
+To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. To find out more, please visit https://www.linaro.org.
 
 **Media Contacts:**
 

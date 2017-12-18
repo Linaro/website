@@ -63,10 +63,10 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 Other highlights from LCE13 include:
 
-  * Linaro Connect Europe 2013: Keynote Speaker Videos - [http://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](http://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * Linaro Connect Europe 2013: Keynote Speaker Videos - [https://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](https://www.linaro.org/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * Linaro Connect Europe 2013: People and Personalities of Connect - [http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](http://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * Linaro Connect Europe 2013: People and Personalities of Connect - [https://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](https://www.linaro.org/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
   * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
@@ -77,17 +77,17 @@ Other highlights from LCE13 include:
 
 
 
-For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [http://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](http://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [https://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](https://www.linaro.org/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://www.linaro.org/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://connect.linaro.org/lcu13/](http://connect.linaro.org/lcu13/)
 
 ### USING THIS RELEASE:
 
 We encourage everybody to use the 13.07 release. The download links for all images and components are available on our downloads page:
 
-  * [http://www.linaro.org/downloads/](http://www.linaro.org/downloads/)
+  * [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -121,13 +121,13 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [http://www.linaro.org/engineering/armv8](http://www.linaro.org/engineering/armv8)
+  * [https://www.linaro.org/engineering/armv8](https://www.linaro.org/engineering/armv8)
 
 ### GETTING INVOLVED
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: [http://www.linaro.org](http://www.linaro.org/)
+  * Homepage: [https://www.linaro.org](https://www.linaro.org/)
 
 
   * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)

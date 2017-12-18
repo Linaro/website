@@ -25,9 +25,9 @@ FXI Technologies, Inc. [announced](http://www.cstick.com/showthread.php?25-Fxi-l
 
 FXI Technologies announced the launch of [cstick.com](http://www.cstick.com/)—the Cotton Candy developer site—in the same press release.
 
-Linaro community specialist, Amber Graner, asked FXI Technologies  founder and CEO, Borgar Ljosland what part [Linaro](http://www.linaro.org/) played this successful launch, Ljosland told her, "Linaro is important to us both from a time-to-market perspective and from a quality perspective. We are basing both our [Ubuntu](https://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation) and [Android](https://android-build.linaro.org/builds/~linaro-android/origen-ics-gcc46-samsunglt-stable-blob-12.02-release/) [releases on Linaro](http://www.linaro.org/downloads/1202). We are grateful for all of the support we have received and look forward to a fruitful and exciting collaboration in the future."
+Linaro community specialist, Amber Graner, asked FXI Technologies  founder and CEO, Borgar Ljosland what part [Linaro](https://www.linaro.org/) played this successful launch, Ljosland told her, "Linaro is important to us both from a time-to-market perspective and from a quality perspective. We are basing both our [Ubuntu](https://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation) and [Android](https://android-build.linaro.org/builds/~linaro-android/origen-ics-gcc46-samsunglt-stable-blob-12.02-release/) [releases on Linaro](https://www.linaro.org/downloads/1202). We are grateful for all of the support we have received and look forward to a fruitful and exciting collaboration in the future."
 
-[LEBs (Linaro Evaluations Builds)](http://www.linaro.org/downloads/1202) for the [Samsung Origen](http://www.origenboard.org/About_us) allowed FXI Technologies  to boot Cotton Candy immediately and start working on differentiation from day one. Without Linaro, FXI Technologies would still be bringing up either Android or Ubuntu, with Linaro they have both, today, and are in the market. That is the power of the Linaro open-collaboration power-house.
+[LEBs (Linaro Evaluations Builds)](https://www.linaro.org/downloads/1202) for the [Samsung Origen](http://www.origenboard.org/About_us) allowed FXI Technologies  to boot Cotton Candy immediately and start working on differentiation from day one. Without Linaro, FXI Technologies would still be bringing up either Android or Ubuntu, with Linaro they have both, today, and are in the market. That is the power of the Linaro open-collaboration power-house.
 
 {% include image.html name="fxi-blog-image.jpg" alt="Cotton Candy FXI" class="small-inline right" %}
 
@@ -43,4 +43,4 @@ FXI Technologies ([www.fxitech.com](http://www.fxitech.com/)) is a Norway-based 
 
 **About Linaro**
 
-Linaro([www.linaro.org](http://www.linaro.org/about/)) is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
+Linaro([www.linaro.org](https://www.linaro.org/about/)) is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.

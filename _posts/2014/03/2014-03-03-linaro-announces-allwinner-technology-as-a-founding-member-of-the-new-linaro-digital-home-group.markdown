@@ -34,7 +34,7 @@ About Linaro
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top three company contributors to recent Linux kernels*.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org/).
 
 \*LWN lists Linaro as the number 2 company contributor to kernels 3.12 and 3.13 and #3 to kernels 3.10 and 3.11:  [http://lwn.net/Articles/579081/](http://lwn.net/Articles/579081/),[http://lwn.net/Articles/570483/](http://lwn.net/Articles/570483/),[http://lwn.net/Articles/563977/](http://lwn.net/Articles/563977/),[http://lwn.net/Articles/555968/](http://lwn.net/Articles/555968/).
 
@@ -48,4 +48,4 @@ With its focus on cutting edge UHD video processing, high performance multi-core
 [_www.allwinnertech.com _](http://www.allwinnertech.com/)_
 Follow us on Twitter @Allwinnertech_
 
-For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](http://www.linaro.org/)
+For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](https://www.linaro.org/)
