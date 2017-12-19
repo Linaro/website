@@ -51,5 +51,7 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
 </div>
 <div class="col-sm-8">
 
+{% include linaro-contact-form.html %}
+
 </div>
 </div>
