@@ -143,7 +143,6 @@ For more info contact marketing@linaro.org
 |16:30|16:40|Closing Note|David Rusling CTO, Linaro|
 |16:40|17:00|Breakdown/clean up|
 
-
 </div>
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="accomodation" markdown="1">
 # Accommodation:
