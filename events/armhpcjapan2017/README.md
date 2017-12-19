@@ -13,6 +13,33 @@ css-include: main-arm-hpc
 
 <div class="row arm-hpc-row main">
 <div class="container">
+
+
+<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
+  <li role="presentation" class="active">
+    <a href="#welcome" role="tab" data-toggle="tab">
+        Welcome
+    </a>
+  </li>
+
+  <li role="presentation">
+    <a href="#schedule" role="tab" data-toggle="tab">
+        Schedule
+    </a>
+  </li>
+
+  <li role="presentation">
+    <a href="#accomodation" role="tab" data-toggle="tab">
+        Accomodation
+    </a>
+  </li>
+</ul>
+
+<div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
+
+<div role="tabpanel" class="tab-pane tab-pane-legal active" id="welcome">
+
+
 <div class="col-sm-6" markdown="1">
 
 **ARM HPC Workshop** _by RIKEN AICS and Linaro on 12-13th Dec 2017 – [Room 5A on 5F, Akihabara Hall, Tokyo](http://www.akibahall.jp/data/access_eng.html)._
@@ -47,29 +74,100 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 {% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
 
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
-
-
 </div>
+
 <div class="col-sm-6">
 
-<iframe src="//eventbrite.co.uk/tickets-external?eid=39039623565&amp;ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+<div class="alert alert-arm-hpc" role="alert" markdown="1">
+
+**Tickets are sold out for 2017 ARM HPC Workshop in Japan.**
+
+For more info contact marketing@linaro.org
+
+</div>  
+
+<hr>
+
+{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
 
 <hr />
 
-<div class="cognito">
-    <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-    <script>
-    Cognito.load("forms", { id: "8", entry: {
-        "PageUrl": "{{site.url}}{{page.url}}" ,
-        "RedirectUrl" : "{{site.url}}/thank-you/?ref={{page.url}}"
-    }});
-    </script>
 </div>
 
+
 </div>
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule" markdown="1">
+## Day 1
+
+{:.table-responsive}
+|Start Time|End Time|Title|Reserved for|
+|----------|--------|-----|------------|
+|09:00||Room Opens for Setup||
+|09:15|09:30|Welcome Note|David Rusling CTO, Linaro|
+|09:30|09:55|[Introduction of Post-K development](/blog/arm-hpc-workshop-sessions-and-speakers/#1)|Yutaka Ishikawa (RIKEN)|
+|10:00|10:25|[Post-K: Building the Arm HPC Ecosystem](/blog/arm-hpc-workshop-sessions-and-speakers/#2)|Kouichi Hirai (Fujitsu)|
+|10:30|10:55|[Arm tools and roadmap for SVE compiler support](/blog/arm-hpc-workshop-sessions-and-speakers/#3)|Richard Sandiford, Florian Hahn (Arm)|
+|11:00|11:20|AM Coffee Break|
+|11:30|11:55|[HCQC : HPC Compiler Quality Checker](/blog/arm-hpc-workshop-sessions-and-speakers/#4)|Masaki Arai (Fujitsu)|
+|12:00|12:25|[State of the Scalasca Toolset](/blog/arm-hpc-workshop-sessions-and-speakers/#5)|Itaru Kitayama (RIKEN)|
+|12:30|13:20|Lunch|
+|13:30|13:55|[Porting and Optimization of Numerical Libraries for Arm SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#6)|Toshiyuki Imamura (RIKEN), Tetsuzou Usui (Fujitsu)|
+|14:00|14:25|[An Evaluation of EasyBuild for Open Source Software Deployment](/blog/arm-hpc-workshop-sessions-and-speakers/#7)|Takahiro Ogura (RIKEN)|
+|14:30|14:55|[An Overview of the IHK/McKernel Multi-kernel Operating System](/blog/arm-hpc-workshop-sessions-and-speakers/#8)|Balazs Gerofi (RIKEN)|
+|15:00|15:20|PM Coffee Break|
+|15:30|15:55|[Compilation of COSMO for GPU using LLVM](/blog/arm-hpc-workshop-sessions-and-speakers/#9)|Tobias Grosser (Scalable Parallel Computing Laboratory (SPCL))|
+|16:00|16:25|[Involvement in OpenHPC](/blog/arm-hpc-workshop-sessions-and-speakers/#10)|Takeharu Kato (Fujitsu)|
+|16:30|17:00|Breakdown/clean up|
+|18:00|Dinner|Sponsored by Fujitsu and Linaro|
+
+## Day 2
+
+{:.table-responsive}
+|Start Time|End Time|Title|Reserved for|
+|----------|--------|-----|------------|
+|09:00||Room Opens for Setup||
+|09:15|09:30|Welcome Note|Kanta Vekaria, Head of HPC, Linaro|
+|09:30|10:20|[Cyber-physical System and Industrial Applications of Large-Scale Graph Analysis and Optimization Problem](/blog/arm-hpc-workshop-sessions-and-speakers/#11)|Katsuki Fujisawa, (IMI) of Kyushu University|
+|10:30|10:55|[New Process/Thread Runtime](/blog/arm-hpc-workshop-sessions-and-speakers/#12)|Atsushi Hori (RIKEN)|
+|11:00|11:20|AM Coffee Break|
+|11:30|11:55|[An evaluation of LLVM compiler for SVE with fairly complicated loops](/blog/arm-hpc-workshop-sessions-and-speakers/#13)|Hiroshi Nakashima (Kyoto Univ.)|
+|12:00|12:25|[Oopstreaming](/blog/arm-hpc-workshop-sessions-and-speakers/#14)|Renato Golin (Linaro)|
+|12:30|13:20|Lunch|
+|13:30||[Programming Languages & Tools for Higher Performance & Productivity](/blog/arm-hpc-workshop-sessions-and-speakers/#15)|Hitoshi Murai (RIKEN)|
+|||[Advantages of the Compiler for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#16)|Shun Kamatsuka (Fujitsu)|
+||14:25|[Overview of Programming Assistance Tools for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#17)|Tomotake Nakamura (Fujitsu)|
+|14:30|14:55|[The perfect mix: SUSE’s HPC, ARM and Containers](/blog/arm-hpc-workshop-sessions-and-speakers/#18)|Vojtech Pavlik (Suse)|
+|15:00|15:20|PM Coffee Break|
+|15:30|15:55|[OpenMP Extension for Explicit SIMD Programming using ARM SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#19)|Jinpil Lee (RIKEN)|
+|16:00|16:25|[Performance evaluation with Arm HPC tools for SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#20)|Miwako Tsuji (RIKEN), Yuetsu Kodama (RIKEN)|
+|16:30|16:40|Closing Note|David Rusling CTO, Linaro|
+|16:40|17:00|Breakdown/clean up|
+
+
 </div>
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="accomodation" markdown="1">
+# Accommodation:
+
+* * *
+
+If you are travelling and need accommodation, here is a list of local hotels:
+
+*   [Hotel Ryumeikan Ochanomizu Honten](https://www.tripadvisor.com/Hotel_Review-g1066443-d320598-Reviews-Hotel_Ryumeikan_Ochanomizu_Honten-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html)
+*   [Hotel Metropolitan Tokyo Marunouchi](https://www.tripadvisor.com/Hotel_Review-g1066443-d653033-Reviews-Hotel_Metropolitan_Tokyo_Marunouchi-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html)
+*   [Hotel Niwa Tokyo](https://www.tripadvisor.com/Hotel_Review-g1066443-d1475716-Reviews-Hotel_Niwa_Tokyo-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html)
+*   [Akihabara Washington Hotel](https://www.tripadvisor.com/Hotel_Review-g1066443-d598313-Reviews-Akihabara_Washington_Hotel-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html)
+
+**Thanks to our sponsors**
+
+{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
+
 </div>
+
+</div><!--End Tab Content-->
+
+
+</div><!--End Container-->
+</div><!--End Row-->
 
 <div class="row no-padding arm-hpc-row bottom">
     <div class="container">
