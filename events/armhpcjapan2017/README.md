@@ -89,7 +89,7 @@ For more info contact marketing@linaro.org
 <hr>
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
-
+    
 <hr />
 
 </div>
@@ -99,7 +99,7 @@ For more info contact marketing@linaro.org
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule" markdown="1">
 ## Day 1
 
-{:.table-responsive}
+{:.table.responsive-table}
 |Start Time|End Time|Title|Reserved for|
 |----------|--------|-----|------------|
 |09:00||Room Opens for Setup||
@@ -122,7 +122,7 @@ For more info contact marketing@linaro.org
 
 ## Day 2
 
-{:.table-responsive}
+{:.table.responsive-table}
 |Start Time|End Time|Title|Reserved for|
 |----------|--------|-----|------------|
 |09:00||Room Opens for Setup||
@@ -143,6 +143,9 @@ For more info contact marketing@linaro.org
 |16:30|16:40|Closing Note|David Rusling CTO, Linaro|
 |16:40|17:00|Breakdown/clean up|
 
+**Thanks to our sponsors**
+
+{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors"  lightbox_disabled="true" %}
 
 </div>
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="accomodation" markdown="1">
@@ -159,7 +162,7 @@ If you are travelling and need accommodation, here is a list of local hotels:
 
 **Thanks to our sponsors**
 
-{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
+{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors"  lightbox_disabled="true" %}
 
 </div>
 
