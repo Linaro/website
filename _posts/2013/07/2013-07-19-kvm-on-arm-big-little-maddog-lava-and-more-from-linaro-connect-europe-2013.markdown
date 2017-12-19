@@ -30,7 +30,7 @@ wordpress_id: 2843
 
 ## Keynotes
 
-There were [5 plenaries with 8 keynotes](/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/) that included:
+There were [5 plenaries with 8 keynotes](/blog/linaro-connect-europe-2013-keynote-speaker-videos/) that included:
 
   * [George Grey - CEO Linaro ](http://lce-13.zerista.com/event/member/79585), [Google+ Event Listing](https://plus.google.com/events/c7nkdlrtl8j6cno00fu15gf6dos?partnerid=gplp0), [Video (YouTube)](http://youtu.be/cQ6Kp8R5aow), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Opening%20Keynote-%20George%20Grey%20-%20CEO%20Linaro.mp4), [Presentation](https://www.slideshare.net/linaroorg/george-grey-keynotemondayjuly82013)
 
@@ -64,7 +64,7 @@ LAVA continues to be a hot topic (yes, pun intended) and LCE13 showcased why. Th
 
 ## big.LITTLE Software Update
 
-During LCE13 George Grey, Linaro CEO took a [moment to blog](/2013/07/10/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](/2013/07/10/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
+During LCE13 George Grey, Linaro CEO took a [moment to blog](/blog/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](/blog/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
 
 
   * Current Status as at end of H1 2013
@@ -122,7 +122,7 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
 ## LCE 13 Interviews
 
 
-[Interviews from LCE13](/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/) include:
+[Interviews from LCE13](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/) include:
 
 
 

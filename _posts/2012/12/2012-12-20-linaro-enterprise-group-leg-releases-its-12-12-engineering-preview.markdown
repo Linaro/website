@@ -53,7 +53,7 @@ Also subscribe to the LEG mailing list and join our IRC channel to stay on top o
   * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki.linaro.org/GettingInvolved/IRC).
 
 
-For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on ARM.  [Registration for this event is now open](/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/).
+For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on ARM.  [Registration for this event is now open](/linaro-blog/blog/registration-opens-for-linaro-connect-asia-2013-book-early/).
 
 Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 

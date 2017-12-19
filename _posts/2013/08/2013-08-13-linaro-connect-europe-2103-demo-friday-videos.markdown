@@ -55,10 +55,10 @@ Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or
   * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 
-  * [Linaro Connect Europe 2013: Keynote Speaker Videos](/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * [Linaro Connect Europe 2013: Keynote Speaker Videos](/linaro-blog/blog/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * [Linaro Connect Europe 2013: People and Personalities of Connect](/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * [Linaro Connect Europe 2013: People and Personalities of Connect](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
 For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [http://connect.linaro.org/lce13//demo-friday](http://connect.linaro.org/lce13//demo-friday)

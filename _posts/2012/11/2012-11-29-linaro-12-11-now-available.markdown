@@ -28,7 +28,7 @@ Looking over the [highlights for the 12.11 release cycle](https://wiki.linaro.or
 
 
 
-As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([ARMv8](/linaro-blog/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/)). The Developer Platform team reports that the initial GRUB support for ARM is now available, provided by our Linaro Enterprise Group ([LEG](/engineering/leg)) and marking its first component delivery.
+As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([ARMv8]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/))). The Developer Platform team reports that the initial GRUB support for ARM is now available, provided by our Linaro Enterprise Group ([LEG](/engineering/leg)) and marking its first component delivery.
 
 
 
@@ -53,7 +53,7 @@ For more information on the mini-summit and LEG please follow the Linaro [enterp
 
 
 
-The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/connect-resources/Q/lce12). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups](/linaro-blog/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) and a look at [LAVA](/linaro-blog/2012/11/26/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
+The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/connect-resources/Q/lce12). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)) and a look at [LAVA](/linaro-blog/2012/11/26/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
 
 
 

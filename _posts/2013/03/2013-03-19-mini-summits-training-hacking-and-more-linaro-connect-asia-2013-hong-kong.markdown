@@ -400,7 +400,7 @@ Blog Post
 <td markdown="1">
 
 
-[Open Collaboration…is Key! Linaro Connect Day 2 Blog Post](/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/)
+[Open Collaboration…is Key! Linaro Connect Day 2 Blog Post](/blog/open-collaboration-is-key-linaro-connect-day-2/)
 
 
 
@@ -429,7 +429,7 @@ Blog Post
 <td markdown="1">
 
 
-[Linaro Connect Asia 2013 – Day 3 – What To Expect Blog Post](/2013/03/06/linaro-connect-asia-2013-day-3-what-to-expect/)
+[Linaro Connect Asia 2013 – Day 3 – What To Expect Blog Post](/blog/linaro-connect-asia-2013-day-3-what-to-expect/)
 
 
 
@@ -458,7 +458,7 @@ Blog Post
 <td markdown="1">
 
 
-[Group Photo Blog Post](/2013/03/05/linaro-connect-asia-2013-group-photo/) and [Women in Technology at Linaro Blog Post](/2013/03/05/women-in-technology-at-linaro/)
+[Group Photo Blog Post](/blog/linaro-connect-asia-2013-group-photo/) and [Women in Technology at Linaro Blog Post](/blog/women-in-technology-at-linaro/)
 
 
 
@@ -487,7 +487,7 @@ Blog Post
 <td markdown="1">
 
 
-[Linaro Connect Asia 2013 Day 5 – Awards, Demo Friday and more Blog Post](/2013/03/08/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/)
+[Linaro Connect Asia 2013 Day 5 – Awards, Demo Friday and more Blog Post](/blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/)
 
 
 

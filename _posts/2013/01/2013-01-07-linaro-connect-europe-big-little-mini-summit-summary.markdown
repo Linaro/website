@@ -24,7 +24,7 @@ The [Linaro big.LITTLE Mini-Summit](http://summit.linaro.org/lce12/track/linaro-
 ## big.LITTLE Mini-Summit information
 
 
-The big.LITTLE mini-summit followed the same format as both the [Android](/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
+The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
 
 Those four sessions included topics focused on the following:
 
@@ -151,7 +151,7 @@ Information and links to all Linaro builds can be found on the [Linaro website](
 ## Linaro Connect
 
 
-More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
+More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 
 
 ## Staying Connected

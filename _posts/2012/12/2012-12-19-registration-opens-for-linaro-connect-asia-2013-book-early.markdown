@@ -70,7 +70,7 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### 3 Mini - Summits
 
-  * [Android Mini-Summit](/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
+  * [Android Mini-Summit](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 
   * [ARMv8(64bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/)

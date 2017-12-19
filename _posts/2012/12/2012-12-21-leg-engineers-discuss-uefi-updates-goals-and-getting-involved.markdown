@@ -18,7 +18,7 @@ wordpress_id: 2183
 
 A UEFI Mini-Sprint was held at the Linaro offices in Cambridge UK on 11-13 December.
 
-[Rony Nandy](/linux-on-arm/meet-the-team/rony-nandy/), Enterprise Server Engineer for the [Linaro Enterprise Group](/engineering/leg) (LEG) summed up the Sprint in a [blog post this week](/2012/12/19/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/). Nandy writes in his post that during the this mini-sprint problems such as a location for all the board support for edk2(UEFI) on ARM were fixed.  The maintainer-ship structure for UEFI on ARM was also discussed and goals for UEFI on ARM in 2013 were put in motion.
+[Rony Nandy](/linux-on-arm/meet-the-team/rony-nandy/), Enterprise Server Engineer for the [Linaro Enterprise Group](/engineering/leg) (LEG) summed up the Sprint in a [blog post this week](/blog/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/). Nandy writes in his post that during the this mini-sprint problems such as a location for all the board support for edk2(UEFI) on ARM were fixed.  The maintainer-ship structure for UEFI on ARM was also discussed and goals for UEFI on ARM in 2013 were put in motion.
 
 LEG Engineers held [a public Hangout on Air](http://youtu.be/hSnXW3DjQ4I) where they discussed UEFI updates, future goals and how to get involved.
 
@@ -28,7 +28,7 @@ Participants for this hangout included [Andrea Gallo](/linux-on-arm/meet-the-te
 
 Engineers from and ARM and Linaro had the opportunity to add their thoughts and insights to the discussion. From ARM were Leif Lindholm  and Olivier Martin with [Ryan Harkin](/linux-on-arm/meet-the-team/ryan-harkin/), Tech Lead for the ARM Landing Team and  [Anmar Oueja](/linux-on-arm/meet-the-team/anmar-oueja/), Technical Program Manager from Linaro rounding out the Hangout.
 
-The formation of LEG was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) in early November.  As part of the announcement initial work and goals were outlined.  "Linaro expects initial software delivery before the end of 2012 with ongoing releases thereafter," and yesterday [LEG announced](/2012/12/20/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/) it meet that goal and released its [Engineering Preview](https://wiki.linaro.org/LEG/Engineering/Releases/12.12).
+The formation of LEG was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) in early November.  As part of the announcement initial work and goals were outlined.  "Linaro expects initial software delivery before the end of 2012 with ongoing releases thereafter," and yesterday [LEG announced](/blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/) it meet that goal and released its [Engineering Preview](https://wiki.linaro.org/LEG/Engineering/Releases/12.12).
 
 UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work) that [LEG](/engineering/leg) will be working on in 2013.
 

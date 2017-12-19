@@ -18,7 +18,7 @@ title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 ---
 
-_** [Amit Pundir](/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
+_** [Amit Pundir](/about/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
 
 Its been almost a week since [Linaro 12.03 was released](/linaro-blog/2012/03/29/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
 

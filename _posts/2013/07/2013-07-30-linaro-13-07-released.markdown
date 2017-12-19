@@ -63,10 +63,10 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 Other highlights from LCE13 include:
 
-  * Linaro Connect Europe 2013: Keynote Speaker Videos - [/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * Linaro Connect Europe 2013: Keynote Speaker Videos - [/linaro-blog/blog/linaro-connect-europe-2013-keynote-speaker-videos/](/linaro-blog/blog/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * Linaro Connect Europe 2013: People and Personalities of Connect - [/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * Linaro Connect Europe 2013: People and Personalities of Connect - [/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
   * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)

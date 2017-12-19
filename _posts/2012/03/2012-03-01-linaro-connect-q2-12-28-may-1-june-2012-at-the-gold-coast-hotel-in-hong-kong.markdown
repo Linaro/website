@@ -27,7 +27,7 @@ As usual, this intensive week will involve the best software developers particip
 
   2. **Connecting with the future:** Looking ahead to the software requirements for ARM's new architectures and upcoming member platforms, including big.LITTLE, boot architecture (UEFI), A15 virtualization and ARM based servers
 
-These themes reflect the key elements of the Linaro roadmap, which is driven by Linaro's [Technical Steering Committee](/about/steering-committee), and much of the [Schedule](http://connect.linaro.org/events/event/linaro-connect-q212/#schedule) for Linaro Connect Q2.12 will be derived from this roadmap.
+These themes reflect the key elements of the Linaro roadmap, which is driven by Linaro's [Technical Steering Committee](/about/tsc/), and much of the [Schedule](http://connect.linaro.org/events/event/linaro-connect-q212/#schedule) for Linaro Connect Q2.12 will be derived from this roadmap.
 [Linaro Connect Q1.12](http://connect.linaro.org/resources/) happened last month in Redwood City, CA with more than 300 delegates from over 50 companies. These were some of my personal highlights, which also give you a nice overview of what happens at a Linaro Connect event:
 We hosted 5 Summits including:
 
@@ -52,7 +52,7 @@ Its extremely important we get a lot of real engineering done, and these were av
 And its essential that our Working Groups have a highly productive week
 
 
-  * [Tony Mannson highlights achievements of the Android team at Linaro Connect, ELC and ABS](/2012/02/16/the-linaro-android-platform-team-period-feb-02-to-feb-16/)
+  * [Tony Mannson highlights achievements of the Android team at Linaro Connect, ELC and ABS](/blog/the-linaro-android-platform-team-period-feb-02-to-feb-16/)
 
 
   * [Tom Gall summarises all the activities of the Multimedia WG during the week](http://fullshovel.wordpress.com/2012/02/20/1q12-linaro-connect-afterglow/)
