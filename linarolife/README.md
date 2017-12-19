@@ -18,8 +18,8 @@ css-include: main-life
             -o-background-size: cover;">
             <div class="cover-image-info">
                 <strong class="fade-in-one">Linaro Life Magazine</strong><br>
-                <small class="fade-in-two"><em>First Edition</em>, is Launched</small><br>
-                <a href="/linarolife/e1/" class="btn btn-linaro-home light btn-lg fade-in-three">View First Edition</a>
+                <small class="fade-in-two"><em>Second Edition</em>, is Launched</small><br>
+                <a href="/linarolife/e2/" class="btn btn-linaro-home light btn-lg fade-in-three">View Second Edition</a>
             </div>
         </div>
 </div>
