@@ -74,13 +74,18 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 {% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
 
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
-
 </div>
 
 <div class="col-sm-6">
 
-<iframe src="//eventbrite.co.uk/tickets-external?eid=39039623565&amp;ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+<div class="alert alert-arm-hpc" role="alert" markdown="1">
+**Tickets are sold out for 2017 ARM HPC Workshop in Japan.**
+For more info contact marketing@linaro.org
+</div>  
+
+<hr>
+
+{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
 
 <hr />
 
@@ -95,7 +100,7 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 |----------|--------|-----|------------|
 |09:00||Room Opens for Setup||
 |09:15|09:30|Welcome Note|David Rusling CTO, Linaro|
-|09:30|09:55|Introduction of Post-K development|Yutaka Ishikawa (RIKEN)|
+|09:30|09:55|[Introduction of Post-K development](/blog/arm-hpc-workshop-sessions-and-speakers/#1)|Yutaka Ishikawa (RIKEN)|
 |10:00|10:25|Post-K: Building the Arm HPC Ecosystem|Kouichi Hirai (Fujitsu)|
 |10:30|10:55|Arm tools and roadmap for SVE compiler support|Richard Sandiford, Florian Hahn (Arm)|
 |11:00|11:20|AM Coffee Break|
@@ -124,7 +129,7 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 |12:00|12:25|Oopstreaming|Renato Golin (Linaro)|
 |12:30|13:20|Lunch|
 |13:30||Programming Languages & Tools for Higher Performance & Productivity|Hitoshi Murai (RIKEN)|
-|Advantages of the Compiler for Post-K computer|Shun Kamatsuka (Fujitsu)|
+|||Advantages of the Compiler for Post-K computer|Shun Kamatsuka (Fujitsu)|
 ||14:25|Overview of Programming Assistance Tools for Post-K computer|Tomotake Nakamura (Fujitsu)|
 |14:30|14:55|The perfect mix: SUSE’s HPC, ARM and Containers|Vojtech Pavlik (Suse)|
 |15:00|15:20|PM Coffee Break|
