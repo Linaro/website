@@ -96,6 +96,7 @@ For more info contact marketing@linaro.org
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule" markdown="1">
 ## Day 1
 
+{:.table-responsive}
 |Start Time|End Time|Title|Reserved for|
 |----------|--------|-----|------------|
 |09:00||Room Opens for Setup||
@@ -118,6 +119,7 @@ For more info contact marketing@linaro.org
 
 ## Day 2
 
+{:.table-responsive}
 |Start Time|End Time|Title|Reserved for|
 |----------|--------|-----|------------|
 |09:00||Room Opens for Setup||
