@@ -11,9 +11,7 @@ image:
     featured: true
     path: /assets/images/blog/automotive-arm-ecosystem.png
     name: automotive-arm-ecosystem.png
-
 ---
-
 <div class="col-md-8" markdown="1">
 
 # Automotive 
