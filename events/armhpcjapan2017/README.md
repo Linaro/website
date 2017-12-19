@@ -79,8 +79,11 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 <div class="col-sm-6">
 
 <div class="alert alert-arm-hpc" role="alert" markdown="1">
+
 **Tickets are sold out for 2017 ARM HPC Workshop in Japan.**
+
 For more info contact marketing@linaro.org
+
 </div>  
 
 <hr>
