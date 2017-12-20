@@ -20,7 +20,7 @@ wordpress_id: 2054
 ## Getting Started
 
 
-Whether you are an individual or an employee of a organization it is easy to [get involved with Linaro](/engineering/getting-started#tab1).  If you or your organization is new to open source, want to know about running Linaro builds with or without your own hardware, using the Linaro Toolchain or the Linaro Linux Kernel we'll show you how to get started.
+Whether you are an individual or an employee of a organization it is easy to [get involved with Linaro](/developers/#tab1).  If you or your organization is new to open source, want to know about running Linaro builds with or without your own hardware, using the Linaro Toolchain or the Linaro Linux Kernel we'll show you how to get started.
 
 You can also find out about how Linaro works live and in-person at our [Linaro Connect events](http://connect.linaro.org/). You may also want to take a look at our [website](/), [wiki](https://wiki.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](/contact/mailing-list/) or join our [IRC channels](https://wiki.linaro.org/GettingInvolved/IRC).
 
@@ -42,7 +42,7 @@ The primary goals of the Linaro Android Team is to develop and release tested [
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/android)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Android Team can be found at: [https://wiki.linaro.org/Platform/Android](https://wiki.linaro.org/Platform/Android)
@@ -83,7 +83,7 @@ The goal of the LAVA team is to maintain and develop automated testing tools to 
   * IRC Channel: #linaro-lava on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/lava)
+  * [Team Members](/about/)
 
 
 More information about the LAVA Team can be found at: [https://wiki.linaro.org/Platform/LAVA](https://wiki.linaro.org/Platform/LAVA)
@@ -102,7 +102,7 @@ The scope of the Infrastructure Team is to maintain and develop archive manageme
   * IRC Channel: #linaro-infrastructure and #linaro on irc.linaro.org or  irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/infrastructure)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Infrastructure Team can be found at: [https://wiki.linaro.org/Infrastructure](https://wiki.linaro.org/Infrastructure)
@@ -122,7 +122,7 @@ The Kernel Consolidation Working Group targets the Linux kernel. Its goals are t
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/kernel)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Kernel Team can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel](https://wiki.linaro.org/WorkingGroups/Kernel)
@@ -142,7 +142,7 @@ The toolchain working group deals with all aspects of system-level tools - the c
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/toolchain)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Toolchain Team can be found at: [https://wiki.linaro.org/WorkingGroups/ToolChain](https://wiki.linaro.org/WorkingGroups/ToolChain)
@@ -162,7 +162,7 @@ The Power Management WG will look at the entire software stack (kernel, middlewa
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/power-management)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Power Management Team can be found at: [https://wiki.linaro.org/WorkingGroups/PowerManagement](https://wiki.linaro.org/WorkingGroups/PowerManagement)
@@ -182,7 +182,7 @@ The Graphics Working Group is set to improve the Linux graphics stack for curren
   * IRC Channel: #linaro on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/graphics)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Graphics Team can be found at: [https://wiki.linaro.org/WorkingGroups/Middleware/Graphics](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics)
@@ -199,7 +199,7 @@ More information about the Linaro Graphics Team can be found at: [https://wiki.
   * IRC Channel: #linaro-enterprise on irc.linaro.org or  irc.freenode.net.
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/linaro-enterprise-group-leg)
+  * [Team Members](/about/)
 
 
 More information about the Linaro Enterprise Group (LEG)  can be found at: [https://wiki.linaro.org/LEG/](https://wiki.linaro.org/LEG/)

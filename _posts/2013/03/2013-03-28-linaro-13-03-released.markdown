@@ -48,7 +48,7 @@ The **Linaro Enterprise Group** (LEG) announced that the initial GRUB port on A
 
 ## **Announcements:**
 
-During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, formerly the Director for the Kernel Working Groups at Linaro, has now taken on the role of VP of Engineering. More information on this appointment can be found in the press release at: [/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/](/news/linaro-appoints-mark-orvek-to-post-of-vp-of-engineering/en/)
+During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, formerly the Director for the Kernel Working Groups at Linaro, has now taken on the role of VP of Engineering. More information on this appointment can be found in the press release at: [/news/linaro-appoints-mark-orvek-post-vp-engineering/](/news/linaro-appoints-mark-orvek-post-vp-engineering/)
 
 
 ## **Linaro Connect:**

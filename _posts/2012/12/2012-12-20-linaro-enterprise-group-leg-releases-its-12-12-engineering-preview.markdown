@@ -21,7 +21,7 @@ wordpress_id: 2172
 ### Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12 "Engineering Preview" Release is Now Available
 
 
-The [Linaro Enterprise Group](/engineering/leg) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
+The [Linaro Enterprise Group](/groups/leg/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
 
 Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/downloads/)
 
@@ -39,7 +39,7 @@ _**This is an engineering preview and should NOT be used for production purposes
 ### GETTING INVOLVED
 More information on Linaro can be found on our websites:
 
-  * Homepage: [/engineering/leg](/engineering/leg)
+  * Homepage: [/groups/leg/](/groups/leg/)
 
 
   * Wiki: [https://wiki.linaro.org/LEG](https://wiki.linaro.org/LEG)
@@ -53,7 +53,7 @@ Also subscribe to the LEG mailing list and join our IRC channel to stay on top o
   * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki.linaro.org/GettingInvolved/IRC).
 
 
-For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on ARM.  [Registration for this event is now open](/linaro-blog/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/).
+For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on ARM.  [Registration for this event is now open](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/).
 
 Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
@@ -65,7 +65,7 @@ Between development cycles you can stay up to date with all the latest news in a
 
 _The Linaro-hosted “Enterprise Group” (LEG) is dedicated to accelerate Linux ARM server ecosystem development and extends the list of Linaro members beyond ARM silicon vendors to Server OEM's and commercial Linux providers._
 
-_To find out more, please visit[ ](/) [/engineering/leg](/engineering/leg)_
+_To find out more, please visit[ ](/) [/groups/leg/](/groups/leg/)_
 
 **About Linaro**
 

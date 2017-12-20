@@ -21,7 +21,7 @@ wordpress_id: 2808
 
 {% include image.html name="LCE13001.jpg" alt="George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013"%}
 
-> Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-in-dublin-ireland/en/)
+> Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-dublin-ireland/)
 
 
 {% include image.html name="LCE130010.jpg" alt="Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE" class="small-inline right"%}

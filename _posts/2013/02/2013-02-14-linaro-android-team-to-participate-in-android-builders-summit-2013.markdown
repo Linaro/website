@@ -24,9 +24,9 @@ Are you attending either The Android Builders Summit or The Embedded Linux Confe
 
 [Zach Pfeffer, Linaro Android Team Tech Lead](/about/) is scheduled to participate in the panel discussion entitled ‘[Is Android the New Embedded Linux](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ at 9:00am on Tuesday 19 February.  Joining Pfeffer will be Mike Anderson of The PTR Group, Tim Bird of Sony Network Entertainment, David Stewart of Intel, and Karim Yaghmour of Opersys as moderator.
 
-[Bernhard Rosenkränzer, Linaro Android Engineer](/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), will take part in the ‘[Ask the Experts](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
+[Bernhard Rosenkränzer, Linaro Android Engineer](/about/), will take part in the ‘[Ask the Experts](http://events.linuxfoundation.org/events/android-builders-summit/schedule)’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
 
-Following ABS will be the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](/news/linaro-ceo-george-grey-to-speak-at-elc-2013/en/), including [George Grey, Linaro CEO](/about/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘[Working Together to Accelerate Linux Development](http://events.linuxfoundation.org/events/embedded-linux-conference/schedule)’.
+Following ABS will be the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](/blog/), including [George Grey, Linaro CEO](/about/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘[Working Together to Accelerate Linux Development](http://events.linuxfoundation.org/events/embedded-linux-conference/schedule)’.
 
 Stop by any of the sessions where Linaro is participating to learn more about Linaro's work in consolidating and optimizing open source software for the ARM architecture.
 
@@ -45,7 +45,7 @@ The primary goals of the Linaro Android Team is to develop and release tested[ m
   * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
 
-  * [Team Members](/linux-on-arm/meet-the-team/android)
+  * [Team Members](/about/)
 
 
 **About Linaro:**

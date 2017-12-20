@@ -276,4 +276,4 @@ Tools
 </tbody>
 </table>
 
-Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](/connect-lcu13/schedule/remote-participation)
+Can’t make it to Santa Clara?  Don’t worry. Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.   [For more information on Remote Participation please visit the Linaro Connect website.](/blog/remote-participation-for-lcu13/)

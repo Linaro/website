@@ -17,7 +17,7 @@ title: Linaro Connect Asia 2013 - Day 3 - What To Expect
 wordpress_id: 2548
 ---
 
-[Linaro Connect Asia Day 2](/2013/03/04/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.
+[Linaro Connect Asia Day 2](/blog/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.
 
 
 

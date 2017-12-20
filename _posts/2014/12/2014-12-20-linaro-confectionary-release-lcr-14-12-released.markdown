@@ -30,13 +30,13 @@ LCR is tested. CTS version 5.0, Android BIONIC tests, Android Monkey and other t
 
 The release can be found respectively at:
 
-  * [Juno](http://releases.linaro.org/latest/android/lcr/juno)
+  * [Juno](/downloads/)
 
 
-  * [FVP](http://releases.linaro.org/latest/android/lcr/fvp)
+  * [FVP](/downloads/)
 
 
-  * [Versatile Express TC2](http://releases.linaro.org/latest/android/lcr/vexpress-tc2)
+  * [Versatile Express TC2](/downloads/)
 
 If you should find a issue or have a question about the release, we invite you to use one of the following mechanisms:
 

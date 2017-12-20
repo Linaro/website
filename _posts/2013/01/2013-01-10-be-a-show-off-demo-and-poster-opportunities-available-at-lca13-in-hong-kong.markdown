@@ -82,7 +82,7 @@ LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on Mar
 
 While Demo Friday is open to the public we would like to encourage everyone to join us for the full week of LCA13.  Many demos are refined and patched during the week as participants have the opportunity to work with top industry developers during the many hacking sessions throughout the week.
 
-What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and join us in Hong Kong for the [2013 Linaro Connect Asia Event](/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/) (LCA13).
+What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and join us in Hong Kong for the [2013 Linaro Connect Asia Event](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/) (LCA13).
 
 
 ### **_About_**

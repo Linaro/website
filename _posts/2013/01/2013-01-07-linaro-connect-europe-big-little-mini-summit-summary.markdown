@@ -24,7 +24,7 @@ The [Linaro big.LITTLE Mini-Summit](http://summit.linaro.org/lce12/track/linaro-
 ## big.LITTLE Mini-Summit information
 
 
-The big.LITTLE mini-summit followed the same format as both the [Android](/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
+The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
 
 Those four sessions included topics focused on the following:
 
@@ -109,7 +109,7 @@ For more information about each of these sessions and how you can get involved, 
 
 
 
-  * big.LITTLE Mini-Summit Overview - [Slides](/documents/download/d364018e38b473315767d5479039751a50925b90d6cc6) (Plenary 1 and 2 are also included in this slide deck) [Video](https://www.youtube.com/watch?v=1oVGid3K89g) (includes Plenary 1 and 2)
+  * big.LITTLE Mini-Summit Overview - [Slides](https://www.slideshare.net/linaroorg/biglittle-mini-summit) (Plenary 1 and 2 are also included in this slide deck) [Video](https://www.youtube.com/watch?v=1oVGid3K89g) (includes Plenary 1 and 2)
 
 
 
@@ -117,7 +117,7 @@ For more information about each of these sessions and how you can get involved, 
   * big.LITTLE Mini-Summit  Session 1 (A big.LITTLE status update and Making Linux work with asymmetric systems)  -  [Video](http://youtu.be/hyQFWAuFMRI), [Notes](http://summit.linaro.org/lce12/meeting/20939/big-little-mini-summit-1/)
 
 
-  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](/documents/download/a7e92b96e40c1662b34608953ab6e7425098f865bbdca), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
+  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](https://www.slideshare.net/linaroorg/bl-session-bluesky), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
 
 
   * big.LITTLE Mini-Summit Session 3 (Back to reality: What do we have today and the sequence of steps to get to where we want to be) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21347/big-little-mini-summit-3/)
@@ -139,7 +139,7 @@ More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/Worki
 ## LCE12 - Resources
 
 
-Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/connect-resources/Q/lce12](/connect-resources/Q/lce12)
+Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 
 ## Downloads
@@ -151,7 +151,7 @@ Information and links to all Linaro builds can be found on the [Linaro website](
 ## Linaro Connect
 
 
-More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/2012/12/19/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
+More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 
 
 ## Staying Connected
@@ -186,7 +186,7 @@ You can also stay in touch with what is happening in around Linaro by following 
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
 
-  * _[Team Members](/linux-on-arm/meet-the-team/power-management)_
+  * _[Team Members](/about/)_
 
 
 _More information about the Linaro Power Management Team can be found at: [https://wiki.linaro.org/WorkingGroups/PowerManagement](https://wiki.linaro.org/WorkingGroups/PowerManagement)_

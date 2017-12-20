@@ -81,7 +81,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](/documents/download/99f9812a5239175f07479c370f2f148a5314a5f589be6)slides
+[**Download **](https://www.slideshare.net/linaroorg/lca14-301-aarch64medialibsguiplansstatus)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -99,7 +99,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](/documents/download/1f0cb91faa00393731e42fbd58a68443530d0bc728d94)slides
+[**Download **](https://www.slideshare.net/linaroorg/lca14-302-lskoverviewstatusupdate)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -117,7 +117,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[** Download **](/documents/download/92b7dcfba6b8cd97dd976b20d20b2a0a5316345bd66d2)slides
+[** Download **](https://www.slideshare.net/linaroorg/lca14-303-virtualizationupdate)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -135,7 +135,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/3f93fcbf09ca9e15ea7b2987efaf18f4530f9716323ac) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-107-acpiupstreaming) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -153,7 +153,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/940699956e8235ba29ec5ba0ecfc4cee53163e420f209) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-304-buildingandroidwithclangforarmv7armv8platforms) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -171,7 +171,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/32a58e6375da6b6a714e5c99d0655ac8531697a2c3b69) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-306-cpuidlecpufreqintegrationwithscheduler) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -189,7 +189,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/c823427ea5e84565d111baf3aaa29b57530d16ed3fff8) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-409-lhgmeetgreet) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -207,7 +207,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/83861a3d1ef8e5b7384d7a2f49887e725310c8bc33ac2) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-305-introductiontolhg) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -225,7 +225,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/37f5c01aace010048e2491f149a0379753163f0c567ab) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-308-armv8statusdirections) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -243,7 +243,7 @@ No Video Available
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](/documents/download/aa83e28f8ca3b56d9bc1dfc880ee76d253163fda4ff20) slides
+[**Download**](https://www.slideshare.net/linaroorg/lca14-309-fsfgcc4101) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
