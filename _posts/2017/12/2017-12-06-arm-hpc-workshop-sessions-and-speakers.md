@@ -29,6 +29,10 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-md-6">
 
         <div class="list-group">
+          <a href="#dr" class="list-group-item">
+            <h4 class="list-group-item-heading">Welcome Note</h4>
+            <p class="list-group-item-text">David Rusling CTO, Linaro</p>
+          </a>
           <a href="#1" class="list-group-item">
             <h4 class="list-group-item-heading">Introduction of Post-K development</h4>
             <p class="list-group-item-text">Yutaka Ishikawa, RIKEN AICS</p>
@@ -125,6 +129,27 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 
 ## Session Details
+
+<div class="arm-hpc-session">
+
+    <div class="col-sm-9 session-info">
+        <a name="dr"></a>
+        <h4 class="talk-title">
+            Welcome Note
+        </h4>
+
+        <em>By</em> David Rusling CTO, Linaro
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3B60l14pgrhlGQ" %}
+
+    </div>
+
+    <div class="col-sm-3 speaker-info">
+
+    </div>
+
+</div>
+
 
 <div class="arm-hpc-session">
 
