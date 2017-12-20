@@ -29,7 +29,7 @@ Other topics Andrea and I discuss include how the work of the LEG group is coord
 
 With aggressive goals such as delivering the initial software before the end of this year I ask Andrea what that initial deliverable will really include and what members can expect out of this initial software?
 
-Andrea also looks to the future and outlines what attendees of the next Linaro Connect event—[LCA13-Hong Kong, to be held in early 2013](/connect-resources/Q/lca13)— can expect and if those attending can expect to see invites to a LEG mini-summit? I'll give you hint at this answer; he said yes, but you'll have to watch the video to get more details.
+Andrea also looks to the future and outlines what attendees of the next Linaro Connect event—[LCA13-Hong Kong, to be held in early 2013](http://connect.linaro.org/lca13/)— can expect and if those attending can expect to see invites to a LEG mini-summit? I'll give you hint at this answer; he said yes, but you'll have to watch the video to get more details.
 
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 
@@ -50,4 +50,4 @@ For those who want more information about how you can get in touch with Andrea a
 
 Andrea also discusses why he is personally excited about LEG, why he enjoys working for Linaro and more.
 
-This interview along with various sessions from the [LCE12-Copenhagen](/connect-resources/Q/lce12) event can be found on the [Linaro On Air youtube channel](http://www.youtube.com/user/LinaroOnAir). You can also find out more about upcoming hangouts by subscribing to the [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts).
+This interview along with various sessions from the [LCE12-Copenhagen](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) event can be found on the [Linaro On Air youtube channel](http://www.youtube.com/user/LinaroOnAir). You can also find out more about upcoming hangouts by subscribing to the [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts).

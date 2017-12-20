@@ -51,7 +51,7 @@ _**In-Person**_
 To attend in person you need to register to attend Linaro Connect Asia 2013 (please note that in-person registration will end tomorrow, 22 February 2013).  To register go to[ /connect](http://connect.linaro.org) click on the[ registration button](http://linaro.eventbrite.co.uk/). Once you have registered to attend (note there is a cost to attend) you will get an email from our event scheduling system that will give you instructions for setting up your account and logging in.  Once you have logged you can set up your personal profile and pick the sessions you will be attending to create your personalized event schedule.  There is also a[ Zerista mobile app](http://lca-13.zerista.com/native_app/store_uri) available (search LCA-13 or Linaro) for Android and iPhone users. If you are already registered and planning on attending in person just add these sessions to your schedule.
 
 _**Remote Participation**_
-The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ /connect/remote-participation](/connect/remote-participation)
+The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ http://connect.linaro.org/lcu14/](http://connect.linaro.org/lcu14/)
 For the best remote participation experience you’ll need to do the following:
 
 

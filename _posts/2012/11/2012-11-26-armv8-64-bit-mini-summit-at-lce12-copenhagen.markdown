@@ -57,7 +57,7 @@ For more information about each of these sessions and how you can get involved, 
 [ARMv8 Mini-Summit (Session 3 - Toolchain)](http://summit.linaro.org/lce12/meeting/21343/armv8-mini-summit-3/) - [Video](https://www.youtube.com/watch?v=haaf6qWdB3g)
 [ARMv8 Mini-Summit (Session 4 - Distributions)](http://summit.linaro.org/lce12/meeting/21345/armv8-mini-summit-4/) - [Video](https://www.youtube.com/watch?v=iw4DJvfWsN0)
 
-Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/connect-resources/Q/lce12](/connect-resources/Q/lce12)
+Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 Current Linaro ARMv8 Builds can be found at: [/engineering/armv8](/engineering/armv8) and information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 

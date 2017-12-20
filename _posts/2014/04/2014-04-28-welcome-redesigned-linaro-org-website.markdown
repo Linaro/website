@@ -36,7 +36,7 @@ We will continually be expanding our online content to bring you updated and rel
 
   * [Learn](/about/) - about Linaro, what we do and how far we have come in the last 4 years.
 
-  * [Attend](/connect/lcu/lcu14/) – register for our next [Linaro Connect](/connect/lcu/lcu14/) in September 2014 to be part of designing the future of Linux on ARM
+  * [Attend](http://connect.linaro.org/lcu14/) – register for our next [Linaro Connect](http://connect.linaro.org/lcu14/) in September 2014 to be part of designing the future of Linux on ARM
 
   * [Discover career opportunities](/careers/) - within Linaro.  We are an organization with employees working in cities all over the world.
 

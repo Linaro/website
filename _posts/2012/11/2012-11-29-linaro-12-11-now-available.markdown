@@ -53,7 +53,7 @@ For more information on the mini-summit and LEG please follow the Linaro [enterp
 
 
 
-The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/connect-resources/Q/lce12). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)) and a look at [LAVA](/linaro-blog/2012/11/26/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
+The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)) and a look at [LAVA](/linaro-blog/2012/11/26/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
 
 
 

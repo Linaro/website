@@ -21,7 +21,7 @@ wordpress_id: 2323
 
 {% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="http://connect.linaro.org"%}
 
-[Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](/connect/schedule) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
+[Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](http://connect.linaro.org/) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
 
 **Keynote Speakers**
 

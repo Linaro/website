@@ -57,7 +57,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/projects/armv8/](/projects/armv8/)
+  * [/initiatives/armv8/](/initiatives/armv8/)
 
 **GETTING INVOLVED**
 

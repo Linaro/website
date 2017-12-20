@@ -18,7 +18,7 @@ title: LAVA Workshop at Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2425
 ---
 
-Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](/linaro-blog/2013/02/12/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](/connect/schedule).
+Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](/linaro-blog/2013/02/12/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
 
 ## What is LAVA?
 

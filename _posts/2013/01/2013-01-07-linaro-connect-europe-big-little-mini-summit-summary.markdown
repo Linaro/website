@@ -139,7 +139,7 @@ More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/Worki
 ## LCE12 - Resources
 
 
-Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/connect-resources/Q/lce12](/connect-resources/Q/lce12)
+Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 
 ## Downloads
