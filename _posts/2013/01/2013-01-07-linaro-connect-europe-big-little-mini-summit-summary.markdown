@@ -24,7 +24,7 @@ The [Linaro big.LITTLE Mini-Summit](http://summit.linaro.org/lce12/track/linaro-
 ## big.LITTLE Mini-Summit information
 
 
-The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
+The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
 
 Those four sessions included topics focused on the following:
 
