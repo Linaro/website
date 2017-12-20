@@ -101,7 +101,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             <p class="list-group-item-text">Shun Kamatsuka, Fujitsu</p>
           </a>
           <a href="#17" class="list-group-item">
-            <h4 class="list-group-item-heading">Overview of Programming Assistance Tools for Post-K computer</h4>
+            <h4 class="list-group-item-heading">Application Development Tools for Post-K Supercomputer</h4>
             <p class="list-group-item-text">Tomotake Nakamura, Fujitsu</p>
           </a>
           <a href="#18" class="list-group-item">
@@ -172,7 +172,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             Therefore we think to need to build Arm HPC Ecosystem until Post-K release.
             In this presentation, we describe our collaboration efforts to build the Arm HPC Ecosystem.
         </p>
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/postk-building-the-arm-hpc-ecosystem-84025150" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/GhuGCRY2cocWeH" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -196,7 +196,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             This presentation will give an overview of what Arm is doing to develop the HPC ecosystem, with a particular focus on SVE.  It will include a brief synopsis of both the commercial and open-source tools and libraries that Arm is developing and a description of the various community initiatives that Arm is involved in.  The bulk of the talk will describe the roadmap for SVE compiler support in both GCC and LLVM.  It will cover the work that has already been done to support both hand-optimised and automatically-vectorised code, and the plans for future improvements.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/arm-tools-and-roadmap-for-sve-compiler-support" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/zM0BvjLMPq9woZ" %}
 
     </div>
 
@@ -227,7 +227,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             In this presentation, we report the details of HCQC and the results of evaluating the quality of GCC and LLVM when compiling the kernel part of benchmark programs using HCQC.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/hcqc-hpc-compiler-quality-checker" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/DvyANaX3PEWHAV" %}
 
     </div>
 
@@ -292,7 +292,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             RIKEN and Fujitsu are developing ARM-based numerical libraries optimized with the new feature of ARM-SVE. We present porting status of netlib+SSL-II for ARM-SVE and other OSS. Also, we demonstrate some optimization policies and techniques, especially for the basic numerical linear algebra kernels.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/porting-and-optimization-of-numerical-libraries-for-arm-sve" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/AP6tYcCEtN4WTa" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -325,7 +325,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             Sharing build procedures of Open Source Software (OSS) is critical to quick OSS deployment. It is difficult for us because our target architecture is ARM and the public know-hows are not abundant since ARM based HPC machines are not prevalent. We will share the lessons learned from our evaluation of EasyBuild, which facilitates formulation and sharing of build recipes.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/an-overview-of-the-ihkmckernel-multikernel-operating-system" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -359,7 +358,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             RIKEN Advanced Institute for Computation Science is in charge of leading the development of Japan's next generation flagship supercomputer, the successor of the K. Part of this effort is to design and develop a system software stack that suits the needs of future extreme scale computing. In this talk, we focus on operating system (OS) requirements for HPC and discuss IHK/McKernel, a multi-kernel based operating system framework. IHK/McKernel runs Linux with a light-weight kernel (LWK) side-by-side on compute nodes with the primary motivation of providing scalable, consistent performance for large scale HPC simulations, but at the same time to retain a fully Linux compatible execution environment. We provide an overview of the project and discuss the status of its support for ARM architecture.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/an-overview-of-the-ihkmckernel-multikernel-operating-system" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/NNdQnsWIgoCwHB" %}
 
     </div>
 
@@ -415,7 +414,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             research plans towards automatically mapping COSMO to FPGAs.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/compilation-of-cosmo-for-gpu-using-llvm" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/ye93RqO7aue73Y" %}
 
     </div>
 
@@ -466,7 +465,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             It is designed and developed to makes building HPC systems easier.
             In this presentation, we explain the current status of OpenHPC and our involvement in OpenHPC to establish Arm HPC eco-system.
         </p>
-
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/rQaMRYS38ty2qK" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -554,7 +554,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             As a part of the evaluation of Post-K’s compilers, we have been investigating compiled codes of vectorizable kernel loops in a particle-in-cell simulation program. This talk will reveal how the latest version of LLVM compiler (v1.4) works on the loops together with the qualitative and quantitative comparison with the code generated by Intel’s compiler for KNL.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/an-evaluation-of-llvm-compiler-for-sve-with-fairly-complicated-loops" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/MMw1lY5Crzp8cN" %}
 
     </div>
 
@@ -582,7 +582,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         </h4>
 
         <em>By</em> Renato Golin, Linaro
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/oopstreaming" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/eNDtLYV2HhEP03" %}
 
         <p class="talk-abstract">
 
@@ -613,7 +613,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             For higher performance and productivity of HPC systems, it is important to provide users with good programming environment including languages, compilers, and tools. In this talk, the programming model of the post-K supercomputer will be shown.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/linaroorg/programming-languages-tools-for-higher-performance-productivity" %}
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/kjobNzT53Nnc8R" %}
 
     </div>
 
@@ -664,7 +664,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-sm-9 session-info">
         <a name="17"></a>
         <h4 class="talk-title">
-            Overview of Programming Assistance Tools for Post-K computer
+            Application Development Tools for Post-K Supercomputer
         </h4>
 
         <em>By</em> Tomotake Nakamura, Fujitsu
@@ -673,6 +673,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         RIKEN and Fujitsu are developing programming assistance tools for Post-K computer, providing with new values.
         New features such as utilization of Eclipse PTP, and outputting performance data in XML-form are shown in this presentation.
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3Mq0GjWE37hIaP" %}
 
     </div>
 

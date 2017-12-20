@@ -93,7 +93,7 @@ More information about the LAVA Team can be found at: [https://wiki.linaro.org/
 
 The scope of the Infrastructure Team is to maintain and develop archive management tools as well as the automated testing, etc. tools to be used to test Linaro platform work.
 
-  * [Meeting](https://wiki.linaro.org/Infrastructure/Meetings): Weekly on Tuesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
+  * [Meeting](https://wiki.linaro.org/Infrastructure): Weekly on Tuesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
 
   * Mailing List: [mailto:infrastructure@linaro.org](mailto:infrastructure@linaro.org) and [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))

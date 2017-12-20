@@ -32,7 +32,7 @@ Also, in this cycle is Mali accelerated HDMI display (which is a scaled-up versi
 
 There is no escape from binary blobs; is there? Not just yet in case of MM, HDMI, and Mali support on Origen, but we are working in that direction as well :)
 
-In the current setup, we offer a tar package(or overlay) of binaries (MM, HDMI, Mali, Audio etc) which can be obtained from our [image hosting server](http://snapshots.linaro.org/android/binaries/origen/20120324/vendor.tar.bz2) after [accepting an EULA](http://snapshots.linaro.org/licenses/samsung-v2.html) of course. Once you create the SD card images, you will need to run an installation script which is the part of this vendor tar package, and will install the necessary binaries on your SD card.
+In the current setup, we offer a tar package(or overlay) of binaries (MM, HDMI, Mali, Audio etc) which can be obtained from our [image hosting server](https://releases.linaro.org/archive/12.03/android/leb-origen/) after [accepting an EULA](http://snapshots.linaro.org/licenses/samsung-v2.html) of course. Once you create the SD card images, you will need to run an installation script which is the part of this vendor tar package, and will install the necessary binaries on your SD card.
 
 Detailed instructions are given on [the release page](https://android-build.linaro.org/builds/~linaro-android/origen-ics-gcc46-samsunglt-stable-blob-12.03-release/).
 
