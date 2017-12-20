@@ -62,7 +62,7 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
   * [Linaro Connect Q2.12 Opening Plenary Sessions](http://youtu.be/OlzYuXMuJ9E)
 
 
-For those who want to participate and join the sessions please take a look at the [schedule](http://connect.linaro.org/resources/#schedule) and you can find the live streams [here](https://plus.google.com/100254004947968890609/posts) and [here](http://www.youtube.com/user/AmberGraner).
+For those who want to participate and join the sessions please take a look at the [schedule](http://connect.linaro.org/resources/#schedule) and you can find the live streams [here](https://plus.google.com/+LinaroOrg) and [here](http://www.youtube.com/user/AmberGraner).
 
 More information about remote participation can be found [here](http://connect.linaro.org/remote-participation-for-q2-12/).
 
