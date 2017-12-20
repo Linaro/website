@@ -64,6 +64,6 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
 
 For those who want to participate and join the sessions please take a look at the [schedule](http://connect.linaro.org/resources/#schedule) and you can find the live streams [here](https://plus.google.com/+LinaroOrg) and [here](http://www.youtube.com/user/AmberGraner).
 
-More information about remote participation can be found [here](http://connect.linaro.org/remote-participation-for-q2-12/).
+More information about remote participation can be found [here](http://connect.linaro.org/).
 
 More about Linaro Connect Q2.12 can be found [here](http://connect.linaro.org/resources/#welcome).
