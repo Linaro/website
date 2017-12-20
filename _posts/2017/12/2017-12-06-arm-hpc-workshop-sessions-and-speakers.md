@@ -758,6 +758,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             The "co-design" is a bi-directional approach where a system would be designed on demand from applications and the applications must be optimized to the system. The performance estimation and evaluation of applications are important for the co-design. In this talk, we focus on the performance evaluation with Arm HPC tools for SVE.
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/2YSUrOw3n2W4g" %}
 
     </div>
 
