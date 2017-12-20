@@ -465,7 +465,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             It is designed and developed to makes building HPC systems easier.
             In this presentation, we explain the current status of OpenHPC and our involvement in OpenHPC to establish Arm HPC eco-system.
         </p>
-
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/rQaMRYS38ty2qK" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -672,6 +673,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         RIKEN and Fujitsu are developing programming assistance tools for Post-K computer, providing with new values.
         New features such as utilization of Eclipse PTP, and outputting performance data in XML-form are shown in this presentation.
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3Mq0GjWE37hIaP" %}
 
     </div>
 
