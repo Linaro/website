@@ -109,7 +109,7 @@ For more information about each of these sessions and how you can get involved, 
 
 
 
-  * big.LITTLE Mini-Summit Overview - [Slides](/documents/download/d364018e38b473315767d5479039751a50925b90d6cc6) (Plenary 1 and 2 are also included in this slide deck) [Video](https://www.youtube.com/watch?v=1oVGid3K89g) (includes Plenary 1 and 2)
+  * big.LITTLE Mini-Summit Overview - [Slides](https://www.slideshare.net/linaroorg/biglittle-mini-summit) (Plenary 1 and 2 are also included in this slide deck) [Video](https://www.youtube.com/watch?v=1oVGid3K89g) (includes Plenary 1 and 2)
 
 
 
@@ -117,7 +117,7 @@ For more information about each of these sessions and how you can get involved, 
   * big.LITTLE Mini-Summit  Session 1 (A big.LITTLE status update and Making Linux work with asymmetric systems)  -  [Video](http://youtu.be/hyQFWAuFMRI), [Notes](http://summit.linaro.org/lce12/meeting/20939/big-little-mini-summit-1/)
 
 
-  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](/documents/download/a7e92b96e40c1662b34608953ab6e7425098f865bbdca), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
+  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](https://www.slideshare.net/linaroorg/bl-session-bluesky), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
 
 
   * big.LITTLE Mini-Summit Session 3 (Back to reality: What do we have today and the sequence of steps to get to where we want to be) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21347/big-little-mini-summit-3/)
@@ -186,7 +186,7 @@ You can also stay in touch with what is happening in around Linaro by following 
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
 
-  * _[Team Members](/linux-on-arm/meet-the-team/power-management)_
+  * _[Team Members](/about/)_
 
 
 _More information about the Linaro Power Management Team can be found at: [https://wiki.linaro.org/WorkingGroups/PowerManagement](https://wiki.linaro.org/WorkingGroups/PowerManagement)_

@@ -47,15 +47,15 @@ While we didn't get the opportunity to record all the Demos, below are links to 
   * [ LAVA - LMP (LAVA Multi-purpose Probe)](http://www.youtube.com/watch?v=3Jaf5ILvVmQ)
 
 
-Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](/linaro-blog/category/connect-events/):
+Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](http://connect.linaro.org):
 
 
 
 
-  * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+  * [KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013](/blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 
-  * [Linaro Connect Europe 2013: Keynote Speaker Videos](/linaro-blog/blog/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * [Linaro Connect Europe 2013: Keynote Speaker Videos](/blog/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
   * [Linaro Connect Europe 2013: People and Personalities of Connect](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)

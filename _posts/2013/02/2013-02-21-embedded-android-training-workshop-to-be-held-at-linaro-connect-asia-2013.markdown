@@ -8,7 +8,7 @@ description: Karim Yaghmour CEO, Opersys Inc., will be leading a 4-part Embedded
 keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Android, Embedded, Training,
   Workshop, Linaro Connect Asia 2013, LCA13-Hong Kong, LCA-13, Karim Yaghmour, Opersys
 layout: post
-link: /blog/android-blog/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/
+link: /blog/embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013/
 slug: embedded-android-training-workshop-to-be-held-at-linaro-connect-asia-2013
 tags:
 - Android

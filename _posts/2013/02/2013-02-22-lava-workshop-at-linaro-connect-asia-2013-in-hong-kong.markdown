@@ -18,21 +18,21 @@ title: LAVA Workshop at Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2425
 ---
 
-Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](/linaro-blog/2013/02/12/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
+Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](/blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
 
 ## What is LAVA?
 
-The [Linaro Automated Validation Architecture (LAVA)](/linaro-blog/2011/08/12/lava-fundamentals/) is an open source test and validation platform available for individuals and companies who wish to establish a test infrastructure for any flavor of Linux running on ARM chips.
+The [Linaro Automated Validation Architecture (LAVA)](/blog/lava-fundamentals/) is an open source test and validation platform available for individuals and companies who wish to establish a test infrastructure for any flavor of Linux running on ARM chips.
 
 ## What Will this Workshop Include?
 
 {% include image.html name="LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg" alt="LAVA Workshop Flyer" class="small-inline" %}
 
-Members of the Linaro Automated Validation Architecture [(LAVA) team](/linux-on-arm/meet-the-team/lava) will be hosting a workshop that will include 4 hours of training.  This training will include an introduction, a hands on hacking session and a Q&A discussion session.
+Members of the Linaro Automated Validation Architecture [(LAVA) team](/about/) will be hosting a workshop that will include 4 hours of training.  This training will include an introduction, a hands on hacking session and a Q&A discussion session.
 
-[The introduction sessions](https://lca-13.zerista.com/event/member/72489) begin with  [Dave Pigott, LAVA Lab Lead](/linux-on-arm/meet-the-team/dave-pigott/) giving  a high level introduction about LAVA, including a historical overview as well as insight into the current state of development and plans. Followed by [Tyler Baker, Linaro Technical Architect-Automation and CI engineer](/about/), who will give a 15 minute success story about an Android OEM that chose LAVA as a central piece of their sophisticated CI and validation solution.
+[The introduction sessions](https://lca-13.zerista.com/event/member/72489) begin with  [Dave Pigott, LAVA Lab Lead](/about/) giving  a high level introduction about LAVA, including a historical overview as well as insight into the current state of development and plans. Followed by [Tyler Baker, Linaro Technical Architect-Automation and CI engineer](/about/), who will give a 15 minute success story about an Android OEM that chose LAVA as a central piece of their sophisticated CI and validation solution.
 
-[The 2 hour Hands-on LAVA session](https://lca-13.zerista.com/event/member/72677) is the core piece of the LAVA workshop. During the first hour of this session, LAVA software engineers, [Antonio Terceiro](/about/) and [Senthil Kumaran](/linux-on-arm/meet-the-team/senthil-kumuran/) will guide participants through the installation process of a complete LAVA system on their laptop. Antonio and Senthil will use the second hour of this session focused on teaching participants how to use lava-tes.
+[The 2 hour Hands-on LAVA session](https://lca-13.zerista.com/event/member/72677) is the core piece of the LAVA workshop. During the first hour of this session, LAVA software engineers, [Antonio Terceiro](/about/) and [Senthil Kumaran](/about/) will guide participants through the installation process of a complete LAVA system on their laptop. Antonio and Senthil will use the second hour of this session focused on teaching participants how to use lava-tes.
 
 [The Q&A Wrap up session](https://lca-13.zerista.com/event/member/72377) will be a full hour dedicated to open discussion and Q&A. [Kate Stewart, Director of Product Management](/about/) and [Alexander Sack, Director of Platform](/about/) will act as moderators to our LAVA experts and participants during this session of the workshop.  To make this session as productive as possible, we plan to collect questions before and during the workshop, in addition to answering those raised during this wrap up session. In case you can’t attend this session, rest assured that we will write a FAQ capturing the questions and answers discussed and make it available after LCA-13. (A pdf version of the Workshop flyer is available. To download click [here](/assets/downloads/LAVAWorkshopLCA13-FlyerAmbervariant_R3.pdf).)
 
@@ -108,7 +108,7 @@ _The goal of the LAVA team is to maintain and develop automated testing tools to
   * _IRC Channel: #linaro-lava on irc.linaro.org or irc.freenode.net_
 
 
-  * _[Team Members](/linux-on-arm/meet-the-team/lava)_
+  * _[Team Members](/about/)_
 
 
 _More information about the LAVA Team can be found at: [https://wiki.linaro.org/Platform/LAVA](https://wiki.linaro.org/Platform/LAVA)_

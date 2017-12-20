@@ -42,7 +42,7 @@ Topics discussed during this event included:
   * How to enable the wider development community to get involved with ARMv8 (64-bit) development.
 
 
-[In an interview](http://youtu.be/6bkfk3HAsH0), at LCE12-Copenhagen, [David Rusling, Linaro CTO](/linux-on-arm/meet-the-team/david-a-rusling/) said, “ARMv8—we can do that; it’s all in the open now, the code’s been published. We’ve been building stuff, [...] we pulled ARMv8 into our Continuous Integration (CI) cycle and we’ve got stuff on the web, so you can go download the tools and we’ve starting working with it.” Rusling summarized, “We’ve had a lot of good discussions around moving forwards, next steps, testing, improvements. [...] how we organize the kernel, so platform support is really clean.”
+[In an interview](http://youtu.be/6bkfk3HAsH0), at LCE12-Copenhagen, [David Rusling, Linaro CTO](/about/) said, “ARMv8—we can do that; it’s all in the open now, the code’s been published. We’ve been building stuff, [...] we pulled ARMv8 into our Continuous Integration (CI) cycle and we’ve got stuff on the web, so you can go download the tools and we’ve starting working with it.” Rusling summarized, “We’ve had a lot of good discussions around moving forwards, next steps, testing, improvements. [...] how we organize the kernel, so platform support is really clean.”
 
 A common theme that ran through all four of these sessions was the enablement and building of a community around the ARMv8 (64-bit) architecture.
 
@@ -50,7 +50,7 @@ Various Linux distributions are already working on porting their software to the
 
 For more information about each of these sessions and how you can get involved, see the links below for the full session notes. Where available, links to slides and videos of the sessions are listed.
 
-[ARMv8 Introductory Plenary](http://summit.linaro.org/lce12/meeting/20943/armv8-plenary-wednesday-1/) - [Slides](/documents/download/5b29b1ed3ddca0e08f8ebdd4713fac7d5092344a60bd5)
+[ARMv8 Introductory Plenary](http://summit.linaro.org/lce12/meeting/20943/armv8-plenary-wednesday-1/) - [Slides](https://www.slideshare.net/linaroorg/lce12-armv8plenary)
 [ARMv8 Lightning Talk (Plenary)](http://summit.linaro.org/lce12/meeting/20944/armv8-plenary-wednesday-2/) - [Video](https://www.youtube.com/watch?v=uJzhZqBqwSU)
 [ARMv8 Mini-Summit (Session 1 - Kernel)](http://summit.linaro.org/lce12/meeting/20938/armv8-mini-summit-1/) - [Video](https://www.youtube.com/watch?v=rcsuCbYM8fU)
 [ARMv8 Mini-Summit (Session 2 - Boot solutions)](http://summit.linaro.org/lce12/meeting/21342/armv8-mini-summit-2/) - [Video](https://www.youtube.com/watch?v=y-I9C6kUPL8)

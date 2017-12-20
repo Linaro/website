@@ -371,7 +371,7 @@ Blog Post
 <td markdown="1">
 
 
-[Welcome to Linaro Connect Asia 2013 Blog Post](/linaro-blog/2013/03/04/welcome-to-linaro-connect-asia-2013/)
+[Welcome to Linaro Connect Asia 2013 Blog Post](/blog/welcome-to-linaro-connect-asia-2013/)
 
 
 
@@ -549,7 +549,7 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 <td markdown="1">
 
 
-[Slides](/documents/download/ac564bc8b7fceff9025afb92f1a769395135693629454)
+[Slides](https://www.slideshare.net/linaroorg/introduction-to-linaromarch42013)
 
 
 
@@ -728,7 +728,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](/documents/download/898c6dda2b4d77f76452e6260842763b513f9be170ccf)
+[Slides (pdf)](https://www.slideshare.net/linaroorg/leg-acpiforarmv8)
 
 
 
@@ -757,7 +757,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](/documents/download/694584d5b1a054d94759f332a63d59d2513f849b20e89)
+[Slides (pdf)](https://www.slideshare.net/linaroorg/lca13-webserverandcachingtechnologies)
 
 
 
@@ -786,7 +786,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[Slides (pdf)](/documents/download/13f8d06f04c185cf1885fdd1316e3d1c51311d690e719)
+[Slides (pdf)](https://www.slideshare.net/linaroorg/leg-acpiforarmv8)
 
 
 
@@ -2356,31 +2356,31 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Nicolas Pitre](/linux-on-arm/meet-the-team/nicolas-pitre/), Technical Architect, Office of the CTO, Linaro
+  * [Nicolas Pitre](/about/), Technical Architect, Office of the CTO, Linaro
 
 
   * Dave Martin, Kernel Engineer, ARM
 
 
-  * [Viresh Kumar](/linux-on-arm/meet-the-team/viresh-kumar/), Power Management Engineer, Power Management Team, Linaro
+  * [Viresh Kumar](/about/), Power Management Engineer, Power Management Team, Linaro
 
 
-  * [Amit Kucheria](/linux-on-arm/meet-the-team/amit-kucheria/), Tech Lead, Power Management Team, Linaro
+  * [Amit Kucheria](/about/), Tech Lead, Power Management Team, Linaro
 
 
-  * [Mathieu Poirer](/linux-on-arm/meet-the-team/mathieu-poirier/), Kernel Engineer, Samsung Landing Team, Linaro
+  * [Mathieu Poirer](/about/), Kernel Engineer, Samsung Landing Team, Linaro
 
 
-  * [David Zinman](/linux-on-arm/meet-the-team/david-zinman/), Project Manager, Technical Management Team, Linaro
+  * [David Zinman](/about/), Project Manager, Technical Management Team, Linaro
 
 
-  * [Naresh Kamboju](/linux-on-arm/meet-the-team/naresh-kamboju/), QA Services Expert, QA Services Team, Linaro
+  * [Naresh Kamboju](/about/), QA Services Expert, QA Services Team, Linaro
 
 
-  * [Vishal Bhoj](/linux-on-arm/meet-the-team/vishal-bhoj/), Android Engineer, Android Team, Linaro
+  * [Vishal Bhoj](/about/), Android Engineer, Android Team, Linaro
 
 
-  * [Amit Pundir](/linux-on-arm/meet-the-team/amit-pundir/), Android Engineer, Android Team, Linaro
+  * [Amit Pundir](/about/), Android Engineer, Android Team, Linaro
 
 
 
@@ -2393,7 +2393,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Arnd Bergmann](/linux-on-arm/meet-the-team/arnd-bergmann/), Upstream Kernel Engineer, Kernel Team, Linaro
+  * [Arnd Bergmann](/about/), Upstream Kernel Engineer, Kernel Team, Linaro
 
 
 
@@ -2409,10 +2409,10 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
   * Jesse Barker, former Graphics WG Technical Lead, ARM
 
 
-  * [Sumit Semwal](/linux-on-arm/meet-the-team/arnd-bergmann/), Graphic Engineer, Graphics Team, Linaro
+  * [Sumit Semwal](/about/), Graphic Engineer, Graphics Team, Linaro
 
 
-  * [Benjamin Gaignard](/linux-on-arm/meet-the-team/benjamin-gaignard/), Multimedia Specialist, Graphics Team, Linaro
+  * [Benjamin Gaignard](/about/), Multimedia Specialist, Graphics Team, Linaro
 
 
   * Rob Clark, Graphics Engineer, Graphics Team, TI
@@ -2428,13 +2428,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Fathi Boudra](/linux-on-arm/meet-the-team/fathi-boudra/), Tech Lead, Developer Platform, Linaro
+  * [Fathi Boudra](/about/), Tech Lead, Developer Platform, Linaro
 
 
-  * [Andy Green](/linux-on-arm/meet-the-team/andy-green/), Tech Lead, Fujitsu Landing Team, Linaro
+  * [Andy Green](/about/), Tech Lead, Fujitsu Landing Team, Linaro
 
 
-  * [Ilias Biris](/linux-on-arm/meet-the-team/ilias-biris/), Technical Program Manager, Linaro Enterprise Group
+  * [Ilias Biris](/about/), Technical Program Manager, Linaro Enterprise Group
 
 
 
@@ -2447,7 +2447,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Andrea Gallo](/linux-on-arm/meet-the-team/andrea-gallo/), Director Linaro Enterprise Group
+  * [Andrea Gallo](/about/), Director Linaro Enterprise Group
 
 
 
@@ -2460,7 +2460,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Anmar Oueja](/linux-on-arm/meet-the-team/anmar-oueja/), Technical Program Manager, Linaro Enterprise Group
+  * [Anmar Oueja](/about/), Technical Program Manager, Linaro Enterprise Group
 
 
 
@@ -2473,7 +2473,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Bernhard Rosenkränzer](/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/), Android Engineer, Android Team Linaro
+  * [Bernhard Rosenkränzer](/about/), Android Engineer, Android Team Linaro
 
 
 
@@ -2486,13 +2486,13 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Sachin Kamat](/linux-on-arm/meet-the-team/sachin-kamat/), Multimedia Engineer, Samsung Landing Team, Linaro
+  * [Sachin Kamat](/about/), Multimedia Engineer, Samsung Landing Team, Linaro
 
 
-  * [Linus Walleij](/linux-on-arm/meet-the-team/linus-walleij/), Kernel Engineer, Kernel Team, Linaro
+  * [Linus Walleij](/about/), Kernel Engineer, Kernel Team, Linaro
 
 
-  * [John Stultz](/linux-on-arm/meet-the-team/john-stultz/), Kernel Engineer, Kernel Team, Linaro
+  * [John Stultz](/about/), Kernel Engineer, Kernel Team, Linaro
 
 
 
@@ -2531,7 +2531,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 <td markdown="1">
 
 
-[Slides (pdf)](/documents/download/50e8d45eabadf1f6fbe190865e2ca2c051353eb176893)
+[Slides (pdf)](https://www.slideshare.net/linaroorg/introduction-to-linaromarch42013)
 
 
 

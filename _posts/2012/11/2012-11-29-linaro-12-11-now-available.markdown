@@ -28,7 +28,7 @@ Looking over the [highlights for the 12.11 release cycle](https://wiki.linaro.or
 
 
 
-As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([ARMv8]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/))). The Developer Platform team reports that the initial GRUB support for ARM is now available, provided by our Linaro Enterprise Group ([LEG](/engineering/leg)) and marking its first component delivery.
+As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([ARMv8]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/))). The Developer Platform team reports that the initial GRUB support for ARM is now available, provided by our Linaro Enterprise Group ([LEG](/groups/leg/)) and marking its first component delivery.
 
 
 
@@ -39,21 +39,21 @@ The Power Management Working Group continues its progress on big.LITTLE MP by de
 
 
 
-"[**B**ernhard Rosenkranzer](/linux-on-arm/meet-the-team/bernhard-rosenkrnzer/) developed a very exciting demo of a native VI editor and native gcc compilers running on Android for Connect. Perf support on android is improved and is now on the linux-linaro tree and builds for Origen 4412 were set up." said [Zach Pfeffer](/about/), Linaro Android Tech Lead.
+"[**B**ernhard Rosenkranzer](/about/) developed a very exciting demo of a native VI editor and native gcc compilers running on Android for Connect. Perf support on android is improved and is now on the linux-linaro tree and builds for Origen 4412 were set up." said [Zach Pfeffer](/about/), Linaro Android Tech Lead.
 
 
 
-With 13 companies joining Linaro to become part of the [newly formed](/engineering/leg) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux ARM server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/linux-on-arm/meet-the-team/andrea-gallo/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
+With 13 companies joining Linaro to become part of the [newly formed](/groups/leg/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux ARM server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
 
 
 
-"LEG has been focused on creating our roadmap and drafting the first cards as we continue to build on the work that[ David Rusling](/linux-on-arm/meet-the-team/david-a-rusling/) initiated as part of the OCTO enterprise pre-work," said Gallo.  "We've been busy working with ARM and Samsung on extending the Tianocore UEFI support to the Samsung platform beyond the multiple ARM Versatile Express variants already in place. Many thanks to [Ryan Harkin](/linux-on-arm/meet-the-team/ryan-harkin/), the Linaro ARM Landing team and Rony Nandy of Samsung for all their help and collaboration. Also, we are planning an invitation only UEFI mini-summit which is scheduled to take place on the 11-13 of December at the Linaro office in Cambridge," added Gallo."
+"LEG has been focused on creating our roadmap and drafting the first cards as we continue to build on the work that[ David Rusling](/about/) initiated as part of the OCTO enterprise pre-work," said Gallo.  "We've been busy working with ARM and Samsung on extending the Tianocore UEFI support to the Samsung platform beyond the multiple ARM Versatile Express variants already in place. Many thanks to [Ryan Harkin](/about/), the Linaro ARM Landing team and Rony Nandy of Samsung for all their help and collaboration. Also, we are planning an invitation only UEFI mini-summit which is scheduled to take place on the 11-13 of December at the Linaro office in Cambridge," added Gallo."
 
 For more information on the mini-summit and LEG please follow the Linaro [enterprise mailing list](http://lists.linaro.org/mailman/listinfo/linaro-enterprise) and other Linaro social media outlets.
 
 
 
-The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)) and a look at [LAVA](/linaro-blog/2012/11/26/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
+The 12.11 release cycle has been a busy yet exciting cycle as teams not only continue their work to provide updates and features, but have now begun to discuss and plan the next Linaro Connect event--LCA13-Hong Kong. If you missed LCE12-Copenhagen the resources such as slides, videos, and interviews are now available on the [Linaro Website](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/). The [Linaro Blog](/blog/) also contains many items of interest from the 12.11 release cycle including [mini-summit write-ups]((/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)) and a look at [LAVA](/blog/watch-lava-erupt-with-growth-as-new-tests-are-added/) since it's go live date on 27 July 2011 through 6 November 2012.
 
 
 

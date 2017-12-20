@@ -77,7 +77,7 @@ Other highlights from LCE13 include:
 
 
 
-For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [/blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](/blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 

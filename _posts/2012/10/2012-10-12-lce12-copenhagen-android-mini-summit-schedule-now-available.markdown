@@ -44,7 +44,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
 
 
-  * [Zach Pfeffer](/about/), [Linaro Android Team](/linux-on-arm/meet-the-team/android) Tech Lead - Welcome and Overview
+  * [Zach Pfeffer](/about/), [Linaro Android Team](/about/) Tech Lead - Welcome and Overview
 
 
   * [Christian Bejram](https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort
@@ -190,7 +190,7 @@ Yes, and those demos will include (but may not be limited too):
 ## Demo Friday event; what is this and how can myself or my organization participate?
 
 
-Demo Friday is the opportunity for you to highlight the work you and or your organization have done using ARM boards and Linaro builds.  More information on Demo Friday can be found [here](/linaro-blog/2012/09/26/lce-12-copenhagen-demo-friday-call-for-participation/).
+Demo Friday is the opportunity for you to highlight the work you and or your organization have done using ARM boards and Linaro builds.  More information on Demo Friday can be found [here](/blog/lce-12-copenhagen-demo-friday-call-for-participation/).
 
 
 ## Is there still time to register for LCE12-Copenhagen?

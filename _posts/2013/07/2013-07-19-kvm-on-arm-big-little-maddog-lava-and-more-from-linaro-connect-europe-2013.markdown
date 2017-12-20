@@ -99,7 +99,7 @@ If you need more information on big.LITTLE ARM has published further information
 The Demo Friday at LCE13 which took place on 12 July 2013 played host to the world’s first demonstration of KVM (Kernel-based Virtual Machine) running on an ARMv8 64-­bit silicon platform from Applied Micro Circuits Corporation. The demonstration showed KVM ARMv8 64-­bit based virtualization on the AppliedMicro X-­C1 hardware platform featuring the company’s X-Gene Server on a ChipTM silicon solution. This solution consists of eight ARMv8 64-­bit processors running four SMP Linux guest VMs (two ARMv7 32­-bit and two ARMv8 64-­bit guests) with web servers running concurrently on each VM using VirtIO-based network virtualization. The web servers delivered HTML web pages with varying graphical content.
 
 
-ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](/news/linaro-connect-europe-2013-lce13-to-host-first-demonstration-of-kvm-on-appliedmicros-arm-64bit-hardware/en/).
+ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/).
 
 
 In addition to the KVM on ARM demo there were more than 15 other demos. LEG, LAVA, Android, XEN, Sysops and more opted to showcase their work.

@@ -27,7 +27,7 @@ wordpress_id: 1720
 
 The Linaro 12.07 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu  during this release cycle. The 12.07 release is another example of how Linaro, together with its members, partners and community continue to build upon the future of Linux on ARM one release and line of code at a time.
 
-[The LAVA team](/about/) added new test views for its daily testing processes as well as updates to the way its deployment tool works by [implementing a new method](/linaro-blog/2012/07/24/lava-deployment-improvements/) which uses zc.buildout which works consistently and in a repeatable fashion.[](/linaro-blog/2012/07/24/lava-deployment-improvements/))
+[The LAVA team](/about/) added new test views for its daily testing processes as well as updates to the way its deployment tool works by [implementing a new method](/blog/lava-deployment-improvements/) which uses zc.buildout which works consistently and in a repeatable fashion.[](/blog/lava-deployment-improvements/))
 
 Linaro continues to make progress in big.LITTLE development as the [ARM Landing Team](/about/) delivers support for ARM TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](/about/) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
 

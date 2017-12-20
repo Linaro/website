@@ -62,7 +62,7 @@ _**Registration is open for the LCE 12 Copenhagen event being held from 29 Octo
 
 This coming October, over 200 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives, will gather in Copenhagen for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond.
 
-As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](/linaro-blog/2012/09/19/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [ARMv8(64bit) and big.LITTLE](/linaro-blog/2012/09/12/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
+As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [ARMv8(64bit) and big.LITTLE](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
 
 Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on ARM!
 
