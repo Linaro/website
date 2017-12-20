@@ -17,7 +17,7 @@ tags:
 - Linux
 ---
 
-Linaro's Kernel Working Group had a productive week at[ Linaro Connect Q4.11](http://connect.linaro.org/resource-center/linaro-connect-q4-11/) in Orlando, co-located with the[ Ubuntu Developer's Summit](http://uds.ubuntu.com/).   The primary theme of the week was Upstreaming, focusing on next steps  to get new technologies upstream, assuring the quality of upstream  kernels on ARM platforms, developing new features, and continuing the  work of consolidating code across various SOCs.
+Linaro's Kernel Working Group had a productive week at[ Linaro Connect Q4.11](http://connect.linaro.org/resources/) in Orlando, co-located with the[ Ubuntu Developer's Summit](http://uds.ubuntu.com/).   The primary theme of the week was Upstreaming, focusing on next steps  to get new technologies upstream, assuring the quality of upstream  kernels on ARM platforms, developing new features, and continuing the  work of consolidating code across various SOCs.
 
 ## Kernel Process and Testing
 
@@ -52,4 +52,4 @@ ARM's new A15 CPU core that will be used in various next generation SOCs, includ
 
 ## A Great Week All-together
 
-Linaro  Connect was a great opportunity for the KWG to discuss technical items  and also get some hacking done. Some team members worked along side the  Power Management Working group to start implementation of the common  clock structure on various platforms, various pull requests were sent to  Linus for the ARM-soc tree, and some more progress was made on Device  Tree transition.  There is a lot of interesting work to be done over the  next few months and I invite developers to subscribe to the[ linaro-dev mailing list](http://lists.linaro.org/mailman/listinfo/linaro-dev) to be involved in the conversations. I also hope to see many of you at[ Linaro Connect Q1.12](http://connect.linaro.org/events/event/linaro-connect-q112/) in February.
+Linaro  Connect was a great opportunity for the KWG to discuss technical items  and also get some hacking done. Some team members worked along side the  Power Management Working group to start implementation of the common  clock structure on various platforms, various pull requests were sent to  Linus for the ARM-soc tree, and some more progress was made on Device  Tree transition.  There is a lot of interesting work to be done over the  next few months and I invite developers to subscribe to the[ linaro-dev mailing list](http://lists.linaro.org/mailman/listinfo/linaro-dev) to be involved in the conversations. I also hope to see many of you at[ Linaro Connect Q1.12](http://connect.linaro.org/) in February.
