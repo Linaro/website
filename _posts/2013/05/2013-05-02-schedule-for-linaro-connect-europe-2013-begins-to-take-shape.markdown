@@ -38,4 +38,4 @@ Registration for LCE13 is open, so [register today](http://connect.linaro.org).
 
 Use the Linaro Social Media Channels to stay up to date on the latest announcements, downloads, Blog posts, team news and more.
 
-Follow Linaro on [Twitter](http://twitter.com/linaroorg) | Like Linaro on [Facebook](https://www.facebook.com/LinaroOrg) | Circle Linaro on [Google+](https://plus.google.com/112814496864921562564)
+Follow Linaro on [Twitter](http://twitter.com/linaroorg) | Like Linaro on [Facebook](https://www.facebook.com/LinaroOrg) | Circle Linaro on [Google+](https://plus.google.com/+LinaroOrg)

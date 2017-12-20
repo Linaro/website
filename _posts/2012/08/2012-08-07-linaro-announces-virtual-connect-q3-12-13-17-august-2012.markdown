@@ -30,7 +30,7 @@ Linaro Connects are events mainly made up of [BoF-style discussions](http://en.w
 
 You must have an up-to-date browser which supports [Google's Talk Plugin](http://www.google.com/talk/), and the plugin needs to be installed. Both Firefox and Chromium support Google+ Hangouts just fine. You also need a [Google Plus](http://plus.google.com/) account. A proper headset and microphone are strongly encouraged -- you may be muted by the session lead if your background noise is too loud. You are also encouraged to use a webcam if you are joining the Hangout on Air so that you can be part of the streaming video.
 
-Make a point of testing your browser before the session; feel free to contact [Amber Graner](https://plus.google.com/100254004947968890609/posts) or [Christian 'Kiko" Reis](https://plus.google.com/109631159537879208830/posts) on [http://plus.google.com/](http://plus.google.com/) to run a test session at any time. If necessary contact any Linaro engineer on Freenode IRC channel #linaro for assistance in setting up your environment.
+Make a point of testing your browser before the session; feel free to contact [Amber Graner](https://plus.google.com/+LinaroOrg) or [Christian 'Kiko" Reis](https://plus.google.com/+LinaroOrg) on [http://plus.google.com/](http://plus.google.com/) to run a test session at any time. If necessary contact any Linaro engineer on Freenode IRC channel #linaro for assistance in setting up your environment.
 
 ## Session Hours
 
@@ -282,7 +282,7 @@ To participate or watch a session, visit the [Linaro OnAir Google+ profile](http
 
 Clicking on the play button will start video playback in the browser, while clicking on the "Join this hangout" button puts you in the conference itself. If you choose to join, you'll be placed directly into the session.  Please don't join the session after it starts and interrupt. The  session lead is noted in each session entry; notice the lead's cues as they direct the conversation towards the session agenda.
 
-To help identify Hangout participants, we ask that you install the [Lower Third](https://plus.google.com/104402231746556471870/posts) app by adding it to your Hangout view and configuring it, as in this screenshot:
+To help identify Hangout participants, we ask that you install the [Lower Third](https://plus.google.com/+LinaroOrg) app by adding it to your Hangout view and configuring it, as in this screenshot:
 
 {% include image.html name="hangout-7.png" alt="Screenshot showing how to enable the Lower Third app in a Hangout" %}
 

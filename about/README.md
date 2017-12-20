@@ -378,7 +378,7 @@ September
 </dt>
 
 <dd markdown="1">
-Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More]((http://connect.linaro.org/lcu14/ "LCU14 Connect"))
+Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More](http://connect.linaro.org/lcu14/ "LCU14 Connect")
 </dd>
 
 <dt id="2014-2">August
