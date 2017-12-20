@@ -4,7 +4,7 @@ layout: linaro-life
 permalink: /linarolife/
 image:
     path: /assets/images/content/linarolife.jpg
-    name: linarolife.jpg
+    name: linarolife2.jpg
 css-include: main-life
 ---
 <div class="row" class="linaro-life" style="height: 1000px; background-color: white;">
