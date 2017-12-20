@@ -30,7 +30,7 @@ title: Linaro 16.10 Release Available for Download
 wordpress_id: 11844
 ---
 
-[**Click here for Linaro 16.11 Release**](/blog/linaro-16-11-release-available-for-download/)
+[**Click here for Linaro 16.11 Release**](/blog/linaro-1611-release/)
 
 
 > "The first rule of all intelligent tinkering is to keep all the parts." -- Aldo Leopold, quoted in Donald Wurster's "Nature's Economy"
