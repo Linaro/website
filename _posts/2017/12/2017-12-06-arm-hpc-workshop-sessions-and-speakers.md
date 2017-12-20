@@ -29,6 +29,10 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-md-6">
 
         <div class="list-group">
+          <a href="#dr" class="list-group-item">
+            <h4 class="list-group-item-heading">Welcome Note</h4>
+            <p class="list-group-item-text">David Rusling CTO, Linaro</p>
+          </a>
           <a href="#1" class="list-group-item">
             <h4 class="list-group-item-heading">Introduction of Post-K development</h4>
             <p class="list-group-item-text">Yutaka Ishikawa, RIKEN AICS</p>
@@ -125,6 +129,27 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 
 ## Session Details
+
+<div class="arm-hpc-session">
+
+    <div class="col-sm-9 session-info">
+        <a name="dr"></a>
+        <h4 class="talk-title">
+            Welcome Note
+        </h4>
+
+        <em>By</em> David Rusling CTO, Linaro
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3B60l14pgrhlGQ" %}
+
+    </div>
+
+    <div class="col-sm-3 speaker-info">
+
+    </div>
+
+</div>
+
 
 <div class="arm-hpc-session">
 
@@ -522,6 +547,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             New portable and practical parallel execution model, Process in Process (PiP in short) will be presented. PiP tasks share the same virtual address space like the multi-thread model and privatized variables like the multi-process model. Because of this, PiP provides the best of two worlds, multi-process (MPI) and multi-thread (OpenMP).
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/hzv5CPRfIBIMwo" %}
 
     </div>
 
@@ -756,6 +783,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             The "co-design" is a bi-directional approach where a system would be designed on demand from applications and the applications must be optimized to the system. The performance estimation and evaluation of applications are important for the co-design. In this talk, we focus on the performance evaluation with Arm HPC tools for SVE.
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/2YSUrOw3n2W4g" %}
 
     </div>
 
