@@ -522,6 +522,8 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             New portable and practical parallel execution model, Process in Process (PiP in short) will be presented. PiP tasks share the same virtual address space like the multi-thread model and privatized variables like the multi-process model. Because of this, PiP provides the best of two worlds, multi-process (MPI) and multi-thread (OpenMP).
         </p>
+        
+        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/hzv5CPRfIBIMwo" %}
 
     </div>
 
