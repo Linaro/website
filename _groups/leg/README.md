@@ -18,7 +18,6 @@ related_sig:
   - /sig/hpc/
 other_projects:
   - name: Docker
-    url: https://docker.linaro.cloud/
   - name: OpenJDK
     url: http://openjdk.linaro.org/
   - name: OpenStack
