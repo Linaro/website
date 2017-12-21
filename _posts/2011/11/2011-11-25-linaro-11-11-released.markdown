@@ -20,7 +20,7 @@ We had Android Ice Cream Sandwich for the world this month and the Android Team 
 The Release Team notes that this is a remarkable achievement and congratulates the Linaro Android Team for this effort that showed how agile that team is set up to accommodate engineering plan mid-month and get these builds up and out within 10 days. Check out our ICS running on Snowball. Video available on youtube: [http://www.youtube.com/watch?v=MQOKPLg3ARE](http://www.youtube.com/watch?v=MQOKPLg3ARE).
 
 If you don’t want to read the rest of this announcement but want to get started on our ICS builds, please go to our download mirror directly, download the bits and follow our easy install instructions that you will find there:
-[http://releases.linaro.org/11.11/android/images-ics-preview](http://releases.linaro.org/11.11/android/images-ics-preview)
+[http://releases.linaro.org/](http://releases.linaro.org/)
 
 Obviously, Linaro continued to deliver great stuff outside of those Android ICS builds. So here are the big items that the Release Team has selected to feature this time:
 	

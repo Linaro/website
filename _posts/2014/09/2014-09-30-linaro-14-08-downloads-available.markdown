@@ -71,7 +71,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/projects/armv8/](/projects/armv8/)
+  * [/initiatives/armv8/](/initiatives/armv8/)
 
 
 **GETTING INVOLVED**
@@ -115,4 +115,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
-Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [/connect/lcu/lcu14/](/connect/lcu/lcu14/)
+Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [http://connect.linaro.org/lcu14/](http://connect.linaro.org/lcu14/)

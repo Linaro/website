@@ -44,4 +44,4 @@ Please create a poster that lets attendees know all about your demonstration. Th
 
 By participating in this Demo Friday event you will also be given the opportunity to have your Demo recorded and promoted via the[ Linaro YouTube Channel](http://www.youtube.com/playlist?list=PLHMIcjAkq7Et20mZ_LMoJXpRxxoGNlQjV) and various Linaro Social Media sites.
 
-If you want to know more about Linaro Connect and Demo Friday you can find highlights and demonstrations from previous Linaro Connect events on the [Linaro YouTube Channel](http://www.youtube.com/user/linaroorg) and on the [Connect Resources page](/connect-resources/Q/lce12#videos).
+If you want to know more about Linaro Connect and Demo Friday you can find highlights and demonstrations from previous Linaro Connect events on the [Linaro YouTube Channel](http://www.youtube.com/user/linaroorg) and on the [Connect Resources page](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/#videos).

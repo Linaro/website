@@ -25,4 +25,4 @@ Zach Pfeffer, Linaro Android Tech Lead, demonstrates two Panda boards running An
 
 You will see that there is a noticeable difference in the time taken by both boards to execute the demo.
 
-You can test the latest Android Linaro builds for the Panda board by following instructions on [this blog post](/linaro-blog/2011/05/31/linaro-android-build-service-video/), or by downloading our [latest monthly release](/downloads/).
+You can test the latest Android Linaro builds for the Panda board by following instructions on [this blog post](/blog/linaro-android-build-service-video/), or by downloading our [latest monthly release](/downloads/).

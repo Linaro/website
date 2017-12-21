@@ -63,10 +63,10 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 Other highlights from LCE13 include:
 
-  * Linaro Connect Europe 2013: Keynote Speaker Videos - [/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/](/linaro-blog/2013/07/19/linaro-connect-europe-2013-keynote-speaker-videos/)
+  * Linaro Connect Europe 2013: Keynote Speaker Videos - [/blog/linaro-connect-europe-2013-keynote-speaker-videos/](/blog/linaro-connect-europe-2013-keynote-speaker-videos/)
 
 
-  * Linaro Connect Europe 2013: People and Personalities of Connect - [/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/](/linaro-blog/2013/07/18/linaro-connect-europe-2013-people-and-personalities-of-connect/)
+  * Linaro Connect Europe 2013: People and Personalities of Connect - [/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
   * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
@@ -77,7 +77,7 @@ Other highlights from LCE13 include:
 
 
 
-For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](/linaro-blog/2013/07/19/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
+For updates on these topics, as well as links to videos, pictures, presentations and more please see the Linaro Blog and the summary of this event at: [/blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/](/blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/)
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 

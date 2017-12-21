@@ -46,7 +46,7 @@ If a session is listed in one of the following rooms then it will be broadcast l
 
 In order to get the most out of your remote participation experience you’ll need to do the following:
 
-  * Add Linaro onAir to your Google+ circles- [https://plus.google.com/112814496864921562564](https://plus.google.com/112814496864921562564)
+  * Add Linaro onAir to your Google+ circles- [https://plus.google.com/+LinaroOrg](https://plus.google.com/+LinaroOrg)
   * Bookmark the YouTube Linaro onAir channel   [http://www.youtube.com/user/linaroOnAir](http://www.youtube.com/user/linaroOnAir)
   * Decide what sessions you would like to participate in and become familiar with the links listed in the session description
 

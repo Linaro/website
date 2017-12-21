@@ -28,7 +28,7 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro
 
 ### Key Points for wider discussion
 
-  * The 12.01  [ release ](http://releases.linaro.org/12.01/android/)of the Android Platform is done.
+  * The 12.01  [ release ](http://releases.linaro.org/)of the Android Platform is done.
 
 
   * The schedule for the San Francisco Connect meeting is  [ finalized.](http://summit.ubuntu.com/lcq1-12/track/linaro-platforms/)

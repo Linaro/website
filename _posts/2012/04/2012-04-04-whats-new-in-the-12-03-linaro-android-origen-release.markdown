@@ -18,9 +18,9 @@ title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 ---
 
-_** [Amit Pundir](/about/meet-the-team/amit-pundir/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
+_** [Amit Pundir](/about/), Android Engineer at Linaro takes a moment to tell readers about what's new in the Linaro 12.03 Android Origen release.**_
 
-Its been almost a week since [Linaro 12.03 was released](/linaro-blog/2012/03/29/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
+Its been almost a week since [Linaro 12.03 was released](/blog/linaro-12-03-release/) and I wanted to tell you about some of the new features being offered in the 12.03 Linaro Android Origen release.
 
 **What's new in the 12.03 Linaro Android Origen release?**
 
@@ -32,7 +32,7 @@ Also, in this cycle is Mali accelerated HDMI display (which is a scaled-up versi
 
 There is no escape from binary blobs; is there? Not just yet in case of MM, HDMI, and Mali support on Origen, but we are working in that direction as well :)
 
-In the current setup, we offer a tar package(or overlay) of binaries (MM, HDMI, Mali, Audio etc) which can be obtained from our [image hosting server](http://snapshots.linaro.org/android/binaries/origen/20120324/vendor.tar.bz2) after [accepting an EULA](http://snapshots.linaro.org/licenses/samsung-v2.html) of course. Once you create the SD card images, you will need to run an installation script which is the part of this vendor tar package, and will install the necessary binaries on your SD card.
+In the current setup, we offer a tar package(or overlay) of binaries (MM, HDMI, Mali, Audio etc) which can be obtained from our [image hosting server](https://releases.linaro.org/archive/12.03/android/leb-origen/) after [accepting an EULA](http://snapshots.linaro.org/licenses/samsung-v2.html) of course. Once you create the SD card images, you will need to run an installation script which is the part of this vendor tar package, and will install the necessary binaries on your SD card.
 
 Detailed instructions are given on [the release page](https://android-build.linaro.org/builds/~linaro-android/origen-ics-gcc46-samsunglt-stable-blob-12.03-release/).
 

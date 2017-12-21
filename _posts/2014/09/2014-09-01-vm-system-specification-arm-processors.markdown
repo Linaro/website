@@ -25,7 +25,7 @@ Version 1.0, Last Revised: August 4th, 2014
 
 The goal of this spec is to allow suitably-built OS images to run on all virtualization solutions for ARM processors, such as KVM or Xen. Recommendations in this spec are valid for AArch32 and AArch64 alike, and they aim to be hypervisor agnostic. This was created as the result of discussions and sessions during Linaro Connect and a public RFC sent to various relevant mailing lists.
 
-The spec includes sections on: Goal, Image Format, Virtual Firmware, Hardware Description, VM Platform, Changes and Previous Versions, and References. The full text is available in [PDF](/app/resources/WhitePaper/VMSystemSpecificationForARM-v1.0.pdf) and [clear-text](http://people.linaro.org/~christoffer.dall/arm-vm-spec-v1.0.txt).
+The spec includes sections on: Goal, Image Format, Virtual Firmware, Hardware Description, VM Platform, Changes and Previous Versions, and References. The full text is available in [PDF](/assets/downloads/VMSystemSpecificationForARM-v1.0.pdf) and [clear-text](http://people.linaro.org/~christoffer.dall/arm-vm-spec-v1.0.txt).
 
 
 

@@ -378,7 +378,7 @@ September
 </dt>
 
 <dd markdown="1">
-Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More](/connect/lcu/lcu14/ "/connect/lcu/lcu14/")
+Linaro Connect USA 2014 (LCA14) in Burlingame [Learn More](http://connect.linaro.org/lcu14/ "LCU14 Connect")
 </dd>
 
 <dt id="2014-2">August
@@ -401,7 +401,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro announces the Linaro Mobile Group [Read More](/projects/mobile// "Linaro announces the Linaro Mobile Group ")
+Linaro announces the Linaro Mobile Group [Read More](/projects/mobile/ "Linaro announces the Linaro Mobile Group ")
 </dd>
 
 <dt markdown="1">

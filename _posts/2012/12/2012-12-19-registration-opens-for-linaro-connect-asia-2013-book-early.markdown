@@ -59,7 +59,7 @@ For LCA13 Track participants can expect the track sessions throughout the week t
   * Training
 
 
-In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/engineering/leg) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](/connect/schedule).
+In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/groups/leg/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](http://connect.linaro.org/).
 
 
 ## What did you miss at the last Connect?
@@ -70,10 +70,10 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### 3 Mini - Summits
 
-  * [Android Mini-Summit](/2012/12/06/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
+  * [Android Mini-Summit](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
 
-  * [ARMv8(64bit)](/2012/11/26/armv8-64-bit-mini-summit-at-lce12-copenhagen/)
+  * [ARMv8(64bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)
 
 
   * big.LITTLE
@@ -149,10 +149,10 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### Announcements
 
-  * [LEG](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/en/)
+  * [LEG](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/)
 
 
-  * [HiSilicon](/news/hisilicon-joins-linaro-as-core-member/en/), [LG Electronics](/news/lg-electronics-joins-linaro/en/)
+  * [HiSilicon](/news/hisilicon-joins-linaro-as-core-member/), [LG Electronics](/news/lg-electronics-joins-linaro/)
 
 
 ## Why come to Linaro Connect?

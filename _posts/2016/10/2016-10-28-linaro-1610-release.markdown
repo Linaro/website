@@ -30,7 +30,7 @@ title: Linaro 16.10 Release Available for Download
 wordpress_id: 11844
 ---
 
-[**Click here for Linaro 16.11 Release**](/blog/linaro-16-11-release-available-for-download/)
+[**Click here for Linaro 16.11 Release**](/blog/linaro-1611-release/)
 
 
 > "The first rule of all intelligent tinkering is to keep all the parts." -- Aldo Leopold, quoted in Donald Wurster's "Nature's Economy"
@@ -66,7 +66,7 @@ If you are interested in getting the source and building these images yourself p
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [/projects/armv8/](/projects/armv8/)
+  * [/initiatives/armv8/](/initiatives/armv8/)
 
 
 **USING THE DEBIAN-BASED IMAGES**

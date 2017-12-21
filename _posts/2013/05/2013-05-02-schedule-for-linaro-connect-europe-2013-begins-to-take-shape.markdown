@@ -22,7 +22,7 @@ wordpress_id: 2687
 [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE13) is being held at the Burlington Hotel in Dublin, Ireland on 8-12 July.  As we enter this stage in our planning I wanted to remind you to [register today](http://linaroconnect-lce13-eorg.eventbrite.com/)!
 
 
-Still haven’t decided if you should attend?  Do you or others in your organization wonder what is new with GNU Tools? Are you new to Linux on ARM? Maybe Android is your passion? What about those Linaro builds that are built on top of Ubuntu, Fedora, or OpenEmbedded? Do you want to help direct the future of ARM Enterprise Server?  And, let’s not forget about Networking on ARM.  If you have just read the list and thought,  “I need to know more about Linaro and the future of Linux on ARM”, then you definitely need to see how the [schedule of events](/connect/schedule) is coming together.
+Still haven’t decided if you should attend?  Do you or others in your organization wonder what is new with GNU Tools? Are you new to Linux on ARM? Maybe Android is your passion? What about those Linaro builds that are built on top of Ubuntu, Fedora, or OpenEmbedded? Do you want to help direct the future of ARM Enterprise Server?  And, let’s not forget about Networking on ARM.  If you have just read the list and thought,  “I need to know more about Linaro and the future of Linux on ARM”, then you definitely need to see how the [schedule of events](http://connect.linaro.org/) is coming together.
 
 The LCE13 schedule is packed with a wide range of topics from the future looking to the practical hands-on. Tracks for this event focus on Android, Graphics and Multimedia, the Kernel, Platform Development, Power Management, QA and Infrastructure, Tools, Validation and LAVA, and training.
 
@@ -32,10 +32,10 @@ Those who attend can expect to participate in sessions such as ARMv8-A Status an
 
 LCE13 in Dublin is going to be a fast-moving, high-energy event where those who attend will be helping to design and build the future of Linux on ARM. Engineers who attend LCE13 will return to their companies with the latest Linux developments around ARM, new ways of optimizing ARM technology, an improved upstreaming support network and more.
 
-You can see the session titles, tracks and place holders on the [Linaro Connect website](/connect/schedule). Keep in mind the schedule is subject to change and the confirmed schedule with session abstracts, keynotes and more will be announced mid-May.
+You can see the session titles, tracks and place holders on the [Linaro Connect website](http://connect.linaro.org/). Keep in mind the schedule is subject to change and the confirmed schedule with session abstracts, keynotes and more will be announced mid-May.
 
 Registration for LCE13 is open, so [register today](http://connect.linaro.org).
 
 Use the Linaro Social Media Channels to stay up to date on the latest announcements, downloads, Blog posts, team news and more.
 
-Follow Linaro on [Twitter](http://twitter.com/linaroorg) | Like Linaro on [Facebook](https://www.facebook.com/LinaroOrg) | Circle Linaro on [Google+](https://plus.google.com/112814496864921562564)
+Follow Linaro on [Twitter](http://twitter.com/linaroorg) | Like Linaro on [Facebook](https://www.facebook.com/LinaroOrg) | Circle Linaro on [Google+](https://plus.google.com/+LinaroOrg)
