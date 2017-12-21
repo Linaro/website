@@ -43,4 +43,4 @@ The script is fairly short, so you can take bits and pieces of it to include in 
 
 This is similar to the first script, but insteads just downloads the kernel repository used by the build and executes the commands needed to rebuild the kernel.
 
-For an example of these scripts take a look at the [Panda LEB build](http://releases.linaro.org/12.03/android/leb-panda/) for the 12.03 engineering cycle.
+For an example of these scripts take a look at the [Panda LEB build](http://releases.linaro.org/) for the 12.03 engineering cycle.
