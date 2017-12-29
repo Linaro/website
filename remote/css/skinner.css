@@ -1,0 +1,8 @@
+/**
+ * App skinner helper
+ * 
+ */
+#family {display:none;}
+.outlined {border:1px solid red; padding:10px; position:relative;}
+
+p.labeller {display:block; font-size:9px !important; font-face:arial !important; font-weight:normal; margin:0 !important; padding:2px 5px !important; background:rgba(0,0,0,0.8); color:#ffa21a; position:relative; }

@@ -1,0 +1,247 @@
+body {
+font-size: 16px;
+color: #252525;
+font-weight: normal;
+line-height: 22px;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+	
+
+
+header{
+	min-height: 45px;
+}
+
+a {
+color: #b2b2b2;
+}
+
+	a:hover {
+	color: #a682b8;
+	text-decoration: none;
+	}
+
+.content{
+	min-height: 500px;
+}
+
+.content-holder {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -220px;
+}
+
+.footer-holder{
+	height: 191px;
+}
+
+
+
+#social {
+    border-top: 1px solid #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+	#social ul {
+	    padding: 0;
+	    margin: 0;
+	    list-style: none;
+	}
+	#social li {
+	    display: inline-block;
+	    min-width: 16%;
+	    text-align: center;
+	}
+
+	#social li i {
+	
+		display: block;
+		background: #8d67a3;
+		padding: 10px;
+		color: #fff;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	
+	#social i.facebook {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: 8px 5px;
+	}
+	
+	#social i.twitter {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -29px 5px;
+	}
+	
+	#social i.feed {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -76px 5px;
+	}
+	
+	#social i.google-plus {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -124px 5px;
+	}
+	
+	#social i.youtube {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -210px 5px;
+	}
+	
+	#social i.linaro-icon {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -247px 5px;
+	}
+	
+	#social i.connect-icon {
+		background-image: url('http://www.linaro.org/app/subdomains/images/subdomain-sprite.png');
+		background-position: -277px 5px;
+	}
+	
+
+footer{
+	
+}
+
+/* #register-linaro register.linaro.org*/
+
+#register-linaro .content {
+    background-image: url('http://www.linaro.org/app/subdomains/images/register.linaro/group-1.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    padding-top: 230px;
+}
+
+
+#register-linaro input{
+	width: 100%;
+}
+
+form#registration {
+    padding: 20px 0;
+}
+
+#register-linaro h1.title {
+	margin-bottom: 60px;
+	line-height: 60px;
+	margin-top: 0;
+}
+
+#register-linaro .grey-holder {
+	padding: 15px 25px 0;
+}
+
+#register-linaro .captcha-helper{
+	display: inline-block;
+}
+
+/* Mic */
+
+
+input{
+	padding: 5px;
+}
+
+
+
+.footer-menu {
+	text-align: right;
+	font-size: 12px;
+}
+	.footer-menu ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	
+	.footer-menu li{
+		display: inline-block;
+		padding-left: 10px;
+	}
+	
+	.footer-menu a{
+		color: #B2B2B6;
+	}
+	
+	.footer-menu a:hover{
+		color: #a682b8;
+	}
+
+::selection {
+background-color: #a682b8;
+color: #fff;
+}
+
+.grey-holder hr {
+border-top: 1px solid #C5C5C5;
+margin: 30px 0;
+}
+
+/* Colours */
+
+.brand-bar{
+	background-color: #8d67a3;
+	color: #ffffff;
+	padding: 12px 0;
+}
+
+.grey-holder{
+	background-color: #f1f1f1;
+}
+
+
+
+	.grey-holder input{
+	    border: 0;
+	    margin: 5px 0;
+	}
+	
+.white-text {
+	color: #fff;
+}
+
+.error{
+	color: red;
+}
+
+.copyright{
+	color: #b2b2b2;
+	font-size: 12px;
+}
+
+
+
+
+
+input[type="submit"] {
+	background-color: #8d67a3;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 3px solid #714D86;
+}
+
+input[type="submit"]:hover {
+	background-color: #9e79b3;
+}
+
+#register-linaro select {
+width: 100%;
+height: 33px!important;
+border: 0px;
+}
