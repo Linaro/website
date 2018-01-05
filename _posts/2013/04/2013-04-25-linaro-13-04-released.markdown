@@ -31,7 +31,7 @@ Quality builds continue to be the foundation on which the future of Linux on ARM
 
 Our Builds and Baselines teams are the footers that support this foundation of collaboration and during the 13.04 release front, Dalvik VM unit test has now been automated and the native toolchain on Android has been updated to Linaro GCC 4.8. The Android tree has been updated to compile with GCC 4.8 based toolchains and all related changes have been upstreamed. The ARMv7 KVM enabled kernels intergrated into our pre-built images are now built daily and tested in Linaro's CI loop. The OpenEmbedded ARMv8 engineering build now provides 64bit HipHop VM requirements for porting and optimization purposes. The OpenEmbedded test cases have been automated and a current list of these tests can be found at:
 
-[https://git.linaro.org/gitweb?p=qa/test-definitions.git;a=tree;f=openembedded](https://git.linaro.org/gitweb?p=qa/test-definitions.git;a=tree;f=openembedded)
+[https://git.linaro.org/](https://git.linaro.org/)
 
 The Linaro Kernel WG focused on the following areas during this release cycle: refactor EHCI controller code, depopulate Exynos/ux500/plat-nomadik, expand binder unit test, improve eMMC power management support, port some of the platforms to multi-platform support, Android upstreaming effort, and much more.
 
