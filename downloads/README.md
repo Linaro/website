@@ -23,8 +23,8 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|ARM | <img src="/wp-content/uploads/2014/08/aarch-64-logo.png" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
-|Qualcomm | <img src="/wp-content/uploads/2014/08/snapdragon-logo.png" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+|ARM | <img src="{% asset_path 'aarch-64-logo.jpg' %}" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Qualcomm | <img src="{% asset_path 'qualcomm-snapdragon.jpg' %}" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
 
