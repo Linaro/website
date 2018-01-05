@@ -62,7 +62,7 @@ As EVP of Greater China Jill is responsible for all aspects of Linaro developmen
 <div class="col-sm-9" markdown="1">
 ### **Joe Bates** / Executive VP Member Services
 
-As EVP of Member Services Joe is responsible for the success of Linaro’s members, overseeing Linaro’s support and services strategy and operations including the direct management of all Linaro member services functions, engagements and Landing Teams.Joe has over 20 years of experience and a hands-on style building and leading exceptional services, support and sales teams that insure customer success and consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information, Object Design and SavaJe Technologies. Joe resides with his family in the Boston area.</span>
+As EVP of Member Services Joe is responsible for the success of Linaro’s members, overseeing Linaro’s support and services strategy and operations including the direct management of all Linaro member services functions, engagements and Landing Teams.Joe has over 20 years of experience and a hands-on style building and leading exceptional services, support and sales teams that insure customer success and consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information, Object Design and SavaJe Technologies. Joe resides with his family in the Boston area.
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="joe-bates.png" class="linaro-profile-image" alt="Joe Bates Profile Photo"%}
