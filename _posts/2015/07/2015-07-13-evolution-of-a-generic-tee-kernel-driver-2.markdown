@@ -62,4 +62,4 @@ So, what is the takeaway from this long story about the kernel driver supposed t
 
 _References / Links_
 
-[1] [https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/HEAD:/drivers/tee](https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/HEAD:/drivers/tee)
+[1] [https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/drivers/tee](https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/drivers/tee)
