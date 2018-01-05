@@ -35,7 +35,7 @@ The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new L
 
 <ul>
 <li>
-<img src="/assets/images/thumbnails/content/icon-linux-logo-24x24.png" alt="Linux Linaro">
+<img src="{% asset_path 'icon-linux-logo-24x24.png' %}" alt="Linux Linaro">
 <a href="https://git.linaro.org/kernel/linux-linaro-stable.git/">linux-linaro-stable (LSK) Git</a>,
 <a href="https://wiki.linaro.org/LSK">additional information</a>
 </li>
