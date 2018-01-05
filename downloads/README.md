@@ -23,8 +23,8 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|ARM | <img src="{% asset_path 'aarch-64-logo.jpg' %}" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
-|Qualcomm | <img src="{% asset_path 'qualcomm-snapdragon.jpg' %}" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+|ARM | <img src="/assets/images/thumbnails/content/aarch-64-logo.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Qualcomm | <img src="/assets/images/thumbnails/content/qualcomm-snapdragon.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
 
@@ -35,7 +35,7 @@ The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new L
 
 <ul>
 <li>
-<img src="{% asset_path 'icon-linux-logo-24x24.png' %}" alt="Linux Linaro">
+<img src="/assets/images/thumbnails/content/icon-linux-logo-24x24.png" alt="Linux Linaro">
 <a href="https://git.linaro.org/kernel/linux-linaro-stable.git/">linux-linaro-stable (LSK) Git</a>,
 <a href="https://wiki.linaro.org/LSK">additional information</a>
 </li>
