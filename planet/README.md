@@ -32,13 +32,6 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 <div id="rss-feed-2"></div>
 </div>
 
-<div class="col-sm-4 linaro-rss-feed" markdown="1">
-### Paul E. McKenney
-[paulmckrcu.wordpress.com](http://paulmckrcu.wordpress.com/)
-<div id="rss-feed-3"></div>
-</div>
-</div>
-
 <div class="row">
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
@@ -62,12 +55,6 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 </div>
 
 <div class="row">
-
-<div class="col-sm-4 linaro-rss-feed" markdown="1">
-### James Arnett
-[nerdrambles.wordpress.com/](http://nerdrambles.wordpress.com/)
-<div id="rss-feed-7"></div>
-</div>
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Senthil Kumaran
