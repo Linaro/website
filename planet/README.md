@@ -32,14 +32,14 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 <div id="rss-feed-2"></div>
 </div>
 
-<div class="row">
-
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Peter Maydell
 [translatedcode.wordpress.com](https://translatedcode.wordpress.com)
 <div id="rss-feed-4"></div>
 </div>
+</div>
 
+<div class="row">
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Riku Voipio	
 [suihkulokki.blogspot.com](http://suihkulokki.blogspot.com)
@@ -52,25 +52,12 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 <div id="rss-feed-6"></div>
 </div>
 
-</div>
-
-<div class="row">
-
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Senthil Kumaran
 [www.stylesen.org](https://www.stylesen.org/)
 <div id="rss-feed-8"></div>
 </div>
-
-<div class="col-sm-4 linaro-rss-feed" markdown="1">
-### Alex Bennée
-[www.bennee.com](https://www.bennee.com)
-<div id="rss-feed-9"></div>
 </div>
-
-</div>
-
-
 
 
 <div class="row">
@@ -107,6 +94,13 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 [http://feeds.launchpad.net/linaro/announcements.atom](http://feeds.launchpad.net/linaro/announcements.atom)
 <div id="rss-feed-13"></div>
 </div>
+
+<div class="col-sm-4 linaro-rss-feed" markdown="1">
+### Alex Bennée
+[www.bennee.com](https://www.bennee.com)
+<div id="rss-feed-9"></div>
+</div>
+
 
 </div>
 
