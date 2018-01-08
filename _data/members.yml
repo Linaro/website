@@ -52,9 +52,6 @@ group_members:
       - name: Ericsson
         image: ericsson.jpg
         url: /company/ericsson/
-      - name: Facebook
-        image: facebook.jpg
-        url: /company/facebook/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
@@ -107,9 +104,6 @@ leg_members:
       - name: Cavium
         image: cavium.jpg
         url: /company/cavium/
-      - name: Facebook
-        image: facebook.jpg
-        url: /company/facebook/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
