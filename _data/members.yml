@@ -234,9 +234,6 @@ lite_members:
        - name: NXP
          image: nxp.jpg
          url: /company/nxp/
-       - name: Redhat
-         image: redhat.jpg
-         url: /company/red-hat/
        - name: Sanechips
          image: sanechips.png
          url: /company/sanechips/
