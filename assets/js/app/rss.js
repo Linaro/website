@@ -17,6 +17,14 @@ $(document).ready(function(){
         dateFormat: 'MMMM Do, YYYY',
         ssl: false,
         });
+        
+        $("#rss-feed-4").rss("https://translatedcode.wordpress.com/feed/",
+        {
+        entryTemplate: entryTemp,
+        layoutTemplate: layoutTemp,
+        dateFormat: 'MMMM Do, YYYY',
+        ssl: true,
+        });
 
         $("#rss-feed-5").rss("http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
         {
