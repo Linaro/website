@@ -184,7 +184,7 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **9:00 AM - 9:30 AM** - [Monday Keynote: James Bottomley](http://lce-13.zerista.com/event/member/79586), [Google+ Event Listing](https://plus.google.com/u/0/events/cmumvm9503pngbb22ha95tu8fg0), [Video (YouTube](http://youtu.be/3nSh8CfDpb0)), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Monday%20Keynote-%20James%20Bottomley.mp4),[ Presentation](https://www.slideshare.net/linaroorg/keynote-jamesbottomley)
 
 
-  * **9:30 AM - 10:00 AM** - [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587), [Google+ Event Listing](https://plus.google.com/u/0/events/c9km5je4jufpsimd7jcbvus7his), [Video (YouTube)](http://youtu.be/Z6tJR99wWWI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Connect%20survival%20Guide.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-surviva)
+  * **9:30 AM - 10:00 AM** - [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587), [Google+ Event Listing](https://plus.google.com/u/0/events/c9km5je4jufpsimd7jcbvus7his), [Video (YouTube)](http://youtu.be/Z6tJR99wWWI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Connect%20survival%20Guide.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-survival-guide)
 
 
 
