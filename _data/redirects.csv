@@ -2020,3 +2020,6 @@
 /linaro-blog/sfo17-day1,/blog/sfo17-day1/
 /linaro-blog/xilinx-joins-linaro-iot-embedded-group/index.html,/blog/xilinx-joins-linaro-iot-embedded-group/
 /linaro-blog/xilinx-joins-linaro-iot-embedded-group,/blog/xilinx-joins-linaro-iot-embedded-group/
+# RSS Feed Redirect
+/feed/index.html,https://www.linaro.org/feed.xml
+/feed,https://www.linaro.org/feed.xml
