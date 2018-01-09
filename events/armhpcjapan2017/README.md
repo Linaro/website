@@ -100,48 +100,48 @@ For more info contact marketing@linaro.org
 ## Day 1
 
 {:.table.responsive-table}
-|Start Time|End Time|Title|Reserved for|
-|----------|--------|-----|------------|
-|09:00||Room Opens for Setup||
-|09:15|09:30|Welcome Note|David Rusling CTO, Linaro|
-|09:30|09:55|[Introduction of Post-K development](/blog/arm-hpc-workshop-sessions-and-speakers/#1)|Yutaka Ishikawa (RIKEN)|
-|10:00|10:25|[Post-K: Building the Arm HPC Ecosystem](/blog/arm-hpc-workshop-sessions-and-speakers/#2)|Kouichi Hirai (Fujitsu)|
-|10:30|10:55|[Arm tools and roadmap for SVE compiler support](/blog/arm-hpc-workshop-sessions-and-speakers/#3)|Richard Sandiford, Florian Hahn (Arm)|
-|11:00|11:20|AM Coffee Break|
-|11:30|11:55|[HCQC : HPC Compiler Quality Checker](/blog/arm-hpc-workshop-sessions-and-speakers/#4)|Masaki Arai (Fujitsu)|
-|12:00|12:25|[State of the Scalasca Toolset](/blog/arm-hpc-workshop-sessions-and-speakers/#5)|Itaru Kitayama (RIKEN)|
-|12:30|13:20|Lunch|
-|13:30|13:55|[Porting and Optimization of Numerical Libraries for Arm SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#6)|Toshiyuki Imamura (RIKEN), Tetsuzou Usui (Fujitsu)|
-|14:00|14:25|[An Evaluation of EasyBuild for Open Source Software Deployment](/blog/arm-hpc-workshop-sessions-and-speakers/#7)|Takahiro Ogura (RIKEN)|
-|14:30|14:55|[An Overview of the IHK/McKernel Multi-kernel Operating System](/blog/arm-hpc-workshop-sessions-and-speakers/#8)|Balazs Gerofi (RIKEN)|
-|15:00|15:20|PM Coffee Break|
-|15:30|15:55|[Compilation of COSMO for GPU using LLVM](/blog/arm-hpc-workshop-sessions-and-speakers/#9)|Tobias Grosser (Scalable Parallel Computing Laboratory (SPCL))|
-|16:00|16:25|[Involvement in OpenHPC](/blog/arm-hpc-workshop-sessions-and-speakers/#10)|Takeharu Kato (Fujitsu)|
-|16:30|17:00|Breakdown/clean up|
-|18:00|Dinner|Sponsored by Fujitsu and Linaro|
+|Start Time|End Time|Title|Reserved for|Presentation|
+|----------|--------|-----|------------|------------|
+|09:00||Room Opens for Setup|||
+|09:15|09:30|Welcome Note|David Rusling CTO, Linaro|[Slides](https://www.slideshare.net/linaroorg/linaro-hpc-workshop-note)|
+|09:30|09:55|[Introduction of Post-K development](/blog/arm-hpc-workshop-sessions-and-speakers/#1)|Yutaka Ishikawa (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/introduction-of-postk-development)|
+|10:00|10:25|[Post-K: Building the Arm HPC Ecosystem](/blog/arm-hpc-workshop-sessions-and-speakers/#2)|Kouichi Hirai (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/postk-building-the-arm-hpc-ecosystem-84025150)|
+|10:30|10:55|[Arm tools and roadmap for SVE compiler support](/blog/arm-hpc-workshop-sessions-and-speakers/#3)|Richard Sandiford, Florian Hahn (Arm)|[Slides](https://www.slideshare.net/linaroorg/arm-tools-and-roadmap-for-sve-compiler-support)|
+|11:00|11:20|AM Coffee Break|||
+|11:30|11:55|[HCQC : HPC Compiler Quality Checker](/blog/arm-hpc-workshop-sessions-and-speakers/#4)|Masaki Arai (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/hcqc-hpc-compiler-quality-checker)|
+|12:00|12:25|[State of the Scalasca Toolset](/blog/arm-hpc-workshop-sessions-and-speakers/#5)|Itaru Kitayama (RIKEN)||
+|12:30|13:20|Lunch|||
+|13:30|13:55|[Porting and Optimization of Numerical Libraries for Arm SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#6)|Toshiyuki Imamura (RIKEN), Tetsuzou Usui (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/porting-and-optimization-of-numerical-libraries-for-arm-sve)|
+|14:00|14:25|[An Evaluation of EasyBuild for Open Source Software Deployment](/blog/arm-hpc-workshop-sessions-and-speakers/#7)|Takahiro Ogura (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/an-overview-of-the-ihkmckernel-multikernel-operating-system)|
+|14:30|14:55|[An Overview of the IHK/McKernel Multi-kernel Operating System](/blog/arm-hpc-workshop-sessions-and-speakers/#8)|Balazs Gerofi (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/an-overview-of-the-ihkmckernel-multikernel-operating-system)|
+|15:00|15:20|PM Coffee Break|||
+|15:30|15:55|[Compilation of COSMO for GPU using LLVM](/blog/arm-hpc-workshop-sessions-and-speakers/#9)|Tobias Grosser (Scalable Parallel Computing Laboratory (SPCL))|[Slides](https://www.slideshare.net/linaroorg/compilation-of-cosmo-for-gpu-using-llvm)|
+|16:00|16:25|[Involvement in OpenHPC](/blog/arm-hpc-workshop-sessions-and-speakers/#10)|Takeharu Kato (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/involvement-in-openhpc)|
+|16:30|17:00|Breakdown/clean up||
+|18:00|Dinner|Sponsored by Fujitsu and Linaro||
 
 ## Day 2
 
 {:.table.responsive-table}
-|Start Time|End Time|Title|Reserved for|
-|----------|--------|-----|------------|
-|09:00||Room Opens for Setup||
-|09:15|09:30|Welcome Note|Kanta Vekaria, Head of HPC, Linaro|
-|09:30|10:20|[Cyber-physical System and Industrial Applications of Large-Scale Graph Analysis and Optimization Problem](/blog/arm-hpc-workshop-sessions-and-speakers/#11)|Katsuki Fujisawa, (IMI) of Kyushu University|
-|10:30|10:55|[New Process/Thread Runtime](/blog/arm-hpc-workshop-sessions-and-speakers/#12)|Atsushi Hori (RIKEN)|
-|11:00|11:20|AM Coffee Break|
-|11:30|11:55|[An evaluation of LLVM compiler for SVE with fairly complicated loops](/blog/arm-hpc-workshop-sessions-and-speakers/#13)|Hiroshi Nakashima (Kyoto Univ.)|
-|12:00|12:25|[Oopstreaming](/blog/arm-hpc-workshop-sessions-and-speakers/#14)|Renato Golin (Linaro)|
-|12:30|13:20|Lunch|
-|13:30||[Programming Languages & Tools for Higher Performance & Productivity](/blog/arm-hpc-workshop-sessions-and-speakers/#15)|Hitoshi Murai (RIKEN)|
+|Start Time|End Time|Title|Reserved for|Presentation|
+|----------|--------|-----|------------|------------|
+|09:00||Room Opens for Setup|||
+|09:15|09:30|Welcome Note|Kanta Vekaria, Head of HPC, Linaro||
+|09:30|10:20|[Cyber-physical System and Industrial Applications of Large-Scale Graph Analysis and Optimization Problem](/blog/arm-hpc-workshop-sessions-and-speakers/#11)|Katsuki Fujisawa, (IMI) of Kyushu University||
+|10:30|10:55|[New Process/Thread Runtime](/blog/arm-hpc-workshop-sessions-and-speakers/#12)|Atsushi Hori (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/new-processthread-runtime)|
+|11:00|11:20|AM Coffee Break|||
+|11:30|11:55|[An evaluation of LLVM compiler for SVE with fairly complicated loops](/blog/arm-hpc-workshop-sessions-and-speakers/#13)|Hiroshi Nakashima (Kyoto Univ.)|[Slides](https://www.slideshare.net/linaroorg/an-evaluation-of-llvm-compiler-for-sve-with-fairly-complicated-loops)|
+|12:00|12:25|[Oopstreaming](/blog/arm-hpc-workshop-sessions-and-speakers/#14)|Renato Golin (Linaro)|[Slides](https://www.slideshare.net/linaroorg/oopstreaming)|
+|12:30|13:20|Lunch|||
+|13:30||[Programming Languages & Tools for Higher Performance & Productivity](/blog/arm-hpc-workshop-sessions-and-speakers/#15)|Hitoshi Murai (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/programming-languages-tools-for-higher-performance-productivity)|
 |||[Advantages of the Compiler for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#16)|Shun Kamatsuka (Fujitsu)|
-||14:25|[Overview of Programming Assistance Tools for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#17)|Tomotake Nakamura (Fujitsu)|
-|14:30|14:55|[The perfect mix: SUSE’s HPC, ARM and Containers](/blog/arm-hpc-workshop-sessions-and-speakers/#18)|Vojtech Pavlik (Suse)|
-|15:00|15:20|PM Coffee Break|
-|15:30|15:55|[OpenMP Extension for Explicit SIMD Programming using ARM SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#19)|Jinpil Lee (RIKEN)|
-|16:00|16:25|[Performance evaluation with Arm HPC tools for SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#20)|Miwako Tsuji (RIKEN), Yuetsu Kodama (RIKEN)|
-|16:30|16:40|Closing Note|David Rusling CTO, Linaro|
-|16:40|17:00|Breakdown/clean up|
+||14:25|[Overview of Programming Assistance Tools for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#17)|Tomotake Nakamura (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/postk-building-the-arm-hpc-ecosystem-84548777)|
+|14:30|14:55|[The perfect mix: SUSE’s HPC, ARM and Containers](/blog/arm-hpc-workshop-sessions-and-speakers/#18)|Vojtech Pavlik (Suse)||
+|15:00|15:20|PM Coffee Break|||
+|15:30|15:55|[OpenMP Extension for Explicit SIMD Programming using ARM SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#19)|Jinpil Lee (RIKEN)||
+|16:00|16:25|[Performance evaluation with Arm HPC tools for SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#20)|Miwako Tsuji (RIKEN), Yuetsu Kodama (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/performance-evaluation-with-arm-hpc-tools-for-sve)|
+|16:30|16:40|Closing Note|David Rusling CTO, Linaro||
+|16:40|17:00|Breakdown/clean up|||
 
 **Thanks to our sponsors**
 
