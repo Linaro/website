@@ -139,7 +139,9 @@ The current members are listed below. If you are interested in joining these ind
 
 <a name="leg_members"></a>
 <a href="/groups/lhg/">
-    <h3>Linaro Home Group (LHG)</h3>
+    <h3>
+        Linaro Home Group (LHG)
+    </h3>
 </a>
 <div class="col-md-12 members-panel">
     <p>
