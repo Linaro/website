@@ -30,293 +30,205 @@ The current members are listed below. If you are interested in joining these ind
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-            <a name="core-members"></a>
-            <h1 class="text-center">Core Members</h1>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                      Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro’s activities.
-                    </p>
-                       <!--Updated-->
-                       {% assign core_members = site.data.members["core_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
+<a name="core-members"></a>
+<h1 class="text-center">Core Members</h1>
+
+<div class="col-md-12 members-panel">
+    <p>
+      Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro’s activities.
+    </p>
+       <!--Updated-->
+       {% assign core_members = site.data.members["core_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+<hr>
+
+<a name="club-members"></a>
+<h1 class="text-center">Club Members</h1>
+<div class="col-md-12 members-panel">
+    <p>
+        Club membership is the starting point for most of Arm’s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.
+    </p>
+       <!--Updated-->
+       {% assign core_members = site.data.members["club_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+<hr>
+
+<a name="group-members"></a>
+<h1 class="text-center">Group Members</h1>
+
+<div class="col-md-12 members-panel">
+    <p>
+        Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. There are currently five segment groups at Linaro: <a href="#leg">Linaro Enterprise Group (LEG)</a>, <a href="#lhg">Linaro Home Group (LHG)</a>, <a href="#lmg">Linaro Mobile Group (LMG)</a>, <a href="#lng">Linaro Networking Group (LNG)</a> and our newest group – <a href="https://www.96boards.org/">Linaro Community Board Group (LCG)</a>. Below are the lists of the members of each respective group.
+    </p>
+       <!--Updated-->
+      {% assign core_members = site.data.members["group_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+
+</div>
+<hr>
+
+<a name="leg_members"></a>
+<a href="/groups/leg/">
+  <h3>Linaro Enterprise Group (LEG)</h3>
+</a>
+<div class="col-md-12 members-panel">
+    <p>
+        The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for Arm Server Linux. LEG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.
+    </p>
+       <!--Updated-->
+      {% assign core_members = site.data.members["leg_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+<hr>  
+
+<a name="leg_members"></a>
+<a href="/groups/lng/">
+  <h3>Linaro Networking Group (LNG)</h3>
+</a>
+<div class="col-md-12 members-panel">
+    <p>
+        The Linaro Networking Group (LNG) is an autonomous segment focused group that is responsible for engineering development in the networking space. Some activities of this group may be of shared interest with other segments and conducted by another working group, e.g. much virtualization work is of interest to mobile, servers and networking and is conducted by the Virtualization working group. The LNG engineering team is divided into three groups: Foundational, Big Endian and OpenDataPlane.
+    </p>
+       <!--Updated-->
+      {% assign core_members = site.data.members["lng_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+<hr>
+
+<a name="leg_members"></a>
+<a href="/groups/lhg/">
+    <h3>Linaro Home Group (LHG)</h3>
+</a>
+<div class="col-md-12 members-panel">
+    <p>
+        Linaro Digital Home Group (LHG) purpose is to work on solutions common to its members, namely those related to open source software for Arm-based set top boxes, smart TVs, media boxes, TV dongles and home gateway products.
+    </p>
+       <!--Updated-->
+      {% assign core_members = site.data.members["lhg_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+<hr>
+
+
+<a name="leg_members"></a>
+<a href="/groups/leg/">
+  <h3>Linaro Mobile Group (LMG)</h3>
+</a>
+
+<div class="col-md-12 members-panel">
+<p>
+    Linaro Mobile Group (LMG) was formed to focus on the mobile segment. Linaro’s mobile efforts exist across it’s organization i.e. working groups, platforms etc.. LMG will focus on the Linaro mobile roadmap and strategy.
+</p>
+   <!--Updated-->
+  {% assign core_members = site.data.members["lmg_members"] | sort: 'name' %}
+  {% for member in core_members %}
+           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+               <a href="{{member.url}}">
+                   <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    class="img-responsive members-img lazyload center-block"/>
+                </a>
+           </div>
+  {% endfor %}
 </div>
 
+<hr>
 
+<a name="leg_members"></a>
+<a href="/groups/lite/">
+    <h3>Linaro IoT and Embedded (LITE) Group </h3>
+</a>
+<div class="col-md-12 members-panel">
+    <p>
+        The LITE Group works on common open source software foundations for IoT and embedded applications. LITE will focus on delivering end to end open source reference software for more secure connected products, ranging from sensors and connected controllers to smart devices and gateways, for the industrial and consumer markets.
+    </p>
+       <!--Updated-->
+      {% assign core_members = site.data.members["lite_members"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+</div>
+<hr>
 
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-          <a name="club-members"></a>
-          <h1 class="text-center">Club Members</h1>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        Club membership is the starting point for most of Arm’s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.
-                    </p>
-                       <!--Updated-->
-                       {% assign core_members = site.data.members["club_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
+<a name="hpc_members"></a>
+<a href="/sig/hpc/">
+<h3>High Performance Computing (HPC)</h3>
+</a>
+<div class="col-md-12 members-panel">
+<p>
+    The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
+</p>
+   <!--Updated-->
+  {% assign core_members = site.data.members["hpc_members"] | sort: 'name' %}
+  {% for member in core_members %}
+           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+               <a href="{{member.url}}">
+                   <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    class="img-responsive members-img lazyload center-block"/>
+                </a>
+           </div>
+  {% endfor %}
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="group-members"></a>
-              <h1 class="text-center">Group Members</h1>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. There are currently five segment groups at Linaro: <a href="#leg">Linaro Enterprise Group (LEG)</a>, <a href="#lhg">Linaro Home Group (LHG)</a>, <a href="#lmg">Linaro Mobile Group (LMG)</a>, <a href="#lng">Linaro Networking Group (LNG)</a> and our newest group – <a href="https://www.96boards.org/">Linaro Community Board Group (LCG)</a>. Below are the lists of the members of each respective group.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["group_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="leg_members"></a>
-              <a href="/groups/leg/">
-                  <h3>Linaro Enterprise Group (LEG)</h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for Arm Server Linux. LEG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["leg_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="leg_members"></a>
-              <a href="/groups/lng/">
-                  <h3>Linaro Networking Group (LNG)</h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        The Linaro Networking Group (LNG) is an autonomous segment focused group that is responsible for engineering development in the networking space. Some activities of this group may be of shared interest with other segments and conducted by another working group, e.g. much virtualization work is of interest to mobile, servers and networking and is conducted by the Virtualization working group. The LNG engineering team is divided into three groups: Foundational, Big Endian and OpenDataPlane.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["lng_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="leg_members"></a>
-              <a href="/groups/lhg/">
-                  <h3>Linaro Home Group (LHG)</h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        Linaro Digital Home Group (LHG) purpose is to work on solutions common to its members, namely those related to open source software for Arm-based set top boxes, smart TVs, media boxes, TV dongles and home gateway products.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["lhg_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="leg_members"></a>
-              <a href="/groups/leg/">
-                  <h3>Linaro Mobile Group (LMG)</h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        Linaro Mobile Group (LMG) was formed to focus on the mobile segment. Linaro’s mobile efforts exist across it’s organization i.e. working groups, platforms etc.. LMG will focus on the Linaro mobile roadmap and strategy.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["lmg_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="leg_members"></a>
-              <a href="/groups/lite/">
-                <h3>Linaro IoT and Embedded (LITE) Group </h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        The LITE Group works on common open source software foundations for IoT and embedded applications. LITE will focus on delivering end to end open source reference software for more secure connected products, ranging from sensors and connected controllers to smart devices and gateways, for the industrial and consumer markets.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["lite_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="hpc_members"></a>
-              <a href="/sig/hpc/">
-                <h3>High Performance Computing (HPC)</h3>
-              </a>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["hpc_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
+<hr>
 
 <h3>
     <a href="https://www.96boards.org/">
@@ -328,143 +240,98 @@ The current members are listed below. If you are interested in joining these ind
 
 Because this group is all about ecosystem development and encouraging the production of add-on products, there are also opportunities for companies to participate as partners who engage in board manufacturing, board distribution and/or add-on product distribution and manufacturing.
 
-<div class="container">
-    <div class="row">
-        <div class="members-panel panel">
-          <div class="panel-heading">
-                <h4>
-                    96Boards Manufacturing Partners
-                </h4>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                       <!--Updated-->
-                      {% assign sorted_manufacturing_partners = site.data.members.manufacturing_partners | sort: 'name' %}
-                      {% for member in sorted_manufacturing_partners %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
+
+<h4>
+    96Boards Manufacturing Partners
+</h4>
+<div class="col-md-12 members-panel">
+       <!--Updated-->
+      {% assign sorted_manufacturing_partners = site.data.members.manufacturing_partners | sort: 'name' %}
+      {% for member in sorted_manufacturing_partners %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+
+
+<h4>
+    96Boards Steering Committee
+</h4>
+<div class="col-md-12 members-panel">
+{% assign sorted_steering_committee = site.data.members.steering_committee | sort: 'name' %}
+{% for member in sorted_steering_committee %}
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+      <a href="{{member.url}}">
+          <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+           class="img-responsive members-img lazyload center-block"/>
+       </a>
+  </div>
+{% endfor %}
+</div>
+
+<h4>
+96Boards Mezzanine Partners
+</h4>
+<div class="col-md-12 members-panel">
+  {% assign sorted_mezzanine_partners = site.data.members.mezzanine_partners | sort: 'name' %}
+  {% for member in sorted_mezzanine_partners %}
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+          <a href="{{member.url}}">
+              <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+               class="img-responsive members-img lazyload center-block"/>
+           </a>
       </div>
-    </div>
-
-    <div class="row">
-        <div class="members-panel panel">
-          <div class="panel-heading">
-                <h4>
-                    96Boards Steering Committee
-                </h4>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                  {% assign sorted_steering_committee = site.data.members.steering_committee | sort: 'name' %}
-                  {% for member in sorted_steering_committee %}
-                      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                          <a href="{{member.url}}">
-                              <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                               class="img-responsive members-img lazyload center-block"/>
-                           </a>
-                      </div>
-                  {% endfor %}
-              </div>
-        </div>
-    </div>
-
+  {% endfor %}
 </div>
 
 
-    <div class="row">
-        <div class="members-panel panel">
-              <div clas.s="panel-heading">
-                    <h4>
-                        96Boards Mezzanine Partners
-                    </h4>
-              </div>
-              <div class="panel-body members-panel-body">
-          <div class="col-md-12 members-panel">
-              {% assign sorted_mezzanine_partners = site.data.members.mezzanine_partners | sort: 'name' %}
-              {% for member in sorted_mezzanine_partners %}
-                  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                      <a href="{{member.url}}">
-                          <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
-                           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                           class="img-responsive members-img lazyload center-block"/>
-                       </a>
-                  </div>
-              {% endfor %}
-          </div>
-        </div>
-        </div>
-    </div>
 
+<a name="community_members"></a>
+<h1 class="text-center">
+Community Members
+</h1>
+<div class="col-md-12 members-panel">
+<p>
+    Community membership is a special level of membership granted to organizations that have contributed significantly to Linaro’s development and is by invitation of the Linaro board.
+</p>
+   <!--Updated-->
+  {% assign core_members = site.data.members["community_members"] | sort: 'name' %}
+  {% for member in core_members %}
+           <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+               <a href="{{member.url}}">
+                   <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    class="img-responsive members-img lazyload center-block"/>
+                </a>
+           </div>
+  {% endfor %}
+</div>
+<hr>
+
+<a name="community_initiatives"></a>
+<h1 class="text-center">
+Community Initiatives
+</h1>
+<div class="col-md-12 members-panel">
+       <!--Updated-->
+      {% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
 </div>
 
+<hr>
 
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="community_members"></a>
-              <h1 class="text-center">
-                Community Members
-              </h1>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                    <p>
-                        Community membership is a special level of membership granted to organizations that have contributed significantly to Linaro’s development and is by invitation of the Linaro board.
-                    </p>
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["community_members"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="members-panel">
-          <div class="panel-heading">
-              <a name="community_initiatives"></a>
-              <h1 class="text-center">
-                Community Initiatives
-              </h1>
-          </div>
-          <div class="panel-body members-panel-body">
-              <div class="col-md-12 members-panel">
-                       <!--Updated-->
-                      {% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
-                      {% for member in core_members %}
-                               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                   <a href="{{member.url}}">
-                                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                               </div>
-                      {% endfor %}
-                </div>
-         </div>
-      </div>
-    </div>
-    <hr/>
-</div>
