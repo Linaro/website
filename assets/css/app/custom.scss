@@ -790,40 +790,8 @@ article.post-content > .col-md-8 {
     padding: 0;
 }
 
-
-
-
-// Navbar App menu Quick style
-// 
-// .navbar-right {
-//     float: right;
-// }
-// .nav.navbar-nav.navbar-right ul {
-//     float: right;
-// }
-// .nav.navbar-nav.navbar-right li {
-//     float: left;
-// }
-// .navbar-toggle {
-//     float: right;
-// }
-// @media all and (max-width:767px) {
-//     .navbar-header {
-//         float: left;
-//     }
-//     
-//     .navbar-collapse {
-//         clear: both;
-//         float: none;
-//     }
-// }
-// 
-// div#navbar-collapse {
-//     float: right !important;
-//     text-align: right;
-// }
-// 
-// ul#navbar-buttons {
-//     position: relative;
-//     float: right;
-// }
+.col-md-12.members-panel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+}
