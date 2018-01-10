@@ -201,7 +201,6 @@ The current members are listed below. If you are interested in joining these ind
                </div>
       {% endfor %}
 </div>
-</div>
 <hr>
 <a name="hpc_members"></a>
 <h3>
