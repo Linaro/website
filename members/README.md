@@ -29,10 +29,8 @@ The current members are listed below. If you are interested in joining these ind
         <a href="#community_members">Community Members</a>    
     </div>
 </div>
-
 <a name="core-members"></a>
 <h1 class="text-center">Core Members</h1>
-
 <div class="col-md-12 members-panel">
     <p>
       Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro’s activities.
@@ -50,7 +48,6 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>
-
 <a name="club-members"></a>
 <h1 class="text-center">Club Members</h1>
 <div class="col-md-12 members-panel">
@@ -70,10 +67,8 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>
-
 <a name="group-members"></a>
 <h1 class="text-center">Group Members</h1>
-
 <div class="col-md-12 members-panel">
     <p>
         Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. There are currently five segment groups at Linaro: <a href="#leg">Linaro Enterprise Group (LEG)</a>, <a href="#lhg">Linaro Home Group (LHG)</a>, <a href="#lmg">Linaro Mobile Group (LMG)</a>, <a href="#lng">Linaro Networking Group (LNG)</a> and our newest group – <a href="https://www.96boards.org/">Linaro Community Board Group (LCG)</a>. Below are the lists of the members of each respective group.
@@ -92,11 +87,12 @@ The current members are listed below. If you are interested in joining these ind
 
 </div>
 <hr>
-
 <a name="leg_members"></a>
-<a href="/groups/leg/">
-  <h3>Linaro Enterprise Group (LEG)</h3>
-</a>
+<h3>
+    <a href="/groups/leg/">
+        Linaro Enterprise Group (LEG)
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
     <p>
         The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for Arm Server Linux. LEG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.
@@ -114,11 +110,12 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>  
-
 <a name="leg_members"></a>
-<a href="/groups/lng/">
-  <h3>Linaro Networking Group (LNG)</h3>
-</a>
+<h3>
+    <a href="/groups/lng/">
+        Linaro Networking Group (LNG)
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
     <p>
         The Linaro Networking Group (LNG) is an autonomous segment focused group that is responsible for engineering development in the networking space. Some activities of this group may be of shared interest with other segments and conducted by another working group, e.g. much virtualization work is of interest to mobile, servers and networking and is conducted by the Virtualization working group. The LNG engineering team is divided into three groups: Foundational, Big Endian and OpenDataPlane.
@@ -136,13 +133,12 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>
-
 <a name="leg_members"></a>
-<a href="/groups/lhg/">
-    <h3>
+<h3>
+    <a href="/groups/lhg/">
         Linaro Home Group (LHG)
-    </h3>
-</a>
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
     <p>
         Linaro Digital Home Group (LHG) purpose is to work on solutions common to its members, namely those related to open source software for Arm-based set top boxes, smart TVs, media boxes, TV dongles and home gateway products.
@@ -160,20 +156,19 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>
-
-
 <a name="leg_members"></a>
-<a href="/groups/leg/">
-  <h3>Linaro Mobile Group (LMG)</h3>
-</a>
-
+<h3>
+    <a href="/groups/leg/">
+        Linaro Mobile Group (LMG)
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
-<p>
-    Linaro Mobile Group (LMG) was formed to focus on the mobile segment. Linaro’s mobile efforts exist across it’s organization i.e. working groups, platforms etc.. LMG will focus on the Linaro mobile roadmap and strategy.
-</p>
-   <!--Updated-->
-  {% assign core_members = site.data.members["lmg_members"] | sort: 'name' %}
-  {% for member in core_members %}
+    <p>
+        Linaro Mobile Group (LMG) was formed to focus on the mobile segment. Linaro’s mobile efforts exist across it’s organization i.e. working groups, platforms etc.. LMG will focus on the Linaro mobile roadmap and strategy.
+    </p>
+    <!--Updated-->
+    {% assign core_members = site.data.members["lmg_members"] | sort: 'name' %}
+    {% for member in core_members %}
            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                <a href="{{member.url}}">
                    <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
@@ -181,15 +176,15 @@ The current members are listed below. If you are interested in joining these ind
                     class="img-responsive members-img lazyload center-block"/>
                 </a>
            </div>
-  {% endfor %}
+    {% endfor %}
 </div>
-
 <hr>
-
 <a name="leg_members"></a>
-<a href="/groups/lite/">
-    <h3>Linaro IoT and Embedded (LITE) Group </h3>
-</a>
+<h3>
+    <a href="/groups/lite/">
+        Linaro IoT and Embedded (LITE) Group
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
     <p>
         The LITE Group works on common open source software foundations for IoT and embedded applications. LITE will focus on delivering end to end open source reference software for more secure connected products, ranging from sensors and connected controllers to smart devices and gateways, for the industrial and consumer markets.
@@ -208,11 +203,12 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 </div>
 <hr>
-
 <a name="hpc_members"></a>
-<a href="/sig/hpc/">
-<h3>High Performance Computing (HPC)</h3>
-</a>
+<h3>
+    <a href="/sig/hpc/">
+        High Performance Computing (HPC)
+    </a>
+</h3>
 <div class="col-md-12 members-panel">
 <p>
     The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
@@ -324,6 +320,27 @@ Community Initiatives
 <div class="col-md-12 members-panel">
        <!--Updated-->
       {% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
+      {% for member in core_members %}
+               <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                   <a href="{{member.url}}">
+                       <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        class="img-responsive members-img lazyload center-block"/>
+                    </a>
+               </div>
+      {% endfor %}
+</div>
+
+<hr>
+
+
+<a name="community_initiatives"></a>
+<h1 class="text-center">
+DeviceTree Members
+</h1>
+<div class="col-md-12 members-panel">
+       <!--Updated-->
+      {% assign core_members = site.data.members["devicetree_members"] | sort: 'name' %}
       {% for member in core_members %}
                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                    <a href="{{member.url}}">
