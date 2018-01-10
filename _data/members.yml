@@ -414,3 +414,13 @@ community_initiatives:
     - name: Developer Cloud
       image: developer-cloud-logo.png
       url: https://www.linaro.cloud/
+devicetree_members:
+    - name: Arm
+      image: arm.jpg
+      url: /company/arm/
+    - name: Hisilicon
+      image: hisilicon.jpg
+      url: /company/hisilicon/
+    - name: ST
+      image: st.jpg
+      url: /company/st/
