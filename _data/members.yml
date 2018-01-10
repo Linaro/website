@@ -21,7 +21,7 @@ club_members:
       - name: SpreadTrum
         image: spreadtrum.jpg
         url: /company/spreadtrum/
-      - name: ST
+      - name: St
         image: st.jpg
         url: /company/st/
       - name: Texas Instruments
