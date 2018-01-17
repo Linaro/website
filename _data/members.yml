@@ -372,9 +372,6 @@ manufacturing_partners:
     - name: vamrs
       image: vamrs.jpg
       url: /company/vamrs/
-    - name: WrtNode
-      image: wrtnode.png
-      url: /company/wrtnode/
     - name: Xunlong
       image: xunlong.jpg
       url: /company/xunlong/
