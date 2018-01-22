@@ -1,3 +1,14 @@
+
+// Async Loading of JS 
+function load_script(url) {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var x = document.getElementsByTagName('head')[0];
+    x.appendChild(s);
+}
+
 $(document).mouseup(function(e) 
 {
     var search_container = $("div#search_bar");
