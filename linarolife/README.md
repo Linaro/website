@@ -3,7 +3,7 @@ title: Linaro Life
 layout: linaro-life
 permalink: /linarolife/
 image:
-    path: /assets/images/content/linarolife.jpg
+    path: /assets/images/content/linarolife2.jpg
     name: linarolife2.jpg
 css-include: main-life
 ---
