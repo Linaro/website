@@ -22,7 +22,7 @@ wordpress_id: 2012
 
 {% include image.html name="P1000296.jpg" alt="ARMv8 Mini-Summit Panel Discussion photo by David Rusling" %}
 
-Linaro held [three mini-summits](http://summit.linaro.org/lce12/track/linaro-mini-summit/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/resources/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
+Linaro held [three mini-summits](http://connect.linaro.org/resources/) during its [Linaro Connect Europe 2012 (LCE12)](http://connect.linaro.org/resources/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the ARMv8 (64-bit) Mini-Summit that ran on 30 October.
 
 First time Linaro Connect attendee, Andrew Thoelke of ARM ran the ARMv8 (64-bit) Mini Summit which kicked off at 8:30 am with introductory and lightning-talk plenary sessions. The plenary sessions were both a “welcome” to the summit and a “here’s what to expect” outline of the event.
 

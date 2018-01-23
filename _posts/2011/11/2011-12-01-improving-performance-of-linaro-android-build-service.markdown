@@ -15,7 +15,7 @@ tags:
 - tools
 ---
 
-[Linaro Android Build Service](https://android-build.linaro.org/) (please bear with SSL issues - it is still officially in beta) is a place where you can get any downloads related to Linaro Android - monthly releases, daily builds for specific boards, and engineers' personal builds while they work on specific features.
+[Linaro Android Build Service]()https://android-build.linaro.org/ (please bear with SSL issues - it is still officially in beta) is a place where you can get any downloads related to Linaro Android - monthly releases, daily builds for specific boards, and engineers' personal builds while they work on specific features.
 
 The Builds Service is a busy place serving up to dozen(s) builds each day. Architecturally, it is a Cloud-based service, with a master running well-known open-source [Jenkins CI server](http://jenkins-ci.org/), spawning slave Cloud instances to perform actual builds. As Android codebase is rather big, and checking it out from scratch each time would generate lot of traffic outside the Cloud and put pressure on outside git servers, we also employed a mirror proxy which lives in the Cloud and fetches only updates from the upstream repositories. The mirror proxy is collocated on the build master.
 

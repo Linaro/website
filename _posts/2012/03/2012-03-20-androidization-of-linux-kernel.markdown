@@ -22,11 +22,11 @@ I have always wondered how one should be applying the Android patches onto any L
 
 Here is the vanilla Linux kernel to which Android patches were added:
 
-[http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm](http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm)
+[http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm]()http://git.linaro.org/gitweb?p=people/dmart/linux-3-arm.git;a=shortlog;h=refs/heads/arm/vexpressdt-rtsm
 
 Andy Green from the Landing team has provided a topic(linaro-androidization-tracking) branch for 3.2 Linux kernel:
 
-[http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking](http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking)
+[http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking]()http://git.linaro.org/gitweb?p=landing-teams/working/ti/kernel.git;a=shortlog;h=refs/heads/linaro-androidization-tracking
 
 Androidization process was just 4 step process:
 

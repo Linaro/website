@@ -19,7 +19,7 @@ title: Summary of the Android Mini-Summit at Connect Copenhagen 2012
 wordpress_id: 2078
 ---
 
-The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
+The [Linaro Android Mini-Summit](http://connect.linaro.org/resources/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
 “When we began planning the Mini-Summit Linaro's CTO [[David Rusling](/about/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](/about/), Tech Lead for the [Linaro Android Team](/about/).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
 
@@ -107,7 +107,7 @@ Detailed action plans and summaries for the four 1 hour sessions can be found in
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-Current Linaro Android Builds can be found at: [https://android-build.linaro.org/](https://android-build.linaro.org/) Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
+Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 

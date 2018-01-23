@@ -27,7 +27,7 @@ wordpress_id: 1148
 
 {% include image.html name="CottonCandy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
 
-[FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](http://www.android.com/about/ice-cream-sandwich/) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
+[FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](https://developer.android.com/about/versions/android-4.0-highlights.html) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
 
 FXI said in it's announcement it leveraged the [Linaro](/) for ARM open software and tools and leveraged its access to the [ARM Mali Graphics software development ecosystem](http://www.malideveloper.com/).
 
@@ -39,4 +39,4 @@ The demonstration prototype USB stick (pictured above) code named "Cotton Cand
 
 To find our more information about Cotton Candy, see the [FXI website](http://www.fxitech.com/products/).
 
-Full press release can be found [here](http://www.virtualpressoffice.com/detail.do?contentId=692736&companyId=7574&showId=1575).
+Full press release can be found [here]()http://www.virtualpressoffice.com/detail.do?contentId=692736&companyId=7574&showId=1575.

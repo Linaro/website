@@ -18,36 +18,36 @@ Visit these links to tryout each build:
 
 ## Staging Panda
 
-[https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1](https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1)
+[https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1]()https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1
 
 
 ## Panda
 
-[https://android-build.linaro.org/builds/~linaro-android/panda-11.09-release/#build=4](https://android-build.linaro.org/builds/~linaro-android/panda-11.09-release/#build=4)
+[https://android-build.linaro.org/builds/~linaro-android/panda-11.09-release/#build=4]()https://android-build.linaro.org/builds/~linaro-android/panda-11.09-release/#build=4
 
 ## Beagle
 
-[https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4](https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4)
+[https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4]()https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4
 
 ## Beagle xM
 
-[https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4](https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4)
+[https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4]()https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=4
 
 ## Staging Snowball
 
-[https://android-build.linaro.org/builds/~linaro-android/staging-snowball-11.09-release/#build=1](https://android-build.linaro.org/builds/~linaro-android/staging-snowball-11.09-release/#build=1)
+[https://android-build.linaro.org/builds/~linaro-android/staging-snowball-11.09-release/#build=1]()https://android-build.linaro.org/builds/~linaro-android/staging-snowball-11.09-release/#build=1
 
 ## Staging Origen
 
-[https://android-build.linaro.org/builds/~linaro-android/staging-origen-11.09-release/#build=2](https://android-build.linaro.org/builds/~linaro-android/staging-origen-11.09-release/#build=2)
+[https://android-build.linaro.org/builds/~linaro-android/staging-origen-11.09-release/#build=2]()https://android-build.linaro.org/builds/~linaro-android/staging-origen-11.09-release/#build=2
 
 ## Staging iMX53
 
-[https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.09-release/#build=1](https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.09-release/#build=1)
+[https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.09-release/#build=1]()https://android-build.linaro.org/builds/~linaro-android/staging-imx53-11.09-release/#build=1
 
 Here's a quick look at whats working:
 
-[https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE#gid=0](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE#gid=0)
+[https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE#gid=0]()https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE#gid=0
 
 Please file bugs at:
 [ https://bugs.launchpad.net/linaro-android/+filebug](https://bugs.launchpad.net/linaro-android/+filebug)
@@ -76,6 +76,6 @@ Happy Androiding!
 [/blog/building-a-linaro-android-build-from-source/](/blog/building-a-linaro-android-build-from-source/)
 
 ...and to start contributing:
-[http://review.android.git.linaro.org/](http://review.android.git.linaro.org/)
+[https://git.linaro.org/](https://git.linaro.org/)
 
 :)

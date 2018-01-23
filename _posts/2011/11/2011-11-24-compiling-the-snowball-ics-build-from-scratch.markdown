@@ -16,7 +16,7 @@ categories:
 
 ## ...or trying a prebuilt ICS out for yourself on Snowball?
 
-##### [Instructions and Binaries](https://android-build.linaro.org/builds/~linaro-android/staging-snowball/#build=84)
+##### [Instructions and Binaries]()https://android-build.linaro.org/builds/~linaro-android/staging-snowball/#build=84
 
 ## Getting the source and compiling it yourself!
 

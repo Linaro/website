@@ -44,7 +44,7 @@ In LAVA, we use standard Power Distribution Units (PDUs) to remotely apply power
 
 Matt describes a new LAVA utility, the PDU Daemon, that provides a simple socket-daemon that is used to combine accesses to the PDUs within the LAVA lab to make sure the messages are processed sequentially in to ease the burden placed on the PDU.
 
-- The code can be retrieved from [https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary](https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary)
+- The code can be retrieved from [https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary]()https://git.linaro.org/gitweb?p=people/matthew.hart/lavapdu.git;a=summary
 
 ## Boot testing tip kernels on x86_64 KVMs
 

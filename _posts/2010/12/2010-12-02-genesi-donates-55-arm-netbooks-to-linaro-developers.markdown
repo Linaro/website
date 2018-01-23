@@ -34,7 +34,7 @@ Konstantinos also told us that Genesi is willing to continue to support Linaro t
 
 Linaro is very grateful to Genesi for supporting its developers and community, and will support Genesi netbook users and contributors through a dedicated entry in its on-line forums. A Launchpad group and a mailing list are also planned, and will be announced through a comment to this blog post.
 
-Genesi will also co-organize and co-sponsor with Debian [a first sprint meeting in Cambridge, UK](http://wiki.debian.org/Sprints/2011/EmdebianSprint), and a [second one in San Antonio, TX (Genesi headquarters) in Mar 30 - Apr 3](http://wiki.debian.org/Sprints/2011/GenesiSprintSanAntonio).
+Genesi will also co-organize and co-sponsor with Debian [a first sprint meeting in Cambridge, UK](http://wiki.debian.org/Sprints/2011/EmdebianSprint), and a [second one in San Antonio, TX (Genesi headquarters) in Mar 30 - Apr 3]()http://wiki.debian.org/Sprints/2011/GenesiSprintSanAntonio.
 
 More details:
 
