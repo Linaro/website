@@ -15,7 +15,7 @@ wordpress_id: 1701
 
 Last month the LAVA team made a big update to the way their [deployment tool](http://launchpad.net/lava-deployment-tool) works. The new method uses [zc.buildout](http://www.buildout.org/). The result is that we now have a deployment tool in place that works consistently and repeatably.
 
-The deployment configuration to be used is now managed in the [LAVA manifests](http://launchpad.net/lava-manifests) project. This project has two main configurations:
+The deployment configuration to be used is now managed in the [LAVA manifests](https://www.linaro.org/initiatives/lava/) project. This project has two main configurations:
 
   * **buildout.cfg** - This uses the latest versions of LAVA components in pypi while requiring the use of a fixed versioned list of dependencies for LAVA.
 
@@ -65,4 +65,4 @@ You can pull in components you'd like to work against into that directory. For i
 ### More Information
 
 
-Take a look at the latest version of our [deployment tool README](http://people.linaro.org/~mwh/ldt.html) for further options with deployments.
+Take a look at the latest version of our [deployment tool README](https://www.linaro.org/initiatives/lava/) for further options with deployments.

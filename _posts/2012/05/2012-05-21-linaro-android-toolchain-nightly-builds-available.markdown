@@ -19,7 +19,7 @@ wordpress_id: 1638
 
 Those have been up and running for a while, but we never announced it, so it may well be news ;-)
 Nightly builds of the Linaro Android toolchain are now available at a constant URL. Builds of 3 branches are available:
-[gcc 4.6](http://https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-4.6-bzr/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-4.6-daily-linux-x86.tar.bz2), [gcc 4.7](https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-4.7-bzr/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-4.7-daily-linux-x86.tar.bz2) and [gcc trunk (what will eventually become 4.8)](https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-trunk/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-trunk-daily-linux-x86.tar.bz2).
+[gcc 4.6]()http://https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-4.6-bzr/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-4.6-daily-linux-x86.tar.bz2, [gcc 4.7]()https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-4.7-bzr/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-4.7-daily-linux-x86.tar.bz2 and [gcc trunk (what will eventually become 4.8)]()https://android-build.linaro.org/jenkins/view/Toolchain/job/linaro-android_toolchain-trunk/lastSuccessfulBuild/artifact/build/out/android-toolchain-eabi-trunk-daily-linux-x86.tar.bz2.
 
 At this time, we recommend using the 4.7 branch for production work (that's also the branch we're using for most official builds).
 

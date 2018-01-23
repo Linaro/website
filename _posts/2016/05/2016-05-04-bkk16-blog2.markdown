@@ -101,7 +101,7 @@ The video for 309A and 309B were combined.
 [BKK16-410](http://connect.linaro.org/resource/bkk16/bkk16-410/): SoC Idling & CPU Cluster PM
 [BKK16-208](http://connect.linaro.org/resource/bkk16/bkk16-208/): EAS
 [BKK16-504](http://connect.linaro.org/resource/bkk16/bkk16-504/):  Running Linux in EL2
-[BKK16-317](http://bkk16-317): How to generate power models for EAS and IPA (without talking to a hardware engineer)
+[BKK16-317](http://connect.linaro.org/resource/bkk16/bkk16-317): How to generate power models for EAS and IPA (without talking to a hardware engineer)
 [BKK16-303](http://connect.linaro.org/resource/bkk16/bkk16-303/): 96Boards - TV Platform
 [BKK16-203](http://connect.linaro.org/resource/bkk16/bkk16-203/): Irq prediction or how to better estimate idle time
 

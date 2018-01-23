@@ -42,8 +42,8 @@ The core of the Android TV device software is the TV Input Framework (TIF) which
 
 Android TV contains Google Mobile Services (GMS) that are licensed by Google to the vendors (SoC, OEM/ODM, operator) who are deploying solutions. The AOSP sources for the TV form factor do not contain GMS.
 
-An Android TV solution must be verified by Google and are subject to requirements such as the Android Compatibility Test Suite (CTS), the Compatibility Definition Document (CDD) and stringent audio/video performance criteria. See: [https://static.googleusercontent.com/media/source.android.com/en//compatibility/7.1/android-7.1-cdd.pdf
-](https://static.googleusercontent.com/media/source.android.com/en//compatibility/7.1/android-7.1-cdd.pdf)
+An Android TV solution must be verified by Google and are subject to requirements such as the Android Compatibility Test Suite (CTS), the Compatibility Definition Document (CDD) and stringent audio/video performance criteria. See: [https://source.android.com/compatibility/cdd
+](https://source.android.com/compatibility/cdd)
 
 
 

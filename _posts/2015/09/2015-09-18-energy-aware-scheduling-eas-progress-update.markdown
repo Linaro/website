@@ -227,7 +227,7 @@ Idlestat can be used with sample workloads to capture and compare C-state and P-
 
 ### kernelshark (existing)
 
-[http://people.redhat.com/srostedt/kernelshark/HTML/](http://people.redhat.com/srostedt/kernelshark/HTML/)
+[https://www.redhat.com/](https://www.redhat.com/)
 
 X11/GTK tool used for analysis of ftrace data, useful for detailed scheduler analysis but does not offer the API capability of ‘trappy’ above.
 

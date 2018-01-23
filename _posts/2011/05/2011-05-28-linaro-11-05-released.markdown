@@ -22,7 +22,7 @@ The Linaro Team is pleased to announce the release of Linaro 11.05.
 
 This is the first release delivering Android, Ubuntu and the Working Group components nicely bundled into one release. We will continue to pick up more Working Group and Landing Team outputs in the upcoming monthly releases.
 
-We encourage everybody to use the 11.05 release. The download links for all images and components are available on our release page: [http://wiki.linaro.org/Cycles/1105/Final](http://http://wiki.linaro.org/Cycles/1105/Final)
+We encourage everybody to use the 11.05 release. The download links for all images and components are available on our release page: [http://wiki.linaro.org/Cycles/1105/Final](https://wiki.linaro.org/Cycles/1105/Final)
 
 Highlights of this release:
 

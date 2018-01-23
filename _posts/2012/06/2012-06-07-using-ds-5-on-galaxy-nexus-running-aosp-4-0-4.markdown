@@ -28,7 +28,7 @@ The gator module is hosted in Linaro's git repository:
 I have packaged a boot.img which is based on AOSP 4.0.4 release(android-4.0.4_r1.2). I won't get into the details of compiling the module and binary.  You can look at linaro's integration of DS-5 on the boards. It is very similar to that. Maybe I will post if someone needs the instructions.The boot image has the kernel compiled with necessary configs for gator and I have also included the gator daemon and module in the image. The init script takes care of loading and running the daemon.
 
 Download the boot image from here:
-[ http://people.linaro.org/~vishalbhoj/boot_gator.img](http://people.linaro.org/~vishalbhoj/boot_gator.img)
+[ http://people.linaro.org/~vishalbhoj/boot_gator.img]()http://people.linaro.org/~vishalbhoj/boot_gator.img
 
 You will need  an unlocked galaxy nexus running AOSP 4.0.4.
 Test the above boot image by soft booting it to see that it works with the build running on your device . To do that, reboot the device into fastboot mode and boot with above image:
