@@ -28,7 +28,7 @@ In this [Google+ Hangout on Air](https://plus.google.com/u/0/events/cqde9n1fdiqn
   * The Embedded Android Training Workshop Sessions
 
 
-  * Karim's latest book,  Embedded Android, O'Reilly ([early release available)](http://shop.oreilly.com/product/0636920021094.do)
+  * Karim's latest book,  Embedded Android, O'Reilly ([early release available)]()http://shop.oreilly.com/product/0636920021094.do
 
 
   * Why they are excited to be at Linaro Connect Asia 2013
