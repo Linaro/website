@@ -52,7 +52,7 @@ categories:
 
 The Linaro 96Boards initiative announced at the recent Linaro Connect conference in Hong Kong on February 9th is an industry-first, establishing an open standard for low cost developer hardware from multiple SoC vendors.
 
-The initiative has already resulted in the cost of 64-bit ARM hardware for developers dropping by more than an order of magnitude to $129 for the 96Boards [HiKey](https://www.96boards.org/products/hikey/) product from CircuitCo Inc., featuring an 8 core ARM Cortex-A53 SoC from HiSilicon with a Mali 450 3D graphics accelerator.
+The initiative has already resulted in the cost of 64-bit ARM hardware for developers dropping by more than an order of magnitude to $129 for the 96Boards [HiKey](https://www.96boards.org/product/hikey/) product from CircuitCo Inc., featuring an 8 core ARM Cortex-A53 SoC from HiSilicon with a Mali 450 3D graphics accelerator.
 
 
 ## **The Specification**
