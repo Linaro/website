@@ -1,6 +1,7 @@
 ---
 author: Joakim Bech
 date: 2018-01-22 12:00:00
+published: false
 title: Implications of Meltdown and Spectre &#58; Part 1
 description: |-
     The basis of the Meltdown and Spectre attacks is to make use of speculative execution, out-of-order execution, branch predictors and caches, all features found in modern CPUs. These features all aim to increase performance and to avoid latencies in the pipeline. They work in conjunction with each other in quite complex ways.
@@ -158,7 +159,7 @@ This is the first part in a series of blog posts about Meltdown and Spectre. The
 # References
 
 * Arm processor security update:[https://developer.arm.com/support/security-update](https://developer.arm.com/support/security-update)
-
+    <!--  -->
 * Spectre and Meltdown[https://spectreattack.com](https://spectreattack.com) [https://meltdownattack.com](https://meltdownattack.com) 
 
 * Google Project Zero[https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html](https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html) 
