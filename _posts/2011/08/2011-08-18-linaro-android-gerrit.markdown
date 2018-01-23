@@ -18,7 +18,7 @@ At the end of last week, we started final stage of Linaro Android migration to G
 
 **Linaro Android codebase now has a new home! Previously, it was hosted at git://git.linaro.org/adnroid/ . With Gerrit migration,  there is now dedicated host [git://android.git.linaro.org/](http://android.git.linaro.org) . We still offer access to the old tree for parties interested in our existing and older releases (11.07 and earlier). 11.08 release will be made from the new tree, and if you follow Linaro Android closely, it is important to [make a fresh check out](https://wiki.linaro.org/Platform/Android/GetSource).**
 
-Gerrit review frontend is available here: [http://review.android.git.linaro.org/](http://review.android.git.linaro.org/) :
+Gerrit review frontend is available here: [https://git.linaro.org/](https://git.linaro.org/) :
 
 {% include image.html name="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox.jpg" alt="Screenshot-statusmerged-review.android-Code-Review-Mozilla-Firefox" class="small-inline right" url="https://git.linaro.org/"%}
 

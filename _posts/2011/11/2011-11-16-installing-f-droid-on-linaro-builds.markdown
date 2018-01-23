@@ -37,7 +37,7 @@ F-Droid will now appear on the applications menu and you should be able to list 
 
 **Tweaks**
 
-  * Augment the set of features the board claims to support. The files declaring supported hardware features are located in the build tree in [platform/frameworks/base/data/etc](http://android.git.linaro.org/gitweb?p=platform/frameworks/base.git;a=tree;f=data/etc;hb=HEAD). Simply copy them to the Linaro image to have your board claim it supports this feature. In my case, Ubuntu automatically mounted the /system partition on the memory card as /media/system, so `cp platform/frameworks/base/data/etc/*.xml /media/system/etc/permissions/` copied all the files.
+  * Augment the set of features the board claims to support. The files declaring supported hardware features are located in the build tree in [platform/frameworks/base/data/etc]()http://android.git.linaro.org/gitweb?p=platform/frameworks/base.git;a=tree;f=data/etc;hb=HEAD. Simply copy them to the Linaro image to have your board claim it supports this feature. In my case, Ubuntu automatically mounted the /system partition on the memory card as /media/system, so `cp platform/frameworks/base/data/etc/*.xml /media/system/etc/permissions/` copied all the files.
 
   * App markets are sensitive to the date and time. Always make sure it is set (and has not reverted to the default 1/1/2000).
 

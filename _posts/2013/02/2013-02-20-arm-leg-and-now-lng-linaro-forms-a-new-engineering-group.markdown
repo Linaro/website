@@ -19,7 +19,7 @@ wordpress_id: 2393
 ## Linaro Announces New Networking Group
 
 
-Today, Linaro CEO [George Grey](/about/executive/), on stage at the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/staff#zemlin), the executive director of the Linux Foundation, [announced](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](/engineering/lng).
+Today, Linaro CEO [George Grey](/about/executive/), on stage at the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/), the executive director of the Linux Foundation, [announced](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](/engineering/lng).
 
 {% include image.html name="GG_Slide_LNG.jpg"%}
 

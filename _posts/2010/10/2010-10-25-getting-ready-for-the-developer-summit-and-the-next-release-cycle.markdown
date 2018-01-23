@@ -34,4 +34,4 @@ By the end of the Milan face to face, we had a good set of beta high level requi
 Along the way we agreed to create two new working groups - Graphics and Multimedia.   These are key areas for Linaro to expand into.    The member companies will all be assigning experts in these areas so that we have sufficient effort to make a difference.
 
 In summary, whilst there's plenty of work to do in the run up the developer summit,  the TSC members and the Linaro technical leads have done a lot of great work getting the requirements and engineering for the next cycle into shape.   If you can make it to Linaro@UDS I look forward to seeing you there.  If you can't get to Orlando at the end of October, you can follow our engineering on the Wiki or listen in to the webinar that we will be giving at TechCon (Nov 10th).   See
-[http://seminar2.techonline.com/registration/wcIndex.cgi?sessionID=linaro_nov1010](http://seminar2.techonline.com/registration/wcIndex.cgi?sessionID=linaro_nov1010)
+[http://seminar2.techonline.com/registration/wcIndex.cgi?sessionID=linaro_nov1010]()
