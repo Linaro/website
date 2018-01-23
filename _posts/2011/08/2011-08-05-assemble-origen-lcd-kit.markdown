@@ -34,4 +34,4 @@ The video can also be downloaded in WebM format:
 
 
 
-More details about Origen board hardware can be found on the [OrigenBoard.org](http://www.origenboard.org/documents.php) website.
+More details about Origen board hardware can be found on the [OrigenBoard.org](http://www.origenboard.org/) website.
