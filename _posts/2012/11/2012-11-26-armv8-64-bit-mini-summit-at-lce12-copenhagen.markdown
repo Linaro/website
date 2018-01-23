@@ -50,12 +50,12 @@ Various Linux distributions are already working on porting their software to the
 
 For more information about each of these sessions and how you can get involved, see the links below for the full session notes. Where available, links to slides and videos of the sessions are listed.
 
-[ARMv8 Introductory Plenary](http://summit.linaro.org/lce12/meeting/20943/armv8-plenary-wednesday-1/) - [Slides](https://www.slideshare.net/linaroorg/lce12-armv8plenary)
-[ARMv8 Lightning Talk (Plenary)](http://summit.linaro.org/lce12/meeting/20944/armv8-plenary-wednesday-2/) - [Video](https://www.youtube.com/watch?v=uJzhZqBqwSU)
-[ARMv8 Mini-Summit (Session 1 - Kernel)](http://summit.linaro.org/lce12/meeting/20938/armv8-mini-summit-1/) - [Video](https://www.youtube.com/watch?v=rcsuCbYM8fU)
-[ARMv8 Mini-Summit (Session 2 - Boot solutions)](http://summit.linaro.org/lce12/meeting/21342/armv8-mini-summit-2/) - [Video](https://www.youtube.com/watch?v=y-I9C6kUPL8)
-[ARMv8 Mini-Summit (Session 3 - Toolchain)](http://summit.linaro.org/lce12/meeting/21343/armv8-mini-summit-3/) - [Video](https://www.youtube.com/watch?v=haaf6qWdB3g)
-[ARMv8 Mini-Summit (Session 4 - Distributions)](http://summit.linaro.org/lce12/meeting/21345/armv8-mini-summit-4/) - [Video](https://www.youtube.com/watch?v=iw4DJvfWsN0)
+[ARMv8 Introductory Plenary](http://connect.linaro.org/resources/) - [Slides](https://www.slideshare.net/linaroorg/lce12-armv8plenary)
+[ARMv8 Lightning Talk (Plenary)](http://connect.linaro.org/resources/) - [Video](https://www.youtube.com/watch?v=uJzhZqBqwSU)
+[ARMv8 Mini-Summit (Session 1 - Kernel)](http://connect.linaro.org/resources/) - [Video](https://www.youtube.com/watch?v=rcsuCbYM8fU)
+[ARMv8 Mini-Summit (Session 2 - Boot solutions)](http://connect.linaro.org/resources/) - [Video](https://www.youtube.com/watch?v=y-I9C6kUPL8)
+[ARMv8 Mini-Summit (Session 3 - Toolchain)](http://connect.linaro.org/resources/) - [Video](https://www.youtube.com/watch?v=haaf6qWdB3g)
+[ARMv8 Mini-Summit (Session 4 - Distributions)](http://connect.linaro.org/resources/) - [Video](https://www.youtube.com/watch?v=iw4DJvfWsN0)
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
