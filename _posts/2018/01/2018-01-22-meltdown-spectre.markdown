@@ -1,10 +1,8 @@
 ---
 author: Joakim Bech
 date: 2018-01-22 12:00:00
-title: Implications of Meltdown and Spectre &#58; Part 1
-published: false #Disabling the output of new blog post
-description: |-
-    The basis of the Meltdown and Spectre attacks is to make use of speculative execution, out-of-order execution, branch predictors and caches, all features found in modern CPUs. These features all aim to increase performance and to avoid latencies in the pipeline. They work in conjunction with each other in quite complex ways.
+title: Implications of Meltdown and Spectre: Part 1
+description: "The basis of the Meltdown and Spectre attacks is to make use of speculative execution, out-of-order execution, branch predictors and caches, all features found in modern CPUs.  These features all aim to increase performance and to avoid latencies in the pipeline.  They work in conjunction with each other in quite complex ways."
 categories:
 - blog
 tags: 
@@ -16,15 +14,17 @@ image:
 layout: featured-image-post
 
 ---
-
+<div class="col-sm-8" markdown="1">
 By now everyone has heard about [Meltdown](https://meltdownattack.com/) and [Spectre](https://spectreattack.com/), but let us try to discuss what it really means in practice and also how it could potentially affect secure domains like [TrustZone](https://www.arm.com/products/security-on-arm/trustzone). The basis of the Meltdown and Spectre attacks is to make use of speculative execution, out-of-order execution, branch predictors and caches, all features found in modern CPUs. These features all aim to increase performance and to avoid latencies in the pipeline. They work in conjunction with each other in quite complex ways. Let us go over them one by one to get a better understanding of the essence of Meltdown and Spectre.
-
+</div>
+<div class="col-sm-4" markdown="1">
+{% include media.html media_url="https://youtu.be/rGwgOOSwXBY" %}
+</div>
 # Speculative execution
 
 In short, [*speculative execution*](https://en.wikipedia.org/wiki/Speculative_execution) is about doing work that might happen in the future. If that execution does not happen in practice, then we will just throw the results away. As an analogy you can compare this with when you as a programmer are writing some code in general. You are using Git for example to make "snapshots" at various points (*git commit*, *git checkout -b foo* etc). So let’s for example say that you have a stable setup, but you want to explore something new. What do you do? You create another branch and start working with your new idea. If it turns out to be something good, then you can just commit the changes directly to the stable branch, but if it turned out to be a bad idea, then you can just throw away the work. The penalty you have to pay when throwing it away is that you have spent time on doing work that turned out to be unnecessary. Although a trivial example, it describes the basic ideas behind speculative execution. In a computer the CPU will do similar things. It fetches instructions and data where some instructions might take more time than others, so instead of just letting the CPU sit and wait for some instructions to complete, the CPU will continue doing some work by executing pending instructions. What that means is that code in branches that are not taken will eventually still execute due to the speculative execution done by the CPU.
 
 {% include image.html name="speculative-execution.png" alt="Speculative execution" %}
-
 
 Set aside for a moment that the compiler probably would remove `buffer[pos]` in the example above in a real scenario. With that in mind and albeit simplified, the example serves as a good example of what eventually could happen due to speculative execution.  Here it could be that `buffer[pos]` are being speculatively executed even though `pos` is greater than `limit`. In practice this would lead to "out-of-bounds" access by the speculative execution. This is the key thing in one of the Spectre attacks that we will discuss in more detail further down.
 
@@ -34,7 +34,6 @@ Another CPU feature to gain performance is the so called [*out-of-order executio
 
 {% include image.html name="out-of-order-execution.png" alt="Out-of-order execution" %}
 
-
 As an example, in the code above it could be that the MOV instructions takes several cycles to complete and therefore instead of just stalling the pipeline the CPU will continue and execute the ADD and the SUB instructions since there are no dependencies on the MOV instruction (the registers R1 and R2 are not used by the instructions on lines 2 and 3).
 
 # Branch predictor
@@ -42,7 +41,6 @@ As an example, in the code above it could be that the MOV instructions takes sev
 The next CPU feature to mention is the so called [*branch predictor*](https://en.wikipedia.org/wiki/Branch_predictor). The reason for having a branch predictor is to make guesses whether a branch will be taken or not. This goes hand in hand with the speculative executions, since the speculative execution will execute instructions based on where the branch predictor believes the execution will continue. If it turns out that the branch predictor is wrong, then we have the situation where we have done some extra unnecessary work that needs to be thrown away. As one could imagine, a wrong guess by the branch predictor will introduce some extra delay. So without the branch predictor the CPU would just have been sitting idle and waiting instead of doing useful work.
 
 {% include image.html name="branch-prediction-for-loop.png" alt="Branch Prediction For Loop" %}
-
 
 A simple example would be a while loop. Let’s say it executes 100 times until the condition changes, branch prediction hardware would predict that the branch will be taken until suddenly it is not taken.  This means that for 100 loops of the code, the CPU correctly predicted the branch.  It also means that it predicted the final branch wrongly and had to throw away some work.
 
@@ -64,7 +62,7 @@ The cache sets are the horizontal rows, the columns are the *ways* and the indiv
 
 This category of attack makes use of properties and behaviour occurring outside the code itself that leaks information that otherwise should not be observable. There are many different variants of this. Measuring the amount of time it takes to do certain operations is a common [side channel attack](https://en.wikipedia.org/wiki/Side-channel_attack). The textbook example is when you are verifying a password using *memcmp* (which by the way is a very bad idea). The way *memcmp* works is that it compares one byte at a time and as soon as they do not match *memcmp* will [return to the caller](https://github.com/gcc-mirror/gcc/blob/master/libiberty/memcmp.c#L30-L31). So it is easy to understand that by measuring the time it takes to do a password comparison in this way, you can see that it will take more time if it is a correct password being verified than verifying an incorrect password. By knowing this you could just simply try all possible characters (255 bytes) one by one. The call that takes the most amount of time is probably the one containing the correct character and then one can advance to the next character, rinse and repeat all the way until the entire password has been recovered. Below is an example of how this could look, here we have used the instruction [*rdtsc*](https://en.wikipedia.org/wiki/Time_Stamp_Counter) (x86) to do measurements. The correct password is "foo" and as we can see, when all characters are wrong it takes 486 cycles for the operation until *memcmp* returns. But, when you have the full (and correct) password it takes 561 cycles.
 
-![Password Timing Attack](password-{% include image.html name="password-timing-attack.png" alt="Password Timing Attack" %}
+{% include image.html name="password-timing-attack.png" alt="Password Timing Attack" %}
 
 [Source: [joakimbech.com - Timing Attack - Proof of Concept](http://jyx.github.io/blog/2014/02/02/timing-attack-proof-of-concept/)]
 
@@ -94,9 +92,9 @@ This means that data in a certain cache line will be in the cache for both the v
 
 We now have enough background to start looking into the recent attacks, let us start with *Meltdown*. For a very long time the kernel’s memory mappings have been present even when running in unprivileged mode. The main reason for this is performance, since with the mapping readily available there is no work to be done when switching context from user space to kernel. Conceptually this is not a problem, since there are ways to protect user space from actually being able to read the mapped kernel memory. That type of access information (readable, writable, executable and user space accessible) is stored in the [page tables](https://en.wikipedia.org/wiki/Page_table). But as we will see, [researchers](https://meltdownattack.com) recently found a way, due to (undesired) side effects of out-of-order, speculative execution and how kernel switches contexts, to completely overcome the memory isolation between privileged and unprivileged domains and thereby found a way to read kernel memory from a user space process.
 
-When user spaces tries to access kernel memory,  we get an exception that immediately [traps](https://en.wikipedia.org/wiki/Trap_(computing)) to the kernel. Architecturally the kernel and the CPU will not allow the user space process to access the memory and from user space point of view you will get some kind of error message in return (or the process will simply be terminated). However, before returning back and due to the out-of-order execution, some instructions will still be executed (unseen outside the CPU) and that could very well be instructions that are accessing kernel memory and because of this kernel memory will be put into the cache.
+The whitepaper mentions a couple of different ways to do the Meltdown attack. One involves making use of exceptions and another way is to suppress exceptions (and only run instructions speculatively). In the case when doing the attack involving exceptions, it could be that the attack is triggered by a client trying to access kernel memory. What then happens when user space tries to access kernel memory is that  we get an exception that immediately [traps](https://en.wikipedia.org/wiki/Trap_(computing)) to the kernel. Architecturally the kernel and the CPU will not allow the user space process to access the memory and from user space point of view you will get some kind of error message in return (or the process will simply be terminated). However, between the exception has been handled and before returning back to the client in user space, some instructions might still be executed due to out-of-order execution (unseen outside the CPU) and that could very well be instructions that are accessing kernel memory and because of this kernel memory will be put into the cache.
 
-Before returning to user space the CPU will discard the registers, memory etc in use by the out-of-order execution. But what is not discarded is the "out-of-order" memory that was put in the cache. That is still there and that is what is used in the Meltdown attack. From user space one can run attacks like the Flush and Reload or Prime and Probe as described earlier to get the leaked information.
+When the exception is being handled, just before returning to user space, the CPU will discard the registers, memory etc in use by the out-of-order execution. But what is not discarded is the "out-of-order" memory that was put in the cache. That is still there and that is what is used in the Meltdown attack. From user space one can run attacks like the Flush and Reload or Prime and Probe as described earlier to get the leaked information.
 
 What does all this really mean in practice? What are the practical attacks and do we have to worry about them? Let us for example say that you are using disk encryption. To decrypt (or encrypt) files, a key needs to be present somewhere. If such a key is present in kernel memory, then due to Meltdown it is possible to get access to this key from user space. Since many systems are multiuser systems this is a serious problem. Think about environments where computers that are shared by students at universities or think about companies hosting cloud services where their customers are running in containers like Docker, LXC etc. In most cases, all users are supposed to be running in their own "sandbox" without being able to access data from other users. With Meltdown it is possible to get out of the sandbox and also escape containers.
 
@@ -171,3 +169,4 @@ This is the first part in a series of blog posts about Meltdown and Spectre. The
 
 * Google Project Zero
 [https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html](https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html) 
+
