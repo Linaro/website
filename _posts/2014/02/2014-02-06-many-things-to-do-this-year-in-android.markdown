@@ -55,7 +55,7 @@ For this first quarter, we have started working on:
   * We were successful in building and booting Android with GCC 4.9 on Nexus devices, even before the official release of GCC 4.9. We should be migrating to 4.9 in our official releases soon.
 
 
-One important point that I missed before is the hardware platform that we are using to evaluate these changes, with Bero’s help, we were able to fix the broken blob issue and now have both Nexus 7 and Nexus 10 booting for us from Linaro repositories. If you would like to try these platforms, please follow the instructions given [here](http://android.git.linaro.org/gitweb?p=device/common.git;a=blob_plain;f=howto/nexus10-linaro/HOWTO_install.txt;hb=refs/heads/linaro-kk).  All the performance improvements should be evaluated on Nexus 10 before we submit to AOSP.
+One important point that I missed before is the hardware platform that we are using to evaluate these changes, with Bero’s help, we were able to fix the broken blob issue and now have both Nexus 7 and Nexus 10 booting for us from Linaro repositories. If you would like to try these platforms, please follow the instructions given [here]()http://android.git.linaro.org/gitweb?p=device/common.git;a=blob_plain;f=howto/nexus10-linaro/HOWTO_install.txt;hb=refs/heads/linaro-kk.  All the performance improvements should be evaluated on Nexus 10 before we submit to AOSP.
 
 As mentioned before, we will keep you posted periodically as we make some considerable progress on any of these topics. If you have any questions or suggestions on these topics please write to us on [linaro-android@lists.linaro.org](mailto:linaro-android@lists.linaro.org) or join us on IRC #linaro-android on Freenode.**** ****
 

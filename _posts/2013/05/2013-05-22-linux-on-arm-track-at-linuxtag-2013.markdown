@@ -53,7 +53,7 @@ For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at 
 
 
 
-_More information about the full program being offered to attendees of LinuxTag can be found at:  [https://www.linuxtag.org/2013/en/program/programm-pdf.html](https://www.linuxtag.org/2013/and%20https://www.linuxtag.org/2013/en/program/programm-pdf.html)_
+_More information about the full program being offered to attendees of LinuxTag can be found at:  [https://www.linuxtag.org/2013/en/program/programm-pdf.html](http://www.linuxtag.org/2013/uploads/media/Programm.pdf)_
 
 
 

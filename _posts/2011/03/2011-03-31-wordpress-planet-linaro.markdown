@@ -23,9 +23,9 @@ SilverStripe had several shortcomings, but its main one was the inability to acc
 
 If you belong to Linaro user and developer community, and have interesting technical articles about Linaro to contribute, you may apply for a WordPress user account. It will allow you to submit article proposals to us, which should be published on our blog after reviewing their technical accuracy and making sure they match our content requirements. To apply, find my e-mail address on the Wiki and ask me!
 
-Another great improvement is the availability today of [Planet Linaro](http://planet.linaro.org/), aggregating this blog with blogs from individual Linaro engineers, and in the future from other contributors that we trust. You can either browse the [Planet Linaro](http://planet.linaro.org/) website, or subscribe to its aggregated [RSS feed](http://planet.linaro.org/feed/rss/).
+Another great improvement is the availability today of [Planet Linaro](https://www.linaro.org/planet/), aggregating this blog with blogs from individual Linaro engineers, and in the future from other contributors that we trust. You can either browse the [Planet Linaro](https://www.linaro.org/planet/) website, or subscribe to its aggregated [RSS feed](https://www.linaro.org/planet/feed/rss/).
 
-At the moment, [Planet Linaro](http://planet.linaro.org/) is a bit confused because of the switch from the old blog to the new blog engine. It shows all the old posts just imported in WordPress, which have appeared today as our new blog went live. This weirdness will go away after new posts like this one are published.
+At the moment, [Planet Linaro](https://www.linaro.org/planet/) is a bit confused because of the switch from the old blog to the new blog engine. It shows all the old posts just imported in WordPress, which have appeared today as our new blog went live. This weirdness will go away after new posts like this one are published.
 
 As both this new blog and Planet Linaro have just been put on-line, they may still need a bit of tweaking. Your comments and improvements are welcome!
 

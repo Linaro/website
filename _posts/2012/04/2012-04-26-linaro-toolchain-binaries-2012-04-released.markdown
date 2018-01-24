@@ -76,4 +76,4 @@ Already on Launchpad?  Submit a bug at
 On IRC?  See us on #linaro on Freenode.
 
 Other ways that you can contact us or get involved are listed at
-[https://wiki.linaro.org/GettingInvolved](https://wiki.linaro.org/GettingInvolved).
+[https://wiki.linaro.org/GettingInvolved](https://wiki.linaro.org/NewStaffTasks?action=show).

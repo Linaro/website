@@ -15,7 +15,7 @@ This post takes you through trying a prebuilt build on a TI Panda and then repro
 
 ## Try the Prebuilt Build
 
-Go to [Jellybean Panda build 20 ](https://android-build.linaro.org/builds/~linaro-android/panda-jb-gcc47-tilt-stable-blob/#build=20) and go through the instructions on the page to try the prebuilt build.
+Go to [Jellybean Panda build 20 ]() and go through the instructions on the page to try the prebuilt build.
 
 ## Now Build
 
@@ -28,6 +28,6 @@ wget http://snapshots.linaro.org/android/~linaro-android/panda-jb-gcc47-tilt-sta
 ./linaro_android_build_cmds.sh -m /path/to/pinned-manifest.xml
 ```
 
-Now use the commands listed in [Jellybean Panda build 20 ](https://android-build.linaro.org/builds/~linaro-android/panda-jb-gcc47-tilt-stable-blob/#build=20) but use the system.tar.bz2, boot.tar.bz2 and userdata.tar.bz2 you just made in  out/target/product/pandaboard/
+Now use the commands listed in [Jellybean Panda build 20 ]() but use the system.tar.bz2, boot.tar.bz2 and userdata.tar.bz2 you just made in  out/target/product/pandaboard/
 
 Enjoy!

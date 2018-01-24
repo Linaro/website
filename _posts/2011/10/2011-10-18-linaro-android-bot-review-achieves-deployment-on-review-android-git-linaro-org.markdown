@@ -32,6 +32,6 @@ It is early days yet for the bot, which is currently only building changes for o
 [1] Linaro Android Bot Review homepage: [https://wiki.linaro.org/Platform/Android/AndroidBotReview](https://wiki.linaro.org/Platform/Android/AndroidBotReview)
 [2] Linaro Android Bot Review project page (raise bugs here!): [http://launchpad.net/linaro-android-bot-review](http://launchpad.net/linaro-android-bot-review)
 [3] Gerrit Code Review: [https://code.google.com/p/gerrit](https://code.google.com/p/gerrit)
-[4] Linaro Code Review: [http://review.android.git.linaro.org](http://review.android.git.linaro.org)
+[4] Linaro Code Review: [https://git.linaro.org/?q=android](https://git.linaro.org/?q=android)
 [5] Jenkins Continuous Integration: [http://jenkins-ci.org](http://jenkins-ci.org)
 [6] Linaro Automated Validation on ARM: [https://launchpad.net/lava](https://launchpad.net/lava)

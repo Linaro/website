@@ -35,10 +35,10 @@ The video can also be downloaded in WebM format (VP8 codec):
 
 
 
-  * [WebM / VP8 codec, 800x450 resolution](http://free-electrons.com/pub/video/2011/may/linaro-android-leb-panda-450p.webm)
+  * [WebM / VP8 codec, 800x450 resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
 
 
-  * [WebM / VP8 codec, full HD resolution](http://free-electrons.com/pub/video/2011/may/linaro-android-leb-panda.webm)
+  * [WebM / VP8 codec, full HD resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
 
 
 

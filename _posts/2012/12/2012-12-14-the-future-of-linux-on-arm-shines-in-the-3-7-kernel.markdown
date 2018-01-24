@@ -61,7 +61,7 @@ Excitement continues to grow throughout the Linux and ARM development communitie
 
 “Industry efforts have also recently been driven by the [Linaro Enterprise Group](/groups/leg/) [LEG], which is pushing ARM development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with ARMs to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/groups/leg/), which Kerner references in his article.
 
-Jon Gold of Network World referenced the inclusion of these new features as “groundbreaking” in his [Linux 3.7 adds major new ARM processor support](http://www.networkworld.com/news/2012/121112-linux-arm-264989.html?hpg1=bn) post.
+Jon Gold of Network World referenced the inclusion of these new features as “groundbreaking” in his [Linux 3.7 adds major new ARM processor support]() post.
 
 When asked what the inclusion of the various ARM features in the 3.7 Linux kernel really means for the future of Linux on ARM Rusling added, “ARM’s future in the Linux will be less fragmented, but, perhaps, more importantly, instead of being an irritation to the kernel maintainers, the ARM community are engaged as full Linux kernel citizens, helping Linux as it evolves to support diverse hardware platforms that are the hallmark of the ARM architecture and as it takes more sophisticated approaches to power management.”
 

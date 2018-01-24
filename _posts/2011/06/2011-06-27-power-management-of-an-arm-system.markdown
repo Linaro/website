@@ -19,6 +19,6 @@ The 1st step for ARM platform is to describe its cpu topology. Then, we shall st
 **To learn more visit:**
 * Wiki:  [wiki.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc](https://wiki.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc)
 
-* Blueprint: [blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc](https://blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc)
+* Blueprint: [blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc]()https://blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc
 
 _**Vincent Guittot is a Power Management Specialist for Linaro**_

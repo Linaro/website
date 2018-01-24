@@ -88,7 +88,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **11:00:** [ARM Server Mini-Summit: Verticals-Webserver and Caching technologies](http://lca-13.zerista.com/event/member/72368) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/ARM-Server-Mini-Summit-Verticals-Webserver-and-Caching-technologies)) ([Google+ Event Listing](https://plus.google.com/events/ck1le5e8a257cilb8klg9heplo0))
+  * **11:00:** [ARM Server Mini-Summit: Verticals-Webserver and Caching technologies](http://lca-13.zerista.com/event/member/72368) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad]()http://pad.linaro.org/ARM-Server-Mini-Summit-Verticals-Webserver-and-Caching-technologies) ([Google+ Event Listing](https://plus.google.com/events/ck1le5e8a257cilb8klg9heplo0))
 
 
 
@@ -98,7 +98,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **12:00:** [ARM Server Mini-Summit: Verticals-HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/ARM-Server-Mini-Summit-Verticals-HipHopVM-and-Hadoop-Distributed-File-System)) ([Google+ Event Listing](https://plus.google.com/events/ciu7ro5upa09ebu9j4sj3s98hdc))
+  * **12:00:** [ARM Server Mini-Summit: Verticals-HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](https://www.youtube.com/watch?v=iOhtPU-2UNw)) ([Google+ Event Listing](https://plus.google.com/events/ciu7ro5upa09ebu9j4sj3s98hdc))
 
 
 

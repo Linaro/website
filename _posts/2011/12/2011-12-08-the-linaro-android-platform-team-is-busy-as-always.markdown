@@ -44,7 +44,7 @@ Here's what the Android Platform Team has been up to this week...
   * Finished and set up review of LAVA test for toolchain benchmarking into LAVA.
 
 
-  * A [Linaro master AOSP build](https://android-build.linaro.org/builds/~linaro-android/aosp-panda/) has been set up.
+  * A [Linaro master AOSP build]() has been set up.
 
 
   * Progress in porting the Ethernet Connection Manager to ICS.

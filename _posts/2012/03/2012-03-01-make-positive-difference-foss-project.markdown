@@ -312,13 +312,13 @@ The following files in the Linux source tree should be read before submitting an
 The following presentations and articles are also quite helpful:
 
 Greg Kroah-Hartman's “Write and Submit your first Linux kernel Patch” (2010)
-[http://archive.fosdem.org/2010/schedule/events/linuxkernelpatch](http://archive.fosdem.org/2010/schedule/events/linuxkernelpatch)
+[https://archive.fosdem.org/2010/](https://archive.fosdem.org/2010/)
 
 Jonathan Corbet's “How to Participate in the Linux Community” (2008)
 [http://ldn.linuxfoundation.org/how-participate-linux-community](http://ldn.linuxfoundation.org/how-participate-linux-community)
 
 Randy Dunlap's “Linux Kernel Development: Getting Started” (2005)
-[http://www.xenotime.net/linux/mentor/linux-mentoring.pdf](http://www.xenotime.net/linux/mentor/linux-mentoring.pdf)
+[http://xenotime.net/](http://xenotime.net/)
 
 Greg Kroah-Hartman's “HOWTO do Linux kernel development – take 2” (2005)
 [http://lwn.net/Articles/160191/](http://lwn.net/Articles/160191/)
