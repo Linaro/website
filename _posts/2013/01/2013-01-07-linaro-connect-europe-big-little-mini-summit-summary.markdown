@@ -114,16 +114,16 @@ For more information about each of these sessions and how you can get involved, 
 
 
 
-  * big.LITTLE Mini-Summit  Session 1 (A big.LITTLE status update and Making Linux work with asymmetric systems)  -  [Video](http://youtu.be/hyQFWAuFMRI), [Notes](http://summit.linaro.org/lce12/meeting/20939/big-little-mini-summit-1/)
+  * big.LITTLE Mini-Summit  Session 1 (A big.LITTLE status update and Making Linux work with asymmetric systems)  -  [Video](http://youtu.be/hyQFWAuFMRI), [Notes](https://www.linaro.org/blog/linaro-connect-europe-big-little-mini-summit-summary/)
 
 
-  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](https://www.slideshare.net/linaroorg/bl-session-bluesky), [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21346/big-little-mini-summit-2/)
+  * big.LITTLE Mini-Summit Session 2 (The Bluesky session: What would the ideal power-aware kernel do?)  - [Slides](https://www.slideshare.net/linaroorg/bl-session-bluesky), [Video](http://youtu.be/D-ykH4orHds), [Notes](https://www.linaro.org/blog/linaro-connect-europe-big-little-mini-summit-summary/)
 
 
-  * big.LITTLE Mini-Summit Session 3 (Back to reality: What do we have today and the sequence of steps to get to where we want to be) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21347/big-little-mini-summit-3/)
+  * big.LITTLE Mini-Summit Session 3 (Back to reality: What do we have today and the sequence of steps to get to where we want to be) - [Video](http://youtu.be/D-ykH4orHds), [Notes](https://www.linaro.org/blog/linaro-connect-europe-big-little-mini-summit-summary/)
 
 
-  * big.LITTLE Mini-Summit Session 4 (Workloads and Test Automation and General Discussions on further work and Wrap-Up) - [Video](http://youtu.be/D-ykH4orHds), [Notes](http://summit.linaro.org/lce12/meeting/21348/big-little-mini-summit-4/)
+  * big.LITTLE Mini-Summit Session 4 (Workloads and Test Automation and General Discussions on further work and Wrap-Up) - [Video](http://youtu.be/D-ykH4orHds), [Notes](https://www.linaro.org/blog/linaro-connect-europe-big-little-mini-summit-summary/)
 
 
 

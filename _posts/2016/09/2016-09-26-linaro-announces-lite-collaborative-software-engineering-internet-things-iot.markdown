@@ -35,7 +35,7 @@ Linaro has recently joined the Linux Foundation Zephyr Project as a Platinum mem
 
 Founding members of LITE are ARM, Canonical, Huawei, NXP, RDA, Red Hat, Spreadtrum, STMicroelectronics, Texas Instruments and ZTE. Additional ecosystem semiconductor vendors, software companies, service providers and product manufacturers are expected to join LITE over the coming months.
 
-LITE is today releasing a preview of technology that will be delivered in the initial LITE IoT Reference Platform release to be made in December 2016. An end to end open source sensor solution running on multiple vendor SoCs will be demonstrated at the opening keynote of the Linaro Connect conference in Las Vegas, USA, and made available to the developer community at [www.96Boards.org/carbon](http://www.96boards.org/carbon). 
+LITE is today releasing a preview of technology that will be delivered in the initial LITE IoT Reference Platform release to be made in December 2016. An end to end open source sensor solution running on multiple vendor SoCs will be demonstrated at the opening keynote of the Linaro Connect conference in Las Vegas, USA, and made available to the developer community at [www.96Boards.org/carbon](https://www.96boards.org/product/carbon/). 
 
 “The success of the ARM ecosystem is built on choice and the work of our many partners,” said Charlene Marini, vice president of segment marketing, ARM. “Linaro has a proven track record in fostering collaboration on developing, optimizing and maintaining software solutions across a diverse range of applications. Linaro will apply those same successful principles to LITE to help rapidly mature the IoT software ecosystem in support of the ARM architecture.”
 

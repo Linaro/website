@@ -50,7 +50,7 @@ If you or your company are interested in participating in this effort, please se
 
 * [ODP JIRA Status](https://projects.linaro.org/secure/Dashboard.jspa?selectPageId=10200)
 * [ODP Director’s Board](https://projects.linaro.org/secure/Dashboard.jspa?selectPageId=10410)
-* [ODP Roadmap Status](http://www.opendataplane.org/status/opendataplane-roadmap/)
+* [ODP Roadmap Status](https://www.opendataplane.org/opendataplane-roadmap/)
 * [Git Stats](http://www.opendataplane.org/git-stats/)
 * [Patches – ODP linux-generic](http://patches.opendataplane.org/project/lng-odp/list/)
 * [Patches – ODP-DPDK](http://patches.opendataplane.org/project/lng-odp-dpdk/list/)

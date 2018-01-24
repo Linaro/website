@@ -25,7 +25,7 @@ Linaro Ltd, the collaborative engineering organization developing open source so
 
 Designed by SeeedStudio and Linaro, the 96Boards Carbon is an IoT reference development board targeted at IoT and embedded developers, the hobby community, and the open-source community. The board features the STM32F401RE Cortex-M4 SoC with 512KB onboard flash and Bluetooth LE. The board will be launched with Zephyr pre-installed. This is a small, scalable, real-time OS for use on resource-constrained systems.
 
-The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using ARM Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](http://www.96boards.org/forums/forum/specification/). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
+The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using ARM Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
 
 <table border="1" class="table responsive-table">
@@ -205,7 +205,7 @@ Size
 
 \*Note: Flashing the nRF51 chip requires a SWD programmer such as an ST-Linkv2 or Segger JLink
 
-For more information, visit [http://www.96boards.org/carbon/](http://www.96boards.org/carbon/)
+For more information, visit [https://www.96boards.org/product/carbon//](https://www.96boards.org/product/carbon//)
 
 **About Linaro**
 

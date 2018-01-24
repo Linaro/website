@@ -32,6 +32,6 @@ To get a complete Linaro Android 4.0.4 build, run
 
 Where BUILDTYPE is the build type you want to use (which build type you want to use depends primarily on your target hardware) - one of landing-panda, landing-snowball, staging-iMX53, staging-iMX6, staging-origen, staging-panda, staging-vexpress-a9, staging-vexpress-rtsm, tracking-origen, tracking-panda or tracking-snowball.
 
-Binary builds will appear shortly on [android-build](http://android-build.linaro.org/).
+Binary builds will appear shortly on [android-build](https://releases.linaro.org/).
 
-Of course, another, even faster, way to get 404 is just going [here](https://android-build.linaro.org/you-did-ask-for-a-404--right?). ;-)
+Of course, another, even faster, way to get 404 is just going [here](https://releases.linaro.org/). ;-)

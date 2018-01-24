@@ -21,7 +21,7 @@ Day 1 of Linaro Connect Q2.12 on 28 May 2012 has already had some interesting mo
 
 For the first time Linaro is using Google+ Hangouts on air to live stream the morning sessions and asking those who are remotely participating to be patient as they work out the kinks-- sound issues, session leads being camera aware and slide presentations.
 
-If you are interested in seeing the sessions that were recorded on Day 1 you can click on the links below or you can go to Amber Graner's  [YouTube channel](http://www.youtube.com/user/AmberGraner) and follow along there as well.
+If you are interested in seeing the sessions that were recorded on Day 1 you can click on the links below or you can go to Amber Graner's  [YouTube channel] and follow along there as well.
 
   * [Introduction to Pinmux](http://youtu.be/Zd5SseuszQ0)
 
@@ -62,7 +62,7 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
   * [Linaro Connect Q2.12 Opening Plenary Sessions](http://youtu.be/OlzYuXMuJ9E)
 
 
-For those who want to participate and join the sessions please take a look at the [schedule](http://connect.linaro.org/resources/#schedule) and you can find the live streams [here](https://plus.google.com/+LinaroOrg) and [here](http://www.youtube.com/user/AmberGraner).
+For those who want to participate and join the sessions please take a look at the [schedule](http://connect.linaro.org/resources/#schedule) and you can find the live streams [here](https://plus.google.com/+LinaroOrg) and [here].
 
 More information about remote participation can be found [here](http://connect.linaro.org/).
 

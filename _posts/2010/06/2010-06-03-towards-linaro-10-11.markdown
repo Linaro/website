@@ -34,11 +34,11 @@ Developing for ARM devices isn't without its problems. There are a lot of compan
 ## Ubuntu's Linux on ARM initiative
 
 {% include image.html name="ubuntulogo.png" class="small-inline" alt="Ubuntu Logo" %}
-Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms](http://www.ubuntu.com/news/arm-linux).
+Canonical, creators of the renowned Ubuntu distribution, and ARM saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for ARM devices. Together, starting in 2008, Canonical and ARM took on the task of bring [Ubuntu to ARM platforms]().
 
 <!-- more -->
 
-Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/ARM/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/ARM/LucidReleaseNotes) even added support for a third ARM platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](http://www.linuxuk.org/2010/05/ubuntu-lucid-lynx-on-arm/), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](/) fits into the story.
+Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/ARM/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/ARM/LucidReleaseNotes) even added support for a third ARM platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](/) fits into the story.
 
 
 ## What is Linaro?

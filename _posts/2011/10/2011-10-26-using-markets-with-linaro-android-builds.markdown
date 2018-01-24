@@ -28,7 +28,7 @@ One app market we can use though is F-Droid[3], but installing it revealed an in
 
 On next boot the device reports up all permissions to F-Droid and we're able to install everything.
 
-[1] Android Market licensing [http://source.android.com/faqs.html#if-i-am-not-a-manufacturer-how-can-i-get-android-market](http://source.android.com/faqs.html#if-i-am-not-a-manufacturer-how-can-i-get-android-market)
+[1] Android Market licensing [http://source.android.com/faqs.html#if-i-am-not-a-manufacturer-how-can-i-get-android-market](https://source.android.com/)
 [2] Cyanogenmod [http://wiki.cyanogenmod.com/wiki/Latest_Version](http://wiki.cyanogenmod.com/wiki/Latest_Version)
 [3] F-Droid [http://f-droid.org/](http://f-droid.org/)
 [4] Bug #881469: "Declare android hardware features" https://bugs.launchpad.net/linaro-android/+bug/881469
