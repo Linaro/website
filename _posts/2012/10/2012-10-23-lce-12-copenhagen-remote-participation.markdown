@@ -51,8 +51,6 @@ The complete schedule for LCE 12-Copenhagen can be found on the Linaro Connect w
 
 Click on the day of the week you are interested in about you will see the schedule for that day.  For example click [here](http://connect.linaro.org/resources/#schedule) and you can see the full schedule by track for Monday 29 October 2012.
 
-The schedule is also available at: [http://summit.linaro.org/lce12/](http://connect.linaro.org/resources/)
-
 If a session is listed in one of the following rooms then it will be broadcast live during the event and will also be recorded and accessible via the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792/posts).
 
   * Auditorium BC12
