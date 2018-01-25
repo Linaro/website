@@ -88,7 +88,7 @@ For more information about each of these sessions and how you can get involved, 
   * Session 1 (Android Dalvik, V8 and Bionic Optimization Discussion)  - [Slides](https://www.slideshare.net/linaroorg/st-es-androidefforts), [Video](https://www.youtube.com/watch?v=R4GGv2fezEY), [Notes](http://connect.linaro.org/resources/)
 
 
-  * Session 2 (Android Graphics)  -  [Video](https://www.youtube.com/watch?v=R4GGv2fezEY), [Notes](http://summit.linaro.org/lce12/meeting/21339/android-mini-summit-2/)
+  * Session 2 (Android Graphics)  -  [Video](https://www.youtube.com/watch?v=R4GGv2fezEY)
 
 
   * Session 3 (Android Kernel and Power Feature Discussion) - [Video](https://www.youtube.com/watch?v=BrfF-jaFLpI), [Notes](http://connect.linaro.org/resources/)

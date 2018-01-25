@@ -205,7 +205,7 @@ Size
 
 \*Note: Flashing the nRF51 chip requires a SWD programmer such as an ST-Linkv2 or Segger JLink
 
-For more information, visit [https://www.96boards.org/product/carbon//](https://www.96boards.org/product/carbon//)
+For more information, visit [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
 
 **About Linaro**
 
