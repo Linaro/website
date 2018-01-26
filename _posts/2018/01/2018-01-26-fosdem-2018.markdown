@@ -1,0 +1,45 @@
+---
+author: linaro
+date: 2018-01-26 11:00:00
+title: Linaro at FOSDEM 2018
+description: "FOSDEM is a two-day event organised by volunteers to promote the widespread use of free and open source software. Find our more about Linaro Engineers attending FOSDEM 2018"
+categories:
+- blog
+published: true
+tags: Event, FOSDEM, OpenSource
+keywords: FOSDEM, software developers, collaborate, open source, devroom, dev conf, foss conference
+image:
+    featured: true
+    path: /assets/images/blog/linaro-fosdem-2018.jpg
+    name: linaro-fosdem-2018.jpg
+layout: featured-image-post
+
+---
+
+Don’t miss FOSDEM 2018 where Linaro will be presenting. See below abstracts of their talks and click on the links to find out where you can attend the sessions.
+
+---
+
+Title: **Clean native userland access to net_devices from VPP, ODP, DPDK…**
+
+Speaker: **Francois Frederic-Ozog**
+
+Date: Saturday 27 January, 15.30 - 16.00 
+
+Summary:  Unbinding Linux kernel drivers to allow userland IO through VFIO has a number of disadvantages such as another large complex codebase to deal with the hardware, loss of standard Linux tools (ifconfig, ethtool, tcpdump, SNMPd...) and impossibility to accelerate container networking. The mediated device interface introduced in Linux kernel 4.10 for GPUs and the provision for additional devices holds the promise of collaboration between kernel drivers and userland applications in need of direct datapath steering. Packet frameworks such as OpenDataPlane, DPDK, VPP and Netmap may benefit from leveraging mediated devices. This session will discuss the practicalities and security aspects of such an approach and how the ODP and DPDK communities may collaborate on userland IO.
+
+To find out where to watch this presentation, click [here](https://fosdem.org/2018/schedule/speaker/francois_frederic_ozog/).
+
+---
+
+Title: **Vectors Meet Virtualization - challenges from our new data processing overlords**
+
+Speaker: **Alex Bennée**
+
+Date: Sunday 28 January, 13.30 - 14.15
+
+Summary: As workloads have grown and computing has become more data intensive there has been a move to improve the data crunching capabilities of modern processors. Traditional scalar instruction sets have been augmented by extensions borrowing techniques from supercomputers in the form of SIMD or Vector processing instructions. In the world of virtualization these new instructions offer a number of new challenges. From efficient emulation for code generating JIT's such as QEMU to increased latency when multiplexing multiple machines under KVM. We will then discuss the challenges involved in virtualizing them both in software and hardware alike.
+
+This talk should be especially interesting those involved with the ARM ecosystem as it will discuss ARM’s innovative Scalable Vector Extensions. These are a new set instructions which allow for vector length agnostic programming. This allows for the same binary  to run on both mobile phones and supercomputers without having to be re-written to take advantage of the bigger vector lengths available on more performant CPUs.
+
+To find out where to watch this presentation, click [here](https://fosdem.org/2018/schedule/speaker/alex_bennee/).
