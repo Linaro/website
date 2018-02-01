@@ -1,6 +1,6 @@
 ---
 author: joakim.bech
-date: {}
+date: 2018-01-24T11:00:00.000Z
 title: 'Implications of Meltdown and Spectre &#58; Part 1'
 description: >-
   The basis of the Meltdown and Spectre attacks is to make use of speculative
