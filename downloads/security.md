@@ -1,7 +1,7 @@
 ---
-layout: page
-category: articles
-published: true
+layout: default-no-sub-nav
+title: Downloads and help for Meltdown and Spectre
+permalink: /downloads/security/
 ---
 The work of Linaro’s Security Working Group is described under [Work: Core Engineering: Security](https://www.linaro.org/core/security/). This page offers brief descriptions and links to security related downloads from across Linaro, ordered with latest first.
 
