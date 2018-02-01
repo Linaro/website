@@ -9,6 +9,8 @@ Linaro code exists in many states and is found in many places. Working upstream 
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
+**New** [Click here for Downloads and help for Meltdown and Spectre](/downloads/security/)
+
 ## Linaro Releases, Platforms and Snapshots
 
 [Releases](http://releases.linaro.org/) is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
