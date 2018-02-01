@@ -1,12 +1,7 @@
 prose:
   metadata:
-    downloads:
-      - name: "category"
+    '':
+      - name: "layout"
         field:
           element: "hidden"
-          value: "articles"
-    about:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "articles"
+          value: "page"
