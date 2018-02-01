@@ -1,19 +1,26 @@
 ---
 author: joakim.bech
-date: 2018-01-24 11:00:00
-title: Implications of Meltdown and Spectre &#58; Part 1
-description: "The basis of the Meltdown and Spectre attacks is to make use of speculative execution, out-of-order execution, branch predictors and caches, all features found in modern CPUs.  These features all aim to increase performance and to avoid latencies in the pipeline.  They work in conjunction with each other in quite complex ways."
+date: {}
+title: 'Implications of Meltdown and Spectre &#58; Part 1'
+description: >-
+  The basis of the Meltdown and Spectre attacks is to make use of speculative
+  execution, out-of-order execution, branch predictors and caches, all features
+  found in modern CPUs.  These features all aim to increase performance and to
+  avoid latencies in the pipeline.  They work in conjunction with each other in
+  quite complex ways.
 categories:
-- blog
+  - blog
 published: true
-tags: Meltdown, Spectre, Arm, OP-TEE, Trustzone
-keywords: Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power Analysis, Differential Power Analysis, crypto,
+tags: 'Meltdown, Spectre, Arm, OP-TEE, Trustzone'
+keywords: >-
+  Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
+  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
+  Analysis, Differential Power Analysis, crypto,
 image:
-    featured: true
-    path: /assets/images/blog/meltdown-spectre-logo.jpg
-    name: meltdown-spectre-logo.jpg
+  featured: true
+  path: /assets/images/blog/meltdown-spectre-logo.jpg
+  name: meltdown-spectre-logo.jpg
 layout: featured-image-post
-
 ---
 <div class="col-sm-6" markdown="1">
 # Implications of Meltdown and Spectre
@@ -205,3 +212,5 @@ This is the first part in a series of blog posts about Meltdown and Spectre. The
 [https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html](https://googleprojectzero.blogspot.se/2018/01/reading-privileged-memory-with-side.html)
 
 * OP-TEE Mailing list [http://eepurl.com/cSqzDf](http://eepurl.com/cSqzDf)
+
+* OP-TEE Website [https://www.op-tee.org/](https://www.op-tee.org/)
