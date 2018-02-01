@@ -1,0 +1,12 @@
+prose:
+  metadata:
+    downloads:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "articles"
+    about:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "articles"
