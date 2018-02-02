@@ -2,8 +2,12 @@
 layout: default-no-sub-nav
 title: Downloads and help for Meltdown and Spectre
 permalink: /downloads/security/
+image:
+  featured: true
+  path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
+  name: meltdown-spectre-download-linaro.jpg  
 ---
-The work of Linaro’s Security Working Group is described under [Work: Core Engineering: Security](https://www.linaro.org/core/security/). This page offers brief descriptions and links to security related downloads from across Linaro, ordered with latest first.
+The work of Linaro's Security Working Group is described under [Work: Core Engineering: Security](https://www.linaro.org/core/security/). This page offers brief descriptions and links to security related downloads from across Linaro, ordered with latest first.
 
 ## Downloads and help for Meltdown and Spectre
 
@@ -13,7 +17,7 @@ The original security update from Arm, including links to their original kernel 
 
 Companies requiring help with other or earlier version kernels, 2.x or 3.x, are invited to contact [Linaro Developer Services](https://www.linaro.org/services/#developer-services-contact-us). Linaro Developer Services has significant experience in kernel backports and in securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.
 
-In addition to the above kernel work, the Linaro [Security Working Group](https://www.linaro.org/core/security/) has put together both a [blog post and webcast](https://www.linaro.org/blog/meltdown-spectre/) on Meltdown and Spectre from the perspective of the OP-TEE community. They go over the CPU features one by one to get a better understanding of the essence of these attacks. There is additional information for OP-TEE available on the project’s [Security Advisories page](https://www.op-tee.org/security-advisories/).
+In addition to the above kernel work, the Linaro [Security Working Group](https://www.linaro.org/core/security/) has put together both a [blog post and webcast](https://www.linaro.org/blog/meltdown-spectre/) on Meltdown and Spectre from the perspective of the OP-TEE community. They go over the CPU features one by one to get a better understanding of the essence of these attacks. There is additional information for OP-TEE available on the project's [Security Advisories page](https://www.op-tee.org/security-advisories/).
 
 Additional blogs will be published at [www.linaro.org/blog/](https://www.linaro.org/blog/) to update the status of backports and explain any additional developments.
 
