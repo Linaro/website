@@ -2,6 +2,16 @@
 layout: default-no-sub-nav
 title: Downloads and help for Meltdown and Spectre
 permalink: /downloads/security/
+description: >-
+The Linaro Kernel Working Group is backporting fixes for the Meltdown and Spectre speculation-related security advisories to the v4.4, v4.9 and v4.14 LTS kernels. Read more about security issues with Meltdown and Spectre
+keywords: >-
+  Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
+  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
+  Analysis, Differential Power Analysis, crypto
+image:
+  featured: true
+  path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
+  name: meltdown-spectre-download-linaro.jpg  
 ---
 The work of Linaro’s Security Working Group is described under [Work: Core Engineering: Security](https://www.linaro.org/core/security/). This page offers brief descriptions and links to security related downloads from across Linaro, ordered with latest first.
 
@@ -23,4 +33,4 @@ The [Linaro Digital Home Group (LHG)](https://www.linaro.org/groups/lhg/) has ma
 
 ## OP-TEE
 
-OP-TEE is an open source project which contains a full implementation to make a complete Trusted Execution Environment. Links to downloads for OP-TEE are available on [www.op-tee.org/projects/](https://www.op-tee.org/projects/). 
+OP-TEE is an open source project which contains a full implementation to make a complete Trusted Execution Environment. Links to downloads for OP-TEE are available on [www.op-tee.org/projects/](https://www.op-tee.org/projects/).
