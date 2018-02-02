@@ -2,11 +2,6 @@
 layout: default-no-sub-nav
 title: Downloads and help for Meltdown and Spectre
 permalink: /downloads/security/
-description: |-
-  The Linaro Kernel Working Group is backporting fixes for the Meltdown and Spectre speculation-related security advisories to the v4.4, v4.9 and v4.14 LTS kernels. Read more about security issues with Meltdown and Spectre
-keywords: Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
-  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
-  Analysis, Differential Power Analysis, crypto
 image:
   featured: true
   path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
