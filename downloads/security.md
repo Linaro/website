@@ -2,10 +2,6 @@
 layout: default-no-sub-nav
 title: Downloads and help for Meltdown and Spectre
 permalink: /downloads/security/
-image:
-  featured: true
-  path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
-  name: meltdown-spectre-download-linaro.jpg  
 ---
 The work of Linaro’s Security Working Group is described under [Work: Core Engineering: Security](https://www.linaro.org/core/security/). This page offers brief descriptions and links to security related downloads from across Linaro, ordered with latest first.
 
