@@ -7,4 +7,4 @@ image:
   path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
   name: meltdown-spectre-download-linaro.jpg  
 ---
-To be updated
+Content to be updated, please check back later
