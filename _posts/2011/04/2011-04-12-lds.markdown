@@ -1,0 +1,38 @@
+---
+author: linaro
+categories:
+- blog
+date: 2011-04-12 04:31:23
+description: Invitation to the Linaro Developer Summit, May 9-13, 2011 in Budapest.
+  A great opportunity to know Linaro better and get involved.
+layout: post
+link: /blog/community-blog/lds/
+slug: lds
+tags:
+- Community
+- community
+- developer summit
+title: Linaro Developer Summit in Budapest, May 9-13
+wordpress_id: 3380
+---
+
+Would you be interested in joining the [Linaro Developer Summit](https://wiki.linaro.org/Events/2011-05-LDS/) (LDS) next month in Budapest (May 9-13)?
+
+If you have been following Linaro, that's your chance to participate to the specification process for our next engineering cycle. Like most things that Linaro does, this process is open, and anyone is welcome to join us at this event. LDS happens together with the [Ubuntu Developer Summit](http://uds.ubuntu.com/). Both events are free of charge and you could participate to both if you wish. All you need to do is register [here](https://wiki.linaro.org/Events/2011-05-LDS/#Registration%20and%20Travel).
+
+{% include image.html name="uds-prague.jpg" alt="Ubuntu and Linaro Developer Summit" lightbox_disabled="True" %}
+
+LDS also a chance to learn more about Linaro and the hottest developments for Linux on ARM. In particular, we will have a [technical showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) on Tuesday night. You will be able to see the most recent community boards, some devices running Linaro software, as well as Linaro and Linux on ARM software demos. By the way, if you are using Linaro contributed software in a product or in technical experiments, don't hesitate submit a proposal for the showcase! The best demos will be rewarded by attractive prizes.
+
+If you are interested in getting involved in Linaro projects, LDS is also the perfect place to get started. You will be able to meet Linaro developers in person and submit your ideas to them. If you are looking for someone in particular, you can use our [Meet The Team page](https://wiki.linaro.org/MeetTheTeam), which has a picture of everyone. If you wish to be introduced to someone in particular, don't hesitate to ask me. I'll be glad to help and answer your questions.
+
+The technical schedule is not ready yet, and will probably be available only at the last minute. First requirements need to be signed-off before being turned into high-level Blueprints. These Blueprints need to be approved and only then does
+scheduling happen. Even up to the night before (and during the event itself) the schedule changes.
+
+You can still have a look at the previous LDS agenda to see the kind of topics that will be addressed, and how the summit will be organized: [Monday](http://summit.ubuntu.com/uds-n/2010-10-25/?linaro_only), [Tuesday](http://summit.ubuntu.com/uds-n/2010-10-26/?linaro_only), [Wednesday](http://summit.ubuntu.com/uds-n/2010-10-27/?linaro_only), [Thursday](http://summit.ubuntu.com/uds-n/2010-10-28/?linaro_only) and [Friday](http://summit.ubuntu.com/uds-n/2010-10-29/?linaro_only).
+
+If you are not sure you can participate to the whole week, we would recommend to be present at least on the first three days (essential), and if possible to the fourth one (must-have but unpredictable). Extra sessions and follow-ups get arranged throughout the week and these tend to be pushed to Thursday and Friday.
+
+If you plan to come, we advise you to participate to our [Introduction to Linaro@UDS introduction conf-call](https://wiki.linaro.org/Events/2011-05-LDS/#An%20Introduction%20to%20the%20Linaro@UDS%20Event) this week. Matt Waddel will be able to answer all your questions and help you to get the best out of LDS!
+
+We hope  to see you there!

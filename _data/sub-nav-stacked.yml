@@ -1,0 +1,225 @@
+pages:
+  -
+    list:
+      -
+        title: Core Engineering
+        url: /core/
+        main: true
+      -
+        title: Core Technologies & Tools
+        url: /core/ctt/
+      -
+        title: Kernel
+        url: /core/kernel/
+      -
+        title: Power Management
+        url: /core/power/
+      -
+        title: Security
+        url: /core/security/
+      -
+        title: Virtualization
+        url: /core/virtualization/
+    urls: [/core/,/core/ctt/,/core/kernel/,/core/power/,/core/security/, /core/virtualization/]
+  -
+    list:
+      -
+        title: Initiatives
+        url: /initiatives/
+      -
+        title: 96Boards
+        url: /initiatives/96boards/
+      -
+        title: DeviceTree
+        url: /initiatives/devicetree/
+      -
+        title: KernelCI
+        url: /initiatives/kernelci/
+      -
+        title: OP-TEE
+        url: /initiatives/op-tee/
+      -
+        title: Developer Cloud
+        url: /initiatives/cloud/
+      -
+        title: LSK
+        url: /initiatives/lsk/
+      -
+        title: Performance Project
+        url: /initiatives/performance/
+      -
+        title: Linaro Connect
+        url: /initiatives/connect/
+      -
+        title: ARMv8
+        url: /initiatives/armv8/
+      -
+        title: LAVA
+        url: /initiatives/lava/
+    urls: [/initiatives/,/initiatives/96boards/, /initiatives/devicetree/, /initiatives/kernelci/, /initiatives/op-tee/,/initiatives/cloud/, /initiatives/lsk/, /initiatives/performance/, /initiatives/connect/, /initiatives/armv8/, /initiatives/lava/]
+  -
+    list:
+      -
+        title: Lead Projects
+        url: /projects/
+      -
+        title: Mobile AOSP Optimization
+        url: /projects/aosp/
+      -
+        title: Reference Digital Media Platforms for ARM
+        url: /projects/reference-digital-media-platforms-for-arm/
+      -
+        title: Big Data
+        url: /projects/bigdata/
+      -
+        title: SDI
+        url: /projects/sdi/
+      -
+        title: Mobile Power Management
+        url: /projects/mobile-power-management/
+      -
+        title: ARM Kernel Collaboration
+        url: /projects/arm-kernel-collaboration/
+      -
+        title: Open Source ARM Tools
+        url: /projects/open-source-arm-tools/
+      -
+        title: Open Source Security
+        url: /projects/open-source-security/
+      -
+        title: OpenDataPlane
+        url: /projects/opendataplane/
+      -
+        title: Reference Platforms
+        url: /projects/reference-platforms/
+    urls: [/projects/,/projects/aosp/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/sdi/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
+  -
+    list:
+      -
+        title: Segment Groups
+        url: /groups/
+      -
+        title: Linaro Enterprise Group (LEG)
+        url: /groups/leg/
+      -
+        title: Linaro Networking Group (LNG)
+        url: /groups/lng/
+      -
+        title: Linaro Home Group (LHG)
+        url: /groups/lhg/
+      -
+        title: Linaro Mobile Group (LMG)
+        url: /groups/lmg/
+      -
+        title: Linaro IoT & Embedded Group (LITE)
+        url: /groups/lite/
+
+    urls: [/groups/, /groups/leg/, /groups/lhg/, /groups/lite/, /groups/lmg/, /groups/lng/]
+  -
+    list:
+      - title: Special Interest Group (SIG)
+        url: /sig/
+      - title: High Performance Computing (HPC)
+        url: /sig/hpc/
+    urls: [/sig/, /sig/hpc/]
+  -
+    list:
+      -
+        title: Developer Services
+        url: /services/archive/
+        icon: "developerservices-icon-main.png"
+      -
+        title: Linux
+        url: /services/archive/linux/
+        icon: "developerservices-icon-linux.png"
+      -
+        title: Android
+        url: /services/archive/android/
+        icon: "developerservices-icon-android.png"
+      -
+        title: 96boards
+        url: /services/archive/96boards/
+        icon: "developerservices-icon-96boards.png"
+      -
+        title: Training
+        url: /services/archive/training/
+        icon: "developerservices-icon-training.png"
+      -
+        title: Datacenter and DevCloud
+        url: /services/archive/datacenter-developer-cloud/
+        icon: "developerservices-icon-datacenter.png"
+      -
+        title: RTOS, IoT and Embedded
+        url: /services/archive/rtos-iot-embedded/
+        icon: "developerservices-icon-rtos.png"
+      -
+        title: Servers, Gateways and Development Boards
+        url: /services/archive/servers-gateways-development-boards/
+        icon: "developerservices-icon-servers.png"
+      -
+        title: Verification, Testing and CI
+        url: /services/archive/verification-testing-ci/
+        icon: "developerservices-icon-testing.png"
+
+    urls: [/services/archive/, /services/archive/linux/, /services/archive/android/, /services/archive/96boards/, /services/archive/training/, /services/archive/datacenter-developer-cloud/,
+     /services/archive/rtos-iot-embedded/, /services/archive/servers-gateways-development-boards/, /services/archive/verification-testing-ci/, /services/archive/96boards/architecture-design-consulting/,
+     /services/archive/96boards/board-enablement/, /services/archive/96boards/compliance/, /services/archive/96boards/development-tools/, /services/archive/96boards/board-enablement/android/,
+     /services/archive/96boards/board-enablement/linux/, /services/archive/96boards/board-enablement/op-tee/, /services/archive/96boards/board-enablement/os-distribution-integration/,
+     /services/archive/android/aosp-enablement/, /services/archive/android/bootloaders/, /services/archive/android/fastboot/, /services/archive/android/linux-kernel/, /services/archive/android/optimization-services/,
+     /services/archive/android/bootloaders/arm-trusted-firmware/, /services/archive/android/bootloaders/u-boot/, /services/archive/android/bootloaders/uefi/,
+     /services/archive/linux/bootloaders/, /services/archive/linux/kernel/, /services/archive/linux/optimization-services/, /services/archive/linux/security/,
+     /services/archive/linux/bootloaders/arm-trusted-firmware/, /services/archive/linux/bootloaders/u-boot/, /services/archive/linux/bootloaders/uefi/,
+     /services/archive/rtos-iot-embedded/iot-security/, /services/archive/rtos-iot-embedded/mbed/, /services/archive/rtos-iot-embedded/open-embedded-yocto/, /services/archive/rtos-iot-embedded/zephyr/,
+     /services/archive/servers-gateways-development-boards/development-tools/, /services/archive/servers-gateways-development-boards/hardware-enablement/,
+     /services/archive/servers-gateways-development-boards/hardware-enablement/android/, /services/archive/servers-gateways-development-boards/hardware-enablement/linux/,
+     /services/archive/servers-gateways-development-boards/hardware-enablement/op-tee/, /services/archive/servers-gateways-development-boards/hardware-enablement/os-distribution-integration/,
+     /services/archive/verification-testing-ci/96boards-compliance/, /services/archive/verification-testing-ci/android-cts-testing/, /services/archive/verification-testing-ci/build-automation-continuous-integration/, /services/archive/verification-testing-ci/lava-integration/, /services/archive/verification-testing-ci/test-design-development/]
+  -
+    list:
+      -
+        title: Developer Services
+        url: /services/
+        icon: "developerservices-icon-main.png"
+      -
+        title: Security
+        url: /services/security/
+        icon: "DeveloperServices-icons_Security.svg"
+      -
+        title: Bootloaders
+        url: /services/bootloaders/
+        icon: "DeveloperServices-icons_Bootloaders.svg"
+      -
+        title: Kernels - LTS
+        url: /services/kernel-lts/
+        icon: "DeveloperServices-icons_kernels.svg"
+      -
+        title: BSP’s, Builds and Support
+        url: /services/bsp-builds-support/
+        icon: "DeveloperServices-icons_builds.svg"
+      -
+        title: Power Management
+        url: /services/power-management/
+        icon: "DeveloperServices-icons_power.svg"
+      -
+        title: 96Boards
+        url: /services/96boards/
+        icon: "DeveloperServices-icons_96boards.svg"
+      -
+        title: Toolchain Optimization Services
+        url: /services/toolchain-optimization-services/
+        icon: "DeveloperServices-icons_toolchain.svg"
+      -
+        title: Open Source Consultancy
+        url: /services/open-source-consultancy/
+        icon: "DeveloperServices-icons_consultancy.svg"
+      -
+        title: Testing and Validation Services
+        url: /services/testing-validation-services/
+        icon: "DeveloperServices-icons_validation.svg"
+      -
+        title: Hands on Training
+        url: /services/hands-on-training/
+        icon: "DeveloperServices-icons_training.svg"
+
+    urls: [/services/,/services/security/,/services/bootloaders/,/services/kernel-lts/,/services/bsp-builds-support/,
+    /services/power-management/,/services/96boards/,/services/toolchain-optimization-services/,/services/open-source-consultancy/,/services/testing-validation-services/,/services/hands-on-training/]

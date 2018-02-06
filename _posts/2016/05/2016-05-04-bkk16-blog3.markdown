@@ -1,0 +1,88 @@
+---
+author: shovan
+date: 2016-05-04 11:08:34+00:00
+layout: post
+link: /blog/bkk16-blog3/
+slug: bkk16-blog3
+title: BKK16 Summary Blog 3 - Recognition and Demo Friday
+wordpress_id: 10589
+categories:
+- blog
+---
+
+## After Dark
+
+As BKK16 was hosted in such a beautiful location, there was no need to look further afield for the perfect setting for the [Linaro Connect party](https://flic.kr/s/aHskvTDhFc). Attendees gathered together in the fabulous Lotus Garden of Centara Grand Hotel at Central World for live music, fabulous food and spectacular views of Bangkok.
+
+The spring Linaro Connect is when we take the opportunity each year to recognise those stand out members of the Linaro community. Yet again there were many names put forward but the following were the winners on the night:
+
+  * __Outstanding Open Source Citizen__
+  Peter Maydell (ARM Assignee) Virtualization
+  * __New Starter with Biggest Influence in Linaro__
+  [Yang Zhang](https://www.flickr.com/photos/linaroorg/25384586300/in/album-72157665519520505/) (Linaro Employee - 96Boards)
+  * __On-Time Delivery__
+  Rachel Keaveney (Linaro Employee - COO Office)
+[Zoltan Kiss](https://www.flickr.com/photos/linaroorg/25592759911/in/album-72157665519520505/) (HiSilicon/Huawei Assignee - LNG)
+  * __Cross Team Worker__
+  Jorge Ramirez-Ortiz (Linaro Employee - LDTS)
+Serge Broslavsky (Linaro Employee - KWG/PMWG)
+  * __Most Patient and Effective Leader__
+  [Rob Booth](https://www.flickr.com/photos/linaroorg/25659259796/in/album-72157665519520505/) (Linaro Employee - COO Office)
+Scott Bambrough (Linaro Employee - Member Services)
+  * __Landing Team with Most Impact__
+  [Qualcomm Landing Team](https://www.flickr.com/photos/linaroorg/25054922664/in/album-72157665519520505/)
+  * __Quality Champion__
+  [Ricardo Salveti ](https://www.flickr.com/photos/linaroorg/25685445045/in/album-72157665519520505/)(Linaro Employee - 96boards)
+  * __Innovation__
+  [Mathieu Poirier ](https://www.flickr.com/photos/linaroorg/25054922114/in/album-72157665519520505/)(Linaro Employee - Kernel WG)
+  * __Notable Assignee__
+  [Hanjun Guo](https://www.flickr.com/photos/linaroorg/25058691303/in/album-72157665519520505/) (Huawei/HiSilicon Assignee - LEG)
+  * __Significant Industry Impact  (Linaro)__
+  [Tyler Baker](https://www.flickr.com/photos/linaroorg/25384589680/in/album-72157665519520505/) (Linaro Employee, Automation & CI) for kernelci.org community project
+[Amit Pundir ](https://www.flickr.com/photos/linaroorg/25384589680/in/album-72157665519520505/)(Linaro Employee, LMG) for 4.1 &4.4 AOSP work with Google
+  * __Significant Industry Impact (Member)__
+  [Qualcomm/Ketal Gandhi](https://www.flickr.com/photos/linaroorg/25384588620/in/album-72157665519520505/)
+
+* * *
+
+**We were also pleased to be recognize those with 5 years of service:**
+
+
+  * Usman Ahmad (Member Services)
+  * Joseph Bates (Member Services)
+  * Jassi Brar (Member Services)
+  * Arwen Donaghey (Events)
+  * Tom Gall (LMG)
+  * Andy Green (Member Services)
+  * Lee Jones (Member Services)
+  * Grant Likely (OCTO)
+  * David Piggott (Core Development)
+  * Steve McIntyre (ARM)
+  * Matthieu Poirier (Core Development)
+  * John Stulz (Core Development)
+  * Linus Walleij (Core Development)
+  * Arnd Bergmann (Core Development)
+  * Benjamin Gaignard (ST)
+
+
+* * *
+
+## Demo Friday
+
+
+We ended a busy week with the always popular Demo Friday. No surprise that many of the demos used a 96Boards platform.  Some of the demos included a DLNA Media Server with multiple clients, AOSP with Freedreno, PlayReady-OPTEE on OpenSDK/B2120 and Portable IO on a Sensors board.
+
+
+* * *
+
+**On this series:**
+
+  * [BKK16 Summary Blog 1 - Keynotes](/blog/bkk16-blog1/)
+  * [BKK16 Summary Blog 2 - Sessions](/blog/bkk16-blog2/)
+  * [BKK16 Summary Blog 3 - Recognition and Demo Friday](/blog/bkk16-blog3/) (This one)
+
+* * *
+
+**Follow us on social media:**
+[Interviews on youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Keynote on youtube](https://www.youtube.com/user/linaroOnAir?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Presentations (Slideshare)](http://www.slideshare.net/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social),
+[Photos (Flickr)](https://www.flickr.com/photos/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Facebook](https://www.facebook.com/LinaroOrg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Twitter](https://twitter.com/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social) and [Linkedin](https://www.linkedin.com/company/1026961?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social)

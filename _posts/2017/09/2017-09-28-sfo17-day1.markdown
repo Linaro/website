@@ -1,0 +1,55 @@
+---
+author: linaro
+date: 2017-09-28 18:27:46+00:00
+layout: post
+link: /blog/sfo17-day1/
+slug: sfo17-day1
+title: Linaro Connect SFO17 kicks off with new 96Boards products, members and technology
+  demonstrations
+wordpress_id: 12813
+categories:
+- blog
+---
+
+The 22nd Linaro Connect began on Monday 25 September with the [keynote](http://connect.linaro.org/resource/sfo17/sfo17-100k1/) given by Linaro CEO George Grey. As usual, Grey packed the opening hour with an update on new Linaro members, key engineering achievements, a look at areas of future interest and a series of demonstrations pulling together various aspects of Linaro’s current activities.
+
+New members this time included [Xilinx joining the Linaro Iot and Embedded (LITE) Group](/news/xilinx-joins-linaro-iot-embedded-group/), Kylin joining the Linaro Enterprise Group ([LEG](/groups/leg/)) and NXP extending their existing LITE membership to also participate in the Linaro Digital Home Group ([LHG](/groups/lhg/)).
+
+{% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/n5bP3lJ0YNS1gU" %}
+
+
+* * *
+
+The highlighted engineering achievements were the inclusion of Linaro’s open source trusted execution environment OP-TEE into the 4.12 Linux kernel; the release of the 17.08 Enterprise Reference Platform (ERP) including UEFI/ACPI and PCIe support plus packages and updates including Bigtop, Ceph, DPDK, Docker, OpenStack Newton, ELK, OpenJDK and more all tested and validated on member hardware platforms with all the source code available to all; the significant contributions by the new HPC special interest group to Arm support in the recently released OpenHPC 1.3.2; and LITE’s rapid development and substantial contributions to Zephyr 1.9 including the LWM2M stack that was delivered by the Linaro Technologies team.
+
+Looking ahead, Grey briefly discussed where open source is going and the unimaginable number of connected devices having as much of an effect on society as the incandescent light bulb. Much of this change will run on open source software and this will need to be supported across the whole life time of these connected products. He then moved on to Artificial Intelligence and Linaro’s expertise and interest in this area, inviting parties interested in this area to contact Linaro with a view to establishing a collaborative, open source project or projects to develop related code and tools. Automotive was the next topic and Grey discussed current challenges and opportunities with some initial work that is happening with UK-based company Streetdrone and a proof of concept using the 96Boards DragonBoard 410c and Gumstix Aerocore 2. At this Linaro Connect, multiple Automotive sessions will gather interested parties and discuss the possibilities of collaborative engineering in this area.
+
+The mention of 96Boards in automotive led Grey to talk about some of the new 96Boards products that will be shown at the event by sponsors such as Arrow and Hoperun and also in sessions. He talked about the HiKey 960, the Orange Pi i96, Uranus (TI CC3220 Cortex-M4), and mezzanine boards NeonKey and Secure96.
+
+{% include image.html name="arrow-sponsor-linaro.jpg" alt="Arrow Sponsor Linaro Connect SFO17" %}
+
+Arrow Sponsor
+
+{% include image.html name="hoperun-sponsor.jpg" alt="Arrow Sponsor Linaro Connect SFO17" %}
+
+Hoperun Sponsor
+
+With 96Boards providing developers with access to the latest Arm hardware in a standard form factor, Grey next talked about enabling native development on Arm with the Arm Fixed Virtual Platforms (FVP), Linaro’s Developer Cloud and, now, a new Arm developer platform from Socionext and Gigabyte. The latter was [announced](http://www.socionext.com/en/pr/sn_pr20170922_01e.pdf) by Socionext a few days before Linaro Connect and the Socinext CEO will be at Linaro Connect on Tuesday 26 September to demonstrate the product.
+
+{% include image.html name="socionext-sfo17-sponsor.jpg" alt="Socionext SFO17 Sponsor" %}
+Socionext
+
+A series of demonstrations showing the microPlatforms developed by the Linaro Technologies group followed. These included fully open source Zephyr on Cortex-M and Linux on Cortex-A with the [code](http://github.com/linaro-technologies) and [documentation](http://ltd-docs.readthedocs.org) available to all.
+
+This demonstration marked the beginning on a new chapter for Linaro as Grey explained why Linaro was creating a spin off company [Open Source Foundries](http://opensourcefoundries.com/) to take some of this work forward and create products based around it.
+
+In concluding, Grey talked about Linaro’s mission and a new Associates program that is designed to enable more organizations, such as OEMs, ODMs, service providers, start ups and universities to bring their input into the Linaro steering commmittee discussions. Interested parties should contact [associates@linaro.org](mailto:associates@linaro.org).
+
+Grey made these announcements and demonstrations during the opening keynote at the company’s twice-a-year engineering event, held this time at the Hyatt Regency San Francisco Airport in Burlingame, California. Running through Friday 29 September, the Linaro Connect event brings together close to 500 engineers from across the Arm ecosystem to discuss the latest technology developments and work on today’s most pressing challenges.
+
+
+{% include image.html name="sfo17-group-photo.jpg" alt="SFO17 Group Photo" url="https://www.flickr.com/photos/linaroorg/37057590300/" %}
+
+To find out more about Linaro Connect SFO17, please visit connect.linaro.org and you can see what is happening at the following links:Flickr
+
+[Flickr](https://www.flickr.com/photos/linaroorg/) / [YouTube](http://linaro.co/youtube) / [Facebook](https://www.facebook.com/LinaroOrg/) / [ArmDevices.net](http://armdevices.net/category/tradeshows/linaro-connect/)

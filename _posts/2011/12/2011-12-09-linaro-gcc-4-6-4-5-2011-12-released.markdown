@@ -1,0 +1,59 @@
+---
+author: fathi.boudra
+categories:
+- blog
+date: 2011-12-09 10:16:05
+description: Announcing the 2011.12 release of Linaro GCC 4.6 and Linaro GCC 4.5.
+  Changes, new features and download information.
+keywords: gcc, toolchain, release, Linaro
+layout: post
+link: /blog/releases-blog/linaro-gcc-4-6-4-5-2011-12-released/
+slug: linaro-gcc-4-6-4-5-2011-12-released
+tags:
+- Releases
+- gcc
+- Linaro
+- release
+- toolchain
+title: Linaro GCC 4.6 & 4.5 2011.12 released
+wordpress_id: 1055
+---
+
+The Linaro Toolchain Working Group is pleased to announce the 2011.12 release of both Linaro GCC 4.6 and Linaro GCC 4.5.
+
+Linaro GCC 4.6 2011.12 is the tenth release in the 4.6 series. Based off the latest GCC 4.6.2+svn181866, it contains a range of vectoriser performance improvements and general bug fixes.
+
+Interesting changes include:
+* Updates to 4.6.2+svn181866
+* Generic tuning support for Big-endian platforms.
+* SLP support for operations with arbitrary numbers of operands.
+* SLP support for conditions.
+* Pattern recognition support in basic-block SLP.
+* Enhancements to mixed-size condition pattern recognition.
+* Support for 64bit \_\_sync\* primitives on ARM.
+* Unaligned block-move support for ARMv7.
+* Added Cortex-A15 integer pipeline tuning.
+
+Linaro GCC 4.5 2011.12 is the sixteenth release in the 4.5 series. Based off the latest GCC 4.5.3+svn181877, this is a maintenance focused release.
+
+Interesting changes in 4.5 include:
+* Updates to 4.5.3+svn181877
+
+The source tarballs are available from:
+[http://launchpad.net/gcc-linaro/+milestone/4.6-2011.12](http://launchpad.net/gcc-linaro/+milestone/4.6-2011.12)
+[http://launchpad.net/gcc-linaro/+milestone/4.5-2011.12](http://launchpad.net/gcc-linaro/+milestone/4.5-2011.12)
+
+Downloads are available from the Linaro GCC page on Launchpad:
+[http://launchpad.net/gcc-linaro](http://launchpad.net/gcc-linaro)
+
+More information on the features and issues are available from the release page:
+[http://launchpad.net/gcc-linaro/4.6/4.6-2011.12](http://launchpad.net/gcc-linaro/4.6/4.6-2011.12)
+[http://launchpad.net/gcc-linaro/4.5/4.5-2011.12](http://launchpad.net/gcc-linaro/4.5/4.5-2011.12)
+
+Mailing list: [http://lists.linaro.org/mailman/listinfo/linaro-toolchain](http://lists.linaro.org/mailman/listinfo/linaro-toolchain)
+
+Bugs: [http://bugs.launchpad.net/gcc-linaro/](http://bugs.launchpad.net/gcc-linaro/)
+
+Questions? [http://ask.linaro.org/](http://ask.linaro.org/)
+
+Interested in commercial support? Inquire at support@linaro.org

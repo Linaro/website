@@ -1,0 +1,193 @@
+/*
+This file content styles that could be universely used by linaro, linaro sub domains and other linaro resources
+Created by: Shovan Sargunam
+Last Updated: 24 Jun 2014
+*/
+
+/*Members*/
+	/* 
+	Usage
+	<div class="member-holder member-big">
+		<p class="member broadcom">Broadcom Logo</p>
+	</div>
+	*/
+	
+.member-holder div, .member-holder span, .member-holder p{
+	background-image:url('/app/images/members/members.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	border: 0;
+	text-indent: 100%;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  padding: 0;
+	  margin: 0;
+}
+
+.member-big div, .member-big span, .member-big p{
+	zoom: 150%;
+}
+
+.member-medium div, .member-medium span, .member-medium p{
+	width: 150px;
+	height: 100px;
+}	
+.member-small div, .member-small span{
+	zoom: 0.5; /* all browsers */
+	-moz-transform: scale(0.5);  /* Firefox */
+	margin: -25px; /* Firefox */
+}
+
+.member-homepage div, .member-homepage span, .member-homepage p{
+	zoom: 1;
+	-moz-transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transform: scale(0.6);
+	padding: 0px;
+	margin: -15px -12px -12px -29px;
+	min-width: 148px;
+	
+}
+		.member.allwinner{
+			background-position:0px -30px;
+		}
+		
+		.member.amd{
+			background-position:-150px -30px;
+		}
+		
+		.member.applied-micro{
+			background-position:-300px -30px;
+		}
+		
+		.member.arm{
+			background-position:-450px -30px;
+		}
+		
+		.member.avago{
+			background-position:-300px -480px;
+		}
+	
+		.member.broadcom{
+			background-position:-600px -30px;
+		}
+		
+		.member.calxeda{
+			background-position:-750px -30px;
+		}
+		
+		.member.canonical{
+			background-position:-900px -30px;
+		}
+		
+		.member.cavium{
+			background-position:-1050px -30px;
+		}
+		
+		.member.cisco{
+			background-position:-1200px -30px;
+		}
+		
+		.member.citrix{
+			background-position:-1350px -30px;
+		}
+		
+		.member.comcast{
+			background-position:0px -180px;
+		}
+		
+		.member.enea{
+			background-position:-150px -180px;
+		}
+		
+		.member.facebook{
+			background-position:-300px -180px;
+		}
+		
+		.member.freescale{
+			background-position:-450px -180px;
+		}
+		
+		.member.fujitsu{
+			background-position:-600px -180px;
+		}
+		
+		.member.hisilicon{
+			background-position:-750px -180px;
+		}
+		
+		.member.hp{
+			background-position:-900px -180px;
+		}
+		
+		.member.huawei{
+			background-position:-1050px -180px;
+		}
+		
+		.member.ibm{
+			background-position:-1200px -180px;
+		}
+		
+		.member.lg{
+			background-position:-1350px -180px;
+		}
+		
+		.member.lsi{
+			background-position:0px -330px;
+		}
+		
+		.member.marvell{
+			background-position:-150px -330px;
+		}
+		
+		.member.mediatek{
+			background-position:-300px -330px;
+		}
+		
+		.member.montavista{
+			background-position:-450px -330px;
+		}
+		
+		.member.nsn{
+			background-position:-600px -330px;
+		}
+		
+		.member.qualcomm{
+			background-position:-750px -330px;
+		}
+		
+		.member.redhat{
+			background-position:-900px -330px;
+		}
+		
+		.member.samsung{
+			background-position:-1050px -330px;
+		}
+		
+		.member.st-ericsson{
+			background-position:-1200px -330px;
+		}
+		.member.st{
+			background-position:-1350px -330px;
+		}
+		.member.ti{
+			background-position:0px -480px;
+		}
+		.member.zte{
+			background-position:-150px -480px;
+		}	
+	
+	
+/* Icons */
+
+
+.icon-text {
+background-image: url('/app/images/icon-holder.png');
+background-repeat: no-repeat;
+background-position: 100px 0px;
+height: 64px;
+padding-top: 22px;
+}	

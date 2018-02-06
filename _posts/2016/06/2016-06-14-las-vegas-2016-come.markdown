@@ -1,0 +1,48 @@
+---
+author: ebba.simpson
+date: 2016-06-14 18:55:35+00:00
+excerpt: Learn about the beautiful location of the next Linaro Connect in Las Vegas,
+  September 25-30th, 2016.
+layout: post
+link: /blog/las-vegas-2016-come/
+slug: las-vegas-2016-come
+title: Las Vegas 2016 - here we come!
+wordpress_id: 10657
+categories:
+- blog
+tags:
+- conference
+- connect
+- Connect Events
+- Linaro
+- Linaro Connect
+---
+
+Having just about recovered from the jetlag, it’s time to report on my site visit to the [JW Marriott]()http://www.marriott.com/hotels/travel/lasjw-jw-marriott-las-vegas-resort-and-spa/ in Las Vegas where we will hold the next Linaro Connect September 26-30th. With only four months to go, it was high time we paid the Marriott another visit for some event planning and menu tasting among other things.
+
+I arrived at the Vegas hotel along with Dale, from Form AV, on Thursday afternoon after a ten hour flight and 30-minute taxi drive - just in time for the heatwave. Sunny and 42 degrees Celsius (107 Fahrenheit), it was quite the contrast to the rainy, grey London we flew out from.  Luckily the average temperature for September in Las Vegas is 35 degrees celsius (95 degrees Fahrenheit) which will still be warm but nice enough to enjoy the outdoor amenities.
+
+{% include image.html name="Tivoli-village.jpg" alt="Tivoli village" class="medium-inline right" %}
+
+We were met by our Event Manager, Bobbi, who got us checked into our fantastic suites. The suite was beautifully decorated and felt very homely, with a spacious bathroom, big comfy bed and great view of the mountains surrounding Vegas.
+
+In the evening we had dinner at a Mexican restaurant called [Cantina Laredo]()http://www.tivolivillagelv.com/portfolio/cantina-laredo-2/ in [Tivoli Village](http://www.tivolivillagelv.com/), an area full of restaurants and shops about a 15 min walk away from the Marriott. We went back to Tivoli Village on our last evening in Vegas for steaks at [Echo & Rig]()http://www.tivolivillagelv.com/portfolio/test-3-2/. Both times, the food was superb and the atmosphere great. In Tivoli Village there are many more restaurants worth checking out - you can find Italian food (Brio Tuscan Grille), Japanese food (Kabuki Japanese restaurant) or cupcakes (Cupcakes by Kate) and waffles (Waffle Bar) for those with a sweet tooth.
+
+{% include image.html name="JW-Marriott-gardens.jpg" alt="JW Marriott gardens" class="medium-inline" %}
+
+Friday was a busy day that mainly involved walking around the conference centre and planning the event. What makes the centre so nice is that there is a lot of outdoor space - it is very green with water everywhere. It really does feel like an oasis in the desert and will no doubt allow for the occasional respite from the busy [Linaro Connect](http://connect.linaro.org/las16/) schedule. 
+
+One of the  highlights of the trip was when we got to do a menu tasting. The chef prepared two salads, five main courses and two desserts. Needless to say we struggled to finish it all but we made a valiant attempt! My personal favorites were the Creole chicken and the baked vegetable baguette but everything was delicious.
+
+{% include image.html name="jw-food-3.jpg" alt="JW Food at Linaro Connect" class="medium-inline right" %}
+
+Saturday we decided to brave the strip. The Marriott arranged for a car to pick us up and drive us 20 minutes to the [Border Grill at Mandalay Bay](http://www.bordergrill.com/locations/las-vegas/bglvmb/) - a Mexican restaurant which I would highly recommend for a meal out in town. The initial plan was to then wander round the strip but that was before we ventured outside... being Scandinavian I am very rarely exposed to this kind of heat so we quickly and sensibly scrapped the idea of walking along the strip. Instead, we ordered [Uber](https://www.uber.com/ride/) and [Lyft](https://www.lyft.com/) to drive us around which turned out to be a very efficient and low cost way of getting around Vegas!  
+
+
+{% include image.html name="Las-vegas-strip.jpg" alt="Las Vegas Strip Linaro Connect" class="medium-inline" %}
+
+Sunday the Marriott treated us to 50 minute Swedish massages at the[ Spa Aquae]()http://www.marriott.com/spas/lasjw-jw-marriott-las-vegas-resort-and-spa/spa-aquae/5013971/home-page.mi. I am not normally a fan of massages, I tend to try so hard to relax that I end up overthinking it and becoming tense. I nearly decided to opt out of this one but I’m glad I didn’t. It was AMAZING. For someone who has never really enjoyed massages, I was blown away by how relaxed I felt afterwards. After the massage, I spent a good few hours in the spa, which is beautifully done up with hot tubs, an outdoor pool and saunas. Last but not least, I went for a quick swim in the outdoor pool before we had to head to the airport. Make sure you visit the spa and the swimming pool at least once during your stay at the [JW Marriott]()http://www.marriott.com/hotels/travel/lasjw-jw-marriott-las-vegas-resort-and-spa/.
+
+Linaro Connect Las Vega 2016 will be held September 26-30, 2016.  More information on this event can be found at: [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+
+

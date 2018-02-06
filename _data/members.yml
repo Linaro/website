@@ -1,0 +1,423 @@
+core_members:
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: QuIC
+        image: quic.jpg
+        url: /company/quic/
+club_members:
+      - name: Google
+        image: google.png
+        url: /company/google/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
+      - name: SpreadTrum
+        image: spreadtrum.jpg
+        url: /company/spreadtrum/
+      - name: St
+        image: st.jpg
+        url: /company/st/
+      - name: Texas Instruments
+        image: ti.jpg
+        url: /company/texas-instruments/
+group_members:
+      - name: Acer
+        image: acer.png
+        url: /company/acer/
+      - name: Aliyun
+        image: aliyun.jpg
+        url: /company/aliyun/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Cisco
+        image: cisco.jpg
+        url: /company/cisco/
+      - name: Comcast
+        image: comcast.jpg
+        url: /company/comcast/
+      - name: ENEA
+        image: enea.jpg
+        url: /company/enea/
+      - name: Ericsson
+        image: ericsson.jpg
+        url: /company/ericsson/
+      - name: Fujitsu
+        image: fujitsu.jpg
+        url: /company/fujitsu/
+      - name: Google
+        image: google.png
+        url: /company/google/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
+      - name: MediaTek
+        image: mediatek.jpg
+        url: /company/mediatek/
+      - name: Mstar
+        image: mstar.jpg
+        url: /company/mstar/
+      - name: Nokia
+        image: nokia.jpg
+        url: /company/nokia/
+      - name: NXP
+        image: nxp.jpg
+        url: /company/nxp/
+      - name: Qualcomm Datacenter Technologies
+        image: QualcommDatacenter.png
+        url: /company/qualcomm-datacenter-technologies/
+      - name: QuIC
+        image: quic.jpg
+        url: /company/quic/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
+      - name: Samsung
+        image: samsung.jpg
+        url: /company/samsung/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
+leg_members:
+      - name: Aliyun
+        image: aliyun.jpg
+        url: /company/aliyun/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Fujitsu
+        image: fujitsu.jpg
+        url: /company/fujitsu/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
+      - name: Kylin
+        image: kylin.jpg
+        url: /company/kylin/
+      - name: Qualcomm Datacenter Technologies
+        image: QualcommDatacenter.png
+        url: /company/qualcomm-datacenter-technologies/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
+      - name: SaneChips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
+lng_members:
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Cisco
+        image: cisco.jpg
+        url: /company/cisco/
+      - name: ENEA
+        image: enea.jpg
+        url: /company/enea/
+      - name: Ericsson
+        image: ericsson.jpg
+        url: /company/ericsson/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: Nokia
+        image: nokia.jpg
+        url: /company/nokia/
+      - name: NXP
+        image: nxp.jpg
+        url: /company/nxp/
+      - name: SaneChips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Texas Instruments
+        image: ti.jpg
+        url: /company/texas-instruments/
+lhg_members:
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Comcast
+        image: comcast.jpg
+        url: /company/comcast/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: Mstar
+        image: mstar.jpg
+        url: /company/mstar/
+      - name: NXP
+        image: nxp.jpg
+        url: /company/nxp/
+      - name: QuIC
+        image: quic.jpg
+        url: /company/quic/
+      - name: Sanechips
+        image: sanechips.png
+        url: /company/sanechips/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
+      - name: SpreadTrum
+        image: spreadtrum.jpg
+        url: /company/spreadtrum/
+      - name: Texas Instruments
+        image: ti.jpg
+        url: /company/texas-instruments/
+lmg_members:
+       - name: Arm
+         image: arm.jpg
+         url: /company/arm/
+       - name: Hisilicon
+         image: hisilicon.jpg
+         url: /company/hisilicon/
+       - name: MediaTek
+         image: mediatek.jpg
+         url: /company/mediatek/
+       - name: QuIC
+         image: quic.jpg
+         url: /company/quic/
+       - name: Samsung
+         image: samsung.jpg
+         url: /company/samsung/
+       - name: Sanechips
+         image: sanechips.png
+         url: /company/sanechips/
+       - name: SpreadTrum
+         image: spreadtrum.jpg
+         url: /company/spreadtrum/
+       - name: Texas Instruments
+         image: ti.jpg
+         url: /company/texas-instruments/
+lite_members:
+       - name: Acer
+         image: acer.png
+         url: /company/acer/
+       - name: Arm
+         image: arm.jpg
+         url: /company/arm/
+       - name: Hisilicon
+         image: hisilicon.jpg
+         url: /company/hisilicon/
+       - name: NXP
+         image: nxp.jpg
+         url: /company/nxp/
+       - name: Sanechips
+         image: sanechips.png
+         url: /company/sanechips/
+       - name: SpreadTrum
+         image: spreadtrum.jpg
+         url: /company/spreadtrum/
+       - name: ST
+         image: st.jpg
+         url: /company/st/
+       - name: Texas Instruments
+         image: ti.jpg
+         url: /company/texas-instruments/
+       - name: Xilinx
+         image: xilinx.jpg
+         url: /company/xilinx/
+hpc_members:
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: Cavium
+        image: cavium.jpg
+        url: /company/cavium/
+      - name: Fujitsu
+        image: fujitsu.jpg
+        url: /company/fujitsu/
+      - name: HXT
+        image: hxt.png
+        url: /company/hxt/
+      - name: Qualcomm Datacenter Technologies
+        image: QualcommDatacenter.png
+        url: /company/qualcomm-datacenter-technologies/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
+steering_committee:
+      - name: Actions
+        image: actions.jpg
+        url: /company/actions/
+      - name: Advantech
+        image: advantech.jpg
+        url: /company/advantech/
+      - name: Archer Mind
+        image: archermind.jpg
+        url: /company/archermind/
+      - name: Arm
+        image: arm.jpg
+        url: /company/arm/
+      - name: Arrow Electronics
+        image: arrow.jpg
+        url: /company/arrow/
+      - name: Hisilicon
+        image: hisilicon.jpg
+        url: /company/hisilicon/
+      - name: HopeRun
+        image: hoperun.jpg
+        url: /company/hoperun/
+      - name: MediaTek
+        image: mediatek.jpg
+        url: /company/mediatek/
+      - name: Mstar
+        image: mstar.jpg
+        url: /company/mstar/
+      - name: NXP
+        image: nxp.jpg
+        url: /company/nxp/
+      - name: QuIC
+        image: quic.jpg
+        url: /company/quic/
+      - name: Red Hat
+        image: redhat.jpg
+        url: /company/red-hat/
+      - name: Socionext
+        image: socionext.jpg
+        url: /company/socionext/
+      - name: SpreadTrum
+        image: spreadtrum.jpg
+        url: /company/spreadtrum/
+      - name: ST
+        image: st.jpg
+        url: /company/st/
+      - name: Texas Instruments
+        image: ti.jpg
+        url: /company/texas-instruments/
+      - name: ThunderSoft
+        image: thundersoft.jpg
+        url: /company/thundersoft/
+      - name: Xilinx
+        image: xilinx.jpg
+        url: /company/xilinx/
+manufacturing_partners:
+    - name: Archer Mind
+      image: archermind.jpg
+      url: /company/archermind/
+    - name: Arrow Electronics
+      image: arrow.jpg
+      url: /company/arrow/
+    - name: Black Whale Technology
+      image: Blackwhale.png
+      url: /company/blackwhale/
+    - name: BPI
+      image: bpi.jpg
+      url: /company/bipai/
+    - name: Element 14
+      image: element14.png
+      url: /company/element14/
+    - name: Fujitsu Electronics
+      image: fujitsu-electronics.png
+      url: /company/fujitsu-electronics/
+    - name: Gigabyte
+      image: gigabyte.jpg
+      url: /company/gigabyte/
+    - name: Global Scale
+      image: GlobalScale.jpg
+      url: /company/globalscale/
+    - name: Gumstix
+      image: gumstix.jpg
+      url: /company/gumstix/
+    - name: Hoperun
+      image: hoperun.jpg
+      url: /company/hoperun/
+    - name: Huaqin
+      image: huaqin.jpg
+      url: /company/huaqin/
+    - name: Seeed
+      image: seeed.jpg
+      url: /company/seeed/
+    - name: Shapedmedia
+      image: shapedmedia.png
+      url: /company/shapedmedia/
+    - name: Thundersoft
+      image: thundersoft.jpg
+      url: /company/thundersoft/
+    - name: ToCoding
+      image: tocoding.jpg
+      url: /company/tocoding/
+    - name: UcRobotics
+      image: ucrobotics.jpg
+      url: /company/ucrobotics/
+    - name: vamrs
+      image: vamrs.jpg
+      url: /company/vamrs/
+    - name: Xunlong
+      image: xunlong.jpg
+      url: /company/xunlong/
+mezzanine_partners:
+    - name: Qwerty
+      image: qwerty.jpg
+      url: /company/qwerty/
+    - name: Rohm
+      image: rohm.jpg
+      url: /company/rohm/
+community_members:
+    - name: IBM
+      image: ibm.jpg
+      url: /company/ibm/
+    - name: The Linux Foundation
+      image: linux_foundation.jpg
+      url: /company/linux-foundation/
+community_initiatives:
+    - name: 96Boards
+      image: 96boards-logo.png
+      url: https://www.96boards.org
+    - name: OpenDataPlane
+      image: odp-logo.webp
+      url: https://www.opendataplane.org
+    - name: OP-TEE
+      image: optee-logo.png
+      url: https://www.op-tee.org
+    - name: Device Tree
+      image: devicetree-logo.webp
+      url: https://www.devicetree.org
+    - name: Linaro Connect
+      image: connect-logo.png
+      url: http://connect.linaro.org
+    - name: Lava
+      image: lava-logo.png
+      url: /initiatives/lava/
+    - name: Developer Cloud
+      image: developer-cloud-logo.png
+      url: https://www.linaro.cloud/
+devicetree_members:
+    - name: Arm
+      image: arm.jpg
+      url: /company/arm/
+    - name: Hisilicon
+      image: hisilicon.jpg
+      url: /company/hisilicon/
+    - name: ST
+      image: st.jpg
+      url: /company/st/
