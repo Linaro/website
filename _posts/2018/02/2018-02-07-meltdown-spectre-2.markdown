@@ -1,6 +1,6 @@
 ---
 author: joakim.bech, Ard Biesheuvel, Mark Brown, Daniel Thompson
-date: 2018-01-24T11:00:00.000Z
+date: 2018-02-07 11:00:00.000
 title: 'Implications of Meltdown and Spectre &#58; Part 2'
 description: >-
   The basis of the Meltdown and Spectre attacks is to make use of speculative
