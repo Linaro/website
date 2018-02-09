@@ -67,7 +67,6 @@ Linaro is using a meeting bot for IRC meeting notetaking. More information are a
 ## IRC Software for Linux
 
 *   [http://hexchat.github.io/index.html](http://hexchat.github.io/) – A very popular GUI IRC client
-    *   [Configuration Guide for Linaro](https://wiki.linaro.org/Resources/HowTo/XChatConfiguration)
 *   [http://www.pidgin.im/](http://www.pidgin.im/)
 *   [http://quassel-irc.org/](http://quassel-irc.org/)
 *   [http://irssi.org/](http://irssi.org/) (terminal based, run it through ‘screen’ to avoid missing any discussion)
