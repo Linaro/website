@@ -66,20 +66,20 @@ Linaro is using a meeting bot for IRC meeting notetaking. More information are a
 
 ## IRC Software for Linux
 
-*   [http://xchat.org/](http://xchat.org/) – the most commonly used IRC client in Linaro
+*   [http://hexchat.github.io/index.html](http://hexchat.github.io/) – A very popular GUI IRC client
     *   [Configuration Guide for Linaro](https://wiki.linaro.org/Resources/HowTo/XChatConfiguration)
 *   [http://www.pidgin.im/](http://www.pidgin.im/)
 *   [http://quassel-irc.org/](http://quassel-irc.org/)
 *   [http://irssi.org/](http://irssi.org/) (terminal based, run it through ‘screen’ to avoid missing any discussion)
+*   [http://weechat.org/](http://weechat.org/) (terminal based, run it through ‘screen’ to avoid missing any discussion)
 
 * * *
 
 ## IRC Software for Windows
 
+*   [http://hexchat.github.io/index.html](http://hexchat.github.io/) – A very popular GUI IRC client
 *   [http://www.pidgin.im/download/windows/](http://www.pidgin.im/download/windows/)
 *   [http://www.leafdigital.com/software/leafchat/](http://www.leafdigital.com/software/leafchat/)
-*   [http://www.mirc.co.uk/](http://www.mirc.co.uk/)
-*   [IRC Explorer](http://apps.microsoft.com/windows/en-gb/app/irc-explorer/c210318f-2ec5-4ebf-ac55-87641b4a7733) is a good client for Windows 8 users.
 
 * * *
 
