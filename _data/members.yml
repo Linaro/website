@@ -64,6 +64,9 @@ group_members:
       - name: HXT
         image: hxt.png
         url: /company/hxt/
+      - name: Kylin
+        image: kylin.jpg
+        url: /company/kylin/
       - name: MediaTek
         image: mediatek.jpg
         url: /company/mediatek/
@@ -94,6 +97,9 @@ group_members:
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
+      - name: Xilinx
+        image: xilinx.jpg
+        url: /company/xilinx/
 leg_members:
       - name: Aliyun
         image: aliyun.jpg
