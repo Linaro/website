@@ -1,5 +1,5 @@
 ---
-author: joakim.bech, Ard Biesheuvel, Mark Brown, Daniel Thompson
+author: Joakim Bech, Ard Biesheuvel, Mark Brown, Daniel Thompson
 date: 2018-02-07 11:00:00.000
 title: 'Implications of Meltdown and Spectre &#58; Part 2'
 description: >-
@@ -11,9 +11,9 @@ description: >-
 categories:
   - blog
 published: true
-tags: 'Meltdown, Spectre, Arm, OP-TEE, Trustzone'
+tags: 'Meltdown, Spectre, Arm, OP-TEE, TrustZone'
 keywords: >-
-  Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
+  Meltdown, Spectre, Arm, OP-TEE, TrustZone, Speculative execution, branch
   predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
   Analysis, Differential Power Analysis, crypto,
 image:
@@ -26,13 +26,13 @@ layout: featured-image-post
 
 In the [first blog post](https://www.linaro.org/blog/meltdown-spectre/) we gave an introduction to the techniques used by a CPU to be able to maximize performance and utilization. Then we had a quick introduction to side channel attacks where we looked at the Flush + Reload and the Prime + Probe cache time attacks. Finally we also looked into how the Meltdown and Spectre attacks works in practice. In this second part we are going to look more into how Spectre and Meltdown impact various components we are working with in Linaro.
 
-## # OP-TEE
+# OP-TEE
 
 OP-TEE is an open source *Trusted Execution Environment*. In short it is a secure OS running in a separate hardware assisted secure domain, often called secure world or simply "the *TEE*". On Arm architectures, TEE implementations leverages the Arm [TrustZone technology](https://www.arm.com/products/security-on-arm/trustzone) to develop secure OSes.
 
 Conceptually TEEs works in a similar way to traditional OSes, that is you will have a *privileged part* (kernel) and a *non-privileged part* (user space). The difference here is that they are both running secure mode separately from the normal OS. So, what we are talking about here is mainly the green part in the image below, but it will also overlap with the Secure Monitor which is also running in secure world. The Secure Monitor is responsible for entries and exits to and from secure world.
 
-{% include image.html name="trustzone-matrix.png" alt="Trustzone Matrix" %}
+{% include image.html name="trustzone-matrix.png" alt="TrustZone Matrix" %}
 
 OP-TEE consists of code running both in non-secure world (in both Linux and user space) as well as secure world. The OP-TEE code running in non-secure world will be protected against Meltdown and Spectre by the "general" mitigations taking place from Linux point of view, i.e., *KPTI*, branch predictor invalidation etc. I.e., the mitigations that we talked about in the [previous blog post](https://www.linaro.org/blog/meltdown-spectre/). This means that there is no need for doing anything extra for non-secure OP-TEE components to protect them against Meltdown and Spectre.
 
@@ -44,7 +44,6 @@ On `Armv7-A` devices, where we are using the Secure Monitor that comes with `TEE
 
 This leaves us with **Spectre variant 1** (*Bounds check bypass, CVE-2017-5753*). Out of the three attacks this is probably hardest one to find robust mitigations for. The main reason for that is because the developers needs to do manual inspection to find areas in the code that potentially can be vulnerable to the attack. As one can imagine, this is not trivial and it is error prone and the code base needs to be re-checked for this on regular basis. Since the attacks surfaced, people have started to develop tools to assist in finding vulnerable areas. The OP-TEE team have been guinea pigs to such a tool, which is being developed by an engineer from Red Hat (Nick Clifton). There are no guarantees, but we believe that the Red Hat engineer will publish the tool when initial bugs have been smoked out. It is here we are with OP-TEE right now, i.e., we are manually looking at the code in combination to trying out tools like the one just mentioned. So far we have not been able to find any vulnerable sections, but we still have more work to be done here before having some confidence saying that there are no such vulnerable areas in OP-TEE (hopefully!).
 
-### 
 ## Are the any known Meltdown and Spectre attacks on OP-TEE?
 
 We are not aware of any Meltdown and Spectre attacks on OP-TEE, in fact we are not aware of any Meltdown and Spectre attacks getting meaningful results from **any** TEE. There has been various whitepapers and [talks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/december/34C3-Tool-Release-Cachegrab/) about general cache related attacks on TrustZone in the past. But what we currently know about such attacks, is that besides seeing some patterns in some cache lines after being running code on secure side, they have not been able to get any useful information out of it.
@@ -53,7 +52,7 @@ Although TrustZone **is** affected by Meltdown and Spectre, we believe it is muc
 
 Finally (with risk of being repetitive), all information about mitigation patches etc for OP-TEE can be found at our [security advisories](https://www.op-tee.org/security-advisories/) page at optee.org.
 
-## # Arm Trusted Firmware
+# Arm Trusted Firmware
 
 Arm Trusted Firmware has not, at present, been observed to contain code patterns vulnerable to **Spectre variant 1** (*Bounds check bypass, CVE-2017-5753*) attacks. Similarly it can never be vulnerable to *Meltdown** (*Rogue data cache load, CVE-2017-5754*) attacks, because it runs at `EL3` and therefore does not share a translation regime with code running lower exception levels.
 
@@ -65,9 +64,9 @@ Given these changes, the Linux kernel can rely on every trap to EL3 invalidating
 
  At the time of writing, [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti) contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
 
-## # Traditional bootloaders and runtime firmware
+# Traditional bootloaders and runtime firmware
 
-### ## UEFI
+## UEFI
 
 UEFI firmware execution consists of two distinct phases, the **boot** phase and the **runtime** phase.
 
@@ -79,11 +78,11 @@ That leaves Spectre variant 1. Given that the UEFI runtime services interact wit
 
 In the meantime, we can mitigate this threat by taking an approach similar to the Kaiser/KPTI solution for Meltdown, which is to unmap the entire kernel while UEFI runtime services are in progress. Given that UEFI does not keep any secrets itself, there will simply be no secret left to steal in this case, making any speculation attacks pointless. [Patches](https://www.spinics.net/lists/arm-kernel/msg630851.html) implementing this have been proposed for the Linux kernel, and are under discussion.
 
-### ## U-Boot
+## U-Boot
 
 *U-Boot* is a bootloader used in many embedded systems. Since it is a simple bootloader which does not support applications and does not continue running after handing over execution to the next stage of boot these security issues are not relevant to it.
 
-## # Linux kernel
+# Linux kernel
 
 The Linux kernel has a key role to play in addressing the issues raised by Meltdown and Spectre. A number of patch sets with both architecture specific fixes and fixes that apply to all architectures are currently in various stages of development and release.
 
