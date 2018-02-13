@@ -2,7 +2,6 @@
 author: mathieu.poirier
 date: 2017-05-04 17:52:20+00:00
 layout: post
-link: /blog/core-dump/day-2-ospm-summit-pisa-italy/
 slug: day-2-ospm-summit-pisa-italy
 title: Day 2 at the OSPM Summit Pisa, Italy
 wordpress_id: 12384
@@ -23,7 +22,7 @@ tags:
 - schedutil governor
 ---
 
-[The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by ARM and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 2 (to read about what took place on day 1, [click here](/blog/core-dump/day-1-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.
+[The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by ARM and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 2 (to read about what took place on day 1, [click here](/blog/day-1-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=JEIvZBh5Ou8" %}
 
