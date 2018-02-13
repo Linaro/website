@@ -44,7 +44,7 @@ EAS will unify 3 separate frameworks in the Linux kernel that are currently only
   * Linux cpuidle
   * Linux cpufreq
 
-These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/core-dump/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
+These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
 
 The optimal solution is to fully integrate these functions into the Linux scheduler itself, with sufficient information to enable the most energy-efficient scheduling decisions to be made.
 

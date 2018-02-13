@@ -33,7 +33,7 @@ The person taking this role will be responsible for helping to maintain the Lava
 The person must also be able to give technical assistance where needed. Linaro is global company, and at times they will be expected to participate in meetings outside the normal working hours of their time zone.
 
 More information on this role can be found at:
-[/careers/lava-lab-technician-validation](/careers/lava-lab-technician-validation)
+[/blog/linaro-is-seeking-a-lava-lab-technician-validation/](/blog/linaro-is-seeking-a-lava-lab-technician-validation/)
 
 
 ## **How to apply**

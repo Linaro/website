@@ -11,7 +11,6 @@ excerpt: "The energy-aware scheduling (EAS) project is trying to solve a long-st
   design limitation of two key power-management subsystems (CPUFreq and CPUIdle) -
   they don\u2019t coordinate their decisions with task scheduling decisions."
 layout: post
-link: /blog/core-dump/energy-aware-scheduling-eas-project/
 slug: energy-aware-scheduling-eas-project
 tags:
 - Core Dump
@@ -86,6 +85,6 @@ ARM’s energy model[ patchset](https://lkml.org/lkml/2014/7/3/884) is one examp
 
 In order to make this useful to Members shipping products in 2016, we’ll also be backporting all this work to the Linaro Stable Kernel (LSK). Stay tuned for announcements on that front.
 
-If you are interested in more details, perhaps you’ll like the[ LWN article](http://lwn.net/Articles/602479/) that covers some historical background and more technical details and a recent[ report](/blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/) on the Linaro Core Dump blog summarizing the results of the EAS Workshop at the 2014 Linux Kernel Summit.
+If you are interested in more details, perhaps you’ll like the[ LWN article](http://lwn.net/Articles/602479/) that covers some historical background and more technical details and a recent[ report](/blog/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/) on the Linaro Core Dump blog summarizing the results of the EAS Workshop at the 2014 Linux Kernel Summit.
 
 **Note: _this article was originally published in Linaro Monthly Engineer Status Update 2014.10 and updated with the latest news to be published in this blog._**

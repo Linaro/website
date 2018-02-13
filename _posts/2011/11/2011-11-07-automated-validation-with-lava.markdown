@@ -8,7 +8,6 @@ description: Discussion on Linaro's LAVA efforts including Android testing, visu
 keywords: Linaro, linux, linux on ARM, ARM SOCs, opensource software, LAVA, Validation,
   Android
 layout: post
-link: /blog/community-blog/automated-validation-with-lava/
 slug: automated-validation-with-lava
 tags:
 - Community

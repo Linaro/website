@@ -9,7 +9,6 @@ description: State of the art of energy-aware scheduling with a brief overview o
 excerpt: State of the art of energy-aware scheduling with a brief overview of the
   discussions and outcomes of the EAS workshop at Linux Kernel Summit 2014
 layout: post
-link: /blog/core-dump/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/
 slug: summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014
 tags:
 - Core Dump

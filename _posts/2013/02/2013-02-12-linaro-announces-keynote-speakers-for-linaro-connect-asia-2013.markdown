@@ -92,8 +92,8 @@ Registration for Linaro Connect Asia 2013 is [still open](http://connect.linaro.
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
-_To find out more, please visit[ ](/).[](/linux-on-arm/)_
-_ [](/linux-on-arm/)_
+_To find out more, please visit[ ](/).[](/about/)_
+_ [](/about/)_
 **_ About Linaro Connect_**
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
