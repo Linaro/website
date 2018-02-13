@@ -58,7 +58,7 @@ Also being held during this event is an ARM Enterprise Server Mini-Summit which 
 
 **Demo Friday**
 
-There will also be new demos added to the [Demo Friday](/connect/demo-friday) at event as well.  These include:
+There will also be new demos added to the [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) at event as well.  These include:
 
 
   * DLNA Premium Video HTML5 RUI Demo
@@ -82,7 +82,7 @@ There will also be new demos added to the [Demo Friday](/connect/demo-friday) at
   * UEFI SCT
 
 
-If you will be at Connect and want to show off how you or your organization is using Linaro Code and ARM boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/connect/demo-friday).
+If you will be at Connect and want to show off how you or your organization is using Linaro Code and ARM boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
 **Register Today!**
 

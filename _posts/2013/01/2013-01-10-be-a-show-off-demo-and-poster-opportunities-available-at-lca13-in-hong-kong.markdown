@@ -21,7 +21,7 @@ wordpress_id: 2216
 
 {% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://connect.linaro.org/lca13/"%}
 
-Linaro is excited to announce that we will once again host a [Demo Friday](/connect/demo-friday) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?
@@ -34,7 +34,7 @@ Demo Friday is a two-hour event that will showcase new and innovative ways Linar
 
 New to our Demo Friday event will be a Poster Program.  This program is for those who would like to let attendees know how they or their organization is using Linaro code and ARM based processors, but can’t actually bring the equipment to the Linaro Connect event.
 
-More information on this program can be found [here](/connect/demo-friday).
+More information on this program can be found [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
 
 ## Previous Demonstrations
@@ -68,7 +68,7 @@ When emailing please include the following information:
   * _Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends. If you are entering a poster a representative for the project or organization must be with the poster at the event to answer questions)_
 
 
-Demo Friday details can be found on the [Linaro Connect Site](/connect/demo-friday).
+Demo Friday details can be found on the [Linaro Connect Site](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
 
 ## Sponsorship Opportunities Still Available
