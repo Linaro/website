@@ -86,7 +86,7 @@ With the Linaro provided downloads and with ARM’s Fast Models virtual platform
 
 
 
-  * [/engineering/armv8](/engineering/armv8)
+  * [/engineering/armv8](/initiatives/armv8/)
 
 
 
