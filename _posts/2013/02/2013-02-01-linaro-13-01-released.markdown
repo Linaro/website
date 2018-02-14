@@ -29,7 +29,7 @@ The Linaro Enterprise Group (LEG) has released Linaro UEFI 2013.01. The highligh
 
 The Power Management Group hosted a big.LITTLE sprint in Cambridge led by Amit Kucheria. A meeting of minds between ARM, Linaro and the community succeeded in achieving enhanced focus and a more defined roadmap for the big.LITTLE story. Topics included clearly defined benchmarking to determine the effectiveness of the platform, enhanced verification to augment the traditional kernel power/performance testing, and a well defined roadmap for big.LITTLE on Android. In related big.LITTLE MP development, version 14 of the big.LITTLE MP tree has been released [http://lists.linaro.org/pipermail/linaro-dev/2013-January/015037.html].
 
-On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](/connect/demo-friday) will showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) will showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of ARM based processor boards and Linaro builds of Android, Ubuntu and more.
 
 We encourage everybody to use the 13.01 release. The download links for all images and components are available on our downloads page:
 [/downloads/](/downloads/)

@@ -2250,7 +2250,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 Demo Friday
 
 
-Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/connect/demo-friday) for more information.
+Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) for more information.
 
 
 Introduction to Linaro

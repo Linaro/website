@@ -49,7 +49,7 @@ More information about the topics discussed in this interview  can be found at:
   * **Linaro Server Mini-Summit:** [/blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/](/blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/)
 
 
-  * **Linaro Networking Group (LNG):** [/engineering/lng](/engineering/lng)
+  * **Linaro Networking Group (LNG):** [/blog/lng/](/blog/lng/)
 
 
   * **Linaro Enterprise Group (LEG):** [/groups/leg/](/groups/leg/)

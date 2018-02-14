@@ -58,7 +58,7 @@ The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can 
 ## Demo Friday
 
 
-Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [/connect/demo-friday](/connect/demo-friday)
+Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [/connect/demo-friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/)
 
 
 ## Remote Participation

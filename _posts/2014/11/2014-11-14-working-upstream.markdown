@@ -10,7 +10,6 @@ excerpt: Daniel Lezcano a Long term upstream contributor's shares his experience
   upstream. He has been doing kernel development for more 10 years and currently maintaining
   two subsystems of the Linux kernel.
 layout: post
-link: /blog/core-dump/working-upstream/
 slug: working-upstream
 tags:
 - Core Dump
