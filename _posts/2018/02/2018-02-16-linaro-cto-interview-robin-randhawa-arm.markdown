@@ -30,23 +30,22 @@ Thanks.
 
 **RR:** Academically I'm an Industrial Electronics Engineer who saw the light and became an embedded systems software junkie. That way I got to work with the best of both worlds (hardware and software).
 
-I've been at it professionally since '99 which pegs me at 20 years of experience (kind of scary). Of those 20, I've spent 10 years at ARM working in a variety of roles. 
+I've been at it professionally since '99 which pegs me at 20 years of experience (kind of scary). Of those 20, I've spent 10 years at Arm working in a variety of roles. 
 
-I was lucky to be at ARM when the realisation that software matters critically was just sinking in. 8 years ago I was tasked with forming the first platform systems software team, in Cambridge. 
+I was lucky to be at Arm when the realisation that software matters critically was just sinking in. 8 years ago I was tasked with forming the first platform systems software team, in Cambridge. 
 
-I've been the technical lead for ARM's OS power-performance team at Cambridge for the past 6 years. In that role I learnt how to make commercial products using open source software which poses many interesting challenges. This primed me to the next thing on my plate.
+I've been the technical lead for Arm's OS power-performance team at Cambridge for the past 6 years. In that role I learnt how to make commercial products using open source software which poses many interesting challenges. This primed me to the next thing on my plate.
 
-I've been working on something completely different this past year - figuring out ways to help align the ARM safety critical ecosystem - especially Automotive and Robotics - using open source software. 
+I've been working on something completely different this past year - figuring out ways to help align the Arm safety critical ecosystem - especially Automotive and Robotics - using open source software. 
 
-Being at ARM gives me channels into our rich partner ecosystem and therefore the ability to see interesting technical and strategic patterns forming ahead of time. I've been speaking to system 
-software and hardware architects from a wide range of Automotive suppliers and manufacturers, including operating system vendors. From those discussions I'm finding practical ways to increase the adoption of open source software in these spaces.
+Being at Arm gives me channels into our rich partner ecosystem and therefore the ability to see interesting technical and strategic patterns forming ahead of time. I've been speaking to system software and hardware architects from a wide range of Automotive suppliers and manufacturers, including operating system vendors. From those discussions I'm finding practical ways to increase the adoption of open source software in these spaces.
 
 Why? Well, because if we can do with safety critical spaces what we managed to do in the mobile space with open source software, then we should trend towards a universe where we have more safe, secure, technically hygienic and cheaper software deployments.
 
 I'm fond of all sorts of system software development ranging from operating system kernels, system services, boot flows, language run-times, the lot. On most nights my family graciously permits me 
 some me time in my hardware ridden man-cave for personal tinkering projects. 
 
-Playing with Rust on ARM boards these days! Very exciting!!
+Playing with Rust on Arm boards these days! Very exciting!!
 
 **DR:** Thanks Robin. I like to keep my feet on the ground and play with hardware and software. Tell me, what is different about software for automotive?
 
