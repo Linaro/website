@@ -38,8 +38,7 @@ I've been the technical lead for Arm's OS power-performance team at Cambridge fo
 
 I've been working on something completely different this past year - figuring out ways to help align the Arm safety critical ecosystem - especially Automotive and Robotics - using open source software. 
 
-Being at Arm gives me channels into our rich partner ecosystem and therefore the ability to see interesting technical and strategic patterns forming ahead of time. I've been speaking to system 
-software and hardware architects from a wide range of Automotive suppliers and manufacturers, including operating system vendors. From those discussions I'm finding practical ways to increase the adoption of open source software in these spaces.
+Being at Arm gives me channels into our rich partner ecosystem and therefore the ability to see interesting technical and strategic patterns forming ahead of time. I've been speaking to system software and hardware architects from a wide range of Automotive suppliers and manufacturers, including operating system vendors. From those discussions I'm finding practical ways to increase the adoption of open source software in these spaces.
 
 Why? Well, because if we can do with safety critical spaces what we managed to do in the mobile space with open source software, then we should trend towards a universe where we have more safe, secure, technically hygienic and cheaper software deployments.
 
