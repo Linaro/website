@@ -1,25 +1,21 @@
 ---
 author: david.rusling
 date: 2018-02-16 12:00:00.000
-title: Linaro CTO Interview &#58; Robin Randhawa (Arm) discusses The Automotive Industry and Open Source Software
+title: Robin Randhawa (Arm) discusses The Automotive Industry and Open Source Software with Linaro CTO
 description: >-
  Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm)
  on Linaro’s automotive strategy for a little while now. We both get asked how open 
  source software fits in that industry. I thought that this interview would help explain.
 categories:
   - blog
-  - cto-blog
-published: false
-tags: 'CTO-Blog, Open Source Software, Arm, OP-TEE, TrustZone'
-keywords: >-
-  Meltdown, Spectre, Arm, OP-TEE, TrustZone, Speculative execution, branch
-  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
-  Analysis, Differential Power Analysis, crypto,
-image:
-  featured: true
-  path: /assets/images/blog/meltdown-spectre-logo.jpg
-  name: meltdown-spectre-logo.jpg
-layout: featured-image-post
+published: true
+tags: 'CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles'
+keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles
+#image:
+  #featured: true
+  #path: /assets/images/blog/meltdown-spectre-logo.jpg
+  #name: meltdown-spectre-logo.jpg
+layout: post
 ---
 
 _**DR:** Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm) on Linaro’s automotive strategy for a little while now. We both get asked how open source software fits in that industry. I thought that this interview would help explain._
@@ -84,4 +80,4 @@ components etc.
 **DR:** Robin, thank you for being interviewed, I think that this interview goes a long way towards explaining where open source fits in vehicles, now and an a little bit of our thinking about the future. Robin will be at Linaro’s Hong Kong Connect (HKG18) later this year in March. If you are there, he is always worth talking to. Speaking of HKG18, there is a strong Automotive presence there, especially on Ecosystem Day, which is the Wednesday of the event.
 
 
-For more information on HKG18 or to register for Ecosystem Day, click here
+For more information on HKG18 or to register for Ecosystem Day, click [here](http://connect.linaro.org/).
