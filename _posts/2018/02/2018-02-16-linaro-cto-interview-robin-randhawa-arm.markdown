@@ -16,7 +16,7 @@ image:
     featured: true
     path: /assets/images/blog/automotive-arm-ecosystem.png
     name: automotive-arm-ecosystem.png
-layout: post
+layout: featured-image-post
 ---
 
 _**DR:** Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm) on Linaro’s automotive strategy for a little while now. We both get asked how open source software fits in that industry. I thought that this interview would help explain._
