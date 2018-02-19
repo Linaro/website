@@ -64,6 +64,8 @@ Given these changes, the Linux kernel can rely on every trap to EL3 invalidating
 
  At the time of writing, [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti) contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
 
+**Update**: *Since this article was first published, kernel code to exploit* `SMCCC_ARCH_WORKAROUND_1` *has been included in both the mainline kernel (from `v4.16-rc1`) and [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti). `SMCCC_ARCH_WORKAROUND_1` is better optimized and permits better error reporting by the kernel if it is booted on a mis-configured system. It is strongly recommended to adopt the newer approach.*
+
 # Traditional bootloaders and runtime firmware
 
 ## UEFI
@@ -96,3 +98,4 @@ As with all security relevant fixes the goal is to get these patches into the LT
 
 Due to the urgency surrounding these particular issues some members will want to start integrating fixes into their products prior to them being ready for LTS. In order to facilitate this we are maintaining a git repository https://git.linaro.org/kernel/speculation-fixes-staging.git/. This contains branches for each individual patch series for each kernel version, plus branches for each of v4.4, v4.9 and v4.14 with all the fixes for each kernel merged.
 
+**Update**: *Since this article was first published, the kernel mitigations for **Sprectre variant 2** have been optimized to use* `SMCCC_ARCH_WORKAROUND_1` *instead of* `PSCI_VERSION` *and these are included in both the mainline kernel (from `v4.16-rc1`) and [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti). It is strongly recommended to adopt the newer approach.*
