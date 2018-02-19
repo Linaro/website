@@ -1,5 +1,6 @@
 ---
 author: david.rusling
+co-author: robin.randhawa
 date: 2018-02-16 12:00:00.000
 title: Robin Randhawa (Arm) discusses The Automotive Industry and Open Source Software with Linaro CTO
 description: >-
@@ -11,10 +12,10 @@ categories:
 published: true
 tags: 'CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles'
 keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles
-#image:
-  #featured: true
-  #path: /assets/images/blog/meltdown-spectre-logo.jpg
-  #name: meltdown-spectre-logo.jpg
+image:
+    featured: true
+    path: /assets/images/blog/automotive-arm-ecosystem.png
+    name: automotive-arm-ecosystem.png
 layout: post
 ---
 
