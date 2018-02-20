@@ -2,7 +2,7 @@
 title: Members
 description: |-
     Members currently working with Linaro and how to become a member of Linaro
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /members/
 js-package: extended
 css-package: members

@@ -1,6 +1,6 @@
 ---
 title: Linaro Life
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /linarolife/e2/
 css-package: life
 ---

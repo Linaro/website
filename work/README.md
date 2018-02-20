@@ -1,6 +1,6 @@
 ---
 title: Work
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /work/
 js-package: extended
 css-package: work

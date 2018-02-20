@@ -1,7 +1,7 @@
 ---
 title: Search
 permalink: /search/
-layout: default-no-sub-nav
+layout: container-breadcrumb
 js-package: search
 css-include: main
 description: |-
