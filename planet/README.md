@@ -102,6 +102,15 @@ To add your feed to the list visit <a href="/planet/source/">this page</a> to fi
 <div id="rss-feed-2"></div>
 </div>
 
+
+<div class="col-sm-4 linaro-rss-feed" markdown="1">
+### Naresh
+[fullshovel.wordpress.com/](https://nbhat-ho2016.blogspot.co.uk/)
+<div id="rss-feed-naresh"></div>
+</div>
+
+
+
 </div>
 
 <div class="row">

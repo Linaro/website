@@ -91,6 +91,13 @@ $(document).ready(function(){
         dateFormat: 'MMMM Do, YYYY',
         ssl: false,
         });
+        $("#rss-feed-naresh").rss("https://nbhat-ho2016.blogspot.co.uk/rss.xml",
+        {
+        entryTemplate: entryTemp,
+        layoutTemplate: layoutTemp,
+        dateFormat: 'MMMM Do, YYYY',
+        ssl: false,
+        });
 
 
 });
