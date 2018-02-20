@@ -4,7 +4,7 @@ description: |-
     Information on how to get your rss included in Planet Linaro.
 layout: default-no-sub-nav
 permalink: /planet/source/
-css-include: main-planet
+css-package: planet
 ---
 <div class="col-sm-6" markdown="1">
 

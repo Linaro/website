@@ -2,7 +2,7 @@
 title: Office of the CTO
 description: |-
      The Linaro Office of the CTO supports the TSC in determining Linaro’s technical strategy.
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /about/octo/
 js-package: extended
 ---

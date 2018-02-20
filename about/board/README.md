@@ -2,10 +2,10 @@
 title: Board of Directors
 description: |-
     Listing of Linaro's board of directors for the company.
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /about/board/
 js-package: extended
-css-include: main-about
+css-package: about
 ---
 The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry positioning, key partnerships, membership, and funding.
 

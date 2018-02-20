@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /planet/
 js-package: rss
-css-include: main-planet
+css-package: planet
 ---
 
 <div class="row">

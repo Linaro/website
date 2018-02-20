@@ -5,7 +5,7 @@ description: |-
 layout: default-no-sub-nav
 permalink: /press/
 js-package: extended
-css-include: main-press
+css-package: press
 ---
 
 Thank you for your interest in Linaro. If you are not a member of the media and have a question or inquiry, please contact us at [contactus@linaro.org](mailto:contactus@linaro.org). For more information about Linaro news, please visit our [Blog](/blog "Linaro Blog") or stay connected with us on [Twitter](http://twitter.com/linaroorg "Linaro on Twitter").

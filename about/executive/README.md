@@ -2,10 +2,10 @@
 title: Executive Team at Linaro
 description: |-
     Listing of Linaro's management team members and biographies
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /about/executive/
 js-package: extended
-css-include: main-about
+css-package: main-about
 ---
 
 **The management team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.**
