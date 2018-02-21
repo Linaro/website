@@ -37,16 +37,6 @@ George has led software and hardware technology companies for over 25 years, gai
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
-### **Jinxi Li** / Non-executive Director for HiSilicon
-
-Jinxi Li (Louis) is senior director of System Software for Huawei. He has more than 16 years experience in telecom and system software design, and for the past 6 years has especially focused on OS and Linux Kernel and Open Source. Louis led OS product management and strategy planning team with driving ARM technology into embedded system such as base station, core network , and cloud infrastructure such as server and data center.
-</div>
-<div class="col-sm-3 text-center">
-</div>
-</div>
-
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
 ### **Ian Ferguson** / Non-executive Director for ARM
 
 Ian Ferguson is vice president of corporate marketing at ARM. Ian joined ARM in 2007 as director of enterprise and embedded solutions. Within this role, Ian led a segment marketing group chartered with driving ARM technology into embedded applications such as automotive, smart grid and networking applications. He was promoted to vice president to lead ARM’s segment development in server systems and push into energy-efficient data centers. Following rapid success in these areas, he was promoted to lead all the segment teams in January 2013.
@@ -56,18 +46,6 @@ Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and Q
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="Ian-Ferguson.jpg" class="linaro-profile-image" alt="Ian Ferguson Profile Photo"%}
-</div>
-</div>
-
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
-### **Jason Pettit** / Non-executive Director for Qualcomm Innovation Center (QuIC)
-
-
-Jason Pettit is Senior Director Product Management for Qualcomm. Jason joined Qualcomm in 2008 to develop Qualcomm’s Android products and strategy. He has more than 15 years of experience working with Linux and Open Source. Prior to joining Qualcomm Jason held positions at Silicon Graphics, Penguin Computing, and Wind River working on Linux-based product development.
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html name="Jason-Pettit.jpg" class="linaro-profile-image" alt="Jason Pettit Profile Photo"%}
 </div>
 </div>
 
