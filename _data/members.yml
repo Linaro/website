@@ -360,6 +360,9 @@ manufacturing_partners:
     - name: Huaqin
       image: huaqin.jpg
       url: /company/huaqin/
+    - name: LeMaker
+      image: lemaker.jpg
+      url: /company/lemaker/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
