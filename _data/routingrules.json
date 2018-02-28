@@ -43,7 +43,7 @@
     "^/blog/android-blog/(.*)$ /blog/$1 [R,L]",
     "^/blog/community-blog/(.*)$ /blog/$1 [R,L]",
     "^/blog/connect-update/(.*)$ /blog/$1 [R,L]",
-    "^/blog/core-dump/(.*)$ /blog/$1 [R,L]",
+    "^/blog/core-dump/(.*)$ /core/blog/$1 [R,L]",
     "^/blog/hangouts-on-air-update/(.*)$ /blog/$1 [R,L]",
     "^/blog/hardware-update/(.*)$ /blog/$1 [R,L]",
     "^/blog/industry-blog/(.*)$ /blog/$1 [R,L]",
