@@ -3,14 +3,12 @@ author: kanta.vekaria
 date: 2018-02-16 12:00:00.000
 title: High Performance Computing and Linaro
 description: >-
- Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm)
- on Linaro’s automotive strategy for a little while now. We both get asked how open 
- source software fits in that industry. I thought that this interview would help explain.
+Supercomputing has been around for decades and hardware for High Performance Computing (HPC) has traditionally been provided by Intel. Well, things are changing and changing fast they are.
 categories:
   - blog
 published: true
-tags: 'CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles'
-keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles
+tags: 'High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18'
+keywords: High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18
 image:
     featured: true
     path: /assets/images/blog/automotive-arm-ecosystem.png
