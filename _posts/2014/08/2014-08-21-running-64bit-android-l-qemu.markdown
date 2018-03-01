@@ -63,7 +63,7 @@ As with all our code we at Linaro do our work in public and with presumption of 
 
 ### You will need:
 
-A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christoffer.dall/linux-android.git/)
+A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/)
 
     ARCH=arm64 make ranchu_defconfig
 
