@@ -17,7 +17,7 @@ layout: featured-image-post
 ---
 Supercomputing has been around for decades and hardware for High Performance Computing (HPC) has traditionally been provided by Intel. Well, things are changing and changing fast they are.
 
-In 2011 Arm made its first step into HPC via the Mont Blanc Project. This project tackled the initial work of building test systems and porting software for Arm HPC test systems. Since then, and from work involving the Department of Energy’s Fast Forward-2 project, this has demonstrated the competitiveness of AArch64 on a per core per socket basis. Results published at SC17 are further proof [1][1].
+In 2011 Arm made its first step into HPC via the Mont Blanc Project. This project tackled the initial work of building test systems and porting software for Arm HPC test systems. Since then, and from work involving the Department of Energy’s Fast Forward-2 project, this has demonstrated the competitiveness of AArch64 on a per core per socket basis. [Results published at SC17 are further proof.][1]
 
 The HPC community want choice and flexibility across the entire software stack, from bare metal to applications. With choice comes the need for standardisation and platform compatibility. The Arm ecosystem provides this and the opportunity to co-design and co-develop from architecture design through to software. Both of which are very attractive to the HPC community.
 
@@ -33,7 +33,8 @@ If you have not registered for Linaro Connect HKG18 already, you can [register h
 
 On that note, I look forward to meeting you all at HKG18!
 
-Dr Kanta Vekaria
+Dr Kanta Vekaria,
 Head of High Performance Computing, Linaro
 
 [1]: https://www.nextplatform.com/2017/11/13/arm-benchmarks-show-hpc-ripe-processor-shakeup/
+
