@@ -56,7 +56,7 @@
     "^/careers/boot-kernel-expert-principal-engineers.*$ /blog/linaro-wants-you-career-opportunities-in-the-uk/ [R,L]",
     "^/careers/lava-lab-technician-validation.*$ /blog/linaro-is-seeking-a-lava-lab-technician-validation/ [R,L]",
     "^/careers/linaro.*$ /careers/ [R,L]",
-    "^/community.*$ /hub/ [R,L]",
+    "^/community(/?|/index.html)$ /hub/ [R,L]",
     "^/companies/96boards-mezzanine.*$ /company/ [R,L]",
     "^/companies/96boards-mp.*$ /company/ [R,L]",
     "^/companies/96boards-sc.*$ /company/ [R,L]",
