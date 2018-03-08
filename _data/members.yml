@@ -333,6 +333,9 @@ manufacturing_partners:
     - name: Arrow Electronics
       image: arrow.jpg
       url: /company/arrow/
+    - name: Avnet
+      image: Avnet.png
+      url: /company/avnet/
     - name: Black Whale Technology
       image: Blackwhale.png
       url: /company/blackwhale/
