@@ -1,0 +1,38 @@
+---
+title: Company Index Page
+permalink: /company/
+layout: company
+pagination:
+    title: "Companies - Page :num"
+    enabled: true
+    collection: company
+    sort_field: 'title'
+    sort_reverse: false
+    trail:
+        before: 4
+        after: 4 
+css-include: main-blog
+---
+{% for post in paginator.posts %}
+<div class="row blog_post">
+    <div class="col-xs-4">
+        <a href="{{post.url}}">
+            <img class="img-responsive company-img lazyload"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{% asset_path '{{post.company_image}}' %}"
+             alt="{{post.title}}" />
+        </a>
+    </div>
+    <div class="col-xs-8 post_title no-padding">
+        <a href="{{post.url}}"><h3 class="blog_title">{{ post.title}}</h3></a>
+        <p class="post_excerpt">
+        {{ post.content | strip_html | truncatewords:30 }}
+        </p>
+        <p>
+            <a href="{{post.url}}">
+                <button class="btn btn-linaro-home dark pull-right">View</button>
+            </a>
+        </p>
+    </div>
+</div>
+{% endfor %}

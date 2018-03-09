@@ -1,0 +1,42 @@
+---
+author: george.grey
+categories:
+- blog
+date: 2013-05-01 18:55:37
+description: Overview of the first quarter of Linaro in 2013 and how the ARM ecosystem
+  and Linaro are growing.
+keywords: Linaro, ARM, ARM ecosystem, ARM architecture, servers, Open source software,
+  Linux
+layout: post
+link: /blog/industry-blog/q1-2013-ceo-notes/
+slug: q1-2013-ceo-notes
+tags:
+- Industry
+title: Q1 2013 CEO Notes
+wordpress_id: 2665
+---
+
+**The Expanding ARM Ecosystem**
+Moving from its mobile roots, the ARM Cortex­A series architecture is entering new market segments at a rapid clip. The potential of ARM­based servers has substantial technical media attention, but it is not only servers – networking equipment, STB and Digital TV, Automotive and Embedded products are all seeing increasing usage of ARM architecture SoCs.
+
+At first sight the ARM architecture is advancing rapidly because of the low power capability in ARM’s heritage. Developed for the battery driven mobile phone world, ARM cores are designed with low power and high performance/watt as key product objectives. In the server market alone, given that recent estimates show that data center power requirements are already over 2% of the US total energy usage, reducing power consumption is a key objective for both cost and environmental reasons.
+
+The strength of the ARM community is not, however, just around low power; it is also around the ARM business model, which leads to rapid innovation and differentiation. I would argue strongly that the diversity of the ARM SoC vendor community, from strong, established companies to exciting new startups, is what makes the ARM architecture stand out today as the leader in SoC innovation.
+
+Returning to market segments for a moment, it appears that we are in a period of extraordinary disruption in many markets – the rapid move to connected devices and cloud services is driving an explosion in data. The term “big data” is something of an understatement when you consider that 2.5 exabytes (that’s a 1 with 18 trailing zeroes) of data are being created every day. And the rate of increase in that number continues itself to increase.
+
+No single vendor, however large, can innovate fast enough and address the different requirements and needs of these rapidly expanding market segments. I would argue that there are two key enablers that are critical to supporting the rate of innovation in the marketplace – one is the expanding role of the SoC itself, and the other is Open Source Software.
+
+**Designer SoCs** The ARM business model lends itself uniquely to product innovation. Through the ARM partnership, multiple vendors can deploy their unique value add and proprietary or custom IP around the ARM Cortex core technology. In most cases this value add comes in the form of adding additional processing elements into the SoC itself – for example advanced I/O or graphics processors, or specialized communications devices. The vibrant community of ARM SoC vendors specializing in single or multiple market segments is creating more choice and innovation in ARM SoCs than for any other microprocessor architecture.
+
+**Open Source Software** As this diversification leads to differentiated hardware products tailored for specific market segments, the challenges of delivering high quality software to drive these SoCs becomes more complex. One OS or distribution does not fit all requirements. Extensive changes to the OS kernel may be required to support the hardware innovation or differentiation. Traditional OS development cannot easily address this level of change given the increasing complexity of the underlying hardware. Instead, Open Source operating systems based on Linux have become the software of choice for many markets. Android, Fedora/Red Hat, Montavista, SUSE, Ubuntu and others have become the standard core software for everything from embedded devices to high­end data center servers.
+
+**Linaro** Linaro has established itself as the place for the ARM partnership and ecosystem to work together on core open source software. Linaro delivers a very high ROI to participating members by working on the delivery of core software needed by all members – Linaro now has over 150 open source engineers delivering substantial output, for which each member only pays a fraction of the total cost.
+
+Much of this work is carried out by Linaro engineers working with [Core and Club member ](/members)assignees in the [Linaro Working Groups](https://wiki.linaro.org/WorkingGroups). Key areas of current activity include continuing ARMv7 and ARMv8 toolchain work, big.LITTLE IKS and ARM’s MP support, ARMv8 validation and work across Linaro, and improved virtualization support for ARMv7 and ARMv8. Linaro’s Club and Core members define and prioritize the engineering effort, and participate in the development, testing and validation of the software on their SoCs.
+
+Over the past 6 months Linaro has established two segment­focused Groups to deliver further value to existing and new members. The key concept behind Groups is to leverage Linaro’s shared open source software engineering model into segment focused areas, enabling engineering participation from distributions, OEMs and end users.
+
+The [Linaro Enterprise Group (LEG)](/groups/leg/) was formed in November 2012. The Group is now fully up and running with 27 engineers focusing on accelerating the software ecosystem for the ARM server market. In addition we have recently announced the formation of the [Linaro Networking Group (LNG)](/blog/lng/), which is focused on the networking equipment market. Early work plans include support for Real Time extensions in the Linux kernel for the ARM architecture, work on virtualization for network applications, agreement and development on frameworks for data plane interfaces and support for legacy big­endian software.
+
+Linaro’s membership has now grown to 25 members, each contributing engineering resources and fees to support our expanding engineering effort. The end result is an increasingly powerful software development team, completely focused on delivering the core open source engineering needed by the ARM community. By working on the development of common core open source software and preventing fragmentation, Linaro enables each member to focus more key resources on the development and delivery of their own value­added technology.

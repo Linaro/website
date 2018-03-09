@@ -1,0 +1,80 @@
+---
+author: steve.taylor
+categories:
+- News
+date: 2014-07-02 12:00:56
+description: "Following the recent announcement of the Android\xE2\x84\xA2 L Developer
+  Preview, Linaro, the collaborative engineering organization developing open source
+  software for the ARM\xC2\xAE architecture, today announced that a build of the Android
+  Open Source Project (AOSP) to the ARMv8-A architecture has been made available as
+  part of the Linaro 14.06 release. This build has been tested on an ARMv8-A 64-bit
+  hardware development platform, code-named \xE2\x80\x9CJuno\xE2\x80\x9D, available
+  from ARM for lead and ecosystem partners."
+excerpt: "Following the recent announcement of the Android\u2122 L Developer Preview,
+  Linaro, the collaborative engineering organization developing open source software
+  for the ARM\xAE architecture, today announced that a build of the Android Open Source
+  Project (AOSP) to the ARMv8-A architecture has been made available as part of the
+  Linaro 14.06 release. This build has been tested on an ARMv8-A 64-bit hardware development
+  platform, code-named \u201CJuno\u201D, available from ARM for lead and ecosystem
+  partners."
+layout: post
+link: /news/aosp-on-64-bit/
+slug: aosp-on-64-bit
+tags:
+- 64-bit
+- android
+- AOSP
+- ARMv8
+- Juno
+- LSK
+title: Linaro announces Android Open Source Project build for ARMv8-A Architecture
+  is ready and running on a 64-bit multi-core SoC
+wordpress_id: 6085
+---
+
+## ARMv8-A architecture enablement to accelerate with silicon and software availability
+
+
+CAMBRIDGE, UK; 2 JULY 2014
+
+Following the recent announcement of the Android™ L Developer Preview, Linaro, the collaborative engineering organization developing open source software for the ARM® architecture, today announced that a build of the Android Open Source Project (AOSP) to the ARMv8-A architecture has been made available as part of the Linaro 14.06 release. This build has been tested on an ARMv8-A 64-bit hardware development platform, code-named “Juno”, available from ARM for lead and ecosystem partners.
+
+The Linaro ARMv8-A reference software stack combined with the ARM Development Platform (ADP) provides the ARM ecosystem with a foundation to accelerate Android availability on 64-bit silicon. This announcement is the culmination of a broad architecture enablement program carried out by Linaro, ARM and the ARM partnership. ARM partners now have access to a broad range of supporting material including the ARMv8 Fast Models, open source toolchain from Linaro and supporting documentation.
+
+“The ARM ecosystem is rapidly preparing for the benefits a 64-bit ARM architecture will bring to devices starting this year,” said James McNiven, general manager of systems and software at ARM. “Our collaboration with Linaro will enable our partners to create 64-bit devices that will drive the best next-generation mobile experience on Android operating systems,while also providing full compatibility with today’s 32-bit mobile ecosystem that is optimized on ARM-v7A.”
+
+The Linaro 14.06 release includes a 64-bit primary/32-bit secondary binary image and source code based on the Linaro Stable Kernel (LSK) 3.10 for Android, compiled with GCC 4.9 and tested on both the ARMv8-A 64-bit hardware platform and ARMv8-A Fast Models. The AOSP is based on the Open Master snapshot downloaded on June 1st with HDMI drivers loaded as modules. The release is built with the Android runtime (ART) compiler as the default virtual machine. Peripheral and advanced power management support plus several accelerations will not be available in this release, but will follow in future releases on a monthly cadence.
+
+“We have been using ARM Fast Models to develop for AOSP for a long time and it is testament to the quality of our collaborative engineering that we have delivered this release running on the ARMv8-A hardware platform so quickly,” said George Grey, Linaro CEO. “We look forward to working closely with our members to enable them to deliver next generation Android solutions rapidly to the market.”
+
+The ARMv8-A hardware development platform includes an SoC with a quad-core ARM Cortex®-A53 CPU and dual-core ARM Cortex-A57 CPU in an ARM big.LITTLE™ processing configuration with a quad-core ARM Mali™-T624 GPU linked via ARM CoreLink™ system IP and implemented using ARM Artisan® physical IP. The development platform with its ARMv8-A software stack provides ARM software and silicon partners with a common foundation to accelerate their ARMv8-A software development. Further information about this platform is available from the ARM website here: [www.arm.com/juno](http://www.arm.com/juno).
+
+**About Linaro**
+
+Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
+
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit [](/).
+
+**About ARM**
+
+ARM is at the heart of the world's most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
+
+Our innovative technology is licensed by ARM Partners who have shipped more than 50 billion Systems on Chip (SoCs) containing our intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies. Learn more and join the conversation at http://community.arm.com.
+
+
+## **Partner Testimonials**
+
+
+**Allwinner Technology**
+
+“We are working closely with Linaro to take our leadership experience in Android tablets into the digital home and beyond,” said Jack Lee, Chief Marketing Officer of Allwinner. “The Linaro builds of the Android Open Source Project (AOSP) for 64-bit ARMv8 platforms will be a key building block to enable us to offer a range of differentiated solutions across multiple markets.”
+
+_About Allwinner:_ Allwinner Technology is a leading fabless design company dedicated to smart application processor SoCs and smart analog ICs. Its product line includes multi-core application processors for smart devices and smart power management ICs used by brands worldwide.
+
+With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China. See www.allwinnertech.com for more information. Follow Allwinner on Twitter @AllwinnerTech. Media contact: service@allwinnertech.com
+
+**Texas Instruments**
+
+“Linaro’s release of AOSP and OpenEmbedded builds running on ARMv8 hardware and models is an important step in the development of the next generation of our SoCs for multiple markets,” said Matthew Watson, Product Line Manager, Infotainment Processors, Texas Instruments. “We look forward to working closely with Linaro to deliver ARMv8-based solutions, targeting markets including networking equipment, automotive, industrial, and other markets.”
+
+_About Texas Instruments:_ Texas Instruments Incorporated (TI) is a global semiconductor design and manufacturing company that develops analog ICs and embedded processors. By employing the world's brightest minds, TI creates innovations that shape the future of technology. TI is helping more than 100,000 customers transform the future, today. Learn more at [http://www.ti.com/](http://www.ti.com/).

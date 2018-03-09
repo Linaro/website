@@ -1,0 +1,34 @@
+---
+author: linaro
+categories:
+- blog
+date: 2015-12-09 14:27:50
+excerpt: Register now for Linaro Connect Bangkok 2016.   Learn more about the event
+  and where it will be held.
+keywords: Linaro Connect
+layout: post
+link: /blog/9874/
+slug: '9874'
+tags:
+- Connect Events
+- conference
+- connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Opensource
+title: Linaro Connect Bangkok 2016 Registration Now Open
+wordpress_id: 9874
+---
+
+Mark your calendar for March 7-11, 2016, because it’s the official date of Linaro Connect Bangkok 2016 (BKK16).  It may be 3 months away, but we are already busy planning to make sure this will be the best Linaro Connect yet.  Registration is now open, so claim your spot today.  [Register here](http://connect.linaro.org/bkk16/)
+
+{% include image.html name="Linaro-Connect-Logo_BKK16-Standard.png" alt="Linaro Connect Logo_BKK16 Standard" %}
+
+{% include image.html name="hotelbuilding1.jpg" alt="Hotel Building"%}
+
+BKK16 will be held at the 5-star Centara Grand Hotel & Bangkok Convention Centre at CentralWorld. Situated in the very heart of Bangkok’s shopping and business district. The hotel has 55 floors and offers spectacular city views.  A complete lifestyles complex on the 26th floor includes the award-winning SPA Cenvaree along with a fitness centre, tennis courts and an outdoor pool with sundeck.
+
+For shopping and plenty of eateries, the hotel has direct access to CentralWorld, one of the biggest lifestyle and shopping complexes in Southeast Asia.  You can also access via the Skywalk, the BTS Skytrain, and nearby is the Central Chidlom Department Store and the brand new Central Embassy shopping complex.  The weather in March in Bangkok averages 30°C (85°F) so it will be a great time of year to take a walk out to the shops and restaurants nearby.
+
+Linaro CEO,  George Grey will commence proceedings with a welcome keynote at 8.30am on Monday 7 March. BKK16 is a weeklong event and runs until 2pm Friday 11 March, when we will finish with our Demo Friday technical showcase.  There are so many great things being planned, you can keep up with the latest information about the event on the [Linaro Connect website](http://connect.linaro.org/bkk16/).  The last several Linaro Connects have been sold out weeks prior to the event.  [Register now](http://connect.linaro.org/bkk16/) so you do not miss out.

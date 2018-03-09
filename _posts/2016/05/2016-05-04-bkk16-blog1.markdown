@@ -1,0 +1,72 @@
+---
+author: linaro
+date: 2016-05-04 10:43:51+00:00
+layout: post
+link: /blog/bkk16-blog1/
+slug: bkk16-blog1
+title: Linaro Connect Bangkok 2016 Summary Blog 1 - The Keynotes
+wordpress_id: 10572
+categories:
+- blog
+tags:
+- bkk16
+- bkk16 keynote
+---
+
+Linaro Connect Bangkok (BKK16) was our 19th event to date and our first in Thailand. It was a great event at a beautiful venue. Our Thai hosts at the Centara Grand were wonderfully welcoming and helped to make BKK16 an event to remember.
+
+On Monday 7 March, George Grey, CEO of Linaro, started proceedings with his now traditional [welcome keynote](https://www.youtube.com/watch?v=HpvZ2HwL4zI). He made several announcements including the [ARM Based Developer Cloud](/news/linaro-announces-arm-based-developer-cloud-2/) and [96Boards HiKey in AOSP](/news/linaro-announces-support-for-96boards-hikey-in-aosp/).
+
+{% include media.html media_url="https://www.youtube.com/watch?v=HpvZ2HwL4zI" %}
+
+There were also a number of exciting demos hosted, which all focused on the 96Boards platform including:
+
+  1. Tony Zhang from LeMaker demonstrating the first [96Boards CE LCD Display](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=21m17s)
+  2. Yang Zhang, 96Boards Director presenting a [96Boards Virtual Reality Demonstration](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=24m23s)
+  3. [Martin Stadtler LEG Director](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=34m43s) providing a demonstration of a cloud based application owncloud, using nginx, memcached, haproxy, apache and mysql, all on ARM64 servers, running the enterprise reference software platform.
+  4. [ Jon Masters Chief Architect from Red Hat.](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=28m05s)
+
+
+**Keynotes**
+
+We were very excited to have had some fantastic keynote speakers that got a lot of engagement from our attendees. Security in a device connected world was a common theme each morning. The message was “Yes we should be very worried about security vulnerabilities in connected devices (light bulbs, thermostats, teddy bears…) and we have a responsibility as engineers to minimize these issues as much as humanly possible. “
+
+  * Monday 7 March - George Grey, Linaro CEO
+    * [Keynote video and slides: Welcome to BKK16](https://www.youtube.com/watch?v=HpvZ2HwL4zI)
+
+  * Monday 7 March - Eric Hennenhoefer, VP ARM Research
+    * [Keynote video and slides: From Sensors to Supercomputers, Big Data begins with Little Data](https://www.youtube.com/watch?v=fU-SWtv2TlE)
+
+
+{% include image.html name="Eric-Hennenhoefer-VP-ARM-Research.jpg" alt="Eric Hennenhoefer VP ARM Research" %}
+
+  * Tuesday 8 March - Matthew Garrett, Principal Security Developer at CoreOS
+    * [Keynote video and slides: Turning Specifications into Security](https://www.youtube.com/watch?v=798NDrLH36U)
+
+  * Wednesday 9 March - Shane Coughlan, General Assembly Member of FS Foundation EU and Executive Director of OpenForum EU and Harald Welte of GPL Violations held a joint keynote
+    * [Keynote video and slides: OSS Compliance](https://www.youtube.com/watch?v=b4Bli8h0V-Q)
+
+  * Thursday 10 March - Per Beming, Chief Architect Network Business Unit Radio
+    * [Keynote video and slides: The Networked Society and 5G](https://www.youtube.com/watch?v=s09kjutkKmg&feature=youtu.be)
+
+  * Friday 11 March - David Rusling, Linaro CTO
+    * [Keynote video and slides: The End-to-End Story](https://www.youtube.com/watch?v=GFvd2nHiFvU)
+
+In our next blog entry, we will highlight some of the most popular sessions at BKK16.
+
+https://www.youtube.com/playlist?list=PLKZSArYQptsMCyVa-3_K7PJjXkkG_0w-L
+
+* * *
+
+**On this series:**
+
+  * [BKK16 Summary Blog 1 - Keynotes (This one)](/blog/bkk16-blog1/)
+  * [BKK16 Summary Blog 2 - Sessions](/blog/bkk16-blog2/)
+  * [BKK16 Summary Blog 3 - Recognition and Demo Friday](/blog/bkk16-blog3/)
+
+
+* * *
+
+**Follow us on social media:**
+[Interviews on youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Keynote on youtube](https://www.youtube.com/user/linaroOnAir?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Presentations (Slideshare)](http://www.slideshare.net/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social),
+[Photos (Flickr)](https://www.flickr.com/photos/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Facebook](https://www.facebook.com/LinaroOrg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Twitter](https://twitter.com/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social) and [Linkedin](https://www.linkedin.com/company/1026961?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social)

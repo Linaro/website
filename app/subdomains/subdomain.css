@@ -1,0 +1,144 @@
+@import url('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+.linaro-header{
+	border: 1px solid #ccc;
+	display: block;
+	padding: 0;
+	margin: 0;
+	height: 45px;
+}
+
+	.linaro-header .linaro-logo{
+		background-image: url("http://www.linaro.org/app/images/linaro-logo-web.png");
+		height: 45px;
+		width: 90px;
+		display: inline-block;
+		background-size: 75px;
+		background-repeat: no-repeat;
+	}
+	.linaro-header .linaro-nav{
+		text-align: right;
+		margin-top: 6px;
+	}
+	
+		.linaro-header .linaro-nav ul{
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+		
+		.linaro-header .linaro-nav li{
+			padding: 5px;
+			display: inline-block;
+		}
+		
+		.linaro-header .linaro-nav li a{
+			
+		}
+	.linaro-header .linaro-network{
+		height: 20px;
+		width: 20px;
+		display: inline-block;
+	}
+	.linaro-header .linaro-login{
+		margin-top: 6px;
+	}
+
+.linaro-ribbon{
+	background-color: #a682b8;
+	min-height: 150px;
+	margin-bottom: 20px;
+	color: #fff;
+	line-height: 26px;
+	padding: 10px 0;
+}
+	.linaro-ribbon h3{
+		margin-bottom: 15px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.linaro-ribbon a{
+		color: #fff;
+		font-weight: 300;
+		
+	}
+	.linaro-ribbon a:hover{
+		color: #d9bbe8;
+	}
+	
+	.linaro-ribbon a.ribbon-more{
+		display: block;
+		color: #d9bbe8;
+		text-decoration: underline;
+	}
+	
+	.linaro-ribbon a.ribbon-more:hover{
+		color: #fff;
+	}
+	
+.linaro-footer{
+	padding-bottom: 10px;
+}
+		.linaro-socialmedia{
+		text-align: center;
+		margin-bottom: 20px;
+		}
+			
+			.linaro-socialmedia a{
+				color: #ccc;
+				text-decoration: none;
+			}
+			
+			.linaro-socialmedia a:hover{
+				color: #a682b8;
+				text-decoration: none;
+			}
+		
+			.linaro-socialmedia i {
+			background-color: #a682b8;
+			color: #fff;
+			text-align: center;
+			padding: 5px;
+			width: 38px;
+			height: 38px;
+			font-size: 22px;
+			line-height: 31px;
+			-webkit-border-radius: 256px;
+			-moz-border-radius: 256px;
+			border-radius: 256px;
+			}
+
+	.linaro-footer .linaro-copyright{
+		font-size: 11px;
+		color: #b2b2b2;
+		padding-top: 10px;
+		height:  45px;
+		border-top: 1px solid #F5F5F5;
+	}
+		.linaro-footer .linaro-copyright .linaro-copyright-text{
+			background-image: url('http://linaro.org/app/images/favicon.png');
+			background-size: 35px;
+			background-repeat: no-repeat;
+			padding-left: 41px;
+			padding-top: 10px;
+			min-height: 32px;
+			
+		}
+		
+			.linaro-footer .linaro-copyright .linaro-copyright-links {
+				margin: 0;
+				padding: 0;
+				text-align: right;
+				padding-top: 10px;
+				
+			}
+			
+			.linaro-footer .linaro-copyright .linaro-copyright-links li{
+				display: inline-block;
+				padding: 0 5px;
+			}
+			
+			

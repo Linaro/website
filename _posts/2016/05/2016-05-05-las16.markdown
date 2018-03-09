@@ -1,0 +1,34 @@
+---
+author: linaro
+date: 2016-05-05 16:49:21+00:00
+layout: post
+link: /blog/las16/
+slug: las16
+title: LAS16 Connect Registration is now open
+wordpress_id: 10606
+categories:
+- blog
+tags:
+- las16
+---
+
+We are pleased to announce that registration for [Linaro Connect Las Vegas 2016 (LAS16)](http://connect.linaro.org/attend/) - has opened. With five months to go there is still plenty of planning to do but the key dates and locations are:
+
+**Dates**: Monday 26th - Friday 30th September 2016
+**Venue**: JW Marriott Las Vegas Resort & Spa
+
+Make sure to [register as soon as you can](http://connect.linaro.org/attend/) so you can arrange travel in good time and ensure you get discounted hotel rates.
+
+{% include image.html name="LinaroConnect-Logo-LAS16_standard.png" alt="LinaroConnect-Logo-LAS16_standard" %}
+
+Linaro will be hosting LAS16 at the JW Marriott Las Vegas Resort & Spa, a venue that offers easy access to the city with the amenities of a luxurious resort. Located just half a mile from the strip, the Marriott is an oasis - allowing visitors to recharge their batteries and enjoy the comforts of one of Southern Nevada's most prestigious golf courses, 50 acres of lush gardens and a resort-style pool complete with flowing waterfalls and bubbling whirlpools. The venue boasts ten restaurants and lounges and its own casino, but guests have easy access to the hustle and bustle of what Las Vegas has to offer via regular shuttle buses.
+September is a great time to visit Las Vegas: not too hot and not too cold, you can normally expect an average temperature of 24℃ (75℉), making it ideal for both business and engineering!
+
+If you plan to attend and require a visa for the USA, please request an invitation letter by emailing [connect@linaro.org](mailto:connect@linaro.org). We aim to send all invitation letters within two weeks of receiving the request, please contact [connect@linaro.org](mailto:connect@linaro.org) if you do not receive it within four weeks after sending the request. Please ensure you send requests before 31 July, otherwise we cannot guarantee fulfilling requests in time for your visa application process.
+
+Linaro CEO, George Grey will commence proceedings with a welcome keynote at 8.30am on Monday 26th September. Linaro Connect is a week-long event and runs until 2pm Friday 30th September. Make sure to register and follow us on social media and the Connect website so you can keep up to date on all the fantastic things we have planned for this upcoming Linaro Connect!
+
+
+* * *
+
+{% include image.html name="LAS16-Templates-01.png" alt="LAS16 - Templates-01" %}

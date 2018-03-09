@@ -1,0 +1,139 @@
+---
+author: linaro
+date: 2016-05-04 10:49:39+00:00
+layout: post
+link: /blog/bkk16-blog2/
+slug: bkk16-blog2
+title: BKK16 Summary Blog 2 - Sessions
+wordpress_id: 10577
+categories:
+- blog
+---
+
+We had a full schedule with our typical mix interesting sessions from across all of the Linaro groups and teams as well as from our Members. Security and IoT were hot topics as well as EAS (Power Management).
+
+Below are some summary highlights from the week of the most popular sessions:
+
+
+#### Title: [BKK16-211](http://connect.linaro.org/resource/bkk16/bkk16-211/) **Internet of Tiny Linux (IoTL): status and progress**
+
+
+Abstract: Discussion about various methods put forward to reduce the
+
+Linux kernel binary to make it suitable for small IoT applications.
+
+Type of Session: Presentation/Training
+
+
+
+* * *
+
+
+#### Title: [BKK16-100](http://connect.linaro.org/resource/bkk16/bkk16-100/) **Evolution of the Reference Software Platform Project**
+
+
+Abstract: The Reference Software Platform lead project was introduced in Linaro Connect San Francisco 2015, and since then it evolved and matured with the completion of the first tree big milestones (the 15.10, 15.12 and 16.03 releases). This session revisited the work done as part of the previous releases, covering the projects that were incorporated through the process and our vision for the future milestones.
+
+Type of Session: Presentation/Training
+
+
+
+* * *
+
+
+
+
+
+#### Title: [BKK16-212](http://connect.linaro.org/resource/bkk16/bkk16-212/) **What's broken on ARM64?**
+
+
+Abstract: The ARM64 port is now in pretty good shape with most things ported and built in distributions. However we know that there is plenty of software that is not optimised and some may not actually work at all. In this session, we encouraged attendees to share their experience with arm64 and what they felt did not work as well as it did on x86. Linaro, ARM and Debian were keen to use this opportunity to get as much feedback as possible on where to direct effort next.
+
+Type of Session: Presentation/Training
+
+
+
+* * *
+
+
+
+
+
+#### Title: [BKK16-200](http://connect.linaro.org/resource/bkk16/bkk16-200/) **Designing security into constrained IoT Systems**
+
+
+Abstract: Trust and security are essential for the Internet of Things (IoT) to scale. As your product becomes successful, attraction will be high for it to be hacked and, as a consumer, you'll suffer with consequences if security is not baked into the system, at every level. With IoT, we now need to enable an appropriate level of security for sub $1 IoT designs done by people with little or no security expertise. In this presentation, we talked about how ARM, Linaro and the ARM partnership are securing these sub $1 IoT endpoints by providing device security, lifecycle security and communication security, without the need for in-depth security experts…
+
+Type of Session: Presentation/Training
+
+
+
+* * *
+
+
+
+
+
+#### Title: [BKK16-110](http://connect.linaro.org/resource/bkk16/bkk16-110/)** A Gentle Introduction to Trusted Execution and OP-TEE**
+
+
+Abstract: Smart connected devices such as mobile phones, tablets and Digital TVs are required to handle data with strong security and confidentiality requirements. A “Trusted Execution Environment” (TEE) provides an environment for processing data securely, protected from normal platform applications. This talk was intended as an introduction to Trusted Execution, and the open-source Trusted Execution Environment OP-TEE in particular. It introduced the GlobalPlatform TEE Specifications, explained how Trusted Execution is implemented by ARM TrustZone and OP-TEE, and outlined how trusted boot software manages the secure boot of an ARM platform. Finally, it gave some pointers on how to get started with OP-TEE.
+
+Speaker: Russell Wayman, Member Services
+
+Type of Session: Presentation/Training (No Video available)
+
+
+
+* * *
+
+
+
+**Other popular sessions included:**
+
+[BKK16-104](http://connect.linaro.org/resource/bkk16/bkk16-104/): sched-freq
+[BKK16-505](http://connect.linaro.org/resource/bkk16/bkk16-505/): Kernel and Bootloader Consolidation and Upstreaming
+[BKK16-411](http://connect.linaro.org/resource/bkk16/bkk16-411/): Device Tree Standardization
+
+The video for 309A and 309B were combined.
+[BKK16-309B](http://connect.linaro.org/resource/bkk16/bkk16-309b/): Enterprise Firmware - The gold standard and how to get there
+[BKK16-309A](http://connect.linaro.org/resource/bkk16/bkk16-309a/): Open Platform support in UEFI
+[BKK16-410](http://connect.linaro.org/resource/bkk16/bkk16-410/): SoC Idling & CPU Cluster PM
+[BKK16-208](http://connect.linaro.org/resource/bkk16/bkk16-208/): EAS
+[BKK16-504](http://connect.linaro.org/resource/bkk16/bkk16-504/):  Running Linux in EL2
+[BKK16-317](http://connect.linaro.org/resource/bkk16/bkk16-317): How to generate power models for EAS and IPA (without talking to a hardware engineer)
+[BKK16-303](http://connect.linaro.org/resource/bkk16/bkk16-303/): 96Boards - TV Platform
+[BKK16-203](http://connect.linaro.org/resource/bkk16/bkk16-203/): Irq prediction or how to better estimate idle time
+
+
+
+* * *
+
+
+
+**On this series:**
+
+
+
+ 	
+  * [BKK16 Summary Blog 1 - Keynotes](/blog/bkk16-blog1/)
+
+ 	
+  * [BKK16 Summary Blog 2 - Sessions](/blog/bkk16-blog2/) (This one)
+
+ 	
+  * [BKK16 Summary Blog 3 - Recognition and Demo Friday](/blog/bkk16-blog3/)
+
+
+
+
+
+* * *
+
+
+
+**Follow us on social media:**
+[Interviews on youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Keynote on youtube](https://www.youtube.com/user/linaroOnAir?sub_confirmation=1&utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Presentations (Slideshare)](http://www.slideshare.net/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social),
+[Photos (Flickr)](https://www.flickr.com/photos/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Facebook](https://www.facebook.com/LinaroOrg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social), [Twitter](https://twitter.com/linaroorg?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social) and [Linkedin](https://www.linkedin.com/company/1026961?utm_source=Linaro.org&utm_medium=blog&utm_campaign=social)
+
+
