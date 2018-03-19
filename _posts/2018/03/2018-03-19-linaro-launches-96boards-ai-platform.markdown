@@ -38,7 +38,7 @@ The DragonBoard 820c development board supports a wide range of interfaces and i
 
 “As a world-leading smart system technology, service and solution provider, ThunderSoft is always the believer in open standards and collaborative innovation. That’s why we are committed to build AI kit and solutions around 96Boards Open AI platforms. With our years of expertise and experience in smart system development, Thundersoft will enable the next generation of embedded AI innovation based on 96Boards.ai platforms.” said Pengcheng Zou, CTO of ThunderSoft.
 
-“We‘re excited to join Linaro as a 96Boards steering committee member, Rockchip is very committed to the open society, and Rock960 will be a very competitive AI platform for the community. We’re looking forward to developing a great AI product base on that,” said Feng Chen, Chief Marketing Officer of Rockchip.
+“We're excited to join Linaro as a 96Boards steering committee member, Rockchip is very committed to the open society, and Rock960 will be a very competitive AI platform for the community. We're looking forward to developing a great AI product base on that,” said Feng Chen, Chief Marketing Officer of Rockchip.
 
 “Hoperun is a 96Boards steering committee member and Manufacturing partner, launching partner of the HiKey970, 96Boards.ai provider and promoter, committed to build AI kit and solutions around the 96Boards Open AI platform,” said Hoperun CEO Chen Bin.
 
