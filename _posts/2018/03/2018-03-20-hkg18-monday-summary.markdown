@@ -1,6 +1,6 @@
 ---
 author: linaro
-date: 2018-03-20 14:50:00.000
+date: 2018-03-19 14:50:00.000
 title: Highlights of Day One at HKG18
 description: >-
     Here is a brief summary of the key announcements made in Linaro CEO George Grey's keynote at HKG18. 
