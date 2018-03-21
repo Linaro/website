@@ -6,7 +6,7 @@ description: >-
     Here is a brief summary of the key announcements made in Linaro CEO George Grey's keynote at HKG18. 
 categories:
   - blog
-published: false
+published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC'
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC
 image:
