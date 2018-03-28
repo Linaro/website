@@ -33,13 +33,13 @@ Without a Test Plan, the provision of device automation and build automation can
 
 Developer feedback is team-specific and involves mapping the raw results to a relevant and useful summary which is delivered to the developers in a timely and helpful manner. The LAVA software can provide the raw results with some initial formatting but teams will benefit from the preparation of a custom frontend which presents the results in the way most suitable to that particular team. e.g. [kernelci.org](http://kernelci.org/).
 
-Linaro has developed an automated testing system called LAVA (Linaro Automated Validation Architecture) which delivers the device automation and result collection. The software for this system is open source and can be recreated by following the [documentation](https://validation.linaro.org/static/docs/). Examples of the installation of the LAVA software and the Linaro LAB setup are included below.
+Linaro has developed an automated testing system called LAVA (Linaro Automated Validation Architecture) which delivers the device automation and result collection. The software for this system is open source and can be recreated by following the [documentation](https://validation.linaro.org/static/docs/v2/). Examples of the installation of the LAVA software and the Linaro LAB setup are included below.
 
 The LAVA software includes the lava-server component to schedule jobs, administer device configurations and store results.  The dispatcher component supports processing test jobs that can deploy Debian, Ubuntu, Open Embedded and Android images on supported development boards. Generic support can be extended and customised to support additional client types (development boards) and interface with external equipment. The LAVA software includes helpers that can provide a consistent interface to various Linux distributions. The LAVA Manual provides additional information including how to contribute and communicate with the LAVA Team. You can view the types of devices currently available in any instance of the LAVA software by viewing the main scheduler status page, e.g. for the Linaro production instance at [validation.linaro.org](https://validation.linaro.org/scheduler/).
 
 - [Introduction to LAVA](/blog/automated-validation-with-lava/)
 - [LAVA fundamentals](/blog/lava-fundamentals/)
-- [LAVA Manual](https://validation.linaro.org/static/docs/)
+- [LAVA Manual](https://validation.linaro.org/static/docs/v2/)
 
 {% include image.html name="lava-debian-jessie-installation.jpg" url="http://www.youtube.com/watch?v=T8jFzXRrFh8"%}
 
