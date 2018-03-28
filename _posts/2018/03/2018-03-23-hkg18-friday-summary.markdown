@@ -39,7 +39,7 @@ For images from Linaro Connect: [Linaro's flickr page](https://www.flickr.com/ph
 
 For session videos and slides: [Linaro Connect Resources Page HKG18](http://connect.linaro.org/hkg18/resources/) 
 
-For more information on Linaro Connect and the upcoming YVR18: [The Linaro Connect website](www.connect.linaro.org) 
+For more information on Linaro Connect and the upcoming YVR18: [The Linaro Connect website](http://connect.linaro.org) 
 
 
 
