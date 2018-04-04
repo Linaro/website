@@ -1,7 +1,5 @@
 ---
 author: mathieu.poirier
-categories:
-- blog
 comments: true
 date: 2014-08-14 07:46:40
 description: "Short introduction to the ARM\xC2\xAE CoreSight\xE2\x84\xA2 technology
@@ -16,8 +14,10 @@ slug: coresight-initial-steps-supporting-hw-assisted-tracing-linux-arm-socs
 tags:
 - Core Dump
 - arm
-- CoreSight
+- CoreSight     
 - socs
+categories:
+  - blog
 title: 'CoreSight: Initial steps in supporting HW assisted tracing on Linux for ARM
   SoCs'
 wordpress_id: 6299

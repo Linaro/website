@@ -25,7 +25,7 @@ With the formation of the [HPC Special Interest Group (SIG)](https://www.linaro.
 
 Compilers and compiler optimisation are a critical part of maximizing performance for desired workloads. Knowing this, Linaro has developed a HPC Compiler Quality Checker that examines compiler code generation. The development of this tool and its features continues. Masaki Arai will be presenting this work in the session titled [“HKG18-506 HCQC : HPC Compiler Quality Checker”](https://hkg18.pathable.com/meetings/640469). Do look out for it!
 
-Finally, an ecosystem is not an ecosystem without community involvement. Linaro’s Technical Lead, Renato Golin, is the Test Coordinator on the openHPC community project. Furthermore, we can proudly say that openHPC 1.3.3 is formally supported on AArch64. It’s no longer a Tech Preview Release. This has only been achievable through collaboration with our members Arm, Fujitsu, HiSilicon, Cavium, Qualcomm, HXT and RedHat.
+Finally, an ecosystem is not an ecosystem without community involvement. Linaro’s Technical Lead, Renato Golin, is the Test Coordinator on the openHPC community project. Furthermore, we can proudly say that openHPC 1.3.3 is formally supported on AArch64. It’s no longer a Tech Preview Release. This has only been achievable through collaboration with our members Arm, Fujitsu, HiSilicon, Cavium, Qualcomm, HXT and Red Hat.
 
 Please join in the conversation. We are running a HPC BoF on Wednesday at the Arm Ecosystem Day. What are the topics I hear you say? We want this to be an open forum and thus all topics related to supercomputing/HPC are welcome but, of course, we have pencilled in Ansible, MPI, benchmarking, Spack and downstream testing.
 
