@@ -401,7 +401,7 @@ July
 </dt>
 
 <dd markdown="1">
-Linaro announces the Linaro Mobile Group [Read More](/projects/mobile/ "Linaro announces the Linaro Mobile Group ")
+Linaro announces the Linaro Mobile Group [Read More](/groups/lmg/ "Linaro announces the Linaro Mobile Group ")
 </dd>
 
 <dt markdown="1">

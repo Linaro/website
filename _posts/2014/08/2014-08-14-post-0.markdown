@@ -1,5 +1,6 @@
 ---
 author: agustin.benito
+title: 'Core Dump: Post #0'
 categories:
 - blog
 comments: true
@@ -18,7 +19,6 @@ tags:
 - engineer
 - foss
 - pov
-title: 'Core Dump: Post #0'
 wordpress_id: 6293
 ---
 

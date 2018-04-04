@@ -42,7 +42,7 @@ To submit an issue and/or bug, please go to our [Issues list] on Github.
 To access all the relevant documentation, go to [Documentation] on the
 [op-tee.org] website.
 
-[Documentation]: https://www.op-tee.org/documentation
+[Documentation]: https://www.op-tee.org/documentation/
 [Issues list]: https://github.com/OP-TEE/optee_os/issues
 [optee_os]: https://github.com/OP-TEE/optee_os
 [tee-dev]: https://lists.linaro.org/mailman/admindb/tee-dev

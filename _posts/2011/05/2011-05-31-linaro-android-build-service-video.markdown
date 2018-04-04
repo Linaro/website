@@ -21,7 +21,7 @@ wordpress_id: 3387
 
 Linaro has just opened a new service to generate Android images built with the Linaro kernel, and with Linaro optimizations (binaries built with optimized ARM toolchains, optimized C library...).
 
-All users need to do is go to [https://android-build.linaro.org/](https://android-build.linaro.org/). They can then choose between downloading images built by other users and requesting their own build. In the latter case, the request submitted to the cloud, and within an hour, the results are available.
+All users need to do is go to [https://android-build.linaro.org/]()https://android-build.linaro.org/. They can then choose between downloading images built by other users and requesting their own build. In the latter case, the request submitted to the cloud, and within an hour, the results are available.
 
 This approach makes it very easy to try Android on one of the boards supported by Linaro, compared to build your image by yourself. For example, in the TI Panda board case, you would have to go through a long list of steps. Remember that ARM provides RISC (Reduced Instruction Set Computer) types of CPUs. With the Linaro Android Build Service, you also get a reduced set of instructions ;-)
 
@@ -35,10 +35,10 @@ The video can also be downloaded in WebM format (VP8 codec):
 
 
 
-  * [WebM / VP8 codec, 800x450 resolution](http://free-electrons.com/pub/video/2011/may/linaro-android-leb-panda-450p.webm)
+  * [WebM / VP8 codec, 800x450 resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
 
 
-  * [WebM / VP8 codec, full HD resolution](http://free-electrons.com/pub/video/2011/may/linaro-android-leb-panda.webm)
+  * [WebM / VP8 codec, full HD resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
 
 
 

@@ -34,11 +34,11 @@ Sessions you can look forward to today include:
 **11:00:** [Introducing XEN on ARM](http://lca-13.zerista.com/event/member/72664) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/040313-Introducing-XEN-on-ARM-B)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c1r7dmsupfrccj4h7ti4l54nm4s))
 **11:00:** [Introduction to Linaro (New Assignees/Employees)](http://lca-13.zerista.com/event/member/72400) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) (Etherpad) (Google+ Event Listing)
 
-**12:00:** [Low Level Virtual Machine (LLVM) Update](http://lca-13.zerista.com/event/member/72374) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link)](http://bit.ly/ZEmR2C) ([Etherpad](http://pad.linaro.org/040313-Low-20Level-20Virtual-20Machine-20-LLVM--20Update)) ([Google+ Event Listing](https://plus.google.com/u/1/events/co73kh9mgpad3mpnmk15nq65bac))
+**12:00:** [Low Level Virtual Machine (LLVM) Update](http://lca-13.zerista.com/event/member/72374) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link)](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://plus.google.com/u/1/events/co73kh9mgpad3mpnmk15nq65bac))
 **12:00:** [CI/LAVA Component and Feature Review ](http://lca-13.zerista.com/event/member/72488)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad](http://pad.linaro.org/040313-CI-LAVA-Component-and-Feature-Review)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
-**12:00:** [Standardizing power management firmware interfaces via PSCI and FDT](http://lca-13.zerista.com/event/member/72361) - Grand Ballroom B - #connect-ballroom-b ([webchat link) ](http://bit.ly/ZEmR2C)([Etherpad](http://pad.linaro.org/040313-Standardizing-power-management-firmware-interfaces-via-PSCI-and-FDT)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
+**12:00:** [Standardizing power management firmware interfaces via PSCI and FDT](http://lca-13.zerista.com/event/member/72361) - Grand Ballroom B - #connect-ballroom-b ([webchat link) ](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
 
-**15:00:** [Technical Overview of big.LITTLE Switcher ](http://lca-13.zerista.com/event/member/72398)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad](http://pad.linaro.org/040313-Technical-Overview-of-big-LITTLE-Switcher)) ([Google+ Event Listing](https://plus.google.com/u/1/events/clplv4nq0la3q0eoscbqjk50t1g))
+**15:00:** [Technical Overview of big.LITTLE Switcher ](http://lca-13.zerista.com/event/member/72398)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx), ([Etherpad](http://pad.linaro.org/040313-Technical-Overview-of-big-LITTLE-Switcher)) ([Google+ Event Listing](https://plus.google.com/u/1/events/clplv4nq0la3q0eoscbqjk50t1g))
 
 
 ## Staying Connected
@@ -52,8 +52,7 @@ The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Conne
 {% include image.html name="LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
 
 To stay up on event happenings with
-[Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/u/0/b/103294826956432430431/103294826956432430431/posts), [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](/blog)
-
+[Twitter](https://twitter.com/LinaroOrg),, [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](/blog)
 To follow the daily live steam use
 [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts)
 [Linaro OnAir Youtube Channel](http://www.youtube.com/user/LinaroOnAir)

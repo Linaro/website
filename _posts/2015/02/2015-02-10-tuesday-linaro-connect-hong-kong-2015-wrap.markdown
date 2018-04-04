@@ -216,7 +216,7 @@ Tools
 </table>
 
 
-Also on display on Tuesday was the first board available as part of the [96Boards initiative.](https://www.96boards.org/)  The HiKey board is the first board to be certified 96Boards Consumer Edition compatible. This board is base around the HiSilicon Kirin 620  eight-core ARM Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its ARM Mali 450-MP4 GPU.  It is available now.  To learn more visit the 96Boards website:  [https://www.96boards.org/products/hikey/ ](https://www.96boards.org/products/hikey/ )
+Also on display on Tuesday was the first board available as part of the [96Boards initiative.](https://www.96boards.org/)  The HiKey board is the first board to be certified 96Boards Consumer Edition compatible. This board is base around the HiSilicon Kirin 620  eight-core ARM Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its ARM Mali 450-MP4 GPU.  It is available now.  To learn more visit the 96Boards website:  [https://www.96boards.org/product/hikey/ ](https://www.96boards.org/product/hikey/ )
 
 Keep checking to see more highlights from the event this week.
 

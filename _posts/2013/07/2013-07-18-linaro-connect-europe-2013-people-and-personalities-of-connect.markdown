@@ -20,7 +20,7 @@ Another highlight for me, was to speak with [Jon Masters](https://plus.google.co
 
 Also from [Red Hat](http://www.redhat.com/), [Leslie Hawthorn](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CCwQFjAA&url=http%3A%2F%2Fhawthornlandings.org%2F&ei=vQLoUe7kH9Ww4AOimYDoBQ&usg=AFQjCNGR-S4V1kzg4BbKOHea-IQU_5WreQ&sig2=sGKCFVT0t9ChkMW5auaNyw&bvm=bv.49478099,d.dmg) who welcomed everyone on Wednesday morning with a keynote about why open collaboration is important. Leslie also gave pointers on how to achieve successful and effective open collaboration with a community.
 
-[Larry Wikelius](http://silverlining-systems.com//company/management/) of [Calexda](http://silverlining-systems.com//) took a few moments out of his busy schedule to talk ARM 64-bit servers and what we can expect to see from Calexda over the next 6 months to a year.
+[Larry Wikelius](http://silverlining-systems.com/) of [Calexda](http://silverlining-systems.com//) took a few moments out of his busy schedule to talk ARM 64-bit servers and what we can expect to see from Calexda over the next 6 months to a year.
 
 [LAVA, LAVA, LAVA!](/core/) There were so many sessions, demo's and even a mini-summit related to testing and validation at LCE13 that I snagged two members of the LAVA team-[Alan Bennett](/about/) and [Tyler Baker](/about/)- to chat with me about why LAVA is so awesome and how it's making a difference for developers in the Linux on ARM space.
 
@@ -28,7 +28,7 @@ Also from [Red Hat](http://www.redhat.com/), [Leslie Hawthorn](https://www.googl
 
 [George Grey](/about/executive/), Linaro CEO and [Rob Booth](/about/), Linaro COO both found some time to step in front of the cameras. George summarized the week as he discussed power management, 64-bit KVM, networking, LAVA and more. Rob explained Linaro as a Non-profit and what it means to be part of the ARM ecosystem and open source. Both George and Rob discussed the future of Linaro and what they were looking forward to seeing come out of LCE13 between now and [LCU13](http://connect.linaro.org/lcu13/) which will be co-located with ARM TechCon 2013 in Santa Clara, CA.
 
-Last but not least, is [Cole Crawford](http://www.opencompute.org/2012/11/16/cole-crawford-joins-the-foundation-as-coo/) of the [Open Compute Project (OCP)](http://www.opencompute.org/) stopped by as well. Cole was also one of our keynote speaker for LCE13. Cole took a moment to explain why he was excited about LAVA-LMP and why the relationship with Linaro was important. Cole also invited Linaro Connect to co-locate with OCPs summits and hinted at the collaboration efforts between Linaro and its community and the OCP community.
+Last but not least, is [Cole Crawford](http://www.opencompute.org/blog/cole-crawford-joins-the-foundation-as-coo/) of the [Open Compute Project (OCP)](http://www.opencompute.org/) stopped by as well. Cole was also one of our keynote speaker for LCE13. Cole took a moment to explain why he was excited about LAVA-LMP and why the relationship with Linaro was important. Cole also invited Linaro Connect to co-locate with OCPs summits and hinted at the collaboration efforts between Linaro and its community and the OCP community.
 
 Check out these videos and more on our [LinaroOrg](http://www.youtube.com/user/LinaroOrg) and [Linaro OnAir](http://www.youtube.com/user/LinaroOnAir) Youtube Channels.
 

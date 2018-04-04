@@ -1,3 +1,19 @@
+- title: Linaro announces launch of 96Boards AI Platform
+  url: /news/linaro-launches-96boards-ai-platform/
+  class: linaro
+  icon: Linaro-Logo_white-icon.svg
+- title: Linaro Announces OpenDataPlane Tiger Moth LTS Software 
+  url: /news/linaro-announces-opendataplane-tigermoth/
+  class: linaro-two
+  icon: Linaro-Logo_white-icon.svg
+- title: High Performance Computing and Linaro
+  url: /blog/high-performance-computing-and-linaro/
+  class: linaro
+  icon: Linaro-Logo_white-icon.svg
+- title: Robin Randhawa discusses The Automotive Industry/Open Source Software with Linaro CTO
+  url: /blog/linaro-cto-interview-robin-randhawa-arm/
+  class: linaro-two
+  icon: Linaro-Logo_white-icon.svg
 - title: 2017 Year in Review
   url: /blog/2017-year-in-review/
   class: linaro

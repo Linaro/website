@@ -59,7 +59,7 @@ A complete list of highlights and accomplishments for LAVA, Builds and Baselines
 
 
 
-Do you want to help predict the future of Linux on ARM?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and ARM-processor based boards then be a show off and participate in our [Demo Friday](/connect/demo-friday) event at LCE-13.
+Do you want to help predict the future of Linux on ARM?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and ARM-processor based boards then be a show off and participate in our [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at LCE-13.
 
 
 
@@ -129,7 +129,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
 
 
-[/engineering/armv8](/engineering/armv8)
+[/engineering/armv8](/initiatives/armv8/)
 ## GETTING INVOLVED
 
 

@@ -53,7 +53,7 @@ We place a lot of value on having a vibrant network of Community Contributors so
 
 **Getting Involved**
 
-[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/hub/). Most of Linaro day-to-day affairs take place on [IRC and via public mailing lists](https://wiki.linaro.org/GettingInvolved). We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
+[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/hub/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
 
 Find out you can be part of this exciting and growing community by visiting our [community page](/hub/).
 

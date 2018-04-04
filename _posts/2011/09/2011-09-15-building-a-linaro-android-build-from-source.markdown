@@ -15,7 +15,7 @@ If you run into problems please file bugs at [https://bugs.launchpad.net/linaro-
 
 We track the tips of the technology we integrate including the toolchain, kernels and various libraries so issues are common and expected. Our goal at Linaro is to maintain complete enablement while tracking the bleeding edge.
 
-I'm using [https://android-build.linaro.org/builds/~linaro-android/panda/](https://android-build.linaro.org/builds/~linaro-android/panda/).
+I'm using [https://android-build.linaro.org/builds/~linaro-android/panda/]()https://android-build.linaro.org/builds/~linaro-android/panda/.
 
 Commands are prefixed with $.
 

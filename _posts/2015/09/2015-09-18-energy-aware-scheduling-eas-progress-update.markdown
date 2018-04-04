@@ -44,7 +44,7 @@ EAS will unify 3 separate frameworks in the Linux kernel that are currently only
   * Linux cpuidle
   * Linux cpufreq
 
-These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/core-dump/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
+These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
 
 The optimal solution is to fully integrate these functions into the Linux scheduler itself, with sufficient information to enable the most energy-efficient scheduling decisions to be made.
 
@@ -227,7 +227,7 @@ Idlestat can be used with sample workloads to capture and compare C-state and P-
 
 ### kernelshark (existing)
 
-[http://people.redhat.com/srostedt/kernelshark/HTML/](http://people.redhat.com/srostedt/kernelshark/HTML/)
+[https://www.redhat.com/](https://www.redhat.com/)
 
 X11/GTK tool used for analysis of ftrace data, useful for detailed scheduler analysis but does not offer the API capability of ‘trappy’ above.
 

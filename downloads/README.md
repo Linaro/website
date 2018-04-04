@@ -9,6 +9,12 @@ Linaro code exists in many states and is found in many places. Working upstream 
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
+This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](https://www.linaro.org/work/).
+
+## Linaro Security Working Group downloads (including latest work on Meltdown/Spectre)
+
+[Linaro security downloads](https://www.linaro.org/downloads/security/) are available from several of Linaro's engineering groups. The most recent work includes collaboration on Meltdown/Spectre fixes backported in to the 4.4, 4.9 and 4.14 kernels. There are also links to work from the Linaro Digital Home Group (LHG) and the latest OP-TEE work from the Security Working Group.
+
 ## Linaro Releases, Platforms and Snapshots
 
 [Releases](http://releases.linaro.org/) is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
@@ -23,8 +29,8 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|ARM | <img src="/wp-content/uploads/2014/08/aarch-64-logo.png" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
-|Qualcomm | <img src="/wp-content/uploads/2014/08/snapdragon-logo.png" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+|ARM | <img src="/assets/images/thumbnails/content/aarch-64-logo.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Qualcomm | <img src="/assets/images/thumbnails/content/qualcomm-snapdragon.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
 

@@ -3,7 +3,7 @@ title: Linaro Life
 layout: linaro-life
 permalink: /linarolife/
 image:
-    path: /assets/images/content/linarolife.jpg
+    path: /assets/images/content/linarolife2.jpg
     name: linarolife2.jpg
 css-package: life
 ---
@@ -19,7 +19,7 @@ css-package: life
             <div class="cover-image-info">
                 <strong class="fade-in-one">Linaro Life Magazine</strong><br>
                 <small class="fade-in-two"><em>Second Edition</em>, is Launched</small><br>
-                <a href="/linarolife/e2/" class="btn btn-linaro-home light btn-lg fade-in-three">View Second Edition</a>
+                <a href="https://collaborate.linaro.org/display/MAR/LinaroLife" target="_blank" class="btn btn-linaro-home light btn-lg fade-in-three">View Second Edition</a>
             </div>
         </div>
 </div>

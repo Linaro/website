@@ -11,7 +11,6 @@ excerpt: ' Getting a TEE driver into Linux upstream has been the ultimate goal f
   a long time. This blog post will talk about the history, design choices and lessons
   learned when implementing and submitting a generic TEE driver for the Linux kernel. '
 layout: post
-link: /blog/core-dump/evolution-of-a-generic-tee-kernel-driver-2/
 slug: evolution-of-a-generic-tee-kernel-driver-2
 tags:
 - Core Dump
@@ -62,4 +61,4 @@ So, what is the takeaway from this long story about the kernel driver supposed t
 
 _References / Links_
 
-[1] [https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/HEAD:/drivers/tee](https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/HEAD:/drivers/tee)
+[1] [https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/drivers/tee](https://git.linaro.org/bsp/st-ericsson/linux-2.6.34-ux500.git/tree/drivers/tee)

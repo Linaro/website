@@ -21,7 +21,7 @@ club_members:
       - name: SpreadTrum
         image: spreadtrum.jpg
         url: /company/spreadtrum/
-      - name: ST
+      - name: St
         image: st.jpg
         url: /company/st/
       - name: Texas Instruments
@@ -52,9 +52,6 @@ group_members:
       - name: Ericsson
         image: ericsson.jpg
         url: /company/ericsson/
-      - name: Facebook
-        image: facebook.jpg
-        url: /company/facebook/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
@@ -67,6 +64,9 @@ group_members:
       - name: HXT
         image: hxt.png
         url: /company/hxt/
+      - name: Kylin
+        image: kylin.jpg
+        url: /company/kylin/
       - name: MediaTek
         image: mediatek.jpg
         url: /company/mediatek/
@@ -97,6 +97,9 @@ group_members:
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
+      - name: Xilinx
+        image: xilinx.jpg
+        url: /company/xilinx/
 leg_members:
       - name: Aliyun
         image: aliyun.jpg
@@ -107,9 +110,6 @@ leg_members:
       - name: Cavium
         image: cavium.jpg
         url: /company/cavium/
-      - name: Facebook
-        image: facebook.jpg
-        url: /company/facebook/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
@@ -234,9 +234,6 @@ lite_members:
        - name: NXP
          image: nxp.jpg
          url: /company/nxp/
-       - name: Redhat
-         image: redhat.jpg
-         url: /company/red-hat/
        - name: Sanechips
          image: sanechips.png
          url: /company/sanechips/
@@ -336,6 +333,9 @@ manufacturing_partners:
     - name: Arrow Electronics
       image: arrow.jpg
       url: /company/arrow/
+    - name: Avnet
+      image: Avnet.png
+      url: /company/avnet/
     - name: Black Whale Technology
       image: Blackwhale.png
       url: /company/blackwhale/
@@ -363,6 +363,9 @@ manufacturing_partners:
     - name: Huaqin
       image: huaqin.jpg
       url: /company/huaqin/
+    - name: LeMaker
+      image: lemaker.jpg
+      url: /company/lemaker/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
@@ -381,9 +384,6 @@ manufacturing_partners:
     - name: vamrs
       image: vamrs.jpg
       url: /company/vamrs/
-    - name: WrtNode
-      image: wrtnode.png
-      url: /company/wrtnode/
     - name: Xunlong
       image: xunlong.jpg
       url: /company/xunlong/
@@ -423,3 +423,13 @@ community_initiatives:
     - name: Developer Cloud
       image: developer-cloud-logo.png
       url: https://www.linaro.cloud/
+devicetree_members:
+    - name: Arm
+      image: arm.jpg
+      url: /company/arm/
+    - name: Hisilicon
+      image: hisilicon.jpg
+      url: /company/hisilicon/
+    - name: ST
+      image: st.jpg
+      url: /company/st/

@@ -11,7 +11,6 @@ excerpt: Since the last post, the bulk of the ARM CPU Security Extension support
   made it to upstream QEMU. Although the functional support is now available upstream,
   it is currently disabled while the details of the usage are ironed out
 layout: post
-link: /blog/core-dump/testing-qemu-arm-trustzone/
 slug: testing-qemu-arm-trustzone
 tags:
 - Core Dump

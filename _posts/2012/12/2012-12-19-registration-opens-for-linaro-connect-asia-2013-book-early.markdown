@@ -80,43 +80,43 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### Session Tracks
 
-  * [Android](http://summit.linaro.org/lce12/track/linaro-android)
+  * [Android](http://connect.linaro.org)
 
 
-  * [Automation, CI & LAVA](http://summit.linaro.org/lce12/track/linaro-automation-ci-lava)
+  * [Automation, CI & LAVA](http://connect.linaro.org)
 
 
-  * [Engineering Baselines and Validation](http://summit.linaro.org/lce12/track/linaro-engineering-baselines-validation)
+  * [Engineering Baselines and Validation](http://connect.linaro.org)
 
 
-  * [General](http://summit.linaro.org/lce12/track/linaro-general)
+  * [General](http://connect.linaro.org)
 
 
-  * [Graphics & Multimedia](http://summit.linaro.org/lce12/track/linaro-gfx-mm)
+  * [Graphics & Multimedia](http://connect.linaro.org)
 
 
-  * [Hackfest](http://summit.linaro.org/lce12/track/hackfest)
+  * [Hackfest](http://connect.linaro.org)
 
 
-  * [Kernel & Power Management](http://summit.linaro.org/lce12/track/linaro-kernel-power-management)
+  * [Kernel & Power Management](http://connect.linaro.org)
 
 
-  * [Members](http://summit.linaro.org/lce12/track/linaro-members)
+  * [Members](http://connect.linaro.org)
 
 
-  * [Mini Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit)
+  * [Mini Summit](http://connect.linaro.org)
 
 
-  * [OCTO](http://summit.linaro.org/lce12/track/linaro-octo)
+  * [OCTO](http://connect.linaro.org)
 
 
-  * [Private Meetings](http://summit.linaro.org/lce12/track/linaro-private-meetings)
+  * [Private Meetings](http://connect.linaro.org)
 
 
-  * [Toolchain](http://summit.linaro.org/lce12/track/linaro-toolchain)
+  * [Toolchain](http://connect.linaro.org)
 
 
-  * [Training](http://summit.linaro.org/lce12/track/linaro-training)
+  * [Training](http://connect.linaro.org)
 
 ### Demo Friday Event
 

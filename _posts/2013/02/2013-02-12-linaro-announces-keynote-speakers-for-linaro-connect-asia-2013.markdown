@@ -58,7 +58,7 @@ Also being held during this event is an ARM Enterprise Server Mini-Summit which 
 
 **Demo Friday**
 
-There will also be new demos added to the [Demo Friday](/connect/demo-friday) at event as well.  These include:
+There will also be new demos added to the [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) at event as well.  These include:
 
 
   * DLNA Premium Video HTML5 RUI Demo
@@ -82,7 +82,7 @@ There will also be new demos added to the [Demo Friday](/connect/demo-friday) at
   * UEFI SCT
 
 
-If you will be at Connect and want to show off how you or your organization is using Linaro Code and ARM boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/connect/demo-friday).
+If you will be at Connect and want to show off how you or your organization is using Linaro Code and ARM boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
 **Register Today!**
 
@@ -92,8 +92,8 @@ Registration for Linaro Connect Asia 2013 is [still open](http://connect.linaro.
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
 
-_To find out more, please visit[ ](/).[](/linux-on-arm/)_
-_ [](/linux-on-arm/)_
+_To find out more, please visit[ ](/).[](/about/)_
+_ [](/about/)_
 **_ About Linaro Connect_**
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._

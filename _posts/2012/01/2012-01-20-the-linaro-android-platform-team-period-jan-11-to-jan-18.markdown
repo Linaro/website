@@ -25,10 +25,10 @@ Next week is 12.01 Release Week and the Android Team is hard at work with their 
 
 ### Key Points for wider discussion
 
-  * Toolchain release	[ done.](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/)
+  * Toolchain release	[ done.]()https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/
 
 
-  * 12.01 preview has been [ released](https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/) and tested.
+  * 12.01 preview has been [ released]()https://android-build.linaro.org/builds/~linaro-android/toolchain-4.6-2012.01/ and tested.
 
 
   * Bug cleanup is completed. Only bugs reconfirmed on ICS remain.

@@ -19,7 +19,7 @@ title: Summary of the Android Mini-Summit at Connect Copenhagen 2012
 wordpress_id: 2078
 ---
 
-The [Linaro Android Mini-Summit](http://summit.linaro.org/lce12/track/linaro-mini-summit/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
+The [Linaro Android Mini-Summit](http://connect.linaro.org/resources/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
 “When we began planning the Mini-Summit Linaro's CTO [[David Rusling](/about/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](/about/), Tech Lead for the [Linaro Android Team](/about/).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
 
@@ -37,7 +37,7 @@ Through the collaboration of those involved in the discussion the Android Mini-S
   * Embedded Android
 
 
-The [Android Mini-Summit](http://summit.linaro.org/lce12/meeting/20937/android-mini-summit-1/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
+The [Android Mini-Summit](http://connect.linaro.org/resources/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
 
 During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](/blog/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/tsc/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
 
@@ -79,22 +79,22 @@ For more information about each of these sessions and how you can get involved, 
   * Mini-Summit Overview - [Slides](https://www.slideshare.net/linaroorg/android-mini-summitlce121)
 
 
-  * Android Mini - Summit Plenary 1 - [Slides](https://www.slideshare.net/linaroorg/st-es-androidefforts), [Video](https://www.youtube.com/watch?v=35DR2JRBfxA), [Notes](http://summit.linaro.org/lce12/meeting/20941/android-plenary-tuesday-1/)
+  * Android Mini - Summit Plenary 1 - [Slides](https://www.slideshare.net/linaroorg/st-es-androidefforts), [Video](https://www.youtube.com/watch?v=35DR2JRBfxA), [Notes](http://connect.linaro.org/resources/)
 
 
-  * Android Mini - Summit Plenary 2 -  [Video](https://www.youtube.com/watch?v=35DR2JRBfxA), [Notes](http://summit.linaro.org/lce12/meeting/20942/android-plenary-tuesday-2/)
+  * Android Mini - Summit Plenary 2 -  [Video](https://www.youtube.com/watch?v=35DR2JRBfxA), [Notes](http://connect.linaro.org/resources/)
 
 
-  * Session 1 (Android Dalvik, V8 and Bionic Optimization Discussion)  - [Slides](https://www.slideshare.net/linaroorg/st-es-androidefforts), [Video](https://www.youtube.com/watch?v=R4GGv2fezEY), [Notes](http://summit.linaro.org/lce12/meeting/20937/android-mini-summit-1/)
+  * Session 1 (Android Dalvik, V8 and Bionic Optimization Discussion)  - [Slides](https://www.slideshare.net/linaroorg/st-es-androidefforts), [Video](https://www.youtube.com/watch?v=R4GGv2fezEY), [Notes](http://connect.linaro.org/resources/)
 
 
-  * Session 2 (Android Graphics)  -  [Video](https://www.youtube.com/watch?v=R4GGv2fezEY), [Notes](http://summit.linaro.org/lce12/meeting/21339/android-mini-summit-2/)
+  * Session 2 (Android Graphics)  -  [Video](https://www.youtube.com/watch?v=R4GGv2fezEY)
 
 
-  * Session 3 (Android Kernel and Power Feature Discussion) - [Video](https://www.youtube.com/watch?v=BrfF-jaFLpI), [Notes](http://summit.linaro.org/lce12/meeting/21340/android-mini-summit-3/)
+  * Session 3 (Android Kernel and Power Feature Discussion) - [Video](https://www.youtube.com/watch?v=BrfF-jaFLpI), [Notes](http://connect.linaro.org/resources/)
 
 
-  * Session 4 (Embedded Android) - [Slides](https://www.slideshare.net/linaroorg/embedded-android-32543483), [Video](https://www.youtube.com/watch?v=BrfF-jaFLpI), [Notes](http://summit.linaro.org/lce12/meeting/21341/android-mini-summit-4/)
+  * Session 4 (Embedded Android) - [Slides](https://www.slideshare.net/linaroorg/embedded-android-32543483), [Video](https://www.youtube.com/watch?v=BrfF-jaFLpI), [Notes](http://connect.linaro.org/resources/)
 
 
 The mini-summit wrap up included a discussion with ST-Ericsson engineers about their experiences building Android devices. “It was commented that customers are expecting BSPs to contain the most up-to-date Android and the challenges SoC vendors have making this happen,” added Pfeffer.
@@ -107,7 +107,7 @@ Detailed action plans and summaries for the four 1 hour sessions can be found in
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-Current Linaro Android Builds can be found at: [https://android-build.linaro.org/](https://android-build.linaro.org/) Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
+Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 

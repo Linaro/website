@@ -28,7 +28,7 @@ It's been a busy week of training workshops, mini-summits, planning, hacking, in
 ## Presentation Slides
 
 
-Presentation slides for most of the sessions can be found at: [https://www.slideshare.net/linaroorg/presentations/Q/connect-events](https://www.slideshare.net/linaroorg/presentations/Q/connect-events)
+Presentation slides for most of the sessions can be found at: [https://www.slideshare.net/linaroorg/presentations/](https://www.slideshare.net/linaroorg/presentations/)
 
 Please note: If the slide deck is not there for a session you are looking for it means  ether no slides were used or the presenter did not share their slide deck with us.
 
@@ -58,7 +58,7 @@ The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can 
 ## Demo Friday
 
 
-Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [/connect/demo-friday](/connect/demo-friday)
+Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ballroom B. More information on this event can be found at: [/connect/demo-friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/)
 
 
 ## Remote Participation

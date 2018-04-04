@@ -1147,15 +1147,6 @@ There were a total of 108 videos recorded and posted to various YouTube channels
 
 
 </td>
-
-<td markdown="1">
-
-
-**Download Video**
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1177,14 +1168,6 @@ Monday (G+ HOA) (8 Videos)
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Monday_4_March_2013/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1206,14 +1189,6 @@ Tuesday (G+ HOA) (12 Videos)
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Tuesday_5_March_2013/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1235,14 +1210,7 @@ Wednesday (G+ HOA) (13 Videos)
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Wednesday_6_March_2013/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1264,14 +1232,7 @@ Thursday (G+ HOA) (13 Videos)
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Thursday_7_March_2013/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1293,14 +1254,6 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1322,14 +1275,6 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1351,14 +1296,7 @@ Friday (G+ HOA) (11 Videos)
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4 files available on people.linaro.org](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/)
-
-
-
-</td>
 </tr>
 </tbody>
 </table>
@@ -1404,14 +1342,6 @@ _(Please note that as new videos from this event are published they will be adde
 
 </td>
 
-<td markdown="1">
-
-
-**Download**
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1442,14 +1372,7 @@ Sunday 3 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/Linaro%20Connect%20-%20Welcome%20to%20LCA13%20Hong%20Kong-NJJy2003s2Q.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1480,14 +1403,6 @@ Monday 4 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/Linaro%20Connect%20(LCA13)%20-%20%20Interview%20with%20Dave%20Piggott%20LAVA%20Lab%20Lead-sn2M7lw7RdU.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1518,14 +1433,7 @@ Monday 4 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Interview%20with%20Vicky%20Janicki,%20Program%20Director%20Member%20Services-NtbC9ZKFBQc.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1556,14 +1464,6 @@ Tuesday 5 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linaro%20Connect%202013,%20George%20Grey,%20CEO%20og%20Linaro-EQsPvmS1Pxs.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1594,14 +1494,6 @@ Tuesday 5 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Interview%20with%20Lars%20Kurth,%20XEN.org%20Community%20Manager-bUxoABBzo_U.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1632,14 +1524,6 @@ Tuesday 5 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Amber%20Graner%20interviews%20Zach%20Pfeffer,%20Linaro%20Android%20Tech%20Lead-trbdZ1wVvWY.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1670,14 +1554,6 @@ Tuesday 5 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Amber%20Graner%20interviews%20Tyler%20Baker,%20Technical%20Architect%20and%20CI-ngMfKui_YbI.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1708,14 +1584,6 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linus%20Valleij%20and%20Peter%20De%20Schrijver%20at%20Linaro%20Connect%202013-G3VF7-kU1lk.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1746,14 +1614,6 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Citrix%20Mark%20Heath%20VP%20of%20XenServer%20at%20Linaro%20Connect%202013-gUL4qT-IHzA.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1784,14 +1644,7 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Greg%20Kroah-Hartman%20at%20Linaro%20Connect%202013-NRfYTQBebvc.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1822,14 +1675,7 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/John%20Stultz%20and%20Greg%20Kroah-Hartman%20talk%20Android%20Kernel%20Upstreaming%20to%20the%20Linux%20Kernel-7Dh4CcRl_zs.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1860,14 +1706,6 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Wookey%20of%20Linaro%20working%20on%20Debian%20for%20ARMv8%2064bit-5XdgQ7AmWX0.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1898,14 +1736,6 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/ARM%20Chromebooks%20at%20Linaro%20Connect%202013-c7wkPUmCgaw.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1936,14 +1766,6 @@ Wednesday 6 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20David%20Rusling,%20Linaro%20CTO%20chats%20with%20Jon%20Corbet%20of%20LWN-dyB34Kt5AzU.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -1974,14 +1796,6 @@ Thursday 7 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Kernel%20work%20group%20assignee%20Satish%20Kumar%20at%20Linaro%20Connect%202013-8rYt8jzuTK0.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2012,14 +1826,6 @@ Thursday 7 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Amber%20Graner%20interviews%20Deepak%20Saxena-p2NxHBkF8RU.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2050,14 +1856,7 @@ Friday 8 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/iOS%20and%20Windows%20apps%20to%20soon%20run%20on%20Android-1-XN6B0_R3s.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2088,14 +1887,7 @@ Friday 8 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20%20Jon%20Corbet%20(LWN)%20and%20Greg%20Kroah-Hartman%20(Linux%20Foundation)%20interviewed%20by%20Amber%20Graner-SuffTg_F6tA.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2126,14 +1918,7 @@ Friday 8 March
 
 </td>
 
-<td markdown="1">
 
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Karim%20Yahmour%20(CEO%20Opersys%20and%20author)%20in%20conversation%20with%20Amber%20Graner-Y_N6Zo67fiI.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2164,14 +1949,6 @@ Friday 8 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Linaro_org_videos/LCA13%20-%20Y.%20F.%20Juan%20of%20ITRI%20interview%20with%20Amber%20Graner-Qs6hrOcg3X4.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2202,14 +1979,6 @@ Sunday 10 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Botao%20Sun%20of%20the%20Linaro%20QA%20Team%20at%20Linaro%20Connect%202013-F8BDAHFm8Tw.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2240,14 +2009,6 @@ Monday 11 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/AMD%20developing%20Linux%20on%20ARM%20at%20Linaro%20Connect%202013-9ZxzbA84now.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2278,14 +2039,6 @@ Monday 11 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Marcin%20Juszkiewicz%20at%20Linaro%20Connect%202013-6Cpv03gU7UE.mp4)
-
-
-
-</td>
 </tr>
 <tr >
 
@@ -2316,14 +2069,6 @@ Monday 11 March
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Jon%20Masters%20of%20Red%20Hat%20at%20Linaro%20Connect%202013-ZRSvewsnHqQ.mp4)
-
-
-
-</td>
 </tr>
 </tbody>
 </table>
@@ -2497,7 +2242,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-**Congratulations to all who received these awards.** The video for the Awards session can be seen [here](http://youtu.be/ptznEo_8hEU). For those who can’t access YouTube the download is available [here](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/LCA-13%20Awards-ptznEo_8hEU.mp4).
+**Congratulations to all who received these awards.** The video for the Awards session can be seen [here](http://youtu.be/ptznEo_8hEU). For those who can’t access YouTube the download is available [here]()http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Friday_8_March_2013/LCA-13%20Awards-ptznEo_8hEU.mp4.
 
 
 
@@ -2505,7 +2250,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 Demo Friday
 
 
-Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/connect/demo-friday) for more information.
+Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) for more information.
 
 
 Introduction to Linaro
@@ -2546,14 +2291,6 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 </td>
 
-<td markdown="1">
-
-
-[.mp4 - Download](http://people.linaro.org/~akgraner/LCA_13_Hong%20Kong_Videos/Charbax_Videos/Linaro%20Connect%20-%20Introduction%20to%20Linaro%20(New%20Assignees_Employees)-kukUFAL_Z8M.mp4)
-
-
-
-</td>
 </tr>
 </tbody>
 </table>

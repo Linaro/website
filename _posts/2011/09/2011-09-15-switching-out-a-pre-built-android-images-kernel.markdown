@@ -18,9 +18,9 @@ Many people just want to update the kernel of a pre-built Android build.
 
 ## Find the Kernel
 
-The first step is to find the kernel that was used in your build. For this post I'll be using [https://android-build.linaro.org/builds/~linaro-android/panda/](https://android-build.linaro.org/builds/~linaro-android/panda/).
+The first step is to find the kernel that was used in your build. For this post I'll be using [https://android-build.linaro.org/builds/~linaro-android/panda/]()https://android-build.linaro.org/builds/~linaro-android/panda/.
 
-To find the kernel, click on the [source-manifest.xml](https://android-build.linaro.org/jenkins/job/linaro-android_panda/285/artifact/build/out/source-manifest.xml) link from the build. In this case the kernel is:
+To find the kernel, click on the [source-manifest.xml]()https://android-build.linaro.org/jenkins/job/linaro-android_panda/285/artifact/build/out/source-manifest.xml link from the build. In this case the kernel is:
 
 git://git.linaro.org/people/jstultz/android.git
 branch: linaro-android-3.0

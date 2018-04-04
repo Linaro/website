@@ -17,11 +17,11 @@ This post takes you through trying a prebuilt build on a Samsung Origen and then
 
 ## Try the Prebuilt Build
 
-Go to [Jellybean Origen build 22 ](https://android-build.linaro.org/builds/~linaro-android/origen-jb-gcc47-samsunglt-stable-blob/#build=22) and go through the instructions on the page to try the prebuilt build.
+Go to [Jellybean Origen build 22 ]() and go through the instructions on the page to try the prebuilt build.
 
 ## Now Build
 
-Download and make executable linaro_android_build_cmds.sh from the "Downloads" section of the [Jellybean Origen build 22 ](https://android-build.linaro.org/builds/~linaro-android/origen-jb-gcc47-samsunglt-stable-blob/#build=22) with the following commands:
+Download and make executable linaro_android_build_cmds.sh from the "Downloads" section of the [Jellybean Origen build 22 ]() with the following commands:
 
 
 ```bash

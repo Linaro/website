@@ -21,7 +21,7 @@ wordpress_id: 1341
 
 Adeneo Embedded announced its partnership with [Linaro](/) from [Embedded World 2012](http://www.embedded-world.de/en/) earlier this week.
 
-[Linaro’s Partner program](/partners/) enables companies like Adeneo Embedded to take an active role in the organization and help develop the future of Linux on ARM.  By partnering with Linaro, Adeneo Embedded continues to further its commitment to developing reference BSPs and supporting Embedded device developments.
+[Linaro’s Partner program](/members/) enables companies like Adeneo Embedded to take an active role in the organization and help develop the future of Linux on ARM.  By partnering with Linaro, Adeneo Embedded continues to further its commitment to developing reference BSPs and supporting Embedded device developments.
 
 {% include image.html name="linaro-logo.png" alt="Linaro Logo" class="small-inline right" %}
 

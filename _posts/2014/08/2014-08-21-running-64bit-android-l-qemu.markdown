@@ -63,14 +63,14 @@ As with all our code we at Linaro do our work in public and with presumption of 
 
 ### You will need:
 
-A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/christoffer.dall/linux-android.git/)
+A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/)
 
     ARCH=arm64 make ranchu_defconfig
 
     ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
 
 
-A [patched ](http://people.linaro.org/~christoffer.dall/linaro-devices.tar.gz)version of the AOSP tree (master or l-preview branch), with [qemu_pipe tweak](http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
+A patched version of the AOSP tree (master or l-preview branch), with [qemu_pipe tweak](http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
 
 ```bash
 

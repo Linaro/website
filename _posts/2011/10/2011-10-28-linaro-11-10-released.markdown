@@ -26,7 +26,7 @@ Among the improvements brought by this release and delivered by Linaro engineers
   * Linaro Kernel CI started a pilot exploring a new feature that allows maintainers to submit git trees as one time jobs for building and lab testing. Also Developer Platform Team now uses the Kernel CI infrastructure to continuously package and test a first LEB kernel.
 
 
-  * To improve tracking of a continuous stream of build and runtime results coming from the kernel CI infrastructure, a waterfall type reporting tool provided by LAVA has been developed and added to the dashboard ([http://validation.linaro.org/lava-server/kernel-ci-views/index](http://validation.linaro.org/lava-server/kernel-ci-views/index)). Initial Snowball boards have landed in the lab and the LAVA test repository incorporated support for power management CPU hotplug tests and "Insanity", a multimedia test suite.
+  * To improve tracking of a continuous stream of build and runtime results coming from the kernel CI infrastructure, a waterfall type reporting tool provided by LAVA has been developed and added to the dashboard ([http://validation.linaro.org/lava-server/kernel-ci-views/index]()). Initial Snowball boards have landed in the lab and the LAVA test repository incorporated support for power management CPU hotplug tests and "Insanity", a multimedia test suite.
 
 
   * Finally, even more sophistication on the CI front was introduced for Android through integrating Gerrit into the Linaro Android Build Service. Reviewed changes now automatically get build tested and a bot posts the outcome to the gerrit ticket, making it easier to catch issues before they are integrated into the official Linaro Android trees.

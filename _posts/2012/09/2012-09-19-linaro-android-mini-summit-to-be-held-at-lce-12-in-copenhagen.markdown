@@ -22,7 +22,7 @@ wordpress_id: 1903
 As mentioned in [early posts](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/) about [LCE 12 Copenhagen](http://connect.linaro.org/resources/), this Linaro Connect will host three mini-summits - tracks focused on a single strategic topic held on a single day from 8.30am until lunchtime. There will be an ARMv8 (64-bit) mini-summit on the Tuesday 30 Oct, an Android mini-summit on the Wednesday 31 Oct and a big.LITTLE mini-summit Thursday 1 Nov.
 
 
-[Zach Pfeffer](/about/), Linaro Android Tech Lead took a few minutes out of his day [to answer a few questions](http://http://youtu.be/mN3XqjlA-4k) about the this mini summit and what you can expect out of this event.   He also invites those in attendance to join the afternoon hacking sessions and continue the interactive experience with the [Linaro Android Team](https://wiki.linaro.org/Platform/Android).
+[Zach Pfeffer](/about/), Linaro Android Tech Lead took a few minutes out of his day [to answer a few questions](https://www.youtube.com/watch?v=mN3XqjlA-4k) about the this mini summit and what you can expect out of this event.   He also invites those in attendance to join the afternoon hacking sessions and continue the interactive experience with the [Linaro Android Team](https://wiki.linaro.org/Platform/Android).
 
 Pfeffer also mentioned that the the preliminary topics include:
 

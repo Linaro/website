@@ -41,7 +41,7 @@ _HAL --_ [_https://github.com/jmondi/hardware_joffee_](https://github.com/jmondi
 
 A general knowledge of Androidsystem layering is required to fully understand the following article. Knowing what an HAL object is, the role of JNI and the Binder in an Android system is a mandatory prerequisite.
 
-The official Android documentation is light on details on this side, but on the web many resources are available searching for the above keywords. The best typographic resource on this is still [_“Embedded Android”_](http://shop.oreilly.com/product/0636920037132.do#) from K. Yaghmour, which details many aspects of Android system internals, and provides links to other useful resources.
+The official Android documentation is light on details on this side, but on the web many resources are available searching for the above keywords. The best typographic resource on this is still [_“Embedded Android”_]()http://shop.oreilly.com/product/0636920037132.do# from K. Yaghmour, which details many aspects of Android system internals, and provides links to other useful resources.
 
 The official Android documentation is useful as well, specifically for what concerns higher level concepts; some keyword you may be interested in looking for on the web are, in no particular order: parcelable types, AIDL, Android remote services, Message Handlers and Loopers;
 

@@ -26,7 +26,7 @@ Still haven’t decided if you should attend?  Do you or others in your organiz
 
 The LCE13 schedule is packed with a wide range of topics from the future looking to the practical hands-on. Tracks for this event focus on Android, Graphics and Multimedia, the Kernel, Platform Development, Power Management, QA and Infrastructure, Tools, Validation and LAVA, and training.
 
-Due to the popularity of the [LAVA](/engineering/validation) workshop, which was held at Linaro Connect Asia 2013 (LCA13) in Hong Kong, there will be a Testing and Validation Summit at LCE13.  Sessions for this workshop include: LAVA LMP Showcase, LAVA LMP Features and Integration, LAVA Introduction to Test and Author Tools, and LAVA Engineering Workflows.
+Due to the popularity of the [LAVA](/services/testing-validation-services/) workshop, which was held at Linaro Connect Asia 2013 (LCA13) in Hong Kong, there will be a Testing and Validation Summit at LCE13.  Sessions for this workshop include: LAVA LMP Showcase, LAVA LMP Features and Integration, LAVA Introduction to Test and Author Tools, and LAVA Engineering Workflows.
 
 Those who attend can expect to participate in sessions such as ARMv8-A Status and Updates, GNU Toolchain Performance, UEFI, Linaro Stable Kernel (LKS), LAVA Introductions and Updates, Overview of Linaro Project Management Methodology, big.LITTLE Upstreaming Status Review and a Technical overview of big.LITTLE Switcher and that’s just a few of the sessions you will find on Monday!
 
