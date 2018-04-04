@@ -35,15 +35,6 @@ If you have a passion for working on open source projects and being part of a co
 </div>
 <div class="col-md-12">
 
-<div markdown="1" class="job-op">
-* * *
-
-**[AI/ML Machine Intelligence Technical Lead](/blog/ai-ml-machine-intelligence-technical-lead/)**
-
-Location: Cambridge, United Kingdom (preferred); Or, UK or Worldwide for the right candidate
-
-</div>
-
 <script type="text/javascript" id="rbox-loader-script">
 _rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onready=cb;} }; 
 (function(d, e) {
