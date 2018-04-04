@@ -68,13 +68,13 @@ The kernel developer can write functions in the kernel (often done in a dedicate
 ### Event Tracing
 
 
-The event tracing subsystem has its own documentation[[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.txt) which might be worth a read to understand the background of event tracing in general. The event tracing subsystem serves as a foundation for both tracepoints and kprobes event tracing. The event tracing documentation focuses on tracepoints, so bear that in mind when consulting that documentation. Kprobes differs from tracepoints in that there is no predefined list of tracepoints but instead arbitrary dynamically created probe points that trigger the collection of trace event information. The event tracing subsystem is controlled and monitored through a set of debugfs files. Event tracing (CONFIG_EVENT_TRACING) will be selected automatically when needed by something like the kprobe event tracing subsystem.
+The event tracing subsystem has its own documentation[[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.rst) which might be worth a read to understand the background of event tracing in general. The event tracing subsystem serves as a foundation for both tracepoints and kprobes event tracing. The event tracing documentation focuses on tracepoints, so bear that in mind when consulting that documentation. Kprobes differs from tracepoints in that there is no predefined list of tracepoints but instead arbitrary dynamically created probe points that trigger the collection of trace event information. The event tracing subsystem is controlled and monitored through a set of debugfs files. Event tracing (CONFIG_EVENT_TRACING) will be selected automatically when needed by something like the kprobe event tracing subsystem.
 
 
 #### Kprobes Events
 
 
-With the kprobes event tracing subsystem the user can specify information to be reported at arbitrary breakpoints in the kernel, determined simply by specifying the address of any existing probeable instruction along with formatting information. When that breakpoint is encountered during execution kprobes passes the requested information to the common parts of the event tracing subsystem which formats and appends the data to the trace log, much like how tracepoints works. Kprobes uses a similar but mostly separate collection of debugfs files to control and display trace event information. This feature is selected with CONFIG_KPROBE_EVENT. The kprobetrace documentation[[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.txt) provides the essential information on how to use kprobes event tracing and should be consulted to understand details about the examples presented below.
+With the kprobes event tracing subsystem the user can specify information to be reported at arbitrary breakpoints in the kernel, determined simply by specifying the address of any existing probeable instruction along with formatting information. When that breakpoint is encountered during execution kprobes passes the requested information to the common parts of the event tracing subsystem which formats and appends the data to the trace log, much like how tracepoints works. Kprobes uses a similar but mostly separate collection of debugfs files to control and display trace event information. This feature is selected with CONFIG_KPROBE_EVENT. The kprobetrace documentation[[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.rst) provides the essential information on how to use kprobes event tracing and should be consulted to understand details about the examples presented below.
 
 
 ### Kprobes and Perf
@@ -373,8 +373,8 @@ Bibliography
 
 [[1]](https://github.com/torvalds/linux/blob/master/Documentation/kprobes.txt) Jim Keniston, Prasanna S. Panchamukhi, Masami Hiramatsu. “Kernel Probes (Kprobes).” _GitHub_. GitHub, Inc., 15 Aug. 2016. Web. 13 Dec. 2016.
 
-[[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.txt) Ts’o, Theodore, Li Zefan, and Tom Zanussi. “Event Tracing.” _GitHub_. GitHub, Inc., 3 Mar. 2016. Web. 13 Dec. 2016.
+[[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.rst) Ts’o, Theodore, Li Zefan, and Tom Zanussi. “Event Tracing.” _GitHub_. GitHub, Inc., 3 Mar. 2016. Web. 13 Dec. 2016.
 
-[[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.txt) Hiramatsu, Masami. “Kprobe-based Event Tracing.” _GitHub_. GitHub, Inc., 18 Aug. 2016. Web. 13 Dec. 2016.
+[[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.rst) Hiramatsu, Masami. “Kprobe-based Event Tracing.” _GitHub_. GitHub, Inc., 18 Aug. 2016. Web. 13 Dec. 2016.
 
 
