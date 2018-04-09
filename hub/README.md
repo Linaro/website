@@ -62,7 +62,7 @@ Click here for latest connect
 <ul class="nav nav-stacked">
 {% for news in site.categories.News limit: 5 %}
 <a href="{{news.url}}">
-    <li>{{news.title  }}</li>
+    <li>{{news.title}}</li>
 </a>
 <hr>
 {% endfor %}
@@ -75,7 +75,7 @@ Click here for latest connect
 <ul class="nav nav-stacked">
 {% for blog in site.categories.blog limit: 5 %}
 <a href="{{blog.url}}">
-    <li>{{blog.title }}</li>
+    <li>{{blog.title}}</li>
 </a>
 <hr>
 {% endfor %}
