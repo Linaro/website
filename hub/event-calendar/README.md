@@ -1,9 +1,9 @@
 ---
-title: Hub
+title: Event Calendar
 description: |-
-     All the latest news including press releases, blogs and social media as well as Linaro events.
+     This calendar features the events that Linaro will have a presence at.
 layout: default-no-sub-nav
-permalink: /hub/
+permalink: /hub/event-calendar/
 css-include: main-hub
 ---
 <div class="row">
