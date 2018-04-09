@@ -24,7 +24,7 @@ So if you sign up to use a system you can get access to one or more APM or AMD s
 
 {% include image.html name="Colo-image-11.jpg" alt="Colo Image"%}
 
-In early October, we began the buildout of the ARMv8 Server Lab in Austin, Texas. We installed a small cluster of forty (40) 64­bit Applied Micro ARM servers into a co­location facility near the Austin International Airport. The cluster is composed of two racks; one rack targeted at RedHat/Fedora OS deployed servers and one rack targeted at Ubuntu deployed servers (bare ­metal with MAAS and VM's with OpenStack). Later in November we received six AMD 64­bit ARM servers and they too have been deployed into the racks.
+In early October, we began the buildout of the ARMv8 Server Lab in Austin, Texas. We installed a small cluster of forty (40) 64­bit Applied Micro ARM servers into a co­location facility near the Austin International Airport. The cluster is composed of two racks; one rack targeted at Red Hat/Fedora OS deployed servers and one rack targeted at Ubuntu deployed servers (bare ­metal with MAAS and VM's with OpenStack). Later in November we received six AMD 64­bit ARM servers and they too have been deployed into the racks.
 
 ISV’s and Community members may apply for access ([/leg/servercluster/](/leg/servercluster/)) to the cluster where they will be given a freshly provisioned system that is totally private to them. Linaro administrators don’t have access to deployed systems. The standard “lease” for use of the system is 1­ to 2 weeks so that an ISV can recompile their software on 64­bit ARM and validate it works the same as on a 64­bit Intel system. The lease time can be extended on a case by case basis. The systems are hidden behind an SSH proxy server and are safely isolated from one another.
 
@@ -48,5 +48,5 @@ In our next blog your will hear from Linaro’s Andy Doan where he will talk abo
 
 * * *
 
-_(1.) Requires executing an NDA with RedHat and being part of their ARM early access program_
-_(2.) Requires executing an NDA with AMD for access to the AMD server hardware at this time.  Only RedHat and Fedora Linux is available on the AMD systems.._
+_(1.) Requires executing an NDA with Red Hat and being part of their ARM early access program_
+_(2.) Requires executing an NDA with AMD for access to the AMD server hardware at this time.  Only Red Hat and Fedora Linux is available on the AMD systems.._
