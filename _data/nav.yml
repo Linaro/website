@@ -50,11 +50,13 @@ pages:
             url: /developers/
     - title: "News & Events"
       options:
-          - text: "News & Events"
+          - text: "Hub"
             url: /hub/
+          - text: "Events"
+            url: /hub/event-calendar/
           - text: News
             url: /news/
-          - text: Linaro Blog
+          - text: Blog
             url: /blog/
           - text: Linaro Connect
             url: https://connect.linaro.org
