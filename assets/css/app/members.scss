@@ -1,0 +1,24 @@
+//Members Page
+.mk-svg-icon.small{
+    height: 16px !important;
+    width: 16px !important;
+}
+
+.members-svg {
+    display: inline-block;
+    margin-right: 4px;
+    fill: $brand-primary;
+    position: relative;
+    top: 2px;
+}
+
+.members-links {
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.members-img {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+}
