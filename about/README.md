@@ -5,7 +5,6 @@ description: |-
 layout: about-page
 permalink: /about/
 js-package: extended
-css-include: main-about
 ---
 
 {% include image.html name="connect-collective-500x333.jpeg" class="right-aligned-image" alt="Linaro Employees at Connect Event" %}
