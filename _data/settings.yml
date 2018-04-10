@@ -40,48 +40,20 @@ home:
     # If this is set then the navigation will be transparent.
     transparent-nav: true
     # If this is set to true then the shape divider will be displayed
-    shaped-divider: true
+    shaped-divider: false
     # Jumbotron settings for the home page
     jumbotron:
         # Include file to replace all the contents of the jumbotron with.
         included_file: hero-banner.html
         # Toggle the jumbotron
         enabled: true
-        # Title for the home page jumbotron
-        title:
-            first-line: 
-                text: Welcome to the
-                display: true
-                bold: false
-            second-line: 
-                text: Jumbo Jekyll Theme
-                display: true
-                bold: true
-        # Text to be displayed in the home page jumbotron
-        sub-title:
-            first-line:
-                text: A theme for Linaro Static Jekyll sites.
-                display: true
-                bold: false
-            second-line: 
-                text: Customize this content in the _data/settings.yml
-                display: false
-                bold: false
-        # Buttons to be displayed in the Jumbotron
-        buttons:
-            - text: Learn More
-              class: btn btn-primary btn-lg fade-in-three bottom-border-five
-              url: /about/
-            - text: Get Started
-              url: 
-              class: btn btn-primary btn-lg fade-in-three bottom-border-five
         # Background image for the home page located in assets/images
         background-image:
             # Darken is set to true by default - if you wish to remove the image overlay
             # then change this setting to false.
             darken: true
             # This is the name of the background-image located in /assets/images/
-            name: background-image.jpg
+            name: linaro-home-v2.jpg
         # image: devicetree-icon-white.png
 
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
