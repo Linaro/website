@@ -23,8 +23,8 @@ google:
 
 
 disqus:
-    enabled: false
-    shortname: Linaro
+    enabled: true
+    shortname: linaro
 
 
 placeholder: placeholder.jpg

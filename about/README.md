@@ -2,12 +2,10 @@
 title: About
 description: |-
     Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the work benefits Linaro members and the ARM ecosystem.
-layout: about-page
+layout: default-no-sub-nav
 permalink: /about/
 js-package: extended
-css-include: main-about
 ---
-
 {% include image.html name="connect-collective-500x333.jpeg" class="right-aligned-image" alt="Linaro Employees at Connect Event" %}
 
 Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the [work](/work/) benefits Linaro members and the ARM ecosystem.
