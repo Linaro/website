@@ -3,7 +3,7 @@ title: Search
 permalink: /search/
 layout: container-breadcrumb
 js-package: search
-css-include: main
+css-package: main
 description: |-
     Search the Linaro Website.
 ---

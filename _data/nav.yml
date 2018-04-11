@@ -1,8 +1,16 @@
-search: true
+# Search Config
+search:
+    enabled: true
+    label: Linaro
+    
+# Nav Brand Config
 brand:
     text: Linaro
-    image: Linaro-Logo.svg
+    image: 
+        enabled: true
+        name: Linaro-Logo.svg
     url: /
+    
 pages:
     - title: Home
       url: /

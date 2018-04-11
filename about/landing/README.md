@@ -5,7 +5,7 @@ description: |-
 layout: container-breadcrumb
 permalink: /about/landing/
 js-package: extended
-css-package: main-about
+css-package: about
 ---
 ## What is a Landing Team?
 
