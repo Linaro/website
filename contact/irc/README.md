@@ -23,30 +23,40 @@ Channels:
 
 <div class="col-sm-6" markdown="1">
 
-#linaro for general conversation  
-#linaro-android for Android discussions  
-#linaro-armhf for ARM HF discussions  
-#linaro-big.little for big.LITTLE related discussions  
-#linaro-dhg for Digital Home Group discussions  
-#linaro-enterprise for Linaro Enterprise Group (LEG) discussions  
-#linaro-gfx for Linaro Graphics and Multimedia discussions  
-#linaro-gsoc for coordinating Linaro projects in the Google Summer of Code  
-#linaro-infrastructure for Linaro Infrastructure discussions  
-#linaro-kernel for kernel specific discussions
+#linaro
+#linaro-android 
+#linaro-armhf
+#linaro-art
+#linaro-coresight
+#linaro-digitalhome
+#linaro-enterprise
+#linaro-gfx
+#linaro-gsoc
+#linaro-internal
+#linaro-kernel
+#linaro-lava
+#linaro-lite
+#linaro-lmg
 
 </div>
 
 <div class="col-sm-6" markdown="1">
 
-#linaro-lava for LAVA discussions  
-#linaro-meeting for meeting backchannels  
-#linaro-meeting-2 for meeting backchannels  
-#linaro-mm-sig for the Linaro Memory Management SIG  
-#linaro-networking for Linaro Networking Group discussions  
-#linaro-pmo for project management discussions  
-#linaro-tcwg for Toolchain WG discussions  
-#linaro-tsc to contact the TSC  
-#linaro-virtualization for Virtualization discussions<span id="SPAN_50">
+#linaro-lt-tls
+#linaro-meeting
+#linaro-meeting-2
+#linaro-mentors
+#linaro-mm-sig
+#linaro-networking
+#linaro-pmo
+#linaro-ps
+#linaro-qa
+#linaro-security
+#linaro-systems
+#linaro-tcwg
+#linaro-tsc
+#linaro-virtualization
+#mklinux
 
 Need a channel that’s not listed above? Follow the instructions to [setup a new channel](https://wiki.linaro.org/GettingInvolved/IRC/channelsetup).
 </div>
@@ -110,21 +120,35 @@ If you don’t really want to configure an IRC client, you can use a web-based o
 
 Below are the webchat links to all the public Linaro Channels (Just click on the links below and follow the instructions to connect these channels)
 
-*   [#linaro](http://webchat.freenode.net?channels=linaro&uio=d4)
-*   [#linaro-android](http://webchat.freenode.net?channels=linaro-android&uio=d4)
-*   [#linaro-coresight](http://webchat.freenode.net?channels=linaro-coresight&uio=d4)
-*   [#linaro-dhg](http://webchat.freenode.net?channels=linaro-dhg&uio=d4)
-*   [#linaro-enterprise](http://webchat.freenode.net?channels=linaro-enterprise&uio=d4)
-*   [#linaro-kernel]( http://webchat.freenode.net?channels=linaro-kernel&uio=d4)
-*   [#linaro-lava](http://webchat.freenode.net?channels=linaro-lava&uio=d4)
-*   [#linaro-meeting](http://webchat.freenode.net?channels=linaro-meeting&uio=d4)
-*   [#linaro-meeting-2]( http://webchat.freenode.net?channels=linaro-meeting-2&uio=d4)
-*   [#linaro-networking](http://webchat.freenode.net?channels=linaro-networking&uio=d4)
-*   [#linaro-pmo](http://webchat.freenode.net?channels=linaro-pmo%20&uio=d4)
-*   [#linaro-security](http://webchat.freenode.net?channels=linaro-security&uio=d4)
-*   [#linaro-tcwg](http://webchat.freenode.net?channels=linaro-tcwg&uio=d4)
-*   [#linaro-virtualization](http://webchat.freenode.net?channels=linaro-virtualization&uio=d4)
-*   [#kvm-arm](http://webchat.freenode.net?channels=kvm-arm&uio=d4)
+* [#linaro](http://webchat.freenode.net?channels=linaro&uio=d4)
+* [#linaro-android](http://webchat.freenode.net?channels=linaro-android&uio=d4) 
+* [#linaro-armhf](http://webchat.freenode.net?channels=linaro-armhf&uio=d4)
+* [#linaro-art](http://webchat.freenode.net?channels=linaro-art&uio=d4)
+* [#linaro-coresight](http://webchat.freenode.net?channels=linaro-coresight&uio=d4)
+* [#linaro-digitalhome](http://webchat.freenode.net?channels=linaro-digitalhome&uio=d4)
+* [#linaro-enterprise](http://webchat.freenode.net?channels=linaro-enterprise&uio=d4)
+* [#linaro-gfx](http://webchat.freenode.net?channels=linaro-gfx&uio=d4)
+* [#linaro-gsoc](http://webchat.freenode.net?channels=linaro-gsoc&uio=d4)
+* [#linaro-internal](http://webchat.freenode.net?channels=linaro-internal&uio=d4)
+* [#linaro-kernel](http://webchat.freenode.net?channels=linaro-kernel&uio=d4)
+* [#linaro-lava](http://webchat.freenode.net?channels=linaro-lava&uio=d4)
+* [#linaro-lite](http://webchat.freenode.net?channels=linaro-lite&uio=d4)
+* [#linaro-lmg](http://webchat.freenode.net?channels=linaro-lmg&uio=d4)
+* [#linaro-lt-tls](http://webchat.freenode.net?channels=linaro-lt-tls&uio=d4)
+* [#linaro-meeting](http://webchat.freenode.net?channels=linaro-meeting&uio=d4)
+* [#linaro-meeting-2](http://webchat.freenode.net?channels=linaro-meeting-2&uio=d4)
+* [#linaro-mentors](http://webchat.freenode.net?channels=linaro-mentors&uio=d4)
+* [#linaro-mm-sig](http://webchat.freenode.net?channels=linaro-mm-sig&uio=d4)
+* [#linaro-networking](http://webchat.freenode.net?channels=linaro-networking&uio=d4)
+* [#linaro-pmo](http://webchat.freenode.net?channels=linaro-pmo&uio=d4)
+* [#linaro-ps](http://webchat.freenode.net?channels=linaro-ps&uio=d4)
+* [#linaro-qa](http://webchat.freenode.net?channels=linaro-qa&uio=d4)
+* [#linaro-security](http://webchat.freenode.net?channels=linaro-security&uio=d4)
+* [#linaro-systems](http://webchat.freenode.net?channels=linaro-systems&uio=d4)
+* [#linaro-tcwg](http://webchat.freenode.net?channels=linaro-tcwg&uio=d4)
+* [#linaro-tsc](http://webchat.freenode.net?channels=linaro-tsc&uio=d4)
+* [#linaro-virtualization](http://webchat.freenode.net?channels=linaro-virtualization&uio=d4)
+* [#mklinux](http://webchat.freenode.net?channels=mklinux&uio=d4)
 
 [All Linaro Public Channels](http://webchat.freenode.net/?channels=linaro%2Clinaro-android%2Clinaro-armhf%2Clinaro-big.little%2Clinaro-enterprise%2Clinaro-infrastructure%2Clinaro-kernel%2Clinaro-lava%2Clinaro-meeting%2Clinaro-meeting-2%2Clinaro-mm-sig%2Clinaro-multimedia%2Clinaro-pm%2Clinaro-tsc&uio=d4)
 
