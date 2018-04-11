@@ -37,6 +37,7 @@ Channels:
 </div>
 
 <div class="col-sm-6" markdown="1">
+
 #linaro-lava for LAVA discussions  
 #linaro-meeting for meeting backchannels  
 #linaro-meeting-2 for meeting backchannels  
@@ -111,20 +112,19 @@ Below are the webchat links to all the public Linaro Channels (Just click on the
 
 *   [#linaro](http://webchat.freenode.net?channels=linaro&uio=d4)
 *   [#linaro-android](http://webchat.freenode.net?channels=linaro-android&uio=d4)
-*   [#linaro-armhf](http://webchat.freenode.net?channels=linaro-android&uio=d4)
-*   [#linaro-big.little](http://webchat.freenode.net?channels=linaro-big.little&uio=d4)
+*   [#linaro-coresight](http://webchat.freenode.net?channels=linaro-coresight&uio=d4)
+*   [#linaro-dhg](http://webchat.freenode.net?channels=linaro-dhg&uio=d4)
 *   [#linaro-enterprise](http://webchat.freenode.net?channels=linaro-enterprise&uio=d4)
-*   [#linaro-infrastructure](http://webchat.freenode.net?channels=linaro-infrastructure&uio=d4)
 *   [#linaro-kernel]( http://webchat.freenode.net?channels=linaro-kernel&uio=d4)
 *   [#linaro-lava](http://webchat.freenode.net?channels=linaro-lava&uio=d4)
 *   [#linaro-meeting](http://webchat.freenode.net?channels=linaro-meeting&uio=d4)
 *   [#linaro-meeting-2]( http://webchat.freenode.net?channels=linaro-meeting-2&uio=d4)
-*   [#linaro-mm-sig]( http://webchat.freenode.net?channels=linaro-mm-sig&uio=d4)
 *   [#linaro-networking](http://webchat.freenode.net?channels=linaro-networking&uio=d4)
 *   [#linaro-pmo](http://webchat.freenode.net?channels=linaro-pmo%20&uio=d4)
+*   [#linaro-security](http://webchat.freenode.net?channels=linaro-security&uio=d4)
 *   [#linaro-tcwg](http://webchat.freenode.net?channels=linaro-tcwg&uio=d4)
-*   [#linaro-tsc](http://webchat.freenode.net?channels=linaro-tsc&uio=d4)
 *   [#linaro-virtualization](http://webchat.freenode.net?channels=linaro-virtualization&uio=d4)
+*   [#kvm-arm](http://webchat.freenode.net?channels=kvm-arm&uio=d4)
 
 [All Linaro Public Channels](http://webchat.freenode.net/?channels=linaro%2Clinaro-android%2Clinaro-armhf%2Clinaro-big.little%2Clinaro-enterprise%2Clinaro-infrastructure%2Clinaro-kernel%2Clinaro-lava%2Clinaro-meeting%2Clinaro-meeting-2%2Clinaro-mm-sig%2Clinaro-multimedia%2Clinaro-pm%2Clinaro-tsc&uio=d4)
 

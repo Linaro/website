@@ -4,6 +4,7 @@ description: |-
     When founded in 2010, Linaro engineering was divided into three functions - Platform, Landing Teams and Working Groups.
 keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hardware platforms, upstreaming, Linux kernel, Toolchain, Mobile Middleware
 permalink: /core/
+director: Mike Holmes
 ---
 # Core Engineering
 
@@ -14,3 +15,7 @@ When founded in 2010, Linaro engineering was divided into three functions: Platf
 These original groups still exist in today’s Linaro, but they have all grown and new groups have been added. While Mobile Middleware is now a part of the Linaro Mobile Group, Kernel Consolidation and Toolchain Evolution continue to exist as Core Working Groups and they have been joined by groups focused on Power Management, Security, Virtualization and the Linaro Stable Kernel (LSK).
 
 The other part of Linaro's growth has been encouraged by the demand for collaborative engineering outside the company's original mobile segment focus. This growth has been reflected in the formation of new engineering groups focused on vertical segments - servers, networking, digital home, mobile and IoT and Embedded. These groups are described on the [Segment Groups](/groups/ "Linaro Segment Groups") page.
+
+## Core Development Roadmap
+
+<iframe src="https://app.roadmunk.com/publish/aa3dadfda2f77f43c539cc853246a801be9858b1" width="100%" height="800px"></iframe>
