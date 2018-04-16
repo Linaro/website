@@ -5,7 +5,7 @@ description: |-
 permalink: /about/
 js-package: about
 css-package: about
-layout: empty
+layout: default
 ---
 <div class="container-fluid">
     <div class="row about-content">
