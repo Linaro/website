@@ -208,6 +208,7 @@
     "^/partners(/?|/index.html)$ /members/ [R,L,NC]",
     "^/performance(/?|/index.html)$ /initiatives/performance/ [R,L,NC]",
     "^/planetfeed/rss(/?|/index.html)$ /planet/ [R,L,NC]",
+    "^/planet/source(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/professional-services(/?|/index.html)$ /services/ [R,L,NC]",
     "^/projects/digital-home(/?|/index.html)$ /groups/lhg/ [R,L,NC]",
     "^/projects/mobile(/?|/index.html)$ /groups/lmg/ [R,L,NC]",
