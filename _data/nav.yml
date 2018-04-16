@@ -60,7 +60,7 @@ pages:
       options:
           - text: "Hub"
             url: /hub/
-          - text: "Events"
+          - text: "Events Calendar"
             url: /hub/event-calendar/
           - text: News
             url: /news/
