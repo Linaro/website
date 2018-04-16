@@ -12,10 +12,6 @@ css-package: planet
 <div class="col-xs-12">
 
 <h1>Linaro Feeds</h1>
-<p>
-To add your feed to the list visit <a href="/planet/source/">this page</a> to find out more.
-</p>
-
 </div>
 </div>
 
