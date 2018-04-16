@@ -5,7 +5,7 @@
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/lightbox
-//= require app/sticky-navbar
+//= require app/sticky-tab-bar
 
 //= require app/main
 //= require app/about
