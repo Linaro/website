@@ -1,9 +1,3 @@
-
-// Import the Open Sans Font for Home Page Sliders
-@font-face {
-    font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Regular.ttf');
-}
 .container.home-blog-post-carousel-container {
     padding-bottom: 30px;
 }
@@ -116,11 +110,6 @@ h1.linaro-title > span{
     left: 0;
     right: 0;
     display:none;
-}
-
-
-.home-page-slider-text {
-    font-family: 'Open Sans', Arial;
 }
 
 // Developer Sertvices
