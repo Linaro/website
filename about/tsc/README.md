@@ -205,17 +205,6 @@ George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of indu
 </div>
 </div>
 
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
-### **Mark Gregotski** / Director of LHG, Linaro
-
-Mark has over 20 years experience developing real-time embedded software, managing software teams and defining product requirements for a variety of industry applications. Over the past 13 years he has worked on a range of set-top box product lines and large-scale deployments of video services for leading cable and telco MSOs. He has held key positions on software and systems engineering teams responsible for the successful launch of interactive set-top applications, video-on-demand solutions, an OCAP software stack, IP video services (IPTV, whole-home video distribution, and multi-bitrate adaptive streaming), and secure multiscreen content delivery solutions. His expertise in digital video developed over the course of working with silicon vendors on several generations of set-top boxes, VOD partners, and HLS video delivery to CE devices (smartphones, tablets) running iOS and Android.
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html name="mark-gregotski.png" class="linaro-profile-image" alt="Mark Gregotski Profile Photo"%}
-</div>
-</div>
-
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
