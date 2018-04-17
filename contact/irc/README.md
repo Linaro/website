@@ -23,40 +23,40 @@ Channels:
 
 <div class="col-sm-6" markdown="1">
 
-#linaro
-#linaro-android 
-#linaro-armhf
-#linaro-art
-#linaro-coresight
-#linaro-digitalhome
-#linaro-enterprise
-#linaro-gfx
-#linaro-gsoc
-#linaro-internal
-#linaro-kernel
-#linaro-lava
-#linaro-lite
-#linaro-lmg
+- #linaro
+- #linaro-android 
+- #linaro-armhf
+- #linaro-art
+- #linaro-coresight
+- #linaro-digitalhome
+- #linaro-enterprise
+- #linaro-gfx
+- #linaro-gsoc
+- #linaro-internal
+- #linaro-kernel
+- #linaro-lava
+- #linaro-lite
+- #linaro-lmg
 
 </div>
 
 <div class="col-sm-6" markdown="1">
 
-#linaro-lt-tls
-#linaro-meeting
-#linaro-meeting-2
-#linaro-mentors
-#linaro-mm-sig
-#linaro-networking
-#linaro-pmo
-#linaro-ps
-#linaro-qa
-#linaro-security
-#linaro-systems
-#linaro-tcwg
-#linaro-tsc
-#linaro-virtualization
-#mklinux
+- #linaro-lt-tls
+- #linaro-meeting
+- #linaro-meeting-2
+- #linaro-mentors
+- #linaro-mm-sig
+- #linaro-networking
+- #linaro-pmo
+- #linaro-ps
+- #linaro-qa
+- #linaro-security
+- #linaro-systems
+- #linaro-tcwg
+- #linaro-tsc
+- #linaro-virtualization
+- #mklinux
 
 Need a channel that’s not listed above? Follow the instructions to [setup a new channel](https://wiki.linaro.org/GettingInvolved/IRC/channelsetup).
 </div>
