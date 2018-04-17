@@ -35,7 +35,7 @@ dt {
 }
 
 //Smallest mobile view
-@media(max-width:767px){
+@media(max-width:$sm-screen-min){
     .linaro-profile-image {
         float:none !important;
         margin-bottom: 10px !important;
@@ -167,7 +167,7 @@ body{
 .row.employee-map h1 {
     font-weight: bold;
     font-size: 54px;
-    color: #03CED6;
+    color: #fff;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -575,7 +575,7 @@ p.center.employee-map-text{
      background: #93bf4f;
 }
 
-@media(max-width:500px){
+@media(max-width:$sm-screen-min){
     svg#employee-map {
         padding: 20px 0px;
     }
