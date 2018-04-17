@@ -35,7 +35,7 @@ dt {
 }
 
 //Smallest mobile view
-@media(max-width:$sm-screen-min){
+@media(max-width:$screen-sm-min){
     .linaro-profile-image {
         float:none !important;
         margin-bottom: 10px !important;
@@ -575,7 +575,7 @@ p.center.employee-map-text{
      background: #93bf4f;
 }
 
-@media(max-width:$sm-screen-min){
+@media(max-width:$screen-sm-min){
     svg#employee-map {
         padding: 20px 0px;
     }
