@@ -44,7 +44,8 @@ layout: default
           <h4>Timeline</h4>
           <div class="timeline-carousel owl-carousel">      
                       
-            {% for news-posting in site.categories.News | reverse %}
+            {% assign news = site.categories.News | reverse %}
+            {% for news-posting in news  %}
             
             <div class="owl-item__inner">
                 <div class="timeline-item">
