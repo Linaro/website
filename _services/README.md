@@ -5,14 +5,6 @@ permalink: /services/
 redirect_from: 
 - /linaro-developer-services-datacenteranddevelopercloud/
 ---
-
-<div class="services-img">
-  <img class="img-responsive" src="{% asset_path 'services.jpg' %}"/>
-  <div class="services-img-text">
-    Let Linaro Developer Services experts help you with your project
-  </div>
-</div>
-
 <div class="services-home-content" markdown="1">
 
 We at Linaro Developer Services are ARM software engineering experts. We pride ourselves on the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of our work and professionalism of the engagements with our customers.

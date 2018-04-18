@@ -23,31 +23,40 @@ Channels:
 
 <div class="col-sm-6" markdown="1">
 
-- #linaro for general conversation  
-- #linaro-android for Android discussions  
-- #linaro-armhf for ARM HF discussions  
-- #linaro-big.little for big.LITTLE related discussions  
-- #linaro-dhg for Digital Home Group discussions  
-- #linaro-enterprise for Linaro Enterprise Group (LEG) discussions  
-- #linaro-gfx for Linaro Graphics and Multimedia discussions  
-- #linaro-gsoc for coordinating Linaro projects in the Google Summer of Code  
-- #linaro-infrastructure for Linaro Infrastructure discussions  
-- #linaro-kernel for kernel specific discussions
+- #linaro
+- #linaro-android 
+- #linaro-armhf
+- #linaro-art
+- #linaro-coresight
+- #linaro-digitalhome
+- #linaro-enterprise
+- #linaro-gfx
+- #linaro-gsoc
+- #linaro-internal
+- #linaro-kernel
+- #linaro-lava
+- #linaro-lite
+- #linaro-lmg
 
 </div>
 
 <div class="col-sm-6" markdown="1">
 
-- #linaro-lava for LAVA discussions  
-- #linaro-meeting for meeting backchannels  
-- #linaro-meeting-2 for meeting backchannels  
-- #linaro-mm-sig for the Linaro Memory Management SIG  
-- #linaro-networking for Linaro Networking Group discussions  
-- #linaro-pmo for project management discussions  
-- #linaro-tcwg for Toolchain WG discussions  
-- #linaro-tsc to contact the TSC  
-- #linaro-virtualization for Virtualization discussions<span id="SPAN_50">
-
+- #linaro-lt-tls
+- #linaro-meeting
+- #linaro-meeting-2
+- #linaro-mentors
+- #linaro-mm-sig
+- #linaro-networking
+- #linaro-pmo
+- #linaro-ps
+- #linaro-qa
+- #linaro-security
+- #linaro-systems
+- #linaro-tcwg
+- #linaro-tsc
+- #linaro-virtualization
+- #mklinux
 
 Need a channel that’s not listed above? Follow the instructions to [setup a new channel](https://wiki.linaro.org/GettingInvolved/IRC/channelsetup).
 </div>
