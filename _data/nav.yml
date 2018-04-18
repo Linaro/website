@@ -8,7 +8,8 @@ brand:
     text: Linaro
     image: 
         enabled: true
-        name: Linaro-Logo.svg
+        name: linaro-svg.html
+        svg: true
     url: /
     
 pages:
@@ -56,6 +57,8 @@ pages:
             url: /downloads/
           - text: Developers
             url: /developers/
+          - text: Security
+            url: /downloads/security/
     - title: "News & Events"
       options:
           - text: "Hub"
