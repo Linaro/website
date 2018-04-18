@@ -19,7 +19,7 @@ This page offers brief descriptions and links to security related downloads from
 * [HKG18-507 – Preparing for future security exploit mitigations](http://connect.linaro.org/resource/hkg18/hkg18-507/)
 
 ## 96Boards, webcasts etc
-* [Addressing Meltdown and Spectre with Joakim Bech | OpenHours #86](https://youtu.be/FiINvzyO5R8)
+* [Addressing Meltdown and Spectre with Joakim Bech \| OpenHours #86](https://youtu.be/FiINvzyO5R8)
 * [Meltdown, Spectre and OP TEE Webcast](https://youtu.be/rGwgOOSwXBY)
 
 
