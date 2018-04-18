@@ -48,6 +48,8 @@ pages:
             url: /downloads/
           - text: Developers
             url: /developers/
+          - text: Security
+            url: /downloads/security/
     - title: "News & Events"
       options:
           - text: "Hub"
