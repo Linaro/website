@@ -67,6 +67,7 @@ span.date.lower {
 .owl-item:nth-child(even) .timeline-item > .text-wrap{
     top: 0;
     position: relative;
+    padding-top: 40px;
   }
 .timeline-bar {
     height: 5px;
@@ -89,7 +90,13 @@ a.btn.btn-primary.section-btn {
     background-color: $brand-primary;
     border: none;
     outline: none;
+    color: white;
+    transition: all 1s ease;
 }
+a.btn.btn-primary.section-btn:hover {
+    background-color: #0e092a;
+}
+
     
 .organisation-section {
     background-color:#fff;
@@ -609,10 +616,6 @@ p.center.employee-map-text{
     .owl-item:nth-child(odd) .timeline-item > .text-wrap{
         top: -100px;
         position:relative;
-    }
-    .owl-item:nth-child(even) .timeline-item > .text-wrap{
-        top: -100px;
-        position: relative;
     }
 
     .timeline-carousel .text-wrap {

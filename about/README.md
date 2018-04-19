@@ -7,7 +7,24 @@ js-package: about
 css-package: about
 layout: default
 ---
-<div class="container-fluid">
+    <div class="container-fluid" id="homepage-header" 
+        style="background-image: url('{% asset_path 'linaro-about-background.jpg' %}');"> <!--Fluid Container -->
+        <div class="row overlay"> <!--Row -->
+            <div id="featured-jumbotron"> <!--Jumbotron div -->        
+              <div class="container" id="jumbotron-text"> <!--Container -->
+                        
+                      <h1 id="home-page-title" class="fade-in-one" id="homepage-heading">
+                          About Linaro
+                      </h1>
+                                  
+                    <p id="about-page-text" class="sub-tag center-block fade-in-two">
+                        Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all.
+                    </p>                                
+              </div><!-- End Jumbotron Container Div -->  
+                {% include shape-divider.html %}
+            </div> <!--End Jumbotron div -->        
+    </div>
+    <div class="container-fluid">
     <div class="row about-content">
         <div class="container">
           <h1 class="text-center">About Linaro</h1>
@@ -16,11 +33,6 @@ layout: default
             deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. 
           </p>
           
-          <div class="timeline-carousel owl-carousel">                    
-              <div class="owl-item__inner">
-                  
-              </div>
-          </div>
           <p>
             The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the work benefits Linaro members and the ARM ecosystem.
           </p>
@@ -50,6 +62,9 @@ layout: default
             
             <div class="owl-item__inner">
                 <div class="timeline-item">
+                    <div class="date-wrap">
+                        <span class="date">{{ news-posting.date | date: "%Y"}}</span>
+                    </div>
                     <div class="text-wrap">
                         <strong>{{ news-posting.date | date: "%B %Y"}}</strong>
                         <p>
@@ -58,9 +73,6 @@ layout: default
                         {% if news-posting.link %}
                         <a href="{{news-posting.link}}">Read more</a>
                         {% endif %}
-                    </div>
-                    <div class="date-wrap">
-                        <span class="date">{{ news-posting.date | date: "%Y"}}</span>
                     </div>
                 </div>
             </div>
