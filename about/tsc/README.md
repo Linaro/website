@@ -54,18 +54,13 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 
 <div class="container board_member">
 <div class="col-sm-9" markdown="1">
-### **Christian Bertin** / STMicroelectronics
+### **Eric Finco** / STMicroelectronics
 
-Christian Bertin is director of the Compiler Expertise Center at STMicroelectronics and a Technical Fellow. He has a Computer Sciences PhD from Institut National Polytechnique de Grenoble, in dynamic compilation and optimization. He is a graduated engineer from Ecole Nationale Superieure des Mines de Saint-Etienne, with a speciality in computing systems and networks.
+Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the ARM software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
 
-He led the Logic Programming and Expert System research team in the computer sciences laboratory of Ecole des Mines and created a specialized software engineering cursus, called “Annee Speciale d’Informatique Genie Logiciel” dedicated to graduated engineers and masters.
-
-In 1990, he joined the Advanced Computer Research Institute (Lyon, Brussels), where he led the compiler group to produce the FORTRAN-90 optimizing compiler and the system C compilers and tools for the ACRI1 supercomputer decoupled architecture.
-
-He has been working in STMicroelectronics for 17 years and has created the Compilation Expertise Center (CEC) in charge of product compilers, tools and libraries for most processor cores used in ST products. In ST, Christian pioneered the usage of open source technologies, both for development tools and for compilation tools technologies. Since 2012, two engineers of CEC are allocated to the Linaro toolchain team. Christian is also a member of the HiPEAC NoE and represents ST in the HiPEAC Steering Committee.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="christian-bertin.png" class="linaro-profile-image" alt="Christian Bertin Profile Photo"%}
+{% include circular-image.html name="Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
 </div>
 </div>
 
