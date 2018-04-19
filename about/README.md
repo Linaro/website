@@ -50,17 +50,17 @@ layout: default
             
             <div class="owl-item__inner">
                 <div class="timeline-item">
-                    <div class="date-wrap">
-                        <span class="date">{{ news-posting.date | date: "%Y"}}</span>
-                    </div>
                     <div class="text-wrap">
                         <strong>{{ news-posting.date | date: "%B %Y"}}</strong>
                         <p>
                             {{ news-posting.text | strip_html | truncatewords:30 }}
                         </p>
                         {% if news-posting.link %}
-                        <a href="{{new-posting.link}}">Read more</a>
+                        <a href="{{news-posting.link}}">Read more</a>
                         {% endif %}
+                    </div>
+                    <div class="date-wrap">
+                        <span class="date">{{ news-posting.date | date: "%Y"}}</span>
                     </div>
                 </div>
             </div>
@@ -70,6 +70,10 @@ layout: default
           </div> <!-- // timeline-carousel -->
           <div class="timeline-bar"></div>
       </article>
+      
+      <div class="container">
+        <p>This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro Connect historical events and key organizational developments. The member announcements and organizational development milestones clearly&nbsp;show Linaro growth&nbsp;in both&nbsp;core and club membership and the expansion of Linaro’s work with the establishment of segment focused groups: the <a href="/groups/leg/">Linaro Enterprise Group (LEG)</a> in November 2012, the <a href="/groups/lng/">Linaro Networking Group (LNG)</a> in February 2013, <a href="/groups/lhg/">The Linaro Digital Home Group (LHG)</a> in May 2014, <a href="/groups/lmg/">Linaro Mobile Group (LMG)</a> in July 2014, the <a href="/initiatives/96boards/">Linaro 96Boards&nbsp;Group</a>&nbsp;in February 2015, and the <a href="/groups/lite/">Linaro IoT and Embedded (LITE) Group</a> in September 2016.</p>
+      </div>
     </div>
     <div class="row employee-map">
         <div class="container text-center">
