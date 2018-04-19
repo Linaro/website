@@ -44,7 +44,8 @@ layout: default
           <h4>Timeline</h4>
           <div class="timeline-carousel owl-carousel">      
                       
-            {% assign news = site.categories.News | reverse %}
+            {% assign news = site.data.timeline | sort: 'date' %}
+            
             {% for news-posting in news  %}
             
             <div class="owl-item__inner">
@@ -55,9 +56,9 @@ layout: default
                     <div class="text-wrap">
                         <strong>{{ news-posting.date | date: "%B %Y"}}</strong>
                         <p>
-                            {{ news-posting.content | strip_html | truncatewords:30 }}
+                            {{ news-posting.text | strip_html | truncatewords:30 }}
                         </p>
-                        <a href="{{new-posting.url}}">Read more</a>
+                        <a href="{{new-posting.link}}">Read more</a>
                     </div>
                 </div>
             </div>
