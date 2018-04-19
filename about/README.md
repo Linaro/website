@@ -58,18 +58,15 @@ layout: default
                         <p>
                             {{ news-posting.text | strip_html | truncatewords:30 }}
                         </p>
+                        {% if news-posting.link %}
                         <a href="{{new-posting.link}}">Read more</a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
-          
-          
-          
+        
             {% endfor %}
           
-                  
-
-              
           </div> <!-- // timeline-carousel -->
           <div class="timeline-bar"></div>
       </article>
