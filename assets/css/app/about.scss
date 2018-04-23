@@ -644,5 +644,20 @@ p.center.employee-map-text{
 
 }
 
+/* Featured Image Overlay - 50% opacity */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
 
+.overlay:before {
+    content: '';
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #000);
+    opacity: .5;
+}
 
