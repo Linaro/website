@@ -22,6 +22,7 @@ div.about-page-text > .col-md-7.no-padding {
 div.about-page-text > .col-md-4.col-md-offset-1.did-you-know.no-padding > h2 {
     font-size: 16px;
     font-weight: bold;
+    
 }
 
 div#about-page {
@@ -618,7 +619,7 @@ p.center.employee-map-text{
         height: 10px;
     }
     
-    .owl-item:nth-child(odd) .timeline-item > .text-wrap{
+    .owl-item .timeline-item > .text-wrap{
         top: -100px;
         position:relative;
     }
