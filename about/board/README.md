@@ -49,9 +49,9 @@ Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and Q
 </div>
 </div>
 
-<div class="container board_member no-padding">
-<div class="col-sm-9 no-padding" markdown="1">
-### **Eric Finco** / Non-executive Director representing Club members
+<div class="container board_member">
+<div class="col-sm-9" markdown="1">
+### **Eric Finco** / STMicroelectronics
 
 Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the ARM software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
 
