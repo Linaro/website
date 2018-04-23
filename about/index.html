@@ -6,6 +6,7 @@ permalink: /about/
 js-package: about
 css-package: about
 layout: default
+nav-light: true
 ---
 <div class="container-fluid" id="homepage-header" 
     style="background-image: url('{% asset_path 'hkg18-group-photo-optimized.jpg' %}');"> <!--Fluid Container -->
@@ -25,10 +26,10 @@ layout: default
         </div> <!--End Jumbotron div -->        
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" id="content-container">
 <div class="row about-content">
     <div class="container">
-      <h1 class="text-center">About Linaro</h1>
+      <h1 class="text-center responsive-title">About Us</h1>
       <p class="text-center about-top-text">
         Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, 
         deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. 
@@ -54,7 +55,7 @@ layout: default
 
 <div class="row linaro-timeline">
     <article class="timeline">
-      <h4>Timeline</h4>
+      <h4 class="responsive-title">Timeline</h4>
       <div class="timeline-carousel owl-carousel">      
                   
         {% assign news = site.data.timeline | sort: 'date' %}
