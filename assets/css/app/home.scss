@@ -504,10 +504,6 @@ div.blogs_home_block_post.hpc:hover {
     background: linear-gradient(135deg, rgba(129,18,154,1) 0%, rgba(92,71,163,1) 47%, rgba(59,129,173,1) 81%, rgba(59,129,173,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81129a', endColorstr='#3b81ad', GradientType=1 );
 }
-
-
-
-
 .blogs_home_block_post > a {
     text-decoration: none;
 }
@@ -515,10 +511,6 @@ div.blogs_home_block_post.hpc:hover {
 #blog-slider > .owl-dots {
     margin-bottom: 25px;
 }
-
-
-
-
 #homepage-header p#buttons a {
     background-color: #a07fb7;
     color: #fff !important;
@@ -548,8 +540,10 @@ div.blogs_home_block_post.hpc:hover {
     }
     
 }
-
-
 p#buttons {
     margin-top: 70px;
+}
+
+div#homepage-header {
+    background-position-y: -380px;
 }
