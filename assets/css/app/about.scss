@@ -167,18 +167,19 @@ body{
     color: #7b7b7b;
 }
 
-.remote-teams h5{
+#content-container .remote-teams h5{
     color: #fff;
     font-weight: bold;
 }
 
 
-.remote-teams ul {
+#content-container .remote-teams ul {
     padding-left: 0px;
     list-style: none;
+    color:white;
 }
     
-.row.employee-map h1 {
+#content-container .row.employee-map h1 {
     font-weight: bold;
     font-size: 54px;
     color: #fff;
@@ -619,9 +620,10 @@ p.center.employee-map-text{
         height: 10px;
     }
     
-    .owl-item .timeline-item > .text-wrap{
+    #content-container .owl-item .timeline-item > .text-wrap{
         top: -100px;
         position:relative;
+        padding-top:0px;
     }
 
     .timeline-carousel .text-wrap {
@@ -643,6 +645,10 @@ p.center.employee-map-text{
         display: none;
     }
 
+}
+
+#content-container .text-wrap p {
+    margin-bottom: 0px;
 }
 
 /* Featured Image Overlay - 50% opacity */
