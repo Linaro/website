@@ -63,7 +63,7 @@ $(document).ready(function(){
         dateFormat: 'MMMM Do, YYYY',
         ssl: false,
         });
-        $("#rss-feed-10").rss("http://blog.eciton.net/index.rss",
+        $("#rss-feed-10").rss("https://station.eciton.net/index.rss",
         {
         entryTemplate: entryTemp,
         layoutTemplate: layoutTemp,
