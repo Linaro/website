@@ -1,10 +1,12 @@
 ---
 title: Arm HPC Japan 2017
-layout: event
+layout: default
 permalink: /events/armhpcjapan2017/
 css-package: arm-hpc
 ---
+{% include breadcrumb.html %}
 
+<div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
     <div class="container">
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'arm-hpc-workshop-japan_website-banner-top.png' %}" alt="Arm HPC Workshop Top Banner" class="img-responsive lazyload center-block"/>
@@ -21,7 +23,7 @@ css-package: arm-hpc
         Welcome
     </a>
   </li>
-
+../
   <li role="presentation">
     <a href="#schedule" role="tab" data-toggle="tab">
         Schedule
@@ -89,12 +91,8 @@ For more info contact marketing@linaro.org
 <hr>
 
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
-    
 <hr />
-
 </div>
-
-
 </div>
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule" markdown="1">
 ## Day 1
@@ -176,4 +174,5 @@ If you are travelling and need accommodation, here is a list of local hotels:
     <div class="container">
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'arm-hpc-workshop-japan_website-banner-base.png' %}" alt="Arm HPC Workshop Japan Bottom Banner" class="img-responsive lazyload center-block"/>
     </div>
+</div>
 </div>
