@@ -46,3 +46,21 @@ h1#featured-image-blog-title {
         width: 50px;
     }
 }
+
+
+#content-container .blog_post {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#content-container .row.blog_post picture {
+    top:0px;
+}
+
+#content-container .blog_post img.img-responsive.center-block {
+    padding:0px;
+}
+#content-container .blog_post img.img-responsive.center-block.lazyloaded {
+    padding:0px;
+}
