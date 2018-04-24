@@ -1,5 +1,5 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Linaro Security Downloads
 permalink: /downloads/security/
 image:
@@ -29,4 +29,3 @@ The [Linaro Digital Home Group (LHG)](https://www.linaro.org/groups/lhg/) has ma
 ## OP-TEE
 
 OP-TEE is an open source project which contains a full implementation to make a complete Trusted Execution Environment. Links to downloads for OP-TEE are available on [www.op-tee.org/projects/](https://www.op-tee.org/projects/). 
-

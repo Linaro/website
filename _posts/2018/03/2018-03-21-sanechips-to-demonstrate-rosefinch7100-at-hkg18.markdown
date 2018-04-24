@@ -12,7 +12,7 @@ image:
     featured: true
     path: /assets/images/blog/rosefinch7100.jpg
     name: rosefinch7100.jpg
-layout: featured-image-post
+layout: post
 ---
 # Sanechips to demonstrate RoseFinch7100 at Linaro Connect
 

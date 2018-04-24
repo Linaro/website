@@ -1,0 +1,21 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+ }
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:400px;
+    width:100%;
+    position:absolute;
+}
+
+@media(max-width: $screen-sm-min){
+    .map-responsive{
+        padding-bottom:200px;
+     }
+    .map-responsive iframe{
+        height:200px;
+    }    
+}

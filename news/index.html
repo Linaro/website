@@ -1,7 +1,7 @@
 ---
-title: News Archives
+title: News
 permalink: /news/
-layout: news
+layout: post-index
 pagination:
     title: "News - Page :num"
     enabled: true
@@ -9,21 +9,6 @@ pagination:
     trail:
         before: 4
         after: 4
-css-include: main-blog
+css-package: blog
+news: true
 ---
-{% for post in paginator.posts %}
-    <div class="row blog_post">
-        <div class="col-xs-12 post_title no-padding">
-            <a href="{{post.url}}"><h3>{{ post.title}}</h3></a>
-            <em>{{ post.date | date: "%A, %B %-d, %Y"}}</em><br />
-            <p class="post_excerpt">
-            {{ post.content | strip_html | truncatewords:30 }}
-            </p>
-            <p>
-                <a href="{{post.url}}">
-                    <button class="btn blog-read-more-btn">Read More</button>
-                </a>
-            </p>
-        </div>
-    </div>
-{% endfor %}

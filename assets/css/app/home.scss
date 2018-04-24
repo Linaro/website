@@ -1,9 +1,3 @@
-
-// Import the Open Sans Font for Home Page Sliders
-@font-face {
-    font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Regular.ttf');
-}
 .container.home-blog-post-carousel-container {
     padding-bottom: 30px;
 }
@@ -116,11 +110,6 @@ h1.linaro-title > span{
     left: 0;
     right: 0;
     display:none;
-}
-
-
-.home-page-slider-text {
-    font-family: 'Open Sans', Arial;
 }
 
 // Developer Sertvices
@@ -515,10 +504,6 @@ div.blogs_home_block_post.hpc:hover {
     background: linear-gradient(135deg, rgba(129,18,154,1) 0%, rgba(92,71,163,1) 47%, rgba(59,129,173,1) 81%, rgba(59,129,173,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81129a', endColorstr='#3b81ad', GradientType=1 );
 }
-
-
-
-
 .blogs_home_block_post > a {
     text-decoration: none;
 }
@@ -526,6 +511,39 @@ div.blogs_home_block_post.hpc:hover {
 #blog-slider > .owl-dots {
     margin-bottom: 25px;
 }
+#homepage-header p#buttons a {
+    background-color: #a07fb7;
+    color: #fff !important;
+    font-weight:normal;
+    margin-bottom: 50px;
+    border:0;
+    border-radius:0px;
+}
 
+#homepage-header p#buttons a:hover{
+    background-color: #232323;
+    font-weight:normal;
+    margin-bottom: 50px;
+}
+#homepage-header span.linaro-green {
+    top:20px;
+    font-size: 80px;
+    position:relative;
+}
 
+@media(max-width:$screen-sm-min){
+    
+    #homepage-header span.linaro-green {
+        top:20px;
+        font-size: 42px;
+        position:relative;
+    }
+    
+}
+p#buttons {
+    margin-top: 70px;
+}
 
+div#homepage-header {
+    background-position-y: -380px;
+}

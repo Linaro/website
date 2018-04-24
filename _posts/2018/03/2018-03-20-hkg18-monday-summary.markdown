@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/hkg18-group-photo-optimized.jpg
     name: hkg18-group-photo-optimized.jpg
-layout: featured-image-post
+layout: post
 ---
 # Highlights of the first day at Linaro Connect HKG18
 

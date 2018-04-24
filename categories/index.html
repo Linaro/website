@@ -2,7 +2,7 @@
 title: Blog/News Categories
 description: |-
     Linaro Blog Categories.
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /categories/
 ---
 <div id="archives">

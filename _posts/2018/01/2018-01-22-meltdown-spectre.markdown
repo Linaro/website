@@ -20,7 +20,7 @@ image:
   featured: true
   path: /assets/images/blog/meltdown-spectre-logo.jpg
   name: meltdown-spectre-logo.jpg
-layout: featured-image-post
+layout: post
 ---
 <div class="col-sm-6" markdown="1">
 # Implications of Meltdown and Spectre

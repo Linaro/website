@@ -1,11 +1,11 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Social
 description: |-
     Listing of all social media for Linaro. See twitter posts, facebook, blogs, and images.
 permalink: /social/
 facebook: true
-css-include: main-social
+css-package: social
 ---
 <div class="col-sm-4 social-col">
 <div class="row icon-row">

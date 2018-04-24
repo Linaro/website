@@ -1,5 +1,5 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Linaro Community Projects Antitrust Compliance Policy
 permalink: /communityprojects/antitrust-policy/
 ---

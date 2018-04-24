@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/Linaro-regdesk-HKG18.jpg 
     name: Linaro-regdesk-HKG18.jpg
-layout: featured-image-post
+layout: post
 ---
 # Highlights of the second day at Linaro Connect HKG18
 

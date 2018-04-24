@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/DemoFriday5.jpg 
     name: DemoFriday5.jpg
-layout: featured-image-post
+layout: post
 ---
 # Highlights of the fifth day at Linaro Connect HKG18
 

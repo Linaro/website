@@ -14,7 +14,7 @@ image:
   featured: true
   path: /assets/images/blog/odp-press-release-hkg18.png
   name: odp-press-release-hkg18.png
-layout: featured-image-post
+layout: post
 ---
 ## Linaro Announces OpenDataPlane Tiger Moth LTS Software Release with Support for Arm and x86
 **Software Defined Data Plane Supports SoCs, SmartNICs, and Servers**

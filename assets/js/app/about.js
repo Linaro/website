@@ -21,12 +21,12 @@ $(document).ready(function() {
               nav: true
           },
           733:{
-              items:4,
+              items:3,
               nav: true
 
           },
-          991:{
-              items:6,
+          1082:{
+              items:4,
               nav: true
 
           },

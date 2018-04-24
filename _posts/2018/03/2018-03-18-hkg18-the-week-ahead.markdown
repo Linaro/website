@@ -13,7 +13,7 @@ image:
   featured: true
   path: /assets/images/blog/HKG18-social-facebook-optimized.jpg
   name: HKG18-social-facebook-optimized.jpg
-layout: featured-image-post
+layout: post
 ---
 # HKG18: The week ahead
 

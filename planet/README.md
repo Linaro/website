@@ -2,10 +2,10 @@
 title: Planet Linaro
 description: |-
     Planet Linaro includes blog posts gathered from around the web about Linaro.
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /planet/
 js-package: rss
-css-include: main-planet
+css-package: planet
 ---
 
 <div class="row">

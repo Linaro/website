@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/Thursdaykeynotes.jpg 
     name: Thursdaykeynotes.jpg
-layout: featured-image-post
+layout: post
 ---
 # Highlights of the fourth day at Linaro Connect HKG18
 

@@ -1,8 +1,8 @@
-//= require vendor/jquery.min
-//= require vendor/bootstrap.min
-//= require vendor/cookieconsent.min
-//= require vendor/lazysizes.min
-//= require vendor/jquery.rss.min
+//= require vendor/jquery
+//= require vendor/bootstrap
+//= require vendor/cookieconsent
+//= require vendor/lazysizes
+//= require vendor/jquery.rss
 //= require vendor/moment.min
 
 //= require app/main

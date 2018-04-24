@@ -33,7 +33,10 @@ div#work_section {
     opacity: .6;
     text-decoration: none;
 }
-
+.col-xs-6.col-md-3.text-center.work_icon_col {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 .col-xs-12.group_icon_col {
     margin-bottom: 25px;
     border-bottom: 1px solid #eee;

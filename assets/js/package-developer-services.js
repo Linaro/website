@@ -1,10 +1,10 @@
-//= require vendor/jquery.min
-//= require vendor/bootstrap.min
-//= require vendor/cookieconsent.min
-//= require vendor/lazysizes.min
+//= require vendor/jquery
+//= require vendor/bootstrap
+//= require vendor/cookieconsent
+//= require vendor/lazysizes
 
 //= require app/main
 //= require app/tables
 //= require vendor/mc-validate
-//= require vendor/jquery.validate.min
+//= require vendor/jquery.validate
 //= require app/developer-services

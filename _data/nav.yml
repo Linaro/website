@@ -1,8 +1,17 @@
-search: true
+# Search Config
+search:
+    enabled: true
+    label: Linaro
+    
+# Nav Brand Config
 brand:
     text: Linaro
-    image: Linaro-Logo.svg
+    image: 
+        enabled: true
+        name: linaro-svg.html
+        svg: true
     url: /
+    
 pages:
     - title: Home
       url: /
@@ -48,11 +57,13 @@ pages:
             url: /downloads/
           - text: Developers
             url: /developers/
+          - text: Security
+            url: /downloads/security/
     - title: "News & Events"
       options:
           - text: "Hub"
             url: /hub/
-          - text: "Events"
+          - text: "Events Calendar"
             url: /hub/event-calendar/
           - text: News
             url: /news/

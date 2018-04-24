@@ -1,10 +1,10 @@
-//= require vendor/jquery.min
-//= require vendor/bootstrap.min
-//= require vendor/cookieconsent.min
-//= require vendor/owl.carousel.min
-//= require vendor/lazysizes.min
+//= require vendor/jquery
+//= require vendor/bootstrap
+//= require vendor/cookieconsent
+//= require vendor/owl.carousel
+//= require vendor/lazysizes
 //= require vendor/lightbox
-//= require app/sticky-navbar
+//= require app/sticky-tab-bar
 //= require vendor/ls.unveilhooks
 
 //= require app/main

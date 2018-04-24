@@ -1,9 +1,9 @@
 ---
 title: Search
 permalink: /search/
-layout: default-no-sub-nav
+layout: container-breadcrumb
 js-package: search
-css-include: main
+css-package: search
 description: |-
     Search the Linaro Website.
 ---
