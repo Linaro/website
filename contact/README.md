@@ -7,7 +7,7 @@ permalink: /contact/
 css-package: contact
 ---
 
-<div class="container-fluid" id="content-container">
+<div class="container-fluid">
 
 <div class="row" id="maps">
 <div class="map-responsive">

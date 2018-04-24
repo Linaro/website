@@ -99,8 +99,9 @@ a.btn.btn-primary.section-btn {
     color: white;
     transition: all 1s ease;
 }
-a.btn.btn-primary.section-btn:hover {
+#content-container a.btn.btn-primary.section-btn:hover {
     background-color: #0e092a;
+    color: white;
 }
 
     
@@ -124,6 +125,8 @@ a.btn.btn-primary.section-btn:hover {
 
 .col-sm-4.linaro-office {
     padding:10px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .office{
@@ -183,6 +186,8 @@ body{
     font-weight: bold;
     font-size: 54px;
     color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -196,7 +201,7 @@ body{
     background: -webkit-linear-gradient(top, #211153 0%,#0e092a 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #211153 0%,#0e092a 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211153', endColorstr='#2989d8',GradientType=0 ); /* IE6-9 */
-    padding-bottom:40px;
+    padding-bottom: 100px;
     padding-top: 20px;
 }
 
@@ -313,6 +318,7 @@ p.center.employee-map-text{
   font-size: 26px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .timeline-carousel {
@@ -539,8 +545,9 @@ p.center.employee-map-text{
 }
 
 .organisation-carousel .owl-stage-outer {
-    height: 240px;
+    height: 280px;
 }
+    
 .remote-team-carousel .owl-stage-outer {
     height: 150px;
     width: 100%;
@@ -549,12 +556,26 @@ p.center.employee-map-text{
     height: 150px;
     width: 100%;
 }
+.office-carousel.owl-carousel.visible-xs.owl-loaded.owl-drag {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#many-hands {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .row.about-content {
     background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .row.linaro-timeline {
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: #fcfcfc;
+    border-top: 1px solid #f3f0f0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,e8e8e8+100 */
     background: #fcfcfc; /* Old browsers */
     background: -moz-linear-gradient(top, #fcfcfc 0%, #e8e8e8 100%); /* FF3.6-15 */
@@ -592,6 +613,17 @@ p.center.employee-map-text{
 }
 
 @media(max-width:$screen-sm-min){
+    
+    #jumbotron-text p.sub-tag {
+        width:100%;
+    }
+    
+    #content-container .row.employee-map h1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 48px;
+    }    
+    
     svg#employee-map {
         padding: 20px 0px;
     }
@@ -682,6 +714,7 @@ p#about-page-text {
 }
 
 div#homepage-header {
-    background-position-y: -280px;
-    background-position-x:center;
+    background-position-y: -200px;
+    background-position-x: center;
+    background-size: cover;
 }
