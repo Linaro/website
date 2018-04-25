@@ -3,7 +3,7 @@ title: Members
 description: |-
     Members currently working with Linaro and how to become a member of Linaro
 layout: container-breadcrumb
-permalink: /members/new/
+permalink: /members/
 js-package: members
 css-package: members
 ---
