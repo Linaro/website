@@ -49,9 +49,6 @@ group_members:
       - name: ENEA
         image: enea.jpg
         url: /company/enea/
-      - name: Ericsson
-        image: ericsson.jpg
-        url: /company/ericsson/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
@@ -147,9 +144,6 @@ lng_members:
       - name: ENEA
         image: enea.jpg
         url: /company/enea/
-      - name: Ericsson
-        image: ericsson.jpg
-        url: /company/ericsson/
       - name: Hisilicon
         image: hisilicon.jpg
         url: /company/hisilicon/
