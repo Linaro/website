@@ -48,9 +48,9 @@ The current members are listed below. If you are interested in joining these ind
       {% endfor %}
 </div>
 <hr>
+<div class="col-md-12 members-panel">
 <a name="club-members"></a>
 <h1 class="text-center">Club Members</h1>
-<div class="col-md-12 members-panel">
     <p>
         Club membership is the starting point for most of Arm’s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.
     </p>
