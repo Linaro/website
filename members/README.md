@@ -4,13 +4,13 @@ description: |-
     Members currently working with Linaro and how to become a member of Linaro
 layout: container-breadcrumb
 permalink: /members/
-js-package: extended
+js-package: members
 css-package: members
 ---
 Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, Linux distributions and other companies who wish to influence the future of Linux on Arm. Core, Club and Group members all provide funding for Linaro and engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](/assets/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
 
 The current members are listed below. If you are interested in joining these industry leaders, please contact Joe Bates at [contactus@linaro.org](mailto:contactus@linaro.org).
-
+<div id="members-page-wrapper">
 <div class="members-links">
     <div class="col-sm-3 members_link">
         <div class="members-svg"><svg class="mk-svg-icon small" data-name="mk-moon-users-4" data-cacheid="icon-59a834ce3bcef" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M288 321.922v-14.768c19.129-16.6 32-47.621 32-83.154 0-53.02-28.653-96-64-96-35.346 0-64 42.98-64 96 0 35.535 12.872 66.558 32.003 83.156v14.766c-73.031 8.895-128 47.634-128 94.078h319.997c0-46.444-54.969-85.184-128-94.078zm-127.16-17.116c-13.354-8.158-30.188-13.814-48.839-15.902v-7.341c9.562-8.301 16-23.799 16-41.563 0-26.51-14.327-48-32-48s-32 21.49-32 48c0 17.764 6.438 33.262 16 41.563v7.327c-45.402 5.079-80 31.397-80 63.109h89.713c17.021-19.613 41.61-35.942 71.126-47.193zm271.16-15.916v-7.327c9.563-8.301 16-23.799 16-41.563 0-26.51-14.327-48-32-48s-32 21.49-32 48c0 17.764 6.438 33.262 16 41.563v7.341c-18.65 2.088-35.485 7.744-48.84 15.902 29.516 11.251 54.104 27.58 71.127 47.193h89.713c0-31.712-34.597-58.03-80-63.109z"></path></svg></div>
@@ -88,7 +88,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>
 <a name="leg_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/groups/leg/">
         Linaro Enterprise Group (LEG)
     </a>
@@ -111,7 +111,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>  
 <a name="leg_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/groups/lng/">
         Linaro Networking Group (LNG)
     </a>
@@ -134,7 +134,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>
 <a name="leg_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/groups/lhg/">
         Linaro Home Group (LHG)
     </a>
@@ -157,7 +157,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>
 <a name="leg_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/groups/leg/">
         Linaro Mobile Group (LMG)
     </a>
@@ -180,7 +180,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>
 <a name="leg_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/groups/lite/">
         Linaro IoT and Embedded (LITE) Group
     </a>
@@ -203,7 +203,7 @@ The current members are listed below. If you are interested in joining these ind
 </div>
 <hr>
 <a name="hpc_members"></a>
-<h3>
+<h3 class="members-page-title">
     <a href="/sig/hpc/">
         High Performance Computing (HPC)
     </a>
@@ -227,7 +227,7 @@ The current members are listed below. If you are interested in joining these ind
 
 <hr>
 
-<h3>
+<h3 class="members-page-title">
     <a href="https://www.96boards.org/">
         96boards
     </a>
@@ -350,6 +350,4 @@ DeviceTree Members
                </div>
       {% endfor %}
 </div>
-
-<hr>
-
+</div>
