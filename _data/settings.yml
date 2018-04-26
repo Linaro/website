@@ -11,6 +11,7 @@ slogan: Leading collaboration in the ARM Ecosystem
 mailchimp:
     enabled: true
     id: af6cf590b0
+    unsubscribe-url: https://linaro.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=af6cf590b0
     
 # Footer Newsletter toggle.
 newsletter:
