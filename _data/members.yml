@@ -31,9 +31,6 @@ group_members:
       - name: Acer
         image: acer.png
         url: /company/acer/
-      - name: Aliyun
-        image: aliyun.jpg
-        url: /company/aliyun/
       - name: Arm
         image: arm.jpg
         url: /company/arm/
@@ -98,9 +95,6 @@ group_members:
         image: xilinx.jpg
         url: /company/xilinx/
 leg_members:
-      - name: Aliyun
-        image: aliyun.jpg
-        url: /company/aliyun/
       - name: Arm
         image: arm.jpg
         url: /company/arm/
