@@ -31,9 +31,6 @@ group_members:
       - name: Acer
         image: acer.png
         url: /company/acer/
-      - name: Aliyun
-        image: aliyun.jpg
-        url: /company/aliyun/
       - name: Arm
         image: arm.jpg
         url: /company/arm/
@@ -49,9 +46,6 @@ group_members:
       - name: ENEA
         image: enea.jpg
         url: /company/enea/
-      - name: Ericsson
-        image: ericsson.jpg
-        url: /company/ericsson/
       - name: Fujitsu
         image: fujitsu.jpg
         url: /company/fujitsu/
@@ -101,9 +95,6 @@ group_members:
         image: xilinx.jpg
         url: /company/xilinx/
 leg_members:
-      - name: Aliyun
-        image: aliyun.jpg
-        url: /company/aliyun/
       - name: Arm
         image: arm.jpg
         url: /company/arm/
@@ -147,9 +138,6 @@ lng_members:
       - name: ENEA
         image: enea.jpg
         url: /company/enea/
-      - name: Ericsson
-        image: ericsson.jpg
-        url: /company/ericsson/
       - name: Hisilicon
         image: hisilicon.jpg
         url: /company/hisilicon/

@@ -52,11 +52,10 @@ nav-light: true
       <h4 class="responsive-title">History of Linaro</h4>
       <div class="timeline-carousel owl-carousel owl-theme">      
                   
-        {% assign news = site.data.timeline | sort: 'date' %}
-        
+        {% assign news = site.data.timeline | sort: 'date' | reverse %}
         {% for news-posting in news  %}
         
-        <div class="owl-item__inner">
+        <div class="owl-item__inner {% if news-posting.year-start %}year{{ news-posting.date | date:"%Y"}}{% endif %}">
             <div class="timeline-item">
                 <div class="date-wrap">
                     <span class="date">{{ news-posting.date | date: "%Y"}}</span>
@@ -330,7 +329,7 @@ nav-light: true
                              Committee and Linaro members to translate strategy 
                              and resources into deliverables. They are responsible for the...
                         </p>
-                        <a class="btn btn-primary section-btn">
+                        <a class="btn btn-primary section-btn" href="/about/executive/">
                             Learn More
                         </a>
                     </div>
@@ -345,7 +344,7 @@ nav-light: true
                              in determining Linaro’s technical strategy, ensuring
                               technical coherency across Linaro’s engineering activities
                         </p>
-                        <a class="btn btn-primary section-btn">
+                        <a class="btn btn-primary section-btn" href="/about/octo/">
                             Learn More
                         </a>
                     </div>
@@ -363,7 +362,7 @@ nav-light: true
                     focuses on ensuring the organization is moving toward 
                     its strategic mission through a combination of industry
                 </p>
-                <a class="btn btn-primary section-btn">
+                <a class="btn btn-primary section-btn" href="/about/board/">
                     Learn More
                 </a>
             </div>
@@ -376,7 +375,7 @@ nav-light: true
                      in determining Linaro’s technical strategy, ensuring 
                      technical coherency across Linaro’s engineering activities
                 </p>
-                <a class="btn btn-primary section-btn">
+                <a class="btn btn-primary section-btn" href="/about/tsc/">
                     Learn More
                 </a>
             </div>
@@ -389,7 +388,7 @@ nav-light: true
                      Committee and Linaro members to translate strategy 
                      and resources into deliverables. They are responsible for the...
                 </p>
-                <a class="btn btn-primary section-btn">
+                <a class="btn btn-primary section-btn" href="/about/executive/">
                     Learn More
                 </a>
             </div>
@@ -402,7 +401,7 @@ nav-light: true
                     in determining Linaro’s technical strategy, ensuring
                     technical coherency across Linaro’s engineering activities
                 </p>
-                <a class="btn btn-primary section-btn">
+                <a class="btn btn-primary section-btn" href="/about/octo/">
                     Learn More
                 </a>
             </div>

@@ -111,6 +111,12 @@ h1.linaro-title > span{
     right: 0;
     display:none;
 }
+h1#home-page-title.white {
+    color: white;
+    font-weight: normal;
+    text-shadow: #6f6f6f 1px 1px 7px;
+    font-size: 40px;
+}
 
 // Developer Sertvices
 span.developer-services-line-1 {
@@ -119,6 +125,11 @@ span.developer-services-line-1 {
 }
 span.developer-services-line-2 {
     font-size: 14px;
+}
+@media (max-width: 1200px) {
+    h1#home-page-title {
+        font-size: 28px;
+    }
 }
 
 // Developer Sertvices
@@ -527,8 +538,10 @@ div.blogs_home_block_post.hpc:hover {
 }
 #homepage-header span.linaro-green {
     top:20px;
-    font-size: 80px;
+    font-size: 68px;
+    font-weight:bold;
     position:relative;
+    text-shadow: #6f6f6f 1px 1px 7px;
 }
 
 @media(max-width:$screen-sm-min){
