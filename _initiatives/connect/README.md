@@ -14,14 +14,19 @@ Attracting 500+ attendees, Linaro Connect is a bi-annual event that brings toget
 
 For more information, visit our [Linaro Connect website](http://connect.linaro.org/)
 
-### Linaro Connect Budapest 2017
-The upcoming Linaro Connect will take place at the Corinthia Hotel, Budapest - starting on Monday 6 March 2017 at 8.30am and finishing Friday 10 March 2017 at 2pm. We will be covering everything from IoT and Cloud to Big Data, Astronomy and the Linux Kernel. A ticket for the full week is $2,500 while a one day ticket costs $900. To register, please go to the [Linaro Connect website](http://connect.linaro.org/attend/).  
+### Linaro Connect Vancouver 2018 (YVR18)
+
+Since 2010, Linaro Connect has been the event to attend if you are interested in open source software development for Linux, tools and the various vertical segment ecosystems that use Arm processors. While the event continues to evolve, one thing stays the same – it revolves around engineering and will consist of a mix of industry keynotes, engineering presentations and discussions, and collaborative engineering hacking sessions.
+
+The next Linaro Connect will take place at the Hyatt Regency in Vancouver, 17-21 September 2018. Registration is now open. Click [here](http://connect.linaro.org/) to register for YVR18. If you are a member attendee or plan to submit a paper to speak at Linaro Connect and need information about your registration discount code, please email connect@linaro.org .
+
+To view slides or videos from the keynotes and sessions from previous Connects, please go to our [Resources page](http://connect.linaro.org/hkg18/resources/).
 
 ### Sponsorship
 
 Sponsoring Linaro Connect is a great way to get exposure and raise your profile in front of Open Source Maintainers and Engineers from all across the world. Sponsorship packages range between $5,000 - 20,000 and cover a variety of options - from Lead Sponsorship to Lunch Sponsorship, Break Sponsorship and Giveaways. If you are interested in sponsoring, please contact connect@linaro.org. If you have suggestions for other activities or items you would like to sponsor, please do let us know and we'll be happy to tailor a package for you.
 
-For more information on Sponsorship, please go to http://connect.linaro.org/sponsors/
+For more information on Sponsorship, please go to (Sponsors Page](http://connect.linaro.org/sponsors/).
 
 ### More Information
 To find out more about Linaro Connect, please email connect@linaro.org
