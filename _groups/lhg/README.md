@@ -9,7 +9,6 @@ permalink: /groups/lhg/
 group_short_name: lhg
 group_long_name: Linaro Home Group
 icon: lhg_icon.png
-director: Mark Gregotski
 related_projects:
   - "8"
 #related_initiatives:
