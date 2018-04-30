@@ -1,0 +1,34 @@
+<div id="developer-services-breadcrumb">
+    <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="/services/" title="Developer Services">
+                <span itemprop="name">Developer Services</span>
+            </a>
+            <meta itemprop="position" content="1" />
+        </li>
+        {% assign page-url = page.url | split: "/" %}
+        {% assign iterator = 2 %}
+        {% assign breadcrumb-path = "/services/" %}
+        {% for section in page-url %}
+            {% if forloop.last == false %}
+                    {% if section == "services" or section == "" or section == "index.html" %}
+                        {% continue %}
+                    {% else %}
+                    {% capture breadcrumb-path %}{{breadcrumb-path}}{{section}}/{% endcapture%}
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="{{breadcrumb-path}}" title="{{page.title}}" >
+                                <span itemprop="name">{{section | truncate: 20 | capitalize }}</span>
+                            </a>
+                            <meta itemprop="position" content="{{iterator}}" />
+                        </li>
+                    {% endif %}
+              {% else %}
+              <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active">
+                  <span itemprop="name">{% if page.title %}{{page.title}}{% else %}{{ page.title }}{% endif %}</span>
+                  <meta itemprop="position" content="{{iterator}}" />
+              </li>
+              {% endif %}
+            {% assign iterator = iterator | plus:1 %}
+        {% endfor %}
+    </ol>
+</div>
