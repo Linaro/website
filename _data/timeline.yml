@@ -1,6 +1,7 @@
 - date: 2010-05-01 09:00:00+00:00
   text: |-
       “NewCo” meeting at UDS-M in Brussels, Belgium.
+  year-start: true
 - date: 2010-06-02 09:00:00+00:00
   text: |-
       Articles of Association created.
@@ -25,6 +26,7 @@
   text: |-
       Linaro Connect co-located with UDS-N in Orlando, Florida.
 - date: 2011-01-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro board meeting.
   link: https://www.linaro.org/assets/downloads/January-2011-Board-Meeting-Minutes.pdf
@@ -75,6 +77,7 @@
         Linux Kernel 3.2 released, Linaro ranked #13 company contributor
   link: http://lwn.net/Articles/472852/
 - date: 2012-02-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro Connect held in Redwood City, CA
 - date: 2012-03-01 09:00:00+00:00
@@ -142,6 +145,7 @@
         Linux Kernel 3.7 released, Linaro ranked #5 company contributor
   link: http://lwn.net/Articles/527191/
 - date: 2013-02-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro Networking Group (LNG) formed by 12 founding members to focus on
         networking development
@@ -221,6 +225,7 @@
         Linaro grown to 25 members, 190 engineers and 310 attendees at Linaro
         Connect
 - date: 2014-01-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linux Kernel 3.13 released, Linaro ranked #2 company contributor
   link: http://lwn.net/Articles/579081/
@@ -288,6 +293,7 @@
   text: |-
         Linaro grown to 30 members, 220 engineers and 500 attendees at Linaro Connect
 - date: 2015-02-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro Connect Hong Kong 2015 (HKG15)
   link: http://connect.linaro.org/hkg15/
@@ -348,6 +354,7 @@
         Linaro announces Acadine Technologies joins Linaro Mobile Group
   link: https://www.linaro.org/news/first-systems-software-company-acadine-joins-linaro-mobile-group/
 - date: 2016-01-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro announces Software Reference Platform for ARM servers
   link: https://www.linaro.org/news/linaro-announces-software-reference-platform-arm-servers/
@@ -392,6 +399,7 @@
         Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification
   link: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
 - date: 2017-03-01 09:00:00+00:00
+  year-start: true
   text: |-
         Linaro Connect Budapest 2017 (BUD17)
   link: http://connect.linaro.org/bud17/resources/
