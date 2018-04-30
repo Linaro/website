@@ -198,12 +198,12 @@ div.row.slide-content-row{
     padding-left:15px;
     padding-right: 15px;
 }
-
 span.linaro-connect-slide-text {
+    position: relative;
     font-size: 16px;
     font-weight: 500;
+    top: 160px;
 }
-
 .row.group_content {
     transform: scaleY(0.1);
     position: absolute;
