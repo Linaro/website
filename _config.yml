@@ -56,7 +56,6 @@ schema:
             country_code: UK 
 # Files that should be excluded from the Jekyll build.
 exclude:
-  - Gemfile
   - Gemfile.lock
   - .gitignore
   - .git
