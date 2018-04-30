@@ -538,8 +538,10 @@ div.blogs_home_block_post.hpc:hover {
 }
 #homepage-header span.linaro-green {
     top:20px;
-    font-size: 80px;
+    font-size: 68px;
+    font-weight:bold;
     position:relative;
+    text-shadow: #6f6f6f 1px 1px 7px;
 }
 
 @media(max-width:$screen-sm-min){
