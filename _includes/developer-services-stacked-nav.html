@@ -1,0 +1,44 @@
+{% assign sub-nav-tabs = site.data.sub-nav-stacked.pages %}
+{% if sub-nav-tabs %}
+    {% assign page-base =  page.url | split:'/' %}
+    {% for each in sub-nav-tabs %}
+        {% for each-url in each.urls %}
+            {% if each-url == page.url or each.url == page-base[1] %}
+                {% assign tab-list = each.list %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if tab-list %}
+        <div id="developer-services-navigation">
+            <nav class="navbar-default" role="navigation">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#stacked-nav-bar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" id="sub-navigation-header" href="">Developer Services Menu</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="stacked-nav-bar">
+                            <ul class="nav nav-pills">
+                                {% for tab in tab-list %}
+                                    <li class="{% if page-base[1] == tab.base  %}active {% elsif page.url == tab.url or tab.active %}active {% endif %}side-nav-button">
+                                        <a href="{{tab.url}}" role="link">
+                                            {% if tab.icon %}
+                                            <div class="ext-left">
+                                                <img src="{% asset_path '{{tab.icon}}' %}" class="developer-services-icon" alt="{{tab.title}} Icon"/>
+                                            </div>
+                                            {% endif %}
+                                            <div class="ext-right">
+                                                    {{ tab.title}} {% if tab.external %}<i class="glyphicon glyphicon-new-window pull-right"></i>{% endif %}
+                                            </div>
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+            </nav>
+        </div>
+        {% endif %}
+{% endif %}

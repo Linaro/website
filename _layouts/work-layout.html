@@ -1,0 +1,214 @@
+---
+layout: container-breadcrumb
+js-package: work
+css-package: work
+---
+<div class="col-md-3">
+{% include stacked-nav.html %}
+{% if page.icon %}
+<hr />
+<picture>
+  {% if page.icon_hd %}
+    <source srcset="{% asset_path '{{ page.icon_hd }}' %}" media="(max-width: 991px)" />
+  {% endif %}
+  <source srcset="{% if page.icon %}{% asset_path '{{page.icon}}' %}{% endif %}" media="(min-width: 992px)" />
+  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '{{page.icon}}'%}" class="lazyload img-responsive group_icon"/>
+</picture>
+{% endif %}
+
+{% if page.director %}
+<hr />
+<strong>Director: </strong> {{page.director}}
+{% endif %}
+
+{% if page.related_projects %}
+  <hr />
+  <strong>Lead Projects</strong>
+  <ul class="list-unstyled">
+    {% for related_project_id in page.related_projects %}
+      {% for project in site.projects %}
+        {% if project.project_id == related_project_id %}
+          <li class="project_element lead_project">
+            <a href="{{ project.permalink }}">{{ project.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.related_initiatives %}
+  <hr />
+  <strong>Initiatives</strong>
+  <ul class="list-unstyled">
+    {% for related_initiative_id in page.related_initiatives %}
+      {% for initiative in site.initiatives %}
+        {% if initiative.initiative_id == related_initiative_id %}
+          <li class="project_element initiative">
+            <a href="{{ initiative.permalink }}">{{ initiative.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.related_sig %}
+  <hr />
+  <strong>Special Interest Groups (SIG)</strong>
+  <ul class="list-unstyled">
+    {% for link in page.related_sig %}
+      {% for sig in site.sig %}
+        {% if sig.permalink == link %}
+          <li class="project_element sig">
+            <a href="{{ sig.permalink }}">{{ sig.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if page.other_projects %}
+  <hr />
+  <strong>Other Projects</strong>
+  <ul class="list-unstyled">
+    {% for other_project in page.other_projects %}
+          <li class="project_element other_project">
+            {% if other_project.url %}
+              <a href="{{ other_project.url }}">{{ other_project.name }}</a>
+            {% else %}
+              {{ other_project.name }}
+            {% endif %}
+          </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if page.related_groups %}
+  <hr />
+  <strong>Related Groups</strong>
+  <ul class="list-unstyled">
+    {% for related_group_shortname in page.related_groups %}
+      {% for group in site.groups %}
+        {% if group.group_short_name == related_group_shortname %}
+          <li class="project_element related_group">
+            <a href="{{ group.permalink }}">{{ group.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.related_core_groups %}
+  <hr />
+  <strong>Related Core Team</strong>
+  <ul class="list-unstyled">
+    {% for related_core_group in page.related_core_groups %}
+      {% for core_group in site.core %}
+        {% if core_group.core_id == related_core_group %}
+          <li class="project_element related_core_group">
+            <a href="{{ core_group.permalink }}">{{ core_group.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.related_jira_projects %}
+  <hr />
+  <strong>Jira Projects</strong>
+  <ul class="list-unstyled">
+    {% for related_jira_project in page.related_jira_projects %}
+          <li class="project_element related_group">
+            <a href="{{ related_jira_project.url }}">{{ related_jira_project.name }}</a>
+          </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.governance %}
+  <hr />
+  <strong>Governance</strong>
+  <ul class="list-unstyled">
+    {% for governance_el in page.governance %}
+          <li class="project_element governance">
+            <a href="{{ governance_el.url }}">{{ governance_el.name }}</a>
+          </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.engineering %}
+  <hr />
+  <strong>Engineering</strong>
+  <ul class="list-unstyled">
+    {% for engineering_el in page.engineering %}
+          <li class="project_element engineering">
+            <a href="{{ engineering_el.url }}">{{ engineering_el.name }}</a>
+          </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.mailing_lists %}
+  <hr />
+  <strong>Mailing Lists</strong>
+  <ul class="list-unstyled">
+    {% for mailing_list in page.mailing_lists %}
+          <li class="project_element mailing_list">
+            <a href="{{ mailing_list.url }}">{{ mailing_list.name }}</a>
+          </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<hr />
+
+
+</div>
+<div class="col-md-9 group_content_section">
+    {% if page.featured_video %}
+    <div class="work_featured_video">
+      {% include media.html media_url=page.featured_video %}
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.members_key %}
+      {% assign members = site.data.members[page.members_key] %}
+      <div class="col-xs-12 group_member_images">
+      <h5>{% if page.group_long_name %}{{page.group_long_name}} Members {% endif %}</h5>
+      {% for member in members %}
+      <div class="col-md-2 col-sm-3 col-xs-4">
+        <a href="{{member.url}}" title="{{member.name}}">
+          <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+           class="img-responsive group_members_img center-block lazyload">
+        </a>
+      </div>
+      {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if page.youtube_playlist %}
+      <div class="col-xs-12 group_playlist">
+      <hr />
+      {% assign playlist_embed_link = page.youtube_playlist | replace: 'https://www.youtube.com/playlist?list=','https://www.youtube.com/embed/videoseries?list='%}
+      {% include media.html media_url=playlist_embed_link %}
+      </div>
+    {% endif %}
+    
+    <div class="col-xs-12 contact_form">
+        {% include linaro-contact-form.html %}
+    </div>
+
+    {% include work-footer.html %}
+
+    <hr />
+</div>
+

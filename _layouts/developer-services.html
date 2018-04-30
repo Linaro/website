@@ -1,0 +1,189 @@
+---
+layout: default
+js-package: developer-services
+css-package: developer-services
+---
+    <div class="container-fluid">
+        <div class="row" id="developer-services-main" style="background: url('{% asset_path 'services-bg.jpg' %}');
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-color: #00142d;
+            ">
+            <div class="container developer-services-header">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <a href="/services/">
+                            <img class="img-responsive main-logo-developer-services center-block" src="{% asset_path 'developer-services-logo.png' %}"/>
+                        </a>
+                    </div>
+                    <div class="col-md-9 developer-services-title-container">
+                        <span class="center-text developer-services-title">
+                                We are the <strong>Arm software experts</strong><br/>
+                                and we are available to help you
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container" id="developer-services-content">
+                    <div class="col-lg-3 developer-services-side-bar-nav">
+                            {% include developer-services-stacked-nav.html %}
+                    </div>
+                    <div class="col-lg-9 main-developer-services-content">
+                      <div id="developer-services-contact-modal" class="modal fade">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title">Contact Developer Services</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Please fill in the form below and we’ll get back to you.</p>
+                                            
+                                            {% include developer-services-contact-form.html %}
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="row developer-services-content-header-row">
+                          <div class="col-xs-12 col-sm-8">
+                            <div class="developer-services-content-title">
+                                <h1>{{page.title}}</h1>
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-sm-4">
+                            <div class="contact-developer-services">
+                                <a href="#developer-services-contact-us" class="dev-services btn btn-primary btn-contact-developer-services pull-right">
+                                    Contact us
+                                </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row developer-services-content-row">
+                          {{content}}
+                        </div>
+
+                        {% if page.permalink == '/services/' %}
+                          <div class="row developer-services-contact-row">
+                              <hr />
+                              <div class="col-xs-12">
+                                <div class="col-sm-4 developer-services-snapshot-col">
+                                  <div class="row">
+                                    <strong>Efficiently support the latest technology features upstream</strong>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Boot architecture & kernels</h4>
+                                    <p>
+                                      We can help you with your boot architecture, kernel configuration optimization and support.
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Power management</h4>
+                                    <p>
+                                      Helped major companies implement and optimize power management in their products
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Security</h4>
+                                    <p>
+                                      Deep hands-on expertise with Arm security and Trusted Execution Environments (TEE)
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4 developer-services-snapshot-col">
+                                  <div class="row">
+                                    <strong>Reduce burden of post-release software updates and support</strong>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Upstreaming services</h4>
+                                    <p>
+                                      Helping companies upstream their code reducing their cost and effort to maintain their product
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Long-term support builds</h4>
+                                    <p>
+                                      Provide long term custom kernel and build support. Backport key patches and maintain builds
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Developer training</h4>
+                                    <p>
+                                      Linaro has a wide range of hands-on developer training in key Arm and open source areas
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4 developer-services-snapshot-col">
+                                  <div class="row">
+                                    <strong>Available to both Linaro Member and non-Member companies</strong>
+                                  </div>
+                                  <div class="row">
+                                    <h4>BSPs & board bring-up</h4>
+                                    <p>
+                                      Create, maintain and optimize board support package. Help with initial board bring up.
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Landing teams</h4>
+                                    <p>
+                                      Landing Teams are Linaro’s unique services approach to help build your team expertise.
+                                    </p>
+                                  </div>
+                                  <div class="row">
+                                    <h4>Other services</h4>
+                                    <p>
+                                      Linaro has helped many companies with a wide range of unique services.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-12">
+                                <div class="row find-out-more">
+                                  <div class="col-xs-12 col-sm-9 find-out-more-text">
+                                    <div class="arrow-right"></div>
+                                    Would you like to find out more?
+                                  </div>
+                                  <div class="col-xs-12 col-sm-3 find-out-more-contact-btn">
+                                    <a href="#developer-services-contact-us" class="dev-services btn btn-primary btn-find-out-more-contact-btn pull-right">
+                                      <div class="arrow-right-contact-button"></div>
+                                      Contact us</a>
+                                  </div>
+                                </div>
+
+                              </div>
+                          </div>
+                        {% else %}
+
+                          <div class="row developer-services-contact-row">
+                              <hr />
+                              <div class="col-xs-12">
+                                <div class="row find-out-more">
+                                  <div class="col-xs-12 col-sm-9 find-out-more-text">
+                                    <div class="arrow-right"></div>
+                                    Would you like to find out more?
+                                  </div>
+                                  <div class="col-xs-12 col-sm-3 find-out-more-contact-btn">
+                                    <a href="#developer-services-contact-us" class="dev-services btn btn-primary btn-find-out-more-contact-btn pull-right">
+                                      <div class="arrow-right-contact-button"></div>
+                                      Contact us</a>
+                                  </div>
+                                </div>
+
+                              </div>
+                          </div>
+                          {% endif %}
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+
+            <div class="container">
+                {% include developer-services-breadcrumb.html %}
+            </div>
+    </div>
+    
+</div>
