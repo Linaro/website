@@ -7,6 +7,9 @@ keywords: Linaro, Connect, ARM, Engineering, technology, Linux, ecosystems, deve
 permalink: /initiatives/connect/
 icon: connect-logo.png
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOraJTlqS_UDhS0zX1YxntL&playnext=1
+image:
+    path: /assets/images/content/yvr18-banner.png
+    name: yvr18-banner.png
 ---
 # Linaro Connect
 
