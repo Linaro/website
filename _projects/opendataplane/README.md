@@ -88,7 +88,4 @@ For the most accurate and up to date information please visit: [opendataplane.or
 * [ODP Orphaned Issues](https://collaborate.linaro.org/display/LNG/ODP+Orphaned+Issues?src=contextnavpagetreemode)
 * [LNG + ODP Change Review](https://collaborate.linaro.org/pages/viewpage.action?pageId=49840788&src=contextnavpagetreemode)
 * [ODP – All Epics, Stories with missing fixversion or due date.](https://collaborate.linaro.org/pages/viewpage.action?pageId=49841686&src=contextnavpagetreemode)
-* NEW! – [ODP Current Issues Fix Versions](https://projects.linaro.org/secure/DataplaneReport!default.jspa?report=fbbb67a8-2f56-47cf-912b-0eccab3f8026&action=run)
-* NEW! – [ODP Time from Status to Status by Assignee](https://projects.linaro.org/secure/DataplaneReport!default.jspa?report=ab450ccb-6443-4bb1-b748-9e10db7d1f07&action=run)
-* NEW! – [ODP Issue Closure Time](https://projects.linaro.org/secure/DataplaneReport!default.jspa?report=d7415a11-77fb-45b7-b9fb-902622c37a69&action=run)
-* NEW! – [ODP Time from Status to Status by FixVersion for the past year](https://projects.linaro.org/secure/DataplaneReport!default.jspa?report=5d2a40da-2d35-479c-a0c4-9a0d97270490)
+
