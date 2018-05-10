@@ -41,6 +41,19 @@ pages:
             url: /work/
           - text: Core Engineering
             url: /core/
+            options:
+                - text: Overview
+                  url: /core/
+                - text: Core Technologies & Tools
+                  url: /core/ctt/
+                - text: Toolchain
+                  url: /core/toolchain/
+                - text: Kernel
+                  url: /core/kernel/
+                - text: Power Management
+                  url: /core/power/
+                - text: Security
+                  url: /core/security/
           - text: Segment Groups
             url: /groups/
           - text: Lead Projects
