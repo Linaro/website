@@ -43,6 +43,9 @@ group_members:
       - name: Comcast
         image: comcast.jpg
         url: /company/comcast/
+      - name: Cypress
+        image: cypress.png
+        url: /company/cypress/
       - name: ENEA
         image: enea.jpg
         url: /company/enea/
