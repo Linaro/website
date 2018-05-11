@@ -149,7 +149,7 @@ We may, from time to time, send you email or direct mail regarding Our products 
 
 You also have the right to access (review, correct, amend or delete) your Data by contacting Us. Individuals are responsible for providing Linaro with accurate and complete personal information, and for contacting Us if correction of such information is required. Please note that, where permitted, We may charge a nominal fee for fulfilling access requests and that to the extent permitted by Law We reserve the right to disallow unreasonable requests for access.
 
-Please direct any questions concerning Linaro’s privacy practices or if you have any queries or requests in relation to your Data to [privacy@linaro.org](mailto:privacy@linaro.org) or Linaro Limited, Suite 220, The Quorum, Barnwell Road, Cambridge, CB5 8RE, United Kingdom. Requests to unsubscribe from (“opt-out”) of communications from Linaro may also be sent to unsubscribe at [privacy@linaro.org](mailto:privacy@linaro.org).
+Please direct any questions concerning Linaro’s privacy practices or if you have any queries or requests in relation to your Data to [privacy@linaro.org](mailto:privacy@linaro.org) or Linaro Limited, Harston Mill, Harston, Cambridgeshire, CB22 7GG, United Kingdom. Requests to unsubscribe from (“opt-out”) of communications from Linaro may also be sent to unsubscribe at [privacy@linaro.org](mailto:privacy@linaro.org).
 
 * * *
 
