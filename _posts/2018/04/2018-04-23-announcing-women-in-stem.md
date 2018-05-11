@@ -1,7 +1,7 @@
 ---
 title: Women in STEM - Month of May Collaboration
 author: linaro
-layout: featured-image-post
+layout: post
 date: 2018-04-19 01:01:54+00:00
 image:
    featured: true

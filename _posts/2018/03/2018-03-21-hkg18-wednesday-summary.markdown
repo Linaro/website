@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/Ecosystemday-original.jpg 
     name: Ecosystemday-original.jpg
-layout: featured-image-post
+layout: post
 ---
 # Highlights of Ecosystem Day at Linaro Connect HKG18
 

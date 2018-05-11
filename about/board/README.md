@@ -2,17 +2,17 @@
 title: Board of Directors
 description: |-
     Listing of Linaro's board of directors for the company.
-layout: default-no-sub-nav
+layout: container-breadcrumb
 permalink: /about/board/
 js-package: extended
-css-include: main-about
+css-package: about
 ---
 The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry positioning, key partnerships, membership, and funding.
 
 To maintain separation between long term objectives and nearer term development roadmaps, the Board looks to the Executive team and the Technical Steering Committee to apply development resources to projects based on the needs of members. The Board is made up of appointed individuals from each Core Member, a Club director representing the interests of all Club members and the CEO. More details can be found in the [Company’s Articles of Association](/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf) and [Rules of Membership](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf).
 
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
 ### **Guy Berruyer** / Linaro Chairman
 
 Guy assumed the post of Chairman at the Linaro Board meeting held on Thursday 8 October 2015\. Guy is a non-executive director of Meggitt plc since October 2012\. Guy retired from Sage in November 2014 after 4 years as group CEO. He joined Sage in 1997 to run its French operation. He was appointed to the Board of Directors in January 2000 as CEO for its Mainland Europe business and in 2005 also took charge of its Asian operations. Guy succeeded Paul Walker as Group Chief Executive in October 2010.
@@ -24,8 +24,8 @@ Prior to joining Sage he was Country Manager and then European Managing Director
 </div>
 </div>
 
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
 ### **George Grey** / Linaro CEO
 
 George has led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets.
@@ -35,9 +35,8 @@ George has led software and hardware technology companies for over 25 years, gai
 </div>
 </div>
 
-
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
 ### **Ian Ferguson** / Non-executive Director for ARM
 
 Ian Ferguson is vice president of corporate marketing at ARM. Ian joined ARM in 2007 as director of enterprise and embedded solutions. Within this role, Ian led a segment marketing group chartered with driving ARM technology into embedded applications such as automotive, smart grid and networking applications. He was promoted to vice president to lead ARM’s segment development in server systems and push into energy-efficient data centers. Following rapid success in these areas, he was promoted to lead all the segment teams in January 2013.
@@ -62,8 +61,8 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 </div>
 </div>
 
-<div class="container board_member">
-<div class="col-sm-9" markdown="1">
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
 ### **Rob Booth** / Linaro COO and Company Secretary
 
 Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.

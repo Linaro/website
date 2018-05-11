@@ -1,4 +1,3 @@
-
 @media (max-width: 767px) {
     ul#tabbed_nav > li {
         width: 100%;
@@ -11,7 +10,7 @@
         background-color: #fff;
     }
     #main-container .job-op>p {
-        line-height: 25px !important;
+        line-height: 25px;
     }
 }
 
@@ -32,7 +31,6 @@
         height: auto;
     }
 }
-
 .embed-responsive-16by9 {
     padding-bottom: 56.25%;
     margin-bottom: 25px;
@@ -126,7 +124,7 @@ article.post-content > .col-md-4 {
 
 a.btn.btn-linaro-home {
     border: 2px solid #fff;
-    color: #fff !important;
+    color: #fff;
     letter-spacing: 2px;
     border-radius: 1px;
     margin-top: 20px;
@@ -138,16 +136,16 @@ a.btn.btn-linaro-home {
 }
 a.btn.btn-linaro-home:hover {
     background-color: #fff;
-    color: #000 !important;
+    color: #000;
 }
 
 a.btn.btn-linaro-home.dark {
     border: 2px solid #000;
-    color: #000 !important;
+    color: #000;
 }
 a.btn.btn-linaro-home.dark:hover {
     background-color: #000;
-    color: #fff !important;
+    color: #fff;
 }
 
 .vcenter-img {
@@ -157,7 +155,7 @@ a.btn.btn-linaro-home.dark:hover {
 }
 
 .content-container h3 {
-    color: #9758b7 !important;
+    color: #9758b7;
 }
 .content-container a h3:hover {
     opacity: .8;
@@ -201,7 +199,7 @@ div#tabbed_nav_content > div.tab-pane {
 
 ul#tabbed_nav {
     border: 1px solid #eee;
-    margin-bottom:0 !important;
+    margin-bottom:0;
 }
 
 
@@ -248,12 +246,12 @@ a.btn.btn-social-icon:hover i {
 
 
 body {
-    font-family: Arial !important;
-    letter-spacing: 0 !important;
+    font-family: Arial;
+    letter-spacing: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Arial !important;
-    letter-spacing: 0 !important;
+    font-family: Arial;
+    letter-spacing: 0;
 }
 
 #main-container a:hover {
@@ -294,8 +292,8 @@ ul.nav.nav-pills.nav-stacked li:first-child {
 }
 
 .content-container ul {
-    color: #252525 !important;
-    font-size: 16px !important;
+    color: #252525;
+    font-size: 16px;
 }
 
 p {
@@ -309,17 +307,17 @@ ul {
 
 
 .container-fluid.content-container {
-    padding-top: 20px !important;
+    padding-top: 20px;
 }
 
 .content-container h1 {
-    color: #393836 !important;
-    font-size: 36px !important;
+    color: #393836;
+    font-size: 36px;
     margin-top: 0;
 }
 
 .content-container h1, .content-container h2, .content-container h3, .content-container h4, .content-container h5 {
-    color: #393836 !important;
+    color: #393836;
 }
 
 .social-col{
@@ -340,8 +338,8 @@ span.connect-darker-blue{
     font-weight:bold;
 }
 .content-container p {
-    font-size:16px !important;
-    color: #252525 !important;
+    font-size:16px;
+    color: #252525;
 }
 
 
@@ -475,7 +473,7 @@ a.carousel-control span.glyphicon-menu-right {
 }
 
 div.activity-container {
-    border:0 !important;
+    border:0;
 }
 
 .linaro-home-block{
@@ -486,11 +484,11 @@ div.activity-container {
 }
 
 .activity-holder .activity-block {
-    border:0 !important;
+    border:0;
     background: transparent;
 }
 .activity-block {
-    border: 0 !important;
+    border: 0;
     background: transparent;
     margin-top: 70px;
 }
@@ -569,11 +567,11 @@ p.linaro-home-block-text a:hover {
 }
 .activity-holder .activity-block {
     border: #fff 3px solid;
-    background: transparent !important;
+    background: transparent;
 }
 .activity-block {
-    margin-top: 0px !important;
-    background: transparent !important;
+    margin-top: 0px;
+    background: transparent;
 }
 
 
@@ -794,10 +792,4 @@ article.post-content {
 
 article.post-content > .col-md-8 {
     padding: 0;
-}
-
-.col-md-12.members-panel {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 0px;
 }

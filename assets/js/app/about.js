@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-  var owl = $(".timeline-carousel");
-  var orgCarousel = $(".organisation-carousel");
+  var timelineCarousel = $(".timeline-carousel");
   var officeCarousel = $(".office-carousel");
   var remoteTeamCarousel = $(".remote-team-carousel");
+  var orgCarousel = $(".organisation-carousel");
  
-  owl.owlCarousel({
+  timelineCarousel.owlCarousel({
       loop:false,
       margin:10,
       nav:true,
@@ -21,12 +21,12 @@ $(document).ready(function() {
               nav: true
           },
           733:{
-              items:4,
+              items:3,
               nav: true
 
           },
-          991:{
-              items:6,
+          1082:{
+              items:4,
               nav: true
 
           },
@@ -101,5 +101,4 @@ $(document).ready(function() {
           }
       }
   });
-
 });

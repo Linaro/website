@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 date: 2017-12-13 8:00:00+00:00
-layout: featured-image-post
+layout: post
 title: The Arm Ecosystem in Automotive
 categories:
 - blog

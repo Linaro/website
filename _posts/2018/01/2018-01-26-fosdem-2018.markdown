@@ -12,7 +12,7 @@ image:
     featured: true
     path: /assets/images/blog/linaro-fosdem-2018.jpg
     name: linaro-fosdem-2018.jpg
-layout: featured-image-post
+layout: post
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Authors
 permalink: /authors/
-layout: authors
+layout: container-breadcrumb
 pagination:
     title: "Authors - Page :num"
     enabled: true
@@ -11,7 +11,7 @@ pagination:
     trail:
         before: 4
         after: 4 
-css-include: main-blog
+css-package: blog
 ---
 {% for author in paginator.posts %}
 <div class="row blog_post">

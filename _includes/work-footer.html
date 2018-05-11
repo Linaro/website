@@ -1,0 +1,120 @@
+
+<div class="col-xs-12 work_footer">
+<hr />
+<div class="col-sm-4 work_footer_col">
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+          <a href="/core/">
+              <b>Core Engineering</b>
+          </a>
+      </li>
+      {% for core_group in site.core %}
+        {% if core_group.director %}
+          <li class="work_footer_li">
+            <a href="{{core_group.permalink}}">
+              {{core_group.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+          <a href="/groups/">
+              <b>Segment Groups</b>
+          </a>
+      </li>
+      {% assign groups = site.groups | sort: 'group_id' %}
+      {% for segment_group in groups %}
+        {% if segment_group.director %}
+          <li class="work_footer_li">
+            <a href="{{segment_group.permalink}}">
+              {{segment_group.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
+
+  <div class="col-sm-4 work_footer_col">
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+        <a href="/projects/">
+            <b>Lead Projects</b>
+        </a>
+      </li>
+      {% for lead_project in site.projects %}
+        {% if lead_project.project_id %}
+          <li class="work_footer_li">
+            <a href="{{lead_project.permalink}}">
+              {{lead_project.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-sm-4 work_footer_col">
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+        <a href="/initiatives/">
+            <b>Initiatives</b>
+        </a>
+      </li>
+      {% for initiative in site.initiatives %}
+        {% if initiative.initiative_id %}
+          <li class="work_footer_li">
+            <a href="{{initiative.permalink}}">
+              {{initiative.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-4 work_footer_col">
+
+
+
+
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+          <a href="/sig/">
+              <b>Special Interest Group (SIG)</b>
+          </a>
+      </li>
+      {% for sig in site.sig %}
+        {% if sig.sig_id %}
+          <li class="work_footer_li">
+            <a href="{{sig.permalink}}">
+              {{sig.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+<div class="col-sm-4 work_footer_col">
+    <ul class="list-unstyled">
+      <li class="work_footer_li">
+        <a href="/services/">
+            <b>Developer Services</b>
+        </a>
+      </li>
+      {% assign services = site.services | sort: 'service_id' %}
+      {% for service in services %}
+        {% if service.service_id %}
+          <li class="work_footer_li">
+            <a href="{{service.permalink}}">
+                {{service.title}}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
+</div>

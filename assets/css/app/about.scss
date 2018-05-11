@@ -22,10 +22,16 @@ div.about-page-text > .col-md-7.no-padding {
 div.about-page-text > .col-md-4.col-md-offset-1.did-you-know.no-padding > h2 {
     font-size: 16px;
     font-weight: bold;
+    
 }
 
 div#about-page {
     text-align: justify;
+}
+
+.homepage-shape svg {
+    top: 5px;
+    position: relative;
 }
 
 dt {
@@ -35,7 +41,7 @@ dt {
 }
 
 //Smallest mobile view
-@media(max-width:767px){
+@media(max-width:$screen-sm-min){
     .linaro-profile-image {
         float:none !important;
         margin-bottom: 10px !important;
@@ -62,10 +68,12 @@ span.date.lower {
 .owl-item:nth-child(odd) .timeline-item > .text-wrap{
     top: -155px;
     position:relative;
+    padding-top: 10px;
   }
 .owl-item:nth-child(even) .timeline-item > .text-wrap{
     top: 0;
     position: relative;
+    padding-top: 40px;
   }
 .timeline-bar {
     height: 5px;
@@ -85,10 +93,17 @@ a.btn.btn-primary.section-btn {
     font-size: 10px;
     letter-spacing: 2px;
     font-weight: bold;
-    background-color: #932194;
+    background-color: $brand-primary;
     border: none;
     outline: none;
+    color: white;
+    transition: all 1s ease;
 }
+#content-container a.btn.btn-primary.section-btn:hover {
+    background-color: #0e092a;
+    color: white;
+}
+
     
 .organisation-section {
     background-color:#fff;
@@ -110,6 +125,8 @@ a.btn.btn-primary.section-btn {
 
 .col-sm-4.linaro-office {
     padding:10px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .office{
@@ -153,21 +170,24 @@ body{
     color: #7b7b7b;
 }
 
-.remote-teams h5{
+#content-container .remote-teams h5{
     color: #fff;
     font-weight: bold;
 }
 
 
-.remote-teams ul {
+#content-container .remote-teams ul {
     padding-left: 0px;
     list-style: none;
+    color:white;
 }
     
-.row.employee-map h1 {
+#content-container .row.employee-map h1 {
     font-weight: bold;
     font-size: 54px;
-    color: #03CED6;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -181,12 +201,14 @@ body{
     background: -webkit-linear-gradient(top, #211153 0%,#0e092a 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #211153 0%,#0e092a 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211153', endColorstr='#2989d8',GradientType=0 ); /* IE6-9 */
-    padding-bottom:40px;
+    padding-bottom: 100px;
     padding-top: 20px;
 }
 
 svg#employee-map{
     padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.center.employee-map-text{
@@ -285,13 +307,6 @@ p.center.employee-map-text{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-body {
-  padding: 4em 0;
-  line-height: 1.4em;
-  background-color: #E8E8E8;
-}
-
 .timeline {
   padding-bottom: 3em;
 }
@@ -303,6 +318,7 @@ body {
   font-size: 26px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .timeline-carousel {
@@ -367,6 +383,7 @@ body {
 }
 .text-wrap > p{
     margin-bottom:0px;
+    font-size: 12px;
 }
 .text-wrap ul {
   margin: 0;
@@ -491,10 +508,6 @@ body {
     position: relative;
 }
 
-.owl-dots {
-    bottom: 0px;
-    position: absolute;
-}
 
 .owl-stage-outer {
     height: 300px;
@@ -528,8 +541,9 @@ body {
 }
 
 .organisation-carousel .owl-stage-outer {
-    height: 240px;
+    height: 280px;
 }
+    
 .remote-team-carousel .owl-stage-outer {
     height: 150px;
     width: 100%;
@@ -538,12 +552,26 @@ body {
     height: 150px;
     width: 100%;
 }
+.office-carousel.owl-carousel.visible-xs.owl-loaded.owl-drag {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#many-hands {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .row.about-content {
     background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .row.linaro-timeline {
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: #fcfcfc;
+    border-top: 1px solid #f3f0f0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,e8e8e8+100 */
     background: #fcfcfc; /* Old browsers */
     background: -moz-linear-gradient(top, #fcfcfc 0%, #e8e8e8 100%); /* FF3.6-15 */
@@ -559,28 +587,18 @@ body {
     margin-top:10px;
 }
 
-.owl-dots {
-    bottom: 0px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.owl-dot {
-     width: 10px;
-     height: 10px;
-     border-radius: 100%;
-     background: #ccc;
-     margin-right: 12px;
-     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
-}
-.owl-dot.active {
-     background: #93bf4f;
-}
-
-@media(max-width:500px){
+@media(max-width:$screen-sm-min){
+    
+    #jumbotron-text p.sub-tag {
+        width:100%;
+    }
+    
+    #content-container .row.employee-map h1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 48px;
+    }    
+    
     svg#employee-map {
         padding: 20px 0px;
     }
@@ -609,13 +627,10 @@ body {
         height: 10px;
     }
     
-    .owl-item:nth-child(odd) .timeline-item > .text-wrap{
+    #content-container .owl-item .timeline-item > .text-wrap{
         top: -100px;
         position:relative;
-    }
-    .owl-item:nth-child(even) .timeline-item > .text-wrap{
-        top: -100px;
-        position: relative;
+        padding-top:0px;
     }
 
     .timeline-carousel .text-wrap {
@@ -639,5 +654,43 @@ body {
 
 }
 
+#content-container .text-wrap p {
+    margin-bottom: 0px;
+}
+
+/* Featured Image Overlay - 50% opacity */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.overlay:before {
+    content: '';
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #000);
+    opacity: .5;
+}
 
 
+h1#about-page-title {
+    color:white;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+p#about-page-text {
+    color:white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+div#homepage-header {
+    background-position-y: -200px;
+    background-position-x: center;
+    background-size: cover;
+}

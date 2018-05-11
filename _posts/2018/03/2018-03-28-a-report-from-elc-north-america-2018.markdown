@@ -13,7 +13,7 @@ image:
     featured: true
     path: /assets/images/blog/elc-image.jpg 
     name: elc-image.jpg 
-layout: featured-image-post
+layout: post
 ---
 Participating in ELC North America 2018 has been productive and interesting, both for the main goal of my presentation and for hallway discussions.
 

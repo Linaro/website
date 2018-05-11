@@ -1,5 +1,5 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Sitemap
 description: |-
     Listing of all the sections and links of the Linaro website.

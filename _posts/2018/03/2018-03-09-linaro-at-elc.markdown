@@ -9,7 +9,7 @@ image:
   name: ELC-Image.png
   path: /assets/images/blog/ELC-Image.png
 keywords: "ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm"
-layout: featured-image-post
+layout: post
 published: true
 tags: "ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm"
 title: "Linaro at ELC"

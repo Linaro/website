@@ -1,8 +1,17 @@
-search: true
+# Search Config
+search:
+    enabled: true
+    label: Linaro
+    
+# Nav Brand Config
 brand:
     text: Linaro
-    image: Linaro-Logo.svg
+    image: 
+        enabled: true
+        name: linaro-svg.html
+        svg: true
     url: /
+    
 pages:
     - title: Home
       url: /
@@ -32,6 +41,19 @@ pages:
             url: /work/
           - text: Core Engineering
             url: /core/
+            options:
+                - text: Overview
+                  url: /core/
+                - text: Core Technologies & Tools
+                  url: /core/ctt/
+                - text: Toolchain
+                  url: /core/toolchain/
+                - text: Kernel
+                  url: /core/kernel/
+                - text: Power Management
+                  url: /core/power/
+                - text: Security
+                  url: /core/security/
           - text: Segment Groups
             url: /groups/
           - text: Lead Projects
@@ -54,7 +76,7 @@ pages:
       options:
           - text: "Hub"
             url: /hub/
-          - text: "Events"
+          - text: "Events Calendar"
             url: /hub/event-calendar/
           - text: News
             url: /news/

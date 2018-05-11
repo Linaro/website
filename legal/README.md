@@ -1,5 +1,5 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Legal
 description: |-
     Information about the legal policies of Linaro's website

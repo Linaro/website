@@ -16,7 +16,7 @@ tags:
 - ubuntu
 ---
 
-The [HiKey Lemaker edition powered by Huawei Kirin620 SoC](http://www.lemaker.org/blog-news-23.html) is now available with Ubuntu Core thanks to the collaboration of Canonical, Huawei and Lemaker. The enablement of Ubuntu Core makes this board the first 64-bit octa-core A53 ARMv8 community development board compatible with Linaro’s 96Boards CE specification.
+The HiKey Lemaker edition powered by Huawei Kirin620 SoC is now available with Ubuntu Core thanks to the collaboration of Canonical, Huawei and Lemaker. The enablement of Ubuntu Core makes this board the first 64-bit octa-core A53 ARMv8 community development board compatible with Linaro’s 96Boards CE specification.
 
 There will be a live demo of this board at this week’s OSCON in Austin - make sure to check out Huawei and Lemaker’s booth at 501 to see it! 
 

@@ -1,5 +1,5 @@
 ---
-layout: default-no-sub-nav
+layout: container-breadcrumb
 title: Linaro Security Downloads
 permalink: /downloads/security/
 image:

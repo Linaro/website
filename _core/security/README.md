@@ -5,7 +5,7 @@ description: |-
     The Linaro Security Working Group (SWG) mission is to support ARM Open Source Linux distributions on security related topics.
 keywords: OP-TEE, TEE, ARM, ARM-Trusted-Firmware, GlobalPlatform
 permalink: /core/security/
-director: Joakim Bech
+principal-engineer: Joakim Bech
 related_projects:
   - "5"
 related_initiatives:
