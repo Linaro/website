@@ -9,6 +9,9 @@ pages:
         title: Core Technologies & Tools
         url: /core/ctt/
       -
+        title: Toolchain
+        url: /core/toolchain/
+      -
         title: Kernel
         url: /core/kernel/
       -
@@ -20,7 +23,7 @@ pages:
       -
         title: Virtualization
         url: /core/virtualization/
-    urls: [/core/,/core/ctt/,/core/kernel/,/core/power/,/core/security/, /core/virtualization/]
+    urls: [/core/,/core/ctt/,/core/kernel/,/core/power/,/core/security/, /core/virtualization/, /core/toolchain/]
   -
     list:
       -
