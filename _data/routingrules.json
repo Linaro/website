@@ -45,7 +45,7 @@
     "^/blog/android-blog(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/community-blog(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/connect-update(/?|/index.html)$ /blog/$1 [R,L,NC]",
-    "^/blog/core-dump(/?|/index.html)$ /core/blog/$1 [R,L,NC]",
+    "^/blog/core-dump(/?|/index.html)$ /core/blog/ [R,L,NC]",
     "^/blog/hangouts-on-air-update(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/hardware-update(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/industry-blog(/?|/index.html)$ /blog/$1 [R,L,NC]",

@@ -219,6 +219,9 @@ lite_members:
        - name: Arm
          image: arm.jpg
          url: /company/arm/
+       - name: Cypress
+         image: cypress.png
+         url: /company/cypress/
        - name: Hisilicon
          image: hisilicon.jpg
          url: /company/hisilicon/
