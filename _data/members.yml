@@ -348,6 +348,9 @@ manufacturing_partners:
     - name: Global Scale
       image: GlobalScale.jpg
       url: /company/globalscale/
+    - name: Geniatech
+      image: geniatech.jpg
+      url: /company/geniatech/
     - name: Gumstix
       image: gumstix.jpg
       url: /company/gumstix/
