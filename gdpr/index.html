@@ -40,7 +40,8 @@ js-package: gdpr
     <div class="row" id="linaro-gdpr-row" style="">
         <div class="container">
             <div class="col-sm-6">
-                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'linarolife.jpg' %}" class="center-block lazyload img-responsive" />
+                <div id="linaro-gdpr-image" style="background-image: url('{% asset_path 'linaro-logo.png' %}');">
+                </div>
             </div>
             <div class="col-sm-6 no-padding">
                 <h2>Is Linaro GDPR compliant?</h2>
@@ -55,7 +56,6 @@ js-package: gdpr
     </div>
     <div class="row" id="linaro-gdpr-icons-row" style="">
         <div class="container">
-            <div class="row gdpr-info-row">
                 <div class="col-sm-4 gdpr-icon">
                     <span class="lazyload glyphicon glyphicon-user" aria-hidden="true"></span>
                 </div>
@@ -65,8 +65,6 @@ js-package: gdpr
                         Gain GDPR consent from people we interact with upon registration, application, etc.
                     </p>
                 </div>
-            </div>
-            <div class="gdpr-info-row">
                 <div class="col-sm-4 gdpr-icon">
                     <span class="lazyload glyphicon glyphicon-trash" aria-hidden="true"></span>
                 </div>
@@ -76,8 +74,6 @@ js-package: gdpr
                         Ensure that when someone deletes their account, we fully remove or completely anonymise any personally identifiable data.
                     </p>
                 </div>
-            </div>
-            <div class="gdpr-info-row">
             <div class="col-sm-4 gdpr-icon">
                 <span class="lazyload glyphicon glyphicon-wrench" aria-hidden="true"></span>
             </div>
@@ -86,7 +82,6 @@ js-package: gdpr
                 <p>
                     Ensure users have a clear channel of communication to request review and, where appropriate, manage/edit/delete personal data.
                 </p>
-            </div>
             </div>
         </div>
     </div>
