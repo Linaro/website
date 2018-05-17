@@ -50,12 +50,7 @@ div#about-gdpr-row {
     padding: 100px 0;
     background-color: #eee;
 }
-
 div#linaro-gdpr-row {
-    padding: 100px 0;
-}
-div#linaro-gdpr-icons-row {
-    background-color: #eee;
     padding: 100px 0;
 }
 div#linaro-gdpr-icons-row {
@@ -94,5 +89,15 @@ div#linaro-gdpr-image {
     div#linaro-gdpr-icons-row  .col-sm-8 {
         height: 200px;
         text-align: center;
+    }
+    
+    div#about-gdpr-row {
+        padding: 50px 0;
+    }
+    div#linaro-gdpr-row {
+        padding: 50px 0;
+    }
+    div#linaro-gdpr-icons-row {
+        padding: 50px 0;
     }
 }
