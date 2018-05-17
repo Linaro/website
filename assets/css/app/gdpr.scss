@@ -80,7 +80,9 @@ div#linaro-gdpr-image {
 }
 h2{
     text-align: center;
+    margin-bottom: 40px;
 }
+
 @media(max-width:$screen-sm-min){
     #header-row h1 {
         font-size: 7vw;
@@ -101,5 +103,8 @@ h2{
     }
     div#linaro-gdpr-icons-row {
         padding: 50px 0;
+    }
+    .row p {
+        text-align: center;
     }
 }
