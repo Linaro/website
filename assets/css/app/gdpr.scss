@@ -1,0 +1,35 @@
+div#header-row {
+    background-color: #99cc33;
+    opacity: .8;
+    padding: 200px 0;
+}
+
+#header-row h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align:  center;
+}
+
+#header-row p {
+    color: white;
+    text-align:  center;
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-gdpr-row img {
+    padding: 30px;
+    height: 300px;
+}
+
+@media(max-width:$screen-sm-min){
+    #header-row h1 {
+        font-size: 7vw;
+    }        
+    div#header-row {
+        padding: 100px 0;
+    }
+}
