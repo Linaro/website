@@ -78,7 +78,9 @@ div#linaro-gdpr-image {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+h2{
+    text-align: center;
+}
 @media(max-width:$screen-sm-min){
     #header-row h1 {
         font-size: 7vw;
