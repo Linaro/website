@@ -33,3 +33,23 @@ div#header-row {
         padding: 100px 0;
     }
 }
+
+div#footer-row {
+    padding: 200px 0;
+    background-color: #99cc33;
+    color: white;
+}
+
+#footer-row p {
+    color: white;
+    font-size: 24px;
+    text-align:  center;
+}
+#footer-row p a{
+    color: white;
+    text-decoration: underline;
+}
+
+#footer-row p a:hover{
+    text-decoration: none;
+}
