@@ -363,6 +363,9 @@ manufacturing_partners:
     - name: LeMaker
       image: lemaker.jpg
       url: /company/lemaker/
+    - name: NovTech
+      image: novtech.jpg
+      url: /company/novtech/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
