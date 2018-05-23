@@ -34,7 +34,7 @@ If you have not registered for Linaro Connect HKG18 already, you can [register h
 On that note, I look forward to meeting you all at HKG18!
 
 Dr Kanta Vekaria,
-Head of High Performance Computing, Linaro
+Director of High Performance Computing, Linaro
 
 [1]: https://www.nextplatform.com/2017/11/13/arm-benchmarks-show-hpc-ripe-processor-shakeup/
 
