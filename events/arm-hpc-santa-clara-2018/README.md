@@ -2,7 +2,7 @@
 title: Arm HPC Santa Clara 2018
 layout: default
 permalink: /events/arm-hpc-santa-clara-2018/
-css-package: arm-hpc
+css-package: arm-hpc-2018
 ---
 {% include breadcrumb.html %}
 
@@ -32,8 +32,7 @@ css-package: arm-hpc
 
 <div class="col-sm-6" markdown="1">
 
-**ARM HPC Workshop** _by RIKEN AICS and Linaro on 12-13th Dec 2017 – [Room 5A on 5F, Akihabara Hall, Tokyo](http://www.akibahall.jp/data/access_eng.html)._
-How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in Tokyo, to discuss the latest products, developments and open source software support. <span id="SPAN_7">Topics of focus are, but not limited to:</span>
+**ARM HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
 *   OS and Runtime
@@ -44,7 +43,7 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 **For End Users**: In the Arm HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
 
-**For Arm Members and Partners**: The Arm HPC Workshop is a two day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
+**For Arm Members and Partners**: The Arm HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
 
 **You can expect**:
 
@@ -56,29 +55,43 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 *   Cost (Free)
 *   Sponsorship options available
-*   Session slots available – (Complete the form on this page)
-
-[Information Page](https://linaro.co/hpc2017) (This page)
+*   Session slots available – (Complete the form [here](https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true))
 
 **Thanks to our sponsors**
 
-{% include image.html name="arm-hpc-workshop-japan_sponsors.png" alt="Arm HPC Workshop Japan Sponsors" class="center-block" lightbox_disabled="true" %}
+<div class="col-xs-6 col-sm-4" markdown="1">
+{% include image.html name="huawei.jpg" %}
+</div>
+<div class="col-xs-6 col-sm-4" markdown="1">
+{% include image.html name="linaro.jpg" %}
+</div>
 
 </div>
 
 <div class="col-sm-6">
 
-<div class="alert alert-arm-hpc" role="alert" markdown="1">
+<div id="eventbrite-widget-container-46288258427"></div>
 
-**Tickets are sold out for 2017 ARM HPC Workshop in Japan.**
+<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
-For more info contact marketing@linaro.org
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
 
-</div>  
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '46288258427',
+        iframeContainerId: 'eventbrite-widget-container-46288258427',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
 
 <hr>
-
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv" %}
 <hr />
 </div>
 </div>
