@@ -1,5 +1,5 @@
 ---
-title: Arm HPC Santa Clara 2018
+title: Arm HPC Workshop Santa Clara 2018
 layout: default
 permalink: /events/arm-hpc-santa-clara-2018/
 css-package: arm-hpc-2018
