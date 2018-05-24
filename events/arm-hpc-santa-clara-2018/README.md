@@ -31,7 +31,7 @@ css-package: arm-hpc-2018
 
 <div class="col-sm-6" markdown="1">
 
-**Arm Architecture HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
+**Arm Architecture HPC Workshop** __by Linaro and Huawei  on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
 *   OS and Runtime
