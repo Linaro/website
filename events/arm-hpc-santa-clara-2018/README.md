@@ -1,7 +1,7 @@
 ---
-title: Arm HPC Workshop Santa Clara 2018
+title: Arm Architecture HPC Workshop Santa Clara 2018
 layout: default
-permalink: /events/arm-hpc-santa-clara-2018/
+permalink: /events/arm-architecture-hpc-workshop-santa-clara-2018/
 css-package: arm-hpc-2018
 ---
 {% include breadcrumb.html %}
@@ -32,7 +32,7 @@ css-package: arm-hpc-2018
 
 <div class="col-sm-6" markdown="1">
 
-**Arm HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
+**Arm Architecture HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
 *   OS and Runtime
@@ -41,9 +41,9 @@ css-package: arm-hpc-2018
 *   Orchestration
 *   Machine Learning
 
-**For End Users**: In the Arm HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
+**For End Users**: In the Arm Architecture HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
 
-**For Arm Members and Partners**: The Arm HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
+**For Arm Members and Partners**: The Arm Architecture HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
 
 **You can expect**:
 
@@ -51,7 +51,7 @@ css-package: arm-hpc-2018
 *   Unique opportunities to network with current Arm users, vendors and the developer community
 *   We are looking forward to your visit!
 
-**Arm HPC Workshop**
+**Arm Architecture HPC Workshop**
 
 *   Cost (Free)
 *   Sponsorship options available
@@ -116,7 +116,7 @@ css-package: arm-hpc-2018
 
 <div class="row no-padding arm-hpc-row bottom">
     <div class="container">
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'banner-hpc-2018.png' %}" alt="Arm HPC Workshop Santa Clara" class="img-responsive lazyload center-block"/>
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'banner-hpc-2018.png' %}" alt="Arm Architecture HPC Workshop Santa Clara" class="img-responsive lazyload center-block"/>
     </div>
 </div>
 </div>
