@@ -55,7 +55,6 @@ css-package: arm-hpc-2018
 
 *   Cost (Free)
 *   Sponsorship options available
-*   Session slots available – (Complete the form [here](https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true))
 
 **Thanks to our sponsors**
 
