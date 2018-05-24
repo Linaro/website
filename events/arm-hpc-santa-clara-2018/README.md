@@ -32,7 +32,7 @@ css-package: arm-hpc-2018
 
 <div class="col-sm-6" markdown="1">
 
-**ARM HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
+**Arm HPC Workshop** __by Huawei and Linaro on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
 *   OS and Runtime
@@ -55,7 +55,6 @@ css-package: arm-hpc-2018
 
 *   Cost (Free)
 *   Sponsorship options available
-*   Session slots available – (Complete the form [here](https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true))
 
 **Thanks to our sponsors**
 
@@ -91,9 +90,21 @@ css-package: arm-hpc-2018
     });
 </script>
 
-<hr>
-<hr />
+<div id="call-for-papers">
+
+<h2>Call for Papers is <span>open</span></h2>
+<a href="https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
+<h3>Deadline for submissions 28th June</h3>
+
 </div>
+
+
+</div>
+
+
+
+
+
 </div>
 
 
