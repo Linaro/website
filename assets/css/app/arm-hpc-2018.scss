@@ -28,26 +28,43 @@
 }
 
 #call-for-papers{
-  padding:40px;
-  border:1px solid #6d6b6b;
-  text-align: center;
-  margin-top:60px;
-  color: white;
-  background-color: #1f3851;
-  -webkit-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
--moz-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
+    padding:40px;
+    border:1px solid #6d6b6b;
+    text-align: center;
+    margin-top:60px;
+    color: white;
+    background-color: #1f3851;
+    -webkit-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
+    -moz-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
+    box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
 }
-#call-for-papers h2, #call-for-papers h3{
-  font-size:20px;
-  margin-bottom:20px;
-  color: white;
+#call-for-papers h2 {
+    font-size:26px;
+    margin-bottom:20px;
+    color: white;
+    font-weight:normal;
 }
+ #call-for-papers h3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom:20px;
+ }
+ 
+ #call-for-papers h2 span {
+     color: #90a7b5;
+     font-weight: bold;
+ }
+
 
 /*
  BUTTON STYLING
 */
 
+@media(max-width:$screen-sm-min){
+    #call-for-papers .btn {
+      width: 100%;
+  }
+}
 .btn {
   position: relative;
   color: white;
