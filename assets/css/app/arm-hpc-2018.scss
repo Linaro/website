@@ -85,7 +85,7 @@
       font-size: 24px;
   }
 }
-.btn {
+#call-for-papers .btn {
   position: relative;
   color: white;
   width: 256px;
@@ -98,7 +98,7 @@
   }
 }
 
-.btn::before, .btn::after {
+#call-for-papers .btn::before, #call-for-papers .btn::after {
   content: '';
   position: absolute;
   transition: all 0.3s;
@@ -110,7 +110,7 @@
 }
 
 /* BTN TWO */
-.btn-two::before, .btn-two::after {
+#call-for-papers .btn-two::before, #call-for-papers .btn-two::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -122,15 +122,15 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.btn-two:hover::after {
+#call-for-papers .btn-two:hover::after {
   animation-name: rotatecw;
   animation-duration: 2s;
 }
-.btn-two:hover::before {
+#call-for-papers .btn-two:hover::before {
   animation-name: rotateccw; 
   animation-duration: 3s;
 }
-.btn-two:hover::after, .btn-two:hover::before {
+#call-for-papers .btn-two:hover::after, #call-for-papers .btn-two:hover::before {
   left: 96px;
   width: 64px;
   
