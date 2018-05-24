@@ -8,8 +8,8 @@ css-package: arm-hpc-2018
 
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
-    <div class="container">
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path 'banner-hpc-2018.png' %}" alt="Arm HPC Santa Clara Banner" class="img-responsive lazyload center-block"/>
+    <div class="container" style="background: url({% asset_path 'hpc.png' %});">
+        <h1>Arm Architecture HPC Workshop by Linaro and Huawei</h1>
     </div>
 </div>
 
