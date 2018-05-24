@@ -1,6 +1,6 @@
 //ARM HPC
 .row.no-padding.arm-hpc-row {
-    background-color: #1e3852;
+    background-color: #312541;
 }
 .row.no-padding.arm-hpc-row.top {
     margin-bottom: 30px;
@@ -8,7 +8,6 @@
 .row.no-padding.arm-hpc-row.bottom {
     margin-top: 30px;
 }
-
 .alert.alert-arm-hpc {
     background-color: #dff2fe;
 }
@@ -19,7 +18,7 @@
     font-size: 20px;
     color: white;
     line-height: 43px;
-    background-color:#1f3851;
+    background-color:#312541;
     border: 1px solid #000000;
 }
 #call-for-papers a.btn.btn-primary.btn-two.call-for-papers:hover {
@@ -33,7 +32,7 @@
     text-align: center;
     margin-top:60px;
     color: white;
-    background-color: #1f3851;
+    background-color: #312541;
     -webkit-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
     -moz-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
     box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
@@ -54,6 +53,12 @@
      color: #90a7b5;
      font-weight: bold;
  }
+ 
+ #content-container .arm-hpc-row.top .container {
+    height: 100px;
+    background-position: center center;
+    /* color: white; */
+}
 
 
 /*
