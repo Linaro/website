@@ -348,6 +348,9 @@ manufacturing_partners:
     - name: Global Scale
       image: GlobalScale.jpg
       url: /company/globalscale/
+    - name: Geniatech
+      image: geniatech.jpg
+      url: /company/geniatech/
     - name: Gumstix
       image: gumstix.jpg
       url: /company/gumstix/
@@ -360,6 +363,9 @@ manufacturing_partners:
     - name: LeMaker
       image: lemaker.jpg
       url: /company/lemaker/
+    - name: NovTech
+      image: novtech.jpg
+      url: /company/novtech/
     - name: Seeed
       image: seeed.jpg
       url: /company/seeed/
@@ -378,6 +384,9 @@ manufacturing_partners:
     - name: vamrs
       image: vamrs.jpg
       url: /company/vamrs/
+    - name: Witstek
+      image: witstek.png
+      url: /company/witstek/
     - name: Xunlong
       image: xunlong.jpg
       url: /company/xunlong/

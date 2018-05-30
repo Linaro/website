@@ -1,0 +1,111 @@
+div#header-row {
+    background-color: #99cc33;
+    opacity: .8;
+    padding: 200px 0;
+}
+
+#header-row h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align:  center;
+}
+
+#header-row p {
+    color: white;
+    text-align:  center;
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-gdpr-row img {
+    padding: 30px;
+    height: 300px;
+}
+
+
+div#footer-row {
+    padding: 200px 0;
+    background-color: #99cc33;
+    color: white;
+}
+
+#footer-row p {
+    color: white;
+    font-size: 24px;
+    text-align:  center;
+}
+#footer-row p a{
+    color: white;
+    text-decoration: underline;
+}
+
+#footer-row p a:hover{
+    text-decoration: none;
+}
+
+div#about-gdpr-row {
+    padding: 100px 0;
+    background-color: #eee;
+}
+div#linaro-gdpr-row {
+    padding: 100px 0;
+}
+div#linaro-gdpr-icons-row {
+    background-color: #eee;
+    padding: 100px 0;
+}
+
+div#linaro-gdpr-icons-row  .col-sm-8 {
+    height: 200px;
+}
+
+div#linaro-gdpr-icons-row  .col-sm-4.gdpr-icon {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#linaro-gdpr-icons-row  span.glyphicon {
+    margin-right: 80px;
+    color: #333333;
+}
+
+div#linaro-gdpr-image {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media(max-width:$screen-sm-min){
+    #header-row h1 {
+        font-size: 7vw;
+    }        
+    div#header-row {
+        padding: 100px 0;
+    }
+    div#linaro-gdpr-icons-row  .col-sm-8 {
+        height: 200px;
+        text-align: center;
+    }
+    
+    div#about-gdpr-row {
+        padding: 50px 0;
+    }
+    div#linaro-gdpr-row {
+        padding: 50px 0;
+    }
+    div#linaro-gdpr-icons-row {
+        padding: 50px 0;
+    }
+    .row p {
+        text-align: center;
+    }
+}
