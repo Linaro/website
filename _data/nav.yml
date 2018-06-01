@@ -14,10 +14,7 @@ brand:
         name: linaro-svg.html
         svg: true
     url: /
-    
 pages:
-    - title: Home
-      url: /
     - title: About
       options:
           - text: Linaro Overview
