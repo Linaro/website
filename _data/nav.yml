@@ -2,7 +2,10 @@
 search:
     enabled: true
     label: Linaro
-    
+
+# Universal Nav Bar Toggle
+universal-nav: true    
+
 # Nav Brand Config
 brand:
     text: Linaro
