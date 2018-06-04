@@ -4,7 +4,7 @@ title: Power Management
 description: |-
     The Power Management Working Group is tasked with creating infrastructure, guidelines and tools to enable superior power management on multiple ARM SoCs.
 keywords: EAS, DynamIQ, ARM, tools, power, energy, thermal, scheduler, big.LITTLE
-permalink: /core/power/
+permalink: /core/arm-power/
 tech-lead: Vincent Guittot
 related_projects:
   - "4"
@@ -12,17 +12,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZ
 redirect_from:
  - /core/kernel-power-management/
 ---
-# Power Management
-
-The Power Management Working Group is tasked with creating infrastructure, guidelines and tools to enable superior power management on multiple ARM SoCs.
-
-The Power Management Working Group was formed two months after Linaro was launched. In initial discussions, many members identified power management as an area to avoid collaborative working since it was seen as an area of major differentiation. As the Technical Steering Committee (TSC) meetings progressed, it quickly became apparent that the members had significant overlap in this area and the TSC decided to form a group to handle the Power Management work.
-
-ARM SoCs have a lot of hardware “knobs and dials” that software can use to control power consumption, but there is no hardware to operate system abstraction layer (such as ACPI) so the knobs and dials tend to be controlled directly by operating system drivers. Additionally, each SoC vendor exposes a superset of the standard ARM power states to allow fine-grained control over each component to maximize battery-life in mobile applications. This increases the complexity of the core SoC enablement code inside the kernel as well as the peripheral drivers.
-
-SoC vendors have naturally taken slightly different approaches to implementing their power management frameworks with differences arising for a number of reasons: a lack of available design patterns to achieve what they require; a lack of infrastructure support inside the kernel; and, on occasion, because of intrinsic differences in hardware structure.
-
-The Power Management Working Group’s goal is to identify design patterns that help with the implementation of the majority of the use-cases that vendors care about. To this end, the group looks at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption.
+{% remote_page  https://wiki.linaro.org/WorkingGroups/PowerManagement/ %}
 
 ###### RESOURCES
 
