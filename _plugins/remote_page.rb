@@ -20,7 +20,7 @@ module Jekyll
         doc = Nokogiri::HTML(open(parsed_url))
 
         #search the document for the HTML element you want
-        @fetched_content = doc.at_xpath("//div[@id='content']")
+        @fetched_content = doc.at_xpath("//div[@id='content' and @dir='ltr']")
       else
         raise 'Invalid URL passed to RemotePageInclude'
       end
