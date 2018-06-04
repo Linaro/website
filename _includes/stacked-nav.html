@@ -3,10 +3,19 @@
     {% assign page-base =  page.url | split:'/' %}
     {% for each in sub-nav-tabs %}
         {% for each-url in each.urls %}
-            {% if each-url == page.url or each.url == page-base[1] %}
-                {% assign tab-list = each.list %}
+            {% if each-url == page.url %}
+                {% if each.list %}
+                    {% assign tab-list = each.list %}
+                {% endif %}
+            {% elsif each.sub-pages-enabled %}
+                {% if page.url contains each-url %}
+                    {% assign tab-list = each.list %}
+                {% endif %}
             {% endif %}
         {% endfor %}
+        {% if each.custom-include %}
+            {% assign custom-include = each.custom-include %}
+        {% endif %}
     {% endfor %}
     {% if tab-list %}
         <ul class="nav nav-pills nav-stacked" id="stacked-nav">

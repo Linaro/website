@@ -27,6 +27,7 @@ pages:
         title: Virtualization
         url: /core/virtualization/
     urls: [/core/,/core/ctt/,/core/kernel/,/core/arm-power/,/core/security/, /core/virtualization/, /core/toolchain/]
+    sub-pages-enabled: true
   -
     list:
       -
