@@ -17,6 +17,9 @@ pages:
       -
         title: Power Management
         url: /core/arm-power/
+        sub-tabs:
+            - title: EAS
+              url: /core/arm-power/eas/
       -
         title: Security
         url: /core/security/
