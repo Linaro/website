@@ -9,8 +9,6 @@ tech-lead: Vincent Guittot
 related_projects:
   - "4"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib
-redirect_from:
- - /core/kernel-power-management/
 ---
 {% remote_page  https://wiki.linaro.org/WorkingGroups/PowerManagement/ %}
 
