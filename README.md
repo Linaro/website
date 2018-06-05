@@ -6,8 +6,6 @@ PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro
 
 
 ## Contributing
-
-
 ### Guides
 
 1. [Writing a post](#writing-post)
