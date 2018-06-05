@@ -3,10 +3,19 @@
     {% assign page-base =  page.url | split:'/' %}
     {% for each in sub-nav-tabs %}
         {% for each-url in each.urls %}
-            {% if each-url == page.url or each.url == page-base[1] %}
-                {% assign tab-list = each.list %}
+            {% if each-url == page.url %}
+                {% if each.list %}
+                    {% assign tab-list = each.list %}
+                {% endif %}
+            {% elsif each.sub-pages-enabled %}
+                {% if page.url contains each-url %}
+                    {% assign tab-list = each.list %}
+                {% endif %}
             {% endif %}
         {% endfor %}
+        {% if each.custom-include %}
+            {% assign custom-include = each.custom-include %}
+        {% endif %}
     {% endfor %}
     {% if tab-list %}
         <ul class="nav nav-pills nav-stacked" id="stacked-nav">
@@ -28,6 +37,15 @@
 
                     </a>
                 </li>
+                {% if tab.sub-tabs %} 
+                    {% for sub-tab in tab.sub-tabs %}
+                        <li class="{% if page-base[1] == sub-tab.base  %}active {% elsif page.url == sub-tab.url or sub-tab.active %}active {% endif %}side-nav-button sub-page">
+                            <a href="{{sub-tab.url}}" role="link">
+                                {{ sub-tab.title}} {% if sub-tab.external %}<i class="glyphicon glyphicon-new-window pull-right"></i>{% endif %}
+                            </a>
+                        </li>
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
         </ul>
     {% endif %}
@@ -43,4 +61,6 @@
             </a>
         </li>
 </ul>
+{% else %}
+Sub Nav not included
 {% endif %}
