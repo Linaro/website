@@ -543,11 +543,10 @@ div.blogs_home_block_post.hpc:hover {
 }
 
 #homepage-header p#buttons a:hover{
-    background-color: #232323;
     font-weight:normal;
     margin-bottom: 50px;
 }
-#homepage-header span.linaro-green {
+#homepage-header #home-page-text {
     top:20px;
     font-size: 68px;
     font-weight:bold;
@@ -556,11 +555,13 @@ div.blogs_home_block_post.hpc:hover {
 }
 
 @media(max-width:$screen-sm-min){
+    h1#home-page-title.white {
+        font-size: 28px;
+    }
     
-    #homepage-header span.linaro-green {
+    #homepage-header #home-page-text {
         top:20px;
         font-size: 42px;
-        background-color:$brand-primary;
         position:relative;
     }
     
