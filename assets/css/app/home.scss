@@ -534,7 +534,7 @@ div.blogs_home_block_post.hpc:hover {
     margin-bottom: 25px;
 }
 #homepage-header p#buttons a {
-    background-color: #a07fb7;
+    background-color: $brand-primary;
     color: #fff !important;
     font-weight:normal;
     margin-bottom: 50px;
@@ -552,7 +552,7 @@ div.blogs_home_block_post.hpc:hover {
     font-size: 68px;
     font-weight:bold;
     position:relative;
-    text-shadow: #6f6f6f 1px 1px 7px;
+    text-shadow: #000 1px 1px 7px;
 }
 
 @media(max-width:$screen-sm-min){
@@ -560,6 +560,7 @@ div.blogs_home_block_post.hpc:hover {
     #homepage-header span.linaro-green {
         top:20px;
         font-size: 42px;
+        background-color:$brand-primary;
         position:relative;
     }
     
