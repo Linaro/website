@@ -32,10 +32,10 @@ I’m going to call this project _joffee_ for no particular reason (Java Coffee?
 
 Code for this example will be hosted in the following github repositories:
 
-_framework/base --_ [_https://github.com/jmondi/framework_base_joffee_](https://github.com/jmondi/framework_base_joffee)
+_framework/base --_ [_https://github.com/jmondi/framework_base_joffee_]()https://github.com/jmondi/framework_base_joffee
 
 
-_HAL --_ [_https://github.com/jmondi/hardware_joffee_](https://github.com/jmondi/hardware_joffee)
+_HAL --_ [_https://github.com/jmondi/hardware_joffee_]()https://github.com/jmondi/hardware_joffee
 
 ### **Pre:**
 
@@ -65,11 +65,11 @@ Also, “Appendix A” of _Embedded Android_ provides an in-depth analysis of HA
 
 Even if you are expected to know what a HAL object is and what it does, it is interesting to spend a few word on HAL loading mechanism, and how you should make your HAL object available to the rest of Android system, but first, lets’ take a look at the three components we need here:
 
-_Android.mk --_ [_https://github.com/jmondi/hardware_joffee/blob/master/Android.mk_](https://github.com/jmondi/hardware_joffee/blob/master/Android.mk)
+_Android.mk --_ [_https://github.com/jmondi/hardware_joffee/blob/master/Android.mk_]()https://github.com/jmondi/hardware_joffee/blob/master/Android.mk
 
 The make target for our HAL is pretty simple; it instructs the build system on where to put the resulting .so object (_system/lib/hw)_ and that we want to append the target hardware name to the library name (_joffee.tegra.so_ in our case). Everything else is pretty straightforward!
 
-_joffee.h --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.h](https://github.com/jmondi/hardware_joffee/blob/master/joffee.h)
+_joffee.h --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.h]()https://github.com/jmondi/hardware_joffee/blob/master/joffee.h
 
 The header represents the “contract” between the JNI/Java part of Android system with the HW specific part (the HAL). Respecting this “contract” guarantees that Android can run on every hardware for which the proper set of HALs have been implemented with little or no modifications (that’s the theory, at least).
 
@@ -79,7 +79,7 @@ The first field of this structure (_struct joffee_device_t_ in our example) has 
 
 Let’s see why, in the actual HAL implementation:
 
-_joffee.cpp --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp](https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp)
+_joffee.cpp --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp]()https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp
 
 This cpp (or C) module is the actual HAL implementation, where methods for accessing your hardware have to be implemented. We know that the resulting .so will be placed somewhere in _system/lib/hw,_ but how is loading of this specific object performed in Android?
 
@@ -105,13 +105,13 @@ We’ll start our new service from the bottom, that is the connection between th
 
 Each service that communicates with an HAL needs a way to interface to native code, and the Java programming language provides a tool which allows native code to be executed from Java programs (and the other way around).
 
-The path of the JNI service directory is then -- [_frameworks/base/services/core/jni/_](https://github.com/jmondi/framework_base_joffee/tree/master/services/core/jni)
+The path of the JNI service directory is then -- [_frameworks/base/services/core/jni/_]()https://github.com/jmondi/framework_base_joffee/tree/master/services/core/jni
 
 where a series of cpp files, named with naming scheme resembling the service packages they are loaded by is present.
 
 We are going to implement the _JoffeeService_ service, thus out JNI file will be called _com_android_server_joffeeService.cpp_
 
-[https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp](https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp)
+[https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp]()https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp
 
 We are exposing here two functions, one called at service startup and one that wraps the HAL method we want to use from Java.
 
@@ -119,7 +119,7 @@ In the init method we see the HAL loading mechanism in action, as it has been de
 
 The HAL object gets loaded, then, once we do have a pointer to its _open_ method, the _joffee_device_t_ structure gets filled with pointers to the HAL functions, so we can call them knowing the ‘contract’ specified by the header file _joffee.h;_
 
-We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify _[services/core/jni/Android.mk](https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/Android.mk)_ to add the new JNI source file and _[services/core/jni/onload.cpp](https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/onload.cpp)_ to call the method table registration.
+We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify _[services/core/jni/Android.mk]()_ https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/Android.mk to add the new JNI source file and _[services/core/jni/onload.cpp]()_ https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/onload.cpp to call the method table registration.
 
 * * *
 
@@ -177,13 +177,13 @@ Android provides a set of tools which generates the necessary plumbing to connec
 
 Let’s start with I_JoffeeService.aidl_
 
-[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl](https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl)
+[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl]()https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl
 
 Interfaces get defined in the application facing part of the system, because they have to be visible to managers and application, we have prepared a directory for our interface in
 
-_[frameworks/base/core/java/android/joffee/](https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee)_ and modified the[ Android.mk](https://github.com/jmondi/framework_base_joffee/blob/master/Android.mk) accordingly.
+_[frameworks/base/core/java/android/joffee/]()_ https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee and modified the[ Android.mk]()https://github.com/jmondi/framework_base_joffee/blob/master/Android.mk accordingly.
 
-Once we have defined an AIDL we have to implement the “real” service which will realize the above defined interface. Services are the “right” side of the Binder and reside in [_frameworks/base/services/core/java/com/android/server_](https://github.com/jmondi/framework_base_joffee/tree/master/services/core/java/com/android/server/joffee) Again we have prepared there a directory here to host our joffee service.
+Once we have defined an AIDL we have to implement the “real” service which will realize the above defined interface. Services are the “right” side of the Binder and reside in [_frameworks/base/services/core/java/com/android/server_]()https://github.com/jmondi/framework_base_joffee/tree/master/services/core/java/com/android/server/joffee Again we have prepared there a directory here to host our joffee service.
 
 Let’s start from the basic here; since Android services are all started by the main system service, they have to extend the same super class, which is, with no surprise, _SystemService._
 
@@ -275,10 +275,10 @@ Associated with each service, there usually is a so-called Manager (services are
 Our manager will use the remote services interface, and will not do anything particularly useful. In “real” use cases, managers take care of delivering notifications, filtering intents, and check permissions. In some cases managers tie directly into jni when HW access is performed directly from Java (eg. USB device)
 
 
-Manager will be placed in -- _[frameworks/base/core/java/android/joffee](https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee)_ in the _android.joffee_ package, where we put the AIDL interface of our service;
+Manager will be placed in -- _[frameworks/base/core/java/android/joffee]()_ https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee in the _android.joffee_ package, where we put the AIDL interface of our service;
 
 Implementation is trivial, as the service exposes a single method, which we wrap in what will become part of our new system API
-[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java](https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java)
+[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java]() https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java
 
 
 The implementation also contains some pointers to how you can _hide_ methods from appearing in the public SDK using decorators and JavaDoc, take a look at other managers to see how they use them.
@@ -303,7 +303,7 @@ _Again, have a look at input or USB managers to see how you can define and regis
 
 Once we have implemented both managers and service, we need a way to retrieve them from application, and start calling their methods.  The default way to retrieve a manager instance is to use the _getSystemService_ method, providing the right identifier.
 
-We need to register in the execution context our new service and our manager in order to be able to retrieve them later, and we have to do that in [_frameworks/base/core/java/android/app/ContextImpl.java_](https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/app/ContextImpl.java)
+We need to register in the execution context our new service and our manager in order to be able to retrieve them later, and we have to do that in [_frameworks/base/core/java/android/app/ContextImpl.java_]() https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/app/ContextImpl.java
 
 ```java
 

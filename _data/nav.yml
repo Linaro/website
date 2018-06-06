@@ -51,7 +51,7 @@ pages:
                 - text: Kernel
                   url: /core/kernel/
                 - text: Power Management
-                  url: /core/power/
+                  url: /core/arm-power/
                 - text: Security
                   url: /core/security/
           - text: Segment Groups

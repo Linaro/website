@@ -16,14 +16,18 @@ pages:
         url: /core/kernel/
       -
         title: Power Management
-        url: /core/power/
+        url: /core/arm-power/
+        sub-tabs:
+            - title: EAS
+              url: /core/arm-power/eas/
       -
         title: Security
         url: /core/security/
       -
         title: Virtualization
         url: /core/virtualization/
-    urls: [/core/,/core/ctt/,/core/kernel/,/core/power/,/core/security/, /core/virtualization/, /core/toolchain/]
+    urls: [/core/,/core/ctt/,/core/kernel/,/core/arm-power/,/core/security/, /core/virtualization/, /core/toolchain/]
+    sub-pages-enabled: true
   -
     list:
       -
