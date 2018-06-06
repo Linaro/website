@@ -83,10 +83,21 @@ svg.mk-svg-icon.work {
 .col-sm-6.col-md-3.text-center.work_icon_col {
     padding: 70px;
 }
+
+.about-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid $brand-primary;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 .about-icon.work:hover svg.mk-svg-icon.work{
     opacity: .8;
 }
-
 
 .about-icon.work:hover + a{
     opacity: 1;
