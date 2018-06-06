@@ -14,10 +14,7 @@ brand:
         name: linaro-svg.html
         svg: true
     url: /
-    
 pages:
-    - title: Home
-      url: /
     - title: About
       options:
           - text: Linaro Overview
@@ -54,7 +51,7 @@ pages:
                 - text: Kernel
                   url: /core/kernel/
                 - text: Power Management
-                  url: /core/power/
+                  url: /core/arm-power/
                 - text: Security
                   url: /core/security/
           - text: Segment Groups

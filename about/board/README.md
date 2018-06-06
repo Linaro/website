@@ -49,7 +49,7 @@ Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and Q
 </div>
 </div>
 
-<div class="container board_member">
+<div class="container board_member no-padding">
 <div class="col-sm-9" markdown="1">
 ### **Eric Finco** / STMicroelectronics
 

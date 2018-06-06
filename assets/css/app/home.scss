@@ -534,7 +534,7 @@ div.blogs_home_block_post.hpc:hover {
     margin-bottom: 25px;
 }
 #homepage-header p#buttons a {
-    background-color: #a07fb7;
+    background-color: $brand-primary;
     color: #fff !important;
     font-weight:normal;
     margin-bottom: 50px;
@@ -543,24 +543,27 @@ div.blogs_home_block_post.hpc:hover {
 }
 
 #homepage-header p#buttons a:hover{
-    background-color: #232323;
     font-weight:normal;
     margin-bottom: 50px;
 }
-#homepage-header span.linaro-green {
+#homepage-header #home-page-text {
     top:20px;
     font-size: 68px;
     font-weight:bold;
     position:relative;
-    text-shadow: #6f6f6f 1px 1px 7px;
+    text-shadow: #000 1px 1px 7px;
 }
 
 @media(max-width:$screen-sm-min){
+    h1#home-page-title.white {
+        font-size: 28px;
+    }
     
-    #homepage-header span.linaro-green {
+    #homepage-header #home-page-text {
         top:20px;
         font-size: 42px;
         position:relative;
+        line-height: 40px;
     }
     
 }
@@ -568,3 +571,6 @@ p#buttons {
     margin-top: 40px;
 }
 
+div#featured-jumbotron {
+    margin-bottom: $navbar-height + 20;    
+}

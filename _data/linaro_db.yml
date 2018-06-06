@@ -17,7 +17,7 @@ core_engineering_groups:
     #related_projects:
     #related_initiatives:
   - ce_group_name: Power Management
-    ce_permalink: /core/power/
+    ce_permalink: /core/arm-power/
     ce_director: Vincent Guittot
     #related_projects:
     #related_initiatives:

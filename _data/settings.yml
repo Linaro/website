@@ -52,7 +52,7 @@ home:
             # then change this setting to false.
             darken: true
             # This is the name of the background-image located in /assets/images/
-            name: linaro-home-v2.jpg
+            name: hkg18-tech-banner.jpg
         # image: devicetree-icon-white.png
 
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube

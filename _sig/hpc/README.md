@@ -3,6 +3,7 @@ sig_id: 1
 title: High Performance Computing (HPC)
 permalink: /sig/hpc/
 director: Kanta Vekaria
+tech-lead: Renato Golin
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv
 members_key: hpc_members
 group_long_name: High Performance Computing (HPC)
@@ -13,7 +14,7 @@ icon: hpc-icon.svg
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/ztRPGcumfeBoru" %}
 
-The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of Arm in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include Arm, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
+The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of Arm in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include Arm, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HXT. CERN and Riken are on the advisory board.
 
 ## Key Deliverables
 
