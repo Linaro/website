@@ -794,13 +794,4 @@ article.post-content > .col-md-8 {
     padding: 0;
 }
 
-// Adjust the position of the nav bar to account of the universal nav
-nav#main-navigation {
-    margin-top: 31px;
-}
 // Adjust the margin of the main wrapper to move all content down for the univeral nav addition
-#wrapper.main {
-    overflow-x: hidden;
-    margin-top: 96px;
-}
-
