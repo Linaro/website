@@ -38,7 +38,7 @@ Canonical, creators of the renowned Ubuntu distribution, and Arm saw the need to
 
 <!-- more -->
 
-Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/Arm/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/Arm/LucidReleaseNotes) even added support for a third Arm platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](/) fits into the story.
+Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackalope/ReleaseNotes)" was the first Ubuntu release supporting Freescale's iMX51 and Marvell's Dove platforms. This distribution was further refined in the 9.10 [Karmic Koala](https://wiki.ubuntu.com/ARM/KarmicReleaseNotes) release and 10.04, [Lucid Lynx](https://wiki.ubuntu.com/ARM/LucidReleaseNotes) even added support for a third Arm platform, TI's [Beagle Board](http://beagleboard.org/). With a completely redesigned user interface, a web based office solution and many [more improvements](), Lucid is a magnificent release; however there is still a need for a more consolidated effort. This is where [Linaro](/) fits into the story.
 
 
 ## What is Linaro?

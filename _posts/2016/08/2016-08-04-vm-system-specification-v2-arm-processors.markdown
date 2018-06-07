@@ -18,6 +18,6 @@ tags:
 Christoffer Dall, Virtualization Tech Lead
 Version 2.0, Last Revised: April 4th, 2016
 
-[Download PDF](/app/resources/WhitePaper/VMSystemSpecificationForArm-v2.0.pdf)
+[Download PDF](/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf)
 
 The goal of this specification is to provide a set of guidelines for both guest Operating System (OS) images and hypervisor implementations for Arm processors, such that building OS images according to the guidelines in this specification guarantees that those images can also run on hypervisors compliant with this specification.
