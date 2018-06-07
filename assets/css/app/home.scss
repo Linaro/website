@@ -440,6 +440,9 @@ div#latest-news-row {
 
 .row.group_header {
     background-color: #424242;
+    box-shadow: 
+        inset 0px 11px 8px -10px #1e1e1e,
+        inset 0px -11px 8px -10px #1e1e1e; 
     padding: 0;
     padding-top: 15px;
     height: 80px;
