@@ -34,9 +34,7 @@ module Jekyll
               end
             end
           end
-          
-        puts doc.to_html
-        
+                  
         #search the document for the HTML element you want
         @fetched_content = doc.at_xpath("//div[@id='content' and @dir='ltr']")
 
