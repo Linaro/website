@@ -425,6 +425,9 @@ div#groups_home_block {
     padding-bottom: 50px;
     padding-top: 50px;
     background-color: #d4d4d4;
+    box-shadow: 
+            inset 0px 11px 8px -10px #aaaaaa,
+            inset 0px -11px 8px -10px #aaaaaa; 
 }
 div#featured-slider-row {
     padding-bottom: 70px;
