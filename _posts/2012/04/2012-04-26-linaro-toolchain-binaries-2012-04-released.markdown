@@ -16,7 +16,7 @@ The Linaro Toolchain Working Group is pleased to announce the 2012.04 release o
 
 Uses include:
 
-  * Cross compiling ARM applications from your laptop
+  * Cross compiling Arm applications from your laptop
 
 
   * Remote debugging

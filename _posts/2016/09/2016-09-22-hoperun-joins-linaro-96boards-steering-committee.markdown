@@ -22,7 +22,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 - software
@@ -33,9 +33,9 @@ wordpress_id: 11582
 
 Cambridge, UK: 22 September 2016
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the ARM® architecture, announced today that Jiangsu HopeRun Software has joined the 96Boards initiative as a Steering Committee member. This new collaboration allows HopeRun to cooperate with 96Boards Manufacturing Partners and SoC vendors to market products under the 96Boards brand and influence the development of the 96Boards specifications and initiative.
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, announced today that Jiangsu HopeRun Software has joined the 96Boards initiative as a Steering Committee member. This new collaboration allows HopeRun to cooperate with 96Boards Manufacturing Partners and SoC vendors to market products under the 96Boards brand and influence the development of the 96Boards specifications and initiative.
 
-96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on ARM technology. HopeRun provides software solutions and services internationally with a focus on offshore software outsourcing, mobile phone software and GIS systems. HopeRun will be able to leverage 96Boards to provide its services across a broader range of SoC solutions and provide consistent support that benefits from the platform standardization provided by the initiative.
+96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology. HopeRun provides software solutions and services internationally with a focus on offshore software outsourcing, mobile phone software and GIS systems. HopeRun will be able to leverage 96Boards to provide its services across a broader range of SoC solutions and provide consistent support that benefits from the platform standardization provided by the initiative.
 
 “96Boards has already brought us opportunities to explore new projects with potential partners” said ZhongYi, General Manager of HopeRun Smart Terminal BG. “We will be attending Linaro Connect LAS16 to meet with the other 96Boards members and Linaro community and we’re looking forward to working on our own 96Boards platforms and expanding our customer base.”
 
@@ -44,7 +44,7 @@ The 96Boards steering committee now includes more than ten companies who are wor
 “HopeRun joining as a Steering Committee member brings additional software expertise into an already strong 96Boards steering committee,” said Yang Zhang, Director of 96Boards.  “HopeRun has established a reputation for producing reliable software solutions for a range of global customers and we’re excited to work with them to bring their experience into the 96Boards initiative.”
 
 **About Linaro**
-Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [ ]()and [http://www.96Boards.org](http://www.96Boards.org).
 

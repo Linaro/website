@@ -15,14 +15,14 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Linaro Connect Budapest 2017 - Week in Review
 wordpress_id: 12257
 ---
 
-The [Linaro Connect](http://connect.linaro.org/) Budapest 2017 (BUD17) marked the 21st Linaro Connect since 2010.  Linaro Connect Budapest was a five-day event with over 400 attendees and was packed full of keynotes by industry leaders, talks, training, meetings, hacking and a lot of socializing fun. It is the conference for anyone interested in Linux development and related ecosystems on ARM and brings together the best and the brightest of the Linux on ARM community. The first day of the event began with a keynote by Linaro's CEO, George Grey and many announcements. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on ARM. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on ARM. Finally George announced that [Acer joined Linaro’s IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products.
+The [Linaro Connect](http://connect.linaro.org/) Budapest 2017 (BUD17) marked the 21st Linaro Connect since 2010.  Linaro Connect Budapest was a five-day event with over 400 attendees and was packed full of keynotes by industry leaders, talks, training, meetings, hacking and a lot of socializing fun. It is the conference for anyone interested in Linux development and related ecosystems on Arm and brings together the best and the brightest of the Linux on Arm community. The first day of the event began with a keynote by Linaro's CEO, George Grey and many announcements. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on Arm. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on Arm. Finally George announced that [Acer joined Linaro’s IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products.
 
 The week of sessions included many different tracks that attendees could attend, with each day focused on a particular segment within Linaro. Along with all the sessions and hacking there was also the traditional demo Friday that was held to showcase all the hard work that was done by the various teams over the last several months. Attendees were able to enjoy lunch while wandering the exhibit hall full of demos by both Linaro and it's member companies.
 
@@ -57,7 +57,7 @@ Christophe Arviset, who is Head of the Data and Engineering Division at ESA’s 
 
 Björn Ekelund, who is Head of Hardware and Device Technology at Ericsson Research. Mr. Ekelund’s keynote was titled: Human communication, a niche use case in 5G. He spoke about how the fifth generation mobile communications network is optimized for connected and intelligent machines. [Watch the keynote ](http://connect.linaro.org/resource/bud17/bud17-300k1/)
 
-David Abdurachmanov, who is part of Compact Muon Solenoid (CMS) experiment at CERN in Geneva, Switzerland, and Jakob Blomer, a computer scientist in the scientific software group at CERN in Geneva. They gave a keynote titled: High Energy Physics and ARMv8 64-bit? Investigating The Future of Computing at CERN. Their talk contained information about future (a timeline of 10 years) computation needs for LHC experiments and the more recent progress done by ATLAS, CernVM and CMS teams on using ARMv8 64-bit/AArch64. [Watch the keynote](http://connect.linaro.org/resource/bud17/bud17-300k2/)
+David Abdurachmanov, who is part of Compact Muon Solenoid (CMS) experiment at CERN in Geneva, Switzerland, and Jakob Blomer, a computer scientist in the scientific software group at CERN in Geneva. They gave a keynote titled: High Energy Physics and Armv8 64-bit? Investigating The Future of Computing at CERN. Their talk contained information about future (a timeline of 10 years) computation needs for LHC experiments and the more recent progress done by ATLAS, CernVM and CMS teams on using Armv8 64-bit/AArch64. [Watch the keynote](http://connect.linaro.org/resource/bud17/bud17-300k2/)
 
 * * *
 
@@ -94,7 +94,7 @@ Below are the sessions held by each of the Linaro Segment teams during the week 
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-426/](http://connect.linaro.org/resource/bud17/bud17-426/)
 
   * **Ubuntu Core bring up on 96Boards - BUD17-426**
-    * This session will cover lessons learned in bringing up the Dragonboard and other ARM devices.
+    * This session will cover lessons learned in bringing up the Dragonboard and other Arm devices.
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-425/](http://connect.linaro.org/resource/bud17/bud17-425/)
 
   * **Mezzanine workshop - BUD17-504**
@@ -119,24 +119,24 @@ Below are the sessions held by each of the Linaro Segment teams during the week 
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-121/](http://connect.linaro.org/resource/bud17/bud17-121/)
 
 
-  * **ARM Server Standards: The Next Generation - BUD17-201**
+  * **Arm Server Standards: The Next Generation - BUD17-201**
     * We have recently achieved a critical milestone of having core enablement for SBSA (Server Base System Architecture) and SBBR (Server Base Boot Requirements) in upstream kernels "out of the box".
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-201/](http://connect.linaro.org/resource/bud17/bud17-201/)
 
   * **Updates on Server Base System Architecture and Boot Requirements - BUD17-205**
-    * This session will provide updates to the ARM Server Base System Architecture and Boot Requirements (SBSA/SBBR) as well as their validation programs.
+    * This session will provide updates to the Arm Server Base System Architecture and Boot Requirements (SBSA/SBBR) as well as their validation programs.
     * Presentations & Videos: [ http://connect.linaro.org/resource/bud17/bud17-205/](http://connect.linaro.org/resource/bud17/bud17-205/)
 
-  * **Reliability, Availability, and Serviceability (RAS) on ARM64 - BUD17-209**
+  * **Reliability, Availability, and Serviceability (RAS) on Arm64 - BUD17-209**
     * The RAS architecture base on RAS extension, SDEI, APEI.
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-209/](http://connect.linaro.org/resource/bud17/bud17-209/)
 
-  * **libvirt integration and testing for enterprise KVM/ARM - BUD17-213**
+  * **libvirt integration and testing for enterprise KVM/Arm - BUD17-213**
     * This technical discussion will highlight on-going Red Hat activities for the integration of an Enterprise Virtualization stack and present a vision of an enterprise guest. The status of features such as live migration, device assignment, H52PCIe topology, large guest support, and more will be presented. The status will cover the integration up to the libvirt level of the stack, and exhibit that components above libvirt can ""just work"", even when development, to this time, has been predominately focused on other architectures. As feature parity with x86 is a goal, the remaining gaps with x86 wil also be highlighted. Finally, the status of the verification efforts, specifically those involving the Avocado and kvm-unit-tests frameworks, will be presented.
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-213/](http://connect.linaro.org/resource/bud17/bud17-213/)
 
   * **Cross distro BoF - BUD17-311**
-    * Regular session taking place at Connect for developers working on Linux distributions to share progress on ARM Linux platform support. Users are also welcome to share their experiences using Linux
+    * Regular session taking place at Connect for developers working on Linux distributions to share progress on Arm Linux platform support. Users are also welcome to share their experiences using Linux
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-311/](http://connect.linaro.org/resource/bud17/bud17-311/)
     
   * **DynInst on arm64 - Status - BUD17-323**
@@ -148,8 +148,8 @@ Below are the sessions held by each of the Linaro Segment teams during the week 
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-401/](http://connect.linaro.org/resource/bud17/bud17-401/)
 
 
-  * **Tutorial Scientific Computing on ARM-based Platforms - BUD17-403**
-    * Developing applications on ARM based machines: compilers, debuggers, runtimes and basic optimizations
+  * **Tutorial Scientific Computing on Arm-based Platforms - BUD17-403**
+    * Developing applications on Arm based machines: compilers, debuggers, runtimes and basic optimizations
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-403/](http://connect.linaro.org/resource/bud17/bud17-403/)
 
   * **Changes in UEFI land - BUD17-417**
@@ -209,8 +209,8 @@ supports the wireless protocols to connect such devices to the internet, acting 
     * Sensory swarms of an IoT can be wirelessly interconnected to interact with the edge of a cloud, and offer an unprecedented ability to monitor and act on a range of evolving physical quantities. The Swarm leverages the paradigm of independent, cross-niche and heterogeneous devices that can cooperate with each other in order to execute tasks synergistically. The Swarm architecture is device-oriented, focused on machine-to-machine communications. The Heterogeneous Broker is responsible for dynamically recruiting resources from the cloud; allowing information aggregation to make or aid decisions; and then to dynamically recruit actuation resources. In this talk we will describe our experience implementing and deploying the heterogeneous broker developed by USP in partnership with UC Berkeley. An special focus will be given to the 96Boards program.
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-303/](http://connect.linaro.org/resource/bud17/bud17-303/)
     
-  * **A functional Open GPU Upon ARM - BUD17-502**
-    * GPGPUs (General Purpose Graphics Processing Unit) are becoming a relevant functional block on SoCs, particularly on the ARM ecosystem. Extracting full performance of a GPU is now becoming a combination of well integrated and optimized software and hardware. Motivated by that, there are many Open GPU initiatives around the world using FPGAs, but most (if not all) of these are on Intel platforms. This project aims to present an Open GPU based on an FPGA using the ARM Instruction Set. The driver platform adopted was the well know MESA 3D (www.mesa3d.org). We will describe the co-design approach to designing the OpenGPU. A functional demonstration of the OpenGPU working on a range of OpenGl applications ported by Linaro will be shown. On the fly we will change drivers between: SW only, GPU on Asic, and OpenGPU to see its performance impact. The engineers that implemented this system will be at the session to support detailed technical questions.
+  * **A functional Open GPU Upon Arm - BUD17-502**
+    * GPGPUs (General Purpose Graphics Processing Unit) are becoming a relevant functional block on SoCs, particularly on the Arm ecosystem. Extracting full performance of a GPU is now becoming a combination of well integrated and optimized software and hardware. Motivated by that, there are many Open GPU initiatives around the world using FPGAs, but most (if not all) of these are on Intel platforms. This project aims to present an Open GPU based on an FPGA using the Arm Instruction Set. The driver platform adopted was the well know MESA 3D (www.mesa3d.org). We will describe the co-design approach to designing the OpenGPU. A functional demonstration of the OpenGPU working on a range of OpenGl applications ported by Linaro will be shown. On the fly we will change drivers between: SW only, GPU on Asic, and OpenGPU to see its performance impact. The engineers that implemented this system will be at the session to support detailed technical questions.
     * Presentations & Videos:[ http://connect.linaro.org/resource/bud17/bud17-502/](http://connect.linaro.org/resource/bud17/bud17-502/)
     
   * **Partnership in Open Design and Manufacturing: How Universities can Contribute with Developers Communities - BUD17-511**
@@ -224,7 +224,7 @@ supports the wireless protocols to connect such devices to the internet, acting 
 
 
   * **LMG Lightning Talks - BUD17-106**
-    * Short updates on various LMG initiatives, including boottime reduction, Android 4.9, ART, Serial Device Bus and PPP upstreaming. This is a series of short (~10 minutes) updates on LMG Initiatives: Boottime reduction status updates (AOSP), Efforts in making ARM the best platform for Android (ART), Whats new in android-4.9 (Amit Pundir), Intro to Serial Device Bus (Rob Herring), PPP Effort Update (Sam Protsenko), (e.g. siockilladdr, switch class etc) or they are obsolete and no longer used in AOSP (e.g. uid, n/w activity stat etc).
+    * Short updates on various LMG initiatives, including boottime reduction, Android 4.9, ART, Serial Device Bus and PPP upstreaming. This is a series of short (~10 minutes) updates on LMG Initiatives: Boottime reduction status updates (AOSP), Efforts in making Arm the best platform for Android (ART), Whats new in android-4.9 (Amit Pundir), Intro to Serial Device Bus (Rob Herring), PPP Effort Update (Sam Protsenko), (e.g. siockilladdr, switch class etc) or they are obsolete and no longer used in AOSP (e.g. uid, n/w activity stat etc).
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-106/](http://connect.linaro.org/resource/bud17/bud17-106/)
 
   * **Status of Android “AOSP” TV - BUD17-118**
@@ -281,7 +281,7 @@ supports the wireless protocols to connect such devices to the internet, acting 
     * Discuss IPsec offload from: Application perspective, Application developer perspective, Implementation perspectives.
     * Presentations & Videos: [ http://connect.linaro.org/resource/bud17/bud17-304/](http://connect.linaro.org/resource/bud17/bud17-304/)
   * **Linux networking and I/O - BoF - BUD17-312**
-    * Open discussion on Linux networking and IO. Expected topics to be covered: IPsec full offload status in Linux kernel network stack and projected LNG work, IOvisor status on ARM, Automotive “foundational blocks”: LSK-RT, static partitioning with open source OpenAMP or Jailhouses.
+    * Open discussion on Linux networking and IO. Expected topics to be covered: IPsec full offload status in Linux kernel network stack and projected LNG work, IOvisor status on Arm, Automotive “foundational blocks”: LSK-RT, static partitioning with open source OpenAMP or Jailhouses.
     * Presentations & Videos: [http://connect.linaro.org/resource/bud17/bud17-312/](http://connect.linaro.org/resource/bud17/bud17-312/)
   * **High resolution data plane timers - BUD17-320**
     * Exploration of how timers are used in mobile networks as well as proposals for achieving higher timer resolution in software implementations of timers in OpenDataPlane.

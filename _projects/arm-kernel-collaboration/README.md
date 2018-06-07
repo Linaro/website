@@ -1,9 +1,9 @@
 ---
 project_id: "2"
-title: ARM Kernel Collaboration
+title: Arm Kernel Collaboration
 permalink: /projects/arm-kernel-collaboration/
 description: |-
-    Collaboration with Linaro and Member companies on upstreaming key common kernel features beneficial to the ARM Ecosystem.
+    Collaboration with Linaro and Member companies on upstreaming key common kernel features beneficial to the Arm Ecosystem.
 keywords: kernel, code, linaro, common, engineering, jira, member, upstream, deliverables, product
 related_jira_projects:
   - name: Project Summary
@@ -25,9 +25,9 @@ related_core_groups:
   - "1"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNnMSv7VFoaeZ1COZsx_-1v
 ---
-# ARM Kernel Collaboration
+# Arm Kernel Collaboration
 
-Collaboration with Linaro and Member companies on upstreaming key common kernel features beneficial to the ARM Ecosystem.
+Collaboration with Linaro and Member companies on upstreaming key common kernel features beneficial to the Arm Ecosystem.
 
 **The sources of the features could include:**
 

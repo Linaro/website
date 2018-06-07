@@ -5,7 +5,7 @@ date: 2014-08-21 07:00:04+00:00
 layout: post
 link: /blog/core-dump/running-64bit-android-l-qemu/
 slug: running-64bit-android-l-qemu
-title: Running Android L Developer Preview on 64-bit ARM QEMU
+title: Running Android L Developer Preview on 64-bit Arm QEMU
 wordpress_id: 6354
 categories:
 - blog
@@ -17,7 +17,7 @@ tags:
 - qemu
 ---
 
-# Running Android L Developer Preview on 64-bit ARM QEMU
+# Running Android L Developer Preview on 64-bit Arm QEMU
 
 {% include image.html name="quem.jpg" alt="QEMU" %}
 
@@ -27,7 +27,7 @@ When the Android SDK was first made available to the world, Google used QEMU as 
 
 Every build of Android targets a specific hardware platform, and the emulated goldfish platform is no different. A number of specific emulator features are enabled in both the Android kernel and Android userspace environment when run in an emulated environment. These features allow a smooth and complete user experience resembling using a real Android device, on laptop and desktop workstations.
 
-The Android emulator provides Android application developers with a convenient development environment and allows developers to develop and test applications on devices which they do not have physical access to. With the introduction of the ARMv8-A architecture and Android support for 64-bit ARM platforms, this need is more important than ever because it allows developers to begin adapting their applications to an ARM 64-bit based mobile ecosystem prior to hardware being available.
+The Android emulator provides Android application developers with a convenient development environment and allows developers to develop and test applications on devices which they do not have physical access to. With the introduction of the Armv8-A architecture and Android support for 64-bit Arm platforms, this need is more important than ever because it allows developers to begin adapting their applications to an Arm 64-bit based mobile ecosystem prior to hardware being available.
 
 ## Differences to mainline QEMU
 
@@ -42,11 +42,11 @@ The emulated devices include a fast IPC mechanism known as the “qemu_pipe” t
 
 {% include image.html name="Android-L.jpg" alt="Android-L" %}
 
-Google recently announced [Android L](http://developer.android.com/preview/index.html) at Google I/O. One of the major new features in Android L is the support for the ARMv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.
+Google recently announced [Android L](http://developer.android.com/preview/index.html) at Google I/O. One of the major new features in Android L is the support for the Armv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.
 
-As you may have noticed, thanks to Linaro, the latest version of upstream QEMU (2.1) now includes full ARMv8 system emulation support. This means that users can use upstream QEMU to run a full 64-bit ARMv8-A kernel and filesystem, such as a 64-bit Ubuntu cloud image. This was no small endeavour as it involved emulating a completely new instruction set, exception model, CPU implementation, and more. The implementation was verified with a custom instruction verification tool ([RISU](https://git.linaro.org/people/peter.maydell/risu.git)) and was heavily reviewed upstream by an engaged and incredibly supportive upstream QEMU community.
+As you may have noticed, thanks to Linaro, the latest version of upstream QEMU (2.1) now includes full Armv8 system emulation support. This means that users can use upstream QEMU to run a full 64-bit Armv8-A kernel and filesystem, such as a 64-bit Ubuntu cloud image. This was no small endeavour as it involved emulating a completely new instruction set, exception model, CPU implementation, and more. The implementation was verified with a custom instruction verification tool ([RISU](https://git.linaro.org/people/peter.maydell/risu.git)) and was heavily reviewed upstream by an engaged and incredibly supportive upstream QEMU community.
 
-Reimplementing 64-bit ARMv8-A support in the old Android emulator fork of QEMU would be a herculean effort and attempts to backport the changes from upstream QEMU to the Android emulator were not successful. Consequently, there was a sudden and strong desire within Google and from Linaro members to instead forward port the Android emulator specific features to upstream QEMU and have such an implementation ready for the [Android L introduction at Google I/O](https://www.google.com/events/io). At the time, this was roughly three weeks away.
+Reimplementing 64-bit Armv8-A support in the old Android emulator fork of QEMU would be a herculean effort and attempts to backport the changes from upstream QEMU to the Android emulator were not successful. Consequently, there was a sudden and strong desire within Google and from Linaro members to instead forward port the Android emulator specific features to upstream QEMU and have such an implementation ready for the [Android L introduction at Google I/O](https://www.google.com/events/io). At the time, this was roughly three weeks away.
 
 
 ## Enter Linaro
@@ -54,8 +54,8 @@ Reimplementing 64-bit ARMv8-A support in the old Android emulator fork of QEMU w
 
 Linaro assembled a small team who between us had experience in QEMU, the Linux kernel, and the Android ecosystem. While Google had started some of the forward porting work for 32-bit Android support, it was taking longer than they liked as they weren’t familiar with the current state of the upstream QEMU code base and were busy preparing for Google I/O.
 
-We delivered an upstream based branch of QEMU with minimal changes that could run a stable emulated Android instance on 64-bit ARM. We also provided a branch of the official Android 3.10 based Linux kernel with backported 64-bit ARMv8 support based on a minimal set of necessary topic branches used for Linaro’s Stable Kernel (LSK). We spent a few extra days to fix some of the issues that were found when stress testing the “qemu pipe” IPC mechanism. After Google I/O we also did some performance analysis on the emulation to identify some performance tweaks to the main emulator that are in the process of being upstreamed now.
-The virtualization team in Linaro is working with Google to also provide Android support based on upstream 32-bit ARM QEMU as well as providing a number of missing features from the current prototype, such as display rotation, and a number of Android emulator console commands. We expect to be able to provide QEMU branches with this support in Q4 2014.
+We delivered an upstream based branch of QEMU with minimal changes that could run a stable emulated Android instance on 64-bit Arm. We also provided a branch of the official Android 3.10 based Linux kernel with backported 64-bit Armv8 support based on a minimal set of necessary topic branches used for Linaro’s Stable Kernel (LSK). We spent a few extra days to fix some of the issues that were found when stress testing the “qemu pipe” IPC mechanism. After Google I/O we also did some performance analysis on the emulation to identify some performance tweaks to the main emulator that are in the process of being upstreamed now.
+The virtualization team in Linaro is working with Google to also provide Android support based on upstream 32-bit Arm QEMU as well as providing a number of missing features from the current prototype, such as display rotation, and a number of Android emulator console commands. We expect to be able to provide QEMU branches with this support in Q4 2014.
 
 ## I want to try
 

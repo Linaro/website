@@ -32,7 +32,7 @@ SDI is the enabler for the cloud revolution and the fundamental building block f
    - Performance and scaling optimizations for Storage
    - Capacity and scaling optimizations for Networking
 - Containers:  Provide Docker containers and registry, for use in a SDI (software defined Infrastructure) for the AArch64 platform.  Incorporation of kubernetes for management of containerized applications (such as murano+heat or magnum)
-   - ARM architecture Docker Containers and registry
+   - Arm architecture Docker Containers and registry
    - Management of containerized applications
 
 #### Useful Information:

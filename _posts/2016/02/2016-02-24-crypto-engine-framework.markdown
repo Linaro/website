@@ -15,7 +15,7 @@ tags:
 - crypto engine
 - kernel
 - Linux
-- Linux on ARM
+- Linux on Arm
 title: Crypto Engine Framework
 wordpress_id: 9995
 ---

@@ -17,7 +17,7 @@ tags:
 - CoreSight
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - open source software
 - openCSD
 - OpenCSD library
@@ -35,7 +35,7 @@ A brief exploration of the key programming APIs will be provided, along with a d
 ## **Introduction to the OpenCSD Library.**
 
 
-The OpenCSD library is designed to allow a client application to decode trace streams generated through CoreSight trace hardware. The library may be built natively on an ARM target, or on a host PC running Linux or Windows. The main library and API is written in C++, with a C API wrapper library provided for situations where this is preferred, and to ease the integration with scripting languages. The library can be used for trace captured on target, or by an off target capture device.
+The OpenCSD library is designed to allow a client application to decode trace streams generated through CoreSight trace hardware. The library may be built natively on an Arm target, or on a host PC running Linux or Windows. The main library and API is written in C++, with a C API wrapper library provided for situations where this is preferred, and to ease the integration with scripting languages. The library can be used for trace captured on target, or by an off target capture device.
 
 The client application will configure the library according to the hardware settings of the CoreSight components which generated the trace. The client will also provide access to the memory images of the programs or regions traced in order for the trace decoding to correctly follow the traced instruction sequence.
 
@@ -166,7 +166,7 @@ Configuration using the C++ API begins with the creation of a decode tree.
 {% include image.html name="redo-box-1-core-dump.jpg" alt="Redo Box 1"%}
 
 
-The flag [_OCSD_TRC_SRC_FRAME_FORMATTED_] tells the creation function to automatically set up the de-multiplexor for the CoreSight trace formatted frame. The second parameter tells the de-multiplexor that there are no frame syncs in the incoming raw trace stream (frame syncs are used when trace is output via a TPIU). This is by far the most common trace format when analysing trace captured on target. The library has a  built-in  ARM instruction set opcode analyser which will be created and automatically attached to the decoders.
+The flag [_OCSD_TRC_SRC_FRAME_FORMATTED_] tells the creation function to automatically set up the de-multiplexor for the CoreSight trace formatted frame. The second parameter tells the de-multiplexor that there are no frame syncs in the incoming raw trace stream (frame syncs are used when trace is output via a TPIU). This is by far the most common trace format when analysing trace captured on target. The library has a  built-in  Arm instruction set opcode analyser which will be created and automatically attached to the decoders.
 
 Next the individual decoders are created. The creation of a decoder requires that the decoder configuration information is provided – this is in the form of the ocsd_xyz_cfg structures and classes. The client application must fill in the structure / class and pass this to the decoder creation API on the decoder tree.
 
@@ -328,7 +328,7 @@ The test programs are used for testing the library components and APIs, and are 
 ### **Test Data**
 
 
-The library source ships with some test data in the _**\snapshots**_ directory. This data is trace captured from target systems and saved in a “snapshot” format – an ARM DS-5 open standard1 format that provides sufficient information to decode the captured trace. The snapshot consists of a set of _**.ini**_ files and binary data that provide:
+The library source ships with some test data in the _**\snapshots**_ directory. This data is trace captured from target systems and saved in a “snapshot” format – an Arm DS-5 open standard1 format that provides sufficient information to decode the captured trace. The snapshot consists of a set of _**.ini**_ files and binary data that provide:
 
 
   * Configuration of the ETM/PTM registers.
@@ -424,9 +424,9 @@ The “decode tree” is the key abstraction provided to configure and use the l
 
 The library source code has inline documentation that may be extracted using the ‘doxygen’ tool for more detailed information on the API functions covered and the additional APIs available.
 
-Information on the CoreSight components and trace protocols mentioned here is available from the ARM website. A document describing the DS-5 “snapshot” format is due to be published shortly.
+Information on the CoreSight components and trace protocols mentioned here is available from the Arm website. A document describing the DS-5 “snapshot” format is due to be published shortly.
 
-This article has covered configuring the existing trace decoders built into the library for the currently supported set of ARM trace protocols. A future article in this series on OpenCSD will cover adding additional decoders into the library to cope with new or custom trace protocols or for other specialised decode. These custom decoders can either be compiled in as part of the C++ library, using the existing base infrastructure, or as an external binary implementation using an external registration API in the C API interface.
+This article has covered configuring the existing trace decoders built into the library for the currently supported set of Arm trace protocols. A future article in this series on OpenCSD will cover adding additional decoders into the library to cope with new or custom trace protocols or for other specialised decode. These custom decoders can either be compiled in as part of the C++ library, using the existing base infrastructure, or as an external binary implementation using an external registration API in the C API interface.
 
 
 * * *

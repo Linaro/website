@@ -17,7 +17,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Linaro Connect SFO15 week in review
@@ -32,14 +32,14 @@ Linaro also made several announcements regarding new members, new groups at Lina
 
   * George Grey, CEO, Linaro.
     * Keynote title: [Welcome keynote](https://www.youtube.com/watch?v=5viiqYeOATI&feature=youtu.be&t=50m55s)
-  * Simon Segars, CEO, ARM.
+  * Simon Segars, CEO, Arm.
     * Keynote title:  [Collaboration: Key to Delivery During Market Disruption](https://www.youtube.com/watch?v=5viiqYeOATI&feature=youtu.be&t=50m55s)
   * Neil Trevett, VP,  NVIDIA.
     * Keynote title: [Open Standards and Open Source Together - How Khronos APIs Accelerate Fast and Cool Applications](https://www.youtube.com/watch?v=S3YMBLOTXSI)
   * John Simmons, Media Platform Architect, Microsoft.
     * Keynote title[: The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications](https://www.youtube.com/watch?v=14YnkW6ZsI0)
   * Suresh Gopalakrishnan, VP, AMD.
-    * Keynote title: [Enabling ARM Server for the Datacenter](https://youtu.be/apMkjg8tubw?t=8m7s)
+    * Keynote title: [Enabling Arm Server for the Datacenter](https://youtu.be/apMkjg8tubw?t=8m7s)
   * Dave Neary, NFV/SDN Community Strategy, Redhat.
     * Keynote title: [An NFV Primer: The Next Generation for Telco](https://www.youtube.com/watch?v=9RPsaPr4mzg&feature=youtu.be&t=10m2s)
   * Roger Calas, Symantec.
@@ -49,7 +49,7 @@ Linaro also made several announcements regarding new members, new groups at Lina
   * Grant Likely, Linaro Fellow, hosts a security panel.
     * Keynote title: [Security Panel Discussion](https://www.youtube.com/watch?v=KTeT6yC915Y)
 
-In addition to the keynotes and sessions there was a rich assortment of demonstrations from Linaro and Linaro members, including much of Linaro’s latest ARMv8-A 64-bit software developments. Demonstrations were given during keynotes as well as on Wednesday during Linaro Enterprise Group day, Thursday during the Linaro Networking Group day and on Friday during the traditional demo Friday held during each Linaro Connect during lunch on the last day. Below are some of the images from the demonstrations.
+In addition to the keynotes and sessions there was a rich assortment of demonstrations from Linaro and Linaro members, including much of Linaro’s latest Armv8-A 64-bit software developments. Demonstrations were given during keynotes as well as on Wednesday during Linaro Enterprise Group day, Thursday during the Linaro Networking Group day and on Friday during the traditional demo Friday held during each Linaro Connect during lunch on the last day. Below are some of the images from the demonstrations.
 
 {% include image.html name="21096414723_945a15798b_k.jpg" %}
 {% include image.html name="21717413305_417079aec0_k.jpg" %}

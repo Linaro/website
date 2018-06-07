@@ -14,7 +14,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Linaro Connect Asia 2014 - Kicks Off in Macau
@@ -23,7 +23,7 @@ wordpress_id: 3430
 
 [Linaro Connect Asia 2014 ](http://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/) and is a founding member of the new [Linaro Digital Home Group](https://wiki.linaro.org/LHG). 
 
-In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief ARM Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: ARM in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for ARM in the Enterprise. 
+In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief Arm Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: Arm in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for Arm in the Enterprise. 
 
 **Keynotes:**
 
@@ -99,7 +99,7 @@ Monday  March 3, 2014
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[LCA14-101: ARM VM Standards](http://lca-14.zerista.com/event/member/102395)
+[LCA14-101: Arm VM Standards](http://lca-14.zerista.com/event/member/102395)
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -111,13 +111,13 @@ Monday  March 3, 2014
 </td>
 
 <td width="226" valign="top" markdown="1">
-[Video ](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-101-%20ARM%20VM%20Standards.mp4)(Linaro Server)
+[Video ](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-101-%20Arm%20VM%20Standards.mp4)(Linaro Server)
 </td>
 </tr>
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[LCA14-102: Adopting ARM Trusted Firmware](http://lca-14.zerista.com/event/member/102447) 
+[LCA14-102: Adopting Arm Trusted Firmware](http://lca-14.zerista.com/event/member/102447) 
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -129,7 +129,7 @@ Monday  March 3, 2014
 </td>
 
 <td width="226" valign="top" markdown="1">
-[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-102-%20Adopting%20ARM%20Trusted%20Firmware.mp4) (Linaro Server)
+[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-102-%20Adopting%20Arm%20Trusted%20Firmware.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -207,7 +207,7 @@ No slides available
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[LCA14-104: GTS - A solution to support ARM's big.LITTLE technology](http://lca-14.zerista.com/event/member/103632)
+[LCA14-104: GTS - A solution to support Arm's big.LITTLE technology](http://lca-14.zerista.com/event/member/103632)
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -219,7 +219,7 @@ No slides available
 </td>
 
 <td width="226" valign="top" markdown="1">
-[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-104-%20GTS%20-%20A%20solution%20to%20support%20ARM%2527s%20big.LITTLE%20technology.mp4) (Linaro Server)
+[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-104-%20GTS%20-%20A%20solution%20to%20support%20Arm%2527s%20big.LITTLE%20technology.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -243,7 +243,7 @@ No slides available
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[LCA14-307: ARM server standardization](http://lca-14.zerista.com/event/member/102398) 
+[LCA14-307: Arm server standardization](http://lca-14.zerista.com/event/member/102398) 
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -255,7 +255,7 @@ No slides available
 </td>
 
 <td width="226" valign="top" markdown="1">
-[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-307-%20ARM%20server%20standardization.mp4) (Linaro Server)
+[Video](http://people.linaro.org/linaro-connect/lca14/videos/03-03-Monday/LCA14-307-%20Arm%20server%20standardization.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -355,7 +355,7 @@ LCA14-201: 64-bit GNU & LLVM Toolchains Status & Directions
 </td>
 
 <td width="462" valign="top" markdown="1">
-LCA14-202: ARM-SOC: Status and Directions
+LCA14-202: Arm-SOC: Status and Directions
 </td>
 </tr>
 <tr >

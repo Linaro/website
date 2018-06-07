@@ -23,7 +23,7 @@ We started the third day of Linaro Connect with two keynotes from Microsoft Azur
 
 {% include image.html name="Leendert-van-Doorn.jpg"  class="medium-inline"  alt="" %} 
 
-Leendert van Doorn from Microsoft gave a keynote on Azure - a huge set of servers with a presence on every single continent apart from Antartica. He started the keynote by talking us through Microsoft's data evolution and how Microsoft has improved power usage effectiveness (pue) of its data centres over the years. Now on the sixth generation, Microsoft is in the process of evaluating ARM servers for their data centres, a process which involves addressing ARM server challenges such as the necessity for platform standardization and ensuring scale is increased while complexity is reduced. To view the recording of this keynote, click [here](https://www.youtube.com/watch?v=dOze8UKIuNU).
+Leendert van Doorn from Microsoft gave a keynote on Azure - a huge set of servers with a presence on every single continent apart from Antartica. He started the keynote by talking us through Microsoft's data evolution and how Microsoft has improved power usage effectiveness (pue) of its data centres over the years. Now on the sixth generation, Microsoft is in the process of evaluating Arm servers for their data centres, a process which involves addressing Arm server challenges such as the necessity for platform standardization and ensuring scale is increased while complexity is reduced. To view the recording of this keynote, click [here](https://www.youtube.com/watch?v=dOze8UKIuNU).
 
 {% include image.html name="Tomas-Evensen.jpg"  class="medium-inline right"  alt="" %} 
 

@@ -6,7 +6,7 @@ date: 2013-03-08 00:08:23
 description: As the sun rises over the Gold Coast Hotel this morning we are reminded
   that Linaro Connect Asia 2013 in Hong Kong comes to an end today.It's been a busy
   week of training workshops, mini-summits, planning, hacking, interviewing, and more.
-keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 5, Awards, Demo Friday
 layout: post
 link: /blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
@@ -48,7 +48,7 @@ The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can 
 
 **08:30:** [LCA-13 Awards](http://lca-13.zerista.com/event/member/72406) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/LCA-13-Awards)) ([Google+ Event Listing](https://plus.google.com/events/ct4jasvd012f89ua3khav32b118))
 
-**09:00: **[ARM Enterprise Server: Assembly Dependencies](http://lca-13.zerista.com/event/member/72370) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/ARM-Enterprise-Server-Assembly-Dependencies)) ([Google+ Event Listing](https://plus.google.com/events/ch5tsqm0s8g4nin5gvvilnkr5os))
+**09:00: **[Arm Enterprise Server: Assembly Dependencies](http://lca-13.zerista.com/event/member/72370) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/Arm-Enterprise-Server-Assembly-Dependencies)) ([Google+ Event Listing](https://plus.google.com/events/ch5tsqm0s8g4nin5gvvilnkr5os))
 **09:00: **[PLATFORM BUFFER BBI](http://lca-13.zerista.com/event/member/72378) /[Kernel CI and Releases](http://lca-13.zerista.com/event/member/72351)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad](http://pad.linaro.org/PLATFORM-BUFFER-BBI-Kernel-CI-and-Releases)) ([Google+ Event Listing](https://plus.google.com/events/cujj99sfv9unscelpjfui67e170))
 **09:00:** [Toolchain Working Group Wrapup](http://lca-13.zerista.com/event/member/72373) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/12easrG)) ([Etherpad](http://pad.linaro.org/Toolchain-Working-Group-Wrapup)) ([Google+ Event Listing](https://plus.google.com/events/c05ilfajtisg558d2nbdqas0fhg))
 

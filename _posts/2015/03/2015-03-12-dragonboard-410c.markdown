@@ -25,7 +25,7 @@ Qualcomm is positioning the board to bring the Snapdragon 410 processor’s high
 
 “The DragonBoard 410c is a powerful, low cost platform engineered to allow the rapid development of commercial solutions to address the expanding embedded compute and IoE industries across multiple operating systems.” said Jason Bremner, senior vice president of product management for Qualcomm Technologies. “The DragonBoard 410c will play a critical role in helping drive the innovation of embedded computing products on a global basis”
 
-In addition to the Quad-core ARM® Cortex®-A53 processor running at up to 1.2 GHz per core, the DragonBoard 410C offers Qualcomm™ Adreno™ 306 GPU with 400MHz high quality graphics. On top of the expected features for a 96Boards product, Qualcomm has added integrated Qualcomm® IZat™ Gen8C location technology and an analog expansion connector (for headset, speaker and FM antenna).
+In addition to the Quad-core Arm® Cortex®-A53 processor running at up to 1.2 GHz per core, the DragonBoard 410C offers Qualcomm™ Adreno™ 306 GPU with 400MHz high quality graphics. On top of the expected features for a 96Boards product, Qualcomm has added integrated Qualcomm® IZat™ Gen8C location technology and an analog expansion connector (for headset, speaker and FM antenna).
 
 {% include image.html name="DragonBoard-001.png" alt="DragonBoard 410c" %}
 

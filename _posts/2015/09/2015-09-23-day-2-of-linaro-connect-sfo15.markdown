@@ -26,7 +26,7 @@ Following the announcements, the morning keynotes began with Neil Trevett, Vice
 
 {% include media.html media_url="https://youtu.be/S3YMBLOTXSI?t=12m39s" %}
 
-He talked about the latest updates to API standards including OpenGL, OpenCL, OpenVX, and the recently announced Vulkan new generation graphics and compute API. Neil also discussed how cutting-edge APIs enable compelling experiences such as neural-net based driver assistance, virtual and augmented reality, and advanced 3D scene reconstruction on ARM-based devices, and showed a video demo of this. Finally, he talked about how Khronos is embracing and promoting multiple open source projects to boost the ARM developer ecosystem.
+He talked about the latest updates to API standards including OpenGL, OpenCL, OpenVX, and the recently announced Vulkan new generation graphics and compute API. Neil also discussed how cutting-edge APIs enable compelling experiences such as neural-net based driver assistance, virtual and augmented reality, and advanced 3D scene reconstruction on Arm-based devices, and showed a video demo of this. Finally, he talked about how Khronos is embracing and promoting multiple open source projects to boost the Arm developer ecosystem.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=14YnkW6ZsI0" %}
 
@@ -157,7 +157,7 @@ SFO15-205:
 </td>
 
 <td width="347" markdown="1">
-OP-TEE Content Decryption with Microsoft PlayReady on ARM
+OP-TEE Content Decryption with Microsoft PlayReady on Arm
 </td>
 
 <td width="64" markdown="1">

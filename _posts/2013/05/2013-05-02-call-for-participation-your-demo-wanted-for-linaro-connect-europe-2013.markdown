@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-05-02 15:48:01
 description: Show off how you are pairing Linaro's engineering output--a build, toolchain,
-  or code--and ARM processor-based hardware solutions at the LCE13 Demo Friday event.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE13-Dublin,
+  or code--and Arm processor-based hardware solutions at the LCE13 Demo Friday event.
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
   Announcement, Call for Participation, Demo Friday
 layout: post
 link: /blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
@@ -21,7 +21,7 @@ Demo Friday will take place on Friday 12 July at the Burlington Hotel in Dublin,
 
 Are you currently using a [Linaro build, toolchain, or code](/downloads/) and want to show off your work?
 
-Then Demo Friday is the place for you. We want to see how you are pairing Linaro's engineering output and ARM processor-based hardware solutions.
+Then Demo Friday is the place for you. We want to see how you are pairing Linaro's engineering output and Arm processor-based hardware solutions.
 
 If you or someone you know is interested in the opportunity to demonstrate how you are using Linaro, please email the details of your demonstration to: [connect@linaro.org](mailto:connect@linaro.org)
 

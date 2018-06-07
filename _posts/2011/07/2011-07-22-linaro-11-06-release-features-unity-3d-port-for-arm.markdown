@@ -4,7 +4,7 @@ date: 2011-07-22 00:54:49+00:00
 layout: post
 link: /blog/releases-blog/linaro-11-06-release-features-unity-3d-port-for-arm/
 slug: linaro-11-06-release-features-unity-3d-port-for-arm
-title: Linaro 11.06 release features Unity 3D port for ARM
+title: Linaro 11.06 release features Unity 3D port for Arm
 categories:
 - blog
 tags:
@@ -31,7 +31,7 @@ We encourage everybody to use the 11.06 release. The download links for all imag
 
 * Linaro GCC 4.6 2011.06 and GCC 4.5 2011.06 come with bugfixes and various performance optimizations with focus on vectoriser improvements. With this release Linaro GCC 4.5 series enters maintenance mode and will ensure that development can be focused on making the "future" better.
 
-* Linaro QEMU 2011.06, based on upstream (trunk) QEMU. This version includes a number of ARM-focused bug fixes and enhancements like the support of a model of the Gumstix Overo board and the USB keyboard/mouse support on BeagleBoard.
+* Linaro QEMU 2011.06, based on upstream (trunk) QEMU. This version includes a number of Arm-focused bug fixes and enhancements like the support of a model of the Gumstix Overo board and the USB keyboard/mouse support on BeagleBoard.
 
 * Linaro Kernel 2.6.39 2011.06, based on the 2.6.39.1 stable kernel with a number of changes developed by Linaro and integrated from the 3.0-rc. It includes the ability to append Device Tree to zImage at build time, support for parallel async MMC requests and more...
 

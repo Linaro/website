@@ -13,7 +13,7 @@ slug: linaro-appoints-jill-guo-to-lead-greater-china-operations
 tags:
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 title: Linaro appoints Jill Guo to lead Greater China operations
 wordpress_id: 9547
@@ -21,7 +21,7 @@ wordpress_id: 9547
 
 Cambridge, UK; October 20, 2015
 
-Linaro Ltd,  the collaborative engineering organization developing open source software for the ARM® architecture, today announced that Jill Guo has been appointed as the Executive Vice President to head up the company’s growing Greater China operations.
+Linaro Ltd,  the collaborative engineering organization developing open source software for the Arm® architecture, today announced that Jill Guo has been appointed as the Executive Vice President to head up the company’s growing Greater China operations.
 
 Ms Guo reports directly to CEO George Grey and is a member of [Linaro’s Executive Management team](/about/executive/). “Greater China’s role in the world as both a producer and consumer of technology continues to grow in importance,” said George Grey, Linaro CEO. “The appointment of Jill Guo to our Executive team clearly demonstrates our commitment to invest in the region and help local companies benefit from the advantages of collaborative engineering and open source software.”
 
@@ -33,6 +33,6 @@ Ms Guo came to her first Linaro Connect in Hong Kong in 2013 when she was the St
 
 **About Linaro**
 
-Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).

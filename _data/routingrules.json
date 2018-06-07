@@ -20,7 +20,7 @@
     "^/app/images/press/Rob_Booth_Hi_Res.jpg$ /assets/images/people/Rob_Booth_Hi_Res.jpg [R,L,NC]",
     "^/app/images/press/Steve_Taylor_72_dpi.jpg$ /assets/images/people/Steve_Taylor_72_dpi.jpg [R,L,NC]",
     "^/app/images/press/Steve_Taylor_Hi_Res.jpg$ /assets/images/people/Steve_Taylor_Hi_Res.jpg [R,L,NC]",
-    "^/app/resources/WhitePaper/VMSystemSpecificationForARM-v2.0.pdf$ /assets/downloads/VMSystemSpecificationForARM-v2.0.pdf [R,L,NC]",
+    "^/app/resources/WhitePaper/VMSystemSpecificationForArm-v2.0.pdf$ /assets/downloads/VMSystemSpecificationForArm-v2.0.pdf [R,L,NC]",
     "^/apple-touch-icon-precomposed.png$ /assets/content/favicon.png [R,L,NC]",
     "^/apple-touch-icon.png$ /assets/content/favicon.png [R,L,NC]",
     "^/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices(/?|/index.html)$ /news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/ [R,L,NC]",

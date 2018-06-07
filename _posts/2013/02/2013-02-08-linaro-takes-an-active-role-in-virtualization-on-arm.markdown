@@ -6,27 +6,27 @@ date: 2013-02-08 17:32:45
 description: Linaro held its first virtual KVM/QEMU mini-summit to synchronize on
   the current state of the Virtualization and to plan the work which needs to be done
   in this area.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA-Hong
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA-Hong
   Kong, KVM/QEMU Mini-Summit
 layout: post
 link: /blog/linaro-takes-an-active-role-in-virtualization-on-arm/
 slug: linaro-takes-an-active-role-in-virtualization-on-arm
-title: Linaro Takes an Active Role in Virtualization on ARM
+title: Linaro Takes an Active Role in Virtualization on Arm
 wordpress_id: 2291
 ---
 
-Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on ARM.
+Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on Arm.
 
 In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html ), [Serge Broslavsky](/about/ ), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
 
 **Day One**
-On the first day of the mini-summit included a discussion of the current status of the KVM on ARMv7 and ARMv8, IO Virtualization, virtio and IOMMU support code. The current process of maintainer-ship and a prioritized list of any outstanding tasks or development on v7 was reviewed.  The attendees also discussed what role Linaro could play in regards to development and testing.
+On the first day of the mini-summit included a discussion of the current status of the KVM on Armv7 and Armv8, IO Virtualization, virtio and IOMMU support code. The current process of maintainer-ship and a prioritized list of any outstanding tasks or development on v7 was reviewed.  The attendees also discussed what role Linaro could play in regards to development and testing.
 
 **Day Two**
-On the second day of the summit attendees reviewed day one activities to see if they missed anything and then turned their attention to QEMU. These attendees looked at what development work was needed for ARMv7 and ARMv8 in regards to QEMU.  Other topics discussed included looking at where kvmtool fits in.
+On the second day of the summit attendees reviewed day one activities to see if they missed anything and then turned their attention to QEMU. These attendees looked at what development work was needed for Armv7 and Armv8 in regards to QEMU.  Other topics discussed included looking at where kvmtool fits in.
 
 **Conclusions**
-As a result of this mini-summit, Linaro, with the help of its new [Virtualization Team](https://wiki.linaro.org/LEG/Engineering/Virtualization) will be taking a more active role in the area of Virtualization on ARM. Virtualization will also be addressed at the Linaro Connect Asia (LCA13) event being held 4-8 March in Hong Kong the [exact schedule](https://lca-13.zerista.com/) is still being planned.
+As a result of this mini-summit, Linaro, with the help of its new [Virtualization Team](https://wiki.linaro.org/LEG/Engineering/Virtualization) will be taking a more active role in the area of Virtualization on Arm. Virtualization will also be addressed at the Linaro Connect Asia (LCA13) event being held 4-8 March in Hong Kong the [exact schedule](https://lca-13.zerista.com/) is still being planned.
 
 More information about the Mini Summit can be found at: [https://wiki.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit](https://wiki.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit)
 
@@ -47,6 +47,6 @@ _More information about the Linaro Virtualization Team can be found at: [https:/
 
 **_About Linaro Connect_**
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 _More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org)._

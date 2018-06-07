@@ -5,7 +5,7 @@ categories:
 date: 2012-01-12 22:29:14
 description: Announcement of the 2012.01 release of Linaro GCC 4.6 and Linaro GCC
   4.5. Release notes and download information.
-keywords: Linaro, Linux on ARM, Toolchain, GCC, Open Source, Releases, Working Group,
+keywords: Linaro, Linux on Arm, Toolchain, GCC, Open Source, Releases, Working Group,
 layout: post
 link: /blog/releases-blog/linaro-gcc-4-6-and-4-5-2012-01-released/
 slug: linaro-gcc-4-6-and-4-5-2012-01-released
@@ -13,7 +13,7 @@ tags:
 - Releases
 - gcc
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Releases
 - toolchain

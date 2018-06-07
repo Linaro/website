@@ -15,7 +15,7 @@ wordpress_id: 1028
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro GDB 7.3.
 
-Linaro GDB 7.3 2011.12 is the fourth release in the 7.3 series. Based off the latest GDB 7.3.1, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro GDB 7.3 2011.12 is the fourth release in the 7.3 series. Based off the latest GDB 7.3.1, it includes a number of Arm-focused bug fixes and enhancements.
 
 This release contains:
 * Update to GDB 7.3.1 code base

@@ -17,7 +17,7 @@ tags:
 ---
 Barcelona, Mobile World Congress, Feb. 15, 2011
 
-At Linaro, we are pleased to relay the announcement by ST-Ericsson of the Snowball board, a new low cost, low power and high performance board for the embedded Linux community, based on their Nova A9500 dual Cortex A9 processor and the MALI 400 GPU from ARM.
+At Linaro, we are pleased to relay the announcement by ST-Ericsson of the Snowball board, a new low cost, low power and high performance board for the embedded Linux community, based on their Nova A9500 dual Cortex A9 processor and the MALI 400 GPU from Arm.
 
 This board was designed for the needs of both the embedded Linux community developers, and professional developers as a basis for prototypes and custom designs. I've just had a very interesting talk with Stephane David, the CEO of CALAO Systems, the company which designed the board.
 
@@ -35,7 +35,7 @@ And then, technical details:
 <tr >
 
 <td markdown="1">
-- ARM Dual Cortex A9 @ 1GHz,
+- Arm Dual Cortex A9 @ 1GHz,
 - 4 / 8GByte e-MMC,
 - 1GByte LP-DDR2,
 - 1x Micro-SD,
@@ -79,7 +79,7 @@ The board that is shown in Barcelona is the Product Development Kit (PDK) versio
 
 Another version of the board will be available soon: the Software Development Kit (SDK). It will target software developers and hobbyists with less budget, and will be sold at 200 USD only, thanks to the removal of some of the expansion connectors. Anyway, except for these connectors, both board versions will have exactly the same chips, and their components are already shielded against EMI (Electro Magnetic Interference), RFI (Radio Frequency Interference) and ESD (Electro Static Discharge). Stephane David added that all the components have been selected for their availability in distribution channels. The intent is to make it easy to turn the Snowball into a real product.
 
-The board shown in Barcelona already has a functional Linux BSP, and Ubuntu, Meego and Android filesystems are demonstrated. The bootloader is U-boot so far, but plans are to port Barebox to it for faster boot time. Stephane also highlighted that Linaro engineers took care of developing the low-level software and optimizing it for the Nova A9500’s ARM dual
+The board shown in Barcelona already has a functional Linux BSP, and Ubuntu, Meego and Android filesystems are demonstrated. The bootloader is U-boot so far, but plans are to port Barebox to it for faster boot time. Stephane also highlighted that Linaro engineers took care of developing the low-level software and optimizing it for the Nova A9500’s Arm dual
 Cortex A9-based architecture.
 
 This board initially targets two families of Consumer Electronics devices: Internet tablets (an extension board with a 3G modem will be released soon), as well as Set-Top Boxes (an extension board with amongst others an infrared receiver will also be released for this kind of application).

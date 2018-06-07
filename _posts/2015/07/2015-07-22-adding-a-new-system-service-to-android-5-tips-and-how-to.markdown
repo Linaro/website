@@ -16,7 +16,7 @@ tags:
 - kernel
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 title: 'Adding A New System Service To Android 5: Tips and How To'
 wordpress_id: 9019
 ---

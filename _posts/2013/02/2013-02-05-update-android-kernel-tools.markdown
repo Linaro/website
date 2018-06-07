@@ -6,7 +6,7 @@ date: 2013-02-05 02:53:36
 description: With the kernel update tools provided by the Linaro Android team, users
   and developers can now update the kernel related files easily by using a few simple
   commands.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM,Android, Kernel, Updates,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm,Android, Kernel, Updates,
   Tools
 layout: post
 link: /blog/android-blog/update-android-kernel-tools/
@@ -67,7 +67,7 @@ _More information about the Linaro Android Team can be found at: [https://wiki.
 
 _**About the Linaro Kernel Team**_
 
-_The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern ARM SoCs._
+_The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern Arm SoCs._
 
   * _[Meeting](https://wiki.linaro.org/WorkingGroups/Kernel): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*_
 

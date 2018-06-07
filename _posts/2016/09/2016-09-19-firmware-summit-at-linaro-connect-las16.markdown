@@ -16,12 +16,12 @@ tags:
 - LEG
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 ---
 
 Next week at Linaro Connect LAS16 there will be a Firmware Summit on Tuesday September 27, 2016 from 10:10am-1:00pm (PST).  The purpose of this summit is to bring the key developers and maintainers from all camps in the same place, review the status and plan the next steps.
 
-The Linaro Enterprise Group has been driving the work to implement, upstream and maintain UEFI and ACPI support on ARM platforms since its creation in 2012. Over the years, the team has initiated new activities, namely the OpenPlatformPkg proposal to support multiple SoCs and multiple platforms in EDK2, as well as supporting more and more features on ACPI, e.g. recently, Console Selection, APEI, PCIe, NUMA and new GIC implementations. In order to successfully deploy ARM servers in production, it is required that firmware (BIOS) engineers and kernel engineers work in close collaboration and drive the addition of new platforms, improved SoC support, etc.
+The Linaro Enterprise Group has been driving the work to implement, upstream and maintain UEFI and ACPI support on Arm platforms since its creation in 2012. Over the years, the team has initiated new activities, namely the OpenPlatformPkg proposal to support multiple SoCs and multiple platforms in EDK2, as well as supporting more and more features on ACPI, e.g. recently, Console Selection, APEI, PCIe, NUMA and new GIC implementations. In order to successfully deploy Arm servers in production, it is required that firmware (BIOS) engineers and kernel engineers work in close collaboration and drive the addition of new platforms, improved SoC support, etc.
 
 Recently Linaro founded devicetree.org to support making device tree a properly managed and supported standard. This includes reducing fragmentation, improving maintainability and increasing multiplatform support in hardware description thanks to an open process that encourages wide community participation and the current best practices and technology.
 
@@ -29,8 +29,8 @@ Leif Lindholm, one of the speakers for the summit has just published a great blo
 
 Below is an overview of the sessions that will be part of the summit:
 
-**Title:  ARM64 ASWG and Linux ACPI update**
-**Abstract:** As presented at previous connects an update on the current support for ARM64 at ASWG level and the hot topics. Also an update on the support that is mainline in the Linux kernel for ARM64 ACPI support. Also covering the next steps for both ASWG and Linux support. Followed by a discussion period.
+**Title:  Arm64 ASWG and Linux ACPI update**
+**Abstract:** As presented at previous connects an update on the current support for Arm64 at ASWG level and the hot topics. Also an update on the support that is mainline in the Linux kernel for Arm64 ACPI support. Also covering the next steps for both ASWG and Linux support. Followed by a discussion period.
 **Speaker**: Al Stone, Hanjun Guo
 
 
@@ -39,15 +39,15 @@ Below is an overview of the sessions that will be part of the summit:
 **Speaker(s):**Charles Garcia-Tobin
 
 **Title: Tianocore Progress and Status**
-**Abstract:**  A brief update on the progress of ARM64 support in EDK2 and OpenPlatformPkg. Also covering the next steps. Followed by a discussion period.
+**Abstract:**  A brief update on the progress of Arm64 support in EDK2 and OpenPlatformPkg. Also covering the next steps. Followed by a discussion period.
 **Speaker:** Leif Lindholm
 
 **Title: Secure Boot**
-**Abstract:**  A 101 style introduction to what Secure Boot is as Secure means different things to different people. Covering the current status, what features are implemented currently on ARM64 and what features should be implemented in the future. Followed by a discussion period.
+**Abstract:**  A 101 style introduction to what Secure Boot is as Secure means different things to different people. Covering the current status, what features are implemented currently on Arm64 and what features should be implemented in the future. Followed by a discussion period.
 **Speaker:** Ard Biesheuvel
 
 **Title: RAS What is it? Why do we need it?**
-**Abstract:**  A 101 style introduction to RAS, its purpose and how we use it on ARM64. Covering current status of implementation in ASWG specs and Linux kernel. Plans for future features that are essential for ARM64. Followed by a discussion period.
+**Abstract:**  A 101 style introduction to RAS, its purpose and how we use it on Arm64. Covering current status of implementation in ASWG specs and Linux kernel. Plans for future features that are essential for Arm64. Followed by a discussion period.
 **Speaker:** Yazen Ghannam, Fu Wei
 
 To learn more about Linaro Connect LAS16 please visit:  [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)

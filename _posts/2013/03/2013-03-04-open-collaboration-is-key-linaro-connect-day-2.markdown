@@ -5,7 +5,7 @@ categories:
 date: 2013-03-04 23:56:43
 description: Linaro Connect Asia session highlights from day 1 and what people can
   expect to particpate in on day 2
-keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   George Grey, Jon Corbet, LWN, Open Collaboration
 layout: post
 link: /blog/community-blog/open-collaboration-is-key-linaro-connect-day-2/
@@ -58,7 +58,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **09:00:** [ARM Server Mini-Summit: UEFI ](http://lca-13.zerista.com/event/member/72366)- Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/ARM-Server-Mini-Summit-UEFI)) ([Google+ Event Listing](https://plus.google.com/events/ci418urp9aj9c4engqvf1mmav1k))
+  * **09:00:** [Arm Server Mini-Summit: UEFI ](http://lca-13.zerista.com/event/member/72366)- Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/Arm-Server-Mini-Summit-UEFI)) ([Google+ Event Listing](https://plus.google.com/events/ci418urp9aj9c4engqvf1mmav1k))
 
 
 
@@ -73,7 +73,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **10:00:** [ARM Server Mini-Summit: ACPI](http://lca-13.zerista.com/event/member/72367) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/ARM-Server-Mini-Summit-ACPI)) ([Google+ Event Listing](https://plus.google.com/events/c1mflvk6nmq7mj5m6n6l8ggaa48))
+  * **10:00:** [Arm Server Mini-Summit: ACPI](http://lca-13.zerista.com/event/member/72367) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/Arm-Server-Mini-Summit-ACPI)) ([Google+ Event Listing](https://plus.google.com/events/c1mflvk6nmq7mj5m6n6l8ggaa48))
 
 
 
@@ -88,7 +88,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **11:00:** [ARM Server Mini-Summit: Verticals-Webserver and Caching technologies](http://lca-13.zerista.com/event/member/72368) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad]()http://pad.linaro.org/ARM-Server-Mini-Summit-Verticals-Webserver-and-Caching-technologies) ([Google+ Event Listing](https://plus.google.com/events/ck1le5e8a257cilb8klg9heplo0))
+  * **11:00:** [Arm Server Mini-Summit: Verticals-Webserver and Caching technologies](http://lca-13.zerista.com/event/member/72368) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad]()http://pad.linaro.org/Arm-Server-Mini-Summit-Verticals-Webserver-and-Caching-technologies) ([Google+ Event Listing](https://plus.google.com/events/ck1le5e8a257cilb8klg9heplo0))
 
 
 
@@ -98,7 +98,7 @@ In addition to our Linaro on Air Hangout videos we have the privilege of having 
 
 
 
-  * **12:00:** [ARM Server Mini-Summit: Verticals-HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](https://www.youtube.com/watch?v=iOhtPU-2UNw)) ([Google+ Event Listing](https://plus.google.com/events/ciu7ro5upa09ebu9j4sj3s98hdc))
+  * **12:00:** [Arm Server Mini-Summit: Verticals-HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](https://www.youtube.com/watch?v=iOhtPU-2UNw)) ([Google+ Event Listing](https://plus.google.com/events/ciu7ro5upa09ebu9j4sj3s98hdc))
 
 
 

@@ -21,7 +21,7 @@ We are returning to the [Hyatt Regency Hotel](http://sanfranciscoairport.hyatt.c
 
 Why the same venue? It could be because we were hoping to overlap with the YaoiCon[1] convention as we did last year. Trust me, that is definitely not the reason although the convention was a topic of some interesting hallway discussions. As with most Connects, this venue offers a combination of convenience to a major airport as well as access to a cosmopolitan city with great people, restaurants, nightlif and attractions. In addition, the San Francisco Bay Area is a world center of innovation and is home (headquarters or major facility) for many of our member companies. 
 
-This Connect will be similar in format to HKG15 (translation, Linaro Connect Hong Kong 2015). The overall theme for the week will be security and there will be daily themes for each of the four segment groups. Simon Segars (ARM CEO) and George Grey (Linaro CEO) will be kicking off the week on Monday with opening keynotes. Expect to hear a glimpse of things to come for ARM and the ARM Ecosystem.
+This Connect will be similar in format to HKG15 (translation, Linaro Connect Hong Kong 2015). The overall theme for the week will be security and there will be daily themes for each of the four segment groups. Simon Segars (Arm CEO) and George Grey (Linaro CEO) will be kicking off the week on Monday with opening keynotes. Expect to hear a glimpse of things to come for Arm and the Arm Ecosystem.
 
 
 {% include image.html name="web-linaro-connect.jpg" alt="Web Linaro Connect Image" %}

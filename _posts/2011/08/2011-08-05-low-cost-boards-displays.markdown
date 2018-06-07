@@ -14,7 +14,7 @@ tags:
 - board
 - desktop
 - Linaro
-title: Using ARM low cost boards for displays
+title: Using Arm low cost boards for displays
 ---
 
 {% include image.html name="disp.jpg" alt="DISP" class="small-inline right" %}

@@ -43,7 +43,7 @@ In an earlier demonstration of the Linaro end-to-end IoT demo at Linaro Connect 
 * * *
 
 
-_A small team within Linaro, the goal for Linaro Technologies is to accelerate the delivery of product-quality open source software, including Linaro output, into the ARM ecosystem. Currently, the Linaro Technologies team is responsible for the 96Boards program and also has assisted Linaro OCE with software builds and releases. Working with Zephyr, the team has built an IoT demonstration project that showcases an end-to-end IoT device to cloud system built on open source and running on ARM. We also participate with others in the community driving KernelCI, the open source community project that provides Linux kernel build/boot testing @_ [_http://kernelci.org_](http://kernelci.org).
+_A small team within Linaro, the goal for Linaro Technologies is to accelerate the delivery of product-quality open source software, including Linaro output, into the Arm ecosystem. Currently, the Linaro Technologies team is responsible for the 96Boards program and also has assisted Linaro OCE with software builds and releases. Working with Zephyr, the team has built an IoT demonstration project that showcases an end-to-end IoT device to cloud system built on open source and running on Arm. We also participate with others in the community driving KernelCI, the open source community project that provides Linux kernel build/boot testing @_ [_http://kernelci.org_](http://kernelci.org).
 
 The End-to-end IoT Demonstration system.
 

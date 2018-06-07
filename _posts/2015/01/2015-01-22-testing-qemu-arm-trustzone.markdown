@@ -4,10 +4,10 @@ categories:
 - blog
 comments: true
 date: 2015-01-22 10:57:37
-description: Since the last post, the bulk of the ARM CPU Security Extension support
+description: Since the last post, the bulk of the Arm CPU Security Extension support
   has made it to upstream QEMU. Although the functional support is now available upstream,
   it is currently disabled while the details of the usage are ironed out
-excerpt: Since the last post, the bulk of the ARM CPU Security Extension support has
+excerpt: Since the last post, the bulk of the Arm CPU Security Extension support has
   made it to upstream QEMU. Although the functional support is now available upstream,
   it is currently disabled while the details of the usage are ironed out
 layout: post
@@ -18,40 +18,40 @@ tags:
 - qemu
 - testing
 - TrustZone
-title: Testing QEMU ARM TrustZone
+title: Testing QEMU Arm TrustZone
 wordpress_id: 7787
 ---
 
-# Testing QEMU ARM TrustZone
+# Testing QEMU Arm TrustZone
 
-A while back we wrote about the [QEMU implementation of ARM TrustZone](/blog/arm-trustzone-qemu/), also known as ARM Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
+A while back we wrote about the [QEMU implementation of Arm TrustZone](/blog/arm-trustzone-qemu/), also known as Arm Security extensions support, and now that this work is being accepted into mainline QEMU we want to highlight some aspects about the usage model and testing of the functionality.
 
 ### Ongoing Work and Progress
 
-Since the last post, the bulk of the ARM CPU Security Extension support has made it to upstream QEMU. Although the functional support is now available upstream, it is currently disabled while the details of the usage are ironed out. Specifically, command line options are being added to allow users to enable or disable the ARM Security extensions from the command line. This is especially important for maintaining backwards compatibility of existing machine models incorporating TrustZone enabled processors.
+Since the last post, the bulk of the Arm CPU Security Extension support has made it to upstream QEMU. Although the functional support is now available upstream, it is currently disabled while the details of the usage are ironed out. Specifically, command line options are being added to allow users to enable or disable the Arm Security extensions from the command line. This is especially important for maintaining backwards compatibility of existing machine models incorporating TrustZone enabled processors.
 
-Achieving backwards compatibility and allowing easy future use of ARM TrustZone, we are introducing the following configuration changes:
+Achieving backwards compatibility and allowing easy future use of Arm TrustZone, we are introducing the following configuration changes:
 
-  * The Security Extensions will be available only on machines supporting ARM1176, Cortex-A8, Cortex-A9, and Cortex A-15 CPUs.
+  * The Security Extensions will be available only on machines supporting Arm1176, Cortex-A8, Cortex-A9, and Cortex A-15 CPUs.
 
 
-  * The ARM Security extensions are currently only supported, and enabled by default, on the Versatile Express and the virt machine models. All other machine models will have the ARM Security extensions disabled by default.
+  * The Arm Security extensions are currently only supported, and enabled by default, on the Versatile Express and the virt machine models. All other machine models will have the Arm Security extensions disabled by default.
 
 
   * A ‘-secure=on/off’ machine option is introduced to allow the override of the default security extension settings on the above supported machines. This option is unavailable on all other machine models. Disabling the security extension will restore the legacy behavior to no secure state.
 
 
-  * Using the -kernel command line option to run Linux on an ARM Versatile Express machine model will result in it booting into the secure state by default. If undesirable, the user may disable the security extension as described above.
+  * Using the -kernel command line option to run Linux on an Arm Versatile Express machine model will result in it booting into the secure state by default. If undesirable, the user may disable the security extension as described above.
 
 
   * Use of the -kernel command line option to run Linux on a QEMU virt machine model will result in it booting into non-secure state by default. If undesirable, the user may disable the security extension as described above.
 
 
-  * Use of the -bios command line option on either the ARM Versatile Express or QEMU virt machine models will result in the machines starting up in secure state,  from cold reset, as defined by the ARM architecture. If undesirable, the user may disable the security extension as described above. The -bios command is the preferred approach for running TrustZone enabled environments.
+  * Use of the -bios command line option on either the Arm Versatile Express or QEMU virt machine models will result in the machines starting up in secure state,  from cold reset, as defined by the Arm architecture. If undesirable, the user may disable the security extension as described above. The -bios command is the preferred approach for running TrustZone enabled environments.
 
 ### Testing Goals
 
-Initially, the ARM Security extensions support within QEMU will have limited usage and exposure. This limited exposure makes the security functionality more susceptible to breakages going unnoticed. For this reason, it is important to have a well-defined set of tests to verify proper operation as well as to prevent future regressions.  We are developing a standalone test guest binary, which validates the QEMU security extension functionality.
+Initially, the Arm Security extensions support within QEMU will have limited usage and exposure. This limited exposure makes the security functionality more susceptible to breakages going unnoticed. For this reason, it is important to have a well-defined set of tests to verify proper operation as well as to prevent future regressions.  We are developing a standalone test guest binary, which validates the QEMU security extension functionality.
 
 As part of our overall mission to improve test coverage of open-source technologies, Linaro is committed to establish a testing framework for the implemented functionality to guard against functional regressions and defend the upstream code.
 
@@ -65,9 +65,9 @@ Given the above, our goal is to balance the complexity of creating a sufficient 
 
 ### Divergence From the Typical Use
 
-Emulating TrustZone enabled environments will typically rely on using the -bios command line option. This option allows machine emulation to begin at reset by loading and executing a raw image at a known starting address. The -bios command is a more low-level command giving users complete control of the first instruction executed when the CPU comes out of reset. This is in contrast to the on ARM more typically used -kernel command-line option, which skips over the initial machine reset by using its own internal bootloader to more conveniently jump right to the high-level OS.
+Emulating TrustZone enabled environments will typically rely on using the -bios command line option. This option allows machine emulation to begin at reset by loading and executing a raw image at a known starting address. The -bios command is a more low-level command giving users complete control of the first instruction executed when the CPU comes out of reset. This is in contrast to the on Arm more typically used -kernel command-line option, which skips over the initial machine reset by using its own internal bootloader to more conveniently jump right to the high-level OS.
 
-By using the -bios command line option, control of the bootloading stage is left up to the user just as is done on real hardware. This allows a true secure environment to be emulated in QEMU by allowing both secure and non-secure bootloading stages as directed by the user. This more closely emulates actual ARMv7 hardware, which starts in secure PL1 mode making it ideal for loading the initial secure bootloader.
+By using the -bios command line option, control of the bootloading stage is left up to the user just as is done on real hardware. This allows a true secure environment to be emulated in QEMU by allowing both secure and non-secure bootloading stages as directed by the user. This more closely emulates actual Armv7 hardware, which starts in secure PL1 mode making it ideal for loading the initial secure bootloader.
 
 The below diagram depicts one possible secure bootloader environment.
 
@@ -75,20 +75,20 @@ The below diagram depicts one possible secure bootloader environment.
 
 # Test Infrastructure
 
-In a typical ARM TrustZone environment, a bootloader is responsible for loading and initiating execution of the secure world software and possibly the non-secure world software as well. Most often, secure and non-secure software are separate binary images that are loaded into one or more ROM locations. The bootloader is usually sophisticated enough to perform the required amount of device initialization and image loading.
+In a typical Arm TrustZone environment, a bootloader is responsible for loading and initiating execution of the secure world software and possibly the non-secure world software as well. Most often, secure and non-secure software are separate binary images that are loaded into one or more ROM locations. The bootloader is usually sophisticated enough to perform the required amount of device initialization and image loading.
 
 
 ### Test Image Layout
 
 
-Given the standalone nature of the QEMU ARM TrustZone test, it would be overkill to use something as complicated as a bare-metal bootloader. Instead, to simplify the testing setup, we construct a single test binary by concatenating separate secure and non-secure images into a single file. Each of the images have fixed offsets in the binary file and are linked at a known starting virtual addresses for easy loading and execution of each image. The benefit of using a single binary is that QEMU can be invoked by simply using the -bios command line option to point to our single test binary.
+Given the standalone nature of the QEMU Arm TrustZone test, it would be overkill to use something as complicated as a bare-metal bootloader. Instead, to simplify the testing setup, we construct a single test binary by concatenating separate secure and non-secure images into a single file. Each of the images have fixed offsets in the binary file and are linked at a known starting virtual addresses for easy loading and execution of each image. The benefit of using a single binary is that QEMU can be invoked by simply using the -bios command line option to point to our single test binary.
 
 {% include image.html name="Test-Image-Layout-2" alt="Test-Image-Layout-2.jpg" %}
 
 ### Test Image Loading
 
 
-As defined by the ARM architecture, the CPU resets in the secure world and executes code from RAM at a predefined physical address. By loading the single binary into an execute-in-place flash device in QEMU mapped at the reset address, execution begins in the secure image which contains a small bootloader responsible for initializing the secure world. The secure world then initializes monitor mode which makes it possible to transition between the secure and non-secure worlds. The bootloader is also responsible for loading the non-secure image as well as eventually booting the non-secure software by going through monitor mode.
+As defined by the Arm architecture, the CPU resets in the secure world and executes code from RAM at a predefined physical address. By loading the single binary into an execute-in-place flash device in QEMU mapped at the reset address, execution begins in the secure image which contains a small bootloader responsible for initializing the secure world. The secure world then initializes monitor mode which makes it possible to transition between the secure and non-secure worlds. The bootloader is also responsible for loading the non-secure image as well as eventually booting the non-secure software by going through monitor mode.
 
 ### Test Case Components
 
@@ -128,7 +128,7 @@ As depicted below, all test functions originate as part of the non-secure user m
 
 {% include image.html name="non-secure-user-mode-quem-trustzon-4.jpg" alt="non-secure-user-mode-quem-trustzon-4" %}
 
-This framework is intended to resemble the real-world usage while validating that QEMU’s behavior matches the expected ARM Security extensions definitions. The approach both exercises the newly added functionality and stresses transitioning between the two worlds and their respective processor modes.
+This framework is intended to resemble the real-world usage while validating that QEMU’s behavior matches the expected Arm Security extensions definitions. The approach both exercises the newly added functionality and stresses transitioning between the two worlds and their respective processor modes.
 
 Test execution behaves as you might expect with a Trusted Execution Environment (TEE) by initiating secure operations from a user mode application. The executed test functions validate QEMU’s implementation of the TrustZone features while utilizing the features themselves. Just like a Trusted Execution Environment, execution utilizes secure monitor calls for transitioning between the worlds. As well, TrustZone features are leveraged to keep these worlds isolated.
 
@@ -311,7 +311,7 @@ Test for the secure to non-secure world handshake. This test is provided to insu
 
 #### Where can I TrustZone enabled QEMU?
 
-Since the past blog post ([/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)), the QEMU ARM TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
+Since the past blog post ([/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)), the QEMU Arm TrustZone support has been accepted into upstream QEMU. TrustZone enabled QEMU can now be obtained by cloning the official QEMU GIT repository at git://git.qemu.org/qemu.git.
 
 The instructions in the previous blog post are still relevant and may be followed for executing secure images.
 
@@ -319,7 +319,7 @@ The instructions in the previous blog post are still relevant and may be followe
 #### Where can I find the QEMU TrustZone validation test?
 
 
-The early QEMU TrustZone tests are available via GIT. Once cloned, change directory to the newly created test root directory (qemu.tztest in the below example), the test can be configured and built for a given architecture. Running configure with no options builds the test for Versatile Express with a ARM Cortex A15.
+The early QEMU TrustZone tests are available via GIT. Once cloned, change directory to the newly created test root directory (qemu.tztest in the below example), the test can be configured and built for a given architecture. Running configure with no options builds the test for Versatile Express with a Arm Cortex A15.
 
 ```bash
     $ git clone <a href="https://git.linaro.org/virtualization/qemu-tztest.git" target="_blank">https://git.linaro.org/virtualization/qemu-tztest.git</a>
@@ -351,7 +351,7 @@ Alternatively, the test can be configured for and run on QEMU’s virt device:
 ```
 
 
-Currently, the tests are restricted to the ARM Versatile Express and Virt machine models, but can be expanded in the future to include other models.
+Currently, the tests are restricted to the Arm Versatile Express and Virt machine models, but can be expanded in the future to include other models.
 
 ### References
 
@@ -364,6 +364,6 @@ Currently, the tests are restricted to the ARM Versatile Express and Virt machin
 
 [4] [https://github.com/jowinter/qemu-TrustZone](https://github.com/jowinter/qemu-trustzone)
 
-[5] DDI0406C ARM® Architecture Reference Manual - ARMv7-A and ARMv7-R edition
+[5] DDI0406C Arm® Architecture Reference Manual - Armv7-A and Armv7-R edition
 
 [6] [/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustzone-qemu/)

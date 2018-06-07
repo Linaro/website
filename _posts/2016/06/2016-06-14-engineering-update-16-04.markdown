@@ -4,7 +4,7 @@ date: 2016-06-14 21:43:43+00:00
 excerpt: The Linaro Digital Home Group (LHG) is pleased to announce a reference build
   of W3C EME Clear Key on the 96Boards HiKey platform.  The build uses open source
   components to implement an HTML5 browser-based playback of encrypted content using
-  OP-TEE running on ARM TrustZone.  The OpenEmbedded build system is employed in this
+  OP-TEE running on Arm TrustZone.  The OpenEmbedded build system is employed in this
   Linux-based implementation.
 layout: post
 link: /blog/engineering-update-16-04/
@@ -19,13 +19,13 @@ tags:
 - LHG
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Opensource
 ---
 
 _**Authors:  Mark Gregotski and Zoltan Kuscsik**_
 
-The Linaro Digital Home Group (LHG) is pleased to announce a reference build of W3C EME Clear Key on the 96Boards HiKey platform.  The build uses open source components to implement an HTML5 browser-based playback of encrypted content using OP-TEE running on ARM TrustZone.  The OpenEmbedded build system is employed in this Linux-based implementation.
+The Linaro Digital Home Group (LHG) is pleased to announce a reference build of W3C EME Clear Key on the 96Boards HiKey platform.  The build uses open source components to implement an HTML5 browser-based playback of encrypted content using OP-TEE running on Arm TrustZone.  The OpenEmbedded build system is employed in this Linux-based implementation.
 
 This Chromium browser-based implementation is an end-to-end solution that retrieves encrypted video from a server and locally provide secure decryption via OP-TEE.
 
@@ -47,7 +47,7 @@ A link to real encrypted video content to playback!
 
 All 64-bit execution mode in both Secure (including Trusted Applications) and Non-secure environments.
 
-The build uses a pre-built binary (fip.bin) for the ARM Trusted Firmware and OP-TEE build.  Using a Firmware Image Package (FIP) allows for packing bootloader images (and potentially other payloads) into a single archive that can be loaded by the ARM Trusted Firmware from nonvolatile platform storage. A driver to load images from a FIP has been added to the storage layer and allows a package to be read from supported platform storage.
+The build uses a pre-built binary (fip.bin) for the Arm Trusted Firmware and OP-TEE build.  Using a Firmware Image Package (FIP) allows for packing bootloader images (and potentially other payloads) into a single archive that can be loaded by the Arm Trusted Firmware from nonvolatile platform storage. A driver to load images from a FIP has been added to the storage layer and allows a package to be read from supported platform storage.
 
 Link to player (part of the readme instructions): [http://people.linaro.org/~peter.griffin/chrome/eme_player.html](http://people.linaro.org/~peter.griffin/chrome/eme_player.html)
 
@@ -57,7 +57,7 @@ The W3C EME specification details the messaging flow between elements that suppo
 
 {% include image.html name="ClearKey1.png" alt="ClearKey1" %}
 
-The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in ARM TrustZone.
+The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
 
 
 {% include image.html name="ClearKey2.png" alt="ClearKey2" %}

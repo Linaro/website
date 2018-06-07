@@ -44,10 +44,10 @@ Type of Session: Presentation/Training
 
 
 
-#### Title: [BKK16-212](http://connect.linaro.org/resource/bkk16/bkk16-212/) **What's broken on ARM64?**
+#### Title: [BKK16-212](http://connect.linaro.org/resource/bkk16/bkk16-212/) **What's broken on Arm64?**
 
 
-Abstract: The ARM64 port is now in pretty good shape with most things ported and built in distributions. However we know that there is plenty of software that is not optimised and some may not actually work at all. In this session, we encouraged attendees to share their experience with arm64 and what they felt did not work as well as it did on x86. Linaro, ARM and Debian were keen to use this opportunity to get as much feedback as possible on where to direct effort next.
+Abstract: The Arm64 port is now in pretty good shape with most things ported and built in distributions. However we know that there is plenty of software that is not optimised and some may not actually work at all. In this session, we encouraged attendees to share their experience with arm64 and what they felt did not work as well as it did on x86. Linaro, Arm and Debian were keen to use this opportunity to get as much feedback as possible on where to direct effort next.
 
 Type of Session: Presentation/Training
 
@@ -62,7 +62,7 @@ Type of Session: Presentation/Training
 #### Title: [BKK16-200](http://connect.linaro.org/resource/bkk16/bkk16-200/) **Designing security into constrained IoT Systems**
 
 
-Abstract: Trust and security are essential for the Internet of Things (IoT) to scale. As your product becomes successful, attraction will be high for it to be hacked and, as a consumer, you'll suffer with consequences if security is not baked into the system, at every level. With IoT, we now need to enable an appropriate level of security for sub $1 IoT designs done by people with little or no security expertise. In this presentation, we talked about how ARM, Linaro and the ARM partnership are securing these sub $1 IoT endpoints by providing device security, lifecycle security and communication security, without the need for in-depth security experts…
+Abstract: Trust and security are essential for the Internet of Things (IoT) to scale. As your product becomes successful, attraction will be high for it to be hacked and, as a consumer, you'll suffer with consequences if security is not baked into the system, at every level. With IoT, we now need to enable an appropriate level of security for sub $1 IoT designs done by people with little or no security expertise. In this presentation, we talked about how Arm, Linaro and the Arm partnership are securing these sub $1 IoT endpoints by providing device security, lifecycle security and communication security, without the need for in-depth security experts…
 
 Type of Session: Presentation/Training
 
@@ -77,7 +77,7 @@ Type of Session: Presentation/Training
 #### Title: [BKK16-110](http://connect.linaro.org/resource/bkk16/bkk16-110/)** A Gentle Introduction to Trusted Execution and OP-TEE**
 
 
-Abstract: Smart connected devices such as mobile phones, tablets and Digital TVs are required to handle data with strong security and confidentiality requirements. A “Trusted Execution Environment” (TEE) provides an environment for processing data securely, protected from normal platform applications. This talk was intended as an introduction to Trusted Execution, and the open-source Trusted Execution Environment OP-TEE in particular. It introduced the GlobalPlatform TEE Specifications, explained how Trusted Execution is implemented by ARM TrustZone and OP-TEE, and outlined how trusted boot software manages the secure boot of an ARM platform. Finally, it gave some pointers on how to get started with OP-TEE.
+Abstract: Smart connected devices such as mobile phones, tablets and Digital TVs are required to handle data with strong security and confidentiality requirements. A “Trusted Execution Environment” (TEE) provides an environment for processing data securely, protected from normal platform applications. This talk was intended as an introduction to Trusted Execution, and the open-source Trusted Execution Environment OP-TEE in particular. It introduced the GlobalPlatform TEE Specifications, explained how Trusted Execution is implemented by Arm TrustZone and OP-TEE, and outlined how trusted boot software manages the secure boot of an Arm platform. Finally, it gave some pointers on how to get started with OP-TEE.
 
 Speaker: Russell Wayman, Member Services
 

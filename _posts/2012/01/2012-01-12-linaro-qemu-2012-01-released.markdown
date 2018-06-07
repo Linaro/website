@@ -5,7 +5,7 @@ categories:
 date: 2012-01-12 17:41:24
 description: Announcement of the Linaro QEMU 2012.01 release. New features and known
   issues.
-keywords: Linaro, Linux on ARM, Toolchain, QEMU, Open Source
+keywords: Linaro, Linux on Arm, Toolchain, QEMU, Open Source
 layout: post
 link: /blog/releases-blog/linaro-qemu-2012-01-released/
 slug: linaro-qemu-2012-01-released
@@ -20,11 +20,11 @@ wordpress_id: 1173
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2012.01.
 
-Linaro QEMU 2012.01 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro QEMU 2012.01 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
 
-  * Several bug fixes which reinstate support for running on ARM hosts
+  * Several bug fixes which reinstate support for running on Arm hosts
 
 
   * Support for previously missing \*xattr syscalls in usermode emulation

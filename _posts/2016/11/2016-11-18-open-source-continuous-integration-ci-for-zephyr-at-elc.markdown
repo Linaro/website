@@ -12,7 +12,7 @@ slug: open-source-continuous-integration-ci-for-zephyr-at-elc
 tags:
 - IoT
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - LITE
 - Open Source
 - Opensource
@@ -71,7 +71,7 @@ For more information on Linaro LITE please check out:
 # Linaro and Zephyr
 
 
-If you know Linaro, you’ll most likely know us as leading open source collaboration in the ARM ecosystem, and that our initial formation in 2010 saw us tackling fragmentation in the ARM Linux kernel and being the reference point for gcc toolchain support for ARM. Since then we’ve evolved to be a significant force in open source with more than 30 member companies. As well as kernel and toolchain, work includes software stacks and tools in mobile, networking, servers, the digital home and IoT.
+If you know Linaro, you’ll most likely know us as leading open source collaboration in the Arm ecosystem, and that our initial formation in 2010 saw us tackling fragmentation in the Arm Linux kernel and being the reference point for gcc toolchain support for Arm. Since then we’ve evolved to be a significant force in open source with more than 30 member companies. As well as kernel and toolchain, work includes software stacks and tools in mobile, networking, servers, the digital home and IoT.
 
 Since I was presenting a demo that was based on Zephyr, which is a real-time operating system (RTOS), rather than on Linaro’s home turf of the Linux kernel, it’s worth explaining that earlier this year, Linaro launched its IoT and Embedded (LITE) Segment Group with a mission in the IoT and embedded space which included  
 

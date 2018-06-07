@@ -31,7 +31,7 @@ Interesting changes include:
   * Implements 64 bit ones complement in NEON
 
 
-  * Adds support for the ARMv6 saturation instructions
+  * Adds support for the Armv6 saturation instructions
 
 
   * Backports the NEON lexer improvements for faster compilation

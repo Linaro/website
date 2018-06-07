@@ -35,4 +35,4 @@ After the keynotes we had a wide range of sessions, including BOFs on AI and Mac
 
 Tomorrow is the last day of Linaro Connect HKG18! We will start the day with two keynotes - Dileep Bhandarkar from Qualcomm who will talk about emerging computing trends in the data centre and Dr Laura Dekker who will talk about advanced computation, open source systems and art. All keynotes are livestreamed on Linaro’s youtube channel [here](https://www.youtube.com/channel/UCAl2MfCBjH5y0nIym0ujHfg/live). The keynotes will be followed by various session topics, including HPC Compiler Quality, Fedora Atomic, QEMU in UEFI and the new Linaro Enterprise Lab. All session recordings and slides will be made available on the [Linaro Connect resources page](http://connect.linaro.org/hkg18/resources/) shortly. 
 
-Lastly, we will see lots of demos of the latest ARM technology at Demo Friday where Charbax will be on hand to film as many demos as possbile! 
+Lastly, we will see lots of demos of the latest Arm technology at Demo Friday where Charbax will be on hand to film as many demos as possbile! 

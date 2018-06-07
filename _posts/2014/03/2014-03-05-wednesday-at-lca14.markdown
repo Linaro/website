@@ -14,14 +14,14 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Wednesday at LCA14
 wordpress_id: 3505
 ---
 
-Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for ARM64”.  This got the day off with a good overview of enterprise workloads on Linux on ARM64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”.
+Wednesday at Linaro Connect Asia 2014 proved to be a very exciting day of keynotes, sessions and the Linaro “Bond Themed” gala dinner.  The day started off with a keynote address by Xinwei Hu, of Huawei on “Profiling server workload for Arm64”.  This got the day off with a good overview of enterprise workloads on Linux on Arm64.  Following that keynote there was a second one by Cole Crawford, Executive Director of the Open Compute Project Foundation, titled “Future is Wide Open”.
 
 Keynotes:
 <table cellpadding="0" width="774" cellspacing="0" border="1" class="table responsive-table" >
@@ -41,7 +41,7 @@ Wednesday March 5
 </td>
 
 <td width="194" valign="top" markdown="1">
-[**Video**** **](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/Wednesday%20Keynote%20-%20%2527Profiling%20server%20workload%20for%20ARM64%2527%20%2526%20%2527Cole%20Crawford%20Keynote%2527.mp4)(Linaro Server)
+[**Video**** **](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/Wednesday%20Keynote%20-%20%2527Profiling%20server%20workload%20for%20Arm64%2527%20%2526%20%2527Cole%20Crawford%20Keynote%2527.mp4)(Linaro Server)
 </td>
 </tr>
 <tr >
@@ -59,12 +59,12 @@ Wednesday March 5
 </td>
 
 <td width="194" valign="top" markdown="1">
-[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/Wednesday%20Keynote%20-%20%2527Profiling%20server%20workload%20for%20ARM64%2527%20%2526%20%2527Cole%20Crawford%20Keynote%2527.mp4) (Linaro Server)* begins at 24:42
+[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/Wednesday%20Keynote%20-%20%2527Profiling%20server%20workload%20for%20Arm64%2527%20%2526%20%2527Cole%20Crawford%20Keynote%2527.mp4) (Linaro Server)* begins at 24:42
 </td>
 </tr>
 </tbody>
 </table>
-Wednesday was another full day filled with sessions from the working groups, engineering teams and segment groups.  Topic areas include the ARMv8 kernel, Energy-efficient Scheduler, big.LITTLE GTS, Android, ARM Trusted Firmware, 64-bit GNU and LLVM toolchains, UEFI secure boot, ACPI, OpenDataPlane (ODP), VM Standards, LSK and LAVA/CI Loops.  Below are the links to the session presentations and videos that took place on Wednesday.[
+Wednesday was another full day filled with sessions from the working groups, engineering teams and segment groups.  Topic areas include the Armv8 kernel, Energy-efficient Scheduler, big.LITTLE GTS, Android, Arm Trusted Firmware, 64-bit GNU and LLVM toolchains, UEFI secure boot, ACPI, OpenDataPlane (ODP), VM Standards, LSK and LAVA/CI Loops.  Below are the links to the session presentations and videos that took place on Wednesday.[
 ](/assets/blog/12941187924_7dc616613c.jpg)
 <table cellpadding="0" width="874" cellspacing="0" border="1" >
 <tbody >
@@ -149,7 +149,7 @@ Wednesday March 5, 2014
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[**LCA14-304: Building Android with CLANG for ARM v7 and v8 platforms**](http://lca-14.zerista.com/event/member/102394)
+[**LCA14-304: Building Android with CLANG for Arm v7 and v8 platforms**](http://lca-14.zerista.com/event/member/102394)
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -161,7 +161,7 @@ Wednesday March 5, 2014
 </td>
 
 <td width="227" valign="top" markdown="1">
-[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/LCA14-304-%20Building%20Android%20with%20CLANG%20for%20ARM%20v7%20and%20v8%20platforms.mp4) (Linaro Server)
+[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/LCA14-304-%20Building%20Android%20with%20CLANG%20for%20Arm%20v7%20and%20v8%20platforms.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -221,7 +221,7 @@ No Video Available
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[**LCA14-308: ARMv8 Status & Directions**](http://lca-14.zerista.com/event/member/102397)
+[**LCA14-308: Armv8 Status & Directions**](http://lca-14.zerista.com/event/member/102397)
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -233,7 +233,7 @@ No Video Available
 </td>
 
 <td width="227" valign="top" markdown="1">
-[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/LCA14-308-%20ARMv8%20Status%20%2526%20Directions.mp4) (Linaro Server)
+[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-05-Wednesday/LCA14-308-%20Armv8%20Status%20%2526%20Directions.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >

@@ -3,9 +3,9 @@ author: linaro
 categories:
 - blog
 date: 2013-01-10 14:10:41
-description: Individuals and organizations who are using Linaro Code on ARM based
+description: Individuals and organizations who are using Linaro Code on Arm based
   processor boards are invited to participate in Demo Friday and highlight their work.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
   Kong, LCA13, Linaro Connect, Demo Friday, Poster Program,  Sponsorship, Registration
 layout: post
 link: /blog/community-blog/be-a-show-off-demo-and-poster-opportunities-available-at-lca13-in-hong-kong/
@@ -21,18 +21,18 @@ wordpress_id: 2216
 
 {% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://connect.linaro.org/lca13/"%}
 
-Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination Arm based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?
 
-Demo Friday is a two-hour event that will showcase new and innovative ways Linaro members, partners and community are using various Linaro builds and other Linaro based code on ARM based processor boards. Demo Friday will take place on Friday, March 8, 2013 at Gold Coast Hotel in Hong Kong (_Exact time and location to be determined_). Demo Friday is open to the public. This is an exciting and educational opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM based processor boards for Linux on ARM.
+Demo Friday is a two-hour event that will showcase new and innovative ways Linaro members, partners and community are using various Linaro builds and other Linaro based code on Arm based processor boards. Demo Friday will take place on Friday, March 8, 2013 at Gold Coast Hotel in Hong Kong (_Exact time and location to be determined_). Demo Friday is open to the public. This is an exciting and educational opportunity for everyone to get a hands on demonstration of what Linaro is enabling with Arm based processor boards for Linux on Arm.
 
 
 ## Poster Program Added
 
 
-New to our Demo Friday event will be a Poster Program.  This program is for those who would like to let attendees know how they or their organization is using Linaro code and ARM based processors, but can’t actually bring the equipment to the Linaro Connect event.
+New to our Demo Friday event will be a Poster Program.  This program is for those who would like to let attendees know how they or their organization is using Linaro code and Arm based processors, but can’t actually bring the equipment to the Linaro Connect event.
 
 More information on this program can be found [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
@@ -46,7 +46,7 @@ Previous demonstration events have included Kinnect-face robot recognizing human
 ## How to participate
 
 
-All companies and engineers who are using Linaro on ARM based processor boards are invited to participate in Demo Friday with either a demo or a poster and highlight their work. Demonstrations and Posters for the Demo Friday event have not yet been finalized and there are opportunities to add more to the line-up. Anyone interested in this opportunity to participate can email the details of their demonstration to: [connect@linaro.org](mailto:connect@linaro.org). Please put "LCA13 Demo Friday Submission" in the subject line.
+All companies and engineers who are using Linaro on Arm based processor boards are invited to participate in Demo Friday with either a demo or a poster and highlight their work. Demonstrations and Posters for the Demo Friday event have not yet been finalized and there are opportunities to add more to the line-up. Anyone interested in this opportunity to participate can email the details of their demonstration to: [connect@linaro.org](mailto:connect@linaro.org). Please put "LCA13 Demo Friday Submission" in the subject line.
 
 When emailing please include the following information:
 
@@ -90,13 +90,13 @@ What are you waiting for? [Register today](http://linaro.eventbrite.co.uk/) and 
 
 _**Linaro **_
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure._
 
 _To find out more, please visit[ ](/)._
 
 _**Linaro Connect**_
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 __To find out more, please visit the _[ Linaro Connect Website](http://connect.linaro.org/)._
 

@@ -14,7 +14,7 @@ title: Wednesday highlights from Linaro Connect Hong Kong 2015
 wordpress_id: 7976
 ---
 
-Wednesday began with two guest keynotes for attendees to go to.  The first was by Bob Monkman, Enterprise Segment Marketing Manager at ARM.  Bob's keynote topic was "The impact of ARM in the next generation cloud and communication network infrastructure".  He spoke about the new era of workload optimized servers and how one size does not fit all any longer.  The second keynote of the day was given by Greg Kroah-Hartman, Fellow at Linux Foundation.  Greg's keynote topic was "An introduction to the Greybus Project".  Greg gave a great overview of the status of this Google sponsored project he worked on with Linaro.
+Wednesday began with two guest keynotes for attendees to go to.  The first was by Bob Monkman, Enterprise Segment Marketing Manager at Arm.  Bob's keynote topic was "The impact of Arm in the next generation cloud and communication network infrastructure".  He spoke about the new era of workload optimized servers and how one size does not fit all any longer.  The second keynote of the day was given by Greg Kroah-Hartman, Fellow at Linux Foundation.  Greg's keynote topic was "An introduction to the Greybus Project".  Greg gave a great overview of the status of this Google sponsored project he worked on with Linaro.
 
 After the morning keynotes the attendees kicked off another day of sessions and hacking.  To see all the presentations available from this week please visit the [Linaro slideshare. ](http://www.slideshare.net/linaroorg)  Also many of the videos from sessions on Monday and Tuesday are now available for viewing and can be watched on the [Linaro YouTube Channel.](https://www.youtube.com/user/LinaroOnAir/videos)
 

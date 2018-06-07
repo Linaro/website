@@ -6,7 +6,7 @@ date: 2013-01-07 15:04:31
 description: Take a look at the key take-away message for the big.LITTLE Mini-Summit
   as you find out how you can get involved with the Linaro Power Management team at
   LCA13.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE12-Copenhagen,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE12-Copenhagen,
   LCA13-Hong Kong, big.LITTLE Mini-Summit, Power Management, b.L, IKS, TC2
 layout: post
 link: /blog/community-blog/linaro-connect-europe-big-little-mini-summit-summary/
@@ -24,7 +24,7 @@ The [Linaro big.LITTLE Mini-Summit](http://connect.linaro.org/resources/) that w
 ## big.LITTLE Mini-Summit information
 
 
-The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [ARMv8(64-bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
+The big.LITTLE mini-summit followed the same format as both the [Android](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) and [Armv8(64-bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/) mini-summits with opening plenary and a lightning talk followed by four planning and discussion sessions.
 
 Those four sessions included topics focused on the following:
 
@@ -41,14 +41,14 @@ Those four sessions included topics focused on the following:
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
-{% include image.html name="ARMs_Test_Chip_2TC2_An_Overview.png" alt="ARMs Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
+{% include image.html name="ARMs_Test_Chip_2TC2_An_Overview.png" alt="Arms Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
 
 
-During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at ARM) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and ARM.
+During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at Arm) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and Arm.
 
-They touched upon the two big.LITTLE (b.L) modes - IKS and MP, current implementation status, performance and power numbers being observed with ARM’s TC2 boards and further work required.
+They touched upon the two big.LITTLE (b.L) modes - IKS and MP, current implementation status, performance and power numbers being observed with Arm’s TC2 boards and further work required.
 
-The key take-away message from these talks was that initial power and performance numbers on the ARM TC2 hardware (2 A15 + 3 A7) prove the efficacy of the b.L hardware concept and establish a baseline to improve upon. For example, a web-browsing + mp3 usecase in b.L IKS mode ran at 90% of the performance while consuming only 60% of the power compared to the same use case running purely on an A15 system. The b.L MP case was showed similar numbers in measurements inside Linaro (ARM’s results were missing some A15 quiescing patches at the time of the summit, thus yielding much higher power numbers. This has been fixed since then).
+The key take-away message from these talks was that initial power and performance numbers on the Arm TC2 hardware (2 A15 + 3 A7) prove the efficacy of the b.L hardware concept and establish a baseline to improve upon. For example, a web-browsing + mp3 usecase in b.L IKS mode ran at 90% of the performance while consuming only 60% of the power compared to the same use case running purely on an A15 system. The b.L MP case was showed similar numbers in measurements inside Linaro (Arm’s results were missing some A15 quiescing patches at the time of the summit, thus yielding much higher power numbers. This has been fixed since then).
 
 The highly technical sessions were dedicated to finding solutions to known problems in Linux that will allow it to work more efficiently on b.L hardware. These problems included:
 
@@ -131,7 +131,7 @@ For more information about each of these sessions and how you can get involved, 
 ## What is big.Little Processing?
 
 
-According to ARM’s big.LITTLE webpage it is described as, “big.LITTLE processing addresses one of today’s industry challenges: how to create a System on Chip (SoC) that provides both high performance as well as extreme power efficiency to extend battery life. big.LITTLE connects the performance of the [ARM Cortex-A15](http://www.arm.com/products/processors/cortex-a/cortex-a15.php) or [Cortex-A57](http://www.arm.com/products/processors/cortex-a50/cortex-a57-processor.php) processor with the energy efficiency of the [Cortex-A7](http://www.arm.com/products/processors/cortex-a/cortex-a7.php) or [Cortex-A53](http://www.arm.com/products/processors/cortex-a50/cortex-a53-processor.php) processors respectively, enabling the same application software to switch seamlessly between them. By selecting the optimum processor for each task, big.LITTLE can extend battery life by up to 70%.”  - From the [ARM website on big.LITTLE Processing](http://www.arm.com/products/processors/technologies/biglittleprocessing.php)
+According to Arm’s big.LITTLE webpage it is described as, “big.LITTLE processing addresses one of today’s industry challenges: how to create a System on Chip (SoC) that provides both high performance as well as extreme power efficiency to extend battery life. big.LITTLE connects the performance of the [Arm Cortex-A15](http://www.arm.com/products/processors/cortex-a/cortex-a15.php) or [Cortex-A57](http://www.arm.com/products/processors/cortex-a50/cortex-a57-processor.php) processor with the energy efficiency of the [Cortex-A7](http://www.arm.com/products/processors/cortex-a/cortex-a7.php) or [Cortex-A53](http://www.arm.com/products/processors/cortex-a50/cortex-a53-processor.php) processors respectively, enabling the same application software to switch seamlessly between them. By selecting the optimum processor for each task, big.LITTLE can extend battery life by up to 70%.”  - From the [Arm website on big.LITTLE Processing](http://www.arm.com/products/processors/technologies/biglittleprocessing.php)
 
 More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel/](https://wiki.linaro.org/WorkingGroups/Kernel/)
 
@@ -172,7 +172,7 @@ You can also stay in touch with what is happening in around Linaro by following 
 
 
 
-  * _The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple ARM SoCs._
+  * _The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple Arm SoCs._
 
 
 

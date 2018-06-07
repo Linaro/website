@@ -15,7 +15,7 @@ tags:
 - idle
 - kernel
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - suspend to idle
 ---
 
@@ -154,8 +154,8 @@ sh: write error: Invalid argument
 
 ## Future Developments
 
-There are two areas where work is currently being done on Suspend to Idle on ARM platforms. The first area was mentioned earlier in the platform_suspend_ops prerequisite section. The work to always allow for the freeze state was accepted and will be part of the 4.9 kernel. The other area that is being worked on is the freeze_function support.
+There are two areas where work is currently being done on Suspend to Idle on Arm platforms. The first area was mentioned earlier in the platform_suspend_ops prerequisite section. The work to always allow for the freeze state was accepted and will be part of the 4.9 kernel. The other area that is being worked on is the freeze_function support.
 
-The freeze_function implementation is currently required if you want the best response/performance. However, since most SoCs will use the ARM cpuidle driver, it makes sense for the ARM cpuidle driver to implement its own generic freeze_function. And in fact, ARM is working to add this generic support. A SoC vendor should only have to implement specialized freeze_functions if they implement their own cpuidle driver or require additional provisioning before entering their deepest freezable idle state.
+The freeze_function implementation is currently required if you want the best response/performance. However, since most SoCs will use the Arm cpuidle driver, it makes sense for the Arm cpuidle driver to implement its own generic freeze_function. And in fact, Arm is working to add this generic support. A SoC vendor should only have to implement specialized freeze_functions if they implement their own cpuidle driver or require additional provisioning before entering their deepest freezable idle state.
 
 

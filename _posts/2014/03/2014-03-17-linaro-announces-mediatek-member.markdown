@@ -17,21 +17,21 @@ wordpress_id: 5327
 
 CAMBRIDGE, UK - 17 MAR 2014
 
-Linaro Ltd, the not-for-profit engineering organization developing open source software for the ARM® architecture, today announced that MediaTek has joined Linaro as a member.
+Linaro Ltd, the not-for-profit engineering organization developing open source software for the Arm® architecture, today announced that MediaTek has joined Linaro as a member.
 
-MediaTek is a leading worldwide designer of systems on a chip (SOCs) for mobile and home entertainment products. ARM-based processors are widely used in MediaTek platforms, including the company’s new 64-bit octa-core MT6752 with LTE. This 64-bit architecture is central to its strategy for continued expansion and success in global markets.
+MediaTek is a leading worldwide designer of systems on a chip (SOCs) for mobile and home entertainment products. Arm-based processors are widely used in MediaTek platforms, including the company’s new 64-bit octa-core MT6752 with LTE. This 64-bit architecture is central to its strategy for continued expansion and success in global markets.
 
 Linaro membership will allow MediaTek to further accelerate the time-to-market for its technology partners. MediaTek brings a wealth of experience to Linaro, both from its long history of developing highly integrated SOCs for a range of applications as well as its deep expertise in innovative cross-platform solutions.
 
-“MediaTek is an innovative and exciting company in the ARM ecosystem” said George Grey, Linaro CEO. “We are very pleased that MediaTek has decided to join Linaro, and we look forward to working closely with them on accelerating open source support for new ARM technologies, such as the 64-bit ARMv8 processor architecture.”
+“MediaTek is an innovative and exciting company in the Arm ecosystem” said George Grey, Linaro CEO. “We are very pleased that MediaTek has decided to join Linaro, and we look forward to working closely with them on accelerating open source support for new Arm technologies, such as the 64-bit Armv8 processor architecture.”
 
-“MediaTek has been a long-time partner of ARM and is supportive of open source communities like Linaro. We’re delighted to have this opportunity to collaborate with other industry leaders to drive open source innovations,” said Kevin Jou, MediaTek’s Chief Technology Officer.
+“MediaTek has been a long-time partner of Arm and is supportive of open source communities like Linaro. We’re delighted to have this opportunity to collaborate with other industry leaders to drive open source innovations,” said Kevin Jou, MediaTek’s Chief Technology Officer.
 
-MediaTek engineers fully participated last week in Linaro Connect Asia 2014 (LCA14) in Macau. This event, held twice each year, brings together Linaro members and community engineers from around the world to discuss, define and agree on Linaro's roadmaps across its work in core ARM enablement, as well as on the software ecosystem for mobile, networking and server market segments.
+MediaTek engineers fully participated last week in Linaro Connect Asia 2014 (LCA14) in Macau. This event, held twice each year, brings together Linaro members and community engineers from around the world to discuss, define and agree on Linaro's roadmaps across its work in core Arm enablement, as well as on the software ecosystem for mobile, networking and server market segments.
 
 **About Linaro**
 
-Linaro is the place where engineers from the world’s leading technology companies define the future of open source on ARM. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
+Linaro is the place where engineers from the world’s leading technology companies define the future of open source on Arm. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit.
 

@@ -6,7 +6,7 @@ date: 2013-02-12 16:00:15
 description: Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and
   Greg Kroah-Hartman of the Linux Foundation are all set to give enthusiastic and
   motivating keynotes.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
   Kong, Speakers, Announcement, Jonathan Corbet, Lars Kurth, Jason Taylor, Greg K-H,
   Greg Kroah-Hartman
 layout: post
@@ -21,7 +21,7 @@ wordpress_id: 2323
 
 {% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="http://connect.linaro.org"%}
 
-[Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](http://connect.linaro.org/) as engineers from around the ARM ecosystem gather to build the future of Linux on ARM.
+[Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](http://connect.linaro.org/) as engineers from around the Arm ecosystem gather to build the future of Linux on Arm.
 
 **Keynote Speakers**
 
@@ -46,7 +46,7 @@ There are many interesting [planning and discussion sessions](https://lca-13.zer
   * Training
 
 
-  * ARM Enterprise Server
+  * Arm Enterprise Server
 
 
   * Kernel
@@ -54,7 +54,7 @@ There are many interesting [planning and discussion sessions](https://lca-13.zer
 
 **Mini-Summit**
 
-Also being held during this event is an ARM Enterprise Server Mini-Summit which will include sessions on UEFI, ACPI, Verticals-Web Server and Caching Technologies, Verticals-HipHopVM and Hadoop Distributed File Systems.
+Also being held during this event is an Arm Enterprise Server Mini-Summit which will include sessions on UEFI, ACPI, Verticals-Web Server and Caching Technologies, Verticals-HipHopVM and Hadoop Distributed File Systems.
 
 **Demo Friday**
 
@@ -73,7 +73,7 @@ There will also be new demos added to the [Demo Friday](/blog/demo-friday-at-lin
   * Linaro NDK
 
 
-  * GRUB on ARM (Uboot)
+  * GRUB on Arm (Uboot)
 
 
   * ACPI
@@ -82,7 +82,7 @@ There will also be new demos added to the [Demo Friday](/blog/demo-friday-at-lin
   * UEFI SCT
 
 
-If you will be at Connect and want to show off how you or your organization is using Linaro Code and ARM boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
+If you will be at Connect and want to show off how you or your organization is using Linaro Code and Arm boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
 **Register Today!**
 
@@ -90,13 +90,13 @@ Registration for Linaro Connect Asia 2013 is [still open](http://connect.linaro.
 
 **_About Linaro_**
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure._
 
 _To find out more, please visit[ ](/).[](/about/)_
 _ [](/about/)_
 **_ About Linaro Connect_**
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 __To find out more, please visit [Connect](http://connect.linaro.org)__
 

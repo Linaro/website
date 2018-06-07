@@ -16,14 +16,14 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: A look back at LAS16
 wordpress_id: 11749
 ---
 
-The Linaro Connect Las Vegas 2016 (LAS16) was one of the largest Connect events to date. Linaro Connect Las Vegas 2016 (LAS16) was a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on ARM community and LAS16 was no exception. The week was full of great keynotes each morning covering many different topics in the community. There was an announcement of a new segment group at Linaro, the [Linaro IoT and Embedded Group (LITE)](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/).  The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Standards are essential to the success of IoT and the LITE group will bring together ARM ecosystem support for key standards and engineering work to support reliable implementations.
+The Linaro Connect Las Vegas 2016 (LAS16) was one of the largest Connect events to date. Linaro Connect Las Vegas 2016 (LAS16) was a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun.  Linaro Connect brings together the best and the brightest of the Linux on Arm community and LAS16 was no exception. The week was full of great keynotes each morning covering many different topics in the community. There was an announcement of a new segment group at Linaro, the [Linaro IoT and Embedded Group (LITE)](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/).  The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Standards are essential to the success of IoT and the LITE group will bring together Arm ecosystem support for key standards and engineering work to support reliable implementations.
 
 The week of sessions included many different tracks that attendees could attend, with each day focused on a particular segment within Linaro. Along with all the sessions and hacking there was also the traditional demo Friday that was held to showcase all the hard work that was done by the various teams over the last several months. Attendees were able to enjoy lunch while wandering the exhibit hall full of demos by both Linaro and it's member companies.
 
@@ -84,7 +84,7 @@ During LAS16 we also had three mini conferences that took place. Below is an ove
 
 Presentations and Videos: [http://connect.linaro.org/resource/las16/las16-200/](http://connect.linaro.org/resource/las16/las16-200/)
 
-**Title: ARM64 ASWG and Linux ACPI update**
+**Title: Arm64 ASWG and Linux ACPI update**
 Speaker: Al Stone, Hanjun Guo
 
 
@@ -208,10 +208,10 @@ Below are the sessions held by each of the Linaro Segment teams during the week 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-305/](http://connect.linaro.org/resource/las16/las16-305/)
 
-  * **LAS16-309: Server Ecosystem: Xen on ARM, from Big Iron to IoT & LuaJIT status on Aarch64**
+  * **LAS16-309: Server Ecosystem: Xen on Arm, from Big Iron to IoT & LuaJIT status on Aarch64**
 
-    * Abstract Xen on ARM: The Xen port is exploiting this set of new hardware capabilities to run guest VMs in the most efficient way possible while keeping ARM specific changes to Xen and Linux to a minimum. ARM virtualization is set to be increasingly relevant for the embedded industry in the coming years.Whilst Xen is best known as the technology powering the biggest clouds in the industry, it also a great fit for automotive deployments and mobile devices that can fit in your pocket. The talk will give concrete examples of the ways Xen can add value to your platforms, not only by providing an excellent general purpose virtualization solution, but also by providing simple, yet effective ways to partition the platform into different security domains.
-This presentation will include a brief overview of the Xen on ARM architecture, covering the key design principles employed. The techniques pioneered during the ARM port that allowed the Xen community to remove many legacy components from the Xen code base, streamlining both the ARM and x86 implementations. The talk will conclude explaining how to port Xen to any new ARM boards with the least amount of effort.
+    * Abstract Xen on Arm: The Xen port is exploiting this set of new hardware capabilities to run guest VMs in the most efficient way possible while keeping Arm specific changes to Xen and Linux to a minimum. Arm virtualization is set to be increasingly relevant for the embedded industry in the coming years.Whilst Xen is best known as the technology powering the biggest clouds in the industry, it also a great fit for automotive deployments and mobile devices that can fit in your pocket. The talk will give concrete examples of the ways Xen can add value to your platforms, not only by providing an excellent general purpose virtualization solution, but also by providing simple, yet effective ways to partition the platform into different security domains.
+This presentation will include a brief overview of the Xen on Arm architecture, covering the key design principles employed. The techniques pioneered during the Arm port that allowed the Xen community to remove many legacy components from the Xen code base, streamlining both the Arm and x86 implementations. The talk will conclude explaining how to port Xen to any new Arm boards with the least amount of effort.
 
 
     * Abstract LuaJIT: Lua is a scripting language commonly embedded by web front-ends. Enabling Lua JIT compilation can reduce CPU usage when handling huge amounts of network traffic. This year Linaro (and others) started to work on porting LuaJIT to AArch64. Though the work is not finished we have made good progress. This presentation will briefly introduce LuaJIT, discuss the technical challenges of porting to AArch64, and address the progress of the porting effort and the next steps.
@@ -226,7 +226,7 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
   * **LAS16-312: Open Compute Project (OCP): Consume, Collaborate, Contribute**
 
 
-    * In this session, Amber Graner, Operations Director for the Open Compute Project Foundation will discuss how Linaro Member can influence and drive ARM consumption, collaboration and contribution in, near and around the data center ecosystem through the OCP community. Learn how to participate, contribute to and influence ARM contributions with the OCP ecosystem. How can you, the Linaro community and ARM partners drive ARM contributions within the OCP rack formats. See what OCP currently has contributed, upcoming contributions and what is still needed.
+    * In this session, Amber Graner, Operations Director for the Open Compute Project Foundation will discuss how Linaro Member can influence and drive Arm consumption, collaboration and contribution in, near and around the data center ecosystem through the OCP community. Learn how to participate, contribute to and influence Arm contributions with the OCP ecosystem. How can you, the Linaro community and Arm partners drive Arm contributions within the OCP rack formats. See what OCP currently has contributed, upcoming contributions and what is still needed.
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-312/](http://connect.linaro.org/resource/las16/las16-312/)
@@ -243,7 +243,7 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
   * **LAS16-302: LHG Reference Security Solutions**
 
 
-    * This presentation will give an overview of the suite of reference security solutions developed by LHG. The solutions all have OPTEE as the secure OS running on ARM TrustZone integrated with DRMs such as Microsoft PlayReady and Google Widevine on both Linux and Android platforms. The secure video path implementation strives to use common elements across Linux and Android based solutions.
+    * This presentation will give an overview of the suite of reference security solutions developed by LHG. The solutions all have OPTEE as the secure OS running on Arm TrustZone integrated with DRMs such as Microsoft PlayReady and Google Widevine on both Linux and Android platforms. The secure video path implementation strives to use common elements across Linux and Android based solutions.
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-302/](http://connect.linaro.org/resource/las16/las16-302/)
@@ -252,7 +252,7 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
   * **LAS16-306: Exploring the Open Trusted Protocol**
 
 
-    * Interconnected systems require trust between devices and service providers. To deal with this problem, several companies (ARM, Solacia, Symantec, Intercede) collaborated on the Open Trust Protocol (OTrP), which combines a secure architecture with trusted code management, using technologies proven in large scale banking and sensitive data applications on mass-market devices such as smartphones and tablets.
+    * Interconnected systems require trust between devices and service providers. To deal with this problem, several companies (Arm, Solacia, Symantec, Intercede) collaborated on the Open Trust Protocol (OTrP), which combines a secure architecture with trusted code management, using technologies proven in large scale banking and sensitive data applications on mass-market devices such as smartphones and tablets.
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-306/](http://connect.linaro.org/resource/las16/las16-306/)
@@ -284,7 +284,7 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
   * **LAS16-112: mbed OS Technical Overview**
 
 
-    * ARM mbed OS is an open source embedded operating system designed specifically for the “things” in the Internet of Things. It includes all the features you need to develop a connected product based on very small memory footprint ARM Cortex-M microcontrollers, including security,connectivity, an RTOS, and drivers for sensors and I/O devices. You can start developing with mbed OS 5.1.0 today using a choice of 40 different development boards from 11 different providers and a wide choice of toolchains including a complete command line build management and configuration tool mbed CLI, industry standard desktop IDEs or ARM’s free online IDE.
+    * Arm mbed OS is an open source embedded operating system designed specifically for the “things” in the Internet of Things. It includes all the features you need to develop a connected product based on very small memory footprint Arm Cortex-M microcontrollers, including security,connectivity, an RTOS, and drivers for sensors and I/O devices. You can start developing with mbed OS 5.1.0 today using a choice of 40 different development boards from 11 different providers and a wide choice of toolchains including a complete command line build management and configuration tool mbed CLI, industry standard desktop IDEs or Arm’s free online IDE.
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-112/](http://connect.linaro.org/resource/las16/las16-112/)
@@ -308,7 +308,7 @@ This presentation will include a brief overview of the Xen on ARM architecture, 
   * **LAS16-203: Platform security architecture for embedded devices**
 
 
-    * Heads up on what ARM are doing with the new ARMv8-M architecture from a software perspective.
+    * Heads up on what Arm are doing with the new Armv8-M architecture from a software perspective.
 
 
     * Presentations & Videos: [http://connect.linaro.org/resource/las16/las16-203/](http://connect.linaro.org/resource/las16/las16-203/)

@@ -19,7 +19,7 @@ wordpress_id: 3388
 
 I brought my HD camcorder at the Linaro Developer Summit in Budapest last month, and I managed to videotape an interesting talk from Lee Jones (ST-Ericsson Landing Team Lead).
 
-This talk was plenty of good advice, not only for Linaro kernel engineers but also for anyone who wishes to contribute to the Linux kernel, in particular on the ARM platform. Remember that Linaro is only about getting new features into mainstream projects (Linux kernel, compiling toolchains, C libraries...). We know that any piece of code that doesn't make its way into mainline will sooner or later bitrot in oblivion, even with the best intentions and efforts to maintain it.
+This talk was plenty of good advice, not only for Linaro kernel engineers but also for anyone who wishes to contribute to the Linux kernel, in particular on the Arm platform. Remember that Linaro is only about getting new features into mainstream projects (Linux kernel, compiling toolchains, C libraries...). We know that any piece of code that doesn't make its way into mainline will sooner or later bitrot in oblivion, even with the best intentions and efforts to maintain it.
 
 By watching the video or reading the slides, you will learn about:
 

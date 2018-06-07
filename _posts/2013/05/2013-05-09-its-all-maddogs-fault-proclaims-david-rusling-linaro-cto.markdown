@@ -6,7 +6,7 @@ date: 2013-05-09 02:29:46
 description: Amber Graner interviews David Rusling and Jon 'maddog' Hall. Find out
   how they met, who they've met, what advice they give, predictions they make and
   more.
-keywords: Amber Graner, David Rusling, Jon 'maddog' Hall, Linaro, Linux on ARM, Open
+keywords: Amber Graner, David Rusling, Jon 'maddog' Hall, Linaro, Linux on Arm, Open
   Source, FOSS, Interviews, Mentors
 layout: post
 link: /blog/community-blog/its-all-maddogs-fault-proclaims-david-rusling-linaro-cto/
@@ -114,7 +114,7 @@ And that first “A complete Unix system, source code included, for 99 USD” th
 
 **[QUESTION]** **- _Looking back at those days to present day, what amazes you most about the evolution and adoption of Linux and Open Source, both as an Operating System and as a philosophy. What's been the biggest surprise not only in FOSS, but in technology in general, and what has been the biggest disappointment?_**
 
-**David:** These days, if your business has anything to do with software, you will be involved with open source software. If your business cannot interact with open source software, you will stop having a business. it's a fact of life. I wasn't surprised that Linux was successful; at a certain point in time, it became unstoppable (probably around the time that Red Hat floated on the stock market and IBM backed it). I am a little surprised that it's powering the majority of the world's smartphones, but maybe I shouldn't be as I helped get Linux running on those early ARM processors (along with many, many others)
+**David:** These days, if your business has anything to do with software, you will be involved with open source software. If your business cannot interact with open source software, you will stop having a business. it's a fact of life. I wasn't surprised that Linux was successful; at a certain point in time, it became unstoppable (probably around the time that Red Hat floated on the stock market and IBM backed it). I am a little surprised that it's powering the majority of the world's smartphones, but maybe I shouldn't be as I helped get Linux running on those early Arm processors (along with many, many others)
 
 It's not the code that's the big thing though. The big thing is the social engineering. That communities of engineers join together to achieve coherent, robust and practical code bases that can be used in everyday products. Linux will power the internet of things.
 
@@ -201,7 +201,7 @@ Most communities have pretty good 'how to join in' information.  I like LWN as 
 **maddog:** I disagree that “anyone can become technical”, as I have met too many people that despite their best efforts and my own best efforts, they failed.  But this does not mean that they can not contribute, as I believe each person can contribute in their own way.
 
 
-**David:** Good point. When I went to my first UDS, I was amazed at the range of involvement, including testing, documentation, art work and so on.  One of my old bosses in ARM used to say that if all you can do to help is make the tea, then make the tea.
+**David:** Good point. When I went to my first UDS, I was amazed at the range of involvement, including testing, documentation, art work and so on.  One of my old bosses in Arm used to say that if all you can do to help is make the tea, then make the tea.
 
 
 
@@ -237,17 +237,17 @@ At the same time I will point out that even the most ardent supporter of “Free
 
 This can be hard for companies (and individuals) to grok. It requires a paradigm shift from secret source(s) and NDAs.  Most companies need fairly sophisticated risk strategies in place to handle this interaction with open source well (or their efforts get stranded in their legal departments).  This is not an option, all companies need software and will, to some extent, have to interact with open source software. It’s not the exception, it’s mainstream.
 
-ARM is a good example. ARM needs Linux to run well on systems that include its technology and yet the ARM partnership must keep systems under development secret until they’re released. That’s a difficult balancing act.
+Arm is a good example. Arm needs Linux to run well on systems that include its technology and yet the Arm partnership must keep systems under development secret until they’re released. That’s a difficult balancing act.
 
 
-**[QUESTION] _- David, I would ask you about starting on a Technical path and given that both you and I work at Linaro, I would narrow that to ARM what advice would you give me and others about getting started in this area?_**
+**[QUESTION] _- David, I would ask you about starting on a Technical path and given that both you and I work at Linaro, I would narrow that to Arm what advice would you give me and others about getting started in this area?_**
 
 
 **David:** I like to fix things (or rather, I don’t like broken things) and I like to know how things work. What else would I be other than an engineer?  Most of the engineers that I know started by doing sciences at school / university.   A lot got into Linux as its free and they like to solve problems and tinker.  The issue, for me, is to create engineers that embrace open source. I mostly see that outside of the west, in Brazil, Africa and so on.
 
-**[QUESTION] - _I would ask both of you how do you influence an organization or corporate entity to adopt not only Linux and Open Source for their technical computing needs, but embracing the philosophies of F/LOSS as well. How important do you see this adoption for the future of Linux, F/LOSS, ARM etc._**
+**[QUESTION] - _I would ask both of you how do you influence an organization or corporate entity to adopt not only Linux and Open Source for their technical computing needs, but embracing the philosophies of F/LOSS as well. How important do you see this adoption for the future of Linux, F/LOSS, Arm etc._**
 
-**David:** Having spent years doing this at ARM; get the CTO and legal on board, nibble away at the problem. Support the engineers.  Don't give up.
+**David:** Having spent years doing this at Arm; get the CTO and legal on board, nibble away at the problem. Support the engineers.  Don't give up.
 
 **maddog:** In the beginning I wanted Alpha Linux to be used by universities to study how to use large address spaces to improve sorting and searching techniques.  I would still love to see Donald Knuth update Volume 3 of the “Art of Computer Programming” to include his thoughts on this.
 
@@ -330,7 +330,7 @@ I would be very happy if at least “computer science” people understood about
 
 **David:** I don’t think that it will be a desktop (or what we now call a desktop). For most people, a mobile phone or a tablet together with the infinitely connected internet is the perfect tool.
 
-**maddog:** We no longer need a multi-million dollar, twenty-ton computer to write software.  I hold in my hand a computer faster than all the computers that Aetna Life and Casualty owned in 1977 when I left, yet it runs off a battery.  Thank you, Dave, ARM and DEC (who did a lot of work on the StrongARM chip and architecture).  It runs an operating system called “Android” based on the work of a college student from Helsinki, Finland.
+**maddog:** We no longer need a multi-million dollar, twenty-ton computer to write software.  I hold in my hand a computer faster than all the computers that Aetna Life and Casualty owned in 1977 when I left, yet it runs off a battery.  Thank you, Dave, Arm and DEC (who did a lot of work on the StrongArm chip and architecture).  It runs an operating system called “Android” based on the work of a college student from Helsinki, Finland.
 
 **David:** I was listening to BBC Radio 4 on the way to work and an entrepreneur was talking about how easy it is for someone to have an idea and to create a scalable business to support it via the internet.  Creating a web site and writing software has never been easier.
 

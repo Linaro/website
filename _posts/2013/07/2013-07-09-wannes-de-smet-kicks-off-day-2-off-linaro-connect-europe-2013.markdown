@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-07-09 07:56:15
 description: Engineers at Linaro Connect Europe 2013 iron out the plans for the future
-  of Linux on ARM in over 14 sessions on Day 1 and 16 sessions on Day 2.
-keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro Connect Europe 2013,
+  of Linux on Arm in over 14 sessions on Day 1 and 16 sessions on Day 2.
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro Connect Europe 2013,
   LCE13, Dublin, George Grey, Wannes De Smet, Video, Linaro OnAir, Day 1, Day 2
 layout: post
 link: /blog/community-blog/wannes-de-smet-kicks-off-day-2-off-linaro-connect-europe-2013/
@@ -38,7 +38,7 @@ wordpress_id: 2808
   * [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587)
 
 
-  * [ARMv8 Status and Updates](http://lce-13.zerista.com/event/member/79588)
+  * [Armv8 Status and Updates](http://lce-13.zerista.com/event/member/79588)
 
 
   * [GNU Toolchain - Support and Maintenance](http://lce-13.zerista.com/event/member/79590)
@@ -103,7 +103,7 @@ wordpress_id: 2808
 
 
 
-  * [ARM SOC Tree/Consolidation Update (Part 1)](http://lce-13.zerista.com/event/member/79609)
+  * [Arm SOC Tree/Consolidation Update (Part 1)](http://lce-13.zerista.com/event/member/79609)
 
 
   * [Test and Validation Summit:  Evolution of Testing in Linaro (II)](http://lce-13.zerista.com/event/member/79633)
@@ -120,7 +120,7 @@ wordpress_id: 2808
   * [Introduction to Jira - Linaro’s Project Management Applications](http://lce-13.zerista.com/event/member/79576)
 
 
-  * [ARM SOC Tree/Consolidation Update (Part 2)](http://lce-13.zerista.com/event/member/79612)
+  * [Arm SOC Tree/Consolidation Update (Part 2)](http://lce-13.zerista.com/event/member/79612)
 
 
   * [Test and Validation Mini-Summit:  Review Current Linaro Engineering Process](http://lce-13.zerista.com/event/member/79636)
@@ -143,6 +143,6 @@ wordpress_id: 2808
   * [Virtualization Forum](http://lce-13.zerista.com/event/member/80428)
 
 
-Want to be part of the future of Linux on ARM and you can't make it to Dublin this week be sure to check out our [remote participation option](http://connect.linaro.org/lcu13/).
+Want to be part of the future of Linux on Arm and you can't make it to Dublin this week be sure to check out our [remote participation option](http://connect.linaro.org/lcu13/).
 
 You can also view the live streams via the [Linaro On Air Google+](https://plus.google.com/u/0/116754366033915823792/posts) and [YouTube](http://www.youtube.com/user/LinaroOnAir) pages.

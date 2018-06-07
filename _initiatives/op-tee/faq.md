@@ -61,8 +61,8 @@ side. All platforms that has been tested on a stable release can be found in
 
 ### I get `gcc XYZ` or `g++ XYZ` compiler error messages?
 Most likely you're trying to build OP-TEE using the regular x86 compiler and not
-the using the ARM toolchain. Please install the [OP-TEE pre-requisties] and this
-time try to ensure that you are using GCC for ARM (for more information, please
+the using the Arm toolchain. Please install the [OP-TEE pre-requisties] and this
+time try to ensure that you are using GCC for Arm (for more information, please
 see [Issue#846]).
 
 ### I can't get OP-TEE to build using GCC 6.x?
@@ -237,11 +237,11 @@ Yes!
   and have a look at the [LCU14-302 YouTube clip] that complements the deck.
   Beware that the presentation is more than three years old, so even though it's
   a good source, there might be parts that are not relevant any longer.
-- As a good example for an **ARMv8-A** patch enabling OP-TEE support on a new
+- As a good example for an **Armv8-A** patch enabling OP-TEE support on a new
   device, please see the [ZynqMP port] that enabled support for running OP-TEE on
   Xilinx UltraScale+ Zynq MPSoC. Besides that there are similar patches for [Juno
   port], [Raspberry Pi3 port], [HiKey port].
-- And for **ARMv7-A**, please have a look at the [Freescale ls1021a port],
+- And for **Armv7-A**, please have a look at the [Freescale ls1021a port],
   another example would be the [TI DRA7xx port].
 
 ### What’s the maximum size for heap and stack? Can it be changed?
@@ -276,8 +276,8 @@ have enabled when running `make mem_usage`.
 
 ### Can NEON optimizations be done in OP-TEE?
 Yes, but it will require implementation of lazy context switching which Linaro
-is currently working on as part of the work to add support for ARMv8-A Crypto
-Extensions. You can read more about [Lazy Context Switching] at the ARM pages.
+is currently working on as part of the work to add support for Armv8-A Crypto
+Extensions. You can read more about [Lazy Context Switching] at the Arm pages.
 Please also see [Issue#953].
 
 ### Can I use C++ libraries in OP-TEE?
@@ -325,7 +325,7 @@ look for Trusted Applications.
 ### What is a Static TA and how do I write one?
 A Static TA is a Trusted Application that runs in TEE kernel / core context.
 I.e., it will have access to the same functions, memory and hardware etc as the
-TEE core itself. If we're talking ARMv8-A it is running in S-EL1.
+TEE core itself. If we're talking Armv8-A it is running in S-EL1.
 
 ### Are Static **user space** TAs supported?
 No!

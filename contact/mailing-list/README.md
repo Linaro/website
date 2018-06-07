@@ -1,7 +1,7 @@
 ---
 title: Mailing List
 description: |-
-    Linaro’s mission is to lead collaboration in the ARM ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to ARM – Linaro can work on other architectures and technologies where the work benefits Linaro members and the ARM ecosystem.
+    Linaro’s mission is to lead collaboration in the Arm ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
 layout: container-breadcrumb
 permalink: /contact/mailing-list/
 ---
@@ -93,7 +93,7 @@ If you are having trouble using the lists, please contact [mailman@lists.linaro.
 [linaro-gpgpu](http://lists.linaro.org/mailman/listinfo/linaro-gpgpu)
 </td>
 
-<td id="TD_57">General Purpose Computing on GPU hardware for ARM SoC systems</td>
+<td id="TD_57">General Purpose Computing on GPU hardware for Arm SoC systems</td>
 
 </tr>
 

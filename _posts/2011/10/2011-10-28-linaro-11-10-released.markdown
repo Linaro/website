@@ -38,7 +38,7 @@ Among the improvements brought by this release and delivered by Linaro engineers
   * Linaros Kernel efforts improved Device Tree support for member platforms and made a first step in improving managability of board defconfigs through merge_config.sh script that helps to maintain config overlays. This has the potential to reduce redundancy carried by the various board defconfigs in the upstream kernel.
 
 
-  * After a few month of investment into libjpeg-turbo optimization by the Multimedia Working Group, the recently started libpng effort carried successes this month and an initial component release of libpng 1.5 with a first set of ARM optimization is included in this release. PNG is a key building block of web browsing technology and improvements will be a direct benefit for usability in todays ARM based products.
+  * After a few month of investment into libjpeg-turbo optimization by the Multimedia Working Group, the recently started libpng effort carried successes this month and an initial component release of libpng 1.5 with a first set of Arm optimization is included in this release. PNG is a key building block of web browsing technology and improvements will be a direct benefit for usability in todays Arm based products.
 
 
   * This month Linaro GCC comes with critical performance fixes and developers using Linaro GDB can enjoy an improved native debugging experience through gdbserver. The Toolchain Working Group started to transition their custom validation infrastructure to the LAVA lab this cycle. The complete transition is expected to take additional months, but once complete it will free up engineering resources in the Working Group to focus on code.

@@ -21,7 +21,7 @@ wordpress_id: 3397
 
 Linaro Connect Q3.11, Cambridge, UK, August 2011
 
-Linaro Connect is the place where the Linaro staff and the Linaro and Linux on ARM communities meet. In this context, I was lucky to meet Sangwook Lee, from the Samsung Landing Team at Linaro. He showed me how to assemble the kit adding an LCD and touchscreen interface to the Samsung Origen board. This should be useful to all Origen board owners who ordered the LCD and touchscreen kit.
+Linaro Connect is the place where the Linaro staff and the Linaro and Linux on Arm communities meet. In this context, I was lucky to meet Sangwook Lee, from the Samsung Landing Team at Linaro. He showed me how to assemble the kit adding an LCD and touchscreen interface to the Samsung Origen board. This should be useful to all Origen board owners who ordered the LCD and touchscreen kit.
 
 The video can also be downloaded in WebM format:
 

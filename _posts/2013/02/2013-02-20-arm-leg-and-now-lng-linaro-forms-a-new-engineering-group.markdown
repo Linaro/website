@@ -5,14 +5,14 @@ categories:
 date: 2013-02-20 18:50:27
 description: Linaro announces the formation of a new Linaro engineering group --The
   Linaro Networking Group (LNG).
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, ELC, Announcement, Linaro
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, ELC, Announcement, Linaro
   Networking Group, LNG, George Grey, Jim Zemlin, The Linux Foundation, Networking
 layout: post
 link: /blog/community-blog/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/
 slug: arm-leg-and-now-lng-linaro-forms-a-new-engineering-group
 tags:
 - Community
-title: ARM, LEG and now LNG... Linaro forms a new engineering group
+title: Arm, LEG and now LNG... Linaro forms a new engineering group
 wordpress_id: 2393
 ---
 
@@ -23,21 +23,21 @@ Today, Linaro CEO [George Grey](/about/executive/), on stage at the [Embedded Li
 
 {% include image.html name="GG_Slide_LNG.jpg"%}
 
-“The strength of the ARM community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using ARM SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
+“The strength of the Arm community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using Arm SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 
-In November 2012, at ARM TechCon, Grey [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the Linaro Enterprise Group ([LEG](/groups/leg/)). The formation of LNG builds on the experience of LEG and the desire of companies to actively work together on common engineering goals and drive forward the development of Linux on ARM.
+In November 2012, at Arm TechCon, Grey [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the Linaro Enterprise Group ([LEG](/groups/leg/)). The formation of LNG builds on the experience of LEG and the desire of companies to actively work together on common engineering goals and drive forward the development of Linux on Arm.
 
 
 ## Who are the members of LNG?
 
 
-The founding members of LNG include [AppliedMicro](http://www.apm.com/), [ARM](http://www.arm.com/), [Enea](http://www.enea.com/), [Freescale](http://www.freescale.com/), [LSI,](http://www.lsi.com/) [MontaVista](http://www.mvista.com/), [Nokia Siemens Networks](http://www.nokiasiemensnetworks.com/) and [Texas Instruments (TI)](http://www.ti.com/)
+The founding members of LNG include [AppliedMicro](http://www.apm.com/), [Arm](http://www.arm.com/), [Enea](http://www.enea.com/), [Freescale](http://www.freescale.com/), [LSI,](http://www.lsi.com/) [MontaVista](http://www.mvista.com/), [Nokia Siemens Networks](http://www.nokiasiemensnetworks.com/) and [Texas Instruments (TI)](http://www.ti.com/)
 
 
 ## What is the purpose of LNG and its goals?
 
 
-LNG will be a group dedicated to accelerating Linux networking on ARM. Membership to this group is based on a new Linaro membership category which will initially include ARM, equipment OEMs, silicon partners and distribution partners to leverage and extend Linaro’s existing shared engineering, legal and open source collaboration resources and infrastructure.
+LNG will be a group dedicated to accelerating Linux networking on Arm. Membership to this group is based on a new Linaro membership category which will initially include Arm, equipment OEMs, silicon partners and distribution partners to leverage and extend Linaro’s existing shared engineering, legal and open source collaboration resources and infrastructure.
 
 An interim steering committee formed from the companies interested in forming LNG has been meeting for the last couple of months to generate a technical requirements document and identify key focus areas. This group has agreed on four initial areas of work:
 
@@ -62,7 +62,7 @@ Discussion of these areas and the formal kick off for the group will happen at t
 ## Collaboration is key!
 
 
-_As with any open source project, open and transparent collaboration is key and these philosophies are what we are bringing to the ARM ecosystem in many ways through our working groups, LEG, and now LNG. The LNG efforts will not only help accelerate Linux networking development on ARM but also place a strong cornerstone of collaboration and foundation of transparency with its group members and the upstream networking communities._
+_As with any open source project, open and transparent collaboration is key and these philosophies are what we are bringing to the Arm ecosystem in many ways through our working groups, LEG, and now LNG. The LNG efforts will not only help accelerate Linux networking development on Arm but also place a strong cornerstone of collaboration and foundation of transparency with its group members and the upstream networking communities._
 
 
 ## More information:

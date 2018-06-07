@@ -16,7 +16,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: "LHG Releases First Sample Android \u201CAOSP TV\u201D build on HiKey"
@@ -56,7 +56,7 @@ An Android TV solution must be verified by Google and are subject to requirement
 # LHG and Android TV
 
 
-In LHG, one of the goals is to create implement AOSP TV as the open source subset that Android TV is built upon. Among our members, there is value derived in working from a common AOSP TV starting point. The target platforms for the Android work in LHG are the ARM-based Linaro 96Boards platforms.   The work will start on Consumer Edition boards and then migrate to the 96Boards targeted for TV and media, the TV Platform specification. http://www.96boards.org/specifications/.
+In LHG, one of the goals is to create implement AOSP TV as the open source subset that Android TV is built upon. Among our members, there is value derived in working from a common AOSP TV starting point. The target platforms for the Android work in LHG are the Arm-based Linaro 96Boards platforms.   The work will start on Consumer Edition boards and then migrate to the 96Boards targeted for TV and media, the TV Platform specification. http://www.96boards.org/specifications/.
 
 The initial build is on the HiKey CE platform which is an approved Android reference board ([https://source.android.com/source/devices.html](https://source.android.com/source/devices.html)). The preferred configuration is the 2GB RAM HiKey LeMaker version. Since HiKey affords a stable AOSP baseline target, it serves as a good starting point for initial development efforts until TV platform boards get firmly established in open source and mainline software projects.
 
@@ -125,4 +125,4 @@ Have fun playing with this and look for future releases from LHG!
 
 
 
-Remember to attend the [Linaro Connect event](http://connect.linaro.org/) in Budapest for a full week of interesting keynotes, presentations and demos from all the groups focusing on the exciting evolution of open source software for the ARM ecosystem. Be sure to drop by the LHG hacking room and say hello. See all the technologies and demos we are working on!
+Remember to attend the [Linaro Connect event](http://connect.linaro.org/) in Budapest for a full week of interesting keynotes, presentations and demos from all the groups focusing on the exciting evolution of open source software for the Arm ecosystem. Be sure to drop by the LHG hacking room and say hello. See all the technologies and demos we are working on!

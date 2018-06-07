@@ -14,7 +14,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Review of Thursday at LCA14 - "Team Day"
@@ -78,11 +78,11 @@ Below are the available presentations from Thursday.**
 <tr >
 
 <td width="245" valign="top" markdown="1">
-[LCA14-407: Deploying Runtime PM on ARM SOCs](http://lca-14.zerista.com/event/member/102429)
+[LCA14-407: Deploying Runtime PM on Arm SOCs](http://lca-14.zerista.com/event/member/102429)
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-407-%20Deploying%20runtime%20PM%20on%20ARM%20SoCs.pdf) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-407-%20Deploying%20runtime%20PM%20on%20Arm%20SoCs.pdf) slides
 </td>
 </tr>
 <tr >
@@ -98,11 +98,11 @@ Below are the available presentations from Thursday.**
 <tr >
 
 <td width="245" valign="top" markdown="1">
-[LCA14-412: GPGPU on ARM SoC session](http://lca-14.zerista.com/event/member/102418)
+[LCA14-412: GPGPU on Arm SoC session](http://lca-14.zerista.com/event/member/102418)
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-412-%20GPGPU%20on%20ARM%20SoC%20session.pdf) slides
+[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-412-%20GPGPU%20on%20Arm%20SoC%20session.pdf) slides
 </td>
 </tr>
 <tr >

@@ -17,7 +17,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 title: Linaro Connect Hong Kong 2015- week in review
 wordpress_id: 8250
@@ -27,13 +27,13 @@ wordpress_id: 8250
 
 Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015 in Hong Kong, China was an amazing week with over 400 attendees and many keynotes, sessions and demos for attendees to enjoy. To see a list of all the available materials from all the sessions held during the week please [click here](/blog/linaro-connect-hong-kong-2015-content-now-available/).
 
-The show kicked off Monday February 9th in Hong Kong to many announcements by Linaro. George Grey, Linaro’s CEO, gave the opening keynote and welcomed attendees to the event. He then announced the [96Boards initiative ](/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)to accelerate ARM software development. [96Boards](https://www.96boards.org/) is an open hardware specification for ARM 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs. Linaro also announced on Monday two founding members of the newly formed Linaro Community Boards Group (LCG), which are [Actions Technology](/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/) and [Marvell](/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/). George, then went on to give an overview of that status of Linaro and it’s many projects, including a quick hands on demo with a Project Ara phone. Check out the [keynote video](https://www.youtube.com/watch?v=6aAFNCUUVj4) and to download the keynote slides [click here](http://www.slideshare.net/linaroorg/hkg15-george-grey-keynote).
+The show kicked off Monday February 9th in Hong Kong to many announcements by Linaro. George Grey, Linaro’s CEO, gave the opening keynote and welcomed attendees to the event. He then announced the [96Boards initiative ](/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)to accelerate Arm software development. [96Boards](https://www.96boards.org/) is an open hardware specification for Arm 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs. Linaro also announced on Monday two founding members of the newly formed Linaro Community Boards Group (LCG), which are [Actions Technology](/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/) and [Marvell](/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/). George, then went on to give an overview of that status of Linaro and it’s many projects, including a quick hands on demo with a Project Ara phone. Check out the [keynote video](https://www.youtube.com/watch?v=6aAFNCUUVj4) and to download the keynote slides [click here](http://www.slideshare.net/linaroorg/hkg15-george-grey-keynote).
 
 **The rest of the week included:**
 
   * Dejan Milojicic, Senior Researcher and Manager, HP Labs. Dejan gave a keynote titled: “The Machine: A new kind of computer”
-  * A hands-on lightning talk on ARM Servers that gave attendees information on the latest updates. Jon Masters, Chief ARM Architect at Red Hat conducted the talks. [Watch video](https://www.youtube.com/watch?feature=player_embedded&v=GCVcJWqoX2A)
-  * Bob Monkman, Enterprise Segment Marketing Manager at ARM. Bob’s keynote topic was “The impact of ARM in the next generation cloud and communication network infrastructure”. [Watch video](https://www.youtube.com/watch?v=U5GQ_9jCOZ8)
+  * A hands-on lightning talk on Arm Servers that gave attendees information on the latest updates. Jon Masters, Chief Arm Architect at Red Hat conducted the talks. [Watch video](https://www.youtube.com/watch?feature=player_embedded&v=GCVcJWqoX2A)
+  * Bob Monkman, Enterprise Segment Marketing Manager at Arm. Bob’s keynote topic was “The impact of Arm in the next generation cloud and communication network infrastructure”. [Watch video](https://www.youtube.com/watch?v=U5GQ_9jCOZ8)
   * Greg Kroah-Hartman, Fellow at Linux Foundation. Greg’s keynote topic was “An introduction to the Greybus Project”. [Watch video](http://youtu.be/U5GQ_9jCOZ8?t=25m49s)
   * Warren Rehman, Android Partner Engineering Manager at Google. Warren gave an overview of what Android TV is in context of Android. [Watch video](https://www.youtube.com/watch?v=DJfiibQBWlI)
   * Greg Kroah-Hartman, Fellow at Linux Foundation. Greg’s keynote topic was “How is Linaro doing” a follow-up from his talk at Linaro Connect Asia in 2013. [Watch video](https://www.youtube.com/watch?v=tE3804cOtXA)
@@ -50,21 +50,21 @@ The Linaro Enterprise Group (LEG) held many sessions throughout the week with se
 
 **Sessions Summaries:**
 
-**Title: HKG15-107: ACPI Power Management on ARM64 Servers**
+**Title: HKG15-107: ACPI Power Management on Arm64 Servers**
 This session was to discuss the status of CPPC with runtime PM and discussion on idle PM with ACPI. Utilization on servers depends on season, time of the day, etc. not always at 100% maybe often at 25-30%. This is different from mobile phones where it is in idle most of the time. CPPC collaborative processor performance control is described in ACPI 5.1. It is the preferred method for aarch64 over PSS, which stands for performance supported states. CPPC has feedback regs which provide the value of the attained performance level for the kernel to read back. The kernel can then compare the desired performance level and the attained one and evaluate the status of the CPU, etc.
 
 **Title: HKG15-200: OpenJDK under the hood** 
-This session was very detailed and served actually as a training course on OpenJDK. The presenter described the secret command line options to start java. Demonstrated how java code is compiled into byte codes and how these make it into assembler with the template interpreter. He also described optimisations for ARMv8-A
+This session was very detailed and served actually as a training course on OpenJDK. The presenter described the secret command line options to start java. Demonstrated how java code is compiled into byte codes and how these make it into assembler with the template interpreter. He also described optimisations for Armv8-A
 
 
 **Title: HKG15-204: OpenStack: 3rd party testing and performance benchmarking**
-This session described OpenStack on ARMv8, with a focus on Tempest and Rally. Tempest is used to validate each and every commit submitted to the OpenStack project, currently being ran on x86 only by the OpenStack maintainers. They have created the 3rd party CI testing approach to start commit regression testing on other architectures, monitor the stability and pass/fail rate on those and eventually accept them as official platforms later. Described the status, pass/failures and next steps to build the 3rd party testing on ARM based on an HP Moonshot chassis with about 20 APM X-Gene cartridges. Rally is a flexible framework to run VM-related scenarii with OpenStack, basically creating, booting and then shutting down VM's via OpenStack API's thousands of times in a row and with tens/hundreds of VM's in parallel all while benchmarking the min/avg/max time for each operation. Rally reports the results with nice statistics and charts. The presenter then explained the difference between Rally and Tempest and how they complement.
+This session described OpenStack on Armv8, with a focus on Tempest and Rally. Tempest is used to validate each and every commit submitted to the OpenStack project, currently being ran on x86 only by the OpenStack maintainers. They have created the 3rd party CI testing approach to start commit regression testing on other architectures, monitor the stability and pass/fail rate on those and eventually accept them as official platforms later. Described the status, pass/failures and next steps to build the 3rd party testing on Arm based on an HP Moonshot chassis with about 20 APM X-Gene cartridges. Rally is a flexible framework to run VM-related scenarii with OpenStack, basically creating, booting and then shutting down VM's via OpenStack API's thousands of times in a row and with tens/hundreds of VM's in parallel all while benchmarking the min/avg/max time for each operation. Rally reports the results with nice statistics and charts. The presenter then explained the difference between Rally and Tempest and how they complement.
 
 **Title: HKG15-208: ACPI: State of the Server**
 ACPI Core discussion on the state of the server. This was a working session that reviewed the status of several areas.
 
 
-**Title: HKG15-401 Ceph and Software Defined Storage on ARM servers**
+**Title: HKG15-401 Ceph and Software Defined Storage on Arm servers**
 The session discussed running Ceph in the colocation, ongoing optimizations. Ceph is a distributed storage solution which can scale to a very large number of nodes. It is characterised by the lack of a single point of failure. The presentation covered a lightning introduction on the Ceph architecture and then described the set up in the Linaro colocation based on multiple APM X-Gene and AMD Seattle platforms.
 
 ### **Wednesday – Linaro Networking Group (LNG) and Linaro Mobile Group (LMG)**
@@ -77,7 +77,7 @@ Wednesday was a very busy day at Linaro Connect with both the LNG and LMG groups
 OpenDataPlane is an open source project sponsored by LNG that provides a common API framework across multiple implementations, allowing data plane applications to be easily portable across SoC platforms while still taking automatic advantage of vendor-optimized hardware acceleration and offload. Bill Fischofer presented an overview of the OpenDataPlane project and its evolution leading to the delivery of ODP v1.0 this quarter. The various API groups and concepts supported by ODP were illustrated and the implementations of these APIs on various platforms and architectures was discussed. Also discussed was the testing and validation tools used to ensure that multiple implementations of the ODP APIs all present equivalent functionality to ODP applications.
 
 **Title: HKG15-301: OVS on ODP: Implementation Overview**
-A Comparison of OVS implemented via ODP & vendor SDKs was discussed. Contrasting ODP linux-generic with the native Intel DPDK SDK and ODP implemented using the DPDK SDK on X86. Additionally comparing ODP linux-generic with ODP implemented using the Texas Instruments SDK on A15 ARM
+A Comparison of OVS implemented via ODP & vendor SDKs was discussed. Contrasting ODP linux-generic with the native Intel DPDK SDK and ODP implemented using the DPDK SDK on X86. Additionally comparing ODP linux-generic with ODP implemented using the Texas Instruments SDK on A15 Arm
 
 
 **Title: HKG15-305: Real Time processing comparing the RT patch vs Core isolation**
@@ -141,16 +141,16 @@ On Thursday night Linaro held the Linaro Awards Dinner to honor those that have 
 
 ### **Demo Friday**
 
-Linaro Connect Hong Kong 2015 ended once again with a rich assortment of demonstrations, including much of Linaro’s latest ARMv8-A 64-bit software developments. The Demo Friday was a great success with many different demos featured including:
+Linaro Connect Hong Kong 2015 ended once again with a rich assortment of demonstrations, including much of Linaro’s latest Armv8-A 64-bit software developments. The Demo Friday was a great success with many different demos featured including:
 
   * Linaro Clear Key CDM
   * Chromium on Wayland with Gstreamer
   * Linaro Web Browser Test Framework
   * Demo of VLANd
   * RT with core isolation
-  * ODP – OVS – x86 – ARM
-  * OpenJDK running on all ARMv8 hardware
-  * OpenStack running on ARMv8 hardware
+  * ODP – OVS – x86 – Arm
+  * OpenJDK running on all Armv8 hardware
+  * OpenStack running on Armv8 hardware
   * Android support for clang 3.6 and gcc 5.0
   * Ceph on remote server cluster
   * UEFI on BeagleBone Black

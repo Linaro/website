@@ -6,7 +6,7 @@ date: 2012-08-26 23:45:10
 description: Linaro Android 12.08 is not just the first Linaro Android release based
   on JellyBean (android-4.1.1_r4, to be more precise) - it also introduces support
   for JellyBean running on the Galaxy Nexus.
-keywords: Linaro, Linux on ARM, JellyBean, Galaxy Nexus, Android, Linaro Android Build,
+keywords: Linaro, Linux on Arm, JellyBean, Galaxy Nexus, Android, Linaro Android Build,
   Benchmarking, Acceleration, phones, mobile devices, improved speeds.
 layout: post
 link: /blog/hardware-update/linaro-android-jellybean-on-galaxy-nexus-gsm-speeding-up-phones/

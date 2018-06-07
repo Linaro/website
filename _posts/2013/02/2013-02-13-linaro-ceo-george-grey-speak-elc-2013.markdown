@@ -13,7 +13,7 @@ wordpress_id: 4421
 
 CAMBRIDGE, UK - 13 FEB 2013
 
-Linaro, the not-for-profit engineering organization developing open source software for the ARM architecture, announced that they will be participating in the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) being held February 20-22, 2013 at the Parc 55 Hotel in San Francisco, CA. The Embedded Linux Conference (ELC) is the premier vendor-neutral technical conference for companies and developers using Linux in embedded products. This conference, now in its 9th year, has the largest collection of sessions dedicated exclusively to embedded Linux and embedded Linux developers.
+Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, announced that they will be participating in the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) being held February 20-22, 2013 at the Parc 55 Hotel in San Francisco, CA. The Embedded Linux Conference (ELC) is the premier vendor-neutral technical conference for companies and developers using Linux in embedded products. This conference, now in its 9th year, has the largest collection of sessions dedicated exclusively to embedded Linux and embedded Linux developers.
 
 This year Linaro CEO, George Grey, and many key engineers for Linaro will be speaking in several sessions. The time and topic of these talks are:
 
@@ -44,14 +44,14 @@ This year Linaro CEO, George Grey, and many key engineers for Linaro will be sp
   * **Mathieu Poirier, Kernel Engineer**
 
     * Friday, February 22
-      * 9:00am: In Kernel Switcher: A Solution to Support ARM's New big.LITTLE Implementation
+      * 9:00am: In Kernel Switcher: A Solution to Support Arm's New big.LITTLE Implementation
 
-Stop by any of our speaking sessions to learn more about Linaro's work in consolidating and optimizing open source software for the ARM architecture.
+Stop by any of our speaking sessions to learn more about Linaro's work in consolidating and optimizing open source software for the Arm architecture.
 
 About Linaro:
-Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online.
+Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online.
 
 
 **Join us at Linaro Connect**
 
-Linaro Connect is held every three to four months to bring the Linux on ARM community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the ARM tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. The next Linaro Connect will be March 4-8, 2013 in Hong Kong. Learn more at [www.linaro.org/connect](http://connect.linaro.org)
+Linaro Connect is held every three to four months to bring the Linux on Arm community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the Arm tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. The next Linaro Connect will be March 4-8, 2013 in Hong Kong. Learn more at [www.linaro.org/connect](http://connect.linaro.org)

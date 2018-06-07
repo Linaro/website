@@ -12,7 +12,7 @@ categories:
 
 I attended the Linaro developers summit in Budapest last week with a number of my colleagues. With ten technical tracks in parallel you can imagine there was a huge amount of invaluable information being shared. I was amazed by the spirit of cooperation among the Linux community experts gathered in the room and participating remotely through chat. Some of the discussions were of such technical depth that I have to admit that they went over my head. So I listened attentively and refrained from asking questions that would reveal my lack of understanding!
 
-Two key topics of interest are being driven by Linaro:  Consolidation of the ARM kernel tree, to address the recent points made by Linus Torvalds, and memory management optimization. It was great to see the discussions between Linaro experts and experts from various companies, all in a true open source collaboration spirit.
+Two key topics of interest are being driven by Linaro:  Consolidation of the Arm kernel tree, to address the recent points made by Linus Torvalds, and memory management optimization. It was great to see the discussions between Linaro experts and experts from various companies, all in a true open source collaboration spirit.
 
 One of the special events at the Linaro Developer Summit was the demo contest where contestants could win their very own [Snowball](http://www.igloocommunity.org/). Two of the 3 top demos were awarded a Snowball. We were also participating in this demo contest, but we were very happy to have the Snowball given to Linaro Graphics & [GeexBox](http://www.geexbox.org/) demos. The GeexBox demo was shown by a former Alessandro Rubini’ student.  Alessandro was of a great help for the Snowball wake up – it is a small world!
 

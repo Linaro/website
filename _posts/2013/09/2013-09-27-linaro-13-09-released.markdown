@@ -5,9 +5,9 @@ categories:
 date: 2013-09-27 20:18:13
 description: Linaro 13.09 release notes and highlights. Links to relevant downloads
   for the release.
-keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro stable kernel, LSK,
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro stable kernel, LSK,
   Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
-  OpenEmbedded, big.LITTLE, LAVA,  KVM on ARM
+  OpenEmbedded, big.LITTLE, LAVA,  KVM on Arm
 layout: post
 link: /blog/releases-blog/linaro-13-09-released/
 slug: linaro-13-09-released
@@ -15,7 +15,7 @@ tags:
 - Releases
 - Linaro
 - Linaro Connect
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 - release
@@ -37,19 +37,19 @@ Here are some of the other highlights, by group:
   * LAVA has seen significant new hardware additions, with more expected over the next couple of months. In the hardware area, the Calxeda Midway server is now available to Linaro developers and the Linaro Networking Group (LNG) rack has been deployed. Software support is available for the LAVA Multi-purpose Probe (LMP) in lava-test-shell and the SD-MUX is in staging. The LAVA team has also completed the migration from Bazaar (bzr) to Git with this release.
 
 
-  * As required, the QA group has completed the full test of Linaro supported targets for this release. Testing for Grub on UEFI with the ARM Versatile Express Cortex-A9 tile and Linux Linaro Ubuntu has begun, an open accessory test case for Android has been created with results of the Systemtap test suite full execution on the Snowball target shared with developers. On top of this, the QA team has been working on documentation, dashboards, examining open source benchmarking tools for the Linaro Android and Ubuntu builds, and a pilot installation of [qa-reports](https://github.com/leonidas/qa-reports) for better reporting of engineering build testing results.
+  * As required, the QA group has completed the full test of Linaro supported targets for this release. Testing for Grub on UEFI with the Arm Versatile Express Cortex-A9 tile and Linux Linaro Ubuntu has begun, an open accessory test case for Android has been created with results of the Systemtap test suite full execution on the Snowball target shared with developers. On top of this, the QA team has been working on documentation, dashboards, examining open source benchmarking tools for the Linaro Android and Ubuntu builds, and a pilot installation of [qa-reports](https://github.com/leonidas/qa-reports) for better reporting of engineering build testing results.
 
 
-  * The Graphics working group has included a mix of essential updates and new work for future solutions including dma-buf changes for 3.12, Common Display Framework (CDFv3) prototyping and implementation on member hardware, an update of libjpeg-turbo including a refresh for Android plus new ARMv8 support, and an initial libpng port of NEON acceleration to intrinsics.
+  * The Graphics working group has included a mix of essential updates and new work for future solutions including dma-buf changes for 3.12, Common Display Framework (CDFv3) prototyping and implementation on member hardware, an update of libjpeg-turbo including a refresh for Android plus new Armv8 support, and an initial libpng port of NEON acceleration to intrinsics.
 
 
-  * Also leading the way on developments for the future, the Virtualization team has completed upstreaming of AArch64 preparation support for QEMU and the first patches for Xen bring up on APM ARMv8 hardware. Many items are also in the upstream pipe, including ARMV7-A Guest Migration functionality, Xen device tree editing, mach-virt and the ARMv8-A port of libvirt. This last item, libvirt, is now functional on ARMv7-A and functional testing has started.
+  * Also leading the way on developments for the future, the Virtualization team has completed upstreaming of AArch64 preparation support for QEMU and the first patches for Xen bring up on APM Armv8 hardware. Many items are also in the upstream pipe, including ArmV7-A Guest Migration functionality, Xen device tree editing, mach-virt and the Armv8-A port of libvirt. This last item, libvirt, is now functional on Armv7-A and functional testing has started.
 
 
   * If youre interesting in an approach for converting older code that uses wake locks to code using wakeup sources, Zoran Markovic from the Power Management working group has posted a blog discussing this here: /linaro-blog/2013/08/26/converting-code-implementing-suspend-blockers/. The group has also released Linaro Powerdebug 0.7.1-2013.09 and Linaro PM QA 0.4.4-2013.09.
 
 
-  * In the 13.09 release, in addition to the Linaro Stable Kernel (LSK) 3.10.12-2013.09, the Builds and Baselines team have released Linux Linaro 3.11-2013.09, Linaro Toolchain Binaries 2013.09 and various improvements on the baselines. In collaboration with the ARM Landing team, the AArch64 OpenEmbedded Engineering Build for ARM Fast Models for ARMv8 is produced, validated and released, based on the latest AArch64 open source software from Tianocore EDK2 (UEFI), the Linux kernel, ARM Trusted Firmware and OpenEmbedded. This release includes Linaro OpenEmbedded images for Foundation, Versatile Express and FVP Base fast models from ARM.
+  * In the 13.09 release, in addition to the Linaro Stable Kernel (LSK) 3.10.12-2013.09, the Builds and Baselines team have released Linux Linaro 3.11-2013.09, Linaro Toolchain Binaries 2013.09 and various improvements on the baselines. In collaboration with the Arm Landing team, the AArch64 OpenEmbedded Engineering Build for Arm Fast Models for Armv8 is produced, validated and released, based on the latest AArch64 open source software from Tianocore EDK2 (UEFI), the Linux kernel, Arm Trusted Firmware and OpenEmbedded. This release includes Linaro OpenEmbedded images for Foundation, Versatile Express and FVP Base fast models from Arm.
 
 
   * The Linaro Enterprise and Networking Groups (LEG and LNG) have continued building on their work from previous months and this release sees new developments in Big Endian (BE) KVM and more.
@@ -64,7 +64,7 @@ This months release not only includes many line items from each group within Lin
 ### Upcoming LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:
@@ -120,7 +120,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
 

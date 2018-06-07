@@ -213,7 +213,7 @@ High Performance Computing (HPC)
 </div>
 <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
 <div class="panel-body" markdown="1">
-The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of ARM in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include ARM, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
+The HPC SIG was officially launched at Linaro Connect Las Vegas in September 2016 to drive the adoption of Arm in HPC through the creation of a data center ecosystem. It is a collaborative project comprised of members and an advisory board. Current members include Arm, HiSilicon, Qualcomm, Fujitsu, Cavium, Red Hat and HPE. CERN and Riken are on the advisory board.
 
 {% assign core_members = site.data.members["hpc_members"] | sort: 'name' %}
 {% for member in core_members %}

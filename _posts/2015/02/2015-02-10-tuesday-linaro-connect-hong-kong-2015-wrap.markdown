@@ -14,7 +14,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: 'Tuesday of Linaro Connect Hong Kong 2015 Wrap-up '
@@ -23,7 +23,7 @@ wordpress_id: 7959
 
 Tuesday of Linaro Connect Hong Kong 2015 began with another great keynote from guest speaker, Dejan Milojicic, Senior Researcher and Manager, HP Labs.  Mr. Milojicic gave a keynote titled: "The Machine: A new kind of computer" about The Machine which is a new system from HP, based on Memristor Non-Volatile Memory (NVM) and photonic interconnects, enabling new innovative solutions and applications. The talk discussed the changes HP is introducing to the system software stack to leverage The Machine.
 
-Following the keynote was a hands-on lightning talk on ARM Servers that gave attendees information on the latest updates.  Jon Masters, Chief ARM Architect at Red Hat conducted the talks.
+Following the keynote was a hands-on lightning talk on Arm Servers that gave attendees information on the latest updates.  Jon Masters, Chief Arm Architect at Red Hat conducted the talks.
 
 After the morning keynotes the attendees kicked off another day of sessions and hacking. Below are just some of the presentations that are available from the sessions held today.  To see all the presentations available from this week please visit the [Linaro slideshare.](http://www.slideshare.net/linaroorg)
 
@@ -216,7 +216,7 @@ Tools
 </table>
 
 
-Also on display on Tuesday was the first board available as part of the [96Boards initiative.](https://www.96boards.org/)  The HiKey board is the first board to be certified 96Boards Consumer Edition compatible. This board is base around the HiSilicon Kirin 620  eight-core ARM Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its ARM Mali 450-MP4 GPU.  It is available now.  To learn more visit the 96Boards website:  [https://www.96boards.org/product/hikey/ ](https://www.96boards.org/product/hikey/ )
+Also on display on Tuesday was the first board available as part of the [96Boards initiative.](https://www.96boards.org/)  The HiKey board is the first board to be certified 96Boards Consumer Edition compatible. This board is base around the HiSilicon Kirin 620  eight-core Arm Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its Arm Mali 450-MP4 GPU.  It is available now.  To learn more visit the 96Boards website:  [https://www.96boards.org/product/hikey/ ](https://www.96boards.org/product/hikey/ )
 
 Keep checking to see more highlights from the event this week.
 

@@ -27,14 +27,14 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|ARM | <img src="{% asset_path 'aarch-64-logo-thumb.jpg' %}" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Arm | <img src="{% asset_path 'aarch-64-logo-thumb.jpg' %}" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
 |Qualcomm | <img src="{% asset_path 'qualcomm-snapdragon-thumb.jpg' %}" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
 
 ## Linaro Stable Kernel (LSK)
 
-The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and ARM support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
+The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and Arm support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
 
 
 <ul>
@@ -95,21 +95,21 @@ The following tables provide direct access to the most common Linux and bare-met
 <tbody>
 <tr>
 <td style="text-align:left"><strong>arm-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit ARMv7 Cortex-A, hard-float, little-endian</em></td>
+<td style="text-align:left"><em>32-bit Armv7 Cortex-A, hard-float, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/arm-linux-gnueabihf/">Binaries</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>armv8l-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit ARMv8 Cortex-A, hard-float, little-endian</em></td>
+<td style="text-align:left"><em>32-bit Armv8 Cortex-A, hard-float, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/armv8l-linux-gnueabihf/">Binaries</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>aarch64-linux-gnu</strong></td>
-<td style="text-align:left"><em>64-bit ARMv8 Cortex-A, little-endian</em></td>
+<td style="text-align:left"><em>64-bit Armv8 Cortex-A, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/">Binaries</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
@@ -122,8 +122,8 @@ The following tables provide direct access to the most common Linux and bare-met
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|**arm-eabi**|_32-bit ARMv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
-|**aarch64-elf**|_64-bit ARMv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
 
 ***
 
@@ -131,6 +131,6 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 ***
 
-Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for ARM embedded processors? We’re working with ARM to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from [Launchpad](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
+Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from [Launchpad](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
 
 ***

@@ -5,7 +5,7 @@ categories:
 date: 2013-02-22 16:31:50
 description: Linaro is pleased to announce that it will be offering a four hour comprehensive
   and hands-on LAVA workshop as part of Linaro Connect Asia 2013.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
   Kong, LAVA, Workshop, Training
 layout: post
 link: /blog/community-blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/
@@ -18,11 +18,11 @@ title: LAVA Workshop at Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2425
 ---
 
-Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on ARM; additionally, there will be afternoon hacking sessions and[ morning keynotes](/blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
+Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on Arm; additionally, there will be afternoon hacking sessions and[ morning keynotes](/blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
 
 ## What is LAVA?
 
-The [Linaro Automated Validation Architecture (LAVA)](/blog/lava-fundamentals/) is an open source test and validation platform available for individuals and companies who wish to establish a test infrastructure for any flavor of Linux running on ARM chips.
+The [Linaro Automated Validation Architecture (LAVA)](/blog/lava-fundamentals/) is an open source test and validation platform available for individuals and companies who wish to establish a test infrastructure for any flavor of Linux running on Arm chips.
 
 ## What Will this Workshop Include?
 
@@ -117,7 +117,7 @@ _More information about the LAVA Team can be found at: [https://wiki.linaro.org/
 ### _About Linaro Connect_
 
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 _To find out more, please visit: [Connect](http://connect.linaro.org)_
 
@@ -125,6 +125,6 @@ _To find out more, please visit: [Connect](http://connect.linaro.org)_
 ### _About Linaro_
 
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure._
 
 _To find out more, please visit[ ](/)._

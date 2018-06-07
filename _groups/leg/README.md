@@ -2,8 +2,8 @@
 group_id: 1
 title: Linaro Enterprise Group (LEG)
 description: |-
-    The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for ARM Server Linux.
-keywords: ARM, Server, Linux, ecosystem, silicon, Virtualization, Power Management, Security, Toolchain, Big Data, Software Defined Infrastructure
+    The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for Arm Server Linux.
+keywords: Arm, Server, Linux, ecosystem, silicon, Virtualization, Power Management, Security, Toolchain, Big Data, Software Defined Infrastructure
 permalink: /groups/leg/
 group_short_name: leg
 group_long_name: Linaro Enterprise Group
@@ -35,11 +35,11 @@ redirect_from:
 ---
 # Linaro Enterprise Group (LEG)
 
-The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for ARM Server Linux. LEG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the ARM ecosystem.
+The purpose of the Linaro Enterprise Group (LEG) is to collaborate and accelerate the development of foundational software for Arm Server Linux. LEG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.
 
-The Linaro Enterprise Group (LEG) was established in November 2012 as the first segment focused group within Linaro. The group was established to accelerate Linux ARM server ecosystem development and it extended the list of Linaro members beyond ARM silicon vendors to Server OEM’s and commercial Linux providers.
+The Linaro Enterprise Group (LEG) was established in November 2012 as the first segment focused group within Linaro. The group was established to accelerate Linux Arm server ecosystem development and it extended the list of Linaro members beyond Arm silicon vendors to Server OEM’s and commercial Linux providers.
 
-LEG leverages and extends Linaro’s existing shared engineering, legal and open source collaboration structures. This joint collaboration focuses on identifying and addressing gaps/optimizations in the ARM Linux server software ecosystem, enabling SoC support upstream to meet LEG requirements, agreeing LEG requirements for SoC software standardization and upstreaming all relevant output.
+LEG leverages and extends Linaro’s existing shared engineering, legal and open source collaboration structures. This joint collaboration focuses on identifying and addressing gaps/optimizations in the Arm Linux server software ecosystem, enabling SoC support upstream to meet LEG requirements, agreeing LEG requirements for SoC software standardization and upstreaming all relevant output.
 
 A steering committee formed from member representatives drives the LEG engineering team. The team has successfully brought together competing companies to work on common solutions and enable OEMs, commercial Linux providers and SoC vendors to collaborate in a neutral environment.
 
@@ -47,11 +47,11 @@ The LEG steering committee defines the high level tasks – be it heavy lifting 
 
 LEG leverages all Linaro core teams, including [Kernel](/core/kernel/), [Power Management](/core/arm-power/), [Security](/core/security/), [Toolchain](/core/toolchain/) and [Virtualization](/core/virtualization/), who contribute to LEG activities with their expertise, resources and deliverables.
 
-LEG also works closely with the [Automation & CI team](/core/ctt/) to set up regular builds of the main server Linux distributions for LEG SoC’s, as per the decision and guidance of the steering committee. These builds are used to validate the core ARM server components that LEG engineers work on, and enable LEG members to integrate LEG deliverables with their product development activities, which can accelerate their time to market. However, LEG builds do not replace the deliverables and support services provided by the commercial Linux vendors.
+LEG also works closely with the [Automation & CI team](/core/ctt/) to set up regular builds of the main server Linux distributions for LEG SoC’s, as per the decision and guidance of the steering committee. These builds are used to validate the core Arm server components that LEG engineers work on, and enable LEG members to integrate LEG deliverables with their product development activities, which can accelerate their time to market. However, LEG builds do not replace the deliverables and support services provided by the commercial Linux vendors.
 
 LEG manages two lead projects: Software Defined Infrastructure (SDI) and Big Data. [Software Defined Infrastructure](/projects/sdi/) enables the cloud revolution, and is the fundamental building block for the next generation of the datacenter. [Big Data](/projects/bigdata/) was established as a Lead Project to make AArch64 a first class citizen in the Hadoop and Spark community, as well as a supported architecture for scale-out analytics.
 
-LEG leads the initiative [Developer Cloud](https://www.linaro.cloud/). The ARM architecture Developer Cloud allows developers to implement, port and test server, cloud and IoT applications without substantial upfront hardware investment. Developers have access to popular development environments, such as Debian, CentOS, Ubuntu and RHEL. The Developer Cloud (based on OpenStack) employs ARM server platforms from Linaro members Cavium, HPE, Huawei and Qualcomm. The Developer Cloud is hosted in three regions, one based in Cambridge, UK; one in Austin, USA; and the third in Shanghai, China. To sign up for Developer Cloud, click [here](https://register.linaro.cloud/).
+LEG leads the initiative [Developer Cloud](https://www.linaro.cloud/). The Arm architecture Developer Cloud allows developers to implement, port and test server, cloud and IoT applications without substantial upfront hardware investment. Developers have access to popular development environments, such as Debian, CentOS, Ubuntu and RHEL. The Developer Cloud (based on OpenStack) employs Arm server platforms from Linaro members Cavium, HPE, Huawei and Qualcomm. The Developer Cloud is hosted in three regions, one based in Cambridge, UK; one in Austin, USA; and the third in Shanghai, China. To sign up for Developer Cloud, click [here](https://register.linaro.cloud/).
 
 In March 2017, Linaro [announced](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/) its first special interest group (SIG) to be formed by LEG: the High Performance Computing Special Interest Group (HPC SIG). More information about the HPC SIG can be found [here](/sig/hpc/).
 

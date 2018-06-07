@@ -5,7 +5,7 @@ categories:
 date: 2013-10-30 14:30:25
 description: Recap of the events that took place on Tuesday October 29th at the Linaro
   Connect USA 2013 in Santa Clara.
-keywords: Linaro, ARM, Facebook, Linux, opensource, Android
+keywords: Linaro, Arm, Facebook, Linux, opensource, Android
 layout: post
 link: /blog/connect-update/lcu13-tuesday-recap/
 slug: lcu13-tuesday-recap
@@ -14,7 +14,7 @@ tags:
 - connect
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Opensource
 title: LCU13 Tuesday Recap
 wordpress_id: 3128
@@ -56,7 +56,7 @@ Linaro Connect sessions followed the keynotes in the morning of Tuesday and the
 
 Linaro Connect's first ever "Crazy Shirt" Contest began on Tuesday and we have many people competing to win on the Linaro Facebook page.  To "LIKE" your favorite crazy go to: [https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)  the person with the most "LIKES" on Friday November 1st wins.
 
-Linaro Connect begins on Wednesday by coming together with ARM TechCon briefly for the keynote from ARM’s CEO, Simon Segars. He will speak about his vision for transformative technology in the Internet of Things (IoT), data centers and mobile.
+Linaro Connect begins on Wednesday by coming together with Arm TechCon briefly for the keynote from Arm’s CEO, Simon Segars. He will speak about his vision for transformative technology in the Internet of Things (IoT), data centers and mobile.
 
 **Linaro Connect sessions then continue after the keynote**:
 
@@ -122,7 +122,7 @@ Keynote
 </td>
 
 <td width="277" valign="top" markdown="1">
-**ARM64 kernel features enablement**
+**Arm64 kernel features enablement**
 </td>
 
 <td valign="top" markdown="1">
@@ -144,7 +144,7 @@ Linux Kernel
 </td>
 
 <td width="277" valign="top" markdown="1">
-**GPGPU on ARM Experience Report**
+**GPGPU on Arm Experience Report**
 </td>
 
 <td valign="top" markdown="1">

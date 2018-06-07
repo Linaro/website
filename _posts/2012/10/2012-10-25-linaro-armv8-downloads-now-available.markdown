@@ -3,22 +3,22 @@ author: loic.minier
 categories:
 - blog
 date: 2012-10-25 11:48:00
-description: New ARMv8 downloads are now available from Linaro!
-keywords: Linaro, Linux on ARM, Open Source, Release, ARMV8, AArch64, Downloads,  ARM
+description: New Armv8 downloads are now available from Linaro!
+keywords: Linaro, Linux on Arm, Open Source, Release, ArmV8, AArch64, Downloads,  Arm
 layout: post
 link: /blog/releases-blog/linaro-armv8-downloads-now-available/
 slug: linaro-armv8-downloads-now-available
 tags:
 - Releases
-title: Linaro ARMv8 Downloads Now Available
+title: Linaro Armv8 Downloads Now Available
 wordpress_id: 1947
 ---
 
-## New ARMv8 downloads are now available from Linaro!
+## New Armv8 downloads are now available from Linaro!
 
-The ARMv8 architecture offers 64-bit computing for ARM SoCs.  ARM and Linaro have been hard at work to enable opensource software for the new AArch64 execution state and for the new A64 instruction set and Linaro is making early ARMv8 images available to interested developers.
+The Armv8 architecture offers 64-bit computing for Arm SoCs.  Arm and Linaro have been hard at work to enable opensource software for the new AArch64 execution state and for the new A64 instruction set and Linaro is making early Armv8 images available to interested developers.
 
-While hardware isn't available for purchase, ARM offers a free of charge ARMv8 virtual platform called "Foundation model" which allows booting Linaro's GNU/Linux images.
+While hardware isn't available for purchase, Arm offers a free of charge Armv8 virtual platform called "Foundation model" which allows booting Linaro's GNU/Linux images.
 
 The filesystem images are based on OpenEmbedded and come in three flavors:
 

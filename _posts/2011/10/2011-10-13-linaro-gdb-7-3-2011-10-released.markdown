@@ -15,7 +15,7 @@ wordpress_id: 654
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro GDB 7.3.
 
-Linaro GDB 7.3 2011.10 is the third release in the 7.3 series.  Based off the latest GDB 7.3, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro GDB 7.3 2011.10 is the third release in the 7.3 series.  Based off the latest GDB 7.3, it includes a number of Arm-focused bug fixes and enhancements.
 
 This release contains:
 * Support for disabling address space randomization in gdbserver.

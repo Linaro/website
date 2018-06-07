@@ -43,7 +43,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
           </a>
           <a href="#3" class="list-group-item">
             <h4 class="list-group-item-heading">Arm tools and roadmap for SVE compiler support</h4>
-            <p class="list-group-item-text">Richard Sandiford, Florian Hahn (Arm), ARM</p>
+            <p class="list-group-item-text">Richard Sandiford, Florian Hahn (Arm), Arm</p>
           </a>
           <a href="#4" class="list-group-item">
             <h4 class="list-group-item-heading">HCQC : HPC Compiler Quality Checker</h4>
@@ -54,7 +54,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             <p class="list-group-item-text">Itaru Kitayama, RIKEN AICS</p>
           </a>
           <a href="#6" class="list-group-item">
-            <h4 class="list-group-item-heading">Porting and Optimization of Numerical Libraries for ARM SVE	</h4>
+            <h4 class="list-group-item-heading">Porting and Optimization of Numerical Libraries for Arm SVE	</h4>
             <p class="list-group-item-text">Toshiyuki Imamura, RIKEN AICS</p>
           </a>
           <a href="#7" class="list-group-item">
@@ -109,11 +109,11 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             <p class="list-group-item-text">Tomotake Nakamura, Fujitsu</p>
           </a>
           <a href="#18" class="list-group-item">
-            <h4 class="list-group-item-heading">The perfect mix: SUSE's HPC, ARM and Containers</h4>
+            <h4 class="list-group-item-heading">The perfect mix: SUSE's HPC, Arm and Containers</h4>
             <p class="list-group-item-text">Vojtech Pavlik, SUSE</p>
           </a>
           <a href="#19" class="list-group-item">
-            <h4 class="list-group-item-heading">OpenMP Extension for Explicit SIMD Programming using ARM SVE</h4>
+            <h4 class="list-group-item-heading">OpenMP Extension for Explicit SIMD Programming using Arm SVE</h4>
             <p class="list-group-item-text">Jinpil Lee, RIKEN AICS</p>
           </a>
           <a href="#20" class="list-group-item">
@@ -162,7 +162,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <em>By</em> Yutaka Ishikawa, RIKEN AICS
 
         <p class="talk-abstract">
-            Post-K is the next flagship supercomputer in Japan, replacement of the K supercomputer. Its node architecture and interconnect are based on ARMv8 SVE and a 6-D mesh/torus network, respectively. A three level hierarchical storage system will be installed with compute nodes. The system software developed in the post K supercomputer includes a novel operating system for general-purpose manycore architectures, low-level communication and MPI libraries, and file I/O middleware.
+            Post-K is the next flagship supercomputer in Japan, replacement of the K supercomputer. Its node architecture and interconnect are based on Armv8 SVE and a 6-D mesh/torus network, respectively. A three level hierarchical storage system will be installed with compute nodes. The system software developed in the post K supercomputer includes a novel operating system for general-purpose manycore architectures, low-level communication and MPI libraries, and file I/O middleware.
         </p>
 
     </div>
@@ -215,7 +215,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             Arm tools and roadmap for SVE compiler support
         </h4>
 
-        <em>By</em> Richard Sandiford, Florian Hahn (Arm), ARM
+        <em>By</em> Richard Sandiford, Florian Hahn (Arm), Arm
 
         <p class="talk-abstract">
             This presentation will give an overview of what Arm is doing to develop the HPC ecosystem, with a particular focus on SVE.  It will include a brief synopsis of both the commercial and open-source tools and libraries that Arm is developing and a description of the various community initiatives that Arm is involved in.  The bulk of the talk will describe the roadmap for SVE compiler support in both GCC and LLVM.  It will cover the work that has already been done to support both hand-optimised and automatically-vectorised code, and the plans for future improvements.
@@ -308,13 +308,13 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-sm-9 session-info">
         <a name="6"></a>
         <h4 class="talk-title">
-            Porting and Optimization of Numerical Libraries for ARM SVE
+            Porting and Optimization of Numerical Libraries for Arm SVE
         </h4>
 
             <em>By</em> Toshiyuki Imamura, RIKEN AICS
 
         <p class="talk-abstract">
-            RIKEN and Fujitsu are developing ARM-based numerical libraries optimized with the new feature of ARM-SVE. We present porting status of netlib+SSL-II for ARM-SVE and other OSS. Also, we demonstrate some optimization policies and techniques, especially for the basic numerical linear algebra kernels.
+            RIKEN and Fujitsu are developing Arm-based numerical libraries optimized with the new feature of Arm-SVE. We present porting status of netlib+SSL-II for Arm-SVE and other OSS. Also, we demonstrate some optimization policies and techniques, especially for the basic numerical linear algebra kernels.
         </p>
 
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/AP6tYcCEtN4WTa" %}
@@ -347,7 +347,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <em>By</em> Takahiro Ogura, RIKEN
 
         <p class="talk-abstract">
-            Sharing build procedures of Open Source Software (OSS) is critical to quick OSS deployment. It is difficult for us because our target architecture is ARM and the public know-hows are not abundant since ARM based HPC machines are not prevalent. We will share the lessons learned from our evaluation of EasyBuild, which facilitates formulation and sharing of build recipes.
+            Sharing build procedures of Open Source Software (OSS) is critical to quick OSS deployment. It is difficult for us because our target architecture is Arm and the public know-hows are not abundant since Arm based HPC machines are not prevalent. We will share the lessons learned from our evaluation of EasyBuild, which facilitates formulation and sharing of build recipes.
         </p>
 
     </div>
@@ -380,7 +380,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <em>By</em> Balazs Gerofi, RIKEN Advanced Institute For Computational Science
 
         <p class="talk-abstract">
-            RIKEN Advanced Institute for Computation Science is in charge of leading the development of Japan's next generation flagship supercomputer, the successor of the K. Part of this effort is to design and develop a system software stack that suits the needs of future extreme scale computing. In this talk, we focus on operating system (OS) requirements for HPC and discuss IHK/McKernel, a multi-kernel based operating system framework. IHK/McKernel runs Linux with a light-weight kernel (LWK) side-by-side on compute nodes with the primary motivation of providing scalable, consistent performance for large scale HPC simulations, but at the same time to retain a fully Linux compatible execution environment. We provide an overview of the project and discuss the status of its support for ARM architecture.
+            RIKEN Advanced Institute for Computation Science is in charge of leading the development of Japan's next generation flagship supercomputer, the successor of the K. Part of this effort is to design and develop a system software stack that suits the needs of future extreme scale computing. In this talk, we focus on operating system (OS) requirements for HPC and discuss IHK/McKernel, a multi-kernel based operating system framework. IHK/McKernel runs Linux with a light-weight kernel (LWK) side-by-side on compute nodes with the primary motivation of providing scalable, consistent performance for large scale HPC simulations, but at the same time to retain a fully Linux compatible execution environment. We provide an overview of the project and discuss the status of its support for Arm architecture.
         </p>
 
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/NNdQnsWIgoCwHB" %}
@@ -717,13 +717,13 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-sm-9 session-info">
         <a name="18"></a>
         <h4 class="talk-title">
-            The perfect mix: SUSE's HPC, ARM and Containers
+            The perfect mix: SUSE's HPC, Arm and Containers
         </h4>
 
             <em>By</em> Vojtech Pavlik , SUSE
 
         <p class="talk-abstract">
-        SUSE's operating system is well established in the HPC market as a solid and flexible foundation to build on. SUSE is complementing that with strong ARM expertise and Container skills and tools. A perfect mix for the next generation of ARM-based supercomputer with scalable management. The talk discusses the details of what SUSE offers, including how it was achieved on the technical level, from ARM enablement to its HPCaaS - High Performance Computing as a Service.
+        SUSE's operating system is well established in the HPC market as a solid and flexible foundation to build on. SUSE is complementing that with strong Arm expertise and Container skills and tools. A perfect mix for the next generation of Arm-based supercomputer with scalable management. The talk discusses the details of what SUSE offers, including how it was achieved on the technical level, from Arm enablement to its HPCaaS - High Performance Computing as a Service.
         </p>
 
     </div>
@@ -744,7 +744,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     <div class="col-sm-9 session-info">
         <a name="19"></a>
         <h4 class="talk-title">
-            OpenMP Extension for Explicit SIMD Programming using ARM SVE
+            OpenMP Extension for Explicit SIMD Programming using Arm SVE
         </h4>
 
         <em>By</em> Jinpil Lee, RIKEN AICS

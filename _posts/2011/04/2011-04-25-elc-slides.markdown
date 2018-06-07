@@ -37,11 +37,11 @@ As usual, presentation slides for this conference are being collected on [elinux
 
 
   * Paul Larson (Validation Team):
-[Linaro Automated Validation on ARM](http://elinux.org/images/f/ff/ELC2011-Linaro-Validation.pdf)
+[Linaro Automated Validation on Arm](http://elinux.org/images/f/ff/ELC2011-Linaro-Validation.pdf)
 
 
   * Jesse Barker (Graphics Working Group):
-[Linux Graphics Meets the ARM Ecosystem](http://elinux.org/images/f/ff/Elc2011_barker.pdf)
+[Linux Graphics Meets the Arm Ecosystem](http://elinux.org/images/f/ff/Elc2011_barker.pdf)
 
 
 Videos will be available soon too. Stay tuned!

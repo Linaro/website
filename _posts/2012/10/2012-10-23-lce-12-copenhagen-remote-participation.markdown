@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2012-10-23 23:34:00
 description: Can't make it to LCE 12 - Copenhagen on 29 Oct to 3 November; find out
-  how you can help shape the future of Linux on ARM through Remote Participation.
-keywords: Remote, Participation, Linaro, Linux on ARM, Open Source, Community, Linaro
+  how you can help shape the future of Linux on Arm through Remote Participation.
+keywords: Remote, Participation, Linaro, Linux on Arm, Open Source, Community, Linaro
   Connect, Bella Center, Copenhagen, Demo Friday, LCE12, Android Mini-Summit, Mini-Summit,
   Schedule, Andy Doan, Jesse Barker, Mark Orvek, Michael Hope, Vicky Janicki, Zach
   Pfeffer, Amber Graner
@@ -22,20 +22,20 @@ wordpress_id: 1936
 ## LCE 12 Copenhagen - What's all the Fuss about?
 
 
-[This event](http://connect.linaro.org/resources/#welcome) will bring together over 250 participants from over 50 companies, ranging from kernel hackers to integration engineers to ARM SoC industry executives and more, who will gather for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond to help shape the future of Linux on ARM.
+[This event](http://connect.linaro.org/resources/#welcome) will bring together over 250 participants from over 50 companies, ranging from kernel hackers to integration engineers to Arm SoC industry executives and more, who will gather for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond to help shape the future of Linux on Arm.
 
-The week will kick off with short high-level plenary, followed by a few introductory sessions. Mornings are filled with presentations and discussion sessions on key topics which impact the Linux on ARM ecosystem, while the afternoons focus on hacking sessions. Think of it as learn in the mornings and apply the knowledge in the afternoon.
+The week will kick off with short high-level plenary, followed by a few introductory sessions. Mornings are filled with presentations and discussion sessions on key topics which impact the Linux on Arm ecosystem, while the afternoons focus on hacking sessions. Think of it as learn in the mornings and apply the knowledge in the afternoon.
 
-LCE 12 Copenhagen will also host three mini-summits - ARMv8 (64-bit) on the Tuesday, Android on Wednesday and a big.LITTLE on Thursday.
+LCE 12 Copenhagen will also host three mini-summits - Armv8 (64-bit) on the Tuesday, Android on Wednesday and a big.LITTLE on Thursday.
 
 Regular track sessions will follow the plenaries in the mornings Monday through Friday. and those tracks align with Linaro's working groups and include: Android, Graphics and multimedia, Kernel, Platform (Ubuntu and generic Linux), Power, QA/Infrastructure, Tools, Training, Validation/LAVA.
 
-This is the place to meet the engineers and managers deciding where Linux on ARM is going, and also to make the world aware of your own development projects.
+This is the place to meet the engineers and managers deciding where Linux on Arm is going, and also to make the world aware of your own development projects.
 
 
 Meet some of the Linaro Tech Leads and Managers before Linaro Connect and hear what they had to say about this fast paced, educational, hands-on, future shaping, community building event on this Google+ Hangout on Air where [Amber Graner](/about/), Linaro Community Specialist sits down with the following Linaro Tech Leads and Managers--[Andy Doan](/about/), [Jesse Barker](/about/), [Mark Orvek](/about/), [Michael Hope](/about/), [Vicky Janicki](/about/), [Zach Pfeffer](/about/).
 
-Sounds exciting and fun, right? Can't make it?  Don't worry you can still help shape the future of Linux on ARM! How? Keep reading.
+Sounds exciting and fun, right? Can't make it?  Don't worry you can still help shape the future of Linux on Arm! How? Keep reading.
 
 
 ## Remote Participation

@@ -19,7 +19,7 @@ title: Linaro Networking Group - What Has Been Happening?
 wordpress_id: 6931
 ---
 
-Linaro Networking Group (LNG) has been very busy.  During the week of Linaro Connect USA (LCU14) the team had many activities that took place.   On the Thursday of Connect there were some surprising demonstrations involving OpenDataPlane (ODP) in the LNG hacking room. Surprising because of the breadth of multiarchitecture platforms (include ARM, MIPS and x86) as well as functional ODP applications that showed bare metal performance running in userspace on Linux. ODP has come a long way since LCA14. If you were not able to attend, here's a recap of the LNG activities, sessions and demos during the show as well as an interview with the team's Director discussing the activities the team has been working on and what is coming up.
+Linaro Networking Group (LNG) has been very busy.  During the week of Linaro Connect USA (LCU14) the team had many activities that took place.   On the Thursday of Connect there were some surprising demonstrations involving OpenDataPlane (ODP) in the LNG hacking room. Surprising because of the breadth of multiarchitecture platforms (include Arm, MIPS and x86) as well as functional ODP applications that showed bare metal performance running in userspace on Linux. ODP has come a long way since LCA14. If you were not able to attend, here's a recap of the LNG activities, sessions and demos during the show as well as an interview with the team's Director discussing the activities the team has been working on and what is coming up.
 
 * * *
 
@@ -88,7 +88,7 @@ Video: [https://www.youtube.com/watch?v=Qb_NwuDFAyA&list=UUIVqQKxCyQLJS6xvSmfnd
 
 ### **Demos at Linaro Connect**
 
-In the time leading up to Connect LNG engineers were kept busy in getting their engineering demos ready for LCU14. Demos included APM, Avago, Cavium, Freescale & TI platforms running OpenDataPlane (ODP) with various applications, covering ARMv7 & v8, X86, MIPS64 and PowerPC. In addition to Cisco’s own DataPlane & crypto application, Open vSwitch, Wireshark, Open DayLight, and Snort were run to demonstrate its functional capability.
+In the time leading up to Connect LNG engineers were kept busy in getting their engineering demos ready for LCU14. Demos included APM, Avago, Cavium, Freescale & TI platforms running OpenDataPlane (ODP) with various applications, covering Armv7 & v8, X86, MIPS64 and PowerPC. In addition to Cisco’s own DataPlane & crypto application, Open vSwitch, Wireshark, Open DayLight, and Snort were run to demonstrate its functional capability.
 
 To learn more about the Linaro Networking Group (LNG) please visit:  [/groups/lng/](/groups/lng/) and for Data Plane Programming API: [www.OpenDataPlane.org](http://www.opendataplane.org/) and [/projects/opendataplane/](/projects/opendataplane/)
 

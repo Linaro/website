@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-03-19 23:04:06
 description: Find out what all the excitement was about at Linaro Connect Asia 2013.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCA13-Hong
-  Kong, Speakers, Announcement, LAVA, Embedded Android, ARM Server Mini-Summit,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
+  Kong, Speakers, Announcement, LAVA, Embedded Android, Arm Server Mini-Summit,
 layout: post
 link: /blog/community-blog/mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong/
 slug: mini-summits-training-hacking-and-more-linaro-connect-asia-2013-hong-kong
@@ -25,7 +25,7 @@ wordpress_id: 2560
 
 There were a total of **308** people who attended Linaro Connect Asia 2013 representing **46** companies. Co-located with Linaro Connect Asia 2013 was the Open Compute Project (OCP) Asia Summit which had 40 attendees. There were over 3,100 meals served to attendees and 77 sessions and 126 meetings which were held through out the week. Joe Bates, VP of Member Services for Linaro summed up the awesome busyness of this week in his ["Wrap-Up" talk](http://youtu.be/O6s8YsalYus?t=27m) on Friday, 8 March 2013. This was one of the most productive Connect events to date with more moving pieces and parts than ever before.
 
-Engineers returning to their companies after Linaro Connect Asia 2013 should be able to boast about knowledge of the latest software developments around ARM, new ways of optimizing the latest ARM technology and a strong desire to return.
+Engineers returning to their companies after Linaro Connect Asia 2013 should be able to boast about knowledge of the latest software developments around Arm, new ways of optimizing the latest Arm technology and a strong desire to return.
 
 Linaro Connect Asia 2013 was all about engineering. The event sessions as you can see are a mixture of discussion, planning and agreement about how to engineer solutions to the projects being run within Linaro. There were 6 keynotes and the sessions were split into focused kernel, power management, toolchain, graphics and multimedia, platform, validation, and QA tracks with Mini-summits and workshops laced throughout the week to bring focus to cross-team thinking and training in key areas.
 
@@ -33,7 +33,7 @@ There was the opportunity for face to face interaction with leading open source 
 
 Remote participation was also available for most sessions via Google Hangouts OnAir, but nothing beats the opportunities for interaction in person. Below are links to the daily schedules, slide decks, etherpad notes, video sessions and interviews from the event.
 
-To join with the team building the future of Linux on ARM, plan on joining us for Linaro Connect Europe 2013 (LCE13) in Dublin from 8 to 12 July.
+To join with the team building the future of Linux on Arm, plan on joining us for Linaro Connect Europe 2013 (LCE13) in Dublin from 8 to 12 July.
 
 Keynotes
 
@@ -627,17 +627,17 @@ The LAVA Workshop consisted of 4 hours of packed with LAVA information. Attendee
 
 
 
-ARM Server Mini Summit
+Arm Server Mini Summit
 
-The ARM Server Mini Summit consisted of 4 sessions about the following topics:
-
-
-**UEFI**: Updates on the maintainership rules, Linaro tree, SCT and test integration in LAVA, collaboration with ARM and the Tianocore community, technical achievements and plans for the next steps, discussion on PXE boot.
+The Arm Server Mini Summit consisted of 4 sessions about the following topics:
 
 
+**UEFI**: Updates on the maintainership rules, Linaro tree, SCT and test integration in LAVA, collaboration with Arm and the Tianocore community, technical achievements and plans for the next steps, discussion on PXE boot.
 
 
-**ACPI**: Updates on ACPICA porting on ARM and initial trials with ACPI tables. Plans for the next steps.
+
+
+**ACPI**: Updates on ACPICA porting on Arm and initial trials with ACPI tables. Plans for the next steps.
 
 
 
@@ -690,7 +690,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[ARM Server Mini-Summit: UEFI](http://lca-13.zerista.com/event/member/72366)
+[Arm Server Mini-Summit: UEFI](http://lca-13.zerista.com/event/member/72366)
 
 
 
@@ -719,7 +719,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[ARM Server Mini-Summit: ACPI](http://lca-13.zerista.com/event/member/72367)
+[Arm Server Mini-Summit: ACPI](http://lca-13.zerista.com/event/member/72367)
 
 
 
@@ -748,7 +748,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[ARM Server Mini-Summit: Verticals - Web Server and Caching technologies](http://lca-13.zerista.com/event/member/72368)
+[Arm Server Mini-Summit: Verticals - Web Server and Caching technologies](http://lca-13.zerista.com/event/member/72368)
 
 
 
@@ -777,7 +777,7 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 <td markdown="1">
 
 
-[ARM Server Mini-Summit: Verticals- HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413)
+[Arm Server Mini-Summit: Verticals- HipHopVM and Hadoop Distributed File System](http://lca-13.zerista.com/event/member/72413)
 
 
 
@@ -806,12 +806,12 @@ The ARM Server Mini Summit consisted of 4 sessions about the following topics:
 
 
 
-Networking on ARM
+Networking on Arm
 
-While not a mini-summit it did work out that on Wednesday 6 March there were 3 hours of back to back sessions dedicated to networking on ARM. This group of sessions included:
+While not a mini-summit it did work out that on Wednesday 6 March there were 3 hours of back to back sessions dedicated to networking on Arm. This group of sessions included:
 
 
-**PREEMPT_RT**: PREEMPT_RT is a set of maintained kernel patches supporting realtime operations. Historically, the ARM platform support has ‘bit-rotted’ over time; there being a lack of ongoing testing and maintainance. As well as adding features, we need to bring PREEMPT_RT into a continuous integration loop. Other patchsets of interest to networking include NO_HZ_FULL. There may be some cross over with zero overhead Linux.
+**PREEMPT_RT**: PREEMPT_RT is a set of maintained kernel patches supporting realtime operations. Historically, the Arm platform support has ‘bit-rotted’ over time; there being a lack of ongoing testing and maintainance. As well as adding features, we need to bring PREEMPT_RT into a continuous integration loop. Other patchsets of interest to networking include NO_HZ_FULL. There may be some cross over with zero overhead Linux.
 
 
 
@@ -1260,7 +1260,7 @@ Friday (G+ HOA) (11 Videos)
 <td markdown="1">
 
 
-[ARMdevices.net](http://armdevices.net/) (21 Videos)
+[Armdevices.net](http://armdevices.net/) (21 Videos)
 
 
 
@@ -1305,7 +1305,7 @@ Friday (G+ HOA) (11 Videos)
 
 Interviews
 
-Nicolas "Charbax" Charbonnier of ARMdevices.net joined Linaro Community Manager, Amber Graner and the FormsCom AV crew to film and interview various people about their roles and take on various aspects of the ARM ecosystem and Linaro. Those interviews include:
+Nicolas "Charbax" Charbonnier of Armdevices.net joined Linaro Community Manager, Amber Graner and the FormsCom AV crew to film and interview various people about their roles and take on various aspects of the Arm ecosystem and Linaro. Those interviews include:
 
 _(Please note that as new videos from this event are published they will be added to the [LCA13 wiki page](https://wiki.linaro.org/Events/LCA13))_
 
@@ -1691,7 +1691,7 @@ Wednesday 6 March
 <td markdown="1">
 
 
-**Wookey of Linaro working on Debian for ARMv8 64bit**
+**Wookey of Linaro working on Debian for Armv8 64bit**
 
 
 
@@ -1721,7 +1721,7 @@ Wednesday 6 March
 <td markdown="1">
 
 
-**ARM Chromebooks at Linaro Connect 2013**
+**Arm Chromebooks at Linaro Connect 2013**
 
 
 
@@ -1994,7 +1994,7 @@ Monday 11 March
 <td markdown="1">
 
 
-**AMD developing Linux on ARM at Linaro Connect 2013**
+**AMD developing Linux on Arm at Linaro Connect 2013**
 
 
 
@@ -2088,7 +2088,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Roger Teague](/about/tsc/) and the ARM Engineers
+  * [Roger Teague](/about/tsc/) and the Arm Engineers
 
 
 
@@ -2104,7 +2104,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
   * [Nicolas Pitre](/about/), Technical Architect, Office of the CTO, Linaro
 
 
-  * Dave Martin, Kernel Engineer, ARM
+  * Dave Martin, Kernel Engineer, Arm
 
 
   * [Viresh Kumar](/about/), Power Management Engineer, Power Management Team, Linaro
@@ -2130,7 +2130,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-**Most Significant Contribution to the Industry 2012: ARM SoC**
+**Most Significant Contribution to the Industry 2012: Arm SoC**
 
 
 
@@ -2151,7 +2151,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * Jesse Barker, former Graphics WG Technical Lead, ARM
+  * Jesse Barker, former Graphics WG Technical Lead, Arm
 
 
   * [Sumit Semwal](/about/), Graphic Engineer, Graphics Team, Linaro
@@ -2250,7 +2250,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 Demo Friday
 
 
-Individuals and organizations who are using Linaro Code and ARM-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) for more information.
+Individuals and organizations who are using Linaro Code and Arm-processor based boards are encourages to **show-off** their work at Linaro Connect events. _(Video and Images from this portion of the event are still in production and will be available over the upcoming weeks.)_ If you or your organization would like to participate in the upcoming Demo Friday event in Dublin, Ireland please click [here](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) for more information.
 
 
 Introduction to Linaro
@@ -2299,7 +2299,7 @@ If you have ever wondered who makes up Linaro, where those people live, how we w
 
 Join Linaro in Dublin
 
-If you or your organization joined us in Hong Kong, thank you! If you are looking through this amazing list of sessions and videos and thinking that you or your organization would benefit from attending a Linaro Connect event and you're kicking yourself because you missed all the energy and excitement that comes from building the future of Linux on ARM; [then join us in Dublin](http://connect.linaro.org)
+If you or your organization joined us in Hong Kong, thank you! If you are looking through this amazing list of sessions and videos and thinking that you or your organization would benefit from attending a Linaro Connect event and you're kicking yourself because you missed all the energy and excitement that comes from building the future of Linux on Arm; [then join us in Dublin](http://connect.linaro.org)
 
 
 More information on Linaro Connect can be found at: [connect.linaro.org](http://connect.linaro.org). Registration for Linaro Connect Europe 2013 is now [open](http://linaroconnect-lce13-eorg.eventbrite.com/).

@@ -5,7 +5,7 @@ categories:
 date: 2013-10-22 18:34:39
 description: Information on how to attend Linaro Connect USA 2013 remotely by going
   to Google events and YouTube to watch videos
-keywords: Linaro, Linaro Connect, Linaro Connect USA, LCU13, ARM, ARM TechCon, Linux,
+keywords: Linaro, Linaro Connect, Linaro Connect USA, LCU13, Arm, Arm TechCon, Linux,
   Open source software
 layout: post
 link: /blog/connect-update/remote-participation-for-lcu13/
@@ -17,7 +17,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Remote Participation for LCU13
