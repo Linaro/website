@@ -27,7 +27,7 @@ Starting next Monday, Linaro tech leads will be running a set of public phone ca
   * Tuesday, Nov. 23rd, Multimedia working group
 
 
-The objective of these calls is to communicate and clarify the plan for each of our engineering units. Each unit will provide a set of slides discussing features planned and the blueprints that specify and track them. Anyone in the wider ARM or embedded Linux community is invited to come and you're welcome to extend this offer to your contacts.
+The objective of these calls is to communicate and clarify the plan for each of our engineering units. Each unit will provide a set of slides discussing features planned and the blueprints that specify and track them. Anyone in the wider Arm or embedded Linux community is invited to come and you're welcome to extend this offer to your contacts.
 
 These calls are open to the general public; anybody is welcome to dial in and listen. Questions can be asked via IRC using #linaro-meeting on Freenode; details on how to access IRC itself are also linked to from that page.
 

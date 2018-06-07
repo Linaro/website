@@ -37,11 +37,11 @@ George has led software and hardware technology companies for over 25 years, gai
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Ian Ferguson** / Non-executive Director for ARM
+### **Ian Ferguson** / Non-executive Director for Arm
 
-Ian Ferguson is vice president of corporate marketing at ARM. Ian joined ARM in 2007 as director of enterprise and embedded solutions. Within this role, Ian led a segment marketing group chartered with driving ARM technology into embedded applications such as automotive, smart grid and networking applications. He was promoted to vice president to lead ARM’s segment development in server systems and push into energy-efficient data centers. Following rapid success in these areas, he was promoted to lead all the segment teams in January 2013.
+Ian Ferguson is vice president of corporate marketing at Arm. Ian joined Arm in 2007 as director of enterprise and embedded solutions. Within this role, Ian led a segment marketing group chartered with driving Arm technology into embedded applications such as automotive, smart grid and networking applications. He was promoted to vice president to lead Arm’s segment development in server systems and push into energy-efficient data centers. Following rapid success in these areas, he was promoted to lead all the segment teams in January 2013.
 
-Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and QuickLogic. He has also worked as European marketing manager for IDT and as technical marketing engineer for Motorola.
+Prior to Arm, Ian was vice president of marketing for Enigma Semiconductor and QuickLogic. He has also worked as European marketing manager for IDT and as technical marketing engineer for Motorola.
 
 </div>
 <div class="col-sm-3 text-center">
@@ -53,7 +53,7 @@ Prior to ARM, Ian was vice president of marketing for Enigma Semiconductor and Q
 <div class="col-sm-9" markdown="1">
 ### **Eric Finco** / STMicroelectronics
 
-Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the ARM software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
+Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
 
 </div>
 <div class="col-sm-3 text-center">

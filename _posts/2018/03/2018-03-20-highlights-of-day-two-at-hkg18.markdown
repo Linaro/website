@@ -21,7 +21,7 @@ We started the second day of Linaro Connect with two keynotes which both looked 
 
 {% include image.html name="MK-keynote-1.jpg"  class="medium-inline right"  alt="" %} 
 
-Mark Hambleton from ARM presented the first keynote The Fog in which he discussed how the move to fog is about latency, security, privacy and autonomy when things go down. With the number of connected devices increasing, data output increasing and latencies being critical to a lot of what we do, we have to ensure there is back up and less reliance on cloud. This is where the fog comes in - clusters of devices in between the cloud and the local network which enable local processing and decisions for latency sensitive services when that cloud connection is not always available. If you missed the livestream, you can view the recording [here](https://www.youtube.com/watch?v=99NaPZj-nAI)
+Mark Hambleton from Arm presented the first keynote The Fog in which he discussed how the move to fog is about latency, security, privacy and autonomy when things go down. With the number of connected devices increasing, data output increasing and latencies being critical to a lot of what we do, we have to ensure there is back up and less reliance on cloud. This is where the fog comes in - clusters of devices in between the cloud and the local network which enable local processing and decisions for latency sensitive services when that cloud connection is not always available. If you missed the livestream, you can view the recording [here](https://www.youtube.com/watch?v=99NaPZj-nAI)
 
 {% include image.html name="MH-keynote-2.jpg"  class="medium-inline"  alt="" %} 
 

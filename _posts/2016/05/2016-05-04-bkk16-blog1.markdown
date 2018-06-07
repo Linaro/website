@@ -15,7 +15,7 @@ tags:
 
 Linaro Connect Bangkok (BKK16) was our 19th event to date and our first in Thailand. It was a great event at a beautiful venue. Our Thai hosts at the Centara Grand were wonderfully welcoming and helped to make BKK16 an event to remember.
 
-On Monday 7 March, George Grey, CEO of Linaro, started proceedings with his now traditional [welcome keynote](https://www.youtube.com/watch?v=HpvZ2HwL4zI). He made several announcements including the [ARM Based Developer Cloud](/news/linaro-announces-arm-based-developer-cloud-2/) and [96Boards HiKey in AOSP](/news/linaro-announces-support-for-96boards-hikey-in-aosp/).
+On Monday 7 March, George Grey, CEO of Linaro, started proceedings with his now traditional [welcome keynote](https://www.youtube.com/watch?v=HpvZ2HwL4zI). He made several announcements including the [Arm Based Developer Cloud](/news/linaro-announces-arm-based-developer-cloud-2/) and [96Boards HiKey in AOSP](/news/linaro-announces-support-for-96boards-hikey-in-aosp/).
 
 {% include media.html media_url="https://www.youtube.com/watch?v=HpvZ2HwL4zI" %}
 
@@ -23,7 +23,7 @@ There were also a number of exciting demos hosted, which all focused on the 96Bo
 
   1. Tony Zhang from LeMaker demonstrating the first [96Boards CE LCD Display](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=21m17s)
   2. Yang Zhang, 96Boards Director presenting a [96Boards Virtual Reality Demonstration](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=24m23s)
-  3. [Martin Stadtler LEG Director](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=34m43s) providing a demonstration of a cloud based application owncloud, using nginx, memcached, haproxy, apache and mysql, all on ARM64 servers, running the enterprise reference software platform.
+  3. [Martin Stadtler LEG Director](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=34m43s) providing a demonstration of a cloud based application owncloud, using nginx, memcached, haproxy, apache and mysql, all on Arm64 servers, running the enterprise reference software platform.
   4. [ Jon Masters Chief Architect from Red Hat.](https://www.youtube.com/watch?v=IwPsZOBSQTc#t=28m05s)
 
 
@@ -34,11 +34,11 @@ We were very excited to have had some fantastic keynote speakers that got a lot 
   * Monday 7 March - George Grey, Linaro CEO
     * [Keynote video and slides: Welcome to BKK16](https://www.youtube.com/watch?v=HpvZ2HwL4zI)
 
-  * Monday 7 March - Eric Hennenhoefer, VP ARM Research
+  * Monday 7 March - Eric Hennenhoefer, VP Arm Research
     * [Keynote video and slides: From Sensors to Supercomputers, Big Data begins with Little Data](https://www.youtube.com/watch?v=fU-SWtv2TlE)
 
 
-{% include image.html name="Eric-Hennenhoefer-VP-ARM-Research.jpg" alt="Eric Hennenhoefer VP ARM Research" %}
+{% include image.html name="Eric-Hennenhoefer-VP-ARM-Research.jpg" alt="Eric Hennenhoefer VP Arm Research" %}
 
   * Tuesday 8 March - Matthew Garrett, Principal Security Developer at CoreOS
     * [Keynote video and slides: Turning Specifications into Security](https://www.youtube.com/watch?v=798NDrLH36U)

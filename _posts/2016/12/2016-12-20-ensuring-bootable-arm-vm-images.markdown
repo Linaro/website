@@ -17,15 +17,15 @@ tags:
 - qemu
 - standards
 - virtualization
-title: Ensuring Bootable ARM VM Images
+title: Ensuring Bootable Arm VM Images
 wordpress_id: 11992
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
-_A while back, during Linaro Connect 2013, Riku Voipio (Linaro) asked a simple but important question: “When you guys are done building hypervisors that work on ARM, how do we actually make sure that a user can run something on there?”. Of course, he didn’t have in mind that users could manually build a kernel with the required options, remember a long and complicated QEMU command line, bootstrap their own root file systems, pray to the KVM gods, and hope to get a system running. Instead he was thinking of the general problem of how distribution vendors could package a cloud image that was known to work across multiple versions of multiple different ARM hypervisor implementations._
+_A while back, during Linaro Connect 2013, Riku Voipio (Linaro) asked a simple but important question: “When you guys are done building hypervisors that work on Arm, how do we actually make sure that a user can run something on there?”. Of course, he didn’t have in mind that users could manually build a kernel with the required options, remember a long and complicated QEMU command line, bootstrap their own root file systems, pray to the KVM gods, and hope to get a system running. Instead he was thinking of the general problem of how distribution vendors could package a cloud image that was known to work across multiple versions of multiple different Arm hypervisor implementations._
 
-To address this problem, we started writing the [VM System Specification for ARM Processors v2](/assets/downloads/VMSystemSpecificationForARM-v2.0.pdf). There are two versions of this spec, the first one was written completely in the open with input and discussions from the community, very much similar to the Linux kernel upstream contribution process, and took a pragmatic approach to ensure that people could realistically build hypervisors and images that conformed to the spec at the time of writing. Remember, this was before ACPI support was merged upstream for 64-bit ARM, for example. Recently we slightly updated the specification in collaboration with ARM to ensure a better alignment with the SBSA and SBBR standards and to require support for ACPI from the hypervisors as well as unifying requirements across Xen and KVM.
+To address this problem, we started writing the [VM System Specification for Arm Processors v2](/assets/downloads/VMSystemSpecificationForArm-v2.0.pdf). There are two versions of this spec, the first one was written completely in the open with input and discussions from the community, very much similar to the Linux kernel upstream contribution process, and took a pragmatic approach to ensure that people could realistically build hypervisors and images that conformed to the spec at the time of writing. Remember, this was before ACPI support was merged upstream for 64-bit Arm, for example. Recently we slightly updated the specification in collaboration with Arm to ensure a better alignment with the SBSA and SBBR standards and to require support for ACPI from the hypervisors as well as unifying requirements across Xen and KVM.
 
 The VM spec, as it is usually referred to, defines such things as how to format a guest VM image using GPT including an EFI system partition, where to place the bootable EFI application, how to ensure there’s a working UART to give users a console, how to describe the hardware from the hypervisor to the VM, and which peripherals must be supported. For example, the spec requires the presence of a hot-pluggable bus like the Xen PV bus or an emulated PCIe instance, so that storage volumes can be hotplugged as needed in cloud installations.
 
@@ -37,6 +37,6 @@ vmspec-tools is a test suite which can verify both images and hypervisor. One ke
 
 The tool also supports a simple command, vmspec-boot, which downloads a known working reference image, verifies the image, boots the image, and runs the verification from within the VM. This automated procedure is based on the cloud-init initialization system, which is supported by some distributions, but does not work on other custom distros. We hope that if distro vendors find this tool useful and start using it, that they will add support to the tool to automatically verify their entire image from a single movecommand line executable. Until then, we can manually work with other images by manually downloading and running an image, and manually running the vmspec-verify tool inside the VM.
 
-We encourage anyone actively engaged in developing cloud VM images for 64-bit ARM or working on ARM hypervisors to try using this tool, and contribute to it as needed.
+We encourage anyone actively engaged in developing cloud VM images for 64-bit Arm or working on Arm hypervisors to try using this tool, and contribute to it as needed.
 
 The test suite was written by Riku Voipio with reviews and small contributions from Alex Bennée and Christoffer Dall.

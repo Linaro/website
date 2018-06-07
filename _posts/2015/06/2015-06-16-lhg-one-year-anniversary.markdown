@@ -23,7 +23,7 @@ wordpress_id: 8668
 The Linaro Digital Home Group (LHG) was officially launched on May 29th 2014 and it was a year ago this week the inaugural sprint was held with participation from LHG’s eight founding member companies in Nashua, New Hampshire (June 10-12, 2014). Engineers from Linaro and member companies discussed media frameworks targeted at the Comcast RDK and Android, focusing on GStreamer and OpenMAX, and brought demos on company boards showing the performance of their optimized solutions. The group collaborated to define the first version of the LHG Way-of-Working (WoW) guidelines and using JIRA cards and associated engineering blueprints to define the work that is targeted for our sprints. In addition, the group devised a plan to build up the infrastructure to support development activities which included creation of code repositories, the LHG Wiki site developer document repository, and CI loops to support development builds on member hardware, etc.
 
 
-The mission of LHG is to accelerate adoption of the ARM architecture in the digital home (entertainment) segment by working collaboratively on core Linux-based software platforms, delivering media via optimized and secure video frameworks.
+The mission of LHG is to accelerate adoption of the Arm architecture in the digital home (entertainment) segment by working collaboratively on core Linux-based software platforms, delivering media via optimized and secure video frameworks.
 
 **LHG Resources (Public)**
 
@@ -58,7 +58,7 @@ Deliver key open source technologies into reference platforms on member SoCs/Pla
   * V4L2 driver framework
 
 
-Standardized media security platform using ARM TrustZone:
+Standardized media security platform using Arm TrustZone:
   * Delivery of open source reference implementation of W3C EME for secure media playback on RDK and Android
   * Provide reference implementation technologies, such as the Open Portable TEE (link) with Global Platform compliant interface
   * Secure CDM for various key systems, Google WideVine, Microsoft PlayReady, Adobe PrimeTime
@@ -85,7 +85,7 @@ LHG advancements in the RDK architecture include a series of implementation ‘f
   * Qt-Wayland plugin for Qt applications
 
 
-Linaro RDK on ARM leads the way for other SoCs used in RDK in migration to Wayland, DRM/KMS
+Linaro RDK on Arm leads the way for other SoCs used in RDK in migration to Wayland, DRM/KMS
 
 
 **W3C EME with OP-TEE**
@@ -122,7 +122,7 @@ In addition, LHG works in conjunction with member companies to involve additiona
 
 As we look forward to the next year, there are some familiar themes and some new ones. LHG is focused to get all the features that we have brought to the Linaro RDK upstreamed to the RDK main branch.
 
-The security work will target the integration of W3C EME with commercial DRMs to promote CDM interoperability integrated with OP-TEE running on ARM TrustZone. LHG will work with the security working group on the implementation of secure video buffers for the optimized media pipeline. This is an important step to solidify the OP-TEE in the set-top space.
+The security work will target the integration of W3C EME with commercial DRMs to promote CDM interoperability integrated with OP-TEE running on Arm TrustZone. LHG will work with the security working group on the implementation of secure video buffers for the optimized media pipeline. This is an important step to solidify the OP-TEE in the set-top space.
 
 For AndroidTV there is renewed focus on media frameworks to provide glitch-free video playback of 4K content with enhanced A/V sync. The team will also investigate video latency in the AndroidTV Input Framework.
 

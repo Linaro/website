@@ -14,7 +14,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: LCA14 - Tuesday Recap
@@ -116,11 +116,11 @@ Tuesday  March 4, 2014
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[**LCA14-202: ARM-SOC: Status and Directions**](http://lca-14.zerista.com/event/member/102374)
+[**LCA14-202: Arm-SOC: Status and Directions**](http://lca-14.zerista.com/event/member/102374)
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download **](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-202-%20ARM-SOC%20Status%20and%20directions.pdf)slides
+[**Download **](http://connect.linaro.org.s3.amazonaws.com/lca14/presentations/LCA14-202-%20Arm-SOC%20Status%20and%20directions.pdf)slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -128,7 +128,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="227" valign="top" markdown="1">
-[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-04-Tuesday/LCA14-202-%20ARM-SOC-%20Status%20and%20Directions.mp4) (Linaro Server)
+[**Video**](http://people.linaro.org/linaro-connect/lca14/videos/03-04-Tuesday/LCA14-202-%20Arm-SOC-%20Status%20and%20Directions.mp4) (Linaro Server)
 </td>
 </tr>
 <tr >
@@ -277,7 +277,7 @@ No Video Available
 </tr>
 </tbody>
 </table>
-Wednesday LCA14 will continue with more great sessions and two more keynote speakers. Xinwei Hu from Huawei will give a presentation on “Profiling server workload for ARM64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
+Wednesday LCA14 will continue with more great sessions and two more keynote speakers. Xinwei Hu from Huawei will give a presentation on “Profiling server workload for Arm64” followed by Cole Crawford, Executive Director, of the Open Compute Project Foundation. 
 
 Tomorrow the [Linaro “Bond Themed” gala dinner](http://connect.linaro.org/lca14/) takes place so look for some great photos of our attendees J
 

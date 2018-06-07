@@ -25,7 +25,7 @@ By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
 {% include image.html name="blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
 
-Officially launched in May 2014 with eight founding members, LHG has delivered a succession of secure media frameworks on ARM to its members. I would like to extend a big thank you to our member companies for their continued support and encouragement over the years. I would also like to thank members of the larger community who have shown an interest in our work by attending Linaro Connect and giving presentation/keynotes on behalf of LHG.
+Officially launched in May 2014 with eight founding members, LHG has delivered a succession of secure media frameworks on Arm to its members. I would like to extend a big thank you to our member companies for their continued support and encouragement over the years. I would also like to thank members of the larger community who have shown an interest in our work by attending Linaro Connect and giving presentation/keynotes on behalf of LHG.
 
 {% include image.html name="lhg-mission-1.png" alt="LHG mission 1" class="small-inline right"%}
 
@@ -35,7 +35,7 @@ The mission of LHG has remained consistent over the last three years. However, 
 
 {% include image.html name="blog-3.jpg" alt="Blog Image 3" class="small-inline" %}
 
-The early work of LHG targeted the migration of the Comcast Reference Design Kit (RDK) to ARMv8 processors. LHG employed open source features of the Linux kernel, and used open source projects related to media, graphics, security and web browsers, to create a reference implementation, named by Comcast as the ‘Linaro RDK’.
+The early work of LHG targeted the migration of the Comcast Reference Design Kit (RDK) to Armv8 processors. LHG employed open source features of the Linux kernel, and used open source projects related to media, graphics, security and web browsers, to create a reference implementation, named by Comcast as the ‘Linaro RDK’.
 
 At the heart of the Linaro RDK was the OpenSDK which had its origins in a media framework put forward by STMicroelectronics. The OpenSDK continues to serve as the reference LHG OE/Yocto media framework, comprised of ‘best of breed’ open source components, including Chromium, GStreamer, V4L2, Wayland/Weston, W3C EME, OP-TEE, and kernel features, dmabuf, drm/kms.
 
@@ -43,7 +43,7 @@ The OP-TEE integration with W3C EME DRMs is one of the prominent features of the
 
 **LHG: What’s Happening Now**
 
-LHG has been working with Linux-based multimedia on ARM since inception and that effort is reflected in the [Linux Multimedia on ARM](https://collaborate.linaro.org/display/EP/Linux+Multimedia+on+ARM) Lead Project. In this Lead Project, LHG continues to evolve the OpenSDK and OP-TEE/DRM integrations on Linux-based set-top solutions, and provide innovation in the RDK. The latest implementation of the LHG OpenEmbedded builds can be found [here](https://github.com/linaro-home/lhg-oe-manifests).
+LHG has been working with Linux-based multimedia on Arm since inception and that effort is reflected in the [Linux Multimedia on Arm](https://collaborate.linaro.org/display/EP/Linux+Multimedia+on+Arm) Lead Project. In this Lead Project, LHG continues to evolve the OpenSDK and OP-TEE/DRM integrations on Linux-based set-top solutions, and provide innovation in the RDK. The latest implementation of the LHG OpenEmbedded builds can be found [here](https://github.com/linaro-home/lhg-oe-manifests).
 
 {% include media.html media_url="https://www.youtube.com/watch?v=zmOTyKFeyCs" %}
 
@@ -66,7 +66,7 @@ One of the latest exciting developments for LHG was the creation of the 96Boards
 
 The past three years have passed quickly. Now moving forward with ten member companies, we set our sights on an exciting fourth year. There are many opportunities ahead which include expanding into the Android TV ecosystem with a Linaro reference design, continuing work on Linux/RDK, and providing complete set-top reference solutions based on fully featured TV Platform boards that permit access to hardware acceleration and low level security and key provisioning.  
 
-We will continue to innovate and develop compelling media solutions with the aim of them becoming commonplace in the ARM ecosystem. I am certain that with the dedication from the LHG engineers, steering committee and our member companies, this will indeed continue to be the case.
+We will continue to innovate and develop compelling media solutions with the aim of them becoming commonplace in the Arm ecosystem. I am certain that with the dedication from the LHG engineers, steering committee and our member companies, this will indeed continue to be the case.
 
 For more information on LHG, click [here.](/groups/lhg/)
 
@@ -108,7 +108,7 @@ For more information on LHG, click [here.](/groups/lhg/)
   * [Hisilicon creates Poplar First 96Boards TV Platform](/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/)
   * [Poplar Press Release](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/)
   * [LHG Sprint Report](/blog/lhg-sprint-report/)
-  * [LHG takes another step forward in Enhanced Content Protection with OPTEE on ARM® TrustZone®](/blog/lhg-optee-arm-trustzone/)
+  * [LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®](/blog/lhg-optee-arm-trustzone/)
   * [First open source W3C EME solution provided on the 96Boards HiKey platform](/blog/engineering-update-16-04/)
   * [Linaro Digital Home Group at SFO15](/blog/linaro-digital-home-group-at-sfo15/)
   * [LHG One-Year Anniversary](/blog/lhg-one-year-anniversary/)

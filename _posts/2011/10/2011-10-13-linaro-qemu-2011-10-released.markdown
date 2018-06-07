@@ -16,10 +16,10 @@ wordpress_id: 658
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2011.10.
 
-Linaro QEMU 2011.10 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro QEMU 2011.10 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
-* Instructions introduced with the Cortex-A15 (ARM mode SDIV and UDIV, and the VFPv4 fused multiply-accumulate instructions VFMA, VFMS, VFNMA, VFNMS) are now supported in linux-user mode
+* Instructions introduced with the Cortex-A15 (Arm mode SDIV and UDIV, and the VFPv4 fused multiply-accumulate instructions VFMA, VFMS, VFNMA, VFNMS) are now supported in linux-user mode
 * Beagle models now support USB networking (run the model with "-usb -device usb-net,netdev=mynet -netdev user,id=mynet")
 
 Known issues:

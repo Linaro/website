@@ -30,7 +30,7 @@ So, finally, here are the award winners:
 
 **Greatest Upstream Contributor**: Peter Maydell, from a standing start to number 1 QEMU contributor in the world, which has included fixing many, many long standing issues and support of OMAP3 and Versatile Express
 
-**Upstream Stamina Award**: Linus Walleij, who’s done an amazing job consolidating the ARM kernel – check out his pinmux and pin control patches on kernel.org
+**Upstream Stamina Award**: Linus Walleij, who’s done an amazing job consolidating the Arm kernel – check out his pinmux and pin control patches on kernel.org
 
 **Person Most Likely to Deliver On-time Whatever is Asked of Him**: Alexandros Frantzis, whilst the nomination is pretty self-explanatory, he's generally recognised as one of our rock stars with a strong desire to pass along what he knows and understands to others so that they become better contributors
 

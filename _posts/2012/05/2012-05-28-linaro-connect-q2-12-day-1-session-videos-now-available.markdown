@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2012-05-28 09:29:07
 description: Day 1 Linaro Connect Q2.12 video'd sessions are now available online.
-keywords: Linaro Connect, Linaro, Linux On ARM, Open Source, Hong Kong, Sessions,
+keywords: Linaro Connect, Linaro, Linux On Arm, Open Source, Hong Kong, Sessions,
   Hangouts, Day 1, Video
 layout: post
 link: /blog/industry-blog/linaro-connect-q2-12-day-1-session-videos-now-available/
@@ -32,10 +32,10 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
   * [GCC Optimization](http://youtu.be/zyxHPg3rJss)
 
 
-  * [Working with the ARM-SOC Tree](http://youtu.be/_J4wIisd-9o)
+  * [Working with the Arm-SOC Tree](http://youtu.be/_J4wIisd-9o)
 
 
-  * [Intro to ARM-SOC](http://youtu.be/Q1Xp-HlbF00)
+  * [Intro to Arm-SOC](http://youtu.be/Q1Xp-HlbF00)
 
 
   * [NEON Optimization Forum](http://youtu.be/zYnC888SzFQ)
@@ -44,7 +44,7 @@ If you are interested in seeing the sessions that were recorded on Day 1 you can
   * [Intro to GIT](http://youtu.be/iiKOX96-gwg)
 
 
-  * [Perf Support on ARM Platforms](http://youtu.be/r_RhM9kEYjc)
+  * [Perf Support on Arm Platforms](http://youtu.be/r_RhM9kEYjc)
 
 
   * [Ubuntu LEB: Review Current CI Process (Part 1)](http://youtu.be/zKFhwqbvay8)

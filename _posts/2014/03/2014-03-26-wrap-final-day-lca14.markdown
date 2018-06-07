@@ -103,7 +103,7 @@ No Video available
 <tr >
 
 <td width="268" valign="top" markdown="1">
-[LCA14-504: Implementing a Wayland/Weston ARM based SoC](http://lca-14.zerista.com/event/member/102437)
+[LCA14-504: Implementing a Wayland/Weston Arm based SoC](http://lca-14.zerista.com/event/member/102437)
 </td>
 
 <td width="175" valign="top" markdown="1">
@@ -115,7 +115,7 @@ No Video available
 </td>
 
 <td width="227" valign="top" markdown="1">
-[**Video** ](http://people.linaro.org/linaro-connect/lca14/videos/03-07-Friday/LCA14-504-%20Implementing%20a%20Wayland-Weston%20ARM%20based%20SoC.mp4)(Linaro Server)
+[**Video** ](http://people.linaro.org/linaro-connect/lca14/videos/03-07-Friday/LCA14-504-%20Implementing%20a%20Wayland-Weston%20Arm%20based%20SoC.mp4)(Linaro Server)
 </td>
 </tr>
 <tr >

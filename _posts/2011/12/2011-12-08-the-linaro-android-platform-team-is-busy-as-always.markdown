@@ -56,7 +56,7 @@ Here's what the Android Platform Team has been up to this week...
   * Progress on bug "[hdmi display not working with staging-origen manifest](https://bugs.launchpad.net/linaro-android/+bug/888644)".
 
 
-  * Progress on ICS bringup and feature enablement on ARM VExpress-A9.
+  * Progress on ICS bringup and feature enablement on Arm VExpress-A9.
 
 
 ### Bugs fixed>

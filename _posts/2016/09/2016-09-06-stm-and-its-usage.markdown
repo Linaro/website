@@ -17,7 +17,7 @@ tags:
 - CoreSight
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - open source software
 - openCSD
 - OpenCSD library
@@ -36,7 +36,7 @@ System Trace Module (STM) is a kind of trace source device, which can not only c
 
 Any software program no matter where it is in kernel space or user space can write STM device with message string (i.e. trace data), like using print functions.  This article will mainly focus on software traces of STM - how to write traces to STM and how many approaches to do this, etc.
 
-Each software or hardware trace source is assigned a unique pair of master and channel, so that a decoder can know which source the trace data come from by this.  As a kind of resource, the number of masters and channels are limited, for example there are 128 masters, each supporting 65,536 channels on ARM CoreSight STM, while Intel STH has up to 65,536 masters and up to 256 channels per master.
+Each software or hardware trace source is assigned a unique pair of master and channel, so that a decoder can know which source the trace data come from by this.  As a kind of resource, the number of masters and channels are limited, for example there are 128 masters, each supporting 65,536 channels on Arm CoreSight STM, while Intel STH has up to 65,536 masters and up to 256 channels per master.
 
 Unlike some traditional tracing approach which would lose all traces once system crashed since the traces are stored in system memory, tracing with STM can survive this kind of case because all traces collected via STM would end up in sink device which can be still alive even the system is dead so long as the hardware design allows it.There’s another benefit of using STM to collect software traces or monitor hardware events.  Since everything is logged to the same STM with timestamps, it is possible to correlate events happening in the entire system rather than being confined to the logging facility of a single entity.
 
@@ -101,7 +101,7 @@ _# ls /sys/class/stm_source/console/_
 
 _power   stm_source_link   subsystem   uevent_
 
-Once linked with a STM device, the stm_console will be one of outputs of the kernel console logs which will end up in the storage device connected with STM device, for example in ARM CoreSight architeture the operation would be like:
+Once linked with a STM device, the stm_console will be one of outputs of the kernel console logs which will end up in the storage device connected with STM device, for example in Arm CoreSight architeture the operation would be like:
 
 ```
 # echo 1 > /sys/bus/coresight/devices/10003000.etf/enable_sink
@@ -264,7 +264,7 @@ The files masters/channels are configurable and the rule would be applied on the
 ## Mapping STM to user-space
 
 
-Mapping STM stimulus ports area into user space is another usage of STM.  The patch [4] added supporting mmap for CoreSight STM should be in kernel 4.9.  A sample program of this can be found here [6] which was tested on Spreadtrum’s SC9836 [2] and ARM’s Juno platform.  It maps a page of channels (i.e. 16) to user space, and writes a set of given specific data to the mmap’ed area.
+Mapping STM stimulus ports area into user space is another usage of STM.  The patch [4] added supporting mmap for CoreSight STM should be in kernel 4.9.  A sample program of this can be found here [6] which was tested on Spreadtrum’s SC9836 [2] and Arm’s Juno platform.  It maps a page of channels (i.e. 16) to user space, and writes a set of given specific data to the mmap’ed area.
 
 In this sample program, the size of mapped memory must be a multiple of page-size, so the user programs have to map many channels at one time, that’s saying if each channel takes 256 bytes and hardware page size is 4096 bytes, the users have to map at least 16 channels at one time.  To be sure which channels would be mmap’ed, the program has to set a policy of channels allocation for STM device before doing mapping activity.
 

@@ -17,7 +17,7 @@ As BKK16 was hosted in such a beautiful location, there was no need to look furt
 The spring Linaro Connect is when we take the opportunity each year to recognise those stand out members of the Linaro community. Yet again there were many names put forward but the following were the winners on the night:
 
   * __Outstanding Open Source Citizen__
-  Peter Maydell (ARM Assignee) Virtualization
+  Peter Maydell (Arm Assignee) Virtualization
   * __New Starter with Biggest Influence in Linaro__
   [Yang Zhang](https://www.flickr.com/photos/linaroorg/25384586300/in/album-72157665519520505/) (Linaro Employee - 96Boards)
   * __On-Time Delivery__
@@ -57,7 +57,7 @@ Scott Bambrough (Linaro Employee - Member Services)
   * Lee Jones (Member Services)
   * Grant Likely (OCTO)
   * David Piggott (Core Development)
-  * Steve McIntyre (ARM)
+  * Steve McIntyre (Arm)
   * Matthieu Poirier (Core Development)
   * John Stulz (Core Development)
   * Linus Walleij (Core Development)

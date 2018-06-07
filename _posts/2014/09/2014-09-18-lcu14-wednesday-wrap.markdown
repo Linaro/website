@@ -14,14 +14,14 @@ tags:
 - android
 - AOSP
 - arm
-- ARMv8
+- Armv8
 - connect
 - Connect Events
 - embedded
 - kernel
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - LSK
 - Open Source
 - Opensource
@@ -30,9 +30,9 @@ title: LCU14 Wednesday Wrap-up
 wordpress_id: 6708
 ---
 
-Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the ARM Server”. The [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) had a dedicated [ARM Server Ecosystem Day ](http://connect.linaro.org/lcu14/)to introduce maintainers and leaders of key open source projects to Linux on ARMv8 servers. 
+Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the Arm Server”. The [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) had a dedicated [Arm Server Ecosystem Day ](http://connect.linaro.org/lcu14/)to introduce maintainers and leaders of key open source projects to Linux on Armv8 servers. 
 
-LEG has been a group that has been up and running for a while. Many people are aware of the LEG group's work because they’ve seen the patches and LEG is now starting to broaden their scope and would like more projects to be aware of and hopefully involved in supporting ARMv8 servers. The goal of ARM Server Ecosystem day is to connect Linux/Linaro developers with other project developers, so the focus of the event was mainly technical, but it also was an opportunity to see the latest 64-bit ARM hardware and software development in this space. Sessions covered topics including Hadoop, OpenJDK, Red Hat, Ubuntu, OpenStack, KVM, Xen and the toolchain.
+LEG has been a group that has been up and running for a while. Many people are aware of the LEG group's work because they’ve seen the patches and LEG is now starting to broaden their scope and would like more projects to be aware of and hopefully involved in supporting Armv8 servers. The goal of Arm Server Ecosystem day is to connect Linux/Linaro developers with other project developers, so the focus of the event was mainly technical, but it also was an opportunity to see the latest 64-bit Arm hardware and software development in this space. Sessions covered topics including Hadoop, OpenJDK, Red Hat, Ubuntu, OpenStack, KVM, Xen and the toolchain.
 
 
 ### **Wednesday September 17, 2014**
@@ -121,7 +121,7 @@ Keynote
 <tr >
 
 <td markdown="1">
-LCU14-300: OpenStack and KVM on ARM servers
+LCU14-300: OpenStack and KVM on Arm servers
 </td>
 
 <td markdown="1">
@@ -141,7 +141,7 @@ Enterprise Servers
 </td>
 
 <td markdown="1">
-[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-300-%2520OpenStack%2520and%2520KVM%2520on%2520ARM%2520servers.mp4)
+[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-300-%2520OpenStack%2520and%2520KVM%2520on%2520Arm%2520servers.mp4)
 </td>
 </tr>
 <tr >
@@ -199,7 +199,7 @@ Toolchain
 <tr >
 
 <td markdown="1">
-LCU14-301: Hadoop and OpenJDK on ARM servers
+LCU14-301: Hadoop and OpenJDK on Arm servers
 </td>
 
 <td markdown="1">
@@ -219,13 +219,13 @@ Enterprise Servers
 </td>
 
 <td markdown="1">
-[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-301-%2520Hadoop%2520and%2520OpenJDK%2520on%2520ARM%2520servers.mp4)
+[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-301-%2520Hadoop%2520and%2520OpenJDK%2520on%2520Arm%2520servers.mp4)
 </td>
 </tr>
 <tr >
 
 <td markdown="1">
-LCU14-304: Red Hat Offering for ARM servers
+LCU14-304: Red Hat Offering for Arm servers
 </td>
 
 <td markdown="1">
@@ -245,7 +245,7 @@ Available soon
 </td>
 
 <td markdown="1">
-[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-304-%2520Red%2520Hat%2520Offering%2520for%2520ARM%2520servers.mp4)
+[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-304-%2520Red%2520Hat%2520Offering%2520for%2520Arm%2520servers.mp4)
 </td>
 </tr>
 <tr >
@@ -303,7 +303,7 @@ Toolchain
 <tr >
 
 <td markdown="1">
-LCU14-305: Canonical Ubuntu for ARM servers
+LCU14-305: Canonical Ubuntu for Arm servers
 </td>
 
 <td markdown="1">
@@ -323,13 +323,13 @@ Available soon
 </td>
 
 <td markdown="1">
-[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-305-%2520Canonical%2520Ubuntu%2520for%2520ARM%2520servers.mp4)
+[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-305-%2520Canonical%2520Ubuntu%2520for%2520Arm%2520servers.mp4)
 </td>
 </tr>
 <tr >
 
 <td markdown="1">
-LCU14-308: Citrix XEN for ARM servers
+LCU14-308: Citrix XEN for Arm servers
 </td>
 
 <td markdown="1">
@@ -349,7 +349,7 @@ Enterprise Servers
 </td>
 
 <td markdown="1">
-[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-308-%2520Citrix%2520XEN%2520for%2520ARM%2520servers(1).mp4)
+[Link](http://people.linaro.org/linaro-connect/lcu14/videos/09-17-Wednesday/LCU14-308-%2520Citrix%2520XEN%2520for%2520Arm%2520servers(1).mp4)
 </td>
 </tr>
 <tr >
@@ -465,11 +465,11 @@ Enterprise Servers
 
 **LEG Keynote: Linda Knippers – HP** The keynote was titled “Fueling HP Moonshot” and in the keynote Linda Knippers spoke about HP’s participation in Linux and open source communities and organizations and how Linaro/ LEG is enabling HP Moonshot.
 
-**LEG Keynote: Kiko Reis - Canonical** The title of this keynote was “Mythology and Potential of the ARM Server”.  The keynote overview was: ARM is the most interesting thing that could happen to servers in decades: a chance to redefine system architecture, form-factor, hardware acceleration, power consumption and the supplier ecosystem. It’s also a chance to throw away legacy and build the ideal platform for a post-cloud world (whatever that means) — if we keep our eyes on that goal. This talk is my view on where we are and where we need to be in order to turn opportunity into industry-defining success.
+**LEG Keynote: Kiko Reis - Canonical** The title of this keynote was “Mythology and Potential of the Arm Server”.  The keynote overview was: Arm is the most interesting thing that could happen to servers in decades: a chance to redefine system architecture, form-factor, hardware acceleration, power consumption and the supplier ecosystem. It’s also a chance to throw away legacy and build the ideal platform for a post-cloud world (whatever that means) — if we keep our eyes on that goal. This talk is my view on where we are and where we need to be in order to turn opportunity into industry-defining success.
 
 **LCU14-302: OP-TEE Porting and Future Enhancements** This session covered how to port OP-TEE to another platform. The two main areas covered were; an overview of Allwinners’ A80 chip on the Optimus Board, and the steps of how to do the actual porting OP-TEE to another platform. The speakers showed what has to be done when using Orly2 as a base for the port.  There was then a question and answer segment and someone asked why we needed to have configurable stack sizes. The answer was that even though this isn’t strictly needed, we think this is something the users should be able to configure.  Another question brought up for discussion was where do OP-TEE actually run? The answer to that was that it today runs on a couple of ST’s board and FVP. Porting activity is ongoing for Allwinners A80, Huawei Hi3716 and QEMU.
 
-**LCU14-303: Toolchain Collaboration** The purpose of this session was to coordinate the development efforts of many of the companies that work in the ARM ecosystem. This session had participation from Cavium, Linaro, ARM, and Qualcomm. Each participant approached the discussion from a few directions: LCU14-LCA15 focus, GNU Toolchain Roadmap, LLVM Roadmap, System libraries, debuggers, tools, and linkers. Of particular interest is that collaboration is already quite well executed with little overlap. While no major gaps were identified in the eco-system, we were asked about Valgrind support and lldg (LLVM Debugger).
+**LCU14-303: Toolchain Collaboration** The purpose of this session was to coordinate the development efforts of many of the companies that work in the Arm ecosystem. This session had participation from Cavium, Linaro, Arm, and Qualcomm. Each participant approached the discussion from a few directions: LCU14-LCA15 focus, GNU Toolchain Roadmap, LLVM Roadmap, System libraries, debuggers, tools, and linkers. Of particular interest is that collaboration is already quite well executed with little overlap. While no major gaps were identified in the eco-system, we were asked about Valgrind support and lldg (LLVM Debugger).
 
 **LCU14-306: Security architecture, Trustzone, secure boot and next steps** This was the last out of four sessions from the security team at Linaro. The topic for this session was about the plans the Security Working Group have in mind for OP-TEE. The group have started working on a generic cryptographic API in secure world that should make it possible to switch between different cryptographic software libraries and also make it possible to leverage dedicated hardware if that is an option. The second part covered a couple of coming updates from GlobalPlatform that they would like to look into in the near future. The new specification has undergone updates for as secure storage, secure time and Elliptic Curve Cryptography. Some concerns were raised by the audience that the security team maybe looking too much into features than covering use cases. However, the team discussed that there must be some kind of base functionality to have a useful secure environment.
 

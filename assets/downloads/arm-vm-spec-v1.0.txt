@@ -1,15 +1,15 @@
-VM System Specification for ARM Processors
+VM System Specification for Arm Processors
 ==========================================
 
 Goal
 ----
 The goal of this spec is to allow suitably-built OS images to run on
-all virtualization solutions for ARM processors, such as KVM or Xen.
+all virtualization solutions for Arm processors, such as KVM or Xen.
 
 Recommendations in this spec are valid for AArch32 and AArch64 alike, and
 they aim to be hypervisor agnostic.
 
-Note that simply adhering to the ARM Server Base System Architecture (SBSA) [1]
+Note that simply adhering to the Arm Server Base System Architecture (SBSA) [1]
 is not a valid approach, for example because the SBSA mandates EL2, which will
 not be available for VMs.  Further, this spec also covers the AArch32 execution
 mode, not covered in the SBSA.
@@ -31,7 +31,7 @@ The ESP partition's GPT entry's partition type GUID must be
 C12A7328-F81F-11D2-BA4B-00A0C93EC93B and the file system must be
 formatted as FAT32/vfat as per Section 12.3.1.1 in [2].
 
-The removable media path is \EFI\BOOT\BOOTARM.EFI for the AArch32
+The removable media path is \EFI\BOOT\BOOTArm.EFI for the AArch32
 execution state and is \EFI\BOOT\BOOTAA64.EFI for the AArch64 execution
 state as specified in Section 3.3 (3.3 (Boot Option Variables Default Boot
 Behavior) and 3.4.1.1 (Removable Media Boot Behavior) in [2].
@@ -109,12 +109,12 @@ peripherals:
   Serial console:  The platform should provide a console,
   based on an emulated pl011, a virtio-console, or a Xen PV console.
 
-  An ARM Generic Interrupt Controller v2 (GICv2) [5] or newer.  GICv2
+  An Arm Generic Interrupt Controller v2 (GICv2) [5] or newer.  GICv2
   limits the the number of virtual CPUs to 8 cores, newer GIC versions
   removes this limitation.
 
-  The ARM virtual timer and counter should be available to the VM as
-  per the ARM Generic Timers specification in the ARM ARM [6].
+  The Arm virtual timer and counter should be available to the VM as
+  per the Arm Generic Timers specification in the Arm Arm [6].
 
 It is strongly recommended that the VM implementation provides a
 hotpluggable bus to support hotplug of at least block and network
@@ -140,7 +140,7 @@ for the guest OS in the VM image:
 
 Other common peripherals for block devices, networking, and more can (and
 typically will) be provided, but OS software written and compiled to run on VMs
-for ARM processors cannot make any assumptions about which variations of these
+for Arm processors cannot make any assumptions about which variations of these
 should exist or which implementation they use (e.g. VirtIO or Xen PV).
 See "Hardware Description" above.
 
@@ -166,13 +166,13 @@ Changes from [RFC v1] to [RFC v2]:
 
 Changes from [RFC v2] to [RFC v3]:
  - Specify need for RTC device and UEFI RTC.
- - Renamed from "ARM VM Image Specification" to
-   "VM System Specification for ARM Processors".
+ - Renamed from "Arm VM Image Specification" to
+   "VM System Specification for Arm Processors".
 
 
 References
 ----------
-[1]: ARM Server Base System Architecture
+[1]: Arm Server Base System Architecture
 http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0029/index.html
 
 [2]: UEFI Specification 2.4 Revision A
@@ -182,8 +182,8 @@ http://www.uefi.org/sites/default/files/resources/2_4_Errata_A.pdf
 
 [4]: https://git.linaro.org/people/leif.lindholm/linux.git/blob/refs/heads/uefi-for-upstream:/Documentation/arm/uefi.txt
 
-[5]: The ARM Generic Interrupt Controller Architecture Specifications v2.0
+[5]: The Arm Generic Interrupt Controller Architecture Specifications v2.0
 http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.b/index.html
 
-[6]: The ARM Architecture Reference Manual, ARMv8, Issue A.b
+[6]: The Arm Architecture Reference Manual, Armv8, Issue A.b
 http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.b/index.html

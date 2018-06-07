@@ -5,20 +5,20 @@ layout: post
 link: /blog/lhg-optee-arm-trustzone/
 slug: lhg-optee-arm-trustzone
 title: LHG takes another step forward in Enhanced Content Protection with OPTEE on
-  ARM® TrustZone®
+  Arm® TrustZone®
 wordpress_id: 9924
 categories:
 - blog
 ---
 
-## LHG takes another step forward in Enhanced Content Protection with OPTEE on ARM® TrustZone®
+## LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®
 
 
 Mark Gregotski and Zoltan Kuscsik
 
 As studios begin creating ultra-high definition (UHD) content and delivering it to customer devices, a higher level of content protection is required. As a consequence of these more stringent requirements, the digital rights management (DRM) solutions that protect the content, as well as the keys used to decrypt the content, are moving from software to hardware based solutions. Hardware-based security systems allow the security and robustness rules for premium content to be satisfied.
 
-A secure Trusted Execution Environment (TEE) allows the security processes related to key management, content decryption, and content decoding to be executed in a secure environment, not accessible from user space. An example implementation of a TEE, is the Linaro OPTEE that runs on ARM-based CPU TrustZone® architecture.
+A secure Trusted Execution Environment (TEE) allows the security processes related to key management, content decryption, and content decoding to be executed in a secure environment, not accessible from user space. An example implementation of a TEE, is the Linaro OPTEE that runs on Arm-based CPU TrustZone® architecture.
 
 In addition, commercial DRM porting kits are now available that interface to a TEE to take advantage of this secure hardware functionality. An example, is the latest Microsoft PlayReady® DRM porting kit designed to interface to a generic TEE. The PlayReady interface for Trusted Execution Environments (PRiTEE) is implemented in the PlayReady PK 3.0 release.
 
@@ -47,7 +47,7 @@ The Open CDMI [4] is an open interface that enables the integration of the DRM/C
 
 There is a demo running on the STMicroelectronics B2120 reference platform and we are in the process of porting this build to the HiKey 96Boards platform.
 
-The latest solution is accessible now to our members who are PlayReady Licensees; so we look forward to see it running on multiple ARM-based hardware platforms in the upcoming months on both Android and Linux.
+The latest solution is accessible now to our members who are PlayReady Licensees; so we look forward to see it running on multiple Arm-based hardware platforms in the upcoming months on both Android and Linux.
 
 The next stage that LHG is working on is the implementation of a secure video path that uses a secure buffer memory allocation framework in TrustZone for the media pipeline. Stay tuned for the latest updates in the LHG security solution development.
 	

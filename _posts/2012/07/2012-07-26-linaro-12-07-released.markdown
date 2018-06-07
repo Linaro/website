@@ -8,7 +8,7 @@ description: "Linaro announces the availability of its 12.07 release. This relea
   Groups, Landing Teams and Platform Teams \xE2\x80\x93 who have provided all the
   updates and new features that are integrated on top of Android and Ubuntu during
   this release cycle."
-keywords: Linaro, Linux On ARM, Open Source, ARM, 12.07, Release, Announcement, Ubuntu,
+keywords: Linaro, Linux On Arm, Open Source, Arm, 12.07, Release, Announcement, Ubuntu,
   Android
 layout: post
 link: /blog/releases-blog/linaro-12-07-released/
@@ -25,15 +25,15 @@ wordpress_id: 1720
 
 ## The Linaro 12.07 release is now available!
 
-The Linaro 12.07 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu  during this release cycle. The 12.07 release is another example of how Linaro, together with its members, partners and community continue to build upon the future of Linux on ARM one release and line of code at a time.
+The Linaro 12.07 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu  during this release cycle. The 12.07 release is another example of how Linaro, together with its members, partners and community continue to build upon the future of Linux on Arm one release and line of code at a time.
 
 [The LAVA team](/about/) added new test views for its daily testing processes as well as updates to the way its deployment tool works by [implementing a new method](/blog/lava-deployment-improvements/) which uses zc.buildout which works consistently and in a repeatable fashion.[](/blog/lava-deployment-improvements/))
 
-Linaro continues to make progress in big.LITTLE development as the [ARM Landing Team](/about/) delivers support for ARM TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](/about/) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
+Linaro continues to make progress in big.LITTLE development as the [Arm Landing Team](/about/) delivers support for Arm TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](/about/) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
 
 {% include image.html name="Lava-blog-image.jpg" alt="Lava Image" %}
 
-The LAVA team was also able to release [the first boot log](https://plus.google.com/u/0/118153619948280443975/posts/V2dzB1PnP4r) from the new big.LITTLE Vexpress (shown)  which is currently located in its LAVA lab. Additionally, the [Developer Platform](https://wiki.linaro.org/Platform/DevPlatform) team reports that the Linaro ALIP is now using LXDE as the default environment, with a reduced image for better performance at ARM targets, such as Vexpress and FastModels.  Linux Linaro updated on top of the latest upstream release (3.5), which reflects the latest changes and development available at Linaro, such as big.LITTLE MP.
+The LAVA team was also able to release [the first boot log](https://plus.google.com/u/0/118153619948280443975/posts/V2dzB1PnP4r) from the new big.LITTLE Vexpress (shown)  which is currently located in its LAVA lab. Additionally, the [Developer Platform](https://wiki.linaro.org/Platform/DevPlatform) team reports that the Linaro ALIP is now using LXDE as the default environment, with a reduced image for better performance at Arm targets, such as Vexpress and FastModels.  Linux Linaro updated on top of the latest upstream release (3.5), which reflects the latest changes and development available at Linaro, such as big.LITTLE MP.
 
 The [Linaro Android team](https://wiki.linaro.org/Platform/Android) added experimental  baselines for the [Galaxy Nexus](https://releases.linaro.org/archive/12.09/android/images/galaxynexus-jb-gcc47-aosp-blob/) and [Pandaboard ]()https://android-build.linaro.org/builds/~linaro-android/panda-jb-gcc47-tilt-tracking-blob/ as part of our ongoing Jelly Bean transition efforts. Also, deployed this month in LAVA were the Android benchmarking apps for Pandaboard, Snowball and Origen which included vellamo, quadrant, nbench, linpack, glbenchmark, geekbench, caffeinemark, antutu, and AndEBench.
 

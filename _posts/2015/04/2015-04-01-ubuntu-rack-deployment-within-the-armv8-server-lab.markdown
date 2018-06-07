@@ -3,7 +3,7 @@ author: andy.doan
 categories:
 - blog
 date: 2015-04-01 21:33:26
-description: "Part one of this series gave an overview of the ARMv8 Server Cluster.
+description: "Part one of this series gave an overview of the Armv8 Server Cluster.
   This article deals with some of the challenges we faced with our \xE2\x80\x9Crack
   1\xE2\x80\x9D Ubuntu systems."
 layout: post
@@ -11,16 +11,16 @@ link: /blog/ubuntu-rack-deployment-within-the-armv8-server-lab/
 slug: ubuntu-rack-deployment-within-the-armv8-server-lab
 tags:
 - arm
-- ARMv8
-- Linux on ARM
+- Armv8
+- Linux on Arm
 - Opensource
 - ubuntu
-title: Ubuntu Rack Deployment within the ARMv8 Server Lab
+title: Ubuntu Rack Deployment within the Armv8 Server Lab
 wordpress_id: 8419
 ---
 
 **About**
-[Part one of this series](/blog/armv8-server-lab/) gave an overview of the ARMv8 Server Cluster. This article deals with some of the challenges we faced with our “rack 1” Ubuntu systems.
+[Part one of this series](/blog/armv8-server-lab/) gave an overview of the Armv8 Server Cluster. This article deals with some of the challenges we faced with our “rack 1” Ubuntu systems.
 
 We wanted the Ubuntu rack to use Canonical technologies for handling server deployments. As a result we focused on using [MAAS](https://maas.ubuntu.com/) for bare-metal deployment and [Juju](https://juju.ubuntu.com/) for deploying [OpenStack](http://www.openstack.org/). This would allow us to loan out both bare-metal systems and virtual machines.
 

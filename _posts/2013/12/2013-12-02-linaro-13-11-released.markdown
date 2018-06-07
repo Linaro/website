@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-12-02 16:34:05
 description: Linaro 13.11 release information and links to downloads
-keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.11 release, Android,
-  LAVA, ARMv8
+keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.11 release, Android,
+  LAVA, Armv8
 layout: post
 link: /blog/releases-blog/linaro-13-11-released/
 slug: linaro-13-11-released
@@ -19,7 +19,7 @@ tags:
 - lava
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Opensource
 - release
 - release cycle
@@ -43,7 +43,7 @@ This month's cycle includes significant developments from Linaro Connect USA 201
   * LAVA documentation took a giant leap forward following a week of concentrated effort at LCU13. The latest version of the source code for this is included in the repository, with a navigable version regularly updated at [http://validation.linaro.org/static/docs/](http://validation.linaro.org/static/docs/).
 
 
-  * Linaro GDB, including improved ARMv8 AArch64 support, has now been added to Linaro's layer and is available in the Linaro OpenEmbedded baseline.
+  * Linaro GDB, including improved Armv8 AArch64 support, has now been added to Linaro's layer and is available in the Linaro OpenEmbedded baseline.
 
 
 We encourage everybody to use the 13.11 release. This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
@@ -88,7 +88,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
   * [/engineering/armv8](/initiatives/armv8/)
   

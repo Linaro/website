@@ -17,7 +17,7 @@ tags:
 - kernel
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - LSK
 - Open Source
 - Opensource
@@ -28,7 +28,7 @@ title: Last Day of Linaro Connect 2014
 wordpress_id: 6715
 ---
 
-Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on ARM.  The demonstrations also included interactive demonstrations showcasing ARM-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with ARM processor-based boards for Linux on ARM.
+Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on Arm.  The demonstrations also included interactive demonstrations showcasing Arm-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with Arm processor-based boards for Linux on Arm.
 
 After a fantastic week in Burlingame, CA we are already looking forward to our next Connect. Our next Linaro Connect will be February 9-13, 2015 in Hong Kong. Registration is now open -[ reserve your spot today!](http://connect.linaro.org/hkg15/)
 
@@ -91,7 +91,7 @@ Not Available 
 <tr >
 
 <td markdown="1">
-LCU14-500: ARM Trusted Firmware roadmap and progress
+LCU14-500: Arm Trusted Firmware roadmap and progress
 </td>
 
 <td markdown="1">
@@ -111,7 +111,7 @@ Security
 </td>
 
 <td markdown="1">
-[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-500-%20ARM%20Trusted%20Firmware%20roadmap%20and%20progress.mp4)
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-500-%20Arm%20Trusted%20Firmware%20roadmap%20and%20progress.mp4)
 </td>
 </tr>
 <tr >
@@ -195,7 +195,7 @@ Linux Kernel
 <tr >
 
 <td markdown="1">
-LCU14-504: Taming ARMv8 NEON: from theory to benchmark results
+LCU14-504: Taming Armv8 NEON: from theory to benchmark results
 </td>
 
 <td markdown="1">
@@ -215,7 +215,7 @@ Available soon
 </td>
 
 <td markdown="1">
-[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-504-%20Taming%20ARMv8%20NEON-%20from%20theory%20to%20benchmark%20results.mp4)
+[Video](http://people.linaro.org/linaro-connect/lcu14/videos/09-19-Friday/LCU14-504-%20Taming%20Armv8%20NEON-%20from%20theory%20to%20benchmark%20results.mp4)
 </td>
 </tr>
 <tr >

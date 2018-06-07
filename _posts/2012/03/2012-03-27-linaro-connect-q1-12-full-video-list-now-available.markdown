@@ -6,7 +6,7 @@ date: 2012-03-27 02:28:31
 description: Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and
   information on how to take part in Linaro Connect Q2.12, 28 May - 1 June, in Hong
   Kong
-keywords: Linaro, Linux on ARM, Linaro Connect, Q1.12, Videos, Interviews, Plenaries,
+keywords: Linaro, Linux on Arm, Linaro Connect, Q1.12, Videos, Interviews, Plenaries,
   Demos, Q2.12, developers, registration, Hong Kong, Gold Coast Hotel, May, June,
   Novacut
 layout: post
@@ -56,13 +56,13 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
   * [Robert Lee: CPUIdle and Power Management in the Linux Kernel](http://www.youtube.com/watch?v=8BlYIPnMXgY)
 
 
-  * [Måns Rullgård, Optimizing for Linux on ARM](http://www.youtube.com/watch?v=5XdT57EC8nc)
+  * [Måns Rullgård, Optimizing for Linux on Arm](http://www.youtube.com/watch?v=5XdT57EC8nc)
 
 
   * [Kiko and Alexander Sack: Baking upstream code into Linaro builds](http://www.youtube.com/watch?v=Nt4LMbViq1Y)
 
 
-  * [David Mandala: Ubuntu ARM Team Manager](http://www.youtube.com/watch?v=nE74336jvos)
+  * [David Mandala: Ubuntu Arm Team Manager](http://www.youtube.com/watch?v=nE74336jvos)
 
 
   * [Jesse Barker: Linaro Graphics Projects, featuring binary blobs](http://www.youtube.com/watch?v=1V6_UxS7qM8)
@@ -98,7 +98,7 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
   * [Linaro Connect: Patrik Klinger Talks Snowball & The Igloo Community](http://www.youtube.com/watch?v=cxYdyEEb9X4)
 
 
-  * [Kiko, Linaro Engineering VP: ARM, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw)
+  * [Kiko, Linaro Engineering VP: Arm, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw)
 
 
   * [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ)
@@ -112,8 +112,8 @@ If you think this range of topics, speakers, interviewees and demos are fantasti
 **About Linaro**
 
 
-> Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain,
-> the Linux kernel, ARM power management, graphics and multimedia interfaces.
+> Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain,
+> the Linux kernel, Arm power management, graphics and multimedia interfaces.
 >
 > To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the  
 > start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and 
@@ -125,9 +125,9 @@ More information about Linaro can be found at: [](/about/)
 **About Linaro Connect**
 
 
-> The industry’s largest and most important event for developing Linux on ARM, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
+> The industry’s largest and most important event for developing Linux on Arm, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
 
-> All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon > and socialising in the evening.
+> All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on Arm. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon > and socialising in the evening.
 
 
 More information about Linaro Connect can be found at: [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)

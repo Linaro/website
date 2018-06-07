@@ -14,7 +14,7 @@ This page offers brief descriptions and links to security related downloads from
 ## Open Source Projects
 #### Arm
 * General Spectre & Meltdown information from Arm, please see: https://developer.arm.com/support/security-update
-* Trusted Firmware has a separate security advisories page, please see here: https://github.com/ARM-software/arm-trusted-firmware/wiki/Arm-Trusted-Firmware-Security-Advisory-TFV-6
+* Trusted Firmware has a separate security advisories page, please see here: https://github.com/Arm-software/arm-trusted-firmware/wiki/Arm-Trusted-Firmware-Security-Advisory-TFV-6
 
 #### Kernel
 The current status for LTS otherwise is that aarch64 backport exists and have

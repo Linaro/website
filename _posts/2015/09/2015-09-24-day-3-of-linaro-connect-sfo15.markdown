@@ -21,9 +21,9 @@ wordpress_id: 9436
 
 {% include image.html name="ecosystem-day-slide.jpg" alt="Ecosystem Day Slide"%}
 
-Day 3 of Linaro Connect San Francisco 2015 was a day dedicated to ARM Server Ecosystem. The morning began with two keynotes focused on this topic. After the keynotes there were several sessions held during the day with guest speakers for the LEG server ecosystem day, with topics ranging from CoreOS, LXD Docker & Ubuntu Snappy, ARM64, Docker images for ARM server and Realtime Streaming Analytics.
+Day 3 of Linaro Connect San Francisco 2015 was a day dedicated to Arm Server Ecosystem. The morning began with two keynotes focused on this topic. After the keynotes there were several sessions held during the day with guest speakers for the LEG server ecosystem day, with topics ranging from CoreOS, LXD Docker & Ubuntu Snappy, Arm64, Docker images for Arm server and Realtime Streaming Analytics.
 
-The first keynote speaker of the day was Dr. Suresh Gopalakrishnan who is the corporate vice president and general manager of AMD’s server business. Dr. Gopalakrishnan gave a keynote titled ["Enabling ARM Server for the Datacenter"](https://youtu.be/apMkjg8tubw?t=9m47s). He discussed how the key to enabling ARM server technology in the datacenter is all about the software. He then went on to talk about each of the different areas that need to be addressed.
+The first keynote speaker of the day was Dr. Suresh Gopalakrishnan who is the corporate vice president and general manager of AMD’s server business. Dr. Gopalakrishnan gave a keynote titled ["Enabling Arm Server for the Datacenter"](https://youtu.be/apMkjg8tubw?t=9m47s). He discussed how the key to enabling Arm server technology in the datacenter is all about the software. He then went on to talk about each of the different areas that need to be addressed.
 
 {% include media.html media_url="https://youtu.be/apMkjg8tubw?t=9m47s" %}
 

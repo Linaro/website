@@ -6,7 +6,7 @@ date: 2012-08-07 18:34:06
 description: Linaro announces its Virtual Connect and the public is invited! Linaro
   Connect Q3.12 will take place online via Google+ Hangouts on Air on 13 - 17 August
   2012.
-keywords: Linaro Connect, Linaro, Linux On ARM, Open Source, Android, ARM, Ubuntu,
+keywords: Linaro Connect, Linaro, Linux On Arm, Open Source, Android, Arm, Ubuntu,
   Online, Virtual Connect, Announcement
 layout: post
 link: /blog/community-blog/linaro-announces-virtual-connect-q3-12-13-17-august-2012/
@@ -78,7 +78,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[15:00 UTC](http://timeanddate.com/worldclock/fixedtime.html?msg=Virtual+Connect+Q3.12+-+13+August+2012&iso=20120813T15)
 </td>
 
-<td markdown="1">[Bootstrapping OpenEmbedded for ARMv8's AArch64](https://plus.google.com/u/4/events/c8oj8uf68bgd8qc8jen3i4n5n7c/116754366033915823792)
+<td markdown="1">[Bootstrapping OpenEmbedded for Armv8's AArch64](https://plus.google.com/u/4/events/c8oj8uf68bgd8qc8jen3i4n5n7c/116754366033915823792)
 </td>
 
 <td markdown="1">[Ricardo Salveti](/about/)
@@ -111,7 +111,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[10:00 UTC](http://timeanddate.com/worldclock/fixedtime.html?msg=Virtual+Connect+Q3.12+-+14+August+2012&iso=20120814T10)
 </td>
 
-<td markdown="1">[Streamlining Manual QA Testing of ARM Devices](https://plus.google.com/u/4/events/cc886k14b73mebcp89ucpqccr5o/116754366033915823792)
+<td markdown="1">[Streamlining Manual QA Testing of Arm Devices](https://plus.google.com/u/4/events/cc886k14b73mebcp89ucpqccr5o/116754366033915823792)
 </td>
 
 <td markdown="1">[Paul Larson](/about/)
@@ -122,7 +122,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[15:00 UTC](http://timeanddate.com/worldclock/fixedtime.html?msg=Virtual+Connect+Q3.12+-+14+August+2012&iso=20120814T15)
 </td>
 
-<td markdown="1">[Single Kernel Binary for ARM Devices: A Health Check](https://plus.google.com/u/4/events/cncjqpf76o5ps9d8igj068gibeo/116754366033915823792)
+<td markdown="1">[Single Kernel Binary for Arm Devices: A Health Check](https://plus.google.com/u/4/events/cncjqpf76o5ps9d8igj068gibeo/116754366033915823792)
 </td>
 
 <td markdown="1">[Deepak Saxena](/about/)
@@ -199,7 +199,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[10:00 UTC](http://timeanddate.com/worldclock/fixedtime.html?msg=Virtual+Connect+Q3.12+-+13+August+2012&iso=20120816T10)
 </td>
 
-<td markdown="1">[Exploring The Performance Impact of PGO and LTO on ARM](https://plus.google.com/u/4/events/ctbhhsk4rearkp4hfdt99ei3110/116754366033915823792)
+<td markdown="1">[Exploring The Performance Impact of PGO and LTO on Arm](https://plus.google.com/u/4/events/ctbhhsk4rearkp4hfdt99ei3110/116754366033915823792)
 </td>
 
 <td markdown="1">[Michael Hope](/about/)
@@ -254,7 +254,7 @@ Session Leads will be online 15 minutes before the allotted time, so you're welc
 <td markdown="1">[15:00 UTC](http://timeanddate.com/worldclock/fixedtime.html?msg=Virtual+Connect+Q3.12+-+17+August+2012&iso=20120817T15)
 </td>
 
-<td markdown="1">[Bringing ARM STM support to Linux: A Status Update](https://plus.google.com/u/4/events/cfkf94b6tlhr2oos4kh25jq3fbo/116754366033915823792)
+<td markdown="1">[Bringing Arm STM support to Linux: A Status Update](https://plus.google.com/u/4/events/cfkf94b6tlhr2oos4kh25jq3fbo/116754366033915823792)
 </td>
 
 <td markdown="1">[Deepak Saxena](/about/)

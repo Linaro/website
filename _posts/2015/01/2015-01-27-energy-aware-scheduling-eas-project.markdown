@@ -81,7 +81,7 @@ All these changes will allow sophisticated load balancing heuristics to be devel
   
   4. Provide mechanisms for thermal management
 
-ARM’s energy model[ patchset](https://lkml.org/lkml/2014/7/3/884) is one example of such a possibility that is currently being reviewed. Other Linaro Members have ideas for other such heuristics that would take advantage of this tight integration between the scheduler and power management subsystems. The Power Management team is collaborating and coordinating with Linaro Members to ensure that the best possible set of solutions is available upstream.
+Arm’s energy model[ patchset](https://lkml.org/lkml/2014/7/3/884) is one example of such a possibility that is currently being reviewed. Other Linaro Members have ideas for other such heuristics that would take advantage of this tight integration between the scheduler and power management subsystems. The Power Management team is collaborating and coordinating with Linaro Members to ensure that the best possible set of solutions is available upstream.
 
 In order to make this useful to Members shipping products in 2016, we’ll also be backporting all this work to the Linaro Stable Kernel (LSK). Stay tuned for announcements on that front.
 

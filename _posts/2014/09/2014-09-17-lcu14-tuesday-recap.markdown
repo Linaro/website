@@ -13,14 +13,14 @@ tags:
 - android
 - AOSP
 - arm
-- ARMv8
+- Armv8
 - board
 - connect
 - Connect Events
 - embedded
 - Linaro
 - Linaro Connect
-- Linux on ARM
+- Linux on Arm
 - LSK
 - Opensource
 - toolchain
@@ -466,7 +466,7 @@ The second part of his keynote covered new technologies driving Video delivery i
 
 **LCU14-203: LAVA Use Cases: Upstream Kernel CI** This session started with Linaro describing a system that they are building from the ground up, focused on upstream Kernel CI.  The system is still in a pilot mode and they are examining the upstream kernel boot testing needs with a pilot / ‘un-burdened’ system.  Further discussions are planned to brainstorm and discuss the appropriate next steps.
 
-**LCU14-205: Multi-arch compiler driver** This session started as a discussion of problems that member companies currently have with deploying systems that use compilers in the ARM ecosystem.  A proposal for a multi-arch compiler driver morphed into a multi-pronged proposal for a solution.   Some of the problems were discussed in detail during the session.  A collective solution was discussed and the proposal is that Linaro will work to help OE (OpenEmbedded) to enable multiple compilers.  Linaro proposed finishing the GCC moduralization project which will split middle-end and back-end dependence on shared macros.  Finally Linaro will investigate splitting out thumb1 backend from arm backend because this may decrease maintenance
+**LCU14-205: Multi-arch compiler driver** This session started as a discussion of problems that member companies currently have with deploying systems that use compilers in the Arm ecosystem.  A proposal for a multi-arch compiler driver morphed into a multi-pronged proposal for a solution.   Some of the problems were discussed in detail during the session.  A collective solution was discussed and the proposal is that Linaro will work to help OE (OpenEmbedded) to enable multiple compilers.  Linaro proposed finishing the GCC moduralization project which will split middle-end and back-end dependence on shared macros.  Finally Linaro will investigate splitting out thumb1 backend from arm backend because this may decrease maintenance
 
 **LCU14-206: Power Management Analysis Tools** This session introduced the audience to the workload generator tool to allow simulation of arbitrary workloads and idlestat to analyse scheduling and resultant power behavior. The workload generator will be used to provide upstream kernel maintainers ways to generate workloads of interest to test patch submissions against. Idlestat is already useful to indicate differences in the C-state and P-state behaviors on a system but the reporting format could use some redesign. The next goal is to add support to describe an energy model for the SoC and to experiment with several reporting formats.
 

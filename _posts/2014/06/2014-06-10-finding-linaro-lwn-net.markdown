@@ -17,7 +17,7 @@ tags:
 - Engineering cycle
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - LWN
 - Open Source
 title: Finding out about Linaro on LWN.net
@@ -30,7 +30,7 @@ To help with this, I have created an index to articles on LWN that mention Linar
 
 {% include image.html name="LWN-search-results-april-2014.png" alt="LWN search results april 2014" %}
 
-Since Linaro was founded in June 2010, the number of LWN articles mentioning the organization has increased steadily. This increase reflects Linaro’s growth in terms of  members and areas in which it is working. Coverage began with the launch of Linaro and explanations of how it would work and this was rapidly replaced by discussions of key areas that Linaro was focusing on, including Device Tree, clock code, kernel consolidation, toolchain, power management and memory management. In the last couple of years, this coverage has grown to include discussions about ARM big.LITTLE and the scheduler, virtualization, 64-bit ARMv8, and more of our members’ activities.
+Since Linaro was founded in June 2010, the number of LWN articles mentioning the organization has increased steadily. This increase reflects Linaro’s growth in terms of  members and areas in which it is working. Coverage began with the launch of Linaro and explanations of how it would work and this was rapidly replaced by discussions of key areas that Linaro was focusing on, including Device Tree, clock code, kernel consolidation, toolchain, power management and memory management. In the last couple of years, this coverage has grown to include discussions about Arm big.LITTLE and the scheduler, virtualization, 64-bit Armv8, and more of our members’ activities.
 
 1. [https://lwn.net/subscribe/Info](https://lwn.net/subscribe/Info)
 2. [http://en.wikipedia.org/wiki/LWN.net](http://en.wikipedia.org/wiki/LWN.net)[ and ](https://lwn.net/subscribe/Info)[https://lwn.net/op/TimelineIdx.lwn](https://lwn.net/op/TimelineIdx.lwn)
@@ -100,7 +100,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Shuttleworth: Linaro: Accelerating Linux on ARM](http://lwn.net/Articles/390946/)
+[Shuttleworth: Linaro: Accelerating Linux on Arm](http://lwn.net/Articles/390946/)
 </td>
 
 <td >Distributions
@@ -148,7 +148,7 @@ LWN Category
 </td>
 
 <td style="text-align: left;" class="xtitle" markdown="1">
-[Linaro seeks to simplify ARM Linux landscape](http://lwn.net/Articles/391419/)
+[Linaro seeks to simplify Arm Linux landscape](http://lwn.net/Articles/391419/)
 </td>
 
 <td >Front
@@ -280,7 +280,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Bits from ARM porters](http://lwn.net/Articles/403075/)
+[Bits from Arm porters](http://lwn.net/Articles/403075/)
 </td>
 
 <td >Distributions
@@ -508,7 +508,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[MeeGo, Canonical partners, Red Hat's Patent Deal, Linaro advances Linux on ARM, ...](http://lwn.net/Articles/415200/)
+[MeeGo, Canonical partners, Red Hat's Patent Deal, Linaro advances Linux on Arm, ...](http://lwn.net/Articles/415200/)
 </td>
 
 <td >Announcements
@@ -520,7 +520,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Linaro group advances Linux on ARM with 10.11 release (ars technica)](http://lwn.net/Articles/415217/)
+[Linaro group advances Linux on Arm with 10.11 release (ars technica)](http://lwn.net/Articles/415217/)
 </td>
 
 <td >Announcements
@@ -532,7 +532,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Linaro group advances Linux on ARM with 11.10 release (ars technica)](http://lwn.net/Articles/414820/)
+[Linaro group advances Linux on Arm with 11.10 release (ars technica)](http://lwn.net/Articles/414820/)
 </td>
 
 <td >Announcements
@@ -700,7 +700,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Basic ARM device tree support ](http://lwn.net/Articles/423607/)
+[Basic Arm device tree support ](http://lwn.net/Articles/423607/)
 </td>
 
 <td >Kernel
@@ -736,7 +736,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Basic ARM device support ](http://lwn.net/Articles/425691/)
+[Basic Arm device support ](http://lwn.net/Articles/425691/)
 </td>
 
 <td >Kernel
@@ -760,7 +760,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Device Tree on ARM status report ](http://lwn.net/Articles/426606/)
+[Device Tree on Arm status report ](http://lwn.net/Articles/426606/)
 </td>
 
 <td >Kernel
@@ -796,7 +796,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Basic ARM devicetree support ](http://lwn.net/Articles/427790/)
+[Basic Arm devicetree support ](http://lwn.net/Articles/427790/)
 </td>
 
 <td >Kernel
@@ -844,7 +844,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Bits from ARM and Embedded Sprint](http://lwn.net/Articles/430483/)
+[Bits from Arm and Embedded Sprint](http://lwn.net/Articles/430483/)
 </td>
 
 <td >Distributions
@@ -1024,7 +1024,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[LFCS: ARM, control groups, and the next 20 years](http://lwn.net/Articles/438155/)
+[LFCS: Arm, control groups, and the next 20 years](http://lwn.net/Articles/438155/)
 </td>
 
 <td >Collaboration Summit
@@ -1036,7 +1036,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Rationalizing the ARM tree; Power management work at Linaro; Safely swapping over the net.](http://lwn.net/Articles/439095/)
+[Rationalizing the Arm tree; Power management work at Linaro; Safely swapping over the net.](http://lwn.net/Articles/439095/)
 </td>
 
 <td >Kernel
@@ -1108,7 +1108,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Linaro ARM optimized toolchain for Android technical preview](http://lwn.net/Articles/439438/)
+[Linaro Arm optimized toolchain for Android technical preview](http://lwn.net/Articles/439438/)
 </td>
 
 <td >Development
@@ -1132,7 +1132,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[RFC] ARM DMA mapping TODO, v1 ](http://lwn.net/Articles/440227/)
+[[RFC] Arm DMA mapping TODO, v1 ](http://lwn.net/Articles/440227/)
 </td>
 
 <td >Kernel
@@ -1144,7 +1144,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: Basic Xilinx Support ](http://lwn.net/Articles/441005/)
+[Arm: Basic Xilinx Support ](http://lwn.net/Articles/441005/)
 </td>
 
 <td >Kernel
@@ -1156,7 +1156,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Re: [Linaro-mm-sig] [RFC] ARM DMA mapping TODO, v1 ](http://lwn.net/Articles/441384/)
+[Re: [Linaro-mm-sig] [RFC] Arm DMA mapping TODO, v1 ](http://lwn.net/Articles/441384/)
 </td>
 
 <td >Kernel
@@ -1204,7 +1204,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM kernel consolidation](http://lwn.net/Articles/443510/)
+[Arm kernel consolidation](http://lwn.net/Articles/443510/)
 </td>
 
 <td >Linaro Developers Summit
@@ -1216,7 +1216,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[RFC] ARM Subarchitecture group maintainership ](http://lwn.net/Articles/443515/)
+[[RFC] Arm Subarchitecture group maintainership ](http://lwn.net/Articles/443515/)
 </td>
 
 <td >Kernel
@@ -1300,7 +1300,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: DMA-mapping & IOMMU integration ](http://lwn.net/Articles/444700/)
+[Arm: DMA-mapping & IOMMU integration ](http://lwn.net/Articles/444700/)
 </td>
 
 <td >Kernel
@@ -1480,7 +1480,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Full device tree support for ARM Versatile ](http://lwn.net/Articles/447918/)
+[Full device tree support for Arm Versatile ](http://lwn.net/Articles/447918/)
 </td>
 
 <td >Kernel
@@ -1528,7 +1528,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: DMA-mapping framework redesign ](http://lwn.net/Articles/448470/)
+[Arm: DMA-mapping framework redesign ](http://lwn.net/Articles/448470/)
 </td>
 
 <td >Kernel
@@ -1684,7 +1684,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: common idle infrastructure ](http://lwn.net/Articles/450670/)
+[Arm: common idle infrastructure ](http://lwn.net/Articles/450670/)
 </td>
 
 <td >Kernel
@@ -1756,7 +1756,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: mmp: add audio sram support ](http://lwn.net/Articles/455076/)
+[Arm: mmp: add audio sram support ](http://lwn.net/Articles/455076/)
 </td>
 
 <td >Kernel
@@ -1828,7 +1828,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Introduce a led trigger for CPU activity and consolidate LED driver in ARM ](http://lwn.net/Articles/456502/)
+[Introduce a led trigger for CPU activity and consolidate LED driver in Arm ](http://lwn.net/Articles/456502/)
 </td>
 
 <td >Kernel
@@ -2356,7 +2356,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Xen port to Cortex-A15 / ARMv7 with virt extensions ](http://lwn.net/Articles/470638/)
+[Xen port to Cortex-A15 / Armv7 with virt extensions ](http://lwn.net/Articles/470638/)
 </td>
 
 <td >Kernel
@@ -2620,7 +2620,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[LCA: The past, present, and future of Ubuntu on ARM](http://lwn.net/Articles/475851/)
+[LCA: The past, present, and future of Ubuntu on Arm](http://lwn.net/Articles/475851/)
 </td>
 
 <td >linux.conf.au
@@ -3184,7 +3184,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Fedora mulls ARM as a primary architecture](http://lwn.net/Articles/488051/)
+[Fedora mulls Arm as a primary architecture](http://lwn.net/Articles/488051/)
 </td>
 
 <td >Front
@@ -3268,7 +3268,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: replace custom consistent dma region with vmalloc ](http://lwn.net/Articles/492268/)
+[Arm: replace custom consistent dma region with vmalloc ](http://lwn.net/Articles/492268/)
 </td>
 
 <td >Kernel
@@ -3448,7 +3448,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Making ARM multiplatform kernels DT-only? ](http://lwn.net/Articles/496419/)
+[Making Arm multiplatform kernels DT-only? ](http://lwn.net/Articles/496419/)
 </td>
 
 <td >Kernel
@@ -3460,7 +3460,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Re: Making ARM multiplatform kernels DT-only? ](http://lwn.net/Articles/496425/)
+[Re: Making Arm multiplatform kernels DT-only? ](http://lwn.net/Articles/496425/)
 </td>
 
 <td >Kernel
@@ -3472,7 +3472,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Supporting multi-platform ARM kernels](http://lwn.net/Articles/496680/)
+[Supporting multi-platform Arm kernels](http://lwn.net/Articles/496680/)
 </td>
 
 <td >Kernel
@@ -3532,7 +3532,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: DMA-mapping: new extensions for buffer sharing ](http://lwn.net/Articles/497607/)
+[Arm: DMA-mapping: new extensions for buffer sharing ](http://lwn.net/Articles/497607/)
 </td>
 
 <td >Kernel
@@ -3652,7 +3652,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[PATCH/RFC 0/2] ARM: DMA-mapping: new extensions for buffer sharing (part 2) ](http://lwn.net/Articles/500490/)
+[[PATCH/RFC 0/2] Arm: DMA-mapping: new extensions for buffer sharing (part 2) ](http://lwn.net/Articles/500490/)
 </td>
 
 <td >Kernel
@@ -3712,7 +3712,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: topology: set the capacity of each cores for big.LITTLE ](http://lwn.net/Articles/501601/)
+[Arm: topology: set the capacity of each cores for big.LITTLE ](http://lwn.net/Articles/501601/)
 </td>
 
 <td >Kernel
@@ -3880,7 +3880,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: imx: Add basic imx6q thermal driver ](http://lwn.net/Articles/503782/)
+[Arm: imx: Add basic imx6q thermal driver ](http://lwn.net/Articles/503782/)
 </td>
 
 <td >Kernel
@@ -4072,7 +4072,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Introduce Xen support on ARM ](http://lwn.net/Articles/508241/)
+[Introduce Xen support on Arm ](http://lwn.net/Articles/508241/)
 </td>
 
 <td >Kernel
@@ -4336,7 +4336,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: multiplatform: rename all mach headers ](http://lwn.net/Articles/515114/)
+[Arm: multiplatform: rename all mach headers ](http://lwn.net/Articles/515114/)
 </td>
 
 <td >Kernel
@@ -4456,7 +4456,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Introduce Xen support on ARM (based on 3.6-rc5) ](http://lwn.net/Articles/516331/)
+[Introduce Xen support on Arm (based on 3.6-rc5) ](http://lwn.net/Articles/516331/)
 </td>
 
 <td >Kernel
@@ -4480,7 +4480,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[KVM/ARM Implementation ](http://lwn.net/Articles/516652/)
+[KVM/Arm Implementation ](http://lwn.net/Articles/516652/)
 </td>
 
 <td >Kernel
@@ -4504,7 +4504,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: augment cache flushing API ](http://lwn.net/Articles/516901/)
+[Arm: augment cache flushing API ](http://lwn.net/Articles/516901/)
 </td>
 
 <td >Kernel
@@ -4756,7 +4756,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: KDB FIQ debugger ](http://lwn.net/Articles/519900/)
+[Arm: KDB FIQ debugger ](http://lwn.net/Articles/519900/)
 </td>
 
 <td >Kernel
@@ -4984,7 +4984,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Haley: We're doing an ARM64 OpenJDK port!](http://lwn.net/Articles/522145/)
+[Haley: We're doing an Arm64 OpenJDK port!](http://lwn.net/Articles/522145/)
 </td>
 
 <td >Kernel
@@ -5020,7 +5020,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Linaro ARMv8 Downloads Now Available](http://lwn.net/Articles/522296/)
+[Linaro Armv8 Downloads Now Available](http://lwn.net/Articles/522296/)
 </td>
 
 <td >Kernel
@@ -5164,7 +5164,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Re: [PATCH] ARM: add get_user() support for 8 byte types ](http://lwn.net/Articles/525033/)
+[Re: [PATCH] Arm: add get_user() support for 8 byte types ](http://lwn.net/Articles/525033/)
 </td>
 
 <td >Kernel
@@ -5188,7 +5188,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: multi-cluster aware boot protocol ](http://lwn.net/Articles/525632/)
+[Arm: multi-cluster aware boot protocol ](http://lwn.net/Articles/525632/)
 </td>
 
 <td >Kernel
@@ -5392,7 +5392,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: Initial support for Tegra 114 SoC. ](http://lwn.net/Articles/530173/)
+[Arm: Initial support for Tegra 114 SoC. ](http://lwn.net/Articles/530173/)
 </td>
 
 <td >Kernel
@@ -5584,7 +5584,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: Initial support for Tegra114 SoC ](http://lwn.net/Articles/533900/)
+[Arm: Initial support for Tegra114 SoC ](http://lwn.net/Articles/533900/)
 </td>
 
 <td >Kernel
@@ -5644,7 +5644,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Systemd lightweight containers; Fedora ARM, Linaro, ...](http://lwn.net/Articles/535775/)
+[Systemd lightweight containers; Fedora Arm, Linaro, ...](http://lwn.net/Articles/535775/)
 </td>
 
 <td >Distributions
@@ -5692,7 +5692,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[introduce static_vm for ARM-specific static mapped area ](http://lwn.net/Articles/535760/)
+[introduce static_vm for Arm-specific static mapped area ](http://lwn.net/Articles/535760/)
 </td>
 
 <td >Distributions
@@ -5968,7 +5968,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[cpufreq: ARM big LITTLE: Add generic cpufreq driver and its DT glue ](http://lwn.net/Articles/541421/)
+[cpufreq: Arm big LITTLE: Add generic cpufreq driver and its DT glue ](http://lwn.net/Articles/541421/)
 </td>
 
 <td >Kernel
@@ -6040,7 +6040,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Linaro Connect; Facebook contemplates ARM servers; The life and times of the AGPL.](http://lwn.net/Articles/542266/)
+[Linaro Connect; Facebook contemplates Arm servers; The life and times of the AGPL.](http://lwn.net/Articles/542266/)
 </td>
 
 <td >Kernel
@@ -6100,7 +6100,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[LC-Asia: Facebook contemplates ARM servers](http://lwn.net/Articles/542522/)
+[LC-Asia: Facebook contemplates Arm servers](http://lwn.net/Articles/542522/)
 </td>
 
 <td >Front
@@ -6136,7 +6136,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Re: [U-Boot] [RFC] Kbuild support for ARM FIT images ](http://lwn.net/Articles/542591/)
+[Re: [U-Boot] [RFC] Kbuild support for Arm FIT images ](http://lwn.net/Articles/542591/)
 </td>
 
 <td >Front
@@ -6208,7 +6208,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[cpuidle : ARM driver to rule them all ](http://lwn.net/Articles/543328/)
+[cpuidle : Arm driver to rule them all ](http://lwn.net/Articles/543328/)
 </td>
 
 <td >Kernel
@@ -6508,7 +6508,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: exynos multiplatform support ](http://lwn.net/Articles/546957/)
+[Arm: exynos multiplatform support ](http://lwn.net/Articles/546957/)
 </td>
 
 <td >Kernel
@@ -6544,7 +6544,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[PATCH 0/3] ARM: add Freescale Vybrid family platform and development board support ](http://lwn.net/Articles/547433/)
+[[PATCH 0/3] Arm: add Freescale Vybrid family platform and development board support ](http://lwn.net/Articles/547433/)
 </td>
 
 <td >Kernel
@@ -6676,7 +6676,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[HugeTLB and THP support for ARM64. ](http://lwn.net/Articles/548900/)
+[HugeTLB and THP support for Arm64. ](http://lwn.net/Articles/548900/)
 </td>
 
 <td >Kernel
@@ -6784,7 +6784,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM:global_timer: Add ARM global timer support. ](http://lwn.net/Articles/549648/)
+[Arm:global_timer: Add Arm global timer support. ](http://lwn.net/Articles/549648/)
 </td>
 
 <td >Kernel
@@ -6856,7 +6856,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: imx6q{dl}: add the WEIM driver ](http://lwn.net/Articles/551181/)
+[Arm: imx6q{dl}: add the WEIM driver ](http://lwn.net/Articles/551181/)
 </td>
 
 <td >Kernel
@@ -6892,7 +6892,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: mm: HugeTLB + THP support. ](http://lwn.net/Articles/552086/)
+[Arm: mm: HugeTLB + THP support. ](http://lwn.net/Articles/552086/)
 </td>
 
 <td >Kernel
@@ -7084,7 +7084,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: at91: move to common clk framework ](http://lwn.net/Articles/553618/)
+[Arm: at91: move to common clk framework ](http://lwn.net/Articles/553618/)
 </td>
 
 <td >Kernel
@@ -7120,7 +7120,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM:STixxxx: Add STixxxx platform and board support ](http://lwn.net/Articles/553672/)
+[Arm:STixxxx: Add STixxxx platform and board support ](http://lwn.net/Articles/553672/)
 </td>
 
 <td >Kernel
@@ -7240,7 +7240,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: Exynos: Add Exynos5420 SoC support ](http://lwn.net/Articles/555181/)
+[Arm: Exynos: Add Exynos5420 SoC support ](http://lwn.net/Articles/555181/)
 </td>
 
 <td >Kernel
@@ -7324,7 +7324,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: mm: Extend the runtime patch stub for PAE systems ](http://lwn.net/Articles/556175/)
+[Arm: mm: Extend the runtime patch stub for PAE systems ](http://lwn.net/Articles/556175/)
 </td>
 
 <td >Kernel
@@ -7432,7 +7432,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: rockchip: add smp functionality ](http://lwn.net/Articles/557825/)
+[Arm: rockchip: add smp functionality ](http://lwn.net/Articles/557825/)
 </td>
 
 <td >Kernel
@@ -7516,7 +7516,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Re: F20 System Wide Change: ARM as primary Architecture ](http://lwn.net/Articles/559195/)
+[Re: F20 System Wide Change: Arm as primary Architecture ](http://lwn.net/Articles/559195/)
 </td>
 
 <td >Announcements
@@ -7588,7 +7588,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: sunxi: Add support for the Allwinner A31 SoC ](http://lwn.net/Articles/560439/)
+[Arm: sunxi: Add support for the Allwinner A31 SoC ](http://lwn.net/Articles/560439/)
 </td>
 
 <td >Kernel
@@ -7672,7 +7672,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: TC2 big.LITTLE CPU idle driver ](http://lwn.net/Articles/561345/)
+[Arm: TC2 big.LITTLE CPU idle driver ](http://lwn.net/Articles/561345/)
 </td>
 
 <td >Kernel
@@ -7708,7 +7708,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[ANNOUNCE] ARM kernel summit 2013, Oct 22-23 ](http://lwn.net/Articles/561483/)
+[[ANNOUNCE] Arm kernel summit 2013, Oct 22-23 ](http://lwn.net/Articles/561483/)
 </td>
 
 <td >Kernel
@@ -7768,7 +7768,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[uprobes: Add uprobes support for ARM ](http://lwn.net/Articles/561968/)
+[uprobes: Add uprobes support for Arm ](http://lwn.net/Articles/561968/)
 </td>
 
 <td >Kernel
@@ -7816,7 +7816,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[EFI stub for ARM ](http://lwn.net/Articles/562388/)
+[EFI stub for Arm ](http://lwn.net/Articles/562388/)
 </td>
 
 <td >Kernel
@@ -7840,7 +7840,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[KVM/ARM Huge pages support ](http://lwn.net/Articles/563166/)
+[KVM/Arm Huge pages support ](http://lwn.net/Articles/563166/)
 </td>
 
 <td >Kernel
@@ -7888,7 +7888,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: S3C24XX: add dmaengine based dma-driver ](http://lwn.net/Articles/563339/)
+[Arm: S3C24XX: add dmaengine based dma-driver ](http://lwn.net/Articles/563339/)
 </td>
 
 <td >Kernel
@@ -8140,7 +8140,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: support for Trusted Foundations secure monitor ](http://lwn.net/Articles/565799/)
+[Arm: support for Trusted Foundations secure monitor ](http://lwn.net/Articles/565799/)
 </td>
 
 <td >Kernel
@@ -8296,7 +8296,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[nohz/full: drop 64-bit requirement, enable ARM support ](http://lwn.net/Articles/567030/)
+[nohz/full: drop 64-bit requirement, enable Arm support ](http://lwn.net/Articles/567030/)
 </td>
 
 <td >Kernel
@@ -8560,7 +8560,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: lockless get_user_pages_fast() ](http://lwn.net/Articles/569379/)
+[Arm: lockless get_user_pages_fast() ](http://lwn.net/Articles/569379/)
 </td>
 
 <td >Kernel
@@ -8764,7 +8764,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM64: Add kernel probes(Kprobes) support ](http://lwn.net/Articles/570648/)
+[Arm64: Add kernel probes(Kprobes) support ](http://lwn.net/Articles/570648/)
 </td>
 
 <td >Kernel
@@ -8788,7 +8788,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Optimize jump label implementation for ARM64 ](http://lwn.net/Articles/570819/)
+[Optimize jump label implementation for Arm64 ](http://lwn.net/Articles/570819/)
 </td>
 
 <td >Kernel
@@ -9136,7 +9136,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: support for the Trusted Foundations secure monitor ](http://lwn.net/Articles/574880/)
+[Arm: support for the Trusted Foundations secure monitor ](http://lwn.net/Articles/574880/)
 </td>
 
 <td >Kernel
@@ -9196,7 +9196,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Add ARM EFI stub ](http://lwn.net/Articles/575352/)
+[Add Arm EFI stub ](http://lwn.net/Articles/575352/)
 </td>
 
 <td >Kernel
@@ -9268,7 +9268,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Make ACPI core running on ARM64 ](http://lwn.net/Articles/575482/)
+[Make ACPI core running on Arm64 ](http://lwn.net/Articles/575482/)
 </td>
 
 <td >Kernel
@@ -9316,7 +9316,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: Initial support for Marvell Berlin SoCs ](http://lwn.net/Articles/576108/)
+[Arm: Initial support for Marvell Berlin SoCs ](http://lwn.net/Articles/576108/)
 </td>
 
 <td >Kernel
@@ -9712,7 +9712,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: brcmstb: Add Broadcom STB SoC support ](http://lwn.net/Articles/580472/)
+[Arm: brcmstb: Add Broadcom STB SoC support ](http://lwn.net/Articles/580472/)
 </td>
 
 <td >Kernel
@@ -9976,7 +9976,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM, SBSA, UEFI, and ACPI](http://lwn.net/Articles/584445/)
+[Arm, SBSA, UEFI, and ACPI](http://lwn.net/Articles/584445/)
 </td>
 
 <td >Front
@@ -10012,7 +10012,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[PATCH v4 0/7] ARM: sunxi: Add driver for SD/MMC hosts found on allwinner sunxi SOCs ](http://lwn.net/Articles/584803/)
+[[PATCH v4 0/7] Arm: sunxi: Add driver for SD/MMC hosts found on allwinner sunxi SOCs ](http://lwn.net/Articles/584803/)
 </td>
 
 <td >Kernel
@@ -10096,7 +10096,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[In-kernel PSCI v0.2 emulation for KVM ARM/ARM64 ](http://lwn.net/Articles/585202/)
+[In-kernel PSCI v0.2 emulation for KVM Arm/Arm64 ](http://lwn.net/Articles/585202/)
 </td>
 
 <td >Kernel
@@ -10108,7 +10108,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: vDSO gettimeofday using generic timer architecture ](http://lwn.net/Articles/585203/)
+[Arm: vDSO gettimeofday using generic timer architecture ](http://lwn.net/Articles/585203/)
 </td>
 
 <td >Kernel
@@ -10216,7 +10216,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[[PATCH v6 0/8] ARM: sunxi: Add driver for SD/MMC hosts found on allwinner sunxi SOCs ](http://lwn.net/Articles/586673/)
+[[PATCH v6 0/8] Arm: sunxi: Add driver for SD/MMC hosts found on allwinner sunxi SOCs ](http://lwn.net/Articles/586673/)
 </td>
 
 <td >Kernel
@@ -10228,7 +10228,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Huge pages for short descriptors on ARM ](http://lwn.net/Articles/586932/)
+[Huge pages for short descriptors on Arm ](http://lwn.net/Articles/586932/)
 </td>
 
 <td >Kernel
@@ -10252,7 +10252,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[hibernation support on ARM ](http://lwn.net/Articles/587082/)
+[hibernation support on Arm ](http://lwn.net/Articles/587082/)
 </td>
 
 <td >Kernel
@@ -10408,7 +10408,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: bcm21664: Add initial support. ](http://lwn.net/Articles/588808/)
+[Arm: bcm21664: Add initial support. ](http://lwn.net/Articles/588808/)
 </td>
 
 <td >Kernel
@@ -10504,7 +10504,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM VM System Sepcification ](http://lwn.net/Articles/589122/)
+[Arm VM System Sepcification ](http://lwn.net/Articles/589122/)
 </td>
 
 <td >Kernel
@@ -10612,7 +10612,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[arm64: SHA1 using ARM v8 Crypto Extensions ](http://lwn.net/Articles/590186/)
+[arm64: SHA1 using Arm v8 Crypto Extensions ](http://lwn.net/Articles/590186/)
 </td>
 
 <td >Kernel
@@ -10876,7 +10876,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: SMP: common "pen" secondary release method ](http://lwn.net/Articles/592484/)
+[Arm: SMP: common "pen" secondary release method ](http://lwn.net/Articles/592484/)
 </td>
 
 <td >Kernel
@@ -10900,7 +10900,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: SMP: support Broadcom mobile SoCs ](http://lwn.net/Articles/593064/)
+[Arm: SMP: support Broadcom mobile SoCs ](http://lwn.net/Articles/593064/)
 </td>
 
 <td >Kernel
@@ -10924,7 +10924,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM VM System Specification ](http://lwn.net/Articles/593153/)
+[Arm VM System Specification ](http://lwn.net/Articles/593153/)
 </td>
 
 <td >Kernel
@@ -11020,7 +11020,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: sunxi: add multi pin controller support ](http://lwn.net/Articles/594246/)
+[Arm: sunxi: add multi pin controller support ](http://lwn.net/Articles/594246/)
 </td>
 
 <td >Kernel
@@ -11032,7 +11032,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[ARM: STi: Add Clock driver support STiH415 & STiH416 ](http://lwn.net/Articles/594456/)
+[Arm: STi: Add Clock driver support STiH415 & STiH416 ](http://lwn.net/Articles/594456/)
 </td>
 
 <td >Kernel
@@ -11128,7 +11128,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[Support 4 levels of translation tables for ARM64 ](http://lwn.net/Articles/595419/)
+[Support 4 levels of translation tables for Arm64 ](http://lwn.net/Articles/595419/)
 </td>
 
 <td >Kernel
@@ -11392,7 +11392,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[get_user_pages_fast for ARM and ARM64 ](http://lwn.net/Articles/597629/)
+[get_user_pages_fast for Arm and Arm64 ](http://lwn.net/Articles/597629/)
 </td>
 
 <td >Kernel
@@ -11512,7 +11512,7 @@ LWN Category
 </td>
 
 <td class="xtitle" markdown="1">
-[kgdb: NMI/FIQ support for ARM ](http://lwn.net/Articles/598584/)
+[kgdb: NMI/FIQ support for Arm ](http://lwn.net/Articles/598584/)
 </td>
 
 <td >Kernel

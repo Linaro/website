@@ -6,7 +6,7 @@ date: 2012-10-12 15:57:16
 description: Take a look at the Android Mini-Summit which is scheduled to take place
   on Wednesday, October 31, 2012 during the LCE12 at the Bella Center in Copenhagen,
   Denmark.
-keywords: Linaro, Linux on ARM, Open Source, Community, Linaro Connect, Bella Center,
+keywords: Linaro, Linux on Arm, Open Source, Community, Linaro Connect, Bella Center,
   Copenhagen, Demo Friday, LCE12, Android Mini-Summit, Mini-Summit, Schedule
 layout: post
 link: /blog/community-blog/lce12-copenhagen-android-mini-summit-schedule-now-available/
@@ -27,7 +27,7 @@ _Below is a look at the Android Mini-Summit which is scheduled to take place on 
 ## What is a Mini-Summit?
 
 
-A Mini-Summit are tracks which focus on a single strategic topic and take place on a single day.  In this case the Linaro Mini-Summits will take place on Tuesday with ARMv8 (64-bit), Wednesday with Android, and Thursday with big.LITTLE.
+A Mini-Summit are tracks which focus on a single strategic topic and take place on a single day.  In this case the Linaro Mini-Summits will take place on Tuesday with Armv8 (64-bit), Wednesday with Android, and Thursday with big.LITTLE.
 
 
 ## What is the Linaro Android Mini Summit?
@@ -190,7 +190,7 @@ Yes, and those demos will include (but may not be limited too):
 ## Demo Friday event; what is this and how can myself or my organization participate?
 
 
-Demo Friday is the opportunity for you to highlight the work you and or your organization have done using ARM boards and Linaro builds.  More information on Demo Friday can be found [here](/blog/lce-12-copenhagen-demo-friday-call-for-participation/).
+Demo Friday is the opportunity for you to highlight the work you and or your organization have done using Arm boards and Linaro builds.  More information on Demo Friday can be found [here](/blog/lce-12-copenhagen-demo-friday-call-for-participation/).
 
 
 ## Is there still time to register for LCE12-Copenhagen?

@@ -3,7 +3,7 @@ lead_projects:
     lead_project_name: Mobile AOSP Optimization
     lead_project_permalink: /projects/aosp/
   - lead_project_id: 2
-    lead_project_name: Reference Digital Media Platforms for ARM
+    lead_project_name: Reference Digital Media Platforms for Arm
 
 core_engineering_groups:
   - ce_group_name: Core Technologies & Tools

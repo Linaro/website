@@ -4,7 +4,7 @@ layout: developer-services
 title: Bootloaders and Boot Architecture
 short_name: Bootloaders
 permalink: /services/bootloaders/
-keywords: U-Boot, ARM Trusted Firmware, UEFI, Bootloader, Secure Boot
+keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 redirect_from: 
 - /services-linux/bootloaders/
 ---

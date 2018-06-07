@@ -34,4 +34,4 @@ It is early days yet for the bot, which is currently only building changes for o
 [3] Gerrit Code Review: [https://code.google.com/p/gerrit](https://code.google.com/p/gerrit)
 [4] Linaro Code Review: [https://git.linaro.org/?q=android](https://git.linaro.org/?q=android)
 [5] Jenkins Continuous Integration: [http://jenkins-ci.org](http://jenkins-ci.org)
-[6] Linaro Automated Validation on ARM: [https://launchpad.net/lava](https://launchpad.net/lava)
+[6] Linaro Automated Validation on Arm: [https://launchpad.net/lava](https://launchpad.net/lava)

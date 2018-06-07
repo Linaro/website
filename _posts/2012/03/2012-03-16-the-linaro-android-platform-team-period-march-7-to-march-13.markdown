@@ -17,7 +17,7 @@ tags:
 - board
 - fast model
 - Linaro
-- Linux on ARM
+- Linux on Arm
 title: The Linaro Android Platform Team, Period March 7 to March 13.
 wordpress_id: 1383
 ---
@@ -26,7 +26,7 @@ Hello Linaro fans.
 
 Something big is happening in Linaro. And something LITTLE too. Behind the cute moniker "[big.LITTLE](http://www.arm.com/products/processors/technologies/bigLITTLEprocessing.php)" hides a chip architecture that may improve the user experience of mobile devices dramatically. Up to now the device manufacturers have had trouble combining stunning performance with a long battery life. Imagine you drive around with a large engine in your car because you like to race it on the drag strip a few times a year. You would have to pay for that while commuting on all other days, because a large engine consumes excessive fuel even when you don't use the power. That's bad economy.
 
-Enter the hybrid. By combining two sets of software compatible but different ARM CPUs in the same SoC, these conflicting demands on power and economy can be met. The big.LITTLE switcher in software ensures that your device has supercharged hot rod performance when you need it, but is ecological the rest of the time.
+Enter the hybrid. By combining two sets of software compatible but different Arm CPUs in the same SoC, these conflicting demands on power and economy can be met. The big.LITTLE switcher in software ensures that your device has supercharged hot rod performance when you need it, but is ecological the rest of the time.
 
 Linaro is adapting this technology to Android. Amazingly, without using any real life big.LITTLE boards. It all simulated on [Fast Models](http://www.arm.com/products/tools/models/fast-models.php).
 

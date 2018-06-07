@@ -19,7 +19,7 @@ title: Day 1 at the OSPM Summit Pisa, Italy
 wordpress_id: 12377
 ---
 
-[The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by ARM and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 1 (to view the summary from day 2, click [here](/blog/day-2-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.
+[The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by Arm and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 1 (to view the summary from day 2, click [here](/blog/day-2-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=53jhYHXk8Os" %}
 
@@ -76,7 +76,7 @@ The presentation started with a short introduction on EAS and why it is importan
 [**Energy model and exotic topologies**](https://www.youtube.com/watch?v=bLt8JjOO-kc&index=6&list=PLohWCZQwiEVqYSyggG141vUeUOTLr1cHB)
 By Brendan Jackman ([slides](http://retis.santannapisa.it/~luca/ospm-summit/2017/Downloads/EAS_em_mainline_dts.odp.pdf))
 
-Brendan started his session with several figures on the EAS energy model concept and data structures. From there he proceeded to highlight the importance of cluster-level energy data for cluster packing, that is when to know that tasks should be packed together on clusters. It is easy to show the effect of cluster packing on scheduler behavior but harder to demonstrate energy savings on modern platforms. This was followed by a short overview of ARM’s DynamIQ Shared Unit (DSU). The concept involved packing different types of CPU in the same cluster, that is up to 8 CPUs that share an L3 cache with all/some/none CPUs having their own L2. Simply put the architectural topology boundaries we have seen so far are no longer congruent with frequency domains, power domains and CPU capacity boundaries. That led to a discussion on the ramification of an energy model for such heterogeneous topology.
+Brendan started his session with several figures on the EAS energy model concept and data structures. From there he proceeded to highlight the importance of cluster-level energy data for cluster packing, that is when to know that tasks should be packed together on clusters. It is easy to show the effect of cluster packing on scheduler behavior but harder to demonstrate energy savings on modern platforms. This was followed by a short overview of Arm’s DynamIQ Shared Unit (DSU). The concept involved packing different types of CPU in the same cluster, that is up to 8 CPUs that share an L3 cache with all/some/none CPUs having their own L2. Simply put the architectural topology boundaries we have seen so far are no longer congruent with frequency domains, power domains and CPU capacity boundaries. That led to a discussion on the ramification of an energy model for such heterogeneous topology.
 
 
 {% include media.html media_url="https://www.youtube.com/watch?v=6MC1jbYbQTo" %}

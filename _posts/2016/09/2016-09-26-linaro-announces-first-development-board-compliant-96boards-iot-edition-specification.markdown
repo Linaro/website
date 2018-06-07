@@ -13,7 +13,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 title: Linaro Announces First Development Board Compliant with 96Boards IoT Edition
   Specification
 wordpress_id: 11672
@@ -21,11 +21,11 @@ wordpress_id: 11672
 
 Cambridge, UK; 26 September 2016
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the ARM® architecture, today at Linaro Connect Las Vegas 2016 announced availability of the 96Boards ‘Carbon’ board - the first development board compliant with the 96Boards IoT Edition (IE) specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit ARM ecosystem developer boards. It is available to purchase from [SeeedStudio](https://www.96boards.org/product/carbon/). 
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today at Linaro Connect Las Vegas 2016 announced availability of the 96Boards ‘Carbon’ board - the first development board compliant with the 96Boards IoT Edition (IE) specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase from [SeeedStudio](https://www.96boards.org/product/carbon/). 
 
 Designed by SeeedStudio and Linaro, the 96Boards Carbon is an IoT reference development board targeted at IoT and embedded developers, the hobby community, and the open-source community. The board features the STM32F401RE Cortex-M4 SoC with 512KB onboard flash and Bluetooth LE. The board will be launched with Zephyr pre-installed. This is a small, scalable, real-time OS for use on resource-constrained systems.
 
-The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using ARM Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
+The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using Arm Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
 
 <table border="1" class="table responsive-table">
@@ -209,6 +209,6 @@ For more information, visit [https://www.96boards.org/product/carbon/](https://w
 
 **About Linaro**
 
-Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit[ ](/) and [http://www.96Boards.org](http://www.96boards.org).

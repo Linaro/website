@@ -5,8 +5,8 @@ categories:
 date: 2012-01-10 20:08:30
 description: Linaro CEO report on the activities within Linaro and with their partners.
   Overview of the 2011 accomplishments.
-keywords: Linaro, linux kernel, ARM Linux, Linux, tools, kernel, linux on ARM, open
-  source, software, distribution, philosophy, ARM, kernel linux, linux software, ARM
+keywords: Linaro, linux kernel, Arm Linux, Linux, tools, kernel, linux on Arm, open
+  source, software, distribution, philosophy, Arm, kernel linux, linux software, Arm
   Cortex-A9, Cortex, Android, Ubuntu
 layout: post
 link: /blog/december-ceo-report/
@@ -29,11 +29,11 @@ Despite the impact of the very welcome holiday season Linaro achieved a new set 
 
 **In July** we made our first Linux 3.0 kernel release; Lava received a dashboard UI; and initial hard float build work was handed over to distributions including Debian and Ubuntu.
 
-**August** saw Google announcing the acquisition of Motorola Mobile; HP halted webOS work; Linaro delivered a working sched_mc on ARM; and announced support for 'stable' kernel releases.
+**August** saw Google announcing the acquisition of Motorola Mobile; HP halted webOS work; Linaro delivered a working sched_mc on Arm; and announced support for 'stable' kernel releases.
 
-**In September** Linaro discussed the path towards a single ARM kernel; LAVA started continuous integration of multiple kernel source trees; the toolchain group delivered -O3 as a high performance stable build level on gcc.
+**In September** Linaro discussed the path towards a single Arm kernel; LAVA started continuous integration of multiple kernel source trees; the toolchain group delivered -O3 as a high performance stable build level on gcc.
 
-**In October** Linaro moved into the top 20 in kernel contributors - arch/arm code lines were actually reduced; ARM announced A7, big.LITTLE and the v8 architecture.
+**In October** Linaro moved into the top 20 in kernel contributors - arch/arm code lines were actually reduced; Arm announced A7, big.LITTLE and the v8 architecture.
 
 **In November** Google released Ice Cream Sandwich at last, and Linaro provided initial preview builds on all member platforms within 10 days. The Landing teams have a single tree that builds for both TI OMAP and Samsung Exynos; the UMM project delivers its first dma_buf patchset, and we started evaluating big.LITTLE work.
 

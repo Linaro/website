@@ -20,7 +20,7 @@ tags:
 - Evaluation builds
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - software
 title: The Linaro Android Platform Team, Period March 14 to March 20.
@@ -31,7 +31,7 @@ Hello Linaro fans.
 
 How is your board coping with the load when run in different use cases? Would you like to see graphs of the resource usage?
 
-This is entirely possible with the ARM DS-5 Eclipse plugin. Android developers can use DS-5 to debug native C/C++ code built with the Android Native Development Kit, but the DS-5 plugin also features a built in profiler. Linaros Evaluation Builds have built-in support for both debugging and profiling with DS-5. The upcoming 12.03 release of the Linaro Ubuntu and Android platforms will add profiling support for the MALI 400 GPU in Snowball.
+This is entirely possible with the Arm DS-5 Eclipse plugin. Android developers can use DS-5 to debug native C/C++ code built with the Android Native Development Kit, but the DS-5 plugin also features a built in profiler. Linaros Evaluation Builds have built-in support for both debugging and profiling with DS-5. The upcoming 12.03 release of the Linaro Ubuntu and Android platforms will add profiling support for the MALI 400 GPU in Snowball.
 
 The MALI 400 has one Vertex processor and up to four fragment (pixel) processors. Using DS-5 you will soon be able to trace these processors along with the application processors in colorful graphics.
 

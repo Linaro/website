@@ -5,7 +5,7 @@ categories:
 date: 2013-04-03 20:36:23
 description: Check out this photo montage that takes you through Linaro Connect Asia
   2013 in pictures.
-keywords: Linaro, Linux on ARM, Open Source, ARM, Linux, Kernel, Ubuntu, Android,
+keywords: Linaro, Linux on Arm, Open Source, Arm, Linux, Kernel, Ubuntu, Android,
   Engineer, Pictures, Review, Linaro Connect Asia 2013, Linaro Connect Europe 2013,
   Dublin, Registration, Video
 layout: post

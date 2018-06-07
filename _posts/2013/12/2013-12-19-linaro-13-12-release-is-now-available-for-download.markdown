@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-12-19 20:51:20
 description: Information and links for the Linaro 13.12 release
-keywords: Linaro, linux, open source, ARM, linux on ARM, Android, Ubuntu, kernel,
-  linux kernel, ARMv8, Linaro Connect,
+keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,
+  linux kernel, Armv8, Linaro Connect,
 layout: post
 link: /blog/releases-blog/linaro-13-12-release-is-now-available-for-download/
 slug: linaro-13-12-release-is-now-available-for-download
@@ -20,7 +20,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 - release
@@ -38,7 +38,7 @@ wordpress_id: 3230
 
 To avoid clashing with the holidays in many parts of the world, this month's release - the last for 2013 - is a week early, but contains some key Linaro Android and Ubuntu baselines developments.
 
-  *  For Android,  the ARMv8 LSK and Nexus7_2013-AOSP builds have been setup and Android can be now built using llvm-clang toolchain with the related patches submitted to upstream.
+  *  For Android,  the Armv8 LSK and Nexus7_2013-AOSP builds have been setup and Android can be now built using llvm-clang toolchain with the related patches submitted to upstream.
 
 
   * For Ubuntu, this release includes the Linaro Ubuntu baseline updated to Saucy Salamander (Ubuntu release 13.10) and the initial Ubuntu arm64 rootfs.
@@ -82,7 +82,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
   * [/engineering/armv8](/initiatives/armv8/)

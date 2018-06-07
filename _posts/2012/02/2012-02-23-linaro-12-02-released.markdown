@@ -33,7 +33,7 @@ Highlights from this Linaro Connect event which influence this and future releas
 * [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
 
 
-* [Kiko, Linaro Engineering VP: ARM, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
+* [Kiko, Linaro Engineering VP: Arm, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
 
 
 * [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50&list=UUAl2MfCBjH5y0nIym0ujHfg&index=5&feature=plcp)
@@ -50,7 +50,7 @@ Highlights from this Linaro Connect event which influence this and future releas
 
 **Demos:**
 
-* [Ubuntu TV Demo on ARM](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
+* [Ubuntu TV Demo on Arm](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
 
 
 * [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=3&feature=plcp)

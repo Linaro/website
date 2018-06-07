@@ -33,7 +33,7 @@ Among the improvements brought by this release and delivered by Linaro engineer
   * The Graphics Working Group added a xrender based compositing test to GLCompBench and merged a 2D convolution benchmarking scene and 3D screensaver inspired benchmarking scene to GLMark2. With these improvements, our set of graphics tests grows again by tests designed with real user experience use cases. In addition, GLMark2 is now integrated on all our Android builds and is automatically run in Linaro Validation Farm.
 
 
-  * The Kernel Working Group continued their outstanding work to always make the very latest available ARM bits included as part of our linux-linaro 3.0.4  based release. We include the ARM merged code of 3.1-rc1 from Russell King's tree, stable and ready for consumption.
+  * The Kernel Working Group continued their outstanding work to always make the very latest available Arm bits included as part of our linux-linaro 3.0.4  based release. We include the Arm merged code of 3.1-rc1 from Russell King's tree, stable and ready for consumption.
 
 
   * LAVA saw various plumbing improvements. The number of PandaBoards deployed got a significant boost with roughly 15 boards now being active 24/7.

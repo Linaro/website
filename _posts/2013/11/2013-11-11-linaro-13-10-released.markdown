@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2013-11-11 16:50:21
 description: Information on links to the 13.10 release
-keywords: linaro, ARM, Linux, Linux on ARM, opensource, releases, 13.10 release
+keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.10 release
 layout: post
 link: /blog/releases-blog/linaro-13-10-released/
 slug: linaro-13-10-released
@@ -13,7 +13,7 @@ tags:
 - android
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 - release
@@ -69,7 +69,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
   * [/engineering/armv8](/initiatives/armv8/)
 

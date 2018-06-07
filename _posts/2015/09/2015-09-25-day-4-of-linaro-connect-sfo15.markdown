@@ -114,7 +114,7 @@ SFO15-402:
 </td>
 
 <td width="347" markdown="1">
-Architecture & Use of “openCSD” ARM CoreSight Trace decode library
+Architecture & Use of “openCSD” Arm CoreSight Trace decode library
 </td>
 
 <td width="64" markdown="1">
@@ -150,7 +150,7 @@ SFO15-406:
 </td>
 
 <td width="347" markdown="1">
-ARM FDPIC toolset, kernel & libraries for Cortex-M & Cortex-R mmuless cores
+Arm FDPIC toolset, kernel & libraries for Cortex-M & Cortex-R mmuless cores
 </td>
 
 <td width="64" markdown="1">

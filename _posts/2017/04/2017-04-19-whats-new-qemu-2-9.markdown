@@ -19,11 +19,11 @@ QEMU is an interesting multi-faceted open source project. It is a standard compo
 
 Started in 2003 by [Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) QEMU is now maintained by a community of mostly corporate sponsored engineers, although unaffiliated individuals are still the second largest set of contributors. The projects [codebase has continued to grow](https://www.openhub.net/p/qemu) over the years and it now has reached the point of making around 3 stable releases a year, typically one in April, August and December.
 
-Linaro engineers takes an active part in development and maintenance of the project and we thought it would be useful provide an update on ARM related features in the up-coming [2.9 release](http://wiki.qemu-project.org/index.php/ChangeLog/2.9).
+Linaro engineers takes an active part in development and maintenance of the project and we thought it would be useful provide an update on Arm related features in the up-coming [2.9 release](http://wiki.qemu-project.org/index.php/ChangeLog/2.9).
 
 ## 1 AArch64 EL2 Support for TCG
 
-Building on previous work to enable EL3 (the secure CPU mode provided by the security extensions as part of TrustZone) we now fully support the hypervisor CPU exception level EL2. As most ARM hypervisors require support for virtualization in the interrupt controller as well, and since we only support the virtualization extensions in our emulated GICv3 (not GICv2), users who want to run hypervisors in the emulated AArch64 machine using EL2 must so far select a GICv3 interrupt controller for the emulated machine.
+Building on previous work to enable EL3 (the secure CPU mode provided by the security extensions as part of TrustZone) we now fully support the hypervisor CPU exception level EL2. As most Arm hypervisors require support for virtualization in the interrupt controller as well, and since we only support the virtualization extensions in our emulated GICv3 (not GICv2), users who want to run hypervisors in the emulated AArch64 machine using EL2 must so far select a GICv3 interrupt controller for the emulated machine.
 
 
 ```bash
@@ -32,9 +32,9 @@ Building on previous work to enable EL3 (the secure CPU mode provided by the sec
       -machine virtualization=true
 ```
 
-This is especially useful if you want to debug 64-bit ARM hypervisor and often developers don't have access to AArch64 hardware while traveling or attending conference.
+This is especially useful if you want to debug 64-bit Arm hypervisor and often developers don't have access to AArch64 hardware while traveling or attending conference.
 
-While it is still slow compared to running KVM on real hardware, it is convenient for testing EL2 code on a developers desktop with the power of the GDB stub. QEMU is often used extensively for automated testing and CI, and supporting hypervisors inside emulated environments is crucial for supporting CI on ARM using commodity x86 hardware. With the introduction of MTTCG (see next section), this even scales for multi-core and can be used to discover SMP-related race conditions.
+While it is still slow compared to running KVM on real hardware, it is convenient for testing EL2 code on a developers desktop with the power of the GDB stub. QEMU is often used extensively for automated testing and CI, and supporting hypervisors inside emulated environments is crucial for supporting CI on Arm using commodity x86 hardware. With the introduction of MTTCG (see next section), this even scales for multi-core and can be used to discover SMP-related race conditions.
 
 
 ## 2 Multi-threaded TCG for System Emulation
@@ -47,17 +47,17 @@ This work finally removes the single-threaded bottlenecks from system emulation,
 
 The core technology on which MTTCG relies is target agnostic and designed so all the various architectures QEMU emulates can take advantage of it. However each front-end needs to make changes to their emulation to ensure they take advantage of the new TCG facilities for modelling atomic and barrier operations.
 
-Currently MTTCG is enabled by default for both 32 and 64 bit ARM chips as well as the Alpha architecture when running on an x8664 host. This is by far the most common use case for ARM emulation.
+Currently MTTCG is enabled by default for both 32 and 64 bit Arm chips as well as the Alpha architecture when running on an x8664 host. This is by far the most common use case for Arm emulation.
 
 ## 3 Cortex M fixes
 
 
-In the last few years Linaro has been mostly concentrating on the A-profile (Application profile) ARM processors. These are the ones designed to run full-stack operating systems like Linux. With the growing interest in Internet of Things (IoT), we are starting to turn our attention to the M-profile (Microcontroller). The Microcontroller profile processors are targeted at much more constrained low-latency, and low-power deeply embedded applications. Their memory is usually measured in kilobytes (kB) rather than megabytes (MB) so they tend to run custom run-loops or highly constrained real-time operating systems (RTOS) like [Zephyr](https://www.zephyrproject.org/).
+In the last few years Linaro has been mostly concentrating on the A-profile (Application profile) Arm processors. These are the ones designed to run full-stack operating systems like Linux. With the growing interest in Internet of Things (IoT), we are starting to turn our attention to the M-profile (Microcontroller). The Microcontroller profile processors are targeted at much more constrained low-latency, and low-power deeply embedded applications. Their memory is usually measured in kilobytes (kB) rather than megabytes (MB) so they tend to run custom run-loops or highly constrained real-time operating systems (RTOS) like [Zephyr](https://www.zephyrproject.org/).
 
 While QEMU nominally supports the Cortex-M3 processor, support for boards using it has been sporadic and the result is a situation where there have been long standing un-fixed bugs and important features missing. As the architecture has progressed support for the newer M-profile CPUs has also lagged.
 The 2.9 release sees a number of fixes to the Cortex-M series emulation as we ramp up our efforts to improve QEMU's microcontroller support. The fixes have so far been aimed at architectural aspects which were known to be broken, such as the NVIC emulation. However part of the discussion at our recent [BUD17 session](https://connect.linaro.org/resource/bud17/bud17-221/) was looking at what features we should prioritise for future QEMU releases. And we are currently focusing on getting MPU support upstream and supporting v8m.
 
-This summary is not intended to be exhaustive and has concentrated on ARM specific features. For example we have not covered updates to the common sub-systems shared by all architectures. For those interested in all the details, the [full changelog](http://wiki.qemu.org/ChangeLog/2.9) is worth a read.
+This summary is not intended to be exhaustive and has concentrated on Arm specific features. For example we have not covered updates to the common sub-systems shared by all architectures. For those interested in all the details, the [full changelog](http://wiki.qemu.org/ChangeLog/2.9) is worth a read.
 
 {% include media.html media_url="https://youtu.be/4MKXWM0koGw" %}
 

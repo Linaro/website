@@ -25,7 +25,7 @@ tags:
 - Freescale
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - release
 title: The Linaro Android Platform Team, Period Feb. 17 to Feb. 23
 wordpress_id: 1288

@@ -20,7 +20,7 @@ TEE solution instead. In September 2015, the ownership was transferred to
 Linaro. Today it is one of the key security projects in Linaro, with several of
 Linaro’s members supporting and using it.
 
-The [optee_os] git, contains the source code for the TEE in Linux using the ARM®
+The [optee_os] git, contains the source code for the TEE in Linux using the Arm®
 TrustZone® technology. This component meets the GlobalPlatform TEE Client API
 for the communication with the TEE and GlobalPlatform TEE Internal Core API
 specifications for the Trusted Applications.

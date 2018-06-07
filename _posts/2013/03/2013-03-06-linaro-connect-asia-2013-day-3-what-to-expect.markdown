@@ -5,7 +5,7 @@ categories:
 date: 2013-03-06 00:12:38
 description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
   you can participate remotely and as well as the schedule of events for Day 3.
-keywords: Linux, ARM, Linux on ARM, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 3
 layout: post
 link: /blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
@@ -17,11 +17,11 @@ title: Linaro Connect Asia 2013 - Day 3 - What To Expect
 wordpress_id: 2548
 ---
 
-[Linaro Connect Asia Day 2](/blog/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on ARM keynote which was given by Lars Kurth and Mark Heath of Citrix.
+[Linaro Connect Asia Day 2](/blog/open-collaboration-is-key-linaro-connect-day-2/) kicked off with a Xen on Arm keynote which was given by Lars Kurth and Mark Heath of Citrix.
 
 
 
-Which was followed by the ARM Server Mini-Summit, Embedded Android Training, LAVA workshop and more.
+Which was followed by the Arm Server Mini-Summit, Embedded Android Training, LAVA workshop and more.
 
 Linaro is growing and so is participation in Linaro Connect.
 

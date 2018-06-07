@@ -5,7 +5,7 @@ categories:
 date: 2011-10-10 22:18:34
 description: Discussion of Linaro toolchain working group focus, and the enablement
   of -O3 flag
-keywords: Linaro, ARM, Linux on ARM, ARM Linux, gcc-o3, ARM SOCs, Linux, Kernel
+keywords: Linaro, Arm, Linux on Arm, Arm Linux, gcc-o3, Arm SOCs, Linux, Kernel
 layout: post
 link: /blog/community-blog/compiling-with-gcc-o3/
 slug: compiling-with-gcc-o3

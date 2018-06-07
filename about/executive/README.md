@@ -27,7 +27,7 @@ George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of indu
 <div class="col-sm-9 no-padding" markdown="1">
 ### **David Rusling** / Chief Technical Officer
 
-David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongARM before moving to ARM where he added tools experience. At ARM he continued to be involved in open source and as a reward for his meddling was made an ARM Fellow. He helped create Linaro, becoming it’s CTO in 2010.
+David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming it’s CTO in 2010.
 
 When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
 </div>

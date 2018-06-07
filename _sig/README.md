@@ -4,7 +4,7 @@ permalink: /sig/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv
 description: |-
     In 2012, Linaro began to form Segment Groups that focused on new areas beyond the original mobile focus of Linaro's collaborative engineering.
-keywords: Linaro, Linux, SiG, Special Interest Group, LEG, ARM, HPC, High, Performance, Computing
+keywords: Linaro, Linux, SiG, Special Interest Group, LEG, Arm, HPC, High, Performance, Computing
 ---
 # Special Interest Group (SIG)
 

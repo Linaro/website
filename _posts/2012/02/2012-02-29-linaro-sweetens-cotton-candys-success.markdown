@@ -5,7 +5,7 @@ categories:
 date: 2012-02-29 22:48:01
 description: FXI Technologies, is now accepting pre-orders for its USB sized, any
   screen, Linaro LEB based cloud computer--Cotton Candy.
-keywords: Linaro, Linux on ARM, Android, Ubuntu, Cotton Candy, FXI Technologies, Hardware
+keywords: Linaro, Linux on Arm, Android, Ubuntu, Cotton Candy, FXI Technologies, Hardware
   Origen, Samsung
 layout: post
 link: /blog/industry-blog/linaro-sweetens-cotton-candys-success/
@@ -33,7 +33,7 @@ Linaro community specialist, Amber Graner, asked FXI Technologies  founder and 
 
 Cotton Candy has [been on display](https://www.mobileworldcongress.com/exhibition/2018-exhibitors/) at this week’s Mobile World Congress and according to FXI Technologies, it is the unique architecture that allows the device to serve as a companion to smartphones, tablets, notebook PCs and Macs and will add smart capabilities to existing displays, set top boxes and game consoles.
 
-The specifications for Cotton Candy include an ARM® Cortex™-A9 (1GHz) CPU from Samsung, an ARM Mali™-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and Bluetooth, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen.  A [pdf product brief](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) is also available.
+The specifications for Cotton Candy include an Arm® Cortex™-A9 (1GHz) CPU from Samsung, an Arm Mali™-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and Bluetooth, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen.  A [pdf product brief](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) is also available.
 
 The cost for Cotton Candy is $199.00 and doesn't include tax and shipping.  More information about ordering can be found on the [cstick store site](http://store.cstick.com/).
 
@@ -43,4 +43,4 @@ FXI Technologies ([www.fxitech.com](http://www.fxitech.com/)) is a Norway-based 
 
 **About Linaro**
 
-Linaro([www.linaro.org](/about/)) is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
+Linaro([www.linaro.org](/about/)) is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain, the Linux kernel, Arm power management, graphics and multimedia interfaces.

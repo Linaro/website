@@ -5,7 +5,7 @@ categories:
 date: 2013-08-29 22:48:04
 description: Overview about the Linaro Stable Kernel. Includes updates from the team
   and information about the beta release.
-keywords: Linaro, Kernel, Linux, ARM, opensource, opensource software, LSK, big.little,
+keywords: Linaro, Kernel, Linux, Arm, opensource, opensource software, LSK, big.little,
   android, reelase, 13.08
 layout: post
 link: /blog/android-blog/linaro-stable-kernel-overview/
