@@ -11,7 +11,7 @@ categories:
 tags:
 - Industry
 - '10.11'
-- ARM TechCon
+- Arm TechCon
 - mobile
 - release
 - smartphone
@@ -19,15 +19,15 @@ tags:
 ---
 Open source has become an important driving force in the smartphone industry and a particularly key area of focus for ST-Ericsson. We believe that open innovation is critical to face the increasing demand on features and the broadening scope of the mobile market.  From hardware performance to software platforms and enabling the hundreds of thousands of apps & services running on top of it, the complexity of today's devices has raised incredibly.
 
-Most Open Source initiatives in mobile so far have had been focused on the SW development framework such as Android, MeeGo or the Symbian foundation. However 5 months ago the launch of Linaro was announced, together with ARM and other key partners of the wireless semiconductor industry, to focus on optimization of lower platform layers (kernel, hardware adaptation) and tools.
+Most Open Source initiatives in mobile so far have had been focused on the SW development framework such as Android, MeeGo or the Symbian foundation. However 5 months ago the launch of Linaro was announced, together with Arm and other key partners of the wireless semiconductor industry, to focus on optimization of lower platform layers (kernel, hardware adaptation) and tools.
 
 Open source is also a learning curve for semiconductor companies. Moving from tightly integrated proprietary solutions to open and modular brings its share of new procedures and challenges to deal with. Initiatives like Linaro are helping us to release more and better code to the community.
 
-Linaro was launched to reduce fragmentation of Linux on ARM and allow shorter releasing  cycle of Linux products on new hardware platforms . It was stated in the original announcement that every 6 months, Linaro will provide a stable and optimized base for distributions and developers by creating new releases of optimized tools, kernel and middleware software validated for a wide range of SoCs.  Of course, the software is not made available only every 6 months but there is a development branch where the latest is continuously updated so that new features are available in real-time.
+Linaro was launched to reduce fragmentation of Linux on Arm and allow shorter releasing  cycle of Linux products on new hardware platforms . It was stated in the original announcement that every 6 months, Linaro will provide a stable and optimized base for distributions and developers by creating new releases of optimized tools, kernel and middleware software validated for a wide range of SoCs.  Of course, the software is not made available only every 6 months but there is a development branch where the latest is continuously updated so that new features are available in real-time.
 
 <!-- more -->
 
-So far most of the work within Linaro has been focused on the 10.11 release ([https://wiki.linaro.org/Releases/1011/TechnicalRequirements](https://wiki.linaro.org/Releases/1011/TechnicalRequirements) ) which contains a large number of optimizations. By using the Linaro kernel, tool chain and C library, any ARM system will be able to run faster and consume less energy.
+So far most of the work within Linaro has been focused on the 10.11 release ([https://wiki.linaro.org/Releases/1011/TechnicalRequirements](https://wiki.linaro.org/Releases/1011/TechnicalRequirements) ) which contains a large number of optimizations. By using the Linaro kernel, tool chain and C library, any Arm system will be able to run faster and consume less energy.
 
 At ST-Ericsson we dedicated a number of engineers to Linaro related activities and working groups. Our engineers have been involved in multiple work groups focused on diversified topics such as Power Management, Graphics or User Platforms. In the past few months, much effort has been put into learning how to work within Linaro and in such a short time we already see multiple benefits from the initiative:
 

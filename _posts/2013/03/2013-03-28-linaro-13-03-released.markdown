@@ -6,7 +6,7 @@ date: 2013-03-28 20:20:04
 description: The 13.03 Linaro release highlights the focused efforts of all the Linaro
   Teams who have provided all the updates and new features that are integrated on
   top of Android, Ubuntu and OpenEmbedded during this release cycle.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
   Linaro 13.03 release. release, announcement
 layout: post
 link: /blog/releases-blog/linaro-13-03-released/
@@ -24,7 +24,7 @@ wordpress_id: 2612
 
 **The Linaro 13.03 release is now available for download!**
 
-The 13.03 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, Ubuntu and OpenEmbedded during this release cycle. The vision of the future of Linux on ARM is brought into focus through the collaborative efforts of those dedicated to making the vision a reality one step and one release at a time. The 13.03 cycle contributions are numerous and continues to venture into new areas of the ARM ecosystem with each release.
+The 13.03 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, Ubuntu and OpenEmbedded during this release cycle. The vision of the future of Linux on Arm is brought into focus through the collaborative efforts of those dedicated to making the vision a reality one step and one release at a time. The 13.03 cycle contributions are numerous and continues to venture into new areas of the Arm ecosystem with each release.
 
 
 ## **About this release:**
@@ -41,9 +41,9 @@ The **Linaro Graphics Working Group** posted the following patches for acceptan
 
 The **Linaro Power Management Working Group** has upstreamed the dynamic timer irq affinity--set up the timer irq affinity to the CPU concerned by the first timer expiration. The cpufreq driver for IKS is now optimized and analysis of HMP scheduler optimizations using bbench and their applicability to A15 SMP systems is now complete. Updates to sched include a modified timer and workqueue framework to allow migration to non-idle CPUs. Powerdebug was ported and now available on the Android platform.
 
-The **Linaro Toolchain Working Group** had a busy 13.03 release cycle as well. Changes to the Toolchain binaries release include Linaro GCC being updated to GCC 4.7.2+svn196272, includes arm/aarch64-4.7-branch up to svn revision 196225. Linaro QEMU 2013.03 was also released earlier this cycle and is based off upstream (trunk) QEMU --1.4.0 release-- and includes a number of ARM-focused bug fixes and enhancements. Updates for this release include ARM KVM support patches which are in sync with the ABI as committed to the upstream Linux kernel for 3.9--note: this feature is still under development, but will no longer be subject to kernel-vs-userspace ABI breaks.
+The **Linaro Toolchain Working Group** had a busy 13.03 release cycle as well. Changes to the Toolchain binaries release include Linaro GCC being updated to GCC 4.7.2+svn196272, includes arm/aarch64-4.7-branch up to svn revision 196225. Linaro QEMU 2013.03 was also released earlier this cycle and is based off upstream (trunk) QEMU --1.4.0 release-- and includes a number of Arm-focused bug fixes and enhancements. Updates for this release include Arm KVM support patches which are in sync with the ABI as committed to the upstream Linux kernel for 3.9--note: this feature is still under development, but will no longer be subject to kernel-vs-userspace ABI breaks.
 
-The **Linaro Enterprise Group** (LEG) announced that the initial GRUB port on ARM UEFI is now available and the tree can be found on [https://code.launchpad.net/~leif-lindholm/linaro-grub/arm-uefi](https://code.launchpad.net/~leif-lindholm/linaro-grub/arm-uefi)
+The **Linaro Enterprise Group** (LEG) announced that the initial GRUB port on Arm UEFI is now available and the tree can be found on [https://code.launchpad.net/~leif-lindholm/linaro-grub/arm-uefi](https://code.launchpad.net/~leif-lindholm/linaro-grub/arm-uefi)
 
 
 ## **Announcements:**

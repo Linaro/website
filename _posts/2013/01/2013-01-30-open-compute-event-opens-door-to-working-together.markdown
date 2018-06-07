@@ -6,7 +6,7 @@ date: 2013-01-30 18:48:51
 description: Overview of Linaro's participation in Open Compute Summit. Including
   a presentation that discusses how Linaro and the Open Compute Project are complementary
 keywords: Linaro, Open Compute summit, Open source, Linux, Open sourced hardware,
-  Linaro enterprise group, ARM
+  Linaro enterprise group, Arm
 layout: post
 link: /blog/community-blog/open-compute-event-opens-door-to-working-together/
 slug: open-compute-event-opens-door-to-working-together
@@ -16,7 +16,7 @@ title: Open Compute Event Opens Door to Working Together
 wordpress_id: 2252
 ---
 
-The fourth [Open Compute Summit](https://wiki.linaro.org/Events/LCA13) was held on January 16-17, 2013, at the Santa Clara Convention Center in  Santa Clara, California. The Open Compute Summit is an international conference sponsored by the Open Compute Project (OCP) and is focused on companies and projects in the industry that are collectively working to develop the most efficient computing infrastructure possible. This was an impressive event with over 1500 attendees, many from server end users, server OEM and ODMs, storage vendors and silicon companies including ARM and its partner vendors such as Calxeda and Applied Micro.
+The fourth [Open Compute Summit](https://wiki.linaro.org/Events/LCA13) was held on January 16-17, 2013, at the Santa Clara Convention Center in  Santa Clara, California. The Open Compute Summit is an international conference sponsored by the Open Compute Project (OCP) and is focused on companies and projects in the industry that are collectively working to develop the most efficient computing infrastructure possible. This was an impressive event with over 1500 attendees, many from server end users, server OEM and ODMs, storage vendors and silicon companies including Arm and its partner vendors such as Calxeda and Applied Micro.
 
 Linaro was a sponsor of the event and both exhibited and presented at the event. The booth gave attendees an opportunity to ask questions about Linaro to gain a better understanding of what Linaro does.
 
@@ -28,6 +28,6 @@ Also at the event was Linaro CEO George Grey, who had an opportunity to be a par
 
 {% include image.html name="George-Grey-speaking-at-Open-Compute-2013.jpg" alt="George Grey speaking at Open Compute 2013" %}
 
-This presentation showed how complementary the Open Compute Project and Linaro are, with Linaro focusing on accelerating the software ecosystem for ARM based servers and OCP open sourcing innovation in the data center to help reduce costs, complexity and power consumption.  OCP is a key enabler for the LEG efforts of delivering interoperable low power servers, firstly by adopting standard, open sourced, hardware components and secondly by championing open vertical software standards such as OpenStack.
+This presentation showed how complementary the Open Compute Project and Linaro are, with Linaro focusing on accelerating the software ecosystem for Arm based servers and OCP open sourcing innovation in the data center to help reduce costs, complexity and power consumption.  OCP is a key enabler for the LEG efforts of delivering interoperable low power servers, firstly by adopting standard, open sourced, hardware components and secondly by championing open vertical software standards such as OpenStack.
 
 To view the presentation and learn more about how Linaro is working toward this goal [click here.](https://www.slideshare.net/linaroorg/presentations/)

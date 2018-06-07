@@ -3,18 +3,18 @@ author: linaro
 categories:
 - blog
 date: 2013-05-22 17:57:39
-description: If you are in Berlin, interested in Linux on ARM, want to connect with
+description: If you are in Berlin, interested in Linux on Arm, want to connect with
   developers from Linaro then you are in luck as Andrea Gallo, Director of the Linaro
-  Enterprise Group (LEG) is set to open the Linux on ARM/Hardware in Action track
+  Enterprise Group (LEG) is set to open the Linux on Arm/Hardware in Action track
   at LinuxTag.
-keywords: Linux, Linux on ARM, LEG, Linaro, Linaro Enterprise Group, LinuxTag, Germany,
+keywords: Linux, Linux on Arm, LEG, Linaro, Linaro Enterprise Group, LinuxTag, Germany,
   Berlin,
 layout: post
 link: /blog/industry-blog/linux-on-arm-track-at-linuxtag-2013/
 slug: linux-on-arm-track-at-linuxtag-2013
 tags:
 - Industry
-title: Linux on ARM Track at LinuxTag 2013
+title: Linux on Arm Track at LinuxTag 2013
 wordpress_id: 2731
 ---
 
@@ -22,7 +22,7 @@ wordpress_id: 2731
 
 {% include image.html name="AGallo_150x187.jpg" alt="Andrea Gallo, Director Linaro Enterprise Group (LEG)" class="small-inline"%}
 
-For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at LinuxTag.  If you are in Berlin, interested in Linux on ARM and want to connect with developers from Linaro then you are in luck as [Andrea Gallo](/about/), Director of the [Linaro Enterprise Group (LEG)](/groups/leg/) is set to open the [Linux on ARM/Hardware in Action](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html) track. Gallo's talk will explain how the governance works for both the core Linaro activities and the group specific ones, will describe the latest achievements in the various sub-teams, the mid-term roadmap and the resources available to all community developers to get involved and contribute.
+For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at LinuxTag.  If you are in Berlin, interested in Linux on Arm and want to connect with developers from Linaro then you are in luck as [Andrea Gallo](/about/), Director of the [Linaro Enterprise Group (LEG)](/groups/leg/) is set to open the [Linux on Arm/Hardware in Action](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html) track. Gallo's talk will explain how the governance works for both the core Linaro activities and the group specific ones, will describe the latest achievements in the various sub-teams, the mid-term roadmap and the resources available to all community developers to get involved and contribute.
 
 **Sessions given in English include:**
 
@@ -32,12 +32,12 @@ For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at 
 
 
 
-[Xen on ARM](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html?eventid=283) - Stefano Stabellini (Citrix)
+[Xen on Arm](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html?eventid=283) - Stefano Stabellini (Citrix)
 
 
 
 
-[Linux on ARM servers](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html?eventid=285) - André Przywara (Calxeda / Linaro)
+[Linux on Arm servers](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html?eventid=285) - André Przywara (Calxeda / Linaro)
 
 
 

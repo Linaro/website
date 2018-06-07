@@ -58,7 +58,7 @@ pages:
         title: Linaro Connect
         url: /initiatives/connect/
       -
-        title: ARMv8
+        title: Armv8
         url: /initiatives/armv8/
       -
         title: LAVA
@@ -73,7 +73,7 @@ pages:
         title: Mobile AOSP Optimization
         url: /projects/aosp/
       -
-        title: Reference Digital Media Platforms for ARM
+        title: Reference Digital Media Platforms for Arm
         url: /projects/reference-digital-media-platforms-for-arm/
       -
         title: Big Data
@@ -85,10 +85,10 @@ pages:
         title: Mobile Power Management
         url: /projects/mobile-power-management/
       -
-        title: ARM Kernel Collaboration
+        title: Arm Kernel Collaboration
         url: /projects/arm-kernel-collaboration/
       -
-        title: Open Source ARM Tools
+        title: Open Source Arm Tools
         url: /projects/open-source-arm-tools/
       -
         title: Open Source Security

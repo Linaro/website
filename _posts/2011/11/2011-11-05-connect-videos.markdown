@@ -52,7 +52,7 @@ I had the opportunity to interview Marcin Juszkiewicz, a Linaro Engineer and lon
 
 Marcin started by explaining his role in Linaro and his contributions. In particular, Marcin took care of packaging cross-compiling toolchains in Ubuntu.
 
-We went on by talking about what Marcin did before joining Linaro. Marcin first started hacking with ARM Linux in the early 2000's, using a Sharp Zaurus PDA.
+We went on by talking about what Marcin did before joining Linaro. Marcin first started hacking with Arm Linux in the early 2000's, using a Sharp Zaurus PDA.
 
 We talked about the amazing projects that originated from this Linux PDA, and that Sharp probably never anticipated. The embedded Linux community would be very different today if it hadn't happened.
 
@@ -91,7 +91,7 @@ Slides are available on http://people.linaro.org/~michaelh/presentations/2011.11
 
 ### Day 3 - Freescale Landing team interview
 
-I took the opportunity of Linaro Connect to meet with 3 members of the Freescale Landing team at Linaro: Paul Liu (middleware and graphics acceleration), Haitao Zhang (kernel) and Eric Miao (tech lead, a long time contributor to the ARM Linux community).
+I took the opportunity of Linaro Connect to meet with 3 members of the Freescale Landing team at Linaro: Paul Liu (middleware and graphics acceleration), Haitao Zhang (kernel) and Eric Miao (tech lead, a long time contributor to the Arm Linux community).
 
 In Linaro, a landing team is a engineering team that works on making a hardware platform supported in the upstream open-source projects such as the Linux kernel and distributions like Ubuntu and Android.
 

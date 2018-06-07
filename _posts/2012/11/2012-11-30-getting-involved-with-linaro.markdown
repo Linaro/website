@@ -5,7 +5,7 @@ categories:
 date: 2012-11-30 20:17:55
 description: Whether you are an individual or an employee of a organization it is
   easy to get involved with Linaro. Find out how in this post.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, Android,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, Android,
   Developer Platform, LAVA, Infrastructure, Kernel, Toolchain, Power Management, Graphics,
   Linaro Enterprise Group (LEG)
 layout: post
@@ -111,7 +111,7 @@ More information about the Linaro Infrastructure Team can be found at: [https:/
 ### Kernel
 
 
-The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern ARM SoCs.
+The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern Arm SoCs.
 
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Kernel): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*
 
@@ -151,7 +151,7 @@ More information about the Linaro Toolchain Team can be found at: [https://wiki
 ### Power Management
 
 
-The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple ARM SoCs.
+The Power Management WG will look at the entire software stack (kernel, middleware, applications and tools) to help optimize power consumption. The WG is responsible for creating infrastructure, guidelines and tools to enable top-notch power management on multiple Arm SoCs.
 
   * [Meeting](https://wiki.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly Conference Call (not a public call but minutes are sent to the mailing list)*
 
@@ -171,7 +171,7 @@ More information about the Linaro Power Management Team can be found at: [https
 ### Graphics
 
 
-The Graphics Working Group is set to improve the Linux graphics stack for current and future GPUs used in modern ARM devices like smart phones, tablets and netbooks.
+The Graphics Working Group is set to improve the Linux graphics stack for current and future GPUs used in modern Arm devices like smart phones, tablets and netbooks.
 
   * [Meeting](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics#Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
@@ -209,12 +209,12 @@ More information about the Linaro Enterprise Group (LEG)  can be found at: [ht
 
 #### About Linaro
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure._
 
 
 #### To find out more, please visit [](/).
 About Linaro Connect
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 _More information on upcoming Linaro Connect events can be found on the the[ Linaro Connect Website](http://connect.linaro.org/)._

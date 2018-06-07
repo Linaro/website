@@ -6,7 +6,7 @@ date: 2012-11-16 04:32:47
 description: Find out more about the newly formed Linaro Enterprise Group (LEG) from
   Amber Graner's interview with the group's director, Andrea Gallo.
 keywords: Linaro, Linaro Connect, LCE12-Copenhagen, LCA13-Hong Kong, LEG, Linaro Enterprise
-  Group, ARM Servers, Linux on ARM, ARM, Open Source, Andrea Gallo, Amber Graner,
+  Group, Arm Servers, Linux on Arm, Arm, Open Source, Andrea Gallo, Amber Graner,
   Interview
 layout: post
 link: /blog/community-blog/andrea-gallo-of-linaro-explains-leg/
@@ -23,9 +23,9 @@ Earlier this week [I](/about/) had the opportunity to sit down with [Andrea Gall
 
 
 
-In this interview, Andrea explains ARM both as [an architecture](http://en.wikipedia.org/wiki/ARM_architecture) and [a company](http://www.arm.com/about/index.php), [Linaro](/), [LEG](/groups/leg/) and why LEG is being formed now. He explains his role and responsibilities as the Director of LEG. But that's not all, he also highlights the benefits of membership, how the scope and priorities of LEG are defined and what the top priorities will be over the next 6 to 18 months.
+In this interview, Andrea explains Arm both as [an architecture](http://en.wikipedia.org/wiki/Arm_architecture) and [a company](http://www.arm.com/about/index.php), [Linaro](/), [LEG](/groups/leg/) and why LEG is being formed now. He explains his role and responsibilities as the Director of LEG. But that's not all, he also highlights the benefits of membership, how the scope and priorities of LEG are defined and what the top priorities will be over the next 6 to 18 months.
 
-Other topics Andrea and I discuss include how the work of the LEG group is coordinated within Linaro and how that work will make it into the greater ARM ecosystem, and various upstreams like the Linux kernel?
+Other topics Andrea and I discuss include how the work of the LEG group is coordinated within Linaro and how that work will make it into the greater Arm ecosystem, and various upstreams like the Linux kernel?
 
 With aggressive goals such as delivering the initial software before the end of this year I ask Andrea what that initial deliverable will really include and what members can expect out of this initial software?
 

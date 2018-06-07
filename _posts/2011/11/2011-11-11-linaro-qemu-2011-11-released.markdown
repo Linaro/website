@@ -19,11 +19,11 @@ release of Linaro QEMU 2011.11.
 
 Linaro QEMU 2011.11 is the latest monthly release of
 qemu-linaro. Based off upstream (trunk) QEMU, it includes a
-number of ARM-focused bug fixes and enhancements.
+number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
 
-- The ARM vexpress-a9, versatilepb, versatileab and realview-*
+- The Arm vexpress-a9, versatilepb, versatileab and realview-*
 boards now have audio support (thanks to Mathieu Sonet who
 contributed a PL041 implementation upstream)
 - Support for multiple instances of the "-sd" option on the
@@ -38,7 +38,7 @@ linux-user mode
 Known issues:
 - Graphics do not work for OMAP3 based models (beagle, overo)
 with 11.10 Linaro images.
-- This release of qemu-linaro is known not to work on ARM hosts.
+- This release of qemu-linaro is known not to work on Arm hosts.
 (See LP: [#883133](http://launchpad.net/bugs/883133), [#883136](http://launchpad.net/bugs/883136))
 
 NB: if you run QEMU on a host system without properly configured

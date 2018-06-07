@@ -1,0 +1,12 @@
+---
+layout: default
+js-package: home
+css-package: home
+---
+{% if site.data.settings.home.jumbotron.enabled %}
+    {% include jumbotron.html %}
+{% endif %}
+
+<div class="container-fluid" id="content-container">
+    {{ content }}
+</div>

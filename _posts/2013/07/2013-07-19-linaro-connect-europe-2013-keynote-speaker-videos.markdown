@@ -5,8 +5,8 @@ categories:
 date: 2013-07-19 14:25:33
 description: Keynote Speakers, videos, presentations from Linaro Connect Europe 2013
   now available.
-keywords: Linaro, Linux on ARM, ARM, Open Source, Events, Connect, Linaro Connect
-  Europe 2013, LCE13, Dublin, Ireland, LCU13, Santa Clara, TechCon, ARM TechCon, George
+keywords: Linaro, Linux on Arm, Arm, Open Source, Events, Connect, Linaro Connect
+  Europe 2013, LCE13, Dublin, Ireland, LCU13, Santa Clara, TechCon, Arm TechCon, George
   Grey, James Bottomley, Wannes de Smet, Cole Crawford, Leslie Hawthorn, Bob Monkman,
   David Rusling
 layout: post
@@ -31,7 +31,7 @@ Below are the links to the information about each these talks as well as informa
   * [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587), [Google+ Event Listing](https://plus.google.com/u/0/events/c9km5je4jufpsimd7jcbvus7his), [Video (YouTube)](http://youtu.be/Z6tJR99wWWI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Connect%20survival%20Guide.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-survival-guide)
 
 
-  * [Wannes De Smet](http://lce-13.zerista.com/event/member/79608), [Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20ARM%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
+  * [Wannes De Smet](http://lce-13.zerista.com/event/member/79608), [Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20Arm%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
 
 
   * [Cole Crawford](http://lce-13.zerista.com/event/member/81944), [Google+ Event Listing](https://plus.google.com/u/0/events/cd6jp4ehbuntib9pnrp89qppc2c), [Video (YouTube)](http://youtu.be/4621j5xQGMM), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Wednesday%20Keynote-%20Cole%20Crawford.mp4), [Presentation](https://www.slideshare.net/linaroorg/open-compute-keynote)
@@ -48,4 +48,4 @@ Below are the links to the information about each these talks as well as informa
 
 If you weren't able to join us in Dublin and you're wondering what you missed?
 
-If you liked these keynotes, just wait til you see the line-up for [Linaro Connect US (LCU13)](http://connect.linaro.org/lcu13/) which will be co-located with ARM's TechCon in Santa Clara California this fall.  [Registration for LCU13 in Santa Clara is now open.](http://linaroconnect-lcu13.eventbrite.co.uk/)  Remember to [follow the Connect site](http://connect.linaro.org/lcu13/) for more information on past as well as upcoming events.
+If you liked these keynotes, just wait til you see the line-up for [Linaro Connect US (LCU13)](http://connect.linaro.org/lcu13/) which will be co-located with Arm's TechCon in Santa Clara California this fall.  [Registration for LCU13 in Santa Clara is now open.](http://linaroconnect-lcu13.eventbrite.co.uk/)  Remember to [follow the Connect site](http://connect.linaro.org/lcu13/) for more information on past as well as upcoming events.

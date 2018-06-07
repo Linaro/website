@@ -55,7 +55,7 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 <div class="col-sm-9" markdown="1">
 ### **Eric Finco** / STMicroelectronics
 
-Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the ARM software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
+Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
 
 </div>
 <div class="col-sm-3 text-center">
@@ -70,7 +70,7 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 <div class="col-sm-9 no-padding" markdown="1">
 ### **David Rusling** / Linaro
 
-David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongARM before moving to ARM where he added tools experience. At ARM he continued to be involved in open source and as a reward for his meddling was made an ARM Fellow. He helped create Linaro, becoming its CTO in 2010.
+David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.
 
 When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
 </div>
@@ -84,7 +84,7 @@ When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking,
 <div class="col-sm-9 no-padding" markdown="1">
 ### **Elsie Wahlig** / Qualcomm (Associate Member)
 
-Elsie Wahlig is a Principal Engineer and manager in the Server SW team at Qualcomm where she is leading plans for SW Ecosystem enablement of Server SoC’s. During her 25 years in industry, she’s enjoyed a wide variety of roles in both technical and management capacity. Before joining Qualcomm, she worked at Samsung Austin Research Center where she started and led a small 5 person team working on ARM Servers, SW Architecture team and SW Ecosystem. Prior to Samsung, Ms. Wahlig was an Engineering Fellow at Advanced Micro Devices, during which she was responsible for Operating System and Virtualization software. In the earlier days at AMD, she founded and led AMD’s device driver team implementing Linux and Windows drivers for the all AMD production chipsets. One constant for the last 20 years was the importance of Open Source software.
+Elsie Wahlig is a Principal Engineer and manager in the Server SW team at Qualcomm where she is leading plans for SW Ecosystem enablement of Server SoC’s. During her 25 years in industry, she’s enjoyed a wide variety of roles in both technical and management capacity. Before joining Qualcomm, she worked at Samsung Austin Research Center where she started and led a small 5 person team working on Arm Servers, SW Architecture team and SW Ecosystem. Prior to Samsung, Ms. Wahlig was an Engineering Fellow at Advanced Micro Devices, during which she was responsible for Operating System and Virtualization software. In the earlier days at AMD, she founded and led AMD’s device driver team implementing Linux and Windows drivers for the all AMD production chipsets. One constant for the last 20 years was the importance of Open Source software.
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="Elsie-Wahlig.jpg" class="linaro-profile-image" alt="Elsie Wahlig Profile Photo"%}
@@ -106,7 +106,7 @@ Jarmo has a long international career at Nokia in various technology and archite
 <div class="col-sm-9 no-padding" markdown="1">
 ### **Jon Masters** / LEG Representative, Red Hat
 
-Jon Masters is Chief ARM Architect at Red Hat, where he works on the Fedora ARM project. Masters has been a Linux developer for more than 17 years, since beginning university at the age of 13\. He is the author of a number of books on the Linux operating system, including “Building Embedded Linux Systems,” and the upcoming “Porting Linux.” An accomplished musician and hiker, he also enjoys unicycling among his many other hobbies.
+Jon Masters is Chief Arm Architect at Red Hat, where he works on the Fedora Arm project. Masters has been a Linux developer for more than 17 years, since beginning university at the age of 13\. He is the author of a number of books on the Linux operating system, including “Building Embedded Linux Systems,” and the upcoming “Porting Linux.” An accomplished musician and hiker, he also enjoys unicycling among his many other hobbies.
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="jon-masters.png" class="linaro-profile-image" alt="Jon Masters Profile Photo"%}
@@ -127,9 +127,9 @@ Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 ye
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Mark Hambleton** / ARM
+### **Mark Hambleton** / Arm
 
-Approaching 20 years of experience in embedded systems ranging from real time control of wind tunnels in his early career to a more recently on mobile devices. Mark has been working with the Linux kernel for approaching 15 years, initially creating networking products focussing on traffic classification and shaping for core and edge routers to more recently on mobile devices. Working as a Chief Architect for at Symbian (and Nokia), Mark established himself within the ARM community, he then joined Broadcom in 2012 to refocus on Linux on ARM working on their leading edge mobile SOCs and then on to ARM in 2014.
+Approaching 20 years of experience in embedded systems ranging from real time control of wind tunnels in his early career to a more recently on mobile devices. Mark has been working with the Linux kernel for approaching 15 years, initially creating networking products focussing on traffic classification and shaping for core and edge routers to more recently on mobile devices. Working as a Chief Architect for at Symbian (and Nokia), Mark established himself within the Arm community, he then joined Broadcom in 2012 to refocus on Linux on Arm working on their leading edge mobile SOCs and then on to Arm in 2014.
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="mark-hambleton.png" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
@@ -180,7 +180,7 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 <div class="col-sm-9 no-padding" markdown="1">
 ### **Andrea Gallo** / VP of Segment Groups, Linaro
 
-Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much involved with Linaro as part of our Technical Steering Committee. He was awarded this role with Linaro due to his great work as a Fellow and Chief Architect with ST-Ericsson. Andrea joined STMicroelectronics in 1995 and covered many roles and products, including the world first dial-up 56kbps USB Pegas.usB softmodem in 1998, the world first ADSL USB/PCI controllerless modem in 2000 and many products and prototypes based on ST Nomadik Application Processor. Andrea set up and managed STM Linux Software Platform team in Bangalore, including recruitment and software engineering process, and then moved into ST-Ericsson when the JV between ST and Ericsson Mobile Platform was created. As a teenager, Andrea wrote software in Basic, Z80 and ARM assembler and C published by English and Italian magazines and Public Domain Libraries and also attended two summer time trainee programs in July 1987 and 1988 at Acorn Computers in Cambridge (UK) on the just released ARM2 processor, few years before the creation of ARM Ltd itself.
+Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much involved with Linaro as part of our Technical Steering Committee. He was awarded this role with Linaro due to his great work as a Fellow and Chief Architect with ST-Ericsson. Andrea joined STMicroelectronics in 1995 and covered many roles and products, including the world first dial-up 56kbps USB Pegas.usB softmodem in 1998, the world first ADSL USB/PCI controllerless modem in 2000 and many products and prototypes based on ST Nomadik Application Processor. Andrea set up and managed STM Linux Software Platform team in Bangalore, including recruitment and software engineering process, and then moved into ST-Ericsson when the JV between ST and Ericsson Mobile Platform was created. As a teenager, Andrea wrote software in Basic, Z80 and Arm assembler and C published by English and Italian magazines and Public Domain Libraries and also attended two summer time trainee programs in July 1987 and 1988 at Acorn Computers in Cambridge (UK) on the just released Arm2 processor, few years before the creation of Arm Ltd itself.
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html name="andrea-gallo.png" class="linaro-profile-image " alt="Andrea Gallo Profile Photo"%}

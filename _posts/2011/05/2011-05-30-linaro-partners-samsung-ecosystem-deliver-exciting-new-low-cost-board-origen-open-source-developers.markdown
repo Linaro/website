@@ -14,7 +14,7 @@ wordpress_id: 4411
 
 TAIPEI, TAIWAN - 30 MAY 2011
 
-## Linaro provides optimized base of software and tools for highest performance low cost ARM board 'Origen' using Samsung's dual-core ARM® Cortex-A9 based Exynos 4210 chipset
+## Linaro provides optimized base of software and tools for highest performance low cost Arm board 'Origen' using Samsung's dual-core Arm® Cortex-A9 based Exynos 4210 chipset
 
 Linaro welcomes the news that developers will be able to buy low cost, high performance 'Origen' development boards using Samsung's Exynos 4210 chipset, and run free open source software and tools that have been optimized by Linaro.
 
@@ -26,4 +26,4 @@ Software developers now have low cost access to the high performance Exynos mobi
 
 The 'Origen' integrates mobile platform orientated features such as interfaces for HDMI, SD card, WiFi, Bluetooth, Stereo audio, LCD, JTAG debug and Camera. To enable future upgrade options the Exynos processor is mounted on a small daughter board together with high bandwidth DDR3 memory. The 'Origen' board will be available through its manufacturer at [www.insignal.co.kr](http://www.insignal.co.kr/)
 
-Linaro exists to enable the latest open source software on advanced ARM SoCs, and to help to accelerate innovation among software developers. The current wave of "always connected, always on" devices are increasingly turning to Linux and highly integrated SoCs to achieve the performance and battery life consumers demand. For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](/)
+Linaro exists to enable the latest open source software on advanced Arm SoCs, and to help to accelerate innovation among software developers. The current wave of "always connected, always on" devices are increasingly turning to Linux and highly integrated SoCs to achieve the performance and battery life consumers demand. For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](/)

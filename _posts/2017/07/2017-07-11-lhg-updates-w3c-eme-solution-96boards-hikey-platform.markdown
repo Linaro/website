@@ -15,9 +15,9 @@ categories:
 {% include image.html name="hikey-960-hd-front.png" alt="Hikey960 Front Board Image" %}
 
 
-The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on ARM TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
+The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on Arm TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
 
-The Chromium browser-based implementation is an end-to-end solution that retrieves encrypted video from a server and locally provides secure decryption via OP-TEE [1]. 64-bit execution mode is being used for both Secure (including Trusted Applications) and Non-secure environments, and the build uses a pre-built binary (fip.bin) for the ARM Trusted Firmware and OP-TEE build. Using a Firmware Image Package (FIP) allows for packing bootloader images (and potentially other payloads) into a single archive that can be loaded by the ARM Trusted Firmware from nonvolatile platform storage.
+The Chromium browser-based implementation is an end-to-end solution that retrieves encrypted video from a server and locally provides secure decryption via OP-TEE [1]. 64-bit execution mode is being used for both Secure (including Trusted Applications) and Non-secure environments, and the build uses a pre-built binary (fip.bin) for the Arm Trusted Firmware and OP-TEE build. Using a Firmware Image Package (FIP) allows for packing bootloader images (and potentially other payloads) into a single archive that can be loaded by the Arm Trusted Firmware from nonvolatile platform storage.
 
 Support for Secure Data Path extensions (included in [OP-TEE v2.4.0](https://github.com/OP-TEE/optee_os/releases/tag/2.4.0) release, but not enabled for HiKey) has also been enabled for the HiKey platform in this release. The SDP extensions aren’t currently being leveraged by the OpenCDM and Chromium components, but can be tested using the ‘xtest --sdp-basic’ test suite, making this reference build a good starting point on which to base future SDP development.
 
@@ -61,7 +61,7 @@ sudo fastboot flash system rpb-westonchromium-image-hikey.ext4.img
 ```
 
 **Running Chromium with EME**
-Note: Due to a bug with the binary Mali driver [3], Chromium currently has to be run as root user. We are working with ARM to resolve this issue.
+Note: Due to a bug with the binary Mali driver [3], Chromium currently has to be run as root user. We are working with Arm to resolve this issue.
 
 ```
 su
@@ -104,7 +104,7 @@ The W3C EME specification [2] details the messaging flow between elements that s
 
 {% include image.html name="html5-eme-application.png" alt="HTML5 EME Application Image" %}
 
-The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in ARM TrustZone.
+The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
 
 
 {% include image.html name="linaro-clearkey-implementation.png" alt="Linaro ClearKey Implementation Image" %}

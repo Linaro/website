@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2013-02-01 13:12:29
 description: Linaro announces the release of Linaro 13.01.
-keywords: Linaro, Linux on ARM, Linux, Open Source, ARM, Android, Ubuntu, Linaro Enterprise
-  Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, ARMv8, Release, 13.01, Announcement
+keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
+  Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, Armv8, Release, 13.01, Announcement
 layout: post
 link: /blog/releases-blog/linaro-13-01-released/
 slug: linaro-13-01-released
@@ -19,17 +19,17 @@ wordpress_id: 2266
 
 We are pleased to announce the release of Linaro 13.01.
 
-With the first release of the calendar year, Linaro is happy to highlight the ingredients that make up the deliverables, again produced by Linaro Teams  Working Groups, Enterprise Group, Landing Teams and Platform Teams . Linaro anticipates another great year of Linux on ARM development celebrating new members and producing some cutting edge advances.
+With the first release of the calendar year, Linaro is happy to highlight the ingredients that make up the deliverables, again produced by Linaro Teams  Working Groups, Enterprise Group, Landing Teams and Platform Teams . Linaro anticipates another great year of Linux on Arm development celebrating new members and producing some cutting edge advances.
 
-The Developer Platform Team has enabled 64bit HipHop VM development in OpenEmbedded, continued to merge ARMv8 support into the OpenEmbedded platform and upstream, engaged initial support for the [Arndale board](http://www.arndaleboard.org/) and released Linux Linaro 3.8-rc4 2013.01.
+The Developer Platform Team has enabled 64bit HipHop VM development in OpenEmbedded, continued to merge Armv8 support into the OpenEmbedded platform and upstream, engaged initial support for the [Arndale board](http://www.arndaleboard.org/) and released Linux Linaro 3.8-rc4 2013.01.
 
 For the Android team, it was a busy cycle. The initial changes to android-build page for the new build program have been done. They are finally moving towards consolidation of manifests: Origen and Versatile Express can now be synced and built from the same manifest. The Team is happy to announce linaro-android-tools which is directed towards kernel developers. The tool can be used to update kernel and initrd in Android without having to remove the SDcard. They have also updated the third party benchmarks to use the [uiatomator testing framework](http://developer.android.com/tools/help/uiautomator/index.html) introduced in Jelly Bean. Android hardware pack support has been added.
 
-The Linaro Enterprise Group (LEG) has released Linaro UEFI 2013.01. The highlights include fixes for native building of UEFI on ARM platforms and improvements to flashing images on Arndale board and enable native building for PandaBoard.
+The Linaro Enterprise Group (LEG) has released Linaro UEFI 2013.01. The highlights include fixes for native building of UEFI on Arm platforms and improvements to flashing images on Arndale board and enable native building for PandaBoard.
 
-The Power Management Group hosted a big.LITTLE sprint in Cambridge led by Amit Kucheria. A meeting of minds between ARM, Linaro and the community succeeded in achieving enhanced focus and a more defined roadmap for the big.LITTLE story. Topics included clearly defined benchmarking to determine the effectiveness of the platform, enhanced verification to augment the traditional kernel power/performance testing, and a well defined roadmap for big.LITTLE on Android. In related big.LITTLE MP development, version 14 of the big.LITTLE MP tree has been released [http://lists.linaro.org/pipermail/linaro-dev/2013-January/015037.html].
+The Power Management Group hosted a big.LITTLE sprint in Cambridge led by Amit Kucheria. A meeting of minds between Arm, Linaro and the community succeeded in achieving enhanced focus and a more defined roadmap for the big.LITTLE story. Topics included clearly defined benchmarking to determine the effectiveness of the platform, enhanced verification to augment the traditional kernel power/performance testing, and a well defined roadmap for big.LITTLE on Android. In related big.LITTLE MP development, version 14 of the big.LITTLE MP tree has been released [http://lists.linaro.org/pipermail/linaro-dev/2013-January/015037.html].
 
-On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) will showcase the latest Linux developments on ARM. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of ARM based processor boards and Linaro builds of Android, Ubuntu and more.
+On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) will showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of Arm based processor boards and Linaro builds of Android, Ubuntu and more.
 
 We encourage everybody to use the 13.01 release. The download links for all images and components are available on our downloads page:
 [/downloads/](/downloads/)

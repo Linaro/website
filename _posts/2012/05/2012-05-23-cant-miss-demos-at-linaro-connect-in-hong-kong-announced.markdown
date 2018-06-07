@@ -5,7 +5,7 @@ categories:
 date: 2012-05-23 14:26:03
 description: The list of demos being offered at the Q2.12 Linaro Connect event in
   Hong Kong during the Demo Friday event on 1 June 2012 is now available.
-keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, Hong Kong, Gold
+keywords: Linaro, Linux on Arm, Linaro Connect, Q2.12, developers, Hong Kong, Gold
   Coast Hotel, May, June, Demo Friday, Demos
 layout: post
 link: /blog/industry-blog/cant-miss-demos-at-linaro-connect-in-hong-kong-announced/
@@ -42,7 +42,7 @@ Demos include:
   * Tizen on Snowball (Linaro)
 
 
-  * Google+ Hangouts on an ARM Board (Linaro)
+  * Google+ Hangouts on an Arm Board (Linaro)
 
 
   * Low-Cost Logic Analyzer (Linaro)
@@ -60,7 +60,7 @@ Demos include:
   * PCM (Phase Change Memory) : Linaro kernel meets with the PCM technology (Micron)
 
 
-  * ARM DS-5 & Linaro (ARM)
+  * Arm DS-5 & Linaro (Arm)
 
 
-As you can see engineers from Linaro will be giving the majority of these demos, but we will also have engineers from ARM, MICRON, SIPRop, and others who will be joining in as well. For links to the demo posters and more information about this event please see the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) page on the [Linaro Connect Website](http://connect.linaro.org/resources/).
+As you can see engineers from Linaro will be giving the majority of these demos, but we will also have engineers from Arm, MICRON, SIPRop, and others who will be joining in as well. For links to the demo posters and more information about this event please see the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) page on the [Linaro Connect Website](http://connect.linaro.org/resources/).

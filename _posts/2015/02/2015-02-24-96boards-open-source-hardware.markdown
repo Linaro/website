@@ -13,7 +13,7 @@ tags:
 - 96Boards
 - arm
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - Open Source Hardware
 title: 96Boards and Open Source Hardware
 wordpress_id: 8125
@@ -25,7 +25,7 @@ Reactions in the community have been broadly positive with questions raised abou
 
 **Open Source & Hardware**
 
-As a company that is member-funded to invest in software for the ARM ecosystem, the majority of Linaro’s efforts are focused on open source software - ranging from the Linux kernel itself, to toolchains, languages, power management, security and segment specific software for mobile, digital home, networking and server. Linaro is home to an exceptionally talented group of employee and member engineers working on open source software engineering across a range of collaborative projects, including the Linux kernel itself.
+As a company that is member-funded to invest in software for the Arm ecosystem, the majority of Linaro’s efforts are focused on open source software - ranging from the Linux kernel itself, to toolchains, languages, power management, security and segment specific software for mobile, digital home, networking and server. Linaro is home to an exceptionally talented group of employee and member engineers working on open source software engineering across a range of collaborative projects, including the Linux kernel itself.
 
 The 96Boards initiative is intended to help SoC vendors and their partners to more easily create low cost development boards for software developers and other community users. The idea is that by providing specifications that are publicly or “openly” available, anyone can design and build a board that is compatible with the 96Boards specifications without payment of license or royalty. As such we call the specification an “Open Platform specification”. The 96Boards brand is owned by Linaro and may be used on compliant boards by companies who choose to enter an agreement with Linaro. Linaro itself does not design or build any boards.
 
@@ -49,7 +49,7 @@ Therefore, the 96Boards initiative currently allows vendors to make their own de
 
 We hope that some vendors will choose the fully open path, but we also recognize that to achieve our goal of getting low cost access to new SoC devices for software and product developers we need to enable those that invest in this initiative to make a return. As a not for profit company Linaro’s goal is to enable the ecosystem, and our own efforts are funded by those companies who choose to participate in the 96Boards Community Program.
 
-At $129, the first [96Boards product](https://www.96boards.org/products/), the HiKey board using the HiSilicon octa-core ARM 64-bit Hi6220 SoC represents a price breakthrough, reducing the cost of ARM 64-bit boards available to software developers by at least an order of magnitude. As we set out on this exciting journey we look forward to seeing further 96Boards products from others in the near future, and we welcome the participation of the entire community as we move forward with this initiative.
+At $129, the first [96Boards product](https://www.96boards.org/products/), the HiKey board using the HiSilicon octa-core Arm 64-bit Hi6220 SoC represents a price breakthrough, reducing the cost of Arm 64-bit boards available to software developers by at least an order of magnitude. As we set out on this exciting journey we look forward to seeing further 96Boards products from others in the near future, and we welcome the participation of the entire community as we move forward with this initiative.
 
 George Grey
 

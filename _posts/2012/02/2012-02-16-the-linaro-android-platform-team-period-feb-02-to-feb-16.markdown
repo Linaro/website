@@ -21,12 +21,12 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 title: The Linaro Android Platform Team, Period Feb. 02 to Feb. 16
 wordpress_id: 1248
 ---
 
-Wow! Talk about having everything at the same place! Redwood City has for the past two weeks harbored a unique concentration of Linux and Android Professionals (I almost wrote "geeks" :)) At Connect we planned the next quarter of Linaro work while on the same time got a lot of work done. At Android Builders Summit we met fellow Android people, some of them as far away from as outside the ARM universe :) and got more work done. At Embedded Linux Conference we worked some more and mingled with the superstars of Linux. Intense!
+Wow! Talk about having everything at the same place! Redwood City has for the past two weeks harbored a unique concentration of Linux and Android Professionals (I almost wrote "geeks" :)) At Connect we planned the next quarter of Linaro work while on the same time got a lot of work done. At Android Builders Summit we met fellow Android people, some of them as far away from as outside the Arm universe :) and got more work done. At Embedded Linux Conference we worked some more and mingled with the superstars of Linux. Intense!
 
 Here's a list of this weeks major achievements.
 

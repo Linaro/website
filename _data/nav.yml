@@ -2,7 +2,10 @@
 search:
     enabled: true
     label: Linaro
-    
+
+# Universal Nav Bar Toggle
+universal-nav: true    
+
 # Nav Brand Config
 brand:
     text: Linaro
@@ -11,10 +14,7 @@ brand:
         name: linaro-svg.html
         svg: true
     url: /
-    
 pages:
-    - title: Home
-      url: /
     - title: About
       options:
           - text: Linaro Overview

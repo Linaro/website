@@ -20,7 +20,7 @@ Not enough?
 
 Let's add then the first Android LEB being available on Snowball, not only based on the 3.0 kernel but also built with the 4.6 GCC toolchain. A "world first" from all points of view.
 
-This is once again confirming that Linaro is delivering value to its members in line with its mission: the latest Linux kernel, the latest tools, optimized for the latest ARM cores and fully validated on the latest hardware from its members.
+This is once again confirming that Linaro is delivering value to its members in line with its mission: the latest Linux kernel, the latest tools, optimized for the latest Arm cores and fully validated on the latest hardware from its members.
 
 Simply awesome!
 

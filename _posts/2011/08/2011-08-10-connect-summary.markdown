@@ -26,7 +26,7 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
   * Android platform: integration of libjpeg-turbo, powertop and glmark, i.MX53 booting to Android, gerrit deployment.
 
 
-  * Developer platform: Revamped ARM porting jam, bootchart, smem and xrestop integration in LAVA
+  * Developer platform: Revamped Arm porting jam, bootchart, smem and xrestop integration in LAVA
 
 
   * Infrastructure: continuous testing of kernel image builds, new hardware packs
@@ -35,7 +35,7 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
   * Toolchain: moved up to gdb 7.3, binary toolchain plans fleshed out, OpenCL and LLVM exploration, a few vectorizer platches in
   *
 
-  * Kernel: Device Tree porting to TI OMAP3, Qualcomm MSM86xx, Samsung Exynos, Atmel AT91, Freescale i.MX53, ARM Versatile. Single zImage: 12 patches submitted upstream, dozen of other patches ready for upstream submission. Kernel consolidation discussions with Russell King, the ARM Linux maintainer, who participated to Connect.
+  * Kernel: Device Tree porting to TI OMAP3, Qualcomm MSM86xx, Samsung Exynos, Atmel AT91, Freescale i.MX53, Arm Versatile. Single zImage: 12 patches submitted upstream, dozen of other patches ready for upstream submission. Kernel consolidation discussions with Russell King, the Arm Linux maintainer, who participated to Connect.
 
 
   * Power management: thermal framework deployed on Samsung Exynos and ST-Ericsson Snowball in a few hours, consolidation of Idle Save/Restore code, removing a lot of code duplication across platforms.
@@ -47,7 +47,7 @@ At the end of Linaro Connect Q3.11, the various working groups share what they a
   * Multimedia: libjpeg-turbo integration in Android, NEON optimization forum
 
 
-  * Progress on the boot infrastructure requirements for Linux on ARM servers
+  * Progress on the boot infrastructure requirements for Linux on Arm servers
 
 
 See the below video for details!

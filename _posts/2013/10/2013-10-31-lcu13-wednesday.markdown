@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2013-10-31 15:19:41
 description: Review of what took place during LCU13 on Wednesday October 30, 2013
-keywords: Linaro, ARM, Linux, opensource, linaro connect, LCU13,
+keywords: Linaro, Arm, Linux, opensource, linaro connect, LCU13,
 layout: post
 link: /blog/connect-update/lcu13-wednesday/
 slug: lcu13-wednesday
@@ -12,21 +12,21 @@ tags:
 - Connect Events
 - arm
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: LCU13 - Wednesday
 wordpress_id: 3140
 ---
 
-Wednesday at Linaro Connect USA 2013 started off with the Linaro attendees going to the Simon Segars keynote for ARM TechCon where he discussed his vision for transformative technology in the Internet of Things (IoT), data center and mobile. ****
+Wednesday at Linaro Connect USA 2013 started off with the Linaro attendees going to the Simon Segars keynote for Arm TechCon where he discussed his vision for transformative technology in the Internet of Things (IoT), data center and mobile. ****
 
 Linaro Connect sessions followed the keynote in the morning of Wednesday and the afternoon was filled with engineering working sessions. The morning sessions included:
 
-  * [ARM64 kernel features enablement](http://lcu-13.zerista.com/event/member/85118) – [View Video](http://www.youtube.com/watch?v=GxU9EwOqvk0)
+  * [Arm64 kernel features enablement](http://lcu-13.zerista.com/event/member/85118) – [View Video](http://www.youtube.com/watch?v=GxU9EwOqvk0)
 
 
-  * [GPGPU on ARM Experience Report](http://lcu-13.zerista.com/event/member/85117) – [View Video](http://www.youtube.com/watch?v=57PrMlF17gQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-gpgpu-armfinalv2?qid=248ac3ce-548d-416d-a428-6ff3d6c1d97c&v=&b=&from_search=1)      
+  * [GPGPU on Arm Experience Report](http://lcu-13.zerista.com/event/member/85117) – [View Video](http://www.youtube.com/watch?v=57PrMlF17gQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-gpgpu-armfinalv2?qid=248ac3ce-548d-416d-a428-6ff3d6c1d97c&v=&b=&from_search=1)      
 
 
   * [RAS, ACPI and the secure monitor](http://lcu-13.zerista.com/event/member/85119) – [View Video](http://www.youtube.com/watch?v=mQx22SH7_wY)           
@@ -130,7 +130,7 @@ Automation and Validation
 </td>
 
 <td width="277" valign="top" markdown="1">
-BOF: ARMv8 Graphics Package Porting
+BOF: Armv8 Graphics Package Porting
 </td>
 
 <td valign="top" markdown="1">
@@ -152,7 +152,7 @@ Graphics and Multimedia
 </td>
 
 <td width="277" valign="top" markdown="1">
-The Power of Being Idle: On Tuning CPUidle tables for ARM multiprocessor systems
+The Power of Being Idle: On Tuning CPUidle tables for Arm multiprocessor systems
 </td>
 
 <td valign="top" markdown="1">
@@ -174,7 +174,7 @@ Power Managment
 </td>
 
 <td width="277" valign="top" markdown="1">
-Deep Dive into ARM Trusted Firmware
+Deep Dive into Arm Trusted Firmware
 </td>
 
 <td valign="top" markdown="1">
@@ -218,7 +218,7 @@ Automation and Validation
 </td>
 
 <td width="277" valign="top" markdown="1">
-Deep Dive into ARM Trusted Firmware
+Deep Dive into Arm Trusted Firmware
 </td>
 
 <td valign="top" markdown="1">

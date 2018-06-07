@@ -1,9 +1,9 @@
 ---
 project_id: "8"
-title: Reference Digital Media Platforms for ARM
+title: Reference Digital Media Platforms for Arm
 permalink: /projects/reference-digital-media-platforms-for-arm/
 description: |-
-    The goal of the Reference Platforms Lead Project is to create reference end to end open source software releases for ARM SoCs in applications ranging from the Embedded to Enterprise segments.
+    The goal of the Reference Platforms Lead Project is to create reference end to end open source software releases for Arm SoCs in applications ranging from the Embedded to Enterprise segments.
 keywords: reference, releases, socs, source, hardware, tested, code, other, their, details
 related_jira_projects:
  - name: LHG Overview
@@ -17,7 +17,7 @@ engineering:
   - name: Developer Resources and Documentation
     url: https://wiki.linaro.org/LHG
 ---
-# Reference Digital Media Platforms for ARM
+# Reference Digital Media Platforms for Arm
 
 This project has been defined to address the problem of defragmenting the media framework and associated security solutions that are currently found in the market.
 
@@ -26,7 +26,7 @@ The project is focused on both the RDK and Android platforms, in the following a
 - Explore commonality between media playback frameworks on both platforms.
 - Security solutions that can be implemented across both platforms
    - Common security solution components for RDK and Android
-      - OP-TEE running on ARM TrustZone
+      - OP-TEE running on Arm TrustZone
       - Support standardized interface to the TEE via GlobalPlatform
       - Secure video path implemented in OP-TEE
    - W3C Encrypted Media Extensions and OpenCDM
@@ -50,4 +50,4 @@ The Goal is to provide Reference implementations for both RDK and Android, conta
 - Migration to LSK 4.1 and latest Yocto version for RDK
 - Boot Architecture
    - Standardization of secondary bootloader build for Linux/RDK
-- Key Ladder Standardized implementation on ARM TrustZone
+- Key Ladder Standardized implementation on Arm TrustZone

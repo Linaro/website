@@ -41,7 +41,7 @@ During Linaro Connect USA the LAVA team held many hacking sessions throughout 
   * **LCU14-203: LAVA Use Cases: Upstream Kernel CI**
 
     * Session Summary
-This session provided a short summary on how Linaro teams are automating upstream Kernel CI with a goal to improve the overall Linux on ARM ecosystem.   The second half of the session was general Q&A
+This session provided a short summary on how Linaro teams are automating upstream Kernel CI with a goal to improve the overall Linux on Arm ecosystem.   The second half of the session was general Q&A
 ---------------------------------------------------
 Resources:
 Presentation:   [http://www.slideshare.net/linaroorg/lcu14-203-lava-use-cases-upstream-kernel-ci

@@ -5,8 +5,8 @@ categories:
 date: 2013-02-22 20:40:01
 description: Today we are highlighting career opportunities at Linaro for a LAVA Lab
   Technician (Validation). Are you located in or near Cambridge, UK and want to be
-  part of the future of Linux on ARM?
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Careers, LAVA, Cambridge,
+  part of the future of Linux on Arm?
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Careers, LAVA, Cambridge,
   UK, Jobs, Lab Technician, Validation.
 layout: post
 link: /blog/community-blog/linaro-is-seeking-a-lava-lab-technician-validation/
@@ -17,7 +17,7 @@ title: Linaro is Seeking a LAVA Lab Technician - Validation
 wordpress_id: 2450
 ---
 
-Today we are highlighting career opportunities at Linaro for a LAVA Lab Technician (Validation). Are you located in or near Cambridge, UK and want to be part of the[ future of Linux on ARM](/)?
+Today we are highlighting career opportunities at Linaro for a LAVA Lab Technician (Validation). Are you located in or near Cambridge, UK and want to be part of the[ future of Linux on Arm](/)?
 
 
 **Yes, then keep reading!**
@@ -50,6 +50,6 @@ All available career opportunities can be found at:[ /careers/](/careers/)
 To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
 **About Linaro**
-Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure.
+Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure.
 
 To find out more, please visit[ ](/).

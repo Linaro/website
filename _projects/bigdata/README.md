@@ -11,7 +11,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNS43x2SWtSDs
 ---
 # Big Data
 
-Big Data Analytics is a pretty wide area that is experiencing a 100% growth rate every year, according to the keynotes from the last Hadoop Summit event. Big Data will continue growing as IoT gets closer to production deployment. The two main components are Hadoop and Spark. They fit the vision of scaling out the processing on as many compute nodes as available nicely, and are a perfect match to explore with ARM servers and a potential killer app. LEG Members have agreed to put together resources and focus on making AArch64 a first class citizen in the Hadoop / Spark community, and a well supported architecture for scale-out analytics.
+Big Data Analytics is a pretty wide area that is experiencing a 100% growth rate every year, according to the keynotes from the last Hadoop Summit event. Big Data will continue growing as IoT gets closer to production deployment. The two main components are Hadoop and Spark. They fit the vision of scaling out the processing on as many compute nodes as available nicely, and are a perfect match to explore with Arm servers and a potential killer app. LEG Members have agreed to put together resources and focus on making AArch64 a first class citizen in the Hadoop / Spark community, and a well supported architecture for scale-out analytics.
 
 #### About OpenJDK:
 
@@ -21,11 +21,11 @@ The OpenJDK project consists of a number of components. Principally, these are t
 
 #### Key Deliverables:
 
-- Enable and maintain 64-bit ARM as first class architecture for Hadoop and Spark:
-   - Collaborate with Open Data Platform to represent the 64-bit ARM architecture for Hadoop distributions.
+- Enable and maintain 64-bit Arm as first class architecture for Hadoop and Spark:
+   - Collaborate with Open Data Platform to represent the 64-bit Arm architecture for Hadoop distributions.
    - Establish CI loops for both upstream Hadoop and Spark to catch any major regressions.
 - Profile and Optimise Hadoop and Spark
-   - Get a Hadoop distribution up and running for 64-bit ARM.
+   - Get a Hadoop distribution up and running for 64-bit Arm.
    - Establish representative workloads for Hadoop.
    - Establish representative workloads for Spark.
    - Profile and optimise Hadoop against representative workloads for Hadoop.

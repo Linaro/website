@@ -25,7 +25,7 @@ Interesting changes include:
 * Improves size and speed by improving constant generation in Thumb-2
 * Implements support for widening multiples in toe core
 * Improves vectorised code by reducing the over-promotion of intermediates
-* Improves performance by reducing redundant moves between VFP and ARM
+* Improves performance by reducing redundant moves between VFP and Arm
 * Finishes off supporting the Android team in integrating Linaro GCC
 
 Fixes:

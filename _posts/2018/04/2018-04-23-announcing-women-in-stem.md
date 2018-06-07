@@ -9,7 +9,7 @@ image:
    name: OpenHours.png
    thumb: OpenHours.png
 categories: blog
-tags: 64-bit, 96Boards, aarch64, ARM, ARMv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, women in stem, stem, 
+tags: 64-bit, 96Boards, aarch64, Arm, Armv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, women in stem, stem, 
 ---
 # Sole focus on Women in STEM at 96Boards OpenHours in May
 

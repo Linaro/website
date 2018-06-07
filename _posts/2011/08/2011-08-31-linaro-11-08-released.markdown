@@ -22,7 +22,7 @@ The Linaro Team is pleased to announce the release of Linaro 11.08.
 
 In total this makes an impressive thirty components and two platform builds from all Linaro engineering teams in one shot. And again, most of this comes nicely integrated into Android and Ubuntu platform builds. This release made it again hard to select a handful of highlights from a list of roughly 80 deliverables that went into this release.
 
-However, if we had to choose we would like to emphasize the update of linux-linaro to the 3.0.3 stable kernel including the merge of 3.1-rc1 core ARM updates, Linaro GCC 4.6 2011.08 release based on latest upstream version, and Linaro Cross Toolchain 2011.07 builds. In addition, the Android Team delivers the enablement of all of our primary boards, compiled with the Linaro 11.08 toolchain release based on GCC 4.6 and running Android 2.3.5.
+However, if we had to choose we would like to emphasize the update of linux-linaro to the 3.0.3 stable kernel including the merge of 3.1-rc1 core Arm updates, Linaro GCC 4.6 2011.08 release based on latest upstream version, and Linaro Cross Toolchain 2011.07 builds. In addition, the Android Team delivers the enablement of all of our primary boards, compiled with the Linaro 11.08 toolchain release based on GCC 4.6 and running Android 2.3.5.
 
 We encourage everybody to use the 11.08 release. The download links for all images and components are available on our release page:
 [http://wiki.linaro.org/Cycles/1108/Release](http://wiki.linaro.org/Cycles/1108/Release)

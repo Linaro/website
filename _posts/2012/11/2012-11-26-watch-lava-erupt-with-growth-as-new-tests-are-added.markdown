@@ -6,7 +6,7 @@ date: 2012-11-26 21:05:13
 description: Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how he
   created an animated version of LAVA from its go live date of 27 July 2011 to 6 Nov
   2012.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LAVA, Dave
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LAVA, Dave
   Pigott, Testing, Gource, FFmpeg, Python
 layout: post
 link: /blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/
@@ -70,7 +70,7 @@ _More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, 
 ### About Linaro
 
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation._
 
 _To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](/)._
 
@@ -78,6 +78,6 @@ _To ensure commercial quality software, Linaro’s work includes comprehensive t
 ### About Linaro Connect
 
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 _More information on upcoming Linaro Connect events can be found on the the[ Linaro Connect Website](http://connect.linaro.org/).  You can also stay in touch with what is happening in and around Linaro by following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

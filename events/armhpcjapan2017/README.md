@@ -44,7 +44,7 @@ css-package: arm-hpc
 
 <div class="col-sm-6" markdown="1">
 
-**ARM HPC Workshop** _by RIKEN AICS and Linaro on 12-13th Dec 2017 – [Room 5A on 5F, Akihabara Hall, Tokyo](http://www.akibahall.jp/data/access_eng.html)._
+**Arm HPC Workshop** _by RIKEN AICS and Linaro on 12-13th Dec 2017 – [Room 5A on 5F, Akihabara Hall, Tokyo](http://www.akibahall.jp/data/access_eng.html)._
 How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in Tokyo, to discuss the latest products, developments and open source software support. <span id="SPAN_7">Topics of focus are, but not limited to:</span>
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
@@ -82,7 +82,7 @@ How does the Arm-Powered supercomputing future look and how can you prepare for 
 
 <div class="alert alert-arm-hpc" role="alert" markdown="1">
 
-**Tickets are sold out for 2017 ARM HPC Workshop in Japan.**
+**Tickets are sold out for 2017 Arm HPC Workshop in Japan.**
 
 For more info contact marketing@linaro.org
 
@@ -134,9 +134,9 @@ For more info contact marketing@linaro.org
 |13:30||[Programming Languages & Tools for Higher Performance & Productivity](/blog/arm-hpc-workshop-sessions-and-speakers/#15)|Hitoshi Murai (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/programming-languages-tools-for-higher-performance-productivity)|
 |||[Advantages of the Compiler for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#16)|Shun Kamatsuka (Fujitsu)|
 ||14:25|[Overview of Programming Assistance Tools for Post-K computer](/blog/arm-hpc-workshop-sessions-and-speakers/#17)|Tomotake Nakamura (Fujitsu)|[Slides](https://www.slideshare.net/linaroorg/postk-building-the-arm-hpc-ecosystem-84548777)|
-|14:30|14:55|[The perfect mix: SUSE’s HPC, ARM and Containers](/blog/arm-hpc-workshop-sessions-and-speakers/#18)|Vojtech Pavlik (Suse)||
+|14:30|14:55|[The perfect mix: SUSE’s HPC, Arm and Containers](/blog/arm-hpc-workshop-sessions-and-speakers/#18)|Vojtech Pavlik (Suse)||
 |15:00|15:20|PM Coffee Break|||
-|15:30|15:55|[OpenMP Extension for Explicit SIMD Programming using ARM SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#19)|Jinpil Lee (RIKEN)||
+|15:30|15:55|[OpenMP Extension for Explicit SIMD Programming using Arm SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#19)|Jinpil Lee (RIKEN)||
 |16:00|16:25|[Performance evaluation with Arm HPC tools for SVE](/blog/arm-hpc-workshop-sessions-and-speakers/#20)|Miwako Tsuji (RIKEN), Yuetsu Kodama (RIKEN)|[Slides](https://www.slideshare.net/linaroorg/performance-evaluation-with-arm-hpc-tools-for-sve)|
 |16:30|16:40|Closing Note|David Rusling CTO, Linaro||
 |16:40|17:00|Breakdown/clean up|||

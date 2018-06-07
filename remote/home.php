@@ -5,7 +5,7 @@
 		<base href="http://www.linaro.org/" />
 		<title>Linaro - Software foundations for an open digital world</title>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Linaro, Linux, tools, kernel, open source, software, distribution, philosophy, ARM" />
+		<meta name="keywords" content="Linaro, Linux, tools, kernel, open source, software, distribution, philosophy, Arm" />
 		<meta name="description" content="A not for profit organization delivering free and validated Linux kernel and tools that focuses on providing a common software foundation to the embedded industry" />
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
@@ -150,10 +150,10 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 	<div class="hero">
 	<a href="getting-started" class="heroimage"><img src="http://www.linaro.org/remote/images/hp-montage.png" /></a>
 	<div class="herotext">
-		<h1>Open source software for ARM SoCs</h1>
+		<h1>Open source software for Arm SoCs</h1>
 		<div>
-		<p>Linaro is a not-for-profit software engineering company investing in core Linux software and tools for ARM SoCs.</p>
-<p>We deliver software consolidation and optimization to our members, and provide ARM tools, Linux kernels and builds of key Linux distributions  including Android and Ubuntu on member SoCs.</p>
+		<p>Linaro is a not-for-profit software engineering company investing in core Linux software and tools for Arm SoCs.</p>
+<p>We deliver software consolidation and optimization to our members, and provide Arm tools, Linux kernels and builds of key Linux distributions  including Android and Ubuntu on member SoCs.</p>
 </div>
 <h2>Download tools and software for</h2>
 <a href="" class="podstyle armlink"><img  src="http://www.linaro.org/remote/images/sw-arm.png"></a> <a href="" class="podstyle ubulink"><img src="http://www.linaro.org/remote/images/sw-ubuntu.png"></a> <a href="" class="podstyle andlink"><img src="http://www.linaro.org/remote/images/sw-android.png"></a> <a href="" class="podstyle ubolink"><img src="http://www.linaro.org/remote/images/sw-uboot.png"></a>
