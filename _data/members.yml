@@ -28,9 +28,6 @@ club_members:
         image: ti.jpg
         url: /company/texas-instruments/
 group_members:
-      - name: Acer
-        image: acer.png
-        url: /company/acer/
       - name: Arm
         image: arm.jpg
         url: /company/arm/
@@ -213,9 +210,6 @@ lmg_members:
          image: ti.jpg
          url: /company/texas-instruments/
 lite_members:
-       - name: Acer
-         image: acer.png
-         url: /company/acer/
        - name: Arm
          image: arm.jpg
          url: /company/arm/
