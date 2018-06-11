@@ -408,9 +408,7 @@ span.main-title {
 .col-xs-3.group_icon.center-block > picture > img {
     height: 55px;
     margin-top: -5px;
-
 }
-
 
 .col-xs-12.group_content > p{
     font-size: 12px;
@@ -425,6 +423,9 @@ div#groups_home_block {
     padding-bottom: 50px;
     padding-top: 50px;
     background-color: #d4d4d4;
+    box-shadow: 
+            inset 0px 11px 8px -10px #aaaaaa,
+            inset 0px -11px 8px -10px #aaaaaa; 
 }
 div#featured-slider-row {
     padding-bottom: 70px;
@@ -440,6 +441,9 @@ div#latest-news-row {
 
 .row.group_header {
     background-color: #424242;
+    box-shadow: 
+        inset 0px 11px 8px -10px #1e1e1e,
+        inset 0px -11px 8px -10px #1e1e1e; 
     padding: 0;
     padding-top: 15px;
     height: 80px;

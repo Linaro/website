@@ -229,6 +229,75 @@ class="img-responsive members-img lazyload center-block"/>
 </div>
 </div>
 
+<div class="panel panel-default">
+<div class="panel-heading text-center" role="tab" id="headingThirteen">
+<h4 class="panel-title">
+Community Members
+</h4>
+</div>
+<div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
+<div class="panel-body" markdown="1">
+Community membership is a special level of membership granted to organizations that have contributed significantly to Linaro’s development and is by invitation of the Linaro board.
+
+{% assign core_members = site.data.members["community_members"] | sort: 'name' %}
+{% for member in core_members %}
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+<a href="{{member.url}}">
+<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+class="img-responsive members-img lazyload center-block"/>
+</a>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading text-center" role="tab" id="headingFourteen">
+<h4 class="panel-title">
+Community Initiatives
+</h4>
+</div>
+<div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
+<div class="panel-body" markdown="1">
+{% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
+{% for member in core_members %}
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+<a href="{{member.url}}">
+<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+class="img-responsive members-img lazyload center-block"/>
+</a>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading text-center" role="tab" id="headingFourteen">
+<h4 class="panel-title">
+DeviceTree Members
+</h4>
+</div>
+<div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
+<div class="panel-body" markdown="1">
+{% assign core_members = site.data.members["devicetree_members"] | sort: 'name' %}
+{% for member in core_members %}
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+<a href="{{member.url}}">
+<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
+src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+class="img-responsive members-img lazyload center-block"/>
+</a>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+
 <div markdown="1">
 
 # 96boards
@@ -298,74 +367,6 @@ Mezzanine Partners
 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
 <a href="{{member.url}}">
 <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-class="img-responsive members-img lazyload center-block"/>
-</a>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
-
-<div class="panel panel-default">
-<div class="panel-heading text-center" role="tab" id="headingThirteen">
-<h4 class="panel-title">
-Community Members
-</h4>
-</div>
-<div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
-<div class="panel-body" markdown="1">
-Community membership is a special level of membership granted to organizations that have contributed significantly to Linaro’s development and is by invitation of the Linaro board.
-
-{% assign core_members = site.data.members["community_members"] | sort: 'name' %}
-{% for member in core_members %}
-<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-<a href="{{member.url}}">
-<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-class="img-responsive members-img lazyload center-block"/>
-</a>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
-
-<div class="panel panel-default">
-<div class="panel-heading text-center" role="tab" id="headingFourteen">
-<h4 class="panel-title">
-Community Initiatives
-</h4>
-</div>
-<div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
-<div class="panel-body" markdown="1">
-{% assign core_members = site.data.members["community_initiatives"] | sort: 'name' %}
-{% for member in core_members %}
-<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-<a href="{{member.url}}">
-<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-class="img-responsive members-img lazyload center-block"/>
-</a>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
-
-<div class="panel panel-default">
-<div class="panel-heading text-center" role="tab" id="headingFourteen">
-<h4 class="panel-title">
-DeviceTree Members
-</h4>
-</div>
-<div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
-<div class="panel-body" markdown="1">
-{% assign core_members = site.data.members["devicetree_members"] | sort: 'name' %}
-{% for member in core_members %}
-<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-<a href="{{member.url}}">
-<img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}"
 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
 class="img-responsive members-img lazyload center-block"/>
 </a>
