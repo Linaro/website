@@ -44,6 +44,8 @@ pages:
             options:
                 - text: Overview
                   url: /core/
+                - text: Kernel Validation
+                  url: /core/kernel-validation/
                 - text: Core Technologies & Tools
                   url: /core/ctt/
                 - text: Toolchain
