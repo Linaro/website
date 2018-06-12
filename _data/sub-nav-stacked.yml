@@ -9,6 +9,9 @@ pages:
         title: Core Technologies & Tools
         url: /core/ctt/
       -
+        title: Kernel Validation
+        url: /core/kernel-validation/
+      -
         title: Toolchain
         url: /core/toolchain/
       -
@@ -26,7 +29,7 @@ pages:
       -
         title: Virtualization
         url: /core/virtualization/
-    urls: [/core/,/core/ctt/,/core/kernel/,/core/arm-power/,/core/security/, /core/virtualization/, /core/toolchain/]
+    urls: [/core/,/core/kernel-validation/,/core/ctt/,/core/kernel/,/core/arm-power/,/core/security/, /core/virtualization/, /core/toolchain/]
     sub-pages-enabled: true
   -
     list:
