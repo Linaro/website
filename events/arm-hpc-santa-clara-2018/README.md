@@ -10,7 +10,7 @@ image:
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url({% asset_path 'hpc.png' %});background-position: center center;">
-        <h1>Arm Architecture HPC Workshop <span>by Linaro and Huawei</span></h1>
+        <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
 </div>
@@ -34,7 +34,7 @@ image:
 
 <div class="col-sm-6" markdown="1">
 
-**Arm Architecture HPC Workshop** __by Linaro and Huawei  on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
+**Arm Architecture HPC Workshop** __by Linaro and HiSilicon  on 26th July 2018__ – Huawei in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
 *   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
 *   OS and Runtime
@@ -57,15 +57,6 @@ image:
 
 *   Cost (Free)
 *   Sponsorship options available
-
-**Thanks to our sponsors**
-
-<div class="col-xs-6 col-sm-4" markdown="1">
-{% include image.html name="huawei.jpg" %}
-</div>
-<div class="col-xs-6 col-sm-4" markdown="1">
-{% include image.html name="linaro.jpg" %}
-</div>
 
 </div>
 
@@ -118,7 +109,7 @@ image:
 
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url({% asset_path 'hpc.png' %});background-position: center center;">
-        <h1>Arm Architecture HPC Workshop <span>by Linaro and Huawei</span></h1>
+        <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
 </div>
