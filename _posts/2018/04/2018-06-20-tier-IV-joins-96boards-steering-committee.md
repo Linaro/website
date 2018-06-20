@@ -3,6 +3,10 @@ title: Tier IV joins Linaro 96Boards Steering Committee
 author: linaro
 layout: post
 date: 2018-06-20 08:00:00+00:00
+description: >-
+    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem,
+    announced today that Japan-based intelligent vehicle technology company Tier IV, Inc. has joined the 96Boards 
+    initiative as a Steering Committee member.
 image:
    featured: true
    path: /assets/images/content/96boards-home-page-latest.png
