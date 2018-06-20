@@ -12,14 +12,3 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZ
 ---
 {% remote_page  https://wiki.linaro.org/WorkingGroups/PowerManagement/ %}
 
-###### RESOURCES
-
-- [Energy Aware Scheduler (EAS)](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/EAS)
-- [Tools](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools)
-- [Test Suites](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/TestSuite)
-- [Benchmarking](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Benchmarking)
-- [Good Practices and Recommendations](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/DesignRecommendations)
-- [Hardware](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Hardware)
-- [Articles](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Articles): Articles and posts related to our work
-
-[Community](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Community): Information for community members looking to get involved in power management
