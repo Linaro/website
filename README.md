@@ -8,7 +8,7 @@ PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro
 
 ## Adding a blog post
 
-In order to add a blog post to Linaro.org copy and existing post from the [_posts folder](https://github.com/Linaro/website/tree/master/_posts). Posts are organised into by year/month so add to the correct folder based on the month you are posting it in and if the folder doesn't exist create one.
+In order to add a blog post to Linaro.org copy an existing post from the [_posts folder](https://github.com/Linaro/website/tree/master/_posts). Posts are organised into by year/month so add to the correct folder based on the month you are posting it in and if the folder doesn't exist create one.
 
 ### Step 1 - Modify the post file name
 The url for your title is based on the title provided in the filename e.g 2018-06-07-announcing-women-in-stem.md will have a url of /blog/announcing-women-in-stem/. Separate the words in your title by dashes and modify the date at the start of the filename as neccessary. 
@@ -28,7 +28,7 @@ Modify the post front matter based on your post. Values to modify are:
 Change the author to a unique author username (e.g firstname.surname). If this is your first time posting then add your author information to the [_authors](https://github.com/Linaro/website/blob/master/_authors) collection by duplicating an existing author's .md file and modifying the values appropiately. Make sure to add your profile image to the [/assets/images/authors folder](https://github.com/Linaro/website/tree/master/assets/images/authors). Verify that the author "username:" in the _authors/ collection file for your author is an exact match to that provided as the author: in your post. Doing the above will ensure your author image and pages are rendered correctly on the Linaro.org website.
 
 #### Date
-Modify the date to somewhen before your post the blog otherwise Jekyll will see it as a __future__ post and not render it until the time on the server exceeds/equals that provided as the date in the post front matter.
+Modify the date to sometime before you post the blog otherwise Jekyll will see it as a __future__ post and not render it until the time on the server exceeds/equals that provided as the date in the post front matter.
 
 #### Image
 
@@ -47,7 +47,7 @@ image:
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/linaro/website/tree/master/assets/images/blog).
 
 #### Tags
-These should be modified based on the content of your post as they are used as Meta keywords and so people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
+These should be modified based on the content of your post as they are used for Meta keywords so that people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
 
 #### Description
 Change this value to a short description of your blog post. This is used for the meta description of your blog post.
