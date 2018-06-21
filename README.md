@@ -50,7 +50,7 @@ Make sure that the image you add in this section of front matter is placed in th
 These should be modified based on the content of your post as they are used for Meta keywords so that people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
 
 #### Description
-Change this value to a short description of your blog post. This is used for the meta description of your blog post.
+Change this value to a short description of your blog post as this is used as the meta description of your blog post.
 
 #### Categories
 There are two categories to choose from:
