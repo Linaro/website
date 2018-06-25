@@ -19,17 +19,17 @@ pages:
         url: /engineering/core/kernel/
       -
         title: Power Management
-        url: /engineering/core/arm-power/
+        url: /engineering/core/arm-power-management/
         sub-tabs:
             - title: EAS
-              url: /engineering/core/arm-power/eas/
+              url: /engineering/core/arm-power-management/eas/
       -
         title: Security
         url: /engineering/core/security/
       -
         title: Virtualization
         url: /engineering/core/virtualization/
-    urls: [/engineering/core/engineering/,/engineering/core/kernel-validation/engineering/,/engineering/core/ctt/engineering/,/engineering/core/kernel/engineering/,/engineering/core/arm-power/engineering/,/engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/]
+    urls: [/engineering/core/engineering/,/engineering/core/kernel-validation/engineering/,/engineering/core/ctt/engineering/,/engineering/core/kernel/engineering/,/engineering/core/arm-power-management/engineering/,/engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/]
     sub-pages-enabled: true
   -
     list:
