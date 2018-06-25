@@ -40,7 +40,7 @@ We will continually be expanding our online content to bring you updated and rel
 
   * [Discover career opportunities](/careers/) - within Linaro.  We are an organization with employees working in cities all over the world.
 
-  * [Downloads a click away](/downloads/) - the newly organized downloads page makes it easy to access what you need.
+  * [Downloads a click away](/latest/downloads/) - the newly organized downloads page makes it easy to access what you need.
 
   * And finally, you can always [contact us](/contact/) about various topics or questions.
 

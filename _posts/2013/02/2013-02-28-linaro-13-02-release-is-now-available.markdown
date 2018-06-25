@@ -15,7 +15,7 @@ wordpress_id: 2480
 
 > If you can dream it, you can do it. ~ Walt Disney
 
-## The Linaro 13.02 release is now available for [download](/downloads/)!
+## The Linaro 13.02 release is now available for [download](/latest/downloads/)!
 
 
 The Linaro 13.02 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this release cycle. The 13.02 cycle shows the reality of a dream and desire to unify, improve and build a better more effective future for Linux on Arm. Linux on Arm is not a dream, but together--Linaro, its Members, Groups, and community--continue to make the visions of Linux on Arm a reality.
@@ -52,7 +52,7 @@ Registration for [LCA-13 in Hong Kong](http://connect.linaro.org) is now closed,
 
 We encourage everybody to use the 13.02 release. The download links for all images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 

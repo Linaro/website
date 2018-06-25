@@ -15,7 +15,7 @@ CAMBRIDGE, UK - 10 JUL 2013
 
 Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, today announced that Fujitsu Semiconductor Limited has joined Linaro to cooperate on new Arm technologies.
 
-Fujitsu Semiconductor will contribute resources to work together with the resources from existing Linaro members. This shared team of over 100 engineers is directed by a [Technical Steering Committee (TSC)](/about/tsc/), which now includes Fujitsu Semiconductor.
+Fujitsu Semiconductor will contribute resources to work together with the resources from existing Linaro members. This shared team of over 100 engineers is directed by a [Technical Steering Committee (TSC)](/about/team/technical-steering-committee/), which now includes Fujitsu Semiconductor.
 
 Through the TSC, Linaro members are defining the future of Linux on Arm. Accelerated time to market for new Arm technologies is achieved by working together within Linaro on shared solutions, while focusing members' in-house engineering resources on differentiation.
 

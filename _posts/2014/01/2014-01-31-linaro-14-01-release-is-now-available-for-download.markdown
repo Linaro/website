@@ -51,7 +51,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 

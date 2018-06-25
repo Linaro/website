@@ -137,6 +137,6 @@ It’s hard to believe the first year has gone by so quickly. Thank you to all t
 
 We look forward to an exciting second year in LHG as we continue our major work in RDK and AndroidTV, and also look to branch out with more involvement in community boards (96Boards) and supplying LHG reference solutions.
 
-**[Current LHG Members](/members/)**
+**[Current LHG Members](/membership/)**
 
 {% include image.html name="LHG-members-5.jpg" alt="LHG Members Image"%}

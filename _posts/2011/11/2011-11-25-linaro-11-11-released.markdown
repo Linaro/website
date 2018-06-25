@@ -49,7 +49,7 @@ Full details of this release, including detailed release highlights and known is
 
 We encourage everybody to use the 11.11 release. The download links  for all images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of  what has been accomplished by the Working Groups, Landing Teams and  Platform Teams.
 
