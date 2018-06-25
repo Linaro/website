@@ -5,6 +5,7 @@ description: |-
 keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hardware platforms, upstreaming, Linux kernel, Toolchain, Mobile Middleware
 permalink: /engineering/core/
 director: Mike Holmes
+redirect_from: /core/
 ---
 # Core Engineering
 
