@@ -4,7 +4,7 @@ title: Kernel
 description: |-
     The Kernel Working Group’s primary focus is to be an active contributor to the upstream community and facilitate acceptance of Arm code into the Linux mainline kernel.
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree
-permalink: /core/kernel/
+permalink: /engineering/core/kernel/
 tech-lead: Mark Brown
 related_projects:
   - "2"

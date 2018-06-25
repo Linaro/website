@@ -4,7 +4,7 @@ title: Power Management
 description: |-
     The Power Management Working Group is tasked with creating infrastructure, guidelines and tools to enable superior power management on multiple Arm SoCs.
 keywords: EAS, DynamIQ, Arm, tools, power, energy, thermal, scheduler, big.LITTLE
-permalink: /core/arm-power/
+permalink: /engineering/core/arm-power-management/
 tech-lead: Vincent Guittot
 related_projects:
   - "4"

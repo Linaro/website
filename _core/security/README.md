@@ -4,13 +4,17 @@ title: Security work at Linaro
 description: |-
     The Linaro Security Working Group (SWG) mission is to support Arm Open Source Linux distributions on security related topics.
 keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform
-permalink: /core/security/
+permalink: /engineering/core/security/
 principal-engineer: Joakim Bech
 related_projects:
   - "5"
 related_initiatives:
   - "9"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOuFyjUlWFWUulxXOhhtsEf&playnext=1
+image:
+  featured: true
+  path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
+  name: meltdown-spectre-download-linaro.jpg  
 ---
 # Security
 The Linaro Security Working Group (SWG) was created to help ensure an optimised
@@ -61,3 +65,26 @@ The Security Working Group does all planning and tracking in
 - [JIRA Security roadmap] (password required): https://cards.linaro.org/secure/StructureBoard.jspa?s=138
 - [Kernel Self Protection Project](https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project): https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
 - [Travis](https://travis-ci.org/OP-TEE): https://travis-ci.org/OP-TEE
+
+
+*****
+
+# Downloads and help for Meltdown and Spectre
+## Open Source Projects
+#### Arm
+* General Spectre & Meltdown information from Arm, please see: https://developer.arm.com/support/security-update
+* Trusted Firmware has a separate security advisories page, please see here: https://github.com/Arm-software/arm-trusted-firmware/wiki/Arm-Trusted-Firmware-Security-Advisory-TFV-6
+
+#### Kernel
+The current status for LTS otherwise is that aarch64 backport exists and have
+been accepted for kernel v4.9 and v4.14. For arm32 we are waiting for the
+changes to be developed and then we will do the backporting.
+
+* Kernel Page Table Isolation: https://en.wikipedia.org/wiki/Kernel_page-table_isolation
+* Linaro tree with work in progress: https://git.linaro.org/kernel/speculation-fixes-staging.git
+* For more information about the upstream status, please follow the link above in the "Arm" section that takes you to their security-update page.
+
+#### OP-TEE
+* OP-TEE has a separate security advisories page, please see here: https://www.op-tee.org/security-advisories/
+
+Page updated: 2018-04-25
