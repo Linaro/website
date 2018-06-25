@@ -106,7 +106,7 @@
     "^/communityprojects/antitrust-policy(/?|/index.html)$ /engineering/projects/antitrust-policy/ [R,L,NC]",
     
     "^/core(/?|/index.html)$ /engineering/core/ [R,L,NC]",
-    "^/core/arm-power(/?|/index.html)$ /engineering/core/arm-power/ [R,L,NC]",
+    "^/core/arm-power(/?|/index.html)$ /engineering/core/arm-power-management/ [R,L,NC]",
     "^/core/ctt(/?|/index.html)$ /engineering/core/ctt/ [R,L,NC]",
     "^/core/kernel(/?|/index.html)$ /engineering/core/kernel/ [R,L,NC]",
     "^/core/kernel(/?|/index.html)$ /engineering/core/kernel-validation-and-testing/ [R,L,NC]",
