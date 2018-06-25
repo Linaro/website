@@ -51,8 +51,8 @@ pages:
                   url: /engineering/core/toolchain/
                 - text: Kernel
                   url: /engineering/core/kernel/
-                - text: Power Management
-                  url: /engineering/core/arm-power/
+                - text: Arm Power Management
+                  url: /engineering/core/arm-power-management/
                 - text: Security
                   url: /engineering/core/security/
           - text: Segment Groups
