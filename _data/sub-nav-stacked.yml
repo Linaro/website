@@ -29,7 +29,7 @@ pages:
       -
         title: Virtualization
         url: /engineering/core/virtualization/
-    urls: /engineering[/core/engineering/,/core/kernel-validation/engineering/,/core/ctt/engineering/,/core/kernel/engineering/,/core/arm-power/engineering/,/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/]
+    urls: [/engineering/core/engineering/,/core/kernel-validation/engineering/,/core/ctt/engineering/,/core/kernel/engineering/,/core/arm-power/engineering/,/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/]
     sub-pages-enabled: true
   -
     list:
