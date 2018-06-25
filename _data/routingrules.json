@@ -181,7 +181,7 @@
     "^/gdpr(/?|/index.html)$ /legal/gdpr/ [R,L,NC]",
     "^/HPC(/?|/index.html)$ /sig/hpc/ [R,L,NC]",
     "^/hub(/?|/index.html)$ /latest/hub/ [R,L,NC]",
-    "^/hub/event-calendar(/?|/index.html)$ /latest/hub/event-calendar/ [R,L,NC]",
+    "^/hub/event-calendar(/?|/index.html)$ /latest/events/ [R,L,NC]",
     "^/initiatives/96boards(/?|/index.html)$ https://www.96boards.org [R,L,NC]",
     "^/initiatives/armv8(/?|/index.html)$ /engineering/ [R,L,NC]",
     "^/initiatives/cloud(/?|/index.html)$ https://www.linaro.cloud [R,L,NC]",
