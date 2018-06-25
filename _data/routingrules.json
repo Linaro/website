@@ -262,6 +262,7 @@
     "^/services/servers-gateways-development-boards(/?|/index.html)$ /services/ [R,L,NC]",
     "^/services/training(/?|/index.html)$ /services/ [R,L,NC]",
     "^/services/verification-testing-ci(/?|/index.html)$ /services/ [R,L,NC]",
+    "^/social(/?|/index.html)$ /latest/hub/ [R,L,NC]",
     "^/terms(/?|/index.html)$ /legal/ [R,L,NC]",
     "^/toolchain(/?|/index.html)$ https://launchpad.net/gcc-linaro/4.8/?utm_source=linaro&utm_medium=slider&utm_content=button&utm_campaign=toolchain_slider_link [R,L,NC]",
     "^/training(/?|/index.html)$ /services/training/ [R,L,NC]",
