@@ -10,7 +10,7 @@ pages:
         url: /engineering/core/ctt/
       -
         title: Kernel Validation
-        url: /engineering/core/kernel-validation/
+        url: /engineering/core/kernel-validation-and-testing/
       -
         title: Toolchain
         url: /engineering/core/toolchain/
@@ -29,7 +29,7 @@ pages:
       -
         title: Virtualization
         url: /engineering/core/virtualization/
-    urls: [/engineering/core/engineering/,/engineering/core/kernel-validation/engineering/,/engineering/core/ctt/engineering/,/engineering/core/kernel/engineering/,/engineering/core/arm-power-management/engineering/,/engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/]
+    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/, /engineering/core/]
     sub-pages-enabled: true
   -
     list:
