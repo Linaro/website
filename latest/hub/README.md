@@ -5,8 +5,6 @@ description: |-
 layout: container-breadcrumb
 permalink: /latest/hub/
 css-package: hub
-redirect_from:
-- /latest/
 ---
 <div class="row hub-row">
 
