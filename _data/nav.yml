@@ -38,7 +38,7 @@ pages:
       options:
           - text: Overview
             url: /work/
-          - text: Core Engineering
+          - text: Core
             url: /engineering/core/
             options:
                 - text: Overview
@@ -59,8 +59,6 @@ pages:
             url: /groups/
           - text: Lead Projects
             url: /projects/
-          - text: Initiatives
-            url: /initiatives/
           - text: Special Interest Groups
             url: /sig/
           - text: Software Downloads
