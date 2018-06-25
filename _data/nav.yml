@@ -64,7 +64,7 @@ pages:
           - text: Special Interest Groups
             url: /sig/
           - text: Software Downloads
-            url: /downloads/
+            url: /latest/downloads/
           - text: Developers
             url: /developers/
     - title: Services
