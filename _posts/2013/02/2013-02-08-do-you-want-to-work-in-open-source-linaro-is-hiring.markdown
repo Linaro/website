@@ -21,21 +21,21 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 ## Linaro is looking for...
 
 	
-  * Project Managers:  [/careers/](/careers/)
+  * Project Managers:  [/about/join-us/](/about/join-us/)
 
-  * OS Engineer - Kernel/Bootloader: [/careers/](/careers/)
+  * OS Engineer - Kernel/Bootloader: [/about/join-us/](/about/join-us/)
 
-  * Engineering Manager - Automation & CI: [/careers/](/careers/)
+  * Engineering Manager - Automation & CI: [/about/join-us/](/about/join-us/)
 
-  * LAVA Tech Lead: [/careers/](/careers/)
+  * LAVA Tech Lead: [/about/join-us/](/about/join-us/)
 
-  * Android Ubuntu Linux Kernel Engineer: [/careers/](/careers/)
+  * Android Ubuntu Linux Kernel Engineer: [/about/join-us/](/about/join-us/)
 
-  * Boot / Kernel Expert - Principal Engineers: [/careers/](/careers/)
+  * Boot / Kernel Expert - Principal Engineers: [/about/join-us/](/about/join-us/)
 
-  * Principal Engineers: [/careers/](/careers/)
+  * Principal Engineers: [/about/join-us/](/about/join-us/)
 
-  * QA Services Lead: [/careers/](/careers/)
+  * QA Services Lead: [/about/join-us/](/about/join-us/)
 
 
 ## How to apply
@@ -46,7 +46,7 @@ Want to apply for one of these roles? Then email your information to[ careers@li
 ## Other career opportunities at Linaro
 
 
-All available career opportunities can be found at:[ /careers/](/careers/)
+All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 
 _**Follow Linaro**_
 _ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](/careers/)
