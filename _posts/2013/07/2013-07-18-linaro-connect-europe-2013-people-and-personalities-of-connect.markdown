@@ -22,7 +22,7 @@ Also from [Red Hat](http://www.redhat.com/), [Leslie Hawthorn](https://www.googl
 
 [Larry Wikelius](http://silverlining-systems.com/) of [Calexda](http://silverlining-systems.com//) took a few moments out of his busy schedule to talk Arm 64-bit servers and what we can expect to see from Calexda over the next 6 months to a year.
 
-[LAVA, LAVA, LAVA!](/core/) There were so many sessions, demo's and even a mini-summit related to testing and validation at LCE13 that I snagged two members of the LAVA team-[Alan Bennett](/about/) and [Tyler Baker](/about/)- to chat with me about why LAVA is so awesome and how it's making a difference for developers in the Linux on Arm space.
+[LAVA, LAVA, LAVA!](/engineering/core/) There were so many sessions, demo's and even a mini-summit related to testing and validation at LCE13 that I snagged two members of the LAVA team-[Alan Bennett](/about/) and [Tyler Baker](/about/)- to chat with me about why LAVA is so awesome and how it's making a difference for developers in the Linux on Arm space.
 
 [Andrea Gallo](/about/), stopped by for a few moments to tell me all about some exciting sessions that were coming out of the [Linaro Enterprise Group (LEG)](/groups/leg/). We talked about OpenJDK, ACPI and the [KVM on Arm demo](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/) that took place during Demo Friday.
 
