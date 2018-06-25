@@ -44,7 +44,7 @@ pages:
                 - text: Overview
                   url: /engineering/core/
                 - text: Kernel Validation
-                  url: /engineering/core/kernel-validation/
+                  url: /engineering/core/kernel-validation-and-testing/
                 - text: Core Technologies & Tools
                   url: /engineering/core/ctt/
                 - text: Toolchain
