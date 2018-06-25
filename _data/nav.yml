@@ -73,14 +73,11 @@ pages:
             url: /latest/downloads/
           - text: "Hub"
             url: /latest/hub/
-          - text: "Events Calendar"
-            url: /latest/hub/event-calendar/
           - text: News
             url: /news/
           - text: Blog
             url: /blog/
-          - text: Linaro Connect
-            url: https://connect.linaro.org
-            external: true
+          - text: Events
+            url: /latest/events/
     - title: Contact Us
       url: /contact/
