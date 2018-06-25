@@ -3,19 +3,19 @@ columns:
     - title: About
       url: /about/
       items:
-        - text: Linaro Overview
+        - text: Overview
           url : /about/
-        - text: Organisation
-          url : /work/
-        - text: Members
-          url : /members/
-        - text: Careers
-          url : /careers/
-    - title: Work
+        - text: Team
+          url : /about/team/
+        - text: Membership
+          url : /membership/
+        - text: Join Us
+          url : /about/join-us/
+    - title: Engineering
       url: /work/
       items:
         - text: Core Engineering
-          url : /core/
+          url : /engineering/core/
         - text: Segment Groups
           url : /groups/
         - text: Lead Projects
@@ -28,13 +28,40 @@ columns:
       url: "/latest/downloads/"
       items:
          - text: Software Downloads
-           url : /downloads/
+           url : /latest/downloads/
          - text: Developers
            url : /developers/
+    - title: Services
+      url: "/services/"
+      items:
+         - text: Security
+           url : /services/security/
+         - text: Bootloaders and Boot Architecture
+           url : /services/bootloaders/
+         - text: Kernels and Long Term Support Services
+           url : /services/kernel-lts/
+         - text: AOSP and Linux BSPs, Builds and Support
+           url : /services/bsp-builds-support/
+         - text: Power Management Tuning Services
+           url : /services/power-management/
+    - title: 
+      items:
+         - text: 96Boards Product Development & Support
+           url : /services/96boards/
+         - text: Toolchain Optimization Services
+           url : /services/toolchain-optimization-services/
+         - text: Open Source Consultancy and Licensing
+           url : /services/open-source-consultancy/
+         - text: Testing and Validation Services
+           url : /services/testing-validation-services/
+         - text: Hands on Training
+           url : /services/hands-on-training/
+        
     - title: News & Events
+      url: /latest/hub/
       items:
           - text: "News & Events"
-            url: /hub/
+            url: /latest/hub/
           - text: News
             url: /news/
           - text: Linaro Blog
@@ -44,29 +71,12 @@ columns:
           - text: Linaro Connect
             url: https://connect.linaro.org
             external: true
-          - text: Social Media Hub
-            url: /social/
-    - title: Social Media
-      items:
-         - text: Github
-           url : https://github.com/linaro
-         - text: Facebook
-           url : https://www.facebook.com/LinaroOrg
-         - text: Youtube
-           url : https://www.youtube.com/user/linaroorg
-         - text: Twitter
-           url : https://twitter.com/linaroorg
-         - text: News Hub
-           url : /hub/
-         - text: OnAir
-           url : https://www.youtube.com/user/linaroOnAir
-
 companylinks:
     - name: Careers
-      url: /careers/
+      url: /about/join-us/
     - name: Legal
       url: /legal/
     - name: Sitemap
       url: /sitemap.xml
-    - name: Contact
+    - name: Contact Us
       url: /contact/
