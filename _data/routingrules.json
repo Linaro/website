@@ -180,6 +180,8 @@
     "^/feed(/?|/index.html)$ /feed.xml [R,L,NC]",
     "^/gdpr(/?|/index.html)$ /legal/gdpr/ [R,L,NC]",
     "^/HPC(/?|/index.html)$ /sig/hpc/ [R,L,NC]",
+    "^/hub(/?|/index.html)$ /latest/hub/ [R,L,NC]",
+    "^/hub/event-calendar(/?|/index.html)$ /latest/hub/event-calendar/ [R,L,NC]",
     "^/kernelci(/?|/index.html)$ /initiatives/kernelci/ [R,L,NC]",
     "^/lava(/?|/index.html)$ /initiatives/lava/ [R,L,NC]",
     "^/latest-linaro-gcc-toolchain-release-supports-full-range-of-arm-cortex-a-processors(/?|/index.html)$ /news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/ [R,L,NC]",
