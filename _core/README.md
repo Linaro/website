@@ -3,7 +3,7 @@ title: Core Engineering at Linaro
 description: |-
     When founded in 2010, Linaro engineering was divided into three functions - Platform, Landing Teams and Working Groups.
 keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hardware platforms, upstreaming, Linux kernel, Toolchain, Mobile Middleware
-permalink: /core/
+permalink: /engineering/core/
 director: Mike Holmes
 ---
 # Core Engineering

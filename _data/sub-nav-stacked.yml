@@ -3,33 +3,33 @@ pages:
     list:
       -
         title: Core Engineering
-        url: /core/
+        url: /engineering/core/
         main: true
       -
         title: Core Technologies & Tools
-        url: /core/ctt/
+        url: /engineering/core/ctt/
       -
         title: Kernel Validation
-        url: /core/kernel-validation/
+        url: /engineering/core/kernel-validation-and-testing/
       -
         title: Toolchain
-        url: /core/toolchain/
+        url: /engineering/core/toolchain/
       -
         title: Kernel
-        url: /core/kernel/
+        url: /engineering/core/kernel/
       -
         title: Power Management
-        url: /core/arm-power/
+        url: /engineering/core/arm-power-management/
         sub-tabs:
             - title: EAS
-              url: /core/arm-power/eas/
+              url: /engineering/core/arm-power-management/eas/
       -
         title: Security
-        url: /core/security/
+        url: /engineering/core/security/
       -
         title: Virtualization
-        url: /core/virtualization/
-    urls: [/core/,/core/kernel-validation/,/core/ctt/,/core/kernel/,/core/arm-power/,/core/security/, /core/virtualization/, /core/toolchain/]
+        url: /engineering/core/virtualization/
+    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/, /engineering/core/]
     sub-pages-enabled: true
   -
     list:

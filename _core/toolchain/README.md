@@ -1,7 +1,7 @@
 ---
 core_id: "6"
 title: Toolchain
-permalink: /core/toolchain/
+permalink: /engineering/core/toolchain/
 related_projects:
   - "7"
 tech-lead: Maxim Kuvyrkov

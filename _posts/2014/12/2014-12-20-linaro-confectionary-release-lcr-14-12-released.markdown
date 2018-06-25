@@ -30,13 +30,13 @@ LCR is tested. CTS version 5.0, Android BIONIC tests, Android Monkey and other t
 
 The release can be found respectively at:
 
-  * [Juno](/downloads/)
+  * [Juno](/latest/downloads/)
 
 
-  * [FVP](/downloads/)
+  * [FVP](/latest/downloads/)
 
 
-  * [Versatile Express TC2](/downloads/)
+  * [Versatile Express TC2](/latest/downloads/)
 
 If you should find a issue or have a question about the release, we invite you to use one of the following mechanisms:
 

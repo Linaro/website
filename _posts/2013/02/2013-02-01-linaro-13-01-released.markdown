@@ -32,7 +32,7 @@ The Power Management Group hosted a big.LITTLE sprint in Cambridge led by Amit K
 On the social front Linaro is looking forward to [Linaro Connect Asia 2013](/initiatives/connect/) in Hong Kong. Once again a [Demo Friday event](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) will showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination of Arm based processor boards and Linaro builds of Android, Ubuntu and more.
 
 We encourage everybody to use the 13.01 release. The download links for all images and components are available on our downloads page:
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 [http://wiki.linaro.org/Cycles/1301/Release#Release_Information](http://wiki.linaro.org/Cycles/1301/Release#Release_Information)

@@ -49,7 +49,7 @@ This month's cycle includes significant developments from Linaro Connect USA 201
 We encourage everybody to use the 13.11 release. This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:

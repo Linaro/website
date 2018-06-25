@@ -17,75 +17,67 @@ brand:
 pages:
     - title: About
       options:
-          - text: Linaro Overview
+          - text: Overview
             url: /about/
-          - text: Organisation
-            url: /work/
+          - text: Team
+            url: /about/team/
             options:
                 - text: Board of Directors
-                  url: /about/board/
+                  url: /about/team/board/
                 - text: Executive Team
-                  url: /about/executive/
+                  url: /about/team/executive/
                 - text: Technical Steering Committee
-                  url: /about/tsc/
+                  url: /about/team/technical-steering-committee/
                 - text: Office of the CTO
-                  url: /about/octo/
-            url: /work/
-          - text: Members
-            url: /members/
-          - text: Careers
-            url: /careers/
-    - title: Work
+                  url: /about/team/office-of-the-cto/
+          - text: Join Us
+            url: /about/join-us/
+    - title: Membership
+      url: /membership/
+    - title: Engineering
       options:
           - text: Overview
             url: /work/
-          - text: Core Engineering
-            url: /core/
+          - text: Core
+            url: /engineering/core/
             options:
                 - text: Overview
-                  url: /core/
+                  url: /engineering/core/
                 - text: Kernel Validation
-                  url: /core/kernel-validation/
+                  url: /engineering/core/kernel-validation-and-testing/
                 - text: Core Technologies & Tools
-                  url: /core/ctt/
+                  url: /engineering/core/ctt/
                 - text: Toolchain
-                  url: /core/toolchain/
+                  url: /engineering/core/toolchain/
                 - text: Kernel
-                  url: /core/kernel/
-                - text: Power Management
-                  url: /core/arm-power/
+                  url: /engineering/core/kernel/
+                - text: Arm Power Management
+                  url: /engineering/core/arm-power-management/
                 - text: Security
-                  url: /core/security/
+                  url: /engineering/core/security/
           - text: Segment Groups
             url: /groups/
           - text: Lead Projects
             url: /projects/
-          - text: Initiatives
-            url: /initiatives/
           - text: Special Interest Groups
             url: /sig/
-          - text: Developer Services
-            url: /services/
-    - title: Downloads
-      options:
           - text: Software Downloads
-            url: /downloads/
+            url: /latest/downloads/
           - text: Developers
             url: /developers/
-          - text: Security
-            url: /downloads/security/
-    - title: "News & Events"
+    - title: Services
+      url: /services/
+    - title: Latest
       options:
+          - text: Downloads
+            url: /latest/downloads/
           - text: "Hub"
-            url: /hub/
-          - text: "Events Calendar"
-            url: /hub/event-calendar/
+            url: /latest/hub/
           - text: News
             url: /news/
           - text: Blog
             url: /blog/
-          - text: Linaro Connect
-            url: https://connect.linaro.org
-            external: true
-    - title: Contact
+          - text: Events
+            url: /latest/events/
+    - title: Contact Us
       url: /contact/

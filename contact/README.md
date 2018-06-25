@@ -54,7 +54,7 @@ For discussion around Linux and Open Source on Arm, subscribe to the lists at [h
 For questions about Linaro membership and conditions for joining, please contact Joe Bates at [contactus@linaro.org](mailto:contactus@linaro.org).
 </li><hr>
 <li markdown="1">
-To apply for a position at Linaro see our [careers page](/careers/).
+To apply for a position at Linaro see our [careers page](/about/join-us/).
 </li><hr>
 <li markdown="1">
 Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:  [media@linaro.org](mailto:media@linaro.org)

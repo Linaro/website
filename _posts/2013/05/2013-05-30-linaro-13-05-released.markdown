@@ -20,7 +20,7 @@ wordpress_id: 2749
 >
 >
 
-## The Linaro 13.05 release is now available for [download](/downloads/)!
+## The Linaro 13.05 release is now available for [download](/latest/downloads/)!
 
 The 13.05 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle.
 
@@ -75,7 +75,7 @@ We encourage everybody to use the 13.05 release. The download links for all imag
 
 
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 
 

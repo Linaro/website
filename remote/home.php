@@ -56,11 +56,11 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 			
  <ul>
 	
-				<li class="link" id="Parent96"><a href="/downloads/" title="Go to the Download tools and software page" >Downloads</a></li>
+				<li class="link" id="Parent96"><a href="/latest/downloads/" title="Go to the Download tools and software page" >Downloads</a></li>
 		
-					<li class="link" id="Parent96"><a href="/downloads/" title="" >Open Engineering</a></li>
+					<li class="link" id="Parent96"><a href="/latest/downloads/" title="" >Open Engineering</a></li>
 			
-			<li class="link" id="Parent96"><a href="/downloads/" title="" >Partner with us</a></li>
+			<li class="link" id="Parent96"><a href="/latest/downloads/" title="" >Partner with us</a></li>
 			
 	
 		
