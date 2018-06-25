@@ -86,7 +86,7 @@ You will see that there are several ways to become involved and that everything 
 **Additional Linaro Community Support can be found at:**  
 Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)  
 Wiki – [https://wiki.linaro.org/](https://wiki.linaro.org/)  
-Downloads – [/downloads/](/downloads/)
+Downloads – [/downloads/](/latest/downloads/)
 
 Help on filing a bug using Launchpad can be found [here](https://wiki.linaro.org/Resources/HowTo/LoggingABug).
 
