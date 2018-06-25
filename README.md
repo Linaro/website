@@ -124,7 +124,7 @@ To add a media element / YouTube video use the following Jekyll include.
 
 In order to build the Linaro.org static site make sure you have Ruby and the bundler/jekyll gems installed. For instructions on how to setup an environment to build Jekyll sites see the official Jekyll documentation [here](https://jekyllrb.com/docs/installation/).
 
-Once you have above installed you can simple clone this repo and run the following:
+Once you have above installed you can simply clone this repo and run the following:
 
 ```
 $ bundle 
