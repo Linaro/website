@@ -74,9 +74,9 @@ pages:
           - text: Downloads
             url: /latest/downloads/
           - text: "Hub"
-            url: /hub/
+            url: /latest/hub/
           - text: "Events Calendar"
-            url: /hub/event-calendar/
+            url: /latest/hub/event-calendar/
           - text: News
             url: /news/
           - text: Blog
