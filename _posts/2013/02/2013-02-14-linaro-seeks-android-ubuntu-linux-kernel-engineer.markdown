@@ -32,7 +32,7 @@ Linaro is looking for an experienced support engineer to help automated deployme
 [/about/join-us/](/about/join-us/)
 
 **How to apply**
-Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/about/join-us/)
 
 
 ## Other career opportunities at Linaro
@@ -41,7 +41,7 @@ Want to apply for this role? Then email your information to[ careers@linaro.org]
 All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 
 **Follow Linaro**
-To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).[](/careers/)
+To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).[](/about/join-us/)
 
 **About Linaro**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. To find out more, please visit[ ](/).

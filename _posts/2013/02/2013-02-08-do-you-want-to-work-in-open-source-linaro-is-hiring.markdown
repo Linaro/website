@@ -40,7 +40,7 @@ Yes! Linaro is hiring! Does working for an open source company appeal to you? Do
 
 ## How to apply
 
-Want to apply for one of these roles? Then email your information to[ careers@linaro.org](/careers/)
+Want to apply for one of these roles? Then email your information to[ careers@linaro.org](/about/join-us/)
 
 
 ## Other career opportunities at Linaro
@@ -49,7 +49,7 @@ Want to apply for one of these roles? Then email your information to[ careers@li
 All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 
 _**Follow Linaro**_
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](/careers/)
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._[](/about/join-us/)
 
 _**About Linaro**_
 

@@ -49,7 +49,7 @@ More information on this role can be found at: [/about/join-us/](/about/join-us/
 ## How to apply
 
 
-Want to apply for one of these roles? Then email your information to [careers@linaro.org](/careers/)
+Want to apply for one of these roles? Then email your information to [careers@linaro.org](/about/join-us/)
 
 
 ## Other career opportunities at Linaro

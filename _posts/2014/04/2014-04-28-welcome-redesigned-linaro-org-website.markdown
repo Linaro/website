@@ -26,7 +26,7 @@ Immediately you will notice streamlined menus, simple navigation and access to t
 
   * **Homepage** – [at a glance](/), see upcoming events, quick links to team updates, direct links to the latest downloads.
 
-  * **Social Media Hub** –  [see what it is being said](/social/) all in one place, a powerful yet simple feature, follow all the updates happening real time on Linaro’s social media sites all on one page
+  * **Social Media Hub** –  [see what it is being said](/latest/hub/) all in one place, a powerful yet simple feature, follow all the updates happening real time on Linaro’s social media sites all on one page
 
   * **Projects** –[click and see all the projects](/projects/) within Linaro.  This new section of the site gives you a consolidated place to find out all the latest information about the projects taking place at Linaro.
   
@@ -38,7 +38,7 @@ We will continually be expanding our online content to bring you updated and rel
 
   * [Attend](http://connect.linaro.org/lcu14/) – register for our next [Linaro Connect](http://connect.linaro.org/lcu14/) in September 2014 to be part of designing the future of Linux on Arm
 
-  * [Discover career opportunities](/careers/) - within Linaro.  We are an organization with employees working in cities all over the world.
+  * [Discover career opportunities](/about/join-us/) - within Linaro.  We are an organization with employees working in cities all over the world.
 
   * [Downloads a click away](/latest/downloads/) - the newly organized downloads page makes it easy to access what you need.
 
