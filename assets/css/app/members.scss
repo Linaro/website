@@ -45,3 +45,17 @@
 #accordion .panel-body {
     padding: 20px;
 }
+#wrapper .panel-heading {
+    border: 0px;
+    border-radius: 0px;
+}
+
+#wrapper .panel.panel-default {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.vcenter-img:hover {
+    opacity:.2;
+    border:1px solid #ccc;
+}

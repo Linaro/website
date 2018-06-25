@@ -74,7 +74,7 @@ svg.mk-svg-icon.work {
     height: 80%;
     width: 80%;
     margin-top: 5px;
-    fill: $brand-primary;
+    fill: #333333;
     opacity: 1;
 
     transition: all 500ms ease;
@@ -103,7 +103,7 @@ svg.mk-svg-icon.work {
     opacity: 1;
 }
 .about-icon.work{
-    border: 1px solid #9658b7;
+    border: 1px solid #333333;
     transition: all 500ms ease;
 }
 
@@ -163,4 +163,8 @@ div.group_member_images > .col-md-2.col-sm-3.col-xs-4 {
     .col-xs-6.col-md-3.text-center.work_icon_col {
         margin-bottom: 35px;
     }
+}
+
+#content-container ul ul {
+    margin-top: 10px;
 }
