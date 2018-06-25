@@ -102,4 +102,4 @@ _Linaro is a member-sponsored, not-for-profit engineering organization focused o
 
 _Membership is open to Arm licensees, Linux distributions and other companies who wish to influence the future of Linux on Arm_
 
-_Find out more about how your organization can become a Linaro member at: [/members](/members)_
+_Find out more about how your organization can become a Linaro member at: [/members](/membership/)_
