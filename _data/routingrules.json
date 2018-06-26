@@ -42,14 +42,11 @@
     "^/author/shovan-sargunam(/?|/index.html)$ /author/shovan/ [R,L,NC]",
     "^/author/ulfhansson(/?|/index.html)$ /author/ulf-hansson/ [R,L,NC]",
     "^/author/webmaster(/?|/index.html)$ /author/linaro/ [R,L,NC]",
-    
     "^/about/tsc(/?|/index.html)$ /about/team/technical-steering-committee/ [R,L,NC]",
     "^/about/octo(/?|/index.html)$ /about/team/office-of-the-cto/ [R,L,NC]",
     "^/about/executive(/?|/index.html)$ /about/team/executive/ [R,L,NC]",
     "^/about/board(/?|/index.html)$ /about/team/board/ [R,L,NC]",
     "^/about/landing(/?|/index.html)$ /membership/ [R,L,NC]",    
-    
-    
     "^/blog/android-blog(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/community-blog(/?|/index.html)$ /blog/$1 [R,L,NC]",
     "^/blog/connect-update(/?|/index.html)$ /blog/$1 [R,L,NC]",
@@ -124,7 +121,7 @@
     "^/downloads/pdf(/?|/index.html)$ /assets/downloads/$1 [R,L,NC]",
     "^/developers(/?|/index.html)$ /engineering/ [R,L,NC]",    
     "^/downloads(/?|/index.html)$ /latest/downloads/ [R,L,NC]",    
-    "^/downloads/security(/?|/index.html)$ /engineering/core/security/ [R,L,NC]",    
+    "^/downloads/security(/?|/index.html)$ /latest/downloads/security/ [R,L,NC]",    
     "^/edge/96boards(/?|/index.html)$ / [R,L,NC]",
     "^/edge/connect-friday-before(/?|/index.html)$ / [R,L,NC]",
     "^/edge/connect-friday(/?|/index.html)$ / [R,L,NC]",
@@ -173,7 +170,6 @@
     "^/engineering/platform-engineering(/?|/index.html)$ /groups/leg/ [R,L,NC]",
     "^/engineering/validation(/?|/index.html)$ /services/testing-validation-services/ [R,L,NC]",
     "^/engineering/working-groups(/?|/index.html)$ /about/organization/ [R,L,NC]",
-    "^/engineering(/?|/index.html)$ /work/ [R,L,NC]",
     "^/events/arm-hpc-santa-clara-2018(/?|/index.html)$ /latest/events/arm-hpc-santa-clara-2018/ [R,L,NC]",
     "^/events(/?|/index.html)$ /latest/events/ [R,L,NC]",
     "^/faqs(/?|/index.html)$ /about/ [R,L,NC]",
@@ -270,5 +266,6 @@
     "^/training(/?|/index.html)$ /services/training/ [R,L,NC]",
     "^/verification-testing-continuous-integration-ci(/?|/index.html)$ /services/verification-testing-ci/ [R,L,NC]",
     "^/watch-the-announcement-of-linaro-at-computex(/?|/index.html)$ /news/watch-announcement-linaro-computex/ [R,L,NC]",
-    "^/watercooler(/?|/index.html)$ https://bluejeans.com/555111222333/ [R,L,NC]"
+    "^/watercooler(/?|/index.html)$ https://bluejeans.com/555111222333/ [R,L,NC]",
+    "^/work(/?|/index.html)$ /engineering/ [R,L,NC]"
 ]

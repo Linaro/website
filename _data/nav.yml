@@ -37,7 +37,7 @@ pages:
     - title: Engineering
       options:
           - text: Overview
-            url: /work/
+            url: /engineering/
           - text: Core
             url: /engineering/core/
             options:
@@ -71,6 +71,9 @@ pages:
       options:
           - text: Downloads
             url: /latest/downloads/
+            options:
+                - text: Security Downloads
+                  url: /latest/downloads/security/
           - text: "Hub"
             url: /latest/hub/
           - text: News
