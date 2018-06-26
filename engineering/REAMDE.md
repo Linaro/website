@@ -1,4 +1,0 @@
----
-title: Engineering
-permalink: /engineering/
----
