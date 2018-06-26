@@ -37,7 +37,7 @@ pages:
     - title: Engineering
       options:
           - text: Overview
-            url: /work/
+            url: /engineering/
           - text: Core
             url: /engineering/core/
             options:
