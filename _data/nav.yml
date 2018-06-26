@@ -71,6 +71,9 @@ pages:
       options:
           - text: Downloads
             url: /latest/downloads/
+            options:
+                - text: Security Downloads
+                  url: /latest/downloads/security/
           - text: "Hub"
             url: /latest/hub/
           - text: News
