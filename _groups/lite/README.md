@@ -20,8 +20,6 @@ members_key: lite_members
 redirect_from:
 - /lite/
 ---
-# Linaro IoT and Embedded (LITE)
-
 The Linaro IoT and Embedded Group (LITE) was launched at Linaro Connect LAS16 in September 2016. Companies interested in working together on common open source software foundations for IoT and embedded applications are invited to contact Linaro with the form below.
 
 The Internet of Things (IoT) is disrupting the traditional embedded market and  creating huge growth opportunities. Every device being connected to the cloud  and generating personal information is a huge data generation, connectivity and security headache. Standards are essential to the success of IoT and the LITE group will bring together Arm ecosystem support for key standards and engineering work to support reliable implementations.

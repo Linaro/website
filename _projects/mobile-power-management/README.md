@@ -25,9 +25,6 @@ mailing_lists:
     url: https://lists.linaro.org/mailman/listinfo/sched-tools
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPdiaNrIkWgl-x-fg48gJYV
 ---
-
-# Mobile Power Management
-
 Arm SoCs expose a lot of information to software about Hardware knobs for controlling power consumption. As there is no Hardware to OS abstraction layer (such as ACPI), these knobs tend to be controlled directly by OS drivers. Additionally, each SoC vendor exposes a superset of the standard Arm power states to allow fine-grained control over each component to maximize battery-life. This increases the complexity of the core SoC enablement code inside the kernel as well as the peripheral drivers.
 
 SoC vendors have taken slightly different approaches to implementing their OS power management frameworks. The differences arise for a number of reasons: a lack of design patterns to achieve what they require; due to lack of infrastructure support inside the kernel, and, on occasion, because of intrinsic differences in Hardware structure.
