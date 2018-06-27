@@ -16,7 +16,6 @@ image:
   path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
   name: meltdown-spectre-download-linaro.jpg  
 ---
-# Security
 The Linaro Security Working Group (SWG) was created to help ensure an optimised
 and efficient software ecosystem exists to support Arm Open Source Linux
 distributions on security related topics, and to accelerate the delivery of high

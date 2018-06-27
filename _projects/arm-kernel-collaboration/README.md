@@ -25,8 +25,6 @@ related_core_groups:
   - "1"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNnMSv7VFoaeZ1COZsx_-1v
 ---
-# Arm Kernel Collaboration
-
 Collaboration with Linaro and Member companies on upstreaming key common kernel features beneficial to the Arm Ecosystem.
 
 **The sources of the features could include:**

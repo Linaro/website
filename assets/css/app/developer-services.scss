@@ -279,15 +279,16 @@ div#stacked-nav-bar {
       width: 100%;
     }
 
-    a.dev-services.btn.btn-primary.btn-contact-developer-services {
-      margin-right: auto;
+    #wrapper a.dev-services.btn.btn-primary.btn-contact-developer-services {
+        margin-right: auto;
       display: block;
       position: relative;
       margin-top: 27px;
       line-height: 16px;
-      border-radius:0px;
+      border-radius: 0px;
       height: 35px;
       float: left !important;
+      top: -18px;
   }
 
     img.img-responsive.main-logo-developer-services.center-block {
@@ -364,9 +365,10 @@ div#stacked-nav-bar {
     .row.developer-services-contact-row {
         padding: 5px;
     }
-    a.btn-contact-developer-services {
-        top: -11px;
+    #wrapper a.btn-contact-developer-services {
+        top: -92px;
         border-top-right-radius: 0px;
+        margin-top: 0px;
     }
     .developer-services-content-title>h1 {
         font-size: 18px;
