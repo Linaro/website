@@ -102,7 +102,7 @@ image:
 
 
 <div id="speakers">
-    <div class="col-sm-4">
+    <div class="col-sm-4 no-padding">
         <div class="speaker">
             <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
             <span class="speaker-name">Simon McIntosh-Smith</span>
