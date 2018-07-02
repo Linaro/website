@@ -186,6 +186,9 @@ a.btn.btn-primary.full-bio {
     border: 1px solid #eee;
     padding:20px;
     margin-bottom:20px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
+    -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
+    -moz-box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
 }
 
 button.btn.btn-primary.full-bio {
