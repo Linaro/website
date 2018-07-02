@@ -147,3 +147,96 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(-360deg);}
 }
+
+.speaker-photo {
+    height: 200px;
+    background-size:  cover;
+    width: 200px;
+    border-radius:  50%;
+    border: 1px solid #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+span.speaker-name {
+    text-align:  center;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.speaker p {
+    font-size: 14px;
+    text-align:  center;
+}
+
+a.btn.btn-primary.full-bio {
+    margin-left:auto; 
+    margin-right: auto;
+    position:relative;
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+.speaker {
+    border: 1px solid #eee;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+
+a.btn.btn-primary.btn-two.call-for-papers {
+    font-size: 20px;
+    color: white;
+    line-height: 43px;
+    background-color:#2b212f;
+    border: 1px solid #000000;
+}
+a.btn.btn-primary.btn-two.call-for-papers:hover {
+    color: #9a9a9a;
+    border: 1px solid #1f3850;
+}
+
+
+/* BTN TWO */
+ .btn-two::before,  .btn-two::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+	height: 100%;
+  bottom: 0;
+	left: 0;
+	z-index: 1;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+ .btn-two:hover::after {
+  animation-name: rotatecw;
+  animation-duration: 2s;
+}
+ .btn-two:hover::before {
+  animation-name: rotateccw; 
+  animation-duration: 3s;
+}
+ .btn-two:hover::after,  .btn-two:hover::before {
+  left: 96px;
+  width: 64px;
+  
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotatecw {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotateccw {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
