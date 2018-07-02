@@ -101,6 +101,10 @@ image:
 </div><!--End Tab Content-->
 
 
+<div class="col-xs-12 text-center">
+    <h2 id="featured-speakers">Featured Speakers</h2>
+</div>
+
 <div id="speakers">
     <div class="col-sm-4 no-padding">
         <div class="speaker">
