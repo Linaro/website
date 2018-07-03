@@ -95,13 +95,55 @@ image:
 </div>
 
 
-
-
-
 </div>
 
 
 </div><!--End Tab Content-->
+
+
+<div class="col-xs-12 text-center">
+    <h2 id="featured-speakers">Featured Speakers</h2>
+</div>
+
+<div id="speakers">
+    <div class="col-sm-4 no-padding">
+        <div class="speaker">
+            <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+            <span class="speaker-name">Simon McIntosh-Smith</span>
+            <p>
+            Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
+            </p>
+            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Bio</button>
+        </div>
+    </div>
+</div>
+
+<!-- Speaker Modals -->
+<div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Simon McIntosh-Smith Bio</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+      Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
+      </p>
+      
+      <p>
+      In 2002 he co-founded ClearSpeed Technology where, as Director of Architecture and Applications, he co-developed the first modern many-core HPC accelerators. He now leads the High Performance Computing Research Group at the University of Bristol, where his research focuses on performance portability and application based fault tolerance. He plays a key role in designing and procuring HPC services at the local, regional and national level, including the UK’s national HPC server, Archer.
+      </p>
+      <p>
+       In 2016 he led the successful bid by the GW4 Alliance along with the UK’s Met Office and Cray, to design and build ‘Isambard’, the world’s first large-scale production ARMv8-based supercomputer.
+     </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 </div><!--End Container-->
