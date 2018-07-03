@@ -786,20 +786,11 @@ article.post-content > .col-md-8 {
 
 
 #main-navigation ul.dropdown-menu.sub-menu {
-    left: 1px;
-    background-color: #767676;
-    border-radius: 0px;
-    border: 0px;
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 0;
+        background-color: #767676;
 }
-
-#main-navigation ul.dropdown-menu.sub-menu > li > a {
-    color: white;
-}
-
-
 #main-navigation ul.dropdown-menu.sub-menu>li>a:hover {
     color: black;
+}
+#main-navigation ul.dropdown-menu.sub-menu > li > a {
+    color: white;
 }
