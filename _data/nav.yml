@@ -99,6 +99,7 @@ pages:
     - title: Services
       url: /services/
     - title: Latest
+      left-align: true
       options:
           - text: Downloads
             url: /latest/downloads/
