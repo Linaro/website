@@ -37,15 +37,15 @@ George has led software and hardware technology companies for over 25 years, gai
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Ian Ferguson** / Non-executive Director for Arm
+### **Mark Hambleton** / Non-executive Director for Arm
 
-Ian Ferguson is vice president of corporate marketing at Arm. Ian joined Arm in 2007 as director of enterprise and embedded solutions. Within this role, Ian led a segment marketing group chartered with driving Arm technology into embedded applications such as automotive, smart grid and networking applications. He was promoted to vice president to lead Arm’s segment development in server systems and push into energy-efficient data centers. Following rapid success in these areas, he was promoted to lead all the segment teams in January 2013.
+Mark Hambleton is vice president of Open Source Software at ARM. Mark joined ARM in 2014 and took over leading the open source software group soon after. Within this role, Mark leads the system software teams chartered with driving Arm’s leadership in open source and has been responsible for the software engineering relationship with Linaro. Prior to joining Arm, Mark was a member of the Linaro TSC representing Broadcom and prior to Broadcom was the Head of Core Systems and a Distinguished Architect at Nokia in their Smart Devices group.
 
-Prior to Arm, Ian was vice president of marketing for Enigma Semiconductor and QuickLogic. He has also worked as European marketing manager for IDT and as technical marketing engineer for Motorola.
+Mark has been working with open source technologies for approaching 20 years and in the Arm ecosystem for more than 10, and involved with Linaro at various levels for over 5 years.
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Ian-Ferguson.jpg" class="linaro-profile-image" alt="Ian Ferguson Profile Photo"%}
+{% include circular-image.html name="MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
 </div>
 </div>
 
