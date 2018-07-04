@@ -20,8 +20,9 @@ pages:
           - text: Overview
             url: /about/
           - text: Team
-            url: /about/team/
             options:
+                - text: The Team
+                  url: /about/team/
                 - text: Board of Directors
                   url: /about/team/board/
                 - text: Executive Team
@@ -41,7 +42,6 @@ pages:
           - text: Developers
             url: /developers/
           - text: Core
-            url: /engineering/core/
             options:
                 - text: Overview
                   url: /engineering/core/
@@ -58,8 +58,9 @@ pages:
                 - text: Security
                   url: /engineering/core/security/
           - text: Segment Groups
-            url: /groups/
             options:
+                - text: Overview
+                  url: /groups/
                 - text: LEG
                   url: /groups/leg/
                 - text: LNG
@@ -71,8 +72,9 @@ pages:
                 - text: LITE
                   url: /groups/lite/
           - text: Lead Projects
-            url: /projects/
             options:
+                - text: Overview
+                  url: /projects/
                 - text: Mobile AOSP Optimization
                   url: /projects/aosp/
                 - text: Reference Digital Media Platforms
@@ -92,8 +94,9 @@ pages:
                 - text: Reference Platforms
                   url: /projects/reference-platforms/
           - text: Special Interest Groups
-            url: /sig/
             options:
+                - text: Overview
+                  url: /sig/
                 - text: HPC
                   url: /sig/hpc/
     - title: Services
@@ -102,8 +105,9 @@ pages:
       left: true
       options:
           - text: Downloads
-            url: /latest/downloads/
             options:
+                - text: All Downloads
+                  url: /latest/downloads/
                 - text: Security Downloads
                   url: /latest/downloads/security/
           - text: "Hub"
