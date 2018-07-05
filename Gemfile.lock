@@ -75,7 +75,7 @@ GEM
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     json (2.1.0)
-    jumbo-jekyll-theme (1.9.5)
+    jumbo-jekyll-theme (2.0.0)
       autoprefixer-rails (~> 5.0, >= 5.0.0.1)
       bootstrap-sass (~> 3.3)
       hash-joiner (~> 0)
@@ -128,7 +128,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 1.9.5)
+  jumbo-jekyll-theme (= 2.0.0)
   nokogiri
 
 BUNDLED WITH
