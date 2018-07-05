@@ -15,6 +15,90 @@ image:
     </div>
 </div>
 
+<div class="row arm-hpc-row speakers">
+<div class="container">
+
+<div class="col-xs-12 text-center">
+    <h2 id="featured-speakers">Featured Speakers</h2>
+</div>
+
+<div id="speakers">
+    <div class="col-xs-12 col-sm-4 no-padding">
+        <div class="speaker">
+            <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+            <span class="speaker-name">Simon McIntosh-Smith</span>
+            <p>
+            Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
+            </p>
+            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Bio</button>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-4 no-padding">
+        <div class="speaker">
+            <div class="speaker-photo" style="background-image: url({% asset_path 'Gilad.jpg' %})"></div>
+            <span class="speaker-name">Gilad Shainer</span>
+            <p>
+            Gilad Shainer has served as Mellanox's vice president of marketing Mr. Shainer serves as the chairman of the HPC Advisory Council organization, he serves as a board member in the OpenPOWER, CCIX, OpenCAPI and UCF organizations, a member of IBTA and contributor to the PCISIG PCI-X and PCIe specifications.
+            </p>
+            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#giladShainer">Full Bio</button>
+        </div>
+    </div>
+</div>
+
+<!-- Speaker Modals -->
+<div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Simon McIntosh-Smith Bio</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+      Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
+      </p>
+      
+      <p>
+      In 2002 he co-founded ClearSpeed Technology where, as Director of Architecture and Applications, he co-developed the first modern many-core HPC accelerators. He now leads the High Performance Computing Research Group at the University of Bristol, where his research focuses on performance portability and application based fault tolerance. He plays a key role in designing and procuring HPC services at the local, regional and national level, including the UK’s national HPC server, Archer.
+      </p>
+      <p>
+       In 2016 he led the successful bid by the GW4 Alliance along with the UK’s Met Office and Cray, to design and build ‘Isambard’, the world’s first large-scale production ARMv8-based supercomputer.
+     </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Speaker Modals -->
+<div class="modal fade" id="giladShainer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Gilad Shainer Bio</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+      Gilad Shainer has served as Mellanox's vice president of marketing Mr. Shainer serves as the chairman of the HPC Advisory Council organization, he serves as a board member in the OpenPOWER, CCIX, OpenCAPI and UCF organizations, a member of IBTA and contributor to the PCISIG PCI-X and PCIe specifications.
+      </p>
+      <p>
+       Mr. Shainer holds multiple patents in the field of high-speed networking. He is also a recipient of 2015 R&D100 award for his contribution to the CORE-Direct collective offload technology. Gilad Shainer holds a MSc degree and a BSc degree in Electrical Engineering from the Technion Institute of Technology in Israel.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+
 <div class="row arm-hpc-row main">
 <div class="container">
 
@@ -99,52 +183,6 @@ image:
 
 
 </div><!--End Tab Content-->
-
-
-<div class="col-xs-12 text-center">
-    <h2 id="featured-speakers">Featured Speakers</h2>
-</div>
-
-<div id="speakers">
-    <div class="col-sm-4 no-padding">
-        <div class="speaker">
-            <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
-            <span class="speaker-name">Simon McIntosh-Smith</span>
-            <p>
-            Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
-            </p>
-            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Bio</button>
-        </div>
-    </div>
-</div>
-
-<!-- Speaker Modals -->
-<div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Simon McIntosh-Smith Bio</h4>
-      </div>
-      <div class="modal-body">
-      <p>
-      Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
-      </p>
-      
-      <p>
-      In 2002 he co-founded ClearSpeed Technology where, as Director of Architecture and Applications, he co-developed the first modern many-core HPC accelerators. He now leads the High Performance Computing Research Group at the University of Bristol, where his research focuses on performance portability and application based fault tolerance. He plays a key role in designing and procuring HPC services at the local, regional and national level, including the UK’s national HPC server, Archer.
-      </p>
-      <p>
-       In 2016 he led the successful bid by the GW4 Alliance along with the UK’s Met Office and Cray, to design and build ‘Isambard’, the world’s first large-scale production ARMv8-based supercomputer.
-     </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 </div><!--End Container-->
 </div><!--End Row-->

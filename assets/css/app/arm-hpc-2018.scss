@@ -186,10 +186,15 @@ a.btn.btn-primary.full-bio {
     border: 1px solid #eee;
     padding:20px;
     margin-bottom:20px;
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
-    -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
-    -moz-box-shadow: 0 0 45px rgba(0, 0, 0, 0.2)  ; 
+    margin: 20px;
 }
+
+.speaker:hover {
+     box-shadow: 0 0 45px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 45px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 45px rgba(0,0,0,0.2);
+}
+
 
 h2#featured-speakers {
     margin-bottom: 40px;
@@ -207,4 +212,8 @@ button.btn.btn-primary.full-bio {
 }
 button.btn.btn-primary.full-bio:hover {
     background-color: #2b222f;
+}
+
+.row.arm-hpc-row.speakers {
+    padding-bottom: 50px;
 }
