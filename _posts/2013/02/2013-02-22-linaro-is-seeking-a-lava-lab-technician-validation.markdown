@@ -39,13 +39,13 @@ More information on this role can be found at:
 ## **How to apply**
 
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/about/join-us/)
 
 
 ## **Other career opportunities at Linaro**
 
 
-All available career opportunities can be found at:[ /careers/](/careers/)
+All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 **Follow Linaro**
 To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 

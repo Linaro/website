@@ -4,7 +4,7 @@ title: Kernel
 description: |-
     The Kernel Working Group’s primary focus is to be an active contributor to the upstream community and facilitate acceptance of Arm code into the Linux mainline kernel.
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree
-permalink: /core/kernel/
+permalink: /engineering/core/kernel/
 tech-lead: Mark Brown
 related_projects:
   - "2"
@@ -13,8 +13,6 @@ related_initiatives:
   - "8"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNcK4cX5OS6d4--lQdz6Zws
 ---
-# Kernel
-
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
 
 The Kernel Working Group has been at the center of Linaro’s engineering work right from the beginning. The code churn created by multiple companies and individuals trying to upstream essentially the same code into kernel.org was one of the main reasons that Linaro was founded and Linus Torvalds famously complained about this shortly after Linaro’s founding:

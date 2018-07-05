@@ -85,7 +85,7 @@ wiki.
 We encourage everybody to use the 12.03 release. The download links for all
 images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been
 accomplished by the Working Groups, Landing Teams and Platform Teams.

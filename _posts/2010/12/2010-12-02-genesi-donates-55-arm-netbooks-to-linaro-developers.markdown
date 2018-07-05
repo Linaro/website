@@ -30,7 +30,7 @@ Konstantinos Margaritis, Genesi's representative at the Linaro and Ubuntu Develo
 <!-- more -->
 Konstantinos is also a Debian developer, working on the [armhf (Arm Hard Float) port of Debian](http://wiki.debian.org/ArmHardFloatTodo), which will appear in the next Debian release after Squeeze. This means that Genesi also supports the Debian project through development resources. No doubt that this work will profit to Linaro and vice-versa.
 
-Konstantinos also told us that Genesi is willing to continue to support Linaro through more hardware donations. This should extend to Linaro community members, who could win Genesi Arm netbooks through [competitions organized by Linaro](/hub/), or if they have a worthy project that requires hardware support.
+Konstantinos also told us that Genesi is willing to continue to support Linaro through more hardware donations. This should extend to Linaro community members, who could win Genesi Arm netbooks through [competitions organized by Linaro](/latest/hub/), or if they have a worthy project that requires hardware support.
 
 Linaro is very grateful to Genesi for supporting its developers and community, and will support Genesi netbook users and contributors through a dedicated entry in its on-line forums. A Launchpad group and a mailing list are also planned, and will be announced through a comment to this blog post.
 

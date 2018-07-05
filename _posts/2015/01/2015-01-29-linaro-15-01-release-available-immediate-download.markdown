@@ -36,7 +36,7 @@ We encourage everybody to use the 15.01 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 **USING THE ANDROID-BASED IMAGES**
 

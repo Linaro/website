@@ -29,7 +29,7 @@ Linaro has a long term goal of making Arm devices more competitive by making a b
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### Kernel Baselines Lead Engineer
 
@@ -37,7 +37,7 @@ A lead Linux kernel maintainer responsible for creating and maintaining a LLTS (
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 
@@ -58,7 +58,7 @@ More information on this opportunity can be found at:
 
 
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 
@@ -73,7 +73,7 @@ As a Senior Android Platform Engineer, you will be a technical and thought leade
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### OS Engineer - Kernel/Bootloader
 
@@ -83,7 +83,7 @@ Linaro Platform Engineering is providing full system stack baselines as well as 
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### Engineering Manager - Automation & CI
 
@@ -92,17 +92,17 @@ The person taking this role will oversee Linaro’s Automation Infrastructure te
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 ## How to apply
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/about/join-us/)
 
 
 ## Other career opportunities at Linaro
 
-All available career opportunities can be found at:[ /careers/](/careers/)
+All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 
 
 **Follow Linaro**

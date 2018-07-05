@@ -27,8 +27,6 @@ members_key: lhg_members
 redirect_from:
 - /lhg/
 ---
-# Linaro Home Group (LHG)
-
 The mission of the Linaro Digital Home Group (LHG) is to accelerate the adoption of Arm-based architectures in the digital home (entertainment) segment by working collaboratively on core Linux-based software platforms and delivering media via optimized and secure video frameworks. LHG works on solutions common to its members, namely those related to open source software for Arm-based set top boxes, smart TVs, media boxes, TV dongles and home gateway products.
 
 Consumers are not generally aware that they are using Linux and the number of different solutions means the market is badly fragmented and out of date kernels and distributions are still being actively marketed. This leads to high costs of integration, customization and maintenance; multiple media frameworks and players; and a lack of common interfaces and interoperability.

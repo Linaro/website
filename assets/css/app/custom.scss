@@ -749,10 +749,6 @@ div.dark {
 #navbar_svg .cls-8 {
     opacity: 0.7;
 }
-
-
-
-
 #main-container small.blog-author.text-center > a > em {
     color:white;
     transition: all 500ms linear;
@@ -782,4 +778,15 @@ article.post-content {
 
 article.post-content > .col-md-8 {
     padding: 0;
+}
+
+
+#main-navigation ul.dropdown-menu.sub-menu {
+        background-color: #767676;
+}
+#main-navigation ul.dropdown-menu.sub-menu>li>a:hover {
+    color: black;
+}
+#main-navigation ul.dropdown-menu.sub-menu > li > a {
+    color: white;
 }

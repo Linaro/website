@@ -38,7 +38,7 @@ Linaro 16.12  release is now available for download.  See the detailed highlig
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**

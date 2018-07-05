@@ -17,8 +17,6 @@ engineering:
   - name: Developer Resources and Documentation
     url: https://wiki.linaro.org/LHG
 ---
-# Reference Digital Media Platforms for Arm
-
 This project has been defined to address the problem of defragmenting the media framework and associated security solutions that are currently found in the market.
 
 The project is focused on both the RDK and Android platforms, in the following areas:
