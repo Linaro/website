@@ -43,8 +43,38 @@ image:
             <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#giladShainer">Full Bio</button>
         </div>
     </div>
+    <div class="col-xs-12 col-sm-4 no-padding">
+        <div class="speaker">
+            <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
+            <span class="speaker-name">Andrew J Younge</span>
+            <p id="P_1">
+            	Andrew Younge is a R&amp;D Computer Scientist at <a href="http://www.sandia.gov/" id="A_2">Sandia National Laboratories</a> with the <a href="http://www.cs.sandia.gov/web1423/" id="A_3">Scalable System Software</a> group. His research interests include Cloud Computing, Virtualization, Distributed Systems, and energy efficient computing.
+                <br>
+            </p>
+            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Bio</button>
+        </div>
+    </div>
 </div>
 
+<!-- Speaker Modals -->
+<div class="modal fade" id="andrewJYounge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Andrew J Younge Bio</h4>
+      </div>
+      <div class="modal-body">
+      <p id="P_1">
+          Andrew Younge is a R&amp;D Computer Scientist at <a href="http://www.sandia.gov/" id="A_2">Sandia National Laboratories</a> with the <a href="http://www.cs.sandia.gov/web1423/" id="A_3">Scalable System Software</a> group. His research interests include Cloud Computing, Virtualization, Distributed Systems, and energy efficient computing. Andrew has a Ph.D in Computer Science from <a href="http://soic.indiana.edu" id="A_4">Indiana University</a>, where he was the Persistent Systems fellow and a member of the <a href="http://futuregrid.org" id="A_5">FutureGrid</a> project, an NSF-funded experimental cyberinfrastructure test-bed. Over the years, Andrew has held visiting positions at the <a href="https://www.mitre.org/" id="A_6">MITRE Corporation</a>, the <a href="http://www.isi.edu/research_groups/apex/apex_overview" id="A_7">University of Southern California / Information Sciences Institute</a>, and the <a href="http://lattice.umiacs.umd.edu/" id="A_8">University of Maryland, College Park</a>. He received his Bachelors and Masters of Science from the Computer Science Department at <a href="http://cs.rit.edu" id="A_9">Rochester Institute of Technology</a> (RIT) in 2008 and 2010, respectively.
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Speaker Modals -->
 <div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
