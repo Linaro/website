@@ -54,6 +54,17 @@ image:
             <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Bio</button>
         </div>
     </div>
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
+        <div class="speaker">
+            <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
+            <span class="speaker-name">Yutaka Ishikawa</span>
+            <p>
+                Yutaka Ishikawa is the project leader of FLAGSHIP 2020 project at Riken Center for Computational Science, Japan.  Ishikawa received PhD degree in electrical engineering from Keio University.
+                <br>
+            </p>
+            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Bio</button>
+        </div>
+    </div>
 </div>
 
 <!-- Speaker Modals -->
@@ -75,7 +86,6 @@ image:
     </div>
   </div>
 </div>
-<!-- Speaker Modals -->
 <div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -101,8 +111,6 @@ image:
     </div>
   </div>
 </div>
-
-<!-- Speaker Modals -->
 <div class="modal fade" id="giladShainer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -116,6 +124,33 @@ image:
       </p>
       <p>
        Mr. Shainer holds multiple patents in the field of high-speed networking. He is also a recipient of 2015 R&D100 award for his contribution to the CORE-Direct collective offload technology. Gilad Shainer holds a MSc degree and a BSc degree in Electrical Engineering from the Technion Institute of Technology in Israel.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="ishikawa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Yutaka Ishikawa Bio</h4>
+      </div>
+      <div class="modal-body">
+      <p>
+        Yutaka Ishikawa is the project leader of FLAGSHIP 2020 project at
+        Riken Center for Computational Science, Japan. Ishikawa received PhD
+        degree in electrical engineering from Keio University. From 1987 to
+        2001, he was a member of AIST (former Electrotechnical Laboratory),
+        METI. From 1993 to 2001, he was the chief of Parallel and Distributed
+        System Software Laboratory at Real World Computing Partnership. From
+        2002 to 2006 and from 2006 to 2014, he was an associate professor and
+        a professor at the University Tokyo, respectively. From 2010 to 2014,
+        he was also the director of Information Technology Center at the
+        University of Tokyo.
        </p>
       </div>
       <div class="modal-footer">
