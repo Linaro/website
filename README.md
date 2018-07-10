@@ -21,7 +21,7 @@ Below are a few guides that will help when adding content to the Linaro website.
 In order to add a blog post to Linaro.org copy an existing post from the [_posts folder](https://github.com/Linaro/website/tree/master/_posts). Posts are organised into by year/month so add to the correct folder based on the month you are posting it in and if the folder doesn't exist create one.
 
 ### Step 1 - Modify the post file name
-The url for your title is based on the title provided in the filename e.g 2018-06-07-announcing-women-in-stem.md will have a url of /blog/announcing-women-in-stem/. Separate the words in your title by dashes and modify the date at the start of the filename as neccessary. 
+The url for your post is based on the title provided in the filename e.g 2018-06-07-announcing-women-in-stem.md will have a url of /blog/announcing-women-in-stem/. Separate the words in your title by dashes and modify the date at the start of the filename as neccessary. 
 
 ### Step 2 - Modify the post front matter
 
