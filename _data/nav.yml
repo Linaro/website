@@ -99,6 +99,18 @@ pages:
                   url: /sig/
                 - text: HPC
                   url: /sig/hpc/
+          - text: Initiatives
+            options:
+                - text: Overview
+                  url: /initiatives/
+                - text: Armv8
+                  url: /initiatives/armv8/
+                - text: KernelCI
+                  url: /initiatives/kernelci/
+                - text: LAVA
+                  url: /initiatives/lava/
+                - text: LSK
+                  url: /initiatives/lsk/
     - title: Services
       url: /services/
     - title: Latest
