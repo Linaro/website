@@ -59,7 +59,7 @@ image:
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'pavel.jpg' %})"></div>
                 <span class="speaker-name">Pavel Shamis</span>
                 <p>
                     Pavel is a Principal Research Engineer at ARM with over 16 years of experience in development HPC solutions. His work is focused on co-design software and hardware building blocks for high-performance interconnect technologies, development communication middleware and novel programming models.
