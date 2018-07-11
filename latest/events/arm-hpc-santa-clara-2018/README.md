@@ -114,7 +114,7 @@ image:
                 <p>
                     High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.
                 </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#hulgin">Full Abstract/Bio</button>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#hulguin">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
