@@ -95,7 +95,7 @@ image:
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-offset-4 col-sm-4 no-padding">
+        <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
                 <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
                 <span class="speaker-name">Jay Kruemcke</span>
@@ -104,6 +104,17 @@ image:
                     SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage.
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#jayKruemcke">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <span class="speaker-name">Ryan Hulguin</span>
+                <span class="speaker-talk-title">Cross Platform Performance Engineering</span>
+                <p>
+                    High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#hulgin">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
@@ -308,6 +319,26 @@ image:
        <p>
        Jay has built an extensive career in product management including using social media for client collaboration, product positioning, driving future product directions, and evangelizing the capabilities and future directions for dozens of enterprise products. 
        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="hulguin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Ryan Hulguin Full Abstract</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Cross Platform Performance Engineering</h3>
+      <p>
+            High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.  This talk will present a methodology for porting HPC applications to Arm, and the ecosystem of cross platform performance engineering toolkits and libraries that is currently available on Arm.  An overview and use cases for Arm Forge, PAPI, ScoreP, TAU and others will be provided along with guidance and advice for HPC performance engineering on the latest Arm-based CPU offerings.
+      </p>
+    
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
