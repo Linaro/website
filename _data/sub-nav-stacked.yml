@@ -37,36 +37,18 @@ pages:
         title: Initiatives
         url: /initiatives/
       -
-        title: 96Boards
-        url: /initiatives/96boards/
-      -
-        title: DeviceTree
-        url: /initiatives/devicetree/
+        title: Armv8
+        url: /initiatives/armv8/
       -
         title: KernelCI
         url: /initiatives/kernelci/
       -
-        title: OP-TEE
-        url: /initiatives/op-tee/
-      -
-        title: Developer Cloud
-        url: /initiatives/cloud/
+        title: LAVA
+        url: /initiatives/lava/
       -
         title: LSK
         url: /initiatives/lsk/
-      -
-        title: Performance Project
-        url: /initiatives/performance/
-      -
-        title: Linaro Connect
-        url: /initiatives/connect/
-      -
-        title: Armv8
-        url: /initiatives/armv8/
-      -
-        title: LAVA
-        url: /initiatives/lava/
-    urls: [/initiatives/,/initiatives/96boards/, /initiatives/devicetree/, /initiatives/kernelci/, /initiatives/op-tee/,/initiatives/cloud/, /initiatives/lsk/, /initiatives/performance/, /initiatives/connect/, /initiatives/armv8/, /initiatives/lava/]
+    urls: [/initiatives/, /initiatives/kernelci/, /initiatives/lsk/,/initiatives/armv8/, /initiatives/lava/]
   -
     list:
       -
