@@ -12,7 +12,7 @@ image:
    thumb: open-source-projects.png
 categories: blog
 tags: Open Source, Projects, Arm, Armv8, linaro, linux, GPL 2.0, Red Hat
-published: true
+published: false
 ---
 I am very pleased that Linaro is joining other Industry leaders such as Arm, Canonical, CA Technologies, Cisco, Facebook, GitLab, Google, HPE, IBM, MariaDB, Microsoft, Philips, Red Hat, SAS, SAP, Sony, Suse and Toyota in adopting Red Hat’s cooperation commitment. 
 
