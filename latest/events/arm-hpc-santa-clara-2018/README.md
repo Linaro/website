@@ -308,11 +308,6 @@ image:
        <p>
        Jay has built an extensive career in product management including using social media for client collaboration, product positioning, driving future product directions, and evangelizing the capabilities and future directions for dozens of enterprise products. 
        </p>
-       <hr>
-       <h3>It just keeps getting better - SUSE enablement for ArmM</h3>
-       <p>
-       SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage. But we have enabled a number of other Arm SoCs and are even supporting the Raspberry Pi. This session will cover the SUSE products that are available for the Arm platform and view to the future. 
-       </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
