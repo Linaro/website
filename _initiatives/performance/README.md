@@ -1,5 +1,4 @@
 ---
-initiative_id: "10"
 title: Performance Project
 description: |-
     The Linaro Performance Project was launched in 2014 to connect engineers with source code modules that included Arm assembly language.

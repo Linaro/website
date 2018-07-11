@@ -1,5 +1,4 @@
 ---
-initiative_id: "4"
 title: Linaro Connect
 description: |-
     Linaro Connect brings together engineers and industry experts to discuss, learn, network and push forward new technologies in some of the most interesting cities around the world.

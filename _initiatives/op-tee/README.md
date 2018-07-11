@@ -1,5 +1,4 @@
 ---
-initiative_id: "9"
 title: OP-TEE
 description: |-
     OP-TEE stands for Open Portable Trusted Execution Environment. The project has
