@@ -1,5 +1,4 @@
 ---
-initiative_id: "3"
 title: Linaro Developer Cloud
 description: |-
     The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack.

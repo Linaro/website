@@ -1,5 +1,4 @@
 ---
-initiative_id: "5"
 title: DeviceTree
 description: |-
     Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard.

@@ -23,35 +23,99 @@ image:
 </div>
 
 <div id="speakers">
-    <div class="col-xs-12 col-sm-4 no-padding">
-        <div class="speaker">
-            <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
-            <span class="speaker-name">Simon McIntosh-Smith</span>
-            <p>
-            Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
-            </p>
-            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Bio</button>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+                <span class="speaker-name">Simon McIntosh-Smith</span>
+                <span class="speaker-talk-title">Isambard: the world's first production Arm-based supercomputer</span>
+                <p>
+                The Isambard supercomputer is due to be the world's first production, Arm-based system when it goes online in the summer of 2018. The project, run by the GW4 alliance and the UK's Met Office, has already produced significant results using early access systems based on Cavium ThunderX2 CPUs.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'Gilad.jpg' %})"></div>
+                <span class="speaker-name">Gilad Shainer and Scot Schultz</span>
+                <span class="speaker-talk-title">Intelligent Interconnect Architecture to Enable Next Generation HPC</span>
+                <p>
+                The latest revolution in HPC interconnect architecture is the development of In-Network Computing, a technology that  enables handling and accelerating application workloads at the network level.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#giladShainer">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
+                <span class="speaker-name">Andrew J Younge</span>
+                <span class="speaker-talk-title">Vanguard Astra - Petascale ARM Platform for U.S. DOE/ASC Supercomputing</span>
+                <p id="P_1">
+                    The Vanguard program looks to expand the potential technology choices for leadership-class High Performance Computing (HPC) platforms, not only for the National Nuclear Security Administration (NNSA) but for the Department of Energy (DOE) and wider HPC community.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Abstract/Bio</button>
+            </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-4 no-padding">
-        <div class="speaker">
-            <div class="speaker-photo" style="background-image: url({% asset_path 'Gilad.jpg' %})"></div>
-            <span class="speaker-name">Gilad Shainer</span>
-            <p>
-            Gilad Shainer has served as Mellanox's vice president of marketing Mr. Shainer serves as the chairman of the HPC Advisory Council organization, he serves as a board member in the OpenPOWER, CCIX, OpenCAPI and UCF organizations, a member of IBTA and contributor to the PCISIG PCI-X and PCIe specifications.
-            </p>
-            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#giladShainer">Full Bio</button>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'pavel.jpg' %})"></div>
+                <span class="speaker-name">Pavel Shamis</span>
+                <span class="speaker-talk-title">HPC network stack on ARM</span>
+                <p>
+                    Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today's and tomorrow's high-performance and data center computer environments. 
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#pavel">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
+                <span class="speaker-name">Yutaka Ishikawa</span>
+                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
+                <p>
+                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
+                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <span class="speaker-name">Joel Jones</span>
+                <span class="speaker-talk-title">Optimizing for ARM64—A Toolchain Perspective</span>
+                <p>
+                    Optimizing for ARM64 has some unique features that optimization for x86 does not. We will describe what those features are, including...
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joelJones">Full Abstract/Bio</button>
+            </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-4 no-padding">
-        <div class="speaker">
-            <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
-            <span class="speaker-name">Andrew J Younge</span>
-            <p id="P_1">
-            	Andrew Younge is a R&amp;D Computer Scientist at <a href="http://www.sandia.gov/" id="A_2">Sandia National Laboratories</a> with the <a href="http://www.cs.sandia.gov/web1423/" id="A_3">Scalable System Software</a> group. His research interests include Cloud Computing, Virtualization, Distributed Systems, and energy efficient computing.
-                <br>
-            </p>
-            <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Bio</button>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <span class="speaker-name">Jay Kruemcke</span>
+                <span class="speaker-talk-title">It just keeps getting better - SUSE enablement for Arm</span>
+                <p>
+                    SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#jayKruemcke">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <span class="speaker-name">Ryan Hulguin</span>
+                <span class="speaker-talk-title">Cross Platform Performance Engineering</span>
+                <p>
+                    High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#hulguin">Full Abstract/Bio</button>
+            </div>
         </div>
     </div>
 </div>
@@ -62,9 +126,17 @@ image:
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Andrew J Younge Bio</h4>
+        <h4 class="modal-title" id="myModalLabel">Andrew J Younge Full Abstract/Bio</h4>
       </div>
       <div class="modal-body">
+      <h3>Vanguard Astra - Petascale ARM Platform for U.S. DOE/ASC Supercomputing</h3>
+      <p>
+          The Vanguard program looks to expand the potential technology choices for leadership-class High Performance Computing (HPC) platforms, not only for the National Nuclear Security Administration (NNSA) but for the Department of Energy (DOE) and wider HPC community. Specifically, there is a need to expand the supercomputing ecosystem by investing and developing emerging, yet-to-be-proven technologies and address both hardware and software challenges together, as well as to prove-out the viability of such novel platforms for  production HPC workloads.
+       </p>
+       <p>
+           The first deployment of the Vanguard program will be Astra, a prototype Petascale ARM supercomputer to be sited at Sandia National Laboratories during 2018. This talk will focus on the arthictecural details of Astra and the significant investments being made towards the maturing the ARM software ecosystem.  Furthermore, we will share initial performance results based on our pre-general availability testbed system and outline several planned research activities for the machine."
+       </p>
+      <h3>Bio</h3>
       <p id="P_1">
           Andrew Younge is a R&amp;D Computer Scientist at <a href="http://www.sandia.gov/" id="A_2">Sandia National Laboratories</a> with the <a href="http://www.cs.sandia.gov/web1423/" id="A_3">Scalable System Software</a> group. His research interests include Cloud Computing, Virtualization, Distributed Systems, and energy efficient computing. Andrew has a Ph.D in Computer Science from <a href="http://soic.indiana.edu" id="A_4">Indiana University</a>, where he was the Persistent Systems fellow and a member of the <a href="http://futuregrid.org" id="A_5">FutureGrid</a> project, an NSF-funded experimental cyberinfrastructure test-bed. Over the years, Andrew has held visiting positions at the <a href="https://www.mitre.org/" id="A_6">MITRE Corporation</a>, the <a href="http://www.isi.edu/research_groups/apex/apex_overview" id="A_7">University of Southern California / Information Sciences Institute</a>, and the <a href="http://lattice.umiacs.umd.edu/" id="A_8">University of Maryland, College Park</a>. He received his Bachelors and Masters of Science from the Computer Science Department at <a href="http://cs.rit.edu" id="A_9">Rochester Institute of Technology</a> (RIT) in 2008 and 2010, respectively.
       </p>
@@ -75,15 +147,19 @@ image:
     </div>
   </div>
 </div>
-<!-- Speaker Modals -->
 <div class="modal fade" id="simonMcIntoshSmith" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Simon McIntosh-Smith Bio</h4>
+        <h4 class="modal-title" id="myModalLabel">Simon McIntosh-Smith Full Abstract/Bio</h4>
       </div>
       <div class="modal-body">
+      <h3>Isambard: the world's first production Arm-based supercomputer</h3>
+      <p>
+      The Isambard supercomputer is due to be the world's first production, Arm-based system when it goes online in the summer of 2018. The project, run by the GW4 alliance and the UK's Met Office, has already produced significant results using early access systems based on Cavium ThunderX2 CPUs. The production Isambard system will be a Cray XC50, complete with Cray's software toolchain ported to Arm. Isambard's early results compare the two most common open-source compilers - GNU and LLVM - with Cray's compiler. Early results suggest that Cavium ThunderX2 CPUs are performance competitive with the latest x86 CPUs, while delivering compelling performance per dollar advantages. Our experience has also been that porting complex production codes of millions of lines of legacy code is relatively painless, a significant achievement for the Arm software ecosystem. However, there are still some areas where improvement is required, and we shall highlight those in this talk.
+      </p>
+      <h3>Bio</h3>
       <p>
       Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
       </p>
@@ -101,22 +177,168 @@ image:
     </div>
   </div>
 </div>
-
-<!-- Speaker Modals -->
 <div class="modal fade" id="giladShainer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Gilad Shainer Bio</h4>
+        <h4 class="modal-title" id="myModalLabel">Gilad Shainer and Scot Schultz Full Abstract/Bio</h4>
       </div>
       <div class="modal-body">
+      <h3>Intelligent Interconnect Architecture to Enable Next Generation HPC</h3>
+      <p>
+      The latest revolution in HPC interconnect architecture is the development of In-Network Computing, a technology that  enables handling and accelerating application workloads at the network level. By placing data-related algorithms on an intelligent network, we can overcome the new performance bottlenecks and improve the data center and applications performance. The combination of In-Network Computing and ARM based processors offer a rich set of capabilities and opportunities to build the next generation of HPC platforms.
+      </p>
+      <h3>Gilad Shainer Bio</h3>
       <p>
       Gilad Shainer has served as Mellanox's vice president of marketing Mr. Shainer serves as the chairman of the HPC Advisory Council organization, he serves as a board member in the OpenPOWER, CCIX, OpenCAPI and UCF organizations, a member of IBTA and contributor to the PCISIG PCI-X and PCIe specifications.
       </p>
       <p>
        Mr. Shainer holds multiple patents in the field of high-speed networking. He is also a recipient of 2015 R&D100 award for his contribution to the CORE-Direct collective offload technology. Gilad Shainer holds a MSc degree and a BSc degree in Electrical Engineering from the Technion Institute of Technology in Israel.
        </p>
+       <h3>Scot Schultz Bio</h3>
+       <p>
+       Scot Schultz is a HPC technology specialist with broad knowledge in operating systems, high speed interconnects and processor technologies. Joining the Mellanox team in 2013, Schultz is 30-year veteran of the computing industry. Prior to joining Mellanox, he spent the past 17 years at AMD in various engineering and leadership roles in the area of high performance computing. Scot has also been instrumental with the growth and development of various industry organizations including the Open Fabrics Alliance, and continues to serve as a founding board-member of the OpenPOWER Foundation and Director of Educational Outreach and founding member of the HPC-AI Advisory Council.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ishikawa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Yutaka Ishikawa Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Post-K and Arm HPC Ecosystem</h3>
+      <p>
+        Post-K, a flagship supercomputer in Japan, is being developed by Riken
+        and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
+        This talk will give an overview of Post-K and how RIKEN and Fujitsu
+        are currently working on software stack for an Arm architecture.
+      </p>    
+      <h3>Bio</h3>
+      <p>
+        Yutaka Ishikawa is the project leader of FLAGSHIP 2020 project at
+        Riken Center for Computational Science, Japan. Ishikawa received PhD
+        degree in electrical engineering from Keio University. From 1987 to
+        2001, he was a member of AIST (former Electrotechnical Laboratory),
+        METI. From 1993 to 2001, he was the chief of Parallel and Distributed
+        System Software Laboratory at Real World Computing Partnership. From
+        2002 to 2006 and from 2006 to 2014, he was an associate professor and
+        a professor at the University Tokyo, respectively. From 2010 to 2014,
+        he was also the director of Information Technology Center at the
+        University of Tokyo.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="pavel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Pavel Shamis Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>HPC network stack on ARM</h3>
+      <p>
+      Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today¹s and tomorrow's high-performance and data center computer environments. Modern RDMA based network interconnects provides incredibly rich functionality (RDMA, Atomics, OS-bypass, etc.) that enable low-latency and high-bandwidth communication services. The functionality is supported by a variety of interconnect technologies such as InfiniBand, RoCE, iWARP, Intel OPA, Cray¹s Aries/Gemini, and others. Over the last decade, the HPC community has developed variety user/kernel level protocols and libraries that enable a variety of high-performance applications over RDMA interconnects including MPI, SHMEM, UPC, etc. With the emerging availability HPC solutions based on ARM CPU architecture it is important to understand how ARM integrates with the RDMA hardware and HPC network software stack. In this talk, we will overview ARM architecture and system software stack, including MPI runtimes, OpenSHMEM, and OpenUCX. 
+      </p>
+      <h3>Bio</h3>
+      <p>
+      Pavel is a Principal Research Engineer at ARM with over 16 years of experience in development HPC solutions. His work is focused on co-design software and hardware building blocks for high-performance interconnect technologies, development communication middleware and novel programming models. Prior to joining ARM, he spent five years at Oak Ridge National Laboratory (ORNL) as a research scientist at Computer Science and Math Division (CSMD). In this role, Pavel was responsible for research and development multiple projects in high-performance communication domain including: Collective Communication Offload (CORE-Direct & Cheetah), OpenSHMEM, and OpenUCX. Before joining ORNL, Pavel spent ten years at Mellanox Technologies, where he led Mellanox HPC team and was one of the key driver in enablement Mellanox HPC software stack, including OFA software stack, OpenMPI, MVAPICH, OpenSHMEM, and other.     
+       </p>
+       <p>
+       Pavel is a recipient of prestigious R&D100 award for his contribution in development of the CORE-Direct collective offload technology and he published in excess of 20 research papers.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="joelJones" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Joel Jones Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Optimizing for ARM64—A Toolchain Perspective</h3>
+      <p>
+      Optimizing for ARM64 has some unique features that optimization for x86 does not. We will describe what those features are, including:
+      </p>
+      <ul>
+         <li>Importance of having latest tools and libraries</li>
+         <li>Using existing optimizations as a guide to optimizing for ARM64</li>
+         <li>Configuring tools for best optimization results</li>
+         <li>Current status of HPC library and application performance</li>
+         <li>Effects of hardware and configuration considerations</li>
+         <li>Our experiences with various optimization techniques on numerous HPC applications and libraries</li>
+     </ul>
+      <h3>Bio</h3>
+      <p>
+      Joel Jones has worked at Cavium for five years and currently leads the toolchain team. He has worked for Apple, Transcella, Coverity, Wind River, and others. He has been a professor of computer science, and has a PhD in Computer Science from the University of Illinois. 
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="jayKruemcke" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Jay Kruemcke Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>It just keeps getting better - SUSE enablement for Arm</h3>
+      <p>
+          SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage. But we have enabled a number of other Arm SoCs and are even supporting the Raspberry Pi. This session will cover the SUSE products that are available for the Arm platform and view to the future. 
+      </p>
+      <h3>Bio</h3>
+      <p>
+      Jay is responsible for the SUSE Linux server products for High Performance Computing, 64-bit ARM systems, and SUSE Linux for IBM Power servers. 
+       </p>
+       <p>
+       Jay has built an extensive career in product management including using social media for client collaboration, product positioning, driving future product directions, and evangelizing the capabilities and future directions for dozens of enterprise products. 
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="hulguin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Ryan Hulguin Full Abstract</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Cross Platform Performance Engineering</h3>
+      <p>
+            High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.  This talk will present a methodology for porting HPC applications to Arm, and the ecosystem of cross platform performance engineering toolkits and libraries that is currently available on Arm.  An overview and use cases for Arm Forge, PAPI, ScoreP, TAU and others will be provided along with guidance and advice for HPC performance engineering on the latest Arm-based CPU offerings.
+      </p>
+    
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
