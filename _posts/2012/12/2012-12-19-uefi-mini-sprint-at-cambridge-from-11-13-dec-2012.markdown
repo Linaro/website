@@ -23,4 +23,4 @@ We had a wonderful Linaro UEFI mini-sprint at Cambridge from 11-13 Dec and fixed
 
 [ I](/about/) worked to build it for the latest tool chain as I always end up using old tool chains resulting code breaking in latest tool chains. There was a lot of planning and discussions related to UEFI on Arm led by [Andrea](/about/).
 
-The UEFI boot loader [LEG](/groups/leg/) has ported to Arnadle is capable for microSD boot now. We are working to add SATA and network boot support on it now. The binary and setup for the Arndale is available here [https://wiki.linaro.org/Boards/Arndale/Setup/UEFI](https://wiki.linaro.org/Boards/Arndale/Setup/UEFI).
+The UEFI boot loader [LEG](/engineering/groups/ldcg/) has ported to Arnadle is capable for microSD boot now. We are working to add SATA and network boot support on it now. The binary and setup for the Arndale is available here [https://wiki.linaro.org/Boards/Arndale/Setup/UEFI](https://wiki.linaro.org/Boards/Arndale/Setup/UEFI).

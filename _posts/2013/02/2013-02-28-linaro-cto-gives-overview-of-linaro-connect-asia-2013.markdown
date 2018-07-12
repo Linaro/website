@@ -31,7 +31,7 @@ To see the full discussion check out the video:
 
 More information about the topics discussed in this interview  can be found at:
 
-  * **Linaro Connect:** [/connect/](/initiatives/connect/)
+  * **Linaro Connect:** [/connect/](https://connect.linaro.org)
 
 
   * **Linaro Connect Schedule:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
@@ -52,4 +52,4 @@ More information about the topics discussed in this interview  can be found at:
   * **Linaro Networking Group (LNG):** [/blog/lng/](/blog/lng/)
 
 
-  * **Linaro Enterprise Group (LEG):** [/groups/leg/](/groups/leg/)
+  * **Linaro Enterprise Group (LEG):** [/engineering/groups/ldcg/](/engineering/groups/ldcg/)

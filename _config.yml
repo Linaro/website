@@ -123,6 +123,11 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
+        type: "si"
+    values:
+        layout: work-layout
+  - scope:
+        path: ""
         type: "sig"
     values:
         layout: work-layout
@@ -310,6 +315,8 @@ collections:
     sig:
         output: true
         permalink: /:collection/:path/
+    si:
+        output: true
     services:
         output: true
         permalink: /:collection/:name/

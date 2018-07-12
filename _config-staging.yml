@@ -125,6 +125,11 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
+        type: "si"
+    values:
+        layout: work-layout
+  - scope:
+        path: ""
         type: "sig"
     values:
         layout: work-layout
@@ -136,7 +141,7 @@ defaults:
       path: ""
     values:
       image: /assets/images/social-media-image.png
-
+      
 # Gems that should be included in the Jekyll builld of this site.
 plugins:
   - jekyll-seo-tag
@@ -312,6 +317,8 @@ collections:
     sig:
         output: true
         permalink: /:collection/:path/
+    si:
+        output: true
     services:
         output: true
         permalink: /:collection/:name/

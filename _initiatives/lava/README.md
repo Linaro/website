@@ -4,13 +4,11 @@ title: LAVA
 description: |-
     LAVA - Validation is key to the delivery of robust code and is an ongoing process involving multiple teams.
 keywords: Linaro, Validation, Automation, Test, feedback, Linux, hardware, Build
-permalink: /initiatives/lava/
+permalink: /engineering/initiatives/lava/
 icon: lava-logo.png
 featured_video: https://www.youtube.com/embed/6jwYymfauik?feature=oembed
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPqZwWtTbWEDG8Mni_e4qtJ
 ---
-# LAVA
-
 Validation is key to the delivery of robust code and is an ongoing process involving multiple teams, covering four components:
 
 - Device Automation

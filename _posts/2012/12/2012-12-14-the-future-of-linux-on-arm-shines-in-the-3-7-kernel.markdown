@@ -45,7 +45,7 @@ At Linaro, support for this newest architecture continued to grow and at LCE12 -
 
 [Andrea Gallo](/about/), Director of the Linaro Enterprise Group (LEG), commented that "Armv8 support in the 3.7 Kernel release represents a major milestone for our work at LEG. We will leverage on it for all our developments on the Arm Foundation model towards enabling the 64-bit enterprise server workloads. We are eager to demonstrate early UEFI and ACPI work on AArch64 and 3.7 kernel at next the Linaro Connect in Hong Kong"
 
-Linaro also made early [Armv8 images](/initiatives/armv8/) available to interested developers and provided links to the [Armv8 architecture introduction](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
+Linaro also made early [Armv8 images](/engineering/initiatives/armv8/) available to interested developers and provided links to the [Armv8 architecture introduction](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
 
 
 ### Virtualization features
@@ -59,7 +59,7 @@ Additional references to Arm support in the 3.7 Linux Kernel include virtualizat
 
 Excitement continues to grow throughout the Linux and Arm development communities as articles about the inclusion of Arm support in the 3.7 Linux Kernel circulate.
 
-“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/groups/leg/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with Arms to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/groups/leg/), which Kerner references in his article.
+“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/engineering/groups/ldcg/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with Arms to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/engineering/groups/ldcg/), which Kerner references in his article.
 
 Jon Gold of Network World referenced the inclusion of these new features as “groundbreaking” in his [Linux 3.7 adds major new Arm processor support]() post.
 

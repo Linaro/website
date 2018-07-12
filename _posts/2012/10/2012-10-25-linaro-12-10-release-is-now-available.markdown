@@ -52,7 +52,7 @@ On the Armv8 front, Linaro is now making early Armv8 images available to interes
 * * *
 
 
-While there is currently no Armv8 hardware available, Arm and Linaro have developed support for AArch64/A64 against virtual platforms and started sending the resulting patches to various open source projects. With the [Linaro provided downloads](/blog/linaro-armv8-downloads-now-available/) and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries. These downloads are currently in beta, but they should just work and we are looking towards including them as part of our monthly releases. For more information on these Armv8 images please take a look at the Linaro Engineer pages on the [Linaro website](/initiatives/armv8/).
+While there is currently no Armv8 hardware available, Arm and Linaro have developed support for AArch64/A64 against virtual platforms and started sending the resulting patches to various open source projects. With the [Linaro provided downloads](/blog/linaro-armv8-downloads-now-available/) and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries. These downloads are currently in beta, but they should just work and we are looking towards including them as part of our monthly releases. For more information on these Armv8 images please take a look at the Linaro Engineer pages on the [Linaro website](/engineering/initiatives/armv8/).
 
 
 * * *

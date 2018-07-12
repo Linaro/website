@@ -1,13 +1,13 @@
 ---
-group_id: 4
-title: Linaro Mobile Group (LMG)
+group_id: 1
+title: Linaro Consumer Group (LCG)
 description: |-
     Linaro was founded by companies focused on working together in the mobile space.
 keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables
-permalink: /groups/lmg/
+permalink: /engineering/groups/lcg/
 group_short_name: lmg
 group_long_name: Linaro Mobile Group
-icon: lmg_icon.png
+#icon: lmg_icon.png
 director: Tom Gall
 related_projects:
   - "1"
@@ -24,8 +24,6 @@ other_projects:
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 members_key: lmg_members
-redirect_from:
-- /lmg/
 ---
 Linaro was founded by companies focused on working together in the mobile space. As Linaro’s work broadened beyond mobile, discussions in the Technical Steering Committee (TSC) similarly broadened and towards the end of 2013, a mobile sub-committee (MOBSCOM) was formed to deal with mobile discussions in more detail. In July 2014, this sub-committee was replaced by the Linaro Mobile Group (LMG) and its associated steering committee (LMG-SC). Information about LMG is available on the Linaro wiki: https://wiki.linaro.org/LMG.
 

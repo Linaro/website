@@ -17,11 +17,11 @@ columns:
         - text: Core Engineering
           url : /engineering/core/
         - text: Segment Groups
-          url : /groups/
+          url : /engineering/groups/
         - text: Lead Projects
           url : /projects/
         - text: Initiatives
-          url : /initiatives/
+          url : /engineering/initiatives/
         - text: Developer Services
           url : /services/
     - title: Downloads

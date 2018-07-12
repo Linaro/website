@@ -159,11 +159,18 @@
     margin-bottom: 20px;
 }
 
-span.speaker-name {
-    text-align:  center;
+span.speaker-talk-title {
+    text-align: center;
     width: 100%;
     display: block;
     font-size: 24px;
+    margin-bottom: 20px;
+}
+span.speaker-name {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -201,8 +208,6 @@ h2#featured-speakers {
     font-size:  40px;
     font-weight:  normal;
 }
-
-
 button.btn.btn-primary.full-bio {
     display:  block;
     margin-left: auto;
@@ -216,4 +221,71 @@ button.btn.btn-primary.full-bio:hover {
 
 .row.arm-hpc-row.speakers {
     padding-bottom: 50px;
+}
+
+//Eventbrite Custom CSS
+header.eds-modal__header{
+   background-color: #1b141d !important;
+}
+
+
+body .eds-text-color--grey-800 {
+   color:#1aa8ff;
+   font-weight:bold;
+}
+
+span.eds-align--center {
+   color:#afafaf;
+}
+
+.eds-modal__content__children {
+   background-color: #2b2133;
+}
+
+.eds-modal .eds-modal__footer-background {
+   box-shadow:none;
+}
+
+.eds-modal__footer-background {
+   background-color: #2b2233 !important;
+   border-top-color:#white !important;
+}
+
+.eds-g-cell.eds-g-cell-1-1.eds-l-mar-bot-2.eds-text-color--grey-600 {
+   color:#c6c6c6;
+}
+
+aside.eds-collapsible-pane-layout__content.checkout-widget__ticket-page--pane-content {
+   background-color:#2b2333;
+   color:white;
+}
+
+span.eds-text-bm--fixed {
+   color:gainsboro;
+}
+
+// Schedule
+
+#schedule td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color:#131313;
+}
+
+#schedule td:nth-child(-n+3){
+    font-weight: bold;
+}
+
+#schedule th {
+    display: none;
+}
+#schedule tr:first-child {
+    border-top: none;
+    display: none;
+}
+#schedule table{
+    border-bottom: none;
 }
