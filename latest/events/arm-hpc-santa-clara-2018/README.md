@@ -210,7 +210,7 @@ image:
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'alex.jpg' %})"></div>
                 <span class="speaker-name">Alex Bennée</span>
                 <span class="speaker-talk-title">Setting up an SVE developer environment</span>
                 <p>
@@ -223,7 +223,7 @@ image:
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'renato.jpg' %})"></div>
                 <span class="speaker-name">Renato Golin</span>
                 <span class="speaker-talk-title">OpenHPC Automation with Ansible</span>
                 <p>
