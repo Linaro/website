@@ -265,3 +265,29 @@ aside.eds-collapsible-pane-layout__content.checkout-widget__ticket-page--pane-co
 span.eds-text-bm--fixed {
    color:gainsboro;
 }
+
+// Schedule
+
+#schedule td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color:#131313;
+}
+
+#schedule td:nth-child(-n+3){
+    font-weight: bold;
+}
+
+#schedule th {
+    display: none;
+}
+#schedule tr:first-child {
+    border-top: none;
+    display: none;
+}
+#schedule table{
+    border-bottom: none;
+}
