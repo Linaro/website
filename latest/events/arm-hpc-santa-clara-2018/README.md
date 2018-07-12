@@ -15,12 +15,103 @@ image:
     </div>
 </div>
 
-<div class="row arm-hpc-row speakers">
+
+<div class="row arm-hpc-row main">
 <div class="container">
+
+
+<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
+  <li role="presentation" class="active">
+    <a href="#welcome" role="tab" data-toggle="tab">
+        Welcome
+    </a>
+  </li>
+  <li role="presentation" class="">
+    <a href="#featured-speakers" role="tab" data-toggle="tab">
+        Speakers
+    </a>
+  </li>
+  <li role="presentation" class="">
+    <a href="#schedule" role="tab" data-toggle="tab">
+        Schedule
+    </a>
+  </li>
+</ul>
+
+<div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
+
+<div role="tabpanel" class="tab-pane tab-pane-legal active" id="welcome">
+
+<div class="col-sm-6" markdown="1">
+
+**Arm Architecture HPC Workshop** __by Linaro and HiSilicon  on 26th July 2018__ – At the Huawei campus in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
+
+*   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
+*   OS and Runtime
+*   Tools
+*   Math Libraries
+*   Orchestration
+*   Machine Learning
+
+**For End Users**: In the Arm Architecture HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
+
+**For Arm Members and Partners**: The Arm Architecture HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
+
+**You can expect**:
+
+*   Exciting best practices and technology outlooks with peers from the Arm ecosystem
+*   Unique opportunities to network with current Arm users, vendors and the developer community
+*   We are looking forward to your visit!
+
+**Arm Architecture HPC Workshop**
+
+*   Cost (Free)
+*   Sponsorship options available
+
+</div>
+
+<div class="col-sm-6">
+
+<div id="eventbrite-widget-container-46288258427"></div>
+
+<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '46288258427',
+        iframeContainerId: 'eventbrite-widget-container-46288258427',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
+<div id="call-for-papers">
+
+<h2>Call for Papers is <span>open</span></h2>
+<a href="https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
+<h3>Deadline for submissions 28th June</h3>
+
+</div>
+
+
+</div>
+
+</div><!--End Tab Content-->
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="featured-speakers">
 
 <div class="col-xs-12 text-center">
     <h2 id="featured-speakers">Featured Speakers</h2>
 </div>
+
 
 <div id="speakers">
     <div class="row">
@@ -349,90 +440,38 @@ image:
 
 
 </div>
-</div>
-
-<div class="row arm-hpc-row main">
-<div class="container">
-
-
-<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-  <li role="presentation" class="active">
-    <a href="#welcome" role="tab" data-toggle="tab">
-        Welcome
-    </a>
-  </li>
-</ul>
-
-<div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
-
-<div role="tabpanel" class="tab-pane tab-pane-legal active" id="welcome">
-
-
-<div class="col-sm-6" markdown="1">
-
-**Arm Architecture HPC Workshop** __by Linaro and HiSilicon  on 26th July 2018__ – At the Huawei campus in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g). How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
-
-*   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
-*   OS and Runtime
-*   Tools
-*   Math Libraries
-*   Orchestration
-*   Machine Learning
-
-**For End Users**: In the Arm Architecture HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
-
-**For Arm Members and Partners**: The Arm Architecture HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
-
-**You can expect**:
-
-*   Exciting best practices and technology outlooks with peers from the Arm ecosystem
-*   Unique opportunities to network with current Arm users, vendors and the developer community
-*   We are looking forward to your visit!
-
-**Arm Architecture HPC Workshop**
-
-*   Cost (Free)
-*   Sponsorship options available
-
-</div>
-
-<div class="col-sm-6">
-
-<div id="eventbrite-widget-container-46288258427"></div>
-
-<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule">
 
 <script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
+function defer(method) {
+    if (window.jQuery) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+}
 
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '46288258427',
-        iframeContainerId: 'eventbrite-widget-container-46288258427',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+defer(function () {
+    $( document ).ready( function() {
+        $.ajax({ url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSFen4MS55oRGie5A9KRhnQyPpRdUhy7rv-8zi87dFMrhKRzvC0UYRszwdMhw367RnykL4TvQs1CmUC/pubhtml?gid=0&single=true', dataType: 'html', crossDomain: true, success:         function(response) {
+             var tableEl = $(response).find('.grid-container');
+             $('#schedule').html(response).promise().done(function(){
+                 $("table.waffle").addClass("table-responsive");
+                 $( "#doc-title" ).remove();
+                 $( "#schedule thead" ).remove();
+                 $( "#schedule #top-bar" ).remove();
+                 $( "#schedule #footer" ).remove();
+            });
+        }
+               
+        });
     });
+});
+
+    
 </script>
 
-<div id="call-for-papers">
-
-<h2>Call for Papers is <span>open</span></h2>
-<a href="https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
-<h3>Deadline for submissions 28th June</h3>
-
-</div>
-
-
-</div>
-
-
-</div>
-
+<div id="schedule"></div> 
 
 </div><!--End Tab Content-->
 
