@@ -123,6 +123,11 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
+        type: "strategic-initiatives"
+    values:
+        layout: work-layout
+  - scope:
+        path: ""
         type: "sig"
     values:
         layout: work-layout
@@ -308,6 +313,9 @@ collections:
         output: true
         permalink: /:collection/:path/
     sig:
+        output: true
+        permalink: /:collection/:path/
+    strategic-initiatives:
         output: true
         permalink: /:collection/:path/
     services:
