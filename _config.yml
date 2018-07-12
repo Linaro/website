@@ -317,7 +317,6 @@ collections:
         permalink: /:collection/:path/
     si:
         output: true
-        permalink: /:collection/:path/
     services:
         output: true
         permalink: /:collection/:name/
