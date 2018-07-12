@@ -52,4 +52,4 @@ More information about the topics discussed in this interview  can be found at:
   * **Linaro Networking Group (LNG):** [/blog/lng/](/blog/lng/)
 
 
-  * **Linaro Enterprise Group (LEG):** [/groups/leg/](/groups/leg/)
+  * **Linaro Enterprise Group (LEG):** [/engineering/groups/ldcg/](/engineering/groups/ldcg/)
