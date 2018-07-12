@@ -35,31 +35,28 @@ pages:
     list:
       -
         title: Initiatives
-        url: /initiatives/
+        url: /engineering/initiatives/
       -
         title: Armv8
-        url: /initiatives/armv8/
+        url: /engineering/initiatives/armv8/
       -
         title: KernelCI
-        url: /initiatives/kernelci/
+        url: /engineering/initiatives/kernelci/
       -
         title: LAVA
-        url: /initiatives/lava/
+        url: /engineering/initiatives/lava/
       -
         title: LSK
-        url: /initiatives/lsk/
-    urls: [/initiatives/, /initiatives/kernelci/, /initiatives/lsk/,/initiatives/armv8/, /initiatives/lava/]
+        url: /engineering/initiatives/lsk/
+      -
+        title: Performance
+        url: /engineering/initiatives/performance/
+    urls: [/engineering/initiatives/, /engineering/initiatives/kernelci/, /engineering/initiatives/lsk/,/engineering/initiatives/armv8/, /engineering/initiatives/lava/, /engineering/initiatives/performance/]
   -
     list:
       -
         title: Lead Projects
         url: /projects/
-      -
-        title: Mobile AOSP Optimization
-        url: /projects/aosp/
-      -
-        title: Reference Digital Media Platforms for Arm
-        url: /projects/reference-digital-media-platforms-for-arm/
       -
         title: Big Data
         url: /projects/bigdata/
@@ -76,34 +73,44 @@ pages:
         title: Open Source Security
         url: /projects/open-source-security/
       -
-        title: OpenDataPlane
-        url: /projects/opendataplane/
+        title: Reference Digital Media Platforms for Arm
+        url: /projects/reference-digital-media-platforms-for-arm/
       -
         title: Reference Platforms
         url: /projects/reference-platforms/
-    urls: [/projects/,/projects/aosp/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
+    urls: [/projects/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
   -
     list:
       -
         title: Segment Groups
-        url: /groups/
+        url: /engineering/groups/
       -
-        title: Linaro Enterprise Group (LEG)
-        url: /groups/leg/
+        title: Linaro Datacenter & Cloud Group (LDCG) 
+        url: /engineering/groups/ldcg/
       -
-        title: Linaro Networking Group (LNG)
-        url: /groups/lng/
+        title: Linaro Edge & Fog Computing (LEDGE)
+        url: /engineering/groups/ledge/
       -
-        title: Linaro Home Group (LHG)
-        url: /groups/lhg/
-      -
-        title: Linaro Mobile Group (LMG)
-        url: /groups/lmg/
+        title: Linaro Consumer Group (LCG)
+        url: /engineering/groups/lcg/
       -
         title: Linaro IoT & Embedded Group (LITE)
-        url: /groups/lite/
+        url: /engineering/groups/lite/
 
-    urls: [/groups/, /groups/leg/, /groups/lhg/, /groups/lite/, /groups/lmg/, /groups/lng/]
+    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/ledge/, /engineering/groups/lcg/, /engineering/groups/lite/]
+  -
+    list:
+      -
+        title: Strategic Initiatives
+        url: /engineering/si/
+      -
+        title: Machine Intelligence
+        url: /engineering/si/machine-intelligence/
+      -
+        title: Autonomous Vehicles (LAVS)
+        url: /engineering/si/autonomous-vehicles/
+
+    urls: [/engineering/si/, /engineering/si/machine-intelligence/, /engineering/si/autonomous-vehicles/]
   -
     list:
       - title: Special Interest Group (SIG)
