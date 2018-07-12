@@ -26,10 +26,7 @@ pages:
       -
         title: Security
         url: /engineering/core/security/
-      -
-        title: Virtualization
-        url: /engineering/core/virtualization/
-    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/, /engineering/core/]
+    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/toolchain/, /engineering/core/]
     sub-pages-enabled: true
   -
     list:
