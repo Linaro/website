@@ -208,10 +208,80 @@ image:
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#hulguin">Full Abstract/Bio</button>
             </div>
         </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'alex.jpg' %})"></div>
+                <span class="speaker-name">Alex Bennée</span>
+                <span class="speaker-talk-title">Setting up an SVE developer environment</span>
+                <p>
+                    ARM's SVE instructions provide a whole new set of features for HPC computing. Engineers are understandably keen to start making sure their software is ready to take advantage as soon as hardware arrives.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#alex">Full Abstract/Bio</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'renato.jpg' %})"></div>
+                <span class="speaker-name">Renato Golin</span>
+                <span class="speaker-talk-title">OpenHPC Automation with Ansible</span>
+                <p>
+                    In order to test OpenHPC packages and components and to use it as a platform to benchmark HPC applications, Linaro is developing an automated deployment strategy, using Ansible, Mr-Provisioner and Jenkins, to install the OS, OpenHPC and prepare the environment on varied architectures (Arm, x86).
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#renato">Full Abstract/Bio</button>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- Speaker Modals -->
+<div class="modal fade" id="renato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Renato Golin Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>OpenHPC Automation with Ansible</h3>
+      <p>
+        In order to test OpenHPC packages and components and to use it as a platform to benchmark HPC applications, Linaro is developing an automated deployment strategy, using Ansible, Mr-Provisioner and Jenkins, to install the OS, OpenHPC and prepare the environment on varied architectures (Arm, x86). This work is meant to replace the existing ageing Bash-based recipes upstream while still keeping the documents intact. Our aim is to make it easier to vary hardware configuration, allow for different provisioning techniques and mix internal infrastructure logic to different labs, while still using the same recipes. We hope this will help more people use OpenHPC with a better out-of-the-box experience and with more robust results
+       </p>
+      <h3>Bio</h3>
+      <p id="P_1">
+          He started programming in the late 80's in C for PCs after a few years playing with 8-bit computers, but he only started programming professionally in the late 90's during the .com bubble. After many years working on Internet's back-end, he moved to UK and worked a few years on bioinformatics at EBI before joining ARM, where he worked on the DS-5 debugger and on the EDG-to-LLVM bridge, where he became the LLVM Tech Lead. Recently, he worked with large clusters and big data at HPCC before moving to Linaro.
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="alex" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Alex Bennée Full Abstract/Bio</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Setting up an SVE developer environment</h3>
+      <p>
+          ARM's SVE instructions provide a whole new set of features for HPC computing. Engineers are understandably keen to start making sure their software is ready to take advantage as soon as hardware arrives. Up until now that has meant building and running in slow system emulation models. Fortunately the latest QEMU now supports SVE instruction in it's Linux user-emulation mode. Alex will talk through how to set this up so building and testing your SVE enabled code is as easy as running make.
+       </p>
+      <h3>Bio</h3>
+      <p id="P_1">
+          Long time systems and embedded developer with a side of Dynamic Binary Translation. Alex started learning to program in the 80s in an era of classic home computers that allowed you to get down and dirty at the system level. After graduating with a degree in Chemistry he's worked on a variety of projects including Fruit Machines, Line Cards, CCTV recorders and point-to-multipoint wireless microwave systems. Since the turn of the century his primary focus has been working with FLOSS platforms, especially Linux. An alumni of Transitive he has a broad experience of cross-platform virtualization as well as a strong background in telecommunications and networking. A keen Emacs user he will happily answer questions and proselytise for the One True Editor (tm).
+      </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="modal fade" id="andrewJYounge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
