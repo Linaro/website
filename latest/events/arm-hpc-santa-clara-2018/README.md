@@ -139,6 +139,11 @@ image:
         Welcome
     </a>
   </li>
+  <li role="presentation" class="">
+    <a href="#schedule" role="tab" data-toggle="tab">
+        Schedule
+    </a>
+  </li>
 </ul>
 
 <div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
@@ -208,9 +213,11 @@ image:
 
 </div>
 
+</div><!--End Tab Content-->
 
-</div>
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule">
 
+<h1>Schedule</h1>   
 
 </div><!--End Tab Content-->
 
