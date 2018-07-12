@@ -31,7 +31,7 @@ To see the full discussion check out the video:
 
 More information about the topics discussed in this interview  can be found at:
 
-  * **Linaro Connect:** [/connect/](/initiatives/connect/)
+  * **Linaro Connect:** [/connect/](https://connect.linaro.org)
 
 
   * **Linaro Connect Schedule:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

@@ -28,7 +28,7 @@ choices to make depending on what architectural layer you are working with. The
 SWG are doing work in both normal user space applications as well as
 implementing drivers and adding general security enhancements to Linux kernel.
 Another area where SWG spends a lot of time is in the so called Trusted
-Execution Environment (TEE). Find out more about Linaro's work on OP-TEE on this [website](/initiatives/op-tee/) or on the project's own [domain](https://www.op-tee.org/).
+Execution Environment (TEE). Find out more about Linaro's work on OP-TEE on this [website](https://www.op-tee.org) or on the project's own [domain](https://www.op-tee.org/).
 
 The SWG is creating reference designs showing how normal and Trusted Application
 code and libraries can be integrated within a particular platform such as
