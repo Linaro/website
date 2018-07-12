@@ -20,7 +20,7 @@ title: OpenDataPlane Project Up and Running
 wordpress_id: 3371
 ---
 
-At [Linaro Connect USA 2013](http://connect.linaro.org/lcu13/) the [Linaro Networking Group](/groups/lng/) announced the OpenDataPlane project.  Together with its member companies, LNG is creating an open source fully cross platform framework for data plane applications.  The preview release of ODP was delivered at the end of 2013 and can be downloaded from the project's web site at [www.OpenDataPlane.org](http://www.opendataplane.org/)
+At [Linaro Connect USA 2013](http://connect.linaro.org/lcu13/) the [Linaro Networking Group](/engineering/groups/) announced the OpenDataPlane project.  Together with its member companies, LNG is creating an open source fully cross platform framework for data plane applications.  The preview release of ODP was delivered at the end of 2013 and can be downloaded from the project's web site at [www.OpenDataPlane.org](http://www.opendataplane.org/)
 
 For 2014, ODP is adding additional reference implementations for new platforms as well as adding additional features and functions.  Also being prepared are a series of presentations, user experience discussions, and demonstrations which will be showcased at the upcoming [Linaro Connect Asia](http://connect.linaro.org/lca14/) in Macau, March 3-7, 2014.
 

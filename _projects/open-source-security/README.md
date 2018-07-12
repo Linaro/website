@@ -22,7 +22,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMgprdH2L0zJ4
 ---
 The Open Source Security Project (OSSP) is the main focus for Linaro's [Security Working Group (SWG)](/engineering/core/security/).
 
-In June 2017, the main elements of this project included kernel hardening, GlobalPlatform adaptations, TEE/TrustZone based open source trusted OS, security support for mcuboot in [LITE](/groups/lite/), and power management in a secure environment.
+In June 2017, the main elements of this project included kernel hardening, GlobalPlatform adaptations, TEE/TrustZone based open source trusted OS, security support for mcuboot in [LITE](/engineering/groups/lite/), and power management in a secure environment.
 
 ## Useful Information
 
