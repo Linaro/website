@@ -115,9 +115,11 @@ pages:
     list:
       - title: Special Interest Group (SIG)
         url: /sig/
+      - title: Linaro Telco & Network (LTN)
+        url: /sig/ltn/
       - title: High Performance Computing (HPC)
         url: /sig/hpc/
-    urls: [/sig/, /sig/hpc/]
+    urls: [/sig/, /sig/hpc/, /sig/ltn/]
   -
     list:
       -
