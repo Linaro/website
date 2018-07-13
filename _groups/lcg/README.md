@@ -25,11 +25,19 @@ related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 members_key: lmg_members
 ---
-Linaro was founded by companies focused on working together in the mobile space. As Linaro’s work broadened beyond mobile, discussions in the Technical Steering Committee (TSC) similarly broadened and towards the end of 2013, a mobile sub-committee (MOBSCOM) was formed to deal with mobile discussions in more detail. In July 2014, this sub-committee was replaced by the Linaro Mobile Group (LMG) and its associated steering committee (LMG-SC). Information about LMG is available on the Linaro wiki: https://wiki.linaro.org/LMG.
+Open source is a key ingredient of Android
 
-Linaro’s mission in the mobile space has always been to collaborate with members to consolidate and optimize open source software for mobile platforms on Arm. The mobile space includes all types of phones, tablets, laptops and wearables. Android has been identified as the primary mobile OS on which Linaro’s work in this area is tested, but other options, including Chrome OS, Firefox OS and Tizen have been discussed and could be brought in if members decided there was a need.
+Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones. 
 
-The LMG engineering team has an established reputation for optimizing Android components, performing bring up using new kernels and new toolchains, upstreaming AOSP patches to the open source community and developing new technology. The team released the first port of the Android Open Source Project (AOSP) for Arm’s new 64-bit Juno hardware development platform in July 2014.
+In order to stay ahead of security and other issues, the Linux kernel requires a steady stream of patches from the upstream kernel community. These fixes are compiled, tested and released through the Long Term Support (LTS) kernel community. The LTS kernel community targets a wide variety of hardware but most kernel developers do not actively develop for mobile devices. As such, the ARM ecosystem needs to be particularly proactive. 
 
-### Support
-We welcome feedback on our releases and ask you to do so via linaro-android@lists.linaro.org or join us on the #linaro-android channel on freenode. You may open a bug being reported via bugs.linaro.org. We make no representations that a reported bug will be fixed or how fast it might be addressed. Member input weighs strongly in these considerations.
+Linaro, together with the ARM SoC vendors and especially Google, through Project Sharp, validate LTS fix streams to ensure they do not contain regressions before these fixes make their way into the Android Common Kernel and then onto consumer devices. This is just one example of how companies collaborating through Linaro make for better end products and better open source for future products.
+
+Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. There are three engineering teams that work under the direction of the LCG: ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
+
+The Android team is actively involved with changes that either add functionality to Android (such as OPTEE, AI/ML), or optimization activities where changes to frameworks can improve performance, reduce the memory footprint and so on.
+
+The ART team is engaged with the Android Runtime portion of the Android Open Source Project (AOSP), creating optimizations that benefit both Java and Kotlin apps. A typical optimization example would be examining a code sequence and emitting a more optimal sequence of ARM instructions to increase performance.
+
+The LCG-Kernel team spans a couple of kernel related activities. It maintains the experimental/android-mainline-tracking branch which tracks the out of tree Android kernel patches on top of linux mainline. The team works to upstream patches to mainline and decreasing the backlog of out of tree patches. Through Project Sharp, it keeps close watch searching for kernel regressions in mainline, LTS and Android Common Kernels. This aids the many companies who are
+utilizing LTS and Android Common kernels in their products. When regressions are detected, appropriate action is taken.  Lastly, the team is deeply involved with member company developer boards running Android, helping to make the developer experience on AOSP first rate.
