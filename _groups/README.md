@@ -26,6 +26,8 @@ Linaro was established in 2010 to reduce fragmentation and redundant effort in o
 
 Members have always been at the heart of Linaro - both in providing resources and determining what work Linaro should focus on. From very soon after the launch of Linaro, a few members identified the need for some member-specific work to be carried out confidentially and dedicated landing teams were formed within the Linaro member services organization. As Linaro has attracted more members, this organization has grown and many of it engineers are highly ranked kernel contributors with their output appearing in members’ shipping products.
 
+In 2012, companies from outside the mobile industry began to approach Linaro and this resulted in the establishment of segment focused groups: the Linaro Enterprise Group (LEG) in November 2012, the Linaro Networking Group (LNG) in February 2013, The Linaro Digital Home Group (LHG) in May 2014, Linaro Mobile Group (LMG) in July 2014 and the Linaro Community Boards Group (LCG) in February 2015. In 2018, Linaro restructured the segment groups to better align with the evolving technology landscape. This has resulted in the following segment focused groups that exist today: Linaro Datacentre and Cloud Group (LDCG), Linaro Edge (LEDGE), Linaro Consumer Group (LCG) and LITE (Linaro IoT and Embedded). 
+
 
 ***
 <h2> Linaro Group Members</h2>

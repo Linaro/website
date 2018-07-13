@@ -1,12 +1,12 @@
 ---
 group_id: 3
-title: Linaro Edge & Fog Computing (LEDGE)
+title: Linaro Edge (LEDGE)
 description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/groups/ledge/
 group_short_name: ledge
-group_long_name: Linaro Edge & Fog Computing (LEDGE)
+group_long_name: Linaro Edge (LEDGE)
 #icon: lite_icon.png
 director: Francois Ozog
 related_tags:

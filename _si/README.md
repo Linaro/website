@@ -1,7 +1,8 @@
 ---
 title: Strategic Initiatives
 description: |-
-    Linaro focuses much of its engineering work on contributing to existing upstream projects like the Linux Kernel and GNU Compiler Collection (GCC).
+    In 2018, Linaro established two new strategic initiatives to enable work in new areas: Machine Intelligence and Autonomous Vehicles
 keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
 permalink: /engineering/si/
 ---
+In 2018, Linaro established two new strategic initiatives to enable work in new areas: Machine Intelligence and Autonomous Vehicles.   
