@@ -64,18 +64,34 @@ pages:
                   url: /engineering/groups/
                 - text: LDCG
                   url: /engineering/groups/ldcg/
-                - text: Linaro Edge & Fog Computing (LEDGE)
+                - text: Linaro Edge (LEDGE)
                   url: /engineering/groups/ledge/
                 - text: Linaro Consumer Group (LCG)
                   url: /engineering/groups/lcg/
                 - text: LITE
                   url: /engineering/groups/lite/
+          - text: Special Interest Groups
+            options:
+                - text: Overview
+                  url: /sig/
+                - text: High Performance Computing (HPC)
+                  url: /sig/hpc/
+                - text: Linaro Telco & Network (LTN)
+                  url: /sig/ltn/
+                - text: OpenDataPlane (ODP)
+                  url: https://www.opendataplane.org
+          - text: Strategic Initiatives
+            options:
+                - text: Overview
+                  url: /engineering/si/
+                - text: Machine Intelligence
+                  url: /engineering/si/machine-intelligence/
+                - text: Autonomous Vehicles (LAVS)
+                  url: /engineering/si/autonomous-vehicles/          
           - text: Lead Projects
             options:
                 - text: Overview
                   url: /projects/
-                - text: Mobile AOSP Optimization
-                  url: /projects/aosp/
                 - text: Reference Digital Media Platforms
                   url: /projects/reference-digital-media-platforms-for-arm/
                 - text: Big Data
@@ -88,20 +104,8 @@ pages:
                   url: /projects/open-source-arm-tools/
                 - text: Open Source Security
                   url: /projects/open-source-security/
-                - text: OpenDataPlane
-                  url: /projects/opendataplane/
                 - text: Reference Platforms
                   url: /projects/reference-platforms/
-          - text: Special Interest Groups
-            options:
-                - text: Overview
-                  url: /sig/
-                - text: High Performance Computing (HPC)
-                  url: /sig/hpc/
-                - text: Linaro Telco & Network (LTN)
-                  url: /sig/ltn/
-                - text: OpenDataPlane (ODP)
-                  url: https://www.opendataplane.org
           - text: Initiatives
             options:
                 - text: Overview
@@ -116,14 +120,7 @@ pages:
                   url: /engineering/initiatives/lsk/
                 - text: Performance
                   url: /engineering/initiatives/performance/
-          - text: Strategic Initiatives
-            options:
-                - text: Overview
-                  url: /engineering/si/
-                - text: Machine Intelligence
-                  url: /engineering/si/machine-intelligence/
-                - text: Autonomous Vehicles (LAVS)
-                  url: /engineering/si/autonomous-vehicles/
+
     - title: Services
       url: /services/
     - title: Latest
