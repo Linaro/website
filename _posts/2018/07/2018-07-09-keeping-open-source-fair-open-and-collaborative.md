@@ -2,7 +2,7 @@
 title: Keeping open source fair, open and collaborative
 author: david.rusling
 layout: post
-date: 2018-07-09 09:00:00+00:00
+date: 2018-07-16 09:00:00+00:00
 description: >-
     Linaro joins growing movement of open source leaders seeking to protect communities.
 image:
