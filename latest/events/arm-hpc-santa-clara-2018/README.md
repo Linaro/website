@@ -18,25 +18,23 @@ image:
 
 <div class="row arm-hpc-row main">
 <div class="container">
-
-
-<ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-  <li role="presentation" class="active">
-    <a href="#welcome" role="tab" data-toggle="tab">
-        Welcome
-    </a>
-  </li>
-  <li role="presentation" class="">
-    <a href="#featured-speakers" role="tab" data-toggle="tab">
-        Speakers
-    </a>
-  </li>
-  <li role="presentation" class="">
-    <a href="#schedule" role="tab" data-toggle="tab">
-        Schedule
-    </a>
-  </li>
-</ul>
+    <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
+      <li role="presentation" class="active">
+        <a href="#welcome" role="tab" data-toggle="tab">
+            Welcome
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="#featured-speakers" role="tab" data-toggle="tab">
+            Speakers
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="#schedule" role="tab" data-toggle="tab">
+            Schedule
+        </a>
+      </li>
+    </ul>
 
 <div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
 
