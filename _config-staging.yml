@@ -125,7 +125,7 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
-        type: "si"
+        type: "incubators"
     values:
         layout: work-layout
   - scope:
@@ -293,8 +293,7 @@ mini_magick:
         thumbnail: "500x500>"
         gravity: "Center"
         extent: "500x500"
-
-
+        
 using_assets: true
 
 # Jekyll Collections configuration - Projects, Products and Documentation.
@@ -317,7 +316,7 @@ collections:
     sig:
         output: true
         permalink: /:collection/:path/
-    si:
+    incubators:
         output: true
     services:
         output: true

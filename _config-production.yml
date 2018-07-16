@@ -120,6 +120,11 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
+        type: "incubators"
+    values:
+        layout: work-layout
+  - scope:
+        path: ""
         type: "sig"
     values:
         layout: work-layout
@@ -128,9 +133,9 @@ defaults:
     values:
         redirect_from: /sitemap/
   - scope:
-        path: ""
+      path: ""
     values:
-        image: /assets/images/social-media-image.png
+      image: /assets/images/social-media-image.png
         
 # Gems that should be included in the Jekyll builld of this site.
 plugins:
@@ -306,6 +311,8 @@ collections:
     sig:
         output: true
         permalink: /:collection/:path/
+    incubators:
+        output: true
     services:
         output: true
         permalink: /:collection/:name/
