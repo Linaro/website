@@ -188,7 +188,7 @@ image:
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'jay-kruemcke.jpg' %})"></div>
                 <span class="speaker-name">Jay Kruemcke</span>
                 <span class="speaker-talk-title">It just keeps getting better - SUSE enablement for Arm</span>
                 <p>
