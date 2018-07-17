@@ -98,16 +98,16 @@ pages:
   -
     list:
       -
-        title: Strategic Initiatives
-        url: /engineering/si/
+        title: Incubators
+        url: /engineering/incubators/
       -
         title: Machine Intelligence
-        url: /engineering/si/machine-intelligence/
+        url: /engineering/incubators/machine-intelligence/
       -
         title: Autonomous Vehicles (LAVS)
-        url: /engineering/si/autonomous-vehicles/
+        url: /engineering/incubators/autonomous-vehicles/
 
-    urls: [/engineering/si/, /engineering/si/machine-intelligence/, /engineering/si/autonomous-vehicles/]
+    urls: [/engineering/incubators/, /engineering/incubators/machine-intelligence/, /engineering/incubators/autonomous-vehicles/]
   -
     list:
       - title: Special Interest Group (SIG)

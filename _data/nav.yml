@@ -62,13 +62,11 @@ pages:
             options:
                 - text: Overview
                   url: /engineering/groups/
-                - text: LDCG
+                - text: Linaro Datacenter & Cloud Group (LDCG)
                   url: /engineering/groups/ldcg/
-                - text: Linaro Edge (LEDGE)
-                  url: /engineering/groups/ledge/
                 - text: Linaro Consumer Group (LCG)
                   url: /engineering/groups/lcg/
-                - text: LITE
+                - text: Linaro IoT & Embedded Group (LITE)
                   url: /engineering/groups/lite/
           - text: Special Interest Groups
             options:
@@ -80,46 +78,24 @@ pages:
                   url: /sig/ltn/
                 - text: OpenDataPlane (ODP)
                   url: https://www.opendataplane.org
-          - text: Strategic Initiatives
+          - text: Incubators
             options:
                 - text: Overview
-                  url: /engineering/si/
+                  url: /engineering/incubators/
                 - text: Machine Intelligence
-                  url: /engineering/si/machine-intelligence/
+                  url: /engineering/incubators/machine-intelligence/
                 - text: Autonomous Vehicles (LAVS)
-                  url: /engineering/si/autonomous-vehicles/          
-          - text: Lead Projects
-            options:
-                - text: Overview
-                  url: /projects/
-                - text: Reference Digital Media Platforms
-                  url: /projects/reference-digital-media-platforms-for-arm/
-                - text: Big Data
-                  url: /projects/bigdata/
-                - text: Mobile Power Management
-                  url: /projects/mobile-power-management/
-                - text: Arm Kernel Collaboration
-                  url: /projects/arm-kernel-collaboration/
-                - text: Open Source Arm Tools
-                  url: /projects/open-source-arm-tools/
-                - text: Open Source Security
-                  url: /projects/open-source-security/
-                - text: Reference Platforms
-                  url: /projects/reference-platforms/
+                  url: /engineering/incubators/autonomous-vehicles/          
           - text: Initiatives
             options:
                 - text: Overview
                   url: /engineering/initiatives/
-                - text: Armv8
-                  url: /engineering/initiatives/armv8/
                 - text: KernelCI
                   url: /engineering/initiatives/kernelci/
                 - text: LAVA
                   url: /engineering/initiatives/lava/
                 - text: LSK
                   url: /engineering/initiatives/lsk/
-                - text: Performance
-                  url: /engineering/initiatives/performance/
 
     - title: Services
       url: /services/
