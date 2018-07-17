@@ -1,20 +1,11 @@
-core_members:
-      - name: Arm
-        image: arm.jpg
-        url: /company/arm/
-      - name: Hisilicon
-        image: hisilicon.jpg
-        url: /company/hisilicon/
-      - name: QuIC
-        image: quic.jpg
-        url: /company/quic/
+
 club_members:
       - name: Google
         image: google.png
         url: /company/google/
-      - name: Sanechips
-        image: sanechips.png
-        url: /company/sanechips/
+      - name: ZTE
+        image: zte.jpg
+        url: /company/zte/
       - name: Socionext
         image: socionext.jpg
         url: /company/socionext/
