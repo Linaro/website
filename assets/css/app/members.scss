@@ -3,7 +3,6 @@
     height: 16px !important;
     width: 16px !important;
 }
-
 .members-svg {
     display: inline-block;
     margin-right: 4px;
@@ -11,18 +10,15 @@
     position: relative;
     top: 2px;
 }
-
 .members-links {
     margin-bottom: 20px;
     padding: 50px;
 }
-
 .members-img {
     width: auto;
     height: 100px;
     object-fit: contain;
 }
-
 .col-md-12.members-panel {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -41,15 +37,14 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 #accordion .panel-body {
     padding: 20px;
 }
 #wrapper .panel-heading {
     border: 0px;
+    text-align: center;
     border-radius: 0px;
 }
-
 #wrapper .panel.panel-default {
     border: 1px solid #ccc;
     cursor: pointer;
@@ -58,4 +53,7 @@
 .vcenter-img:hover {
     opacity:.2;
     border:1px solid #ccc;
+}
+#wrapper .panel-heading  a {
+    color: #000;
 }
