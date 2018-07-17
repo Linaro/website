@@ -1,0 +1,50 @@
+<div class="panel-group" id="accordion">
+    {% for group in include.data-file %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <a data-toggle="collapse" data-parent="#accordion" href="#{{group.id}}">
+                    {{group.membership_group_name }}
+                  </a>
+            </div>
+            <div id="{{group.id}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}">
+              <div class="panel-body padded">
+                  
+                 {% assign member size = group.members | size %}
+                 
+                 {% if group.text %}
+                     {{ group.text | markdownify }}
+                 {% endif %}
+                <br />
+                
+                {% assign sorted_members = group.members | sort: 'name' %}
+                {% for member in group.members %}
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                        <a href="{{member.url}}">
+                            <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="img-responsive members-img lazyload center-block"/>
+                        </a>
+                    </div>
+                {% endfor %}
+                
+                {% if group.advisory_board %}
+                    <div class="row">
+                        <h3 class="text-center">Advisory Board</h3>
+                        {% assign advisory_board = group.advisory_board | sort: 'name' %}
+                        {% for member in advisory_board %}
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                                <a href="{{member.url}}">
+                                    <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    class="img-responsive members-img lazyload center-block"/>
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                
+              </div>
+            </div>
+          </div>
+  {% endfor %}
+</div>
