@@ -1,5 +1,5 @@
 ---
-title: Sanechips
-company_image: sanechips.png
+title: ZTE
+company_image: zte.jpg
 ---
 [Sanechips.com](http://www.sanechips.com.cn/en/)
