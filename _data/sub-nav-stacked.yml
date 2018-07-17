@@ -34,9 +34,6 @@ pages:
         title: Initiatives
         url: /engineering/initiatives/
       -
-        title: Armv8
-        url: /engineering/initiatives/armv8/
-      -
         title: KernelCI
         url: /engineering/initiatives/kernelci/
       -
@@ -45,37 +42,7 @@ pages:
       -
         title: LSK
         url: /engineering/initiatives/lsk/
-      -
-        title: Performance
-        url: /engineering/initiatives/performance/
-    urls: [/engineering/initiatives/, /engineering/initiatives/kernelci/, /engineering/initiatives/lsk/,/engineering/initiatives/armv8/, /engineering/initiatives/lava/, /engineering/initiatives/performance/]
-  -
-    list:
-      -
-        title: Lead Projects
-        url: /projects/
-      -
-        title: Big Data
-        url: /projects/bigdata/
-      -
-        title: Mobile Power Management
-        url: /projects/mobile-power-management/
-      -
-        title: Arm Kernel Collaboration
-        url: /projects/arm-kernel-collaboration/
-      -
-        title: Open Source Arm Tools
-        url: /projects/open-source-arm-tools/
-      -
-        title: Open Source Security
-        url: /projects/open-source-security/
-      -
-        title: Reference Digital Media Platforms for Arm
-        url: /projects/reference-digital-media-platforms-for-arm/
-      -
-        title: Reference Platforms
-        url: /projects/reference-platforms/
-    urls: [/projects/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
+    urls: [/engineering/initiatives/, /engineering/initiatives/kernelci/, /engineering/initiatives/lsk/, /engineering/initiatives/lava/]
   -
     list:
       -
@@ -85,16 +52,13 @@ pages:
         title: Linaro Datacenter & Cloud Group (LDCG) 
         url: /engineering/groups/ldcg/
       -
-        title: Linaro Edge (LEDGE)
-        url: /engineering/groups/ledge/
-      -
         title: Linaro Consumer Group (LCG)
         url: /engineering/groups/lcg/
       -
         title: Linaro IoT & Embedded Group (LITE)
         url: /engineering/groups/lite/
 
-    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/ledge/, /engineering/groups/lcg/, /engineering/groups/lite/]
+    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/lcg/, /engineering/groups/lite/]
   -
     list:
       -
