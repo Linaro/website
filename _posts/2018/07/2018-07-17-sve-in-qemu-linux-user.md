@@ -1,5 +1,5 @@
 ﻿---
-title: SVE in QEMU's linux-user mode
+title: SVE in QEMU\'s linux-user mode
 author: alex.bennee
 layout: post
 date: 2018-07-17 09:00:00+00:00
