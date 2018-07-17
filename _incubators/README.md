@@ -1,8 +1,7 @@
 ---
-title: Strategic Initiatives
+title: Incubators
 description: |-
-    In 2018, Linaro established two new strategic initiatives to enable work in new areas: Machine Intelligence and Autonomous Vehicles
+    Linaro Incubators
 keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
-permalink: /engineering/si/
+permalink: /engineering/incubators/
 ---
-In 2018, Linaro established two new strategic initiatives to enable work in new areas: Machine Intelligence and Autonomous Vehicles.   
