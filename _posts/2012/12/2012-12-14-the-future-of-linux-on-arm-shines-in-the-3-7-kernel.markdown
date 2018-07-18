@@ -45,7 +45,7 @@ At Linaro, support for this newest architecture continued to grow and at LCE12 -
 
 [Andrea Gallo](/about/), Director of the Linaro Enterprise Group (LEG), commented that "Armv8 support in the 3.7 Kernel release represents a major milestone for our work at LEG. We will leverage on it for all our developments on the Arm Foundation model towards enabling the 64-bit enterprise server workloads. We are eager to demonstrate early UEFI and ACPI work on AArch64 and 3.7 kernel at next the Linaro Connect in Hong Kong"
 
-Linaro also made early [Armv8 images](/engineering/initiatives/armv8/) available to interested developers and provided links to the [Armv8 architecture introduction](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
+Linaro also made early [Armv8 images](/engineering/projects/) available to interested developers and provided links to the [Armv8 architecture introduction](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
 
 
 ### Virtualization features
