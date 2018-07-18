@@ -37,37 +37,18 @@
       {% endfor %}
     </ul>
 </div>
-
   <div class="col-sm-4 work_footer_col">
     <ul class="list-unstyled">
       <li class="work_footer_li">
-        <a href="/projects/">
-            <b>Lead Projects</b>
+        <a href="/engineering/projects/">
+            <b>Projects</b>
         </a>
       </li>
-      {% for lead_project in site.projects %}
-        {% if lead_project.project_id %}
+      {% for project in site.projects %}
+        {% if project.project_id %}
           <li class="work_footer_li">
-            <a href="{{lead_project.permalink}}">
-              {{lead_project.title}}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="col-sm-4 work_footer_col">
-    <ul class="list-unstyled">
-      <li class="work_footer_li">
-        <a href="/engineering/initiatives/">
-            <b>Initiatives</b>
-        </a>
-      </li>
-      {% for initiative in site.initiatives %}
-        {% if initiative.initiative_id %}
-          <li class="work_footer_li">
-            <a href="{{initiative.permalink}}">
-              {{initiative.title}}
+            <a href="{{project.permalink}}">
+              {{project.title}}
             </a>
           </li>
         {% endif %}
@@ -76,10 +57,6 @@
   </div>
 
   <div class="col-sm-4 work_footer_col">
-
-
-
-
     <ul class="list-unstyled">
       <li class="work_footer_li">
           <a href="/sig/">
