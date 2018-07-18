@@ -86,16 +86,16 @@ pages:
                   url: /engineering/incubators/machine-intelligence/
                 - text: Autonomous Vehicles (LAVS)
                   url: /engineering/incubators/autonomous-vehicles/          
-          - text: Initiatives
+          - text: Projects
             options:
                 - text: Overview
-                  url: /engineering/initiatives/
+                  url: /engineering/projects/
                 - text: KernelCI
-                  url: /engineering/initiatives/kernelci/
+                  url: /engineering/projects/kernelci/
                 - text: LAVA
-                  url: /engineering/initiatives/lava/
+                  url: /engineering/projects/lava/
                 - text: LSK
-                  url: /engineering/initiatives/lsk/
+                  url: /engineering/projects/lsk/
 
     - title: Services
       url: /services/
