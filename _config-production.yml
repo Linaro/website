@@ -115,11 +115,6 @@ defaults:
         layout: developer-services
   - scope:
         path: ""
-        type: "initiatives"
-    values:
-        layout: work-layout
-  - scope:
-        path: ""
         type: "incubators"
     values:
         layout: work-layout
@@ -300,9 +295,6 @@ collections:
         output: true
         permalink: /:collection/:path/
     projects:
-        output: true
-        permalink: /:collection/:path/
-    initiatives:
         output: true
         permalink: /:collection/:path/
     groups:

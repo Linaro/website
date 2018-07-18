@@ -110,17 +110,12 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
-        type: "projects"
-    values:
-        layout: work-layout
-  - scope:
-        path: ""
         type: "services"
     values:
         layout: developer-services
   - scope:
         path: ""
-        type: "initiatives"
+        type: "projects"
     values:
         layout: work-layout
   - scope:
@@ -305,9 +300,6 @@ collections:
         output: true
         permalink: /:collection/:path/
     projects:
-        output: true
-        permalink: /:collection/:path/
-    initiatives:
         output: true
         permalink: /:collection/:path/
     groups:

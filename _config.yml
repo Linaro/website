@@ -118,11 +118,6 @@ defaults:
         layout: developer-services
   - scope:
         path: ""
-        type: "initiatives"
-    values:
-        layout: work-layout
-  - scope:
-        path: ""
         type: "incubators"
     values:
         layout: work-layout
