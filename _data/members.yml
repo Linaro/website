@@ -26,9 +26,9 @@
     - name: Socionext
       image: socionext.jpg
       url: /company/socionext/
-    - name: SpreadTrum
-      image: spreadtrum.jpg
-      url: /company/spreadtrum/
+    - name: UniSoc
+      image: unisoc.jpg
+      url: /company/unisoc/
     - name: St
       image: st.jpg
       url: /company/st/
@@ -109,6 +109,9 @@
     - name: Texas Instruments
       image: ti.jpg
       url: /company/texas-instruments/
+    - name: UniSoc
+      image: unisoc.jpg
+      url: /company/unisoc/
     - name: Xilinx
       image: xilinx.jpg
       url: /company/xilinx/
@@ -359,6 +362,9 @@
     - name: ThunderSoft
       image: thundersoft.jpg
       url: /company/thundersoft/
+    - name: UniSoc
+      image: unisoc.jpg
+      url: /company/unisoc/
     - name: Xilinx
       image: xilinx.jpg
       url: /company/xilinx/
@@ -470,6 +476,9 @@
     - name: Rockchip
       image: rockchip.png
       url: /company/rockchip/
+    - name: Socionext
+      image: socionext.jpg
+      url: /company/socionext/
     - name: Xilinx
       image: xilinx.jpg
       url: /company/xilinx/
