@@ -31,18 +31,18 @@ pages:
   -
     list:
       -
-        title: Initiatives
-        url: /engineering/initiatives/
+        title: Projects
+        url: /engineering/projects/
       -
         title: KernelCI
-        url: /engineering/initiatives/kernelci/
+        url: /engineering/projects/kernelci/
       -
         title: LAVA
-        url: /engineering/initiatives/lava/
+        url: /engineering/projects/lava/
       -
         title: LSK
-        url: /engineering/initiatives/lsk/
-    urls: [/engineering/initiatives/, /engineering/initiatives/kernelci/, /engineering/initiatives/lsk/, /engineering/initiatives/lava/]
+        url: /engineering/projects/lsk/
+    urls: [/engineering/projects/, /engineering/projects/kernelci/, /engineering/projects/lsk/, /engineering/projects/lava/]
   -
     list:
       -
@@ -81,58 +81,6 @@ pages:
       - title: High Performance Computing (HPC)
         url: /sig/hpc/
     urls: [/sig/, /sig/hpc/, /sig/ltn/]
-  -
-    list:
-      -
-        title: Developer Services
-        url: /services/archive/
-        icon: "developerservices-icon-main.png"
-      -
-        title: Linux
-        url: /services/archive/linux/
-        icon: "developerservices-icon-linux.png"
-      -
-        title: Android
-        url: /services/archive/android/
-        icon: "developerservices-icon-android.png"
-      -
-        title: 96boards
-        url: /services/archive/96boards/
-        icon: "developerservices-icon-96boards.png"
-      -
-        title: Training
-        url: /services/archive/training/
-        icon: "developerservices-icon-training.png"
-      -
-        title: Datacenter and DevCloud
-        url: /services/archive/datacenter-developer-cloud/
-        icon: "developerservices-icon-datacenter.png"
-      -
-        title: RTOS, IoT and Embedded
-        url: /services/archive/rtos-iot-embedded/
-        icon: "developerservices-icon-rtos.png"
-      -
-        title: Servers, Gateways and Development Boards
-        url: /services/archive/servers-gateways-development-boards/
-        icon: "developerservices-icon-servers.png"
-      -
-        title: Verification, Testing and CI
-        url: /services/archive/verification-testing-ci/
-        icon: "developerservices-icon-testing.png"
-
-    urls: [/services/archive/, /services/archive/linux/, /services/archive/android/, /services/archive/96boards/, /services/archive/training/, /services/archive/datacenter-developer-cloud/,
-     /services/archive/rtos-iot-embedded/, /services/archive/servers-gateways-development-boards/, /services/archive/verification-testing-ci/, /services/archive/96boards/architecture-design-consulting/,
-     /services/archive/96boards/board-enablement/, /services/archive/96boards/compliance/, /services/archive/96boards/development-tools/, /services/archive/96boards/board-enablement/android/,
-     /services/archive/96boards/board-enablement/linux/, /services/archive/96boards/board-enablement/op-tee/, /services/archive/96boards/board-enablement/os-distribution-integration/,
-     /services/archive/android/aosp-enablement/, /services/archive/android/bootloaders/, /services/archive/android/fastboot/, /services/archive/android/linux-kernel/, /services/archive/android/optimization-services/,
-     /services/archive/android/bootloaders/arm-trusted-firmware/, /services/archive/android/bootloaders/u-boot/, /services/archive/android/bootloaders/uefi/,
-     /services/archive/linux/bootloaders/, /services/archive/linux/kernel/, /services/archive/linux/optimization-services/, /services/archive/linux/security/,
-     /services/archive/linux/bootloaders/arm-trusted-firmware/, /services/archive/linux/bootloaders/u-boot/, /services/archive/linux/bootloaders/uefi/,
-     /services/archive/rtos-iot-embedded/iot-security/, /services/archive/rtos-iot-embedded/mbed/, /services/archive/rtos-iot-embedded/open-embedded-yocto/, /services/archive/rtos-iot-embedded/zephyr/,
-     /services/archive/servers-gateways-development-boards/development-tools/, /services/archive/servers-gateways-development-boards/hardware-enablement/,
-     /services/archive/servers-gateways-development-boards/hardware-enablement/android/, /services/archive/servers-gateways-development-boards/hardware-enablement/linux/,
-     /services/archive/servers-gateways-development-boards/hardware-enablement/op-tee/, /services/archive/servers-gateways-development-boards/hardware-enablement/os-distribution-integration/,
-     /services/archive/verification-testing-ci/96boards-compliance/, /services/archive/verification-testing-ci/android-cts-testing/, /services/archive/verification-testing-ci/build-automation-continuous-integration/, /services/archive/verification-testing-ci/lava-integration/, /services/archive/verification-testing-ci/test-design-development/]
   -
     list:
       -
