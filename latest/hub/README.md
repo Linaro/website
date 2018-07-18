@@ -7,7 +7,6 @@ layout: container-breadcrumb
 permalink: /latest/hub/
 css-package: hub
 ---
-
 <div class="row hub-row">
   <div class="col-sm-3 hub-block">
   <a href="/blog/"><div class="hub-block-inner light hub-green" markdown="1">
