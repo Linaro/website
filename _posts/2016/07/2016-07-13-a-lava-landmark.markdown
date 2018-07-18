@@ -49,7 +49,7 @@ What’s so special about V2? That is worthy of a blog post all on it’s own, b
 
 I’ll keep you posted.
 
-To find out more about LAVA, please follow this [link](/engineering/initiatives/lava/).
+To find out more about LAVA, please follow this [link](/engineering/projects/lava/).
 
 Do you want to see how LAVA can help your company?
 
