@@ -1,6 +1,6 @@
 ---
 title: UniSoc
-company_image: unisco.jpg
+company_image: unisoc.jpg
 description: |-
     As a core subsidiary of Tsinghua Unigroup, UNISOC is a leading fabless semiconductor company committed to the independent R&D of core chipsets in mobile communications and IoT.
 ---
