@@ -115,15 +115,28 @@ image:
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
-                <span class="speaker-name">Simon McIntosh-Smith</span>
-                <span class="speaker-company">University of Bristol</span>
-                <span class="speaker-talk-title">Isambard: the world's first production Arm-based supercomputer</span>
-                <p>
-                The Isambard supercomputer is due to be the world's first production, Arm-based system when it goes online in the summer of 2018. The project, run by the GW4 alliance and the UK's Met Office, has already produced significant results using early access systems based on Cavium ThunderX2 CPUs.
+                <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
+                <span class="speaker-name">Andrew J Younge</span>
+                <span class="speaker-company">Sandia National Laboratories</span>
+                <span class="speaker-talk-title">Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing</span>
+                <p id="P_1">
+                    The Vanguard program looks to expand the potential technology choices for leadership-class High Performance Computing (HPC) platforms, not only for the National Nuclear Security Administration (NNSA) but for the Department of Energy (DOE) and wider HPC community.
                 </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Abstract/Bio</button>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Abstract/Bio</button>
             </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'alex.jpg' %})"></div>
+                <span class="speaker-name">Alex Bennée</span>
+                <span class="speaker-company">Linaro</span>
+                <span class="speaker-talk-title">Setting up an SVE developer environment</span>
+                <p>
+                    ARM's SVE instructions provide a whole new set of features for HPC computing. Engineers are understandably keen to start making sure their software is ready to take advantage as soon as hardware arrives.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#alex">Full Abstract/Bio</button>
+            </div>
+
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
@@ -135,57 +148,6 @@ image:
                 The latest revolution in HPC interconnect architecture is the development of In-Network Computing, a technology that  enables handling and accelerating application workloads at the network level.
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#giladShainer">Full Abstract/Bio</button>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
-                <span class="speaker-name">Andrew J Younge</span>
-                <span class="speaker-company">Sandia National Laboratories</span>
-                <span class="speaker-talk-title">Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing</span>
-                <p id="P_1">
-                    The Vanguard program looks to expand the potential technology choices for leadership-class High Performance Computing (HPC) platforms, not only for the National Nuclear Security Administration (NNSA) but for the Department of Energy (DOE) and wider HPC community.
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#andrewJYounge">Full Abstract/Bio</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'pavel.jpg' %})"></div>
-                <span class="speaker-name">Pavel Shamis</span>
-                <span class="speaker-company">Arm</span>
-                <span class="speaker-talk-title">HPC network stack on Arm</span>
-                <p>
-                    Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today's and tomorrow's high-performance and data center computer environments. 
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#pavel">Full Abstract/Bio</button>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
-                <span class="speaker-name">Yutaka Ishikawa</span>
-                <span class="speaker-company">RIKEN</span>
-                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
-                <p>
-                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
-                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
-                <span class="speaker-name">Joel Jones</span>
-                <span class="speaker-company">Cavium</span>
-                <span class="speaker-talk-title">Optimizing for ARM64—A Toolchain Perspective</span>
-                <p>
-                    Optimizing for ARM64 has some unique features that optimization for x86 does not. We will describe what those features are, including...
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joelJones">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
@@ -205,6 +167,44 @@ image:
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
                 <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <span class="speaker-name">Joel Jones</span>
+                <span class="speaker-company">Cavium</span>
+                <span class="speaker-talk-title">Optimizing for ARM64—A Toolchain Perspective</span>
+                <p>
+                    Optimizing for ARM64 has some unique features that optimization for x86 does not. We will describe what those features are, including...
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joelJones">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'pavel.jpg' %})"></div>
+                <span class="speaker-name">Pavel Shamis</span>
+                <span class="speaker-company">Arm</span>
+                <span class="speaker-talk-title">HPC network stack on Arm</span>
+                <p>
+                    Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today's and tomorrow's high-performance and data center computer environments. 
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#pavel">Full Abstract/Bio</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'renato.jpg' %})"></div>
+                <span class="speaker-name">Renato Golin</span>
+                <span class="speaker-company">Linaro</span>
+                <span class="speaker-talk-title">OpenHPC Automation with Ansible</span>
+                <p>
+                    In order to test OpenHPC packages and components and to use it as a platform to benchmark HPC applications, Linaro is developing an automated deployment strategy, using Ansible, Mr-Provisioner and Jenkins, to install the OS, OpenHPC and prepare the environment on varied architectures (Arm, x86).
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#renato">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
                 <span class="speaker-name">Ryan Hulguin</span>
                 <span class="speaker-company">Arm</span>
                 <span class="speaker-talk-title">Cross Platform Performance Engineering</span>
@@ -216,28 +216,29 @@ image:
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'alex.jpg' %})"></div>
-                <span class="speaker-name">Alex Bennée</span>
-                <span class="speaker-company">Linaro</span>
-                <span class="speaker-talk-title">Setting up an SVE developer environment</span>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+                <span class="speaker-name">Simon McIntosh-Smith</span>
+                <span class="speaker-company">University of Bristol</span>
+                <span class="speaker-talk-title">Isambard: the world's first production Arm-based supercomputer</span>
                 <p>
-                    ARM's SVE instructions provide a whole new set of features for HPC computing. Engineers are understandably keen to start making sure their software is ready to take advantage as soon as hardware arrives.
+                The Isambard supercomputer is due to be the world's first production, Arm-based system when it goes online in the summer of 2018. The project, run by the GW4 alliance and the UK's Met Office, has already produced significant results using early access systems based on Cavium ThunderX2 CPUs.
                 </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#alex">Full Abstract/Bio</button>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'renato.jpg' %})"></div>
-                <span class="speaker-name">Renato Golin</span>
-                <span class="speaker-company">Linaro</span>
-                <span class="speaker-talk-title">OpenHPC Automation with Ansible</span>
+                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
+                <span class="speaker-name">Yutaka Ishikawa</span>
+                <span class="speaker-company">RIKEN</span>
+                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
                 <p>
-                    In order to test OpenHPC packages and components and to use it as a platform to benchmark HPC applications, Linaro is developing an automated deployment strategy, using Ansible, Mr-Provisioner and Jenkins, to install the OS, OpenHPC and prepare the environment on varied architectures (Arm, x86).
+                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
+                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
                 </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#renato">Full Abstract/Bio</button>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
