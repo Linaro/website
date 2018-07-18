@@ -66,7 +66,7 @@ If you are interested in getting the source and building these images yourself p
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [/initiatives/armv8/](/engineering/initiatives/armv8/)
+  * [/initiatives/armv8/](/engineering/projects/)
 
 
 **USING THE DEBIAN-BASED IMAGES**

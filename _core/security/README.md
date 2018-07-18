@@ -54,7 +54,7 @@ These include the Internet of Things, mobile devices, the digital home.
 - Kernel hardening - with Arm contribution in [Kernel Self Protection Project].
 - Include, [Travis], LAVA and CI in the all tasks.
 - Actively monitor and contribute to relevant Open Source projects.
-- Deliver the Linaro [Open Source Security Project](/projects/open-source-security/)
+- Deliver the Linaro Open Source Security Project
 
 ### Process
 The Security Working Group does all planning and tracking in

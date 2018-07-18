@@ -118,12 +118,7 @@ defaults:
         layout: developer-services
   - scope:
         path: ""
-        type: "initiatives"
-    values:
-        layout: work-layout
-  - scope:
-        path: ""
-        type: "si"
+        type: "incubators"
     values:
         layout: work-layout
   - scope:
@@ -315,7 +310,7 @@ collections:
     sig:
         output: true
         permalink: /:collection/:path/
-    si:
+    incubators:
         output: true
     services:
         output: true

@@ -110,22 +110,17 @@ defaults:
         layout: work-layout
   - scope:
         path: ""
-        type: "projects"
-    values:
-        layout: work-layout
-  - scope:
-        path: ""
         type: "services"
     values:
         layout: developer-services
   - scope:
         path: ""
-        type: "initiatives"
+        type: "projects"
     values:
         layout: work-layout
   - scope:
         path: ""
-        type: "si"
+        type: "incubators"
     values:
         layout: work-layout
   - scope:
@@ -293,8 +288,7 @@ mini_magick:
         thumbnail: "500x500>"
         gravity: "Center"
         extent: "500x500"
-
-
+        
 using_assets: true
 
 # Jekyll Collections configuration - Projects, Products and Documentation.
@@ -308,16 +302,13 @@ collections:
     projects:
         output: true
         permalink: /:collection/:path/
-    initiatives:
-        output: true
-        permalink: /:collection/:path/
     groups:
         output: true
         permalink: /:collection/:path/
     sig:
         output: true
         permalink: /:collection/:path/
-    si:
+    incubators:
         output: true
     services:
         output: true
