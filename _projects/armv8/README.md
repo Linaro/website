@@ -1,10 +1,10 @@
 ---
-initiative_id: "2"
+project_id: "2"
 title: Armv8
 description: |-
     Arm announced its 64-bit Armv8 architecture, associated Arm compiler and Fast Models in October 2011.
 keywords: Linaro, Armv8, Arm, Engineering, technology, Linux, compiler, architecture, Cortex-M, hardware, 64-bit
-permalink: /engineering/initiatives/armv8/
+permalink: /engineering/projects/armv8/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtgGmA-yNyqzKyc0b3lE2g&playnext=1
 ---
 Arm announced its [64-bit Armv8](http://www.arm.com/about/newsroom/arm-discloses-technical-details-of-the-next-version-of-the-arm-architecture.php) architecture and associated Arm compiler and Fast Models in October 2011. As licensees have developed their Armv8 solutions, Linaro has expanded its focus to include servers and networking and Armv8 development work has become a major priority at Linaro, enabled by the Arm Fast Models and availability of silicon. Since 2011, Arm has announced a number of Armv8 licensees and a majority of these are members of Linaro. In November 2015, the [Armv8-M](http://www.arm.com/about/newsroom/armv8-m-architecture-simplifies-security-for-smart-embedded-devices.php) architecture was announced and, in September 2016, Linaro announced the new [Linaro IoT and Embedded (LITE)](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/) group that has begun extending Linaro's work into the Cortex-M space.

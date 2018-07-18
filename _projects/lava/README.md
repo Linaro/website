@@ -1,10 +1,10 @@
 ---
-initiative_id: "7"
+project_id: "7"
 title: LAVA
 description: |-
     LAVA - Validation is key to the delivery of robust code and is an ongoing process involving multiple teams.
 keywords: Linaro, Validation, Automation, Test, feedback, Linux, hardware, Build
-permalink: /engineering/initiatives/lava/
+permalink: /engineering/projects/lava/
 icon: lava-logo.png
 featured_video: https://www.youtube.com/embed/6jwYymfauik?feature=oembed
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPqZwWtTbWEDG8Mni_e4qtJ
