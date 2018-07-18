@@ -1,14 +1,11 @@
-// Hub Page
 .hub-social-media-icon {
     padding: 20px;
 }
-
 .hub-row{
     padding-bottom: 70px;
     margin-bottom:30px;
     border-bottom: 1px solid #eee;
 }
-
 .hub-block-inner {
     padding: 15px;
     background-color:#a681b8;
@@ -28,7 +25,21 @@
 .hub-grey{
     background-color: #636363;
 }
-
 .hub-block-inner.light > p, .hub-block-inner.light > h3{
     color: #fff !important;
+}
+.hub-social-media-icon a {
+    color: #636363;
+}
+.hub-social-media-icon a:hover{
+    color: #accb4d;
+}
+.hub-block-inner.light {
+    min-height: 195px;
+}
+.nav-stacked a li {
+    color: #636363;
+}
+.nav-stacked a:hover li {
+    color: #accb4d;
 }
