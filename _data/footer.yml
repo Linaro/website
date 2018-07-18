@@ -18,8 +18,8 @@ columns:
           url : /engineering/core/
         - text: Segment Groups
           url : /engineering/groups/
-        - text: Initiatives
-          url : /engineering/initiatives/
+        - text: Projects
+          url : /engineering/projects/
         - text: Developer Services
           url : /services/
     - title: Downloads
