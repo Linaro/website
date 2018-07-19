@@ -220,3 +220,5 @@ Dump of assembler code for function strcpy:
 End of assembler dump.
 (gdb)
 ```	
+
+And there you have it. You can see predicate instructions `ptrue`, vector loads `ldff1b  {z0.b}` and resetting of the first fault register `setffr`.
