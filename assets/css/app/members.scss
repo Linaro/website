@@ -1,8 +1,10 @@
 //Members Page
-.mk-svg-icon.small{
+
+.mk-svg-icon.small {
     height: 16px !important;
     width: 16px !important;
 }
+
 .members-svg {
     display: inline-block;
     margin-right: 4px;
@@ -10,50 +12,62 @@
     position: relative;
     top: 2px;
 }
+
 .members-links {
     margin-bottom: 20px;
     padding: 50px;
 }
+
 .members-img {
     width: auto;
     height: 100px;
     object-fit: contain;
 }
+
 .col-md-12.members-panel {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 0px;
+    padding-left: 0;
     clear: both;
 }
+
 #content-container h1 {
     clear: both;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 #content-container h2 {
-    text-align:  center;
+    text-align: center;
     clear: both;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 #accordion .panel-body {
     padding: 20px;
 }
+
 #wrapper .panel-heading {
-    border: 0px;
+    border: 0;
     text-align: center;
-    border-radius: 0px;
+    border-radius: 0;
 }
+
 #wrapper .panel.panel-default {
     border: 1px solid #ccc;
     cursor: pointer;
 }
 
 .vcenter-img:hover {
-    opacity:.2;
-    border:1px solid #ccc;
+    opacity: 0.2;
+    border: 1px solid #ccc;
 }
-#wrapper .panel-heading  a {
+
+#wrapper .panel-heading a {
     color: #000;
+}
+h3.advisory-board {
+    clear: both;
 }
