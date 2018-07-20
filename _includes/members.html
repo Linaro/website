@@ -2,7 +2,7 @@
     {% for group in include.data-file %}
           <div class="panel panel-default">
             <div class="panel-heading">
-                <a data-toggle="collapse" data-parent="#accordion">
+                <a data-toggle="collapse" data-parent="#accordion"  >
                     {{group.membership_group_name }}
                   </a>
             </div>
@@ -43,7 +43,7 @@
                     {% endfor %}
                     {% if group.advisory_board %}
                         <div class="row">
-                            <h3 class="text-center">Advisory Board</h3>
+                            <h3 class="advisory-board text-center">Advisory Board</h3>
                             {% assign advisory_board = group.advisory_board | sort: 'name' %}
                             {% for member in advisory_board %}
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
