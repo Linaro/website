@@ -35,6 +35,9 @@
     - name: Texas Instruments
       image: ti.jpg
       url: /company/texas-instruments/
+    - name: ZTE
+      image: zte.jpg
+      url: /company/zte/
 - id: group
   membership_group_name: Group Members
   text: |-
@@ -73,9 +76,6 @@
     - name: Kylin
       image: kylin.jpg
       url: /company/kylin/
-    - name: MediaTek
-      image: mediatek.jpg
-      url: /company/mediatek/
     - name: Mstar
       image: mstar.jpg
       url: /company/mstar/
@@ -116,11 +116,11 @@
       image: xilinx.jpg
       url: /company/xilinx/
 - id: associate
-  membership_group_name: Associate Members
+  membership_group_name: Associates
   members:
-    - name: Arm
-      image: arm.jpg
-      url: /company/arm/
+    - name: Runtime
+      image: runtime.png
+      url: /company/runtime/
 - id: community
   membership_group_name: Community Members
   members:
@@ -156,10 +156,6 @@
       The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.
 
       Companies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.
-  members:
-    - name: Arm
-      image: arm.jpg
-      url: /company/arm/
 - id: autonomous-vehicles-incubator
   membership_group_name: Autonomous Vehicles Incubator Members
   text: |-
@@ -253,9 +249,6 @@
     - name: Hisilicon
       image: hisilicon.jpg
       url: /company/hisilicon/
-    - name: MediaTek
-      image: mediatek.jpg
-      url: /company/mediatek/
     - name: NXP
       image: nxp.jpg
       url: /company/nxp/
@@ -293,15 +286,15 @@
     - name: NXP
       image: nxp.jpg
       url: /company/nxp/
-    - name: NXP
-      image: nxp.jpg
-      url: /company/nxp/
     - name: St
       image: st.jpg
       url: /company/st/
     - name: Texas Instruments
       image: ti.jpg
       url: /company/texas-instruments/
+    - name: UniSoc
+      image: unisoc.jpg
+      url: /company/unisoc/
     - name: Xilinx
       image: xilinx.jpg
       url: /company/xilinx/
