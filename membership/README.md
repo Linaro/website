@@ -12,4 +12,6 @@ Membership of Linaro is open to all interested companies, including Arm licensee
 The current members are listed below. If you are interested in joining these industry leaders, please send us an email to [contactus@linaro.org](mailto:contactus@linaro.org).
 
 
+<button class="btn-primary" id="expand-all">Expand All</button>
+
 {% include members.html data-file=site.data.members %}
