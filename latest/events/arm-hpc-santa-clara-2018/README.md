@@ -72,13 +72,13 @@ image:
 
 <div class="members" markdown="1">
 <strong>Thanks to our sponsors</strong>
-<div class="col-sm-4" markdown="1">
+<div class="col-xs-4" markdown="1">
 {% include image.html name="arm.jpg" %}
 </div>
-<div class="col-sm-4" markdown="1">
+<div class="col-xs-4" markdown="1">
 {% include image.html name="hisilicon.jpg" %}
 </div>
-<div class="col-sm-4" markdown="1">
+<div class="col-xs-4" markdown="1">
 {% include image.html name="linaro.jpg" %}
 </div>
 
