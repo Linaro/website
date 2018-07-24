@@ -138,4 +138,15 @@ $ bundle exec jekyll s
 
 This will serve (s) the Jekyll static website to the http://localhost:4000 where you can view the generated static website.
 
+## Known Issues
 
+### Rendering Liquid syntax on a post/page
+On very rare occasions you may need render/output Liquid (or code that uses the same syntax as Liquid) to a post/page. If you need to do this make sure you escape the opening Liquid tag like shown below:
+
+```
+{{ "{{ "{{" }} .... }}" }}
+```
+
+```
+{{ "{{ "{%" }}... %}" }}
+```
