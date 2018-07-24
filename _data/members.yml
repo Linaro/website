@@ -343,6 +343,9 @@
     - name: Socionext
       image: socionext.jpg
       url: /company/socionext/
+    - name: SoftBank
+      image: softbank.jpg
+      url: /company/softbank/
     - name: Texas Instruments
       image: ti.jpg
       url: /company/texas-instruments/
