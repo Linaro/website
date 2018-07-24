@@ -17,7 +17,7 @@ tags:
 - android
 - conference
 - Linaro
-- Linux on ARM
+- Linux on Arm
 - Open Source
 title: Integrating the ION memory allocator
 wordpress_id: 3002

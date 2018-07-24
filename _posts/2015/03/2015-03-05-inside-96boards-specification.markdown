@@ -52,7 +52,7 @@ categories:
 
 The Linaro 96Boards initiative announced at the recent Linaro Connect conference in Hong Kong on February 9th is an industry-first, establishing an open standard for low cost developer hardware from multiple SoC vendors.
 
-The initiative has already resulted in the cost of 64-bit ARM hardware for developers dropping by more than an order of magnitude to $129 for the 96Boards [HiKey](https://www.96boards.org/product/hikey/) product from CircuitCo Inc., featuring an 8 core ARM Cortex-A53 SoC from HiSilicon with a Mali 450 3D graphics accelerator.
+The initiative has already resulted in the cost of 64-bit Arm hardware for developers dropping by more than an order of magnitude to $129 for the 96Boards [HiKey](https://www.96boards.org/product/hikey/) product from CircuitCo Inc., featuring an 8 core Arm Cortex-A53 SoC from HiSilicon with a Mali 450 3D graphics accelerator.
 
 
 ## **The Specification**
@@ -66,17 +66,17 @@ In any effort like this the final specification will represent a set of compromi
 
 At the outset the Consumer Edition was designed with 3 main use cases in mind:
 
-  * Software developers, particularly those working on the new 64-bit ARMv8 architecture
+  * Software developers, particularly those working on the new 64-bit Armv8 architecture
   * Universities and the Maker community
   * Embedded product manufacturers
 
-In addition a key attribute of the ARM ecosystem is the speed of innovation and the differentiated products that the many ARM licensees produce. A goal of 96Boards is to embrace this differentiation and innovation and not to create a “one size fits all” commoditized product. This led to the concept of a minimum set of required functionality enabling a base software platform, leaving additional features, options and interfaces to the board designer.
+In addition a key attribute of the Arm ecosystem is the speed of innovation and the differentiated products that the many Arm licensees produce. A goal of 96Boards is to embrace this differentiation and innovation and not to create a “one size fits all” commoditized product. This led to the concept of a minimum set of required functionality enabling a base software platform, leaving additional features, options and interfaces to the board designer.
 
 ### **Linaro**
 
-Linaro is a not for profit company funded by its members - these members pay substantial fees and contribute engineers to enable Linaro to be a substantial software engineering company, delivering software to its members and the community, primarily through upstreaming technology to open source projects, including the Linux kernel. Linaro is fortunate enough to have many of the ARM Cortex-A series SoC licensees as members. As a member-led organization we therefore looked to our members for input once the idea for the 96Boards initiative was formed.
+Linaro is a not for profit company funded by its members - these members pay substantial fees and contribute engineers to enable Linaro to be a substantial software engineering company, delivering software to its members and the community, primarily through upstreaming technology to open source projects, including the Linux kernel. Linaro is fortunate enough to have many of the Arm Cortex-A series SoC licensees as members. As a member-led organization we therefore looked to our members for input once the idea for the 96Boards initiative was formed.
 
-The 96Boards specifications are a result of input from not only these members, but also Linaro’s technical leads and other members of the community, particularly those working on the ARMv8 architecture. Many of these inputs were naturally contradictory and many were not feasible if we were to achieve the target low cost price point, but they were all listened to, and the effort resulted in the final specifications which went through many drafts prior to completion of the first published version.
+The 96Boards specifications are a result of input from not only these members, but also Linaro’s technical leads and other members of the community, particularly those working on the Armv8 architecture. Many of these inputs were naturally contradictory and many were not feasible if we were to achieve the target low cost price point, but they were all listened to, and the effort resulted in the final specifications which went through many drafts prior to completion of the first published version.
 
 Here is some background to the choices that the technical team made for the 96Boards Consumer Edition.
 
@@ -126,7 +126,7 @@ In the end we made the decision to require WiFi (for internet connectivity) and 
 
 This was another area where there were very diverse opinions and ideas. In the end we decided to make a graphics display a requirement - we expect most implementations will use HDMI, but we also allow for MHL or Displayport over USB Type C. For some embedded products a display may not be required - we are looking at addressing that in a future 96Boards IoT/Embedded platform specification.
 
-Most modern ARM Cortex-A mobile SoCs support MIPI DSI and most also support MIPI CSI. Low end mobile chip sets (and some embedded SoCs) do not always support HDMI directly. In these cases small-footprint converter chips are available to convert from DSI to HDMI.
+Most modern Arm Cortex-A mobile SoCs support MIPI DSI and most also support MIPI CSI. Low end mobile chip sets (and some embedded SoCs) do not always support HDMI directly. In these cases small-footprint converter chips are available to convert from DSI to HDMI.
 
 Looking at our three use cases (above) we recognized that:
 
@@ -169,7 +169,7 @@ As more powerful SoCs become available even in the mobile space (particularly 64
 
 In order to minimize the board height profile while maximizing the power available we specified a 1.7mm center pin 5A barrel-jack connector for the power supply. While not the most common connector (larger 2.1 and 2.5mm pins are more often used) the 1.7mm connector is widely supported and adapters are easily available to convert 2.1 and 2.5mm jacks to the 1.7mm format. For an embedded product power can alternatively be provided over the low speed expansion bus.
 
-Given the use of these boards for software development we wanted to provide good facilities for power measurement. This allows the measurement of power consumption in real time, allowing for software to be optimized for both performance and power consumption. Our original plan was to require power measurement facilities on all major power rails. However, modern SoCs use power management ICs that can be extremely sensitive to any additional component load or voltage drop on power supply lines. In addition multiple power measurement ICs can add significant cost to the end product. We therefore compromised by requiring the capability for at least one sense resistor for external power measurement while providing guidelines for the implementation of additional power measurement, and a standard physical interface allowing off the shelf low cost power measurement equipment such as the ARM energy probe to be used by developers.
+Given the use of these boards for software development we wanted to provide good facilities for power measurement. This allows the measurement of power consumption in real time, allowing for software to be optimized for both performance and power consumption. Our original plan was to require power measurement facilities on all major power rails. However, modern SoCs use power management ICs that can be extremely sensitive to any additional component load or voltage drop on power supply lines. In addition multiple power measurement ICs can add significant cost to the end product. We therefore compromised by requiring the capability for at least one sense resistor for external power measurement while providing guidelines for the implementation of additional power measurement, and a standard physical interface allowing off the shelf low cost power measurement equipment such as the Arm energy probe to be used by developers.
 
 
 ### **Expansion Connectors**

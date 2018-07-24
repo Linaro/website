@@ -16,13 +16,13 @@ tags:
 - kernel
 - Linux
 - linux kernel
-title: Accelerated AES for the ARM64 Linux kernel
+title: Accelerated AES for the Arm64 Linux kernel
 wordpress_id: 12087
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://www.google.com" %}
 
-The ARMv8 architecture extends the AArch64 and AArch32 instruction sets with dedicated instructions for AES encryption, SHA-1 and SHA-256 cryptographic hashing, and 64×64 to 128 polynomial multiplication, and implementations of the various algorithms that use these instructions have been added to the ARM and arm64 ports of the Linux kernel over the past couple of years. Given that my main focus is on enterprise class systems, which typically use high end SoCs, I have never felt the urge to spend too much time on accelerated implementations for systems that lack these optional instructions (although I did contribute a plain NEON version of AES in ECB/CBC/CTR/XTS modes back in 2013). Until recently, that is, when I received a Raspberry Pi 3 from my esteemed colleague Joakim Bech, the tech lead of the Linaro Security Working Group. This system is built around a Broadcom SoC containing 4 Cortex-A53 cores that lack the ARMv8 Crypto Extensions, and as it turns out, its AES performance was dreadful.
+The Armv8 architecture extends the AArch64 and AArch32 instruction sets with dedicated instructions for AES encryption, SHA-1 and SHA-256 cryptographic hashing, and 64×64 to 128 polynomial multiplication, and implementations of the various algorithms that use these instructions have been added to the Arm and arm64 ports of the Linux kernel over the past couple of years. Given that my main focus is on enterprise class systems, which typically use high end SoCs, I have never felt the urge to spend too much time on accelerated implementations for systems that lack these optional instructions (although I did contribute a plain NEON version of AES in ECB/CBC/CTR/XTS modes back in 2013). Until recently, that is, when I received a Raspberry Pi 3 from my esteemed colleague Joakim Bech, the tech lead of the Linaro Security Working Group. This system is built around a Broadcom SoC containing 4 Cortex-A53 cores that lack the Armv8 Crypto Extensions, and as it turns out, its AES performance was dreadful.
 
 
 ## AES primer
@@ -123,7 +123,7 @@ This [code](http://git.kernel.org/cgit/linux/kernel/git/ardb/linux.git/tree/arch
 
 The AES S-box is not an arbitrary bijective mapping, it has a carefully chosen structure, based again on finite field arithmetic. So rather than performing 16 lookups each round, it is possible to _calculate_ the subsitution values, and one way to do this is described in the paper [Faster and Timing-Attack Resistant AES-GCM](https://eprint.iacr.org/2009/129.pdf) by Emilia Kaesper and Peter Schwabe. It is based on _bit slicing_, which is a method to make hardware algorithms suitable for implementation in software. In the AES case, this involves _bit slicing_ 8 blocks of input, i.e., collecting all bits N of each of the 128 bytes of input into NEON register qN. Subsequently, a sequence of logic operations is executed on those 8 AES states in parallel, which mimics the network of logic gates in a hardware implementation of the AES S-box. While software is usually orders of magnitude slower than hardware, the fact that the operations are performed on 128 bits at a time compensates for this.
 
-An implementation of AES using bit slicing is queued for v4.11 as well, which manages 19.8 cycles per byte on the Raspberry Pi 3, which makes it the preferred option for parallelizable modes such as CTR or XTS. It is based on the ARM implementation, which I ported from OpenSSL to the kernel back in 2013, in collaboration with Andy Polyakov, who authored the ARM version of the code originally. However, it has been modified to reuse the key schedule generation routines of the generic AES code, and to use the same expanded key schedule both for encryption and decryption, which reduces the size of the per-key data structure by 1696 bytes.
+An implementation of AES using bit slicing is queued for v4.11 as well, which manages 19.8 cycles per byte on the Raspberry Pi 3, which makes it the preferred option for parallelizable modes such as CTR or XTS. It is based on the Arm implementation, which I ported from OpenSSL to the kernel back in 2013, in collaboration with Andy Polyakov, who authored the Arm version of the code originally. However, it has been modified to reuse the key schedule generation routines of the generic AES code, and to use the same expanded key schedule both for encryption and decryption, which reduces the size of the per-key data structure by 1696 bytes.
 
 The code can be found [here](http://git.kernel.org/cgit/linux/kernel/git/ardb/linux.git/tree/arch/arm64/crypto/aes-neonbs-core.S?h=crypto-arm-v4.11).
 

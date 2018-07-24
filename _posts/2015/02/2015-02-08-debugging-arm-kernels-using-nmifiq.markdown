@@ -7,23 +7,23 @@ date: 2015-02-08 03:32:23
 description: "Daniel Thompson talks about how Linaro\xE2\x80\x99s work to upstream
   a little known tool for Android evolved into an effort, in collaboration with other
   contributors, to build a framework to exploit fast interrupt requests and, as a
-  result, port a wide variety of NMI-based diagnostic techniques to ARM."
+  result, port a wide variety of NMI-based diagnostic techniques to Arm."
 excerpt: "Daniel Thompson talks about how Linaro\u2019s work to upstream a little
   known tool for Android evolved into an effort, in collaboration with other contributors,
   to build a framework to exploit fast  interrupt requests and, as a result, port
-  a wide variety of NMI-based  diagnostic techniques to ARM."
+  a wide variety of NMI-based  diagnostic techniques to Arm."
 layout: post
 link: /blog/core-dump/debugging-arm-kernels-using-nmifiq/
 slug: debugging-arm-kernels-using-nmifiq
 tags:
 - Core Dump
-title: Debugging ARM kernels using NMI/FIQ
+title: Debugging Arm kernels using NMI/FIQ
 wordpress_id: 7904
 ---
 
-# Debugging ARM kernels using NMI/FIQ
+# Debugging Arm kernels using NMI/FIQ
 
-Daniel Thompson talks about how Linaro’s work to upstream a little known tool for Android evolved into an effort, in collaboration with other contributors, to build a framework to exploit fast interrupt requests and, as a result, port a wide variety of NMI-based diagnostic techniques to ARM.
+Daniel Thompson talks about how Linaro’s work to upstream a little known tool for Android evolved into an effort, in collaboration with other contributors, to build a framework to exploit fast interrupt requests and, as a result, port a wide variety of NMI-based diagnostic techniques to Arm.
 
 # Introduction
 
@@ -39,9 +39,9 @@ A debugger based on FIQ are robust enough to remain functional in circumstances 
 
 # An aside: What is FIQ?
 
-FIQ stands for [Fast Interrupt reQuest ](http://en.wikipedia.org/wiki/Fast_interrupt_request)and is a feature found in the majority of ARM cores, including all ARMv7-A devices. It augments regular interrupts by providing a second mechanism to asynchronously interrupt the CPU. The two interrupt signals, FIQ and IRQ, can be independently masked and Linux code seldom, if ever sets the FIQ mask bit.
+FIQ stands for [Fast Interrupt reQuest ](http://en.wikipedia.org/wiki/Fast_interrupt_request)and is a feature found in the majority of Arm cores, including all Armv7-A devices. It augments regular interrupts by providing a second mechanism to asynchronously interrupt the CPU. The two interrupt signals, FIQ and IRQ, can be independently masked and Linux code seldom, if ever sets the FIQ mask bit.
 
-_Note: On ARMv7-A devices that have security extensions (TrustZone) FIQ can only be used by the kernel if it is possible to run Linux in secure mode. It is therefore not possible to exploit FIQ for debugging and run a secure monitor simultaneously. At the end of this blog post we will discuss potential future work to mitigate this problem._
+_Note: On Armv7-A devices that have security extensions (TrustZone) FIQ can only be used by the kernel if it is possible to run Linux in secure mode. It is therefore not possible to exploit FIQ for debugging and run a secure monitor simultaneously. At the end of this blog post we will discuss potential future work to mitigate this problem._
 
 FIQ can perhaps best be characterized as a thirty year old trick designed to eliminate the need for a DMA unit in certain low cost systems. Avoiding a DMA unit becomes possible because, in addition to the separate masking, the CPU automatically [banks some of its registers ](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211h/ch02s08s01.html)when it switches to FIQ mode. These extra registers make it possible to service FIFO interrupts very quickly and without needing to use the stack. The only (data side) memory accesses needed are those required to fetch and store data from the FIFO.**** ****
 
@@ -52,7 +52,7 @@ Thirty years on the “fast” features of FIQ remain interesting for a few nich
 # Early work
 
 
-Our early work focused exclusively on extending code found in ARM's kgdb and kdb support to allow it to be triggered using FIQ. We built just enough infrastructure within the kernel to support this use case and paid little attention to beyond getting that single job done.
+Our early work focused exclusively on extending code found in Arm's kgdb and kdb support to allow it to be triggered using FIQ. We built just enough infrastructure within the kernel to support this use case and paid little attention to beyond getting that single job done.
 
 The code was fully functional and allowed us to develop a good understanding of the challenges of working with NMIs. Any code that is called from an NMI handler must be carefully audited to make sure it avoids all forms of locking, including spin locks. When we start calling code from NMI for the first time we often have to make it NMI-safe by finding ways to make the code lock-less. For example, we found that several polling serial drivers used spin locks. This was an important discovery since kgdb and kdb poll the UART in order to communicate.**** ****
 
@@ -67,7 +67,7 @@ Our answer (admittedly supplied to us in a [post from Thomas Gleixner](http://th
 
 All cpu backtrace is called by the spinlock debugging code (CONFIG_DEBUG_SPINLOCK) when it thinks the system might have locked up. It works by sending IPIs (inter-processor interrupts) that raise FIQ on the target processes and, because it uses FIQ, these target processors respond and issue a stack trace even if they are locked up and have interrupts masked.**** ****
 
-Normally on an ARM system, when a deadlock occurs, spinlock debugging will only show the backtrace of the CPU that’s stuck and this might not be the CPU that owns the lock. With all cpu backtrace then we get to see much more of the system hopefully allowing us to find the fault more quickly. For example the following screenshot shows what you would see the spinlock deadlock detection triggered on a typical ARM kernel (the functions highlighted were added to intentionally create a lockup warning):
+Normally on an Arm system, when a deadlock occurs, spinlock debugging will only show the backtrace of the CPU that’s stuck and this might not be the CPU that owns the lock. With all cpu backtrace then we get to see much more of the system hopefully allowing us to find the fault more quickly. For example the following screenshot shows what you would see the spinlock deadlock detection triggered on a typical Arm kernel (the functions highlighted were added to intentionally create a lockup warning):
 
 {% include image.html name="Backtrace-on-all-CPUs-1.jpg" alt="Backtrace-on-all-CPUs-1" %}
 
@@ -79,7 +79,7 @@ With all cpu backtrace enabled we would still get the above information about CP
 
 Which better helps us narrow down why the deadlock occurred.
 
-This patchset is mature and no longer expected to change significantly. Some parts of it, such as the default FIQ handler (handle_fiq_as_nmi) are already upstreamed. The remaining parts that are waiting to be merged include code to initialize the GIC and the ARM architecture specific code that handles the IPI.
+This patchset is mature and no longer expected to change significantly. Some parts of it, such as the default FIQ handler (handle_fiq_as_nmi) are already upstreamed. The remaining parts that are waiting to be merged include code to initialize the GIC and the Arm architecture specific code that handles the IPI.
 
 # Hardware performance monitoring
 
@@ -189,23 +189,23 @@ There are three potential activities related to this work in the future:**** **
   1. All the patches discussed will be maintained both to nurse them until they are delivered to the upstream kernel and to ensure they continue to be supported after they are merged.
 
 
-  2. ARMv8-A and GICv3 introduce a new co-processor interface to the GIC (both for AArch32 and AArch64) that we hope can be exploited to simulate NMIs without using FIQ. This should allow modern ARM devices to benefit from the robustness of NMI debug features without needing to run in secure mode.
+  2. Armv8-A and GICv3 introduce a new co-processor interface to the GIC (both for AArch32 and AArch64) that we hope can be exploited to simulate NMIs without using FIQ. This should allow modern Arm devices to benefit from the robustness of NMI debug features without needing to run in secure mode.
 
 
   3. OP-TEE and other secure monitors could be extended to allow it to handle some FIQs on behalf of the non-secure OS and route these interrupts back into the non-secure world. This would allow an NMI to be present even where Linux cannot run in secure mode.
 
 
-From the above list the first two items are being actively pursued by Linaro although our work on ARMv8-A is still in the very early stages.
+From the above list the first two items are being actively pursued by Linaro although our work on Armv8-A is still in the very early stages.
 
-Right now there are no plans at present to work on the final item, in part this is because it is more or less rendered obsolete by the switch to ARMv8-A systems. There also remain some serious technical challenges too. In particular world switching is a relatively expensive operation, making its use for performance monitoring unwise.
+Right now there are no plans at present to work on the final item, in part this is because it is more or less rendered obsolete by the switch to Armv8-A systems. There also remain some serious technical challenges too. In particular world switching is a relatively expensive operation, making its use for performance monitoring unwise.
 
-When we started this work our goal was to take a single feature from Android and make it more widely available. The feedback we received from the community challenged us to do more and result is a wide variety of debugging tools, all previously missing on ARM, that have been developed and can potentially be used across the eco-system, from mobile phones to large-scale servers. Interacting with the community in this way is, without doubt, one of the most exciting thing about writing open source software.
+When we started this work our goal was to take a single feature from Android and make it more widely available. The feedback we received from the community challenged us to do more and result is a wide variety of debugging tools, all previously missing on Arm, that have been developed and can potentially be used across the eco-system, from mobile phones to large-scale servers. Interacting with the community in this way is, without doubt, one of the most exciting thing about writing open source software.
 
 **_The community is, of course, made up of individuals and among the many people I have met so far I would especially like to thank Thomas Gleixner, Russell King, John Stultz, Dirk Behme and Will Deacon who variously have helped with code reviews, advice, feedback and encouragement._**
 
 ## **Correction**
 
 
-**In the article, the section "Backtrace on all CPUs", incorrectly implies that all work on all CPU backtrace for ARM was done by Linaro employees. In fact, Russell King provided an [_initial prototype implementation_](http://thread.gmane.org/gmane.linux.ports.arm.kernel/353795/) for ARM, derived from the existing x86 implementation. This patch was combined with patches from our own early work and the combined patchset evolved into the work presented in this article.**
+**In the article, the section "Backtrace on all CPUs", incorrectly implies that all work on all CPU backtrace for Arm was done by Linaro employees. In fact, Russell King provided an [_initial prototype implementation_](http://thread.gmane.org/gmane.linux.ports.arm.kernel/353795/) for Arm, derived from the existing x86 implementation. This patch was combined with patches from our own early work and the combined patchset evolved into the work presented in this article.**
 
 1: Once spin_lock_irq() has masked interrupts it becomes invisible to the profiler no matter how long it spends spinning trying to acquire the contended lock.

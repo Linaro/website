@@ -10,33 +10,33 @@ link: /blog/linaro-home-group-update-since-launching/
 slug: linaro-home-group-update-since-launching
 tags:
 - android
-- ARMv8
+- Armv8
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: Linaro Home Group Update Since Launching
 wordpress_id: 7602
 ---
 
-Linaro’s Home Group (LHG) was announced on May 29, 2014 and is the newest group within Linaro.  LHG works on solutions for members in reference to open source software for ARM-based set-top boxes, smart TVs, media boxes, TV dongles and home gateway products.  LHG was tasked by its’ members to work on several key initiatives including:
+Linaro’s Home Group (LHG) was announced on May 29, 2014 and is the newest group within Linaro.  LHG works on solutions for members in reference to open source software for Arm-based set-top boxes, smart TVs, media boxes, TV dongles and home gateway products.  LHG was tasked by its’ members to work on several key initiatives including:
 
   * A common core Linux platform. The Linaro Stable Kernel (LSK) is based on the kernel.org long-term supported (LTS) kernel. LHG will leverage this with a Group-focused baseline and add features such as DRM (digital rights management). LHG will provide a core Linux platform build with versions to support the base layer of the RDK (Reference Design Kit), Android-based products, and manufacturer-specific Linux-based products. The LHG platform will support different vendor applications and user interfaces.
 
   * Development of improved media framework APIs. LHG will work to establish standardized APIs to different media hardware, codecs, accelerators, and other peripheral functions across multiple members’ SoCs to improve middleware portability and provide an optimized media pipeline.
 
-  * Development of a standard media security platform based on ARM Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based ARM SoCs.
+  * Development of a standard media security platform based on Arm Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based Arm SoCs.
 
   * Integration of key open source standards-based software. The LHG steering committee will identify key open sourced standards to be integrated by the group’s engineering team. Items already under discussion include optimized HTML5 support for web-based delivery of media.
 
 
-At LCU14, the LHG team put on display some of their initial achievements.  This included the Chromium/Blink implementation as part of the Chromium Embedded Framework on ARM using the Aura windowing system with an Ozone plugin.  This embedded browser implementation was running on two member boards as part of the demos.
+At LCU14, the LHG team put on display some of their initial achievements.  This included the Chromium/Blink implementation as part of the Chromium Embedded Framework on Arm using the Aura windowing system with an Ozone plugin.  This embedded browser implementation was running on two member boards as part of the demos.
 
-LHG also continues to innovate on the RDK project and is evaluating architectures for the migration of RDK to use the Wayland windowing system on ARM.  The solutions under investigation include the Wayland-Ozone plugin and a Linaro reference EGL Ozone plugin.  Early implementations of Wayland on the ARM Mali GPU have shown good performance improvements.
+LHG also continues to innovate on the RDK project and is evaluating architectures for the migration of RDK to use the Wayland windowing system on Arm.  The solutions under investigation include the Wayland-Ozone plugin and a Linaro reference EGL Ozone plugin.  Early implementations of Wayland on the Arm Mali GPU have shown good performance improvements.
 
-Another highlight of LCU14 for LHG was the playback of 4k video on a member board with a dual Cortex-A9 ARM processor running GStreamer media pipeline with a Wayland implementation on Mali GPU that only used a fraction of one core to process and render.**** ****
+Another highlight of LCU14 for LHG was the playback of 4k video on a member board with a dual Cortex-A9 Arm processor running GStreamer media pipeline with a Wayland implementation on Mali GPU that only used a fraction of one core to process and render.**** ****
 
 * * *
 

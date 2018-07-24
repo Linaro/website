@@ -8,7 +8,7 @@
   link: https://www.linaro.org/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf
 - date: 2010-06-03 09:00:00+00:00
   text: |-
-      Linaro launched at Computex Taipei by six founding members: ARM, IBM, Freescale, Samsung, ST-Ericsson, Texas Instruments (TI)
+      Linaro launched at Computex Taipei by six founding members: Arm, IBM, Freescale, Samsung, ST-Ericsson, Texas Instruments (TI)
   link: https://www.linaro.org/news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
 - date: 2010-07-01 09:00:00+00:00
   text: |-
@@ -197,7 +197,7 @@
         Android KitKat (4.4) based on Linux Kernel 3.8
 - date: 2013-10-01 09:00:00+00:00
   text: |-
-        Linaro Connect US 2013 (LCU13) co-located with ARM TechCon in Santa
+        Linaro Connect US 2013 (LCU13) co-located with Arm TechCon in Santa
         Clara, CA
 - date: 2013-10-02 09:00:00+00:00
   text: |-
@@ -208,7 +208,7 @@
         Linaro joins OpenMPI
 - date: 2013-10-04 09:00:00+00:00
   text: |-
-        Linaro joins Linaro joins the HSA Foundation
+        Linaro joins the HSA Foundation
 - date: 2013-10-05 09:00:00+00:00
   text: |-
         Cavium joins the Linaro Networking Group (LNG)
@@ -275,7 +275,7 @@
   link: https://www.linaro.org/groups/lmg/
 - date: 2014-07-02 09:00:00+00:00
   text: |-
-        Linaro announces Android Open Source Project build for ARMv8-A Architecture is ready on 64-bit multi-core SoC
+        Linaro announces Android Open Source Project build for Armv8-A Architecture is ready on 64-bit multi-core SoC
   link: https://www.linaro.org/news/aosp-on-64-bit/
 - date: 2014-08-01 09:00:00+00:00
   text: |-
@@ -356,7 +356,7 @@
 - date: 2016-01-01 09:00:00+00:00
   year-start: true
   text: |-
-        Linaro announces Software Reference Platform for ARM servers
+        Linaro announces Software Reference Platform for Arm servers
   link: https://www.linaro.org/news/linaro-announces-software-reference-platform-arm-servers/
 - date: 2016-03-01 09:00:00+00:00
   text: |-
@@ -368,7 +368,7 @@
   link: https://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/
 - date: 2016-03-03 09:00:00+00:00
   text: |-
-        Linaro announces ARM Based Developer Cloud
+        Linaro announces Arm Based Developer Cloud
   link: https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/
 - date: 2016-06-01 09:00:00+00:00
   text: |-
@@ -376,7 +376,7 @@
   link: https://www.linaro.org/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
 - date: 2016-08-01 09:00:00+00:00
   text: |-
-        ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product
+        ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
   link: https://www.linaro.org/news/archermind-joins-96boards-launches-deci-core-armv8-product/
 - date: 2016-08-02 09:00:00+00:00
   text: |-
@@ -409,11 +409,11 @@
   link: https://www.linaro.org/news/acer-joins-linaro-iot-and-embedded-group/
 - date: 2017-03-03 09:00:00+00:00
   text: |-
-        HXT Semiconductor joins Linaro to accelerate Advanced Server Development on ARM
+        HXT Semiconductor joins Linaro to accelerate Advanced Server Development on Arm
   link: https://www.linaro.org/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
 - date: 2017-03-04 09:00:00+00:00
   text: |-
-        Linaro announces Fujisu’s collaboration to accelerate High Performance Computin on ARM
+        Linaro announces Fujisu’s collaboration to accelerate High Performance Computin on Arm
   link: https://www.linaro.org/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/
 - date: 2017-03-05 09:00:00+00:00
   text: |-

@@ -42,6 +42,6 @@ For the moment, get howto information for each build by looking at its tip build
 
 * [Panda and Panda ES, GCC46, Linaro common kernel]()https://android-build.linaro.org/builds/~linaro-android/panda-ics-gcc46-kwg-upstream-open-12.03-release/#build=1 | [QA Tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AkxwyUNxNaAadGVWd3pZazdaRUU0MnRnWmgwbVhTR0E#gid=9)
 
-**ARM**
+**Arm**
 
-* [Versatile Express A9, Linaro GCC4.6, Linaro ARM kernel]()https://android-build.linaro.org/builds/~linaro-android/vexpress-ics-gcc46-armlt-stable-open-12.03-release/#build=1 | [QA Tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AkxwyUNxNaAadExQdHNxTnR5SFZCQzJnN1ZtQ2ZhWkE#gid=0)
+* [Versatile Express A9, Linaro GCC4.6, Linaro Arm kernel]()https://android-build.linaro.org/builds/~linaro-android/vexpress-ics-gcc46-armlt-stable-open-12.03-release/#build=1 | [QA Tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AkxwyUNxNaAadExQdHNxTnR5SFZCQzJnN1ZtQ2ZhWkE#gid=0)

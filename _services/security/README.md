@@ -9,7 +9,7 @@ redirect_from:
 - /services-linux/security/
 ---
 
-Linaro Developer Services has significant experience securing ARM systems; including secure boot, working with Trustzone, porting OP-TEE and working with Trusted Applications.
+Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with Trustzone, porting OP-TEE and working with Trusted Applications.
 
 - Open Portable Trusted Execution Environment (OP-TEE)
     - OP-TEE provides Isolation, small footprint, portability

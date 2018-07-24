@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2011-09-09 14:17:05
 description: Discusses the changes in the Linaro Kernel
-keywords: Linaro, Linux, kernel, ARM,
+keywords: Linaro, Linux, kernel, Arm,
 layout: post
 link: /blog/industry-blog/the-evolution-of-the-linaro-kernel/
 slug: the-evolution-of-the-linaro-kernel
@@ -14,7 +14,7 @@ title: The Evolution of the Linaro Kernel
 wordpress_id: 4126
 ---
 
-In the last few months Linaro has shifted from releasing a kernel every 6 months to releasing monthly kernel snapshots, which allow members and the broader ARM community to have access to an updated kernel in a more timely manner. This is the first step of the evolution of Linaro's kernel process, and over the next several months we will continue to make changes to provide more value to our members and the upstream Linux community.
+In the last few months Linaro has shifted from releasing a kernel every 6 months to releasing monthly kernel snapshots, which allow members and the broader Arm community to have access to an updated kernel in a more timely manner. This is the first step of the evolution of Linaro's kernel process, and over the next several months we will continue to make changes to provide more value to our members and the upstream Linux community.
 
 **The goal of Linaro's kernel process is threefold:**
 
@@ -39,17 +39,17 @@ To improve upon this, Linaro is making a number of adjustments to its kernel pro
 
 * Linus Torvald’s mainline tree
 * The "for-next" branch of the arm-soc tree, a key consolidation point for for various SOC trees
-* [Russell King’s ARM tree](http://ftp.arm.linux.org.uk/git/gitweb.cgi?p=linux-2.6-arm.git;a=summary), which contains core ARM architecture changes
+* [Russell King’s Arm tree](http://ftp.arm.linux.org.uk/git/gitweb.cgi?p=linux-2.6-arm.git;a=summary), which contains core Arm architecture changes
 * Stephen Rothwell's linux-next tree
 * **linux-linaro** itself
 
-Testing this set of trees enables us to quickly catch mainline-affecting issues. By testing often and early, we can ensure that member platforms are always working upstream, and substantially decrease the maintenance burden for internal BSP trees. In addition, this work will provide a validated baseline with improved ARM support and testing that member’s engineering teams can use for development of new features and SOC ports.
+Testing this set of trees enables us to quickly catch mainline-affecting issues. By testing often and early, we can ensure that member platforms are always working upstream, and substantially decrease the maintenance burden for internal BSP trees. In addition, this work will provide a validated baseline with improved Arm support and testing that member’s engineering teams can use for development of new features and SOC ports.
 
-**Stable ARM Kernels**
-The concept of a "stable kernel" has existed for Linux for a long time. With the move to a rolling release in the 2.6 kernel series, each released version of the kernel has seen a number of stable updates. The 3.0 stable tree is currently maintained by Greg Koah-Hartman; the latest stable version available is today is linux-3.0.4. The patch policy for this tree is quite stringent: patches must be small and no new features are allowed. This tree is quite successful in the x86 space, but has seen less interest from other architectures, ARM included.  In changing our kernel process, **linux-linaro** will function more like the upstream stable kernel tree;  in other words, built upon a released kernel version, tested across member hardware, and including backported bugfixes that make it a better starting point for a team building a product. We will also be actively involved in getting outstanding bugfixes submitted to the -stable tree ourselves, helping the upstream ARM community build a process around it.
+**Stable Arm Kernels**
+The concept of a "stable kernel" has existed for Linux for a long time. With the move to a rolling release in the 2.6 kernel series, each released version of the kernel has seen a number of stable updates. The 3.0 stable tree is currently maintained by Greg Koah-Hartman; the latest stable version available is today is linux-3.0.4. The patch policy for this tree is quite stringent: patches must be small and no new features are allowed. This tree is quite successful in the x86 space, but has seen less interest from other architectures, Arm included.  In changing our kernel process, **linux-linaro** will function more like the upstream stable kernel tree;  in other words, built upon a released kernel version, tested across member hardware, and including backported bugfixes that make it a better starting point for a team building a product. We will also be actively involved in getting outstanding bugfixes submitted to the -stable tree ourselves, helping the upstream Arm community build a process around it.
 
 **Less Backporting**
-Because we want linux-linaro to be "stable first", we will no longer actively backport all ARM-related features from the tips of mainline and other relevant upstream trees. Backports will be considered on a case-by-case basis, and we expect to deliver a monthly release of linux-linaro which has improved stability, bugfixes and testing on member ARM hardware compared to the linux kernel version it was based on (today linux-3.0).
+Because we want linux-linaro to be "stable first", we will no longer actively backport all Arm-related features from the tips of mainline and other relevant upstream trees. Backports will be considered on a case-by-case basis, and we expect to deliver a monthly release of linux-linaro which has improved stability, bugfixes and testing on member Arm hardware compared to the linux kernel version it was based on (today linux-3.0).
 
 Linaro’s Working Groups will continue to focus on getting their work merged into upstream trees.  The WGs will also take advantage of the CI infrastructure to also test their in-development topic trees. This will ensure that they do not unexpectedly cause issues on member platforms, and will better prepare the code for mainline submission.
 
@@ -61,6 +61,6 @@ As well as testing upstream kernels, Linaro will maintain a merged tree consolid
 John Stultz of the KWG currently maintains our merged [linux-linaro-android tree](http://git.linaro.org/gitweb?p=people/jstultz/android.git;a=summary).
 
 **The Future**
-We will introduce the changes above in the coming months and continue to evaluate the uptake of the linux-linaro tree along with the impact of the CI system. We will be using the linux-linaro and linux-linaro-android trees internally as the starting point for our member specific Landing Team trees and LEBs. Over time, it is possible that linux-linaro and Greg K-H's stable kernel effort merge, leading to the monthly release of a stable kernel including key ARM bugfixes. In the long term, if results from the CI effort lead to a mainline kernel which is significantly more stable on ARM, we may experiment with generating Platform deliverables directly from that mainline kernel, providing a simple way to validate Working Group kernel code without the need for backporting.
+We will introduce the changes above in the coming months and continue to evaluate the uptake of the linux-linaro tree along with the impact of the CI system. We will be using the linux-linaro and linux-linaro-android trees internally as the starting point for our member specific Landing Team trees and LEBs. Over time, it is possible that linux-linaro and Greg K-H's stable kernel effort merge, leading to the monthly release of a stable kernel including key Arm bugfixes. In the long term, if results from the CI effort lead to a mainline kernel which is significantly more stable on Arm, we may experiment with generating Platform deliverables directly from that mainline kernel, providing a simple way to validate Working Group kernel code without the need for backporting.
 
 Finally, Linaro is considering supporting the Long Term Supported Linux Kernel program, which elects a certain kernel version to be supported over multiple years. We'll keep you informed of progress on all these fronts, and we invite you to help spread word of Linaro's kernel plans in your organization.

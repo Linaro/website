@@ -6,7 +6,7 @@ date: 2011-12-08 19:00:49
 description: Linaro announces the formation of the Linaro Community Contributor Process
   and Team, introducing a process to recognise community members who have sustained
   contributions over a significant period of time.
-keywords: Linux on ARM, Community, Contributor, Linaro, Process, Linaro Connect, Announcement
+keywords: Linux on Arm, Community, Contributor, Linaro, Process, Linaro Connect, Announcement
 layout: post
 link: /blog/community-blog/linaro-announces-community-contributor-process-and-team/
 slug: linaro-announces-community-contributor-process-and-team
@@ -20,11 +20,11 @@ Today, Linaro announces the formation of the [Linaro Community Contributor Proce
 
 [Linaro](/) itself is now an organisation of around 120 engineers, but as we continue to grow the community around us is also growing fast. We're grateful to the many people who are participating in our success, and so we're introducing the Community Contributor process to recognise those community members who have sustained contributions over a significant period of time. Our Technical Leads now have the opportunity to nominate an individual as a Community Contributor of Linaro.
 
-"When we founded Linaro we had no idea we'd have this amount of engagement and interest from this really broad community of developers interested in Linux on ARM. Interacting with them has been by far the most rewarding part of my role as VP of Engineering (sometimes known as VP of Troublemaking!),” says Linaro’s Engineering VP, Christian Reis. “Officializing the engagement of these engineers and rewarding their participation are important steps that Linaro is undertaking to ensure we run an open forum where multiple (sometimes conflicting) perspectives are considered and converged."
+"When we founded Linaro we had no idea we'd have this amount of engagement and interest from this really broad community of developers interested in Linux on Arm. Interacting with them has been by far the most rewarding part of my role as VP of Engineering (sometimes known as VP of Troublemaking!),” says Linaro’s Engineering VP, Christian Reis. “Officializing the engagement of these engineers and rewarding their participation are important steps that Linaro is undertaking to ensure we run an open forum where multiple (sometimes conflicting) perspectives are considered and converged."
 
 Linaro CTO, David A Rusling, says, "Linaro is a very open and friendly organisation and I'm often asked how people can join in the work that Linaro does. When we first launched Linaro we had the idea of community contributors but felt that we had to build the teams and make an impact before we had the critical mass to support community contributors.  Now I'm glad to say that we can and I'm really looking forward to seeing what happens next."
 
-Zach Pfeffer, Android Platform Tech Lead at Linaro, attributes his motivation and excitement  for encouraging community participation by referencing Linux founder, Linus Torvalds. Pfeffer [paraphrasing Torvalds’ sentiments](https://lkml.org/lkml/2011/3/17/492) says, “Linus told the ARM community to get its ass in gear. Linaro answered the call and now with the Linaro Community Contributor process, you can too!”
+Zach Pfeffer, Android Platform Tech Lead at Linaro, attributes his motivation and excitement  for encouraging community participation by referencing Linux founder, Linus Torvalds. Pfeffer [paraphrasing Torvalds’ sentiments](https://lkml.org/lkml/2011/3/17/492) says, “Linus told the Arm community to get its ass in gear. Linaro answered the call and now with the Linaro Community Contributor process, you can too!”
 
 **The benefits of becoming a Community Contributor will include:**
 
@@ -53,9 +53,9 @@ We place a lot of value on having a vibrant network of Community Contributors so
 
 **Getting Involved**
 
-[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/hub/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
+[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/latest/hub/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
 
-Find out you can be part of this exciting and growing community by visiting our [community page](/hub/).
+Find out you can be part of this exciting and growing community by visiting our [community page](/latest/hub/).
 
 **About Linaro**
-_Linaro ™  is a  Not-For-Profit software engineering company that works with the open source community to make it easier and faster to develop open source based devices. Linaro has the aim of investing new resources and aligning efforts from the industry to continuously improve and optimize open source software and tools on the ARM architecture with the goal of accelerating industry innovation.[ www.linaro.org](/)_
+_Linaro ™  is a  Not-For-Profit software engineering company that works with the open source community to make it easier and faster to develop open source based devices. Linaro has the aim of investing new resources and aligning efforts from the industry to continuously improve and optimize open source software and tools on the Arm architecture with the goal of accelerating industry innovation.[ www.linaro.org](/)_

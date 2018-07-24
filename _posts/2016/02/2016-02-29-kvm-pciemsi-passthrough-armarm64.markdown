@@ -5,34 +5,34 @@ categories:
 date: 2016-02-29 23:08:58
 description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an ARM-based system that require
+  subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on ARM server systems.
+  on Arm server systems.
 excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM, also
   known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an ARM-based system that require
+  subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on ARM server systems.
+  on Arm server systems.
 layout: post
 link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
 slug: kvm-pciemsi-passthrough-armarm64
 tags:
 - Core Dump
-- ARM servers
+- Arm servers
 - kernel
 - Linux
-- Linux on ARM
+- Linux on Arm
 - MSI
 - PCIe
 - qemu
 - VFIO
-title: KVM PCIe/MSI Passthrough on ARM/ARM64
+title: KVM PCIe/MSI Passthrough on Arm/Arm64
 wordpress_id: 10013
 ---
 
 {% include image.html name="core-dump.png" lightbox_disabled="True" alt="core-dump" url="https://wiki.linaro.org/CoreDevelopment" %}
 
-While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an ARM-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on ARM server systems.
+While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an Arm-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on Arm server systems.
 
 
 # Message Signaled Interrupts
@@ -45,9 +45,9 @@ Thus, the MSI-enabled device must be programmed with:
   * the address to write to
   * and a payload
 
-# ARM MSI Controllers
+# Arm MSI Controllers
 
-This chapter gives a brief introduction of 2 ARM MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. Please refer to the [references](https://docs.google.com/document/d/19-ZLE_xXKbebXKysIrAhmpXIdcRz6BjJlhP4NNWom8Y/edit#heading=h.p2pt38fekl4d) for more details.
+This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. Please refer to the [references](https://docs.google.com/document/d/19-ZLE_xXKbebXKysIrAhmpXIdcRz6BjJlhP4NNWom8Y/edit#heading=h.p2pt38fekl4d) for more details.
 
 ## GICv2M
 
@@ -83,17 +83,17 @@ As opposed to the GICv2M, the ITS must be configured by software before it is us
 {% include image.html name="KVM-blog-image-3.jpg" alt="KVM blog image 3" %}
 
 
-Interrupt translation is also supported on Intel hardware as part of the VT-d spec. The Intel IRQ remapping HW provides a translation service similar to the ITS. The difference is that the intel implementation looks more like a true IOMMU in the sense the translation process uses the MSI address as input as well the MSI data payload. On ARM the deviceid is conveyed out of band.
+Interrupt translation is also supported on Intel hardware as part of the VT-d spec. The Intel IRQ remapping HW provides a translation service similar to the ITS. The difference is that the intel implementation looks more like a true IOMMU in the sense the translation process uses the MSI address as input as well the MSI data payload. On Arm the deviceid is conveyed out of band.
 
 So on x86 there is not a single doorbell address MSI messages are written to. Instead each device writes at a different address. This address is within  the 0xFEEX_XXXXh range and bits 14:0 and bit 2 of the upper 32-bit of the address encode the deviceid (handle) used by the translation process.
 
-For that reason the IRQ remapping HW is abstracted by IOMMU drivers.  On ARM, ITS is abstracted by irqchip driver.
+For that reason the IRQ remapping HW is abstracted by IOMMU drivers.  On Arm, ITS is abstracted by irqchip driver.
 
 
-# KVM PCI/MSI passthrough, x86/ARM Differences
+# KVM PCI/MSI passthrough, x86/Arm Differences
 
 
-This chapter explains why the current VFIO integration (QEMU VFIO PCI device/ kernel VFIO PCI driver) does not work for ARM.
+This chapter explains why the current VFIO integration (QEMU VFIO PCI device/ kernel VFIO PCI driver) does not work for Arm.
 
 When a device is assigned to a guest, it is unbound from its native driver and bound to the VFIO-PCI driver. A prerequisite for using VFIO in full feature mode is to have an IOMMU downstream to the device. Indeed The VFIO driver API eventually allows the user-space to set up DMA mappings between the device IOVA space and user-space virtual memory. If no IOMMU mapping does exist for a given IOVA, the related DMA access fails with an IOMMU abort. IOMMU allows DMA access isolation.
 
@@ -101,7 +101,7 @@ In the virtualization use case, The QEMU VFIO device takes care of mapping all t
 
 On x86 this does not bring any issue since MSI write translation hit within a special 1MB physical address window [FEE0_0000h - FEF0_000h]. Those transactions target the APIC configuration space and not DRAM, meaning the downstream IOMMU is bypassed. So there is no need to IOMMU map the MSI transaction addresses.
 
-On ARM however the MSI transactions towards the doorbell are conveyed through the IOMMU. Therefore an IOMMU mapping must exist. This is similar on PowerPC.
+On Arm however the MSI transactions towards the doorbell are conveyed through the IOMMU. Therefore an IOMMU mapping must exist. This is similar on PowerPC.
 
 Without changes to the VFIO subsystem, MSIs simply cause IOMMU aborts because no mapping is defined between the address used by the device (IOVA) and the physical address for the MSI frame including the doorbell register.
 
@@ -111,7 +111,7 @@ The goal of the ongoing work is to create the needed IOMMU mappings for MSI writ
 # Assigned device MSI Setup
 
 
-This chapter describes how an MSI is setup for an assigned device. First we discuss the VFIO legacy implementation (upstreamed implementation working for x86). Then we explain the adaptations needed to make it functional on ARM/ARM64.
+This chapter describes how an MSI is setup for an assigned device. First we discuss the VFIO legacy implementation (upstreamed implementation working for x86). Then we explain the adaptations needed to make it functional on Arm/Arm64.
 
 
 ## Legacy Implementation
@@ -128,7 +128,7 @@ Then the MSI forwarding follows that path:
 host computed MSI message -> host computed physical SPI ID -> eventfd -> guest computed virtual SPI ID
 
 
-## Requested adaptation for ARM
+## Requested adaptation for Arm
 
 
 When the VFIO PCI driver programs the assigned physical PCIe device with an MSI message composed by the host, we need to replace the MSI message address (the doorbell host physical address) by an IOVA, mapped onto this doorbell physical address.
@@ -177,7 +177,7 @@ With GICv3 ITS we do not have this issue since each MSI transaction is tagged wi
 # Conclusions
 
 
-Supporting MSI passthrough with KVM on ARM platforms requires changes to Linux and QEMU due to underlying differences between the ARM and x86 architectures. ARM platforms with GICv2m MSI controllers will require users to load VFIO with the allow_unsafe_interrupts parameter for MSI passthrough to work, but GICv3 ITS platforms will work with VFIO without any additional parameters.
+Supporting MSI passthrough with KVM on Arm platforms requires changes to Linux and QEMU due to underlying differences between the Arm and x86 architectures. Arm platforms with GICv2m MSI controllers will require users to load VFIO with the allow_unsafe_interrupts parameter for MSI passthrough to work, but GICv3 ITS platforms will work with VFIO without any additional parameters.
 
 The changes required to Linux and QEMU are currently being upstreamed by Linaro and the latest versions of the patch series are referenced below [5, 6].
 
@@ -196,7 +196,7 @@ This chapter illustrates the assignment of 2 different PCIe devices:
   * Intel X540-T2 Ethernet Controller (SR-IOV capable)
 
 
-on  AMD 64-bit ARM Overdrive featuring a single GICv2M MSI frame.
+on  AMD 64-bit Arm Overdrive featuring a single GICv2M MSI frame.
 
 
 ## e1000e Assignment
@@ -208,7 +208,7 @@ on  AMD 64-bit ARM Overdrive featuring a single GICv2M MSI frame.
 _make defconfig_
 _scripts/config -e CONFIG_IOMMU_SUPPORT_
 _scripts/config -e CONFIG_IOMMU_API_
-_scripts/config -e CONFIG_ARM_SMMU_
+_scripts/config -e CONFIG_Arm_SMMU_
 _scripts/config -m CONFIG_VFIO_
 _scripts/config -m CONFIG_VFIO_PCI_
 _scripts/config -m CONFIG_VFIO_IOMMU_TYPE1_
@@ -384,6 +384,6 @@ _-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
 ## Kernel & QEMU Series
 
 
-[5] kernel series: KVM PCIe/MSI passthrough on ARM/ARM64 [https://lkml.org/lkml/2016/2/12/47](https://lkml.org/lkml/2016/2/12/47)
+[5] kernel series: KVM PCIe/MSI passthrough on Arm/Arm64 [https://lkml.org/lkml/2016/2/12/47](https://lkml.org/lkml/2016/2/12/47)
 
 [6] QEMU series: [RFC v2 0/8] KVM PCI/MSI passthrough with mach-virt  [http://lists.gnu.org/archive/html/qemu-arm/2016-01/msg00444.html](http://lists.gnu.org/archive/html/qemu-arm/2016-01/msg00444.html)

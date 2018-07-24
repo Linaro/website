@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2013-04-25 16:45:10
 description: The Linaro 13.04 release is now available for download!
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
   Linaro 13.04 release. release, announcement
 layout: post
 link: /blog/releases-blog/linaro-13-04-released/
@@ -25,11 +25,11 @@ wordpress_id: 2644
 
 The 13.04 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, Ubuntu and OpenEmbedded during this release cycle.
 
-The 13.04 release cycle has been one of the busiest and most productive cycles to date. There were 7 individual team releases during this cycle all of which help build the foundation of the Linaro 13.04 release. It is through the teamwork and collaboration between Linaro, its members and community that the achievements of each are unified in these monthly releases and continue to build the future of Linux on ARM.
+The 13.04 release cycle has been one of the busiest and most productive cycles to date. There were 7 individual team releases during this cycle all of which help build the foundation of the Linaro 13.04 release. It is through the teamwork and collaboration between Linaro, its members and community that the achievements of each are unified in these monthly releases and continue to build the future of Linux on Arm.
 
-Quality builds continue to be the foundation on which the future of Linux on ARM is being built, this quality is ensured through our testing and validation teams. Fedora support has been merged in LAVA and users can now submit LAVA jobs using a Fedora pre-built image. The QA Team announced that tests to cover big.LITTLE cluster init and shutdown have been added to the big.LITTLE core test suite and big.LITTLE extended test case scenarios have been implemented.
+Quality builds continue to be the foundation on which the future of Linux on Arm is being built, this quality is ensured through our testing and validation teams. Fedora support has been merged in LAVA and users can now submit LAVA jobs using a Fedora pre-built image. The QA Team announced that tests to cover big.LITTLE cluster init and shutdown have been added to the big.LITTLE core test suite and big.LITTLE extended test case scenarios have been implemented.
 
-Our Builds and Baselines teams are the footers that support this foundation of collaboration and during the 13.04 release front, Dalvik VM unit test has now been automated and the native toolchain on Android has been updated to Linaro GCC 4.8. The Android tree has been updated to compile with GCC 4.8 based toolchains and all related changes have been upstreamed. The ARMv7 KVM enabled kernels intergrated into our pre-built images are now built daily and tested in Linaro's CI loop. The OpenEmbedded ARMv8 engineering build now provides 64bit HipHop VM requirements for porting and optimization purposes. The OpenEmbedded test cases have been automated and a current list of these tests can be found at:
+Our Builds and Baselines teams are the footers that support this foundation of collaboration and during the 13.04 release front, Dalvik VM unit test has now been automated and the native toolchain on Android has been updated to Linaro GCC 4.8. The Android tree has been updated to compile with GCC 4.8 based toolchains and all related changes have been upstreamed. The Armv7 KVM enabled kernels intergrated into our pre-built images are now built daily and tested in Linaro's CI loop. The OpenEmbedded Armv8 engineering build now provides 64bit HipHop VM requirements for porting and optimization purposes. The OpenEmbedded test cases have been automated and a current list of these tests can be found at:
 
 [https://git.linaro.org/](https://git.linaro.org/)
 
@@ -39,13 +39,13 @@ Additional highlights include the release of a big.LITTLE porting guide by the P
 
 Just a reminder that [registration](http://linaroconnect-lce13-eorg.eventbrite.com/) for [Linaro Connect Europe 2013](http://connect.linaro.org) which is being held in Dublin, Ireland at the Burlington Hotel on 8 - 12 July 2013 is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/). Register and make your hotel reservations today. Additionally, the top level schedule of sessions is now coming together. A [schedule of events](http://lce-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=453800) can be found on the [Linaro Connect website](/initiatives/connect/).
 
-We hope to see you in Dublin, where you too can be part of this amazing future of Linux on ARM.
+We hope to see you in Dublin, where you too can be part of this amazing future of Linux on Arm.
 
 **USING THE RELEASE:**
 
 We encourage everybody to use the 13.04 release. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:

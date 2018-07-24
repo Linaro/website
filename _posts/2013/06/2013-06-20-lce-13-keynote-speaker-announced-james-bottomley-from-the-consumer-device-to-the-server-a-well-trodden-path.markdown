@@ -6,7 +6,7 @@ date: 2013-06-20 18:27:42
 description: Linaro announces that James Bottomley, will be giving the Monday, July
   8th keynote at Linaro Connect Europe 2013 (LCE-13).
 keywords: James Bottomley, Virtualisation, Parallels, Keynote, Announced, Linaro,
-  Linux on ARM, Open Source, ARM, Linaro Connect Europe, LCE-13, Dublin
+  Linux on Arm, Open Source, Arm, Linaro Connect Europe, LCE-13, Dublin
 layout: post
 link: /blog/connect-update/lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path/
 slug: lce-13-keynote-speaker-announced-james-bottomley-from-the-consumer-device-to-the-server-a-well-trodden-path
@@ -27,8 +27,8 @@ James' keynote is titled "From the consumer device to the server: A well trodden
 
 At the dawn of the UNIX epoch (well, in the seventies, anyway) it was a well known fact that processor architectures (which should be many and risc) had to be designed specifically for the enterprise server. Each different architecture filled a slightly different niche in the diverse enterprise. In the early nineties, that vision was gone, UNIX was dying and the humble desktop x86 processor and its allied server operating system Windows NT were poised to sweep away old UNIX and conquer the enterprise on the crest of the Wintel duopoly wave. Today the enterprise is won, the marketing guys quietly changed the first letter of the sign from W to L and the jilted W went off to sulk in the Rainforests of the Pacific Northwest interrupted only by a series of failed business plans and the odd bout of chair throwing.
 
-What this shows, of course, is that even for an incredibly well funded assault on the bastions of enterprise servers, the road from desktop to server was anything but smooth. This talk will review history, what went well and what didn't, why UNIX really died, the 64 bit boulder, the hypervisor extensions and so on, drawing parallels with the progress of ARM today and illuminating some potholes in its road to the server.
+What this shows, of course, is that even for an incredibly well funded assault on the bastions of enterprise servers, the road from desktop to server was anything but smooth. This talk will review history, what went well and what didn't, why UNIX really died, the 64 bit boulder, the hypervisor extensions and so on, drawing parallels with the progress of Arm today and illuminating some potholes in its road to the server.
 
-We'll also look at the evolving nature of the server and the modern data centre and what changes this might force in processor architectures and explain why the solution to power budgets and green computing might not necessarily be the magic bullet with ARMs name on it.
+We'll also look at the evolving nature of the server and the modern data centre and what changes this might force in processor architectures and explain why the solution to power budgets and green computing might not necessarily be the magic bullet with Arms name on it.
 
 More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)

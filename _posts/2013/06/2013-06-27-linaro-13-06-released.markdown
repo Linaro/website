@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2013-06-27 18:01:37
 description: The Linaro 13.06 release is now available for download!
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
   Linaro 13.06 release, release, announcement, IKS, Linaro Stable Kernel, LSK, LAVA,
   Builds and Baselines, Kernel, QA Services
 layout: post
@@ -23,13 +23,13 @@ wordpress_id: 2787
 
 ## The Linaro 13.06 release is now available for download!
 
-The 13.06 Linaro release highlights the progressive efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle. With this release we celebrate the 3rd anniversary of Linaro and can truly begin to see how deviation from the norm and the "way things were" have been a catalyst to progressing the future of Linux on ARM thus bringing the collaborative efforts of Linaro, its members and the greater Open Source Community together to build upon.
+The 13.06 Linaro release highlights the progressive efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle. With this release we celebrate the 3rd anniversary of Linaro and can truly begin to see how deviation from the norm and the "way things were" have been a catalyst to progressing the future of Linux on Arm thus bringing the collaborative efforts of Linaro, its members and the greater Open Source Community together to build upon.
 
-It’s been a very active cycle for the Builds and Baselines team, reporting that the Continuous Integration (CI) loop for the Linaro Stable Kernel (LSK) Android proof of concept which is based on 3.9.6 kernel version was set up and includes the big.LITTLE IKS and MP patches (also called beta patchset). Support for Kernel CI loop with Android filesystem was added to android-build and CI loop was set up to track the ARM Landing Team (LT) integration tree. The HiSilicon member build with complete CI loop was set up and now tracks the LT kernel tree.
+It’s been a very active cycle for the Builds and Baselines team, reporting that the Continuous Integration (CI) loop for the Linaro Stable Kernel (LSK) Android proof of concept which is based on 3.9.6 kernel version was set up and includes the big.LITTLE IKS and MP patches (also called beta patchset). Support for Kernel CI loop with Android filesystem was added to android-build and CI loop was set up to track the Arm Landing Team (LT) integration tree. The HiSilicon member build with complete CI loop was set up and now tracks the LT kernel tree.
 
-The LAVA team was equally as productive as the various client tools were consolidated into a single package simplifying the process of updating the tools and making it easier for the team to provide new features for LAVA users, thus improving the developer experience. LAVA support for tarballs (tgz), Debian and RPM packaging has been reviewed and explicit support has now been created outside the use of lava-deployment-tool. Additionally, LAVA now supports KVM devices, which can be used for providing x86 boxes for cross-building and other tasks where there is no need (or no possibility) of using actual ARM devices.
+The LAVA team was equally as productive as the various client tools were consolidated into a single package simplifying the process of updating the tools and making it easier for the team to provide new features for LAVA users, thus improving the developer experience. LAVA support for tarballs (tgz), Debian and RPM packaging has been reviewed and explicit support has now been created outside the use of lava-deployment-tool. Additionally, LAVA now supports KVM devices, which can be used for providing x86 boxes for cross-building and other tasks where there is no need (or no possibility) of using actual Arm devices.
 
-Progress on the kernel front includes the continuous porting effort to multi-platform support as well as Integrator PCI DT, the u300 work and the Nomadik clock DT were pulled into ARM SoC tree. The team also posted the first version of the ARM 32 bit uprobes support for public review and has got portions of eMMC power management work accepted upstream.
+Progress on the kernel front includes the continuous porting effort to multi-platform support as well as Integrator PCI DT, the u300 work and the Nomadik clock DT were pulled into Arm SoC tree. The team also posted the first version of the Arm 32 bit uprobes support for public review and has got portions of eMMC power management work accepted upstream.
 
 The QA Services team notes that is has successfully fully automated big.LITTLE benchmarking noting that when a build is done, it is automatically benchmarked and results are uploaded to a google spreadsheet. The initial cleanup of bugs in Linaro launchpad projects has now been completed and the Piglit test suite is now run on each Android build for Pandaboard.
 
@@ -41,7 +41,7 @@ For more information and a detailed list of highlights for the 13.06 release, pl
 
 We encourage everybody to use the 13.05 release. The download links for all images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
@@ -67,7 +67,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 [/engineering/armv8](/initiatives/armv8/)
 

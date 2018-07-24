@@ -16,7 +16,7 @@ tags:
 - idle
 - kernel
 - Linux
-- Linux on ARM
+- Linux on Arm
 - power
 - power management
 title: Don't waste power when idle

@@ -16,7 +16,7 @@ categories:
 
 The largest Linaro Connect to date began today in San Francisco. Linaro Connect San Francisco 2015 (SFO15) will take place this entire week from September 21-25, 2015. This marks the fifth anniversary of Linaro Connect and there are many exciting things planned for this week.
 
-The day began with two opening keynotes. The first was by George Grey, CEO of Linaro. George began his keynote by welcoming the attendees to the fifth anniversary of Linaro Connect and Linaro. He discussed some of the highlights over the last five years and what to expect going forward. He then went into some of the benefits that members get when they join Linaro. There was an announcement about a new group that is being formed by the end of 2015 in Linaro called, [Linaro IoT & Embedded Group (LITE) ](https://youtu.be/5viiqYeOATI?t=24m14s)which will focus on Cortex-A Linux devices. There were also several [demonstrations around the 96Boards initiative](https://youtu.be/5viiqYeOATI?t=33m25s) during the keynote. Following the Welcome keynote was a keynote by Simon Segars, CEO of ARM who gave a talk on ["Collaboration: Key to Delivery During Market Disruption"](https://youtu.be/5viiqYeOATI?t=50m57s)
+The day began with two opening keynotes. The first was by George Grey, CEO of Linaro. George began his keynote by welcoming the attendees to the fifth anniversary of Linaro Connect and Linaro. He discussed some of the highlights over the last five years and what to expect going forward. He then went into some of the benefits that members get when they join Linaro. There was an announcement about a new group that is being formed by the end of 2015 in Linaro called, [Linaro IoT & Embedded Group (LITE) ](https://youtu.be/5viiqYeOATI?t=24m14s)which will focus on Cortex-A Linux devices. There were also several [demonstrations around the 96Boards initiative](https://youtu.be/5viiqYeOATI?t=33m25s) during the keynote. Following the Welcome keynote was a keynote by Simon Segars, CEO of Arm who gave a talk on ["Collaboration: Key to Delivery During Market Disruption"](https://youtu.be/5viiqYeOATI?t=50m57s)
 
 
 The Monday sessions began after lunch and attendees had many different tracks to choose from including those focused on security which is the overall theme for the week as well as several on community and networking among others. Below is a list of sessions that have content available.
@@ -67,7 +67,7 @@ SFO15-100K2:
 </td>
 
 <td width="247" markdown="1">
-Keynote: Simon Segars, ARM CEO
+Keynote: Simon Segars, Arm CEO
 </td>
 
 <td width="64" markdown="1">
@@ -103,7 +103,7 @@ SFO15-103:
 </td>
 
 <td width="247" markdown="1">
-Cross-distribution (ARM Linux platform support)
+Cross-distribution (Arm Linux platform support)
 </td>
 
 <td width="64" markdown="1">

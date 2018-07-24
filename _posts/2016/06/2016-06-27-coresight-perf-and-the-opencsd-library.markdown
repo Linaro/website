@@ -21,7 +21,7 @@ tags:
 - CoreSight
 - kernel
 - Linux
-- Linux on ARM
+- Linux on Arm
 - OpenCSD library
 - Perf
 title: CoreSight, Perf and the OpenCSD Library

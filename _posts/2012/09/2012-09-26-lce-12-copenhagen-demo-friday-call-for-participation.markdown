@@ -3,10 +3,10 @@ author: linaro
 categories:
 - blog
 date: 2012-09-26 15:31:07
-description: Are you running a Linaro build on an ARM processor-based board? Linaro
+description: Are you running a Linaro build on an Arm processor-based board? Linaro
   invites you to show off your work at Demo Friday during LCE 12 Copenhagen.
-keywords: Linaro, Linux on ARM, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
-  ARMv8(64bit), mini-summits, events, community, LCE 12 Copenhagen, Demo Friday, Call
+keywords: Linaro, Linux on Arm, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
+  Armv8(64bit), mini-summits, events, community, LCE 12 Copenhagen, Demo Friday, Call
   for Participation
 layout: post
 link: /blog/connect-update/lce-12-copenhagen-demo-friday-call-for-participation/
@@ -21,7 +21,7 @@ Linaro Connect ([LCE 12 - Copenhagen](http://connect.linaro.org/resources/)) is 
 
 If you’ve not participated or attended previously, you can get an idea of what the event entails by taking a look at the previous events videos: [http://www.youtube.com/user/linaroorg](http://www.youtube.com/user/linaroorg)
 
-The public is invited to attend and participate in this energetic afternoon.  Linaro, its partners, members and community, have created this as a great opportunity to view exciting demonstrations of Linaro builds running on a variety of ARM processor-based boards.
+The public is invited to attend and participate in this energetic afternoon.  Linaro, its partners, members and community, have created this as a great opportunity to view exciting demonstrations of Linaro builds running on a variety of Arm processor-based boards.
 
 If you or someone you know is interested in presenting a demonstration on Friday 2 November please email [events@linaro.org](mailto:events@linaro.org) with the following information:_ _
 
@@ -60,16 +60,16 @@ _**Registration is open for the LCE 12 Copenhagen event being held from 29 Octo
 
 **About Linaro Connect**
 
-This coming October, over 200 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives, will gather in Copenhagen for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond.
+This coming October, over 200 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives, will gather in Copenhagen for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond.
 
-As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [ARMv8(64bit) and big.LITTLE](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
+As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [Armv8(64bit) and big.LITTLE](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
 
-Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on ARM!
+Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on Arm!
 
 [connect.linaro.org](http://connect.linaro.org/resources/)
 
 **About Linaro**
 
-Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
+Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain, the Linux kernel, Arm power management, graphics and multimedia interfaces.
 
 [www.linaro.org](/)

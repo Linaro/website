@@ -33,7 +33,7 @@ In addition to the choice of AI compute platforms, the 96Boards ecosystem offers
 
 “Socionext has been working with Linaro on an AI enabled 96Boards solution,” said Shuichi Yamane, Sub-leader of S3 Project, at Socionext. “Through the activities of the 96Boards community, we expect an open source platform that can fully utilize the features of Socionext AI solution will help to expand AI use cases significantly in the future.”
 
-The DragonBoard 820c development board supports a wide range of interfaces and is ideal for prototyping complex embedded computing applications including for VR and AR, machine vision and artificial intelligence for commercial drones and robots. The Dragonboard 820c features the Snapdragon 820E embedded platform with a 64-bit ARMv8 -compliant quad-core Qualcomm® Kryo™ CPU, Qualcomm® Adreno™ 530 GPU and Qualcomm® Hexagon™ 680 DSP. Qualcomm Technologies aims to provide support for Linux on its Snapdragon Neural Processing Engine SDK in the second half of 2018 for use on DragonBoard 820c, so developers can take advantage of the Snapdragon 820E heterogeneous hardware architecture to accelerate on-device AI applications.
+The DragonBoard 820c development board supports a wide range of interfaces and is ideal for prototyping complex embedded computing applications including for VR and AR, machine vision and artificial intelligence for commercial drones and robots. The Dragonboard 820c features the Snapdragon 820E embedded platform with a 64-bit Armv8 -compliant quad-core Qualcomm® Kryo™ CPU, Qualcomm® Adreno™ 530 GPU and Qualcomm® Hexagon™ 680 DSP. Qualcomm Technologies aims to provide support for Linux on its Snapdragon Neural Processing Engine SDK in the second half of 2018 for use on DragonBoard 820c, so developers can take advantage of the Snapdragon 820E heterogeneous hardware architecture to accelerate on-device AI applications.
 
 “It is a great honour for HiKey970 to join 96Boards.ai as a popular development platform for AI application development. HiKey970 is the third generation of HiKey series in 96boards. It is the world’s leading AI-enabled development platform highlighting with powerful computing power, richer hardware interfaces, and supporting mainstream operating systems and AI stacks. The HiKey970 integrates Huawei's HiAI framework and other mainstream neural network frameworks, supporting both CPU and GPU AI calculations and NPU-based neural network computing hardware acceleration, which can greatly help on-device AI development.” said Eric Zhou, product marketing director of Huawei wireless terminal chipset BU. “We hope to bring developers an easy-to-use AI development platform. Much appreciation to our partners Linaro, Arm, Hoperun, LeMaker, and all the engineers, without their effort, we can’t achieve such a challenging task.”
 
@@ -43,7 +43,7 @@ The DragonBoard 820c development board supports a wide range of interfaces and i
 
 “Hoperun is a 96Boards steering committee member and Manufacturing partner, launching partner of the HiKey970, 96Boards.ai provider and promoter, committed to build AI kit and solutions around the 96Boards Open AI platform,” said Hoperun CEO Chen Bin.
 
-96Boards is Linaro’s initiative to build a single software and hardware community across cost-effective development boards based on ARM technology. 
+96Boards is Linaro’s initiative to build a single software and hardware community across cost-effective development boards based on Arm technology. 
 
 ## About Linaro
 

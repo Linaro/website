@@ -30,9 +30,9 @@ _Title: SFO15-201: Boot Architecture for RDK_
 
 _Abstract:_ A uniform boot sequence allows RDK systems to have predictable start-up behavior. RDK would like to use a two-level boot architecture, where the primary bootloader is device specific and initializes system registers, memory controller, and hardware resources, and the secondary bootloader implements more complex boot requirements like code download, system disaster recovery and firmware validation.
 
-_Title: SFO15-205: OP-TEE Content Decryption with Microsoft PlayReady on ARM_ _TrustZone_
+_Title: SFO15-205: OP-TEE Content Decryption with Microsoft PlayReady on Arm_ _TrustZone_
 
-_Abstract:_ This presentation gives an overview of how various components of set-top software are integrated to provide a W3C EME solution employing a commercial DRM integrated with an open source TEE running on ARM TrustZone.
+_Abstract:_ This presentation gives an overview of how various components of set-top software are integrated to provide a W3C EME solution employing a commercial DRM integrated with an open source TEE running on Arm TrustZone.
 
 _Title: SFO15-209: Cisco Connected Life IoT Gateway_
 

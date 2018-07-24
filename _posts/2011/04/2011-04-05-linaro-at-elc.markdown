@@ -33,15 +33,15 @@ As the keynote speaker for the second day, Arnd will also present [Becoming Part
 
 {% include image.html name="amit-kucheria.jpeg" alt="Amit Kucheria" class="small-inline "%}
 
-Next comes Amit Kucheria, power management tech lead and kernel engineer at Linaro, with a [Powerdebugging Inside Linaro](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/) talk. Amit will cover Linaro's efforts to make it easier for ARM developers to create battery friendly software, in particular `Powerdebug`, a utility to identify what drains the battery of a product. Amit will also cover the common kernel frameworks that are needed to progress in this area, some already implemented, and some yet to create. Amit has countless things to say about power management, and if you are interested in this topic, you should also read [his blog post about prolonging battery life](http://idlethread.blogspot.com/2010/12/prolonging-battery-life-on-your.html).
+Next comes Amit Kucheria, power management tech lead and kernel engineer at Linaro, with a [Powerdebugging Inside Linaro](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/) talk. Amit will cover Linaro's efforts to make it easier for Arm developers to create battery friendly software, in particular `Powerdebug`, a utility to identify what drains the battery of a product. Amit will also cover the common kernel frameworks that are needed to progress in this area, some already implemented, and some yet to create. Amit has countless things to say about power management, and if you are interested in this topic, you should also read [his blog post about prolonging battery life](http://idlethread.blogspot.com/2010/12/prolonging-battery-life-on-your.html).
 
 {% include image.html name="paul-larson.jpeg" alt="Paul Larson" class="small-inline right "%}
 
-Right after Amit, Paul Larson, tech lead of Linaro's validation team, will share his experience with [Linaro Automated Validation on ARM](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/). Linaro developed a framework called `Lava`, to implement automated validation of ARM devices.
+Right after Amit, Paul Larson, tech lead of Linaro's validation team, will share his experience with [Linaro Automated Validation on Arm](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/). Linaro developed a framework called `Lava`, to implement automated validation of Arm devices.
 
 {% include image.html name="JesseBarker.jpg" alt="Jesse Barker" class="small-inline" %}
 
-The sixth Linaro talk will be presented by Jesse Barker, tech lead for the Linaro Graphics Working Group: [Linux Graphics Meets the ARM Ecosystem](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/). Jesse will cover the evolution of the Linux graphics stack to meet the needs of mobile and embedded devices. You can also expect some details about OpenGL and OpenGL ES, and will be able to ask all your graphics related questions to Jesse.
+The sixth Linaro talk will be presented by Jesse Barker, tech lead for the Linaro Graphics Working Group: [Linux Graphics Meets the Arm Ecosystem](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/). Jesse will cover the evolution of the Linux graphics stack to meet the needs of mobile and embedded devices. You can also expect some details about OpenGL and OpenGL ES, and will be able to ask all your graphics related questions to Jesse.
 
 You can also have a look at the [Linaro Wiki](https://wiki.linaro.org/EngineeringTeam) for more details about all the speakers mentioned above.  Other Linaro engineers and community members should also be there. Don't hesitate to take advantage of this conference to get in touch with us!
 

@@ -12,7 +12,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - ODP
 - Open data plane
 - OpenDataPlane

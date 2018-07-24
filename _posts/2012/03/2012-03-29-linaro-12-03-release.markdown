@@ -24,7 +24,7 @@ Linaro 12.03 contains components delivered by all Linaro Teams –Working
 Groups, Landing Teams and Platform Teams– and brings an abundance of
 exciting updates and new features which are integrated on top of Android
 and Ubuntu.  We, together with our members, partners and community
-continue to build future of Linux on ARM and the 12.03 release is one more
+continue to build future of Linux on Arm and the 12.03 release is one more
 step toward that future.
 
 During the 12.03 release cycle, the Linaro Toolchain Working Group
@@ -36,7 +36,7 @@ fixes. Linaro GCC 4.5 12.03 is the nineteenth release in the 4.5 series and
 is based off the latest GCC 4.5.3+svn184976 release; this is a maintenance
 only update. Additionally, the Linaro Toolchain Working Group announced the
 release of Linaro QEMU 12.03 which is based off upstream (trunk) QEMU,
-it includes a number of ARM-focused bug fixes and enhancements.
+it includes a number of Arm-focused bug fixes and enhancements.
 
 The Linaro Multimedia Working Group during the 12.03 Linaro release cycle
 added updates to the following: pulseaudio and alsa, initial source code
@@ -72,7 +72,7 @@ Additional items of interest from the Linaro 12.03 release cycle include:
 Registration is now open for the Linaro Connect Q2.12 event being held at
 the Gold Coast Hotel in Hong Kong from 28 May through 1 June, and
 brings together some of the best software developers from the Linaro
-ecosystem to help develop and plan the future of Linux on ARM.
+ecosystem to help develop and plan the future of Linux on Arm.
 
 A 'Call for Submissions' for Linaro Connect Q2.12 Plenaries was also
 announced --Do you have a great idea you would like to present to the
@@ -85,7 +85,7 @@ wiki.
 We encourage everybody to use the 12.03 release. The download links for all
 images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been
 accomplished by the Working Groups, Landing Teams and Platform Teams.

@@ -5,7 +5,7 @@ categories:
 date: 2012-04-04 13:21:28
 description: Amit Pundir, Android Engineer at Linaro, tells readers about some of
   the new features being offered in the 12.03 Linaro Android Origen release.
-keywords: Linaro, Linux on ARM, Android, 12.03, Release, Origen, Samsung
+keywords: Linaro, Linux on Arm, Android, 12.03, Release, Origen, Samsung
 layout: post
 link: /blog/community-blog/whats-new-in-the-12-03-linaro-android-origen-release/
 slug: whats-new-in-the-12-03-linaro-android-origen-release

@@ -108,7 +108,7 @@ HKG15-100: Core Development Lightning Talks - Kernel, Power Management, Securit
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-101: Maddog: ARMv8 Optimization
+HKG15-101: Maddog: Armv8 Optimization
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -264,7 +264,7 @@ N/A
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-107: ACPI Power Management on ARM64 Servers
+HKG15-107: ACPI Power Management on Arm64 Servers
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -284,13 +284,13 @@ Power Management; Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-107+ACPI+Power+Management+on+ARM64+Servers.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-107+ACPI+Power+Management+on+Arm64+Servers.mp4)
 </td>
 </tr>
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-108: Standardizing Linux Kernel Power Management on ARM 32/64-bit
+HKG15-108: Standardizing Linux Kernel Power Management on Arm 32/64-bit
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -456,7 +456,7 @@ Not Available
 <tr >
 
 <td style="text-align: left;" markdown="1">
-Hands-on lightning talk on ARM servers
+Hands-on lightning talk on Arm servers
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -882,7 +882,7 @@ Training
 <tr >
 
 <td style="text-align: left;" markdown="1">
-The Impact of ARM in Next Generation Cloud and Communication Network Infrastructure - Keynote
+The Impact of Arm in Next Generation Cloud and Communication Network Infrastructure - Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -986,7 +986,7 @@ Not Available
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-302: Debugging ARM kernels using NMI/FIQ
+HKG15-302: Debugging Arm kernels using NMI/FIQ
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1006,7 +1006,7 @@ Kernel
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-302+Debugging+ARM+kernels+using+NMIFIQ.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-302+Debugging+Arm+kernels+using+NMIFIQ.mp4)
 </td>
 </tr>
 <tr >
@@ -1308,7 +1308,7 @@ Not Available
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-400: Next steps in KVM enablement on ARM
+HKG15-400: Next steps in KVM enablement on Arm
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1334,7 +1334,7 @@ HKG15-400: Next steps in KVM enablement on ARM
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-401: Ceph and Software Defined Storage on ARM servers
+HKG15-401: Ceph and Software Defined Storage on Arm servers
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1354,7 +1354,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-401+Ceph+and+Software+Defined+Storage+on+ARM+servers.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-401+Ceph+and+Software+Defined+Storage+on+Arm+servers.mp4)
 </td>
 </tr>
 <tr >
@@ -1412,7 +1412,7 @@ Not Available
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-404: Standardizing Linux Kernel Power Management on ARM 32/64-bit
+HKG15-404: Standardizing Linux Kernel Power Management on Arm 32/64-bit
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1432,7 +1432,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-404+Standardizing+Linux+Kernel+Power+mgmt+on+ARM+32+64+bit.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-404+Standardizing+Linux+Kernel+Power+mgmt+on+Arm+32+64+bit.mp4)
 </td>
 </tr>
 <tr >
@@ -1516,7 +1516,7 @@ Digital Home
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-408: ARM v8-A NEON optimization
+HKG15-408: Arm v8-A NEON optimization
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1536,13 +1536,13 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-408+ARMv8-A+NEON+optimization.mp4)
+ [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-408+Armv8-A+NEON+optimization.mp4)
 </td>
 </tr>
 <tr >
 
 <td style="text-align: left;" markdown="1">
-HKG15-409: ARM Hibernation enablement on SoCs - a case study
+HKG15-409: Arm Hibernation enablement on SoCs - a case study
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1562,7 +1562,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-409+ARM+Hibernation+enablement+on+SoCs+-+a+case+study.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-409+Arm+Hibernation+enablement+on+SoCs+-+a+case+study.mp4)
 </td>
 </tr>
 <tr >
@@ -1780,7 +1780,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-13-Friday/170106+HKG15+502+ARM+Trusted+Firmware+Evolution.mp4)
+[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-13-Friday/170106+HKG15+502+Arm+Trusted+Firmware+Evolution.mp4)
 </td>
 </tr>
 <tr >

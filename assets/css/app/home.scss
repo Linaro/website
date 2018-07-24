@@ -1,3 +1,8 @@
+// Adjust the margin-top of the home wrapper to account for the universal nav
+#wrapper.home {
+    margin-top: 31px;
+}
+
 .container.home-blog-post-carousel-container {
     padding-bottom: 30px;
 }
@@ -20,6 +25,12 @@ span.central-bold-slider-text {
     font-size: 20px;
     font-weight: bold;
     top: 87px;
+    position: relative;
+}
+#wrapper span.linaro-hpc-text {
+    font-size: 18px;
+    font-weight: bold;
+    top: 65px;
     position: relative;
 }
 
@@ -207,7 +218,7 @@ div.row.slide-content-row{
 span.linaro-connect-slide-text {
     position: relative;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     top: 160px;
 }
 .row.group_content {
@@ -377,14 +388,6 @@ span.main-title {
     color: #fff;
 }
 
-.row.group_header {
-    background-color: #999;
-    height: auto;
-    padding: 15px;
-    
-    transition-delay: 100ms;
-    transition: all 100ms linear;
-}
 
 .col-xs-12.group_content {
     
@@ -405,9 +408,7 @@ span.main-title {
 .col-xs-3.group_icon.center-block > picture > img {
     height: 55px;
     margin-top: -5px;
-
 }
-
 
 .col-xs-12.group_content > p{
     font-size: 12px;
@@ -419,32 +420,52 @@ span.main-title {
 }
 
 div#groups_home_block {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #d4d4d4;
+    box-shadow: 
+            inset 0px 11px 8px -10px #aaaaaa,
+            inset 0px -11px 8px -10px #aaaaaa; 
+}
+div#featured-slider-row {
+    padding-bottom: 70px;
+    padding-top: 20px;
 }
 
+div#latest-news-row {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
 .row.group_header {
-    background-color: #0195ca;
+    background-color: #424242;
+    box-shadow: 
+        inset 0px 11px 8px -10px #1e1e1e,
+        inset 0px -11px 8px -10px #1e1e1e; 
     padding: 0;
     padding-top: 15px;
     height: 80px;
+    transition-delay: 100ms;
+    transition: all 100ms linear;
 }
 
-.row.group_header.leg {
-    background-color: #0195ca;
-}
-.row.group_header.lng {
-    background-color: #00a456;
-}
-.row.group_header.lhg {
-    background-color: #00adea;
-}
-.row.group_header.lmg {
-    background-color: #907cb0;
-}
-.row.group_header.lite {
-    background-color: #ea9538;
-}
+// .row.group_header.leg {
+//     background-color: #0195ca;
+// }
+// .row.group_header.lng {
+//     background-color: #00a456;
+// }
+// .row.group_header.lhg {
+//     background-color: #00adea;
+// }
+// .row.group_header.lmg {
+//     background-color: #907cb0;
+// }
+// .row.group_header.lite {
+//     background-color: #ea9538;
+// }
 
 .row.group_content.leg {
     background-color: #e6f4f9;
@@ -529,7 +550,7 @@ div.blogs_home_block_post.hpc:hover {
     margin-bottom: 25px;
 }
 #homepage-header p#buttons a {
-    background-color: #a07fb7;
+    background-color: $brand-primary;
     color: #fff !important;
     font-weight:normal;
     margin-bottom: 50px;
@@ -538,24 +559,27 @@ div.blogs_home_block_post.hpc:hover {
 }
 
 #homepage-header p#buttons a:hover{
-    background-color: #232323;
     font-weight:normal;
     margin-bottom: 50px;
 }
-#homepage-header span.linaro-green {
+#homepage-header #home-page-text {
     top:20px;
     font-size: 68px;
     font-weight:bold;
     position:relative;
-    text-shadow: #6f6f6f 1px 1px 7px;
+    text-shadow: #000 1px 1px 7px;
 }
 
 @media(max-width:$screen-sm-min){
+    h1#home-page-title.white {
+        font-size: 28px;
+    }
     
-    #homepage-header span.linaro-green {
+    #homepage-header #home-page-text {
         top:20px;
         font-size: 42px;
         position:relative;
+        line-height: 40px;
     }
     
 }
@@ -563,3 +587,9 @@ p#buttons {
     margin-top: 40px;
 }
 
+div#featured-jumbotron {
+    margin-bottom: $navbar-height + 20;    
+}
+#wrapper #homepage-header a.btn.btn-linaro-home:hover {
+    background-color: #000;
+}

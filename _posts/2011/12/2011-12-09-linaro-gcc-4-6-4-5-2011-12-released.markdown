@@ -30,8 +30,8 @@ Interesting changes include:
 * SLP support for conditions.
 * Pattern recognition support in basic-block SLP.
 * Enhancements to mixed-size condition pattern recognition.
-* Support for 64bit \_\_sync\* primitives on ARM.
-* Unaligned block-move support for ARMv7.
+* Support for 64bit \_\_sync\* primitives on Arm.
+* Unaligned block-move support for Armv7.
 * Added Cortex-A15 integer pipeline tuning.
 
 Linaro GCC 4.5 2011.12 is the sixteenth release in the 4.5 series. Based off the latest GCC 4.5.3+svn181877, this is a maintenance focused release.

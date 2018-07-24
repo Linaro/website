@@ -1,149 +1,319 @@
-//ARM HPC
+//Arm HPC
+
 .row.no-padding.arm-hpc-row {
     background-color: #2b212f;
 }
+
 .row.no-padding.arm-hpc-row.top {
     margin-bottom: 30px;
 }
+
 .row.no-padding.arm-hpc-row.bottom {
     margin-top: 30px;
 }
+
 .alert.alert-arm-hpc {
     background-color: #dff2fe;
 }
+
 #content-container {
-    padding-top: 0px;
+    padding-top: 0;
 }
+
 #call-for-papers a.btn.btn-primary.btn-two.call-for-papers {
     font-size: 20px;
     color: white;
     line-height: 43px;
-    background-color:#2b212f;
+    background-color: #2b212f;
     border: 1px solid #000000;
 }
+
 #call-for-papers a.btn.btn-primary.btn-two.call-for-papers:hover {
     color: #9a9a9a;
     border: 1px solid #1f3850;
 }
+
 #content-container .arm-hpc-row h1 {
     color: white;
     margin-top: 40px;
 }
+
 #content-container .arm-hpc-row h1 span {
     color: #cecece;
-    font-size:20px;
+    font-size: 20px;
 }
 
 #content-container .arm-hpc-row small {
     color: #fff;
-    font-size:18x;
+    font-size: 18x;
 }
 
-#call-for-papers{
-    padding:40px;
-    border:1px solid #6d6b6b;
+#call-for-papers {
+    padding: 40px;
+    border: 1px solid #6d6b6b;
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
     color: white;
     background-color: #312541;
-    -webkit-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
-    -moz-box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
-    box-shadow: inset 0px 0px 59px 0px rgba(3,9,14,1);
+    -webkit-box-shadow: inset 0 0 59px 0 rgba(3,9,14,1);
+    -moz-box-shadow: inset 0 0 59px 0 rgba(3,9,14,1);
+    box-shadow: inset 0 0 59px 0 rgba(3,9,14,1);
 }
+
 #call-for-papers h2 {
-    font-size:26px;
-    margin-bottom:20px;
+    font-size: 26px;
+    margin-bottom: 20px;
     color: white;
-    font-weight:normal;
+    font-weight: normal;
 }
- #call-for-papers h3 {
+
+#call-for-papers h3 {
     font-size: 14px;
     color: white;
-    margin-bottom:20px;
- }
- 
- #call-for-papers h2 span {
-     color: #90a7b5;
-     font-weight: bold;
- }
- 
- #content-container .arm-hpc-row.top .container {
+    margin-bottom: 20px;
+}
+
+#call-for-papers h2 span {
+    color: #90a7b5;
+    font-weight: bold;
+}
+
+#content-container .arm-hpc-row.top .container {
     height: 150px;
     background-position: center center;
 }
-
-
 /*
  BUTTON STYLING
 */
-
-@media(max-width:$screen-sm-min){
+@media(max-width:$screen-sm-min) {
     #call-for-papers .btn {
-      width: 100%;
-  }
-  #content-container .arm-hpc-row h1 {
-      font-size: 24px;
-  }
+        width: 100%;
+    }
+
+    #content-container .arm-hpc-row h1 {
+        font-size: 24px;
+    }
 }
+
 #call-for-papers .btn {
-  position: relative;
-  color: white;
-  width: 256px;
-  height: 64px;
-  line-height: 64px;
-  transition: all 0.3s;
-  span {
+    position: relative;
+    color: white;
+    width: 256px;
+    height: 64px;
+    line-height: 64px;
     transition: all 0.3s;
-    tranform: scale(1, 1);
-  }
+
+    span {
+        transition: all 0.3s;
+        tranform: scale(1, 1);
+    }
 }
 
-#call-for-papers .btn::before, #call-for-papers .btn::after {
-  content: '';
-  position: absolute;
-  transition: all 0.3s;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+#call-for-papers .btn::after,
+#call-for-papers .btn::before {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
-
 /* BTN TWO */
-#call-for-papers .btn-two::before, #call-for-papers .btn-two::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-	height: 100%;
-  bottom: 0;
-	left: 0;
-	z-index: 1;
-  transition: all 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+#call-for-papers .btn-two::after,
+#call-for-papers .btn-two::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 #call-for-papers .btn-two:hover::after {
-  animation-name: rotatecw;
-  animation-duration: 2s;
+    animation-name: rotatecw;
+    animation-duration: 2s;
 }
+
 #call-for-papers .btn-two:hover::before {
-  animation-name: rotateccw; 
-  animation-duration: 3s;
-}
-#call-for-papers .btn-two:hover::after, #call-for-papers .btn-two:hover::before {
-  left: 96px;
-  width: 64px;
-  
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+    animation-name: rotateccw;
+    animation-duration: 3s;
 }
 
+#call-for-papers .btn-two:hover::after,
+#call-for-papers .btn-two:hover::before {
+    left: 96px;
+    width: 64px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 @keyframes rotatecw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateccw {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
 }
 
-@keyframes rotateccw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(-360deg);}
+.speaker-photo {
+    height: 200px;
+    background-size: cover;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+span.speaker-talk-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+span.speaker-name {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+span.speaker-company {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.speaker p {
+    font-size: 14px;
+    text-align: center;
+}
+
+a.btn.btn-primary.full-bio {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.speaker {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin: 20px;
+}
+
+.speaker:hover {
+    box-shadow: 0 0 45px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 45px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 45px rgba(0,0,0,0.2);
+}
+
+h2#featured-speakers {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+button.btn.btn-primary.full-bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #322641;
+    color: white;
+}
+
+button.btn.btn-primary.full-bio:hover {
+    background-color: #2b222f;
+}
+
+.row.arm-hpc-row.speakers {
+    padding-bottom: 50px;
+}
+//Eventbrite Custom CSS
+header.eds-modal__header {
+    background-color: #1b141d !important;
+}
+
+body .eds-text-color--grey-800 {
+    color: #1aa8ff;
+    font-weight: bold;
+}
+
+span.eds-align--center {
+    color: #afafaf;
+}
+
+.eds-modal__content__children {
+    background-color: #2b2133;
+}
+
+.eds-modal .eds-modal__footer-background {
+    box-shadow: none;
+}
+
+.eds-modal__footer-background {
+    background-color: #2b2233 !important;
+    border-top-color: #white !important;
+}
+
+.eds-g-cell.eds-g-cell-1-1.eds-l-mar-bot-2.eds-text-color--grey-600 {
+    color: #c6c6c6;
+}
+
+aside.eds-collapsible-pane-layout__content.checkout-widget__ticket-page--pane-content {
+    background-color: #2b2333;
+    color: white;
+}
+
+span.eds-text-bm--fixed {
+    color: gainsboro;
+}
+// Schedule
+#schedule td {
+    padding: 10px 20px !important;
+    font-weight: normal;
+    color: #131313;
+}
+
+#schedule td:nth-child(-n+3) {
+    font-weight: bold;
+}
+
+#schedule th {
+    display: none;
+}
+
+#schedule tr:first-child {
+    border-top: none;
+    display: none;
+}
+
+#schedule table {
+    border-bottom: none;
+}
+
+.softmerge-inner {
+    white-space: normal;
 }

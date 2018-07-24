@@ -3,12 +3,12 @@ author: linaro
 categories:
 - News
 date: 2014-05-29 15:59:15
-description: "Industry leaders Allwinner, ARM, Cisco, Comcast, Fujitsu, Hisilicon,
+description: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,
   STMicroelectronics and ZTE have joined Linaro\xE2\x80\x99s new Segment Group focused
-  on accelerating open source development for ARM processors in digital home applications"
-excerpt: "Industry leaders Allwinner, ARM, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
+  on accelerating open source development for Arm processors in digital home applications"
+excerpt: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
   and ZTE have joined Linaro\u2019s new Segment Group focused on accelerating open
-  source development for ARM processors in digital home applications"
+  source development for Arm processors in digital home applications"
 layout: post
 link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
 slug: leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms
@@ -16,26 +16,26 @@ tags:
 - digital home
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
-title: 'Leaders in Digital Home Solutions Collaborate with Linaro on ARM Linux Platforms '
+title: 'Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux Platforms '
 wordpress_id: 5907
 ---
 
-## Industry leaders Allwinner, ARM, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on accelerating open source development for ARM processors in digital home applications
+## Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on accelerating open source development for Arm processors in digital home applications
 
 
 CAMBRIDGE, UK; 29 MAY 2014
 
-Linaro, the not-for-profit engineering organization developing open source software for the ARM® architecture, today announced the formation of the [Linaro Digital Home Group (LHG) ](https://wiki.linaro.org/LHG)with founding member companies Allwinner Technology, ARM, Cisco, Comcast, Fujitsu Semiconductor, Hisilicon Technologies, STMicroelectronics and ZTE.
+Linaro, the not-for-profit engineering organization developing open source software for the Arm® architecture, today announced the formation of the [Linaro Digital Home Group (LHG) ](https://wiki.linaro.org/LHG)with founding member companies Allwinner Technology, Arm, Cisco, Comcast, Fujitsu Semiconductor, Hisilicon Technologies, STMicroelectronics and ZTE.
 
 Building on its collaboration model used by server and networking industry leaders in the [Linaro Enterprise Group (LEG)](https://wiki.linaro.org/LEG) and the [Linaro Networking Group (LNG),](https://wiki.linaro.org/LNG) Linaro has brought leaders in the digital home market together in the Linaro Digital Home Group (LHG), sharing engineering effort and delivering software to relevant upstream open source projects. These leaders include SoC vendors, OEMs and operators and they will work together in the group on digital home applications, including set-top boxes, televisions, media players, gaming and home gateway devices.
 
 Consumers can already instantly view streaming video content on a massive diversity of digital home devices capable of receiving broadcast, on-demand, and time shifted content. These devices function as home gateways and IP clients to access broadband and Pay TV services and are capable of managing content rights throughout the connected home. Viewers expect these devices to deliver rich 3D graphical user interfaces, access to their favorite applications, and the ability to watch and record programs all while operating on lower standby and active power. Many standards exist, but these are not implemented consistently across all platforms and devices, leading to significant fragmentation, a multitude of point solutions and subsequently significant amounts of duplicated, non-differentiating engineering effort.
 
-“Linaro has been collaborating with ARM, Comcast, Hisilicon and STMicroelectronics on the RDK (Reference Design Kit) for the last year,” said George Grey, CEO of Linaro. “The Linaro Digital Home Group will build on this effort and expand scope to working on different Linux-based platforms used in the Digital Home segment. We look forward to continuing our work with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
+“Linaro has been collaborating with Arm, Comcast, Hisilicon and STMicroelectronics on the RDK (Reference Design Kit) for the last year,” said George Grey, CEO of Linaro. “The Linaro Digital Home Group will build on this effort and expand scope to working on different Linux-based platforms used in the Digital Home segment. We look forward to continuing our work with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 
-Members of LHG will collaborate on fundamental software platforms to enable rapid deployment of new services across a range of digital home platforms. Developing the base platform for diverse and complex multimedia applications requires a significant amount of software that addresses common challenges. LHG will deliver this as an enhanced core Linux platform for digital home devices. Linaro has been providing common core software for ARM-Powered®, Linux-based mobile devices since June 2010 with recognized success, and it has built on the collaborative working model that it has created to form special groups focusing on the particular industry segments.
+Members of LHG will collaborate on fundamental software platforms to enable rapid deployment of new services across a range of digital home platforms. Developing the base platform for diverse and complex multimedia applications requires a significant amount of software that addresses common challenges. LHG will deliver this as an enhanced core Linux platform for digital home devices. Linaro has been providing common core software for Arm-Powered®, Linux-based mobile devices since June 2010 with recognized success, and it has built on the collaborative working model that it has created to form special groups focusing on the particular industry segments.
 
 The LHG steering committee has selected the following key initiatives for the software engineering effort:
 
@@ -43,16 +43,16 @@ The LHG steering committee has selected the following key initiatives for the so
 
   2. Development of improved media framework APIs. LHG will work to establish standardized APIs to different media hardware, codecs, accelerators, and other peripheral functions across multiple members’ SoCs to improve middleware portability
 
-  3. Development of a standard media security platform based on ARM Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based ARM SoCs.
+  3. Development of a standard media security platform based on Arm Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based Arm SoCs.
 
   4. Integration of key open source standards-based software. The LHG steering committee will identify key open sourced standards to be integrated by the group’s engineering team. Items already under discussion include optimized HTML5 support and DLNA CVP-2.
 
 
-As with LEG and LNG, LHG will utilize output from Linaro’s core engineering group and will have a representative on the Linaro Technical Steering Committee (TSC). Key shared areas include the Linaro Automated Validation Architecture (LAVA) test and continuous integration (CI) farm for member SoC enablement and validation, multicore power management, virtualization and ARMv8 64-bit development**.**
+As with LEG and LNG, LHG will utilize output from Linaro’s core engineering group and will have a representative on the Linaro Technical Steering Committee (TSC). Key shared areas include the Linaro Automated Validation Architecture (LAVA) test and continuous integration (CI) farm for member SoC enablement and validation, multicore power management, virtualization and Armv8 64-bit development**.**
 
 **About Linaro**
 
-Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
+Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit [](/).
 
@@ -62,29 +62,29 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 **Allwinner Technology**
 
-“As a worldwide leader in application processor shipments in Android, Allwinner is excited by the collaborative opportunity to work within Linaro to bring tip-of-tree features to ARM platforms”, said Jack Lee, CMO of Allwinner.  “OTT home entertainment is a space that we’re very focused on, given the massive growth from our key markets in China, US, and Europe.  We expect LHG will enable a stronger open source software ecosystem in OTT/IPTV, and in effect enable better ARM-powered devices for consumers in our key markets”.
+“As a worldwide leader in application processor shipments in Android, Allwinner is excited by the collaborative opportunity to work within Linaro to bring tip-of-tree features to Arm platforms”, said Jack Lee, CMO of Allwinner.  “OTT home entertainment is a space that we’re very focused on, given the massive growth from our key markets in China, US, and Europe.  We expect LHG will enable a stronger open source software ecosystem in OTT/IPTV, and in effect enable better Arm-powered devices for consumers in our key markets”.
 
 _About Allwinner:_ Allwinner Technology is a leading fabless design company dedicated to smart application processor SoCs and smart analog ICs. Its product line includes multi-core application processors for smart devices and smart power management ICs used by brands worldwide.
 
 With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China. See [www.allwinnertech.com](http://www.allwinnertech.com/) for more information. Follow Allwinner on Twitter @AllwinnerTech. Media contact: [service@allwinnertech.com](mailto:service@allwinnertech.com)
 
-**ARM**
+**Arm**
 
-“The convergence of mobile and home entertainment experiences creates an opportunity for Pay-TV operators, device manufacturers and others to leverage the velocity of innovation and economies of scale of the mobile ecosystem”, said Charlene Marini, vice president of marketing, embedded segments, ARM. “Linaro Home Group accelerates this reality by providing a software platform fully optimized for ARM technologies, including ARM TrustZone, to enable exciting premium content based services on the next generation connected home platforms.”
+“The convergence of mobile and home entertainment experiences creates an opportunity for Pay-TV operators, device manufacturers and others to leverage the velocity of innovation and economies of scale of the mobile ecosystem”, said Charlene Marini, vice president of marketing, embedded segments, Arm. “Linaro Home Group accelerates this reality by providing a software platform fully optimized for Arm technologies, including Arm TrustZone, to enable exciting premium content based services on the next generation connected home platforms.”
 
-_About ARM:_ [ARM](http://www.arm.com/) is at the heart of the world’s most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
+_About Arm:_ [Arm](http://www.arm.com/) is at the heart of the world’s most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
 
-Our innovative technology is licensed by ARM Partners who have shipped more than 50 billion Systems on Chip (SoCs) containing our intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies.  Learn more and join the conversation at [http://community.arm.com](http://community.arm.com/).
+Our innovative technology is licensed by Arm Partners who have shipped more than 50 billion Systems on Chip (SoCs) containing our intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies.  Learn more and join the conversation at [http://community.arm.com](http://community.arm.com/).
 
 **Cisco**
 
-“Delivering new video services at Internet speed through the Cloud is a reality, but we need to reduce operational complexity and fragmentation in core engineering work,” said Dr Ken Morse, CTO, Connected Devices, Cisco. “As a founding member of the Linaro Digital Home Group, we are utilizing Linaro’s shared engineering model to reduce our cost of enablement for the ARM platform, minimize complexity and help accelerate time to market for new Cisco connected home products and services.”
+“Delivering new video services at Internet speed through the Cloud is a reality, but we need to reduce operational complexity and fragmentation in core engineering work,” said Dr Ken Morse, CTO, Connected Devices, Cisco. “As a founding member of the Linaro Digital Home Group, we are utilizing Linaro’s shared engineering model to reduce our cost of enablement for the Arm platform, minimize complexity and help accelerate time to market for new Cisco connected home products and services.”
 
 _About Cisco:_ Cisco is the worldwide leader in IT that helps companies seize the opportunities of tomorrow by proving that amazing things can happen when you connect the previously unconnected. For ongoing news, please go to [http://thenetwork.cisco.com](http://thenetwork.cisco.com/).
 
 **Comcast**
 
-“The close collaboration between ARM and Linaro is a critical component for the ARM eco-system,” said Sree Kotay, Chief Software Architect for Comcast. “We are looking forward to the Linaro Digital Home Group enabling the ARM platform for our Comcast devices.  This is an important step to ARM extending beyond closed cell phone operating systems.”
+“The close collaboration between Arm and Linaro is a critical component for the Arm eco-system,” said Sree Kotay, Chief Software Architect for Comcast. “We are looking forward to the Linaro Digital Home Group enabling the Arm platform for our Comcast devices.  This is an important step to Arm extending beyond closed cell phone operating systems.”
 
 _About Comcast Cable:_ Comcast Cable is the nation's largest video, high-speed Internet and phone provider to residential customers under the XFINITY brand and also provides these services to businesses. Comcast has invested in technology to build an advanced network that delivers among the fastest broadband speeds, and brings customers personalized video, communications and home management offerings. Comcast Corporation (Nasdaq: CMCSA, CMCSK) is a global media and technology company. Visit [www.comcastcorporation.com](http://www.comcastcorporation.com/) for more information.
 

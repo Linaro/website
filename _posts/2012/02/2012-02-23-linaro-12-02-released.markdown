@@ -21,7 +21,7 @@ Linaro 12.02 contains components delivered by all Linaro Teams --Working Groups,
 
 During the 12.02 cycle, Linaro hosted its [Linaro Connect Q1.12](http://connect.linaro.org/resources/) in Redwood City, California on 6-10 February.  Many Linaro Team members also participated in the [2nd Annual Android Builders Summit]()https://events.linuxfoundation.org/events/android-builders-summit on 13-14 February and the [Embedded Linux Conference](https://events.linuxfoundation.org/events/embedded-linux-conference) on 15-17 February also held in Redwood City, California and hosted by the [LInux Foundation](http://www.linuxfoundation.org/).
 
-During the Linaro Connect event there were daily [plenary, planning, and hacking sessions](http://connect.linaro.org/resources/#schedule) which attendees were encouraged to attend and take part in.  This event also marked the first time which [Google+ Hangouts](http://www.google.com/+/learnmore/) were used during a Connect event to encourage remote participation from those developers around the globe.  Also, held during this Connect event was the ever growing [Demo Friday event](http://connect.linaro.org/resources/) where Linaro, its [community](/hub/), [partners](/members/) and [members](/members/) came together and demonstrated the agile development process which is highlighted monthly in each of our releases.
+During the Linaro Connect event there were daily [plenary, planning, and hacking sessions](http://connect.linaro.org/resources/#schedule) which attendees were encouraged to attend and take part in.  This event also marked the first time which [Google+ Hangouts](http://www.google.com/+/learnmore/) were used during a Connect event to encourage remote participation from those developers around the globe.  Also, held during this Connect event was the ever growing [Demo Friday event](http://connect.linaro.org/resources/) where Linaro, its [community](/latest/hub/), [partners](/membership/) and [members](/membership/) came together and demonstrated the agile development process which is highlighted monthly in each of our releases.
 
 Highlights from this Linaro Connect event which influence this and future releases include:
 
@@ -33,7 +33,7 @@ Highlights from this Linaro Connect event which influence this and future releas
 * [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
 
 
-* [Kiko, Linaro Engineering VP: ARM, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
+* [Kiko, Linaro Engineering VP: Arm, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
 
 
 * [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50&list=UUAl2MfCBjH5y0nIym0ujHfg&index=5&feature=plcp)
@@ -50,7 +50,7 @@ Highlights from this Linaro Connect event which influence this and future releas
 
 **Demos:**
 
-* [Ubuntu TV Demo on ARM](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
+* [Ubuntu TV Demo on Arm](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
 
 
 * [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=3&feature=plcp)
@@ -67,7 +67,7 @@ During both Linaro Connect Q1.12 and the Embedded Linux Conference (ELC), Rob Cl
 
 We encourage everybody to use the 12.02 release. The download links for all images and components are available on our downloads page:
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 

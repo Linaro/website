@@ -4,13 +4,13 @@ date: 2016-12-16 17:37:39+00:00
 layout: post
 link: /blog/kprobes-event-tracing-armv8/
 slug: kprobes-event-tracing-armv8
-title: Kprobes Event Tracing on ARMv8
+title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
 categories:
 - blog
 tags:
 - arm64
-- ARMv8
+- Armv8
 - Jprobes
 - kernel
 - Kprobes
@@ -44,7 +44,7 @@ The basic probe is a software breakpoint kprobes inserts in place of the instruc
 ### Kretprobes
 
 
-Kretprobes is a part of kprobes that allows intercepting a returning function instead of having to set a probe (or possibly several probes) at the return points. This feature is selected whenever kprobes is selected, for supported architectures (including ARMv8).
+Kretprobes is a part of kprobes that allows intercepting a returning function instead of having to set a probe (or possibly several probes) at the return points. This feature is selected whenever kprobes is selected, for supported architectures (including Armv8).
 
 
 ### Jprobes
@@ -92,7 +92,7 @@ All of the above aspects of kprobes are now implemented for arm64, in practice t
 
 
  	
-  * Register name arguments are, of course, architecture specific and can be found in the ARM ARM.
+  * Register name arguments are, of course, architecture specific and can be found in the Arm Arm.
 
 
 
@@ -103,7 +103,7 @@ All of the above aspects of kprobes are now implemented for arm64, in practice t
   * An attempt is made to identify instructions within a ldx/stx sequence and prevent probing, however it is theoretically possible for this check to fail resulting in allowing a probed atomic sequence which can never succeed. Be careful when probing around atomic code sequences.
 
  	
-  * Note that because of the details of Linux ARM64 calling conventions it is not possible to reliably duplicate the stack frame for the probed function and for that reason no attempt is made to do so with jprobes, unlike the majority of other architectures supporting jprobes. The reason for this is that there is insufficient information for the callee to know for certain the amount of the stack that is needed.
+  * Note that because of the details of Linux Arm64 calling conventions it is not possible to reliably duplicate the stack frame for the probed function and for that reason no attempt is made to do so with jprobes, unlike the majority of other architectures supporting jprobes. The reason for this is that there is insufficient information for the callee to know for certain the amount of the stack that is needed.
 
 
 
@@ -119,7 +119,7 @@ All of the above aspects of kprobes are now implemented for arm64, in practice t
 ## Using Kprobes Event Tracing
 
 
-One common use case for kprobes is instrumenting function entry and/or exit. It is particularly easy to install probes for this since one can just use the function name for the probe address. Kprobes event tracing will look up the symbol name and determine the address. The ARMv8 calling standard defines where the function arguments and return values can be found, and these can be printed out as part of the kprobe event processing.
+One common use case for kprobes is instrumenting function entry and/or exit. It is particularly easy to install probes for this since one can just use the function name for the probe address. Kprobes event tracing will look up the symbol name and determine the address. The Armv8 calling standard defines where the function arguments and return values can be found, and these can be printed out as part of the kprobe event processing.
 
 
 ### Example: Function entry probing
@@ -136,7 +136,7 @@ EOF
 $ echo 1 > events/kprobes/enable
 ```
 
-At this point a trace event will be recorded every time the driver’s _ax8872_reset()_ function is called. The event will display the pointer to the _usbnet_ structure passed in via X0 (as per the ARMv8 calling standard) as this function’s only argument. After plugging in a USB dongle requiring this ethernet driver we see the following trace information:
+At this point a trace event will be recorded every time the driver’s _ax8872_reset()_ function is called. The event will display the pointer to the _usbnet_ structure passed in via X0 (as per the Armv8 calling standard) as this function’s only argument. After plugging in a USB dongle requiring this ethernet driver we see the following trace information:
 
 ```
 $ cat trace
@@ -361,7 +361,7 @@ There is also the ability to further filter kprobes events.  The debugfs files 
 ## Conclusion
 
 
-Linux on ARMv8 now is on parity with other architectures supporting the kprobes feature. Work is being done by others to also add uprobes and systemtap support. These features/tools and other already completed features (e.g.: perf, coresight) allow the Linux ARMv8 user to debug and test performance as they would on other, older architectures.
+Linux on Armv8 now is on parity with other architectures supporting the kprobes feature. Work is being done by others to also add uprobes and systemtap support. These features/tools and other already completed features (e.g.: perf, coresight) allow the Linux Armv8 user to debug and test performance as they would on other, older architectures.
 
 
 

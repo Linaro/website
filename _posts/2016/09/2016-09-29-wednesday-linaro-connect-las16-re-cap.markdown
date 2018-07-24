@@ -14,7 +14,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 ---

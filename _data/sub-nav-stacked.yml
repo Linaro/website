@@ -3,63 +3,52 @@ pages:
     list:
       -
         title: Core Engineering
-        url: /core/
+        url: /engineering/core/
         main: true
       -
         title: Core Technologies & Tools
-        url: /core/ctt/
+        url: /engineering/core/ctt/
+      -
+        title: Kernel Validation
+        url: /engineering/core/kernel-validation-and-testing/
       -
         title: Toolchain
-        url: /core/toolchain/
+        url: /engineering/core/toolchain/
       -
         title: Kernel
-        url: /core/kernel/
+        url: /engineering/core/kernel/
       -
         title: Power Management
-        url: /core/power/
+        url: /engineering/core/arm-power-management/
+        sub-tabs:
+            - title: EAS
+              url: /engineering/core/arm-power-management/eas/
       -
         title: Security
-        url: /core/security/
+        url: /engineering/core/security/
       -
         title: Virtualization
-        url: /core/virtualization/
-    urls: [/core/,/core/ctt/,/core/kernel/,/core/power/,/core/security/, /core/virtualization/, /core/toolchain/]
+        url: /engineering/core/virtualization/
+    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/virtualization/, /engineering/core/toolchain/, /engineering/core/]
+    sub-pages-enabled: true
   -
     list:
       -
         title: Initiatives
         url: /initiatives/
       -
-        title: 96Boards
-        url: /initiatives/96boards/
-      -
-        title: DeviceTree
-        url: /initiatives/devicetree/
+        title: Armv8
+        url: /initiatives/armv8/
       -
         title: KernelCI
         url: /initiatives/kernelci/
       -
-        title: OP-TEE
-        url: /initiatives/op-tee/
-      -
-        title: Developer Cloud
-        url: /initiatives/cloud/
+        title: LAVA
+        url: /initiatives/lava/
       -
         title: LSK
         url: /initiatives/lsk/
-      -
-        title: Performance Project
-        url: /initiatives/performance/
-      -
-        title: Linaro Connect
-        url: /initiatives/connect/
-      -
-        title: ARMv8
-        url: /initiatives/armv8/
-      -
-        title: LAVA
-        url: /initiatives/lava/
-    urls: [/initiatives/,/initiatives/96boards/, /initiatives/devicetree/, /initiatives/kernelci/, /initiatives/op-tee/,/initiatives/cloud/, /initiatives/lsk/, /initiatives/performance/, /initiatives/connect/, /initiatives/armv8/, /initiatives/lava/]
+    urls: [/initiatives/, /initiatives/kernelci/, /initiatives/lsk/,/initiatives/armv8/, /initiatives/lava/]
   -
     list:
       -
@@ -69,22 +58,19 @@ pages:
         title: Mobile AOSP Optimization
         url: /projects/aosp/
       -
-        title: Reference Digital Media Platforms for ARM
+        title: Reference Digital Media Platforms for Arm
         url: /projects/reference-digital-media-platforms-for-arm/
       -
         title: Big Data
         url: /projects/bigdata/
       -
-        title: SDI
-        url: /projects/sdi/
-      -
         title: Mobile Power Management
         url: /projects/mobile-power-management/
       -
-        title: ARM Kernel Collaboration
+        title: Arm Kernel Collaboration
         url: /projects/arm-kernel-collaboration/
       -
-        title: Open Source ARM Tools
+        title: Open Source Arm Tools
         url: /projects/open-source-arm-tools/
       -
         title: Open Source Security
@@ -95,7 +81,7 @@ pages:
       -
         title: Reference Platforms
         url: /projects/reference-platforms/
-    urls: [/projects/,/projects/aosp/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/sdi/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
+    urls: [/projects/,/projects/aosp/,/projects/reference-digital-media-platforms-for-arm/, /projects/bigdata/, /projects/mobile-power-management/, /projects/arm-kernel-collaboration/, /projects/open-source-arm-tools/, /projects/open-source-security/, /projects/opendataplane/, /projects/reference-platforms/]
   -
     list:
       -

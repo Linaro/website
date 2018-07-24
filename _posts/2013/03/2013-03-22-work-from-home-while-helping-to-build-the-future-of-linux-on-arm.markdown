@@ -4,19 +4,19 @@ categories:
 - blog
 date: 2013-03-22 15:02:29
 description: Work from home, with an Open Source organization while helping to build
-  the future of Linux on ARM. Career opportunities available at Linaro.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Careers, Jobs, Worldwide,
+  the future of Linux on Arm. Career opportunities available at Linaro.
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Careers, Jobs, Worldwide,
   Work from Home
 layout: post
 link: /blog/community-blog/work-from-home-while-helping-to-build-the-future-of-linux-on-arm/
 slug: work-from-home-while-helping-to-build-the-future-of-linux-on-arm
 tags:
 - Community
-title: Work From Home While Helping to Build the Future of Linux on ARM
+title: Work From Home While Helping to Build the Future of Linux on Arm
 wordpress_id: 2590
 ---
 
-Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on ARM](/)?
+Today we are highlighting career opportunities which aren’t tied to a specific geographical location.  Do you want to work from home, with an Open Source organization while helping to build the[ future of Linux on Arm](/)?
 
 
 **Yes, then keep reading!**
@@ -25,11 +25,11 @@ Today we are highlighting career opportunities which aren’t tied to a specific
 
 ### GCC Developer
 
-Linaro has a long term goal of making ARM devices more competitive by making a better static toolchain. We are searching for a middle to experienced GCC developer to join our Toolchain Working Group. You will work on GCC, generally in the mid- and ARM back-ends. You will add new ARM specific features and optimisations, and also improve the quality of existing features and code generation. The team works in the open with the upstream projects. You will use your knowledge and engineering experience to design, implement, test, release, and share the improvements made. You'll be part of a distributed team made up of knowledgeable people with backgrounds in compilers, developer tools, and libraries. This role requires some international travel.
+Linaro has a long term goal of making Arm devices more competitive by making a better static toolchain. We are searching for a middle to experienced GCC developer to join our Toolchain Working Group. You will work on GCC, generally in the mid- and Arm back-ends. You will add new Arm specific features and optimisations, and also improve the quality of existing features and code generation. The team works in the open with the upstream projects. You will use your knowledge and engineering experience to design, implement, test, release, and share the improvements made. You'll be part of a distributed team made up of knowledgeable people with backgrounds in compilers, developer tools, and libraries. This role requires some international travel.
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### Kernel Baselines Lead Engineer
 
@@ -37,7 +37,7 @@ A lead Linux kernel maintainer responsible for creating and maintaining a LLTS (
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 
@@ -48,7 +48,7 @@ More information on this opportunity can be found at:
 
 
 
-Linaro is looking for someone to head up the QA Services team, and help establish the standard for quality in all of Linaro. The Linaro QA Services team lead is responsible for managing a team of QA engineers focused on providing validation of Linaro platforms, reporting on test status, shaping the release processes as they pertain to quality, bug tracking, and planning the strategies for testing new technologies in the world of Linux on ARM. The QA Services team lead will need to work across the organization to establish a culture of quality in the organization, and solicit tests from working groups and developers inside, and outside of Linaro, as well as overseeing development of new tests, reporting tools, and automation.
+Linaro is looking for someone to head up the QA Services team, and help establish the standard for quality in all of Linaro. The Linaro QA Services team lead is responsible for managing a team of QA engineers focused on providing validation of Linaro platforms, reporting on test status, shaping the release processes as they pertain to quality, bug tracking, and planning the strategies for testing new technologies in the world of Linux on Arm. The QA Services team lead will need to work across the organization to establish a culture of quality in the organization, and solicit tests from working groups and developers inside, and outside of Linaro, as well as overseeing development of new tests, reporting tools, and automation.
 
 
 
@@ -58,7 +58,7 @@ More information on this opportunity can be found at:
 
 
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 
@@ -73,7 +73,7 @@ As a Senior Android Platform Engineer, you will be a technical and thought leade
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### OS Engineer - Kernel/Bootloader
 
@@ -83,7 +83,7 @@ Linaro Platform Engineering is providing full system stack baselines as well as 
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 ### Engineering Manager - Automation & CI
 
@@ -92,17 +92,17 @@ The person taking this role will oversee Linaro’s Automation Infrastructure te
 
 More information on this opportunity can be found at:
 
-[/careers/](/careers/)
+[/about/join-us/](/about/join-us/)
 
 
 ## How to apply
 
-Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
+Want to apply for this role? Then email your information to[ careers@linaro.org](/about/join-us/)
 
 
 ## Other career opportunities at Linaro
 
-All available career opportunities can be found at:[ /careers/](/careers/)
+All available career opportunities can be found at:[/about/join-us/](/about/join-us/)
 
 
 **Follow Linaro**
@@ -113,7 +113,7 @@ To find out more about what is happening in and around Linaro  following us on[
 **About Linaro**
 
 
-Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure.
+Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure.
 
 
 To find out more, please visit[ ](/).

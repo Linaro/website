@@ -1,6 +1,6 @@
 ---
 project_id: "7"
-title: Open Source ARM Tools
+title: Open Source Arm Tools
 permalink: /projects/open-source-arm-tools/
 description: |-
     The Toolchain Working Group deals with all aspects of system-level tools – the core development toolchain, emulation, profiling and analysis and instrumentation.
@@ -28,8 +28,6 @@ mailing_lists:
     url: http://lists.linaro.org/mailman/listinfo/linaro-toolchain
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsM9fST9uSvNcP8miQeicKUn
 ---
-# Open Source ARM Tools
-
 The Toolchain Working Group deals with all aspects of system-level tools – the core development toolchain (compiler, assembler, linker, debugger), emulation, profiling and analysis (oprofile, performance events) and instrumentation (ftrace).
 
 **Key Deliverables:**

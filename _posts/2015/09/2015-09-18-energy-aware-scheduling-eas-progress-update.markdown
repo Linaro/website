@@ -3,10 +3,10 @@ author: linaro
 categories:
 - blog
 date: 2015-09-18 19:01:52
-description: ARM and Linaro are jointly developing "Energy Aware Scheduling", a technique
+description: Arm and Linaro are jointly developing "Energy Aware Scheduling", a technique
   that improves power management on Linux by making it more central and easier to
   tune. See the latest update.
-excerpt: ARM and Linaro are jointly developing "Energy Aware Scheduling", a technique
+excerpt: Arm and Linaro are jointly developing "Energy Aware Scheduling", a technique
   that improves power management on Linux by making it more central and easier to
   tune. See the latest update.
 layout: post
@@ -16,14 +16,14 @@ tags:
 - Core Dump
 - arm
 - Linux
-- Linux on ARM
+- Linux on Arm
 title: Energy Aware Scheduling (EAS) progress update
 wordpress_id: 9319
 ---
 
-_Authors:  Ian Rickards (ARM),  Amit Kucheria (Linaro)_
+_Authors:  Ian Rickards (Arm),  Amit Kucheria (Linaro)_
 
-**Today, power management on Linux is implemented by different subsystems that work in a largely un-coordinated manner. This makes platform adaptation difficult and tuning complex. ARM and Linaro are jointly developing "Energy Aware Scheduling", a technique that improves power management on Linux by making it more central and easier to tune.  This will improve mainline Linux support for advanced multicore SoC’s that power current and future mobile devices and other consumer products.**
+**Today, power management on Linux is implemented by different subsystems that work in a largely un-coordinated manner. This makes platform adaptation difficult and tuning complex. Arm and Linaro are jointly developing "Energy Aware Scheduling", a technique that improves power management on Linux by making it more central and easier to tune.  This will improve mainline Linux support for advanced multicore SoC’s that power current and future mobile devices and other consumer products.**
 
 The existing Linux ‘Completely Fair Scheduler’ has a throughput based policy.  For example, if you have a new task and an idle cpu, then the scheduler will always put the new task on the idle cpu. However, this may not be the best decision for lowest energy usage.  EAS is designed to implement energy saving without affecting performance.
 
@@ -48,13 +48,13 @@ These existing frameworks have their own policy mechanisms that make decisions i
 
 The optimal solution is to fully integrate these functions into the Linux scheduler itself, with sufficient information to enable the most energy-efficient scheduling decisions to be made.
 
-A typical ARM multi-core SoC would have the following voltage and frequency domains:
+A typical Arm multi-core SoC would have the following voltage and frequency domains:
 
-{% include image.html name="ARM-voltage-EAS-blog.jpg" alt="ARM voltage EAS blog" %}
+{% include image.html name="ARM-voltage-EAS-blog.jpg" alt="Arm voltage EAS blog" %}
 
 Ideally, each cluster will operate at its own separate independent frequency and voltage.  By lowering the voltage and frequency, there is a substantial power saving.  This allows the per-cluster power/performance to be accurately controlled, and tailored to the workload being executed.
 
-A generic energy model based approach is expected to support a broad range of current and future CPU topologies, including SMP, multi-cluster SMP (e.g. 8-core Cortex-A53 products), as well as traditional ARM big.LITTLE.
+A generic energy model based approach is expected to support a broad range of current and future CPU topologies, including SMP, multi-cluster SMP (e.g. 8-core Cortex-A53 products), as well as traditional Arm big.LITTLE.
 
 Since the original discussions started on the Linux Kernel Mailing List in 2013, there has been significant progress recently:
 
@@ -103,18 +103,18 @@ With sched-cpufreq, when the new task is placed on CPU#1, the cpu capacity for t
 
 ## **Foundations - Frequency and capacity invariant load tracking**
 
-_Engineers:  Morten Rasmussen/Dietmar Eggemann, ARM_
+_Engineers:  Morten Rasmussen/Dietmar Eggemann, Arm_
 
-The “Per-Entity Load Tracking” (PELT) framework in the Linux kernel determines the load of a task by looking at the utilization of cpus.  The existing design of PELT tracks the CPU utilization but does not accurately track the load on different CPUs at different frequencies or with different performance per MHz.  ARM has built on the recent July-2015 rewrite of PELT from Yuyang Du to add frequency and microarchitecture support:
+The “Per-Entity Load Tracking” (PELT) framework in the Linux kernel determines the load of a task by looking at the utilization of cpus.  The existing design of PELT tracks the CPU utilization but does not accurately track the load on different CPUs at different frequencies or with different performance per MHz.  Arm has built on the recent July-2015 rewrite of PELT from Yuyang Du to add frequency and microarchitecture support:
 
 [https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159) - PELT rewrite (Yuyang Du, Intel corp.)
-[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296) - Frequency and microarchitecture invariance for PELT  (ARM)
+[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296) - Frequency and microarchitecture invariance for PELT  (Arm)
 
 **Capacity**
-This is a measure of the processing capability of a cpu.  ARM patches include enhancements for capacity to be extended with additional scaling for microarchitecture and current operating frequency. The cpu capacity at different operating points is based on measuring some standard benchmark metric ,e.g. “sysbench”
+This is a measure of the processing capability of a cpu.  Arm patches include enhancements for capacity to be extended with additional scaling for microarchitecture and current operating frequency. The cpu capacity at different operating points is based on measuring some standard benchmark metric ,e.g. “sysbench”
 
 **Utilization**
-Traditionally the utilization has been related to the running time.  ARM foundational patches extend this to accommodate the frequency & performance of the cpu.
+Traditionally the utilization has been related to the running time.  Arm foundational patches extend this to accommodate the frequency & performance of the cpu.
 
 _Existing utilization calculation_
 
@@ -126,7 +126,7 @@ _New utilization calculation takes into account frequency and microarchitecture_
 
 ## **Energy model**
 
-_Engineer:  Morten Rasmussen, ARM [latest RFCv5, July-2015]_
+_Engineer:  Morten Rasmussen, Arm [latest RFCv5, July-2015]_
 
 The EAS energy model is the final piece which enables the CFS with energy-aware task scheduling.  It allows the kernel to decide at run-time which scheduling decisions are the best ones for lowest energy usage. The Energy-Aware policy is to always pick the CPU with sufficient spare capacity and smallest energy impact.
 
@@ -172,11 +172,11 @@ Based on the energy model, EAS evaluates which of these two options is the most 
 
 ## **SchedTune**
 
-_Engineer:  Patrick Bellasi, ARM [posted August-2015]_
+_Engineer:  Patrick Bellasi, Arm [posted August-2015]_
 
 The ‘interactive governor’ appeared on Android in 2010, and it has proved to be a very popular solution for maximizing battery life whilst providing a high operating point suitable for interactive tasks. However, the interactive governor was not merged into the mainline Linux kernel. There is considerable interest in having a frequency boost capability available in mainline Linux as part of cpufreq (and potentially EAS in future).
 
-There has been a repeated demand to have a single, simple tunable ‘knob’ that permits the selection of energy efficient operation at one end and high performance operation at the other end. With sched-DVFS and EAS in place, the stage is set for implementing such a central tunable. ARM’s proposal for this tunable is called SchedTune.
+There has been a repeated demand to have a single, simple tunable ‘knob’ that permits the selection of energy efficient operation at one end and high performance operation at the other end. With sched-DVFS and EAS in place, the stage is set for implementing such a central tunable. Arm’s proposal for this tunable is called SchedTune.
 
 SchedTune adds an additional ‘margin’ into the tracked load from PELT. Sched-DVFS and EAS then use this ‘boosted’ tracked load when selecting operating points as usual. The magnitude of the margin is controlled by a single user-space facing tunable.
 
@@ -186,7 +186,7 @@ If the task appears to be bigger, the allocated MHz from cpufreq/sched-cpufreq w
 
 ## **Tooling & Analysis**
 
-ARM & Linaro have been working on implementing opensource test and analysis tools, most of which needed to be newly developed for the EAS project.
+Arm & Linaro have been working on implementing opensource test and analysis tools, most of which needed to be newly developed for the EAS project.
 
 ### rt-app/ WorkloadGen  (Linaro)
 
@@ -196,9 +196,9 @@ Most existing benchmarks run flat-out, and there are few good existing tools to 
 
 rt-app is a linux command-line tool that creates light intensity workloads, using json files to describe different simulated use-cases. rt-app is already used by the scheduler community.
 
-### workload-automation (ARM)
+### workload-automation (Arm)
 
-[https://github.com/ARM-software/workload-automation](https://github.com/ARM-software/workload-automation)
+[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
 
 This is a python framework for running standard tests and benchmarks on a target system. It supports:
 
@@ -208,14 +208,14 @@ This is a python framework for running standard tests and benchmarks on a target
 
 Kernel ftrace logs are captured from the Linux kernel, and workload-automation integrates with various power measurement tools, e.g. NI DAQ for measuring device power, and ChromeOS servo boards.
 
-### TRAPpy (ARM)
+### TRAPpy (Arm)
 
-[https://github.com/ARM-software/trappy](https://github.com/ARM-software/trappy)
-[https://github.com/ARM-software/bart](https://github.com/ARM-software/bart)
+[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
+[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
 
 trappy is a python-based visualization tool to help analyze ftrace data generated on a device. It depends on ipython notebook and pandas (python data analysis library), and can be used from a browser to zoom in to analyse scheduler behaviors.
 
-One important feature is it contains an API used for tracking behaviors for thread residency, which allows it to be used as the framework for regression testing for EAS.  ARM has a tool called “BART” - Behavior Analysis Regression Testing which uses this API.
+One important feature is it contains an API used for tracking behaviors for thread residency, which allows it to be used as the framework for regression testing for EAS.  Arm has a tool called “BART” - Behavior Analysis Regression Testing which uses this API.
 
 ### idlestat (Linaro)
 
@@ -242,11 +242,11 @@ This is the preferred option as the Linux kernel maintainers will see the questi
 This mailing list is to discuss experimental aspects of EAS developments that are too premature for discussion on LKML
 
 
-ARM provides a [git repo](http://www.linux-arm.org/git?p=linux-power.git) containing the latest EAS patched into a recent Linux kernel
+Arm provides a [git repo](http://www.linux-arm.org/git?p=linux-power.git) containing the latest EAS patched into a recent Linux kernel
 
-ARM/Linaro are planning an LSK 3.18 backport of EAS (on a separate experimental branch) for availability soon, this will be the best route to Android testing.
+Arm/Linaro are planning an LSK 3.18 backport of EAS (on a separate experimental branch) for availability soon, this will be the best route to Android testing.
 
-ARM and Linaro appreciate any participation in shaping the future direction of EAS, and we particularly welcome testing on a range of platforms including ‘tested-by’ comments on LKML.
+Arm and Linaro appreciate any participation in shaping the future direction of EAS, and we particularly welcome testing on a range of platforms including ‘tested-by’ comments on LKML.
 
 ### Current patchsets for review
 
@@ -303,7 +303,7 @@ Foundational Patches
 <tr >
 
 <td style="text-align: center;" markdown="1">
-Yuyang Du PELT rewrite v10 containing ARM enhancements to utilization calculation  (already queued for merging)
+Yuyang Du PELT rewrite v10 containing Arm enhancements to utilization calculation  (already queued for merging)
 </td>
 
 <td style="text-align: left;" >[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159)
@@ -388,7 +388,7 @@ TRAPpy
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/ARM-software/trappy](https://github.com/ARM-software/trappy)
+[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
 </td>
 </tr>
 <tr >
@@ -398,7 +398,7 @@ BART
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/ARM-software/bart](https://github.com/ARM-software/bart)
+[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
 </td>
 </tr>
 <tr >
@@ -408,7 +408,7 @@ Workload Automation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/ARM-software/workload-automation](https://github.com/ARM-software/workload-automation)
+[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
 </td>
 </tr>
 </tbody>

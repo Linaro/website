@@ -4,8 +4,8 @@ categories:
 - blog
 date: 2014-01-31 01:23:11
 description: Information and links for the Linaro 14.01 release
-keywords: Linaro, linux, open source, ARM, linux on ARM, Android, Ubuntu, kernel,
-  linux kernel, ARMv8, Linaro Connect,
+keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,
+  linux kernel, Armv8, Linaro Connect,
 layout: post
 link: /blog/releases-blog/linaro-14-01-release-is-now-available-for-download/
 slug: linaro-14-01-release-is-now-available-for-download
@@ -22,7 +22,7 @@ tags:
 - Landing teams
 - Linaro
 - Linaro Connect
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 - release
@@ -51,7 +51,7 @@ This post includes links to more information and instructions for using the imag
 
 
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 
@@ -89,7 +89,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
 

@@ -5,9 +5,9 @@ categories:
 date: 2013-08-29 18:31:15
 description: Linaro 13.08 release notes and highlights. Links to relevant downloads
   for the release.
-keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, Linaro stable kernel, LSK,
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro stable kernel, LSK,
   Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
-  OpenEmbedded, big.LITTLE, LAVA,  KVM on ARM
+  OpenEmbedded, big.LITTLE, LAVA,  KVM on Arm
 layout: post
 link: /blog/releases-blog/linaro-13-08-released/
 slug: linaro-13-08-released
@@ -17,7 +17,7 @@ tags:
 - Linaro
 - Linaro Connect
 - linaro stable kernel
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - release
 title: Linaro 13.08 Released
@@ -40,7 +40,7 @@ Over the past few months, the LSK team has been developing a process to build an
 
 This release includes a significant amount of work from the Linaro Networking Group (LNG), which was established in February. LNG moved its kernels to 3.10.6 and 3.10.6 + rt3 and the real time (PREEMPT_RT) patch set for 3.10.6 + rt3 became available. Work on the Linaro OpenEmbedded baseline progressed rapidly with the merging of the meta-bigendian layer and booting of the LNG images based on this baseline on the Arndale board.
 
-The Linaro Enterprise Group continued to build on its work in earlier releases, but a key highlight was getting the continuous integration (CI) loop for OpenJDK-8 on ARMv8 up and running. Work remains to get all the tests passing and to amplify the range of the test suites used. In addition, the patch set enabling bit sliced AES for NEON have been completed and merged upstream in the OpenSSL project.
+The Linaro Enterprise Group continued to build on its work in earlier releases, but a key highlight was getting the continuous integration (CI) loop for OpenJDK-8 on Armv8 up and running. Work remains to get all the tests passing and to amplify the range of the test suites used. In addition, the patch set enabling bit sliced AES for NEON have been completed and merged upstream in the OpenSSL project.
 
 Most of Linaro's working groups now have approved public roadmaps so it is possible to see when key output will be available in the future: [https://wiki.linaro.org/TSC/Roadmaps](https://wiki.linaro.org/TSC/Roadmaps). These roadmaps are based on the requirements of Linaro members and we expect the Power Management and LNG roadmaps to be approved and shared publicly soon.
 
@@ -48,7 +48,7 @@ Most of Linaro's working groups now have approved public roadmaps so it is possi
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with ARM’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:
@@ -59,7 +59,7 @@ We encourage everybody to use the 13.08 release. The download links for all imag
 
 
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
@@ -108,7 +108,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ### USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
 

@@ -13,14 +13,14 @@ tags:
 - Releases
 - android
 - arm
-- ARMv8
+- Armv8
 - Connect Events
 - Engineering cycle
 - Evaluation builds
 - kernel
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - release
 - release cycle
@@ -41,7 +41,7 @@ Linaro 16.11 release is now available for download. See the detailed highlights 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -65,7 +65,7 @@ If you are interested in getting the source and building these images yourself p
 
 **USING THE OPEN EMBEDDED-BASED IMAGES**
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
 

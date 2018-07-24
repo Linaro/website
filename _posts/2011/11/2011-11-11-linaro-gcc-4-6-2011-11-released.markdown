@@ -35,7 +35,7 @@ Interesting changes include:
   * A new -mtune=generic-* flag to tune for a blend of processors
 
 
-  * Use of the ARMv7 unaligned access support for unaligned variables
+  * Use of the Armv7 unaligned access support for unaligned variables
 
 
   * Vectorization of widening shifts

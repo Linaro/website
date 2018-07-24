@@ -6,7 +6,7 @@ date: 2011-12-21 22:39:19
 description: 'Linaro announced the availability of builds of Android Ice Cream Sandwich
   (ICS) supporting accelerated graphics on two of its member''s low cost development
   boards: the Samsung Origen and ST-Ericsson Snowball boards.'
-keywords: Linux on ARM, Linaro, Process, Announcement, Releases, Community, Android,
+keywords: Linux on Arm, Linaro, Process, Announcement, Releases, Community, Android,
   Linaro.org
 layout: post
 link: /blog/community-blog/linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich/
@@ -20,7 +20,7 @@ title: "Linaro offers accelerated builds of Android\u2019s Ice Cream Sandwich"
 wordpress_id: 1101
 ---
 
-In [a press release](/news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/) earlier today, [Linaro](/) announced the availability of builds of [Android](http://www.android.com/) Ice Cream Sandwich (ICS) supporting accelerated graphics on two of [its member's](/members/) low cost development boards: the Samsung Origen and ST-Ericsson Snowball boards.
+In [a press release](/news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/) earlier today, [Linaro](/) announced the availability of builds of [Android](http://www.android.com/) Ice Cream Sandwich (ICS) supporting accelerated graphics on two of [its member's](/membership/) low cost development boards: the Samsung Origen and ST-Ericsson Snowball boards.
 
 When asked about why this announcement was so exciting for Linaro, its members and developers, Linaro’s Android Team Lead, Zach Pfeffer had this to say, “Until today, independent Android platform developers who wanted to work with accelerated Android had two choices, hack an existing phone or use AOSP’s release or Linaro’s release for the Texas Instrument’s (TI’s) PandaBoard release. Now, independent Android platform developers who want to base products on St-Ericsson’s NovaTM A9500 used in the Snowball dev board or Samsung’s Exynos4210 in the Origen board can do so with an easy-to-use, pre-integrated and tested platform. No more looking through wikis, mining patches or Googling mailing lists, it’s done, tested and available for easy download and building.
 

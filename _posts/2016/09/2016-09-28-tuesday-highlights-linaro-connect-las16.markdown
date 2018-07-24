@@ -16,7 +16,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 ---
 
 Linaro Connect LAS16 continued on Tuesday with another great keynote by guest speaker, Sarah Sharp, who is the founder of Otter Tech. Sarah kicked-off the day by giving a talk on “Corporate Open Source Fail” in which she discussed how many company’s good intentions of being productive open source citizens go bad. She talked about the common corporate open source pitfalls and the thinking behind some of these decisions when product deadlines and legal issues come into play. She explained ways that engineers and managers can work with their teams to influence strategies.
@@ -33,7 +33,7 @@ Linaro Connect LAS16 continued on Tuesday with another great keynote by guest sp
 
 The second keynote on Tuesday was a demo showing off the new MediaTek X20 Board. Stephane La Provost was on hand to demo the new board for attendees.
 
-Tuesday was also the first day of a series of mini-conferences happening the week of Linaro Connect. The Firmware Summit began after the morning keynotes. The summit was centered around those working with the Linaro Enterprise Group (LEG), which has been driving the work to implement, upstream and maintain UEFI and ACPI support on ARM platforms since its creation in 2012. After years of work the team knows that in order to successfully deploy ARM servers in production, it is required that firmware (BIOS) engineers and kernel engineers work in close collaboration and drive the addition of new platforms, improved SoC support, etc. This summit was an opportunity to bring together the key developers and maintainers from all camps in the same place, review the status and plan the next steps.
+Tuesday was also the first day of a series of mini-conferences happening the week of Linaro Connect. The Firmware Summit began after the morning keynotes. The summit was centered around those working with the Linaro Enterprise Group (LEG), which has been driving the work to implement, upstream and maintain UEFI and ACPI support on Arm platforms since its creation in 2012. After years of work the team knows that in order to successfully deploy Arm servers in production, it is required that firmware (BIOS) engineers and kernel engineers work in close collaboration and drive the addition of new platforms, improved SoC support, etc. This summit was an opportunity to bring together the key developers and maintainers from all camps in the same place, review the status and plan the next steps.
 
 
 

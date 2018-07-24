@@ -15,12 +15,12 @@ slug: linaro-15-09-release-available-for-download
 tags:
 - Releases
 - android
-- ARMv8
+- Armv8
 - Evaluation builds
 - kernel
 - Linaro
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - release
 - release cycle
@@ -38,7 +38,7 @@ We encourage everybody to use the 15.09 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/downloads/)
+  * [/downloads/](/latest/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
@@ -60,7 +60,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 **USING THE OPEN EMBEDDED-BASED IMAGES**
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
   * [/initiatives/armv8/](/initiatives/armv8/)
 

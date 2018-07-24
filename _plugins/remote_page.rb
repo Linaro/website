@@ -18,9 +18,26 @@ module Jekyll
         parsed_url = URI.parse(encoded_url)
         
         doc = Nokogiri::HTML(open(parsed_url))
-
+        
+        tags = {
+              'a' => 'href'
+            }
+          doc.search(tags.keys.join(',')).each do |node|
+            url_param = tags[node.name]
+            src = node[url_param]
+            unless (src.empty?)
+              uri = URI.parse(src)
+              if uri.relative?
+                uri.scheme = parsed_url.scheme
+                uri.host = parsed_url.host
+                node[url_param] = uri.to_s
+              end
+            end
+          end
+                  
         #search the document for the HTML element you want
-        @fetched_content = doc.at_xpath("//div[@id='content']")
+        @fetched_content = doc.at_xpath("//div[@id='content' and @dir='ltr']")
+
       else
         raise 'Invalid URL passed to RemotePageInclude'
       end

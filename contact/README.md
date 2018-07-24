@@ -48,13 +48,13 @@ CB22 7GG <br>
 For technical questions, please visit [Linaro Support](https://linaro.zendesk.com/) to post your question there and receive answers from our community of experts.
 </li><hr>
 <li markdown="1">
-For discussion around Linux and Open Source on ARM, subscribe to the lists at [http://lists.linaro.org/](http://lists.linaro.org/)
+For discussion around Linux and Open Source on Arm, subscribe to the lists at [http://lists.linaro.org/](http://lists.linaro.org/)
 </li><hr>
 <li markdown="1">
 For questions about Linaro membership and conditions for joining, please contact Joe Bates at [contactus@linaro.org](mailto:contactus@linaro.org).
 </li><hr>
 <li markdown="1">
-To apply for a position at Linaro see our [careers page](/careers/).
+To apply for a position at Linaro see our [careers page](/about/join-us/).
 </li><hr>
 <li markdown="1">
 Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:  [media@linaro.org](mailto:media@linaro.org)

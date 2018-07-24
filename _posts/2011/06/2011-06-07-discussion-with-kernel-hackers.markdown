@@ -27,13 +27,13 @@ At the Linaro Developer Summit in Budapest, I managed to catch four famous kerne
 After introducing themselves and their jobs in Linaro (in particular Thomas Gleixner has just joined Linaro a few weeks before), these kernel hackers started insightful discussions about the below topics:
 
 
-  * Device tree ready for mainline, and the outlook of simplifying kernel code for all the boards supported by the ARM kernel.
+  * Device tree ready for mainline, and the outlook of simplifying kernel code for all the boards supported by the Arm kernel.
 
 
   * Flash media and improving filesystems on MTD and block flash devices. Speculations about the future of MTD.
 
 
-  * ARM server challenges and the ability to run a server with a very low power budget, or even in places with no power grid.
+  * Arm server challenges and the ability to run a server with a very low power budget, or even in places with no power grid.
 
 
 The video can also be downloaded in WebM format:

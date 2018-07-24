@@ -16,7 +16,7 @@ wordpress_id: 1031
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2011.12.
 
-Linaro QEMU 2011.12 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro QEMU 2011.12 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
 - There are no Linaro-specific changes of note in this release
@@ -28,7 +28,7 @@ release just happened to be conveniently aligned in this case.)
 Known issues:
 - Graphics do not work for OMAP3 based models (beagle, overo)
 with 11.10 Linaro images.
-- This release of qemu-linaro is known not to work on ARM hosts.
+- This release of qemu-linaro is known not to work on Arm hosts.
 (See bugs [#883133](http://launchpad.net/bugs/883133), [#883136](http://launchpad.net/bugs/883136))
 
 The source tarball is available at:

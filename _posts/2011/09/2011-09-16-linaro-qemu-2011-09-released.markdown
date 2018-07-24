@@ -16,10 +16,10 @@ wordpress_id: 505
 
 The Linaro Toolchain Working Group is pleased to announce the release of Linaro QEMU 2011.09.
 
-Linaro QEMU 2011.09 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of ARM-focused bug fixes and enhancements.
+Linaro QEMU 2011.09 is the latest monthly release of qemu-linaro. Based off upstream (trunk) QEMU, it includes a number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
-- linux-user mode now supports the 64 bit cmpxchg kernel helpers  (only needed for applications compiled for ARMv6 or lower)
+- linux-user mode now supports the 64 bit cmpxchg kernel helpers  (only needed for applications compiled for Armv6 or lower)
 - PL111 display controller now supported; this fixes a problem where BGR was interpreted as RGB on recent versatilepb kernels
 
 Plus a few other minor bug fixes and the usual round of upstream fixes and improvements.

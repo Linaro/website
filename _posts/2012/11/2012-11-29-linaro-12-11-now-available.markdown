@@ -5,8 +5,8 @@ categories:
 date: 2012-11-29 16:45:41
 description: The Linaro 12.11 release is now available. Highlights, release notes
   and information on how to download Linaro 12.11 are available in this post.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, Release,
-  Announcement, 12.11, Ubuntu, Android, ARMv8, LEG,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, Release,
+  Announcement, 12.11, Ubuntu, Android, Armv8, LEG,
 layout: post
 link: /blog/releases-blog/linaro-12-11-now-available/
 slug: linaro-12-11-now-available
@@ -20,7 +20,7 @@ wordpress_id: 2041
 
 # The Linaro 12.11 release is now available!
 
-The Linaro 12.11 release cycle highlights the hard work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provide all the updates and new features that are integrated on top of our platforms during this development cycle. The 12.11 release is another example of how Linaro works together with its members, partners and community to continue to build the future of Linux on ARM.
+The Linaro 12.11 release cycle highlights the hard work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provide all the updates and new features that are integrated on top of our platforms during this development cycle. The 12.11 release is another example of how Linaro works together with its members, partners and community to continue to build the future of Linux on Arm.
 
 
 
@@ -28,7 +28,7 @@ Looking over the [highlights for the 12.11 release cycle](https://wiki.linaro.or
 
 
 
-As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([ARMv8](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)). The Developer Platform team reports that the initial GRUB support for ARM is now available, provided by our Linaro Enterprise Group ([LEG](/groups/leg/)) and marking its first component delivery.
+As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([Armv8](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)). The Developer Platform team reports that the initial GRUB support for Arm is now available, provided by our Linaro Enterprise Group ([LEG](/groups/leg/)) and marking its first component delivery.
 
 
 
@@ -43,11 +43,11 @@ The Power Management Working Group continues its progress on big.LITTLE MP by de
 
 
 
-With 13 companies joining Linaro to become part of the [newly formed](/groups/leg/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux ARM server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
+With 13 companies joining Linaro to become part of the [newly formed](/groups/leg/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux Arm server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
 
 
 
-"LEG has been focused on creating our roadmap and drafting the first cards as we continue to build on the work that[ David Rusling](/about/) initiated as part of the OCTO enterprise pre-work," said Gallo.  "We've been busy working with ARM and Samsung on extending the Tianocore UEFI support to the Samsung platform beyond the multiple ARM Versatile Express variants already in place. Many thanks to [Ryan Harkin](/about/), the Linaro ARM Landing team and Rony Nandy of Samsung for all their help and collaboration. Also, we are planning an invitation only UEFI mini-summit which is scheduled to take place on the 11-13 of December at the Linaro office in Cambridge," added Gallo."
+"LEG has been focused on creating our roadmap and drafting the first cards as we continue to build on the work that[ David Rusling](/about/) initiated as part of the OCTO enterprise pre-work," said Gallo.  "We've been busy working with Arm and Samsung on extending the Tianocore UEFI support to the Samsung platform beyond the multiple Arm Versatile Express variants already in place. Many thanks to [Ryan Harkin](/about/), the Linaro Arm Landing team and Rony Nandy of Samsung for all their help and collaboration. Also, we are planning an invitation only UEFI mini-summit which is scheduled to take place on the 11-13 of December at the Linaro office in Cambridge," added Gallo."
 
 For more information on the mini-summit and LEG please follow the Linaro [enterprise mailing list](http://lists.linaro.org/mailman/listinfo/linaro-enterprise) and other Linaro social media outlets.
 

@@ -5,7 +5,7 @@ categories:
 date: 2012-03-27 03:04:06
 description: Linaro issues Call for Submissions for the Plenary Sessions at the Linaro
   Connect Q2.12 event to be held at the Gold Coast Hotel, Hong Kong, 28 May - 1 June.
-keywords: Linaro, Linux on ARM, Linaro Connect, Q2.12, developers, Plenary Session,
+keywords: Linaro, Linux on Arm, Linaro Connect, Q2.12, developers, Plenary Session,
   Call for Submissions, Hong Kong, Gold Coast Hotel, May, June
 layout: post
 link: /blog/industry-blog/call-for-submissions-linaro-connect-q2-12-plenaries/
@@ -48,7 +48,7 @@ Questions, comments or feedback concerning the plenary session maybe sent to [e
 
 **About Linaro**
 
-Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including the GCC toolchain, the Linux kernel, ARM power management, graphics and multimedia interfaces.
+Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain, the Linux kernel, Arm power management, graphics and multimedia interfaces.
 
 To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
@@ -56,8 +56,8 @@ More information about Linaro can be found at: [](/about/)
 
 **About Linaro Connect**
 
-The industry’s largest and most important event for developing Linux on ARM, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
+The industry’s largest and most important event for developing Linux on Arm, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
 
-All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on ARM. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon and socialising in the evening.
+All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on Arm. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon and socialising in the evening.
 
 More information about Linaro Connect can be found at: [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)

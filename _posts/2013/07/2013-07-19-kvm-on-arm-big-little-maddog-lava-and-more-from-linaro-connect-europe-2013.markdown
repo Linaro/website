@@ -5,7 +5,7 @@ categories:
 date: 2013-07-19 20:39:35
 description: Want to see what happens at Linaro Connect? Check out this Linaro Connect
   Europe 2013 summary.
-keywords: Linaro, Linux on ARM, Linux, ARM, Open Source, LCE13, LCU13, KVM on ARM,
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, LCE13, LCU13, KVM on Arm,
   big.LITTLE, Maddog, LAVA, Linaro Connect Europe 2013
 layout: post
 link: /blog/community-blog/kvm-on-arm-big-little-maddog-lava-and-more-from-linaro-connect-europe-2013/
@@ -19,11 +19,11 @@ tags:
 - Connect Events
 - Hangouts on Air
 - lava
-title: KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013
+title: KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013
 wordpress_id: 2843
 ---
 
-{% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on ARM, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
+{% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
 
 
 [Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org/lce13/) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
@@ -41,7 +41,7 @@ There were [5 plenaries with 8 keynotes](/blog/linaro-connect-europe-2013-keynot
   * [Connect Survival Guide](http://lce-13.zerista.com/event/member/79587), [Google+ Event Listing](https://plus.google.com/u/0/events/c9km5je4jufpsimd7jcbvus7his), [Video (YouTube)](http://youtu.be/Z6tJR99wWWI), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Connect%20survival%20Guide.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-survival-guide)
 
 
-  * [Wannes De Smet](http://lce-13.zerista.com/event/member/79608), [Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20ARM%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
+  * [Wannes De Smet](http://lce-13.zerista.com/event/member/79608), [Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20Arm%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
 
 
   * [Cole Crawford](http://lce-13.zerista.com/event/member/81944), [Google+ Event Listing](https://plus.google.com/u/0/events/cd6jp4ehbuntib9pnrp89qppc2c), [Video (YouTube)](http://youtu.be/4621j5xQGMM), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Wednesday%20Keynote-%20Cole%20Crawford.mp4), [Presentation](https://www.slideshare.net/linaroorg/open-compute-keynote)
@@ -56,15 +56,15 @@ There were [5 plenaries with 8 keynotes](/blog/linaro-connect-europe-2013-keynot
 
 ## 64-bit Porting Project with Jon Maddog Hall
 
-Highlights from this week included Jon maddog Hall and his work on the 64bit porting project that Steve McIntyre of Linaro Enterprise Group (LEG) outlined on his blog post [Scanning for assembly code in Free Software packages](http://blog.einval.com/).  The [full report](https://wiki.linaro.org/LEG/Engineering/OPTIM/Assembly) which maddog will be working from to build community around the code that would need to be ported to work well on 64-bit ARM architecture. Leading up to LCE13 maddog explained in a [company wide Google+ Hangout on Air ](http://youtu.be/CikM676zpi0)the work he would be doing.  During LCE13 David Rusling took a moment to [interview maddog](http://youtu.be/7wijAKFACYY) about that project and later in the week maddog [presented the project to all](http://youtu.be/W7fwu4t5Gtc) those who were interested.
+Highlights from this week included Jon maddog Hall and his work on the 64bit porting project that Steve McIntyre of Linaro Enterprise Group (LEG) outlined on his blog post [Scanning for assembly code in Free Software packages](http://blog.einval.com/).  The [full report](https://wiki.linaro.org/LEG/Engineering/OPTIM/Assembly) which maddog will be working from to build community around the code that would need to be ported to work well on 64-bit Arm architecture. Leading up to LCE13 maddog explained in a [company wide Google+ Hangout on Air ](http://youtu.be/CikM676zpi0)the work he would be doing.  During LCE13 David Rusling took a moment to [interview maddog](http://youtu.be/7wijAKFACYY) about that project and later in the week maddog [presented the project to all](http://youtu.be/W7fwu4t5Gtc) those who were interested.
 
 ## LAVA! LAVA! LAVA!
 
-LAVA continues to be a hot topic (yes, pun intended) and LCE13 showcased why. There were [10 LAVA team hosted sessions](http://lce-13.zerista.com/event?owner=other&owner_id=453800&terms=LAVA+&event_page=1&tag_ids=76395&start=&event_order=start) which included a Testing and Validation mini-summit, a [LAVA-LMP demonstration](http://youtu.be/3Jaf5ILvVmQ) and more.  Cole Crawford of the Open Compute Project (OCP) and [keynote speaker at LCE13](http://youtu.be/4621j5xQGMM)  even talked about the importance of LAVA-LMP the OCP community [in his interview](http://youtu.be/7FYt-nE6rgo).  LAVA and LAVA-LMP is one of those game changers on the ARM hardware testing front.  In his LCE13 [interview, Tyler Baker](http://youtu.be/Znru9cMsLNg) of the LAVA team discusses how LAVA is improving the lives of Linux kernel developers in the ARM space, as well as how LAVA is improving the workflow for developers and how LAVA is evolving. Alan Bennett, Tech Lead for the LAVA team also took [a moment to tell people](http://youtu.be/bn8NVAZp6aI) about LAVA, LMPs, test and validation and more in his interview.
+LAVA continues to be a hot topic (yes, pun intended) and LCE13 showcased why. There were [10 LAVA team hosted sessions](http://lce-13.zerista.com/event?owner=other&owner_id=453800&terms=LAVA+&event_page=1&tag_ids=76395&start=&event_order=start) which included a Testing and Validation mini-summit, a [LAVA-LMP demonstration](http://youtu.be/3Jaf5ILvVmQ) and more.  Cole Crawford of the Open Compute Project (OCP) and [keynote speaker at LCE13](http://youtu.be/4621j5xQGMM)  even talked about the importance of LAVA-LMP the OCP community [in his interview](http://youtu.be/7FYt-nE6rgo).  LAVA and LAVA-LMP is one of those game changers on the Arm hardware testing front.  In his LCE13 [interview, Tyler Baker](http://youtu.be/Znru9cMsLNg) of the LAVA team discusses how LAVA is improving the lives of Linux kernel developers in the Arm space, as well as how LAVA is improving the workflow for developers and how LAVA is evolving. Alan Bennett, Tech Lead for the LAVA team also took [a moment to tell people](http://youtu.be/bn8NVAZp6aI) about LAVA, LMPs, test and validation and more in his interview.
 
 ## big.LITTLE Software Update
 
-During LCE13 George Grey, Linaro CEO took a [moment to blog](/blog/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](/blog/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of ARM’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from ARM licensees over the coming quarters."  His report includes:
+During LCE13 George Grey, Linaro CEO took a [moment to blog](/blog/big-little-software-update/) about software updates on the big.LITTLE front.  [In this post](/blog/big-little-software-update/) Grey writes, “With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of Arm’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from Arm licensees over the coming quarters."  His report includes:
 
 
   * Current Status as at end of H1 2013
@@ -91,18 +91,18 @@ During LCE13 George Grey, Linaro CEO took a [moment to blog](/blog/big-little-so
   * Real Life Results
 
 
-If you need more information on big.LITTLE ARM has published further information on configurations and performance in a blog entry [here](http://blogs.arm.com/soc-design/1009-ten-things-to-know-about-biglittle).
+If you need more information on big.LITTLE Arm has published further information on configurations and performance in a blog entry [here](http://blogs.arm.com/soc-design/1009-ten-things-to-know-about-biglittle).
 
 ## LCE13 Demo Friday Event
 
 
-The Demo Friday at LCE13 which took place on 12 July 2013 played host to the world’s first demonstration of KVM (Kernel-based Virtual Machine) running on an ARMv8 64-­bit silicon platform from Applied Micro Circuits Corporation. The demonstration showed KVM ARMv8 64-­bit based virtualization on the AppliedMicro X-­C1 hardware platform featuring the company’s X-Gene Server on a ChipTM silicon solution. This solution consists of eight ARMv8 64-­bit processors running four SMP Linux guest VMs (two ARMv7 32­-bit and two ARMv8 64-­bit guests) with web servers running concurrently on each VM using VirtIO-based network virtualization. The web servers delivered HTML web pages with varying graphical content.
+The Demo Friday at LCE13 which took place on 12 July 2013 played host to the world’s first demonstration of KVM (Kernel-based Virtual Machine) running on an Armv8 64-­bit silicon platform from Applied Micro Circuits Corporation. The demonstration showed KVM Armv8 64-­bit based virtualization on the AppliedMicro X-­C1 hardware platform featuring the company’s X-Gene Server on a ChipTM silicon solution. This solution consists of eight Armv8 64-­bit processors running four SMP Linux guest VMs (two Armv7 32­-bit and two Armv8 64-­bit guests) with web servers running concurrently on each VM using VirtIO-based network virtualization. The web servers delivered HTML web pages with varying graphical content.
 
 
-ARM handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/).
+Arm handled porting KVM for this demonstration from 32-­bit to 64­-bit, while AppliedMicro engineers brought the KVM up on the hardware and Linaro ensured a robust solution. You can read the full press release [here](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/).
 
 
-In addition to the KVM on ARM demo there were more than 15 other demos. LEG, LAVA, Android, XEN, Sysops and more opted to showcase their work.
+In addition to the KVM on Arm demo there were more than 15 other demos. LEG, LAVA, Android, XEN, Sysops and more opted to showcase their work.
 
 
 Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.youtube.com/user/linaroorg). (More videos will be added to this channel next week)
@@ -111,7 +111,7 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
   * LAVA (Linaro Automated Validation Architecture) Demo from Alan Bennett and Tyler Baker at LCE13  - [http://youtu.be/j7pZeV0AKZU](http://youtu.be/j7pZeV0AKZU)
 
 
-  * XEN on ARM Cloud with Open Nebula demonstrated by Citrix and Linaro - [http://youtu.be/xZP9YKv3P_E](http://youtu.be/xZP9YKv3P_E)
+  * XEN on Arm Cloud with Open Nebula demonstrated by Citrix and Linaro - [http://youtu.be/xZP9YKv3P_E](http://youtu.be/xZP9YKv3P_E)
 
 
   * Dave Piggott LAVA Lab Lead at Linaro demonstrates the LMP (LAVA Multi-purpose Probe) at LCE13 - [http://youtu.be/3Jaf5ILvVmQ](http://youtu.be/3Jaf5ILvVmQ)
@@ -151,7 +151,7 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
   * [Leslie Hawthorn](http://youtu.be/TYBZKu1xC-c), Community Action and Impact, Red Hat
 
 
-  * [Jon Masters](http://youtu.be/4zZr2-_uzwg), Chief ARM Architect, Red Hat
+  * [Jon Masters](http://youtu.be/4zZr2-_uzwg), Chief Arm Architect, Red Hat
 
 
   * [Jon Maddog Hall](http://youtu.be/7wijAKFACYY) (interviewed by David Rusling, Linaro CTO)
@@ -161,13 +161,13 @@ Video for the demos can be found on the [LinaroOrg YouTube channel](http://www.y
 
 ## Panel Discusion and Wrap Up
 
-David Rusling and guests take questions from the audience about anything ARM, Linaro, and Linaro Connect related.  This panel discussion was followed by Joe Bates, Linaro VP of Member Services who delivered a humorous yet insightful wrap-up of all the week's success.
+David Rusling and guests take questions from the audience about anything Arm, Linaro, and Linaro Connect related.  This panel discussion was followed by Joe Bates, Linaro VP of Member Services who delivered a humorous yet insightful wrap-up of all the week's success.
 
 
 ## Linaro Connect US 2013 - Santa Clara, CA
 
 
-We have good news for those who are already looking forward to [Linaro Connect US 2013](http://connect.linaro.org/lcu13/) (LCE13) which will be co-located with ARM’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](http://connect.linaro.org/lcu13/) for more information on how you can be part of the future of Linux on ARM.
+We have good news for those who are already looking forward to [Linaro Connect US 2013](http://connect.linaro.org/lcu13/) (LCE13) which will be co-located with Arm’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](http://connect.linaro.org/lcu13/) for more information on how you can be part of the future of Linux on Arm.
 
 
 ## LCE13 Daily Schedule
@@ -189,7 +189,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **10:00 AM - 10:45 AM** - [ARMv8 Status and Updates ](http://lce-13.zerista.com/event/member/79588) -  [Etherpad](http://pad.linaro.org/p/LCE13_ARMv8_Status_and_Updates), [Google+ Event Listing](https://plus.google.com/u/0/events/c3i14n89kfhegqvisovr1s0q324), [Video (YouTube)](http://youtu.be/QrT5G2C-3TU), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/ARMv8%20Status%20and%20Updates.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
+  * **10:00 AM - 10:45 AM** - [Armv8 Status and Updates ](http://lce-13.zerista.com/event/member/79588) -  [Etherpad](http://pad.linaro.org/p/LCE13_Armv8_Status_and_Updates), [Google+ Event Listing](https://plus.google.com/u/0/events/c3i14n89kfhegqvisovr1s0q324), [Video (YouTube)](http://youtu.be/QrT5G2C-3TU), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/Armv8%20Status%20and%20Updates.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
 
 
   * **10:00 AM - 10:45 AM** - [GNU Toolchain - Support and Maintenance ](http://lce-13.zerista.com/event/member/79590) -  [Etherpad](http://pad.linaro.org/p/LCE13_GNU_Toolchain_Support_And_Maintenance), [Google+ Event Listing](https://plus.google.com/u/0/events/cdc4cck1eolcuavivq0pomb6mhc), [Video (YouTube)](http://youtu.be/PatkA9yPCPk), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/8_July_2013_Monday/GNU%20Toolchain%20-%20Support%20and%20Maintenance.mp4)
@@ -226,7 +226,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 ### Tuesday 9 July 2013
 
 
-  * **8:30 AM - 9:00 AM** - [Tuesday Keynote - Wannes De Smet](http://lce-13.zerista.com/event/member/79608),[Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20ARM%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
+  * **8:30 AM - 9:00 AM** - [Tuesday Keynote - Wannes De Smet](http://lce-13.zerista.com/event/member/79608),[Google+ Event Listing](https://plus.google.com/u/0/events/cn6pjbn7de9eunrf12d15ond2so), [Video (YouTube)](http://youtu.be/LZWVSrVyjrY), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Linaro%20Connect%20LCE13%20-%20Wannes%20de%20Smet%20Calxeda%20-%20Arm%20Server%20Keynote.mp4), [Presentation](https://www.slideshare.net/linaroorg/linaro-sizing-serverscalxeda)
 
 
 
@@ -242,7 +242,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **10:00 AM - 10:45 AM** -[ ARM SOC Tree/Consolidation Update (Part 1)  ](http://lce-13.zerista.com/event/member/79609),[Etherpad](http://pad.linaro.org/p/LCE13_ARM_SOC_Tree_Consolidation_Update), [Google+ Event Listing](https://plus.google.com/u/0/events/c1q0goflf98rtn370avin9enpps), [Video (YouTube), ](http://youtu.be/dIHAnoyUEKw)[Video (Linaro Server)](about:blank)
+  * **10:00 AM - 10:45 AM** -[ Arm SOC Tree/Consolidation Update (Part 1)  ](http://lce-13.zerista.com/event/member/79609),[Etherpad](http://pad.linaro.org/p/LCE13_Arm_SOC_Tree_Consolidation_Update), [Google+ Event Listing](https://plus.google.com/u/0/events/c1q0goflf98rtn370avin9enpps), [Video (YouTube), ](http://youtu.be/dIHAnoyUEKw)[Video (Linaro Server)](about:blank)
 
 
   * **10:00 AM - 10:45 AM** - [Test and Validation Summit:  Evolution of Testing in Linaro (II)](http://lce-13.zerista.com/event/member/79633), [Etherpad]()http://pad.linaro.org/p/Test_and_Validation_Summit__Evolution_of_Testing_in_Linaro_(II), [Google+ Event Listing](https://plus.google.com/u/0/events/cpkhmr25s92a46otdvpjolaeebc),[Presentation](https://www.slideshare.net/linaroorg/03-summit-sessions1and2final1) (This session was not recorded)
@@ -253,7 +253,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **11:00 AM - 12:00 PM** - [ARM SOC Tree/Consolidation Update (Part 2) ](http://lce-13.zerista.com/event/member/79612), [Etherpad](http://pad.linaro.org/p/ARM_SOC_Tree_Consolidation_Update_(Part_2)), [Google+ Event Listing](https://plus.google.com/u/0/events/ch3kigqpos49dk118lvbdjrd62g), [Video (YouTube), ](http://youtu.be/zF_AXLgkFy4)[Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/ARM%20SOC%20Tree-Consolidation%20Update%20%2528Part%202%2529.mp4)
+  * **11:00 AM - 12:00 PM** - [Arm SOC Tree/Consolidation Update (Part 2) ](http://lce-13.zerista.com/event/member/79612), [Etherpad](http://pad.linaro.org/p/Arm_SOC_Tree_Consolidation_Update_(Part_2)), [Google+ Event Listing](https://plus.google.com/u/0/events/ch3kigqpos49dk118lvbdjrd62g), [Video (YouTube), ](http://youtu.be/zF_AXLgkFy4)[Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Arm%20SOC%20Tree-Consolidation%20Update%20%2528Part%202%2529.mp4)
 
 
   * **11:00 AM - 12:00 PM** - [Test and Validation Mini-Summit:  Review Current Linaro Engineering Process](http://lce-13.zerista.com/event/member/79636), [Etherpad]()http://pad.linaro.org/p/LCE13_Test_and_Validation_Summit_LAVA_Introduction_to_test_author_tool, [Google+ Event Listing](https://plus.google.com/u/0/events/ck1gmgrs6d6bpubd0bpin48kc2k), [Video (YouTube)](http://youtu.be/UaRRVASYywk), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Test%20and%20Validation%20Mini-Summit-%20Review%20Current%20Linaro%20Engineering%20Processes.mp4),[ Presentation](https://www.slideshare.net/linaroorg/03-summit-sessions3and4final)
@@ -288,7 +288,7 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **9:00 AM - 10:00 AM** - [big.LITTLE IKS upstreaming status review](http://lce-13.zerista.com/event/member/79616),[Etherpad](http://pad.linaro.org/p/LCE13_big.LITTLE_upstreaming_status_review), [Google+ Event Listing](https://plus.google.com/u/0/events/co3aelclc58e7hvblk8eoo0smhk), [Video (YouTube), ](http://youtu.be/Myq93YB0BMc)[Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/big.LITTLE%20IKS%20upstreaming%20status%20review.mp4), [Presentation](https://www.slideshare.net/linaroorg/iks-how-todublin2013)
 
 
-  * **9:00 AM - 10:00 AM** - [GNU Toolchain- ARMv8-A Status](http://lce-13.zerista.com/event/member/79629), [Etherpad](http://pad.linaro.org/p/LCE13_Toolchain_ARMv8-A_Status), [Google+ Event Listing](https://plus.google.com/u/0/events/c1bkv6men62ltq8igkcnvkm6ecs), [Video (YouTube),](http://youtu.be/gSUWbe71NIs) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/GNU%20Toolchain%20-%20ARMv8-A%20Status.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
+  * **9:00 AM - 10:00 AM** - [GNU Toolchain- Armv8-A Status](http://lce-13.zerista.com/event/member/79629), [Etherpad](http://pad.linaro.org/p/LCE13_Toolchain_Armv8-A_Status), [Google+ Event Listing](https://plus.google.com/u/0/events/c1bkv6men62ltq8igkcnvkm6ecs), [Video (YouTube),](http://youtu.be/gSUWbe71NIs) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/GNU%20Toolchain%20-%20Armv8-A%20Status.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
 
 
 
@@ -299,8 +299,8 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **10:00 AM - 10:45 AM** - [Engineering Builds - Reviews](http://lce-13.zerista.com/event/member/79617), [Etherpad](http://pad.linaro.org/p/Engineering_Builds_-_Reviews), [Google+ Event Listing](https://plus.google.com/u/0/events/cunq1bqb07fi1ko1tgb78cqfnl4),[ Video (YouTube),](http://youtu.be/Cl5gYOI2aUs) [Video (Linaro Server)](about:blank), Presentation
 
 
-  * **10:00 AM - 10:45 AM** -[Heterogeneous System Architecture (HSA) on ARM](http://lce-13.zerista.com/event/member/80324), [Etherpad](http://pad.linaro.org/p/Heterogeneous_System_Architecture_(HSA)
-  \_on\_ARM), [Google+ Event Listing](https://plus.google.com/u/0/events/cgplkdisngdbdvttqdhamqmnesk), [Video (YouTube),](http://youtu.be/6e_jUKVImVc) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Heterogeneous%20System%20Architecture%20%2528HSA%2529%20on%20ARM.mp4), [Presentation](https://www.slideshare.net/linaroorg/hsa-linaro-updatejuly102013)
+  * **10:00 AM - 10:45 AM** -[Heterogeneous System Architecture (HSA) on Arm](http://lce-13.zerista.com/event/member/80324), [Etherpad](http://pad.linaro.org/p/Heterogeneous_System_Architecture_(HSA)
+  \_on\_Arm), [Google+ Event Listing](https://plus.google.com/u/0/events/cgplkdisngdbdvttqdhamqmnesk), [Video (YouTube),](http://youtu.be/6e_jUKVImVc) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Heterogeneous%20System%20Architecture%20%2528HSA%2529%20on%20Arm.mp4), [Presentation](https://www.slideshare.net/linaroorg/hsa-linaro-updatejuly102013)
 
 
   * **11:00 AM - 12:00 AM** - [Real-Time and Foundational Features for Networking Space](http://lce-13.zerista.com/event/member/79649),[Etherpad]()http://pad.linaro.org/p/Real-Time_and_Foundational_Features_for_Networking_Space, [Google+ Event Listing](https://plus.google.com/u/0/events/c3qakr94mt6l1hg6rnqe4hf7e68), [Video (YouTube)](http://youtu.be/Q2zMReEs0Ik), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/10_July_2013_Wednesday/Real-Time%20and%20Foundational%20Features%20for%20Networking%20Space.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-foundational-review)
@@ -415,7 +415,7 @@ If you’re looking for a particular session or maybe you missed the live stream
 
 
 
-  * **12:00 PM - 1:00 PM** - [ARMv8 Graphical Stack](http://lce-13.zerista.com/event/member/79675), [Etherpad](http://pad.linaro.org/p/ARMv8_Graphical_Stack), [Google+ Event Listing](https://plus.google.com/u/0/events/cpjpj6j1qnjr0f115r891i53ovg), [Video (YouTube),](http://youtu.be/LuAUaXLEqTE) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/12_July_2013_Friday/ARMv8%20Graphical%20Stack.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
+  * **12:00 PM - 1:00 PM** - [Armv8 Graphical Stack](http://lce-13.zerista.com/event/member/79675), [Etherpad](http://pad.linaro.org/p/Armv8_Graphical_Stack), [Google+ Event Listing](https://plus.google.com/u/0/events/cpjpj6j1qnjr0f115r891i53ovg), [Video (YouTube),](http://youtu.be/LuAUaXLEqTE) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/12_July_2013_Friday/Armv8%20Graphical%20Stack.mp4), [Presentation](https://www.slideshare.net/linaroorg/lca13-armv8status)
 
 
   * **12:00 PM - 1:00 PM** - [LNG Testing, benchmarking, etc.](http://lce-13.zerista.com/event/member/79674), [Etherpad](http://pad.linaro.org/p/LCE13_LNG-Benchmarking), [Google+ Event Listing](https://plus.google.com/u/0/events/cuit9q86cv80uhgid4k1vrc2mhc), [Video (YouTube)](http://youtu.be/8eY08UKQ1qk), [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/12_July_2013_Friday/LNG%20Testing%252C%20benchmarking%252C%20etc.mp4), [Presentation](https://www.slideshare.net/linaroorg/lce13-lng-benchmarking)

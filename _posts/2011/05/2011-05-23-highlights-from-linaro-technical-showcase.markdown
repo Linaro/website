@@ -21,7 +21,7 @@ We added a competitive element to the evening, and I’ve listed the results bel
 I got to see a fair number of the demos, but my highlights were:
 
 	
-  * Catching one of the first ever public displays of ARM’s [new Cortex-A15 processor](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-VE_demo.pdf), which they are bringing into life using the Linaro kernel and filesystem
+  * Catching one of the first ever public displays of Arm’s [new Cortex-A15 processor](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-VE_demo.pdf), which they are bringing into life using the Linaro kernel and filesystem
 
 
 {% include image.html name="Summit-Scheduler.jpg" alt="Linaro Summit Scheduler running on a TI Panda" %}
@@ -30,12 +30,12 @@ I got to see a fair number of the demos, but my highlights were:
   * A last minute entry – the Summit schedule and the Showcase prize entry form running on a TI Panda board running the Linaro based Ubuntu 11.04 Maverick release. Big potential cost savings there, in both hardware and shipping, compared with using an old x86 based machine
 
 	
-  * It made me laugh that the horse displayed on the [Graphics on ARM demo](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf) is the Linaro stallion. It annoys me that this horse breed has more hits on YouTube than our company – soon that will change!
+  * It made me laugh that the horse displayed on the [Graphics on Arm demo](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf) is the Linaro stallion. It annoys me that this horse breed has more hits on YouTube than our company – soon that will change!
 
 
 
 
-I’m really grateful to the [companie](https://wiki.linaro.org/Events/2011-05-LDS/Showcase#Sponsors)[s who sponsored](https://wiki.linaro.org/Events/2011-05-LDS/Showcase#Sponsors) the evening – ARM and IBM who provided much of the funding we required, Samsung and ST-Ericsson who contributed prizes, and Freescale who gave discounts off their new Quick Start boards to the first 50 people who voted for their favourite demo.
+I’m really grateful to the [companie](https://wiki.linaro.org/Events/2011-05-LDS/Showcase#Sponsors)[s who sponsored](https://wiki.linaro.org/Events/2011-05-LDS/Showcase#Sponsors) the evening – Arm and IBM who provided much of the funding we required, Samsung and ST-Ericsson who contributed prizes, and Freescale who gave discounts off their new Quick Start boards to the first 50 people who voted for their favourite demo.
 
 
 And I’d also like to say thank you to all the [guys who put demos](https://wiki.linaro.org/Events/2011-05-LDS/Showcase#Demo_list) together. They generated a really enjoyable evening with some fantastic discussions. I eventually had to tell the attendees to go home, as it looked at one point as if things were going to continue into the early hours – and the demo guys were starting to look exhausted!
@@ -51,7 +51,7 @@ So, finally, the results of the voting. We had 135 votes cast, with people votin
   2. [Davide Cavalca (Geexbox, Openbricks): Embedded Media Center](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Geexbox.pdf), running several different media at once and built using the Linaro toolchain, kernel and uBoot
 
 	
-  3. [Linaro Graphics Working Group (Alexandros Frantzis): Cool graphics on ARM](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf), and benchmarking some of the improvements the guys have made to GL/GLES 2.0 acceleration and library selection
+  3. [Linaro Graphics Working Group (Alexandros Frantzis): Cool graphics on Arm](https://wiki.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf), and benchmarking some of the improvements the guys have made to GL/GLES 2.0 acceleration and library selection
 
 
 All photos provided in this blog are copyright Sean Sosik-Hamor, 2011.

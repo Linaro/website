@@ -5,7 +5,7 @@ categories:
 date: 2012-09-27 14:57:38
 description: The Linaro 12.09 release cycle highlights the combined work and enthusiasm
   of all the Linaro Teams and is now available for download.
-keywords: Linaro, Linux on ARM, Open Source, Releases, Working Group, Landing Teams,
+keywords: Linaro, Linux on Arm, Open Source, Releases, Working Group, Landing Teams,
   Community, Ubuntu, Android, 12.09. Linaro 12.09, Linaro Connect, Bella Center, Copenhagen,
   Demo Friday
 layout: post
@@ -33,7 +33,7 @@ wordpress_id: 1920
 
 ## The Linaro 12.09 release is now available!
 
-The Linaro 12.09 release cycle highlights the combined work and enthusiasm of all the [Linaro Teams](/about/) – Working Groups, Landing Teams andPlatform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this development cycle. The 12.09 release is another example of how Linaro succesfully–together with its members, partners and community–continue to build the future of Linux on ARM.
+The Linaro 12.09 release cycle highlights the combined work and enthusiasm of all the [Linaro Teams](/about/) – Working Groups, Landing Teams andPlatform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this development cycle. The 12.09 release is another example of how Linaro succesfully–together with its members, partners and community–continue to build the future of Linux on Arm.
 
 * * *
 
@@ -42,11 +42,11 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 * * *
 
-"During the 12.09 cycle the team started early work on a minimal ARMv8 bootstrap, and we already have a very minimal rootfs with some parts to help other developers that want to get involved with the porting," says [Ricardo Salveti](/about/), [Developer Platform Team](/developers/) Tech Lead. "This work will be critical for the future of Linux on ARMv8, as the major GNU/Linux distributions can use it as base to bootstrap and support this new architechture." In addition to the work highlighted by Salveti, the Developer Platform team also updated the kernel and test components for the big.LITTLE project, made substantial progress on the Debian/Ubuntu Perl and Python multi-arch/cross-build support, and noted that Hwpacks for Vexpress, Origen and PandaBoard now include the support for UEFI and can be selected while flashing the image with linaro-media-tools.
+"During the 12.09 cycle the team started early work on a minimal Armv8 bootstrap, and we already have a very minimal rootfs with some parts to help other developers that want to get involved with the porting," says [Ricardo Salveti](/about/), [Developer Platform Team](/developers/) Tech Lead. "This work will be critical for the future of Linux on Armv8, as the major GNU/Linux distributions can use it as base to bootstrap and support this new architechture." In addition to the work highlighted by Salveti, the Developer Platform team also updated the kernel and test components for the big.LITTLE project, made substantial progress on the Debian/Ubuntu Perl and Python multi-arch/cross-build support, and noted that Hwpacks for Vexpress, Origen and PandaBoard now include the support for UEFI and can be selected while flashing the image with linaro-media-tools.
 
 * * * 
 
-[Linaro](/) would also like to to remind everyone that Linaro Connect ([LCE 12 Copenhagen](http://connect.linaro.org/resources/#welcome)) is less than 5 weeks away and [registration is open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).  LCE 12 Copenhagen will be held from 29 Oct to 2 Nov at the [Bella Center](http://connect.linaro.org/resources/#travel) in Copenhagen, Demark. In addition to the [regular track sessions](http://connect.linaro.org/resources/#schedule), LCE 12 will host [three mini summits](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/): an ARMv8 (64-bit) mini-summit on the Tuesday, an [Android mini-summit](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/) on the Wednesday and a big.LITTLE mini-summit on the Thursday. For those who are attending already and would like to or are planning on providing a demo for our Demo Friday the '[Call for Participation](/blog/lce-12-copenhagen-demo-friday-call-for-participation/)' is now open. More information about this and other Linaro events can be found on the [Linaro Connect website](http://connect.linaro.org/resources/#welcome). What are you waiting for join Linaro in Copenhagen for LCE 12. Dont forget; [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/)!
+[Linaro](/) would also like to to remind everyone that Linaro Connect ([LCE 12 Copenhagen](http://connect.linaro.org/resources/#welcome)) is less than 5 weeks away and [registration is open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).  LCE 12 Copenhagen will be held from 29 Oct to 2 Nov at the [Bella Center](http://connect.linaro.org/resources/#travel) in Copenhagen, Demark. In addition to the [regular track sessions](http://connect.linaro.org/resources/#schedule), LCE 12 will host [three mini summits](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/): an Armv8 (64-bit) mini-summit on the Tuesday, an [Android mini-summit](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/) on the Wednesday and a big.LITTLE mini-summit on the Thursday. For those who are attending already and would like to or are planning on providing a demo for our Demo Friday the '[Call for Participation](/blog/lce-12-copenhagen-demo-friday-call-for-participation/)' is now open. More information about this and other Linaro events can be found on the [Linaro Connect website](http://connect.linaro.org/resources/#welcome). What are you waiting for join Linaro in Copenhagen for LCE 12. Dont forget; [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/)!
 
 
 * * *

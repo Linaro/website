@@ -15,7 +15,7 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on ARM
+- Linux on Arm
 - Open Source
 - Opensource
 title: First day of Linaro Connect Hong Kong 2015 kicks off with many announcements
@@ -24,7 +24,7 @@ wordpress_id: 7938
 
 **If you missed the first day of Linaro Connect Hong Kong 2015 (HKG15) you missed a lot.**
 
-The show kicked off Monday February 9th in Hong Kong to many announces by Linaro. George Grey, Linaro's CEO, gave the opening keynote and welcomed attendees to the event. He then announced the [96Boards initiative ](/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)to accelerate ARM software development. [96Boards](https://www.96boards.org/) is an open hardware specification for ARM 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs. Linaro also announced on Monday two founding members of the newly formed Linaro Community Boards Group (LCG), which are [Actions Technology](/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/) and [Marvell](/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/).
+The show kicked off Monday February 9th in Hong Kong to many announces by Linaro. George Grey, Linaro's CEO, gave the opening keynote and welcomed attendees to the event. He then announced the [96Boards initiative ](/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/)to accelerate Arm software development. [96Boards](https://www.96boards.org/) is an open hardware specification for Arm 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs. Linaro also announced on Monday two founding members of the newly formed Linaro Community Boards Group (LCG), which are [Actions Technology](/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/) and [Marvell](/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/).
 
 George, then went on to give an overview of that status of Linaro and it's many projects, including a quick hands on demo with a Project Ara phone. Check out the keynote video on the left to see all the news and demos. To download the keynote slides [click here](http://www.slideshare.net/linaroorg/hkg15-george-grey-keynote).
 

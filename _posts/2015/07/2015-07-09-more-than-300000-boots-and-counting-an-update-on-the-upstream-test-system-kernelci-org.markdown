@@ -21,7 +21,7 @@ tags:
 - arm
 - kernel
 - lava
-- Linux on ARM
+- Linux on Arm
 - maintainers
 title: 'More than 300,000 boots and counting: An update on the upstream test system
   - kernelci.org'
@@ -59,7 +59,7 @@ To support distributed labs and clean email reporting we needed to build a inter
 
 {% include image.html name="boot-coverage-image.jpg" alt="Boot Coverage Image"%}
 
-It is important to note that even with the great progress we have made, the overall problem is much larger. Today, v4.1, [kernelci.org](http://kernelci.org/?july2015) performed 457 boots across 3 processor architectures on 103 unique platforms and 24 SoC families. However there are a staggering 570 Device Tree Source (dts) files in the Linux kernel which means there are approximately ~467 ARM platforms that we are not able to test.
+It is important to note that even with the great progress we have made, the overall problem is much larger. Today, v4.1, [kernelci.org](http://kernelci.org/?july2015) performed 457 boots across 3 processor architectures on 103 unique platforms and 24 SoC families. However there are a staggering 570 Device Tree Source (dts) files in the Linux kernel which means there are approximately ~467 Arm platforms that we are not able to test.
 
 {% include image.html name="mainline-platform-coverage.jpg" alt="Mainline Platform Coverage"%}
 
@@ -77,7 +77,7 @@ Having an early warning system for build and boot regressions upstream has also 
     * Help the project maintain cross compilation support and any build/test conflicts
     * Future Plans
       * Unify test output format to be machine parseable
-      * Automate test execution on ARM64, ARM, and x86 architectures
+      * Automate test execution on Arm64, Arm, and x86 architectures
   * Auto-boot-bisection; Now that we have a system to identify failures, we leverage the system to help identify the change within a tree that caused a failure by bisecting and booting kernels across target platforms
   * Now that we are beginning to add test capabilities, we are also working on overall test result parsing, display and generating clean email reports
 
@@ -90,7 +90,7 @@ Having an early warning system for build and boot regressions upstream has also 
     * Annapurna Labs alpine-db,
     * Huawei hi6220-hikey,
     * Qualcomm DB410c (apq8016-sbc)
-    * aarch64-kvms (allowing us to boot test mainline kernels ARM kvm’s on APM and ARM Juno platforms)
+    * aarch64-kvms (allowing us to boot test mainline kernels Arm kvm’s on APM and Arm Juno platforms)
     * Gumstix OMAP4 Duovero
     * Gumstix AM335x Pepper
     * SmartRG SR400ac

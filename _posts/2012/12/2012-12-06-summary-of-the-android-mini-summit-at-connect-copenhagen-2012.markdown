@@ -5,7 +5,7 @@ categories:
 date: 2012-12-06 14:43:33
 description: Find out more about the Linaro Android Mini-Summit held on 31 Oct 2012
   in Copenhagen, Includes session topics, action items, take away points and more.
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE12-Copenhagen,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE12-Copenhagen,
   Android Mini-Summit, Android, FXI, Cotton Candy, ST-Ericsson,
 layout: post
 link: /blog/industry-blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/
@@ -21,7 +21,7 @@ wordpress_id: 2078
 
 The [Linaro Android Mini-Summit](http://connect.linaro.org/resources/) that was held on Wednesday, 31 October, 2013 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
-“When we began planning the Mini-Summit Linaro's CTO [[David Rusling](/about/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for ARM now and in the future,” wrote [Zach Pfeffer](/about/), Tech Lead for the [Linaro Android Team](/about/).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
+“When we began planning the Mini-Summit Linaro's CTO [[David Rusling](/about/)] said that he wanted to bring each part of Linaro together to discuss, plan and hack on Android with the goal of creating a set of high-level goals for optimizing Android for Arm now and in the future,” wrote [Zach Pfeffer](/about/), Tech Lead for the [Linaro Android Team](/about/).  “To accomplish this I asked the Linaro leads, Linaro engineers, member representatives and end-product OEMs to come and discuss how to accomplish this at Linaro,” continued Pfeffer.
 
 Through the collaboration of those involved in the discussion the Android Mini-Summit was born. What emerged was a 4 hour mini-summit centered on optimization and unification made up of an overview and welcome, two plenary sessions and four 1 hour follow-on sessions that included :
 
@@ -39,7 +39,7 @@ Through the collaboration of those involved in the discussion the Android Mini-S
 
 The [Android Mini-Summit](http://connect.linaro.org/resources/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
 
-During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](/blog/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/tsc/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
+During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](/blog/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/team/technical-steering-committee/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
 
   * Be small, aggressive, tactical, moveable
 
@@ -101,13 +101,13 @@ The mini-summit wrap up included a discussion with ST-Ericsson engineers about t
 
 From there the conversation then focused on upstream-to-productization and productization-to-the-upstream. ”It was remarked that Linaro has been able to help streamline these two paths, bringing the dream of tip based product development closer to reality,” continued Pfeffer.
 
-He concluded with, “I would like to thank the army of people that helped put this together and gave their time to help us define a path to a better Android future on ARM.”
+He concluded with, “I would like to thank the army of people that helped put this together and gave their time to help us define a path to a better Android future on Arm.”
 
 Detailed action plans and summaries for the four 1 hour sessions can be found in the [original Google+ post](https://plus.google.com/u/0/104422661029399872488/posts/ecAFcJQZWaa).
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
+Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/latest/downloads/).
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
 

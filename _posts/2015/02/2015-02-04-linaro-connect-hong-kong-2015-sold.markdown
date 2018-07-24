@@ -13,14 +13,14 @@ tags:
 - connect
 - Linaro
 - Linaro Connect
-- Linux on ARM
+- Linux on Arm
 title: Linaro Connect Hong Kong 2015 -  Sold Out!
 wordpress_id: 7855
 ---
 
 The week before the event is due to start, Linaro Connect Hong Kong 2015 (HKG15) is officially sold out. Each event for the last four years has grown about 10% and Linaro has booked increasingly larger venues to hold the more than 500 attendees. This is the first time that registration has reached capacity before the event and Linaro has needed to shut registration.
 
-Linaro Connect is how held twice a year and is the event to attend if you are interested in Linux on ARM technology. Engineers attending learn from the best and the brightest in the Linux on ARM community about the latest software developments and new ways of optimizing ARM technology and have opportunities to listen to a range of keynotes from industry leaders.  Linaro Connect is a week-long event, packed with keynotes, technical sessions and afternoons of engineering and the week ends with a rich assortment of demonstrations, including much of Linaro’s latest ARMv8-A 64-bit software developments.
+Linaro Connect is how held twice a year and is the event to attend if you are interested in Linux on Arm technology. Engineers attending learn from the best and the brightest in the Linux on Arm community about the latest software developments and new ways of optimizing Arm technology and have opportunities to listen to a range of keynotes from industry leaders.  Linaro Connect is a week-long event, packed with keynotes, technical sessions and afternoons of engineering and the week ends with a rich assortment of demonstrations, including much of Linaro’s latest Armv8-A 64-bit software developments.
 
 The last Linaro Connect, which was held in Burlingame, California continued the trend of breaking records at each event with a total of well over 500 registrations. Each event has approximately equal attendance from the Americas, Asia and Europe with attendees from Linaro’s member companies plus more than 50 other companies from the ecosystem.
 

@@ -4,7 +4,7 @@ categories:
 - blog
 date: 2013-05-30 20:39:54
 description: The Linaro 13.05 release is now available for download!
-keywords: Linaro, Linux on ARM, Open Source, Linux, ARM, Linaro Connect, LCE-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
   Linaro 13.05 release, release, announcement, IKS, Linaro Stable Kernel, LSK
 layout: post
 link: /blog/releases-blog/linaro-13-05-released/
@@ -20,13 +20,13 @@ wordpress_id: 2749
 >
 >
 
-## The Linaro 13.05 release is now available for [download](/downloads/)!
+## The Linaro 13.05 release is now available for [download](/latest/downloads/)!
 
 The 13.05 Linaro release highlights the focused efforts of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams who have provided all the updates and new features that are integrated on top of Android, OpenEmbedded and Ubuntu baselines during this development cycle.
 
-It is through these monthly releases that Linaro, our members and community do more than predict the future of Linux on ARM; we plan and progress that future with open and collaborative teamwork and success. The 13.05 Linaro release gives a vision of that future as we highlight the accomplishments of each of our teams. Those accomplishments include:
+It is through these monthly releases that Linaro, our members and community do more than predict the future of Linux on Arm; we plan and progress that future with open and collaborative teamwork and success. The 13.05 Linaro release gives a vision of that future as we highlight the accomplishments of each of our teams. Those accomplishments include:
 
-The foundation for the Linaro Stable Kernel (LSK) tree has been prepared. LSK will track the kernel.org community released LTS (Long-Term Stable) kernel tree, and Linaro will add member selected features, platform support and bug fixes. During the 13.05 development cycle, a preview/proof of concept has been delivered, based on linux-3.9.4 stable tree with ARM LT topic branches (TC platform support) and big.LITTLE work (MP and IKS).
+The foundation for the Linaro Stable Kernel (LSK) tree has been prepared. LSK will track the kernel.org community released LTS (Long-Term Stable) kernel tree, and Linaro will add member selected features, platform support and bug fixes. During the 13.05 development cycle, a preview/proof of concept has been delivered, based on linux-3.9.4 stable tree with Arm LT topic branches (TC platform support) and big.LITTLE work (MP and IKS).
 
 The announcement of big.LITTLE in-kernel switcher (IKS) code now available to the public. “This code was also developed for and tested on the Versatile Express TC2 development platform. An MCPM backend and possibly a special cpufreq clock driver are required for this code to be usable on other platforms,” wrote Nicolas Pitre in his announcement to the linaro development mailing list. More information and helpful links can be found at: [/blog/the-linaro-iks-code-now-publicly-available/](/blog/the-linaro-iks-code-now-publicly-available/)
 
@@ -59,7 +59,7 @@ A complete list of highlights and accomplishments for LAVA, Builds and Baselines
 
 
 
-Do you want to help predict the future of Linux on ARM?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and ARM-processor based boards then be a show off and participate in our [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at LCE-13.
+Do you want to help predict the future of Linux on Arm?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and Arm-processor based boards then be a show off and participate in our [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at LCE-13.
 
 
 
@@ -75,7 +75,7 @@ We encourage everybody to use the 13.05 release. The download links for all imag
 
 
 
-[/downloads/](/downloads/)
+[/downloads/](/latest/downloads/)
 
 
 
@@ -126,7 +126,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 ## USING THE OPEN EMBEDDED-BASED IMAGES
 
 
-With the Linaro provided downloads and with ARM’s Fast Models virtual platform, you may boot a virtual ARMv8 system and run 64-bit binaries.  For more information please see:
+With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
 [/engineering/armv8](/initiatives/armv8/)

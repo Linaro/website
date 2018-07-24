@@ -7,15 +7,15 @@ description: 'Cambridge, UK: 16 August 2016'
 layout: post
 link: /news/archermind-joins-96boards-launches-deci-core-armv8-product/
 slug: archermind-joins-96boards-launches-deci-core-armv8-product
-title: ArcherMind Joins 96Boards and Launches Deca-Core ARMv8 Product
+title: ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
 wordpress_id: 11328
 ---
 
 Cambridge, UK: 16 August 2016
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the ARM® architecture, today announced that ArcherMind Technology (Nanjing) Co., Ltd has joined the 96Boards initiative as a Steering Committee Member and Manufacturing Partner and they are preparing the launch of their first 96Boards product.
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that ArcherMind Technology (Nanjing) Co., Ltd has joined the 96Boards initiative as a Steering Committee Member and Manufacturing Partner and they are preparing the launch of their first 96Boards product.
 
-ArcherMind’s board will put one of the most advanced ARM-based SOCs into the hands of all types of developers - from individual hobbyists building one-off projects to commercial engineering teams developing the next generation of mass market mobile and IoT products. The Mediatek X20 (MT6797) deca-core ARMv8 SoC offers four ARM Cortex-A53 cores for basic processing, four ARM Cortex-A53 cores for mid- to heavy-use cases, and two ARM Cortex-A72 for bursts of maximum performance along with an advanced ARM Mali-T880 MP4 graphics chip clocked to 800MHz. This enables the board to deliver unprecedented performance for a whole host of different applications. The board is available for pre-order [here](https://www.96boards.org/carbon-buy).
+ArcherMind’s board will put one of the most advanced Arm-based SOCs into the hands of all types of developers - from individual hobbyists building one-off projects to commercial engineering teams developing the next generation of mass market mobile and IoT products. The Mediatek X20 (MT6797) deca-core Armv8 SoC offers four Arm Cortex-A53 cores for basic processing, four Arm Cortex-A53 cores for mid- to heavy-use cases, and two Arm Cortex-A72 for bursts of maximum performance along with an advanced Arm Mali-T880 MP4 graphics chip clocked to 800MHz. This enables the board to deliver unprecedented performance for a whole host of different applications. The board is available for pre-order [here](https://www.96boards.org/carbon-buy).
 
 “Our collaboration with MediaTek and 96Boards is designed to empower our customers,” said Bin Du, CTO of ArcherMind. “This is a unique opportunity for us to combine MediaTek’s high performance hardware technology with Linaro’s open source expertise and our own specialized software services to make a product for all types of developers. We are committed to supporting this community and look forward to seeing the innovative solutions that they develop.”
 
@@ -32,7 +32,7 @@ Four Cortex A53 cores (1.85GHz)
 Four Cortex-A53 cores (1.4GHz)
 
 _Graphics processor_
-ARM Mali-T880 MP4 800MHz
+Arm Mali-T880 MP4 800MHz
 Multimedia Support
 32MP @ 24fps / 25MP @ 30 fps
 WQXGA 2560×1600 60fps FHD 1920×1080 120fps
@@ -77,9 +77,9 @@ _Size_
 85mm × 54mm
 
 **About 96Boards**
-96Boards is the first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from the range of ARM SoC vendors. There are currently two 96Boards specifications for low-cost ARMv7-A and ARMv8-A development boards: The Consumer Edition (CE), which targets the mobile, embedded and digital home segments, and the Enterprise Edition (EE), which targets the networking and server segments. To find out more, please visit [http://www.96Boards.org](http://www.96Boards.org).
+96Boards is the first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from the range of Arm SoC vendors. There are currently two 96Boards specifications for low-cost Armv7-A and Armv8-A development boards: The Consumer Edition (CE), which targets the mobile, embedded and digital home segments, and the Enterprise Edition (EE), which targets the networking and server segments. To find out more, please visit [http://www.96Boards.org](http://www.96Boards.org).
 
 **About Linaro**
-Linaro is leading collaboration on open source development in the ARM ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []().

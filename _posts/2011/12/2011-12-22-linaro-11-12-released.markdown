@@ -19,7 +19,7 @@ Linaro is pleased to announce the release of Linaro 11.12, a continuance of Lina
 
 This release includes components delivered by all Linaro Teams: Working Groups, Landing Teams and Platform Teams. This effort brings an abundance of exciting updates and new features, integrated on top of Android and Ubuntu.
 
-Now available with this release are the Linaro Android builds of Ice Cream Sandwich (ICS) supporting accelerated graphics on two of its member's low cost development boards; the Samsung Origen board and the ST-Ericsson Snowball board. The accelerated graphics on both the Samsung Origen board and the ST-Ericsson Snowball board that are now available are based on chips incorporating a dual-core ARM Cortex-A9 processor and an ARM Mali-400 graphics processor: Samsung's Exynos 4210 and ST-Ericsson's NovaThor9500.
+Now available with this release are the Linaro Android builds of Ice Cream Sandwich (ICS) supporting accelerated graphics on two of its member's low cost development boards; the Samsung Origen board and the ST-Ericsson Snowball board. The accelerated graphics on both the Samsung Origen board and the ST-Ericsson Snowball board that are now available are based on chips incorporating a dual-core Arm Cortex-A9 processor and an Arm Mali-400 graphics processor: Samsung's Exynos 4210 and ST-Ericsson's NovaThor9500.
 
 [/news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/](/news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/)
 
@@ -50,7 +50,7 @@ topic branches) from git:// [git.linaro.org/people/jessebarker/linaro-mm-sig/lin
 The Infrastructure Team is supporting the ongoing effort for Linaro as a whole. The reworking of the Linaro roadmap under [https://status.linaro.org/11.12/roadmap-2011Q4.html ](/about/)now includes artistic graphs that visualize work items progress for roadmap
 goals. The Linaro build services can contain vendor-provided binary overlays for hardware acceleration and are published in a way which requires click through license acceptance before being downloaded. Click through license acceptance has also been added to Android builds which use source overlays from [snapshots.linaro.org](http://snapshots.linaro.org/).
 
-The Toolchain Working Group (WG) efforts this cycle show that the Linaro GCC now includes support for 64 bit sync primitives, unaligned block moves on ARMv7, and backports the Cortex-A15 pipeline description from the ongoing upstream A15 work. Improvements to the vectorizer include updates to the straight line vectorizer, including supporting operations with an arbitrary number of operands, vectorizing conditions, and improved pattern recognition support. Additionally, GDB now supports single stepping over atomic operations
+The Toolchain Working Group (WG) efforts this cycle show that the Linaro GCC now includes support for 64 bit sync primitives, unaligned block moves on Armv7, and backports the Cortex-A15 pipeline description from the ongoing upstream A15 work. Improvements to the vectorizer include updates to the straight line vectorizer, including supporting operations with an arbitrary number of operands, vectorizing conditions, and improved pattern recognition support. Additionally, GDB now supports single stepping over atomic operations
 and QEMU has been rebased on the new upstream 1.0 release.
 
 The Validation Team lands the support of Samsung Origen boards on LAVA. The boards are now available to run daily tests. In addition, the i.MX53 Quick Start support improvements include the ability to deploy Android images and run the Kernel CI testing. To streamline the deployment of LAVA and allow for a more continuous testing and flexible deployment process, a new tool is introduced: lava-deployment-tool.
@@ -59,11 +59,11 @@ The Graphics Team accomplishments in this release are numerous and include the i
 depending on availability. GLCompbench now shares some neat GLMark2 objects for managing GLSL (and GLSL ES) shader source prior to compilation and linking. These inclusions can be seen as a preprocessor for the strings read out of the files on disk and allow for dynamic generation of precision declarations, constants, and other symbols (or even whole sections of code) at either global or local scope. Objects shared from GLMark2 include: Util, ShaderSource, and the CompositeTestBase update to use ShaderSource. Also
 updated shaders to useShaderSource, and derived GL-based test classes to configure shaders. Additionally the Team enabled apitrace, which provides a tracer and retracer executable, to work on systems having only EGL/GLES2 libraries.
 
-The Power Management Team pushed a number of items upstream. Items include: common clock patches v4 which includes support for OMAP4, version 2 of common ARM and i.MX cpuidle driver, a patch for non ACPI based generic processor cooling devices, and a patch for a new trip type needed for cooling devices like cpufreq. The Team also integrated sched_mc for ARM into Linaro Kernel, and for thermal management tested that temperature is reduced in production using the current solution on Origen board.
+The Power Management Team pushed a number of items upstream. Items include: common clock patches v4 which includes support for OMAP4, version 2 of common Arm and i.MX cpuidle driver, a patch for non ACPI based generic processor cooling devices, and a patch for a new trip type needed for cooling devices like cpufreq. The Team also integrated sched_mc for Arm into Linaro Kernel, and for thermal management tested that temperature is reduced in production using the current solution on Origen board.
 
 Full details of this release, including detailed release highlights and known issues, can be found on the release pages of our Wiki. [http://wiki.linaro.org/Cycles/1112/Release](http://wiki.linaro.org/Cycles/1112/Release)
 
-We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ /downloads/](/downloads/)
+We encourage everybody to use the 11.12 release. The download links for all images and components are available on our downloads page:[ /downloads/](/latest/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 

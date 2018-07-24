@@ -5,8 +5,8 @@ categories:
 date: 2012-12-20 21:50:26
 description: We are pleased to announce that Linaro 12.12 is now available and ready
   for download.
-keywords: Linaro, Linux on ARM, Linux, Open Source, ARM, Android, Ubuntu, Linaro Enterprise
-  Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, ARMv8, Release, 12.12, Announcement
+keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
+  Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, Armv8, Release, 12.12, Announcement
 layout: post
 link: /blog/releases-blog/linaro-12-12-release-now-available/
 slug: linaro-12-12-release-now-available
@@ -21,15 +21,15 @@ wordpress_id: 2159
 
 **We are pleased to announce that Linaro 12.12 is now available and ready for download.**
 
-The Linaro 12.12 release highlights energy and work of all the Linaro Teams – [Working Groups](https://wiki.linaro.org/WorkingGroups), [Landing Teams](https://wiki.linaro.org/LandingTeams) and [Platform Teams](https://wiki.linaro.org/Platform) – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this release cycle. The 12.12 release rounds out a great year of successes that prove how the collaborative efforts of Linaro, together with its members, partners and community continue to build upon the future of Linux on ARM.
+The Linaro 12.12 release highlights energy and work of all the Linaro Teams – [Working Groups](https://wiki.linaro.org/WorkingGroups), [Landing Teams](https://wiki.linaro.org/LandingTeams) and [Platform Teams](https://wiki.linaro.org/Platform) – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this release cycle. The 12.12 release rounds out a great year of successes that prove how the collaborative efforts of Linaro, together with its members, partners and community continue to build upon the future of Linux on Arm.
 
-"Just look at the engineering that Linaro has been involved with. [big.LITTLE](/blog/big-little-technology-two-usage-models/), [kernel consolidation](https://wiki.linaro.org/WorkingGroups/Kernel), [UMM](/blog/linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel/), [ARMv8](/initiatives/armv8/) and the list goes on.  It’s not just hacking code though, Linaro is thinking carefully about itself, re-engineering itself for the next phase in its evolution.  “Start up” was 2010, “Establishment” was 2011 and 2012 has been “Growth”.  What’s 2013 going to be all about?  Just wait and see," said [David Rusling, Linaro CTO](/about/) in his 2012 year end summary.
+"Just look at the engineering that Linaro has been involved with. [big.LITTLE](/blog/big-little-technology-two-usage-models/), [kernel consolidation](https://wiki.linaro.org/WorkingGroups/Kernel), [UMM](/blog/linaros-emphasis-on-dma_buf-in-the-3-3-linux-kernel/), [Armv8](/initiatives/armv8/) and the list goes on.  It’s not just hacking code though, Linaro is thinking carefully about itself, re-engineering itself for the next phase in its evolution.  “Start up” was 2010, “Establishment” was 2011 and 2012 has been “Growth”.  What’s 2013 going to be all about?  Just wait and see," said [David Rusling, Linaro CTO](/about/) in his 2012 year end summary.
 
 The 12.12 release highlights include the [Linaro Android team](https://wiki.linaro.org/Platform/Android) has upgraded its builds to to 4.2.1, enabled WiFi on PandaBoard for 4.2.1 and audio on the Origen 4210. Additionally the team released its 12.12 toolchain this cycle. Earlier this month, the 3.7 Linux Kernel was released and the Linaro Android team rebased the perf patches.
 
 As we look at the achievements of the[ Linaro Developer Platform](https://wiki.linaro.org/Platform/DevPlatform), we note that the Linaro baseline images for Ubuntu are now based on Quantal Quetzal otherwise known as Ubuntu 12.10 and inititiate the transition from Evaluation Builds to Engineering Builds. The Linaro U-Boot 2012.12 which is based on U-Boot v2013.01-rc1 was released and includes support for Origen quad (4412) and Arndale (5250) boards.
 
-The [Linaro Power Management team](https://wiki.linaro.org/WorkingGroups/PowerManagement) had a very busy cycle: optimizing big.LITTLE IKS(In Kernel Switcher) for release to members, integrating the big.LITTLE MP via the Intergration tree, adding improvements to help solve tasking packing around the power-aware scheduler, IKS and MP benchmarking for power and performance, adding thermal framework enhancements for non-ACPI platforms, updating Powertop for ARM platforms and adding cpuidle support for multi-cluster SoCs.
+The [Linaro Power Management team](https://wiki.linaro.org/WorkingGroups/PowerManagement) had a very busy cycle: optimizing big.LITTLE IKS(In Kernel Switcher) for release to members, integrating the big.LITTLE MP via the Intergration tree, adding improvements to help solve tasking packing around the power-aware scheduler, IKS and MP benchmarking for power and performance, adding thermal framework enhancements for non-ACPI platforms, updating Powertop for Arm platforms and adding cpuidle support for multi-cluster SoCs.
 
 The [Linaro Toolchain Team](https://wiki.linaro.org/WorkingGroups/ToolChain) announced updates: [Linaro GCC 4.7 2012.12 was released](http://lists.linaro.org/pipermail/linaro-toolchain/2012-December/003034.html) and is based off GCC 4.7.2+svn194184 which gives better 64 bit shifts in NEON, updates the arm/aarch64-4.7-branch up to svn revision 194154. [Linaro Toolchain Binaries for 2012.12 was released](http://lists.linaro.org/pipermail/linaro-toolchain/2012-December/003042.html) and updated to latest Linaro GCC 4.7 2012.12 and Linaro GDB 7.5 2012.12.
 
@@ -110,7 +110,7 @@ Bug reports for this release should be filed in Launchpad against the individual
 #### **About Linaro**
 
 
-_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on ARM. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the ARM architecture, including developer tools, the Linux kernel, ARM power management, and other software infrastructure._
+_Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure._
 
 _To find out more, please visit[ ](/)._
 
@@ -118,6 +118,6 @@ _To find out more, please visit[ ](/)._
 #### **About Linaro Connect**
 
 
-_Over 300 participants, ranging from kernel hackers to integration engineers to ARM SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
+_Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
 _To find out more, please visit [Linaro Connect Website](http://connect.linaro.org)._

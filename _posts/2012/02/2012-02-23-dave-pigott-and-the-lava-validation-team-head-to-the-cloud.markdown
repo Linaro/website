@@ -6,7 +6,7 @@ date: 2012-02-23 15:49:25
 description: Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new
   hardware, configuration challenges and the ultimate success of deploying of their
   own cloud.
-keywords: Linaro, Linux on ARM, LAVA, Validation, Hardware, Testing, LAVA-Lab, Cloud,  ARM,
+keywords: Linaro, Linux on Arm, LAVA, Validation, Hardware, Testing, LAVA-Lab, Cloud,  Arm,
   Fast Model, System 76, Canonical, Ubuntu Server 11.10, Linaro Connect Q1.12
 layout: post
 link: /blog/hardware-update/dave-pigott-and-the-lava-validation-team-head-to-the-cloud/
@@ -22,7 +22,7 @@ wordpress_id: 1253
 
 A while back, we--[the LAVA Validation team](https://wiki.linaro.org/Platform/Validation)-- realised that our one little HP Quad core server with a paltry 32GB RAM and a mere 1TB of storage, was creaking at the seams trying to do too many things at once. Not only was it serving the web pages of [validation.linaro.org](http://validation.linaro.org/) (v.l.o), but it was also hosting the database, scheduler and a myriad other functions. For example, when it's preparing for tests to be run it could end up running multiple instances of [linaro-media-create](https://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation) (l-m-c), a CPU hungry application at the best of times. In fact, just to make LAVA responsive at all, we had to choke it down so that only one instance of l-m-c at a time.
 
-And then we started looking at FastModels, the ARM software emulation of hardware platforms.
+And then we started looking at FastModels, the Arm software emulation of hardware platforms.
 
 We decided we needed to offload as much as possible from v.l.o. We looked at adding a new high power server, and then we looked at the option of adding several slightly lower spec servers and spreading the load. It was at this point that the idea of implementing our own Cloud was first mentioned. After some investigation, we realised that this was really the best answer.
 

@@ -1,22 +1,21 @@
 ---
-initiative_id: "3"
 title: Linaro Developer Cloud
 description: |-
     The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack.
-keywords: Linaro, Developer, Cloud, ARMv8, Security, Android, Linux, Arm, AMD, Cavium, HPE, Huawei, Qualcomm
+keywords: Linaro, Developer, Cloud, Armv8, Security, Android, Linux, Arm, AMD, Cavium, HPE, Huawei, Qualcomm
 permalink: /initiatives/cloud/
 icon: developer-cloud-logo.png
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMdf-NFwiygK7Ouh-iV0WHF&playnext=1
 ---
 # Developer Cloud
 
-The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack running on enterprise-class 64-bit ARMv8 hardware.
+The Linaro Developer Cloud is a virtual resource available to ISVs and other software developers who need access to a complete software stack running on enterprise-class 64-bit Armv8 hardware.
 
-It is the combination of ARM SoC vendors’ server hardware platforms, emerging cloud technologies, and many Linaro member driven projects, including server class boot architecture, kernel and virtualization. These projects have been under development for several years and Linaro has been delivering them in a limited colocation data-center facility that has been providing bare metal access to ARM servers to key developers for the last year.
+It is the combination of Arm SoC vendors’ server hardware platforms, emerging cloud technologies, and many Linaro member driven projects, including server class boot architecture, kernel and virtualization. These projects have been under development for several years and Linaro has been delivering them in a limited colocation data-center facility that has been providing bare metal access to Arm servers to key developers for the last year.
 
-The Developer Cloud is based on OpenStack, leveraging both Debian and CentOS, as the underlying cloud OS infrastructure. It will use ARM server platforms from Linaro members AMD, Cavium, HPE, Huawei and Qualcomm, and will expand with demand, and as new server platforms come to market.
+The Developer Cloud is based on OpenStack, leveraging both Debian and CentOS, as the underlying cloud OS infrastructure. It will use Arm server platforms from Linaro members AMD, Cavium, HPE, Huawei and Qualcomm, and will expand with demand, and as new server platforms come to market.
 
-Accessing the Developer Cloud will be provided via the linaro.cloud web portal. Through the portal, developers can request cloud access and may report bugs and performance issues. The portal will also provide a developer forum to share development and porting knowledge, as well as best practices for ARM servers.
+Accessing the Developer Cloud will be provided via the linaro.cloud web portal. Through the portal, developers can request cloud access and may report bugs and performance issues. The portal will also provide a developer forum to share development and porting knowledge, as well as best practices for Arm servers.
 
 For more information on Developer Cloud, visit our website: https://www.linaro.cloud/
 

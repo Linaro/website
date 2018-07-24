@@ -1,5 +1,4 @@
 ---
-initiative_id: "1"
 title: 96Boards
 description: |-
     96Boards is the first open hardware specification that provides a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards.
