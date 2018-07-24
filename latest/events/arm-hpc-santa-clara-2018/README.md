@@ -70,6 +70,19 @@ image:
 *   Cost (Free)
 *   Sponsorship options available
 
+<div class="members" markdown="1">
+<strong>Thanks to our sponsors</strong>
+<div class="col-xs-4" markdown="1">
+{% include image.html name="arm.jpg" %}
+</div>
+<div class="col-xs-4" markdown="1">
+{% include image.html name="hisilicon.jpg" %}
+</div>
+<div class="col-xs-4" markdown="1">
+{% include image.html name="linaro.jpg" %}
+</div>
+
+</div>
 </div>
 
 <div class="col-sm-6">
@@ -102,7 +115,6 @@ image:
 <h3>Deadline for submissions 28th June</h3>
 
 </div>
-
 
 </div>
 
@@ -232,7 +244,7 @@ image:
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
+        <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
                 <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
                 <span class="speaker-name">Yutaka Ishikawa</span>
@@ -243,6 +255,18 @@ image:
                     and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'joshuaMora.jpg' %})"></div>
+                <span class="speaker-name">Joshua Mora</span>
+                <span class="speaker-company">Chief Architect for microprocessor and applications Huawei</span>
+                <span class="speaker-talk-title">Huawei’s requirements for the ARM based HPC solution readiness</span>
+                <p>
+                A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. 
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joshuaMora">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
@@ -511,6 +535,30 @@ image:
       <h3>Cross Platform Performance Engineering</h3>
       <p>
             High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.  This talk will present a methodology for porting HPC applications to Arm, and the ecosystem of cross platform performance engineering toolkits and libraries that is currently available on Arm.  An overview and use cases for Arm Forge, PAPI, ScoreP, TAU and others will be provided along with guidance and advice for HPC performance engineering on the latest Arm-based CPU offerings.
+      </p>
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="joshuaMora" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Joshua Mora, PhD -  Full Abstract</h4>
+      </div>
+      <div class="modal-body">
+      <h3>Huawei’s requirements for the ARM based HPC solution readiness</h3>
+      <p>
+            A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. The review combines both Industry and Huawei’s unique views with the intend to communicate openly not only the alignment and support in ongoing efforts carried over by other ARM key players but to brief on the areas of differentiation that Huawei is investing towards the research, development and deployment of homegrown ARM based HPC solution(s).  
+      </p>
+      <h3>Bio</h3>
+      <p>
+        20 years of experience in research and development of both software and hardware for high performance computing. Currently leading the architecture definition and development of ARM based HPC solutions, both hardware and software, all the way to the applications (ie. turnkey HPC solutions for different compute intensive markets where ARM will succeed !!).
       </p>
     
       </div>
