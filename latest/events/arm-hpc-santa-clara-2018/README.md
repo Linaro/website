@@ -221,41 +221,40 @@ image:
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
                 <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+                <span class="speaker-name">Simon McIntosh-Smith</span>
+                <span class="speaker-company">University of Bristol</span>
+                <span class="speaker-talk-title">Isambard: the world's first production Arm-based supercomputer</span>
+                <p>
+                The Isambard supercomputer is due to be the world's first production, Arm-based system when it goes online in the summer of 2018. The project, run by the GW4 alliance and the UK's Met Office, has already produced significant results using early access systems based on Cavium ThunderX2 CPUs.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#simonMcIntoshSmith">Full Abstract/Bio</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
+                <span class="speaker-name">Yutaka Ishikawa</span>
+                <span class="speaker-company">RIKEN</span>
+                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
+                <p>
+                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
+                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
+                </p>
+                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 no-padding">
+            <div class="speaker">
+                <div class="speaker-photo" style="background-image: url({% asset_path 'joshuaMora.jpg' %})"></div>
                 <span class="speaker-name">Joshua Mora</span>
-                <span class="speaker-company">Huawei</span>
+                <span class="speaker-company">Chief Architect for microprocessor and applications Huawei</span>
                 <span class="speaker-talk-title">Huawei’s requirements for the ARM based HPC solution readiness</span>
                 <p>
                 A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. 
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joshuaMora">Full Abstract/Bio</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
-                <span class="speaker-name">Yutaka Ishikawa</span>
-                <span class="speaker-company">RIKEN</span>
-                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
-                <p>
-                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
-                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4 no-padding">
-            <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
-                <span class="speaker-name">Yutaka Ishikawa</span>
-                <span class="speaker-company">RIKEN</span>
-                <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
-                <p>
-                    Post-K, a flagship supercomputer in Japan, is being developed by Riken
-                    and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
-                </p>
-                <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#ishikawa">Full Abstract/Bio</button>
             </div>
         </div>
     </div>
@@ -538,17 +537,18 @@ image:
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Joshua Mora Full Abstract</h4>
+        <h4 class="modal-title" id="myModalLabel">Joshua Mora, PhD -  Full Abstract</h4>
       </div>
       <div class="modal-body">
       <h3>Huawei’s requirements for the ARM based HPC solution readiness</h3>
       <p>
-          A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. The review combines both Industry and Huawei’s unique views with the intend to communicate openly not only the alignment and support in ongoing efforts carried over by other ARM key players but to brief on the areas of differentiation that Huawei is investing towards the research, development and deployment of homegrown ARM based HPC solution(s).  
+            A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. The review combines both Industry and Huawei’s unique views with the intend to communicate openly not only the alignment and support in ongoing efforts carried over by other ARM key players but to brief on the areas of differentiation that Huawei is investing towards the research, development and deployment of homegrown ARM based HPC solution(s).  
       </p>
       <h3>Bio</h3>
-       <p>
-       20 years of experience in research and development of both software and hardware for high performance computing. Currently leading the architecture definition and development of ARM based HPC solutions, both hardware and software, all the way to the applications (ie. turnkey HPC solutions for different compute intensive markets where ARM will succeed !!).
-       </p>
+      <p>
+        20 years of experience in research and development of both software and hardware for high performance computing. Currently leading the architecture definition and development of ARM based HPC solutions, both hardware and software, all the way to the applications (ie. turnkey HPC solutions for different compute intensive markets where ARM will succeed !!).
+      </p>
+    
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
