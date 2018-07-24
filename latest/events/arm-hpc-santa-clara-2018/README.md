@@ -70,6 +70,19 @@ image:
 *   Cost (Free)
 *   Sponsorship options available
 
+<div class="members" markdown="1">
+<strong>Thanks to our sponsors</strong>
+<div class="col-sm-4" markdown="1">
+{% include image.html name="arm.jpg" %}
+</div>
+<div class="col-sm-4" markdown="1">
+{% include image.html name="hisilicon.jpg" %}
+</div>
+<div class="col-sm-4" markdown="1">
+{% include image.html name="linaro.jpg" %}
+</div>
+
+</div>
 </div>
 
 <div class="col-sm-6">
@@ -102,7 +115,6 @@ image:
 <h3>Deadline for submissions 28th June</h3>
 
 </div>
-
 
 </div>
 
