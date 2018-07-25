@@ -133,14 +133,12 @@ sha256:25b770e5ce8a5b55ebbccad3b90b58a3474c4acdc5a70ca8ad42fdaf9f273f53
 
 The sha256 is the new image id, but we have tagged it as development:bionic-arm64-sve so we can use a friendly name in the future. You can actually query docker using ```-l``` or ```--latest``` and use the ```--format``` option to do this for you automatically:
 
-{% raw %}
 ```bash
 $ docker run -it development:bionic-arm64-sve /bin/bash
 root@79d919733249:/# ... add more packages into container ...
 root@79d919733249:/# exit
 $ docker commit -m "another comment" $(docker ps -l --format  "{{ "{{" }}.ID}}") development:bionic-arm64-sve
 ```	
-{% endraw %}
 
 However you should take care if you are using a shared machine as the latest created container might not be the one you were working on. You can view the history of the image with:
 
