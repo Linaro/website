@@ -29,6 +29,7 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LEG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtWUBuB2DcSEADXqJm6r12
 members_key: lcdg_members
+output: true
 ---
 The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.  Core technologies in the datacenter and cloud, such as containers or hadoop did not exist until relatively recently.  With the introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive options for their workloads. Not only competing with alternative architectures, due to a broad adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the ecosystem with choice.
 

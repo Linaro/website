@@ -23,7 +23,8 @@ other_projects:
   - name: Project Ara
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
-members_key: lmg_members
+members_key: lcg_members
+output: true
 ---
 Open source is a key ingredient of Android
 
