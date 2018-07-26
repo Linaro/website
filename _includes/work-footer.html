@@ -25,9 +25,9 @@
               <b>Segment Groups</b>
           </a>
       </li>
-      {% assign groups = site.groups | where: "output", true | sort: 'group_id' %}
+      {% assign groups = site.groups | sort: 'group_id' %}
       {% for segment_group in groups %}
-        {% if segment_group.director %}
+        {% if segment_group.output %}
           <li class="work_footer_li">
             <a href="{{segment_group.permalink}}">
               {{segment_group.title}}
