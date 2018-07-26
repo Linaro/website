@@ -3,7 +3,20 @@ layout: container-breadcrumb
 css-package: blog
 js-package: blog
 ---
-<div class="col-md-12 company-col no-padding">
+{% if page.company_image %}
+<div class="col-sm-9 company-col no-padding">
     {{content}}
 </div>
-{% include pagination-company.html %}
+<div class="col-sm-3 company-col" markdown="1">
+    <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="{% asset_path '{{page.company_image}}' %}" alt="{{page.title}} Image" />
+</div>
+{% else %}
+<div class="col-xs-12 company-col no-padding">
+    {{content}}
+</div>
+{% endif %}
+
+{% if page.pagination %}
+    {% include pagination-company.html %}
+{% endif %}
