@@ -17,6 +17,7 @@ related_tags:
 #related_jira_project: https://projects.linaro.org/projects/LITE/summary
 #youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: ledge_members
+output: false
 ---
 Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. 
 

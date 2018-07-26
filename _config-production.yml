@@ -87,7 +87,7 @@ defaults:
         path: ""
         type: "company"
     values:
-        layout: container-breadcrumb
+        layout: company
   - scope:
         path: ""
         type: "authors"
@@ -187,102 +187,6 @@ pagination:
 # Jekyll pagination v2 autopages configuration.
 autopages:
   enabled: false
-
-# MiniMagick magic on the images stored in asset/images 
-# All images will have a thumbnail (100x100), medium(300x300) and large(500x500)
-# image created and stored in /assets/images/thumbnails/, /assets/images/medium/
-# and /assets/images/large/ respectively.
-
-mini_magick:
-    # Blog Image Presets
-    blog_thumbnail:
-        source: assets/images/blog
-        destination: assets/images/thumbnails/blog
-        resize: "100x100"
-        thumbnail: "100x100>"
-        gravity: "Center"
-        extent: "100x100"
-    blog_medium:
-        source: assets/images/blog
-        destination: assets/images/medium/blog
-        resize: "300x300"
-        thumbnail: "300x300>"
-        gravity: "Center"
-        extent: "300x300"
-    blog_large:
-        source: assets/images/blog
-        destination: assets/images/large/blog
-        resize: "500x500"
-        thumbnail: "500x500>"
-        gravity: "Center"
-        extent: "500x500"
-    # Content Image Presets
-    content_thumbnail:
-        source: assets/images/content
-        destination: assets/images/thumbnails/content
-        resize: "100x100"
-        thumbnail: "100x100>"
-        gravity: "Center"
-        extent: "100x100"
-    content_medium:
-        source: assets/images/content
-        destination: assets/images/medium/content
-        resize: "300x300"
-        thumbnail: "300x300>"
-        gravity: "Center"
-        extent: "300x300"
-    content_large:
-        source: assets/images/content
-        destination: assets/images/large/content
-        resize: "500x500"
-        thumbnail: "500x500>"
-        gravity: "Center"
-        extent: "500x500"
-    # Content Image Presets
-    members_thumbnail:
-        source: assets/images/members
-        destination: assets/images/thumbnails/members
-        resize: "100x100"
-        thumbnail: "100x100>"
-        gravity: "Center"
-        extent: "100x100"
-    members_medium:
-        source: assets/images/members
-        destination: assets/images/medium/members
-        resize: "300x300"
-        thumbnail: "300x300>"
-        gravity: "Center"
-        extent: "300x300"
-    members_large:
-        source: assets/images/members
-        destination: assets/images/large/members
-        resize: "500x500"
-        thumbnail: "500x500>"
-        gravity: "Center"
-        extent: "500x500"
-    # People Image Presets
-    people_thumbnail:
-        source: assets/images/people
-        destination: assets/images/thumbnails/people
-        resize: "100x100"
-        thumbnail: "100x100>"
-        gravity: "Center"
-        extent: "100x100"
-    people_medium:
-        source: assets/images/people
-        destination: assets/images/medium/people
-        resize: "300x300"
-        thumbnail: "300x300>"
-        gravity: "Center"
-        extent: "300x300"
-    people_large:
-        source: assets/images/people
-        destination: assets/images/large/people
-        resize: "500x500"
-        thumbnail: "500x500>"
-        gravity: "Center"
-        extent: "500x500"
-
 
 using_assets: true
 

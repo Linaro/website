@@ -1,5 +1,5 @@
 
-<div class="col-xs-12 work_footer">
+<div class="col-xs-12 work_footer no-padding">
 <hr />
 <div class="col-sm-4 work_footer_col">
     <ul class="list-unstyled">
@@ -27,7 +27,7 @@
       </li>
       {% assign groups = site.groups | sort: 'group_id' %}
       {% for segment_group in groups %}
-        {% if segment_group.director %}
+        {% if segment_group.output %}
           <li class="work_footer_li">
             <a href="{{segment_group.permalink}}">
               {{segment_group.title}}

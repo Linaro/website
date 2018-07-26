@@ -17,6 +17,7 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LITE/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: lite_members
+output: true
 ---
 The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 
