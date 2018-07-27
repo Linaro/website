@@ -61,7 +61,7 @@ pages:
         title: Linaro IoT & Embedded Group (LITE)
         url: /engineering/groups/lite/
 
-    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/lcg/, /engineering/groups/lite/]
+    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/ledge/, /engineering/groups/lcg/, /engineering/groups/lite/]
   -
     list:
       -
