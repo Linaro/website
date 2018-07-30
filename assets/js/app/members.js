@@ -47,7 +47,7 @@ $(document).ready(function(){
     
     if(queryString.expanded){
         $(".panel-collapse").collapse("show");
-        $("#expand-all").html("Collpase All");
+        $("#expand-all").html("Collapse All");
     }
     
 });
