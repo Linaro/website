@@ -70,9 +70,6 @@
     - name: Kylin
       image: kylin.jpg
       url: /company/kylin/
-    - name: Mstar
-      image: mstar.jpg
-      url: /company/mstar/
     - name: Nokia
       image: nokia.jpg
       url: /company/nokia/
