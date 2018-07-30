@@ -18,7 +18,7 @@ wordpress_id: 2183
 
 A UEFI Mini-Sprint was held at the Linaro offices in Cambridge UK on 11-13 December.
 
-[Rony Nandy](/about/), Enterprise Server Engineer for the [Linaro Enterprise Group](/groups/leg/) (LEG) summed up the Sprint in a [blog post this week](/blog/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/). Nandy writes in his post that during the this mini-sprint problems such as a location for all the board support for edk2(UEFI) on Arm were fixed.  The maintainer-ship structure for UEFI on Arm was also discussed and goals for UEFI on Arm in 2013 were put in motion.
+[Rony Nandy](/about/), Enterprise Server Engineer for the [Linaro Enterprise Group](/engineering/groups/ldcg/) (LEG) summed up the Sprint in a [blog post this week](/blog/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/). Nandy writes in his post that during the this mini-sprint problems such as a location for all the board support for edk2(UEFI) on Arm were fixed.  The maintainer-ship structure for UEFI on Arm was also discussed and goals for UEFI on Arm in 2013 were put in motion.
 
 LEG Engineers held [a public Hangout on Air](http://youtu.be/hSnXW3DjQ4I) where they discussed UEFI updates, future goals and how to get involved.
 
@@ -30,11 +30,11 @@ Engineers from and Arm and Linaro had the opportunity to add their thoughts and 
 
 The formation of LEG was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) in early November.  As part of the announcement initial work and goals were outlined.  "Linaro expects initial software delivery before the end of 2012 with ongoing releases thereafter," and yesterday [LEG announced](/blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/) it meet that goal and released its [Engineering Preview](https://wiki.linaro.org/LEG/Engineering/Releases/12.12).
 
-UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work) that [LEG](/groups/leg/) will be working on in 2013.
+UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work) that [LEG](/engineering/groups/ldcg/) will be working on in 2013.
 
 {% include image.html name="LEG-Roadmap-2012Q4.png" alt="Linaro Enterprise Group (LEG) Roadmap" url="https://wiki.linaro.org/LEG#Scope_of_Work" %}
 
-More information about LEG and its goals and release schedule can be found on the [Linaro Website](/groups/leg/) and [Wiki pages](https://wiki.linaro.org/LEG).
+More information about LEG and its goals and release schedule can be found on the [Linaro Website](/engineering/groups/ldcg/) and [Wiki pages](https://wiki.linaro.org/LEG).
 
 To get involved with LEG and help plan the future of Linux on Arm in 2013 consider joining us at our next Linaro Connect event[ LCA13](http://connect.linaro.org) which will be held on 4-8 March at the Gold Coast Hotel in Hong Kong. [Registration](http://linaro.eventbrite.co.uk/) for this event is now open.
 
@@ -46,7 +46,7 @@ To get involved with LEG and help plan the future of Linux on Arm in 2013 consid
 
 _The Linaro-hosted “Enterprise Group” (LEG) is dedicated to accelerate Linux Arm server ecosystem development and extends the list of Linaro members beyond Arm silicon vendors to Server OEM’s and commercial Linux providers._
 
-_To find out more, please visit[ ](/)[/groups/leg/](/groups/leg/)_
+_To find out more, please visit[ ](/)[/engineering/groups/ldcg/](/engineering/groups/ldcg/)_
 
 **About Linaro**
 

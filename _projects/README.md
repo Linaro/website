@@ -1,15 +1,10 @@
 ---
-title: Lead Projects
-permalink: /projects/
+title: Initiatives
 description: |-
-    Linaro is a large engineering organization with many complex projects that map across various teams and groups.
-keywords: Mobile AOSP Optimization, Big Data, SDI, Mobile Power Management, Arm Kernel Collaboration, Open Source Arm Tools, Security, OpenDataPlane, ODP, specifications
+    Linaro focuses much of its engineering work on contributing to existing upstream projects like the Linux Kernel and GNU Compiler Collection (GCC).
+keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
+permalink: /engineering/projects/
 ---
-Linaro is a large engineering organization with many complex projects that map across various teams and groups. Core and Vertical Segment Engineering groups have a limited number of Lead Projects that focus their collaborative work. In addition to Lead Projects, some of Linaro's output may result in the creation of an open source project, an API, hardware specifications or there may be higher level project areas that people regularly search for - this work is detailed in the [Initiatives](/initiatives/) section of this website.
+Linaro focuses much of its engineering work on contributing to existing upstream projects like the [Linux Kernel](https://www.kernel.org/) and [GNU Compiler Collection](https://gcc.gnu.org/) (GCC). When a suitable target project doesn't exist, then Linaro may create one. The first of these was the [Linaro Automated Validation Architecture](/engineering/projects/lava/) (LAVA) - Linaro needed a test and validation architecture for internal use and decided to create this as an open source project.  The list of initiatives continues to grow and now includes software projects, an open hardware specification ([96Boards](http://www.96boards.org/) and Linaro's bi-annual event ([Linaro Connect](http://connect.linaro.org/)).
 
-
-<a class="btn btn-lead-projects" href="https://collaborate.linaro.org/display/EP/Project+Portals+Home">
-<i class="glyphicon glyphicon-lock"></i>
-Engineering Status and Roadmaps <br>
-<small>(members only – requires login)</small>
-</a>
+The list of current initiatives is on the left.

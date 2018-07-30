@@ -36,6 +36,7 @@ pages:
     - title: Membership
       url: /membership/
     - title: Engineering
+      left: true
       options:
           - text: Overview
             url: /engineering/
@@ -60,57 +61,44 @@ pages:
           - text: Segment Groups
             options:
                 - text: Overview
-                  url: /groups/
-                - text: LEG
-                  url: /groups/leg/
-                - text: LNG
-                  url: /groups/lng/
-                - text: LHG
-                  url: /groups/lhg/
-                - text: LMG
-                  url: /groups/lmg/
-                - text: LITE
-                  url: /groups/lite/
-          - text: Lead Projects
-            options:
-                - text: Overview
-                  url: /projects/
-                - text: Mobile AOSP Optimization
-                  url: /projects/aosp/
-                - text: Reference Digital Media Platforms
-                  url: /projects/reference-digital-media-platforms-for-arm/
-                - text: Big Data
-                  url: /projects/bigdata/
-                - text: Mobile Power Management
-                  url: /projects/mobile-power-management/
-                - text: Arm Kernel Collaboration
-                  url: /projects/arm-kernel-collaboration/
-                - text: Open Source Arm Tools
-                  url: /projects/open-source-arm-tools/
-                - text: Open Source Security
-                  url: /projects/open-source-security/
-                - text: OpenDataPlane
-                  url: /projects/opendataplane/
-                - text: Reference Platforms
-                  url: /projects/reference-platforms/
+                  url: /engineering/groups/
+                - text: Linaro Datacenter & Cloud Group (LDCG)
+                  url: /engineering/groups/ldcg/
+                - text: Linaro Edge (LEDGE)
+                  url: /engineering/groups/ledge/
+                - text: Linaro Consumer Group (LCG)
+                  url: /engineering/groups/lcg/
+                - text: Linaro IoT & Embedded Group (LITE)
+                  url: /engineering/groups/lite/
           - text: Special Interest Groups
             options:
                 - text: Overview
                   url: /sig/
-                - text: HPC
+                - text: High Performance Computing (HPC)
                   url: /sig/hpc/
-          - text: Initiatives
+                - text: Linaro Telco & Network (LTN)
+                  url: /sig/ltn/
+                - text: OpenDataPlane (ODP)
+                  url: https://www.opendataplane.org
+          - text: Incubators
             options:
                 - text: Overview
-                  url: /initiatives/
-                - text: Armv8
-                  url: /initiatives/armv8/
+                  url: /engineering/incubators/
+                - text: Machine Intelligence
+                  url: /engineering/incubators/machine-intelligence/
+                - text: Autonomous Vehicles (LAVS)
+                  url: /engineering/incubators/autonomous-vehicles/          
+          - text: Projects
+            options:
+                - text: Overview
+                  url: /engineering/projects/
                 - text: KernelCI
-                  url: /initiatives/kernelci/
+                  url: /engineering/projects/kernelci/
                 - text: LAVA
-                  url: /initiatives/lava/
+                  url: /engineering/projects/lava/
                 - text: LSK
-                  url: /initiatives/lsk/
+                  url: /engineering/projects/lsk/
+
     - title: Services
       url: /services/
     - title: Latest
