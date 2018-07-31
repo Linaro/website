@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="25px" height="25px" viewBox="0 0 25 25" version="1.1">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>dots</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-140.000000, -154.000000)" fill="#ccc">
+            <g id="dots" sketch:type="MSLayerGroup" transform="translate(140.000000, 154.000000)">
+                <g id="dot" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(0.000000, 20.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(0.000000, 10.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(10.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(10.000000, 20.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(20.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(20.000000, 20.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+                <g id="dot" transform="translate(20.000000, 10.000000)" sketch:type="MSShapeGroup">
+                    <g>
+                        <circle cx="2.5" cy="2.5" r="2.5"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
