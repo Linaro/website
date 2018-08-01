@@ -30,8 +30,13 @@ image:
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="#schedule" role="tab" data-toggle="tab">
+        <a href="#schedule-tab" role="tab" data-toggle="tab">
             Schedule
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="#resources" role="tab" data-toggle="tab">
+            Resources
         </a>
       </li>
     </ul>
@@ -571,7 +576,7 @@ image:
 
 
 </div>
-<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule">
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule-tab">
 
 <script type="text/javascript">
 function defer(method) {
@@ -603,6 +608,14 @@ defer(function () {
 </script>
 
 <div id="schedule"></div> 
+
+</div><!--End Tab Content-->
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="resources" markdown="1">
+
+| Talk                                           | Slides                                                           |
+|:------------------------------------------------:|:------------------------------------------------------:|
+|Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing | [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop) |
 
 </div><!--End Tab Content-->
 
