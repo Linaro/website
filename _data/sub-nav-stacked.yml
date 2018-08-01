@@ -52,13 +52,16 @@ pages:
         title: Linaro Datacenter & Cloud Group (LDCG) 
         url: /engineering/groups/ldcg/
       -
+        title: Linaro Edge (LEDGE) 
+        url: /engineering/groups/ledge/
+      -
         title: Linaro Consumer Group (LCG)
         url: /engineering/groups/lcg/
       -
         title: Linaro IoT & Embedded Group (LITE)
         url: /engineering/groups/lite/
 
-    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/lcg/, /engineering/groups/lite/]
+    urls: [/engineering/groups/, /engineering/groups/ldcg/, /engineering/groups/ledge/, /engineering/groups/lcg/, /engineering/groups/lite/]
   -
     list:
       -

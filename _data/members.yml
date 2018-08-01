@@ -55,9 +55,6 @@
     - name: Cypress
       image: cypress.png
       url: /company/cypress/
-    - name: ENEA
-      image: enea.jpg
-      url: /company/enea/
     - name: Fujitsu
       image: fujitsu.jpg
       url: /company/fujitsu/
@@ -73,9 +70,6 @@
     - name: Kylin
       image: kylin.jpg
       url: /company/kylin/
-    - name: Mstar
-      image: mstar.jpg
-      url: /company/mstar/
     - name: Nokia
       image: nokia.jpg
       url: /company/nokia/
@@ -135,9 +129,6 @@
     - name: Cavium
       image: cavium.jpg
       url: /company/cavium/
-    - name: ENEA
-      image: enea.jpg
-      url: /company/enea/
     - name: Nokia
       image: nokia.jpg
       url: /company/nokia/
