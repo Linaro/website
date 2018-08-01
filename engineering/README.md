@@ -52,7 +52,7 @@ css-package: engineering-landing
     <div class="row engineering-dividing-row">
         <div class="container">
             <div class="mobile-center-icons">
-                <div class="col-xs-4 col-xs-offset-4 text-center">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 text-center">
                     <div class="col-xs-6">
                         <img class="center-block img-responsive lazyload" data-src="{% asset_path 'chip CORE.svg' %}" 
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
