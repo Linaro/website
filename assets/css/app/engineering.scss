@@ -55,3 +55,29 @@ h3.group-title {
 .mobile-center-icons img.center-block.img-responsive {
     margin-top: 50px;
 }
+@media(min-width:$screen-sm-min){
+    .hidden-icon-left{
+        transform: translateX(-100px);
+        opacity: 0;
+
+        transition: all 1s ease;
+    }
+    .hidden-icon-right {
+        transform: translateX(100px);
+        opacity: 0;
+        
+        transition: all 1s ease;
+    }
+}
+#hover-icon {
+    top: 115px;
+    transition: all 500ms ease;
+}
+.show-icon-left {
+    transform: translateX(0px) !important;
+    opacity: 1 !important;
+}
+.show-icon-right {
+    transform: translateX(0px) !important;
+    opacity: 1 !important;
+}
