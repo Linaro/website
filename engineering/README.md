@@ -53,6 +53,10 @@ css-package: engineering-landing
         <div class="container">
             <div class="mobile-center-icons">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 text-center">
+                    <!-- <div class="col-xs-6 col-xs-offset-3 blank-icon hidden-xs visible-sm-and-up" >
+                        <img id="hover-icon" class="center-block img-responsive lazyload" data-src="{% asset_path 'chip grey.svg' %}" 
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+                    </div> -->
                     <div class="col-xs-6">
                         <img class="center-block img-responsive lazyload" data-src="{% asset_path 'chip CORE.svg' %}" 
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
