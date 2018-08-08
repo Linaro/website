@@ -68,6 +68,15 @@ h3.group-title {
         transition: all 1s ease;
     }
 }
+@media(max-width:$screen-sm-min - 1 ){
+    span.core-descriptor {
+        display: block !important;
+    }
+    h3.group-title {
+        font-size: 14px;
+        top: -15px;
+    }
+}
 #hover-icon {
     top: 115px;
     transition: all 500ms ease;
@@ -92,12 +101,10 @@ span.core-descriptor {
     border-radius: 45px;
     line-height: 90px;
 }
-
 span.core-descriptor.multimedia {
     top: -50px;
     right:0px
 }
-
 span.core-descriptor.toolchain {
     top:-50px;
     left:0px;
