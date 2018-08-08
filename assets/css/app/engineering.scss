@@ -12,7 +12,7 @@
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     opacity:1;
-    transform: scale(1);
+    transform: scale(.8);
 }
 hr.dotted-divider {
     border: 8px dotted #eee;
@@ -48,12 +48,11 @@ h3.group-title {
     text-align: center;
     height: 60px;
     margin-top: -15px;
+    position: relative;
+    top: -30px;
 }
 .col-xs-6.col-sm-3.engineering-icon {
     display:none;
-}
-.mobile-center-icons img.center-block.img-responsive {
-    margin-top: 50px;
 }
 @media(min-width:$screen-sm-min){
     .hidden-icon-left{
@@ -80,4 +79,40 @@ h3.group-title {
 .show-icon-right {
     transform: translateX(0px) !important;
     opacity: 1 !important;
+}
+span.core-descriptor {
+    background-color: #c6c6c6;
+    color: #1e1c1b;
+    font-weight:bold;
+    padding: 5px;
+    position: absolute;
+    display:none;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    line-height: 90px;
+}
+
+span.core-descriptor.multimedia {
+    top: -50px;
+    right:0px
+}
+
+span.core-descriptor.toolchain {
+    top:-50px;
+    left:0px;
+}
+span.core-descriptor.power {
+    bottom:20px;
+    left:-50px;
+}
+span.core-descriptor.security {
+    bottom:20px;
+    right:-50px;
+}
+span.core-descriptor.kernel {
+    left: 50%;
+    bottom:-80px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
