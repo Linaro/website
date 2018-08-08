@@ -617,6 +617,7 @@ defer(function () {
 |:------------------------------------------------:|:------------------------------------------------------:|
 |Andrew Younge - Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing | [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop) |
 |Yutaka Ishikawa - Post-K and Arm HPC Ecosystem | [Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018) |
+|Gilad Shainer and Scot Schultz - Intelligent Interconnect Architecture to Enable Next Generation HPC | [Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018) |
 
 </div><!--End Tab Content-->
 
