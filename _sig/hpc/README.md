@@ -8,7 +8,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyX
 members_key: hpc_members
 group_long_name: High Performance Computing (HPC)
 group_short_name: HPC
-icon: hpc-icon.svg
+icon: HPCCol.svg
 ---
 The world’s fastest 500 computers run Linux-based operating systems and thus, High Performance Computing (HPC) relies on Open Source. 
 

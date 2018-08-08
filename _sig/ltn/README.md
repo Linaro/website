@@ -6,7 +6,7 @@ director: Martin Stadtler
 members_key: ltn_members
 group_long_name: Linaro Telco & Network (LTN)
 group_short_name: LTN
-#icon: hpc-icon.svg
+icon: antenna col.svg
 ---
 Networking used to be a pretty simple affair with servers talking to clients all connected by hardware switches and routers. Changes were planned out in advance and rolled out in a megalithic form. 
 
