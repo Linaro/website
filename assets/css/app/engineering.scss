@@ -12,7 +12,7 @@
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     opacity:1;
-    transform: scale(1);
+    transform: scale(.8);
 }
 hr.dotted-divider {
     border: 8px dotted #eee;
@@ -48,6 +48,8 @@ h3.group-title {
     text-align: center;
     height: 60px;
     margin-top: -15px;
+    position: relative;
+    top: -30px;
 }
 .col-xs-6.col-sm-3.engineering-icon {
     display:none;
@@ -101,12 +103,12 @@ span.core-descriptor.toolchain {
     left:0px;
 }
 span.core-descriptor.power {
-    bottom:-20px;
-    left:-40px;
+    bottom:20px;
+    left:-50px;
 }
 span.core-descriptor.security {
-    bottom:-20px;
-    right:-40px;
+    bottom:20px;
+    right:-50px;
 }
 span.core-descriptor.kernel {
     left: 50%;
