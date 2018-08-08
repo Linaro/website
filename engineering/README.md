@@ -54,7 +54,7 @@ css-package: engineering-landing
             <div class="mobile-center-icons">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 text-center">
                     <div class="col-xs-offset-1 col-xs-10 col-sm-6 col-sm-offset-3">
-                        <img id="hover-icon" class="center-block img-responsive lazyload" data-src="{% asset_path 'chip CORE.svg' %}" 
+                        <img id="hover-icon" class="center-block img-responsive lazyload" data-src="{% asset_path 'CoreLogo.svg' %}" 
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                         <span class="core-descriptor kernel">Kernel</span> 
                         <span class="core-descriptor toolchain">Toolchain</span> 
