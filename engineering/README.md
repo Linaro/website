@@ -83,7 +83,7 @@ css-package: engineering-landing
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon">
                 <a href="/engineering/incubators/autonomous-vehicles/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'Auto col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="{% asset_path 'AutoCol.svg' %}" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Autonomous Vehicles</h3>
@@ -97,7 +97,7 @@ css-package: engineering-landing
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon">
                 <a href="/sig/hpc/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'HPC col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="{% asset_path 'HPCCol.svg' %}" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">High Performance Computing (HPC)</h3>
