@@ -52,9 +52,6 @@ h3.group-title {
 .col-xs-6.col-sm-3.engineering-icon {
     display:none;
 }
-.mobile-center-icons img.center-block.img-responsive {
-    margin-top: 50px;
-}
 @media(min-width:$screen-sm-min){
     .hidden-icon-left{
         transform: translateX(-100px);
@@ -80,4 +77,40 @@ h3.group-title {
 .show-icon-right {
     transform: translateX(0px) !important;
     opacity: 1 !important;
+}
+span.core-descriptor {
+    background-color: #c6c6c6;
+    color: #1e1c1b;
+    font-weight:bold;
+    padding: 5px;
+    position: absolute;
+    display:none;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    line-height: 90px;
+}
+
+span.core-descriptor.multimedia {
+    top: -50px;
+    right:0px
+}
+
+span.core-descriptor.toolchain {
+    top:-50px;
+    left:0px;
+}
+span.core-descriptor.power {
+    bottom:-20px;
+    left:-40px;
+}
+span.core-descriptor.security {
+    bottom:-20px;
+    right:-40px;
+}
+span.core-descriptor.kernel {
+    left: 50%;
+    bottom:-80px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
