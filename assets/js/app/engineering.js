@@ -3,14 +3,26 @@ $(document).ready(function(){
         $(this).delay(200 * index).fadeIn(300);
     });
     $("#hover-icon").hover(function () {
-        $("#hover-icon").animate({opacity: 0}, 1000, function(){
-            $(".hidden-icon-left").addClass(".show-icon-left");
-            $(".hidden-icon-right").addClass(".show-icon-right");
+        $(".core-descriptor.toolchain").fadeIn("fast",function(){
+            $(".core-descriptor.multimedia").fadeIn("fast", function () {
+                $(".core-descriptor.security").fadeIn("fast", function () {
+                    $(".core-descriptor.kernel").fadeIn("fast", function () {
+                        $(".core-descriptor.power").fadeIn("fast");
+                    });
+                });
+            });
         });
     // Mouseout callback
     }, function(){
-        $("#hover-icon").fadeIn("fast");
-        $(".hidden-icon-left").removeClass(".show-icon-left");
-        $(".hidden-icon-right").removeClass(".show-icon-right");
+
+        $(".core-descriptor.toolchain").delay(1000).fadeOut("fast", function () {
+            $(".core-descriptor.multimedia").fadeOut("fast", function () {
+                $(".core-descriptor.security").fadeOut("fast", function () {
+                    $(".core-descriptor.kernel").fadeOut("fast", function () {
+                        $(".core-descriptor.power").fadeOut("fast");
+                    });
+                });
+            });
+        });
     });
 });
