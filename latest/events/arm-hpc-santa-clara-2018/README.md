@@ -30,8 +30,13 @@ image:
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="#schedule" role="tab" data-toggle="tab">
+        <a href="#schedule-tab" role="tab" data-toggle="tab">
             Schedule
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="#resources" role="tab" data-toggle="tab">
+            Resources
         </a>
       </li>
     </ul>
@@ -571,7 +576,7 @@ image:
 
 
 </div>
-<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule">
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule-tab">
 
 <script type="text/javascript">
 function defer(method) {
@@ -603,6 +608,19 @@ defer(function () {
 </script>
 
 <div id="schedule"></div> 
+
+</div><!--End Tab Content-->
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="resources" markdown="1">
+
+| Talk                                           | Slides                                                           |
+|:------------------------------------------------:|:------------------------------------------------------:|
+|Andrew Younge - Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing | [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop) |
+|Yutaka Ishikawa - Post-K and Arm HPC Ecosystem | [Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018) |
+|Gilad Shainer and Scot Schultz - Intelligent Interconnect Architecture to Enable Next Generation HPC | [Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018) |
+|Alex Bennée - Setting up an SVE developer environment | [Slides](https://www.slideshare.net/linaroorg/setting-up-for-sve-development-linaro-hpc-workshop-2018) |
+|Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
+|Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
 
 </div><!--End Tab Content-->
 
