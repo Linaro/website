@@ -619,6 +619,8 @@ defer(function () {
 |Yutaka Ishikawa - Post-K and Arm HPC Ecosystem | [Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018) |
 |Gilad Shainer and Scot Schultz - Intelligent Interconnect Architecture to Enable Next Generation HPC | [Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018) |
 |Alex Bennée - Setting up an SVE developer environment | [Slides](https://www.slideshare.net/linaroorg/setting-up-for-sve-development-linaro-hpc-workshop-2018) |
+|Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
+|Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
 
 </div><!--End Tab Content-->
 
