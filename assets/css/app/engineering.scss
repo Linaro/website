@@ -101,17 +101,27 @@ h3.group-title {
     opacity: 1 !important;
 }
 span.core-descriptor {
-    background-color: #c6c6c6;
-    color: #1e1c1b;
+    background-color: #7ca82d;
+    color: #ffffff;
     opacity: .9;
-    font-weight:bold;
+    border: 1px solid #eee;
+    font-weight: bold;
     padding: 5px;
     position: absolute;
-    display:none;
+    display: none;
     height: 90px;
     width: 90px;
     border-radius: 45px;
-    line-height: 90px;
+    z-index: 1;
+    line-height: 80px;
+    transform: scale(.8);
+    transition: all 500ms ease;
+}
+span.core-descriptor:hover {
+    cursor: pointer;
+    background-color: #363636;
+    transform: scale(1);
+
 }
 span.core-descriptor.multimedia {
     top: -50px;
@@ -132,6 +142,7 @@ span.core-descriptor.security {
 span.core-descriptor.kernel {
     left: 50%;
     bottom:-55px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    left: 0;
+    right: 0;
+    margin: auto;
 }
