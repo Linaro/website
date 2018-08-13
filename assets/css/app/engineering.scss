@@ -92,6 +92,7 @@ h3.group-title {
 span.core-descriptor {
     background-color: #c6c6c6;
     color: #1e1c1b;
+    opacity: .9;
     font-weight:bold;
     padding: 5px;
     position: absolute;
@@ -103,11 +104,11 @@ span.core-descriptor {
 }
 span.core-descriptor.multimedia {
     top: -50px;
-    right:0px
+    right:-10px;
 }
 span.core-descriptor.toolchain {
     top:-50px;
-    left:0px;
+    left:-10px;
 }
 span.core-descriptor.power {
     bottom:20px;
@@ -119,7 +120,7 @@ span.core-descriptor.security {
 }
 span.core-descriptor.kernel {
     left: 50%;
-    bottom:-80px;
+    bottom:-55px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
 }
