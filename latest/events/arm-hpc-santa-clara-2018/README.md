@@ -621,6 +621,7 @@ defer(function () {
 |Alex Bennée - Setting up an SVE developer environment | [Slides](https://www.slideshare.net/linaroorg/setting-up-for-sve-development-linaro-hpc-workshop-2018) |
 |Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
 |Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
+|Renato Golin - OpenHPC Automation with Ansible | [Slides](https://www.slideshare.net/linaroorg/openhpc-automation-with-ansible-renato-golin-linaro-arm-hpc-workshop-2018) |
 
 </div><!--End Tab Content-->
 
