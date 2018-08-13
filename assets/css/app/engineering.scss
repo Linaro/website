@@ -80,6 +80,16 @@ h3.group-title {
 #hover-icon {
     top: 115px;
     transition: all 500ms ease;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .3;
+    transform: scale(.6);
+}
+#hover-icon:hover {
+    transform: scale(1.4);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
 }
 .show-icon-left {
     transform: translateX(0px) !important;
