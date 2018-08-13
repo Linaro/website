@@ -29,39 +29,42 @@ We had a packed schedule with presentations from University of Bristol, Arm, Cav
 
 
 
-Isambard: the world's first production Arm-based supercomputer
+#### Isambard: the world's first production Arm-based supercomputer
 
 Prof. Simon McIntosh-Smith from the University of Bristol shared details on Isambard: The world’s first production 64-bit Arm supercomputer.
 
   
 
-Vanguard Astra - Petascale ARM Platform for U.S. DOE/ASC Supercomputing
+#### Vanguard Astra - Petascale ARM Platform for U.S. DOE/ASC Supercomputing
 
 Sandia National Labs focused on Vanguard Astra, a prototype petascale Arm computer, the architectural details of Astra and the significant investments being made towards the maturing of the Arm software ecosystem.
 
-  
+[Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop)
+
 {% include image.html name="hpcworkshop1.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 
-Post-K and Arm HPC Ecosystem
+#### Post-K and Arm HPC Ecosystem
 
 Prof. Yutaka Ishikawa from Riken presented Post-K, a flagship supercomputer in Japan being developed by Riken and Fujitsu. It will be the first supercomputer with Armv8-A+SVE!
 
-  
+[Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018)
 
-Intelligent Interconnect Architecture to Enable Next Generation HPC
+#### Intelligent Interconnect Architecture to Enable Next Generation HPC
 
 The importance of intelligent interconnect architecture to enable next generation HPC was addressed by Gilad Shainer from Mellanox. The combination of In-Network Computing and Arm based processors offer a rich set of capabilities and opportunities to build the next generation of HPC platforms.
 
+[Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018)
   
 
-HPC network stack on ARM & Cross Platform Performance Engineering
+#### HPC network stack on ARM & Cross Platform Performance Engineering
 
 Arm presented two topics MPI and a methodology for porting HPC applications to Arm, and the ecosystem of cross platform performance engineering toolkits and libraries that is currently available on Arm.
 
+[Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018)
   
 
-Optimizing for ARM64—A Toolchain Perspective
+#### Optimizing for ARM64—A Toolchain Perspective
 
 Optimised tooling is crucial and will always remain important to HPC. Cavium discussed optimising for ARM64 from a toolchain perspective.
 
@@ -72,18 +75,15 @@ Optimised tooling is crucial and will always remain important to HPC. Cavium dis
 Red Hat and Suse shared details on their distributions for use for HPC.
 
   
-
-Huawei’s requirements for the ARM based HPC solution readiness
+#### Huawei’s requirements for the ARM based HPC solution readiness
 
 Huawei discussed the drive needed from hardware vendors, software vendors, cloud providers and Arm to speed up the adoption of Arm based HPC solutions
 
   
-
-OpenHPC Automation with Ansible & Setting up an SVE developer environment
+#### OpenHPC Automation with Ansible & Setting up an SVE developer environment
 
 Finally Renato Golin and Alex Bennée (Linaro) spoke about Ansible on openHPC and SVE on QEMU respectively. You can find [Alex’s blog on SVE at this link](https://www.linaro.org/blog/sve-in-qemu-linux-user/)
 
-  
 
 All in all, it turned out to be a very informative event covering a broad range of aspects, which resulted in lots of good technical discussion.
 
