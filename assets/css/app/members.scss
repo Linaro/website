@@ -71,3 +71,44 @@
 .advisory-board {
     clear: both;
 }
+
+.fly {
+  opacity: 0;
+  transition: all 600ms ease-in-out;
+  transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
+}
+
+.show-block {
+  opacity: 1;
+  transform: translateY(0) scale(1) translate3d(0, 0, 0);
+}
+
+div#why-join {
+    padding: 100px 0;
+}
+div#key-factors {
+    padding: 100px 0;
+}
+span.key-factor-title {
+    font-size: 18px;
+}
+span.bold {
+    font-weight:bold;
+    color:#78ac01;
+}
+.key-factor-block {
+    padding: 80px;
+    background-color: #e2e2e2;
+    height: 350px;
+    margin-top: 23px;
+    border: 1px solid #a9a9a9;
+    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
