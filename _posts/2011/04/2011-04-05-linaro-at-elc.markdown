@@ -19,7 +19,7 @@ wordpress_id: 3379
 
 {% include image.html name="header_elc_2011.png" alt="Embedded Linux Conference 2011" lightbox_disabled="True" %}
 
-Next week, the [Embedded Linux Conference](http://events.linuxfoundation.org/events/embedded-linux-conference) will start in San Francisco, and this year several Linaro engineers will share their work and experience. There will be six talks related to Linaro!
+Next week, the [Embedded Linux Conference](https://events.linuxfoundation.org/) will start in San Francisco, and this year several Linaro engineers will share their work and experience. There will be six talks related to Linaro!
 
 {% include image.html name="DAR.jpg" alt="David Rusling" class="small-inline" %}
 
