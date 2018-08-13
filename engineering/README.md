@@ -56,11 +56,11 @@ css-package: engineering-landing
                     <div class="col-xs-offset-1 col-xs-10 col-sm-6 col-sm-offset-3">
                         <img id="hover-icon" toggled="False" class="center-block img-responsive lazyload" data-src="{% asset_path 'CoreLogo.svg' %}" 
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
-                        <span class="core-descriptor kernel">Kernel</span> 
-                        <span class="core-descriptor toolchain">Toolchain</span> 
-                        <span class="core-descriptor security">Security</span> 
-                        <span class="core-descriptor power">Power</span> 
-                        <span class="core-descriptor multimedia">Multimedia</span> 
+                        <a href="/engineering/core/kernel/"><span class="core-descriptor kernel">Kernel</span></a>
+                        <a href="/engineering/core/toolchain/"><span class="core-descriptor toolchain">Toolchain</span></a>
+                        <a href="/engineering/core/security/"><span class="core-descriptor security">Security</span></a>
+                        <a href="/engineering/core/arm-power-management/"><span class="core-descriptor power">Power</span></a>
+                        <a href="/engineering/core/virtualization/"><span class="core-descriptor virtualization">Virtualization</span></a>
                     </div>
                 </div>
             </div>  
