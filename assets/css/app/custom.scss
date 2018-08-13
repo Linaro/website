@@ -779,8 +779,6 @@ article.post-content {
 article.post-content > .col-md-8 {
     padding: 0;
 }
-
-
 #main-navigation ul.dropdown-menu.sub-menu {
         background-color: #767676;
 }
@@ -789,4 +787,7 @@ article.post-content > .col-md-8 {
 }
 #main-navigation ul.dropdown-menu.sub-menu > li > a {
     color: white;
+}
+#main-navigation div#navbar-collapse {
+    z-index: 1;
 }
