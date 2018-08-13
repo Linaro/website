@@ -13,7 +13,7 @@ wordpress_id: 4421
 
 CAMBRIDGE, UK - 13 FEB 2013
 
-Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, announced that they will be participating in the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) being held February 20-22, 2013 at the Parc 55 Hotel in San Francisco, CA. The Embedded Linux Conference (ELC) is the premier vendor-neutral technical conference for companies and developers using Linux in embedded products. This conference, now in its 9th year, has the largest collection of sessions dedicated exclusively to embedded Linux and embedded Linux developers.
+Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, announced that they will be participating in the [Embedded Linux Conference 2013](https://events.linuxfoundation.org/) being held February 20-22, 2013 at the Parc 55 Hotel in San Francisco, CA. The Embedded Linux Conference (ELC) is the premier vendor-neutral technical conference for companies and developers using Linux in embedded products. This conference, now in its 9th year, has the largest collection of sessions dedicated exclusively to embedded Linux and embedded Linux developers.
 
 This year Linaro CEO, George Grey, and many key engineers for Linaro will be speaking in several sessions. The time and topic of these talks are:
 

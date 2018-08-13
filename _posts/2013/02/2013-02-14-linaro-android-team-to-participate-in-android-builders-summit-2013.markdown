@@ -26,7 +26,7 @@ Are you attending either The Android Builders Summit or The Embedded Linux Confe
 
 [Bernhard Rosenkränzer, Linaro Android Engineer](/about/), will take part in the ‘[Ask the Experts]()http://events.linuxfoundation.org/events/android-builders-summit/schedule’ panel discussion at 4:20pm on Tuesday 19 February.  Other experts on this panel include Mark Gross of Intel, Jim Huang of 0xLab, Benjamin Zores of Alcatel-Lucent and Karim Yaghmour of Opersys.
 
-Following ABS will be the [Embedded Linux Conference 2013](http://events.linuxfoundation.org/events/embedded-linux-conference) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](/blog/), including [George Grey, Linaro CEO](/about/team/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘Working Together to Accelerate Linux Development’.
+Following ABS will be the [Embedded Linux Conference 2013](https://events.linuxfoundation.org/) (ELC 2013) which will also take place at the Parc 55 Hotel in San Francisco on 20 - 22 February. ELC 2013 will also have [several members of Linaro participating](/blog/), including [George Grey, Linaro CEO](/about/team/executive/) who will be giving a keynote with Jim Zemlin of The Linux Foundation on ‘Working Together to Accelerate Linux Development’.
 
 Stop by any of the sessions where Linaro is participating to learn more about Linaro's work in consolidating and optimizing open source software for the Arm architecture.
 
