@@ -7,7 +7,7 @@ $(document).ready(function(){
             console.log("Toggled - Fade Out");
             $(this).attr("toggled", "False");
             $(".core-descriptor.toolchain").fadeOut("fast", function () {
-                $(".core-descriptor.virtualization").fadeOut("fast", function () {
+                $(".core-descriptor.kernel-validation").fadeOut("fast", function () {
                     $(".core-descriptor.security").fadeOut("fast", function () {
                         $(".core-descriptor.kernel").fadeOut("fast", function () {
                             $(".core-descriptor.power").fadeOut("fast");
@@ -20,7 +20,7 @@ $(document).ready(function(){
             console.log("Toggled - Fade In");
             $(this).attr("toggled", "True");
             $(".core-descriptor.toolchain").fadeIn("fast", function () {
-                $(".core-descriptor.virtualization").fadeIn("fast", function () {
+                $(".core-descriptor.kernel-validation").fadeIn("fast", function () {
                     $(".core-descriptor.security").fadeIn("fast", function () {
                         $(".core-descriptor.kernel").fadeIn("fast", function () {
                             $(".core-descriptor.power").fadeIn("fast");

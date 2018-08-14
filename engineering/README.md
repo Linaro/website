@@ -60,7 +60,7 @@ css-package: engineering-landing
                         <a href="/engineering/core/toolchain/"><span class="core-descriptor toolchain">Toolchain</span></a>
                         <a href="/engineering/core/security/"><span class="core-descriptor security">Security</span></a>
                         <a href="/engineering/core/arm-power-management/"><span class="core-descriptor power">Power</span></a>
-                        <a href="/engineering/core/virtualization/"><span class="core-descriptor virtualization">Virtualization</span></a>
+                        <a href="/engineering/core/kernel-validation-and-testing/"><span class="core-descriptor kernel-validation">Kernel Validation</span></a>
                     </div>
                 </div>
             </div>  
