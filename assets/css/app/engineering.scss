@@ -83,7 +83,7 @@ h3.group-title {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: .3;
-    transform: scale(.9);
+    transform: scale(1);
 }
 #hover-icon:hover {
     transform: scale(1.4);
@@ -126,7 +126,7 @@ span.core-descriptor:hover {
 span.core-descriptor.kernel-validation {
     top: -50px;
     right:-10px;
-    font-size: 12px;
+    font-size: 9px;
 }
 span.core-descriptor.toolchain {
     top:-50px;
