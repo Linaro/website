@@ -319,9 +319,6 @@
     - name: NXP
       image: nxp.jpg
       url: /company/nxp/
-    - name: QuIC
-      image: quic.jpg
-      url: /company/quic/
     - name: Red Hat
       image: redhat.jpg
       url: /company/red-hat/

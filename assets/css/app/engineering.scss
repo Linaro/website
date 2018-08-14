@@ -80,6 +80,17 @@ h3.group-title {
 #hover-icon {
     top: 115px;
     transition: all 500ms ease;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .3;
+    transform: scale(1);
+}
+#hover-icon:hover {
+    transform: scale(1.4);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    cursor: pointer;
+    opacity: 1;
 }
 .show-icon-left {
     transform: translateX(0px) !important;
@@ -90,24 +101,36 @@ h3.group-title {
     opacity: 1 !important;
 }
 span.core-descriptor {
-    background-color: #c6c6c6;
-    color: #1e1c1b;
-    font-weight:bold;
+    background-color: #7ca82d;
+    color: #ffffff;
+    opacity: .9;
+    border: 1px solid #eee;
+    font-weight: bold;
     padding: 5px;
     position: absolute;
-    display:none;
+    display: none;
     height: 90px;
     width: 90px;
     border-radius: 45px;
-    line-height: 90px;
+    z-index: 1;
+    line-height: 80px;
+    transform: scale(.8);
+    transition: all 500ms ease;
 }
-span.core-descriptor.multimedia {
+span.core-descriptor:hover {
+    cursor: pointer;
+    background-color: #363636;
+    transform: scale(1);
+
+}
+span.core-descriptor.kernel-validation {
     top: -50px;
-    right:0px
+    right:-10px;
+    font-size: 9px;
 }
 span.core-descriptor.toolchain {
     top:-50px;
-    left:0px;
+    left:-10px;
 }
 span.core-descriptor.power {
     bottom:20px;
@@ -119,7 +142,8 @@ span.core-descriptor.security {
 }
 span.core-descriptor.kernel {
     left: 50%;
-    bottom:-80px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    bottom:-55px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
