@@ -6,7 +6,7 @@ js-package: engineering
 css-package: engineering-landing
 ---
 {% include breadcrumb.html %}
-<div class="container-fluid" id="engineering-graphic" style="background-image:url({% asset_path 'engineering-bg.png' %})">
+<div class="container-fluid" id="engineering-graphic" style="background-image:url({% asset_path 'engineering-bg.svg' %})">
     <!-- Circular Background -->
     <div class="circle-background center-block" id="circles">
         <div class="circle-one">
