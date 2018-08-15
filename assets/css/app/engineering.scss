@@ -2,9 +2,9 @@
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     opacity:.3;
-
     transform: scale(.6);
-
+    top: -70px;
+    position: relative;
     transition: all 200ms ease;
 
 }
@@ -146,4 +146,7 @@ span.core-descriptor.kernel {
     left: 0;
     right: 0;
     margin: auto;
+}
+.col-xs-6.col-sm-3.engineering-icon {
+    height: 260px;
 }
