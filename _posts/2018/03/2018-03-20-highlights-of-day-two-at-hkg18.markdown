@@ -31,4 +31,4 @@ After the keynotes, the afternoon was spent hacking and attending technical sess
 
 {% include image.html name="Fujitsu-tshirt.jpg"  class="medium-inline"  alt="" %} 
 
-Tomorrow is Ecosystem Day where the leading Arm vendors, end users and the open source development community will come together in Hong Kong to discuss the latest products, developments and open source software support. Make sure to watch the keynotes from Microsoft and Xilinx livestreamed [here](https://www.youtube.com/channel/UCAl2MfCBjH5y0nIym0ujHfg/live) and check out the schedule [here](https://connect.linaro.org/ecosystem-day/) to see what Ecosystem has in store. 
+Tomorrow is Ecosystem Day where the leading Arm vendors, end users and the open source development community will come together in Hong Kong to discuss the latest products, developments and open source software support. Make sure to watch the keynotes from Microsoft and Xilinx livestreamed [here](https://www.youtube.com/channel/UCAl2MfCBjH5y0nIym0ujHfg/live) and check out the schedule [here](https://connect.linaro.org/resources/) to see what Ecosystem has in store. 

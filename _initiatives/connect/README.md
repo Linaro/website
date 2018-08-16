@@ -39,7 +39,7 @@ To see what Linaro has done at previous Linaro Connects, click on the event you 
 
 {:.responsive-table}
 |#|Venue|Location|Year|Date|Code|Attendees (est)|Resources Page|Photos|
-|22|Hyatt Regency San Francisco Airport Hotel|Burlingame, California, USA|2017|25 Sep - 29 Sep|SFO17| 448 | [SFO17 Resources](https://connect.linaro.org/sfo17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157687039294924)|
+|22|Hyatt Regency San Francisco Airport Hotel|Burlingame, California, USA|2017|25 Sep - 29 Sep|SFO17| 448 | [SFO17 Resources](https://connect.linaro.org/resources/sfo17/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157687039294924)|
 |21|Corinthia Hotel|Budapest, Hungary|2017|6 March - 10 March|BUD17| 413 |[BUD17 Resources](https://connect.linaro.org/bud17/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/sets/72157678721082122) |
 |20|JW Marriott Resort & Spa|Las Vegas, USA|2016|20 Sep - 25 Sep|LAS16| 478 |[LAS16 Resources](https://connect.linaro.org/las16/resources/)| [Photos](https://www.flickr.com/photos/linaroorg/albums/72157670966437214) |
 |19|Centara Grand Hotel at CentralWorld|Bangkok, Thailand|2016|7 Mar - 11 Mar|BKK16|467|[BKK16 Resources](https://connect.linaro.org/bkk16/resources/)|[BKK16 Photos](https://www.flickr.com/photos/linaroorg/albums/72157665519520505)|
