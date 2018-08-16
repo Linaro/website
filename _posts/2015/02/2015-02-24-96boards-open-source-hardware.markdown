@@ -19,7 +19,7 @@ title: 96Boards and Open Source Hardware
 wordpress_id: 8125
 ---
 
-Linaro announced the [96Boards initiative](https://www.96boards.org/) at the recent [Linaro Connect](http://connect.linaro.org/sfo15/) conference in Hong Kong on February 9th. Linaro is a software company, and the goal of 96Boards is to provide an option for standardization of SoC boards for software developers, the maker community and embedded product manufacturers. By reducing design time and defining common hardware interfaces, the goal is to create a platform that can enable the delivery of boards for software developers from a range of SoC vendors.
+Linaro announced the [96Boards initiative](https://www.96boards.org/) at the recent [Linaro Connect](https://connect.linaro.org/sfo15/) conference in Hong Kong on February 9th. Linaro is a software company, and the goal of 96Boards is to provide an option for standardization of SoC boards for software developers, the maker community and embedded product manufacturers. By reducing design time and defining common hardware interfaces, the goal is to create a platform that can enable the delivery of boards for software developers from a range of SoC vendors.
 
 Reactions in the community have been broadly positive with questions raised about the specified functionality, as well as some interesting comments on what constitutes open source hardware.
 

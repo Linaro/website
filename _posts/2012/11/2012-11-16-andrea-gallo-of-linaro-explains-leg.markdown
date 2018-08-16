@@ -29,7 +29,7 @@ Other topics Andrea and I discuss include how the work of the LEG group is coord
 
 With aggressive goals such as delivering the initial software before the end of this year I ask Andrea what that initial deliverable will really include and what members can expect out of this initial software?
 
-Andrea also looks to the future and outlines what attendees of the next Linaro Connect event—[LCA13-Hong Kong, to be held in early 2013](http://connect.linaro.org/lca13/)— can expect and if those attending can expect to see invites to a LEG mini-summit? I'll give you hint at this answer; he said yes, but you'll have to watch the video to get more details.
+Andrea also looks to the future and outlines what attendees of the next Linaro Connect event—[LCA13-Hong Kong, to be held in early 2013](https://connect.linaro.org/lca13/)— can expect and if those attending can expect to see invites to a LEG mini-summit? I'll give you hint at this answer; he said yes, but you'll have to watch the video to get more details.
 
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 

@@ -19,9 +19,9 @@ wordpress_id: 2216
 
 # Call for Participation!
 
-{% include image.html name="lca13.png" alt="Linaro Connect Image" url="http://connect.linaro.org/lca13/"%}
+{% include image.html name="lca13.png" alt="Linaro Connect Image" url="https://connect.linaro.org/lca13/"%}
 
-Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](http://connect.linaro.org) to showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination Arm based processor boards and Linaro builds of Android, Ubuntu and more.
+Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](https://connect.linaro.org) to showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination Arm based processor boards and Linaro builds of Android, Ubuntu and more.
 
 
 ## What is Demo Friday?
@@ -74,7 +74,7 @@ Demo Friday details can be found on the [Linaro Connect Site](/blog/demo-friday-
 ## Sponsorship Opportunities Still Available
 
 
-LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on March 4 -10 and sponsorship opportunities are still available. More information about levels and benefits of Linaro Connect sponsorship can be found [here](http://connect.linaro.org/sponsors/).
+LCA13 - Hong Kong will be take place at the Gold Coast Hotel in Hong Kong on March 4 -10 and sponsorship opportunities are still available. More information about levels and benefits of Linaro Connect sponsorship can be found [here](https://connect.linaro.org/sponsors/).
 
 
 ## Register Today
@@ -98,7 +98,7 @@ _**Linaro Connect**_
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit the _[ Linaro Connect Website](http://connect.linaro.org/)._
+__To find out more, please visit the _[ Linaro Connect Website](https://connect.linaro.org/)._
 
 _**Follow Linaro**_
 

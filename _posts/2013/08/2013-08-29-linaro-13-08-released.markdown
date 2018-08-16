@@ -48,7 +48,7 @@ Most of Linaro's working groups now have approved public roadmaps so it is possi
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](https://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](https://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:

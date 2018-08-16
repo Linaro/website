@@ -11,7 +11,7 @@ categories:
 - blog
 ---
 
-The 22nd Linaro Connect began on Monday 25 September with the [keynote](http://connect.linaro.org/resource/sfo17/sfo17-100k1/) given by Linaro CEO George Grey. As usual, Grey packed the opening hour with an update on new Linaro members, key engineering achievements, a look at areas of future interest and a series of demonstrations pulling together various aspects of Linaro’s current activities.
+The 22nd Linaro Connect began on Monday 25 September with the [keynote](https://connect.linaro.org/resources/sfo17/sfo17-100k1/) given by Linaro CEO George Grey. As usual, Grey packed the opening hour with an update on new Linaro members, key engineering achievements, a look at areas of future interest and a series of demonstrations pulling together various aspects of Linaro’s current activities.
 
 New members this time included [Xilinx joining the Linaro Iot and Embedded (LITE) Group](/news/xilinx-joins-linaro-iot-embedded-group/), Kylin joining the Linaro Enterprise Group ([LEG](/engineering/groups/ldcg/)) and NXP extending their existing LITE membership to also participate in the Linaro Digital Home Group ([LHG](/engineering/groups/)).
 

@@ -22,7 +22,7 @@ wordpress_id: 1936
 ## LCE 12 Copenhagen - What's all the Fuss about?
 
 
-[This event](http://connect.linaro.org/resources/#welcome) will bring together over 250 participants from over 50 companies, ranging from kernel hackers to integration engineers to Arm SoC industry executives and more, who will gather for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond to help shape the future of Linux on Arm.
+[This event](https://connect.linaro.org/resources/#welcome) will bring together over 250 participants from over 50 companies, ranging from kernel hackers to integration engineers to Arm SoC industry executives and more, who will gather for a week to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond to help shape the future of Linux on Arm.
 
 The week will kick off with short high-level plenary, followed by a few introductory sessions. Mornings are filled with presentations and discussion sessions on key topics which impact the Linux on Arm ecosystem, while the afternoons focus on hacking sessions. Think of it as learn in the mornings and apply the knowledge in the afternoon.
 
@@ -41,15 +41,15 @@ Sounds exciting and fun, right? Can't make it?  Don't worry you can still help 
 ## Remote Participation
 
 
-For those who can’t make it to[ LCE 12 - Copenhagen](http://connect.linaro.org/resources/), but you'd like to participate in this event we will be providing a live stream to the sessions using [Google+ Hangouts on Air](http://www.google.com/+/learnmore/hangouts/onair.html).
+For those who can’t make it to[ LCE 12 - Copenhagen](https://connect.linaro.org/resources/), but you'd like to participate in this event we will be providing a live stream to the sessions using [Google+ Hangouts on Air](http://www.google.com/+/learnmore/hangouts/onair.html).
 
 
 ## Schedule
 
 
-The complete schedule for LCE 12-Copenhagen can be found on the Linaro Connect website at: [http://connect.linaro.org/resources/#schedule](http://connect.linaro.org/resources/#schedule)
+The complete schedule for LCE 12-Copenhagen can be found on the Linaro Connect website at: [https://connect.linaro.org/resources/#schedule](https://connect.linaro.org/resources/#schedule)
 
-Click on the day of the week you are interested in about you will see the schedule for that day.  For example click [here](http://connect.linaro.org/resources/#schedule) and you can see the full schedule by track for Monday 29 October 2012.
+Click on the day of the week you are interested in about you will see the schedule for that day.  For example click [here](https://connect.linaro.org/resources/#schedule) and you can see the full schedule by track for Monday 29 October 2012.
 
 If a session is listed in one of the following rooms then it will be broadcast live during the event and will also be recorded and accessible via the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792/posts).
 
@@ -108,6 +108,6 @@ You can join these channels using your favorite IRC client or if you prefer you 
 
 
 After you have added  the [Linaro onAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts) to your Google
-+ circles or bookmarked the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792),  joined the [LCE IRC channels](http://webchat.freenode.net/?channels=lce-bc12%2Clce-bv2%2Clce-bv3%2C%20%23lce-bc16%2C%20%23lce-bc17%2Clce-bc18&uio=OT10cnVlJjEwPXRydWUmMTE9MjM218)) and figured out what [sessions you would like to attend](http://connect.linaro.org/resources/#schedule) all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCE 12 - Copenhagen schedule.
++ circles or bookmarked the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792),  joined the [LCE IRC channels](http://webchat.freenode.net/?channels=lce-bc12%2Clce-bv2%2Clce-bv3%2C%20%23lce-bc16%2C%20%23lce-bc17%2Clce-bc18&uio=OT10cnVlJjEwPXRydWUmMTE9MjM218)) and figured out what [sessions you would like to attend](https://connect.linaro.org/resources/#schedule) all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCE 12 - Copenhagen schedule.
 
 Thank you in advance for participating in LCE 12 - Copenhagen through remote participation. If you have any questions, comments, or feedback  about remote participation please let us know by emailing us at:  [connect@linaro.org](mailto:connect@linaro.org).

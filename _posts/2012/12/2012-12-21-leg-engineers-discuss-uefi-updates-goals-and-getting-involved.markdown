@@ -36,7 +36,7 @@ UEFI is only one [part of the roadmap](https://wiki.linaro.org/LEG#Scope_of_Work
 
 More information about LEG and its goals and release schedule can be found on the [Linaro Website](/engineering/groups/ldcg/) and [Wiki pages](https://wiki.linaro.org/LEG).
 
-To get involved with LEG and help plan the future of Linux on Arm in 2013 consider joining us at our next Linaro Connect event[ LCA13](http://connect.linaro.org) which will be held on 4-8 March at the Gold Coast Hotel in Hong Kong. [Registration](http://linaro.eventbrite.co.uk/) for this event is now open.
+To get involved with LEG and help plan the future of Linux on Arm in 2013 consider joining us at our next Linaro Connect event[ LCA13](https://connect.linaro.org) which will be held on 4-8 March at the Gold Coast Hotel in Hong Kong. [Registration](http://linaro.eventbrite.co.uk/) for this event is now open.
 
 
 #### About
@@ -58,4 +58,4 @@ _To find out more, please visit[ ](/)._
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_To find out more, please visit [Linaro Connect Website](http://connect.linaro.org)._
+_To find out more, please visit [Linaro Connect Website](https://connect.linaro.org)._

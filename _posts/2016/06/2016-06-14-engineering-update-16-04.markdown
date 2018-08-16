@@ -65,7 +65,7 @@ The content is decrypted using an AES Decryption Trusted Application that reside
 _Linaro ClearKey Implementation_
 
 
-So go ahead and give this a try.  The engineers in LHG have also created full W3C EME OP-TEE integrations with commercial DRMs such as Microsoft’s PlayReady and Google’s Widevine on both Linux- and Android-based solutions.  You will be able to see and hear more about LHG’s work in this area in our upcoming Connect event in Las Vegas in September ([LAS16](http://connect.linaro.org/las16/)).
+So go ahead and give this a try.  The engineers in LHG have also created full W3C EME OP-TEE integrations with commercial DRMs such as Microsoft’s PlayReady and Google’s Widevine on both Linux- and Android-based solutions.  You will be able to see and hear more about LHG’s work in this area in our upcoming Connect event in Las Vegas in September ([LAS16](https://connect.linaro.org/las16/)).
 
 
 ### **Some additional interesting links:**

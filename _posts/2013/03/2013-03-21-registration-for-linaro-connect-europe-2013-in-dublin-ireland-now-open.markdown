@@ -17,9 +17,9 @@ title: Registration for Linaro Connect Europe 2013 in Dublin, Ireland Now Open
 wordpress_id: 2579
 ---
 
-{% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="http://connect.linaro.org" %}
+{% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="https://connect.linaro.org" %}
 
-Linaro Connect Europe 2013 ([LCE13-Dublin](http://connect.linaro.org)) will take place at the Burlington Hotel in Dublin, Ireland on 8 - 12 July.  Registration for this event is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/).
+Linaro Connect Europe 2013 ([LCE13-Dublin](https://connect.linaro.org)) will take place at the Burlington Hotel in Dublin, Ireland on 8 - 12 July.  Registration for this event is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/).
 
 
 ## What is Linaro Connect all about?
@@ -41,10 +41,10 @@ If you are wondering what Linaro Connect events are all about then check out the
 ## Where can I find out more about LCE13-Dublin?
 
 
-To find out more about LCE13-Dublin please take a look at the [event website](http://connect.linaro.org). New information will be added as the schedule of events is finalized, so check back often.
+To find out more about LCE13-Dublin please take a look at the [event website](https://connect.linaro.org). New information will be added as the schedule of events is finalized, so check back often.
 
 
 ## How can I register to attend?
 
 
-Go to [connect.linaro.org](http://connect.linaro.org), then click on the "[Register Now](http://linaroconnect-lce13-eorg.eventbrite.com/)" button and follow those instructions.  There is a registration fee for this event. If you have questions about how to register please email [connect@linaro.org](mailto:connect@linaro.org)
+Go to [connect.linaro.org](https://connect.linaro.org), then click on the "[Register Now](http://linaroconnect-lce13-eorg.eventbrite.com/)" button and follow those instructions.  There is a registration fee for this event. If you have questions about how to register please email [connect@linaro.org](mailto:connect@linaro.org)

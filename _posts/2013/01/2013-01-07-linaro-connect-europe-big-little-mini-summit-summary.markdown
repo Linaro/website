@@ -19,7 +19,7 @@ title: Linaro big.LITTLE Mini-Summit Summary
 wordpress_id: 2207
 ---
 
-The [Linaro big.LITTLE Mini-Summit](http://connect.linaro.org/resources/) that was held on Thursday, 1 November, 2012 as part of [Linaro Connect Europe (LCE) 2012](http://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
+The [Linaro big.LITTLE Mini-Summit](https://connect.linaro.org/resources/) that was held on Thursday, 1 November, 2012 as part of [Linaro Connect Europe (LCE) 2012](https://connect.linaro.org/resources/) at the Bella Center in Copenhagen, Denmark.
 
 ## big.LITTLE Mini-Summit information
 
@@ -151,7 +151,7 @@ Information and links to all Linaro builds can be found on the [Linaro website](
 ## Linaro Connect
 
 
-More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
+More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](https://connect.linaro.org/).
 
 
 ## Staying Connected

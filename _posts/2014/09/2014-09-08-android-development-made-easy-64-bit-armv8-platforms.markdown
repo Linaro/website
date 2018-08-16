@@ -48,7 +48,7 @@ The release includes Armv8 optimizations for Android of OpenSSL, LibPNG and BION
 
 **by Khasim Syed Mohammed, Tech Lead - Android, Linaro Mobile Group.**
 
-**A lot More @ ****[2014 Linaro Connect USA](http://connect.linaro.org/lcu14/)**
+**A lot More @ ****[2014 Linaro Connect USA](https://connect.linaro.org/lcu14/)**
 
 Don’t miss this opportunity to meet Arm and Linaro engineers developing and integrating 64bit Armv8 features in Android AOSP. Following are few very important and key technical sessions for on Armv8 Android developers
 
@@ -88,4 +88,4 @@ Don’t miss this opportunity to meet Arm and Linaro engineers developing and in
   * [LCU14-106: QEMU for Armv8 and the 64-bit Android Emulator](https://lcu14.zerista.com/event/member/137709)
 
 
-You can also [remove participate](http://connect.linaro.org/lcu14/) Linaro Connect USA
+You can also [remove participate](https://connect.linaro.org/lcu14/) Linaro Connect USA

@@ -20,7 +20,7 @@ title: Can't Miss Demos at Linaro Connect in Hong Kong Announced
 wordpress_id: 1643
 ---
 
-With the [Q2.12 Linaro Connect](http://connect.linaro.org/resources/) starting on Monday 28 May, the list of Demos available for the public see and participate in during the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) event on 1 June is now available.
+With the [Q2.12 Linaro Connect](https://connect.linaro.org/resources/) starting on Monday 28 May, the list of Demos available for the public see and participate in during the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) event on 1 June is now available.
 
 Demos include:
 
@@ -63,4 +63,4 @@ Demos include:
   * Arm DS-5 & Linaro (Arm)
 
 
-As you can see engineers from Linaro will be giving the majority of these demos, but we will also have engineers from Arm, MICRON, SIPRop, and others who will be joining in as well. For links to the demo posters and more information about this event please see the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) page on the [Linaro Connect Website](http://connect.linaro.org/resources/).
+As you can see engineers from Linaro will be giving the majority of these demos, but we will also have engineers from Arm, MICRON, SIPRop, and others who will be joining in as well. For links to the demo posters and more information about this event please see the [Demo Friday](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/) page on the [Linaro Connect Website](https://connect.linaro.org/resources/).

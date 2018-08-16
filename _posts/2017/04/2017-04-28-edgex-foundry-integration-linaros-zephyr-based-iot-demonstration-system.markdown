@@ -30,7 +30,7 @@ In an earlier demonstration of the Linaro end-to-end IoT demo at Linaro Connect 
 {% include media.html media_url="https://youtu.be/8prRg5vkSHY" %}
 
 
-[1] BUD -17 Keynote Demonstration, Demo overview ~ 44 minutes, [http://connect.linaro.org/resource/bud17/bud17-100k1/](http://connect.linaro.org/resource/bud17/bud17-100k1/)
+[1] BUD -17 Keynote Demonstration, Demo overview ~ 44 minutes, [https://connect.linaro.org/resources/bud17/bud17-100k1/](https://connect.linaro.org/resources/bud17/bud17-100k1/)
 
 * * *
 

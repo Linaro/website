@@ -27,7 +27,7 @@ Dileep Bhandarkar from Qualcomm gave a keynote on the emerging computing trends 
 
 Following Dileep's keynote we had Dr Laura Dekker talk about what it is like to be an artist working in the field of Open Source. The past decade has seen a wide range of resources for artists such as Python and C++ libraries for natural language processing and biological simulation. Laura examined the different capacities there are for expression through computation, using her own artwork to show the audience examples of how she used Opensource. To view the recording of the keynote, click [here](https://www.youtube.com/watch?v=CjL2Tr7Kz1Y). 
 
-After the keynotes we had a few sessions on topics such as the New Linaro Enterprise Lab, QEMU in UEF and HPC Compiler Quality.  Videos and slides will be uploaded on the [Resources page](http://connect.linaro.org/hkg18/resources/) shortly. We then finished the week on a high with Demo Friday where we saw some fantastic showcases on Arm technology. Make sure to check out our [Linaro flickr page](https://www.flickr.com/photos/linaroorg/albums/72157664795733267) to see all the great demos that were presented! 
+After the keynotes we had a few sessions on topics such as the New Linaro Enterprise Lab, QEMU in UEF and HPC Compiler Quality.  Videos and slides will be uploaded on the [Resources page](https://connect.linaro.org/hkg18/resources/) shortly. We then finished the week on a high with Demo Friday where we saw some fantastic showcases on Arm technology. Make sure to check out our [Linaro flickr page](https://www.flickr.com/photos/linaroorg/albums/72157664795733267) to see all the great demos that were presented! 
 
 {% include image.html name="hkg18-group-photo-optimized.jpg"  class="medium-inline"  alt="" %} 
 
@@ -37,9 +37,9 @@ The next Linaro Connect (YVR18) will take place in Vancouver, 17-23 September 20
 
 For images from Linaro Connect: [Linaro's flickr page](https://www.flickr.com/photos/linaroorg/albums/72157664795733267)
 
-For session videos and slides: [Linaro Connect Resources Page HKG18](http://connect.linaro.org/hkg18/resources/) 
+For session videos and slides: [Linaro Connect Resources Page HKG18](https://connect.linaro.org/hkg18/resources/) 
 
-For more information on Linaro Connect and the upcoming YVR18: [The Linaro Connect website](http://connect.linaro.org) 
+For more information on Linaro Connect and the upcoming YVR18: [The Linaro Connect website](https://connect.linaro.org) 
 
 
 

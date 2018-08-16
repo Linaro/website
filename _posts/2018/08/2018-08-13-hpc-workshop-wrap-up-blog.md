@@ -16,7 +16,7 @@ image:
 {% include image.html name="hpcworkshop2.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 
-A couple of weeks ago Linaro hosted an HPC Workshop at Huawei’s offices in Santa Clara with coffee breaks and lunch sponsored by HiSilicon and an afternoon reception sponsored by Arm. If you are interested in HPC and were unable to make this workshop, we will be organising additional ones in the not too distant future so do follow us on [social media](https://twitter.com/LinaroOrg?lang=en) for updates. In the meantime, make sure to join us at [Linaro Connect Vancouver 2018](http://connect.linaro.org/) where we have several HPC discussions lined up. You can read about these further down in the blog. To register for Linaro Connect click [here](http://connect.linaro.org/register/).
+A couple of weeks ago Linaro hosted an HPC Workshop at Huawei’s offices in Santa Clara with coffee breaks and lunch sponsored by HiSilicon and an afternoon reception sponsored by Arm. If you are interested in HPC and were unable to make this workshop, we will be organising additional ones in the not too distant future so do follow us on [social media](https://twitter.com/LinaroOrg?lang=en) for updates. In the meantime, make sure to join us at [Linaro Connect Vancouver 2018](https://connect.linaro.org/) where we have several HPC discussions lined up. You can read about these further down in the blog. To register for Linaro Connect click [here](https://connect.linaro.org/register/).
 
   
 

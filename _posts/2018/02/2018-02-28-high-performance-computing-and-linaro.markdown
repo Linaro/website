@@ -29,7 +29,7 @@ Finally, an ecosystem is not an ecosystem without community involvement. Linaroâ
 
 Please join in the conversation. We are running a HPC BoF on Wednesday at the Arm Ecosystem Day. What are the topics I hear you say? We want this to be an open forum and thus all topics related to supercomputing/HPC are welcome but, of course, we have pencilled in Ansible, MPI, benchmarking, Spack and downstream testing.
 
-If you have not registered for Linaro Connect HKG18 already, you can [register here](http://connect.linaro.org/attend/).
+If you have not registered for Linaro Connect HKG18 already, you can [register here](https://connect.linaro.org/attend/).
 
 On that note, I look forward to meeting you all at HKG18!
 

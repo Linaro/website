@@ -24,7 +24,7 @@ title: Linaro Connect SFO15 week in review
 wordpress_id: 9565
 ---
 
-Linaro Connect celebrated its fifth anniversary at the Linaro Connect San Francisco held September 21-25, 2015. It was the largest Linaro Connect to date. There were keynotes each morning as well as many sessions and social events for attendees to select from. Many of the keynote and session presentations and videos are now available and can be found on the **[Linaro Connect SFO15 resources page](http://connect.linaro.org/sfo15/)**
+Linaro Connect celebrated its fifth anniversary at the Linaro Connect San Francisco held September 21-25, 2015. It was the largest Linaro Connect to date. There were keynotes each morning as well as many sessions and social events for attendees to select from. Many of the keynote and session presentations and videos are now available and can be found on the **[Linaro Connect SFO15 resources page](https://connect.linaro.org/sfo15/)**
 
 Linaro also made several announcements regarding new members, new groups at Linaro and many product demonstrations. On Monday George Grey, CEO of Linaro, began his keynote by welcoming the attendees to the fifth anniversary of Linaro Connect and Linaro.  He discussed some of the highlights over the last five years and what to expect going forward.  He then made an announcement about a new group that is being formed by the end of 2015 in Linaro called, [Linaro IoT & Embedded Group (LITE) ](https://youtu.be/5viiqYeOATI?t=24m14s)which will focus on  Cortex-A  Linux devices.   There were also several [demonstrations around the 96Boards initiative](https://youtu.be/5viiqYeOATI?t=33m25s) during the keynote.  On Tuesday Linaro announced that two new members have joined Linaro, [Acadine Technologies](https://youtu.be/S3YMBLOTXSI?t=3m6s) and [Tinno Mobile](https://youtu.be/5viiqYeOATI?t=1h29m16s) have joined as members of the Linaro Mobile Group (LMG).
 
@@ -56,6 +56,6 @@ In addition to the keynotes and sessions there was a rich assortment of demonst
 {% include image.html name="21639125656_c82bd7d3c7_k.jpg" %}
 {% include image.html name="21094726674_d1b03c03d7_k.jpg" %}
 
-The next Linaro Connect will take place March 7-11, 2016 in Bangkok, Thailand. To see more about Linaro Connect please visit: [http://connect.linaro.org/bkk16/](http://connect.linaro.org/bkk16/)
+The next Linaro Connect will take place March 7-11, 2016 in Bangkok, Thailand. To see more about Linaro Connect please visit: [https://connect.linaro.org/bkk16/](https://connect.linaro.org/bkk16/)
 
 {% include image.html name="BKK16-Banner.jpg" alt="BKK16 Banner"%}

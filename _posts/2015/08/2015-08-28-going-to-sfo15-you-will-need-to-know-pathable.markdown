@@ -40,7 +40,7 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 **Step 1:** Go to the pathable site: [**https://sfo15.pathable.com/**](https://sfo15.pathable.com/)
 
-**Step 2:** Login - If you have [registered for Linaro Connect SFO15](http://connect.linaro.org/attend/) you should have received an email from pathable after 10 Aug with your login details. This email was entitled: “Please join Linaro Connect San Francisco 2015″. If you cannot find this email please send an email to: [connect@linaro.org](mailto:connect@linaro.org)
+**Step 2:** Login - If you have [registered for Linaro Connect SFO15](https://connect.linaro.org/attend/) you should have received an email from pathable after 10 Aug with your login details. This email was entitled: “Please join Linaro Connect San Francisco 2015″. If you cannot find this email please send an email to: [connect@linaro.org](mailto:connect@linaro.org)
 
 **Step 3:** Once you get logged in - You will want to update your profile page so that other attendees know who you are, as well as set-up your password to something you can remember easily. 
 

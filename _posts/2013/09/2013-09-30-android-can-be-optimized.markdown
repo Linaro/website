@@ -70,7 +70,7 @@ In our next post we will provide you with:
 
 **Related Links:**  [Linaro Android Team page](/engineering/groups/lcg/)
 
-If you are attending [Linaro Connect USA 2013 ](http://connect.linaro.org/lcu13/)in Santa Clara, CA October 28th-November 1st  -- please join us for our Android sessions on:
+If you are attending [Linaro Connect USA 2013 ](https://connect.linaro.org/lcu13/)in Santa Clara, CA October 28th-November 1st  -- please join us for our Android sessions on:
 
 October 28th 2013 : Android not in sync with upstream & external projects
 
