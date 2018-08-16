@@ -33,7 +33,7 @@ Following the keynote we had our final mini-conference of the week. The topic wa
 {% include image.html name="las16-blog-img5.jpg" alt="LAS16 Image 5" %}
 {% include image.html name="las16-blog-img6.jpg" alt="LAS16 Image 6" %}
 
-To see the videos and materials available from the conference as well as the other sessions that took place on Thursday visit: [Connect Resources](http://connect.linaro.org/las16/resources/#wednesday)
+To see the videos and materials available from the conference as well as the other sessions that took place on Thursday visit: [Connect Resources](http://connect.linaro.org/resources/las16/)
 
 Thursday night was our Linaro Connect party for all the attendees. There was great food and drinks as well as lots of games for people to try out. The party was Vegas themed and we had many people "dress up" for the event and take advantage of our photo booth to capture some team fun. These are some of our favorites.
 
