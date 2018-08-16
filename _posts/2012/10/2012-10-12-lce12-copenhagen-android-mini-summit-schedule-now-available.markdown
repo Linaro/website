@@ -19,7 +19,7 @@ title: 'LCE12 - Copenhagen: Android Mini-Summit Schedule Now Available'
 wordpress_id: 1928
 ---
 
-_As plans for [LCE12 - Copenhagen](http://connect.linaro.org/resources/#welcome) are finalized we are pleased to announce [schedules](http://connect.linaro.org/resources/#schedule) for the various mini-summits which are being held in conjunction with this Linaro Connect event._
+_As plans for [LCE12 - Copenhagen](https://connect.linaro.org/resources/#welcome) are finalized we are pleased to announce [schedules](https://connect.linaro.org/resources/#schedule) for the various mini-summits which are being held in conjunction with this Linaro Connect event._
 
 _Below is a look at the Android Mini-Summit which is scheduled to take place on Wednesday, October 31, 2012 during LCE12 at the Bella Center in Copenhagen, Denmark._
 
@@ -157,7 +157,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 ## Will there be other Android sessions being held at LCE12 or will the mini-summit be the only time to participate in the various Linaro Android Sessions?
 
 
-Yes, there will be a standard Linaro Android track which will take place throughout the week.  As the schedule is finalized, you can see more about the other scheduled track sessions [here](http://connect.linaro.org/resources/#schedule) (be sure to click on the days of the week to see the schedule by day).
+Yes, there will be a standard Linaro Android track which will take place throughout the week.  As the schedule is finalized, you can see more about the other scheduled track sessions [here](https://connect.linaro.org/resources/#schedule) (be sure to click on the days of the week to see the schedule by day).
 
 The following are some of the additional Android sessions that will be held in addition to the mini-summit.
 
@@ -206,6 +206,6 @@ Yes, the sessions will be recorded and live streamed via Google + Hangouts on Ai
 
 
 
-_More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](http://connect.linaro.org/resources/#welcome)._
+_More information about LCE12 - Copenhagen can be found on the [Linaro Connect Website](https://connect.linaro.org/resources/#welcome)._
 
  _Find out more about Linaro at [linaro.org](/). _

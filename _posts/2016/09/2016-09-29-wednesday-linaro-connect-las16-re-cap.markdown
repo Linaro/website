@@ -18,7 +18,7 @@ tags:
 - Open Source
 - Opensource
 ---
-Wednesday at Linaro Connect LAS16 began with a great key by Geoff Thorpe who heads up security within the Microcontroller group of NXP. Geoff gave an overview of  Zephyr and talked about the what, where, why as well as gave an update on the status of Zephyr. Geoff also discussed IoT security including the terminology, disruptions, observations and how Zephyr fits into this. Watch the keynote and see the slides: [http://connect.linaro.org/resource/las16/las16-300k2/](http://connect.linaro.org/resource/las16/las16-300k2/)
+Wednesday at Linaro Connect LAS16 began with a great key by Geoff Thorpe who heads up security within the Microcontroller group of NXP. Geoff gave an overview of  Zephyr and talked about the what, where, why as well as gave an update on the status of Zephyr. Geoff also discussed IoT security including the terminology, disruptions, observations and how Zephyr fits into this. Watch the keynote and see the slides: [https://connect.linaro.org/resources/las16/las16-300k2/](https://connect.linaro.org/resources/las16/las16-300k2/)
 
 {% include image.html name="29363043603_3acc387d07_k.jpg" %}
 

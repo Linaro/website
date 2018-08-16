@@ -28,7 +28,7 @@ As usual, this intensive week will involve the best software developers particip
   2. **Connecting with the future:** Looking ahead to the software requirements for Arm's new architectures and upcoming member platforms, including big.LITTLE, boot architecture (UEFI), A15 virtualization and Arm based servers
 
 These themes reflect the key elements of the Linaro roadmap, which is driven by Linaro's [Technical Steering Committee](/about/team/technical-steering-committee/), and much of the [Schedule](http://connect.linaro.org/) for Linaro Connect Q2.12 will be derived from this roadmap.
-[Linaro Connect Q1.12](http://connect.linaro.org/resources/) happened last month in Redwood City, CA with more than 300 delegates from over 50 companies. These were some of my personal highlights, which also give you a nice overview of what happens at a Linaro Connect event:
+[Linaro Connect Q1.12](https://connect.linaro.org/resources/) happened last month in Redwood City, CA with more than 300 delegates from over 50 companies. These were some of my personal highlights, which also give you a nice overview of what happens at a Linaro Connect event:
 We hosted 5 Summits including:
 
   * [Scheduler Summit:](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources) Together with several Linux maintainers, Linaro set out plans to enhance the Linux scheduler to support big.LITTLE systems and make the scheduler more power-aware
