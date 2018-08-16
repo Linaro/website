@@ -19,7 +19,7 @@ wordpress_id: 2414
 
 {% include image.html name="Karim_Yaghmour.jpg" alt="Karim Yahhmour" url="https://plus.google.com/108468544076975482998/posts" class="small-inline right"%}
 
-Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](http://connect.linaro.org) in Hong Hong.
+Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](https://connect.linaro.org) in Hong Hong.
 
 ## Embedded Android Training Workshop
 
@@ -48,10 +48,10 @@ Specifically, we will start by introducing Android's overall architecture and th
 Individuals who are interested in attending this workshop can do so either in person or through remote participation.
 
 _**In-Person**_
-To attend in person you need to register to attend Linaro Connect Asia 2013 (please note that in-person registration will end tomorrow, 22 February 2013).  To register go to[ /connect](http://connect.linaro.org) click on the[ registration button](http://linaro.eventbrite.co.uk/). Once you have registered to attend (note there is a cost to attend) you will get an email from our event scheduling system that will give you instructions for setting up your account and logging in.  Once you have logged you can set up your personal profile and pick the sessions you will be attending to create your personalized event schedule.  There is also a[ Zerista mobile app](https://lca-13.zerista.com/conference/state/1151) available (search LCA-13 or Linaro) for Android and iPhone users. If you are already registered and planning on attending in person just add these sessions to your schedule.
+To attend in person you need to register to attend Linaro Connect Asia 2013 (please note that in-person registration will end tomorrow, 22 February 2013).  To register go to[ /connect](https://connect.linaro.org) click on the[ registration button](http://linaro.eventbrite.co.uk/). Once you have registered to attend (note there is a cost to attend) you will get an email from our event scheduling system that will give you instructions for setting up your account and logging in.  Once you have logged you can set up your personal profile and pick the sessions you will be attending to create your personalized event schedule.  There is also a[ Zerista mobile app](https://lca-13.zerista.com/conference/state/1151) available (search LCA-13 or Linaro) for Android and iPhone users. If you are already registered and planning on attending in person just add these sessions to your schedule.
 
 _**Remote Participation**_
-The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ http://connect.linaro.org/lcu14/](http://connect.linaro.org/lcu14/)
+The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)
 For the best remote participation experience you’ll need to do the following:
 
 
@@ -71,4 +71,4 @@ After you have added the[ Linaro onAir Google+ Page](https://plus.google.com/u/0
 
 If you have any questions, comments, or feedback about remote participation please let us know by emailing us at: [connect@linaro.org](mailto:connect@linaro.org).
 
-More information about Linaro Connect can be found at:[ /connect](http://connect.linaro.org)
+More information about Linaro Connect can be found at:[ /connect](https://connect.linaro.org)

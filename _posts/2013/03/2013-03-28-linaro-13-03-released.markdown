@@ -56,7 +56,7 @@ During the 13.03 release cycle, Linaro was pleased to announce that Mark Orvek, 
 
 
 
-Linaro Connect Europe 2013 will take place at the Burlington Hotel on 8 - 12 July in Dublin, Ireland.  Registration for this event is now open. More information about this event can be found at [connect.linaro.org](http://connect.linaro.org).
+Linaro Connect Europe 2013 will take place at the Burlington Hotel on 8 - 12 July in Dublin, Ireland.  Registration for this event is now open. More information about this event can be found at [connect.linaro.org](https://connect.linaro.org).
 
 
 For those who may have missed Linaro Connect Asia 2013 a summary of the event can be found at: [https://wiki.linaro.org/Events/LCA13/](https://wiki.linaro.org/Events/LCA13/)

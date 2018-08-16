@@ -18,7 +18,7 @@ wordpress_id: 2759
 
 {% include image.html name="2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg" alt="Leslie Hawthorn" class="small-inline"%}
 
-We're excited to announce that Leslie Hawthorn, Community Action and Impact Manager for [Red Hat, Inc.](http://www.redhat.com/) will be giving the Wednesday, July 10 keynote at [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13).
+We're excited to announce that Leslie Hawthorn, Community Action and Impact Manager for [Red Hat, Inc.](http://www.redhat.com/) will be giving the Wednesday, July 10 keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 
 
 An internationally known open source advocate, speaker and author,[ Leslie Hawthorn](http://twitter.com/lhawthorn) has spent the last decade engaged in the human-focused bits of technology: community tending, software project management, marketing and public relations. In March 2012, she joined[ Red Hat, Inc.](http://redhat.com/), where she leads the team responsible for Community Action & Impact as part of the company’s Open Source and Standards Team, Office of the CTO. Prior to Red Hat, she served as Outreach Manager at[ Oregon State University’s Open Source Lab](http://osuosl.org/) and as a Program Manager for[ Google’s Open Source Team](http://code.google.com/opensource), where she managed the[ Google Summer of Code Program](http://code.google.com/soc/), created the contest known as[ Google Code In](https://codein.withgoogle.com) and launched the company’s[ Open Source Developer Blog](http://google-opensource.blogspot.com/).
@@ -66,4 +66,4 @@ Drawing on years of experience working with hundreds of open source projects, Le
 With open source development as our lens, we will also examine how Negotiation Theory and Collaborative Communication can best be brought to bear in our communities. Attendees will be treated to an examination of real-world scenarios faced by various communities, an understanding of how these communities overcame their challenges and the ongoing work required to maintain community cohesion. Participants will leave with food for discussion on improving their own practices and armed with strategies for improving and strengthening their community relationships.
 
 
-More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+More information on the LCE-13 schedule can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)

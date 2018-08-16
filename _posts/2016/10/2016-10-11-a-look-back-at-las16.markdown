@@ -146,7 +146,7 @@ Speakers: Thomas Gall, Bernhard Rosenkränzer
 ## **Segment Team Sessions**
 
 
-Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect LAS16. To see all the sessions held during the week and get access to all presentations and videos please visit the [Linaro Connect LAS16 Resources.](http://connect.linaro.org/las16/resources/)
+Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect LAS16. To see all the sessions held during the week and get access to all presentations and videos please visit the [Linaro Connect LAS16 Resources.](https://connect.linaro.org/las16/resources/)
 
 
 **96Boards**

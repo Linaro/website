@@ -19,9 +19,9 @@ title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
 wordpress_id: 2323
 ---
 
-{% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="http://connect.linaro.org"%}
+{% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="https://connect.linaro.org"%}
 
-[Linaro Connect Asia 2013 (LCA13)](http://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](http://connect.linaro.org/) as engineers from around the Arm ecosystem gather to build the future of Linux on Arm.
+[Linaro Connect Asia 2013 (LCA13)](https://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](https://connect.linaro.org/) as engineers from around the Arm ecosystem gather to build the future of Linux on Arm.
 
 **Keynote Speakers**
 
@@ -86,7 +86,7 @@ If you will be at Connect and want to show off how you or your organization is u
 
 **Register Today!**
 
-Registration for Linaro Connect Asia 2013 is [still open](http://connect.linaro.org). More information and the full schedule can be found [here](https://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929). Note that the schedule is not complete and more sessions are being added daily.
+Registration for Linaro Connect Asia 2013 is [still open](https://connect.linaro.org). More information and the full schedule can be found [here](https://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929). Note that the schedule is not complete and more sessions are being added daily.
 
 **_About Linaro_**
 
@@ -98,7 +98,7 @@ _ [](/about/)_
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit [Connect](http://connect.linaro.org)__
+__To find out more, please visit [Connect](https://connect.linaro.org)__
 
 **_Follow Linaro_**
 _ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

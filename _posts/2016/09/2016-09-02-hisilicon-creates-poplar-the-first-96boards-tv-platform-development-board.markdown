@@ -37,7 +37,7 @@ LHG will use the Poplar platform as a target for reference platform builds (RPBs
 
 LHG will work closely with HiSilicon throughout the process of upstreaming Poplar kernel and driver support to the Linux kernel and Android Open Source Project (AOSP) to ensure that the latest kernel features can be used by LHG and the larger community for development.
 
-Please visit LHG at[ LAS16](http://connect.linaro.org/las16/) to see some of the first Poplar board demos. We look forward to seeing you!
+Please visit LHG at[ LAS16](https://connect.linaro.org/las16/) to see some of the first Poplar board demos. We look forward to seeing you!
 
 **Additional Information:**
 

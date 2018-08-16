@@ -80,4 +80,4 @@ _To ensure commercial quality software, Linaro’s work includes comprehensive t
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_More information on upcoming Linaro Connect events can be found on the the[ Linaro Connect Website](http://connect.linaro.org/).  You can also stay in touch with what is happening in and around Linaro by following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._
+_More information on upcoming Linaro Connect events can be found on the the[ Linaro Connect Website](https://connect.linaro.org/).  You can also stay in touch with what is happening in and around Linaro by following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

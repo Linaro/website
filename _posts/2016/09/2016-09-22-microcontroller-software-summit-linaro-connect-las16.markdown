@@ -43,4 +43,4 @@ In addition to the Summit there are several IOT and embedded sessions that will 
 
 * LAS16-407: Internet of Tiny Linux (IoTL): the sequel.
 
-To Learn more about these sessions and Linaro Connect visit:  [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+To Learn more about these sessions and Linaro Connect visit:  [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)

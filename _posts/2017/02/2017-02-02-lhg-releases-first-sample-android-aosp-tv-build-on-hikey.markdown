@@ -27,7 +27,7 @@ _Authors: Khasim Syed Mohammed and Mark Gregotski_
 
 The [Linaro Digital Home Group](/engineering/groups/) (LHG) has released an initial implementation of Android “AOSP TV” for the [96Boards HiKey platform](http://www.96boards.org/product/hikey/). This build is just the start of things to come on Android TV in LHG. 
 
-You will be able to see a demonstration of the Android TV work and much more of the LHG activities at the upcoming [Linaro Connect event](http://connect.linaro.org/) taking place March 6-10 in Budapest.
+You will be able to see a demonstration of the Android TV work and much more of the LHG activities at the upcoming [Linaro Connect event](https://connect.linaro.org/) taking place March 6-10 in Budapest.
 
 * * *
 
@@ -125,4 +125,4 @@ Have fun playing with this and look for future releases from LHG!
 
 
 
-Remember to attend the [Linaro Connect event](http://connect.linaro.org/) in Budapest for a full week of interesting keynotes, presentations and demos from all the groups focusing on the exciting evolution of open source software for the Arm ecosystem. Be sure to drop by the LHG hacking room and say hello. See all the technologies and demos we are working on!
+Remember to attend the [Linaro Connect event](https://connect.linaro.org/) in Budapest for a full week of interesting keynotes, presentations and demos from all the groups focusing on the exciting evolution of open source software for the Arm ecosystem. Be sure to drop by the LHG hacking room and say hello. See all the technologies and demos we are working on!

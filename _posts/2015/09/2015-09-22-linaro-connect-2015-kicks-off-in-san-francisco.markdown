@@ -195,5 +195,5 @@ Be sure to check back in tomorrow morning to watch two great keynotes live. Firs
 The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be John Simmons, Media Platform Architect at Microsoft, who will give a keynote on ["The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications"](https://sfo15.pathable.com/meetings/302830). You can watch this keynote streamed live here: [https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k](https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k)
 
 
-Visit [http://connect.linaro.org/sfo15/](http://connect.linaro.org/sfo15/) for updates throughout the week.
+Visit [https://connect.linaro.org/sfo15/](https://connect.linaro.org/sfo15/) for updates throughout the week.
 

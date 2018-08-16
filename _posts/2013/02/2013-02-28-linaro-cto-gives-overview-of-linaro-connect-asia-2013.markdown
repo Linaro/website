@@ -19,7 +19,7 @@ title: Linaro CTO Gives Overview of Linaro Connect Asia 2013
 wordpress_id: 2467
 ---
 
-In a video interview, [David A. Rusling](/about/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](http://connect.linaro.org) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.
+In a video interview, [David A. Rusling](/about/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](https://connect.linaro.org) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.
 
 {% include image.html name="Keynotes_HK.jpg" alt="Keynotes Hong Kong" class="small-inline" %}
 
@@ -34,10 +34,10 @@ More information about the topics discussed in this interview  can be found at:
   * **Linaro Connect:** [/connect/](https://connect.linaro.org)
 
 
-  * **Linaro Connect Schedule:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+  * **Linaro Connect Schedule:** [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
 
-  * **Remote Participation:** [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+  * **Remote Participation:** [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
 
   * **Lava Workshop:** [/blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/](/blog/lava-workshop-at-linaro-connect-asia-2013-in-hong-kong/)

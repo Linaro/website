@@ -122,4 +122,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT SAN FRANCISCO 2015**
 
-Linaro Connect San Francisco 2015 will be held September 21-25, 2015.  More information on this event can be found at: [http://connect.linaro.org/sfo15/](http://connect.linaro.org/sfo15/)
+Linaro Connect San Francisco 2015 will be held September 21-25, 2015.  More information on this event can be found at: [https://connect.linaro.org/sfo15/](https://connect.linaro.org/sfo15/)

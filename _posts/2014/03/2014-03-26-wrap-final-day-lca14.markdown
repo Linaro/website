@@ -194,4 +194,4 @@ No Video available
 </table>
 
 
-Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](http://connect.linaro.org/lca14)
+Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](https://connect.linaro.org/lca14)

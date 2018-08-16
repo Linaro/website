@@ -35,7 +35,7 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 **Step 1:** Go to the pathable site: [**https://bkk16.pathable.com/**](https://bkk16.pathable.com/)
 
-**Step 2:** Login – If you have [registered for Linaro Connect BKK16](http://connect.linaro.org/attend/) you should have received an email from pathable after 12 February with your login details. This email was entitled: “Please join Linaro Connect Bangkok 2016″. If you cannot find this email please send an email to: connect@linaro.org
+**Step 2:** Login – If you have [registered for Linaro Connect BKK16](https://connect.linaro.org/attend/) you should have received an email from pathable after 12 February with your login details. This email was entitled: “Please join Linaro Connect Bangkok 2016″. If you cannot find this email please send an email to: connect@linaro.org
 
 **Step 3:** Once you get logged in – You will want to update your profile page so that other attendees know who you are, as well as set-up your password to something you can remember easily. 
 

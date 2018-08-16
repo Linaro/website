@@ -45,6 +45,6 @@ Linaro [announced](/news/networking-leaders-collaborate-to-maximize-choice-perfo
 
 Overall this was a very exciting week for me and  I cherished every moment during at this Connect event. I hope others thoroughly enjoyed this event as much as I did connect. The social events which took place during the week were amazing as well. I enjoyed all the discussions during the evening Meet and Greet.  Spending time with all my friends was great fun as we went to Mong Konk to do some electronics related shopping, and to Lantau Island and the Big Buddha Temple, which is so amazing and peaceful.
 
-Our next Connect event--[Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org)--will be in Dublin, Ireland.
+Our next Connect event--[Linaro Connect Europe 2013 (LCE13)](https://connect.linaro.org)--will be in Dublin, Ireland.
 
 I hope to get back to you very soon :)

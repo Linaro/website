@@ -151,7 +151,7 @@ Information and links to all Linaro builds can be found on the [Linaro website](
 ## Linaro Connect
 
 
-More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
+More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA) 2013](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/)) can be found on the the [Linaro Connect Website](https://connect.linaro.org/).
 
 
 ## Staying Connected

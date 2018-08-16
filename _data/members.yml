@@ -436,6 +436,7 @@
     - name: Rohm
       image: rohm.jpg
       url: /company/rohm/
+<<<<<<< HEAD
 - id: boards-ai
   membership_group_name: 96Boards AI Partners
   members:
@@ -448,6 +449,41 @@
     - name: HopeRun
       image: hoperun.jpg
       url: /company/hoperun/
+=======
+community_members:
+    - name: IBM
+      image: ibm.jpg
+      url: /company/ibm/
+    - name: The Linux Foundation
+      image: linux_foundation.jpg
+      url: /company/linux-foundation/
+community_initiatives:
+    - name: 96Boards
+      image: 96boards-logo.png
+      url: https://www.96boards.org
+    - name: OpenDataPlane
+      image: odp-logo.webp
+      url: https://www.opendataplane.org
+    - name: OP-TEE
+      image: optee-logo.png
+      url: https://www.op-tee.org
+    - name: Device Tree
+      image: devicetree-logo.webp
+      url: https://www.devicetree.org
+    - name: Linaro Connect
+      image: connect-logo.png
+      url: https://connect.linaro.org
+    - name: Lava
+      image: lava-logo.png
+      url: /initiatives/lava/
+    - name: Developer Cloud
+      image: developer-cloud-logo.png
+      url: https://www.linaro.cloud/
+devicetree_members:
+    - name: Arm
+      image: arm.jpg
+      url: /company/arm/
+>>>>>>> e3fa29c6a1cdb2d652ebdd2ebfbd966b3299ef24
     - name: Hisilicon
       image: hisilicon.jpg
       url: /company/hisilicon/

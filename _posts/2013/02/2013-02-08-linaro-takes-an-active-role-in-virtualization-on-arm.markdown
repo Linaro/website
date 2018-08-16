@@ -49,4 +49,4 @@ _More information about the Linaro Virtualization Team can be found at: [https:/
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org)._
+_More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org)._

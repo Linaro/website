@@ -64,4 +64,4 @@ Our Demo Friday event will take place between 5:00 - 6:00 pm today in Grand Ball
 ## Remote Participation
 
 
-Remote Participation instructions can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+Remote Participation instructions can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
