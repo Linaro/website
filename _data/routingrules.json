@@ -266,5 +266,7 @@
     "^/verification-testing-continuous-integration-ci(/?|/index.html)$ /services/verification-testing-ci/ [R,L,NC]",
     "^/watch-the-announcement-of-linaro-at-computex(/?|/index.html)$ /news/watch-announcement-linaro-computex/ [R,L,NC]",
     "^/watercooler(/?|/index.html)$ https://bluejeans.com/555111222333/ [R,L,NC]",
-    "^/work(/?|/index.html)$ /engineering/ [R,L,NC]"
+    "^/work(/?|/index.html)$ /engineering/ [R,L,NC]",
+    "^/app/resources/Presentations/ARM_updateDAVE_BRASH.pdf$ /engineering/ [R,L,NC]",
+    "^/app/resources/Presentations/ARM_updateDAVE_BRASH1.pdf$ /engineering/ [R,L,NC]"
 ]
