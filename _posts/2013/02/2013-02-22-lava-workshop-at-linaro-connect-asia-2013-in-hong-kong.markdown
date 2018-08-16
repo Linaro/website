@@ -18,7 +18,7 @@ title: LAVA Workshop at Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2425
 ---
 
-Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on Arm; additionally, there will be afternoon hacking sessions and[ morning keynotes](/blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](http://connect.linaro.org/).
+Linaro is pleased to announce that it will be offering a LAVA workshop as part of its Linaro Connect Asia 2013 (LCA-13)  event. LCA-13 is packed with thought provoking discussion and planning sessions which help design and build the future of Linux on Arm; additionally, there will be afternoon hacking sessions and[ morning keynotes](/blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/) by leading industry players. LCA-13 will take place at the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 and the [full schedule is now available](https://connect.linaro.org/).
 
 ## What is LAVA?
 
@@ -53,7 +53,7 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](/about/) w
 ### _In-Person_
 
 
-1. Register for LCA13:[ http://connect.linaro.org](http://connect.linaro.org/)
+1. Register for LCA13:[ https://connect.linaro.org](https://connect.linaro.org/)
 
 2. Register for the “Hands-On LAVA” Session (Wed 4pm)
 
@@ -81,7 +81,7 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](/about/) w
 ### _Remote Participation_
 
 
-Many of our sessions are being offered via Google+ Hangouts on Air.  To find out more about remote participation go to: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+Many of our sessions are being offered via Google+ Hangouts on Air.  To find out more about remote participation go to: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
 
 ### **Follow Linaro**
@@ -119,7 +119,7 @@ _More information about the LAVA Team can be found at: [https://wiki.linaro.org/
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-_To find out more, please visit: [Connect](http://connect.linaro.org)_
+_To find out more, please visit: [Connect](https://connect.linaro.org)_
 
 
 ### _About Linaro_

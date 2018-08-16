@@ -38,7 +38,7 @@ My current role is to understand how LLVM fits around the Arm ecosystem and what
 
 Our main focus will be around the Cortex-A* platform, mainly A9 and A15, paying special attention to automatic vectorization (NEON), ABI and cross-compilation issues, as well finding relevant benchmarks for Arm platforms. We want LLVM to perform well where people will use it, not just to look good in the paper.
 
-**Question: With [Linaro Connect Europe](http://connect.linaro.org) happening in July what can attendees expect to see on the LLVM front?**
+**Question: With [Linaro Connect Europe](https://connect.linaro.org) happening in July what can attendees expect to see on the LLVM front?**
 
 The Linaro LLVM team has just started, so I can't promise much. I'm working on the 3.3 release now and will run some benchmarks after that, hopefully before LCE, so that we can get at least some numbers out to share with the other Linaro teams, members and the general Arm community, so that we can focus on the right things up from the start.
 
@@ -52,4 +52,4 @@ More information about the **Linaro Toolchain Team** can be found at: [https://
 
 More information about **LLVM** can be found at: [http://llvm.org/](http://llvm.org/)
 
-More information on **Linaro Connect Europe 2013** can be found at: [Connect](http://connect.linaro.org)
+More information on **Linaro Connect Europe 2013** can be found at: [Connect](https://connect.linaro.org)

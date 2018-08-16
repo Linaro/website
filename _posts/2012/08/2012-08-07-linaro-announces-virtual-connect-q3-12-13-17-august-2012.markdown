@@ -19,7 +19,7 @@ title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
 wordpress_id: 1735
 ---
 
-[Linaro](/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](http://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
+[Linaro](/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](https://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
 
 ## What's a Virtual Connect?
 

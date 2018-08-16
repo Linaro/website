@@ -240,7 +240,7 @@
 - date: 2014-03-01 09:00:00+00:00
   text: |-
         Linaro Connect Asia 2014 (LCA14) in Macau
-  link: http://connect.linaro.org/lca14/
+  link: https://connect.linaro.org/lca14/
 - date: 2014-03-02 09:00:00+00:00
   text: |-
         MediaTek joins Linaro as club member
@@ -284,7 +284,7 @@
 - date: 2014-09-01 09:00:00+00:00
   text: |-
         Linaro Connect USA 2014 (LCA14) in Burlingame
-  link: http://connect.linaro.org/lcu14/
+  link: https://connect.linaro.org/lcu14/
 - date: 2014-10-01 09:00:00+00:00
   text: |-
         Linaro announces Spreadtrum Communications as latest Club Member
@@ -296,7 +296,7 @@
   year-start: true
   text: |-
         Linaro Connect Hong Kong 2015 (HKG15)
-  link: http://connect.linaro.org/hkg15/
+  link: https://connect.linaro.org/hkg15/
 - date: 2015-02-02 09:00:00+00:00
   text: |-
         Linaro announces 96Boards initiative
@@ -340,7 +340,7 @@
 - date: 2015-09-01 09:00:00+00:00
   text: |-
         Linaro Connect San Francisco 2015 (SFO15)
-  link: http://connect.linaro.org/sfo15/
+  link: https://connect.linaro.org/sfo15/
 - date: 2015-10-01 09:00:00+00:00
   text: |-
         Linaro appoints Guy Berruyer Chairman
@@ -361,7 +361,7 @@
 - date: 2016-03-01 09:00:00+00:00
   text: |-
         Linaro Connect Bangkok 2016 (BKK16)
-  link: http://connect.linaro.org/bkk16/
+  link: https://connect.linaro.org/bkk16/
 - date: 2016-03-02 09:00:00+00:00
   text: |-
         Linaro announces support for 96Boards HiKey in AOSP
@@ -389,7 +389,7 @@
 - date: 2016-09-01 09:00:00+00:00
   text: |-
         Linaro Connect Las Vegas 2016 (LAS16)
-  link: http://connect.linaro.org/las16/
+  link: https://connect.linaro.org/las16/
 - date: 2016-09-02 09:00:00+00:00
   text: |-
         Linaro Announces LITE – Collaborative Software Engineering for the Internet of Things (IoT)
@@ -402,7 +402,7 @@
   year-start: true
   text: |-
         Linaro Connect Budapest 2017 (BUD17)
-  link: http://connect.linaro.org/bud17/resources/
+  link: https://connect.linaro.org/bud17/resources/
 - date: 2017-03-02 09:00:00+00:00
   text: |-
         Acer joins Linaro IoT and Embedded Group

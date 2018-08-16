@@ -20,7 +20,7 @@ title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
 ---
 
-[Linaro Connect Q4.11](http://connect.linaro.org/) was a great place to learn about Linaro projects and to contribute to them, as well as to build tighter ties with the Linaro engineers and community.
+[Linaro Connect Q4.11](https://connect.linaro.org/) was a great place to learn about Linaro projects and to contribute to them, as well as to build tighter ties with the Linaro engineers and community.
 
 For those who couldn't participate to this event, here are all the videos that I shot. Note that I mostly didn't cover plenaries, because they were either filmed by [Novacut](http://novacut.com/) or by the Ubuntu video crew, with better equipment. As soon as their videos are available, we will let you know through a comment to this article.
 

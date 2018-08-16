@@ -30,7 +30,7 @@ wordpress_id: 6715
 
 Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on Arm.  The demonstrations also included interactive demonstrations showcasing Arm-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with Arm processor-based boards for Linux on Arm.
 
-After a fantastic week in Burlingame, CA we are already looking forward to our next Connect. Our next Linaro Connect will be February 9-13, 2015 in Hong Kong. Registration is now open -[ reserve your spot today!](http://connect.linaro.org/hkg15/)
+After a fantastic week in Burlingame, CA we are already looking forward to our next Connect. Our next Linaro Connect will be February 9-13, 2015 in Hong Kong. Registration is now open -[ reserve your spot today!](https://connect.linaro.org/hkg15/)
 
 ### **Friday September 19, 2014**
 

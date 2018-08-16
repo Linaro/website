@@ -26,6 +26,6 @@ Another notable discussion that was captured on video by Novacut was “Is it ti
 
 Join us at Linaro Connect
 
-Linaro Connect is held every three to four months to bring the Linux on Arm community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the Arm tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. Learn more at[ connect.linaro.org](http://connect.linaro.org/)
+Linaro Connect is held every three to four months to bring the Linux on Arm community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the Arm tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. Learn more at[ connect.linaro.org](https://connect.linaro.org/)
 
 For more information on the company, access to software and tools, and information on the community and open engineering, visit www.linaro.org

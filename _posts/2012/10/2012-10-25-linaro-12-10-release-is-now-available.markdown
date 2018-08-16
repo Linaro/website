@@ -71,7 +71,7 @@ While some wondered if the idea of a consolidated kernel in the Arm ecosystem wo
 * * *
 
 
-For those who will be at [LCE 12 - Copenhagen](https://connect.linaro.org/resources/) next week (29 Oct - 2 Nov) we look forward to seeing you there; however, if you are unable to attend, but would like to participate we are offering remote participation. Visit the [Linaro Connect Website](http://connect.linaro.org/) to find out how you or someone you know can participate remotely.
+For those who will be at [LCE 12 - Copenhagen](https://connect.linaro.org/resources/) next week (29 Oct - 2 Nov) we look forward to seeing you there; however, if you are unable to attend, but would like to participate we are offering remote participation. Visit the [Linaro Connect Website](https://connect.linaro.org/) to find out how you or someone you know can participate remotely.
 
 
 

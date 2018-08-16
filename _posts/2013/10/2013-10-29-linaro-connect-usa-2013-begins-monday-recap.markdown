@@ -15,7 +15,7 @@ title: Linaro Connect USA 2013 Begins- Monday Recap
 wordpress_id: 3115
 ---
 
-[Linaro Connect USA 2013](http://connect.linaro.org/lcu13/) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](/news/linaro-brings-open-source-test-platform-open-compute-project/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation. Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on Arm-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions. 
+[Linaro Connect USA 2013](https://connect.linaro.org/lcu13/) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](/news/linaro-brings-open-source-test-platform-open-compute-project/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation. Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on Arm-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions. 
 
 In addition to the announcement about OCP Mr. Grey gave a presentation discussing “Servers to the Internet of Things”. Linaro also had two guest speakers, Dong Wei_, _HP Fellow, UEFI Forum VP (Chief Executive) and ACPI SIG Secretary, who discussed_ “_Enabling next generation configuration and power management on Arm_” and Jim Zemlin from the Linux Foundation.
 
@@ -53,7 +53,7 @@ There were several sessions that took place on Monday after the keynotes had con
 
 On Tuesday Linaro will be kicking off their first official “Crazy Shirt Day” which looks like it will showcase the attendees creative side. [Look for pictures on Facebook ](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)tomorrow to vote for your favorites.
 
-Linaro Connect is starting today with several exciting [keynotes.](http://connect.linaro.org/lcu13/) First up is a fireside chat with Frank Frankovsky and Vijay Rao, both from Facebook. Then Jarmo Hillo Head of Processor Technology at Nokia Solutions and Networks, Technology and Innovations, Research will give a talk about High End Telecom Networking. George Grey is also expected to make a short appearance with a networking-related announcement.
+Linaro Connect is starting today with several exciting [keynotes.](https://connect.linaro.org/lcu13/) First up is a fireside chat with Frank Frankovsky and Vijay Rao, both from Facebook. Then Jarmo Hillo Head of Processor Technology at Nokia Solutions and Networks, Technology and Innovations, Research will give a talk about High End Telecom Networking. George Grey is also expected to make a short appearance with a networking-related announcement.
 
 After the keynotes there will be several sessions for attendees to participate in. Including:
 <table cellpadding="0" cellspacing="0" border="0" class="table responsive-table" >
@@ -264,4 +264,4 @@ After the keynotes there will be several sessions for attendees to participate i
 </tr>
 </tbody>
 </table>
-Can’t make it to Santa Clara?  Don’t worry.  Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.  [For more information on Remote Participation please visit the Linaro Connect website.](http://connect.linaro.org/about/)
+Can’t make it to Santa Clara?  Don’t worry.  Check out below how you can participate remotely and watch the sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts)  or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts.  There will be links to the live stream in each session descriptions.  [For more information on Remote Participation please visit the Linaro Connect website.](https://connect.linaro.org/about/)

@@ -21,7 +21,7 @@ title: Linaro Connect Bangkok 2016 Registration Now Open
 wordpress_id: 9874
 ---
 
-Mark your calendar for March 7-11, 2016, because it’s the official date of Linaro Connect Bangkok 2016 (BKK16).  It may be 3 months away, but we are already busy planning to make sure this will be the best Linaro Connect yet.  Registration is now open, so claim your spot today.  [Register here](http://connect.linaro.org/bkk16/)
+Mark your calendar for March 7-11, 2016, because it’s the official date of Linaro Connect Bangkok 2016 (BKK16).  It may be 3 months away, but we are already busy planning to make sure this will be the best Linaro Connect yet.  Registration is now open, so claim your spot today.  [Register here](https://connect.linaro.org/bkk16/)
 
 {% include image.html name="Linaro-Connect-Logo_BKK16-Standard.png" alt="Linaro Connect Logo_BKK16 Standard" %}
 
@@ -31,4 +31,4 @@ BKK16 will be held at the 5-star Centara Grand Hotel & Bangkok Convention Centre
 
 For shopping and plenty of eateries, the hotel has direct access to CentralWorld, one of the biggest lifestyle and shopping complexes in Southeast Asia.  You can also access via the Skywalk, the BTS Skytrain, and nearby is the Central Chidlom Department Store and the brand new Central Embassy shopping complex.  The weather in March in Bangkok averages 30°C (85°F) so it will be a great time of year to take a walk out to the shops and restaurants nearby.
 
-Linaro CEO,  George Grey will commence proceedings with a welcome keynote at 8.30am on Monday 7 March. BKK16 is a weeklong event and runs until 2pm Friday 11 March, when we will finish with our Demo Friday technical showcase.  There are so many great things being planned, you can keep up with the latest information about the event on the [Linaro Connect website](http://connect.linaro.org/bkk16/).  The last several Linaro Connects have been sold out weeks prior to the event.  [Register now](http://connect.linaro.org/bkk16/) so you do not miss out.
+Linaro CEO,  George Grey will commence proceedings with a welcome keynote at 8.30am on Monday 7 March. BKK16 is a weeklong event and runs until 2pm Friday 11 March, when we will finish with our Demo Friday technical showcase.  There are so many great things being planned, you can keep up with the latest information about the event on the [Linaro Connect website](https://connect.linaro.org/bkk16/).  The last several Linaro Connects have been sold out weeks prior to the event.  [Register now](https://connect.linaro.org/bkk16/) so you do not miss out.

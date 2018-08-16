@@ -44,4 +44,4 @@ Friday morning will be dedicated to team summaries. Each team will be given 15 m
 
 
 
-Linaro Connect USA 2013 will take place October 28 - November 1st in Santa Clara, California. [Learn more about LCU13 and to Register to attend ](http://connect.linaro.org/lcu13/)
+Linaro Connect USA 2013 will take place October 28 - November 1st in Santa Clara, California. [Learn more about LCU13 and to Register to attend ](https://connect.linaro.org/lcu13/)

@@ -26,7 +26,7 @@ wordpress_id: 2843
 {% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
 
 
-[Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org/lce13/) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
+[Linaro Connect Europe 2013 (LCE13)](https://connect.linaro.org/lce13/) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.
 
 ## Keynotes
 
@@ -167,7 +167,7 @@ David Rusling and guests take questions from the audience about anything Arm, Li
 ## Linaro Connect US 2013 - Santa Clara, CA
 
 
-We have good news for those who are already looking forward to [Linaro Connect US 2013](http://connect.linaro.org/lcu13/) (LCE13) which will be co-located with Arm’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](http://connect.linaro.org/lcu13/) for more information on how you can be part of the future of Linux on Arm.
+We have good news for those who are already looking forward to [Linaro Connect US 2013](https://connect.linaro.org/lcu13/) (LCE13) which will be co-located with Arm’s TechCon13 in Santa Clara, CA. Registration for LCU13 is now open.  Please visit the [Connect site](https://connect.linaro.org/lcu13/) for more information on how you can be part of the future of Linux on Arm.
 
 
 ## LCE13 Daily Schedule

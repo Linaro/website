@@ -81,4 +81,4 @@ components etc.
 **DR:** Robin, thank you for being interviewed, I think that this interview goes a long way towards explaining where open source fits in vehicles, now and an a little bit of our thinking about the future. Robin will be at Linaro’s Hong Kong Connect (HKG18) later this year in March. If you are there, he is always worth talking to. Speaking of HKG18, there is a strong Automotive presence there, especially on Ecosystem Day, which is the Wednesday of the event.
 
 
-For more information on HKG18 or to register for Ecosystem Day, click [here](http://connect.linaro.org/).
+For more information on HKG18 or to register for Ecosystem Day, click [here](https://connect.linaro.org/).

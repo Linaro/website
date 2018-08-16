@@ -196,7 +196,7 @@ Demo Friday is the opportunity for you to highlight the work you and or your org
 ## Is there still time to register for LCE12-Copenhagen?
 
 
-Yes!  If you haven't registered yet you can do so by clicking [here](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
+Yes!  If you haven't registered yet you can do so by clicking [here](https://connect.linaro.org/register/).
 
 
 ## This event looks awesome; however, I can't make it, will these sessions be recorded?

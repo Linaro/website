@@ -46,4 +46,4 @@ Finally at the traditional Linaro Connect Demo­ Friday, LHG will be highlightin
   * ­Linaro Clear Key solution on HiKey Board
   * ­Qt Apps with Wayland for the RDK
 
-Those attending Linaro Connect are welcome to come to any and all of the LHG sessions and events. If you are not able to attend you can visit the [Linaro Connect SFO15 ](http://connect.linaro.org/sfo15/)page to view recorded sessions and get access to select materials. Hope to see you there.
+Those attending Linaro Connect are welcome to come to any and all of the LHG sessions and events. If you are not able to attend you can visit the [Linaro Connect SFO15 ](https://connect.linaro.org/sfo15/)page to view recorded sessions and get access to select materials. Hope to see you there.

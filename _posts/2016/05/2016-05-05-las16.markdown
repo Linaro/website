@@ -12,12 +12,12 @@ tags:
 - las16
 ---
 
-We are pleased to announce that registration for [Linaro Connect Las Vegas 2016 (LAS16)](http://connect.linaro.org/attend/) - has opened. With five months to go there is still plenty of planning to do but the key dates and locations are:
+We are pleased to announce that registration for [Linaro Connect Las Vegas 2016 (LAS16)](https://connect.linaro.org/attend/) - has opened. With five months to go there is still plenty of planning to do but the key dates and locations are:
 
 **Dates**: Monday 26th - Friday 30th September 2016
 **Venue**: JW Marriott Las Vegas Resort & Spa
 
-Make sure to [register as soon as you can](http://connect.linaro.org/attend/) so you can arrange travel in good time and ensure you get discounted hotel rates.
+Make sure to [register as soon as you can](https://connect.linaro.org/attend/) so you can arrange travel in good time and ensure you get discounted hotel rates.
 
 {% include image.html name="LinaroConnect-Logo-LAS16_standard.png" alt="LinaroConnect-Logo-LAS16_standard" %}
 

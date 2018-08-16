@@ -50,7 +50,7 @@ LEDGE working and coordinating in this area is essential to enable the upstream 
 
 As ODP is a core technology, it has become a separate SIG under direction of the Linaro TSC.  It will continue to add functionality (for example 3GPP crypto algorithm support) and they are reworking the current odp-dpdk reference implementation of ODP into a more direct mapping of ODP APIs onto DPDK.  This will allow applications written to the ODP APIs to use DPDK without requiring any application change. 
 
-There are, of course, other changes, but they are mostly about where and how Lead Projects are managed across Linaro and balancing core activities with market segment based activities. These changes should be complete by the [Linaro Connect Vancouver 2018](http://connect.linaro.org/), 17-21 September 2018.  
+There are, of course, other changes, but they are mostly about where and how Lead Projects are managed across Linaro and balancing core activities with market segment based activities. These changes should be complete by the [Linaro Connect Vancouver 2018](https://connect.linaro.org/), 17-21 September 2018.  
 
 
 

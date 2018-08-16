@@ -29,7 +29,7 @@ Thanks to [Tara Oldfield](https://plus.google.com/117647229006247247428/posts) a
 
 But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.
 
-Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on Arm.  [Register today](http://connect.linaro.org/attend/).
+Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on Arm.  [Register today](https://connect.linaro.org/attend/).
 
 If you or someone you know is interested in Linaro Connect, then take a look at the [Connect Website](https://connect.linaro.org/resources/), the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg), and share the [promo video](http://youtu.be/xkFQzhYLsQI).
 

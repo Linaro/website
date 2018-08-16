@@ -19,7 +19,7 @@ wordpress_id: 2782
 
 {% include image.html name="Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg" alt="James Bottomley" class="small-inline"%}
 
-We’re excited to announce that James Bottomley, will be giving the Monday, July 8th keynote at [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13).
+We’re excited to announce that James Bottomley, will be giving the Monday, July 8th keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 
 James Bottomley is CTO of Server Virtualisation at [Parallels](https://www.parallels.com/uk/about/) with a current focus on Open Source container technologies and Linux Kernel maintainer of the SCSI subsystem, PA-RISC Linux and the 53c700 set of drivers. He has made contributions in the areas of x86 architecture and SMP, filesystems, storage and memory management and coherency. He is currently a Director on the Board of the Linux Foundation and Chair of its Technical Advisory Board. He was born and grew up in the United Kingdom. He went to university at Cambridge in 1985 for both his undergraduate and doctoral degrees. He joined AT&T Bell labs in 1995 to work on Distributed Lock Manager technology for clustering. In 1997 he moved to the LifeKeeper High Availability project. In 2000 he helped found SteelEye Technology, Inc as Software Architect and later as Vice President and CTO. He joined Novell in 2008 as a Distinguished Engineer at Novell's SUSE Labs and Parallels in 2011.
 
@@ -31,4 +31,4 @@ What this shows, of course, is that even for an incredibly well funded assault o
 
 We'll also look at the evolving nature of the server and the modern data centre and what changes this might force in processor architectures and explain why the solution to power budgets and green computing might not necessarily be the magic bullet with Arms name on it.
 
-More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+More information on the LCE-13 schedule can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
