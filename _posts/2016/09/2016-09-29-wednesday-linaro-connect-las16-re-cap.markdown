@@ -30,5 +30,5 @@ Wednesday at Linaro Connect LAS16 began with a great key by Geoff Thorpe who h
 We also had our second Mini-Conference, the Cortex-M Software - Device Configuration. SoC Vendors, board vendors, software middle layers, scripting languages, etc all need to have access to system configuration information (pin muxes, what sensors are on a system, what amount of memory, flash, etc, etc). They need a means to convey this in a vendor neutral mechanism but also one that is friendly for Cortex-M/constrained footprint devices. The session discussed this topic, how its done today, what kinda tooling might exist from different vendors, what we could utilize (device tree) and what issues that creates.
 
 
-[Visit Connect Resources to watch the sessions and view the presentations](http://connect.linaro.org/las16/resources/#wednesday).
+[Visit Connect Resources to watch the sessions and view the presentations](http://connect.linaro.org/resources/las16/).
 
