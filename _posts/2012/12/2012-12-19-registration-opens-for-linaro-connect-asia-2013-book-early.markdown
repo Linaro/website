@@ -20,7 +20,7 @@ wordpress_id: 2143
 
 # Announcing Linaro Connect Asia 2013
 
-{% include image.html name="lca131.png" alt="LCA13 Linaro Connect" url="http://connect.linaro.org" %}
+{% include image.html name="lca131.png" alt="LCA13 Linaro Connect" url="https://connect.linaro.org" %}
 
 We’re thrilled to announce that [event registration](http://linaro.eventbrite.co.uk/) and hotel booking at the Gold Coast Hotel in Hong Kong is now available for  the Linaro Connect Asia 2013 (LCA13) - Hong Kong event  – the industry’s foremost event for developing Linux on Arm— scheduled to be held on  4 - 8 March 2013. Book early because registration is limited. To book the hotel you will need to download the booking form ([odt](/assets/downloads/Hotel-Reservation-Form.odt) and [doc]() formats) and email it to: [reservations@goldcoasthotel.com.hk](mailto:reservations@goldcoasthotel.com.hk) If you have question about booking your hotel accommodations please send an email to [connect@linaro.org](mailto:connect@linaro.org).
 
@@ -59,7 +59,7 @@ For LCA13 Track participants can expect the track sessions throughout the week t
   * Training
 
 
-In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/groups/leg/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](http://connect.linaro.org/).
+In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/groups/leg/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](https://connect.linaro.org/).
 
 
 ## What did you miss at the last Connect?
@@ -80,43 +80,43 @@ LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denma
 
 ### Session Tracks
 
-  * [Android](http://connect.linaro.org)
+  * [Android](https://connect.linaro.org)
 
 
-  * [Automation, CI & LAVA](http://connect.linaro.org)
+  * [Automation, CI & LAVA](https://connect.linaro.org)
 
 
-  * [Engineering Baselines and Validation](http://connect.linaro.org)
+  * [Engineering Baselines and Validation](https://connect.linaro.org)
 
 
-  * [General](http://connect.linaro.org)
+  * [General](https://connect.linaro.org)
 
 
-  * [Graphics & Multimedia](http://connect.linaro.org)
+  * [Graphics & Multimedia](https://connect.linaro.org)
 
 
-  * [Hackfest](http://connect.linaro.org)
+  * [Hackfest](https://connect.linaro.org)
 
 
-  * [Kernel & Power Management](http://connect.linaro.org)
+  * [Kernel & Power Management](https://connect.linaro.org)
 
 
-  * [Members](http://connect.linaro.org)
+  * [Members](https://connect.linaro.org)
 
 
-  * [Mini Summit](http://connect.linaro.org)
+  * [Mini Summit](https://connect.linaro.org)
 
 
-  * [OCTO](http://connect.linaro.org)
+  * [OCTO](https://connect.linaro.org)
 
 
-  * [Private Meetings](http://connect.linaro.org)
+  * [Private Meetings](https://connect.linaro.org)
 
 
-  * [Toolchain](http://connect.linaro.org)
+  * [Toolchain](https://connect.linaro.org)
 
 
-  * [Training](http://connect.linaro.org)
+  * [Training](https://connect.linaro.org)
 
 ### Demo Friday Event
 
@@ -161,4 +161,4 @@ Are you passionate about – or are just wanting to get involved in – the late
 
 Linaro Connect is also an ideal event to attend for technical executives interested in investing into Linaro. The [Linaro management team](/about/) is available throughout the week to introduce you to the company and explain the many benefits of collaboration for your company and market situation. If you would like to meet with a member of the management team during LCA13 please send an email to contactus@linaro.org prior to the event so that a meeting during the event can be arranged.
 
-Finally, sponsorship of LCA13  is now available, with a variety of [great packages](http://connect.linaro.org/sponsors/).  Email [connect@linaro.org](mailto:connect@linaro.org) for more details.
+Finally, sponsorship of LCA13  is now available, with a variety of [great packages](https://connect.linaro.org/sponsors/).  Email [connect@linaro.org](mailto:connect@linaro.org) for more details.

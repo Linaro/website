@@ -109,7 +109,7 @@ Additional presentations and videos from LCE12-Copenhagen can be found on the re
 
 Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/latest/downloads/).
 
-More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).
+More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org/).
 
 You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
@@ -135,4 +135,4 @@ _The primary goals of the Linaro Android Team is to develop and release tested [
 
 **Linaro** - _To find out more about Linaro please visit: [ ](/)._
 
-**Linaro Connect** - _To find out more about upcoming Linaro Connect events please visit: [ Linaro Connect Website](http://connect.linaro.org/)._
+**Linaro Connect** - _To find out more about upcoming Linaro Connect events please visit: [ Linaro Connect Website](https://connect.linaro.org/)._

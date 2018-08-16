@@ -61,4 +61,4 @@ Additional presentations and videos from LCE12-Copenhagen can be found on the re
 
 Current Linaro Armv8 Builds can be found at: [/engineering/armv8](/initiatives/armv8/) and information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/latest/downloads/).
 
-More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](http://connect.linaro.org/).  You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
+More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org/).  You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).

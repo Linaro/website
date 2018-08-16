@@ -22,7 +22,7 @@ title: Linaro Connect Budapest 2017 - Week in Review
 wordpress_id: 12257
 ---
 
-The [Linaro Connect](http://connect.linaro.org/) Budapest 2017 (BUD17) marked the 21st Linaro Connect since 2010.  Linaro Connect Budapest was a five-day event with over 400 attendees and was packed full of keynotes by industry leaders, talks, training, meetings, hacking and a lot of socializing fun. It is the conference for anyone interested in Linux development and related ecosystems on Arm and brings together the best and the brightest of the Linux on Arm community. The first day of the event began with a keynote by Linaro's CEO, George Grey and many announcements. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on Arm. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on Arm. Finally George announced that [Acer joined Linaro’s IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products.
+The [Linaro Connect](https://connect.linaro.org/) Budapest 2017 (BUD17) marked the 21st Linaro Connect since 2010.  Linaro Connect Budapest was a five-day event with over 400 attendees and was packed full of keynotes by industry leaders, talks, training, meetings, hacking and a lot of socializing fun. It is the conference for anyone interested in Linux development and related ecosystems on Arm and brings together the best and the brightest of the Linux on Arm community. The first day of the event began with a keynote by Linaro's CEO, George Grey and many announcements. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on Arm. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on Arm. Finally George announced that [Acer joined Linaro’s IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products.
 
 The week of sessions included many different tracks that attendees could attend, with each day focused on a particular segment within Linaro. Along with all the sessions and hacking there was also the traditional demo Friday that was held to showcase all the hard work that was done by the various teams over the last several months. Attendees were able to enjoy lunch while wandering the exhibit hall full of demos by both Linaro and it's member companies.
 
@@ -82,7 +82,7 @@ Jonathan Corbet, who is a kernel documentation maintainer and co-founder of LWN.
 
 ## **Segment Team Sessions**
 
-Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect BUD17. To see all the sessions and keynotes held during the week and get access to all the available presentations and videos please visit the [Linaro Connect BUD17 Resources.](http://connect.linaro.org/bud17/resources/)
+Below are the sessions held by each of the Linaro Segment teams during the week of Linaro Connect BUD17. To see all the sessions and keynotes held during the week and get access to all the available presentations and videos please visit the [Linaro Connect BUD17 Resources.](https://connect.linaro.org/bud17/resources/)
 
 
 **96Boards**
@@ -288,7 +288,7 @@ supports the wireless protocols to connect such devices to the internet, acting 
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-320/](https://connect.linaro.org/resources/bud17/bud17-320/)
 
 
-We hope you join us for our next Linaro Connect to be held in September 25-29th, 2017 in San Francisco, USA. Details and registration coming soon, keep checking the [Linaro Connect](http://connect.linaro.org/) site for more information.
+We hope you join us for our next Linaro Connect to be held in September 25-29th, 2017 in San Francisco, USA. Details and registration coming soon, keep checking the [Linaro Connect](https://connect.linaro.org/) site for more information.
 
 
-### Highlights are available on the [event site](http://connect.linaro.org/), [Facebook](https://www.facebook.com/LinaroOrg), [Twitter](https://twitter.com/linaroorg), [Flickr](http://flickr.com/photos/linaroorg/) and [Youtube](https://www.youtube.com/user/Linaroorg).
+### Highlights are available on the [event site](https://connect.linaro.org/), [Facebook](https://www.facebook.com/LinaroOrg), [Twitter](https://twitter.com/linaroorg), [Flickr](http://flickr.com/photos/linaroorg/) and [Youtube](https://www.youtube.com/user/Linaroorg).

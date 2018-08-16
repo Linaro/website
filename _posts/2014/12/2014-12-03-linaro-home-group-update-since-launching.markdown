@@ -65,4 +65,4 @@ To learn more about the Linaro Home Group (LHG) please visit:  [https://wiki.li
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
-Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](https://connect.linaro.org/resources/hkg15/)
+Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [https://connect.linaro.org/hkg15/ ](https://connect.linaro.org/resources/hkg15/)

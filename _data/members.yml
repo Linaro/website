@@ -410,7 +410,7 @@ community_initiatives:
       url: https://www.devicetree.org
     - name: Linaro Connect
       image: connect-logo.png
-      url: http://connect.linaro.org
+      url: https://connect.linaro.org
     - name: Lava
       image: lava-logo.png
       url: /initiatives/lava/

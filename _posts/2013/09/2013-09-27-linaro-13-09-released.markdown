@@ -58,13 +58,13 @@ Here are some of the other highlights, by group:
   * Not to be left out, the Kernel Working Group has been doing a lot of prep work that will show up in future releases plus investigation and bug fixing, and the Toolchain group are offering their usual run of high-performing releases, including Linaro GCC 4.8-2013.09, Linaro GCC 4.7-2013.09, Linaro eglibc 2.18-2013.09 and Linaro GDB 7.6.1-2013.09-1.
 
 
-This months release not only includes many line items from each group within Linaro, but it also shows the progress of our developing infrastructure. Last month, status.linaro.org was relaunched with status information being read from JIRA cards. This month, more cards have been migrated from Launchpad to JIRA, with the power management group making significant progress towards having everything migrated by the time of the next Linaro Connect at the end of October ([www.linaro.org/connect](http://connect.linaro.org)).
+This months release not only includes many line items from each group within Linaro, but it also shows the progress of our developing infrastructure. Last month, status.linaro.org was relaunched with status information being read from JIRA cards. This month, more cards have been migrated from Launchpad to JIRA, with the power management group making significant progress towards having everything migrated by the time of the next Linaro Connect at the end of October ([www.linaro.org/connect](https://connect.linaro.org)).
 
 
 ### Upcoming LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
 
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](https://connect.linaro.org/lcu13/), which will be co-located with Arm’s TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [/connect-lcu13](https://connect.linaro.org/lcu13/)
 
 
 ### USING THIS RELEASE:

@@ -35,7 +35,7 @@ You will see that there are several ways to become involved and that everything 
 
 **See how Linaro operates first-hand…**
 
-*   Join us at the next [Linaro Connect](http://connect.linaro.org/), browse current projects on the [Wiki](https://wiki.linaro.org/) and [Launchpad](https://launchpad.net/linaro), and subscribe to relevant [Linaro mailing lists](http://lists.linaro.org/mailman/listinfo).
+*   Join us at the next [Linaro Connect](https://connect.linaro.org/), browse current projects on the [Wiki](https://wiki.linaro.org/) and [Launchpad](https://launchpad.net/linaro), and subscribe to relevant [Linaro mailing lists](http://lists.linaro.org/mailman/listinfo).
 
 **New to free and open source software (FOSS)?…**
 
@@ -64,11 +64,11 @@ You will see that there are several ways to become involved and that everything 
 
 **Chip providers**
 
-*   If you are working for a silicon provider who needs help upstreaming code to the Linux kernel, look through our [projects](https://blueprints.launchpad.net/linaro "Linaro projects on Launchpad"), come to [Linaro Connect](http://connect.linaro.org/ "Linaro Connect event") to meet our engineers and discuss where we can help, then if you are interested in discussing membership, please contact Joe Bates or Steve Taylor at [contactus@linaro.org](mailto:contactus@linaro.org).
+*   If you are working for a silicon provider who needs help upstreaming code to the Linux kernel, look through our [projects](https://blueprints.launchpad.net/linaro "Linaro projects on Launchpad"), come to [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") to meet our engineers and discuss where we can help, then if you are interested in discussing membership, please contact Joe Bates or Steve Taylor at [contactus@linaro.org](mailto:contactus@linaro.org).
 
 **System enablers and developers (software integrators, related hardware developers and OEM/ODMs)**
 
-*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://support.linaro.org/home "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](http://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates or Steve Taylor at [contactus@linaro.org](mailto:contactus@linaro.org).
+*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://support.linaro.org/home "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates or Steve Taylor at [contactus@linaro.org](mailto:contactus@linaro.org).
 
 </div>
 

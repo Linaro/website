@@ -155,4 +155,4 @@ Linaro Connect Hong Kong 2015 ended once again with a rich assortment of demonst
   * Ceph on remote server cluster
   * UEFI on BeagleBone Black
 
-You can register now to attend our next event, Linaro Connect San Francicso 2015 (SFO15) September 21-25, 2015. [Learn more](http://connect.linaro.org/sfo15/)
+You can register now to attend our next event, Linaro Connect San Francicso 2015 (SFO15) September 21-25, 2015. [Learn more](https://connect.linaro.org/sfo15/)

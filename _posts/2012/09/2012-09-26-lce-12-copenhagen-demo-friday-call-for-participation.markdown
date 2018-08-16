@@ -56,7 +56,7 @@ Please let us know if you have any questions about Demo Friday or the LCE 12 Cop
 
 _**Now’s your time to show off what you’ve been working on. [ Send in your Demo Friday submission today](mailto:events@linaro.org). **_
 
-_**Registration is open for the LCE 12 Copenhagen event being held from 29 October - 2 November at the Bella Center in Copenhagen, Denmark.  Don’t forget to [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).**_
+_**Registration is open for the LCE 12 Copenhagen event being held from 29 October - 2 November at the Bella Center in Copenhagen, Denmark.  Don’t forget to [register today](https://connect.linaro.org/register/).**_
 
 **About Linaro Connect**
 

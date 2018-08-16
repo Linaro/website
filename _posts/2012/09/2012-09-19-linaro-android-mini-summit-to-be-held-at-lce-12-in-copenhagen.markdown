@@ -37,6 +37,6 @@ Pfeffer also mentioned that the the preliminary topics include:
 
 Pfeffer was also quick to point out that these are preliminary topics and as such are subject to change.  So check the [schedule](https://connect.linaro.org/resources/#schedule) as we get closer to the start of Connect for the final list of agenda and topic items.
 
-[Registration for  LCE 12 Copenhagen is now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).  LCE 12 Copenhagen will take place on 29 Oct to 2 Nov 2012 at the Bella Center in Copenhagen, Denmark and more information can be found on the [Linaro Connect website](https://connect.linaro.org/resources/).
+[Registration for  LCE 12 Copenhagen is now open](https://connect.linaro.org/register/).  LCE 12 Copenhagen will take place on 29 Oct to 2 Nov 2012 at the Bella Center in Copenhagen, Denmark and more information can be found on the [Linaro Connect website](https://connect.linaro.org/resources/).
 
 More information on Linaro, its members, partners and community can be found at [Linaro.org](/).

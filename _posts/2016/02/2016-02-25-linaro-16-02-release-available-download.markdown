@@ -102,4 +102,4 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT BANGKOK 2016**
 
-Linaro Connect Bangkok 2016 will be held March 7-11, 2016.  More information on this event can be found at: [http://connect.linaro.org/bkk16/ ](http://connect.linaro.org/bkk16/)
+Linaro Connect Bangkok 2016 will be held March 7-11, 2016.  More information on this event can be found at: [https://connect.linaro.org/bkk16/ ](https://connect.linaro.org/bkk16/)

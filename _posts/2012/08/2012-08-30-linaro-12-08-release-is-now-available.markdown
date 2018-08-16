@@ -28,7 +28,7 @@ Linaro also held its first [Virtual Connect](/blog/linaro-announces-virtual-conn
 
 The Developer Platform Team announced USB Host enablement is now available in [LAVA](https://wiki.linaro.org/Platform/Validation) and that all packaged linux-linaro kernels are now cross-compiled and boot tested via LAVA before these packages are uploaded to Linaro Overlay PPA. Additionally, U-Boot-Linaro is now based on the latest upstream release--v2012.07.
 
-Just as the Linaro Android team is looking to the future, so is the whole of Linaro, as we continue to build the future of Linux on Arm, we would like to announce that [registration](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/) for [LCE 12 Copenhagen](https://connect.linaro.org/resources/) is now open.  Linaro Connect will be held from 29 Oct to 2 Nov at the Bella Centre in Copenhagen, Denmark and new to this upcoming Linaro Connect will be three mini-summits--Android, Armv8 (64-bit) and big.LITTLE. More information about this event can be found on the [Linaro Connect website](https://connect.linaro.org/resources/).
+Just as the Linaro Android team is looking to the future, so is the whole of Linaro, as we continue to build the future of Linux on Arm, we would like to announce that [registration](https://connect.linaro.org/register/) for [LCE 12 Copenhagen](https://connect.linaro.org/resources/) is now open.  Linaro Connect will be held from 29 Oct to 2 Nov at the Bella Centre in Copenhagen, Denmark and new to this upcoming Linaro Connect will be three mini-summits--Android, Armv8 (64-bit) and big.LITTLE. More information about this event can be found on the [Linaro Connect website](https://connect.linaro.org/resources/).
 
 ### USING THE ANDROID-BASED IMAGES
 

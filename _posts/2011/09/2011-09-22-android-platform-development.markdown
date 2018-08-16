@@ -19,7 +19,7 @@ title: 'Video - Zach Pfeffer: Android platform development'
 wordpress_id: 550
 ---
 
-[Linaro Connect](http://connect.linaro.org/), Cambridge, UK, August 2011.
+[Linaro Connect](https://connect.linaro.org/), Cambridge, UK, August 2011.
 
 Zach Pfeffer, Linaro Android Working Group tech lead, gives an introduction to making Android work on a new hardware platform.
 
@@ -33,4 +33,4 @@ Slides can be found on the [Linaro wiki](https://wiki.linaro.org/Events/LinaroCo
 On a related topic, you may also be interested in the video coverage of a meeting between Arm and Linaro engineers, sharing their plans about Android:
 
 
-You will have to join the next [Linaro Connect](http://connect.linaro.org/) event to ask questions ;-) . If you are in a hurry, you can also post comments here.
+You will have to join the next [Linaro Connect](https://connect.linaro.org/) event to ask questions ;-) . If you are in a hurry, you can also post comments here.

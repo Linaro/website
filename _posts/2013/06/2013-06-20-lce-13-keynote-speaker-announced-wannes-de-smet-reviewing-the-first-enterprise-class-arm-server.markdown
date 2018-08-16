@@ -19,7 +19,7 @@ wordpress_id: 2774
 
 {% include image.html name="W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline" %}
 
-We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](http://connect.linaro.org) (LCE-13).
+We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 
 
 As an Applied IT researcher, Wannes improves server and data center efficiency by researching ways to make current infrastructure perform better using less power. Working with industry leaders and hot startups, he reviews next-gen hardware and formulates advise towards small and enterprise customers. Wannes also is a virtualisation expert with a strong programming background.
@@ -31,4 +31,4 @@ Below is the abstract of this talk:
 Last year a lot of hype started building around Arm servers, garnering interest from the Sizing Servers lab to determine how well these Arm CPUs actually perform. Testing was performed on the first real Arm server, from Calxeda, to gauge its processing power and power efficiency during standard intrinsic benchmarks as well as realistic workloads. Besides benchmarking we provided a brief introduction to the hardware itself and the management software used to for the Calxeda EnergyCore. You can read our full review at [Anandtech](http://www.anandtech.com/show/6757/calxedas-arm-server-tested).
 
 
-More information on the LCE-13 schedule can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+More information on the LCE-13 schedule can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)

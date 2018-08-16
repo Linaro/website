@@ -45,7 +45,7 @@ The main points are that the community contributor agrees to are:
 * to our e-mail terms of use, including use of your Linaro e-mail for upstream contributions
 * a copyright and patent licence to Linaro for any code you contribute with that e-mail address
 
-Once that's done, the Technical Lead submits the nomination and completed Agreement to our [Community Board](https://wiki.linaro.org/CommunityContributor/CommunityBoard). The nomination will normally describe how the community member has worked with Linaro, any Blueprints they may have been involved with and [Linaro Connect](http://connect.linaro.org/) events they may have attended.
+Once that's done, the Technical Lead submits the nomination and completed Agreement to our [Community Board](https://wiki.linaro.org/CommunityContributor/CommunityBoard). The nomination will normally describe how the community member has worked with Linaro, any Blueprints they may have been involved with and [Linaro Connect](https://connect.linaro.org/) events they may have attended.
 
 The Community Board then will evaluate all nominations within 2 weeks of submission and all being well the community member will be welcomed as a Community Contributor. We currently have nominations and signed agreements filtering in so this is an exciting time for all of us.
 

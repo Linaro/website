@@ -56,7 +56,7 @@ An interim steering committee formed from the companies interested in forming LN
   4. Dealing with legacy software and mixed-endian issues prevalent in the networking space.
 
 
-Discussion of these areas and the formal kick off for the group will happen at the next Linaro Connect, in Hong Kong 4-8 March (see [Connect](http://connect.linaro.org) for more information).
+Discussion of these areas and the formal kick off for the group will happen at the next Linaro Connect, in Hong Kong 4-8 March (see [Connect](https://connect.linaro.org) for more information).
 
 
 ## Collaboration is key!

@@ -107,7 +107,7 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
   * [David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0)
 
 
-If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](https://connect.linaro.org/resources/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](https://connect.linaro.org/resources/#location).  Registration for this event is [now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
+If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](https://connect.linaro.org/resources/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](https://connect.linaro.org/resources/#location).  Registration for this event is [now open](https://connect.linaro.org/register/).
 
 **About Linaro**
 

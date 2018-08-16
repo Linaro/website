@@ -21,7 +21,7 @@ wordpress_id: 7859
 
 {% include image.html name="hotelbuilding1.jpg" alt="Hong Kong 2015 Hotel"%}
 
-We are returning to Hong Kong for this year’s[ Linaro Connect](http://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights [1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.
+We are returning to Hong Kong for this year’s[ Linaro Connect](https://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights [1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.
 
 This year the event will be held at the [Regal Airport Hotel](http://www.regalhotel.com/regal-airport-hotel/en/home/home.html) that is conveniently located at the Hong Kong International Airport. You will be able to literally walk from the airport to your hotel room in just a few minutes!
 
@@ -42,11 +42,11 @@ We have also switched things around on Monday. After the opening keynote, the en
 
 Monday afternoon, Tuesday through Thursday mornings, and Friday morning are packed with sessions on a variety of topics ranging from Armv8, U-Boot64, Arm Coresight, ACPI, UEFI, ODP (OpenDataPlane), Chromium Blink and EME, OP-TEE, Arm Trustzone, building for 64-bit AOSP and Energy Aware Scheduling (EAS) to name just a few. A series of training events, some updated from Linaro Connect USA 2014 and a few new ones, are scheduled in the afternoons on Tuesday through Thursday. Check the [full schedule](https://hkg15.pathable.com/meetings) for a day-by-day list of all the sessions.
 
-The now famous [Linaro Awards Dinner ](http://connect.linaro.org/hkg15/)will be on Thursday evening. All registered guests are invited.
+The now famous [Linaro Awards Dinner ](https://connect.linaro.org/hkg15/)will be on Thursday evening. All registered guests are invited.
 
 Greg Kroah-Hartman (aka, Greg KH) will give the closing keynote on Friday morning with an update on “How Linaro is doing?” (from the Linux kernel community perspective). Greg gave some interesting, useful (and a few critical) insights during Linaro Connect Asia 2013.  Have we exceeded his expectations? We will know the answer on Friday morning.
 
-After the Friday keynote and mornings sessions, Joe Bates will provide his closing summary of the week followed by lunch, refreshments and a number of interesting[ technology demos](http://connect.linaro.org/hkg15/).
+After the Friday keynote and mornings sessions, Joe Bates will provide his closing summary of the week followed by lunch, refreshments and a number of interesting[ technology demos](https://connect.linaro.org/hkg15/).
 
 See you all in Hong Kong!
 
