@@ -173,7 +173,7 @@ We have good news for those who are already looking forward to [Linaro Connect U
 ## LCE13 Daily Schedule
 
 
-If you’re looking for a particular session or maybe you missed the live stream below is a list of the session by day.  Each session has a link to the schedule site, the Google+ Events page (if the session was recorded), the link to the YouTube Video as well as the link the .mp4 that can be [downloaded from the Linaro server](http://people.linaro.org/linaro-connect/lce13/videos/) for those who can’t access YouTube. Where possible session slides are also available. Please note if the presentation link is there but not "clickable" then we are working on getting it added next week.  The presentation will be added to the [Linaro Connect Resources page](http://connect.linaro.org/resources/).
+If you’re looking for a particular session or maybe you missed the live stream below is a list of the session by day.  Each session has a link to the schedule site, the Google+ Events page (if the session was recorded), the link to the YouTube Video as well as the link the .mp4 that can be [downloaded from the Linaro server](http://people.linaro.org/linaro-connect/lce13/videos/) for those who can’t access YouTube. Where possible session slides are also available. Please note if the presentation link is there but not "clickable" then we are working on getting it added next week.  The presentation will be added to the [Linaro Connect Resources page](https://connect.linaro.org/resources/).
 
 
 ### Monday 8 July 2013

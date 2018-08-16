@@ -24,7 +24,7 @@ title: Linaro Connect Q1.12 Full Video List Now Available
 wordpress_id: 1437
 ---
 
-The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](http://connect.linaro.org/resources/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.
+The[ Novacut](http://novacut.com/) crew had their cameras rolling at [Linaro Connect Q1.12](https://connect.linaro.org/resources/) which took place on 6-10 February at the Sofitel Hotel in Redwood City, CA.
 
 Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on the ones you want to view or check out the[ Linaro youtube channel](http://www.youtube.com/user/LinaroOrg) for these and other videos we've posted from other events as well.
 
@@ -107,7 +107,7 @@ Below is the full list of videos from the Linaro Connect Q1.12 event.  Click on
   * [David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0)
 
 
-If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](http://connect.linaro.org/resources/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](http://connect.linaro.org/resources/#location).  Registration for this event is [now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
+If you think this range of topics, speakers, interviewees and demos are fantastic then you'll want to join us at [Linaro Connect Q2.12](https://connect.linaro.org/resources/) which is being held from 28 May through 1 June at [the Gold Coast Hotel in Hong Kong](https://connect.linaro.org/resources/#location).  Registration for this event is [now open](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).
 
 **About Linaro**
 
@@ -130,4 +130,4 @@ More information about Linaro can be found at: [](/about/)
 > All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on Arm. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon > and socialising in the evening.
 
 
-More information about Linaro Connect can be found at: [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
+More information about Linaro Connect can be found at: [https://connect.linaro.org/resources/](https://connect.linaro.org/resources/)

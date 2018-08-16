@@ -17,7 +17,7 @@ tags:
 - Linux
 ---
 
-Linaro's Kernel Working Group had a productive week at[ Linaro Connect Q4.11](http://connect.linaro.org/resources/) in Orlando, co-located with the[ Ubuntu Developer's Summit](http://uds.ubuntu.com/).   The primary theme of the week was Upstreaming, focusing on next steps  to get new technologies upstream, assuring the quality of upstream  kernels on Arm platforms, developing new features, and continuing the  work of consolidating code across various SOCs.
+Linaro's Kernel Working Group had a productive week at[ Linaro Connect Q4.11](https://connect.linaro.org/resources/) in Orlando, co-located with the[ Ubuntu Developer's Summit](http://uds.ubuntu.com/).   The primary theme of the week was Upstreaming, focusing on next steps  to get new technologies upstream, assuring the quality of upstream  kernels on Arm platforms, developing new features, and continuing the  work of consolidating code across various SOCs.
 
 ## Kernel Process and Testing
 
