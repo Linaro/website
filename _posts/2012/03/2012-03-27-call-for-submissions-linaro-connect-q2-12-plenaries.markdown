@@ -20,9 +20,9 @@ wordpress_id: 1447
 {% include image.html name="Linaro-Connect.jpg" alt="Linaro Connect Logo" class="small-inline" %}
 
 
-The submission process for [Linaro Connect Q2.12](http://connect.linaro.org/resources/#welcome) plenaries is now open!
+The submission process for [Linaro Connect Q2.12](https://connect.linaro.org/resources/#welcome) plenaries is now open!
 
-There will be 30 minutes of plenary talks daily from Tuesday through Friday at Linaro Connect Q2.12 which is being held from 28 May - 1 June at the [Gold Coast Hotel](http://connect.linaro.org/resources/#location) in Hong Kong.
+There will be 30 minutes of plenary talks daily from Tuesday through Friday at Linaro Connect Q2.12 which is being held from 28 May - 1 June at the [Gold Coast Hotel](https://connect.linaro.org/resources/#location) in Hong Kong.
 
 The plenary sessions will give Linaro Connect attendees an opportunity to address Linaro, its current and potential Member and Partner representatives as well as the community as a whole. These are broken up into two(2)-15 minute sessions for a total of eight (8) Plenary Slots available for the Linaro Connect Q2.12 event.
 
@@ -60,4 +60,4 @@ The industry’s largest and most important event for developing Linux on Arm,
 
 All attendees can expect to work with some of the best software developers as we plan out and code the future of Linux on Arm. It will be an intensive week consisting of discussion and planning in the morning, engineering in the afternoon and socialising in the evening.
 
-More information about Linaro Connect can be found at: [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
+More information about Linaro Connect can be found at: [https://connect.linaro.org/resources/](https://connect.linaro.org/resources/)

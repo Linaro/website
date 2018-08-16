@@ -14,9 +14,9 @@ home_cat: connect
 
 Linaro CEO George Grey, in looking forward to day two of Linaro Connect SFO17, said “Linaro Connect is once again the place to be if you are involved in open source on Arm - from IoT to Digital Home, automotive to networking, datacenter to HPC. End to end Arm device to cloud demos and the announcement of Open Source Foundries started the week, and we look forward to announcements from Socionext on Arm hardware, as well as a keynote on AI/machine learning and automotive focused sessions today.”
 
-The [opening keynote](http://connect.linaro.org/resource/sfo17/sfo17-200k1/) by Kanta Vekaria PhD discussed how high performance computing (HPC) has developed and where it is going. Vekaria also tested the knowledge of the audience throughout the presentation with on-the-fly survey questions. Following the introductory slides, Vekaria talked about the open source components in HPC and Linaro’s collaborative engineering work in the Linaro Enterprise Group (LEG) HPC special interest group (SIG). Tech lead Renato Golin was also invited on stage to talk about OpenHPC and the latest 1.3.2 release. Vekaria concluded by inviting people to get more involved and attend the multiple sessions planned for later in the Linaro week.
+The [opening keynote](https://connect.linaro.org/resources/sfo17/sfo17-200k1/) by Kanta Vekaria PhD discussed how high performance computing (HPC) has developed and where it is going. Vekaria also tested the knowledge of the audience throughout the presentation with on-the-fly survey questions. Following the introductory slides, Vekaria talked about the open source components in HPC and Linaro’s collaborative engineering work in the Linaro Enterprise Group (LEG) HPC special interest group (SIG). Tech lead Renato Golin was also invited on stage to talk about OpenHPC and the latest 1.3.2 release. Vekaria concluded by inviting people to get more involved and attend the multiple sessions planned for later in the Linaro week.
 
-Socionext Chairman and CEO Yasuo Nishiguchi PhD then introduced[ Socionext and the SynQuacer multi-core CPU and server](http://connect.linaro.org/resource/sfo17/sfo17-200k2/). Sharing information on scaling and throughput, Nishiguchi stressed the advantages of parallel computing across multiple CPUs. He concluded by introducing the new desktop Arm developer platform and was then joined on stage by Linaro CEO George Grey and LEG director Martin Stadtler, who introduced and thanked the team who had been working on bringing up this new system, which came off the production line five days earlier. LEG engineer Ard Biesheuvel then demonstrated the system “just working”, i.e. booting and working like a normal desktop, including playing a YouTube video.
+Socionext Chairman and CEO Yasuo Nishiguchi PhD then introduced[ Socionext and the SynQuacer multi-core CPU and server](https://connect.linaro.org/resources/sfo17/sfo17-200k2/). Sharing information on scaling and throughput, Nishiguchi stressed the advantages of parallel computing across multiple CPUs. He concluded by introducing the new desktop Arm developer platform and was then joined on stage by Linaro CEO George Grey and LEG director Martin Stadtler, who introduced and thanked the team who had been working on bringing up this new system, which came off the production line five days earlier. LEG engineer Ard Biesheuvel then demonstrated the system “just working”, i.e. booting and working like a normal desktop, including playing a YouTube video.
 These keynotes began day two of the five-day Linaro Connect. The previous day began with a keynote by Linaro CEO George Grey. This was followed by team planning sessions in which the engineering groups discussed the work they would be doing in the week. The afternoon hosted twenty sessions in four tracks and committee meetings for the Networking, Enterprise and Digital Home groups.
 
 <table dir="ltr" border="1" cellspacing="0" cellpadding="0" class="table responsive-table">
@@ -43,7 +43,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Keynote: Iliyan Malchev (Google)&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Keynote: Iliyan Malchev (Google)</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Iliyan Malchev&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Iliyan Malchev</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Keynote&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Keynote</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-400k1/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-400k1/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -52,7 +52,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Keynote: Imagine The Internet in Ten Years - Aaron Welch (Packet) &quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Keynote: Imagine The Internet in Ten Years – Aaron Welch (Packet)</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Aaron Welch &quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Aaron Welch</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Keynote&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Keynote</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-400k2/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-400k2/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -61,7 +61,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;UEFI Secure Boot and DRI for RDK on HiKey&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">UEFI Secure Boot and DRI for RDK on HiKey</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Kalyan Nagabhirava&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Kalyan Nagabhirava</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LHG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LHG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-401/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-401/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -70,7 +70,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SDIO power on/off time impacts system suspend/resume time!&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">SDIO power on/off time impacts system suspend/resume time!</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ulf Hansson \n&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Ulf Hansson</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Power Management, Kernel&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Power Management, Kernel</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-402/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-402/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -79,7 +79,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Optimizing the Design and Implementation of KVM/Arm&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Optimizing the Design and Implementation of KVM/Arm</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Christoffer Dall&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Christoffer Dall</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Virtualization&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Virtualization</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-403/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-403/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -88,7 +88,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ion integration challenges&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Ion integration challenges</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Archit Taneja&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Archit Taneja</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LHG,LITE,LMG,Kernel&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LHG,LITE,LMG,Kernel</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-404/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-404/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -97,7 +97,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Multi-threaded Programming on Arm - a MP/MC Ring Buffer Case Study&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Multi-threaded Programming on Arm – a MP/MC Ring Buffer Case Study</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ola Liljedahl&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Ola Liljedahl</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LNG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LNG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-405/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-405/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -106,7 +106,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;IPsec Full Offload Support in ODP&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">IPsec Full Offload Support in ODP</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Bill Fischofer&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Bill Fischofer</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LNG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LNG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-406/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-406/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -115,7 +115,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Collaboras involvement in KernelCI&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Collaboras involvement in KernelCI</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Guillaume Tucker&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Guillaume Tucker</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[1]"></td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-407/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-407/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -124,7 +124,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Active State Management of Power Domains&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Active State Management of Power Domains</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Viresh Kumar&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Viresh Kumar</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-408/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-408/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -133,7 +133,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;TSC BoF: OSS Toolchain Discussion&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">TSC BoF: OSS Toolchain Discussion</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ryan Arnold&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Ryan Arnold</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Toolchain&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Toolchain</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-409/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-409/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -142,7 +142,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;KVM/Arm Nested Virtualization Support and Performance&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">KVM/Arm Nested Virtualization Support and Performance</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Jintack Lim&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Jintack Lim</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Virtualization&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Virtualization</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-410/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-410/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -151,7 +151,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;BoF: AOSP&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">BoF: AOSP</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LMG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LMG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-411/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-411/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -160,7 +160,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;BoF: ION&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">BoF: ION</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Laura Abbott - Sumit Semwal&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Laura Abbott – Sumit Semwal</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LMG, Kernel&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LMG, Kernel</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-412/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-412/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -169,7 +169,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;96Boards Mezzanine Workshop and info session&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">96Boards Mezzanine Workshop and info session</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Robert Wolff &quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Robert Wolff</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;96Boards&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">96Boards</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-414/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-414/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -178,7 +178,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Update Remotely IoT Devices using Eclipse Hawkbit and SWUpdate\n&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Update Remotely IoT Devices using Eclipse Hawkbit and SWUpdate</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Nicola La Gloria&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Nicola La Gloria</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LITE&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LITE</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-415/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-415/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -187,7 +187,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Preventing Linux in your car from killing you: The L4Re Open Source Microvisor System.&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Preventing Linux in your car from killing you: The L4Re Open Source Microvisor System.</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Michael Hohmuth&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Michael Hohmuth</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LITE&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LITE</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-416/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-416/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -196,7 +196,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;The Open-Source seL4 Kernel. Military-Grade Security Through Mathematics&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">The Open-Source seL4 Kernel. Military-Grade Security Through Mathematics</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Gernot Heiser&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Gernot Heiser</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LITE&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LITE</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-417/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-417/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -205,7 +205,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;The Linux Kernel Scheduler (For Beginners)&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">The Linux Kernel Scheduler (For Beginners)</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Viresh Kumar&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Viresh Kumar</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Power Management, Kernel&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">Power Management, Kernel</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-421/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-421/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
@@ -214,7 +214,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;An Overview of Post-K Supercomputer Development in Japan&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">An Overview of Post-K Supercomputer Development in Japan</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yutaka Ishikawa&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Yutaka Ishikawa</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-451/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-451/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -223,7 +223,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;A Validation of Ceph Block Performance for Random I/O Applications&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">A Validation of Ceph Block Performance for Random I/O Applications</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chris Marsh&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Chris Marsh</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-452/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-452/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -232,7 +232,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hyper scaling concept server&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Hyper scaling concept server</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-453/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-453/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -241,7 +241,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Arm v8A and java 8: Shifting The Datacenter Balance&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Arm v8A and java 8: Shifting The Datacenter Balance</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Simon Ritter&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Simon Ritter</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-454/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-454/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -250,7 +250,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;High performance IP communication for the datacenter&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">High performance IP communication for the datacenter</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Bogdan Pricope\n&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Bogdan Pricope</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-455/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-455/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -259,7 +259,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;HPC BoF&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">HPC BoF</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Renato Golin - Kanta Vekaria&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Renato Golin – Kanta Vekaria</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-456/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-456/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -268,7 +268,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Works on Arm: CI/CD Infrastructure for Open Source and Commercial Software Testing&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Works on Arm: CI/CD Infrastructure for Open Source and Commercial Software Testing</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Ed Vielmetti&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Ed Vielmetti</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-457/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-457/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -277,7 +277,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;6WIND High Performance Networking Software for Arm Servers&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">6WIND High Performance Networking Software for Arm Servers</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Keith&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Keith</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-458/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-458/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -286,7 +286,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RDO &amp; RHEL 7.4&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">RDO &amp; RHEL 7.4</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Jon Masters&quot;}" data-sheets-formula="=SessionTracker!R[6]C[7]">Jon Masters</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-459/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-459/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -295,7 +295,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Qualcomm in the Datacenter&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Qualcomm in the Datacenter</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-460/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-460/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -304,7 +304,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Faster, Leaner and More Openness: Java is Accelerating Innovation for the Cloud&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Faster, Leaner and More Openness: Java is Accelerating Innovation for the Cloud</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-461/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-461/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -322,7 +322,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OS and architecture agnostic Docker Images&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">OS and architecture agnostic Docker Images</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-463/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-463/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -331,7 +331,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Spack&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Spack</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-464/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-464/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -340,7 +340,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Cavium in the Datacenter&quot;}" data-sheets-formula="=SessionTracker!R[6]C[4]">Cavium in the Datacenter</td>
 <td data-sheets-value="{&quot;1&quot;:0}" data-sheets-formula="=SessionTracker!R[6]C[7]"></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;LEG&quot;}" data-sheets-formula="=SessionTracker!R[6]C[1]">LEG</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-465/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[6]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-465/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;No&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[6]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">No</td>
 </tr>
@@ -349,7 +349,7 @@ These keynotes began day two of the five-day Linaro Connect. The previous day be
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Intro to Linaro and 96Boards for Engineers&quot;}" data-sheets-formula="=SessionTracker!R[7]C[4]">Intro to Linaro and 96Boards for Engineers</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Robert Wolff&quot;}" data-sheets-formula="=SessionTracker!R[7]C[7]">Robert Wolff</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;96Boards&quot;}" data-sheets-formula="=SessionTracker!R[7]C[1]">96Boards</td>
-<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[7]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="http://connect.linaro.org/resource/sfo17/sfo17-tr07/" target="_blank" rel="noopener">View Resources</a></td>
+<td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;View Resources&quot;}" data-sheets-formula="=HYPERLINK(SessionTracker!R[7]C[12], &quot;View Resources&quot;)"><a class="in-cell-link" href="https://connect.linaro.org/resources/sfo17/sfo17-tr07/" target="_blank" rel="noopener">View Resources</a></td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[7]C[28],&quot;you&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Yes&quot;}" data-sheets-formula="=IF(RegExMatch(SessionTracker!R[7]C[18],&quot;slideshare&quot;),&quot;Yes&quot;,&quot;No&quot;)">Yes</td>
 </tr>
