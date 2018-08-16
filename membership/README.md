@@ -13,7 +13,7 @@ css-package: members
     <div class="container text-center">
         <h1 class="fly">Why Join?</h1>
         <p class="fly">
-            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, competitors share development costs to accelerate innovation and time to market.
+            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share development costs to accelerate innovation and time to market.
         </p>
     </div>
 </div>
