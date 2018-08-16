@@ -50,7 +50,7 @@ To see what Linaro has done at previous Linaro Connects, click on the event you 
 |14|Hyatt Santa Clara|Santa Clara, USA|2013|28 Oct - 1 Nov|LCU13|485|[LCU13 Resources](https://connect.linaro.org/lcu13/resources/)|[LCU13 Photos](https://www.flickr.com/photos/linaroorg/albums/72157636689919306)|
 |13|Burlington Hotel|Dublin, Eire|2013|8 Jul - 12 July|LCE13|326|[LCE13 Resources](https://connect.linaro.org/lce13/resources/)|[LCE13 Photos](https://www.flickr.com/photos/linaroorg/albums/72157634563467554)|
 |12|Gold Coast Hotel|Hong Kong|2013|4 Mar - 8 Mar|LCA13|303|[LCA13 Resources](https://connect.linaro.org/lca13/resources/)|[LCA13 Photos](https://www.flickr.com/photos/linaroorg/albums/72157632907776675)|
-|11|BellaSky Hotel|Copenhagen, Denmark|2012|29 Oct - 2 Nov|LCE12|250|[LCE12 Resources](https://connect.linaro.org/lce12/resources/)|[LCE12 Photos](https://www.flickr.com/photos/linaroorg/albums/72157632851918653)|
+|11|BellaSky Hotel|Copenhagen, Denmark|2012|29 Oct - 2 Nov|LCE12|250|[LCE12 Resources](https://connect.linaro.org/resources/ )|[LCE12 Photos](https://www.flickr.com/photos/linaroorg/albums/72157632851918653)|
 |10|Gold Coast Hotel|Hong Kong|2012|28 May - 1 Jun|LCA12|250| ||
 |9|Sofitel Hotel|Redwood City, USA|2012|6 Feb - 10 Feb|LCU12|200| |[LCU12 Photos](https://www.flickr.com/photos/linaroorg/albums/72157629302497755)|
 |8|Caribe Royale|Orlando, USA|2011|31 Oct - 4 Nov|LCU11|100| |[LCU11 Photos](https://www.flickr.com/photos/linaroorg/albums/72157627950338055)|
