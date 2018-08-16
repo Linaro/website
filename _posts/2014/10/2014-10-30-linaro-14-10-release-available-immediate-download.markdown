@@ -102,4 +102,4 @@ Bug reports for this release should be filed in Launchpad against the individual
   
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
-Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](http://connect.linaro.org/hkg15/%20)
+Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [http://connect.linaro.org/hkg15/ ](https://connect.linaro.org/resources/hkg15/)
