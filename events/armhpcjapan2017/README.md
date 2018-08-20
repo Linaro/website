@@ -3,6 +3,11 @@ title: Arm HPC Japan 2017
 layout: default
 permalink: /events/armhpcjapan2017/
 css-package: arm-hpc
+image:
+    name: arm-hpc-workshop-japan_website-banner-top.png
+    path: /assets/images/content/arm-hpc-workshop-japan_website-banner-top.png
+    featured: true
+event: true
 ---
 {% include breadcrumb.html %}
 
