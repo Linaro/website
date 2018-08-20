@@ -6,6 +6,7 @@ css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
    name: OpenHours.png
+event: true
 ---
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
