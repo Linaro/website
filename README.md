@@ -11,6 +11,7 @@ PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro
 Below are a few guides that will help when adding content to the Linaro website.
 
 - [Adding a blog post](#adding-a-blog-post)
+- [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
 - [Building the static site](#building-the-static-site)
 
 
@@ -55,6 +56,9 @@ image:
 ```
 
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/linaro/website/tree/master/assets/images/blog).
+
+__Note:__ There is currently a bug with the version of `jekyll-assets` we are using which means the only acceptable image extensions are `.jpg` and `.png`. If you use `.jpeg` you image may not display as expected.
+
 
 #### Tags
 These should be modified based on the content of your post as they are used for Meta keywords so that people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
@@ -117,6 +121,22 @@ To add a media element / YouTube video use the following Jekyll include.
 {% include media.html media_url="https://youtu.be/GFzJd0hXI0c" %}
 ```
 
+
+*****
+
+## Adding Redirects to the Static site
+
+We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
+
+```
+^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
+!^/oldpath.*$ http://www.example.com [R=302,L,NC]
+^/topsecret.*$ [F,L]
+^/deadlink.*$ [G]
+^/foo$ /bar [H=^baz\.com$]
+```
+
+__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
 
 *****
 
