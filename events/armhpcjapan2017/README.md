@@ -28,7 +28,6 @@ event: true
         Welcome
     </a>
   </li>
-../
   <li role="presentation">
     <a href="#schedule" role="tab" data-toggle="tab">
         Schedule
