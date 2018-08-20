@@ -174,7 +174,6 @@
     "^/engineering/validation(/?|/index.html)$ /services/testing-validation-services/ [R,L,NC]",
     "^/engineering/working-groups(/?|/index.html)$ /about/organization/ [R,L,NC]",
     "^/events/arm-hpc-santa-clara-2018(/?|/index.html)$ /latest/events/arm-hpc-santa-clara-2018/ [R,L,NC]",
-    "^/events(/?|/index.html)$ /latest/events/ [R,L,NC]",
     "^/faqs(/?|/index.html)$ /about/ [R,L,NC]",
     "^/feed(/?|/index.html)$ /feed.xml [R,L,NC]",
     "^/gdpr(/?|/index.html)$ /legal/gdpr/ [R,L,NC]",
