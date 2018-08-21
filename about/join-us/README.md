@@ -7,7 +7,7 @@ permalink: /about/join-us/
 js-package: extended
 ---
 <div class="col-md-6" markdown="1">
-If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro? Please send your resume to [careers@linaro.org](mailto:careers@linaro.org)
+If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
 
 <div class="col-sm-6">
     <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}/">
