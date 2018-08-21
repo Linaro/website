@@ -11,12 +11,11 @@ css-package: events
     </a>
   </li>
   <li role="presentation">
-    <a href="/latest/events/"   >
+    <a href="/latest/events/">
         Calendar
     </a>
   </li>
 </ul>
-
 <div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
 <div role="tabpanel" class="tab-pane active" id="events">
 {% assign events = site.pages | where: 'event', 'true' %}
