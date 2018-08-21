@@ -19,9 +19,6 @@
 - name: KVM
   image: kvm.png
   url: https://www.linux-kvm.org/page/Main_Page
-- name: KVM
-  image: kvm.png
-  url: https://www.linux-kvm.org/page/Main_Page
 - name: Ceph
   image: ceph.png
   url: https://ceph.com/
@@ -43,9 +40,6 @@
 - name: UEFI
   image: uefi.png
   url: http://www.uefi.org/
-- name: Android
-  image: android.png
-  url: https://developer.android.com/
 - name: Android
   image: android.png
   url: https://developer.android.com/
