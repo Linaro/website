@@ -102,7 +102,18 @@ There are multiple levels of membership and different ways to engage in projects
 </div>
 <div class="row padded-row" id="membership-levels">
     <div class="container">
-        <h2 class="text-center">Levels of Engagement</h2>
+        <h2 class="text-center">Apply to Join</h2>
+        <div class="cognito fly">
+            <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "14", entry: {
+                        "PageUrl": "{{site.url}}{{page.url}}",
+                        "RedirectUrl": "{{site.url}}/thank-you/?ref={{page.url}}",
+                        "ChoiceField": [{% for member in site.data.members %}"{{member.membership_group_name}}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+                    }});
+            </script>
+        </div>
     </div>
 </div>
 
