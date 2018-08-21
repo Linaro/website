@@ -5,14 +5,14 @@ layout: container-breadcrumb
 css-package: events
 ---
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-  <li role="presentation" class="active">
-    <a href="#events" role="tab" data-toggle="tab">
-        Events
-    </a>
-  </li>
-  <li role="presentation">
+ <li role="presentation">
     <a href="/latest/events/">
         Calendar
+    </a>
+  </li>
+  <li role="presentation" class="active">
+    <a href="#events" role="tab" data-toggle="tab">
+        Past Events
     </a>
   </li>
 </ul>
