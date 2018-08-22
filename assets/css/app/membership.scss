@@ -82,11 +82,6 @@
     opacity: 1;
     transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
-
-div#why-join {
-    padding: 100px 0;
-}
-
 div#key-factors {
     background-color: #7ca82d;
 }
@@ -220,6 +215,30 @@ div#membership-levels {
         max-width: 350px;
         /* If max-width does not work, try using width instead */
         width: 100%;
+    }
+    #why-join h1 {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    #why-join p {
+        color: white;
+        width: 100%;
+        font-size: 17px;
+    }
+    .tooltip {
+        font-size: 14px;
+    }
+    span.key-factor-title {
+        font-size: 14px;
+        position: relative;
+        top: 8%;
+        transform: translateY(-50%);
+    }
+    .member {
+        background-size: contain;
+        height: 75px;
     }
 }
 
