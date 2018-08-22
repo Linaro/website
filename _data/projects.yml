@@ -49,9 +49,6 @@
 - name: OPNFV
   image: opnfv.png
   url: https://www.opnfv.org/
-- name: OPNFV
-  image: opnfv.png
-  url: https://www.opnfv.org/
 - name: DPDK
   image: dpdk.png
   url: https://www.dpdk.org/
