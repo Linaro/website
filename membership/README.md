@@ -115,7 +115,7 @@ By working with Linaro and its members on the core software, you can focus your 
 </div>
 </div>
 
-<div class="96boards-members">
+<div class="boards-members">
 <div class="container no-padding">
 {% for member in sorted-boards-members %}
 <div class="col-xs-6 col-sm-3 col-lg-2 member-col">
