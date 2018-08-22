@@ -106,7 +106,7 @@ By working with Linaro and its members on the core software, you can focus your 
 <div class="container linaro-members">
 <h2 class="text-center">Linaro</h2>
 {% for member in sorted-linaro-members %}
-<div class="col-xs-6 col-sm-3 col-lg-2 member-col">
+<div class="col-xs-6 col-sm-3 col-lg-1 member-col">
 <a href="{{member.url}}">
 <div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
 </a>
@@ -117,7 +117,7 @@ By working with Linaro and its members on the core software, you can focus your 
 <div class="container boards-members">
 <h2 class="text-center">96Boards</h2>
 {% for member in sorted-boards-members %}
-<div class="col-xs-6 col-sm-3 col-lg-2 member-col">
+<div class="col-xs-6 col-sm-3 col-lg-1 member-col">
 <a href="{{member.url}}">
 <div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
 </a>
