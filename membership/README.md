@@ -138,7 +138,7 @@ There are multiple levels of membership and different ways to engage in projects
 </div>
     </div>
 </div>
-<div class="row padded-row" id="membership-levels">
+<div class="row padded-row" id="apply-to-join">
     <div class="container">
         <h2 class="text-center">Apply to Join</h2>
         <div class="cognito fly">
