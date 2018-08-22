@@ -82,7 +82,6 @@ By working with Linaro and its members on the core software, you can focus your 
 <div class="row padded-row" id="members-and-partners">
     <div class="container">
         <h2 class="text-center">Members & Partners</h2>
-        <div class="linaro-members">
             {% assign linaro-members = "" | split: ',' %}
             {% assign boards-members = "" | split: ',' %}
 
@@ -104,7 +103,8 @@ By working with Linaro and its members on the core software, you can focus your 
 
             {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
             {% assign sorted-boards-members = boards-members | sort: 'name' %}
-
+<div class="linaro-members">
+<div class="container no-padding">
 {% for member in sorted-linaro-members %}
 <div class="col-xs-6 col-sm-3 col-lg-2 member-col">
 <a href="{{member.url}}">
@@ -112,10 +112,11 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
-
 </div>
-<div class="96boards-members">
+</div>
 
+<div class="96boards-members">
+<div class="container no-padding">
 {% for member in sorted-boards-members %}
 <div class="col-xs-6 col-sm-3 col-lg-2 member-col">
 <a href="{{member.url}}">
@@ -123,7 +124,7 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
-
+</div>
 </div>
 </div>
 </div>
