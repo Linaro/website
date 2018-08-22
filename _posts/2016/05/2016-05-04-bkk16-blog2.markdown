@@ -15,7 +15,7 @@ We had a full schedule with our typical mix interesting sessions from across all
 Below are some summary highlights from the week of the most popular sessions:
 
 
-#### Title: [BKK16-211](http://connect.linaro.org/resource/bkk16/bkk16-211/) **Internet of Tiny Linux (IoTL): status and progress**
+#### Title: [BKK16-211](https://connect.linaro.org/resources/bkk16/bkk16-211/) **Internet of Tiny Linux (IoTL): status and progress**
 
 
 Abstract: Discussion about various methods put forward to reduce the
@@ -29,7 +29,7 @@ Type of Session: Presentation/Training
 * * *
 
 
-#### Title: [BKK16-100](http://connect.linaro.org/resource/bkk16/bkk16-100/) **Evolution of the Reference Software Platform Project**
+#### Title: [BKK16-100](https://connect.linaro.org/resources/bkk16/bkk16-100/) **Evolution of the Reference Software Platform Project**
 
 
 Abstract: The Reference Software Platform lead project was introduced in Linaro Connect San Francisco 2015, and since then it evolved and matured with the completion of the first tree big milestones (the 15.10, 15.12 and 16.03 releases). This session revisited the work done as part of the previous releases, covering the projects that were incorporated through the process and our vision for the future milestones.
@@ -44,7 +44,7 @@ Type of Session: Presentation/Training
 
 
 
-#### Title: [BKK16-212](http://connect.linaro.org/resource/bkk16/bkk16-212/) **What's broken on Arm64?**
+#### Title: [BKK16-212](https://connect.linaro.org/resources/bkk16/bkk16-212/) **What's broken on Arm64?**
 
 
 Abstract: The Arm64 port is now in pretty good shape with most things ported and built in distributions. However we know that there is plenty of software that is not optimised and some may not actually work at all. In this session, we encouraged attendees to share their experience with arm64 and what they felt did not work as well as it did on x86. Linaro, Arm and Debian were keen to use this opportunity to get as much feedback as possible on where to direct effort next.
@@ -59,7 +59,7 @@ Type of Session: Presentation/Training
 
 
 
-#### Title: [BKK16-200](http://connect.linaro.org/resource/bkk16/bkk16-200/) **Designing security into constrained IoT Systems**
+#### Title: [BKK16-200](https://connect.linaro.org/resources/bkk16/bkk16-200/) **Designing security into constrained IoT Systems**
 
 
 Abstract: Trust and security are essential for the Internet of Things (IoT) to scale. As your product becomes successful, attraction will be high for it to be hacked and, as a consumer, you'll suffer with consequences if security is not baked into the system, at every level. With IoT, we now need to enable an appropriate level of security for sub $1 IoT designs done by people with little or no security expertise. In this presentation, we talked about how Arm, Linaro and the Arm partnership are securing these sub $1 IoT endpoints by providing device security, lifecycle security and communication security, without the need for in-depth security experts…
@@ -74,7 +74,7 @@ Type of Session: Presentation/Training
 
 
 
-#### Title: [BKK16-110](http://connect.linaro.org/resource/bkk16/bkk16-110/)** A Gentle Introduction to Trusted Execution and OP-TEE**
+#### Title: [BKK16-110](https://connect.linaro.org/resources/bkk16/bkk16-110/)** A Gentle Introduction to Trusted Execution and OP-TEE**
 
 
 Abstract: Smart connected devices such as mobile phones, tablets and Digital TVs are required to handle data with strong security and confidentiality requirements. A “Trusted Execution Environment” (TEE) provides an environment for processing data securely, protected from normal platform applications. This talk was intended as an introduction to Trusted Execution, and the open-source Trusted Execution Environment OP-TEE in particular. It introduced the GlobalPlatform TEE Specifications, explained how Trusted Execution is implemented by Arm TrustZone and OP-TEE, and outlined how trusted boot software manages the secure boot of an Arm platform. Finally, it gave some pointers on how to get started with OP-TEE.
@@ -91,19 +91,19 @@ Type of Session: Presentation/Training (No Video available)
 
 **Other popular sessions included:**
 
-[BKK16-104](http://connect.linaro.org/resource/bkk16/bkk16-104/): sched-freq
-[BKK16-505](http://connect.linaro.org/resource/bkk16/bkk16-505/): Kernel and Bootloader Consolidation and Upstreaming
-[BKK16-411](http://connect.linaro.org/resource/bkk16/bkk16-411/): Device Tree Standardization
+[BKK16-104](https://connect.linaro.org/resources/bkk16/bkk16-104/): sched-freq
+[BKK16-505](https://connect.linaro.org/resources/bkk16/bkk16-505/): Kernel and Bootloader Consolidation and Upstreaming
+[BKK16-411](https://connect.linaro.org/resources/bkk16/bkk16-411/): Device Tree Standardization
 
 The video for 309A and 309B were combined.
-[BKK16-309B](http://connect.linaro.org/resource/bkk16/bkk16-309b/): Enterprise Firmware - The gold standard and how to get there
-[BKK16-309A](http://connect.linaro.org/resource/bkk16/bkk16-309a/): Open Platform support in UEFI
-[BKK16-410](http://connect.linaro.org/resource/bkk16/bkk16-410/): SoC Idling & CPU Cluster PM
-[BKK16-208](http://connect.linaro.org/resource/bkk16/bkk16-208/): EAS
-[BKK16-504](http://connect.linaro.org/resource/bkk16/bkk16-504/):  Running Linux in EL2
-[BKK16-317](http://connect.linaro.org/resource/bkk16/bkk16-317): How to generate power models for EAS and IPA (without talking to a hardware engineer)
-[BKK16-303](http://connect.linaro.org/resource/bkk16/bkk16-303/): 96Boards - TV Platform
-[BKK16-203](http://connect.linaro.org/resource/bkk16/bkk16-203/): Irq prediction or how to better estimate idle time
+[BKK16-309B](https://connect.linaro.org/resources/bkk16/bkk16-309b/): Enterprise Firmware - The gold standard and how to get there
+[BKK16-309A](https://connect.linaro.org/resources/bkk16/bkk16-309a/): Open Platform support in UEFI
+[BKK16-410](https://connect.linaro.org/resources/bkk16/bkk16-410/): SoC Idling & CPU Cluster PM
+[BKK16-208](https://connect.linaro.org/resources/bkk16/bkk16-208/): EAS
+[BKK16-504](https://connect.linaro.org/resources/bkk16/bkk16-504/):  Running Linux in EL2
+[BKK16-317](https://connect.linaro.org/resources/bkk16/bkk16-317): How to generate power models for EAS and IPA (without talking to a hardware engineer)
+[BKK16-303](https://connect.linaro.org/resources/bkk16/bkk16-303/): 96Boards - TV Platform
+[BKK16-203](https://connect.linaro.org/resources/bkk16/bkk16-203/): Irq prediction or how to better estimate idle time
 
 
 

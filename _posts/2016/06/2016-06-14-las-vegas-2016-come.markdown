@@ -30,7 +30,7 @@ In the evening we had dinner at a Mexican restaurant called [Cantina Laredo]()ht
 
 {% include image.html name="JW-Marriott-gardens.jpg" alt="JW Marriott gardens" class="medium-inline" %}
 
-Friday was a busy day that mainly involved walking around the conference centre and planning the event. What makes the centre so nice is that there is a lot of outdoor space - it is very green with water everywhere. It really does feel like an oasis in the desert and will no doubt allow for the occasional respite from the busy [Linaro Connect](http://connect.linaro.org/las16/) schedule. 
+Friday was a busy day that mainly involved walking around the conference centre and planning the event. What makes the centre so nice is that there is a lot of outdoor space - it is very green with water everywhere. It really does feel like an oasis in the desert and will no doubt allow for the occasional respite from the busy [Linaro Connect](https://connect.linaro.org/las16/) schedule. 
 
 One of the  highlights of the trip was when we got to do a menu tasting. The chef prepared two salads, five main courses and two desserts. Needless to say we struggled to finish it all but we made a valiant attempt! My personal favorites were the Creole chicken and the baked vegetable baguette but everything was delicious.
 
@@ -43,6 +43,6 @@ Saturday we decided to brave the strip. The Marriott arranged for a car to pick 
 
 Sunday the Marriott treated us to 50 minute Swedish massages at the[ Spa Aquae]()http://www.marriott.com/spas/lasjw-jw-marriott-las-vegas-resort-and-spa/spa-aquae/5013971/home-page.mi. I am not normally a fan of massages, I tend to try so hard to relax that I end up overthinking it and becoming tense. I nearly decided to opt out of this one but I’m glad I didn’t. It was AMAZING. For someone who has never really enjoyed massages, I was blown away by how relaxed I felt afterwards. After the massage, I spent a good few hours in the spa, which is beautifully done up with hot tubs, an outdoor pool and saunas. Last but not least, I went for a quick swim in the outdoor pool before we had to head to the airport. Make sure you visit the spa and the swimming pool at least once during your stay at the [JW Marriott]()http://www.marriott.com/hotels/travel/lasjw-jw-marriott-las-vegas-resort-and-spa/.
 
-Linaro Connect Las Vega 2016 will be held September 26-30, 2016.  More information on this event can be found at: [http://connect.linaro.org/las16/](http://connect.linaro.org/las16/)
+Linaro Connect Las Vega 2016 will be held September 26-30, 2016.  More information on this event can be found at: [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)
 
 

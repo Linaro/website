@@ -145,4 +145,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT Asia (LCA14)
 
 
-Registration for Linaro Connect Asia 2014 (LCA14), which will be in Macau, China from March 3 - 7, 2014 is now open.  More information on this event can be found at: [http://connect.linaro.org/lca14/](http://connect.linaro.org/lca14/)
+Registration for Linaro Connect Asia 2014 (LCA14), which will be in Macau, China from March 3 - 7, 2014 is now open.  More information on this event can be found at: [https://connect.linaro.org/lca14/](https://connect.linaro.org/lca14/)

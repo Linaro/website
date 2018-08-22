@@ -32,7 +32,7 @@ Click here for Planet Linaro
 </div></a>
 </div>
 <div class="col-sm-3 hub-block">
-<a href="http://connect.linaro.org"><div class="hub-block-inner light hub-grey" markdown="1">
+<a href="https://connect.linaro.org"><div class="hub-block-inner light hub-grey" markdown="1">
 ### Linaro Connect
 Click here for latest connect
 </div></a>

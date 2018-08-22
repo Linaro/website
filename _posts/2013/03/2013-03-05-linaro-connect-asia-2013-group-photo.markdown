@@ -18,6 +18,6 @@ wordpress_id: 2540
 
 {% include image.html name="LCA13-Group-001-72dpi.jpg" alt="Linaro Connect Asia 2013 Group Photo" %}
 
-More information about Linaro Connect can be found at: [Connect](http://connect.linaro.org)
+More information about Linaro Connect can be found at: [Connect](https://connect.linaro.org)
 
-Find out you can participate remotely at:[ http://connect.linaro.org/lcu14/](http://connect.linaro.org/lcu14/)
+Find out you can participate remotely at:[ https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)

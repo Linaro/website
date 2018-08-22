@@ -224,7 +224,9 @@
 - id: lcg
   membership_group_name: LCG Members
   text: |-
-      Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. There are three engineering teams that work under the direction of the LCG Steering Committee: ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
+      Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. 
+      There are three engineering teams that work under the direction of the LCG Steering Committee
+      ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
       
       Companies interested in working together on common open source software foundations for consumer applications are invited to contact Linaro with the form below.
   members:
@@ -313,7 +315,7 @@
     - name: Hisilicon
       image: hisilicon.jpg
       url: /company/hisilicon/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: NXP
@@ -445,7 +447,7 @@
     - name: Avnet
       image: Avnet.png
       url: /company/avnet/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: Hisilicon

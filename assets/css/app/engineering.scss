@@ -267,3 +267,20 @@ span.core-descriptor.kernel {
         height: 260px;
     }
 }
+
+.project {
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.col-xs-6.col-sm-3.col-md-2.project-col {
+    padding: 10px;
+    border: 1px solid #eee;
+    transition: all 200ms ease;
+}
+
+.col-xs-6.col-sm-3.col-md-2.project-col:hover {
+    background-color: #eee;
+}

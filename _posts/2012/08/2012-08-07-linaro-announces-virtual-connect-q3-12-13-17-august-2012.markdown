@@ -19,7 +19,7 @@ title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
 wordpress_id: 1735
 ---
 
-[Linaro](/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](http://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
+[Linaro](/about/) divides its Roadmap into four yearly quarters punctuated by our [Connect events](https://connect.linaro.org/), and this year our third quarter will be kicked off with a twist: instead of doing it physically at one location, we'll instead be running a week of online discussions. **Virtual Connect Q3.12** will run from** August 13th to 17th**, is open to the public, and will be entirely hosted on [Google+ Hangouts on Air.](http://googleblog.blogspot.com/2012/05/google-hangouts-on-air-broadcast-your.html)
 
 ## What's a Virtual Connect?
 
@@ -292,4 +292,4 @@ We also ask you join the Freenode IRC channel #linaro-connect ([webchat](http://
 
 All sessions will be broadcast live and recorded in the [Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA?feature=mhee), where they can be viewed later. Session minutes, including the IRC transcript, will be [stored in Etherpad](http://pad.linaro.org/zXeyEakj4V) and linked from the video description and the event entry.
 
-And if you liked the experience, pen in the dates for the next, non-virtual, Linaro Connect, which will [be in Copenhagen](http://connect.linaro.org/resources/) during the week of October 29th, co-hosted with [UDS](http://uds.ubuntu.com/). See you all there, and thanks!
+And if you liked the experience, pen in the dates for the next, non-virtual, Linaro Connect, which will [be in Copenhagen](https://connect.linaro.org/resources/) during the week of October 29th, co-hosted with [UDS](http://uds.ubuntu.com/). See you all there, and thanks!

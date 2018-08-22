@@ -17,7 +17,7 @@ title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
 wordpress_id: 1911
 ---
 
-Linaro Connect ([LCE 12 - Copenhagen](http://connect.linaro.org/resources/)) is just around the corner and with a little over one month until the event we are pleased to announce the call for demonstrations is now open. The Demo Friday event will take place on Friday 2 November at the Bella Center, in Copenhagen, Denmark as part of LCE 12 Copenhagen.
+Linaro Connect ([LCE 12 - Copenhagen](https://connect.linaro.org/resources/)) is just around the corner and with a little over one month until the event we are pleased to announce the call for demonstrations is now open. The Demo Friday event will take place on Friday 2 November at the Bella Center, in Copenhagen, Denmark as part of LCE 12 Copenhagen.
 
 If you’ve not participated or attended previously, you can get an idea of what the event entails by taking a look at the previous events videos: [http://www.youtube.com/user/linaroorg](http://www.youtube.com/user/linaroorg)
 
@@ -56,7 +56,7 @@ Please let us know if you have any questions about Demo Friday or the LCE 12 Cop
 
 _**Now’s your time to show off what you’ve been working on. [ Send in your Demo Friday submission today](mailto:events@linaro.org). **_
 
-_**Registration is open for the LCE 12 Copenhagen event being held from 29 October - 2 November at the Bella Center in Copenhagen, Denmark.  Don’t forget to [register today](http://connect.linaro.org/wp-login.php?redirect_to=/register-connect/).**_
+_**Registration is open for the LCE 12 Copenhagen event being held from 29 October - 2 November at the Bella Center in Copenhagen, Denmark.  Don’t forget to [register today](https://connect.linaro.org/register/).**_
 
 **About Linaro Connect**
 
@@ -64,9 +64,9 @@ This coming October, over 200 participants, ranging from kernel hackers to integ
 
 As part of LCE 12 Copenhagen, and in addition to the traditional tracks and sessions, Linaro will also offer 3 mini-summits which focus on [Android](/blog/linaro-android-mini-summit-to-be-held-at-lce-12-in-copenhagen/), [Armv8(64bit) and big.LITTLE](/blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/).
 
-Join us at the [Bella Center in Copenhagen](http://connect.linaro.org/resources/#travel) and help drive the future of Linux on Arm!
+Join us at the [Bella Center in Copenhagen](https://connect.linaro.org/resources/#travel) and help drive the future of Linux on Arm!
 
-[connect.linaro.org](http://connect.linaro.org/resources/)
+[connect.linaro.org](https://connect.linaro.org/resources/)
 
 **About Linaro**
 

@@ -55,19 +55,19 @@ left:0%;
       $(document).keyup(function(e)
 	{
 	  if (e.keyCode == '49') {
-     $('#panel3').attr('src', 'http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-28/display');
+     $('#panel3').attr('src', 'https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-28/display');
    }
     if (e.keyCode == '50') {
-     $('#panel3').attr('src', 'http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-29/display');
+     $('#panel3').attr('src', 'https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-29/display');
    }
     if (e.keyCode == '51') {
-     $('#panel3').attr('src', 'http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-30/display');
+     $('#panel3').attr('src', 'https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-30/display');
    }
     if (e.keyCode == '52') {
-     $('#panel3').attr('src', 'http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-31/display');
+     $('#panel3').attr('src', 'https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-05-31/display');
    }
     if (e.keyCode == '53') {
-     $('#panel3').attr('src', 'http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-06-01/display');
+     $('#panel3').attr('src', 'https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lcq2-12/2012-06-01/display');
    }
 	});
       
@@ -84,7 +84,7 @@ left:0%;
 <iframe src="http://free.timeanddate.com/clock/i2x5srdj/n69/fc9c0/tc222/pct/pa8/tt0/tw1/th1/ta1/tb2" width="35%" height="4%" id="time"></iframe>
 <div id="headline">  <h1 style="text-align:center; width:100%; font-size:14px;">(use #linaroconnect)</h1></div>
 
-<iframe style="float:right;" src="http://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lce12/<?php echo $summitdate ?>/display" width="85%" height="90%" id="panel3" scrolling="no" horizontalscrolling="no" verticalscrolling="yes"></iframe>
+<iframe style="float:right;" src="https://connect.linaro.org/summit/index2.php?refresh=<?php echo rand(1000,1999);?>&url=http://summit.linaro.org/lce12/<?php echo $summitdate ?>/display" width="85%" height="90%" id="panel3" scrolling="no" horizontalscrolling="no" verticalscrolling="yes"></iframe>
 
 
 

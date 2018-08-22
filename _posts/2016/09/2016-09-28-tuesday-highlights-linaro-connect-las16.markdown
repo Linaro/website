@@ -38,5 +38,5 @@ Tuesday was also the first day of a series of mini-conferences happening the wee
 
 
 
-Check out the [Linaro Connect resources page](http://connect.linaro.org/las16/resources/) to view the presentations and sessions that took place.
+Check out the [Linaro Connect resources page](https://connect.linaro.org/las16/resources/) to view the presentations and sessions that took place.
 

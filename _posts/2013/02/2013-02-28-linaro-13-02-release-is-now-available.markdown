@@ -44,7 +44,7 @@ More exciting news for the 13.02 cycle in addition to all the work done for this
 ## Linaro Connect
 
 
-Registration for [LCA-13 in Hong Kong](http://connect.linaro.org) is now closed, however, remote participation is available. More information about you can participate remotely can be found at: [http://connect.linaro.org/about/](http://connect.linaro.org/about/)
+Registration for [LCA-13 in Hong Kong](https://connect.linaro.org) is now closed, however, remote participation is available. More information about you can participate remotely can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
 
 ## Using this Release

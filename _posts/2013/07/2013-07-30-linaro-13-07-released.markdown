@@ -46,7 +46,7 @@ For more information and a detailed list of highlights for the 13.07 release ple
 
 ### Highlights from Linaro Connect Europe 2013 (LCE13)
 
-[Linaro Connect Europe 2013 (LCE13)](http://connect.linaro.org/lce13/) was took place during the 13.07 release cycle and highlights from that event include:
+[Linaro Connect Europe 2013 (LCE13)](https://connect.linaro.org/lce13/) was took place during the 13.07 release cycle and highlights from that event include:
 
 
   * Jon Maddog Hall and the 64-bit porting project
@@ -69,7 +69,7 @@ Other highlights from LCE13 include:
   * Linaro Connect Europe 2013: People and Personalities of Connect - [/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
-  * Resources - [http://connect.linaro.org/resources/](http://connect.linaro.org/resources/)
+  * Resources - [https://connect.linaro.org/resources/](https://connect.linaro.org/resources/)
 
 
   * Pictures from Connect - [http://www.flickr.com/photos/linaroorg/](http://www.flickr.com/photos/linaroorg/)
@@ -81,7 +81,7 @@ For updates on these topics, as well as links to videos, pictures, presentations
 
 ### Upcoming Linaro Connect Events: Linaro Connect US 2013 (LCU13)
 
-Registration for [Linaro Connect US 2013 (LCU13)](http://connect.linaro.org/lcu13/), which will be co-located with Arm's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [http://connect.linaro.org/lcu13/](http://connect.linaro.org/lcu13/)
+Registration for [Linaro Connect US 2013 (LCU13)](https://connect.linaro.org/lcu13/), which will be co-located with Arm's TechCon in Santa Rosa, CA from October 28 through 1 November 2013 is now open.  More information on this event can be found at: [https://connect.linaro.org/lcu13/](https://connect.linaro.org/lcu13/)
 
 ### USING THIS RELEASE:
 

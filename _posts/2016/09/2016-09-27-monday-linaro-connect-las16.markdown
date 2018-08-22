@@ -13,7 +13,7 @@ categories:
 
 Linaro Connect began today in Las Vegas and welcomed over 425 attendees making it one of the largest Linaro Connect events. Linaro Connect Las Vegas 2016 (LAS16) is a five-day event full of keynotes by industry leaders, talks, training, hacking and a lot of socializing fun. Linaro Connect brings together the best and the brightest of the Linux on Arm community and LAS16 was no exception.
 
-It began with a [Welcome Keynote](http://connect.linaro.org/resource/las16/las16-100k1/) by Linaro’s CEO, George Grey, who welcomed attendees to the event and gave an overview of the many projects that Linaro is working on with its member companies. George then went on to demo several of these projects.
+It began with a [Welcome Keynote](https://connect.linaro.org/resources/las16/las16-100k1/) by Linaro’s CEO, George Grey, who welcomed attendees to the event and gave an overview of the many projects that Linaro is working on with its member companies. George then went on to demo several of these projects.
 
 
 George then wrapped up this keynote by announcing Linaro’s newest segment group, the [Linaro IoT and Embedded Group (LITE)](/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/). The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. Standards are essential to the success of IoT and the LITE group will bring together Arm ecosystem support for key standards and engineering work to support reliable implementations. LITE will benefit from Linaro’s other engineering activities in the same way as the other groups.

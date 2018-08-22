@@ -16,7 +16,7 @@ title: Linaro Connect Europe 2013 - Demo Friday Videos
 wordpress_id: 2852
 ---
 
-[Demo Friday](http://connect.linaro.org/lce13/#tab-1395317778085-5-9) at the Linaro Connect events is always an educational and inspiring way to wrap-up the fast paced, high energy week of creating the plans which continue to drive the future of Linux on Arm.
+[Demo Friday](https://connect.linaro.org/lce13/#tab-1395317778085-5-9) at the Linaro Connect events is always an educational and inspiring way to wrap-up the fast paced, high energy week of creating the plans which continue to drive the future of Linux on Arm.
 
 While we didn't get the opportunity to record all the Demos, below are links to the ones we were able to capture.  These include:
 
@@ -47,7 +47,7 @@ While we didn't get the opportunity to record all the Demos, below are links to 
   * [ LAVA - LMP (LAVA Multi-purpose Probe)](http://www.youtube.com/watch?v=3Jaf5ILvVmQ)
 
 
-Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](http://connect.linaro.org):
+Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or your organization?  See what took place at LCE13 in Dublin by taking at look at [these blog posts](https://connect.linaro.org):
 
 
 
@@ -61,4 +61,4 @@ Trying to decide if attending Linaro Connect US 2013 (LCU13) is right for you or
   * [Linaro Connect Europe 2013: People and Personalities of Connect](/blog/linaro-connect-europe-2013-people-and-personalities-of-connect/)
 
 
-For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [http://connect.linaro.org/lce13/](http://connect.linaro.org/lce13/)
+For more information on the upcoming Linaro Connect events being held from 28 October to 1 November 2013 in the Santa Clara Convention Center in Santa Clara, California please see the Linaro Connect website at: [https://connect.linaro.org/lce13/](https://connect.linaro.org/lce13/)
