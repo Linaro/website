@@ -83,12 +83,49 @@ By working with Linaro and its members on the core software, you can focus your 
     <div class="container">
         <h2 class="text-center">Members & Partners</h2>
         <div class="linaro-members">
+            {% assign linaro-members = "" | split: ',' %}
+            {% assign boards-members = "" | split: ',' %}
 
-        </div>
-        <div class="96boards-members">
+            {% for each in site.data.members %}
+                {% if each.id != "boards-ai" and each.id != "boards-mezzanine" and each.id != "boards-mp" and each.id != "boards-sc" %}
+                    {% for member in each.members %}
+                        {% unless linaro-members contains member %}
+                            {% assign linaro-members = linaro-members | push: member %}
+                        {% endunless %}
+                    {% endfor %}
+                {% else %}
+                    {% for member in each.members %}
+                        {% unless boards-members contains member %}
+                            {% assign boards-members = boards-members | push: member %}
+                        {% endunless %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
 
-        </div>
-    </div>
+            {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
+            {% assign sorted-boards-members = boards-members | sort: 'name' %}
+
+{% for member in sorted-linaro-members %}
+<div class="col-xs-6 col-sm-3 col-lg-2 member-col">
+<a href="{{member.url}}">
+<div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
+</a>
+</div>
+{% endfor %}
+
+</div>
+<div class="96boards-members">
+
+{% for member in sorted-boards-members %}
+<div class="col-xs-6 col-sm-3 col-lg-2 member-col">
+<a href="{{member.url}}">
+<div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
+</a>
+</div>
+{% endfor %}
+
+</div>
+</div>
 </div>
 <div class="row padded-row" id="membership-levels">
     <div class="container">
