@@ -10,9 +10,9 @@ css-package: membership
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
 <div class="row overlay padded-row" id="why-join">
     <div class="container text-center">
-        <h1 class="fly center-block">Join Linaro to accelerate the deployment of your Arm-based solutions</h1>
+        <h1 class="fly center-block">Why Join?</h1>
         <p class="fly center-block">
-            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
+            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share development costs to accelerate innovation and time to market.
         </p>
     </div>
 </div>
