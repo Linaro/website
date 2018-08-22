@@ -40,8 +40,6 @@ pages:
       options:
           - text: Overview
             url: /engineering/
-          - text: Developers
-            url: /developers/
           - text: Core
             options:
                 - text: Overview

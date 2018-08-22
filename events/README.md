@@ -5,18 +5,17 @@ layout: container-breadcrumb
 css-package: events
 ---
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-  <li role="presentation" class="active">
-    <a href="#events" role="tab" data-toggle="tab">
-        Events
-    </a>
-  </li>
-  <li role="presentation">
-    <a href="/latest/events/"   >
+ <li role="presentation">
+    <a href="/latest/events/">
         Calendar
     </a>
   </li>
+  <li role="presentation" class="active">
+    <a href="#events" role="tab" data-toggle="tab">
+        Past Events
+    </a>
+  </li>
 </ul>
-
 <div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
 <div role="tabpanel" class="tab-pane active" id="events">
 {% assign events = site.pages | where: 'event', 'true' %}

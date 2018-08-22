@@ -7,14 +7,14 @@ permalink: /latest/events/
 css-package: events
 ---
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-  <li role="presentation">
-    <a href="/events/">
-        Events
+ <li role="presentation" class="active">
+    <a href="/latest/events/">
+        Calendar
     </a>
   </li>
-  <li role="presentation" class="active">
-    <a href="#calendar" role="tab" data-toggle="tab">
-        Calendar
+  <li role="presentation" >
+    <a href="#events" role="tab" data-toggle="tab">
+        Past Events
     </a>
   </li>
 </ul>
