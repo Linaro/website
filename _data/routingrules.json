@@ -170,7 +170,6 @@
     "^/engineering/output(/?|/index.html)$ /downloads/ [R,L,NC]",
     "^/engineering/output/linaro-evaluation-build-leb-faq(/?|/index.html)$ /downloads/leb-faq/ [R,L,NC]",
     "^/engineering/platform-engineering(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
-    "^/engineering/projects/(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
     "^/engineering/validation(/?|/index.html)$ /services/testing-validation-services/ [R,L,NC]",
     "^/engineering/working-groups(/?|/index.html)$ /about/organization/ [R,L,NC]",
     "^/events/arm-hpc-santa-clara-2018(/?|/index.html)$ /latest/events/arm-hpc-santa-clara-2018/ [R,L,NC]",
