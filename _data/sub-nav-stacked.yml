@@ -71,7 +71,7 @@ pages:
         title: Machine Intelligence
         url: /engineering/incubators/machine-intelligence/
       -
-        title: Autonomous Vehicles (LAVS)
+        title: Autonomous Vehicles
         url: /engineering/incubators/autonomous-vehicles/
 
     urls: [/engineering/incubators/, /engineering/incubators/machine-intelligence/, /engineering/incubators/autonomous-vehicles/]
