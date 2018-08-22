@@ -149,17 +149,6 @@ span.bold {
     padding: 10px;
 }
 
-@media(max-width: $screen-sm-min - 1) {
-    .padded-row {
-        padding: 40px 0;
-    }
-    .tooltip-inner {
-        max-width: 350px;
-        /* If max-width does not work, try using width instead */
-        width: 100%;
-    }
-}
-
 #key-factors h2.text-center {
     color: white;
     font-size: 24px;
@@ -215,7 +204,28 @@ div#membership-levels {
     margin-top: 20px;
     font-size: 18px;
 }
+
 .boards-members h2.text-center {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.cognito {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media(max-width: $screen-sm-min - 1) {
+    .cognito {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .padded-row {
+        padding: 40px 0;
+    }
+    .tooltip-inner {
+        max-width: 350px;
+        /* If max-width does not work, try using width instead */
+        width: 100%;
+    }
 }
