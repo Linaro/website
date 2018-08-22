@@ -8,7 +8,7 @@ js-package: membership
 css-package: membership
 ---
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
-<div class="row overlay" id="why-join">
+<div class="row overlay padded-row" id="why-join">
     <div class="container text-center">
         <h1 class="fly center-block">Join Linaro to accelerate the deployment of your Arm-based solutions</h1>
         <p class="fly center-block">
