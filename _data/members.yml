@@ -315,7 +315,7 @@
     - name: Hisilicon
       image: hisilicon.jpg
       url: /company/hisilicon/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: NXP
@@ -447,7 +447,7 @@
     - name: Avnet
       image: Avnet.png
       url: /company/avnet/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: Hisilicon
