@@ -23,7 +23,7 @@ css-package: membership
         {% for project in site.data.projects %}
         <a href="{{project.url}}" target="_blank">
             <div class="item project-item">
-                <div class="project-image" style="background: url('/assets/images/projects/{{project.image}}') no-repeat center center;
+                <div class="project-image lazyload" style="background: url('/assets/images/projects/{{project.image}}') no-repeat center center;
                  background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;"></div>
             </div>
         </a>
@@ -103,8 +103,8 @@ By working with Linaro and its members on the core software, you can focus your 
 
             {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
             {% assign sorted-boards-members = boards-members | sort: 'name' %}
-<div class="linaro-members">
-<div class="container no-padding">
+<div class="container linaro-members">
+<h2 class="text-center">Linaro</h2>
 {% for member in sorted-linaro-members %}
 <div class="col-xs-6 col-sm-3 col-lg-2 member-col">
 <a href="{{member.url}}">
@@ -113,10 +113,9 @@ By working with Linaro and its members on the core software, you can focus your 
 </div>
 {% endfor %}
 </div>
-</div>
 
-<div class="boards-members">
-<div class="container no-padding">
+<div class="container boards-members">
+<h2 class="text-center">96Boards</h2>
 {% for member in sorted-boards-members %}
 <div class="col-xs-6 col-sm-3 col-lg-2 member-col">
 <a href="{{member.url}}">
@@ -124,7 +123,6 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
-</div>
 </div>
 </div>
 </div>
