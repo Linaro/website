@@ -100,3 +100,17 @@ css-package: engineering-landing
         </div>
     </div>
 </div>
+<div class="container-fluid" id="content">
+    <div class="row padded-row" id="projects">
+        <div class="container projects">
+            <h2 class="text-center">Projects</h2>
+            {% for project in site.data.projects %}
+            <div class="col-xs-6 col-sm-3 col-md-2 project-col">
+                <a href="{{project.url}}">
+                    <div class="project lazyload" style="background-image: url('/assets/images/projects/{{project.image}}');"></div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -82,19 +82,14 @@
     opacity: 1;
     transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
-
-div#why-join {
-    padding: 100px 0;
-}
-
 div#key-factors {
     background-color: #7ca82d;
 }
 
 span.key-factor-title {
-    font-size: 14px;
+    font-size: 20px;
     position: relative;
-    top: 23%;
+    top: 18%;
     transform: translateY(-50%);
 }
 
@@ -106,7 +101,7 @@ span.bold {
 .key-factor-block {
     padding: 10px;
     background-color: #fff;
-    height: 120px;
+    height: 180px;
     margin-top: 23px;
     border: 1px solid #a9a9a9;
     -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
@@ -139,10 +134,6 @@ span.bold {
 
 .project-image {
     height: 100px;
-}
-
-.padded-row {
-    padding: 100px 0;
 }
 
 .item.project-item {
@@ -220,12 +211,45 @@ div#membership-levels {
         width: 100%;
         margin: 0 auto;
     }
-    .padded-row {
-        padding: 40px 0;
-    }
     .tooltip-inner {
         max-width: 350px;
         /* If max-width does not work, try using width instead */
         width: 100%;
     }
+    #why-join h1 {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    #why-join p {
+        color: white;
+        width: 100%;
+        font-size: 17px;
+    }
+    .tooltip {
+        font-size: 14px;
+    }
+    span.key-factor-title {
+        font-size: 14px;
+        position: relative;
+        top: 8%;
+        transform: translateY(-50%);
+    }
+    .member {
+        background-size: contain;
+        height: 75px;
+    }
+}
+
+.key-factor-block {
+    transition: all 200ms linear;
+}
+
+.key-factor-block:hover {
+    opacity: .2;
+}
+
+.tooltip {
+    font-size: 20px;
 }

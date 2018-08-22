@@ -11,7 +11,7 @@ css-package: events
     </a>
   </li>
   <li role="presentation" class="active">
-    <a href="#events" role="tab" data-toggle="tab">
+    <a href="/events/">
         Past Events
     </a>
   </li>
