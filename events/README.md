@@ -16,7 +16,14 @@ css-package: events
     </a>
   </li>
 </ul>
-{% assign events = site.pages | where: 'event', 'true' %}
+{% assign events = site.pages | where: 'event', 'true' | sort: "date" | reverse %}
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+    <h2>Workshops</h2>
+</div>
+</div>
+<div class="row">
 {% for event-page in events %}
 <div class="col-sm-4 no-padding">
     <a href="{{event-page.url}}">
@@ -29,7 +36,16 @@ css-package: events
     </a>
 </div>
 {% endfor %}
+</div>
+</div>
 {% assign connects = site.data.connects | sort: "start-date" | reverse %}
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+    <h2>Linaro Connect Events</h2>
+</div>
+</div>
+<div class="row">
 {% for event-page in connects %}
 <div class="col-sm-4 no-padding">
     <a href="https://connect.linaro.org/resources/{{event-page.id | downcase }}/">
@@ -42,3 +58,5 @@ css-package: events
     </a>
 </div>
 {% endfor %}
+</div>
+</div>
