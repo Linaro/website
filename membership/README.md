@@ -45,7 +45,7 @@ By working with Linaro and its members on the core software, you can focus your 
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
             <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Rather than developing and maintaining all your software for the life of your products on your own, you and other members do the work together through the Linaro shared engineering resource. This reduces the cost for each member and minimizes fragmentation and redundant effort.">
                 <span class="key-factor-title">
-                    <span class="bold">Accelerate development</span> with <span class="bold">reduce costs</span>
+                    <span class="bold">Accelerate development</span> and <span class="bold">reduce costs</span>
                 </span>
             </div>
         </div>
@@ -57,7 +57,7 @@ By working with Linaro and its members on the core software, you can focus your 
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro aims to recruit the best open source engineers to work on our members’ projects. Normally, when an engineer works for a company, they only work for their employer, but Linaro’s model enables their expertise to be shared by all members. It also enables access to other company’s engineers through the assignees. Many of our engineers are recognized world leaders and are deeply involved in the projects they work on, in many case being maintainers or leading contributors. Linaro membership provides access to this unique resource.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro aims to recruit the best open source engineers to work on our members’ projects. Normally, when an engineer works for a company, they only work for their employer, but Linaro’s model enables their expertise to be shared by all members. It also enables access to other company’s engineers through the assignees. Many of our engineers are recognized world leaders and are deeply involved in the projects they work on, in many cases being maintainers or leading contributors. Linaro membership provides access to this unique resource.">
                 <span class="key-factor-title">
                     Gain access to <span class="bold">maintainers</span> and <span class="bold">unique</span> engineering talent
                 </span>
@@ -112,6 +112,11 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
+<div class="col-xs-12 padded-row">
+<p class="center-block">
+To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
+</p>
+</div>
 </div>
 
 <div class="container boards-members fly">
@@ -123,6 +128,11 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
+<div class="col-xs-12 padded-row">
+<p class="center-block">
+To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
+</p>
+</div>
 </div>
 </div>
 </div>
@@ -132,7 +142,7 @@ By working with Linaro and its members on the core software, you can focus your 
 <div markdown="1" class="fly">
 Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, software distributions and other companies who wish to influence the future of open source on Arm. Members all provide funding for Linaro and some levels provide engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](https://www.linaro.org/assets/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](https://www.linaro.org/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
 
-There are multiple levels of membership and different ways to engage in projects that Linaro runs. The table below summarizes the options - please contact us to discuss what will best suit your company. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. The current groups include LDCG, LITE, LEDGE and LCG; current SIGs are ODP, HPC and LTNS; current incubators are AI/ML and Automotive; and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
+There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. The current groups include LDCG, LITE, LEDGE and LCG; current SIGs are ODP, HPC and LTNS; current incubators are AI/ML and Automotive; and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
 </div>
     </div>
 </div>

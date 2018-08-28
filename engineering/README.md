@@ -23,7 +23,7 @@ css-package: engineering-landing
                     <img class="img-responsive lazyload" data-src="{% asset_path 'LDCG col.svg' %}" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
-                <h3 class="group-title">Data Center & Cloud</h3>
+                <h3 class="group-title">Datacenter & Cloud</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/ledge/">

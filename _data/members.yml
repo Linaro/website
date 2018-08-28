@@ -411,7 +411,7 @@
     - name: Shiratech
       image: shiratech.png
       url: /company/shiratech/
-    - name: Thundersoft
+    - name: ThunderSoft
       image: thundersoft.jpg
       url: /company/thundersoft/
     - name: ToCoding

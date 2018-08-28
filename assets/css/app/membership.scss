@@ -82,6 +82,7 @@
     opacity: 1;
     transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
+
 div#key-factors {
     background-color: #7ca82d;
 }
@@ -252,4 +253,12 @@ div#membership-levels {
 
 .tooltip {
     font-size: 20px;
+}
+
+.item.project-item {
+    transition: all 200ms ease;
+}
+
+.item.project-item:hover {
+    opacity: .2;
 }

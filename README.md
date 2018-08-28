@@ -12,6 +12,7 @@ Below are a few guides that will help when adding content to the Linaro website.
 
 - [Adding a blog post](#adding-a-blog-post)
 - [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
+- [Adding Events to the Events/ page](#adding-events-to-the-events-page)
 - [Building the static site](#building-the-static-site)
 
 
@@ -139,6 +140,39 @@ We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is
 __Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
 
 *****
+
+## Adding events to the events page
+
+### Adding Other Events
+
+Events listed on the events/ page are added through simply adding the `event:true` front matter value to your event page. The events will then be listed based on the date
+value in front matter of that specific page.
+
+```yaml
+...
+event: true
+...
+
+```
+
+### Adding Connect Events
+
+Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified 
+in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
+
+```yaml
+
+- id: YVR18
+  placeholder: yvr18.jpg
+  long-name: Linaro Connect Vancouver 2018
+  start-date: 2018-09-17 09:00:00
+  end-date: 2018-09-21 09:00:00
+  location:
+      venue: Hyatt Regency Vancouver
+      city: Vancouver
+      country: Canada
+
+```
 
 ## Building the static site
 

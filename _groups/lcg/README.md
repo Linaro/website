@@ -1,5 +1,5 @@
 ---
-group_id: 1
+group_id: 3
 title: Linaro Consumer Group (LCG)
 description: |-
     Linaro was founded by companies focused on working together in the mobile space.

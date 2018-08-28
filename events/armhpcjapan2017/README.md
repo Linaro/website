@@ -1,6 +1,7 @@
 ---
 title: Arm HPC Japan 2017
 layout: default
+date: 2017-12-12 09:00:00+00:00
 permalink: /events/armhpcjapan2017/
 css-package: arm-hpc
 image:

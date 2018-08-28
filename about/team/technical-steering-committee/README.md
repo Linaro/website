@@ -51,7 +51,7 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 </div>
 </div>
 
-<div class="container board_member">
+<div class="container board_member no-padding">
 <div class="col-sm-9" markdown="1">
 ### **Eric Finco** / STMicroelectronics
 
@@ -79,17 +79,6 @@ When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking,
 </div>
 </div>
 
-
-<div class="container board_member no-padding">
-<div class="col-sm-9 no-padding" markdown="1">
-### **Elsie Wahlig** / Qualcomm (Associate Member)
-
-Elsie Wahlig is a Principal Engineer and manager in the Server SW team at Qualcomm where she is leading plans for SW Ecosystem enablement of Server SoC’s. During her 25 years in industry, she’s enjoyed a wide variety of roles in both technical and management capacity. Before joining Qualcomm, she worked at Samsung Austin Research Center where she started and led a small 5 person team working on Arm Servers, SW Architecture team and SW Ecosystem. Prior to Samsung, Ms. Wahlig was an Engineering Fellow at Advanced Micro Devices, during which she was responsible for Operating System and Virtualization software. In the earlier days at AMD, she founded and led AMD’s device driver team implementing Linux and Windows drivers for the all AMD production chipsets. One constant for the last 20 years was the importance of Open Source software.
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html name="Elsie-Wahlig.jpg" class="linaro-profile-image" alt="Elsie Wahlig Profile Photo"%}
-</div>
-</div>
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
 ### **Jarmo Hillo** / LNG Representative, NSN
