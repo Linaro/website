@@ -12,7 +12,6 @@ image:
   name: AiSummitBanner2.png
   path: /assets/images/blog/AiSummitBanner2.png
 ---
-
 At Linaro Connect Hong Kong 2018, Linaro CEO George Grey announced the strategic initiative Machine Intelligence. The aim of the initiative is to provide best in class deep learning performance by leveraging neural network acceleration in IP and SoCs from the Arm Ecosystem. This will be achieved through collaboration on the most widely available AI/ML Software frameworks and libraries.
 
 To kickstart these efforts, we will be hosting an AI & Neural Networks on Arm Summit on Wednesday 19 September at Linaro Connect YVR18 (Hyatt, Vancouver). For just $45, you can attend the full summit - watch keynotes by thought leaders within this space and discuss issues and opportunities.
