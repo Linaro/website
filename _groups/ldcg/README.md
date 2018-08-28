@@ -10,7 +10,6 @@ group_long_name: Linaro Datacenter & Cloud Group
 director: Martin Stadtler
 #related_initiatives:
 related_sig:
-  - /sig/hpc/
   - /sig/ltn/
   - /sig/hpc/
 other_projects:
