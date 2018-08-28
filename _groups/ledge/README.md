@@ -1,5 +1,5 @@
 ---
-group_id: 3
+group_id: 2
 title: Linaro Edge (LEDGE)
 description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
