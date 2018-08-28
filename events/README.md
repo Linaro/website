@@ -16,11 +16,9 @@ css-package: events
     </a>
   </li>
 </ul>
-<div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
-<div role="tabpanel" class="tab-pane active" id="events">
 {% assign events = site.pages | where: 'event', 'true' %}
 {% for event-page in events %}
-<div class="col-sm-4">
+<div class="col-sm-4 no-padding">
     <a href="{{event-page.url}}">
         <div class="event-block">
             <div class="event-image" style="background-image: url('{{event-page.image.path}}')"></div>
@@ -31,8 +29,16 @@ css-package: events
     </a>
 </div>
 {% endfor %}
+{% assign connects = site.data.connects | sort: "start-date" | reverse %}
+{% for event-page in connects %}
+<div class="col-sm-4 no-padding">
+    <a href="https://connect.linaro.org/resources/{{event-page.id | downcase }}/">
+        <div class="event-block">
+            <div class="event-image" style="background-image: url('https://connect.linaro.org/assets/images/content/{{event-page.placeholder}}')"></div>
+            <div class="event-title">
+                <h3>{{event-page.long-name}}</h3>
+            </div>
+        </div>
+    </a>
 </div>
-<div role="tabpanel" class="tab-pane" id="calendar">
-{% include media.html media_url="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=linaro.org_57i79nkmucufvn4rpm2mldkkeo%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FLondon" %}
-</div>
-</div>
+{% endfor %}
