@@ -1,6 +1,7 @@
 ---
 title: Arm Architecture HPC Workshop Santa Clara 2018
 layout: default
+date: 2018-07-26 09:00:00+00:00
 permalink: /latest/events/arm-hpc-santa-clara-2018/
 css-package: arm-hpc-2018
 image:
