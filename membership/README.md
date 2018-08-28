@@ -112,6 +112,9 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
+<p class="center-block">
+To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
+</p>
 </div>
 
 <div class="container boards-members fly">
@@ -123,6 +126,9 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
+<p class="center-block">
+To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
+</p>
 </div>
 </div>
 </div>
