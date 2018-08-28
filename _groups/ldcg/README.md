@@ -8,11 +8,10 @@ permalink: /engineering/groups/ldcg/
 group_short_name: ldcg
 group_long_name: Linaro Datacenter & Cloud Group
 director: Martin Stadtler
-related_projects:
-  - "3"
-  - "10"
 #related_initiatives:
 related_sig:
+  - /sig/hpc/
+  - /sig/ltn/
   - /sig/hpc/
 other_projects:
   - name: Docker
