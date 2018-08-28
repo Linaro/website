@@ -45,7 +45,7 @@ By working with Linaro and its members on the core software, you can focus your 
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
             <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Rather than developing and maintaining all your software for the life of your products on your own, you and other members do the work together through the Linaro shared engineering resource. This reduces the cost for each member and minimizes fragmentation and redundant effort.">
                 <span class="key-factor-title">
-                    <span class="bold">Accelerate development</span> with <span class="bold">reduce costs</span>
+                    <span class="bold">Accelerate development</span> and <span class="bold">reduce costs</span>
                 </span>
             </div>
         </div>
@@ -57,7 +57,7 @@ By working with Linaro and its members on the core software, you can focus your 
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro aims to recruit the best open source engineers to work on our members’ projects. Normally, when an engineer works for a company, they only work for their employer, but Linaro’s model enables their expertise to be shared by all members. It also enables access to other company’s engineers through the assignees. Many of our engineers are recognized world leaders and are deeply involved in the projects they work on, in many case being maintainers or leading contributors. Linaro membership provides access to this unique resource.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro aims to recruit the best open source engineers to work on our members’ projects. Normally, when an engineer works for a company, they only work for their employer, but Linaro’s model enables their expertise to be shared by all members. It also enables access to other company’s engineers through the assignees. Many of our engineers are recognized world leaders and are deeply involved in the projects they work on, in many cases being maintainers or leading contributors. Linaro membership provides access to this unique resource.">
                 <span class="key-factor-title">
                     Gain access to <span class="bold">maintainers</span> and <span class="bold">unique</span> engineering talent
                 </span>
