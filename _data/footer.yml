@@ -17,11 +17,9 @@ columns:
         - text: Core Engineering
           url : /engineering/core/
         - text: Segment Groups
-          url : /groups/
-        - text: Lead Projects
-          url : /projects/
-        - text: Initiatives
-          url : /initiatives/
+          url : /engineering/groups/
+        - text: Projects
+          url : /engineering/projects/
         - text: Developer Services
           url : /services/
     - title: Downloads
@@ -29,8 +27,8 @@ columns:
       items:
          - text: Software Downloads
            url : /latest/downloads/
-         - text: Developers
-           url : /developers/
+         - text: Security Downloads
+           url : /latest/downloads/security/
     - title: Services
       url: "/services/"
       items:

@@ -4,7 +4,7 @@ description: |-
     Information for the press including links to logos and images
 layout: container-breadcrumb
 permalink: /press/
-js-package: extended
+js-package: main
 css-package: press
 ---
 

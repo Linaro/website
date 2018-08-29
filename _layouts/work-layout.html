@@ -188,21 +188,6 @@ css-package: work
 
     {{ content }}
 
-    {% if page.members_key %}
-      {% assign members = site.data.members[page.members_key] %}
-      <div class="col-xs-12 group_member_images">
-      <h5>{% if page.group_long_name %}{{page.group_long_name}} Members {% endif %}</h5>
-      {% for member in members %}
-      <div class="col-md-2 col-sm-3 col-xs-4">
-        <a href="{{member.url}}" title="{{member.name}}">
-          <img data-src="{% asset_path '{{member.image}}'%}" alt="{{member.name}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-           class="img-responsive group_members_img center-block lazyload">
-        </a>
-      </div>
-      {% endfor %}
-      </div>
-    {% endif %}
-
     {% if page.youtube_playlist %}
       <div class="col-xs-12 group_playlist">
       <hr />

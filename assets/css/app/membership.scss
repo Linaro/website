@@ -1,0 +1,278 @@
+//Membership Page
+.mk-svg-icon.small {
+    height: 16px !important;
+    width: 16px !important;
+}
+
+.members-svg {
+    display: inline-block;
+    margin-right: 4px;
+    fill: $brand-primary;
+    position: relative;
+    top: 2px;
+}
+
+.members-links {
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.members-img {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+}
+
+.col-md-12.members-panel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    clear: both;
+}
+
+#content-container h1 {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#content-container h2 {
+    text-align: center;
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#accordion .panel-body {
+    padding: 20px;
+}
+
+#wrapper .panel-heading {
+    border: 0;
+    text-align: center;
+    border-radius: 0;
+}
+
+#wrapper .panel.panel-default {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.vcenter-img:hover {
+    opacity: 0.2;
+    border: 1px solid #ccc;
+}
+
+#wrapper .panel-heading a {
+    color: #000;
+}
+
+.advisory-board {
+    clear: both;
+}
+
+.fly {
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
+}
+
+.show-block {
+    opacity: 1;
+    transform: translateY(0) scale(1) translate3d(0, 0, 0);
+}
+
+div#key-factors {
+    background-color: #7ca82d;
+}
+
+span.key-factor-title {
+    font-size: 20px;
+    position: relative;
+    top: 36%;
+    transform: translateY(-50%);
+}
+
+span.bold {
+    font-weight: bold;
+    color: #78ac01;
+}
+
+.key-factor-block {
+    padding: 10px;
+    background-color: #fff;
+    height: 180px;
+    margin-top: 23px;
+    border: 1px solid #a9a9a9;
+    -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+}
+
+@media(max-width: $screen-sm-min - 1) {
+    .key-factor-block {
+        height: 80px;
+    }
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 0;
+}
+
+#why-join h1 {
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+
+#why-join p {
+    color: white;
+    width: 60%;
+}
+
+.project-image {
+    height: 50px;
+}
+
+.item.project-item {
+    padding: 10px;
+}
+
+#key-factors h2.text-center {
+    color: white;
+    font-size: 24px;
+}
+
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px;
+}
+
+div#why-join-container {
+    background-position-y: -100px;
+}
+
+.member {
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 400ms ease;
+}
+
+.member:hover {
+    opacity: .2;
+}
+
+.col-xs-6.col-sm-3.col-lg-2.member-col {
+    padding: 10px;
+}
+
+.linaro-members,
+.boards-members {
+    border: 1px solid #eee;
+}
+
+.col-xs-6.col-sm-3.col-lg-2.member-col {
+    padding: 10px;
+}
+
+h2.text-center {
+    margin-top: 0px;
+}
+
+div#membership-levels {
+    background-color: #f1f1f1;
+}
+
+.container.boards-members {
+    margin-top: 20px;
+}
+
+.container.linaro-members {
+    margin-top: 20px;
+}
+
+.linaro-members h2.text-center {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.boards-members h2.text-center {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.cognito {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media(max-width: $screen-sm-min - 1) {
+    .cognito {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tooltip-inner {
+        max-width: 350px;
+        /* If max-width does not work, try using width instead */
+        width: 100%;
+    }
+    #why-join h1 {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    #why-join p {
+        color: white;
+        width: 100%;
+        font-size: 17px;
+    }
+    .tooltip {
+        font-size: 14px;
+    }
+    span.key-factor-title {
+        font-size: 14px;
+        position: relative;
+        top: 20%;
+        transform: translateY(-50%);
+    }
+    .member {
+        background-size: contain;
+        height: 75px;
+    }
+}
+
+.key-factor-block {
+    transition: all 200ms linear;
+}
+
+.key-factor-block:hover {
+    opacity: .2;
+}
+
+.tooltip {
+    font-size: 20px;
+}
+
+.item.project-item {
+    transition: all 200ms ease;
+}
+
+.item.project-item:hover {
+    opacity: .2;
+}
+
+#projects h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+div#projects {
+    padding-bottom: 25px;
+}

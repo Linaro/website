@@ -1,0 +1,151 @@
+- id: YVR18
+  placeholder: yvr18.jpg
+  long-name: Linaro Connect Vancouver 2018
+  start-date: 2018-09-17 09:00:00
+  end-date: 2018-09-21 09:00:00
+  location:
+      venue: Hyatt Regency Vancouver
+      city: Vancouver
+      country: Canada
+- id: HKG18
+  placeholder: hkg18.jpg
+  long-name: Linaro Connect Hong Kong 2018
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157664795733267
+  start-date: 2018-03-19 09:00:00
+  end-date: 2018-03-23 09:00:00
+  location:
+      venue: Regal Airport Hotel
+      city: Hong Kong
+- id: SFO17
+  long-name: Linaro Connect San Francisco 2017
+  placeholder: sfo17.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157687039294924
+  start-date: 2017-09-25 09:00:00
+  end-date: 2017-09-29 09:00:00
+  location:
+      venue: Hyatt Regency San Francisco Airport
+      city: Burlingame
+      county: CA
+      country: USA
+- id: BUD17
+  long-name: Linaro Connect Budapest 2017
+  placeholder: bud17.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157678721082122
+  start-date: 2017-03-06 09:00:00
+  end-date: 2017-03-10 09:00:00
+  location:
+      venue: Corinthia Hotel
+      city: Budapest
+      country: Hungary
+- id: LAS16
+  long-name: Linaro Connect Las Vegas 2016
+  placeholder: las16.jpg
+  flickr-albums:
+      - title: Linaro Connect LAS16
+        url: https://www.flickr.com/photos/linaroorg/albums/72157670966437214 
+      - title: Party Night LAS16
+      - url: https://www.flickr.com/photos/linaroorg/albums/72157673342118822
+  start-date: 2016-09-26 09:00:00
+  end-date: 2016-09-30 09:00:00
+  location:
+      venue: JW Marriott Las Vegas Resort & Spa
+      city: Las Vegas
+      county: Nevada
+      country: USA
+- id: BKK16
+  long-name: Linaro Connect Bangkok 2016
+  placeholder: bkk16.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157665519520505
+  start-date: 2016-03-07 09:00:00
+  end-date: 2016-03-11 09:00:00
+  location:
+      venue: Centara Grand Hotel & Bangkok Convention Centre
+      city: Bangkok
+      country: Thailand
+- id: SFO15
+  long-name: Linaro Connect San Francisco 2015
+  placeholder: sfo15.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157658413090325
+  start-date: 2015-09-21 09:00:00
+  end-date: 2015-09-25 09:00:00
+  location:
+      venue: Hyatt Regency San Francisco Airport 
+      city: Burlingame
+      county: CA
+      country: USA
+- id: HKG15
+  long-name: Linaro Connect Hong Kong 2015
+  placeholder: hkg15.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157650196561027
+  start-date: 2015-02-09 09:00:00
+  end-date: 2015-02-13 09:00:00
+  location:
+      venue: Regal Airport Hotel
+      city: Hong Kong
+- id: LCU14
+  long-name: Linaro Connect USA 2014
+  placeholder: lcu14.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157646453887528
+  start-date: 2014-09-15 09:00:00
+  end-date: 2014-09-19 09:00:00
+  location:
+      venue: Hyatt Regency San Francisco Airport
+      city: Burlingame
+      county: CA
+      country: USA
+- id: LCA14
+  long-name: Linaro Connect Asia 2014
+  placeholder: lca14.jpg
+  flickr-albums:
+      - title: Linaro Connect Asia 2014
+        url: https://www.flickr.com/photos/linaroorg/albums/72157641218034675
+      - title: LCA14 Bond Theme Night
+        url: https://www.flickr.com/photos/linaroorg/albums/72157641940318163
+  start-date: 2014-03-03 09:00:00
+  end-date: 2014-03-07 09:00:00
+  location:
+      venue: Holiday Inn
+      city: Macao
+- id: LCE13
+  long-name: Linaro Connect Europe 2013
+  placeholder: lce13.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157634563467554
+  start-date: 2013-07-08 09:00:00
+  end-date: 2013-07-12 09:00:00
+  location:
+      venue: The Burlington Hotel
+      city: Dublin
+      country: Ireland
+- id: LCA13
+  long-name: Linaro Connect Asia 2013
+  placeholder: lca13.jpg
+  flickr-albums: 
+      - https://www.flickr.com/photos/linaroorg/albums/72157632907776675
+  start-date: 2013-03-04 09:00:00
+  end-date: 2013-03-08 09:00:00
+  location:
+      venue: Gold Coast Hotel
+      city: Hong Kong
+- id: LCU13
+  long-name: Linaro Connect USA 2013
+  placeholder: lcu13.jpg
+  flickr-albums: 
+      - title: Linaro Connect USA 2013
+        url: https://www.flickr.com/photos/linaroorg/albums/72157636689919306
+      - title: LCU13 Crazy Shirt Contest
+        url: https://www.flickr.com/photos/linaroorg/albums/72157636689751935
+  start-date: 2013-10-28 09:00:00
+  end-date: 2013-11-01 09:00:00
+  location:
+      venue: Santa Clara Convention Center
+      city: Santa Clara
+      county: CA
+      country: USA

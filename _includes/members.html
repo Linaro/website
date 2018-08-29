@@ -1,0 +1,64 @@
+<div class="panel-group" id="accordion">
+    {% for group in include.data-file %}
+          <div class="panel panel-default fly">
+            <div class="panel-heading">
+                <a data-toggle="collapse" data-parent="#accordion"  >
+                    {{group.membership_group_name }}
+                  </a>
+            </div>
+            <div id="{{group.id}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}">
+              <div class="panel-body padded">
+                  
+                  {% if group.members %}
+                      {% assign member_size = group.members | size %}
+                      
+                      {% if member_size < 3 and group.id !=  "associate" and group.id != "community" %}
+                      <div class="alert alert-info" role="alert">
+                          <strong>Group Forming:</strong>
+                          Group being formed from existing and new Linaro members. Please contact ContactUs@linaro.org if you would like information about joining. 
+                      </div>
+                      {% endif %}
+                 {% else %}
+                     <div class="alert alert-info" role="alert">
+                         <strong>Group Forming:</strong>
+                         Group being formed from existing and new Linaro members. Please contact ContactUs@linaro.org if you would like information about joining. 
+                     </div>
+                 {% endif %}
+                 
+                 {% if group.text %}
+                     {{ group.text | markdownify }}
+                 {% endif %}
+                 
+                <br />
+                {% if group.members %}
+                    {% assign sorted_members = group.members | sort: 'name' %}
+                    {% for member in sorted_members %}
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                            <a href="{{member.url}}">
+                                <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                class="img-responsive members-img lazyload center-block"/>
+                            </a>
+                        </div>
+                    {% endfor %}
+                    {% if group.advisory_board %}
+                        <div class="row">
+                            <h5 class="advisory-board text-center">Advisory Board</h5>
+                            {% assign advisory_board = group.advisory_board | sort: 'name' %}
+                            {% for member in advisory_board %}
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                                    <a href="{{member.url}}">
+                                        <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                        class="img-responsive members-img lazyload center-block"/>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+  {% endfor %}
+</div>

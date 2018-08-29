@@ -66,7 +66,7 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 
 
-  * [/initiatives/armv8/](/initiatives/armv8/)
+  * [/initiatives/armv8/](/engineering/projects/)
 
 
 **GETTING INVOLVED**

@@ -22,7 +22,7 @@ title: Many Things To Do This Year In Android
 wordpress_id: 3350
 ---
 
-I am sure this new year has already opened up quite a few challenges for you, same here.  I apologize for not keeping you posted on our progress on optimizations, ([discussed here previously](/blog/android-can-be-optimized/)) and  [Android engineering activities](/groups/lmg/) in general, this year I will make sure you get more frequent updates from us. To begin with, let me give a quick update on the roadmap and plans we have for this year.  My team is very focused on delivering:
+I am sure this new year has already opened up quite a few challenges for you, same here.  I apologize for not keeping you posted on our progress on optimizations, ([discussed here previously](/blog/android-can-be-optimized/)) and  [Android engineering activities](/engineering/groups/lcg/) in general, this year I will make sure you get more frequent updates from us. To begin with, let me give a quick update on the roadmap and plans we have for this year.  My team is very focused on delivering:
 
   * Optimizing Android for better user experience on Armv7 based SOCs
 

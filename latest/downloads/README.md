@@ -11,7 +11,7 @@ This page provides links to many of the more popular downloads produced by Linar
 
 ## Linaro Security Working Group downloads (including latest work on Meltdown/Spectre)
 
-[Linaro security downloads](https://www.linaro.org/downloads/security/) are available from several of Linaro's engineering groups. The most recent work includes collaboration on Meltdown/Spectre fixes backported in to the 4.4, 4.9 and 4.14 kernels. There are also links to work from the Linaro Digital Home Group (LHG) and the latest OP-TEE work from the Security Working Group.
+[Linaro security downloads](https://www.linaro.org/downloads/security/) are available from several of Linaro's engineering groups. The most recent work includes collaboration on Meltdown/Spectre fixes backported in to the 4.4, 4.9 and 4.14 kernels. There are also links to the latest OP-TEE work from the Security Working Group.
 
 ## Linaro Releases, Platforms and Snapshots
 
@@ -72,7 +72,7 @@ The Linaro Automated Validation Architecture (LAVA) is a test and continuous int
 #### OpenDataPlane
 
 <div class="col-sm-9 no-padding" markdown="1">
-The [OpenDataPlane](http://www.opendataplane.org/) API has three implementations supported directly by LNG
+The [OpenDataPlane](http://www.opendataplane.org/) API has two implementations currently supported:
 
 - Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
 - Performance implementation build for x86  using the DPDK SDK. ([odp-dpdk](https://git.linaro.org/lng/odp-dpdk.git))

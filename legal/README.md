@@ -32,7 +32,7 @@ permalink: /legal/
   </li>
   <li role="presentation">
     <a href="#cancellation_policy" role="tab" data-toggle="tab">
-         Cancellation policy
+         Connect Cancellation policy
     </a>
   </li>
 
@@ -441,7 +441,6 @@ Thank you for visiting Our site.
 </div>
 
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cancellation_policy" markdown="1">
-
 
 **Cancellation policy:**  
 If you need to cancel for any reason please contact us by emailing [connect@linaro.org](mailto:connect@linaro.org). Refunds will only be issued for cancellations received at least 3 weeks prior to the first day of the event and may take up to 14 days to process. Please note that we reserve the right to charge a 5% processing fee on all refunds.

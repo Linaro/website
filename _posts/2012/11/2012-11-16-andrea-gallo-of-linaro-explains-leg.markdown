@@ -19,11 +19,11 @@ title: Andrea Gallo of Linaro Explains LEG
 wordpress_id: 1995
 ---
 
-Earlier this week [I](/about/) had the opportunity to sit down with [Andrea Gallo](/about/) our Director of the [Linaro Enterprise Group (LEG)](/groups/leg/) via a [Google+ Hangout on Air](http://www.youtube.com/user/LinaroOnAir) and discuss this newly formed and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Group in more detail.
+Earlier this week [I](/about/) had the opportunity to sit down with [Andrea Gallo](/about/) our Director of the [Linaro Enterprise Group (LEG)](/engineering/groups/ldcg/) via a [Google+ Hangout on Air](http://www.youtube.com/user/LinaroOnAir) and discuss this newly formed and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Group in more detail.
 
 
 
-In this interview, Andrea explains Arm both as [an architecture](http://en.wikipedia.org/wiki/Arm_architecture) and [a company](http://www.arm.com/about/index.php), [Linaro](/), [LEG](/groups/leg/) and why LEG is being formed now. He explains his role and responsibilities as the Director of LEG. But that's not all, he also highlights the benefits of membership, how the scope and priorities of LEG are defined and what the top priorities will be over the next 6 to 18 months.
+In this interview, Andrea explains Arm both as [an architecture](http://en.wikipedia.org/wiki/Arm_architecture) and [a company](http://www.arm.com/about/index.php), [Linaro](/), [LEG](/engineering/groups/ldcg/) and why LEG is being formed now. He explains his role and responsibilities as the Director of LEG. But that's not all, he also highlights the benefits of membership, how the scope and priorities of LEG are defined and what the top priorities will be over the next 6 to 18 months.
 
 Other topics Andrea and I discuss include how the work of the LEG group is coordinated within Linaro and how that work will make it into the greater Arm ecosystem, and various upstreams like the Linux kernel?
 
@@ -33,7 +33,7 @@ Andrea also looks to the future and outlines what attendees of the next Linaro C
 
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 
-  * [LEG Website Page](/groups/leg/)
+  * [LEG Website Page](/engineering/groups/ldcg/)
   
   * Mailing Lists
 

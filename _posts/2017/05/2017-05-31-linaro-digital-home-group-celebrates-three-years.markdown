@@ -21,7 +21,7 @@ tags:
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
-[The Linaro Digital Home Group ](/groups/lhg/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2.png)](/groups/lhg/)
+[The Linaro Digital Home Group ](/engineering/groups/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2.png)](/engineering/groups/)
 
 {% include image.html name="blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
 
@@ -68,7 +68,7 @@ The past three years have passed quickly. Now moving forward with ten member com
 
 We will continue to innovate and develop compelling media solutions with the aim of them becoming commonplace in the Arm ecosystem. I am certain that with the dedication from the LHG engineers, steering committee and our member companies, this will indeed continue to be the case.
 
-For more information on LHG, click [here.](/groups/lhg/)
+For more information on LHG, click [here.](/engineering/groups/)
 
 **Recent LHG Achievements**
 

@@ -28,7 +28,7 @@ Immediately you will notice streamlined menus, simple navigation and access to t
 
   * **Social Media Hub** –  [see what it is being said](/latest/hub/) all in one place, a powerful yet simple feature, follow all the updates happening real time on Linaro’s social media sites all on one page
 
-  * **Projects** –[click and see all the projects](/projects/) within Linaro.  This new section of the site gives you a consolidated place to find out all the latest information about the projects taking place at Linaro.
+  * **Projects** –[click and see all the projects](/engineering/projects/) within Linaro.  This new section of the site gives you a consolidated place to find out all the latest information about the projects taking place at Linaro.
   
 We will continually be expanding our online content to bring you updated and relevant information, so we encourage you to bookmark it, check back often and connect with us on [Facebook](https://www.facebook.com/LinaroOrg),  [Google+](https://plus.google.com/+LinaroOnAir)  and  [Twitter](https://twitter.com/linaroorg) to find out when updates and new content are added.
 

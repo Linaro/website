@@ -46,7 +46,7 @@ The mini-summit will take place on Tuesday 5 March with sessions on the followin
   * **Verticals- HipHopVM and Hadoop Distributed File System**: Updates on HipHopVM porting onto the v8 Foundation model, interpreter and bytecode jitting. Updates on Hadoop Distributed Filesystem performance.
 
 
-Members of the [Linaro Enterprise Group (LEG)](/groups/leg/) took time out for a quick Google+ Hangout on Air where they discussed the mini-summit and what they were looking forward to about not only the mini-summit but LCA13-Hong Kong as well.
+Members of the [Linaro Enterprise Group (LEG)](/engineering/groups/ldcg/) took time out for a quick Google+ Hangout on Air where they discussed the mini-summit and what they were looking forward to about not only the mini-summit but LCA13-Hong Kong as well.
 
 ## **Other Server Sessions at LCA13-Hong Kong**
 
