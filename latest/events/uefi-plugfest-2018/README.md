@@ -2,7 +2,7 @@
 title: Arm Architecture HPC Workshop Santa Clara 2018
 layout: default
 permalink: /latest/events/uefi-plugfest-2018/
-css-package: arm-hpc-2018
+css-package: events-page
 date: 2018-10-15 09:00:00+00:00
 image:
    path: /assets/images/content/uefi-plugfest.png
@@ -10,7 +10,7 @@ image:
 ---
 <div class="container-fluid" id="content-container">
   <div class="row no-padding arm-hpc-row top">
-      <div class="container" style="background: url({% asset_path 'uefi-plugfest.png' %});background-position: center center;">
+      <div class="container events-header-container larger" style="background: url({% asset_path 'uefi-plugfest.png' %});background-position: center center;">
       </div>
   </div>
 <div class="row" id="content">
