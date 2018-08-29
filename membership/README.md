@@ -18,7 +18,13 @@ css-package: membership
 </div>
 </div>
 <div class="container-fluid">
+
 <div class="row" id="projects">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Projects Linaro <strong>contributes</strong> to.</h2>
+        </div>
+    </div>
     <div class="owl-carousel owl-theme" id="projects-slider">
         {% for project in site.data.projects %}
         <a href="{{project.url}}" target="_blank">
@@ -50,7 +56,7 @@ By working with Linaro and its members on the core software, you can focus your 
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro engineers combined with developers from member companies create a unique shared engineering resource to support members. This resource has a recognized record of delivering high value collaboration with Linaro consistently in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including many maintained by Linaro engineers. All members have an opportunity to collaborate directly with Arm engineers in most of Linaro’s engineering groups and this, combined with the expertise from Linaro and other members is one of the key, unique features of Linaro membership.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro engineers combined with developers from member companies create a unique shared engineering resource to support members. This resource has a recognized record of delivering high value collaboration with Linaro consistently in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including many maintained by Linaro engineers. All members have an opportunity to col3laborate directly with Arm engineers in most of Linaro’s engineering groups and this, combined with the expertise from Linaro and other members is one of the key, unique features of Linaro membership.">
                 <span class="key-factor-title">
                     Boost your <span class="bold">engineering</span> with Linaro’s <span class="bold">software expertise</span>
                 </span>
@@ -112,7 +118,7 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
-<div class="col-xs-12 padded-row">
+<div class="col-xs-12 text-center">
 <p class="center-block">
 To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
 </p>
@@ -128,7 +134,7 @@ To view Linaro members by level of engagement, click <a href="/members-by-group/
 </a>
 </div>
 {% endfor %}
-<div class="col-xs-12 padded-row">
+<div class="col-xs-12 text-center">
 <p class="center-block">
 To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
 </p>

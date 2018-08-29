@@ -134,7 +134,7 @@ span.bold {
 }
 
 .project-image {
-    height: 100px;
+    height: 50px;
 }
 
 .item.project-item {
@@ -161,6 +161,10 @@ div#why-join-container {
     height: 100px;
     background-repeat: no-repeat;
     background-position: center center;
+    transition: all 400ms ease;
+}
+.member:hover {
+    opacity: .2;
 }
 
 .col-xs-6.col-sm-3.col-lg-2.member-col {
@@ -261,4 +265,13 @@ div#membership-levels {
 
 .item.project-item:hover {
     opacity: .2;
+}
+
+#projects h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+div#projects {
+    padding-bottom: 25px;
 }
