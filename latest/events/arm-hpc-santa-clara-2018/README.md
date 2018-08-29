@@ -6,7 +6,7 @@ permalink: /latest/events/arm-hpc-santa-clara-2018/
 css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-   name: OpenHours.png
+   name: ArmHPCWorkshopSocialMedia.png
 event: true
 ---
 <div class="container-fluid" id="content-container">

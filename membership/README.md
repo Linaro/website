@@ -22,7 +22,7 @@ css-package: membership
 <div class="row" id="projects">
     <div class="container">
         <div class="col-xs-12 text-center">
-            <h2>Projects Linaro <strong>contributes</strong> to.</h2>
+            <h2>Projects Linaro <strong>contributes</strong> to:</h2>
         </div>
     </div>
     <div class="owl-carousel owl-theme" id="projects-slider">
@@ -40,23 +40,21 @@ css-package: membership
     <div class="container">
         <h2 class="text-center fly">Membership Benefits</h2>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Regardless of the industry you operate in, there are common software foundations that you can use to deploy your products.
-
-By working with Linaro and its members on the core software, you can focus your attention on differentiation.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Regardless of the industry you operate in, there are common software foundations that you can use to deploy your products. By working with Linaro and its members on the core software, you can focus your attention on differentiation.">
                 <span class="key-factor-title">
                     <span class="bold">Enable differentiation</span> with <span class="bold">open source</span>
                 </span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Rather than developing and maintaining all your software for the life of your products on your own, you and other members do the work together through the Linaro shared engineering resource. This reduces the cost for each member and minimizes fragmentation and redundant effort.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Developing and maintaining software for the life of your products is costly if you do it on your own. Working through Linaro's shared engineering resource together with other members enables you to share the workload, thereby reducing costs and time to market.">
                 <span class="key-factor-title">
                     <span class="bold">Accelerate development</span> and <span class="bold">reduce costs</span>
                 </span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro engineers combined with developers from member companies create a unique shared engineering resource to support members. This resource has a recognized record of delivering high value collaboration with Linaro consistently in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including many maintained by Linaro engineers. All members have an opportunity to col3laborate directly with Arm engineers in most of Linaro’s engineering groups and this, combined with the expertise from Linaro and other members is one of the key, unique features of Linaro membership.">
+            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
                 <span class="key-factor-title">
                     Boost your <span class="bold">engineering</span> with Linaro’s <span class="bold">software expertise</span>
                 </span>
