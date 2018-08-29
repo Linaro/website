@@ -7,6 +7,7 @@ date: 2018-10-15 09:00:00+00:00
 image:
    path: /assets/images/content/uefi-plugfest.png
    name: uefi-plugfest.png
+event: true
 ---
 <div class="container-fluid" id="content-container">
   <div class="row events-header red no-padding top">
