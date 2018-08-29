@@ -18,7 +18,13 @@ css-package: membership
 </div>
 </div>
 <div class="container-fluid">
+
 <div class="row" id="projects">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Projects we <strong>contribute</strong> to.</h2>
+        </div>
+    </div>
     <div class="owl-carousel owl-theme" id="projects-slider">
         {% for project in site.data.projects %}
         <a href="{{project.url}}" target="_blank">
@@ -112,7 +118,7 @@ By working with Linaro and its members on the core software, you can focus your 
 </a>
 </div>
 {% endfor %}
-<div class="col-xs-12 padded-row">
+<div class="col-xs-12 text-center">
 <p class="center-block">
 To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
 </p>
@@ -128,7 +134,7 @@ To view Linaro members by level of engagement, click <a href="/members-by-group/
 </a>
 </div>
 {% endfor %}
-<div class="col-xs-12 padded-row">
+<div class="col-xs-12 text-center">
 <p class="center-block">
 To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
 </p>
