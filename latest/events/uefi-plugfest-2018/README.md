@@ -9,11 +9,11 @@ image:
    name: uefi-plugfest.png
 ---
 <div class="container-fluid" id="content-container">
-  <div class="row no-padding arm-hpc-row top">
+  <div class="row events-header red no-padding top">
       <div class="container events-header-container larger" style="background: url({% asset_path 'uefi-plugfest.png' %});background-position: center center;">
       </div>
   </div>
-<div class="row" id="content">
+<div class="row" id="content-container">
 <div class="container" markdown="1">
 Since early 2007, the UEFI Forum has been hosting 1-3 plugfests each year. Members of the
 Forum are invited to participate in these interoperability testing events. Typically, system
