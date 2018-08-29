@@ -789,6 +789,12 @@ article.post-content>.col-md-8 {
     padding: 0;
 }
 
+@media (max-width: $screen-sm-min) {
+    .navbar-nav .open .dropdown-menu {
+        position: sticky;
+    }
+}
+
 #main-navigation ul.dropdown-menu.sub-menu {
     background-color: #767676;
 }
@@ -814,4 +820,25 @@ article.post-content>.col-md-8 {
     .padded-row {
         padding: 40px 0;
     }
+    li.main:hover {
+        background-color: #767676;
+        color: white !important;
+    }
+    .dropdown-submenu a {
+        padding: 10px 25px !important;
+        text-align: center;
+    }
+    a.dropdown-item {
+        padding: 10px 25px !important;
+        text-align: center;
+    }
+    li a {
+        text-align: center;
+    }
+    .dropdown.menu.open.active ul.dropdown-menu.menu {
+        height: auto;
+        display: inline-block;
+    }
 }
+
+// Mobile Nav
