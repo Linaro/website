@@ -1,11 +1,12 @@
 ---
 title: Arm Architecture HPC Workshop Santa Clara 2018
 layout: default
-permalink: /latest/events/arm-hpc-santa-clara-2018/
+permalink: /latest/events/uefi-plugfest-2018/
 css-package: arm-hpc-2018
+date: 2018-10-15 09:00:00+00:00
 image:
-   path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-   name: OpenHours.png
+   path: /assets/images/content/uefi-plugfest.png
+   name: uefi-plugfest.png
 ---
 <div class="container-fluid" id="content-container">
   <div class="row no-padding arm-hpc-row top">
@@ -56,6 +57,9 @@ Attendees can either sign and bring a printed copy to the event or sign a versio
 
 UEFI Forum Board of Directors:
 [http://www.uefi.org/board](http://www.uefi.org/board)
+
+
+{% include image.html name="uefi-plugfest-board.png" alt="Board of UEFI" %}
 
 </div>
 </div>
