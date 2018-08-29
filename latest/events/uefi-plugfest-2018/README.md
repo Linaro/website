@@ -1,5 +1,5 @@
 ---
-title: Arm Architecture HPC Workshop Santa Clara 2018
+title: FALL 2018 UEFI PLUGFEST
 layout: default
 permalink: /latest/events/uefi-plugfest-2018/
 css-package: events-page
