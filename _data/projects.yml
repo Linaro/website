@@ -34,12 +34,12 @@
 - name: EdgeX Foundry
   image: edgex-foundry.png
   url: https://www.edgexfoundry.org/
-- name: Xen Project
-  image: xen-project.png
-  url: https://www.xenproject.org/
 - name: UEFI
   image: uefi.png
   url: http://www.uefi.org/
+- name: OpenBMC
+  image: OpenBMC.png
+  url: https://www.openbmc.org/
 - name: Android
   image: android.png
   url: https://developer.android.com/
@@ -74,8 +74,8 @@
   image: yocto-project.png
   url: https://www.lua.org/
 - name: CCIX
-  image: ccix.jpg
-  url: https://www.lua.org/
+  image: ccix.png
+  url: https://www.ccixconsortium.com/
 - name: DeviceTree
   image: devicetree.png
   url: https://www.devicetree.org
