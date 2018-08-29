@@ -19,16 +19,16 @@ $(document).ready(function () {
                 items: 2
             },
             400: {
-                items: 3
-            },
-            700: {
                 items: 4
             },
-            1000: {
+            700: {
                 items: 6
             },
-            1200: {
+            1000: {
                 items: 8
+            },
+            1200: {
+                items: 12
             }
         }
     });
