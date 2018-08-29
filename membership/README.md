@@ -39,45 +39,24 @@ css-package: membership
 <div class="row padded-row" id="key-factors">
     <div class="container">
         <h2 class="text-center fly">Membership Benefits</h2>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
             <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Regardless of the industry you operate in, there are common software foundations that you can use to deploy your products. By working with Linaro and its members on the core software, you can focus your attention on differentiation.">
                 <span class="key-factor-title">
                     <span class="bold">Enable differentiation</span> with <span class="bold">open source</span>
                 </span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
             <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Developing and maintaining software for the life of your products is costly if you do it on your own. Working through Linaro's shared engineering resource together with other members enables you to share the workload, thereby reducing costs and time to market.">
                 <span class="key-factor-title">
                     <span class="bold">Accelerate development</span> and <span class="bold">reduce costs</span>
                 </span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
             <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
                 <span class="key-factor-title">
                     Boost your <span class="bold">engineering</span> with Linaro’s <span class="bold">software expertise</span>
-                </span>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro aims to recruit the best open source engineers to work on our members’ projects. Normally, when an engineer works for a company, they only work for their employer, but Linaro’s model enables their expertise to be shared by all members. It also enables access to other company’s engineers through the assignees. Many of our engineers are recognized world leaders and are deeply involved in the projects they work on, in many cases being maintainers or leading contributors. Linaro membership provides access to this unique resource.">
-                <span class="key-factor-title">
-                    Gain access to <span class="bold">maintainers</span> and <span class="bold">unique</span> engineering talent
-                </span>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="As open source is by definition open to contributions from all, many companies end up working on the same problems with limited coordination. Linaro provides the forums in which engineering work can be coordinated and non-differentiating heavy lifting can be identified and shared. ">
-                <span class="key-factor-title">
-                   Reduce <span class="bold">fragmentation</span> and <span class="bold">redundant</span> effort
-                </span>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-2 fly key-factor text-center">
-            <div class="key-factor-block fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro is member funded and delivers output to members, into open source projects, and into the community. Founded in 2010 with 6 members, Linaro now has over 20 with 140 staff and a total of over 300 OSS engineers distributed globally. Becoming a Linaro member not only enables you to develop your products, it also enables direct engineering collaboration with other members, such as Arm innovation to take place in the wider Open Source Community. Collaborating with engineers across a wide range of verticals and companies has the added benefit of a broader and longer term view of problem solving, with the potential to accelerate innovation and release better products to market sooner.">
-                <span class="key-factor-title">
-                   Be part of something bigger
                 </span>
             </div>
         </div>
