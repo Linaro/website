@@ -90,7 +90,7 @@ div#key-factors {
 span.key-factor-title {
     font-size: 20px;
     position: relative;
-    top: 18%;
+    top: 36%;
     transform: translateY(-50%);
 }
 
@@ -163,6 +163,7 @@ div#why-join-container {
     background-position: center center;
     transition: all 400ms ease;
 }
+
 .member:hover {
     opacity: .2;
 }
@@ -238,7 +239,7 @@ div#membership-levels {
     span.key-factor-title {
         font-size: 14px;
         position: relative;
-        top: 8%;
+        top: 20%;
         transform: translateY(-50%);
     }
     .member {
