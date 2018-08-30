@@ -75,7 +75,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302829](https://sfo15.pathable.com/meetings/302829)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -93,7 +93,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302830](https://sfo15.pathable.com/meetings/302830)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -111,7 +111,7 @@ Linux kernel generic TEE driver
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302831](https://sfo15.pathable.com/meetings/302831)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -129,7 +129,7 @@ Boot Architecture for RDK)
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302832](https://sfo15.pathable.com/meetings/302832)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -147,7 +147,7 @@ Towards Multi-Threaded Tiny Code Generator (TCG) in QEMU
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302833](https://sfo15.pathable.com/meetings/302833)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -165,7 +165,7 @@ Security
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302837](https://sfo15.pathable.com/meetings/302837)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -183,7 +183,7 @@ kernelci.org / Kernel Testing BoF
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302838](https://sfo15.pathable.com/meetings/302838)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -201,7 +201,7 @@ SFO15-209:
 </td>
 
 <td width="519" markdown="1">
- [https://sfo15.pathable.com/meetings/302841](https://sfo15.pathable.com/meetings/302841)
+ [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -219,7 +219,7 @@ Kernel Mainline Status of Mobile Chipsets
 </td>
 
 <td width="519" markdown="1">
- [https://sfo15.pathable.com/meetings/302842](https://sfo15.pathable.com/meetings/302842)
+ [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 </tbody>

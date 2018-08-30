@@ -67,7 +67,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302930](https://sfo15.pathable.com/meetings/302930)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -85,7 +85,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302931](https://sfo15.pathable.com/meetings/302931)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -103,7 +103,7 @@ General
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302933](https://sfo15.pathable.com/meetings/302933)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -121,7 +121,7 @@ Kernel Consolidation 2.0 - Let's make it happen!
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302939](https://sfo15.pathable.com/meetings/302939)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -139,7 +139,7 @@ Advanced Toolchain Usage Part 5
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302940](https://sfo15.pathable.com/meetings/302940)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -157,7 +157,7 @@ Security
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302942](https://sfo15.pathable.com/meetings/302942)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -175,7 +175,7 @@ Advanced Toolchain Usage Part 6
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302943](https://sfo15.pathable.com/meetings/302943)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -193,7 +193,7 @@ ConfigFS Gadget - An Introduction
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/302944](https://sfo15.pathable.com/meetings/302944)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >

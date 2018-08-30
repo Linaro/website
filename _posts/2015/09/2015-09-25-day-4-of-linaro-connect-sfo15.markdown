@@ -68,7 +68,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303069](https://sfo15.pathable.com/meetings/303069)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -86,7 +86,7 @@ Keynote
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303070](https://sfo15.pathable.com/meetings/303070)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -104,7 +104,7 @@ Mainline on form-factor devices / Improving AOSP
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303072](https://sfo15.pathable.com/meetings/303072)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -122,7 +122,7 @@ Architecture & Use of “openCSD” Arm CoreSight Trace decode library
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303073](https://sfo15.pathable.com/meetings/303073)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -140,7 +140,7 @@ Current state of the LAVA dispatcher Refactoring
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303074](https://sfo15.pathable.com/meetings/303074)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -158,7 +158,7 @@ Tools
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303078](https://sfo15.pathable.com/meetings/303078)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
@@ -176,7 +176,7 @@ Energy Aware Scheduling: Power vs. Performance policy
 </td>
 
 <td width="519" markdown="1">
-[https://sfo15.pathable.com/meetings/303083](https://sfo15.pathable.com/meetings/303083)
+[https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 </td>
 </tr>
 <tr >
