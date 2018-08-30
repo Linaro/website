@@ -34,7 +34,7 @@ And, of course, it will be a week full of interesting sessions, demos, hacking (
 
 Speaking of good people, what will Andrew Wafaa do to amaze us this Connect?
 
-For full details on SFO15 schedule click [here](https://sfo15.pathable.com/). This Connect is bigger than ever, so big we had to close registration early.
+For full details on SFO15 schedule click [here](https://connect.linaro.org/resources/sfo15/). This Connect is bigger than ever, so big we had to close registration early.
 
 See you all in San Francisco!
 

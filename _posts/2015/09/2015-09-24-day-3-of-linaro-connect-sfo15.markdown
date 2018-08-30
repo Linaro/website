@@ -217,4 +217,4 @@ ConfigFS Gadget - An Introduction
 </tbody>
 </table>
 
-Tomorrow is Linaro Networking Group day and the keynotes will both focused on networking. First up is Dave Neary from Red Hat that will give a talk titled "An NFV Primer: The Next Generation for Telco" following Dave will be Roger Casals from Symantec Corporation who will give a keynote titled "Security and Trust in a Mobile World". To learn more about the agenda tomorrow please visit: [https://sfo15.pathable.com/meetings](https://sfo15.pathable.com/meetings)
+Tomorrow is Linaro Networking Group day and the keynotes will both focused on networking. First up is Dave Neary from Red Hat that will give a talk titled "An NFV Primer: The Next Generation for Telco" following Dave will be Roger Casals from Symantec Corporation who will give a keynote titled "Security and Trust in a Mobile World". To learn more about the agenda tomorrow please visit: [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)

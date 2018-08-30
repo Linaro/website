@@ -201,4 +201,4 @@ Energy Aware Scheduling: Power vs. Performance policy
 </table>
 
 
-Be sure to check back in tomorrow for the final day of Linaro Connect. Tomorrow will start out with a keynote by Karen Sandler on "Ideology in Open Source Compliance" following that will be a Security Panel discussion. To learn more about the agenda tomorrow please visit: [https://sfo15.pathable.com/meetings](https://sfo15.pathable.com/meetings)
+Be sure to check back in tomorrow for the final day of Linaro Connect. Tomorrow will start out with a keynote by Karen Sandler on "Ideology in Open Source Compliance" following that will be a Security Panel discussion. To learn more about the agenda tomorrow please visit: [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)

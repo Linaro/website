@@ -226,7 +226,7 @@ Kernel Mainline Status of Mobile Chipsets
 </table>
 
 
-Be sure to check back in tomorrow for the third day of Linaro Connect.  The morning will feature two keynote speakers, first will be Suresh Gopalakrishnan from AMD followed by Tiger Hu from Alibaba who will discuss "Cloud Computing Infrastructure of the DT Era".  To learn more about the agenda tomorrow please visit: [https://sfo15.pathable.com/meetings](https://sfo15.pathable.com/meetings)
+Be sure to check back in tomorrow for the third day of Linaro Connect.  The morning will feature two keynote speakers, first will be Suresh Gopalakrishnan from AMD followed by Tiger Hu from Alibaba who will discuss "Cloud Computing Infrastructure of the DT Era".  To learn more about the agenda tomorrow please visit: [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
 
 
 [/vc_column_text][/vc_column][/vc_row]
