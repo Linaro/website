@@ -95,7 +95,7 @@ During suspend, minimal interrupts should occur (ideally none).
 The picture below shows a plot of power usage vs time. The two spikes on the graph are the suspend and the resume. The small periodic spikes before and after the suspend are the system exiting idle to do bookkeeping operations, scheduling tasks, and handling timers. It takes a certain period of time for the system to go back into the deeper idle state due to latency.
 
 
-**![blog-picture-one](/assets/blog/blog-picture-one.png)Power Usage Time Progression**
+**Power Usage Time Progression**
 
 
 The ftrace capture shown below displays the activity on the 4 CPUs before, during, and after the suspend/resume operation. As you can see, during the suspend, no IPIs or IRQs are handled.
