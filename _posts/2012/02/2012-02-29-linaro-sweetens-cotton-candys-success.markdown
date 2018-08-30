@@ -20,10 +20,10 @@ wordpress_id: 1311
 
 {% include image.html name="logo_cstick_white.png" class="small-inline" %}
 
-FXI Technologies, Inc. [announced](http://www.cstick.com/showthread.php?25-Fxi-launches-cotton-candy-developer-site-takes-pre-orders) from [Mobile World Congress](https://www.mobileworldcongress.com/) earlier this week that [it is now accepting pre-orders](http://store.cstick.com/) for its light weight,  USB sized, any screen cloud computer—[Cotton Candy](http://www.fxitech.com/products/).
+FXI Technologies, Inc. [announced](https://www.arm.com/markets/home/cstick-cotton-candy.php) from [Mobile World Congress](https://www.mobileworldcongress.com/) earlier this week that [it is now accepting pre-orders](https://www.arm.com/markets/home/cstick-cotton-candy.php) for its light weight,  USB sized, any screen cloud computer—[Cotton Candy](http://www.fxitech.com/products/).
 
 
-FXI Technologies announced the launch of [cstick.com](http://www.cstick.com/)—the Cotton Candy developer site—in the same press release.
+FXI Technologies announced the launch of [cstick.com](https://www.arm.com/markets/home/cstick-cotton-candy.php)—the Cotton Candy developer site—in the same press release.
 
 Linaro community specialist, Amber Graner, asked FXI Technologies  founder and CEO, Borgar Ljosland what part [Linaro](/) played this successful launch, Ljosland told her, "Linaro is important to us both from a time-to-market perspective and from a quality perspective. We are basing both our [Ubuntu](https://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation) and [Android](https://releases.linaro.org/archive/12.02/android/images/origen-ics-gcc46-samsunglt-stable-blob/) [releases on Linaro](/latest/downloads/). We are grateful for all of the support we have received and look forward to a fruitful and exciting collaboration in the future."
 
@@ -35,7 +35,7 @@ Cotton Candy has [been on display](https://www.mobileworldcongress.com/exhibitio
 
 The specifications for Cotton Candy include an Arm® Cortex™-A9 (1GHz) CPU from Samsung, an Arm Mali™-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and Bluetooth, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen.  A [pdf product brief](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) is also available.
 
-The cost for Cotton Candy is $199.00 and doesn't include tax and shipping.  More information about ordering can be found on the [cstick store site](http://store.cstick.com/).
+The cost for Cotton Candy is $199.00 and doesn't include tax and shipping.  More information about ordering can be found on the [cstick store site](https://www.arm.com/markets/home/cstick-cotton-candy.php).
 
 **About FXI**
 
