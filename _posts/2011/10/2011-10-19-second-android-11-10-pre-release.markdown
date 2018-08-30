@@ -43,4 +43,4 @@ See each build page for usage info.
 
 {% include image.html name="11.10-rc2-smoke-tests.png" alt="Linaro Android 11.10-rc2 smoke tests" %}
 
-All the smoke tests are listed on [tests](https://docs.google.com/a/linaro.org/spreadsheet/ccc?key=0AnpUtxWjZbP9dGFDUk5kNXBoeWZDb3MyUmJ4cnBHTEE&hl=en_US#gid=0). See the "11.10 Pre Release 2" section.
+All the smoke tests are listed on tests. See the "11.10 Pre Release 2" section.
