@@ -623,6 +623,8 @@ defer(function () {
 |Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
 |Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
 |Renato Golin - OpenHPC Automation with Ansible | [Slides](https://www.slideshare.net/linaroorg/openhpc-automation-with-ansible-renato-golin-linaro-arm-hpc-workshop-2018) |
+|Kanta Vekaria - Welcome Note | [Slides](https://www.slideshare.net/linaroorg/arm-architecture-hpc-workshop-santa-clara-2018-kanta-vekaria) |
+|Joshua Mora - Huawei’s requirements for the ARM based HPC solution readiness | [Slides](https://www.slideshare.net/linaroorg/huaweis-requirements-for-the-arm-based-hpc-solution-readiness-joshua-mora) |
 
 </div><!--End Tab Content-->
 
