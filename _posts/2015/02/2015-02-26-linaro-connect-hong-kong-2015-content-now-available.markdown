@@ -90,7 +90,7 @@ HKG15-100: Core Development Lightning Talks - Kernel, Power Management, Securit
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250760)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -116,7 +116,7 @@ Community
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250761)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -142,7 +142,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250762)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -168,7 +168,7 @@ Builds & Baselines
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250763)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -194,7 +194,7 @@ HKG15-104: Coresight Update and Next Steps
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250764)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -220,7 +220,7 @@ Community
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250765)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -246,7 +246,7 @@ N/A
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250766)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -272,7 +272,7 @@ Power Management; Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250767)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -298,7 +298,7 @@ HKG15-108: Standardizing Linux Kernel Power Management on Arm 32/64-bit
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250769)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -324,7 +324,7 @@ Community
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250770)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -350,7 +350,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250771)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -376,7 +376,7 @@ LAVA, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250772)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -438,7 +438,7 @@ Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250777)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -464,7 +464,7 @@ Hands-on lightning talk on Arm servers
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250778)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -490,7 +490,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250780)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -516,7 +516,7 @@ HKG15-201: Upstream Kernel Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250781)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -542,7 +542,7 @@ Virtualization
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250782)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -568,7 +568,7 @@ HKG15-203: TCWG 2015 Roadmap Review
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250783)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -594,7 +594,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250785)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -620,7 +620,7 @@ LAVA, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250786)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -646,7 +646,7 @@ Kernel
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250787)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -672,7 +672,7 @@ HKG15-207: Advanced Toolchain Usage Part 3
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250788)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -698,7 +698,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250789)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -724,7 +724,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250790)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -750,7 +750,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250791)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -776,7 +776,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250792)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -802,7 +802,7 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250795)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -828,7 +828,7 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250797)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -890,7 +890,7 @@ Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250801)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -916,7 +916,7 @@ Introduction to Greybus - Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250802)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -942,7 +942,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250804)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -968,7 +968,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250805)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -994,7 +994,7 @@ Kernel
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250806 )
+[Link](https://connect.linaro.org/resources/hkg15/ )
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1020,7 +1020,7 @@ HKG15-303: Secure Playback using OP-TEE
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250807)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1046,7 +1046,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250810)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1072,7 +1072,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250811)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1098,7 +1098,7 @@ Security
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250812)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1124,7 +1124,7 @@ HKG15-308: Kick-start your 64-bit AOSP build engines
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250813)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1150,7 +1150,7 @@ Networking, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250814)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1176,7 +1176,7 @@ Security, Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250816)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1202,7 +1202,7 @@ Builds & Baselines
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250818)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1228,7 +1228,7 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250819)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1290,7 +1290,7 @@ Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250824)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1316,7 +1316,7 @@ HKG15-400: Next steps in KVM enablement on Arm
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250827)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1342,7 +1342,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250828)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1368,7 +1368,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250829 )
+[Link](https://connect.linaro.org/resources/hkg15/ )
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1394,7 +1394,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250830)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1420,7 +1420,7 @@ HKG15-404: Standardizing Linux Kernel Power Management on Arm 32/64-bit
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250832)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1446,7 +1446,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250833)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1472,7 +1472,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250834)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1498,7 +1498,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250835)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1524,7 +1524,7 @@ HKG15-408: Arm v8-A NEON optimization
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250836)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1550,7 +1550,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250837)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1576,7 +1576,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250838)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1602,7 +1602,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Link](https://hkg15.pathable.com/meetings/250839)
+ [Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1664,7 +1664,7 @@ Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250847)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1690,7 +1690,7 @@ Linaro Connect Closing Summary - Joe Bates, Executive VP Member Services, Linaro
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250848)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1716,7 +1716,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250850)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1742,7 +1742,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250851)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1768,7 +1768,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250856)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1794,7 +1794,7 @@ HKG15-504: LAVA 201 - LAVA Usage and Result Management
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250854)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1820,7 +1820,7 @@ Power, Security
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250850)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1846,7 +1846,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Link](https://hkg15.pathable.com/meetings/250852)
+[Link](https://connect.linaro.org/resources/hkg15/)
 </td>
 
 <td style="text-align: center;" markdown="1">

@@ -34,7 +34,7 @@ wordpress_id: 6674
 
 A topic of increasing interest is the push for energy awareness in the Linux kernel scheduler. While the topic is broad and deep, the general goal is to adapt the Linux kernel scheduler to take into account the energy cost of the decisions it makes and, with knowledge of the underlying hardware platform, make more intelligent decisions that can save power whilst maintaining existing performance levels. This general goal will be achieved through many efforts including new tools to help test changes and validate assumptions, as well as the integration of existing power management subsystems such as CPUfreq and CPUidle with the scheduler. The end result will be Linux-powered devices that consume less energy, manage thermal events with panache and perhaps are even more performant. This is a boon for battery-powered mobile devices, big iron data centers and everything in between and the backgrounds of the workshop attendees reflect that.
 
-The 2014 edition of the Linux Kernel Summit hosted a single day workshop focused on the topic. The original agenda can be found [here](https://docs.google.com/document/d/1YV44gufokmuKbeNG8vjOJirEY_GdsJymxP2ayHG4FAM/edit).
+The 2014 edition of the Linux Kernel Summit hosted a single day workshop focused on the topic.
 
 
 

@@ -67,7 +67,7 @@ Keynote
 </td>
 
 <td markdown="1">
-[Presentation](http://www.slideshare.net/linaroorg/nfv-linaro-conference-sep2014kolias-v3)
+[Presentation](https://www.slideshare.net/linaroorg/nfv-linaro-conference-sep2014kolias)
 </td>
 
 <td markdown="1">

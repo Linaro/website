@@ -345,7 +345,7 @@ Enterprise Servers
 </td>
 
 <td markdown="1">
-[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-308xen-project-for-arm-servers)
+[Link to Presentation](https://www.slideshare.net/linaroorg/lcu14-308-xen-project-for-arm-servers)
 </td>
 
 <td markdown="1">
@@ -449,7 +449,7 @@ Enterprise Servers
 </td>
 
 <td markdown="1">
-[Link to Presentation](http://www.slideshare.net/linaroorg/lcu14-312-introduction-to-the-ecosystem-day)
+[Link to Presentation](https://www.slideshare.net/linaroorg/lcu14-312introduction-to-the-ecosystem-day)
 </td>
 
 <td markdown="1">
