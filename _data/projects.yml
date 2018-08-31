@@ -109,3 +109,6 @@
 - name: Zephyr Project
   image: zephyr-project.png
   url: https://www.zephyrproject.org
+- name: Tianocore
+  image: tianocore.png
+  url: https://www.tianocore.org/
