@@ -20,7 +20,7 @@ css-package: events
 <div class="container">
 <div class="row">
 <div class="col-xs-12">
-    <h2>Events we attend</h2>
+    <h2>Attended Events</h2>
 </div>
 </div>
 <div class="row">
@@ -30,18 +30,16 @@ css-package: events
         <div class="event-image" style="background-image: url('/assets/images/content/{{event.placeholder}}')"></div>
         <div class="event-title">
             <h3>{{event.name}}</h3>
+            <span class="date-text">{{ event.start-date | date: "%-d"}} - {{ event.end-date | date: " %-d  %B  %Y"}}</span>
         </div>
         <div class="event-details">
-            <div class="col-xs-4 date">
-                {{ event.start-date | date: "%-d"}} - {{ event.end-date | date: " %-d  %B  %Y"}}
-            </div>
-            <div class="col-xs-4 website">
+            <div class="col-xs-6 website">
                 <a href="{{event.url}}">
                     <i class="glyphicon glyphicon-share-alt"></i>
                     <span class="website-text">Website</span>
                 </a>
             </div>
-            <div class="col-xs-4 resources">
+            <div class="col-xs-6 resources">
                 <div class="btn-group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Resources <span class="caret"></span>

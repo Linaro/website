@@ -9,6 +9,7 @@
     font-size: 16px;
     color: #f7f7f7 !important;
     margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 .event-title {
@@ -45,14 +46,14 @@
     height: 50px;
 }
 
-.event-details .col-xs-4 {
+.event-details .col-xs-6 {
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
     color: white;
 }
 
-.event-details .col-xs-4 i.glyphicon.glyphicon-share-alt {
+.event-details .col-xs-6 i.glyphicon.glyphicon-share-alt {
     display: inline;
     padding: 10px;
     width: 100%;
@@ -61,13 +62,13 @@
     color: #78ac01;
 }
 
-.event-details .col-xs-4 span.website-text {
+.event-details .col-xs-6 span.website-text {
     display: block;
     text-align: center;
     color: white;
 }
 
-.event-details .col-xs-4.date {
+.event-details .col-xs-6.date {
     font-size: 12px;
     padding: 10px;
 }
