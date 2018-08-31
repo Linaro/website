@@ -26,7 +26,8 @@ css-package: membership
         </div>
     </div>
     <div class="owl-carousel owl-theme" id="projects-slider">
-        {% for project in site.data.projects %}
+        {% assign sorted-projects = site.data.projects | sort: 'name' %}
+        {% for project in sorted-projects %}
         <a href="{{project.url}}" target="_blank">
             <div class="item project-item">
                 <div class="project-image lazyload" style="background: url('/assets/images/projects/{{project.image}}') no-repeat center center;
