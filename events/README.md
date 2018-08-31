@@ -16,6 +16,49 @@ css-package: events
     </a>
   </li>
 </ul>
+{% assign attended-events = site.data.attended-events | sort: "start-date" | reverse %}
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+    <h2>Events we attend</h2>
+</div>
+</div>
+<div class="row">
+{% for event in attended-events %}
+<div class="col-sm-4 no-padding">
+    <div class="event-block attended">
+        <div class="event-image" style="background-image: url('/assets/images/content/{{event.placeholder}}')"></div>
+        <div class="event-title">
+            <h3>{{event.name}}</h3>
+        </div>
+        <div class="event-details">
+            <div class="col-xs-4 date">
+                {{ event.start-date | date: "%-d"}} - {{ event.end-date | date: " %-d  %B  %Y"}}
+            </div>
+            <div class="col-xs-4 website">
+                <a href="{{event.url}}">
+                    <i class="glyphicon glyphicon-share-alt"></i>
+                    <span class="website-text">Website</span>
+                </a>
+            </div>
+            <div class="col-xs-4 resources">
+                <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resources <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu pull-right">
+                    {% for resource in event.resources %}
+                        <li><a href="{{resource.url}}">{{resource.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+</div>
 {% assign events = site.pages | where: 'event', 'true' | sort: "date" | reverse %}
 <div class="container">
 <div class="row">
