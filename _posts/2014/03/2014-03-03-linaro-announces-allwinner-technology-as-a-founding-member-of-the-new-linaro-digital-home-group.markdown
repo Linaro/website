@@ -45,7 +45,7 @@ Allwinner Technology is a leading fabless design company dedicated to smart appl
 
 With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China.
 
-[_www.allwinnertech.com _](http://www.allwinnertech.com/)_
-Follow us on Twitter @Allwinnertech_
+_www.allwinnertech.com_
+Follow us on Twitter @Allwinnertech
 
 For more information on the company, access to software and tools, and information on the community and open engineering, visit [www.linaro.org](/)
