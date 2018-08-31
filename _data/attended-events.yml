@@ -1,0 +1,10 @@
+- name: Open Source Summit North America 2018
+  url: https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/
+  start-date: 2018-08-29 09:00:00.000
+  end-date: 2018-08-31 09:00:00.000
+  placeholder: oss-2018.png
+  resources:
+    - title: Deep Learning NN Acceleration at the Edge
+      speaker: Andrea Gallo
+      job-title: Linaro VP of Segment Groups
+      url: https://www.slideshare.net/linaroorg/deep-learning-neural-network-acceleration-at-the-edge-andrea-gallo

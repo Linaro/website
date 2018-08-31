@@ -66,7 +66,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 _About Allwinner:_ Allwinner Technology is a leading fabless design company dedicated to smart application processor SoCs and smart analog ICs. Its product line includes multi-core application processors for smart devices and smart power management ICs used by brands worldwide.
 
-With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China. See [www.allwinnertech.com](http://www.allwinnertech.com/) for more information. Follow Allwinner on Twitter @AllwinnerTech. Media contact: [service@allwinnertech.com](mailto:service@allwinnertech.com)
+With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China. See www.allwinnertech.com for more information. Follow Allwinner on Twitter @AllwinnerTech. Media contact: [service@allwinnertech.com](mailto:service@allwinnertech.com)
 
 **Arm**
 
