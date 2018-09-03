@@ -180,6 +180,9 @@
     - name: Red Hat
       image: redhat.jpg
       url: /company/red-hat/
+    - name: Sandia National Laboratories
+      image: sandia.png
+      url: /company/sandia-national-laboratories/
   advisory_board:
     - name: CERN
       image: cern.png
