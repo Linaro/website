@@ -104,7 +104,8 @@ css-package: engineering-landing
     <div class="row padded-row" id="projects">
         <div class="container projects">
             <h2 class="text-center">Projects</h2>
-            {% for project in site.data.projects %}
+            {% assign sorted-projects = site.data.projects | sort: 'name' %}
+            {% for project in sorted-projects %}
             <div class="col-xs-6 col-sm-3 col-md-2 project-col">
                 <a href="{{project.url}}">
                     <div class="project lazyload" style="background-image: url('/assets/images/projects/{{project.image}}');"></div>
