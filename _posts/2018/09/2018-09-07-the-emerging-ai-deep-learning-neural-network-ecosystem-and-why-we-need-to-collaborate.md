@@ -4,7 +4,7 @@ author: linaro
 layout: post
 date: 2018-09-07 09:00:00+00:00
 description: >-
-Linaro will be hosting an AI and Neural Networks on Arm Summit at the upcoming Linaro Connect Vancouver 2018 in one weeks time. This blog lists some of the great sessions being presented. 
+  Linaro will be hosting an AI and Neural Networks on Arm Summit at the upcoming Linaro Connect Vancouver 2018 in one weeks time. This blog lists some of the great sessions being presented.
 categories: blog
 tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
 image:
