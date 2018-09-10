@@ -35,6 +35,26 @@ Modify the post front matter based on your post. Values to modify are:
 - description:
 - categories: 
 
+
+E.g
+
+```yaml
+---
+title: The emerging AI Deep Learning Neural Network Ecosystem and why we need to collaborate
+author: linaro
+layout: post
+date: 2018-09-07 09:00:00+00:00
+description: >-
+  Linaro will be hosting an AI and Neural Networks on Arm Summit at the upcoming Linaro Connect Vancouver 2018 in one weeks time. This blog lists some of the great sessions being presented.
+categories: blog
+tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
+image:
+  featured: true
+  name: OSSNA.jpg
+  path: /assets/images/blog/OSSNA.jpg
+---
+```
+
 #### Author
 
 Change the author to a unique author username (e.g firstname.surname). If this is your first time posting then add your author information to the [_authors](https://github.com/Linaro/website/blob/master/_authors) collection by duplicating an existing author's .md file and modifying the values appropiately. Make sure to add your profile image to the [/assets/images/authors folder](https://github.com/Linaro/website/tree/master/assets/images/authors). Verify that the author "username:" in the _authors/ collection file for your author is an exact match to that provided as the author: in your post. Doing the above will ensure your author image and pages are rendered correctly on the Linaro.org website.
