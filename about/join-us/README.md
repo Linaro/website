@@ -11,6 +11,9 @@ If you have a passion for working on open source projects and being part of a co
 
 <div class="col-xs-12 text-center">
     <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-sm btn-primary">View Privacy Policy</a>
+    <br>
+    <br>
+    <br>
 </div>
 
 
