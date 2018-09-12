@@ -9,6 +9,11 @@ js-package: extended
 <div class="col-md-6" markdown="1">
 If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
 
+<div class="col-xs-12 text-center">
+    <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-sm btn-primary">View Privacy Policy</a>
+</div>
+
+
 <div class="col-sm-6">
     <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}/">
         <div class="linaro-svg-icon">
@@ -29,6 +34,7 @@ If you have a passion for working on open source projects and being part of a co
         </div>
     </a>
 </div>
+
 </div>
 <div class="col-md-6">
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
