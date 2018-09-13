@@ -312,6 +312,9 @@
     - name: Arrow Electronics
       image: arrow.jpg
       url: /company/arrow/
+    - name: Analog Devices
+      image: analog-devices.gif
+      url: /company/analog-devices/
     - name: Google
       image: google.png
       url: /company/google/
