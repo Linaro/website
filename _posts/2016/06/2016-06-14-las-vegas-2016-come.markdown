@@ -36,7 +36,7 @@ One of the  highlights of the trip was when we got to do a menu tasting. The ch
 
 {% include image.html name="jw-food-3.jpg" alt="JW Food at Linaro Connect" class="medium-inline right" %}
 
-Saturday we decided to brave the strip. The Marriott arranged for a car to pick us up and drive us 20 minutes to the [Border Grill at Mandalay Bay](http://www.bordergrill.com/locations/las-vegas/bglvmb/) - a Mexican restaurant which I would highly recommend for a meal out in town. The initial plan was to then wander round the strip but that was before we ventured outside... being Scandinavian I am very rarely exposed to this kind of heat so we quickly and sensibly scrapped the idea of walking along the strip. Instead, we ordered [Uber](https://www.uber.com/ride/) and [Lyft](https://www.lyft.com/) to drive us around which turned out to be a very efficient and low cost way of getting around Vegas!  
+Saturday we decided to brave the strip. The Marriott arranged for a car to pick us up and drive us 20 minutes to the [Border Grill at Mandalay Bay](http://www.bordergrill.com/locations/las-vegas/bglvmb/) - a Mexican restaurant which I would highly recommend for a meal out in town. The initial plan was to then wander round the strip but that was before we ventured outside... being Scandinavian I am very rarely exposed to this kind of heat so we quickly and sensibly scrapped the idea of walking along the strip. Instead, we ordered [Uber](https://www.uber.com/en/gb/ride/) and [Lyft](https://www.lyft.com/) to drive us around which turned out to be a very efficient and low cost way of getting around Vegas!  
 
 
 {% include image.html name="Las-vegas-strip.jpg" alt="Las Vegas Strip Linaro Connect" class="medium-inline" %}
