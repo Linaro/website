@@ -85,6 +85,8 @@ The [OpenDataPlane](http://www.opendataplane.org/) API has two implementations c
 
 ## Linaro Toolchain
 
+The first Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.2-2018.08 is now available on the [Arm Developer website](https://developer.arm.com/open-source/gnu-toolchain/gnu-a).
+
 Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
 
 The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
