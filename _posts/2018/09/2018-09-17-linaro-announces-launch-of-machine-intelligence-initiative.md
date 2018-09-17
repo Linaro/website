@@ -2,7 +2,7 @@
 title: Linaro announces launch of Machine Intelligence Initiative 
 author: linaro
 layout: post
-date: 2018-09-16 09:00:00+00:00
+date: 2018-09-17 09:00:00+00:00
 description: >-
   Linaro announces launch of Machine Intelligence Initiative to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions. 
 categories: News
