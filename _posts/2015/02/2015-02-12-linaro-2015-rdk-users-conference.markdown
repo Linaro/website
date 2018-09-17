@@ -14,7 +14,7 @@ wordpress_id: 7990
 categories:
 - blog
 ---
-Linaro is proud to announce that it is a gold sponsor of the 2015 [RDK Users Conference](http://rdkcentral.com/rdk-users-conference-2015/). Linaro is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure.
+Linaro is proud to announce that it is a gold sponsor of the 2015 [RDK Users Conference](http://rdkcentral.com/). Linaro is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure.
 
 The 2015 RDK Users Conference provides members of the RDK community the opportunity to get together and discuss key trends and technology directions for the RDK. At the conference, Linaro will be presenting on the “Linaro Perspective” of the RDK and give the attendees an update of the Linaro Digital Home Group’s (LHG) activities over the past year and what LHG will be delivering in 2015. Linaro will also have a booth where the latest advancements in the RDK will be demonstrated on RDK compliant member hardware.
 
