@@ -23,7 +23,7 @@ css-package: engineering-landing
                     <img class="img-responsive lazyload" data-src="{% asset_path 'LDCG col.svg' %}" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
-                <h3 class="group-title">Data Center & Cloud</h3>
+                <h3 class="group-title">Datacenter & Cloud</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/ledge/">
@@ -97,6 +97,21 @@ css-package: engineering-landing
                 </a>
                 <h3 class="group-title">High Performance Computing</h3>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="content">
+    <div class="row padded-row" id="projects">
+        <div class="container projects">
+            <h2 class="text-center">Projects</h2>
+            {% assign sorted-projects = site.data.projects | sort: 'name' %}
+            {% for project in sorted-projects %}
+            <div class="col-xs-6 col-sm-3 col-md-2 project-col">
+                <a href="{{project.url}}">
+                    <div class="project lazyload" style="background-image: url('/assets/images/projects/{{project.image}}');"></div>
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </div>

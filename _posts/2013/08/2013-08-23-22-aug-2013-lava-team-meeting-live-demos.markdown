@@ -94,4 +94,4 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
 ## Bootloader/lava-test-shell & LAVA Continuous Integration by Tyler Baker
 
 
-  * Using Jenkins and LAVA to verify LAVA on [http://community.validation.linaro.org](http://community.validation.linaro.org/) and[http://community.validation.linaro.org:8082](http://community.validation.linaro.org:8082/)
+  * Using Jenkins and LAVA to verify LAVA on http://community.validation.linaro.org/ and http://community.validation.linaro.org:8082/

@@ -40,8 +40,6 @@ pages:
       options:
           - text: Overview
             url: /engineering/
-          - text: Developers
-            url: /developers/
           - text: Core
             options:
                 - text: Overview
@@ -86,7 +84,7 @@ pages:
                   url: /engineering/incubators/
                 - text: Machine Intelligence
                   url: /engineering/incubators/machine-intelligence/
-                - text: Autonomous Vehicles (LAVS)
+                - text: Autonomous Vehicles
                   url: /engineering/incubators/autonomous-vehicles/          
           - text: Projects
             options:

@@ -11,6 +11,8 @@ PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro
 Below are a few guides that will help when adding content to the Linaro website.
 
 - [Adding a blog post](#adding-a-blog-post)
+- [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
+- [Adding Events to the Events/ page](#adding-events-to-the-events-page)
 - [Building the static site](#building-the-static-site)
 
 
@@ -32,6 +34,26 @@ Modify the post front matter based on your post. Values to modify are:
 - tags:
 - description:
 - categories: 
+
+
+E.g
+
+```yaml
+---
+title: The emerging AI Deep Learning Neural Network Ecosystem and why we need to collaborate
+author: linaro
+layout: post
+date: 2018-09-07 09:00:00+00:00
+description: >-
+  Linaro will be hosting an AI and Neural Networks on Arm Summit at the upcoming Linaro Connect Vancouver 2018 in one weeks time. This blog lists some of the great sessions being presented.
+categories: blog
+tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
+image:
+  featured: true
+  name: OSSNA.jpg
+  path: /assets/images/blog/OSSNA.jpg
+---
+```
 
 #### Author
 
@@ -55,6 +77,9 @@ image:
 ```
 
 Make sure that the image you add in this section of front matter is placed in the [/assets/images/blog folder](https://github.com/linaro/website/tree/master/assets/images/blog).
+
+__Note:__ There is currently a bug with the version of `jekyll-assets` we are using which means the only acceptable image extensions are `.jpg` and `.png`. If you use `.jpeg` you image may not display as expected.
+
 
 #### Tags
 These should be modified based on the content of your post as they are used for Meta keywords so that people can find your post based on the [tags your provide](https://www.96boards.org/blog/tag/).
@@ -119,6 +144,55 @@ To add a media element / YouTube video use the following Jekyll include.
 
 
 *****
+
+## Adding Redirects to the Static site
+
+We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
+
+```
+^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
+!^/oldpath.*$ http://www.example.com [R=302,L,NC]
+^/topsecret.*$ [F,L]
+^/deadlink.*$ [G]
+^/foo$ /bar [H=^baz\.com$]
+```
+
+__Note:__ These redirects are currently not respected by the link checker until built. So if trying to fix broken links by adding redirects then this may not be the best way to go about it currently. 
+
+*****
+
+## Adding events to the events page
+
+### Adding Other Events
+
+Events listed on the events/ page are added through simply adding the `event:true` front matter value to your event page. The events will then be listed based on the date
+value in front matter of that specific page.
+
+```yaml
+...
+event: true
+...
+
+```
+
+### Adding Connect Events
+
+Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified 
+in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
+
+```yaml
+
+- id: YVR18
+  placeholder: yvr18.jpg
+  long-name: Linaro Connect Vancouver 2018
+  start-date: 2018-09-17 09:00:00
+  end-date: 2018-09-21 09:00:00
+  location:
+      venue: Hyatt Regency Vancouver
+      city: Vancouver
+      country: Canada
+
+```
 
 ## Building the static site
 

@@ -7,10 +7,18 @@ permalink: /about/join-us/
 js-package: extended
 ---
 <div class="col-md-6" markdown="1">
-If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro? Please send your resume to [careers@linaro.org](mailto:careers@linaro.org)
+If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
+
+<div class="col-xs-12 text-center">
+    <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-sm btn-primary">View Privacy Policy</a>
+    <br>
+    <br>
+    <br>
+</div>
+
 
 <div class="col-sm-6">
-    <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}/">
+    <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}/">    
         <div class="linaro-svg-icon">
             <svg class="mk-svg-icon" data-name="mk-icon-linkedin" data-cacheid="icon-59a7eddc80ff0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1792"><path d="M349 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path></svg>
         </div>
@@ -29,6 +37,7 @@ If you have a passion for working on open source projects and being part of a co
         </div>
     </a>
 </div>
+
 </div>
 <div class="col-md-6">
 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}

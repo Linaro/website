@@ -27,8 +27,8 @@ columns:
       items:
          - text: Software Downloads
            url : /latest/downloads/
-         - text: Developers
-           url : /developers/
+         - text: Security Downloads
+           url : /latest/downloads/security/
     - title: Services
       url: "/services/"
       items:

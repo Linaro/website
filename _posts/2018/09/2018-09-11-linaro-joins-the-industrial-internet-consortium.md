@@ -2,7 +2,7 @@
 title: Linaro joins the Industrial Internet Consortium
 author: linaro
 layout: post
-date: 2018-09-10 09:00:00+00:00
+date: 2018-09-11 09:00:00+00:00
 description: >-
   Linaro joins the Industrial Internet Consortium as a member.
 categories: News

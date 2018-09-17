@@ -1,11 +1,13 @@
 ---
 title: Arm Architecture HPC Workshop Santa Clara 2018
 layout: default
+date: 2018-07-26 09:00:00+00:00
 permalink: /latest/events/arm-hpc-santa-clara-2018/
 css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-   name: OpenHours.png
+   name: ArmHPCWorkshopSocialMedia.png
+event: true
 ---
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
@@ -366,7 +368,6 @@ image:
       <p>
       Simon McIntosh-Smith is a full Professor of High Performance Computing at the University of Bristol in the UK. He began his career as a microprocessor architect at Inmos and STMicroelectronics in the early 1990s, before co-designing the world's first fully programmable GPU at Pixelfusion in 1999.
       </p>
-      
       <p>
       In 2002 he co-founded ClearSpeed Technology where, as Director of Architecture and Applications, he co-developed the first modern many-core HPC accelerators. He now leads the High Performance Computing Research Group at the University of Bristol, where his research focuses on performance portability and application based fault tolerance. He plays a key role in designing and procuring HPC services at the local, regional and national level, including the UK’s national HPC server, Archer.
       </p>
@@ -622,6 +623,8 @@ defer(function () {
 |Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
 |Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
 |Renato Golin - OpenHPC Automation with Ansible | [Slides](https://www.slideshare.net/linaroorg/openhpc-automation-with-ansible-renato-golin-linaro-arm-hpc-workshop-2018) |
+|Kanta Vekaria - Welcome Note | [Slides](https://www.slideshare.net/linaroorg/arm-architecture-hpc-workshop-santa-clara-2018-kanta-vekaria) |
+|Joshua Mora - Huawei’s requirements for the ARM based HPC solution readiness | [Slides](https://www.slideshare.net/linaroorg/huaweis-requirements-for-the-arm-based-hpc-solution-readiness-joshua-mora) |
 
 </div><!--End Tab Content-->
 

@@ -38,7 +38,7 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 **Below are some steps to help get you started:**
 
-**Step 1:** Go to the pathable site: [**https://sfo15.pathable.com/**](https://sfo15.pathable.com/)
+**Step 1:** Go to the pathable site: [**https://connect.linaro.org/resources/sfo15/**](https://connect.linaro.org/resources/sfo15/)
 
 **Step 2:** Login - If you have [registered for Linaro Connect SFO15](https://connect.linaro.org/attend/) you should have received an email from pathable after 10 Aug with your login details. This email was entitled: “Please join Linaro Connect San Francisco 2015″. If you cannot find this email please send an email to: [connect@linaro.org](mailto:connect@linaro.org)
 
@@ -46,7 +46,7 @@ This site will be the place to help you get the most out of your time at Linaro 
 
 **Step 4:** Add Tags to your profile to identify teams you work with or areas you are interested in. You can see a list of the current tags being used by going to: Attendees>Tags (in the left hand drop down), but you can add your own as well. When people perform a "search" in the attendees or members list, they will be able to choose from the networking interests and tags you and the rest of the community have added to their profiles.
 
-**Step 5:** Review the current schedule [**https://sfo15.pathable.com/meetings**](https://sfo15.pathable.com/meetings) and add sessions you would like to attend to your schedule [https://sfo15.pathable.com/meetings/my](https://sfo15.pathable.com/meetings/my). 
+**Step 5:** Review the current schedule [**https://connect.linaro.org/resources/sfo15/**](https://connect.linaro.org/resources/sfo15/) and add sessions you would like to attend to your schedule [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/). 
 
   * Click the Schedule tab
   * Hover your mouse over the session description box that pops up that you would like to select and click the "Add" button that appears.

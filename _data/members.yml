@@ -180,6 +180,9 @@
     - name: Red Hat
       image: redhat.jpg
       url: /company/red-hat/
+    - name: Sandia National Laboratories
+      image: sandia.png
+      url: /company/sandia-national-laboratories/
   advisory_board:
     - name: CERN
       image: cern.png
@@ -315,7 +318,7 @@
     - name: Hisilicon
       image: hisilicon.jpg
       url: /company/hisilicon/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: NXP
@@ -411,7 +414,7 @@
     - name: Shiratech
       image: shiratech.png
       url: /company/shiratech/
-    - name: Thundersoft
+    - name: ThunderSoft
       image: thundersoft.jpg
       url: /company/thundersoft/
     - name: ToCoding
@@ -447,7 +450,7 @@
     - name: Avnet
       image: Avnet.png
       url: /company/avnet/
-    - name: HopeRun
+    - name: Hoperun
       image: hoperun.jpg
       url: /company/hoperun/
     - name: Hisilicon

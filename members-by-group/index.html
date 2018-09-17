@@ -1,0 +1,28 @@
+---
+title: Members by Group
+description: |-
+    Members of Linaro organised by groups.
+layout: container-breadcrumb
+permalink: /members-by-group/
+js-package: members
+css-package: members
+---
+<p class="fly">
+    The current members are listed below. If you are interested in joining these industry leaders, please fill out the form below
+    or send us an email to [contactus@linaro.org](mailto:contactus@linaro.org).
+</p>
+<button class="btn-primary fly" id="expand-all">Expand All</button>
+<br>
+{% include members.html data-file=site.data.members %}
+
+<div class="cognito fly">
+    <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+    <script>
+        Cognito.load("forms", {
+            id: "14", entry: {
+                "PageUrl": "{{site.url}}{{page.url}}",
+                "RedirectUrl": "{{site.url}}/thank-you/?ref={{page.url}}",
+                "ChoiceField": [{% for member in site.data.members %}"{{member.membership_group_name}}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+            }});
+    </script>
+</div>

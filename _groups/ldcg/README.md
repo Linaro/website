@@ -1,5 +1,5 @@
 ---
-group_id: 2
+group_id: 1
 title: Linaro Datacenter & Cloud Group (LDCG)
 description: |-
     The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.
@@ -8,11 +8,9 @@ permalink: /engineering/groups/ldcg/
 group_short_name: ldcg
 group_long_name: Linaro Datacenter & Cloud Group
 director: Martin Stadtler
-related_projects:
-  - "3"
-  - "10"
 #related_initiatives:
 related_sig:
+  - /sig/ltn/
   - /sig/hpc/
 other_projects:
   - name: Docker
