@@ -197,6 +197,8 @@
     "^/initiatives/performance(/?|/index.html)$ /engineering/projects/ [R,L,NC]",
     "^/kernelci(/?|/index.html)$ /engineering/projects/kernelci/ [R,L,NC]",
     "^/lava(/?|/index.html)$ /engineering/projects/lava/ [R,L,NC]",
+    "^/latest/hub(/?|/index.html)$ /latest/resources/ [R,L,NC]",
+    "^/latest(/?|/index.html)$ /latest/resources/ [R,L,NC]",
     "^/latest-linaro-gcc-toolchain-release-supports-full-range-of-arm-cortex-a-processors(/?|/index.html)$ /news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/ [R,L,NC]",
     "^/linaro-blog/feed(/?|/index.html)$ /hub/ [R,L,NC]",
     "^/linaro-blog/feed/rss(/?|/index.html)$ /planet/ [R,L,NC]",
