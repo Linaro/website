@@ -99,15 +99,16 @@ pages:
 
     - title: Services
       url: /services/
+    - text: Downloads
+      left: true
+      options:
+          - text: All Downloads
+            url: /latest/downloads/
+          - text: Security Downloads
+            url: /latest/downloads/security/
     - title: Latest
       left: true
       options:
-          - text: Downloads
-            options:
-                - text: All Downloads
-                  url: /latest/downloads/
-                - text: Security Downloads
-                  url: /latest/downloads/security/
           - text: "Hub"
             url: /latest/hub/
           - text: News
