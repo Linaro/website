@@ -99,7 +99,7 @@ pages:
 
     - title: Services
       url: /services/
-    - text: Downloads
+    - title: Downloads
       left: true
       options:
           - text: All Downloads
