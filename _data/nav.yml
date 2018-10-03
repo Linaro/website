@@ -109,8 +109,8 @@ pages:
     - title: Latest
       left: true
       options:
-          - text: "Hub"
-            url: /latest/hub/
+          - text: Resources
+            url: /latest/resources/
           - text: News
             url: /news/
           - text: Blog
