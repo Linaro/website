@@ -45,9 +45,6 @@ drivers, and firmware) during the private plugfest testing sessions.
 
 Registration is now open. UEFI Forum members can register here: [http://bit.ly/2v5VJ3F](http://bit.ly/2v5VJ3F).
 
-View the logistics packet here:
-[https://www.uefi.org/sites/default/files/resources/Fall_2018_UEFI_Plugfest_Logistic_Info_Final%20as%20of%207.25.pdf](https://www.uefi.org/sites/default/files/resources/Fall_2018_UEFI_Plugfest_Logistic_Info_Final%20as%20of%207.25.pdf)
-
 Plugfest attendees must sign the disclosure agreement and photo and video waiver.
 
 Attendees can either sign and bring a printed copy to the event or sign a version on site. Print the disclosure agreement here:
