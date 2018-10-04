@@ -56,7 +56,7 @@ columns:
            url : /services/hands-on-training/
         
     - title: News & Events
-      url: /latest/hub/
+      url: /resources/
       items:
           - text: "News & Events"
             url: /resources/

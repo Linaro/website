@@ -110,7 +110,7 @@ pages:
       left: true
       options:
           - text: Resources
-            url: /latest/resources/
+            url: /resources/
           - text: News
             url: /news/
           - text: Blog
