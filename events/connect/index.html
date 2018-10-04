@@ -7,7 +7,7 @@ permalink: /events/connect/
 js-package: events
 css-package: events
 ---
-<div class="container-fluid responsive-background" id="header-container"  style="background-image: url('/assets/images/content/resources-header.png');">
+<div class="container-fluid responsive-background" id="header-container"  style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/content/yvr18-group-photo.jpg');">
     <div class="row overlay padded-row" id="resources">
         <div class="container text-center">
             <h1 class="fly center-block">Linaro Connect</h1>
@@ -46,7 +46,7 @@ css-package: events
             {% for event-page in connects %}
             <div class="col-sm-4 no-padding">
                 <a href="https://connect.linaro.org/resources/{{event-page.id | downcase }}/">
-                    <div class="event-block">
+                    <div class="event-block fly">
                         <div class="event-image" style="background-image: url('https://connect.linaro.org/assets/images/content/{{event-page.placeholder}}')"></div>
                         <div class="event-title">
                             <h3>{{event-page.long-name}}</h3>
