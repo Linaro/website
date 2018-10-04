@@ -841,10 +841,13 @@ article.post-content>.col-md-8 {
 }
 
 .responsive-background{
-    background-size:cover;
+    background-size:cover !important;
 }
 @media(min-width: $screen-sm-min){
     .responsive-background {
-        background-position-y: -200px;
+        background-position-y: -200px !important;
     }
+}
+#header-container h1, #header-container p {
+    color: white;
 }
