@@ -116,6 +116,6 @@ pages:
           - text: Blog
             url: /blog/
           - text: Events
-            url: /latest/events/
+            url: /events/
     - title: Contact Us
       url: /contact/
