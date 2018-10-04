@@ -7,8 +7,8 @@ permalink: /latest/resources/
 js-package: resources
 css-package: resources
 ---
-<div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/resources-header.png');">
-    <div class="row overlay padded-row" id="why-join">
+<div class="container-fluid" id="resources-container"  style="background-image: url('/assets/images/content/resources-header.png');">
+    <div class="row overlay padded-row" id="resources">
         <div class="container text-center">
             <h1 class="fly center-block">Resources</h1>
             <p class="fly center-block">
@@ -19,118 +19,134 @@ css-package: resources
 </div>
 
 <div class="container-fluid" id="content-container">
-<div class="row hub-row">
-<div class="container">
-
-<div class="col-sm-3 hub-block no-padding fly">
-    <a href="/news/">
-        <div class="hub-block-inner light hub-green">
-            <h3>News</h3>
-            <p>
-                Click here for Linaro News &amp; PR
-            </p>
+    <div class="row hub-row"><!--Start Row-->
+        <div class="container"><!--Start Container-->
+            <div class="col-sm-3 hub-block no-padding fly">
+                <a href="/news/">
+                    <div class="hub-block-inner light hub-green">
+                        <h3>News</h3>
+                        <p>
+                            Click here for Linaro News &amp; PR
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 hub-block no-padding fly">
+                <a href="/blog/">
+                    <div class="hub-block-inner light hub-blue">
+                        <h3>Blog</h3>
+                        <p>
+                            Click here for Linaro Blog
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 hub-block no-padding fly">
+                <a href="/events/">
+                    <div class="hub-block-inner light hub-pink">
+                        <h3>Events</h3>
+                        <p>
+                            Find out about the events we attend and host.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 hub-block no-padding fly">
+                <a href="https://connect.linaro.org">
+                    <div class="hub-block-inner light hub-grey">
+                        <h3>Linaro Connect</h3>
+                        <p>
+                            Click here for latest connect
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div><!--End Container-->
+    </div><!--End Row-->
+    <div class="row hub-row"><!--Start Row-->
+        <div class="container"><!--Start Container-->
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading text-center">Latest News</div>        
+                    <!-- List group -->
+                    <ul class="list-group">
+                        {% for news in site.categories.News limit: 5 %}
+                            <a href="{{news.url}}">
+                                <li class="list-group-item fly">{{news.title}}</li>
+                            </a>
+                        {% endfor %}
+                        <a href="/news/">
+                            <li class="list-group-item list-group-item-success text-center">More News</li>
+                        </a>            
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading text-center">Latest Blogs</div>        
+                    <!-- List group -->
+                    <ul class="list-group">
+                        {% for blog in site.categories.blog limit: 5 %}
+                            <a href="{{blog.url}}">
+                                <li class="list-group-item fly">{{blog.title}}</li>
+                            </a>
+                        {% endfor %}
+                        <a href="/blog/">
+                            <li class="list-group-item list-group-item-success text-center">More Blogs</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading text-center">Latest 96Boards Blogs</div>        
+                    <!-- List group -->
+                    <ul class="list-group">
+                        {% for blog in site.categories.blog limit: 5 %}
+                            <a href="{{blog.url}}">
+                                <li class="list-group-item fly">{{blog.title}}</li>
+                            </a>
+                        {% endfor %}
+                        <a href="/blog/">
+                            <li class="list-group-item list-group-item-success text-center">More Blogs</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </a>
-</div>
-
-<div class="col-sm-3 hub-block no-padding fly">
-    <a href="/blog/">
-        <div class="hub-block-inner light hub-blue">
-            <h3>Blog</h3>
-            <p>
-                Click here for Linaro Blog
-            </p>
+    </div>  
+    <div class="row" id="social-media-widgets"><!--Start Row-->
+        <div class="container"><!--Start Container-->
+            <div class="col-sm-4 fly facebook">
+                    <script>
+                        function loadAPI() {
+                            var js = document.createElement('script');
+                            js.src = '//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+                            document.body.appendChild(js);
+                        }
+                        window.onscroll = function () {
+                            var rect = document.getElementById('comments').getBoundingClientRect();
+                            if (rect.top < window.innerHeight) {
+                                loadAPI();
+                                window.onscroll = null;
+                            } 
+                        }
+                    </script>
+                    <div id="fb-root"></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/LinaroOrg"
+                     data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" 
+                     data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/LinaroOrg" 
+                     class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LinaroOrg">Linaro</a></blockquote></div>
+            </div>
+            <div class="col-sm-4 fly twitter">
+                
+            </div>
+            <div class="col-sm-4 fly">
+                
+            </div>
         </div>
-    </a>
-</div>
-
-<div class="col-sm-3 hub-block no-padding fly">
-    <a href="/events/">
-        <div class="hub-block-inner light hub-pink">
-            <h3>Events</h3>
-            <p>
-                Find out about the events we attend and host.
-            </p>
-        </div>
-    </a>
-</div>
-
-<div class="col-sm-3 hub-block no-padding fly">
-    <a href="https://connect.linaro.org">
-        <div class="hub-block-inner light hub-grey">
-            <h3>Linaro Connect</h3>
-            <p>
-                Click here for latest connect
-            </p>
-        </div>
-    </a>
-</div>
-
-</div><!--End Container-->
-</div><!--End Row-->
-</div><!--End Container Fluid-->
-
-<div class="container-fluid">
-<div class="row hub-row">
-<div class="container">
-    <div class="col-sm-4 text-center" markdown="1">
-        <h3>Latest News</h3>
-        <ul class="nav nav-stacked">
-            {% for news in site.categories.News limit: 5 %}
-                <a href="{{news.url}}"><li>{{news.title}}</li></a><hr>
-            {% endfor %}
-        </ul>
-        <a href="/news/" class="btn btn-primary center-block">More News</a>
     </div>
-    <div class="col-sm-4 text-center" markdown="1">
-        <h3>Latest Blogs</h3>
-        <ul class="nav nav-stacked">
-            {% for blog in site.categories.blog limit: 5 %}
-            <a href="{{blog.url}}"><li>{{blog.title}}</li></a><hr>
-            {% endfor %}
-        </ul>
-        <a href="/blog/" class="btn btn-primary center-block">More Blogs</a>
-    </div>
-    <div class="col-sm-4">
-        <h3>Social Media</h3>
-        <div class="row no-padding">
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://wwww.facebook.com/{{site.data.company.facebook_username}}">
-                    <i class="icon-facebook"></i>
-                    <br>
-                    Facebook
-                </a>
-            </div>
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://www.twitter.com/{{site.data.company.twitter_username}}">
-                    <i class="icon-twitter"></i>
-                    <br>
-                    Twitter
-                </a>
-            </div>
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}"><i class="icon-linkedin"></i><br>
-                LinkedIn
-                </a>
-            </div>
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://plus.google.com/{{site.data.company.google_plus_username}}"><i class="icon-gplus"></i><br>
-                Google +
-                </a>
-            </div>
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://www.youtube.com/user/{{site.data.company.youtube_username}}?sub_confirmation=1"><i class="icon-youtube"></i><br>
-                Youtube
-                </a>
-            </div>
-            <div class="col-xs-4 hub-social-media-icon text-center">
-                <a href="https://instagram.com/LinaroOrg"><i class="icon-instagram"></i><br>
-                    Instagram
-                </a>
-            </div>
-        </div>
-    </div>
-
-</div><!--End Container-->
-</div><!--End Row-->
 </div><!--End Container Fluid-->
