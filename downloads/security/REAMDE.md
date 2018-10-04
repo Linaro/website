@@ -1,6 +1,6 @@
 ---
 title: Security Downloads
-permalink: /latest/downloads/security/
+permalink: /downloads/security/
 layout: container-breadcrumb
 ---
 # Downloads and help for Meltdown and Spectre

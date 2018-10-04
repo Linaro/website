@@ -1,7 +1,7 @@
 ---
 layout: container-breadcrumb
 title: Downloads
-permalink: /latest/downloads/
+permalink: /downloads/
 ---
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](http://patches.linaro.org/) presents this work by team and by upstream project.
 
