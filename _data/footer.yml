@@ -59,7 +59,7 @@ columns:
       url: /latest/hub/
       items:
           - text: "News & Events"
-            url: /latest/hub/
+            url: /resources/
           - text: News
             url: /news/
           - text: Linaro Blog
