@@ -23,7 +23,7 @@ wordpress_id: 2172
 
 The [Linaro Enterprise Group](/engineering/groups/ldcg/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
 
-Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/latest/downloads/)
+Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/downloads/)
 
 This is the first release of Linaro Enterprise Group (LEG). This release is meant to be an engineering preview of the great collaborative work done by LEG and its partners over the past two months.
 

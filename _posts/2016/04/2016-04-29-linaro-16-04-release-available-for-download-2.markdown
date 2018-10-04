@@ -37,7 +37,7 @@ Both LSK and LNG tarball releases have been discontinued this cycle and the pre
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/latest/downloads/)
+  * [/downloads/](/downloads/)
 
 
 **USING THE ANDROID-BASED IMAGES**
