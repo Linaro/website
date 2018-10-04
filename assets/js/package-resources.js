@@ -7,4 +7,3 @@
 
 //= require app/fly
 //= require app/main
-//= require app/scroll-to-anchors
