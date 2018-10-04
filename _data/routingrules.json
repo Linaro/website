@@ -200,6 +200,7 @@
     "^/latest/hub(/?|/index.html)$ /latest/resources/ [R,L,NC]",
     "^/latest(/?|/index.html)$ /latest/resources/ [R,L,NC]",
     "^/latest/downloads(/?|/index.html)$ /downloads/ [R,L,NC]",
+    "^/latest/events(/?|/index.html)$ /events/ [R,L,NC]",
     "^/latest/downloads/security(/?|/index.html)$ /downloads/security/ [R,L,NC]",
     "^/latest-linaro-gcc-toolchain-release-supports-full-range-of-arm-cortex-a-processors(/?|/index.html)$ /news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/ [R,L,NC]",
     "^/linaro-blog/feed(/?|/index.html)$ /hub/ [R,L,NC]",
