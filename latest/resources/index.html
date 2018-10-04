@@ -7,7 +7,7 @@ permalink: /latest/resources/
 js-package: resources
 css-package: resources
 ---
-<div class="container-fluid" id="resources-container"  style="background-image: url('/assets/images/content/resources-header.png');">
+<div class="container-fluid responsive-background" id="resources-container"  style="background-image: url('/assets/images/content/resources-header.png');">
     <div class="row overlay padded-row" id="resources">
         <div class="container text-center">
             <h1 class="fly center-block">Resources</h1>
@@ -120,32 +120,48 @@ css-package: resources
     </div>  
     <div class="row" id="social-media-widgets"><!--Start Row-->
         <div class="container"><!--Start Container-->
-            <div class="col-sm-4 fly facebook">
+            <div class="col-sm-4 fly text-center facebook">
+                    <h2>Facebook</h2>
+                    <div id="fb-root"></div>
                     <script>
-                        function loadAPI() {
+                        function loadAPI(url) {
                             var js = document.createElement('script');
-                            js.src = '//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+                            js.src = url;
                             document.body.appendChild(js);
                         }
                         window.onscroll = function () {
-                            var rect = document.getElementById('comments').getBoundingClientRect();
-                            if (rect.top < window.innerHeight) {
-                                loadAPI();
+                            var facebookRect = document.getElementById('fb-feed').getBoundingClientRect();
+                            if (facebookRect.top < window.innerHeight) {
+                                loadAPI("//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1");
+                                window.onscroll = null;
+                            } 
+                            var twitterRect = document.getElementById('twitter-feed').getBoundingClientRect();
+                            if (twitterRect.top < window.innerHeight) {
+                                loadAPI("https://platform.twitter.com/widgets.js");
+                                window.onscroll = null;
+                            } 
+                            var flickrRect = document.getElementById('flickr-feed').getBoundingClientRect();
+                            if (flickrRect.top < window.innerHeight) {
+                                loadAPI("//embedr.flickr.com/assets/client-code.js");
                                 window.onscroll = null;
                             } 
                         }
                     </script>
-                    <div id="fb-root"></div>
-                    <div class="fb-page" data-href="https://www.facebook.com/LinaroOrg"
+                    <div id="fb-feed" class="fb-page" data-href="https://www.facebook.com/LinaroOrg"
                      data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" 
                      data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/LinaroOrg" 
                      class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LinaroOrg">Linaro</a></blockquote></div>
+            </div>               
+            <div class="col-sm-4 fly text-center twitter">
+                    <h2>Twitter</h2>
+                    <a id="twitter-feed" class="twitter-timeline" data-height="400" data-theme="light"
+                     href="https://twitter.com/LinaroOrg?ref_src=twsrc%5Etfw">Tweets by LinaroOrg</a>
             </div>
-            <div class="col-sm-4 fly twitter">
-                
-            </div>
-            <div class="col-sm-4 fly">
-                
+            <div class="col-sm-4 fly text-center">
+                    <h2>Flickr</h2>
+                    <a id="flickr-feed" data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/linaroorg/albums/72157695573962940" 
+                    title="YVR18 Linaro Connect"><img src="https://farm2.staticflickr.com/1882/44747069841_e7e6101457_n.jpg" width="320"
+                    height="213" alt="YVR18 Linaro Connect"></a>
             </div>
         </div>
     </div>
