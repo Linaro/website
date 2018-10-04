@@ -103,9 +103,9 @@ pages:
       left: true
       options:
           - text: All Downloads
-            url: /latest/downloads/
+            url: /downloads/
           - text: Security Downloads
-            url: /latest/downloads/security/
+            url: /downloads/security/
     - title: Latest
       left: true
       options:
