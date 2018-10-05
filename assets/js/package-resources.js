@@ -7,3 +7,4 @@
 
 //= require app/main
 //= require app/fly
+//= require app/resources
