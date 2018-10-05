@@ -99,22 +99,23 @@ pages:
 
     - title: Services
       url: /services/
+    - title: Downloads
+      left: true
+      options:
+          - text: All Downloads
+            url: /downloads/
+          - text: Security Downloads
+            url: /downloads/security/
     - title: Latest
       left: true
       options:
-          - text: Downloads
-            options:
-                - text: All Downloads
-                  url: /latest/downloads/
-                - text: Security Downloads
-                  url: /latest/downloads/security/
-          - text: "Hub"
-            url: /latest/hub/
+          - text: Resources
+            url: /resources/
           - text: News
             url: /news/
           - text: Blog
             url: /blog/
           - text: Events
-            url: /latest/events/
+            url: /events/
     - title: Contact Us
       url: /contact/

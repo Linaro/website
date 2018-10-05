@@ -43,7 +43,7 @@ Among the improvements brought by this release and delivered by Linaro engineer
 
 
 We encourage everybody to use the 11.09 release. The download links for all images and components are available on our downloads page:
-[/downloads/](/latest/downloads/)
+[/downloads/](/downloads/)
 
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams.
 The release details are linked from the "Details" column for each released artifact on the release information:

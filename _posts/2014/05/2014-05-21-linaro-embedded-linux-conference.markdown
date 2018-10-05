@@ -31,4 +31,4 @@ Overall this was a most intense event, and it was rather nice that we would spli
 
 I have attended ELC in the Bay Area every year since 2008 and plan to continue to do so, since it is always revitalizing.
 
-To see where Linaro will be speaking next, please visit our [new events page](/latest/hub/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](https://connect.linaro.org/lcu14/)in September.
+To see where Linaro will be speaking next, please visit our [new events page](/resources/). You can also join Linaro for the next[ Linaro Connect USA 2014 ](https://connect.linaro.org/lcu14/)in September.
