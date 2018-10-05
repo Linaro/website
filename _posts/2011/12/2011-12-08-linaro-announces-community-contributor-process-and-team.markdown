@@ -53,9 +53,9 @@ We place a lot of value on having a vibrant network of Community Contributors so
 
 **Getting Involved**
 
-[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/latest/hub/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
+[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/resources/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
 
-Find out you can be part of this exciting and growing community by visiting our [community page](/latest/hub/).
+Find out you can be part of this exciting and growing community by visiting our [community page](/resources/).
 
 **About Linaro**
 _Linaro ™  is a  Not-For-Profit software engineering company that works with the open source community to make it easier and faster to develop open source based devices. Linaro has the aim of investing new resources and aligning efforts from the industry to continuously improve and optimize open source software and tools on the Arm architecture with the goal of accelerating industry innovation.[ www.linaro.org](/)_

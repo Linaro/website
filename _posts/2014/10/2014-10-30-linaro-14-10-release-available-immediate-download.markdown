@@ -44,7 +44,7 @@ We encourage everybody to use the 14.10 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:
 
-  * [/downloads/](/latest/downloads/)
+  * [/downloads/](/downloads/)
 
 **USING THE ANDROID-BASED IMAGES**
 
