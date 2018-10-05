@@ -119,8 +119,6 @@
     "^/downloads/historic(/?|/index.html)$ /downloads/ [R,L,NC]",
     "^/downloads/leb-faq(/?|/index.html)$ /downloads/ [R,L,NC]",
     "^/downloads/pdf(/?|/index.html)$ /assets/downloads/$1 [R,L,NC]",
-    "^/downloads(/?|/index.html)$ /latest/downloads/ [R,L,NC]",    
-    "^/downloads/security(/?|/index.html)$ /latest/downloads/security/ [R,L,NC]",    
     "^/edge/96boards(/?|/index.html)$ / [R,L,NC]",
     "^/edge/connect-friday-before(/?|/index.html)$ / [R,L,NC]",
     "^/edge/connect-friday(/?|/index.html)$ / [R,L,NC]",
