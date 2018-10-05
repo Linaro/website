@@ -22,8 +22,8 @@ css-package: events
         <div class="container">
             <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
                 <li role="presentation">
-                    <a href="/events/connect/" >
-                        Linaro Connect
+                    <a href="/events/calendar/">
+                        Events Calendar
                     </a>
                 </li>
                 <li role="presentation" >
@@ -31,16 +31,17 @@ css-package: events
                         Workshops
                     </a>
                 </li>
+                <li role="presentation">
+                    <a href="/events/connect/" >
+                        Linaro Connect
+                    </a>
+                </li>
                 <li role="presentation" >
                     <a href="/events/attended/">
                         Attended Events
                     </a>
                 </li>
-                <li role="presentation">
-                    <a href="/events/calendar/">
-                        Events Calendar
-                    </a>
-                </li>
+                
             </ul>
         </div>
     </div>
