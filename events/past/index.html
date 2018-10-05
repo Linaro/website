@@ -1,9 +1,9 @@
 ---
-title: Attended Events
+title: Past Events
 description: >-
-    Linaro has a presence at many tech conferences all year round. Here you can find any resources presented at those conferences.
+    Linaro presents and sponsors several tech conferences around the world. Here you can access presentation slides and videos from those events. 
 layout: empty
-permalink: /events/attended/
+permalink: /events/past/
 js-package: events
 css-package: events
 ---
@@ -11,9 +11,9 @@ css-package: events
     style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/content/resources-header.png');">
     <div class="row overlay padded-row" id="resources">
         <div class="container text-center">
-            <h1 class="fly center-block">Attended Events</h1>
+            <h1 class="fly center-block">Past Events</h1>
             <p class="fly center-block">
-                Linaro has a presence at many tech conferences all year round. Here you can find any resources presented at those conferences.
+                Linaro presents and sponsors several tech conferences around the world. Here you can access presentation slides and videos from those events. 
             </p>
         </div>
     </div>
@@ -22,9 +22,9 @@ css-package: events
     <div class="row">
         <div class="container">
             <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-                <li role="presentation" >
-                    <a href="/events/connect/">
-                        Linaro Connect
+                <li role="presentation">
+                    <a href="/events/calendar/">
+                        Events Calendar
                     </a>
                 </li>
                 <li role="presentation" >
@@ -32,16 +32,17 @@ css-package: events
                         Workshops
                     </a>
                 </li>
-                <li role="presentation" class="active"  >
-                    <a href="/events/attended/">
-                        Attended Events
+                <li role="presentation" >
+                    <a href="/events/connect/">
+                        Linaro Connect
                     </a>
                 </li>
-                <li role="presentation">
-                    <a href="/events/calendar/">
-                        Events Calendar
+                <li role="presentation" class="active">
+                    <a href="/events/past/">
+                        Past Events
                     </a>
                 </li>
+                
             </ul>
             {% assign attended-events = site.data.attended-events | sort: "start-date" | reverse %}
             {% for event in attended-events %}
