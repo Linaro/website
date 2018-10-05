@@ -269,8 +269,6 @@
     "^/projects/networking(/?|/index.html)$ /groups/lng/ [R,L,NC]",
     "^/projects/server(/?|/index.html)$ https://www.linaro.org/projects/ [R,L,NC]",
     "^/projects/test-validation(/?|/index.html)$ /services/testing-validation-services/ [R,L,NC]",
-    
-    
     "^/projects/reference-platforms(/?|/index.html)$ /engineering/groups/lcdg/ [R,L,NC]",
     "^/projects/open-source-security(/?|/index.html)$ /engineering/core/security/ [R,L,NC]",
     "^/projects/open-source-arm-tools(/?|/index.html)$ /engineering/core/toolchain/ [R,L,NC]",
@@ -279,9 +277,7 @@
     "^/projects/bigdata(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
     "^/projects/reference-digital-media-platforms-for-arm(/?|/index.html)$ /engineering/groups/lcg/ [R,L,NC]",
     "^/projects(/?|/index.html)$ /engineering/ [R,L,NC]",
-    
     "^/redirected-service(/?|/index.html)$ / [R,L,NC]",
-    "^/resources(/?|/index.html)$ https://connect.linaro.org/resources/ [R,L,NC]",
     "^/services-linux/bootloaders(/?|/index.html)$ /services/linux/bootloaders/ [R,L,NC]",
     "^/services-linux/linux-kernel(/?|/index.html)$ /services/linux/kernel/ [R,L,NC]",
     "^/services-linux/optimization-services(/?|/index.html)$ /services/linux/optimization-services/ [R,L,NC]",
