@@ -37,8 +37,8 @@ css-package: events
                     </a>
                 </li>
                 <li role="presentation" >
-                    <a href="/events/attended/">
-                        Attended Events
+                    <a href="/events/past/">
+                        Past Events
                     </a>
                 </li>
                 
