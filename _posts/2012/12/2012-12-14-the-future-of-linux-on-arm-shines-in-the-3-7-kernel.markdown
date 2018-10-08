@@ -67,7 +67,7 @@ When asked what the inclusion of the various Arm features in the 3.7 Linux kerne
 
 Linaro engineers continue to collaborate with its members, partners, and the wider development communities to build the future of Linux on Arm as the inclusion of the Arm support in the 3.7 Kernel continues to increase the realization that Arm as a platform is becoming a mainstream player in not only in areas of mobile phones, but also in the Enterprise realm and is poised to change the face of desktop computing as well.
 
-The latest release of the Linaro-Linux Kernel - 12.11 - is available on our [downloads page](/latest/downloads/) and more information about the 12.11 baseline image available in [Launchpad](https://launchpad.net/linaro-linux-baseline/+milestone/12.11).
+The latest release of the Linaro-Linux Kernel - 12.11 - is available on our [downloads page](/downloads/) and more information about the 12.11 baseline image available in [Launchpad](https://launchpad.net/linaro-linux-baseline/+milestone/12.11).
 
 
 ### **About**

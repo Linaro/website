@@ -145,7 +145,7 @@ Additional presentations and videos from LCE12-Copenhagen can be found on the re
 ## Downloads
 
 
-Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/latest/downloads/).
+Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 
 
 ## Linaro Connect

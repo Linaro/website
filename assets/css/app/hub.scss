@@ -43,3 +43,41 @@
 .nav-stacked a:hover li {
     color: #accb4d;
 }
+.row.hub-row {
+    padding-top: 40px;
+}
+.padded-row {
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+// Resources hub news / blog panels
+#content-container .panel-heading {
+    background-color:#6e6e6e;
+    border:1px solid #4c4c4c;
+    color: #fff;
+}
+#content-container ul.list-group li.list-group-item.fly {
+    background-color: #efefef;
+    color: #525252;
+    text-align: left;
+    border-bottom: 1px solid #dadada;
+    border-radius: 0px;
+    font-size: 15px;
+
+    transition: all 300ms ease;
+}
+#content-container ul.list-group li.list-group-item.fly:hover {
+    background-color: #e2dfdf;
+}
+li.list-group-item.list-group-item-success {
+    background-color: #dadada;
+    color: #676666;
+    transition: all 300ms ease;
+}
+li.list-group-item.list-group-item-success.text-center:hover {
+    background-color:#828282;
+    color:white;
+}
+li.list-group-item.fly.show-block {
+    height: 60px;
+}
