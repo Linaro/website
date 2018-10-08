@@ -107,14 +107,14 @@ The following tables provide direct access to the most common Linux and bare-met
 <td style="text-align:left"><em>32-bit Armv8 Cortex-A, hard-float, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>aarch64-linux-gnu</strong></td>
 <td style="text-align:left"><em>64-bit Armv8 Cortex-A, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
 </tr>
 </tbody>
 </table>
@@ -124,8 +124,8 @@ The following tables provide direct access to the most common Linux and bare-met
 
 {:.table.responsive-table}
 |:---|:---|:---|:---|:---|
-|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
-|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest/)|
+|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 ***
 
