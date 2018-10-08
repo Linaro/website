@@ -100,7 +100,7 @@ The following tables provide direct access to the most common Linux and bare-met
 <td style="text-align:left"><em>32-bit Armv7 Cortex-A, hard-float, little-endian</em></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
 <td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest/">Source</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>armv8l-linux-gnueabihf</strong></td>
