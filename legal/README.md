@@ -5,6 +5,19 @@ description: |-
     Information about the legal policies of Linaro's website
 permalink: /legal/
 ---
+<script>
+function defer(method) {
+if (window.jQuery) {
+    method();
+} else {
+    setTimeout(function() { defer(method) }, 50);
+}
+}
+defer(function(){
+    var hash = window.location.hash;
+    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+});
+</script>
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
 
   <li role="presentation" class="active">
@@ -71,7 +84,7 @@ Except where expressly provided otherwise in an agreement between you and us, al
 
 ### Information about you and your visits to Our site
 
-We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](/legal/#1392905674-2-48).
+We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](/legal/#privacy_policy).
 
 * * *
 

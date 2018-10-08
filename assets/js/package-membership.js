@@ -6,6 +6,7 @@
 //= require vendor/owl.carousel
 
 
-//= require app/membership
 //= require app/main
+//= require app/membership
 //= require app/scroll-to-anchors
+//= require app/fly
