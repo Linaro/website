@@ -32,9 +32,9 @@ Date: Oct 15-19th, 2018
 
 Place: Capital Hotel Dahzi,Taipei 
 
-Registration: UEFI Forum members can register [here](http://bit.ly/2v5VJ3F0)
+Registration: UEFI Forum members can register [here](http://linaro.co/plugfest-reg)
 
-[View the logistics packet here](https://www.uefi.org/sites/default/files/resources/Fall_2018_UEFI_Plugfest_Logistic_Info_Final%20as%20of%207.25.pdf)
+[View the logistics packet here](https://www.uefi.org/sites/default/files/resources/Fall_2018_UEFI_Plugfest_Logistic_Info.pdf)
 
 Plugfest attendees must sign the disclosure agreement and photo and video waiver.  Attendees can either sign and bring a printed copy to the event or sign a version on site. [Print the disclosure agreement here](https://www.uefi.org/sites/default/files/resources/Disclosure%20Agreements_Fall%202018%20UEFI%20Plugfest%207.25.18.pdf)
 
