@@ -40,7 +40,7 @@ The sessions that were streamed using Google+ Hangouts on Air can be found on th
 
 The video interviews and sessions that were filmed by FormsCom can be found on the [LinaroOrg YouTube Channel](/blog).
 
-The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can be found on [armdevices.net](http://armdevices.net/).
+The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can be found on [armdevices.net]().
 
 
 ## Schedule of Events - Day 5 - Friday - 8 March 2013
