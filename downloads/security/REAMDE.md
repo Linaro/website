@@ -11,8 +11,7 @@ layout: container-breadcrumb
 
 #### Kernel
 The current status for LTS otherwise is that aarch64 backport exists and have
-been accepted for kernel v4.9 and v4.14. For arm32 we are waiting for the
-changes to be developed and then we will do the backporting.
+been accepted for kernel v4.9 and v4.14.
 
 * Kernel Page Table Isolation: https://en.wikipedia.org/wiki/Kernel_page-table_isolation
 * Linaro tree with work in progress: https://git.linaro.org/kernel/speculation-fixes-staging.git
