@@ -107,7 +107,7 @@ Detailed action plans and summaries for the four 1 hour sessions can be found in
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/latest/downloads/).
+Current Linaro Android Builds can be found at: [https://android-build.linaro.org/]()https://android-build.linaro.org/ Information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org/).
 

@@ -38,7 +38,7 @@
 - id: group
   membership_group_name: Group Members
   text: |-
-    Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. There are currently five segment groups at Linaro: [Linaro Enterprise Group (LEG)](#leg), [Linaro Home Group (LHG)](#lhg), [Linaro Mobile Group (LMG)](#lmg), [Linaro Networking Group (LNG)](#lng) and our newest group – [Linaro Community Board Group (LCG)](https://www.96boards.org). Below are the lists of the members of each respective group.
+    Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. Below are lists of the members of each group.
   members:
     - name: Arm
       image: arm.jpg
@@ -107,7 +107,9 @@
       image: xilinx.jpg
       url: /company/xilinx/
 - id: associate
-  membership_group_name: Associates
+  membership_group_name: Associates  
+  text: |-
+    Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.
   members:
     - name: Runtime
       image: runtime.png
