@@ -115,7 +115,7 @@ defaults:
         path: ""
         type: "services"
     values:
-        layout: developer-services
+        layout: container-breadcrumb-left-sidebar
   - scope:
         path: ""
         type: "incubators"
