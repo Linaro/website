@@ -1,6 +1,6 @@
 ---
 service_id: 5
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Power Management Tuning Services
 short_name: Power Management
 permalink: /services/power-management/

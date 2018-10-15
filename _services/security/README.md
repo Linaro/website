@@ -1,6 +1,6 @@
 ---
 service_id: 1
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Security, TrustZone and OP-TEE
 short_name: Security
 permalink: /services/security/

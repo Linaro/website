@@ -1,6 +1,6 @@
 ---
 service_id: 7
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Toolchain Optimization Services
 short_name: Toolchain Optimization
 permalink: /services/toolchain-optimization-services/

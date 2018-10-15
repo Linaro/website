@@ -1,6 +1,6 @@
 ---
 service_id: 2
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Bootloaders and Boot Architecture
 short_name: Bootloaders
 permalink: /services/bootloaders/

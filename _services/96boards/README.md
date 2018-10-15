@@ -1,6 +1,6 @@
 ---
 service_id: 6
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: 96Boards Product Development & Support
 short_name: 96boards
 permalink: /services/96boards/

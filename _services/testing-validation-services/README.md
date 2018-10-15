@@ -1,6 +1,6 @@
 ---
 service_id: 9
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Testing and Validation Services
 short_name: Testing and Validation
 permalink: /services/testing-validation-services/

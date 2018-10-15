@@ -1,6 +1,6 @@
 ---
 service_id: 8
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Open Source Consultancy and Licensing
 short_name: Open Source Consultancy
 permalink: /services/open-source-consultancy/

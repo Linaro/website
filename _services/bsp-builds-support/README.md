@@ -1,6 +1,6 @@
 ---
 service_id: 4
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: AOSP and Linux BSPs, Builds and Support
 short_name: BSP’s, Builds and Support
 permalink: /services/bsp-builds-support/

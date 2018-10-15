@@ -1,6 +1,6 @@
 ---
 service_id: 3
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Kernels and Long Term Support Services
 short_name: Kernels - LTS
 permalink: /services/kernel-lts/

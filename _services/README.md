@@ -1,9 +1,9 @@
 ---
-layout: developer-services
+layout: container-breadcrumb-left-sidebar
 title: Developer Services
 permalink: /services/
 redirect_from: 
-- /linaro-developer-services-datacenteranddevelopercloud/
+- /linaro-container-breadcrumb-left-sidebar-datacenteranddevelopercloud/
 ---
 <div class="services-home-content" markdown="1">
 
