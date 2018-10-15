@@ -1,0 +1,50 @@
+pages:
+  -
+    list:
+      -
+        title: Developer Services
+        url: /services/
+        icon: "developerservices-icon-main.png"
+      -
+        title: Security
+        url: /services/security/
+        icon: "DeveloperServices-icons_Security.svg"
+      -
+        title: Bootloaders
+        url: /services/bootloaders/
+        icon: "DeveloperServices-icons_Bootloaders.svg"
+      -
+        title: Kernels - LTS
+        url: /services/kernel-lts/
+        icon: "DeveloperServices-icons_kernels.svg"
+      -
+        title: BSP’s, Builds and Support
+        url: /services/bsp-builds-support/
+        icon: "DeveloperServices-icons_builds.svg"
+      -
+        title: Power Management
+        url: /services/power-management/
+        icon: "DeveloperServices-icons_power.svg"
+      -
+        title: 96Boards
+        url: /services/96boards/
+        icon: "DeveloperServices-icons_96boards.svg"
+      -
+        title: Toolchain Optimization Services
+        url: /services/toolchain-optimization-services/
+        icon: "DeveloperServices-icons_toolchain.svg"
+      -
+        title: Open Source Consultancy
+        url: /services/open-source-consultancy/
+        icon: "DeveloperServices-icons_consultancy.svg"
+      -
+        title: Testing and Validation Services
+        url: /services/testing-validation-services/
+        icon: "DeveloperServices-icons_validation.svg"
+      -
+        title: Hands on Training
+        url: /services/hands-on-training/
+        icon: "DeveloperServices-icons_training.svg"
+
+    urls: [/services/,/services/security/,/services/bootloaders/,/services/kernel-lts/,/services/bsp-builds-support/,
+    /services/power-management/,/services/96boards/,/services/toolchain-optimization-services/,/services/open-source-consultancy/,/services/testing-validation-services/,/services/hands-on-training/]
