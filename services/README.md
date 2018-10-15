@@ -10,7 +10,7 @@ css-package: membership
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
     <div class="row overlay padded-row" id="why-join">
         <div class="container text-center">
-            <img data-src="/assets/images/content/LinaroDSVertical.ping" class="lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
+            <img data-src="/assets/images/content/LinaroDSVertical.png" class="lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
             <p class="fly center-block">
                 Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
             </p>
