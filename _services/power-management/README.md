@@ -1,10 +1,10 @@
 ---
 service_id: 5
-layout: container-breadcrumb-left-sidebar
 title: Power Management Tuning Services
 short_name: Power Management
 permalink: /services/power-management/
 keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
+icon: /assets/images/content/DeveloperServices-icons_power.svg
 ---
 
 Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In Developer Services we have:
