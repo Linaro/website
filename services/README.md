@@ -102,11 +102,14 @@ To view 96Boards members by level of engagement, click <a href="/members-by-grou
 </div>
 <div class="row padded-row" id="membership-levels">
     <div class="container">
-        <h2 class="text-center fly">Levels of Engagement</h2>
+        <h2 class="text-center fly">About</h2>
 <div markdown="1" class="fly">
-Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, software distributions and other companies who wish to influence the future of open source on Arm. Members all provide funding for Linaro and some levels provide engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](https://www.linaro.org/assets/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](https://www.linaro.org/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
+We at Linaro Developer Services are Arm software engineering experts. We pride ourselves on the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of our work and professionalism of the engagements with our customers.
 
-There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. The current groups include LDCG, LITE, LEDGE and LCG; current SIGs are ODP, HPC and LTNS; current incubators are AI/ML and Automotive; and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
+Open Source software is our culture and we have helped many customers work with open source software communities. We also routinely work with customers under non-disclosure on confidential development projects.
+
+Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced Arm technologies in every
+segment. Linaro Developer Services make that expertise available to you for use on your project.
 </div>
     </div>
 </div>
