@@ -5,10 +5,10 @@ layout: container-breadcrumb
     {% if page.icon %}
     <hr />
     <picture>
-        <source srcset="{% if page.icon %}{% asset_path '{{page.icon}}' %}{% endif %}" 
+        <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" 
         media="(min-width: 992px)" />
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
-        data-src="{% asset_path '{{page.icon}}'%}" 
+        data-src="{{page.icon}}" 
         class="lazyload img-responsive group_icon"/>
     </picture>
     {% endif %}
