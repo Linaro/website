@@ -72,7 +72,7 @@
 }
 
 div#key-factors {
-    background-color: #484546;
+    background-color: #e8e8e8;
 }
 
 span.key-factor-title {
@@ -132,7 +132,7 @@ span.bold {
 }
 
 #key-factors h2.text-center {
-    color: white;
+    color: #505050;
     font-size: 24px;
     margin-bottom: 60px;
 }
@@ -278,7 +278,7 @@ div#projects {
   display: inline-block;
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
-  background-color: hsl(220, 75%, 75%);
+  background-color: #dadada;
   text-align: center;
   padding: 0;
   box-sizing: border-box;
@@ -359,7 +359,7 @@ div#projects {
 .hexagon img.img-responsive {
     z-index: 3;
     position: relative;
-    top: 20px;
+    top: 0px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
