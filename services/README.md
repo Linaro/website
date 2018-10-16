@@ -32,7 +32,7 @@ css-package: services
                     </div>
                     <div class="hexagon">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
                             alt="Security Services"/>
                         </div>
                     </div>
@@ -64,7 +64,19 @@ css-package: services
                     </div>
                     <div class="hexagon">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
+                            alt="Security Services"/>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagontent">
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
+                            alt="Security Services"/>
+                        </div>
+                    </div>
+                    <div class="hexagon">
+                        <div class="hexagontent">
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
                             alt="Security Services"/>
                         </div>
                     </div>
@@ -74,100 +86,8 @@ css-package: services
                             alt="Security Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
-                        <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
-                        </div>
-                    </div>
-                    <div class="hexagon">
-                        <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <!-- <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Regardless of the industry you operate in, there are common software foundations that you can use to deploy your products. By working with Linaro and its members on the core software, you can focus your attention on differentiation.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Security</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Developing and maintaining software for the life of your products is costly if you do it on your own. Working through Linaro's shared engineering resource together with other members enables you to share the workload, thereby reducing costs and time to market.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Bootloaders</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Kernels - LTS</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">BSP’s, Builds and Support</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Power Management</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">96Boards</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Toolchain Optimization Services</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Open Source Consultancy</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Testing and Validation Services</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
-                <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
-                    alt="Security Services"/>
-                    <span></span>
-                    <h3 class="key-factor-title">Hands on Training</h3>
-                </div>
-            </div> -->
         </div>
     </div>
 </div>
@@ -246,19 +166,13 @@ segment. Linaro Developer Services make that expertise available to you for use 
 </div>
         </div>
     </div>
-    <div class="row padded-row" id="apply-to-join">
+    <div class="row padded-row" id="get-in-touch">
         <div class="container">
-            <h2 class="text-center fly">Apply to Join</h2>
-            <div class="cognito fly">
-                <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-                <script>
-                    Cognito.load("forms", {
-                        id: "14", entry: {
-                            "PageUrl": "{{site.url}}{{page.url}}",
-                            "RedirectUrl": "{{site.url}}/thank-you/?ref={{page.url}}",
-                            "ChoiceField": [{% for member in site.data.members %}"{{member.membership_group_name}}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
-                        }});
-                </script>
+            <h2 class="text-center fly">Get in Touch</h2>
+            <div class="get-in-touch">
+                <p>
+                
+                </p>
             </div>
         </div>
     </div>
