@@ -273,16 +273,13 @@ div#projects {
 
 .hexagon {
     position: relative;
-    width: 300px; 
-    height: 173.21px;
+    width: 200px; 
+    height: 115.47px;
     background-color: #c35c5b;
-    margin: 86.60px 0;
+    margin: 57.74px 0;
     box-shadow: 0 0 15px rgba(0,0,0,0.6);
     border-left: solid 1px #5b5854;
     border-right: solid 1px #5b5854;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 130px;
   }
   
   .hexagon:before,
@@ -290,24 +287,24 @@ div#projects {
     content: "";
     position: absolute;
     z-index: 1;
-    width: 212.13px;
-    height: 212.13px;
+    width: 141.42px;
+    height: 141.42px;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
-    left: 42.9340px;
+    left: 28.2893px;
     box-shadow: 0 0 15px rgba(0,0,0,0.6);
   }
   
   .hexagon:before {
-    top: -106.0660px;
+    top: -70.7107px;
     border-top: solid 1.4142px #5b5854;
     border-right: solid 1.4142px #5b5854;
   }
   
   .hexagon:after {
-    bottom: -106.0660px;
+    bottom: -70.7107px;
     border-bottom: solid 1.4142px #5b5854;
     border-left: solid 1.4142px #5b5854;
   }
@@ -318,11 +315,12 @@ div#projects {
     position: absolute;
     top:0.5773502691896257px;
     left: 0;
-    width:298px;
-    height:172.0504px;
+    width:198px;
+    height:114.3154px;
     z-index: 2;
     background: inherit;
   }
+
   .hexagon img.img-responsive {
     z-index: 3;
     position: relative;
@@ -331,6 +329,10 @@ div#projects {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+// Equal bootstrap colums in 5ths
+
 .col-xs-5ths,
 .col-sm-5ths,
 .col-md-5ths,
