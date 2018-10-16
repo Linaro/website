@@ -10,7 +10,7 @@ css-package: services
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
     <div class="row overlay padded-row" id="developer-services">
         <div class="container text-center">
-            <img data-src="/assets/images/content/LinaroDSVerticalWhite.png" class="center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
+            <img data-src="/assets/images/content/LinaroDSVerticalAlt2.png" class="center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
             <p class="fly center-block">
                 We are the <span class="bold">Arm software experts</span>
                 and we are available to help you.
@@ -24,7 +24,7 @@ css-package: services
             <h2 class="text-center fly">Developer Services</h2>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Regardless of the industry you operate in, there are common software foundations that you can use to deploy your products. By working with Linaro and its members on the core software, you can focus your attention on differentiation.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Security
@@ -33,7 +33,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Developing and maintaining software for the life of your products is costly if you do it on your own. Working through Linaro's shared engineering resource together with other members enables you to share the workload, thereby reducing costs and time to market.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Bootloaders
@@ -42,7 +42,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Kernels - LTS
@@ -51,7 +51,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         BSP’s, Builds and Support
@@ -60,7 +60,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Power Management
@@ -69,7 +69,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         96Boards
@@ -78,7 +78,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Toolchain Optimization Services
@@ -87,7 +87,7 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Open Source Consultancy
@@ -96,16 +96,16 @@ css-package: services
             </div>
             <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Testing and Validation Services
                     </span>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-5ths col-sm-offset-4 fly key-factor text-center">
+            <div class="col-xs-12 col-md-5ths fly key-factor text-center">
                 <div class="hexagon fly hidden-xs" data-toggle="tooltip" data-container="body" data-placement="top" title="Many of Linaro's engineers are recognized world leaders. Linaro is consistently listed in the top five company contributors to the Linux kernel and a major contributor to over 70 other open source projects, including several maintained by Linaro engineers.">
-                    <img class="lazyload img-responsive" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
+                    <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
                     alt="Security Services"/>
                     <span class="key-factor-title">
                         Hands on Training
