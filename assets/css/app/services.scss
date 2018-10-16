@@ -270,58 +270,93 @@ div#projects {
 }
 
 // Developer Services Hexagons
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 
 .hexagon {
-    position: relative;
-    width: 200px; 
-    height: 115.47px;
-    background-color: #c35c5b;
-    margin: 57.74px 0;
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
-    border-left: solid 1px #5b5854;
-    border-right: solid 1px #5b5854;
-  }
-  
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    width: 141.42px;
-    height: 141.42px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background-color: inherit;
-    left: 28.2893px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
-  }
-  
-  .hexagon:before {
-    top: -70.7107px;
-    border-top: solid 1.4142px #5b5854;
-    border-right: solid 1.4142px #5b5854;
-  }
-  
-  .hexagon:after {
-    bottom: -70.7107px;
-    border-bottom: solid 1.4142px #5b5854;
-    border-left: solid 1.4142px #5b5854;
-  }
-  
-  /*cover up extra shadows*/
-  .hexagon span {
-    display: block;
-    position: absolute;
-    top:0.5773502691896257px;
-    left: 0;
-    width:198px;
-    height:114.3154px;
-    z-index: 2;
-    background: inherit;
-  }
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 18px;
+  background-color: hsl(220, 75%, 75%);
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon, .hexagon::before, .hexagon::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 0%/5%;
+}
+.hexagon::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;
+}
+.hexagon:hover {
+  background-color: hsla(60, 75%, 75%, 1.0);
+  cursor: pointer;
+  z-index: 105;
+}
+.hexagon:active {
+  background-color: hsla(60, 75%, 50%, 1.0);
+  z-index: 110;
+}
+.hexanone {
+  position: relative;
+  display: inline-block;
+  width: 67px;
+  height: 116px;
+  margin: 1px 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexanone:nth-child(even) {
+  top: 59px;
+}
+.hexagontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140%;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  z-index: 100;
+}
+.ibws-fix {
+  /* inline-block whitespace fix */
+  font-size: 0;
+}
+.honeycomb {
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .hexagon img.img-responsive {
+.hexagon img.img-responsive {
     z-index: 3;
     position: relative;
     top: 20px;
