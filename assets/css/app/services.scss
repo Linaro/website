@@ -74,12 +74,15 @@
 div#key-factors {
     background-color: #e8e8e8;
 }
+div#services {
+    background-color: #e8e8e8;
+}
 
 span.key-factor-title {
     font-size: 20px;
     position: relative;
     top: 36%;
-    color: white;
+    color: #000;
 }
 
 span.bold {
@@ -131,7 +134,7 @@ span.bold {
     padding: 10px;
 }
 
-#key-factors h2.text-center {
+#key-factors h2.text-center, #services h2.text-center {
     color: #505050;
     font-size: 24px;
     margin-bottom: 60px;
