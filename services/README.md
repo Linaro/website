@@ -19,73 +19,103 @@ css-package: services
     </div>
 </div>
 <div class="container-fluid">
+    <div class="row" id="projects">
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <h2>Linaro Members:</h2>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme" id="projects-slider">
+            {% assign linaro-members = "" | split: ',' %}
+            {% for each in site.data.members %}
+                {% for member in each.members %}
+                    {% unless linaro-members contains member %}
+                        {% assign linaro-members = linaro-members | push: member %}
+                    {% endunless %}
+                {% endfor %}
+            {% endfor %}
+            {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
+            {% for member in sorted-linaro-members %}
+            <a href="{{member.url}}" target="_blank">
+                <div class="item project-item">
+                    <div class="project-image lazyload" style="background: url('/assets/images/members/{{member.image}}') no-repeat center center;
+                    background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;"></div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
     <div class="row padded-row" id="key-factors">
         <div class="container">
             <h2 class="text-center fly">Developer Services</h2>
             <div class="honeycomb">
                 <div class="ibws-fix">
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
                             alt="Security Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
-                            alt="Security Services"/>
+                            alt="Bootloader Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
+                            alt="Kernel Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
+                            alt="Build Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
+                            alt="Power Services"/>
                         </div>
                     </div>
                 </div>
                 <div class="ibws-fix">
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
+                            alt="96Boards Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
+                            alt="Toolchain Optimization Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
+                    <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
-                            alt="Security Services"/>
+                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
+                            alt="Open Source Consultancy Services"/>
                         </div>
                     </div>
-                    <div class="hexagon">
-                        <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
-                            alt="Security Services"/>
+                    <a href="/services/testing-validation-services/">
+                        <div class="hexagon fly">
+                            <div class="hexagontent">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
+                                alt="Testing and Validation Services"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="hexagon">
-                        <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                    </a>
+                    <a href="/services/hands-on-training/">
+                        <div class="hexagon fly">
+                            <div class="hexagontent">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
+                                alt="Hands on Training Services"/>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
