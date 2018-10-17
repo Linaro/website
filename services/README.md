@@ -8,9 +8,9 @@ js-package: membership
 css-package: services
 ---
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
-    <div class="row overlay padded-row" id="developer-services">
+    <div class="row overlay" id="developer-services">
         <div class="container text-center">
-            <img data-src="/assets/images/content/LinaroDSVerticalAlt2.png" class="center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
+            <img data-src="/assets/images/content/LinaroDSVerticalAlt2.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  class="center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
             <p class="fly center-block">
                 We are the <span class="bold">Arm software experts</span>
                 and we are available to help you.
@@ -52,136 +52,91 @@ css-package: services
                 <div class="ibws-fix">
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
-                            alt="Security Services"/>
+                            <a href="/services/security/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
+                                alt="Security Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
-                            alt="Bootloader Services"/>
+                            <a href="/services/bootloaders/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
+                                alt="Bootloader Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
-                            alt="Kernel Services"/>
+                            <a href="/services/kernel-lts/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
+                                alt="Kernel Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
-                            alt="Build Services"/>
+                            <a href="/services/bsp-builds-support/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
+                                alt="Build Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
-                            alt="Power Services"/>
+                            <a href="/services/power-management/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
+                                alt="Power Services"/>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="ibws-fix">
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
-                            alt="96Boards Services"/>
+                            <a href="/services/96boards/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
+                                alt="96Boards Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
-                            alt="Toolchain Optimization Services"/>
+                            <a href="/services/toolchain-optimization-services/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
+                                alt="Toolchain Optimization Services"/>
+                            </a>
                         </div>
                     </div>
                     <div class="hexagon fly">
                         <div class="hexagontent">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
-                            alt="Open Source Consultancy Services"/>
+                            <a href="/services/open-source-consultancy/">
+                                <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
+                                alt="Open Source Consultancy Services"/>
+                            </a>
                         </div>
                     </div>
-                    <a href="/services/testing-validation-services/">
-                        <div class="hexagon fly">
-                            <div class="hexagontent">
+                    <div class="hexagon fly">
+                        <div class="hexagontent">
+                            <a href="/services/testing-validation-services/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
                                 alt="Testing and Validation Services"/>
-                            </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="/services/hands-on-training/">
-                        <div class="hexagon fly">
-                            <div class="hexagontent">
+                    </div>
+                    <div class="hexagon fly">
+                        <div class="hexagontent">
+                            <a href="/services/hands-on-training/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
                                 alt="Hands on Training Services"/>
-                            </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="row padded-row" id="members-and-partners">
-        <div class="container">
-            <h2 class="text-center fly">Members & Partners</h2>
-                {% assign linaro-members = "" | split: ',' %}
-                {% assign boards-members = "" | split: ',' %}
-                {% for each in site.data.members %}
-                    {% if each.id != "boards-ai" and each.id != "boards-mezzanine" and each.id != "boards-mp" and each.id != "boards-sc" %}
-                        {% for member in each.members %}
-                            {% unless linaro-members contains member %}
-                                {% assign linaro-members = linaro-members | push: member %}
-                            {% endunless %}
-                        {% endfor %}
-                    {% else %}
-                        {% for member in each.members %}
-                            {% unless boards-members contains member %}
-                                {% assign boards-members = boards-members | push: member %}
-                            {% endunless %}
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
-                {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
-                {% assign sorted-boards-members = boards-members | sort: 'name' %}
-        </div>
-    </div>
-    <div class="row">
-        <div class="container linaro-members ">
-            <h2 class="text-center fly">Linaro</h2>
-            {% for member in sorted-linaro-members %}
-                <div class="col-xs-6 col-sm-3 col-md-2 member-col fly">
-                    <a href="{{member.url}}">
-                        <div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
-                    </a>
-                </div>
-            {% endfor %}
-            <div class="col-xs-12 text-center">
-                <p class="center-block">
-                To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="container boards-members fly">
-            <h2 class="text-center">96Boards</h2>
-            {% for member in sorted-boards-members %}
-                <div class="col-xs-6 col-sm-3 col-md-2 member-col">
-                    <a href="{{member.url}}">
-                        <div class="member lazyload" style="background-image: url('/assets/images/members/{{member.image}}');"></div>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-        <div class="container text-center">
-            <p class="center-block">
-            To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
-            </p>
-        </div>
-    </div>
-</div>
-
 <div class="container-fluid">
     <div class="row padded-row" id="membership-levels">
         <div class="container">
@@ -197,12 +152,10 @@ segment. Linaro Developer Services make that expertise available to you for use 
         </div>
     </div>
     <div class="row padded-row" id="get-in-touch">
-        <div class="container">
-            <h2 class="text-center fly">Get in Touch</h2>
-            <div class="get-in-touch">
-                <p>
-                
-                </p>
+        <div class="container text-center">
+            <h2>Get in Touch.</h2>
+            <div class="get-in-touch" id="contact-btn">
+                <a  href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="btn btn-primary btn-two">Contact Us</a>
             </div>
         </div>
     </div>
