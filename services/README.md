@@ -47,6 +47,32 @@ css-package: services
     </div>
     <div class="row padded-row" id="key-factors">
         <div class="container">
+            <h2 class="text-center fly">Key Benefits</h2>
+            <div class="col-xs-12 col-sm-4 fly key-factor text-center">
+                <div class="key-factor-block fly">
+                    <span class="key-factor-title">
+                        Efficiently support the latest technology features upstream
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 fly key-factor text-center">
+                <div class="key-factor-block fly">
+                    <span class="key-factor-title">
+                        Reduce burden of post-release software updates and support
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 fly key-factor text-center">
+                <div class="key-factor-block fly">
+                    <span class="key-factor-title">
+                        Available to both Linaro Member and non-Member companies
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row padded-row" id="services">
+        <div class="container">
             <h2 class="text-center fly">Developer Services</h2>
             <div class="honeycomb">
                 <div class="ibws-fix">
