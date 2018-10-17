@@ -6,6 +6,9 @@ layout: empty
 permalink: /services/
 js-package: membership
 css-package: services
+image:
+    name: LinaroDSVertical.png
+    path: /assets/images/content/LinaroDSVertical.png 
 ---
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
     <div class="row overlay" id="developer-services">
