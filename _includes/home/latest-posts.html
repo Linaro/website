@@ -1,0 +1,51 @@
+<div class="row" id="latest-posts">
+    <div class="container"><!--Start Container-->
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading text-center">Latest News</div>        
+                <!-- List group -->
+                <ul class="list-group">
+                    {% for news in site.categories.News limit: 10 %}
+                        <a href="{{news.url}}">
+                            <li class="list-group-item fly">{{news.title}}</li>
+                        </a>
+                    {% endfor %}
+                    <a href="/news/">
+                        <li class="list-group-item list-group-item-success text-center">More News</li>
+                    </a>            
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading text-center">Latest Blogs</div>        
+                <!-- List group -->
+                <ul class="list-group">
+                    {% for blog in site.categories.blog limit: 10 %}
+                        <a href="{{blog.url}}">
+                            <li class="list-group-item fly">{{blog.title}}</li>
+                        </a>
+                    {% endfor %}
+                    <a href="/blog/">
+                        <li class="list-group-item list-group-item-success text-center">More Blogs</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading text-center">Latest 96Boards Blogs</div>        
+                <!-- List group -->
+                <ul class="list-group">
+                    <div id="boards-blogs"></div>
+                    <a href="https://www.96boards.org/blog/">
+                        <li class="list-group-item list-group-item-success text-center">More Blogs</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
