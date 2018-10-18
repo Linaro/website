@@ -2,22 +2,24 @@
 title: Linaro at Arm Techcon
 author: linaro
 layout: post
-date: 2018-10-11 09:00:00+00:00
+date: 2018-10-15 09:00:00+00:00
 description: >-
   Linaro is sponsoring the Networking Lounge at Arm Techcon.
 categories: Blog
+image:
+  featured: true
+  name: Opensourcecollaborationtshirt.jpg
+  path: /assets/images/blog/Opensourcecollaborationtshirt.jpg
 tags: Linaro, Arm, Synquacer, Machine Intelligence, Machine Learning, Arm NN, 96Boards, MiniNodes, Developer Box, Socionext, open source
 ---
 
 ## Technical panel discussion, machine intelligence and lots of demos
 
-Linaro Connect Vancouver 2018 ended two weeks ago and in a few days time we’re at Arm Techcon. Linaro will be hosting the networking lounge again (booth 1321), presenting a panel discussion and showcasing some great demos. Make sure to come see us at the booth where you can:
-
-{% include image.html name="MachineIntelligenceIcon.png" alt="Machine Intelligence Initiative"%}
+Linaro Connect Vancouver 2018 ended three weeks ago and tomorrow we’re at Arm Techcon. Linaro will be hosting the networking lounge again (booth 1321), presenting a panel discussion and showcasing some great demos. Make sure to come see us at the booth where you can:
 
 **Talk to us about Machine Intelligence**
 
-Two weeks ago Linaro announced the launch of the Machine Intelligence Initiative, the aim of which is to collaborate to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem. Arm is supporting this new initiative with engineering resources and by opening up Arm’s Neural Network (NN) inference engine to external contributions. Andrea Gallo, who heads up this inititiative at Linaro will be at Arm Techcon so make sure to pop by the booth to find out how to collaborate with Linaro on Machine Intelligence on Arm.
+Three weeks ago Linaro announced the launch of the Machine Intelligence Initiative, the aim of which is to collaborate to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem. Arm is supporting this new initiative with engineering resources and by opening up the [Arm NN](https://developer.arm.com/products/processors/machine-learning/arm-nn) inference engine and software developer kit to external contributions. Andrea Gallo, who heads up this inititiative at Linaro will be at Arm Techcon so make sure to pop by the booth to find out how to collaborate with Linaro on Machine Intelligence on Arm.
 
 At Linaro Connect Vancouver 2018, Jem Davies from Arm gave a [keynote on Enabling Machine Learning with Open Standards](https://connect.linaro.org/resources/yvr18/yvr18-300k2/). To get a brief summary on his keynote, check out [this interview with Charbax](https://www.youtube.com/watch?v=VYY6RbrzEr8). Jem will also be giving a keynote at Arm Techcon on the future of AI and how Arm is helping enable the device revolution around AI. Robert Elliott from Arm presented a session at Linaro Connect Vancouver 2018 around Arm NN, something he will do again at Arm Techcon. In this talk Robert will look at real-world use cases of Arm’s ML software offerings as well as review the roadmap for Arm NN. For more information on keynotes, technical sessions, panel discussions, and hands-on developer workshops on the hottest topics in AI, check out [Arm’s ML blog](https://community.arm.com/company/b/blog/posts/machine-learning-at-arm-techcon-2018).
 
@@ -45,3 +47,4 @@ Linaro’s VP of Engineering Mark Orvek will moderate a panel discussing whether
 Uniquely in the Arm ecosystem, there is the collision of two worlds: the well-established embedded world of often bespoke platforms, stacks, and tools, and the arriving world of open-source software frameworks, often originating on commodity hardware. This session looks at this collision and asks if this meeting of open source and proprietary innovation has to be a zero-sum game.
 
 Lots of Linaro activity at Arm Techcon - make sure to stop by!
+
