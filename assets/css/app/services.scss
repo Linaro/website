@@ -1,0 +1,503 @@
+//Membership Page
+.mk-svg-icon.small {
+    height: 16px !important;
+    width: 16px !important;
+}
+.members-svg {
+    display: inline-block;
+    margin-right: 4px;
+    fill: $brand-primary;
+    position: relative;
+    top: 2px;
+}
+
+.members-links {
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.members-img {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+}
+
+.col-md-12.members-panel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    clear: both;
+}
+
+#content-container h1 {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#content-container h2 {
+    text-align: center;
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#accordion .panel-body {
+    padding: 20px;
+}
+
+#wrapper .panel-heading {
+    border: 0;
+    text-align: center;
+    border-radius: 0;
+}
+
+#wrapper .panel.panel-default {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.vcenter-img:hover {
+    opacity: 0.2;
+    border: 1px solid #ccc;
+}
+
+#wrapper .panel-heading a {
+    color: #000;
+}
+
+.advisory-board {
+    clear: both;
+}
+
+div#key-factors {
+    background-color: #f3f3f3;
+}
+div#services {
+    background-color: #e8e8e8;
+}
+
+span.key-factor-title {
+    font-size: 20px;
+    position: relative;
+    top: 36%;
+    color: #000;
+}
+
+span.bold {
+    font-weight: bold;
+    color: #fff;
+}
+
+.key-factor-block {
+    padding: 10px;
+    background-color: #fff;
+    height: 180px;
+    margin-top: 23px;
+    border: 1px solid #a9a9a9;
+    -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+}
+
+@media(max-width: $screen-sm-min - 1) {
+    .key-factor-block {
+        height: 80px;
+    }
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 0;
+}
+
+#developer-services h1 {
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+
+#developer-services p {
+    color: white;
+    width: 60%;
+    font-size: 40px;
+    top: -55px;
+    position: relative;
+}
+.project-image {
+    height: 50px;
+}
+
+.item.project-item {
+    padding: 10px;
+}
+
+#key-factors h2.text-center, #services h2.text-center {
+    color: #505050;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px;
+}
+
+div#developer-services-container {
+    background-position-y: -100px;
+}
+
+.member {
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 400ms ease;
+}
+
+.member:hover {
+    opacity: .2;
+}
+
+.col-xs-6.col-sm-3.col-lg-2.member-col {
+    padding: 10px;
+}
+
+.linaro-members,
+.boards-members {
+    border: 1px solid #eee;
+}
+
+.col-xs-6.col-sm-3.col-lg-2.member-col {
+    padding: 10px;
+}
+
+h2.text-center {
+    margin-top: 0px;
+}
+
+div#membership-levels {
+    background-color: #f1f1f1;
+}
+
+.container.boards-members {
+    margin-top: 20px;
+}
+
+.container.linaro-members {
+    margin-top: 20px;
+}
+
+.linaro-members h2.text-center {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.boards-members h2.text-center {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.cognito {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media(max-width: $screen-sm-min - 1) {
+    .cognito {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tooltip-inner {
+        max-width: 350px;
+        /* If max-width does not work, try using width instead */
+        width: 100%;
+    }
+    #developer-services h1 {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    #developer-services p {
+        color: white;
+        width: 100%;
+        font-size: 30px;
+        top: -23px;
+    }
+    .tooltip {
+        font-size: 14px;
+    }
+    span.key-factor-title {
+        font-size: 14px;
+        position: relative;
+        top: 20%;
+        transform: translateY(-50%);
+    }
+    .member {
+        background-size: contain;
+        height: 75px;
+    }
+}
+
+.key-factor-block {
+    transition: all 200ms linear;
+}
+
+.key-factor-block:hover {
+    opacity: .2;
+}
+
+.tooltip {
+    font-size: 20px;
+}
+
+.item.project-item {
+    transition: all 200ms ease;
+}
+
+.item.project-item:hover {
+    opacity: .2;
+}
+
+#projects h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+div#projects {
+    padding-bottom: 25px;
+}
+
+// Developer Services Hexagons
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+.hexagon {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 18px;
+  background-color: #dadada;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon, .hexagon::before, .hexagon::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 0%/5%;
+}
+.hexagon::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexagon:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;
+}
+.hexagon:hover {
+  background-color: #d2033a;
+  cursor: pointer;
+  z-index: 105;
+}
+.hexagon:active {
+  background-color: #d2033a;
+  z-index: 110;
+}
+.hexanone {
+  position: relative;
+  display: inline-block;
+  width: 67px;
+  height: 116px;
+  margin: 1px 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hexanone:nth-child(even) {
+  top: 59px;
+}
+.hexagontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140%;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  z-index: 100;
+}
+.ibws-fix {
+  /* inline-block whitespace fix */
+  font-size: 0;
+}
+.honeycomb {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.hexagon img.img-responsive {
+    z-index: 3;
+    position: relative;
+    top: 0px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:560px){
+    .hexagon {
+        position: static;
+    }
+}
+
+// Equal bootstrap colums in 5ths
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/*
+ BUTTON STYLING
+*/
+@media(max-width:$screen-sm-min) {
+    #contact-btn .btn {
+        width: 100%;
+    }
+}
+div#contact-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contact-btn .btn {
+    position: relative;
+    color: white;
+    width: 256px;
+    height: 67px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #a3d23a;
+    transition: all 0.3s;
+
+    span {
+        transition: all 0.3s;
+        tranform: scale(1, 1);
+    }
+}
+
+#contact-btn .btn::after,
+#contact-btn .btn::before {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+/* BTN TWO */
+#contact-btn .btn-two::after,
+#contact-btn .btn-two::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#contact-btn .btn-two:hover::after {
+    animation-name: rotatecw;
+    animation-duration: 2s;
+}
+
+#contact-btn .btn-two:hover::before {
+    animation-name: rotateccw;
+    animation-duration: 3s;
+}
+
+#contact-btn .btn-two:hover::after,
+#contact-btn .btn-two:hover::before {
+    left: 96px;
+    width: 64px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotatecw {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateccw {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}

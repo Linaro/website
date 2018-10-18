@@ -1,10 +1,10 @@
 ---
 service_id: 3
-layout: developer-services
 title: Kernels and Long Term Support Services
 short_name: Kernels - LTS
 permalink: /services/kernel-lts/
 keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr
+icon: /assets/images/content/DeveloperServices-icons_kernels.svg
 ---
 Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
 

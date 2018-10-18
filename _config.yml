@@ -115,7 +115,10 @@ defaults:
         path: ""
         type: "services"
     values:
-        layout: developer-services
+        layout: developer-services-layout
+        image:
+            name: LinaroDSVertical.png
+            path: /assets/images/content/LinaroDSVertical.png
   - scope:
         path: ""
         type: "incubators"

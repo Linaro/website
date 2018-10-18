@@ -96,9 +96,30 @@ pages:
                   url: /engineering/projects/lava/
                 - text: LSK
                   url: /engineering/projects/lsk/
-
     - title: Services
-      url: /services/
+      options:
+          - text: Overview
+            url: /services/
+          - text: Security
+            url: /services/security/
+          - text: Bootloaders
+            url: /services/bootloaders/
+          - text: Kernels and Long Term Support
+            url: /services/kernel-lts/
+          - text: BSP’s, Builds and Support
+            url: /services/bsp-builds-support/
+          - text: Power Management Tuning
+            url: /services/power-management/
+          - text: 96Boards
+            url: /services/96boards/
+          - text: Toolchain Optimization
+            url: /services/toolchain-optimization-services/
+          - text: Open Source Consultancy
+            url: /services/open-source-consultancy/
+          - text: Testing and Validation
+            url: /services/testing-validation-services/
+          - text: Hands on Training
+            url: /services/hands-on-training/
     - title: Downloads
       left: true
       options:
