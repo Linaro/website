@@ -13,7 +13,7 @@ image:
 <div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
     <div class="row overlay" id="developer-services">
         <div class="container text-center">
-            <img data-src="/assets/images/content/LinaroDSVerticalAlt2.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  class="center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
+            <img data-src="/assets/images/content/LinaroDSVerticalAlt2.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  class="fly center-block lazyload img-responsive services-img" alt="Linaro Developer Services Logo"/>
             <p class="fly center-block">
                 We are the <span class="bold">Arm software experts</span>
                 and we are available to help you.
@@ -184,7 +184,7 @@ segment. Linaro Developer Services make that expertise available to you for use 
         <div class="container text-center">
             <h2>Get in Touch.</h2>
             <div class="get-in-touch" id="contact-btn">
-                <a  href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="btn btn-primary btn-two">Contact Us</a>
+                <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="fly btn btn-primary btn-two">Contact Us</a>
             </div>
         </div>
     </div>
