@@ -285,6 +285,7 @@ div#projects {
   text-align: center;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid white;
 }
 .hexagon, .hexagon::before, .hexagon::after {
   /* easy way: height is width * 1.732
@@ -303,6 +304,8 @@ div#projects {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 .hexagon::after {
   background-color: inherit;
@@ -313,6 +316,8 @@ div#projects {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 .hexagon:nth-child(even) {
   /* top approx. 50% of .hexagon height + spacing */
@@ -500,4 +505,15 @@ div#contact-btn {
     to {
         transform: rotate(-360deg);
     }
+}
+img.fly.center-block.img-responsive.services-img {
+    width: 400px;
+}
+.key-factor-block.fly.show-block {
+    background-color: #434343;
+    color: white;
+}
+.key-factor-block.fly.show-block > span {
+    color: white;
+    font-weight: bold;
 }
