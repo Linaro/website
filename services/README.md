@@ -79,7 +79,7 @@ image:
             <h2 class="text-center fly">Developer Services</h2>
             <div class="honeycomb">
                 <div class="ibws-fix">
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with Trustzone, porting OP-TEE and working with Trusted Applications.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Security Services - Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with Trustzone, porting OP-TEE and working with Trusted Applications.">
                         <div class="hexagontent">
                             <a href="/services/security/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
@@ -87,7 +87,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Bootloader Services - Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform.">
                         <div class="hexagontent">
                             <a href="/services/bootloaders/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
@@ -95,7 +95,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Kernel Services - Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.">
                         <div class="hexagontent">
                             <a href="/services/kernel-lts/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
@@ -103,7 +103,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Build Services - Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.">
                         <div class="hexagontent">
                             <a href="/services/bsp-builds-support/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
@@ -111,7 +111,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Power Services - Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.">
                         <div class="hexagontent">
                             <a href="/services/power-management/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
@@ -121,7 +121,7 @@ image:
                     </div>
                 </div>
                 <div class="ibws-fix">
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services has a wealth of experience with Linaro’s 96Boards program. We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="96Boards Services - Linaro Developer Services has a wealth of experience with Linaro’s 96Boards program. We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.">
                         <div class="hexagontent">
                             <a href="/services/96boards/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
@@ -129,7 +129,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Toolchain Optimization Services - Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).">
                         <div class="hexagontent">
                             <a href="/services/toolchain-optimization-services/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
@@ -137,7 +137,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Developer Services has extensive experience successfully building working relationships with open source communities.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Open Source Consultancy Services - Developer Services has extensive experience successfully building working relationships with open source communities.">
                         <div class="hexagontent">
                             <a href="/services/open-source-consultancy/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
@@ -145,7 +145,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services provides comprehensive continuous integration (CI) testing for client’s development and product software">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Testing and Validation Services - Linaro Developer Services provides comprehensive continuous integration (CI) testing for client’s development and product software">
                         <div class="hexagontent">
                             <a href="/services/testing-validation-services/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
@@ -153,7 +153,7 @@ image:
                             </a>
                         </div>
                     </div>
-                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Linaro Developer Services provides customized training on a variety of topics.">
+                    <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Hands on Training Services - Linaro Developer Services provides customized training on a variety of topics.">
                         <div class="hexagontent">
                             <a href="/services/hands-on-training/">
                                 <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
