@@ -10,10 +10,23 @@ var sources = [
     "https://www.op-tee.org"
 ];
 
+function sortResults(data, prop, asc) {
+    var return_data = data.sort(function(a, b) {
+        if (asc) {
+            return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+        } else {
+            return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+        }
+    });
+    return return_data;
+}
+
+
 function func(jsonData){
     if(counter == (sources.length - 1)){
         allJSONData = allJSONData.concat(jsonData);
-        addLatestNewsAndBlogs(allJSONData);
+        var sorted_data = sortResults(allJSONData, "date_submitted", false);
+        addLatestNewsAndBlogs(sorted_data);
     }
     else{
         allJSONData = allJSONData.concat(jsonData);
@@ -22,12 +35,12 @@ function func(jsonData){
 }
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestNewsAndBlogs(allJSONData){
-    console.log(data);
+    console.log(allJSONData);
     var listElements = '';
     var len = allJSONData.length;
     for(var i=0;i<len;i++){
-        blogEntry = allJSONData[i];
-        listElements += '<a target="_blank" href="' + blogEntry.url +'"><li class="list-group-item fly">' + blogEntry.title + '</li></a>';
+        post = allJSONData[i];
+        listElements += '<a target="_blank" href="' + post.url +'"><li class="list-group-item fly">' + post.title + ' - ' + post.date_published + ' - ' + post.site + '</li></a>';
     }
     console.log(listElements);
     $("#all-news-and-blogs").html(listElements);
