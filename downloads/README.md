@@ -133,6 +133,6 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 ***
 
-Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these from [Launchpad](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
+Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
 
 ***

@@ -1,0 +1,16 @@
+input#search-query {
+    margin-bottom: 10px;
+}
+th.filter:hover {
+    background-color:#5a7b00;
+    cursor: pointer;
+}
+th.filter {
+    transition: all 100ms ease;
+}
+#results img.img-responsive {
+    width: 20px;
+}
+#results img.img-responsive {
+    width: 40px;
+}
