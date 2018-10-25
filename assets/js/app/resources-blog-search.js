@@ -21,7 +21,7 @@ function listResults(json_data) {
         interpolate : /\{\{(.+?)\}\}/g
     };  
     // Specify a new html _.template
-    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">{{post_url}}</a></td><td><a href="{{post_site}}">View post</a></td></tr>');
+    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">View post</a></td><td><a href="{{post_site}}">View post</a></td></tr>');
     // Get the search query val which we are searching for.
     var search = $('#search-query').val();
     // Fuzzy search options
