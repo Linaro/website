@@ -45,7 +45,7 @@ function listResults(json_data) {
         // Check if the author is set and if not then replace with stripped url.
         var author = result.original.author;
         if(author === "undefined" || author == ""){
-            author = result.url.replace(/(^\w+:|^)\/\//, '');
+            author = result.original.url.replace(/(^\w+:|^)\/\//, '');
         }
         return listItemTemplate({
          post_url: result.original.url
