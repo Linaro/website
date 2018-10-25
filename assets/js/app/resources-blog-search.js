@@ -21,7 +21,7 @@ function listResults(json_data) {
         interpolate : /\{\{(.+?)\}\}/g
     };  
     // Specify a new html _.template
-    var listItemTemplate = _.template('<a href="{{post_url}}" target="_blank"><tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_site}}">{{post_site}}</a></td></tr></a>');
+    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">{{post_url}}</a></td><td><a href="{{post_site}}">View post</a></td></tr>');
     // Get the search query val which we are searching for.
     var search = $('#search-query').val();
     // Fuzzy search options
@@ -45,7 +45,7 @@ function listResults(json_data) {
         // Check if the author is set and if not then replace with stripped url.
         var author = result.original.author;
         if(author === "undefined" || author == ""){
-            author = result.original.url.replace(/(^\w+:|^)\/\//, '');
+            author = result.original.site.replace(/(^\w+:|^)\/\//, '');
         }
         return listItemTemplate({
          post_url: result.original.url
@@ -87,14 +87,13 @@ function addLatestNewsAndBlogs(results_data, number_of_items){
         if(author === "undefined" || author == ""){
             author = post.url.replace(/(^\w+:|^)\/\//, '');
         }
-        tableRow += '<a href="' + post.url + '">';
         tableRow += '<tr>';
         tableRow += '<td>' + post.title + '</td>';
         tableRow += '<td>' + post.author + '</td>';
         tableRow += '<td>' + post.date_published + '</td>';
+        tableRow += '<td><a href="' + post.url + '">View post</a></td>';
         tableRow += '<td><a href="' + post.site + '">' + post.site + '</a></td>';
         tableRow += '</tr>';
-        tableRow += '</a>';
     }
     $("#results").html(tableRow);
 }
