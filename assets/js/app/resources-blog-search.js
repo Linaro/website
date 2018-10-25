@@ -16,6 +16,20 @@ function extractDateString(dateString) {
     var arr = rx.exec(dateString);
     return arr[0]; 
 }
+function formatDate(date) {
+    var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
+  
+    var day = date.getDate();
+    var monthIndex = date.getMonth();
+    var year = date.getFullYear();
+  
+    return day + ' ' + monthNames[monthIndex] + ' ' + year;
+  }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
@@ -39,7 +53,7 @@ function listResults(json_data) {
       // function that is called on each element in the array to extract the
       // string to fuzzy search against. In this case, element.dir
       , extract: function(entry) {
-          return entry.title;
+            return entry.title + '::' + entry.author;
         }
     }
     // Filter!
@@ -52,11 +66,14 @@ function listResults(json_data) {
         if(author == "undefined" || author == ""){
             author = result.original.site.replace(/(^\w+:|^)\/\//, '');
         }
-        var formatted_date = extractDateString(result.original.date_published);
+        else{
+            author = items[1];
+        }
+        var formatted_date = formatDate(Date.parse(extractDateString(result.original.date_published)));
         var formatted_site = result.original.site.replace(/(^\w+:|^)\/\//, '');
         return listItemTemplate({
          post_url: result.original.url
-        , post_title: result.string
+        , post_title: items[0]
         , post_author: author
         , post_date_published: formatted_date
         , post_site: result.original.site
