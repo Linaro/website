@@ -81,3 +81,48 @@ li.list-group-item.list-group-item-success.text-center:hover {
 li.list-group-item.fly.show-block {
     height: 60px;
 }
+// Latest News list css
+.post-site img.img-responsive {
+    width: auto;
+    display: inline-block;
+    height: 40px;
+}
+
+span.post-title {
+    width: 80%;
+    position: relative;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+}
+
+li.list-group-item.fly.show-block {
+    padding: 0px;
+}
+
+span.post-site {
+    width: 20%;
+    display: block;
+    float: right;
+    padding: 10px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+li.list-group-item.fly.show-block {
+    height: 60px;
+}
+
+span.post-date {
+    width: 80%;
+    position: relative;
+    /* display: block; */
+    padding-left: 10px;
+    font-size: 10px;
+    height: 20px;
+    overflow: hidden;
+}
