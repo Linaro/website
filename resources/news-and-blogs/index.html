@@ -1,7 +1,7 @@
 ---
 title: Linaro News & Blogs
 description: >-
-Search and filter our news and blog posts from all of our sites.
+    Search and filter the news and blog posts from all of our sites.
 layout: empty
 permalink: /resources/news-and-blogs/
 js-package: blog-search
@@ -23,6 +23,9 @@ css-package: resources
     <div class="row hub-row">
         <!--Start Row-->
         <div class="container">
+            <p>
+                Displaying results <span id="result_size"></span> of <span id="size"></span>
+            </p>
             <input type="text" class="form-control" placeholder="Search..." id="search-query">
             <!--Start Container-->
             <table class="table table-bordered">
@@ -34,16 +37,7 @@ css-package: resources
                         <th>Source</th>
                     </tr>
                 </thead>
-                <tbody id="results">
-                    <a href="https://www.op-tee.org/blog/security-session-highlights-from-hkg18/">
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Security Session Highlights from HKG18</td>
-                            <td>Otto</td>
-                            <td><a href="https://www.op-tee.org">OP-TEE</a></td>
-                        </tr>
-                    </a>
-                </tbody>
+                <tbody id="results"></tbody>
             </table>
         </div>
     </div>
