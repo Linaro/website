@@ -11,25 +11,18 @@ var sources = [
     "https://www.opendataplane.org",
     ""
 ];
+var site_logos = {
+    "https://www.96boards.org":"/assets/images/content/96boards-vertical-logo.png",
+    "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
+    "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
+    "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
+    "http://localhost:4001":"/assets/images/content/linaro-logo.png"
+};
 function extractDateString(dateString) {
     var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
     var arr = rx.exec(dateString);
     return arr[0]; 
 }
-function formatDate(date) {
-    var monthNames = [
-      "January", "February", "March",
-      "April", "May", "June", "July",
-      "August", "September", "October",
-      "November", "December"
-    ];
-  
-    var day = date.getDate();
-    var monthIndex = date.getMonth();
-    var year = date.getFullYear();
-  
-    return day + ' ' + monthNames[monthIndex] + ' ' + year;
-  }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
@@ -41,7 +34,7 @@ function listResults(json_data) {
         interpolate : /\{\{(.+?)\}\}/g
     };  
     // Specify a new html _.template
-    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">View post</a></td><td><a href="{{post_site}}">{{post_site_formatted}}</a></td></tr>');
+    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">View post</a></td><td><a href="{{post_site}}"><img class="img-responsive" src="{{site_image}}"/></a></td></tr>');
     // Get the search query val which we are searching for.
     var search = $('#search-query').val();
     // Fuzzy search options
@@ -69,8 +62,9 @@ function listResults(json_data) {
         else{
             author = items[1];
         }
-        var formatted_date = formatDate(Date.parse(extractDateString(result.original.date_published)));
+        var formatted_date = extractDateString(result.original.date_published);
         var formatted_site = result.original.site.replace(/(^\w+:|^)\/\//, '');
+        var site_image = site_logos[result.original.site];
         return listItemTemplate({
          post_url: result.original.url
         , post_title: items[0]
@@ -78,13 +72,13 @@ function listResults(json_data) {
         , post_date_published: formatted_date
         , post_site: result.original.site
         , post_site_formatted: formatted_site
+        , site_image: site_image
         });
     });
     // Append results to the results html container
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
 }
-
 // This function handles the jsonp data we receive
 function func(jsonData){
     if(counter == (sources.length - 1)){
@@ -101,7 +95,6 @@ function func(jsonData){
         counter += 1;
     }
 }
-
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestNewsAndBlogs(results_data, number_of_items){
     $('#result_size').html(results_data.length);
@@ -112,17 +105,17 @@ function addLatestNewsAndBlogs(results_data, number_of_items){
         if(author === "undefined" || author == ""){
             author = post.url.replace(/(^\w+:|^)\/\//, '');
         }
+        var site_image = site_logos[post.site];
         tableRow += '<tr>';
         tableRow += '<td>' + post.title + '</td>';
         tableRow += '<td>' + post.author + '</td>';
-        tableRow += '<td>' + post.date_published + '</td>';
+        tableRow += '<td>' + extractDateString(post.date_published) + '</td>';
         tableRow += '<td><a href="' + post.url + '">View post</a></td>';
-        tableRow += '<td><a href="' + post.site + '">' + post.site + '</a></td>';
+        tableRow += '<td><a href="' + post.site + '"><img class="img-responsive" src="'+ site_image + '"/></a></td>';
         tableRow += '</tr>';
     }
     $("#results").html(tableRow);
 }
-
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
