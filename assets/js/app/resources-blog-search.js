@@ -1,4 +1,4 @@
-// This array stores the concatenated jsonp data
+// This global array stores the concatenated and sorted jsonp data
 var allJSONData = []
 // The counter variable counts the number of times results are added to the allJSONData array
 // so we know when to process the concatenated data.
@@ -8,67 +8,97 @@ var sources = [
     "https://www.96boards.org",
     "https://www.trustedfirmware.org",
     "https://www.op-tee.org",
-    "https://www.opendataplane.org/"
+    "https://www.opendataplane.org"
 ];
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
 }
-// Fuse Search Setup
-function fuse_setup(json_data){
+// Fuzzy Search Setup
+function listResults(json_data) {
+    // Define the underscore.js template settings.
+    _.templateSettings = {
+        interpolate : /\{\{(.+?)\}\}/g
+    };  
+    // Specify a new html _.template
+    var listItemTemplate = _.template('<a href="{{post_url}}" target="_blank"><tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_site}}">{{post_site}}</a></td></tr></a>');
+    // Get the search query val which we are searching for.
+    var search = $('#search-query').val();
+    // Fuzzy search options
     var options = {
-        shouldSort: true,
-        tokenize: true,
-        threshold: 0.6,
-        location: 0,
-        distance: 100,
-        maxPatternLength: 32,
-        minMatchCharLength: 1,
-        keys: [
-          "title",
-          "url",
-          "author",
-          "summary"
-      ]
-      };
-    // Instantiate the Fuse javascript class.
-    var fuse = new Fuse(json_data, options); // "list" is the item array
-    // Wait for input change and then filter results based on value
-    $('#search-query').on('input',function(e){
-        var result = fuse.search($(this).val());
-        // Add results to table
-        addLatestNewsAndBlogs(result, result.length);
+        pre: "<b>"
+      , post: "</b>"
+
+      // Each element in the data is an object, not a string. We can pass in a
+      // function that is called on each element in the array to extract the
+      // string to fuzzy search against. In this case, element.dir
+      , extract: function(entry) {
+          return entry.title;
+        }
+    }
+    // Filter!
+    var filtered = fuzzy.filter(search, json_data, options);
+    // Map the results to the html we want generated
+    var results = filtered.map(function(result){
+        console.log(result);
+        var items = result.string.split('::');
+        // Check if the author is set and if not then replace with stripped url.
+        var author = result.original.author;
+        if(author === "undefined" || author == ""){
+            author = result.url.replace(/(^\w+:|^)\/\//, '');
+        }
+        return listItemTemplate({
+         post_url: result.original.url
+        , post_title: result.string
+        , post_author: author
+        , post_date_published: result.original.date_published
+        , post_site: result.original.site
+        });
     });
+    console.log(filtered);
+    // Append results to the results html container
+    $('#results').html(results.join(''));
 }
+
 // This function handles the jsonp data we receive
 function func(jsonData){
     if(counter == (sources.length - 1)){
         allJSONData = allJSONData.concat(jsonData);
         var sorted_data = allJSONData.sort(sort_by_date);
         addLatestNewsAndBlogs(sorted_data, sorted_data.length);
+        allJSONData = sorted_data;
+        // Add the size of the results
+        $('#size').html(sorted_data.length);
+        // Run function on each keyup event triggered by the search input
     }
     else{
         allJSONData = allJSONData.concat(jsonData);
         counter += 1;
     }
 }
+
 // Process all JSON, get the latest news and blog posts and add to the list.
-function addLatestNewsAndBlogs(allJSONData, number_of_items){
-    console.log(allJSONData);
+function addLatestNewsAndBlogs(results_data, number_of_items){
+    $('#result_size').html(results_data.length);
     var tableRow  = '';
     for(var i=0;i<number_of_items;i++){
-        post = allJSONData[i];
+        post = results_data[i];
+        var author = post.author;
+        if(author === "undefined" || author == ""){
+            author = post.url.replace(/(^\w+:|^)\/\//, '');
+        }
         tableRow += '<a href="' + post.url + '">';
         tableRow += '<tr>';
-        tableRow += '<th scope="row">' + i + '</th>';
         tableRow += '<td>' + post.title + '</td>';
         tableRow += '<td>' + post.author + '</td>';
+        tableRow += '<td>' + post.date_published + '</td>';
         tableRow += '<td><a href="' + post.site + '">' + post.site + '</a></td>';
         tableRow += '</tr>';
         tableRow += '</a>';
     }
     $("#results").html(tableRow);
 }
+
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
@@ -85,6 +115,9 @@ $(document).ready(function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
+            $('#search-query').keyup(function(){
+                listResults(allJSONData);
+            });
         }
     }
     else{
