@@ -34,13 +34,13 @@ $(document).ready(function(){
         ssl: false,
         });
         
-        $("#rss-feed-6").rss("http://blog.einval.com/linaro/index.rss",
-        {
-        entryTemplate: entryTemp,
-        layoutTemplate: layoutTemp,
-        dateFormat: 'MMMM Do, YYYY',
-        ssl: false,
-        });
+        // $("#rss-feed-6").rss("http://blog.einval.com/linaro/index.rss",
+        // {
+        // entryTemplate: entryTemp,
+        // layoutTemplate: layoutTemp,
+        // dateFormat: 'MMMM Do, YYYY',
+        // ssl: false,
+        // });
         
         $("#rss-feed-7").rss("http://nerdrambles.wordpress.com/category/Linaro/feed/",
         {
