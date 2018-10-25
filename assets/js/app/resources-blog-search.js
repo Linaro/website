@@ -10,6 +10,11 @@ var sources = [
     "https://www.op-tee.org",
     "https://www.opendataplane.org"
 ];
+function extractDateString(dateString) {
+    var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
+    var arr = rx.exec(dateString);
+    return arr[1]; 
+}
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
@@ -47,11 +52,12 @@ function listResults(json_data) {
         if(author === "undefined" || author == ""){
             author = result.original.site.replace(/(^\w+:|^)\/\//, '');
         }
+        var formatted_date = extractDateString(result.original.date_published);
         return listItemTemplate({
          post_url: result.original.url
         , post_title: result.string
         , post_author: author
-        , post_date_published: result.original.date_published
+        , post_date_published: formatted_date
         , post_site: result.original.site
         });
     });
