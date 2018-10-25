@@ -9,7 +9,7 @@ var sources = [
     "https://www.96boards.org",
     "https://www.trustedfirmware.org",
     "https://www.op-tee.org",
-    "https://www.opendataplane.org/"
+    "https://www.opendataplane.org"
 ];
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
