@@ -8,12 +8,13 @@ var sources = [
     "https://www.96boards.org",
     "https://www.trustedfirmware.org",
     "https://www.op-tee.org",
-    "https://www.opendataplane.org"
+    "https://www.opendataplane.org",
+    ""
 ];
 function extractDateString(dateString) {
     var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
     var arr = rx.exec(dateString);
-    return arr[1]; 
+    return arr[0]; 
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
@@ -26,7 +27,7 @@ function listResults(json_data) {
         interpolate : /\{\{(.+?)\}\}/g
     };  
     // Specify a new html _.template
-    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">View post</a></td><td><a href="{{post_site}}">View post</a></td></tr>');
+    var listItemTemplate = _.template('<tr><td>{{post_title}}</td><td>{{post_author}}</td><td>{{post_date_published}}</td><td><a href="{{post_url}}">View post</a></td><td><a href="{{post_site}}">{{post_site_formatted}}</a></td></tr>');
     // Get the search query val which we are searching for.
     var search = $('#search-query').val();
     // Fuzzy search options
@@ -45,24 +46,25 @@ function listResults(json_data) {
     var filtered = fuzzy.filter(search, json_data, options);
     // Map the results to the html we want generated
     var results = filtered.map(function(result){
-        console.log(result);
         var items = result.string.split('::');
         // Check if the author is set and if not then replace with stripped url.
         var author = result.original.author;
-        if(author === "undefined" || author == ""){
+        if(author == "undefined" || author == ""){
             author = result.original.site.replace(/(^\w+:|^)\/\//, '');
         }
         var formatted_date = extractDateString(result.original.date_published);
+        var formatted_site = result.original.site.replace(/(^\w+:|^)\/\//, '');
         return listItemTemplate({
          post_url: result.original.url
         , post_title: result.string
         , post_author: author
         , post_date_published: formatted_date
         , post_site: result.original.site
+        , post_site_formatted: formatted_site
         });
     });
-    console.log(filtered);
     // Append results to the results html container
+    $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
 }
 
