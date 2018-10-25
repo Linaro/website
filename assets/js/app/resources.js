@@ -8,9 +8,9 @@ var counter = 0;
 var sources = [
     "https://www.96boards.org",
     "https://www.trustedfirmware.org",
-    "https://www.op-tee.org"
+    "https://www.op-tee.org",
+    "https://www.opendataplane.org/"
 ];
-
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
@@ -54,8 +54,6 @@ $(document).ready(function () {
             // JSONP url
             var jsonp_url = sources[i] + "/assets/json/posts.json?callback=func";
             // Add the JSONP to a script element
-            console.log("Adding script element");
-            console.log(jsonp_url);
             // Create a new script element and set the type and src
             script = document.createElement("script");
             script.type = "text/javascript";
