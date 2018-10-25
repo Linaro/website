@@ -4,7 +4,8 @@
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/owl.carousel
-//= require vendor/fuse
+//= require vendor/underscore
+//= require vendor/fuzzy
 
 
 //= require app/main
