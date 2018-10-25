@@ -73,7 +73,7 @@ css-package: resources
                 -->
                 <div class="panel panel-default">
                     <!-- Default panel contents -->
-                    <div class="panel-heading text-center">Latest News &  Blogs</div>        
+                    <div class="panel-heading text-center">Latest News & Blogs</div>        
                     <!-- List group -->
                     <ul class="list-group">
                         <div id="all-news-and-blogs"></div>
@@ -115,11 +115,7 @@ css-package: resources
                     <div class="panel-heading text-center">Latest Event Resources</div>        
                     <!-- List group -->
                     <ul class="list-group">
-                        {% for news in site.categories.News limit: 10 %}
-                            <a href="{{news.url}}">
-                                <li class="list-group-item fly">{{news.title}}</li>
-                            </a>
-                        {% endfor %}
+                        <div id="event-resources"></div>
                         <a href="/news/">
                             <li class="list-group-item list-group-item-success text-center">More News</li>
                         </a>            
