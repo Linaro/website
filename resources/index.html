@@ -66,26 +66,31 @@ css-package: resources
     <div class="row hub-row"><!--Start Row-->
         <div class="container"><!--Start Container-->
             <div class="col-sm-4">
+                <!--
+                    Latest News & Blogs section
+                    Takes JSON output from all of our static sites and gets the top 10
+                    most recent blogs and posts.
+                -->
                 <div class="panel panel-default">
                     <!-- Default panel contents -->
-                    <div class="panel-heading text-center">Latest News</div>        
+                    <div class="panel-heading text-center">Latest News & Blogs</div>        
                     <!-- List group -->
                     <ul class="list-group">
-                        {% for news in site.categories.News limit: 10 %}
-                            <a href="{{news.url}}">
-                                <li class="list-group-item fly">{{news.title}}</li>
-                            </a>
-                        {% endfor %}
-                        <a href="/news/">
-                            <li class="list-group-item list-group-item-success text-center">More News</li>
-                        </a>            
+                        <div id="all-news-and-blogs"></div>
+                        <a href="/resources/news-and-blogs/">
+                            <li class="list-group-item list-group-item-success text-center">All News & Blogs</li>
+                        </a>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-default">
+                    <!--
+                        Latest Patches
+                        Takes JSON output from patches.linaro.org python script and displays the most recent patches.
+                    -->
                     <!-- Default panel contents -->
-                    <div class="panel-heading text-center">Latest Blogs</div>        
+                    <div class="panel-heading text-center">Latest Patches</div>        
                     <!-- List group -->
                     <ul class="list-group">
                         {% for blog in site.categories.blog limit: 10 %}
@@ -94,21 +99,26 @@ css-package: resources
                             </a>
                         {% endfor %}
                         <a href="/blog/">
-                            <li class="list-group-item list-group-item-success text-center">More Blogs</li>
+                            <li class="list-group-item list-group-item-success text-center">All Patches</li>
                         </a>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="panel panel-default">
+                    <!--
+                        Latest Event resources
+                        This takes the JSON output from the connect resources JSON endpoints and combines with other
+                        resources to show the latest event resources that Linaro has to offer.
+                    -->
                     <!-- Default panel contents -->
-                    <div class="panel-heading text-center">Latest 96Boards Blogs</div>        
+                    <div class="panel-heading text-center">Latest Event Resources</div>        
                     <!-- List group -->
                     <ul class="list-group">
-                        <div id="boards-blogs"></div>
-                        <a href="https://www.96boards.org/blog/">
-                            <li class="list-group-item list-group-item-success text-center">More Blogs</li>
-                        </a>
+                        <div id="event-resources"></div>
+                        <a href="/news/">
+                            <li class="list-group-item list-group-item-success text-center">All Event Resources</li>
+                        </a>            
                     </ul>
                 </div>
             </div>

@@ -83,8 +83,7 @@ css-package: planet
 
 <div class="col-sm-4 linaro-rss-feed" markdown="1">
 ### Steve McIntyre
-[blog.einval.com](https://blog.einval.com)
-<div id="rss-feed-6"></div>
+[blog.einval.com]()https://blog.einval.com
 </div>
 
 </div>
