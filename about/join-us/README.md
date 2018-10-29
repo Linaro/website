@@ -2,20 +2,48 @@
 title: Join Us
 description: |-
     If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware.
-layout: container-breadcrumb
+layout: empty
 permalink: /about/join-us/
-js-package: extended
+js-package: careers
+css-package: careers
 ---
-<div class="col-md-6" markdown="1">
-If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
-
-<div class="col-xs-12 text-center">
-    <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-sm btn-primary">View Privacy Policy</a>
-    <br>
-    <br>
-    <br>
+<div class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div style="background: url(/assets/images/content/careers-image-1.jpg) no-repeat center center fixed;"
+         class="lazyload item active">
+        </div>
+        <div style="background: url(/assets/images/content/careers-image-2.jpg) no-repeat center center fixed;" 
+        class="lazyload item">
+        </div>
+        <div style="background: url(/assets/images/content/careers-image-3.jpg) no-repeat center center fixed;" 
+        class="lazyload item">
+        </div>
+    </div>
 </div>
 
+<div class="container-fluid" id="why-join-container"  style="background-color: black;">
+<div class="row overlay padded-row" id="why-join">
+    <div class="container text-center">
+        <h1 class="fly center-block">If you have a passion for working on open source projects then you belong at Linaro.</h1>
+        <p class="fly center-block">
+            Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source.
+        </p>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid" id="content-container">
+<div class="row padded-row" id="careers">
+<div class="container">
+<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+<div class="fly">
+{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
+</div>
+</div>
+<div class="col-xs-12" markdown="1">
+
+If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
 
 <div class="col-sm-6">
     <a href="https://www.linkedin.com/company/{{site.data.company.linkedin_username}}/">    
@@ -37,12 +65,11 @@ If you have a passion for working on open source projects and being part of a co
         </div>
     </a>
 </div>
+</div>
+<div class="col-xs-12">
 
-</div>
-<div class="col-md-6">
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
-</div>
-<div class="col-md-12">
+<!--Loads job openings using the Recruiter Box JS API-->
+<div id="job-openings"></div>
 
 <script type="text/javascript" id="rbox-loader-script">
 _rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onready=cb;} }; 
@@ -56,5 +83,10 @@ _rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onre
 </script>
 
 </div>
+<div class="col-xs-12 text-center">
+    <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-sm btn-primary">View Privacy Policy</a>
+</div>
 
-
+</div><!--Container END-->
+</div><!--Row END-->
+</div><!--Fluid Container END-->
