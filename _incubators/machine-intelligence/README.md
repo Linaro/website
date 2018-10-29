@@ -11,6 +11,8 @@ The Machine Intelligence initiative at Linaro aims at collaborating to reduce fr
 
 The initial focus is on the inference side on Cortex-A application processors with Linux and Android, both edge computing and  smart devices. As part of the remit, the team will collaborate on a definition of API and modular framework for an Arm runtime inference engine architecture based on plug-ins supporting dynamic modules and optimized shared Arm compute libraries.
 
+Below are some of the Machine Intelligence related sessions from the previous [Linaro Connect](https://connect.linaro.org): 
+
 |Speaker|Company|ID|Title|
 |-------|-------|--|-----|
 |Chris Benson|AI Strategist|[YVR18- 300K2](https://youtu.be/bYSwYkmQJVo?t=1s)|Keynote: Artificial Intelligence Strategy: Digital Transformation Through Deep Learning|
