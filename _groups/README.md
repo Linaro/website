@@ -1,5 +1,5 @@
 ---
-title: Segment Groups
+title: Engineering Groups
 description: |-
     Linaro was established in 2010 to reduce fragmentation and redundant effort in open source software for mobile applications.
 keywords: Linaro, mobile, toolchain, middleware, open source, Android, code, validation, testing, Boards
