@@ -9,11 +9,11 @@ var connect_sources = [
     "https://connect.linaro.org"
 ];
 // Sort function which takes the data array, property to sort by and an asc boolean.
-function sortAlpha(a, b) {
-    if (a.title < b.title) return -1;
-    else if (a.title > b.title) return 1;
-    return 0;
-}
+// function sortAlpha(a, b) {
+//     if (a.title < b.title) return -1;
+//     else if (a.title > b.title) return 1;
+//     return 0;
+// }
 // Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
 function connects(connectsJSON){
     // Since we are just showing the top 10 resources just grab the first connect in the json output
@@ -29,7 +29,7 @@ function connects(connectsJSON){
 function connectResources(jsonData){
     if(counter == (connect_sources.length - 1)){
         allConnectJSONData = jsonData;
-        var sorted_data = allConnectJSONData.sort(sortAlpha);
+        var sorted_data = allConnectJSONData.sort();
         addLatestResources(sorted_data, 10);
     }
     else{
@@ -55,12 +55,13 @@ function addLatestResources(allConnectJSONData, number_of_items){
     console.log(allConnectJSONData);
     var listElements = '';
     for(var i=0;i<number_of_items;i++){
-        post = allConnectJSONData[i];
-        listElements += '<a target="_self" href="' + post.url +'">';
+        resource = allConnectJSONData[i];
+        var resource_image = resource.placeholder;
+        listElements += '<a target="_self" href="' + resource.url +'">';
         listElements += '<li class="list-group-item fly">';
-        listElements += '<span class="post-title">' + post.title + '</span>';
-        listElements += '<span class="post-date">' + post.date_published + '</span>';
-        listElements += '<span class="post-site">'+ post.site + '</span>';
+        listElements += '<span class="post-title">' + resource.title + '</span>';
+        listElements += '<span class="post-date">' + formatDate(Date.parse(extractDateString(resource.date_published)))  + '</span>';
+        listElements += '<span class="post-site"><img class="img-responsive" src="'+ resource_image + '"/></span>';
         listElements += '</li>';
         listElements += '</a>';
     }
