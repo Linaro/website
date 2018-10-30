@@ -9,10 +9,12 @@ var connect_sources = [
     "https://connect.linaro.org"
 ];
 // Sort function which takes the data array, property to sort by and an asc boolean.
-function sort_by_date(a, b) {
-    return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
+function sortAlpha(a, b) {
+    if (a.title < b.title) return -1;
+    else if (a.title > b.title) return 1;
+    return 0;
 }
-// Get the connects.json file then parse and loop through each connect adding the jsonp script
+// Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
 function connects(connectsJSON){
     // Since we are just showing the top 10 resources just grab the first connect in the json output
     var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[0].id.toLowerCase() + "/data.json?callback=connectResources";
@@ -26,8 +28,8 @@ function connects(connectsJSON){
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
     if(counter == (connect_sources.length - 1)){
-        allConnectJSONData = allConnectJSONData.concat(jsonData);
-        var sorted_data = allConnectJSONData.sort(sort_by_date);
+        allConnectJSONData = jsonData;
+        var sorted_data = allConnectJSONData.sort(sortAlpha);
         addLatestResources(sorted_data, 10);
     }
     else{
@@ -62,10 +64,9 @@ function addLatestResources(allConnectJSONData, number_of_items){
         listElements += '</li>';
         listElements += '</a>';
     }
+    console.log(listElements);
     $("#event-resources").html(listElements);
 }
-
-
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
