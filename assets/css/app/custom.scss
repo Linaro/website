@@ -853,11 +853,11 @@ article.post-content>.col-md-8 {
 }
 
 // CSS for the email button.
-.email {
+#wrapper .email {
     height: 50px;
     background-color: #a4d23a;
     width: 200px;
-    line-height: 46px;
+    line-height: 30px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -866,7 +866,8 @@ article.post-content>.col-md-8 {
     margin-right: auto;
     transition: all 200ms ease;
 }
-.email:hover {
+#wrapper .email:hover {
     background-color: #3a3a3a;
     border: 1px solid #000000;
+    color:white;
 }
