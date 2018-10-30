@@ -12,11 +12,10 @@ var connect_sources = [
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
 }
-
 // Get the connects.json file then parse and loop through each connect adding the jsonp script
 function connects(connectsJSON){
     // Since we are just showing the top 10 resources just grab the first connect in the json output
-    var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[i].id.toLowerCase() + "/connects.json?callback=connects";
+    var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[0].id.toLowerCase() + "/data.json?callback=connectResources";
     // Create a new script element and set the type and src
     script = document.createElement("script");
     script.type = "text/javascript";
