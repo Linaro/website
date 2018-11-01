@@ -176,3 +176,10 @@ div#careers-learning {
 nav#main-navigation {
     z-index: 999999;
 }
+#careers-about ol {
+    height: 150px;
+    overflow-y:scroll;
+}
+#careers-about ol li {
+    padding-left:10px;
+}
