@@ -5,8 +5,8 @@ date: 2018-11-01 09:00:00+00:00
 permalink: /latest/events/hpc-aisa-2019/
 css-package: arm-hpc-2019
 image:
-   path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-   name: ArmHPCWorkshopSocialMedia.png
+   path: /assets/images/content/hpc-aisa-2019-share-image.png
+   name: hpc-aisa-2019-share-image.png
 event: true
 ---
 <div class="container-fluid" id="content-container">
@@ -49,33 +49,7 @@ event: true
 
 <div class="col-sm-6" markdown="1">
 
-**Arm Architecture HPC Workshop** __by Linaro and HiSilicon  on 26th July 2018__ – At the Huawei campus in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g).
-
-**Logistics**: The workshop will be held at **Cafeteria Conference Room** in **Building C**. All outside visitors should head directly to the Linaro registration area which will be signposted. No need to go through Building B to sign in.
-
-**About**: How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
-
-*   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
-*   OS and Runtime
-*   Tools
-*   Math Libraries
-*   Orchestration
-*   Machine Learning
-
-**For End Users**: In the Arm Architecture HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
-
-**For Arm Members and Partners**: The Arm Architecture HPC Workshop is a one day conference to provide training and discussion panels for Arm-Powered solutions and offerings for all aspects of HPC including Server, Networking, Storage and Development.
-
-**You can expect**:
-
-*   Exciting best practices and technology outlooks with peers from the Arm ecosystem
-*   Unique opportunities to network with current Arm users, vendors and the developer community
-*   We are looking forward to your visit!
-
-**Arm Architecture HPC Workshop**
-
-*   Cost (Free)
-*   Sponsorship options available
+TODO Conten
 
 <div class="members" markdown="1">
 <strong>Thanks to our sponsors</strong>
