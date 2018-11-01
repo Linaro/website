@@ -159,7 +159,7 @@ div#careers-learning {
 .media-block {
     padding: 40px 100px;
 }
-@media(min-width: $screen-sm-min){
+@media(max-width: $screen-sm-min){
     .media-block {
         padding: 20px 20px;
     }
