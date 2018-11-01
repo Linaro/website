@@ -35,14 +35,14 @@ css-package: careers
 
 <div class="container-fluid">
     <div class="row" id="careers-welcome">
-        <div class="col-sm-4 video-col">
+        <div class="col-sm-6 no-padding video-col">
             <div class="media-block">
                 <div class="fly">
                 {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
                 </div>
             </div>
         </div>
-        <div class="col-sm-8 text-col">
+        <div class="col-sm-6 text-col">
             <div class="text-block">
             <h3>Why join Linaro?</h3>
                 <p>
@@ -58,7 +58,7 @@ css-package: careers
         </div>
     </div>
     <div class="row" id="careers-learning">
-        <div class="col-sm-8 text-col">
+        <div class="col-sm-6 text-col">
             <div class="text-block">
             <h3>Learning and Development</h3>
                 <p>
@@ -68,10 +68,10 @@ css-package: careers
                 </p>
             </div>
         </div>
-        <div class="col-sm-4 video-col">
+        <div class="col-sm-6 no-padding video-col">
             <div class="media-block">
                 <div class="fly">
-                {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
+                {% include media.html media_url="https://www.youtube.com/embed/14PXy15RA1Y" %}
                 </div>
             </div>
         </div>
