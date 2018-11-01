@@ -33,16 +33,55 @@ css-package: careers
 </div>
 </div>
 
+<div class="container-fluid">
+    <div class="row" id="careers-welcome">
+        <div class="col-sm-4 video-col">
+            <div class="media-block">
+                <div class="fly">
+                {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 text-col">
+            <div class="text-block">
+            <h3>Why join Linaro?</h3>
+                <p>
+                    Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="careers-about">
+        <div class="container">
+            <h3>Where are we are located.</h3>
+            {% include world-map.html %}
+        </div>
+    </div>
+    <div class="row" id="careers-learning">
+        <div class="col-sm-8 text-col">
+            <div class="text-block">
+            <h3>Learning and Development</h3>
+                <p>
+                    We put our Employees/Interns to good use. Here we will challenge you with new ways of thinking and setting
+                    targets that will make an impact on our business. If you join one of our internships we will capture
+                    your imagination, unleash the potential and help lay the foundations for a meaningful career.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 video-col">
+            <div class="media-block">
+                <div class="fly">
+                {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid" id="content-container">
 <div class="row padded-row" id="careers">
 <div class="container">
-<div class="col-xs-12 col-sm-8 col-sm-offset-2">
-<div class="fly">
-{% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
-</div>
-</div>
 <div class="col-xs-12" markdown="1">
-
 If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware. At Linaro you can advance your career working in an outstanding environment for professional growth and with a world-class team of experts on open source. Interested in a career with Linaro, please apply to one of the openings below:
 
 <div class="col-sm-6">
@@ -69,7 +108,7 @@ If you have a passion for working on open source projects and being part of a co
 <div class="col-xs-12">
 
 <!--Loads job openings using the Recruiter Box JS API-->
-<div id="job-openings"></div>
+<!-- <div id="job-openings"></div> -->
 
 <script type="text/javascript" id="rbox-loader-script">
 _rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onready=cb;} }; 
