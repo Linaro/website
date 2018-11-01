@@ -143,17 +143,19 @@ div#why-join-container {
     font-size: 15px;
 }
 div#careers-about {
-    text-align:center;
     background-color: #232323;
     color: white;
 }
 svg#employee-map {
     margin-left: auto;
     margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 div#careers-learning {
     height: auto;
     background-color:white;
+    position: relative;
 }
 
 .media-block {
@@ -163,4 +165,14 @@ div#careers-learning {
     .media-block {
         padding: 20px 20px;
     }
+}
+#content-container {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#careers-about h3 {
+    color: white;
+}
+nav#main-navigation {
+    z-index: 999999;
 }
