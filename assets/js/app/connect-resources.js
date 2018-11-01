@@ -8,12 +8,6 @@ var counter = 0;
 var connect_sources = [
     "https://connect.linaro.org"
 ];
-// Sort function which takes the data array, property to sort by and an asc boolean.
-// function sortAlpha(a, b) {
-//     if (a.title < b.title) return -1;
-//     else if (a.title > b.title) return 1;
-//     return 0;
-// }
 // Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
 function connects(connectsJSON){
     // Since we are just showing the top 10 resources just grab the first connect in the json output
@@ -27,6 +21,7 @@ function connects(connectsJSON){
 }
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
+    console.log(jsonData);
     if(counter == (connect_sources.length - 1)){
         allConnectJSONData = jsonData;
         var sorted_data = allConnectJSONData.sort();

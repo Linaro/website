@@ -124,15 +124,43 @@ div#why-join-container {
     height: auto;
     background-color:white;
 }
+.embed-responsive.embed-responsive-16by9 {
+    margin-bottom: 0px;
+}
 .media-block {
     background-color: #98ce1c;
-    padding: 40px;
+    padding: 20px;
 }
 .col-sm-4.video-col {
     background-color: #98ce1c;
-    height: 300px;
+    height: auto;
     display: block;
 }
 .text-block {
-    padding: 40px;
+    padding: 10px;
+}
+.text-block p {
+    font-size: 15px;
+}
+div#careers-about {
+    text-align:center;
+    background-color: #232323;
+    color: white;
+}
+svg#employee-map {
+    margin-left: auto;
+    margin-right: auto;
+}
+div#careers-learning {
+    height: auto;
+    background-color:white;
+}
+
+.media-block {
+    padding: 40px 100px;
+}
+@media(min-width: $screen-sm-min){
+    .media-block {
+        padding: 20px 20px;
+    }
 }
