@@ -22,10 +22,18 @@ function connects(connectsJSON){
     // Append the new script element to the head.
     $("head").append(script);
 }
+// Sort array by key ascending
 function sortByKeyAsc(array, key) {
     return array.sort(function (a, b) {
         var x = a[key]; var y = b[key];
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+}
+// Sort array by key descending
+function sortByKeyDesc(array, key) {
+    return array.sort(function (a, b) {
+        var x = a[key]; var y = b[key];
+        return ((x > y) ? -1 : ((x < y) ? 1 : 0));
     });
 }
 // This function handles the jsonp data we receive
@@ -33,7 +41,6 @@ function connectResources(jsonData){
     var sorted_data = sortByKeyAsc(jsonData, "title");
     addLatestResources(sorted_data, 10);
 }
-
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
