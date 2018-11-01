@@ -2,16 +2,16 @@
 title: Arm Architecture HPC Workshop Aisa 2019
 layout: default
 date: 2018-11-01 09:00:00+00:00
-permalink: /latest/events/hpc-aisa-2019/
+permalink: /latest/events/hpc-asia-2019/
 css-package: arm-hpc-2019
 image:
-   path: /assets/images/content/hpc-aisa-2019-share-image.png
-   name: hpc-aisa-2019-share-image.png
+   path: /assets/images/content/hpc-asia-2019-share-image.png
+   name: hpc-asia-2019-share-image.png
 event: true
 ---
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
-    <div class="container" style="background: url(/assets/images/content/hpc-aisa-2019.png);background-position: center center;">
+    <div class="container" style="background: url(/assets/images/content/hpc-asia-2019.png);background-position: center center;">
         <h1>Arm Architecture HPC Workshop Aisa 2019 <span>by Linaro and HiSilicon</span></h1>
         <small>Monday 15th January 2019 - Guangzhou</small>
     </div>
@@ -85,7 +85,7 @@ TODO Conten
 </div><!--End Row-->
 
 <div class="row no-padding arm-hpc-row top">
-    <div class="container" style="background: url(/assets/images/content/hpc-aisa-2019.png);background-position: center center;">
+    <div class="container" style="background: url(/assets/images/content/hpc-asia-2019.png);background-position: center center;">
         <h1>Arm Architecture HPC Workshop Aisa 2019 <span>by Linaro and HiSilicon</span></h1>
         <small>Monday 15th January 2019 - Guangzhou</small>
     </div>
