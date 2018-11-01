@@ -22,14 +22,24 @@ function connects(connectsJSON){
     // Append the new script element to the head.
     $("head").append(script);
 }
+function sortByKeyAsc(array, key) {
+    return array.sort(function (a, b) {
+        var x = a[key]; var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+}
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
-    var sorted_data = jsonData.sort();
+    var sorted_data = sortByKeyAsc(jsonData, "title");
     addLatestResources(sorted_data, 10);
+}
+
+// Sort function which takes the data array, property to sort by and an asc boolean.
+function sort_by_date(a, b) {
+    return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
 }
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestResources(sorted_data, number_of_items){
-    console.log(sorted_data);
     var listElements = '';
     for(var i=0;i<number_of_items;i++){
         resource = sorted_data[i];
