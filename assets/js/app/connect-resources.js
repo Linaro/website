@@ -40,7 +40,6 @@ function addLatestResources(sorted_data, number_of_items){
         else{
             resource_image = "/assets/images/content/linaro-logo.png";
         }
-        var resource_image = resource.placeholder;
         listElements += '<a target="_self" href="' + resource.url +'">';
         listElements += '<li class="list-group-item fly">';
         listElements += '<span class="post-title">' + resource.title + '</span>';
