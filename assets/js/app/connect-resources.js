@@ -4,6 +4,8 @@ var allConnectJSONData = []
 // The counter variable counts the number of times results are added to the allConnectJSONData array
 // so we know when to process the concatenated data.
 var counter = 0;
+// Connect Data Sources
+var connectJSONSources = []
 // Define the sources to append the jsonp script elements and retreive the data.
 var connect_sources = [
     "https://connect.linaro.org"
@@ -12,6 +14,7 @@ var connect_sources = [
 function connects(connectsJSON){
     // Since we are just showing the top 10 resources just grab the first connect in the json output
     var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[0].id.toLowerCase() + "/data.json?callback=connectResources";
+    connectJSONSources.push(jsonp_url);
     // Create a new script element and set the type and src
     script = document.createElement("script");
     script.type = "text/javascript";
@@ -21,36 +24,22 @@ function connects(connectsJSON){
 }
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
-    console.log(jsonData);
-    if(counter == (connect_sources.length - 1)){
-        allConnectJSONData = jsonData;
-        var sorted_data = allConnectJSONData.sort();
-        addLatestResources(sorted_data, 10);
-    }
-    else{
-        allConnectJSONData = allConnectJSONData.concat(jsonData);
-        counter += 1;
-    }
+    var sorted_data = jsonData.sort();
+    addLatestResources(sorted_data, 10);
 }
-// This will fetch the external resources json from Linaro.org
-// function externalResources(jsonData){
-//     if(counter == (connect_sources.length - 1)){
-//         allConnectJSONData = allConnectJSONData.concat(jsonData);
-//         var sorted_data = allConnectJSONData.sort(sort_by_date);
-//         addLatestResources(sorted_data, 10);
-//     }
-//     else{
-//         allConnectJSONData = allConnectJSONData.concat(jsonData);
-//         counter += 1;
-//     }
-// }
-
 // Process all JSON, get the latest news and blog posts and add to the list.
-function addLatestResources(allConnectJSONData, number_of_items){
-    console.log(allConnectJSONData);
+function addLatestResources(sorted_data, number_of_items){
+    console.log(sorted_data);
     var listElements = '';
     for(var i=0;i<number_of_items;i++){
-        resource = allConnectJSONData[i];
+        resource = sorted_data[i];
+        if(resource.url.indexOf("https://connect.linaro.org") == -1){
+            // Connect URL exits set default image to the connect logo.
+            resource_image = "/assets/images/content/connect-logo.png";
+        }
+        else{
+            resource_image = "/assets/images/content/linaro-logo.png";
+        }
         var resource_image = resource.placeholder;
         listElements += '<a target="_self" href="' + resource.url +'">';
         listElements += '<li class="list-group-item fly">';
