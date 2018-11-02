@@ -11,6 +11,10 @@ var sources = [
     "https://www.opendataplane.org",
     ""
 ];
+// Define the sources to append the jsonp script elements and retreive the data.
+var connect_sources = [
+    "https://connect.linaro.org"
+];
 var site_logos = {
     "https://www.96boards.org":"/assets/images/content/96boards-vertical-logo.png",
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
@@ -26,6 +30,18 @@ function extractDateString(dateString) {
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
+}
+// Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
+function connects(connectsJSON){
+    // Since we are just showing the top 10 resources just grab the first connect in the json output
+    var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[0].id.toLowerCase() + "/data.json?callback=connectResources";
+    connectJSONSources.push(jsonp_url);
+    // Create a new script element and set the type and src
+    script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = jsonp_url;
+    // Append the new script element to the head.
+    $("head").append(script);
 }
 // Fuzzy Search Setup
 function listResults(json_data) {
@@ -79,35 +95,20 @@ function listResults(json_data) {
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
 }
-// Get the connects.json file then parse and loop through each connect adding the jsonp script
-function connects(connectsJSON){
-    for(i=0;i<connectsJSON.length;i++){
-        // Get the URL for each connect
-        var jsonp_url = connect_sources[i] + "/assets/json/" + connectsJSON[i] + id.toLowerCase() + "/connects.json?callback=connects";
-        // Create a new script element and set the type and src
-        script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = jsonp_url;
-        // Append the new script element to the head.
-        $("head").append(script);
-    }
-}
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
     if(counter == (connect_sources.length - 1)){
         allJSONData = allJSONData.concat(jsonData);
         var sorted_data = allJSONData.sort(sort_by_date);
-        addLatestNewsAndBlogs(sorted_data, 10);
+        addEventResources(sorted_data, sorted_data.length);
     }
     else{
         allJSONData = allJSONData.concat(jsonData);
         counter += 1;
     }
 }
-
-
 // Process all JSON, get the latest news and blog posts and add to the list.
-function addLatestNewsAndBlogs(results_data, number_of_items){
+function addEventResources(results_data, number_of_items){
     $('#result_size').html(results_data.length);
     var tableRow  = '';
     for(var i=0;i<number_of_items;i++){
@@ -127,15 +128,16 @@ function addLatestNewsAndBlogs(results_data, number_of_items){
     }
     $("#results").html(tableRow);
 }
+
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
     if ($("#results").length > 0) {
         // Loop through the sources and the separate script elements.
-        for(i=0;i<sources.length;i++){
+        for(i=0;i<connect_sources.length;i++){
             // Adds a list element for each result in the JSONP data
             // JSONP url
-            var jsonp_url = sources[i] + "/assets/json/posts.json?callback=func";
+            var jsonp_url = connect_sources[i] + "/assets/json/connects.json?callback=connects";
             // Add the JSONP to a script element
             // Create a new script element and set the type and src
             script = document.createElement("script");
@@ -143,9 +145,6 @@ $(document).ready(function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
-            $('#search-query').keyup(function(){
-                listResults(allJSONData);
-            });
         }
     }
     else{
