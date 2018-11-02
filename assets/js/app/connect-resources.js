@@ -36,10 +36,24 @@ function sortByKeyDesc(array, key) {
         return ((x > y) ? -1 : ((x < y) ? 1 : 0));
     });
 }
+function getRandom(arr, n) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+}
 // This function handles the jsonp data we receive
 function connectResources(jsonData){
-    var sorted_data = sortByKeyAsc(jsonData, "title");
-    addLatestResources(sorted_data, 10);
+    //var sorted_data = sortByKeyAsc(jsonData, "title");
+    var random_data = getRandom(jsonData, 10);
+    addLatestResources(random_data, 10);
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
@@ -52,10 +66,10 @@ function addLatestResources(sorted_data, number_of_items){
         resource = sorted_data[i];
         if(resource.url.indexOf("https://connect.linaro.org") == -1){
             // Connect URL exits set default image to the connect logo.
-            resource_image = "/assets/images/content/connect-logo.png";
+            resource_image = "/assets/images/content/connect-icon-alt.png";
         }
         else{
-            resource_image = "/assets/images/content/linaro-logo.png";
+            resource_image = "/assets/images/content/connect-icon-alt.png";
         }
         listElements += '<a target="_self" href="' + resource.url +'">';
         listElements += '<li class="list-group-item fly">';
