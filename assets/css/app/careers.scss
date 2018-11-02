@@ -183,3 +183,118 @@ nav#main-navigation {
 #careers-about ol li {
     padding-left:10px;
 }
+// Ensure that the long description's text is aligned to the left.
+.rbox-job-longdesc {
+    text-align: left;
+}
+.rbox-job-longdesc table {
+    border-bottom: 1px solid #ccc;
+}
+#careers .rbox-buttons button {
+    background-color: #99cc33 !important;
+}
+.rbox-opening-li {
+    background-color: #222222;
+    color: white;
+}
+.rbox-opening-li a:hover {
+    color:white;
+}
+
+a.rbox-opening-li-title {
+    color:#99cc33;
+}
+
+a.rbox-opening-li-title:hover {
+    color:#565656;
+    opacity:1;
+}
+
+
+small.rbox-opening-position-type {
+    display: block;
+}
+.rbox-opening-position-info {
+    margin-top:10px;
+    position: relative;
+    display:block;
+}
+
+.rbox-opening-position-info small {
+    display:inline;
+    width:100%;
+    margin-bottom:5px;
+    border:1px solid #6f6f6f;
+}
+ul.list-group {
+    overflow-y: scroll;
+    height: 250px;
+    border-radius: 0px;
+}
+#careers-about ul.list-group li {
+    border-radius: 0px;
+    background-color: #151414;
+    border: 1px solid #3a3a3a;
+    color: white;
+}
+
+a.btn.btn-careers {
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+    border: 1px solid #000;
+    transition: all 200ms ease;
+}
+a.btn.btn-careers:hover {
+    background-color: #222222;
+    border-radius: 0px;
+    color: #ffffff !important;
+    border: 1px solid #fff;
+}
+div#careers {
+    background-color: #e8e8e8;
+}
+.media-block.puzzle {
+    background-color: #8eb92a;
+    padding: 60px;
+    background-size:cover;
+    background-position:center center;
+    background-position-y: -90px;
+}
+@media(min-width:400px){
+    .media-block.puzzle {
+        background-position-y: -90px;
+    }
+}
+// Responsive Text css
+#wrapper .responsive-text {
+    font-size: 18px;
+}
+@media(min-width: 1330px) {
+    #wrapper .responsive-text {
+        font-size: 20px;
+    }
+}
+@media(min-width:$screen-sm-min){
+    div#careers-challenge{
+        display: flex;
+    }
+    .col-sm-6.text-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-sm-6.no-padding.video-col {
+        display: flex;
+    }
+    .media-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    div#careers-learning {
+        display: flex;
+    }
+    #careers-welcome{
+        display: flex;
+    }
+}
