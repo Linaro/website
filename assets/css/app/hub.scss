@@ -122,3 +122,25 @@ span.post-date {
     overflow: hidden;
     top: -2px;
 }
+.panel.panel-default {
+    margin: 5px;
+}
+span.project-title {
+    width: 80%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    overflow: hidden;
+}
+span.project-stats {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    float: right;
+    height: 40px;
+    overflow: hidden;
+}
