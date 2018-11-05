@@ -261,7 +261,7 @@ div#careers {
     background-position:center center;
     background-position-y: -90px;
 }
-@media(min-width:400px){
+@media(min-width:1000px){
     .media-block.puzzle {
         background-position-y: -90px;
     }
@@ -273,6 +273,11 @@ div#careers {
 @media(min-width: 1330px) {
     #wrapper .responsive-text {
         font-size: 20px;
+    }
+}
+@media(max-width: 800px) {
+    #wrapper .responsive-text {
+        font-size: 14px;
     }
 }
 @media(min-width:$screen-sm-min){
