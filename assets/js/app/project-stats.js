@@ -1,6 +1,6 @@
 // Define the sources to append the jsonp script elements and retreive the data.
 var project_data_sources = [
-    "http://localhost:4003"
+    ""
 ];
 // This function handles the jsonp data we receive
 function projects(jsonData){
