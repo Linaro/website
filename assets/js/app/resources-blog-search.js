@@ -16,7 +16,7 @@ var site_logos = {
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
     "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
-    "http://localhost:4001":"/assets/images/content/linaro-logo.png"
+    "http://localhost:4002":"/assets/images/content/linaro-logo.png"
 };
 function extractDateString(dateString) {
     var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
