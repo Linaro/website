@@ -279,6 +279,9 @@ div#careers {
     #wrapper .responsive-text {
         font-size: 14px;
     }
+    .media-block.puzzle {
+        background-position-y: 0px;
+    }
 }
 @media(min-width:$screen-sm-min){
     div#careers-challenge{
