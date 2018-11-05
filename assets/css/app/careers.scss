@@ -226,11 +226,6 @@ small.rbox-opening-position-type {
     margin-bottom:5px;
     border:1px solid #6f6f6f;
 }
-ul.list-group {
-    overflow-y: scroll;
-    height: 250px;
-    border-radius: 0px;
-}
 #careers-about ul.list-group li {
     border-radius: 0px;
     background-color: #151414;
@@ -243,6 +238,7 @@ a.btn.btn-careers {
     border-radius: 0px;
     color: black;
     border: 1px solid #000;
+    margin:10px;
     transition: all 200ms ease;
 }
 a.btn.btn-careers:hover {
