@@ -12,7 +12,7 @@ tags:
 - Community
 ---
 
-If you are going to the [Linaro Developer Summit](https://wiki.linaro.org/Events/2011-05-LDS/) or to the [Ubuntu Developer Summit](http://uds.ubuntu.com/) in Budapest this year, you may be interested in the [technical showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) that we organize on Tuesday evening.
+If you are going to the [Linaro Developer Summit](https://wiki.linaro.org/Events/2011-05-LDS/) or to the [Ubuntu Developer Summit]()http://uds.ubuntu.com/ in Budapest this year, you may be interested in the [technical showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) that we organize on Tuesday evening.
 
 Seeing is believing. If you are a member of the Linaro user and developer community, or are curious about Linaro, this will be a unique opportunity:
 
