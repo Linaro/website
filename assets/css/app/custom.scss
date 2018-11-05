@@ -856,3 +856,23 @@ article.post-content>.col-md-8 {
 #header-container h1, #header-container p {
     color: white;
 }
+
+// CSS for the email button.
+#wrapper .email {
+    height: 50px;
+    background-color: #a4d23a;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #9e9e9e;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 200ms ease;
+}
+#wrapper .email:hover {
+    background-color: #3a3a3a;
+    border: 1px solid #000000;
+    color:white;
+}

@@ -16,7 +16,7 @@ var site_logos = {
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
     "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
-    "http://localhost:4001":"/assets/images/content/linaro-logo.png"
+    "https://staging.linaro.org":"/assets/images/content/linaro-logo.png"
 };
 function extractDateString(dateString) {
     var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
@@ -116,6 +116,14 @@ function addLatestNewsAndBlogs(results_data, number_of_items){
     }
     $("#results").html(tableRow);
 }
+// Delay function - used to detect when the user has stopped typing.
+var delay = (function(){
+    var timer = 0;
+    return function(callback, ms){
+      clearTimeout (timer);
+      timer = setTimeout(callback, ms);
+    };
+  })();
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
@@ -132,8 +140,10 @@ $(document).ready(function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
-            $('#search-query').keyup(function(){
-                listResults(allJSONData);
+            $('#search-query').keyup(function() {
+                delay(function(){
+                    listResults(allJSONData);
+                }, 1000 );
             });
         }
     }

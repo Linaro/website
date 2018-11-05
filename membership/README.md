@@ -132,17 +132,12 @@ There are multiple levels of membership and different ways to engage in projects
 </div>
 <div class="row padded-row" id="apply-to-join">
     <div class="container">
-        <h2 class="text-center fly">Apply to Join</h2>
-        <div class="cognito fly">
-            <script src="https://services.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-            <script>
-                Cognito.load("forms", {
-                    id: "14", entry: {
-                        "PageUrl": "{{site.url}}{{page.url}}",
-                        "RedirectUrl": "{{site.url}}/thank-you/?ref={{page.url}}",
-                        "ChoiceField": [{% for member in site.data.members %}"{{member.membership_group_name}}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
-                    }});
-            </script>
+        <h2 class="text-center fly">Become a member</h2>
+        <hr>
+        <div class="col-xs-12 text-center">
+            <a class="btn email" href="mailto:contact@linaro.org?subject=Linaro.org - Membership">
+                Apply to Join
+            </a>
         </div>
     </div>
 </div>

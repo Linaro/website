@@ -386,6 +386,9 @@
     - name: Fujitsu Electronics
       image: fujitsu-electronics.png
       url: /company/fujitsu-electronics/
+    - name: Fab to Lab
+      image: fab-to-lab.jpg
+      url: /company/fab-to-lab/
     - name: Gigabyte
       image: gigabyte.jpg
       url: /company/gigabyte/
