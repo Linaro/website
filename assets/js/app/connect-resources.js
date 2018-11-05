@@ -79,7 +79,6 @@ function addLatestResources(sorted_data, number_of_items){
         listElements += '</li>';
         listElements += '</a>';
     }
-    console.log(listElements);
     $("#event-resources").html(listElements);
 }
 // Check to see if the document has loaded 
