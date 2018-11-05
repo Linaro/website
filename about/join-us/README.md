@@ -56,7 +56,8 @@ css-package: careers
                 {% include world-map.html %}
             </div>
             <div class="col-sm-6">
-                <h3>Where we are located.</h3>
+                <h3 class="text-center">Where we are located.</h3>
+                <div class="col-xs-12 col-sm-4">
                     <ul class="list-group">
                         <li class="list-group-item">Australia</li>
                         <li class="list-group-item">Brazil</li>
@@ -67,6 +68,10 @@ css-package: careers
                         <li class="list-group-item">Finland</li>
                         <li class="list-group-item">France</li>
                         <li class="list-group-item">Germany</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <ul class="list-group">
                         <li class="list-group-item">Greece</li>
                         <li class="list-group-item">India</li>
                         <li class="list-group-item">Italy</li>
@@ -78,6 +83,10 @@ css-package: careers
                         <li class="list-group-item">Pakistan</li>
                         <li class="list-group-item">Poland</li>
                         <li class="list-group-item">Portugal</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <ul class="list-group">
                         <li class="list-group-item">Romania</li>
                         <li class="list-group-item">Russia</li>
                         <li class="list-group-item">Serbia</li>
@@ -88,6 +97,7 @@ css-package: careers
                         <li class="list-group-item">Ukraine</li>
                         <li class="list-group-item">USA</li>
                     </ul>
+                </div>
         </div>
     </div>
     <div class="row" id="careers-learning">
@@ -145,6 +155,7 @@ css-package: careers
             </div>
             <div class="col-xs-12 text-center">
                 <a href="/assets/downloads/careers-privacy-policy.pdf" class="btn btn-careers">View our Privacy Policy</a>
+                <a href="/assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf" class="btn btn-careers">View our Recruitement Policy</a>
             </div>
         </div><!--Container END-->
     </div><!--Row END-->
