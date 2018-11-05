@@ -40,8 +40,6 @@ CB22 7GG <br>
 [Linaro Mailing List](/contact/mailing-list/)
 </div>
 
-
-
 <ul class="list-unstyled">
 <hr>
 <li markdown="1">
@@ -62,7 +60,7 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
 </ul>
 
 </div>
-<div class="col-sm-8">
+<div class="col-sm-8 contact">
 
 {% include linaro-contact-form.html %}
 

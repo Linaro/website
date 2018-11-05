@@ -39,7 +39,7 @@ With 96Boards providing developers with access to the latest Arm hardware in a s
 {% include image.html name="socionext-sfo17-sponsor.jpg" alt="Socionext SFO17 Sponsor" %}
 Socionext
 
-A series of demonstrations showing the microPlatforms developed by the Linaro Technologies group followed. These included fully open source Zephyr on Cortex-M and Linux on Cortex-A with the [code](http://github.com/linaro-technologies) and [documentation](http://ltd-docs.readthedocs.org) available to all.
+A series of demonstrations showing the microPlatforms developed by the Linaro Technologies group followed. These included fully open source Zephyr on Cortex-M and Linux on Cortex-A.
 
 This demonstration marked the beginning on a new chapter for Linaro as Grey explained why Linaro was creating a spin off company [Open Source Foundries](http://opensourcefoundries.com/) to take some of this work forward and create products based around it.
 

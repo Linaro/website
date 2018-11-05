@@ -22,18 +22,16 @@
     <ul class="list-unstyled">
       <li class="work_footer_li">
           <a href="/engineering/groups/">
-              <b>Segment Groups</b>
+              <b>Groups</b>
           </a>
       </li>
       {% assign groups = site.groups | sort: 'group_id' %}
       {% for segment_group in groups %}
-        {% if segment_group.output %}
           <li class="work_footer_li">
             <a href="{{segment_group.permalink}}">
               {{segment_group.title}}
             </a>
           </li>
-        {% endif %}
       {% endfor %}
     </ul>
 </div>
