@@ -13,10 +13,10 @@ function addProjectsData(sorted_data, number_of_items){
     for(var i=0;i<number_of_items;i++){
         project = sorted_data[i];
         if(project.project_url != ""){
-            listElements += '<a target="_self" href="' + project.project_url +'">';
+            listElements += '<a target="_blank" href="' + project.project_url +'">';
         }
         else{
-            listElements += '<a target="_self" href="https://www.linaro.org/engineering/">';
+            listElements += '<a target="_blank" href="https://www.linaro.org/engineering/">';
         }
         listElements += '<li class="list-group-item fly">';
         listElements += '<span class="project-title">' + project.name + '</span>';
