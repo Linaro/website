@@ -231,6 +231,8 @@ small.rbox-opening-position-type {
     background-color: #151414;
     border: 1px solid #3a3a3a;
     color: white;
+    text-align: center;
+    padding: 5px;
 }
 
 a.btn.btn-careers {
@@ -255,7 +257,9 @@ div#careers {
     padding: 60px;
     background-size:cover;
     background-position:center center;
-    background-position-y: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media(min-width:1000px){
     .media-block.puzzle {
@@ -301,4 +305,10 @@ div#careers {
     #careers-welcome{
         display: flex;
     }
+    div#careers-about {
+        display: flex;
+    }
+}
+#careers-about p.responsive-text {
+    color: white;
 }
