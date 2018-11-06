@@ -226,16 +226,13 @@ small.rbox-opening-position-type {
     margin-bottom:5px;
     border:1px solid #6f6f6f;
 }
-ul.list-group {
-    overflow-y: scroll;
-    height: 250px;
-    border-radius: 0px;
-}
 #careers-about ul.list-group li {
     border-radius: 0px;
     background-color: #151414;
     border: 1px solid #3a3a3a;
     color: white;
+    text-align: center;
+    padding: 5px;
 }
 
 a.btn.btn-careers {
@@ -243,6 +240,7 @@ a.btn.btn-careers {
     border-radius: 0px;
     color: black;
     border: 1px solid #000;
+    margin:10px;
     transition: all 200ms ease;
 }
 a.btn.btn-careers:hover {
@@ -259,12 +257,9 @@ div#careers {
     padding: 60px;
     background-size:cover;
     background-position:center center;
-    background-position-y: -90px;
-}
-@media(min-width:1000px){
-    .media-block.puzzle {
-        background-position-y: -90px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 // Responsive Text css
 #wrapper .responsive-text {
@@ -305,4 +300,10 @@ div#careers {
     #careers-welcome{
         display: flex;
     }
+    div#careers-about {
+        display: flex;
+    }
+}
+#careers-about p.responsive-text {
+    color: white;
 }
