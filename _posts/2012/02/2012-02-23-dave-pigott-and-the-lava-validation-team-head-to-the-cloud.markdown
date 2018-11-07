@@ -28,7 +28,7 @@ We decided we needed to offload as much as possible from v.l.o. We looked at add
 
 {% include image.html name="2012-02-02-11.00.211.jpg" alt="New Servers for the LAVA-Lab." clas="small-inline right" %}
 
-We ordered 5 new servers from the excellent chaps we met at [UDS-P](http://summit.ubuntu.com/uds-p/) in Orlando--[System-76](http://www.system76.com/)--and they duly arrived. I then set about deploying them into LAVA Rack 3. Here they are, just after I'd connected them and got them powered up.
+We ordered 5 new servers from the excellent chaps we met at [UDS-P]() http://summit.ubuntu.com/uds-p/ in Orlando--[System-76](http://www.system76.com/)--and they duly arrived. I then set about deploying them into LAVA Rack 3. Here they are, just after I'd connected them and got them powered up.
 
 _(Yes, I know there are six there. One of them is a dedicated server for the toolchain group so that they can also offload some of their work.)_
 
