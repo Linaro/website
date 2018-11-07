@@ -16,8 +16,6 @@ event: true
         <small>Monday 14th January 2019 - Guangzhou</small>
     </div>
 </div>
-
-
 <div class="row arm-hpc-row main">
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
