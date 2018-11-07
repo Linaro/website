@@ -102,8 +102,8 @@ function addLatestNewsAndBlogs(results_data, number_of_items){
     for(var i=0;i<number_of_items;i++){
         post = results_data[i];
         var author = post.author;
-        if(author === "undefined" || author == ""){
-            author = post.url.replace(/(^\w+:|^)\/\//, '');
+        if(author == "undefined" || author == ""){
+            author = post.site.replace(/(^\w+:|^)\/\//, '');
         }
         var site_image = site_logos[post.site];
         tableRow += '<tr>';

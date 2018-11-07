@@ -28,7 +28,7 @@ css-package: careers
 <div class="container-fluid" id="why-join-container" style="background-color: black;">
 <div class="row overlay padded-row" id="why-join">
     <div class="container text-center">
-        <h1 class="fly center-block">Do you have a passion for open source collaboration? Then you should work at Linaro.</h1>
+        <h1 class="fly center-block">Want to help build technology for the future?</h1>
     </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ css-package: careers
             <div class="text-block fly">
             <h3>Develop your career alongside world-class open source experts</h3>
                 <p class="responsive-text fly">
-                    If you have a passion for open source and want to be part of a community, then you belong at Linaro. Linaro offers you the opportunity to advance your career in an outstanding environment for professional growth, all while working alongside a team of world-class open source experts on leading edge technology. Interested in joining? Have a look at our openings listed below and apply!
+                    If you have a passion for open source and want to be part of a community, then you belong at Linaro. Linaro offers you the opportunity to advance your career in an outstanding environment for professional growth, all while working alongside a team of world-class open source experts on leading edge technology. Interested in joining? Take a look at our openings listed at the bottom of the page.
                 </p>
             </div>
         </div>
@@ -55,7 +55,7 @@ css-package: careers
             <div class="col-sm-6">
                 <h3 class="text-center">Join a global and diverse team</h3>
                 <p class="responsive-text fly">
-                Linaro has a global presence with employees based in 29 countries. Every six months the company comes together at <a href="https://connect.linaro.org">Linaro Connect</a> to collaborate on open source technology together with Linaro members. Linaro Connect takes place in the US, Asia and Europe. 
+                Linaro has a global presence with employees based in over 25 countries. Every six months the company comes together at <a href="https://connect.linaro.org">Linaro Connect</a> to collaborate on open source technology together with other leading-edge technology companies. Linaro Connect takes place in a new location everytime, in the US, Asia and Europe.
                 </p>
                 <div class="row">
                 <div class="col-xs-12 col-sm-4 hidden-xs">
@@ -122,7 +122,7 @@ css-package: careers
             <div class="text-block">
             <h3>Up for a challenge?</h3>
                 <p class="responsive-text fly">
-                    Linaro challenges you to think outside the box and set yourself targets that make a real impact on the business. If you join Linaro as an intern, we will work with you to unleash your potential and help lay the foundations for a meaningful career. 
+                    Linaro challenges you to think outside the box and set yourself targets that make a real impact on the business. If you join Linaro, we will work with you to unleash your potential and help lay the foundations for a meaningful career.
                 </p>
                 <p class="responsive-text fly">
                     Every Linaro Connect, Dave Pigott, Tech Lead of Linaro’s Lab and Systems Software Group, creates a cryptic puzzle for attendees to solve. Do you have what it takes to work with the experts? Then give the puzzle a go!
