@@ -12,7 +12,7 @@ categories:
 
 During the [Linaro Developer Summit (9-13 May 2011)](https://wiki.linaro.org/Events/2011-05-LDS), we held a superb [showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) of the 20 best demonstrations of Linaro engineering and of companies using our output.
 
-Set in the magnificent Grand Ballroom of the Corinthia Hotel in Budapest, the evening attracted over 500 delegates from companies involved with Linaro and from the [Ubuntu Developer Summit](http://uds.ubuntu.com/).
+Set in the magnificent Grand Ballroom of the Corinthia Hotel in Budapest, the evening attracted over 500 delegates from companies involved with Linaro and from the [Ubuntu Developer Summit]()http://uds.ubuntu.com/.
 
 {% include image.html name="Ballroom-med.jpg" alt="Grand Ballroom of the Corinthia Hotel in Budapest" %}
 
