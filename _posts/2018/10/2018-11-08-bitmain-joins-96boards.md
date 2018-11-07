@@ -22,7 +22,7 @@ The new Bitmain Sophon BM1880 EDB is the first ASIC-based solution to join the 9
 
 “96Boards has been pushing to extend the choice of latest silicon solutions that are available on boards at affordable prices,” said Yang Zhang, Director of 96Boards. “We’re very excited to add the first ASIC solution to the 96Boards.ai line up and look forward to working with Bitmain and other partners to push this technology into new spaces.”
 
-About Bitmain
+### About Bitmain
 
 Founded in 2013, Bitmain transforms computing by building industry-defining technology in cryptocurrency, blockchain, and artificial intelligence (AI). The company also operates the world’s largest and second largest Bitcoin mining pools in terms of computing power, BTC.com and Antpool.
 
@@ -30,7 +30,7 @@ A leader in the still-nascent, high-growth blockchain technology ecosystem, Bitm
 
 Bitmain is headquartered in Beijing with offices throughout China, including Hong Kong, and with global offices worldwide. Visit [https://www.bitmain.com](https://www.bitmain.com) for further information. 
 
-About Linaro
+### About Linaro
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
