@@ -93,8 +93,8 @@ Due to popular demand, we will be hosting yet another workshop. This time it wil
 
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url(/assets/images/content/hpc-asia-2019.png);background-position: center center;">
-        <h1>Arm Architecture HPC Workshop Aisa 2019 <span>by Linaro and HiSilicon</span></h1>
-        <small>Monday 15th January 2019 - Guangzhou</small>
+        <h1>Open Source HPC Collaboration on Arm Architecture Linaro workshop</h1>
+        <small>Monday 14th January 2019 - Guangzhou</small>
     </div>
 </div>
 </div>
