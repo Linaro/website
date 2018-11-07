@@ -77,9 +77,9 @@ Due to popular demand, we will be hosting yet another workshop. This time it wil
 
 <div id="call-for-papers">
 
-<h2>Call for Papers is <span>open</span></h2>
-<a href="https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
-<h3>Deadline for submissions 28th June</h3>
+<h2>Call for Papers is <span>closed</span></h2>
+<a href="" class="btn btn-primary btn-two call-for-papers disabled">Submit Now</a>
+<h3>Deadline for submissions available soon</h3>
 
 </div>
 
