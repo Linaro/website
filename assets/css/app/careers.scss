@@ -278,7 +278,14 @@ div#careers {
         background-position-y: 0px;
     }
 }
+#wrapper .item {
+    background-position-y: -230px !important;
+    background-size: cover !important;
+}
 @media(min-width:$screen-sm-min){
+    #wrapper .item {
+        background-position-y: -300px !important;
+    }
     div#careers-challenge{
         display: flex;
     }
