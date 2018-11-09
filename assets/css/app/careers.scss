@@ -278,9 +278,19 @@ div#careers {
         background-position-y: 0px;
     }
 }
+// Repsonsive Carousel Background Image
 #wrapper .item {
-    background-position-y: -230px !important;
     background-size: cover !important;
+}
+@media(max-width: 340px){
+    #wrapper .item {
+        background-position-y: -0px !important;
+    }
+}
+@media(min-width:$screen-sm-min){
+    #wrapper .item {
+        background-position-y: -300px !important;
+    }
 }
 @media(min-width:$screen-sm-min){
     #wrapper .item {
