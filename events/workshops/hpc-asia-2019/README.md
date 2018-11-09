@@ -71,24 +71,28 @@ Due to popular demand, we will be hosting yet another workshop. This time it wil
 
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-6 no-padding">
 
 <div id="call-for-papers">
 
-<h2>Call for Papers is <span>closed</span></h2>
-<a href="" class="btn btn-primary btn-two call-for-papers disabled">Submit Now</a>
-<h3>Deadline for submissions available soon</h3>
+<h2>Call for Papers is <span>open</span></h2>
+<a href="https://workshop.linaro.org/hpcasia19/" 
+class="hidden-xs btn btn-primary btn-two call-for-papers">
+Submit Now
+</a>
+<a href="https://workshop.linaro.org/hpcasia19/" 
+class="center-block visible-xs-block btn btn-primary">
+Submit Now
+</a>
+<h3>Deadline for submissions is the 15th Dec 2018 12am EST </h3>
 
 </div>
-
 </div>
-
 </div><!--End Tab Content-->
-
-
 </div><!--End Container-->
 </div><!--End Row-->
 
+</div>
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url(/assets/images/content/hpc-asia-2019.png);background-position: center center;">
         <h1>Open Source HPC Collaboration on Arm Architecture Linaro workshop</h1>
