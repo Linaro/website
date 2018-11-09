@@ -22,7 +22,7 @@
     font-size: 20px;
     color: white;
     line-height: 43px;
-    background-color: #2b212f;
+    background-color: #5582a6;
     border: 1px solid #000000;
 }
 
@@ -50,7 +50,7 @@
     padding: 15px;
     border: 1px solid #6d6b6b;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0px;
     color: white;
     background-color: #6b1506;
     -webkit-box-shadow: inset 0 0 59px 0 #03090e;
@@ -315,4 +315,22 @@ span.eds-text-bm--fixed {
 
 .softmerge-inner {
     white-space: normal;
+}
+#wrapper a.center-block.visible-xs-block.btn.btn-primary {
+    font-size: 20px;
+    background-color: #6c859b;
+    padding: 0px;
+    width: 100%;
+}
+#wrapper a.center-block.visible-xs-block.btn.btn-primary:hover {
+    font-size: 20px;
+    background-color: #3a0702;
+    color:white;
+    padding: 0px;
+}
+// On mobile remove the right border of nav tabs
+@media(min-width: $screen-sm-min){
+    ul#tabbed_nav>li>a {
+        border-right: none;
+    }
 }
