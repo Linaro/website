@@ -8,7 +8,6 @@ js-package: careers
 css-package: careers
 ---
 <div class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div style="background: url(/assets/images/content/careers-image-1.jpg) no-repeat center center fixed;"
          class="lazyload item active">
@@ -24,7 +23,6 @@ css-package: careers
         </div>
     </div>
 </div>
-
 <div class="container-fluid" id="why-join-container" style="background-color: black;">
 <div class="row overlay padded-row" id="why-join">
     <div class="container text-center">
@@ -32,7 +30,6 @@ css-package: careers
     </div>
 </div>
 </div>
-
 <div class="container-fluid" id="content-container">
     <div class="row" id="careers-welcome">
         <div class="col-sm-6 no-padding video-col">
@@ -57,48 +54,46 @@ css-package: careers
                 <p class="responsive-text fly">
                 Linaro has a global presence with employees based in over 25 countries. Every six months the company comes together at <a href="https://connect.linaro.org">Linaro Connect</a> to collaborate on open source technology together with other leading-edge technology companies. Linaro Connect takes place in a new location everytime, in the US, Asia and Europe.
                 </p>
-                <div class="row">
-                <div class="col-xs-12 col-sm-4 hidden-xs">
-                    <ul class="list-group fly">
-                        <li class="list-group-item">Australia</li>
-                        <li class="list-group-item">Brazil</li>
-                        <li class="list-group-item">Bulgaria</li>
-                        <li class="list-group-item">Canada</li>
-                        <li class="list-group-item">Chile</li>
-                        <li class="list-group-item">China</li>
-                        <li class="list-group-item">Finland</li>
-                        <li class="list-group-item">France</li>
-                        <li class="list-group-item">Germany</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 hidden-xs">
-                    <ul class="list-group fly">
-                        <li class="list-group-item">Greece</li>
-                        <li class="list-group-item">India</li>
-                        <li class="list-group-item">Italy</li>
-                        <li class="list-group-item">Japan</li>
-                        <li class="list-group-item">Korea (S)</li>
-                        <li class="list-group-item">Latvia</li>
-                        <li class="list-group-item">Mexico</li>
-                        <li class="list-group-item">Netherlands</li>
-                        <li class="list-group-item">Pakistan</li>
-                        <li class="list-group-item">Poland</li>
-                        <li class="list-group-item">Portugal</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 hidden-xs">
-                    <ul class="list-group fly">
-                        <li class="list-group-item">Romania</li>
-                        <li class="list-group-item">Russia</li>
-                        <li class="list-group-item">Serbia</li>
-                        <li class="list-group-item">Sweden</li>
-                        <li class="list-group-item">Switzerland</li>
-                        <li class="list-group-item">Taiwan</li>
-                        <li class="list-group-item">UK</li>
-                        <li class="list-group-item">Ukraine</li>
-                        <li class="list-group-item">USA</li>
-                    </ul>
-                </div>
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <ul class="list-group fly show-block">
+                    <li class="list-group-item">Australia</li>
+                    <li class="list-group-item">Brazil</li>
+                    <li class="list-group-item">Bulgaria</li>
+                    <li class="list-group-item">Canada</li>
+                    <li class="list-group-item">Chile</li>
+                    <li class="list-group-item">China</li>
+                    <li class="list-group-item">Finland</li>
+                    <li class="list-group-item">France</li>
+                    <li class="list-group-item">Germany</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <ul class="list-group fly show-block">
+                    <li class="list-group-item">Greece</li>
+                    <li class="list-group-item">India</li>
+                    <li class="list-group-item">Italy</li>
+                    <li class="list-group-item">Japan</li>
+                    <li class="list-group-item">Korea (S)</li>
+                    <li class="list-group-item">Latvia</li>
+                    <li class="list-group-item">Mexico</li>
+                    <li class="list-group-item">Netherlands</li>
+                    <li class="list-group-item">Pakistan</li>
+                    <li class="list-group-item">Poland</li>
+                    <li class="list-group-item">Portugal</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <ul class="list-group fly show-block">
+                    <li class="list-group-item">Romania</li>
+                    <li class="list-group-item">Russia</li>
+                    <li class="list-group-item">Serbia</li>
+                    <li class="list-group-item">Sweden</li>
+                    <li class="list-group-item">Switzerland</li>
+                    <li class="list-group-item">Taiwan</li>
+                    <li class="list-group-item">UK</li>
+                    <li class="list-group-item">Ukraine</li>
+                    <li class="list-group-item">USA</li>
+                </ul>
             </div>
         </div>
          <div class="col-sm-6 no-padding video-col">
