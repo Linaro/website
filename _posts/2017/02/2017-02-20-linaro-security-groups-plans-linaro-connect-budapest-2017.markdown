@@ -16,7 +16,7 @@ featured_image_name: LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
 image:
   featured: true
   name: LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
-  LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
+  path: /assets/images/blog/LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
 layout: post
 link: http://connect.linaro.org/blog/linaro-security-groups-plans-linaro-connect-budapest-2017/
 session_id: None
