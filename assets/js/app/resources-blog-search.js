@@ -189,7 +189,7 @@ function sortDataViaFilter(filter, toggle){
         }
     }
     // Filter the data based on the source
-    if(filter == "source"){
+    if(filter == "site"){
         if(toggle == "desc"){
             var sortedJsonData = currentJSON.sort(dynamicSort(filter));
             listResults(sortedJsonData);
