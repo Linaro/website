@@ -12,7 +12,7 @@ featured_image_name: TuesdayofLinaroConnectBudapest2017.jpg
 image:
   featured: true
   name: TuesdayofLinaroConnectBudapest2017.jpg
-  path: /assets/images/featured-images/TuesdayofLinaroConnectBudapest2017.jpg
+  TuesdayofLinaroConnectBudapest2017.jpg
 layout: post
 link: http://connect.linaro.org/blog/tuesday-linaro-connect-budapest-2017/
 session_id: None

@@ -20,7 +20,7 @@ featured_image_name: OpenDataPlanesessionsfromBUD17.jpg
 image:
   featured: true
   name: OpenDataPlanesessionsfromBUD17.jpg
-  path: /assets/images/featured-images/OpenDataPlanesessionsfromBUD17.jpg
+  path: /assets/images/blog/OpenDataPlanesessionsfromBUD17.jpg
 layout: post
 link: http://connect.linaro.org/blog/opendataplane-sessions-bud17/
 session_id: None
