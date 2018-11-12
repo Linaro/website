@@ -109,6 +109,10 @@ function listResults(json_data) {
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
 }
+// This function takes all the JSON data as input and adds the filter elements to the html
+function addFilters(allJSONData){
+    
+}
 // This function handles the jsonp data we receive
 function func(jsonData){
     if(counter == (sources.length - 1)){
@@ -117,6 +121,8 @@ function func(jsonData){
         addLatestNewsAndBlogs(sorted_data, sorted_data.length);
         allJSONData = sorted_data;
         currentJSON = sorted_data;
+        // Add the filters based on JSON Data
+        addFilters(allJSONData);
         // Add the size of the results
         $('#size').html(sorted_data.length);
         // Run function on each keyup event triggered by the search input
@@ -230,6 +236,20 @@ $(document).ready(function () {
             $("th.filter").click(function(){
                 // Supply the filter and current setting(toggle)
                 sortDataViaFilter($(this).attr("data-filter"), $(this).attr("data-toggle"));
+            });
+            $("#show-all-results").click(function(){
+                var toggle = $(this).hasClass("active");
+                if(toggle === false){
+                    // Clear the search query field
+                    $('#search-query').val("");
+                    // Show all results using the allJSONData array
+                    listResults(allJSONData);
+                    $(this).addClass("active");
+                }
+                else{
+                    $(this).removeClass("active");
+                }
+                
             });
         }
     }
