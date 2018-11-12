@@ -1,5 +1,7 @@
 // This global array stores the concatenated and sorted jsonp data
-var allJSONData = []
+var allJSONData = [];
+// This array stores the latest JSON data that is being displayed in the results table.
+var currentJSON = [];
 // The counter variable counts the number of times results are added to the allJSONData array
 // so we know when to process the concatenated data.
 var counter = 0;
@@ -24,8 +26,12 @@ function extractDateString(dateString) {
     return arr[0]; 
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
-function sort_by_date(a, b) {
+function sort_by_date_desc(a, b) {
     return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
+}
+// Sort function which takes the data array, property to sort by and an asc boolean.
+function sort_by_date_asc(a, b) {
+    return new Date(a.date_published).getTime() - new Date(b.date_published).getTime();
 }
 // Fuzzy Search Setup
 function listResults(json_data) {
@@ -75,6 +81,14 @@ function listResults(json_data) {
         , site_image: site_image
         });
     });
+    // Add original JSON array to currentJSON
+    var currentJSON = [];
+    
+    // Map the original item to a new currentJSON Array
+    filtered.map(function(item) {        
+       currentJSON.push(item.original);
+    });
+
     // Append results to the results html container
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
@@ -83,9 +97,10 @@ function listResults(json_data) {
 function func(jsonData){
     if(counter == (sources.length - 1)){
         allJSONData = allJSONData.concat(jsonData);
-        var sorted_data = allJSONData.sort(sort_by_date);
+        var sorted_data = allJSONData.sort(sort_by_date_desc);
         addLatestNewsAndBlogs(sorted_data, sorted_data.length);
         allJSONData = sorted_data;
+        currentJSON = sorted_data;
         // Add the size of the results
         $('#size').html(sorted_data.length);
         // Run function on each keyup event triggered by the search input
@@ -124,6 +139,25 @@ var delay = (function(){
       timer = setTimeout(callback, ms);
     };
   })();
+
+// This function sorts the data via a pre-defined filter
+function sortDataViaFilter(filter, toggle){
+    if(filter == "date"){
+        if(toggle == "desc"){
+            var sortedJsonData = currentJSON.sort(sort_by_date_asc);
+            listResults(sortedJsonData);
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "asc");
+        }
+        if(toggle == "asc"){
+            // Sort data by date desc using the currentJSON being displayed in the table
+            var sortedJsonData = currentJSON.sort(sort_by_date_desc);
+            listResults(sortedJsonData);
+            // Set the new data-toggle value
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
+        }
+        
+    }
+}
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
@@ -140,10 +174,16 @@ $(document).ready(function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
+            // Monitor for the keyup event with a 1 second delay.
             $('#search-query').keyup(function() {
                 delay(function(){
                     listResults(allJSONData);
                 }, 1000 );
+            });
+            // Monitor for the clicking of sort filters (table headings)
+            $("th.filter").click(function(){
+                // Supply the filter and current setting(toggle)
+                sortDataViaFilter($(this).attr("data-filter"), $(this).attr("data-toggle"));
             });
         }
     }
