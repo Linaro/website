@@ -14,8 +14,17 @@ if (window.jQuery) {
 }
 }
 defer(function(){
-    var hash = window.location.hash;
-    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    $('.hashLink').click(function(e) {
+        e.preventDefault(); // Prevent the browser from handling the link normally, this stops the page from jumping around. Remove this line if you do want it to jump to the anchor as normal.
+        var linkHref = $(this).attr('href'); // Grab the URL from the link
+        if (linkHref.indexOf("#") != -1) { // Check that there's a # character
+            var hash = linkHref.substr(linkHref.indexOf("#") + 1); // Assign the hash to a variable (it will contain "myanchor1" etc
+            // Show the relevant tab
+            $('ul.nav-tabs a[href="#' + hash + '"]').tab('show');
+
+        }
+    });
+
 });
 </script>
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
@@ -84,7 +93,7 @@ Except where expressly provided otherwise in an agreement between you and us, al
 
 ### Information about you and your visits to Our site
 
-We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](/legal/#privacy_policy).
+We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](/legal/#privacy_policy){.hashLink}.
 
 * * *
 
