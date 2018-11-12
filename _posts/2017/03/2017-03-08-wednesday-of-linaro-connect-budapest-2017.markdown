@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2017-03-08 22:21:47
 excerpt: The third day of Linaro Connect Budapest 2017 (BUD17) had a theme of networking

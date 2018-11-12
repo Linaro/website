@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2017-02-20 20:44:04
 excerpt: Linaro Connect is a great time for all security engineers to get together

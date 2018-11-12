@@ -1,0 +1,30 @@
+---
+amazon_s3_presentation_url: None
+amazon_s3_video_url: None
+author: connect
+categories:
+- blog
+comments: false
+date: 2015-09-21 00:38:40
+featured_image_name: LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
+image:
+  featured: true
+  name: LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
+  path: /assets/images/featured-images/LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
+layout: resource-post
+link: http://connect.linaro.org/resource/sfo15/welcome/
+post_format:
+- Video
+session_id: None
+session_track: None
+slideshare_presentation_url: None
+slug: welcome
+speakers: None
+title: Linaro Connect San Francisco 2015 - Welcome and Introduction
+video_length: 03:58
+video_thumbnail: None
+wordpress_id: 2467
+youtube_video_url: https://www.youtube.com/watch?v=KMEuo2JGjig
+---
+
+Welcome message and introduction to the week from George Grey and David Rusling at Linaro Connect San Francisco 2015, held at the Hyatt Regency San Francisco Airport Hotel 21-25 September 2015

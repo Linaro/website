@@ -17,7 +17,7 @@ video_thumbnail: None
 wordpress_id: 4551
 youtube_video_url: None
 categories:
-- Blog
+- blog
 permalink: /blog/:title/
 ---
 

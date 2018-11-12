@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2017-03-07 02:00:51
 excerpt: See what happened during the first day of Linaro Connect Budapest 2017.  Watch

@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2017-02-22 20:24:44
 excerpt: The Linaro Virtualization group will host several sessions at the upcoming

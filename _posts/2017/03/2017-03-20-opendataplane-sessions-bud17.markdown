@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2017-03-20 14:09:38
 excerpt: 'A proposal to add ODP based compression/decompression API to provide portable

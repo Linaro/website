@@ -20,7 +20,7 @@ video_thumbnail: None
 wordpress_id: 5613
 youtube_video_url: None
 categories:
-- Blog
+- blog
 permalink: /blog/:title/
 ---
 

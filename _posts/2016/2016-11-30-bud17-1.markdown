@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+- blog
 comments: false
 date: 2016-11-30 11:44:55
 featured_image_name: LinaroConnectBudapestBUD17Registrationhaslaunched.png
