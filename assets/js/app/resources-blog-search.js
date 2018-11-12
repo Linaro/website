@@ -33,6 +33,22 @@ function sort_by_date_desc(a, b) {
 function sort_by_date_asc(a, b) {
     return new Date(a.date_published).getTime() - new Date(b.date_published).getTime();
 }
+function dynamicSort(property) {
+    var sortOrder = 1;
+
+    if(property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+
+    return function (a,b) {
+        if(sortOrder == -1){
+            return b[property].localeCompare(a[property]);
+        }else{
+            return a[property].localeCompare(b[property]);
+        }        
+    }
+}
 // Fuzzy Search Setup
 function listResults(json_data) {
     // Define the underscore.js template settings.
@@ -142,6 +158,7 @@ var delay = (function(){
 
 // This function sorts the data via a pre-defined filter
 function sortDataViaFilter(filter, toggle){
+    // Filter data based on the date
     if(filter == "date"){
         if(toggle == "desc"){
             var sortedJsonData = currentJSON.sort(sort_by_date_asc);
@@ -155,7 +172,36 @@ function sortDataViaFilter(filter, toggle){
             // Set the new data-toggle value
             $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
         }
-        
+    }
+    // Filter the data based on the author
+    if(filter == "author"){
+        if(toggle == "desc"){
+            var sortedJsonData = currentJSON.sort(dynamicSort(filter));
+            listResults(sortedJsonData);
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "asc");
+        }
+        if(toggle == "asc"){
+            // Sort data by date desc using the currentJSON being displayed in the table
+            var sortedJsonData = currentJSON.sort(dynamicSort("-" + filter));
+            listResults(sortedJsonData);
+            // Set the new data-toggle value
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
+        }
+    }
+    // Filter the data based on the source
+    if(filter == "source"){
+        if(toggle == "desc"){
+            var sortedJsonData = currentJSON.sort(dynamicSort(filter));
+            listResults(sortedJsonData);
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "asc");
+        }
+        if(toggle == "asc"){
+            // Sort data by date desc using the currentJSON being displayed in the table
+            var sortedJsonData = currentJSON.sort(dynamicSort("-" + filter));
+            listResults(sortedJsonData);
+            // Set the new data-toggle value
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
+        }
     }
 }
 // Check to see if the document has loaded 
