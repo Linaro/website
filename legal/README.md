@@ -14,8 +14,17 @@ if (window.jQuery) {
 }
 }
 defer(function(){
-    var hash = window.location.hash;
-    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    $('.hashLink').click(function(e) {
+        e.preventDefault(); // Prevent the browser from handling the link normally, this stops the page from jumping around. Remove this line if you do want it to jump to the anchor as normal.
+        var linkHref = $(this).attr('href'); // Grab the URL from the link
+        if (linkHref.indexOf("#") != -1) { // Check that there's a # character
+            var hash = linkHref.substr(linkHref.indexOf("#") + 1); // Assign the hash to a variable (it will contain "myanchor1" etc
+            // Show the relevant tab
+            $('ul.nav-tabs a[href="#' + hash + '"]').tab('show');
+
+        }
+    });
+
 });
 </script>
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
@@ -84,7 +93,7 @@ Except where expressly provided otherwise in an agreement between you and us, al
 
 ### Information about you and your visits to Our site
 
-We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](/legal/#privacy_policy).
+We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](#privacy_policy){:.hashLink}.
 
 * * *
 
@@ -114,7 +123,7 @@ Ensuring, as far is reasonably practical, people know how their information will
 
 To achieve these aims, Linaro follows the code of practice recommended by the UK Information Commissioner under section 51 of the Data Protection Act 1998.
 
-We are committed to safeguarding the privacy of users of web sites operated by or on behalf of Linaro™ Limited (together “Linaro Website”). This statement explains how We collect, use and safeguard Data (defined below) you provide when using a Linaro Website. This statement forms part of and is incorporated into the [Terms and Conditions of Use](https://connect.linaro.org/legal/). Any personal information which may be collected from a Linaro Website will be treated in accordance with this privacy policy, the Data Protection Act 1998, as amended and other applicable laws. For the purposes of the Data Protection Act 1998, the data controller is Linaro Limited, a company registered in England and Wales with company number 07180318 (hereinafter “We/Us/Our”). Registered office address: Harston Mill Royston Rd Harston Cambridge CB22 7GG. Linaro Limited is a private limited company.
+We are committed to safeguarding the privacy of users of web sites operated by or on behalf of Linaro™ Limited (together “Linaro Website”). This statement explains how We collect, use and safeguard Data (defined below) you provide when using a Linaro Website. This statement forms part of and is incorporated into the [Terms and Conditions of Use](#t_and_cs){:.hashLink}. Any personal information which may be collected from a Linaro Website will be treated in accordance with this privacy policy, the Data Protection Act 1998, as amended and other applicable laws. For the purposes of the Data Protection Act 1998, the data controller is Linaro Limited, a company registered in England and Wales with company number 07180318 (hereinafter “We/Us/Our”). Registered office address: Harston Mill Royston Rd Harston Cambridge CB22 7GG. Linaro Limited is a private limited company.
 
 By using a Linaro Website, you consent to the collection and use of your information in the manner and for the purposes set out below.
 

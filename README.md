@@ -96,6 +96,24 @@ image:
 ---
 ```
 
+### Jekyll Post Categories
+
+There are three post categories to choose from:
+
+- News
+- Blog
+- Resource
+
+#### News Posts
+News posts are reserved for Linaro.org press releases and are rendered under the /news/ permalink. Use "News" as the Jekyll post category to push a Linaro.org news press release.
+
+#### Blog Posts
+Blog posts are used for general Linaro.org blog post updates. These can range from technical posts to Linaro business oriented "Informal" updates. To create a blog post that is rendered under the /blog/ permalink then please add "Blog" as the Jekyll post categoroy.
+
+
+#### Resource Posts
+Resource posts are reserved for Linaro.org event resource oriented posts. When we attend events which have Linaro employees spekaing we will add a `Resource` post that contains links to the event resources. This will also allow us to loop through all Resource posts and index/search them at [/resources/](https://www.linaro.org/resources/)
+
 #### Author
 
 Change the author to a unique author username (e.g firstname.surname). If this is your first time posting then add your author information to the [_authors](https://github.com/Linaro/website/blob/master/_authors) collection by duplicating an existing author's .md file and modifying the values appropiately. Make sure to add your profile image to the [/assets/images/authors folder](https://github.com/Linaro/website/tree/master/assets/images/authors). Verify that the author "username:" in the _authors/ collection file for your author is an exact match to that provided as the author: in your post. Doing the above will ensure your author image and pages are rendered correctly on the Linaro.org website.
