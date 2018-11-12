@@ -31,7 +31,7 @@ The SKS/KeyGen2 project is about establishing an security architecture, provisio
 **Speakers:** Anders Rundgren
 **Track:** Security
 **Session ID:** BUD17-203
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-203/](/resources/bud17/bud17-203/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-203/](https://connect.linaro.org/resources/bud17/bud17-203/)
 
 
 
@@ -47,7 +47,7 @@ Device Tree is well established in the Linux kernel. But since there could be ot
 **Speakers:** Joakim Bech, Jens Wiklander
 **Track:** Security
 **Session ID:** BUD17-313
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-313/](/resources/bud17/bud17-313/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-313/](https://connect.linaro.org/resources/bud17/bud17-313/)
 
 
 
@@ -63,7 +63,7 @@ Benchmark and profiling are two newly developed features in OP-TEE. In this sess
 **Speakers:** Jerome Forissier, Igor Opaniuk
 **Track:** Security
 **Session ID:** BUD17-416
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-416/](/resources/bud17/bud17-416/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-416/](https://connect.linaro.org/resources/bud17/bud17-416/)
 
 
 
@@ -79,4 +79,4 @@ On a device it’s not uncommon to share power domains between secure and non-se
 **Speakers:** Vincent Guittot, Joakim Bech
 **Track:** Security
 **Session ID:** BUD17-510
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-510/](/resources/bud17/bud17-510/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-510/](https://connect.linaro.org/resources/bud17/bud17-510/)

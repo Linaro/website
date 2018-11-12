@@ -42,7 +42,7 @@ Short updates on various LMG initiatives, including boottime reduction, Android 
 **Speakers:**
 **Track: **LMG
 **Session ID:** BUD17-106
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-106/](/resources/bud17/bud17-106/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-106/](https://connect.linaro.org/resources/bud17/bud17-106/)
 
 
 
@@ -64,7 +64,7 @@ LHG has recently launched an AOSP TV lead project which is focused on specific T
 **Speakers:** Khasim Syed Mohammed
 **Track:** LMG
 **Session ID:** BUD17-118
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-118/](/resources/bud17/bud17-118/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-118/](https://connect.linaro.org/resources/bud17/bud17-118/)
 
 
 
@@ -88,7 +88,7 @@ LMG team, in collaboration with Toolchains team, has worked on multiple areas re
 **Speakers:** Bero Rsenkränzer, Renato Golin
 **Track:** LMG
 **Session ID:** BUD17-202
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-202/](/resources/bud17/bud17-202/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-202/](https://connect.linaro.org/resources/bud17/bud17-202/)
 
 
 
@@ -111,7 +111,7 @@ This session will talk about efforts around increasing Android testing – frequ
 **Speakers:**
 **Track:** LMG
 **Session ID:** BUD17-206
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-206/](/resources/bud17/bud17-206/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-206/](https://connect.linaro.org/resources/bud17/bud17-206/)
 
 
 
@@ -127,7 +127,7 @@ This will be a forward thinking session where, in the age of ML/AI/VR/AR, we sha
 **Speakers:** Carlos Kik Lloret
 **Track:** LMG
 **Session ID:** BUD17-222
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-222/](/resources/bud17/bud17-222/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-222/](https://connect.linaro.org/resources/bud17/bud17-222/)
 
 
 
@@ -153,4 +153,4 @@ By definition, ‘unplanned’ session for people to come and discuss anything a
 **Speakers:** Sudip Jain
 **Track:** LITE
 **Session ID:** BUD17-414
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-414/](/resources/bud17/bud17-414/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-414/](https://connect.linaro.org/resources/bud17/bud17-414/)

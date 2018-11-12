@@ -34,7 +34,7 @@ An important base for security is the beginning of the boot process. It is neces
 **Speakers:** David Brown
 **Track:** LITE
 **Session ID:** BUD17-100
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-100/](/resources/bud17/bud17-100/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-100/](https://connect.linaro.org/resources/bud17/bud17-100/)
 
 
 
@@ -50,7 +50,7 @@ Scripting languages is hot emerging topic in IoT. They allow easy learnability a
 **Speakers:** Paul Sokolovsky,
 **Track:** LITE
 **Session ID:** BUD17-104
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-104/](/resources/bud17/bud17-104/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-104/](https://connect.linaro.org/resources/bud17/bud17-104/)
 
 
 
@@ -66,7 +66,7 @@ The TI SimpleLink CC32xx family of MCUs provides an SoC and supporting SDK which
 **Speakers:** Gil Pitney
 **Track:** LITE
 **Session ID:** BUD17-112
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-112/](/resources/bud17/bud17-112/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-112/](https://connect.linaro.org/resources/bud17/bud17-112/)
 
 
 
@@ -81,7 +81,7 @@ This presentation summarized efficient project management solution to c
 **Speakers:** Vincenzo Frascino
 **Track:** LITE
 **Session ID:** BUD17-116
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-116/](/resources/bud17/bud17-116/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-116/](https://connect.linaro.org/resources/bud17/bud17-116/)
 
 
 
@@ -98,7 +98,7 @@ supports the wireless protocols to connect such devices to the internet, acting�
 **Speakers:** Stefan Schmidt
 **Track:** LITE
 **Session ID:** BUD17-120
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-120/](/resources/bud17/bud17-120/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-120/](https://connect.linaro.org/resources/bud17/bud17-120/)
 
 
 
@@ -114,7 +114,7 @@ An example of a reference IoT product can be thought of supporting several core 
 **Speakers:** Michael Scott, Ricardo Salveti
 **Track:** LTD
 **Session ID:** BUD17-405
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-405/](/resources/bud17/bud17-405/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-405/](https://connect.linaro.org/resources/bud17/bud17-405/)
 
 
 
@@ -130,4 +130,4 @@ At this BoF we are going to discuss what an IoT toolchain should look like from 
 **Speakers:** Maxim Kuvyrkov
 **Track:** Toolchain
 **Session ID:** BUD17-223
-**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-223/](/resources/bud17/bud17-223/)
+**Resource page: **[http://connect.linaro.org/resource/bud17/bud17-223/](https://connect.linaro.org/resources/bud17/bud17-223/)

@@ -90,7 +90,7 @@ Keynote
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-200k1/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-200k1/)
 </td>
 </tr>
 <tr >
@@ -108,7 +108,7 @@ LEG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-201/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-201/)
 </td>
 </tr>
 <tr >
@@ -126,7 +126,7 @@ LMG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-202/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-202/)
 </td>
 </tr>
 <tr >
@@ -144,7 +144,7 @@ Security
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-203/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-203/)
 </td>
 </tr>
 <tr >
@@ -162,7 +162,7 @@ Kernel
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-204/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-204/)
 </td>
 </tr>
 <tr >
@@ -180,7 +180,7 @@ LEG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-205/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-205/)
 </td>
 </tr>
 <tr >
@@ -198,7 +198,7 @@ LMG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-206/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-206/)
 </td>
 </tr>
 <tr >
@@ -216,7 +216,7 @@ LEG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-209/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-209/)
 </td>
 </tr>
 <tr >
@@ -234,7 +234,7 @@ Kernel
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-211/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-211/)
 </td>
 </tr>
 <tr >
@@ -252,7 +252,7 @@ LEG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-213/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-213/)
 </td>
 </tr>
 <tr >
@@ -270,7 +270,7 @@ Power Management
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-214/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-214/)
 </td>
 </tr>
 <tr >
@@ -288,7 +288,7 @@ LAVA
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-215/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-215/)
 </td>
 </tr>
 <tr >
@@ -306,7 +306,7 @@ LNG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-217/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-217/)
 </td>
 </tr>
 <tr >
@@ -324,7 +324,7 @@ Power Management
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-218/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-218/)
 </td>
 </tr>
 <tr >
@@ -342,7 +342,7 @@ Virtualization
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-221/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-221/)
 </td>
 </tr>
 <tr >
@@ -360,7 +360,7 @@ LMG
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-222/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-222/)
 </td>
 </tr>
 <tr >
@@ -378,7 +378,7 @@ Toolchain
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-223/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-223/)
 </td>
 </tr>
 <tr >
@@ -396,7 +396,7 @@ BUD17-TR01: Philosophy of Open Source
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-tr01/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-tr01/)
 </td>
 </tr>
 <tr >
@@ -414,7 +414,7 @@ BUD17-TR02: Upstreaming 101
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-tr02/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-tr02/)
 </td>
 </tr>
 <tr >
@@ -432,7 +432,7 @@ BUD17-TR03: Upstreaming 201
 </td>
 
 <td markdown="1">
-[View Resources](/resources/bud17/bud17-tr03/)
+[View Resources](https://connect.linaro.org/resources/bud17/bud17-tr03/)
 </td>
 </tr>
 </tbody>

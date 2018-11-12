@@ -37,7 +37,7 @@ Even if the CPU-Idle framework has improved significantly over the last years, w
 **Speakers:** Ulf Hansson
 **Track:** Power Management
 **Session ID:** BUD17-102
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-102/](/resources/bud17/bud17-102/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-102/](https://connect.linaro.org/resources/bud17/bud17-102/)
 
 * * *
 
@@ -50,7 +50,7 @@ This session is a sequel of the “Bus scaling QoS” session from LAS16. During
 **Speakers:** Georgi Djakov
 **Track:** Power Management
 **Session ID:** BUD17-214
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-214/](/resources/bud17/bud17-214/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-214/](https://connect.linaro.org/resources/bud17/bud17-214/)
 
 
 * * *
@@ -64,7 +64,7 @@ The Per Entity Load Tracking (PELT) is a key stone in tasks placement of the sch
 **Speakers:** Vincent Guittot
 **Track:** Power Management
 **Session ID:** BUD17-218
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-218/](/resources/bud17/bud17-218/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-218/](https://connect.linaro.org/resources/bud17/bud17-218/)
 
 
 * * *
@@ -81,7 +81,7 @@ In this presentation, Juri Lelli, after giving a (very briefly) review of the cu
 **Speakers:** Juri Lelli
 **Track:** Power Management
 **Session ID:** BUD17-307
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-307/](/resources/bud17/bud17-307/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-307/](https://connect.linaro.org/resources/bud17/bud17-307/)
 
 * * *
 
@@ -95,4 +95,4 @@ The CPUidle is one component of the power management framework. It behaves in an
 **Speakers:** Daniel Lezcano
 **Track:** Power Management
 **Session ID:** BUD17-309
-**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-309/](/resources/bud17/bud17-309/)
+**Resource page:** [http://connect.linaro.org/resource/bud17/bud17-309/](https://connect.linaro.org/resources/bud17/bud17-309/)
