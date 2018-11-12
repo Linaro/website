@@ -93,7 +93,7 @@ Thursday 28 September - 08:45 - 09:45
 
 **Arm Data Centre Day**
 How does the Arm-Powered data center of the future look and how can you prepare for it? Linaro Connect SFO17 will bring together the leading Arm vendors, end users and the open source development community in Burlingame, California, to discuss the latest products, developments and open source software support.Friday 29 September - 08:45 - 09:45 PDT
-[Learn more about Arm Data Center Day](/about/) | [Register](http://link.linaro.org/sfo17armdatacenterday) | [Download Agenda](/agendas/)
+[Learn more about Arm Data Center Day](/about/) | [Register](http://link.linaro.org/sfo17armdatacenterday) | [Download Agenda](https://connect.linaro.org/agendas/)
 
 
 
