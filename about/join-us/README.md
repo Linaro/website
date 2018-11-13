@@ -128,6 +128,7 @@ css-package: careers
     <div class="row" id="careers-learning">
         <div class="col-sm-6 text-col">
             <div class="text-block">
+                <h3>Looking for an internship?</h3>
                 <p class="responsive-text fly">
                    "A year and a half ago, I was an intern at Linaro as a
                     Marketing and Events Assistant. Once my internship
@@ -153,7 +154,7 @@ css-package: careers
             <div class="media-block puzzle" style="background-image:url(/assets/images/content/internship-brochure-cover.png)">
                 <div class="fly text-center">
                     <a href="/assets/downloads/Linaro_Interns.pdf" 
-                    class="btn btn-careers fly">View Brochure</a>
+                    class="btn btn-careers fly">View Internship Brochure</a>
                 </div>
             </div>
         </div>
