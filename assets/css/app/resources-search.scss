@@ -31,3 +31,13 @@ th.filter[data-toggle='desc'] > span.caret {
     filter: none;
     -ms-filter: none;
 }
+.checkbox {
+    padding: 10px;
+    display:inline-block;
+}
+.checkbox input {
+    margin-right:10px; 
+    height:20px;
+    width:20px;
+    top:5px;
+}
