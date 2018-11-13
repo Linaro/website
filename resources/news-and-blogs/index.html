@@ -27,7 +27,11 @@ css-package: resources-search
                 
             </p>
             <input type="text" class="form-control" placeholder="Search..." id="search-query">
-            <button type="button" id="show-all-results" class="btn btn-sm btn-primary">Show All</button>
+            <form class="form-inline">
+                <button type="button" id="show-all-results" class="btn btn-sm btn-primary">Show All</button>
+                <select class="form-control" name="author-select" id="author-select"></select>
+                <div id="site-checkboxes"></div>
+            </form>
             <!--Start Container-->
             <div style="overflow-x:scroll;">
                 <table class="table table-bordered">
