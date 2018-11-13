@@ -109,9 +109,34 @@ function listResults(json_data) {
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
 }
+// This function gets the unique values of a certain key from an array
+function getUniqueValuesOfKey(array, key){
+    return array.reduce(function(carry, item){
+      if(item[key] && !~carry.indexOf(item[key])) carry.push(item[key]);
+      return carry;
+    }, []);
+}
 // This function takes all the JSON data as input and adds the filter elements to the html
 function addFilters(allJSONData){
-    
+    // Add the unique authors to the author select
+    var unqiueAuthors = getUniqueValuesOfKey(allJSONData, "author");
+    var authorElements = '<option value="choose">Choose an Author</option>';
+    for(i=0;i<unqiueAuthors.length;i++){
+        var authorElements = authorElements + '<option value="' + unqiueAuthors[i] + '">' + unqiueAuthors[i] + '</option>';
+    }
+    // Append the authors to the author select
+    $("#author-select").append(authorElements);
+    console.log(authorElements);
+    // Add unique sites to the site select
+    var uniqueSites = getUniqueValuesOfKey(allJSONData, "site");
+    var  = result.original.site.replace(/(^\w+:|^)\/\//, '');
+    var siteElements = '<div class="checkbox"><label><input type="checkbox" value="all-sites" id="all-sites" checked=checked>All Sites</label></div>';
+    for(i=0;i<uniqueSites.length;i++){
+        var siteElements = siteElements + '<div class="checkbox"><label><input type="checkbox" value="'+ formatted_site +'" checked=checked id="' + formatted_site + '">'+ formatted_site +'</label></div>';
+    }
+    // Append the authors to the author select
+    $("#site-checkboxes").append(siteElements);
+    console.log(siteElements);
 }
 // This function handles the jsonp data we receive
 function func(jsonData){
