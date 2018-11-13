@@ -125,6 +125,39 @@ css-package: careers
             </div>
         </div>
     </div>
+    <div class="row" id="careers-learning">
+        <div class="col-sm-6 text-col">
+            <div class="text-block">
+                <p class="responsive-text fly">
+                   "A year and a half ago, I was an intern at Linaro as a
+                    Marketing and Events Assistant. Once my internship
+                    was over, my Manager told me that she would be
+                    happy for me to come back after graduating.
+                    I returned to university and 6 months later
+                    I was back in Linaro for my second internship.
+                    I have now been a Linaro employee since
+                    last August as an Events and Social Media
+                    Coordinator and I am really pleased to
+                    be part of the team."
+                </p>
+                <p>
+                <h3>Celia Ilardi</h3>
+                <small>
+                Entry Level, Events and<br>
+                Social Media Coordinator
+                </small>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6 no-padding video-col">
+            <div class="media-block puzzle" style="background-image:url(/assets/images/content/internship-brochure-cover.png)">
+                <div class="fly text-center">
+                    <a href="/assets/downloads/Linaro_Interns.pdf" 
+                    class="btn btn-careers fly">View Brochure</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row padded-row" id="careers">
         <div class="container">
             <div class="col-xs-12 text-center no-padding">
