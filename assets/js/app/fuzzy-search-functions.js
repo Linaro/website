@@ -49,7 +49,7 @@ function dynamicSort(property) {
 //                         '<td><a href="{{post_site}}"><img class="img-responsive" src="{{site_image}}"/></a></td>' +
 //                         '</tr>';
 // var underscore_table_row_template = _.template(template_string);
-function filter_results(current_json_data, key, potential_keys, underscore_table_row_template, underscore_template_settings) {
+function filter_results(current_json_data, key, potential_keys, underscore_table_row_template) {
     // Define the underscore.js template settings.
      _.templateSettings = {
             interpolate : /\{\{(.+?)\}\}/g
