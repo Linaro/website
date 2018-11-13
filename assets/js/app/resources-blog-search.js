@@ -51,10 +51,15 @@ function dynamicSort(property) {
 }
 // Detects if an element is in an array
 function isInArray(value, array) {
-    return array.indexOf(value) > -1;
+    for(i=0;i<array.length;i++){
+        if(array[i].indexOf(value) > -1){
+            return true;
+        } 
+    }
+    return false;
 }
 // Fuzzy Search Setup
-function filter_results_site(json_data, key, potential_keys) {
+function filter_results(json_data, key, potential_keys) {
     // Define the underscore.js template settings.
     _.templateSettings = {
         interpolate : /\{\{(.+?)\}\}/g
@@ -94,21 +99,21 @@ function filter_results_site(json_data, key, potential_keys) {
         if (isInArray(result.original[key], potential_keys)){
             return listItemTemplate({
                 post_url: result.original.url
-               , post_title: items[0]
-               , post_author: author
-               , post_date_published: formatted_date
-               , post_site: result.original.site
-               , post_site_formatted: formatted_site
-               , site_image: site_image
-               });
+                , post_title: items[0]
+                , post_author: author
+                , post_date_published: formatted_date
+                , post_site: result.original.site
+                , post_site_formatted: formatted_site
+                , site_image: site_image
+            });
         }
     });
     // Add original JSON array to currentJSON
-    var currentJSON = [];
+    currentJSON = [];
     
     // Map the original item to a new currentJSON Array
     filtered.map(function(item) {
-        if (isInArray(item.original[key], potential_keys)){
+        if(isInArray(item.original[key], potential_keys)){
             currentJSON.push(item.original);
         }        
     });
@@ -165,7 +170,7 @@ function listResults(json_data) {
         });
     });
     // Add original JSON array to currentJSON
-    var currentJSON = [];
+    currentJSON = [];
     
     // Map the original item to a new currentJSON Array
     filtered.map(function(item) {        
@@ -196,49 +201,53 @@ function addFilters(allJSONData){
     console.log(authorElements);
     // Add unique sites to the site select
     var uniqueSites = getUniqueValuesOfKey(allJSONData, "site");
-    var siteElements = '<div class="checkbox"><label><input type="checkbox" value="all-sites" id="all-sites" checked=checked>All Sites</label></div>';
+    var siteElements = '<div class="checkbox"><label><input type="checkbox" value="all-sites" id="all-sites" checked=checked><span class="checkbox-text">All Sites</span></label></div>';
     for(i=0;i<uniqueSites.length;i++){
         var formatted_site = uniqueSites[i].replace(/(^\w+:|^)\/\//, '');
-        var siteElements = siteElements + '<div class="checkbox"><label><input class="site-checkbox" type="checkbox" value="'+ uniqueSites[i] +'" id="' + formatted_site + '">'+ formatted_site +'</label></div>';
+        var siteElements = siteElements + '<div class="checkbox"><label><input class="site-checkbox" type="checkbox" value="'+ uniqueSites[i] +'" id="' + formatted_site + '"><span class="checkbox-text">'+ formatted_site +'</span></label></div>';
     }
     // Append the authors to the author select
     $("#site-checkboxes").append(siteElements);
     console.log(siteElements);
-
+    // Create a new checked_boxes array
+    var checked_boxes = [];
     // Detect when a site url checkbox is checked and added any checked boxes to the checked_boxes array
     $(".site-checkbox").click(function(){
         // Set the all-sites checkbox to unchecked 
-        $("#all-sites").removeAttr("checked");
-        // Create a new checked_boxes array
-        var checked_boxes = [];
+        $("#all-sites").prop("checked", false);
+        
         // Loop through all elements with the class site-checkbox and add
         // those that are checked to the checked_boxes array
-        $(this).each(function(){
-            $(this).is(":checked", function(){
-                checked_boxes.push(($(this).attr("value")));
-            }); 
-        });
+        if($(this).prop("checked")){
+            checked_boxes.push($(this).attr("value"));
+        }
+        // Remove the checkbox if already checked.
+        else{
+            // Use Jquery's grep method to loop over checked_boxes and return only the items that do no equal
+            // the already checked boxes value.
+            checked_boxes = $.grep(checked_boxes, function(value) {
+                return value != $(this).attr("value");
+              });
+        }
+        console.log(checked_boxes);
         // Filter the results based on a key and an array of potential keys
         filter_results(currentJSON, "site", checked_boxes);
     });
     // Detect when all sites checkbox is clicked and then toggle other checkboxes and list allJSONData
     $("#all-sites").click(function(){
+        // Set the checked_boxes array to empty
+        checked_boxes = [];
         // If checkbox is already checked then make sure it stays checked. Toggling all-sites checkbox without selecting
         // other site does nothing...
-        $(this).is(":checked", function(){
-            $(this).attr("checked");
-        }); 
+        $(this).prop("checked", true);
         $(".site-checkbox").each(function(){
             // Set the all-sites checkbox to unchecked 
-            $(this).removeAttr("checked");
+            $(this).prop("checked", false);
         });
         // Show all JSON data
         listResults(allJSONData);
     });
 }
-
-
-
 // This function handles the jsonp data we receive
 function func(jsonData){
     if(counter == (sources.length - 1)){
