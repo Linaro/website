@@ -51,7 +51,9 @@ function dynamicSort(property) {
 // var underscore_table_row_template = _.template(template_string);
 function filter_results(current_json_data, key, potential_keys, underscore_table_row_template, underscore_template_settings) {
     // Define the underscore.js template settings.
-    _.templateSettings = underscore_template_settings;  
+     _.templateSettings = {
+            interpolate : /\{\{(.+?)\}\}/g
+        };
     // Specify a new html _.template
     var listItemTemplate = underscore_table_row_template;
     // Get the search query val which we are searching for.
