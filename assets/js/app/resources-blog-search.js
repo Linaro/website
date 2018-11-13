@@ -1,7 +1,9 @@
 // Fuzzy search setup
-var template_settings = {
+// Underscore template settings for parsing the template.
+var underscore_template_settings = {
     interpolate : /\{\{(.+?)\}\}/g
 };
+// Setup the template string for results to be added to.
 var template_string = '<tr>' +
                         '<td>{{post_title}}</td>' +
                         '<td>{{post_author}}</td>' + 
@@ -9,6 +11,7 @@ var template_string = '<tr>' +
                         '<td><a href="{{post_url}}">View post</a></td>' +
                         '<td><a href="{{post_site}}"><img class="img-responsive" src="{{site_image}}"/></a></td>' +
                         '</tr>';
+// Add the template string to the _.template function
 var underscore_table_row_template = _.template(template_string);
 // This global array stores the concatenated and sorted jsonp data
 var allJSONData = [];
@@ -146,7 +149,7 @@ function addFilters(allJSONData){
         }
         console.log(checked_boxes);
         // Filter the results based on a key and an array of potential keys
-        filter_results(currentJSON, "site", checked_boxes, underscore_table_row_template, underscore_template_settings);
+        filter_results(currentJSON, "site", checked_boxes, underscore_table_row_template);
     });
     // Detect when all sites checkbox is clicked and then toggle other checkboxes and list allJSONData
     $("#all-sites").click(function(){
