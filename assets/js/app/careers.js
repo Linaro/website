@@ -21,9 +21,11 @@ $(document).ready(function() {
       loop:true,
       margin:10,
       nav:false,
+      autoplayTimeout:4000,
       dots: true,
       lazyLoad: true,
       autoplay:true,
+      autoplayHoverPause:true,
       responsiveClass: true,
       navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
       responsive:{
