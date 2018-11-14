@@ -9,16 +9,13 @@ css-package: careers
 ---
 <div class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
-        <div style="background: url(/assets/images/content/careers-image-1.jpg) no-repeat center center fixed;"
-         class="lazyload item active">
+        <div style="background: url(/assets/images/content/careers-image-4.jpg);" 
+        class="lazyload item active">
         </div>
-        <div style="background: url(/assets/images/content/yvr18-group-photo.jpg) no-repeat center center fixed;" 
-        class="lazyload item">
+        <div style="background: url(/assets/images/content/yvr18-group-photo.jpg);" 
+        class="lazyload item ">
         </div>
-        <div style="background: url(/assets/images/content/careers-image-3.jpg) no-repeat center center fixed;" 
-        class="lazyload item">
-        </div>
-        <div style="background: url(/assets/images/content/careers-image-4.jpg) no-repeat center center fixed;" 
+        <div style="background: url(/assets/images/content/careers-image-3.jpg);" 
         class="lazyload item">
         </div>
     </div>
