@@ -253,6 +253,7 @@ div#careers {
     align-items: center;
     justify-content: center;
 }
+
 // Responsive Text css
 #wrapper .responsive-text {
     font-size: 18px;
@@ -274,6 +275,11 @@ div#careers {
 #wrapper .item {
     background-size: cover !important;
     top: $navbar-height;
+    background-size: cover !important;
+    background-position-y: -200px !important;
+    background-position-x: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
 }
 @media(max-width: 340px){
     #wrapper .item {
