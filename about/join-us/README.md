@@ -144,16 +144,59 @@ css-package: careers
                             be part of the team."
                         </p>
                         <p>
-                        <h3>Celia Ilardi</h3>
-                        <small>
-                        Entry Level, Events and<br>
-                        Social Media Coordinator
-                        </small>
+                            <h3>Celia Ilardi</h3>
+                            <small>
+                                Entry Level, Events and<br>
+                                Social Media Coordinator
+                            </small>
                         </p>
                     </div>
                     <div class="activity-block item">
+                        <p class="responsive-text fly">
+                            A little less than a year ago I began my internship with Linaro. This internship was the last
+                            thing I had to do before graduating, and those six months were the time where I learned
+                            the most about Software Engineering, Machine Architectures and
+                            Infrastructure. Linaro's employees' expertise is renowned all over
+                            the Arm world, and by working with them, one cannot help but
+                            gain more knowledge, understanding and experience.
+                            With my internship over, so was my Masters Degree, and
+                            I had the immense pleasure of having a full-time position
+                            as an Engineer proposed to me. As soon as my university
+                            allowed, I started working full-time on multiple and
+                            various projects, which I had the privilege to have
+                            some influence on. Solving bugs, adding new
+                            features and driving the projects forward is my
+                            every day routine, and I love it !
+                        </p>
+                        <p>
+                            <h3>Baptiste Gerandeau</h3>
+                            <small>
+                                Entry Level, Engineer
+                            </small>
+                        </p>
                     </div>
                     <div class="activity-block item">
+                        <p class="responsive-text fly">
+                            A year ago, I was a Software Engineering Intern at Linaro. Through my internship I was
+                            able to find a practical application for the theory I had been learning at University.
+                            During my time as an Intern I created a facial recognition demo, and
+                            by the end of my internship I discovered the huge satisfaction of
+                            developing and completing a project. As I didn't have a
+                            background in Neural Networks at the time, I realised the joy
+                            of learning and diving deep into a topic on my own instead of
+                            following a lecturers lesson plan. More recently I started as
+                            a Software Engineer full-time at Linaro after finishing
+                            university in may. As a member of the 96Boards team
+                            in Linaro I've had the opportunity to work in many
+                            topics which interest me, such as self driving cars and
+                            neural networks which has been very fulfilling.
+                        </p>
+                        <p>
+                            <h3>Theodore Grey</h3>
+                            <small>
+                                Entry Level, Engineer
+                            </small>
+                        </p>
                     </div>
                 </div>
             </div>
