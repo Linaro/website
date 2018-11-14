@@ -6,25 +6,28 @@
     </div>
     <div class="container home-blog-post-carousel-container">
         <div class="owl-carousel owl-theme" id="blog-slider">
-            
-            {% for post in site.data.featured-posts %}
-                
-                <div class="item home-page-blog-post-slider-item">
-                    <div class="col-xs-12 no-padding">
-                        <a href="{{post.url}}">
-                            <div class="blogs_home_block_post {{post.class}}">
-                                <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
-                                <div class="blog-post-icon">
-                                    <picture>
-                                      <img alt="{{post.class | capitalize}} Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                       data-src="{% asset_path '{{post.icon}}' %}" class="lazyload img-responsive post_icon center-block"/>
-                                    </picture>
-                                </div>
-                            </div>                
-                        </a>
-                    </div>
-                </div>
-            
+            {% assign counter = 0 %}
+            {% for post in site.posts limit: 10 %}
+                {% if forloop.index < 10 %}
+                    {% if post.category == "News" or post.category == "Blog"%}
+                        <div class="item home-page-blog-post-slider-item">
+                            <div class="col-xs-12 no-padding">
+                                <a href="{{post.url}}">
+                                    <div class="blogs_home_block_post linaro-two">
+                                        <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
+                                        <div class="blog-post-icon">
+                                            <picture>
+                                            <img alt="linaro-two Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/assets/images/content/Linaro-Logo_white-icon.svg" class="lazyload img-responsive post_icon center-block"/>
+                                            </picture>
+                                        </div>
+                                    </div>                
+                                </a>
+                            </div>
+                        </div>
+                        {% assign counter = counter |  plus: 1 %}
+                    {% endif %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
