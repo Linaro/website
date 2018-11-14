@@ -132,7 +132,8 @@ css-package: careers
                 <div class="owl-carousel owl-theme careers-carousel">
                     <div class="activity-block item">
                         <p class="responsive-text fly">
-                            "A year and a half ago, I was an intern at Linaro as a
+                            <blockquote>
+                            A year and a half ago, I was an intern at Linaro as a
                             Marketing and Events Assistant. Once my internship
                             was over, my Manager told me that she would be
                             happy for me to come back after graduating.
@@ -141,18 +142,18 @@ css-package: careers
                             I have now been a Linaro employee since
                             last August as an Events and Social Media
                             Coordinator and I am really pleased to
-                            be part of the team."
-                        </p>
-                        <p>
-                            <h3>Celia Ilardi</h3>
+                            be part of the team.
+                            <h4>Celia Ilardi</h4>
                             <small>
                                 Entry Level, Events and<br>
                                 Social Media Coordinator
                             </small>
+                            </blockquote>
                         </p>
                     </div>
                     <div class="activity-block item">
                         <p class="responsive-text fly">
+                        <blockquote>
                             A little less than a year ago I began my internship with Linaro. This internship was the last
                             thing I had to do before graduating, and those six months were the time where I learned
                             the most about Software Engineering, Machine Architectures and
@@ -167,16 +168,17 @@ css-package: careers
                             some influence on. Solving bugs, adding new
                             features and driving the projects forward is my
                             every day routine, and I love it !
-                        </p>
-                        <p>
-                            <h3>Baptiste Gerandeau</h3>
+                            <br>
+                            <h4>Baptiste Gerandeau</h4>
                             <small>
                                 Entry Level, Engineer
                             </small>
+                        </blockquote>
                         </p>
                     </div>
                     <div class="activity-block item">
                         <p class="responsive-text fly">
+                            <blockquote>
                             A year ago, I was a Software Engineering Intern at Linaro. Through my internship I was
                             able to find a practical application for the theory I had been learning at University.
                             During my time as an Intern I created a facial recognition demo, and
@@ -190,12 +192,12 @@ css-package: careers
                             in Linaro I've had the opportunity to work in many
                             topics which interest me, such as self driving cars and
                             neural networks which has been very fulfilling.
-                        </p>
-                        <p>
-                            <h3>Theodore Grey</h3>
+                            <br>
+                            <h4>Theodore Grey</h4>
                             <small>
                                 Entry Level, Engineer
                             </small>
+                            </blockquote>
                         </p>
                     </div>
                 </div>
