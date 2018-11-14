@@ -9,13 +9,11 @@
           </a>
       </li>
       {% for core_group in site.core %}
-        {% if core_group.director %}
           <li class="work_footer_li">
             <a href="{{core_group.permalink}}">
               {{core_group.title}}
             </a>
           </li>
-        {% endif %}
       {% endfor %}
     </ul>
 

@@ -81,3 +81,67 @@ li.list-group-item.list-group-item-success.text-center:hover {
 li.list-group-item.fly.show-block {
     height: 60px;
 }
+// Latest News list css
+.post-site img.img-responsive {
+    width: auto;
+    display: inline-block;
+    height: 40px;
+}
+
+span.post-title {
+    width: 80%;
+    position: relative;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+}
+li.list-group-item.fly.show-block {
+    padding: 0px;
+}
+span.post-site {
+    width: 20%;
+    display: block;
+    float: right;
+    padding: 10px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+li.list-group-item.fly.show-block {
+    height: 60px;
+}
+span.post-date {
+    width: 80%;
+    position: relative;
+    padding-left: 10px;
+    font-size: 10px;
+    height: 20px;
+    overflow: hidden;
+    top: -2px;
+}
+.panel.panel-default {
+    margin: 5px;
+}
+span.project-title {
+    width: 80%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    overflow: hidden;
+}
+span.project-stats {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    float: right;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+}

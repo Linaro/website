@@ -1,0 +1,39 @@
+pages:
+  -
+    list:
+      -
+        title: Developer Services
+        url: /services/
+      -
+        title: Security
+        url: /services/security/
+      -
+        title: Bootloaders
+        url: /services/bootloaders/
+      -
+        title: Kernels - LTS
+        url: /services/kernel-lts/
+      -
+        title: BSP’s, Builds and Support
+        url: /services/bsp-builds-support/
+      -
+        title: Power Management
+        url: /services/power-management/
+      -
+        title: 96Boards
+        url: /services/96boards/
+      -
+        title: Toolchain Optimization Services
+        url: /services/toolchain-optimization-services/
+      -
+        title: Open Source Consultancy
+        url: /services/open-source-consultancy/
+      -
+        title: Testing and Validation Services
+        url: /services/testing-validation-services/
+      -
+        title: Hands on Training
+        url: /services/hands-on-training/
+    urls: [/services/,/services/security/,/services/bootloaders/,/services/kernel-lts/,/services/bsp-builds-support/,
+    /services/power-management/,/services/96boards/,/services/toolchain-optimization-services/,/services/open-source-consultancy/,
+    /services/testing-validation-services/,/services/hands-on-training/]

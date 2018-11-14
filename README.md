@@ -9,14 +9,55 @@ PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro
 ## Guides
 
 Below are a few guides that will help when adding content to the Linaro website.
-
+- [Adding a new page](#adding-a-new-page)
 - [Adding a blog post](#adding-a-blog-post)
 - [Adding Redirects to the Static site](#adding-redirects-to-the-static-site)
 - [Adding Events to the Events/ page](#adding-events-to-the-events-page)
 - [Building the static site](#building-the-static-site)
 
-
 ***** 
+
+## Addding a new page
+
+### Step 1 - Choose url and layout
+
+Static Jekyll web pages are placed in folders in the root of the website with either a README.md or a index.html page beneath them. Example - /services/README.md or /services/index.html. This keeps the pages organised to some extent. If you page contains mostly HTML then use index.html so that IDE's recognize it has HTML and README.md if the page is mostly markdown.
+
+The url for your page should be added to the front matter of your posts (the section at the top of the file between --- containing yaml) as the `permalink`. This will ensure the url of your page is exactly as you intended it to be. See below for an example of the front matter to add to the page. If in any doubt please duplicate a page that you would like yours to look like and modify the file from there.
+
+```
+---
+# Layout of your web page - see below for available layouts.
+layout: container-breadcrumb-tabs
+# URL of your web page
+permalink: /services/
+# Title of your web page
+title: Services Page
+# Description of your web page.
+desc: |-
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was 
+    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+# Keywords that describe your page used as meta keywords.
+keywords: lorem, ipsum, web, page
+---
+```
+
+#### Available layouts
+
+Below are a table showing the available layouts for you to use:
+
+| Layout | Description | Image | 
+| ------ | ----------- | ----- |
+| container-breadcrumb | This layout contains the standard breadcrumb and centered content container for you to use. | ![container-breadcrumb layout](/assets/images/help/container-breadcrumb.png) |
+| container-breadcrumb-tabs | Same as the above layout but includes the HTML for the sticky tab bar. | ![container-breadcrumb-tabs layout](/assets/images/help/container-breadcrumb-tabs.png) |
+| product-display-page | This is the layout used by product pages on the 96Boards website. | ![product-display-page layout](/assets/images/help/product-display-page.png) |
+| post | This the layout used for blog posts. If you supply a featured image a header with the featured image will be added. This image is also used when sharing on social media sites. | ![default layout](/assets/images/help/post.png) |
+| default | This is the default layout used by other layouts. Use this if you want to add custom HTML for content. | ![default layout](/assets/images/help/default.png) |
+
+******
 
 ## Adding a blog post
 

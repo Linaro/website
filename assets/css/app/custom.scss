@@ -795,6 +795,11 @@ article.post-content>.col-md-8 {
     }
 }
 
+#main-navigation .pull-left ul.dropdown-menu.sub-menu {
+    position: absolute;
+    width: 100px;
+}
+
 #main-navigation ul.dropdown-menu.sub-menu {
     background-color: #767676;
 }

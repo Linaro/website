@@ -1,0 +1,43 @@
+input#search-query {
+    margin-bottom: 10px;
+}
+th.filter:hover {
+    background-color:#5a7b00;
+    cursor: pointer;
+}
+th.filter {
+    transition: all 100ms ease;
+}
+#results img.img-responsive {
+    width: 20px;
+}
+#results img.img-responsive {
+    width: 40px;
+}
+// Table filter carets
+th.filter[data-toggle='asc'] > span.caret {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+th.filter[data-toggle='desc'] > span.caret {
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    filter: none;
+    -ms-filter: none;
+}
+.checkbox {
+    padding: 10px;
+    display:inline-block;
+}
+.checkbox input {
+    margin-right:10px; 
+    height:20px;
+    width:20px;
+    top:5px;
+}

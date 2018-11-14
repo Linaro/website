@@ -1,0 +1,24 @@
+---
+layout: container-breadcrumb
+css-package: services
+js-package: membership
+---
+<div class="col-md-3">
+    {% include sidebar.html  %}
+    {% if page.icon %}
+    <picture>
+        <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" 
+        media="(min-width: 992px)" />
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+        data-src="{{page.icon}}" 
+        class="lazyload img-responsive group_icon"/>
+    </picture>
+    {% endif %}
+</div>
+<div class="col-md-9">
+    {{content}}
+    <hr>
+    <div class="get-in-touch text-center" id="contact-btn">
+        <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="fly btn btn-primary btn-two">Contact Us</a>
+    </div>
+</div>

@@ -1,0 +1,326 @@
+.linaro-svg-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    fill: #98c033;
+    background-color: #fff;
+    border: none;
+    padding: 12px;
+    transition: all 500ms ease;
+}
+.linaro-svg-icon:hover {
+    background-color: #ccc;
+}
+
+// Full Width Slider
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+    }
+}
+.item:nth-child(1) {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(3) {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel .item {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+}
+// CSS for content on top of carousel
+div#content-container {
+    z-index: 99999;
+    position: relative;
+    margin-top: -40px;
+}
+.carousel.slide.carousel-fade {
+    position: absolute;
+    z-index: -1;
+}
+h1.fly.center-block {
+    color: white;
+}
+p.fly.center-block {
+    color: white;
+}
+nav#universal-nav {
+    z-index: 2;
+    position: static;
+}
+nav#main-navigation {
+    z-index: 9999;
+    background-color: white;
+    /* position: relative; */
+}
+div#why-join-container {
+    z-index: -1;
+    position: relative;
+}
+.container-fluid.footer {
+    z-index: 99999;
+    position: relative;
+}
+@media(max-width:$screen-sm-min){
+    h1.fly.center-block {
+        font-size: 25px;
+    }
+}
+#why-join-container .container.text-center {
+    padding-bottom: 40px;
+}
+#careers-welcome{
+    height: auto;
+    background-color:white;
+}
+.embed-responsive.embed-responsive-16by9 {
+    margin-bottom: 0px;
+}
+.media-block {
+    background-color: #98ce1c;
+    padding: 20px;
+}
+.col-sm-4.video-col {
+    background-color: #98ce1c;
+    height: auto;
+    display: block;
+}
+.text-block {
+    padding: 10px;
+}
+.text-block p {
+    font-size: 15px;
+}
+div#careers-about {
+    background-color: #232323;
+    color: white;
+}
+svg#employee-map {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div#careers-learning {
+    height: auto;
+    background-color:white;
+    position: relative;
+}
+
+.media-block {
+    padding: 40px 100px;
+}
+@media(max-width: $screen-sm-min){
+    .media-block {
+        padding: 20px 20px;
+    }
+}
+#content-container {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#careers-about h3 {
+    color: white;
+}
+nav#main-navigation {
+    z-index: 999999;
+}
+#careers-about ol {
+    height: 150px;
+    overflow-y:scroll;
+}
+#careers-about ol li {
+    padding-left:10px;
+}
+// Ensure that the long description's text is aligned to the left.
+.rbox-job-longdesc {
+    text-align: left;
+}
+.rbox-job-longdesc table {
+    border-bottom: 1px solid #ccc;
+}
+#careers .rbox-buttons button {
+    background-color: #99cc33 !important;
+}
+.rbox-opening-li {
+    background-color: #222222;
+    color: white;
+}
+.rbox-opening-li a:hover {
+    color:white;
+}
+
+a.rbox-opening-li-title {
+    color:#99cc33;
+}
+a.rbox-opening-li-title:hover {
+    color:#565656;
+    opacity:1;
+}
+small.rbox-opening-position-type {
+    display: block;
+}
+.rbox-opening-position-info {
+    margin-top:10px;
+    position: relative;
+    display:block;
+}
+.rbox-opening-position-info small {
+    display:inline;
+    width:100%;
+    margin-bottom:5px;
+    border:1px solid #6f6f6f;
+}
+#careers-about ul.list-group li {
+    border-radius: 0px;
+    background-color: #151414;
+    border: 1px solid #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a.btn.btn-careers {
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+    border: 1px solid #000;
+    margin:10px;
+    transition: all 200ms ease;
+}
+a.btn.btn-careers:hover {
+    background-color: #222222;
+    border-radius: 0px;
+    color: #ffffff !important;
+    border: 1px solid #fff;
+}
+div#careers {
+    background-color: #e8e8e8;
+}
+.media-block.puzzle {
+    background-color: $brand-primary;
+    padding: 60px;
+    background-size:cover;
+    background-position:center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Responsive Text css
+#wrapper .responsive-text {
+    font-size: 18px;
+}
+@media(min-width: 1330px) {
+    #wrapper .responsive-text {
+        font-size: 20px;
+    }
+}
+@media(max-width: 800px) {
+    #wrapper .responsive-text {
+        font-size: 14px;
+    }
+    .media-block.puzzle {
+        background-position-y: 0px;
+    }
+}
+// Repsonsive Carousel Background Image
+#wrapper .item {
+    background-size: cover !important;
+    top: $navbar-height;
+    background-size: cover !important;
+    background-position-y: -200px !important;
+    background-position-x: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
+@media(max-width: 340px){
+    #wrapper .item {
+        background-position-y: -0px !important;
+        top: $navbar-height;
+    }
+}
+@media(min-width:$screen-sm-min){
+    #wrapper .item {
+        background-position-y: -300px !important;
+    }
+}
+@media(min-width:$screen-sm-min){
+    #wrapper .item {
+        background-position-y: -300px !important;
+    }
+    div#careers-challenge{
+        display: flex;
+    }
+    .col-sm-6.text-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-sm-6.no-padding.video-col {
+        display: flex;
+    }
+    .media-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    div#careers-learning {
+        display: flex;
+    }
+    #careers-welcome{
+        display: flex;
+    }
+    div#careers-about {
+        display: flex;
+    }
+}
+#careers-about p.responsive-text {
+    color: white;
+}

@@ -8,3 +8,7 @@
 //= require app/main
 //= require app/fly
 //= require app/resources
+//= require app/connect-resources
+//= require app/project-stats
+
+
