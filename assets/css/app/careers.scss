@@ -108,10 +108,6 @@ div#why-join-container {
     z-index: 99999;
     position: relative;
 }
-.item.active {
-    height: 500px;
-    margin-top:-40px;
-}
 @media(max-width:$screen-sm-min){
     h1.fly.center-block {
         font-size: 25px;
@@ -285,6 +281,7 @@ div#careers {
 @media(max-width: 340px){
     #wrapper .item {
         background-position-y: -0px !important;
+        top: 66px;
     }
 }
 @media(min-width:$screen-sm-min){
