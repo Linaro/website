@@ -75,7 +75,7 @@ div#key-factors {
     background-color: #f3f3f3;
 }
 div#services {
-    background-color: #e8e8e8;
+    background-color: #d0e2ac;
 }
 
 span.key-factor-title {
@@ -247,10 +247,6 @@ div#membership-levels {
     transition: all 200ms linear;
 }
 
-.key-factor-block:hover {
-    opacity: .2;
-}
-
 .tooltip {
     font-size: 20px;
 }
@@ -281,7 +277,7 @@ div#projects {
   display: inline-block;
   /* left/right margin approx. 25% of .hexagon width + spacing */
   margin: 1px 18px;
-  background-color: #dadada;
+  background-color: #cecece;
   text-align: center;
   padding: 0;
   box-sizing: border-box;
@@ -324,12 +320,12 @@ div#projects {
   top: 59px;
 }
 .hexagon:hover {
-  background-color: #d2033a;
+  background-color: $brand-primary;
   cursor: pointer;
   z-index: 105;
 }
 .hexagon:active {
-  background-color: #d2033a;
+  background-color: $brand-primary;
   z-index: 110;
 }
 .hexanone {

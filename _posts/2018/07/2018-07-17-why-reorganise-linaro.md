@@ -5,7 +5,7 @@ layout: post
 date: 2018-07-17 09:00:00+00:00
 description: >-
     You should never make change for change sake, but there has been a steady pressure for change in Linaro for the last couple of years. Some of the pressures acting on Linaro are industry based.
-categories: blog
+categories: Blog
 tags: Linaro, ReOrg, Reorganise, Groups, Company
 published: true
 ---

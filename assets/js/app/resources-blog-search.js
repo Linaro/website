@@ -1,9 +1,26 @@
+// Fuzzy search setup
+// Underscore template settings for parsing the template.
+var underscore_template_settings = {
+    interpolate : /\{\{(.+?)\}\}/g
+};
+// Setup the template string for results to be added to.
+var template_string = '<tr>' +
+                        '<td>{{post_title}}</td>' +
+                        '<td>{{post_author}}</td>' + 
+                        '<td>{{post_date_published}}</td>' +
+                        '<td><a href="{{post_url}}">View post</a></td>' +
+                        '<td><a href="{{post_site}}"><img class="img-responsive" src="{{site_image}}"/></a></td>' +
+                        '</tr>';
+// Add the template string to the _.template function
+var underscore_table_row_template = _.template(template_string);
 // This global array stores the concatenated and sorted jsonp data
-var allJSONData = []
+var allJSONData = [];
+// This array stores the latest JSON data that is being displayed in the results table.
+var currentJSON = [];
 // The counter variable counts the number of times results are added to the allJSONData array
 // so we know when to process the concatenated data.
 var counter = 0;
-// Define the sources to append the jsonp script elements and retreive the data.
+// Blog/News JSON Sources
 var sources = [
     "https://www.96boards.org",
     "https://www.trustedfirmware.org",
@@ -16,16 +33,18 @@ var site_logos = {
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
     "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
-    "https://staging.linaro.org":"/assets/images/content/linaro-logo.png"
+    "https://staging.linaro.org":"/assets/images/content/linaro-logo.png",
+    "http://localhost:4001":"/assets/images/content/linaro-logo.png",
+    "https://www.linaro.org":"/assets/images/content/linaro-logo.png"
 };
-function extractDateString(dateString) {
-    var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
-    var arr = rx.exec(dateString);
-    return arr[0]; 
-}
-// Sort function which takes the data array, property to sort by and an asc boolean.
-function sort_by_date(a, b) {
-    return new Date(b.date_published).getTime() - new Date(a.date_published).getTime();
+// Detects if an element is in an array
+function isInArray(value, array) {
+    for(i=0;i<array.length;i++){
+        if(array[i].indexOf(value) > -1){
+            return true;
+        } 
+    }
+    return false;
 }
 // Fuzzy Search Setup
 function listResults(json_data) {
@@ -75,17 +94,90 @@ function listResults(json_data) {
         , site_image: site_image
         });
     });
+    // Add original JSON array to currentJSON
+    currentJSON = [];
+    
+    // Map the original item to a new currentJSON Array
+    filtered.map(function(item) {        
+       currentJSON.push(item.original);
+    });
+
     // Append results to the results html container
     $('#result_size').html(filtered.length);
     $('#results').html(results.join(''));
+}
+// This function gets the unique values of a certain key from an array
+function getUniqueValuesOfKey(array, key){
+    return array.reduce(function(carry, item){
+      if(item[key] && !~carry.indexOf(item[key])) carry.push(item[key]);
+      return carry;
+    }, []);
+}
+// This function takes all the JSON data as input and adds the filter elements to the html
+function addFilters(allJSONData){
+    // Add the unique authors to the author select
+    var unqiueAuthors = getUniqueValuesOfKey(allJSONData, "author");
+    var authorElements = '<option value="choose">Choose an Author</option>';
+    for(i=0;i<unqiueAuthors.length;i++){
+        var authorElements = authorElements + '<option value="' + unqiueAuthors[i] + '">' + unqiueAuthors[i] + '</option>';
+    }
+    // Append the authors to the author select
+    $("#author-select").append(authorElements);
+    console.log(authorElements);
+    // Add unique sites to the site select
+    var uniqueSites = getUniqueValuesOfKey(allJSONData, "site");
+    var siteElements = '<div class="checkbox"><label><input type="checkbox" value="all-sites" id="all-sites" checked=checked><span class="checkbox-text">All Sites</span></label></div>';
+    for(i=0;i<uniqueSites.length;i++){
+        var formatted_site = uniqueSites[i].replace(/(^\w+:|^)\/\//, '');
+        var siteElements = siteElements + '<div class="checkbox"><label><input class="site-checkbox" type="checkbox" value="'+ uniqueSites[i] +'" id="' + formatted_site + '"><span class="checkbox-text">'+ formatted_site +'</span></label></div>';
+    }
+    // Append the authors to the author select
+    $("#site-checkboxes").append(siteElements);
+    console.log(siteElements);
+    // Create a new checked_boxes array
+    var checked_boxes = [];
+    // Detect when a site url checkbox is checked and added any checked boxes to the checked_boxes array
+    $(".site-checkbox").click(function(){
+        // Set the all-sites checkbox to unchecked 
+        $("#all-sites").prop("checked", false);
+         // Use Jquery's grep method to loop over checked_boxes and return only the items that do no equal
+        // the already checked boxes value.
+        if($(this).prop("checked")){
+            checked_boxes.push($(this).attr("value"));
+        }
+        // Remove the checkbox if already checked.
+        else{
+            checked_boxes.splice($.inArray($(this).attr("value"),checked_boxes) ,1);
+        }
+        console.log(checked_boxes);
+        // Filter the results based on a key and an array of potential keys
+        filter_results(currentJSON, "site", checked_boxes, underscore_table_row_template);
+    });
+    // Detect when all sites checkbox is clicked and then toggle other checkboxes and list allJSONData
+    $("#all-sites").click(function(){
+        // Set the checked_boxes array to empty
+        checked_boxes = [];
+        // If checkbox is already checked then make sure it stays checked. Toggling all-sites checkbox without selecting
+        // other site does nothing...
+        $(this).prop("checked", true);
+        $(".site-checkbox").each(function(){
+            // Set the all-sites checkbox to unchecked 
+            $(this).prop("checked", false);
+        });
+        // Show all JSON data
+        listResults(allJSONData);
+    });
 }
 // This function handles the jsonp data we receive
 function func(jsonData){
     if(counter == (sources.length - 1)){
         allJSONData = allJSONData.concat(jsonData);
-        var sorted_data = allJSONData.sort(sort_by_date);
+        var sorted_data = allJSONData.sort(sort_by_date_desc);
         addLatestNewsAndBlogs(sorted_data, sorted_data.length);
         allJSONData = sorted_data;
+        currentJSON = sorted_data;
+        // Add the filters based on JSON Data
+        // addFilters(allJSONData);
         // Add the size of the results
         $('#size').html(sorted_data.length);
         // Run function on each keyup event triggered by the search input
@@ -124,6 +216,39 @@ var delay = (function(){
       timer = setTimeout(callback, ms);
     };
   })();
+// This function sorts the data via a pre-defined filter
+function sortDataViaFilter(filter, toggle){
+    // Filter data based on the date
+    if(filter == "date"){
+        if(toggle == "desc"){
+            var sortedJsonData = currentJSON.sort(sort_by_date_asc);
+            listResults(sortedJsonData);
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "asc");
+        }
+        if(toggle == "asc"){
+            // Sort data by date desc using the currentJSON being displayed in the table
+            var sortedJsonData = currentJSON.sort(sort_by_date_desc);
+            listResults(sortedJsonData);
+            // Set the new data-toggle value
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
+        }
+    }
+    // Filter the data based on the author
+    if(filter == "author" || filter == "site"){
+        if(toggle == "desc"){
+            var sortedJsonData = currentJSON.sort(dynamicSort(filter));
+            listResults(sortedJsonData);
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "asc");
+        }
+        if(toggle == "asc"){
+            // Sort data by date desc using the currentJSON being displayed in the table
+            var sortedJsonData = currentJSON.sort(dynamicSort("-" + filter));
+            listResults(sortedJsonData);
+            // Set the new data-toggle value
+            $("th.filter[data-filter='" + filter + "']").attr("data-toggle", "desc");
+        }
+    }
+}
 // Check to see if the document has loaded 
 $(document).ready(function () {
     // Check to see if the div we are adding to exists
@@ -140,10 +265,29 @@ $(document).ready(function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
+            // Monitor for the keyup event with a 1 second delay.
             $('#search-query').keyup(function() {
                 delay(function(){
                     listResults(allJSONData);
                 }, 1000 );
+            });
+            // Monitor for the clicking of sort filters (table headings)
+            $("th.filter").click(function(){
+                // Supply the filter and current setting(toggle)
+                sortDataViaFilter($(this).attr("data-filter"), $(this).attr("data-toggle"));
+            });
+            $("#show-all-results").click(function(){
+                var toggle = $(this).hasClass("active");
+                if(toggle === false){
+                    // Clear the search query field
+                    $('#search-query').val("");
+                    // Show all results using the allJSONData array
+                    listResults(allJSONData);
+                    $(this).addClass("active");
+                }
+                else{
+                    $(this).removeClass("active");
+                }
             });
         }
     }

@@ -11,4 +11,5 @@
 //= require app/main
 //= require app/fly
 //= require app/resources
+//= require app/fuzzy-search-functions
 //= require app/resources-blog-search
