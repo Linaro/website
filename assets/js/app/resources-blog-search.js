@@ -175,7 +175,7 @@ function func(jsonData){
         allJSONData = sorted_data;
         currentJSON = sorted_data;
         // Add the filters based on JSON Data
-        addFilters(allJSONData);
+        // addFilters(allJSONData);
         // Add the size of the results
         $('#size').html(sorted_data.length);
         // Run function on each keyup event triggered by the search input
