@@ -21,7 +21,7 @@ $(document).ready(function() {
       loop:true,
       margin:10,
       nav:true,
-      dots: true,
+      dots: false,
       lazyLoad: true,
       autoplay:false,
       autoplayHoverPause:true,
@@ -30,7 +30,7 @@ $(document).ready(function() {
       responsive:{
           0:{
               items:1,
-              dots: true,
+              dots: false,
               nav: true
           }
       }
