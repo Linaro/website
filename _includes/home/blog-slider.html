@@ -7,9 +7,9 @@
     <div class="container home-blog-post-carousel-container">
         <div class="owl-carousel owl-theme" id="blog-slider">
             {% assign counter = 0 %}
-            {% for post in site.posts limit: 10 %}
+            {% for post in site.posts %}
                 {% if forloop.index < 10 %}
-                    {% if post.category == "News" or post.category == "Blog"%}
+                    {% if post.category contains "News" or post.category contains "Blog" %}
                         <div class="item home-page-blog-post-slider-item">
                             <div class="col-xs-12 no-padding">
                                 <a href="{{post.url}}">
