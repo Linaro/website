@@ -1,33 +1,27 @@
 <div class="row" id="latest-news-row">
     <div class="container">
         <div class="col-xs-12 text-center">
-            <h2 class="blogs_home_block_text"> Latest News & Blogs </h2>
+            <h2 class="blogs_home_block_text"> Latest News</h2>
         </div>
     </div>
     <div class="container home-blog-post-carousel-container">
         <div class="owl-carousel owl-theme" id="blog-slider">
-            {% assign counter = 0 %}
-            {% for post in site.posts %}
-                {% if forloop.index < 10 %}
-                    {% if post.category contains "News" or post.category contains "Blog" %}
-                        <div class="item home-page-blog-post-slider-item">
-                            <div class="col-xs-12 no-padding">
-                                <a href="{{post.url}}">
-                                    <div class="blogs_home_block_post linaro-two">
-                                        <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
-                                        <div class="blog-post-icon">
-                                            <picture>
-                                            <img alt="linaro-two Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                            data-src="/assets/images/content/Linaro-Logo_white-icon.svg" class="lazyload img-responsive post_icon center-block"/>
-                                            </picture>
-                                        </div>
-                                    </div>                
-                                </a>
-                            </div>
-                        </div>
-                        {% assign counter = counter |  plus: 1 %}
-                    {% endif %}
-                {% endif %}
+            {% for post in site.categories["News"] %}
+                <div class="item home-page-blog-post-slider-item">
+                    <div class="col-xs-12 no-padding">
+                        <a href="{{post.url}}">
+                            <div class="blogs_home_block_post linaro-two">
+                                <h3 class="blogs_home_block_post_title">{{post.title}}</h3>
+                                <div class="blog-post-icon">
+                                    <picture>
+                                    <img alt="linaro-two Icon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    data-src="/assets/images/content/Linaro-Logo_white-icon.svg" class="lazyload img-responsive post_icon center-block"/>
+                                    </picture>
+                                </div>
+                            </div>                
+                        </a>
+                    </div>
+                </div>
             {% endfor %}
         </div>
     </div>
