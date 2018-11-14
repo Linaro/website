@@ -4,6 +4,7 @@
 //= require vendor/cookieconsent
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
+//= require vendor/owl.carousel
 
 //= require app/main
 //= require app/fly
