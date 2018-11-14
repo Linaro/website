@@ -129,25 +129,33 @@ css-package: careers
         <div class="col-sm-6 text-col">
             <div class="text-block">
                 <h3>Looking for an internship?</h3>
-                <p class="responsive-text fly">
-                   "A year and a half ago, I was an intern at Linaro as a
-                    Marketing and Events Assistant. Once my internship
-                    was over, my Manager told me that she would be
-                    happy for me to come back after graduating.
-                    I returned to university and 6 months later
-                    I was back in Linaro for my second internship.
-                    I have now been a Linaro employee since
-                    last August as an Events and Social Media
-                    Coordinator and I am really pleased to
-                    be part of the team."
-                </p>
-                <p>
-                <h3>Celia Ilardi</h3>
-                <small>
-                Entry Level, Events and<br>
-                Social Media Coordinator
-                </small>
-                </p>
+                <div class="owl-carousel owl-theme careers-carousel">
+                    <div class="activity-block item">
+                        <p class="responsive-text fly">
+                            "A year and a half ago, I was an intern at Linaro as a
+                            Marketing and Events Assistant. Once my internship
+                            was over, my Manager told me that she would be
+                            happy for me to come back after graduating.
+                            I returned to university and 6 months later
+                            I was back in Linaro for my second internship.
+                            I have now been a Linaro employee since
+                            last August as an Events and Social Media
+                            Coordinator and I am really pleased to
+                            be part of the team."
+                        </p>
+                        <p>
+                        <h3>Celia Ilardi</h3>
+                        <small>
+                        Entry Level, Events and<br>
+                        Social Media Coordinator
+                        </small>
+                        </p>
+                    </div>
+                    <div class="activity-block item">
+                    </div>
+                    <div class="activity-block item">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-sm-6 no-padding video-col">
