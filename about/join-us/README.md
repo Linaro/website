@@ -132,27 +132,6 @@ css-package: careers
                 <div class="owl-carousel owl-theme careers-carousel">
                     <div class="activity-block item">
                         <p class="responsive-text fly">
-                            <blockquote>
-                            A year and a half ago, I was an intern at Linaro as a
-                            Marketing and Events Assistant. Once my internship
-                            was over, my Manager told me that she would be
-                            happy for me to come back after graduating.
-                            I returned to university and 6 months later
-                            I was back in Linaro for my second internship.
-                            I have now been a Linaro employee since
-                            last August as an Events and Social Media
-                            Coordinator and I am really pleased to
-                            be part of the team.
-                            <h4>Celia Ilardi</h4>
-                            <small>
-                                Entry Level, Events and<br>
-                                Social Media Coordinator
-                            </small>
-                            </blockquote>
-                        </p>
-                    </div>
-                    <div class="activity-block item">
-                        <p class="responsive-text fly">
                         <blockquote>
                             A little less than a year ago I began my internship with Linaro. This internship was the last
                             thing I had to do before graduating, and those six months were the time where I learned
@@ -174,6 +153,27 @@ css-package: careers
                                 Entry Level, Engineer
                             </small>
                         </blockquote>
+                        </p>
+                    </div>
+                    <div class="activity-block item">
+                        <p class="responsive-text fly">
+                            <blockquote>
+                            A year and a half ago, I was an intern at Linaro as a
+                            Marketing and Events Assistant. Once my internship
+                            was over, my Manager told me that she would be
+                            happy for me to come back after graduating.
+                            I returned to university and 6 months later
+                            I was back in Linaro for my second internship.
+                            I have now been a Linaro employee since
+                            last August as an Events and Social Media
+                            Coordinator and I am really pleased to
+                            be part of the team.
+                            <h4>Celia Ilardi</h4>
+                            <small>
+                                Entry Level, Events and<br>
+                                Social Media Coordinator
+                            </small>
+                            </blockquote>
                         </p>
                     </div>
                     <div class="activity-block item">

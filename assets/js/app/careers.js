@@ -20,19 +20,18 @@ $(document).ready(function() {
   careersCarousel.owlCarousel({
       loop:true,
       margin:10,
-      nav:false,
-      autoplayTimeout:4000,
-      dots: true,
+      nav:true,
+      dots: false,
       lazyLoad: true,
-      autoplay:true,
+      autoplay:false,
       autoplayHoverPause:true,
       responsiveClass: true,
       navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
       responsive:{
           0:{
               items:1,
-              dots: true,
-              nav: false
+              dots: false,
+              nav: true
           }
       }
   });

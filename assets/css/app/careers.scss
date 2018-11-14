@@ -108,10 +108,6 @@ div#why-join-container {
     z-index: 99999;
     position: relative;
 }
-.item.active {
-    height: 500px;
-    margin-top:-40px;
-}
 @media(max-width:$screen-sm-min){
     h1.fly.center-block {
         font-size: 25px;
@@ -204,13 +200,10 @@ nav#main-navigation {
 a.rbox-opening-li-title {
     color:#99cc33;
 }
-
 a.rbox-opening-li-title:hover {
     color:#565656;
     opacity:1;
 }
-
-
 small.rbox-opening-position-type {
     display: block;
 }
@@ -219,7 +212,6 @@ small.rbox-opening-position-type {
     position: relative;
     display:block;
 }
-
 .rbox-opening-position-info small {
     display:inline;
     width:100%;
@@ -253,7 +245,7 @@ div#careers {
     background-color: #e8e8e8;
 }
 .media-block.puzzle {
-    background-color: #8eb92a;
+    background-color: $brand-primary;
     padding: 60px;
     background-size:cover;
     background-position:center center;
@@ -281,10 +273,12 @@ div#careers {
 // Repsonsive Carousel Background Image
 #wrapper .item {
     background-size: cover !important;
+    top: $navbar-height;
 }
 @media(max-width: 340px){
     #wrapper .item {
         background-position-y: -0px !important;
+        top: $navbar-height;
     }
 }
 @media(min-width:$screen-sm-min){
