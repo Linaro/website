@@ -273,11 +273,12 @@ div#careers {
 // Repsonsive Carousel Background Image
 #wrapper .item {
     background-size: cover !important;
+    top: $navbar-height;
 }
 @media(max-width: 340px){
     #wrapper .item {
         background-position-y: -0px !important;
-        top: 66px;
+        top: $navbar-height;
     }
 }
 @media(min-width:$screen-sm-min){
