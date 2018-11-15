@@ -2,7 +2,7 @@
 sig_id: 1
 title: High Performance Computing (HPC)
 permalink: /sig/hpc/
-director: Kanta Vekaria
+director: Martin Stadtler
 tech-lead: Renato Golin
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMFnRpO8jCzyXpH7J8IgCXv
 members_key: hpc_members
