@@ -10,5 +10,3 @@
 //= require app/resources
 //= require app/connect-resources
 //= require app/project-stats
-
-

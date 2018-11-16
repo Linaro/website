@@ -305,9 +305,6 @@
     - name: Advantech
       image: advantech.jpg
       url: /company/advantech/
-    - name: Archer Mind
-      image: archermind.jpg
-      url: /company/archermind/
     - name: Arm
       image: arm.jpg
       url: /company/arm/
