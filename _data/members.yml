@@ -314,6 +314,10 @@
     - name: Analog Devices
       image: analog-devices.gif
       url: /company/analog-devices/
+    - name: Bitmain
+      image: bitmain_logo.png
+      padded: padded-member-md
+      url: /company/bitmain/
     - name: Google
       image: google.png
       url: /company/google/
