@@ -1,0 +1,43 @@
+---
+layout: empty
+title: Blog
+css-package: events-blog
+js-package: events-blog
+---
+<div class="container-fluid responsive-background" id="header-container"
+  style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
+    <div class="row overlay padded-row" id="resources">
+        <div class="container text-center">
+            <h1 class="fly center-block">{{page.title}}</h1>
+            <p class="fly center-block">
+                {{page.description}}
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="content-container">
+    <div class="row">
+        <div class="container">
+             <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
+                <li role="presentation">
+                    <a href="/events/calendar/">
+                        Events Calendar
+                    </a>
+                </li>
+                <li role="presentation" class="active">
+                    <a href="/events/">
+                        Events
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="/events/connect/" >
+                        Linaro Connect
+                    </a>
+                </li>
+            </ul>
+            {{content}}
+            {% include display-events.html %}
+            {% include pagination.html end_path="all/" %}
+        </div>
+    </div> 
+</div>
