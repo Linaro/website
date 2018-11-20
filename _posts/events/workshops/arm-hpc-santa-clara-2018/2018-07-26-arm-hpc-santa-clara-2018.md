@@ -5,12 +5,15 @@ author: linaro
 categories:
 - events
 - workshop
-date: 2018-07-26 09:00:00+00:00
+comments: false
+event: arm-hpc-santa-clara-2018
+date: '2018-07-26 09:00:00+00:00'
 css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
    name: ArmHPCWorkshopSocialMedia.png
 event: arm-hpc-santa-clara-2018
+tag: event
 ---
 <div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
