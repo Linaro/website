@@ -1,0 +1,12 @@
+.event-block {
+    height: 200px;
+    background-size: cover;
+    background-position:center center;
+    border: 1px solid #eee;
+    transition: all 400ms linear;
+}
+.event-block:hover {
+    height: 200px;
+    opacity: .4;
+    border: 1px solid #eee;
+}
