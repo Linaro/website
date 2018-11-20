@@ -1,0 +1,15 @@
+<div class="row">
+{% for post in paginator.posts %}
+    {% if site.data.settings.blog.show_thumbnails %}
+    <div class="col-md-4 col-sm-4 col-xs-4">
+        <a href="{{post.url}}">
+            {% if post.image.thumb %}
+            <div class="event-block lazyload fly" style="background-image:url('{% asset_path '{{post.image.thumb}}' %}')"></div>
+            {% elsif post.image.name %}
+            <div class="event-block lazyload fly" style="background-image:url('{% asset_path '{{post.image.name}}' %}')"></div>
+            {% endif %}
+        </a>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
