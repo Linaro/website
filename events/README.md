@@ -27,8 +27,8 @@ css-package: events
                     </a>
                 </li>
                 <li role="presentation" >
-                    <a href="/events/workshops/">
-                        Workshops
+                    <a href="/events/all/">
+                        Events
                     </a>
                 </li>
                 <li role="presentation">
@@ -36,12 +36,6 @@ css-package: events
                         Linaro Connect
                     </a>
                 </li>
-                <li role="presentation" >
-                    <a href="/events/past/">
-                        Past Events
-                    </a>
-                </li>
-                
             </ul>
         </div>
     </div>

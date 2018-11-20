@@ -47,7 +47,7 @@ css-package: events
                     </a>
                 </li>
             </ul>
-            {% assign events = site.pages | where: 'event', 'true' | sort: "date" | reverse %}
+            {% assign events = site.posts | where: 'event', 'true' | sort: "date" | reverse %}
             {% for event-page in events %}
             <div class="col-sm-4 no-padding">
                 <a href="{{event-page.url}}">
