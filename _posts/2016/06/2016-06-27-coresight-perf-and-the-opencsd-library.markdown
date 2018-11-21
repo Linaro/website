@@ -282,7 +282,7 @@ FILE: /lib/aarch64-linux-gnu/ld-2.21.so CPU: 0
 
 ```
 
-Here we can see exactly the path a processor took through the code.  The first field is the address in the DSO, the second the OPcode as found in the DSO at that specific address while the remaining of the line depicts an assembly language representation of the instructions as provided by objdump.  Instructions on how to setup an environment capable of producing the above output can be found on the [openCSD](https://github.com/Linaro/OpenCSD/blob/opencsd-0v002/HOWTO.md) website.
+Here we can see exactly the path a processor took through the code.  The first field is the address in the DSO, the second the OPcode as found in the DSO at that specific address while the remaining of the line depicts an assembly language representation of the instructions as provided by objdump.  Instructions on how to setup an environment capable of producing the above output can be found on the [openCSD](https://github.com/Linaro/OpenCSD/blob/master/HOWTO.md) website.
 
 ### **Conclusion**
 
