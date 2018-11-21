@@ -12,17 +12,10 @@ function addProjectsData(sorted_data, number_of_items){
     var listElements = '';
     for(var i=0;i<number_of_items;i++){
         project = sorted_data[i];
-        if(project.project_url != ""){
-            listElements += '<a target="_blank" href="' + project.project_url +'">';
-        }
-        else{
-            listElements += '<a target="_blank" href="https://www.linaro.org/engineering/">';
-        }
         listElements += '<li class="list-group-item fly">';
         listElements += '<span class="project-title">' + project.name + '</span>';
         listElements += '<span class="project-stats">' + project.acceptedPatches  + '</span>';
         listElements += '</li>';
-        listElements += '</a>';
     }
     $("#latest-patches").html(listElements);
 }
