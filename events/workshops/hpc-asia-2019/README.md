@@ -1,5 +1,5 @@
 ---
-title: Arm Architecture HPC Workshop Aisa 2019
+title: Arm Architecture HPC Workshop Asia 2019
 layout: default
 date: 2018-11-01 09:00:00+00:00
 permalink: /latest/events/hpc-asia-2019/
