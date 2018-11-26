@@ -75,6 +75,21 @@ Due to popular demand, we will be hosting yet another workshop. This time it wil
 
 <div id="call-for-papers">
 
+<h2>Registration is <span>open</span></h2>
+<a href="https://linaro.co/hpc-asia-registration" 
+class="hidden-xs btn btn-primary btn-two call-for-papers">
+Register Now
+</a>
+<a href="https://linaro.co/hpc-asia-registration" 
+class="center-block visible-xs-block btn btn-primary">
+Register Now
+</a>
+<h3>Deadline for registration is the January 14, 2019 (GMT+8) </h3>
+
+</div>
+
+<div id="call-for-papers">
+
 <h2>Call for Papers is <span>open</span></h2>
 <a href="https://workshop.linaro.org/hpcasia19/" 
 class="hidden-xs btn btn-primary btn-two call-for-papers">
