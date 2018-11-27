@@ -10,7 +10,7 @@ css-package: resource-post
             <div class="col-md-9 no-padding {{current_connect}}">
                 <article class="post-content">
                     <div class="post-info">
-                        {% if page.date %}<small class="blog-date text-center"><em>Added to  <a href="/resources/{{page.categories[0]}}/">{{page.categories[0] | upcase }} Resources</a> on <b>{{page.date |  date: "%A, %B %-d, %Y"}}</b></em></small>{% endif %}
+                        {% if page.date %}<small class="blog-date text-center"><em>Added to Event Resources on <b>{{page.date |  date: "%A, %B %-d, %Y"}}</b></em></small>{% endif %}
                         {% if page.session_track %}
                             <div class="tracks">
                                 {% if page.session_track contains "," %}
