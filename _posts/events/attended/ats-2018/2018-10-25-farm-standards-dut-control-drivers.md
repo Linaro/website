@@ -12,6 +12,6 @@ image:
   name: ats-2018-farm-standards.png
   path: /assets/images/content/ats-2018-farm-standards.png
 layout: resource-post
-title: 'Farm Standards'
+title: 'Farm Standards - DUT Control Drivers'
 youtube_video_url: https://www.youtube.com/watch?v=wt4ErXKUREg
 ---

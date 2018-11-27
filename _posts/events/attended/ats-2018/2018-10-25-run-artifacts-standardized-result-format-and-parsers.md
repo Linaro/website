@@ -12,6 +12,6 @@ image:
   name: ats-2018-run-artifacts.png
   path: /assets/images/content/ats-2018-run-artifacts.png
 layout: resource-post
-title: 'Run Artifacts'
+title: 'Run Artifacts, Standardized Result Format & Parsers'
 youtube_video_url: https://www.youtube.com/watch?v=5Pc9-EcvLnE
 ---
