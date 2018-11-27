@@ -3,14 +3,7 @@ layout: default
 js-package: resource-post
 css-package: resource-post
 ---
-{% assign using_json = "False" %}
-{% assign current_connect = page.categories[0] | upcase %}
-{% if current_connect == "YVR18" %}
-    {% assign using_json = "True" %}
-{% endif %}
-
 {% include breadcrumb.html  %}
-
 <div class="container-fluid" id="content-container">
     <div class="row">
         <div class="container">
@@ -54,12 +47,10 @@ css-package: resource-post
                         {{ content }}
                     </div>
                 </article>
-            
                 {% include post-comments.html %}
-
                 </div>
                 <div class="col-md-3 blog-sidebar no-padding">
-
+                    {% include post-sidebar.html %}
                 </div>
         </div>        
     </div>
