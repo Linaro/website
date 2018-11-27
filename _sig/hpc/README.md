@@ -26,8 +26,8 @@ Hardware deployment: Work in Linaro's own HPC lab for best-in-class stability & 
 
 ### Linaro HPC Upcoming Events and Resources from Previous Events: ###
 
-Arm HPC Workshop - Tokyo December 2017 - [Link to resources](https://www.linaro.org/events/workshop/arm-hpc-japan-2017/#schedule)
+Arm HPC Workshop - Tokyo December 2017 - [Link to resources](/events/workshop/arm-hpc-japan-2017/#schedule)
 
-Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](https://www.linaro.org/latest/events/arm-hpc-santa-clara-2018/#resources)
+Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](/events/workshop/arm-hpc-santa-clara-2018/#resources)
 
-Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to event](https://www.linaro.org/latest/events/hpc-asia-2019/)
+Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to event](/events/workshop/arm-hpc-japan-2017/)
