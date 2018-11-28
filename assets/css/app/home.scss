@@ -610,11 +610,6 @@ div.blogs_home_block_post.hpc:hover {
         line-height: 40px;
     }
 }
-
-p#buttons {
-    margin-top: 40px;
-}
-
 div#featured-jumbotron {
     margin-bottom: $navbar-height + 20;
 }
@@ -627,4 +622,16 @@ div#featured-jumbotron {
     font-weight: bold;
     position: relative;
     color: #575757;
+}
+span.line-one {
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+span.line-two {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color:white;
+    text-shadow: #000 1px 1px 7px;
 }
