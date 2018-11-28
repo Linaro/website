@@ -5,7 +5,7 @@ description: >-
 layout: jumbotron
 permalink: /engineering/
 js-package: engineering
-css-package: engineering-landing
+css-package: work
 jumbotron:
     background-image: /asset/images/content/engineering-bg.jpg
 ---
