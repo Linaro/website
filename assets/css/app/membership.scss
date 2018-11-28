@@ -265,3 +265,73 @@ div#membership-levels {
 div#projects {
     padding-bottom: 25px;
 }
+
+// Testimonials
+.testimonial-block.fly.show-block {
+    padding: 20px;
+    height:200px;
+    text-align:center;
+    width:100%;
+    background-color:#1e1e1e;
+    margin: 20px 0;
+    transition: all 400ms ease;
+}
+
+span.testimonial .quote {
+    display: block;
+    height:80px;
+    margin:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.testimonial {
+    color:white;
+    margin: auto;
+}
+
+div#key-factors.testimonials {
+    background-color:#151515;
+}
+
+.col-xs-12.col-sm-4.fly.key-factor.text-center.testimonial-col.show-block {
+        display: flex;
+}
+
+.testimonial-block i.fa.fa-youtube-play {
+    display:block;
+    color:white;
+    font-size:24px;
+    transition: all 200ms ease; 
+}
+.testimonial-block i.fa.fa-youtube-play:hover {
+    display:block;
+    color:#9cc849;
+    cursor:pointer;
+}
+
+.testimonial-block:after {
+    background-color: black;
+    content: '\f16a';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: FontAwesome;
+    font-weight: normal;
+    position: absolute;
+    height: 100%;
+    border:none;
+    width: 100%;
+    top:0px;
+    font-size:28px;
+    left:0px;
+    opacity: 0;
+    z-index:1;
+    color:white;
+    cursor:pointer;
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+}
+.testimonial-block.fly.show-block:hover:after {
+    opacity:1;
+}

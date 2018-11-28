@@ -18,7 +18,38 @@ css-package: membership
 </div>
 </div>
 <div class="container-fluid">
-
+<div class="row padded-row testimonials" id="key-factors">
+    <div class="container">
+        <h2 class="text-center fly">Testimonials</h2>
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
+            <div class="testimonial-block fly" id="arm-testimonial">
+                <span class="key-factor-title testimonial">
+                    <em class="quote">“Linaro is the collaboration platform for the Arm partnership”</em>
+                    <span class="interview-speaker">Thomas Molgaard, Arm</span>
+                </span>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
+            <div class="testimonial-block fly" id="marvell-testimonial">
+                <span class="key-factor-title testimonial">
+                    <em class="quote">“Benefit from the joint community investment”</em>
+                    <span class="interview-speaker">Larry Wikelius, Marvell</span>
+                </span>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
+            <div class="testimonial-block fly" id="red-hat-testimonial">
+                <span class="key-factor-title testimonial">
+                    <em class="quote">“Actual engineering happens within Linaro”</em>
+                    <span class="interview-speaker">Jon Masters, Red Hat</span>
+                </span>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="row" id="projects">
     <div class="container">
         <div class="col-xs-12 text-center">
