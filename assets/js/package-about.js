@@ -6,7 +6,10 @@
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require app/sticky-tab-bar
+//= require vendor/featherlight
 
 //= require app/main
 //= require app/about
+//= require app/search
+//= require app/fly
 //= require app/tables
