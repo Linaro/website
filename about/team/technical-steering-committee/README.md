@@ -35,7 +35,7 @@ Bill has been developing software professionally for over 25 years. Prior to his
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="bill-mills.png" class="linaro-profile-image" alt="Bill Mills Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/bill-mills.png" class="linaro-profile-image" alt="Bill Mills Profile Photo"%}
 </div>
 </div>
 
@@ -47,7 +47,7 @@ Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is res
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Bryan-Huntsman.jpg" class="linaro-profile-image" alt="Bryan Huntsman Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Bryan-Huntsman.jpg" class="linaro-profile-image" alt="Bryan Huntsman Profile Photo"%}
 </div>
 </div>
 
@@ -59,7 +59,7 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
 </div>
 </div>
 
@@ -75,7 +75,7 @@ David always enjoyed mathematics, but America’s space program together with �
 When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="david-rusling.png" class="linaro-profile-image" alt="David Rusling Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/david-rusling.png" class="linaro-profile-image" alt="David Rusling Profile Photo"%}
 </div>
 </div>
 
@@ -88,7 +88,7 @@ Jarmo Hillo is a Head of Processor Technology at Nokia Bell Labs Research. Curre
 Jarmo has a long international career at Nokia in various technology and architecture leadership positions. His main technology focus has been with processors and networking for over 20 years. He had a key role in bringing embedded multi core networking SoC technology to Nokia. Jarmo holds M.Sc degree in Telecommunications from Helsinki University of Technology, Finland.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Jarmo-Hillo.jpg" class="linaro-profile-image" alt="Jarmo Hillo Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Jarmo-Hillo.jpg" class="linaro-profile-image" alt="Jarmo Hillo Profile Photo"%}
 </div>
 </div>
 <div class="container board_member no-padding">
@@ -98,7 +98,7 @@ Jarmo has a long international career at Nokia in various technology and archite
 Jon Masters is Chief Arm Architect at Red Hat, where he works on the Fedora Arm project. Masters has been a Linux developer for more than 17 years, since beginning university at the age of 13\. He is the author of a number of books on the Linux operating system, including “Building Embedded Linux Systems,” and the upcoming “Porting Linux.” An accomplished musician and hiker, he also enjoys unicycling among his many other hobbies.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="jon-masters.png" class="linaro-profile-image" alt="Jon Masters Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/jon-masters.png" class="linaro-profile-image" alt="Jon Masters Profile Photo"%}
 </div>
 </div>
 
@@ -110,7 +110,7 @@ Jon Masters is Chief Arm Architect at Red Hat, where he works on the Fedora Arm 
 Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 years experience on OS and OS middleware design and development. He has worked on OS area for most of HUAWEI products which include wideband/Narrowband switches, routers, mobile phones, wireless stations, core network servers, etc. He is also the architect of HUAWEI’s first Linux distribution for lots of embedded telecom devices.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="kenneth-lee.png" class="linaro-profile-image" alt="Kenneth (Liguozhu) Lee Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/kenneth-lee.png" class="linaro-profile-image" alt="Kenneth (Liguozhu) Lee Profile Photo"%}
 </div>
 </div>
 
@@ -121,7 +121,7 @@ Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 ye
 Approaching 20 years of experience in embedded systems ranging from real time control of wind tunnels in his early career to a more recently on mobile devices. Mark has been working with the Linux kernel for approaching 15 years, initially creating networking products focussing on traffic classification and shaping for core and edge routers to more recently on mobile devices. Working as a Chief Architect for at Symbian (and Nokia), Mark established himself within the Arm community, he then joined Broadcom in 2012 to refocus on Linux on Arm working on their leading edge mobile SOCs and then on to Arm in 2014.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="mark-hambleton.png" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/mark-hambleton.png" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
 </div>
 </div>
 
@@ -133,7 +133,7 @@ Approaching 20 years of experience in embedded systems ranging from real time co
 Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="mark-orvek.png" class="linaro-profile-image" alt="Mark Orvek Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/mark-orvek.png" class="linaro-profile-image" alt="Mark Orvek Profile Photo"%}
 </div>
 </div>
 
@@ -172,7 +172,7 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much involved with Linaro as part of our Technical Steering Committee. He was awarded this role with Linaro due to his great work as a Fellow and Chief Architect with ST-Ericsson. Andrea joined STMicroelectronics in 1995 and covered many roles and products, including the world first dial-up 56kbps USB Pegas.usB softmodem in 1998, the world first ADSL USB/PCI controllerless modem in 2000 and many products and prototypes based on ST Nomadik Application Processor. Andrea set up and managed STM Linux Software Platform team in Bangalore, including recruitment and software engineering process, and then moved into ST-Ericsson when the JV between ST and Ericsson Mobile Platform was created. As a teenager, Andrea wrote software in Basic, Z80 and Arm assembler and C published by English and Italian magazines and Public Domain Libraries and also attended two summer time trainee programs in July 1987 and 1988 at Acorn Computers in Cambridge (UK) on the just released Arm2 processor, few years before the creation of Arm Ltd itself.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="andrea-gallo.png" class="linaro-profile-image " alt="Andrea Gallo Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/andrea-gallo.png" class="linaro-profile-image " alt="Andrea Gallo Profile Photo"%}
 </div>
 </div>
 
@@ -184,7 +184,7 @@ Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much inv
 George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of industry knowledge. Prior to joining Linaro George led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets. George holds a degree in Electrical Sciences from Cambridge University and resides in Boston, Massachusetts.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
 

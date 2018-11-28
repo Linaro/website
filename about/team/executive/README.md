@@ -19,7 +19,7 @@ Responsibilities include, operational management, alliances and marketing, organ
 George, Chief Executive Officer, joined Linaro in 2010 bringing a wealth of industry knowledge. Prior to joining Linaro George led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets. George holds a degree in Electrical Sciences from Cambridge University and resides in Boston, Massachusetts.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
 
@@ -32,7 +32,7 @@ David always enjoyed mathematics, but America’s space program together with �
 When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="david-rusling.png" class="linaro-profile-image" alt="David Rusling Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/david-rusling.png" class="linaro-profile-image" alt="David Rusling Profile Photo"%}
 </div>
 </div>
 
@@ -43,7 +43,7 @@ When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking,
 Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Rob brings a wealth of operational, commercial and financial experience gained i
 As EVP of Greater China Jill is responsible for all aspects of Linaro development in the Greater China region. She came to her first Linaro Connect in Hong Kong in 2013 when she was the Strategic Planning Director in ZTE Corporation’s Mobile Division Product Development Department. Jill worked for ZTE for over 15 years in a variety of roles covering product marketing management, industrial supply-chain and ecosystem partnership management, ODM and out-sourcing management, and mobile handset business research. Jill is a competitive runner and lives in Shanghai with her husband.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="JillGuocircle.jpg" class="linaro-profile-image" alt="Jill Guo Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/JillGuocircle.jpg" class="linaro-profile-image" alt="Jill Guo Profile Photo"%}
 </div>
 </div>
 
@@ -65,7 +65,7 @@ As EVP of Greater China Jill is responsible for all aspects of Linaro developmen
 As EVP of Member Services Joe is responsible for the success of Linaro’s members, overseeing Linaro’s support and services strategy and operations including the direct management of all Linaro member services functions, engagements and Landing Teams.Joe has over 20 years of experience and a hands-on style building and leading exceptional services, support and sales teams that insure customer success and consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information, Object Design and SavaJe Technologies. Joe resides with his family in the Boston area.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="JoeBates.jpg" class="linaro-profile-image" alt="Joe Bates Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/JoeBates.jpg" class="linaro-profile-image" alt="Joe Bates Profile Photo"%}
 </div>
 </div>
 
@@ -77,7 +77,7 @@ As EVP of Member Services Joe is responsible for the success of Linaro’s membe
 Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="mark-orvek.png" class="linaro-profile-image" alt="Mark Orvek Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/mark-orvek.png" class="linaro-profile-image" alt="Mark Orvek Profile Photo"%}
 </div>
 </div>
 
@@ -90,7 +90,7 @@ Steve is responsible for promoting Linaro value and growing the ecosystem. With 
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="steve-taylor.png" class="linaro-profile-image" alt="Steve Taylor Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/steve-taylor.png" class="linaro-profile-image" alt="Steve Taylor Profile Photo"%}
 </div>
 </div>
 
