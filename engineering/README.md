@@ -7,10 +7,10 @@ permalink: /engineering/
 js-package: engineering
 css-package: work
 jumbotron:
-    background-image: /asset/images/content/engineering-bg.jpg
+    background-image: /assets/images/content/engineering-bg.jpg
 ---
 <!--- Top Engineering Icons Row -->
-<div id="engineering-graphic" class="row" style="background-im;age:url({% asset_path 'engineering-bg.svg' %})">
+<div id="engineering-graphic" class="row" style="background-image:url('/assets/images/content/engineering-bg.svg')">
     <!-- Circular Background -->
     <div class="circle-background center-block" id="circles">
         <div class="circle-one">
@@ -23,28 +23,28 @@ jumbotron:
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/ldcg/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'LDCG col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/LDCG col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Datacenter & Cloud</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/ledge/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'LEDGE col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/LEDGE col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Edge & Fog Computing</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/lcg/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'LCG col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/LCG col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Consumer</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/groups/lite/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'LITE col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/LITE col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">IoT & Embedded</h3>
@@ -57,7 +57,7 @@ jumbotron:
             <div class="mobile-center-icons">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 text-center">
                     <div class="col-xs-offset-1 col-xs-10 col-sm-6 col-sm-offset-3">
-                        <img id="hover-icon" toggled="False" class="center-block img-responsive lazyload" data-src="{% asset_path 'chipCoreEng.svg' %}" 
+                        <img id="hover-icon" toggled="False" class="center-block img-responsive lazyload" data-src="/assets/images/content/chipCoreEng.svg" 
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                         <a href="/engineering/core/kernel/"><span class="core-descriptor kernel">Kernel</span></a>
                         <a href="/engineering/core/toolchain/"><span class="core-descriptor toolchain">Toolchain</span></a>
@@ -74,28 +74,28 @@ jumbotron:
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/sig/ltn/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'antenna col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/antenna col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Telecom & Networking</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/incubators/autonomous-vehicles/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'AutoCol.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/AutoCol.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Autonomous Vehicles</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/incubators/machine-intelligence/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'Machine col.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/Machine col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Machine Intelligence</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/sig/hpc/">
-                    <img class="img-responsive lazyload" data-src="{% asset_path 'HPCCol.svg' %}" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/HPCCol.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">High Performance Computing</h3>
