@@ -2,7 +2,7 @@
 title: Membership
 description: |-
     Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
-layout: empty
+layout: jumbotron
 permalink: /membership/
 js-package: membership
 css-package: membership
