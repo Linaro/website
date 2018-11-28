@@ -1,12 +1,16 @@
 ---
 title: Engineering
-layout: empty
+description: >-
+    Linaro’s work is at the heart of all modern Linux-based devices running on Arm processors, including Android smartphones and tablets. As markets for Arm processors develop, new opportunities for collaborative engineering are created around Linux and other open source operating systems. This has resulted in Linaro’s collaborative engineering spanning a wide range of technologies. To find out more about what work we do in each vertical, click on the relevant icon.
+layout: jumbotron
 permalink: /engineering/
 js-package: engineering
 css-package: engineering-landing
+jumbotron:
+    background-image: /asset/images/content/engineering-bg.jpg
 ---
-{% include breadcrumb.html %}
-<div class="container-fluid" id="engineering-graphic" style="background-image:url({% asset_path 'engineering-bg.svg' %})">
+<!--- Top Engineering Icons Row -->
+<div id="engineering-graphic" class="row" style="background-im;age:url({% asset_path 'engineering-bg.svg' %})">
     <!-- Circular Background -->
     <div class="circle-background center-block" id="circles">
         <div class="circle-one">
@@ -15,7 +19,6 @@ css-package: engineering-landing
             </div>
         </div>
     </div>
-    <!--- Top Engineering Icons Row -->
     <div class="row engineering-top-row">
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
@@ -100,18 +103,16 @@ css-package: engineering-landing
         </div>
     </div>
 </div>
-<div class="container-fluid" id="content">
-    <div class="row padded-row" id="projects">
-        <div class="container projects">
-            <h2 class="text-center">Projects</h2>
-            {% assign sorted-projects = site.data.projects | sort: 'name' %}
-            {% for project in sorted-projects %}
-            <div class="col-xs-6 col-sm-3 col-md-2 project-col">
-                <a href="{{project.url}}">
-                    <div class="project lazyload" style="background-image: url('/assets/images/projects/{{project.image}}');"></div>
-                </a>
-            </div>
-            {% endfor %}
+<div class="row padded-row" id="content-container">
+    <div class="container projects">
+        <h2 class="text-center">Projects</h2>
+        {% assign sorted-projects = site.data.projects | sort: 'name' %}
+        {% for project in sorted-projects %}
+        <div class="col-xs-6 col-sm-3 col-md-2 project-col">
+            <a href="{{project.url}}">
+                <div class="project lazyload" style="background-image: url('/assets/images/projects/{{project.image}}');"></div>
+            </a>
         </div>
+        {% endfor %}
     </div>
 </div>
