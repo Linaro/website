@@ -99,7 +99,7 @@ a.btn.btn-primary.section-btn {
     color: white;
     transition: all 1s ease;
 }
-#content-container a.btn.btn-primary.section-btn:hover {
+#wrapper a.btn.btn-primary.section-btn:hover {
     background-color: #0e092a;
     color: white;
 }
@@ -170,19 +170,19 @@ body{
     color: #7b7b7b;
 }
 
-#content-container .remote-teams h5{
+#wrapper .remote-teams h5{
     color: #fff;
     font-weight: bold;
 }
 
 
-#content-container .remote-teams ul {
+#wrapper .remote-teams ul {
     padding-left: 0px;
     list-style: none;
     color:white;
 }
     
-#content-container .row.employee-map h1 {
+#wrapper .row.employee-map h1 {
     font-weight: bold;
     font-size: 54px;
     color: #fff;
@@ -593,7 +593,7 @@ p.center.employee-map-text{
         width:100%;
     }
     
-    #content-container .row.employee-map h1 {
+    #wrapper .row.employee-map h1 {
         padding-top: 40px;
         padding-bottom: 40px;
         font-size: 48px;
@@ -627,7 +627,7 @@ p.center.employee-map-text{
         height: 10px;
     }
     
-    #content-container .owl-item .timeline-item > .text-wrap{
+    #wrapper .owl-item .timeline-item > .text-wrap{
         top: -100px;
         position:relative;
         padding-top:0px;
@@ -654,7 +654,7 @@ p.center.employee-map-text{
 
 }
 
-#content-container .text-wrap p {
+#wrapper .text-wrap p {
     margin-bottom: 0px;
 }
 
