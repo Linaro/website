@@ -87,6 +87,12 @@ defaults:
         layout: post
         comments: true
   - scope:
+        path: "_posts/events"
+        type: "posts"
+    values:
+        layout: post
+        comments: false
+  - scope:
         path: ""
         type: "company"
     values:

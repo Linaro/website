@@ -1,0 +1,13 @@
+.event-block {
+    height: 250px;
+    background-size: cover;
+    background-position:center center;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    transition: all 400ms linear;
+}
+a.btn.btn-primary.btn-sm.all-events {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

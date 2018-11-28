@@ -4,7 +4,7 @@ amazon_s3_video_url: None
 author: connect
 comments: false
 date: 2017-03-20 11:29:38+00:00
-layout: resource-post
+layout: post
 link: http://connect.linaro.org/uncategorized/mobile-sessions-bud17/
 session_id: None
 session_track: None
@@ -20,10 +20,8 @@ categories:
 - blog
 permalink: /blog/:title/
 ---
-
-https://www.youtube.com/watch?v=KUCBqnnnJK0
-
 **Session Name:**
+
 LMG Lightning Talks – BUD17-106
 
 **Abstract:**
@@ -45,15 +43,7 @@ Short updates on various LMG initiatives, including boottime reduction, Android 
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-106/](https://connect.linaro.org/resources/bud17/bud17-106/)
 
 
-
-* * *
-
-
-
-
-
-
-
+*********
 
 
 **Session Name:** Status of Android “AOSP” TV – BUD17-118
@@ -68,8 +58,7 @@ LHG has recently launched an AOSP TV lead project which is focused on specific T
 
 
 
-* * *
-
+*********
 
 
 **Session Name:** AOSP Toolchains – BUD17-202
@@ -92,8 +81,7 @@ LMG team, in collaboration with Toolchains team, has worked on multiple areas re
 
 
 
-* * *
-
+*********
 
 
 **Session Name:** Future of Android Automated Testing – BUD17-206
@@ -115,8 +103,7 @@ This session will talk about efforts around increasing Android testing – frequ
 
 
 
-* * *
-
+*********
 
 
 **Session Name:** Energy Awareness: The Next Step – BUD17-222
@@ -131,8 +118,7 @@ This will be a forward thinking session where, in the age of ML/AI/VR/AR, we sha
 
 
 
-* * *
-
+*********
 
 
 **Session Name:** AOSP BoF – BUD17-414

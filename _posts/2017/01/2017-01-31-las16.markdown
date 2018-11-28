@@ -12,7 +12,7 @@ image:
   featured: true
   name: LAS16Playlist.jpg
   path: /assets/images/blog/LAS16Playlist.jpg
-layout: resource-post
+layout: post
 link: http://connect.linaro.org/playlist/las16/
 session_id: None
 session_track: None

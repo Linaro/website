@@ -1,0 +1,57 @@
+---
+layout: default
+js-package: resource-post
+css-package: resource-post
+---
+{% include breadcrumb.html  %}
+<div class="container-fluid" id="content-container">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-9 no-padding {{current_connect}}">
+                <article class="post-content">
+                    <div class="post-info">
+                        {% if page.date %}<small class="blog-date text-center"><em>Added to Event Resources on <b>{{page.date |  date: "%A, %B %-d, %Y"}}</b></em></small>{% endif %}
+                        {% if page.session_track %}
+                            <div class="tracks">
+                                {% if page.session_track contains "," %}
+                                    {% assign tracks = page.session_track | split: "," %}
+                                    {% for track in tracks %}
+                                        <a href="/resources/tracks/#{{track | downcase}}"><span class="track">{{track}}</span></a>
+                                    {% endfor %}
+                                {% else %}
+                                    {% unless page.session_track == "None" %}
+                                        <a href="/resources/tracks/#{{page.session_track | downcase }}"><span class="track">{{page.session_track}}</span></a>
+                                    {% endunless %}
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="col-xs-12 no-padding">
+                        <div class="video">
+                            {% if page.youtube_video_url and page.youtube_video_url != "None" %}
+                                <div id="video-holder">
+                                    <img id="video-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/video_placeholder.png" />
+                                    <div class="embed-responsive embed-responsive-16by9 hidden-iframe" id="video-embed">
+                                        <iframe class="hidden-iframe" data-src="{{page.youtube_video_url}}" width="100%" height="500" frameborder="0" marginwidth="5"
+                                            marginheight="5" scrolling="auto" id="youtube-iframe"></iframe>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div id="video-holder">
+                                    <img id="video-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/video_placeholder.png"/>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="col-xs-12 no-padding">
+                        {{ content }}
+                    </div>
+                </article>
+                {% include post-comments.html %}
+                </div>
+                <div class="col-md-3 blog-sidebar no-padding">
+                    {% include post-sidebar.html %}
+                </div>
+        </div>        
+    </div>
+</div>
