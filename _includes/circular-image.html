@@ -1,6 +1,9 @@
-{% if include.name %}
-<div class="lazyload circular_image {% if include.class %}{{include.class}}{% endif %}"
-style="background-image: url('{% asset_path {{include.name}} %}');"></div>
-{% else %}
-Please include an image name!
-{% endif %}
+{% if include.image %}
+<a href="#" data-featherlight="{{include.image}}">
+    <div class="lazyload circular_image {% if include.class %}{{include.class}}{% endif %}"
+    style="background-image: url('{{include.image}}');"></div>
+    {% else %}
+    Please include an image!
+    {% endif %}
+</a>
+
