@@ -1,6 +1,6 @@
 <div class="row events-row">
     {% assign event_details = site.posts | where: "event", include.event | first %}
-    {% event_posts = site.categories[include.event] | sort: 'date' %}
+    {% event_posts = site.categories[include.event] | sort: 'date' | reverse %}
     {% for post in event_posts %}
         <div class="col-xs-12 col-sm-4">
             <a href="{{post.url}}">
