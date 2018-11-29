@@ -154,11 +154,21 @@ span.connect-darker-blue {
     color: #5990d4;
     font-weight: bold;
 }
+.download-col {
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+.download-col h3 {
+    height: 30px;
+}
+.download-block .download-block-content {
+    height: 300px;
+}
 .main p {
     font-size: 16px;
     color: #252525;
 }
-
 .main p.linaro-home-block-text {
     color: #fff;
 }
