@@ -26,7 +26,8 @@ css-package: resource-post
                             </div>
                         {% endif %}
                     </div>
-                    <div class="col-sm-6 no-padding">
+                    {% if page.youtube_video_url %}
+                    <div class="{% if page.amazon_s3_presentation_url %}col-sm-6{% else %}col-sm-12{% endif %} no-padding">
                         <div class="video">
                             {% if page.youtube_video_url and page.youtube_video_url != "None" %}
                                 <div id="video-holder">
@@ -36,16 +37,14 @@ css-package: resource-post
                                             marginheight="5" scrolling="auto" id="youtube-iframe"></iframe>
                                     </div>
                                 </div>
-                            {% else %}
-                                <div id="video-holder">
-                                    <img id="video-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/video_placeholder.png"/>
-                                </div>
                             {% endif %}
                         </div>
                     </div>
-                    <div class="col-sm-6 no-padding">
+                    {% endif %}
+                    {% if page.amazon_s3_presentation_url %}
+                    <div class="{% if page.youtube_video_url %}col-sm-6{% else %}col-sm-12{% endif %} no-padding">
                         <div class="presentation">
-                                {% if page.amazon_s3_presentation_url and page.amazon_s3_presentation_url != "None" %}
+                                {% if page.amazon_s3_presentation_url %}
                                 <div id="presentation-holder">
                                     <img id="presentation-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
                                     data-src="/assets/images/content/presentation-placeholder.svg"
@@ -55,11 +54,6 @@ css-package: resource-post
                                             marginheight="5" scrolling="auto" id="presentation-iframe"></iframe>
                                     </div>
                                 </div>
-                                {% else %}
-                                    <div id="presentation-holder">
-                                        <img id="presentation-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="/assets/images/content/presentation-placeholder.svg" />
-                                    </div>
                                 {% endif %}
                             </div>
                             {% if page.amazon_s3_presentation_url and page.amazon_s3_presentation_url != "None" and page.amazon_s3_presentation_url != "n/a" %}
@@ -68,15 +62,16 @@ css-package: resource-post
                                 </div>
                             {% endif %}
                     </div>
+                    {% endif %}
                     <div class="col-xs-12 no-padding">
                         {{ content }}
                     </div>
                 </article>
                 {% include disqus-comments.html %}
-                </div>
-                <div class="col-md-3 blog-sidebar no-padding">
-                    {% include post-sidebar.html %}
-                </div>
+            </div>
+            <div class="col-md-3 blog-sidebar no-padding">
+                {% include post-sidebar.html %}
+            </div>
         </div>        
     </div>
 </div>
