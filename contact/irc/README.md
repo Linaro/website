@@ -101,7 +101,7 @@ Typically, IRC requires you to run a connected client at all times otherwise you
 
 ## IRC through Firefox
 
-If you are using Firefox as a web browser, there’s also an IRC add-on for it: [https://addons.mozilla.org/en-US/firefox/addon/16/](https://addons.mozilla.org/en-US/firefox/addon/16/)
+If you are using Firefox as a web browser, there’s also an IRC add-on for it: [https://addons.mozilla.org/en-GB/firefox/search/?q=irc](https://addons.mozilla.org/en-GB/firefox/search/?q=irc)
 
 * * *
 
