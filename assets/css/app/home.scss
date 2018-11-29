@@ -220,7 +220,16 @@ a.btn.btn-linaro-home.connect {
     background-color: #97ce1e;
     border-color: #6a9015;
 }
-
+#wrapper a.btn.btn-linaro-home {
+    background-color:#9cc849;
+    border: 1px solid #000;
+    color:white;
+    font-weight:bold;
+    border-radius:0;
+}
+#wrapper a.btn.btn-linaro-home:hover{
+    background-color:#262626;
+}
 div.row.slide-content-row {
     padding-left: 15px;
     padding-right: 15px;
