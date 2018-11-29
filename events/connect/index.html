@@ -51,9 +51,9 @@ css-package: events
                 {% capture event_time %}{{event-page.start-date | date: '%s'}}{% endcapture %}
                 {% if event_time > nowunix %}
                     <div class="col-sm-4 no-padding">
-                        <a href="https://connect.linaro.org/resources/{{event-page.id | downcase }}/">
+                        <a href="https://connect.linaro.org/future-connects/">
                             <div class="event-block fly">
-                                <div class="event-image" style="background-image: url('https://connect.linaro.org/assets/images/content/{{event-page.placeholder}}')"></div>
+                                <div class="event-image" style="background-image: url('/assets/images/content/{{event-page.placeholder}}')"></div>
                                 <div class="event-title">
                                     <h3>{{event-page.long-name}}</h3>
                                 </div>
