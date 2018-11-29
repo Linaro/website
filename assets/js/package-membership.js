@@ -5,7 +5,7 @@
 //= require vendor/lazysizes
 //= require vendor/owl.carousel
 
-
+//= require app/search
 //= require app/main
 //= require app/membership
 //= require app/scroll-to-anchors

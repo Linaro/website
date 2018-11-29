@@ -8,6 +8,7 @@
 //= require app/sticky-tab-bar
 //= require vendor/featherlight
 
+//= require app/search
 //= require app/main
 //= require app/about
 //= require app/search
