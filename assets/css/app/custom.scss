@@ -9,12 +9,12 @@
         height: 1px;
         background-color: #fff;
     }
-    #wrapper .job-op>p {
+    .main .job-op>p {
         line-height: 25px;
     }
 }
 
-#wrapper .job-op>p {
+.main .job-op>p {
     line-height: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -39,7 +39,7 @@
     a.right.carousel-control {
         display: none;
     }
-    #wrapper .members-links {
+    .main .members-links {
         padding: 0;
     }
     .col-md-12.members-panel {
@@ -122,15 +122,15 @@ ul#tabbed_nav {
     border: 1px solid #eee;
     margin-bottom: 0;
 }
-#wrapper a:hover {
+.main a:hover {
     text-decoration: none;
     color: darken($brand-primary, 20%);
 }
-#wrapper ul>li {
+.main ul>li {
     font-size: 16px;
     line-height: 26px;
 }
-#wrapper .c-forms-form-title {
+.main .c-forms-form-title {
     display: block;
 }
 li.side-nav-button:hover>a {
@@ -154,12 +154,12 @@ span.connect-darker-blue {
     color: #5990d4;
     font-weight: bold;
 }
-#wrapper p {
+.main p {
     font-size: 16px;
     color: #252525;
 }
 
-#wrapper p.linaro-home-block-text {
+.main p.linaro-home-block-text {
     color: #fff;
 }
 a.linaro-home-button {
@@ -313,18 +313,18 @@ dl.timeline-dl>dd {
     margin-left: 15px;
 }
 
-#wrapper div.container.board_member {
+.main div.container.board_member {
     padding-left: 0;
     padding-right: 0;
     border-top: 1px solid #ccc;
 }
 
-#wrapper div.container.board_member>div.col-sm-9 {
+.main div.container.board_member>div.col-sm-9 {
     padding-left: 0;
     padding-right: 0;
 }
 
-#wrapper div.container.board_member>div.col-sm-3 {
+.main div.container.board_member>div.col-sm-3 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -447,12 +447,12 @@ div.dark {
     opacity: 0.7;
 }
 
-#wrapper small.blog-author.text-center>a>em {
+.main small.blog-author.text-center>a>em {
     color: white;
     transition: all 500ms linear;
 }
 
-#wrapper small.blog-author.text-center>a:hover>em {
+.main small.blog-author.text-center>a:hover>em {
     color: #a681b8;
 }
 @media (max-width: $screen-sm-min) {
@@ -471,11 +471,6 @@ div.dark {
 #main-navigation ul.dropdown-menu.sub-menu>li>a {
     color: white;
 }
-
-#main-navigation div#navbar-collapse {
-    z-index: 1;
-}
-
 @media(max-width: $screen-sm-min - 1) {
     .padded-row {
         padding: 40px 0;
