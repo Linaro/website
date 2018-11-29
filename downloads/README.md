@@ -8,92 +8,112 @@ jumbotron:
     background-image: /assets/images/content/downloads-bg.jpg
     title: Work upstream and contribute to Linaro’s code
 ---
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Releases</h3>
-        <p>
-            Releases is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
-        </p>
+        <div class="download-block-content flex-center">
+            <p>
+                Releases is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
+            </p>
+        </div>
         <a href="http://releases.linaro.org/" class="btn btn-primary">View Releases</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Platforms</h3>
-        <p>
-            Platforms is a new site that will host platform builds for specific end-to-end solutions. Currently, this site features the 18.06 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the coming months.
-        </p>
+        <div class="download-block-content flex-center">
+            <p>
+                Platforms is a new site that will host platform builds for specific end-to-end solutions. Currently, this site features the 18.06 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the coming months.
+            </p>
+        </div>
         <a href="http://releases.linaro.org/" class="btn btn-primary">View Platforms</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Snapshots</h3>
+        <div class="download-block-content flex-center">
         <p>
             Snapshots code shows Linaro work in progress. Often created on a daily basis, these are literally snapshots of work in progress that are used for testing and development. The code on this site may not work and should only be used by experienced engineers who know exactly what they are doing.
         </p>
+        </div>
         <a href="http://snapshots.linaro.org/" class="btn btn-primary">View Snapshots</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Security Downloads</h3>
+        <div class="download-block-content flex-center">
         <p>
             Linaro security downloads are available from several of Linaro’s engineering groups. The most recent work includes collaboration on Meltdown/Spectre fixes backported in to the 4.4, 4.9 and 4.14 kernels.        
         </p>
+        </div>
         <a href="/downloads/security/" class="btn btn-primary">View Security Downloads</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Patches</h3>
+        <div class="download-block-content flex-center">
         <p>
             Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain.
             The Patches website presents this work by team and by upstream project.
         </p>
+        </div>
         <a href="https://patches.linaro.org" class="btn btn-primary">View Patches</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>LKFT</h3>
+        <div class="download-block-content flex-center">
         <p>
             LKFT is Linaro’s Linux Kernel Functional Test framework.
             The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible. This is performed by executing a variety of functional-tests on a selection of user-space operating systems
         </p>
+        </div>
         <a href="https://lkft.linaro.org" class="btn btn-primary">View LKFT</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Linaro Stable Kernel (LSK)</h3>
+        <div class="download-block-content flex-center">
         <p>
             The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and Arm support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
         </p>
+        </div>
         <a href="https://git.linaro.org/kernel/linux-linaro-stable.git/" class="btn btn-primary">View Git</a>
         <a href="https://wiki.linaro.org/LSK" class="btn btn-primary">View Wiki</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
-        <h3>Linaro Confectionary Release (LCR)</h3>
+        <h3>LCR</h3>
+        <div class="download-block-content flex-center">
         <p>
-            The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. Click here for the latest downloads.
+            LCR is released on a monthly basis following the Linaro release cadence. It is a stable release and content to be added at the beginning of the month. It comes in two variants M-LCR and R-LCR.
         </p>
+        </div>
         <a href="https://releases.linaro.org/android/reference-lcr/" class="btn btn-primary">View Downloads</a>
+        <a href="https://wiki.linaro.org/LMG/ReleaseProcess" class="btn btn-primary">View Wiki</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>LAVA</h3>
+        <div class="download-block-content flex-center">
         <p>
             The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. Click here for the latest downloads.
         </p>
+        </div>
         <a href="https://releases.linaro.org/components/lava/latest/" class="btn btn-primary">View Downloads</a>
     </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-4 flex-container download-col">
     <div class="download-block">
+        <div class="download-block-content flex-center">
         <h3>OpenDataPlane</h3>
         <p>
             The OpenDataPlane API has two implementations currently supported:
@@ -102,11 +122,14 @@ jumbotron:
                 <li>Performance implementation build for x86 using the DPDK SDK. <a href="https://git.linaro.org/lng/odp-dpdk.git">(odp-dpdk)</a></li>
             </ul>
         </p>
+        </div>
         <a href="https://www.opendataplane.org" class="btn btn-primary">View Website</a>
     </div>
 </div>
 
 <div class="col-xs-12" markdown="1">
+
+***
 
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](http://patches.linaro.org/) presents this work by team and by upstream project.
 
