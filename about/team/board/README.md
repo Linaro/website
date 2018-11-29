@@ -20,7 +20,7 @@ Guy assumed the post of Chairman at the Linaro Board meeting held on Thursday 8 
 Prior to joining Sage he was Country Manager and then European Managing Director for Intuit, the US software company. Previously he worked at the French hardware company Groupe Bull where he was a Director of Marketing and Claris as Southern European General Manager. Guy has an MBA from Harvard University and an Engineering degree from “Ecole Polytechnique Federal de Lausanne” (Switzerland).
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Guy-Berruyer1.jpg" class="linaro-profile-image" alt="Guy Berruyer Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Guy-Berruyer1.jpg" class="linaro-profile-image" alt="Guy Berruyer Profile Photo"%}
 </div>
 </div>
 
@@ -31,7 +31,7 @@ Prior to joining Sage he was Country Manager and then European Managing Director
 George has led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
 </div>
 </div>
 
@@ -45,7 +45,7 @@ Mark has been working with open source technologies for approaching 20 years and
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
 </div>
 </div>
 
@@ -57,7 +57,7 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
 </div>
 </div>
 
@@ -68,7 +68,7 @@ Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linu
 Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html name="Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
 </div>
 </div>
 

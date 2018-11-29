@@ -1,24 +1,17 @@
 ---
 title: Membership
 description: |-
-    Members currently working with Linaro and how to become a member of Linaro.
-layout: empty
+    Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
+layout: jumbotron
 permalink: /membership/
 js-package: membership
 css-package: membership
+jumbotron:
+    background-image: /assets/images/content/membership-bg.jpg
+    title: Join Linaro to accelerate the deployment of your Arm-based solutions
+    description: >-
+        Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
 ---
-<div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
-<div class="row overlay padded-row" id="why-join">
-    <div class="container text-center">
-        <h1 class="fly center-block">Join Linaro to accelerate the deployment of your Arm-based solutions</h1>
-        <p class="fly center-block">
-            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
-        </p>
-    </div>
-</div>
-</div>
-<div class="container-fluid">
-
 <div class="row" id="projects">
     <div class="container">
         <div class="col-xs-12 text-center">
@@ -140,6 +133,4 @@ There are multiple levels of membership and different ways to engage in projects
             </a>
         </div>
     </div>
-</div>
-
 </div>

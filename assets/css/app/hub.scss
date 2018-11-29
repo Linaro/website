@@ -16,8 +16,8 @@
 .hub-green{
     background-color: #accb4d;
 }
-.hub-blue{
-    background-color: #0083a9;
+.hub-purple{
+    background-color: #b255b3;
 }
 .hub-pink{
     background-color: #c34969;
@@ -109,7 +109,7 @@ span.post-site {
     height: 60px;
     position: relative;
     text-align: center;
-    top: -40px;
+    top: -60px;
 }
 li.list-group-item.fly.show-block {
     height: 60px;
@@ -121,7 +121,8 @@ span.post-date {
     font-size: 10px;
     height: 20px;
     overflow: hidden;
-    top: -2px;
+    top: -12px;
+    display: block;
 }
 .panel.panel-default {
     margin: 5px;
@@ -145,4 +146,24 @@ span.project-stats {
     height: 40px;
     overflow: hidden;
     text-align: center;
+}
+#wrapper .panel.panel-default .panel-heading {
+    border: none;
+}
+#wrapper .panel.panel-default {
+    border-radius:0px;
+}
+#wrapper .panel.panel-default a {
+    color:#636363;
+}
+#wrapper .panel a li {
+    border-radius: 0px;
+    transition: all 400ms ease;
+}
+#wrapper .panel a:hover {
+    text-decoration: none;
+}
+#wrapper .panel a:hover li {
+    text-decoration: none;
+    background-color:#e9e9e9;
 }

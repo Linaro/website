@@ -71,9 +71,13 @@ function addLatestResources(sorted_data, number_of_items){
         else{
             resource_image = "/assets/images/content/connect-icon-alt.png";
         }
+        var textEnd = "";
+        if(post.title.length > 40){
+            textEnd = "...";
+        }
         listElements += '<a target="_self" href="' + resource.url +'">';
         listElements += '<li class="list-group-item fly">';
-        listElements += '<span class="post-title">' + resource.title + '</span>';
+        listElements += '<span class="post-title">' + resource.title.substring(0, 40) + textEnd + '</span>';
         listElements += '<span class="post-date">' + formatDate(Date.parse(extractDateString(resource.date_published)))  + '</span>';
         listElements += '<span class="post-site"><img class="img-responsive" src="'+ resource_image + '"/></span>';
         listElements += '</li>';

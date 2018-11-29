@@ -6,6 +6,7 @@
 //= require vendor/jquery.rss
 //= require vendor/moment.min
 
+//= require app/search
 //= require app/main
 //= require app/rss
 //= require app/tables
