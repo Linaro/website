@@ -105,16 +105,14 @@ jumbotron:
         <a href="https://www.opendataplane.org" class="btn btn-primary">View Website</a>
     </div>
 </div>
+
+<div class="col-xs-12" markdown="1">
+
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](http://patches.linaro.org/) presents this work by team and by upstream project.
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
 This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](https://www.linaro.org/work/).
-
-## Linaro Security Working Group downloads (including latest work on Meltdown/Spectre)
-
-[Linaro security downloads](https://www.linaro.org/downloads/security/) are available from several of Linaro's engineering groups. The most recent work includes collaboration on Meltdown/Spectre fixes backported in to the 4.4, 4.9 and 4.14 kernels. There are also links to the latest OP-TEE work from the Security Working Group.
-
 
 ## Linaro Member Builds
 
@@ -126,57 +124,6 @@ LMBs are full system builds of popular open-source products set up at the reques
 |Qualcomm | <img src="{% asset_path 'qualcomm-snapdragon-thumb.jpg' %}" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
-
-## Linaro Stable Kernel (LSK)
-
-The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and Arm support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
-
-
-<ul>
-<li>
-<img src="{% asset_path 'icon-linux-logo-24x24.png' %}" alt="Linux Linaro">
-<a href="https://git.linaro.org/kernel/linux-linaro-stable.git/">linux-linaro-stable (LSK) Git</a>,
-<a href="https://wiki.linaro.org/LSK">additional information</a>
-</li>
-</ul>
-
-
-***
-
-## Linaro Confectionary Release (LCR)
-
-R-LCR is a build of the Android Open Source Project (AOSP) from a stable release branch that includes platform support and other features. R-LCR includes the Android flavour of Linaro Stable Kernel (LSK) for all machine configurations.
-
-- [R-LCR, Binaries](https://releases.linaro.org/android/reference-lcr/)
-
-***
-
-## LAVA
-
-<div class="col-sm-9 no-padding" markdown="1">
-The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. [Click here for the latest downloads](https://releases.linaro.org/components/lava/latest/).
-</div>
-<div class="col-sm-3" markdown="1">
-{% include image.html name="lava-logo_standard.png" class="pull-right" alt="Lava Logo Standard Image"%}
-</div>
-<div style="clear:both;"></div>
-<hr>
-
-## Linaro Networking
-
-#### OpenDataPlane
-
-<div class="col-sm-9 no-padding" markdown="1">
-The [OpenDataPlane](http://www.opendataplane.org/) API has two implementations currently supported:
-
-- Functional reference model that runs on any linux implementation ([odp-linux-generic](https://git.linaro.org/lng/odp.git))
-- Performance implementation build for x86  using the DPDK SDK. ([odp-dpdk](https://git.linaro.org/lng/odp-dpdk.git))
-</div>
-<div class="col-sm-3" markdown="1">
-{% include image.html name="ODP-logo.png" class="pull-right" alt="ODP Logo"%}
-</div>
-<div style="clear:both;"></div>
-<hr>
 
 ## Linaro Toolchain
 
@@ -230,4 +177,4 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
 
-***
+</div>
