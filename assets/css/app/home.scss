@@ -220,7 +220,16 @@ a.btn.btn-linaro-home.connect {
     background-color: #97ce1e;
     border-color: #6a9015;
 }
-
+#wrapper a.btn.btn-linaro-home {
+    background-color:#9cc849;
+    border: 1px solid #000;
+    color:white;
+    font-weight:bold;
+    border-radius:0;
+}
+#wrapper a.btn.btn-linaro-home:hover{
+    background-color:#262626;
+}
 div.row.slide-content-row {
     padding-left: 15px;
     padding-right: 15px;
@@ -471,21 +480,6 @@ div#latest-news-row {
     background-color: #3c3b3b;
 }
 
-// .row.group_header.leg {
-//     background-color: #0195ca;
-// }
-// .row.group_header.lng {
-//     background-color: #00a456;
-// }
-// .row.group_header.lhg {
-//     background-color: #00adea;
-// }
-// .row.group_header.lmg {
-//     background-color: #907cb0;
-// }
-// .row.group_header.lite {
-//     background-color: #ea9538;
-// }
 .row.group_content.leg {
     background-color: #e6f4f9;
     border-bottom: 2px solid #0195ca;
@@ -610,11 +604,6 @@ div.blogs_home_block_post.hpc:hover {
         line-height: 40px;
     }
 }
-
-p#buttons {
-    margin-top: 40px;
-}
-
 div#featured-jumbotron {
     margin-bottom: $navbar-height + 20;
 }
@@ -627,4 +616,16 @@ div#featured-jumbotron {
     font-weight: bold;
     position: relative;
     color: #575757;
+}
+span.line-one {
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+span.line-two {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color:white;
+    text-shadow: #000 1px 1px 7px;
 }
