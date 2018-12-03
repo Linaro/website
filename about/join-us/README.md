@@ -8,16 +8,12 @@ js-package: careers
 css-package: careers
 jumbotron:
     title: Want to help build technology for the future?
+    description: ""
     carousel-images:
         - /assets/images/content/careers-image-4.jpg
         - /assets/images/content/yvr18-group-photo.jpg
         - /assets/images/content/careers-image-3.jpg
-    animation: fade
-    buttons:
-        - title: View on GitHub
-          url: https://github.com/kylekirkby/jumbo-jekyll-theme
-          icon: fa fa-github
-    
+    animation: fade    
 ---
 <div class="row careers-welcome" id="content-container">
     <div class="col-sm-6 no-padding video-col">
