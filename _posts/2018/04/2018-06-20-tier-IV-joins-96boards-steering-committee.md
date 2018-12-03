@@ -29,7 +29,7 @@ The 96Boards steering committee now includes more than twenty companies who are 
 
 ### About Tier IV
 
-Tier IV is an academic startup company that provides products and services for intelligent  vehicles. Currently more than a hundred companies all over the world are adopting Tier IV’s solutions built on top of Autoware to develop autonomous vehicles and/or their components. Through the provision of flexible solutions built on top of Autoware, Tier IV contributes significantly to open innovations of autonomous driving technologies. [http://www.tier4.jp/en/](http://www.tier4.jp/en/)
+Tier IV is an academic startup company that provides products and services for intelligent  vehicles. Currently more than a hundred companies all over the world are adopting Tier IV’s solutions built on top of Autoware to develop autonomous vehicles and/or their components. Through the provision of flexible solutions built on top of Autoware, Tier IV contributes significantly to open innovations of autonomous driving technologies. [http://www.tier4.jp/en/](https://linaro.co/tierIV)
 
 ### About Linaro
 
