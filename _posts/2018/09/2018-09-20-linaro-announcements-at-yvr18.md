@@ -28,7 +28,7 @@ The Linaro Developer Cloud’s mission is to provide developers with access to A
 
 Linaro recently passed the OpenStack Interoperability test-suite with 100% pass rate. This is a big achievement - Linaro is now able to offer a cloud that is, from a user perspective, fully interoperable while running on Arm64 hardware. You can read all about the work that enabled the team get to this point in this recently published article on [OpenStack Superuser](http://superuser.openstack.org/articles/arm-interop-openstack/). 
 
-In George’s keynote, The Developer Cloud team provided a demo on how developers will be able to sign up to the Developer Cloud to receive their instance on member provided Arm hardware. To find out more about the Linaro Developer Cloud, click [here](https://connect.linaro.cloud/). 
+In George’s keynote, The Developer Cloud team provided a demo on how developers will be able to sign up to the Developer Cloud to receive their instance on member provided Arm hardware. To find out more about the Linaro Developer Cloud, click [here](https://linaro.cloud/). 
 
 {% include image.html name="GeorgeGreyKNOpenstack.jpg" alt="The Linaro Developer Cloud Demo"%}
 
