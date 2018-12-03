@@ -116,12 +116,12 @@ Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 ye
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Mark Hambleton** / Arm
+### **Thomas Molgaard** / Arm
 
-Approaching 20 years of experience in embedded systems ranging from real time control of wind tunnels in his early career to a more recently on mobile devices. Mark has been working with the Linux kernel for approaching 15 years, initially creating networking products focussing on traffic classification and shaping for core and edge routers to more recently on mobile devices. Working as a Chief Architect for at Symbian (and Nokia), Mark established himself within the Arm community, he then joined Broadcom in 2012 to refocus on Linux on Arm working on their leading edge mobile SOCs and then on to Arm in 2014.
+Thomas Molgaard is Director of Technology Management in the Open Source Software group at Arm, based in Cambridge (UK). Together with his team of Software Product & Technology Managers, he is setting the direction for Arm’s open source software activities across all segments. He has been involved with Linaro on behalf of Arm since 2013 on multiple steering committees. Before joining Arm, he worked with mobile software platforms for Nokia R&D and the Nokia CTO Office with postings in Denmark, China, USA and Brazil.
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/mark-hambleton.png" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/thomas-molgaard.jpg" class="linaro-profile-image" alt="Thomas Molgaard Profile Photo"%}
 </div>
 </div>
 
