@@ -1,28 +1,22 @@
 # Custom Favicon
 favicon: favicon.png
-
 # Site name
 name: Linaro
-
 # Site Slogan
 slogan: Leading collaboration in the Arm Ecosystem
-
 # Mailchimp settings
 mailchimp:
     enabled: true
     id: af6cf590b0
     unsubscribe-url: https://linaro.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=af6cf590b0
-    
 # Footer Newsletter toggle.
 newsletter:
     enabled: true
-
-
 tags_enabled: true
-    
+jumbotron:
+  darken: true
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
-
 # # Breadcrumb Settings
 # breadcrumb:
 #     image: breadcrumb-image.jpg
@@ -31,7 +25,6 @@ linaro-footer-image: Linaro-Sprinkle.png
 edit-on-github:
     enabled: true
     repo: https://www.github.com/Linaro/website
-    
 # Settings for the home page
 home:
     #Content Background Image E.g. DeviceTree.org
@@ -54,7 +47,6 @@ home:
             # This is the name of the background-image located in /assets/images/
             name: hkg18-tech-banner.jpg
         # image: devicetree-icon-white.png
-
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: Linaro
 linkedin_username: 1026961
@@ -62,7 +54,6 @@ facebook_username: LinaroOrg
 youtube_username: linaroorg
 twitter_username: linaroorg
 slideshare_username: linaroorg
-
 # Blog setup
 blog:
     # Show Thumbnails in the post index
@@ -95,12 +86,10 @@ blog:
               # Fields to use for title and url.
               display_fields:
                   title: title
-                  url: url
-                  
+                  url: url        
 # Google Anayltics Setup
 google:
     tag_manager: GTM-5DLPJQ
-
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false
@@ -120,11 +109,9 @@ schema:
             county: Cambridge 
             post_code: CB22 7GG
             country_code: UK
-
 # Disqus Comments
 disqus:
     enabled: true
     shortname: Linaro
-
 # Placeholder for Missing Images
 placeholder: linaro-logo.png

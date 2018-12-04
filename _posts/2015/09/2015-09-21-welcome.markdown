@@ -11,7 +11,7 @@ image:
   featured: true
   name: LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
   path: /assets/images/featured-images/LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
-layout: resource-post
+layout: post
 link: http://connect.linaro.org/resource/sfo15/welcome/
 post_format:
 - Video
