@@ -200,11 +200,7 @@ jumbotron:
         </div>
     </div>
     <div class="col-sm-6 no-padding video-col">
-<<<<<<< HEAD
         <div class="media-block puzzle lazyload" data-bg="/assets/images/content/internship-brochure-cover.png">
-=======
-        <div class="media-block puzzle" style="background-image:url(/assets/images/content/internship-brochure-cover.png)">
->>>>>>> Resized/optimised main content images - other refactoring (#472)
             <div class="fly text-center">
                 <a href="/assets/downloads/Linaro_Interns.pdf" 
                 class="btn btn-careers fly">View Internship Brochure</a>
