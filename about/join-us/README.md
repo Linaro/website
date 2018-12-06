@@ -13,13 +13,21 @@ jumbotron:
         - /assets/images/content/careers-image-4.jpg
         - /assets/images/content/yvr18-group-photo.jpg
         - /assets/images/content/careers-image-3.jpg
-    animation: fade    
+    animation: fade
+    buttons:
+      - title: Job Vacancies
+        url: "#careers"
+        class: btn btn-primary sliding-link
 ---
 <div class="row careers-welcome" id="content-container">
     <div class="col-sm-6 no-padding video-col">
         <div class="media-block">
             <div class="fly">
-            {% include media.html media_url="https://www.youtube.com/embed/videoseries?list=PLKZSArYQptsPVOMTGB2eZwE2RDOxsfkEy" %}
+                <div class="wrapper">
+                    <div class="youtube" data-embed="nwJJ2uF7MZ4">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -83,14 +91,18 @@ jumbotron:
         <div class="col-sm-6 no-padding video-col">
         <div class="media-block">
             <div class="fly">
-            {% include media.html media_url="https://www.youtube.com/embed/14PXy15RA1Y" %}
+                <div class="wrapper">
+                    <div class="youtube" data-embed="14PXy15RA1Y">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="row" id="careers-learning">
     <div class="col-sm-6 no-padding video-col">
-        <div class="media-block puzzle" style="background-image:url(/assets/images/content/careers-puzzle-image.jpg)">
+        <div class="media-block puzzle lazyload" data-bg="/assets/images/content/careers-puzzle-image.jpg">
             <div class="fly text-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFvYa337ydUd3HwWHVyectrStanNJgCdZjdnQk9Krui7LWxg/viewform" 
                 class="btn btn-careers fly">Try the Puzzle</a>
@@ -188,7 +200,7 @@ jumbotron:
         </div>
     </div>
     <div class="col-sm-6 no-padding video-col">
-        <div class="media-block puzzle" style="background-image:url(/assets/images/content/internship-brochure-cover.png)">
+        <div class="media-block puzzle lazyload" data-bg="/assets/images/content/internship-brochure-cover.png">
             <div class="fly text-center">
                 <a href="/assets/downloads/Linaro_Interns.pdf" 
                 class="btn btn-careers fly">View Internship Brochure</a>
