@@ -1,0 +1,20 @@
+<div class="row events-row">
+    {% assign event_details = site.posts | where: "event", include.event | first %}
+    {% assign event_posts = site.categories[include.event] | sort: 'date' | reverse %}
+    {% for post in event_posts %}
+        <div class="col-xs-12 col-sm-4">
+            <a href="{{post.url}}">
+                <div class="event-block fly">
+                    {% if post.image %}
+                        <div class="event-image lazyload" style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{post.image.path}}')"></div>
+                    {% else %}
+                        <div class="event-image lazyload" style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{event_details.image.path}}')"></div>
+                    {% endif %}
+                    <div class="event-title">
+                        <h3>{{post.title}}</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>

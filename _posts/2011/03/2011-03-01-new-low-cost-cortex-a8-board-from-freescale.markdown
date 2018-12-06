@@ -18,7 +18,7 @@ tags:
 ---
 Freescale has taken the opportunity of the [Embedded World exhibition in Nuremberg](https://www.embedded-world.de/en) to announce its first low-cost board based on its i.MX53 Arm® CortexTM- A8 processor family, priced at 149 US dollars, and called the i.MX53 Quick Start board.
 
-Technical details and a picture can be found on the [LinuxDevices.com](https://www.nxp.com/docs/en/user-guide/SABRE6QUADPLUSQSG.pdf) website:
+Technical details and a picture can be found on the [LinuxDevices.com](https://www.nxp.com/products/all-products/power-management/pmics/power-management-for-i.mx-application-processors/i.mx53-quick-start-board:IMX53QSB) website:
 <table border="0" class="table-responsive">
 <tbody >
 <tr >

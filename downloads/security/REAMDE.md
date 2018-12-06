@@ -1,7 +1,9 @@
 ---
 title: Security Downloads
 permalink: /downloads/security/
-layout: container-breadcrumb
+layout: jumbotron-container
+jumbotron:
+    background-image: /assets/images/content/downloads-bg.jpg
 ---
 # Downloads and help for Meltdown and Spectre
 ## Open Source Projects

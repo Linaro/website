@@ -61,9 +61,13 @@ function addLatestNewsAndBlogs(allJSONData, number_of_items){
     for(var i=0;i<number_of_items;i++){
         post = allJSONData[i];
         var site_image = site_logos[post.site];
+        var textEnd = "";
+        if(post.title.length > 40){
+            textEnd = "...";
+        }
         listElements += '<a target="_self" href="' + post.url +'">';
         listElements += '<li class="list-group-item fly">';
-        listElements += '<span class="post-title">' + post.title + '</span>';
+        listElements += '<span class="post-title">' + post.title.substring(0, 40) + textEnd + '</span>';
         listElements += '<span class="post-date">' + formatDate(Date.parse(extractDateString(post.date_published)))  + '</span>';
         listElements += '<span class="post-site"><img class="img-responsive" src="'+ site_image + '"/></span>';
         listElements += '</li>';

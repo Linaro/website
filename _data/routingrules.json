@@ -216,6 +216,7 @@
     "^/linaro-partners-program(/?|/index.html)$ /news/linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program/ [R,L,NC]",
     "^/linaro-partners-with-samsung-ecosystem-to-deliver-exciting-new-low-cost-board-origen-to-open-source-developers(/?|/index.html)$ /news/linaro-partners-samsung-ecosystem-deliver-exciting-new-low-cost-board-origen-open-source-developers/ [R,L,NC]",
     "^/linaro/many-things-to-do-this-year-in-android(/?|/index.html)$ /blog/many-things-to-do-this-year-in-android/ [R,L,NC]",
+    "^/linarolife(/?|/index.html)$ https://collaborate.linaro.org/display/MAR/LinaroLife [R,L,NC]",
     "^/linarolife/e1(/?|/index.html)$ https://collaborate.linaro.org/display/MAR/LinaroLife [R,L,NC]",
     "^/linarolife/e2(/?|/index.html)$ https://collaborate.linaro.org/display/MAR/LinaroLife [R,L,NC]",
     "^/linux-on-arm/about-linaro(/?|/index.html)$ /about/ [R,L,NC]",
@@ -297,5 +298,9 @@
     "^/watercooler(/?|/index.html)$ https://bluejeans.com/555111222333/ [R,L,NC]",
     "^/work(/?|/index.html)$ /engineering/ [R,L,NC]",
     "^/app/resources/Presentations/ARM_updateDAVE_BRASH.pdf$ /engineering/ [R,L,NC]",
-    "^/app/resources/Presentations/ARM_updateDAVE_BRASH1.pdf$ /engineering/ [R,L,NC]"
+    "^/app/resources/Presentations/ARM_updateDAVE_BRASH1.pdf$ /engineering/ [R,L,NC]",
+    "^/latest/events/uefi-plugfest-2018(/?|/index.html)$ /events/attended/uefi-plugfest-2018/ [R,L,NC]",
+    "^/events/armhpcjapan2017(/?|/index.html)$ /events/workshop/arm-hpc-japan-2017/ [R,L,NC]",
+    "^/latest/events/hpc-asia-2019(/?|/index.html)$ /events/workshop/arm-hpc-asia-2019/ [R,L,NC]",
+    "^/latest/events/arm-hpc-santa-clara-2018(/?|/index.html)$ /events/workshop/arm-hpc-santa-clara-2018/ [R,L,NC]"
 ]

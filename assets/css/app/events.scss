@@ -1,8 +1,8 @@
 .event-image {
     height: 200px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
 }
 
 .event-title h3 {
@@ -13,9 +13,10 @@
 }
 
 .event-title {
-    height: 70px;
+    min-height: 50px;
     padding: 10px;
     border: none;
+    text-align: center;
     color: white;
     background-color: #363636;
 }
@@ -27,19 +28,8 @@
 }
 
 .event-block:hover {
-    -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    opacity: .9;
+    opacity: .8;
     cursor: pointer;
-}
-
-.event-block.attended:hover {
-    -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    opacity: .9;
-    cursor: initial;
 }
 
 .event-details {
