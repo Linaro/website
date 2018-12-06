@@ -58,6 +58,8 @@ slideshare_username: linaroorg
 blog:
     # Show Thumbnails in the post index
     show_thumbnails: true
+    # Toggle the output of blog/news reading time.
+    reading_time: true
     # Toggle site wide comments display.
     comments: true
     # Post Side Bar Settings
