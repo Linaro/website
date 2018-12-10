@@ -24,7 +24,7 @@ sessions:
       TX for four years. His research interests revolve around the central topic of ""Performance-centric Software Development”,
       in the context of HPC. He is actively working on several projects including high-level frameworks for
       programming traditional scientific applications, as well as high-performance AI and data analytics.
-    image: Linaro.org/assets/images/people/MohamedWahib.jpg
+    image: /assets/images/people/MohamedWahib.jpg
   - session: 3
     speaker: Francesco Petrogalli
     company: Arm
@@ -35,7 +35,7 @@ sessions:
       Vector Extension (SVE) of Arm, to ABI specifications for the vector functions, and to the open source
       library SLEEF. Francesco has also worked on optimizing a variety of computational kernels that
       are core to Machine Learning algorithms.
-    image: Linaro.org/assets/images/people/FrancescoPetrogalli.png
+    image: /assets/images/people/FrancescoPetrogalli.png
   - session: 4
     speaker: TBC
     company: TBC
@@ -62,7 +62,7 @@ sessions:
       eXtreme Performance Users Group (IXPUG). He also has served and been serving on several conferences’ organizing committee,
       such as a proceeding co-chair of Supercomputing19, a co-chair of International Scalable Computing Challenge15 
       (co-located with CCGrid15), and a publicity co-chair for Computing Frontier19, ICPP17, and eScience17.
-    image: Linaro.org/assets/images/people/JamesLin.png
+    image: /assets/images/people/JamesLin.png
   - session: 6
     speaker: Pak Lui
     company: Huawei
@@ -86,7 +86,7 @@ sessions:
       holds a B.Sc. in Computer Systems Engineering and a M.Sc. in Computer Science from Boston
       University in the USA. Pak also helped organizing the last Linaro Arm Architecture HPC Workshop
       in Santa Clara, CA (Silicon Valley) in July last year.
-    image: Linaro.org/assets/images/people/PakLui.jpg
+    image: /assets/images/people/PakLui.jpg
   - session: 7
     speaker: Mr Guo Yu Feng
     company: Phytium
@@ -96,7 +96,7 @@ sessions:
       Ltd., Ph.D. He has been engaged in research and development of high-performance
       computers and  microprocessor chips for a long time, and has hosted many 
       developments of Phytium CPU chips.
-    image: Linaro.org/assets/images/people/PakLui.jpg
+    image: /assets/images/people/PakLui.jpg
   - session: 8
     speaker: Dong Wei
     company: Arm
@@ -111,7 +111,7 @@ sessions:
       Before joining Arm in 2016, he was a VP and Fellow at HP responsible for the system 
       architecture definitions for PA-RISC, Itanium, x86, and RISC-V systems, and 
       cofounded the UEFI technology with Intel.
-    image: Linaro.org/assets/images/people/WeiDong.JPG
+    image: /assets/images/people/WeiDong.JPG
   - session: 9
     speaker: TBC
     company: TBC
@@ -128,7 +128,7 @@ sessions:
       Communications Business Unit), with responsibility for the planning and roadmap of GIGABYTE’s
       worldwide server products, leading the company’s development of ARM server products, and
       managing business with selected ARM processor vendors.
-    image: Linaro.org/assets/images/people/Akira.png
+    image: /assets/images/people/Akira.png
   - session: 11
     speaker: Fu Li
     company: Quanta Cloud
@@ -138,7 +138,7 @@ sessions:
       Dr. Fu Li is also the founder and CEO of Lumi Media Limited and Quantum Cloud Inc. He has garnered a wealth of experience across a range of quantum statistics, molecular simulation and 
       future network. Dr. Fu Li is often recognized for his vast contributions to cloud computing and media application industries, he has become vice-minister of China Society of Motion Picture and Television Engineers and Industry professor of 
       School of Digital Media of Jiangnan University, as well as the innovative and entrepreneurial talent of Jiangsu province.
-    image: Linaro.org/assets/images/people/LeoLi.jpg
+    image: /assets/images/people/LeoLi.jpg
   - session: 12
     speaker: n/a
     company: n/a
