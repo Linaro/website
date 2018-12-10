@@ -139,7 +139,3 @@ sessions:
       future network. Dr. Fu Li is often recognized for his vast contributions to cloud computing and media application industries, he has become vice-minister of China Society of Motion Picture and Television Engineers and Industry professor of 
       School of Digital Media of Jiangnan University, as well as the innovative and entrepreneurial talent of Jiangsu province.
     image: /assets/images/people/LeoLi.jpg
-  - session: 12
-    speaker: n/a
-    company: n/a
-    topic: Frontiers of AI deployments in HPC on Arm
