@@ -28,7 +28,6 @@ Shinpei Kato from Tier IV and the University of Tokyo, Jan Becker from Apex.AI a
 
 > Parkopedia’s Head of Autonomous Driving Brian Holt said, “We are thrilled to be joining the Autoware Foundation at such an early stage following our involvement and contributions to the Autoware open source self-driving car project. Parkopedia is committed to building high quality automotive-grade maps to support Autonomous Valet Parking and our collaboration with Autoware enables us to work with the community to develop the self-driving car software on which we will demonstrate these maps.”
 
-<<<<<<< HEAD
 > Dr. James Kuffner, TRI-AD CEO & TRI Executive Advisor, said “Through participation in the Autoware Foundation, TRI-AD would like to help build a large, engaged, and self-governed open source community around Autonomous Driving Technology by contributing and providing support for code that it will be using internally.”
 
 > eSOL CTO Masaki Gondo said, “We are excited to join this new venture to further accelerate the realization of autonomous driving technologies. eSOL already supports Autoware with its eMCOS, the scalable and safe RTOS, and welcomes the idea of safety-certifiable Autoware.”
@@ -36,15 +35,6 @@ Shinpei Kato from Tier IV and the University of Tokyo, Jan Becker from Apex.AI a
 > “We’re excited to be part of the Autoware Foundation. We share a common vision of building new industries on open platforms. It’s exciting to see Autoware committing to using and contributing to ROS 2, and we look forward to further collaboration between our communities,” said Brian Gerkey, CEO, Open Robotics (OSRF).
 
 > “SiFive welcomes the Autoware initiative, as an open-source self-driving software stack is a natural fit to high-performance AI hardware based on the free and open RISC-V architecture.” said Krste Asanovic, Chief Architect at SiFive. 
-=======
-> eSOL CTO Masaki Gondo said, “We are excited to join this new venture to further accelerate the realization of autonomous driving technologies. eSOL already supports Autoware with its eMCOS, the scalable and safe RTOS, and welcomes the idea of safety-certifiable Autoware.”
-
-> “We’re excited to be part of the Autoware Foundation. We share a common vision of building new industries on open platforms. It’s exciting to see Autoware committing to using and contributing to ROS 2, and we look forward to further collaboration between our communities,” said Brian Gerkey, CEO, Open Robotics (OSRF).
-
-> “SiFive welcomes the Autoware initiative, as an open-source self-driving software stack is a natural fit to high-performance AI hardware based on the free and open RISC-V architecture.” said Krste Asanovic, Chief Architect at SiFive. 
-
-> Dr. James Kuffner, TRI-AD CEO & TRI Executive Advisor, said “Through participation in the Autoware Foundation, TRI-AD would like to help build a large, engaged, and self-governed open source community around Autonomous Driving Technology by contributing and providing support for code that it will be using internally.”
->>>>>>> Corrected blockquote markdown
 
 > “We are very proud to be Autoware Foundation members. Xilinx’s flexible and adaptive processing platforms will contribute to define projects towards the development of semi-autonomous and autonomous platforms with Autoware Foundation members,” said Dan Isaacs, Director of Automotive Strategy & Market Development, Xilinx Inc.
 
