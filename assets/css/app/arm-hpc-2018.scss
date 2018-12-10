@@ -33,17 +33,17 @@
     border: 1px solid #1f3850;
 }
 
-#content-container .arm-hpc-row h1 {
+#wrapper .arm-hpc-row h1 {
     color: white;
     margin-top: 40px;
 }
 
-#content-container .arm-hpc-row h1 span {
+#wrapper .arm-hpc-row h1 span {
     color: #cecece;
     font-size: 20px;
 }
 
-#content-container .arm-hpc-row small {
+#wrapper .arm-hpc-row small {
     color: #fff;
     font-size: 18x;
 }
@@ -78,7 +78,7 @@
     font-weight: bold;
 }
 
-#content-container .arm-hpc-row.top .container {
+#wrapper .arm-hpc-row.top .container {
     height: 150px;
     background-position: center center;
 }
@@ -90,7 +90,7 @@
         width: 100%;
     }
 
-    #content-container .arm-hpc-row h1 {
+    #wrapper .arm-hpc-row h1 {
         font-size: 24px;
     }
 }
