@@ -15,7 +15,6 @@ image:
 event: arm-hpc-santa-clara-2018
 tag: event
 ---
-<div class="container-fluid" id="content-container">
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url({% asset_path 'hpc.png' %});background-position: center center;">
         <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
@@ -642,5 +641,4 @@ defer(function () {
         <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
-</div>
 </div>
