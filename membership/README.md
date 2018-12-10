@@ -129,7 +129,7 @@ There are multiple levels of membership and different ways to engage in projects
         <hr>
         <div class="col-xs-12 text-center">
             <a class="btn email" href="mailto:contact@linaro.org?subject=Linaro.org - Membership">
-                Apply to Join
+                contact@linaro.org
             </a>
         </div>
     </div>
