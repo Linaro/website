@@ -70,5 +70,16 @@ for(i=0;i<feeds.length;i++){
 function outputFeed(){
     console.log("Sorted Feed");
     var sortedFeed = mainFeed.slice(0);
-    console.log(sortedFeed.sort(sort_by_date_desc));    
+    console.log(sortedFeed.sort(sort_by_date_desc));
+    
+    for(n=0;n<sortedFeed.length;n++){
+
+        var textEl = "<h1>";
+        textEl += sortedFeed[n].title;
+        textEl += " - ";
+        textEl += sortedFeed[n].pubDate;
+        textEl += "</h1>";
+        $(textEl).appendTo("#feed");
+
+    }
 }
