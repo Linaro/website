@@ -27,7 +27,7 @@ var count = 0;
 function addJSONToGlobalArr(json, end){
     mainFeed.push(json);
     if(end == true){
-        if(count == feeds.length){
+        if(count == feeds.length - 1){
             outputFeed();
         }
         else{
