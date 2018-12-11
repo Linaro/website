@@ -14,28 +14,61 @@ var feeds = [
     "http://feeds.launchpad.net/linaro/announcements.atom",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml"
 ];
-// Loop over each feed and add to the main array 
-$.each(feeds, function( index, value ){
-    $.ajax({
-            url: 'https://api.rss2json.com/v1/api.json',
-            method: 'GET',
-            dataType: 'json',
-            data: {
-                rss_url: value,
-                api_key: 'bno3vk93kxtom3cvdcylvqtvrcocukgboz5misiv',
-                count: 4
-            }
-    }).done(function (response) {
-        if(response.status != 'ok'){ throw response.message; }
-        console.log('====== ' + response.feed.title + ' ======');
-        for(var i in response.items){
-            var item = response.items[i];
-            console.log(item.title);
+// Sort function which takes the data array, property to sort by and an asc boolean.
+function sort_by_date_desc(a, b) {
+    return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
+}
+// Sort function which takes the data array, property to sort by and an asc boolean.
+function sort_by_date_asc(a, b) {
+    return new Date(a.pubDate).getTime() - new Date(b.pubDate).getTime();
+}
+var count = 0;
+
+function addJSONToGlobalArr(json, end){
+    mainFeed.push(json);
+    if(end == true){
+        if(count == feeds.length){
+            outputFeed();
         }
-        // Concat the returned items
-        mainFeed.concat(response.items);
+        else{
+            console.log(count + " vs " + feeds.length)
+            count += 1;
+        }
+    }
+    else{
+
+    }
+}
+
+function getJSON(url){
+    $.ajax({
+        url: 'https://api.rss2json.com/v1/api.json',
+        method: 'GET',
+        dataType: 'json',
+        data: {
+            rss_url: url,
+            api_key: 'bno3vk93kxtom3cvdcylvqtvrcocukgboz5misiv',
+            count: 4
+        },
+        success: function (response) {
+            for(i=0;i<response.items.length;i++){
+                if(i == response.items.length - 1){
+                    addJSONToGlobalArr(response.items[i], end=true);
+                }
+                else{
+                    addJSONToGlobalArr(response.items[i], end=false);
+                }
+            }
+        }
     });
-});
-// Log concatenated results
-console.log("Main feed:");
-console.log(mainFeed);
+}
+// Loop over each feed and add to the main array 
+for(i=0;i<feeds.length;i++){
+    var items = getJSON(feeds[i]);
+}
+
+function outputFeed(){
+    console.log("Sorted Feed");
+    var sortedFeed = mainFeed.slice(0);
+    console.log(sortedFeed.sort(sort_by_date_desc));    
+}
