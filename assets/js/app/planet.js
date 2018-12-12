@@ -87,6 +87,12 @@ function extractDateString(dateString) {
     return arr[0]; 
 }
 
+function extractDateString(dateString) {
+    var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
+    var arr = rx.exec(dateString);
+    return arr[0]; 
+}
+
 function getJSON(url){
     $.ajax({
         url: 'https://api.rss2json.com/v1/api.json',
