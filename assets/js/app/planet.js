@@ -2,6 +2,11 @@ var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
     "https://linux.codehelp.co.uk/blog.xml",
+    "http://www.workofard.com/feed/",
+    "https://pierrchen.blogspot.com/rss.xml",
+    "http://www.metaklass.org/rss/",
+    "https://blog.sirena.org.uk/feed/",
+    "https://marcin.juszkiewicz.com.pl/feed/",
     "http://fullshovel.wordpress.com/category/linaro/feed/",
     "https://translatedcode.wordpress.com/feed/",
     "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
@@ -9,9 +14,7 @@ var feeds = [
     "https://www.stylesen.org/taxonomy/term/50/0/feed",
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
-    "http://www.workofard.com/category/linaro/feed/",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
-    "http://feeds.launchpad.net/linaro/announcements.atom",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml"
 ];
 // Sort function which takes the data array, property to sort by and an asc boolean.
@@ -38,6 +41,12 @@ function addJSONToGlobalArr(json, end){
     else{
 
     }
+}
+
+function extractDateString(dateString) {
+    var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
+    var arr = rx.exec(dateString);
+    return arr[0]; 
 }
 
 function getJSON(url){
@@ -74,12 +83,17 @@ function outputFeed(){
     
     for(n=0;n<sortedFeed.length;n++){
 
-        var textEl = "<h1>";
-        textEl += sortedFeed[n].title;
-        textEl += " - ";
-        textEl += sortedFeed[n].pubDate;
-        textEl += "</h1>";
+        var textEl = '<div class="planet-entry">';
+        textEl += '<div class="panel panel-default">';
+        textEl += '<div class="panel-heading">' + sortedFeed[n].title + ' - ' + sortedFeed[n].author + ' - ' + extractDateString(sortedFeed[n].pubDate) +'</div>';
+        textEl += '<div class="panel-body lazyload">';
+        textEl += sortedFeed[n].content;
+        textEl += '<br> <a href="' + sortedFeed[n].link + '">View on Origin Site </a>';
+        textEl += '</div>';
+        textEl += '</div>';
         $(textEl).appendTo("#feed");
-
     }
+
+    $("#loader").hide();
+    $("#feed").show();
 }

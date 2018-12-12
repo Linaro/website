@@ -8,3 +8,10 @@ small.rss-date {
 .feed-container > ul > li > a {
     font-size: 22px;
 }
+
+#feed {
+    display: none;
+}
+.planet-entry .panel-body {
+    padding: 10px;
+}
