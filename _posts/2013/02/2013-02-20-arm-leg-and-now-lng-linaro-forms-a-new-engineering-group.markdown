@@ -31,7 +31,7 @@ In November 2012, at Arm TechCon, Grey [announced](/news/industry-leaders-collab
 ## Who are the members of LNG?
 
 
-The founding members of LNG include [AppliedMicro](http://www.apm.com/), [Arm](http://www.arm.com/), [Enea](http://www.enea.com/), [Freescale](http://www.freescale.com/), [LSI,](http://www.lsi.com/) [MontaVista](http://www.mvista.com/), [Nokia Siemens Networks](http://www.nokiasiemensnetworks.com/) and [Texas Instruments (TI)](http://www.ti.com/)
+The founding members of LNG include [AppliedMicro](http://www.apm.com/), [Arm](http://www.arm.com/), [Enea](http://www.enea.com/), [Freescale](http://www.freescale.com/), [LSI,](http://www.lsi.com/) http://www.mvista.com/, [Nokia Siemens Networks](http://www.nokiasiemensnetworks.com/) and [Texas Instruments (TI)](http://www.ti.com/)
 
 
 ## What is the purpose of LNG and its goals?

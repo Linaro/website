@@ -31,17 +31,17 @@
     border: 1px solid #1f3850;
 }
 
-#content-container .arm-hpc-row h1 {
+#wrapper .arm-hpc-row h1 {
     color: white;
     margin-top: 40px;
 }
 
-#content-container .arm-hpc-row h1 span {
+#wrapper .arm-hpc-row h1 span {
     color: #cecece;
     font-size: 20px;
 }
 
-#content-container .arm-hpc-row small {
+#wrapper .arm-hpc-row small {
     color: #fff;
     font-size: 17px;
 }
@@ -76,7 +76,7 @@
     font-weight: bold;
 }
 
-#content-container .arm-hpc-row.top .container {
+#wrapper .arm-hpc-row.top .container {
     height: auto;
     padding-bottom: 30px;
     background-position: center center;
@@ -89,7 +89,7 @@
         width: 100%;
     }
 
-    #content-container .arm-hpc-row h1 {
+    #wrapper .arm-hpc-row h1 {
         font-size: 24px;
     }
 }
@@ -202,6 +202,9 @@ span.speaker-company {
     font-size: 18px;
     margin-bottom: 20px;
 }
+#wrapper .modal {
+    top: 67px;
+}
 
 .speaker p {
     font-size: 14px;
@@ -219,7 +222,7 @@ a.btn.btn-primary.full-bio {
 
 .speaker {
     border: 1px solid #eee;
-    padding: 20px;
+    padding: 5px;
     margin: 20px;
 }
 
@@ -333,4 +336,11 @@ span.eds-text-bm--fixed {
     ul#tabbed_nav>li>a {
         border-right: none;
     }
+}
+
+.modal {
+    padding-right: 0px !important;
+}
+div#tabbed_nav_content {
+    padding: 0px;
 }

@@ -1,0 +1,141 @@
+sessions:
+  - session: 1
+    speaker: Renato Golin
+    company: Linaro
+    topic: HPC Cluster and CI
+    bio: >-
+      Renato is the Tech-Lead for the HPC-SIG at Linaro, working with
+      vendors and users to foster the open source ecosystem on Arm hardware.
+      As a toolchain engineer for the past 10 years, he has previously
+      worked as LLVM Team-Lead at Linaro, on HPC compilers for HPCC,
+      embedded compilers and debuggers for Arm. Before that, he worked with
+      bioinformatics, web infrastructure and some consultancy, adding up
+      another 10 years.
+    image: /assets/images/people/renato.jpg
+  - session: 2
+    speaker: Mohamed Wahib
+    company: RIKEN-CCS/AIST
+    topic: "Deep Learning Frameworks Portability Survey: Post-K perspective"
+    bio: >-
+      Mohamed Wahib is currently a senior scientist at AIST/TokyoTech Open Innovation Laboratory,
+      Tokyo, Japan. Prior to that he worked as a researcher in RIKEN Center for Computational Science
+      (RIKEN-CCS). He received his Ph.D. in Computer Science in 2012 from Hokkaido University, Japan.
+      Prior to his graduate studies, he worked as a researcher at Texas Instruments (TI) R&D labs in Dallas,
+      TX for four years. His research interests revolve around the central topic of ""Performance-centric Software Development”,
+      in the context of HPC. He is actively working on several projects including high-level frameworks for
+      programming traditional scientific applications, as well as high-performance AI and data analytics.
+    image: /assets/images/people/MohamedWahib.jpg
+  - session: 3
+    speaker: Francesco Petrogalli
+    company: Arm
+    topic: Arm SVE and DL acceleration
+    bio: >-
+      Francesco Petrogalli is a software engineer working on the development of Arm Compiler for HPC.
+      He contributed to the implementation of the Vector Length Agnostic (VLA) vectorizer for the Scalable
+      Vector Extension (SVE) of Arm, to ABI specifications for the vector functions, and to the open source
+      library SLEEF. Francesco has also worked on optimizing a variety of computational kernels that
+      are core to Machine Learning algorithms.
+    image: /assets/images/people/FrancescoPetrogalli.png
+  - session: 4
+    speaker: TBC
+    company: TBC
+    topic: TBC
+    bio: >-
+      TBC
+    image: TBC
+  - session: 5
+    speaker: Prof Lin XinHua
+    company: Shanghai JiaoTong University
+    topic: Benchmarking Huawei ARM Multi-Core Processors for HPC workloads
+    bio: >-
+      Dr. James Lin is the Vice Director of High Performance Computing (HPC) 
+      Center at Shanghai Jiao Tong University (SJTU). He received his Msc Degree
+      in Computer Science at SJTU in 2005 and Ph.D. degree in Mathematical and 
+      Computing Science at Tokyo Institute of Technology in 2018. He worked in Department
+      of Computer Science at SJTU from 2005 to 2012, and then move to the HPC Center at 
+      the same university. In the HPC Center, he built ‘π’, the first GPU- accelerated supercomputer
+      in China's universities. This 350TFlops supercomputer ranked No. 158 in the TOP500 List in June 2013,
+      and was the fastest supercomputer in China’s universities from April 2013 to October 2015.
+      His research focuses on  performance optimizations on emerging many-core processors, such as NVIDIA GPU, Intel Xeon Phi.
+      He was the PI of NVIDIA CUDA Center of Excellence (CCoE) in 2011 and Intel Parallel Computing Center (IPCC) in 2017
+      in recognition of his ongoing research on parallel computing. He serves on the steering committee of the Intel
+      eXtreme Performance Users Group (IXPUG). He also has served and been serving on several conferences’ organizing committee,
+      such as a proceeding co-chair of Supercomputing19, a co-chair of International Scalable Computing Challenge15 
+      (co-located with CCGrid15), and a publicity co-chair for Computing Frontier19, ICPP17, and eScience17.
+    image: /assets/images/people/JamesLin.png
+  - session: 6
+    speaker: Pak Lui
+    company: Huawei
+    topic: Transforming HPC with Huawei ARM HPC Solution
+    bio: >-
+      Pak works as a Principal Architect at Silicon Valley Computing Lab at Futurewei Technologies,
+      the Huawei Technologies R&D center in the USA. He is served in the HPC Advisory Council
+      HPC|Works Special Interest Group Co-Chair and Student Cluster Competition Manager for
+      the HPC Advisory Council. He has been involved in demonstrating application performance
+      on various open source and commercial applications. His main responsibilities involve
+      characterizing HPC workloads, analyzing MPI profiles to optimize on the HPC applications,
+      as well as exploring new technologies, solutions and their effectiveness on real HPC workloads.
+      Previously Pak worked as a Senior Manager at Mellanox Technologies in Silicon Valley
+      where his main focus is to optimize HPC applications on products, explore new technologies
+      and solutions and their effect on real workloads. Pak has been working in the HPC industry
+      for over 17 years. Pak worked as a Cluster Engineer at Penguin Computing, responsible for building and testing HPC
+      cluster configurations from different OEMs hardware and ISVs software.
+      Pak also worked at Sun Microsystems for over 7 years in Sun’s High Performance Computing (HPC) group,
+      he worked as a Software Engineer on Sun’s own MPI implementation (Sun HPC ClusterTools) as well as Open MPI,
+      and contributed code and performed scalability analysis with MPI applications on large clusters and SMPsPak
+      holds a B.Sc. in Computer Systems Engineering and a M.Sc. in Computer Science from Boston
+      University in the USA. Pak also helped organizing the last Linaro Arm Architecture HPC Workshop
+      in Santa Clara, CA (Silicon Valley) in July last year.
+    image: /assets/images/people/PakLui.jpg
+  - session: 7
+    speaker: Mr Guo Yu Feng
+    company: Phytium
+    topic: The New Generation of Phytium‘s 64Cores Processor and Ecosystem
+    bio: >-
+      Guo Yufeng, deputy general manager of Tianjin Phytium Information Technology Co.,
+      Ltd., Ph.D. He has been engaged in research and development of high-performance
+      computers and  microprocessor chips for a long time, and has hosted many 
+      developments of Phytium CPU chips.
+    image: /assets/images/people/YunfeiGuo.JPG
+  - session: 8
+    speaker: Dong Wei
+    company: Arm
+    topic: Arm Neoverse
+    bio: >-
+      Dong Wei is a senior director and lead architect, distinguished engineer at Arm.
+      He is responsible for the ServerReady certification program and the related SBSA,
+      SBBR, EBBR and SBMG standards. He is the Vice President (Chief Executive) of the
+      UEFI Forum, co-chair its ACPI Spec Working Group and chair its UEFI Test Working Group.
+      He chairs the PCI Firmware Working Group at the PCI SIG. He is also the vice-chair
+      of the Software Working Group at the CCIX Consortium. He represents Arm at DMTF and OCP.
+      Before joining Arm in 2016, he was a VP and Fellow at HP responsible for the system 
+      architecture definitions for PA-RISC, Itanium, x86, and RISC-V systems, and 
+      cofounded the UEFI technology with Intel.
+    image: /assets/images/people/WeiDong.JPG
+  - session: 9
+    speaker: TBC
+    company: TBC
+    topic: TBC
+    bio: >-
+      TBC
+    image: TBC
+  - session: 10
+    speaker: Akira Hoshino
+    company: Gigabyte
+    topic: GIGABYTE Position in ARM Server Market - Leading Pioneer
+    bio: >-
+      Akira Hoshino is the Product Strategy &amp; Planning Head of GIGABYTE’s NCBU (Network &amp;
+      Communications Business Unit), with responsibility for the planning and roadmap of GIGABYTE’s
+      worldwide server products, leading the company’s development of ARM server products, and
+      managing business with selected ARM processor vendors.
+    image: /assets/images/people/Akira.png
+  - session: 11
+    speaker: Fu Li
+    company: Quanta Cloud
+    topic: "Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC"
+    bio: >-
+      Dr. Fu Li is the founder and CEO of Quantum Cloud Future (Beijing) Technologies Co., Ltd., which aimed to the cutting-edge application-centric hyper-converged computing and storage products for media, AI, and blockchain industries.
+      Dr. Fu Li is also the founder and CEO of Lumi Media Limited and Quantum Cloud Inc. He has garnered a wealth of experience across a range of quantum statistics, molecular simulation and 
+      future network. Dr. Fu Li is often recognized for his vast contributions to cloud computing and media application industries, he has become vice-minister of China Society of Motion Picture and Television Engineers and Industry professor of 
+      School of Digital Media of Jiangnan University, as well as the innovative and entrepreneurial talent of Jiangsu province.
+    image: /assets/images/people/LeoLi.jpg

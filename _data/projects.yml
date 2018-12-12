@@ -45,7 +45,7 @@
   url: https://developer.android.com/
 - name: OP-TEE
   image: op-tee.png
-  url: https://op-tee.org
+  url: https://www.op-tee.org
 - name: OPNFV
   image: opnfv.png
   url: https://www.opnfv.org/

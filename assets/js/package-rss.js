@@ -8,5 +8,5 @@
 
 //= require app/search
 //= require app/main
-//= require app/rss
+//= require app/planet
 //= require app/tables

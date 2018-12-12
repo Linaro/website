@@ -516,3 +516,17 @@ div.dark {
 #header-container h1, #header-container p {
     color: white;
 }
+
+// Add to theme
+.row.flex-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
