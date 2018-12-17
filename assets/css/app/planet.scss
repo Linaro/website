@@ -8,10 +8,22 @@ small.rss-date {
 .feed-container > ul > li > a {
     font-size: 22px;
 }
-
+// Feed
 #feed {
     display: none;
 }
+// Planet Entry
 .planet-entry .panel-body {
+    padding: 10px;
+}
+// Loading Icon
+img#loader {
+    margin: auto;
+    padding: 30px;
+}
+#feed .panel-heading {
+    border: none;
+}
+#feed .panel-body {
     padding: 10px;
 }
