@@ -16,11 +16,11 @@ js-package: rss
 css-package: planet
 ---
 <div class="col-sm-3 no-padding pr-sm-15">
-    <h3 class="text-center-mob">Authors</h3>
+    <h3 class="text-center">Authors</h3>
     <div id="planet-list"></div>
 </div>
 <div class="col-sm-9 no-padding">
-    <h3 class="text-center-mob">Planet Linaro Feed</h3>
+    <h3 class="text-center">Feed</h3>
     <img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif"/>
     <div id="feed">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"></div>
