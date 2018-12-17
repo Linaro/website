@@ -27,3 +27,10 @@ img#loader {
 #feed .panel-body {
     padding: 10px;
 }
+@media (min-width: $screen-sm-min) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
