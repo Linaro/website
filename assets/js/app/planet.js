@@ -144,7 +144,7 @@ function outputFeed(){
         var uniqueId = string_to_slug(sortedFeed[n].guid);
         var textEl = '<div class="panel panel-default">';
         textEl += '<div class="panel-heading" role="tab" id="' + uniqueId +'">';
-        textEl += '<h4 class="panel-title">';
+        textEl += '<h4 class="panel-title text-center">';
         textEl += '<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#' + uniqueId + '-Collapse" aria-expanded="true" aria-controls="' + uniqueId + '-Collapse">';
         textEl += sortedFeed[n].title + ' - ' + sortedFeed[n].author + ' - ' + extractDateString(sortedFeed[n].pubDate);
         textEl += '</a>';
