@@ -16,8 +16,22 @@ js-package: rss
 css-package: planet
 ---
 <div class="col-sm-3 no-padding pr-sm-15">
-    <h3 class="text-center">Authors</h3>
-    <div id="planet-list"></div>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#authorsCollapse" aria-expanded="true" aria-controls="authorsCollapse">
+                Authors
+                </a>
+            </h4>
+            </div>
+            <div id="authorsCollapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    <div id="planet-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="col-sm-9 no-padding">
     <h3 class="text-center">Feed</h3>
