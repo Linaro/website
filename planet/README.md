@@ -19,7 +19,7 @@ css-package: planet
     <div class="panel-group" id="author-accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
-            <h4 class="panel-title">
+            <h4 class="panel-title text-center">
                 <a role="button" data-toggle="collapse" data-parent="#author-accordion" href="#authorsCollapse" aria-expanded="true" aria-controls="authorsCollapse">
                 Authors
                 </a>
