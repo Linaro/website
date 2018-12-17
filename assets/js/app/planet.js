@@ -86,7 +86,6 @@ function extractDateString(dateString) {
     var arr = rx.exec(dateString);
     return arr[0]; 
 }
-
 function extractDateString(dateString) {
     var rx = /(\d\d\d\d)\-(\d\d)\-(\d\d)/g;
     var arr = rx.exec(dateString);
@@ -120,7 +119,6 @@ function getJSON(url){
 }
 // Loop over each feed and add to the main array 
 console.log("Generating the Planet Linaro feed...");
-
 for(i=0;i<feeds.length;i++){
     var items = getJSON(feeds[i]);
 }
@@ -197,7 +195,6 @@ function outputFeed(){
         textEl += '</div>';
         $(textEl).appendTo("#accordion");
     }
-
     $("#loader").hide();
     $("#feed").show();
     console.log("Planet Linaro feed generated.");
