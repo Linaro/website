@@ -64,6 +64,20 @@ sessions:
       (co-located with CCGrid15), and a publicity co-chair for Computing Frontier19, ICPP17, and eScience17.
     image: /assets/images/people/JamesLin.png
   - session: 6
+    speaker: Teppei Ono
+    company: HPC System Inc.
+    topic: Science Cloud services for Computational Chemistry with Arm HPC
+    bio: >-
+      BSBA from Northeastern University MA, USA. In 2004, founded Industrial computer and High-end server development
+      and small-medium manufacturing service company in Taiwan. Experienced developing low power microblade server
+      with Transmeta Efficeon processor for Japanese Tier-One IT company, as well as developed Electronic Design
+      Automation (EDA) workstation and high-end server with AMD Opteron processor for semiconductor companies.
+      Since 2007, became President & CEO at HPC Systems Inc., customer-oriented HPC Solution Company providing
+      hardware and simulation software, system integration service, cloud service for High Performance Computing,
+      AI/Deep Learning, and Computational Chemistry consulting services for technology and manufacturing 
+      companies in Life Science and Materials Science.
+    image: /assets/images/people/PakLui.jpg
+  - session: 7
     speaker: Pak Lui
     company: Huawei
     topic: Transforming HPC with Huawei ARM HPC Solution
@@ -87,7 +101,7 @@ sessions:
       University in the USA. Pak also helped organizing the last Linaro Arm Architecture HPC Workshop
       in Santa Clara, CA (Silicon Valley) in July last year.
     image: /assets/images/people/PakLui.jpg
-  - session: 7
+  - session: 8
     speaker: Mr Guo Yu Feng
     company: Phytium
     topic: The New Generation of Phytium‘s 64Cores Processor and Ecosystem
@@ -97,7 +111,7 @@ sessions:
       computers and  microprocessor chips for a long time, and has hosted many 
       developments of Phytium CPU chips.
     image: /assets/images/people/YunfeiGuo.JPG
-  - session: 8
+  - session: 9
     speaker: Dong Wei
     company: Arm
     topic: Arm Neoverse
@@ -112,14 +126,17 @@ sessions:
       architecture definitions for PA-RISC, Itanium, x86, and RISC-V systems, and 
       cofounded the UEFI technology with Intel.
     image: /assets/images/people/WeiDong.JPG
-  - session: 9
-    speaker: TBC
-    company: TBC
-    topic: TBC
-    bio: >-
-      TBC
-    image: TBC
   - session: 10
+    speaker: Jammy Zhou
+    company: Linaro
+    topic: End to End Deep Learning Solution on Arm
+    bio: >-
+      Jammy Zhou is the Solution Director of Linaro China, driving the technical collaborations with regional members
+      in various areas including Arm servers, Artificial Intelligence, IoT and etc. Before that, he worked in AMD as
+      the leading architect of AMDGPU-Pro Linux graphics driver stack, and contributed a lot of patches to the upstream.
+      He also worked at Freescale for some time, and had rich experience on Linux/Android BSPs for Arm embedded platforms.
+    image: TBC
+  - session: 11
     speaker: Akira Hoshino
     company: Gigabyte
     topic: GIGABYTE Position in ARM Server Market - Leading Pioneer
@@ -129,7 +146,7 @@ sessions:
       worldwide server products, leading the company’s development of ARM server products, and
       managing business with selected ARM processor vendors.
     image: /assets/images/people/Akira.png
-  - session: 11
+  - session: 12
     speaker: Fu Li
     company: Quanta Cloud
     topic: "Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC"
