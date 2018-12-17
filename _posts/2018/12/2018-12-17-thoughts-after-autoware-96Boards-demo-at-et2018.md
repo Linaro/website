@@ -9,6 +9,7 @@ categories: Blog
 tags: Linaro, Arm, Autoware, Autonomous Vehicles, Linux kernel, HPC, IoT, Embedded, AI, Networking, Security, Big Data, Japan, ET2018
 image:
   featured: true
+  name: et2018-image2.png
   path: /assets/images/blog/et2018-image2.png
 ---
 [ET (Embedded Technology IoT Technology Exhibition) ](http://www.jasa.or.jp/expo/exhibitors/organizer_pavilion.html)is the biggest Embedded device, software, tool and service exhibition in Japan. This year’s theme was “experience a super smart society (Society 5.0) here!” 
