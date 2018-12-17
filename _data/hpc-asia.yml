@@ -76,7 +76,7 @@ sessions:
       hardware and simulation software, system integration service, cloud service for High Performance Computing,
       AI/Deep Learning, and Computational Chemistry consulting services for technology and manufacturing 
       companies in Life Science and Materials Science.
-    image: /assets/images/people/tappei-ono.jpg
+    image: /assets/images/people/teppei-ono.jpg
   - session: 7
     speaker: Pak Lui
     company: Huawei
@@ -135,7 +135,7 @@ sessions:
       in various areas including Arm servers, Artificial Intelligence, IoT and etc. Before that, he worked in AMD as
       the leading architect of AMDGPU-Pro Linux graphics driver stack, and contributed a lot of patches to the upstream.
       He also worked at Freescale for some time, and had rich experience on Linux/Android BSPs for Arm embedded platforms.
-    image: jammy-zhou.jpg
+    image: /assets/images/people/jammy-zhou.jpg
   - session: 11
     speaker: Akira Hoshino
     company: Gigabyte
