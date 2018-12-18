@@ -1,3 +1,15 @@
+$(document).ready(function(){
+    $('body').tooltip({
+        selector: '[data-toggle="tooltip"]'
+    });
+    $('body').on('show.bs.collapse', '.panel-collapse', function () {
+        $(this).siblings('.panel-heading').addClass('active');
+    });
+
+    $('body').on('hide.bs.collapse', '.panel-collapse', function () {
+        $(this).siblings('.panel-heading').removeClass('active');
+    });
+});
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
@@ -15,7 +27,8 @@ var feeds = [
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
-    "https://nbhat-ho2016.blogspot.co.uk/rss.xml"
+    "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
 ];
 var sortableFeeds = [
     "https://linux.codehelp.co.uk/blog.xml",
@@ -32,7 +45,8 @@ var sortableFeeds = [
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
-    "https://nbhat-ho2016.blogspot.co.uk/rss.xml"
+    "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
 ];
 // Collect Feed Channel Info
 var feedChannels = [];
@@ -145,7 +159,7 @@ function outputFeed(){
         var textEl = '<div class="panel panel-default">';
         textEl += '<div class="panel-heading" role="tab" id="' + uniqueId +'">';
         textEl += '<h4 class="panel-title text-center">';
-        textEl += '<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#' + uniqueId + '-Collapse" aria-expanded="true" aria-controls="' + uniqueId + '-Collapse">';
+        textEl += '<a class="collapsed" role="button" data-toggle="collapse" href="#' + uniqueId + '-Collapse" aria-expanded="true" aria-controls="' + uniqueId + '-Collapse">';
         textEl += sortedFeed[n].title + ' - ' + sortedFeed[n].author + ' - ' + extractDateString(sortedFeed[n].pubDate);
         textEl += '</a>';
         textEl += '</h4>';
@@ -163,7 +177,3 @@ function outputFeed(){
     $("#feed").show();
     console.log("Planet Linaro feed generated.");
 }
-
-$(document).ready(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-});

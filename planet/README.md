@@ -8,7 +8,7 @@ jumbotron:
     title: Planet Linaro
     buttons:
       - title: Planet Feed
-        url: https://feed.rssunify.com/5c17729b90d1c/rss.xml
+        url: https://feed.rssunify.com/5c18cca471bd0/rss.xml
         class: btn btn-primary
         icon: fa fa-rss
 permalink: /planet/
@@ -34,7 +34,7 @@ css-package: planet
     </div>
 </div>
 <div class="col-sm-9 no-padding feed">
-    <h3 class="text-center">Feed</h3>
+    <h3 class="text-center">Feed <a href="https://feed.rssunify.com/5c18cca471bd0/rss.xml"><i class="fa fa-rss"></i></a></h3>
     <img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif"/>
     <div id="feed">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"></div>
