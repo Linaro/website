@@ -37,3 +37,21 @@ img#loader {
 .feed h3.text-center {
     margin-top: 0;
 }
+i.fa.fa-rss {
+    color: $brand-primary;
+}
+span.fa.fa-external-link {
+    color: #757575;
+    top: 2px;
+    position: relative;
+}
+// CSS fixes for ilformed html
+h1.mume-header div {
+    font-size: 16px;
+    font-weight: normal;
+}
+h1.mume-header ol li {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
