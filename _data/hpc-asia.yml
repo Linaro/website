@@ -148,7 +148,7 @@ sessions:
     image: /assets/images/people/Akira.png
   - session: 12
     speaker: Fu Li
-    company: Quanta Cloud
+    company: Quantum Cloud
     topic: "Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC"
     bio: >-
       Dr. Fu Li is the founder and CEO of Quantum Cloud Future (Beijing) Technologies Co., Ltd., which aimed to the cutting-edge application-centric hyper-converged computing and storage products for media, AI, and blockchain industries.
