@@ -46,9 +46,6 @@
     - name: Marvell
       image: marvell.png
       url: /company/marvell/
-    - name: Cisco
-      image: cisco.jpg
-      url: /company/cisco/
     - name: Comcast
       image: comcast.jpg
       url: /company/comcast/
@@ -123,6 +120,9 @@
     - name: The Linux Foundation
       image: linux_foundation.jpg
       url: /company/linux-foundation/
+    - name: Foundries.io
+      image: foundries-io.png
+      url: /company/foundries-io/
 - id: odp-sig
   membership_group_name: ODP SIG Members
   text: |-
