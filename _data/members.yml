@@ -46,9 +46,6 @@
     - name: Marvell
       image: marvell.png
       url: /company/marvell/
-    - name: Cisco
-      image: cisco.jpg
-      url: /company/cisco/
     - name: Comcast
       image: comcast.jpg
       url: /company/comcast/
