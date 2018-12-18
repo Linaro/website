@@ -1,5 +1,14 @@
-$(document).ready(function () {
-    $('[data-toggle="tooltip"]').tooltip();
+$(document).ready(function(){
+    $('body').tooltip({
+        selector: '[rel=tooltip]'
+    });
+    $('body').on('show.bs.collapse', '.panel-collapse', function () {
+        $(this).siblings('.panel-heading').addClass('active');
+    });
+
+    $('body').on('hide.bs.collapse', '.panel-collapse', function () {
+        $(this).siblings('.panel-heading').removeClass('active');
+    });
 });
 var mainFeed = [];
 // Store a list of all the rss feeds
