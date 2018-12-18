@@ -28,7 +28,7 @@ sessions:
   - session: 3
     speaker: Francesco Petrogalli
     company: Arm
-    topic: Arm SVE and ML acceleration
+    topic: Arm SVE and ML Acceleration
     bio: >-
       Francesco Petrogalli is a software engineer working on the development of Arm Compiler for HPC.
       He contributed to the implementation of the Vector Length Agnostic (VLA) vectorizer for the Scalable
@@ -113,8 +113,8 @@ sessions:
       cofounded the UEFI technology with Intel.
     image: /assets/images/people/WeiDong.JPG
   - session: 9
-    speaker: TBC
-    company: TBC
+    speaker: Jimmy Zhou
+    company: Linaro
     topic: TBC
     bio: >-
       TBC
