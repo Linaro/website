@@ -6,7 +6,7 @@ categories:
 - ats-2018
 comments: false
 event: ats-2018
-date: '2018-10-25 09:00:00+00:00'
+date: '2018-10-25 06:00:00+00:00'
 image:
   featured: true
   name: ats-2018-vision.png

@@ -159,7 +159,7 @@ segment. Linaro Developer Services make that expertise available to you for use 
         <div class="container text-center">
             <h2>Get in Touch.</h2>
             <div class="get-in-touch" id="contact-btn">
-                <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="fly btn btn-primary btn-two">Contact Us</a>
+                <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="fly btn btn-primary btn-two">contact@linaro.org</a>
             </div>
         </div>
     </div>

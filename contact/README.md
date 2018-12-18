@@ -2,13 +2,10 @@
 title: Contact
 description: |-
      All the latest news including press releases, blogs and social media as well as Linaro events.
-layout: default
+layout: jumbotron
 permalink: /contact/
 css-package: contact
 ---
-
-<div class="container-fluid">
-
 <div class="row" id="maps">
 <div class="map-responsive">
 <!-- <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.0020599365234375004%2C52.10344750969288%2C0.166168212890625%2C52.16824652411121&amp;layer=mapnik"></iframe> -->
@@ -65,6 +62,4 @@ Website Legal page can be found [here](/legal/). For [media](/press/) enquiries:
 {% include linaro-contact-form.html %}
 
 </div>
-</div>
-
 </div>

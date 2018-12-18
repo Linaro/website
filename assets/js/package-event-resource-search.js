@@ -7,7 +7,7 @@
 //= require vendor/underscore
 //= require vendor/fuzzy
 
-
+//= require app/search
 //= require app/main
 //= require app/fly
 //= require app/resources-event-search

@@ -1,6 +1,7 @@
 <div class="row events-row">
     {% assign event_details = site.posts | where: "event", include.event | first %}
-    {% for post in site.categories[include.event] %}
+    {% assign event_posts = site.categories[include.event] | sort: 'date' | reverse %}
+    {% for post in event_posts %}
         <div class="col-xs-12 col-sm-4">
             <a href="{{post.url}}">
                 <div class="event-block fly">
