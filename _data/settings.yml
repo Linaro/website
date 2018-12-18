@@ -12,6 +12,7 @@ mailchimp:
 # Footer Newsletter toggle.
 newsletter:
     enabled: true
+    url: https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=af6cf590b0
 tags_enabled: true
 jumbotron:
   darken: true
