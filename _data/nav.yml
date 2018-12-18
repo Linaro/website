@@ -138,5 +138,7 @@ pages:
             url: /blog/
           - text: Events
             url: /events/
+          - text: Planet
+            url: /planet/
     - title: Contact Us
       url: /contact/

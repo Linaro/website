@@ -33,7 +33,7 @@ css-package: planet
         </div>
     </div>
 </div>
-<div class="col-sm-9 no-padding">
+<div class="col-sm-9 no-padding feed">
     <h3 class="text-center">Feed</h3>
     <img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif"/>
     <div id="feed">

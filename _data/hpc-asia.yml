@@ -113,8 +113,8 @@ sessions:
       cofounded the UEFI technology with Intel.
     image: /assets/images/people/WeiDong.JPG
   - session: 9
-    speaker: TBC
-    company: TBC
+    speaker: Jimmy Zhou
+    company: Linaro
     topic: TBC
     bio: >-
       TBC
