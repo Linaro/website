@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('body').tooltip({
-        selector: '[rel=tooltip]'
+        selector: '[data-toggle="tooltip"]'
     });
     $('body').on('show.bs.collapse', '.panel-collapse', function () {
         $(this).siblings('.panel-heading').addClass('active');
