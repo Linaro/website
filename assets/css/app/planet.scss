@@ -8,3 +8,76 @@ small.rss-date {
 .feed-container > ul > li > a {
     font-size: 22px;
 }
+// Feed
+#feed {
+    display: none;
+}
+// Planet Entry
+.planet-entry .panel-body {
+    padding: 10px;
+}
+// Loading Icon
+img#loader {
+    margin: auto;
+    padding: 30px;
+}
+#feed .panel-heading, #author-accordion .panel-heading {
+    border: none;
+}
+#feed .panel-body {
+    padding: 10px;
+}
+@media (min-width: $screen-sm-min) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+.feed h3.text-center {
+    margin-top: 0;
+}
+i.fa.fa-rss {
+    color: $brand-primary;
+}
+span.fa.fa-external-link {
+    color: #757575;
+    top: 2px;
+    position: relative;
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
+
+// CSS fixes for ilformed html
+h1.mume-header div {
+    font-size: 16px;
+    font-weight: normal;
+}
+h1.mume-header ol li {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
