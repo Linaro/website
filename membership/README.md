@@ -12,22 +12,11 @@ jumbotron:
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
 ---
-<div class="container-fluid" id="why-join-container"  style="background-image: url('/assets/images/content/membership-bg.jpg');">
-<div class="row overlay padded-row" id="why-join">
-    <div class="container text-center">
-        <h1 class="fly center-block">Join Linaro to accelerate the deployment of your Arm-based solutions</h1>
-        <p class="fly center-block">
-            Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
-        </p>
-    </div>
-</div>
-</div>
-<div class="container-fluid">
 <div class="row padded-row testimonials" id="key-factors">
     <div class="container">
         <h2 class="text-center fly">Testimonials</h2>
         <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
-            <div class="testimonial-block fly" id="arm-testimonial">
+            <div class="testimonial-block fly" id="arm-testimonial" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.linaro.org/assets/images/content/hpc-asia-graphic.png)">
                 <span class="key-factor-title testimonial">
                     <em class="quote">“Linaro is the collaboration platform for the Arm partnership”</em>
                     <span class="interview-speaker">Thomas Molgaard, Arm</span>
@@ -36,7 +25,7 @@ jumbotron:
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
-            <div class="testimonial-block fly" id="marvell-testimonial">
+            <div class="testimonial-block fly" id="marvell-testimonial" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.linaro.org/assets/images/content/hpc-asia-graphic.png)">
                 <span class="key-factor-title testimonial">
                     <em class="quote">“Benefit from the joint community investment”</em>
                     <span class="interview-speaker">Larry Wikelius, Marvell</span>
@@ -45,7 +34,7 @@ jumbotron:
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
-            <div class="testimonial-block fly" id="red-hat-testimonial">
+            <div class="testimonial-block fly" id="red-hat-testimonial" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.linaro.org/assets/images/content/hpc-asia-graphic.png)">
                 <span class="key-factor-title testimonial">
                     <em class="quote">“Actual engineering happens within Linaro”</em>
                     <span class="interview-speaker">Jon Masters, Red Hat</span>
