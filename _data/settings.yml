@@ -2,6 +2,8 @@
 favicon: favicon.png
 # Site name
 name: Linaro
+# Support for http2 push features
+http2: true
 # Site Slogan
 slogan: Leading collaboration in the Arm Ecosystem
 # Mailchimp settings
