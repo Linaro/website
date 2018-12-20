@@ -23,7 +23,6 @@ var feeds = [
     "https://translatedcode.wordpress.com/feed/",
     "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
     "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "https://www.stylesen.org/taxonomy/term/50/0/feed",
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
@@ -41,7 +40,6 @@ var sortableFeeds = [
     "https://translatedcode.wordpress.com/feed/",
     "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
     "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "https://www.stylesen.org/taxonomy/term/50/0/feed",
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
@@ -177,3 +175,9 @@ function outputFeed(){
     $("#feed").show();
     console.log("Planet Linaro feed generated.");
 }
+
+//Locate images that are added dynamically to the page and add the img-responsive class
+$("body").bind("DOMNodeInserted", function () {
+    $(this).find('#feed img').addClass('img-responsive');
+    my
+});
