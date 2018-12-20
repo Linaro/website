@@ -6,6 +6,8 @@ name: Linaro
 http2: true
 # Support for http2 push features
 http2_resources:
+  - rel: dns-prefetch
+    href_list: https://www.google-analytics.com/
   - rel: preload
     as: font
     type: font/woff2
@@ -15,6 +17,12 @@ http2_resources:
   - rel: preload
     as: image
     href: /assets/images/Linaro-Sprinkle.png
+  - rel: preload
+    as: script
+    crossorigin: true
+    href: https://www.google-analytics.com/analytics.js
+
+
 # Site Slogan
 slogan: Leading collaboration in the Arm Ecosystem
 # Mailchimp settings
