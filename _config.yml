@@ -232,7 +232,22 @@ collections:
         permalink: /author/:name/
 prose:
   media: assets/images/blog
-  ignore: ['_config.yml' , '_config-staging.yml' , '_config-production.yml' , 'Gemfile' , 'Gemfile.lock' , 'members.json' , 'posts.json.html' , 'favicon.ico' , '_prose.yml' , '.gitignore' , '404.md' , '/_plugins' , '/categories' , '/blog' , '/app']
+  ignore: 
+    - _config.yml
+    - _config-staging.yml
+    - _config-production.yml
+    - Gemfile
+    - Gemfile.lock
+    - members.json
+    - posts.json.html
+    - favicon.ico
+    - _prose.yml
+    - .gitignore
+    - 404.md
+    - /_plugins
+    - /categories
+    - /blog
+    - /app
   metadata:
     _posts:
       - name: "layout"
