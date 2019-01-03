@@ -43,17 +43,9 @@ css-package: blog
                 {% endunless %}
                 {{ content }}
             </article>
-            {% comment %}
-            TAGS - Check to see if the tags_enabled setting in settings.yml data file is toggled.
-            {% endcomment %}
-            {% include post-tags.html %}
-            {% comment %}
-            COMMENTS - Check to see if comments are toggled for this particular post.
-            {% endcomment %}
-            {% include disqus-comments.html %}
         </div>
         <div class="col-md-3 blog-sidebar no-padding">
-            {% include post-sidebar.html %}
+            
         </div>
     </div>
 </div>
