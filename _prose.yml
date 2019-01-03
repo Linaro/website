@@ -1,7 +1,7 @@
 prose:
   siteurl: https://www.linaro.org
   media: assets/images/blog
-  ignore: ['_config.yml', '_config-staging.yml', '_config-production.yml', 'Gemfile', 'Gemfile.lock', 'members.json', 'posts.json.html','favicon.ico','_prose.yml','.gitignore','404.md']
+  ignore: ['_config.yml', '_config-staging.yml', '_config-production.yml', 'Gemfile', 'Gemfile.lock', 'members.json', 'posts.json.html','favicon.ico','_prose.yml','.gitignore','404.md','_plugins/','_layouts/', '_includes/','categories/','blog/', 'app/']
   metadata:
     '':
       - name: "layout"
@@ -12,7 +12,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "blog"
       - name: "title"
         field:
           element: "text"
