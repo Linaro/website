@@ -281,7 +281,7 @@ prose:
           element: "multiselect"
           label: "Add Post Tags"
           placeholder: "Choose Tags"
-          options: https://www.linaro.org/assets/json/tags/json?callback=tags
+          options: https://www.linaro.org/assets/json/tags.json?callback=tags
       - name: "category"
         field:
           element: "multiselect"
