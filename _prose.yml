@@ -1,0 +1,75 @@
+prose:
+  siteurl: https://www.linaro.org
+  media: assets/images/blog
+  ignore: ['_config.yml', '_config-staging.yml', '_config-production.yml', 'Gemfile', 'Gemfile.lock', 'members.json', 'posts.json.html','favicon.ico','_prose.yml','.gitignore','404.md']
+  metadata:
+    '':
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "jumbotron-container"
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Page Title"
+          value: ""
+      # - name: "image"
+      #   field:
+      #     element: "text"
+      #     label: "450x450 Picture Thumb for index"
+      #     value: ""
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments Toggle"
+          value: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Post Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Arm Ecosystem"
+              value: "Arm Ecosystem"
+            - name: "Edge Computing"
+              value: "edge"
+            - name: "IoT Computing"
+              value: "iot"
+            - name: "Automotive"
+              value: "automotive"
+            - name: "Machine Learning"
+              value: "ml"
+            - name: "Artifical Intelligence"
+              value: "ai"
+            - name: "Linaro Connect"
+              value: "Linaro Connect"
+            - name: "Open Source"
+              value: "Open Source"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "News"
+              value: "News"
+            - name: "Blog"
+              value: "Blog"
+            - name: "Event Index"
+              value:
+                - events
+                - attended
+            - name: "Event Resource Page"
+              value:
+                - events
+                - attended
