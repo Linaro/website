@@ -263,7 +263,9 @@ prose:
         field:
           element: "text"
           label: "Set your featured image here"
-          value: 
+          value:
+            path: /assets/images/name-of-your-image.jpg
+            featured: true
       - name: "comments"
         field:
           element: "checkbox"
