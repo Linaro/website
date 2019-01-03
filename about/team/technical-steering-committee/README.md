@@ -184,7 +184,7 @@ Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much inv
 Li Gong is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”  
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/LiGong.png" class="linaro-profile-image" alt="Li Gong Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/LiGong.jpg" class="linaro-profile-image" alt="Li Gong Profile Photo"%}
 </div>
 </div>
 
