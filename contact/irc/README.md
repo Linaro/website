@@ -15,7 +15,7 @@ __SSL__: Yes, use port 6697s
 ## Channels
 
 </div>
-<div class="col-xs-12">
+<div class="col-xs-12 no-padding">
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
@@ -124,9 +124,7 @@ __SSL__: Yes, use port 6697s
   </div>
 </div>
 
-*******
-
-<div class="col-sm-6" markdown="1">
+<div class="col-sm-6 no-padding" markdown="1">
 
 ## Need a Channel?
 If you need a channel that’s not listed above follow the instructions to [setup a new channel](https://wiki.linaro.org/GettingInvolved/IRC/channelsetup).
@@ -174,7 +172,7 @@ If you are using Firefox as a web browser, there’s also an IRC add-on for it: 
 If you are an emacs user, you already have an irc client part of your emacs 23 or higher. To activate presse Alt+x and type “rcirc”. Then join any of the rooms you want since rcirc defaults to irc.freenode.net, which is the server Linaro uses for all their chat rooms.
 
 </div>
-<div class="col-sm-6" markdown="1">
+<div class="col-sm-6 no-padding" markdown="1">
 
 ## IRC through any web browser
 
