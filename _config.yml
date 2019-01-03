@@ -298,7 +298,7 @@ prose:
               value: "Open Source"
       - name: "category"
         field:
-          element: "select"
+          element: "multiselect"
           label: "Select Category"
           placeholder: "Choose Category"
           options: https://www.linaro.org/assets/json/categories.json?callback=categories
