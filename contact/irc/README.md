@@ -5,8 +5,6 @@ description: |-
 layout: container-breadcrumb
 permalink: /contact/irc/
 ---
-
-<div class="row no-padding">
 <div class="col-xs-12 text-center" markdown="1">
 [Freenode](http://freenode.net/) is the public IRC system that Linaro uses to communicate.
 
@@ -17,8 +15,6 @@ __SSL__: Yes, use port 6697s
 ## Channels
 
 </div>
-</div>
-<div class="row no-padding">
 <div class="col-xs-12">
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
@@ -128,11 +124,7 @@ __SSL__: Yes, use port 6697s
   </div>
 </div>
 
-</div>
-
-* * *
-
-<div class="row no-padding">
+*******
 
 <div class="col-sm-6" markdown="1">
 
@@ -308,7 +300,3 @@ Each of these applications is configured slightly differently; if you have diffi
 Click here linaro IRC Logs [http://irclogs.linaro.org/](http://irclogs.linaro.org/ "Linaro IRC Logs")
 
 </div>
-
-</div>
-
-* * *
