@@ -5,7 +5,7 @@ categories([
 {% for category in site.categories %}
 {
 "name": "{{ category[0] | capitalize }}",
-"value": {{ category[0] }}
+"value": "{{ category[0] }}"
 }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
 ]);
