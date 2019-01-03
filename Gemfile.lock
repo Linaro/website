@@ -83,9 +83,8 @@ GEM
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
       hash-joiner (~> 0)
-      i18n
       jekyll (~> 3.7.4)
-      jekyll-assets (~> 2.4.0)
+      jekyll-assets (= 2.4.0)
       jekyll-data (> 0)
       jekyll-feed (> 0)
       jekyll-include-cache
