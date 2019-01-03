@@ -26,12 +26,13 @@ Prior to joining Sage he was Country Manager and then European Managing Director
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **George Grey** / Linaro CEO
+### **Li Gong** / Chief Executive Officer
 
-George has led software and hardware technology companies for over 25 years, gaining wide ranging expertise in business strategy, product development, sales and marketing. Early in his career he spent 12 years as founder and then CEO of Tadpole Technology plc, a developer of advanced mobile workstations. More recently at SavaJe, a pioneer of Smartphone operating systems, he developed a deep understanding of advanced software technologies, and worked with partners and customers across the entire mobile industry. George has built a reputation for leading and growing technology companies, and brings to Linaro extensive experience in creating innovative products and solutions for global markets.
+Li Gong is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”  
+
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/GeorgeGrey.png" class="linaro-profile-image" alt="George Grey Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/LiGong.jpg" class="linaro-profile-image" alt="Li Gong Profile Photo"%}
 </div>
 </div>
 
