@@ -24,7 +24,7 @@ tags([
 {% for tag in tags %}
 {
 "name": "{{ tag | capitalize }}",
-"value": {{ tag }}
+"value": "{{ tag }}"
 }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
 ]);
