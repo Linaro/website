@@ -1,7 +1,0 @@
-prose:
-  metadata:
-    '':
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
