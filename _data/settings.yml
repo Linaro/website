@@ -8,6 +8,7 @@ http2: true
 http2_resources:
   - rel: dns-prefetch
     href_list: https://www.google-analytics.com/
+    crossorigin: true
   - rel: preload
     as: font
     type: font/woff2
