@@ -254,6 +254,14 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
       - name: "title"
         field:
           element: "text"
@@ -262,10 +270,8 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "Set your featured image here"
-          value:
-            path: /assets/images/name-of-your-image.jpg
-            featured: true
+          label: "Set the path to your featured image here. This will be used for the blog banner and the social media thumbnails."
+          value: "/assets/images/blog/your-uploaded-image.png"
       - name: "comments"
         field:
           element: "checkbox"
@@ -288,3 +294,4 @@ prose:
           label: "Select Category"
           placeholder: "Choose Category"
           options: https://www.linaro.org/assets/json/categories.json?callback=categories
+  
