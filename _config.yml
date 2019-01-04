@@ -278,7 +278,7 @@ prose:
           element: "text"
           label: "Set the path to your featured image here. This will be used for the post image banner and the social media thumbnails."
           placeholder: "/assets/images/blog/your-uploaded-image.png"
-          value: false
+          value: ""
       - name: "comments"
         field:
           element: "checkbox"
