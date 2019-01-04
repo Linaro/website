@@ -265,12 +265,18 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Page Title"
+          label: "Post Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          placeholder: "Please add a suitable description for your post."
+          label: "Post Description"
           value: ""
       - name: "image"
         field:
           element: "text"
-          label: "Set the path to your featured image here. This will be used for the blog banner and the social media thumbnails."
+          label: "Set the path to your featured image here. This will be used for the post image banner and the social media thumbnails."
           value: "/assets/images/blog/your-uploaded-image.png"
       - name: "comments"
         field:
@@ -288,7 +294,7 @@ prose:
           label: "Add Post Tags"
           placeholder: "Choose Tags"
           options: https://www.linaro.org/assets/json/tags.json?callback=tags
-      - name: "category"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Select Category"
