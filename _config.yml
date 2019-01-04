@@ -252,8 +252,11 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
+          element: "select"
           value: "post"
+          options:
+            - name: "Event Index Page"
+              value: "event-index"
       - name: "date"
         field:
           element: "hidden"
@@ -310,10 +313,6 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_DATETIME
-      - name: "author"
-        field:
-          element: "hidden"
-          value: CURRENT_USER
       - name: "title"
         field:
           element: "text"
