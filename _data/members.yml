@@ -1,4 +1,5 @@
 - id: core
+  url: /membership/
   membership_group_name: Core Members
   text: |-
       Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro’s activities.
@@ -14,6 +15,7 @@
       url: /company/quic/
 - id: club
   membership_group_name: Club Members
+  url: /membership/
   text: |-
     Club membership is the starting point for most of Arm’s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.
   members:
@@ -37,6 +39,7 @@
       url: /company/zte/
 - id: group
   membership_group_name: Group Members
+  url: /membership/
   text: |-
     Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. Below are lists of the members of each group.
   members:
@@ -104,7 +107,8 @@
       image: xilinx.jpg
       url: /company/xilinx/
 - id: associate
-  membership_group_name: Associates  
+  membership_group_name: Associates
+  url: /membership/  
   text: |-
     Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.
   members:
@@ -113,6 +117,7 @@
       url: /company/runtime/
 - id: community
   membership_group_name: Community Members
+  url: /membership/  
   members:
     - name: IBM
       image: ibm.jpg
@@ -125,6 +130,7 @@
       url: /company/foundries-io/
 - id: odp-sig
   membership_group_name: ODP SIG Members
+  url: /membership/
   text: |-
       Companies interested in working together on an open-source, cross-platform set of application programming interfaces (APIs) for the networking software defined data plane are invited to contact Linaro with the form below.
   members:
@@ -135,24 +141,28 @@
       image: nokia.jpg
       url: /company/nokia/
 - id: ledge-sig
+  url: /engineering/groups/ledge/
   membership_group_name: LEDGE SIG Members
   text: |-
       LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. 
       
       Companies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.
 - id: mi-incubator
+  url: /engineering/incubators/machine-intelligence/
   membership_group_name: MI Incubator Members
   text: |-
       The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.
 
       Companies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.
 - id: autonomous-vehicles-incubator
+  url: /engineering/incubators/autonomous-vehicles/
   membership_group_name: Autonomous Vehicles Incubator Members
   text: |-
       Linaro’s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.
       
       Companies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.
 - id: hpc-sig
+  url: /sig/hpc/
   membership_group_name: HPC SIG Members
   text: |-
       The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. 
@@ -194,6 +204,7 @@
       url: /company/riken/
 - id: ldcg
   membership_group_name: LDCG Members
+  url: /engineering/groups/ldcg/
   text: |-
       The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.
       
@@ -228,6 +239,7 @@
       url: /company/socionext/
 - id: lcg
   membership_group_name: LCG Members
+  url: /engineering/groups/lcg/
   text: |-
       Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. 
       There are three engineering teams that work under the direction of the LCG Steering Committee
@@ -264,6 +276,7 @@
       url: /company/zte/
 - id: lite
   membership_group_name: LITE Members
+  url: /engineering/groups/lite/
   text: |-
       Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. There are three engineering teams that work under the direction of the LCG Steering Committee: ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
       
@@ -298,8 +311,10 @@
       url: /company/zte/
 - id: boards-sc
   membership_group_name: 96Boards Steering Committee
+  image: 96boards-steering-committee.png
+  url: https://www.96boards.org/membership/
   members:
-    - name: Actions
+    - name: Actions Semiconductor
       image: actions.jpg
       url: /company/actions/
     - name: Advantech
@@ -362,6 +377,8 @@
       url: /company/xilinx/
 - id: boards-mp
   membership_group_name: 96Boards Manufacturing Partners
+  image: 96boards-partner.png
+  url: https://www.96boards.org/membership/
   members:
     - name: Archer Mind
       image: archermind.jpg
@@ -443,6 +460,8 @@
       url: /company/xunlong/
 - id: boards-mezzanine
   membership_group_name: 96Boards Mezzanine Partners
+  image: 96boards-mezzanine.png
+  url: https://www.96boards.org/membership/
   members:
     - name: Qwerty
       image: qwerty.jpg
@@ -452,6 +471,8 @@
       url: /company/rohm/
 - id: boards-ai
   membership_group_name: 96Boards AI Partners
+  image: 96boards-ai.png
+  url: https://www.96boards.org/membership/
   members:
     - name: Arrow Electronics
       image: arrow.jpg
