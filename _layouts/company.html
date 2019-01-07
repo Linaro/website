@@ -19,7 +19,7 @@ js-package: blog
                 <a href="{{group.url}}">
                     <span class="membership-badge">{{group.membership_group_name}}</span>
                 </a>
-                {% assign linaro_membership_count | plus: 1 %}
+                {% assign linaro_membership_count = linaro_membership_count | plus: 1 %}
             {% endif %}
         {% endfor %}
     {% endfor %}
