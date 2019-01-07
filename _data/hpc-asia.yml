@@ -78,24 +78,18 @@ sessions:
       ARM HPC ecosystem development.
     image: /assets/images/people/ShinjiSumimoto.jpg
   - session: 5
-    speaker: Prof Lin XinHua
+    speaker: Key Liao
     company: Shanghai JiaoTong University
     topic: Benchmarking Huawei ARM Multi-Core Processors for HPC workloads
     bio: >-
-      Dr. James Lin is the Vice Director of High Performance Computing (HPC) 
-      Center at Shanghai Jiao Tong University (SJTU). He received his Msc Degree
-      in Computer Science at SJTU in 2005 and Ph.D. degree in Mathematical and 
-      Computing Science at Tokyo Institute of Technology in 2018. He worked in Department
-      of Computer Science at SJTU from 2005 to 2012, and then move to the HPC Center at 
-      the same university. In the HPC Center, he built ‘π’, the first GPU- accelerated supercomputer
-      in China's universities. This 350TFlops supercomputer ranked No. 158 in the TOP500 List in June 2013,
-      and was the fastest supercomputer in China’s universities from April 2013 to October 2015.
-      His research focuses on  performance optimizations on emerging many-core processors, such as NVIDIA GPU, Intel Xeon Phi.
-      He was the PI of NVIDIA CUDA Center of Excellence (CCoE) in 2011 and Intel Parallel Computing Center (IPCC) in 2017
-      in recognition of his ongoing research on parallel computing. He serves on the steering committee of the Intel
-      eXtreme Performance Users Group (IXPUG). He also has served and been serving on several conferences’ organizing committee,
-      such as a proceeding co-chair of Supercomputing19, a co-chair of International Scalable Computing Challenge15 
-      (co-located with CCGrid15), and a publicity co-chair for Computing Frontier19, ICPP17, and eScience17.
+      Mr. Key Liao is now an engineer in the Center for HPC(CHPC), Shanghai Jiao Tong University (SJTU).
+      He received his B.S. degree from School of Environment Science and Engineering of SJTU in 2017. In 2015,
+      he joined student HPC competition team lead by CHPC of SJTU and became the captain in the next year. In 2016,
+      he got 2nd place in ASC Student Supercomputer Challenge and 3rd place in ISC Student Cluster Competition for SJTU.
+      He's now an engineer and researcher working in Dr. James Lin's lab. His research focuses on computer architecture,
+      performance evaluation and modeling onmany-core processors, and parallel computing.  He is now the leader of ARM
+      HPC research team and the supervisor of student HPC competition team.
+
     image: /assets/images/people/JamesLin.png
   - session: 6
     speaker: Teppei Ono
