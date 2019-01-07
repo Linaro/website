@@ -54,7 +54,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
-    jekyll-paginate-v2 (2.0.0)
+    jekyll-paginate-v2 (2.1.0)
       jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
@@ -78,14 +78,13 @@ GEM
       jekyll
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jumbo-jekyll-theme (3.2.3.3)
+    jumbo-jekyll-theme (3.3)
       autoprefixer-rails (~> 9.0, >= 9.0.0)
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
       hash-joiner (~> 0)
-      i18n
       jekyll (~> 3.7.4)
-      jekyll-assets (~> 2.4.0)
+      jekyll-assets (= 2.4.0)
       jekyll-data (> 0)
       jekyll-feed (> 0)
       jekyll-include-cache
@@ -138,7 +137,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 3.2.3.3)
+  jumbo-jekyll-theme (= 3.3)
   nokogiri
 
 BUNDLED WITH
