@@ -10,19 +10,24 @@ js-package: blog
 <div class="col-sm-3 company-col text-center" markdown="1">
     <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
     data-src="{% asset_path '{{page.company_image}}' %}" alt="{{page.title}} Image" />
-    <h3>Linaro Membership</h3>
-    {% assign groups = "" %}
-    {% assign linaro_membership_count = 0 %}
-    {% for group in site.data.members %}
-        {% for entry in group.members %}
-            {% if entry.name == page.title %}
-                <a href="{{group.url}}">
-                    <span class="membership-badge">{{group.membership_group_name}}</span>
-                </a>
-                {% assign linaro_membership_count = linaro_membership_count | plus: 1 %}
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+    <div class="panel panel-default">
+        <div class="panel-body">
+             <h3>Linaro Membership</h3>
+            {% assign groups = "" %}
+            {% assign linaro_membership_count = 0 %}
+            {% for group in site.data.members %}
+                {% for entry in group.members %}
+                    {% if entry.name == page.title %}
+                        <a href="{{group.url}}">
+                            <span class="membership-badge">{{group.membership_group_name}}</span>
+                        </a>
+                        {% assign linaro_membership_count = linaro_membership_count | plus: 1 %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+   
 </div>
 {% else %}
 <div class="col-xs-12 company-col no-padding">
