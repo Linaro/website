@@ -11,7 +11,6 @@ jumbotron:
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
-<<<<<<< HEAD
     buttons:
         - title: Contact Us
           url: mailto:contact@linaro.org?subject=Linaro.org - Membership
@@ -46,9 +45,6 @@ jumbotron:
         </div>
     </div>
 </div>
-=======
----
->>>>>>> Updated theme (#470)
 <div class="row" id="projects">
     <div class="container">
         <div class="col-xs-12 text-center">
@@ -169,7 +165,6 @@ There are multiple levels of membership and different ways to engage in projects
             </a>
         </div>
     </div>
-<<<<<<< HEAD
 </div>
 <div class="row" id="related-news">
     <div class="container">
@@ -202,6 +197,4 @@ There are multiple levels of membership and different ways to engage in projects
             </div>
         {% endfor %}
     </div>
-=======
->>>>>>> Updated theme (#470)
 </div>
