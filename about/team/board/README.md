@@ -52,13 +52,14 @@ Mark has been working with open source technologies for approaching 20 years and
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Eric Finco** / STMicroelectronics
+### **Jon Humphreys** / Director of Linux Core Product Development at Texas Instruments
 
-Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.
+Jon Humphreys is the director of Linux Core Product Development at Texas Instruments.  He has over 25 years of experience in embedded software development, including tool chain and embedded OSes.  He has worked with Linaro on TI’s behalf since 2015.  Jon holds a Bachelor of Science in Electrical Engineering from Rice University, and a Master of Science in Computer Science from the University of Houston.
+
 
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/Eric-Finco.jpg" class="linaro-profile-image" alt="Eric Finco Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/JohnHumphreys.jpg" class="linaro-profile-image" alt="John Humphreys Profile Photo"%}
 </div>
 </div>
 
