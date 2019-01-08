@@ -1,17 +1,42 @@
 sessions:
   - session: 1
-    speaker: Renato Golin
-    company: Linaro
-    topic: HPC Cluster and CI
+    speaker: Yutaka Ishikawa
+    company: RIKEN-CCS/AIST
+    topic: System Software for Armv8-A with SVE
     bio: >-
-      Renato is the Tech-Lead for the HPC-SIG at Linaro, working with
-      vendors and users to foster the open source ecosystem on Arm hardware.
-      As a toolchain engineer for the past 10 years, he has previously
-      worked as LLVM Team-Lead at Linaro, on HPC compilers for HPCC,
-      embedded compilers and debuggers for Arm. Before that, he worked with
-      bioinformatics, web infrastructure and some consultancy, adding up
-      another 10 years.
-    image: /assets/images/people/renato.jpg
+      Dr. Yutaka Ishikawa is the leader of
+      Post-K computer development project,
+      that deploys the next Japanese flagship
+      supercomputer, at Riken Center for
+      Computational Science, Japan.  Ishikawa
+      received PhDdegree in electrical
+      engineering from Keio University.  From
+      1987 to 2001, he was a member of AIST
+      (former Electrotechnical Laboratory).
+      From 1993 to 2001, he was the chief of
+      Parallel and Distributed System
+      Software Laboratory at Real World
+      Computing Partnership.  He led
+      development of cluster system software
+      called SCore, which was used in several
+      large PC cluster systems around 2004.
+      From 2002 to 2006 and from 2006 to
+      2014, he was an associate professor and
+      a professor at the University Tokyo,
+      respectively.  From 2006 to 2008, he
+      was a project co-leader to design a
+      commodity-based supercomputer called
+      T2K open supercomputer.  As a result,
+      three universities, Tsukuba, Tokyo, and
+      Kyoto, obtained each supercomputer
+      based on the specification. From 2010
+      to 2014, he was also the director of
+      Information Technology Center at the
+      University of Tokyo.  He led the design
+      and implementation of HPCI, High
+      Performance Computing Infrastructure in
+      Japan, from 2010 to 2012.
+    image: /assets/images/people/YutakaIshikawa.png
   - session: 2
     speaker: Mohamed Wahib
     company: RIKEN-CCS/AIST
@@ -37,32 +62,35 @@ sessions:
       are core to Machine Learning algorithms.
     image: /assets/images/people/FrancescoPetrogalli.png
   - session: 4
-    speaker: TBC
-    company: TBC
-    topic: TBC
+    speaker: Shinji Sumimoto
+    company: Fujitsu
+    topic: "The First SVE Enabled Arm Processor: A64FX and Building up Arm HPC Ecosystem"
     bio: >-
-      TBC
-    image: TBC
+      Shinji Sumimoto, Fujitsu, Senior
+      Architect of Software Development
+      division. He is in charge of technical
+      development for Post-K computer, and is
+      an HPC System SW Specialist, especially
+      ultra large scale high performance
+      communication library and cluster
+      filesystem research and development for
+      over 20 years. He is also working on
+      ARM HPC ecosystem development.
+    image: /assets/images/people/ShinjiSumimoto.jpg
   - session: 5
-    speaker: Prof Lin XinHua
+    speaker: Key Liao
     company: Shanghai JiaoTong University
     topic: Benchmarking Huawei ARM Multi-Core Processors for HPC workloads
     bio: >-
-      Dr. James Lin is the Vice Director of High Performance Computing (HPC) 
-      Center at Shanghai Jiao Tong University (SJTU). He received his Msc Degree
-      in Computer Science at SJTU in 2005 and Ph.D. degree in Mathematical and 
-      Computing Science at Tokyo Institute of Technology in 2018. He worked in Department
-      of Computer Science at SJTU from 2005 to 2012, and then move to the HPC Center at 
-      the same university. In the HPC Center, he built ‘π’, the first GPU- accelerated supercomputer
-      in China's universities. This 350TFlops supercomputer ranked No. 158 in the TOP500 List in June 2013,
-      and was the fastest supercomputer in China’s universities from April 2013 to October 2015.
-      His research focuses on  performance optimizations on emerging many-core processors, such as NVIDIA GPU, Intel Xeon Phi.
-      He was the PI of NVIDIA CUDA Center of Excellence (CCoE) in 2011 and Intel Parallel Computing Center (IPCC) in 2017
-      in recognition of his ongoing research on parallel computing. He serves on the steering committee of the Intel
-      eXtreme Performance Users Group (IXPUG). He also has served and been serving on several conferences’ organizing committee,
-      such as a proceeding co-chair of Supercomputing19, a co-chair of International Scalable Computing Challenge15 
-      (co-located with CCGrid15), and a publicity co-chair for Computing Frontier19, ICPP17, and eScience17.
-    image: /assets/images/people/JamesLin.png
+      Mr. Key Liao is now an engineer in the Center for HPC(CHPC), Shanghai Jiao Tong University (SJTU).
+      He received his B.S. degree from School of Environment Science and Engineering of SJTU in 2017. In 2015,
+      he joined student HPC competition team lead by CHPC of SJTU and became the captain in the next year. In 2016,
+      he got 2nd place in ASC Student Supercomputer Challenge and 3rd place in ISC Student Cluster Competition for SJTU.
+      He's now an engineer and researcher working in Dr. James Lin's lab. His research focuses on computer architecture,
+      performance evaluation and modeling onmany-core processors, and parallel computing.  He is now the leader of ARM
+      HPC research team and the supervisor of student HPC competition team.
+
+    image: /assets/images/people/Key Liao.png
   - session: 6
     speaker: Teppei Ono
     company: HPC System Inc.
@@ -78,6 +106,58 @@ sessions:
       companies in Life Science and Materials Science.
     image: /assets/images/people/teppei-ono.jpg
   - session: 7
+    speaker: Renato Golin
+    company: Linaro
+    topic: HPC Cluster and CI
+    bio: >-
+      Renato is the Tech-Lead for the HPC-SIG at Linaro, working with
+      vendors and users to foster the open source ecosystem on Arm hardware.
+      As a toolchain engineer for the past 10 years, he has previously
+      worked as LLVM Team-Lead at Linaro, on HPC compilers for HPCC,
+      embedded compilers and debuggers for Arm. Before that, he worked with
+      bioinformatics, web infrastructure and some consultancy, adding up
+      another 10 years.
+    image: /assets/images/people/renato.jpg
+  - session: 8
+    speaker: Xiaohu Guo
+    company: UK STFC Hartree Centre
+    topic: Multi-scale Application Software Development Ecosystem on ARM
+    bio: >-
+      Dr. Xiaohu Guo, Ph.D in parallel
+      computing. He is currently a principle
+      computational scientist at STFC Hartree
+      Centre(UK National HPC Centre), leading
+      in the development of computational
+      methods using particle method based and
+      unstructured mesh based computation for
+      a range of application fields including
+      CFD, Materials Science and Medical
+      image processing and reconstruction.
+      His work has provided enabling
+      technologies for a wide range of
+      engineering and science applications
+      spanning the brief of the UK STFC,
+      EPSRC and NERC research councils. One
+      of Guo’s research commitments at the
+      moment is to address the common
+      computational challenges for large
+      scale particle method based application
+      simulations and unstructured mesh based
+      applications with novel computing
+      technologies. Dr. Guo is the leading
+      developer of several software packages
+      which has wide applications in the area
+      of nuclear thermal hydraulics, offshore
+      and marine energy industries, offshore
+      oil and gas industries and coastal
+      engineering. Dr. Guo is also member of
+      SC/ISC technical program committee,
+      Specialist Editor in HPC, Grid and
+      Novel Computing, Computer Physics
+      Communications and visiting Professor
+      of Harbin Engineering University.
+    image: /assets/images/people/XiaohuGuo.jpg
+  - session: 9
     speaker: Pak Lui
     company: Huawei
     topic: Transforming HPC with Huawei ARM HPC Solution
@@ -101,7 +181,7 @@ sessions:
       University in the USA. Pak also helped organizing the last Linaro Arm Architecture HPC Workshop
       in Santa Clara, CA (Silicon Valley) in July last year.
     image: /assets/images/people/PakLui.jpg
-  - session: 8
+  - session: 10
     speaker: Mr Guo Yu Feng
     company: Phytium
     topic: The New Generation of Phytium‘s 64Cores Processor and Ecosystem
@@ -111,7 +191,7 @@ sessions:
       computers and  microprocessor chips for a long time, and has hosted many 
       developments of Phytium CPU chips.
     image: /assets/images/people/YunfeiGuo.JPG
-  - session: 9
+  - session: 11
     speaker: Dong Wei
     company: Arm
     topic: Arm Neoverse
@@ -126,7 +206,7 @@ sessions:
       architecture definitions for PA-RISC, Itanium, x86, and RISC-V systems, and 
       cofounded the UEFI technology with Intel.
     image: /assets/images/people/WeiDong.JPG
-  - session: 10
+  - session: 12
     speaker: Jammy Zhou
     company: Linaro
     topic: End to End Deep Learning Solution on Arm
@@ -136,7 +216,7 @@ sessions:
       the leading architect of AMDGPU-Pro Linux graphics driver stack, and contributed a lot of patches to the upstream.
       He also worked at Freescale for some time, and had rich experience on Linux/Android BSPs for Arm embedded platforms.
     image: /assets/images/people/jammy-zhou.jpg
-  - session: 11
+  - session: 13
     speaker: Akira Hoshino
     company: Gigabyte
     topic: GIGABYTE Position in ARM Server Market - Leading Pioneer
@@ -146,7 +226,7 @@ sessions:
       worldwide server products, leading the company’s development of ARM server products, and
       managing business with selected ARM processor vendors.
     image: /assets/images/people/Akira.png
-  - session: 12
+  - session: 14
     speaker: Fu Li
     company: Quantum Cloud
     topic: "Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC"

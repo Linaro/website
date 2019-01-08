@@ -18,7 +18,7 @@ p {padding:0px 10px 10px;}
 
 <div id="headline">
   
-<h1 style="margin-top:0; padding-top:10px; margin-bottom:10px; text-align:center; font-size:22px;">Blogs at planet.linaro.org</h1>
+<h1 style="margin-top:0; padding-top:10px; margin-bottom:10px; text-align:center; font-size:22px;">Blogs at linaro.org/planet</h1>
 </div>
     
 <?php

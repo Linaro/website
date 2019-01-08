@@ -23,12 +23,12 @@ var feeds = [
     "https://translatedcode.wordpress.com/feed/",
     "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
     "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "https://www.stylesen.org/taxonomy/term/50/0/feed",
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
-    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
+    "https://www.davidb.org/index.xml"
 ];
 var sortableFeeds = [
     "https://linux.codehelp.co.uk/blog.xml",
@@ -41,12 +41,12 @@ var sortableFeeds = [
     "https://translatedcode.wordpress.com/feed/",
     "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
     "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "https://www.stylesen.org/taxonomy/term/50/0/feed",
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
-    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
+    "https://www.davidb.org/index.xml"
 ];
 // Collect Feed Channel Info
 var feedChannels = [];
@@ -177,3 +177,9 @@ function outputFeed(){
     $("#feed").show();
     console.log("Planet Linaro feed generated.");
 }
+
+//Locate images that are added dynamically to the page and add the img-responsive class
+$("body").bind("DOMNodeInserted", function () {
+    $(this).find('#feed img').addClass('img-responsive');
+    my
+});

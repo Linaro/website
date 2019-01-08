@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.4.3)
+    autoprefixer-rails (9.4.4)
       execjs
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -54,7 +54,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
-    jekyll-paginate-v2 (2.0.0)
+    jekyll-paginate-v2 (2.1.0)
       jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
@@ -78,7 +78,7 @@ GEM
       jekyll
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jumbo-jekyll-theme (3.1.2)
+    jumbo-jekyll-theme (3.3.1)
       autoprefixer-rails (~> 9.0, >= 9.0.0)
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
@@ -137,7 +137,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 3.1.2)
+  jumbo-jekyll-theme (= 3.3.1)
   nokogiri
 
 BUNDLED WITH
