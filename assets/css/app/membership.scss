@@ -18,6 +18,11 @@
 }
 .testimonials video.img-responsive {
     height: 250px;
+    margin: 20px auto;
+}
+.testimonial-col h4 {
+    color: white;
+    font-weight: normal;
 }
 
 .members-img {
@@ -342,7 +347,7 @@ div#key-factors.testimonials {
 // Related News
 .news-item h3 {
     font-size: 17px;
-    height: 40px;
+    height: 60px;
     overflow: hidden;
 }
 
