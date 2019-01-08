@@ -22,6 +22,7 @@ tags:
 - manufacturing
 - members
 - Open Source
+- Membership
 - Opensource
 title: Thundersoft joins Linaro 96Boards as both Manufacturing Partner and Steering
   Committee member

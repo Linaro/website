@@ -19,6 +19,7 @@ tags:
 - Linaro Connect
 - Linux
 - Linux on Arm
+- Membership
 title: Google Becomes Club Member of Linaro
 wordpress_id: 12216
 ---
