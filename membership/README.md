@@ -19,19 +19,29 @@ jumbotron:
 <div class="row padded-row testimonials" id="key-factors">
     <div class="container">
         <h2 class="text-center fly m-b-30">This is what our members have to say</h2>
-        <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly key-factor text-center testimonial-col">
-            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/jon-masters-screen.png" preload="none">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/ogg">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.webm" type="video/webm">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/mp4">
-            </video>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly text-center testimonial-col">
+            <div class="col-xs-12 no-padding">
+                <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/jon-masters-screen.png" preload="none">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/ogg">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.webm" type="video/webm">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-xs-12 no-padding testimonial-col text-center">
+                <h4>Jon Masters - Computer Architect and Distinguished Engineer at Red Hat</h4>
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
-            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/larry-wikelius-screen.png" preload="none">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
-                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
-            </video>
+        <div class="col-xs-12 col-sm-4 fly text-center testimonial-col">
+            <div class="col-xs-12 no-padding">
+                <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/larry-wikelius-screen.png" preload="none">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
+                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-xs-12 testimonial-col text-center">
+                <h4>Larry Wikelius - Vice President, Ecosystem and Partner Enabling at Marvell</h4>
+            </div>
         </div>
     </div>
 </div>
@@ -50,35 +60,6 @@ jumbotron:
                  background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;"></div>
             </div>
         </a>
-        {% endfor %}
-    </div>
-</div>
-<div class="row" id="related-news">
-    <div class="container">
-        <div class="col-xs-12 text-center">
-            <h2>Related News</h2>
-        </div>
-    </div>
-    <div class="owl-carousel owl-theme" id="related-news-slider">
-        {% assign membership_posts = site.tags.Membership | sort: 'date' | reverse %}
-        {% assign external_news = site.data.external_news | where: 'category', 'Membership' |  sort: 'date' | reverse %}
-        {% assign member_news = member_news | concat: external_news  %}
-
-        {% assign all_news = "" | split: "" %}
-        {% for item in external_news %}
-            {% assign all_news = all_news | push: item %}
-        {% endfor %}
-        {% for item in membership_posts %}
-            {% assign all_news = all_news | push: item %}
-        {% endfor %}
-
-        {% for news in all_news limit: 10 %}
-            <div class="item news-item">
-                <h3>{{news.title}}</h3>
-                <span class="date">{{news.date |  date: "%A, %B %-d, %Y" }}</span>
-                <p>{% if news.description %}{{news.description}}{% else %}{{ news.content | strip_html | truncatewords: 50 }}{% endif %}</p>
-                <a href="{{news.url}}" class="btn btn-primary">Read More</a>
-            </div>
         {% endfor %}
     </div>
 </div>
@@ -183,5 +164,37 @@ There are multiple levels of membership and different ways to engage in projects
                 contact@linaro.org
             </a>
         </div>
+    </div>
+</div>
+<div class="row" id="related-news">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Related News</h2>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme" id="related-news-slider">
+        {% assign membership_posts = site.tags.Membership | sort: 'date' | reverse %}
+        {% assign external_news = site.data.external_news | where: 'category', 'Membership' |  sort: 'date' | reverse %}
+        {% assign all_news = "" | split: "" %}
+        {% for item in external_news %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+        {% for item in membership_posts %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+        {% assign timeframe = 604800 %}
+        {% for news in all_news limit: 10 %}
+            {% assign post_in_seconds = news.date | date: "%s" | plus: 0 %}
+            {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+            <div class="item news-item">
+                <h3>{{news.title}}</h3>
+                <em class="date">{{news.date |  date: "%A, %B %-d, %Y" }}</em>
+                {% if post_in_seconds > recent_posts %}
+                   <span class="new-post" title="Post added in the last week.">New</span>
+                {% endif %}
+                <p>{% if news.description %}{{news.description}}{% else %}{{ news.content | strip_html | truncatewords: 50 }}{% endif %}</p>
+                <a href="{{news.url}}" class="btn btn-primary">Read More</a>
+            </div>
+        {% endfor %}
     </div>
 </div>
