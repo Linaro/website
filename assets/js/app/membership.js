@@ -51,14 +51,11 @@ $(document).ready(function () {
             600: {
                 items: 2
             },
-            800: {
+            1000: {
                 items: 3
             },
-            1200: {
-                items: 4
-            },
             1400: {
-                items: 6
+                items: 4
             }
         }
     });
