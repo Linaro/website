@@ -39,6 +39,7 @@ $(document).ready(function () {
         items: 4,
         loop: true,
         dots: false,
+        nav: true,
         margin: 10,
         autoplay: true,
         autoplayTimeout: 8000,
@@ -55,6 +56,10 @@ $(document).ready(function () {
             },
             1200: {
                 items: 4
+            }
+            },
+            1400: {
+                items: 6
             }
         }
     });
