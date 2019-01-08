@@ -20,14 +20,14 @@ jumbotron:
     <div class="container">
         <h2 class="text-center fly m-b-30">This is what our members have to say</h2>
         <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly key-factor text-center testimonial-col">
-            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/hpc-asia-graphic.png" preload="none">
+            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/jon-masters-screen.png" preload="none">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/ogg">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.webm" type="video/webm">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/mp4">
             </video>
         </div>
         <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
-            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/hpc-asia-graphic.png" preload="none">
+            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/larry-wikelius-screen.png" preload="none">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
                 <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
