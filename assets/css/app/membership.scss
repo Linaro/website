@@ -338,3 +338,35 @@ div#key-factors.testimonials {
 .testimonial-block.fly.show-block:hover:after {
     opacity:1;
 }
+
+// Related News
+.news-item h3 {
+    font-size: 17px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.news-item p {
+    height: 100px;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+.news-item p:after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 70px;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #fff 90%);
+    width: 100%;
+    height: 6em;
+}
+
+.news-item a.btn.btn-primary {
+    margin-bottom: 20px;
+}
+
+.item.news-item {
+    padding: 0px 10px;
+}
