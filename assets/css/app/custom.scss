@@ -76,16 +76,15 @@
     }
 }
 
-a.btn.btn-linaro-home {
-    border: 2px solid #fff;
-    color: #fff;
-    letter-spacing: 2px;
-    border-radius: 1px;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 10px;
-    margin-right: 5px;
-    transition: all 500ms ease;
+#wrapper a.btn.btn-linaro-home {
+    background-color:#9cc849;
+    border: 1px solid #000;
+    color:white;
+    font-weight:bold;
+    border-radius:0;
+}
+#wrapper a.btn.btn-linaro-home:hover{
+    background-color:#262626;
 }
 .job-openings {
     margin-top: 20px;

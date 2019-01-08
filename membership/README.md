@@ -11,7 +11,30 @@ jumbotron:
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
+    buttons:
+        - title: Contact Us
+          url: mailto:contact@linaro.org?subject=Linaro.org - Membership
+          class: btn btn-linaro-home
 ---
+<div class="row padded-row testimonials" id="key-factors">
+    <div class="container">
+        <h2 class="text-center fly m-b-30">This is what our members have to say</h2>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly key-factor text-center testimonial-col">
+            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/hpc-asia-graphic.png" preload="none">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/ogg">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.webm" type="video/webm">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="col-xs-12 col-sm-4 fly key-factor text-center testimonial-col">
+            <video controls="controls" class="lazyload img-responsive" data-poster="/assets/images/content/hpc-asia-graphic.png" preload="none">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
+                <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
 <div class="row" id="projects">
     <div class="container">
         <div class="col-xs-12 text-center">
@@ -27,6 +50,35 @@ jumbotron:
                  background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;"></div>
             </div>
         </a>
+        {% endfor %}
+    </div>
+</div>
+<div class="row" id="related-news">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Related News</h2>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme" id="related-news-slider">
+        {% assign membership_posts = site.tags.Membership | sort: 'date' | reverse %}
+        {% assign external_news = site.data.external_news | where: 'category', 'Membership' |  sort: 'date' | reverse %}
+        {% assign member_news = member_news | concat: external_news  %}
+
+        {% assign all_news = "" | split: "" %}
+        {% for item in external_news %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+        {% for item in membership_posts %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+
+        {% for news in all_news limit: 10 %}
+            <div class="item news-item">
+                <h3>{{news.title}}</h3>
+                <span class="date">{{news.date |  date: "%A, %B %-d, %Y" }}</span>
+                <p>{% if news.description %}{{news.description}}{% else %}{{ news.content | strip_html | truncatewords: 50 }}{% endif %}</p>
+                <a href="{{news.url}}" class="btn btn-primary">Read More</a>
+            </div>
         {% endfor %}
     </div>
 </div>
@@ -126,7 +178,6 @@ There are multiple levels of membership and different ways to engage in projects
 <div class="row padded-row" id="apply-to-join">
     <div class="container">
         <h2 class="text-center fly">Become a member</h2>
-        <hr>
         <div class="col-xs-12 text-center">
             <a class="btn email" href="mailto:contact@linaro.org?subject=Linaro.org - Membership">
                 contact@linaro.org

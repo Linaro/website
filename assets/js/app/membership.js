@@ -32,5 +32,31 @@ $(document).ready(function () {
             }
         }
     });
+    
+    var relatedNewsSlider = $("#related-news-slider");
+    
+    relatedNewsSlider.owlCarousel({
+        items: 4,
+        loop: true,
+        dots: false,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            800: {
+                items: 3
+            },
+            1200: {
+                items: 4
+            }
+        }
+    });
 });
 
