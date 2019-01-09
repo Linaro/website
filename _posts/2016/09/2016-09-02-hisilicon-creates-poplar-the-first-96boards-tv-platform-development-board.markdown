@@ -41,7 +41,7 @@ Please visit LHG at[ LAS16](https://connect.linaro.org/las16/) to see some of th
 
 **Additional Information:**
 
-The 96Boards Poplar Hardware User Manual is available from Tocoding, available here:[ https://app.box.com/s/2t60tdcr07p8w1c8gf9j2veozpbhjkt5](https://app.box.com/s/2t60tdcr07p8w1c8gf9j2veozpbhjkt5)
+The 96Boards Poplar Hardware User Manual is available here:[https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html](https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html)
 
 The 96Boards Poplar board is currently on sale for $79USD + Shipping on Aliexpress ([http://www.aliexpress.com/store/product/96Boards-Poplar/2350001_32701867575.html?spm=2114.8147860.0.85.jZ7Tzj](http://www.aliexpress.com/store/product/96Boards-Poplar/2350001_32701867575.html?spm=2114.8147860.0.85.jZ7Tzj)).
 
