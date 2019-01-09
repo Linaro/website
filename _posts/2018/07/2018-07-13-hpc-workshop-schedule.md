@@ -8,8 +8,6 @@ description: >-
 image:
    featured: true
    path: /assets/images/content/hpc-share-image.png
-   name: hpc-share-image.png
-   thumb: hpc-share-image.png
 categories: Blog
 tags: Open Source, Arm, High Performance Computing, HPC, Supercomputing, Santa Clara, Post-k
 published: true

@@ -91,7 +91,6 @@ categories: blog
 tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
 image:
   featured: true
-  name: OSSNA.jpg
   path: /assets/images/blog/OSSNA.jpg
 ---
 ```

@@ -12,7 +12,6 @@ keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 
 image:
     featured: true
     path: /assets/images/blog/Ecosystemday-original.jpg 
-    name: Ecosystemday-original.jpg
 layout: post
 ---
 # Highlights of Ecosystem Day at Linaro Connect HKG18

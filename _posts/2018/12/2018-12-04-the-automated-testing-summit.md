@@ -9,7 +9,6 @@ categories: Blog
 tags: Linaro, Arm, Events, ATS 2018, Automated Testing, LAB, LKFT
 image:
   featured: true
-  name: ats-2018.png
   path: /assets/images/content/ats-2018.png
 ---
 The [Automated Testing Summit](https://elinux.org/Automated_Testing_Summit) took place on Oct 25th in Scotland. The summit was a full day event that attracted members of the testing community. Unfortunately, it was by invite only hence the recording sponsored by Linaro to help you catch up on the details discussed. While it was invite only, the majority of test systems and frameworks were represented.  

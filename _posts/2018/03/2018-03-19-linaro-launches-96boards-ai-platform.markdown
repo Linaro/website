@@ -12,7 +12,6 @@ keywords: Linaro, Connect, HKG18, 96Boards, Artificial Intelligence, AI, Platfor
 image:
   featured: true
   path: /assets/images/blog/96boards-ai.png
-  name: 96boards-ai.png
 layout: post
 ---
 # Linaro Announces Launch of 96Boards AI Platform

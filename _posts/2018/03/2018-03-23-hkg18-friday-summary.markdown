@@ -12,7 +12,6 @@ keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 
 image:
     featured: true
     path: /assets/images/blog/DemoFriday5.jpg 
-    name: DemoFriday5.jpg
 layout: post
 ---
 # Highlights of the fifth day at Linaro Connect HKG18

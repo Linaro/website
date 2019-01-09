@@ -6,11 +6,9 @@ categories:
 - blog
 comments: false
 date: 2015-09-21 00:38:40
-featured_image_name: LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
 image:
   featured: true
-  name: LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
-  path: /assets/images/featured-images/LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
+  path: /assets/images/blog/LinaroConnectSanFrancisco2015WelcomeandIntroduction.jpg
 layout: post
 link: http://connect.linaro.org/resource/sfo15/welcome/
 post_format:

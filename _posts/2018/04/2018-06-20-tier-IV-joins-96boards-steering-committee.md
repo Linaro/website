@@ -10,8 +10,6 @@ description: >-
 image:
    featured: true
    path: /assets/images/content/96boards-home-page-latest.png
-   name: 96boards-home-page-latest.png
-   thumb: 96boards-home-page-latest.png
 categories: News
 tags: 64-bit, 96Boards, sc, members, Arm, Armv8, Consumer Edition, DB820c, Rock960, Hikey960, linaro, linux, open source, Membership
 ---

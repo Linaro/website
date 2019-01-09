@@ -9,6 +9,8 @@ destination: _site
 theme: jumbo-jekyll-theme
 # Permalink for the blog posts of the Jekyll website.
 permalink: /:categories/:title/
+# Jekyll Responsive Images dir
+blog_images_dir: assets/images/blog/
 # Syntax highlighter for 96boards blog
 highlighter: rouge
 # Markdown version

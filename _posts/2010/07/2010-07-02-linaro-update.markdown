@@ -1,6 +1,5 @@
 ---
 author: steve.taylor
-
 date: 2010-07-02 23:05:00+00:00
 layout: post
 link: /blog/linaro-update/

@@ -9,7 +9,6 @@ categories: Blog
 tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
 image:
   featured: true
-  name: OSSNA.jpg
   path: /assets/images/blog/OSSNA.jpg
 ---
 The AI deep learning neural network ecosystem is just getting started and has similar implications with open source as GPU and video accelerators had in the early days with user space drivers, binary blobs, proprietary APIs and all possible ways to protect their IPs. Together with other players in the Arm ecosystem, Linaro wants to create a common open source framework to manage multiple NN accelerators while at the same time avoiding modifications to deep learning frameworks with multiple forks. The Machine Intelligence Initiative at Linaro has been set up with this purpose in mind - to help reduce the risk of fragmentation in the Deep learning NN acceleration ecosystem. 

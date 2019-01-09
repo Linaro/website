@@ -9,7 +9,6 @@ categories: Blog
 tags: Arm, Linaro, Data Centre, Datacentre, Cloud, Cloud Computing, Developer Cloud, Servers, Enterprise, Arm46, HPC, High Performance Computing Vancouver, Linaro Connect, YVR18
 image:
   featured: true
-  name: HKG18Session.jpg
   path: /assets/images/blog/HKG18Session.jpg
 ---
 Three weeks to go until Linaro Connect Vancouver 2018!

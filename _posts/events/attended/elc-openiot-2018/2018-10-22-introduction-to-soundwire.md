@@ -10,7 +10,6 @@ event: elc-openiot-2018
 date: '2018-10-22 09:00:00+00:00'
 image:
   featured: false
-  name: elc-openiot-europe-2018-placeholder.png
   path: /assets/images/content/elc-openiot-europe-2018-placeholder.png
 layout: resource-post
 location: >-

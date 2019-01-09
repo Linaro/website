@@ -137,4 +137,4 @@ disqus:
     enabled: true
     shortname: Linaro
 # Placeholder for Missing Images
-placeholder: linaro-logo.png
+placeholder: /assets/images/content/linaro-logo.png

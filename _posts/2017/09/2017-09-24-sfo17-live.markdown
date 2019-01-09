@@ -6,10 +6,8 @@ categories:
 - blog
 comments: false
 date: 2017-09-24 17:15:47
-featured_image_name: SFO17StreamingLinks.jpg
 image:
   featured: true
-  name: SFO17StreamingLinks.jpg
   path: /assets/images/blog/SFO17StreamingLinks.jpg
 layout: post
 link: http://connect.linaro.org/blog/sfo17-live/

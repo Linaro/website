@@ -11,7 +11,6 @@ keywords: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, RoseFinch7100, HKG18'
 image:
     featured: true
     path: /assets/images/blog/rosefinch7100.jpg
-    name: rosefinch7100.jpg
 layout: post
 ---
 # Sanechips to demonstrate RoseFinch7100 at Linaro Connect
