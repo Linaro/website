@@ -78,7 +78,11 @@ GEM
       jekyll
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+<<<<<<< HEAD
     jumbo-jekyll-theme (3.3.5)
+=======
+    jumbo-jekyll-theme (3.3.4)
+>>>>>>> 20e94316e863155bb83955dc9c555fb6cd16f93f
       autoprefixer-rails (~> 9.0, >= 9.0.0)
       bootstrap-sass (~> 3.3.6)
       ffi (~> 1.9.24)
@@ -137,7 +141,11 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
+<<<<<<< HEAD
   jumbo-jekyll-theme (= 3.3.5)
+=======
+  jumbo-jekyll-theme (= 3.3.4)
+>>>>>>> 20e94316e863155bb83955dc9c555fb6cd16f93f
   nokogiri
 
 BUNDLED WITH
