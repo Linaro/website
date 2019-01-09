@@ -8,8 +8,6 @@ description: >-
 image:
    featured: true
    path: /assets/images/content/softbank-joins-96boards.png
-   name: softbank-joins-96boards.png
-   thumb: softbank-joins-96boards.png
 categories: news
 tags: Open Source, Arm, Linaro, Members, SoftBank, 96boards, 96Boards SC, Membership
 published: true

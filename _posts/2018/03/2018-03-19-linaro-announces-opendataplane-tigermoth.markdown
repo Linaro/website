@@ -13,7 +13,6 @@ keywords: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, 
 image:
   featured: true
   path: /assets/images/blog/odp-press-release-hkg18.png
-  name: odp-press-release-hkg18.png
 layout: post
 ---
 ## Linaro Announces OpenDataPlane Tiger Moth LTS Software Release with Support for Arm and x86

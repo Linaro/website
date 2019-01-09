@@ -8,8 +8,6 @@ description: >-
 image:
    featured: true
    path: /assets/images/content/open-source-projects.png
-   name: open-source-projects.png
-   thumb: open-source-projects.png
 categories: Blog
 tags: Open Source, Projects, Arm, Armv8, linaro, linux, GPL 2.0, Red Hat
 published: true

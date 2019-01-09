@@ -6,10 +6,8 @@ categories:
 - blog
 comments: false
 date: 2016-11-30 11:44:55
-featured_image_name: LinaroConnectBudapestBUD17Registrationhaslaunched.png
 image:
   featured: true
-  name: LinaroConnectBudapestBUD17Registrationhaslaunched.png
   path: /assets/images/blog/LinaroConnectBudapestBUD17Registrationhaslaunched.png
 layout: post
 link: http://connect.linaro.org/blog/bud17-1/

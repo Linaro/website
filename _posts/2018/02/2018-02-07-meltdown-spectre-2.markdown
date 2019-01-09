@@ -19,7 +19,6 @@ keywords: >-
 image:
   featured: true
   path: /assets/images/blog/meltdown-spectre-logo.jpg
-  name: meltdown-spectre-logo.jpg
 layout: post
 ---
 

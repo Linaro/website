@@ -11,7 +11,6 @@ date: '2018-07-26 09:00:00+00:00'
 css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-   name: ArmHPCWorkshopSocialMedia.png
 event: arm-hpc-santa-clara-2018
 tag: event
 ---
