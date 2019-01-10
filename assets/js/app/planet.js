@@ -28,7 +28,8 @@ var feeds = [
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
     "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
-    "https://www.davidb.org/index.xml"
+    "https://www.davidb.org/index.xml",
+    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/"
 ];
 var sortableFeeds = [
     "https://linux.codehelp.co.uk/blog.xml",
@@ -46,7 +47,8 @@ var sortableFeeds = [
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
     "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
-    "https://www.davidb.org/index.xml"
+    "https://www.davidb.org/index.xml",
+    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/"
 ];
 // Collect Feed Channel Info
 var feedChannels = [];
