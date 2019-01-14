@@ -27,25 +27,10 @@ var feeds = [
     "https://station.eciton.net/index.rss",
     "https://blog.duraffort.fr/feed/tag/linaro/rss",
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
-    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
+    "https://www.davidb.org/index.xml"
 ];
-var sortableFeeds = [
-    "https://linux.codehelp.co.uk/blog.xml",
-    "http://www.workofard.com/feed/",
-    "https://pierrchen.blogspot.com/rss.xml",
-    "http://www.metaklass.org/rss/",
-    "https://blog.sirena.org.uk/feed/",
-    "https://marcin.juszkiewicz.com.pl/feed/",
-    "https://fullshovel.wordpress.com/feed/",
-    "https://translatedcode.wordpress.com/feed/",
-    "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
-    "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
-    "https://station.eciton.net/index.rss",
-    "https://blog.duraffort.fr/feed/tag/linaro/rss",
-    "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
-    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml"
-];
+var sortableFeeds = feeds.slice();
 // Collect Feed Channel Info
 var feedChannels = [];
 // Sort function which takes the data array, property to sort by and an asc boolean.

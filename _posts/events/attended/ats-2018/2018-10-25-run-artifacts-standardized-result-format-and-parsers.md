@@ -9,7 +9,6 @@ event: ats-2018
 date: '2018-10-25 03:00:00+00:00'
 image:
   featured: true
-  name: ats-2018-run-artifacts.png
   path: /assets/images/content/ats-2018-run-artifacts.png
 layout: resource-post
 title: 'Run Artifacts, Standardized Result Format & Parsers'

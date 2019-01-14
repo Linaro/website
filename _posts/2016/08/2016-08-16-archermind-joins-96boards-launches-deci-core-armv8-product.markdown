@@ -9,6 +9,7 @@ link: /news/archermind-joins-96boards-launches-deci-core-armv8-product/
 slug: archermind-joins-96boards-launches-deci-core-armv8-product
 title: ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
 wordpress_id: 11328
+tags:  Membership
 ---
 
 Cambridge, UK: 16 August 2016

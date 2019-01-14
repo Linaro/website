@@ -6,7 +6,6 @@ date: 2018-03-09 14:50:00 +00:00
 description: "Find out who from Linaro will be presenting at ELC 2018 in Portland this week 12th 14th March 2018"
 image: 
   featured: true
-  name: ELC-Image.png
   path: /assets/images/blog/ELC-Image.png
 keywords: "ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm"
 layout: post

@@ -9,7 +9,6 @@ categories: Blog
 tags: Arm, Linaro, HPC, Workshop, Santa Clara, Huawei, HiSilicon, University of Bristol, Arm, Cavium, Huawei, Linaro, Mellanox, Riken, Sandia, SUSE , Red Hat
 image:
   featured: true
-  name: hpcworkshop2.png
   path: /assets/images/blog/hpcworkshop2.png
 ---
 

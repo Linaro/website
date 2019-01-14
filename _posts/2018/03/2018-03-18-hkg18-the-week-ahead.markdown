@@ -12,7 +12,6 @@ keywords: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, So
 image:
   featured: true
   path: /assets/images/blog/HKG18-social-facebook-optimized.jpg
-  name: HKG18-social-facebook-optimized.jpg
 layout: post
 ---
 # HKG18: The week ahead

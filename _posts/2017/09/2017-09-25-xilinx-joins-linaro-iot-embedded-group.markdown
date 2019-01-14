@@ -11,6 +11,7 @@ layout: post
 link: /news/xilinx-joins-linaro-iot-embedded-group/
 slug: xilinx-joins-linaro-iot-embedded-group
 title: Xilinx joins Linaro IoT and Embedded Group
+tags: Membership
 wordpress_id: 12806
 ---
 

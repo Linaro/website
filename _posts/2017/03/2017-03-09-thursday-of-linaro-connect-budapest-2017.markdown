@@ -8,10 +8,8 @@ comments: false
 date: 2017-03-09 23:01:26
 excerpt: See what happened during the Thursday of Linaro Connect Budapest 2017.  Watch
   the keynote and get access to the session materials that are available.
-featured_image_name: ThursdayofLinaroConnectBudapest2017.jpg
 image:
   featured: true
-  name: ThursdayofLinaroConnectBudapest2017.jpg
   path: /assets/images/blog/ThursdayofLinaroConnectBudapest2017.jpg
 layout: post
 link: http://connect.linaro.org/blog/thursday-of-linaro-connect-budapest-2017/

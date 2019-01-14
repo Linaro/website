@@ -3,7 +3,8 @@ author: linaro
 categories:
 - News
 date: 2017-03-06 08:01:29
-description: Budapest, Hungary; 6 March 2017
+description: >-
+    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Fujitsu Limited1 has joined Linaro as a member of the Linaro Enterprise Group (LEG) and a founding member of the LEG High Performance Computing Special Interest Group (HPC SIG).
 layout: post
 link: /news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/
 slug: linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm
@@ -16,6 +17,7 @@ tags:
 - Linaro Connect
 - Linux
 - Linux on Arm
+- Membership
 title: Linaro Announces Fujitsu's Collaboration to Accelerate High Performance Computing
   on Arm
 wordpress_id: 12220
