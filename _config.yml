@@ -354,7 +354,4 @@ prose:
           label: "Select Category"
           placeholder: "Choose Category"
           options: https://www.linaro.org/assets/json/categories.json?callback=categories
-<<<<<<< HEAD
   
-=======
->>>>>>> feature/hpc-page-update
