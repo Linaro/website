@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 # Jekyll Theme
+<<<<<<< HEAD
 gem 'jumbo-jekyll-theme', "3.3.5"
+=======
+gem 'jumbo-jekyll-theme', "3.3.6"
+>>>>>>> feature/hpc-page-update
 # Jekyll Plugins
 group :jekyll_plugins do
    gem "jekyll-data"
