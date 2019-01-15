@@ -3,7 +3,7 @@ title: Acadine Technologies
 description: |-
     Acadine™ Technologies is a startup company specializing in innovative mobile operating systems for mobile, wearable, and IoT devices.
 company_image: acadine.jpg
-archived: True
+archived: true
 ---
 Acadine™ Technologies is a startup company specializing in innovative mobile operating systems for mobile, wearable, and IoT devices. Acadine is based in Hong Kong, with operations in Beijing, Taipei, Palo Alto, and London. For more information, please contact press@acadine.com.
 
