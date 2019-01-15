@@ -329,7 +329,7 @@
     - name: Analog Devices
       image: analog-devices.gif
       url: /company/analog-devices/
-    - name: Bitmain
+    - name: BITMAIN
       image: bitmain_logo.png
       padded: padded-member-md
       url: /company/bitmain/
@@ -404,7 +404,7 @@
     - name: Fujitsu Electronics
       image: fujitsu-electronics.png
       url: /company/fujitsu-electronics/
-    - name: Fab to Lab
+    - name: Fab.to.Lab
       image: fab-to-lab.jpg
       url: /company/fab-to-lab/
     - name: Gigabyte
@@ -463,7 +463,7 @@
   image: 96boards-mezzanine.png
   url: https://www.96boards.org/membership/
   members:
-    - name: Qwerty
+    - name: QWERTY Embedded Design
       image: qwerty.jpg
       url: /company/qwerty/
     - name: Rohm
