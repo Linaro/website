@@ -44,6 +44,8 @@ js-package: blog
             and {{group}}
         {% elsif forloop.length == 2 %}
             {{group}}
+        {% elsif  %}
+            {{group}}
         {% else %}
             {{group}}, 
         {% endif %}
