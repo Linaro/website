@@ -2,7 +2,7 @@
 sig_id: 1
 title: High Performance Computing (HPC)
 permalink: /sig/hpc/
-director: Martin Stadtler
+director: Elsie Wahlig
 tech-lead: Renato Golin
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
 members_key: hpc_members
@@ -24,10 +24,7 @@ SVE enablement: Improving SVE support in GCC for more vectorisation cases, enabl
 
 Hardware deployment: Work in Linaro's own HPC lab for best-in-class stability & repeatability, close-to-production ennironment, upstream technology, vendor isolation.
 
-### Linaro HPC Upcoming Events and Resources from Previous Events: ###
-
-Arm HPC Workshop - Tokyo December 2017 - [Link to resources](/events/workshop/arm-hpc-japan-2017/#schedule)
-
-Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](/events/workshop/arm-hpc-santa-clara-2018/#resources)
-
-Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to event](/events/workshop/arm-hpc-japan-2017/)
+### Linaro HPC Upcoming Events and Resources from Previous Events:
+- Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to Event](/events/workshop/arm-hpc-asia-2019/#schedule)
+- Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](/events/workshop/arm-hpc-santa-clara-2018/#resources)
+- Arm HPC Workshop - Tokyo December 2017 - [Link to resources](/events/workshop/arm-hpc-japan-2017/#schedule)
