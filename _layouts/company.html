@@ -37,8 +37,18 @@ js-package: blog
         {% endfor %}
     {% endfor %}
 
-
-    {{page.title}} are {% for group in groups %}{% endfor %}
+<p>
+    {{page.title}} are
+    {% for group in groups %}
+        {% if forloop.last and forloop.length >= 2 %}
+            and {{group}}
+        {% elsif forloop.length == 2 %}
+            {{group}}
+        {% else %}
+            {{group}}, 
+        {% endif %}
+    {% endfor %}
+</p>
 
 
     {{content}}
