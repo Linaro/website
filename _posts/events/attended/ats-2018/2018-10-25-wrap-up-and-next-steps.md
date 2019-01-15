@@ -9,7 +9,6 @@ event: ats-2018
 date: '2018-10-25 01:00:00+00:00'
 image:
   featured: true
-  name: ats-2018-wrap-up.png
   path: /assets/images/content/ats-2018-wrap-up.png
 layout: resource-post
 title: 'Wrap Up and Next Steps'

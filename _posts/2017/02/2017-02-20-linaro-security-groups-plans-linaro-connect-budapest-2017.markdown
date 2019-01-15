@@ -12,10 +12,8 @@ excerpt: Linaro Connect is a great time for all security engineers to get togeth
   held daily dedicated to security topics as well as demos later in the week.   The
   team will also have daily hacking sessions taking place in the afternoon that all
   attendees at the event are welcome to come to.
-featured_image_name: LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
 image:
   featured: true
-  name: LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
   path: /assets/images/blog/LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
 layout: post
 link: http://connect.linaro.org/blog/linaro-security-groups-plans-linaro-connect-budapest-2017/

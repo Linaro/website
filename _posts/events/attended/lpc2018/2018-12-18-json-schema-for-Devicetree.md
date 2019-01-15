@@ -9,7 +9,6 @@ event: ats-2018
 date: '2018-10-25 01:00:00+00:00'
 image:
   featured: true
-  name: lpc2018-thumb.jpg
   path: /assets/images/content/lpc2018-thumb.jpg
 layout: resource-post
 title: 'json-schema for Devicetree'

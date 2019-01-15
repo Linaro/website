@@ -6,7 +6,7 @@ date: 2018-11-08 07:00:00+00:00
 description: >-
   Linaro Ltd, announced today that leading ASIC-based cryptocurrency mining hardware provider Bitmain has joined the 96Boards initiative as a Steering Committee member and has announced an initial 96Boards product, the Sophon BM1880 Edge Development Board (EDB).
 categories: News
-tags: Linaro, Arm, 96Boards, Bitmain, Steering Committee, Sophon, Open Source
+tags: Linaro, Arm, 96Boards, Bitmain, Steering Committee, Sophon, Open Source, Membership
 ---
 [Cambridge, UK; 8 November 2018] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that leading ASIC-based cryptocurrency mining hardware provider Bitmain has joined the 96Boards initiative as a Steering Committee member and has announced an initial 96Boards product, the Sophon BM1880 Edge Development Board (EDB).
 

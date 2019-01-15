@@ -15,7 +15,6 @@ keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, M
 image:
     featured: true
     path: /assets/images/blog/automotive-arm-ecosystem.png
-    name: automotive-arm-ecosystem.png
 layout: post
 ---
 
