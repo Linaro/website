@@ -100,6 +100,11 @@ defaults:
     values:
         layout: company
   - scope:
+        path: "_company/archived"
+        type: "company"
+    values:
+        archived: true
+  - scope:
         path: ""
         type: "authors"
     values:
