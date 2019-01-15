@@ -42,14 +42,13 @@ js-package: blog
     {% for group in groups %}
         {% if forloop.last and forloop.length >= 2 %}
             and {{group}}
-        {% elsif forloop.length == 2 %}
-            {{group}}
-        {% elsif  %}
-            {{group}}
-        {% else %}
+        {% elsif forloop.index != forloop.length and forloop.length > 2%}
             {{group}}, 
+        {% else %}
+            {{group}}
         {% endif %}
     {% endfor %}
+    members at Linaro.
 </p>
 
 
