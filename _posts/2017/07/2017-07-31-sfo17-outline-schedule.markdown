@@ -6,10 +6,8 @@ categories:
 - blog
 comments: false
 date: 2017-07-31 13:59:32
-featured_image_name: OutlineScheduleLinaroConnectSFO17.jpg
 image:
   featured: true
-  name: OutlineScheduleLinaroConnectSFO17.jpg
   path: /assets/images/blog/OutlineScheduleLinaroConnectSFO17.jpg
 layout: post
 link: http://connect.linaro.org/blog/sfo17-outline-schedule/

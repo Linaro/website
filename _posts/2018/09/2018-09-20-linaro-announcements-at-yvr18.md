@@ -9,7 +9,6 @@ categories: Blog
 tags: Linaro, Linaro Connect, Arm, Open Source, Linux, Kernel, Machine Learning, AI, Edge, Cloud Computing, Data Centre, IoT, Embedded, HPC
 image:
   featured: true
-  name: GroupPhotoYVR18.jpg
   path: /assets/images/blog/GroupPhotoYVR18.jpg
 ---
 Linaro Connect YVR18 has finally arrived!

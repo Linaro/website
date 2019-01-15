@@ -84,3 +84,13 @@ h1.mume-header ol li {
     font-weight: normal;
     margin-top: 10px;
 }
+#author-accordion .list-group-item {
+    position: relative;
+    overflow: auto;
+    display: block;
+    height:100%;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

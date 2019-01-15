@@ -10,7 +10,6 @@ keywords: Arm, Automotive, Ecosystem, Hardware, 96boards, 2017, CTO, CTO Blog
 image:
     featured: true
     path: /assets/images/blog/cto-2017-end-of-year.jpg
-    name: cto-2017-end-of-year.jpg
 ---
 ## What happened this year? 
 

@@ -9,10 +9,8 @@ date: 2017-03-07 02:00:51
 excerpt: See what happened during the first day of Linaro Connect Budapest 2017.  Watch
   the keynote, read about all the announcements and see all the sessions that took
   place.
-featured_image_name: HighlightsfromDayOneofLinaroConnectBudapest2017.jpg
 image:
   featured: true
-  name: HighlightsfromDayOneofLinaroConnectBudapest2017.jpg
   path: /assets/images/blog/HighlightsfromDayOneofLinaroConnectBudapest2017.jpg
 layout: post
 link: http://connect.linaro.org/blog/highlights-day-one-linaro-connect-budapest-2017/
