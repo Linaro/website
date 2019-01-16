@@ -30,7 +30,7 @@ js-package: blog
     {% for group in site.data.members %}
         {% for entry in group.members %}
             {% if entry.name == page.title %}
-                {% assign groupToAdd = group.membership_group_name %}
+                {% assign groupToAdd = group.membership_group_name | replace: "Members", "Member" %}
                 {% assign groups = groups | append: groupToAdd | append: "," %}
                 {% break %}
             {% endif %}
@@ -40,7 +40,7 @@ js-package: blog
 <p>
     {% assign num = groups | size | minus: 1 %}
     {% assign groups =  groups | slice: 0, num  | split: "," %}
-    {{page.title}} are
+    {{page.title}} is a 
     {% assign second_from_last_index = groups | size | minus: 1 %}
     {% for group in groups %}
         {% if forloop.last and forloop.length >= 2 %}
@@ -50,8 +50,7 @@ js-package: blog
         {% else %}
             {{group}}
         {% endif %}
-    {% endfor %}
-    of Linaro.
+    {% endfor %}.
 </p>
 
 <h3>About {{page.title}} </h3>
