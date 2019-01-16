@@ -8,6 +8,7 @@ permalink: /engineering/projects/lava/
 icon: lava-logo.png
 featured_video: https://www.youtube.com/embed/6jwYymfauik?feature=oembed
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPqZwWtTbWEDG8Mni_e4qtJ
+type: linaro
 ---
 Validation is key to the delivery of robust code and is an ongoing process involving multiple teams, covering four components:
 

@@ -65,9 +65,18 @@ Jon Humphreys is the director of Linux Core Product Development at Texas Instrum
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Rob Booth** / Linaro COO and Company Secretary
+### **Robert Booth** / Linaro Chief Operating Officer
 
-Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
+Rob brings a wealth of operational, commercial and financial experience
+gained in the Technology and Life Science sectors, in the UK and
+internationally, in environments characterized by rapid growth and change. He
+has a healthy combination of blue-chip multinational discipline, from holding
+senior positions in SmithKline, General Electric and Pharmacia, tempered by
+entrepreneurial flexibility and resourcefulness gained as CEO and CFO of
+several Cambridge UK start-ups, including as a founder of Synomics a
+Bioinformatics software engineering company. Rob is passionate about helping
+build companies and generating maximum value for all stakeholders.
+
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html image="/assets/images/people/Rob-Booth-72dpi1.jpg" class="linaro-profile-image" alt="Rob Booth Profile Photo"%}
