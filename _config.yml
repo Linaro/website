@@ -213,7 +213,7 @@ using_assets: true
 collections:
     company:
         output: true
-        permalink: /:collection/:name/
+        permalink: /membership/:name/
     core:
         output: true
         permalink: /:collection/:path/
