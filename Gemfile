@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 # Jekyll Theme
-gem 'jumbo-jekyll-theme', "3.5.2"
+gem 'jumbo-jekyll-theme', "3.5.3"
 # Jekyll Plugins
 group :jekyll_plugins do
    gem "jekyll-data"
