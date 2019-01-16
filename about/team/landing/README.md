@@ -27,22 +27,22 @@ Landing Teams also track the latest Arm technology and the work of the Linaro Wo
 
 <div class="row">
 <div class="col-sm-2" markdown="1">
-{% include image.html name="arm.jpg" alt="Arm member logo" url="/company/arm/"%}
+{% include image.html name="arm.jpg" alt="Arm member logo" url="/membership/arm/"%}
 </div>
 <div class="col-sm-2" markdown="1">
-{% include image.html name="broadcom.jpg" alt="BroadCom Member logo" url="/company/broadcom/"%}
+{% include image.html name="broadcom.jpg" alt="BroadCom Member logo" url="/membership/broadcom/"%}
 </div>
 <div class="col-sm-2" markdown="1">
-{% include image.html name="hisilicon.jpg" alt="Hisilicon member logo" url="/company/hisilicon/"%}
+{% include image.html name="hisilicon.jpg" alt="Hisilicon member logo" url="/membership/hisilicon/"%}
 </div>
 <div class="col-sm-2" markdown="1">
-{% include image.html name="st.jpg" alt="ST member logo" url="/company/st/"%}
+{% include image.html name="st.jpg" alt="ST member logo" url="/membership/st/"%}
 </div>
 <div class="col-sm-2" markdown="1">
-{% include image.html name="ti.jpg" alt="Texas Instruments member logo" url="/company/texas-instruments/"%}
+{% include image.html name="ti.jpg" alt="Texas Instruments member logo" url="/membership/texas-instruments/"%}
 </div>
 <div class="col-sm-2" markdown="1">
-{% include image.html name="quic.jpg" alt="Qualcomm Innovation Center Member logo" url="/company/quic/"%}
+{% include image.html name="quic.jpg" alt="Qualcomm Innovation Center Member logo" url="/membership/quic/"%}
 </div>
 
 </div>
