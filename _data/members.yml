@@ -310,7 +310,7 @@
       image: zte.jpg
       url: /membership/zte/
 - id: boards-sc
-  membership_group_name: 96Boards Steering Committee
+  membership_group_name: 96Boards Steering Committee Members
   image: 96boards-steering-committee.png
   url: https://www.96boards.org/membership/
   members:
