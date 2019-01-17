@@ -7,10 +7,8 @@ categories:
 comments: false
 date: 2017-01-31 14:39:28
 excerpt: LAS16 Playlist
-featured_image_name: LAS16Playlist.jpg
 image:
   featured: true
-  name: LAS16Playlist.jpg
   path: /assets/images/blog/LAS16Playlist.jpg
 layout: post
 link: http://connect.linaro.org/playlist/las16/

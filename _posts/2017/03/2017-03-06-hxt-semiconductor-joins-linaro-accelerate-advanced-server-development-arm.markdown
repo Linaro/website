@@ -16,6 +16,7 @@ tags:
 - Linaro
 - Linaro Connect
 - linaro members
+- Membership
 title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
   Arm
 wordpress_id: 12223

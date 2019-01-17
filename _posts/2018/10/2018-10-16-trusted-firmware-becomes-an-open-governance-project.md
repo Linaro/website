@@ -8,7 +8,6 @@ description: >-
 categories: Blog
 image:
   featured: true
-  name: trusted-firmware.jpg
   path: /assets/images/blog/trusted-firmware.jpg
 tags: Linaro, Arm, Synquacer, Machine Intelligence, Machine Learning, Arm NN, 96Boards, MiniNodes, Developer Box, Socionext, open source
 ---

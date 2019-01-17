@@ -6,6 +6,7 @@ keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 icon: performance-logo.png
 icon_hd: performance-logo-hd.png
 permalink: /engineering/projects/performance/
+type: linaro
 ---
 The Linaro Performance Project was launched in 2014 to connect engineers with source code modules that included Arm assembly language that might have needed to be ported and did need to be tested to see if they would work on new Arm 64-bit processors (Aarch64). These source code modules were outside the remit of Linaro's engineering teams and the idea was to incentivize engineers in the community to work on these modules.
 

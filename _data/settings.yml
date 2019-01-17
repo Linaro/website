@@ -8,6 +8,7 @@ http2: true
 http2_resources:
   - rel: dns-prefetch
     href_list: https://www.google-analytics.com/
+    crossorigin: true
   - rel: preload
     as: font
     type: font/woff2
@@ -136,4 +137,4 @@ disqus:
     enabled: true
     shortname: Linaro
 # Placeholder for Missing Images
-placeholder: linaro-logo.png
+placeholder: /assets/images/content/linaro-logo.png

@@ -9,6 +9,8 @@ destination: _site
 theme: jumbo-jekyll-theme
 # Permalink for the blog posts of the Jekyll website.
 permalink: /:categories/:title/
+# Jekyll Responsive Images dir
+blog_images_dir: assets/images/blog/
 # Syntax highlighter for 96boards blog
 highlighter: rouge
 # Markdown version
@@ -97,6 +99,11 @@ defaults:
         type: "company"
     values:
         layout: company
+  - scope:
+        path: "_company/archived"
+        type: "company"
+    values:
+        archived: true
   - scope:
         path: ""
         type: "authors"
@@ -206,7 +213,7 @@ using_assets: true
 collections:
     company:
         output: true
-        permalink: /:collection/:name/
+        permalink: /membership/:name/
     core:
         output: true
         permalink: /:collection/:path/
@@ -252,20 +259,36 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
+          element: "select"
           value: "post"
+          options:
+            - name: "Event Index Page"
+              value: "event-index"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
       - name: "title"
         field:
           element: "text"
-          label: "Page Title"
+          label: "Post Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          placeholder: "Please add a suitable description for your post."
+          label: "Post Description"
           value: ""
       - name: "image"
         field:
           element: "text"
-          label: "Set your featured image here"
-          value:
-            path: /assets/images/name-of-your-image.jpg
-            featured: true
+          label: "Set the path to your featured image here. This will be used for the post image banner and the social media thumbnails."
+          placeholder: "/assets/images/blog/your-uploaded-image.png"
+          value: ""
       - name: "comments"
         field:
           element: "checkbox"
@@ -282,9 +305,58 @@ prose:
           label: "Add Post Tags"
           placeholder: "Choose Tags"
           options: https://www.linaro.org/assets/json/tags.json?callback=tags
-      - name: "category"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Select Category"
           placeholder: "Choose Category"
           options: https://www.linaro.org/assets/json/categories.json?callback=categories
+    _posts/events:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          placeholder: "Please add a suitable description for your post."
+          label: "Post Description"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Set the path to your featured image here. This will be used for the post image banner and the social media thumbnails."
+          placeholder: "/assets/images/blog/your-uploaded-image.png"
+          value: ""
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments Toggle"
+          value: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Post Tags"
+          placeholder: "Choose Tags"
+          options: https://www.linaro.org/assets/json/tags.json?callback=tags
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options: https://www.linaro.org/assets/json/categories.json?callback=categories
+  

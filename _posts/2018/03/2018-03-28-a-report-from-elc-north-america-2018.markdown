@@ -12,7 +12,6 @@ keywords: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, 
 image:
     featured: true
     path: /assets/images/blog/elc-image.jpg 
-    name: elc-image.jpg 
 layout: post
 ---
 Participating in ELC North America 2018 has been productive and interesting, both for the main goal of my presentation and for hallway discussions.

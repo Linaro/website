@@ -7,7 +7,7 @@ keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, table
 permalink: /engineering/groups/lcg/
 group_short_name: lmg
 group_long_name: Linaro Mobile Group
-icon: LCG col.svg
+icon: LCG col.png
 director: Tom Gall
 related_projects:
   - "1"

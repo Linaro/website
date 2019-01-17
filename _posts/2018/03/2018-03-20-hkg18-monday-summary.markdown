@@ -12,7 +12,6 @@ keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 
 image:
     featured: true
     path: /assets/images/blog/hkg18-group-photo-optimized.jpg
-    name: hkg18-group-photo-optimized.jpg
 layout: post
 ---
 # Highlights of the first day at Linaro Connect HKG18

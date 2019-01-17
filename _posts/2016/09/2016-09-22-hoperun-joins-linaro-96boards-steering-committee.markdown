@@ -26,6 +26,7 @@ tags:
 - Open Source
 - Opensource
 - software
+- Membership
 - Steering Committee
 title: "HopeRun\_joins\_Linaro\_96Boards Steering Committee"
 wordpress_id: 11582

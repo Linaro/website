@@ -6,6 +6,7 @@ description: |-
 keywords: LAVA, KernelCI, Linux, Kernel, CI, Continuous, Integration, specification, standards, upstream, rebuild, check
 permalink: /engineering/projects/kernelci/
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMsm3BVTtpDdRHUmeZTOSiW&playnext=1
+type: linaro
 ---
 The importance of testing and continuous integration was recognized in the first year of Linaro. A team was established to build [Linaro's Automated Validation Architecture (LAVA)](/engineering/projects/lava/) and the engineering teams have used member hardware, virtual models and cloud services in this framework to test their work from the beginning.
 
