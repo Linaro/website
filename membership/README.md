@@ -18,7 +18,7 @@ jumbotron:
 ---
 <div class="row padded-row testimonials" id="key-factors">
     <div class="container">
-        <h2 class="text-center fly m-b-30">This is what our members have to say</h2>
+        <h2 class="text-center fly m-b-30">The value of Linaro and open source collaboration</h2>
         <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly text-center testimonial-col">
             <div class="col-xs-12 no-padding">
                 <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/jon-masters-screen.png" preload="none">

@@ -3,7 +3,7 @@ title: Tinno
 company_image: tinno.jpg
 description: |-
     Shenzhen Tinno Mobile Technology Company Ltd is one of the most famous mobile phone manufacturers in China.
-archived: True
+archived: true
 ---
 Shenzhen Tinno Mobile Technology Company Ltd is one of the most famous mobile phone manufacturers in China. Established in 2002, the company’s headquarters are located in Shenzhen, with two factories in DongGuan specializing in designing and manufacturing mobile phones. Tinno Mobile has complete in-house capabilities including strong R&D, manufacturing and worldwide sales. The company is the manufacturer of the first double GSM double online mobile phone in the world, with its own dual SIM mobile phone core technology patent and extensive experience in this area.
 

@@ -1,158 +1,168 @@
 - id: core
+  url: /membership/
   membership_group_name: Core Members
   text: |-
       Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro’s activities.
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: QuIC
       image: quic.jpg
-      url: /company/quic/
+      url: /membership/quic/
 - id: club
   membership_group_name: Club Members
+  url: /membership/
   text: |-
     Club membership is the starting point for most of Arm’s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.
   members:
     - name: Google
       image: google.png
-      url: /company/google/
+      url: /membership/google/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
     - name: UniSoc
       image: unisoc.jpg
-      url: /company/unisoc/
+      url: /membership/unisoc/
     - name: St
       image: st.jpg
-      url: /company/st/
+      url: /membership/st/
     - name: Texas Instruments
       image: ti.jpg
-      url: /company/texas-instruments/
+      url: /membership/texas-instruments/
     - name: ZTE
       image: zte.jpg
-      url: /company/zte/
+      url: /membership/zte/
 - id: group
   membership_group_name: Group Members
+  url: /membership/
   text: |-
     Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro’s work in that segment. Below are lists of the members of each group.
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Marvell
       image: marvell.png
-      url: /company/marvell/
+      url: /membership/marvell/
     - name: Comcast
       image: comcast.jpg
-      url: /company/comcast/
+      url: /membership/comcast/
     - name: Cypress
       image: cypress.png
-      url: /company/cypress/
+      url: /membership/cypress/
     - name: Fujitsu
       image: fujitsu.jpg
-      url: /company/fujitsu/
+      url: /membership/fujitsu/
     - name: Google
       image: google.png
-      url: /company/google/
+      url: /membership/google/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: HXT
       image: hxt.png
-      url: /company/hxt/
+      url: /membership/hxt/
     - name: Kylin
       image: kylin.jpg
-      url: /company/kylin/
+      url: /membership/kylin/
     - name: Nokia
       image: nokia.jpg
-      url: /company/nokia/
+      url: /membership/nokia/
     - name: NXP
       image: nxp.jpg
-      url: /company/nxp/
+      url: /membership/nxp/
     - name: Qualcomm Datacenter Technologies
       image: QualcommDatacenter.png
-      url: /company/qualcomm-datacenter-technologies/
+      url: /membership/qualcomm-datacenter-technologies/
     - name: QuIC
       image: quic.jpg
-      url: /company/quic/
+      url: /membership/quic/
     - name: Red Hat
       image: redhat.jpg
-      url: /company/red-hat/
+      url: /membership/red-hat/
     - name: Samsung
       image: samsung.jpg
-      url: /company/samsung/
+      url: /membership/samsung/
     - name: ZTE
       image: zte.jpg
-      url: /company/zte/
+      url: /membership/zte/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
     - name: St
       image: st.jpg
-      url: /company/st/
+      url: /membership/st/
     - name: Texas Instruments
       image: ti.jpg
-      url: /company/texas-instruments/
+      url: /membership/texas-instruments/
     - name: UniSoc
       image: unisoc.jpg
-      url: /company/unisoc/
+      url: /membership/unisoc/
     - name: Xilinx
       image: xilinx.jpg
-      url: /company/xilinx/
+      url: /membership/xilinx/
 - id: associate
-  membership_group_name: Associates  
+  membership_group_name: Associates
+  url: /membership/  
   text: |-
     Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.
   members:
     - name: Runtime
       image: runtime.png
-      url: /company/runtime/
+      url: /membership/runtime/
 - id: community
   membership_group_name: Community Members
+  url: /membership/  
   members:
     - name: IBM
       image: ibm.jpg
-      url: /company/ibm/
+      url: /membership/ibm/
     - name: The Linux Foundation
       image: linux_foundation.jpg
-      url: /company/linux-foundation/
+      url: /membership/linux-foundation/
     - name: Foundries.io
       image: foundries-io.png
-      url: /company/foundries-io/
+      url: /membership/foundries-io/
 - id: odp-sig
   membership_group_name: ODP SIG Members
+  url: /membership/
   text: |-
       Companies interested in working together on an open-source, cross-platform set of application programming interfaces (APIs) for the networking software defined data plane are invited to contact Linaro with the form below.
   members:
     - name: Marvell
       image: marvell.png
-      url: /company/marvell/
+      url: /membership/marvell/
     - name: Nokia
       image: nokia.jpg
-      url: /company/nokia/
+      url: /membership/nokia/
 - id: ledge-sig
+  url: /engineering/groups/ledge/
   membership_group_name: LEDGE SIG Members
   text: |-
       LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. 
       
       Companies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.
 - id: mi-incubator
+  url: /engineering/incubators/machine-intelligence/
   membership_group_name: MI Incubator Members
   text: |-
       The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.
 
       Companies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.
 - id: autonomous-vehicles-incubator
+  url: /engineering/incubators/autonomous-vehicles/
   membership_group_name: Autonomous Vehicles Incubator Members
   text: |-
       Linaro’s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.
       
       Companies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.
 - id: hpc-sig
+  url: /sig/hpc/
   membership_group_name: HPC SIG Members
   text: |-
       The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. 
@@ -163,37 +173,38 @@
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Marvell
       image: marvell.png
-      url: /company/marvell/
+      url: /membership/marvell/
     - name: Fujitsu
       image: fujitsu.jpg
-      url: /company/fujitsu/
+      url: /membership/fujitsu/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: HXT
       image: hxt.png
-      url: /company/hxt/
+      url: /membership/hxt/
     - name: Qualcomm Datacenter Technologies
       image: QualcommDatacenter.png
-      url: /company/qualcomm-datacenter-technologies/
+      url: /membership/qualcomm-datacenter-technologies/
     - name: Red Hat
       image: redhat.jpg
-      url: /company/red-hat/
+      url: /membership/red-hat/
     - name: Sandia National Laboratories
       image: sandia.png
-      url: /company/sandia-national-laboratories/
+      url: /membership/sandia-national-laboratories/
   advisory_board:
     - name: CERN
       image: cern.png
       url: https://home.cern/
     - name: Riken
       image: riken.png
-      url: /company/riken/
+      url: /membership/riken/
 - id: ldcg
   membership_group_name: LDCG Members
+  url: /engineering/groups/ldcg/
   text: |-
       The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.
       
@@ -201,33 +212,34 @@
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Marvell
       image: marvell.png
-      url: /company/marvell/
+      url: /membership/marvell/
     - name: Fujitsu
       image: fujitsu.jpg
-      url: /company/fujitsu/
+      url: /membership/fujitsu/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: HXT
       image: hxt.png
-      url: /company/hxt/
+      url: /membership/hxt/
     - name: Kylin
       image: kylin.jpg
-      url: /company/kylin/
+      url: /membership/kylin/
     - name: Qualcomm Datacenter Technologies
       image: QualcommDatacenter.png
-      url: /company/qualcomm-datacenter-technologies/
+      url: /membership/qualcomm-datacenter-technologies/
     - name: Red Hat
       image: redhat.jpg
-      url: /company/red-hat/
+      url: /membership/red-hat/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
 - id: lcg
   membership_group_name: LCG Members
+  url: /engineering/groups/lcg/
   text: |-
       Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. 
       There are three engineering teams that work under the direction of the LCG Steering Committee
@@ -237,33 +249,34 @@
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Comcast
       image: comcast.jpg
-      url: /company/comcast/
+      url: /membership/comcast/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: NXP
       image: nxp.jpg
-      url: /company/nxp/
+      url: /membership/nxp/
     - name: QuIC
       image: quic.jpg
-      url: /company/quic/
+      url: /membership/quic/
     - name: Samsung
       image: samsung.jpg
-      url: /company/samsung/
+      url: /membership/samsung/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
     - name: Texas Instruments
       image: ti.jpg
-      url: /company/texas-instruments/
+      url: /membership/texas-instruments/
     - name: ZTE
       image: zte.jpg
-      url: /company/zte/
+      url: /membership/zte/
 - id: lite
   membership_group_name: LITE Members
+  url: /engineering/groups/lite/
   text: |-
       Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. There are three engineering teams that work under the direction of the LCG Steering Committee: ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
       
@@ -271,212 +284,220 @@
   members:
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Cypress
       image: cypress.png
-      url: /company/cypress/
+      url: /membership/cypress/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: NXP
       image: nxp.jpg
-      url: /company/nxp/
+      url: /membership/nxp/
     - name: St
       image: st.jpg
-      url: /company/st/
+      url: /membership/st/
     - name: Texas Instruments
       image: ti.jpg
-      url: /company/texas-instruments/
+      url: /membership/texas-instruments/
     - name: UniSoc
       image: unisoc.jpg
-      url: /company/unisoc/
+      url: /membership/unisoc/
     - name: Xilinx
       image: xilinx.jpg
-      url: /company/xilinx/
+      url: /membership/xilinx/
     - name: ZTE
       image: zte.jpg
-      url: /company/zte/
+      url: /membership/zte/
 - id: boards-sc
-  membership_group_name: 96Boards Steering Committee
+  membership_group_name: 96Boards Steering Committee Members
+  image: 96boards-steering-committee.png
+  url: https://www.96boards.org/membership/
   members:
-    - name: Actions
+    - name: Actions Semiconductor
       image: actions.jpg
-      url: /company/actions/
+      url: /membership/actions/
     - name: Advantech
       image: advantech.jpg
-      url: /company/advantech/
+      url: /membership/advantech/
     - name: Arm
       image: arm.jpg
-      url: /company/arm/
+      url: /membership/arm/
     - name: Arrow Electronics
       image: arrow.jpg
-      url: /company/arrow/
+      url: /membership/arrow/
     - name: Analog Devices
       image: analog-devices.gif
-      url: /company/analog-devices/
-    - name: Bitmain
+      url: /membership/analog-devices/
+    - name: BITMAIN
       image: bitmain_logo.png
       padded: padded-member-md
-      url: /company/bitmain/
+      url: /membership/bitmain/
     - name: Google
       image: google.png
-      url: /company/google/
+      url: /membership/google/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: Hoperun
       image: hoperun.jpg
-      url: /company/hoperun/
+      url: /membership/hoperun/
     - name: NXP
       image: nxp.jpg
-      url: /company/nxp/
+      url: /membership/nxp/
     - name: Red Hat
       image: redhat.jpg
-      url: /company/red-hat/
+      url: /membership/red-hat/
     - name: Rockchip
       image: rockchip.png
-      url: /company/rockchip/
+      url: /membership/rockchip/
     - name: ST
       image: st.jpg
-      url: /company/st/
+      url: /membership/st/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
     - name: SoftBank
       image: softbank.jpg
-      url: /company/softbank/
+      url: /membership/softbank/
     - name: Texas Instruments
       image: ti.jpg
-      url: /company/texas-instruments/
+      url: /membership/texas-instruments/
     - name: Tier IV
       image: tier4.png
-      url: /company/tier4/
+      url: /membership/tier4/
     - name: ThunderSoft
       image: thundersoft.jpg
-      url: /company/thundersoft/
+      url: /membership/thundersoft/
     - name: UniSoc
       image: unisoc.jpg
-      url: /company/unisoc/
+      url: /membership/unisoc/
     - name: Xilinx
       image: xilinx.jpg
-      url: /company/xilinx/
+      url: /membership/xilinx/
 - id: boards-mp
   membership_group_name: 96Boards Manufacturing Partners
+  image: 96boards-partner.png
+  url: https://www.96boards.org/membership/
   members:
     - name: Archer Mind
       image: archermind.jpg
-      url: /company/archermind/
+      url: /membership/archermind/
     - name: Arrow Electronics
       image: arrow.jpg
-      url: /company/arrow/
+      url: /membership/arrow/
     - name: Avnet
       image: Avnet.png
-      url: /company/avnet/
+      url: /membership/avnet/
     - name: Black Whale Technology
       image: Blackwhale.png
-      url: /company/blackwhale/
-    - name: BPI
+      url: /membership/blackwhale/
+    - name: BiPai
       image: bpi.jpg
-      url: /company/bipai/
+      url: /membership/bipai/
     - name: Deltavision
       image: deltavision.png
-      url: /company/deltavision/
+      url: /membership/deltavision/
     - name: Element 14
       image: element14.png
-      url: /company/element14/
+      url: /membership/element14/
     - name: Fujitsu Electronics
       image: fujitsu-electronics.png
-      url: /company/fujitsu-electronics/
-    - name: Fab to Lab
+      url: /membership/fujitsu-electronics/
+    - name: Fab.to.Lab
       image: fab-to-lab.jpg
-      url: /company/fab-to-lab/
+      url: /membership/fab-to-lab/
     - name: Gigabyte
       image: gigabyte.jpg
-      url: /company/gigabyte/
+      url: /membership/gigabyte/
     - name: Global Scale
       image: GlobalScale.jpg
-      url: /company/globalscale/
+      url: /membership/globalscale/
     - name: Geniatech
       image: geniatech.jpg
-      url: /company/geniatech/
+      url: /membership/geniatech/
     - name: Gumstix
       image: gumstix.jpg
-      url: /company/gumstix/
+      url: /membership/gumstix/
     - name: Hoperun
       image: hoperun.jpg
-      url: /company/hoperun/
+      url: /membership/hoperun/
     - name: Huaqin
       image: huaqin.jpg
-      url: /company/huaqin/
+      url: /membership/huaqin/
     - name: LeMaker
       image: lemaker.jpg
-      url: /company/lemaker/
+      url: /membership/lemaker/
     - name: NovTech
       image: novtech.jpg
-      url: /company/novtech/
+      url: /membership/novtech/
     - name: Seeed
       image: seeed.jpg
-      url: /company/seeed/
+      url: /membership/seeed/
     - name: Shapedmedia
       image: shapedmedia.png
-      url: /company/shapedmedia/
+      url: /membership/shapedmedia/
     - name: Shiratech
       image: shiratech.png
-      url: /company/shiratech/
+      url: /membership/shiratech/
     - name: ThunderSoft
       image: thundersoft.jpg
-      url: /company/thundersoft/
+      url: /membership/thundersoft/
     - name: ToCoding
       image: tocoding.jpg
-      url: /company/tocoding/
+      url: /membership/tocoding/
     - name: UcRobotics
       image: ucrobotics.jpg
-      url: /company/ucrobotics/
+      url: /membership/ucrobotics/
     - name: vamrs
       image: vamrs.jpg
-      url: /company/vamrs/
+      url: /membership/vamrs/
     - name: Witstek
       image: witstek.png
-      url: /company/witstek/
+      url: /membership/witstek/
     - name: Xunlong
       image: xunlong.jpg
-      url: /company/xunlong/
+      url: /membership/xunlong/
 - id: boards-mezzanine
   membership_group_name: 96Boards Mezzanine Partners
+  image: 96boards-mezzanine.png
+  url: https://www.96boards.org/membership/
   members:
-    - name: Qwerty
+    - name: QWERTY Embedded Design
       image: qwerty.jpg
-      url: /company/qwerty/
+      url: /membership/qwerty/
     - name: Rohm
       image: rohm.jpg
-      url: /company/rohm/
+      url: /membership/rohm/
 - id: boards-ai
   membership_group_name: 96Boards AI Partners
+  image: 96boards-ai.png
+  url: https://www.96boards.org/membership/
   members:
     - name: Arrow Electronics
       image: arrow.jpg
-      url: /company/arrow/
+      url: /membership/arrow/
     - name: Avnet
       image: Avnet.png
-      url: /company/avnet/
+      url: /membership/avnet/
     - name: Hoperun
       image: hoperun.jpg
-      url: /company/hoperun/
+      url: /membership/hoperun/
     - name: Hisilicon
       image: hisilicon.jpg
-      url: /company/hisilicon/
+      url: /membership/hisilicon/
     - name: QuIC
       image: quic.jpg
-      url: /company/quic/
+      url: /membership/quic/
     - name: Rockchip
       image: rockchip.png
-      url: /company/rockchip/
+      url: /membership/rockchip/
     - name: Socionext
       image: socionext.jpg
-      url: /company/socionext/
+      url: /membership/socionext/
     - name: Xilinx
       image: xilinx.jpg
-      url: /company/xilinx/
+      url: /membership/xilinx/
     - name: vamrs
       image: vamrs.jpg
-      url: /company/vamrs/
+      url: /membership/vamrs/
