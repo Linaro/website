@@ -10,4 +10,4 @@ related_projects:
   - "4"
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib
 ---
-{% remote_page  https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG%20Farm %}
+{% remote_page https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm %}
