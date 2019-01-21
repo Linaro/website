@@ -66,7 +66,7 @@
   url: https://www.opencompute.org/
 - name: Apache Bigtop
   image: apache-bigtop.png
-  url: https://www.opencompute.org/
+  url: http://bigtop.apache.org/
 - name: Lua
   image: lua.png
   url: https://www.lua.org/
