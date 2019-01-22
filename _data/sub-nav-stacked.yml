@@ -23,6 +23,8 @@ pages:
         sub-tabs:
             - title: EAS
               url: /engineering/core/arm-power-management/eas/
+            - title: PMWG Farm
+              url: /engineering/core/arm-power-management/pmwg-farm/
       -
         title: Security
         url: /engineering/core/security/
