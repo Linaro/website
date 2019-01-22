@@ -20,5 +20,5 @@ speakers:
   job-title: 
   name: Yutaka Ishikawa
 youtube_video_url: https://www.youtube.com/watch?v=xhzlV91l-zU&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=12&t=0s
-amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-asia-2019/slides/SystemSoftwareforArmv8-AwithSVE2.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/SystemSoftwareforArmv8-AwithSVE2.pdf
 ---

@@ -20,5 +20,5 @@ speakers:
   job-title: 
   name: Mohamed Wahib
 youtube_video_url: https://www.youtube.com/watch?v=QffOf5o1_uE&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=13&t=0s
-amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-asia-2019/slides/DeepLearningFrameworksPortabilitySurvey_Post-Kperspective3.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/DeepLearningFrameworksPortabilitySurvey_Post-Kperspective3.pdf
 ---

@@ -20,5 +20,5 @@ speakers:
   job-title: 
   name: Shinji Sumimoto, Sr. Architect
 youtube_video_url: https://www.youtube.com/watch?v=mukz1rkFETk&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=10&t=0s
-amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-asia-2019/slides/TheFirstSVEEnabledArmProcessor_A64FXandBuildingupArmHPCEcosystem5.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/TheFirstSVEEnabledArmProcessor_A64FXandBuildingupArmHPCEcosystem5.pdf
 ---
