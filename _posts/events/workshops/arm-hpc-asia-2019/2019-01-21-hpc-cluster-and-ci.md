@@ -1,0 +1,22 @@
+---
+author: linaro
+categories:
+- events
+- workshop
+- arm-hpc-2019
+comments: false
+event: arm-hpc-2019
+date: '2019-01-21 08:00:00+00:00'
+image:
+  featured: true
+  path: /assets/images/content/hpc-asia-2019-share-image.png
+layout: resource-post
+title: 'HPC Cluster and CI'
+speakers:
+- biography: '""'
+  company: Linaro
+  job-title: 
+  name:  Renato Golin & Baptiste Gerondeau
+youtube_video_url: https://www.youtube.com/watch?v=axQ_gYET7jA&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=8&t=0s
+amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/slides/HPCClusterandCI8.pdf
+---
