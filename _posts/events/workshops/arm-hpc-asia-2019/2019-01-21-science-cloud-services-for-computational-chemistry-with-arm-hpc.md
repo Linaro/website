@@ -3,9 +3,9 @@ author: linaro
 categories:
 - events
 - workshop
-- arm-hpc-2019
+- arm-hpc-asia-2019
 comments: false
-event: arm-hpc-2019
+event: arm-hpc-asia-2019
 date: '2019-01-21 07:00:00+00:00'
 slot: 11:20	- 11:45
 image:
