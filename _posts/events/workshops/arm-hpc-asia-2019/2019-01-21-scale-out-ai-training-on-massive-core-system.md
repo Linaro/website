@@ -7,6 +7,7 @@ categories:
 comments: false
 event: arm-hpc-2019
 date: '2019-01-21 11:40:00+00:00'
+slot: 15:50	- 16:10
 image:
   featured: true
   path: /assets/images/content/scale-out-ai-training-on-massive-core-system.jpg

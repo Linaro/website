@@ -7,6 +7,7 @@ categories:
 comments: false
 event: arm-hpc-2019
 date: '2019-01-21 11:20:00+00:00'
+slot: 15:10 - 15:30
 image:
   featured: true
   path: /assets/images/content/end-to-end-deep-learning-solution-on-arm.jpg

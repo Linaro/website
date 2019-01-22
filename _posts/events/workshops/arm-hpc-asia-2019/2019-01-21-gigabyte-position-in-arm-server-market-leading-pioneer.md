@@ -7,6 +7,7 @@ categories:
 comments: false
 event: arm-hpc-2019
 date: '2019-01-21 11:30:00+00:00'
+slot: 15:30	- 15:50
 image:
   featured: true
   path: /assets/images/content/gigabyte-position-in-arm-server-market-leading-pioneer.jpg

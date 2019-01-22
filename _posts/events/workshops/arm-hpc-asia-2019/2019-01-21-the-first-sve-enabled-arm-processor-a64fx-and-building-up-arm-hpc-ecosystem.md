@@ -7,6 +7,7 @@ categories:
 comments: false
 event: arm-hpc-2019
 date: '2019-01-21 05:00:00+00:00'
+slot: 10:30	- 10:55
 image:
   featured: true
   path: /assets/images/content/the-first-sve-enabled-arm-processor-a64fx-and-building-up-arm-hpc-ecosystem.jpg
