@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 11:20:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/end-to-end-deep-learning-solution-on-arm.jpg
 layout: resource-post
 title: 'End to End Deep Learning Solution on Arm'
 speakers:

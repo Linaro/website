@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 11:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/the-new-generation-of-phytiums-64cores-processor-and-ecosystem.jpg
 layout: resource-post
 title: 'The New Generation of Phytium‘s 64Cores Processor and Ecosystem'
 speakers:

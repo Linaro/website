@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 10:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/transforming-hpc-with-huawei-arm-hpc-solution.jpg
 layout: resource-post
 title: 'Transforming HPC with Huawei ARM HPC Solution'
 speakers:

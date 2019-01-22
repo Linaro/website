@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 11:30:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/gigabyte-position-in-arm-server-market-leading-pioneer.jpg
 layout: resource-post
 title: 'GIGABYTE Position in ARM Server Market - Leading Pioneer'
 speakers:

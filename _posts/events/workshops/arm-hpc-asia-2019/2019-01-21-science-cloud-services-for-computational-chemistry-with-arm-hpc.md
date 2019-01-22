@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 07:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/science-cloud-services-for-computational-chemistry-with-arm-hpc.jpg
 layout: resource-post
 title: 'Science Cloud services for Computational Chemistry with Arm HPC'
 speakers:

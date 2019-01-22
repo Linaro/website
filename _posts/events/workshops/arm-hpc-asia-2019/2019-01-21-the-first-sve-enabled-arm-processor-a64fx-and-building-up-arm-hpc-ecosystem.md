@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 05:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/the-first-sve-enabled-arm-processor-a64fx-and-building-up-arm-hpc-ecosystem.jpg
 layout: resource-post
 title: 'The First SVE Enabled Arm Processor: A64FX and Building up Arm HPC Ecosystem'
 speakers:

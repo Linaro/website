@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 02:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/system-software-for-armv8-with-sve.jpg
 layout: resource-post
 title: 'System Software for Armv8 with SVE'
 speakers:

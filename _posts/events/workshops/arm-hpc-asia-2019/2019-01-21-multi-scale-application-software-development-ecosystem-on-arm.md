@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 09:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/multi-scale-application-software-development-ecosystem-on-arm.jpg
 layout: resource-post
 title: 'Multi-scale Application Software Development Ecosystem on ARM'
 speakers:

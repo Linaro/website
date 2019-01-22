@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 11:40:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/scale-out-ai-training-on-massive-core-system.jpg
 layout: resource-post
 title: 'Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC'
 speakers:

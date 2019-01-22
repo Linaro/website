@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 03:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/deep-learning-frameworks-portability-survey-post-k-perspective.jpg
 layout: resource-post
 title: 'Deep Learning Frameworks Portability Survey: Post-K perspective'
 speakers:

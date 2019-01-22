@@ -9,7 +9,7 @@ event: arm-hpc-2019
 date: '2019-01-21 08:00:00+00:00'
 image:
   featured: true
-  path: /assets/images/content/hpc-asia-2019-share-image.png
+  path: /assets/images/content/hpc-cluster-and-ci.jpg
 layout: resource-post
 title: 'HPC Cluster and CI'
 speakers:
