@@ -20,5 +20,5 @@ speakers:
   job-title: 
   name: Jill Guo
 youtube_video_url: https://www.youtube.com/watch?v=6xdgQPXdrXY&index=2&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&t=0s
-amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-asia-2019/slides/1.+Introduction+to+workshop+(Jill+Guo%2C+Linaro).pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/Introductiontoworkshop1.pdf
 ---
