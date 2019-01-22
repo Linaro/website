@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/scale-out-ai-training-on-massive-core-system.jpg
 layout: resource-post
 title: 'Scale-out AI Training on Massive Core System: from HPC to Fabric-based SOC'
+tag: resource
 speakers:
 - biography: '""'
   company: Quantum Cloud

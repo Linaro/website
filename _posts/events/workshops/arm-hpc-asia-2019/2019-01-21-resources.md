@@ -21,17 +21,17 @@ jumbotron:
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
       <li role="presentation">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#welcome" role="tab" data-toggle="tab">
+        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#welcome">
             Welcome
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#speakers" role="tab" data-toggle="tab">
+        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#speakers">
             Speakers
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#schedule-tab" role="tab" data-toggle="tab">
+        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#schedule-tab">
             Schedule
         </a>
       </li>
@@ -44,9 +44,9 @@ jumbotron:
 <div class="tab-content" id="tabbed_nav_content"><!--Start Tab Content-->
 
 <!-- Start Resources Tab Panel -->
-<div role="tabpanel" class="tab-pane tab-pane-legal" id="resources">
+<div role="tabpanel" class="tab-pane tab-pane-legal active" id="resources">
 <div class="row events-row">
-    {% assign event_posts = site.categories["arm-hpc-asia-2019"] | sort: 'date' %}
+    {% assign event_posts = site.categories["arm-hpc-asia-2019"] | where: 'tag', 'resource' | sort: 'date' %}
     {% for post in event_posts %}
         <div class="col-xs-12 col-sm-4">
             <a href="{{post.url}}">

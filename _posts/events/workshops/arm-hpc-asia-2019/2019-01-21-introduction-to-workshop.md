@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/introduction-to-workshop.jpg
 layout: resource-post
 title: 'Introduction to Workshop (Jill Guo, Linaro)'
+tag: resource
 speakers:
 - biography: '""'
   company: Linaro

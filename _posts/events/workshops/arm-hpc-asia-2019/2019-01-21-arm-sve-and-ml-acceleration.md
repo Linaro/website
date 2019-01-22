@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/arm-sve-and-ml-acceleration.jpg
 layout: resource-post
 title: 'Arm SVE and ML acceleration'
+tag: resource
 speakers:
 - biography: '""'
   company: Arm

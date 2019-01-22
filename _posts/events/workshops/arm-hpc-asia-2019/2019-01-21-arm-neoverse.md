@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/arm-neoverse.jpg
 layout: resource-post
 title: 'Arm Neoverse'
+tag: resource
 speakers:
 - biography: '""'
   company: Arm

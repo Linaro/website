@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/end-to-end-deep-learning-solution-on-arm.jpg
 layout: resource-post
 title: 'End to End Deep Learning Solution on Arm'
+tag: resource
 speakers:
 - biography: '""'
   company: Linaro

@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/system-software-for-armv8-with-sve.jpg
 layout: resource-post
 title: 'System Software for Armv8 with SVE'
+tag: resource
 speakers:
 - biography: '""'
   company: RIKEN-CCS_AIST

@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/benchmarking-huawei-arm-multi-core-processors-for-hpc-workloads.jpg
 layout: resource-post
 title: 'Benchmarking Huawei ARM Multi-Core Processors for HPC workloads'
+tag: resource
 speakers:
 - biography: '""'
   company: Shanghai JiaoTong University

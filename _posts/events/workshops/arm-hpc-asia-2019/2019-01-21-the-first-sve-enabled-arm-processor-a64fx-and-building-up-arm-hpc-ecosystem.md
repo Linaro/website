@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/the-first-sve-enabled-arm-processor-a64fx-and-building-up-arm-hpc-ecosystem.jpg
 layout: resource-post
 title: 'The First SVE Enabled Arm Processor: A64FX and Building up Arm HPC Ecosystem'
+tag: resource
 speakers:
 - biography: '""'
   company: Fujitsu

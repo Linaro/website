@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/multi-scale-application-software-development-ecosystem-on-arm.jpg
 layout: resource-post
 title: 'Multi-scale Application Software Development Ecosystem on ARM'
+tag: resource
 speakers:
 - biography: '""'
   company: UK National HPC Center

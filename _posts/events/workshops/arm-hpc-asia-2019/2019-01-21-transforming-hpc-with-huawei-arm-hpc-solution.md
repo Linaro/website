@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/transforming-hpc-with-huawei-arm-hpc-solution.jpg
 layout: resource-post
 title: 'Transforming HPC with Huawei ARM HPC Solution'
+tag: resource
 speakers:
 - biography: '""'
   company: Huawei

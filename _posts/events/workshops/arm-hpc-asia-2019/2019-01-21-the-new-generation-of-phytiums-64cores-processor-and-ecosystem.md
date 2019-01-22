@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/the-new-generation-of-phytiums-64cores-processor-and-ecosystem.jpg
 layout: resource-post
 title: 'The New Generation of Phytium‘s 64Cores Processor and Ecosystem'
+tag: resource
 speakers:
 - biography: '""'
   company: Phytium

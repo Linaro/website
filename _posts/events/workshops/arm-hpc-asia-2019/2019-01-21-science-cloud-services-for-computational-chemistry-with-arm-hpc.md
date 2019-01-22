@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/science-cloud-services-for-computational-chemistry-with-arm-hpc.jpg
 layout: resource-post
 title: 'Science Cloud services for Computational Chemistry with Arm HPC'
+tag: resource
 speakers:
 - biography: '""'
   company: HPC System Inc.

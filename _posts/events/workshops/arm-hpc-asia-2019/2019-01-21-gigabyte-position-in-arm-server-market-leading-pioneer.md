@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/gigabyte-position-in-arm-server-market-leading-pioneer.jpg
 layout: resource-post
 title: 'GIGABYTE Position in ARM Server Market - Leading Pioneer'
+tag: resource
 speakers:
 - biography: '""'
   company: Gigabyte

@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/hpc-cluster-and-ci.jpg
 layout: resource-post
 title: 'HPC Cluster and CI'
+tag: resource
 speakers:
 - biography: '""'
   company: Linaro

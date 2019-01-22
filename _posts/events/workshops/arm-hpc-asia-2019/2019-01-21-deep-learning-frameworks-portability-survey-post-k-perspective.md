@@ -13,6 +13,7 @@ image:
   path: /assets/images/content/deep-learning-frameworks-portability-survey-post-k-perspective.jpg
 layout: resource-post
 title: 'Deep Learning Frameworks Portability Survey: Post-K perspective'
+tag: resource
 speakers:
 - biography: '""'
   company: RIKEN-CCS/AIST
