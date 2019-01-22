@@ -18,5 +18,5 @@ speakers:
   job-title: 
   name: Prof.Lin XinHua
 youtube_video_url: https://www.youtube.com/watch?v=vZo_mpV4YYU&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=9&t=0s
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/slides/BenchmarkingHuaweiARMMulti-CoreProcessorsforHPCworkloads6.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/BenchmarkingHuaweiARMMulti-CoreProcessorsforHPCworkloads6.pdf
 ---

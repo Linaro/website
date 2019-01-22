@@ -17,6 +17,6 @@ speakers:
   company: Linaro
   job-title: 
   name: Jill Guo
-youtube_video_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/videos/1.+Introduction+to+workshop+(Jill+Guo%2C+Linaro).mp4
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/slides/1.+Introduction+to+workshop+(Jill+Guo%2C+Linaro).pdf
+youtube_video_url: https://static.linaro.org/event-resources/arm-hpc-2019/videos/1.+Introduction+to+workshop+(Jill+Guo%2C+Linaro).mp4
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/1.+Introduction+to+workshop+(Jill+Guo%2C+Linaro).pdf
 ---

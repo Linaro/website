@@ -18,5 +18,5 @@ speakers:
   job-title: 
   name: Pak Lui 
 youtube_video_url: https://www.youtube.com/watch?v=OUJ3chN2tO0&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=5&t=0s
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/slides/TransformingHPCwithHuaweiARMHPCSolution10.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/TransformingHPCwithHuaweiARMHPCSolution10.pdf
 ---
