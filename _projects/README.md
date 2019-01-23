@@ -10,7 +10,6 @@ Linaro focuses much of its engineering work on contributing to existing upstream
 
 The list of current initiatives is on the left.
 
-
 {% assign projects = site.projects | where: 'project', 'true' %}
 {% for project in projects %}
     <a href="{{project.url}}">{{project.title}}</a>
