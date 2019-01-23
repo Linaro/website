@@ -6,4 +6,5 @@
 //= require vendor/Chart.min
 
 //= require app/search
+//= require app/projects
 //= require app/main
