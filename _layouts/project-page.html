@@ -183,9 +183,9 @@ css-package: work
     {% if page.project_link_name %}
         <h3>Patches Stats</h3>
         <canvas id="projectStatsChart-{{page.project_link_name}}" class="projectStatsChart" data-link-name="{{page.project_link_name}}" width="740" height="300"></canvas>
-    {% elsif page.sub-projects %}
-        {% for sub-project in page.sub-projects %}
-            <canvas id="projectStatsChart-{{sub-project.project_link_name}}" class="projectStatsChart" data-link-name="{{sub-project.project_link_name}}"
+    {% elsif page.sub_projects %}
+        {% for subProject in page.sub_projects %}
+            <canvas id="projectStatsChart-{{subProject.project_link_name}}" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
                 width="740" height="300"></canvas>
         {% endfor %}
     {% endif %}
