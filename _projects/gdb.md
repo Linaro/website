@@ -1,5 +1,5 @@
 ---
 link_name: gdb
-project_url: n/a
+project_project_url: n/a
 title: gdb
 ---

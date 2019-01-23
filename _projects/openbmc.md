@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/OpenBMC.png
 title: OpenBMC
-url: https://www.openbmc.org/
+project_url: https://www.openbmc.org/
 ---

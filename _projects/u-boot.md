@@ -1,5 +1,5 @@
 ---
 link_name: u-boot
-project_url: n/a
+project_project_url: n/a
 title: u-boot
 ---

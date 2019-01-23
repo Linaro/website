@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/ccix.png
 title: CCIX
-url: https://www.ccixconsortium.com/
+project_url: https://www.ccixconsortium.com/
 ---

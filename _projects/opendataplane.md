@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/odp.png
 title: OpenDataPlane
-url: https://opendataplane.org
+project_url: https://opendataplane.org
 ---

@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/openembedded.png
 title: OpenEmbedded
-url: http://www.openembedded.org/wiki/Main_Page
+project_url: http://www.openembedded.org/wiki/Main_Page
 ---

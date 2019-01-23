@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/apache-ambari.png
 title: Apache Ambari
-url: https://ambari.apache.org/
+project_url: https://ambari.apache.org/
 ---

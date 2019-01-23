@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/cairo.png
 title: "Cairo"
-url: https://cairographics.org/
+project_url: https://cairographics.org/
 ---

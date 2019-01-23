@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/opnfv.png
 title: OPNFV
-url: https://www.opnfv.org/
+project_url: https://www.opnfv.org/
 ---

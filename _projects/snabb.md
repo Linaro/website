@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/snabb.png
 title: Snabb
-url: https://github.com/snabbco/snabb
+project_url: https://github.com/snabbco/snabb
 ---

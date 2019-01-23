@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/open-stack.png
 title: OpenStack
-url: https://www.openstack.org/
+project_url: https://www.openstack.org/
 ---

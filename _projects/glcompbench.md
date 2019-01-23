@@ -1,5 +1,5 @@
 ---
 link_name: glcompbench
-project_url: n/a
+project_project_url: n/a
 title: glcompbench
 ---

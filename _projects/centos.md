@@ -1,5 +1,5 @@
 ---
 image: /assets/images/projects/centos.png
 title: CentOS
-url: https://www.centos.org/
+project_url: https://www.centos.org/
 ---
