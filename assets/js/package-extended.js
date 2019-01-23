@@ -5,6 +5,7 @@
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/featherlight
+//= require vendor/jquery.doubleScroll
 //= require app/sticky-tab-bar
 
 //= require app/main
