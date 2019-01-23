@@ -219,8 +219,9 @@ collections:
         permalink: /:collection/:path/
     projects:
         output: true
-        permalink: /:collection/:path/
+        permalink: /engineering/:collection/:path/
         project: true
+        layout: project-page
     initiatives:
         output: true
         permalink: /:collection/:path/
