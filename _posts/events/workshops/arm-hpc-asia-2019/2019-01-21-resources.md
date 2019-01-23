@@ -11,17 +11,17 @@ css-package: workshop
 event: arm-hpc-asia-2019
 js-package: extended
 image:
-   path: /assets/images/content/hpc-asia-2019-share-image.png
+   path: /assets/images/content/hpc-asia-2019.png
 event: true
 jumbotron:
-    background-image: /assets/images/content/hpc-asia-2019-share-image.png
+    background-image: /assets/images/content/hpc-asia-2019.png
     animation: fade
 ---
-<div class="row arm-hpc-row main">
+<div class="row arm-hpc-row main" id="content-container">
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
       <li role="presentation">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#welcome">
+        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}">
             Welcome
         </a>
       </li>
