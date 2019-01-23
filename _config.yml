@@ -220,6 +220,7 @@ collections:
     projects:
         output: true
         permalink: /:collection/:path/
+        project: true
     initiatives:
         output: true
         permalink: /:collection/:path/
