@@ -78,7 +78,7 @@ slideshare_username: linaroorg
 # Blog setup
 blog:
     # Url for the blog tags page
-    tags_page: /blog/tags/
+    tags_page: /blog/tag/
     # Show Thumbnails in the post index
     show_thumbnails: true
     # Toggle the output of blog/news reading time.
