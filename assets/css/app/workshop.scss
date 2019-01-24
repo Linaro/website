@@ -1,0 +1,16 @@
+.slot {
+    height: 30px;
+    background-color: #7ca82d;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    right: 25px;
+}
+.double-scroll {
+    height: 500px;
+    overflow-y: scroll !important;
+}
