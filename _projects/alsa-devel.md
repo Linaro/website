@@ -1,5 +1,5 @@
 ---
-link_name: alsa-devel
+project_link_name: alsa-devel
 project_maintainers:
 - email: andy.doan@linaro.org
   first_name: Andy

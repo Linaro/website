@@ -1,4 +1,4 @@
 ---
-link_name: zephyr
+project_link_name: zephyr
 title: Zephyr
 ---

@@ -1,5 +1,5 @@
 ---
-link_name: aosp
+project_link_name: aosp
 project_maintainers:
 - email: andy.doan@linaro.org
   first_name: Andy

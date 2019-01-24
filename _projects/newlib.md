@@ -1,4 +1,4 @@
 ---
-link_name: newlib
+project_link_name: newlib
 title: newlib
 ---
