@@ -47,10 +47,10 @@ function sort_by_date_desc_safari(a,b){
         b.pubDate.split(reg)
     ];
     var dates = [ //Create an array of dates for a and b
-        new Date(parsed[0][0], parsed[0][1], parsed[0][2], parsed[0][3], parsed[0][4], parsed[0][5]),//Constructs an date of the above parsed parts (Year,Month...
-        new Date(parsed[1][0], parsed[1][1], parsed[1][2], parsed[1][3], parsed[1][4], parsed[1][5])
+        new Date(parsed[0][0], parsed[0][1], parsed[0][2].split(" ")[0]),//Constructs an date of the above parsed parts (Year,Month...
+        new Date(parsed[1][0], parsed[1][1], parsed[1][2].split(" ")[0])
     ];
-    return dates[0] - dates[1]; //Returns the difference between the date (if b > a then a - b < 0)
+    return dates[1] - dates[0]; //Returns the difference between the date (if b > a then a - b < 0)
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date_asc(a, b) {
@@ -99,7 +99,7 @@ function getJSON(url){
         },
         success: function (response) {
             // Log response
-            console.log(response);
+            // console.log(response);
             addFeedChannel(response.feed);
             for(i=0;i<response.items.length;i++){
                 if(i == response.items.length - 1){
@@ -114,6 +114,7 @@ function getJSON(url){
 }
 // Loop over each feed and add to the main array 
 console.log("Generating the Planet Linaro feed...");
+
 for(i=0;i<feeds.length;i++){
     var items = getJSON(feeds[i]);
 }
@@ -163,12 +164,13 @@ function outputFeed(){
 
     if(browser == "safari"){
         var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc_safari); //Create a new array
+        console.log(sortedFeed.sort(sort_by_date_desc_safari));
     }
     else{
         var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc); //Create a new array
+        console.log(sortedFeed.sort(sort_by_date_desc));
     }
 
-    console.log(sortedFeed.sort(sort_by_date_desc));
 
     for(n=0;n<sortedFeed.slice(0,25).length;n++){
         var uniqueId = string_to_slug(sortedFeed[n].guid);
@@ -189,6 +191,7 @@ function outputFeed(){
         textEl += '</div>';
         $(textEl).appendTo("#accordion");
     }
+
     $("#loader").hide();
     $("#feed").show();
     console.log("Planet Linaro feed generated.");
@@ -197,5 +200,4 @@ function outputFeed(){
 //Locate images that are added dynamically to the page and add the img-responsive class
 $("body").bind("DOMNodeInserted", function () {
     $(this).find('#feed img').addClass('img-responsive');
-    my
 });
