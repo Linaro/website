@@ -3,42 +3,40 @@ layout: container-breadcrumb
 js-package: projects
 css-package: work
 ---
-<div class="col-md-12 group_content_section project-stats">
-    
+<div class="col-md-9 project-stats">
     {% if page.project_link_name %}
-        <h3>Patches Stats</h3>
-        <canvas id="projectStatsChart-{{page.project_link_name}}" class="projectStatsChart" data-link-name="{{page.project_link_name}}" width="740" height="300"></canvas>
-    {% elsif page.sub_projects %}
-        <h3>Patches Stats</h3>
-        {% for subProject in page.sub_projects %}
-            <canvas id="projectStatsChart-{{subProject.project_link_name}}" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+        <div class="chartContainer">
+            <canvas id="projectStatsChart-{{page.project_link_name}}" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
                 width="740" height="300"></canvas>
+        </div>
+    {% elsif page.sub_projects %}
+        {% for subProject in page.sub_projects %}
+            <div class="chartContainer">
+                <canvas id="projectStatsChart-{{subProject.project_link_name}}" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+                    width="740" height="300"></canvas>
+            </div>
         {% endfor %}
     {% endif %}
-
-
-    {% if page.featured_video %}
-    <div class="work_featured_video">
-      {% include media.html media_url=page.featured_video %}
-    </div>
-    {% endif %}
-
-    {{ content }}
-
-    {% if page.youtube_playlist %}
-      <div class="col-xs-12 group_playlist">
-      <hr />
-      {% assign playlist_embed_link = page.youtube_playlist | replace: 'https://www.youtube.com/playlist?list=','https://www.youtube.com/embed/videoseries?list='%}
-      {% include media.html media_url=playlist_embed_link %}
-      </div>
-    {% endif %}
-    
-    <div class="col-xs-12 contact_form">
-        {% include linaro-contact-form.html %}
-    </div>
-
+    {% include linaro-contact-form.html %}
     {% include work-footer.html %}
-
-    <hr />
 </div>
-
+<div class="col-md-3 project-stats-sidebar">
+    {% if page.sub_projects %}
+    <!-- Sub Projects -->
+    <ul class="list-group">
+        <li class="list-group-item active">
+            {{page.title}}
+        </li>
+        {% for subProject in page.sub_projects %}
+            <li class="list-group-item">
+                {{subProject.project_name}} 
+                <a class="pull-right" data-toggle="tooltip" data-placement="top"
+                    title="View the {{subProject.project_name}} stats on patches.linaro.org" 
+                href="{{subProject.project_patches_project_url}}">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
