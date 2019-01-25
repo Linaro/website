@@ -32,11 +32,25 @@ var feeds = [
     "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/"
 ];
 var sortableFeeds = feeds.slice();
+
 // Collect Feed Channel Info
 var feedChannels = [];
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date_desc(a, b) {
     return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
+}
+// Sort function for safari browsers
+function sort_by_date_desc_safari(a,b){
+    var reg = /-|:|T|\+/; //The regex on which matches the string should be split (any used delimiter) -> could also be written like /[.:T\+]/
+    var parsed = [ //an array which holds the date parts for a and b
+        a.pubDate.split(reg), //Split the datestring by the regex to get an array like [Year,Month,Day,Hour,...]
+        b.pubDate.split(reg)
+    ];
+    var dates = [ //Create an array of dates for a and b
+        new Date(parsed[0][0], parsed[0][1], parsed[0][2], parsed[0][3], parsed[0][4], parsed[0][5]),//Constructs an date of the above parsed parts (Year,Month...
+        new Date(parsed[1][0], parsed[1][1], parsed[1][2], parsed[1][3], parsed[1][4], parsed[1][5])
+    ];
+    return dates[0] - dates[1]; //Returns the difference between the date (if b > a then a - b < 0)
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date_asc(a, b) {
@@ -136,8 +150,26 @@ function string_to_slug(str) {
 }
 
 function outputFeed(){
-    var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc); //Create a new array
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf('safari') != -1) {
+        if (ua.indexOf('chrome') > -1) {
+            var browser = "other";
+        } else {
+            var browser = "safari"; // Safari
+        }
+    }else{
+        var browser = "other";
+    }
+
+    if(browser == "safari"){
+        var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc_safari); //Create a new array
+    }
+    else{
+        var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc); //Create a new array
+    }
+
     console.log(sortedFeed.sort(sort_by_date_desc));
+
     for(n=0;n<sortedFeed.slice(0,25).length;n++){
         var uniqueId = string_to_slug(sortedFeed[n].guid);
         var textEl = '<div class="panel panel-default">';
