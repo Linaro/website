@@ -15,6 +15,8 @@ $navbar-hover-background-color: $brand-primary !default;
 $navbar-height: 66px;
 $navbar-inverse-bg: #fff;
 $navbar-inverse-color: #000;
+$navbar-submenu-bg-color: #3e3e3e !default;
+$navbar-submenu-color: #fff !default;
 @font-face {
   font-family: 'Lato';
   src: url('/assets/fonts/lato-regular/Lato-regular.eot'); /* IE9 Compat Modes */
@@ -48,3 +50,5 @@ $post-tag-color: #000 !default;
 $post-tag-border: #8b8b8b !default;
 $post-tag-hover-bg: #1f1f1f !default;
 $post-tag-hover-color: #fff !default;
+// Triangle Divider
+$triangle-divider-bg-color: #fff !default;  
