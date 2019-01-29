@@ -236,3 +236,12 @@ sessions:
       future network. Dr. Fu Li is often recognized for his vast contributions to cloud computing and media application industries, he has become vice-minister of China Society of Motion Picture and Television Engineers and Industry professor of 
       School of Digital Media of Jiangnan University, as well as the innovative and entrepreneurial talent of Jiangsu province.
     image: /assets/images/people/LeoLi.jpg
+  - session: 15
+    speaker: Elsie Wahlig
+    company: Linaro
+    topic: "Frontiers of AI deployments in HPC on Arm"
+    bio: >-
+      Elsie Wahlig is a Senior Director of HPC and Data Sciences at Linaro. Prior to joining, Elsie has been in high-tech field working at semiconductor companies for 22 years.
+      She's been building the Arm server market since 2011 at Qualcomm and Samsung with roles spanning both engineering and product management.
+      Before embracing Arm Servers, she worked at AMD contributing to development of software and architectural extensions of the AMD microprocessor. 
+    image: /assets/images/people/Elsie-Wahlig.jpg
