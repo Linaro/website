@@ -23,7 +23,6 @@ var chartOptions = {
 };
 // Process the perProjectPatches.json file and add data to relevant graphs
 function createPatchesGraphs(jsonData) {
-    console.log(jsonData);
     console.log("Creating the patches graphs...");
     var listElements = '';
     $(".projectStatsChart").each(function () {
@@ -31,63 +30,111 @@ function createPatchesGraphs(jsonData) {
         var projectLinkName = $(this).data("link-name");
         // var chartData = {};
         console.log(projectLinkName);
-        // Create the data array for the charts
+        dataSource = {};
+        var projectData = "";
         for (var i = 0; i < jsonData.length; i++) {
-            // console.log(jsonData[i]["project_link_name"]);
-            if (jsonData[i]["project_link_name"] == projectLinkName) {
-                // Get past 7 day stats
-                var projectStats = jsonData[i]["7"];
-                var statsLabels = Object.keys(projectStats).reverse();
-                
-                var submittedPatches = [];
-                var acceptedPatches = [];
-
-                for(i=0;i<statsLabels.length;i++) {
-                     submittedPatches.push(projectStats[statsLabels[i]][0]);
-                     acceptedPatches.push(projectStats[statsLabels[i]][1]);
-                }
-
-                var dataSource = {
-                    labels: statsLabels,
-                    datasets: [
-                        {
-                            label: "Submitted Patches",
-                            backgroundColor: "rgba(124,168,45,0.3)",
-                            borderColor: "rgba(124,168,45,1)",
-                            borderWidth: "1px",
-                            pointStyle: "cross",
-                            pointBackgroundColor: "rgba(70,94,26,1)",
-                            pointBorderColor: "rgba(70,94,26,1)",
-                            pointStrokeColor: "#688d24",
-                            pointHighlightFill: "#cde2a7",
-                            pointHighlightStroke: "rgba(220,220,220,1)",
-                            data: submittedPatches
-                        },
-                        {
-                            label: "Accepted Patches",
-                            fillColor: "rgba(124,168,45,0.3)",
-                            strokeColor: "rgba(124,168,45,1)",
-                            pointColor: "rgba(70,94,26,1)",
-                            pointStrokeColor: "#688d24",
-                            pointHighlightFill: "#cde2a7",
-                            pointHighlightStroke: "rgba(220,220,220,1)",
-                            data: acceptedPatches
-                        }
-                    ]
-                };
-                // Get the ID of the chart in question.
-                var chartId = $(this).attr("id");
-                // Get the context of the canvas element we want to select
-                var ctx = document.getElementById(chartId).getContext('2d');
-                console.log(dataSource);
-                // Instantiate a new chart using 'data'
-                var myChart = new Chart(ctx, {
-                    type: "line",
-                    data: dataSource,
-                    options: chartOptions
-                });
+            if (jsonData[i]["project_link_name"] === projectLinkName) {
+                projectData = jsonData[i];
             }
+        }   
+        console.log("Project Data from loop:",projectData);
+        
+        var statsLabels = Object.keys(projectData["7"]).reverse();
+
+        var submittedPatches = [];
+        var acceptedPatches = [];
+
+        for(i=0;i<statsLabels.length;i++) {
+            submittedPatches.push(projectData["7"][statsLabels[i]][0]);
+            acceptedPatches.push(projectData["7"][statsLabels[i]][1]);
         }
+        
+        // Create the data array for the charts
+        var dataSource = {
+            labels: statsLabels,
+            datasets: [
+                {
+                    label: "Submitted Patches",
+                    backgroundColor: "rgba(124,168,45,0.3)",
+                    borderColor: "rgba(124,168,45,1)",
+                    borderWidth: "1px",
+                    pointStyle: "cross",
+                    pointBackgroundColor: "rgba(70,94,26,1)",
+                    pointBorderColor: "rgba(70,94,26,1)",
+                    pointStrokeColor: "#688d24",
+                    pointHighlightFill: "#cde2a7",
+                    pointHighlightStroke: "rgba(220,220,220,1)",
+                    data: submittedPatches
+                },
+                {
+                    label: "Accepted Patches",
+                    fillColor: "rgba(124,168,45,0.3)",
+                    strokeColor: "rgba(124,168,45,1)",
+                    pointColor: "rgba(70,94,26,1)",
+                    pointStrokeColor: "#688d24",
+                    pointHighlightFill: "#cde2a7",
+                    pointHighlightStroke: "rgba(220,220,220,1)",
+                    data: acceptedPatches
+                }
+            ]
+        };
+
+        // for (var i = 0; i < jsonData.length; i++) {
+        //     // console.log(jsonData[i]["project_link_name"]);
+        //     if (jsonData[i]["project_link_name"] == projectLinkName) {
+        //         // Get past 7 day stats
+        //         var projectStats = jsonData[i]["7"];
+        //         var statsLabels = Object.keys(projectStats).reverse();
+                
+        //         var submittedPatches = [];
+        //         var acceptedPatches = [];
+
+        //         for(i=0;i<statsLabels.length;i++) {
+        //              submittedPatches.push(projectStats[statsLabels[i]][0]);
+        //              acceptedPatches.push(projectStats[statsLabels[i]][1]);
+        //         }
+
+        //         var dataSource = {
+        //             labels: statsLabels,
+        //             datasets: [
+        //                 {
+        //                     label: "Submitted Patches",
+        //                     backgroundColor: "rgba(124,168,45,0.3)",
+        //                     borderColor: "rgba(124,168,45,1)",
+        //                     borderWidth: "1px",
+        //                     pointStyle: "cross",
+        //                     pointBackgroundColor: "rgba(70,94,26,1)",
+        //                     pointBorderColor: "rgba(70,94,26,1)",
+        //                     pointStrokeColor: "#688d24",
+        //                     pointHighlightFill: "#cde2a7",
+        //                     pointHighlightStroke: "rgba(220,220,220,1)",
+        //                     data: submittedPatches
+        //                 },
+        //                 {
+        //                     label: "Accepted Patches",
+        //                     fillColor: "rgba(124,168,45,0.3)",
+        //                     strokeColor: "rgba(124,168,45,1)",
+        //                     pointColor: "rgba(70,94,26,1)",
+        //                     pointStrokeColor: "#688d24",
+        //                     pointHighlightFill: "#cde2a7",
+        //                     pointHighlightStroke: "rgba(220,220,220,1)",
+        //                     data: acceptedPatches
+        //                 }
+        //             ]
+        //         };
+        //     }
+        // }
+        // Get the ID of the chart in question.
+        var chartId = $(this).attr("id");
+        // Get the context of the canvas element we want to select
+        var ctx = document.getElementById(chartId).getContext('2d');
+        console.log(dataSource);
+        // Instantiate a new chart using 'data'
+        var myChart = new Chart(ctx, {
+            type: "line",
+            data: dataSource,
+            options: chartOptions
+        });
     });
     $("#latest-patches").html(listElements);
 }
