@@ -1,6 +1,5 @@
 // Define the sources to prepend the jsonp script elements and retreive the data.
 // "" will use the current domain - this can be set to a cdn FQDN
-console.time();
 var patchesDataSources = [
     ""
 ];
@@ -39,10 +38,6 @@ function createPatchesGraphs(jsonData) {
                 // Get past 7 day stats
                 var projectStats = jsonData[i]["7"];
                 var statsLabels = Object.keys(projectStats).reverse();
-                console.log(statsLabels);
-     
-                console.log(projectStats);
-                console.log(projectStats["2019-01-17"]);
                 
                 var submittedPatches = [];
                 var acceptedPatches = [];
@@ -91,12 +86,6 @@ function createPatchesGraphs(jsonData) {
                     data: dataSource,
                     options: chartOptions
                 });
-                // for(i=0;i<projectStats.length;i++){
-                //     console.log(projectStats[i]);
-                // }
-                // Get past month stats
-
-                // Get past 6 month stats
             }
         }
     });
@@ -122,11 +111,9 @@ $(window).on("load", function () {
             script.src = jsonp_url;
             // Append the new script element to the head.
             $("head").append(script);
-            console.log("Added JSON data source.");
         }
     }
     else {
         console.log("No patches graphs found!");
     }
 });
-console.timeEnd();
