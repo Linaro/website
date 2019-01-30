@@ -22,6 +22,8 @@ http2_resources:
     as: script
     crossorigin: true
     href: https://www.google-analytics.com/analytics.js
+
+
 # Site Slogan
 slogan: Leading collaboration in the Arm Ecosystem
 # Mailchimp settings
