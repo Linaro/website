@@ -59,7 +59,7 @@ Technical details and a picture can be found on the [LinuxDevices.com](https://w
 
 <!-- more -->
 
-According to Freescale, this board will be supported by the [imxcommunity.org](http://imxcommunity.org/) community, and by a number of hardware and software partners.
+According to Freescale, this board will be supported by the [imxcommunity.org](https://community.nxp.com/community/imx) community, and by a number of hardware and software partners.
 
 Linaro welcomes this release of a new low cost, high performance board from one of its founding members, especially designed and priced for the embedded Linux development community. In particular, this is the first board of this kind offering a SATA connector for high performance I/O, making it perfect to develop high performance, low power multimedia and data processing system prototypes. The 3-axis accelerometer will allow to develop tablet and smartphone designs (for example) and with JTAG, a DB-9 serial port and an expansion connector to interface with the outside world, this board has everything community and system developers need to create real products.
 
