@@ -5,17 +5,46 @@ css-package: work
 ---
 <div class="col-md-9 project-stats">
     {% if page.project_link_name %}
-        <div class="chartContainer">
-            <canvas id="projectStatsChart-{{page.project_link_name}}" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
-                width="740" height="300"></canvas>
-        </div>
-    {% elsif page.sub_projects %}
-        {% for subProject in page.sub_projects %}
-            <div class="chartContainer">
-                <canvas id="projectStatsChart-{{subProject.project_link_name}}" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
-                    width="740" height="300"></canvas>
+    <div role="tabpanel projects-tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#tab-{{page.project_link_name}}" data-chart="projectStatsChart-{{page.project_link_name}}" aria-controls="tab-{{page.project_link_name}}" role="tab" data-toggle="tab">{{page.title}}</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="tab-{{page.project_link_name}}">
+                <div class="chartContainer">
+                    <canvas id="projectStatsChart-{{page.project_link_name}}" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                        width="740" height="300"></canvas>
+                </div>
             </div>
-        {% endfor %}
+        </div>
+    </div>
+    {% elsif page.sub_projects %}
+    <div role="tabpanel projects-tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                {% for subProject in page.sub_projects %}       
+                <li role="presentation" {% if forloop.first %}class="active"{% endif  %}>
+                    <a href="#tab-{{subProject.project_link_name}}" data-chart="projectStatsChart-{{subProject.project_link_name}}" aria-controls="tab-{{subProject.project_link_name}}" role="tab"
+                        data-toggle="tab">{{subProject.project_name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                {% for subProject in page.sub_projects %}      
+                <div role="tabpanel" class="tab-pane {% if forloop.first %}active{% endif %}" id="tab-{{subProject.project_link_name}}">
+                    <div class="chartContainer">
+                        <canvas id="projectStatsChart-{{subProject.project_link_name}}" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+                            width="740" height="300"></canvas>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
     {% endif %}
     {% include linaro-contact-form.html %}
     {% include work-footer.html %}
