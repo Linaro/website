@@ -5,6 +5,7 @@ description: |-
 keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
 permalink: /engineering/projects/
 project: false
+css-package: projects
 layout: jumbotron-container
 jumbotron:
     title: Projects
@@ -19,14 +20,11 @@ an open hardware specification (<a href="http://www.96boards.org">96Boards</a>) 
 
 </p>
 
-<h1>
-    Projects that Linaro helps to maintain and develop.
-</h1>
-
 <div class="projects">
 {% assign projects = site.projects | where: 'project', 'true' %}
 {% for project in projects %}
-    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item">
+    {% assign projectTextSize = project.title | size %}
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
         <a href="{{project.url}}">{{project.title}}</a>
     </div>
 {% endfor %}
