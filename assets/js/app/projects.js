@@ -3,7 +3,7 @@
 var patchesDataSources = [
     ""
 ];
-var JSONData;
+var JSONData = "";
 // JSONP handler - This function handles the jsonp data we receive
 function patches(jsonData) {
     // Make the newly collected JSON data globally accessible for Bootstrap tab event listeners
@@ -75,35 +75,31 @@ function setupGraph(jsonData, projectLinkName){
         ]
     };
 
-    $("chart-" + projectLinkName).first(function(){
-        // Get the ID of the chart in question.
-        var chartId = $(this).attr("id");
-        // Get the context of the canvas element we want to select
-        var ctx = document.getElementById(chartId).getContext('2d');
-        console.log(dataSource);
-        // Instantiate a new chart using 'data'
-        var myChart = new Chart(ctx, {
-            type: "line",
-            data: dataSource,
-            options: chartOptions
-        });
+    // Get the ID of the chart in question.
+    var chartId = "projectStatsChart-" + projectLinkName;
+    // Get the context of the canvas element we want to select
+    var ctx = document.getElementById(chartId).getContext('2d');
+    console.log(dataSource);
+    // Instantiate a new chart using 'data'
+    var myChart = new Chart(ctx, {
+        type: "line",
+        data: dataSource,
+        options: chartOptions
     });
     
 }
+
 // Process the perProjectPatches.json file and add data to relevant graphs
 function createPatchesGraphs(jsonData) {
-    console.log("Creating the patches graphs...");
-    var listElements = '';
-    $(".projectStatsChart").first(function () {
-        // Get the project_link_name to look up stats in the JSON data
-        var projectLinkName = $(this).data("link-name");
-        setupGraph(jsonData, projectLinkName);
-    });
-    $("#latest-patches").html(listElements);
+    console.log("Creating the patches graphs for first chart...");
+    var projectLinkName = $(".chartContainer:first").find("canvas").data("link-name");
+    console.log(projectLinkName);
+    setupGraph(jsonData, projectLinkName);
 }
 // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     // Setup the graph based on the event target's data-chart value
+    console.log($(e.target).data("chart"));
     setupGraph(JSONData, $(e.target).data("chart").replace("projectStatsChart-",""));
 });
 $(window).on("load", function () {
