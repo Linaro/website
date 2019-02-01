@@ -25,7 +25,7 @@ jumbotron:
     {% assign projectTextSize = project.title | size %}
     <a href="{{project.url}}">
         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
-            {{project.title}}
+            {{project.title}} {% if page.project_link_name or page.sub_projects %}<i class="fa fa-area-chart" aria-hidden="true"></i>{% endif %}
         </div>
     </a>
 {% endfor %}
