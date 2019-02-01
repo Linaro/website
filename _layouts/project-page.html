@@ -25,13 +25,16 @@ css-package: work
         <!-- Nav tabs -->
         <ul class="nav nav-tabs stats-period-tabs" role="tablist">
             <li role="presentation" class="active">
-                <a href="#previousWeek" aria-controls="previousWeek" role="tab" data-toggle="tab">Last 7 days</a>
+                <a href="#previousWeek" data-link-name="{{page.project_link_name}}"
+                 aria-controls="previousWeek" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
             </li>
             <li role="presentation">
-                <a href="#previousMonth" aria-controls="previousMonth" role="tab" data-toggle="tab">Last 30 Days</a>
+                <a href="#previousMonth" data-link-name="{{page.project_link_name}}"
+                 aria-controls="previousMonth" data-chart-period="31" role="tab" data-toggle="tab">Last 30 Days</a>
             </li>
             <li role="presentation">
-                <a href="#previous3Months" aria-controls="previous3Months" role="tab" data-toggle="tab">Last 90 Days</a>
+                <a href="#previous3Months" data-link-name="{{page.project_link_name}}"
+                 aria-controls="previous3Months" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
             </li>
         </ul>
         <!-- Tab panes -->
@@ -103,16 +106,16 @@ css-package: work
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs stats-period-tabs" role="tablist">
                         <li role="presentation" class="active">
-                            <a href="#previousWeek" aria-controls="previousWeek" data-chart="projectsStatsChart-{{subProject.project_link_name}}-7"
-                             data-project-name="{{subProject.project_name}}" data-chart-peiod="7" role="tab" data-toggle="tab">Last 7 days</a>
+                            <a href="#previousWeek" aria-controls="previousWeek" data-chart="projectStatsChart-{{subProject.project_link_name}}-7"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
                         </li>
                         <li role="presentation">
-                            <a href="#previousMonth" aria-controls="previousMonth" role="tab" data-chart="projectsStatsChart-{{subProject.project_link_name}}-31"
-                             data-project-name="{{subProject.project_name}}" data-chart-peiod="31" data-toggle="tab">Last 31 Days</a>
+                            <a href="#previousMonth" aria-controls="previousMonth" role="tab" data-chart="projectStatsChart-{{subProject.project_link_name}}-31"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="31" data-toggle="tab">Last 31 Days</a>
                         </li>
                         <li role="presentation">
-                            <a href="#previous3Months" aria-controls="previous3Months" data-chart="projectsStatsChart-{{subProject.project_link_name}}-90"
-                             data-project-name="{{subProject.project_name}}" data-chart-peiod="90" role="tab" data-toggle="tab">Last 90 Days</a>
+                            <a href="#previous3Months" aria-controls="previous3Months" data-chart="projectStatsChart-{{subProject.project_link_name}}-90"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
                         </li>
                     </ul>
                     <!-- Tab panes -->
