@@ -3,14 +3,8 @@
 var patchesDataSources = [
     ""
 ];
+// Globally accessible JSON data for patches stats
 var JSONData = "";
-// JSONP handler - This function handles the jsonp data we receive
-function patches(jsonData) {
-    // Make the newly collected JSON data globally accessible for Bootstrap tab event listeners
-    JSONData = jsonData; 
-    //var sorted_data = sortByKeyAsc(jsonData, "title");
-    createPatchesGraphs(jsonData);
-}
 // Chart.js Options when creating a new chart
 var chartOptions = {
     responsive: true,
@@ -24,26 +18,36 @@ var chartOptions = {
         }]
     }
 };
+// JSONP handler - This function handles the jsonp data we receive
+function patches(jsonData) {
+    // Make the newly collected JSON data globally accessible for Bootstrap 
+    // tab event listeners
+    JSONData = jsonData; 
+    //var sorted_data = sortByKeyAsc(jsonData, "title");
+    createInitialGraph();
+}
 // This function takes a project link name and pulls in the required data and 
 // displays as a graph.
-function setupGraph(jsonData, projectLinkName){
+function setupGraph(projectLinkName, period){
+    // Check to see if the period parameter is undefined - if so then set it - pre ES6
+    period = typeof period !== 'undefined' ? period : "7";
     // Create a new data source object for use in instantiating the Chart.js graph
     dataSource = {};
     // Loop through the jsonData and pull relevant patches details
     var projectData = "";
-    for (var i = 0; i < jsonData.length; i++) {
-        if (jsonData[i]["project_link_name"] === projectLinkName) {
-            projectData = jsonData[i];
+    for (var i = 0; i < JSONData.length; i++) {
+        if (JSONData[i]["project_link_name"] === projectLinkName) {
+            projectData = JSONData[i];
         }
     }
     // Get the stats labels and data required for graph        
-    var statsLabels = Object.keys(projectData["7"]).reverse();
+    var statsLabels = Object.keys(projectData[period]).reverse();
     var submittedPatches = [];
     var acceptedPatches = [];
     // Get the submitted/accepted patches
     for (i = 0; i < statsLabels.length; i++) {
-        submittedPatches.push(projectData["7"][statsLabels[i]][0]);
-        acceptedPatches.push(projectData["7"][statsLabels[i]][1]);
+        submittedPatches.push(projectData[period][statsLabels[i]][0]);
+        acceptedPatches.push(projectData[period][statsLabels[i]][1]);
     }
     // Create the data array for the charts
     var dataSource = {
@@ -76,7 +80,8 @@ function setupGraph(jsonData, projectLinkName){
     };
 
     // Get the ID of the chart in question.
-    var chartId = "projectStatsChart-" + projectLinkName;
+    var chartId = "projectStatsChart-" + projectLinkName + "-" + period;
+    console.log("Creating chart:",chartId);
     // Get the context of the canvas element we want to select
     var ctx = document.getElementById(chartId).getContext('2d');
     console.log(dataSource);
@@ -86,23 +91,37 @@ function setupGraph(jsonData, projectLinkName){
         data: dataSource,
         options: chartOptions
     });
-    
 }
-
 // Process the perProjectPatches.json file and add data to relevant graphs
-function createPatchesGraphs(jsonData) {
-    console.log("Creating the patches graphs for first chart...");
-    var projectLinkName = $(".chartContainer:first").find("canvas").data("link-name");
-    console.log(projectLinkName);
-    setupGraph(jsonData, projectLinkName);
+function createInitialGraph() {
+    var projectLinkName = $("ul.stats-period-tabs > li.active").find("canvas").data("link-name");
+    var chartPeriod = $("ul.stats-period-tabs > li.active").find("canvas").data("chart-period");
+    setupGraph(projectLinkName, chartPeriod);
 }
-// Event listener for when bootstrap tabs are toggled to setup graphs for that tab
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-    // Setup the graph based on the event target's data-chart value
-    console.log($(e.target).data("chart"));
-    setupGraph(JSONData, $(e.target).data("chart").replace("projectStatsChart-",""));
-});
+// Main on-load function
 $(window).on("load", function () {
+    $(function () {
+        var options = {
+            selectorAttribute: "data-target",
+            backToTop: true
+        };
+        $('.nav-tabs').stickyTabs(options);
+    });
+    // Main Event Listeners
+    // Show Bootstrap tooltip on scroll
+    $(window).on("scroll", function(){
+       $("#subProjectsDropdown").tooltip().mouseover();
+       setTimeout(function(){ $("#subProjectsDropdown").tooltip('hide'); }, 3000);
+    });
+    // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        var projectLinkName = $(e.target).data("link-name");
+        var chartPeriod = $(e.target).data("chart-period");
+        $(".currentProject").html(projectLinkName);
+        // Setup the graph based on the event target's data-chart value
+        console.log(projectLinkName);
+        setupGraph(projectLinkName, chartPeriod);
+    });
     // Enable tooltips
     $('body').tooltip({
         selector: '[data-toggle="tooltip"]'
