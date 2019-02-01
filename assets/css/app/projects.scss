@@ -22,3 +22,15 @@
 .col-xs-6.col-sm-4.col-md-3.col-lg-2.project-item.small-text {
     font-size: 10px;
 }
+.chartContainer {
+    padding-top: 15px;
+}
+#wrapper .projectsQuickLinkDropdown + ul{
+    height:250px;
+    width:200px;
+    overflow-y:scroll;
+}
+#wrapper .projectsQuickLinkDropdown {
+    margin-bottom:5px;
+    color:white;
+}
