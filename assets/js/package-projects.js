@@ -4,6 +4,7 @@
 //= require vendor/lazysizes
 //= require vendor/ls.unveilhooks
 //= require vendor/Chart.min
+//= require vendor/jquery.stickytabs
 
 //= require app/search
 //= require app/projects
