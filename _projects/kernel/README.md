@@ -1,5 +1,7 @@
 ---
-image: /assets/images/projects/kernel.png
+image:
+  featured: 'true'
+  path: /assets/images/projects/kernel.png
 permalink: /engineering/projects/kernel/
 project_link_name: kernel
 project_url: https://www.kernel.org/category/about.html

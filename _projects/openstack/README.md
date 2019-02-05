@@ -1,5 +1,7 @@
 ---
-image: /assets/images/projects/open-stack.png
+image:
+  featured: 'true'
+  path: /assets/images/projects/open-stack.png
 permalink: /engineering/projects/openstack/
 project_link_name: openstack
 statsAvailable: 'false'

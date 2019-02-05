@@ -1,5 +1,7 @@
 ---
-image: /assets/images/projects/edgex-foundry.png
+image:
+  featured: 'true'
+  path: /assets/images/projects/edgex-foundry.png
 permalink: /engineering/projects/edgex-foundry/
 project_link_name: edgex-foundry
 project_url: https://www.edgexfoundry.org/

@@ -1,4 +1,7 @@
 ---
+image:
+  featured: 'true'
+  path: /assets/images/projects/apache-bigtop.png
 permalink: /engineering/projects/apache/
 statsAvailable: sub-projects
 sub_projects:

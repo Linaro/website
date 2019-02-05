@@ -1,5 +1,7 @@
 ---
-image: /assets/images/projects/docker.png
+image:
+  featured: 'true'
+  path: /assets/images/projects/docker.png
 permalink: /engineering/projects/docker/
 project_link_name: docker
 project_url: https://www.docker.com/
