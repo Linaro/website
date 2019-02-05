@@ -3,8 +3,14 @@ layout: container-breadcrumb
 js-package: projects
 css-package: work
 ---
+<div class="col-xs-12 col-sm-3 col-sm-push-9">
+    {% if page.image %}
+    <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{{page.image}}" alt="{{page.title}} logo" />
+    {% endif %}
+</div>
 {% if page.statsAvailable != "false" %}
-<div class="col-xs-12 col-sm-9 project-stats">
+<div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
     {% if page.project_link_name %}
     <div class="dropdown pull-right">
         <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink"
@@ -150,7 +156,7 @@ css-package: work
     {% include work-footer.html %}
 </div>
 {% else %}
-<div class="col-sm-9">
+<div class="col-xs-12 col-sm-9 col-sm-pull-3">
     <p>
         There are no stats available for this project but see below for projects that we do have stats for.
     </p>
@@ -167,9 +173,3 @@ css-package: work
     {% endfor %}
 </div>
 {% endif %}
-<div class="col-sm-3">
-    {% if page.image %}
-        <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        data-src="{{page.image}}" alt="{{page.title}} logo"/>
-    {% endif %}
-</div>
