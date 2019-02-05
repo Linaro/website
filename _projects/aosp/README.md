@@ -8,6 +8,6 @@ project_maintainers:
   last_name: Doan
   url: http://patches.linaro.org/api/users/479/?format=json
   username: andy.doan@linaro.org
-statsAvailable: 'false'
+statsAvailable: 'true'
 title: AOSP
 ---

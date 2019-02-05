@@ -2,6 +2,6 @@
 permalink: /engineering/projects/libffi-discuss/
 project_link_name: libffi-discuss
 project_url: n/a
-statsAvailable: 'false'
+statsAvailable: 'true'
 title: libffi-discuss
 ---

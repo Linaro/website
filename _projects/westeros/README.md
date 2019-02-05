@@ -1,6 +1,6 @@
 ---
 permalink: /engineering/projects/westeros/
 project_link_name: westeros
-statsAvailable: 'false'
+statsAvailable: 'true'
 title: westeros
 ---
