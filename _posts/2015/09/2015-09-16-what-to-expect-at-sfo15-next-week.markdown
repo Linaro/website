@@ -15,7 +15,7 @@ wordpress_id: 9297
 ---
 
 Welcome to [Linaro Connect San Francisco 2015!](https://connect.linaro.org/sfo15/)
-We are returning to the [Hyatt Regency Hotel](http://sanfranciscoairport.hyatt.com/en/hotel/our-hotel.html) in Burlingame, CA which is conveniently located next to the San Francisco airport. Hence, the shortcut reference of SFO15.
+We are returning to the [Hyatt Regency Hotel](https://www.hyatt.com/) in Burlingame, CA which is conveniently located next to the San Francisco airport. Hence, the shortcut reference of SFO15.
 
 {% include image.html name="evening-commute.jpg" alt="Evening Commute"%}
 
