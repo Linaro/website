@@ -37,7 +37,7 @@ So I started scripting. I wrote a Python script that allows me to specify which 
 
 Wow. This was good, I could now cleanly control the power on ports. Further testing proved it really was stable.
 
-I looked on the Cambrionix web site. OMG. They had [EtherSync](http://www.cambrionix.com/products/) - an 8 port USB hub that connected to your network, and allowed servers to…. well, see point (d) above.
+I looked on the Cambrionix web site. OMG. They had EtherSync - an 8 port USB hub that connected to your network, and allowed servers to…. well, see point (d) above.
 
 I phoned Cambrionix to tell them I was impressed, and suggested we have a meeting. Luca and I, the Lab team, went there and sat with them. They lent me an EtherSync. It was like they’d given me a brick of pure gold. I held it in my hands, not wanting to believe the holy grail was really in my hands at last.
 
