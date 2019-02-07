@@ -24,9 +24,6 @@ tags:
   - linux kernel
 ---
 
-&nbsp;
-{: .present-before-paste}
-
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm&reg; ecosystem, announced today the keynote speakers for Linaro Connect Bangkok 2019. Joining the hundreds of engineers at the Centara Grand in Bangkok, Thailand 1-5 April 2019, will be industry leaders invited to share their insights into different segments and topics relating to the Arm ecosystem.&nbsp;
 {: .present-before-paste}
 
