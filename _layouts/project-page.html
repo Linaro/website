@@ -4,12 +4,27 @@ js-package: projects
 css-package: work
 ---
 <div class="col-xs-12 col-sm-3 col-sm-push-9">
-    {% if page.image %}
-    <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        data-src="{{page.image}}" alt="{{page.title}} logo" />
+    {% if page.image.featured %}
+    <img class="center-block img-responsive lazyload m-b-10" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{{page.image.path}}" alt="{{page.title}} logo" />
+    {% endif %}
+    {% if page.project_maintainers != ""%}
+        <ul class="list-group">
+            <li class="list-group-item active">Project Maintainers</li>
+            {% for maintainer in page.project_maintainers %}
+                <li class="list-group-item">{{maintainer.first_name}} {{maintainer.last_name}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if page.project_url != "" and page.project_url != "n/a" %}
+        <ul class="list-group">
+            <a href="{{page.project_url}}">
+                <li class="list-group-item">View the {{page.title}} website</li>
+            </a>
+        </ul>
     {% endif %}
 </div>
-{% if page.statsAvailable != "false" %}
+{% if page.project_stats != "false" and page.project_stats != "sub-projects" %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
     {% if page.project_link_name %}
     <div class="dropdown pull-right">
@@ -155,6 +170,16 @@ css-package: work
     {% include linaro-contact-form.html %}
     {% include work-footer.html %}
 </div>
+{% elsif page.project_stats == "sub-projects" %}
+<div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
+    {% for project in page.sub_projects %}
+        <a href="{{project.url}}">
+            <div class="col-xs-6 col-sm-3 subProjectBlock">
+                <h3>{{project.project_name}}</h3>
+            </div>
+        </a>
+    {% endfor %}
+</div>
 {% else %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3">
     <p>
@@ -163,7 +188,7 @@ css-package: work
     {% assign projects = site.projects | where: 'project', 'true' %}
     {% for project in projects %}
     {% assign projectTextSize = project.title | size %}
-        {% if project.project_link_name or project.sub_projects %}
+        {% if project.project_stats != "false" %}
         <a href="{{project.url}}">
             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
                 {{project.title}} <i class="fa fa-area-chart" aria-hidden="true"></i>
