@@ -1,6 +1,8 @@
 ---
 permalink: /engineering/projects/fd.io/
 project_link_name: fd.io
-statsAvailable: 'true'
+project_maintainers: ''
+project_stats: 'true'
+project_url: ''
 title: fd.io
 ---

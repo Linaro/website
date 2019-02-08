@@ -1,6 +1,7 @@
 ---
 permalink: /engineering/projects/mr/
-statsAvailable: sub-projects
+project_maintainers: ''
+project_stats: sub-projects
 sub_projects:
 - project_email: mr-provisioner
   project_link_name: mr-provisioner
@@ -8,6 +9,7 @@ sub_projects:
   project_name: mr-provisioner
   project_patches_url: http://patches.linaro.org/api/projects/249/?format=json
   project_scm_url: ''
+  project_stats: 'true'
   project_url: https://github.com/mr-provisioner/mr-provisioner
 - project_email: mr-provisioner-client
   project_link_name: mr-provisioner-client
@@ -15,6 +17,7 @@ sub_projects:
   project_name: mr-provisioner-client
   project_patches_url: http://patches.linaro.org/api/projects/254/?format=json
   project_scm_url: ''
+  project_stats: 'true'
   project_url: https://github.com/Linaro/mr-provisioner-client
 title: mr
 ---

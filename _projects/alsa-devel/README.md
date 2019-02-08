@@ -8,7 +8,7 @@ project_maintainers:
   last_name: Doan
   url: http://patches.linaro.org/api/users/479/?format=json
   username: andy.doan@linaro.org
+project_stats: 'true'
 project_url: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit
-statsAvailable: 'true'
 title: alsa-devel
 ---
