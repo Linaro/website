@@ -86,7 +86,7 @@ _About Cisco:_ Cisco is the worldwide leader in IT that helps companies seize th
 
 “The close collaboration between Arm and Linaro is a critical component for the Arm eco-system,” said Sree Kotay, Chief Software Architect for Comcast. “We are looking forward to the Linaro Digital Home Group enabling the Arm platform for our Comcast devices.  This is an important step to Arm extending beyond closed cell phone operating systems.”
 
-_About Comcast Cable:_ Comcast Cable is the nation's largest video, high-speed Internet and phone provider to residential customers under the XFINITY brand and also provides these services to businesses. Comcast has invested in technology to build an advanced network that delivers among the fastest broadband speeds, and brings customers personalized video, communications and home management offerings. Comcast Corporation (Nasdaq: CMCSA, CMCSK) is a global media and technology company. Visit [www.comcastcorporation.com](http://www.comcastcorporation.com/) for more information.
+_About Comcast Cable:_ Comcast Cable is the nation's largest video, high-speed Internet and phone provider to residential customers under the XFINITY brand and also provides these services to businesses. Comcast has invested in technology to build an advanced network that delivers among the fastest broadband speeds, and brings customers personalized video, communications and home management offerings. Comcast Corporation (Nasdaq: CMCSA, CMCSK) is a global media and technology company. Visit www.comcastcorporation.com for more information.
 
 **STMicroelectronics**
 
