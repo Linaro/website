@@ -94,8 +94,8 @@ function setupGraph(projectLinkName, period){
 }
 // Process the perProjectPatches.json file and add data to relevant graphs
 function createInitialGraph() {
-    var projectLinkName = $("ul.stats-period-tabs > li.active").find("canvas").data("link-name");
-    var chartPeriod = $("ul.stats-period-tabs > li.active").find("canvas").data("chart-period");
+    var projectLinkName = $("ul.stats-period-tabs > li.active > a").data("link-name");
+    var chartPeriod = $("ul.stats-period-tabs > li.active > a").data("chart-period");
     setupGraph(projectLinkName, chartPeriod);
 }
 // Main on-load function
@@ -105,6 +105,7 @@ $(window).on("load", function () {
             selectorAttribute: "data-target",
             backToTop: true
         };
+        // $('.nav-tabs').stickyTabs(options);
         $('.nav-tabs').stickyTabs(options);
     });
     // Main Event Listeners
@@ -114,7 +115,19 @@ $(window).on("load", function () {
        setTimeout(function(){ $("#subProjectsDropdown").tooltip('hide'); }, 3000);
     });
     // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('.projects-tab-panel a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        console.log("Period panel has been clicked!");
+        var projectLinkName = $(e.target).data("link-name");
+        var projectName = $(e.target).data("project-name");
+        var chartPeriod = $(e.target).data("chart-period");
+        $(".currentProject").html(projectName);
+        // Setup the graph based on the event target's data-chart value
+        console.log(projectLinkName);
+        setupGraph(projectLinkName, chartPeriod);
+    });
+    // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
+    $('.subProjects a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        console.log("Sub Project tab has been clicked!");
         var projectLinkName = $(e.target).data("link-name");
         var chartPeriod = $(e.target).data("chart-period");
         $(".currentProject").html(projectLinkName);
