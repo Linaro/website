@@ -360,4 +360,56 @@ prose:
           label: "Select Category"
           placeholder: "Choose Category"
           options: https://www.linaro.org/assets/json/categories.json?callback=categories
+    _posts/events:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "hidden"
+          value: CURRENT_USER
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          placeholder: "Please add a suitable description for your post."
+          label: "Post Description"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Set the path to your featured image here. This will be used for the post image banner and the social media thumbnails."
+          placeholder: "/assets/images/blog/your-uploaded-image.png"
+          value: ""
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Disqus Comments Toggle"
+          value: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Post Tags"
+          placeholder: "Choose Tags"
+          options: https://www.linaro.org/assets/json/tags.json?callback=tags
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options: https://www.linaro.org/assets/json/categories.json?callback=categories
   

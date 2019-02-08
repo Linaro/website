@@ -12,7 +12,7 @@ jumbotron:
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
     buttons:
-        - title: Contact Us
+        - title: contact@linaro.org
           url: mailto:contact@linaro.org?subject=Linaro.org - Membership
           class: btn btn-linaro-home
 ---
