@@ -87,15 +87,7 @@ pages:
                 - text: Autonomous Vehicles
                   url: /engineering/incubators/autonomous-vehicles/          
           - text: Projects
-            options:
-                - text: Overview
-                  url: /engineering/projects/
-                - text: KernelCI
-                  url: /engineering/projects/kernelci/
-                - text: LAVA
-                  url: /engineering/projects/lava/
-                - text: LSK
-                  url: /engineering/projects/lsk/
+            url: /engineering/projects/
     - title: Services
       options:
           - text: Overview

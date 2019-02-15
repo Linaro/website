@@ -1,0 +1,77 @@
+.col-xs-6.col-sm-4.col-md-3.col-lg-2.project-item {
+    height: 40px;
+    text-align: center;
+    background-color: #434343;
+    border: 1px solid #353535;
+    color: white;
+    line-height:40px;
+    a {
+        color:white;
+    }
+    &:hover{
+        background-color: #151515;
+        color: white;
+        cursor:pointer;
+        transform: scale(1.1);
+        z-index:999;
+    }
+}
+#wrapper .project-stats ul.nav-tabs li a {
+    font-size: 14px;
+}
+.col-xs-6.col-sm-4.col-md-3.col-lg-2.project-item.small-text {
+    font-size: 10px;
+}
+.chartContainer {
+    padding-top: 15px;
+}
+#wrapper .projectsQuickLinkDropdown + ul{
+    height:250px;
+    width:200px;
+    overflow-y:scroll;
+}
+#wrapper .projectsQuickLinkDropdown {
+    margin-bottom:5px;
+    color:white;
+}
+// Sub Project Blocks
+.subProjectBlock {
+
+    background-color: #333333;
+    height:100px;
+    transition: all 100ms ease;
+
+    &:hover {
+        background-color: #1c1c1c;
+        transform: scale(1.1);
+        z-index:999;
+    }
+     h3 {
+        font-size: 16px;
+        margin:0px;
+        line-height:100px;
+        color:white;
+        text-align:center;
+    }
+}
+.projects-tab-panel {
+    display: block;
+    clear: both;
+}
+.dropdown.pull-right {
+    display: block;
+    clear: both;
+}
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+.nav-tabs {
+    text-align:center;
+}
+@media(max-width: $screen-sm-min - 1){
+    #wrapper .project-stats ul.nav-tabs li a {
+        font-size: 9px;
+    }
+}
