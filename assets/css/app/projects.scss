@@ -54,3 +54,24 @@
         text-align:center;
     }
 }
+.projects-tab-panel {
+    display: block;
+    clear: both;
+}
+.dropdown.pull-right {
+    display: block;
+    clear: both;
+}
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+.nav-tabs {
+    text-align:center;
+}
+@media(max-width: $screen-sm-min - 1){
+    #wrapper .project-stats ul.nav-tabs li a {
+        font-size: 9px;
+    }
+}
