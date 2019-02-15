@@ -8,14 +8,6 @@ css-package: work
     <img class="center-block img-responsive lazyload m-b-10" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
         data-src="{{page.image.path}}" alt="{{page.title}} logo" />
     {% endif %}
-    {% if page.project_maintainers != ""%}
-        <ul class="list-group">
-            <li class="list-group-item active">Project Maintainers</li>
-            {% for maintainer in page.project_maintainers %}
-                <li class="list-group-item">{{maintainer.first_name}} {{maintainer.last_name}}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
     {% if page.project_url != "" and page.project_url != "n/a" %}
         <ul class="list-group">
             <a href="{{page.project_url}}">
@@ -27,7 +19,7 @@ css-package: work
 {% if page.project_stats != "false" and page.project_stats != "sub-projects" %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
     {% if page.project_link_name %}
-    <div class="dropdown pull-right">
+    <!-- <div class="dropdown pull-right">
         <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             Other Projects
@@ -41,7 +33,7 @@ css-package: work
             </li>
             {% endfor %}
         </ul>
-    </div>
+    </div> -->
     <div role="tabpanel" class="projects-tab-panel">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs stats-period-tabs" role="tablist">
