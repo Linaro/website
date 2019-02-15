@@ -218,7 +218,6 @@ sub_projects:
   project_patches_url: http://patches.linaro.org/api/projects/20/?format=json
   project_scm_url: git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
   project_stats: 'true'
-  project_url: http://git.kernel.org/?p=linux/kernel/git/gregkh/usb-2.6.git;a=commit;h=
 - project_email: linux-watchdog@vger.kernel.org
   project_link_name: linux-watchdog
   project_maintainers: ''
