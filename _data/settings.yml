@@ -18,10 +18,6 @@ http2_resources:
   - rel: preload
     as: image
     href: /assets/images/Linaro-Sprinkle.png
-  - rel: preload
-    as: script
-    crossorigin: true
-    href: https://www.google-analytics.com/analytics.js
 
 
 # Site Slogan
