@@ -102,7 +102,7 @@ The highly technical sessions were dedicated to finding solutions to known probl
   5. Automation of power/performance testing on real hardware
 
 
-While the b.L IKS solution is members-only at this point, the b.L MP development can be tracked through a [public git tree](http://git.linaro.org/gitweb?p=people/vireshk/linux-linaro-big-LITTLE-MP.git;a=summary) and through announcements on the linaro-dev mailing list.
+While the b.L IKS solution is members-only at this point, the b.L MP development can be tracked through a [public git tree](http://git.linaro.org/people/vireshk/) and through announcements on the linaro-dev mailing list.
 
 For more information about each of these sessions and how you can get involved, see the links below for the full session notes. Where available, links to slides (pdf) and videos of the sessions are listed.
 
