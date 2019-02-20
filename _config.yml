@@ -123,7 +123,8 @@ defaults:
         path: ""
         type: "projects"
     values:
-        layout: work-layout
+        layout: project-page
+        project: true
   - scope:
         path: ""
         type: "services"
@@ -219,7 +220,7 @@ collections:
         permalink: /:collection/:path/
     projects:
         output: true
-        permalink: /:collection/:path/
+        permalink: /engineering/:collection/:path/
     initiatives:
         output: true
         permalink: /:collection/:path/

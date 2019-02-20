@@ -7,6 +7,7 @@ permalink: /membership/
 js-package: membership
 css-package: membership
 jumbotron:
+    triangle-divider: true
     background-image: /assets/images/content/membership-bg.jpg
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
     description: >-

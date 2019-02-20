@@ -1,0 +1,196 @@
+---
+layout: container-breadcrumb
+js-package: projects
+css-package: work
+---
+<div class="col-xs-12 col-sm-3 col-sm-push-9">
+    {% if page.image.featured %}
+    <img class="center-block img-responsive lazyload m-b-10" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{{page.image.path}}" alt="{{page.title}} logo" />
+    {% endif %}
+    {% if page.project_url != "" and page.project_url != "n/a" %}
+        <ul class="list-group">
+            <a href="{{page.project_url}}">
+                <li class="list-group-item">View the {{page.title}} website</li>
+            </a>
+        </ul>
+    {% endif %}
+</div>
+{% if page.project_stats != "false" and page.project_stats != "sub-projects" %}
+<div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
+    {% if page.project_link_name %}
+    <!-- <div class="dropdown pull-right">
+        <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Other Projects
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="projectsQuickLink">
+            {% assign projects = site.projects | where: 'project', 'true' %}
+            {% for project in projects %}
+            <li {% if page.url==project.url %}class="disabled" {% endif%}>
+                <a href="{{project.url}}">{{project.title}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div> -->
+    <div role="tabpanel" class="projects-tab-panel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs stats-period-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#previousWeek" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
+                 aria-controls="previousWeek" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
+            </li>
+            <li role="presentation">
+                <a href="#previousMonth" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
+                 aria-controls="previousMonth" data-chart-period="31" role="tab" data-toggle="tab">Last 30 Days</a>
+            </li>
+            <li role="presentation">
+                <a href="#previous3Months" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
+                 aria-controls="previous3Months" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane no-padding active" id="previousWeek">
+                <div class="chartContainer">
+                    <canvas id="projectStatsChart-{{page.project_link_name}}-7" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                        width="740" height="300"></canvas>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane no-padding" id="previousMonth">
+                <div class="chartContainer">
+                    <canvas id="projectStatsChart-{{page.project_link_name}}-31" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                        width="740" height="300"></canvas>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane no-padding " id="previous3Months">
+                <div class="chartContainer">
+                    <canvas id="projectStatsChart-{{page.project_link_name}}-90" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                        width="740" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% elsif page.sub_projects %}
+        <div class="dropdown pull-right">
+            <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+                Other Projects
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="projectsQuickLink">
+                {% assign projects = site.projects | where: 'project', 'true' %}
+                {% for project in projects %}
+                <li {% if page.url==project.url %}class="disabled" {% endif%}>
+                    <a href="{{project.url}}">{{project.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="subProjectsDropdown" class="dropdown pull-right" data-toggle="tooltip" data-placement="left" title="View the {{page.title}} sub projects">
+            <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="subProjectsDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Sub Projects
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu subProjects" aria-labelledby="subProjectsDropdown">
+                {% for subProject in page.sub_projects %}
+                <li>
+                    <a href="{{page.url}}{{subProject.project_link_name}}" data-link-name="{{subProject.project_link_name}}" 
+                    data-chart-period="7" data-project-name="{{subProject.project_name}}" data-chart="projectStatsChart-{{subProject.project_link_name}}"
+                        aria-controls="tab-{{subProject.project_link_name}}" role="tab" data-toggle="tab">{{subProject.project_name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    <div role="tabpanel" class="projects-tab-panel">
+        <!-- Nav tabs -->
+        <!-- <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" {% if forloop.first %}class="active"{% endif  %}>
+                <a >{{subProject.project_name}}</a>
+            </li>
+        </ul> -->
+        <!-- Tab panes -->
+        <div class="tab-content">
+            {% for subProject in page.sub_projects %}
+            <div role="tabpanel" class="tab-pane {% if forloop.first %}active{% endif %}" id="tab-{{subProject.project_link_name}}">
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs stats-period-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#previousWeek" aria-controls="previousWeek" data-chart="projectStatsChart-{{subProject.project_link_name}}-7"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#previousMonth" aria-controls="previousMonth" role="tab" data-chart="projectStatsChart-{{subProject.project_link_name}}-31"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="31" data-toggle="tab">Last 31 Days</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#previous3Months" aria-controls="previous3Months" data-chart="projectStatsChart-{{subProject.project_link_name}}-90"
+                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active no-padding" id="previousWeek">
+                            <div class="chartContainer">
+                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-7" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+                                    width="740" height="300"></canvas>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane no-padding" id="previousMonth">
+                            <div class="chartContainer">
+                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-31" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+                                    width="740" height="300"></canvas>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane no-padding" id="previous3Months">
+                            <div class="chartContainer">
+                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-90" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
+                                    width="740" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    {{content}}
+    {% include linaro-contact-form.html %}
+    {% include work-footer.html %}
+</div>
+{% elsif page.project_stats == "sub-projects" %}
+<div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
+    {% for project in page.sub_projects %} 
+        {% for each in site.projects %}
+            {% if each.project_link_name == project.project_link_name %}
+                <a href="{{each.url}}">
+                    <div class="col-xs-6 col-sm-3 subProjectBlock">
+                        <h3>{{project.project_name}}</h3>
+                    </div>
+                </a>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+{% else %}
+<div class="col-xs-12 col-sm-9 col-sm-pull-3">
+    <p>
+        There are no stats available for this project but see below for projects that we do have stats for.
+    </p>
+    {% assign projects = site.projects | where: 'project', 'true' %}
+    {% for project in projects %}
+    {% assign projectTextSize = project.title | size %}
+        {% if project.project_stats != "false" %}
+        <a href="{{project.url}}">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
+                {{project.title}} <i class="fa fa-area-chart" aria-hidden="true"></i>
+            </div>
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
