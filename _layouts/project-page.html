@@ -164,12 +164,16 @@ css-package: work
 </div>
 {% elsif page.project_stats == "sub-projects" %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
-    {% for project in page.sub_projects %}
-        <a href="{{project.url}}">
-            <div class="col-xs-6 col-sm-3 subProjectBlock">
-                <h3>{{project.project_name}}</h3>
-            </div>
-        </a>
+    {% for project in page.sub_projects %} 
+        {% for each in site.projects %}
+            {% if each.project_link_name == project.project_link_name %}
+                <a href="{{each.url}}">
+                    <div class="col-xs-6 col-sm-3 subProjectBlock">
+                        <h3>{{project.project_name}}</h3>
+                    </div>
+                </a>
+            {% endif %}
+        {% endfor %}
     {% endfor %}
 </div>
 {% else %}
