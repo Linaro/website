@@ -10,6 +10,7 @@ layout: jumbotron-container
 jumbotron:
     triangle-divider: true
     title: Projects
+    description: ""
     include: projects-jumbotron-include.html
     background-image: /assets/images/content/engineering-bg.jpg
 ---
