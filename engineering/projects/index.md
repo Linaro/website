@@ -10,15 +10,18 @@ layout: jumbotron-container
 jumbotron:
     triangle-divider: true
     title: Projects
+    description: ""
+    include: projects-jumbotron-include.html
     background-image: /assets/images/content/engineering-bg.jpg
 ---
+When a suitable target project doesn't exist, Linaro may create one. The first of these was the [Linaro Automated
+Validation Architecture](https://staging.linaro.org/engineering/projects/lava/)(LAVA) - Linaro needed a test and
+validation architecture for internal use and decided to create this as an open source project. The list of initiatives
+continues to grow and now includes software projects, an open hardware specification
+([96Boards](http://www.96boards.org/)) and Linaro's bi-annual event ([Linaro Connect](http://connect.linaro.org/)).
 
-<p>
-    Linaro focuses much of its engineering work on contributing to existing upstream projects like the <a href="https://www.kernel.org">Linux Kernel</a> and <a href="https://gcc.gnu.org/">GNU Compiler Collection</a>(GCC).
-    When a suitable target project doesn't exist, then Linaro may create one. The first of these was the <a href="/engineering/projects/lava/">Linaro Automated Validation Architecture</a>(LAVA) - Linaro needed a 
-    test and validation architecture for internal use and decided to create this as an open source project.  The list of initiatives continues to grow and now includes software projects,
-    an open hardware specification (<a href="http://www.96boards.org">96Boards</a>) and Linaro's bi-annual event (<a href="http://connect.linaro.org">Linaro Connect</a>).
-</p>
+Below is a list of all the open source projects we contribute to and/or maintain. Click on the project to find out more
+and view stats on contributions.
 
 <div class="projects">
 {% assign projects = site.projects | where: 'project', 'true' %}

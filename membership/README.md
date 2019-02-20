@@ -20,12 +20,24 @@ jumbotron:
 <div class="row padded-row testimonials" id="key-factors">
     <div class="container">
         <h2 class="text-center fly m-b-30">The value of Linaro and open source collaboration</h2>
-        <div class="col-xs-12 col-sm-4 col-sm-offset-2 fly text-center testimonial-col">
+        <div class="col-xs-12 col-sm-4 fly text-center testimonial-col">
+            <div class="col-xs-12 no-padding">
+                <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/thomas-molgaard-screen.png" preload="none">
+                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv" type="video/ogg">
+                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm" type="video/webm">
+                    <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-xs-12 no-padding testimonial-col text-center">
+                <h4>Thomas Molgaard - Director of Product Management at Arm</h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 fly text-center testimonial-col">
             <div class="col-xs-12 no-padding">
                 <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/jon-masters-screen.png" preload="none">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/ogg">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.webm" type="video/webm">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/JonMastersTestimonial.mp4" type="video/mp4">
+                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.ogv" type="video/ogg">
+                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.webm" type="video/webm">
+                    <source src="https://static.linaro.org/videos/JonMastersTestimonial.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="col-xs-12 no-padding testimonial-col text-center">
@@ -35,9 +47,9 @@ jumbotron:
         <div class="col-xs-12 col-sm-4 fly text-center testimonial-col">
             <div class="col-xs-12 no-padding">
                 <video controls="controls" class="lazyload img-responsive" poster="/assets/images/content/larry-wikelius-screen.png" preload="none">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
-                    <source src="https://s3.amazonaws.com/static-linaro-org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
+                    <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
+                    <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
+                    <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="col-xs-12 testimonial-col text-center">
