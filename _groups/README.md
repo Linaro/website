@@ -9,7 +9,7 @@ permalink: /engineering/groups/
 {% assign groups_list = site.groups | sort: 'group_id' %}
 {% for group in groups_list %}
 {% if group.icon %}
-<div class="col-xs-6 col-sm-2">
+<div class="col-xs-6 col-sm-3">
 <a href="{{group.permalink}}">
 <picture>
 <source srcset="{% if group.icon_hd %}{% asset_path '{{ group.icon_hd }}' %}{% endif %}" media="(max-width: 991px)" />

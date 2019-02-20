@@ -61,8 +61,6 @@ columns:
     - title: News & Events
       url: /resources/
       items:
-          - text: "News & Events"
-            url: /resources/
           - text: News
             url: /news/
           - text: Linaro Blog
