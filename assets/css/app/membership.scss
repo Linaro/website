@@ -375,3 +375,6 @@ div#key-factors.testimonials {
 .item.news-item {
     padding: 0px 10px;
 }
+.big-triangle::after, .big-triangle::before {
+    border-bottom-color: #141414;
+}
