@@ -168,3 +168,32 @@ ul#stacked-nav li a {
 ul#stacked-nav li.active a {
     color: white;
 }
+li.related_post {
+    background-color: #fafafa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+li.related_post:last-child {
+    border: none;
+}
+li.related_post a {
+    color: #000;
+    padding: 10px;
+}
+li.related_post span {
+    background-color:#efefef;
+    color:grey;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:inline-block;
+}
+ul.related_blog_posts {
+    border: 1px solid #898989;
+    margin-top:10px;
+}
+li.related_post:hover {
+    background-color: #d5d5d5;
+}
+li.related_post:hover a {
+    color:#000000;
+}
