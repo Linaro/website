@@ -7,18 +7,15 @@ keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/groups/ledge/
 group_short_name: ledge
 group_long_name: Linaro Edge (LEDGE)
-#icon: lite_icon.png
 director: Francois Ozog
 related_tags:
   - ledge
   - LEDGE
   - Edge
   - Fog
-#related_jira_project: https://projects.linaro.org/projects/LITE/summary
-#youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: ledge_members
 output: true
-icon: LEDGE col.svg
+image: /assets/images/content/LEDGE col.svg
 ---
 Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. 
 

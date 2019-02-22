@@ -7,12 +7,8 @@ keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, table
 permalink: /engineering/groups/lcg/
 group_short_name: lmg
 group_long_name: Linaro Mobile Group
-icon: LCG col.png
+image: /assets/images/content/LCG col.png
 director: Tom Gall
-related_projects:
-  - "1"
-  - "4"
-#related_initiatives:
 related_tags:
   - lmg
   - LMG
@@ -21,6 +17,7 @@ other_projects:
   - name: Linaro Confectionary Release (LCR) and AOSP
     url: https://wiki.linaro.org/LMG/AndroidEngineeringDelta
   - name: Project Ara
+    url: https://en.wikipedia.org/wiki/Project_Ara
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 members_key: lcg_members
