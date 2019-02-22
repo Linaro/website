@@ -183,14 +183,16 @@ css-package: work
 <hr>
 <i class="fa fa-file-text" aria-hidden="true"></i>
  <strong>Related Blog Posts</strong>
-<ul class="list-unstyled">
+<ul class="list-unstyled related_blog_posts">
     {% for tag in page.related_tags %}
         {% assign counter = 0 %}
         {% for post in site.posts %}
             {% if counter < 2 %}
                 {% if post.tags contains tag %}
-                    <li class="project_element mailing_list">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    <li class="related_post">
+                        <a href="{{ post.url }}">{{ post.title }}
+                            <span class="tag">{{tag}}</span>
+                        </a>
                     </li>
                     {% assign counter = counter | plus: 1 %}
                 {% endif %}
