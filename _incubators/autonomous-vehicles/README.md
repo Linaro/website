@@ -1,11 +1,12 @@
 ---
-strategic_initiative_id: 2
+incubator_id: 1
 title: Autonomous Vehicles (LAVS)
 description: |-
     Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.  
 keywords: Linaro, Autonomous, Stable, Kernel, Core, Android, Open Source, OS, Autonomous Vehicles, Autoware
 permalink: /engineering/incubators/autonomous-vehicles/
-icon: AutoCol.svg
+image: /assets/images/content/AutoCol.svg
+tech-lead: Hatem Darweesh
 ---
 Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.  
 Whilst a lot of this software exists, bringing it together into a system comprising entertainment and safety critical subsystems is a big task, essentially a retooling of software in automotive.
