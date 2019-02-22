@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: ''
 title: openocd
-display: false
+display: "false"
 ---

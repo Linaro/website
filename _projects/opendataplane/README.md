@@ -8,5 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://opendataplane.org
 title: OpenDataPlane
-display: false
+display: "false"
 ---

@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: n/a
 title: glcompbench
-display: false
+display: "false"
 ---

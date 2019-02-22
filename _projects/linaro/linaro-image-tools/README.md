@@ -5,5 +5,5 @@ project_link_name: linaro-image-tools
 project_stats: 'true'
 project_url: n/a
 title: linaro-image-tools
-display: false
+display: "false"
 ---

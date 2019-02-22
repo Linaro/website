@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: https://github.com/scheduler-tools/rt-app
 title: rt-app
-display: false
+display: "false"
 ---

@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: https://github.com/jackmitch/libsoc
 title: libsoc
-display: false
+display: "false"
 ---

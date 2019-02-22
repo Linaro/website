@@ -8,5 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://ceph.com/
 title: Ceph
-display: false
+display: "false"
 ---

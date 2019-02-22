@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: n/a
 title: libmatrix
-display: false
+display: "false"
 ---

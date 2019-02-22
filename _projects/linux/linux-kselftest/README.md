@@ -6,5 +6,5 @@ project_stats: 'true'
 project_url: https://git.kernel.org/cgit/linux/kernel/git/shuah/linux-kselftest.git/commit/?id=
 title: linux-kselftest
 image: /assets/images/projects/kernel.png
-display: false
+display: "false"
 ---

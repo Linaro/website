@@ -8,5 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://www.edgexfoundry.org/
 title: EdgeX Foundry
-display: false
+display: "false"
 ---

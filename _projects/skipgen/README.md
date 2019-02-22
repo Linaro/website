@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: https://github.com/Linaro/skipgen
 title: skipgen
-display: false
+display: "false"
 ---

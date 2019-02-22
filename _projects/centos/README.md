@@ -8,5 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://www.centos.org/
 title: CentOS
-display: false
+display: "false"
 ---

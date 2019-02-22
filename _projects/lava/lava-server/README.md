@@ -8,5 +8,5 @@ image:
   featured: 'true'
   path: /assets/images/projects/lava.png
 title: lava-server
-display: false
+display: "false"
 ---

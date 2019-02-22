@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: ''
 title: newlib
-display: false
+display: "false"
 ---

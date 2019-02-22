@@ -8,5 +8,5 @@ title: optee_benchmark
 image:
   featured: 'true'
   path: /assets/images/projects/op-tee.png
-display: false
+display: "false"
 ---

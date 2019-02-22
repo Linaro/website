@@ -8,5 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://www.opencompute.org/
 title: Open Compute Project
-display: false
+display: "false"
 ---

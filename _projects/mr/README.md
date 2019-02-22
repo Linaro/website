@@ -20,5 +20,5 @@ sub_projects:
   project_stats: 'true'
   project_url: https://github.com/Linaro/mr-provisioner-client
 title: mr
-display: false
+display: "false"
 ---

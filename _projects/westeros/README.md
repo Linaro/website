@@ -5,5 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: ''
 title: westeros
-display: false
+display: "false"
 ---
