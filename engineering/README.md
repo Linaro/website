@@ -115,7 +115,7 @@ jumbotron:
             </a>
         </div>
         {% endfor %}
-        <div class="col-xs-12">
+        <div class="col-xs-12 text-center">
             <a href="/engineering/projects/" class="btn btn-primary">
                 View Projects
             </a>
