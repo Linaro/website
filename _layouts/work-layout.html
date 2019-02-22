@@ -181,15 +181,23 @@ css-package: work
 
 {% if page.related_tags %}
 <hr>
-<strong>Related Blog Posts</strong>
+<i class="fa fa-file-text" aria-hidden="true"></i>
+ <strong>Related Blog Posts</strong>
 <ul class="list-unstyled">
     {% for tag in page.related_tags %}
-        {% assign random_post = site.tags[tag] | sample: 1 %}
-        {% if random_post.length > 0 %}
-            <li class="project_element mailing_list">
-                <a href="{{ random_post.url }}">{{ random_post.title }}</a>
-            </li>
-        {% endif %}
+        {% assign counter = 0 %}
+        {% for post in site.posts %}
+            {% if counter < 2 %}
+                {% if post.tags contains tag %}
+                    <li class="project_element mailing_list">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% assign counter = counter | plus: 1 %}
+                {% endif %}
+            {% else %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
 </ul>
 {% endif %}
