@@ -8,4 +8,5 @@ title: optee_gen_rootfs
 image:
   featured: 'true'
   path: /assets/images/projects/op-tee.png
+display: false
 ---

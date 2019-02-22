@@ -8,4 +8,5 @@ project_link_name: apache-spark
 project_stats: 'false'
 project_url: https://spark.apache.org/
 title: Apache Spark
+display: false
 ---

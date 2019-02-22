@@ -8,4 +8,5 @@ project_link_name: apache-ambari
 project_stats: 'false'
 project_url: https://ambari.apache.org/
 title: Apache Ambari
+display: false
 ---

@@ -8,4 +8,5 @@ title: optee_android_manifest
 image:
   featured: 'true'
   path: /assets/images/projects/op-tee.png
+display: false
 ---

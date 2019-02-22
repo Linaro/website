@@ -8,4 +8,5 @@ project_link_name: apache-bigtop
 project_stats: 'false'
 project_url: https://www.opencompute.org/
 title: Apache Bigtop
+display: false
 ---

@@ -8,4 +8,5 @@ title: lava-ci
 image:
   featured: 'true'
   path: /assets/images/projects/lava.png
+display: false
 ---

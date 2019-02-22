@@ -5,4 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: n/a
 title: lm-sensors
+display: false
 ---

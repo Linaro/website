@@ -8,4 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: http://www.openembedded.org/wiki/Main_Page
 title: OpenEmbedded
+display: false
 ---

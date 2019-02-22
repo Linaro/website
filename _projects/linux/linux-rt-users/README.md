@@ -6,4 +6,5 @@ project_stats: 'true'
 project_url: n/a
 title: Linux RT Users
 image: /assets/images/projects/kernel.png
+display: false
 ---

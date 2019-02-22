@@ -8,4 +8,5 @@ title: optee_bios_qemu_tz_arm
 image:
   featured: 'true'
   path: /assets/images/projects/op-tee.png
+display: false
 ---

@@ -34,4 +34,5 @@ sub_projects:
   project_stats: 'false'
   project_url: https://www.opencompute.org/
 title: apache
+display: false
 ---

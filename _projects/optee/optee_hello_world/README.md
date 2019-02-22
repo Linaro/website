@@ -8,4 +8,5 @@ title: optee_hello_world
 image:
   featured: 'true'
   path: /assets/images/projects/op-tee.png
+display: false
 ---

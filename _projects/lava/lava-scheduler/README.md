@@ -8,4 +8,5 @@ image:
   featured: 'true'
   path: /assets/images/projects/lava.png
 title: lava-scheduler
+display: false
 ---

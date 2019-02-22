@@ -25,4 +25,5 @@ sub_projects:
   project_name: lava-tool
 project_url: https://www.linaro.org/initiatives/lava/
 title: LAVA
+display: false
 ---
