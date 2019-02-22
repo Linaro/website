@@ -7,6 +7,7 @@ permalink: /about/join-us/
 js-package: careers
 css-package: careers
 jumbotron:
+    triangle-divider: true
     title: Want to help build technology for the future?
     description: ""
     carousel-images:
