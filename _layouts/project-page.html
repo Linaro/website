@@ -18,6 +18,9 @@ css-package: work
 </div>
 {% if page.project_stats != "false" and page.project_stats != "sub-projects" %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
+    <p>
+        The charts below show Linaro contributions made to the {{page.title}} upstream project over the past 7, 31 and 90 days.
+    </p>
     {% if page.project_link_name %}
     <!-- <div class="dropdown pull-right">
         <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink"
@@ -38,35 +41,35 @@ css-package: work
         <!-- Nav tabs -->
         <ul class="nav nav-tabs stats-period-tabs" role="tablist">
             <li role="presentation" class="active">
-                <a href="#previousWeek" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
-                 aria-controls="previousWeek" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
+                <a href="#previous3Months" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
+                 aria-controls="previous3Months" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
             </li>
             <li role="presentation">
                 <a href="#previousMonth" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
-                 aria-controls="previousMonth" data-chart-period="31" role="tab" data-toggle="tab">Last 30 Days</a>
+                aria-controls="previousMonth" data-chart-period="31" role="tab" data-toggle="tab">Last 30 Days</a>
             </li>
-            <li role="presentation">
-                <a href="#previous3Months" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
-                 aria-controls="previous3Months" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
+            <li role="presentation" >
+                <a href="#previousWeek" data-link-name="{{page.project_link_name}}" data-project-name="{{page.title}}"
+                    aria-controls="previousWeek" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
             </li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content">
-            <div role="tabpanel" class="tab-pane no-padding active" id="previousWeek">
+            <div role="tabpanel" class="tab-pane no-padding active" id="previous3Months">
                 <div class="chartContainer">
-                    <canvas id="projectStatsChart-{{page.project_link_name}}-7" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
-                        width="740" height="300"></canvas>
+                    <canvas id="projectStatsChart-{{page.project_link_name}}-90" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                    width="740" height="300"></canvas>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane no-padding" id="previousMonth">
                 <div class="chartContainer">
                     <canvas id="projectStatsChart-{{page.project_link_name}}-31" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
-                        width="740" height="300"></canvas>
+                    width="740" height="300"></canvas>
                 </div>
             </div>
-            <div role="tabpanel" class="tab-pane no-padding " id="previous3Months">
+            <div role="tabpanel" class="tab-pane no-padding " id="previousWeek">
                 <div class="chartContainer">
-                    <canvas id="projectStatsChart-{{page.project_link_name}}-90" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
+                    <canvas id="projectStatsChart-{{page.project_link_name}}-7" class="projectStatsChart" data-link-name="{{page.project_link_name}}"
                         width="740" height="300"></canvas>
                 </div>
             </div>
@@ -104,66 +107,14 @@ css-package: work
                 {% endfor %}
             </ul>
         </div>
-    <div role="tabpanel" class="projects-tab-panel">
-        <!-- Nav tabs -->
-        <!-- <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" {% if forloop.first %}class="active"{% endif  %}>
-                <a >{{subProject.project_name}}</a>
-            </li>
-        </ul> -->
-        <!-- Tab panes -->
-        <div class="tab-content">
-            {% for subProject in page.sub_projects %}
-            <div role="tabpanel" class="tab-pane {% if forloop.first %}active{% endif %}" id="tab-{{subProject.project_link_name}}">
-                <div role="tabpanel">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs stats-period-tabs" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#previousWeek" aria-controls="previousWeek" data-chart="projectStatsChart-{{subProject.project_link_name}}-7"
-                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="7" role="tab" data-toggle="tab">Last 7 days</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#previousMonth" aria-controls="previousMonth" role="tab" data-chart="projectStatsChart-{{subProject.project_link_name}}-31"
-                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="31" data-toggle="tab">Last 31 Days</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#previous3Months" aria-controls="previous3Months" data-chart="projectStatsChart-{{subProject.project_link_name}}-90"
-                             data-project-name="{{subProject.project_name}}" data-link-name="{{subProject.project_link_name}}" data-chart-period="90" role="tab" data-toggle="tab">Last 90 Days</a>
-                        </li>
-                    </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active no-padding" id="previousWeek">
-                            <div class="chartContainer">
-                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-7" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
-                                    width="740" height="300"></canvas>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane no-padding" id="previousMonth">
-                            <div class="chartContainer">
-                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-31" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
-                                    width="740" height="300"></canvas>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane no-padding" id="previous3Months">
-                            <div class="chartContainer">
-                                <canvas id="projectStatsChart-{{subProject.project_link_name}}-90" class="projectStatsChart" data-link-name="{{subProject.project_link_name}}"
-                                    width="740" height="300"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
     {% endif %}
     {{content}}
-    {% include linaro-contact-form.html %}
-    {% include work-footer.html %}
 </div>
 {% elsif page.project_stats == "sub-projects" %}
 <div class="col-xs-12 col-sm-9 col-sm-pull-3 project-stats">
+
+    <p>{{page.title}} upstream projects are split across multiple sub projects. Click a project below to see the contributions that Linaro has made in the past 7, 31 and 90 days.</p>
+
     {% for project in page.sub_projects %} 
         {% for each in site.projects %}
             {% if each.project_link_name == project.project_link_name %}
