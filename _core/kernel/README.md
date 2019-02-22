@@ -7,6 +7,10 @@ keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage
 permalink: /engineering/core/kernel/
 tech-lead: Mark Brown
 image: /assets/images/projects/kernel.png
+related_tags:
+  - kernel
+  - coresight
+  - KWG
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNcK4cX5OS6d4--lQdz6Zws
 ---
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.

@@ -8,6 +8,13 @@ keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hard
 permalink: /engineering/core/
 director: Mike Holmes
 image: /assets/images/content/chipCoreEng.svg
+related_tags:
+  - Core Dump
+  - Core
+  - Linaro Mobile Group
+  - Engineering
+  - Linux Kernel
+  - Kernel
 ---
 As demand for Linaro's collaborative engineering has grown, the company has expanded rapidly.
 

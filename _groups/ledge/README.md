@@ -13,6 +13,8 @@ related_tags:
   - LEDGE
   - Edge
   - Fog
+  - IoT
+  - LITE
 members_key: ledge_members
 output: true
 image: /assets/images/content/LEDGE col.svg

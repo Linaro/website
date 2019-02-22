@@ -4,6 +4,13 @@ description: |-
     Linaro was established in 2010 to reduce fragmentation and redundant effort in open source software for mobile applications. The organization’s original scope covered kernel consolidation, toolchain evolution and mobile middleware.
 keywords: Linaro, mobile, toolchain, middleware, open source, Android, code, validation, testing, Boards
 permalink: /engineering/groups/
+related_tags:
+  - LITE
+  - LEDGE
+  - LCF
+  - Embedded
+  - Android
+  - IoT
 ---
 <div class="col-xs-12 group_icon_col">
 {% assign groups_list = site.groups | sort: 'group_id' %}

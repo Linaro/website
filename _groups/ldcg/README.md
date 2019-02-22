@@ -24,6 +24,10 @@ related_tags:
   - Cloud
   - Datacentre
   - Datacenter
+  - LTNS
+  - LTN
+  - HPC
+  - Developer Cloud
 related_jira_project: https://projects.linaro.org/projects/LEG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtWUBuB2DcSEADXqJm6r12
 members_key: lcdg_members

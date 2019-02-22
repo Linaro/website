@@ -7,6 +7,11 @@ keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 permalink: /engineering/incubators/machine-intelligence/
 image: /assets/images/content/Machine col.svg
 tech-lead: Gaurav Kaul
+related_tags:
+  - Automotive
+  - ML
+  - AI/ML
+  - Autoware
 ---
 {% include media.html media_url="https://www.youtube.com/watch?v=EHM-krkB42Y" %}
 

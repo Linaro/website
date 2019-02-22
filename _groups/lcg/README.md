@@ -3,7 +3,7 @@ group_id: 3
 title: Linaro Consumer Group (LCG)
 description: |-
     Linaro was founded by companies focused on working together in the mobile space.
-keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables
+keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables, LCG, LMG
 permalink: /engineering/groups/lcg/
 group_short_name: lmg
 group_long_name: Linaro Mobile Group
@@ -12,7 +12,9 @@ director: Tom Gall
 related_tags:
   - lmg
   - LMG
+  - LCG
   - Linaro Mobile Group
+  - Android 
 other_projects:
   - name: Linaro Confectionary Release (LCR) and AOSP
     url: https://wiki.linaro.org/LMG/AndroidEngineeringDelta
