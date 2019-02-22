@@ -24,21 +24,6 @@ css-package: work
         90 days. These stats are collected from <a href="https://patches.linaro.org">patches.linaro.org</a>.
     </p>
     {% if page.project_link_name %}
-    <!-- <div class="dropdown pull-right">
-        <button class="btn btn-default dropdown-toggle projectsQuickLinkDropdown" type="button" id="projectsQuickLink"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Other Projects
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="projectsQuickLink">
-            {% assign projects = site.projects | where: 'project', 'true' %}
-            {% for project in projects %}
-            <li {% if page.url==project.url %}class="disabled" {% endif%}>
-                <a href="{{project.url}}">{{project.title}}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div> -->
     <div role="tabpanel" class="projects-tab-panel">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs stats-period-tabs" role="tablist">
@@ -124,7 +109,7 @@ css-package: work
 
     {% for project in page.sub_projects %}
     {% for each in site.projects %}
-    {% if each.project_link_name == project.project_link_name %}
+    {% if each.project_link_name == project.project_link_name and project.display != "false" %}
     <a href="{{each.url}}">
         <div class="col-xs-6 col-sm-3 subProjectBlock">
             <h3>{{project.project_name}}</h3>
