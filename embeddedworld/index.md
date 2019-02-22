@@ -7,8 +7,7 @@ keywords: Embedded World, Arm, Linux, 96Boards, ST, Arrow
 layout: jumbotron
 jumbotron:
     title: Thanks for getting in touch!
-    description: >
-        ""
+    description: ""
     triangle-divider: true
     background-image: /assets/images/content/EmbeddedWorldBoardImage.jpg
 css-package: home
