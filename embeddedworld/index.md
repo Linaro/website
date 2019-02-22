@@ -1,12 +1,12 @@
 ---
-title: Embedded World
+title: Tell me more about Linaro and Open Source Collaboration
 permalink: /embeddedworld/
 description: > 
     Thanks for getting in touch. We hope you had a great time at Embedded World. You can find more information about Linaro from the links below, or let us know what your question is, we’ll do the work and get back to you.
 keywords: Embedded World, Arm, Linux, 96Boards, ST, Arrow
 layout: jumbotron
 jumbotron:
-    title: Embedded World
+    title: Tell me more about Linaro and Open Source Collaboration
     description: >
         Thanks for getting in touch. We hope you had a great time at Embedded World. You can find more information about Linaro from the links below, or let us know what your question is, we’ll do the work and get back to you.
     triangle-divider: true
