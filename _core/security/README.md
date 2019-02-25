@@ -3,18 +3,19 @@ core_id: "4"
 title: Security work at Linaro
 description: |-
     The Linaro Security Working Group (SWG) mission is to support Arm Open Source Linux distributions on security related topics.
-keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform
+keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
 permalink: /engineering/core/security/
 principal-engineer: Joakim Bech
-related_projects:
-  - "5"
-related_initiatives:
-  - "9"
+projects:
+  - title: OP-TEE
+    url: /engineering/projects/optee/
+related_tags:
+  - OP-TEE
+  - Security
+  - Trusted Firmware
+  - SWG
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOuFyjUlWFWUulxXOhhtsEf&playnext=1
-image:
-  featured: true
-  path: /assets/images/blog/meltdown-spectre-download-linaro.jpg
-  name: meltdown-spectre-download-linaro.jpg  
+image: /assets/images/projects/op-tee.png
 ---
 The Linaro Security Working Group (SWG) was created to help ensure an optimised
 and efficient software ecosystem exists to support Arm Open Source Linux

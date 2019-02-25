@@ -27,12 +27,14 @@ and view stats on contributions.
 {% assign projects = site.projects | where: 'project', 'true' %}
 {% for project in projects %}
     {% assign projectTextSize = project.title | size %}
-    {% unless project.project_stats == "false"%}
-    <a href="{{project.url}}">
-        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
-            {{project.title}} {% if project.project_stats != "false"%}<i class="fa fa-area-chart" aria-hidden="true"></i>{% endif %}
-        </div>
-    </a>
+    {% unless project.project_stats == "false" %}
+        {% unless project.display == "false" %}
+            <a href="{{project.url}}">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
+                    {{project.title}} {% if project.project_stats != "false"%}<i class="fa fa-area-chart" aria-hidden="true"></i>{% endif %}
+                </div>
+            </a>
+        {% endunless %}
     {% endunless %}
 {% endfor %}
 </div>
@@ -43,12 +45,14 @@ and view stats on contributions.
 {% assign projects = site.projects | where: 'project', 'true' %}
 {% for project in projects %}
     {% assign projectTextSize = project.title | size %}
-    {% if project.project_stats == "false"%}
+    {% if project.project_stats == "false" %}
+    {% unless project.display == "false" %}
     <a href="{{project.url}}">
         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 project-item {% if projectTextSize > 13 %}small-text{% endif %}">
             {{project.title}}
         </div>
     </a>
+    {% endunless %}
     {% endif  %}
 {% endfor %}
 </div>

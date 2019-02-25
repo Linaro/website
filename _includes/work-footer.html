@@ -36,25 +36,6 @@
   <div class="col-sm-4 work_footer_col">
     <ul class="list-unstyled">
       <li class="work_footer_li">
-        <a href="/engineering/projects/">
-            <b>Projects</b>
-        </a>
-      </li>
-      {% for project in site.projects %}
-        {% if project.project_id %}
-          <li class="work_footer_li">
-            <a href="{{project.permalink}}">
-              {{project.title}}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="col-sm-4 work_footer_col">
-    <ul class="list-unstyled">
-      <li class="work_footer_li">
           <a href="/sig/">
               <b>Special Interest Group (SIG)</b>
           </a>
@@ -68,6 +49,24 @@
           </li>
         {% endif %}
       {% endfor %}
+    </ul>
+
+    <ul class="list-unstyled">
+        <li class="work_footer_li">
+            <a href="/engineering/incubators/">
+                <b>Incubators</b>
+            </a>
+        </li>
+        {% assign incubators = site.incubators | sort: 'incubator_id'  %}
+        {% for incubator in incubators %}
+        {% if incubator.incubator_id %}
+        <li class="work_footer_li">
+            <a href="{{incubator.permalink}}">
+                {{incubator.title}}
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
     </ul>
   </div>
 

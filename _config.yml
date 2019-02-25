@@ -84,6 +84,10 @@ twitter:
 defaults:
   - scope:
         path: ""
+    values:
+        image: /assets/images/social-media-image.png
+  - scope:
+        path: ""
         type: "posts"
     values:
         layout: post
@@ -114,11 +118,13 @@ defaults:
         type: "groups"
     values:
         layout: work-layout
+        image: ""
   - scope:
         path: ""
         type: "core"
     values:
         layout: work-layout
+        image: ""
   - scope:
         path: ""
         type: "projects"
@@ -138,6 +144,7 @@ defaults:
         type: "incubators"
     values:
         layout: work-layout
+        image: ""
   - scope:
         path: ""
         type: "sig"
@@ -147,10 +154,7 @@ defaults:
         path: "/sitemap.xml"
     values:
         redirect_from: /sitemap/
-  - scope:
-      path: ""
-    values:
-      image: /assets/images/social-media-image.png
+
 
 # Gems that should be included in the Jekyll builld of this site.
 plugins:

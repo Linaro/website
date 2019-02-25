@@ -5,4 +5,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: https://github.com/libhugetlbfs/libhugetlbfs
 title: libhugetlbfs
+display: "false"
 ---

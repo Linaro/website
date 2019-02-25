@@ -26,6 +26,7 @@ tags:
 - Open Source
 - Opensource
 - toolchain
+- Linaro Mobile Group
 title: LCU14 Monday Wrap-up
 wordpress_id: 6682
 ---

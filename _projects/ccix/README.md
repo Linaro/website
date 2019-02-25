@@ -8,4 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://www.ccixconsortium.com/
 title: CCIX
+display: "false"
 ---

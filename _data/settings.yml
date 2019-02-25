@@ -9,8 +9,8 @@ http2_resources:
   - rel: preload
     as: image
     href: /assets/images/Linaro-Sprinkle.png
-
-
+# Ascii Art
+ascii-art: ascii-art.html
 # Site Slogan
 slogan: Leading collaboration in the Arm Ecosystem
 # Mailchimp settings

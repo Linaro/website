@@ -18,6 +18,7 @@ tags:
 - Linaro Connect
 - Linux
 - Linux on Arm
+- Linaro Mobile Group
 - Open Source
 title: Linaro Connect Hong Kong 2015- week in review
 wordpress_id: 8250
