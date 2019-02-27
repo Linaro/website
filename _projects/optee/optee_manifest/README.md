@@ -5,4 +5,7 @@ project_link_name: optee_manifest
 project_stats: 'true'
 project_url: https://github.com/OP-TEE/manifest
 title: optee_manifest
+image:
+  featured: 'true'
+  path: /assets/images/projects/op-tee.png
 ---

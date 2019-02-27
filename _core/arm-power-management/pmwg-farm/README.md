@@ -7,7 +7,6 @@ description: >-
 keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel'
 permalink: /engineering/core/arm-power-management/pmwg-farm/
 director: Vincent Guittot
-related_projects: "4"
 youtube_playlist: 'https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib'
 ---
 

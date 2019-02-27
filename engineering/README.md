@@ -106,7 +106,7 @@ jumbotron:
 </div>
 <div class="row padded-row" id="content-container">
     <div class="container projects">
-        <h2 class="text-center">Projects</h2>
+        <h2 class="text-center">Featured Projects</h2>
         {% assign sorted-projects = site.data.projects | sort: 'name' %}
         {% for project in sorted-projects %}
         <div class="col-xs-6 col-sm-3 col-md-2 project-col">
@@ -115,5 +115,10 @@ jumbotron:
             </a>
         </div>
         {% endfor %}
+        <div class="col-xs-12 text-center">
+            <a href="/engineering/projects/" class="btn btn-primary">
+                View Projects
+            </a>
+        </div>
     </div>
 </div>

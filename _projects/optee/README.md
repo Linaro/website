@@ -91,5 +91,9 @@ sub_projects:
   project_scm_url: ''
   project_stats: 'true'
   project_url: https://github.com/OP-TEE/optee_test
-title: optee
+title: OP-TEE
+image:
+  featured: 'true'
+  path: /assets/images/projects/op-tee.png
+project_url: https://www.op-tee.org
 ---

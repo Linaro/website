@@ -7,14 +7,11 @@
 .col-sm-4.work_footer_col {
     padding-left: 0;
 }
-
-
 // Padding fix for sub menu in work section
 div#work_section {
     padding-right: 0;
     padding-left: 0;
 }
-
 .col-sm-4.work_footer_col li:first-child {
     border-top: 0 !important;
 }
@@ -58,40 +55,31 @@ img.img-responsive.group_icon {
   margin-bottom: 40px;
   margin-top: 0;
 }
-
 #work_section hr, #main-container hr {
     border-top: 1px solid #ccc;
 }
-
 #work_section ul.nav.nav-pills.nav-stacked > li.active > a{
     background-color: #ebebeb;
     font-weight: bold;
     color: #9758b7;
 }
-
 #work_section li.project_element {
     padding: 10px;
 }
-
-
 #work_section ul.nav.nav-pills.nav-stacked > li:hover > a{
     background-color: transparent;
 }
-
 svg.mk-svg-icon.work {
     height: 80%;
     width: 80%;
     margin-top: 5px;
     fill: #333333;
     opacity: 1;
-
     transition: all 500ms ease;
 }
-
 .col-sm-6.col-md-3.text-center.work_icon_col {
     padding: 70px;
 }
-
 .about-icon{
     width: 100px;
     height: 100px;
@@ -102,11 +90,9 @@ svg.mk-svg-icon.work {
     margin-right: auto;
     margin-bottom: 10px;
 }
-
 .about-icon.work:hover svg.mk-svg-icon.work{
     opacity: .8;
 }
-
 .about-icon.work:hover + a{
     opacity: 1;
 }
@@ -114,34 +100,27 @@ svg.mk-svg-icon.work {
     border: 1px solid #333333;
     transition: all 500ms ease;
 }
-
 .about-icon.work a {
     text-decoration: none;
     color: #9658b7;
     opacity: .8;
-
     transition: all 500ms ease;
 }
-
 div.work-icon-col{
     padding: 20px;
 }
-
 a.btn.btn-lead-projects {
     background-color: #a681b8;
     color: white !important;
-
     transition: all 500ms ease;
 }
 a.btn.btn-lead-projects:hover {
     background-color: #9758b7;
     color: white !important;
 }
-
 .col-xs-12.contact_form, .col-xs-12.group_playlist {
     padding: 0;
 }
-
 .col-xs-12.group_member_images {
     margin-bottom: 30px;
     padding-top: 20px;
@@ -150,7 +129,6 @@ a.btn.btn-lead-projects:hover {
     padding-bottom: 0;
     border-top: 1px solid #eee;
 }
-
 .lead_projects i.glyphicon.glyphicon-lock {
     margin-right: 17px;
     display: block;
@@ -158,11 +136,9 @@ a.btn.btn-lead-projects:hover {
     line-height: 35px;
     margin-top: auto;
 }
-
 div.group_member_images > h5 {
     margin-bottom: 20px;
 }
-
 div.group_member_images > .col-md-2.col-sm-3.col-xs-4 {
     min-height: 100px;
 }
@@ -172,7 +148,52 @@ div.group_member_images > .col-md-2.col-sm-3.col-xs-4 {
         margin-bottom: 35px;
     }
 }
-
 #content-container ul ul {
     margin-top: 10px;
+}
+ul#stacked-nav {
+    margin-bottom: 20px;
+    border: 1px solid silver;
+    border-bottom: 4px solid silver;
+}
+ul#stacked-nav li {
+    background-color: #f7f7f7;
+}
+ul#stacked-nav li:first-child {
+    background-color: #d7d7d7;
+}
+ul#stacked-nav li a {
+    color: #000;
+}
+ul#stacked-nav li.active a {
+    color: white;
+}
+li.related_post {
+    background-color: #fafafa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+li.related_post:last-child {
+    border: none;
+}
+li.related_post a {
+    color: #000;
+    padding: 10px;
+}
+li.related_post span {
+    background-color:#efefef;
+    color:grey;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:inline-block;
+}
+ul.related_blog_posts {
+    border: 1px solid #898989;
+    margin-top:10px;
+}
+li.related_post:hover {
+    background-color: #d5d5d5;
+}
+li.related_post:hover a {
+    color:#000000;
 }

@@ -1,22 +1,25 @@
 ---
 title: Engineering Groups
 description: |-
-    Linaro was established in 2010 to reduce fragmentation and redundant effort in open source software for mobile applications.
+    Linaro was established in 2010 to reduce fragmentation and redundant effort in open source software for mobile applications. The organization’s original scope covered kernel consolidation, toolchain evolution and mobile middleware.
 keywords: Linaro, mobile, toolchain, middleware, open source, Android, code, validation, testing, Boards
 permalink: /engineering/groups/
+related_tags:
+  - LITE
+  - LEDGE
+  - LCF
+  - Embedded
+  - Android
+  - IoT
 ---
 <div class="col-xs-12 group_icon_col">
 {% assign groups_list = site.groups | sort: 'group_id' %}
 {% for group in groups_list %}
-{% if group.icon %}
+{% if group.image %}
 <div class="col-xs-6 col-sm-3">
-<a href="{{group.permalink}}">
-<picture>
-<source srcset="{% if group.icon_hd %}{% asset_path '{{ group.icon_hd }}' %}{% endif %}" media="(max-width: 991px)" />
-<source srcset="{% if group.icon %}{% asset_path '{{group.icon}}' %}{% endif %}" media="(min-width: 992px)" />
-<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '{{group.icon}}'%}" class="lazyload img-responsive group_icon"/>
-</picture>
-</a>
+    <a href="{{group.permalink}}">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{group.image}}" class="lazyload img-responsive group_icon"/>
+    </a>
 </div>
 {% endif %}
 {% endfor %}

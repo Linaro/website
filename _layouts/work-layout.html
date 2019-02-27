@@ -5,33 +5,28 @@ css-package: work
 ---
 <div class="col-md-3 no-padding">
 {% include stacked-nav.html %}
-{% if page.icon %}
-<hr />
-<picture>
-  {% if page.icon_hd %}
-    <source srcset="{% asset_path '{{ page.icon_hd }}' %}" media="(max-width: 991px)" />
-  {% endif %}
-  <source srcset="{% if page.icon %}{% asset_path '{{page.icon}}' %}{% endif %}" media="(min-width: 992px)" />
-  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% asset_path '{{page.icon}}'%}" class="lazyload img-responsive group_icon"/>
-</picture>
+
+{% if page.image %}
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="{{page.image}}" class="lazyload img-responsive group_icon" />
 {% endif %}
 
 {% if page.director %}
 <hr />
-<strong>Director: </strong> {{page.director}}
+<i class="fa fa-user" aria-hidden="true"></i><strong>Director: </strong> {{page.director}}
 {% endif %}
 {% if page.tech-lead %}
 <hr />
-<strong>Tech Lead: </strong> {{page.tech-lead}}
+<i class="fa fa-user" aria-hidden="true"></i><strong>Tech Lead: </strong> {{page.tech-lead}}
 {% endif %}
 {% if page.principal-engineer %}
 <hr />
-<strong>Principal Engineer: </strong> {{page.principal-engineer}}
+<i class="fa fa-user" aria-hidden="true"></i><strong>Principal Engineer: </strong> {{page.principal-engineer}}
 {% endif %}
 
 {% if page.related_projects %}
   <hr />
-  <strong>Lead Projects</strong>
+    <i class="fa fa-code" aria-hidden="true"></i> <strong>Lead Projects</strong>
   <ul class="list-unstyled">
     {% for related_project_id in page.related_projects %}
       {% for project in site.projects %}
@@ -41,6 +36,31 @@ css-package: work
           </li>
         {% endif %}
       {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{% if page.releases %}
+  <hr />
+  <i class="fa fa-cloud-download" aria-hidden="true"></i><strong>Related Releases</strong>
+  <ul class="list-unstyled">
+    {% for release in page.releases %}
+        <li class="project_element lead_project">
+            <a href="{{ release.url }}">{{ release.title }}</a>
+        </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.projects %}
+  <hr />
+  <i class="fa fa-code" aria-hidden="true"></i><strong>Projects</strong>
+  <ul class="list-unstyled">
+    {% for project in page.projects %}
+          <li class="project_element lead_project">
+            <a href="{{ project.url }}">{{ project.title }}</a>
+          </li>
     {% endfor %}
   </ul>
 {% endif %}
@@ -80,7 +100,7 @@ css-package: work
 
 {% if page.other_projects %}
   <hr />
-  <strong>Other Projects</strong>
+  <i class="fa fa-code" aria-hidden="true"></i> <strong>Other Projects</strong>
   <ul class="list-unstyled">
     {% for other_project in page.other_projects %}
           <li class="project_element other_project">
@@ -90,23 +110,6 @@ css-package: work
               {{ other_project.name }}
             {% endif %}
           </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
-
-{% if page.related_groups %}
-  <hr />
-  <strong>Related Groups</strong>
-  <ul class="list-unstyled">
-    {% for related_group_shortname in page.related_groups %}
-      {% for group in site.groups %}
-        {% if group.group_short_name == related_group_shortname %}
-          <li class="project_element related_group">
-            <a href="{{ group.permalink }}">{{ group.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
     {% endfor %}
   </ul>
 {% endif %}
@@ -173,6 +176,32 @@ css-package: work
           </li>
     {% endfor %}
   </ul>
+{% endif %}
+
+
+{% if page.related_tags %}
+<hr>
+<i class="fa fa-file-text" aria-hidden="true"></i>
+ <strong>Related Blog Posts</strong>
+<ul class="list-unstyled related_blog_posts">
+    {% for tag in page.related_tags %}
+        {% assign counter = 0 %}
+        {% for post in site.posts %}
+            {% if counter < 2 %}
+                {% if post.tags contains tag %}
+                    <li class="related_post">
+                        <a href="{{ post.url }}">{{ post.title }}
+                            <span class="tag">{{tag}}</span>
+                        </a>
+                    </li>
+                    {% assign counter = counter | plus: 1 %}
+                {% endif %}
+            {% else %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</ul>
 {% endif %}
 
 <hr />

@@ -234,5 +234,6 @@ sub_projects:
   project_scm_url: git://git.kernel.org/pub/scm/linux/kernel/git/linville/wireless-next.git
   project_stats: 'true'
   project_url: http://git.kernel.org/?p=linux/kernel/git/linville/wireless-next.git;a=commit;h=
-title: linux
+title: Linux
+image: /assets/images/projects/kernel.png
 ---
