@@ -5,4 +5,7 @@ project_link_name: optee_os
 project_stats: 'true'
 project_url: https://github.com/OP-TEE/optee_os
 title: optee_os
+image:
+  featured: 'true'
+  path: /assets/images/projects/op-tee.png
 ---

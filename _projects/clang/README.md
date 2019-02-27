@@ -8,4 +8,5 @@ project_maintainers: ''
 project_stats: 'false'
 project_url: https://clang.llvm.org/
 title: Clang
+display: "false"
 ---

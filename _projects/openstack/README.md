@@ -6,6 +6,6 @@ permalink: /engineering/projects/openstack/
 project_link_name: openstack
 project_maintainers: ''
 project_stats: 'true'
-project_url: ''
+project_url: https://www.openstack.org/
 title: OpenStack
 ---

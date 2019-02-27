@@ -8,4 +8,5 @@ project_maintainers: ''
 project_stats: 'true'
 project_url: n/a
 title: cairo
+display: "false"
 ---

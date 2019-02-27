@@ -16,10 +16,6 @@ js-package: main
                     {% include {{site.data.footer.include}} %}
                 {% endif %}
                 
-                {% if site.data.settings.newsletter.enabled == true %}
-                    {% include newsletter-script.html %}
-                {% endif %}
-
                 {% include footer.html %}
             </div>
             {% include javascript.html %}

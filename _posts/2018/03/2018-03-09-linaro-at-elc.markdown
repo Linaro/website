@@ -10,7 +10,7 @@ image:
 keywords: "ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm"
 layout: post
 published: true
-tags: "ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm"
+tags: [ELC, LKFT, Linux, Kernel, Android, I/O, Linaro, Open Source, Arm, Linaro Mobile Group]
 title: "Linaro at ELC"
 ---
 
