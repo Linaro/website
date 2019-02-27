@@ -13,23 +13,23 @@ $(document).ready(function(){
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-    "https://linux.codehelp.co.uk/blog.xml",
-    "http://www.workofard.com/feed/",
-    "https://pierrchen.blogspot.com/rss.xml",
-    "http://www.metaklass.org/rss/",
-    "https://blog.sirena.org.uk/feed/",
-    "https://marcin.juszkiewicz.com.pl/feed/",
-    "https://fullshovel.wordpress.com/feed/",
-    "https://translatedcode.wordpress.com/feed/",
-    "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro",
-    "http://nerdrambles.wordpress.com/category/Linaro/feed/",
-    "http://www.bennee.com/~alex/blog/tag/linaro/feed/",
-    "https://station.eciton.net/index.rss",
-    "https://blog.duraffort.fr/feed/tag/linaro/rss",
-    "https://nbhat-ho2016.blogspot.co.uk/rss.xml",
-    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml",
-    "https://www.davidb.org/index.xml",
-    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/"
+    "https://linux.codehelp.co.uk/blog.xml", // Neil Williams
+    "http://www.workofard.com/feed/", // Ard Biesheuvel
+    "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
+    "http://www.metaklass.org/rss/", // Jorge Niedbalski
+    "https://blog.sirena.org.uk/feed/", // Mark Brown
+    "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
+    "https://fullshovel.wordpress.com/feed/", // Tom Gall
+    "https://translatedcode.wordpress.com/feed/", // Peter Maydell
+    "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
+    "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
+    "http://www.bennee.com/~alex/blog/tag/linaro/feed/", // Alex Bennee
+    "https://station.eciton.net/index.rss", // Leif Lindholm
+    "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
+    "https://nbhat-ho2016.blogspot.co.uk/rss.xml", // Naresh Bhat
+    "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml", // Gema Gomez
+    "https://www.davidb.org/index.xml", // David Brown
+    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/" // Daniel Thompson
 ];
 var sortableFeeds = feeds.slice();
 
