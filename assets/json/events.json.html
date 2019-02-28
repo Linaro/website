@@ -1,8 +1,7 @@
 ---
 permalink: /assets/json/events.json
 ---
-func([
-{% for post in site.categories["events"] %}
+[{% for post in site.categories["events"] %}
     {% if post.tag == "event" %}
     {
         "id": "{{ post.id }}",
@@ -12,5 +11,4 @@ func([
         "date_published": "{{ post.date }}"
     }{% unless forloop.last == true %},{% endunless %}
     {% endif %}
-{% endfor %}
-]);
+{% endfor %}]

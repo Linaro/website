@@ -20,11 +20,9 @@ permalink: /assets/json/tags.json
 {% endif %}
 {% endfor %}
 
-tags([
-{% for tag in tags %}
+[{% for tag in tags %}
 {
 "name": "{{ tag | capitalize }}",
 "value": "{{ tag }}"
 }{% unless forloop.last == true %},{% endunless %}
-{% endfor %}
-]);
+{% endfor %}]

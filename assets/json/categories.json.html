@@ -1,11 +1,9 @@
 ---
 permalink: /assets/json/categories.json
 ---
-categories([
-{% for category in site.categories %}
+[{% for category in site.categories %}
 {
 "name": "{{ category[0] | capitalize }}",
 "value": "{{ category[0] }}"
 }{% unless forloop.last == true %},{% endunless %}
-{% endfor %}
-]);
+{% endfor %}]
