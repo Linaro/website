@@ -1,4 +1,3 @@
-
 // This array stores the concatenated jsonp data
 var allJSONData = []
 // The counter variable counts the number of times results are added to the allJSONData array
@@ -6,17 +5,16 @@ var allJSONData = []
 var counter = 0;
 // Define the sources to append the jsonp script elements and retreive the data.
 var sources = [
-    "https://www.96boards.org",
-    "https://www.trustedfirmware.org",
-    "https://www.op-tee.org",
-    "https://www.opendataplane.org"
+    // "https://www.96boards.org/assets/json/posts.json",
+    "https://www.trustedfirmware.org/assets/json/posts.json",
+    "https://www.op-tee.org/assets/json/posts.json",
+    "/assets/json/recentPosts.json"
 ];
 var site_logos = {
     "https://www.96boards.org":"/assets/images/content/96boards-vertical-logo.png",
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
-    "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
-    "https://staging.linaro.org":"/assets/images/content/linaro-logo.png"
+    "https://www.linaro.org":"/assets/images/content/linaro-logo.png"
 };
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
@@ -30,12 +28,10 @@ function formatDate(timestamp) {
       "August", "September", "October",
       "November", "December"
     ];
-  
     var day = date.getDate();
     var monthIndex = date.getMonth();
     var year = date.getFullYear();
     var date_formatted =  day + ' ' + monthNames[monthIndex] + ' ' + year;
-
     return date_formatted;
 }
 function extractDateString(dateString) {
@@ -43,24 +39,16 @@ function extractDateString(dateString) {
     var arr = rx.exec(dateString);
     return arr[0]; 
 }
-// This function handles the jsonp data we receive
-function func(jsonData){
-    if(counter == (sources.length - 1)){
-        allJSONData = allJSONData.concat(jsonData);
-        var sorted_data = allJSONData.sort(sort_by_date);
-        addLatestNewsAndBlogs(sorted_data, 10);
-    }
-    else{
-        allJSONData = allJSONData.concat(jsonData);
-        counter += 1;
-    }
-}
 // Process all JSON, get the latest news and blog posts and add to the list.
-function addLatestNewsAndBlogs(allJSONData, number_of_items){
+function addLatestNewsAndBlogs(jsonData, number_of_items){
+    console.log("Data: " + jsonData);
     var listElements = '';
-    for(var i=0;i<number_of_items;i++){
-        post = allJSONData[i];
-        var site_image = site_logos[post.site];
+
+    for(var i=0;i<number_of_items;i++)
+    {
+        post = jsonData[i];
+        console.log(post);
+        var site_image = site_logos[post["site"]];
         var textEnd = "";
         if(post.title.length > 40){
             textEnd = "...";
@@ -73,6 +61,8 @@ function addLatestNewsAndBlogs(allJSONData, number_of_items){
         listElements += '</li>';
         listElements += '</a>';
     }
+    console.log(listElements);
+
     $("#all-news-and-blogs").html(listElements);
 }
 // Check to see if the document has loaded 
@@ -80,20 +70,24 @@ $(document).ready(function () {
     // Check to see if the div we are adding to exists
     if ($("#all-news-and-blogs").length > 0) {
         // Loop through the sources and the separate script elements.
-        for(i=0;i<sources.length;i++){
-            // Adds a list element for each result in the JSONP data
-            // JSONP url
-            var jsonp_url = sources[i] + "/assets/json/posts.json?callback=func";
-            // Add the JSONP to a script element
-            // Create a new script element and set the type and src
-            script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = jsonp_url;
-            // Append the new script element to the head.
-            $("head").append(script);
+        for(i=0; i < sources.length; i++)
+        {
+            $.ajax({
+                url: sources[i],
+                dataType: 'json',
+                complete: function (jsonResponse) {
+                    jsonData = JSON.parse(jsonResponse.responseText);
+                    allJSONData = allJSONData.concat(jsonData);
+                }
+            });
         }
     }
     else{
         console.log("#all-news-and-blogs Not defined!");
     }    
+});
+// Wait for all ajax requests to stop
+$(document).ajaxStop(function () {
+    var sorted_data = allJSONData.sort(sort_by_date);
+    addLatestNewsAndBlogs(sorted_data, 10);
 });
