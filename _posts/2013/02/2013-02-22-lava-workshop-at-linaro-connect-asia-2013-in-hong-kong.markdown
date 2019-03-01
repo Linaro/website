@@ -37,7 +37,7 @@ Members of the Linaro Automated Validation Architecture [(LAVA) team](/about/) w
 [The Q&A Wrap up session](https://lca-13.zerista.com/event/member/72377) will be a full hour dedicated to open discussion and Q&A. [Kate Stewart, Director of Product Management](/about/) and [Alexander Sack, Director of Platform](/about/) will act as moderators to our LAVA experts and participants during this session of the workshop.  To make this session as productive as possible, we plan to collect questions before and during the workshop, in addition to answering those raised during this wrap up session. In case you can’t attend this session, rest assured that we will write a FAQ capturing the questions and answers discussed and make it available after LCA-13. (A pdf version of the Workshop flyer is available. To download click [here](/assets/downloads/LAVAWorkshopLCA13-FlyerAmbervariant_R3.pdf).)
 
 
-## Schedule (All times are listed in [HKT](http://www.timeanddate.com/worldclock/converter.html))
+## Schedule (All times are listed in [HKT](https://www.timeanddate.com/worldclock/converter.html))
 
   * 10:00 - 11:00  AM - Tuesday 5 March - [Introduction](https://lca-13.zerista.com/event/member/72489) - Grand Ballroom B
 
