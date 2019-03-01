@@ -13,7 +13,6 @@ $(document).ready(function(){
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-    "https://linux.codehelp.co.uk/blog.xml", // Neil Williams
     "http://www.workofard.com/feed/", // Ard Biesheuvel
     "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
     "http://www.metaklass.org/rss/", // Jorge Niedbalski
