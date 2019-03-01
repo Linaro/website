@@ -205,7 +205,7 @@ More information about the Linaro Graphics Team can be found at: [https://wiki.
 More information about the Linaro Enterprise Group (LEG)  can be found at: [https://wiki.linaro.org/LEG/](https://wiki.linaro.org/LEG/)
 
 
-###### _*Times and dates to the meetings are subject to change so check the respective wiki pages for any changes and updates.  Also please feel free to email the teams to find out more information. All times are listed in [UTC](http://www.timeanddate.com/) unless otherwise stated._
+###### _*Times and dates to the meetings are subject to change so check the respective wiki pages for any changes and updates.  Also please feel free to email the teams to find out more information. All times are listed in [UTC](https://www.timeanddate.com/) unless otherwise stated._
 
 #### About Linaro
 

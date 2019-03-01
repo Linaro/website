@@ -1,8 +1,7 @@
 ---
 permalink: /assets/json/blogs.json
 ---
-func([
-{% for post in site.categories["Blog"] %}
+[{% for post in site.categories["Blog"] %}
     {
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},
@@ -10,5 +9,4 @@ func([
         "summary": {{ post.excerpt | smartify | jsonify }},
         "date_published": "{{ post.date }}"
     }{% unless forloop.last == true %},{% endunless %}
-{% endfor %}
-]);
+{% endfor %}]

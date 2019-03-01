@@ -39,13 +39,12 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
   * What is Multi-node?  Where do I go to find out more about it?
 
 
-  * [http://people.linaro.org/~neil.williams/docs/]()http://people.linaro.org/~neil.williams/docs/
+  * http://people.linaro.org/~neil.williams/docs/
+
+  * https://git.linaro.org/gitweb?p=people/neilwilliams/multinode-yaml.git;a=summary
 
 
-  * [https://git.linaro.org/gitweb?p=people/neilwilliams/multinode-yaml.git;a=summary](https://git.linaro.org/gitweb?p=people/neilwilliams/multinode-yaml.git;a=summary)
-
-
-  * [git://git.linaro.org/people/neilwilliams/multinode-yaml.git](//git.linaro.org/people/neilwilliams/multinode-yaml.git)
+  * git://git.linaro.org/people/neilwilliams/multinode-yaml.git
 
 
   * [http://bazaar.launchpad.net/~linaro-automation/lava-dispatcher/multinode/files/head:/doc/]()http://bazaar.launchpad.net/~linaro-automation/lava-dispatcher/multinode/files/head:/doc/
@@ -62,8 +61,7 @@ Review the summary below and check it out on Youtube:  [22 Aug 2013 LAVA Weekly
   * Multinode & the use of timeouts
 
 
-    * [http://people.linaro.org/~neil.williams/docs/]()http://people.linaro.org/~neil.williams/docs/
-
+    * http://people.linaro.org/~neil.williams/docs/
 
 
 
