@@ -629,3 +629,53 @@ span.line-two {
     color:white;
     text-shadow: #000 1px 1px 7px;
 }
+
+// Developer Services section
+svg#image-fill {
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    height: 1000px;
+}
+
+.developer-services-svg {
+    position: absolute;
+    opacity: .3;
+    top: -38px;
+    left: -257px;
+}
+
+div#developer-services {
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    min-height: 600px;
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-image: url(/assets/images/content/hex-bg-tiled.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position-x: right;
+    background-color: #e6e6e6;
+    min-height: 600px;
+    opacity:.9;
+}
+#developer-services h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.key-factor-block {
+    height: 100px;
+    background-color: #e4e4e4;
+    padding:10px;
+    line-height:100px;
+    text-align:center;
+    border:1px solid #c6c6c6;
+    margin: 15px 0;
+}
+.key-factor-block h4 {
+    line-height: 25px;
+    font-size:20px;
+    font-weight:normal;
+}
