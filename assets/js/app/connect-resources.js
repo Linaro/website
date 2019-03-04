@@ -1,6 +1,6 @@
-
 // This array stores the concatenated jsonp data
 var allConnectJSONData = []
+var connectsJSONData = []
 // The counter variable counts the number of times results are added to the allConnectJSONData array
 // so we know when to process the concatenated data.
 var counter = 0;
@@ -8,19 +8,23 @@ var counter = 0;
 var connectJSONSources = []
 // Define the sources to append the jsonp script elements and retreive the data.
 var connect_sources = [
-    "https://connect.linaro.org"
+    "https://staging.connect.linaro.org/assets/json/connects.json"
 ];
+var current_connect_with_resources = "YVR18";
+
 // Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
-function connects(connectsJSON){
-    // Since we are just showing the top 10 resources just grab the first connect in the json output
-    var jsonp_url = connect_sources[0] + "/assets/json/" + connectsJSON[0].id.toLowerCase() + "/data.json?callback=connectResources";
-    connectJSONSources.push(jsonp_url);
-    // Create a new script element and set the type and src
-    script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = jsonp_url;
-    // Append the new script element to the head.
-    $("head").append(script);
+function getConnectsJSON(connectsJSON){
+    // Gets the latest Connect's resources
+    var json_url = "https://staging.connect.linaro.org/assets/json/" + current_connect_with_resources.toLowerCase() + "/data.json";
+    $.ajax({
+        url: json_url,
+        dataType: 'json',
+        complete: function (jsonResponse) {
+            jsonData = JSON.parse(jsonResponse.responseText);
+            var random_data = getRandom(jsonData, 10);
+            addLatestResources(random_data, 10);
+        }
+    });
 }
 // Sort array by key ascending
 function sortByKeyAsc(array, key) {
@@ -48,12 +52,6 @@ function getRandom(arr, n) {
         taken[x] = --len in taken ? taken[len] : len;
     }
     return result;
-}
-// This function handles the jsonp data we receive
-function connectResources(jsonData){
-    //var sorted_data = sortByKeyAsc(jsonData, "title");
-    var random_data = getRandom(jsonData, 10);
-    addLatestResources(random_data, 10);
 }
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
@@ -90,17 +88,15 @@ $(document).ready(function () {
     // Check to see if the div we are adding to exists
     if ($("#event-resources").length > 0) {
         // Loop through the sources and the separate script elements.
-        for(i=0;i<connect_sources.length;i++){
-            // Adds a list element for each result in the JSONP data
-            // JSONP url
-            var jsonp_url = connect_sources[i] + "/assets/json/connects.json?callback=connects";
-            // Add the JSONP to a script element
-            // Create a new script element and set the type and src
-            script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = jsonp_url;
-            // Append the new script element to the head.
-            $("head").append(script);
+        for (i = 0; i < connect_sources.length; i++) {
+            $.ajax({
+                url: connect_sources[i],
+                dataType: 'json',
+                complete: function (jsonResponse) {
+                    jsonData = JSON.parse(jsonResponse.responseText);
+                    getConnectsJSON(jsonData);
+                }
+            });
         }
     }
     else{

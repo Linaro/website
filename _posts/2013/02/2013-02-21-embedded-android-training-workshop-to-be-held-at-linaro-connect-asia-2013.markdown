@@ -28,7 +28,7 @@ While Android has been created for mobile devices -- phones first and now tablet
 Specifically, we will start by introducing Android's overall architecture and then proceed to peel Android's layer one-by-one. First, we will cover the Android Open Source Project (AOSP), the open source project under which Android's source code is released. We will then dig into the native Android user-space, Android's power tools, and cover how hardware support is implemented in Android. Given that Android is built on top of Linux, we will also go over some embedded Linux tricks and see how the kernel is modified to support the Android user-space. In addition, we will look at the System Server, the Android Framework and core Android applications, and how to customize them.
 
 
-## Schedule (all times are listed in[ HKT](http://www.timeanddate.com/worldclock/converter.html))
+## Schedule (all times are listed in[ HKT](https://www.timeanddate.com/worldclock/converter.html))
 
   * **10:00 AM** - Monday 4 March  - **[Android Internals](https://lca-13.zerista.com/event/member/72385)** - Grand Ballroom A
 

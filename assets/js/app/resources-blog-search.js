@@ -22,17 +22,15 @@ var currentJSON = [];
 var counter = 0;
 // Blog/News JSON Sources
 var sources = [
-    "https://www.96boards.org",
-    "https://www.trustedfirmware.org",
-    "https://www.op-tee.org",
-    "https://www.opendataplane.org",
-    ""
+    "https://www.96boards.org/assets/json/posts.json",
+    "https://www.trustedfirmware.org/assets/json/posts.json",
+    "https://www.op-tee.org/assets/json/posts.json",
+    "/assets/json/posts.json"
 ];
 var site_logos = {
     "https://www.96boards.org":"/assets/images/content/96boards-vertical-logo.png",
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
-    "https://www.opendataplane.org":"/assets/images/content/ODP-logo.png",
     "https://staging.linaro.org":"/assets/images/content/linaro-logo.png",
     "http://localhost:4001":"/assets/images/content/linaro-logo.png",
     "https://www.linaro.org":"/assets/images/content/linaro-logo.png"
@@ -168,25 +166,6 @@ function addFilters(allJSONData){
         listResults(allJSONData);
     });
 }
-// This function handles the jsonp data we receive
-function func(jsonData){
-    if(counter == (sources.length - 1)){
-        allJSONData = allJSONData.concat(jsonData);
-        var sorted_data = allJSONData.sort(sort_by_date_desc);
-        addLatestNewsAndBlogs(sorted_data, sorted_data.length);
-        allJSONData = sorted_data;
-        currentJSON = sorted_data;
-        // Add the filters based on JSON Data
-        // addFilters(allJSONData);
-        // Add the size of the results
-        $('#size').html(sorted_data.length);
-        // Run function on each keyup event triggered by the search input
-    }
-    else{
-        allJSONData = allJSONData.concat(jsonData);
-        counter += 1;
-    }
-}
 // Process all JSON, get the latest news and blog posts and add to the list.
 function addLatestNewsAndBlogs(results_data, number_of_items){
     $('#result_size').html(results_data.length);
@@ -254,44 +233,49 @@ $(document).ready(function () {
     // Check to see if the div we are adding to exists
     if ($("#results").length > 0) {
         // Loop through the sources and the separate script elements.
-        for(i=0;i<sources.length;i++){
-            // Adds a list element for each result in the JSONP data
-            // JSONP url
-            var jsonp_url = sources[i] + "/assets/json/posts.json?callback=func";
-            // Add the JSONP to a script element
-            // Create a new script element and set the type and src
-            script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = jsonp_url;
-            // Append the new script element to the head.
-            $("head").append(script);
-            // Monitor for the keyup event with a 1 second delay.
-            $('#search-query').keyup(function() {
-                delay(function(){
-                    listResults(allJSONData);
-                }, 1000 );
-            });
-            // Monitor for the clicking of sort filters (table headings)
-            $("th.filter").click(function(){
-                // Supply the filter and current setting(toggle)
-                sortDataViaFilter($(this).attr("data-filter"), $(this).attr("data-toggle"));
-            });
-            $("#show-all-results").click(function(){
-                var toggle = $(this).hasClass("active");
-                if(toggle === false){
-                    // Clear the search query field
-                    $('#search-query').val("");
-                    // Show all results using the allJSONData array
-                    listResults(allJSONData);
-                    $(this).addClass("active");
-                }
-                else{
-                    $(this).removeClass("active");
+        for (i = 0; i < sources.length; i++) {
+            $.ajax({
+                url: sources[i],
+                dataType: 'json',
+                complete: function (jsonResponse) {
+                    jsonData = JSON.parse(jsonResponse.responseText);
+                    allJSONData = allJSONData.concat(jsonData);
                 }
             });
         }
+
     }
     else{
         console.log("Not defined!");
     }    
+});
+// Wait for all ajax requests to stop
+$(document).ajaxStop(function () {
+    var sorted_data = allJSONData.sort(sort_by_date);
+    addLatestNewsAndBlogs(sorted_data, 10);
+    // Event listeners
+    // Monitor for the keyup event with a 1 second delay.
+    $('#search-query').keyup(function () {
+        delay(function () {
+            listResults(allJSONData);
+        }, 1000);
+    });
+    // Monitor for the clicking of sort filters (table headings)
+    $("th.filter").click(function () {
+        // Supply the filter and current setting(toggle)
+        sortDataViaFilter($(this).attr("data-filter"), $(this).attr("data-toggle"));
+    });
+    $("#show-all-results").click(function () {
+        var toggle = $(this).hasClass("active");
+        if (toggle === false) {
+            // Clear the search query field
+            $('#search-query').val("");
+            // Show all results using the allJSONData array
+            listResults(allJSONData);
+            $(this).addClass("active");
+        }
+        else {
+            $(this).removeClass("active");
+        }
+    });
 });

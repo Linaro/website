@@ -1,14 +1,11 @@
 ---
 permalink: /assets/json/news.json
 ---
-func([
-{% for post in site.categories["News"] %}
-    {
+[{% for post in site.categories["News"] %}{
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},
         "url": "{{ site.url }}{{ post.url }}",
+        "tags": [{% for tag in post.tags%}"{{tag}}"{% unless forloop.last == true%},{% endunless %}{% endfor %}],
         "summary": {{ post.excerpt | smartify | jsonify }},
         "date_published": "{{ post.date }}"
-    }{% unless forloop.last == true %},{% endunless %}
-{% endfor %}
-]);
+    }{% unless forloop.last == true %},{% endunless %}{% endfor %}]
