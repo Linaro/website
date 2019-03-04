@@ -641,7 +641,7 @@ svg#image-fill {
 .developer-services-svg {
     position: absolute;
     opacity: .3;
-    top: -38px;
+    top: 35px;
     left: -257px;
 }
 div#developer-services {
@@ -663,6 +663,9 @@ div#developer-services {
 #developer-services h2 {
     font-size: 60px;
     margin-bottom: 40px;
+}
+.developer-services-svg path {
+    fill: #b9b9b9;
 }
 .key-factor-block {
     height: 100px;
