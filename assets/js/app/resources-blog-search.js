@@ -25,6 +25,7 @@ var sources = [
     "https://www.96boards.org/assets/json/posts.json",
     "https://www.trustedfirmware.org/assets/json/posts.json",
     "https://www.op-tee.org/assets/json/posts.json",
+    "https://www.devicetree.org/assets/json/posts.json",
     "/assets/json/posts.json"
 ];
 var site_logos = {
@@ -32,7 +33,7 @@ var site_logos = {
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
     "https://staging.linaro.org":"/assets/images/content/linaro-logo.png",
-    "http://localhost:4001":"/assets/images/content/linaro-logo.png",
+    "http://localhost:4000":"/assets/images/content/linaro-logo.png",
     "https://www.linaro.org":"/assets/images/content/linaro-logo.png"
 };
 // Detects if an element is in an array
@@ -252,7 +253,7 @@ $(document).ready(function () {
 // Wait for all ajax requests to stop
 $(document).ajaxStop(function () {
     var sorted_data = allJSONData.sort(sort_by_date);
-    addLatestNewsAndBlogs(sorted_data, 10);
+    addLatestNewsAndBlogs(sorted_data, sorted_data.length);
     // Event listeners
     // Monitor for the keyup event with a 1 second delay.
     $('#search-query').keyup(function () {
