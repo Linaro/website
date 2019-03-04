@@ -8,14 +8,14 @@ var counter = 0;
 var connectJSONSources = []
 // Define the sources to append the jsonp script elements and retreive the data.
 var connect_sources = [
-    "https://staging.connect.linaro.org/assets/json/connects.json"
+    "https://connect.linaro.org/assets/json/connects.json"
 ];
 var current_connect_with_resources = "YVR18";
 
 // Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
 function getConnectsJSON(connectsJSON){
     // Gets the latest Connect's resources
-    var json_url = "https://staging.connect.linaro.org/assets/json/" + current_connect_with_resources.toLowerCase() + "/data.json";
+    var json_url = "https://connect.linaro.org/assets/json/" + current_connect_with_resources.toLowerCase() + "/data.json";
     $.ajax({
         url: json_url,
         dataType: 'json',
@@ -70,7 +70,7 @@ function addLatestResources(sorted_data, number_of_items){
             resource_image = "/assets/images/content/connect-icon-alt.png";
         }
         var textEnd = "";
-        if(post.title.length > 40){
+        if(resource.title.length > 40){
             textEnd = "...";
         }
         listElements += '<a target="_self" href="' + resource.url +'">';
