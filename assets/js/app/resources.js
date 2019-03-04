@@ -74,12 +74,6 @@ $(document).ready(function () {
         // Loop through the sources and the separate script elements.
         for(i=0; i < sources.length; i++)
         {
-            // $.get(sources[i], function (jsonResponse){
-            //     console.log(jsonResponse);
-            //     jsonData = JSON.parse(jsonResponse);
-            //     console.log("Parsed: " + jsonData);
-            //     allJSONData = allJSONData.concat(jsonData);
-            // });
             $.ajax({
                 url: sources[i],
                 dataType: 'json',
