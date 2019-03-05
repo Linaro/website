@@ -2,7 +2,7 @@
 title: I/O-bandwidth management for production-quality services
 author: paolo.valente
 layout: post
-date: 2019-03-04 09:00:00
+date: 2019-03-05 09:00:00
 description: >-
     This article guides us through the techniques used to guarantee I/O
     bandwidth to clients, containers, virtual machines and any other type
