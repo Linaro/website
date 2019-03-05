@@ -21,7 +21,7 @@ tags:
   - Linaro Connect
   - linux kernel
   - IO
-  - bandwidh
+  - bandwidth
   - BFQ
 image: 
     featured: true
@@ -40,9 +40,7 @@ Minimum, maximum and average bandwidth
   
 Let's start by describing how a production-quality service looks like, in terms of bandwidth guarantees. To this purpose, we will use one of the most widespread services as an example. Quick note: for brevity, we will mention only *clients*, to refer to any entity competing for storage (network in the following example), such as also containers or virtual machines.  
   
-Unless you are reading a printed or cached copy of this article, you are using an Internet connection in this very moment. If your Internet-service contract is good, it provides you with a minimum guaranteed bandwidth. But, more importantly, if the quality of the service is truly good, then most of the time you enjoy an average  
-bandwidth that is much higher than that minimum bandwidth. Probably you chose your service provider basing mainly on the average bandwidth it  
-delivers. Finally, a service contract provides for a maximum bandwidth, which basically depends on how much you pay.  
+Unless you are reading a printed or cached copy of this article, you are using an Internet connection in this very moment. If your Internet-service contract is good, it provides you with a minimum guaranteed bandwidth. But, more importantly, if the quality of the service is truly good, then most of the time you enjoy an average bandwidth that is much higher than that minimum bandwidth. Probably you chose your service provider basing mainly on the average bandwidth it delivers. Finally, a service contract provides for a maximum bandwidth, which basically depends on how much you pay.  
   
 These same facts hold for virtually any service where storage I/O is or may be involved: WEB hosting, video/audio streaming, cloud storage, containers, virtual machines, entertainment systems, ...  
   
@@ -55,17 +53,13 @@ A simple storage example
   
 To evaluate existing solutions for guaranteeing the above service scheme, we will use as a reference a very simple, yet concrete example. 16 clients, each issuing read requests, served by a system with the following characteristics:  
   
--   a PLEXTOR PX-256M5S SSD as storage device, with an *ext4*  
-    filesystem;  
+-   a PLEXTOR PX-256M5S SSD as storage device, with an *ext4* filesystem;  
   
 -   a 2.4GHz Intel Core i7-2760QM as CPU, and 1.3 GHz DDR3 DRAM;  
   
--   Linux 4.18 as kernel, and *BLK-MQ* (the new multi-queue block  
-    layer [blk-mq](https://lwn.net/Articles/552904)) as I/O stack (Ubuntu 18.04 as distribution,  
-    although this parameter should have no influence on the results);  
+-   Linux 4.18 as kernel, and *BLK-MQ* (the new multi-queue block layer [blk-mq]) as I/O stack (Ubuntu 18.04 as distribution, although this parameter should have no influence on the results);  
   
--   no I/O policy enforced to control I/O, and *none* used as I/O  
-    scheduler (same results with *MQ-DEADLINE* or *KYBER*).  
+-   no I/O policy enforced to control I/O, and *none* used as I/O scheduler (same results with *MQ-DEADLINE* or *KYBER*).  
   
 We assume that, over time, clients can issue either random or sequential read requests.  
   
@@ -105,16 +99,13 @@ The above failure highlights that, without countermeasures, serious bandwidth pr
   
 1. Limit throughput of bandwidth hogs  
   
-2. Use the proportional-share policy with the *CFQ*(Completely Fair  
-   Queueing) I/O scheduler [io-controller](https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt), and reduce the weight of  
-   bandwidth hogs  
+2. Use the proportional-share policy with the *CFQ*(Completely Fair Queueing) I/O scheduler [io-controller](https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt), and reduce the weight of bandwidth hogs  
   
 3. Use the throttling I/O policy with *low limits* [low-limit](https://lkml.org/lkml/2017/1/14/310)  
   
 4. Use dedicated storage  
   
-5. Use the proportional-share policy with the *BFQ* I/O  
-   scheduler [bfq-doc](https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt)  
+5. Use the proportional-share policy with the *BFQ* I/O scheduler [bfq-doc](https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt)  
   
 This list does not include the newly proposed *I/O latency* cgroups controller [io-lat-controller](https://lwn.net/Articles/758963/), because the latter is not aimed at guaranteeing per-client bandwidths.  
   
@@ -166,14 +157,8 @@ Such a dedicated storage can be made as reliable as desired in guaranteeing mini
   
 Thus the main performance parameter for this solution is the utilization that can be reached without breaking bandwidth guarantees. To evaluate this parameter, we start by noting that an administrator typically controls the load on each unit by deciding the number of clients served by that unit.  
   
-Then we apply this fact to our reference system. Recall that, even in the worst case, the drive can deliver 10MB/s to each client. With how many active clients can this per-client minimum bandwidth be actually guaranteed? According to Figure [clients-no-control](https://www.linaro.org/assets/content/throughputs-no-control-bw-table.png), only with just one client!  
   
 With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [clients-no-control](https://www.linaro.org/assets/content/throughputs-no-control-bw-table.png), with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
-  
-As a conclusion, if the workload is asymmetric, such as, e.g., sequential plus random I/O, then dedicated storage can guarantee minimum bandwidths only at the price of very low utilizations, i.e., of high over-provisioning. On the opposite end, it is easy to show that, with symmetric workloads, dedicated storage can accomodate many clients per storage unit and reach high utilizations.  
-  
-Proportional-share policy on *BFQ*  
-==================================  
   
 In *BLK-MQ*, the proportional-share policy is implemented by the *BFQ* I/O scheduler [bfq-doc](https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt). Differently from low limits, *BFQ* reliably guarantees target minimum bandwidths. As for throughput, *BFQ* reaches about 90% of the storage speed in the worst-case, namely for workloads made of purely random I/O. Thus *BFQ* seems an effective solution for providing each client with a high average bandwidth.  
   
@@ -209,4 +194,4 @@ With *homogeneous* passengers, buses can run full. But, with general mixes of pa
   
 There is now a new bus driver, *BFQ*, who can finally drive buses with 90-100% of the seats occupied, and with any mix of passengers always correctly selected. So, in general,*BFQ* enables all the daily passengers to be moved using five to ten times less buses than those needed previously. On the downside, *BFQ* cannot reach full seat utilization with some types of passengers, and cannot drive next-generation super fast buses (there is development to try to improve on this front).  
   
-So, the future of I/O management mostly depends on which bus drivers companies will prefer to entrust their vehicles to ...
+So, the future of I/O management mostly depends on which bus drivers companies will prefer to entrust their vehicles to...
