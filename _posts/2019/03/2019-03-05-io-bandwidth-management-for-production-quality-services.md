@@ -21,7 +21,7 @@ tags:
   - Linaro Connect
   - linux kernel
   - IO
-  - bandwidh
+  - bandwidth
   - BFQ
 image: 
     featured: true
@@ -40,9 +40,7 @@ Minimum, maximum and average bandwidth
   
 Let's start by describing how a production-quality service looks like, in terms of bandwidth guarantees. To this purpose, we will use one of the most widespread services as an example. Quick note: for brevity, we will mention only *clients*, to refer to any entity competing for storage (network in the following example), such as also containers or virtual machines.  
   
-Unless you are reading a printed or cached copy of this article, you are using an Internet connection in this very moment. If your Internet-service contract is good, it provides you with a minimum guaranteed bandwidth. But, more importantly, if the quality of the service is truly good, then most of the time you enjoy an average  
-bandwidth that is much higher than that minimum bandwidth. Probably you chose your service provider basing mainly on the average bandwidth it  
-delivers. Finally, a service contract provides for a maximum bandwidth, which basically depends on how much you pay.  
+Unless you are reading a printed or cached copy of this article, you are using an Internet connection in this very moment. If your Internet-service contract is good, it provides you with a minimum guaranteed bandwidth. But, more importantly, if the quality of the service is truly good, then most of the time you enjoy an average bandwidth that is much higher than that minimum bandwidth. Probably you chose your service provider basing mainly on the average bandwidth it delivers. Finally, a service contract provides for a maximum bandwidth, which basically depends on how much you pay.  
   
 These same facts hold for virtually any service where storage I/O is or may be involved: WEB hosting, video/audio streaming, cloud storage, containers, virtual machines, entertainment systems, ...  
   
@@ -55,17 +53,13 @@ A simple storage example
   
 To evaluate existing solutions for guaranteeing the above service scheme, we will use as a reference a very simple, yet concrete example. 16 clients, each issuing read requests, served by a system with the following characteristics:  
   
--   a PLEXTOR PX-256M5S SSD as storage device, with an *ext4*  
-    filesystem;  
+-   a PLEXTOR PX-256M5S SSD as storage device, with an *ext4* filesystem;  
   
 -   a 2.4GHz Intel Core i7-2760QM as CPU, and 1.3 GHz DDR3 DRAM;  
   
--   Linux 4.18 as kernel, and *BLK-MQ* (the new multi-queue block  
-    layer [blk-mq]) as I/O stack (Ubuntu 18.04 as distribution,  
-    although this parameter should have no influence on the results);  
+-   Linux 4.18 as kernel, and *BLK-MQ* (the new multi-queue block layer [blk-mq]) as I/O stack (Ubuntu 18.04 as distribution, although this parameter should have no influence on the results);  
   
--   no I/O policy enforced to control I/O, and *none* used as I/O  
-    scheduler (same results with *MQ-DEADLINE* or *KYBER*).  
+-   no I/O policy enforced to control I/O, and *none* used as I/O scheduler (same results with *MQ-DEADLINE* or *KYBER*).  
   
 We assume that, over time, clients can issue either random or sequential read requests.  
   
@@ -105,16 +99,13 @@ The above failure highlights that, without countermeasures, serious bandwidth pr
   
 1. Limit throughput of bandwidth hogs  
   
-2. Use the proportional-share policy with the *CFQ*(Completely Fair  
-   Queueing) I/O scheduler [io-controller], and reduce the weight of  
-   bandwidth hogs  
+2. Use the proportional-share policy with the *CFQ*(Completely Fair Queueing) I/O scheduler [io-controller], and reduce the weight of bandwidth hogs  
   
 3. Use the throttling I/O policy with *low limits* [low-limit]  
   
 4. Use dedicated storage  
   
-5. Use the proportional-share policy with the *BFQ* I/O  
-   scheduler [bfq-doc]  
+5. Use the proportional-share policy with the *BFQ* I/O scheduler [bfq-doc]  
   
 This list does not include the newly proposed *I/O latency* cgroups controller [io-lat-controller], because the latter is not aimed at guaranteeing per-client bandwidths.  
   
