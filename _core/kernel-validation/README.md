@@ -12,6 +12,7 @@ related_tags:
   - KVT
   - validation
   - lkft
+featured_video: https://www.youtube.com/watch?v=mWpK-cNQmL8
 ---
 The mission of the Kernel Validation team (KVT) is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible. This is performed by executing a variety of functional-tests on a selection of user-space operating systems.
 
