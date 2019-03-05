@@ -318,7 +318,7 @@ Jonathan Corbet's “How to Participate in the Linux Community” (2008)
 [http://ldn.linuxfoundation.org/how-participate-linux-community](http://ldn.linuxfoundation.org/how-participate-linux-community)
 
 Randy Dunlap's “Linux Kernel Development: Getting Started” (2005)
-[http://xenotime.net/](http://xenotime.net/)
+http://xenotime.net/
 
 Greg Kroah-Hartman's “HOWTO do Linux kernel development – take 2” (2005)
 [http://lwn.net/Articles/160191/](http://lwn.net/Articles/160191/)

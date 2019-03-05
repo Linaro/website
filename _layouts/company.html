@@ -30,7 +30,7 @@ js-package: blog
     {% for group in site.data.members %}
         {% for entry in group.members %}
             {% if entry.name == page.title %}
-                {% assign groupToAdd = group.membership_group_name | replace: "Members", "Member" %}
+                {% assign groupToAdd = group.membership_group_name | replace: "Members", "Member" | replace: "Partners", "Partner" %}
                 {% assign groups = groups | append: groupToAdd | append: "," %}
                 {% break %}
             {% endif %}
