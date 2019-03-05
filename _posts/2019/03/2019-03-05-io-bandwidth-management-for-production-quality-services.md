@@ -25,15 +25,15 @@ tags:
   - BFQ
 image: 
     featured: true
-    path: /assets/images/blog/data-center-stock-image.jpg
+    path: /assets/images/blog/servers-cern.jpg
 ---
-I/O control is the most powerful Linux solution for guaranteeing bandwidths with storage; but the most used I/O-control mechanism, throttling, can waste up to 80% of the storage speed, and fails to provide target guarantees with some common workloads (full details here [@IO-control-issues]).  
+I/O control is the most powerful Linux solution for guaranteeing bandwidths with storage; but the most used I/O-control mechanism, throttling, can waste up to 80% of the storage speed, and fails to provide target guarantees with some common workloads (full details here [IO-control-issues]).  
   
 So, how do providers of production-quality services currently guarantee bandwidth to clients, containers, virtual machines and so on? Do they use also alternative solutions (to throttling)? If so, do these alternatives reach higher utilizations of storage resources?  
   
 In this article we try to answer these questions, by surveying (hopefully all) typical solutions. In particular, we will see that yes, service providers do use other solutions too, but no, alternatives definitely do not reach higher utilizations, except for when confronted with very friendly workloads. The most effective alternative, dedicated storage, may easily discard more than 90% of the available speed.  
   
-We complete this survey by summing up the results already obtained for throttling [@low-limit] and the *BFQ* (Budget Fair Queueing) I/O scheduler [@bfq-doc] in [@IO-control-issues].  
+We complete this survey by summing up the results already obtained for throttling [low-limit] and the *BFQ* (Budget Fair Queueing) I/O scheduler [bfq-doc] in [IO-control-issues].  
   
 Minimum, maximum and average bandwidth  
 ======================================  
@@ -61,7 +61,7 @@ To evaluate existing solutions for guaranteeing the above service scheme, we wil
 -   a 2.4GHz Intel Core i7-2760QM as CPU, and 1.3 GHz DDR3 DRAM;  
   
 -   Linux 4.18 as kernel, and *BLK-MQ* (the new multi-queue block  
-    layer [@blk-mq]) as I/O stack (Ubuntu 18.04 as distribution,  
+    layer [blk-mq]) as I/O stack (Ubuntu 18.04 as distribution,  
     although this parameter should have no influence on the results);  
   
 -   no I/O policy enforced to control I/O, and *none* used as I/O  
@@ -84,65 +84,63 @@ We assume that clients have to be treated equally. So, since the device reaches 
 Complete failure with no I/O policy enforced  
 ============================================  
   
-The throughput reached while serving these clients is reported in Figure [fig:clients-no-control], for the following mix of client I/O:  
+The throughput reached while serving these clients is reported in Figure [clients-no-control], for the following mix of client I/O:  
   
 - one client, called *target*, doing random 4KB reads;  
 
 - all the other clients, called *interferers*, doing sequential reads.  
   
 {% include image.html name="throughputs-no-control-bw-table.png" alt="Throughputs in case of no I/O control" %}
+__Throughputs in case of no I/O control__
 
-[Figure: throughputs-no-control-bw-table.png;  
-Caption: "Throughputs in case of no I/O control",  
-Label to refer to this figure in the text: fig:clients-no-control]  
   
-The figure reports five plots, for decreasing total numbers of active clients (this test has been executed with the `bandwidth-latency` benchmark in the *S suite* [@S-suite]). The leftmost plot shows that the total throughput is close to the read peak rate of the device if all 16 clients are active. But the target gets practically zero throughput!  
+The figure reports five plots, for decreasing total numbers of active clients (this test has been executed with the `bandwidth-latency` benchmark in the *S suite* [S-suite]). The leftmost plot shows that the total throughput is close to the read peak rate of the device if all 16 clients are active. But the target gets practically zero throughput!  
   
 The reason is that sequential I/O is favored by both the OS, mainly by dispatching very large I/O requests for the sequential readers, and by the in-drive I/O scheduler, by letting sequential I/O almost always cut in front of random I/O (because sequential I/O makes the drive reach its highest-possible speed). The problem remains serious with 7 or even just 3 sequential readers.  
   
 List of common solutions for guaranteeing a minimum bandwidth  
 =============================================================  
   
-The above failure highlights that, without countermeasures, serious bandwidth problems may occur. These problems motivate the following, hopefully exhaustive, list of solutions (two of the following items have been the focus of my previous article [@IO-control-issues], see the end of this section):  
+The above failure highlights that, without countermeasures, serious bandwidth problems may occur. These problems motivate the following, hopefully exhaustive, list of solutions (two of the following items have been the focus of my previous article [IO-control-issues], see the end of this section):  
   
 1. Limit throughput of bandwidth hogs  
   
 2. Use the proportional-share policy with the *CFQ*(Completely Fair  
-   Queueing) I/O scheduler [@io-controller], and reduce the weight of  
+   Queueing) I/O scheduler [io-controller], and reduce the weight of  
    bandwidth hogs  
   
-3. Use the throttling I/O policy with *low limits* [@low-limit]  
+3. Use the throttling I/O policy with *low limits* [low-limit]  
   
 4. Use dedicated storage  
   
 5. Use the proportional-share policy with the *BFQ* I/O  
-   scheduler [@bfq-doc]  
+   scheduler [bfq-doc]  
   
-This list does not include the newly proposed *I/O latency* cgroups controller [@io-lat-controller], because the latter is not aimed at guaranteeing per-client bandwidths.  
+This list does not include the newly proposed *I/O latency* cgroups controller [io-lat-controller], because the latter is not aimed at guaranteeing per-client bandwidths.  
   
 These solutions are meant to guaranteeing a minimum per-client bandwidth, and of delivering a hopefully higher average per-client bandwidth. As for the third problem, namely limiting the maximum bandwidths of clients on a per-contract basis, it can be solved naturally by adding per-client throttling on top of any of the above solutions. For brevity, we discuss the final, complete result only for the two most cost-effective solutions above: low limits and proportional share over *BFQ*.  
   
 We analyze solutions separately, but some of them could be combined together.  
   
-The *low limits* and *bfq* solutions have been already analyzed in depth in my previous article [@IO-control-issues], in terms of total throughput and of minimum bandwidth guaranteed to each client. In this article we summarize results for these solutions, and, most importantly, we relate the success/failure of these solutions in reaching a high total throughput, which in itself may be of no interest for a service provider, with the success/failure in guaranteeing a high average bandwidth to each client.  
+The *low limits* and *bfq* solutions have been already analyzed in depth in my previous article [IO-control-issues], in terms of total throughput and of minimum bandwidth guaranteed to each client. In this article we summarize results for these solutions, and, most importantly, we relate the success/failure of these solutions in reaching a high total throughput, which in itself may be of no interest for a service provider, with the success/failure in guaranteeing a high average bandwidth to each client.  
   
 Limit throughput of bandwidth hogs  
 ==================================  
   
-The Linux throttling I/O policy [@io-controller] allows a maximum-bandwidth limit, *max limit* for brevity, to be set for the I/O of any group of processes.  
+The Linux throttling I/O policy [io-controller] allows a maximum-bandwidth limit, *max limit* for brevity, to be set for the I/O of any group of processes.  
   
-Max limits are the most used I/O-control mechanism for addressing bandwidth issues: offended clients, such as the target in Figure [fig:clients-no-control], are given back their expected bandwidths, by detecting and limiting bandwidth hogs with max limits.  
+Max limits are the most used I/O-control mechanism for addressing bandwidth issues: offended clients, such as the target in Figure [clients-no-control], are given back their expected bandwidths, by detecting and limiting bandwidth hogs with max limits.  
   
 Unfortunately, if/when bandwidth hogs actually use much less bandwidth than their max limit, the bandwidth that they leave unused cannot be reclaimed by other active groups. Thus max limits are not a good solution for delivering high average bandwidths when some clients are inactive. One may think of changing max limits dynamically, to maximize per-client average bandwidths. Indeed, this is exactly what the *low limits* mechanism does, as explained in Section (#sec:Throttling with low limits).  
   
-In addition, the effectiveness of max limits is rigidly tied to the workload at hand. If some characteristic of the workload changes, e.g., the hog moves elsewhere, minimum-bandwidth guarantees may be lost. Finally, max limits also suffer from loss of control with writes, as shown in my previous article [@IO-control-issues].  
+In addition, the effectiveness of max limits is rigidly tied to the workload at hand. If some characteristic of the workload changes, e.g., the hog moves elsewhere, minimum-bandwidth guarantees may be lost. Finally, max limits also suffer from loss of control with writes, as shown in my previous article [IO-control-issues].  
   
 On the opposite end, max limits find their natural use in limiting maximum bandwidths on a per-contract basis, as discussed in the description of a complete solution.  
   
 Proportional-share policy on *CFQ*  
 ==================================  
   
-The other I/O policy available in Linux, proportional share [@io-controller], expects each group to be associated with a weight, and targets per-group weighted fairness.  
+The other I/O policy available in Linux, proportional share [io-controller], expects each group to be associated with a weight, and targets per-group weighted fairness.  
   
 In legacy *BLK* (the legacy, single-queue block layer), this policy is implemented by the *CFQ* I/O scheduler, which, in its turn, guarantees time fairness: each group is granted access to storage for a fraction of time proportional to the weight of the group. So, to reduce the problems caused by a bandwidth hog, an administrator can reduce the weight of the hog and/or increase the weights of the suffering clients.  
   
@@ -151,9 +149,9 @@ This solution cannot provide definite minimum-bandwidth guarantees (e.g.: at lea
 Throttling with low limits  
 ==========================  
   
-Because of the above throughput drawbacks of max limits, an opposite, still experimental, *low limit* mechanism has been added to the throttling policy [@low-limit]. If a group is assigned such a low limit, then the throttling policy automatically, and dynamically, limits the I/O of the other groups in such a way to guarantee to the group a minimum bandwidth equal to its assigned low limit.  
+Because of the above throughput drawbacks of max limits, an opposite, still experimental, *low limit* mechanism has been added to the throttling policy [low-limit]. If a group is assigned such a low limit, then the throttling policy automatically, and dynamically, limits the I/O of the other groups in such a way to guarantee to the group a minimum bandwidth equal to its assigned low limit.  
   
-Unfortunately, as shown in detail in [@IO-control-issues], this mechanism easily throws away about 80% of the available storage speed, and fails to guarantee limits themselve. In particular, this happens with heterogeneous workloads, i.e., with mixes of, e.g., random and sequential I/O, and/or read and writes. In contrast, low limits are extremely effective with purely random workloads, for which they reach 100% of the storage speed.  
+Unfortunately, as shown in detail in [IO-control-issues], this mechanism easily throws away about 80% of the available storage speed, and fails to guarantee limits themselve. In particular, this happens with heterogeneous workloads, i.e., with mixes of, e.g., random and sequential I/O, and/or read and writes. In contrast, low limits are extremely effective with purely random workloads, for which they reach 100% of the storage speed.  
   
 Low limits have a hard time controlling I/O, intuitively, for the same reasons why we often have a hard time getting the shower temperature right. The quantities to control, namely group bandwidths, vary non linearly, and with variable delays, with respect to the changes of per-group max limits performed by the mechanism.  
   
@@ -168,20 +166,20 @@ Such a dedicated storage can be made as reliable as desired in guaranteeing mini
   
 Thus the main performance parameter for this solution is the utilization that can be reached without breaking bandwidth guarantees. To evaluate this parameter, we start by noting that an administrator typically controls the load on each unit by deciding the number of clients served by that unit.  
   
-Then we apply this fact to our reference system. Recall that, even in the worst case, the drive can deliver 10MB/s to each client. With how many active clients can this per-client minimum bandwidth be actually guaranteed? According to Figure [fig:clients-no-control], only with just one client!  
+Then we apply this fact to our reference system. Recall that, even in the worst case, the drive can deliver 10MB/s to each client. With how many active clients can this per-client minimum bandwidth be actually guaranteed? According to Figure [clients-no-control], only with just one client!  
   
-With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [fig:clients-no-control], with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
+With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [clients-no-control], with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
   
 As a conclusion, if the workload is asymmetric, such as, e.g., sequential plus random I/O, then dedicated storage can guarantee minimum bandwidths only at the price of very low utilizations, i.e., of high over-provisioning. On the opposite end, it is easy to show that, with symmetric workloads, dedicated storage can accomodate many clients per storage unit and reach high utilizations.  
   
 Proportional-share policy on *BFQ*  
 ==================================  
   
-In *BLK-MQ*, the proportional-share policy is implemented by the *BFQ* I/O scheduler [@bfq-doc]. Differently from low limits, *BFQ* reliably guarantees target minimum bandwidths. As for throughput, *BFQ* reaches about 90% of the storage speed in the worst-case, namely for workloads made of purely random I/O. Thus *BFQ* seems an effective solution for providing each client with a high average bandwidth.  
+In *BLK-MQ*, the proportional-share policy is implemented by the *BFQ* I/O scheduler [bfq-doc]. Differently from low limits, *BFQ* reliably guarantees target minimum bandwidths. As for throughput, *BFQ* reaches about 90% of the storage speed in the worst-case, namely for workloads made of purely random I/O. Thus *BFQ* seems an effective solution for providing each client with a high average bandwidth.  
   
 *BFQ* is however overcome by low limits for purely random I/O, for which low limits reach 100% of the speed. Still, not reaching full utilization may be little relevant in production-quality environments. For reliability, storage is typically redundant in these environments, and no single storage unit is fully utilized, so as to mitigate service degradation when some unit fails.  
   
-Main problems arise with very fast storage. The above 10% loss of throughput of *BFQ* is due to a higher execution overhead than low limits. This overhead becomes a barrier to speeds above 400 KIOPS, on commodity CPUs [@bfq-doc]. Work is in progress on addressing this issue.  
+Main problems arise with very fast storage. The above 10% loss of throughput of *BFQ* is due to a higher execution overhead than low limits. This overhead becomes a barrier to speeds above 400 KIOPS, on commodity CPUs [bfq-doc]. Work is in progress on addressing this issue.  
   
 A complete, general solution  
 ============================  
@@ -212,20 +210,12 @@ With *homogeneous* passengers, buses can run full. But, with general mixes of pa
 There is now a new bus driver, *BFQ*, who can finally drive buses with 90-100% of the seats occupied, and with any mix of passengers always correctly selected. So, in general,*BFQ* enables all the daily passengers to be moved using five to ten times less buses than those needed previously. On the downside, *BFQ* cannot reach full seat utilization with some types of passengers, and cannot drive next-generation super fast buses (there is development to try to improve on this front).  
   
 So, the future of I/O management mostly depends on which bus drivers companies will prefer to entrust their vehicles to ...  
-  
-Bibliography  
-============  
-  
-IO-control-issues: [https://lwn.net/Articles/763603/](https://lwn.net/Articles/763603/)  
-  
-blk-mq: [https://lwn.net/Articles/552904](https://lwn.net/Articles/552904)  
-  
-bfq-doc: [https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt](https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt)  
-  
-low-limit: [https://lkml.org/lkml/2017/1/14/310](https://lkml.org/lkml/2017/1/14/310)  
-  
-io-lat-controller: [https://lwn.net/Articles/758963/](https://lwn.net/Articles/758963/)  
-  
-io-controller: [https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt](https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt)  
-  
-S-suite: [https://github.com/Algodev-github/S](https://github.com/Algodev-github/S)
+
+[clients-no-control]: https://www.linaro.org/assets/content/throughputs-no-control-bw-table.png
+[IO-control-issues]: https://lwn.net/Articles/763603/
+[blk-mq]: https://lwn.net/Articles/552904
+[bfq-doc]: https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt
+[low-limit]: https://lkml.org/lkml/2017/1/14/310
+[io-lat-controller]: https://lwn.net/Articles/758963/ 
+[io-controller]: https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt
+[S-suite]: https://github.com/Algodev-github/S
