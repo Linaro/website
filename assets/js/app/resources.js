@@ -8,13 +8,15 @@ var sources = [
     "https://www.96boards.org/assets/json/posts.json",
     "https://www.trustedfirmware.org/assets/json/posts.json",
     "https://www.op-tee.org/assets/json/posts.json",
+    "https://www.devicetree.org/assets/json/posts.json",
     "/assets/json/recentPosts.json"
 ];
 var site_logos = {
     "https://www.96boards.org":"/assets/images/content/96boards-vertical-logo.png",
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
-    "https://www.linaro.org":"/assets/images/content/linaro-logo.png"
+    "https://www.linaro.org":"/assets/images/content/linaro-logo.png",
+    "http://localhost:4000": "/assets/images/content/linaro-logo.png",
 };
 // Sort function which takes the data array, property to sort by and an asc boolean.
 function sort_by_date(a, b) {
