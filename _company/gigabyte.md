@@ -1,7 +1,6 @@
 ---
 title: Gigabyte
-description: |-
-    GIGABYTE Server supplies the most competitive, precision engineered servers on the market.
+description: GIGABYTE Server supplies the most competitive, precision engineered servers on the market.
 company_image: gigabyte.jpg
 ---
 GIGABYTE Server supplies the most competitive, precision engineered servers on the market. With almost 20 years’ track record of working closely with the biggest names in the data center industry, GIGABYTE has built extensive experience in developing leading-edge technology products for diverse market segments.

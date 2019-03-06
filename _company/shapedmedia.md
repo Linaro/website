@@ -1,4 +1,4 @@
 ---
 title: Shapedmedia
-company_image: shapedmedia.png
+company_image: shapedmedia.jpg
 ---
