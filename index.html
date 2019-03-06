@@ -18,10 +18,15 @@ http2_resources:
 jumbotron:
     triangle-divider: true
     background-image: /assets/images/content/hkg18-tech-banner.jpg
-    title: Accelerating deployment of Arm based solutions.
+    title:
+        lines:
+            - text: Accelerating deployment of
+              class: line-one
+            - text: Arm-based solutions
+              class: line-two
 ---
+{% include home/blog-slider.html %}
 {% include home/collaborative-engineering.html %}
 {% include home/developer-services.html %}
 {% include home/96boards.html %}
 {% include home/connect.html %}
-{% include home/blog-slider.html %}
