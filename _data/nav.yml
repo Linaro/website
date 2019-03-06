@@ -77,7 +77,7 @@ pages:
                 - text: Linaro Telco & Network (LTN)
                   url: /sig/ltn/
                 - text: OpenDataPlane (ODP)
-                  url: https://www.opendataplane.org
+                  url: https://opendataplane.org
           - text: Incubators
             options:
                 - text: Overview

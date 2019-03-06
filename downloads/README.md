@@ -123,7 +123,7 @@ jumbotron:
             </ul>
         </p>
         </div>
-        <a href="https://www.opendataplane.org" class="btn btn-primary">View Website</a>
+        <a href="https://opendataplane.org" class="btn btn-primary">View Website</a>
     </div>
 </div>
 
