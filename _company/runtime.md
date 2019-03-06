@@ -1,8 +1,7 @@
 ---
 title: Runtime
-description: |-
-    Runtime provides cloud-based management of connected devices and is a complete solutions provider for consumer, medical, commercial, and industrial IoT applications.
-company_image: runtime.png
+description: Runtime provides cloud-based management of connected devices and is a complete solutions provider for consumer, medical, commercial, and industrial IoT applications.
+company_image: runtime.jpg
 ---
 Runtime provides cloud-based management of connected devices and is a complete solutions provider for consumer, medical, commercial, and industrial IoT applications.
 
