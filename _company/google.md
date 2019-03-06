@@ -1,4 +1,4 @@
 ---
 title: Google
-company_image: google.png
+company_image: google.jpg
 ---

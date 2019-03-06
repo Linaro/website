@@ -1,8 +1,7 @@
 ---
 title: BITMAIN
-description: |-
-    BITMAIN is committed to providing high-performance computing chips, which is mainly applied to blockchain and artificial intelligence. The global market share in blockchain field reached 74.5%, holding an absolute leading position.
-company_image: bitmain_logo.png
+description: BITMAIN is committed to providing high-performance computing chips, which is mainly applied to blockchain and artificial intelligence. The global market share in blockchain field reached 74.5%, holding an absolute leading position.
+company_image: bitmain.jpg
 ---
 BITMAIN is committed to providing high-performance computing chips, which is mainly applied to blockchain and artificial intelligence. The global market share in blockchain field reached 74.5%, holding an absolute leading position. High-performance chip design is the core competitiveness of BITMAIN, which has rich experience in the design of the most advanced process 7nm.
 
