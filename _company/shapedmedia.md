@@ -1,4 +1,4 @@
 ---
 title: Shapedmedia
-company_image: shapedmedia.png
+company_image: https://static.linaro.org/common/member-logos/shapedmedia.jpg
 ---

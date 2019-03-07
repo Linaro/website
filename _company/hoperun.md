@@ -1,8 +1,7 @@
 ---
 title: HopeRun
-description: |-
-    HopeRun Software Co. Ltd. is a large-scale leading enterprise providing integrated software solution and service in software industry of China.
-company_image: hoperun.jpg
+description: HopeRun Software Co. Ltd. is a large-scale leading enterprise providing integrated software solution and service in software industry of China.
+company_image: https://static.linaro.org/common/member-logos/hoperun.jpg
 ---
 Jiangsu HopeRun Software Co., Ltd. is a large-scale leading enterprise providing integrated software solution and service in software industry of China.
 
@@ -15,3 +14,4 @@ By August 2015, HopeRun already have 5,000 outstanding employees with profession
 As a full member of Information Technology Service Standards (ITSS) Working Team and one of the major software enterprises in national planning, key service outsourcing enterprises in China, high-tech enterprises of Jiangsu province, the first batch of advanced technology service enterprises in Jiangsu province and leading enterprises in service outsourcing base of Jiangsu province, HopeRun has Jiangsu engineering research center for enterprise supply chain management software, Jiangsu engineering center for supply chain management software, Jiangsu software enterprise technology center and Jiangsu automobile intellectualization industry alliance center, and has successively passed ISO9001:2008, ISO27001, CMMI3 and other quality system and model certifications. Besides, HopeRun ranks top 20 in the Forbes list of listed companies of China with great potentiality and Forbes China Up and Comers.
 
 Furthermore, HopeRun also has independent R&D center, data center, test center and training base. Located in the core software area of Nanjing – China (Nanjing) Software Valley, HopeRun·Innovation & Intelligence Center has a total area of 150,000 square meters and can accommodate 20,000 people at the same time. It will serve the upstream and downstream enterprises of software industry better and give full play to the leading role of HopeRun in the industry. Through gathering enterprises in the industrial ecosphere, enhancing joint innovation, promoting competitiveness of the whole region, expanding complex value added service, HopeRun will become stronger and in the meantime, will promote the development of relevant upstream and downstream industries and create a software industry cluster with core competitiveness.
+

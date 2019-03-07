@@ -30,17 +30,8 @@ Gold sponsor— [Samsung](http://www.samsung.com/us/#latest-home)
 
 Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
 
-{% include image.html name="ARM_Corp_CMYK.jpg" alt="Arm Corp" url="http://www.arm.com/"%}
 
-{% include image.html name="canonical.jpg" alt="Canonical" url="http://www.canonical.com/" %}
-
-{% include image.html name="samsung.jpg" alt="Saumsung" url="http://www.samsung.com/us/#latest-home" %}
-
-{% include image.html name="logo-lj.jpg" alt="Linux Journal" url="http://www.linuxjournal.com/" %}
-
-{% include image.html name="Ubuntu-User.png" alt="Ubuntu User" url="http://www.ubuntu-user.com/" %}
-
-{% include image.html name="LinuxQuestions.png" alt="Linux Questions" url="http://www.linuxquestions.org/" %}
+Thanks to our Sponors: Arm, Canonical, Samsung, Linux Journal, Ubuntu User and Linux Questions!
 
 Many thanks to these organizations and I look forward to seeing you at the Q2.12 Linaro Connect event!
 
