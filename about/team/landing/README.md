@@ -26,23 +26,34 @@ Landing Teams also provide advice and instruction to internal Member engineers t
 Landing Teams also track the latest Arm technology and the work of the Linaro Working Groups. They feed back information to their contacts on the Member’s internal engineering teams, and have provided presentations on new topics such as the In-Kernel Switcher and big.LITTLE GTS patchset. Landing Teams can also help arrange subject matter experts and maintainers in Linaro’s Working groups to present to the Member’s internal engineering teams.
 
 <div class="row">
-<div class="col-sm-2" markdown="1">
-{% include image.html name="arm.jpg" alt="Arm member logo" url="/membership/arm/"%}
-</div>
-<div class="col-sm-2" markdown="1">
-{% include image.html name="broadcom.jpg" alt="BroadCom Member logo" url="/membership/broadcom/"%}
-</div>
-<div class="col-sm-2" markdown="1">
-{% include image.html name="hisilicon.jpg" alt="Hisilicon member logo" url="/membership/hisilicon/"%}
-</div>
-<div class="col-sm-2" markdown="1">
-{% include image.html name="st.jpg" alt="ST member logo" url="/membership/st/"%}
-</div>
-<div class="col-sm-2" markdown="1">
-{% include image.html name="ti.jpg" alt="Texas Instruments member logo" url="/membership/texas-instruments/"%}
-</div>
-<div class="col-sm-2" markdown="1">
-{% include image.html name="quic.jpg" alt="Qualcomm Innovation Center Member logo" url="/membership/quic/"%}
-</div>
-
+    <div class="col-sm-2">
+        <a href="/membership/arm/">
+            <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/arm.jpg" 
+            data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Arm Logo">
+        </a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/membership/hilsilicon/">
+            <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/hisilicon.jpg" 
+            data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="HiSilicon Logo">
+        </a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/membership/st/">
+            <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/st.jpg" 
+            data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="ST Logo">
+        </a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/membership/texas-instruments/">
+            <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/texas-instruments.jpg" 
+            data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Texas Instruments Logo">
+        </a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/membership/texas-instruments/">
+            <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/quic.jpg" 
+            data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Qualcomm Innovation Center Member Logo">
+        </a>
+    </div>
 </div>
