@@ -124,6 +124,11 @@
                 "url": "/membership/cypress/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
+                "name": "Qualcomm Datacenter Technologies",
+                "url": "/membership/qualcomm-datacenter-technologies/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
@@ -145,12 +150,36 @@
     },
     {
         "id": "associate",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/runtime.jpg",
+                "name": "Runtime",
+                "url": "/membership/runtime/"
+            }
+        ],
         "membership_group_name": "Associates",
         "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
         "url": "/membership/"
     },
     {
         "id": "community",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/ibm.jpg",
+                "name": "IBM",
+                "url": "/membership/ibm/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/linux-foundation.jpg",
+                "name": "Linux Foundation",
+                "url": "/membership/linux-foundation/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/foundries-io.jpg",
+                "name": "Foundries.io",
+                "url": "/membership/foundries-io/"
+            }
+        ],
         "membership_group_name": "Community Members",
         "url": "/membership/"
     },
@@ -193,6 +222,18 @@
         "url": "/engineering/incubators/autonomous-vehicles/"
     },
     {
+        "advisory_board": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/cern.jpg",
+                "name": "CERN",
+                "url": "/membership/cern/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/riken.jpg",
+                "name": "RIKEN",
+                "url": "/membership/riken/"
+            }
+        ],
         "id": "hpc-sig",
         "members": [
             {
@@ -224,6 +265,16 @@
                 "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
                 "name": "Guizhou Huaxintong Semiconductor Technologies Co., Ltd. (HXT Semiconductor)",
                 "url": "/membership/hxt/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
+                "name": "Qualcomm Datacenter Technologies",
+                "url": "/membership/qualcomm-datacenter-technologies/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
+                "name": "Sandia National Laboratories",
+                "url": "/membership/sandia-national-laboratories/"
             }
         ],
         "membership_group_name": "HPC SIG Members",
@@ -267,6 +318,11 @@
                 "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
                 "name": "Guizhou Huaxintong Semiconductor Technologies Co., Ltd. (HXT Semiconductor)",
                 "url": "/membership/hxt/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
+                "name": "Qualcomm Datacenter Technologies",
+                "url": "/membership/qualcomm-datacenter-technologies/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
@@ -454,6 +510,16 @@
                 "url": "/membership/xilinx/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/actions.jpg",
+                "name": "Actions Semiconductor",
+                "url": "/membership/actions/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/advantech.jpg",
+                "name": "Advantech",
+                "url": "/membership/advantech/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/archermind.jpg",
                 "name": "Archermind",
                 "url": "/membership/archermind/"
@@ -474,9 +540,29 @@
                 "url": "/membership/rockchip/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/tier4.jpg",
+                "name": "Tier IV",
+                "url": "/membership/tier4/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/thundersoft.jpg",
                 "name": "Thundersoft",
                 "url": "/membership/thundersoft/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/analog-devices.jpg",
+                "name": "Analog Devices",
+                "url": "/membership/analog-devices/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/bitmain.jpg",
+                "name": "BITMAIN",
+                "url": "/membership/bitmain/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/softbank.jpg",
+                "name": "SoftBank",
+                "url": "/membership/softbank/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/unisoc.jpg",
@@ -512,9 +598,109 @@
                 "url": "/membership/thundersoft/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/bipai.jpg",
+                "name": "BiPai",
+                "url": "/membership/bipai/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/blackwhale.jpg",
+                "name": "Black Whale Technology",
+                "url": "/membership/blackwhale/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/deltavision.jpg",
+                "name": "Deltavision",
+                "url": "/membership/deltavision/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/element14.jpg",
+                "name": "Element14",
+                "url": "/membership/element14/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/geniatech.jpg",
+                "name": "Geniatech",
+                "url": "/membership/geniatech/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/gigabyte.jpg",
+                "name": "Gigabyte",
+                "url": "/membership/gigabyte/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/globalscale.jpg",
+                "name": "Globalscale",
+                "url": "/membership/globalscale/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/gumstix.jpg",
+                "name": "Gumstix",
+                "url": "/membership/gumstix/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/huaqin.jpg",
+                "name": "HUAQIN",
+                "url": "/membership/huaqin/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/lemaker.jpg",
+                "name": "LeMaker",
+                "url": "/membership/lemaker/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/novtech.jpg",
+                "name": "NovTech",
+                "url": "/membership/novtech/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/seeed.jpg",
+                "name": "Seeed",
+                "url": "/membership/seeed/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/shiratech.jpg",
+                "name": "Shiratech",
+                "url": "/membership/shiratech/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/shapedmedia.jpg",
+                "name": "Shapedmedia",
+                "url": "/membership/shapedmedia/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/tocoding.jpg",
+                "name": "Tocoding",
+                "url": "/membership/tocoding/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/ucrobotics.jpg",
+                "name": "ucRobotics",
+                "url": "/membership/ucrobotics/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/witstek.jpg",
+                "name": "Witstek",
+                "url": "/membership/witstek/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/xunlong.jpg",
+                "name": "Xunlong",
+                "url": "/membership/xunlong/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/vamrs.jpg",
                 "name": "vamrs",
                 "url": "/membership/vamrs/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/fujitsu-electronics.jpg",
+                "name": "Fujitsu Electronics",
+                "url": "/membership/fujitsu-electronics/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/fab-to-lab.jpg",
+                "name": "Fab.to.Lab",
+                "url": "/membership/fab-to-lab/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
@@ -523,6 +709,18 @@
     {
         "id": "boards-mezzanine",
         "image": "96boards-mezzanine.png",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/qwerty.jpg",
+                "name": "QWERTY Embedded Design",
+                "url": "/membership/qwerty/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/rohm.jpg",
+                "name": "ROHM",
+                "url": "/membership/rohm/"
+            }
+        ],
         "membership_group_name": "96Boards Mezzanine Partners",
         "url": "https://www.96boards.org/membership/"
     },
