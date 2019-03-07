@@ -35,7 +35,7 @@
                     {% for member in sorted_members %}
                         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                             <a href="{{member.url}}">
-                                <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                                <img data-src="{{member.image}}" alt="{{member.name}}"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 class="img-responsive members-img lazyload center-block"/>
                             </a>
@@ -48,7 +48,7 @@
                             {% for member in advisory_board %}
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
                                     <a href="{{member.url}}">
-                                        <img data-src="{% asset_path '{{member.image}}' %}" alt="{{member.name}}"
+                                        <img data-src="{{member.image}}" alt="{{member.name}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         class="img-responsive members-img lazyload center-block"/>
                                     </a>
