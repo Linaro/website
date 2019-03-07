@@ -20,8 +20,8 @@ title: OpenDataPlane project releases v0.2 development release
 wordpress_id: 5770
 ---
 
-[OpenDataPlane](http://www.opendataplane.org/) continues its progress towards a stable ODP v1.0 release via the [v0.2 development release](https://opendataplane.org/). This release introduces the ODP scheduler to permit seamless scale-out across multiple cores as well as additional enhancements in queuing and basic timer management functions. Also included is netmap acceleration of packet I/O on x86 platforms.
+[OpenDataPlane](https://www.opendataplane.org/) continues its progress towards a stable ODP v1.0 release via the [v0.2 development release](https://opendataplane.org/). This release introduces the ODP scheduler to permit seamless scale-out across multiple cores as well as additional enhancements in queuing and basic timer management functions. Also included is netmap acceleration of packet I/O on x86 platforms.
 
 This is the last pure software interim release of ODP. Development is now focused on accelerated SoC platform support as well as defining and adding APIs for key features like crypto that are in common use in the data plane and need to span the differing hardware capabilities of various platforms supporting ODP. Also under development is a DPDK-based x86 implementation to make DPDK the preferred software acceleration technology for ODP applications when running on x86 platforms.
 
-The goal remains to allow ODP applications to enjoy both easy portability and optimized performance across all platforms and architectures hosting ODP implementations. ODP v1.0 is currently targeted for completion by year end 2014. To follow all of ODP’s activities and status please visit our status page [https://www.opendataplane.org/](https://www.opendataplane.org/)
+The goal remains to allow ODP applications to enjoy both easy portability and optimized performance across all platforms and architectures hosting ODP implementations. ODP v1.0 is currently targeted for completion by year end 2014. To follow all of ODP’s activities and status please visit our status page [https://opendataplane.org/](https://opendataplane.org/)

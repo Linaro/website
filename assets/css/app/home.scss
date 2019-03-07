@@ -411,7 +411,7 @@ span.sub-title {
 span.main-title {
     font-weight: bold;
     font-size: 14px;
-    color: #fff;
+    color: #404040;
     top: 15px;
     position: relative;
 }
@@ -444,38 +444,35 @@ span.main-title {
     margin-bottom: 0 !important;
     height: 85px;
 }
-
 div#groups_home_block {
     padding-bottom: 50px;
     padding-top: 50px;
     background-color: #d4d4d4;
     box-shadow: inset 0px 11px 8px -10px #aaaaaa, inset 0px -11px 8px -10px #aaaaaa;
 }
-
 div#featured-slider-row {
     padding-bottom: 70px;
     padding-top: 20px;
 }
-
 div#latest-news-row {
     padding-bottom: 50px;
     padding-top: 50px;
 }
-
 .row.group_header {
-    background-color: #424242;
+    background-color: #eeeeee;
     padding: 0;
     padding-top: 15px;
     height: 80px;
     transition-delay: 100ms;
-    border: 1px solid #333;
+    border: 1px solid #dcdcdc;
     transition: all 100ms linear;
 }
-
 .row.group_header:hover {
     background-color: #3c3b3b;
 }
-
+.row.group_header:hover .main-title {
+    color: #fff;
+}
 .row.group_content.leg {
     background-color: #e6f4f9;
     border-bottom: 2px solid #0195ca;
@@ -616,14 +613,13 @@ div#featured-jumbotron {
 span.line-one {
     display: block;
     color: white;
-    font-size: 30px;
+    font-size: 52px;
 }
 span.line-two {
-    font-size: 50px;
+    font-size: 58px;
     font-weight: bold;
     position: relative;
     color:white;
-    text-shadow: #000 1px 1px 7px;
 }
 
 // Developer Services section
@@ -704,7 +700,7 @@ div#developer-services {
         left: -100vw;
     }
     #wrapper .home-row p.call-to-action {
-        font-size: 16px !important;
+        font-size: 20px !important;
     }
     #wrapper .home-row h2 {
         font-size: 40px !important;
@@ -790,4 +786,8 @@ div#connect {
 }
 .group_block:hover {
     opacity: 1;
+}
+#jumbotron h1 {
+    color: white;
+    font-size: 66px;
 }

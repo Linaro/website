@@ -16,6 +16,7 @@ var site_logos = {
     "https://www.trustedfirmware.org":"/assets/images/content/trusted-firmware-logo.png",
     "https://www.op-tee.org":"/assets/images/content/op-tee-logo.png",
     "https://www.linaro.org":"/assets/images/content/linaro-logo.png",
+    "https://staging.linaro.org": "/assets/images/content/linaro-logo.png",
     "http://localhost:4000": "/assets/images/content/linaro-logo.png",
 };
 // Sort function which takes the data array, property to sort by and an asc boolean.
@@ -74,6 +75,12 @@ $(document).ready(function () {
         // Loop through the sources and the separate script elements.
         for(i=0; i < sources.length; i++)
         {
+            // $.get(sources[i], function (jsonResponse){
+            //     console.log(jsonResponse);
+            //     jsonData = JSON.parse(jsonResponse);
+            //     console.log("Parsed: " + jsonData);
+            //     allJSONData = allJSONData.concat(jsonData);
+            // });
             $.ajax({
                 url: sources[i],
                 dataType: 'json',
