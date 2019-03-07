@@ -1,6 +1,6 @@
 ---
 title: Arm Architecture HPC Workshop Santa Clara 2018
-layout: default
+layout: base
 author: linaro
 categories:
 - events
