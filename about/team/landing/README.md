@@ -33,7 +33,7 @@ Landing Teams also track the latest Arm technology and the work of the Linaro Wo
         </a>
     </div>
     <div class="col-sm-2">
-        <a href="/membership/hilsilicon/">
+        <a href="/membership/hisilicon/">
             <img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/hisilicon.jpg" 
             data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="HiSilicon Logo">
         </a>
