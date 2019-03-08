@@ -56,7 +56,7 @@ You can still experiment with Linaro builds even if you don’t have physical ha
 
 ## Using the Linaro Toolchain
 
-*   If you are interested in building software using the Linaro toolchain, you can follow the what the Linaro Toolchain group has been doing on their wiki page to more information. [Toolchain Wiki page](https://wiki.linaro.org/WorkingGroups/ToolChain)
+If you are interested in building software using the Linaro toolchain, you can follow the what the Linaro Toolchain group has been doing on their wiki page to more information. [Toolchain Wiki page](https://wiki.linaro.org/WorkingGroups/ToolChain)
 
 
 ## Using the Linaro Kernel
