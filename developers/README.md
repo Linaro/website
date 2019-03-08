@@ -6,9 +6,9 @@ title: Developers
 permalink: /developers/
 jumbotron:
     background-image: /assets/images/content/downloads-bg.jpg
-    title: For Developers
+    title: Get Involved
 ---
-**Whether you are an individual or an employee of a organization it is easy to get involved with Linaro…**
+**Whether you are an individual or an employee of a organization it is easy to get involved with Linaro**
 
 You will see that there are several ways to become involved and that everything we do is open, not only software but also our [wiki](http://wiki.linaro.org/FrontPage) and our discussions (on IRC and on our mailing lists).
 
@@ -38,27 +38,27 @@ You will see that there are several ways to become involved and that everything 
 <div class="tab-content" id="tabbed_nav_content">
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="individuals" markdown="1">
 
-**See how Linaro operates first-hand…**
+**See how Linaro operates first-hand**
 
 *   Join us at the next [Linaro Connect](https://connect.linaro.org/), browse current projects on the [Wiki](https://wiki.linaro.org/) and [Launchpad](https://launchpad.net/linaro), and subscribe to relevant [Linaro mailing lists](http://lists.linaro.org/mailman/listinfo).
 
-**New to free and open source software (FOSS)?…**
+**New to free and open source software (FOSS)?**
 
 *   See this [introduction](/blog/make-positive-difference-foss-project/) on getting involved and maximizing your contributions, written by Paul McKenney, [RCU](http://www.rdrop.com/users/paulmck/RCU/ "Introduction to RCU") Maintainer and member of Linaro’s OCTO.
 
-**Running Linaro on your hardware…**
+**Running Linaro on your hardware**
 
 *   There are two ways to get a Linaro build on your hardware. The fastest way is to grab a milestone image and “dd” it to your SD card. If you’d like a little more customization of things like filesystem type, then you can follow the instructions on the [boards page](https://wiki.linaro.org/Boards) of the Wiki. They explain how to pick a hardware pack, root filesystem, and then install them using Linaro Image Tools. The developer Wiki includes an up-to-date list of what hardware is supported by our current builds. There is also a list of [low cost development boards](http://wiki.linaro.org/Boards), with links to retailers.
 
-**Running Linaro without hardware…**
+**Running Linaro without hardware**
 
 *   You can still experiment with Linaro builds even if you don’t have physical hardware. We have a quick guide to [using Qemu with Linaro builds](https://wiki.linaro.org/Resources/HowTo/Qemu).
 
-**Using the Linaro Toolchain…**
+**Using the Linaro Toolchain**
 
 *   If you are interested in building software using the Linaro toolchain, you can follow the what the Linaro Toolchain group has been doing on their wiki page to more information. [Toolchain Wiki page](https://wiki.linaro.org/WorkingGroups/ToolChain)
 
-**Using the Linaro Kernel…**
+**Using the Linaro Kernel**
 
 *   If you are interested in doing some kernel hacking take a look at: [Linaro Kernel Tree Policy](http://wiki.linaro.org/Platform/DevPlatform/LinuxLinaroKernelTreeProcess). For more on building and deploying try [Build and Deploy a Kernel](https://wiki.linaro.org/Resources/HowTo/KernelDeploy) and [Debian Build and Packaging of a Kernel](https://wiki.linaro.org/Resources/HowTo/PackageYourOwnKernel).
 </div>
