@@ -125,6 +125,11 @@ span.bold {
     font-size: 40px;
     top: -55px;
     position: relative;
+    margin-top: 20px;
+    @media(max-width: $screen-sm-min){
+        font-size: 24px;
+        width: 100%;
+    }
 }
 .big-triangle:after, .big-triangle:before {
     border-bottom-color: #f3f3f3;

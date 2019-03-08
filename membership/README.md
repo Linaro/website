@@ -10,6 +10,7 @@ jumbotron:
     triangle-divider: true
     background-image: /assets/images/content/membership-bg.jpg
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
+    description-class: smaller
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
     buttons:
