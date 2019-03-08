@@ -98,11 +98,9 @@ pages:
             url: /services/testing-validation-services/
           - text: Hands on Training
             url: /services/hands-on-training/
-    - title: Developers
+    - title: Downloads
       left: true
       options:
-          - text: Get Involved
-            url: /developers/
           - text: Downloads
             url: /downloads/
           - text: Security Downloads
