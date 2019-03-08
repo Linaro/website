@@ -23,7 +23,6 @@ css-package: work
 <hr />
 <i class="fa fa-user" aria-hidden="true"></i><strong>Principal Engineer: </strong> {{page.principal-engineer}}
 {% endif %}
-
 {% if page.related_projects %}
   <hr />
     <i class="fa fa-code" aria-hidden="true"></i> <strong>Lead Projects</strong>
@@ -39,8 +38,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
-
 {% if page.releases %}
   <hr />
   <i class="fa fa-cloud-download" aria-hidden="true"></i><strong>Related Releases</strong>
@@ -52,7 +49,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.projects %}
   <hr />
   <i class="fa fa-code" aria-hidden="true"></i><strong>Projects</strong>
@@ -64,7 +60,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.related_initiatives %}
   <hr />
   <strong>Initiatives</strong>
@@ -80,7 +75,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.related_sig %}
   <hr />
   <strong>Special Interest Groups (SIG)</strong>
@@ -96,8 +90,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
-
 {% if page.other_projects %}
   <hr />
   <i class="fa fa-code" aria-hidden="true"></i> <strong>Other Projects</strong>
@@ -113,7 +105,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.related_core_groups %}
   <hr />
   <strong>Related Core Team</strong>
@@ -129,7 +120,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.related_jira_projects %}
   <hr />
   <strong>Jira Projects</strong>
@@ -141,7 +131,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.governance %}
   <hr />
   <strong>Governance</strong>
@@ -153,7 +142,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.engineering %}
   <hr />
   <strong>Engineering</strong>
@@ -165,7 +153,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
 {% if page.mailing_lists %}
   <hr />
   <strong>Mailing Lists</strong>
@@ -177,8 +164,6 @@ css-package: work
     {% endfor %}
   </ul>
 {% endif %}
-
-
 {% if page.related_tags %}
 <hr>
 <i class="fa fa-file-text" aria-hidden="true"></i>
@@ -203,10 +188,7 @@ css-package: work
     {% endfor %}
 </ul>
 {% endif %}
-
 <hr />
-
-
 </div>
 <div class="col-md-9 group_content_section">
     {% if page.featured_video %}
@@ -214,9 +196,7 @@ css-package: work
       {% include media.html media_url=page.featured_video %}
     </div>
     {% endif %}
-
     {{ content }}
-
     {% if page.youtube_playlist %}
       <div class="col-xs-12 group_playlist">
       <hr />
@@ -224,13 +204,10 @@ css-package: work
       {% include media.html media_url=playlist_embed_link %}
       </div>
     {% endif %}
-    
     <div class="col-xs-12 contact_form">
         {% include linaro-contact-form.html %}
     </div>
-
     {% include work-footer.html %}
-
     <hr />
 </div>
 

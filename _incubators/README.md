@@ -8,6 +8,6 @@ related_tags:
   - Automotive
   - ML
   - AI/ML
-  - Incubators
+  - Autoware
 ---
 In 2018, Linaro began to form Incubators that focused on emerging technologies. Linaro currently has two Incubator projects - Autonomous Vehicles and Machine Intelligence. To find out how you can contribute, fill out the form below.
