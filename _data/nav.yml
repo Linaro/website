@@ -40,7 +40,7 @@ pages:
       options:
           - text: Overview
             url: /engineering/
-          - text: Core
+          - text: Core Engineering on Arm
             options:
                 - text: Overview
                   url: /engineering/core/
@@ -98,10 +98,12 @@ pages:
             url: /services/testing-validation-services/
           - text: Hands on Training
             url: /services/hands-on-training/
-    - title: Downloads
+    - title: Developers
       left: true
       options:
-          - text: All Downloads
+          - text: Get Involved
+            url: /developers/
+          - text: Downloads
             url: /downloads/
           - text: Security Downloads
             url: /downloads/security/
