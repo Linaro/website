@@ -7,6 +7,7 @@ permalink: /engineering/
 js-package: engineering
 css-package: work
 jumbotron:
+    description-class: smaller
     title: Where collaborative engineering happens
     background-image: /assets/images/content/engineering-bg.jpg
 ---
