@@ -119,12 +119,20 @@ span.bold {
     text-align: center;
 }
 
-#developer-services p {
+#jumbotron-content p.fly.center-block.show-block {
     color: white;
     width: 60%;
     font-size: 40px;
     top: -55px;
     position: relative;
+    margin-top: 20px;
+    @media(max-width: $screen-sm-min){
+        font-size: 24px;
+        width: 100%;
+    }
+}
+.big-triangle:after, .big-triangle:before {
+    border-bottom-color: #f3f3f3;
 }
 .project-image {
     height: 50px;

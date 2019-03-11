@@ -10,6 +10,7 @@ jumbotron:
     triangle-divider: true
     background-image: /assets/images/content/membership-bg.jpg
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
+    description-class: smaller
     description: >-
         Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
     buttons:
@@ -131,7 +132,7 @@ jumbotron:
 {% for member in sorted-linaro-members %}
 <div class="col-xs-6 col-sm-3 col-md-2 member-col fly">
 <a href="{{member.url}}">
-<div class="member lazyload" style="background-image: url('/assets/images/members-optim/{{member.image}}');"></div>
+<div class="member lazyload" style="background-image: url('{{member.image}}');"></div>
 </a>
 </div>
 {% endfor %}
@@ -147,7 +148,7 @@ To view Linaro members by level of engagement, click <a href="/members-by-group/
 {% for member in sorted-boards-members %}
 <div class="col-xs-6 col-sm-3 col-md-2 member-col">
 <a href="{{member.url}}">
-<div class="member lazyload" style="background-image: url('/assets/images/members-optim/{{member.image}}');"></div>
+<div class="member lazyload" style="background-image: url('{{member.image}}');"></div>
 </a>
 </div>
 {% endfor %}
