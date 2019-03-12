@@ -159,7 +159,10 @@ Thus the main performance parameter for this solution is the utilization that ca
   
   
 With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [clients-no-control](https://www.linaro.org/assets/content/throughputs-no-control-bw-table.png), with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
-  
+
+Proportional-share policy on *BFQ*  
+==================================
+
 In *BLK-MQ*, the proportional-share policy is implemented by the *BFQ* I/O scheduler [bfq-doc](https://www.kernel.org/doc/Documentation/block/bfq-iosched.txt). Differently from low limits, *BFQ* reliably guarantees target minimum bandwidths. As for throughput, *BFQ* reaches about 90% of the storage speed in the worst-case, namely for workloads made of purely random I/O. Thus *BFQ* seems an effective solution for providing each client with a high average bandwidth.  
   
 *BFQ* is however overcome by low limits for purely random I/O, for which low limits reach 100% of the speed. Still, not reaching full utilization may be little relevant in production-quality environments. For reliability, storage is typically redundant in these environments, and no single storage unit is fully utilized, so as to mitigate service degradation when some unit fails.  
