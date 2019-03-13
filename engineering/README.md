@@ -8,7 +8,9 @@ js-package: engineering
 css-package: work
 jumbotron:
     description-class: smaller
-    title: Where collaborative engineering happens
+    description: >
+        Linaro’s work spans a wide range of technologies. To find out more about what work we do in each vertical, click on the relevant icon below.
+    title: Where Collaborative Engineering Happens
     background-image: /assets/images/content/engineering-bg.jpg
 ---
 <!--- Top Engineering Icons Row -->

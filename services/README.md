@@ -19,30 +19,13 @@ image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png 
 ---
-<div class="row padded-row" id="key-factors">
+<div class="row padded-row" id="about-services">
     <div class="container">
-        <h2 class="text-center fly">Key Benefits</h2>
-        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
-            <div class="key-factor-block fly">
-                <span class="key-factor-title">
-                    Efficiently support the latest technology features upstream
-                </span>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
-            <div class="key-factor-block fly">
-                <span class="key-factor-title">
-                    Reduce burden of post-release software updates and support
-                </span>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 fly key-factor text-center">
-            <div class="key-factor-block fly">
-                <span class="key-factor-title">
-                    Available to both Linaro Member and non-Member companies
-                </span>
-            </div>
-        </div>
+<div markdown="1" class="fly">
+Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced Arm technologies in every segment. Linaro Developer Services make that expertise available to you for use on your project.
+
+Linaro Developer Services are expert software and Linux engineers. Our expertise allows us to support all aspects of your Arm-based product delivery, from helping with initial board bring up, to upstreaming code and maintaining long-term support builds. To read more about all the services we provide, click on the area of interest below.
+</div>
     </div>
 </div>
 <div class="row padded-row" id="services">
@@ -134,19 +117,6 @@ image:
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row padded-row" id="about-services">
-    <div class="container">
-        <h2 class="text-center fly">About</h2>
-<div markdown="1" class="fly">
-We at Linaro Developer Services are Arm software engineering experts. We pride ourselves on the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of our work and professionalism of the engagements with our customers.
-
-Open Source software is our culture and we have helped many customers work with open source software communities. We also routinely work with customers under non-disclosure on confidential development projects.
-
-Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced Arm technologies in every
-segment. Linaro Developer Services make that expertise available to you for use on your project.
-</div>
     </div>
 </div>
 <div class="row padded-row" id="get-in-touch">
