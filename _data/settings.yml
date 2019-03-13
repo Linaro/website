@@ -4,6 +4,8 @@ favicon: favicon.png
 name: Linaro
 # Support for http2 push features
 http2: true
+# Hide last modified at date
+hide_last_modified: true
 # Support for http2 push features
 http2_resources:
   - rel: preload

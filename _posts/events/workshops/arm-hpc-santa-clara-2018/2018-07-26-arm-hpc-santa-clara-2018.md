@@ -1,6 +1,6 @@
 ---
 title: Arm Architecture HPC Workshop Santa Clara 2018
-layout: default
+layout: base
 author: linaro
 categories:
 - events
@@ -15,7 +15,7 @@ event: arm-hpc-santa-clara-2018
 tag: event
 ---
 <div class="row no-padding arm-hpc-row top">
-    <div class="container" style="background: url({% asset_path 'hpc.png' %});background-position: center center;">
+    <div class="container" style="background: url(/assets/images/content/hpc.png);background-position: center center;">
         <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
@@ -145,7 +145,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'andrew-j-young.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/andrew-j-young.jpg)"></div>
                 <span class="speaker-name">Andrew J Younge</span>
                 <span class="speaker-company">Sandia National Laboratories</span>
                 <span class="speaker-talk-title">Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing</span>
@@ -157,7 +157,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'alex.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/alex.jpg)"></div>
                 <span class="speaker-name">Alex Bennée</span>
                 <span class="speaker-company">Linaro</span>
                 <span class="speaker-talk-title">Setting up an SVE developer environment</span>
@@ -170,7 +170,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'Gilad.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/Gilad.jpg)"></div>
                 <span class="speaker-name">Gilad Shainer and Scot Schultz</span>
                 <span class="speaker-company">Mellanox Technologies</span>
                 <span class="speaker-talk-title">Intelligent Interconnect Architecture to Enable Next Generation HPC</span>
@@ -184,7 +184,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'jay-kruemcke.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/jay-kruemcke.jpg)"></div>
                 <span class="speaker-name">Jay Kruemcke</span>
                 <span class="speaker-company">SUSE</span>
                 <span class="speaker-talk-title">It just keeps getting better - SUSE enablement for Arm</span>
@@ -196,7 +196,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/person-placeholder.png)"></div>
                 <span class="speaker-name">Joel Jones</span>
                 <span class="speaker-company">Cavium</span>
                 <span class="speaker-talk-title">Optimizing for ARM64—A Toolchain Perspective</span>
@@ -208,7 +208,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'pavel.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/pavel.jpg)"></div>
                 <span class="speaker-name">Pavel Shamis</span>
                 <span class="speaker-company">Arm</span>
                 <span class="speaker-talk-title">HPC network stack on Arm</span>
@@ -222,7 +222,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'renato.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/renato.jpg)"></div>
                 <span class="speaker-name">Renato Golin</span>
                 <span class="speaker-company">Linaro</span>
                 <span class="speaker-talk-title">OpenHPC Automation with Ansible</span>
@@ -234,7 +234,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'person-placeholder.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/person-placeholder.png)"></div>
                 <span class="speaker-name">Ryan Hulguin</span>
                 <span class="speaker-company">Arm</span>
                 <span class="speaker-talk-title">Cross Platform Performance Engineering</span>
@@ -246,7 +246,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'simon-mcintosh-smith.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/simon-mcintosh-smith.jpg)"></div>
                 <span class="speaker-name">Simon McIntosh-Smith</span>
                 <span class="speaker-company">University of Bristol</span>
                 <span class="speaker-talk-title">Isambard: the world's first production Arm-based supercomputer</span>
@@ -260,7 +260,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
     <div class="row">
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'ishikawa.png' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/ishikawa.png)"></div>
                 <span class="speaker-name">Yutaka Ishikawa</span>
                 <span class="speaker-company">RIKEN</span>
                 <span class="speaker-talk-title">Post-K and Arm HPC Ecosystem</span>
@@ -273,7 +273,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         </div>
         <div class="col-xs-12 col-sm-4 no-padding">
             <div class="speaker">
-                <div class="speaker-photo" style="background-image: url({% asset_path 'joshuaMora.jpg' %})"></div>
+                <div class="speaker-photo" style="background-image: url(/assets/images/people/joshuaMora.jpg)"></div>
                 <span class="speaker-name">Joshua Mora</span>
                 <span class="speaker-company">Chief Architect for microprocessor and applications Huawei</span>
                 <span class="speaker-talk-title">Huawei’s requirements for the ARM based HPC solution readiness</span>
@@ -639,7 +639,7 @@ defer(function () {
 </div><!--End Row-->
 
 <div class="row no-padding arm-hpc-row top">
-    <div class="container" style="background: url({% asset_path 'hpc.png' %});background-position: center center;">
+    <div class="container" style="background: url(/assets/images/content/hpc.png);background-position: center center;">
         <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
