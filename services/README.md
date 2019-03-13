@@ -21,7 +21,6 @@ image:
 ---
 <div class="row padded-row" id="about-services">
     <div class="container">
-        <h2 class="text-center fly">About</h2>
 <div markdown="1" class="fly">
 Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced Arm technologies in every segment. Linaro Developer Services make that expertise available to you for use on your project.
 
