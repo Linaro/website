@@ -20,8 +20,6 @@ tags:
 
 ## A little history
 
-{% include image.html name="arm.jpg" class="small-inline" alt="Arm Logo" %}
-
 Perhaps a little known fact is that well over [15 billion](http://www.arm.com/about/company-profile/index.php) chips have been shipped using Arm's technologies, [1.3 billion](http://www.arm.com/about/newsroom/26746.php) in the last quarter of 2009 alone and as the Internet goes truly mobile this is set to sky rocket. Arm have sold over 600 processor licenses to more than 200 companies and 12 of the top 20 semiconductor companies use their technologies. Arm based devices really are everywhere. In contrast, Intel have shipped just [3.3 billion](http://www.extremetech.com/article2/0,2845,2363643,00.asp) to date. Renowned for their low power consumption and high performance, Arm based devices really do seem to be the holy grail of computing but why is it that Intel continues to dominates the desktop, laptop, netbook and server market?
 
 
