@@ -414,10 +414,6 @@
   title: |-
         Linaro announces Fujitsu’s collaboration to accelerate High Performance Computing on Arm
   url: https://www.linaro.org/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/
-- date: 2017-03-05 09:00:00+00:00
-  title: |-
-        Google becomes Club Member of Linaro
-  url: https://www.linaro.org/news/google-becomes-club-member-linaro/
 - date: 2017-04-26 09:00:00+00:00	
   title: |-
           Latest 96Boards Product for AOSP Development
@@ -426,10 +422,6 @@
   title: |-
           Linaro Connect San Francisco 2017 (SFO17)
   url: https://connect.linaro.org/resources/sfo17/	
-- date: 2017-09-25 09:00:00+00:00	
-  title: |-
-          Xilinx joins Linaro IoT and Embedded Group
-  url: https://www.linaro.org/news/xilinx-joins-linaro-iot-embedded-group/	
 - date: 2017-10-01 09:00:00+00:00
   title: |-
         Open Source Foundries Spins Out
@@ -443,36 +435,7 @@
           Linaro Connect Hong Kong 2018 (HKG18)
   url: https://connect.linaro.org/resources/hkg18/
   year-start: true
-- date: 2018-03-19 09:00:00+00:00	
-  title: |-
-          OpenDataPlane Tiger Moth LTS Software	
-  year-start: true
-  url: https://www.linaro.org/news/linaro-announces-opendataplane-tigermoth/	
-- date: 2018-03-19 09:00:00+00:00	
-  title: |-
-          Launch of 96Boards AI Platform
-  url: https://www.linaro.org/news/linaro-launches-96boards-ai-platform/	
-- date: 2018-06-20 09:00:00+00:00	
-  title: |-
-          Tier IV joins Linaro 96Boards Steering Committee
-  url: https://www.linaro.org/news/tier-IV-joins-96boards-steering-committee/	
 - date: 2018-07-18 09:00:00+00:00	
   title: |-
           SoftBank joins Linaro 96Boards Steering Committee
   url: https://www.linaro.org/news/softbank-joins-96boards-steering-committee/	
-- date: 2018-08-30 09:00:00+00:00	
-  title: |-
-          Sandia National Laboratories joins the Linaro HPC Special Interest Group
-  url: https://www.linaro.org/news/sandia-national-laboratories-joins-the-linaro-hpc-special-interest-group/	
-- date: 2018-09-11 09:00:00+00:00	
-  title: |-
-          Linaro joins the Industrial Internet Consortium
-  url: https://www.linaro.org/news/linaro-joins-the-industrial-internet-consortium/	
-- date: 2018-09-17 09:00:00+00:00	
-  title: |-
-          Linaro Connect Vancouver 2018 (YVR18)
-  url: https://connect.linaro.org/resources/yvr18/	
-- date: 2018-09-17 09:00:00+00:00	
-  title: |-
-          Launch of Machine Intelligence Initiative
-  url: https://www.linaro.org/news/linaro-announces-launch-of-machine-intelligence-initiative/	  
