@@ -40,7 +40,7 @@ pages:
       options:
           - text: Overview
             url: /engineering/
-          - text: Core
+          - text: Core Engineering on Arm
             options:
                 - text: Overview
                   url: /engineering/core/
@@ -56,37 +56,23 @@ pages:
                   url: /engineering/core/arm-power-management/
                 - text: Security
                   url: /engineering/core/security/
-          - text: Segment Groups
-            options:
-                - text: Overview
-                  url: /engineering/groups/
-                - text: Linaro Datacenter & Cloud Group (LDCG)
-                  url: /engineering/groups/ldcg/
-                - text: Linaro Edge (LEDGE)
-                  url: /engineering/groups/ledge/
-                - text: Linaro Consumer Group (LCG)
-                  url: /engineering/groups/lcg/
-                - text: Linaro IoT & Embedded Group (LITE)
-                  url: /engineering/groups/lite/
-          - text: Special Interest Groups
-            options:
-                - text: Overview
-                  url: /sig/
-                - text: High Performance Computing (HPC)
-                  url: /sig/hpc/
-                - text: Linaro Telco & Network (LTN)
-                  url: /sig/ltn/
-                - text: OpenDataPlane (ODP)
-                  url: https://www.opendataplane.org
-          - text: Incubators
-            options:
-                - text: Overview
-                  url: /engineering/incubators/
-                - text: Machine Intelligence
-                  url: /engineering/incubators/machine-intelligence/
-                - text: Autonomous Vehicles
-                  url: /engineering/incubators/autonomous-vehicles/          
-          - text: Projects
+          - text: Datacenter & Cloud
+            url: /engineering/groups/ldcg/
+          - text: Edge & Fog Computing
+            url: /engineering/groups/ledge/
+          - text: Consumer
+            url: /engineering/groups/lcg/
+          - text: IoT & Embedded
+            url: /engineering/groups/lite/
+          - text: Telecom & Networking
+            url: /sig/ltn/
+          - text: Autonomous Vehicles
+            url: /engineering/incubators/autonomous-vehicles/ 
+          - text: Machine Intelligence
+            url: /engineering/incubators/machine-intelligence/
+          - text: High Performance Computing
+            url: /sig/hpc/     
+          - text: Upstream Projects
             url: /engineering/projects/
     - title: Services
       options:
@@ -115,7 +101,7 @@ pages:
     - title: Downloads
       left: true
       options:
-          - text: All Downloads
+          - text: Downloads
             url: /downloads/
           - text: Security Downloads
             url: /downloads/security/

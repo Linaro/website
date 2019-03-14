@@ -25,7 +25,7 @@ The Vice President of Engineering is responsible for leading the Linaro engineer
 
 Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers.  Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.
 
-[Hi-res images of Mark are available here.]({% asset_path 'Mark_Orvek_High_Res.jpg' %})
+[Hi-res images of Mark are available here.](/assets/images/people/Mark_Orvek_High_Res.jpg)
 
 
 **About Linaro**

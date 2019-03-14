@@ -41,7 +41,7 @@ Reference implementations of OpenDataPlane provided by the Linaro Networking Gro
 as well as production-grade implementations provided by various silicon partners are available.
 The Linaro components, consisting of the API Specification, Reference Implementations, and
 Validation Test Suite, can be found on GitHub (https://github.com/Linaro/odp) and via the
-OpenDataPlane web site (https://www.opendataplane.org/downloads/). Links to performance-
+OpenDataPlane web site (https://opendataplane.org/downloads/). Links to performance-
 optimized native Arm-based SoC implementations from LNG member companies, including
 Cavium™, are available at the same location on the ODP web site.
 

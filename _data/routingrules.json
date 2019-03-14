@@ -262,7 +262,7 @@
     "^/planet/source(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/professional-services(/?|/index.html)$ /services/ [R,L,NC]",
     "^/projects/digital-home(/?|/index.html)$ /groups/lhg/ [R,L,NC]",
-    "^/projects/opendataplane(/?|/index.html)$ https://www.opendataplane.org [R,L,NC]",
+    "^/projects/opendataplane(/?|/index.html)$ https://opendataplane.org [R,L,NC]",
     "^/projects/mobile(/?|/index.html)$ /groups/lmg/ [R,L,NC]",
     "^/projects/networking(/?|/index.html)$ /groups/lng/ [R,L,NC]",
     "^/projects/server(/?|/index.html)$ https://www.linaro.org/projects/ [R,L,NC]",
