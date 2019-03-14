@@ -701,6 +701,16 @@
                 "image": "https://static.linaro.org/common/member-logos/fab-to-lab.jpg",
                 "name": "Fab.to.Lab",
                 "url": "/membership/fab-to-lab/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/beiqi.jpg",
+                "name": "Xiamen Beiqi Technology Co. Ltd",
+                "url": "/membership/beiqi/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hichips.jpg",
+                "name": "Shenzhen HiChips Technology Co. Ltd.",
+                "url": "/membership/hichips/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
