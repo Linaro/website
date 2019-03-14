@@ -13,7 +13,6 @@ $(document).ready(function(){
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-    "https://linux.codehelp.co.uk/blog.xml", // Neil Williams
     "http://www.workofard.com/feed/", // Ard Biesheuvel
     "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
     "http://www.metaklass.org/rss/", // Jorge Niedbalski
@@ -29,7 +28,8 @@ var feeds = [
     "https://nbhat-ho2016.blogspot.co.uk/rss.xml", // Naresh Bhat
     "https://feedmix.novaclic.com/atom2rss.php?source=http%3A%2F%2Fthetestingcorner.com%2Ffeed.xml", // Gema Gomez
     "https://www.davidb.org/index.xml", // David Brown
-    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/" // Daniel Thompson
+    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
+    "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
 ];
 var sortableFeeds = feeds.slice();
 

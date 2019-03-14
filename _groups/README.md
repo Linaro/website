@@ -15,13 +15,13 @@ related_tags:
 <div class="col-xs-12 group_icon_col">
 {% assign groups_list = site.groups | sort: 'group_id' %}
 {% for group in groups_list %}
-{% if group.image %}
-<div class="col-xs-6 col-sm-3">
-    <a href="{{group.permalink}}">
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{group.image}}" class="lazyload img-responsive group_icon"/>
-    </a>
-</div>
-{% endif %}
+    {% if group.image and group.group_id %}
+    <div class="col-xs-6 col-sm-3">
+        <a href="{{group.permalink}}">
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{group.image}}" class="lazyload img-responsive group_icon"/>
+        </a>
+    </div>
+    {% endif %}
 {% endfor %}
 </div>
 

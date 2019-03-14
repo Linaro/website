@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    $(".timeline-jump-btn").click(function(){
+        var slideIndex = $(this).data("slide-index");
+        $('.timeline-carousel').trigger('to.owl.carousel', [slideIndex, 500, true]);
+    });
+
   var timelineCarousel = $(".timeline-carousel");
   var officeCarousel = $(".office-carousel");
   var remoteTeamCarousel = $(".remote-team-carousel");
@@ -33,7 +38,6 @@ $(document).ready(function() {
           1200:{
               items:6,
               nav: true
-
               }
       }
   });

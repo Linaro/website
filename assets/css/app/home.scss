@@ -684,7 +684,7 @@ div#developer-services {
     transform: scale(1.2);
 }
 #developer-services img.img-responsive {
-    height: 200px;
+    height: 230px;
 }
 // 96Boards section
 .bg-svg {
@@ -790,4 +790,7 @@ div#connect {
 #jumbotron h1 {
     color: white;
     font-size: 66px;
+}
+#jumbotron-slider .slide-title {
+    max-width: 670px;
 }

@@ -17,16 +17,31 @@ http2_resources:
         - /assets/content/HPC.svg
         - /assets/content/LAVS.svg
 jumbotron:
-    triangle-divider: true
-    background-image: /assets/images/content/hkg18-tech-banner.jpg
-    title:
-        lines:
-            - text: Accelerating deployment of
-              class: line-one
-            - text: Arm-based solutions
-              class: line-two
+    slider:
+        slides:
+            - title: Accelerating deployment of Arm-based solutions
+              title-class: big-title
+              slide-style: "background-position-y: bottom;"
+              darken: true
+              image: https://www.linaro.org/assets/images/content/hkg18-tech-banner.jpg
+            - title: NavInfo joins Linaro 96Boards Steering Committee
+              description: Linaro announces that NavInfo, a leading digital map content provider, has joined the 96Boards initiative as a Steering Committee member.
+              darken: true
+              slide-style: "background-position-y: bottom;"
+              image: /assets/images/content/city-roads.jpg
+              buttons:
+                - title: Learn more
+                  url: https://www.linaro.org/news/navinfo-joins-linaro-96boards-steering-committee/
+            - title: Industry leaders to present Open Source on Arm insights at Linaro Connect Bangkok 2019
+              description: Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announces the keynote speakers for Linaro Connect Bangkok 2019.
+              darken: true
+              slide-style: "background-position-y: bottom;"
+              image: /assets/images/content/bkk19-website-banner.png
+              buttons:
+                - title: Learn more
+                  url: https://www.linaro.org/news/industry-leaders-to-present-open-source-on-arm-insights-at-linaro-connect-bangkok-2019/
+
 ---
-{% include home/blog-slider.html %}
 {% include home/collaborative-engineering.html %}
 {% include home/developer-services.html %}
 {% include home/96boards.html %}

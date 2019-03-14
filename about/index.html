@@ -1,25 +1,32 @@
 ---
 title: About Linaro
 description: |-
-    Linaro’s mission is to lead collaboration in the Arm ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
+    Linaro leads collaboration in the Arm ecosystem and helps companies work with the latest open source technology.
 permalink: /about/
 js-package: about
 css-package: about
 layout: jumbotron
 jumbotron:
     triangle-divider: true
+    description-class: smaller
     background-image: /assets/content/hkg18-group-photo-optimized.jpg
 ---
 <div class="row about-content" id="content-container">
     <div class="container">
       <p>
-        The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
+        Linaro brings together industry and the open source community to work on key projects, deliver great tools, reduce
+        industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not
+        exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and
+        the Arm ecosystem.
       </p>
-
       <p>
-        Member companies fund Linaro and provide a significant proportion of its engineering resources as assignees who work full time on Linaro projects and member engineers who work on member-sponsored projects. Linaro’s engineering team, including contributed member resources, consists of about 300 software developers. Linaro engages with the broader open source community on a daily basis on IRC, mailing lists and at industry events, including at its own Linaro Connect events. The work page provides an overview of, and links to more information about, Linaro’s organization, groups, projects and initiatives.
+        Member companies fund Linaro and provide a significant proportion of its engineering resources as assignees who work
+        full time on Linaro projects and member engineers who work on member-sponsored projects. Linaro’s engineering team,
+        including contributed member resources, consists of about 300 software developers. Linaro engages with the broader open
+        source community on a daily basis on IRC, mailing lists and at industry events, including at its own Linaro Connect
+        events. The work page provides an overview of, and links to more information about, Linaro’s organization, groups,
+        projects and initiatives.
       </p>
-
       <h2 id="many-hands">Many hands make light work</h2>
       <p>
           The members determine what work is done by the Linaro engineering team. As the number of Linaro members increases, the company’s capacity to provide engineering solutions grows and so the return on a member’s investment increases. This results in more common engineering work being completed by the Linaro engineers, enabling the members to focus more of their own resources on innovation and differentiation.
@@ -29,15 +36,21 @@ jumbotron:
       </p>
     </div>
 </div>
-
+{% assign news_posts = site.categories["News"] | sort: 'date' | reverse %}
+{% assign timeline_items = site.data.timeline | sort: 'date' | reverse %}
+{% assign all_news = "" | split: "" %}
+{% for item in timeline_items %}
+    {% assign all_news = all_news | push: item %}
+{% endfor %}
+{% for item in news_posts  %}
+    {% assign all_news = all_news | push: item %}
+{% endfor %}
+{% assign all_news = all_news | sort: 'date' | reverse %}
 <div class="row linaro-timeline">
-    <article class="timeline">
+    <div class="timeline">
       <h4 class="responsive-title">History of Linaro</h4>
-      <div class="timeline-carousel owl-carousel owl-theme">      
-                  
-        {% assign news = site.data.timeline | sort: 'date' | reverse %}
-        {% for news-posting in news  %}
-        
+      <div class="timeline-carousel owl-carousel owl-theme" data-timeline-length="{{all_news | size }}">     
+        {% for news-posting in all_news %}
         <div class="owl-item__inner {% if news-posting.year-start %}year{{ news-posting.date | date:"%Y"}}{% endif %}">
             <div class="timeline-item">
                 <div class="date-wrap">
@@ -46,23 +59,33 @@ jumbotron:
                 <div class="text-wrap">
                     <strong>{{ news-posting.date | date: "%B %Y"}}</strong>
                     <p>
-                        {{ news-posting.text | strip_html | truncatewords:30 }}
+                        {{ news-posting.title | strip_html | truncatewords:30 }}
                     </p>
-                    {% if news-posting.link %}
-                    <a href="{{news-posting.link}}">Read more</a>
+                    {% if news-posting.url %}
+                    <a href="{{news-posting.url}}">Read more</a>
                     {% endif %}
                 </div>
             </div>
         </div>
-    
         {% endfor %}
-      
       </div> <!-- // timeline-carousel -->
       <div class="timeline-bar"></div>
-  </article>
-  
+  </div>
   <div class="container">
-    <p>This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro Connect historical events and key organizational developments.</p>
+      <div class="col-xs-12 text-center">
+          <a class="btn btn-sm btn-primary timeline-jump-btn" data-slide-index="0">
+              <i class="fa fa-chevron-left"></i> Jump to present 
+            </a>
+            <a class="btn btn-sm btn-primary timeline-jump-btn" data-slide-index="{{all_news | size}}">
+                Jump to 2010 <i class="fa fa-chevron-right"></i>
+            </a>
+      </div>
+      <div class="col-xs-12 m-t-20">
+            <p>
+                This timeline includes links to Linaro’s articles of association, membership rules, new member announcements, Linaro
+                Connect historical events and key organizational developments.
+            </p>
+      </div>
   </div>
 </div>
 <div class="row employee-map">
