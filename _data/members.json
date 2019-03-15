@@ -520,11 +520,6 @@
                 "url": "/membership/actions/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/archermind.jpg",
-                "name": "Archermind",
-                "url": "/membership/archermind/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
                 "name": "Arrow Electronics",
                 "url": "/membership/arrow/"
@@ -711,6 +706,16 @@
                 "image": "https://static.linaro.org/common/member-logos/hichips.jpg",
                 "name": "Shenzhen HiChips Technology Co. Ltd.",
                 "url": "/membership/hichips/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
+                "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
+                "url": "/membership/neucore/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
+                "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
+                "url": "/membership/robosense/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
