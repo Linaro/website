@@ -1,16 +1,12 @@
 ---
 group_id: 1
-title: Linaro Datacenter & Cloud Group (LDCG)
+title: Datacenter & Cloud
 description: |-
     The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.
 keywords: Arm, Server, Linux, ecosystem, silicon, Power Management, Security, Big Data, Software Defined Infrastructure, Datacenter, Cloud
-permalink: /engineering/groups/ldcg/
 group_short_name: ldcg
-group_long_name: Linaro Datacenter & Cloud Group
-director: Martin Stadtler
-related_sig:
-  - /sig/ltn/
-  - /sig/hpc/
+group_long_name: Datacenter & Cloud
+director: Elsie Wahlig
 other_projects:
   - name: Docker
     url: /engineering/projects/docker/
@@ -33,6 +29,8 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtWUBuB2DcSE
 members_key: lcdg_members
 output: true
 image: /assets/images/content/LDCG col.svg
+jumbotron:
+    background-image: /assets/images/content/city-roads.jpg
 ---
 The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.  Core technologies in the datacenter and cloud, such as containers or hadoop did not exist until relatively recently.  With the introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive options for their workloads. Not only competing with alternative architectures, due to a broad adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the ecosystem with choice.
 
