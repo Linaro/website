@@ -124,11 +124,6 @@
                 "url": "/membership/cypress/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
@@ -272,11 +267,6 @@
                 "url": "/membership/hxt/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
                 "name": "Sandia National Laboratories",
                 "url": "/membership/sandia-national-laboratories/"
@@ -323,11 +313,6 @@
                 "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
                 "name": "Guizhou Huaxintong Semiconductor Technologies Co. Ltd. (HXT Semiconductor)",
                 "url": "/membership/hxt/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
