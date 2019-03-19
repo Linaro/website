@@ -145,6 +145,13 @@
     },
     {
         "id": "associate",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/gcc.jpg",
+                "name": "Green Computing Consortium Laboratory",
+                "url": "/membership/gcc/"
+            }
+        ],
         "membership_group_name": "Associates",
         "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
         "url": "/membership/"
