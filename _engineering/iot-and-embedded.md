@@ -5,7 +5,6 @@ description: |-
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 members:
     key: lite
-director: Matt Locke
 related_tags:
   - lite
   - LITE

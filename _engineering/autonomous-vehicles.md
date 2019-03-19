@@ -4,7 +4,6 @@ description: |-
     Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.  
 keywords: Linaro, Autonomous, Stable, Kernel, Core, Android, Open Source, OS, Autonomous Vehicles, Autoware
 image: /assets/images/content/AutoCol.svg
-tech-lead: Hatem Darweesh
 members:
     key: autonomous-vehicles-incubator
 related_tags:
@@ -13,7 +12,7 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
-    background-image: /assets/images/content/city-roads.jpg
+    background-image: /assets/images/content/autonomous-driving-bg.jpg
 ---
 Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.  
 Whilst a lot of this software exists, bringing it together into a system comprising entertainment and safety critical subsystems is a big task, essentially a retooling of software in automotive.

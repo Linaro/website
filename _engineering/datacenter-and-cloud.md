@@ -5,7 +5,6 @@ description: |-
 keywords: Arm, Server, Linux, ecosystem, silicon, Power Management, Security, Big Data, Software Defined Infrastructure, Datacenter, Cloud
 members:
     key: ldcg
-director: Elsie Wahlig
 other_projects:
   - name: Docker
     url: /engineering/projects/docker/

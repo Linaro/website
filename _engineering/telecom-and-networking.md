@@ -2,7 +2,6 @@
 title: Telecom & Networking
 description: >
     In modern times, with virtualisation, containers, EDGE, and other cloud technologies, we are dealing with a fast moving and constantly changing network topology. For this new world, technologies like Open vSwitch (OVS), Virtual Packet Processing (VPP) are being developed to connect these various sub nodes in an efficient manner allowing network topology to be changed on demand.
-director: Elsie Wahlig
 members:
     key: mi-incubator
 image: /assets/images/content/antenna col.svg

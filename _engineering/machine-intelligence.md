@@ -4,7 +4,6 @@ description: |-
     The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. 
 keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
-tech-lead: Gaurav Kaul
 members:
     key: mi-incubator
 related_tags:
@@ -13,7 +12,7 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
-    background-image: /assets/images/content/city-roads.jpg
+    background-image: /assets/images/content/machine-learning-bg.jpg
 ---
 {% include media.html media_url="https://www.youtube.com/watch?v=EHM-krkB42Y" %}
 
