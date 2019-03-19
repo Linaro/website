@@ -5,6 +5,8 @@ description: |-
 keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
 tech-lead: Gaurav Kaul
+members:
+    key: mi-incubator
 related_tags:
   - Automotive
   - ML

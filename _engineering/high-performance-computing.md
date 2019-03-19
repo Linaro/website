@@ -3,8 +3,8 @@ title: High Performance Computing
 director: Elsie Wahlig
 tech-lead: Renato Golin
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
-members_key: hpc_members
-group_short_name: HPC
+members:
+    key: hpc-sig
 image: /assets/images/content/HPCCol.svg
 jumbotron:
     background-image: /assets/images/content/city-roads.jpg
