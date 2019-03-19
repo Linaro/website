@@ -39,5 +39,3 @@ The direction of Linaro is determined by its [board of directors](/about/team/bo
         Office of the CTO (OCTO)
     </a>
 </div>
-
-{% include work-footer.html %}
