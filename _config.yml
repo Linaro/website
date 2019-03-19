@@ -129,7 +129,7 @@ defaults:
         path: ""
         type: "engineering"
     values:
-        layout: jumbotron
+        layout: landing-page
         css-package: work
         js-package: work
   - scope:
