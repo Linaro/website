@@ -118,5 +118,5 @@ pages:
             url: /events/
           - text: Planet
             url: /planet/
-    - title: Contact Us
+    - title: Contact
       url: /contact/
