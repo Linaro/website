@@ -127,6 +127,13 @@ defaults:
         project: true
   - scope:
         path: ""
+        type: "engineering"
+    values:
+        layout: jumbotron
+        css-package: work
+        js-package: work
+  - scope:
+        path: ""
         type: "services"
     values:
         layout: developer-services-layout
@@ -203,8 +210,7 @@ collections:
         permalink: /:collection/:path/
     engineering:
         output: true
-        layout: jumbotron
-        permalink: /engineering/:path/
+        permalink: /:collection/:name/
     projects:
         output: true
         permalink: /engineering/:collection/:path/
