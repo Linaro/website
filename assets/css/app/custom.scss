@@ -1,3 +1,7 @@
+
+#wrapper #navbar-collapse {
+    height: auto !important;
+}
 @media (max-width: 767px) {
     ul#tabbed_nav>li {
         width: 100%;
@@ -24,6 +28,7 @@
         top: -60px;
     }
 }
+
 @media(min-width:992px) {
     .row.activity-holder.center-block {
         height: auto;
