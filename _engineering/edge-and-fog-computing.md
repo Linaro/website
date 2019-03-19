@@ -1,12 +1,10 @@
 ---
-group_id: 2
-title: Linaro Edge (LEDGE)
+title: Edge & Fog Computing
 description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/groups/ledge/
 group_short_name: ledge
-group_long_name: Linaro Edge (LEDGE)
 director: Francois Ozog
 related_tags:
   - ledge
@@ -18,6 +16,8 @@ related_tags:
 members_key: ledge_members
 output: true
 image: /assets/images/content/LEDGE col.svg
+jumbotron:
+    background-image: /assets/images/content/city-roads.jpg
 ---
 Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. 
 

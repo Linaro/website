@@ -1,12 +1,9 @@
 ---
-group_id: 4
-title: Linaro IoT & Embedded Group (LITE)
+title: IoT & Embedded
 description: |-
-    The Linaro IoT and Embedded Group (LITE) was launched at Linaro Connect LAS16 in September 2016.
+    The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
-permalink: /engineering/groups/lite/
 group_short_name: lite
-group_long_name: Linaro IoT and Embedded
 director: Matt Locke
 related_tags:
   - lite
@@ -19,11 +16,12 @@ related_jira_project: https://projects.linaro.org/projects/LITE/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: lite_members
 output: true
-# icon: LITE col.svg
 image: /assets/images/content/LITE col.svg
 releases: 
   - title: LITE Releases
     url: https://releases.linaro.org/components/lite/
+jumbotron:
+    background-image: /assets/images/content/city-roads.jpg
 ---
 The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 
