@@ -130,7 +130,7 @@ defaults:
         type: "engineering"
     values:
         layout: landing-page
-        css-package: work
+        css-package: landing-page
         js-package: work
   - scope:
         path: ""
