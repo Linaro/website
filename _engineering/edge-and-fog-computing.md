@@ -4,7 +4,7 @@ description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 members:
-    key: ledge
+    key: ledge-sig
 related_tags:
   - ledge
   - LEDGE
