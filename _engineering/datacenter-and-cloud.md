@@ -28,9 +28,10 @@ members_key: lcdg_members
 output: true
 image: /assets/images/content/LDCG col.svg
 jumbotron:
+    description: ""
     background-image: /assets/images/content/ldcg-bg.jpg
 ---
-The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.  Core technologies in the datacenter and cloud, such as containers or hadoop did not exist until relatively recently.  With the introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive options for their workloads. Not only competing with alternative architectures, due to a broad adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the ecosystem with choice.
+The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering. Core technologies in the datacenter and cloud, such as containers or hadoop did not exist until relatively recently. With the introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive options for their workloads. Not only competing with alternative architectures, due to a broad adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the ecosystem with choice.
 
 Linaro’s aim in this space is to accelerate the development of foundational open source software for Arm Servers through collaboration. This is achieved through the Linaro Datacenter & Cloud Group (LDCG), which leverages and extends Linaro’s existing shared engineering, legal and open source collaboration structures. This joint collaboration focuses on identifying and addressing gaps/optimizations in the Arm Linux server software ecosystem, enabling SoC support upstream to meet LDCG requirements, agreeing LDCG requirements for SoC software standardization and upstreaming all relevant output.
 

@@ -16,7 +16,7 @@ members_key: ledge_members
 output: true
 image: 
     path: /assets/images/content/LEDGE col.svg
-    background-class: bottom-bg
+    background-class: "bottom-bg "
 jumbotron:
     background-image: /assets/images/content/edge-and-fog-bg.jpg
 ---

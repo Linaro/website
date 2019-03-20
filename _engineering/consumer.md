@@ -21,14 +21,17 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKN
 members_key: lcg_members
 output: true
 jumbotron:
+    description: ""
     background-image: /assets/images/content/consumer-bg.jpg
-sections:
-    - id: intro
-      format: single
-      title: Open source is a key ingredient of Android
-      text: >
-        Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones. 
 ---
+Open source is a key ingredient of Android
+
+Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones. 
+
+In order to stay ahead of security and other issues, the Linux kernel requires a steady stream of patches from the upstream kernel community. These fixes are compiled, tested and released through the Long Term Support (LTS) kernel community. The LTS kernel community targets a wide variety of hardware but most kernel developers do not actively develop for mobile devices. As such, the ARM ecosystem needs to be particularly proactive.
+
+Linaro, together with the ARM SoC vendors and especially Google, through Project Sharp, validate LTS fix streams to ensure they do not contain regressions before these fixes make their way into the Android Common Kernel and then onto consumer devices. This is just one example of how companies collaborating through Linaro make for better end products and better open source for future products. 
+
 In order to stay ahead of security and other issues, the Linux kernel requires a steady stream of patches from the upstream kernel community. These fixes are compiled, tested and released through the Long Term Support (LTS) kernel community. The LTS kernel community targets a wide variety of hardware but most kernel developers do not actively develop for mobile devices. As such, the Arm ecosystem needs to be particularly proactive. 
 
 Linaro, together with the Arm SoC vendors and especially Google, through Project Sharp, validate LTS fix streams to ensure they do not contain regressions before these fixes make their way into the Android Common Kernel and then onto consumer devices. This is just one example of how companies collaborating through Linaro make for better end products and better open source for future products.
