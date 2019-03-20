@@ -12,15 +12,17 @@ css-package: landing-page
 {% endif %}
 {% if page.sections %}
     {% for section in page.sections %}
-    <div class="row content-row {% if section.format != "centered" %} flex-row {% endif %}" id="{{section.id}}" {% if section.style %}style="{{section.style}}"{% endif %}> <!--start row-->
+    <div class="row content-row {% if section.format != "centered" %} flex-row {% endif %} {% if section.row-css-class %}{{section.row-css-class}}{% endif %}" id="{{section.id}}" {% if section.style %}style="{{section.style}}"{% endif %}> <!--start row-->
             {% if section.format == "centered" %}
-<div class="container" markdown="1">
+<div class="container">
 {% if section.title %}
 <h2>{{section.title}}</h2>
 {% endif %}
+<div class="text-wrapper" markdown="1">
 {% if section.text %}
 {{section.text}}
 {% endif %}
+</div>
 </div>
         {% elsif section.format == "img-left" or section.format == "img-right" %}
         <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col 
@@ -55,17 +57,20 @@ css-package: landing-page
             {% assign membersData = site.data.members %}
             {% for group in membersData %}
                 {% if group.id == page.members.key %}
+                <div class="members-wrapper">
                     {% for member in group.members %}
                     <div class="col-xs-6 col-sm-3">
                         <a href="{{member.url}}">
-                            <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="{{member.image}}" alt="{{member.name}}" />
+                            <img class="lazyload img-responsive"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{member.image}}"
+                                alt="{{member.name}}" />
                         </a>
                     </div>
                     {% endfor %}
+                </div>
                 {% endif %}
             {% endfor %}
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center m-t-40">
                 <a class="btn btn-primary" href="/membership/">Find out more</a>
             </div>
         </div>
