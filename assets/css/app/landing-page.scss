@@ -1,0 +1,26 @@
+#wrapper .dark-row {
+    background-color: #1e1e1e;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+#wrapper .dark-row h2 {
+    background-color: #1e1e1e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+.img-col {
+    height: 400px;
+}
+.text-area {
+    width: 50%;
+    @media(max-width: $screen-sm-min){
+        width:100%;
+    }
+}
+.text-col-left .text-area {
+    float: right;
+    height: 100%;
+}
+
