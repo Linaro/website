@@ -195,7 +195,7 @@
         ],
         "membership_group_name": "LEDGE SIG Members",
         "text": "LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. \n\nCompanies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/ledge/"
+        "url": "/engineering/edge-and-fog-computing/"
     },
     {
         "id": "mi-incubator",
@@ -281,7 +281,7 @@
         ],
         "membership_group_name": "HPC SIG Members",
         "text": "The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. \n\nThe HPC SIG is directed by a steering committee that is comprised of representatives from member companies who determine the technical agenda for the group. There is  also an Advisory Board who provide subject matter expertise and guidance as users.  HPC will benefit from Linaro\u2019s other engineering activities in the same way as Linaro\u2019s  other groups do. All groups rely on core engineering work (for example, Toolchain (GCC, LLVM) and Virtualisation (QEMU) and influence the roadmap of these common, shared projects. HPC will also leverage Linaro\u2019s work on the Enterprise Reference Platform and boot architecture from the Linaro Datacenter & Cloud Group (LDCG). \n\nCompanies interested in working together on driving the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development are invited to contact Linaro with the form below.",
-        "url": "/sig/hpc/"
+        "url": "/engineering/high-performance-computing/"
     },
     {
         "id": "ldcg",
@@ -329,7 +329,7 @@
         ],
         "membership_group_name": "LDCG Members",
         "text": "The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.\n\nCompanies interested in working together on common open source software foundations for datacenter & cloud applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/ldcg/"
+        "url": "/engineering/datacenter-and-cloud/"
     },
     {
         "id": "lcg",
@@ -387,7 +387,7 @@
         ],
         "membership_group_name": "LCG Members",
         "text": "Linaro\u2019s collaboration with members involved in Android(\u2122) related technologies is done through the Linaro Consumer Group. \nThere are three engineering teams that work under the direction of the LCG Steering Committee\nART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.\n\nCompanies interested in working together on common open source software foundations for consumer applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/lcg/"
+        "url": "/engineering/consumer/"
     },
     {
         "id": "lite",
@@ -445,7 +445,7 @@
         ],
         "membership_group_name": "LITE Members",
         "text": "The purpose of the Linaro IoT and Embedded Group (LITE) is focused on enabling secure, network connected, embedded heterogenous Cortex-A/R/M devices. This includes compute devices where the SoC has a combination of Cortex A, R, and/or M profiles and/or FPGA. Our current efforts focus on support for Arm devices in the Zephyr project and participating in the open source secure software projects such as Trusted Firmware.",
-        "url": "/engineering/groups/lite/"
+        "url": "/engineering/iot-and-embedded/"
     },
     {
         "id": "boards-sc",
