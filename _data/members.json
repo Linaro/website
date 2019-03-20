@@ -213,7 +213,7 @@
         ],
         "membership_group_name": "MI Incubator Members",
         "text": "The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/incubators/machine-intelligence/"
+        "url": "/engineering/machine-intelligence/"
     },
     {
         "id": "autonomous-vehicles-incubator",
@@ -226,7 +226,7 @@
         ],
         "membership_group_name": "Autonomous Vehicles Incubator Members",
         "text": "Linaro\u2019s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.\n\nCompanies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/incubators/autonomous-vehicles/"
+        "url": "/engineering/autonomous-vehicles/"
     },
     {
         "advisory_board": [

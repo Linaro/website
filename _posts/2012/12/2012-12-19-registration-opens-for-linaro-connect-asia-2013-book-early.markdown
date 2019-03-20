@@ -59,7 +59,7 @@ For LCA13 Track participants can expect the track sessions throughout the week t
   * Training
 
 
-In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/engineering/groups/ldcg/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](https://connect.linaro.org/).
+In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](https://connect.linaro.org/).
 
 
 ## What did you miss at the last Connect?

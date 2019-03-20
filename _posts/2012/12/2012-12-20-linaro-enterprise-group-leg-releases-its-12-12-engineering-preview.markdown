@@ -21,7 +21,7 @@ wordpress_id: 2172
 ### Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12 "Engineering Preview" Release is Now Available
 
 
-The [Linaro Enterprise Group](/engineering/groups/ldcg/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
+The [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
 
 Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/downloads/)
 
@@ -39,7 +39,7 @@ _**This is an engineering preview and should NOT be used for production purposes
 ### GETTING INVOLVED
 More information on Linaro can be found on our websites:
 
-  * Homepage: [/engineering/groups/ldcg/](/engineering/groups/ldcg/)
+  * Homepage: [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/)
 
 
   * Wiki: [https://wiki.linaro.org/LEG](https://wiki.linaro.org/LEG)
@@ -65,7 +65,7 @@ Between development cycles you can stay up to date with all the latest news in a
 
 _The Linaro-hosted “Enterprise Group” (LEG) is dedicated to accelerate Linux Arm server ecosystem development and extends the list of Linaro members beyond Arm silicon vendors to Server OEM's and commercial Linux providers._
 
-_To find out more, please visit[ ](/) [/engineering/groups/ldcg/](/engineering/groups/ldcg/)_
+_To find out more, please visit[ ](/) [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/)_
 
 **About Linaro**
 

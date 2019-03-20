@@ -28,7 +28,7 @@ Looking over the [highlights for the 12.11 release cycle](https://wiki.linaro.or
 
 
 
-As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([Armv8](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)). The Developer Platform team reports that the initial GRUB support for Arm is now available, provided by our Linaro Enterprise Group ([LEG](/engineering/groups/ldcg/)) and marking its first component delivery.
+As we look over improvements to the Linaro toolchain, it is notable that Linaro GCC now includes the arm/aarch64-4.7-branch ([Armv8](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)). The Developer Platform team reports that the initial GRUB support for Arm is now available, provided by our Linaro Enterprise Group ([LEG](/engineering/datacenter-and-cloud/)) and marking its first component delivery.
 
 
 
@@ -43,7 +43,7 @@ The Power Management Working Group continues its progress on big.LITTLE MP by de
 
 
 
-With 13 companies joining Linaro to become part of the [newly formed](/engineering/groups/ldcg/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux Arm server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
+With 13 companies joining Linaro to become part of the [newly formed](/engineering/datacenter-and-cloud/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux Arm server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
 
 
 

@@ -48,7 +48,7 @@ Outside of that, the little avatars represent people or processes submitting job
 
 **Question:** How has LAVA testing grown over the last year to 18 months?
 
-**Dave Pigott:** As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](/engineering/groups/ldcg/) to the mix, so it’s just going to get bigger.
+**Dave Pigott:** As you can see from the video, usage is now phenomenal, and we’re now adding [LEG hardware](/engineering/datacenter-and-cloud/) to the mix, so it’s just going to get bigger.
 
 **Question:** What do you want people to know about LAVA?
 

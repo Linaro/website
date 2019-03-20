@@ -25,7 +25,7 @@ Today, Linaro CEO [George Grey](/about/team/executive/), on stage at the [Embedd
 
 “The strength of the Arm community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using Arm SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 
-In November 2012, at Arm TechCon, Grey [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the Linaro Enterprise Group ([LEG](/engineering/groups/ldcg/)). The formation of LNG builds on the experience of LEG and the desire of companies to actively work together on common engineering goals and drive forward the development of Linux on Arm.
+In November 2012, at Arm TechCon, Grey [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the Linaro Enterprise Group ([LEG](/engineering/datacenter-and-cloud/)). The formation of LNG builds on the experience of LEG and the desire of companies to actively work together on common engineering goals and drive forward the development of Linux on Arm.
 
 
 ## Who are the members of LNG?
