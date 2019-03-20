@@ -1,7 +1,7 @@
 ---
 title: Membership
 description: |-
-    Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
+    Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects. 
 layout: jumbotron
 permalink: /membership/
 js-package: membership
@@ -12,7 +12,7 @@ jumbotron:
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
     description-class: smaller
     description: >-
-        Linaro helps you work with the latest open source technology, building support in upstream projects and ensuring smooth product roll outs and secure software updates. Instead of duplicating effort, members share engineering costs to accelerate innovation and time to market.
+        Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects. 
     buttons:
         - title: contact@linaro.org
           url: mailto:contact@linaro.org?subject=Linaro.org - Membership

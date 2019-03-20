@@ -1,10 +1,10 @@
 // Define the sources to prepend the jsonp script elements and retreive the data.
 // "" will use the current domain - this can be set to a cdn FQDN
 var patchesDataSources = [
-    ""
+    "https://static.linaro.org/assets/json/perProjectPatches.json",
 ];
 // Globally accessible JSON data for patches stats
-var JSONData = "";
+var allJSONData = "";
 // Chart.js Options when creating a new chart
 var chartOptions = {
     responsive: true,
@@ -18,14 +18,6 @@ var chartOptions = {
         }]
     }
 };
-// JSONP handler - This function handles the jsonp data we receive
-function patches(jsonData) {
-    // Make the newly collected JSON data globally accessible for Bootstrap 
-    // tab event listeners
-    JSONData = jsonData; 
-    //var sorted_data = sortByKeyAsc(jsonData, "title");
-    createInitialGraph();
-}
 // This function takes a project link name and pulls in the required data and 
 // displays as a graph.
 function setupGraph(projectLinkName, period){
@@ -35,9 +27,9 @@ function setupGraph(projectLinkName, period){
     dataSource = {};
     // Loop through the jsonData and pull relevant patches details
     var projectData = "";
-    for (var i = 0; i < JSONData.length; i++) {
-        if (JSONData[i]["project_link_name"] === projectLinkName) {
-            projectData = JSONData[i];
+    for (var i = 0; i < allJSONData.length; i++) {
+        if (allJSONData[i]["project_link_name"] === projectLinkName) {
+            projectData = allJSONData[i];
         }
     }
     // Get the stats labels and data required for graph        
@@ -78,7 +70,6 @@ function setupGraph(projectLinkName, period){
             }
         ]
     };
-
     // Get the ID of the chart in question.
     var chartId = "projectStatsChart-" + projectLinkName + "-" + period;
     console.log("Creating chart:",chartId);
@@ -143,17 +134,20 @@ $(window).on("load", function () {
     if ($(".projectStatsChart").length > 0) {
         // Loop through the sources and the separate script elements.
         for (i = 0; i < patchesDataSources.length; i++) {
-            // Adds a list element for each result in the JSONP data
-            // JSONP url
-            var jsonp_url = patchesDataSources[i] + "/assets/json/perProjectPatches.json?callback=patches";
-            // Add the JSONP to a script element
-            // Create a new script element and set the type and src
-            script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = jsonp_url;
-            // Append the new script element to the head.
-            $("head").append(script);
+            $.ajax({
+                url: patchesDataSources[i],
+                dataType: 'json',
+                complete: function (jsonResponse) {
+                    jsonData = JSON.parse(jsonResponse.responseText);
+                    allJSONData = allJSONData.concat(jsonData);
+                }
+            });
         }
+
+        // Wait for all ajax requests to stop
+        $(document).ajaxStop(function () {
+            createInitialGraph();;
+        });
     }
     else {
         console.log("No patches graphs found!");
