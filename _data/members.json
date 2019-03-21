@@ -124,11 +124,6 @@
                 "url": "/membership/cypress/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
@@ -150,6 +145,13 @@
     },
     {
         "id": "associate",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/gcc.jpg",
+                "name": "Green Computing Consortium Laboratory",
+                "url": "/membership/gcc/"
+            }
+        ],
         "membership_group_name": "Associates",
         "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
         "url": "/membership/"
@@ -272,11 +274,6 @@
                 "url": "/membership/hxt/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
                 "name": "Sandia National Laboratories",
                 "url": "/membership/sandia-national-laboratories/"
@@ -323,11 +320,6 @@
                 "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
                 "name": "Guizhou Huaxintong Semiconductor Technologies Co. Ltd. (HXT Semiconductor)",
                 "url": "/membership/hxt/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
@@ -520,11 +512,6 @@
                 "url": "/membership/actions/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/archermind.jpg",
-                "name": "Archermind",
-                "url": "/membership/archermind/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
                 "name": "Arrow Electronics",
                 "url": "/membership/arrow/"
@@ -711,6 +698,16 @@
                 "image": "https://static.linaro.org/common/member-logos/hichips.jpg",
                 "name": "Shenzhen HiChips Technology Co. Ltd.",
                 "url": "/membership/hichips/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
+                "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
+                "url": "/membership/neucore/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
+                "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
+                "url": "/membership/robosense/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
