@@ -70,7 +70,7 @@ A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/)
     ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
 
 
-A patched version of the AOSP tree (master or l-preview branch), with [qemu_pipe tweak](http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
+A patched version of the AOSP tree (master or l-preview branch), with qemu_pipe tweak(http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
 
 ```bash
 
