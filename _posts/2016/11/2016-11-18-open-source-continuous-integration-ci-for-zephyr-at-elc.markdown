@@ -63,7 +63,7 @@ Incidentally, the entire build and test infrastructure was built with scalabilit
 
 For more information on Linaro LITE please check out: 
 
-[www.linaro.org/groups/lite/](/engineering/groups/lite/)
+[www.linaro.org/groups/lite/](/engineering/iot-and-embedded/)
 
 
 * * *

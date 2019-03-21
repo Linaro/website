@@ -1,0 +1,78 @@
+---
+layout: base
+css-package: landing-page
+---
+{% if page.jumbotron.carousel-images %}
+    {% include carousel-header.html images=page.jumbotron.carousel-images %}
+    {% include jumbotron.html %}
+{% elsif page.jumbotron %}
+    {% include jumbotron.html %}
+{% else %}
+    {% include breadcrumb.html %}
+{% endif %}
+{% if page.sections %}
+    {% for section in page.sections %}
+    <div class="row content-row {% if section.format != "centered" %} flex-row {% endif %} {% if section.row-css-class %}{{section.row-css-class}}{% endif %}" id="{{section.id}}" {% if section.style %}style="{{section.style}}"{% endif %}> <!--start row-->
+            {% if section.format == "centered" %}
+<div class="container">
+{% if section.title %}
+<h2>{{section.title}}</h2>
+{% endif %}
+<div class="text-wrapper" markdown="1">
+{% if section.text %}
+{{section.text}}
+{% endif %}
+</div>
+</div>
+        {% elsif section.format == "img-left" or section.format == "img-right" %}
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col 
+        {% if section.format == "img-left" %}img-col-left{% else %}img-col-right{% endif %}"
+         style="background-image: url({{section.image}});"></div>
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col 
+        {% if section.format == "img-left" %}text-col-right{% else %}text-col-left{% endif %}">
+            {% if section.title %}
+                <h3>{{section.title}}</h3>
+            {% endif %}
+<div class="text-area" markdown="1">
+{{section.text}}
+</div>
+        </div>
+        {% endif %}
+        </div> <!--end row -->
+    {% endfor %}
+{% endif %}
+{% if page.content %}
+<div class="row content-row" id="content-container">
+    <div class="container">
+        {{content}}
+    </div>
+</div>
+{% endif %}
+{% if page.members %}
+    <div class="row content-row" id="members-row">
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <h3>Members</h3>
+            </div>
+            {% assign membersData = site.data.members %}
+            {% for group in membersData %}
+                {% if group.id == page.members.key %}
+                <div class="members-wrapper">
+                    {% for member in group.members %}
+                    <div class="col-xs-6 col-sm-3">
+                        <a href="{{member.url}}">
+                            <img class="lazyload img-responsive"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{member.image}}"
+                                alt="{{member.name}}" />
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            {% endfor %}
+            <div class="col-xs-12 text-center m-t-40">
+                <a class="btn btn-primary" href="/membership/">Find out more</a>
+            </div>
+        </div>
+    </div>
+{% endif %}

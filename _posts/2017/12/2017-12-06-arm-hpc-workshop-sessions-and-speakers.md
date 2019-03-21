@@ -17,7 +17,7 @@ image:
 ---
 # Arm HPC Workshop Sessions and Speakers
 
-We are pleased to announce the sessions and speakers for the first ever Arm HPC workshop taking place in Tokyo 12-13th Dec 2017. The sold-out event has attracted over 100 attendees from Japan, UK, USA, China and other parts of the world. Joining us are speakers from RIKEN AICS, Fujitsu, Arm and some Research institutions. Please find the detailed schedule below. For more information on Linaro High Performance Computing (HPC) work click [here](/sig/hpc/).
+We are pleased to announce the sessions and speakers for the first ever Arm HPC workshop taking place in Tokyo 12-13th Dec 2017. The sold-out event has attracted over 100 attendees from Japan, UK, USA, China and other parts of the world. Joining us are speakers from RIKEN AICS, Fujitsu, Arm and some Research institutions. Please find the detailed schedule below. For more information on Linaro High Performance Computing (HPC) work click [here](/engineering/high-performance-computing/).
 
 ## Sessions
 

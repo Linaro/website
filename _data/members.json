@@ -124,11 +124,6 @@
                 "url": "/membership/cypress/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
@@ -150,6 +145,13 @@
     },
     {
         "id": "associate",
+        "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/gcc.jpg",
+                "name": "Green Computing Consortium Laboratory",
+                "url": "/membership/gcc/"
+            }
+        ],
         "membership_group_name": "Associates",
         "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
         "url": "/membership/"
@@ -193,7 +195,7 @@
         ],
         "membership_group_name": "LEDGE SIG Members",
         "text": "LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. \n\nCompanies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/ledge/"
+        "url": "/engineering/edge-and-fog-computing/"
     },
     {
         "id": "mi-incubator",
@@ -211,7 +213,7 @@
         ],
         "membership_group_name": "MI Incubator Members",
         "text": "The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/incubators/machine-intelligence/"
+        "url": "/engineering/machine-intelligence/"
     },
     {
         "id": "autonomous-vehicles-incubator",
@@ -224,7 +226,7 @@
         ],
         "membership_group_name": "Autonomous Vehicles Incubator Members",
         "text": "Linaro\u2019s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.\n\nCompanies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/incubators/autonomous-vehicles/"
+        "url": "/engineering/autonomous-vehicles/"
     },
     {
         "advisory_board": [
@@ -272,11 +274,6 @@
                 "url": "/membership/hxt/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
                 "name": "Sandia National Laboratories",
                 "url": "/membership/sandia-national-laboratories/"
@@ -284,7 +281,7 @@
         ],
         "membership_group_name": "HPC SIG Members",
         "text": "The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. \n\nThe HPC SIG is directed by a steering committee that is comprised of representatives from member companies who determine the technical agenda for the group. There is  also an Advisory Board who provide subject matter expertise and guidance as users.  HPC will benefit from Linaro\u2019s other engineering activities in the same way as Linaro\u2019s  other groups do. All groups rely on core engineering work (for example, Toolchain (GCC, LLVM) and Virtualisation (QEMU) and influence the roadmap of these common, shared projects. HPC will also leverage Linaro\u2019s work on the Enterprise Reference Platform and boot architecture from the Linaro Datacenter & Cloud Group (LDCG). \n\nCompanies interested in working together on driving the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development are invited to contact Linaro with the form below.",
-        "url": "/sig/hpc/"
+        "url": "/engineering/high-performance-computing/"
     },
     {
         "id": "ldcg",
@@ -325,11 +322,6 @@
                 "url": "/membership/hxt/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/qualcomm-datacenter-technologies.jpg",
-                "name": "Qualcomm Datacenter Technologies",
-                "url": "/membership/qualcomm-datacenter-technologies/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
@@ -337,7 +329,7 @@
         ],
         "membership_group_name": "LDCG Members",
         "text": "The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.\n\nCompanies interested in working together on common open source software foundations for datacenter & cloud applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/ldcg/"
+        "url": "/engineering/datacenter-and-cloud/"
     },
     {
         "id": "lcg",
@@ -395,7 +387,7 @@
         ],
         "membership_group_name": "LCG Members",
         "text": "Linaro\u2019s collaboration with members involved in Android(\u2122) related technologies is done through the Linaro Consumer Group. \nThere are three engineering teams that work under the direction of the LCG Steering Committee\nART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.\n\nCompanies interested in working together on common open source software foundations for consumer applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/groups/lcg/"
+        "url": "/engineering/consumer/"
     },
     {
         "id": "lite",
@@ -453,7 +445,7 @@
         ],
         "membership_group_name": "LITE Members",
         "text": "The purpose of the Linaro IoT and Embedded Group (LITE) is focused on enabling secure, network connected, embedded heterogenous Cortex-A/R/M devices. This includes compute devices where the SoC has a combination of Cortex A, R, and/or M profiles and/or FPGA. Our current efforts focus on support for Arm devices in the Zephyr project and participating in the open source secure software projects such as Trusted Firmware.",
-        "url": "/engineering/groups/lite/"
+        "url": "/engineering/iot-and-embedded/"
     },
     {
         "id": "boards-sc",
@@ -518,11 +510,6 @@
                 "image": "https://static.linaro.org/common/member-logos/actions.jpg",
                 "name": "Actions Semiconductor",
                 "url": "/membership/actions/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/archermind.jpg",
-                "name": "Archermind",
-                "url": "/membership/archermind/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
@@ -701,6 +688,26 @@
                 "image": "https://static.linaro.org/common/member-logos/fab-to-lab.jpg",
                 "name": "Fab.to.Lab",
                 "url": "/membership/fab-to-lab/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/beiqi.jpg",
+                "name": "Xiamen Beiqi Technology Co. Ltd",
+                "url": "/membership/beiqi/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hichips.jpg",
+                "name": "Shenzhen HiChips Technology Co. Ltd.",
+                "url": "/membership/hichips/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
+                "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
+                "url": "/membership/neucore/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
+                "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
+                "url": "/membership/robosense/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
