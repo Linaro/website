@@ -18,9 +18,9 @@ tags:
   - BKK19
 image: /assets/images/blog/session-at-yvr18.jpg
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule[for the Arm on Arm Summit at Linaro Connect Bangkok 2019.](https://connect.linaro.org/attend/arm-on-arm-summit/) The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule [for the Arm on Arm Summit at Linaro Connect Bangkok 2019.](https://connect.linaro.org/attend/arm-on-arm-summit/) The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.
 
-Experts from Arm,[Gyrfalcon](https://www.gyrfalcontech.ai/), HiSilicon, Linaro, Marvell, Packet, and[Socionext](http://www.socionext.com/en/) will come together at the Centara Grand in Bangkok, Thailand. The Arm on Arm summit will provide attendees with updates and demonstrations on achievements to-date, including the examination of native software development and deployment targeting Arm platforms using Arm-based hosts.
+Experts from Arm, [Gyrfalcon](https://www.gyrfalcontech.ai/), HiSilicon, Linaro, Marvell, Packet, and [Socionext](http://www.socionext.com/en/) will come together at the Centara Grand in Bangkok, Thailand. The Arm on Arm summit will provide attendees with updates and demonstrations on achievements to-date, including the examination of native software development and deployment targeting Arm platforms using Arm-based hosts.
 
 Developers will also see a multitude of Arm-based hardware platforms including laptops, desktops and high-end servers available to them. The event will conclude with a panel of experts from Linaro, Arm, Marvell and Packet hosting a forward-looking discussion detailing upcoming DevOp milestones required to continue to drive seamless system deployments on the Arm architecture.
 
@@ -39,17 +39,18 @@ Developers will also see a multitude of Arm-based hardware platforms including l
 
 The event will kick-off with keynotes from Packet and Socionext, followed by sessions on Arm Neoverse, SUSE, machine learning (ML) for Arm on Arm, and more.
 
-View the complete schedule[here](https://connect.linaro.org/schedule/) and register for the event[here](https://connect.linaro.org/register/).
+View the complete schedule [here](https://connect.linaro.org/schedule/) and register for the event [here](https://connect.linaro.org/register/).
 
 ### About Linaro Connect
 
-Every six months, over 300 of the world's leading open source engineers working on Arm get together for a full week of engineering sessions and hacking at Linaro Connect.  For those working on open source software for Arm platforms, Linaro Connect is the place to be to understand the latest developments and work directly with the most active engineers and maintainers in the ecosystem. For more information, go to[connect.linaro.org](https://connect.linaro.org/) where you can watch a quick introduction video.
+Every six months, over 300 of the world's leading open source engineers working on Arm get together for a full week of engineering sessions and hacking at Linaro Connect.  For those working on open source software for Arm platforms, Linaro Connect is the place to be to understand the latest developments and work directly with the most active engineers and maintainers in the ecosystem. For more information, 
+go to [connect.linaro.org](https://connect.linaro.org/) where you can watch a quick introduction video.
 
 ### About Linaro
 
 Linaro leads collaboration in the Arm ecosystem and helps companies work with the latest open source technology. The company has over 300 engineers working on more than 70 open source projects, developing and optimizing software and tools, ensuring smooth product roll outs, and reducing maintenance costs. Work happens across segments including datacenter & cloud, edge & fog, IoT & embedded, consumer, machine intelligence, telecom & networking, autonomous vehicles, and high performance computing. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low-level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit https://www.linaro.org and https://www.96Boards.org.
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](https://www.linaro.org) and [https://www.96Boards.org](https://www.96Boards.org).
 
 ### About Arm
 
