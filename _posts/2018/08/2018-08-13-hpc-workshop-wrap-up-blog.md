@@ -123,7 +123,7 @@ SVE (Scalable Vector Extension) is the next generation SIMD instruction set for 
 
 #### Linaro HPC Sig
 
-The world’s fastest 500 computers run Linux-based operating systems and thus, High Performance Computing (HPC) relies on Open Source. In 2016, Linaro and its members therefore created the HPC Special Interest Group (SIG) to drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. To find out more about the Linaro HPC Sig and how to get involved, click [here](https://www.linaro.org/sig/hpc/).
+The world’s fastest 500 computers run Linux-based operating systems and thus, High Performance Computing (HPC) relies on Open Source. In 2016, Linaro and its members therefore created the HPC Special Interest Group (SIG) to drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. To find out more about the Linaro HPC Sig and how to get involved, click [here](/engineering/high-performance-computing/).
 
   
   

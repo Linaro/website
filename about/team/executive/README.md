@@ -81,18 +81,4 @@ Mark joined Linaro as Director of Working Groups in August 2012\. Prior to this 
 </div>
 </div>
 
-
-<div class="container board_member no-padding">
-<div class="col-sm-9 no-padding" markdown="1">
-### **Steve Taylor** / Marketing Executive Director
-
-Steve is responsible for promoting Linaro value and growing the ecosystem. With over 25 years experience in technology and over 15 of those spent working in Asia, Steve’s career prior to Linaro splits into four areas: software marketing from start-up to pre-IPO, world-leading Taiwanese ODM hardware marketing and sales, online media development for a high-tech daily newspaper, and corporate communications. Fluent in spoken Chinese and rusty in Postscript, Pascal, ASP, typography and color science, Steve has always enjoyed working to help technology companies communicate clearly. Steve resides with his family in Cambridge, UK
-
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/steve-taylor.png" class="linaro-profile-image" alt="Steve Taylor Profile Photo"%}
-</div>
-</div>
-
-
 <hr/>

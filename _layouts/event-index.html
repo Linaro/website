@@ -3,22 +3,24 @@ layout: empty
 css-package: events-blog
 js-package: events-blog
 ---
-<div class="container-fluid responsive-background" id="header-container"
-  style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
-    <div class="row overlay padded-row" id="resources">
-        <div class="container text-center">
-            <a href="/events/" class="fly btn btn-primary btn-sm all-events">
-                <i class="fa fa-angle-left"></i> All Events 
-            </a>
-            <h1 class="fly center-block">{{page.title}}</h1>
-            <p class="fly center-block">
-                {{page.description}}
-            </p>
-            {% if page.event_url %}
-            <a href="{{page.event_url}}" class="fly btn btn-primary btn-sm">
-                View Event Website <i class="fa fa-external-link-square"></i>
-            </a>
-            {% endif %}
+<div class="container-fluid responsive-background" id="header-container">
+    <div class="row background-image overlay" id="jumbotron"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
+        <div id="jumbotron-content" class=" flex-container">
+            <div class="container flex-center" id="jumbotron-text">
+                <a href="/events/" class="fly btn btn-primary btn-sm all-events">
+                    <i class="fa fa-angle-left"></i> All Events
+                </a>
+                <h1 class="fly center-block" id="jumbotron-heading">{{page.title}}</h1>
+                <p class="fly center-block" id="jumbotron-sub-title">
+                    {{page.description}}
+                </p>
+                {% if page.event_url %}
+                <a href="{{page.event_url}}" class="fly btn btn-primary btn-sm">
+                    View Event Website <i class="fa fa-external-link-square"></i>
+                </a>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>

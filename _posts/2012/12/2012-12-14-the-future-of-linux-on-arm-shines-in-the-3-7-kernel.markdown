@@ -59,7 +59,7 @@ Additional references to Arm support in the 3.7 Linux Kernel include virtualizat
 
 Excitement continues to grow throughout the Linux and Arm development communities as articles about the inclusion of Arm support in the 3.7 Linux Kernel circulate.
 
-“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/engineering/groups/ldcg/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with Arms to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/engineering/groups/ldcg/), which Kerner references in his article.
+“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with Arms to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/engineering/datacenter-and-cloud/), which Kerner references in his article.
 
 Jon Gold of Network World referenced the inclusion of these new features as “groundbreaking” in his [Linux 3.7 adds major new Arm processor support]() post.
 
