@@ -48,7 +48,7 @@ div#engineering-graphic {
     height: 100px;
 }
 
-h3.group-title {
+#wrapper h3.group-title {
     word-wrap: break-word;
     margin-top: 0;
     font-size: 18px;
@@ -165,7 +165,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:0px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 14px;
         top: -15px;
     }
@@ -178,7 +178,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:360px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 14px;
         top: -15px;
     }
@@ -191,7 +191,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:520px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 14px;
         top: -15px;
     }
@@ -204,7 +204,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:600px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 20px;
         top: -15px;
     }
@@ -217,7 +217,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:700px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 20px;
         top: -15px;
     }
@@ -230,7 +230,7 @@ span.core-descriptor.kernel {
 }
 
 @media(min-width:860px) {
-    h3.group-title {
+    #wrapper h3.group-title {
         font-size: 20px;
         top: -15px;
     }
@@ -246,7 +246,7 @@ span.core-descriptor.kernel {
     .col-xs-6.col-sm-3.engineering-icon img {
         top: -30px;
     }
-    h3.group-title {
+    #wrapper h3.group-title {
         top: -50px;
         font-size: 15px;
     }
@@ -259,7 +259,7 @@ span.core-descriptor.kernel {
     .col-xs-6.col-sm-3.engineering-icon img {
         top: -65px;
     }
-    h3.group-title {
+    #wrapper h3.group-title {
         top: -100px;
         font-size: 15px;
     }

@@ -26,28 +26,28 @@ jumbotron:
     <div class="row engineering-top-row">
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/groups/ldcg/">
+                <a href="/engineering/datacenter-and-cloud/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/LDCG col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Datacenter & Cloud</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/groups/ledge/">
+                <a href="/engineering/edge-and-fog-computing/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/LEDGE col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Edge & Fog Computing</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/groups/lcg/">
+                <a href="/engineering/consumer/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/LCG col.png" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Consumer</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/groups/lite/">
+                <a href="/engineering/iot-and-embedded/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/LITE col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
@@ -77,28 +77,21 @@ jumbotron:
     <div class="row engineering-bottom-row">
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/sig/ltn/">
-                    <img class="img-responsive lazyload" data-src="/assets/images/content/antenna col.svg" 
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
-                </a>
-                <h3 class="group-title">Telecom & Networking</h3>
-            </div>
-            <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/incubators/autonomous-vehicles/">
+                <a href="/engineering/autonomous-vehicles/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/AutoCol.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Autonomous Vehicles</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/incubators/machine-intelligence/">
+                <a href="/engineering/machine-intelligence/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/Machine col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Machine Intelligence</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/sig/hpc/">
+                <a href="/engineering/high-performance-computing/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/HPCCol.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
