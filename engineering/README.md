@@ -77,13 +77,6 @@ jumbotron:
     <div class="row engineering-bottom-row">
         <div class="container">
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/telecom-and-networking/">
-                    <img class="img-responsive lazyload" data-src="/assets/images/content/antenna col.svg" 
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
-                </a>
-                <h3 class="group-title">Telecom & Networking</h3>
-            </div>
-            <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/autonomous-vehicles/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/AutoCol.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
