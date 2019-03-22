@@ -28,6 +28,7 @@ members_key: lcdg_members
 output: true
 image: /assets/images/content/LDCG col.svg
 jumbotron:
+    triangle-divider: true
     description: ""
     background-image: /assets/images/content/ldcg-bg.jpg
 ---

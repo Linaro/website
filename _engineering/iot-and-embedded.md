@@ -21,6 +21,8 @@ releases:
   - title: LITE Releases
     url: https://releases.linaro.org/components/lite/
 jumbotron:
+    triangle-divider: true
+    description: ""
     background-image: /assets/images/content/IoT-bg.jpg
 ---
 The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
