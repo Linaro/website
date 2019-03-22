@@ -6,6 +6,8 @@ members:
     key: hpc-sig
 image: /assets/images/content/HPCCol.svg
 jumbotron:
+    triangle-divider: true
+    description: ""
     background-image: /assets/images/content/hpc-bg.jpg
 ---
 With its debut on the Top500, the 125,000-core Astra at New Mexico's Sandia Labs uses Cavium ThunderX2 chips to mark Arm's entry into the petascale world. In Japan, the Armv8-A 512bit SVE Post-K prototype CPU by Fujitsu and RIKEN has been optimized to achieve high-level, real-world application performance, anticipating up to one hundred times the application execution performance of the K computer. K was the first computer to top 10 petaflops in 2011.
