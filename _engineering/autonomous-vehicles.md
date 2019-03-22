@@ -12,6 +12,8 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
+    triangle-divider: true
+    description: ""
     background-image: /assets/images/content/autonomous-driving-bg.jpg
 ---
 Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.  
