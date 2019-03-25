@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Bala Manoharan for 5 years at Linaro
 keywords: 5 Year Award, Bala Manoharan, Linaro
+layout: award-page
 description: >
     We would like to congratulate Bala Manoharan for making a difference in open source with Linaro for 5 years.
 tag: 5YearAward

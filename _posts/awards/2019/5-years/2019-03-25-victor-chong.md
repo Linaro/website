@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Victor Chong for 5 years at Linaro
 keywords: 5 Year Award, Victor Chong, Linaro
+layout: award-page
 description: >
     We would like to congratulate Victor Chong for making a difference in open source at Linaro for 5 years.
 ask-me-about: Solutions and Support, Security, Toolchains, Golf

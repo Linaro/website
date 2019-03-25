@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Eric Auger for 5 years at Linaro
 keywords: 5 Year Award, Eric Auger, Linaro
+layout: award-page
 description: >
     We would like to congratulate Eric Auger for making a difference in open source at Linaro for 5 years.
 tag: 5YearAward

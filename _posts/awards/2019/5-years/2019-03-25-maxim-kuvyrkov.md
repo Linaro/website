@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Maxim Kuvyrkov for 5 years at Linaro
 keywords: 5 Year Award, Maxim Kuvyrkov, Linaro
+layout: award-page
 description: >
     We would like to congratulate Maxim Kuvyrkov for making a difference in open source at Linaro for 5 years.
 ask-me-about: Toolchain integration, Toolchain debugging, Performance analysis

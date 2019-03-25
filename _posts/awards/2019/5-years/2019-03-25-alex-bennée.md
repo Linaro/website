@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Alex Bennée for 5 years at Linaro
 keywords: 5 Year Award, Alex Bennée, Linaro
+layout: award-page
 description: >
     We would like to congratulate Alex Bennée for making a difference in open source at Linaro for 5 years.
 ask-me-about: QEMU, KVM, Virtualization, Emacs, Beer

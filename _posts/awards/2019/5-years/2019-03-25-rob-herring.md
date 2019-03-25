@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Rob Herring for 5 years at Linaro
 keywords: 5 Year Award, Rob Herring, Linaro
+layout: award-page
 description: >
     We would like to congratulate Rob Herring for making a difference in open source at Linaro for 5 years.
 ask-me-about: Kernel, DeviceTree, ARM, SOC architecture, servers, boot architecture, homebrewing

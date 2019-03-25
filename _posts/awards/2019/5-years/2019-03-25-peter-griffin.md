@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Peter Griffin for 5 years at Linaro
 keywords: 5 Year Award, Peter Griffin, Linaro
+layout: award-page
 description: >
     We would like to congratulate Peter Griffin for making a difference in open source at Linaro for 5 years.
 ask-me-about: "Board / SoC bringup, ST DVB stacks, LinuxDVB, ST / TI / Renesas chipsets"

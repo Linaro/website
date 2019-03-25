@@ -1,6 +1,7 @@
 ---
 title: Congratulations to Khasim Mohammed for 5 years at Linaro
 keywords: 5 Year Award, Khasim Mohammed, Linaro
+layout: award-page
 description: >
     We would like to congratulate Khasim Mohammed for making a difference in open source at Linaro for 5 years.
 ask-me-about: Linux Kernel & Device Drivers, Android HAL & Frameworks, Open Hardware Platforms
