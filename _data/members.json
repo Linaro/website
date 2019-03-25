@@ -713,6 +713,16 @@
                 "image": "https://static.linaro.org/common/member-logos/leishen.jpg",
                 "name": "LeiShen Intelligent System",
                 "url": "/membership/leishen/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/horizon-robotics.jpg",
+                "name": "Horizon Robotics",
+                "url": "/membership/horizon-robotics/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/navinfo.jpg",
+                "name": "NavInfo",
+                "url": "/membership/navinfo/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
