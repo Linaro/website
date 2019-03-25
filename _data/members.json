@@ -708,6 +708,11 @@
                 "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
                 "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
                 "url": "/membership/robosense/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/leishen.jpg",
+                "name": "LeiShen Intelligent System",
+                "url": "/membership/leishen/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
