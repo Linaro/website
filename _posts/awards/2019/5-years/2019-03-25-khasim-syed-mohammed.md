@@ -19,4 +19,8 @@ image:
   featured: true
   path: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/khasim-mohammed.jpg
+jumbotron:
+    background-image: /assets/images/content/5years_bkgd.png
+    title: ""
+    description: ""
 ---
