@@ -99,6 +99,12 @@ defaults:
         layout: post
         comments: false
   - scope:
+        path: "_posts/awards/5-years"
+        type: "posts"
+    values:
+        layout: award-page
+        comments: false
+  - scope:
         path: ""
         type: "company"
     values:
