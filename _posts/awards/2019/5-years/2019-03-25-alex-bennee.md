@@ -19,6 +19,6 @@ categories:
  - 5-Years
 image:
   featured: true
-  path: /assets/images/content/award.png
+  path: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/alex.jpg
 ---
