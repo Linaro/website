@@ -17,6 +17,4 @@ image:
 photo: /assets/images/people/eric-auger.jpg
 jumbotron:
     background-image: /assets/images/content/5years_bkgd.png
-    title: ""
-    description: ""
 ---

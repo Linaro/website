@@ -22,6 +22,4 @@ image:
 photo: /assets/images/people/victor.jpg
 jumbotron:
     background-image: /assets/images/content/5years_bkgd.png
-    title: ""
-    description: ""
 ---

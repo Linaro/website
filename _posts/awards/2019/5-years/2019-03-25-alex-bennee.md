@@ -23,6 +23,4 @@ image:
 photo: /assets/images/people/alex.jpg
 jumbotron:
     background-image: /assets/images/content/5years_bkgd.png
-    title: ""
-    description: ""
 ---
