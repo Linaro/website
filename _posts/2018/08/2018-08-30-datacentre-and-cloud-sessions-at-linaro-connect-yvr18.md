@@ -73,4 +73,4 @@ There is a QEMU machine type ‘virt’ for Arm, but it has some constrains, so 
 **Linaro Data Centre & Cloud**
 The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.
 
-To find out how to get involved iwth Linaro Data Centre & Cloud, click [here](https://www.linaro.org/engineering/groups/ldcg/).
+To find out how to get involved iwth Linaro Data Centre & Cloud, click [here](/engineering/datacenter-and-cloud/).
