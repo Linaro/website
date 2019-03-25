@@ -12,6 +12,8 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
+    triangle-divider: true
+    description: ""
     background-image: /assets/images/content/machine-learning-bg.jpg
 ---
 {% include media.html media_url="https://www.youtube.com/watch?v=EHM-krkB42Y" %}

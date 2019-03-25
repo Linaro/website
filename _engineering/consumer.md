@@ -21,6 +21,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKN
 members_key: lcg_members
 output: true
 jumbotron:
+    triangle-divider: true
     description: ""
     background-image: /assets/images/content/consumer-bg.jpg
 ---

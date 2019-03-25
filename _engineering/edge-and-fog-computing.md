@@ -18,6 +18,8 @@ image:
     path: /assets/images/content/LEDGE col.svg
     background-class: "bottom-bg "
 jumbotron:
+    triangle-divider: true
+    description: ""
     background-image: /assets/images/content/edge-and-fog-bg.jpg
 ---
 Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. 

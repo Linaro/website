@@ -64,8 +64,6 @@ pages:
             url: /engineering/consumer/
           - text: IoT & Embedded
             url: /engineering/iot-and-embedded/
-          - text: Telecom & Networking
-            url: /engineering/telecom-and-networking/
           - text: Autonomous Vehicles
             url: /engineering/autonomous-vehicles/ 
           - text: Machine Intelligence
