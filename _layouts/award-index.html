@@ -1,0 +1,25 @@
+---
+layout: jumbotron-container
+---
+
+{% if paginator.total_posts > 0 %}
+    {% for post in paginator.posts %}
+        {% assign timeframe = 604800 %}
+        {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+        {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+        <div class="row blog_post">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="{{post.url}}">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="{{post.image.path}}" alt="{{post.title}}"
+                        class="center-block img-responsive lazyload" />
+                    <h3>{{post.name}}</h3>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+{% else %}
+<p>
+    No awards of this category were found!
+</p>
+{% endif %}
