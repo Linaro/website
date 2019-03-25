@@ -1,20 +1,16 @@
 ---
-layout: base
+layout: jumbotron-container
 ---
-<div class="row">
-    <div class="col-xs-12 text-center badge-section">
-        <img class="img-repsonsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-         data-src="{{page.image.path}}" alt="5 Year Award"/>
-        <h2>{{page.title}}</h2>
-        <p>{{page.description}}</p>
-    </div>
+<div class="col-xs-12 text-center badge-section">
+    <img class="img-repsonsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{{page.image.path}}" alt="5 Year Award"/>
+    <h2>{{page.title}}</h2>
+    <p>{{page.description}}</p>
 </div>
-<div class="row">
-    <div class="col-xs-12 about-section">
-        {% if page.bio %}
+<div class="col-xs-12 about-section">
+{% if page.bio %}
 <div markdown="1">
 {{page.bio}}
 </div>
-        {% endif %}
-    </div>
+{% endif %}
 </div>
