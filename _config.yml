@@ -99,7 +99,7 @@ defaults:
         layout: post
         comments: false
   - scope:
-        path: "_posts/awards/5-years"
+        path: "_posts/awards"
         type: "posts"
     values:
         layout: award-page
