@@ -41,7 +41,7 @@ In addition to theses sessions we had interactive sessions on LAVA during the LA
 
 A heartfelt thanks all the team members of Arm and Linaro for their joint working effort in releasing of big.LITTLE IKS and Armv8 model.  None of this would have been possible without the effort of everyone at Linaro and Arm.
 
-Linaro [announced](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) its newest group-- the [Linaro Networking Group](/blog/lng/) (LNG)-- which builds on the model that was created with [Linaro Enterprise Group](/engineering/groups/ldcg/) (LEG) and brings together members with several new companies.
+Linaro [announced](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) its newest group-- the [Linaro Networking Group](/blog/lng/) (LNG)-- which builds on the model that was created with [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG) and brings together members with several new companies.
 
 Overall this was a very exciting week for me and  I cherished every moment during at this Connect event. I hope others thoroughly enjoyed this event as much as I did connect. The social events which took place during the week were amazing as well. I enjoyed all the discussions during the evening Meet and Greet.  Spending time with all my friends was great fun as we went to Mong Konk to do some electronics related shopping, and to Lantau Island and the Big Buddha Temple, which is so amazing and peaceful.
 

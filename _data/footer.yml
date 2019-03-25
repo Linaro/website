@@ -15,16 +15,26 @@ columns:
         - text: Join Us
           url : /about/join-us/
     - title: Engineering
-      url: /work/
+      url: /engineering/
       items:
         - text: Core Engineering
           url : /engineering/core/
-        - text: Segment Groups
-          url : /engineering/groups/
-        - text: Projects
-          url : /engineering/projects/
-        - text: Developer Services
-          url : /services/
+        - text: Datacenter & Cloud
+          url: /engineering/datacenter-and-cloud/
+        - text: Edge & Fog Computing
+          url: /engineering/edge-and-fog-computing/
+        - text: Consumer
+          url: /engineering/consumer/
+        - text: IoT & Embedded
+          url: /engineering/iot-and-embedded/
+        - text: Autonomous Vehicles
+          url: /engineering/autonomous-vehicles/ 
+        - text: Machine Intelligence
+          url: /engineering/machine-intelligence/
+        - text: High Performance Computing
+          url: /engineering/high-performance-computing/     
+        - text: Upstream Projects
+          url: /engineering/projects/
     - title: Downloads
       url: "/downloads/"
       items:
@@ -32,7 +42,7 @@ columns:
            url : /downloads/
          - text: Security Downloads
            url : /downloads/security/
-    - title: Services
+    - title: Developer Services
       url: "/services/"
       items:
          - text: Security

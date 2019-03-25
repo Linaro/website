@@ -4,14 +4,16 @@ title: Blog
 css-package: events-blog
 js-package: events-blog
 ---
-<div class="container-fluid responsive-background" id="header-container"
-  style="background: url('{{page.image.path}}');">
-    <div class="row overlay padded-row" id="resources">
-        <div class="container text-center">
-            <h1 class="fly center-block">{{page.title}}</h1>
-            <p class="fly center-block">
-                {{page.description}}
-            </p>
+<div class="container-fluid responsive-background" id="header-container">
+    <div class="row background-image overlay" id="jumbotron"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
+        <div id="jumbotron-content" class=" flex-container">
+            <div class="container flex-center" id="jumbotron-text">
+                <h1 class="fly center-block" id="jumbotron-heading">{{page.title}}</h1>
+                <p class="fly center-block" id="jumbotron-sub-title">
+                    {{page.description}}
+                </p>
+            </div>
         </div>
     </div>
 </div>

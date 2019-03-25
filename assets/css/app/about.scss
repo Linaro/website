@@ -185,7 +185,7 @@ svg#employee-map{
     margin-left: auto;
     margin-right: auto;
 }
-p.center.employee-map-text{
+#wrapper p.center.employee-map-text{
     width: 70%;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
@@ -545,7 +545,7 @@ p.center.employee-map-text{
     #we-are-global{
         font-size: 36px;
     }
-    p.center.employee-map-text {
+    #wrapper p.center.employee-map-text {
         width:100%;
     }
     .timeline-bar{

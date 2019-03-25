@@ -59,21 +59,19 @@ pages:
                 - text: Security
                   url: /engineering/core/security/
           - text: Datacenter & Cloud
-            url: /engineering/groups/ldcg/
+            url: /engineering/datacenter-and-cloud/
           - text: Edge & Fog Computing
-            url: /engineering/groups/ledge/
+            url: /engineering/edge-and-fog-computing/
           - text: Consumer
-            url: /engineering/groups/lcg/
+            url: /engineering/consumer/
           - text: IoT & Embedded
-            url: /engineering/groups/lite/
-          - text: Telecom & Networking
-            url: /sig/ltn/
+            url: /engineering/iot-and-embedded/
           - text: Autonomous Vehicles
-            url: /engineering/incubators/autonomous-vehicles/ 
+            url: /engineering/autonomous-vehicles/ 
           - text: Machine Intelligence
-            url: /engineering/incubators/machine-intelligence/
+            url: /engineering/machine-intelligence/
           - text: High Performance Computing
-            url: /sig/hpc/     
+            url: /engineering/high-performance-computing/     
           - text: Upstream Projects
             url: /engineering/projects/
     - title: Services
@@ -120,5 +118,5 @@ pages:
             url: /events/
           - text: Planet
             url: /planet/
-    - title: Contact Us
+    - title: Contact
       url: /contact/
