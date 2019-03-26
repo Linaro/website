@@ -37,3 +37,8 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+.awards-section-img.five-years:hover{
+    transform: translateY(-5px);
+}.awards-section-img.five-years{
+    transition: all 300ms ease;
+}
