@@ -555,6 +555,16 @@
                 "image": "https://static.linaro.org/common/member-logos/unisoc.jpg",
                 "name": "UniSoc",
                 "url": "/membership/unisoc/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/horizon-robotics.jpg",
+                "name": "Horizon Robotics",
+                "url": "/membership/horizon-robotics/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/navinfo.jpg",
+                "name": "NavInfo",
+                "url": "/membership/navinfo/"
             }
         ],
         "membership_group_name": "96Boards Steering Committee Members",
@@ -708,6 +718,11 @@
                 "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
                 "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
                 "url": "/membership/robosense/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/leishen.jpg",
+                "name": "LeiShen Intelligent System",
+                "url": "/membership/leishen/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
