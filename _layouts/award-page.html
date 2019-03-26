@@ -18,7 +18,6 @@ css-package: blog
                 class="blog-author-image awards-profile-photo img-circle center-block lazyload"
                 alt="{{page.name}} profile photo.">
             {% endif %}
-
             {% if page.jumbotron.title %}
                 {% if page.jumbotron.title.lines %}
                 <h1>
@@ -65,9 +64,7 @@ css-package: blog
 <div class="col-xs-12 about-section">
 <h3>About {{page.name}} ({{page.job-title}} / {{page.company}})</h3>
 {% if page.bio %}
-<div markdown="1">
-{{page.bio}}
-</div>
+{{page.bio | markdownify }}
 {% endif %}
 </div>
     </div>
