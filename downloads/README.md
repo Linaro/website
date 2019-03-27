@@ -150,7 +150,7 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 ## Linaro Toolchain
 
-The first Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.2-2018.08 is now available on the [Arm Developer website](https://developer.arm.com/open-source/gnu-toolchain/gnu-a).
+The first Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.2-2018.08 is now available on the [Arm Developer website](https://developer.arm.com/tools-and-software/open-source-software/gnu-toolchain/gnu-a).
 
 Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
 
@@ -198,6 +198,6 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 ***
 
-Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm)
+Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/tools-and-software/open-source-software/gnu-toolchain/gnu-rm)
 
 </div>

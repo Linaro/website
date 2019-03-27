@@ -46,7 +46,7 @@ In addition to the successful release of Linaro 12.10, [the plans](https://conne
 * * *
 
 
-On the Armv8 front, Linaro is now making early Armv8 images available to interested developers. For a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set, please visit[ the Arm portal](http://www.arm.com/products/processors/instruction-set-architectures/armv8-architecture.php).
+On the Armv8 front, Linaro is now making early Armv8 images available to interested developers. For a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set, please visit[ the Arm portal](https://developer.arm.com/architectures/cpu-architecture/a-profile).
 
 
 * * *

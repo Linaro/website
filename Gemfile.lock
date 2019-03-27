@@ -145,6 +145,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 3.7.4)
   jekyll-data
   jumbo-jekyll-theme (= 4.2.1)
   nokogiri
