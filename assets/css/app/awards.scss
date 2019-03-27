@@ -1,0 +1,44 @@
+.award-index-photo {
+    height: 200px;
+    border-radius: 100px;
+}
+.award {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 30px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgb(241, 241, 241);
+    -moz-box-shadow: 0px 0px 10px 5px rgb(243, 243, 243);
+    box-shadow: 0px 0px 10px 5px rgb(236, 236, 236);
+
+    transition: all 300ms ease;
+}
+.award:hover, .award:focus {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(179,179,179,1);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(179,179,179,1);
+    box-shadow: 0px 0px 20px 5px rgba(179,179,179,1);
+    background-color:#e4edcd;
+    transform: translateY(-5px);
+}
+.award:hover::after {
+    position:relative;
+    height:100%;
+    width:100%;
+    content: '';
+    background-color:red;
+}
+#wrapper .award h3 {
+    color: #616161;
+}
+.awards-section-img.five-years {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.awards-section-img.five-years:hover{
+    transform: translateY(-5px);
+}.awards-section-img.five-years{
+    transition: all 300ms ease;
+}

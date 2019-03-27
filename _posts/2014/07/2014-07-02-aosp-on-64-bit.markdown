@@ -47,7 +47,7 @@ The Linaro 14.06 release includes a 64-bit primary/32-bit secondary binary image
 
 “We have been using Arm Fast Models to develop for AOSP for a long time and it is testament to the quality of our collaborative engineering that we have delivered this release running on the Armv8-A hardware platform so quickly,” said George Grey, Linaro CEO. “We look forward to working closely with our members to enable them to deliver next generation Android solutions rapidly to the market.”
 
-The Armv8-A hardware development platform includes an SoC with a quad-core Arm Cortex®-A53 CPU and dual-core Arm Cortex-A57 CPU in an Arm big.LITTLE™ processing configuration with a quad-core Arm Mali™-T624 GPU linked via Arm CoreLink™ system IP and implemented using Arm Artisan® physical IP. The development platform with its Armv8-A software stack provides Arm software and silicon partners with a common foundation to accelerate their Armv8-A software development. Further information about this platform is available from the Arm website here: [www.arm.com/juno](http://www.arm.com/juno).
+The Armv8-A hardware development platform includes an SoC with a quad-core Arm Cortex®-A53 CPU and dual-core Arm Cortex-A57 CPU in an Arm big.LITTLE™ processing configuration with a quad-core Arm Mali™-T624 GPU linked via Arm CoreLink™ system IP and implemented using Arm Artisan® physical IP. The development platform with its Armv8-A software stack provides Arm software and silicon partners with a common foundation to accelerate their Armv8-A software development. Further information about this platform is available from the Arm website here: [www.arm.com/juno](https://www.arm.com/products/development-tools/development-boards/juno-arm-dev-platform).
 
 **About Linaro**
 
