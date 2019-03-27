@@ -19,7 +19,7 @@ categories:
 image:
   featured: true
   path: /assets/images/content/5years_bkgd.png
-photo: /assets/images/people/victor.jpg
+photo: /assets/images/people/victor-chong.jpg
 jumbotron:
     background-image: /assets/images/content/5years_bkgd.png
 ---
