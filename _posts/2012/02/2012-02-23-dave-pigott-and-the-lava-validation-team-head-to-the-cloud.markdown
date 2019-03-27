@@ -54,6 +54,6 @@ Back in on Monday it was catch up. A load of audio loop-back cables and USB Flas
 
 Guess what? It only bloody worked!
 
-So, now we have a real cloud. Zygmunt Krynicki and [I](https://launchpad.net/~dpigott) are now starting to exercise it. Our first goal is to get the [FastModels](http://www.arm.com/products/tools/models/fast-models.php) deployed there. Then we need to offload l-m-c instances. Anyone who accesses v.l.o in the near future will start to see a massive improvement in performance, and now we can consider doing things we would have held back on before.
+So, now we have a real cloud. Zygmunt Krynicki and [I](https://launchpad.net/~dpigott) are now starting to exercise it. Our first goal is to get the [FastModels](https://www.arm.com/products/development-tools/simulation/fast-models) deployed there. Then we need to offload l-m-c instances. Anyone who accesses v.l.o in the near future will start to see a massive improvement in performance, and now we can consider doing things we would have held back on before.
 
 But actually, you know what? However cool all of that is, it's not half as cool as having our own cloud!

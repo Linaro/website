@@ -54,7 +54,7 @@ Members of the [Linaro Enterprise Group (LEG)](/engineering/datacenter-and-cloud
 In addition to these sessions taking place at the mini-summit other server sessions throughout the week include:
 
 
-  * **Introducing XEN Arm:** With the introduction of[ virtualization extensions](http://www.arm.com/products/processors/technologies/virtualization-extensions.php) on Arm processors, the Xen community has taken steps to add Arm support for Arm CPUs to the[ Xen Hypervisor](http://www.xen.org/products/xenhyp.html). This port is executed as part of of the Hypervisor project, with no separate codebase.
+  * **Introducing XEN Arm:** With the introduction of[ virtualization extensions](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/virtualization-on-arm-with-xen) on Arm processors, the Xen community has taken steps to add Arm support for Arm CPUs to the[ Xen Hypervisor](http://www.xen.org/products/xenhyp.html). This port is executed as part of of the Hypervisor project, with no separate codebase.
 
   * **KVM:** Common session with the Kernel WG and others about KVM status and plans for A15 and v8 architectures, IO virtualization and OpenStack as a test case.
 

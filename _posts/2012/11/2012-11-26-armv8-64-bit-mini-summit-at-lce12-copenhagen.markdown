@@ -26,7 +26,7 @@ Linaro held [three mini-summits](https://connect.linaro.org/resources/) during i
 
 First time Linaro Connect attendee, Andrew Thoelke of Arm ran the Armv8 (64-bit) Mini Summit which kicked off at 8:30 am with introductory and lightning-talk plenary sessions. The plenary sessions were both a “welcome” to the summit and a “here’s what to expect” outline of the event.
 
-This mini-summit was an in-depth discussion about the status of open source software for [Armv8’s 64-bit execution state (AArch64)](http://www.arm.com/products/tools/models/fast-models/foundation-model.php) and what the next steps for this should be.
+This mini-summit was an in-depth discussion about the status of open source software for [Armv8’s 64-bit execution state (AArch64)](https://www.arm.com/products/development-tools/simulation/fixed-virtual-platforms) and what the next steps for this should be.
 
 Topics discussed during this event included:
 

@@ -35,7 +35,7 @@ This is entirely possible with the Arm DS-5 Eclipse plugin. Android developers c
 
 The MALI 400 has one Vertex processor and up to four fragment (pixel) processors. Using DS-5 you will soon be able to trace these processors along with the application processors in colorful graphics.
 
-The Community Edition of DS-5 is [available](http://www.arm.com/products/tools/software-tools/ds-5/ds-5-downloads.php) under licence but free of charge for individuals and small companies.
+The Community Edition of DS-5 is [available](https://developer.arm.com/tools-and-software/software-development-tools/legacy-tools/ds-5-development-studio/downloads) under licence but free of charge for individuals and small companies.
 
 Next week is release week at Linaro and this is just one of the really interesting features to look forward to. The 12.03 will be a release to remember!
 

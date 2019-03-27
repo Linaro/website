@@ -63,7 +63,7 @@ Androidization process was just 4 step process:
     CONFIG_ANDROID_LOW_MEMORY_KILLER=y
 
 
-Additionally I had to set "CONFIG_VMSPLIT_3G=y" for Android to boot on [vexpress RTSM/Fastmodel](http://www.arm.com/products/tools/models/fast-models.php).
+Additionally I had to set "CONFIG_VMSPLIT_3G=y" for Android to boot on [vexpress RTSM/Fastmodel](https://www.arm.com/products/development-tools/simulation/fast-models).
 
 The androidization patches are usually provided by Google but was not available for 3.2 kernel. For people working on 3.3 kernel, androidization patches are available from Google at:
 [ https://android.googlesource.com/kernel/common.git](https://android.googlesource.com/kernel/common.git) for the Android-3.3 branch.

@@ -1,0 +1,30 @@
+---
+layout: jumbotron-container
+css-package: awards
+---
+
+{% if paginator.total_posts > 0 %}
+    {% for post in paginator.posts %}
+        {% assign timeframe = 604800 %}
+        {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+        {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+        <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <a href="{{post.url}}">
+                <div class="award">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{post.photo}}"
+                        alt="{{post.title}}" class="award-index-photo center-block img-responsive lazyload" />
+                    <h4 class="year">{{ post.date | date: '%Y' }}</h4>
+                    <h3>{{post.name}}</h3>
+                    <div class="employee-info">
+                        {% if post.job-title %}<span class="job-title">{{post.job-title}}</span>{% endif %} /
+                        {% if post.company %}<span class="company">{{post.company}}</span>{% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+{% else %}
+<p>
+    No awards of this category were found!
+</p>
+{% endif %}
