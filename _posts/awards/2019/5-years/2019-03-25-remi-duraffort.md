@@ -12,7 +12,7 @@ bio: >
 tag: 5YearAward
 name: Remi Duraffort
 job-title: Engineer
-company: ST
+company: Linaro
 team: Core Technology & Tools
 categories:
  - Awards
