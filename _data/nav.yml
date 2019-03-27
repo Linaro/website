@@ -31,8 +31,8 @@ pages:
                   url: /about/team/technical-steering-committee/
                 - text: Office of the CTO
                   url: /about/team/office-of-the-cto/
-                - text: Recognition Awards
-                  url: /awards/
+                # - text: Recognition Awards
+                #   url: /awards/
           - text: Join Us
             url: /about/join-us/
     - title: Membership
