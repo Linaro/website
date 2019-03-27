@@ -383,6 +383,11 @@
                 "image": "https://static.linaro.org/common/member-logos/quic.jpg",
                 "name": "QuIC",
                 "url": "/membership/quic/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/unisoc.jpg",
+                "name": "UniSoc",
+                "url": "/membership/unisoc/"
             }
         ],
         "membership_group_name": "LCG Members",
