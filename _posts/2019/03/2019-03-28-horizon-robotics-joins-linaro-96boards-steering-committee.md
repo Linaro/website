@@ -3,7 +3,7 @@ title: >-
   Horizon Robotics joins Linaro 96Boards Steering Committee
 author: linaro
 layout: post
-date: 2019-03-27 07:00:00
+date: 2019-03-28 07:00:00
 description: >-
    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member. 
 categories:
