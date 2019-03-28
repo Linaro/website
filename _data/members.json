@@ -734,7 +734,7 @@
         "url": "https://www.96boards.org/membership/"
     },
     {
-        "id": "boards-mezzanine",
+        "id": "boards-partner",
         "image": "96boards-mezzanine.png",
         "members": [
             {
@@ -748,7 +748,7 @@
                 "url": "/membership/rohm/"
             }
         ],
-        "membership_group_name": "96Boards Mezzanine Partners",
+        "membership_group_name": "96Boards Partners",
         "url": "https://www.96boards.org/membership/"
     },
     {
