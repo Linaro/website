@@ -14,7 +14,7 @@ tags:
   - Horizon Robotics
   - Open Source
   - AI
-image: /assets/images/content/city-roads.jpg
+image: /assets/images/content/machine-learning-bg.jpg
 ---
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member. 
 
