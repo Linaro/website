@@ -1,0 +1,76 @@
+---
+layout: empty
+css-package: blog
+---
+<div class="{% if page.jumbotron.video %}video {% endif %}row {% if page.jumbotron.background-image %}background-image {% endif %}
+{% if page.jumbotron.carousel-images %}carousel-header{% endif %}
+{% if page.image.background-class %}{{page.image.background-class}}{% endif %}{% if site.data.settings.jumbotron.darken %}overlay{% endif %} {% if page.jumbotron.background-image %}
+    " style="background-image: url('{{page.jumbotron.background-image}}');" {% else %} jumbotron text-center
+    featured-jumbotron" {% endif %} id="jumbotron">
+    <!--Row -->
+    <div id="jumbotron-content" class=" flex-container">
+        <!--Jumbotron div -->
+        <div class="container flex-center" id="jumbotron-text">
+            <!--Container -->
+            {% if page.photo %}
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{page.photo}}"
+                class="blog-author-image awards-profile-photo img-circle center-block lazyload"
+                alt="{{page.name}} profile photo.">
+            {% endif %}
+            {% if page.jumbotron.title %}
+                {% if page.jumbotron.title.lines %}
+                <h1>
+                    {% for line in page.jumbotron.title.lines %}
+                    <span class="{{line.class}}">{{line.text}}</span>
+                    {% endfor %}
+                </h1>
+                {% else %}
+                <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+                    {{page.jumbotron.title}}
+                </h1>
+                {% endif %}
+            {% elsif page.title %}
+            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+                {{page.title}}
+            </h1>
+            {% else %}
+            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+                {{site.title}}
+            </h1>
+            {% endif %}
+
+            {% if page.jumbotron.description %}
+            <p class="center-block {% if page.jumbotron.animation == "fade" %}fade-in-two{% endif %}
+             {% if page.jumbotron.description-class %} {{page.jumbotron.description-class}} {% endif%}"
+                id="jumbotron-sub-title">
+                {{page.jumbotron.description}}
+            </p>
+            {% elsif page.description %}
+            <p class="center-block {% if page.jumbotron.animation == "fade" %}fade-in-two{% endif %} 
+            {% if page.jumbotron.description-class %} {{page.jumbotron.description-class}} {% endif%} "
+                id="jumbotron-sub-title">
+                {{page.description}}
+            </p>
+            {% endif %}
+        </div><!-- End Jumbotron Container Div -->
+    </div>
+    <!--End Jumbotron div -->
+    <!-- <div class="big-triangle"></div> -->
+</div>
+<!--row -->
+<div class="row" id="content-container">
+    <div class="container text-center">
+<div class="col-xs-12 p-b-40 about-section">
+{% if page.bio %}
+<h3>About {{page.name}} ({{page.job-title}} / {{page.company}})</h3>
+{{page.bio | markdownify }}
+{% endif %}
+{% if page.ask-me-about %}
+<h3>Ask me about</h3>
+{{page.ask-me-about | markdownify }}
+{% endif  %}
+</div>
+    </div>
+
+</div>

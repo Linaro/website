@@ -29,7 +29,7 @@ wordpress_id: 1148
 
 [FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](https://developer.android.com/about/versions/android-4.0-highlights.html) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
 
-FXI said in it's announcement it leveraged the [Linaro](/) for Arm open software and tools and leveraged its access to the [Arm Mali Graphics software development ecosystem](http://www.malideveloper.com/).
+FXI said in it's announcement it leveraged the [Linaro](/) for Arm open software and tools and leveraged its access to the [Arm Mali Graphics software development ecosystem](https://developer.arm.com/tools-and-software/graphics-and-gaming).
 
 “FXI engineers used the pre-integrated and tested Android ICS and Ubuntu images from the Linaro platform team as a base in developing support for two new operating systems on Cotton Candy. They also got support from the platform team on the #linaro and #linaro-android IRC channels on Freenode," said Alexander Sack, Platform Technical Director at Linaro in the announcement.  "FXI has demonstrated how Linaro's work can be leveraged effectively to develop real products rapidly and reliably."
 
