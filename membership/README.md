@@ -110,7 +110,7 @@ jumbotron:
             {% assign boards-members = "" | split: ',' %}
 
             {% for each in site.data.members %}
-                {% if each.id != "boards-ai" and each.id != "boards-mezzanine" and each.id != "boards-mp" and each.id != "boards-sc" %}
+                {% if each.id != "boards-ai" and each.id != "boards-partner" and each.id != "boards-mp" and each.id != "boards-sc" %}
                     {% for member in each.members %}
                         {% unless linaro-members contains member %}
                             {% assign linaro-members = linaro-members | push: member %}
