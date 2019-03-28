@@ -41,11 +41,6 @@
                 "url": "/membership/zte/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/spreadtrum.jpg",
-                "name": "Spreadtrum",
-                "url": "/membership/spreadtrum/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "url": "/membership/socionext/"
@@ -97,11 +92,6 @@
                 "image": "https://static.linaro.org/common/member-logos/comcast.jpg",
                 "name": "Comcast",
                 "url": "/membership/comcast/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/spreadtrum.jpg",
-                "name": "Spreadtrum",
-                "url": "/membership/spreadtrum/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
@@ -365,11 +355,6 @@
                 "url": "/membership/zte/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/spreadtrum.jpg",
-                "name": "Spreadtrum",
-                "url": "/membership/spreadtrum/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "url": "/membership/socionext/"
@@ -428,11 +413,6 @@
                 "url": "/membership/zte/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/spreadtrum.jpg",
-                "name": "Spreadtrum",
-                "url": "/membership/spreadtrum/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/cypress.jpg",
                 "name": "Cypress",
                 "url": "/membership/cypress/"
@@ -485,11 +465,6 @@
                 "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
                 "name": "NXP",
                 "url": "/membership/nxp/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/spreadtrum.jpg",
-                "name": "Spreadtrum",
-                "url": "/membership/spreadtrum/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
