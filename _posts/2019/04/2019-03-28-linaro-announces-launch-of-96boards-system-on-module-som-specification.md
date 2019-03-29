@@ -26,11 +26,40 @@ Today two 96Boards SOM specifications have been launched - the Compute Module Sp
 
 - The Compute Module Specification defines a SOM with generic module-to-carrier board interface, independent of the specific SoC choice on the module. The Compute module addresses the application requirements of segments including industrial automation, smart devices, gateway systems, automotive, medical, robotics and retail POS systems.  
 
-Two form factors are defined as SOM-CA and SOM-CB with a maximum of four 100 pin Connectors. The X1 connector is mandatory on all SOMs. The defined interfaces are shown in the table below.
+Two form factors are defined as __SOM-CA__ and __SOM-CB__ with a maximum of four 100 pin Connectors. The X1 connector is mandatory on all SOMs. The defined interfaces are shown in the table below.
+
+<div class="double-scroll" markdown="1">
+
+| Feature | X1 | X2 | X3 | X4 |
+|:---:|:------:|:--:|:-:|:---:|
+| SOM Management | 1 | | |
+| UART | 1 | | | 2 |
+| I2C | 2 | | | 2 |
+| I2S |  | 1+1(mux with PCIe) | | 1(mux with SATA) |
+| GPIO |  | 6(mux with Analog Audio) | 7 | 7(mux with ADC/SPI) |
+| SD | 1 | | | 1(mux with UHS-II) |
+| SPI | 2 | | | 2 |
+| CAN | 1 | | | 2(1 mux ) |
+| MIPI CSI |  |1(mux with DSI) |4(1 mux with DSI) | |
+| MIPI DSI | 1(DSI/eDP/LVDS mux) |1(mux with CSI) | 1(mux with CSI) | |
+| MIPI Audio (SLIMbus, SoundWire) | |1(mux with DSI/CSI) | | |
+| Ethernet | |1|1| |
+| PCIe | |1 (x4)||1 (x4) |
+| USB (2.0) OTG/HOST |2 |1 ||1|
+| USB (2.0/3.0) HOST | 1 |1 (Device) ||1|
+| SmartCard| |1(mux with PCIe) | | |
+| HDMI| || 1 | |
+| SATA | | 1 | |1(mux with I2S) |
+| eDP | 1(DSI/eDP/LVDS mux)|  | | |
+| LVDS | 1(DSI/eDP/LVDS mux) |  | | |
+
+</div>
 
 - The Wireless specification designs a SOM for interchangeable wireless module applications, supporting standard and/or proprietary wireless standards such as 802.15.4, BLE, WiFi, LoRa, NB-IoT, LTE-M etc. The specification is designed to enable evolution that will support multiple products and future wireless standards.  
   
 The two form factors are defined as __SOM-WA/SOM-WB__ with the below pinouts to the specification.
+
+<div class="double-scroll" markdown="1">
 
 | Pin | Signal |I/O | |I/O | Signal | Pin |
 |:---:|:------:|:--:|:-:|:---:|:----:|:---:|
@@ -44,6 +73,8 @@ The two form factors are defined as __SOM-WA/SOM-WB__ with the below pinouts to 
 |8|GPIO8/I2C0_SCL/SPI_SCLK/SD_SCLK| I/O | | I/O |GPIO13/SWCLK | 13|
 |9|RESET| I | | I/O |GPIO12/SWDIO | 12|
 |10|GND| | |  |VDD | 11|
+
+</div>
 
 With the publication of the specifications, Linaro is also launching two 96Boards Compute SOM designs with Rockchip and Beiqicloud - TB-96AI and TB-96AIoT - and a 96Boards SOM Carrier Board.  TB-96AI features the latest high-performance AI processing chip RK3399Pro while the TB-96AIoT is equipped with the RK1808 AIoT chip with ultra low power consumption. The 96Boards Compute SOM designs are available for purchase today from [Beiqicloud.com](http://beiqicloud.com).
 
