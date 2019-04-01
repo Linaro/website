@@ -5,7 +5,7 @@ author: linaro
 layout: post
 date: 2019-03-28 07:00:00
 description: >-
-   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member. 
+   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.
 categories:
   - News
 tags:
