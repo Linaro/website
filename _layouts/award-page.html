@@ -61,11 +61,15 @@ css-package: blog
 <!--row -->
 <div class="row" id="content-container">
     <div class="container text-center">
-<div class="col-xs-12 about-section">
-<h3>About {{page.name}} ({{page.job-title}} / {{page.company}})</h3>
+<div class="col-xs-12 p-b-40 about-section">
 {% if page.bio %}
+<h3>About {{page.name}} ({{page.job-title}} / {{page.company}})</h3>
 {{page.bio | markdownify }}
 {% endif %}
+{% if page.ask-me-about %}
+<h3>Ask me about</h3>
+{{page.ask-me-about | markdownify }}
+{% endif  %}
 </div>
     </div>
 
