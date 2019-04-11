@@ -125,6 +125,9 @@ jumbotron:
     <div class="col-sm-6 text-col">
         <div class="text-block">
             <h3>Looking for an internship?</h3>
+            <p>
+                <a href="mailto:interns@linaro.org">interns@linaro.org</a>
+            </p>
             <div class="owl-carousel owl-theme careers-carousel">
                 <div class="activity-block item">
                     <p class="responsive-text ">
