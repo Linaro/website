@@ -52,7 +52,7 @@ There was discussion of Fengguan Wu’s 0-day test infrastructure at Intel, whic
 
 The next topic concerned some of the scheduler’s statistics: task & cpu utilization, compute capacity and load tracking. Much of the early discussion centered around renaming variables, which first required everyone in the room to get on the same page as to their meaning and then to agree on how to use them. Not a small task.
 
-It seemed that various attendees have [out-of-tree code that](https://www.codeaurora.org/cgit/quic/la/kernel/msm-3.10/tree/?h=msm-3.10) used some of the scheduler’s statistics in different and conflicting ways. Some of these may in time be proposed for upstream acceptance on the mailing list while others will remain out of tree forever.
+It seemed that various attendees have [out-of-tree code that](https://source.codeaurora.org/quic/la/kernel/msm-3.10/tree/?h=msm-3.10) used some of the scheduler’s statistics in different and conflicting ways. Some of these may in time be proposed for upstream acceptance on the mailing list while others will remain out of tree forever.
 
 A recurring theme was the difficulty in knowing what to do once a cpu is fully utilized. The statistics often cannot help you as much here, since you do not know know how over-utilized the cpu is. You only know that it is indeed fully utilized.
 
