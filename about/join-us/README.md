@@ -205,7 +205,7 @@ jumbotron:
     <div class="col-sm-6 no-padding video-col">
         <div class="media-block puzzle lazyload" data-bg="/assets/images/content/internship-brochure-cover.png">
             <div class=" text-center">
-                <a href="/assets/downloads/Linaro_Interns.pdf" 
+                <a href="https://linaro.co/linaro-interns-brochure" 
                 class="btn btn-careers ">View Internship Brochure</a>
             </div>
         </div>
