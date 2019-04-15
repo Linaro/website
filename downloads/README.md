@@ -78,18 +78,6 @@ jumbotron:
 </div>
 <div class="col-sm-4 flex-container download-col">
     <div class="download-block">
-        <h3>Linaro Stable Kernel (LSK)</h3>
-        <div class="download-block-content flex-center">
-        <p>
-            The LSK is a version of kernel.org’s Long-Term Stable (LTS) release with new Linaro developed optimizations and Arm support integrated. There are two versions: a “Core” version for generic Linux and an “Android” version.
-        </p>
-        </div>
-        <a href="https://git.linaro.org/kernel/linux-linaro-stable.git/" class="btn btn-primary">View Git</a>
-        <a href="https://wiki.linaro.org/LSK" class="btn btn-primary">View Wiki</a>
-    </div>
-</div>
-<div class="col-sm-4 flex-container download-col">
-    <div class="download-block">
         <h3>LCR</h3>
         <div class="download-block-content flex-center">
         <p>
@@ -109,21 +97,6 @@ jumbotron:
         </p>
         </div>
         <a href="https://releases.linaro.org/components/lava/latest/" class="btn btn-primary">View Downloads</a>
-    </div>
-</div>
-<div class="col-sm-4 flex-container download-col">
-    <div class="download-block">
-        <div class="download-block-content flex-center">
-        <h3>OpenDataPlane</h3>
-        <p>
-            The OpenDataPlane API has two implementations currently supported:
-            <ul>
-                <li>Functional reference model that runs on any linux implementation <a href="https://git.linaro.org/lng/odp.git">(odp-linux-generic)</a></li>
-                <li>Performance implementation build for x86 using the DPDK SDK. <a href="https://git.linaro.org/lng/odp-dpdk.git">(odp-dpdk)</a></li>
-            </ul>
-        </p>
-        </div>
-        <a href="https://opendataplane.org" class="btn btn-primary">View Website</a>
     </div>
 </div>
 
