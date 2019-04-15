@@ -126,7 +126,7 @@ jumbotron:
         <div class="text-block">
             <h3>Looking for an internship?</h3>
             <p>
-                <a href="mailto:interns@linaro.org">interns@linaro.org</a>
+                <a href="mailto:intern@linaro.org">intern@linaro.org</a>
             </p>
             <div class="owl-carousel owl-theme careers-carousel">
                 <div class="activity-block item">
