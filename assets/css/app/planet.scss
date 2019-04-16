@@ -67,6 +67,10 @@ span.fa.fa-external-link {
    content: "\e114";
    float: right;
    transition: all 0.5s;
+   opacity: 1;
+   @media(min-width: $screen-sm-min){
+     opacity: 0;
+   }
 }
 .panel-heading.active a:before {
 	-webkit-transform: rotate(180deg);
