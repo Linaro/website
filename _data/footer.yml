@@ -33,8 +33,8 @@ columns:
           url: /engineering/machine-intelligence/
         - text: High Performance Computing
           url: /engineering/high-performance-computing/     
-        - text: Upstream Projects
-          url: /engineering/projects/
+        # - text: Upstream Projects
+        #   url: /engineering/projects/
     - title: Downloads
       url: "/downloads/"
       items:
