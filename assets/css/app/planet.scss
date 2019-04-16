@@ -29,6 +29,7 @@ img#loader {
 }
 #feed .panel-body {
     padding: 10px;
+    word-break: break-word;
 }
 @media (min-width: $screen-sm-min) {
   .collapse.dont-collapse-sm {
