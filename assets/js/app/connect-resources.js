@@ -10,7 +10,7 @@ var connectJSONSources = []
 var connect_sources = [
     "https://connect.linaro.org/assets/json/connects.json"
 ];
-var current_connect_with_resources = "YVR18";
+var current_connect_with_resources = "BKK19";
 
 // Get the connects.json file then pa.titlerse and loop through each connect adding the jsonp script
 function getConnectsJSON(connectsJSON){
