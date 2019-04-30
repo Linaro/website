@@ -169,12 +169,6 @@
         "url": "/membership/"
     },
     {
-        "id": "odp-sig",
-        "membership_group_name": "ODP SIG Members",
-        "text": "Companies interested in working together on an open-source, cross-platform set of application programming interfaces (APIs) for the networking software defined data plane are invited to contact Linaro with the form below.",
-        "url": "/membership/"
-    },
-    {
         "id": "ledge-sig",
         "members": [
             {
