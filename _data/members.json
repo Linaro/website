@@ -169,12 +169,6 @@
         "url": "/membership/"
     },
     {
-        "id": "odp-sig",
-        "membership_group_name": "ODP SIG Members",
-        "text": "Companies interested in working together on an open-source, cross-platform set of application programming interfaces (APIs) for the networking software defined data plane are invited to contact Linaro with the form below.",
-        "url": "/membership/"
-    },
-    {
         "id": "ledge-sig",
         "members": [
             {
@@ -693,16 +687,6 @@
                 "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
                 "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
                 "url": "/membership/neucore/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
-                "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
-                "url": "/membership/robosense/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/leishen.jpg",
-                "name": "LeiShen Intelligent System",
-                "url": "/membership/leishen/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
@@ -721,6 +705,11 @@
                 "image": "https://static.linaro.org/common/member-logos/rohm.jpg",
                 "name": "ROHM",
                 "url": "/membership/rohm/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/robosense.jpg",
+                "name": "RoboSense (Suteng Innovation Technology Co. Ltd)",
+                "url": "/membership/robosense/"
             }
         ],
         "membership_group_name": "96Boards Partners",

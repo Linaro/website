@@ -57,7 +57,7 @@ function addLatestNewsAndBlogs(jsonData, number_of_items){
             textEnd = "...";
         }
         listElements += '<a target="_self" href="' + post.url +'">';
-        listElements += '<li class="list-group-item fly">';
+        listElements += '<li class="list-group-item">';
         listElements += '<span class="post-title">' + post.title.substring(0, 40) + textEnd + '</span>';
         listElements += '<span class="post-date">' + formatDate(Date.parse(extractDateString(post.date_published)))  + '</span>';
         listElements += '<span class="post-site"><img class="img-responsive" src="'+ site_image + '"/></span>';
@@ -75,12 +75,6 @@ $(document).ready(function () {
         // Loop through the sources and the separate script elements.
         for(i=0; i < sources.length; i++)
         {
-            // $.get(sources[i], function (jsonResponse){
-            //     console.log(jsonResponse);
-            //     jsonData = JSON.parse(jsonResponse);
-            //     console.log("Parsed: " + jsonData);
-            //     allJSONData = allJSONData.concat(jsonData);
-            // });
             $.ajax({
                 url: sources[i],
                 dataType: 'json',

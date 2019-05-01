@@ -8,7 +8,7 @@ function addProjectsData(sorted_data, number_of_items){
     var listElements = '';
     for(var i=0;i<number_of_items;i++){
         project = sorted_data[i];
-        listElements += '<li class="list-group-item fly">';
+        listElements += '<li class="list-group-item">';
         listElements += '<span class="project-title">' + project.name + '</span>';
         listElements += '<span class="project-stats">' + project.acceptedPatches  + '</span>';
         listElements += '</li>';

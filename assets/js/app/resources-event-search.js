@@ -64,7 +64,7 @@ function listResults(json_data) {
         interpolate : /\{\{(.+?)\}\}/g
     };  
     // Specify a new html _.template
-    var listItemTemplate = _.template('<tr class="fly"><td>{{resource_title}}</td><td>{{resource_summary}}</td><td>{{resource_tracks}}</td><td>{{resource_event}}</td><td>{{resource_speakers}}</td><td>{{resource_resources}}</td><td><a href="{{resource_url}}">View Resource</a></td></tr>');
+    var listItemTemplate = _.template('<tr class=""><td>{{resource_title}}</td><td>{{resource_summary}}</td><td>{{resource_tracks}}</td><td>{{resource_event}}</td><td>{{resource_speakers}}</td><td>{{resource_resources}}</td><td><a href="{{resource_url}}">View Resource</a></td></tr>');
     // Get the search query val which we are searching for.
     var search = $('#search-query').val();
     // Fuzzy search options
@@ -145,7 +145,7 @@ function addConnectResources(results_data, number_of_items){
             tableRow += '<tr>';
         }
         else{
-            tableRow += '<tr class="fly">';
+            tableRow += '<tr class="">';
         }
         
         
