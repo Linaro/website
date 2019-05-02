@@ -794,3 +794,53 @@ div#connect {
 #jumbotron-slider .slide-title {
     max-width: 670px;
 }
+
+
+// New Homepage
+span.highlighted-characters {
+    color: #be5eba;
+}
+.animated-heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align:center;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+// Nav Bar SVG Base Style 
+#animated_logo .cls-1 {
+    fill: none;
+}
+#animated_logo .cls-2 {
+    fill: #666;
+}
+#animated_logo .cls-3 {
+    fill: #9c3;
+}
+#animated_logo .cls-8 {
+    fill: #9c3;
+}
+#animated_logo .cls-4,
+#animated_logo .cls-5 {
+    fill: #c03;
+}
+#animated_logo .cls-5 {
+    opacity: 0.6;
+}
+#animated_logo .cls-6,
+#animated_logo .cls-7 {
+    fill: #909;
+}
+#animated_logo .cls-7,
+#animated_logo .cls-8 {
+    opacity: 0.7;
+}
+.sprinkle-block {
+    display: none;
+}
+#animated_logo .cls-2 {
+    display:none;
+}
+.sprinkle-foundation-block {
+    display:none;
+}
+
