@@ -17,6 +17,8 @@ tags:
 - Linaro
 - Linux
 - Linux on Arm
+- Android
+- System Service
 title: 'Adding A New System Service To Android 5: Tips and How To'
 wordpress_id: 9019
 ---
@@ -32,10 +34,9 @@ I’m going to call this project _joffee_ for no particular reason (Java Coffee?
 
 Code for this example will be hosted in the following github repositories:
 
-_framework/base --_ [_https://github.com/jmondi/framework_base_joffee_]()https://github.com/jmondi/framework_base_joffee
+_framework/base --_ [https://github.com/tswindell/framework_base_joffee](https://github.com/tswindell/framework_base_joffee)
 
-
-_HAL --_ [_https://github.com/jmondi/hardware_joffee_]()https://github.com/jmondi/hardware_joffee
+_HAL --_ [https://github.com/lightydo/hardware_joffee](https://github.com/lightydo/hardware_joffee)
 
 ### **Pre:**
 
@@ -65,11 +66,88 @@ Also, “Appendix A” of _Embedded Android_ provides an in-depth analysis of HA
 
 Even if you are expected to know what a HAL object is and what it does, it is interesting to spend a few word on HAL loading mechanism, and how you should make your HAL object available to the rest of Android system, but first, lets’ take a look at the three components we need here:
 
-_Android.mk --_ [_https://github.com/jmondi/hardware_joffee/blob/master/Android.mk_]()https://github.com/jmondi/hardware_joffee/blob/master/Android.mk
+_Android.mk --_ [https://github.com/lightydo/hardware_joffee/blob/master/Android.mk](https://github.com/lightydo/hardware_joffee/blob/master/Android.mk)
+
+```makefile
+
+# Copyright (C) 2012 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+	joffee.cpp
+
+LOCAL_MODULE_RELATIVE_PATH := hw
+
+LOCAL_MODULE := joffee.$(TARGET_BOARD_PLATFORM)
+
+LOCAL_MODULE_TAGS := optional
+
+include $(BUILD_SHARED_LIBRARY)
+```
+
 
 The make target for our HAL is pretty simple; it instructs the build system on where to put the resulting .so object (_system/lib/hw)_ and that we want to append the target hardware name to the library name (_joffee.tegra.so_ in our case). Everything else is pretty straightforward!
 
-_joffee.h --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.h]()https://github.com/jmondi/hardware_joffee/blob/master/joffee.h
+_joffee.h --_ [https://github.com/lightydo/hardware_joffee/blob/master/joffee.h](https://github.com/lightydo/hardware_joffee/blob/master/joffee.h)
+
+
+```cpp
+/*
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+#ifndef __ANDROID_JOFFEE_HW_INTERFACE__
+#define __ANDROID_JOFFEE_HW_INTERFACE__
+
+#include <stdint.h>
+#include <sys/cdefs.h>
+#include <sys/types.h>
+
+#include <hardware/hardware.h>
+
+__BEGIN_DECLS
+#define JOFFEE_HARDWARE_MODULE_ID "joffee"
+/**
+ * The joffee device description structure;
+ * First field must be the hw_device_t field;
+ * Other fields can be function pointers and othe exported fields
+ */
+struct joffee_device_t {
+  /* Will be used in HAL open method */
+  struct hw_device_t common;
+
+  /* Pointers to your HAL functions */
+  int (*joffee_function)(void);
+};
+__END_DECLS
+#endif //__ANDROID_JOFFEE_HW_INTERFACE__
+
+```
 
 The header represents the “contract” between the JNI/Java part of Android system with the HW specific part (the HAL). Respecting this “contract” guarantees that Android can run on every hardware for which the proper set of HALs have been implemented with little or no modifications (that’s the theory, at least).
 
@@ -79,7 +157,110 @@ The first field of this structure (_struct joffee_device_t_ in our example) has 
 
 Let’s see why, in the actual HAL implementation:
 
-_joffee.cpp --_ [https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp]()https://github.com/jmondi/hardware_joffee/blob/master/joffee.cpp
+_joffee.cpp --_ [https://github.com/lightydo/hardware_joffee/blob/master/joffee.cpp](https://github.com/lightydo/hardware_joffee/blob/master/joffee.cpp)
+
+```c++
+/*
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+/**
+ * @file   joffee.cpp
+ * @brief  Implements Joffee's HW abstraction layer
+ */
+#include <stdint.h>
+#include <string.h>
+#include <unistd.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <cutils/log.h>
+
+#include <joffee.h>
+#define TAG "JOFFEE!"
+/**
+ * The function(s) exported by this HAL
+ */
+int joffee_function_impl(){
+  ALOGE(TAG, "Hello Android!!\n");
+  /* Here you should interface with your HW devices... */
+
+  return 0;
+}
+
+/** This is mandatory, and part of hw_device_t */
+int close_joffee(hw_device_t* hw_dev) {
+  //TODO
+  return 0;
+}
+/**
+ * A pointer to this method is stored in
+ * hw_module_method_t.open;
+ *
+ * Once JNI loads the hw_module_method_t symbol, it
+ * can call this function and "open" the HAL layer
+ * receiving pointers to this module's additional methods
+ */
+
+static int open_joffee(const struct hw_module_t *module,
+                       char const *name, struct hw_device_t **device) {
+  struct joffee_device_t *dev = (struct joffee_device_t *)
+    malloc(sizeof(*dev));
+
+  if (NULL == dev) {
+    ALOGE(TAG, "Unable to reserve memory for joffee: %s\n",
+        strerror(errno));
+        return -ENOMEM;
+  }
+
+  /* Store pointer to HAL function(s) */
+  dev->joffee_function = joffee_function_impl;
+
+  /* Initialize common fields */
+  dev->common.tag = HARDWARE_DEVICE_TAG;
+  dev->common.version = 0;
+  dev->common.module = (struct hw_module_t *)module;
+  dev->common.close = close_joffee;
+
+  /* Store this module's structure in the output parameter 'device' */
+  /* Remember the first field of your HAL device must be an hw_device_t */
+  *device = (struct hw_device_t *)dev;
+  return 0;
+}
+/*
+ * The Joffee HAL description
+ * Will be loaded using libhardware
+ */
+static struct hw_module_methods_t joffee_methods =
+{
+  .open =  open_joffee,
+};
+
+struct hw_module_t HAL_MODULE_INFO_SYM =
+{
+  .tag = HARDWARE_MODULE_TAG,
+  .version_major = 0,
+  .version_minor = 1,
+  .id = JOFFEE_HARDWARE_MODULE_ID,
+  .name = "Joffee HAL",
+  .author = "Linaro",
+  .methods = &joffee_methods,
+};
+
+
+```
 
 This cpp (or C) module is the actual HAL implementation, where methods for accessing your hardware have to be implemented. We know that the resulting .so will be placed somewhere in _system/lib/hw,_ but how is loading of this specific object performed in Android?
 
@@ -105,13 +286,13 @@ We’ll start our new service from the bottom, that is the connection between th
 
 Each service that communicates with an HAL needs a way to interface to native code, and the Java programming language provides a tool which allows native code to be executed from Java programs (and the other way around).
 
-The path of the JNI service directory is then -- [_frameworks/base/services/core/jni/_]()https://github.com/jmondi/framework_base_joffee/tree/master/services/core/jni
+The path of the JNI service directory is then -- [_frameworks/base/services/core/jni/_](https://github.com/tswindell/framework_base_joffee/tree/master/services/core/jni)
 
 where a series of cpp files, named with naming scheme resembling the service packages they are loaded by is present.
 
 We are going to implement the _JoffeeService_ service, thus out JNI file will be called _com_android_server_joffeeService.cpp_
 
-[https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp]()https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp
+[https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/com_android_server_joffeeService.cpp)
 
 We are exposing here two functions, one called at service startup and one that wraps the HAL method we want to use from Java.
 
@@ -119,7 +300,7 @@ In the init method we see the HAL loading mechanism in action, as it has been de
 
 The HAL object gets loaded, then, once we do have a pointer to its _open_ method, the _joffee_device_t_ structure gets filled with pointers to the HAL functions, so we can call them knowing the ‘contract’ specified by the header file _joffee.h;_
 
-We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify _[services/core/jni/Android.mk]()_ https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/Android.mk to add the new JNI source file and _[services/core/jni/onload.cpp]()_ https://github.com/jmondi/framework_base_joffee/blob/master/services/core/jni/onload.cpp to call the method table registration.
+We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify _[services/core/jni/Android.mk](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/Android.mk)_ to add the new JNI source file and _[services/core/jni/onload.cpp](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/onload.cpp)_ to call the method table registration.
 
 * * *
 
@@ -177,13 +358,13 @@ Android provides a set of tools which generates the necessary plumbing to connec
 
 Let’s start with I_JoffeeService.aidl_
 
-[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl]()https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl
+[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl](https://github.com/tswindell/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl)
 
 Interfaces get defined in the application facing part of the system, because they have to be visible to managers and application, we have prepared a directory for our interface in
 
-_[frameworks/base/core/java/android/joffee/]()_ https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee and modified the[ Android.mk]()https://github.com/jmondi/framework_base_joffee/blob/master/Android.mk accordingly.
+_[frameworks/base/core/java/android/joffee/](https://github.com/tswindell/framework_base_joffee/tree/master/core/java/android/joffee)_ and modified the[ Android.mk](https://github.com/tswindell/framework_base_joffee/blob/master/Android.mk) accordingly.
 
-Once we have defined an AIDL we have to implement the “real” service which will realize the above defined interface. Services are the “right” side of the Binder and reside in [_frameworks/base/services/core/java/com/android/server_]()https://github.com/jmondi/framework_base_joffee/tree/master/services/core/java/com/android/server/joffee Again we have prepared there a directory here to host our joffee service.
+Once we have defined an AIDL we have to implement the “real” service which will realize the above defined interface. Services are the “right” side of the Binder and reside in [_frameworks/base/services/core/java/com/android/server_](https://github.com/tswindell/framework_base_joffee/tree/master/services/core/java/com/android/server/joffee) Again we have prepared there a directory here to host our joffee service.
 
 Let’s start from the basic here; since Android services are all started by the main system service, they have to extend the same super class, which is, with no surprise, _SystemService._
 
@@ -237,7 +418,7 @@ Now it is time to implement the AIDL interface in the _IBinder_ object we have p
 
 Since the interface is trivial, the implementation will also be very simple:
 
-```
+```java
     private final IBinder mService = new IJoffeeService.Stub {
 
        public void callJoffeeMethod() {
@@ -275,10 +456,10 @@ Associated with each service, there usually is a so-called Manager (services are
 Our manager will use the remote services interface, and will not do anything particularly useful. In “real” use cases, managers take care of delivering notifications, filtering intents, and check permissions. In some cases managers tie directly into jni when HW access is performed directly from Java (eg. USB device)
 
 
-Manager will be placed in -- _[frameworks/base/core/java/android/joffee]()_ https://github.com/jmondi/framework_base_joffee/tree/master/core/java/android/joffee in the _android.joffee_ package, where we put the AIDL interface of our service;
+Manager will be placed in -- _[frameworks/base/core/java/android/joffee](https://github.com/tswindell/framework_base_joffee/tree/master/core/java/android/joffee)_ in the _android.joffee_ package, where we put the AIDL interface of our service;
 
 Implementation is trivial, as the service exposes a single method, which we wrap in what will become part of our new system API
-[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java]() https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java
+[https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java](https://github.com/tswindell/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java)
 
 
 The implementation also contains some pointers to how you can _hide_ methods from appearing in the public SDK using decorators and JavaDoc, take a look at other managers to see how they use them.
@@ -303,7 +484,7 @@ _Again, have a look at input or USB managers to see how you can define and regis
 
 Once we have implemented both managers and service, we need a way to retrieve them from application, and start calling their methods.  The default way to retrieve a manager instance is to use the _getSystemService_ method, providing the right identifier.
 
-We need to register in the execution context our new service and our manager in order to be able to retrieve them later, and we have to do that in [_frameworks/base/core/java/android/app/ContextImpl.java_]() https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/app/ContextImpl.java
+We need to register in the execution context our new service and our manager in order to be able to retrieve them later, and we have to do that in [_frameworks/base/core/java/android/app/ContextImpl.java_](https://github.com/tswindell/framework_base_joffee/blob/master/core/java/android/app/ContextImpl.java)
 
 ```java
 
@@ -354,25 +535,30 @@ _$ mmm frameworks/base_
 
 Let’s now deploy all our pieces onto the real target
 
-_$ adb remount_
+```bash
+adb remount
 
-_$ mmm hardware/joffee/_
-_$ adb push out/target/product/jetson/system/lib/hw/joffee.tegra.so system/lib/hw/_
+mmm hardware/joffee/
+adb push out/target/product/jetson/system/lib/hw/joffee.tegra.so system/lib/hw/
 
-_$ mmm frameworks/base/_
-_$ adb push out/target/product/jetson/system/framework/framework.jar system/framework/_
+mmm frameworks/base/
+adb push out/target/product/jetson/system/framework/framework.jar system/framework/
 
-_$ mmm frameworks/base/services_
-_$ adb push out/target/product/jetson/system/framework/services.jar system/framework/_
-_$ adb push out/target/product/jetson/system/lib/libandroid_servers.so system/lib/_
+mmm frameworks/base/services
+adb push out/target/product/jetson/system/framework/services.jar system/framework/
+adb push out/target/product/jetson/system/lib/libandroid_servers.so system/lib/
 
-_$ adb reboot_
-
+adb reboot
+```
 And make Android studio point to your newly build SDK (File->Project Structure -> SDK Location) to test our new API
 
-_$ make update-api_
-_$ make sdk_
-_$ cp -r out/host/linux-x86/sdk/jetson/android-sdk_eng.jmondi_linux-x86 ~/Android/Sdk_Joffee/_
+```bash
+
+make update-api
+make sdk
+cp -r out/host/linux-x86/sdk/jetson/android-sdk_eng.jmondi_linux-x86 ~/Android/Sdk_Joffee/
+
+```
 
 Now we can test our implementation with the simplest possible application
 
