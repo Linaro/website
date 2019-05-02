@@ -824,15 +824,15 @@ div#connect {
     opacity: 0.7;
 }
 
-.animated-heading
+#wrapper .animated-heading
 {
-  position:relative;
-  font-size: 40px;
+  position:relative !important;
+  font-size: 40px !important;
   @media(max-width:$screen-sm-min){
-     font-size: 30px;
+     font-size: 30px !important;
   }
 }
-.os-heading-translated{
+#wrapper .os-heading-translated{
   right:100%;
   transform: translateX(80px);
   @media(max-width: $screen-sm-min){
@@ -845,7 +845,7 @@ div#connect {
 .disappear-text{
   opacity: 1;
 }
-.lower{
+#wrapper .lower{
   text-transform: lowercase;
 }
 #animated_logo {
@@ -854,10 +854,10 @@ div#connect {
   top: -80px;
   position: relative;
 }
-.linux-heading-translated{
+#wrapper .linux-heading-translated{
     left: 100%;
     transform: translateX(-10px);
-    @media(max-width: 1000px){
+    @media(max-width: $screen-sm-min){
       transform: translateX(0);
     }
 }
