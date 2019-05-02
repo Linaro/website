@@ -214,6 +214,7 @@
     "^/linaro-blog/feed/rss(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/linaro-blog/rss(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/linaro-blog/2011/05/28/linaro-11-05-released/index.html$ /blog/linaro-11-05-released/ [R,L,NC]",
+    "^/linaro-blog/2011/11/30/a-case-for-open-source-gpu-drivers/index.html$ /blog/a-case-for-open-source-gpu-drivers/ [R,L,NC]",
     "^/linaro-blog/(.*)$ /blog/$1 [R,L,NC]",
     "^/linaro-careers(/?|/index.html)$ /careers/ [R,L,NC]",
     "^/linaro-completes-first-year-with-demonstrations-of-linaro-evaluation-builds-for-android-and-ubuntu-and-introduction-of-new-partner-program(/?|/index.html)$ /news/linaro-completes-first-year-demonstrations-linaro-evaluation-builds-android-ubuntu-introduction-new-partner-program/ [R,L,NC]",
