@@ -796,17 +796,6 @@ div#connect {
 }
 
 
-// New Homepage
-span.highlighted-characters {
-    color: #be5eba;
-}
-.animated-heading {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align:center;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-// Nav Bar SVG Base Style 
 #animated_logo .cls-1 {
     fill: none;
 }
@@ -834,13 +823,48 @@ span.highlighted-characters {
 #animated_logo .cls-8 {
     opacity: 0.7;
 }
-.sprinkle-block {
-    display: none;
-}
-#animated_logo .cls-2 {
-    display:none;
-}
-.sprinkle-foundation-block {
-    display:none;
-}
 
+.animated-heading
+{
+  position:relative;
+  font-size: 40px;
+  @media(max-width:$screen-sm-min){
+     font-size: 30px;
+  }
+}
+.os-heading-translated{
+  right:100%;
+  transform: translateX(80px);
+  @media(max-width: $screen-sm-min){
+    transform: translateX(53px);
+  }
+}
+.disappear-text.hidden{
+  opacity:0;
+}
+.disappear-text{
+  opacity: 1;
+}
+.lower{
+  text-transform: lowercase;
+}
+#animated_logo {
+  opacity: 0;
+  height:100px;
+  top: -80px;
+  position: relative;
+}
+.linux-heading-translated{
+    left: 100%;
+    transform: translateX(-10px);
+    @media(max-width: 1000px){
+      transform: translateX(0);
+    }
+}
+#animated_logo .sprinkle-block {
+  opacity: 0;
+  transform: translateX(40px) scale(0.5);
+}
+.formed-text {
+  transform-origin: bottom left;
+}
