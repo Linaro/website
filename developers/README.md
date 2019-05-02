@@ -87,7 +87,7 @@ If you are working for a silicon provider who needs help upstreaming code to the
 
 **We are constantly working to improve our support channels in Linaro. In addition to our wiki documentation and website we have the following:**
 
-[Linaro Support](http://linaro.zendesk.com/) is the Linaro support site where developers and users can ask and answer questions.
+[Linaro Support](https://support.linaro.org/) is the Linaro support site where developers and users can ask and answer questions.
 
 **Additional Linaro Community Support can be found at:**  
 Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)  
