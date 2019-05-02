@@ -8,15 +8,15 @@ js-package: events-blog
         style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
         <div id="jumbotron-content" class=" flex-container">
             <div class="container flex-center" id="jumbotron-text">
-                <a href="/events/" class="fly btn btn-primary btn-sm all-events">
+                <a href="/events/" class="btn btn-primary btn-sm all-events">
                     <i class="fa fa-angle-left"></i> All Events
                 </a>
-                <h1 class="fly center-block" id="jumbotron-heading">{{page.title}}</h1>
-                <p class="fly center-block" id="jumbotron-sub-title">
+                <h1 class="center-block" id="jumbotron-heading">{{page.title}}</h1>
+                <p class="center-block" id="jumbotron-sub-title">
                     {{page.description}}
                 </p>
                 {% if page.event_url %}
-                <a href="{{page.event_url}}" class="fly btn btn-primary btn-sm">
+                <a href="{{page.event_url}}" class="btn btn-primary btn-sm">
                     View Event Website <i class="fa fa-external-link-square"></i>
                 </a>
                 {% endif %}

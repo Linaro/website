@@ -21,7 +21,7 @@ image:
 ---
 <div class="row padded-row" id="about-services">
     <div class="container">
-<div markdown="1" class="fly">
+<div markdown="1" class="">
 Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced Arm technologies in every segment. Linaro Developer Services make that expertise available to you for use on your project.
 
 Linaro Developer Services are expert software and Linux engineers. Our expertise allows us to support all aspects of your Arm-based product delivery, from helping with initial board bring up, to upstreaming code and maintaining long-term support builds. To read more about all the services we provide, click on the area of interest below.
@@ -30,10 +30,10 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
 </div>
 <div class="row padded-row" id="services">
     <div class="container">
-        <h2 class="text-center fly">Developer Services</h2>
+        <h2 class="text-center ">Developer Services</h2>
         <div class="honeycomb">
             <div class="ibws-fix">
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Security Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Security Services">
                     <div class="hexagontent">
                         <a href="/services/security/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Security.svg" 
@@ -41,7 +41,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Bootloader Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Bootloader Services">
                     <div class="hexagontent">
                         <a href="/services/bootloaders/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_Bootloaders.svg" 
@@ -49,7 +49,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Kernel Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Kernel Services">
                     <div class="hexagontent">
                         <a href="/services/kernel-lts/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_kernels.svg" 
@@ -57,7 +57,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Build Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Build Services">
                     <div class="hexagontent">
                         <a href="/services/bsp-builds-support/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_builds.svg" 
@@ -65,7 +65,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Power Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Power Services">
                     <div class="hexagontent">
                         <a href="/services/power-management/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_power.svg" 
@@ -75,7 +75,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                 </div>
             </div>
             <div class="ibws-fix">
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="96Boards Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="96Boards Services">
                     <div class="hexagontent">
                         <a href="/services/96boards/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_96boards.svg" 
@@ -83,7 +83,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Toolchain Optimization Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Toolchain Optimization Services">
                     <div class="hexagontent">
                         <a href="/services/toolchain-optimization-services/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_toolchain.svg" 
@@ -91,7 +91,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Open Source Consultancy Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Open Source Consultancy Services">
                     <div class="hexagontent">
                         <a href="/services/open-source-consultancy/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_consultancy.svg" 
@@ -99,7 +99,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Testing and Validation Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Testing and Validation Services">
                     <div class="hexagontent">
                         <a href="/services/testing-validation-services/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_validation.svg" 
@@ -107,7 +107,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
                         </a>
                     </div>
                 </div>
-                <div class="hexagon fly" data-toggle="tooltip" data-container="body" data-placement="top" title="Hands on Training Services">
+                <div class="hexagon " data-toggle="tooltip" data-container="body" data-placement="top" title="Hands on Training Services">
                     <div class="hexagontent">
                         <a href="/services/hands-on-training/">
                             <img class="lazyload img-responsive" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/DeveloperServices-icons_training.svg" 
@@ -123,7 +123,7 @@ Linaro Developer Services are expert software and Linux engineers. Our expertise
     <div class="container text-center">
         <h2>Get in Touch.</h2>
         <div class="get-in-touch" id="contact-btn">
-            <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="fly btn btn-primary btn-two">contact@linaro.org</a>
+            <a href="mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services" class="btn btn-primary btn-two">contact@linaro.org</a>
         </div>
     </div>
 </div>

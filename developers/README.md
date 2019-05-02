@@ -74,7 +74,7 @@ If you are working for a silicon provider who needs help upstreaming code to the
 
 **System enablers and developers (software integrators, related hardware developers and OEM/ODMs)**
 
-*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://support.linaro.org/home "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates or Steve Taylor at [contactus@linaro.org](mailto:contactus@linaro.org).
+*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6 "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates at [contact@linaro.org](mailto:contact@linaro.org).
 
 </div>
 
@@ -87,7 +87,7 @@ If you are working for a silicon provider who needs help upstreaming code to the
 
 **We are constantly working to improve our support channels in Linaro. In addition to our wiki documentation and website we have the following:**
 
-[Linaro Support](http://linaro.zendesk.com/) is the Linaro support site where developers and users can ask and answer questions.
+[Linaro Support](https://support.linaro.org/) is the Linaro support site where developers and users can ask and answer questions.
 
 **Additional Linaro Community Support can be found at:**  
 Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)  

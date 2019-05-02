@@ -11,7 +11,7 @@ image:
   featured: true
   path: /assets/images/content/ats-2018.png
 ---
-The [Automated Testing Summit](https://elinux.org/Automated_Testing_Summit) took place on Oct 25th in Scotland. The summit was a full day event that attracted members of the testing community. Unfortunately, it was by invite only hence the recording sponsored by Linaro to help you catch up on the details discussed. While it was invite only, the majority of test systems and frameworks were represented.  
+The [Automated Testing Summit](https://elinux.org/ATS_2018_Minutes) took place on Oct 25th in Scotland. The summit was a full day event that attracted members of the testing community. Unfortunately, it was by invite only hence the recording sponsored by Linaro to help you catch up on the details discussed. While it was invite only, the majority of test systems and frameworks were represented.  
 
 The primary aim of the summit was to develop a common understanding of automated testing and discuss a framework for describing how the different systems should work. At present there is very little coordination between all the different test suites. There is also no forum to share resources and development ideas, nor is there a common definition of test plans or strategies and how to report results. By bringing together the testing community, the hope is to encourage more future collaboration. LWN.net has a good [summary](https://lwn.net/Articles/771782/) of what was discussed and [detailed minutes](https://elinux.org/ATS_2018_Minutes) are also available.
 

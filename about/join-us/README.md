@@ -22,7 +22,7 @@ jumbotron:
 <div class="row careers-welcome" id="content-container">
     <div class="col-sm-6 no-padding video-col">
         <div class="media-block">
-            <div class="fly">
+            <div class="">
                 <div class="wrapper">
                     <div class="youtube" data-embed="nwJJ2uF7MZ4">
                         <div class="play-button"></div>
@@ -32,9 +32,9 @@ jumbotron:
         </div>
     </div>
     <div class="col-sm-6 text-col">
-        <div class="text-block fly">
+        <div class="text-block ">
         <h3>Develop your career alongside world-class open source experts</h3>
-            <p class="responsive-text fly">
+            <p class="responsive-text ">
                 If you have a passion for open source and want to be part of a community, then you belong at Linaro. Linaro offers you the opportunity to advance your career in an outstanding environment for professional growth, all while working alongside a team of world-class open source experts on leading edge technology. Interested in joining? Take a look at our openings listed at the bottom of the page.
             </p>
         </div>
@@ -43,11 +43,11 @@ jumbotron:
 <div class="row" id="careers-about">
         <div class="col-sm-6">
             <h3 class="text-center">Join a global and diverse team</h3>
-            <p class="responsive-text fly">
+            <p class="responsive-text ">
             Linaro has a global presence with employees based in over 25 countries. Every six months the company comes together at <a href="https://connect.linaro.org">Linaro Connect</a> to collaborate on open source technology together with other leading-edge technology companies. Linaro Connect takes place in a new location everytime, in the US, Asia and Europe.
             </p>
         <div class="col-xs-12 col-sm-4 hidden-xs">
-            <ul class="list-group fly show-block">
+            <ul class="list-group  show-block">
                 <li class="list-group-item">Australia</li>
                 <li class="list-group-item">Brazil</li>
                 <li class="list-group-item">Bulgaria</li>
@@ -60,7 +60,7 @@ jumbotron:
             </ul>
         </div>
         <div class="col-xs-12 col-sm-4 hidden-xs">
-            <ul class="list-group fly show-block">
+            <ul class="list-group  show-block">
                 <li class="list-group-item">Greece</li>
                 <li class="list-group-item">India</li>
                 <li class="list-group-item">Italy</li>
@@ -75,7 +75,7 @@ jumbotron:
             </ul>
         </div>
         <div class="col-xs-12 col-sm-4 hidden-xs">
-            <ul class="list-group fly show-block">
+            <ul class="list-group  show-block">
                 <li class="list-group-item">Romania</li>
                 <li class="list-group-item">Russia</li>
                 <li class="list-group-item">Serbia</li>
@@ -90,7 +90,7 @@ jumbotron:
     </div>
         <div class="col-sm-6 no-padding video-col">
         <div class="media-block">
-            <div class="fly">
+            <div class="">
                 <div class="wrapper">
                     <div class="youtube" data-embed="14PXy15RA1Y">
                         <div class="play-button"></div>
@@ -103,19 +103,19 @@ jumbotron:
 <div class="row" id="careers-learning">
     <div class="col-sm-6 no-padding video-col">
         <div class="media-block puzzle lazyload" data-bg="/assets/images/content/careers-puzzle-image.jpg">
-            <div class="fly text-center">
+            <div class=" text-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFvYa337ydUd3HwWHVyectrStanNJgCdZjdnQk9Krui7LWxg/viewform" 
-                class="btn btn-careers fly">Try the Puzzle</a>
+                class="btn btn-careers ">Try the Puzzle</a>
             </div>
         </div>
     </div>
     <div class="col-sm-6 text-col">
         <div class="text-block">
         <h3>Up for a challenge?</h3>
-            <p class="responsive-text fly">
+            <p class="responsive-text ">
                 Linaro challenges you to think outside the box and set yourself targets that make a real impact on the business. If you join Linaro, we will work with you to unleash your potential and help lay the foundations for a meaningful career.
             </p>
-            <p class="responsive-text fly">
+            <p class="responsive-text ">
                 Every Linaro Connect, Dave Pigott, Tech Lead of Linaro’s Lab and Systems Software Group, creates a cryptic puzzle for attendees to solve. Do you have what it takes to work with the experts? Then give the puzzle a go!
             </p>
         </div>
@@ -125,9 +125,12 @@ jumbotron:
     <div class="col-sm-6 text-col">
         <div class="text-block">
             <h3>Looking for an internship?</h3>
+            <p>
+                <a href="mailto:intern@linaro.org">intern@linaro.org</a>
+            </p>
             <div class="owl-carousel owl-theme careers-carousel">
                 <div class="activity-block item">
-                    <p class="responsive-text fly">
+                    <p class="responsive-text ">
                     <blockquote>
                         A little less than a year ago I began my internship with Linaro. This internship was the last
                         thing I had to do before graduating, and those six months were the time where I learned
@@ -152,7 +155,7 @@ jumbotron:
                     </p>
                 </div>
                 <div class="activity-block item">
-                    <p class="responsive-text fly">
+                    <p class="responsive-text ">
                         <blockquote>
                         A year and a half ago, I was an intern at Linaro as a
                         Marketing and Events Assistant. Once my internship
@@ -173,7 +176,7 @@ jumbotron:
                     </p>
                 </div>
                 <div class="activity-block item">
-                    <p class="responsive-text fly">
+                    <p class="responsive-text ">
                         <blockquote>
                         A year ago, I was a Software Engineering Intern at Linaro. Through my internship I was
                         able to find a practical application for the theory I had been learning at University.
@@ -201,9 +204,9 @@ jumbotron:
     </div>
     <div class="col-sm-6 no-padding video-col">
         <div class="media-block puzzle lazyload" data-bg="/assets/images/content/internship-brochure-cover.png">
-            <div class="fly text-center">
-                <a href="/assets/downloads/Linaro_Interns.pdf" 
-                class="btn btn-careers fly">View Internship Brochure</a>
+            <div class=" text-center">
+                <a href="https://linaro.co/linaro-interns-brochure" 
+                class="btn btn-careers ">View Internship Brochure</a>
             </div>
         </div>
     </div>
