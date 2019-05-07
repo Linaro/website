@@ -13,14 +13,10 @@ To maintain separation between long term objectives and nearer term development 
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Guy Berruyer** / Linaro Chairman
-
-Guy assumed the post of Chairman at the Linaro Board meeting held on Thursday 8 October 2015\. Guy is a non-executive director of Meggitt plc since October 2012\. Guy retired from Sage in November 2014 after 4 years as group CEO. He joined Sage in 1997 to run its French operation. He was appointed to the Board of Directors in January 2000 as CEO for its Mainland Europe business and in 2005 also took charge of its Asian operations. Guy succeeded Paul Walker as Group Chief Executive in October 2010.
-
-Prior to joining Sage he was Country Manager and then European Managing Director for Intuit, the US software company. Previously he worked at the French hardware company Groupe Bull where he was a Director of Marketing and Claris as Southern European General Manager. Guy has an MBA from Harvard University and an Engineering degree from “Ecole Polytechnique Federal de Lausanne” (Switzerland).
+### **Mark Hambleton** / Interim Chairman
 </div>
 <div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/Guy-Berruyer1.jpg" class="linaro-profile-image" alt="Guy Berruyer Profile Photo"%}
+{% include circular-image.html image="/assets/images/people/MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
 </div>
 </div>
 
