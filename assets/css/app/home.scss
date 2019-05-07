@@ -794,3 +794,77 @@ div#connect {
 #jumbotron-slider .slide-title {
     max-width: 670px;
 }
+
+
+#animated_logo .cls-1 {
+    fill: none;
+}
+#animated_logo .cls-2 {
+    fill: #666;
+}
+#animated_logo .cls-3 {
+    fill: #9c3;
+}
+#animated_logo .cls-8 {
+    fill: #9c3;
+}
+#animated_logo .cls-4,
+#animated_logo .cls-5 {
+    fill: #c03;
+}
+#animated_logo .cls-5 {
+    opacity: 0.6;
+}
+#animated_logo .cls-6,
+#animated_logo .cls-7 {
+    fill: #909;
+}
+#animated_logo .cls-7,
+#animated_logo .cls-8 {
+    opacity: 0.7;
+}
+
+#wrapper .animated-heading
+{
+  position:relative !important;
+  font-size: 40px !important;
+  @media(max-width:$screen-sm-min){
+     font-size: 30px !important;
+  }
+}
+#wrapper .os-heading-translated{
+  right:100%;
+  transform: translateX(80px);
+  @media(max-width: $screen-sm-min){
+    transform: translateX(53px);
+  }
+}
+.disappear-text.hidden{
+  opacity:0;
+}
+.disappear-text{
+  opacity: 1;
+}
+#wrapper .lower{
+  text-transform: lowercase;
+}
+#animated_logo {
+  opacity: 0;
+  height:100px;
+  top: -80px;
+  position: relative;
+}
+#wrapper .linux-heading-translated{
+    left: 100%;
+    transform: translateX(20px);
+    @media(max-width: $screen-sm-min){
+      transform: translateX(0);
+    }
+}
+#animated_logo .sprinkle-block {
+  opacity: 0;
+  transform: translateX(40px) scale(0.5);
+}
+.formed-text {
+  transform-origin: bottom left;
+}
