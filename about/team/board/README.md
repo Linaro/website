@@ -11,14 +11,6 @@ The Board is the principal decision making body and focuses on ensuring the orga
 
 To maintain separation between long term objectives and nearer term development roadmaps, the Board looks to the Executive team and the Technical Steering Committee to apply development resources to projects based on the needs of members. The Board is made up of appointed individuals from each Core Member, a Club director representing the interests of all Club members and the CEO. More details can be found in the [Company’s Articles of Association](/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf) and [Rules of Membership](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf).
 
-<div class="container board_member no-padding">
-<div class="col-sm-9 no-padding" markdown="1">
-### **Mark Hambleton** / Interim Chairman
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
-</div>
-</div>
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
@@ -34,7 +26,7 @@ Li Gong is a globally experienced technologist and executive, with deep backgrou
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-### **Mark Hambleton** / Non-executive Director for Arm
+### **Mark Hambleton** / Non-executive Director for Arm & Interim Chairman
 
 Mark Hambleton is vice president of Open Source Software at ARM. Mark joined ARM in 2014 and took over leading the open source software group soon after. Within this role, Mark leads the system software teams chartered with driving Arm’s leadership in open source and has been responsible for the software engineering relationship with Linaro. Prior to joining Arm, Mark was a member of the Linaro TSC representing Broadcom and prior to Broadcom was the Head of Core Systems and a Distinguished Architect at Nokia in their Smart Devices group.
 
