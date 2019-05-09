@@ -11,6 +11,7 @@ The Board is the principal decision making body and focuses on ensuring the orga
 
 To maintain separation between long term objectives and nearer term development roadmaps, the Board looks to the Executive team and the Technical Steering Committee to apply development resources to projects based on the needs of members. The Board is made up of appointed individuals from each Core Member, a Club director representing the interests of all Club members and the CEO. More details can be found in the [Company’s Articles of Association](/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf) and [Rules of Membership](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf).
 
+<div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
 ### **Mark Hambleton** / Non-executive Director for Arm & Interim Chairman
 
@@ -23,6 +24,9 @@ Mark has been working with open source technologies for approaching 20 years and
 {% include circular-image.html image="/assets/images/people/MarkHambleton.jpg" class="linaro-profile-image" alt="Mark Hambleton Profile Photo"%}
 </div>
 </div>
+
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
 
 ### **Li Gong** / Chief Executive Officer
 
