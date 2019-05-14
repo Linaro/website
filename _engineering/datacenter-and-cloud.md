@@ -44,7 +44,6 @@ LDCG manages three lead projects: Server Architecture, Software Defined Infrastr
 
 In addition to the Lead Projects, LDCG sponsors three Special Interest Groups (SIG). SIG’s allow for focused engineering effort on specific areas important to the members. Members of LDCG can automatically join any or all of the SIG’s.  In addition, non LDCG companies and organisations can choose to join any of the SIG’s.
 
-- LTNS  Linaro Telco & Networking SIG
 - LHPCS Linaro High Performance Computing SIG
 - LSFS Linaro Server Firmware SIG
 
