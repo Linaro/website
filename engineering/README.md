@@ -41,7 +41,7 @@ jumbotron:
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/consumer/">
-                    <img class="img-responsive lazyload" data-src="/assets/images/content/LCG col.png" 
+                    <img class="img-responsive lazyload" data-src="/assets/images/content/LCG.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
                 <h3 class="group-title">Consumer</h3>
