@@ -119,7 +119,7 @@ span.bold {
     text-align: center;
 }
 
-#jumbotron-content p.fly.center-block.show-block {
+#jumbotron-content p.center-block.show-block {
     color: white;
     width: 60%;
     font-size: 40px;
@@ -515,14 +515,25 @@ div#contact-btn {
         transform: rotate(-360deg);
     }
 }
-img.fly.center-block.img-responsive.services-img {
+img.center-block.img-responsive.services-img {
     width: 400px;
 }
-.key-factor-block.fly.show-block {
+.key-factor-block.show-block {
     background-color: #434343;
     color: white;
 }
-.key-factor-block.fly.show-block > span {
+.key-factor-block.show-block > span {
     color: white;
     font-weight: bold;
+}
+#jumbotron img.center-block.img-responsive.services-img {
+    height: 200px;
+    width: auto;
+}
+#jumbotron p.center-block {
+    color:white;
+    font-weight:bold;
+    font-size: 30px;
+    top:-20px;
+    position:relative;
 }
