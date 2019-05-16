@@ -9,7 +9,6 @@ tags:
 image:
     featured: true
     path: /assets/images/blog/devicetree-logo-dark.png
-    name: devicetree-logo-dark.png
 ---
 
 Today, version 0.2 of the Devicetree Specification was released.

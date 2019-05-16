@@ -8,7 +8,6 @@ tags:
 image:
     featured: true
     path: /assets/images/blog/devicetree-logo-dark.png
-    name: devicetree-logo-dark.png
 author: Linaro
 ---
 
