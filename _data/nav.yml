@@ -98,6 +98,8 @@ pages:
             url: /services/testing-validation-services/
           - text: Hands on Training
             url: /services/hands-on-training/
+    - title: Support
+      url: /support/
     - title: Downloads
       left: true
       options:
@@ -118,5 +120,3 @@ pages:
             url: /events/
           - text: Planet
             url: /planet/
-    - title: Contact
-      url: /contact/
