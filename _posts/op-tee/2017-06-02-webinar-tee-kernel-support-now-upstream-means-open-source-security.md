@@ -11,8 +11,7 @@ layout: post
 future: true
 image:
     featured: true
-    path: /assets/images/optee-bg.jpg
-    name: optee-bg.jpg
+    path: /assets/images/blog/optee-bg.jpg
 ---
 
 —-  

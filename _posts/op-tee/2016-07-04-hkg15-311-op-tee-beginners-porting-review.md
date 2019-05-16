@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/hkg15-311-op-tee-beginners-porting-review-image.jpg
-    name: hkg15-311-op-tee-beginners-porting-review-image.jpg
+    path: /assets/images/blog/hkg15-311-op-tee-beginners-porting-review-image.jpg
 ---
 
 Explains the building blocks involved in Security including TrustZone, OP-TEE, Trusted Firmware etc. Goes into detail on how Secure Boot Works.. and Why. Explains how a simple secure Trusted Application interacts with OP-TEE and works. Brief overview on how to port OP-TEE to an ARM platform. Opens discussions for Potential Challenges and Hardware limitations and how they can be overcome.

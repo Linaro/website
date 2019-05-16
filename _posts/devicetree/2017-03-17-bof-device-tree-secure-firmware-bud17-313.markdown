@@ -8,7 +8,7 @@ tags:
 - DeviceTree
 image:
     featured: true
-    path: /assets/images/bof-device-tree-secure-firmware-bud17-313-image.jpg
+    path: /assets/images/blog/bof-device-tree-secure-firmware-bud17-313-image.jpg
     name: bof-device-tree-secure-firmware-bud17-313-image.jpg
 ---
 

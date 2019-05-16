@@ -8,7 +8,7 @@ tags:
 - DeviceTree
 image:
     featured: true
-    path: /assets/images/devicetree-logo-dark.png
+    path: /assets/images/blog/devicetree-logo-dark.png
     name: devicetree-logo-dark.png
 ---
 

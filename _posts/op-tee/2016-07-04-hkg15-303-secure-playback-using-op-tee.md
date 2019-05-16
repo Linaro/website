@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/hkg15-303-secure-playback-using-op-tee-image.jpg
-    name: hkg15-303-secure-playback-using-op-tee-image.jpg
+    path: /assets/images/blog/hkg15-303-secure-playback-using-op-tee-image.jpg
 ---
 
 Give high level overview of the components involved in a DRM/Secure. Playback use case. Presentation discusses about how Client device obtains License Keys using W3C-EME implementation of any particular DRM like Widevine, how content is decrypted, decoded and rendered and how the buffers are allocated, secured and shared among various elements in the secure playback chain.

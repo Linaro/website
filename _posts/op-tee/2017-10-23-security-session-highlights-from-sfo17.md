@@ -8,8 +8,7 @@ categories:
 - Blog
 image:
     featured: true
-    path: /assets/images/sfo17-banner.jpg
-    name: sfo17-banner.jpg
+    path: /assets/images/blog/sfo17-banner.jpg
 layout: post
 ---
 

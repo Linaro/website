@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/power-management-linux-together-secure-firmware-bud17-510-image.jpg
-    name: power-management-linux-together-secure-firmware-bud17-510-image.jpg
+    path: /assets/images/blog/power-management-linux-together-secure-firmware-bud17-510-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/MNvTBGNQRDY" %}

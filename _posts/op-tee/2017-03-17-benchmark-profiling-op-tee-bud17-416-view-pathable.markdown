@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/benchmark-profiling-op-tee-bud17-416-view-pathable-image.jpg
-    name: benchmark-profiling-op-tee-bud17-416-view-pathable-image.jpg
+    path: /assets/images/blog/benchmark-profiling-op-tee-bud17-416-view-pathable-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/gr6AxvqfDds" %}

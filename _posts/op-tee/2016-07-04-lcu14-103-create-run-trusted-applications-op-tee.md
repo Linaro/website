@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/lcu14-103-create-run-trusted-applications-op-tee-image.jpg
-    name: lcu14-103-create-run-trusted-applications-op-tee-image.jpg
+    path: /assets/images/blog/lcu14-103-create-run-trusted-applications-op-tee-image.jpg
 ---
 
 The intention with this session is to provide guidelines for developing a Trusted Application based on the Global Platform TEE Specifications, and for running it based on the OP-TEE implementation for TEE.

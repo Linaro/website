@@ -9,8 +9,7 @@ categories:
 layout: post
 image:
     featured: true
-    path: /assets/images/universal-keyring-time-come-bud17-203-image.jpg
-    name: universal-keyring-time-come-bud17-203-image.jpg
+    path: /assets/images/blog/universal-keyring-time-come-bud17-203-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/PvySBboUwPM" %}
