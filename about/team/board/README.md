@@ -30,11 +30,24 @@ Mark has been working with open source technologies for approaching 20 years and
 
 ### **Li Gong** / Chief Executive Officer
 
-Li Gong is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”  
+Li is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”  
 
 </div>
 <div class="col-sm-3 text-center">
 {% include circular-image.html image="/assets/images/people/LiGong.jpg" class="linaro-profile-image" alt="Li Gong Profile Photo"%}
+</div>
+</div>
+
+<div class="container board_member no-padding">
+<div class="col-sm-9 no-padding" markdown="1">
+
+### **Andrea Gallo** / VP of Membership Development at Linaro.
+
+Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.
+
+</div>
+<div class="col-sm-3 text-center">
+{% include circular-image.html image="/assets/images/people/AndreaGallo.jpg" class="linaro-profile-image" alt="Andrea Gallo Profile Photo"%}
 </div>
 </div>
 
