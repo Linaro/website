@@ -40,21 +40,6 @@ Li is a globally experienced technologist and executive, with deep background in
 
 <div class="container board_member no-padding">
 <div class="col-sm-9 no-padding" markdown="1">
-
-### **Andrea Gallo** / VP of Membership Development at Linaro.
-
-Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.
-
-</div>
-<div class="col-sm-3 text-center">
-{% include circular-image.html image="/assets/images/people/AndreaGallo.jpg" class="linaro-profile-image" alt="Andrea Gallo Profile Photo"%}
-</div>
-</div>
-
-
-
-<div class="container board_member no-padding">
-<div class="col-sm-9 no-padding" markdown="1">
 ### **Jon Humphreys** / Director of Linux Core Product Development at Texas Instruments
 
 Jon Humphreys is the director of Linux Core Product Development at Texas Instruments.  He has over 25 years of experience in embedded software development, including tool chain and embedded OSes.  He has worked with Linaro on TI’s behalf since 2015.  Jon holds a Bachelor of Science in Electrical Engineering from Rice University, and a Master of Science in Computer Science from the University of Houston.
