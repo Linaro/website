@@ -1,0 +1,16 @@
+---
+layout: jumbotron-container
+---
+{{content}}
+{% for member in page.team %}
+<div class="col-xs-12 no-padding text-center">
+    <img class="lazyload circular_image linaro-profile-image"
+        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="{{member.image}}" alt="{{member.name}} Profile Photo" />
+    <h2>{{member.name}}</h2>
+    <h4>{{member.title}}</h4>
+    <p>
+        {{member.bio}}
+    </p>
+</div>
+{% endfor %}
