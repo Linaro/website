@@ -36,11 +36,6 @@
                 "url": "/membership/texas-instruments/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/zte.jpg",
-                "name": "ZTE",
-                "url": "/membership/zte/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "url": "/membership/socionext/"
@@ -102,11 +97,6 @@
                 "image": "https://static.linaro.org/common/member-logos/google.jpg",
                 "name": "Google",
                 "url": "/membership/google/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
-                "name": "Guizhou Huaxintong Semiconductor Technologies Co. Ltd. (HXT Semiconductor)",
-                "url": "/membership/hxt/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/cypress.jpg",
@@ -253,11 +243,6 @@
                 "url": "/membership/fujitsu/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
-                "name": "Guizhou Huaxintong Semiconductor Technologies Co. Ltd. (HXT Semiconductor)",
-                "url": "/membership/hxt/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
                 "name": "Sandia National Laboratories",
                 "url": "/membership/sandia-national-laboratories/"
@@ -301,14 +286,14 @@
                 "url": "/membership/socionext/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/hxt.jpg",
-                "name": "Guizhou Huaxintong Semiconductor Technologies Co. Ltd. (HXT Semiconductor)",
-                "url": "/membership/hxt/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
                 "name": "Kylin",
                 "url": "/membership/kylin/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
+                "name": "Sandia National Laboratories",
+                "url": "/membership/sandia-national-laboratories/"
             }
         ],
         "membership_group_name": "LDCG Members",
@@ -342,11 +327,6 @@
                 "image": "https://static.linaro.org/common/member-logos/comcast.jpg",
                 "name": "Comcast",
                 "url": "/membership/comcast/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/zte.jpg",
-                "name": "ZTE",
-                "url": "/membership/zte/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
@@ -400,11 +380,6 @@
                 "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
                 "name": "NXP",
                 "url": "/membership/nxp/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/zte.jpg",
-                "name": "ZTE",
-                "url": "/membership/zte/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/cypress.jpg",
