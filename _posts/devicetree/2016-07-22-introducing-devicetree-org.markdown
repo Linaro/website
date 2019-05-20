@@ -10,7 +10,6 @@ image:
     path: /assets/images/blog/devicetree-logo-dark.png
 author: Linaro
 ---
-
 {% include media.html media_url="https://www.youtube.com/embed/kbREjQS3moM" %}
 
 Device Tree is well established in the Linux kernel. But since there could be other bootloader(s) and firmware components involved that needs to configure the hardware and thereby also needs to update the Device Tree blobs before passing it to Linux kernel. Therefore we are looking for a well established way for firmware to also make use and modify the Device Tree blobs before handing them over to Linux kernel. With this BoF session we would like to get started a gather ideas etc
