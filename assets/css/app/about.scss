@@ -597,3 +597,17 @@ svg#employee-map{
         margin-right: auto;
     }
 }
+#wrapper .linaro-profile-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float:none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
