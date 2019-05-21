@@ -12,7 +12,7 @@
                   {% if group.members %}
                       {% assign member_size = group.members | size %}
                       
-                      {% if member_size < 3 and group.id !=  "associate" and group.id != "community" %}
+                      {% if member_size < 3 and group.id !=  "associate" and group.id != "community" and group.id != "core" %}
                       <div class="alert alert-info" role="alert">
                           <strong>Group Forming:</strong>
                           Group being formed from existing and new Linaro members. Please contact ContactUs@linaro.org if you would like information about joining. 
