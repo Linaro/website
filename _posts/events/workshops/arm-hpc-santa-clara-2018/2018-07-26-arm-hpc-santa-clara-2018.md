@@ -88,7 +88,7 @@ tag: event
 data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Arm Logo">
 </div>
 <div class="col-xs-4" markdown="1">
-<img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/hisilicon.jpg" 
+<img class="lazyload img-responsive" src="/assets/images/content/hilsilicon.png" 
 data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Arm Logo">
 </div>
 <div class="col-xs-4" markdown="1">
