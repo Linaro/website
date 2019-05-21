@@ -1,12 +1,12 @@
 ---
 layout: jumbotron-container
-title: Downloads
+title: Builds & Downloads
 permalink: /downloads/
 description: >-
-    Linaro maintains various development repositories and makes regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products. This page provides links to many of the more popular downloads produced by Linaro’s engineering teams.
+    Linaro maintains various development repositories and makes regular releases of many builds including Android, LAVA Test Framework, Key Toolchains and builds for specific member products. This page provides links to many of the more popular downloads produced by Linaro’s engineering teams.
 jumbotron:
     background-image: /assets/images/content/downloads-bg.jpg
-    title: Work upstream and contribute to Linaro’s code
+    title: Builds & Downloads
 ---
 <div class="col-sm-4 flex-container download-col">
     <div class="download-block">
@@ -16,18 +16,7 @@ jumbotron:
                 Releases is the main repository for Linaro code that has been tested and released. It is possible to navigate down through this site to find code if you know what you are looking for, but we recommend you use the links below for our most popular downloads.
             </p>
         </div>
-        <a href="http://releases.linaro.org/" class="btn btn-primary">View Releases</a>
-    </div>
-</div>
-<div class="col-sm-4 flex-container download-col">
-    <div class="download-block">
-        <h3>Platforms</h3>
-        <div class="download-block-content flex-center">
-            <p>
-                Platforms is a new site that will host platform builds for specific end-to-end solutions. Currently, this site features the 18.06 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the coming months.
-            </p>
-        </div>
-        <a href="http://releases.linaro.org/" class="btn btn-primary">View Platforms</a>
+        <a href="https://releases.linaro.org/" class="btn btn-primary">View Releases</a>
     </div>
 </div>
 <div class="col-sm-4 flex-container download-col">
@@ -38,7 +27,18 @@ jumbotron:
             Snapshots code shows Linaro work in progress. Often created on a daily basis, these are literally snapshots of work in progress that are used for testing and development. The code on this site may not work and should only be used by experienced engineers who know exactly what they are doing.
         </p>
         </div>
-        <a href="http://snapshots.linaro.org/" class="btn btn-primary">View Snapshots</a>
+        <a href="https://snapshots.linaro.org/" class="btn btn-primary">View Snapshots</a>
+    </div>
+</div>
+<div class="col-sm-4 flex-container download-col">
+    <div class="download-block">
+        <h3>Platforms</h3>
+        <div class="download-block-content flex-center">
+            <p>
+                Platforms is a new site that will host platform builds for specific end-to-end solutions. Currently, this site features the 18.06 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the coming months.
+            </p>
+        </div>
+        <a href="https://platforms.linaro.org/" class="btn btn-primary">View Platforms</a>
     </div>
 </div>
 <div class="col-sm-4 flex-container download-col">
@@ -97,6 +97,7 @@ jumbotron:
         </p>
         </div>
         <a href="https://releases.linaro.org/components/lava/latest/" class="btn btn-primary">View Downloads</a>
+        <a href="https://validation.linaro.org/static/docs/v2/index.html" class="btn btn-primary">Get Started with LAVA</a>
     </div>
 </div>
 
@@ -104,7 +105,7 @@ jumbotron:
 
 ***
 
-Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](http://patches.linaro.org/) presents this work by team and by upstream project.
+Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](https://patches.linaro.org/) presents this work by team and by upstream project.
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
