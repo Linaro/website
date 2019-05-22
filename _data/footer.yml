@@ -1,91 +1,30 @@
-# image: Linaro-Logo.svg
-footer-image: /assets/images/Linaro-Sprinkle.png
-footer-image-url: /
-company-copyright-text: Linaro Limited
-columns:
-    - title: About
-      url: /about/
-      items:
-        - text: Overview
-          url : /about/
-        - text: Team
-          url : /about/team/
-        - text: Membership
-          url : /membership/
-        - text: Join Us
-          url : /about/join-us/
-    - title: Engineering
-      url: /engineering/
-      items:
-        - text: Core Engineering
-          url : /engineering/core/
-        - text: Datacenter & Cloud
-          url: /engineering/datacenter-and-cloud/
-        - text: Edge & Fog Computing
-          url: /engineering/edge-and-fog-computing/
-        - text: Consumer
-          url: /engineering/consumer/
-        - text: IoT & Embedded
-          url: /engineering/iot-and-embedded/
-        - text: Autonomous Vehicles
-          url: /engineering/autonomous-vehicles/ 
-        - text: Machine Intelligence
-          url: /engineering/machine-intelligence/
-        - text: High Performance Computing
-          url: /engineering/high-performance-computing/     
-        # - text: Upstream Projects
-        #   url: /engineering/projects/
-    - title: Downloads
-      url: "/downloads/"
-      items:
-         - text: Software Downloads
-           url : /downloads/
-         - text: Security Downloads
-           url : /downloads/security/
-    - title: Developer Services
-      url: "/services/"
-      items:
-         - text: Security
-           url : /services/security/
-         - text: Bootloaders and Boot Architecture
-           url : /services/bootloaders/
-         - text: Kernels and Long Term Support Services
-           url : /services/kernel-lts/
-         - text: AOSP and Linux BSPs, Builds and Support
-           url : /services/bsp-builds-support/
-         - text: Power Management Tuning Services
-           url : /services/power-management/
-    - title: 
-      items:
-         - text: 96Boards Product Development & Support
-           url : /services/96boards/
-         - text: Toolchain Optimization Services
-           url : /services/toolchain-optimization-services/
-         - text: Open Source Consultancy and Licensing
-           url : /services/open-source-consultancy/
-         - text: Testing and Validation Services
-           url : /services/testing-validation-services/
-         - text: Hands on Training
-           url : /services/hands-on-training/
-        
-    - title: News & Events
-      url: /resources/
-      items:
-          - text: News
-            url: /news/
-          - text: Linaro Blog
-            url: /blog/
-          - text: Planet Linaro
-            url: /planet/
-          - text: Linaro Connect
-            url: https://connect.linaro.org
-            external: true
-companylinks:
-    - name: Careers
-      url: /about/join-us/
+# Copyright text to be displayed at the very bottom of the footer
+copyright-text: Linaro Limited
+# Set this to false if you do not want the Linaro logo in the footer.
+linaro-branding: true
+# Social Media Icons Row
+social-media-icons: true
+# These links are displayed at the very bottom of the footer.
+company-links:
     - name: Legal
       url: /legal/
-    - name: Sitemap
-      url: /sitemap.xml
-    - name: Contact Us
+    - name: Contact
       url: /contact/
+    - name: Press
+      url: /press/
+middle-column:
+    title: Latest News & Blogs
+    latest-posts: true
+last-column:
+    title: Other Projects
+    items:
+      - name: 96Boards
+        url: https://www.96boards.org
+      - name: Linaro Connect
+        url: https://connect.linaro.org
+      - name: DeviceTree
+        url: https://www.devicetree.org
+      - name: OP-TEE
+        url: https://www.op-tee.org
+      - name: Linaro Developer Cloud
+        url: https://www.linaro.cloud
