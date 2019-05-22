@@ -8,6 +8,11 @@
                 "url": "/membership/arm/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/quic.jpg",
                 "name": "QuIC",
                 "url": "/membership/quic/"
@@ -218,6 +223,11 @@
                 "url": "/membership/arm/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
                 "name": "Red Hat",
                 "url": "/membership/red-hat/"
@@ -249,6 +259,11 @@
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
                 "name": "Arm",
                 "url": "/membership/arm/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
@@ -297,6 +312,11 @@
                 "image": "https://static.linaro.org/common/member-logos/texas-instruments.jpg",
                 "name": "Texas Instruments",
                 "url": "/membership/texas-instruments/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
@@ -352,6 +372,11 @@
                 "url": "/membership/texas-instruments/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
                 "name": "NXP",
                 "url": "/membership/nxp/"
@@ -394,6 +419,11 @@
                 "image": "https://static.linaro.org/common/member-logos/texas-instruments.jpg",
                 "name": "Texas Instruments",
                 "url": "/membership/texas-instruments/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
@@ -669,6 +699,11 @@
         "id": "boards-ai",
         "image": "96boards-ai.png",
         "members": [
+            {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
+            },
             {
                 "image": "https://static.linaro.org/common/member-logos/quic.jpg",
                 "name": "QuIC",
