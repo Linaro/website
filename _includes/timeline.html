@@ -1,0 +1,54 @@
+{% assign news_posts = site.categories["News"] | sort: 'date' | reverse %}
+{% assign timeline_items = site.data.timeline | sort: 'date' | reverse %}
+{% assign all_news = "" | split: "" %}
+{% for item in timeline_items %}
+{% assign all_news = all_news | push: item %}
+{% endfor %}
+{% for item in news_posts  %}
+{% assign all_news = all_news | push: item %}
+{% endfor %}
+{% assign all_news = all_news | sort: 'date' | reverse %}
+<div class="row linaro-timeline">
+    <div class="timeline">
+        <h4 class="responsive-title">History of Linaro</h4>
+        <div class="timeline-carousel owl-carousel owl-theme" data-timeline-length="{{all_news | size }}">
+            {% for news-posting in all_news %}
+            <div
+                class="owl-item__inner {% if news-posting.year-start %}year{{ news-posting.date | date:"%Y"}}{% endif %}">
+                <div class="timeline-item">
+                    <div class="date-wrap">
+                        <span class="date">{{ news-posting.date | date: "%Y"}}</span>
+                    </div>
+                    <div class="text-wrap">
+                        <strong>{{ news-posting.date | date: "%B %Y"}}</strong>
+                        <p>
+                            {{ news-posting.title | strip_html | truncatewords:30 }}
+                        </p>
+                        {% if news-posting.url %}
+                        <a href="{{news-posting.url}}">Read more</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div> <!-- // timeline-carousel -->
+        <div class="timeline-bar"></div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <a class="btn btn-sm btn-primary timeline-jump-btn" data-slide-index="0">
+                <i class="fa fa-chevron-left"></i> Jump to present
+            </a>
+            <a class="btn btn-sm btn-primary timeline-jump-btn" data-slide-index="{{all_news | size}}">
+                Jump to 2010 <i class="fa fa-chevron-right"></i>
+            </a>
+        </div>
+        <div class="col-xs-12 m-t-20">
+            <p>
+                This timeline includes links to Linaro’s articles of association, membership rules, new member
+                announcements, Linaro
+                Connect historical events and key organizational developments.
+            </p>
+        </div>
+    </div>
+</div>
