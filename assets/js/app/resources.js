@@ -7,8 +7,6 @@ var counter = 0;
 var sources = [
     "https://www.96boards.org/assets/json/posts.json",
     "https://www.trustedfirmware.org/assets/json/posts.json",
-    "https://www.op-tee.org/assets/json/posts.json",
-    "https://www.devicetree.org/assets/json/posts.json",
     "/assets/json/recentPosts.json"
 ];
 var site_logos = {
