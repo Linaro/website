@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('.timeline-carousel').trigger('to.owl.carousel', [slideIndex, 500, true]);
     });
 
-  var timelineCarousel = $(".timeline-carousel");
+  var timelineCarousel = $("#timelineCarousel");
   var officeCarousel = $(".office-carousel");
   var remoteTeamCarousel = $(".remote-team-carousel");
   var orgCarousel = $(".organisation-carousel");
