@@ -8,6 +8,61 @@ jumbotron:
     background-image: /assets/images/content/downloads-bg.jpg
     title: Builds & Downloads
 ---
+
+
+## Linaro Toolchain
+
+The first Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.2-2018.08 is now available on the [Arm Developer website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a).
+
+Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
+
+The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
+
+#### Latest Linux Targeted Binary Toolchain Releases
+
+<table class="table responsive-table">
+<tbody>
+<tr>
+<td style="text-align:left"><strong>arm-linux-gnueabihf</strong></td>
+<td style="text-align:left"><em>32-bit Armv7 Cortex-A, hard-float, little-endian</em></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/">Binaries</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>armv8l-linux-gnueabihf</strong></td>
+<td style="text-align:left"><em>32-bit Armv8 Cortex-A, hard-float, little-endian</em></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/">Binaries</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>aarch64-linux-gnu</strong></td>
+<td style="text-align:left"><em>64-bit Armv8 Cortex-A, little-endian</em></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/">Binaries</a></td>
+<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
+</tr>
+</tbody>
+</table>
+
+
+#### Latest Bare-Metal Targeted Binary Toolchain Releases
+
+{:.table.responsive-table}
+|:---|:---|:---|:---|:---|
+|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+
+***
+
+Interested in other target ABIs such as big-endian or soft-float little-endian? All toolchain target ABI and host variants can be seen [here](https://releases.linaro.org/components/toolchain/binaries/latest-7/). _Note: Not all ABI and host variants are supported to the same degree. See the [release-notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/) for more information._
+
+***
+
+Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
+
+******
 <div class="col-sm-4 flex-container download-col">
     <div class="download-block">
         <h3>Releases</h3>
@@ -101,8 +156,6 @@ jumbotron:
     </div>
 </div>
 
-<div class="col-xs-12" markdown="1">
-
 ***
 
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC tool chain. The [Patches website](https://patches.linaro.org/) presents this work by team and by upstream project.
@@ -121,57 +174,3 @@ LMBs are full system builds of popular open-source products set up at the reques
 |Qualcomm | <img src="/assets/images/content/qualcomm-snapdragon-thumb.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 ***
-
-## Linaro Toolchain
-
-The first Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.2-2018.08 is now available on the [Arm Developer website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a).
-
-Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
-
-The following tables provide direct access to the most common Linux and bare-metal ABI variants of the Linaro binary cross-toolchain quarterly releases.  Both x86_64 Linux and Mingw32 (MS Windows compatible) host binaries are provided:
-
-#### Latest Linux Targeted Binary Toolchain Releases
-
-<table class="table responsive-table">
-<tbody>
-<tr>
-<td style="text-align:left"><strong>arm-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit Armv7 Cortex-A, hard-float, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>armv8l-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit Armv8 Cortex-A, hard-float, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>aarch64-linux-gnu</strong></td>
-<td style="text-align:left"><em>64-bit Armv8 Cortex-A, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-</tbody>
-</table>
-
-
-#### Latest Bare-Metal Targeted Binary Toolchain Releases
-
-{:.table.responsive-table}
-|:---|:---|:---|:---|:---|
-|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
-|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
-
-***
-
-Interested in other target ABIs such as big-endian or soft-float little-endian? All toolchain target ABI and host variants can be seen [here](https://releases.linaro.org/components/toolchain/binaries/latest-7/). _Note: Not all ABI and host variants are supported to the same degree. See the [release-notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/) for more information._
-
-***
-
-Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
-
-</div>

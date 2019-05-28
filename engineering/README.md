@@ -84,7 +84,7 @@ jumbotron:
                 <h3 class="group-title">Autonomous Vehicles</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
-                <a href="/engineering/machine-intelligence/">
+                <a href="/engineering/artificial-intelligence/">
                     <img class="img-responsive lazyload" data-src="/assets/images/content/Machine col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
