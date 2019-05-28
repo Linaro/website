@@ -62,8 +62,6 @@ Interested in other target ABIs such as big-endian or soft-float little-endian? 
 
 Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to also supply a new release every year (with quarterly updates). Releases are maintained for two years. Get these [directly from the Arm website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
 
-</div>
-
 ******
 <div class="col-sm-4 flex-container download-col">
     <div class="download-block">
@@ -157,8 +155,6 @@ Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embed
         <a href="https://validation.linaro.org/static/docs/v2/index.html" class="btn btn-primary">Get Started with LAVA</a>
     </div>
 </div>
-
-<div class="col-xs-12" markdown="1">
 
 ***
 
