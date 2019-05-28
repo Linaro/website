@@ -66,8 +66,8 @@ pages:
             url: /engineering/iot-and-embedded/
           - text: Autonomous Vehicles
             url: /engineering/autonomous-vehicles/ 
-          - text: Machine Intelligence
-            url: /engineering/machine-intelligence/
+          - text: Artificial Intelligence
+            url: /engineering/artificial-intelligence/
           - text: High Performance Computing
             url: /engineering/high-performance-computing/     
           # - text: Upstream Projects
