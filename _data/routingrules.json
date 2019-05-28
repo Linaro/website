@@ -43,7 +43,7 @@
     "^/author/ulfhansson(/?|/index.html)$ /author/ulf-hansson/ [R,L,NC]",
     "^/author/webmaster(/?|/index.html)$ /author/linaro/ [R,L,NC]",
     "^/about/tsc(/?|/index.html)$ /about/team/technical-steering-committee/ [R,L,NC]",
-    "^/about/octo(/?|/index.html)$ /about/team/office-of-the-cto/ [R,L,NC]",
+    "^/about/octo(/?|/index.html)$ /about/team/ [R,L,NC]",
     "^/about/executive(/?|/index.html)$ /about/team/executive/ [R,L,NC]",
     "^/about/board(/?|/index.html)$ /about/team/board/ [R,L,NC]",
     "^/about/landing(/?|/index.html)$ /membership/ [R,L,NC]",    
