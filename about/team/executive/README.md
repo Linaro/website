@@ -24,11 +24,6 @@ team:
       image: /assets/images/people/Rob-Booth-72dpi1.jpg
       bio: >
         Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
-    - name: Andrea Gallo
-      title: VP of Membership Development at Linaro
-      image: /assets/images/people/AndreaGallo.jpg
-      bio: >
-        Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.
     - name: Joe Bates
       title: General Manager and VP of Member Services
       image: /assets/images/people/JoeBates.jpg
@@ -39,6 +34,11 @@ team:
       image: /assets/images/people/mark-orvek.png
       bio: >
         Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.
+    - name: Andrea Gallo
+      title: VP of Membership Development at Linaro
+      image: /assets/images/people/AndreaGallo.jpg
+      bio: >
+        Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.
 ---
 **The management team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.**
 
