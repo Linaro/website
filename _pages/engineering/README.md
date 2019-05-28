@@ -12,6 +12,8 @@ jumbotron:
         Linaro’s work spans a wide range of technologies. To find out more about what work we do in each vertical, click on the relevant icon below.
     title: Where Collaborative Engineering Happens
     background-image: /assets/images/content/engineering-bg.jpg
+redirect_from:
+ - /engineering/projects/
 ---
 <!--- Top Engineering Icons Row -->
 <div id="engineering-graphic" class="row" style="background-image:url('/assets/images/content/engineering-bg.svg')">

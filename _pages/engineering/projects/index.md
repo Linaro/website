@@ -3,7 +3,7 @@ title: Upstream Projects
 description: |-
     Linaro focuses much of its engineering work on contributing to existing upstream projects like the Linux Kernel and GNU Compiler Collection (GCC).
 keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
-permalink: /engineering/projects/
+permalink: /engineering/projects-temp/
 project: false
 css-package: projects
 layout: jumbotron-container
