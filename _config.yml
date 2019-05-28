@@ -11,6 +11,7 @@ theme: jumbo-jekyll-theme
 permalink: /:categories/:title/
 # Jekyll Responsive Images dir
 blog_images_dir: assets/images/blog/
+email: contact@linaro.org
 # Syntax highlighter for 96boards blog
 highlighter: rouge
 # Markdown version
@@ -29,7 +30,6 @@ search-label: Linaro
 # Disqus Comments settings.
 disqus: true
 disqus_shortname: 'Linaro'
-
 # This is the url that is used when your site is built for canonicals etc.
 url: "https://www.linaro.org"
 # url: "https://www.site-test.linaro.org"
@@ -155,7 +155,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-readme-index
-  - bootstrap-sass
   - uglifier
   - jekyll-assets
   - jekyll-tidy
@@ -226,3 +225,5 @@ collections:
     authors:
         output: true
         permalink: /author/:name/
+
+include: ['_pages']
