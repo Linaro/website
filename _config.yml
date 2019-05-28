@@ -217,7 +217,7 @@ collections:
         output: true
         permalink: /:collection/:name/
     projects:
-        output: true
+        output: false
         permalink: /engineering/:collection/:path/
     services:
         output: true
