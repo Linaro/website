@@ -59,7 +59,7 @@ In this talk, we not only introduce ONNC framework, we will dive into ONNC inter
 
 ThunderSoft has been working on AI for recent years. This presentation will share some results of AI work. First of all, give a general introduction about the current status of AI. For the current messy AI market, whatever AI chip, algorithm, framework or application, what challenges are we facing? Then introduce what kind of services and solutions we can provide for resolving some real issues such as defects inspection in industrial and meanwhile, show the architecture of our AI system. Finally, give some use cases for your reference which focus on some details about three products(Thunder Visual Inspection, Face SDK, and AI Kit) which are based on ML/DL technology. For Thunder Visual Inspection, will give a solution to resolve visual inspection issues through combining deep learning, image processing, even if other computer vision related technologies together. For face SDK, will show the software architecture and interfaces. This part will take a deep dive into how to build face SDK and implement the integration of algorithms and AI models on top of some existed AI Engine(SNPE, Tensorflow Lite etc.). AI development Kit based on Qualcomm SDM845 is extremely powerful for AI development. In this part, hardware specification and software capability will be listed.
 
-To find out more about the Machine Intelligence initiative at Linaro, click [here](/engineering/machine-intelligence/).
+To find out more about the Machine Intelligence initiative at Linaro, click [here](/engineering/artificial-intelligence/).
 
 
 

@@ -35,7 +35,8 @@
     color: #accb4d;
 }
 .hub-block-inner.light {
-    min-height: 195px;
+    min-height: 350px;
+    padding-top: 100px;
 }
 .nav-stacked a li {
     color: #636363;
@@ -95,7 +96,7 @@ span.post-title {
     display: block;
     padding: 10px;
     font-size: 12px;
-    height: 40px;
+    height: auto;
     overflow: hidden;
 }
 li.list-group-item.fly.show-block {
@@ -171,4 +172,7 @@ span.project-stats {
     padding-left: 0px !important;
     padding-right: 0px !important;
     text-align: center;
+}
+li.list-group-item.list-group-item-success.text-center {
+    padding-left: 82px;
 }
