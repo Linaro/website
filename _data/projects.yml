@@ -30,7 +30,7 @@
   url: https://spark.apache.org/
 - name: LAVA
   image: lava.png
-  url: https://www.linaro.org/initiatives/lava/
+  url: https://validation.linaro.org
 - name: EdgeX Foundry
   image: edgex-foundry.png
   url: https://www.edgexfoundry.org/
