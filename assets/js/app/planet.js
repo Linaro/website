@@ -15,7 +15,6 @@ var mainFeed = [];
 var feeds = [
     "http://www.workofard.com/feed/", // Ard Biesheuvel
     "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
-    "http://www.metaklass.org/rss/", // Jorge Niedbalski
     "https://blog.sirena.org.uk/feed/", // Mark Brown
     "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
     "https://fullshovel.wordpress.com/feed/", // Tom Gall

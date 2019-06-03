@@ -8,7 +8,7 @@ permalink: /engineering/core/security/
 principal-engineer: Joakim Bech
 projects:
   - title: OP-TEE
-    url: /engineering/projects/optee/
+    url: /engineering/projects/
 related_tags:
   - OP-TEE
   - Security

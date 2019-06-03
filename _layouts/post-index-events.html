@@ -1,45 +1,41 @@
 ---
-layout: empty
+layout: base
 title: Blog
 css-package: events-blog
 js-package: events-blog
 ---
-<div class="container-fluid responsive-background" id="header-container">
-    <div class="row background-image overlay" id="jumbotron"
-        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
-        <div id="jumbotron-content" class=" flex-container">
-            <div class="container flex-center" id="jumbotron-text">
-                <h1 class=" center-block" id="jumbotron-heading">{{page.title}}</h1>
-                <p class=" center-block" id="jumbotron-sub-title">
-                    {{page.description}}
-                </p>
-            </div>
+<div class="row background-image overlay responsive-background" id="jumbotron"
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
+    <div id="jumbotron-content" class=" flex-container">
+        <div class="container flex-center" id="jumbotron-text">
+            <h1 class=" center-block" id="jumbotron-heading">{{page.title}}</h1>
+            <p class=" center-block" id="jumbotron-sub-title">
+                {{page.description}}
+            </p>
         </div>
     </div>
 </div>
-<div class="container-fluid" id="content-container">
-    <div class="row">
-        <div class="container">
-             <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
-                <li role="presentation">
-                    <a href="/events/calendar/">
-                        Events Calendar
-                    </a>
-                </li>
-                <li role="presentation" class="active">
-                    <a href="/events/">
-                        Events
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="/events/connect/" >
-                        Linaro Connect
-                    </a>
-                </li>
-            </ul>
-            {{content}}
-            {% include display-events.html %}
-            {% include pagination.html end_path="all/" %}
-        </div>
-    </div> 
-</div>
+<div class="row" id="content-container">
+    <div class="container">
+            <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
+            <li role="presentation">
+                <a href="/events/calendar/">
+                    Events Calendar
+                </a>
+            </li>
+            <li role="presentation" class="active">
+                <a href="/events/">
+                    Events
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="/events/connect/" >
+                    Linaro Connect
+                </a>
+            </li>
+        </ul>
+        {{content}}
+        {% include display-events.html %}
+        {% include pagination.html end_path="all/" %}
+    </div>
+</div> 
