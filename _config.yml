@@ -227,3 +227,10 @@ collections:
         permalink: /author/:name/
 
 include: ['_pages']
+
+# Cloud Cannon Configuration
+_options:
+  image: # Front matter field
+    uploads_dir: "assets/images/featured-images/:title"
+  content: # Content Editor and block Editable Regions
+    uploads_dir: "assets/images/content/:title"
