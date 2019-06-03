@@ -15,7 +15,7 @@ jumbotron:
     background-image: /assets/images/content/engineering-bg.jpg
 ---
 When a suitable target project doesn't exist, Linaro may create one. The first of these was the [Linaro Automated
-Validation Architecture](https://staging.linaro.org/engineering/projects/lava/)(LAVA) - Linaro needed a test and
+Validation Architecture](https://validation.linaro.org/)(LAVA) - Linaro needed a test and
 validation architecture for internal use and decided to create this as an open source project. The list of initiatives
 continues to grow and now includes software projects, an open hardware specification
 ([96Boards](http://www.96boards.org/)) and Linaro's bi-annual event ([Linaro Connect](http://connect.linaro.org/)).
