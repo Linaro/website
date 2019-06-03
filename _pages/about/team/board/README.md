@@ -37,7 +37,7 @@ team:
       most significant contribution to technical literature in the field of
       interest of the IEEE.”
   - name: Jon Humphreys
-    title: Board member for HiSilicon
+    title: Board member for Linaro Club members
     image: /assets/images/people/JohnHumphreys.jpg
     bio: >-
       Jon Humphreys is the director of Linux Core Product Development at Texas
@@ -47,7 +47,7 @@ team:
       Electrical Engineering from Rice University, and a Master of Science in
       Computer Science from the University of Houston.
   - name: Stephen Li
-    title: 'VP Consumer BG Software, Futurewei'
+    title: 'Board member for HiSilicon'
     image: /assets/images/people/stephen-li.jpg
     bio: >-
       Stephen Li currently is VP of U.S. CBG SW at Futurewei, an American
@@ -60,8 +60,6 @@ team:
       of VxWorks OS.
   - name: Mike Stefanick
     title: Board member for Qualcomm
-    image:
-    bio:
   - name: Rob Booth
     title: 'Board observer and COO, Linaro'
     image: /assets/images/people/Rob-Booth-72dpi1.jpg
