@@ -131,6 +131,7 @@ defaults:
     values:
         layout: project-page
         project: true
+        _hide_content: true
   - scope:
         path: ""
         type: "engineering"
