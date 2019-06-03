@@ -63,7 +63,7 @@ team:
       build companies and generating maximum value from scarce resources.
   - name: Stephen Li
     title: 'VP Consumer BG Software, Futurewei'
-    image: /uploads/stephen-li.jpg
+    image: /assets/images/people/stephen-li.jpg
     bio: >-
       Stephen Li currently is VP of U.S. CBG SW at Futurewei, an American
       corporation wholly owned by Huawei Technologies. Mr.Li is nominated as a
