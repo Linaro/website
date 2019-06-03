@@ -23,7 +23,7 @@ To register, click [here](https://connect.linaro.org/ai-neural-networks-arm-summ
 
 There will be sessions on the latest AI technologies available in edge and consumer devices from the Arm ecosystem and how these accelerate deep learning applications leveraging the most widely adopted AI frameworks. Here are some of the great sessions we’ve got lined up:
 
-**[Artificial Intelligence Strategy: Digital Transformation Through Deep Learning](https://connect.linaro.org/speaker/chris-benson/)**
+**[Artificial Intelligence Strategy: Digital Transformation Through Deep Learning](https://connect.linaro.org/resources/yvr18#chris-benson)**
 
 Chris Benson, AI & Digital Transformation Strategist, Solution Architect and Keynote Speaker/Evangelist  
 
@@ -31,7 +31,7 @@ If the last decade was about mobile first, the next decade will be about AI firs
 
 Significant progress has been made in various software components such are SDEI, SPM, StandaloneMM and APEI driver that are required to put together support for RAS error injection and error handling on enterprise platforms. This proposal for presentation takes a deep dive on the technical details of integrating these components to create an end-to-end RAS solution with emphasis on details about error injection, firmware-first error handling methodology, CPER record creation and notifying linux using SDEI interface about the RAS events for further processing. Arm’s SGI-575 FVP platform is the first to create this solution and audience can gain insights into the technical details and challenges of enabling this solution for other platforms.
 
-**[Enabling Machine Learning to Explode with Open Standards and Collaboration](https://connect.linaro.org/speaker/jem-davies/)**
+**[Enabling Machine Learning to Explode with Open Standards and Collaboration](https://connect.linaro.org/resources/yvr18#jem-davies)**
 
 Jem Davies, VP, Fellow and GM, Machine Learning Group at Arm
 

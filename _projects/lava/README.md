@@ -23,7 +23,7 @@ sub_projects:
   project_name: lava-test
 - project_link_name: lava-tool
   project_name: lava-tool
-project_url: https://www.linaro.org/initiatives/lava/
+project_url: https://validation.linaro.org
 title: LAVA
 display: "false"
 ---
