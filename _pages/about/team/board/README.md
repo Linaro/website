@@ -7,7 +7,7 @@ js-package: extended
 css-package: about
 team:
   - name: Mark Hambleton
-    title: Non-executive Director for Arm & Interim Chairman
+    title: Board member representing Arm and Interim Chairman
     image: /assets/images/people/MarkHambleton.jpg
     bio: >-
       Mark Hambleton is vice president of Open Source Software at ARM. Mark
@@ -37,7 +37,7 @@ team:
       most significant contribution to technical literature in the field of
       interest of the IEEE.”
   - name: Jon Humphreys
-    title: Director of Linux Core Product Development at Texas Instruments
+    title: Board member representing Club members
     image: /assets/images/people/JohnHumphreys.jpg
     bio: >-
       Jon Humphreys is the director of Linux Core Product Development at Texas
@@ -47,7 +47,7 @@ team:
       Electrical Engineering from Rice University, and a Master of Science in
       Computer Science from the University of Houston.
   - name: Rob Booth
-    title: Chief Operating Officer
+    title: Board observer and Chief Operating Officer
     image: /assets/images/people/Rob-Booth-72dpi1.jpg
     bio: >-
       Rob brings a wealth of operational, commercial and financial experience
@@ -73,6 +73,10 @@ team:
       Before joining Huawei Mr. Li held senior technical management positions in
       the embedded software industry, mostly at Wind River Systems, the provider
       of VxWorks OS.
+  - name: Mike Stefanick
+    title: Board member representing Qualcomm
+    image:
+    bio:
 ---
 
 The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry positioning, key partnerships, membership, and funding.
