@@ -40,7 +40,7 @@ Here's a list of this weeks major achievements.
 ### Key Points for wider discussion
 
 
-  * The 12.02 Android release is out. See the[ Release Page](https://wiki.linaro.org/Cycles/1202/Release).
+  * The 12.02 Android release is out. See the[ Release Page](https://wiki-archive.linaro.org/Cycles/1202/Release).
 
 
   * Progress on Hardware accelerated MM integration on Origen.

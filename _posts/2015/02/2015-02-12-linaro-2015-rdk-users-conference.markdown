@@ -75,7 +75,7 @@ Jenkins is used for our CI loops, which will do verification of every Gerrit pat
 
 **Tools/ LSK**
 
-The members of LHG utilize the [Linaro Stable Kernel (LSK)](https://wiki.linaro.org/LSK) to baseline development efforts on a uniform and stable kernel. In addition, the team also takes advantage of the Linaro developer tools optimized for the Arm architecture.
+The members of LHG utilize the [Linaro Stable Kernel (LSK)](https://wiki-archive.linaro.org/LSK) to baseline development efforts on a uniform and stable kernel. In addition, the team also takes advantage of the Linaro developer tools optimized for the Arm architecture.
 
 ## Linaro at RDK UC
 

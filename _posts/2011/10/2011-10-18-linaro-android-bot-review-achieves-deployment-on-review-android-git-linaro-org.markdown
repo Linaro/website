@@ -29,7 +29,7 @@ This week saw the first deployment of the Linaro Android Review Bot[1][2]. This 
 
 It is early days yet for the bot, which is currently only building changes for one target board, but it will raise the minimum level of testing on Linaro Android builds and it is already beginning to drive changes in the way we build and test as the load on those systems increases.
 
-[1] Linaro Android Bot Review homepage: [https://wiki.linaro.org/Platform/Android/AndroidBotReview](https://wiki.linaro.org/Platform/Android/AndroidBotReview)
+[1] Linaro Android Bot Review homepage: [https://wiki-archive.linaro.org/Platform/Android/AndroidBotReview](https://wiki-archive.linaro.org/Platform/Android/AndroidBotReview)
 [2] Linaro Android Bot Review project page (raise bugs here!): [http://launchpad.net/linaro-android-bot-review](http://launchpad.net/linaro-android-bot-review)
 [3] Gerrit Code Review: [https://code.google.com/p/gerrit](https://code.google.com/p/gerrit)
 [4] Linaro Code Review: [https://git.linaro.org/?q=android](https://git.linaro.org/?q=android)

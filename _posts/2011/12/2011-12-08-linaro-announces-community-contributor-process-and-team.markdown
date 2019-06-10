@@ -16,7 +16,7 @@ title: Linaro Announces Community Contributor Process and Team
 wordpress_id: 1042
 ---
 
-Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki.linaro.org/CommunityContributor) and [Team](https://wiki.linaro.org/CommunityContributor).
+Today, Linaro announces the formation of the [Linaro Community Contributor Process](https://wiki-archive.linaro.org/CommunityContributor) and [Team](https://wiki-archive.linaro.org/CommunityContributor).
 
 [Linaro](/) itself is now an organisation of around 120 engineers, but as we continue to grow the community around us is also growing fast. We're grateful to the many people who are participating in our success, and so we're introducing the Community Contributor process to recognise those community members who have sustained contributions over a significant period of time. Our Technical Leads now have the opportunity to nominate an individual as a Community Contributor of Linaro.
 
@@ -38,14 +38,14 @@ Zach Pfeffer, Android Platform Tech Lead at Linaro, attributes his motivation an
 
 Community members can apply by requesting a nomination from a Linaro Technical Lead (alternately, the Technical Lead may approach them about the application).
 
-After that they will need to complete and sign our [Community Contributor Agreement](https://wiki.linaro.org/CommunityContributor?action=AttachFile&do=view&target=Linaro_Contributor_Agreement_%28individual%29_25_11_11.pdf).
+After that they will need to complete and sign our [Community Contributor Agreement](https://wiki-archive.linaro.org/CommunityContributor?action=AttachFile&do=view&target=Linaro_Contributor_Agreement_%28individual%29_25_11_11.pdf).
 
 The main points are that the community contributor agrees to are:
 
 * to our e-mail terms of use, including use of your Linaro e-mail for upstream contributions
 * a copyright and patent licence to Linaro for any code you contribute with that e-mail address
 
-Once that's done, the Technical Lead submits the nomination and completed Agreement to our [Community Board](https://wiki.linaro.org/CommunityContributor/CommunityBoard). The nomination will normally describe how the community member has worked with Linaro, any Blueprints they may have been involved with and [Linaro Connect](https://connect.linaro.org/) events they may have attended.
+Once that's done, the Technical Lead submits the nomination and completed Agreement to our [Community Board](https://wiki-archive.linaro.org/CommunityContributor/CommunityBoard). The nomination will normally describe how the community member has worked with Linaro, any Blueprints they may have been involved with and [Linaro Connect](https://connect.linaro.org/) events they may have attended.
 
 The Community Board then will evaluate all nominations within 2 weeks of submission and all being well the community member will be welcomed as a Community Contributor. We currently have nominations and signed agreements filtering in so this is an exciting time for all of us.
 
@@ -53,7 +53,7 @@ We place a lot of value on having a vibrant network of Community Contributors so
 
 **Getting Involved**
 
-[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/resources/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki.linaro.org/)to help document and track much of our work.
+[Linaro](/) strives to work as openly and transparently as possible. We also welcome and encourage [community involvement](/resources/). Most of Linaro day-to-day affairs take place on IRC and via public mailing lists. We also use a [public wiki ](https://wiki-archive.linaro.org/)to help document and track much of our work.
 
 Find out you can be part of this exciting and growing community by visiting our [community page](/resources/).
 

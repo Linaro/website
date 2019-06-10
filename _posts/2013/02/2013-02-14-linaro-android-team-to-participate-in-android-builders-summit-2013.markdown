@@ -31,12 +31,12 @@ Following ABS will be the [Embedded Linux Conference 2013](https://events.linuxf
 Stop by any of the sessions where Linaro is participating to learn more about Linaro's work in consolidating and optimizing open source software for the Arm architecture.
 
 **About the Linaro Android Team:**
-The primary goals of the Linaro Android Team is to develop and release tested[ monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen and Versatile Express, collaborate with upstream[ development efforts](https://wiki.linaro.org/Platform/Android/UpstreamWork) and perform monthly[ toolchain benchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking).
+The primary goals of the Linaro Android Team is to develop and release tested[ monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen and Versatile Express, collaborate with upstream[ development efforts](https://wiki-archive.linaro.org/Platform/Android/UpstreamWork) and perform monthly[ toolchain benchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking).
 
 
 
 
-  * [Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
+  * [Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
 
 
   * Mailing List:  mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))

@@ -15,7 +15,7 @@ title: Linaro Takes an Active Role in Virtualization on Arm
 wordpress_id: 2291
 ---
 
-Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on Arm.
+Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on Arm.
 
 In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html ), [Serge Broslavsky](/about/ ), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
 
@@ -26,13 +26,13 @@ On the first day of the mini-summit included a discussion of the current status
 On the second day of the summit attendees reviewed day one activities to see if they missed anything and then turned their attention to QEMU. These attendees looked at what development work was needed for Armv7 and Armv8 in regards to QEMU.  Other topics discussed included looking at where kvmtool fits in.
 
 **Conclusions**
-As a result of this mini-summit, Linaro, with the help of its new [Virtualization Team](https://wiki.linaro.org/LEG/Engineering/Virtualization) will be taking a more active role in the area of Virtualization on Arm. Virtualization will also be addressed at the Linaro Connect Asia (LCA13) event being held 4-8 March in Hong Kong the [exact schedule](https://lca-13.zerista.com/) is still being planned.
+As a result of this mini-summit, Linaro, with the help of its new [Virtualization Team](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization) will be taking a more active role in the area of Virtualization on Arm. Virtualization will also be addressed at the Linaro Connect Asia (LCA13) event being held 4-8 March in Hong Kong the [exact schedule](https://lca-13.zerista.com/) is still being planned.
 
-More information about the Mini Summit can be found at: [https://wiki.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit](https://wiki.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit)
+More information about the Mini Summit can be found at: [https://wiki-archive.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization/201302MiniSummit)
 
 _**About the Linaro Virtualization Team**_
 
-_The direction of the Linaro Virtualization Team is set by the [LEG Steering Committee](https://wiki.linaro.org/LEG-SC) and [Linaro Steering Committee](https://wiki.linaro.org/TSC). Work is done by a virtual team comprised of assignees from various teams within Linaro._
+_The direction of the Linaro Virtualization Team is set by the [LEG Steering Committee](https://wiki-archive.linaro.org/LEG-SC) and [Linaro Steering Committee](https://wiki-archive.linaro.org/TSC). Work is done by a virtual team comprised of assignees from various teams within Linaro._
 
   * _Meeting: TBD_
 
@@ -40,10 +40,10 @@ _The direction of the Linaro Virtualization Team is set by the [LEG Steering Com
 
   * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-  * _[Team Members](https://wiki.linaro.org/LEG/Engineering/Virtualization)_
+  * _[Team Members](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization)_
 
 
-_More information about the Linaro Virtualization Team can be found at: [https://wiki.linaro.org/LEG/Engineering/Virtualization](https://wiki.linaro.org/LEG/Engineering/Virtualization)_
+_More information about the Linaro Virtualization Team can be found at: [https://wiki-archive.linaro.org/LEG/Engineering/Virtualization](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization)_
 
 **_About Linaro Connect_**
 

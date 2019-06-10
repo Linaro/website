@@ -83,13 +83,13 @@ So this is the area which gets me the most excited. As the release manager for L
   10. Supply a whole host of development, archive and image management, and distribution creation and customization tools.
 
 
-And much, much more. A full list of blueprints which capture what we are trying to achieve can be found on the [Linaro wiki](http://wiki.linaro.org/Linaro1011/)
+And much, much more. A full list of blueprints which capture what we are trying to achieve can be found on the [Linaro wiki](http://wiki-archive.linaro.org/Linaro1011/)
 
 
 ## Get Involved
 
 
-For more information on the Linaro initiative please see the official [website]() and the [wiki](http://wiki.linaro.org). We have [mailing lists](http://lists.linaro.org) and a [Launchpad project page](http://www.launchpad.net/linaro) and I invite you all to come and participate in this exciting and ground-breaking venture.
+For more information on the Linaro initiative please see the official [website]() and the [wiki](http://wiki-archive.linaro.org). We have [mailing lists](http://lists.linaro.org) and a [Launchpad project page](http://www.launchpad.net/linaro) and I invite you all to come and participate in this exciting and ground-breaking venture.
 
 
 ## What next?

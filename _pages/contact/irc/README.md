@@ -127,13 +127,13 @@ __SSL__: Yes, use port 6697s
 <div class="col-sm-6 no-padding" markdown="1">
 
 ## Need a Channel?
-If you need a channel that’s not listed above follow the instructions to [setup a new channel](https://wiki.linaro.org/GettingInvolved/IRC/channelsetup).
+If you need a channel that’s not listed above follow the instructions to [setup a new channel](https://wiki-archive.linaro.org/GettingInvolved/IRC/channelsetup).
 
 * * *
 
 ## Linaro Bot
 
-Linaro is using a meeting bot for IRC meeting notetaking. More information are available [here](https://wiki.linaro.org/Resources/HowTo/LinaroBot)
+Linaro is using a meeting bot for IRC meeting notetaking. More information are available [here](https://wiki-archive.linaro.org/Resources/HowTo/LinaroBot)
 
 * * *
 
