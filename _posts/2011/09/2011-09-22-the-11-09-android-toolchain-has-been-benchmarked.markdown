@@ -14,9 +14,9 @@ tags:
 
 Andy Doan has put together the Android benchmarks for the 11.09 toolchain. You can check it out here:
 
-[https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-09](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-09)
+[https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-09](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-09)
 
-Older benchmarks can be found at: [https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking)
+Older benchmarks can be found at: [https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking)
 
 
 ## Summary

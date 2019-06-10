@@ -27,8 +27,8 @@ The mission of LHG is to accelerate adoption of the Arm architecture in the digi
 
 **LHG Resources (Public)**
 
-  * [LHG Wiki](https://wiki.linaro.org/LHG)
-  * [LHG Public Documentation](https://wiki.linaro.org/LHG/LHGPublicDocuments)
+  * [LHG Wiki](https://wiki-archive.linaro.org/LHG)
+  * [LHG Public Documentation](https://wiki-archive.linaro.org/LHG/LHGPublicDocuments)
 
 At the time the group was launched, the LHG steering committee also got to work defining the key technical topics the group will execute and developing the roadmap.
 

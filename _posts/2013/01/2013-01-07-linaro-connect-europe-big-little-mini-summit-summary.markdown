@@ -133,7 +133,7 @@ For more information about each of these sessions and how you can get involved, 
 
 According to Arm’s big.LITTLE webpage it is described as, “big.LITTLE processing addresses one of today’s industry challenges: how to create a System on Chip (SoC) that provides both high performance as well as extreme power efficiency to extend battery life. big.LITTLE connects the performance of the [Arm Cortex-A15](https://developer.arm.com/ip-products/processors/cortex-a/cortex-a15) or [Cortex-A57](https://developer.arm.com/ip-products/processors/cortex-a/cortex-a57) processor with the energy efficiency of the [Cortex-A7](https://developer.arm.com/ip-products/processors/cortex-a/cortex-a7) or [Cortex-A53](https://developer.arm.com/ip-products/processors/cortex-a/cortex-a53) processors respectively, enabling the same application software to switch seamlessly between them. By selecting the optimum processor for each task, big.LITTLE can extend battery life by up to 70%.”  - From the [Arm website on big.LITTLE Processing](https://developer.arm.com/tools-and-software/software-development-tools/solutions/soc-design/biglittle)
 
-More about big.LITTLE and Linaro can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel/](https://wiki.linaro.org/WorkingGroups/Kernel/)
+More about big.LITTLE and Linaro can be found at: [https://wiki-archive.linaro.org/WorkingGroups/Kernel/](https://wiki-archive.linaro.org/WorkingGroups/Kernel/)
 
 
 ## LCE12 - Resources
@@ -177,7 +177,7 @@ You can also stay in touch with what is happening in around Linaro by following 
 
 
 
-  * _[Meeting](https://wiki.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly IRC meeting_
+  * _[Meeting](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Meetings): Weekly IRC meeting_
 
 
   * _Mailing List: Upstream Discussions – LKML, linux-arm-kernel, linux-pm@lists.linux-foundation.organd Announcements - mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
@@ -189,7 +189,7 @@ You can also stay in touch with what is happening in around Linaro by following 
   * _[Team Members](/about/)_
 
 
-_More information about the Linaro Power Management Team can be found at: [https://wiki.linaro.org/WorkingGroups/PowerManagement](https://wiki.linaro.org/WorkingGroups/PowerManagement)_
+_More information about the Linaro Power Management Team can be found at: [https://wiki-archive.linaro.org/WorkingGroups/PowerManagement](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement)_
 
 
 #### _**Linaro**_

@@ -24,7 +24,7 @@ The Linaro 12.11 release cycle highlights the hard work of all the Linaro Teams 
 
 
 
-Looking over the [highlights for the 12.11 release cycle](https://wiki.linaro.org/Cycles/1211/Release), it's easy to see how the momemtum and energy from LCE12-Copenhagen carries over and our teams consistantly meet and exceed the goals set in the Linaro Connect sessions. Our Android team has updated the platform to AOSP 4.2 on all our supported boards, and Android evdev is now upstreamed and used in AOSP 4.2.
+Looking over the [highlights for the 12.11 release cycle](https://wiki-archive.linaro.org/Cycles/1211/Release), it's easy to see how the momemtum and energy from LCE12-Copenhagen carries over and our teams consistantly meet and exceed the goals set in the Linaro Connect sessions. Our Android team has updated the platform to AOSP 4.2 on all our supported boards, and Android evdev is now upstreamed and used in AOSP 4.2.
 
 
 
@@ -43,7 +43,7 @@ The Power Management Working Group continues its progress on big.LITTLE MP by de
 
 
 
-With 13 companies joining Linaro to become part of the [newly formed](/engineering/datacenter-and-cloud/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux Arm server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
+With 13 companies joining Linaro to become part of the [newly formed](/engineering/datacenter-and-cloud/) and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Enterprise Group ([LEG](https://wiki-archive.linaro.org/LEG/)), excitment continues to grow around the opportunity to accelerate developement in the Linux Arm server ecosystem. In a [video interview](http://youtu.be/kANJ9iGD3GI) during the 12.11 release cycle, Linaro's Director of LEG, [Andrea Gallo](/about/), gave a more indepth explaination of what this new group is, how it works, and why the formation of LEG is important.
 
 
 
@@ -63,22 +63,22 @@ Between development cycles you can stay up to date with all the latest news in a
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-  * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 
-  * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
 
-  * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 ## USING THE UBUNTU-BASED IMAGES
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 ## GETTING INVOLVED
 
@@ -87,7 +87,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [](/)
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
@@ -113,7 +113,7 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 For any errata issues, please see:
 
 
-  * [http://wiki.linaro.org/Cycles/1211/Release#Known_Issues](http://wiki.linaro.org/Cycles/1211/Release#Known_Issues)
+  * [http://wiki-archive.linaro.org/Cycles/1211/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1211/Release#Known_Issues)
 
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:

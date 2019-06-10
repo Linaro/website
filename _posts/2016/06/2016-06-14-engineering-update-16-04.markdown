@@ -51,7 +51,7 @@ The build uses a pre-built binary (fip.bin) for the Arm Trusted Firmware and OP-
 
 Link to player (part of the readme instructions): [http://people.linaro.org/~peter.griffin/chrome/eme_player.html](http://people.linaro.org/~peter.griffin/chrome/eme_player.html)
 
-For a more detailed description of the Linaro Clear Key solution, please see this document:   [https://wiki.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf](https://wiki.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf)
+For a more detailed description of the Linaro Clear Key solution, please see this document:   [https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf](https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf)
 
 The W3C EME specification details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video.  The EME Clear Key solution is required for any compliant EME solution.
 

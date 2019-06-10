@@ -59,9 +59,9 @@ EAS is the culmination of a lot of discussion in the past years on LKML and in 
 
 #### sched-tools
 
-The idlestat tool - https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat
+The idlestat tool - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat
 
-The rtapp based workload generator - https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen
+The rtapp based workload generator - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen
 
 ### Resources
 
@@ -85,7 +85,7 @@ This list is for developers for sharing information, asking questions, providing
 
 #### EAS optimizations
 
-Patches https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/EAS/Patches : List of submitted patches
+Patches https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/EAS/Patches : List of submitted patches
 
 [Tests and scenario](https://docs.google.com/spreadsheets/d/1WPQQff-3uGsZ2Q4JtJVuzExfNGbm_ziWTFwBqW1M8No) (restricted)
 

@@ -119,9 +119,9 @@ You can also stay in touch with what is happening in around Linaro by following 
 
 **The Linaro Android Team**
 
-_The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
+_The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki-archive.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
 
-  * _[Meeting](https://wiki.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
+  * _[Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
 
 
   * _Mailing List:  mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_

@@ -37,7 +37,7 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 * * *
 
-[Zach Pfeffer](/about/), the [Linaro Android Team](/about/), Tech Lead, explains to the Linaro Release team what he and his team have accomplished during this cycle.  Linaro’s patches to AOSP are now available on Jelly Bean and Linaro Android users should now see a 15% performance bump in their Android builds when combined with the Linaro toolchain.  Developers now have another MALI based accelerated platform to work with as the Snowball graphics enablement is now available on the Linaro Jelly Bean build.  The team also analyzed 10 of the most popular Android benchmarking tools: AndEBench, AndEBench Java,  Linpack, CaffeineMark, Antutu 2D and 3D, NBench, Quadrant, I/O Benchmark and Vellamo.  Additionally, the team has put together the NI PXIe-4154 based power measurement system with a VI which will allow the instrument to be easily integrated into [LAVA](https://wiki.linaro.org/Platform/LAVA). Also there is now an AOSP test automation framework that is able to automatically read and execute in-tree AOSP tests.
+[Zach Pfeffer](/about/), the [Linaro Android Team](/about/), Tech Lead, explains to the Linaro Release team what he and his team have accomplished during this cycle.  Linaro’s patches to AOSP are now available on Jelly Bean and Linaro Android users should now see a 15% performance bump in their Android builds when combined with the Linaro toolchain.  Developers now have another MALI based accelerated platform to work with as the Snowball graphics enablement is now available on the Linaro Jelly Bean build.  The team also analyzed 10 of the most popular Android benchmarking tools: AndEBench, AndEBench Java,  Linpack, CaffeineMark, Antutu 2D and 3D, NBench, Quadrant, I/O Benchmark and Vellamo.  Additionally, the team has put together the NI PXIe-4154 based power measurement system with a VI which will allow the instrument to be easily integrated into [LAVA](https://wiki-archive.linaro.org/Platform/LAVA). Also there is now an AOSP test automation framework that is able to automatically read and execute in-tree AOSP tests.
 
 
 * * *
@@ -56,14 +56,14 @@ The Linaro 12.09 release cycle highlights the combined work and enthusiasm of al
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-  * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-  * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
 
-  * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 
@@ -72,7 +72,7 @@ If you are interested in getting the source and building these images yourself p
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 ### GETTING INVOLVED
 
@@ -82,7 +82,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [](/)
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
@@ -103,7 +103,7 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 For any errata issues, please see:
 
-  * [http://wiki.linaro.org/Cycles/1209/Release#Known_Issues](http://wiki.linaro.org/Cycles/1209/Release#Known_Issues)
+  * [http://wiki-archive.linaro.org/Cycles/1209/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1209/Release#Known_Issues)
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 

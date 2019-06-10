@@ -73,7 +73,7 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 					
 						<li><a href="/low-cost-development-boards/" title="Go to the Low-cost Development Boards page" >Low-cost Dev. Boards</a></li>
 					
-						<li><a href="http://wiki.linaro.org/" title="Go to the Developer Wiki page" >Developer Wiki</a></li>
+						<li><a href="http://wiki-archive.linaro.org/" title="Go to the Developer Wiki page" >Developer Wiki</a></li>
 
 					
 						<li><a href="/hardware-enablement/" title="Go to the Hardware Enablement page" >Hardware Enablement</a></li>

@@ -13,7 +13,7 @@ related_tags:
   - Android 
 other_projects:
   - name: Linaro Confectionary Release (LCR) and AOSP
-    url: https://wiki.linaro.org/LMG/AndroidEngineeringDelta
+    url: https://wiki-archive.linaro.org/LMG/AndroidEngineeringDelta
   - name: Project Ara
     url: https://en.wikipedia.org/wiki/Project_Ara
 related_jira_project: https://projects.linaro.org/projects/LMG/summary

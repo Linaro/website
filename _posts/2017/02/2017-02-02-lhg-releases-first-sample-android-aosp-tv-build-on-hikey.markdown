@@ -115,7 +115,7 @@ _Source : [https://github.com/googlesamples/androidtv-sample-inputs/raw/master/s
 
 
 
-The instructions to download the source, build all the components and prepare the filesystem images are available here: [https://wiki.linaro.org/LHG/Build-AndroidTV-For-Hikey](https://wiki.linaro.org/LHG/Build-AndroidTV-For-Hikey)
+The instructions to download the source, build all the components and prepare the filesystem images are available here: [https://wiki-archive.linaro.org/LHG/Build-AndroidTV-For-Hikey](https://wiki-archive.linaro.org/LHG/Build-AndroidTV-For-Hikey)
 
 
 

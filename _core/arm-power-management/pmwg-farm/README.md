@@ -46,7 +46,7 @@ We use these tools as a part of our testing process:
 
 ### Diagram
 
-Our CI loop flow diagram can be found here - https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=view&target=pmwg-ci-poster.pdf.
+Our CI loop flow diagram can be found here - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=view&target=pmwg-ci-poster.pdf.
 
 ### Workloads, Device Configuration, and Agendas
 
@@ -86,7 +86,7 @@ We use QA reports to display graphs and trends. QA reports uses the [SQUAD](htt
 
 ### LAVA job definition example
 
-To get started, you can download this LAVA job definition - https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=upload_form&ticket=005cf783fb.c5a9691eca2feea13925ba3a744ceb0ecc620d8c&target=wa3-dhrystone-example.yaml and submit it on your LAVA instance. Please note that this example **DOES NOT** include the arm-probe, email notification, and post-processing sections that we use in our CI loops. You may need to change the device type and image links.
+To get started, you can download this LAVA job definition - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=upload_form&ticket=005cf783fb.c5a9691eca2feea13925ba3a744ceb0ecc620d8c&target=wa3-dhrystone-example.yaml and submit it on your LAVA instance. Please note that this example **DOES NOT** include the arm-probe, email notification, and post-processing sections that we use in our CI loops. You may need to change the device type and image links.
 
 This example is created to get users running Workload Automation on Hikey Android in LAVA, and they can expand from there.
 

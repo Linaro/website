@@ -26,7 +26,7 @@ title: System Trace Module (STM) and its usage
 wordpress_id: 11549
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki.linaro.org/CoreDevelopment" %}
+{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 
 ## Introduction

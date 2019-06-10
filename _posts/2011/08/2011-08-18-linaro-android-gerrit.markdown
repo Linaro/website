@@ -16,7 +16,7 @@ tags:
 
 At the end of last week, we started final stage of Linaro Android migration to Gerrit. If you keep an eye on our trees, that's the first thing you should know about the migration:
 
-**Linaro Android codebase now has a new home! Previously, it was hosted at git://git.linaro.org/adnroid/ . With Gerrit migration,  there is now dedicated host [git://android.git.linaro.org/](http://android.git.linaro.org) . We still offer access to the old tree for parties interested in our existing and older releases (11.07 and earlier). 11.08 release will be made from the new tree, and if you follow Linaro Android closely, it is important to [make a fresh check out](https://wiki.linaro.org/Platform/Android/GetSource).**
+**Linaro Android codebase now has a new home! Previously, it was hosted at git://git.linaro.org/adnroid/ . With Gerrit migration,  there is now dedicated host [git://android.git.linaro.org/](http://android.git.linaro.org) . We still offer access to the old tree for parties interested in our existing and older releases (11.07 and earlier). 11.08 release will be made from the new tree, and if you follow Linaro Android closely, it is important to [make a fresh check out](https://wiki-archive.linaro.org/Platform/Android/GetSource).**
 
 Gerrit review frontend is available here: [https://git.linaro.org/](https://git.linaro.org/) :
 
@@ -39,4 +39,4 @@ We are still in the process of deploying and configuring our Gerrit-based setup 
   * Gerrit is important part of our Continuous Integration strategy, with ultimate goal that each change, once have been reviewed and approved, to be tested and validated before being merged.
 
 
-So, Gerrit brings lots of benefits to development process, especially for such complex system as Android. But it can be also rough at times, with [documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.2.1/index.html#_resources) lacking important and just helpful details, lagging behind with describing features of new versions, etc. To accommodate for this, we created [Linaro Gerrit Howto](https://wiki.linaro.org/Platform/Android/Gerrit) page to summarize most used and useful command and work patterns as we find them, which may be also useful for other projects and developers who adopt Gerrit.
+So, Gerrit brings lots of benefits to development process, especially for such complex system as Android. But it can be also rough at times, with [documentation](https://gerrit-documentation.storage.googleapis.com/Documentation/2.2.1/index.html#_resources) lacking important and just helpful details, lagging behind with describing features of new versions, etc. To accommodate for this, we created [Linaro Gerrit Howto](https://wiki-archive.linaro.org/Platform/Android/Gerrit) page to summarize most used and useful command and work patterns as we find them, which may be also useful for other projects and developers who adopt Gerrit.

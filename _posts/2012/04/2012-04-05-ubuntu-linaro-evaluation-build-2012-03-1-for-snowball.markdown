@@ -30,7 +30,7 @@ The images are compressed to save download time. Please see the Flashing howto f
 
 The Linaro release page can be found at
 
-[https://wiki.linaro.org/Cycles/1203/Release](https://wiki.linaro.org/Cycles/1203/Release)
+[https://wiki-archive.linaro.org/Cycles/1203/Release](https://wiki-archive.linaro.org/Cycles/1203/Release)
 
 Since this release was delayed, the applicable test results at
 

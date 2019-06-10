@@ -43,16 +43,16 @@ This post includes links to more information and instructions for using the imag
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
 
-  * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 
-  * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
 
-  * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 **USING THE UBUNTU-BASED IMAGES**
@@ -62,7 +62,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 **USING THE OPEN EMBEDDED-BASED IMAGES**
@@ -82,7 +82,7 @@ The Debian-based images consist of two parts. The first part is a hardware pack
 
 
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 **GETTING INVOLVED**
@@ -95,7 +95,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [](/)
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:

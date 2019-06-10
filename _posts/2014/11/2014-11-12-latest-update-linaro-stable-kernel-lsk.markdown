@@ -10,7 +10,7 @@ categories:
 - blog
 ---
 
-Linaro Stable Kernel (LSK) was announced in 2013 as an effort to address the challenges often faced by system integrators in balancing the desire to adopt and benefit from the most current technology and the need to stabilize the system for release, especially around the kernel.   Starting with the 13.09 release Linaro began producing the [Linaro Stable Kernel](http://wiki.linaro.org/LSK) to help address this problem.  The LSK provides access to new Linaro features integrated with the most recent kernel.org Long Term Stable (LTS) release.  Today, there are two LSK releases (v3.10 & v3.14) and three flavors for each release (Android, RT, Core). The latest LSK features can be found on [http://wiki.linaro.org/LSK](https://wiki.linaro.org/LSK).  At the recent Linaro Connect USA the Linaro Stable Kernel team took time out to discuss the team's progress and what the team's plans are in the future.
+Linaro Stable Kernel (LSK) was announced in 2013 as an effort to address the challenges often faced by system integrators in balancing the desire to adopt and benefit from the most current technology and the need to stabilize the system for release, especially around the kernel.   Starting with the 13.09 release Linaro began producing the [Linaro Stable Kernel](http://wiki-archive.linaro.org/LSK) to help address this problem.  The LSK provides access to new Linaro features integrated with the most recent kernel.org Long Term Stable (LTS) release.  Today, there are two LSK releases (v3.10 & v3.14) and three flavors for each release (Android, RT, Core). The latest LSK features can be found on [http://wiki-archive.linaro.org/LSK](https://wiki-archive.linaro.org/LSK).  At the recent Linaro Connect USA the Linaro Stable Kernel team took time out to discuss the team's progress and what the team's plans are in the future.
 
 If you were not able to attend, here's a recap of the LSK session during the show as well as an interview with the team's leaders discussing the activities the team has been working on and what is coming up.
 
@@ -41,4 +41,4 @@ Video: [https://www.youtube.com/watch?v=PwbpAz12L9k&list=UUIVqQKxCyQLJS6xvSmfnd
 ### **Linaro Stable Kernel**
 
 
-To learn more about this team and keep up to date with their latest work you can find more information at:  [https://wiki.linaro.org/LSK](https://wiki.linaro.org/LSK)
+To learn more about this team and keep up to date with their latest work you can find more information at:  [https://wiki-archive.linaro.org/LSK](https://wiki-archive.linaro.org/LSK)

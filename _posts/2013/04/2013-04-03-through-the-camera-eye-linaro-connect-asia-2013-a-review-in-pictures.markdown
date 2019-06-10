@@ -23,6 +23,6 @@ Linaro Connect Europe 2013 will take place on 8-12 July at The Burlington Hotel 
 
 
 
-Check out this [photo montage](http://youtu.be/mNZWOFNrT2Q) that takes you through [Linaro Connect Asia 2013](https://wiki.linaro.org/Events/LCA13/) in pictures. This montage includes pictures from the Meet and Greet, hacking rooms, plenaries, mini summits, awards 2012, Demo Friday, group photo and more.
+Check out this [photo montage](http://youtu.be/mNZWOFNrT2Q) that takes you through [Linaro Connect Asia 2013](https://wiki-archive.linaro.org/Events/LCA13/) in pictures. This montage includes pictures from the Meet and Greet, hacking rooms, plenaries, mini summits, awards 2012, Demo Friday, group photo and more.
 
 If you missed Connect in Hong Kong then we hope to see you in Dublin!
