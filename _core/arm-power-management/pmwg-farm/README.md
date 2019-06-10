@@ -72,8 +72,9 @@ ls /dev/serial/by-id/ on the host machine. The output should look similar to t
 
 /dev/serial/by-id/usb-NXP_SEMICOND_ARM_Energy_Probe_S_NOXXXXXXXX-if00. 
 - Update the LAVA device configuration file to include 
-
+{% raw  %}
 {% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID. 
+{% endraw  %}
 
 ### Data post processing
 
