@@ -33,10 +33,6 @@ In order to stay ahead of security and other issues, the Linux kernel requires a
 
 Linaro, together with the ARM SoC vendors and especially Google, through Project Sharp, validate LTS fix streams to ensure they do not contain regressions before these fixes make their way into the Android Common Kernel and then onto consumer devices. This is just one example of how companies collaborating through Linaro make for better end products and better open source for future products. 
 
-In order to stay ahead of security and other issues, the Linux kernel requires a steady stream of patches from the upstream kernel community. These fixes are compiled, tested and released through the Long Term Support (LTS) kernel community. The LTS kernel community targets a wide variety of hardware but most kernel developers do not actively develop for mobile devices. As such, the Arm ecosystem needs to be particularly proactive. 
-
-Linaro, together with the Arm SoC vendors and especially Google, through Project Sharp, validate LTS fix streams to ensure they do not contain regressions before these fixes make their way into the Android Common Kernel and then onto consumer devices. This is just one example of how companies collaborating through Linaro make for better end products and better open source for future products.
-
 Linaro’s collaboration with members involved in Android(™) related technologies is done through the Linaro Consumer Group. There are three engineering teams that work under the direction of the LCG: ART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.
 
 The Android team is actively involved with changes that either add functionality to Android (such as OPTEE, AI/ML), or optimization activities where changes to frameworks can improve performance, reduce the memory footprint and so on.
