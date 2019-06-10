@@ -25,7 +25,7 @@ We encourage everybody to use the 11.06 release. The download links for all imag
 
 * Linaro Evaluation Builds (LEBs) for Ubuntu comes with the full 3D Unity desktop experience enabled on PandaBoard. It's powered by Compiz and relies on the Nux toolkit for its rendering.
 
-* Linaro Evaluation Build (LEBs) for Android on Pandaboard comes with latest stable 2.6.38 kernel from Linaro's TI Landing Team and is built using Linaro's GCC 4.5 2011.06 release; Also, latest Linaro toolchain have been packaged for Android and benchmark results showing noticeable performance gains compared to the Google AOSP gingerbread toolchain have been included as part of the release documentation: [](http://bit.ly/jTAhWa)[http://bit.ly/jTAhWa](http://bit.ly/jTAhWa)
+* Linaro Evaluation Build (LEBs) for Android on Pandaboard comes with latest stable 2.6.38 kernel from Linaro's TI Landing Team and is built using Linaro's GCC 4.5 2011.06 release; Also, latest Linaro toolchain have been packaged for Android and benchmark results showing noticeable performance gains compared to the Google AOSP gingerbread toolchain have been included as part of the release documentation: [](https://linaro.co/AndroidToolchainBenchmarking)[https://linaro.co/AndroidToolchainBenchmarking](https://linaro.co/AndroidToolchainBenchmarking)
 
 * Initial preview releases of Ubuntu Hardware Packs for Snowball, Origen and Quickstart boards featuring the latest Linaro Landing Team components are available as part of this release.
 
