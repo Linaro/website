@@ -90,7 +90,7 @@ redirect_from:
                     <img class="img-responsive lazyload" data-src="/assets/images/content/Machine col.svg" 
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
                 </a>
-                <h3 class="group-title">Machine Intelligence</h3>
+                <h3 class="group-title">Artificial Intelligence</h3>
             </div>
             <div class="col-xs-6 col-sm-3 engineering-icon no-padding">
                 <a href="/engineering/high-performance-computing/">
