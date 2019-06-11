@@ -34,10 +34,10 @@ The switcher concept is discussed here:
 [http://lwn.net/Articles/481055/](http://lwn.net/Articles/481055/)
 
 Porting documentation is available here:
-[https://wiki.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/porting-guide](https://wiki.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/porting-guide)
+[https://wiki-archive.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/porting-guide](https://wiki-archive.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/porting-guide)
 
 The switcher code description is available here (slightly out of date):
-[https://wiki.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/in-kernel-code](https://wiki.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/in-kernel-code)
+[https://wiki-archive.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/in-kernel-code](https://wiki-archive.linaro.org/projects/big.LITTLE.MP/Big.Little.Switcher/Docs/in-kernel-code)
 
 And a review of the MCPM layer upon which IKS and HMP rely:
 [http://lwn.net/Articles/539082/](http://lwn.net/Articles/539082/)

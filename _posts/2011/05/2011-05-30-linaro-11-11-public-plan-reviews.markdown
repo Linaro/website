@@ -17,7 +17,7 @@ title: Linaro 11.11 public plan reviews
 wordpress_id: 3386
 ---
 
-Now that the [11.05 release](/blog/linaro-11-05-released/) is out, and after the [Linaro Developer Summit in Budapest](https://wiki.linaro.org/Events/2011-05-LDS), Linaro would like to invite the Arm Linux community to join reviews of its plans for the upcoming engineering cycle.
+Now that the [11.05 release](/blog/linaro-11-05-released/) is out, and after the [Linaro Developer Summit in Budapest](https://wiki-archive.linaro.org/Events/2011-05-LDS), Linaro would like to invite the Arm Linux community to join reviews of its plans for the upcoming engineering cycle.
 
 The reviews are available through conference calls that everyone can join, and dial-in numbers are given for a big list of countries. Presentation slides will be given ahead of time. People will be able to ask questions through an IRC channel.
 
@@ -49,7 +49,7 @@ The calls will happen daily at 15:00 UTC, starting on Tuesday, May 31:
   * Wednesday, June 8: Office of the CTO (David Rusling)
 
 
-All the details and dial-in numbers can be found on Linaro's developer wiki: [https://wiki.linaro.org/Cycles/1111/PublicPlanReview](https://wiki.linaro.org/Cycles/1111/PublicPlanReview)
+All the details and dial-in numbers can be found on Linaro's developer wiki: [https://wiki-archive.linaro.org/Cycles/1111/PublicPlanReview](https://wiki-archive.linaro.org/Cycles/1111/PublicPlanReview)
 
 This is a great chance to learn about what Linaro engineers will implement in the next six months, to ask all your questions and to get involved in the projects that you are interested in.
 

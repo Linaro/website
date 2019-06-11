@@ -19,13 +19,13 @@ Additionaly, 11.07 saw the Linaro Android move to gcc-linaro 4.6 as the default 
 
 We encourage everybody to use the 11.07 release. The download links for all images and components are available on our release page:
 
-[http://wiki.linaro.org/Cycles/1107/Release](http://wiki.linaro.org/Cycles/1107/Release)
+[http://wiki-archive.linaro.org/Cycles/1107/Release](http://wiki-archive.linaro.org/Cycles/1107/Release)
 
 **Highlights of this release:**
 
 * Linaro Evaluation Build (LEB) for Android on PandaBoard is built on Linux 3.0 kernel with gcc-linaro 4.6 as the default compiler which is used for all official Linaro Android Platform builds. This Linaro Android monthly Release exhibits the first official Linaro Android Toolchain release based on the most recent gcc-linaro 4.6, and the first Linaro Android release for ST-Ericsson Snowball using Landing Team kernel based on linux-linaro-android. On top, Linaro Android 11.07 comes with the more advanced more visually appealing Launcher2 by default.
 
-* Android GCC benchmark results for 11.07 release can be found on [http://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07](http://wiki.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07)
+* Android GCC benchmark results for 11.07 release can be found on [http://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07](http://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking/2011-07)
 
 * Linaro Evaluation Build (LEB) for Ubuntu also uses the most recent linux-linaro kernel based on Linux 3.0 and includes the latest Linaro Cross Toolchain available for Ubuntu Lucid and Natty. Arm DS-5 packages are now available and enabled by default for the developer image. They are packaged and can be easily installed on Ubuntu host and target by simply enabling a "linaro" hosted PPA. The Developer Platform Team continued to improve the developer experience for Ubuntu and Linux based Arm by adding support for cross buildable images to Live-build 3 which makes it easier to produce Ubuntu images in a cross build environment.
 Additional highlights for our Ubuntu efforts include working hwpacks for all Landing Team low cost boards - a first, libjpeg-turbo integrated and set as the default for Ubuntu/LEB images, and packages delivered by the Graphics Working Group like glcompbench, glmark2 and unity.

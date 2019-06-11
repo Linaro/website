@@ -80,7 +80,7 @@ _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are 
 
 
 
-  * _Linaro Kernel Tree Explained - [https://wiki.linaro.org/WorkingGroups/Kernel/](https://wiki.linaro.org/WorkingGroups/Kernel/)_
+  * _Linaro Kernel Tree Explained - [https://wiki-archive.linaro.org/WorkingGroups/Kernel/](https://wiki-archive.linaro.org/WorkingGroups/Kernel/)_
 
 
   * _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
@@ -92,7 +92,7 @@ _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are 
   * _[Team Members](/about/)_
 
 
-_More information about the Linaro Kernel Team can be found at: [https://wiki.linaro.org/WorkingGroups/Kernel](https://wiki.linaro.org/WorkingGroups/Kernel)_
+_More information about the Linaro Kernel Team can be found at: [https://wiki-archive.linaro.org/WorkingGroups/Kernel](https://wiki-archive.linaro.org/WorkingGroups/Kernel)_
 
 
 #### **Joining Linaro**

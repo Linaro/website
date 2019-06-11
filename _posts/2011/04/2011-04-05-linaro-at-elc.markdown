@@ -43,7 +43,7 @@ Right after Amit, Paul Larson, tech lead of Linaro's validation team, will share
 
 The sixth Linaro talk will be presented by Jesse Barker, tech lead for the Linaro Graphics Working Group: [Linux Graphics Meets the Arm Ecosystem](https://events.linuxfoundation.org/events/elc-openiot-north-america-2018/). Jesse will cover the evolution of the Linux graphics stack to meet the needs of mobile and embedded devices. You can also expect some details about OpenGL and OpenGL ES, and will be able to ask all your graphics related questions to Jesse.
 
-You can also have a look at the [Linaro Wiki](https://wiki.linaro.org/EngineeringTeam) for more details about all the speakers mentioned above.  Other Linaro engineers and community members should also be there. Don't hesitate to take advantage of this conference to get in touch with us!
+You can also have a look at the [Linaro Wiki](https://wiki-archive.linaro.org/EngineeringTeam) for more details about all the speakers mentioned above.  Other Linaro engineers and community members should also be there. Don't hesitate to take advantage of this conference to get in touch with us!
 
 If you can't make it to this conference this time, my colleagues at [Free Electrons](https://free-electrons.com/community/) will shoot videos of these talks, and will release these talks as quickly as possible. We now have an efficient and hopefully stable video processing flow.
 

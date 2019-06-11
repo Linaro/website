@@ -30,7 +30,7 @@ wordpress_id: 3055
 
 ## Linaro 13.09 is now ready for download
 
-The 13.09 release includes the first formal release of the Linaro Stable Kernel (LSK). The LSK will provide access to new Linaro features integrated with the most recent kernel.org Long Term Stable (LTS) release. For more details, please refer to the [LSK web site.](https://wiki.linaro.org/LSK)
+The 13.09 release includes the first formal release of the Linaro Stable Kernel (LSK). The LSK will provide access to new Linaro features integrated with the most recent kernel.org Long Term Stable (LTS) release. For more details, please refer to the [LSK web site.](https://wiki-archive.linaro.org/LSK)
 
 Here are some of the other highlights, by group:
 
@@ -79,7 +79,7 @@ We encourage everybody to use the 13.09 release. The download links for all imag
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
 
-  * [https://wiki.linaro.org/Cycles/1309/Release#Release_Information](https://wiki.linaro.org/Cycles/1309/Release#Release_Information)
+  * [https://wiki-archive.linaro.org/Cycles/1309/Release#Release_Information](https://wiki-archive.linaro.org/Cycles/1309/Release#Release_Information)
 
 
 ### USING THE ANDROID-BASED IMAGES
@@ -90,16 +90,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-  * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 
-  * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
 
-  * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 
@@ -112,7 +112,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 
@@ -141,7 +141,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [](/)
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
@@ -175,7 +175,7 @@ For any errata issues, please see:
 
 
 
-  * [http://wiki.linaro.org/Cycles/1309/Release#Known_Issues](http://wiki.linaro.org/Cycles/1309/Release#Known_Issues)
+  * [http://wiki-archive.linaro.org/Cycles/1309/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1309/Release#Known_Issues)
 
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:

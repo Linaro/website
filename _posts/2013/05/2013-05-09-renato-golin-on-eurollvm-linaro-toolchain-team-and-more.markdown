@@ -48,7 +48,7 @@ The only thing I can promise now is that we'll listen very carefully to all sugg
 
 That's about it. ;)
 
-More information about the **Linaro Toolchain Team** can be found at: [https://wiki.linaro.org/WorkingGroups/ToolChain](https://wiki.linaro.org/WorkingGroups/ToolChain)
+More information about the **Linaro Toolchain Team** can be found at: [https://wiki-archive.linaro.org/WorkingGroups/ToolChain](https://wiki-archive.linaro.org/WorkingGroups/ToolChain)
 
 More information about **LLVM** can be found at: [http://llvm.org/](http://llvm.org/)
 

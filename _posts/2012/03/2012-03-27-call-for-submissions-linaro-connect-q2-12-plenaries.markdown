@@ -28,7 +28,7 @@ The plenary sessions will give Linaro Connect attendees an opportunity to addres
 
 Do you have a _**great idea**_ you would like to present to the Linaro Connect Q2.12 attendees?   Want to share a Linaro _**success story**_ and _**motivate**_ , _**inspire**_, _**excite**_ or _**educate**_ attendees? Then this is an _**opportunity**_ for you _**to get involved**_ in this Linaro Connect event.
 
-Plenary Submissions and suggested plenary sessions can be added to the [wiki](https://wiki.linaro.org/Events/LinaroConnectQ2.12/Plenaries); however, for your submission to be considered it needs to be emailed to [David Rusling, Linaro CTO](mailto:david.rusling@linaro.org),  and should include the following information:
+Plenary Submissions and suggested plenary sessions can be added to the [wiki](https://wiki-archive.linaro.org/Events/LinaroConnectQ2.12/Plenaries); however, for your submission to be considered it needs to be emailed to [David Rusling, Linaro CTO](mailto:david.rusling@linaro.org),  and should include the following information:
 
 
   * **Plenary Title:**
@@ -42,7 +42,7 @@ Plenary Submissions and suggested plenary sessions can be added to the [wiki](h
 
 **The deadline for plenary submissions is 4 May 2012**. This way presenters have time to finish their slide decks *prior* to arriving at Linaro Connect and will allow event planners time for to finalized the schedule a head of time.
 
-More information about the plenary sessions and the selection process can be found on the [wiki](https://wiki.linaro.org/Events/LinaroConnectQ2.12/Plenaries)
+More information about the plenary sessions and the selection process can be found on the [wiki](https://wiki-archive.linaro.org/Events/LinaroConnectQ2.12/Plenaries)
 
 Questions, comments or feedback concerning the plenary session maybe sent to [events@linaro.org](mailto:events@linaro.org) or to [David Rusling](mailto:david.rusling@linaro.org).
 
