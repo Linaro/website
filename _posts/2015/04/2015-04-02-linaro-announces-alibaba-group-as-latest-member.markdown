@@ -22,7 +22,7 @@ wordpress_id: 8428
 
 CAMBRIDGE,UK; 2 APRIL 2015
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that [Alibaba](http://www.alibaba.com) has joined Linaro as a Group Member of the [Linaro Enterprise Group](https://wiki.linaro.org/LEG) (LEG).
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that [Alibaba](http://www.alibaba.com) has joined Linaro as a Group Member of the [Linaro Enterprise Group](https://wiki-archive.linaro.org/LEG) (LEG).
 
 The availability of a number of Armv8-A 64-bit silicon solutions and software platforms creates additional choice and avenues of innovation for data centers. These platforms aim to bring the energy-efficient processing of Arm-based processors, coupled with a variety of workload optimized technologies that will help data centers reduce their Total Cost of Ownership (TCO). Alibaba will collaborate with a range of companies within LEG to optimize the Armv8-A software platforms and maximize potential savings in a range of real deployment use cases.
 

@@ -22,7 +22,7 @@ team:
       for more than 10, and involved with Linaro at various levels for over 5
       years.
   - name: Li Gong
-    title: 'CEO,  Linaro'
+    title: 'Board member and CEO of Linaro'
     image: /assets/images/people/LiGong.jpg
     bio: >-
       Li is a globally experienced technologist and executive, with deep

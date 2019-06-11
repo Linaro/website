@@ -27,7 +27,7 @@ Linaro was launched to reduce fragmentation of Linux on Arm and allow shorter re
 
 <!-- more -->
 
-So far most of the work within Linaro has been focused on the 10.11 release ([https://wiki.linaro.org/Releases/1011/TechnicalRequirements](https://wiki.linaro.org/Releases/1011/TechnicalRequirements) ) which contains a large number of optimizations. By using the Linaro kernel, tool chain and C library, any Arm system will be able to run faster and consume less energy.
+So far most of the work within Linaro has been focused on the 10.11 release ([https://wiki-archive.linaro.org/Releases/1011/TechnicalRequirements](https://wiki-archive.linaro.org/Releases/1011/TechnicalRequirements) ) which contains a large number of optimizations. By using the Linaro kernel, tool chain and C library, any Arm system will be able to run faster and consume less energy.
 
 At ST-Ericsson we dedicated a number of engineers to Linaro related activities and working groups. Our engineers have been involved in multiple work groups focused on diversified topics such as Power Management, Graphics or User Platforms. In the past few months, much effort has been put into learning how to work within Linaro and in such a short time we already see multiple benefits from the initiative:
 
@@ -41,7 +41,7 @@ At ST-Ericsson we dedicated a number of engineers to Linaro related activities a
 
 - We will see first results of Linaro in the November release and thereafter an accelerated utilization as we converge our development efforts and bring in even more of our experts as well as start a dedicated Landing Team focusing on ST-Ericsson hardware.
 
-It is busy days around the Linaro initiative nowadays. At the Milan meeting a couple of weeks ago, working groups and requirements were set for the next release 11.05 ([https://wiki.linaro.org/Releases/1105/TechnicalTopics](https://wiki.linaro.org/Releases/1105/TechnicalTopics) ). The end of the first 6 months cycle is approaching and on November 11th the next cycle will start ( [/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/](/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/) ).
+It is busy days around the Linaro initiative nowadays. At the Milan meeting a couple of weeks ago, working groups and requirements were set for the next release 11.05 ([https://wiki-archive.linaro.org/Releases/1105/TechnicalTopics](https://wiki-archive.linaro.org/Releases/1105/TechnicalTopics) ). The end of the first 6 months cycle is approaching and on November 11th the next cycle will start ( [/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/](/blog/getting-ready-for-the-developer-summit-and-the-next-release-cycle/) ).
 
 Linaro engineers and other contributors met in Orlando at the Ubuntu developer summit and I am sure many will meet again at the TechCon conference on November 10th and 11th. Don't miss demonstrations there from us and other semiconductor partners as well as updates from the Linaro organization.
 

@@ -42,7 +42,7 @@ This release includes a significant amount of work from the Linaro Networking Gr
 
 The Linaro Enterprise Group continued to build on its work in earlier releases, but a key highlight was getting the continuous integration (CI) loop for OpenJDK-8 on Armv8 up and running. Work remains to get all the tests passing and to amplify the range of the test suites used. In addition, the patch set enabling bit sliced AES for NEON have been completed and merged upstream in the OpenSSL project.
 
-Most of Linaro's working groups now have approved public roadmaps so it is possible to see when key output will be available in the future: [https://wiki.linaro.org/TSC/Roadmaps](https://wiki.linaro.org/TSC/Roadmaps). These roadmaps are based on the requirements of Linaro members and we expect the Power Management and LNG roadmaps to be approved and shared publicly soon.
+Most of Linaro's working groups now have approved public roadmaps so it is possible to see when key output will be available in the future: [https://wiki-archive.linaro.org/TSC/Roadmaps](https://wiki-archive.linaro.org/TSC/Roadmaps). These roadmaps are based on the requirements of Linaro members and we expect the Power Management and LNG roadmaps to be approved and shared publicly soon.
 
 
 ### UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT US 2013 (LCU13)
@@ -65,7 +65,7 @@ We encourage everybody to use the 13.08 release. The download links for all imag
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
 
 
-  * [http://wiki.linaro.org/Cycles/1308/Release#Release_Information](https://wiki.linaro.org/Cycles/1308/Release#Release_Information)
+  * [http://wiki-archive.linaro.org/Cycles/1308/Release#Release_Information](https://wiki-archive.linaro.org/Cycles/1308/Release#Release_Information)
 
 
 
@@ -78,16 +78,16 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
 
-  * [http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 
-  * [http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
 
-  * [http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+  * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 
@@ -100,7 +100,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 
 
-  * [http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+  * [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 
@@ -129,7 +129,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [](/)
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org/)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
@@ -163,7 +163,7 @@ For any errata issues, please see:
 
 
 
-  * [http://wiki.linaro.org/Cycles/1308/Release#Known_Issues](https://wiki.linaro.org/Cycles/1308/Release#Known_Issues)
+  * [http://wiki-archive.linaro.org/Cycles/1308/Release#Known_Issues](https://wiki-archive.linaro.org/Cycles/1308/Release#Known_Issues)
 
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:

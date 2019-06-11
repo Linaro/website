@@ -60,7 +60,7 @@ This group has been very busy and during the recent Linaro Connect event they to
 
   * LCU14-508 BOF: OpenEmbedded, Trevor Woerner, Koen Kooi, Khem Raj
 
-To learn more about the Linaro Home Group (LHG) please visit:  [https://wiki.linaro.org/LHG](https://wiki.linaro.org/LHG)
+To learn more about the Linaro Home Group (LHG) please visit:  [https://wiki-archive.linaro.org/LHG](https://wiki-archive.linaro.org/LHG)
 
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**

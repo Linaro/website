@@ -98,7 +98,7 @@ See example output below.
      -> false negative: pTAs refuse SDP memref from NS clients.
 ```
 
-For a more detailed description of the Linaro Clear Key solution, please see this document: [https://wiki.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf ](https://wiki.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf)
+For a more detailed description of the Linaro Clear Key solution, please see this document: [https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf ](https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf)
 The W3C EME specification [2] details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video. The EME Clear Key solution is required for any compliant EME solution.
 
 

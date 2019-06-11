@@ -140,7 +140,7 @@ Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embed
         </p>
         </div>
         <a href="https://releases.linaro.org/android/reference-lcr/" class="btn btn-primary">View Downloads</a>
-        <a href="https://wiki.linaro.org/LMG/ReleaseProcess" class="btn btn-primary">View Wiki</a>
+        <a href="https://wiki-archive.linaro.org/LMG/ReleaseProcess" class="btn btn-primary">View Wiki</a>
     </div>
 </div>
 <div class="col-sm-4 flex-container download-col">
