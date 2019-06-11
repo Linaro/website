@@ -1307,7 +1307,7 @@ Interviews
 
 Nicolas "Charbax" Charbonnier of Armdevices.net joined Linaro Community Manager, Amber Graner and the FormsCom AV crew to film and interview various people about their roles and take on various aspects of the Arm ecosystem and Linaro. Those interviews include:
 
-_(Please note that as new videos from this event are published they will be added to the [LCA13 wiki page](https://wiki.linaro.org/Events/LCA13))_
+_(Please note that as new videos from this event are published they will be added to the [LCA13 wiki page](https://wiki-archive.linaro.org/Events/LCA13))_
 
 
 

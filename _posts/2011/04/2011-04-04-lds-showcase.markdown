@@ -12,7 +12,7 @@ tags:
 - Community
 ---
 
-If you are going to the [Linaro Developer Summit](https://wiki.linaro.org/Events/2011-05-LDS/) or to the [Ubuntu Developer Summit]()http://uds.ubuntu.com/ in Budapest this year, you may be interested in the [technical showcase](https://wiki.linaro.org/Events/2011-05-LDS/Showcase) that we organize on Tuesday evening.
+If you are going to the [Linaro Developer Summit](https://wiki-archive.linaro.org/Events/2011-05-LDS/) or to the [Ubuntu Developer Summit]()http://uds.ubuntu.com/ in Budapest this year, you may be interested in the [technical showcase](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase) that we organize on Tuesday evening.
 
 Seeing is believing. If you are a member of the Linaro user and developer community, or are curious about Linaro, this will be a unique opportunity:
 
@@ -33,4 +33,4 @@ We are still looking for proposals, such as:
 
 Full HD capable LCD screens with will be provided to people making demonstrations, so that they won't have to carry them by themselves. Linaro will also take care of printing posters provided by demonstrators. Everyone is invited to send proposals, whether you are a developer or a user, and everyone present at UDS and LDS will be welcome.
 
-See our [Wiki](https://wiki.linaro.org/Events/2011-05-LDS) for all practical and proposal submission details.
+See our [Wiki](https://wiki-archive.linaro.org/Events/2011-05-LDS) for all practical and proposal submission details.

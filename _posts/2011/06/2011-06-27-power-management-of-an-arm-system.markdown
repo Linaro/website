@@ -17,7 +17,7 @@ The default behavior of sched_mc is similar to the normal scheduler. You can mod
 The 1st step for Arm platform is to describe its cpu topology. Then, we shall start to study how Arm platforms can take advantage of shed_mc.
 
 **To learn more visit:**
-* Wiki:  [wiki.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc](https://wiki.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc)
+* Wiki:  [wiki-archive.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Specs/sched_mc)
 
 * Blueprint: [blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc]()https://blueprints.edge.launchpad.net/+spec/tr-power-smp-sched-mc
 

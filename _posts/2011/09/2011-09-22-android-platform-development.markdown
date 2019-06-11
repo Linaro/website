@@ -28,7 +28,7 @@ He starts by giving details about Android, its implementation, and how source co
 With this presentation, you get a good understanding about what Android is, and Zach makes you feel like adding support for your own boards. Even if you heard about Android before, this was a very interesting talk, and you got out of the room with clear ideas.
 
 
-Slides can be found on the [Linaro wiki](https://wiki.linaro.org/Events/LinaroConnectQ3.11/Presentations?action=AttachFile&do=get&target=Introduction_to_Android_Platform_Development.pdf). 
+Slides can be found on the [Linaro wiki](https://wiki-archive.linaro.org/Events/LinaroConnectQ3.11/Presentations?action=AttachFile&do=get&target=Introduction_to_Android_Platform_Development.pdf). 
 
 On a related topic, you may also be interested in the video coverage of a meeting between Arm and Linaro engineers, sharing their plans about Android:
 

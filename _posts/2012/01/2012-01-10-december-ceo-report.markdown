@@ -19,7 +19,7 @@ Despite the impact of the very welcome holiday season Linaro achieved a new set 
 
 **In February** we produced our first member newsletter; powerdebug and powertop tools were released on all member SoCs; ST-Ericsson announced Snowball; we made initial deliverables on the LAVA project; and Nokia announced their plans to tie up with Microsoft.
 
-**In March** we introduced the Linaro KPIs at wiki.linaro.org/Metrics; we compiled the first kernel in Thumb-2 mode; we announced the Linaro Partner program; and forthcoming Android Evaluation Builds.
+**In March** we introduced the Linaro KPIs at wiki-archive.linaro.org/Metrics; we compiled the first kernel in Thumb-2 mode; we announced the Linaro Partner program; and forthcoming Android Evaluation Builds.
 
 **In April** the Unified Memory Management project was kicked off; and Device Tree was released initially on OMAP and i.MX51 boards.
 

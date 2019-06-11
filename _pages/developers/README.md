@@ -10,7 +10,7 @@ jumbotron:
 ---
 **Whether you are an individual or an employee of a organization it is easy to get involved with Linaro**
 
-You will see that there are several ways to become involved and that everything we do is open, not only software but also our [wiki](http://wiki.linaro.org/FrontPage) and our discussions (on IRC and on our mailing lists).
+You will see that there are several ways to become involved and that everything we do is open, not only software but also our [wiki](http://wiki-archive.linaro.org/FrontPage) and our discussions (on IRC and on our mailing lists).
 
 <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
 
@@ -48,20 +48,20 @@ Join us at the next [Linaro Connect](https://connect.linaro.org/) and subscribe 
 
 **Running Linaro on your hardware**
 
-*   There are two ways to get a Linaro build on your hardware. The fastest way is to grab a milestone image and “dd” it to your SD card. If you’d like a little more customization of things like filesystem type, then you can follow the instructions on the [boards page](https://wiki.linaro.org/Boards) of the Wiki. They explain how to pick a hardware pack, root filesystem, and then install them using Linaro Image Tools. The developer Wiki includes an up-to-date list of what hardware is supported by our current builds. There is also a list of [low cost development boards](http://wiki.linaro.org/Boards), with links to retailers.
+*   There are two ways to get a Linaro build on your hardware. The fastest way is to grab a milestone image and “dd” it to your SD card. If you’d like a little more customization of things like filesystem type, then you can follow the instructions on the [boards page](https://wiki-archive.linaro.org/Boards) of the Wiki. They explain how to pick a hardware pack, root filesystem, and then install them using Linaro Image Tools. The developer Wiki includes an up-to-date list of what hardware is supported by our current builds. There is also a list of [low cost development boards](http://wiki-archive.linaro.org/Boards), with links to retailers.
 
 ## Running Linaro without hardware
 
-You can still experiment with Linaro builds even if you don’t have physical hardware. We have a quick guide to [using Qemu with Linaro builds](https://wiki.linaro.org/Resources/HowTo/Qemu).
+You can still experiment with Linaro builds even if you don’t have physical hardware. We have a quick guide to [using Qemu with Linaro builds](https://wiki-archive.linaro.org/Resources/HowTo/Qemu).
 
 ## Using the Linaro Toolchain
 
-If you are interested in building software using the Linaro toolchain, you can follow the what the Linaro Toolchain group has been doing on their wiki page to more information. [Toolchain Wiki page](https://wiki.linaro.org/WorkingGroups/ToolChain)
+If you are interested in building software using the Linaro toolchain, you can follow the what the Linaro Toolchain group has been doing on their wiki page to more information. [Toolchain Wiki page](https://wiki-archive.linaro.org/WorkingGroups/ToolChain)
 
 
 ## Using the Linaro Kernel
 
-*   If you are interested in doing some kernel hacking take a look at: [Linaro Kernel Tree Policy](http://wiki.linaro.org/Platform/DevPlatform/LinuxLinaroKernelTreeProcess). For more on building and deploying try [Build and Deploy a Kernel](https://wiki.linaro.org/Resources/HowTo/KernelDeploy) and [Debian Build and Packaging of a Kernel](https://wiki.linaro.org/Resources/HowTo/PackageYourOwnKernel).
+*   If you are interested in doing some kernel hacking take a look at: [Linaro Kernel Tree Policy](http://wiki-archive.linaro.org/Platform/DevPlatform/LinuxLinaroKernelTreeProcess). For more on building and deploying try [Build and Deploy a Kernel](https://wiki-archive.linaro.org/Resources/HowTo/KernelDeploy) and [Debian Build and Packaging of a Kernel](https://wiki-archive.linaro.org/Resources/HowTo/PackageYourOwnKernel).
 </div>
 
 
@@ -74,7 +74,7 @@ If you are working for a silicon provider who needs help upstreaming code to the
 
 **System enablers and developers (software integrators, related hardware developers and OEM/ODMs)**
 
-*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6 "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates at [contact@linaro.org](mailto:contact@linaro.org).
+*   Almost everything we do is open and can provide many building blocks for systems. We have begun to put together guides for using Linaro builds as the basis for real products: currently one for [Android](https://wiki-archive.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product builders") and one for [Ubuntu](https://wiki-archive.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for Ubuntu products builders"). If you have questions, please visit [Linaro Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6 "Linaro support") to see if we have already answered them or post a new question and our community of experts will respond. We hope you will consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and reduce future maintenance costs. If you want to take an active role and get your engineers contributing directly to Linaro, please contact Joe Bates at [contact@linaro.org](mailto:contact@linaro.org).
 
 </div>
 
@@ -93,13 +93,13 @@ If you are working for a silicon provider who needs help upstreaming code to the
 Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)  
 Downloads – [/downloads/](/downloads/)
 
-Help on filing a bug using Launchpad can be found [here](https://wiki.linaro.org/Resources/HowTo/LoggingABug).
+Help on filing a bug using Launchpad can be found [here](https://wiki-archive.linaro.org/Resources/HowTo/LoggingABug).
 
 Internet Relay Chat (IRC) is a form of realtime Internet chat. It is mainly designed for group (many-to-many) communication in discussion forums called channels, but also allows one-to-one communication via private message. On IRC you can talk to many of the Linaro developers, about a range of topics. The [IRC page](http://irclogs.linaro.org/ "Linaro IRC logs") on this site shows archived conversations from the Linaro IRC channel.
 
 Linaro’s IRC channels are hosted on [Freenode](http://freenode.net/). Users can join **#linaro** on [irc.freenode.net](http://freenode.net/) to chat with Linaro developers.
 
-A complete list of Linaro IRC channels can be found [here](https://wiki.linaro.org/GettingInvolved/IRC).
+A complete list of Linaro IRC channels can be found [here](https://wiki-archive.linaro.org/GettingInvolved/IRC).
 
 </div>
 

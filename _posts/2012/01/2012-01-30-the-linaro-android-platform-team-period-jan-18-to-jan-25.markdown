@@ -23,7 +23,7 @@ wordpress_id: 1221
 
 Hello again.
 
-The 12.01 Release is out. The full story can be found[ here](https://wiki.linaro.org/Cycles/1201/Release/). The Android team is now working closely with the Landing teams to get hardware acceleration going on all fronts. Here is a summary of this weeks progress:
+The 12.01 Release is out. The full story can be found[ here](https://wiki-archive.linaro.org/Cycles/1201/Release/). The Android team is now working closely with the Landing teams to get hardware acceleration going on all fronts. Here is a summary of this weeks progress:
 
 
 ### Key Points for wider discussion

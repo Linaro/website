@@ -21,7 +21,7 @@ title: Linaro Connect Asia 2014 - Kicks Off in Macau
 wordpress_id: 3430
 ---
 
-[Linaro Connect Asia 2014 ](https://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/) and is a founding member of the new [Linaro Digital Home Group](https://wiki.linaro.org/LHG). 
+[Linaro Connect Asia 2014 ](https://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/) and is a founding member of the new [Linaro Digital Home Group](https://wiki-archive.linaro.org/LHG). 
 
 In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief Arm Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: Arm in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for Arm in the Enterprise. 
 

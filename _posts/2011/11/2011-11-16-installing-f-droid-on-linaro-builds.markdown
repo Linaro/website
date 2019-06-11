@@ -22,7 +22,7 @@ wordpress_id: 879
 
 In a [previous post](/blog/using-markets-with-linaro-android-builds/), I wrote about using app markets with Linaro builds. One app market offering a selection of Free Software for Android is F-Droid[1]. Installation is fairly simple, but does require some configuration changes to get the most out of it, so here's how to install F-Droid on a Linaro build and some of the tweaks needed to be able to install all the apps available there.
 
-We assume a Linaro image is already installed on the board. Instructions for how to do this are in the [Linaro Wiki](https://wiki.linaro.org/Platform/Android/ImageInstallation). Installation of F-Droid is pretty simple:
+We assume a Linaro image is already installed on the board. Instructions for how to do this are in the [Linaro Wiki](https://wiki-archive.linaro.org/Platform/Android/ImageInstallation). Installation of F-Droid is pretty simple:
 
 
   1. In the Android browser, go to http://f-droid.org/FDroid.apk to download the F-Droid .apk, or otherwise locate and download the .apk file by browsing http://f-droid.org

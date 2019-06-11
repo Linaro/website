@@ -186,7 +186,7 @@
             }
         ],
         "membership_group_name": "MI Incubator Members",
-        "text": "The Machine Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
+        "text": "The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
         "url": "/engineering/artificial-intelligence/"
     },
     {
