@@ -52,12 +52,12 @@ See the detailed highlights of this release to get an overview of what has been 
 
 The release details are linked from the "Details" column for each released artifact on the release information:
 
-[http://wiki.linaro.org/Cycles/1110/Release#Release_Information](http://wiki.linaro.org/Cycles/1110/Release#Release_Information)
+[http://wiki-archive.linaro.org/Cycles/1110/Release#Release_Information](http://wiki-archive.linaro.org/Cycles/1110/Release#Release_Information)
 
 For better support and tracking the hardware sanity of our supported boards, we now publish a board support status with each monthly release. The results for Linaro 11.10 are available here:
 
-Android: [http://wiki.linaro.org/Cycles/1110/BoardSupport/Android](http://wiki.linaro.org/Cycles/1110/BoardSupport/Android)
-Ubuntu: [http://wiki.linaro.org/Cycles/1110/BoardSupport/Ubuntu](http://wiki.linaro.org/Cycles/1110/BoardSupport/Ubuntu)
+Android: [http://wiki-archive.linaro.org/Cycles/1110/BoardSupport/Android](http://wiki-archive.linaro.org/Cycles/1110/BoardSupport/Android)
+Ubuntu: [http://wiki-archive.linaro.org/Cycles/1110/BoardSupport/Ubuntu](http://wiki-archive.linaro.org/Cycles/1110/BoardSupport/Ubuntu)
 
 
 ## Using the Android-based images
@@ -65,12 +65,12 @@ Ubuntu: [http://wiki.linaro.org/Cycles/1110/BoardSupport/Ubuntu](http://wiki.lin
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-[http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+[http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-[http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
-[http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+[http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
+[http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 ## Using the Ubuntu-based images
@@ -78,7 +78,7 @@ If you are interested in getting the source and building these images yourself p
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-[http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+[http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 ## Getting involved
@@ -89,7 +89,7 @@ More information on Linaro can be found on our websites:
   * Homepage: []()
 
 
-  * Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
+  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
@@ -111,6 +111,6 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
 For any errata issues, please see:
-[http://wiki.linaro.org/Cycles/1110/Release#Known_Issues](http://wiki.linaro.org/Cycles/1110/Release#Known_Issues)
+[http://wiki-archive.linaro.org/Cycles/1110/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1110/Release#Known_Issues)
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to: [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)

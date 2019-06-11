@@ -46,7 +46,7 @@ By watching the video or reading the slides, you will learn about:
 
 
 
-We also had the pleasure to have famous kernel contributors in the room: Thomas Gleixner and Grant Likely, who now work for Linaro (see our [MeetTheTeam wiki page](https://wiki.linaro.org/MeetTheTeam) for details), and added insightful comments.
+We also had the pleasure to have famous kernel contributors in the room: Thomas Gleixner and Grant Likely, who now work for Linaro (see our [MeetTheTeam wiki page](https://wiki-archive.linaro.org/MeetTheTeam) for details), and added insightful comments.
 
 
 The video can also be downloaded in WebM format:

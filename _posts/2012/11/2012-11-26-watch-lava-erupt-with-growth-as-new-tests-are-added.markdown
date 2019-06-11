@@ -21,7 +21,7 @@ wordpress_id: 2028
 
 > Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled. ~Dave Pigott, LAVA Lab Lead 
 
-[Dave Pigott, ](/about/)Lava Lab Lead at Linaro recently gave a presentation about [LAVA—](https://wiki.linaro.org/Platform/LAVA)Linaro Automated Validation Architecture—and as part of this showed [an animated version of LAVA](http://youtu.be/_m1nbcRba5w) from its go live date of 27 July 2011 through 6 November 2012.
+[Dave Pigott, ](/about/)Lava Lab Lead at Linaro recently gave a presentation about [LAVA—](https://wiki-archive.linaro.org/Platform/LAVA)Linaro Automated Validation Architecture—and as part of this showed [an animated version of LAVA](http://youtu.be/_m1nbcRba5w) from its go live date of 27 July 2011 through 6 November 2012.
 
 I was curious as to how he created this video presentation, so I asked him about the process, the software he used and more.
 
@@ -64,7 +64,7 @@ Outside of that, the little avatars represent people or processes submitting job
 
 _[LAVA ](http://lava.readthedocs.org/en/latest/)is an automated testing framework developed by Linaro. It includes a web framework with extensions for scheduling jobs and storing results. The web framework can be extended with custom extensions for storing new types of data, or presenting custom result views. LAVA has a dispatcher component for processing test jobs that can deploy Ubuntu based and Android based Linaro images on supported development boards. Custom extensions can be written to support additional client types, or operations to perform. LAVA has test runners that can provide a consistent interface to various Linux and Android test suites with additional test suites added easily._
 
-_More information about [LAVA](https://wiki.linaro.org/Platform/LAVA), its use, or getting involved with the team can be found on the [Linaro Wiki](https://wiki.linaro.org/Platform/LAVA). The LAVA Team has a [weekly meeting](https://wiki.linaro.org/Platform/LAB), a [mailing list](http://lists.linaro.org/mailman/listinfo/linaro-validation) and members of the team can be found in the #linaro IRC channel on irc.freenode.net._
+_More information about [LAVA](https://wiki-archive.linaro.org/Platform/LAVA), its use, or getting involved with the team can be found on the [Linaro Wiki](https://wiki-archive.linaro.org/Platform/LAVA). The LAVA Team has a [weekly meeting](https://wiki-archive.linaro.org/Platform/LAB), a [mailing list](http://lists.linaro.org/mailman/listinfo/linaro-validation) and members of the team can be found in the #linaro IRC channel on irc.freenode.net._
 
 
 ### About Linaro

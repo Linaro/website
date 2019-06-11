@@ -23,15 +23,15 @@ wordpress_id: 2172
 
 The [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
 
-Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/downloads/)
+Today’s LEG release is being done in parallel with the [Linaro 12.12 release](https://wiki-archive.linaro.org/Cycles/1212/Release). Download information for the Linaro 12.12 release can be found at: [/downloads/](/downloads/)
 
 This is the first release of Linaro Enterprise Group (LEG). This release is meant to be an engineering preview of the great collaborative work done by LEG and its partners over the past two months.
 
-Release Highlights include [CRC32](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#CRC32), [Compression Analysis](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#Compression_Analysis), [NUMA](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#Non-Uniform_Memory_Access), [HugePages](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#HugePages), [GRUB on Arm](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#GRUB_on_Arm), and [Ubuntu 12.04 Server for the Samsung Arndale Board](https://wiki.linaro.org/LEG/Engineering/Releases/12.12#Ubuntu_12.04_Server_for_the_Samsung_Arndale_board).
+Release Highlights include [CRC32](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#CRC32), [Compression Analysis](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#Compression_Analysis), [NUMA](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#Non-Uniform_Memory_Access), [HugePages](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#HugePages), [GRUB on Arm](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#GRUB_on_Arm), and [Ubuntu 12.04 Server for the Samsung Arndale Board](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12#Ubuntu_12.04_Server_for_the_Samsung_Arndale_board).
 
 In addition to the collaboration with Canonical on Ubuntu, LEG is also preparing to synchronize developments with Red Hat on its initial Fedora bootstrap for the Armv8 (64bit) Foundation model.
 
-Full details of this release, can be found on the LEG release wiki page at: [https://wiki.linaro.org/LEG/Engineering/Releases/12.12](https://wiki.linaro.org/LEG/Engineering/Releases/12.12)
+Full details of this release, can be found on the LEG release wiki page at: [https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12](https://wiki-archive.linaro.org/LEG/Engineering/Releases/12.12)
 
 _**This is an engineering preview and should NOT be used for production purposes.**_
 
@@ -42,7 +42,7 @@ More information on Linaro can be found on our websites:
   * Homepage: [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/)
 
 
-  * Wiki: [https://wiki.linaro.org/LEG](https://wiki.linaro.org/LEG)
+  * Wiki: [https://wiki-archive.linaro.org/LEG](https://wiki-archive.linaro.org/LEG)
 
 
 Also subscribe to the LEG mailing list and join our IRC channel to stay on top of Linaro developments:
@@ -50,14 +50,14 @@ Also subscribe to the LEG mailing list and join our IRC channel to stay on top o
   * LEG's public mailing list - [linaro-enterprise](http://lists.linaro.org/mailman/listinfo/linaro-enterprise). Archive is [here](http://lists.linaro.org/pipermail/linaro-enterprise/)
 
 
-  * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki.linaro.org/GettingInvolved/IRC).
+  * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki-archive.linaro.org/GettingInvolved/IRC).
 
 
 For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on Arm.  [Registration for this event is now open](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/).
 
 Between development cycles you can stay up to date with all the latest news in an around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg).
 
-[1]The 2013 LEG release schedule has yet to be finalized; however; you can follow our [wiki page](https://wiki.linaro.org/LEG) for all the latest updates.
+[1]The 2013 LEG release schedule has yet to be finalized; however; you can follow our [wiki page](https://wiki-archive.linaro.org/LEG) for all the latest updates.
 
 #### About
 

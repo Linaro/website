@@ -35,7 +35,7 @@ While we do offer remote participation for most sessions through Google+ Hangout
 ## What did I miss at the last Linaro Connect event?
 
 
-If you are wondering what Linaro Connect events are all about then check out the [summary](https://wiki.linaro.org/Events/LCA13) from Linaro Connect Asia 2013 (LCA13-Hong Kong).
+If you are wondering what Linaro Connect events are all about then check out the [summary](https://wiki-archive.linaro.org/Events/LCA13) from Linaro Connect Asia 2013 (LCA13-Hong Kong).
 
 
 ## Where can I find out more about LCE13-Dublin?

@@ -57,13 +57,13 @@ Highlights from this Linaro Connect event which influence this and future releas
 
 Other video from Linaro can be found on the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg).
 
-Additional highlights from Linaro Connect Q1.12 from the Linaro [Dev Platform](https://wiki.linaro.org/Platform/DevPlatform) and [Multimedia Teams](https://wiki.linaro.org/WorkingGroups/Middleware/Multimedia) include:
+Additional highlights from Linaro Connect Q1.12 from the Linaro [Dev Platform](https://wiki-archive.linaro.org/Platform/DevPlatform) and [Multimedia Teams](https://wiki-archive.linaro.org/WorkingGroups/Middleware/Multimedia) include:
 
-By using proper image builds and validation with [LAVA](https://wiki.linaro.org/Platform/Validation/LAVA/Documentation) the Linaro Dev Platform can ensure all images are properly tested as soon they are published. A new proposal for the linux-linaro tree was introduced which will make the linux-linaro tree the single reference for kernel work at Linaro and should always be working against latest upstream RC release.
+By using proper image builds and validation with [LAVA](https://wiki-archive.linaro.org/Platform/Validation/LAVA/Documentation) the Linaro Dev Platform can ensure all images are properly tested as soon they are published. A new proposal for the linux-linaro tree was introduced which will make the linux-linaro tree the single reference for kernel work at Linaro and should always be working against latest upstream RC release.
 
 The Linaro Dev Platform team will now be responsible for packaging and maintenance of all the LT kernel flavors. Responsibilities will include validating the kernel daily with LAVA, and only publishing the kernels (which pass validation testing) to be used by the LEB images (until the new linux-linaro tree is in place).
 
-During both Linaro Connect Q1.12 and the Embedded Linux Conference (ELC), Rob Clark and Sumit Semwal demo'd v4l2+drm buffer sharing with dmabuf as part of the Unified Memory Management work carried out by Linaro and its members.  The Multimedia team worked to improve the validation outlook on LAVA for audio and created test definitions which are related to e2e tests-- which will run on LAVA for Ubuntu and Android, as well as a number of benchmarks (LJT, Realvideo). The first internal demo of the dashboard for Graphics benchmarks with glmark2 was showcased at this Linaro Connect and the [Linaro Graphics team](https://wiki.linaro.org/WorkingGroups/Middleware/Graphics) notes that even at this early stage the dashboard shows great promise to detect graphics related performance regressions. The CMA testing suite on LAVA was also updated and follows the newest versions of CMA patches--Contiguous Memory Allocator - part of the Unified Memory Management effort.
+During both Linaro Connect Q1.12 and the Embedded Linux Conference (ELC), Rob Clark and Sumit Semwal demo'd v4l2+drm buffer sharing with dmabuf as part of the Unified Memory Management work carried out by Linaro and its members.  The Multimedia team worked to improve the validation outlook on LAVA for audio and created test definitions which are related to e2e tests-- which will run on LAVA for Ubuntu and Android, as well as a number of benchmarks (LJT, Realvideo). The first internal demo of the dashboard for Graphics benchmarks with glmark2 was showcased at this Linaro Connect and the [Linaro Graphics team](https://wiki-archive.linaro.org/WorkingGroups/Middleware/Graphics) notes that even at this early stage the dashboard shows great promise to detect graphics related performance regressions. The CMA testing suite on LAVA was also updated and follows the newest versions of CMA patches--Contiguous Memory Allocator - part of the Unified Memory Management effort.
 
 We encourage everybody to use the 12.02 release. The download links for all images and components are available on our downloads page:
 
@@ -73,27 +73,27 @@ See the detailed highlights of this release to get an overview of what has been 
 
 The release details are linked from the “Details” column for each released artifact on the release information:
 
-[http://wiki.linaro.org/Cycles/1202/Release#Release_Information](http://wiki.linaro.org/Cycles/1202/Release#Release_Information)
+[http://wiki-archive.linaro.org/Cycles/1202/Release#Release_Information](http://wiki-archive.linaro.org/Cycles/1202/Release#Release_Information)
 
 ## Using the Android-based images
 
 The Android-based images come in three parts: system, userdata and boot.
 These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-[http://wiki.linaro.org/Platform/Android/ImageInstallation](http://wiki.linaro.org/Platform/Android/ImageInstallation)
+[http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-[http://wiki.linaro.org/Platform/Android/GetSource](http://wiki.linaro.org/Platform/Android/GetSource)
+[http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
-[http://wiki.linaro.org/Platform/Android/BuildSource](http://wiki.linaro.org/Platform/Android/BuildSource)
+[http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 
 ## Using the Ubuntu-based images
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-[http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
+[http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
 
 
@@ -103,7 +103,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 * Homepage: []()
-* Wiki: [http://wiki.linaro.org](http://wiki.linaro.org)
+* Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC
 channels to stay on top of Linaro developments:
@@ -122,7 +122,7 @@ channels to stay on top of Linaro developments:
 ## Known issues with this release
 
 For any errata issues, please see:
-[http://wiki.linaro.org/Cycles/1202/Release#Known_Issues](http://wiki.linaro.org/Cycles/1202/Release#Known_Issues)
+[http://wiki-archive.linaro.org/Cycles/1202/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1202/Release#Known_Issues)
 
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 

@@ -46,7 +46,7 @@ We use these tools as a part of our testing process:
 
 ### Diagram
 
-Our CI loop flow diagram can be found here https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=view&target=pmwg-ci-poster.pdf.
+Our CI loop flow diagram can be found here - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=view&target=pmwg-ci-poster.pdf.
 
 ### Workloads, Device Configuration, and Agendas
 
@@ -54,7 +54,7 @@ We use the [Linaro QA test definitions repository](https://git.linaro.org/qa/te
 
 Please make sure that you have adb working in LAVA if you are running WA Android workloads, or SSH working in LAVA if you are running WA Linux workloads.
 
-The WAv3 default device configuration files and agendas can be found from the Linaro QA [wa-templates](https://git.linaro.org/qa/wa-templates.git) repository. PMWG specific agendas and config files can be found on our [wa3-lava](https://git.linaro.org/power/wa3-lava.git) repository.
+The WAv3 default device configuration files and agendas can be found from the Linaro QA [wa-templates](https://git.linaro.org/qa/wa-templates.git)repository. PMWG specific agendas and config files can be found on our [wa3-lava](https://git.linaro.org/power/wa3-lava.git) repository.
 
 ### AEP setup
 
@@ -72,8 +72,9 @@ ls /dev/serial/by-id/ on the host machine. The output should look similar to t
 
 /dev/serial/by-id/usb-NXP_SEMICOND_ARM_Energy_Probe_S_NOXXXXXXXX-if00. 
 - Update the LAVA device configuration file to include 
-
+{% raw  %}
 {% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID. 
+{% endraw  %}
 
 ### Data post processing
 
@@ -85,21 +86,23 @@ We use QA reports to display graphs and trends. QA reports uses the [SQUAD](htt
 
 ### LAVA job definition example
 
-To get started, you can download this [LAVA jobdefinition https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=upload_form&ticket=005cf936ba.f2cff06a4ee8ad3e29eee27b75676f5b9dac9af3&target=wa3-dhrystone-example.yaml and submit it on your LAVA instance. Please note that this example DOES NOT include the arm-probe, email notification, and post-processing sections that we use in our CI loops. You may need to change the device type and image links.
+To get started, you can download this LAVA job definition - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm?action=AttachFile&do=upload_form&ticket=005cf783fb.c5a9691eca2feea13925ba3a744ceb0ecc620d8c&target=wa3-dhrystone-example.yaml and submit it on your LAVA instance. Please note that this example **DOES NOT** include the arm-probe, email notification, and post-processing sections that we use in our CI loops. You may need to change the device type and image links.
 
 This example is created to get users running Workload Automation on Hikey Android in LAVA, and they can expand from there.
 
 ## References
 
-If you need general LAVA help (e.g. how to submit a job, how to install LAVA, tips for writing test definitions), please try one of the following suggestions:
+If you need general **LAVA** help (e.g. how to submit a job, how to install LAVA, tips for writing test definitions), please try one of the following suggestions:
 
 - Read the LAVA [documentation](https://validation.linaro.org/static/docs/v2/). It is thoroughly written. 
-- Email questions to the LAVA users mailing list at [lava-users@lists.lavasoftware.org](mailto:lava-users@lists.lavasoftware.org) so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem. 
+- Email questions to the LAVA users mailing list at 
+
+&lt;lava-users AT lists DOT lavasoftware DOT org&gt; so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem. 
 - Visit the [LAVA Software Community Project](https://www.lavasoftware.org/) website. 
 - Have a Linaro LDAP account and want to try running your first LAVA job? Visit [here](https://validation.linaro.org/static/docs/v2/first_steps.html#linaro-lab-users). 
 
-To learn how to use parameters or enable instruments in your agenda and how Workload Automation works in detail, please visit the [WA document site](https://workload-automation.readthedocs.io/en/latest/).
+To learn how to use parameters or enable instruments in your agenda and how **Workload Automation** works in detail, please visit the [WA document site](https://workload-automation.readthedocs.io/en/latest/).
 
-If you experience issues with Workload Automation (e.g. can't run a workload, installation problems, reporting bugs), please create an [issue](https://github.com/arm-software/workload-automation/issues) at the Workload Automation github page.
+If you experience issues with **Workload Automation** (e.g. can't run a workload, installation problems, reporting bugs), please create an [issue](https://github.com/arm-software/workload-automation/issues) at the Workload Automation github page.
 
-If you need help setting up the LISA toolkit, please create an [issue](https://github.com/ARM-software/lisa/issues) at the LISA toolkit github page.
+If you need help setting up the **LISA toolkit**, please create an [issue](https://github.com/ARM-software/lisa/issues) at the LISA toolkit github page.

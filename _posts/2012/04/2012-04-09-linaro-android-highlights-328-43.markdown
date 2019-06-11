@@ -19,4 +19,4 @@ categories:
 
 
 See all the highlights at:
-[https://wiki.linaro.org/Platform/Android/Meetings/2012-04-04](https://wiki.linaro.org/Platform/Android/Meetings/2012-04-04)
+[https://wiki-archive.linaro.org/Platform/Android/Meetings/2012-04-04](https://wiki-archive.linaro.org/Platform/Android/Meetings/2012-04-04)

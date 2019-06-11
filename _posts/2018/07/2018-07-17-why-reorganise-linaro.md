@@ -34,7 +34,7 @@ Edge and Fog networking has some interesting characteristics:
     - Today most devices join a single network but, in the future, they will be part of many clouds and will need to exchange and trust information.  
 
 - Compliance and interoperability 
-    - Compared to networking in the past, edge and fog networking is much more complex, with that complexity being supported by a myriad of standards and those standards being supported by open source software. Being slightly biased, I would say that you cannot roll out such standards without using open source software.  The key consortium supporting and guiding this is the [OpenFog Consortium](https://www.openfogconsortium.org/). 
+    - Compared to networking in the past, edge and fog networking is much more complex, with that complexity being supported by a myriad of standards and those standards being supported by open source software. Being slightly biased, I would say that you cannot roll out such standards without using open source software.  The key consortium supporting and guiding this is the [OpenFog Consortium](https://en.wikipedia.org/wiki/OpenFog_Consortium). 
     
 A key activity of LEDGE will be to deliver a secure, predictable and reliable reference open software architecture and base platform for edge and fog computing. If we don’t, it will slow down the introduction of Arm based devices and new network technologies.   This is especially true for network gateways.   Happily,  much progress is being made by Arm on Embedded Base Boot Requirements ([EBBR](https://developer.arm.com/products/architecture/system-architecture/embedded-system-architecture)).  One of the early LEDGE discussion is how this flexible standard could be practically implemented:
 

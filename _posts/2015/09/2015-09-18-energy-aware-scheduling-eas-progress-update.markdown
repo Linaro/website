@@ -190,7 +190,7 @@ Arm & Linaro have been working on implementing opensource test and analysis tool
 
 ### rt-app/ WorkloadGen  (Linaro)
 
-[https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen)
+[https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen)
 
 Most existing benchmarks run flat-out, and there are few good existing tools to run lower-intensity use cases.
 
@@ -219,7 +219,7 @@ One important feature is it contains an API used for tracking behaviors for thre
 
 ### idlestat (Linaro)
 
-[https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat](https://wiki.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat)
+[https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat)
 
 Idlestat uses kernel frace to monitor and capture C-state and P-state transitions of CPUs over a time interval. Idlestat can also use an energy model for a given platform to help estimate the energy consumption of a given workload.
 

@@ -44,6 +44,6 @@ Here is a summary of covered topics:
   * Linaro bootloaders, kernel (and how to rebuild), hardware packs
 
 
-Make sure you watch this video if you wish to participate to the next [Linaro Connect](https://connect.linaro.org/) event. You will find more engineering resources on the [Linaro Engineering Resources](https://wiki.linaro.org/Resources) wiki page.
+Make sure you watch this video if you wish to participate to the next [Linaro Connect](https://connect.linaro.org/) event. You will find more engineering resources on the [Linaro Engineering Resources](https://wiki-archive.linaro.org/Resources) wiki page.
 
 By the way, I joined this Engineering Resources team, working with Andy and reporting to Joey Stanford. I am still Linaro's Community Manager, but it made a lot of sense to join this team, as there are many things in common between supporting Linaro engineers and supporting community contributors.
