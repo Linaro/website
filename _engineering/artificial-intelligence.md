@@ -16,6 +16,7 @@ jumbotron:
     description: ""
     background-image: /assets/images/content/machine-learning-bg.jpg
 ---
+
 {% include media.html media_url="https://www.youtube.com/watch?v=EHM-krkB42Y" %}
 
 The Artifical Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.
