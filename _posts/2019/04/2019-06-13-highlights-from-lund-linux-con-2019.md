@@ -4,7 +4,7 @@ author: linaro
 layout: post
 date: 2019-06-13 00:00:00
 description: >-
-  A few weeks one of Linaro attended Lund Linux Con 2019, the largest conference
+  A few weeks ago, Linaro attended Lund Linux Con 2019, the largest conference
   in Scandinavia focused on the Linux Kernel. Here are some of the highlights.
 categories:
   - Blog
