@@ -1,6 +1,6 @@
 ---
 title: Highlights from Lund Linux Con 2019
-author: linaro
+author: niklas.cassel
 layout: post
 date: 2019-06-13 00:00:00
 description: >-
