@@ -21,7 +21,7 @@ tags:
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
-[The Linaro Digital Home Group ](/engineering/)(LHG) is celebrating its third year anniversary![![](/assets/blog/blog-2.png)](/engineering/)
+[The Linaro Digital Home Group ](/engineering/)(LHG) is celebrating its third year anniversary![![](/assets/images/blog/blog-2.png)](/engineering/)
 
 {% include image.html name="blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
 

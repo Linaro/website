@@ -65,7 +65,7 @@ Wednesday March 5
 </tbody>
 </table>
 Wednesday was another full day filled with sessions from the working groups, engineering teams and segment groups.  Topic areas include the Armv8 kernel, Energy-efficient Scheduler, big.LITTLE GTS, Android, Arm Trusted Firmware, 64-bit GNU and LLVM toolchains, UEFI secure boot, ACPI, OpenDataPlane (ODP), VM Standards, LSK and LAVA/CI Loops.  Below are the links to the session presentations and videos that took place on Wednesday.[
-](/assets/blog/12941187924_7dc616613c.jpg)
+](/assets/images/blog/12941187924_7dc616613c.jpg)
 <table cellpadding="0" width="874" cellspacing="0" border="1" >
 <tbody >
 <tr >
