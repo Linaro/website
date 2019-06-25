@@ -2,3 +2,6 @@ _site
 .asset-cache
 .sass-cache
 .jekyll-metadata
+assets/resized
+built_site
+.gems
