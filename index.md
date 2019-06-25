@@ -1,5 +1,5 @@
 ---
-layout: jumbotron
+layout: flow
 js-package: home
 css-package: home
 edit-on-github: "false"
@@ -37,8 +37,13 @@ jumbotron:
               buttons:
                 - title: Learn more
                   url: /news/peng-cheng-laboratory-pcl-joins-linaro-as-associate-member/
+flow:
+    - type: custom_include_row
+      source: home/collaborative-engineering.html 
+    - type: custom_include_row
+      source: home/developer-services.html
+    - type: custom_include_row
+      source: home/96boards.html 
+    - type: custom_include_row
+      source: home/connect.html
 ---
-{% include home/collaborative-engineering.html %}
-{% include home/developer-services.html %}
-{% include home/96boards.html %}
-{% include home/connect.html %}
