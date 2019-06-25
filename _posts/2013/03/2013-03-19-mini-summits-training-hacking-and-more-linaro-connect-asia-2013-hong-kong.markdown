@@ -2305,4 +2305,4 @@ If you or your organization joined us in Hong Kong, thank you! If you are lookin
 More information on Linaro Connect can be found at: [connect.linaro.org](https://connect.linaro.org). Registration for Linaro Connect Europe 2013 is now [open](http://linaroconnect-lce13-eorg.eventbrite.com/).
 
 
-[![Linaro Connect Europe Banner Image](/assets/blog/lce13-mico.png)](https://connect.linaro.org) Linaro Connect Europe 2013 Banner Image
+[![Linaro Connect Europe Banner Image](/assets/images/blog/lce13-mico.png)](https://connect.linaro.org) Linaro Connect Europe 2013 Banner Image
