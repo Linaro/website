@@ -78,7 +78,6 @@ team:
       experience includes CFO of Tadpole Technology when it went public in 1992,
       where he and George Grey worked together. Rob is passionate about helping
       build companies and generating maximum value from scarce resources.
-
         
 ---
 
