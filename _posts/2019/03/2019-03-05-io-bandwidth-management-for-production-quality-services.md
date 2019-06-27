@@ -78,7 +78,7 @@ We assume that clients have to be treated equally. So, since the device reaches 
 Complete failure with no I/O policy enforced  
 ============================================  
   
-The throughput reached while serving these clients is reported in Figure [clients-no-control](/asset/images/content/throughputs-no-control-bw-table.png), for the following mix of client I/O:  
+The throughput reached while serving these clients is reported in Figure [clients-no-control](/assets/images/content/throughputs-no-control-bw-table.png), for the following mix of client I/O:  
   
 - one client, called *target*, doing random 4KB reads;  
 
@@ -120,7 +120,7 @@ Limit throughput of bandwidth hogs
   
 The Linux throttling I/O policy [io-controller](https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt) allows a maximum-bandwidth limit, *max limit* for brevity, to be set for the I/O of any group of processes.  
   
-Max limits are the most used I/O-control mechanism for addressing bandwidth issues: offended clients, such as the target in Figure [clients-no-control](/asset/images/content/throughputs-no-control-bw-table.png), are given back their expected bandwidths, by detecting and limiting bandwidth hogs with max limits.  
+Max limits are the most used I/O-control mechanism for addressing bandwidth issues: offended clients, such as the target in Figure [clients-no-control](/assets/images/content/throughputs-no-control-bw-table.png), are given back their expected bandwidths, by detecting and limiting bandwidth hogs with max limits.  
   
 Unfortunately, if/when bandwidth hogs actually use much less bandwidth than their max limit, the bandwidth that they leave unused cannot be reclaimed by other active groups. Thus max limits are not a good solution for delivering high average bandwidths when some clients are inactive. One may think of changing max limits dynamically, to maximize per-client average bandwidths. Indeed, this is exactly what the *low limits* mechanism does, as explained in Section (#sec:Throttling with low limits).  
   
@@ -158,7 +158,7 @@ Such a dedicated storage can be made as reliable as desired in guaranteeing mini
 Thus the main performance parameter for this solution is the utilization that can be reached without breaking bandwidth guarantees. To evaluate this parameter, we start by noting that an administrator typically controls the load on each unit by deciding the number of clients served by that unit.  
   
   
-With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [clients-no-control](/asset/images/content/throughputs-no-control-bw-table.png), with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
+With a low number of clients, a high utilization can be reached only if all or most clients do sequential I/O. In contrast, in Figure [clients-no-control](/assets/images/content/throughputs-no-control-bw-table.png), with the random I/O of the target served alone, the device reaches less than 7% of the throughput it reaches with just two clients.  
 
 Proportional-share policy on *BFQ*  
 ==================================
