@@ -11,7 +11,7 @@ image:
   featured: true
   path: /assets/images/blog/et2018-image2.png
 ---
-[ET (Embedded Technology IoT Technology Exhibition) ](http://www.jasa.or.jp/expo/exhibitors/organizer_pavilion.html)is the biggest Embedded device, software, tool and service exhibition in Japan. This year’s theme was “experience a super smart society (Society 5.0) here!” 
+[ET (Embedded Technology IoT Technology Exhibition) ](http://www.jasa.or.jp/expo/2018/)is the biggest Embedded device, software, tool and service exhibition in Japan. This year’s theme was “experience a super smart society (Society 5.0) here!” 
 
 Linaro was at the event and joined by Arm and TierIV, demonstrated an Arm powered autonomous driving car, the first of its kind in the world. The self-driving platforms [Milee and Logiee](https://tier4.jp/en/products.php) from Tier IV are built on the widely-adopted Autoware open-source project. Since Tier IV joined Linaro 96Boards Steering Committee in June 2018,  Autoware has been ported and optimized on 96Boards, which now supports a full range of the major Arm platforms. In the demo showcased at the event, the Socionext SynQuacer 96Boards was used.  Many companies, including Lexus Toyota, Suzuki, Yamaha, Mitsubishi, Aisin visited our booth. 
 
