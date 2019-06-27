@@ -77,8 +77,7 @@ team:
       Synomics a Bioinformatics software engineering company. His public company
       experience includes CFO of Tadpole Technology when it went public in 1992,
       where he and George Grey worked together. Rob is passionate about helping
-      build companies and generating maximum value from scarce resources.
-        
+      build companies and generating maximum value from scarce resources.        
 ---
 
 The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry positioning, key partnerships, membership, and funding.
