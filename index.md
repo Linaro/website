@@ -38,12 +38,12 @@ jumbotron:
                 - title: Learn more
                   url: /news/peng-cheng-laboratory-pcl-joins-linaro-as-associate-member/
 flow:
-    - type: custom_include_row
+    - row: custom_include_row
       source: home/collaborative-engineering.html 
-    - type: custom_include_row
+    - row: custom_include_row
       source: home/developer-services.html
-    - type: custom_include_row
+    - row: custom_include_row
       source: home/96boards.html 
-    - type: custom_include_row
+    - row: custom_include_row
       source: home/connect.html
 ---
