@@ -2,6 +2,6 @@ _site
 .asset-cache
 .sass-cache
 .jekyll-metadata
-.gems
 production.linaro.org
 staging.linaro.org
+Gemfile.lock
