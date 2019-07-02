@@ -2,7 +2,7 @@
 title: Resources for Press
 description: |-
     Information for the press including links to logos and images
-layout: container-breadcrumb
+layout: jumbotron-container
 permalink: /press/
 js-package: main
 css-package: press
@@ -23,13 +23,13 @@ Marketing - [contact@linaro.org](mailto:contact@linaro.org)
         Linaro Logos
     </a>
   </li>
-  
+
   <li role="presentation">
     <a href="#management-team-photos" role="tab" data-toggle="tab">
         Management Team Photos
     </a>
   </li>
-  
+
   <li role="presentation">
     <a href="#print-pack" role="tab" data-toggle="tab">
         Print Pack

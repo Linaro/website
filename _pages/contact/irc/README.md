@@ -2,7 +2,7 @@
 title: IRC Channels
 description: |-
     Freenode is the public IRC system that Linaro uses to communicate. Listing of all the IRC channels that Linaro uses to communicate.
-layout: container-breadcrumb
+layout: jumbotron-container
 permalink: /contact/irc/
 ---
 <div class="col-xs-12 text-center" markdown="1">
