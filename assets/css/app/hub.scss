@@ -182,18 +182,18 @@ li.list-group-item.list-group-item-success.text-center {
 #wrapper .latest_resources_blocks p {
     color: white;
 }
-#wrapper .latest_resources_blocks:nth-child(1) {
+#wrapper .latest_resources_blocks:nth-child(1) > .block-inner {
     background-color:#b255b3;
 }
-#wrapper .latest_resources_blocks:nth-child(2){
+#wrapper .latest_resources_blocks:nth-child(2) > .block-inner{
     background-color:#636363;
 }
-#wrapper .latest_resources_blocks:nth-child(3){
+#wrapper .latest_resources_blocks:nth-child(3) > .block-inner{
     background-color:#c34969;
 }
-#wrapper .latest_resources_blocks:nth-child(4){
+#wrapper .latest_resources_blocks:nth-child(4) > .block-inner{
     background-color:#accb4d;
 }
-#wrapper .latest_resources_blocks:nth-child(5){
+#wrapper .latest_resources_blocks:nth-child(5) > .block-inner{
     background-color:#636363;
 }
