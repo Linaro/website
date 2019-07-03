@@ -653,6 +653,7 @@ svg#image-fill {
 div#developer-services {
     background-image: url(/assets/images/content/hex-bg-tiled.jpg);
     background-color: #e6e6e6;
+    background-size:cover;
 }
 
 #developer-services h2 {
@@ -709,7 +710,7 @@ div#developer-services {
 #boards .boards-svg svg path {
     fill: #444444;
 }
-div#boards {
+#flow_wrapper div#boards {
     overflow: hidden;
     background-color: #202020;
 }
@@ -756,23 +757,23 @@ div#connect {
     font-size: 2em;
 }
 // Collaborative Engineering
-#collaborative-engineering {
+#flow_wrapper #collaborative-engineering {
     overflow:hidden;
 }
-#collaborative-engineering h2 {
+#flow_wrapper #collaborative-engineering h2 {
     font-size: 60px;
     color: #444444;
     font-weight: bold;
     margin-bottom: 40px;
 }
-#collaborative-engineering h2 strong {
+#flow_wrapper #collaborative-engineering h2 strong {
     color: #9cc849;
 }
-#collaborative-engineering .col-xs-12.col-sm-8.col-sm-offset-2.text-center p {
+#flow_wrapper #collaborative-engineering .col-xs-12.col-sm-8.col-sm-offset-2.text-center p {
     color: #444444;
     font-size: 2em;
 }
-#collaborative-engineering {
+#flow_wrapper #collaborative-engineering {
     background-color: #e6e6e6;
     background-image:url('/assets/images/content/engineering-bg.svg');
     background-size:cover !important;
