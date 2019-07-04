@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: jumbotron-container
 title: Linaro Community Projects Antitrust Compliance Policy
 permalink: /engineering/projects/antitrust-policy/
 ---

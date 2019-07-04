@@ -3,8 +3,8 @@ layout: base
 css-package: events-blog
 js-package: events-blog
 ---
-<div class="container-fluid responsive-background" id="header-container">
-    <div class="row background-image overlay" id="jumbotron"
+<div id="header-container">
+    <div class="row responsive-background background-image overlay" id="jumbotron"
         style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
         <div id="jumbotron-content" class=" flex-container">
             <div class="container flex-center" id="jumbotron-text">
@@ -24,11 +24,9 @@ js-package: events-blog
         </div>
     </div>
 </div>
-<div class="container-fluid" id="content-container">
-    <div class="row">
-        <div class="container">
-            {{content}}
-            {% include display-event-resources.html event=page.event %}
-        </div>
-    </div> 
+<div class="row" id="content-container">
+    <div class="container">
+        {{content}}
+        {% include display-event-resources.html event=page.event %}
+    </div>
 </div>

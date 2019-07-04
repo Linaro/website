@@ -7,17 +7,7 @@
 @import 'bootstrap';
 @import 'bootstrap/variables';
 // Linaro Jekyll Theme Includes
-@import "core/fonts";
-@import "core/fa";
-@import "core/nav";
-@import "core/theme";
-@import "core/cookieconsent";
-@import "core/footer";
-@import "core/owl.carousel.min";
-@import "core/owl.theme.default.min";
-@import "core/social-media-icons";
-@import "core/tables";
-@import "core/animations";
+@import "core";
 // App Includes
 @import "app/hub";
 @import "app/custom";

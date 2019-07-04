@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: jumbotron-container
 title: Legal
 description: |-
     Information about the legal policies of Linaro's website
@@ -46,7 +46,7 @@ defer(function(){
          Trademark usage
     </a>
   </li>
-  
+
   <li role="presentation">
     <a href="#cookie_policy" role="tab" data-toggle="tab">
          Cookie Policy
@@ -204,7 +204,7 @@ This website does not store any information that would, on its own, allow us to 
 <td id="TD_111">flCrumbs</td>
 
 <td id="TD_112">
-This cookie is set on confirmation that visitors are happy with the use of cookies on this website.  
+This cookie is set on confirmation that visitors are happy with the use of cookies on this website.
 **This cookie is only set after users have consented to the use of cookies.**
 </td>
 
@@ -214,7 +214,7 @@ This cookie is set on confirmation that visitors are happy with the use of cooki
 
 <td id="TD_116">\___utmas___utmbs___utmcs___utmzs</td>
 
-<td id="TD_117">These cookies are part of Google Analytics, which we use to monitor traffic levels, search queries and visits to this website, and to highlight potential problems within the site structure.Google Analytics stores IP address anonymously on its servers in the US, and neither we or Google associate your IP address with any personally identifiable information.These cookies enable Google to determine whether you are a return visitor to the site, and to track the pages that you visit during your session.  
+<td id="TD_117">These cookies are part of Google Analytics, which we use to monitor traffic levels, search queries and visits to this website, and to highlight potential problems within the site structure.Google Analytics stores IP address anonymously on its servers in the US, and neither we or Google associate your IP address with any personally identifiable information.These cookies enable Google to determine whether you are a return visitor to the site, and to track the pages that you visit during your session.
 This cookie is set after users have consented to the use of cookies.</td>
 
 </tr>
@@ -227,24 +227,24 @@ This website uses Google Analytics, a web analytics service provided by Google, 
 
 To edit cookie settings for PCs
 
-*   **Google Chrome**  
+*   **Google Chrome**
     Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
-*   **Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0**  
+*   **Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0**
     Locate ‘Internet options’ in the browser menu, then click on the ‘Privacy’ tab.
-*   **Mozilla Firefox**  
+*   **Mozilla Firefox**
     Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
-*   **Opera**  
+*   **Opera**
     Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
 To edit cookie settings for Macs
 
-*   **Safari**  
+*   **Safari**
     Click on ‘Safari’ at the top of your browser window and select the ‘Preferences’ option, then ‘Security’.
-*   **Google Chrome**  
+*   **Google Chrome**
     Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
-*   **Mozilla Firefox**  
+*   **Mozilla Firefox**
     Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
-*   **Opera**  
+*   **Opera**
     Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
 * * *
@@ -298,12 +298,12 @@ By using a Linaro Website, you understand that we may automatically collect and 
 
 * * *
 
-**What is a cookie?**  
+**What is a cookie?**
 When referring to cookies in this policy, we are referring to HTTP cookies which are small text files that are stored on your browser when you use websites and applications. We use a mixture of ‘session’ cookies, which are stored in your web browser for a limited time while you are accessing our website and ‘persistent’ cookies, which are stored for longer and are activated each time you revisit Our Website. There are other technologies that can be used for similar purposes. These include HTML5 Local Storage and Local Shared Objects (“LSO”s). We may use HTML5 Local Storage, LSOs, and similar technologies, as well as cookies for authenticating you, keeping track of information you have provided to us, and remembering your preferences.
 
 * * *
 
-**Why do we use cookies?**  
+**Why do we use cookies?**
 We may obtain information about your use of the Website by using a cookie file which is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve Linaro Websites and to deliver a better and more personalized service. They enable us to:
 
 *   Estimate our audience size and usage pattern.
@@ -312,7 +312,7 @@ We may obtain information about your use of the Website by using a cookie file w
 
 * * *
 
-**Specific types of cookie**  
+**Specific types of cookie**
 The types of cookie that are set by Linaro Websites include the following:
 
 *   **Strictly necessary cookies** – These cookies are essential to enable you to move around Linaro Websites and use their features, such as accessing secure areas of Linaro Websites and providing services that you have asked for.
@@ -326,7 +326,7 @@ The types of cookie that are set by Linaro Websites include the following:
 
 You can stop cookies being stored on your browser in future or delete any cookies that are already on your browser. To do so, refer to your browser manufacturer’s instructions by selecting “Help” in your browser menu. Information on deleting or controlling browser cookies is available at http://www.AboutCookies.org.
 
-Third-party cookies cannot be controlled by changing any Linaro Website settings, and if you have JavaScript disabled, you might not be able to change any Linaro Website settings. Change cookie settings using your browser settings instead.  
+Third-party cookies cannot be controlled by changing any Linaro Website settings, and if you have JavaScript disabled, you might not be able to change any Linaro Website settings. Change cookie settings using your browser settings instead.
 Note that if you disable cookies entirely, you might not be able to use certain areas or features of Linaro Websites.
 
 * * *
@@ -435,11 +435,11 @@ These cookies are used to maintain the height of the editor windows and remember
 
 **Google Analytics cookies**
 
-These are web analytics cookies, provided by Google Inc., that are used to collect information about how visitors use Linaro Websites. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from, and the pages they visited.  
-The information generated by the cookie about your use of an Linaro Website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage.  
-Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on behalf of Google. Google will not associate your IP address with any other data held by Google.  
-By using an Linaro Website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.  
-These are third party cookies.  
+These are web analytics cookies, provided by Google Inc., that are used to collect information about how visitors use Linaro Websites. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from, and the pages they visited.
+The information generated by the cookie about your use of an Linaro Website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage.
+Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on behalf of Google. Google will not associate your IP address with any other data held by Google.
+By using an Linaro Website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+These are third party cookies.
 Targeting & Advertising
 
 * * *
@@ -450,13 +450,13 @@ These cookies are used to collect information about how visitors use Linaro Webs
 
 * * *
 
-**Cookies set by third parties**  
+**Cookies set by third parties**
 Third parties may also use cookies over which we have no control. These cookies are likely to be performance cookies or targeting and advertising cookies. Third party cookies used on Linaro Websites include those set by YouTube, Twitter, Google and Facebook.
 
 * * *
 
-**Changes to this policy**  
-We may revise this cookie policy at any time by amending this page, and where appropriate, by notification on Our Linaro Websites. You should check this page from time to time to review any changes We have made. Some of the provisions in this cookie policy may also be superseded by provisions or notices published elsewhere on Our Linaro Websites.  
+**Changes to this policy**
+We may revise this cookie policy at any time by amending this page, and where appropriate, by notification on Our Linaro Websites. You should check this page from time to time to review any changes We have made. Some of the provisions in this cookie policy may also be superseded by provisions or notices published elsewhere on Our Linaro Websites.
 Thank you for visiting Our site.
 
 
@@ -464,10 +464,10 @@ Thank you for visiting Our site.
 
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cancellation_policy" markdown="1">
 
-**Cancellation policy:**  
+**Cancellation policy:**
 If you need to cancel for any reason please contact us by emailing [connect@linaro.org](mailto:connect@linaro.org). Refunds will only be issued for cancellations received at least 3 weeks prior to the first day of the event and may take up to 14 days to process. Please note that we reserve the right to charge a 5% processing fee on all refunds.
 
-**Payment instructions:**  
+**Payment instructions:**
 Payments are done through Paypal. To complete payment, you will need to fill in your billing address, click ‘Make Payment’ and then press the Paypal button on the following page to complete the transaction.
 
 </div>

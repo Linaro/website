@@ -362,17 +362,17 @@ svg#employee-map{
 /*------------------------------------*\
     ::  Owl Specific Styles
 \*------------------------------------*/
-.owl-buttons {
+#timelineCarousel .owl-buttons {
   width: 100%;
   position: absolute;
   top: -2.35em;
   overflow: hidden;
 }
-.owl-buttons .owl-prev, .owl-buttons .owl-next {
+#timelineCarousel .owl-buttons .owl-prev, .owl-buttons .owl-next {
   width: 0;
   height: 0;
 }
-.owl-buttons .owl-prev {
+#timelineCarousel .owl-buttons .owl-prev {
   float: left;
   margin-left: 38%;
   text-indent: 9999px;
@@ -380,117 +380,120 @@ svg#employee-map{
   border-bottom: 6px solid transparent;
   border-right: 11px solid #2273BA;
 }
-@media (max-width: 1024px) {
-  .owl-buttons .owl-prev {
-    margin-left: 35%;
-  }
-}
-@media (max-width: 850px) {
-  .owl-buttons .owl-prev {
-    margin-left: 30%;
-  }
-}
-@media (max-width: 640px) {
-  .owl-buttons .owl-prev {
-    margin-left: 25%;
-  }
-}
-@media (max-width: 500px) {
-  .owl-buttons .owl-prev {
-    margin-left: 15%;
-  }
-}
-@media (max-width: 400px) {
-  .owl-buttons .owl-prev {
-    margin-left: 10%;
-  }
-}
-.owl-buttons .owl-next {
-  float: right;
-  margin-right: 38%;
-  text-indent: -9999px;
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid transparent;
-  border-left: 11px solid #2273BA;
-}
-@media (max-width: 1024px) {
-  .owl-buttons .owl-next {
-    margin-right: 35%;
-  }
-}
-@media (max-width: 850px) {
-  .owl-buttons .owl-next {
-    margin-right: 30%;
-  }
-}
-@media (max-width: 640px) {
-  .owl-buttons .owl-next {
-    margin-right: 25%;
-  }
-}
-@media (max-width: 500px) {
-  .owl-buttons .owl-next {
-    margin-right: 15%;
-  }
-}
-@media (max-width: 400px) {
-  .owl-buttons .owl-next {
-    margin-right: 10%;
-  }
-}
-.owl-pagination {
-  width: 100%;
-  position: absolute;
-  bottom: -2.7em;
-  text-align: center;
-}
-.owl-pagination .owl-page {
-  display: inline-block;
-  margin: 0 10px;
-}
-.owl-pagination .owl-page span {
-  display: block;
-  height: 0.95em;
-  width: 0.95em;
-  -webkit-box-shadow: inset 0px 0px 0px 2px #2BB591;
-  box-shadow: inset 0px 0px 0px 2px #2BB591;
-  border-radius: 50%;
-  background-color: #fff;
-  -webkit-transition: background-color 300ms;
-  transition: background-color 300ms;
-}
-.owl-pagination .owl-page:hover span, .owl-pagination .owl-page.active span {
-  background-color: #2BB591;
-}
-.timeline-item {
-    top: 98px;
-    position: relative;
-}
-.owl-stage-outer {
-    height: 300px;
-}
-.owl-stage {
-    height: 300px;
-}
-.owl-nav {
-    position: relative;
-    top: 5px;
-    display: block;
-    height: 10px;
-}
-.owl-next {
-    right: 10px;
-    position: absolute;
-}
-.owl-prev {
-    left: 10px;
-    position: absolute;
-}
-.owl-prev.disabled {
-    opacity: .2;
-}
-.owl-next.disabled {
-    opacity: .2;
+
+#timelineCarousel {
+    @media (max-width: 1024px) {
+        .owl-buttons .owl-prev {
+            margin-left: 35%;
+        }
+    }
+    @media (max-width: 850px) {
+        .owl-buttons .owl-prev {
+            margin-left: 30%;
+        }
+    }
+    @media (max-width: 640px) {
+        .owl-buttons .owl-prev {
+            margin-left: 25%;
+        }
+    }
+    @media (max-width: 500px) {
+        .owl-buttons .owl-prev {
+            margin-left: 15%;
+        }
+    }
+    @media (max-width: 400px) {
+        .owl-buttons .owl-prev {
+            margin-left: 10%;
+        }
+    }
+    .owl-buttons .owl-next {
+        float: right;
+        margin-right: 38%;
+        text-indent: -9999px;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 11px solid #2273BA;
+    }
+    @media (max-width: 1024px) {
+        .owl-buttons .owl-next {
+            margin-right: 35%;
+        }
+    }
+    @media (max-width: 850px) {
+        .owl-buttons .owl-next {
+            margin-right: 30%;
+        }
+    }
+    @media (max-width: 640px) {
+        .owl-buttons .owl-next {
+            margin-right: 25%;
+        }
+    }
+    @media (max-width: 500px) {
+        .owl-buttons .owl-next {
+            margin-right: 15%;
+        }
+    }
+    @media (max-width: 400px) {
+        .owl-buttons .owl-next {
+            margin-right: 10%;
+        }
+    }
+    .owl-pagination {
+        width: 100%;
+        position: absolute;
+        bottom: -2.7em;
+        text-align: center;
+    }
+    .owl-pagination .owl-page {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .owl-pagination .owl-page span {
+        display: block;
+        height: 0.95em;
+        width: 0.95em;
+        -webkit-box-shadow: inset 0px 0px 0px 2px #2BB591;
+        box-shadow: inset 0px 0px 0px 2px #2BB591;
+        border-radius: 50%;
+        background-color: #fff;
+        -webkit-transition: background-color 300ms;
+        transition: background-color 300ms;
+    }
+    .owl-pagination .owl-page:hover span, .owl-pagination .owl-page.active span {
+        background-color: #2BB591;
+    }
+    .timeline-item {
+        top: 98px;
+        position: relative;
+    }
+    .owl-stage-outer {
+        height: 300px;
+    }
+    .owl-stage {
+        height: 300px;
+    }
+    .owl-nav {
+        position: relative;
+        top: 5px;
+        display: block;
+        height: 10px;
+    }
+    .owl-next {
+        right: 10px;
+        position: absolute;
+    }
+    .owl-prev {
+        left: 10px;
+        position: absolute;
+    }
+    .owl-prev.disabled {
+        opacity: .2;
+    }
+    .owl-next.disabled {
+        opacity: .2;
+    }
 }
 .organisation-carousel .owl-stage-outer {
     height: 280px;
