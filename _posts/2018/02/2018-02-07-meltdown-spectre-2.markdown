@@ -49,7 +49,7 @@ We are not aware of any Meltdown and Spectre attacks on OP-TEE, in fact we are n
 
 Although TrustZone **is** affected by Meltdown and Spectre, we believe it is much harder to put the exploits in practice on secure side. One reason is that the SoC/OEMs are in full control of all software running on secure side on their devices (we still haven't seen any "appstore" for Trusted Application and it is probably quite unlikely that we will ever see one). I.e., all software on the secure side, the monitor, the TEE and the Trusted Applications are all signed (and verified during boot time or later when the system is up and running). Compare that a normal OS environment where anyone can write a program poking on who knows what. Another reason is that the execution path to secure side is "longer" and therefore we will get more "noise" in terms of cache lines being used by the code running between the attacker and the victim.
 
-Finally (with risk of being repetitive), all information about mitigation patches etc for OP-TEE can be found at our [security advisories](https://www.op-tee.org/security-advisories/) page at optee.org.
+Finally (with risk of being repetitive), all information about mitigation patches etc for OP-TEE can be found at our [security advisories](https://www.op-tee.org/security-advisories/) page at [op-tee.org](https://www.op-tee.org).
 
 # Arm Trusted Firmware
 
