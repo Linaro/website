@@ -64,6 +64,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - staging.linaro.org
+  - production.linaro.org
   # - _posts
 
 # Google Tag mangager site wide setting - for deployment of site to China.

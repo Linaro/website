@@ -1,1 +1,2 @@
-build-site.sh   @pcolmer @pcolmer-linaro @morancj
+build-site.sh   @pcolmer @morancj
+CODEOWNERS      @pcolmer @morancj
