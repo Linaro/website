@@ -16,7 +16,7 @@ fi
 
 # Make sure that the script is not in the current directory. The output from Jekyll
 # should be in a sub-directory of the git repository.
-SCRIPTDIR="$(readline -f "$0")"
+SCRIPTDIR="$(readlink -f "$0")"
 if [ "$SCRIPTDIR" == "$(pwd)" ]; then
   echo "Script is being run incorrectly. Go into the built site directory and"
   echo "then run:"
