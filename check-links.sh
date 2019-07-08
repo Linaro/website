@@ -18,6 +18,6 @@ docker run \
   --cap-drop ALL \
   --rm \
   -t \
-  -v $PARENT:/srv
+  -v $PARENT:/srv \
   linaroits/linkcheck:"$LINKCHECK" \
   -d "$DIRNAME" "$@"
