@@ -20,7 +20,8 @@ SCRIPTDIR="$(dirname $(readlink -f "$0"))"
 if [ "$SCRIPTDIR" == "$(pwd)" ]; then
   echo "Script is being run incorrectly. Go into the built site directory and"
   echo "then run:"
-  echo "../build-site.sh"
+  echo
+  echo "../check-links.sh"
   exit 1
 fi
 
