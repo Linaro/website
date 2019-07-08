@@ -18,6 +18,9 @@ docker run \
   --cap-drop ALL \
   --rm \
   -t \
+  -v /etc/passwd:/etc/passwd:ro \
+  -v /etc/group:/etc/group:ro \
+  -u "$(id -u)":"$(id -g)" \
   -v $PARENT:/srv \
   linaroits/linkcheck:"$LINKCHECK" \
   -d "$DIRNAME" "$@"
