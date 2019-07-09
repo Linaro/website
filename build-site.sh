@@ -12,10 +12,18 @@ else
   PORTS=""
 fi
 
+# Are we running interactively or via Bamboo?
+if [ -t 1 ]; then
+  INTER="-i"
+else
+  INTER=""
+fi
+
 docker run \
   --cap-drop ALL \
   --rm \
   -t \
+  $INTER \
   $PORTS \
   -e JEKYLL_ACTION \
   -e JEKYLL_ENV \
@@ -24,4 +32,4 @@ docker run \
   -u "$(id -u)":"$(id -g)" \
   -v "$(pwd)":/srv/source \
   linaroits/jekyllsitebuild:"$JEKYLLSITEBUILD" \
-  build-site.sh
+  build-site.sh "$@"
