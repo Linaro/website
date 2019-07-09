@@ -32,4 +32,4 @@ docker run \
   -u "$(id -u)":"$(id -g)" \
   -v "$(pwd)":/srv/source \
   linaroits/jekyllsitebuild:"$JEKYLLSITEBUILD" \
-  build-site.sh
+  build-site.sh "$@"
