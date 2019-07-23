@@ -47,6 +47,11 @@ defer(function(){
     </a>
   </li>
   <li role="presentation">
+    <a href="#ipr_policy" role="tab" data-toggle="tab">
+         IPR Policy
+    </a>
+  </li>
+  <li role="presentation">
     <a href="#antitrust_guidelines" role="tab" data-toggle="tab">
          Antitrust Guidelines
     </a>
@@ -276,7 +281,158 @@ The Trademark policy and guidelines provide information on what is allowed, what
 
 </div>
 
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="ipr_policy" markdown="1">
 
+### 1. DEFINITIONS
+
+Words and expressions defined in the Linaro Membership Rules shall have the same
+meaning in this IP Policy. In addition, in this IP Policy the following words have the
+following meanings:
+
+"**Contribution**" means an original work of authorship, including any modifications,
+abridgements, adaptations, translations and additions to a pre-existing original work of
+authorship (to the extent comprising an original work of authorship), that is submitted for
+inclusion in, or for documentation of, a Linaro Project. For the purpose of this definition,
+the term "submitted" means the delivery or transmission of any form of electronic or
+written communication to Linaro for inclusion in the Linaro Project, including but not
+limited to those electronic or written communications delivered or transmitted through
+electronic mailing lists, source code control systems and issue tracking systems
+managed by or for Linaro for the purpose of discussing and improving a Linaro Project;
+
+"**Contributor**" means the copyright owner, or legal entity authorized by the copyright
+owner, that makes a Contribution to a Linaro Project;
+
+"**Linaro Project**" means a project in respect of which write access to the source
+repository is managed by Linaro; and
+
+"**Member**" is any party which has executed a deed of adherence to the Linaro
+Membership Rules.
+
+### 2. INTRODUCTION
+
+The purpose of this Linaro Intellectual Property Policy ("IP Policy") is to set out the
+general principles under which Linaro will:
+
+a) accept Contributions;
+b) redistribute Contributions; and
+c) manage other intellectual property matters.
+
+By signing the Subscription Agreement, Members agree to comply with this IP Policy.
+In addition, this IP Policy shall serve as the basis for how non-Members interact with
+Linaro through participation in a Linaro Project.
+
+
+### 3. ACCEPTING CONTRIBUTIONS (IN-BOUND LICENSING) AND UPSTREAM LICENSES
+
+When selecting upstream projects to form the basis of a Linaro Project or for inclusion in
+Linaro staging release or hosting development of new open source software components
+and accepting Contributions the emphasis in selection will be on the quality of code and
+community support for such project. However Linaro will only consider software for
+inclusion in Linaro Projects or in Linaro staging release and will only host development of
+new open source software and/or accept Contributions if the license under which such
+software is distributed has been approved as follows;
+
+(a) Software licensed under the Eclipse Public License (EPL), GNU General Public
+License version 2.x (GPL), GNU Library or “Lesser” Public License version 2.x
+(LGPL), Mozilla Public License 1.1 (MPL), Massachusetts Institute of Technology
+(MIT) or simplified Berkeley Software Distribution (BSD) or under any other
+license that is subsequently approved by the Technical Steering Committee and
+the Board for automatic approval shall be automatically approved;
+
+(b) Software licensed under any other Open Source Initiative ("OSI") approved
+software licenses shall be subject to the unanimous approval of the Technical
+Steering Committee; and
+
+(c) Software licensed under any other license terms and conditions or that has not
+received unanimous approval under paragraph 3(b) above but had not been
+unanimously rejected shall be subject to the approval of the Board (or the
+Board’s designee specifically authorized for this responsibility) and the Technical
+Steering Committee will, when referring such software to the Board provide the
+Board with a summary of their discussions and, where relevant, a record of the
+votes made for and against such software.
+
+Software that is unanimously rejected by the Technical Steering Committee under
+paragraph 3(b) shall not be required to be referred to the Board.
+
+All license requests shall be recorded by the Technical Steering Committee and the
+Technical Steering Committee and the Board shall review the licence requests granted
+and outstanding at such regular intervals as the Technical Steering Committee or the
+Board shall determine.
+
+#### Choice of Project License
+
+##### Existing Open Source Projects
+
+A significant focus of Linaro will be the integration of upstream open source software
+projects into a staging release. To minimise variances between the upstream projects
+and such release, Linaro wishes to contribute back to the relevant upstream projects and
+where successful in that endeavour will contribute back under the licenses already
+established for those upstream projects. Notwithstanding this ultimate aim, Linaro
+Projects will, at least transiently, be hosting patches to relevant upstream projects and these Linaro
+ Projects will accept Contributions under the licenses already established for those upstream projects.
+
+##### Securing Rights
+
+The mechanisms by which Linaro will obtain rights to Contributions sufficient to distribute
+them are:
+
+(a) under the Subscription Agreements;
+(b) under express license grants in relevant open source licenses; or
+(c) as otherwise mutually agreed upon by the Contributor and the Board.
+
+### 4. REDISTRIBUTING CONTRIBUTIONS (OUT-BOUND LICENSING)
+
+#### Existing Open Source Projects
+
+The license for distribution of software created in a Linaro Project and which is based on
+software from an existing open source software project will be compatible with the
+outbound license of the existing open source software project under which the code was
+received by Linaro.
+
+#### New Open Source Projects
+
+The license for distribution of software created in a Linaro Project not based on software
+from an existing open source software project will be compatible with the licenses
+approved in accordance with part 3 of this schedule.
+
+### 5. CONFIDENTIALITY
+
+The Member(s) and other parties may exchange information as a result of their
+participation in Linaro and/or generally in the furtherance of the Objective (defined in the
+Membership Rules) of Linaro. All such information shall be considered non-confidential
+and provided under terms consistent with this IP Policy. In the event confidential
+information needs to be shared, such confidential information shall be disclosed pursuant
+to a confidentiality agreement entered into by the participants in such disclosure.
+
+### 6. TRADEMARKS AND LOGOS
+
+The use of trademarks and logos associated with Linaro shall be used in accordance with
+the then current Linaro Trademark Usage Guidelines.
+
+### 7. DISCLAIMERS AND NOTICES
+
+UNDER NO CIRCUMSTANCES SHOULD THIS IP POLICY BE INTERPRETED TO BE
+A REPRESENTATION, WARRANTY, CONDITION, OR OTHER FORM OF
+GUARANTEE THAT THE INTELLECTUAL PROPERTY RIGHTS OF A MEMBER, OR
+ANY OTHER PARTY, WILL NOT BE INFRINGED IF THIS IP POLICY IS COMPLIED
+WITH. IN ADDITION, LINARO, ITS MEMBERS AND THEIR RESPECTIVE
+EMPLOYEES AND AGENTS SHALL HAVE NO LIABILITY OF ANY KIND TO EACH
+OTHER OR TO ANY OTHER PARTY FOR FAILURE TO COMPLY WITH THIS IP
+POLICY.
+
+LINARO, ITS MEMBERS AND THEIR RESPECTIVE EMPLOYEES AND AGENTS
+HEREBY DISCLAIM ALL REPRESENTATIONS, WARRANTIES AND CONDITIONS,
+EXPRESS, IMPLIED AND STATUTORY INCLUDING, BUT NOT LIMITED TO, ANY
+REPRESENTATION OR WARRANTY OF NON-INFRINGEMENT RELATING TO ANY
+SOFTWARE OR PRODUCT MADE AVAILABLE THROUGH LINARO.
+
+LINARO, ITS MEMBERS AND THEIR RESPECTIVE EMPLOYEES AND AGENTS
+SHALL NOT HAVE ANY LIABILITY INCLUDING, BUT NOT LIMITED TO, DIRECT,
+INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL AND CONSEQUENTIAL DAMAGES
+WITH RESPECT TO THIS IP POLICY INCLUDING, BUT NOT LIMITED TO, FAILURE
+TO COMPLY WITH THIS IP POLICY.
+
+</div>
 
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="antitrust_guidelines" markdown="1">
 
