@@ -60,6 +60,7 @@ schema:
 exclude:
   - _site
   - build-site.sh
+  - check-links.sh
   - CODEOWNERS
   - Gemfile
   - Gemfile.lock
