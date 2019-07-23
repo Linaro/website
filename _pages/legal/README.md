@@ -46,7 +46,11 @@ defer(function(){
          Trademark usage
     </a>
   </li>
-
+  <li role="presentation">
+    <a href="#antitrust_guidelines" role="tab" data-toggle="tab">
+         Antitrust Guidelines
+    </a>
+  </li>
   <li role="presentation">
     <a href="#cookie_policy" role="tab" data-toggle="tab">
          Cookie Policy
@@ -57,7 +61,6 @@ defer(function(){
          Connect Cancellation policy
     </a>
   </li>
-
 </ul>
 
 <div class="tab-content" id="tabbed_nav_content">
@@ -273,6 +276,259 @@ The Trademark policy and guidelines provide information on what is allowed, what
 
 </div>
 
+
+
+<div role="tabpanel" class="tab-pane tab-pane-legal" id="antitrust_guidelines" markdown="1">
+
+The defined terms in these Antitrust Guidelines shall have the same meanings given to them in
+these Rules.
+### 1. BACKGROUND
+
+#### 1.1
+
+The Members, officers, Directors and the employees (each, a "Participant") of Linaro
+understand that all of Linaro’s meetings and activities will be conducted strictly in
+accordance with all relevant competition laws.
+
+#### 1.2
+
+As a reference and to assist in complying with the relevant competition laws, below is a
+summary of the principal competition law issues that may arise in the context of Linaro
+meetings or discussions. It is not meant to be a comprehensive analysis of the
+competition laws of every country, but it should alert participants to high-risk activities and
+the need to consult with a lawyer whenever they are in any doubt and before acting.
+Failure to respect the basic guidelines set out in this document could expose Linaro and
+each of its Participants to significant fines and/or criminal sanctions. It is the policy of
+Linaro that if any doubt exists as to whether it is permissible to discuss a particular topic
+or to engage in a particular practice, no further action is to be taken until the matter has
+been referred to legal counsel for guidance.
+
+#### 1.3
+
+All Participants should understand that the competition laws differ across jurisdictions and
+that these Guidelines are not meant to be a substitute for his or her consulting with legal
+counsel about appropriate conduct.
+
+### 2. INTRODUCTION TO COMPETITION LAW
+
+#### 2.1
+
+Competition law seeks to promote competition between competitors with the goal of
+achieving benefits for consumers of products and services. Competitors are therefore
+prohibited from cooperating in ways that distort the competitive process and frustrate the
+aforementioned goal of competition law. Accordingly, under competition law, there are
+rules as to what types of information and topics can be legitimately discussed between
+competitors without giving rise to concerns that their conduct on the market is being
+aligned. A non-exhaustive list of examples of the types of topics that should not be
+discussed in the context of Linaro are set out in Section 3 of these guidelines.
+
+#### 2.2
+
+Moreover, when industry members (including Members of Linaro within an industry)
+develop and adopt technology, it is important for the process to be open and transparent.
+In addition, industry members (including Members of Linaro within an industry) should not
+enter into agreements that would result in competition being adversely affected. If a
+Linaro Member has any doubts about whether its conduct may restrict competition, they
+should seek legal advice.
+
+#### 2.3
+
+It should be noted that the range of subjects, issues and matters, which may be subject
+to the provisions of both national and international competition law, is enormous. There
+is no definitive list of matters or behaviour that would be considered "anti-competitive," although there are certain types of conduct that would be regarded as "egregious" violations of competition law irrespective of jurisdiction. Examples of such egregious
+violations of competition law are set out in Section 4 of these Guidelines.
+
+#### 2.4
+
+It is vital that Participants in Linaro are vigilant in ensuring that at no time are they
+involved in any behaviour that would be considered anti-competitive by the relevant
+authorities. Such vigilance is even more compelling given the heavy financial sanctions
+(and criminal in some jurisdictions) that exist for egregious breaches of competition law.
+
+#### 2.5
+
+Guidance relating to: (i) the types of information that should not be exchanged in the
+context of Linaro; (ii) agreements that would constitute egregious violations of
+competition law; (iii) the conduct of Participants in Linaro’s Councils and committees; and
+(iv) the general conduct of all Linaro meetings are set out below.
+
+### 3. GUIDANCE RELATING TO INFORMATION EXCHANGES IN LINARO
+
+#### 3.1
+
+Under competition law, exchanges of information between competitors that would
+typically be regarded as commercially sensitive or confidential are not permitted because
+they may cause these competitors to coordinate or align their conduct, thus distorting the
+market. Exchanges of this type of information may also be seen as evidence of the
+existence of an anti-competitive agreement between the different parties that represents
+an egregious violation of competition law (examples of which are set out in Section 4).
+Participants in Linaro will therefore not discuss (seriously or in jest) or exchange
+information regarding the following:
+
+* Individual company prices, proposed price changes, price differentials, price levels,
+pricing patterns or policies, pricing plans or terms and conditions of sale affecting price
+such as mark-ups, discounts, allowances, promotions, or credit terms.
+* Individual company data on costs, production plans, capacity, inventory, sales data, profit
+margins, or other data from which a competitor could discern prices.
+* Individual company policies relating to current or future strategy, including investment,
+technology, research and development, production, distribution, or marketing (including
+advertising) of particular products.
+* Individual company bids for particular customers or company procedures for responding
+to bid invitations or any other data relating to existing customers.
+* Industry pricing policies, price levels, price changes, pricing procedures, profit margins, or
+other data that relates to price.
+* Matters related to allocation of territories, allocation of customers, or restrictions on
+manufacturing or selling certain products.
+* Matters related to dealing or not dealing with a competitor, supplier, or customer that
+might have the effect of excluding them from any market or influencing the business
+conduct of firms toward them.
+4268669-21 46
+
+#### 3.2
+
+Any proposals regarding statistical, benchmarking or other survey programmes for Linaro
+should not be discussed until legal advice has been sought and obtained.
+
+### 4. GUIDANCE RELATING TO AGREEMENTS THAT REPRESENT EGREGIOUS VIOLATIONS OF COMPETITION LAW
+
+#### 4.1
+
+Certain types of agreements between independent enterprises are regarded as
+constituting egregious violations of competition law because they distort competition and
+adversely affect customers. The main examples of such conduct are set out below.
+However, the list of agreements and practices set out below is not exhaustive.
+
+#### 4.2
+
+It is important to note that the meaning of "agreement" in the context of competition law is
+very broad. An agreement need not be expressly stated or in writing; for the purposes of
+competition law, an agreement may be deemed to exist with no formal offer or
+acceptance. An agreement may be proven entirely by indirect or circumstantial evidence,
+e.g., competitors exchanging price lists at meetings of a trade association or other
+industry body. Communications among competitors are often used as circumstantial
+evidence of the existence of an agreement. Anything an employee says or writes to a
+competitor can be used as evidence in action against the company or the individual
+concerned. For the avoidance of doubt, "off the record" conversations or a "gentleman’s
+agreement" or "standard industry practice" will not enable any party to evade the general
+prohibition under competition law.
+
+**(A) Price Fixing**
+
+#### 4.3
+
+Price-fixing agreements between competitors, often called "cartels," are the most
+frequently prosecuted competition law violation.
+
+#### 4.4
+
+Virtually every developed country prohibits price-fixing agreements. The penalties for
+engaging in such conduct are typically financial, although in certain jurisdictions (most
+notably the United States and the United Kingdom), criminal sanctions may also apply,
+resulting in substantial prison sentences for those individuals who are found to have
+violated competition law.
+
+#### 4.5
+
+The prohibition against price fixing applies broadly to any understanding or agreement
+that has the effect of raising, lowering, or stabilizing prices among competitors, including
+agreements on the following:
+
+* Prices or discounts;
+* Margins;
+* Credit terms;
+* Promotional programs; and
+* Other terms and conditions of sale.
+
+#### 4.6
+
+It is also illegal for companies to enter into an agreement with their customers to set the
+resale price (known as resale price maintenance) of a product.
+
+**(B) Allocation of Supply or partitioning of Markets**
+
+#### 4.7
+
+Agreements among competitors or potential competitors to allocate supply or partition
+markets are just as serious as price fixing. These include agreements between
+competitors concerning the:
+
+* Quantities of goods that are to be purchased, produced, or marketed;
+* Geographic areas into which they will sell;
+* Customers to whom they will sell;
+* Market share each firm will achieve; and
+* Products they will sell.
+
+**(C) Group Boycotts**
+
+#### 4.8
+
+Group boycotts refer to understandings or agreements by two or more Persons to refrain
+from dealing with another party or only to deal under certain terms. These types of
+agreements will generally be illegal if the agreement 1) is designed to exclude a
+competitor from a trade association or a standards-setting group where membership is
+necessary for that firm to compete effectively in the relevant market or 2) has the purpose
+or effect of raising prices or reducing competition. Similarly, rules of industry associations
+that prevent or restrict members from dealing with competing bodies, suppliers or
+technologies may be illegal if they adversely affect competition. In addition, agreements
+among competitors or firms on different levels of the distribution chain are illegal if the
+purpose or effect of the boycott is to allocate markets or raise prices.
+
+### 5. GUIDANCE GOVERNING PARTICIPATION IN LINARO
+
+5.1 Linaro has been established to be the leading consumer-focused open source enabling
+distribution, driving innovation across vertical segments, and deployed by the industry's
+leading OEM, operator and semiconductor companies. In achieving this goal, it has been
+determined that:
+
+* membership in Linaro shall be determined only on the basis of the objective and nondiscriminatory criteria specified in the Membership Criteria;
+* any recommendations arising out of any Working Groups that are adopted are based on
+objective criteria and interpreted objectively and accurately;
+* decisions are not made by those unfamiliar with the objectives of Linaro and the basis on
+which decisions are made within Linaro;
+* the recommendations issued by any Working Groups accomplish Linaro’s goals and
+objectives in the least restrictive way; and
+* Participants should not enter into agreements that prevent them from participating in
+other industry bodies or from dealing in alternative technologies outside of Linaro.
+
+### 6. RULES FOR LINARO MEETINGS AND OTHER ACTIVITIES
+
+Subject to the terms set out in these Rules, all meetings will follow these procedures:
+
+* A draft agenda will be prepared before each meeting of the Board and sent to Linaro’s
+legal counsel for review and approval.
+* Each meeting will begin with a statement from the Chairperson of that meeting that the
+Participants have agreed to follow these guidelines and copies will be available at the
+meetings for participants to review. All Participants should confirm that they are aware of
+and understand these Guidelines.
+* Discussions at meetings will follow the topics on the agenda. Members wishing to raise
+any topics for discussion should inform the Board at the time the agenda is prepared.
+Legal counsel will be consulted if a Participant has a concern about the direction of any
+discussion. Such discussion will cease until legal counsel has approved it.
+* Minutes will be drafted that accurately reflect the matters that occur at each meeting and
+will be sent to legal counsel and the Members for review before being made final.
+* If any Participant persists in discussing a prohibited subject as set out in these guidelines
+or any subject that raises competition law concerns, other Participants should leave the
+meeting. Where a Participant leaves a Linaro meeting, that Participant should make his
+or her departure obvious, stating the reasons for the departure.
+* All Participants should be careful in his or her choice of words at meetings; they should
+never, even in jest, use words that indicate that they approve of or have participated in
+prohibited conduct; they should avoid conjecture, exaggeration or colourful or ambiguous
+language that might be misinterpreted.
+
+### 7. CONCLUSION
+
+#### 7.1
+
+This document contains guidelines and general advice to Members in relation to issues of
+competition law. In case of doubt, specific advice should always be sought. The
+extensive range of matters and behaviour that may be deemed anti-competitive should
+always be borne in mind. Failure to observe this principle may result in serious
+consequences for both Linaro and its member Participants. It is incumbent on all
+Participants at all times, not just Chairmen of meetings or working groups to follow the
+specific rules and advice contained in this document. Respecting these Guidelines is
+to the benefit of all Participants in Linaro.
+
+</div>
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cookie_policy" markdown="1">
 
 # Cookie Policy
@@ -283,18 +539,18 @@ This policy explains the terms that apply to users of any websites that are oper
 
 This Cookie Policy incorporates the following additional terms and conditions and policies:
 
-*   Privacy Policy
-*   Terms and Conditions of Use
+* Privacy Policy
+* Terms and Conditions of Use
 
 By using a Linaro Website, you understand that we may automatically collect and store information about your visit to Our Linaro Websites, through using browser cookies or similar devices. Through continuing to use Our Linaro Websites you consent to our use of cookies in the manner and for the purposes set out below.
 
-*   What is a cookie?
-*   Why do we use cookies?
-*   Specific types of cookie
-*   How to control cookies and similar technologies
-*   Cookies set by Linaro Websites
-*   Cookies set by third parties
-*   Changes to this policy
+* What is a cookie?
+* Why do we use cookies?
+* Specific types of cookie
+* How to control cookies and similar technologies
+* Cookies set by Linaro Websites
+* Cookies set by third parties
+* Changes to this policy
 
 * * *
 
