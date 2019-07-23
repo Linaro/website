@@ -204,6 +204,7 @@
     "^/initiatives/lsk(/?|/index.html)$ /engineering/projects/lsk/ [R,L,NC]",
     "^/initiatives/lava(/?|/index.html)$ /engineering/projects/lava/ [R,L,NC]",
     "^/initiatives/performance(/?|/index.html)$ /engineering/projects/ [R,L,NC]",
+    "^/IPR-policy(/?|/index.html)$ /legal/#ipr_policy [R,L,NC]",
     "^/kernelci(/?|/index.html)$ /engineering/projects/kernelci/ [R,L,NC]",
     "^/lava(/?|/index.html)$ /engineering/projects/lava/ [R,L,NC]",
     "^/latest/hub(/?|/index.html)$ /latest/resources/ [R,L,NC]",
