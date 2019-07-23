@@ -4,6 +4,7 @@
     "^/about/meet-the-team(/?|/index.html)$ /about/ [R,L,NC]",
     "^/about/presentations/Q/membership-rules-and-articles-of-association(/?|/index.html)$ /assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf [R,L,NC]",
     "^/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards(/?|/index.html)$ /news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/ [R,L,NC]",
+    "^/antitrust-policy(/?|/index.html)$ /legal/#antitrust_guidelines [R,L,NC]",
     "^/app/images/press/CMYK-LogoSet/CMYK-Linaro_Grey.eps$ /assets/images/people/CMYK-Linaro_Grey.eps [R,L,NC]",
     "^/app/images/press/CMYK-LogoSet/CMYK-Linaro_Standard.eps$ /assets/images/people/CMYK-Linaro_Standard.eps [R,L,NC]",
     "^/app/images/press/CMYK-LogoSet/CMYK-Linaro_StandardWhite.eps$ /assets/images/people/CMYK-Linaro_StandardWhite.eps [R,L,NC]",
