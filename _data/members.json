@@ -662,6 +662,11 @@
                 "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
                 "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
                 "url": "/membership/neucore/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/caiqi.jpg",
+                "name": "Caiqi Eletronics",
+                "url": "/membership/caiqi/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
