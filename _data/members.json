@@ -662,11 +662,6 @@
                 "image": "https://static.linaro.org/common/member-logos/neucore.jpg",
                 "name": "Shangahi Neucore Intelligent Technology Co Ltd.",
                 "url": "/membership/neucore/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/framos.jpg",
-                "name": "Framos",
-                "url": "/membership/framos/"
             }
         ],
         "membership_group_name": "96Boards Manufacturing Partners",
@@ -695,6 +690,11 @@
                 "image": "https://static.linaro.org/common/member-logos/wizeiot.jpg",
                 "name": "WizeIoT",
                 "url": "/membership/wizeiot/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/framos.jpg",
+                "name": "Framos",
+                "url": "/membership/framos/"
             }
         ],
         "membership_group_name": "96Boards Partners",
