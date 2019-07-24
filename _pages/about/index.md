@@ -18,8 +18,9 @@ flow:
           content:
             side_content:
                 position: right
-                type: image
-                content: /assets/images/content/Linaro-Logo.svg
+                type: youtube_video
+                content:
+                    url: https://www.youtube.com/watch?v=iNMhpvHCXRU
             text: >
                 Linaro brings together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
 
@@ -38,7 +39,7 @@ flow:
                     xs_items: 1
                     sm_items: 1
                     md_items: 1
-                    lg_items: 1 
+                    lg_items: 1
                     items:
                         - image: /assets/images/content/bkk19-group-photo.jpg
                           alt: Linaro Connect Bangkok 2019 Group Photo
@@ -73,31 +74,31 @@ flow:
         - format: block
           style: text-center text-white innovations_foundation
           item_width: 3
-          content: 
-              - title: 
+          content:
+              - title:
                     size: h3
                     content: Collaborate on the essentials
                 text:
                     content: >
                         Linaro provides a collaborative forum where industry and community work together on open source software to **solve common problems**
-              - title: 
+              - title:
                     size: h3
                     content: Focus on differentiation
                 text:
                     content: >
-                        There is **no need to differentiate on the basics**. Solving common problems together once and for all allows you to focus on your value add. 
-              - title: 
+                        There is **no need to differentiate on the basics**. Solving common problems together once and for all allows you to focus on your value add.
+              - title:
                     size: h3
                     content: See tangible results
                 text:
                     content: >
-                        Solving problems doesn’t just mean developing strategy. It means **actual engineering solutions** are delivered by Linaro and member engineers. 
-              - title: 
+                        Solving problems doesn’t just mean developing strategy. It means **actual engineering solutions** are delivered by Linaro and member engineers.
+              - title:
                     size: h3
                     content: Work with Arm software experts
                 text:
                     content: >
-                        Linaro maintains the Arm ecosystem, providing the tools, security and Linux kernel quality needed for a solid base to differentiate on. **Arm software is our expertise.** 
+                        Linaro maintains the Arm ecosystem, providing the tools, security and Linux kernel quality needed for a solid base to differentiate on. **Arm software is our expertise.**
     - row: custom_include_row
       source: about/employee_map.html
     - row: container_row
@@ -105,8 +106,8 @@ flow:
         - format: block
           style: text-center text-white organisation-section
           item_width: 4
-          content: 
-              - title: 
+          content:
+              - title:
                     size: h3
                     content: Board of Directors
                 url: /about/team/board/
@@ -118,7 +119,7 @@ flow:
                       url: /about/team/board/
                       icon: fa fa-users
                       style: btn-primary
-              - title: 
+              - title:
                     size: h3
                     content: Technical Steering Committee
                 url: /about/team/technical-steering-committee/
@@ -130,7 +131,7 @@ flow:
                       url: /about/team/technical-steering-committee/
                       icon: fa fa-users
                       style: btn-primary
-              - title: 
+              - title:
                     size: h3
                     content: Executive Team
                 url: /about/team/executive/
