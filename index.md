@@ -21,29 +21,13 @@ jumbotron:
               buttons:
                 - title: Learn more
                   url: https://www.linaro.org/news/linaro-announces-launch-of-96boards-system-on-module-som-specification/
-            - title: Horizon Robotics joins Linaro 96Boards Steering Committee
-              description: Linaro announces that Horizon Robotics, leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member.
-              darken: true
-              slide-style: "background-position-y: bottom;"
-              image: /assets/images/content/machine-learning-bg.jpg
-              buttons:
-                - title: Learn more
-                  url: /news/horizon-robotics-joins-linaro-96boards-steering-committee/
-            - title: Peng Cheng Laboratory (PCL) joins Linaro as Associate Member
-              description: Linaro announces that Peng Cheng Laboratory (PCL) has joined Linaro as an Associate Member.
-              darken: true
-              slide-style: "background-position-y: center;"
-              image: /assets/images/blog/pcl-join-as-associate-member.jpg
-              buttons:
-                - title: Learn more
-                  url: /news/peng-cheng-laboratory-pcl-joins-linaro-as-associate-member/
 flow:
     - row: custom_include_row
-      source: home/collaborative-engineering.html 
+      source: home/collaborative-engineering.html
     - row: custom_include_row
       source: home/developer-services.html
     - row: custom_include_row
-      source: home/96boards.html 
+      source: home/96boards.html
     - row: custom_include_row
       source: home/connect.html
 ---
