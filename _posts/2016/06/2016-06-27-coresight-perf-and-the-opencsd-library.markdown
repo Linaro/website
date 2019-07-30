@@ -247,7 +247,7 @@ _mpoirier@t430:~/work/linaro/coresight/jun01-user$ perf report --stdio_
 
 The above shows that 4.13% of all the instruction ranges started in library libc-2.21.so at address 0x0000000000078758.  Using the source code, the DSO file and an objdump utility it is possible to quickly identify the function that was referenced.  It is important to keep in mind that flame graphs are generated using the _entry_ point only.  Nothing can be deduced about the path through the code that was taken after that.
 
-From more accurate results it is suggested to work with the _script_ command where a user supplied script can take advantage of all the information conveyed by synthesised events by way of the [perf_sample structure](http://lxr.free-electrons.com/source/tools/perf/util/event.h#L180).  An example is the _cs-trace-disasm.py_ script produced by Linaro:
+From more accurate results it is suggested to work with the _script_ command where a user supplied script can take advantage of all the information conveyed by synthesised events by way of the [perf_sample structure](https://elixir.bootlin.com/linux/latest/source/tools/perf/util/event.h#L180).  An example is the _cs-trace-disasm.py_ script produced by Linaro:
 
 
 ```c
