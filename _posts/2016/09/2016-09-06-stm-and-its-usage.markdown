@@ -524,11 +524,11 @@ The above trace data was just decoded from the sample program [6], the red numbe
 
 I hope this post provided an useful introduction to STM and presented how to use it clearly.  One work related to STM is still ongoing,  which I have been doing - Ftrace integration with STM, function traces can be exported via STM once this work is done.  At this moment the 5th iteration [8] for this feature has been released.
 
-[1] [http://lxr.free-electrons.com/source/drivers/hwtracing/stm/console.c?v=4.7](http://lxr.free-electrons.com/source/drivers/hwtracing/stm/console.c?v=4.7)
+[1] [https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/stm/console.c?v=4.7](https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/stm/console.c?v=4.7)
 
-[2] [http://lxr.free-electrons.com/source/arch/arm64/boot/dts/sprd/sc9836.dtsi?v=4.3#L178](http://lxr.free-electrons.com/source/arch/arm64/boot/dts/sprd/sc9836.dtsi?v=4.3#L178)
+[2] [https://elixir.bootlin.com/linux/latest/source/arch/arm64/boot/dts/sprd/sc9836.dtsi?v=4.3#L178](https://elixir.bootlin.com/linux/latest/source/arch/arm64/boot/dts/sprd/sc9836.dtsi?v=4.3#L178)
 
-[3] [http://lxr.free-electrons.com/source/drivers/hwtracing/coresight/coresight-stm.c](http://lxr.free-electrons.com/source/drivers/hwtracing/coresight/coresight-stm.c)
+[3] [https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/coresight/coresight-stm.c](https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/coresight/coresight-stm.c)
 
 [4] [https://patchwork.kernel.org/patch/9189197/](https://patchwork.kernel.org/patch/9189197/)
 
