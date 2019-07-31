@@ -35,8 +35,8 @@ team:
       type: committee
       bio: >
         David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.
-
-        When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and frie
+        
+        When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
     - name: Jon Masters
       title: LEG Representative, Red Hat
       image: /assets/images/people/jon-masters.png
