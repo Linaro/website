@@ -24,7 +24,7 @@ To build the site and then serve it so that you can check your contribution appe
 
 ```
 cd <git repository directory>
-JEKYLLACTION="serve" ./build-site.sh
+JEKYLL_ACTION="serve" ./build-site.sh
 ```
 
 To check that your contribution doesn't include any broken links:
