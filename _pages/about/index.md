@@ -1,7 +1,7 @@
 ---
 title: About Linaro
 description: |-
-    Linaro leads collaboration in the Arm ecosystem and helps companies work with the latest open source technology.
+    Experts in Open Source Software on Arm
 permalink: /about/
 js-package: about
 css-package: about
@@ -22,39 +22,7 @@ flow:
                 content:
                     url: https://www.youtube.com/watch?v=iNMhpvHCXRU
             text: >
-                Linaro brings together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
-
-                Member companies fund Linaro and provide a significant proportion of its engineering resources as assignees who work full time on Linaro projects and member engineers who work on member-sponsored projects. Linaro’s engineering team, including contributed member resources, consists of about 300 software developers. Linaro engages with the broader open source community on a daily basis on IRC, mailing lists and at industry events, including at its own Linaro Connect events. The work page provides an overview of, and links to more information about, Linaro’s organization, groups, projects and initiatives.
-        - format: feature_block
-          style: text-center text-white
-          content:
-            side_content:
-                position: left
-                type: slider
-                content:
-                    lightbox_enabled: true
-                    seconds_per_slide: 5
-                    nav: true
-                    dots: false
-                    xs_items: 1
-                    sm_items: 1
-                    md_items: 1
-                    lg_items: 1
-                    items:
-                        - image: /assets/images/content/bkk19-group-photo.jpg
-                          alt: Linaro Connect Bangkok 2019 Group Photo
-                          title: Linaro Connect Bangkok 2019 Group Photo
-                        - image: /assets/images/content/yvr18-group-photo.jpg
-                          alt: Linaro Connect Vancouver 2018 Group Photo
-                          title: Linaro Connect Vancouver 2018 Group Photo
-                        - image: /assets/images/content/hkg18-group-photo-optimized.jpg
-                          alt: Linaro Connect Hong Kong 2018 Group Photo
-                          title: Linaro Connect Hong Kong 2018 Group Photo
-            title: Many hands make light work
-            text: >
-                The members determine what work is done by the Linaro engineering team. As the number of Linaro members increases, the company’s capacity to provide engineering solutions grows and so the return on a member’s investment increases. This results in more common engineering work being completed by the Linaro engineers, enabling the members to focus more of their own resources on innovation and differentiation.
-
-                Linaro’s work is at the heart of all modern Linux-based devices running on Arm processors, including Android smartphones and tablets. As markets for Arm processors develop, new opportunities for collaborative engineering are created around Linux and other open source operating systems. These opportunities include software stacks and tools in mobile, networking, servers, the digital home and IoT.
+                Together with Arm, Linaro co-maintains the Arm software ecosystem, providing the tools, security and Linux kernel quality needed for a solid base to differentiate on. Enabling markets on Arm architecture since 2010, Linaro works with companies to consolidate Arm code bases in the ecosystem as a whole, as well as in specific market segments. We do this by providing an engineering forum where industry and community can work together on open source software to solve common problems. This collaborative approach reduces software fragmentation across the many Arm platforms and enables industry and community to reduce costs for development and validation of Arm-based software.
     - row: container_row
       sections:
         - format: title
