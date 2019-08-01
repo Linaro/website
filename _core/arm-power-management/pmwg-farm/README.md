@@ -6,7 +6,6 @@ description: >-
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel'
 permalink: /engineering/core/arm-power-management/pmwg-farm/
-director: Vincent Guittot
 youtube_playlist: 'https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib'
 ---
 ## Overview
@@ -34,13 +33,13 @@ Some devices in our board farm include:
 
 We use these tools as a part of our testing process:
 
-- [Automerge](https://git.linaro.org/power/automerge.git) to merge developer branches into a central repository 
-- [Jenkins](https://ci.linaro.org/) for our Android builds and [kernelci](https://kernelci.org/) for our Linux builds 
-- [Arm's Workload Automation framework](https://github.com/arm-software/workload-automation) to run workloads on Android and Linux 
-- Arm Energy Probes and [AEP command-line tool by Andy Green](https://git.linaro.org/tools/arm-probe.git) to collect power measurements 
-- [LAVA framework](https://validation.linaro.org/) for device management and run CI jobs 
-- [LISA toolkit by Arm](https://github.com/arm-software/lisa) for post-processing data 
-- [Linaro QA reports](https://qa-reports.linaro.org/) to display test results and graph trends 
+- [Automerge](https://git.linaro.org/power/automerge.git) to merge developer branches into a central repository
+- [Jenkins](https://ci.linaro.org/) for our Android builds and [kernelci](https://kernelci.org/) for our Linux builds
+- [Arm's Workload Automation framework](https://github.com/arm-software/workload-automation) to run workloads on Android and Linux
+- Arm Energy Probes and [AEP command-line tool by Andy Green](https://git.linaro.org/tools/arm-probe.git) to collect power measurements
+- [LAVA framework](https://validation.linaro.org/) for device management and run CI jobs
+- [LISA toolkit by Arm](https://github.com/arm-software/lisa) for post-processing data
+- [Linaro QA reports](https://qa-reports.linaro.org/) to display test results and graph trends
 
 ## CI loop setup
 
@@ -65,15 +64,15 @@ If you are planning to use arm energy probes to collect power measurements, you 
 
 libudev-dev package and add your username to the dialout group. Then run 
 
-ls -l ../dev/ttyACM0. 
+ls -l ../dev/ttyACM0.
 - Find the probe ID by running 
 
 ls /dev/serial/by-id/ on the host machine. The output should look similar to this format: 
 
-/dev/serial/by-id/usb-NXP_SEMICOND_ARM_Energy_Probe_S_NOXXXXXXXX-if00. 
+/dev/serial/by-id/usb-NXP_SEMICOND_ARM_Energy_Probe_S_NOXXXXXXXX-if00.
 - Update the LAVA device configuration file to include 
 {% raw  %}
-{% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID. 
+{% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID.
 {% endraw  %}
 
 ### Data post processing
@@ -94,12 +93,12 @@ This example is created to get users running Workload Automation on Hikey Androi
 
 If you need general **LAVA** help (e.g. how to submit a job, how to install LAVA, tips for writing test definitions), please try one of the following suggestions:
 
-- Read the LAVA [documentation](https://validation.linaro.org/static/docs/v2/). It is thoroughly written. 
+- Read the LAVA [documentation](https://validation.linaro.org/static/docs/v2/). It is thoroughly written.
 - Email questions to the LAVA users mailing list at 
 
-&lt;lava-users AT lists DOT lavasoftware DOT org&gt; so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem. 
-- Visit the [LAVA Software Community Project](https://www.lavasoftware.org/) website. 
-- Have a Linaro LDAP account and want to try running your first LAVA job? Visit [here](https://validation.linaro.org/static/docs/v2/first_steps.html#linaro-lab-users). 
+&lt;lava-users AT lists DOT lavasoftware DOT org&gt; so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem.
+- Visit the [LAVA Software Community Project](https://www.lavasoftware.org/) website.
+- Have a Linaro LDAP account and want to try running your first LAVA job? Visit [here](https://validation.linaro.org/static/docs/v2/first_steps.html#linaro-lab-users).
 
 To learn how to use parameters or enable instruments in your agenda and how **Workload Automation** works in detail, please visit the [WA document site](https://workload-automation.readthedocs.io/en/latest/).
 

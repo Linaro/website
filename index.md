@@ -3,7 +3,7 @@ layout: flow
 js-package: home
 css-package: home
 edit-on-github: "false"
-title: Linaro - Leading collaboration in the Arm Ecosystem
+title: Accelerating deployment of Arm-based solutions
 jumbotron:
     slider:
         slides:

@@ -5,7 +5,6 @@ description: |-
     The Power Management Working Group is tasked with creating infrastructure, guidelines and tools to enable superior power management on multiple Arm SoCs.
 keywords: EAS, DynamIQ, Arm, tools, power, energy, thermal, scheduler, big.LITTLE
 permalink: /engineering/core/arm-power-management/
-tech-lead: Vincent Guittot
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib
 ---
 Linaro power management team aims to bring consistency and to reduce fragmentation of power management solutions in the Arm SoC-Linux ecosystem. Members of this team collaborate with open source Linux community, Arm and other member companies to understand diverse requirements pertaining to power management solutions and actively tries to bridge the gap between conflicting solutions.
@@ -21,15 +20,15 @@ Some of the key areas where Linaro Power Management team Engineers are currently
 Power Management Frameworks
 
 - Linux kernel power management frameworks include :-
-    - **Runtime PM** **GenPD (Generic Power Domain)** **CPU Freq** **CPU Idle** **Voltage Management and Regulator Framework** 
+    - **Runtime PM** **GenPD (Generic Power Domain)** **CPU Freq** **CPU Idle** **Voltage Management and Regulator Framework**
 
 **Thermal Management**
 
-- Linux Kernel thermal management frameworks include thermal sensors, thermal governor, cooling devices, thermal zones and trip points. To learn more about Linaro's work in these areas, click here: Thermal Management - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Thermal%20Management 
+- Linux Kernel thermal management frameworks include thermal sensors, thermal governor, cooling devices, thermal zones and trip points. To learn more about Linaro's work in these areas, click here: Thermal Management - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Thermal%20Management
 
 Other initiatives by this team includes
 
-- **DynamIQ Development** **Power management Farm** 
+- **DynamIQ Development** **Power management Farm**
     - Linaro power team maintains a farm to aid in build, sanity, performance and power testing of various arm platforms.For more info on the various initiatives that are part of PMWG farm, click here: PMWG Farm - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/PMWG-Farm
-**Tools and other solutions** 
+**Tools and other solutions**
     - Linaro provides tools for simulating workloads and debugging various power management frameworks in Linux for Arm Socs. To learn more about these tools, click here: Tools - https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools

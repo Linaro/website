@@ -5,7 +5,6 @@ description: |-
     The Linaro Security Working Group (SWG) mission is to support Arm Open Source Linux distributions on security related topics.
 keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
 permalink: /engineering/core/security/
-principal-engineer: Joakim Bech
 projects:
   - title: OP-TEE
     url: /engineering/projects/
@@ -65,5 +64,3 @@ The Security Working Group does all planning and tracking in
 - [JIRA Security roadmap] (password required): https://cards.linaro.org/secure/StructureBoard.jspa?s=138
 - [Kernel Self Protection Project](https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project): https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
 - [Travis](https://travis-ci.org/OP-TEE): https://travis-ci.org/OP-TEE
-
-
