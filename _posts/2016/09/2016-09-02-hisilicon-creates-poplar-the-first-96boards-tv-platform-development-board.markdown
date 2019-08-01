@@ -43,9 +43,8 @@ Please visit LHG at[ LAS16](https://connect.linaro.org/las16/) to see some of th
 
 The 96Boards Poplar Hardware User Manual is available here:[https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html](https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html)
 
-The 96Boards Poplar board is currently on sale for $79USD + Shipping on Aliexpress ([http://www.aliexpress.com/store/product/96Boards-Poplar/2350001_32701867575.html?spm=2114.8147860.0.85.jZ7Tzj](http://www.aliexpress.com/store/product/96Boards-Poplar/2350001_32701867575.html?spm=2114.8147860.0.85.jZ7Tzj)).
+The 96Boards Poplar board is currently on sale for $79USD + Shipping on Aliexpress ([https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI](https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI)).
 
 Linaro has officially released the 96Boards TV Platform Specification at this location:[ http://www.96boards.org/specifications/](http://www.96boards.org/specifications/).
 
 The Poplar board is supported on the 96Boards website at:[ http://www.96boards.org/product/poplar/](http://www.96boards.org/product/poplar/)
-
