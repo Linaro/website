@@ -14,7 +14,7 @@ http2_resources:
 # Ascii Art
 ascii-art: ascii-art.html
 # Site Slogan
-slogan: Leading collaboration in the Arm Ecosystem
+slogan: Accelerating deployment of Arm-based solutions
 # Mailchimp settings
 mailchimp:
     enabled: true
@@ -102,7 +102,7 @@ blog:
               # Fields to use for title and url.
               display_fields:
                   title: title
-                  url: url        
+                  url: url
 # Google Anayltics Setup
 google:
     tag_manager: GTM-5DLPJQ
@@ -120,9 +120,9 @@ schema:
             - https://github.com/Linaro
             - https://www.slideshare.net/linaroorg
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
             country_code: UK
 # Disqus Comments
