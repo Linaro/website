@@ -2,7 +2,6 @@
 core_id: "6"
 title: Toolchain
 permalink: /engineering/core/toolchain/
-tech-lead: Maxim Kuvyrkov
 projects:
   - title: GCC
     url: /engineering/projects/

@@ -38,23 +38,11 @@ team:
         
         When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
     - name: Jon Masters
-      title: LEG Representative, Red Hat
+      title: Red Hat
       image: /assets/images/people/jon-masters.png
       type: committee
       bio: >
         Jon Masters is Chief Arm Architect at Red Hat, where he works on the Fedora Arm project. Masters has been a Linux developer for more than 17 years, since beginning university at the age of 13. He is the author of a number of books on the Linux operating system, including “Building Embedded Linux Systems,” and the upcoming “Porting Linux.” An accomplished musician and hiker, he also enjoys unicycling among his many other hobbies.
-    - name: Kenneth (Liguozhu) Lee
-      title: Hisilicon
-      image: /assets/images/people/kenneth-lee.png
-      type: committee
-      bio: >
-        Kenneth Lee is the chief software architect of Hisilicon. He has more than 14 years experience on OS and OS middleware design and development. He has worked on OS area for most of HUAWEI products which include wideband/Narrowband switches, routers, mobile phones, wireless stations, core network servers, etc. He is also the architect of HUAWEI’s first Linux distribution for lots of embedded telecom devices.
-    - name: Thomas Molgaard
-      title: Arm
-      image: /assets/images/people/thomas-molgaard.jpg
-      type: committee
-      bio: >
-        Thomas Molgaard is Director of Technology Management in the Open Source Software group at Arm, based in Cambridge (UK). Together with his team of Software Product & Technology Managers, he is setting the direction for Arm’s open source software activities across all segments. He has been involved with Linaro on behalf of Arm since 2013 on multiple steering committees. Before joining Arm, he worked with mobile software platforms for Nokia R&D and the Nokia CTO Office with postings in Denmark, China, USA and Brazil.
     - name: Mark Orvek
       title: VP of Engineering
       image: /assets/images/people/mark-orvek.png
@@ -64,21 +52,21 @@ team:
     - name: Kiyoshi Owada
       title: Socionext
       type: committee
-    - name: Xing Wei
-      title: Hisilicon
+    - name: James King
+      title: Arm
       type: committee
-    - name: You Changhai
-      title: ZTE
+    - name: Paul Gosling
+      title: Arm
       type: committee
-    - name: You Changhai
-      title: ZTE
+    - name: Rob Oshana
+      title: NXP
       type: committee
-    - name: Andrea Gallo
-      title: VP of Membership Development at Linaro
-      image: /assets/images/people/andrea-gallo.png
-      type: guest
-      bio: >
-        Andrea Gallo is the VP of Segment Groups. Prior to this Andrea was very much involved with Linaro as part of our Technical Steering Committee. He was awarded this role with Linaro due to his great work as a Fellow and Chief Architect with ST-Ericsson. Andrea joined STMicroelectronics in 1995 and covered many roles and products, including the world first dial-up 56kbps USB Pegas.usB softmodem in 1998, the world first ADSL USB/PCI controllerless modem in 2000 and many products and prototypes based on ST Nomadik Application Processor. Andrea set up and managed STM Linux Software Platform team in Bangalore, including recruitment and software engineering process, and then moved into ST-Ericsson when the JV between ST and Ericsson Mobile Platform was created. As a teenager, Andrea wrote software in Basic, Z80 and Arm assembler and C published by English and Italian magazines and Public Domain Libraries and also attended two summer time trainee programs in July 1987 and 1988 at Acorn Computers in Cambridge (UK) on the just released Arm2 processor, few years before the creation of Arm Ltd itself.
+    - name: Todd Kjos
+      title: Google
+      type: committee
+    - name: Trilok Soni
+      title: Qualcomm
+      type: committee
     - name: Li Gong
       title: Chief Executive Officer / Linaro
       image: /assets/images/people/LiGong.jpg

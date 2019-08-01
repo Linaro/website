@@ -1,7 +1,7 @@
 ---
 title: Membership
 description: |-
-    Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects. 
+    Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
 layout: jumbotron
 permalink: /membership/
 js-package: membership
@@ -12,7 +12,7 @@ jumbotron:
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
     description-class: smaller
     description: >-
-        Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects. 
+        Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
     buttons:
         - title: contact@linaro.org
           url: mailto:contact@linaro.org?subject=Linaro.org - Membership
@@ -164,9 +164,7 @@ To view 96Boards members by level of engagement, click <a href="/members-by-grou
     <div class="container">
         <h2 class="text-center ">Levels of Engagement</h2>
 <div markdown="1" class="">
-Membership of Linaro is open to all interested companies, including Arm licensees, device companies using Arm processors, software distributions and other companies who wish to influence the future of open source on Arm. Members all provide funding for Linaro and some levels provide engineering assignees. To learn more about our membership please see: [Membership Rules of Linaro](https://www.linaro.org/assets/pdf/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) and the [Articles of Association](https://www.linaro.org/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
-
-There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. The current groups include LDCG, LITE, LEDGE and LCG; current SIGs are ODP, HPC and LTNS; current incubators are AI/ML and Automotive; and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
+There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. Linaro has groups focused on the following segments: [Data Centre & Cloud](https://www.linaro.org/engineering/datacenter-and-cloud/), [IoT & Embedded](https://www.linaro.org/engineering/iot-and-embedded/), [Edge & Fog Computing](https://www.linaro.org/engineering/edge-and-fog-computing/), [Consumer (Android)](https://www.linaro.org/engineering/consumer/) and [HPC](https://www.linaro.org/engineering/high-performance-computing/). Current strategic initiatives are [Artificial Intelligence](https://www.linaro.org/engineering/artificial-intelligence/) and [Autonomous Vehicles](https://www.linaro.org/engineering/autonomous-vehicles/); and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
 </div>
     </div>
 </div>
