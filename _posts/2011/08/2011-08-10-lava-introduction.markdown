@@ -23,7 +23,7 @@ TL;DR: LAVA-the-stack aims to make systematic, automatic and manual quality cont
 
 Some people say I talk to much so I believe I may also write too much at times, I will gladly welcome all feeeback, please comment on what you find curious, interesting, lacking or inaccurate.
 
-Currently LAVA is a brand. People use it to address topics ranging from test wrappers, data formats, the [validation lab test farm in Cambridge UK](http://voices.canonical.com/michael.hudson/2011/07/25/what-the-linaro-validation-team-is-up-to/), the official [validation website](http://validation.linaro.org), one of the [dozen lava modules/projects](https://launchpad.net/lava) on Launchpad and everything in between. This is all good as it makes the brand stronger but it sometimes makes it hard to communicate successfully and unambiguously with others.
+Currently LAVA is a brand. People use it to address topics ranging from test wrappers, data formats, the validation lab test farm in Cambridge UK (http://voices.canonical.com/michael.hudson/2011/07/25/what-the-linaro-validation-team-is-up-to/), the official [validation website](http://validation.linaro.org), one of the [dozen lava modules/projects](https://launchpad.net/lava) on Launchpad and everything in between. This is all good as it makes the brand stronger but it sometimes makes it hard to communicate successfully and unambiguously with others.
 
 For me LAVA is a collection of participating components, the overall idea and evolving architecture that allows us to make testing, quality control and automation a little bit better than it is currently, that is... nowhere.
 
