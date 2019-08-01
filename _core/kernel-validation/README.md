@@ -6,7 +6,6 @@ description: |-
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree, validation, lkft
 permalink: /engineering/core/kernel-validation-and-testing/
 image: /assets/images/projects/kernel.png
-tech-lead: Dan Rue
 related_tags:
   - kernel
   - KVT
