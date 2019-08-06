@@ -106,6 +106,8 @@ blog:
 # Google Anayltics Setup
 google:
     tag_manager: GTM-5DLPJQ
+    analytics: UA-16756069-1
+
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false
