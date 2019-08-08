@@ -35,7 +35,7 @@ team:
       type: committee
       bio: >
         David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.
-        
+
         When he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.
     - name: Jon Masters
       title: Red Hat
@@ -55,15 +55,19 @@ team:
     - name: James King
       title: Arm
       type: committee
-    - name: Paul Gosling
+    - name: Andrew Wafaa
       title: Arm
       type: committee
     - name: Rob Oshana
       title: NXP
+      bio: >
+        Rob Oshana is Vice President of Software Engineering R&D for the Microcontroller and Microprocessor business line at NXP, responsible for software enablement, IoT connectivity, software middleware and security, operating systems, machine learning, software services and advanced technologies.  He serves on multiple industry advisory boards and is a recognized international speaker.  He has published numerous books and articles on software  engineering and embedded systems.  He is also an adjunct professor at the University of Texas and Southern Methodist University and is a Senior Member of IEEE.
       type: committee
     - name: Todd Kjos
       title: Google
       type: committee
+      bio: >
+        Todd Kjos is a technical lead for the Android Kernel Team at Google. He maintains AOSP common kernels and is a Linux maintainer for the binder driver. He also leads the development of Android kernel scheduling and DVFS. Previously he worked on x86 and Itanium server enablement and Itanium virtualization.
     - name: Trilok Soni
       title: Qualcomm
       type: committee
