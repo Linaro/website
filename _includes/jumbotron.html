@@ -5,7 +5,7 @@
     {% else %} class="jumbotron text-center featured-jumbotron" {% endif %}>
     <div id="jumbotron-slider" class="owl-carousel owl-theme full-width-slider">
         {% for slide in page.jumbotron.slider.slides %}
-        <div class="item {% if slide.class %}{{slide.class}} {% endif %}owl-lazy owl-slide flex-center {% if slide.darken %}overlay{% endif %} {% if forloop.first %}active{% endif %}"
+        <div class="item {% if slide.class %}{{slide.class}}{% endif %} owl-lazy owl-slide flex-center {% if slide.darken %}overlay{% endif %} {% if forloop.first %}active{% endif %}"
             {% if slide.image %}data-src="{{slide.image}}"
             {% endif %}{% if slide.slide-style %}style="{{slide.slide-style}}" {% endif %}>
             {% if slide.inner-image %}
@@ -23,20 +23,18 @@
                 <p {% if slide.desciption-class %}class="{{slide.description-class}}" {% endif%}>
                     {{slide.description}}
                 </p>
-            </div>
-            {% endif %}
-            {% if slide.bottom_image %}
-                <img class="img-responsive bottom_image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-src="{{slide.bottom_image}}" alt="{% if slide.title %}{{slide.title}}{% else %}{{page.title}}{% endif %}"/>
-            {% endif %}
-            {% if slide.buttons %}
-            <div class="jumbotron_buttons">
+                {% if slide.buttons %}
                 {% for button in slide.buttons %}
                 <a href="{{button.url}}" class="btn btn-primary {% if button.class %}{{button.class}}{% endif %}">
                     {{button.title}} {% if button.icon %}<i class="{{button.icon}}"></i>{% endif %}
                 </a>
                 {% endfor %}
+                {% endif %}
             </div>
+            {% endif %}
+            {% if slide.bottom_image %}
+                <img class="img-responsive bottom_image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{slide.bottom_image}}" alt="{% if slide.title %}{{slide.title}}{% else %}{{page.title}}{% endif %}"/>
             {% endif %}
         </div>
         {% endfor %}
