@@ -20,9 +20,6 @@ jumbotron:
               class: elc_conf
               image: /assets/images/content/services_board.jpg
               bottom_image: /assets/images/content/developer_services_diamonds.svg
-              buttons:
-                - title: Learn More
-                  url: https://events.linuxfoundation.org/events/elc-north-america-2019/
             - title: Linaro announces launch of 96Boards System-on-Module (SOM) Specification
               description: >
                 Linaro announces the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications.
