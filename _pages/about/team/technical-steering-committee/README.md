@@ -53,17 +53,20 @@ team:
       title: Socionext
       type: committee
     - name: James King
+      image: /assets/images/people/JamesKing.png
       title: Arm
       type: committee
     - name: Andrew Wafaa
       title: Arm
       type: committee
     - name: Rob Oshana
+      image: /assets/images/people/RobOshana.jpg
       title: NXP
       bio: >
         Rob Oshana is Vice President of Software Engineering R&D for the Microcontroller and Microprocessor business line at NXP, responsible for software enablement, IoT connectivity, software middleware and security, operating systems, machine learning, software services and advanced technologies.  He serves on multiple industry advisory boards and is a recognized international speaker.  He has published numerous books and articles on software  engineering and embedded systems.  He is also an adjunct professor at the University of Texas and Southern Methodist University and is a Senior Member of IEEE.
       type: committee
     - name: Todd Kjos
+      image: /assets/images/people/ToddKjos.jpg
       title: Google
       type: committee
       bio: >
