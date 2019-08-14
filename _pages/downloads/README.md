@@ -37,17 +37,6 @@ flow:
                       url: https://snapshots.linaro.org/
                       icon: fa fa-arrow-right
                       style: btn-primary
-              - title:
-                    size: h3
-                    content: Platforms
-                text:
-                    content: >
-                        Platforms hosts platform builds for specific end-to-end solutions. Currently, this site features the 18.06 release of the Enterprise Reference Platform, but we expect to post additional platform builds in the coming months.
-                buttons:
-                    - title: View Platforms
-                      url: https://platforms.linaro.org/
-                      icon: fa fa-arrow-right
-                      style: btn-primary
     - row: container_row
       sections:
         - format: block

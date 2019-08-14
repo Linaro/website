@@ -10,7 +10,7 @@ categories:
 - blog
 ---
 
-The Linaro Enterprise Group (LEG) is pleased to announce the 17.08 release for the Linaro Enterprise Reference Platform. To find out more, visit [platforms.linaro.org](https://platforms.linaro.org/) or click [here](http://releases.linaro.org/reference-platform/enterprise/17.08/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.
+The Linaro Enterprise Group (LEG) is pleased to announce the 17.08 release for the Linaro Enterprise Reference Platform. Click [here](http://releases.linaro.org/reference-platform/enterprise/17.08/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.
 
 The goal of the Linaro Enterprise Reference Platform is to provide a fully tested, end to end, documented, open source implementation for Arm based Enterprise servers. The Reference Platform includes boot firmware, kernel, a community supported userspace and additional relevant open source projects. The Linaro Enterprise Reference Platform is built and tested on Linaro members’ hardware and the [Linaro Developer Cloud](https://www.linaro.cloud/). It is intended to be a reference example for use as a foundation for members and partners for their products based on open source technologies. Members, partners and ecosystem companies, including distributions, Open Source Projects, ISVs, hyperscalers, OEMs and ODMs, can leverage the reference for Arm in the datacenter.
 
@@ -60,6 +60,3 @@ Below is the complete list of 17.08 features:
   * HiSilicon D05
   * HPE Proliant m400
   * Qualcomm Centriq 2400
-
-
-To find out more about the Linaro Enterprise Reference Platform, go to [platforms.linaro.org](https://platforms.linaro.org).
