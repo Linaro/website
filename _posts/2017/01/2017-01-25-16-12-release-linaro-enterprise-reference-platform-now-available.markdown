@@ -10,7 +10,7 @@ categories:
 - blog
 ---
 
-The Linaro Enterprise Group (LEG) is pleased to announce the 16.12 release for the Linaro Enterprise Reference Platform. To find out more, visit [platforms.linaro.org](https://platforms.linaro.org/) or click [here](http://releases.linaro.org/reference-platform/enterprise/16.12/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.
+The Linaro Enterprise Group (LEG) is pleased to announce the 16.12 release for the Linaro Enterprise Reference Platform. Click [here](http://releases.linaro.org/reference-platform/enterprise/16.12/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.
 
 The goal of the Linaro Enterprise Reference Platform is to provide a product quality, end to end, documented, open source platform for Arm based Enterprise servers. The Reference Platform includes boot firmware, kernel, a choice of userspace distributions and additional relevant open source projects. The Linaro Enterprise Reference Platform is built and tested on 96Boards RP-Certified hardware and the Linaro Developer Cloud. It is intended to be a reference example for use as a foundation for products based on open source technologies.
 
@@ -53,5 +53,3 @@ AppliedMicro X-Gene X-C1 (Mustang)
 HP Proliant m400
 Qualcomm QDF2432 Software Development Platform (SDP)
 Cavium ThunderX
-
-To find out more about the Linaro Enterprise Reference Platform, go to [platforms.linaro.org](https://platforms.linaro.org/).
