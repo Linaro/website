@@ -869,3 +869,13 @@ div#connect {
 .formed-text {
   transform-origin: bottom left;
 }
+.elc_conf img.img-responsive.bottom_image {
+    margin-top: 0px !important;
+    height: 150px;
+    margin-bottom: 50px;
+    z-index: 9;
+}
+.elc_conf .owl--text.slide-desc {
+    margin-top:0px !important;
+    margin-bottom: 0px !important;
+}
