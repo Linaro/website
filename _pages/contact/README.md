@@ -7,7 +7,7 @@ permalink: /contact/
 css-package: contact
 flow:
     - row: container_row
-      style: block_row
+      style: block_row contact_blocks
       sections:
         - format: block
           style: text-center text-white organisation-section
@@ -43,11 +43,13 @@ flow:
 
 ## Linaro HQ
 
-Harston Mill
-Royston Rd
-Harston
-Cambridge
+Harston Mill\
+Royston Rd\
+Harston\
+Cambridge\
 CB22 7GG
+
+***
 
 ## Technical Support
 
@@ -60,14 +62,22 @@ If you have a technical support query relating to 96Boards, please post your que
 
 If you have a technical support query relating to Linaro, please email [support@linaro.org](mailto:support@linaro.org).
 
+***
+
 ## Legal Information
 
 The Linaro legal pages/documents can be found here - [https://www.linaro.org/legal/](https://www.linaro.org/legal/)
+
+***
 
 ## Getting Involved with the community
 
 For discussion around Linux and Open Source on Arm, subscribe to the lists at [http://lists.linaro.org/](http://lists.linaro.org/).
 
+***
+
 ## Linaro IRC
 
 For more information on our IRC channels please visit [/contact/irc/](/contact/irc/).
+
+***
