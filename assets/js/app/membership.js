@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     testimonialSlider.owlCarousel({
         items: 4,
-        loop: true,
+        loop: false,
         dots: false,
         nav: true,
         margin: 10,
