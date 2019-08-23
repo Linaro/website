@@ -22,7 +22,7 @@ wordpress_id: 5667
 
 > The announcement of five new members at Linaro Connect, including Club members Qualcomm, MediaTek and ZTE, is a significant endorsement of the value of Linaro’s business model, and further increases the ROI for every one of our members.
 
-By coincidence the Linux Foundation recently published a report on collaborative engineering subtitled:  [“Companies increase collaborative development, view as essential to success”](http://www.linuxfoundation.org/publications/linux-foundation/collaborative-development-trends-report-2014).  The report points out that technology companies face enormous pressure to innovate faster and cut costs. A survey carried out for the Linux Foundation shows that professionals in a wide variety of leading technology companies recognize that collaborative software development is increasing in their organization and across industries, and indeed that it’s becoming central to their company’s mission.
+By coincidence the Linux Foundation recently published a report on collaborative engineering subtitled:  [“Companies increase collaborative development, view as essential to success”](https://www.linuxfoundation.org/publications/2014/03/collaborative-development-trends-report-2014/).  The report points out that technology companies face enormous pressure to innovate faster and cut costs. A survey carried out for the Linux Foundation shows that professionals in a wide variety of leading technology companies recognize that collaborative software development is increasing in their organization and across industries, and indeed that it’s becoming central to their company’s mission.
 
 **Key findings are that:**
 
@@ -42,4 +42,4 @@ The Linaro Stable Kernel (LSK) is based on the most recent LTS release (currentl
 As additional member hardware becomes available to Linaro we are committed to having the LSK support the functionality, quality and stability that members need for their initial products. Of course a balance between stability and new features must always be made, but our goal is to enable our members to use the LSK as the basis of their products now. This will be a significant demonstration of the benefits of collaborative engineering that have been advocated by Linaro and the Linux Foundation.
 
 
-[1 Linux Foundation Collaborative Development Trends Report 2014](http://www.linuxfoundation.org/publications/linux-foundation/collaborative-development-trends-report-2014)
+[1 Linux Foundation Collaborative Development Trends Report 2014](https://www.linuxfoundation.org/publications/2014/03/collaborative-development-trends-report-2014/)

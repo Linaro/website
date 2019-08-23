@@ -315,7 +315,7 @@ Greg Kroah-Hartman's “Write and Submit your first Linux kernel Patch” (2010)
 [https://archive.fosdem.org/2010/](https://archive.fosdem.org/2010/)
 
 Jonathan Corbet's “How to Participate in the Linux Community” (2008)
-[http://ldn.linuxfoundation.org/how-participate-linux-community](http://ldn.linuxfoundation.org/how-participate-linux-community)
+[https://training.linuxfoundation.org/resources/webinars/how-to-contribute-to-the-linux-community/](https://training.linuxfoundation.org/resources/webinars/how-to-contribute-to-the-linux-community/)
 
 Randy Dunlap's “Linux Kernel Development: Getting Started” (2005)
 http://xenotime.net/
