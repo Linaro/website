@@ -310,7 +310,7 @@ div#key-factors.testimonials {
     display:block;
     color:white;
     font-size:24px;
-    transition: all 200ms ease; 
+    transition: all 200ms ease;
 }
 .testimonial-block i.fa.fa-youtube-play:hover {
     display:block;
@@ -377,4 +377,8 @@ div#key-factors.testimonials {
 }
 .big-triangle::after, .big-triangle::before {
     border-bottom-color: #141414;
+}
+#wrapper .testimonial_item h4 {
+    text-align: center;
+    color: white !important;
 }
