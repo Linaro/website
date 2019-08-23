@@ -4,12 +4,12 @@ search:
     label: Linaro
 
 # Universal Nav Bar Toggle
-universal-nav: true    
+universal-nav: true
 
 # Nav Brand Config
 brand:
     text: Linaro
-    image: 
+    image:
         enabled: true
         name: linaro-svg.html
         svg: true
@@ -33,6 +33,8 @@ pages:
                   url: /awards/
           - text: Join Us
             url: /about/join-us/
+          - text: Contact Us
+            url: /contact/
     - title: Membership
       url: /membership/
     - title: Engineering
@@ -65,11 +67,11 @@ pages:
           - text: IoT & Embedded
             url: /engineering/iot-and-embedded/
           - text: Autonomous Vehicles
-            url: /engineering/autonomous-vehicles/ 
+            url: /engineering/autonomous-vehicles/
           - text: Artificial Intelligence
             url: /engineering/artificial-intelligence/
           - text: High Performance Computing
-            url: /engineering/high-performance-computing/     
+            url: /engineering/high-performance-computing/
           # - text: Upstream Projects
           #   url: /engineering/projects/
     - title: Services
