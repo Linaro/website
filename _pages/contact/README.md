@@ -40,17 +40,6 @@ flow:
     - row: main_content_row
 
 ---
-
-## Linaro HQ
-
-Harston Mill\
-Royston Rd\
-Harston\
-Cambridge\
-CB22 7GG
-
-***
-
 ## Technical Support
 
 ### 96Boards Technical Support
@@ -81,3 +70,13 @@ For discussion around Linux and Open Source on Arm, subscribe to the lists at [h
 For more information on our IRC channels please visit [/contact/irc/](/contact/irc/).
 
 ***
+
+## Linaro HQ
+
+<address>
+Harston Mill<br/>
+Royston Rd<br/>
+Harston<br/>
+Cambridge<br/>
+CB22 7GG<br/>
+</address>
