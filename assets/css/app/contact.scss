@@ -17,9 +17,17 @@
      }
     .map-responsive iframe{
         height:200px;
-    }    
+    }
 }
 .col-sm-8.contact{
     margin-top:50px;
     margin-bottom:80px;
+}
+
+#flow_wrapper .row.block_row.contact_blocks .block .block-inner {
+    background-color: white;
+    margin-top: 10px;
+}
+#flow_wrapper .row.block_row.contact_blocks .block .block-inner h3{
+    color: #333;
 }
