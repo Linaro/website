@@ -11,7 +11,7 @@ image:
   featured: true
   path: /assets/images/blog/OSSNA.jpg
 ---
-The AI deep learning neural network ecosystem is just getting started and has similar implications with open source as GPU and video accelerators had in the early days with user space drivers, binary blobs, proprietary APIs and all possible ways to protect their IPs. Together with other players in the Arm ecosystem, Linaro wants to create a common open source framework to manage multiple NN accelerators while at the same time avoiding modifications to deep learning frameworks with multiple forks. The Machine Intelligence Initiative at Linaro has been set up with this purpose in mind - to help reduce the risk of fragmentation in the Deep learning NN acceleration ecosystem. 
+The AI deep learning neural network ecosystem is just getting started and has similar implications with open source as GPU and video accelerators had in the early days with user space drivers, binary blobs, proprietary APIs and all possible ways to protect their IPs. Together with other players in the Arm ecosystem, Linaro wants to create a common open source framework to manage multiple NN accelerators while at the same time avoiding modifications to deep learning frameworks with multiple forks. The Machine Intelligence Initiative at Linaro has been set up with this purpose in mind - to help reduce the risk of fragmentation in the Deep learning NN acceleration ecosystem.
 
 Last week Andrea Gallo, VP of Segment Groups and Strategic Initiatives at Linaro, presented a talk on Deep Learning Neural Network Acceleration at the Edge. To view the slides from his presentation click [here](https://events.linuxfoundation.org/wp-content/uploads/2017/11/Deep-Learning-Neural-Network-Acceleration-at-the-Edge-Andrea-Gallo-Linaro.pdf).
 
@@ -19,13 +19,13 @@ Last week Andrea Gallo, VP of Segment Groups and Strategic Initiatives at Linaro
 
 If you would like to find out more about Linaro’s work in Machine Intelligence on Arm and how to get involved, join us at Linaro Connect Vancouver 2018 in a week’s time. We will be hosting an AI and Neural Networks on Arm Summit at the Hyatt Regency Vancouver on Wednesday 19 September 2018. You can attend the summit for just $45.
 
-To register, click [here](https://connect.linaro.org/ai-neural-networks-arm-summit/)!
+To register, click [here](https://connect.linaro.org/)!
 
 There will be sessions on the latest AI technologies available in edge and consumer devices from the Arm ecosystem and how these accelerate deep learning applications leveraging the most widely adopted AI frameworks. Here are some of the great sessions we’ve got lined up:
 
 **[Artificial Intelligence Strategy: Digital Transformation Through Deep Learning](https://connect.linaro.org/resources/yvr18#chris-benson)**
 
-Chris Benson, AI & Digital Transformation Strategist, Solution Architect and Keynote Speaker/Evangelist  
+Chris Benson, AI & Digital Transformation Strategist, Solution Architect and Keynote Speaker/Evangelist
 
 If the last decade was about mobile first, the next decade will be about AI first. Within the worlds of artificial intelligence and machine learning, deep learning is where a continual stream of the most exciting advancements are being made – self-driving cars, self-organizing drone swarms, computer vision, conversational interfaces, autonomous robots, speech recognition, emotion recognition, and much more. It is amazing AI that works today, and it is the driving force behind the current AI revolution. Deep learning will impact nearly every industry on the planet, driving digital transformation for years to come, with countless opportunities to take advantage of this technology. Over the next decade, deep learning inferencing models will become common microservices within enterprises architectures. Software engineers will be expected to design, develop, and deploy deep learning microservices into production – in the cloud, on the edge, into mobile IoT devices, and into the everyday autonomous robots that will become ubiquitous in our lives.
 
@@ -60,20 +60,3 @@ In this talk, we not only introduce ONNC framework, we will dive into ONNC inter
 ThunderSoft has been working on AI for recent years. This presentation will share some results of AI work. First of all, give a general introduction about the current status of AI. For the current messy AI market, whatever AI chip, algorithm, framework or application, what challenges are we facing? Then introduce what kind of services and solutions we can provide for resolving some real issues such as defects inspection in industrial and meanwhile, show the architecture of our AI system. Finally, give some use cases for your reference which focus on some details about three products(Thunder Visual Inspection, Face SDK, and AI Kit) which are based on ML/DL technology. For Thunder Visual Inspection, will give a solution to resolve visual inspection issues through combining deep learning, image processing, even if other computer vision related technologies together. For face SDK, will show the software architecture and interfaces. This part will take a deep dive into how to build face SDK and implement the integration of algorithms and AI models on top of some existed AI Engine(SNPE, Tensorflow Lite etc.). AI development Kit based on Qualcomm SDM845 is extremely powerful for AI development. In this part, hardware specification and software capability will be listed.
 
 To find out more about the Machine Intelligence initiative at Linaro, click [here](/engineering/artificial-intelligence/).
-
-
-
-
-
-
-
-
-
- 
-
-  
-
-
-
-
-
