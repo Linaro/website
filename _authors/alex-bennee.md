@@ -6,4 +6,7 @@ email: alex.bennee@linaro.org
 image:
     path: /assets/images/people/alex.jpg
     name: alex.jpg
+first_name: Alex
+last_name: Bennée
+image_path: https://secure.gravatar.com/avatar/d9fea6607c629b1bc9a21f86147e91d4
 ---
