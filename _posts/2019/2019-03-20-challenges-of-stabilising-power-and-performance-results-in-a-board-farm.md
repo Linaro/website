@@ -1,12 +1,9 @@
 ---
-title: Challenges of Stabilising Power and Performance Results in a Board Farm
-author: lisa.nguyen
 layout: post
-date: 2019-03-20 09:00:00
-description: >-
-    In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards. 
-categories:
-  - Blog
+title: Challenges of Stabilising Power and Performance Results in a Board Farm
+date: 2019-03-20T09:00:00.000Z
+image:
+  path: /assets/images/blog/collect-power-measurements-in-ci.png
 tags:
   - Linaro
   - Arm
@@ -16,15 +13,14 @@ tags:
   - PMWG
   - Power Management
   - PMWG Farm
-image: 
-    featured: true
-    path: /assets/images/blog/collect-power-measurements-in-ci.png
+category: Blog
+author: lisa.nguyen
 ---
-In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards. Some of our board farm’s objectives include:
+In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards. Some of our board farm objectives include:
 
-- To collect power and performance results for each board type 
-- Monitor any regressions 
-- Share hardware resources within the PMWG team 
+* To collect power and performance results for each board type 
+* Monitor any regressions 
+* Share hardware resources within the PMWG team 
 
 ## Background
 
@@ -39,7 +35,6 @@ Our CI process is illustrated in the flowchart that we created for our farm demo
 #### PMWG CI Flowchart
 
 {% include image.html name="collect-power-measurements-in-ci.png" alt="PMWG CI Flowchart" %}
-
 
 Each developer in PMWG has their own branch and we use automerge to merge changes to an integration tree automatically. When an update is detected, we trigger a build and start the process of creating and submitting a CI job.
 
@@ -73,7 +68,6 @@ The aim is to keep the infrastructure errors to less than 1%. In some CI instanc
 
 Here is a snippet of a lab health report:
 
-  
 ```
 Total jobs:     136
 
@@ -142,7 +136,6 @@ Device type:    juno-r2
 Total jobs:     7
 
 Total errors:   0       (0.00%)
-
 ```
 
 The daily reports are run starting at 07:00 UTC, and the weekly reports run on Wednesday starting at 06:00 UTC. The utility emails out to a list specified to the script. On PMWG this is currently Vincent, Lisa and the Lab team.
@@ -174,7 +167,7 @@ In this overview chart of idle power consumption below, the left portion shows h
 #### Idle power consumption results before and after the reorg
 
 {% include image.html name="idle-power-consumption-1.png" alt="Idle power consumption results before and after the reorg" %}
-  
+
 The next two charts show a closer view of before and after.
 
 #### Closeup of idle power consumption results before the reorg
@@ -197,11 +190,11 @@ The first hikey960 board had the correct fan placement on the side but the secon
 
 No two boards generated the same or similar results, which led to significant power consumption offsets. For example, our hikey960 boards behaved differently. There was a huge power consumption offset of 15-20% difference between our hikey960 boards before we started troubleshooting with our lab team.
 
-- Were the power supplies identical? 
-- Did we need to swap cables?
-- Did they have the same fan size? 
-- What would happen if we removed sdcards?
-- Were the probes connected properly?
+* Were the power supplies identical? 
+* Did we need to swap cables?
+* Did they have the same fan size? 
+* What would happen if we removed sdcards?
+* Were the probes connected properly?
 
 The troubleshooting did not end there. We removed the daughter board, used a USB to serial cable for the console, checked firmware versions, and more. With those changes, we reduced the power offset difference to 5-10%. We reached a close error margin of 1% between our two hikey960 boards recently with more accurate AEP calibration.
 
@@ -209,23 +202,15 @@ The troubleshooting did not end there. We removed the daughter board, used a USB
 
 To solve our overheating issues, we increased the cooling times by running eight iterations of 15 second idle workloads in between tests, totaling two minutes in cooldown time. In the initial test results, we noticed that the multimedia workloads “consumed” less power than the idle workloads, which did not make sense.
 
-  
-
 We kept our tools as current as possible. We upgraded LAVA from v1 to v2 and learned how to rewrite jobs in YAML instead of JSON. We also moved to Workload Automation v3, taking advantage of the newer energy measurement instrument. Although we acknowledge that the latest version of tools can generate regressions occasionally.
-
-  
 
 Originally we had one large CI job that took four hours to complete on average. Then we decided to split the CI job into two smaller ones: one for multimedia use cases (audio and video), and the other to run vellamo only. Having a dedicated vellamo CI job would be less likely to impact other tests like idle. We also cut the amount of time to run our tests in half by running smaller CI jobs.
 
-  
-
 We started tracking performance trends for kernel versions 4.9, 4.14, and 4.19. 4.9 is our reference for this comparison chart below.
 
-  
-
 ### Tracking performance trends for kernel versions 4.9, 4.14, and 4.19
-{% include image.html name="tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
 
+{% include image.html name="tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
 
 ## Recommendations
 
@@ -240,6 +225,7 @@ Based on our experiences with our board farm so far, we would make the following
 7. While isolating the boards may not be necessary, it helped to stabilise our results. 
 8. Calibrate the arm energy probes often. To do that, we use the arm-probe command-line tool and run this command with the autozero option: 
 
+
 ```
 arm-probe --config &lt;/path/to/config&gt; -z
 ```
@@ -248,5 +234,4 @@ arm-probe --config &lt;/path/to/config&gt; -z
 
 With our success in collecting power and performance results for Android, we hope to do the same for the Linux kernel. We also want to test patches from the Linux/Arm kernel mailing list to find any regressions and report back to the developers. Lastly, we hope to collaborate with kernelci to share resources and provide more useful results to kernel maintainers and contributors other than boot test reports.
 
-  
-For more information on the PMWG board farm, visit [https://www.linaro.org/engineering/core/arm-power-management/pmwg-farm/](https://www.linaro.org/engineering/core/arm-power-management/pmwg-farm/).
+For more information on the PMWG board farm, visit <https://www.linaro.org/engineering/core/arm-power-management/pmwg-farm/>.
