@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Challenges of Stabilising Power and Performance Results in a Board Farm
-date: 2019-03-20T09:00:00.000Z
+date: '2019-03-20 09:00:00'
 image:
   path: /assets/images/blog/collect-power-measurements-in-ci.png
 tags:
