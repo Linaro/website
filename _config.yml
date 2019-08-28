@@ -51,11 +51,11 @@ schema:
             - https://github.com/Linaro
             - https://www.slideshare.net/linaroorg
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
-            country_code: UK 
+            country_code: UK
 # Files that should be excluded from the Jekyll build.
 exclude:
   - _site
@@ -208,7 +208,7 @@ pagination:
 # Jekyll pagination v2 autopages configuration.
 autopages:
   enabled: false
-  
+
 using_assets: true
 # Jekyll Collections configuration - Projects, Products and Documentation.
 collections:
@@ -231,7 +231,7 @@ collections:
         output: true
         permalink: /author/:name/
 
-include: ['_pages']
+include: ['_pages','_external_files']
 
 # Cloud Cannon Configuration
 _options:
