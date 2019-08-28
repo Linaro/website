@@ -331,6 +331,17 @@ collections:
                   fields:
                     - {label: Name, name: text, widget: string}
                     - {label: Link, name: url, widget: string}
+  - label: "Engineering Pages"
+    name: "engineering_pages"
+    folder: "_engineering"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Description", name: "description", widget: "text", required: true}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false, hint: "Permalinks for engineering pages are created based on the filename. Optionally override the default permalink with this field."}
+      - {label: "Keywords", name: keywords, widget: "string", required: true, hint: "Provide a comma separated list of keywords related to this engineering group."}
+      - {label: "Image", name: "image", widget: image, required: false}
   - label: "Pages"
     name: "pages"
     folder: "_pages"
