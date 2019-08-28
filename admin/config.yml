@@ -346,6 +346,18 @@ collections:
         name: members_key
         widget: hidden
         required: true
+      - label: "Related Tags/Tracks"
+        name: related_tags
+        widget: list
+        allow_add: true
+        hint: "List your tags/tracks. These will be used to pull in relevant resources from connect.linaro.org"
+      - label: "Jumbotron"
+        name: jumbotron
+        widget: object
+        fields:
+          - {label: "Triangle Divider", widget: hidden, required: true, default: true}
+          - {label: "Description", widget: hidden, required: true, default: ""}
+          - {label: "Background Image", widget: image, required: true, hint: "Background image to be used in the page header."}
   - label: "Pages"
     name: "pages"
     folder: "_pages"
