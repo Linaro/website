@@ -21,6 +21,6 @@ There will be sessions on the latest AI technologies available in edge and consu
 2. AI/ML frameworks and NN formats
 3. NN HAL plug-in frameworks
 
-If you are not already attending Linaro Connect and want to attend the summit, you will need to register. To find out more or register, click [here](https://connect.linaro.org/ai-neural-networks-arm-summit/).
+If you are not already attending Linaro Connect and want to attend the summit, you will need to register. To find out more or register, click [here](https://connect.linaro.org/).
 
 We hope to see you there!
