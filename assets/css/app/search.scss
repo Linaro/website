@@ -2,25 +2,24 @@
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: $brand-primary;
-    border-color: $brand-primary;
+    background-color: #79ac00;
+    border-color: #79ac00;
 }
-#content-container .fessWrapper .pagination > li > a, #content-container .fessWrapper .pagination > li > span {
-    position: relative;
-    float: left;
-    padding: .5rem .75rem;
-    margin-left: -1px;
-    line-height: 1.5;
-    color: #808080;
-    text-decoration: none;
-    background-color: #fff;
-    border: 1px solid #ddd;
+
+.fessWrapper tbody > tr> td {
+    height: 100%;
+    padding: 0px;
+}
+
+.fessWrapper table{
+    border-bottom:none;
 }
 #content-container .fessWrapper a {
-    color: $brand-primary;
+    color: #999999;
     text-decoration: none;
 }
-#content-container .fessWrapper #result .body cite {
-    color: #a7a7a7;
-    font-style: normal;
+.fessWrapper .searchButton {
+    background-color: $brand-primary;
+    height: 38px;
+    width: 100%;
 }
