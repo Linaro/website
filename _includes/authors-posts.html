@@ -1,4 +1,4 @@
-{% assign author_posts = site.posts | where: author, page.username %}#
+{% assign authors_posts = site.posts | where: 'author', page.username %}
 
 <div class="row blog-section">
     {% for post in authors_posts %}
