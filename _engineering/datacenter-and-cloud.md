@@ -3,8 +3,7 @@ title: Datacenter & Cloud
 description: |-
     The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.
 keywords: Arm, Server, Linux, ecosystem, silicon, Power Management, Security, Big Data, Software Defined Infrastructure, Datacenter, Cloud
-members:
-    key: ldcg
+members_key: ldcg
 other_projects:
   - name: Docker
     url: /engineering/projects/docker/

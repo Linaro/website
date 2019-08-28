@@ -3,8 +3,7 @@ title: IoT & Embedded
 description: |-
     The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
-members:
-    key: lite
+members_key: lite
 related_tags:
   - lite
   - LITE
@@ -17,7 +16,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5e
 members_key: lite_members
 output: true
 image: /assets/images/content/LITE col.svg
-releases: 
+releases:
   - title: LITE Releases
     url: https://releases.linaro.org/components/lite/
 jumbotron:

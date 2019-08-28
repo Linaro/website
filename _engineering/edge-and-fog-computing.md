@@ -3,8 +3,7 @@ title: Edge & Fog Computing
 description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
-members:
-    key: ledge-sig
+members_key: ledge-sig
 related_tags:
   - ledge
   - LEDGE
@@ -14,7 +13,7 @@ related_tags:
   - LITE
 members_key: ledge_members
 output: true
-image: 
+image:
     path: /assets/images/content/LEDGE col.svg
     background-class: "bottom-bg "
 jumbotron:
@@ -22,7 +21,7 @@ jumbotron:
     description: ""
     background-image: /assets/images/content/edge-and-fog-bg.jpg
 ---
-Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. 
+Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly.
 
 Each edge device can be connected to multiple clouds such as the city smart infrastructure cloud, a car manufacturer cloud, an insurance company cloud. What’s more, multiple edge devices can collaborate in the context of a dynamic ad hoc swarm. For instance, a swarm can be formed out of the cars present in the surroundings of a road intersection; cars enter and leave the swarm as they enter and leave the intersection.
 
@@ -30,4 +29,4 @@ So edge computing is not just merely a layer between “things” and “the clo
 
 Linaro members have a particular interest in manufacturing, automotive, smart infrastructure and multi-access edge computing use cases. That may seem broad but one can envision two classes of solutions: one can be very resource constrained with required support of Time Sensitive Networking (TSN), the other is closer to a micro-server form factor.
 
-In order to meet our members’ needs and collaborate in this evolving technology landscape, Linaro has established Linaro Edge (LEDGE). LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. 
+In order to meet our members’ needs and collaborate in this evolving technology landscape, Linaro has established Linaro Edge (LEDGE). LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform.
