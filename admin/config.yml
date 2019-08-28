@@ -381,6 +381,17 @@ collections:
             media_library:
               config:
                 multiple: true
+          - label: "Slider"
+            name: slider
+            widget: list
+            required: false
+            fields:
+              - {label: Slide Title, required: false, name: title, widget: string, hint: "The title of your slide"}
+              - {label: Slide Description, required: false, name: description, widget: text, hint: "The title of your slide"}
+              - {label: Slide Title Class, default: "big-title", required: false, name: title-class, widget: string, hint: "A css class to applied to your title."}
+              - {label: Darken Slide, default: true, required: false, name: darken, widget: boolean, hint: "Toggle the dark overaly on your slide. Leave this as true if unsure."}
+              - {label: Slide Image, required: true, name: image, widget: image, hint: "The high resolution background image to use for your slide."}
+              - {label: Slide Image, required: true, name: image, widget: image, hint: "The high resolution background image to use for your slide."}
       # ***********************
       # Flow Row Configuration
       # ***********************
