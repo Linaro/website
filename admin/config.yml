@@ -664,7 +664,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
  # Posts Config
   - name: 'blog'
-    label: 'Posts'
+    label: '2019 Posts'
     folder: '_posts/2019'
     create: true
     sort: "date:desc" # Default is title:asc
