@@ -20,6 +20,7 @@ image:
     path: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: container_row
+      style: about-services
       sections:
         - format: text
           style: text-center
@@ -28,13 +29,6 @@ flow:
                 Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced
                 Arm technologies in every segment. Linaro Developer Services make that expertise available to you for use on your
                 project.
-        - format: text
-          style: text-center
-          text_content:
-            text: >
-                Linaro Developer Services are expert software and Linux engineers. Our expertise allows us to support all aspects of
-                your Arm-based product delivery, from helping with initial board bring up, to upstreaming code and maintaining long-term
-                support builds. To read more about all the services we provide, click on the area of interest below.
         - format: text
           style: text-center
           text_content:
