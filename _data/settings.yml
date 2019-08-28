@@ -1,5 +1,5 @@
 # Custom Favicon
-favicon: favicon.png
+favicon: /assets/images/content/favicon.png
 # Site name
 name: Linaro
 # Support for http2 push features
@@ -25,8 +25,6 @@ newsletter:
     enabled: true
     url: https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=af6cf590b0
 tags_enabled: true
-jumbotron:
-  darken: true
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
 # # Breadcrumb Settings
@@ -104,9 +102,8 @@ blog:
                   title: title
                   url: url
 # Google Anayltics Setup
-google:
-    tag_manager: GTM-5DLPJQ
-    analytics: UA-16756069-1
+google_analytics:
+    production: UA-16756069-1
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false
