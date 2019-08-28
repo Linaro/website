@@ -13,7 +13,7 @@ show_preview_links: false
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 media_folder: "assets/images/content"
 collections:
   # Website Settings
@@ -332,8 +332,10 @@ collections:
                     - {label: Name, name: text, widget: string}
                     - {label: Link, name: url, widget: string}
   - label: "Engineering Pages"
-    name: "engineering_pages"
+    name: "engineering"
     folder: "_engineering"
+    create: true
+    slug: "{{title}}"
     editor:
       preview: false
     fields:
@@ -361,6 +363,8 @@ collections:
   - label: "Pages"
     name: "pages"
     folder: "_pages"
+    create: true
+    slug: "{{title}}"
     editor:
       preview: false
     fields:
