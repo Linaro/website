@@ -342,6 +342,10 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string", required: false, hint: "Permalinks for engineering pages are created based on the filename. Optionally override the default permalink with this field."}
       - {label: "Keywords", name: keywords, widget: "string", required: false, hint: "Provide a comma separated list of keywords related to this engineering group."}
       - {label: "Image", name: "image", widget: image, required: false}
+      - label: "Members Key"
+        name: members_key
+        widget: hidden
+        required: true
   - label: "Pages"
     name: "pages"
     folder: "_pages"
