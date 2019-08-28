@@ -80,7 +80,7 @@
     clear: both;
 }
 
-div#key-factors {
+#flow_wrapper div#key-factors {
     background-color: #7ca82d;
 }
 
@@ -182,7 +182,7 @@ h2.text-center {
     margin-top: 0px;
 }
 
-div#membership-levels {
+#wrapper #flow_wrapper .levels_of_engagement {
     background-color: #f1f1f1;
 }
 
@@ -270,8 +270,9 @@ div#membership-levels {
     font-weight: normal;
 }
 
-div#projects {
+#flow_wrapper div#projects {
     padding-bottom: 25px;
+    padding-top: 0px;
 }
 
 // Testimonials
@@ -298,7 +299,7 @@ span.testimonial {
     margin: auto;
 }
 
-div#key-factors.testimonials {
+#flow_wrapper div#key-factors.testimonials {
     background-color:#151515;
 }
 

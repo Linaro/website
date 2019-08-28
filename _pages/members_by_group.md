@@ -17,7 +17,7 @@ flow:
                 below or send us an email to [contact@linaro.org](mailto:contact@linaro.org?subject=Linaro.org - Membership).
     - row: main_content_row
     - row: container_row
-        sections:
+      sections:
             - format: title
               title_content:
                 text: Become a member
