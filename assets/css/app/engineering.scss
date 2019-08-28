@@ -37,7 +37,7 @@ hr.dotted-divider {
     border-width: 0 0 30px 0;
 }
 
-div#engineering-graphic {
+#flow_wrapper div#engineering-graphic {
     background-size: cover;
     background-position: center center;
     background-color: #B2B2B2;
@@ -283,4 +283,15 @@ span.core-descriptor.kernel {
 
 .col-xs-6.col-sm-3.col-md-2.project-col:hover {
     background-color: #eee;
+}
+#flow_wrapper .row.engineering-top-row {
+    background-color: transparent;
+}
+
+#flow_wrapper .row.engineering-dividing-row {
+    background-color:  transparent;
+}
+
+#flow_wrapper .row.engineering-bottom-row {
+    background-color: transparent;
 }
