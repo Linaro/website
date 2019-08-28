@@ -3,7 +3,7 @@ title: All Events
 permalink: /events/
 layout: post-index-events
 description: Linaro attends and hosts many events each year. See below for more information.
-image: 
+image:
     path: /assets/images/content/yvr18-group-photo.jpg
     name: hpcworkshop2.png
 pagination:
