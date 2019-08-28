@@ -674,16 +674,16 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "hh:mm:ss"}
       - label: "Image"
         name: image
         widget: object
-        required: true
+        required: false
         fields:
           - label: "Image Path"
             name: "path"
             widget: image
-            required: true
+            required: false
           - label: "Image Alt"
             name: "alt"
             widget: string
@@ -696,7 +696,7 @@ collections:
       - label: "Category"
         name: category
         widget: string
-        hint: "Your post category - limited to one category - multiple tags can be added however"
+        hint: "Your post category - limited to one category - multiple 'tags' can be added however"
       - {
           label: 'Author',
           name: 'author',
