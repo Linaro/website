@@ -1,6 +1,8 @@
 ---
 title: High Performance Computing
 director: Elsie Wahlig
+description: >
+    Linaro and its members created the HPC Special Interest Group (SIG) in 2016 to drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. The HPC SIG is currently working to leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments.
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
 members:
     key: hpc-sig
