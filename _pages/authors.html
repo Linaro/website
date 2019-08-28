@@ -1,7 +1,9 @@
 ---
 title: Authors
 permalink: /authors/
-layout: jumbotron-container
+description: >
+    Here you can find an index of all our content authors.
+layout: flow
 pagination:
     title: "Authors - Page :num"
     enabled: true
@@ -14,18 +16,9 @@ pagination:
 css-package: blog
 redirect_from:
 - /author/
+flow:
+    - row: main_content_row
+    - row: custom_include_row
+      source: author-pagination.html
 ---
-{% for author in paginator.posts %}
-<div class="row blog_post">
-    <div class="col-xs-8 post_title no-padding">
-        <a href="{{author.url}}">
-            <h3 class="blog_title">{{ author.name}}</h3>
-        </a>
-    </div>
-    <div class="col-xs-4  no-padding">
-        <a href="{{author.url}}">
-            <button class="btn btn-linaro-home dark pull-right">View Posts</button>
-        </a>
-    </div>
-</div>
-{% endfor %}
+This page displays all authors.
