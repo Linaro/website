@@ -12,13 +12,11 @@ description: >-
   Grand, in Bangkok, Thailand 1-5 April 2019, will be industry leaders invited
   to share their insights into different segments and topics relating to the Arm
   ecosystem.
-categories:
-  - News
+category: News
 tags:
-  - 'Linaro,'
-  - 'Arm,'
-  - Open
-  - 'Source,'
+  - Linaro
+  - Arm
+  - Open Source
   - Admin
   - Linaro Connect
   - linux kernel

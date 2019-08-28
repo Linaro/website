@@ -6,8 +6,7 @@ layout: post
 date: 2019-03-21 07:00:00
 description: >-
    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule for the Arm on Arm Summit at Linaro Connect Bangkok 2019. The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.
-categories:
-  - News
+category: News
 tags:
   - Linaro
   - Arm

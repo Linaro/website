@@ -1,13 +1,12 @@
 ---
 title: >-
-  Linaro announces launch of 96Boards System-on-Module (SOM) Specification 
+  Linaro announces launch of 96Boards System-on-Module (SOM) Specification
 author: linaro
 layout: post
 date: 2019-04-01 03:00:00
 description: >-
    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.
-categories:
-  - News
+category: News
 tags:
   - Linaro
   - Arm
@@ -20,11 +19,11 @@ image: /assets/images/blog/96Boards-SoM-Carrier-Board-Angle.png
 ---
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.
 
-The launch of the new 96Boards specifications means that developers now have a SOM solution which is compatible across SoCs. SOM solutions today use a variety of different connector solutions including SO-DIMM connectors used in DRAM and Mini Module Plus (MMP) connectors for certain specialist boards. Up until now, there has been no solution offering flexible IO and a robust mounting mechanism, nor a standard form factor. The new 96Boards SOM specifications aim to address this lack of choice by producing a general purpose SOM platform that will enable plug and play compatibility between a whole range of different SOM solutions. 
+The launch of the new 96Boards specifications means that developers now have a SOM solution which is compatible across SoCs. SOM solutions today use a variety of different connector solutions including SO-DIMM connectors used in DRAM and Mini Module Plus (MMP) connectors for certain specialist boards. Up until now, there has been no solution offering flexible IO and a robust mounting mechanism, nor a standard form factor. The new 96Boards SOM specifications aim to address this lack of choice by producing a general purpose SOM platform that will enable plug and play compatibility between a whole range of different SOM solutions.
 
-Today two 96Boards SOM specifications have been launched - the [Compute Module Specification](https://linaro.co/som-spec) and the [Wireless Specification](https://linaro.co/som-w-spec). Both specifications encourage the development of reliable and cost-effective embedded platforms for building end-products. The specifications have been proposed, created and reviewed by the current 96Boards Steering Committee Members. 
+Today two 96Boards SOM specifications have been launched - the [Compute Module Specification](https://linaro.co/som-spec) and the [Wireless Specification](https://linaro.co/som-w-spec). Both specifications encourage the development of reliable and cost-effective embedded platforms for building end-products. The specifications have been proposed, created and reviewed by the current 96Boards Steering Committee Members.
 
-- The [Compute Module Specification](https://linaro.co/som-spec) defines a SOM with generic module-to-carrier board interface, independent of the specific SoC choice on the module. The Compute module addresses the application requirements of segments including industrial automation, smart devices, gateway systems, automotive, medical, robotics and retail POS systems.  
+- The [Compute Module Specification](https://linaro.co/som-spec) defines a SOM with generic module-to-carrier board interface, independent of the specific SoC choice on the module. The Compute module addresses the application requirements of segments including industrial automation, smart devices, gateway systems, automotive, medical, robotics and retail POS systems.
 
 Two form factors are defined as __SOM-CA__ and __SOM-CB__ with a maximum of four 100 pin Connectors. The X1 connector is mandatory on all SOMs. The defined interfaces are shown in the table below.
 
@@ -55,8 +54,8 @@ Two form factors are defined as __SOM-CA__ and __SOM-CB__ with a maximum of four
 
 </div>
 
-- The Wireless specification designs a SOM for interchangeable wireless module applications, supporting standard and/or proprietary wireless standards such as 802.15.4, BLE, WiFi, LoRa, NB-IoT, LTE-M etc. The specification is designed to enable evolution that will support multiple products and future wireless standards.  
-  
+- The Wireless specification designs a SOM for interchangeable wireless module applications, supporting standard and/or proprietary wireless standards such as 802.15.4, BLE, WiFi, LoRa, NB-IoT, LTE-M etc. The specification is designed to enable evolution that will support multiple products and future wireless standards.
+
 The two form factors are defined as __SOM-WA/SOM-WB__ with the below pinouts to the specification.
 
 <div class="double-scroll" markdown="1">
@@ -84,26 +83,26 @@ The TB-96AI has an integrated neural network processor NPU, computing power of u
 
 {% include image.html name="TB-96AI.jpg" alt="TB-96AI Front image" %}
 
-#### Super Performance Processor 
+#### Super Performance Processor
 
 The architecture of Arm dual-core Cortex-A72+quad-core Cortex-A53 is adopted. The main frequency is up to 1.8 GHz and it integrates Mali-T860 MP4 quad-core graphics processor.
 
-#### Ultra-high AI power NPU 
+#### Ultra-high AI power NPU
 
 Integrating AI Neural Network Processor NPU, supporting 8Bit/16Bit operation, and with computing power of up to 3.0Tops, it can meet various AI application needs such as vision, audio and so on.
 
 {% include image.html name="TB-96AI-back.jpg" alt="TB-96AI Back image" %}
 
-#### Powerful Hard Decoding Ability 
+#### Powerful Hard Decoding Ability
 
 Supports DP1.2, HDMI 2.0, MIPI-DSI, eDP multiple display output interfaces, dual-screen co-display/dual-screen heterodyne, 4K VP9, 4K 10bits H265/H264 and 1080P multi-format (VC-1, MPEG-1/2/4, VP8) video decoding, 1080P (H.264, VP8 format) video coding.
 
-#### Supports multiple AI frameworks 
+#### Supports multiple AI frameworks
 
 Compatible with multiple AI frameworks, the design supports TensorFlow Lite/Android NN API, AI software tools support import, mapping and optimization of Caffe / TensorFlow models, allowing developers to easily use AI technology.
 
-#### Rich Interfaces 
-  
+#### Rich Interfaces
+
 {% include image.html name="rich-interfaces.png" alt="Rich Interfaces (Interface function table." %}
 
 ### TB-96AIoT

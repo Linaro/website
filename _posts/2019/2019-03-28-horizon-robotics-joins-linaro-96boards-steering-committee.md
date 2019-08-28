@@ -5,9 +5,8 @@ author: linaro
 layout: post
 date: 2019-03-28 07:00:00
 description: >-
-   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member. 
-categories:
-  - News
+   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member.
+category: News
 tags:
   - Linaro
   - Arm
@@ -16,11 +15,11 @@ tags:
   - AI
 image: /assets/images/content/machine-learning-bg.jpg
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member. 
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Horizon Robotics, a leading technology powerhouse of embedded Artificial Intelligence, has joined the 96Boards initiative as a Steering Committee Member.
 
-Founded in 2015, Horizon Robotics is dedicated to providing integrated and open embedded Artificial Intelligence solutions of high performance, low power and low cost. In 2017, the company unveiled Journey and Sunrise - the world-leading Brain Processing Unit (BPU) based, proprietary Gauss-architecture embedded AI computer vision processors. The first mass-taped AI processors in China, Journey and Sunrise power smart cars and smart cameras while providing industrial customers with a complete solution, including algorithm, chip and cloud. Recently, Horizon Robotics raised an additional US$600 million in its latest funding round, taking the estimated value of the company up to US$3 billion. 
+Founded in 2015, Horizon Robotics is dedicated to providing integrated and open embedded Artificial Intelligence solutions of high performance, low power and low cost. In 2017, the company unveiled Journey and Sunrise - the world-leading Brain Processing Unit (BPU) based, proprietary Gauss-architecture embedded AI computer vision processors. The first mass-taped AI processors in China, Journey and Sunrise power smart cars and smart cameras while providing industrial customers with a complete solution, including algorithm, chip and cloud. Recently, Horizon Robotics raised an additional US$600 million in its latest funding round, taking the estimated value of the company up to US$3 billion.
 
-The 96Boards Steering Committee provides Horizon Robotics with a neutral forum within which the start-up can collaborate with other 96Boards partners in the AI field. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards. A large range of products compliant with the 96Boards specifications is available worldwide and this is supplemented with additional hardware functionality provided through standardized mezzanine boards. 
+The 96Boards Steering Committee provides Horizon Robotics with a neutral forum within which the start-up can collaborate with other 96Boards partners in the AI field. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards. A large range of products compliant with the 96Boards specifications is available worldwide and this is supplemented with additional hardware functionality provided through standardized mezzanine boards.
 
 Later in the year, the 96Boards Automotive Spefication will be launched, the aim of which is to define a standardized product specification for prototyping, product development and testing for ADAS (advanced driver assistance systems) and AD (autonomous driving) through collaboration. 96Boards Automotive wants to encourage the development of a heterogeneous computing platform and enable established silicon providers, as well as startups such as Horizon Robotics, to develop, promote and integrate with the rest of the automotive ecosystem in an open manner.
 
