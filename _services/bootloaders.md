@@ -1,10 +1,11 @@
 ---
-service_id: 2
 title: Bootloaders and Boot Architecture
 short_name: Bootloaders
 permalink: /services/bootloaders/
+description: >
+    Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform, including...
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
-redirect_from: 
+redirect_from:
 - /services-linux/bootloaders/
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
 ---

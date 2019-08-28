@@ -1,7 +1,8 @@
 ---
-service_id: 4
 title: AOSP and Linux BSPs, Builds and Support
 short_name: BSP’s, Builds and Support
+description: >
+    Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.
 permalink: /services/bsp-builds-support/
 keywords: AOSP, Linux, OpenEmbedded, Yocto, Debian, BSP
 icon: /assets/images/content/DeveloperServices-icons_builds.svg
