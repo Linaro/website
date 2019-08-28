@@ -25,10 +25,10 @@ css-package: landing-page
 </div>
 </div>
         {% elsif section.format == "img-left" or section.format == "img-right" %}
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col
         {% if section.format == "img-left" %}img-col-left{% else %}img-col-right{% endif %}"
          style="background-image: url({{section.image}});"></div>
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col
         {% if section.format == "img-left" %}text-col-right{% else %}text-col-left{% endif %}">
             {% if section.title %}
                 <h3>{{section.title}}</h3>
@@ -48,7 +48,7 @@ css-package: landing-page
 </div>
 </div>
 {% endif %}
-{% if page.members %}
+{% if page.members_key %}
     <div class="row content-row" id="members-row">
         <div class="container">
             <div class="col-xs-12 text-center">
@@ -56,7 +56,7 @@ css-package: landing-page
             </div>
             {% assign membersData = site.data.members %}
             {% for group in membersData %}
-                {% if group.id == page.members.key %}
+                {% if group.id == page.members_key %}
                 <div class="members-wrapper">
                     {% for member in group.members %}
                     <div class="col-xs-6 col-sm-3">
