@@ -6,4 +6,7 @@ email: david.rusling@linaro.org
 image:
     path: /assets/images/people/david-rusling.png
     name: david-rusling.png
+first_name: David
+last_name: Rusling
+image_path: /assets/images/content/avatar-placeholder.png
 ---

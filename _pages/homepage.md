@@ -2,6 +2,7 @@
 layout: flow
 js-package: home
 css-package: home
+permalink: /
 edit-on-github: "false"
 title: Accelerating deployment of Arm-based solutions
 jumbotron:
