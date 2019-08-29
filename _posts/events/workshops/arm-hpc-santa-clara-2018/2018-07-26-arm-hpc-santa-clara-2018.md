@@ -84,15 +84,15 @@ tag: event
 <div class="members" markdown="1">
 <strong>Thanks to our sponsors</strong>
 <div class="col-xs-4" markdown="1">
-<img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/arm.jpg" 
+<img class="lazyload img-responsive" src="https://static.linaro.org/common/member-logos/arm.jpg"
 data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Arm Logo">
 </div>
 <div class="col-xs-4" markdown="1">
-<img class="lazyload img-responsive" src="/assets/images/content/hilsilicon.png" 
+<img class="lazyload img-responsive" src="/assets/images/content/hilsilicon.png"
 data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Arm Logo">
 </div>
 <div class="col-xs-4" markdown="1">
-<img class="lazyload img-responsive" src="/assets/images/content/linaro-logo.png" 
+<img class="lazyload img-responsive" src="/assets/images/content/linaro-logo.png"
 data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Linaro Logo">
 </div>
 
@@ -125,7 +125,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
 <div id="call-for-papers">
 
 <h2>Call for Papers is <span>open</span></h2>
-<a href="https://docs.google.com/forms/d/1HRS8-x9WJAUytMdre8fypcmU5OnXl4eHZEMIuftPjmA/viewform?edit_requested=true" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
+<a href="#" class="btn btn-primary btn-two call-for-papers">Submit Now</a>
 <h3>Deadline for submissions 28th June</h3>
 
 </div>
@@ -213,7 +213,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
                 <span class="speaker-company">Arm</span>
                 <span class="speaker-talk-title">HPC network stack on Arm</span>
                 <p>
-                    Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today's and tomorrow's high-performance and data center computer environments. 
+                    Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today's and tomorrow's high-performance and data center computer environments.
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#pavel">Full Abstract/Bio</button>
             </div>
@@ -278,7 +278,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
                 <span class="speaker-company">Chief Architect for microprocessor and applications Huawei</span>
                 <span class="speaker-talk-title">Huawei’s requirements for the ARM based HPC solution readiness</span>
                 <p>
-                A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. 
+                A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided.
                 </p>
                 <button class="btn btn-primary full-bio" data-toggle="modal" data-target="#joshuaMora">Full Abstract/Bio</button>
             </div>
@@ -433,7 +433,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         and Fujitsu.  It will be the first supercomputer with Armv8-A+SVE.
         This talk will give an overview of Post-K and how RIKEN and Fujitsu
         are currently working on software stack for an Arm architecture.
-      </p>    
+      </p>
       <h3>Bio</h3>
       <p>
         Yutaka Ishikawa is the project leader of FLAGSHIP 2020 project at
@@ -464,11 +464,11 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
       <div class="modal-body">
       <h3>HPC network stack on Arm</h3>
       <p>
-      Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today¹s and tomorrow's high-performance and data center computer environments. Modern RDMA based network interconnects provides incredibly rich functionality (RDMA, Atomics, OS-bypass, etc.) that enable low-latency and high-bandwidth communication services. The functionality is supported by a variety of interconnect technologies such as InfiniBand, RoCE, iWARP, Intel OPA, Cray¹s Aries/Gemini, and others. Over the last decade, the HPC community has developed variety user/kernel level protocols and libraries that enable a variety of high-performance applications over RDMA interconnects including MPI, SHMEM, UPC, etc. With the emerging availability HPC solutions based on Arm CPU architecture it is important to understand how Arm integrates with the RDMA hardware and HPC network software stack. In this talk, we will overview Arm architecture and system software stack, including MPI runtimes, OpenSHMEM, and OpenUCX. 
+      Applications, programming languages, and libraries that leverage sophisticated network hardware capabilities have a natural advantage when used in today¹s and tomorrow's high-performance and data center computer environments. Modern RDMA based network interconnects provides incredibly rich functionality (RDMA, Atomics, OS-bypass, etc.) that enable low-latency and high-bandwidth communication services. The functionality is supported by a variety of interconnect technologies such as InfiniBand, RoCE, iWARP, Intel OPA, Cray¹s Aries/Gemini, and others. Over the last decade, the HPC community has developed variety user/kernel level protocols and libraries that enable a variety of high-performance applications over RDMA interconnects including MPI, SHMEM, UPC, etc. With the emerging availability HPC solutions based on Arm CPU architecture it is important to understand how Arm integrates with the RDMA hardware and HPC network software stack. In this talk, we will overview Arm architecture and system software stack, including MPI runtimes, OpenSHMEM, and OpenUCX.
       </p>
       <h3>Bio</h3>
       <p>
-      Pavel is a Principal Research Engineer at Arm with over 16 years of experience in development HPC solutions. His work is focused on co-design software and hardware building blocks for high-performance interconnect technologies, development communication middleware and novel programming models. Prior to joining ARM, he spent five years at Oak Ridge National Laboratory (ORNL) as a research scientist at Computer Science and Math Division (CSMD). In this role, Pavel was responsible for research and development multiple projects in high-performance communication domain including: Collective Communication Offload (CORE-Direct & Cheetah), OpenSHMEM, and OpenUCX. Before joining ORNL, Pavel spent ten years at Mellanox Technologies, where he led Mellanox HPC team and was one of the key driver in enablement Mellanox HPC software stack, including OFA software stack, OpenMPI, MVAPICH, OpenSHMEM, and other.     
+      Pavel is a Principal Research Engineer at Arm with over 16 years of experience in development HPC solutions. His work is focused on co-design software and hardware building blocks for high-performance interconnect technologies, development communication middleware and novel programming models. Prior to joining ARM, he spent five years at Oak Ridge National Laboratory (ORNL) as a research scientist at Computer Science and Math Division (CSMD). In this role, Pavel was responsible for research and development multiple projects in high-performance communication domain including: Collective Communication Offload (CORE-Direct & Cheetah), OpenSHMEM, and OpenUCX. Before joining ORNL, Pavel spent ten years at Mellanox Technologies, where he led Mellanox HPC team and was one of the key driver in enablement Mellanox HPC software stack, including OFA software stack, OpenMPI, MVAPICH, OpenSHMEM, and other.
        </p>
        <p>
        Pavel is a recipient of prestigious R&D100 award for his contribution in development of the CORE-Direct collective offload technology and he published in excess of 20 research papers.
@@ -502,7 +502,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
      </ul>
       <h3>Bio</h3>
       <p>
-      Joel Jones has worked at Cavium for five years and currently leads the toolchain team. He has worked for Apple, Transcella, Coverity, Wind River, and others. He has been a professor of computer science, and has a PhD in Computer Science from the University of Illinois. 
+      Joel Jones has worked at Cavium for five years and currently leads the toolchain team. He has worked for Apple, Transcella, Coverity, Wind River, and others. He has been a professor of computer science, and has a PhD in Computer Science from the University of Illinois.
        </p>
       </div>
       <div class="modal-footer">
@@ -521,14 +521,14 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
       <div class="modal-body">
       <h3>It just keeps getting better - SUSE enablement for Arm</h3>
       <p>
-          SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage. But we have enabled a number of other Arm SoCs and are even supporting the Raspberry Pi. This session will cover the SUSE products that are available for the Arm platform and view to the future. 
+          SUSE has been delivering commercial Linux support for Arm based servers since 2016. Initially the focus was on high end servers for HPC and Ceph based software defined storage. But we have enabled a number of other Arm SoCs and are even supporting the Raspberry Pi. This session will cover the SUSE products that are available for the Arm platform and view to the future.
       </p>
       <h3>Bio</h3>
       <p>
-      Jay is responsible for the SUSE Linux server products for High Performance Computing, 64-bit Arm systems, and SUSE Linux for IBM Power servers. 
+      Jay is responsible for the SUSE Linux server products for High Performance Computing, 64-bit Arm systems, and SUSE Linux for IBM Power servers.
        </p>
        <p>
-       Jay has built an extensive career in product management including using social media for client collaboration, product positioning, driving future product directions, and evangelizing the capabilities and future directions for dozens of enterprise products. 
+       Jay has built an extensive career in product management including using social media for client collaboration, product positioning, driving future product directions, and evangelizing the capabilities and future directions for dozens of enterprise products.
        </p>
       </div>
       <div class="modal-footer">
@@ -549,7 +549,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
       <p>
             High performance application tuning -- performance engineering -- relies heavily on tools for profiling, debugging, and visualization.  This talk will present a methodology for porting HPC applications to Arm, and the ecosystem of cross platform performance engineering toolkits and libraries that is currently available on Arm.  An overview and use cases for Arm Forge, PAPI, ScoreP, TAU and others will be provided along with guidance and advice for HPC performance engineering on the latest Arm-based CPU offerings.
       </p>
-    
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -567,13 +567,13 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
       <div class="modal-body">
       <h3>Huawei’s requirements for the ARM based HPC solution readiness</h3>
       <p>
-            A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. The review combines both Industry and Huawei’s unique views with the intend to communicate openly not only the alignment and support in ongoing efforts carried over by other ARM key players but to brief on the areas of differentiation that Huawei is investing towards the research, development and deployment of homegrown ARM based HPC solution(s).  
+            A high level review of a wide range of requirements to architect an ARM based competitive HPC solution is provided. The review combines both Industry and Huawei’s unique views with the intend to communicate openly not only the alignment and support in ongoing efforts carried over by other ARM key players but to brief on the areas of differentiation that Huawei is investing towards the research, development and deployment of homegrown ARM based HPC solution(s).
       </p>
       <h3>Bio</h3>
       <p>
         20 years of experience in research and development of both software and hardware for high performance computing. Currently leading the architecture definition and development of ARM based HPC solutions, both hardware and software, all the way to the applications (ie. turnkey HPC solutions for different compute intensive markets where ARM will succeed !!).
       </p>
-    
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -607,15 +607,15 @@ defer(function () {
                  $( "#schedule #footer" ).remove();
             });
         }
-               
+
         });
     });
 });
 
-    
+
 </script>
 
-<div id="schedule"></div> 
+<div id="schedule"></div>
 
 </div><!--End Tab Content-->
 
