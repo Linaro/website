@@ -12,6 +12,16 @@ jumbotron:
               slide-style: "background-position-y: bottom;"
               darken: true
               image: /assets/images/content/hkg18-tech-banner.jpg
+            - inner-image: /assets/images/content/san19_logo.png
+              class: san19_banner
+              description: >
+                Linaro Connect San Diego will be held from 23-27 September 2019 at Paradise Point, San Diego, California.
+              darken: true
+              slide-style: "background-position-y: bottom;"
+              image: /assets/images/content/san19_banner.jpg
+              buttons:
+                - title: Learn More
+                  url: https://connect.linaro.org
             - title: Linaro announces launch of 96Boards System-on-Module (SOM) Specification
               description: >
                 Linaro announces the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications.
