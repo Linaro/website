@@ -12,10 +12,10 @@ jumbotron:
               slide-style: "background-position-y: bottom;"
               darken: true
               image: /assets/images/content/hkg18-tech-banner.jpg
-            - title: Join us at Linaro Connect San Diego 2019
-              inner-image: /assets/images/content/san19_logo.png
+            - inner-image: /assets/images/content/san19_logo.png
+              class: san19_banner
               description: >
-                Linaro Connect San Diego will be held from 23-27 September 2019 at Paradise Point, San Diego, California. Find out more about Linaro Connect by clicking the button below.
+                Linaro Connect San Diego will be held from 23-27 September 2019 at Paradise Point, San Diego, California.
               darken: true
               slide-style: "background-position-y: bottom;"
               image: /assets/images/content/san19_banner.jpg
