@@ -37,6 +37,21 @@ flow:
                       url: https://snapshots.linaro.org/
                       icon: fa fa-arrow-right
                       style: btn-primary
+              - title:
+                    size: h3
+                    content: LCR
+                text:
+                    content: >
+                        The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. Click here for the latest downloads.
+                buttons:
+                    - title: View Downloads
+                      url: https://releases.linaro.org/components/lava/latest/
+                      icon: fa fa-arrow-right
+                      style: btn-primary
+                    - title: Get Started with LAVA
+                      url: https://validation.linaro.org/static/docs/v2/index.html
+                      icon: fa fa-arrow-right
+                      style: btn-primary
     - row: container_row
       sections:
         - format: block
@@ -97,21 +112,6 @@ flow:
                       url: https://wiki-archive.linaro.org/LMG/ReleaseProcess
                       icon: fa fa-arrow-right
                       style: btn-primary
-              - title:
-                    size: h3
-                    content: LCR
-                text:
-                    content: >
-                        The Linaro Automated Validation Architecture (LAVA) is a test and continuous integration framework that Linaro uses to validate its releases. The source is open so that members and others can create their own instantiations and run proprietary tests within this standard framework. Click here for the latest downloads.
-                buttons:
-                    - title: View Downloads
-                      url: https://releases.linaro.org/components/lava/latest/
-                      icon: fa fa-arrow-right
-                      style: btn-primary
-                    - title: Get Started with LAVA
-                      url: https://validation.linaro.org/static/docs/v2/index.html
-                      icon: fa fa-arrow-right
-                      style: btn-primary
 ---
 ## Linaro Toolchain
 
@@ -123,32 +123,11 @@ The following tables provide direct access to the most common Linux and bare-met
 
 #### Latest Linux Targeted Binary Toolchain Releases
 
-<table class="table responsive-table">
-<tbody>
-<tr>
-<td style="text-align:left"><strong>arm-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit Armv7 Cortex-A, hard-float, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>armv8l-linux-gnueabihf</strong></td>
-<td style="text-align:left"><em>32-bit Armv8 Cortex-A, hard-float, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>aarch64-linux-gnu</strong></td>
-<td style="text-align:left"><em>64-bit Armv8 Cortex-A, little-endian</em></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/">Release-Notes</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/">Binaries</a></td>
-<td style="text-align:left"><a href="https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/">Source</a></td>
-</tr>
-</tbody>
-</table>
-
+{:.table.responsive-table}
+|--- |--- |--- |--- |--- |
+|**arm-linux-gnueabihf**|*32-bit Armv7 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**armv8l-linux-gnueabihf**|*32-bit Armv8 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**aarch64-linux-gnu**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 #### Latest Bare-Metal Targeted Binary Toolchain Releases
 
