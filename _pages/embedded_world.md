@@ -12,7 +12,6 @@ flow:
 jumbotron:
     title: Thanks for getting in touch!
     description: ""
-    triangle-divider: true
     background-image: /assets/images/content/EmbeddedWorldBoardImage.jpg
 css-package: home
 image: /assets/images/content/EmbeddedWorldBoardImage.jpg
