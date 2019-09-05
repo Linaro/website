@@ -18,4 +18,6 @@ flow:
     - row: main_content_row
     - row: custom_include_row
       source: display_authors.html
+    - row: custom_include_row
+      source: author-pagination.html
 ---
