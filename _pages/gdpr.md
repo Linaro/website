@@ -8,7 +8,7 @@ css-package: gdpr
 ---
 <div class="container-fluid">
     <div class="row" id="header-row" style="background: linear-gradient(
-      rgba(153,204,51, 0.5), 
+      rgba(153,204,51, 0.5),
       rgba(153,204,51, 1)
     ),  url('/assets/images/content/linarolife.jpg');background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +31,6 @@ css-package: gdpr
                 <p>
                     The legislation impacts all types of website that collect, store, or process information about individuals - whether they are employees, job candidates, employees of our partners, contractors, or anyone else.
                 </p>
-
             </div>
             <div class="col-sm-6">
                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/gdpr-rounded.png" class="center-block lazyload img-responsive" />
@@ -50,7 +49,7 @@ css-package: gdpr
                     At Linaro we have updated our sites to enable us and you to be GDPR compliant.
                 </p>
                 <p>
-                    This is an ongoing process that will allow us to meet our obligations as data processors as well as putting in place processes, where applicable, to help the people we interact with (i.e.you) to meet their obligations.            
+                    This is an ongoing process that will allow us to meet our obligations as data processors as well as putting in place processes, where applicable, to help the people we interact with (i.e.you) to meet their obligations.
                 </p>
             </div>
         </div>
@@ -91,11 +90,10 @@ css-package: gdpr
             </div>
         </div>
     </div>
-    
     <div class="row" id="footer-row">
         <div class="container">
             <p>
-                Our Privacy Policy is being updated to comply with the GDPR legislation. If you have any questions, please do not hesitate to get contact <a href="mailto:privacy@linaro.org">privacy@Linaro.org</a>.  
+                Our Privacy Policy is being updated to comply with the GDPR legislation. If you have any questions, please do not hesitate to get contact <a href="mailto:privacy@linaro.org">privacy@Linaro.org</a>.
             </p>
         </div>
     </div>
