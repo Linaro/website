@@ -9,13 +9,13 @@ description: "On Jan 14th, 2019, not yet half a month into the new year, \_HPC A
 categories:
   - Blog
 tags:
-  - 'Linaro,'
-  - 'Arm,'
+  - Linaro
+  - Arm
   - Open
-  - 'Source,'
-  - 'HPC,'
-  - 'Workshop,'
-  - 'Asia,'
+  - Source
+  - HPC
+  - Workshop
+  - Asia
   - on-the-spot
 image:
   background-class: bg-up

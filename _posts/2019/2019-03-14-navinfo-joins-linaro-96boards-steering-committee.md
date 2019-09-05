@@ -9,8 +9,8 @@ description: >-
 categories:
   - News
 tags:
-  - 'Linaro,'
-  - 'Arm,'
+  - Linaro
+  - Arm
   - Open Source
   - NavInfo
   - Membership
@@ -23,7 +23,7 @@ As the autonomous vehicle industry develops, solutions such as NavInfo’s HD Ma
 
 “Autonomous Driving technology is at its defining moment and we know that a collaborative platform that works across different systems all around the world will enable the industry to fast prototype and develop mass production solutions,” said Li Yang, Autonomous Driving AI Director of NavInfo. “We are excited to join the 96Boards Steering Committee and work closely with market leaders from the software and hardware community as we are eager to see how NavInfo’s HD Map and other solutions will empower partners and clients to build an autonomous future.”
 
-96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards using the latest Arm technology. A large range of products compliant with the 96Boards specifications is available worldwide and this is supplemented with additional hardware functionality provided through standardized mezzanine boards. The 96Boards Steering Committee provides a neutral forum in which companies can cooperate closely to offer semiconductor products in a standard form factor for rapid product development, testing and prototyping. 
+96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards using the latest Arm technology. A large range of products compliant with the 96Boards specifications is available worldwide and this is supplemented with additional hardware functionality provided through standardized mezzanine boards. The 96Boards Steering Committee provides a neutral forum in which companies can cooperate closely to offer semiconductor products in a standard form factor for rapid product development, testing and prototyping.
 
 “In recent months 96Boards has made significant headway in the automotive space, co-[launching the Autoware Foundation](https://www.linaro.org/news/industry-leaders-form-autoware-foundation-to-accelerate-collaboration-in-autonomous-driving/) as one of the founding members and welcoming new members engaged in the automotive sector to the 96Boards Steering Committee”, said Yang Zhang, Director of 96Boards. “We are excited to see Navinfo join the Steering Committee as we believe their involvement will further help accelerate adoption of a choice of Arm-based solutions in the automotive space. The joining of companies like Navinfo, together with leading Lidar providers such as Robosense and LeiShen Intelligent Technology, further proves that the heterogeneous computing platform initiated by 96Boards Automotive not only appeals to the SoC vendors but also to sensor and map service providers.”
 
@@ -31,7 +31,7 @@ As a founding member of the Autoware Foundation, Linaro’s 96Boards also has in
 
 ## About NavInfo
 
-NavInfo is a China-based technology company leading the way to becoming the “Digital Brain of Intelligent Driving” with core businesses in HD Map, high accuracy positioning and automotive-grade semiconductors for ADAS and autonomous driving. 
+NavInfo is a China-based technology company leading the way to becoming the “Digital Brain of Intelligent Driving” with core businesses in HD Map, high accuracy positioning and automotive-grade semiconductors for ADAS and autonomous driving.
 
 Founded in 2002, NavInfo is the market leader in navigation map, dynamic traffic information, navigation software development, location big data and customized connected vehicle services to both passenger and commercial vehicles.
 

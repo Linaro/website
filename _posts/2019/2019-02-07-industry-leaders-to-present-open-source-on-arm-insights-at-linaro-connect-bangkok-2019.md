@@ -15,10 +15,10 @@ description: >-
 categories:
   - News
 tags:
-  - 'Linaro,'
-  - 'Arm,'
+  - Linaro
+  - Arm
   - Open
-  - 'Source,'
+  - Source
   - Admin
   - Linaro Connect
   - linux kernel
