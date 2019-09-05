@@ -669,6 +669,9 @@ collections:
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    description: >
+      This collection allows you to add/edit/delete posts on the Linaro.org blog/news sections. Please upload/select a high resolution
+      image for
     editor:
       preview: true
     fields:
@@ -695,7 +698,8 @@ collections:
         hint: "List your tags"
       - label: "Category"
         name: category
-        widget: string
+        widget: "select"
+        options: ["News", "Blog"]
         hint: "Your post category - limited to one category - multiple tags can be added however"
       - {
           label: 'Author',
