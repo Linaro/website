@@ -1,10 +1,14 @@
 ---
 title: Thanks for getting in touch!
 permalink: /embeddedworld/
-description: > 
+description: >
     Thanks for getting in touch. We hope you had a great time at Embedded World. You can find more information about Linaro from the links below, or let us know what your question is, we’ll do the work and get back to you.
 keywords: Embedded World, Arm, Linux, 96Boards, ST, Arrow
-layout: jumbotron
+layout: flow
+flow:
+    - row: main_content_row
+    - row: custom_include_row
+      source: home/segment-groups-block.html
 jumbotron:
     title: Thanks for getting in touch!
     description: ""
@@ -21,7 +25,3 @@ image: /assets/images/content/EmbeddedWorldBoardImage.jpg
         </div>
     </div>
 </div>
-
-<br>
-
-{% include home/segment-groups-block.html %}
