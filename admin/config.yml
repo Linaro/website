@@ -706,14 +706,14 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
     create: true
     description: >
       This collection allows you to add/edit/delete authors. These are dynamically pulled in when writing
-      posts.
+      posts. When deleting authors the change is made directly to the develop branch (which causes a staging.linaro.org build).
     editor:
       preview: false
     fields:
