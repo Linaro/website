@@ -2,7 +2,7 @@
 title: Planet Linaro
 description: |-
     Planet Linaro includes blog posts gathered from around the web about Linaro.
-layout: jumbotron-container
+layout: flow
 jumbotron:
     triangle-divider: true
     background-image: /assets/images/content/downloads-bg.jpg

@@ -2,7 +2,7 @@
 title: Membership
 description: |-
     Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
-layout: jumbotron
+layout: flow
 permalink: /membership/
 js-package: membership
 css-package: membership
