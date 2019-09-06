@@ -67,6 +67,49 @@ collections:
                     - {label: Name, name: text, widget: string}
                     - {label: Link, name: url, widget: string}
 
+  - label: "Timeline"
+    name: "linaro_about_timeline"
+    description: >
+      This section allows you to add/edit/delete the utems that are displayed in the Linaro Timeline on the about page.
+    editor:
+      preview: false
+    files:
+      - label: "Items"
+        name: "linaro_about_timeline_items"
+        file: "_data/timeline.yml"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Year", name: "name", widget: string, hint: "The 4 digit year of your timeline carousel item.", required: false}
+              - label: "Entries"
+                name: "entries"
+                widget: list
+                required: false
+                fields:
+                 - {label: "Item Title", name: "title", widget: string, required: false}
+                 - {label: "Item URL", name: "url", widget: string, required: false}
+                 - {label: "Item Date", name: "date", widget: datetime, format: "YYYY-MM-DD hh:mm:ss",  required: false}
+  - label: "Linaro Projects"
+    name: "linaro_projects"
+    description: >
+      This section allows you to add/edit/delete the projects that we contribute to that show on the
+      membership page.
+    editor:
+      preview: false
+    files:
+      - label: "Items"
+        name: "linaro_project_items"
+        file: "_data/projects.yml"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Project Name", name: "name", widget: string, hint: "The name of the project that we contribute to.", required: false}
+              - {label: "Project website", name: "url", widget: string, hint: "URL of the project we contribute to.", required: false}
+              - {label: "Project Logo", name: "image", widget: image , hint: "The project logo.", required: false}
   - label: "External News"
     name: "external_news"
     description: >
