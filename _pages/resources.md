@@ -22,32 +22,37 @@ flow:
                     size: h3
                     text: Linaro News
                 url: /news/
-                text: >
-                    Click here for Linaro News & Press Releases
+                text_content:
+                    text: >
+                        Click here for Linaro News & Press Releases
               - title:
                     size: h3
                     text: The Blog
                 url: /blog/
-                text: >
-                    Click here for the official Linaro blog
+                text_content:
+                    text: >
+                        Click here for the official Linaro blog
               - title:
                     size: h3
                     text: Planet Linaro
                 url: /planet/
-                text: >
-                    Read the latest blogs from our world class engineers
+                text_content:
+                    text: >
+                        Read the latest blogs from our world class engineers
               - title:
                     size: h3
                     text: Events
                 url: /events/
-                text: >
-                    Find out about the events that we host and attend.
+                text_content:
+                    text: >
+                        Find out about the events that we host and attend.
               - title:
                     size: h3
                     text: Linaro Connect
                 url: https://connect.linaro.org
-                text: >
-                    View our Connect Event website for resources and more.
+                text_content:
+                    text: >
+                        View our Connect Event website for resources and more.
     - row: custom_include_row
       source: resources/latest_resources.html
     - row: custom_include_row
