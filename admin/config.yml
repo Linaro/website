@@ -130,7 +130,7 @@ collections:
               - {label: "Related Linaro Members", name: "related_members", widget: list , hint: "A comma separated list of any members that this post related to. I.e HiSilicon", required: false}
               - {label: "Featured Image", name: "image", widget: image , hint: "Please select a featured image for this external news post.", required: false}
               - {label: "Description", name: "description", widget: text , hint: "Enter a short description for this external news post.", required: false}
-              - {label: "Related Linaro Static Site", name: "site", widget: select , hint: "Please select the site that this should appear on.", options: ['linaro.org', '96boards.org', 'connect.linaro.org', 'mlplatform.org', 'trustedfirmware.org'] required: false}
+              - {label: "Related Linaro Static Site", name: "site", widget: select , hint: "Please select the site that this should appear on.", options: ['linaro.org', '96boards.org', 'connect.linaro.org', 'mlplatform.org', 'trustedfirmware.org'], required: false}
               - {label: "Category", name: "category", widget: select , hint: "Please select the category which this external post falls into.", options: ['Membership', 'Tech Review', 'Press Release'], required: false}
               - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
   - label: "The Team"
