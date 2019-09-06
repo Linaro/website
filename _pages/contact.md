@@ -14,7 +14,7 @@ flow:
           block_section_content:
             item_width: 4
             blocks:
-              - title_content:
+              - title:
                     size: h3
                     text: Membership & General Enquiries
                 buttons:
@@ -22,7 +22,7 @@ flow:
                       url: "mailto:contact@linaro.org?subject=Membership & General Enquiries"
                       icon: fa fa-email
                       style: btn-primary
-              - title_content:
+              - title:
                     size: h3
                     text: Linaro Connect Enquiries
                 buttons:
@@ -30,7 +30,7 @@ flow:
                       url: "mailto:connect@linaro.org?subject=Linaro Connect Enquiries"
                       icon: fa fa-email
                       style: btn-primary
-              - title_content:
+              - title:
                     size: h3
                     text: Media Enquiries
                 buttons:
