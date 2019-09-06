@@ -15,42 +15,43 @@ flow:
       sections:
         - format: block
           style: text-center text-white latest_resources_blocks
-          item_width: 5ths
-          content:
+          block_section_content:
+            item_width: 5ths
+            blocks:
               - title:
                     size: h3
-                    content: Linaro News
+                    text: Linaro News
                 url: /news/
-                text:
-                    content: >
-                         Click here for Linaro News & Press Releases
+                text_content:
+                    text: >
+                        Click here for Linaro News & Press Releases
               - title:
                     size: h3
-                    content: The Blog
+                    text: The Blog
                 url: /blog/
-                text:
-                    content: >
-                         Click here for the official Linaro blog
+                text_content:
+                    text: >
+                        Click here for the official Linaro blog
               - title:
                     size: h3
-                    content: Planet Linaro
+                    text: Planet Linaro
                 url: /planet/
-                text:
-                    content: >
-                         Read the latest blogs from our world class engineers
+                text_content:
+                    text: >
+                        Read the latest blogs from our world class engineers
               - title:
                     size: h3
-                    content: Events
+                    text: Events
                 url: /events/
-                text:
-                    content: >
+                text_content:
+                    text: >
                         Find out about the events that we host and attend.
               - title:
                     size: h3
-                    content: Linaro Connect
+                    text: Linaro Connect
                 url: https://connect.linaro.org
-                text:
-                    content: >
+                text_content:
+                    text: >
                         View our Connect Event website for resources and more.
     - row: custom_include_row
       source: resources/latest_resources.html

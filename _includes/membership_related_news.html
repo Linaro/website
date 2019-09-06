@@ -1,0 +1,32 @@
+<div class="row" id="related-news">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Related News</h2>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme" id="related-news-slider">
+        {% assign membership_posts = site.tags.Membership | sort: 'date' | reverse %}
+        {% assign external_news = site.data.external_news | where: 'category', 'Membership' |  sort: 'date' | reverse %}
+        {% assign all_news = "" | split: "" %}
+        {% for item in external_news %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+        {% for item in membership_posts %}
+            {% assign all_news = all_news | push: item %}
+        {% endfor %}
+        {% assign timeframe = 604800 %}
+        {% for news in all_news limit: 10 %}
+            {% assign post_in_seconds = news.date | date: "%s" | plus: 0 %}
+            {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+            <div class="item news-item">
+                <h3>{{news.title}}</h3>
+                <em class="date">{{news.date |  date: "%A, %B %-d, %Y" }}</em>
+                {% if post_in_seconds > recent_posts %}
+                   <span class="new-post" title="Post added in the last week.">New</span>
+                {% endif %}
+                <p>{% if news.description %}{{news.description}}{% else %}{{ news.content | strip_html | truncatewords: 50 }}{% endif %}</p>
+                <a href="{{news.url}}" class="btn btn-primary">Read More</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>

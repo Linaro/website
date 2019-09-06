@@ -421,7 +421,7 @@ a.connect-home-button:hover {
 div.dark {
     background: #696969;
 }
-// Nav Bar SVG Base Style 
+// Nav Bar SVG Base Style
 #navbar_svg .cls-1 {
     fill: none;
 }
@@ -534,4 +534,8 @@ div.dark {
 }
 ul#tabbed_nav.support-tabs li a {
     font-size: 20px !important;
+}
+#wrapper footer .footer-main {
+    background: #131313 !important;
+    filter: none!important;
 }

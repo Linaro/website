@@ -13,7 +13,7 @@ show_preview_links: false
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 media_folder: "assets/images/content"
 collections:
   # Website Settings
@@ -66,6 +66,117 @@ collections:
                   fields:
                     - {label: Name, name: text, widget: string}
                     - {label: Link, name: url, widget: string}
+
+  - label: "Timeline"
+    name: "linaro_about_timeline"
+    description: >
+      This section allows you to add/edit/delete the utems that are displayed in the Linaro Timeline on the about page.
+    editor:
+      preview: false
+    files:
+      - label: "Items"
+        name: "linaro_about_timeline_items"
+        file: "_data/timeline.yml"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Year", name: "name", widget: string, hint: "The 4 digit year of your timeline carousel item.", required: false}
+              - label: "Entries"
+                name: "entries"
+                widget: list
+                required: false
+                fields:
+                 - {label: "Item Title", name: "title", widget: string, required: false}
+                 - {label: "Item URL", name: "url", widget: string, required: false}
+                 - {label: "Item Date", name: "date", widget: datetime, format: "YYYY-MM-DD hh:mm:ss",  required: false}
+  - label: "Linaro Projects"
+    name: "linaro_projects"
+    description: >
+      This section allows you to add/edit/delete the projects that we contribute to that show on the
+      membership page.
+    editor:
+      preview: false
+    files:
+      - label: "Items"
+        name: "linaro_project_items"
+        file: "_data/projects.yml"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Project Name", name: "name", widget: string, hint: "The name of the project that we contribute to.", required: false}
+              - {label: "Project website", name: "url", widget: string, hint: "URL of the project we contribute to.", required: false}
+              - {label: "Project Logo", name: "image", widget: image , hint: "The project logo.", required: false}
+  - label: "External News"
+    name: "external_news"
+    description: >
+      This section allows you to add/edit/delete external featured news items.
+    editor:
+      preview: false
+    files:
+      - label: "Items"
+        name: "external_news_items"
+        file: "_data/external_news.yml"
+        fields:
+          - label: "External News Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: string, hint: "The title of the external news post.", required: false}
+              - {label: "Link", name: "url", widget: string, hint: "The url to the external news post.", required: false}
+              - {label: "Related Linaro Members", name: "related_members", widget: list , hint: "A comma separated list of any members that this post related to. I.e HiSilicon", required: false}
+              - {label: "Featured Image", name: "image", widget: image , hint: "Please select a featured image for this external news post.", required: false}
+              - {label: "Description", name: "description", widget: text , hint: "Enter a short description for this external news post.", required: false}
+              - {label: "Related Linaro Static Site", name: "site", widget: select , hint: "Please select the site that this should appear on.", options: ['linaro.org', '96boards.org', 'connect.linaro.org', 'mlplatform.org', 'trustedfirmware.org'], required: false}
+              - {label: "Category", name: "category", widget: select , hint: "Please select the category which this external post falls into.", options: ['Membership', 'Tech Review', 'Press Release'], required: false}
+              - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+  - label: "The Team"
+    name: "the_team"
+    description: >
+      This collection allows you to manage the team members displayed on the following pages /about/team/board/, /about/team/executive/ and /about/team/technical-steering-committee/
+    editor:
+      preview: false
+    files:
+      - label: "The Board of Directors"
+        name: "board_of_directors"
+        file: "_data/board_of_directors.yml"
+        fields:
+          - label: "Team Members"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
+              - {label: "Title", name: "title", widget: string, hint: "Title of their position i.e Board Member for Arm and Interim Chairman", required: false}
+              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
+              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
+      - label: "The Technial Steering Committee"
+        name: "technical_steering_committee"
+        file: "_data/technical_steering_committee.yml"
+        fields:
+          - label: "TSC Members"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
+              - {label: "Title", name: "title", widget: string, hint: "Title showed beneath their name i.e Texas Instruments / VP of Engineering at Linaro etc", required: false}
+              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
+              - {label: "Member Type", name: "type", widget: select, hint: "Member type i.e committee, guest etc.", options: ['guest', 'committee'], required: false}
+              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
+      - label: "The Executive Team"
+        name: "executive_team"
+        file: "_data/executive_team.yml"
+        fields:
+          - label: "Executive Team Members"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
+              - {label: "Title", name: "title", widget: string, hint: "Title showed beneath their name i.e Chief Operating Officer etc", required: false}
+              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
+              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
   - label: "Website Settings"
     name: "config"
     editor:
@@ -669,8 +780,11 @@ collections:
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    description: >
+      This collection allows you to add/edit/delete posts on the Linaro.org blog/news sections. Please upload/select a high resolution
+      image for
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -695,7 +809,8 @@ collections:
         hint: "List your tags"
       - label: "Category"
         name: category
-        widget: string
+        widget: "select"
+        options: ["News", "Blog"]
         hint: "Your post category - limited to one category - multiple tags can be added however"
       - {
           label: 'Author',
@@ -706,11 +821,14 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
     create: true
+    description: >
+      This collection allows you to add/edit/delete authors. These are dynamically pulled in when writing
+      posts. When deleting authors the change is made directly to the develop branch (which causes a staging.linaro.org build).
     editor:
       preview: false
     fields:

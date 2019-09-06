@@ -1,7 +1,14 @@
 ---
-layout: jumbotron-container
+layout: flow
 title: Linaro Community Projects Antitrust Compliance Policy
 permalink: /engineering/projects/antitrust-policy/
+description: >
+    Because Linaro Community Projects **(“Project/s”)** Members will include competitors,
+    these activities are subject to antitrust laws and it is important to be able to identify
+    conduct that raises concerns under antitrust laws and be sure that antitrust risks are
+    avoided.
+flow:
+    - row: main_content_row
 ---
 ## LINARO COMMUNITY PROJECTS ANTITRUST COMPLIANCE POLICY
 

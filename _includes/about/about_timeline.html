@@ -1,119 +1,24 @@
 <div class="row timeline">
     <div class="container">
         <div class="timeline-short owl-carousel owl-theme" id="timelineCarousel">
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2019</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Jan - Li Gong new CEO</li>
-                        <li class="list-group-item">Feb - 5.0 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Apr - 96Boards SoM specification launched</li>
-                        <li class="list-group-item">Apr - 5.1 Linux Kernel Release #4</li>
-                    </ul>
+            {% assign timeline_items = site.data.timeline.items %}
+            {% for each in timeline_items %}
+                <div class="item">
+                    <div class="col-xs-12 text-center">
+                        <h3>{{each.name}}</h3>
+                        <ul class="list-group">
+                            {% assign sorted_items = each.entries | sort: 'date' %}
+                            {% for entry in sorted_items %}
+                                <li class="list-group-item">
+                                    {% if entry.url %}<a href="{{entry.url}}">{% endif %}
+                                    {{entry.title}}
+                                    {% if entry.url %}</a>{% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2018</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Mar - ODP Tigermoth LTS Software release</li>
-                        <li class="list-group-item">Mar - 96Boards AI platform</li>
-                        <li class="list-group-item">Sep - Artifical Intelligence Initiative launched</li>
-                        <li class="list-group-item">Dec - Autoware Foundation launched</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2017</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Apr - Latest 96Boards product for AOSP development</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2016</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Jan - Software reference platform for Arm servers is launched</li>
-                        <li class="list-group-item">Mar - 4.5 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Mar - Developer Cloud</li>
-                        <li class="list-group-item">Aug - 4.7 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Sep - LITE is formed</li>
-                        <li class="list-group-item">Sep - First development board compliant with 96Boards IoT</li>
-                        <li class="list-group-item">Dec - 4.9 Linux Kernel Release #1</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2015</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Feb - 96Boards is formed</li>
-                        <li class="list-group-item">Apr - 3.18 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Apr - 4.0 Linux Kernel Release #4</li>
-                        <li class="list-group-item">Jun - 4.1 Linux Kernel Release #4</li>
-                        <li class="list-group-item">Aug - 4.2 Linux Kernel Release #5</li>
-                        <li class="list-group-item">Dec - 4.4 Linux Kernel Release #5</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2014</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Jan - 3.13 Linux Kernel Release #2</li>
-                        <li class="list-group-item">Feb - Security Working Group</li>
-                        <li class="list-group-item">Mar - 3.14 Linux Kernel Release #3</li>
-                        <li class="list-group-item">May - 2014 LHG formed</li>
-                        <li class="list-group-item">June - 3.15 Linux Kernel Release #3</li>
-                        <li class="list-group-item">June - 2014 LMG formed</li>
-                        <li class="list-group-item">July - Android Open Source Project for Arm v8</li>
-                        <li class="list-group-item">August - 3.16 Linux Kernel Release #4</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2013</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Feb - LNG formed</li>
-                        <li class="list-group-item">Feb - 3.8 Linux Kernel Release #4</li>
-                        <li class="list-group-item">Apr - 3.9 Linux Kernel Release #5</li>
-                        <li class="list-group-item">June - 3.10 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Aug - 3.11 Linux Kernel Release #3</li>
-                        <li class="list-group-item">Oct - Launch of ODP</li>
-                        <li class="list-group-item">Oct - 3.12 Linux Kernel Release #2</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2012</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">May - 3.4 Linux Kernel Release ranked #12</li>
-                        <li class="list-group-item">Sep - 3.6 Linux Kernel Release ranked #5</li>
-                        <li class="list-group-item">Nov - LEG is formed</li>
-                        <li class="list-group-item">Dec - 3.7 Linux Kernel Release ranked #5</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2011</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Oct - Linux kernel 3.1 - ranked #8</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-xs-12 text-center">
-                    <h3>2010</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">Linaro is formed</li>
-                    </ul>
-                </div>
-            </div>
-        </div> <!-- // home product-carousel -->
+            {% endfor %}
+        </div>
     </div>
 </div>

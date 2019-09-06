@@ -1,5 +1,5 @@
 # Custom Favicon
-favicon: favicon.png
+favicon: /assets/images/content/favicon.png
 # Site name
 name: Linaro
 # Support for http2 push features
@@ -104,9 +104,8 @@ blog:
                   title: title
                   url: url
 # Google Anayltics Setup
-google:
-    tag_manager: GTM-5DLPJQ
-    analytics: UA-16756069-1
+google_analytics:
+    production: UA-16756069-1
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false

@@ -1,441 +1,109 @@
-- date: 2010-05-01 09:00:00+00:00
-  title: |-
-      “NewCo” meeting at UDS-M in Brussels, Belgium.
-  year-start: true
-- date: 2010-06-02 09:00:00+00:00
-  title: |-
-      Articles of Association created.
-  url: https://www.linaro.org/assets/downloads/Linaro-Articles-of-Association-New-June-2010.pdf
-- date: 2010-06-03 09:00:00+00:00
-  title: |-
-      "Linaro launched at Computex Taipei by six founding members: Arm, IBM, Freescale, Samsung, ST-Ericsson, Texas Instruments (TI)"
-  url: https://www.linaro.org/news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
-- date: 2010-07-01 09:00:00+00:00
-  title: |-
-      "First “Linaro Connect” event: Linaro and Ubuntu Platform Sprint in Prague"
-- date: 2010-07-02 09:00:00+00:00
-  title: |-
-      Linaro membership rules created.
-  url: https://www.linaro.org/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf
-- date: 2010-07-02 09:00:00+00:00
-  title: |-
-      Linaro board meeting.
-  url: https://www.linaro.org/assets/downloads/Linaro-Board-Minutes-2010-09-OPEN-Publish-Final.pdf
-- date: 2010-10-01 09:00:00+00:00
-  title: |-
-      Linaro Connect co-located with UDS-N in Orlando, Florida.
-- date: 2011-01-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro board meeting.
-  url: https://www.linaro.org/assets/downloads/January-2011-Board-Meeting-Minutes.pdf
-- date: 2011-01-02 09:00:00+00:00
-  title: |-
-        Linaro Connect and Ubuntu platform sprint in Dallas, Texas
-- date: 2011-02-01 09:00:00+00:00
-  title: |-
-        Android Honeycomb (3.0–3.2.6) based on Linux Kernel 2.6.36
-- date: 2011-05-01 09:00:00+00:00
-  title: |-
-        Linaro board meeting.
-  url: https://www.linaro.org/assets/downloads/LinaroBoardMinutesMay2011.pdf
-- date: 2011-05-02 09:00:00+00:00
-  title: |-
-        Linaro Connect co-located with UDS-O in Budapest, Hungary
-- date: 2011-07-13 09:00:00+00:00
-  title: |-
-        Linux Kernel 3.0 released
-  url: http://lwn.net/Articles/451243/
-- date: 2011-08-08 14:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/August-2011-Linaro-Board-Public-Meeting-Minutes.pdf
-- date: 2011-08-10 09:00:00+00:00
-  title: |-
-        Linaro Connect held independently for the first time in Cambourne,
-        UK
-- date: 2011-10-01 09:00:00+00:00
-  title: |-
-        Android Ice Cream Sandwich (4.0–4.0.4) based on Linux Kernel 3.0.1
-- date: 2011-10-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Linaro-Board-Meeting-Minutes-October-2011.pdf
-- date: 2011-10-03 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.1 released, Linaro ranked #8 company contributor"
-  url: http://lwn.net/Articles/459980/
-- date: 2011-10-02 09:00:00+00:00
-  title: |-
-        Linaro Connect co-located with UDS-P in Orlando, Florida
-- date: 2011-12-03 09:00:00+00:00
-  title: |-
-        Linaro grown to 6 members, 100 engineers and 160 attendees at Linaro Connect
-- date: 2011-12-02 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.2 released, Linaro ranked #13 company contributor"
-  url: http://lwn.net/Articles/472852/
-- date: 2012-02-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro Connect held in Redwood City, CA
-- date: 2012-03-01 09:00:00+00:00
-  title: |-
-        Linux Kernel 3.3 released
-  url: http://lwn.net/Articles/485058/
-- date: 2012-04-01 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Linaro-Board-Meeting-Minutes-17-April.pdf
-- date: 2012-05-01 09:00:00+00:00
-  title: |-
-        Linaro Connect Asia 2012 (LCA12) in Hong Kong
-  url: https://www.linaro.org/assets/downloads/Linaro-Board-Meeting-Minutes-17-April.pdf
-- date: 2012-05-02 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.4 released, Linaro ranked #12 company contributor"
-  url: http://lwn.net/Articles/496193/
-- date: 2012-07-01 09:00:00+00:00
-  title: |-
-        "Android Jelly Bean (4.1) based on Linux Kernel 3.0.31JulyLinux Kernel
-        3.5 released, Linaro ranked #3 company contributor"
-  url: http://lwn.net/Articles/507986/
-- date: 2012-07-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_26_July_20122.pdf
-- date: 2012-09-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.6 released, Linaro ranked #5 company contributor"
-  url: http://lwn.net/Articles/517564/
-- date: 2012-09-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_11_Sept_2012.2_.pdf
-- date: 2012-10-01 09:00:00+00:00
-  title: |-
-        LG Electronics joins Linaro as Club member
-  url: https://www.linaro.org/news/lg-electronics-joins-linaro/
-- date: 2012-10-02 09:00:00+00:00
-  title: |-
-        HiSilicon joins Linaro as Core member
-  url: https://www.linaro.org/news/hisilicon-joins-linaro-as-core-member/
-- date: 2012-10-03 09:00:00+00:00
-  title: |-
-        Linaro Connect co-located with UDS-R in Copenhagen, Denmark
-- date: 2012-10-04 09:00:00+00:00
-  title: |-
-        Android Jelly bean (4.2) based on Linux Kernel 3.4.0
-- date: 2012-11-04 09:00:00+00:00
-  title: |-
-        Linaro Enterprise Group (LEG) formed by 13 founding members to focus on
-        server development
-  url: https://www.linaro.org/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/
-- date: 2012-12-01 09:00:00+00:00
-  title: |-
-        Linaro grown to 16 members, 160 engineers and 235 attendees at Linaro
-        Connect
-- date: 2012-12-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_5_December_20121.pdf
-- date: 2012-12-03 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.7 released, Linaro ranked #5 company contributor"
-  url: http://lwn.net/Articles/527191/
-- date: 2013-02-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro Networking Group (LNG) formed by 12 founding members to focus on
-        networking development
-  url: https://www.linaro.org/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
-- date: 2013-02-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_5_Feb_2013.pdf
-- date: 2013-02-03 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.8 released, Linaro ranked #4 company contributor"
-  url: http://lwn.net/Articles/537110/
-- date: 2013-03-01 09:00:00+00:00
-  title: |-
-        Linaro Connect Asia 2013 (LCA13) in Hong Kong
-- date: 2013-04-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.9 released, Linaro ranked #5 company contributor"
-  url: http://lwn.net/Articles/547073/
-- date: 2013-04-02 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_9_April_2013.pdf
-- date: 2013-05-01 09:00:00+00:00
-  title: |-
-        Linaro board meeting
-  url: https://www.linaro.org/assets/downloads/Board_Minutes_30th_May_2013-signed.pdf
-- date: 2013-05-02 09:00:00+00:00
-  title: |-
-        Broadcom announced as newly joined Club member
-  url: https://www.linaro.org/news/linaro-announces-broadcom-new-member/
-- date: 2013-06-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.10 released, Linaro ranked #3 company contributor"
-  url: http://lwn.net/Articles/555968/
-- date: 2013-07-01 09:00:00+00:00
-  title: |-
-        Fujitsu Semiconductor joins Linaro as Club member
-  url: https://www.linaro.org/news/fujitsu-semiconductor-joins-linaro/
-- date: 2013-07-02 09:00:00+00:00
-  title: |-
-        Linaro Connect Europe (LCE13) in Dublin
-- date: 2013-08-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.11 released, Linaro ranked #3 company contributor"
-  url: http://lwn.net/Articles/563977/
-- date: 2013-09-01 09:00:00+00:00
-  title: |-
-        Android KitKat (4.4) based on Linux Kernel 3.8
-- date: 2013-10-01 09:00:00+00:00
-  title: |-
-        Linaro Connect US 2013 (LCU13) co-located with Arm TechCon in Santa
-        Clara, CA
-- date: 2013-10-02 09:00:00+00:00
-  title: |-
-        Linaro joins Open Compute Project (OCP)
-  url: https://www.linaro.org/news/linaro-brings-open-source-test-platform-open-compute-project/
-- date: 2013-10-03 09:00:00+00:00
-  title: |-
-        Linaro joins OpenMPI
-- date: 2013-10-04 09:00:00+00:00
-  title: |-
-        Linaro joins the HSA Foundation
-- date: 2013-10-05 09:00:00+00:00
-  title: |-
-        Cavium joins the Linaro Networking Group (LNG)
-- date: 2013-10-06 09:00:00+00:00
-  title: |-
-        Linaro launches OpenDataPlane project
-  url: https://www.linaro.org/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/
-- date: 2013-10-07 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.12 released, Linaro ranked #2 company contributor"
-  url: http://lwn.net/Articles/570483/
-- date: 2013-12-01 09:00:00+00:00
-  title: |-
-        Linaro grown to 25 members, 190 engineers and 310 attendees at Linaro
-        Connect
-- date: 2014-01-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        "Linux Kernel 3.13 released, Linaro ranked #2 company contributor"
-  url: http://lwn.net/Articles/579081/
-- date: 2014-02-01 09:00:00+00:00
-  title: |-
-        Qualcomm joins Linaro as club member
-  url: https://www.linaro.org/news/linaro-announces-qualcomm-as-the-latest-industry-leader-to-become-a-member/
-- date: 2014-02-02 09:00:00+00:00
-  title: |-
-        Linaro Forms Security Working Group
-  url: https://www.linaro.org/news/linaro-forms-security-working-group/
-- date: 2014-03-01 09:00:00+00:00
-  title: |-
-        Linaro Connect Asia 2014 (LCA14) in Macau
-  url: https://connect.linaro.org/lca14/
-- date: 2014-03-02 09:00:00+00:00
-  title: |-
-        MediaTek joins Linaro as club member
-  url: https://www.linaro.org/news/linaro-announces-mediatek-member/
-- date: 2014-03-03 09:00:00+00:00
-  title: |-
-        ZTE joins Linaro as club member
-  url: https://www.linaro.org/news/linaro-announces-zte-latest-club-member/
-- date: 2014-03-04 09:00:00+00:00
-  title: |-
-        "Linaro ranked #3 company contributor in Linux Kernel 3.14"
-  url: http://lwn.net/Articles/590354/
-- date: 2014-03-05 09:00:00+00:00
-  title: |-
-        Allwinner Technology joins Linaro as a founding member of LHG
-  url: https://www.linaro.org/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/
-- date: 2014-05-01 09:00:00+00:00
-  title: |-
-        Linaro forms the Linaro Digital Home Group
-  url: https://www.linaro.org/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
-- date: 2014-05-02 09:00:00+00:00
-  title: |-
-        Comcast joins the Linaro Digital Home Group as a founding member
-  url: https://www.linaro.org/news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
-- date: 2014-06-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.15 released, Linaro ranked #3 company contributor"
-  url: http://www.remword.com/kps_result/3.15_whole.html
-- date: 2014-07-01 09:00:00+00:00
-  title: |-
-        Linaro announces the Linaro Mobile Group
-  url: https://www.linaro.org/engineering/consumer/
-- date: 2014-07-02 09:00:00+00:00
-  title: |-
-        Linaro announces Android Open Source Project build for Armv8-A Architecture is ready on 64-bit multi-core SoC
-  url: https://www.linaro.org/news/aosp-on-64-bit/
-- date: 2014-08-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.16 released, Linaro ranked #4 company contributor"
-  url: http://www.remword.com/kps_result/3.16_whole.html
-- date: 2014-09-01 09:00:00+00:00
-  title: |-
-        Linaro Connect USA 2014 (LCA14) in Burlingame
-  url: https://connect.linaro.org/lcu14/
-- date: 2014-10-01 09:00:00+00:00
-  title: |-
-        Linaro announces Spreadtrum Communications as latest Club Member
-  url: https://www.linaro.org/news/linaro-announces-spreadtrum-communications-latest-club-member/
-- date: 2014-12-01 09:00:00+00:00
-  title: |-
-        Linaro grown to 30 members, 220 engineers and 500 attendees at Linaro Connect
-- date: 2015-02-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro Connect Hong Kong 2015 (HKG15)
-  url: https://connect.linaro.org/hkg15/
-- date: 2015-02-02 09:00:00+00:00
-  title: |-
-        Linaro announces 96Boards initiative
-  url: https://www.linaro.org/news/linaro-announces-96boards-initiative-accelerate-arm-software-development/
-- date: 2015-02-03 09:00:00+00:00
-  title: |-
-        Linaro announces Actions Technology as a founding member of Linaro Community Boards Group
-  url: https://www.linaro.org/news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/
-- date: 2015-02-04 09:00:00+00:00
-  title: |-
-        Linaro announces Marvell as a founding member of Linaro Community Boards Group
-  url: https://www.linaro.org/news/linaro-announces-marvell-founding-member-linaro-community-boards-group/
-- date: 2015-03-01 09:00:00+00:00
-  title: |-
-        Linaro announces release of OpenDataPlane v1.0
-  url: https://www.linaro.org/news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/
-- date: 2015-04-01 09:00:00+00:00
-  title: |-
-        "Linux Kernel 3.18 released, Linaro ranked #3 company contributor"
-  url: http://www.remword.com/kps_result/3.18_whole.html
-- date: 2015-04-02 09:00:00+00:00
-  title: |-
-        Linaro announces Alibaba as latest member of Linaro Enterprise Group
-  url: https://www.linaro.org/news/linaro-announces-alibaba-group-as-latest-member/
-- date: 2015-05-01 09:00:00+00:00
-  title: |-
-        Google ATAP joins Linaro Mobile Group to extend collaboration in Project Ara 
-  url: https://www.linaro.org/news/google-atap-joins-linaro-mobile-group-to-extend-collaboration-in-project-ara/
-- date: 2015-06-01 09:00:00+00:00
-  title: |-
-        Linaro announces LeMaker as latest member of Linaro Community Boards Group
-  url: https://www.linaro.org/news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/
-- date: 2015-07-01 09:00:00+00:00
-  title: |-
-        Linaro announces Qualcomm Innovation Center as latest Core member of Linaro
-  url: https://www.linaro.org/news/qualcomm-innovation-center-becomes-core-member-of-linaro/
-- date: 2015-08-01 09:00:00+00:00
-  title: |-
-        Linaro announces Meizu as latest member of Linaro Mobile Group
-  url: https://www.linaro.org/news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/
-- date: 2015-09-01 09:00:00+00:00
-  title: |-
-        Linaro Connect San Francisco 2015 (SFO15)
-  url: https://connect.linaro.org/sfo15/
-- date: 2015-10-01 09:00:00+00:00
-  title: |-
-        Linaro appoints Guy Berruyer Chairman
-  url: https://www.linaro.org/news/linaro-appoints-guy-berruyer-chairman/
-- date: 2015-10-02 09:00:00+00:00
-  title: |-
-        Linaro announces Tinno Mobile joins Linaro Mobile Group
-  url: https://www.linaro.org/news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
-- date: 2015-10-03 09:00:00+00:00
-  title: |-
-        Linaro announces Acadine Technologies joins Linaro Mobile Group
-  url: https://www.linaro.org/news/first-systems-software-company-acadine-joins-linaro-mobile-group/
-- date: 2016-01-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro announces Software Reference Platform for Arm servers
-  url: https://www.linaro.org/news/linaro-announces-software-reference-platform-arm-servers/
-- date: 2016-03-01 09:00:00+00:00
-  title: |-
-        Linaro Connect Bangkok 2016 (BKK16)
-  url: https://connect.linaro.org/bkk16/
-- date: 2016-03-02 09:00:00+00:00
-  title: |-
-        Linaro announces support for 96Boards HiKey in AOSP
-  url: https://www.linaro.org/news/linaro-announces-support-for-96boards-hikey-in-aosp/
-- date: 2016-03-03 09:00:00+00:00
-  title: |-
-        Linaro announces Arm Based Developer Cloud
-  url: https://www.linaro.org/news/linaro-announces-arm-based-developer-cloud-2/
-- date: 2016-06-01 09:00:00+00:00
-  title: |-
-        Linaro announces Thundersoft joins Linaro 96Boards
-  url: https://www.linaro.org/news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
-- date: 2016-08-01 09:00:00+00:00
-  title: |-
-        ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
-  url: https://www.linaro.org/news/archermind-joins-96boards-launches-deci-core-armv8-product/
-- date: 2016-08-02 09:00:00+00:00
-  title: |-
-        Linaro announces First LTS Monarch Release of OpenDataPlane
-  url: https://www.linaro.org/news/linaro-announces-first-lts-monarch-release-opendataplane/
-- date: 2016-08-03 09:00:00+00:00
-  title: |-
-        Linaro Announces First Development Board Compliant with 96Boards TV Platform Specification 
-  url: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
-- date: 2016-09-01 09:00:00+00:00
-  title: |-
-        Linaro Connect Las Vegas 2016 (LAS16)
-  url: https://connect.linaro.org/las16/
-- date: 2016-09-02 09:00:00+00:00
-  title: |-
-        Linaro Announces LITE – Collaborative Software Engineering for the Internet of Things (IoT)
-  url: https://www.linaro.org/news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/
-- date: 2016-09-03 09:00:00+00:00
-  title: |-
-        Linaro Announces First Development Board Compliant with 96Boards IoT Edition Specification
-  url: https://www.linaro.org/news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
-- date: 2017-03-01 09:00:00+00:00
-  year-start: true
-  title: |-
-        Linaro Connect Budapest 2017 (BUD17)
-  url: https://connect.linaro.org/bud17/resources/
-- date: 2017-03-02 09:00:00+00:00
-  title: |-
-        Acer joins Linaro IoT and Embedded Group
-  url: https://www.linaro.org/news/acer-joins-linaro-iot-and-embedded-group/
-- date: 2017-03-03 09:00:00+00:00
-  title: |-
-        HXT Semiconductor joins Linaro to accelerate Advanced Server Development on Arm
-  url: https://www.linaro.org/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
-- date: 2017-03-04 09:00:00+00:00
-  title: |-
-        Linaro announces Fujitsu’s collaboration to accelerate High Performance Computing on Arm
-  url: https://www.linaro.org/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/
-- date: 2017-04-26 09:00:00+00:00	
-  title: |-
-          Latest 96Boards Product for AOSP Development
-  url: https://www.linaro.org/news/linaro-announces-latest-96boards-product-aosp-development/	
-- date: 2017-09-25 09:00:00+00:00	
-  title: |-
-          Linaro Connect San Francisco 2017 (SFO17)
-  url: https://connect.linaro.org/resources/sfo17/	
-- date: 2017-10-01 09:00:00+00:00
-  title: |-
-        Open Source Foundries Spins Out
-  url: https://foundries.io
-- date: 2017-12-22 09:00:00+00:00	
-  title: |-
-          Linaro Invites Input into 96Boards System-on-Module (SOM) specifications
-  url: https://www.linaro.org/news/system-on-module-specifications/	
-- date: 2018-03-19 09:00:00+00:00	
-  title: |-
-          Linaro Connect Hong Kong 2018 (HKG18)
-  url: https://connect.linaro.org/resources/hkg18/
-  year-start: true
-- date: 2018-07-18 09:00:00+00:00	
-  title: |-
-          SoftBank joins Linaro 96Boards Steering Committee
-  url: https://www.linaro.org/news/softbank-joins-96boards-steering-committee/	
+items:
+  - name: "2019"
+    entries:
+      - title: Jan - Li Gong new CEO
+        url: /news/linaro-announces-appointment-of-new-ceo-li-gong/
+        date: 2019-01-03 09:00:00
+      - title: "Feb - 5.0 Linux Kernel Release #3"
+        date: 2019-02-01 09:00:00
+      - title: "Apr - 96Boards SoM specification launched"
+        url: /news/linaro-announces-launch-of-96boards-system-on-module-som-specification/
+        date: 2019-04-01 09:00:00
+      - title: "Apr - 5.1 Linux Kernel Release #4"
+        date: 2019-04-02 09:00:00
+  - name: "2018"
+    entries:
+      - title: "Mar - ODP Tigermoth LTS Software release"
+        date: 2018-03-01 09:00:00
+      - title: "Mar - 96Boards AI platform"
+        date: 2018-03-02 09:00:00
+      - title: "Sep - Artifical Intelligence Initiative launched"
+        date: 2018-09-01 09:00:00
+      - title: "Dec - Autoware Foundation launched"
+        date: 2018-12-01 09:00:00
+  - name: "2017"
+    entries:
+      - title: "Apr - Latest 96Boards product for AOSP development"
+        date: 2017-04-01 09:00:00
+  - name: "2016"
+    entries:
+      - title: "Jan - Software reference platform for Arm servers is launched"
+        date: 2016-01-01 09:00:00
+      - title: "Mar - 4.5 Linux Kernel Release #3"
+        date: 2016-03-01 09:00:00
+      - title: "Mar - Developer Cloud"
+        date: 2016-03-02 09:00:00
+      - title: "Aug - 4.7 Linux Kernel Release #3"
+        date: 2016-08-01 09:00:00
+      - title: "Sep - LITE is formed"
+        date: 2016-09-01 09:00:00
+      - title: "Sep - First development board compliant with 96Boards IoT"
+        date: 2016-09-02 09:00:00
+      - title: "Dec - 4.9 Linux Kernel Release #1"
+        date: 2016-12-01 09:00:00
+  - name: "2015"
+    entries:
+      - title: "Feb - 96Boards is formed"
+        date: 2015-02-01 09:00:00
+      - title: "Apr - 3.18 Linux Kernel Release #3"
+        date: 2015-04-01 09:00:00
+      - title: "Apr - 4.0 Linux Kernel Release #4"
+        date: 2015-04-02 09:00:00
+      - title: "Jun - 4.1 Linux Kernel Release #4<"
+        date: 2015-06-01 09:00:00
+      - title: "Aug - 4.2 Linux Kernel Release #5"
+        date: 2015-08-01 09:00:00
+      - title: "Dec - 4.4 Linux Kernel Release #5"
+        date: 2015-12-01 09:00:00
+  - name: "2014"
+    entries:
+      - title: "Jan - 3.13 Linux Kernel Release #2"
+        date: 2014-01-01 09:00:00
+      - title: "Feb - Security Working Group"
+        date: 2014-02-01 09:00:00
+      - title: "Mar - 3.14 Linux Kernel Release #3"
+        date: 2014-03-02 09:00:00
+      - title: "May - 2014 LHG formed"
+        date: 2014-05-01 09:00:00
+      - title: "June - 3.15 Linux Kernel Release #3"
+        date: 2014-06-01 09:00:00
+      - title: "June - 2014 LMG formed"
+        date: 2014-06-02 09:00:00
+      - title: "July - Android Open Source Project for Arm v8"
+        date: 2014-07-01 09:00:00
+      - title: "August - 3.16 Linux Kernel Release #4"
+        date: 2014-08-01 09:00:00
+  - name: "2013"
+    entries:
+      - title: "Feb - LNG formed"
+        date: 2013-02-01 09:00:00
+      - title: "Feb - 3.8 Linux Kernel Release #4"
+        date: 2013-02-02 09:00:00
+      - title: "Apr - 3.9 Linux Kernel Release #5"
+        date: 2013-04-01 09:00:00
+      - title: "June - 3.10 Linux Kernel Release #3"
+        date: 2013-06-01 09:00:00
+      - title: "Aug - 3.11 Linux Kernel Release #3"
+        date: 2013-08-01 09:00:00
+      - title: "Oct - Launch of ODP"
+        date: 2013-10-01 09:00:00
+      - title: "Oct - 3.12 Linux Kernel Release #2"
+        date: 2013-10-02 09:00:00
+  - name: "2012"
+    entries:
+      - title: "May - 3.4 Linux Kernel Release ranked #12"
+        date: 2012-05-01 09:00:00
+      - title: "Sep - 3.6 Linux Kernel Release ranked #5"
+        date: 2012-09-01 09:00:00
+      - title: "Nov - LEG is formed"
+        date: 2012-11-01 09:00:00
+      - title: "Dec - 3.7 Linux Kernel Release ranked #5"
+        date: 2012-12-01 09:00:00
+  - name: "2011"
+    entries:
+      - title: "Oct - Linux kernel 3.1 - ranked #8"
+        date: 2011-10-01 09:00:00
+  - name: "2010"
+    entries:
+      - title: "Linaro is formed"
+        date: 2010-01-01 09:00:00

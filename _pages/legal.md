@@ -1,11 +1,13 @@
 ---
-layout: jumbotron-container
+layout: flow
 title: Legal
 description: |-
     Information about the legal policies of Linaro's website
 permalink: /legal/
+flow:
+    - row: main_content_row
 ---
-<script>
+  <script>
 function defer(method) {
 if (window.jQuery) {
     method();
@@ -69,6 +71,7 @@ defer(function(){
 </ul>
 
 <div class="tab-content" id="tabbed_nav_content">
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="t_and_cs" markdown="1">
 
 ### Information about Linaro™
@@ -120,6 +123,7 @@ Thank you for visiting Our site.
 LEC-ELA-00989-V1.0, 03 May 2010\. Address updated September 2012\. Copyright (c) 2010 Linaro Limited
 </div>
 
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="privacy_policy" markdown="1">
 
 
@@ -236,24 +240,24 @@ This website uses Google Analytics, a web analytics service provided by Google, 
 To edit cookie settings for PCs
 
 *   **Google Chrome**
-    Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
+Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
 *   **Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0**
-    Locate ‘Internet options’ in the browser menu, then click on the ‘Privacy’ tab.
+Locate ‘Internet options’ in the browser menu, then click on the ‘Privacy’ tab.
 *   **Mozilla Firefox**
-    Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
+Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
 *   **Opera**
-    Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
+Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
 To edit cookie settings for Macs
 
 *   **Safari**
-    Click on ‘Safari’ at the top of your browser window and select the ‘Preferences’ option, then ‘Security’.
+Click on ‘Safari’ at the top of your browser window and select the ‘Preferences’ option, then ‘Security’.
 *   **Google Chrome**
-    Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
+Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
 *   **Mozilla Firefox**
-    Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
+Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
 *   **Opera**
-    Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
+Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
 * * *
 
@@ -267,6 +271,7 @@ LEC-ELA-00990-V2.0, 27 April, 2010, Copyright (c) 2010 Linaro Limited
 
 </div>
 
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="trademark_usage" markdown="1">
 
 Linaro® is a registered trademark of Linaro in the United Kingdom and other countries
@@ -281,6 +286,7 @@ The Trademark policy and guidelines provide information on what is allowed, what
 
 </div>
 
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="ipr_policy" markdown="1">
 
 ### 1. DEFINITIONS
@@ -369,7 +375,7 @@ and such release, Linaro wishes to contribute back to the relevant upstream proj
 where successful in that endeavour will contribute back under the licenses already
 established for those upstream projects. Notwithstanding this ultimate aim, Linaro
 Projects will, at least transiently, be hosting patches to relevant upstream projects and these Linaro
- Projects will accept Contributions under the licenses already established for those upstream projects.
+Projects will accept Contributions under the licenses already established for those upstream projects.
 
 ##### Securing Rights
 
@@ -434,6 +440,7 @@ TO COMPLY WITH THIS IP POLICY.
 
 </div>
 
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="antitrust_guidelines" markdown="1">
 
 The defined terms in these Antitrust Guidelines shall have the same meanings given to them in
@@ -685,6 +692,8 @@ specific rules and advice contained in this document. Respecting these Guideline
 to the benefit of all Participants in Linaro.
 
 </div>
+
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cookie_policy" markdown="1">
 
 # Cookie Policy
@@ -874,6 +883,7 @@ Thank you for visiting Our site.
 
 </div>
 
+{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cancellation_policy" markdown="1">
 
 **Cancellation policy:**

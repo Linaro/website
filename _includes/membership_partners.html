@@ -1,0 +1,57 @@
+<div class="row padded-row" id="members-and-partners">
+    <div class="container">
+        <h2 class="text-center ">Members & Partners</h2>
+        {% assign linaro-members = "" | split: ',' %}
+        {% assign boards-members = "" | split: ',' %}
+
+        {% for each in site.data.members %}
+            {% if each.id != "boards-ai" and each.id != "boards-partner" and each.id != "boards-mp" and each.id != "boards-sc" %}
+                {% for member in each.members %}
+                    {% unless linaro-members contains member %}
+                        {% assign linaro-members = linaro-members | push: member %}
+                    {% endunless %}
+                {% endfor %}
+            {% else %}
+                {% for member in each.members %}
+                    {% unless boards-members contains member %}
+                        {% assign boards-members = boards-members | push: member %}
+                    {% endunless %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        {% assign sorted-linaro-members = linaro-members | sort: 'name' %}
+        {% assign sorted-boards-members = boards-members | sort: 'name' %}
+        <div class="container linaro-members ">
+            <h2 class="text-center ">Linaro</h2>
+            {% for member in sorted-linaro-members %}
+            <div class="col-xs-6 col-sm-3 col-md-2 member-col ">
+                <a href="{{member.url}}">
+                    <div class="member lazyload" style="background-image: url('{{member.image}}');"></div>
+                </a>
+            </div>
+            {% endfor %}
+            <div class="col-xs-12 text-center">
+                <p class="center-block">
+                    To view Linaro members by level of engagement, click <a href="/members-by-group/">here</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="container boards-members ">
+            <h2 class="text-center">96Boards</h2>
+            {% for member in sorted-boards-members %}
+            <div class="col-xs-6 col-sm-3 col-md-2 member-col">
+                <a href="{{member.url}}">
+                    <div class="member lazyload" style="background-image: url('{{member.image}}');"></div>
+                </a>
+            </div>
+            {% endfor %}
+            <div class="col-xs-12 text-center">
+                <p class="center-block">
+                    To view 96Boards members by level of engagement, click <a href="/members-by-group/">here</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

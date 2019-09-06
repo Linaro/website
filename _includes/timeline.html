@@ -1,5 +1,5 @@
 {% assign news_posts = site.categories["News"] | sort: 'date' | reverse %}
-{% assign timeline_items = site.data.timeline | sort: 'date' | reverse %}
+{% assign timeline_items = site.data.timeline.items | sort: 'date' | reverse %}
 {% assign all_news = "" | split: "" %}
 {% for item in timeline_items %}
 {% assign all_news = all_news | push: item %}

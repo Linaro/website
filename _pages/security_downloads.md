@@ -2,8 +2,12 @@
 title: Security Downloads
 permalink: /downloads/security/
 layout: jumbotron-container
+description: >
+    This page provides important security updates related to Linaro releases downloads.
 jumbotron:
     background-image: /assets/images/content/downloads-bg.jpg
+flow:
+    - row: main_content_row
 ---
 # Downloads and help for Meltdown and Spectre
 ## Open Source Projects
