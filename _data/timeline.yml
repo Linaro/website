@@ -1,5 +1,5 @@
 items:
-  - name: 2019
+  - name: "2019"
     entries:
       - title: Jan - Li Gong new CEO
         url: /news/linaro-announces-appointment-of-new-ceo-li-gong/
@@ -11,7 +11,7 @@ items:
         date: 2019-04-01 09:00:00
       - title: "Apr - 5.1 Linux Kernel Release #4"
         date: 2019-04-02 09:00:00
-  - name: 2018
+  - name: "2018"
     entries:
       - title: "Mar - ODP Tigermoth LTS Software release"
         date: 2018-03-01 09:00:00
@@ -21,11 +21,11 @@ items:
         date: 2018-09-01 09:00:00
       - title: "Dec - Autoware Foundation launched"
         date: 2018-12-01 09:00:00
-  - name: 2017
+  - name: "2017"
     entries:
       - title: "Apr - Latest 96Boards product for AOSP development"
         date: 2017-04-01 09:00:00
-  - name: 2016
+  - name: "2016"
     entries:
       - title: "Jan - Software reference platform for Arm servers is launched"
         date: 2016-01-01 09:00:00
@@ -41,7 +41,7 @@ items:
         date: 2016-09-02 09:00:00
       - title: "Dec - 4.9 Linux Kernel Release #1"
         date: 2016-12-01 09:00:00
-  - name: 2015
+  - name: "2015"
     entries:
       - title: "Feb - 96Boards is formed"
         date: 2015-02-01 09:00:00
@@ -55,7 +55,7 @@ items:
         date: 2015-08-01 09:00:00
       - title: "Dec - 4.4 Linux Kernel Release #5"
         date: 2015-12-01 09:00:00
-  - name: 2014
+  - name: "2014"
     entries:
       - title: "Jan - 3.13 Linux Kernel Release #2"
         date: 2014-01-01 09:00:00
@@ -73,7 +73,7 @@ items:
         date: 2014-07-01 09:00:00
       - title: "August - 3.16 Linux Kernel Release #4"
         date: 2014-08-01 09:00:00
-  - name: 2013
+  - name: "2013"
     entries:
       - title: "Feb - LNG formed"
         date: 2013-02-01 09:00:00
@@ -89,7 +89,7 @@ items:
         date: 2013-10-01 09:00:00
       - title: "Oct - 3.12 Linux Kernel Release #2"
         date: 2013-10-02 09:00:00
-  - name: 2012
+  - name: "2012"
     entries:
       - title: "May - 3.4 Linux Kernel Release ranked #12"
         date: 2012-05-01 09:00:00
@@ -99,11 +99,11 @@ items:
         date: 2012-11-01 09:00:00
       - title: "Dec - 3.7 Linux Kernel Release ranked #5"
         date: 2012-12-01 09:00:00
-  - name: 2011
+  - name: "2011"
     entries:
       - title: "Oct - Linux kernel 3.1 - ranked #8"
         date: 2011-10-01 09:00:00
-  - name: 2011
+  - name: "2011"
     entries:
       - title: "Linaro is formed"
         date: 2010-01-01 09:00:00
