@@ -11,27 +11,28 @@ flow:
       sections:
         - format: block
           style: text-center text-white organisation-section
-          item_width: 4
-          content:
-              - title:
+          block_section_content:
+            item_width: 4
+            blocks:
+              - title_content:
                     size: h3
-                    content: Membership & General Enquiries
+                    text: Membership & General Enquiries
                 buttons:
                     - title: Get in Touch
                       url: "mailto:contact@linaro.org?subject=Membership & General Enquiries"
                       icon: fa fa-email
                       style: btn-primary
-              - title:
+              - title_content:
                     size: h3
-                    content: Linaro Connect Enquiries
+                    text: Linaro Connect Enquiries
                 buttons:
                     - title: Get in Touch
                       url: "mailto:connect@linaro.org?subject=Linaro Connect Enquiries"
                       icon: fa fa-email
                       style: btn-primary
-              - title:
+              - title_content:
                     size: h3
-                    content: Media Enquiries
+                    text: Media Enquiries
                 buttons:
                     - title: Get in Touch
                       url: "mailto:marketing@linaro.org?subject=Media Enquiries"
