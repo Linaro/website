@@ -17,6 +17,7 @@ jumbotron:
     include: services-jumbotron.html
 flow:
     - row: container_row
+      style: developer_services_intro
       sections:
         - format: text
           style: text-center
