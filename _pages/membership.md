@@ -27,6 +27,7 @@ flow:
     - row: custom_include_row
       source: membership_partners.html
     - row: container_row
+      style: levels_of_engagement
       sections:
         - format: title
           style: text-center
@@ -39,7 +40,18 @@ flow:
             text: >
                 There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. Linaro has groups focused on the following segments - [Data Centre & Cloud](https://www.linaro.org/engineering/datacenter-and-cloud/), [IoT & Embedded](https://www.linaro.org/engineering/iot-and-embedded/), [Edge & Fog Computing](https://www.linaro.org/engineering/edge-and-fog-computing/), [Consumer (Android)](https://www.linaro.org/engineering/consumer/) and [HPC](https://www.linaro.org/engineering/high-performance-computing/). Current strategic initiatives are [Artificial Intelligence](https://www.linaro.org/engineering/artificial-intelligence/) and [Autonomous Vehicles](https://www.linaro.org/engineering/autonomous-vehicles/); and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
     - row: custom_include_row
-      source: membership_become_a_member.html
+      sections:
+        - format: title
+          style: text-center
+          title_content:
+            size: h2
+            text: Become a Member
+        - format: buttons
+          style: text-center
+          buttons_content:
+              - title: contact@linaro.org
+                url: mailto:contact@linaro.org?subject=Linaro.org - Membership
+                class: btn-primary
     - row: custom_include_row
       source: membership_related_news.html
 ---
