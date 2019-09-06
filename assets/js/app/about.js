@@ -9,7 +9,7 @@ $(document).ready(function() {
   var officeCarousel = $(".office-carousel");
   var remoteTeamCarousel = $(".remote-team-carousel");
   var orgCarousel = $(".organisation-carousel");
- 
+
   timelineCarousel.owlCarousel({
       loop:false,
       margin:10,
