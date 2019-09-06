@@ -20,7 +20,7 @@ div.about-page-text > .col-md-7.no-padding {
 div.about-page-text > .col-md-4.col-md-offset-1.did-you-know.no-padding > h2 {
     font-size: 16px;
     font-weight: bold;
-    
+
 }
 div#about-page {
     text-align: justify;
@@ -102,7 +102,7 @@ a.btn.btn-primary.section-btn {
     -webkit-box-shadow: 0px 0px 9px 0px rgba(176,176,176,.4);
     -moz-box-shadow: 0px 0px 9px 0px rgba(176,176,176,.4);
     box-shadow: 0px 0px 9px 0px rgba(176,176,176,.4);
-}   
+}
 .organisation-section > h3 {
     color:black;
     font-size: 14px;
@@ -165,7 +165,7 @@ body{
     color: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
-    -webkit-user-select: none; /* Safari */        
+    -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
@@ -187,7 +187,7 @@ svg#employee-map{
 }
 #wrapper p.center.employee-map-text{
     width: 70%;
-    -webkit-user-select: none; /* Safari */        
+    -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
@@ -242,7 +242,7 @@ svg#employee-map{
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
 }
-@keyframes employeeMapGradient { 
+@keyframes employeeMapGradient {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
@@ -262,7 +262,7 @@ svg#employee-map{
     50%{fill:#03CED6}
     100%{fill:#FFFFFF}
 }
-@keyframes employeeAnimated { 
+@keyframes employeeAnimated {
     0%{fill:#FFFFFF}
     50%{fill:#03CED6}
     100%{fill:#FFFFFF}
@@ -469,7 +469,7 @@ svg#employee-map{
         position: relative;
     }
     .owl-stage-outer {
-        height: 300px;
+        height: 430px;
     }
     .owl-stage {
         height: 300px;
@@ -541,7 +541,7 @@ svg#employee-map{
         padding-top: 40px;
         padding-bottom: 40px;
         font-size: 48px;
-    }    
+    }
     svg#employee-map {
         padding: 20px 0px;
     }
@@ -583,7 +583,7 @@ svg#employee-map{
          font-size: 13px;
          left: 0px;
          z-index: -1;
-     
+
     }
     .timeline-carousel .date-wrap {
         display: none;
