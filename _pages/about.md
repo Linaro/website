@@ -42,8 +42,9 @@ flow:
                     size: h3
                     text: Board of Directors
                 url: /about/team/board/
-                text: >
-                    The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry
+                text_content:
+                    text: >
+                        The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry
                 buttons:
                     - title: Learn More
                       url: /about/team/board/
@@ -53,8 +54,9 @@ flow:
                     size: h3
                     text: Technical Steering Committee
                 url: /about/team/technical-steering-committee/
-                text: >
-                    The Linaro Office of the CTO (OCTO) supports the TSC in determining Linaro’s technical strategy, ensuring technical coherency across Linaro’s engineering activities
+                text_content:
+                    text: >
+                        The Linaro Office of the CTO (OCTO) supports the TSC in determining Linaro’s technical strategy, ensuring technical coherency across Linaro’s engineering activities
                 buttons:
                     - title: Learn More
                       url: /about/team/technical-steering-committee/
@@ -64,8 +66,9 @@ flow:
                     size: h3
                     text: Executive Team
                 url: /about/team/executive/
-                text: >
-                    The executive team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the...
+                text_content:
+                    text: >
+                        The executive team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the...
                 buttons:
                     - title: Learn More
                       url: /about/team/executive/
