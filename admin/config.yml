@@ -787,8 +787,9 @@ collections:
       preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Title', name: 'title', widget: 'string', required: true}
+      - { label: 'Description', name: 'description', widget: 'text', required: true }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", required: true}
       - label: "Image"
         name: image
         widget: object
