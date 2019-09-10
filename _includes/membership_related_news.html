@@ -6,7 +6,7 @@
     </div>
     <div class="owl-carousel owl-theme" id="related-news-slider">
         {% assign membership_posts = site.tags.Membership | sort: 'date' | reverse %}
-        {% assign external_news = site.data.external_news | where: 'category', 'Membership' |  sort: 'date' | reverse %}
+        {% assign external_news = site.data.external_news.items | where: 'category', 'Membership' |  sort: 'date' | reverse %}
         {% assign all_news = "" | split: "" %}
         {% for item in external_news %}
             {% assign all_news = all_news | push: item %}
