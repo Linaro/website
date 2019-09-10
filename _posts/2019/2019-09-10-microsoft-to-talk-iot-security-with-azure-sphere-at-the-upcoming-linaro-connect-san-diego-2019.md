@@ -30,4 +30,4 @@ Following on from Ed Nightingale’s keynote there will be a session at 11am led
 
 Ed Nightingale will wrap up the Azure Sphere IoT track at 12pm with a technical deep dive session on Azure Sphere. Specifically, Ed will look at the market scenarios Azure Sphere addresses, dig deep into the silicon and software architecture that make up the solution, and review some of the project’s history. What makes Azure Sphere MCU unique from a security perspective? Why is an end-to-end solution to IoT security critical to its success in the market? Attend this session to find out! For more information, [click here](https://linaroconnectsandiego.sched.com/event/SufT/san19-216-a-view-from-industry-securing-iot-with-azure-sphere) to read the complete abstract. 
 
-For more information about Linaro Connect or how to register go to [www.connect.linaro.org](www.connect.linaro.org). We hope to see you there!
+For more information about Linaro Connect or how to register go to [connect.linaro.org](https://connect.linaro.org). We hope to see you there!
