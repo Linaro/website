@@ -447,7 +447,8 @@ collections:
     folder: "_pages"
     editor:
       preview: false
-    preview_path: {{permalink}}
+    preview_path: "{{slug}}"
+    slug: "{{permalink}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
