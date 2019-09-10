@@ -27,6 +27,9 @@ $(document).ready(function() {
     if ($("#previous_connect_events").length > 0) {
       var previous_connect_html_elements = [];
       $.each(previous_connects, function(key, val) {
+           var placeholder_url =
+             "https://connect.linaro.org/assets/images/content/" +
+             val.placeholder;
         var html_el = '<div class="col-sm-4 no-padding">';
         html_el +=
           '<a href="https://connect.linaro.org/resources/' +
@@ -34,9 +37,9 @@ $(document).ready(function() {
           '/">';
         html_el += '<div class="event-block">';
         html_el +=
-          '<div class="event-image" style="background-image: url("https://connect.linaro.org/assets/images/content/' +
-          val.placeholder +
-          ')"></div>';
+          '<div class="event-image" style="background-image: url(' +
+          placeholder_url +
+          ');"></div>';
         html_el +=
           '<div class="event-title"><h3>' + val["long-name"] + "</h3></div>";
         html_el += "</div>";
@@ -52,7 +55,9 @@ $(document).ready(function() {
     // Check/pull in previous connect events
     if ($("#future_connect_events").length > 0) {
       var future_connect_events_html_elements = [];
-      $.each(previous_connects, function(key, val) {
+      $.each(future_connects, function(key, val) {
+        var placeholder_url =
+          "https://connect.linaro.org/assets/images/content/" + val.placeholder;
         var html_el = '<div class="col-sm-4 no-padding">';
         html_el +=
           '<a href="https://connect.linaro.org/resources/' +
@@ -60,9 +65,9 @@ $(document).ready(function() {
           '/">';
         html_el += '<div class="event-block">';
         html_el +=
-          '<div class="event-image" style="background-image: url("https://connect.linaro.org/assets/images/content/' +
-          val.placeholder +
-          ')"></div>';
+          '<div class="event-image" style="background-image: url(' +
+          placeholder_url +
+          ');"></div>';
         html_el +=
           '<div class="event-title"><h3>' + val["long-name"] + "</h3></div>";
         html_el += "</div>";
