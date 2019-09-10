@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 logo_url: https://www.linaro.org/assets/images/content/Linaro-Logo.svg
 site_url: https://staging.linaro.org
 display_url: https://staging.linaro.org
-show_preview_links: false
+show_preview_links: true
 slug:
   encoding: "ascii"
   clean_accents: true
