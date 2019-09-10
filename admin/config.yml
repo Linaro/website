@@ -2,9 +2,7 @@ backend:
   name: github
   repo: linaro/website
   branch: develop
-  accept_roles:
-    - admin
-    - editor
+  open_authoring: true
 publish_mode: editorial_workflow
 logo_url: https://www.linaro.org/assets/images/content/Linaro-Logo.svg
 site_url: https://staging.linaro.org
@@ -777,15 +775,65 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
  # Posts Config
   - name: 'blog'
-    label: 'Posts'
-    folder: '_posts/2019'
+    label: 'News Posts'
+    folder: '_posts/2019/news'
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    preview_path: blog/{{title}}/
+    preview_path: "/news/{{title}}/"
     description: >
-      This collection allows you to add/edit/delete posts on the Linaro.org blog/news sections. Please upload/select a high resolution
-      image for
+      This collection allows you to add/edit/delete news posts on the Linaro.org. Please upload/select a high resolution
+      image for the featured image.
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - label: "Image"
+        name: image
+        widget: object
+        required: true
+        fields:
+          - label: "Image Path"
+            name: "path"
+            widget: image
+            required: true
+          - label: "Image Alt"
+            name: "alt"
+            widget: string
+            required: false
+      - label: "Tags"
+        name: tags
+        widget: list
+        allow_add: true
+        hint: "List your tags"
+      - label: "Category"
+        name: category
+        widget: "select"
+        options: ["News", "Blog"]
+        hint: "Your post category - limited to one category - multiple tags can be added however"
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          displayFields: [name],
+          searchFields: [name],
+          valueField: 'username'
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown'}
+ # Posts Config
+  - name: 'blog'
+    label: 'Blog Posts'
+    folder: '_posts/2019/blog'
+    create: true
+    sort: "date:desc" # Default is title:asc
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: "/blog/{{title}}/"
+    description: >
+      This collection allows you to add/edit/delete blog posts on the Linaro.org. Please upload/select a high resolution
+      image for the featured image.
     editor:
       preview: true
     fields:
