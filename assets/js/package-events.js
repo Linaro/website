@@ -5,5 +5,6 @@
 //= require vendor/owl.carousel
 
 //= require app/search
+//= require app/connect_events
 //= require app/main
 //= require app/fly

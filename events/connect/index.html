@@ -10,7 +10,7 @@ js-package: events
 css-package: events
 jumbotron:
     title: Linaro Connect
-    description: > 
+    description: >
         Since 2010, Linaro Connect has been the event to attend if you are interested in open source software development
         for Linux, tools and the various vertical segment ecosystems that use Arm processors. To find out more about the
         event and how to register, go to www.connect.linaro.org.
@@ -35,44 +35,9 @@ jumbotron:
                 </a>
             </li>
         </ul>
-        {% assign connects = site.data.connects | sort: "start-date" | reverse %}
-        {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-
         <h2 class="text-center">Upcoming Connect Events</h2>
-        <div class="row">
-        {% for event-page in connects %}
-            {% capture event_time %}{{event-page.start-date | date: '%s'}}{% endcapture %}
-            {% if event_time > nowunix %}
-                <div class="col-sm-4 no-padding">
-                    <a href="https://connect.linaro.org/future-connects/">
-                        <div class="event-block fly">
-                            <div class="event-image" style="background-image: url('/assets/images/content/{{event-page.placeholder}}')"></div>
-                            <div class="event-title">
-                                <h3>{{event-page.long-name}}</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            {% endif %}
-        {% endfor %}
-        </div>
+        <div class="row" id="future_connect_events"></div>
         <h2 class="text-center">Previous Connect Events</h2>
-        <div class="row">
-            {% for event-page in connects %}
-                {% capture event_time %}{{event-page.start-date | date: '%s'}}{% endcapture %}
-                {% if event_time < nowunix %}
-                    <div class="col-sm-4 no-padding">
-                        <a href="https://connect.linaro.org/resources/{{event-page.id | downcase }}/">
-                            <div class="event-block fly">
-                                <div class="event-image" style="background-image: url('https://connect.linaro.org/assets/images/content/{{event-page.placeholder}}')"></div>
-                                <div class="event-title">
-                                    <h3>{{event-page.long-name}}</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
+        <div class="row" id="previous_connect_events"></div>
     </div>
 </div>
