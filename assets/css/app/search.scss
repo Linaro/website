@@ -24,3 +24,47 @@
     color: #a7a7a7;
     font-style: normal;
 }
+button.searchButton.btn.btn-primary {
+    width: 100%;
+    height: 44px;
+    background-color: #79ac00;
+    border: none;
+}
+
+.fessForm table {
+    border-bottom: none;
+}
+
+.fessResult table {
+    border-bottom: none;
+}
+
+.fessWrapper #result .title a {
+    color: #79ac00;
+}
+
+.fessWrapper #result .title a:visited {
+    color: #b84db8;
+}
+
+.fessWrapper #result .body cite {
+    color: #c54db8;
+}
+
+input.query.form-control.center-block:focus {
+    border-color: #79ac00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px #79ac00;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px #79ac00;
+}
+
+#subfooter li.active a {
+    color: white;
+    background-color: #79ac00;
+    border: 1px solid #79ac00;
+}
+#subfooter li a {
+    color: #79ac00;
+    background-color: #fff;
+    border: 1px solid #79ac00;
+}
