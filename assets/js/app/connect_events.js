@@ -21,29 +21,59 @@ $(document).ready(function() {
       }
     });
   });
+
   $(document).ajaxStop(function() {
     // Check/pull in details of previous Linaro Connect events
     if ($("#previous_connect_events").length > 0) {
-        var previous_connect_html_elements = [];
-        $.each(previous_connects, function(key,val){
-            var html_el = '<div class="col-sm-4 no-padding">';
-            html_el += '';
-            html_el += '';
-            html_el += '';
-            html_el += '';
-            html_el += '';
-            html_el += '';
-            html_el += '';
-            previous_connect_html_elements.push(html_el);
-        });
+      var previous_connect_html_elements = [];
+      $.each(previous_connects, function(key, val) {
+        var html_el = '<div class="col-sm-4 no-padding">';
+        html_el +=
+          '<a href="https://connect.linaro.org/resources/' +
+          val.id.toLowerCase() +
+          '/">';
+        html_el += '<div class="event-block">';
+        html_el +=
+          '<div class="event-image" style="background-image: url("https://connect.linaro.org/assets/images/content/' +
+          val.placeholder +
+          ')"></div>';
+        html_el +=
+          '<div class="event-title"><h3>' + val["long-name"] + "</h3></div>";
+        html_el += "</div>";
+        html_el += "</a>";
+        html_el += "</div>";
+        previous_connect_html_elements.push(html_el);
+      });
 
+      $("#previous_connect_events").html(
+        previous_connect_html_elements.join("")
+      );
     }
     // Check/pull in previous connect events
     if ($("#future_connect_events").length > 0) {
-      console.log("Future Connects");
-      console.log(future_connects);
-      console.log("Previous Connects");
-      console.log(previous_connects);
+      var future_connect_events_html_elements = [];
+      $.each(previous_connects, function(key, val) {
+        var html_el = '<div class="col-sm-4 no-padding">';
+        html_el +=
+          '<a href="https://connect.linaro.org/resources/' +
+          val.id.toLowerCase() +
+          '/">';
+        html_el += '<div class="event-block">';
+        html_el +=
+          '<div class="event-image" style="background-image: url("https://connect.linaro.org/assets/images/content/' +
+          val.placeholder +
+          ')"></div>';
+        html_el +=
+          '<div class="event-title"><h3>' + val["long-name"] + "</h3></div>";
+        html_el += "</div>";
+        html_el += "</a>";
+        html_el += "</div>";
+        future_connect_events_html_elements.push(html_el);
+      });
+
+      $("#future_connect_events").html(
+        future_connect_events_html_elements.join("")
+      );
     }
   });
 });
