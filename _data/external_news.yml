@@ -1,12 +1,13 @@
-- title: Huawei Unveils Industry's Highest-Performance ARM-based CPU Bringing Global Computing Power to Next Level
-  url: http://www.hisilicon.com/en/Media-Center/News/Kunpeng
-  related_members:
-    - HiSilicon
-  image: http://www.hisilicon.com/-/media/Hisilicon/Images/Products/kunpeng-news1.jpg?la=en
-  description: >-
-    Huawei has announced the industry's highest-performance Advanced RISC Machine (ARM)-based CPU.
-    Called Kunpeng 920, the new CPU is designed to boost the development of computing in big data,
-    distributed storage, and ARM-native application scenarios.
-  site: Linaro.org
-  category: Membership
-  date: 2019-01-07 09:00:00+00:00
+items:
+  - title: Huawei Unveils Industry's Highest-Performance ARM-based CPU Bringing Global Computing Power to Next Level
+    url: http://www.hisilicon.com/en/Media-Center/News/Kunpeng
+    related_members:
+      - HiSilicon
+    image: http://www.hisilicon.com/-/media/Hisilicon/Images/Products/kunpeng-news1.jpg?la=en
+    description: >-
+      Huawei has announced the industry's highest-performance Advanced RISC Machine (ARM)-based CPU.
+      Called Kunpeng 920, the new CPU is designed to boost the development of computing in big data,
+      distributed storage, and ARM-native application scenarios.
+    site: Linaro.org
+    category: Membership
+    date: 2019-01-07 09:00:00+00:00
