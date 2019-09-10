@@ -5,7 +5,7 @@ title: >-
   Connect San Diego 2019
 date: '2019-09-10 09:22:35'
 image:
-  path: /assets/images/content/resources-header.png
+  path: /assets/images/content/microsoft-sphere-2.jpg
 tags:
   - Microsoft
   - Azure Sphere
