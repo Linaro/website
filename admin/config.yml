@@ -780,6 +780,7 @@ collections:
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: blog/{{title}}/
     description: >
       This collection allows you to add/edit/delete posts on the Linaro.org blog/news sections. Please upload/select a high resolution
       image for
