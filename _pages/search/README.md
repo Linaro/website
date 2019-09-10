@@ -23,4 +23,4 @@ description: |-
   })();
 </script>
 
-<fess:search-result-only></fess:search-result-only>
+<fess:search></fess:search>
