@@ -1,5 +1,5 @@
 ---
-core_id: "2"
+core_id: "5"
 title: Devicetree Evolution
 description: |-
     The mission of the Devicetree Evolution Lead Project
