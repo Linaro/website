@@ -28,7 +28,10 @@ pages:
       -
         title: Security
         url: /engineering/core/security/
-    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/toolchain/, /engineering/core/]
+      -
+        title: Devicetree Evolution
+        url: /engineering/core/devicetree-evolution/
+    urls: [/engineering/core/, /engineering/core/kernel-validation-and-testing/, /engineering/core/ctt/, /engineering/core/kernel/, /engineering/core/arm-power-management/, /engineering/core/security/, /engineering/core/toolchain/, /engineering/core/, /engineering/core/devicetree-evolution/]
     sub-pages-enabled: true
   -
     list:
