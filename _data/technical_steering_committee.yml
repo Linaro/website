@@ -46,6 +46,8 @@ items:
       type: committee
     - name: James King
       image: /assets/images/people/JamesKing.png
+      bio: >
+        James King leads the open source system software architecture group at Arm. He joined Arm in 2014 and has filled various roles leading and developing example software stacks and solutions across all the ecosystems that Arm supports. Before that he was part of the Software Architecture team in Broadcom’s Mobile division; Led platform software for the 2/3G modem at Samsung; Developed management software for servers at Sun Microsystems; and developed network software at Madge Networks. None of his work has been in any way related to the PhD in High Energy Physics he gained at CERN before becoming a software engineer.
       title: Arm
       type: committee
     - name: Andrew Wafaa
