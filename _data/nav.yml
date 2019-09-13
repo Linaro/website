@@ -58,6 +58,8 @@ pages:
                   url: /engineering/core/arm-power-management/
                 - text: Security
                   url: /engineering/core/security/
+                - text: Devicetree Evolution
+                  url: /engineering/core/devicetree-evolution/
           - text: Datacenter & Cloud
             url: /engineering/datacenter-and-cloud/
           - text: Edge & Fog Computing
