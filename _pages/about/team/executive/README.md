@@ -11,7 +11,7 @@ team:
       title: Chief Executive Officer
       image: /assets/images/people/LiGong.jpg
       bio: >
-        Li is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.” 
+        Li is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”
     - name: David Rusling
       title: Chief Technical Officer
       image: /assets/images/people/david-rusling.png
@@ -23,7 +23,7 @@ team:
       title: Chief Operating Officer
       image: /assets/images/people/Rob-Booth-72dpi1.jpg
       bio: >
-        Rob brings a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy combination of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, tempered by entrepreneurial flexibility and resourcefulness gained as CEO and CFO of several Cambridge UK start-ups, including as a founder of Synomics a Bioinformatics software engineering company. His public company experience includes CFO of Tadpole Technology when it went public in 1992, where he and George Grey worked together. Rob is passionate about helping build companies and generating maximum value from scarce resources.
+        Rob has a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy mix of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, and entrepreneurial flexibility and resourcefulness gained from his experience as CEO and CFO of several Cambridge UK start-ups, which included taking Tadpole Technology plc public and being a joint-founder of Synomics, a Bioinformatics software engineering company. Rob is passionate about helping build companies, generating maximum value from scarce resources and mentoring.
     - name: Joe Bates
       title: General Manager and VP of Member Services
       image: /assets/images/people/JoeBates.jpg
