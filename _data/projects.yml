@@ -1,114 +1,115 @@
-- name: Apache Ambari
-  image: apache-ambari.png
-  url: https://ambari.apache.org/
-- name: Clang
-  image: clang.png
-  url: https://clang.llvm.org/
-- name: OpenJDK
-  image: openjdk.png
-  url: http://openjdk.java.net/
-- name: Hadoop
-  image: hadoop.png
-  url: http://hadoop.apache.org/
-- name: OpenEmbedded
-  image: openembedded.png
-  url: http://www.openembedded.org/wiki/Main_Page
-- name: Debian
-  image: debian.png
-  url: https://www.debian.org/
-- name: KVM
-  image: kvm.png
-  url: https://www.linux-kvm.org/page/Main_Page
-- name: Ceph
-  image: ceph.png
-  url: https://ceph.com/
-- name: OpenStack
-  image: open-stack.png
-  url: https://www.openstack.org/
-- name: Apache Spark
-  image: apache-spark.png
-  url: https://spark.apache.org/
-- name: LAVA
-  image: lava.png
-  url: https://validation.linaro.org
-- name: EdgeX Foundry
-  image: edgex-foundry.png
-  url: https://www.edgexfoundry.org/
-- name: UEFI
-  image: uefi.png
-  url: http://www.uefi.org/
-- name: OpenBMC
-  image: OpenBMC.png
-  url: https://www.openbmc.org/
-- name: Android
-  image: android.png
-  url: https://developer.android.com/
-- name: OP-TEE
-  image: op-tee.png
-  url: https://www.op-tee.org
-- name: OPNFV
-  image: opnfv.png
-  url: https://www.opnfv.org/
-- name: DPDK
-  image: dpdk.png
-  url: https://www.dpdk.org/
-- name: JerryScript
-  image: js.png
-  url: http://jerryscript.net/
-- name: Cairo
-  image: cairo.png
-  url: https://cairographics.org/
-- name: OpenDataPlane
-  image: odp.png
-  url: https://opendataplane.org
-- name: Open Compute Project
-  image: open-compute-project.png
-  url: https://www.opencompute.org/
-- name: Apache Bigtop
-  image: apache-bigtop.png
-  url: http://bigtop.apache.org/
-- name: Lua
-  image: lua.png
-  url: https://www.lua.org/
-- name: Yocto Project
-  image: yocto-project.png
-  url: https://www.lua.org/
-- name: CCIX
-  image: ccix.png
-  url: https://www.ccixconsortium.com/
-- name: DeviceTree
-  image: devicetree.png
-  url: https://www.devicetree.org
-- name: Docker
-  image: docker.png
-  url: https://www.docker.com/
-- name: Snabb
-  image: snabb.png
-  url: https://github.com/snabbco/snabb
-- name: Kernel
-  image: kernel.png
-  url: https://www.kernel.org/category/about.html
-- name: GNU
-  image: gnu.png
-  url: https://www.gnu.org/
-- name: CentOS
-  image: centos.png
-  url: https://www.centos.org/
-- name: TensorFlow
-  image: tensorflow.png
-  url: https://www.tensorflow.org/
-- name: Automotive Grade Linux
-  image: automotive-grade-linux.png
-  url: https://www.automotivelinux.org/
-- name: OpenHPC
-  image: openhpc.png
-  url: https://openhpc.community/
-- name: Qemu
-  image: qemu.png
-  url: https://www.qemu.org/
-- name: Zephyr Project
-  image: zephyr-project.png
-  url: https://www.zephyrproject.org
-- name: Tianocore
-  image: tianocore.png
-  url: https://www.tianocore.org/
+items:
+  - name: Apache Ambari
+    image: /assets/images/projects/apache-ambari.png
+    url: https://ambari.apache.org/
+  - name: Clang
+    image: /assets/images/projects/clang.png
+    url: https://clang.llvm.org/
+  - name: OpenJDK
+    image: /assets/images/projects/openjdk.png
+    url: http://openjdk.java.net/
+  - name: Hadoop
+    image: /assets/images/projects/hadoop.png
+    url: http://hadoop.apache.org/
+  - name: OpenEmbedded
+    image: /assets/images/projects/openembedded.png
+    url: http://www.openembedded.org/wiki/Main_Page
+  - name: Debian
+    image: /assets/images/projects/debian.png
+    url: https://www.debian.org/
+  - name: KVM
+    image: /assets/images/projects/kvm.png
+    url: https://www.linux-kvm.org/page/Main_Page
+  - name: Ceph
+    image: /assets/images/projects/ceph.png
+    url: https://ceph.com/
+  - name: OpenStack
+    image: /assets/images/projects/open-stack.png
+    url: https://www.openstack.org/
+  - name: Apache Spark
+    image: /assets/images/projects/apache-spark.png
+    url: https://spark.apache.org/
+  - name: LAVA
+    image: /assets/images/projects/lava.png
+    url: https://validation.linaro.org
+  - name: EdgeX Foundry
+    image: /assets/images/projects/edgex-foundry.png
+    url: https://www.edgexfoundry.org/
+  - name: UEFI
+    image: /assets/images/projects/uefi.png
+    url: http://www.uefi.org/
+  - name: OpenBMC
+    image: /assets/images/projects/OpenBMC.png
+    url: https://www.openbmc.org/
+  - name: Android
+    image: /assets/images/projects/android.png
+    url: https://developer.android.com/
+  - name: OP-TEE
+    image: /assets/images/projects/op-tee.png
+    url: https://www.op-tee.org
+  - name: OPNFV
+    image: /assets/images/projects/opnfv.png
+    url: https://www.opnfv.org/
+  - name: DPDK
+    image: /assets/images/projects/dpdk.png
+    url: https://www.dpdk.org/
+  - name: JerryScript
+    image: /assets/images/projects/js.png
+    url: http://jerryscript.net/
+  - name: Cairo
+    image: /assets/images/projects/cairo.png
+    url: https://cairographics.org/
+  - name: OpenDataPlane
+    image: /assets/images/projects/odp.png
+    url: https://opendataplane.org
+  - name: Open Compute Project
+    image: /assets/images/projects/open-compute-project.png
+    url: https://www.opencompute.org/
+  - name: Apache Bigtop
+    image: /assets/images/projects/apache-bigtop.png
+    url: http://bigtop.apache.org/
+  - name: Lua
+    image: /assets/images/projects/lua.png
+    url: https://www.lua.org/
+  - name: Yocto Project
+    image: /assets/images/projects/yocto-project.png
+    url: https://www.lua.org/
+  - name: CCIX
+    image: /assets/images/projects/ccix.png
+    url: https://www.ccixconsortium.com/
+  - name: DeviceTree
+    image: /assets/images/projects/devicetree.png
+    url: https://www.devicetree.org
+  - name: Docker
+    image: /assets/images/projects/docker.png
+    url: https://www.docker.com/
+  - name: Snabb
+    image: /assets/images/projects/snabb.png
+    url: https://github.com/snabbco/snabb
+  - name: Kernel
+    image: /assets/images/projects/kernel.png
+    url: https://www.kernel.org/category/about.html
+  - name: GNU
+    image: /assets/images/projects/gnu.png
+    url: https://www.gnu.org/
+  - name: CentOS
+    image: /assets/images/projects/centos.png
+    url: https://www.centos.org/
+  - name: TensorFlow
+    image: /assets/images/projects/tensorflow.png
+    url: https://www.tensorflow.org/
+  - name: Automotive Grade Linux
+    image: /assets/images/projects/automotive-grade-linux.png
+    url: https://www.automotivelinux.org/
+  - name: OpenHPC
+    image: /assets/images/projects/openhpc.png
+    url: https://openhpc.community/
+  - name: Qemu
+    image: /assets/images/projects/qemu.png
+    url: https://www.qemu.org/
+  - name: Zephyr Project
+    image: /assets/images/projects/zephyr-project.png
+    url: https://www.zephyrproject.org
+  - name: Tianocore
+    image: /assets/images/projects/tianocore.png
+    url: https://www.tianocore.org/

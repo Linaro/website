@@ -76,7 +76,7 @@ div#why-join-container {
 .text-block p {
     font-size: 15px;
 }
-div#careers-about {
+#flow_wrapper div#careers-about {
     background-color: #232323;
     color: white;
 }
@@ -287,4 +287,13 @@ div#careers {
 	width: 100%;
 	top: 0;
 	left: 0;
+}
+#wrapper a.btn.btn-social-icon {
+    padding: 0px;
+}
+#wrapper a.btn.btn-social-icon i{
+    margin: 0px !important;
+    top: 20px;
+    padding: 0px !important;
+    left: 0px !important;
 }

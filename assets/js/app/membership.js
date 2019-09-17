@@ -12,7 +12,7 @@ $(document).ready(function () {
         dots: false,
         margin: 10,
         autoplay: true,
-        autoplayTimeout: 1000,
+        autoplayTimeout: 2500,
         autoplayHoverPause: true,
         responsive: {
             0: {
@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     testimonialSlider.owlCarousel({
         items: 4,
-        loop: false,
+        loop: true,
         dots: false,
         nav: true,
         margin: 10,

@@ -4,6 +4,8 @@ copyright-text: Linaro Limited
 linaro-branding: true
 # Social Media Icons Row
 social-media-icons: true
+# Contact Info
+display-contact-details: true
 # These links are displayed at the very bottom of the footer.
 company-links:
     - name: Legal
@@ -15,7 +17,7 @@ company-links:
 middle-column:
     title: Latest News & Blogs
     latest-posts: true
-last-column:
+third-column:
     title: Other Projects
     items:
       - name: 96Boards

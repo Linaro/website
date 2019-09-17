@@ -80,7 +80,7 @@
     clear: both;
 }
 
-div#key-factors {
+#flow_wrapper div#key-factors {
     background-color: #7ca82d;
 }
 
@@ -149,7 +149,7 @@ span.bold {
     width: 350px;
 }
 
-div#why-join-container {
+#flow_wrapper  div#why-join-container {
     background-position-y: -100px;
 }
 
@@ -182,8 +182,8 @@ h2.text-center {
     margin-top: 0px;
 }
 
-div#membership-levels {
-    background-color: #f1f1f1;
+#flow_wrapper .row.levels_of_engagement  {
+    background-color: #f1f1f1 !important;
 }
 
 .container.boards-members {
@@ -265,13 +265,14 @@ div#membership-levels {
     opacity: .2;
 }
 
-#projects h2 {
+#flow_wrapper  #projects h2 {
     font-size: 18px;
     font-weight: normal;
 }
 
-div#projects {
+#flow_wrapper  div#projects {
     padding-bottom: 25px;
+    padding-top: 0px;
 }
 
 // Testimonials
@@ -298,7 +299,7 @@ span.testimonial {
     margin: auto;
 }
 
-div#key-factors.testimonials {
+#flow_wrapper  div#key-factors.testimonials {
     background-color:#151515;
 }
 

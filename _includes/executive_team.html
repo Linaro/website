@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="container">
+        {% for member in site.data.executive_team.items %}
+        <div class="col-xs-12 team-col no-padding text-center p-t-40 p-b-40">
+            {% if member.image %}
+            <img class="lazyload circular_image linaro-profile-image"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{member.image}}" alt="{{member.name}} Profile Photo" />
+            {% endif %}
+            <h2>{{member.name}}</h2>
+            <h4>{{member.title}}</h4>
+            {% if member.type %}<h5>{{member.type | capitalize }}</h5>{% endif %}
+            {% if member.bio %}
+            <p>
+                {{member.bio}}
+            </p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

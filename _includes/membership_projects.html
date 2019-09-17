@@ -1,0 +1,18 @@
+<div class="row" id="projects">
+    <div class="container">
+        <div class="col-xs-12 text-center">
+            <h2>Projects Linaro <strong>contributes</strong> to:</h2>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme" id="projects-slider">
+        {% assign sorted-projects = site.data.projects.items | sort: 'name' %}
+        {% for project in sorted-projects %}
+        <a href="{{project.url}}" target="_blank">
+            <div class="item project-item">
+                <div class="project-image lazyload" style="background: url('{{project.image}}') no-repeat center center;
+                 background-size: contain; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain;"></div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
