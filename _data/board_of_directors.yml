@@ -14,18 +14,13 @@ items:
       open source technologies for approaching 20 years and in the Arm ecosystem
       for more than 10, and involved with Linaro at various levels for over 5
       years.
-  - name: Stephen Li
+  - name: Jonathan Cameron
     title: 'Board member for HiSilicon'
-    image: /assets/images/people/stephen-li.jpg
+    image: /assets/images/people/jonathan-cameron.jpg
     bio: >-
-      Stephen Li currently is VP of U.S. CBG SW at Futurewei, an American
-      corporation wholly owned by Huawei Technologies. Mr.Li is nominated as a
-      board director by HiSilicon, a Core Member of Linaro. Previously he was a
-      VP at Central Software Institute, leading the EulerOS department that
-      provides the OS platforms for all the major product lines within Huawei.
-      Before joining Huawei Mr. Li held senior technical management positions in
-      the embedded software industry, mostly at Wind River Systems, the provider
-      of VxWorks OS.
+      Jonathan leads the ARM server kernel team at Huawei Technologies Research & Development (UK) Ltd. based in Cambridge, UK.  The UK team works alongside ARM64 Solutions within HiSilicon, to provide upstream kernel support for Kunpeng server SoCs.  A recent personal focus has been on CCIX, taking an active role in the CCIX Consortium's TSC, SW and Protocol working groups.
+
+      Jonathan has a PhD in Information Engineering from Cambridge University. It was there, during a Post Doc on wireless sensor platforms, that he first encountered the upstream kernel and he subsequently developed the IIO kernel subsystem which he has now maintained for 10+ years. He takes a particular interest in encouraging new contributors to the upstream kernel.
   - name: Bryan Huntsman
     title: 'Board member for Qualcomm'
     image: /assets/images/people/Bryan-Huntsman.jpg
@@ -60,14 +55,4 @@ items:
     title: 'Board observer and COO, Linaro'
     image: /assets/images/people/Rob-Booth-72dpi1.jpg
     bio: >-
-      Rob brings a wealth of operational, commercial and financial experience
-      gained in the Technology and Life Science sectors, in the UK and
-      internationally, in environments characterized by rapid growth and change.
-      He has a healthy combination of blue-chip multinational discipline, from
-      holding senior positions in SmithKline, General Electric and Pharmacia,
-      tempered by entrepreneurial flexibility and resourcefulness gained as CEO
-      and CFO of several Cambridge UK start-ups, including as a founder of
-      Synomics a Bioinformatics software engineering company. His public company
-      experience includes CFO of Tadpole Technology when it went public in 1992,
-      where he and George Grey worked together. Rob is passionate about helping
-      build companies and generating maximum value from scarce resources.
+      Rob has a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy mix of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, and entrepreneurial flexibility and resourcefulness gained from his experience as CEO and CFO of several Cambridge UK start-ups, which included taking Tadpole Technology plc public and being a joint-founder of Synomics, a Bioinformatics software engineering company. Rob is passionate about helping build companies, generating maximum value from scarce resources and mentoring.
