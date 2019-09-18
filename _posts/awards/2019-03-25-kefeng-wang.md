@@ -9,6 +9,7 @@ name: Kefeng Wang
 job-title: Engineer
 company: Huawei/HiSilicon
 team: Developer Services
+date: 2019-04-05 09:00:00+00:00
 categories:
  - Awards
  - 5-Years
