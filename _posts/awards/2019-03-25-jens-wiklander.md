@@ -19,6 +19,7 @@ image:
   featured: true
   path: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/jens-wiklander.jpg
+date: 2019-04-05 09:00:00+00:00
 jumbotron:
     background-image: /assets/images/content/5years_bkgd.png
 ---
