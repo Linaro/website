@@ -12,6 +12,7 @@ team: Segment Groups
 categories:
  - Awards
  - 5-Years
+date: 2019-04-05 09:00:00+00:00
 image:
   featured: true
   path: /assets/images/content/5years_bkgd.png
