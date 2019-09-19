@@ -24,8 +24,6 @@ jumbotron:
           - title: Learn More
             url: https://connect.linaro.org
       - title: Linaro works with Riscure to secure the TEE ecosystem
-        description: >
-          Linaro announces collaboration with Riscure to enable developers to deliver secure and robust TEE-based solutions.
         darken: true
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
