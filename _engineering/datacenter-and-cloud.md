@@ -53,7 +53,9 @@ flow:
             LDCG manages three lead projects - Server Architecture, Software Defined Infrastructure (SDI) and Big Data.
 
             - Server Architecture enables the foundational technologies for the Arm Server platform, from firmware, server board management, the Linux kernel and other key open source architecture components.
+
             - Software Defined Infrastructure enables the cloud revolution, and is the fundamental building block for the next generation of the datacenter.
+
             - Big Data was established as a Lead Project to make Arm64 a first class citizen in the Hadoop and Spark community, as well as a supported architecture for scale-out analytics."
       - format: text
         text_content:
@@ -61,6 +63,7 @@ flow:
             In addition to the Lead Projects, LDCG sponsors three Special Interest Groups (SIG). SIG’s allow for focused engineering effort on specific areas important to the members. Members of LDCG can automatically join any or all of the SIG’s. In addition, non LDCG companies and organisations can choose to join any of the SIG’s.
 
             - LHPCS Linaro High Performance Computing SIG
+
             - LSFS Linaro Server Firmware SIG
       - format: text
         text_content:
