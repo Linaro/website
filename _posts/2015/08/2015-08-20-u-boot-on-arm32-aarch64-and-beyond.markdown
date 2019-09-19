@@ -1,13 +1,15 @@
 ---
 author: linus.walleij
 categories:
-- blog
+  - blog
 comments: true
 date: 2015-08-20 16:14:21
-description: U-Boot became the de facto bootloader on most Arm systems during the
+description:
+  U-Boot became the de facto bootloader on most Arm systems during the
   early 2000s. What is the best bootloader to use for any one system is a subject
   of debate.
-excerpt: "U-Boot became the de facto bootloader on most Arm systems during the early
+excerpt:
+  "U-Boot became the de facto bootloader on most Arm systems during the early
   2000s.  What is the best bootloader to use for any one system is a subject of debate.
   There have been pushes to different \u201Cthere can be only one\u201D approaches,
   but the recent consensus is to \u201Cuse the right tool for the job\u201D  Learn
@@ -16,10 +18,10 @@ layout: post
 link: /blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
 slug: u-boot-on-arm32-aarch64-and-beyond
 tags:
-- Core Dump
-- AArch64
-- arm
-- U-Boot
+  - Core Dump
+  - AArch64
+  - arm
+  - U-Boot
 title: U-Boot on Arm32, AArch64 and beyond
 wordpress_id: 9094
 ---
@@ -53,7 +55,7 @@ Freescale’s submissions included fastmodel support, a specific customization k
 
 In order to load binary images into the emulated memory, so-called semihosting is used. This is basically a way for the code running on the emulator to talk directly to the emulator, i.e. for it to be aware that it is not running on real hardware. By issuing a parametrized HLT instruction, the code running in the model can ask for services, such as to retrieve files into the memory, from the emulator.
 
-When I started working on AArch64 support for U-Boot I augmented this code a bit so that we now have [a command called _smhload_](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=202a674bb8b7d7867503224857a2b0e04617d9b3) that will load a file into the emulated memory akin to how files are loaded from flash memory or over Ethernet+TFTP.
+When I started working on AArch64 support for U-Boot I augmented this code a bit so that we now have [a command called _smhload_ http://git.denx.de/?p=u-boot.git;a=commitdiff;h=202a674bb8b7d7867503224857a2b0e04617d9b3 that will load a file into the emulated memory akin to how files are loaded from flash memory or over Ethernet+TFTP.
 
 By working on the Foundation model, I could verify that execution and interactive prompt was working, and I could continue with support for real reference hardware.
 
@@ -66,27 +68,27 @@ At first the system would not boot at all - the Juno went catatonic. By instrume
 
 Freescale’s system had the ROM or similar mechanism enter U-Boot from both CPUs, and when it reached U-Boot all slave CPUs were immediately dispatched to a spin table while execution of the single-threaded U-Boot should continue on the primary CPU. However the branch_if_slave assembler macro would think all CPUs on the system were secondary CPUs.
 
-Since the Juno board was only initiating execution of the boot loader on the primary CPU, this problem was solved with [a patch making U-Boot assume single entrance](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=23b5877c64562a314f8d8c60d0066cd346f2d886) (i.e. only one CPU will execute it) and after this we got all the way to prompt. A special configuration symbol, ArmV8_MULTIENTRY was created for systems such as Freescale to select. This way single-entrance was made the norm.
+Since the Juno board was only initiating execution of the boot loader on the primary CPU, this problem was solved with [a patch making U-Boot assume single entrance http://git.denx.de/?p=u-boot.git;a=commitdiff;h=23b5877c64562a314f8d8c60d0066cd346f2d886 (i.e. only one CPU will execute it) and after this we got all the way to prompt. A special configuration symbol, ArmV8_MULTIENTRY was created for systems such as Freescale to select. This way single-entrance was made the norm.
 
-Now U-Boot was working to prompt at Juno hardware, so I could test loading a kernel by compiling in Y-modem binary loading support and uploading a kernel Image file and a device tree to the memory and start execution using Y-modem and boot it. It worked fine. [A patch for initial Juno support](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=ffc103732c82faa945c85bbb7c5c34c30b6fac72) was submitted upstream and merged.
+Now U-Boot was working to prompt at Juno hardware, so I could test loading a kernel by compiling in Y-modem binary loading support and uploading a kernel Image file and a device tree to the memory and start execution using Y-modem and boot it. It worked fine. [A patch for initial Juno support http://git.denx.de/?p=u-boot.git;a=commitdiff;h=ffc103732c82faa945c85bbb7c5c34c30b6fac72) was submitted upstream and merged.
 
-Uploading a big kernel and initramfs over the serial port at 115200 baud was quite tiresome, so I immediately started to get U-Boot to load kernels over the ethernet port, resulting in [a patch supporting SMSC9118 ethernet booting](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=b31f9d7a4aea23a8a9d007356a2b61e503e69daa). This was it is possible to quickly boot a kernel using ethernet and TFTP.
+Uploading a big kernel and initramfs over the serial port at 115200 baud was quite tiresome, so I immediately started to get U-Boot to load kernels over the ethernet port, resulting in [a patch supporting SMSC9118 ethernet booting http://git.denx.de/?p=u-boot.git;a=commitdiff;h=b31f9d7a4aea23a8a9d007356a2b61e503e69daa. This was it is possible to quickly boot a kernel using ethernet and TFTP.
 
 It was now quick and efficient to develop Linux using U-boot, especially if you compile in a boot script into the ethernet/TFTP boot so that all you really need to do it reset the machine and it would immediate download a new kernel from the TFTP server and run it.
 
-However it is nice to be able to flash a kernel and a filesystem into the on-board flash memory in the Juno and use that to just boot the machine, especially for demos and similar where you want to prepare the machine and just use it. Thus I also added flash support to the Juno, the tricky part being [a patch to handle the AFS partitions](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=4bb6650632a3e36185f689c56ea31f189ce39325) in the flash - this was a new Arm-specific flash image format that relies in footers in the end of the last erase block of the flash. After adding this, I could make [a patch making this the default boot method](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=10d1491b3dea43182aec5cdce8f81ca520400c4b) for the Juno, so the boot chain was self-contained on the device.
+However it is nice to be able to flash a kernel and a filesystem into the on-board flash memory in the Juno and use that to just boot the machine, especially for demos and similar where you want to prepare the machine and just use it. Thus I also added flash support to the Juno, the tricky part being [a patch to handle the AFS partitions http://git.denx.de/?p=u-boot.git;a=commitdiff;h=4bb6650632a3e36185f689c56ea31f189ce39325 in the flash - this was a new Arm-specific flash image format that relies in footers in the end of the last erase block of the flash. After adding this, I could make [a patch making this the default boot method http://git.denx.de/?p=u-boot.git;a=commitdiff;h=10d1491b3dea43182aec5cdce8f81ca520400c4b for the Juno, so the boot chain was self-contained on the device.
 
 **Future Directions**
 We now have pieced together a system that will start U-Boot from Arm Trusted Firmware and then have U-Boot load the Linux kernel and a device tree and start it. Are there problems remaining?
 
-  * One of the big outstanding issues are those where things are fragile because memory references need be hard-coded in U-Boot or Arm Trusted Firmware. For example U-Boot currently [assumes that Arm TF will use 16MB](http://git.denx.de/?p=u-boot.git;a=commitdiff;h=303557089f3db253eaec6f38dece204fd154b6ac) of the DRAM memory. If the Arm TF change things around and use more or less memory, U-Boot needs to be reconfigured and recompiled. U-Boot on the other hand, will then pass whatever knowledge it has about the memory to the Linux kernel by augmenting the device tree. So if Arm TF could communicate the memory available to U-Boot and the OS this would be great.
+- One of the big outstanding issues are those where things are fragile because memory references need be hard-coded in U-Boot or Arm Trusted Firmware. For example U-Boot currently [assumes that Arm TF will use 16MB http://git.denx.de/?p=u-boot.git;a=commitdiff;h=303557089f3db253eaec6f38dece204fd154b6ac of the DRAM memory. If the Arm TF change things around and use more or less memory, U-Boot needs to be reconfigured and recompiled. U-Boot on the other hand, will then pass whatever knowledge it has about the memory to the Linux kernel by augmenting the device tree. So if Arm TF could communicate the memory available to U-Boot and the OS this would be great.
 
-  * U-Boot relies on prior boot stages such as Arm Trusted Firmware to install [PSCI handlers](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0022c/index.html), while on Armv7 this was usually done by augmenting U-Boot to do the same. Letting U-Boot install PSCI handlers is a bit bogus, since it is a piece of resident code left in memory after U-Boot has executed and not really “boot loader” code. U-Boot was augmented to compile these into a special memory area, copy them there and leave them around for the operating system to use later. Still there are people who might like to do this on Armv8 U-Boot, especially those not using Arm Trusted Firmware.
-  
-  * People apparently toy with the idea of booting U-Boot on bare metal, using a very small or no ROM nor Arm Trusted Firmware, letting U-Boot just execute immediately on the system. As U-Boot relies on something else to set up main memory and providing PSCI, this currently does not work. Doing this would require U-Boot to initialize memory and install PSCI handlers. It would also need to be small enough to execute from on-chip RAM.
-  
-  * Chain of trust booting with signed boot levels, signed U-Boot and a signed kernel image and a signed device tree, making an example of a totally locked-down system. The Flattened Image Tree (FIT) supported by U-Boot is likely the best way forward here, but requires U-Boot to access public key infrastructure to verify images unless you want to compile the public key directly into U-Boot, which is often not a good idea.
+- U-Boot relies on prior boot stages such as Arm Trusted Firmware to install [PSCI handlers]http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0022c/index.html, while on Armv7 this was usually done by augmenting U-Boot to do the same. Letting U-Boot install PSCI handlers is a bit bogus, since it is a piece of resident code left in memory after U-Boot has executed and not really “boot loader” code. U-Boot was augmented to compile these into a special memory area, copy them there and leave them around for the operating system to use later. Still there are people who might like to do this on Armv8 U-Boot, especially those not using Arm Trusted Firmware.
 
-  * Fastboot - the Android boot protocol used by the Little Kernel, exists in U-Boot but has not been tested or verified. It can use USB or Ethernet alike.
-  
-  * More hardware support - such as booting from the USB stick or MMC/SD card found in the Juno board. This was not covered by the experimental port.
+- People apparently toy with the idea of booting U-Boot on bare metal, using a very small or no ROM nor Arm Trusted Firmware, letting U-Boot just execute immediately on the system. As U-Boot relies on something else to set up main memory and providing PSCI, this currently does not work. Doing this would require U-Boot to initialize memory and install PSCI handlers. It would also need to be small enough to execute from on-chip RAM.
+
+- Chain of trust booting with signed boot levels, signed U-Boot and a signed kernel image and a signed device tree, making an example of a totally locked-down system. The Flattened Image Tree (FIT) supported by U-Boot is likely the best way forward here, but requires U-Boot to access public key infrastructure to verify images unless you want to compile the public key directly into U-Boot, which is often not a good idea.
+
+- Fastboot - the Android boot protocol used by the Little Kernel, exists in U-Boot but has not been tested or verified. It can use USB or Ethernet alike.
+
+- More hardware support - such as booting from the USB stick or MMC/SD card found in the Juno board. This was not covered by the experimental port.
