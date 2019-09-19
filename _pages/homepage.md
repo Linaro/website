@@ -27,6 +27,7 @@ jumbotron:
         darken: true
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
+        description: ""
         buttons:
           - title: Read Press Release
             url: /news/linaro-works-with-riscure-to-secure-the-tee-ecosystem/
