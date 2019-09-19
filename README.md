@@ -2,7 +2,7 @@
 
 This is the git repository for Linaro's static Jekyll-based website (https://www.linaro.org).
 
-Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a 
+Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a
 PR](https://github.com/linaro/website/pulls) / [Issue](https://github.com/Linaro/website/issues/new) if there is anything you would like to change.
 
 This static Jekyll site is using the [`jumbo-jekyll-theme`](https://github.com/linaro-marketing/jumbo-jekyll-theme). Please take a moment to review the guides on the [theme's GitHub wiki](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki).
@@ -71,7 +71,7 @@ event: true
 
 ### Adding Connect Events
 
-Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified 
+Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified
 in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
 
 ```yaml
