@@ -31,6 +31,14 @@ jumbotron:
         buttons:
           - title: Read Press Release
             url: /news/linaro-works-with-riscure-to-secure-the-tee-ecosystem/
+      - title: Join us at the Arm NN Workshop at Linaro Connect San Diego 2019
+        darken: true
+        slide-style: "background-position-y: bottom;"
+        image: /assets/images/content/machine_intelligence_cover.jpg
+        description: ""
+        buttons:
+          - title: Find out more
+            url: https://mlplatform.org/blog/join-us-at-the-arm-nn-workshop-linaro-connect-san-diego-2019/
 flow:
   - row: custom_include_row
     source: home/collaborative-engineering.html
