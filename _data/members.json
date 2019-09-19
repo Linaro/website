@@ -94,11 +94,6 @@
                 "url": "/membership/cypress/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
-                "name": "Kylin",
-                "url": "/membership/kylin/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
                 "name": "Xilinx",
                 "url": "/membership/xilinx/"
@@ -128,23 +123,6 @@
     },
     {
         "id": "community",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/ibm.jpg",
-                "name": "IBM",
-                "url": "/membership/ibm/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/linux-foundation.jpg",
-                "name": "Linux Foundation",
-                "url": "/membership/linux-foundation/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/foundries-io.jpg",
-                "name": "Foundries.io",
-                "url": "/membership/foundries-io/"
-            }
-        ],
         "membership_group_name": "Community Members",
         "url": "/membership/"
     },
@@ -304,11 +282,6 @@
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "url": "/membership/socionext/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
-                "name": "Kylin",
-                "url": "/membership/kylin/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
