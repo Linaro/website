@@ -94,11 +94,6 @@
                 "url": "/membership/cypress/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
-                "name": "Kylin",
-                "url": "/membership/kylin/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
                 "name": "Xilinx",
                 "url": "/membership/xilinx/"
@@ -111,41 +106,6 @@
         ],
         "membership_group_name": "Group Members",
         "text": "Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro\u2019s work in that segment. Below are lists of the members of each group.",
-        "url": "/membership/"
-    },
-    {
-        "id": "associate",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/gcc.jpg",
-                "name": "Green Computing Consortium Laboratory",
-                "url": "/membership/gcc/"
-            }
-        ],
-        "membership_group_name": "Associates",
-        "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
-        "url": "/membership/"
-    },
-    {
-        "id": "community",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/ibm.jpg",
-                "name": "IBM",
-                "url": "/membership/ibm/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/linux-foundation.jpg",
-                "name": "Linux Foundation",
-                "url": "/membership/linux-foundation/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/foundries-io.jpg",
-                "name": "Foundries.io",
-                "url": "/membership/foundries-io/"
-            }
-        ],
-        "membership_group_name": "Community Members",
         "url": "/membership/"
     },
     {
@@ -304,11 +264,6 @@
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "url": "/membership/socionext/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/kylin.jpg",
-                "name": "Kylin",
-                "url": "/membership/kylin/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
