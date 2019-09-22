@@ -109,17 +109,6 @@
         "url": "/membership/"
     },
     {
-        "id": "associate",
-        "membership_group_name": "Associates",
-        "text": "Becoming a Linaro associate is a low-cost route for ecosystem companies to participate in the activities of a Linaro group steering committee, gain access to the group roadmap, and get directly involved in engineering activities.",
-        "url": "/membership/"
-    },
-    {
-        "id": "community",
-        "membership_group_name": "Community Members",
-        "url": "/membership/"
-    },
-    {
         "id": "ledge-sig",
         "members": [
             {
