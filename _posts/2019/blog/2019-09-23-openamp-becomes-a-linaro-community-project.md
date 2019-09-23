@@ -2,8 +2,6 @@
 layout: post
 title: OpenAMP becomes a Linaro Community Project
 date: '2019-09-23 01:00:00'
-image:
-  path: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 tags:
   - Arm
   - Linux
