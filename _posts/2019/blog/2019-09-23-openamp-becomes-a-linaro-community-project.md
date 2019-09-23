@@ -9,6 +9,7 @@ tags:
   - Collaborative Engineering
   - Linaro
 category: Blog
+image: /assets/images/content/openampproject-cover.png
 author: linaro
 ---
 Earlier today, the OpenAMP Project joined the Linaro Community Projects Division, the division of Linaro managing open source community projects, including Trusted Firmware and devicetree. The OpenAMP project aims to standardize interactions between operating environments in a heterogenous embedded system through open source solutions.
