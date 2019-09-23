@@ -23,6 +23,7 @@ jumbotron:
           - title: Learn More
             url: /news/nxp-joins-as-a-club-member/
       - title: OpenAMP project joins the Linaro Community Projects division
+        description: ""
         darken: true
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/openampproject-web-banner.png
@@ -30,6 +31,7 @@ jumbotron:
           - title: Learn More
             url: https://www.openampproject.org/news/openamp-project-joins-the-linaro-community-projects-division/
       - title: Linaro donates OP-TEE into the Trusted Firmware Project
+        description: ""
         darken: true
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
@@ -38,6 +40,7 @@ jumbotron:
             url: /news/linaro-donates-op-tee-into-the-trusted-firmware-project/
       - title: Linaro works with Riscure to secure the TEE ecosystem
         darken: true
+        description: ""
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
         description: ""
