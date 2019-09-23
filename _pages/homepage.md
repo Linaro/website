@@ -13,16 +13,29 @@ jumbotron:
         slide-style: "background-position-y: bottom;"
         darken: true
         image: /assets/images/content/hkg18-tech-banner.jpg
-      - inner-image: /assets/images/content/san19_logo.png
-        class: san19_banner
+      - title: NXP Becomes Club Member of Linaro
         description: >
-          Linaro Connect San Diego will be held from 23-27 September 2019 at Paradise Point, San Diego, California.
+          Linaro announces that NXP Semiconductors® has joined Linaro as a Club member.
         darken: true
         slide-style: "background-position-y: bottom;"
-        image: /assets/images/content/san19_banner.jpg
+        image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
         buttons:
           - title: Learn More
-            url: https://connect.linaro.org
+            url: /news/nxp-joins-as-a-club-member/
+      - title: OpenAMP project joins the Linaro Community Projects division
+        darken: true
+        slide-style: "background-position-y: bottom;"
+        image: /assets/images/content/openampproject-web-banner.png
+        buttons:
+          - title: Learn More
+            url: https://www.openampproject.org/news/openamp-project-joins-the-linaro-community-projects-division/
+      - title: Linaro donates OP-TEE into the Trusted Firmware Project
+        darken: true
+        slide-style: "background-position-y: bottom;"
+        image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
+        buttons:
+          - title: Learn More
+            url: /news/linaro-donates-op-tee-into-the-trusted-firmware-project/
       - title: Linaro works with Riscure to secure the TEE ecosystem
         darken: true
         slide-style: "background-position-y: bottom;"
