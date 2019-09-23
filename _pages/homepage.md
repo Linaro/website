@@ -25,6 +25,8 @@ jumbotron:
       - title: OpenAMP project joins the Linaro Community Projects division
         description: ""
         darken: true
+        class: inner-image
+        inner-image: /assets/images/content/openAMP_combobox_dark.svg
         slide-style: "background-position-y: bottom;"
         image: /assets/images/content/openampproject-web-banner.png
         buttons:
