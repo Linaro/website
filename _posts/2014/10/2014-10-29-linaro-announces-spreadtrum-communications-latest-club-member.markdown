@@ -41,4 +41,4 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 Spreadtrum Communications (Shanghai) Co., Ltd. (“Spreadtrum”) is a fabless semiconductor company that develops mobile chipset platforms for smart phones, feature phones and other consumer electronics products, supporting 2G, 3G and 4G wireless communications standards.  Spreadtrum’s solutions combine its highly integrated, power-efficient chipsets with customizable software and reference designs in a complete turnkey platform, enabling customers to achieve faster design cycles with a lower development cost.  Spreadtrum’s customers include global and China-based manufacturers developing mobile products for consumers in China and emerging markets around the world. Spreadtrum Communications, Inc. is a privately held company headquartered in Shanghai and an affiliate of Tsinghua Unigroup, Ltd.
 
-For more information, please visit  [www.spreadtrum.com](http://www.spreadtrum.com)
+For more information, please visit - www.spreadtrum.com
