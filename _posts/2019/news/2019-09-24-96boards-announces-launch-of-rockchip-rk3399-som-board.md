@@ -11,7 +11,7 @@ tags:
 category: News
 author: linaro
 ---
-Linaro Ltd and 96Boards Manufacturing Partner Geniatech today announced the launch of another Rockchip RK3399 Board and Carrier Board.
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Manufacturing Partner Geniatech today announced the launch of another Rockchip RK3399 Board and Carrier Board.
 
 The module adopts the [96Board Computing SOM specification launched in April 2019](https://www.linaro.org/news/linaro-announces-launch-of-96boards-system-on-module-som-specification/). The SOM specification is based on a standard form factor and is compatible across SoCs. This means more choice and flexibility for developers, who can seamlessly plug and play between a range of different SOM solutions. The launch of the RK3399 provides yet another SOM solution, delivering low power consumption and high efficiency, with a CPU frequency up to 1.8 GHZ and excellent image processing ability. The RK3399 SOM can also be combined with the carrier board to form a complete industrial application motherboard, which can be applied in various embedded Internet of Things fields. Boards can be purchased directly from Geniatech’s website [https://www.geniatech.com/product/som3399/](https://www.geniatech.com/product/som3399/). 
 
