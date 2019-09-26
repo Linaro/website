@@ -286,10 +286,10 @@ To help identify Hangout participants, we ask that you install the [Lower Third]
 
 {% include image.html name="hangout-7.png" alt="Screenshot showing how to enable the Lower Third app in a Hangout" %}
 
-We also ask you join the Freenode IRC channel #linaro-connect ([webchat](http://webchat.freenode.net/) available) where you can post questions and add comments as you like. We'll be adding meeting minutes as we go to [Etherpad documents](http://pad.linaro.org/zXeyEakj4V) also linked to from the session event entries.
+We also ask you join the Freenode IRC channel #linaro-connect ([webchat](http://webchat.freenode.net/) available) where you can post questions and add comments as you like.
 
 ## What If I Can't Make It?
 
-All sessions will be broadcast live and recorded in the [Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA?feature=mhee), where they can be viewed later. Session minutes, including the IRC transcript, will be [stored in Etherpad](http://pad.linaro.org/zXeyEakj4V) and linked from the video description and the event entry.
+All sessions will be broadcast live and recorded in the [Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA?feature=mhee), where they can be viewed later.
 
 And if you liked the experience, pen in the dates for the next, non-virtual, Linaro Connect, which will [be in Copenhagen](https://connect.linaro.org/resources/) during the week of October 29th, co-hosted with [UDS]()http://uds.ubuntu.com/. See you all there, and thanks!
