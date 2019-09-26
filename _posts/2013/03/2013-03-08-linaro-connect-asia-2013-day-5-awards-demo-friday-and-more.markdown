@@ -46,13 +46,13 @@ The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can 
 ## Schedule of Events - Day 5 - Friday - 8 March 2013
 
 
-**08:30:** [LCA-13 Awards](http://lca-13.zerista.com/event/member/72406) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/LCA-13-Awards)) ([Google+ Event Listing](https://plus.google.com/events/ct4jasvd012f89ua3khav32b118))
+**08:30:** [LCA-13 Awards](http://lca-13.zerista.com/event/member/72406) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/events/ct4jasvd012f89ua3khav32b118))
 
-**09:00: **[Arm Enterprise Server: Assembly Dependencies](http://lca-13.zerista.com/event/member/72370) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Etherpad](http://pad.linaro.org/Arm-Enterprise-Server-Assembly-Dependencies)) ([Google+ Event Listing](https://plus.google.com/events/ch5tsqm0s8g4nin5gvvilnkr5os))
-**09:00: **[PLATFORM BUFFER BBI](http://lca-13.zerista.com/event/member/72378) /[Kernel CI and Releases](http://lca-13.zerista.com/event/member/72351)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad](http://pad.linaro.org/PLATFORM-BUFFER-BBI-Kernel-CI-and-Releases)) ([Google+ Event Listing](https://plus.google.com/events/cujj99sfv9unscelpjfui67e170))
-**09:00:** [Toolchain Working Group Wrapup](http://lca-13.zerista.com/event/member/72373) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/12easrG)) ([Etherpad](http://pad.linaro.org/Toolchain-Working-Group-Wrapup)) ([Google+ Event Listing](https://plus.google.com/events/c05ilfajtisg558d2nbdqas0fhg))
+**09:00: **[Arm Enterprise Server: Assembly Dependencies](http://lca-13.zerista.com/event/member/72370) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/events/ch5tsqm0s8g4nin5gvvilnkr5os))
+**09:00: **[PLATFORM BUFFER BBI](http://lca-13.zerista.com/event/member/72378) /[Kernel CI and Releases](http://lca-13.zerista.com/event/member/72351)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://plus.google.com/events/cujj99sfv9unscelpjfui67e170))
+**09:00:** [Toolchain Working Group Wrapup](http://lca-13.zerista.com/event/member/72373) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/12easrG))  ([Google+ Event Listing](https://plus.google.com/events/c05ilfajtisg558d2nbdqas0fhg))
 
-**10:00:** [Testing Networking Code in LAVA/CI](http://lca-13.zerista.com/event/member/72458) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad)](http://pad.linaro.org/Testing-Networking-Code-in-LAVA-CI) ([Google+ Event)](https://plus.google.com/events/cibu4hifa8c18q5dujd3dlsdit8)
+**10:00:** [Testing Networking Code in LAVA/CI](http://lca-13.zerista.com/event/member/72458) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event)](https://plus.google.com/events/cibu4hifa8c18q5dujd3dlsdit8)
 
 
 ## Demo Friday
