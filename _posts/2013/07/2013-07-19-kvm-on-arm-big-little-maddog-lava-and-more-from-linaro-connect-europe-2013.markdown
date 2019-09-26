@@ -237,7 +237,7 @@ If you’re looking for a particular session or maybe you missed the live stream
   * **9:00 AM - 10:00 AM** - [Test and Validation Summit:  Evolution of Testing in Linaro(I) ](http://lce-13.zerista.com/event/member/79630))http://pad.linaro.org/p/Test_and_Validation_Summit__Evolution_of_Testing_in_Linaro_(I) [Google+ Event Listing](https://plus.google.com/u/0/events/cq91eakaiibic3u0a5h95ossfho), [Video (YouTube),](http://youtu.be/59i6Zblr6cg) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Test%20and%20Validation%20Summit-%20Evolution%20of%20Testing%20in%20Linaro%20%2528I%2529.mp4),[ Presentation](https://www.slideshare.net/linaroorg/03-summit-sessions1and2final)
 
 
-  * **9:00 AM - 10:00 AM** - [Android Graphics Upstreaming](http://lce-13.zerista.com/event/member/79632), [Etherpad,](http://pad.linaro.org/p/LCE13_Android_Graphics_UPstreaming) [Google+ Event Listing](https://plus.google.com/u/0/events/cg3jav0t014url4kagaruff2170), [Video (YouTube),](http://youtu.be/DA3fmzUC-Jk) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Android%20Graphics%20Upstreaming.mp4), [Presentation](https://www.slideshare.net/linaroorg/android-graphicsupstreamingv2)
+  * **9:00 AM - 10:00 AM** - [Android Graphics Upstreaming](http://lce-13.zerista.com/event/member/79632), [Google+ Event Listing](https://plus.google.com/u/0/events/cg3jav0t014url4kagaruff2170), [Video (YouTube),](http://youtu.be/DA3fmzUC-Jk) [Video (Linaro Server)](http://people.linaro.org/linaro-connect/lce13/videos/9_July_2013_Tuesday/Android%20Graphics%20Upstreaming.mp4), [Presentation](https://www.slideshare.net/linaroorg/android-graphicsupstreamingv2)
 
 
 
