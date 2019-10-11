@@ -109,7 +109,7 @@
         "url": "/membership/"
     },
     {
-        "id": "ledge-sig",
+        "id": "ledge",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -142,7 +142,7 @@
                 "url": "/membership/socionext/"
             }
         ],
-        "membership_group_name": "LEDGE SIG Members",
+        "membership_group_name": "LEDGE Members",
         "text": "LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. \n\nCompanies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.",
         "url": "/engineering/edge-and-fog-computing/"
     },
