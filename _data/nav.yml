@@ -16,9 +16,30 @@ brand:
     url: /
 pages:
     - title: About
+      left: true
       options:
           - text: Overview
             url: /about/
+          - text: Engineering
+            options:
+                - text: Overview
+                  url: /engineering/
+                - text: Core Engineering on Arm
+                  url: /engineering/core/
+                - text: Datacenter & Cloud
+                  url: /engineering/datacenter-and-cloud/
+                - text: Edge & Fog Computing
+                  url: /engineering/edge-and-fog-computing/
+                - text: Consumer
+                  url: /engineering/consumer/
+                - text: IoT & Embedded
+                  url: /engineering/iot-and-embedded/
+                - text: Autonomous Vehicles
+                  url: /engineering/autonomous-vehicles/
+                - text: Artificial Intelligence
+                  url: /engineering/artificial-intelligence/
+                - text: High Performance Computing
+                  url: /engineering/high-performance-computing/
           - text: Team
             options:
                 - text: The Team
@@ -31,51 +52,20 @@ pages:
                   url: /about/team/technical-steering-committee/
                 - text: Awards
                   url: /awards/
-          - text: Join Us
+          - text: News & Events
+            options:
+              - text: News
+                url: /news/
+              - text: Events
+                url: /events/
+              - text: Blog
+                url: /blog/
+          - text: Careers
             url: /about/join-us/
           - text: Contact Us
             url: /contact/
     - title: Membership
       url: /membership/
-    - title: Engineering
-      left: true
-      options:
-          - text: Overview
-            url: /engineering/
-          - text: Core Engineering on Arm
-            options:
-                - text: Overview
-                  url: /engineering/core/
-                - text: Kernel Validation
-                  url: /engineering/core/kernel-validation-and-testing/
-                - text: Core Technologies & Tools
-                  url: /engineering/core/ctt/
-                - text: Toolchain
-                  url: /engineering/core/toolchain/
-                - text: Kernel
-                  url: /engineering/core/kernel/
-                - text: Arm Power Management
-                  url: /engineering/core/arm-power-management/
-                - text: Security
-                  url: /engineering/core/security/
-                - text: Devicetree Evolution
-                  url: /engineering/core/devicetree-evolution/
-          - text: Datacenter & Cloud
-            url: /engineering/datacenter-and-cloud/
-          - text: Edge & Fog Computing
-            url: /engineering/edge-and-fog-computing/
-          - text: Consumer
-            url: /engineering/consumer/
-          - text: IoT & Embedded
-            url: /engineering/iot-and-embedded/
-          - text: Autonomous Vehicles
-            url: /engineering/autonomous-vehicles/
-          - text: Artificial Intelligence
-            url: /engineering/artificial-intelligence/
-          - text: High Performance Computing
-            url: /engineering/high-performance-computing/
-          # - text: Upstream Projects
-          #   url: /engineering/projects/
     - title: Services
       options:
           - text: Overview
@@ -100,25 +90,17 @@ pages:
             url: /services/testing-validation-services/
           - text: Hands on Training
             url: /services/hands-on-training/
-    - title: Support
-      url: /support/
-    - title: Downloads
-      left: true
+    - title: Developer Resources
       options:
           - text: Downloads
             url: /downloads/
+          - text: Developers
+            url: /developers/
           - text: Security Downloads
             url: /downloads/security/
-    - title: Latest
-      left: true
-      options:
-          - text: Resources
-            url: /resources/
-          - text: News
-            url: /news/
-          - text: Blog
-            url: /blog/
-          - text: Events
-            url: /events/
-          - text: Planet
+          - text: Connect Resources
+            url: https://connect.linaro.org/resources/
+          - text: Planet Linaro
             url: /planet/
+    - title: Support
+      url: /support/
