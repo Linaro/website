@@ -22,24 +22,10 @@ pages:
             url: /about/
           - text: Engineering
             options:
+                - text: Overview
+                  url: /engineering/
                 - text: Core Engineering on Arm
-                  options:
-                      - text: Overview
-                        url: /engineering/core/
-                      - text: Kernel Validation
-                        url: /engineering/core/kernel-validation-and-testing/
-                      - text: Core Technologies & Tools
-                        url: /engineering/core/ctt/
-                      - text: Toolchain
-                        url: /engineering/core/toolchain/
-                      - text: Kernel
-                        url: /engineering/core/kernel/
-                      - text: Arm Power Management
-                        url: /engineering/core/arm-power-management/
-                      - text: Security
-                        url: /engineering/core/security/
-                      - text: Devicetree Evolution
-                        url: /engineering/core/devicetree-evolution/
+                  url: /engineering/core/
                 - text: Datacenter & Cloud
                   url: /engineering/datacenter-and-cloud/
                 - text: Edge & Fog Computing
@@ -79,7 +65,7 @@ pages:
           - text: Contact Us
             url: /contact/
     - title: Membership
-      url: /products/
+      url: /membership/
     - title: Services
       options:
           - text: Overview
