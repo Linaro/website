@@ -92,10 +92,10 @@ pages:
             url: /services/hands-on-training/
     - title: Developer Resources
       options:
+          - text: Get Involved
+            url: /developers/
           - text: Downloads
             url: /downloads/
-          - text: Developers
-            url: /developers/
           - text: Security Downloads
             url: /downloads/security/
           - text: Connect Resources
