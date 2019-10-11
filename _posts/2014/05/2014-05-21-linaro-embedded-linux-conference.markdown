@@ -19,7 +19,7 @@ wordpress_id: 5861
 
 {% include image.html name="Linus-photo-527x-622.jpg" alt="Linus Walleij" class="medium-inline right"%}
 
-Linux Foundation held their annual Embedded Linux Conference (ELC) at the beginning of May. Linaro had many speakers at this event covering sessions with topics including “Android without Java”, “Improving performance of key external projects used in Android”, “Debugging – Linux Kernel testing”, “What’s going on with SPI”, “Kernel USB gadget configsfs Interface” and a talk that I gave titled “[Fear and Loathing in the media transfer protocol”.](http://events.linuxfoundation.org/sites/events/files/slides/Media%20Transfer%20Protocol.pdf)
+Linux Foundation held their annual Embedded Linux Conference (ELC) at the beginning of May. Linaro had many speakers at this event covering sessions with topics including “Android without Java”, “Improving performance of key external projects used in Android”, “Debugging – Linux Kernel testing”, “What’s going on with SPI”, “Kernel USB gadget configsfs Interface” and a talk that I gave titled “[Fear and Loathing in the media transfer protocol”.](https://elinux.org/images/8/85/Media_Transfer_Protocol.pdf)
 
 ELC was an intense event as would be expected with companies from all strands of things Linux Embedded meeting up to define the state of the embedded Linux world and direction forward for the industry.
 
