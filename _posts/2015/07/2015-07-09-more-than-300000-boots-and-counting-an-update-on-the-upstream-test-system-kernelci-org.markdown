@@ -128,6 +128,6 @@ When the 96boards arrive, both physically and as support also arrives in the ups
 
   * Boot failure bug tracker: [https://github.com/kernelci/kernel-bugs/issues](https://github.com/kernelci/kernel-bugs/issues)
   * Kernel build report mailing list: [https://lists.linaro.org/mailman/listinfo/kernel-build-reports](https://lists.linaro.org/mailman/listinfo/kernel-build-reports)
-  * kernelci.org wiki: [http://wiki.kernelci.org](http://wiki.kernelci.org)
+  * kernelci.org wiki: [https://github.com/kernelci/kernelci-doc/wiki/KernelCI](https://github.com/kernelci/kernelci-doc/wiki/KernelCI)
   * kernelci.org api: [http://api.kernelci.org](http://api.kernelci.org)
   * kernelci.org frontend: [http://kernelci.org/](http://kernelci.org/?May2015)
