@@ -59,7 +59,7 @@ lists](http://lists.linaro.org/mailman/listinfo).
 contributions, written by Paul McKenney, [RCU](http://www.rdrop.com/users/paulmck/RCU/ "Introduction to RCU")
 Maintainer and member of Linaro’s OCTO.
 
-**Running Linaro on your hardware**
+**Running Linaro builds on your hardware**
 
 * There are two ways to get a Linaro build on your hardware. The fastest way is to grab a milestone image and
 “dd” it to your SD card. If you’d like a little more customization of things like filesystem type, then you can
@@ -68,7 +68,7 @@ how to pick a hardware pack, root filesystem, and then install them using Linaro
 includes an up-to-date list of what hardware is supported by our current builds. There is also a list of [low
 cost development boards](http://wiki-archive.linaro.org/Boards), with links to retailers.
 
-## Running Linaro without hardware
+## Running Linaro builds without hardware
 
 You can still experiment with Linaro builds even if you don’t have physical hardware. We have a quick guide to
 [using Qemu with Linaro builds](https://wiki-archive.linaro.org/Resources/HowTo/Qemu).
