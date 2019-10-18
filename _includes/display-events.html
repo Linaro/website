@@ -25,11 +25,13 @@
                 {% if post.description %}
                     <p class="flex-text">{{post.description}}</p>
                 {% endif %}
-                {% if post.has_resources %}
                 <p>
-                    <a href="{{post.url}}" class="btn btn-primary" role="button">View Resources</a>
+                    {% if post.has_resources %}
+                        <a href="{{post.url}}" class="btn btn-primary" role="button">View Resources</a>
+                    {% else %}
+                        <a href="{{post.url}}" class="btn btn-primary" role="button">More Info</a>
+                    {% endif %}
                 </p>
-                {% endif %}
             </div>
         </div>
     </div>
