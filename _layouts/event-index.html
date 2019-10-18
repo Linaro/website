@@ -3,9 +3,14 @@ layout: base
 css-package: events-blog
 js-package: events-blog
 ---
+{% if page.image.path %}
+    {% assign image_path = page.image.path %}
+{% elsif page.image contains "/assets/images/" %}
+    {% assign image_path = page.image %}
+{% endif %}
 <div id="header-container">
     <div class="row responsive-background background-image overlay" id="jumbotron"
-        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{page.image.path}}');">
+        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{image_path}}');">
         <div id="jumbotron-content" class=" flex-container">
             <div class="container flex-center" id="jumbotron-text">
                 <a href="/events/" class="btn btn-primary btn-sm all-events">
