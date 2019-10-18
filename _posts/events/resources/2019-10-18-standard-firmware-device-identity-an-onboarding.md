@@ -2,7 +2,7 @@
 author: linaro
 categories:
 - events
-- workshop
+- attended
 - third-edge-computing-forum
 comments: false
 event: third-edge-computing-forum

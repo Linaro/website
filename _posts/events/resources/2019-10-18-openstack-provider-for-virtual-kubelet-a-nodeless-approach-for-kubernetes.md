@@ -2,7 +2,7 @@
 author: linaro
 categories:
 - events
-- workshop
+- attended
 - open-infrastructure-summit-2019
 comments: false
 event: open-infrastructure-summit-2019
