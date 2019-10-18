@@ -11,7 +11,7 @@ date: '2019-10-18 09:00:00+00:00'
 event_url: https://www.fokus.fraunhofer.de/en/edge_computing_forum_2019
 title: 3rd Edge Computing Forum
 description: >-
-    The Linux Plumbers Conference is the premier event for developers working at all levels of the plumbing layer and beyond.  LPC 2018 is being held November 13-15 in Vancouver, BC, Canada. See below resources from Linaro Engineers that attended LPC2018.
+    As the Edge Computing market is estimated to generate a value of up to 19 Billion EUR by 2023, at the forum the latest technological approaches and their benefits in the area of Edge Computing will be presented to discuss open issues to build an industrial Edge-based ecosystem by making infrastructures interoperable, programmable, secure and easy to use.
 image: /assets/images/content/third-edge-computing-forum.png
 layout: event-index
 location: >
