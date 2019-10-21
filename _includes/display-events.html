@@ -33,10 +33,10 @@
                         {{post.date | date: "%A, %B %-d, %Y" }}
                     {% endif %}
                 </p>
+                <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
                 {% if post.description %}
                     <p class="flex-text">{{post.description}}</p>
                 {% endif %}
-                <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
                 <p>
                     {% if post.has_resources %}
                         <a href="{{post.url}}" class="btn btn-primary" role="button">View Resources</a>
