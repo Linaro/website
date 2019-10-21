@@ -106,3 +106,14 @@ span.event_tag {
     padding: 5px;
     font-weight: bold;
 }
+
+.thumbnail.done img, .thumbnail.done h3, .thumbnail.done .post_info, .thumbnail.done .description{
+    opacity: .5;
+}
+.row.events-row.flex-row {
+    margin-top: 20px;
+}
+
+#wrapper .events-row .thumbnail {
+    padding: 0px;
+}

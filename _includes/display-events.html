@@ -3,18 +3,21 @@
 
 {% for post in event_posts %}
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-    {% if post.event_type == "attend" %}
         {% assign event_date = post.event_date | date: '%s' %}
-        {% if event_date < nowunix %}
-            {% assign event_tag_text = "Attended" %}
-        {% else %}
-            {% assign event_tag_text = "Attending" %}
-        {% endif %}
-    {% else %}
         {% assign event_tag_text = post.event_type  | capitalize %}
-    {% endif %}
+        {% if event_date < nowunix %}
+            {% assign event_class = "done" %}
+            {% if post.event_type == "attend" %}
+                {% assign event_tag_text = "Attended" %}
+            {% endif %}
+        {% else %}
+            {% if post.event_type == "attend" %}
+                {% assign event_tag_text = "Attending" %}
+            {% endif %}
+            {% assign event_class = "upcoming" %}
+        {% endif %}
     <div class="col-xs-12 col-sm-4">
-        <div class="thumbnail">
+        <div class="thumbnail {{event_class}}">
             {% if post.image.path %}
                 {% assign image_path = post.image.path %}
             {% elsif post.image contains "/assets/images/" %}
@@ -37,7 +40,7 @@
                     <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
                 </p>
                 {% if post.description %}
-                    <p class="flex-text">{{post.description | truncate: 160 }}</p>
+                    <p class="description flex-text">{{post.description | truncate: 160 }}</p>
                 {% endif %}
                 <p>
                     {% if post.has_resources %}
