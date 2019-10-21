@@ -1,5 +1,16 @@
 <div class="row events-row flex-row">
 {% for post in paginator.posts %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% if post.event_type == "attend" %}
+        {% assign event_date = post.event_date | date: '%s' %}
+        {% if event_date < nowunix %}
+            {% assign event_tag_text = "Attended" %}
+        {% else %}
+            {% assign event_tag_text = "Attending" %}
+        {% endif %}
+    {% else %}
+        {% assign event_tag_text = post.event_tag  | capitalize %}
+    {% endif %}
     <div class="col-xs-12 col-sm-4">
         <div class="thumbnail">
             {% if post.image.path %}
@@ -11,6 +22,7 @@
             data-src="{{image_path}}"
             class="lazyload" alt="{{post.title}} image."/>
             <div class="caption">
+                <span class="event_tag {{post.event_tag}}">{{event_tag_text}}</span>
                 <h3>{{post.title}}</h3>
                 <p>
                     {% if post.event_date %}
