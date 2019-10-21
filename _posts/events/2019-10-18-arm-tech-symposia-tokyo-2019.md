@@ -8,6 +8,7 @@ event: arm-tech-symposia-tokyo-2019
 tag: event
 date: '2019-10-18 09:00:00+00:00'
 event_date: '2019-12-06 09:00:00+00:00'
+event_type: "attend"
 event_url: https://pages.arm.com/arm-tech-symposia-apac.html
 title: Arm Tech Symposia Tokyo 2019
 description: >-

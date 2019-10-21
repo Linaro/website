@@ -8,6 +8,7 @@ event: third-edge-computing-forum
 tag: event
 event_date: '2019-10-24 09:00:00+00:00'
 date: '2019-10-18 09:00:00+00:00'
+event_type: "attend"
 event_url: https://www.fokus.fraunhofer.de/en/edge_computing_forum_2019
 title: 3rd Edge Computing Forum
 description: >-

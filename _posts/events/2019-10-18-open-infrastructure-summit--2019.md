@@ -8,6 +8,7 @@ tag: event
 date: '2019-10-18 09:00:00+00:00'
 event_date: '2019-11-04 09:00:00+00:00'
 event_end_date: '2019-11-06 09:00:00+00:00'
+event_type: "attend"
 event_url: https://www.openstack.org/summit/shanghai-2019/
 title: Open Infrastrucutre Summit 2019
 description: >-
