@@ -7,5 +7,9 @@ image:
     path: /assets/images/content/yvr18-group-photo.jpg
     name: hpcworkshop2.png
 css-package: events-blog
+redirect_from:
+- /events/attended/
+- /events/workshops/
+- /events/workshop/
 _hide_content: true
 ---
