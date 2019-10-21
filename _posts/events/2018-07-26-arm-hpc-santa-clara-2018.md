@@ -8,6 +8,7 @@ categories:
 comments: false
 event: arm-hpc-santa-clara-2018
 date: '2018-07-26 09:00:00+00:00'
+event_date: '2018-07-26 09:00:00+00:00'
 css-package: arm-hpc-2018
 image:
    path: /assets/images/content/ArmHPCWorkshopSocialMedia.png
