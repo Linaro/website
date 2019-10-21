@@ -9,7 +9,7 @@
             {% assign event_tag_text = "Attending" %}
         {% endif %}
     {% else %}
-        {% assign event_tag_text = post.event_tag  | capitalize %}
+        {% assign event_tag_text = post.event_type  | capitalize %}
     {% endif %}
     <div class="col-xs-12 col-sm-4">
         <div class="thumbnail">
@@ -22,7 +22,6 @@
             data-src="{{image_path}}"
             class="lazyload" alt="{{post.title}} image."/>
             <div class="caption">
-                <span class="event_tag {{post.event_tag}}">{{event_tag_text}}</span>
                 <h3>{{post.title}}</h3>
                 <p>
                     {% if post.event_date %}
@@ -37,6 +36,7 @@
                 {% if post.description %}
                     <p class="flex-text">{{post.description}}</p>
                 {% endif %}
+                <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
                 <p>
                     {% if post.has_resources %}
                         <a href="{{post.url}}" class="btn btn-primary" role="button">View Resources</a>
