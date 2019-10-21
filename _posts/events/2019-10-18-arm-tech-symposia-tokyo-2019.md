@@ -13,7 +13,7 @@ title: Arm Tech Symposia 2019
 description: >-
     The Arm Tech Symposia is a global annual event designed to share with audience the first-hand market observation, the latest Arm technology roadmap, the up-to-date diverse Arm based devices and applications. This is also a platform where partners from over 1,000 Arm Community and ecosystem gather together demonstrating their products & solutions based on Arm, exchanging market intelligence and tackling the challenges.
 image: /assets/images/content/arm-tech-symposia-2019.png
-layout: page
+layout: jumbotron-container
 location: >
     Tokyo, Tokyo Conference Center Shinagawa
 jumbotron:
