@@ -6,19 +6,15 @@ description: Linaro attends, hosts and sponsors many events each year. See the e
 image:
     path: /assets/images/content/yvr18-group-photo.jpg
     name: hpcworkshop2.png
-pagination:
-    title: "All Events - Page :num"
-    enabled: true
-    trail:
-        before: 4
-        after: 4
-    category: events
-    tag: event
-    sort_field: 'event_date'
+# pagination:
+#     title: "All Events - Page :num"
+#     enabled: true
+#     trail:
+#         before: 4
+#         after: 4
+#     category: events
+#     tag: event
+#     sort_field: 'event_date'
 css-package: events-blog
-redirect_from:
-- /events/attended/
-- /events/workshops/
-- /events/workshop/
 _hide_content: true
 ---
