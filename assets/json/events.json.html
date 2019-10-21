@@ -5,7 +5,30 @@ permalink: /assets/json/events.json
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},
         "url": "{{ site.url }}{{ post.url }}",
+        {% if post.event_url %}
+        "event_url": "{{post.event_url}}",
+        {% endif %}
+        {% if post.event %}
+        "event_tag": "{{post.event}}",
+        {% endif %}
+        {% if post.description %}
+        "description": "{{post.description}}",
+        {% endif %}
         "summary": {{ post.excerpt | smartify | jsonify }},
+        {% if post.location %}
+        "location": "{{post.location}}",
+        {% endif %}
+        {% if post.event_date %}
+        "event_date": "{{post.event_date}}",
+        {% endif %}
+        {% if post.image contains "/assets/images/" %}
+        "image": "{{post.image}}",
+        {% elsif post.image.path %}
+        "image": "{{post.image.path}}",
+        {% endif %}
+        {% if post.event_end_date %}
+        "event_end_date": "{{post.event_end_date}}",
+        {% endif %}
         "date_published": "{{ post.date }}"
     }{% unless forloop.last == true %},{% endunless %}
     {% endif %}{% endfor %}]
