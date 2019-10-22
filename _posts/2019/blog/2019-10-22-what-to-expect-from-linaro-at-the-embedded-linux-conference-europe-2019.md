@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What to expect from Linaro at the Embedded Linux Conference (Europe) 2019
-date: '2019-10-22 12:48:58'
+date: '2019-10-22 10:48:58'
 image:
   path: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
