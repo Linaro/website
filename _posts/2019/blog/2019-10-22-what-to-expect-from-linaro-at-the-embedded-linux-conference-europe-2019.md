@@ -13,9 +13,8 @@ tags:
 category: Blog
 author: bill.fletcher
 ---
-
-
-Linaro will be exhibiting at ELC-E in Lyon next week, showing engineering solutions for the Arm Ecosystem and how we work with members to consolidate codebases in the ecosystem as a whole and in specific market segments.  
+Linaro will be exhibiting at ELC-E in Lyon next week, showing engineering solutions 
+for the Arm Ecosystem and how we work with members to consolidate codebases in the ecosystem as a whole and in specific market segments.  
 
 **On the Linaro stand we’ll be talking about:**
 
@@ -34,7 +33,7 @@ Linaro will be exhibiting at ELC-E in Lyon next week, showing engineering soluti
 
 You can find us, our members and projects on the following stands:
 
-**Linaro** - Stand B24
+**Linaro** - Stand B24
 
 **STMicroelectronics** - Stand P1
 
@@ -48,9 +47,10 @@ In addition to our booth presence, Andrea Gallo, VP of Membership Development fr
 
 Even if you can't make it to ELC-E:
 
-* Check out latest developments in our on-going open source projects at [linaro.org](www.linaro.org)
+* 
+
+Check out latest developments in our on-going open source projects at [linaro.org](www.linaro.org)
+
 * [Contact Linaro’s Developer Services](https://www.linaro.org/services/) even if you’re a non-Member to leverage Linaro’s expertise
 
-
-
-****
+- - -
