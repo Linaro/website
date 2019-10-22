@@ -49,7 +49,7 @@ Even if you can't make it to ELC-E:
 
 * 
 
-Check out latest developments in our on-going open source projects at [linaro.org](www.linaro.org)
+Check out latest developments in our on-going open source projects at [linaro.org](https://www.linaro.org)
 
 * [Contact Linaro’s Developer Services](https://www.linaro.org/services/) even if you’re a non-Member to leverage Linaro’s expertise
 
