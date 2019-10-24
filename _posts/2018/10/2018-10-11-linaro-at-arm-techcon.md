@@ -8,7 +8,7 @@ description: >-
 categories: Blog
 image:
   featured: true
-  path: /assets/images/blog/Opensourcecollaborationtshirt.jpg
+  path: /assets/images/content/arm-techcon-2018.jpg
 tags: Linaro, Arm, Synquacer, Machine Intelligence, Machine Learning, Arm NN, 96Boards, MiniNodes, Developer Box, Socionext, open source
 ---
 
@@ -46,4 +46,3 @@ Linaro’s VP of Engineering Mark Orvek will moderate a panel discussing whether
 Uniquely in the Arm ecosystem, there is the collision of two worlds: the well-established embedded world of often bespoke platforms, stacks, and tools, and the arriving world of open-source software frameworks, often originating on commodity hardware. This session looks at this collision and asks if this meeting of open source and proprietary innovation has to be a zero-sum game.
 
 Lots of Linaro activity at Arm Techcon - make sure to stop by!
-
