@@ -294,6 +294,7 @@
     "^/projects/bigdata(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
     "^/projects/reference-digital-media-platforms-for-arm(/?|/index.html)$ /engineering/groups/lcg/ [R,L,NC]",
     "^/projects(/?|/index.html)$ /engineering/ [R,L,NC]",
+    "^/process(/?|/index.html)$ https://collaborate.linaro.org/display/Proc/Engineering+Process [R,L,NC]",
     "^/redirected-service(/?|/index.html)$ / [R,L,NC]",
     "^/services-linux/bootloaders(/?|/index.html)$ /services/linux/bootloaders/ [R,L,NC]",
     "^/services-linux/linux-kernel(/?|/index.html)$ /services/linux/kernel/ [R,L,NC]",
