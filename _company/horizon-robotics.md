@@ -1,6 +1,7 @@
 ---
 title: Horizon Robotics
-description: Horizon Robotics is the leader of embedded Artificial Intelligence. The company is dedicated to providing integrated and open embedded Artificial Intelligence solutions of high performance, low power, and low cost.
+description: >
+    Horizon Robotics is the leader of embedded Artificial Intelligence. The company is dedicated to providing integrated and open embedded Artificial Intelligence solutions of high performance, low power, and low cost.
 company_image: https://static.linaro.org/common/member-logos/horizon-robotics.jpg
 ---
 With smart mobility, smart city and smart retail as main application scenarios, Horizon Robotics is dedicated to providing customers with open software platforms and application solutions based on its self-developed AI processors and algorithm is software. A variety of terminal devices are equipped with an AI "brain" that empowers them with the intelligence for perception, interaction, understanding and decision making.
