@@ -1,6 +1,8 @@
 ---
-title: NavInfo
-description: NavInfo is a China-based technology company leading the way to becoming the “digital brain of intelligent driving”
+title: >
+    NavInfo
+description: >
+    NavInfo is a China-based technology company leading the way to becoming the “digital brain of intelligent driving”
 company_image: https://static.linaro.org/common/member-logos/navinfo.jpg
 ---
 NavInfo is a China-based technology company leading the way to becoming the “digital brain of intelligent driving” with core businesses in HD map, high accuracy positioning and automotive-grade semiconductors for ADAS and autonomous driving. 

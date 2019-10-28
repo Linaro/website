@@ -1,6 +1,8 @@
 ---
-title: Element14
-description: As specialists in the design and development of embedded systems, element14’s expertise in hardware design and embedded software development has helped us become a trusted design partner to many of the world’s leading companies.
+title: >
+    Element14
+description: >
+    As specialists in the design and development of embedded systems, element14’s expertise in hardware design and embedded software development has helped us become a trusted design partner to many of the world’s leading companies.
 company_image: https://static.linaro.org/common/member-logos/element14.jpg
 ---
 As specialists in the design and development of embedded systems, element14’s expertise in hardware design and embedded software development has helped us become a trusted design partner to many of the world’s leading companies in the semiconductor, medical, aerospace, military, automotive, industrial and consumer markets.

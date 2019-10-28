@@ -1,6 +1,8 @@
 ---
-title: Shangahi Neucore Intelligent Technology Co Ltd.
-description: Neucore is a very creative, dynamic and young Artificial Intelligent company focused on computer vision and deep learning. We were founded in May, 2018 and located in Shanghai city, China.
+title: >
+    Shangahi Neucore Intelligent Technology Co Ltd.
+description: >
+    Neucore is a very creative, dynamic and young Artificial Intelligent company focused on computer vision and deep learning. We were founded in May, 2018 and located in Shanghai city, China.
 company_image: https://static.linaro.org/common/member-logos/neucore.jpg
 ---
 Neucore is a very creative, dynamic and young Artificial Intelligent company focused on computer vision and deep learning. We were founded in May, 2018 and located in Shanghai city, China.
