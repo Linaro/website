@@ -14,9 +14,9 @@ jumbotron:
         title-class: big-title
       - buttons:
           - title: Learn More
-            url: >-
-              /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
+            url: /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
         darken: true
+        description: ""
         title: Linaro contributes to the Zephyr Project becoming PSA certified
         image: /assets/images/content/city.jpg
       - buttons:
