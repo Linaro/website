@@ -1,6 +1,7 @@
 ---
 title: RoboSense (Suteng Innovation Technology Co. Ltd)
-description: RoboSense (Suteng Innovation Technology Co., Ltd.) is a world leading LiDAR environment perception solution provider.
+description: >
+    RoboSense (Suteng Innovation Technology Co., Ltd.) is a world leading LiDAR environment perception solution provider.
 company_image: https://static.linaro.org/common/member-logos/robosense.jpg
 ---
 RoboSense (Suteng Innovation Technology Co., Ltd.) is a world leading LiDAR environment perception solution provider.
