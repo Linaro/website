@@ -1,43 +1,48 @@
 ---
-layout: flow
+title: Accelerating deployment of Arm-based solutions
+description: Linaro accelerates deployment of Arm-based solutions
+permalink: /
 js-package: home
 css-package: home
-permalink: /
-edit-on-github: "false"
-title: Accelerating deployment of Arm-based solutions
+layout: flow
 jumbotron:
   slider:
     slides:
-      - title: Accelerating deployment of Arm-based solutions
-        title-class: big-title
-        slide-style: "background-position-y: bottom;"
-        darken: true
+      - darken: true
+        title: Accelerating deployment of Arm-based solutions
         image: /assets/images/content/hkg18-tech-banner.jpg
-      - title: NXP Becomes Club Member of Linaro
-        description: >
-          Linaro announces that NXP Semiconductors® has joined Linaro as a Club member.
+        title-class: big-title
+      - buttons:
+          - title: Learn More
+            url: /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
         darken: true
-        slide-style: "background-position-y: bottom;"
-        image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
-        buttons:
+        description: ""
+        title: Linaro contributes to the Zephyr Project becoming PSA certified
+        image: /assets/images/content/city.jpg
+      - buttons:
           - title: Learn More
             url: /news/nxp-joins-as-a-club-member/
-      - title: OpenAMP project joins the Linaro Community Projects division
-        description: ""
         darken: true
-        slide-style: "background-position-y: center;"
-        image: /assets/images/content/openampproject-web-banner.png
-        buttons:
+        title: NXP Becomes Club Member of Linaro
+        description: >
+          Linaro announces that NXP Semiconductors® has joined Linaro as a Club
+          member.
+        image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
+      - buttons:
           - title: Learn More
-            url: https://www.openampproject.org/news/openamp-project-joins-the-linaro-community-projects-division/
-      - title: Linaro donates OP-TEE into the Trusted Firmware Project
-        description: ""
+            url: >-
+              https://www.openampproject.org/news/openamp-project-joins-the-linaro-community-projects-division/
         darken: true
-        slide-style: "background-position-y: bottom;"
-        image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
-        buttons:
+        title: OpenAMP project joins the Linaro Community Projects division
+        description: ''
+        image: /assets/images/content/openampproject-web-banner.png
+      - buttons:
           - title: Learn More
             url: /news/linaro-donates-op-tee-into-the-trusted-firmware-project/
+        darken: true
+        title: Linaro donates OP-TEE into the Trusted Firmware Project
+        description: ''
+        image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
 flow:
   - row: custom_include_row
     source: home/collaborative-engineering.html
@@ -48,3 +53,4 @@ flow:
   - row: custom_include_row
     source: home/connect.html
 ---
+
