@@ -1,6 +1,7 @@
 ---
 title: CERN
-description: CERN's mission is research, innovation, collaboration and inspiration.
+description: >
+    CERN's mission is research, innovation, collaboration and inspiration.
 company_image: https://static.linaro.org/common/member-logos/cern.jpg
 ---
 CERN's mission is to:

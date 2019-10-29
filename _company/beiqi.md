@@ -1,6 +1,7 @@
 ---
 title: Xiamen Beiqi Technology Co. Ltd
-description: Beiqicloud is a complex high-tech enterprise specializing in the research, development, production and sales of intelligent terminals such as Internet intelligent hardware and communication products.
+description: >
+    Beiqicloud is a complex high-tech enterprise specializing in the research, development, production and sales of intelligent terminals such as Internet intelligent hardware and communication products.
 company_image: https://static.linaro.org/common/member-logos/beiqi.jpg
 ---
 Xiamen Beiqi Technology Co., Ltd. is registered capital of 10 million. Since its establishment in August 2015, Beiqicloud has been devoted to the development and innovation of AI intelligent products. Beiqicloud is a complex high-tech enterprise specializing in the research, development, production and sales of intelligent terminals such as Internet intelligent hardware and communication products.
