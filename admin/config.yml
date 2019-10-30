@@ -487,6 +487,7 @@ collections:
                 - label: "Slide Description"
                   name: "description"
                   required: false
+                  default: ""
                   widget: "text"
                 - label: "Title Class"
                   name: "title-class"
@@ -501,6 +502,7 @@ collections:
                 - label: "Darken"
                   name: "darken"
                   widget: "boolean"
+                  default: true
                   required: false
                   hint: "Adds the dark filter to the background image. This should usually be toggled."
                 - label: "Slide Image"
