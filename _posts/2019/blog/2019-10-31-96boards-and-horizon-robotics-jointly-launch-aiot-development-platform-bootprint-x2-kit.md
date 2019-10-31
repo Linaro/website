@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  96Boards and Horizon Robotics jointly launch AIoT development platform:
+  Linaro and Horizon Robotics jointly launch AIoT development platform:
   BOOTPRINT X2 kit
 date: '2019-10-31 11:48:43'
 image:
@@ -17,17 +17,17 @@ tags:
 category: News
 author: linaro
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Partner Horizon Robotics today announced the launch of the BOOTPRINT X2 kit. 
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Partner Horizon Robotics today announced the launch of the BOOTPRINT X2 kit. 96Boards is a range of hardware specifications created by Linaro to make the latest Arm-based processors available to developers at a reasonable cost. 
 
 BOOTPRINT X2 is an edge AI computing development platform integrating “front-end, edge and cloud”, providing a complete reference solution from device to cloud integration. The solution is based on the service interface of the public cloud, which is convenient for developers to leverage cloud resources to form a flexible AI solution. This not only greatly expands the ecological potential of the development platform, but also significantly accelerates the efficiency of application deployment. It provides AI engineers, application developers and partner companies with comprehensive support for development and verification of edge AI perception solution, helping them reduce total cost and time to market. 
 
-“The BOOTPRINT X2 Development Kit provides the AI development platform with comprehensive functions and a rich application software ecosystem,” said Dr. Yang Zhang, Director of 96Boards. “With the most powerful AI computing capability to date on the 96Boards.ai platform, we are looking forward to the developer community taking advantage of this kit for their AI enabled product development, in combination with multiple different SoCs.”
+“The BOOTPRINT X2 Development Kit provides the AI development platform with comprehensive functions and a rich application software ecosystem,” said Dr. Yang Zhang, Director of 96Boards. “With the most powerful AI computing capability to date on the 96Boards.ai platform, we are looking forward to the developer community taking advantage of this kit for their AI enabled product development, in combination with multiple different SoCs.”
 
-“Sunrise 2.0 edge AI processor, developed by Horizon Robotics, is the core of this kit“, said Zheng Zhitai, Chief Strategy Officer & Executive Vice President of Strategic Planning and Landing at Horizon Robotics. “It features the next-generation AI inference acceleration engine for the AIoT application, based on the second-generation BPU architecture (Bernoulli architecture). It has powerful video and voice perception capability and can efficiently and flexibly handle multiple AI task pipelines. It can also provide real-time detection and precise recognition of multi-object types. The target applications include but are not limited to smart city, retail, industry and education.” 
+“Sunrise 2.0 edge AI processor, developed by Horizon Robotics, is the core of this kit“, said Zheng Zhitai, Chief Strategy Officer & Executive Vice President of Strategic Planning and Landing at Horizon Robotics. “It features the next-generation AI inference acceleration engine for the AIoT application, based on the second-generation BPU architecture (Bernoulli architecture). It has powerful video and voice perception capability and can efficiently and flexibly handle multiple AI task pipelines. It can also provide real-time detection and precise recognition of multi-object types. The target applications include but are not limited to smart city, retail, industry and education.” 
 
-96Boards is a range of hardware specifications created by Linaro to make the latest Arm-based processors available to developers at a reasonable cost. BOOTPRINT X2 is based on 96Boards SoC independent open platform specification and uses the Horizon Sunrise 2.0 AI processor. It offers AI computing power equivalent to 4TOPS and is equipped with a rich peripheral interface, supporting dual 1080p camera inputs, symmetric binocular camera, 6 array microphones and a heterogeneous combination of infrared and visible light. The platform is equipped with 1GB LPDDR4 DRAM and 4GB eMMC flash memory, providing 96Boards standard compatibility, powerful and flexible scalability, and full connectivity to various modules, such as SoC, IO, displays, binocular cameras and audio from the 96Boards community. 
+BOOTPRINT X2 is based on 96Boards SoC independent open platform specification and uses the Horizon Sunrise 2.0 AI processor. It offers AI computing power equivalent to 4TOPS and is equipped with a rich peripheral interface, supporting dual 1080p camera inputs, symmetric binocular camera, 6 array microphones and a heterogeneous combination of infrared and visible light. The platform is equipped with 1GB LPDDR4 DRAM and 4GB eMMC flash memory, providing 96Boards standard compatibility, powerful and flexible scalability, and full connectivity to various modules, such as SoC, IO, displays, binocular cameras and audio from the 96Boards community. 
 
-The BOOTPRINT X2 development kit will be available soon in three models:
+The BOOTPRINT X2 development kit will be available soon in three models:
 
 ![Figure 1: Basic Version: BOOTPRINT X2 Kit](/assets/images/content/basic-version-bootprint-x2-kit.png "Figure 1: Basic Version: BOOTPRINT X2 Kit")
 
@@ -41,7 +41,7 @@ In addition to this, Horizon Robotics will also be launching a comprehensive eco
 
 With smart mobility, smart city and smart retail as the main application scenarios, Horizon Robotics is dedicated to providing customers with open software platforms and application solutions based on its self-developed AI processors and algorithm software. A variety of terminal devices are equipped with an AI “brain” that empowers them with the intelligence for perception, interaction, understanding and decision making.
 
-With world-leading capabilities for deep learning and decision-making algorithm development, Horizon Robotics integrates algorithms into high-performance, low-power and low-cost edge AI processors and computing platforms. In smart mobility, Horizon Robotics is the only start-up company in China which has established partnerships with Tier-1s and OEMs in all the top four global automotive markets (USA, Germany, Japan, and China). In smart city and smart retail, Horizon Robotics has collaborated with domestic partners to provide customized solutions to local authorities, manufacturing companies, shopping complexes and brand chain stores. Horizon Robotics is actively building an open edge AI ecosystem to work with upstream and downstream partners for joint development.
+With world-leading capabilities for deep learning and decision-making algorithm development, Horizon Robotics integrates algorithms into high-performance, low-power and low-cost edge AI processors and computing platforms. In smart mobility, Horizon Robotics is the only start-up company in China which has established partnerships with Tier-1s and OEMs in all the top four global automotive markets (USA, Germany, Japan, and China). In smart city and smart retail, Horizon Robotics has collaborated with domestic partners to provide customized solutions to local authorities, manufacturing companies, shopping complexes and brand chain stores. Horizon Robotics is actively building an open edge AI ecosystem to work with upstream and downstream partners for joint development.
 
 **Linaro**
 
