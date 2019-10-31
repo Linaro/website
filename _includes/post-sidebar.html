@@ -1,14 +1,14 @@
 {% comment %}
 Recent Posts Displayed here.
 {% endcomment %}
-<div class="col-xs-12 no-padding">
+<div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding">
 
     <div class="panel panel-primary" class="blog-sidebar">
         <div class="panel-heading">
             <h3 class="panel-title text-center">Recent Posts</h3>
         </div>
         <div class="panel-body">
-            {% for post in site.posts limit: 3 %}
+            {% for post in site.posts limit: 5 %}
             {% assign timeframe = 604800 %}
             {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
             {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
