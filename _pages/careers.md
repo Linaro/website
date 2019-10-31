@@ -13,6 +13,10 @@ jumbotron:
         - /assets/images/content/careers-image-4.jpg
         - /assets/images/content/yvr18-group-photo.jpg
         - /assets/images/content/careers-image-3.jpg
+    buttons:
+      - title: Job Vacancies
+        url: "#careers"
+        class: btn btn-primary sliding-link
 flow:
     - row: custom_include_row
       source: careers_section.html
