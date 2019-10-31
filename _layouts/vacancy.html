@@ -7,7 +7,20 @@ layout: base
         <h3>Summary</h3>
         <div class="well well-lg">
             {{page.description}}
+            {% if page.duration %}<strong>Duration: </strong>{{page.duration}}{% endif %}
+            {% if page.allowances %}<strong>Allowances: </strong>{{page.allowances}}{% endif %}
+            {% if page.location %}<strong>Location: </strong>{{page.location}}{% endif %}
+            <strong>Listed on: </strong>{{page.date | date: "%A, %B %-d, %Y"}}
         </div>
+        {% if page.qualifications %}
+        <h3>Qualifications</h3>
+        <ul>
+            {% for entry in page.qualifications %}
+                <li>{{entry.title}} {% if entry.required %}<span class="required">* Required</span>{% endif %}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        <h3>Full Details</h3>
         {{content}}
     </div>
 </div>
