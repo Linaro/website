@@ -7,6 +7,9 @@ qualifications:
     - title: Computer Science and Engineering Degree
       required: true
 allowances: 1200€ (gross)/month
+location: Le Mans, France
+date: 2019-10-31 09:00:00+00:00
+published: true
 ---
 Goals:  The internship will be divided into several phases:
 
