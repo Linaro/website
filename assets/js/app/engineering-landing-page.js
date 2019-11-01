@@ -27,13 +27,16 @@ function createPageElements(items) {
     page_element +=
       "<small>" + extractDateString(val.item_date_published) + "</small>";
     page_element += "<small>" + val.item_event + "</small>";
-    if (val.hasOwnProperty("item_presentation_url")) {
+    if (
+      val.hasOwnProperty("item_presentation_url") &&
+      val.item_presentation_url !== undefined
+    ) {
       page_element +=
         "<a class='btn btn-primary' href='" +
         val.item_presentation_url +
         "'>Presentation</a>";
     }
-    if (val.hasOwnProperty("item_video_url")) {
+    if (val.hasOwnProperty("item_video_url") && val.item_video_url !== undefined) {
       page_element +=
         "<a class='btn btn-primary' href='" +
         val.item_video_url +
