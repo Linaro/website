@@ -21,11 +21,7 @@ flow:
     - row: custom_include_row
       source: careers_section.html
     - row: custom_include_row
-      source: careers_section_global.html
-    - row: custom_include_row
-      source: careers_section_puzzle.html
+      source: careers_section_vacancies.html
     - row: custom_include_row
       source: careers_section_interns.html
-    - row: custom_include_row
-      source: careers_section_vacancies.html
 ---
