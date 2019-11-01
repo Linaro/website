@@ -5,7 +5,7 @@
             {% for internship in site.internships %}
                 <div class="col-xs-12 col-sm-4 internship text-center">
                     <h3>{{internship.title}}</h3>
-                    <span class="location"><strong>Location:</strong> {{internship.location}}</span>
+                    <span class="location"><strong>Location:</strong> {{internship.location}}</span><br>
                     <span class="date"><strong>Posted on:</strong> {{internship.date | date: "%A, %B %-d, %Y" }}</span>
                     <p>
                         {{internship.description}}
