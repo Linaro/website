@@ -1,6 +1,7 @@
 ---
 layout: base
 css-package: landing-page
+js-package: engineering-landing-page
 ---
 {% if page.jumbotron.carousel-images %}
     {% include carousel-header.html images=page.jumbotron.carousel-images %}
@@ -25,10 +26,10 @@ css-package: landing-page
 </div>
 </div>
         {% elsif section.format == "img-left" or section.format == "img-right" %}
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col
         {% if section.format == "img-left" %}img-col-left{% else %}img-col-right{% endif %}"
          style="background-image: url({{section.image}});"></div>
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col
         {% if section.format == "img-left" %}text-col-right{% else %}text-col-left{% endif %}">
             {% if section.title %}
                 <h3>{{section.title}}</h3>
@@ -72,6 +73,21 @@ css-package: landing-page
             {% endfor %}
             <div class="col-xs-12 text-center m-t-40">
                 <a class="btn btn-primary" href="/membership/">Find out more</a>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% if page.related_resources_tracks %}
+    <div class="row content-row" id="members-row">
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <h3>Latest Resources</h3>
+            </div>
+            <div class="col-xs-12">
+                <div id="related_resources" data-related-tracks="{{page.related_resources_tracks}}"></div>
+            </div>
+            <div class="col-xs-12 text-center m-t-40">
+                <a class="btn btn-primary" href="https://connect.linaro.org/resources/">View all</a>
             </div>
         </div>
     </div>
