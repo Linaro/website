@@ -51,11 +51,11 @@ schema:
             - https://github.com/Linaro
             - https://www.slideshare.net/linaroorg
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
-            country_code: UK 
+            country_code: UK
 # Files that should be excluded from the Jekyll build.
 exclude:
   - _site
@@ -84,7 +84,29 @@ social:
     - https://www.slideshare.net/linaroorg
 twitter:
     username: linaroorg
-
+# Jekyll Collections configuration - Projects, Products and Documentation.
+collections:
+    company:
+        output: true
+        permalink: /membership/:name/
+    core:
+        output: true
+        permalink: /:collection/:path/
+    engineering:
+        output: true
+        permalink: /:collection/:name/
+    projects:
+        output: false
+        permalink: /engineering/:collection/:path/
+    services:
+        output: true
+        permalink: /:collection/:name/
+    authors:
+        output: true
+        permalink: /author/:name/
+    internships:
+        output: true
+        permalink: /careers/internships/:name/
 defaults:
   - scope:
         path: ""
@@ -123,6 +145,10 @@ defaults:
         type: "authors"
     values:
         layout: author
+  - scope:
+        type: "internships"
+    values:
+        layout: vacancy
   - scope:
         path: ""
         type: "core"
@@ -208,29 +234,8 @@ pagination:
 # Jekyll pagination v2 autopages configuration.
 autopages:
   enabled: false
-  
-using_assets: true
-# Jekyll Collections configuration - Projects, Products and Documentation.
-collections:
-    company:
-        output: true
-        permalink: /membership/:name/
-    core:
-        output: true
-        permalink: /:collection/:path/
-    engineering:
-        output: true
-        permalink: /:collection/:name/
-    projects:
-        output: false
-        permalink: /engineering/:collection/:path/
-    services:
-        output: true
-        permalink: /:collection/:name/
-    authors:
-        output: true
-        permalink: /author/:name/
 
+using_assets: true
 include: ['_pages']
 
 # Cloud Cannon Configuration
