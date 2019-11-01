@@ -948,8 +948,15 @@ collections:
         widget: 'list'
         hint: "Any requirements of a candidate."
         fields:
-          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of the requirement" }
-          - { label: 'Type', name: 'type', widget: 'select', options: ["qualification","travel","skill"] }
+          - { label: 'Text', name: 'title', widget: 'string', hint: "Text of the requirement" }
+          - { label: 'Type', name: 'type', widget: 'select', options: ["qualification","travel","skill","location","other"] }
+      - label: 'Desirable Requirements'
+        name: 'desirable'
+        widget: 'list'
+        hint: "Any desirable experience or skills."
+        fields:
+          - { label: 'Text', name: 'title', widget: 'string', hint: "Text of the desirable skill/experience" }
+          - { label: 'Type', name: 'type', widget: 'select', options: ["qualification","travel","skill","location","other"] }
       - { label: 'Allowances', name: 'allowances', widget: 'string', hint: "E.g 1200€ (gross)/month" }
       - { label: 'Location', name: 'location', widget: 'string', hint: "E.g Le Mans, France" }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
