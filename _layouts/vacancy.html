@@ -17,11 +17,11 @@ layout: base
                     </ul>
                 </p>
             </div>
-            {% if page.qualifications %}
-            <h3>Qualifications</h3>
+            {% if page.requirements %}
+            <h3>Requirements</h3>
             <ul>
-                {% for entry in page.qualifications %}
-                    <li>{{entry.title}} {% if entry.required %}<span class="required">* Required</span>{% endif %}</li>
+                {% for entry in page.requirements %}
+                    <li>{{entry.title}}</li>
                 {% endfor %}
             </ul>
             {% endif %}
