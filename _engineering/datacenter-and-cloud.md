@@ -12,6 +12,7 @@ other_projects:
     url: /engineering/projects/openjdk/
   - name: OpenStack
     url: /engineering/projects/openstack/
+related_resources_tracks: Data Center
 related_tags:
   - LDCG
   - ldcg
