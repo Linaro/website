@@ -33,6 +33,8 @@ flow:
           text: >
             The initial focus is on the inference side on Cortex-A application processors with Linux and Android, both edge computing and  smart devices. As part of the remit, the team will collaborate on a definition of API and modular framework for an Arm runtime inference engine architecture based on plug-ins supporting dynamic modules and optimized shared Arm compute libraries.
   - row: main_content_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 
 Below are some of the Artificial Intelligence related sessions from the previous [Linaro Connect](https://connect.linaro.org):
