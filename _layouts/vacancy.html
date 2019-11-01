@@ -21,7 +21,15 @@ layout: base
             <h3>Requirements</h3>
             <ul>
                 {% for entry in page.requirements %}
-                    <li>{{entry.title}}</li>
+                    <li class="{{entry.type}}">{{entry.title}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.desirable %}
+            <h3>Desirable Experience & Skills</h3>
+            <ul>
+                {% for entry in page.desirable %}
+                    <li class="{{entry.type}}">{{entry.title}}</li>
                 {% endfor %}
             </ul>
             {% endif %}
