@@ -1,6 +1,7 @@
 ---
 layout: base
 css-package: landing-page
+js-package: engineering-landing-page
 ---
 {% if page.jumbotron.carousel-images %}
     {% include carousel-header.html images=page.jumbotron.carousel-images %}
@@ -25,10 +26,10 @@ css-package: landing-page
 </div>
 </div>
         {% elsif section.format == "img-left" or section.format == "img-right" %}
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-5{% else %}col-sm-5 col-sm-push-7{% endif %} img-col
         {% if section.format == "img-left" %}img-col-left{% else %}img-col-right{% endif %}"
          style="background-image: url({{section.image}});"></div>
-        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col 
+        <div class="col-xs-12 flex-center {% if section.format == "img-left" %}col-sm-7{% else %}col-sm-7 col-sm-pull-5{% endif %} text-col
         {% if section.format == "img-left" %}text-col-right{% else %}text-col-left{% endif %}">
             {% if section.title %}
                 <h3>{{section.title}}</h3>
@@ -76,3 +77,4 @@ css-package: landing-page
         </div>
     </div>
 {% endif %}
+{% include engineering_related_resources.html %}

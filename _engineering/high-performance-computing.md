@@ -5,6 +5,7 @@ youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
 members:
     key: hpc-sig
 image: /assets/images/content/HPCCol.svg
+related_resources_tracks: HPC
 jumbotron:
     triangle-divider: true
     description: ""

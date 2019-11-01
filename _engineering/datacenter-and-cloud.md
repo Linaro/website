@@ -12,6 +12,7 @@ other_projects:
     url: /engineering/projects/openjdk/
   - name: OpenStack
     url: /engineering/projects/openstack/
+related_resources_tracks: Data Center
 related_tags:
   - LDCG
   - ldcg
@@ -73,4 +74,6 @@ flow:
         text_content:
           text: >
             Developer Cloud - LDCG leads the initiative [Developer Cloud](https://linaro.cloud). The Arm architecture Developer Cloud allows members, their partners and the open source communities to implement, port and test server, cloud and IoT applications without substantial upfront hardware investment. Developers have access to popular development environments, such as Debian, CentOS, Ubuntu and RHEL. The Developer Cloud (based on OpenStack) employs Arm server platforms from Linaro members.
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
