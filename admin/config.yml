@@ -827,7 +827,7 @@ collections:
             required: false
       - {label: "Body", name: "body", widget: "markdown", required: false}
  # Posts Config
-  - name: 'blog'
+  - name: 'news'
     label: 'News Posts'
     folder: '_posts/2019/news'
     create: true
@@ -926,6 +926,42 @@ collections:
           valueField: 'username'
         }
       - { label: 'Body', name: 'body', widget: 'markdown'}
+ # Posts Config
+  - name: 'internships'
+    label: 'Internships'
+    folder: '_internships'
+    create: true
+    sort: "date:desc" # Default is title:asc
+    slug: '{{slug}}'
+    preview_path: "/careers/internships/{{title}}/"
+    description: >
+      Add/edit/remove an internship fromt the /careers/internships/ section.
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text', hint: "A summary of the opportunity." }
+      - {label: "Keywords", name: "keywords", widget: list, allow_add: true, hint: "Add meta keywords"}
+      - { label: 'Duration', name: 'duration', widget: 'string', hint: "The Duration of the internship." }
+      - label: 'Requirements'
+        name: 'requirements'
+        widget: 'list'
+        hint: "Any requirements of a candidate."
+        fields:
+          - { label: 'Text', name: 'title', widget: 'string', hint: "Text of the requirement" }
+          - { label: 'Type', name: 'type', widget: 'select', options: ["qualification","travel","skill","location","other"] }
+      - label: 'Desirable Requirements'
+        name: 'desirable'
+        widget: 'list'
+        hint: "Any desirable experience or skills."
+        fields:
+          - { label: 'Text', name: 'title', widget: 'string', hint: "Text of the desirable skill/experience" }
+          - { label: 'Type', name: 'type', widget: 'select', options: ["qualification","travel","skill","location","other"] }
+      - { label: 'Allowances', name: 'allowances', widget: 'string', hint: "E.g 1200€ (gross)/month" }
+      - { label: 'Location', name: 'location', widget: 'string', hint: "E.g Le Mans, France" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Published', name: 'published', widget: 'boolean', hint: "Toggle the output of the internship."}
+      - { label: 'Full Details', name: 'body', widget: 'markdown', hint: "Full details of the internship."}
   - name: 'authors'
     label: 'Authors'
     folder: '_authors/'
