@@ -1,0 +1,45 @@
+---
+layout: base
+---
+{% include breadcrumb.html %}
+<div class="row">
+    <div class="container">
+        <div class="col-xs-12 no-padding">
+            <h3>Summary</h3>
+            <div class="well well-lg">
+                <p>
+                    {{page.description}}
+                    <ul class="list-group">
+                        {% if page.duration %}<li class="list-group-item"><strong>Duration: </strong>{{page.duration}}</li>{% endif %}
+                        {% if page.allowances %}<li class="list-group-item"><strong>Allowances: </strong>{{page.allowances}}</li>{% endif %}
+                        {% if page.location %}<li class="list-group-item"><strong>Location: </strong>{{page.location}}</li>{% endif %}
+                        <li class="list-group-item"><strong>Listed on: </strong>{{page.date | date: "%A, %B %-d, %Y"}}</li>
+                    </ul>
+                </p>
+            </div>
+            {% if page.requirements %}
+            <h3>Requirements</h3>
+            <ul>
+                {% for entry in page.requirements %}
+                    <li class="{{entry.type}}">{{entry.title}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.desirable %}
+            <h3>Desirable Experience & Skills</h3>
+            <ul>
+                {% for entry in page.desirable %}
+                    <li class="{{entry.type}}">{{entry.title}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <h3>Full Details</h3>
+            {{content}}
+        </div>
+        <div class="col-xs-12 no-padding text-center">
+            <a class="btn btn-primary" href="mailto:intern@linaro.org?subject={{page.title}}">
+                Apply Now
+            </a>
+        </div>
+    </div>
+</div>
