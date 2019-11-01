@@ -4,23 +4,34 @@ layout: base
 {% include breadcrumb.html %}
 <div class="row">
     <div class="container">
-        <h3>Summary</h3>
-        <div class="well well-lg">
-            {{page.description}}
-            {% if page.duration %}<strong>Duration: </strong>{{page.duration}}{% endif %}
-            {% if page.allowances %}<strong>Allowances: </strong>{{page.allowances}}{% endif %}
-            {% if page.location %}<strong>Location: </strong>{{page.location}}{% endif %}
-            <strong>Listed on: </strong>{{page.date | date: "%A, %B %-d, %Y"}}
+        <div class="col-xs-12 no-padding">
+            <h3>Summary</h3>
+            <div class="well well-lg">
+                <p>
+                    {{page.description}}
+                    <ul class="list-group">
+                        {% if page.duration %}<li class="list-group-item"><strong>Duration: </strong>{{page.duration}}</li>{% endif %}
+                        {% if page.allowances %}<li class="list-group-item"><strong>Allowances: </strong>{{page.allowances}}</li>{% endif %}
+                        {% if page.location %}<li class="list-group-item"><strong>Location: </strong>{{page.location}}</li>{% endif %}
+                        <li class="list-group-item"><strong>Listed on: </strong>{{page.date | date: "%A, %B %-d, %Y"}}</li>
+                    </ul>
+                </p>
+            </div>
+            {% if page.qualifications %}
+            <h3>Qualifications</h3>
+            <ul>
+                {% for entry in page.qualifications %}
+                    <li>{{entry.title}} {% if entry.required %}<span class="required">* Required</span>{% endif %}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <h3>Full Details</h3>
+            {{content}}
         </div>
-        {% if page.qualifications %}
-        <h3>Qualifications</h3>
-        <ul>
-            {% for entry in page.qualifications %}
-                <li>{{entry.title}} {% if entry.required %}<span class="required">* Required</span>{% endif %}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-        <h3>Full Details</h3>
-        {{content}}
+        <div class="col-xs-12 no-padding text-center">
+            <a class="btn btn-primary" href="mailto:intern@linaro.org?subject={{page.title}}">
+                Apply Now
+            </a>
+        </div>
     </div>
 </div>
