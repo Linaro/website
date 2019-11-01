@@ -22,3 +22,5 @@ As part of Linaro’s mission to improve the Arm architecture eco-system, the KV
 It is important to the Arm eco-system that Linaro also fix as many failures as are found. The KVT team invests time into identifying, reporting, and fixing upstream kernel regressions, identifying kernel regressions in select member-hardware SoC (system-on-a-chip) trees, fixing test-suites by contributing to upstream testing projects, fixing kernel configurations, improving full OS stack integration (firmware, kernel, userspace), and improving Arm device automation integration.
 
 The results of running functional test against the LTS, mainline and next branches can be viewed here [https://lkft.linaro.org/](https://lkft.linaro.org/).
+
+[View the KernelCI meeting notes](https://groups.io/g/kernelci/search?q=%23minutes&ct=1)
