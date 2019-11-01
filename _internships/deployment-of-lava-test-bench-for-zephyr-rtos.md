@@ -4,7 +4,8 @@ description: >
     Aim of the internship is to get hands on LAVA test automation solution set up in Linaro LITE group and deploy it on a full scale Zephyr RTOS test bench.
 duration: 6 Months
 requirements:
-    - Computer Science and Engineering Degree
+    - title: Computer Science and Engineering Degree
+      type: qualification
 allowances: 1200€ (gross)/month
 location: Le Mans, France
 date: 2019-10-31 09:00:00+00:00
