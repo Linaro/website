@@ -32,7 +32,7 @@ function createPageElements(items){
         page_element += "</a>";
         page_elements.push(page_element);
     });
-    return page_elements[0,9];
+    return page_elements.slice(0,9);
 }
 
 $(document).ready(function(){
