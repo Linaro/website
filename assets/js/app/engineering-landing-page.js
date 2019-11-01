@@ -32,7 +32,7 @@ function createPageElements(items){
         page_element += "</a>";
         page_elements.push(page_element);
     });
-    return page_elements;
+    return page_elements[0,9];
 }
 
 $(document).ready(function(){
@@ -40,12 +40,16 @@ $(document).ready(function(){
     if($("#related_resources").length > 0){
         // Tracks to search resources for.
         var required_tracks = $("#related_resources")
-          .data("related-tracks")
-          .split(",")
-          .map(function(item) {
-            return item.trim();
-          });
-
+          .data("related-tracks");
+        if(required_tracks.indexOf(",") > -1 ){
+            required_tracks = required_tracks.split(",")
+            .map(function(item) {
+                return item.trim();
+            });
+        }
+        else {
+            required_tracks = [required_tracks]
+        }
         // Fetch relevant Connect resources
         $.getJSON("https://connect.linaro.org/assets/json/connects.json", function (data) {
             $.each(data, function (key, val) {
@@ -92,6 +96,5 @@ $(document).ready(function(){
 // Display resources once the ajaxStop event is fired
 $(document).ajaxStop(function () {
     var page_elements = createPageElements(items);
-    $("#resources").html(page_elements);
-    $("#resources_count").html(page_elements.length.toString() + " resources found");
+    $("#related_resources").html(page_elements);
 });
