@@ -39,12 +39,12 @@ $(document).ready(function(){
     // Check the related_resources div exists
     if($("#related_resources").length > 0){
         // Tracks to search resources for.
-        var required_tracks = $(this)
+        var required_tracks = $("#related_resources")
           .data("related-tracks")
           .split(",")
           .map(function(item) {
             return item.trim();
-          });;
+          });
 
         // Fetch relevant Connect resources
         $.getJSON("https://connect.linaro.org/assets/json/connects.json", function (data) {
