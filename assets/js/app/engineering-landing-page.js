@@ -29,14 +29,19 @@ function createPageElements(items) {
     page_element += "<small>" + val.item_event + "</small>";
     if (
       val.hasOwnProperty("item_presentation_url") &&
-      val.item_presentation_url !== undefined
+      val.item_presentation_url !== undefined &&
+      val.item_presentation_url.length > 0
     ) {
       page_element +=
         "<a target='_blank' class='btn btn-primary' href='" +
         val.item_presentation_url +
         "'>Presentation</a>";
     }
-    if (val.hasOwnProperty("item_video_url") && val.item_video_url !== undefined) {
+    if (
+      val.hasOwnProperty("item_video_url") &&
+      val.item_video_url !== undefined &&
+      val.item_video_url.length > 0
+    ) {
       page_element +=
         "<a target='_blank' class='btn btn-primary' href='" +
         val.item_video_url +
