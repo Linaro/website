@@ -4,7 +4,7 @@ title: Power Management Farm
 description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
-keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel'
+keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel, Power Regression'
 permalink: /engineering/core/arm-power-management/pmwg-farm/
 youtube_playlist: 'https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib'
 ---
