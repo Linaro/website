@@ -17,7 +17,7 @@ function createPageElements(items) {
   var sorted_items = items.sort(sort_by_date);
   $.each(sorted_items, function(key, val) {
     // Create a new element for resource
-    var page_element = "<a href='" + val.item_url + "'>";
+    var page_element = "<a target='_blank' href='" + val.item_url + "'>";
     page_element += "<div class='col-xs-12 col-sm-4'>";
     page_element +=
       "<div class='resource_block_inner' style='background-image:url(" +
@@ -32,13 +32,13 @@ function createPageElements(items) {
       val.item_presentation_url !== undefined
     ) {
       page_element +=
-        "<a class='btn btn-primary' href='" +
+        "<a target='_blank' class='btn btn-primary' href='" +
         val.item_presentation_url +
         "'>Presentation</a>";
     }
     if (val.hasOwnProperty("item_video_url") && val.item_video_url !== undefined) {
       page_element +=
-        "<a class='btn btn-primary' href='" +
+        "<a target='_blank' class='btn btn-primary' href='" +
         val.item_video_url +
         "'>Video</a>";
     }
