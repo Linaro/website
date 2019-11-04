@@ -13,6 +13,7 @@ related_tags:
   - IoT
   - LITE
 members_key: ledge_members
+related_resources_tracks: IoT Fog/Gateway/Edge Computing
 output: true
 image:
     path: /assets/images/content/LEDGE col.svg

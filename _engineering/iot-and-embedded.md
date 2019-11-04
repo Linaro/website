@@ -5,6 +5,7 @@ description: |-
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 members:
     key: lite
+related_resources_tracks: IoT and Embedded, IoT Fog/Gateway/Edge Computing
 related_tags:
   - lite
   - LITE
@@ -17,7 +18,7 @@ youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5e
 members_key: lite_members
 output: true
 image: /assets/images/content/LITE col.svg
-releases: 
+releases:
   - title: LITE Releases
     url: https://releases.linaro.org/components/lite/
 jumbotron:

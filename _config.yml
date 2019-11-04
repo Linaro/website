@@ -168,7 +168,7 @@ defaults:
     values:
         layout: landing-page
         css-package: landing-page
-        js-package: work
+        js-package: engineering-landing-page
   - scope:
         path: ""
         type: "services"
