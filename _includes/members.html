@@ -8,10 +8,10 @@
                     data-parent="#accordion">
                         {{group.membership_group_name }}
                     </a>
+                    <i class="fa fa-link copy_link_to_panel pull-right"
+                    data-toggle="tooltip" data-placement="left" title="Copied to Clipboard!"
+                     data-clipboard-text="{{site.url}}{{page.url}}#{{group.id}}"></i>
                 </h4>
-                  <i class="fa fa-link copy_link_to_panel pull-right"
-                  data-toggle="tooltip" data-placement="left" title="Copied to Clipboard"
-                   data-clipboard-text="{{site.url}}{{page.url}}#{{group.id}}"></i>
             </div>
             <div id="{{group.id}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}">
               <div class="panel-body padded">
