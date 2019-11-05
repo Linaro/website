@@ -22,13 +22,11 @@ $(document).ready(function() {
   $(".copy_link_to_panel").each(function(index) {
     var uniqueId = "copyLink" + index;
     $(this).attr("id", uniqueId);
-    $(uniqueId).click(function(e) {
-      e.preventDefault();
+    var elementSelector = "#" + uniqueId;
+    new ClipboardJS(elementSelector);
+    $(elementSelector).click(function() {
+      $(this).tooltip("show");
     });
-    $(uniqueId).tooltip({
-      trigger: "click",
-      placement: "bottom"
-    });
-    var clipboard = new ClipboardJS(uniqueId);
   });
+
 });
