@@ -1,34 +1,34 @@
-$(document).ready(function(){
-    $('#accordion').collapse();
-
-    $(".panel-heading").click(function(){
-		// $('#accordion .panel-heading').not(this).removeClass('isOpen');
-		// $(this).toggleClass('isOpen');
-		$(this).next(".panel-collapse:not(.in)").collapse("show");
-        $(this).next(".panel-collapse.in").collapse("hide");
-	});
-
-    // Expand and collapse all Collapse panels
-    $("#expand-all").click(function(){
-        if($(this).html() == "Expand All"){
-            $(".panel-collapse").collapse("show");
-            $(this).html("Collapse All");
-        }
-        else{
-            $(".panel-collapse").collapse("hide");
-            $(this).html("Expand All");
-        }
+$(document).ready(function() {
+  // Instantiate a new instance of the bootstrap 3 collapse
+  $("#accordion").collapse();
+  // Expand and collapse all Collapse panels
+  $("#expand-all").click(function() {
+    if ($(this).html() == "Expand All") {
+      $(".panel-collapse").collapse("show");
+      $(this).html("Collapse All");
+    } else {
+      $(".panel-collapse").collapse("hide");
+      $(this).html("Expand All");
+    }
+  });
+  // Check if a hash url is set for opening a given members panel
+  $(function() {
+    if (window.location.hash != "") {
+      $(".panel-collapse.collapse").removeClass("in");
+      $(window.location.hash + ".panel-collapse.collapse").collapse("show");
+    }
+  });
+  // Instantiate the clipboard anchor links for panels
+  $(".copy_link_to_panel").each(function(index) {
+    var uniqueId = "copyLink" + index;
+    $(this).attr("id", uniqueId);
+    $(uniqueId).click(function(e) {
+      e.preventDefault();
     });
-
-   $(function() {
-     // check if there is a hash in the url
-     if (window.location.hash != "") {
-       // remove any accordion panels that are showing (they have a class of 'in')
-       $(".panel-collapse.collapse").removeClass("in");
-
-       // show the panel based on the hash now:
-       $(window.location.hash + ".panel-collapse.collapse").collapse("show");
-     }
-   });
-
+    $(uniqueId).tooltip({
+      trigger: "click",
+      placement: "bottom"
+    });
+    var clipboard = new ClipboardJS(uniqueId);
+  });
 });
