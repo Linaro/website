@@ -279,6 +279,7 @@
     "^/performance(/?|/index.html)$ /engineering/projects/ [R,L,NC]",
     "^/planetfeed/rss(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/planet/source(/?|/index.html)$ /planet/ [R,L,NC]",
+    "^/press(/?|/index.html)$ /contact/ [R,L,NC]",
     "^/professional-services(/?|/index.html)$ /services/ [R,L,NC]",
     "^/projects/digital-home(/?|/index.html)$ /groups/lhg/ [R,L,NC]",
     "^/projects/opendataplane(/?|/index.html)$ https://opendataplane.org [R,L,NC]",
