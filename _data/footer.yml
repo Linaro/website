@@ -12,8 +12,6 @@ company-links:
       url: /legal/
     - name: Contact
       url: /contact/
-    - name: Press
-      url: /press/
 middle-column:
     title: Latest News & Blogs
     latest-posts: true
