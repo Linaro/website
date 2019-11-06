@@ -8,7 +8,7 @@
 		<meta name="keywords" content="Linaro, Linux, tools, kernel, open source, software, distribution, philosophy, Arm" />
 		<meta name="description" content="A not for profit organization delivering free and validated Linux kernel and tools that focuses on providing a common software foundation to the embedded industry" />
 		<link rel="shortcut icon" href="/favicon.ico" />
-		
+
 
 	<script type="text/javascript">
 	sfHover = function() {
@@ -24,7 +24,7 @@
 }
 if (window.attachEvent) window.attachEvent("onload", sfHover);
 
-	
+
 	</script>
 
 <link rel="stylesheet" type="text/css" href="http://www.linaro.org/themes/base/css/layout.css?m=1302863079" />
@@ -51,98 +51,98 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 		 <a href="home/" class="logolink"></a>
 	<form class="search" action="/search/results"><input type="text" class="text" name="q" /><input type="hidden" name="p" value="1"/><input type="submit" class="submit" value="&#9654;"/></form>
 	</div>
-			
+
 	   		<div id="nav" class="podstyle">
-			
+
  <ul>
-	
+
 				<li class="link" id="Parent96"><a href="/latest/downloads/" title="Go to the Download tools and software page" >Downloads</a></li>
-		
+
 					<li class="link" id="Parent96"><a href="/latest/downloads/" title="" >Open Engineering</a></li>
-			
+
 			<li class="link" id="Parent96"><a href="/latest/downloads/" title="" >Partner with us</a></li>
-			
-	
-		
+
+
+
 			<li class="link" id="Parent3"><a href="/community/" title="Go to the Get involved with Linaro page" >Community</a>
 				<ul class="sub1">
-					
+
 						<li><a href="/getting-started/" title="Go to the Getting Started page" >Getting Started</a></li>
-					
+
 						<li><a href="/forums/" title="Go to the Forums page" >Forums</a></li>
-					
+
 						<li><a href="/low-cost-development-boards/" title="Go to the Low-cost Development Boards page" >Low-cost Dev. Boards</a></li>
-					
+
 						<li><a href="http://wiki-archive.linaro.org/" title="Go to the Developer Wiki page" >Developer Wiki</a></li>
 
-					
+
 						<li><a href="/hardware-enablement/" title="Go to the Hardware Enablement page" >Hardware Enablement</a></li>
-					
+
 						<li><a href="https://blueprints.launchpad.net/linaro" title="Go to the Register Your Project page" >Register Your Project</a></li>
-					
+
 						<li><a href="/linaro-blog/" title="Go to the Linaro Blog page" >Linaro Blog</a></li>
-					
+
 						<li><a href="/events/" title="Go to the Linaro at Key Industry Events page" >Events</a></li>
-					
+
 					<li class="menu-footer"><span></span></li>
 				</ul>
 			</li>
 
-		
-	
-			
-	
+
+
+
+
 		<li class="link" id="Parent2"><a href="/about-linaro/" title="Go to the About Linaro page" >About Linaro</a>
 				<ul class="sub1">
-					
+
 						<li><a href="/commercial-sponsors/" title="Go to the Commercial Sponsors page" >Commercial Sponsors</a></li>
-					
+
 						<li><a href="/faqs/" title="Go to the Linaro FAQ page" >FAQs</a></li>
-					
+
 						<li><a href="/how-linaro-works/" title="Go to the How Linaro Works page" >How Linaro Works</a></li>
 
-					
+
 						<li><a href="/contact-us/" title="Go to the Contact Us page" >Contact Us</a></li>
-					
+
 						<li><a href="/management-team/" title="Go to the Management Team page" >Management Team</a></li>
-					
-						<li><a href="/press/" title="Go to the Linaro in the News page" >Press Releases</a></li>
-					
+
+						<li><a href="/news/" title="Go to the Linaro in the News page" >Press Releases</a></li>
+
 						<li><a href="/why-linaro/" title="Go to the Why Linaro? page" >Why Linaro?</a></li>
-					
+
 						<li><a href="/executive-overview/" title="Go to the Executive Overview page" >Executive Overview</a></li>
-					
+
 						<li><a href="/board-members/" title="Go to the Board Members page" >Board Members</a></li>
 
-					
+
 						<li><a href="/steering-committee/" title="Go to the Technical Steering Committee, Working Groups and Working Groups Projects page" >Steering Committee</a></li>
-					
+
 						<li><a href="/careers/" title="Go to the Careers page" >Careers</a></li>
-					
+
 						<li><a href="/reports-presentations/" title="Go to the Reports &amp; Presentations page" >Reports &amp; Presentations</a></li>
-					
+
 					<li class="menu-footer"><span></span></li>
 				</ul>
 			</li>
 
-		
+
 			<li class="link" id="Parent107"><a href="/contact-us/" title="Go to the Contact Us page" >Contact Us</a>
 				<ul class="sub1">
-					
+
 						<li><a href="/careers/" title="Go to the Careers page" >Careers</a></li>
-					
+
 					<li class="menu-footer"><span></span></li>
 				</ul>
 			</li>
 
-		
-	
-	
+
+
+
 </ul>
 	  	</div>
 		</div>
 <!-- Header end -->
-		
+
 <!-- Content start -->
 <div id="contentarea">
 
@@ -161,16 +161,16 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 
 		</div>
-		
-	<div id="headlines" class="podstyle">	
+
+	<div id="headlines" class="podstyle">
 		</div>
-		
+
 		</div>
-<!-- Homepage elements end -->	
+<!-- Homepage elements end -->
 
 
 <!-- Page copy start -->
-<div id="pagecopy" class="homepage">			
+<div id="pagecopy" class="homepage">
 <div class="trileft">
 <h2><a href="events">Events</a></h2>
 <p>Where and when can you next see Linaro? </p>
@@ -200,29 +200,29 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 </div>
 
 </div>
-<!-- Page copy end -->	
+<!-- Page copy end -->
 
 
 <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-getTwitters('tweets', { 
-  id: 'linaroorg', 
-  count: 3, 
-  enableLinks: true, 
-  ignoreReplies: true, 
+getTwitters('tweets', {
+  id: 'linaroorg',
+  count: 3,
+  enableLinks: true,
+  ignoreReplies: true,
   clearContents: true,
   template: '"%text%"<h4><a href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a></h4>'
 
-  
+
 });
 </script>
 
 
 
-</div>		
+</div>
 <!-- Content end -->
-	  	
+
 	</div>
 <!-- Page Container end -->
 
