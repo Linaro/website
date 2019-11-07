@@ -625,10 +625,8 @@ collections:
                         required: false
                         hint: "Provide a background image for your block"
                       - label: "Block Text"
-                        name: text_content
-                        widget: object
-                        field:
-                            - {label: "Text", name: text, widget: text}
+                        name: text
+                        widget: text
                         required: false
                         hint: "Provide text content for your block"
                       - label: "Block Buttons"
