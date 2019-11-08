@@ -28,7 +28,7 @@ Diamond sponsors— [Arm](http://www.arm.com/) and [Canonical](http://www.canon
 
 Gold sponsor— [Samsung](http://www.samsung.com/us/#latest-home)
 
-Media sponsors— [Linux Journal](http://www.linuxjournal.com/), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
+Media sponsors— [Linux Journal](https://en.wikipedia.org/wiki/Linux_Journal), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
 
 
 Thanks to our Sponors: Arm, Canonical, Samsung, Linux Journal, Ubuntu User and Linux Questions!
