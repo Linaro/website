@@ -2,11 +2,12 @@
 layout: flow
 title: Legal
 description: |-
-    Information about the legal policies of Linaro's website
+  Information about the legal policies of Linaro's website
 permalink: /legal/
 flow:
-    - row: main_content_row
+  - row: main_content_row
 ---
+
   <script>
 function defer(method) {
 if (window.jQuery) {
@@ -71,20 +72,19 @@ defer(function(){
 </ul>
 
 <div class="tab-content" id="tabbed_nav_content">
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="t_and_cs" markdown="1">
 
 ### Information about Linaro™
 
 The “Linaro Website” shall mean the web site operated by or on behalf of Linaro Limited (hereinafter “We/Us/Our”) for your use, whether as a guest or a registered user. Linaro Limited is a private limited company registered in England and Wales with company number 07180318\. VAT No: 990 0273 24\. Registered Office Address Harston Mill Royston Rd Harston Cambridge CB22 7GG
 
-* * *
+---
 
 ### Accessing Our site
 
 Access to the Linaro Website is permitted on a temporary basis, and We reserve the right to withdraw or amend the information We provide on the Linaro Website without notice. We will not be liable if for any reason the Linaro Website is unavailable at any time or for any period. From time to time, We may restrict access to some parts of the Linaro Website, or the entire Linaro Website, to users who have registered with us.
 
-* * *
+---
 
 ### Use of and reliance on information posted
 
@@ -94,25 +94,25 @@ With respect to material, including but not limited to still images, video foota
 
 Any of the material on the Linaro Website may be out of date or include omissions, inaccuracies or other errors at any given time, and We are under no obligation to update such material. Commentary and other materials posted on the Linaro Website site are not intended to amount to advice on which reliance should be placed. We therefore disclaim all liability and responsibility arising from any reliance placed on such materials by any visitor to the Linaro Website, or by anyone who may be informed of any of its contents.
 
-* * *
+---
 
 ### Our liability
 
 Except where expressly provided otherwise in an agreement between you and us, all information provided directly on the linaro website or indirectly through the Linaro website by hypertext link or otherwise is provided “as is” without warranty of any kind. We hereby disclaim all warranties with respect to this information, whether express or implied, including the implied warranties of merchantability, satisfactory quality and fitness for a particular purpose. In no event shall we be liable for any direct, indirect, incidental, special or consequential damages, or damages for loss of profits, revenue, data or use, incurred by you or any third party, whether in contract, tort or otherwise, arising from your access to, use of, or reliance upon information obtained from or through the Linaro website. We reserve the right to make changes, updates or corrections to the information on the Linaro website at any time without notice.
 
-* * *
+---
 
 ### Information about you and your visits to Our site
 
 We process information about you gained from your use of the Linaro Website in accordance with [Our privacy policy](#privacy_policy){:.hashLink}.
 
-* * *
+---
 
 ### Transactions concluded through Our site
 
 Contracts for the supply of goods, services or information formed through Our site or as a result of visits made by you are governed by Our terms and conditions notified to you during each individual transaction.
 
-* * *
+---
 
 ### Links from Our site
 
@@ -121,11 +121,10 @@ Where Our site contains links to other sites and resources provided by third par
 Thank you for visiting Our site.
 
 LEC-ELA-00989-V1.0, 03 May 2010\. Address updated September 2012\. Copyright (c) 2010 Linaro Limited
+
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="privacy_policy" markdown="1">
-
 
 As an organization Linaro Limited is committed to fairness, both in the collection and use of personal information. Fairness has two elements:
 
@@ -139,13 +138,13 @@ We are committed to safeguarding the privacy of users of web sites operated by o
 
 By using a Linaro Website, you consent to the collection and use of your information in the manner and for the purposes set out below.
 
-* * *
+---
 
 ### What personal information is collected?
 
 When you send Us an email or visit a Linaro Website, We may collect, from both public and private areas of the Linaro Website, personal information volunteered by you about you, including name, title, company, county, mailing address, email address, phone numbers, fax numbers, age range and company size and Our web server logs, browser cookies and local shared objects may collect details of your domain name, operating system, browser type, IP address and a unique identifier for your computer, or other access device (“Data”). When you submit Data you are agreeing to its transfer, storage and processing.
 
-* * *
+---
 
 ### Who is collecting the Data?
 
@@ -153,13 +152,13 @@ When you are on a Linaro Website and are asked for Data, you are sharing that Da
 
 The Linaro Website may also contain various links to third-party web sites. Third-party web sites may provide additional information, goods, services and/or promotions. These sites are owned and operated independently from Us, and have their own separate privacy and data collection practices. Any Data you provide to these web sites will be governed under the terms of their privacy policy, if any. We have no responsibility or liability whatsoever for the independent actions or policies of these independent sites, and are not responsible for the content or privacy practices of such sites.
 
-* * *
+---
 
 ### How is your Data used?
 
 Data maybe used internally by Us, including updating Our databases, contacting you with requested information, maintaining a technical support history, sending marketing information, determining trends in your use of Our product, aiding in the design of Our product and services, processing your enquiries, measuring the use of Our sites, administering and improving the content of Our sites.
 
-* * *
+---
 
 ### With whom do We share your Data?
 
@@ -175,7 +174,7 @@ In the event that We sell or buy any business or assets, or if Linaro or substan
 
 We may use your Data if We are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply Our terms of use and other agreements; or to protect the rights, property, or safety of Linaro, Our customers, or others.
 
-* * *
+---
 
 ### What choices do you have regarding the collection, use and distribution of your Data?
 
@@ -185,7 +184,7 @@ You also have the right to access (review, correct, amend or delete) your Data b
 
 Please direct any questions concerning Linaro’s privacy practices or if you have any queries or requests in relation to your Data to [privacy@linaro.org](mailto:privacy@linaro.org) or Linaro Limited, Harston Mill, Harston, Cambridgeshire, CB22 7GG, United Kingdom. Requests to unsubscribe from (“opt-out”) of communications from Linaro may also be sent to unsubscribe at [privacy@linaro.org](mailto:privacy@linaro.org).
 
-* * *
+---
 
 ### How secure is your Data?
 
@@ -193,7 +192,7 @@ We always use industry-standard encryption technologies when transferring and re
 
 **We do not store credit card** **details nor do we share customer details with any 3rd parties**
 
-* * *
+---
 
 ### What about browser cookies and local shared objects?
 
@@ -239,27 +238,27 @@ This website uses Google Analytics, a web analytics service provided by Google, 
 
 To edit cookie settings for PCs
 
-*   **Google Chrome**
-Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
-*   **Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0**
-Locate ‘Internet options’ in the browser menu, then click on the ‘Privacy’ tab.
-*   **Mozilla Firefox**
-Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
-*   **Opera**
-Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
+- **Google Chrome**
+  Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
+- **Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0**
+  Locate ‘Internet options’ in the browser menu, then click on the ‘Privacy’ tab.
+- **Mozilla Firefox**
+  Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
+- **Opera**
+  Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
 To edit cookie settings for Macs
 
-*   **Safari**
-Click on ‘Safari’ at the top of your browser window and select the ‘Preferences’ option, then ‘Security’.
-*   **Google Chrome**
-Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
-*   **Mozilla Firefox**
-Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
-*   **Opera**
-Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
+- **Safari**
+  Click on ‘Safari’ at the top of your browser window and select the ‘Preferences’ option, then ‘Security’.
+- **Google Chrome**
+  Click on ‘Tools’ at the top of your browser window and select Options. Click the ‘Under the Hood’ tab, locate the ‘Privacy’ section, and select the ‘Content settings’ button.
+- **Mozilla Firefox**
+  Locate ‘Tools’ in the browser menu and select Options, then select the Privacy icon. Click on Cookies
+- **Opera**
+  Click on ‘Menu’ at the top of your browser window and select ‘Settings’. Select ‘Preferences’, then the ‘Advanced’ tab
 
-* * *
+---
 
 ### Changes to this privacy policy
 
@@ -271,7 +270,6 @@ LEC-ELA-00990-V2.0, 27 April, 2010, Copyright (c) 2010 Linaro Limited
 
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="trademark_usage" markdown="1">
 
 Linaro® is a registered trademark of Linaro in the United Kingdom and other countries
@@ -286,7 +284,6 @@ The Trademark policy and guidelines provide information on what is allowed, what
 
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="ipr_policy" markdown="1">
 
 ### 1. DEFINITIONS
@@ -326,7 +323,6 @@ c) manage other intellectual property matters.
 By signing the Subscription Agreement, Members agree to comply with this IP Policy.
 In addition, this IP Policy shall serve as the basis for how non-Members interact with
 Linaro through participation in a Linaro Project.
-
 
 ### 3. ACCEPTING CONTRIBUTIONS (IN-BOUND LICENSING) AND UPSTREAM LICENSES
 
@@ -440,11 +436,11 @@ TO COMPLY WITH THIS IP POLICY.
 
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="antitrust_guidelines" markdown="1">
 
 The defined terms in these Antitrust Guidelines shall have the same meanings given to them in
 these Rules.
+
 ### 1. BACKGROUND
 
 #### 1.1
@@ -528,24 +524,24 @@ an egregious violation of competition law (examples of which are set out in Sect
 Participants in Linaro will therefore not discuss (seriously or in jest) or exchange
 information regarding the following:
 
-* Individual company prices, proposed price changes, price differentials, price levels,
-pricing patterns or policies, pricing plans or terms and conditions of sale affecting price
-such as mark-ups, discounts, allowances, promotions, or credit terms.
-* Individual company data on costs, production plans, capacity, inventory, sales data, profit
-margins, or other data from which a competitor could discern prices.
-* Individual company policies relating to current or future strategy, including investment,
-technology, research and development, production, distribution, or marketing (including
-advertising) of particular products.
-* Individual company bids for particular customers or company procedures for responding
-to bid invitations or any other data relating to existing customers.
-* Industry pricing policies, price levels, price changes, pricing procedures, profit margins, or
-other data that relates to price.
-* Matters related to allocation of territories, allocation of customers, or restrictions on
-manufacturing or selling certain products.
-* Matters related to dealing or not dealing with a competitor, supplier, or customer that
-might have the effect of excluding them from any market or influencing the business
-conduct of firms toward them.
-4268669-21 46
+- Individual company prices, proposed price changes, price differentials, price levels,
+  pricing patterns or policies, pricing plans or terms and conditions of sale affecting price
+  such as mark-ups, discounts, allowances, promotions, or credit terms.
+- Individual company data on costs, production plans, capacity, inventory, sales data, profit
+  margins, or other data from which a competitor could discern prices.
+- Individual company policies relating to current or future strategy, including investment,
+  technology, research and development, production, distribution, or marketing (including
+  advertising) of particular products.
+- Individual company bids for particular customers or company procedures for responding
+  to bid invitations or any other data relating to existing customers.
+- Industry pricing policies, price levels, price changes, pricing procedures, profit margins, or
+  other data that relates to price.
+- Matters related to allocation of territories, allocation of customers, or restrictions on
+  manufacturing or selling certain products.
+- Matters related to dealing or not dealing with a competitor, supplier, or customer that
+  might have the effect of excluding them from any market or influencing the business
+  conduct of firms toward them.
+  4268669-21 46
 
 #### 3.2
 
@@ -596,11 +592,11 @@ The prohibition against price fixing applies broadly to any understanding or agr
 that has the effect of raising, lowering, or stabilizing prices among competitors, including
 agreements on the following:
 
-* Prices or discounts;
-* Margins;
-* Credit terms;
-* Promotional programs; and
-* Other terms and conditions of sale.
+- Prices or discounts;
+- Margins;
+- Credit terms;
+- Promotional programs; and
+- Other terms and conditions of sale.
 
 #### 4.6
 
@@ -615,11 +611,11 @@ Agreements among competitors or potential competitors to allocate supply or part
 markets are just as serious as price fixing. These include agreements between
 competitors concerning the:
 
-* Quantities of goods that are to be purchased, produced, or marketed;
-* Geographic areas into which they will sell;
-* Customers to whom they will sell;
-* Market share each firm will achieve; and
-* Products they will sell.
+- Quantities of goods that are to be purchased, produced, or marketed;
+- Geographic areas into which they will sell;
+- Customers to whom they will sell;
+- Market share each firm will achieve; and
+- Products they will sell.
 
 **(C) Group Boycotts**
 
@@ -643,40 +639,40 @@ distribution, driving innovation across vertical segments, and deployed by the i
 leading OEM, operator and semiconductor companies. In achieving this goal, it has been
 determined that:
 
-* membership in Linaro shall be determined only on the basis of the objective and nondiscriminatory criteria specified in the Membership Criteria;
-* any recommendations arising out of any Working Groups that are adopted are based on
-objective criteria and interpreted objectively and accurately;
-* decisions are not made by those unfamiliar with the objectives of Linaro and the basis on
-which decisions are made within Linaro;
-* the recommendations issued by any Working Groups accomplish Linaro’s goals and
-objectives in the least restrictive way; and
-* Participants should not enter into agreements that prevent them from participating in
-other industry bodies or from dealing in alternative technologies outside of Linaro.
+- membership in Linaro shall be determined only on the basis of the objective and nondiscriminatory criteria specified in the Membership Criteria;
+- any recommendations arising out of any Working Groups that are adopted are based on
+  objective criteria and interpreted objectively and accurately;
+- decisions are not made by those unfamiliar with the objectives of Linaro and the basis on
+  which decisions are made within Linaro;
+- the recommendations issued by any Working Groups accomplish Linaro’s goals and
+  objectives in the least restrictive way; and
+- Participants should not enter into agreements that prevent them from participating in
+  other industry bodies or from dealing in alternative technologies outside of Linaro.
 
 ### 6. RULES FOR LINARO MEETINGS AND OTHER ACTIVITIES
 
 Subject to the terms set out in these Rules, all meetings will follow these procedures:
 
-* A draft agenda will be prepared before each meeting of the Board and sent to Linaro’s
-legal counsel for review and approval.
-* Each meeting will begin with a statement from the Chairperson of that meeting that the
-Participants have agreed to follow these guidelines and copies will be available at the
-meetings for participants to review. All Participants should confirm that they are aware of
-and understand these Guidelines.
-* Discussions at meetings will follow the topics on the agenda. Members wishing to raise
-any topics for discussion should inform the Board at the time the agenda is prepared.
-Legal counsel will be consulted if a Participant has a concern about the direction of any
-discussion. Such discussion will cease until legal counsel has approved it.
-* Minutes will be drafted that accurately reflect the matters that occur at each meeting and
-will be sent to legal counsel and the Members for review before being made final.
-* If any Participant persists in discussing a prohibited subject as set out in these guidelines
-or any subject that raises competition law concerns, other Participants should leave the
-meeting. Where a Participant leaves a Linaro meeting, that Participant should make his
-or her departure obvious, stating the reasons for the departure.
-* All Participants should be careful in his or her choice of words at meetings; they should
-never, even in jest, use words that indicate that they approve of or have participated in
-prohibited conduct; they should avoid conjecture, exaggeration or colourful or ambiguous
-language that might be misinterpreted.
+- A draft agenda will be prepared before each meeting of the Board and sent to Linaro’s
+  legal counsel for review and approval.
+- Each meeting will begin with a statement from the Chairperson of that meeting that the
+  Participants have agreed to follow these guidelines and copies will be available at the
+  meetings for participants to review. All Participants should confirm that they are aware of
+  and understand these Guidelines.
+- Discussions at meetings will follow the topics on the agenda. Members wishing to raise
+  any topics for discussion should inform the Board at the time the agenda is prepared.
+  Legal counsel will be consulted if a Participant has a concern about the direction of any
+  discussion. Such discussion will cease until legal counsel has approved it.
+- Minutes will be drafted that accurately reflect the matters that occur at each meeting and
+  will be sent to legal counsel and the Members for review before being made final.
+- If any Participant persists in discussing a prohibited subject as set out in these guidelines
+  or any subject that raises competition law concerns, other Participants should leave the
+  meeting. Where a Participant leaves a Linaro meeting, that Participant should make his
+  or her departure obvious, stating the reasons for the departure.
+- All Participants should be careful in his or her choice of words at meetings; they should
+  never, even in jest, use words that indicate that they approve of or have participated in
+  prohibited conduct; they should avoid conjecture, exaggeration or colourful or ambiguous
+  language that might be misinterpreted.
 
 ### 7. CONCLUSION
 
@@ -693,7 +689,6 @@ to the benefit of all Participants in Linaro.
 
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cookie_policy" markdown="1">
 
 # Cookie Policy
@@ -704,44 +699,44 @@ This policy explains the terms that apply to users of any websites that are oper
 
 This Cookie Policy incorporates the following additional terms and conditions and policies:
 
-* Privacy Policy
-* Terms and Conditions of Use
+- Privacy Policy
+- Terms and Conditions of Use
 
 By using a Linaro Website, you understand that we may automatically collect and store information about your visit to Our Linaro Websites, through using browser cookies or similar devices. Through continuing to use Our Linaro Websites you consent to our use of cookies in the manner and for the purposes set out below.
 
-* What is a cookie?
-* Why do we use cookies?
-* Specific types of cookie
-* How to control cookies and similar technologies
-* Cookies set by Linaro Websites
-* Cookies set by third parties
-* Changes to this policy
+- What is a cookie?
+- Why do we use cookies?
+- Specific types of cookie
+- How to control cookies and similar technologies
+- Cookies set by Linaro Websites
+- Cookies set by third parties
+- Changes to this policy
 
-* * *
+---
 
 **What is a cookie?**
 When referring to cookies in this policy, we are referring to HTTP cookies which are small text files that are stored on your browser when you use websites and applications. We use a mixture of ‘session’ cookies, which are stored in your web browser for a limited time while you are accessing our website and ‘persistent’ cookies, which are stored for longer and are activated each time you revisit Our Website. There are other technologies that can be used for similar purposes. These include HTML5 Local Storage and Local Shared Objects (“LSO”s). We may use HTML5 Local Storage, LSOs, and similar technologies, as well as cookies for authenticating you, keeping track of information you have provided to us, and remembering your preferences.
 
-* * *
+---
 
 **Why do we use cookies?**
 We may obtain information about your use of the Website by using a cookie file which is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve Linaro Websites and to deliver a better and more personalized service. They enable us to:
 
-*   Estimate our audience size and usage pattern.
-*   Store information about your preferences and so allow us to customize Linaro Websites according to your individual interests.
-*   Recognize you when you return to Linaro Websites.
+- Estimate our audience size and usage pattern.
+- Store information about your preferences and so allow us to customize Linaro Websites according to your individual interests.
+- Recognize you when you return to Linaro Websites.
 
-* * *
+---
 
 **Specific types of cookie**
 The types of cookie that are set by Linaro Websites include the following:
 
-*   **Strictly necessary cookies** – These cookies are essential to enable you to move around Linaro Websites and use their features, such as accessing secure areas of Linaro Websites and providing services that you have asked for.
-*   **Performance cookies** – These cookies collect information about how you use an Linaro Website, for instance which pages you go to most often, and if you get error messages from web pages. These cookies do not collect information that identifies you, and all information collected is anonymous and is only used to improve how a website works.
-*   **Functionality cookies** – These cookies allow the website to remember choices you make, for example username, language, region, and provide enhanced, more personal features.
-*   **Targeting and advertising cookies** – These cookies allow us to track you as you visit our websites, helping us to send you e-mails in respect of information and products that you have shown an interest in. When you have logged in to your account, registered an account with us, or provided your contact information, the cookies no longer track you anonymously, but the information gathered from these cookies is linked to the contact information you have provided to us.
+- **Strictly necessary cookies** – These cookies are essential to enable you to move around Linaro Websites and use their features, such as accessing secure areas of Linaro Websites and providing services that you have asked for.
+- **Performance cookies** – These cookies collect information about how you use an Linaro Website, for instance which pages you go to most often, and if you get error messages from web pages. These cookies do not collect information that identifies you, and all information collected is anonymous and is only used to improve how a website works.
+- **Functionality cookies** – These cookies allow the website to remember choices you make, for example username, language, region, and provide enhanced, more personal features.
+- **Targeting and advertising cookies** – These cookies allow us to track you as you visit our websites, helping us to send you e-mails in respect of information and products that you have shown an interest in. When you have logged in to your account, registered an account with us, or provided your contact information, the cookies no longer track you anonymously, but the information gathered from these cookies is linked to the contact information you have provided to us.
 
-* * *
+---
 
 **How to control cookies and similar technologies**
 
@@ -750,7 +745,7 @@ You can stop cookies being stored on your browser in future or delete any cookie
 Third-party cookies cannot be controlled by changing any Linaro Website settings, and if you have JavaScript disabled, you might not be able to change any Linaro Website settings. Change cookie settings using your browser settings instead.
 Note that if you disable cookies entirely, you might not be able to use certain areas or features of Linaro Websites.
 
-* * *
+---
 
 ## Cookies set by Linaro Websites
 
@@ -762,30 +757,30 @@ he Linaro Websites might set cookies for the following reasons:
 
 These cookies are set to test and check for policy acceptance when policies have been updated or if you are a new visitor to an Linaro Website.
 
-* * *
+---
 
 **Login settings**
 
 These cookies are set to maintain aspects of your login session. They are used to:
 
-*   Authenticate you as a user.
-*   Associate you with a specific server.
-*   Remember the last time that you visited the website.
-*   Authenticate you with third parties if you request to do so.
+- Authenticate you as a user.
+- Associate you with a specific server.
+- Remember the last time that you visited the website.
+- Authenticate you with third parties if you request to do so.
 
-* * *
+---
 
 **General session**
 
 These cookies are used to remember information while browsing from one page to another. For example, when entering data into forms
 
-* * *
+---
 
 **Content delivery network**
 
 These cookies are used to aid in efficiently routing internal traffic, and contain encoded addresses of internal Jive servers. These addresses are strictly internal, and cannot be used to connect to internal servers from the Internet. Altering the values of the cookie does not have any effect.
 
-* * *
+---
 
 ### Functionality
 
@@ -793,64 +788,64 @@ These cookies are used to aid in efficiently routing internal traffic, and conta
 
 These cookies are set to maintain your login session and remember your preference in respect of storing your login credentials.
 
-* * *
+---
 
 **Tabbed content**
 
 Some web pages have tabbed content and this cookie records which tab is currently being viewed.
 
-* * *
+---
 
 **Regional content**
 
 These cookies are set to provide region-based content and remember time zone settings.
 
-* * *
+---
 
 **Language settings**
 
 These cookies are set to determine and remember which language to display content in.
 
-* * *
+---
 
 **Device functionality**
 
 These cookies are set to provide different content depending on the browser device being used.
 
-* * *
+---
 
 **Search settings**
 
 These cookies save all user-defined working sets that can restrict the scope of searches. If this data exceeds 4KB in size, further cookies are created as necessary.
 
-* * *
+---
 
 **Distributor settings**
 
 These cookies are used to maintain settings within the distributor section of the site.
 
-* * *
+---
 
 **Forum functionality**
 
 These cookies are used to remember settings and provide forum functionality. They are used to:
 
-*   Maintain the date setting.
-*   Remember the EULA setting.
+- Maintain the date setting.
+- Remember the EULA setting.
 
-* * *
+---
 
 **Download settings**
 
 These cookies are used to remember preferences when downloading evaluation software from any Linaro Website.
 
-* * *
+---
 
 **Editor settings**
 
 These cookies are used to maintain the height of the editor windows and remember the editor mode that you have chosen.
 
-* * *
+---
 
 ### Performance
 
@@ -863,27 +858,25 @@ By using an Linaro Website, you consent to the processing of data about you by G
 These are third party cookies.
 Targeting & Advertising
 
-* * *
+---
 
 **Marketing cookies**
 
 These cookies are used to collect information about how visitors use Linaro Websites. We link this information to the contact and account details you have provided us with and use the information to understand which products and services you are interested in and send you information about the products that you have shown an interest in. These cookies are set by many Linaro Websites.
 
-* * *
+---
 
 **Cookies set by third parties**
 Third parties may also use cookies over which we have no control. These cookies are likely to be performance cookies or targeting and advertising cookies. Third party cookies used on Linaro Websites include those set by YouTube, Twitter, Google and Facebook.
 
-* * *
+---
 
 **Changes to this policy**
 We may revise this cookie policy at any time by amending this page, and where appropriate, by notification on Our Linaro Websites. You should check this page from time to time to review any changes We have made. Some of the provisions in this cookie policy may also be superseded by provisions or notices published elsewhere on Our Linaro Websites.
 Thank you for visiting Our site.
 
-
 </div>
 
-{::options parse_block_html="true" /}
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="cancellation_policy" markdown="1">
 
 **Cancellation policy:**
