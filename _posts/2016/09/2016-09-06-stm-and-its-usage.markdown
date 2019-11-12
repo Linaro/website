@@ -488,7 +488,7 @@ I hope this post provided an useful introduction to STM and presented how to use
 
 [5][https://git.linaro.org/people/zhang.chunyan/sample-app.git]() branch stm-write-sample
 
-[6][https://git.linaro.org/people/zhang.chunyan/sample-app.git](https://git.linaro.org/people/zhang.chunyan/sample-app.git) branch stm-mmap-sample
+[6][https://git.linaro.org/people/zhang.chunyan/sample-app.git]() branch stm-mmap-sample
 
 [7][https://github.com/linaro/opencsd](https://github.com/Linaro/OpenCSD)
 
