@@ -5,7 +5,6 @@ author: linaro
 categories:
 - events
 - workshop
-comments: false
 event: arm-hpc-santa-clara-2018
 event_type: "workshop"
 date: '2018-07-26 09:00:00+00:00'
@@ -16,13 +15,13 @@ image:
 event: arm-hpc-santa-clara-2018
 tag: event
 ---
+
 <div class="row no-padding arm-hpc-row top">
     <div class="container" style="background: url(/assets/images/content/hpc.png);background-position: center center;">
         <h1>Arm Architecture HPC Workshop <span>by Linaro and HiSilicon</span></h1>
         <small>Thursday 26th July - Huawei, 2330 Central Expressway, Santa Clara, CA 95050</small>
     </div>
 </div>
-
 
 <div class="row arm-hpc-row main">
 <div class="container">
@@ -55,18 +54,18 @@ tag: event
 
 <div class="col-sm-6" markdown="1">
 
-**Arm Architecture HPC Workshop** __by Linaro and HiSilicon  on 26th July 2018__ – At the Huawei campus in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g).
+**Arm Architecture HPC Workshop** **by Linaro and HiSilicon on 26th July 2018** – At the Huawei campus in [Santa Clara, CA](https://maps.google.com/?q=2330+Central+Expressway,+Santa+Clara,+CA+95050&entry=gmail&source=g).
 
 **Logistics**: The workshop will be held at **Cafeteria Conference Room** in **Building C**. All outside visitors should head directly to the Linaro registration area which will be signposted. No need to go through Building B to sign in.
 
 **About**: How does the Arm-Powered supercomputing future look and how can you prepare for it? The Arm Architecture HPC Workshop will bring together the leading Arm vendors, end users and the open source development community in the Bay area, to discuss the latest products, developments and open source software support. Topics of focus are, but not limited to:
 
-*   Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
-*   OS and Runtime
-*   Tools
-*   Math Libraries
-*   Orchestration
-*   Machine Learning
+- Compilers including GCC, LLVM, C++, Fortran, optimisations, benchmarking and general support
+- OS and Runtime
+- Tools
+- Math Libraries
+- Orchestration
+- Machine Learning
 
 **For End Users**: In the Arm Architecture HPC Workshop you will hear from Arm Members and their Partners, information about new trends, technologies and products for the planning and operation of an Arm-Powered supercomputer.
 
@@ -74,14 +73,14 @@ tag: event
 
 **You can expect**:
 
-*   Exciting best practices and technology outlooks with peers from the Arm ecosystem
-*   Unique opportunities to network with current Arm users, vendors and the developer community
-*   We are looking forward to your visit!
+- Exciting best practices and technology outlooks with peers from the Arm ecosystem
+- Unique opportunities to network with current Arm users, vendors and the developer community
+- We are looking forward to your visit!
 
 **Arm Architecture HPC Workshop**
 
-*   Cost (Free)
-*   Sponsorship options available
+- Cost (Free)
+- Sponsorship options available
 
 <div class="members" markdown="1">
 <strong>Thanks to our sponsors</strong>
@@ -141,7 +140,6 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
 <div class="col-xs-12 text-center">
     <h2 id="featured-speakers">Featured Speakers</h2>
 </div>
-
 
 <div id="speakers">
     <div class="row">
@@ -286,6 +284,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
             </div>
         </div>
     </div>
+
 </div>
 
 <!-- Speaker Modals -->
@@ -557,6 +556,7 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
+
   </div>
 </div>
 <div class="modal fade" id="joshuaMora" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -581,9 +581,9 @@ data-src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEA
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
+
   </div>
 </div>
-
 
 </div>
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="schedule-tab">
@@ -623,17 +623,17 @@ defer(function () {
 
 <div role="tabpanel" class="tab-pane tab-pane-legal" id="resources" markdown="1">
 
-| Talk                                           | Slides                                                           |
-|:------------------------------------------------:|:------------------------------------------------------:|
-|Andrew Younge - Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing | [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop) |
-|Yutaka Ishikawa - Post-K and Arm HPC Ecosystem | [Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018) |
-|Gilad Shainer and Scot Schultz - Intelligent Interconnect Architecture to Enable Next Generation HPC | [Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018) |
-|Alex Bennée - Setting up an SVE developer environment | [Slides](https://www.slideshare.net/linaroorg/setting-up-for-sve-development-linaro-hpc-workshop-2018) |
-|Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm | [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018) |
-|Pavel Shamis - HPC network stack on ARM | [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018) |
-|Renato Golin - OpenHPC Automation with Ansible | [Slides](https://www.slideshare.net/linaroorg/openhpc-automation-with-ansible-renato-golin-linaro-arm-hpc-workshop-2018) |
-|Kanta Vekaria - Welcome Note | [Slides](https://www.slideshare.net/linaroorg/arm-architecture-hpc-workshop-santa-clara-2018-kanta-vekaria) |
-|Joshua Mora - Huawei’s requirements for the ARM based HPC solution readiness | [Slides](https://www.slideshare.net/linaroorg/huaweis-requirements-for-the-arm-based-hpc-solution-readiness-joshua-mora) |
+|                                                 Talk                                                 |                                                                          Slides                                                                           |
+| :--------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|       Andrew Younge - Vanguard Astra - Petascale Arm Platform for U.S. DOE/ASC Supercomputing        | [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop) |
+|                            Yutaka Ishikawa - Post-K and Arm HPC Ecosystem                            |            [Slides](https://www.slideshare.net/linaroorg/yutaka-ishikawa-postk-and-arm-hpc-ecosystem-linaro-arm-hpc-workshop-santa-clara-2018)            |
+| Gilad Shainer and Scot Schultz - Intelligent Interconnect Architecture to Enable Next Generation HPC |        [Slides](https://www.slideshare.net/linaroorg/intelligent-interconnect-architecture-to-enable-next-generation-hpc-linaro-hpc-workshop-2018)        |
+|                        Alex Bennée - Setting up an SVE developer environment                         |                          [Slides](https://www.slideshare.net/linaroorg/setting-up-for-sve-development-linaro-hpc-workshop-2018)                           |
+|                Jay Kruemcke - It just keeps getting better - SUSE enablement for Arm                 |               [Slides](https://www.slideshare.net/linaroorg/it-just-keeps-getting-better-suse-enablement-for-arm-linaro-hpc-workshop-2018)                |
+|                               Pavel Shamis - HPC network stack on ARM                                |                             [Slides](https://www.slideshare.net/linaroorg/hpc-network-stack-on-arm-linaro-hpc-workshop-2018)                              |
+|                            Renato Golin - OpenHPC Automation with Ansible                            |                 [Slides](https://www.slideshare.net/linaroorg/openhpc-automation-with-ansible-renato-golin-linaro-arm-hpc-workshop-2018)                  |
+|                                     Kanta Vekaria - Welcome Note                                     |                        [Slides](https://www.slideshare.net/linaroorg/arm-architecture-hpc-workshop-santa-clara-2018-kanta-vekaria)                        |
+|             Joshua Mora - Huawei’s requirements for the ARM based HPC solution readiness             |                 [Slides](https://www.slideshare.net/linaroorg/huaweis-requirements-for-the-arm-based-hpc-solution-readiness-joshua-mora)                  |
 
 </div><!--End Tab Content-->
 

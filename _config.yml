@@ -29,33 +29,33 @@ safe: false
 search-label: Linaro
 # Disqus Comments settings.
 disqus: true
-disqus_shortname: 'Linaro'
+disqus_shortname: "Linaro"
 # This is the url that is used when your site is built for canonicals etc.
 url: "https://www.linaro.org"
 # url: "https://www.site-test.linaro.org"
 
 # Make sure that Liquid errors stop the build
 liquid:
-    error_mode: strict
+  error_mode: strict
 
 # Shema.org Setup -> used in the schema.html include.
 schema:
-    organisation:
-        name: Linaro
-        url: https://www.linaro.org
-        sameAs:
-            - https://twitter.com/linaroorg
-            - https://www.facebook.com/LinaroOrg
-            - https://www.linkedin.com/company/1026961/
-            - https://plus.google.com/+LinaroOnAir
-            - https://github.com/Linaro
-            - https://www.slideshare.net/linaroorg
-        address:
-            street: Harston Mill, Royston Rd
-            town: Harston
-            county: Cambridge
-            post_code: CB22 7GG
-            country_code: UK
+  organisation:
+    name: Linaro
+    url: https://www.linaro.org
+    sameAs:
+      - https://twitter.com/linaroorg
+      - https://www.facebook.com/LinaroOrg
+      - https://www.linkedin.com/company/1026961/
+      - https://plus.google.com/+LinaroOnAir
+      - https://github.com/Linaro
+      - https://www.slideshare.net/linaroorg
+    address:
+      street: Harston Mill, Royston Rd
+      town: Harston
+      county: Cambridge
+      post_code: CB22 7GG
+      country_code: UK
 # Files that should be excluded from the Jekyll build.
 exclude:
   - _site
@@ -83,104 +83,108 @@ social:
     - https://github.com/Linaro
     - https://www.slideshare.net/linaroorg
 twitter:
-    username: linaroorg
+  username: linaroorg
 # Jekyll Collections configuration - Projects, Products and Documentation.
 collections:
-    company:
-        output: true
-        permalink: /membership/:name/
-    core:
-        output: true
-        permalink: /:collection/:path/
-    engineering:
-        output: true
-        permalink: /:collection/:name/
-    projects:
-        output: false
-        permalink: /engineering/:collection/:path/
-    services:
-        output: true
-        permalink: /:collection/:name/
-    authors:
-        output: true
-        permalink: /author/:name/
-    internships:
-        output: true
-        permalink: /careers/internships/:name/
+  company:
+    output: true
+    permalink: /membership/:name/
+  core:
+    output: true
+    permalink: /:collection/:path/
+  engineering:
+    output: true
+    permalink: /:collection/:name/
+  projects:
+    output: false
+    permalink: /engineering/:collection/:path/
+  services:
+    output: true
+    permalink: /:collection/:name/
+  authors:
+    output: true
+    permalink: /author/:name/
+  internships:
+    output: true
+    permalink: /careers/internships/:name/
 defaults:
   - scope:
-        path: ""
+      path: ""
     values:
-        image: /assets/images/social-media-image.png
+      image: /assets/images/social-media-image.png
   - scope:
-        path: ""
-        type: "posts"
+      path: ""
+      type: "posts"
     values:
-        layout: post
-        comments: true
+      layout: post
+      comments: true
   - scope:
-        path: "_posts/events"
-        type: "posts"
+      path: "_posts/events"
     values:
-        layout: post
-        comments: false
+      layout: event-index
+      comments: false
   - scope:
-        path: "_posts/awards"
-        type: "posts"
+      path: "_posts/events/resources"
     values:
-        layout: award-page
-        comments: false
+      layout: resource-post
+      comments: false
   - scope:
-        path: ""
-        type: "company"
+      path: "_posts/awards"
+      type: "posts"
     values:
-        layout: company
+      layout: award-page
+      comments: false
   - scope:
-        path: "_company/archived"
-        type: "company"
+      path: ""
+      type: "company"
     values:
-        archived: true
+      layout: company
   - scope:
-        path: ""
-        type: "authors"
+      path: "_company/archived"
+      type: "company"
     values:
-        layout: author
+      archived: true
   - scope:
-        type: "internships"
+      path: ""
+      type: "authors"
     values:
-        layout: vacancy
+      layout: author
   - scope:
-        path: ""
-        type: "core"
+      type: "internships"
     values:
-        layout: work-layout
-        image: ""
+      layout: vacancy
   - scope:
-        path: ""
-        type: "projects"
+      path: ""
+      type: "core"
     values:
-        layout: project-page
-        project: true
-        _hide_content: true
+      layout: work-layout
+      image: ""
   - scope:
-        path: ""
-        type: "engineering"
+      path: ""
+      type: "projects"
     values:
-        layout: landing-page
-        css-package: landing-page
-        js-package: engineering-landing-page
+      layout: project-page
+      project: true
+      _hide_content: true
   - scope:
-        path: ""
-        type: "services"
+      path: ""
+      type: "engineering"
     values:
-        layout: developer-services-layout
-        image:
-            name: LinaroDSVertical.png
-            path: /assets/images/content/LinaroDSVertical.png
+      layout: landing-page
+      css-package: landing-page
+      js-package: engineering-landing-page
   - scope:
-        path: "/sitemap.xml"
+      path: ""
+      type: "services"
     values:
-        redirect_from: /sitemap/
+      layout: developer-services-layout
+      image:
+        name: LinaroDSVertical.png
+        path: /assets/images/content/LinaroDSVertical.png
+  - scope:
+      path: "/sitemap.xml"
+    values:
+      redirect_from: /sitemap/
 # Gems that should be included in the Jekyll builld of this site.
 plugins:
   - jekyll-seo-tag
@@ -194,14 +198,14 @@ plugins:
   - jekyll-paginate-v2
 # Compress the html and beau2tify it.
 jekyll_tidy: # Compress the html and beautify it.
-    compress_html: true
-    exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
+  compress_html: true
+  exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
 # Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
 assets:
   compress:
-        js: true
+    js: true
   autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
   sources:
     - assets/js/
     - assets/js/vendor/
@@ -215,28 +219,28 @@ assets:
 
 # Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
 sass:
-    style: compressed
-    load_paths:
-        - assets/css
+  style: compressed
+  load_paths:
+    - assets/css
 #paginate_path: /:categories/:num/
 
 # Jekyll Pagination V2 Configuration
 pagination:
-    permalink: '/:num/'
-    enabled: true
-    per_page: 9
-    trail:
-        before: 2
-        after: 2
-    sort_reverse: true
-    sort_field: 'date'
+  permalink: "/:num/"
+  enabled: true
+  per_page: 9
+  trail:
+    before: 2
+    after: 2
+  sort_reverse: true
+  sort_field: "date"
 
 # Jekyll pagination v2 autopages configuration.
 autopages:
   enabled: false
 
 using_assets: true
-include: ['_pages']
+include: ["_pages"]
 
 # Cloud Cannon Configuration
 _options:
