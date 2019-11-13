@@ -123,11 +123,15 @@ defaults:
     values:
       layout: event-index
       comments: false
+      author: linaro
+      permalink: /events/:title/
+      categories: ["events"]
   - scope:
       path: "_posts/events/resources"
     values:
       layout: resource-post
       comments: false
+      author: linaro
       permalink: /events/:title/
       categories: ["event_resources"]
   - scope:
