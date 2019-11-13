@@ -3,6 +3,7 @@ layout: base
 js-package: resource-post
 css-package: resource-post
 ---
+{% assign event_details = site.categories["events"] | where: 'event', page.event | first %}
 {% include breadcrumb.html  %}
 <div class="container-fluid" id="content-container">
     <div class="row">
@@ -10,7 +11,11 @@ css-package: resource-post
             <div class="col-xs-12 no-padding {{current_connect}}">
                 <article class="post-content">
                     <div class="post-info">
-                        {% if page.date %}<small class="blog-date text-center"><em>Added to Event Resources on <b>{{page.date |  date: "%A, %B %-d, %Y"}}</b></em></small>{% endif %}
+                        {% if page.date %}
+                            <small class="blog-date text-center">
+                            <em>Added to <a href="{{event_details.url}}">{{event_details.title}}</a>'s Resources on <b>{{page.date |  date: "%A, %B %-d, %Y"}}</b></em>
+                            </small>
+                        {% endif %}
                         {% if page.session_track %}
                             <div class="tracks">
                                 {% if page.session_track contains "," %}
@@ -46,7 +51,7 @@ css-package: resource-post
                         <div class="presentation">
                                 {% if page.amazon_s3_presentation_url %}
                                 <div id="presentation-holder">
-                                    <img id="presentation-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
+                                    <img id="presentation-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     data-src="/assets/images/content/presentation-placeholder.svg"
                                     />
                                     <div class="embed-responsive embed-responsive-16by9 hidden-iframe" id="presentation-embed">
@@ -69,6 +74,6 @@ css-package: resource-post
                 </article>
                 {% include disqus-comments.html %}
             </div>
-        </div>        
+        </div>
     </div>
 </div>
