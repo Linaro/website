@@ -1,3 +1,5 @@
+{% assign event_posts_size = site.categories[include.event] | sort: 'date' | reverse | size %}
+{% if event_posts_size > 0 %}
 <div class="row events-row">
     {% assign event_details = site.posts | where: "event", include.event | first %}
     {% assign event_posts = site.categories[include.event] | sort: 'date' | reverse %}
@@ -18,3 +20,4 @@
         </div>
     {% endfor %}
 </div>
+{% endif %}
