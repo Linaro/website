@@ -17,6 +17,7 @@ jumbotron:
     background-image: /assets/images/content/hpc-asia-2019.png
     animation: fade
 ---
+
 <div class="row arm-hpc-row main" id="content-container">
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
@@ -76,4 +77,3 @@ jumbotron:
         <small>Monday 14th January 2019 - Guangzhou</small>
     </div>
 </div>
-
