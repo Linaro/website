@@ -927,6 +927,34 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown'}
  # Posts Config
+  - name: 'events'
+    label: 'Events'
+    folder: '_posts/events'
+    create: true
+    sort: "date:desc" # Default is title:asc
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: "/events/{{type}}/{{title}}/"
+    description: >
+      This section allows you to add/edit/delete an event that is listed at linaro.org/events/
+    editor:
+      preview: true
+    fields:
+      - { label: 'author', name: 'author', widget: 'hidden', default: 'linaro' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event-index' }
+      - { label: 'Tag', name: 'tag', widget: 'hidden', default: 'event' }
+      - { label: 'Event Title', name: 'title', widget: 'string'}
+      - { label: 'Event unique ID', name: 'event', widget: 'string', hint: 'Add a unique id to reference in event resources. I.e third-edge-computing-forum' }
+      - { label: 'Event URL', name: 'event_url', widget: 'string', hint: 'Provide a link to the event website.', required: false}
+      - { label: 'Event Description', name: 'description', widget: 'text', hint: 'Description of your event.'}
+      - { label: 'Event Location', name: 'location', widget: 'text', hint: 'The location of the event.'}
+      - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
+      - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop"], hint: "The type of event that we are listing."}
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.'}
+ # Posts Config
   - name: 'internships'
     label: 'Internships'
     folder: '_internships'

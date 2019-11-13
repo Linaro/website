@@ -43,11 +43,7 @@
                     <p class="description flex-text">{{post.description | truncate: 160 }}</p>
                 {% endif %}
                 <p>
-                    {% if post.has_resources %}
-                        <a href="{{post.url}}" class="btn btn-primary" role="button">View Resources</a>
-                    {% else %}
-                        <a href="{{post.url}}" class="btn btn-primary" role="button">More Info</a>
-                    {% endif %}
+                    <a href="{{post.url}}" class="btn btn-primary" role="button">More Info</a>
                 </p>
             </div>
         </div>
