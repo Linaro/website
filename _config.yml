@@ -128,6 +128,8 @@ defaults:
     values:
       layout: resource-post
       comments: false
+      permalink: /events/:title/
+      categories: ["event_resources"]
   - scope:
       path: "_posts/awards"
       type: "posts"
