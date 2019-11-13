@@ -1,8 +1,5 @@
 ---
-author: linaro
-categories:
-  - events
-event: ats-2018
+event: lpc2018
 date: "2018-10-25 01:00:00+00:00"
 image:
   featured: true

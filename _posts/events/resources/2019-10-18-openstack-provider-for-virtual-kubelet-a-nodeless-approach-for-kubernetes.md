@@ -1,9 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - attended
-  - open-infrastructure-summit-2019
 event: open-infrastructure-summit-2019
 title: Standard Firmware, device identity and onboarding
 description: >

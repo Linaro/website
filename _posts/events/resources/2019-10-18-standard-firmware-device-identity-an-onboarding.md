@@ -1,9 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - attended
-  - third-edge-computing-forum
 event: third-edge-computing-forum
 title: Standard Firmware, device identity and onboarding
 description: >

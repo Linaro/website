@@ -1,8 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - attended
 event: third-edge-computing-forum
 tag: event
 event_date: "2019-10-24 09:00:00+00:00"

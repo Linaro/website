@@ -1,8 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - attended
 event: open-infrastructure-summit-2019
 tag: event
 date: "2019-10-18 09:00:00+00:00"

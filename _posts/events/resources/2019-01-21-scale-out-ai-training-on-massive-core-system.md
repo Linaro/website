@@ -1,9 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - workshop
-  - arm-hpc-asia-2019
 event: arm-hpc-asia-2019
 date: "2019-01-21 11:40:00+00:00"
 slot: 15:50	- 16:10

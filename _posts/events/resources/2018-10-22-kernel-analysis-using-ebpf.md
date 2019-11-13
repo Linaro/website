@@ -1,10 +1,5 @@
 ---
 amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/elc-openiot-2018/elc-openiot-2018-kernel-analysis-using-ebpf.pdf
-author: linaro
-categories:
-  - events
-  - attended
-  - elc-openiot-2018
 event: elc-openiot-2018
 date: "2018-10-22 09:00:00+00:00"
 image:

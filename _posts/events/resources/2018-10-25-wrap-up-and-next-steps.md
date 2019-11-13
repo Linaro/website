@@ -1,9 +1,4 @@
 ---
-author: linaro
-categories:
-  - events
-  - attended
-  - ats-2018
 event: ats-2018
 date: "2018-10-25 01:00:00+00:00"
 image:
