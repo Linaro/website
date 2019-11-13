@@ -12,12 +12,19 @@ jumbotron:
         title: Accelerating deployment of Arm-based solutions
         image: /assets/images/content/hkg18-tech-banner.jpg
         title-class: big-title
+      - darken: true
+        title: 'Webinar: Running a fuzzing tool in OP-TEE'
+        description: |-
+          Tuesday 3 December 2019
+          6pm GMT
+        image: /assets/images/content/riscure-webinar-web-banner-100.jpg
       - buttons:
           - title: Learn More
-            url: /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
+            url: >-
+              /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
         darken: true
-        description: ""
         title: Linaro contributes to the Zephyr Project becoming PSA certified
+        description: ''
         image: /assets/images/content/city.jpg
       - buttons:
           - title: Learn More
