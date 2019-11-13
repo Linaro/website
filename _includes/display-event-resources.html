@@ -1,4 +1,4 @@
-{% assign event_posts_size = site.categories[include.event] | size %}
+{% assign event_posts_size = site.categories["event_resources"] | where: 'event', include.event | size %}
 {% if event_posts_size > 0 %}
 <div class="row events-row">
     {% assign event_details = site.posts | where: "event", include.event | first %}
