@@ -15,5 +15,4 @@ description: >-
 image: /assets/images/content/arm-tech-symposia-2019.png
 location: >
   Tokyo, Tokyo Conference Center Shinagawa
-has_resources: false
 ---

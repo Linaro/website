@@ -15,5 +15,4 @@ description: >-
 image: /assets/images/content/arm-tech-symposia-2019.png
 location: >
   Shanghai - The Ritz Carlton Pudong Hotel
-has_resources: false
 ---
