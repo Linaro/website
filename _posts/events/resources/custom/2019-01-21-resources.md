@@ -23,17 +23,17 @@ jumbotron:
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
       <li role="presentation">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}">
+        <a href="/events/arm-hpc-asia-2019/">
             Welcome
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#speakers">
+        <a href="/events/arm-hpc-asia-2019/#speakers">
             Speakers
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#schedule-tab">
+        <a href="/events/arm-hpc-asia-2019/#schedule-tab">
             Schedule
         </a>
       </li>
