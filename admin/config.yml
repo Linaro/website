@@ -939,7 +939,6 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Tag', name: 'tag', widget: 'hidden', default: 'event' }
       - { label: 'Event Title', name: 'title', widget: 'string'}
       - { label: 'Event unique ID', name: 'event', widget: 'string', hint: 'Add a unique id to reference in event resources. I.e third-edge-computing-forum' }
       - { label: 'Event URL', name: 'event_url', widget: 'string', hint: 'Provide a link to the event website.', required: false}
