@@ -3,7 +3,7 @@ title: Arm Architecture HPC Workshop Asia 2019 Resources
 layout: jumbotron
 author: linaro
 categories:
-- events
+- event_resources
 - workshop
 - arm-hpc-asia-2019
 date: '2018-11-01 09:00:00+00:00'
@@ -48,7 +48,7 @@ jumbotron:
 <!-- Start Resources Tab Panel -->
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="resources">
 <div class="row events-row">
-    {% assign event_posts = site.categories["arm-hpc-asia-2019"] | where: 'tag', 'resource' | sort: 'date' %}
+    {% assign event_posts = site.categories["event_resources"] | where: 'event', 'arm-hpc-asia-2019' | sort: 'date' %}
     {% for post in event_posts %}
         <div class="col-xs-12 col-sm-4">
             <a href="{{post.url}}">
