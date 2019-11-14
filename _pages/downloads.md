@@ -61,7 +61,7 @@ flow:
                   latest downloads.
               title:
                 size: h3
-                text: LCR
+                text: LAVA
           item_width: 4
         format: block
         style: text-center text-white
@@ -119,17 +119,17 @@ flow:
           blocks:
             - buttons:
                 - icon: fa fa-arrow-right
-                  title: View Downloads
-                  url: 'https://releases.linaro.org/android/reference-lcr/'
-                - icon: fa fa-arrow-right
                   title: View Wiki
-                  url: 'https://wiki-archive.linaro.org/LMG/ReleaseProcess'
+                  url: 'https://wiki.linaro.org/AOSP'
               text_content:
-                text: >
-                  LCR is released on a monthly basis following the Linaro
-                  release cadence. It is a stable release and text to be added
-                  at the beginning of the month. It comes in two variants M-LCR
-                  and R-LCR.
+                text: >-
+                  Linaro Confectionary Release (LCR) is a reference build of the
+                  Android Open Source Project (AOSP) for supported development
+                  boards that blends board support, latest kernels, AOSP and
+                  other Linaro technologies like OPTEE in one place. LCR is
+                  provided as is however we are interested in bug reports and
+                  will fix them on a best effort basis.  Downloads can be found
+                  on both snapshots.linaro.org and releases.linaro.org. 
               title:
                 size: h3
                 text: LCR
