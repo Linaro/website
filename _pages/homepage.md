@@ -12,7 +12,10 @@ jumbotron:
         title: Accelerating deployment of Arm-based solutions
         image: /assets/images/content/hkg18-tech-banner.jpg
         title-class: big-title
-      - darken: true
+      - buttons:
+          - title: Learn more
+            url: /events/webinar-running-a-fuzzing-tool-in-op-tee/
+        darken: true
         title: 'Webinar: Running a fuzzing tool in OP-TEE'
         description: |-
           Tuesday 3 December 2019
