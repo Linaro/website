@@ -943,14 +943,13 @@ collections:
       - { label: 'Event unique ID', name: 'event', widget: 'string', hint: 'Add a unique id to reference in event resources. I.e third-edge-computing-forum' }
       - { label: 'Event URL', name: 'event_url', widget: 'string', hint: 'Provide a link to the event website.', required: false}
       - { label: 'Event Description', name: 'description', widget: 'text', hint: 'Description of your event.'}
-      - { label: 'Event Location', name: 'location', widget: 'text', hint: 'The location of the event.'}
+      - { label: 'Event Location', name: 'location', widget: 'text', hint: 'The location of the event.', required: false}
       - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop"], hint: "The type of event that we are listing."}
-      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.'}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.', required: false}
  # Posts Config
   - name: 'event_resources'
     label: 'Events Resources'

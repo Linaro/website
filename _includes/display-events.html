@@ -1,5 +1,5 @@
 <div class="row events-row flex-row">
-{% assign event_posts = site.categories.events | where: 'tag', 'event' | sort: 'event_date' | reverse %}
+{% assign event_posts = site.categories.events | sort: 'event_date' | reverse %}
 
 {% for post in event_posts %}
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
