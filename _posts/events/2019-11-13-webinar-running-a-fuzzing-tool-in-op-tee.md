@@ -35,6 +35,7 @@ We are pleased to announce that on Tuesday 3 December 2019, Linaro together with
 
 Trusted Execution Environments (TEEs) have an increasing role in the security of embedded systems and one of the leading open-source solutions is OP-TEE by TrustedFirmware.org. As more and more security-critical tasks are moved to the TEE, the complexity and thus risk of vulnerabilities increases as well. Nowadays, all TEE’s run a small operating system where services to Trusted Applications are exposed through a system call interface.
 
+
 In this webinar, Martijn Bogaard, Senior Security Analyst at Riscure will talk about a fuzzing framework he has created for trusted operating systems, looking specifically at OP-TEE.
 
 Martijn will discuss the challenges of fuzzing a TEE running on an actual device as well as Riscure’s approach that allows the use of an unmodified version of AFL running as a Linux application in the non-secure world. Additionally, he will talk about the useful set of initial inputs Riscure have created to seed AFL, latest improvements to the framework and some of the issues found as a result of fuzzing OP-TEE.
