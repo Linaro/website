@@ -117,3 +117,7 @@ span.event_tag {
 #wrapper .events-row .thumbnail {
     padding: 0px;
 }
+.thumbnail img {
+    height: 200px;
+    object-fit: cover;
+}
