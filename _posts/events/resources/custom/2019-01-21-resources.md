@@ -3,13 +3,14 @@ title: Arm Architecture HPC Workshop Asia 2019 Resources
 layout: jumbotron
 author: linaro
 categories:
-- events
+- event_resources
 - workshop
 - arm-hpc-asia-2019
 date: '2018-11-01 09:00:00+00:00'
 css-package: workshop
 event: arm-hpc-asia-2019
 js-package: extended
+permalink: /events/arm-hpc-asia-2019/resources/
 image:
    path: /assets/images/content/hpc-asia-2019.png
 event: true
@@ -17,21 +18,22 @@ jumbotron:
     background-image: /assets/images/content/hpc-asia-2019.png
     animation: fade
 ---
+
 <div class="row arm-hpc-row main" id="content-container">
 <div class="container">
     <ul class="nav nav-tabs" role="tablist" id="tabbed_nav">
       <li role="presentation">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}">
+        <a href="/events/arm-hpc-asia-2019/">
             Welcome
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#speakers">
+        <a href="/events/arm-hpc-asia-2019/#speakers">
             Speakers
         </a>
       </li>
       <li role="presentation" class="">
-        <a href="/{% for category in page.categories %}{{category}}/{% endfor%}#schedule-tab">
+        <a href="/events/arm-hpc-asia-2019/#schedule-tab">
             Schedule
         </a>
       </li>
@@ -46,7 +48,7 @@ jumbotron:
 <!-- Start Resources Tab Panel -->
 <div role="tabpanel" class="tab-pane tab-pane-legal active" id="resources">
 <div class="row events-row">
-    {% assign event_posts = site.categories["arm-hpc-asia-2019"] | where: 'tag', 'resource' | sort: 'date' %}
+    {% assign event_posts = site.categories["event_resources"] | where: 'event', 'arm-hpc-asia-2019' | sort: 'date' %}
     {% for post in event_posts %}
         <div class="col-xs-12 col-sm-4">
             <a href="{{post.url}}">
@@ -76,4 +78,3 @@ jumbotron:
         <small>Monday 14th January 2019 - Guangzhou</small>
     </div>
 </div>
-
