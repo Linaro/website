@@ -1,24 +1,25 @@
 ---
-title: Two weeks to go to the HPC Workshop! 
+title: Two weeks to go to the HPC Workshop!
 author: linaro
 layout: post
 date: 2018-07-13 09:00:00+00:00
 description: >-
-    We are pleased to share the program for our HPC Workshop, which is free to attend.
+  We are pleased to share the program for our HPC Workshop, which is free to attend.
 image:
-   featured: true
-   path: /assets/images/content/hpc-share-image.png
+  featured: true
+  path: /assets/images/content/hpc-share-image.png
 categories: Blog
 tags: Open Source, Arm, High Performance Computing, HPC, Supercomputing, Santa Clara, Post-k
 published: true
 ---
-# Two weeks to go to the HPC Workshop! 
+
+# Two weeks to go to the HPC Workshop!
 
 We are pleased to share the program for our HPC Workshop, which is free to attend. Some of HPC’s leading experts will be presenting on a variety of topics, from the world’s first production Arm-based supercomputer to Post-K. The packed schedule will provide lots of different perspectives and input from a wide range of companies and organisations, including Arm, Cavium, Huawei, Linaro, Mellanox, Riken, Sandia, SUSE and the University of Bristol.
 
 See below some of the highlights you can expect. Did we mention it is free to attend?
 
-Register here: [https://www.linaro.org/latest/events/arm-hpc-santa-clara-2018/](https://www.linaro.org/latest/events/arm-hpc-santa-clara-2018/)
+Register here: [/events/arm-hpc-santa-clara-2018/](/events/arm-hpc-santa-clara-2018/)
 
 #### Isambard: the world's first production Arm-based supercomputer
 
@@ -28,7 +29,7 @@ Speaker: Simon McIntosh-Smith, Professor of High Performance Computing, Universi
 
 Vanguard Astra - Petascale ARM Platform for U.S. DOE/ASC SupercomputingThe Vanguard program looks to expand the potential technology choices for leadership-class High Performance Computing (HPC) platforms, not only for the National Nuclear Security Administration (NNSA) but for the Department of Energy (DOE) and wider HPC community. Specifically, there is a need to expand the supercomputing ecosystem by investing and developing emerging, yet-to-be-proven technologies and address both hardware and software challenges together, as well as to prove-out the viability of such novel platforms for production HPC workloads. The first deployment of the Vanguard program will be Astra, a prototype Petascale ARM supercomputer to be sited at Sandia National Laboratories during 2018. This talk will focus on the arthictecural details of Astra and the significant investments being made towards the maturing the ARM software ecosystem. Furthermore, we will share initial performance results based on our pre-general availability testbed system and outline several planned research activities for the machine."
 
-Speaker: Andrew J. Younge, R&D Computer Scientist, Sandia National Laboratories 
+Speaker: Andrew J. Younge, R&D Computer Scientist, Sandia National Laboratories
 
 #### Post-K and Arm HPC Ecosystem
 
@@ -58,12 +59,12 @@ Speaker: Jay Kreumcke, responsible for Linux server products for High Performanc
 
 Optimizing for ARM64 has some unique features that optimization for x86 does not. We will describe what those features are, including:
 
-- Importance of having latest tools and libraries 
-- Using existing optimizations as a guide to optimizing for ARM64 
-- Configuring tools for best optimization results 
-- Current status of HPC library and application performance 
-- Effects of hardware and configuration considerations 
-- Our experiences with various optimization techniques on numerous HPC applications and libraries 
+- Importance of having latest tools and libraries
+- Using existing optimizations as a guide to optimizing for ARM64
+- Configuring tools for best optimization results
+- Current status of HPC library and application performance
+- Effects of hardware and configuration considerations
+- Our experiences with various optimization techniques on numerous HPC applications and libraries
 
 Speaker: Joel Jones, Leader of Toolchain, Cavium
 
