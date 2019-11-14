@@ -61,7 +61,7 @@ flow:
                   latest downloads.
               title:
                 size: h3
-                text: LCR
+                text: LAVA
           item_width: 4
         format: block
         style: text-center text-white
