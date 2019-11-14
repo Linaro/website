@@ -949,7 +949,7 @@ collections:
       - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
       - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop"], hint: "The type of event that we are listing."}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.'}
  # Posts Config
   - name: 'event_resources'
