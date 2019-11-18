@@ -629,7 +629,7 @@ collections:
                         name: text_content
                         widget: object
                         fields:
-                            - {label: "Text", name: text, widget: text}
+                            - {label: "Text", name: text, widget: text, required: false}
                         required: false
                         hint: "Provide text content for your block"
                       - label: "Block Buttons"
