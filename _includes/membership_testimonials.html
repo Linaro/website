@@ -1,56 +1,21 @@
-<div class="row padded-row testimonials" id="key-factors">
-    <div class="container">
-        <div class="col-xs-12">
-            <h2 class="text-center  m-b-30">The value of Linaro and open source collaboration</h2>
+<div class="col-xs-12">
+    <div class="owl-carousel owl-theme" id="testimonial_slider">
+        {% for testimonial in site.data.membership_testimonials.items %}
+        <div class="item testimonial_item">
+            <video controls="controls" class="lazyload img-responsive"
+                poster="{{testimonial.cover_image}}" preload="none">
+                {% if testimonial.video.ogv %}
+                    <source src="" type="video/ogg">
+                {% endif %}
+                {% if testimonial.video.webm %}
+                    <source src="{{testimonial.video.webm}}" type="video/webm">
+                {% endif %}
+                {% if testimonial.video.mp4 %}
+                <source src="{{testimonial.video.mp4}}" type="video/mp4">
+                {% endif %}
+            </video>
+            <h4>{{testimonial.title}}</h4>
         </div>
-        <div class="col-xs-12">
-            <div class="owl-carousel owl-theme" id="testimonial_slider">
-                <div class="item testimonial_item">
-                    <video controls="controls" class="lazyload img-responsive"
-                        poster="/assets/images/content/thomas-molgaard-screen.png" preload="none">
-                        <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv" type="video/ogg">
-                        <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm" type="video/webm">
-                        <source src="https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4" type="video/mp4">
-                    </video>
-                    <h4>Thomas Molgaard - Senior Director, Head of China Central Engineering at Arm</h4>
-                </div>
-                <div class="item testimonial_item">
-                    <video controls="controls" class="lazyload img-responsive"
-                        poster="/assets/images/content/jon-masters-screen.png" preload="none">
-                        <source src="https://static.linaro.org/videos/JonMastersTestimonial.ogv" type="video/ogg">
-                        <source src="https://static.linaro.org/videos/JonMastersTestimonial.webm" type="video/webm">
-                        <source src="https://static.linaro.org/videos/JonMastersTestimonial.mp4" type="video/mp4">
-                    </video>
-                    <h4>Jon Masters - Computer Architect and Distinguished Engineer at Red Hat</h4>
-                </div>
-                <div class="item testimonial_item">
-                    <video controls="controls" class="lazyload img-responsive"
-                        poster="/assets/images/content/bill-mills-ti-testimonial.png" preload="none">
-                        <source src="https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.ogv" type="video/ogg">
-                        <source src="https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.webm" type="video/webm">
-                        <source src="https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.mp4" type="video/mp4">
-                    </video>
-                    <h4>Bill Mills - Chief Technologist of Open Linux Solutions at Texas Instruments</h4>
-                </div>
-                <div class="item testimonial_item">
-                    <video controls="controls" class="lazyload img-responsive"
-                        poster="/assets/images/content/larry-wikelius-screen.png" preload="none">
-                        <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.ogv" type="video/ogg">
-                        <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.webm" type="video/webm">
-                        <source src="https://static.linaro.org/videos/LarryWikeliusTestimonial.mp4" type="video/mp4">
-                    </video>
-                    <h4>Larry Wikelius - Vice President, Ecosystem and Partner Enabling at Marvell</h4>
-                </div>
-                <div class="item testimonial_item">
-                    <video controls="controls" class="lazyload img-responsive"
-                        poster="/assets/images/content/kouichi-hirai-fujitsu-testimonial-screen.png" preload="none">
-                        <source src="https://static.linaro.org/videos/KouichiHiraiTestimonial.ogv" type="video/ogg">
-                        <source src="https://static.linaro.org/videos/KouichiHiraiTestimonial.webm" type="video/webm">
-                        <source src="https://static.linaro.org/videos/KouichiHiraiTestimonial.mp4" type="video/mp4">
-                    </video>
-                    <h4>Kouichi Hirai - VP of Software Development at Fujitsu</h4>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
