@@ -1,5 +1,5 @@
 ---
-title: Arm HPC User Group Session at SC19
+title: 'HPC SIG Activities Presentation '
 description: >-
   The Tech Lead of Linaro's HPC Group Paul Isaac's recently gave a presentation
   at Arm's HPC User Group Session, an event co-located with SC19. These are the
