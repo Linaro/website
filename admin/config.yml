@@ -899,7 +899,14 @@ collections:
     fields:
       - { label: 'Resource Title', name: 'title', widget: 'string'}
       - { label: 'Resource Description', name: 'description', widget: 'text'}
-      - { label: 'Event Unique ID', name: 'event', widget: 'string', hint: 'Add the unique id of an event (set on an event). I.e third-edge-computing-forum' }
+      - label: 'Event'
+        name: 'event'
+        widget: relation
+        collection: "events"
+        searchFields: ["title"]
+        dispalyFields: ["title"]
+        valueField: "event"
+        hint: 'Add the unique id of an event (set on an event). I.e third-edge-computing-forum'
       - { label: 'Resource Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Resource Image', name: 'image', widget: 'image', hint: 'Add an image for the resource. I.e screen cap of the youtube video'}
       - { label: 'Resource Youtube Video URL', name: 'youtube_video_url', widget: 'string', hint: 'Provide a youtube video of the event resource.', required: false}
