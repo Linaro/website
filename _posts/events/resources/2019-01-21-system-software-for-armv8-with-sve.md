@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 02:00:00+00:00"
 slot: 09:00 - 09:25
-image:
-  featured: true
-  path: /assets/images/content/system-software-for-armv8-with-sve.jpg
+image: /assets/images/content/system-software-for-armv8-with-sve.jpg
 title: "System Software for Armv8 with SVE"
 tag: resource
 speakers:

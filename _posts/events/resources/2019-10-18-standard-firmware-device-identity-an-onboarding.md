@@ -5,9 +5,7 @@ description: >
   Edge Computing ecosystem requires standardized firmware, a common device identity and device onboarding across processor architectures (Arm, Intel, Power, RiscV) and across processors. Those requirements are leveraging existing standards but are not merely a downsize of cloud technologies and best practices. The talk will present the use cases, the standardization efforts and open source implementation status on those topics.
 date: "2019-10-18 03:00:00+00:00"
 slot: 12:50pm - 1:15pm
-image:
-  featured: true
-  path: /assets/images/content/third-edge-computing-forum.png
+image: /assets/images/content/third-edge-computing-forum.png
 tag: resource
 speakers:
   - biography: >
@@ -15,8 +13,6 @@ speakers:
     company: Linaro
     job-title: Director Edge & Fog computing group
     name: François-Frédéric Ozog
-# youtube_video_url: ""
-# amazon_s3_presentation_url: ""
 ---
 
 Edge Computing ecosystem requires standardized firmware, a common device identity and device onboarding across processor architectures (Arm, Intel, Power, RiscV) and across processors. Those requirements are leveraging existing standards but are not merely a downsize of cloud technologies and best practices. The talk will present the use cases, the standardization efforts and open source implementation status on those topics.

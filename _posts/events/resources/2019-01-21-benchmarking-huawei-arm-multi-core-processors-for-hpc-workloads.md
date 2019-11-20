@@ -1,11 +1,8 @@
 ---
-comments: false
 event: arm-hpc-asia-2019
 date: "2019-01-21 06:00:00+00:00"
 slot: 10:55	- 11:20
-image:
-  featured: true
-  path: /assets/images/content/benchmarking-huawei-arm-multi-core-processors-for-hpc-workloads.jpg
+image: /assets/images/content/benchmarking-huawei-arm-multi-core-processors-for-hpc-workloads.jpg
 title: "Benchmarking Huawei ARM Multi-Core Processors for HPC workloads"
 tag: resource
 speakers:

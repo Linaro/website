@@ -1,9 +1,7 @@
 ---
 event: lpc2018
 date: "2018-10-25 01:00:00+00:00"
-image:
-  featured: true
-  path: /assets/images/content/lpc2018-thumb.jpg
+image: /assets/images/content/lpc2018-thumb.jpg
 title: "On-Chip Interconnect API Proposal"
 speakers:
   - biography: '""'

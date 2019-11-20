@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 11:00:00+00:00"
 slot: 14:00	- 14:30
-image:
-  featured: true
-  path: /assets/images/content/the-new-generation-of-phytiums-64cores-processor-and-ecosystem.jpg
+image: /assets/images/content/the-new-generation-of-phytiums-64cores-processor-and-ecosystem.jpg
 title: "The New Generation of Phytium‘s 64Cores Processor and Ecosystem"
 tag: resource
 speakers:
