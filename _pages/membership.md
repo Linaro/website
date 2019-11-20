@@ -18,6 +18,15 @@ jumbotron:
           url: mailto:contact@linaro.org?subject=Linaro.org - Membership
           class: btn btn-linaro-home
 flow:
+    - row: container_row
+      style: key_factors
+      sections:
+        - format: title
+          title_content:
+            text: The value of Linaro and open source collaboration
+            size: h2
+        - format: custom_include
+          source: membership_testimonials.html
     - row: custom_include_row
       source: membership_testimonials.html
     - row: custom_include_row
