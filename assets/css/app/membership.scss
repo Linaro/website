@@ -299,10 +299,12 @@ span.testimonial {
     margin: auto;
 }
 
-#flow_wrapper  div#key-factors.testimonials {
+#flow_wrapper  .row.testimonials_row {
     background-color:#151515;
+     h2 {
+        color: white;
+    }
 }
-
 .col-xs-12.col-sm-4.fly.key-factor.text-center.testimonial-col.show-block {
         display: flex;
 }
