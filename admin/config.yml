@@ -2,6 +2,7 @@ backend:
   name: github
   repo: linaro/website
   branch: develop
+  preview_context: "Deploy preview"
   open_authoring: true
 publish_mode: editorial_workflow
 logo_url: https://www.linaro.org/assets/images/content/Linaro-Logo.svg
@@ -344,6 +345,23 @@ collections:
                     - {label: Name, name: title, widget: string}
                     - {label: Link, name: url, widget: string}
                     - {label: Active, name: active, widget: boolean, required: false}
+      - label: "Membership Testimonials"
+        name: "membership_testimonials"
+        file: "_data/membership_testimonials.yml"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+                - {label: Title, name: title, widget: string}
+                - {label: Cover Image, name: cover, widget: string}
+                - label: Video
+                  name: video
+                  widget: object
+                  fields:
+                    - {label: MP4, name: mp4, widget: string, required: false}
+                    - {label: WEBM, name: webm, widget: string, required: false}
+                    - {label: OGV, name: ogv, widget: string, required: false}
       - label: "Footer"
         name: "footer"
         file: "_data/footer.yml"
@@ -628,7 +646,7 @@ collections:
                         name: text_content
                         widget: object
                         fields:
-                            - {label: "Text", name: text, widget: text}
+                            - {label: "Text", name: text, widget: text, required: false}
                         required: false
                         hint: "Provide text content for your block"
                       - label: "Block Buttons"
