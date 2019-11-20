@@ -84,3 +84,4 @@ Human ingenuity continues to push the boundaries of our physical world and now b
 HPC SIG will be working in this space to ensure those new methods have a stable high performing computational environment from which to explore the art of the possible. Afterall, calculating a brain that has 86 billion neurons and countless more synaptic connections that from somewhere within, consciousness emerges…
 
 For more information on Linaro’s HPC Group, current and upcoming activities, check out this presentation I recently gave at the Arm HPC User Group, an event co-located with SC19.
+
