@@ -970,16 +970,16 @@ collections:
       - { label: 'Resource Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Resource Image', name: 'image', widget: 'image', hint: 'Add an image for the resource. I.e screen cap of the youtube video'}
       - { label: 'Resource Youtube Video URL', name: 'youtube_video_url', widget: 'string', hint: 'Provide a youtube video of the event resource.', required: false}
-      - { label: 'Resource Presentation URL', name: 'youtube_video_url', widget: 'string', hint: 'Add a link to the resource presentation. Url must be to a PDF of the slides.', required: false}
+      - { label: 'Resource Presentation URL', name: 'amazon_s3_presentation_url', widget: 'string', hint: 'Add a link to the resource presentation. Url must be to a PDF of the slides.', required: false}
       - label: 'Resource Speakers'
         name: "speakers"
         widget: "list"
         required: false
         fields:
-          - {label: "Name", widget: text, name: "name", hint: "The name of the speaker"}
+          - {label: "Name", widget: string, name: "name", hint: "The name of the speaker"}
           - {label: "Bio", widget: text, name: "biography", hint: "The bio of the speaker"}
           - {label: "Job Title", widget: string, name: "job-title", hint: "Job title of the speaker"}
-          - {label: "Company", widget: text, name: "company", hint: "Thes speaker's company."}
+          - {label: "Company", widget: string, name: "company", hint: "Thes speaker's company."}
       - { label: 'Event Abstract/Details', name: 'body', widget: 'markdown', hint: 'Any additional information for your event resource/session.'}
  # Posts Config
   - name: 'internships'
