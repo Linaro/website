@@ -19,7 +19,7 @@ jumbotron:
           class: btn btn-linaro-home
 flow:
     - row: container_row
-      style: key_factors
+      style: testimonials_row
       sections:
         - format: title
           title_content:
