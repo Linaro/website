@@ -1038,13 +1038,13 @@ collections:
     label: 'Authors'
     folder: '_authors/'
     create: true
+    identifier_field: name
     description: >
       This collection allows you to add/edit/delete authors. These are dynamically pulled in when writing
       posts. When deleting authors the change is made directly to the develop branch (which causes a staging.linaro.org build).
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
       - { label: 'Name', name: 'name', widget: 'string', required: true}
       - { label: 'First Name', name: 'first_name', widget: 'string', required: true}
       - { label: 'Last Name', name: 'last_name', widget: 'string', required: true}
