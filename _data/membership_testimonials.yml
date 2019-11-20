@@ -1,0 +1,19 @@
+items:
+    - title: Thomas Molgaard - Senior Director, Head of China Central Engineering at Arm
+      cover_image: /assets/images/content/thomas-molgaard-screen.png
+      video:
+        mp4: https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4
+        webm: https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm
+        ogv: https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv
+    - title: Bill Mills - Chief Technologist of Open Linux Solutions at Texas Instruments
+      cover_image: /assets/images/content/bill-mills-ti-testimonial.png
+      video:
+        mp4: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.mp4
+        webm: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.webm
+        ogv: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.ogv
+    - title: Larry Wikelius - Vice President, Ecosystem and Partner Enabling at Marvell
+      cover_image: /assets/images/content/larry-wikelius-screen.png
+      video:
+        mp4: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.mp4
+        webm: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.webm
+        ogv: https://static.linaro.org/videos/ti-value-of-being-a-linaro-member.ogv
