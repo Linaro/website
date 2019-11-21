@@ -75,12 +75,12 @@ Announcements from Fujitsu of new customers for systems based on their A64FX pro
 
 ## Are we on the verge of a Super AI?
 
-We have concentrated on highlighting that simply having the tag of AI does not mean that the functionality being delivered is the entire scope of AI. In fact, as is the case with the vast majority of ‘AI’ tagged activities the focus is on the subset, Machine Learning model creation and then inferencing using the built models.
+We have concentrated on highlighting that simply having the tag of AI does not mean that the functionality being delivered is the entire scope of AI. In fact, as is the case with the vast majority of ‘AI’ tagged activities, the focus is on the subset, Machine Learning model creation and then inferencing using the built models.
 
 ## The Future, TBD!
 
-Human ingenuity continues to push the boundaries of our physical world and now builds virtual worlds that can be used to explore beyond the constraints of known physics. We have created so much physically and ethereally. Will we mimic our neural pathways to create an AI which we might call ‘super’,  Super AI soon? Probably, but not through Machine Learning alone. New computing architectures and approaches are demanded in areas such as Oscillatory networks, Reservoir computing, Generative Adversarial Networks, Spiking Neural Networks, Neuromorphic computing, Autonomic Asynchronous Recursive Neuromorphic Networks.
+Human ingenuity continues to push the boundaries of our physical world and now builds virtual worlds that can be used to explore beyond the constraints of known physics. We have created so much physically and ethereally. Will we mimic our neural pathways to create an AI which we might call ‘super’, Super AI soon? Probably, but not through Machine Learning alone. New computing architectures and approaches are demanded in areas such as Oscillatory networks, Reservoir computing, Generative Adversarial Networks, Spiking Neural Networks, Neuromorphic computing, Autonomic Asynchronous Recursive Neuromorphic Networks.
 
-HPC SIG will be working in this space to ensure those new methods have a stable high performing computational environment from which to explore the art of the possible. Afterall, calculating a brain that has 86 billion neurons and countless more synaptic connections that from somewhere within, consciousness emerges…
+Linaro's HPC Group will be working in this space to ensure those new methods have a stable high performing computational environment from which to explore the art of the possible. Afterall, calculating a brain that has 86 billion neurons and countless more synaptic connections that from somewhere within, consciousness emerges…
 
 For more information on Linaro’s HPC Group, current and upcoming activities, [check out this presentation](https://www.linaro.org/events/hpc-sig-activities-presentation/) I recently gave at the Arm HPC User Group, an event co-located with SC19.
