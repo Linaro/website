@@ -274,7 +274,7 @@ collections:
             widget: "list"
             fields:
                 - {label: Title, name: title, widget: string}
-                - {label: Cover Image, name: cover, widget: string}
+                - {label: Cover Image, name: cover_image, widget: image}
                 - label: Video
                   name: video
                   widget: object
