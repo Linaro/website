@@ -486,9 +486,6 @@ collections:
             media_library:
               config:
                 multiple: true
-      # ***********************
-      # Flow Row Configuration
-      # ***********************
       - label: "Flow"
         name: "flow"
         widget: "list"
