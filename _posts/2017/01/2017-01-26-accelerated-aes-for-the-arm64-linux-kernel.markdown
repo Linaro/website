@@ -28,7 +28,7 @@ The Armv8 architecture extends the AArch64 and AArch32 instruction sets with ded
 ## AES primer
 
 
-The American Encryption Standard (AES) is a variant of the Rijndael cipher with a fixed block size of 16 bytes, and supports key sizes of 16, 24 and 32 bytes, referred to as AES-128, AES-192 and AES-256, respectively. It consists of a sequence of rounds (10, 12, or 14 for the respective key sizes) that operate on a state that can be expressed in matrix notation as follows:
+The Advanced Encryption Standard (AES) is a variant of the Rijndael cipher with a fixed block size of 16 bytes, and supports key sizes of 16, 24 and 32 bytes, referred to as AES-128, AES-192 and AES-256, respectively. It consists of a sequence of rounds (10, 12, or 14 for the respective key sizes) that operate on a state that can be expressed in matrix notation as follows:
 
 {% include image.html name="blog-pic-1.jpg" alt="Blog Pic 1" %}
 
