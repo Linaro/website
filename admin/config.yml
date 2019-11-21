@@ -392,8 +392,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Custom JS Package", name: "js-package", widget: "string", required: false}
-      - {label: "Custom CSS Package", name: "css-package", widget: "string", required: false}
+      - {label: "Custom JS Package", name: "js-package", widget: hidden, default: false, required: false}
+      - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: false, required: false}
       - {label: "Layout", name: "layout", widget: "string", required: true, hint: "If in doubt - use the flow layout."}
       - label: "Jumbotron"
         name: "jumbotron"
