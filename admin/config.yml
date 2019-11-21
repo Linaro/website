@@ -384,6 +384,9 @@ collections:
     editor:
       preview: false
     preview_path: "{{slug}}"
+    create: true
+    description: >
+      This collection allows you to add/edit/delete pages on Linaro.org.
     slug: "{{permalink}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
