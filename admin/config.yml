@@ -763,7 +763,7 @@ collections:
             name: "alt"
             widget: "string"
             required: false
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Page Content", name: "body", widget: "markdown", required: false}
   - name: 'news'
     label: 'News Posts'
     folder: '_posts/2019/news'
@@ -809,7 +809,7 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: 'Post Content', name: 'body', widget: 'markdown'}
   - name: 'blog'
     label: 'Blog Posts'
     folder: '_posts/2019/blog'
@@ -854,7 +854,7 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: 'Post Content', name: 'body', widget: 'markdown'}
   - name: 'events'
     label: 'Events'
     folder: '_posts/events'
@@ -875,8 +875,8 @@ collections:
       - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-      - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
+      - { label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
+      - { label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.', required: false}
   - name: 'event_resources'
     label: 'Events Resources'
