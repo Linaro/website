@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 11:10:00+00:00"
 slot: 14:30	- 14:50
-image:
-  featured: true
-  path: /assets/images/content/arm-neoverse.jpg
+image: /assets/images/content/arm-neoverse.jpg
 title: "Arm Neoverse"
 tag: resource
 speakers:

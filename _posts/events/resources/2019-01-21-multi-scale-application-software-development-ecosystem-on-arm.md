@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 09:00:00+00:00"
 slot: 13:05 - 13:30
-image:
-  featured: true
-  path: /assets/images/content/multi-scale-application-software-development-ecosystem-on-arm.jpg
+image: /assets/images/content/multi-scale-application-software-development-ecosystem-on-arm.jpg
 title: "Multi-scale Application Software Development Ecosystem on ARM"
 tag: resource
 speakers:

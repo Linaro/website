@@ -5,9 +5,7 @@ description: >
   Nowadays everyone talks about Kubernetes. There are also many useful tools for user to get Kubernetes services in OpenStack. However, for those who just focus their workloads and applications, launching and maintaining Kubernetes cluster is nightmare. Is there an easy way to use Kubernetes inside OpenStack?
 date: "2019-10-18 03:00:00+00:00"
 slot: 12:50pm - 1:15pm
-image:
-  featured: true
-  path: /assets/images/content/open-infrastructure-summit-2019.png
+image: /assets/images/content/open-infrastructure-summit-2019.png
 tag: resource
 speakers:
   - biography: >

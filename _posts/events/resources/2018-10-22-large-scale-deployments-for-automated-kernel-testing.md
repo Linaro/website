@@ -3,18 +3,12 @@ amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-res
 author: linaro
 event: elc-openiot-2018
 date: "2018-10-22 09:00:00+00:00"
-image:
-  featured: false
-  path: /assets/images/content/elc-openiot-europe-2018-placeholder.png
-location: >-
-  Edinburgh International Conference Centre
-  Edinburgh, UK
+image: /assets/images/content/elc-openiot-europe-2018-placeholder.png
 speakers:
   - biography: '""'
     company: Linaro
     job-title:
     name: David Pigott
-    speaker-image: DavePigott.gif
 title: "Large Scale Deployments for Automated Kernel Testing"
 youtube_video_url: https://www.youtube.com/watch?v=VnlPmQ1I6hA
 ---

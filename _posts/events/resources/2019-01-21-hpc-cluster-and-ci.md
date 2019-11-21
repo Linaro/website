@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 08:00:00+00:00"
 slot: 11:45	- 12:10
-image:
-  featured: true
-  path: /assets/images/content/hpc-cluster-and-ci.jpg
+image: /assets/images/content/hpc-cluster-and-ci.jpg
 title: "HPC Cluster and CI"
 tag: resource
 speakers:

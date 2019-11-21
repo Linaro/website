@@ -2,9 +2,7 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 01:00:00+00:00"
 slot: 08:55	- 09:00
-image:
-  featured: true
-  path: /assets/images/content/introduction-to-workshop.jpg
+image: /assets/images/content/introduction-to-workshop.jpg
 title: "Introduction to Workshop (Jill Guo, Linaro)"
 tag: resource
 speakers:

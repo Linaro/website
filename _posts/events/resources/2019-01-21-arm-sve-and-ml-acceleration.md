@@ -2,12 +2,8 @@
 event: arm-hpc-asia-2019
 date: "2019-01-21 04:00:00+00:00"
 slot: 10:05	- 10:30
-image:
-  featured: true
-  path: /assets/images/content/arm-sve-and-ml-acceleration.jpg
-layout: resource-post
+image: /assets/images/content/arm-sve-and-ml-acceleration.jpg
 title: "Arm SVE and ML acceleration"
-tag: resource
 speakers:
   - biography: '""'
     company: Arm
