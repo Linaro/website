@@ -5,6 +5,12 @@ items:
         mp4: https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4
         webm: https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm
         ogv: https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv
+    - title: Rob Oshana - VP Software Engineering Research and Development at NXP Semiconductors
+      cover_image: /assets/images/content/nxp-testimonial-cover.png
+      video:
+        mp4: https://static.linaro.org/videos/nxp_linaro_testimonial.mp4
+        webm: https://static.linaro.org/videos/nxp_linaro_testimonial.webm
+        ogv: https://static.linaro.org/videos/nxp_linaro_testimonial.ogv
     - title: Bill Mills - Chief Technologist of Open Linux Solutions at Texas Instruments
       cover_image: /assets/images/content/bill-mills-ti-testimonial.png
       video:
