@@ -20,6 +20,6 @@ The morning was spent going through and bikeshedding/discussing common industry 
 
 The afternoon was a bit more focused on specific items. Discussing areas in which we could work together through standardized interfaces and projects. The only applause of the day was when everyone agreed to collaborate on Matt Hart's [pdudaemon](https://github.com/pdudaemon/pdudaemon) project for pdu automation.
 
-We finished by discussing how to build a community around automated linux testing. We [identified key action items](https://elinux.org/ATS_2018_Minutes) to work on and agreed to use the [mailing list](https://lists.yoctoproject.org/listinfo/automated-testing) more.
+We finished by discussing how to build a community around automated linux testing. We [identified key action items](https://elinux.org/ATS_2018_Minutes) to work on and agreed to use the mailing list (https://lists.yoctoproject.org/listinfo/automated-testing) more.
 
 To watch the complete summit, [click here](/events/ats-2018/) to watch the video recordings.
