@@ -274,7 +274,7 @@ collections:
             widget: "list"
             fields:
                 - {label: Title, name: title, widget: string}
-                - {label: Cover Image, name: cover, widget: string}
+                - {label: Cover Image, name: cover_image, widget: image}
                 - label: Video
                   name: video
                   widget: object
@@ -384,14 +384,17 @@ collections:
     editor:
       preview: false
     preview_path: "{{slug}}"
+    create: true
+    description: >
+      This collection allows you to add/edit/delete pages on Linaro.org.
     slug: "{{permalink}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Custom JS Package", name: "js-package", widget: "string", required: false}
-      - {label: "Custom CSS Package", name: "css-package", widget: "string", required: false}
-      - {label: "Layout", name: "layout", widget: "string", required: true, hint: "If in doubt - use the flow layout."}
+      - {label: "Custom JS Package", name: "js-package", widget: hidden, default: false, required: false}
+      - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: false, required: false}
+      - {label: "Layout", name: "layout", widget: hidden, default: "flow", required: true}
       - label: "Jumbotron"
         name: "jumbotron"
         widget: "object"
@@ -483,9 +486,6 @@ collections:
             media_library:
               config:
                 multiple: true
-      # ***********************
-      # Flow Row Configuration
-      # ***********************
       - label: "Flow"
         name: "flow"
         widget: "list"
@@ -763,7 +763,7 @@ collections:
             name: "alt"
             widget: "string"
             required: false
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Page Content", name: "body", widget: "markdown", required: false}
   - name: 'news'
     label: 'News Posts'
     folder: '_posts/2019/news'
@@ -798,11 +798,8 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - label: "Category"
-        name: category
-        widget: "select"
-        options: ["News", "Blog"]
         hint: "Your post category - limited to one category - multiple tags can be added however"
+      - {label: "Category", name: "category", widget: hidden, default: "News"}
       - {
           label: 'Author',
           name: 'author',
@@ -812,7 +809,7 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: 'Post Content', name: 'body', widget: 'markdown'}
   - name: 'blog'
     label: 'Blog Posts'
     folder: '_posts/2019/blog'
@@ -847,11 +844,7 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - label: "Category"
-        name: category
-        widget: "select"
-        options: ["News", "Blog"]
-        hint: "Your post category - limited to one category - multiple tags can be added however"
+      - {label: "Category", name: "category", widget: hidden, default: "Blog"}
       - {
           label: 'Author',
           name: 'author',
@@ -861,7 +854,7 @@ collections:
           searchFields: [name],
           valueField: 'username'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: 'Post Content', name: 'body', widget: 'markdown'}
   - name: 'events'
     label: 'Events'
     folder: '_posts/events'
@@ -882,8 +875,8 @@ collections:
       - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-      - {label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
+      - { label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
+      - { label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.', required: false}
   - name: 'event_resources'
     label: 'Events Resources'
