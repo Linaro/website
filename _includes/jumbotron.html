@@ -1,10 +1,11 @@
-{% if page.jumbotron.slider %}
+{% assign slider_size = page.jumbotron.slider | size %}
+{% if page.jumbotron.slider and slider_size > 0 %}
 <div class="{% if page.jumbotron.video %}video {% endif %}row {% if page.jumbotron.background-image %}background-image {% endif %}
 {% if page.image.background-class %}{{page.image.background-class}}{% endif %}" id="jumbotron"
     {% if page.jumbotron.background-image %} style=" background-image: url('{{page.jumbotron.background-image}}');"
     {% else %} class="jumbotron text-center featured-jumbotron" {% endif %}>
     <div id="jumbotron-slider" class="owl-carousel owl-theme full-width-slider">
-        {% for slide in page.jumbotron.slider.slides %}
+        {% for slide in page.jumbotron.slider %}
         <div class="item {% if slide.class %}{{slide.class}}{% endif %} owl-lazy owl-slide flex-center {% if slide.darken %}overlay{% endif %} {% if forloop.first %}active{% endif %}"
             {% if slide.image %}data-src="{{slide.image}}"
             {% endif %}{% if slide.slide-style %}style="{{slide.slide-style}}" {% endif %}>
