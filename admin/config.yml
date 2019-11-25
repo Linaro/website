@@ -376,8 +376,15 @@ collections:
                   required: false
                   widget: 'list'
                   fields:
-                    - {label: Name, name: text, widget: string}
-                    - {label: Link, name: url, widget: string}
+                    - {label: Text, name: text, widget: string, required: false}
+                    - {label: Link, name: url, widget: string, required: false}
+                    - label: "Sub Items"
+                      name: options
+                      widget: list
+                      required: false
+                      fields:
+                        - {label: Text, name: text, widget: string, required: false}
+                        - {label: Link, name: url, widget: string, required: false}
   - label: "Pages"
     name: "pages"
     folder: "_pages"
