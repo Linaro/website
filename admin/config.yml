@@ -413,8 +413,7 @@ collections:
             required: false
           - label: "Slider"
             name: "slider"
-            widget: "list"
-            required: false
+            widget: list
             fields:
               - label: "Slide Title"
                 name: "title"
@@ -489,7 +488,7 @@ collections:
           - label: "Row Type"
             name: "row"
             widget: "select"
-            default: ["main_content_row"]
+            default: "main_content_row"
             options: ["main_content_row","container_row","full_width_row","custom_include_row"]
             hint: "Select a row type to get started. Defaults to main_content_row which will display the 'Page Content' section inside a container."
           - label: "Custom Include Source"
