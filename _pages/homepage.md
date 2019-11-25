@@ -7,7 +7,6 @@ css-package: home
 layout: flow
 jumbotron:
   slider:
-    slides:
       - darken: true
         title: Accelerating deployment of Arm-based solutions
         image: /assets/images/content/hkg18-tech-banner.jpg
@@ -63,4 +62,3 @@ flow:
   - row: custom_include_row
     source: home/connect.html
 ---
-

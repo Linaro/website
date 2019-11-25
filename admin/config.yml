@@ -413,57 +413,51 @@ collections:
             required: false
           - label: "Slider"
             name: "slider"
-            widget: "object"
-            required: false
+            widget: list
             fields:
-            - label: "Slides"
-              name: "slides"
-              widget: "list"
-              required: false
-              fields:
-                - label: "Slide Title"
-                  name: "title"
-                  required: false
-                  widget: "string"
-                - label: "Slide Description"
-                  name: "description"
-                  required: false
-                  default: ""
-                  widget: "text"
-                - label: "Title Class"
-                  name: "title-class"
-                  required: false
-                  widget: "string"
-                  hint: "Adds a css style to the title. Leave blank if unsure."
-                - label: "Slide Style"
-                  name: "slide-class"
-                  widget: string
-                  required: false
-                  hint: "Adds inline style attributes to the slide background. Leave blank if unsure."
-                - label: "Darken"
-                  name: "darken"
-                  widget: "boolean"
-                  default: true
-                  required: false
-                  hint: "Adds the dark filter to the background image. This should usually be toggled."
-                - label: "Slide Image"
-                  name: "image"
-                  widget: "image"
-                  required: false
-                  hint: "Adds the background image for your slide."
-                - label: "Slide Buttons"
-                  name: "buttons"
-                  widget: list
-                  required: false
-                  fields:
-                    - label: "Button Title"
-                      name: "title"
-                      widget: string
-                      required: false
-                    - label: "Button URL"
-                      name: "url"
-                      widget: string
-                      required: false
+              - label: "Slide Title"
+                name: "title"
+                required: false
+                widget: "string"
+              - label: "Slide Description"
+                name: "description"
+                required: false
+                default: ""
+                widget: "text"
+              - label: "Title Class"
+                name: "title-class"
+                required: false
+                widget: "string"
+                hint: "Adds a css style to the title. Leave blank if unsure."
+              - label: "Slide Style"
+                name: "slide-class"
+                widget: string
+                required: false
+                hint: "Adds inline style attributes to the slide background. Leave blank if unsure."
+              - label: "Darken"
+                name: "darken"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Adds the dark filter to the background image. This should usually be toggled."
+              - label: "Slide Image"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "Adds the background image for your slide."
+              - label: "Slide Buttons"
+                name: "buttons"
+                widget: list
+                required: false
+                fields:
+                  - label: "Button Title"
+                    name: "title"
+                    widget: string
+                    required: false
+                  - label: "Button URL"
+                    name: "url"
+                    widget: string
+                    required: false
           - label: "Background Image"
             name: "background-image"
             widget: "image"
@@ -493,8 +487,10 @@ collections:
         fields:
           - label: "Row Type"
             name: "row"
-            widget: "string"
-            hint: "Enter a row type to get started using the flow layout(e.g container_row, full_width_row) "
+            widget: "select"
+            default: "main_content_row"
+            options: ["main_content_row","container_row","full_width_row","custom_include_row"]
+            hint: "Select a row type to get started. Defaults to main_content_row which will display the 'Page Content' section inside a container."
           - label: "Custom Include Source"
             name: "source"
             widget: "string"
