@@ -798,8 +798,7 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-        hint: "Your post category - limited to one category - multiple tags can be added however"
-      - {label: "Category", name: "category", widget: hidden, default: "News"}
+      - { label: "Category", name: "category", widget: hidden, default: "News"}
       - {
           label: 'Author',
           name: 'author',
