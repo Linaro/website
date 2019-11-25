@@ -972,4 +972,4 @@ collections:
         widget: 'image'
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false}
+      - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
