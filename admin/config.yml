@@ -493,8 +493,10 @@ collections:
         fields:
           - label: "Row Type"
             name: "row"
-            widget: "string"
-            hint: "Enter a row type to get started using the flow layout(e.g container_row, full_width_row) "
+            widget: "select"
+            default: ["main_content_row"]
+            options: ["main_content_row","container_row","full_width_row","custom_include_row"]
+            hint: "Select a row type to get started. Defaults to main_content_row which will display the 'Page Content' section inside a container"
           - label: "Custom Include Source"
             name: "source"
             widget: "string"
