@@ -13,9 +13,7 @@ jumbotron:
   title: Test Page
   description: Test Page description.
   slider:
-    slides:
-      - darken: true
-        description: ''
+    slides: []
 flow:
   - row: main_content_row
 image:
