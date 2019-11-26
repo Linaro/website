@@ -376,8 +376,15 @@ collections:
                   required: false
                   widget: 'list'
                   fields:
-                    - {label: Name, name: text, widget: string}
-                    - {label: Link, name: url, widget: string}
+                    - {label: Text, name: text, widget: string, required: false}
+                    - {label: Link, name: url, widget: string, required: false}
+                    - label: "Sub Items"
+                      name: options
+                      widget: list
+                      required: false
+                      fields:
+                        - {label: Text, name: text, widget: string, required: false}
+                        - {label: Link, name: url, widget: string, required: false}
   - label: "Pages"
     name: "pages"
     folder: "_pages"
@@ -391,11 +398,11 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "URL", name: "permalink", widget: "string"}
       - {label: "Custom JS Package", name: "js-package", widget: hidden, default: false, required: false}
       - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: false, required: false}
       - {label: "Layout", name: "layout", widget: hidden, default: "flow", required: true}
-      - label: "Jumbotron"
+      - label: "Header"
         name: "jumbotron"
         widget: "object"
         fields:
@@ -473,7 +480,7 @@ collections:
                 - {label: "Button URL", name: url, widget: string, required: false, hint: "The url your button will link to."}
                 - {label: "Button Class", name: class, widget: string, required: false, hint: "Add an additional class to your button for custom styling."}
                 - {label: "Button Icon", name: icon, widget: string, required: false, hint: "Optionally add a font awesome icon to your button. Required format - 'fa fa-download' visit https://fontawesome.com/v4.7.0/icons/ for a full list of icons available."}
-          - label: "Carousel Images"
+          - label: "Background Carousel Images"
             name: "carousel-images"
             widget: "image"
             required: false
@@ -965,4 +972,4 @@ collections:
         widget: 'image'
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false}
+      - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
