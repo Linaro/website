@@ -1,10 +1,7 @@
 ---
-author: linaro
-layout: event-index
-tag: event
 title: 'Webinar: Running a fuzzing tool in OP-TEE'
 event: Linaro and Riscure Webinar
-event_url: 'http://bit.ly/2NU5POk'
+event_url: 'http://bit.ly/2XPrCvl'
 description: >-
   Linaro and Riscure will host a webinar on a fuzzing tool Riscure has created,
   using OP-TEE as the use case.
@@ -13,7 +10,7 @@ date: '2019-11-13 09:22:08'
 event_date: '2019-12-03 06:00:00'
 event_end_date: '2019-12-03 09:22:08'
 image: /assets/images/content/riscure-webinar-web-banner-100.jpg
-event_type: workshop
+event_type: webinar
 ---
 **Webinar: Running a fuzzer in OP-TEE**
 
@@ -27,14 +24,13 @@ We are pleased to announce that on Tuesday 3 December 2019, Linaro together with
 
 **Time**: 6pm - 7pm GMT
 
-**Register here**: <http://bit.ly/2NU5POk>
+**Register here**: <http://bit.ly/2XPrCvl>
 
 - - -
 
 **Abstract**:
 
 Trusted Execution Environments (TEEs) have an increasing role in the security of embedded systems and one of the leading open-source solutions is OP-TEE by TrustedFirmware.org. As more and more security-critical tasks are moved to the TEE, the complexity and thus risk of vulnerabilities increases as well. Nowadays, all TEE’s run a small operating system where services to Trusted Applications are exposed through a system call interface.
-
 
 In this webinar, Martijn Bogaard, Senior Security Analyst at Riscure will talk about a fuzzing framework he has created for trusted operating systems, looking specifically at OP-TEE.
 
