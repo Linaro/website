@@ -23,7 +23,7 @@ layout: post
 ---
 
 
-In the [first blog post](https://www.linaro.org/blog/meltdown-spectre/) we gave an introduction to the techniques used by a CPU to be able to maximize performance and utilization. Then we had a quick introduction to side channel attacks where we looked at the Flush + Reload and the Prime + Probe cache time attacks. Finally we also looked into how the Meltdown and Spectre attacks works in practice. In this second part we are going to look more into how Spectre and Meltdown impact various components we are working with in Linaro.
+In the [first blog post](/blog/meltdown-spectre/) we gave an introduction to the techniques used by a CPU to be able to maximize performance and utilization. Then we had a quick introduction to side channel attacks where we looked at the Flush + Reload and the Prime + Probe cache time attacks. Finally we also looked into how the Meltdown and Spectre attacks works in practice. In this second part we are going to look more into how Spectre and Meltdown impact various components we are working with in Linaro.
 
 # OP-TEE
 
@@ -33,7 +33,7 @@ Conceptually TEEs works in a similar way to traditional OSes, that is you will h
 
 {% include image.html name="trustzone-matrix.png" alt="TrustZone Matrix" %}
 
-OP-TEE consists of code running both in non-secure world (in both Linux and user space) as well as secure world. The OP-TEE code running in non-secure world will be protected against Meltdown and Spectre by the "general" mitigations taking place from Linux point of view, i.e., *KPTI*, branch predictor invalidation etc. I.e., the mitigations that we talked about in the [previous blog post](https://www.linaro.org/blog/meltdown-spectre/). This means that there is no need for doing anything extra for non-secure OP-TEE components to protect them against Meltdown and Spectre.
+OP-TEE consists of code running both in non-secure world (in both Linux and user space) as well as secure world. The OP-TEE code running in non-secure world will be protected against Meltdown and Spectre by the "general" mitigations taking place from Linux point of view, i.e., *KPTI*, branch predictor invalidation etc. I.e., the mitigations that we talked about in the [previous blog post](/blog/meltdown-spectre/). This means that there is no need for doing anything extra for non-secure OP-TEE components to protect them against Meltdown and Spectre.
 
 It is a different story on the secure side. Since OP-TEE has been working with page tables similar to how it has been done in Linux, there was a need for page table isolation in OP-TEE as well in order to mitigate against the Meltdown attack. This has been implemented and was merged a couple of weeks ago and the patches for this can be found at our [security advisories](https://www.op-tee.org/security-advisories/) page. It should be noted here that it is [mainly Cortex-A75](https://developer.arm.com/support/security-update) that is affected by Meltdown and currently we are unaware of any OP-TEE devices running on a Cortex-A75. Having that said, we still decided to merge the page table isolation patches, since we think it raises security a notch and so far we haven't been able to tell any difference in performance when running our test cases.
 

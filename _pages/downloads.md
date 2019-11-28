@@ -143,7 +143,8 @@ flow:
 
 Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Rocky release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu and RHEL. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM and containers. 
 
-To sign up for access and build your project today, click [here](https://servicedesk.linaro.org/servicedesk/customer/portal/19/create/265).
+
+To sign up for access and build your project today, click [here](https://servicedesk.linaro.org/servicedesk/customer/portal/19/create/265).
 
 ## Linaro Toolchain
 
@@ -182,7 +183,7 @@ Linaro code exists in many states and is found in many places. Working upstream 
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
-This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](https://www.linaro.org/work/).
+This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](/engineering/).
 
 ## Linaro Member Builds
 
