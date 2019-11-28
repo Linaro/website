@@ -92,3 +92,7 @@ items:
     image: /assets/images/people/AndreaGallo.jpg
     name: Andrea Gallo
     title: VP of Membership Development at Linaro
+  - bio: This is the bio...
+    image: /assets/images/content/Gilad.jpg
+    name: John Smith
+    title: CFO
