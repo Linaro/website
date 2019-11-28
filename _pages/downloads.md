@@ -183,7 +183,7 @@ Linaro code exists in many states and is found in many places. Working upstream 
 
 Before the code gets accepted upstream, Linaro maintains various development repositories and Linaro's groups make regular releases of various builds including Android, the LAVA test framework, key toolchains and builds for specific member products.
 
-This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](/work/).
+This page provides links to many of the more popular downloads produced by Linaro's [engineering teams](/engineering/).
 
 ## Linaro Member Builds
 

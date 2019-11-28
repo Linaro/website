@@ -76,4 +76,4 @@ Those attending Linaro Connect are welcome to come to any and all of the session
 
 If you are not able to attend you can visit the Linaro Connect resources page after the event to view recorded sessions and get access to select materials - [http://connect.linaro.org/resources/](/resources/). 
 
-To learn more about the Linaro Security team:  [https://www.linaro.org/core/security/](/core/security/)
+To learn more about the Linaro Security team:  [https://www.linaro.org/engineering/core/security/](/engineering/core/security/)

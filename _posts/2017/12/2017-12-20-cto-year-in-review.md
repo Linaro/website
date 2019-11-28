@@ -14,7 +14,7 @@ image:
 
 ## What happened this year?
 
-First of all, Linaro is 7. I find it hard to believe as it has been quite a journey and (as usual) has consumed all of my work energies. From a single issue organisation (the Linux kernel code base for the Arm architecture is a mess) Linaro has evolved into an organisation of over [30 members](/members/) contributing to almost all areas of the Arm ecosystem’s activities. More on ‘almost’ later.
+First of all, Linaro is 7. I find it hard to believe as it has been quite a journey and (as usual) has consumed all of my work energies. From a single issue organisation (the Linux kernel code base for the Arm architecture is a mess) Linaro has evolved into an organisation of over [30 members](/membership/) contributing to almost all areas of the Arm ecosystem’s activities. More on ‘almost’ later.
 
 2017, for me at least, has felt like a transitional year for the Arm ecosystem, including Linaro. One transition is that it was traditionally rooted in mobile; this year has seen a shift towards enterprise and the cloud, and great progress has been made in LEG towards Arm servers being deployed. The real value that the Arm ecosystem brings is that it generates rapid Darwinian evolution; trying many solutions simultaneously. Often the key is hardware acceleration, although this must be integrated with the right software to deploy. You can see this strongly in enterprise computing, but also in networking, mobile - well, everywhere really.
 
