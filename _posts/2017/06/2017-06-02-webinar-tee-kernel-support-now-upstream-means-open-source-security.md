@@ -45,5 +45,5 @@ This webinar is based on the work of the Linaro Security Working Group. Their wo
 Unable to attend? Register now and you will receive an email with the recorded presentation after the webinar.
 
 **For more information on…**  
-On Linaro – Leading Collaboration in the ARM Ecosystem – please click [here](https://www.linaro.org/).  
+On Linaro – Leading Collaboration in the ARM Ecosystem – please click [here](/).  
 On OP-TEE – the TEE in Linux using the ARM® TrustZone® technology, please click [here](https://www.op-tee.org/).

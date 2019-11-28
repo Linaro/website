@@ -136,4 +136,4 @@ been demonstrated by Linaro’s growing membership, and by Linaro consistently b
 one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 To ensure commercial quality software, Linaro’s work includes comprehensive test and
 validation on member hardware platforms. The full scope of Linaro engineering work is open to
-all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96Boards.org).
+all online. To find out more, please visit [https://www.linaro.org](/) and [https://www.96Boards.org](https://www.96Boards.org/).

@@ -53,4 +53,4 @@ Linaro is leading collaboration on open source development in the Arm ecosystem.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards based on Arm technology. A large range of products compliant with the 96Boards specifications are already available worldwide and this range is supplemented with additional hardware functionality provided through standardized mezzanine boards. 
 
-To find out more, please visit [http://www.linaro.org](http://www.linaro.org) and [http://www.96Boards.org](http://www.96boards.org).
+To find out more, please visit [https://www.linaro.org](/) and [https://www.96Boards.org](https://www.96boards.org/).

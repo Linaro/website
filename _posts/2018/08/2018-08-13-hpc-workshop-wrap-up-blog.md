@@ -66,7 +66,7 @@ Huawei discussed the drive needed from hardware vendors, software vendors, cloud
 
 #### OpenHPC Automation with Ansible & Setting up an SVE developer environment
 
-Finally Renato Golin and Alex Bennée (Linaro) spoke about Ansible on openHPC and SVE on QEMU respectively. You can find [Alex’s blog on SVE at this link](https://www.linaro.org/blog/sve-in-qemu-linux-user/)
+Finally Renato Golin and Alex Bennée (Linaro) spoke about Ansible on openHPC and SVE on QEMU respectively. You can find [Alex’s blog on SVE at this link](/blog/sve-in-qemu-linux-user/)
 
 All in all, it turned out to be a very informative event covering a broad range of aspects, which resulted in lots of good technical discussion.
 

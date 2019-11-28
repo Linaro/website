@@ -25,7 +25,7 @@ tags:
 ---
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm&reg; ecosystem, announced today the keynote speakers for Linaro Connect Bangkok 2019. Joining the hundreds of engineers at the Centara Grand in Bangkok, Thailand 1-5 April 2019, will be industry leaders invited to share their insights into different segments and topics relating to the Arm ecosystem.&nbsp;
 
-[Linaro’s new Chief Executive Officer Li Gong](https://www.linaro.org/news/linaro-announces-appointment-of-new-ceo-li-gong/) will present his first keynote at [Linaro Connect](https://connect.linaro.org/). Joining Li Gong in the line-up, are the following confirmed keynote speakers:
+[Linaro’s new Chief Executive Officer Li Gong](/news/linaro-announces-appointment-of-new-ceo-li-gong/) will present his first keynote at [Linaro Connect](https://connect.linaro.org/). Joining Li Gong in the line-up, are the following confirmed keynote speakers:
 
 ***Enabling vertical ecosystems to unleash the potential of diversified computing***<br>Wu Zhan, Vice President at Huawei IT Product Line<br>Tuesday 2 April, 10am (GMT+7)
 
@@ -51,4 +51,4 @@ Every six months, over 300 of the world's leading open source engineers working 
 
 Linaro leads collaboration in the Arm ecosystem and helps companies work with the latest open source technology. The company has over 300 engineers working on more than 70 open source projects, developing and optimizing software and tools, ensuring smooth product roll outs, and reducing maintenance costs. Work happens across segments including datacenter & cloud, edge & fog, IoT & embedded, consumer, machine intelligence, telecom & networking, autonomous vehicles, and high performance computing. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low-level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org/](https://www.linaro.org/) &nbsp;and [https://www.96boards.org/](https://www.96boards.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org/](/) and [https://www.96boards.org/](https://www.96boards.org/).
