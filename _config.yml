@@ -228,7 +228,6 @@ sass:
   style: compressed
   load_paths:
     - assets/css
-    - _sass
 #paginate_path: /:categories/:num/
 
 # Jekyll Pagination V2 Configuration
