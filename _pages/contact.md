@@ -55,7 +55,7 @@ If you have a technical support query relating to Linaro, please email <mailto:s
 
 ## Legal Information
 
-The Linaro legal pages/documents can be found here - <https://www.linaro.org/legal/>
+The Linaro legal pages/documents can be found here - [https://www.linaro.org/legal/](/legal)
 
 - - -
 
@@ -67,7 +67,7 @@ For discussion around Linux and Open Source on Arm, subscribe to the lists at <h
 
 ## Linaro IRC
 
-For more information on our IRC channels please visit [/contact/irc/](/contact/irc/).
+For more information on our IRC channels please visit [https://www.linaro.org/contact/irc/](/contact/irc/).
 
 - - -
 

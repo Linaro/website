@@ -58,7 +58,7 @@ The Google+ Hangout on Air session videos can be found at on the [Linaro on Air 
 **10:00:** [Linaro QA goodies for the kernel.org community](http://lca-13.zerista.com/event/member/72379) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/12easrG)) ([Google+ Event Listing](https://plus.google.com/events/cu0v452fcoqemmf2r0rul7kq3s0))
 
 **11:00:** [Networking: Data Plan](http://lca-13.zerista.com/event/member/72356) -  Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) (Google+ Event Listing)
-**11:00:** [Common Dynamic Voltage and Frequency Scaling (DVFS) Architecture](http://lca-13.zerista.com/event/member/72363) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad)](https://www.linaro.org/blog/linaro-connect-asia-2013-day-3-what-to-expect/index.html) ([Google+ Event Listing](https://plus.google.com/events/c42t0mu1sd5t285rik3f0tugp98))
+**11:00:** [Common Dynamic Voltage and Frequency Scaling (DVFS) Architecture](http://lca-13.zerista.com/event/member/72363) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Etherpad)](/blog/linaro-connect-asia-2013-day-3-what-to-expect/index.html) ([Google+ Event Listing](https://plus.google.com/events/c42t0mu1sd5t285rik3f0tugp98))
 
 **11:00:** [Multi-Node and Hyperscale Testing Use-Cases in LAVA](http://lca-13.zerista.com/event/member/72372) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/12easrG)) ([Google+ Event Listing](https://plus.google.com/events/cm2eqot1soku7rn4ps48htcifls))
 

@@ -34,7 +34,7 @@ We hosted 5 Summits including:
   * [Scheduler Summit:](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources) Together with several Linux maintainers, Linaro set out plans to enhance the Linux scheduler to support big.LITTLE systems and make the scheduler more power-aware
 
 
-  * [Storage Summit](https://www.linaro.org/blog/linaro-connect-europe-big-little-mini-summit-summary/): Reached agreement on performance and lifetime improvements for flash media
+  * [Storage Summit](/blog/linaro-connect-europe-big-little-mini-summit-summary/): Reached agreement on performance and lifetime improvements for flash media
 
 
   * [Arm Maintainers Summit](https://blueprints.launchpad.net/linux-linaro/+spec/linaro-kernel-q112-maintainer-summit-1): At Linaro Connect for the first time, discussion covered key infrastructure such as Device Tree, consolidated clock framework, the Arm-SOC tree and pin management
