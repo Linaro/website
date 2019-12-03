@@ -1,0 +1,41 @@
+items:
+  - title: Datacenter & Cloud
+    icon:
+      png: /assets/images/content/engineering/png/datacenter_and_cloud.png
+      svg: /assets/images/content/engineering/svg/datacenter_and_cloud.svg
+    url: /engineering/datacenter-and-cloud/
+  - title: IoT & Embedded
+    icon:
+      png: /assets/images/content/engineering/png/iot_and_embedded.png
+      svg: /assets/images/content/engineering/svg/iot_and_embedded.svg
+    url: /engineering/iot-and-embedded/
+  - title: Consumer (Mobile & Android)
+    icon:
+      png: /assets/images/content/engineering/png/consumer.png
+      svg: /assets/images/content/engineering/svg/consumer.svg
+    url: /engineering/consumer/
+  - title: Edge & Fog Computing
+    icon:
+      png: /assets/images/content/engineering/png/edge_and_fog_computing.png
+      svg: /assets/images/content/engineering/svg/edge_and_fog_computing.svg
+    url: /engineering/edge-and-fog-computing/
+  - title: Tools, Security & Linux Kernel Quality
+    icon:
+      png: /assets/images/content/engineering/png/edge_and_fog_computing.png
+      svg: /assets/images/content/engineering/svg/edge_and_fog_computing.svg
+    url: /engineering/core/
+  - title: High Performance Computing
+    icon:
+      png: /assets/images/content/engineering/png/high_performance_computing.png
+      svg: /assets/images/content/engineering/svg/high_performance_computing.svg
+    url: /engineering/high-performance-computing/
+  - title: Artificial Intelligence
+    icon:
+      png: /assets/images/content/engineering/png/artificial_intelligence.png
+      svg: /assets/images/content/engineering/svg/artificial_intelligence.svg
+    url: /engineering/artificial-intelligence/
+  - title: Autonomous Vehicles
+    icon:
+      png: /assets/images/content/engineering/png/autonomous_vehicles.png
+      svg: /assets/images/content/engineering/svg/autonomous_vehicles.svg
+    url: /engineering/autonomous-vehicles/
