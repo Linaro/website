@@ -33,11 +33,7 @@ flow:
           type: youtube_video
           video_content_url: https://www.youtube.com/watch?v=lmXKYhcLqbU
           text: >
-            Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly.
-      - format: text
-        text_content:
-          text: >
-            Each edge device can be connected to multiple clouds such as the city smart infrastructure cloud, a car manufacturer cloud, an insurance company cloud. What’s more, multiple edge devices can collaborate in the context of a dynamic ad hoc swarm. For instance, a swarm can be formed out of the cars present in the surroundings of a road intersection; cars enter and leave the swarm as they enter and leave the intersection.
+            Edge computing is often described as the computing work done between “Things” and “The cloud”. Reality is far more complex. A wrist watch can be seen as an edge device for all wearables that a person holds; a car communication system can be seen as an edge device for onboard devices but also for the wrist watch of the driver; a traffic light pole can embed a system that would be an edge device for many cars and may be for wrist watches directly. Each edge device can be connected to multiple clouds such as the city smart infrastructure cloud, a car manufacturer cloud, an insurance company cloud. What’s more, multiple edge devices can collaborate in the context of a dynamic ad hoc swarm. For instance, a swarm can be formed out of the cars present in the surroundings of a road intersection; cars enter and leave the swarm as they enter and leave the intersection.
   - row: main_content_row
   - row: custom_include_row
     source: engineering_related_resources.html
