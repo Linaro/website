@@ -141,60 +141,10 @@ h1#home-page-title.white {
     font-size: 40px;
 }
 
-// Developer Sertvices
-span.developer-services-line-1 {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-span.developer-services-line-2 {
-    font-size: 14px;
-}
-
 @media (max-width: 1200px) {
     h1#home-page-title {
         font-size: 28px;
     }
-}
-
-// Developer Sertvices
-span.boards-slide-line-1 {
-    font-size: 20px;
-    color: #ffdf84;
-}
-
-span.boards-slide-line-2 {
-    font-size: 20px;
-    color: #ffdf84;
-    font-weight: bold;
-}
-
-// Arm HPC
-.home-page-slider-text.hpc {
-    margin-top: 40px;
-}
-
-span.arm-hpc-japan-slide-line-1 {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
-    top: 8px;
-    left: 2px;
-    position: relative;
-    padding: -14px;
-    /* line-height: 33px; */
-}
-
-span.arm-hpc-japan-slide-line-2 {
-    font-weight: bold;
-}
-
-span.arm-hpc-japan-slide-line-3 {
-    color: #1aa8ff;
-}
-
-.owl-stage-outer {
-    height: 240px;
 }
 
 .container.home-inline-carousel {
@@ -894,6 +844,25 @@ div#connect {
     height: 130px;
 }
 #flow_wrapper {
+    .row.call_to_action_sections{
+        .feature_block {
+            border: 5px dotted #0083b0;
+            border-radius: 10px;
+            margin-bottom:40px;
+             img.img-responsive {
+                width:100%;
+            }
+        }
+    }
+    .row.introduction_row {
+         h2 {
+            border: 5px dotted #0083b0;
+            border-radius: 10px;
+            max-width: 600px;
+            padding: 20px;
+            margin: auto;
+        }
+    }
     .row.testimonial_row {
         background-color: #d1d1d1;
     }
@@ -911,6 +880,7 @@ div#connect {
             h3 {
                 font-size: 18px;
                 text-align: center;
+                color:white;
             }
         }
     }
