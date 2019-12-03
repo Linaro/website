@@ -893,3 +893,25 @@ div#connect {
 .item.san19_banner img {
     height: 130px;
 }
+#flow_wrapper {
+    .row.testimonial_row {
+        background-color: #d1d1d1;
+    }
+    .row.engineering_row {
+        background-color:#666666;
+        h2 {
+            color: white;
+        }
+        #engineering_homepage_slider {
+            .item {
+                img.lazyloaded {
+                    height: 120px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+}
