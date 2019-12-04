@@ -7,16 +7,25 @@ $(document).ready(function () {
         dots: true,
         lazyLoad: true,
         margin: 25,
-        autoplay: false,
+        autoplay: true,
+        rewind: true,
+        autoHeight: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
         items: 1
     });
+
     $("#engineering_homepage_slider").owlCarousel({
         loop: false,
         nav: false,
         dots: true,
         lazyLoad: true,
         margin: 25,
-        autoplay: false,
+        autoHeight: true,
+        autoplay: true,
+        rewind: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 4000,
         items: 4
     });
 
