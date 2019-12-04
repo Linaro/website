@@ -3,7 +3,8 @@
         {% for testimonial in site.data.membership_testimonials.items %}
         <div class="item testimonial">
             <div class="col-xs-12 col-sm-6 block__image">
-                <video controls="controls" class="lazyload img-responsive testimonial_video" data-poster="{{testimonial.cover_image}}" preload="none">
+                <video class="lazyload img-responsive testimonial_video" data-poster="{{testimonial.cover_image}}"
+                controls="controls"  preload="none">
                     {% if testimonial.video.ogv %}
                     <source src="{{testimonial.video.ogv}}" type="video/ogg">
                     {% endif %}
