@@ -884,6 +884,9 @@ div#connect {
         p {
             font-size: 34px;
             font-weight: 100;
+            @media(max-width: $screen-sm-min){
+                font-size: 28px;
+            }
         }
     }
     .row.testimonial_row {
