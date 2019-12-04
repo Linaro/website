@@ -19,7 +19,7 @@
                         data-src="{{engineering_group.icon.svg}}" />
                     <h3>{{engineering_group.title}}</h3>
                 </div>
-            {% if forloop.index == 4 or forloop.index == 8 or forloop.index == 12 %}</div>{% endif %}
+            {% if forloop.index == 4 or forloop.index == 8 or forloop.index == 12 or forloop.last %}</div>{% endif %}
         {% endfor %}
     </div>
 </div>
