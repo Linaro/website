@@ -20,35 +20,13 @@ pages:
       options:
           - text: Overview
             url: /about/
-          - text: Engineering
-            options:
-                - text: Overview
-                  url: /engineering/
-                - text: Core Engineering on Arm
-                  url: /engineering/core/
-                - text: Datacenter & Cloud
-                  url: /engineering/datacenter-and-cloud/
-                - text: Edge & Fog Computing
-                  url: /engineering/edge-and-fog-computing/
-                - text: Consumer
-                  url: /engineering/consumer/
-                - text: IoT & Embedded
-                  url: /engineering/iot-and-embedded/
-                - text: Autonomous Vehicles
-                  url: /engineering/autonomous-vehicles/
-                - text: Artificial Intelligence
-                  url: /engineering/artificial-intelligence/
-                - text: High Performance Computing
-                  url: /engineering/high-performance-computing/
           - text: Team
             options:
-                - text: The Team
-                  url: /about/team/
-                - text: Board of Directors
+                - text: The Board
                   url: /about/team/board/
                 - text: Executive Team
                   url: /about/team/executive/
-                - text: Technical Steering Committee
+                - text: TSC
                   url: /about/team/technical-steering-committee/
                 - text: Awards
                   url: /awards/
@@ -56,18 +34,36 @@ pages:
             options:
               - text: News
                 url: /news/
-              - text: Events
-                url: /events/
               - text: Blog
                 url: /blog/
+              - text: Events
+                url: /events/
+              - text: Planet Linaro
+                url: /planet/
           - text: Careers
-            options:
-                - text: Overview
-                  url: /careers/
-                - text: Internships
-                  url: /careers/internships/
+            url: /careers/
           - text: Contact Us
             url: /contact/
+    - title: Engineering
+      options:
+        - text: Overview
+          url: /engineering/
+        - text: Core Engineering on Arm
+          url: /engineering/core/
+        - text: Datacenter & Cloud
+          url: /engineering/datacenter-and-cloud/
+        - text: Edge & Fog Computing
+          url: /engineering/edge-and-fog-computing/
+        - text: Consumer
+          url: /engineering/consumer/
+        - text: IoT & Embedded
+          url: /engineering/iot-and-embedded/
+        - text: Autonomous Vehicles
+          url: /engineering/autonomous-vehicles/
+        - text: Artificial Intelligence
+          url: /engineering/artificial-intelligence/
+        - text: High Performance Computing
+          url: /engineering/high-performance-computing/
     - title: Membership
       url: /membership/
     - title: Services
@@ -94,17 +90,11 @@ pages:
             url: /services/testing-validation-services/
           - text: Hands on Training
             url: /services/hands-on-training/
-    - title: Developer Resources
-      options:
-          - text: Get Involved
-            url: /developers/
           - text: Downloads
             url: /downloads/
-          - text: Security Downloads
-            url: /downloads/security/
-          - text: Connect Resources
-            url: https://connect.linaro.org/resources/
-          - text: Planet Linaro
-            url: /planet/
     - title: Support
-      url: /support/
+      options:
+        - text: LDTS
+          url: /support/
+        - text: Contact Us
+          url: /contact/
