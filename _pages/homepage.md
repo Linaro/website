@@ -111,7 +111,7 @@ flow:
           feature_block_content:
             position: right
             type: image
-            image_content_path: /assets/images/content/Homepage_Dev_Services.jpg
+            image_content_path: /assets/images/content/linaro_developer_services.jpg
             title: Linaro Developer Services
             text: >
                 Linaro Developer Services help companies build
