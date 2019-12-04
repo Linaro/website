@@ -85,7 +85,7 @@ flow:
           feature_block_content:
             position: left
             type: image
-            image_content_path: /assets/images/content/Homepage_Membership.jpg
+            image_content_path: /assets/images/content/membership_board.jpg
             title: Linaro Membership
             text: >
                 Linaro membership allows you to shape the future
