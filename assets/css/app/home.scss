@@ -892,6 +892,15 @@ div#connect {
         h2 {
             color: white;
         }
+        .item img {
+            transition: all 100ms ease-in-out;
+            &:hover {
+                transform:scale(1.1);
+                z-index:9999;
+                position:relative;
+                filter: grayscale(1);
+            }
+        }
         #engineering_homepage_slider_mobile {
              h3 {
                 color: white;
