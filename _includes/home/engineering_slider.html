@@ -13,13 +13,13 @@
     <div class="owl-carousel owl-theme visible-xs-block" id="engineering_homepage_slider_mobile">
         {% for engineering_group in site.data.engineering_groups.items %}
             {% assign mod4 = forloop.index | modulo: 4 %}
-            {% if forloop.index == 1 or forloop.index == 5 %}<div class="item">{% endif %}
+            {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}<div class="item">{% endif %}
                 <div class="col-xs-6 p-t-20">
                     <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         data-src="{{engineering_group.icon.svg}}" />
                     <h3>{{engineering_group.title}}</h3>
                 </div>
-            {% if forloop.index == 4 or forloop.index == 8 %}</div>{% endif %}
+            {% if forloop.index == 4 or forloop.index == 8 or forloop.index == 12 %}</div>{% endif %}
         {% endfor %}
     </div>
 </div>
