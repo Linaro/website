@@ -14,7 +14,7 @@
         {% for engineering_group in site.data.engineering_groups.items %}
             {% assign mod4 = forloop.index | modulo: 4 %}
             {% if forloop.index == 1 or forloop.index == 5 %}<div class="item">{% endif %}
-                <div class="col-xs-6">
+                <div class="col-xs-6 p-t-20">
                     <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         data-src="{{engineering_group.icon.svg}}" />
                     <h3>{{engineering_group.title}}</h3>
