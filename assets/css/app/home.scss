@@ -843,14 +843,33 @@ div#connect {
 .item.san19_banner img {
     height: 130px;
 }
+// Website Revamp 2019
+#jumbotron-slider h2.slide-title.big-title {
+    font-weight:100;
+    border:5px dotted $brand-primary;
+    border-radius:10px;
+    max-width: 1000px;
+    padding: 20px 0;
+}
 #flow_wrapper {
     .row.call_to_action_sections{
         .feature_block {
             border: 5px dotted #0083b0;
             border-radius: 10px;
             margin-bottom:40px;
-             img.img-responsive {
+            img.img-responsive {
                 width:100%;
+            }
+            &:nth-child(2) {
+                border-color: $brand-primary !important;
+                .btn {
+                    background-color: $brand-primary !important;
+                }
+            }
+            @media (max-width: $screen-sm-min) {
+                .block__image {
+                    margin-top: 20px;
+                }
             }
         }
     }
@@ -862,11 +881,21 @@ div#connect {
             padding: 20px;
             margin: auto;
         }
+        p {
+            font-size: 34px;
+            font-weight: 100;
+        }
     }
     .row.testimonial_row {
         background-color: #d1d1d1;
     }
     #testimonial_slider {
+        @media(max-width: $screen-sm-min){
+            .block__image {
+                margin-bottom: 20px;
+                padding: 0px 0px;
+            }
+        }
         .block__text {
             border: 5px dotted white;
             border-radius: 15px;
@@ -906,6 +935,7 @@ div#connect {
                 color: white;
                 font-size: 16px;
                 text-align: center;
+                height: 50px;
             }
         }
         #engineering_homepage_slider {
