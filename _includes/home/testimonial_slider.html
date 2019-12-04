@@ -2,12 +2,8 @@
     <div class="owl-carousel owl-theme" id="testimonial_slider">
         {% for testimonial in site.data.membership_testimonials.items %}
         <div class="item testimonial">
-            <div class="col-xs-12 col-sm-7 block__image">
-                <div class="video_placeholder">
-                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="{{testimonial.cover_image}}" alt="Cover image for {{testimonial.attribution}}"/>
-                </div>
-                <video controls="controls" class="lazyload img-responsive testimonial_video" poster="{{testimonial.cover_image}}" preload="none">
+            <div class="col-xs-12 col-sm-6 block__image">
+                <video controls="controls" class="lazyload img-responsive testimonial_video" data-poster="{{testimonial.cover_image}}" preload="none">
                     {% if testimonial.video.ogv %}
                     <source src="{{testimonial.video.ogv}}" type="video/ogg">
                     {% endif %}
@@ -19,7 +15,7 @@
                     {% endif %}
                 </video>
             </div>
-            <div class="col-xs-12 col-sm-5 block__text">
+            <div class="col-xs-12 col-sm-6 block__text">
                 <blockquote>
                     {{testimonial.quote}}
                 </blockquote>
