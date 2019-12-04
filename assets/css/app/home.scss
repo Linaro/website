@@ -866,10 +866,38 @@ div#connect {
     .row.testimonial_row {
         background-color: #d1d1d1;
     }
+    #testimonial_slider {
+        .block__text {
+            border: 5px dotted white;
+            border-radius: 15px;
+            blockquote{
+                background-color:transparent;
+                border:none;
+                border-radius: 15px;
+                font-size: 20px;
+                padding: 0px;
+                color:black;
+                &:before{
+                    display:none;
+                }
+            }
+            .attribution {
+                font-size:20px;
+                margin-bottom:20px;
+            }
+        }
+    }
     .row.engineering_row {
         background-color:#666666;
         h2 {
             color: white;
+        }
+        #engineering_homepage_slider_mobile {
+             h3 {
+                color: white;
+                font-size: 16px;
+                text-align: center;
+            }
         }
         #engineering_homepage_slider {
             .item {

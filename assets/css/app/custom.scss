@@ -547,6 +547,59 @@ ul#tabbed_nav.support-tabs li a {
 }
 // Website Revamp 2019
 #wrapper {
+    .owl-theme .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
+        margin: 5px 2px;
+        background: #ffffff;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+    }
+    .feature_block {
+        video.testimonial_video {
+            display: none;
+        }
+         .video_placeholder {
+            overflow:hidden !important;
+            position: relative;
+            &:before {
+                content: '\f01d';
+                font: normal normal normal 60px/1 FontAwesome;
+                position: absolute;
+                margin:auto;
+                text-align:center;
+                color:$brand-primary;
+                height: 100%;
+                background-color:rgba(0, 0, 0, 0.6);;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                cursor:pointer;
+            }
+        }
+        .row {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+         h2 {
+            margin-top: 0px;
+        }
+        .buttons {
+            padding-top: 0px;
+            a.btn {
+                text-transform: uppercase;
+                padding:5px;
+                font-weight:bold;
+                background-color:#0083b0;
+                font-size:18px;
+                border-radius:5px;
+            }
+        }
+    }
     footer {
         a.btn.btn-social-icon {
             background-color:#666666;
@@ -570,9 +623,10 @@ ul#tabbed_nav.support-tabs li a {
             address {
                 text-align: left;
             }
-             h3 {
+            h3 {
                 text-align: left;
                 color: $brand-primary;
+                margin-top:0px;
             }
             @media(max-width: $screen-sm-min){
                 padding-left:35px;
