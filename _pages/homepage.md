@@ -88,7 +88,7 @@ flow:
         - format: feature_block
           style: text-center text-white linaro_membership
           feature_block_content:
-            position: right
+            position: left
             type: image
             image_content_path: /assets/images/content/Homepage_Membership.jpg
             title: Linaro Membership
@@ -108,7 +108,7 @@ flow:
         - format: feature_block
           style: text-center text-white developer_services
           feature_block_content:
-            position: left
+            position: right
             type: image
             image_content_path: /assets/images/content/Homepage_Dev_Services.jpg
             title: Linaro Developer Services
