@@ -2,6 +2,7 @@
 title: Accelerating deployment of Arm-based solutions
 description: Linaro accelerates deployment of Arm-based solutions
 permalink: /
+edit-on-github: "false"
 js-package: home
 css-package: home
 layout: flow
