@@ -79,12 +79,12 @@
                 {% endfor %}
             </h1>
             {% else %}
-            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+            <h1 class="{% if page.jumbotron.title-class %}{{page.jumbotron.title-class}}{% endif %} {% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
                 {{page.jumbotron.title}}
             </h1>
             {% endif %}
             {% elsif page.title %}
-            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+            <h1 class="{% if page.jumbotron.title-class %}{{page.jumbotron.title-class}}{% endif %}{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
                 {{page.title}}
             </h1>
             {% else %}
