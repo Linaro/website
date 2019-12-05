@@ -2,6 +2,10 @@
 core_id: "6"
 title: Toolchain
 permalink: /engineering/core/toolchain/
+jumbotron:
+    title: Toolchain
+    title-class: big-title
+    description: ""
 projects:
   - title: GCC
     url: /engineering/projects/

@@ -1,6 +1,10 @@
 ---
 core_id: "2"
 title: Kernel Validation
+jumbotron:
+    title: Kernel Validation
+    title-class: big-title
+    description: ""
 description: |-
     The mission of the Kernel Validation team (KVT) is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree, validation, lkft

@@ -15,7 +15,8 @@ related_tags:
   - Linux Kernel
   - Kernel
 jumbotron:
-    triangle-divider: true
+    title: Core Engineering at Linaro
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/developer-services-banner.jpg
 redirect_from:
