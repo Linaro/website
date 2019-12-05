@@ -62,7 +62,7 @@ flow:
           title_content:
             size: h2
             text: >
-                Arm software is our expertise.
+                Arm software is our expertise
   - row: container_row
     style: engineering_row
     sections:
