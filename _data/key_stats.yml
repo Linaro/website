@@ -1,0 +1,16 @@
+items:
+  - line1: Top
+    number: "10"
+    line2: Linux Kernel
+    line3: Contributor
+    icon: /assets/images/content/engineering/svg/datacenter_and_cloud.svg
+  - line1: Over
+    number: "250"
+    line2: Engineers
+    line3: Worldwide
+    icon: /assets/images/content/engineering/svg/datacenter_and_cloud.svg
+  - line1: Over
+    number: "70"
+    line2: Open Source
+    line3: Projects
+    icon: /assets/images/content/engineering/svg/datacenter_and_cloud.svg
