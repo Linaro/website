@@ -558,6 +558,35 @@ ul#tabbed_nav.support-tabs li a {
     }
 }
 #wrapper {
+    #main-navigation.navbar-inverse {
+        #navbar-buttons {
+            li {
+                a {
+                    font-weight: 100;
+                    font-size: 18px;
+                }
+            }
+            .dropdown-menu {
+                li {
+                    font-weight:lighter;
+                    a {
+                        font-size: 18px;
+                    }
+                    &:hover {
+                        a {
+                            color: #000;
+                            letter-spacing: 0;
+                            background-color: $brand-primary;
+                            color: white;
+                            font-size: 18px;
+                            transition: all 100ms ease-in-out;
+                            outline: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
     #flow_wrapper {
         .gray_row {
             background-color: #666666;
