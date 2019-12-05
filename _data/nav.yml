@@ -93,8 +93,4 @@ pages:
           - text: Downloads
             url: /downloads/
     - title: Support
-      options:
-        - text: LDTS
-          url: /support/
-        - text: Contact Us
-          url: /contact/
+      url: /support/
