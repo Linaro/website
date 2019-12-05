@@ -1,6 +1,10 @@
 ---
 service_id: 9
 title: Testing and Validation Services
+jumbotron:
+    title: Testing and Validation Services
+    title-class: big-title
+    description: ""
 short_name: Testing and Validation
 permalink: /services/testing-validation-services/
 keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development

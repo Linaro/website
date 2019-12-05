@@ -9,10 +9,8 @@ description: >
 layout: flow
 jumbotron:
     title: Linaro Support
-    description: >
-        Linaro Developer Technical Support is a service available to members, Linaro Developer Services clients and the open
-        source community. We are here to help members and clients fix, debug and resolve any Linaro-related issues and
-        questions.
+    description: ""
+    title-class: big-title
     background-image: /assets/images/content/developer-services-banner.jpg
 flow:
     - row: main_content_row

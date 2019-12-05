@@ -1,6 +1,10 @@
 ---
 core_id: '3'
 title: Power Management Farm
+jumbotron:
+    title: Power Management Farm
+    title-class: big-title
+    description: ""
 description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.

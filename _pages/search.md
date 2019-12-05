@@ -4,8 +4,8 @@ permalink: /search/
 layout: flow
 jumbotron:
     title: Search
-    description: >
-        Search Linaro's sites for a specific page/resource.
+    title-class: big-title
+    description: ""
     background-image: /assets/images/content/bkk19-group-photo.jpg
 description: |-
     Search the Linaro Website.

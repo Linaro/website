@@ -13,7 +13,8 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
-    triangle-divider: true
+    title: Autonomous Vehicles
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/autonomous-driving-bg.jpg
 ---

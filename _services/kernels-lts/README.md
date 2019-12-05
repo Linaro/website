@@ -1,6 +1,10 @@
 ---
 service_id: 3
 title: Kernels and Long Term Support Services
+jumbotron:
+    title: Kernels and Long Term Support Services
+    title-class: big-title
+    description: ""
 short_name: Kernels - LTS
 permalink: /services/kernel-lts/
 keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr

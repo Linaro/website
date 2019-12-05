@@ -742,10 +742,6 @@ div#connect {
     color: white;
     font-size: 66px;
 }
-#jumbotron-slider .slide-title {
-    max-width: 670px;
-}
-
 
 #animated_logo .cls-1 {
     fill: none;
@@ -844,13 +840,6 @@ div#connect {
     height: 130px;
 }
 // Website Revamp 2019
-#jumbotron-slider h2.slide-title.big-title {
-    font-weight:100;
-    border:5px dotted $brand-primary;
-    border-radius:10px;
-    max-width: 1000px;
-    padding: 20px 0;
-}
 #flow_wrapper {
     .row.call_to_action_sections{
         .feature_block {
@@ -874,6 +863,7 @@ div#connect {
         }
     }
     .row.introduction_row {
+        padding-top: 60px;
          h2 {
             border: 5px dotted #0083b0;
             border-radius: 10px;
@@ -884,6 +874,8 @@ div#connect {
         p {
             font-size: 34px;
             font-weight: 100;
+            margin-bottom: 60px;
+            line-height: 45px;
             @media(max-width: $screen-sm-min){
                 font-size: 28px;
             }
@@ -906,7 +898,7 @@ div#connect {
                 background-color:transparent;
                 border:none;
                 border-radius: 15px;
-                font-size: 20px;
+                font-size: 26px;
                 padding: 0px;
                 color:black;
                 &:before{
@@ -943,6 +935,8 @@ div#connect {
         }
         #engineering_homepage_slider {
             .item {
+                margin-top: 20px;
+                margin-bottom: 30px;
                 img.lazyloaded {
                     height: 120px;
                 }

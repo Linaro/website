@@ -16,8 +16,7 @@ flow:
       source: gdpr_footer.html
 jumbotron:
     title: Linaro GDPR Compliance
-    description: >
-        GDPR (General Data Protection Regulation) is the name for new data protection legislation
-        that will come into effect across the EU on the 25th of May 2018.
+    description: ""
+    title-class: big-title
     background-image: /assets/images/content/linarolife.jpg
 ---

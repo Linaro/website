@@ -1,6 +1,10 @@
 ---
 service_id: 1
 title: Security, TrustZone and OP-TEE
+jumbotron:
+    title: Security, TrustZone and OP-TEE
+    title-class: big-title
+    description: ""
 short_name: Security
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform

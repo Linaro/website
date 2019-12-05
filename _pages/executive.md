@@ -6,6 +6,10 @@ layout: flow
 permalink: /about/team/executive/
 js-package: extended
 css-package: about
+jumbotron:
+    title: Executive Team
+    title-class: big-title
+    description: ""
 flow:
     - row: main_content_row
     - row: custom_include_row

@@ -4,6 +4,10 @@ title: Legal
 description: |-
   Information about the legal policies of Linaro's website
 permalink: /legal/
+jumbotron:
+    title: Legal
+    title-class: big-title
+    description: ""
 flow:
   - row: main_content_row
 ---

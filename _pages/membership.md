@@ -7,16 +7,11 @@ permalink: /membership/
 js-package: membership
 css-package: membership
 jumbotron:
-    triangle-divider: true
     background-image: /assets/images/content/membership-bg.jpg
     title: Join Linaro to accelerate the deployment of your Arm-based solutions
+    title-class: big-title
     description-class: smaller
-    description: >-
-        Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
-    buttons:
-        - title: contact@linaro.org
-          url: mailto:contact@linaro.org?subject=Linaro.org - Membership
-          class: btn btn-linaro-home
+    description: ""
 flow:
     - row: container_row
       style: testimonials_row

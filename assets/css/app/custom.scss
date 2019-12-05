@@ -546,6 +546,20 @@ ul#tabbed_nav.support-tabs li a {
   }
 }
 // Website Revamp 2019
+body {
+	font-family: "Lato", sans-serif;
+}
+#jumbotron .big-title {
+    font-weight:100 !important;
+    border:5px dotted $brand-primary;
+    border-radius:10px;
+    max-width: 1000px;
+    padding: 20px;
+    font-size: 60px !important;
+    @media(max-width: $screen-sm-min){
+        font-size: 24px !important;
+    }
+}
 #wrapper {
     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
@@ -590,14 +604,6 @@ ul#tabbed_nav.support-tabs li a {
         }
         .buttons {
             padding-top: 0px;
-            a.btn {
-                text-transform: uppercase;
-                padding:5px;
-                font-weight:bold;
-                background-color:#0083b0;
-                font-size:18px;
-                border-radius:5px;
-            }
         }
     }
     footer {
