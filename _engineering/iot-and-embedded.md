@@ -22,7 +22,8 @@ releases:
   - title: LITE Releases
     url: https://releases.linaro.org/components/lite/
 jumbotron:
-    triangle-divider: true
+    title: IoT & Embedded
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/IoT-bg.jpg
 ---
