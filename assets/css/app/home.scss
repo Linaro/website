@@ -909,7 +909,7 @@ div#connect {
                 background-color:transparent;
                 border:none;
                 border-radius: 15px;
-                font-size: 20px;
+                font-size: 26px;
                 padding: 0px;
                 color:black;
                 &:before{
@@ -946,6 +946,8 @@ div#connect {
         }
         #engineering_homepage_slider {
             .item {
+                margin-top: 20px;
+                margin-bottom: 30px;
                 img.lazyloaded {
                     height: 120px;
                 }
