@@ -5,7 +5,7 @@
             <video controls="controls" class="lazyload img-responsive"
                 poster="{{testimonial.cover_image}}" preload="none">
                 {% if testimonial.video.ogv %}
-                    <source src="" type="video/ogg">
+                    <source src="{{testimonial.video.ogv}}" type="video/ogg">
                 {% endif %}
                 {% if testimonial.video.webm %}
                     <source src="{{testimonial.video.webm}}" type="video/webm">

@@ -545,3 +545,123 @@ ul#tabbed_nav.support-tabs li a {
     padding-top: 20px;
   }
 }
+// Website Revamp 2019
+#wrapper {
+    .owl-theme .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
+        margin: 5px 2px;
+        background: #ffffff;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+    }
+    .feature_block {
+        video.testimonial_video {
+            display: none;
+        }
+         .video_placeholder {
+            overflow:hidden !important;
+            position: relative;
+            &:before {
+                content: '\f01d';
+                font: normal normal normal 60px/1 FontAwesome;
+                position: absolute;
+                margin:auto;
+                text-align:center;
+                color:$brand-primary;
+                height: 100%;
+                background-color:rgba(0, 0, 0, 0.6);;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                cursor:pointer;
+            }
+        }
+        .row {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+         h2 {
+            margin-top: 0px;
+        }
+        .buttons {
+            padding-top: 0px;
+            a.btn {
+                text-transform: uppercase;
+                padding:5px;
+                font-weight:bold;
+                background-color:#0083b0;
+                font-size:18px;
+                border-radius:5px;
+            }
+        }
+    }
+    footer {
+        a.btn.btn-social-icon {
+            background-color:#666666;
+            border-radius:40px;
+            width:50px;
+            height: 50px;
+            padding:13px;
+            margin:40px 0;
+        }
+        .row.footer.footer-main {
+            background-color: #00000b !important;
+        }
+        .email {
+            border:none;
+            &:hover {
+                border:none;
+            }
+        }
+         .footer-main  .contact-details {
+            text-align:left;
+            address {
+                text-align: left;
+            }
+            h3 {
+                text-align: left;
+                color: $brand-primary;
+                margin-top:0px;
+            }
+            @media(max-width: $screen-sm-min){
+                padding-left:35px;
+                text-align:left;
+            }
+        }
+
+        .footer-column {
+             ul {
+                padding-left: 20px;
+                text-align: left;
+                li {
+                    text-align: left;
+                    a {
+                        font-size:18px;
+                        font-weight:bold;
+                        small {
+                            text-align: left;
+                            font-size:16px;
+                            font-style: normal;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+            h3 {
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 26px;
+                border-left: 5px solid #98cc33;
+                padding-left: 15px;
+                @media (max-width: $screen-sm-min) {
+                    text-align:left;
+                }
+            }
+        }
+    }
+}

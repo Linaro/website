@@ -141,60 +141,10 @@ h1#home-page-title.white {
     font-size: 40px;
 }
 
-// Developer Sertvices
-span.developer-services-line-1 {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-span.developer-services-line-2 {
-    font-size: 14px;
-}
-
 @media (max-width: 1200px) {
     h1#home-page-title {
         font-size: 28px;
     }
-}
-
-// Developer Sertvices
-span.boards-slide-line-1 {
-    font-size: 20px;
-    color: #ffdf84;
-}
-
-span.boards-slide-line-2 {
-    font-size: 20px;
-    color: #ffdf84;
-    font-weight: bold;
-}
-
-// Arm HPC
-.home-page-slider-text.hpc {
-    margin-top: 40px;
-}
-
-span.arm-hpc-japan-slide-line-1 {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
-    top: 8px;
-    left: 2px;
-    position: relative;
-    padding: -14px;
-    /* line-height: 33px; */
-}
-
-span.arm-hpc-japan-slide-line-2 {
-    font-weight: bold;
-}
-
-span.arm-hpc-japan-slide-line-3 {
-    color: #1aa8ff;
-}
-
-.owl-stage-outer {
-    height: 240px;
 }
 
 .container.home-inline-carousel {
@@ -892,4 +842,116 @@ div#connect {
 }
 .item.san19_banner img {
     height: 130px;
+}
+// Website Revamp 2019
+#jumbotron-slider h2.slide-title.big-title {
+    font-weight:100;
+    border:5px dotted $brand-primary;
+    border-radius:10px;
+    max-width: 1000px;
+    padding: 20px 0;
+}
+#flow_wrapper {
+    .row.call_to_action_sections{
+        .feature_block {
+            border: 5px dotted #0083b0;
+            border-radius: 10px;
+            margin-bottom:40px;
+            img.img-responsive {
+                width:100%;
+            }
+            &:nth-child(2) {
+                border-color: $brand-primary !important;
+                .btn {
+                    background-color: $brand-primary !important;
+                }
+            }
+            @media (max-width: $screen-sm-min) {
+                .block__image {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .row.introduction_row {
+         h2 {
+            border: 5px dotted #0083b0;
+            border-radius: 10px;
+            max-width: 600px;
+            padding: 20px;
+            margin: auto;
+        }
+        p {
+            font-size: 34px;
+            font-weight: 100;
+            @media(max-width: $screen-sm-min){
+                font-size: 28px;
+            }
+        }
+    }
+    .row.testimonial_row {
+        background-color: #d1d1d1;
+    }
+    #testimonial_slider {
+        @media(max-width: $screen-sm-min){
+            .block__image {
+                margin-bottom: 20px;
+                padding: 0px 0px;
+            }
+        }
+        .block__text {
+            border: 5px dotted white;
+            border-radius: 15px;
+            blockquote{
+                background-color:transparent;
+                border:none;
+                border-radius: 15px;
+                font-size: 20px;
+                padding: 0px;
+                color:black;
+                &:before{
+                    display:none;
+                }
+            }
+            .attribution {
+                font-size:20px;
+                margin-bottom:20px;
+            }
+        }
+    }
+    .row.engineering_row {
+        background-color:#666666;
+        h2 {
+            color: white;
+        }
+        .item img {
+            transition: all 100ms ease-in-out;
+            &:hover {
+                transform:scale(1.1);
+                z-index:9999;
+                position:relative;
+                filter: grayscale(1);
+            }
+        }
+        #engineering_homepage_slider_mobile {
+             h3 {
+                color: white;
+                font-size: 16px;
+                text-align: center;
+                height: 50px;
+            }
+        }
+        #engineering_homepage_slider {
+            .item {
+                img.lazyloaded {
+                    height: 120px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+                text-align: center;
+                color:white;
+            }
+        }
+    }
 }
