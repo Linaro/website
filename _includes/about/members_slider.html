@@ -1,5 +1,5 @@
 <div class="col-xs-12">
-    <div class="owl-carousel owl-theme hidden-xs" id="members_slider">
+    <div class="owl-carousel owl-theme" id="members_slider">
         {% for group in site.data.members %}
             {% if group.id == "core" or group.id == "club" or group.id == "group" %}
                 {% for member in group.members %}
