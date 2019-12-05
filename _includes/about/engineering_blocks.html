@@ -1,0 +1,11 @@
+<div class="col-xs-12 no-padding" id="engineering_blocks">
+    {% for group in site.data.engineering_groups %}
+        <div class="col-xs-12 col-sm-4 engineering_blocks__col">
+            <a href="{{group.url}}">
+                <div class="engineering_block">
+                    <h3>{{group.title}}</h3>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>

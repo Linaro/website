@@ -1,0 +1,37 @@
+<div class="col-xs-12">
+    <div class="owl-carousel owl-theme hidden-xs" id="members_slider">
+        {% for member in site.data.members["core"] %}
+        <a href="{{member.url}}" target="_self">
+            <div class="item">
+                <div class="member_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{member.name}} logo" data-src="{{member.image}}" />
+                </div>
+                <span class="member_type core">Core Member</span>
+            </div>
+        </a>
+        {% endfor %}
+        {% for member in site.data.members["club"] %}
+        <a href="{{member.url}}" target="_self">
+            <div class="item">
+                <div class="member_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{member.name}} logo" data-src="{{member.image}}" />
+                </div>
+                <span class="member_type club">Club Member</span>
+            </div>
+        </a>
+        {% endfor %}
+        {% for member in site.data.members["group"] %}
+        <a href="{{member.url}}" target="_self">
+            <div class="item">
+                <div class="member_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{member.name}} logo" data-src="{{member.image}}" />
+                </div>
+                <span class="member_type group">Group Member</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
