@@ -546,7 +546,44 @@ ul#tabbed_nav.support-tabs li a {
   }
 }
 // Website Revamp 2019
+#wrapper #jumbotron .big-title {
+    font-weight:100;
+    border:5px dotted $brand-primary;
+    border-radius:10px;
+    max-width: 1000px;
+    padding: 20px 0;
+    font-size:60px;
+    @media(max-width: $screen-sm-min) {
+        font-size: 24px !important;
+    }
+}
 #wrapper {
+    #flow_wrapper {
+        .gray_row {
+            background-color: #666666;
+        }
+        .light_gray_row {
+            background-color: #d1d1d1;
+        }
+        .centered_type {
+            p {
+                text-align:center!important;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                text-align: center!important;
+            }
+        }
+       .row.large_type {
+           p {
+                font-size: 26px;
+            }
+             h2 {
+                font-size: 46px;
+                font-weight: 100;
+                text-align: left;
+            }
+       }
+    }
     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
         height: 12px;
@@ -622,6 +659,7 @@ ul#tabbed_nav.support-tabs li a {
             text-align:left;
             address {
                 text-align: left;
+                font-size: 18px;
             }
             h3 {
                 text-align: left;
@@ -641,8 +679,8 @@ ul#tabbed_nav.support-tabs li a {
                 li {
                     text-align: left;
                     a {
-                        font-size:18px;
-                        font-weight:bold;
+                        font-size:28px;
+                        font-weight:lighter;
                         small {
                             text-align: left;
                             font-size:16px;
@@ -656,7 +694,7 @@ ul#tabbed_nav.support-tabs li a {
                 color: #ffffff;
                 font-weight: 700;
                 font-size: 26px;
-                border-left: 5px solid #98cc33;
+                border-left: 5px solid $brand-primary;
                 padding-left: 15px;
                 @media (max-width: $screen-sm-min) {
                     text-align:left;
