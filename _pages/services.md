@@ -9,12 +9,10 @@ permalink: /services/
 js-package: membership
 css-package: services
 jumbotron:
-    title: ""
+    title: "Helping build your products on Arm"
+    title-class: big-title
     description: ""
-    animation: fade
-    triangle-divider: true
     background-image: /assets/images/content/developer-services-banner.jpg
-    include: services-jumbotron.html
 flow:
     - row: container_row
       style: developer_services_intro

@@ -2,6 +2,10 @@
 title: Authors
 permalink: /authors/
 layout: flow
+jumbotron:
+    title: Authors
+    title-class: big-title
+    description: ""
 pagination:
     title: "Authors - Page :num"
     enabled: true

@@ -7,8 +7,10 @@ js-package: about
 css-package: about
 layout: flow
 jumbotron:
-    triangle-divider: true
     description-class: smaller
+    description: ""
+    title: "Where collaborative engineering on Arm happens"
+    title-class: big-title
     background-image: /assets/images/content/bkk19-group-photo.jpg
 flow:
     - row: container_row

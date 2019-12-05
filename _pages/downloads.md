@@ -10,6 +10,8 @@ layout: flow
 jumbotron:
   background-image: /assets/images/content/downloads-bg.jpg
   title: Builds & Downloads
+  description: ""
+  title-class: big-title
 flow:
   - row: main_content_row
   - row: container_row
@@ -129,7 +131,7 @@ flow:
                   other Linaro technologies like OPTEE in one place. LCR is
                   provided as is however we are interested in bug reports and
                   will fix them on a best effort basis.  Downloads can be found
-                  on both snapshots.linaro.org and releases.linaro.org. 
+                  on both snapshots.linaro.org and releases.linaro.org.
               title:
                 size: h3
                 text: LCR
@@ -141,7 +143,7 @@ flow:
 
 **Deploy to Arm-based clouds in minutes and build your project today**
 
-Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Rocky release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu and RHEL. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM and containers. 
+Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Rocky release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu and RHEL. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM and containers.
 
 
 To sign up for access and build your project today, click [here](https://servicedesk.linaro.org/servicedesk/customer/portal/19/create/265).

@@ -8,8 +8,8 @@ project: false
 css-package: projects
 layout: jumbotron-container
 jumbotron:
-    triangle-divider: true
     title: Upstream Projects
+    title-class: big-title
     description: ""
     include: projects-jumbotron-include.html
     background-image: /assets/images/content/engineering-bg.jpg

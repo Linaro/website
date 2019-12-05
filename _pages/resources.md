@@ -7,7 +7,9 @@ permalink: /resources/
 js-package: resources
 css-package: resources
 jumbotron:
-    triangle-divider: true
+    title: Resources
+    title-class: big-title
+    description: ""
     background-image: /assets/images/content/resources-header.png
 flow:
     - row: container_row

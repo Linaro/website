@@ -6,6 +6,10 @@ description: >-
 permalink: /contact/
 css-package: contact
 layout: flow
+jumbotron:
+    title: Contact
+    title-class: big-title
+    description: ""
 flow:
   - row: container_row
     sections:

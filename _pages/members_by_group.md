@@ -6,6 +6,10 @@ layout: flow
 permalink: /members-by-group/
 js-package: members
 css-package: members
+jumbotron:
+    title: Members by Group
+    title-class: big-title
+    description: ""
 flow:
     - row: container_row
       sections:

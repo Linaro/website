@@ -5,6 +5,10 @@ permalink: /about/team/board/
 js-package: extended
 css-package: about
 layout: flow
+jumbotron:
+    title: Board of Directors
+    title-class: big-title
+    description: ""
 flow:
   - row: main_content_row
   - row: custom_include_row
