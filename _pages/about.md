@@ -1,77 +1,73 @@
 ---
 title: About Linaro
 description: |-
-    Experts in Open Source Software on Arm
+    Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on.
 permalink: /about/
 js-package: about
 css-package: about
 layout: flow
 jumbotron:
+    title: Where collaborative engineering on Arm happens
     triangle-divider: true
     description-class: smaller
+    title-class: big-title
     background-image: /assets/images/content/bkk19-group-photo.jpg
 flow:
     - row: container_row
       sections:
-        - format: feature_block
-          style: text-center text-white
-          feature_block_content:
-            position: right
-            type: youtube_video
-            video_content_url: https://www.youtube.com/watch?v=iNMhpvHCXRU
+        - format: title
+          style: text-left
+          title_content:
+            size: h2
+            text: Driving open source software development on Arm
+        - format: text
+          style: text-left
+          text_content:
             text: >
-                Together with Arm, Linaro co-maintains the Arm software ecosystem, providing the tools, security and Linux kernel quality needed for a solid base to differentiate on. Enabling markets on Arm architecture since 2010, Linaro works with companies to consolidate Arm code bases in the ecosystem as a whole, as well as in specific market segments. We do this by providing an engineering forum where industry and community can work together on open source software to solve common problems. This collaborative approach reduces software fragmentation across the many Arm platforms and enables industry and community to reduce costs for development and validation of Arm-based software.
+                Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on. One of the main reasons Linaro was formed was to consolidate the Arm code base as multiple companies were frequently trying to upstream the same code - causing fragmentation and delay to product deployments. Linaro was therefore formed to provide a collaborative forum for companies to work together on foundational open source software on Arm.
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: about/key_stats.html
     - row: container_row
       sections:
         - format: title
+          style: text-left
           title_content:
             size: h2
-            text: Enabling markets on Arm architecture since 2010
-    - row: custom_include_row
-      source: about/about_timeline.html
-    - row: custom_include_row
-      source: about/employee_map.html
+            text: Enabling new markets through collaborative engineering
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                As a collaborative forum, Linaro is not just the place where Arm software is consolidated, developed and maintained. We also bring companies together to identify business opportunities and enable new markets on Arm architecture. This has resulted in multiple Linaro groups focused on specific verticals, including Artificial Intelligence, Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog Computing and IoT & Embedded.
+        - format: title
+          style: text-left
+          title_content:
+            size: h2
+            text: Pioneering technology in trusted partnership with member companies
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software problems. Our members also sit on technical steering committees where together with Linaro and other member companies decisions are made on what work needs to be done. Being a Linaro member in eﬀect means shaping the future of Arm software. In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on speciﬁc projects by working with Linaro Developer Services.
     - row: container_row
       sections:
-        - format: block
-          style: text-center text-white organisation-section
-          block_section_content:
-            item_width: 4
-            blocks:
-              - title:
-                    size: h3
-                    text: Board of Directors
-                url: /about/team/board/
-                text_content:
-                    text: >
-                        The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission through a combination of industry
-                buttons:
-                    - title: Learn More
-                      url: /about/team/board/
-                      icon: fa fa-users
-                      style: btn-primary
-              - title:
-                    size: h3
-                    text: Technical Steering Committee
-                url: /about/team/technical-steering-committee/
-                text_content:
-                    text: >
-                        The Linaro Office of the CTO (OCTO) supports the TSC in determining Linaro’s technical strategy, ensuring technical coherency across Linaro’s engineering activities
-                buttons:
-                    - title: Learn More
-                      url: /about/team/technical-steering-committee/
-                      icon: fa fa-users
-                      style: btn-primary
-              - title:
-                    size: h3
-                    text: Executive Team
-                url: /about/team/executive/
-                text_content:
-                    text: >
-                        The executive team work with the Technical Steering Committee and Linaro members to translate strategy and resources into deliverables. They are responsible for the...
-                buttons:
-                    - title: Learn More
-                      url: /about/team/executive/
-                      icon: fa fa-users
-                      style: btn-primary
+        - format: custom_include
+          source: about/members_slider.html
+    - row: container_row
+      sections:
+        - format: title
+          style: text-left
+          title_content:
+            size: h2
+            text: End to End Solutions using Arm Technology
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                Linaro’s work spans a wide range of technologies. To find out more about what work we do in
+                each vertical, click on the relevant picture below.
+        - format: custom_include
+          source: about/engineering_blocks.html
 ---
