@@ -8,12 +8,13 @@ css-package: about
 layout: flow
 jumbotron:
     title: Where collaborative engineering on Arm happens
-    triangle-divider: true
     description-class: smaller
+    description: ""
     title-class: big-title
-    background-image: /assets/images/content/bkk19-group-photo.jpg
+    background-image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 flow:
     - row: container_row
+      style: large_type introduction_row
       sections:
         - format: title
           style: text-left
@@ -26,10 +27,12 @@ flow:
             text: >
                 Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on. One of the main reasons Linaro was formed was to consolidate the Arm code base as multiple companies were frequently trying to upstream the same code - causing fragmentation and delay to product deployments. Linaro was therefore formed to provide a collaborative forum for companies to work together on foundational open source software on Arm.
     - row: container_row
+      style: gray_row key_stats_row
       sections:
         - format: custom_include
           source: about/key_stats.html
     - row: container_row
+      style: large_type detail_row
       sections:
         - format: title
           style: text-left
@@ -52,10 +55,12 @@ flow:
             text: >
                 Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software problems. Our members also sit on technical steering committees where together with Linaro and other member companies decisions are made on what work needs to be done. Being a Linaro member in eﬀect means shaping the future of Arm software. In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on speciﬁc projects by working with Linaro Developer Services.
     - row: container_row
+      style: members_slider_row light_gray_row
       sections:
         - format: custom_include
           source: about/members_slider.html
     - row: container_row
+      style: large_type centered_type engineering_blocks_row
       sections:
         - format: title
           style: text-left
