@@ -549,6 +549,13 @@ ul#tabbed_nav.support-tabs li a {
 body {
 	font-family: "Lato", sans-serif;
 }
+#jumbotron .big-title {
+    font-weight:100;
+    border:5px dotted $brand-primary;
+    border-radius:10px;
+    max-width: 1000px;
+    padding: 20px 0;
+}
 #wrapper {
     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
