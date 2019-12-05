@@ -624,6 +624,10 @@ svg#employee-map{
     border-top: 1px solid #eee;
 }
 // Website Revamp 2019
+body {
+	margin: 0;
+	font-family: Lato, sans-serif;
+}
 #wrapper {
     #flow_wrapper {
         .engineering_blocks_row {
@@ -631,6 +635,7 @@ svg#employee-map{
                 height: 200px;
                 background-size: cover;
                 text-align: center;
+                border-radius: 15px;
                 margin: 10px;
                  h3 {
                     color: white;
