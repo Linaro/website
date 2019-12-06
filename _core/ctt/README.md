@@ -1,6 +1,10 @@
 ---
 core_id: "1"
 title: Core Technologies & Tools
+jumbotron:
+    title: Core Technologies & Tools
+    title-class: big-title
+    description: ""
 description: |-
     The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.
 keywords: Builds, Baselines, LAVA, software, Arm, collaboration, Toolchain, Continuous Integration, CI
