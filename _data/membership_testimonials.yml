@@ -37,9 +37,9 @@ items:
       quote: >
         All members are focused around the Arm infrastructure and architecture. As a result, we are all looking for common optimisations and common environments to build on, regardless of whether we're targeting a server, networking or edge device.
       video:
-        mp4: https://static.linaro.org/videos/LarryWikeliusTestimonial.mp4
-        webm: https://static.linaro.org/videos/LarryWikeliusTestimonial.webm
-        ogv: https://static.linaro.org/videos/LarryWikeliusTestimonial.ogv
+        mp4: https://static.linaro.org/videos/marvell_testimonial.mp4
+        webm: https://static.linaro.org/videos/marvell_testimonial.webm
+        ogv: https://static.linaro.org/videos/marvell_testimonial.ogv
     - title: Kouichi Hirai - VP of Software Development at Fujitsu
       cover_image: /assets/images/content/kouichi-hirai-fujitsu-testimonial-screen.png
       attribution: Kouichi Hirai, Fujitsu
