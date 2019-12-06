@@ -275,6 +275,8 @@ collections:
             fields:
                 - {label: Title, name: title, widget: string}
                 - {label: Cover Image, name: cover_image, widget: image}
+                - {label: Quote, name: quote, widget: text}
+                - {label: Attribution, name: attribution, widget: string, hint: "E.g Rob Oshana, NXP (used on the homepage testimonial slider"}
                 - label: Video
                   name: video
                   widget: object
