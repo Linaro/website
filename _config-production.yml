@@ -7,5 +7,3 @@ url: "https://www.linaro.org"
 destination: production.linaro.org
 # Production boolean used in layouts / includes
 production: true
-plugins:
-  - jekyll-sitemap
