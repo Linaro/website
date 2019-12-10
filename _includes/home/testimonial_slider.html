@@ -1,6 +1,6 @@
 <div class="col-xs-12 no-padding">
     {% for testimonial in site.data.membership_testimonials.items %}
-        <div class="modal fade" id="testimonial{{forloop.index}}">
+        <div class="modal fade video_modal" id="testimonial{{forloop.index}}">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -32,7 +32,7 @@
         {% for testimonial in site.data.membership_testimonials.items %}
         <div class="item testimonial">
             <div class="col-xs-12 col-sm-6 block__image">
-                <a class="btn btn-primary" data-toggle="modal" href='#testimonial{{forloop.index}}'>
+                <a data-toggle="modal" href='#testimonial{{forloop.index}}'>
                     <div class="video_placeholder_image" style="background-image:url({{testimonial.cover_image}})">
                         <div class="play_button">
                             <i class="fa fa-youtube-play" aria-hidden="true"></i>
