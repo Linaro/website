@@ -883,6 +883,23 @@ div#connect {
     }
     .row.testimonial_row {
         background-color: #d1d1d1;
+        .video_placeholder_image {
+            height: 300px;
+            width: 100%;
+            position: relative;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .play_button i.fa.fa-youtube-play {
+                font-size: 90px;
+            }
+        }
     }
     #testimonial_slider {
         @media(max-width: $screen-sm-min){
