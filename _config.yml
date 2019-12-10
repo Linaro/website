@@ -194,7 +194,6 @@ defaults:
 # Gems that should be included in the Jekyll builld of this site.
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-readme-index
   - uglifier
   - jekyll-assets
