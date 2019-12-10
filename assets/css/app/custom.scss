@@ -546,14 +546,17 @@ ul#tabbed_nav.support-tabs li a {
   }
 }
 // Website Revamp 2019
-#wrapper #jumbotron .big-title {
-    font-weight:100;
+body {
+	font-family: "Lato", sans-serif;
+}
+#jumbotron .big-title {
+    font-weight:100 !important;
     border:5px dotted $brand-primary;
     border-radius:10px;
     max-width: 1000px;
-    padding: 20px 0;
-    font-size:60px;
-    @media(max-width: $screen-sm-min) {
+    padding: 20px;
+    font-size: 60px !important;
+    @media(max-width: $screen-sm-min){
         font-size: 24px !important;
     }
 }
@@ -612,6 +615,42 @@ ul#tabbed_nav.support-tabs li a {
                 text-align: left;
             }
        }
+    .video_modal {
+        .modal-content {
+            background-color: #333333;
+            border-color: #3f3f3f;
+        }
+        .modal-title {
+            color: white;
+        }
+        .modal-header {
+            border-bottom: 1px solid #3f3f3f;
+        }
+        .modal-footer {
+            border-top: 1px solid #3f3f3f;
+        }
+        text-align: center;
+        @media (max-width: 1000px) {
+            padding-right: 0px !important;
+            margin-top: 80px;
+        }
+        @media (min-width:$screen-sm-min){
+            &:before {
+                display: inline-block;
+                vertical-align: middle;
+                content: " ";
+                height: 100%;
+            }
+        }
+        .modal-dialog {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+            @media(min-width:$screen-sm-min){
+                max-width:1000px;
+                width:100%;
+            }
+        }
     }
     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
@@ -656,14 +695,6 @@ ul#tabbed_nav.support-tabs li a {
         }
         .buttons {
             padding-top: 0px;
-            a.btn {
-                text-transform: uppercase;
-                padding:5px;
-                font-weight:bold;
-                background-color:#0083b0;
-                font-size:18px;
-                border-radius:5px;
-            }
         }
     }
     footer {

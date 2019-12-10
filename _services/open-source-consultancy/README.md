@@ -1,6 +1,10 @@
 ---
 service_id: 8
 title: Open Source Consultancy and Licensing
+jumbotron:
+    title: Open Source Consultancy and Licensing
+    title-class: big-title
+    description: ""
 short_name: Open Source Consultancy
 permalink: /services/open-source-consultancy/
 keywords: open source, consulting, community, licensing, training

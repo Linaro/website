@@ -742,10 +742,6 @@ div#connect {
     color: white;
     font-size: 66px;
 }
-#jumbotron-slider .slide-title {
-    max-width: 670px;
-}
-
 
 #animated_logo .cls-1 {
     fill: none;
@@ -867,6 +863,7 @@ div#connect {
         }
     }
     .row.introduction_row {
+        padding-top: 60px;
          h2 {
             border: 5px dotted #0083b0;
             border-radius: 10px;
@@ -877,6 +874,8 @@ div#connect {
         p {
             font-size: 34px;
             font-weight: 100;
+            margin-bottom: 60px;
+            line-height: 45px;
             @media(max-width: $screen-sm-min){
                 font-size: 28px;
             }
@@ -884,6 +883,23 @@ div#connect {
     }
     .row.testimonial_row {
         background-color: #d1d1d1;
+        .video_placeholder_image {
+            height: 300px;
+            width: 100%;
+            position: relative;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .play_button i.fa.fa-youtube-play {
+                font-size: 90px;
+            }
+        }
     }
     #testimonial_slider {
         @media(max-width: $screen-sm-min){
@@ -899,7 +915,7 @@ div#connect {
                 background-color:transparent;
                 border:none;
                 border-radius: 15px;
-                font-size: 20px;
+                font-size: 26px;
                 padding: 0px;
                 color:black;
                 &:before{
@@ -936,6 +952,8 @@ div#connect {
         }
         #engineering_homepage_slider {
             .item {
+                margin-top: 20px;
+                margin-bottom: 30px;
                 img.lazyloaded {
                     height: 120px;
                 }

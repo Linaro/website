@@ -1,6 +1,10 @@
 ---
 core_id: "4"
 title: Security work at Linaro
+jumbotron:
+    title: Security Work at Linaro
+    title-class: big-title
+    description: ""
 description: |-
     The Linaro Security Working Group (SWG) mission is to support Arm Open Source Linux distributions on security related topics.
 keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
