@@ -561,6 +561,26 @@ body {
     }
 }
 #wrapper {
+    .video_modal {
+        text-align: center;
+        @media (max-width: 1000px) {
+            padding-right: 0px !important;
+            margin-top: 80px;
+        }
+        @media (min-width:$screen-sm-min){
+            &:before {
+                display: inline-block;
+                vertical-align: middle;
+                content: " ";
+                height: 100%;
+            }
+        }
+        .modal-dialog {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+    }
     .owl-theme .owl-dots .owl-dot span {
         width: 12px;
         height: 12px;
