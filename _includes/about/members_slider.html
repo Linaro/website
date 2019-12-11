@@ -1,0 +1,19 @@
+<div class="col-xs-12">
+    <div class="owl-carousel owl-theme" id="members_slider">
+        {% for group in site.data.members %}
+            {% if group.id == "core" or group.id == "club" or group.id == "group" %}
+                {% for member in group.members %}
+                <a href="{{member.url}}" target="_self">
+                    <div class="item">
+                        <div class="member_image">
+                            <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="{{member.name}} logo" data-src="{{member.image}}" />
+                        </div>
+                        <span class="member_type {{group.id}}">{{group.id | capitalize }} Member</span>
+                    </div>
+                </a>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

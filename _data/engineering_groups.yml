@@ -1,55 +1,66 @@
 items:
   - title: Artificial Intelligence
+    context_image: /assets/images/content/engineering/context/artificial_intelligence.jpg
     icon:
       png: /assets/images/content/engineering/png/artificial_intelligence.png
       svg: /assets/images/content/engineering/svg/artificial_intelligence.svg
     url: /engineering/artificial-intelligence/
   - title: Autonomous Vehicles
+    context_image: /assets/images/content/engineering/context/autonomous_vehicles.jpg
     icon:
       png: /assets/images/content/engineering/png/autonomous_vehicles.png
       svg: /assets/images/content/engineering/svg/autonomous_vehicles.svg
     url: /engineering/autonomous-vehicles/
   - title: Consumer (Mobile & Android)
+    context_image: /assets/images/content/engineering/context/consumer.jpg
     icon:
       png: /assets/images/content/engineering/png/consumer.png
       svg: /assets/images/content/engineering/svg/consumer.svg
     url: /engineering/consumer/
   - title: Datacenter & Cloud
+    context_image: /assets/images/content/engineering/context/datacenter_and_cloud.jpg
     icon:
       png: /assets/images/content/engineering/png/datacenter_and_cloud.png
       svg: /assets/images/content/engineering/svg/datacenter_and_cloud.svg
     url: /engineering/datacenter-and-cloud/
   - title: Edge & Fog Computing
+    context_image: /assets/images/content/engineering/context/edge_and_fog_computing.jpg
     icon:
       png: /assets/images/content/engineering/png/edge_and_fog_computing.png
       svg: /assets/images/content/engineering/svg/edge_and_fog_computing.svg
     url: /engineering/edge-and-fog-computing/
   - title: High Performance Computing
+    context_image: /assets/images/content/engineering/context/high_performance_computing.jpg
     icon:
       png: /assets/images/content/engineering/png/high_performance_computing.png
       svg: /assets/images/content/engineering/svg/high_performance_computing.svg
     url: /engineering/high-performance-computing/
   - title: IoT & Embedded
+    context_image: /assets/images/content/engineering/context/iot_and_embedded.jpg
     icon:
       png: /assets/images/content/engineering/png/iot_and_embedded.png
       svg: /assets/images/content/engineering/svg/iot_and_embedded.svg
     url: /engineering/iot-and-embedded/
   - title: Multimedia
+    context_image: /assets/images/content/engineering/context/multimedia.jpg
     icon:
       png: /assets/images/content/engineering/png/multimedia.png
       svg: /assets/images/content/engineering/svg/multimedia.svg
     url: /engineering/core/
   - title: Security
+    context_image: /assets/images/content/engineering/context/security.jpg
     icon:
       png: /assets/images/content/engineering/png/security.png
       svg: /assets/images/content/engineering/svg/security.svg
     url: /engineering/core/
   - title: Stewardship
+    context_image: /assets/images/content/engineering/context/stewardship.jpg
     icon:
       png: /assets/images/content/engineering/png/stewardship.png
       svg: /assets/images/content/engineering/svg/stewardship.svg
     url: /engineering/core/
   - title: Testing
+    context_image: /assets/images/content/engineering/context/testing.jpg
     icon:
       png: /assets/images/content/engineering/png/testing.png
       svg: /assets/images/content/engineering/svg/testing.svg

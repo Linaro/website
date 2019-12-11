@@ -26,9 +26,8 @@ jumbotron:
             url: /news/nxp-joins-as-a-club-member/
         darken: true
         title: NXP Becomes Club Member of Linaro
-        description: >
-          Linaro announces that NXP Semiconductors® has joined Linaro as a Club
-          member.
+        title-class: big-title
+        description: ''
         image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
       - buttons:
           - title: Learn More
