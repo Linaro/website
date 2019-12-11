@@ -644,6 +644,13 @@ body {
                     margin: 10px;
                     overflow:hidden !important;
                     position:relative;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     &:after {
                         height: 100%;
                         width: 100%;
@@ -661,7 +668,7 @@ body {
                     h3 {
                         color: white;
                         margin-top:0px;
-                        line-height: 190px;
+                        line-height: 40px;
                     }
                 }
 
