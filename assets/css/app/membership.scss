@@ -1,387 +1,406 @@
 //Membership Page
 .mk-svg-icon.small {
-    height: 16px !important;
-    width: 16px !important;
+  height: 16px !important;
+  width: 16px !important;
 }
 
 .members-svg {
-    display: inline-block;
-    margin-right: 4px;
-    fill: $brand-primary;
-    position: relative;
-    top: 2px;
+  display: inline-block;
+  margin-right: 4px;
+  fill: $brand-primary;
+  position: relative;
+  top: 2px;
 }
 
 .members-links {
-    margin-bottom: 20px;
-    padding: 50px;
+  margin-bottom: 20px;
+  padding: 50px;
 }
 .testimonials video.img-responsive {
-    height: 250px;
-    margin: 20px auto;
+  height: 250px;
+  margin: 20px auto;
 }
 #wrapper .testimonial-col h4 {
-    color: white;
-    font-weight: normal;
+  color: white;
+  font-weight: normal;
 }
 
 .members-img {
-    width: auto;
-    height: 100px;
-    object-fit: contain;
+  width: auto;
+  height: 100px;
+  object-fit: contain;
 }
 
 .col-md-12.members-panel {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 0;
-    clear: both;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 0;
+  clear: both;
 }
 
 #content-container h1 {
-    clear: both;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  clear: both;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #content-container h2 {
-    text-align: center;
-    clear: both;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #accordion .panel-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 #wrapper .panel-heading {
-    border: 0;
-    text-align: center;
-    border-radius: 0;
+  border: 0;
+  text-align: center;
+  border-radius: 0;
 }
 
 #wrapper .panel.panel-default {
-    border: 1px solid #ccc;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .vcenter-img:hover {
-    opacity: 0.2;
-    border: 1px solid #ccc;
+  opacity: 0.2;
+  border: 1px solid #ccc;
 }
 
 #wrapper .panel-heading a {
-    color: #000;
+  color: #000;
 }
 
 .advisory-board {
-    clear: both;
+  clear: both;
 }
 
 #flow_wrapper div#key-factors {
-    background-color: #7ca82d;
+  background-color: #7ca82d;
 }
 
 span.key-factor-title {
-    font-size: 20px;
-    position: relative;
-    top: 36%;
-    transform: translateY(-50%);
+  font-size: 20px;
+  position: relative;
+  top: 36%;
+  transform: translateY(-50%);
 }
 
 span.bold {
-    font-weight: bold;
-    color: #78ac01;
+  font-weight: bold;
+  color: #78ac01;
 }
 
 .key-factor-block {
-    padding: 10px;
-    background-color: #fff;
-    height: 180px;
-    margin-top: 23px;
-    border: 1px solid #a9a9a9;
-    -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  background-color: #fff;
+  height: 180px;
+  margin-top: 23px;
+  border: 1px solid #a9a9a9;
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.75);
 }
 
-@media(max-width: $screen-sm-min - 1) {
-    .key-factor-block {
-        height: 80px;
-    }
+@media (max-width: $screen-sm-min - 1) {
+  .key-factor-block {
+    height: 80px;
+  }
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 0;
 }
 
 #why-join h1 {
-    width: 70%;
-    color: white;
-    text-align: center;
+  width: 70%;
+  color: white;
+  text-align: center;
 }
 
 #why-join p {
-    color: white;
-    width: 60%;
+  color: white;
+  width: 60%;
 }
 
 .project-image {
-    height: 50px;
+  height: 50px;
 }
 
 .item.project-item {
-    padding: 10px;
+  padding: 10px;
 }
 
 #key-factors h2.text-center {
-    color: white;
-    font-size: 24px;
+  color: white;
+  font-size: 24px;
 }
 
 .tooltip-inner {
-    max-width: 350px;
-    /* If max-width does not work, try using width instead */
-    width: 350px;
+  max-width: 350px;
+  /* If max-width does not work, try using width instead */
+  width: 350px;
 }
 
-#flow_wrapper  div#why-join-container {
-    background-position-y: -100px;
+#flow_wrapper div#why-join-container {
+  background-position-y: -100px;
 }
 
 .member {
-    background-size: contain;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: all 400ms ease;
+  background-size: contain;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 400ms ease;
 }
 
 .member:hover {
-    opacity: .2;
+  opacity: 0.2;
 }
 
 .col-xs-6.col-sm-3.col-lg-2.member-col {
-    padding: 10px;
+  padding: 10px;
 }
 
 .linaro-members,
 .boards-members {
-    border: 1px solid #eee;
+  border: 1px solid #eee;
 }
 
 .col-xs-6.col-sm-3.col-lg-2.member-col {
-    padding: 10px;
+  padding: 10px;
 }
 
 h2.text-center {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
-#flow_wrapper .row.levels_of_engagement  {
-    background-color: #f1f1f1 !important;
+#flow_wrapper .row.levels_of_engagement {
+  background-color: #f1f1f1 !important;
 }
 
 .container.boards-members {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .container.linaro-members {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .linaro-members h2.text-center {
-    margin-top: 20px;
-    font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .boards-members h2.text-center {
-    margin-top: 20px;
-    font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .cognito {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
-@media(max-width: $screen-sm-min - 1) {
-    .cognito {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .tooltip-inner {
-        max-width: 350px;
-        /* If max-width does not work, try using width instead */
-        width: 100%;
-    }
-    #why-join h1 {
-        width: 100%;
-        color: white;
-        text-align: center;
-        font-size: 28px;
-    }
-    #why-join p {
-        color: white;
-        width: 100%;
-        font-size: 17px;
-    }
-    .tooltip {
-        font-size: 14px;
-    }
-    span.key-factor-title {
-        font-size: 14px;
-        position: relative;
-        top: 20%;
-        transform: translateY(-50%);
-    }
-    .member {
-        background-size: contain;
-        height: 75px;
-    }
+@media (max-width: $screen-sm-min - 1) {
+  .cognito {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 100%;
+  }
+  #why-join h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+  }
+  #why-join p {
+    color: white;
+    width: 100%;
+    font-size: 17px;
+  }
+  .tooltip {
+    font-size: 14px;
+  }
+  span.key-factor-title {
+    font-size: 14px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+  .member {
+    background-size: contain;
+    height: 75px;
+  }
 }
 
 .key-factor-block {
-    transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 .key-factor-block:hover {
-    opacity: .2;
+  opacity: 0.2;
 }
 
 .tooltip {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .item.project-item {
-    transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
 .item.project-item:hover {
-    opacity: .2;
+  opacity: 0.2;
 }
 
-#flow_wrapper  #projects h2 {
-    font-size: 18px;
-    font-weight: normal;
+#flow_wrapper #projects h2 {
+  font-size: 18px;
+  font-weight: normal;
 }
 
-#flow_wrapper  div#projects {
-    padding-bottom: 25px;
-    padding-top: 0px;
+#flow_wrapper div#projects {
+  padding-bottom: 25px;
+  padding-top: 0px;
 }
 
 // Testimonials
 .testimonial-block.fly.show-block {
-    padding: 20px;
-    height:200px;
-    text-align:center;
-    width:100%;
-    background-color:#1e1e1e;
-    margin: 20px 0;
-    transition: all 400ms ease;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  width: 100%;
+  background-color: #1e1e1e;
+  margin: 20px 0;
+  transition: all 400ms ease;
 }
 
 span.testimonial .quote {
-    display: block;
-    height:80px;
-    margin:10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: block;
+  height: 80px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 span.testimonial {
-    color:white;
-    margin: auto;
+  color: white;
+  margin: auto;
 }
 
-#flow_wrapper  .row.testimonials_row {
-    background-color:#151515;
-     h2 {
-        color: white;
-    }
+#flow_wrapper .row.testimonials_row {
+  background-color: #151515;
+  h2 {
+    color: white;
+  }
 }
 .col-xs-12.col-sm-4.fly.key-factor.text-center.testimonial-col.show-block {
-        display: flex;
+  display: flex;
 }
 
 .testimonial-block i.fa.fa-youtube-play {
-    display:block;
-    color:white;
-    font-size:24px;
-    transition: all 200ms ease;
+  display: block;
+  color: white;
+  font-size: 24px;
+  transition: all 200ms ease;
 }
 .testimonial-block i.fa.fa-youtube-play:hover {
-    display:block;
-    color:#9cc849;
-    cursor:pointer;
+  display: block;
+  color: #9cc849;
+  cursor: pointer;
 }
 
 .testimonial-block:after {
-    background-color: black;
-    content: '\f16a';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: FontAwesome;
-    font-weight: normal;
-    position: absolute;
-    height: 100%;
-    border:none;
-    width: 100%;
-    top:0px;
-    font-size:28px;
-    left:0px;
-    opacity: 0;
-    z-index:1;
-    color:white;
-    cursor:pointer;
-    -webkit-transition: all 250ms;
-    transition: all 250ms;
+  background-color: black;
+  content: "\f16a";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: FontAwesome;
+  font-weight: normal;
+  position: absolute;
+  height: 100%;
+  border: none;
+  width: 100%;
+  top: 0px;
+  font-size: 28px;
+  left: 0px;
+  opacity: 0;
+  z-index: 1;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
 }
 .testimonial-block.fly.show-block:hover:after {
-    opacity:1;
+  opacity: 1;
 }
 
 // Related News
 .news-item h3 {
-    font-size: 17px;
-    height: 60px;
-    overflow: hidden;
+  font-size: 17px;
+  height: 60px;
+  overflow: hidden;
 }
 
 .news-item p {
-    height: 100px;
-    overflow: hidden;
-    margin-bottom:30px;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
-.news-item p:after{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    bottom: 70px;
-    left: 0;
-    pointer-events: none;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #fff 90%);
-    width: 100%;
-    height: 6em;
+.news-item p:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 70px;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    #fff 90%
+  );
+  width: 100%;
+  height: 6em;
 }
 
 .news-item a.btn.btn-primary {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .item.news-item {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
-.big-triangle::after, .big-triangle::before {
-    border-bottom-color: #141414;
+.big-triangle::after,
+.big-triangle::before {
+  border-bottom-color: #141414;
 }
 #wrapper .testimonial_item h4 {
-    text-align: center;
-    color: white !important;
+  text-align: center;
+  color: white !important;
+}
+// Website Revamp 2019
+#wrapper {
+  #flow_wrapper {
+    .project_image {
+      background-color: white;
+      height: 80px;
+      img {
+        height: 80px;
+        object-fit: contain;
+        padding: 5px;
+      }
+    }
+  }
 }
