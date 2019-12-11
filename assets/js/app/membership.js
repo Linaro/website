@@ -50,7 +50,7 @@ $(document).ready(function() {
         items: 8
       },
       1200: {
-        items: 12
+        items: 9
       }
     }
   });
