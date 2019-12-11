@@ -139,6 +139,11 @@ flow:
       - format: custom_include
         source: membership/group_membership_testimonial.html
   - row: container_row
+    style: engineering_slider_row gray_row
+    sections:
+      - format: custom_include
+        source: home/engineering_slider.html
+  - row: container_row
     style: membership_form
     sections:
       - format: title
