@@ -58,7 +58,7 @@ flow:
             in how Arm software evolves and want to work with leading technology companies to
             develop and implement actual engineering solutions, Linaro membership is for you.
   - row: container_row
-    style: large_type centered_type projects_row
+    style: large_type light_gray_row centered_type projects_row
     sections:
       - format: title
         title_content:
