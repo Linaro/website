@@ -7,7 +7,7 @@ permalink: /membership/
 js-package: membership
 css-package: membership
 jumbotron:
-  background-image: /assets/images/content/membership-bg.jpg
+  background-image: /assets/images/content/memberhsip_bg.jpg
   title: Shape the future of Arm Software
   title-class: big-title
   description-class: smaller
@@ -100,7 +100,7 @@ flow:
           size: h2
           text: Core Membership
       - format: text
-        title_content:
+        text_content:
           text: >
             Core members drive the direction of software development in the Arm ecosystem. They can
             participate in any of Linaro’s projects or segment groups and have access to their own
@@ -115,7 +115,7 @@ flow:
           size: h2
           text: Club Membership
       - format: text
-        title_content:
+        text_content:
           text: >
             Club members influence the direction of Arm software development and can participate in
             any of Linaro’s segment groups. At an additional fee, they can also have access to their own
@@ -130,7 +130,7 @@ flow:
           size: h2
           text: Group Membership
       - format: text
-        title_content:
+        text_content:
           text: >
             Group members drive strategy within a specific vertical and can participate in any of the
             Linaro projects set up by their segment group. Linaro manages the following groups:
@@ -138,4 +138,11 @@ flow:
             Computing, IoT & Embedded and HPC.
       - format: custom_include
         source: membership/group_membership_testimonial.html
+  - row: container_row
+    style: membership_form
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: To find out more about membership please complete this form
 ---
