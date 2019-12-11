@@ -14,7 +14,7 @@ jumbotron:
   description: ""
 flow:
   - row: container_row
-    style: large_type centered_type introduction_row
+    style: larger_type light_gray_row centered_type introduction_row
     sections:
       - format: text
         text_content:
@@ -93,7 +93,7 @@ flow:
           text: >
             To view Linaro members by membership levels and groups, click [here](/members-by-group/)
   - row: container_row
-    style: large_type centered_type core_membership_row
+    style: large_type centered_type membership_row core_membership_row
     sections:
       - format: title
         title_content:
@@ -108,7 +108,7 @@ flow:
       - format: custom_include
         source: membership/core_membership_testimonial.html
   - row: container_row
-    style: large_type centered_type club_membership_row
+    style: large_type centered_type membership_row club_membership_row
     sections:
       - format: title
         title_content:
@@ -123,7 +123,7 @@ flow:
       - format: custom_include
         source: membership/club_membership_testimonial.html
   - row: container_row
-    style: large_type centered_type group_membership_row
+    style: large_type centered_type membership_row group_membership_row
     sections:
       - format: title
         title_content:
