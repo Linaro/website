@@ -597,6 +597,25 @@ body {
     }
   }
   #flow_wrapper {
+    .row.introduction_row {
+      padding-top: 60px;
+      h2 {
+        border: 5px dotted #0083b0;
+        border-radius: 10px;
+        max-width: 600px;
+        padding: 20px;
+        margin: auto;
+      }
+      p {
+        font-size: 34px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        line-height: 45px;
+        @media (max-width: $screen-sm-min) {
+          font-size: 28px;
+        }
+      }
+    }
     .gray_row {
       background-color: #666666;
     }
@@ -626,43 +645,6 @@ body {
         text-align: left;
       }
     }
-    .video_modal {
-      .modal-content {
-        background-color: #333333;
-        border-color: #3f3f3f;
-      }
-      .modal-title {
-        color: white;
-      }
-      .modal-header {
-        border-bottom: 1px solid #3f3f3f;
-      }
-      .modal-footer {
-        border-top: 1px solid #3f3f3f;
-      }
-      text-align: center;
-      @media (max-width: 1000px) {
-        padding-right: 0px !important;
-        margin-top: 80px;
-      }
-      @media (min-width: $screen-sm-min) {
-        &:before {
-          display: inline-block;
-          vertical-align: middle;
-          content: " ";
-          height: 100%;
-        }
-      }
-      .modal-dialog {
-        display: inline-block;
-        text-align: left;
-        vertical-align: middle;
-        @media (min-width: $screen-sm-min) {
-          max-width: 1000px;
-          width: 100%;
-        }
-      }
-    }
     .owl-theme .owl-dots .owl-dot span {
       width: 12px;
       height: 12px;
@@ -676,26 +658,6 @@ body {
     .feature_block {
       video.testimonial_video {
         display: none;
-      }
-      .video_placeholder {
-        overflow: hidden !important;
-        position: relative;
-        &:before {
-          content: "\f01d";
-          font: normal normal normal 60px/1 FontAwesome;
-          position: absolute;
-          margin: auto;
-          text-align: center;
-          color: $brand-primary;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.6);
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          cursor: pointer;
-        }
       }
       .row {
         padding-top: 20px;
