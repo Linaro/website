@@ -42,7 +42,7 @@ items:
       svg: /assets/images/content/engineering/svg/iot_and_embedded.svg
     url: /engineering/iot-and-embedded/
   - title: Multimedia
-    context_image: /assets/images/content/engineering/context/mutlimedia.jpg
+    context_image: /assets/images/content/engineering/context/multimedia.jpg
     icon:
       png: /assets/images/content/engineering/png/multimedia.png
       svg: /assets/images/content/engineering/svg/multimedia.svg
