@@ -1,4 +1,4 @@
-{% assign testimonial = site.data.membership_testimonials.items | where: 'attribution', 'Thomas Molgaard, Arm' %}
+{% assign testimonial = site.data.membership_testimonials.items | where: 'attribution', 'Thomas Molgaard, Arm' | first %}
 <div class="col-xs-12 no-padding">
     <div class="modal fade video_modal" id="coreTestimonial">
         <div class="modal-dialog">
