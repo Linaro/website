@@ -393,6 +393,37 @@ span.testimonial {
 // Website Revamp 2019
 #wrapper {
   #flow_wrapper {
+    .level_block {
+      height: 80px;
+      margin: 40px 0;
+      background-color: white;
+      border-radius: 10px;
+      h3 {
+        margin: 0px;
+        margin-top: 0px;
+        font-weight: 900;
+        line-height: 80px;
+        font-size: 48px;
+      }
+      &.core {
+        background-color: #0278ad;
+        h3 {
+          color: #fff;
+        }
+      }
+      &.club {
+        background-color: $brand-primary;
+        h3 {
+          color: #fff;
+        }
+      }
+      &.group {
+        background-color: #787878;
+        h3 {
+          color: #fff;
+        }
+      }
+    }
     .project_image {
       background-color: white;
       height: 80px;
