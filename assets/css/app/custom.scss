@@ -570,13 +570,13 @@ body {
                 }
             }
             .dropdown-menu {
-                li {
+                li.dropdown-submenu {
                     font-weight:lighter;
                     a {
                         font-size: 18px;
                     }
                     &:hover {
-                        a {
+                        > a {
                             color: #000;
                             letter-spacing: 0;
                             background-color: $brand-primary;
