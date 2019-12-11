@@ -1,0 +1,101 @@
+#wrapper {
+  .video_placeholder {
+    overflow: hidden !important;
+    position: relative;
+    &:before {
+      content: "\f01d";
+      font: normal normal normal 60px/1 FontAwesome;
+      position: absolute;
+      margin: auto;
+      text-align: center;
+      color: $brand-primary;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: $screen-sm-min) {
+    .block__image {
+      margin-bottom: 20px;
+      padding: 0px 0px;
+      .video_placeholder_image {
+        height: 300px;
+        width: 100%;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .play_button i.fa.fa-youtube-play {
+          font-size: 90px;
+        }
+      }
+    }
+  }
+  .block__text {
+    border: 5px dotted white;
+    border-radius: 15px;
+    blockquote {
+      background-color: transparent;
+      border: none;
+      border-radius: 15px;
+      font-size: 26px;
+      padding: 0px;
+      color: black;
+      &:before {
+        display: none;
+      }
+    }
+    .attribution {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .video_modal {
+    .modal-content {
+      background-color: #333333;
+      border-color: #3f3f3f;
+    }
+    .modal-title {
+      color: white;
+    }
+    .modal-header {
+      border-bottom: 1px solid #3f3f3f;
+    }
+    .modal-footer {
+      border-top: 1px solid #3f3f3f;
+    }
+    text-align: center;
+    @media (max-width: 1000px) {
+      padding-right: 0px !important;
+      margin-top: 80px;
+    }
+    @media (min-width: $screen-sm-min) {
+      &:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+      }
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+      @media (min-width: $screen-sm-min) {
+        max-width: 1000px;
+        width: 100%;
+      }
+    }
+  }
+}
