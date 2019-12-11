@@ -19,27 +19,27 @@
       cursor: pointer;
     }
   }
+  .video_placeholder_image {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .play_button i.fa.fa-youtube-play {
+      font-size: 90px;
+    }
+  }
   @media (max-width: $screen-sm-min) {
     .block__image {
       margin-bottom: 20px;
       padding: 0px 0px;
-      .video_placeholder_image {
-        height: 300px;
-        width: 100%;
-        position: relative;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        .play_button i.fa.fa-youtube-play {
-          font-size: 90px;
-        }
-      }
     }
   }
   .block__text {
