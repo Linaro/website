@@ -631,16 +631,40 @@ body {
 #wrapper {
     #flow_wrapper {
         .engineering_blocks_row {
-            .engineering_block {
-                height: 200px;
-                background-size: cover;
-                text-align: center;
+            .engineering_block__outer {
+                padding: 4px;
+                border: 5px dotted #9d9d9c;
+                margin: 15px;
                 border-radius: 15px;
-                margin: 10px;
-                 h3 {
-                    color: white;
-                    line-height: 190px;
+                .engineering_block {
+                    height: 200px;
+                    text-align: center;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin: 10px;
+                    overflow:hidden !important;
+                    position:relative;
+                    :after {
+                        height: 100%;
+                        width: 100%;
+                        content: '';
+                        background-color: rgba(0, 0, 0, 0.5);
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index:1;
+                    }
+                    & > * {
+                        z-index:2;
+                        position:relative;
+                    }
+                    h3 {
+                        color: white;
+                        margin-top:0px;
+                        line-height: 190px;
+                    }
                 }
+
             }
         }
         #members_slider {
