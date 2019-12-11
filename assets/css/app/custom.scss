@@ -548,6 +548,7 @@ ul#tabbed_nav.support-tabs li a {
 // Website Revamp 2019
 body {
   font-family: "Lato", sans-serif;
+  letter-spacing: 0px;
 }
 #jumbotron .big-title {
   font-weight: 100 !important;
@@ -556,9 +557,6 @@ body {
   max-width: 1000px;
   padding: 20px;
   font-size: 60px !important;
-  @media (max-width: $screen-sm-min) {
-    font-size: 24px !important;
-  }
 }
 #wrapper {
   #main-navigation.navbar-inverse {
