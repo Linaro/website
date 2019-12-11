@@ -642,9 +642,9 @@ body {
                     background-size: cover;
                     border-radius: 15px;
                     margin: 10px;
-                    overflow:hidden !important;
+                    overfzlow:hidden !important;
                     position:relative;
-                    :after {
+                    &:after {
                         height: 100%;
                         width: 100%;
                         content: '';
