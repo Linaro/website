@@ -14,7 +14,7 @@ jumbotron:
   description: ""
 flow:
   - row: container_row
-    style: introduction_row
+    style: large_type centered_type introduction_row
     sections:
       - format: text
         text_content:
@@ -23,7 +23,7 @@ flow:
             with Linaro engineers to solve common
             software problems. Why?
   - row: container_row
-    style: main_text_row
+    style: large_type main_text_row
     sections:
       - format: title
         title_content:
@@ -58,7 +58,7 @@ flow:
             in how Arm software evolves and want to work with leading technology companies to
             develop and implement actual engineering solutions, Linaro membership is for you.
   - row: container_row
-    style: projects_row
+    style: large_type centered_type projects_row
     sections:
       - format: title
         title_content:
@@ -67,7 +67,7 @@ flow:
       - format: custom_include
         source: membership/projects_slider.html
   - row: container_row
-    style: membership_levels
+    style: large_type centered_type membership_levels
     sections:
       - format: title
         title_content:
@@ -86,14 +86,14 @@ flow:
       - format: custom_include
         source: about/members_slider.html
   - row: container_row
-    style: members_by_group_row
+    style: large_type centered_type members_by_group_row
     sections:
       - format: text
         text_content:
           text: >
             To view Linaro members by membership levels and groups, click [here](/members-by-group/)
   - row: container_row
-    style: core_membership_row
+    style: large_type centered_type core_membership_row
     sections:
       - format: title
         title_content:
@@ -108,7 +108,7 @@ flow:
       - format: custom_include
         source: membership/core_membership_testimonial.html
   - row: container_row
-    style: club_membership_row
+    style: large_type centered_type club_membership_row
     sections:
       - format: title
         title_content:
@@ -123,7 +123,7 @@ flow:
       - format: custom_include
         source: membership/club_membership_testimonial.html
   - row: container_row
-    style: group_membership_row
+    style: large_type centered_type group_membership_row
     sections:
       - format: title
         title_content:
