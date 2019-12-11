@@ -651,6 +651,11 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    &:hover {
+                        h3 {
+                            color: $brand-primary;
+                        }
+                    }
                     &:after {
                         height: 100%;
                         width: 100%;
@@ -669,6 +674,7 @@ body {
                         color: white;
                         margin-top:0px;
                         line-height: 40px;
+                        transition: all 100ms ease-in-out;
                     }
                 }
 
