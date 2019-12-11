@@ -393,6 +393,21 @@ span.testimonial {
 // Website Revamp 2019
 #wrapper {
   #flow_wrapper {
+    .membership_row {
+      margin-bottom: 40px;
+    }
+    .core_membership_row {
+      background-color: #d0ecf3;
+    }
+    .club_membership_row {
+      background-color: #dff3c9;
+    }
+    .group_membership_row {
+      background-color: #d1d1d1;
+    }
+    .members_by_group_row p {
+      margin-bottom: 0px;
+    }
     .level_block {
       height: 80px;
       margin: 40px 0;
@@ -427,6 +442,7 @@ span.testimonial {
     .project_image {
       background-color: white;
       height: 80px;
+      margin: 30px 0;
       img {
         height: 80px;
         object-fit: contain;
