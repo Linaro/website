@@ -637,11 +637,11 @@ body {
     }
     .larger_type {
       p {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 60px !important;
+        line-height: 70px !important;
         @media (max-width: $screen-sm-min) {
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 40px !important;
+          line-height: 50px !important;
         }
       }
     }
