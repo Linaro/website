@@ -1,0 +1,47 @@
+{% assign testimonial = site.data.membership_testimonials.items | where: 'attribution', 'Thomas Molgaard, Arm' %}
+<div class="col-xs-12 no-padding">
+    <div class="modal fade video_modal" id="coreTestimonial">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">{{testimonial.attribution}}</h4>
+                </div>
+                <div class="modal-body">
+                    <video class="lazyload img-responsive testimonial_video" data-poster="{{testimonial.cover_image}}"
+                        controls="controls" preload="none">
+                        {% if testimonial.video.ogv %}
+                        <source src="{{testimonial.video.ogv}}" type="video/ogg">
+                        {% endif %}
+                        {% if testimonial.video.webm %}
+                        <source src="{{testimonial.video.webm}}" type="video/webm">
+                        {% endif %}
+                        {% if testimonial.video.mp4 %}
+                        <source src="{{testimonial.video.mp4}}" type="video/mp4">
+                        {% endif %}
+                    </video>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 block__image">
+        <a data-toggle="modal" href='#coreTestimonial'>
+            <div class="video_placeholder_image" style="background-image:url({{testimonial.cover_image}})">
+                <div class="play_button">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 block__text">
+        <blockquote>
+            &ldquo;{{testimonial.quote}}&rdquo;
+        </blockquote>
+        <div class="attribution">
+            <strong>{{testimonial.attribution}}</strong>
+        </div>
+    </div>
+</div>
