@@ -626,8 +626,27 @@ svg#employee-map{
 // Website Revamp 2019
 body {
 	margin: 0;
-	font-family: Lato, sans-serif;
+    font-family: Lato, sans-serif;
+    /*Scroll bar nav*/
+    &::-webkit-scrollbar {
+        width: auto;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: auto;
+        -webkit-border-radius: auto;
+        border-radius: auto;
+        background:auto;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        -webkit-border-radius:auto;
+        border-radius:auto;
+        background:auto;
+        -webkit-box-shadow:auto;
+    }
 }
+
 #wrapper {
     #flow_wrapper {
         .engineering_blocks_row {
