@@ -1,61 +1,141 @@
 ---
 title: Membership
 description: |-
-    Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
+  Linaro is consistently listed as one of the top five contributors worldwide to the Linux Kernel and works on more than 70 open source projects.
 layout: flow
 permalink: /membership/
 js-package: membership
 css-package: membership
 jumbotron:
-    background-image: /assets/images/content/membership-bg.jpg
-    title: Join Linaro to accelerate the deployment of your Arm-based solutions
-    title-class: big-title
-    description-class: smaller
-    description: ""
+  background-image: /assets/images/content/membership-bg.jpg
+  title: Shape the future of Arm Software
+  title-class: big-title
+  description-class: smaller
+  description: ""
 flow:
-    - row: container_row
-      style: testimonials_row
-      sections:
-        - format: title
-          title_content:
-            text: The value of Linaro and open source collaboration
-            size: h2
-        - format: custom_include
-          source: membership_testimonials.html
-    - row: custom_include_row
-      source: membership_testimonials.html
-    - row: custom_include_row
-      source: membership_projects.html
-    - row: custom_include_row
-      source: membership_benefits.html
-    - row: custom_include_row
-      source: membership_partners.html
-    - row: container_row
-      style: levels_of_engagement
-      sections:
-        - format: title
-          style: text-center
-          title_content:
-            size: h2
-            text: Levels of Engagement
-        - format: text
-          style: text-center
-          text_content:
-            text: >
-                There are multiple levels of membership and different ways to engage in projects that Linaro runs. Core and Club membership provide influence and participation across everything Linaro does, others levels provide a route into engagement on focused activities. Linaro has groups focused on the following segments - [Data Centre & Cloud](/engineering/datacenter-and-cloud/), [IoT & Embedded](/engineering/iot-and-embedded/), [Edge & Fog Computing](/engineering/edge-and-fog-computing/), [Consumer (Android)](/engineering/consumer/) and [HPC](/engineering/high-performance-computing/). Current strategic initiatives are [Artificial Intelligence](/engineering/artificial-intelligence/) and [Autonomous Vehicles](/engineering/autonomous-vehicles/); and current projects include 96Boards, DeviceTree, LAVA, LKFT, OP-TEE and Trusted Firmware.
-    - row: container_row
-      sections:
-        - format: title
-          style: text-center
-          title_content:
-            size: h2
-            text: Become a Member
-        - format: buttons
-          style: text-center
-          buttons_content:
-              - title: contact@linaro.org
-                url: mailto:contact@linaro.org?subject=Linaro.org - Membership
-                class: btn-primary
-    - row: custom_include_row
-      source: membership_related_news.html
+  - row: container_row
+    style: introduction_row
+    sections:
+      - format: text
+        text_content:
+          text: >
+            Linaro is member driven. Member engineers work
+            with Linaro engineers to solve common
+            software problems. Why?
+  - row: container_row
+    style: main_text_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: No need to differentiate on the basics
+      - format: text
+        text_content:
+          text: >
+            Because collaborating on common software allows participating member companies to direct
+            more resources towards differentiating their products. In effect, collaborating on
+            non-differentiation allows you to focus more on differentiation.
+      - format: title
+        title_content:
+          size: h2
+          text: Faster problem solving = accelerated time to market
+      - format: text
+        text_content:
+          text: >
+            Having engineers from all the member companies work together with Linaro engineers -
+            many of which are world-reknown Arm software experts - means more eyes on the problem.
+            The more people who look at the problem, the quicker it gets solved and the better the
+            solution. And the quicker the basics are resolved, the faster you get your product to market.
+      - format: title
+        title_content:
+          size: h2
+          text: Arm & Open Source Software Expertise
+      - format: text
+        text_content:
+          text: >
+            Linaro is the collaboration platform for Arm software, formed in 2010 for this very purpose.
+            We contribute to over 70 open source projects, many of which we maintain. If you want a say
+            in how Arm software evolves and want to work with leading technology companies to
+            develop and implement actual engineering solutions, Linaro membership is for you.
+  - row: container_row
+    style: projects_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
+      - format: custom_include
+        source: membership/projects_slider.html
+  - row: container_row
+    style: membership_levels
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: Membership Levels
+      - format: text
+        text_content:
+          text: >
+            There are three types of membership - Core, Club and Group -
+            each offering a different level of engagement.
+      - format: custom_include
+        source: membership/level_blocks.html
+  - row: container_row
+    style: members_slider_row light_gray_row
+    sections:
+      - format: custom_include
+        source: about/members_slider.html
+  - row: container_row
+    style: members_by_group_row
+    sections:
+      - format: text
+        text_content:
+          text: >
+            To view Linaro members by membership levels and groups, click [here](/members-by-group/)
+  - row: container_row
+    style: core_membership_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: Core Membership
+      - format: text
+        title_content:
+          text: >
+            Core members drive the direction of software development in the Arm ecosystem. They can
+            participate in any of Linaro’s projects or segment groups and have access to their own
+            dedicated engineering team.
+      - format: custom_include
+        source: membership/core_membership_testimonial.html
+  - row: container_row
+    style: club_membership_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: Club Membership
+      - format: text
+        title_content:
+          text: >
+            Club members influence the direction of Arm software development and can participate in
+            any of Linaro’s segment groups. At an additional fee, they can also have access to their own
+            dedicated engineering team and participate in additional Linaro projects.
+      - format: custom_include
+        source: membership/club_membership_testimonial.html
+  - row: container_row
+    style: group_membership_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: Group Membership
+      - format: text
+        title_content:
+          text: >
+            Group members drive strategy within a specific vertical and can participate in any of the
+            Linaro projects set up by their segment group. Linaro manages the following groups:
+            Artificial Intelligence, Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog
+            Computing, IoT & Embedded and HPC.
+      - format: custom_include
+        source: membership/group_membership_testimonial.html
 ---
