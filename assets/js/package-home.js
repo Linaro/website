@@ -7,4 +7,5 @@
 
 //= require app/search
 //= require app/main
+//= require app/components/video_modal
 //= require app/home
