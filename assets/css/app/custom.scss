@@ -635,6 +635,16 @@ body {
         text-align: center !important;
       }
     }
+    .larger_type {
+      p {
+        font-size: 60px;
+        line-height: 70px;
+        @media (max-width: $screen-sm-min) {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+    }
     .row.large_type {
       p {
         font-size: 26px;
