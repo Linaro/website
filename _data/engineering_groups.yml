@@ -52,16 +52,16 @@ items:
     icon:
       png: /assets/images/content/engineering/png/security.png
       svg: /assets/images/content/engineering/svg/security.svg
-    url: /engineering/core/
+    url: /engineering/core/security/
   - title: Stewardship
     context_image: /assets/images/content/engineering/context/stewardship.jpg
     icon:
       png: /assets/images/content/engineering/png/stewardship.png
       svg: /assets/images/content/engineering/svg/stewardship.svg
-    url: /engineering/core/
+    url: /engineering/core/kernel/
   - title: Integration & Validation
     context_image: /assets/images/content/engineering/context/testing.jpg
     icon:
       png: /assets/images/content/engineering/png/testing.png
       svg: /assets/images/content/engineering/svg/testing.svg
-    url: /engineering/core/
+    url: /engineering/core/kernel-validation-and-testing/
