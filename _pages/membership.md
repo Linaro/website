@@ -144,7 +144,7 @@ flow:
       - format: custom_include
         source: components/engineering_slider.html
   - row: container_row
-    style: membership_form
+    style: membership_form large_type
     sections:
       - format: title
         title_content:
