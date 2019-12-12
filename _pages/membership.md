@@ -84,7 +84,7 @@ flow:
     style: members_slider_row light_gray_row
     sections:
       - format: custom_include
-        source: about/members_slider.html
+        source: components/members_slider.html
   - row: container_row
     style: large_type centered_type members_by_group_row
     sections:
