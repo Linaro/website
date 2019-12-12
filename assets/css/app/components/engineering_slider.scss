@@ -1,0 +1,29 @@
+#engineering_slider_mobile {
+  h3 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+  }
+}
+#engineering_slider {
+  .item {
+    transition: all 100ms ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 9999;
+      position: relative;
+      filter: grayscale(1);
+    }
+    img.lazyloaded {
+      height: 120px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+  }
+}
