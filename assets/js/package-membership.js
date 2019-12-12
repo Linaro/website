@@ -9,3 +9,4 @@
 //= require app/main
 //= require app/membership
 //= require app/components/video_modal
+//= require app/components/engineering_slider
