@@ -885,6 +885,10 @@ div#connect {
     .row.introduction_row {
       h2 {
         border: 5px dotted #0083b0;
+        border-radius: 10px;
+        max-width: 600px;
+        padding: 20px;
+        margin: auto;
       }
     }
   .row.call_to_action_sections {
