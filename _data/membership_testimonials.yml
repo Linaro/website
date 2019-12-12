@@ -10,9 +10,9 @@ items:
     attribution: Thomas Molgaard, Arm
     cover_image: /assets/images/content/thomas-molgaard-screen.png
     video:
-      mp4: https://static.linaro.org/videos/ThomasMolgaardTestimonial.mp4
-      webm: https://static.linaro.org/videos/ThomasMolgaardTestimonial.webm
-      ogv: https://static.linaro.org/videos/ThomasMolgaardTestimonial.ogv
+      mp4: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.mp4
+      webm: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.webm
+      ogv: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.ogv
   - title: Rob Oshana - VP Software Engineering Research and Development at NXP Semiconductors
     cover_image: /assets/images/content/nxp-testimonial-cover.png
     attribution: Rob Oshana, NXP
