@@ -597,6 +597,24 @@ body {
     }
   }
   #flow_wrapper {
+    .row.introduction_row {
+      padding-top: 60px;
+      h2 {
+        border-radius: 10px;
+        max-width: 600px;
+        padding: 20px;
+        margin: auto;
+      }
+      p {
+        font-size: 34px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        line-height: 45px;
+        @media (max-width: $screen-sm-min) {
+          font-size: 28px;
+        }
+      }
+    }
     .gray_row {
       background-color: #666666;
     }
