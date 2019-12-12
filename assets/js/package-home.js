@@ -7,4 +7,6 @@
 
 //= require app/search
 //= require app/main
+//= require app/components/video_modal
+//= require app/components/engineering_slider
 //= require app/home

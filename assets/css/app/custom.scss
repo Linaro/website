@@ -548,19 +548,25 @@ ul#tabbed_nav.support-tabs li a {
 // Website Revamp 2019
 body {
   font-family: "Lato", sans-serif;
+  letter-spacing: initial;
 }
-#jumbotron .big-title {
-  font-weight: 100 !important;
-  border: 5px dotted $brand-primary;
-  border-radius: 10px;
-  max-width: 1000px;
-  padding: 20px;
-  font-size: 60px !important;
-  @media (max-width: $screen-sm-min) {
-    font-size: 24px !important;
-  }
-}
+
 #wrapper {
+  #jumbotron-slider {
+    h2.slide-title.desc-title {
+      @media (max-width: $screen-sm-min) {
+        font-size: 38px !important;
+      }
+    }
+  }
+  #jumbotron .big-title {
+    font-weight: 100 !important;
+    border: 5px dotted $brand-primary;
+    border-radius: 10px;
+    max-width: 1000px;
+    padding: 20px;
+    font-size: 60px !important;
+  }
   #main-navigation.navbar-inverse {
     #navbar-buttons {
       li {
@@ -591,6 +597,18 @@ body {
     }
   }
   #flow_wrapper {
+    .row.introduction_row {
+      padding-top: 60px;
+      p {
+        font-size: 34px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        line-height: 45px;
+        @media (max-width: $screen-sm-min) {
+          font-size: 28px;
+        }
+      }
+    }
     .gray_row {
       background-color: #666666;
     }
@@ -610,6 +628,16 @@ body {
         text-align: center !important;
       }
     }
+    .larger_type {
+      p {
+        font-size: 60px !important;
+        line-height: 70px !important;
+        @media (max-width: $screen-sm-min) {
+          font-size: 40px !important;
+          line-height: 50px !important;
+        }
+      }
+    }
     .row.large_type {
       p {
         font-size: 26px;
@@ -618,43 +646,6 @@ body {
         font-size: 46px;
         font-weight: 100;
         text-align: left;
-      }
-    }
-    .video_modal {
-      .modal-content {
-        background-color: #333333;
-        border-color: #3f3f3f;
-      }
-      .modal-title {
-        color: white;
-      }
-      .modal-header {
-        border-bottom: 1px solid #3f3f3f;
-      }
-      .modal-footer {
-        border-top: 1px solid #3f3f3f;
-      }
-      text-align: center;
-      @media (max-width: 1000px) {
-        padding-right: 0px !important;
-        margin-top: 80px;
-      }
-      @media (min-width: $screen-sm-min) {
-        &:before {
-          display: inline-block;
-          vertical-align: middle;
-          content: " ";
-          height: 100%;
-        }
-      }
-      .modal-dialog {
-        display: inline-block;
-        text-align: left;
-        vertical-align: middle;
-        @media (min-width: $screen-sm-min) {
-          max-width: 1000px;
-          width: 100%;
-        }
       }
     }
     .owl-theme .owl-dots .owl-dot span {
@@ -670,26 +661,6 @@ body {
     .feature_block {
       video.testimonial_video {
         display: none;
-      }
-      .video_placeholder {
-        overflow: hidden !important;
-        position: relative;
-        &:before {
-          content: "\f01d";
-          font: normal normal normal 60px/1 FontAwesome;
-          position: absolute;
-          margin: auto;
-          text-align: center;
-          color: $brand-primary;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.6);
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          cursor: pointer;
-        }
       }
       .row {
         padding-top: 20px;
