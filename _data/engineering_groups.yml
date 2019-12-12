@@ -59,7 +59,7 @@ items:
       png: /assets/images/content/engineering/png/stewardship.png
       svg: /assets/images/content/engineering/svg/stewardship.svg
     url: /engineering/core/
-  - title: Testing
+  - title: Integration & Validation
     context_image: /assets/images/content/engineering/context/testing.jpg
     icon:
       png: /assets/images/content/engineering/png/testing.png
