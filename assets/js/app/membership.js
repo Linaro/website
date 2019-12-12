@@ -9,7 +9,7 @@ $(document).ready(function() {
       nav: false,
       dots: true,
       lazyLoad: true,
-      autoplay: false,
+      autoplay: true,
       responsiveClass: true,
       responsive: {
         0: {
