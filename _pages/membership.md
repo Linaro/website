@@ -150,4 +150,6 @@ flow:
         title_content:
           size: h2
           text: To find out more about membership please complete this form
+      - format: custom_include
+        source: components/membership_form.html
 ---
