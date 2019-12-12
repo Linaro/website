@@ -7,7 +7,7 @@ js-package: about
 css-package: about
 layout: flow
 jumbotron:
-  title: Where collaborative engineering on Arm happens
+  title: Arm Software Experts
   description-class: smaller
   description: ""
   title-class: big-title
