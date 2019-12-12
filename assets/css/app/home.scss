@@ -911,36 +911,5 @@ div#connect {
     h2 {
       color: white;
     }
-    .item img {
-      transition: all 100ms ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-        z-index: 9999;
-        position: relative;
-        filter: grayscale(1);
-      }
-    }
-    #engineering_homepage_slider_mobile {
-      h3 {
-        color: white;
-        font-size: 16px;
-        text-align: center;
-        height: 50px;
-      }
-    }
-    #engineering_homepage_slider {
-      .item {
-        margin-top: 20px;
-        margin-bottom: 30px;
-        img.lazyloaded {
-          height: 120px;
-        }
-      }
-      h3 {
-        font-size: 18px;
-        text-align: center;
-        color: white;
-      }
-    }
   }
 }
