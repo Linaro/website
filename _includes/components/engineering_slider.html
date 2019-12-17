@@ -1,6 +1,7 @@
+{% assign engineering_items = site.data.engineering_groups.items | sort: 'title' %}
 <div class="col-xs-12">
     <div class="owl-carousel owl-theme hidden-xs" id="engineering_slider">
-        {% for engineering_group in site.data.engineering_groups.items %}
+        {% for engineering_group in engineering_items %}
         <a href="/engineering/datacenter-and-cloud/" target="_self">
             <div class="item">
                 <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -11,7 +12,7 @@
         {% endfor %}
     </div>
     <div class="owl-carousel owl-theme visible-xs-block" id="engineering_slider_mobile">
-        {% for engineering_group in site.data.engineering_groups.items %}
+        {% for engineering_group in engineering_items %}
             {% assign mod4 = forloop.index | modulo: 4 %}
             {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}<div class="item">{% endif %}
                 <div class="col-xs-6 p-t-20">
