@@ -25,7 +25,7 @@ flow:
         style: text-left
         text_content:
           text: >
-            Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on. One of the main reasons Linaro was formed was to consolidate the Arm code base as multiple companies were frequently trying to upstream the same code - causing fragmentation and delay to product deployments. Linaro was therefore formed to provide a collaborative forum for companies to work together on foundational open source software on Arm.
+            Linaro has driven open source software development on Arm since its foundation in 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on. At the time, multiple companies were frequently trying to upstream the same code, causing fragmentation and delay to product deployments. Linaro was therefore formed to consolidate the Arm code base and provide a much needed collaborative forum for companies to work together on foundational open source software on Arm.
   - row: container_row
     style: gray_row key_stats_row
     sections:
@@ -53,7 +53,8 @@ flow:
         style: text-left
         text_content:
           text: >
-            Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software problems. Our members also sit on technical steering committees where together with Linaro and other member companies decisions are made on what work needs to be done. Being a Linaro member in eﬀect means shaping the future of Arm software. In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on speciﬁc projects by working with Linaro Developer Services.
+            Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software problems. Member companies also sit on technical steering committees where they collectively make decisions, together with Linaro and other members, on what work needs to be done and when. Being a Linaro member in eﬀect means shaping the future of Arm software. In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on speciﬁc projects by working with Linaro Developer Services.
+
   - row: container_row
     style: members_slider_row light_gray_row
     sections:
