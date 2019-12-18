@@ -6,7 +6,7 @@ description: |-
    – all of which supported the delivery of the work from the Working Groups and Landing Teams.
 keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hardware platforms, upstreaming, Linux kernel, Toolchain, Mobile Middleware
 permalink: /engineering/core/
-image: /assets/images/content/engineering/png/stewardship.png
+image: /assets/images/content/chipCoreEng.svg
 related_tags:
   - Core Dump
   - Core
