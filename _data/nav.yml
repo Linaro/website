@@ -85,6 +85,8 @@ pages:
         url: /services/96boards/
     title: Services
   - options:
+      - text: Technical Support
+        url: /technical-support/
       - text: Downloads
         url: /downloads/
     title: Support
