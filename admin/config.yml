@@ -455,6 +455,11 @@ collections:
                 required: false
                 widget: "string"
                 hint: "Adds a css style to the title. Leave blank if unsure."
+              - label: "Slide Type"
+                name: "type"
+                required: false
+                widget: "string"
+                hint: "Provide a slide type tag that indicates the type of the slide i.e Press Release / Blog etc."
               - label: "Slide Style"
                 name: "slide-class"
                 widget: string
