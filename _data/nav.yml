@@ -65,7 +65,7 @@ pages:
         url: /services/
       - text: Bootloaders
         url: /services/bootloaders/
-      - text: 'BSP’s, Builds and Support'
+      - text: "BSP’s, Builds and Support"
         url: /services/bsp-builds-support/
       - text: Hands on Training
         url: /services/hands-on-training/
@@ -90,4 +90,3 @@ pages:
       - text: Downloads
         url: /downloads/
     title: Support
-    url: /support/
