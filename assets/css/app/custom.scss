@@ -563,6 +563,10 @@ body {
       letter-spacing: 10px;
       font-weight: 400;
       font-size: 30px;
+      @media (max-width: $screen-sm-min) {
+        letter-spacing: 4px;
+        font-size: 20px;
+      }
       & + h2 {
         margin-top: 0px;
       }
@@ -588,7 +592,6 @@ body {
     border: 5px dotted $brand-primary;
     border-radius: 10px;
     max-width: 1000px;
-    margin-top: 0px;
     padding: 20px;
     font-size: 60px;
   }
