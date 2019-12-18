@@ -553,7 +553,31 @@ body {
 
 #wrapper {
   #jumbotron-slider {
-    h2.slide-title.desc-title {
+    .slide_type {
+      height: 40px;
+      color: white;
+      position: relative;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      font-weight: 400;
+      font-size: 30px;
+      & + h2 {
+        margin-top: 0px;
+      }
+      &:before {
+        content: ">";
+        margin-right: 20px;
+        color: #98cc33;
+      }
+      &:after {
+        content: "<";
+        margin-left: 20px;
+        color: #98cc33;
+      }
+    }
+    .slide_type .slide_type .slide_type h2.slide-title.desc-title {
       @media (max-width: $screen-sm-min) {
         font-size: 38px !important;
       }
@@ -564,8 +588,9 @@ body {
     border: 5px dotted $brand-primary;
     border-radius: 10px;
     max-width: 1000px;
+    margin-top: 0px;
     padding: 20px;
-    font-size: 60px !important;
+    font-size: 60px;
   }
   #main-navigation.navbar-inverse {
     #navbar-buttons {
