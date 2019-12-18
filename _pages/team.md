@@ -5,8 +5,9 @@ permalink: /about/team/
 js-package: extended
 css-package: work
 jumbotron:
-    triangle-divider: true
     description-class: smaller
+    title: "The Team"
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/bkk19-group-photo.jpg
 flow:

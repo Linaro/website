@@ -8,5 +8,5 @@
 //= require app/search
 //= require app/main
 //= require app/membership
-//= require app/scroll-to-anchors
-//= require app/fly
+//= require app/components/video_modal
+//= require app/components/engineering_slider

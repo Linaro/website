@@ -1,6 +1,10 @@
 ---
 service_id: 5
 title: Power Management Tuning Services
+jumbotron:
+    title: Power Management Tuning Services
+    title-class: big-title
+    description: ""
 short_name: Power Management
 permalink: /services/power-management/
 keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI

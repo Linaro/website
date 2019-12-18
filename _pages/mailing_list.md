@@ -3,6 +3,10 @@ title: Mailing List
 description: |-
     Linaro’s mission is to lead collaboration in the Arm ecosystem by bringing together industry and the open source community to work on key projects, deliver great tools, reduce industry wide fragmentation and redundant effort, and provide common software foundations for all. The mission is not exclusive to Arm – Linaro can work on other architectures and technologies where the work benefits Linaro members and the Arm ecosystem.
 layout: flow
+jumbotron:
+    title: Mailing Lists
+    title-class: big-title
+    description: ""
 flow:
     - row: main_content_row
 permalink: /contact/mailing-list/

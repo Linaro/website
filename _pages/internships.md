@@ -8,6 +8,7 @@ js-package: careers
 css-package: careers
 jumbotron:
     title: Internships at Linaro
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/careers-image-3.jpg
     buttons:

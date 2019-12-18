@@ -1,0 +1,27 @@
+#wrapper {
+  .row.membership_form {
+    background-color: #98cc33;
+    h2 {
+      color: white;
+    }
+    .membership_form_container {
+      input {
+        height: 60px;
+        font-size: 32px;
+      }
+      select {
+        height: 60px;
+        font-size: 32px;
+      }
+      textarea {
+        font-size: 32px;
+        width: 100%;
+      }
+      button {
+        background-color: #98cc33;
+        color: white;
+        border-color: white;
+      }
+    }
+  }
+}

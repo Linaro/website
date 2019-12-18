@@ -13,7 +13,8 @@ related_tags:
   - AI/ML
   - Autoware
 jumbotron:
-    triangle-divider: true
+    title: Artificial Intelligence
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/machine-learning-bg.jpg
 layout: flow

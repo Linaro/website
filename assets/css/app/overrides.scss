@@ -1,6 +1,6 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
-$brand-primary: #79ac00;
-//Home 
+$brand-primary: #98cc33;
+//Home
 $home-page-title-text: #000;
 $home-page-main-title-color: #000;
 // Footer
@@ -27,13 +27,13 @@ $text-color: rgba(0,0,0,.84);
        url('/assets/fonts/lato-regular/Lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/assets/fonts/lato-regular/Lato-regular.svg') format('svg'); /* Legacy iOS */
 }
-// Fonts 
+// Fonts
 $font-family-sans-serif:  'Lato', Arial, sans-serif !default;
 // Breadcrumb Default background colour.
 $breadcrumb-background-color: #333333 !default;
 $blog-panel-title-colour: #fff;
 // Jumbotron Settings
-$jumbotron-height: 400px;
+$jumbotron-height: 500px !default;
 $overlay: 0.5;
 $jumbotron-font-size-xs: 26px;
 $jumbotron-font-size: 32px;
@@ -52,6 +52,6 @@ $post-tag-border: #8b8b8b !default;
 $post-tag-hover-bg: #1f1f1f !default;
 $post-tag-hover-color: #fff !default;
 // Triangle Divider
-$triangle-divider-bg-color: #fff !default;  
+$triangle-divider-bg-color: #fff !default;
 // Flow sections
 $flow_row_padding: 40px !default;

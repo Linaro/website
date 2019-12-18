@@ -20,7 +20,8 @@ image:
     path: /assets/images/content/LEDGE col.svg
     background-class: "bottom-bg "
 jumbotron:
-    triangle-divider: true
+    title: Edge & Fog Computing
+    title-class: big-title
     description: ""
     background-image: /assets/images/content/edge-and-fog-bg.jpg
 flow:

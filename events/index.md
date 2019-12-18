@@ -1,7 +1,11 @@
 ---
-title: All Events
+title: Events
 permalink: /events/
 layout: post-index-events
+jumbotron:
+    title: Events
+    title-class: big-title
+    description: ""
 description: Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
 image:
     path: /assets/images/content/yvr18-group-photo.jpg

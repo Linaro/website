@@ -1,0 +1,12 @@
+<div class="col-xs-12 no-padding">
+    {% for stats_block in site.data.key_stats.items %}
+        <div class="col-xs-12 col-sm-4 stats_col">
+            <div class="line1">{{stats_block.line1}}</div>
+            <div class="number_line">{{stats_block.number}}</div>
+            <div class="line2">{{stats_block.line2}}</div>
+            <div class="line3">{{stats_block.line3}}</div>
+            <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-src="{{stats_block.icon}}" />
+        </div>
+    {% endfor %}
+</div>

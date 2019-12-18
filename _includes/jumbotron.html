@@ -14,6 +14,9 @@
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 data-src="{{slide.inner-image}}" alt="Slide {{forloop.index}} inner image" />
             {% endif %}
+            {% if slide.type %}
+                <div class="slide_type">{{slide.type}}</div>
+            {% endif %}
             {% if slide.title %}
             <h2
                 class="slide-title {% if slide.title-class %}{{slide.title-class}}{% endif %} {% if slide.description %}desc-title{% endif %}">
@@ -34,8 +37,10 @@
             </div>
             {% endif %}
             {% if slide.bottom_image %}
-                <img class="img-responsive bottom_image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-src="{{slide.bottom_image}}" alt="{% if slide.title %}{{slide.title}}{% else %}{{page.title}}{% endif %}"/>
+            <img class="img-responsive bottom_image lazyload"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{slide.bottom_image}}"
+                alt="{% if slide.title %}{{slide.title}}{% else %}{{page.title}}{% endif %}" />
             {% endif %}
         </div>
         {% endfor %}
@@ -79,12 +84,14 @@
                 {% endfor %}
             </h1>
             {% else %}
-            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+            <h1 class="{% if page.jumbotron.title-class %}{{page.jumbotron.title-class}}{% endif %} {% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}"
+                id="jumbotron-heading">
                 {{page.jumbotron.title}}
             </h1>
             {% endif %}
             {% elsif page.title %}
-            <h1 class="{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}" id="jumbotron-heading">
+            <h1 class="{% if page.jumbotron.title-class %}{{page.jumbotron.title-class}}{% endif %}{% if page.jumbotron.animation == "fade" %}fade-in-one{% endif %}"
+                id="jumbotron-heading">
                 {{page.title}}
             </h1>
             {% else %}

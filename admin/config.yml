@@ -20,6 +20,25 @@ collections:
     editor:
       preview: false
     files:
+      - label: "Engineering Groups"
+        name: "technical_steering_committee"
+        file: "_data/engineering_groups.yml"
+        fields:
+          - label: "Engineering Verticals"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: string, hint: "The name of the Engineering vertical", required: true}
+              - {label: "Context Image", name: "context_image", widget: image, hint: "An image that provides context to this vertical/group. Used for background images etc.", required: true}
+              - label: "Icon"
+                name: "context_image"
+                widget: object
+                hint: "An image that provides context to this vertical/group. Used for background images etc."
+                required: true
+                fields:
+                  - {label: "PNG Icon", widget: image, name: png, hint: "PNG version of the icon.", required: true}
+                  - {label: "SVG Icon", widget: image, name: svg, hint: "The SVG version of the icon.", required: true}
+              - {label: "URL", name: "url", widget: string, hint: "The URL relevant to this engineering vertical/group."}
       - label: "The Technial Steering Committee"
         name: "technical_steering_committee"
         file: "_data/technical_steering_committee.yml"
@@ -436,6 +455,11 @@ collections:
                 required: false
                 widget: "string"
                 hint: "Adds a css style to the title. Leave blank if unsure."
+              - label: "Slide Type"
+                name: "type"
+                required: false
+                widget: "string"
+                hint: "Provide a slide type tag that indicates the type of the slide i.e Press Release / Blog etc."
               - label: "Slide Style"
                 name: "slide-class"
                 widget: string
@@ -519,9 +543,10 @@ collections:
               - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple: true, hint: "Add a style to your section.", required: false}
               - label: "Text Section Content"
                 name: "text_content"
-                widget: text
-                hint: "The text for a text section"
+                widget: object
                 required: false
+                fields:
+                  - {label: "Text", widget: string, name: "text"}
               - label: "Blocks Section Content"
                 name: "block_section_content"
                 widget: object
