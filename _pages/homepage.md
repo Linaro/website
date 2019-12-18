@@ -19,6 +19,7 @@ jumbotron:
       darken: true
       title: Linaro contributes to the Zephyr Project becoming PSA certified
       title-class: big-title
+      type: Press Release
       description: ""
       image: /assets/images/content/city.jpg
     - buttons:
@@ -26,6 +27,7 @@ jumbotron:
           url: /news/nxp-joins-as-a-club-member/
       darken: true
       title: NXP Becomes Club Member of Linaro
+      type: Press Release
       title-class: big-title
       description: ""
       image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
@@ -36,12 +38,14 @@ jumbotron:
       darken: true
       title: OpenAMP project joins the Linaro Community Projects division
       title-class: big-title
+      type: Press Release
       description: ""
       image: /assets/images/content/openampproject-web-banner.png
     - buttons:
         - title: Learn More
           url: /news/linaro-donates-op-tee-into-the-trusted-firmware-project/
       darken: true
+      type: Press Release
       title-class: big-title
       title: Linaro donates OP-TEE into the Trusted Firmware Project
       description: ""
