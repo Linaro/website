@@ -14,6 +14,9 @@
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 data-src="{{slide.inner-image}}" alt="Slide {{forloop.index}} inner image" />
             {% endif %}
+            {% if slide.type %}
+                <div class="slide_type">{{slide.type}}</div>
+            {% endif %}
             {% if slide.title %}
             <h2
                 class="slide-title {% if slide.title-class %}{{slide.title-class}}{% endif %} {% if slide.description %}desc-title{% endif %}">
