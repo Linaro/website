@@ -21,7 +21,7 @@ collections:
       preview: false
     files:
       - label: "Engineering Groups"
-        name: "technical_steering_committee"
+        name: "engineering_groups"
         file: "_data/engineering_groups.yml"
         fields:
           - label: "Engineering Verticals"
