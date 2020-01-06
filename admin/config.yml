@@ -433,6 +433,10 @@ collections:
             name: "triangle-divider"
             required: false
             widget: "boolean"
+          - label: "Title Class"
+            name: "title-class"
+            required: false
+            widget: "string"
           - label: "Description"
             name: "description"
             widget: "text"
