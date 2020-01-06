@@ -546,7 +546,7 @@ collections:
                 widget: object
                 required: false
                 fields:
-                  - {label: "Text", widget: string, name: "text"}
+                  - {label: "Text", widget: string, name: "text", required: false}
               - label: "Blocks Section Content"
                 name: "block_section_content"
                 widget: object
