@@ -21,7 +21,7 @@ collections:
       preview: false
     files:
       - label: "Engineering Groups"
-        name: "technical_steering_committee"
+        name: "engineering_groups"
         file: "_data/engineering_groups.yml"
         fields:
           - label: "Engineering Verticals"
@@ -433,6 +433,10 @@ collections:
             name: "triangle-divider"
             required: false
             widget: "boolean"
+          - label: "Title Class"
+            name: "title-class"
+            required: false
+            widget: "string"
           - label: "Description"
             name: "description"
             widget: "text"
@@ -546,7 +550,7 @@ collections:
                 widget: object
                 required: false
                 fields:
-                  - {label: "Text", widget: string, name: "text"}
+                  - {label: "Text", widget: string, name: "text", required: false}
               - label: "Blocks Section Content"
                 name: "block_section_content"
                 widget: object
