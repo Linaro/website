@@ -84,7 +84,7 @@ This category of attack makes use of properties and behaviour occurring outside 
 
 {% include image.html name="password-timing-attack.png" alt="Password Timing Attack" %}
 
-[Source: [joakimbech.com - Timing Attack - Proof of Concept](http://jyx.github.io/blog/2014/02/02/timing-attack-proof-of-concept/)]
+[Source: [joakimbech.com - Timing Attack - Proof of Concept](https://jyx.github.io/timing-attack-proof-of-concept.html)]
 
 There are many similar techniques, for example Simple Power Analysis ([SPA](https://en.wikipedia.org/wiki/Power_analysis#Simple_power_analysis)) and Differential Power Analysis ([DPA](https://en.wikipedia.org/wiki/Power_analysis#Differential_power_analysis)), both of which measure the amount of power used at a certain point in time. This is a very powerful type of side channel attack that has been able to completely break the security in many devices. As it turns out,the cache can also be subject of side channel timing attacks, since the cache itself leaks information. If you measure the amount of time it takes to access data, you can figure out whether the data was already in the cache or not. We will look into a couple of techniques for this here.
 
