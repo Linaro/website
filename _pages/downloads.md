@@ -10,7 +10,7 @@ layout: flow
 jumbotron:
   background-image: /assets/images/content/downloads-bg.jpg
   title: Builds & Downloads
-  description: ""
+  description: ''
   title-class: big-title
 flow:
   - row: main_content_row
@@ -145,12 +145,11 @@ flow:
 
 Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Rocky release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu and RHEL. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM and containers.
 
-
 To sign up for access and build your project today, click [here](https://servicedesk.linaro.org/servicedesk/customer/portal/19/create/265).
 
 ## Linaro Toolchain
 
-The flatest Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.3-2019.03 is now available on the [Arm Developer website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a).
+The latest Arm release of the pre-built GNU cross-toolchain for Cortex-A GCC 8.3-2019.03 is now available on the [Arm Developer website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a).
 
 Linaro provides monthly [GCC source archive](https://snapshots.linaro.org/components/toolchain/gcc-linaro/) snapshots of the current Linaro GCC release branch, as well as quarterly releases of pre-built Linaro [GNU cross-toolchain binary archives](https://releases.linaro.org/components/toolchain/binaries/).
 
