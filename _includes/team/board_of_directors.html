@@ -14,7 +14,7 @@
                     <div class="modal-content">
                         <div class="modal-body">
                             <div class="col-xs-11 no-padding">
-                                {% if individual.bio %}
+                                {% if individual.bio and individual.bio != ""%}
                                     {{individual.bio | markdownify }}
                                 {% else %}
                                 <p>
@@ -32,7 +32,7 @@
             <a data-toggle="modal" href='#{{individual.name | slugify}}'>
                 <img class="lazyload img-circle team_member_image"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-src="{% if individual.image %}{{individual.image}}{% else %}/assets/images/content/placeholder.jpg{% endif %}"
+                data-src="{% if individual.image and individual.image != '' %}{{individual.image}}{% else %}/assets/images/content/placeholder.jpg{% endif %}"
                 alt="{{individual.name}} profile image"/>
                 <h3>{{individual.name}}</h3>
                 <span class="team_label">
