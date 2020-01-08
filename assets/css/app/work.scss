@@ -209,22 +209,32 @@ span.team_label {
   color: #737373;
   font-size: 18px;
 }
-.team_item{
-    margin-top: 20px;
+.team_item {
+  margin-top: 20px;
 }
 #wrapper .board_of_directors_row {
-    background-color: #ecf5d7;
+  background-color: #ecf5d7;
 }
 #wrapper .modal.team_modal {
   margin-top: 86px;
-  .modal-body {
-    overflow: auto;
-    border: 5px dotted #98cc33;
-    margin: 10px;
-    border-radius: 9px;
-    display: inline-block;
-    p {
-      font-size: 16px !important;
+  .modal-content {
+    background-color: #e6e6e6;
+    .modal-body {
+      overflow: auto;
+      border: 5px dotted #98cc33;
+      margin: 10px;
+      border-radius: 9px;
+      display: inline-block;
+      button.close {
+        border-radius: 50%;
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+      }
+      p {
+        font-size: 16px !important;
+      }
     }
   }
 }
