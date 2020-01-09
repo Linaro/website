@@ -22,8 +22,6 @@ Main content:
 
 Machine learning workflow includes data collection, aggregation, machine learning model training, evaluation, Fine-tuning and model deployment tasks. ARM not only provides processors that execute complex machine learning workflows locally, but also SDKs and tools for rapid application development and optimization. Services to monitor and automate end-to-end ML tasks. We will show how to use Arm NN and Arm Compute Library to accelerate and optimize segment-side AI development on Arm processors.
 
-
-
 2:50-4:20pm
 
 Topic: Using Arm NN to Accelerate and Optimize the Development of End-Side AI (Second Half)
@@ -34,8 +32,6 @@ main content:
 
 Machine learning workflow includes tasks such as data collection, aggregation, machine learning model training, evaluation, fine-tuning, and model deployment. ARM not only provides processors that execute complex machine learning workflows locally, but also SDKs and tools for rapid application development and optimization. Services to monitor and automate end-to-end ML tasks. We will show how to use Arm NN and Arm Compute Library to accelerate and optimize segment-side AI development on Arm processors.
 
-
-
 Subject: 96boards terminal AI application development
 
 Main participants: 96boards
@@ -43,21 +39,12 @@ Main participants: 96boards
 Main contents:
 
 1. Low-speed device communication experiment: including application layer UART, GPIO control
-
 2. Camera experiment: Open preview camera
-
 3. Image processing: Image synthesis, conversion, cutout, zoom, etc.
-
 4. Video codec: H264 to YUV
-
 5. AI experiment: Mobile SSD coding: python + C ++, target recognition
-
 6. AI experiment: yolov3 target recognition
-
 7. RockX experiment: face recognition, face detection, license plate recognition
-
 8. RK1808 experiment:
-
-1) Communication experiment with host computer
-
-2) AI experiment, active mode and passive mode
+9. Communication experiment with host computer
+10. AI experiment, active mode and passive mode
