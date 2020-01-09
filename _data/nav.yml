@@ -14,12 +14,8 @@ pages:
       - text: Overview
         url: /about/
       - options:
-          - text: The Board
-            url: /about/team/board/
-          - text: Executive Team
-            url: /about/team/executive/
-          - text: TSC
-            url: /about/team/technical-steering-committee/
+          - text: The Team
+            url: /about/team/
           - text: Awards
             url: /awards/
         text: Team

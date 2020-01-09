@@ -39,7 +39,7 @@ Through the collaboration of those involved in the discussion the Android Mini-S
 
 The [Android Mini-Summit](https://connect.linaro.org/resources/) started as two plenaries kicked off Day 3 of the LCE12 - Copenhagen and gave everyone the opportunity to attend as these daily opening plenaries aren’t in parallel with other tracks.
 
-During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](/blog/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/team/technical-steering-committee/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
+During the first plenary session the ST-Ericsson [Linaro Technical Steering Committee](/blog/how-linaros-technical-steering-committee-works/) (TSC) [representative](/about/team/) and the Android lead for ST-Ericsson, Christian Bejram talked about its Android. Berjam presented Android optimizations, challenges and the strategy for overcoming those challenges. Those strategies include:
 
   * Be small, aggressive, tactical, moveable
 

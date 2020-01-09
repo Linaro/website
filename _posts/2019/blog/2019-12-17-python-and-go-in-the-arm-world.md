@@ -12,9 +12,11 @@ tags:
 category: Blog
 author: siddhesh.poyarekar
 ---
+Siddhesh Poyarekar is Linaro Developer Services' Toolchain expert, having worked on glibc upstream since 2012 and a number of different projects before that. Recently, Linaro Developer Services completed work which involved studying and fixing packages in Python and Go ecosystem. In this blog, Siddhesh summarises his findings, including the most common problems encountered on the way. 
+
 Over the past few months we have studied a number of packages in the Python and Go ecosystem to verify that they work on Arm64 servers. Being high level languages, the general assumption is that things should just work and this was true for the majority of packages we looked at. There were a few however that had to be fixed in a variety of ways to make them work correctly on Arm.  Over time we realized that there were a few recurring issues across packages.
 
-The common thread binding packages with issues on aarch64 was that they had some native C/C++ code; a few had embedded assembly.  This may have been for a number of reasons, ranging from simply having to interface with a library that is written C/C++, to tweaking specific sensitive parts of the code to get the optimal performance.  Interestingly, the ones with embedded assembly often had aarch64 variants already included or at least a sane C fallback. It was the ones with C/C++ code - something that ought to work out of the box - that broke.  Here are three of the most interesting, and also the most common, problems we encountered on our journey.
+The common thread binding packages with issues on aarch64 was that they had some native C/C++ code; a few had embedded assembly.  This may have been for a number of reasons, ranging from simply having to interface with a library that is written C/C++, to tweaking specific sensitive parts of the code to get the optimal performance.  Interestingly, the ones with embedded assembly often had aarch64 variants already included or at least a sane C fallback. It was the ones with C/C++ code - something that ought to work out of the box - that broke.  Here are three of the most interesting, and frequent problems we encountered on our journey.
 
 ## Floating point comparisons
 
