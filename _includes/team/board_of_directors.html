@@ -7,8 +7,9 @@
             {% endif %}
         {% endfor %}
     {% endfor %}
-    {% for individual in board_of_directors %}
-        <div class="col-xs-6 col-sm-4 col-lg-2 text-center team_item no-padding">
+    {% assign sorted_members = board_of_directors | sort: 'order' %}
+    {% for individual in sorted_members %}
+        <div class="col-xs-6 col-sm-4 col-lg-2 text-center team_item">
             <div class="modal team_modal fade" id="{{individual.name | slugify}}">
                 <div class="modal-dialog">
                     <div class="modal-content">
