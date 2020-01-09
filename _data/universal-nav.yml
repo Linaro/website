@@ -11,10 +11,12 @@ items:
   - options:
       - title: 96Boards.ai
         url: 'https://www.96boards.ai'
-      - title: OP-TEE
-        url: 'https://www.op-tee.org'
-      - title: DeviceTree.org
+      - title: devicetree.org
         url: 'https://www.devicetree.org'
       - title: OpenAMP
         url: 'https://www.openampproject.org'
+      - title: OP-TEE
+        url: 'https://www.op-tee.org'
+      - title: Trusted Firmware
+        url: 'https://www.trustedfirmware.org/'
     title: Projects
