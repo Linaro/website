@@ -26,19 +26,6 @@ flow:
       - format: title
         title_content:
           size: h2
-          text: The Executive Team
-      - format: text
-        text_content:
-          text: >
-            The execution of long-term objectives and overall management of the company is assigned to the Linaro executive management team. The executive team are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.
-      - format: custom_include
-        source: team/executive_team.html
-  - row: container_row
-    style: large_type main_text_row board_of_directors_row
-    sections:
-      - format: title
-        title_content:
-          size: h2
           text: Board of Directors
       - format: text
         text_content:
@@ -46,6 +33,19 @@ flow:
             The Board is the principal decision making body and focuses on ensuring the organization is moving toward its strategic mission. It consists of Linaro member representatives and Linaro’s CEO.
       - format: custom_include
         source: team/board_of_directors.html
+  - row: container_row
+    style: large_type main_text_row green_row
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: The Executive Team
+      - format: text
+        text_content:
+          text: >
+            The execution of long-term objectives and overall management of the company is assigned to the Linaro executive management team. The executive team are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.
+      - format: custom_include
+        source: team/executive_team.html
   - row: container_row
     style: large_type main_text_row
     sections:
@@ -64,10 +64,10 @@ flow:
     sections:
       - format: title
         title_content:
-          text: Linaro Employees & Assignees
+          text: Linaro Employees & Engineers from member companies
           size: h2
       - format: text
         text_content:
           text: >
-            When a company becomes a Linaro member, it provides a number of assignee engineers to work with Linaro engineers. As such, Linaro is made up of employees and assignees which work together to help achieve the success of the company. When an employee or assignee has worked at Linaro for five years, they receive an award. Check out [this page](/awards/) to see some of our talented experts.
+            When a company becomes a Linaro member, it provides a number of engineers to work with Linaro engineers. As such, Linaro is made up of employees and engineers from member companies who work together to help achieve the success of the company. When an employee or engineer from a member company  has worked at Linaro for five years, they receive an award. Check out [this page](/awards/) to see some of our talented experts.
 ---
