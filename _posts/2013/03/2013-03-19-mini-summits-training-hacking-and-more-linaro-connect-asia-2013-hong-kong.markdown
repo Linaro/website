@@ -20,7 +20,7 @@ wordpress_id: 2560
 {% include image.html name="LCA13-Group-001-72dpi.jpg" alt="LCA13-Group Photo" %}
 
 
-**Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.  
+**Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.
 
 
 There were a total of **308** people who attended Linaro Connect Asia 2013 representing **46** companies. Co-located with Linaro Connect Asia 2013 was the Open Compute Project (OCP) Asia Summit which had 40 attendees. There were over 3,100 meals served to attendees and 77 sessions and 126 meetings which were held through out the week. Joe Bates, VP of Member Services for Linaro summed up the awesome busyness of this week in his ["Wrap-Up" talk](http://youtu.be/O6s8YsalYus?t=27m) on Friday, 8 March 2013. This was one of the most productive Connect events to date with more moving pieces and parts than ever before.
@@ -2088,7 +2088,7 @@ Linaro has seen tremendous growth and has made a significant impact on the Linux
 
 
 
-  * [Roger Teague](/about/team/technical-steering-committee/) and the Arm Engineers
+  * [Roger Teague](/about/team/) and the Arm Engineers
 
 
 
