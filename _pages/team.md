@@ -43,7 +43,7 @@ flow:
       - format: text
         text_content:
           text: >
-            The execution of long-term objectives and overall management of the company is assigned to the Linaro executive management team. The executive team are responsible for the operational success of the business and achieve this by managing the “day to day” logistics of running a software engineering company.
+            The execution of long-term objectives and overall management of the company is assigned to the Linaro executive management team. The executive team is responsible for the operational success of the business and achieves this by managing the “day to day” logistics of running a software engineering company.
       - format: custom_include
         source: team/executive_team.html
   - row: container_row
@@ -56,7 +56,7 @@ flow:
       - format: text
         text_content:
           text: >
-            The Technical Steering Committee (TSC) and segment group steering committees are responsible deciding what engineering work needs to be done, when and how. The TSC includes senior engineers from each of the Linaro member companies, a representative from each segment engineering group, plus Linaro’s CTO and VP of Engineering.
+            The execution of long-term objectives and overall management of the company is assigned to the Linaro executive management team. The executive team is responsible for the operational success of the business and achieves this by managing the “day to day” logistics of running a software engineering company.
       - format: custom_include
         source: team/technical_steering_committee.html
   - row: container_row
