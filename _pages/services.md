@@ -9,49 +9,102 @@ permalink: /services/
 js-package: membership
 css-package: services
 jumbotron:
-    title: "Helping build your products on Arm"
+    title: "Helping Build & Deploy your Products on Arm"
     title-class: big-title
     description: ""
     background-image: /assets/images/content/developer-services-banner.jpg
 flow:
     - row: container_row
-      style: developer_services_intro
+      style: large_type
       sections:
         - format: text
-          style: text-center
           text_content:
             text: >
-                Linaro plays an influential and key leadership role across the Arm ecosystem, developing optimized software for advanced
-                Arm technologies in every segment. Linaro Developer Services make that expertise available to you for use on your
-                project.
-        - format: text
-          style: text-center
-          text_content:
-            text: >
-                Linaro Developer Services are expert software and Linux engineers. Our expertise allows us to support all aspects of
-                your Arm-based product delivery, from helping with initial board bring up, to upstreaming code and maintaining long-term
-                support builds. To read more about all the services we provide, click on the area of interest below.
+                From initial design through to planning, implementation, support and training, Linaro
+                Developer Services help you leverage open source on Arm to ensure fast time to market,
+                exceptional quality and security, and cost effective long term maintenance.
+        - format: block
+          style: text-white developers_services_block
+          block_section_content:
+            item_width: "6"
+            blocks:
+               - title:
+                    size: "h3"
+                    text: Leverage our Arm Software Expertise
+                 text_content:
+                     text: >
+                         Linaro employs several of the world’s
+                         leading Arm Software experts. All of this
+                         expertise is made available to you
+                         through Linaro Developer Services.
+
+                         - [Upstream Services](/services/)
+
+                         - [Kernel Services](/services/)
+
+                         - [Training & Support](/services/)
+               - title:
+                    size: "h3"
+                    text: Secure your product
+                 text_content:
+                     text: >
+                         Specialists in security and Trusted
+                         Execution Environment (TEE) on Arm,
+                         we leverage open source to ensure you
+                         benefit from the latest upstream
+                         features and security fixes.
+
+                          - [Security](/services/)
+
+                          - [Trusted Firmware](/services/)
+
+                          - [OP-TEE](/services/)
+               - title:
+                    size: "h3"
+                    text: Maintain quality cost-effectively
+                 text_content:
+                     text: >
+                         We upstream code to reduce the cost and
+                         effort needed to maintain your product. We
+                         offer continuous integrations (CI) and
+                         automated validation for your product
+                         software, ensuring the highest possible
+                         quality.
+
+                          - [Long Term Support Builds](/services/)
+               - title:
+                    size: "h3"
+                    text: Build, test and deploy faster
+                 text_content:
+                     text: >
+                         We support every aspect of product
+                         delivery, from building secure board
+                         support packages (BSPs), product
+                         validation and long-term maintenance -
+                         we help get your products to market
+                         faster.
+
+                          - [Arm Server Dpeloyment](/services/)
+
+                          - [BSPS and board bring-up](/services/)
+
+                          - [Embedded and mobile platforms](/services/)
+
         - format: buttons
-          style: text-center
+          style: text-center developer_services_prospectus_btn
           buttons_content:
               - title: Download Prospectus
                 url: https://static.linaro.org/assets/presentations/IntroductiontoLinaroDeveloperServices.pdf
-                icon: fa fa-download
                 style: btn-primary
-    - row: custom_include_row
-      source: developer_services_hexagons.html
     - row: container_row
+      style: services_form large_type
       sections:
         - format: title
           title_content:
             size: h2
-            text: Get in Touch!
-        - format: buttons
-          style: text-center
-          buttons_content:
-              - title: contact@linaro.org
-                url: mailto:contact@linaro.org?subject=Linaro.org%20-%20Developer%20Services
-                style: btn-primary btn-two
+            text: To find out more about Developer Services please complete this form
+        - format: custom_include
+          source: components/developer_services_form.html
 image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png
