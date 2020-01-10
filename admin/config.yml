@@ -798,7 +798,7 @@ collections:
       - {label: "Page Content", name: "body", widget: "markdown", required: false}
   - name: 'news'
     label: 'News Posts'
-    folder: '_posts/2019/news'
+    folder: '_posts/current/news'
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -843,7 +843,7 @@ collections:
       - { label: 'Post Content', name: 'body', widget: 'markdown'}
   - name: 'blog'
     label: 'Blog Posts'
-    folder: '_posts/2019/blog'
+    folder: '_posts/current/blog'
     create: true
     sort: "date:desc" # Default is title:asc
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -876,6 +876,50 @@ collections:
         allow_add: true
         hint: "List your tags"
       - {label: "Category", name: "category", widget: hidden, default: "Blog"}
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          displayFields: [name],
+          searchFields: [name],
+          valueField: 'username'
+        }
+      - { label: 'Post Content', name: 'body', widget: 'markdown'}
+  - name: 'older_posts'
+    label: 'Older Posts'
+    folder: '_posts/previous'
+    create: true
+    sort: "date:desc" # Default is title:asc
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: "/blog/{{title}}/"
+    description: >
+      This collection allows you to add/edit/delete older posts on the Linaro.org. This is predominantly used for fixing broken links.
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - label: "Image"
+        name: image
+        widget: object
+        required: true
+        fields:
+          - label: "Image Path"
+            name: "path"
+            widget: image
+            required: true
+          - label: "Image Alt"
+            name: "alt"
+            widget: string
+            required: false
+      - label: "Tags"
+        name: tags
+        widget: list
+        allow_add: true
+        hint: "List your tags"
+      - {label: "Category", name: "category", widget: select, options: ["Blog", "News"]}
       - {
           label: 'Author',
           name: 'author',
