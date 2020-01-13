@@ -39,11 +39,11 @@ flow:
                         expertise is made available to you
                         through Linaro Developer Services.
 
-                        - [Upstream Services](/services/)
+                        - [Upstream Services](/services/toolchain-optimization-services/)
 
-                        - [Kernel Services](/services/)
+                        - [Kernel Services](/services/kernel-lts/)
 
-                        - [Training & Support](/services/)
+                        - [Training & Support](/services/hands-on-training/)
                - title:
                     size: "h3"
                     text: Secure your product
@@ -55,11 +55,11 @@ flow:
                         benefit from the latest upstream
                         features and security fixes.
 
-                        - [Security](/services/)
+                        - [Security](/services/security/)
 
-                        - [Trusted Firmware](/services/)
+                        - [Trusted Firmware](/services/bootloaders/)
 
-                        - [OP-TEE](/services/)
+                        - [OP-TEE](/services/security/)
                - title:
                     size: "h3"
                     text: Maintain quality cost-effectively
@@ -72,7 +72,7 @@ flow:
                         software, ensuring the highest possible
                         quality.
 
-                        - [Long Term Support Builds](/services/)
+                        - [Long Term Support Builds](/services/kernel-lts/)
                - title:
                     size: "h3"
                     text: Build, test and deploy faster
@@ -85,11 +85,11 @@ flow:
                         we help get your products to market
                         faster.
 
-                        - [Arm Server Dpeloyment](/services/)
+                        - [Arm Server Deployment](/services/toolchain-optimization-services/)
 
-                        - [BSPS and board bring-up](/services/)
+                        - [BSPS and board bring-up](/services/bsp-builds-support/)
 
-                        - [Embedded and mobile platforms](/services/)
+                        - [Embedded and mobile platforms](/services/open-source-consultancy/)
         - format: buttons
           style: text-center developer_services_prospectus_btn
           buttons_content:
