@@ -34,7 +34,6 @@ flow:
                     text: Leverage our Arm Software Expertise
                  text_content:
                      text: >
-                        "
                         Linaro employs several of the world’s
                         leading Arm Software experts. All of this
                         expertise is made available to you
@@ -45,13 +44,11 @@ flow:
                         - [Kernel Services](/services/)
 
                         - [Training & Support](/services/)
-                        "
                - title:
                     size: "h3"
                     text: Secure your product
                  text_content:
                      text: >
-                        "
                         Specialists in security and Trusted
                         Execution Environment (TEE) on Arm,
                         we leverage open source to ensure you
@@ -63,13 +60,11 @@ flow:
                         - [Trusted Firmware](/services/)
 
                         - [OP-TEE](/services/)
-                        "
                - title:
                     size: "h3"
                     text: Maintain quality cost-effectively
                  text_content:
                      text: >
-                        "
                         We upstream code to reduce the cost and
                         effort needed to maintain your product. We
                         offer continuous integrations (CI) and
@@ -78,13 +73,11 @@ flow:
                         quality.
 
                         - [Long Term Support Builds](/services/)
-                        "
                - title:
                     size: "h3"
                     text: Build, test and deploy faster
                  text_content:
                      text: >
-                        "
                         We support every aspect of product
                         delivery, from building secure board
                         support packages (BSPs), product
@@ -97,8 +90,6 @@ flow:
                         - [BSPS and board bring-up](/services/)
 
                         - [Embedded and mobile platforms](/services/)
-                        "
-
         - format: buttons
           style: text-center developer_services_prospectus_btn
           buttons_content:
