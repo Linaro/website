@@ -1,6 +1,6 @@
 <div class="col-xs-12">
     {% assign board_of_directors = "" | split: ',' %}
-    {% for team_member in site.data.team %}
+    {% for team_member in site.data.team["teamMembers"] %}
         {% for team in team_member.teams %}
             {% if team == "board_of_directors" %}
                 {% assign board_of_directors = board_of_directors | push: team_member %}
