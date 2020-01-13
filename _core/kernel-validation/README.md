@@ -26,4 +26,4 @@ It is important to the Arm eco-system that Linaro also fix as many failures as a
 
 The results of running functional test against the LTS, mainline and next branches can be viewed here [https://lkft.linaro.org/](https://lkft.linaro.org/).
 
-[View the KernelCI meeting notes](https://groups.io/g/kernelci/search?q=%23minutes&ct=1)
+View the KernelCI meeting notes - https://groups.io/g/kernelci/search?q=%23minutes&ct=1

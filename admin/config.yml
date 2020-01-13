@@ -2,6 +2,7 @@ backend:
   name: github
   repo: linaro/website
   branch: develop
+  use_graphql: true
   preview_context: "Deploy preview"
   open_authoring: true
 publish_mode: editorial_workflow
@@ -15,6 +16,26 @@ slug:
   sanitize_replacement: "-"
 media_folder: "assets/images/content"
 collections:
+  - label: "Team Members"
+    name: "team_members"
+    editor:
+      preview: false
+    format: json
+    files:
+      - label: "Team Members"
+        name: "team"
+        file: "_data/team.json"
+        fields:
+          - label: "Team Members"
+            name: "teamMembers"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: string, hint: "The full name of the team member", required: true}
+              - {label: "Job Title", name: "title", widget: string, hint: "The Job title of the team member (without a company attribution)", required: true}
+              - {label: "Company", name: "company", widget: string, hint: "The company that this team member works for.", required: true}
+              - {label: "Image", name: "image", widget: image, hint: "The profile image for this team member.", required: false}
+              - {label: "Bio", name: "bio", widget: text, hint: "The bio of the team member", required: false}
+              - {label: "Teams", name: "teams", widget: select, hint: "The teams that this person is a part of.", options: ["technical_steering_committee", "board_of_directors", "executive_team"], required: true}
   - label: "Website Data Files & Settings"
     name: "config"
     editor:
@@ -39,43 +60,6 @@ collections:
                   - {label: "PNG Icon", widget: image, name: png, hint: "PNG version of the icon.", required: true}
                   - {label: "SVG Icon", widget: image, name: svg, hint: "The SVG version of the icon.", required: true}
               - {label: "URL", name: "url", widget: string, hint: "The URL relevant to this engineering vertical/group."}
-      - label: "The Technial Steering Committee"
-        name: "technical_steering_committee"
-        file: "_data/technical_steering_committee.yml"
-        fields:
-          - label: "TSC Members"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
-              - {label: "Title", name: "title", widget: string, hint: "Title showed beneath their name i.e Texas Instruments / VP of Engineering at Linaro etc", required: false}
-              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
-              - {label: "Member Type", name: "type", widget: select, hint: "Member type i.e committee, guest etc.", options: ['guest', 'committee'], required: false}
-              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
-      - label: "The Executive Team"
-        name: "executive_team"
-        file: "_data/executive_team.yml"
-        fields:
-          - label: "Executive Team Members"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
-              - {label: "Title", name: "title", widget: string, hint: "Title showed beneath their name i.e Chief Operating Officer etc", required: false}
-              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
-              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
-      - label: "The Board of Directors"
-        name: "board_of_directors"
-        file: "_data/board_of_directors.yml"
-        fields:
-          - label: "Team Members"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: string, hint: "Name of the team member", required: false}
-              - {label: "Title", name: "title", widget: string, hint: "Title of their position i.e Board Member for Arm and Interim Chairman", required: false}
-              - {label: "Profile Image", name: "image", widget: image, hint: "Image of the board member", required: false}
-              - {label: "Member Bio", name: "bio", widget: text, hint: "Short bio for the member", required: false}
       - label: "External News"
         name: "external_news_items"
         file: "_data/external_news.yml"
