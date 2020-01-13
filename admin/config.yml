@@ -441,6 +441,11 @@ collections:
             name: "description"
             widget: "text"
             required: false
+          - label: "Include"
+            name: "include"
+            widget: "string"
+            hint: "Provides a link to an optional header include."
+            required: false
           - label: "Slider"
             name: "slider"
             widget: list
