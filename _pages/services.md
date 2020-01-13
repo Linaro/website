@@ -6,7 +6,7 @@ description: |-
     our work and professionalism of the engagements with our customers.
 layout: flow
 permalink: /services/
-js-package: membership
+js-package: services
 css-package: services
 jumbotron:
     title: "Helping Build & Deploy your Products on Arm"
