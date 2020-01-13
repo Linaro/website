@@ -1,4 +1,11 @@
 #wrapper {
+    .row.services_form.large_type {
+        background-color: $brand-primary;
+        h2 {
+            color:white;
+            max-width:70%
+        }
+    }
     img.img-responsive.bottom_image {
         height: 200px;
     }
