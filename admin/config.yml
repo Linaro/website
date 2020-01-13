@@ -33,6 +33,7 @@ collections:
               - {label: "Name", name: "name", widget: string, hint: "The full name of the team member", required: true}
               - {label: "Job Title", name: "title", widget: string, hint: "The Job title of the team member (without a company attribution)", required: true}
               - {label: "Company", name: "company", widget: string, hint: "The company that this team member works for.", required: true}
+              - {label: "Image", name: "image", widget: image, hint: "The profile image for this team member.", required: false}
               - {label: "Bio", name: "bio", widget: text, hint: "The bio of the team member", required: false}
               - {label: "Teams", name: "teams", widget: select, hint: "The teams that this person is a part of.", options: ["technical_steering_committee", "board_of_directors", "executive_team"], required: true}
   - label: "Website Data Files & Settings"
