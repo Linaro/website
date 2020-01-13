@@ -13,6 +13,7 @@ jumbotron:
     title-class: big-title
     description: ""
     background-image: /assets/images/content/developer-services-banner.jpg
+    include: services/services_header_image.html
 flow:
     - row: container_row
       style: large_type
@@ -33,62 +34,70 @@ flow:
                     text: Leverage our Arm Software Expertise
                  text_content:
                      text: >
-                         Linaro employs several of the world’s
-                         leading Arm Software experts. All of this
-                         expertise is made available to you
-                         through Linaro Developer Services.
+                        "
+                        Linaro employs several of the world’s
+                        leading Arm Software experts. All of this
+                        expertise is made available to you
+                        through Linaro Developer Services.
 
-                         - [Upstream Services](/services/)
+                        - [Upstream Services](/services/)
 
-                         - [Kernel Services](/services/)
+                        - [Kernel Services](/services/)
 
-                         - [Training & Support](/services/)
+                        - [Training & Support](/services/)
+                        "
                - title:
                     size: "h3"
                     text: Secure your product
                  text_content:
                      text: >
-                         Specialists in security and Trusted
-                         Execution Environment (TEE) on Arm,
-                         we leverage open source to ensure you
-                         benefit from the latest upstream
-                         features and security fixes.
+                        "
+                        Specialists in security and Trusted
+                        Execution Environment (TEE) on Arm,
+                        we leverage open source to ensure you
+                        benefit from the latest upstream
+                        features and security fixes.
 
-                          - [Security](/services/)
+                        - [Security](/services/)
 
-                          - [Trusted Firmware](/services/)
+                        - [Trusted Firmware](/services/)
 
-                          - [OP-TEE](/services/)
+                        - [OP-TEE](/services/)
+                        "
                - title:
                     size: "h3"
                     text: Maintain quality cost-effectively
                  text_content:
                      text: >
-                         We upstream code to reduce the cost and
-                         effort needed to maintain your product. We
-                         offer continuous integrations (CI) and
-                         automated validation for your product
-                         software, ensuring the highest possible
-                         quality.
+                        "
+                        We upstream code to reduce the cost and
+                        effort needed to maintain your product. We
+                        offer continuous integrations (CI) and
+                        automated validation for your product
+                        software, ensuring the highest possible
+                        quality.
 
-                          - [Long Term Support Builds](/services/)
+                        - [Long Term Support Builds](/services/)
+                        "
                - title:
                     size: "h3"
                     text: Build, test and deploy faster
                  text_content:
                      text: >
-                         We support every aspect of product
-                         delivery, from building secure board
-                         support packages (BSPs), product
-                         validation and long-term maintenance -
-                         we help get your products to market
-                         faster.
+                        "
+                        We support every aspect of product
+                        delivery, from building secure board
+                        support packages (BSPs), product
+                        validation and long-term maintenance -
+                        we help get your products to market
+                        faster.
 
-                          - [Arm Server Dpeloyment](/services/)
+                        - [Arm Server Dpeloyment](/services/)
 
-                          - [BSPS and board bring-up](/services/)
+                        - [BSPS and board bring-up](/services/)
 
-                          - [Embedded and mobile platforms](/services/)
+                        - [Embedded and mobile platforms](/services/)
+                        "
 
         - format: buttons
           style: text-center developer_services_prospectus_btn
