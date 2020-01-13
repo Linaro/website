@@ -17,13 +17,13 @@ slug:
 media_folder: "assets/images/content"
 collections:
   - label: "Team Members"
-    name: "team"
+    name: "team_members"
     editor:
       preview: false
     format: json
     files:
       - label: "Team Members"
-        name: "team_members"
+        name: "team"
         file: "_data/team.json"
         fields:
           - label: "Team Members"
