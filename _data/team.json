@@ -1,4 +1,5 @@
-[
+{
+    "teamMembers": [
     {
         "name": "Andrew Wafaa",
         "title": "Arm",
@@ -219,4 +220,5 @@
         "company": "Texas Instruments",
         "title": "Board member for Linaro Club members"
     }
-]
+    ]
+}

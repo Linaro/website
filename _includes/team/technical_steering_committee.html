@@ -1,6 +1,6 @@
 <div class="col-xs-12">
     {% assign technical_steering_committee = "" | split: ',' %}
-    {% for team_member in site.data.team %}
+    {% for team_member in site.data.team["teamMembers"] %}
         {% for team in team_member.teams %}
             {% if team == "technical_steering_committee" %}
                 {% assign technical_steering_committee = technical_steering_committee | push: team_member %}
