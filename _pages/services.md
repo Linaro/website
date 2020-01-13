@@ -80,14 +80,14 @@ flow:
                      text: >
                         We support every aspect of product
                         delivery, from building secure board
-                        support packages (BSPs), product
+                        support packages (BSP's), product
                         validation and long-term maintenance -
                         we help get your products to market
                         faster.
 
                         - [Arm Server Deployment](/services/toolchain-optimization-services/)
 
-                        - [BSPS and board bring-up](/services/bsp-builds-support/)
+                        - [BSP's and board bring-up](/services/bsp-builds-support/)
 
                         - [Embedded and mobile platforms](/services/open-source-consultancy/)
         - format: buttons
