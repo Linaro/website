@@ -1,4 +1,11 @@
 #wrapper {
+  .developer_services_prospectus_btn {
+    a.btn {
+      background-color: $brand-primary;
+      font-weight: 800;
+      font-size: 20px;
+    }
+  }
   .developers_services_block {
     margin-bottom: 40px;
     .block-inner {
