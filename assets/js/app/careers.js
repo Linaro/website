@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var careersCarousel = $(".careers-carousel");
   careersCarousel.owlCarousel({
-    loop: true,
+    loop: false,
     margin: 10,
     nav: true,
     dots: true,
@@ -16,8 +16,8 @@ $(document).ready(function() {
     responsive: {
       0: {
         items: 1,
-        dots: false,
-        nav: true
+        dots: true,
+        nav: false
       }
     }
   });
