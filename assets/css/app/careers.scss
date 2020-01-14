@@ -52,7 +52,7 @@
             background-color: white;
             padding: 20px;
         }
-        .rbox-top-links {
+        .rbox-top-links, .rbox-bottom-links{
             margin-bottom:30px;
             a{
                 background-color:$brand-primary;
@@ -60,9 +60,6 @@
                 padding:10px;
                 border-radius:5px;
             }
-        }
-        .rbox-bottom-links {
-            display: none;
         }
         .rbox-apply-button {
             background-color: $brand-primary;
