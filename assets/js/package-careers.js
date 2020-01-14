@@ -7,7 +7,6 @@
 
 //= require app/search
 //= require app/main
-//= require app/fly
 //= require app/careers
+//= require app/components/video_modal
 //= require app/recruiter-box-query-build.js
-
