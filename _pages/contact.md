@@ -7,9 +7,10 @@ permalink: /contact/
 css-package: contact
 layout: flow
 jumbotron:
-    title: Contact
+    title: Contact Linaro
     title-class: big-title
     description: ""
+    background-image: /assets/images/content/harston-mill.jpg
 flow:
   - row: container_row
     sections:
@@ -46,41 +47,18 @@ flow:
 ---
 ## Technical Support
 
-### 96Boards Technical Support
+**96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on [https://discuss.96boards.org](https://discuss.96boards.org).
 
-If you have a technical support query relating to 96Boards, please post your question on
-<https://discuss.96boards.org/>.
-
-### Linaro Technical Support
-
-If you have a technical support query relating to Linaro, please email <mailto:support@linaro.org>.
-
-- - -
+**Linaro Technical Support -** If you have a technical support query relating to Linaro, please email [support@linaro.org](mailto:support@linaro.org).
 
 ## Legal Information
 
-The Linaro legal pages/documents can be found here - [https://www.linaro.org/legal/](/legal)
+The Linaro legal pages/documents can be found here - [/legal/](/legal)
 
-- - -
+## Getting Involved with the Community
 
-## Getting Involved with the community
-
-For discussion around Linux and Open Source on Arm, subscribe to the lists at <https://lists.linaro.org/>.
-
-- - -
+For discussion around Linux and Open Source on Arm, subscribe to the lists at [https://lists.linaro.org/](https://lists.linaro.org/).
 
 ## Linaro IRC
 
-For more information on our IRC channels please visit [https://www.linaro.org/contact/irc/](/contact/irc/).
-
-- - -
-
-## Linaro HQ
-
-<address>
-Harston Mill<br/>
-Royston Rd<br/>
-Harston<br/>
-Cambridge<br/>
-CB22 7GG<br/>
-</address>
+For more information on our IRC channels please visit [/contact/irc/](/contact/irc/).
