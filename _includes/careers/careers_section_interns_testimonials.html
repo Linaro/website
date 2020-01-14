@@ -1,18 +1,18 @@
-{% for intern in site.data.internship_testimonials.items %}
 <div class="owl-carousel owl-theme careers-carousel">
-    <div class="activity-block item">
-        <div class="col-xs-12 col-sm-4 intern_info">
-            <img class="lazyload img-responsive intern_image"
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==""
-                data-src="{{intern.image}}" alt="{{intern.name}}'s profile image" />
-            <h4>{{intern.name}}</h4>
-            <small>{{intern.title}}</small>
+    {% for intern in site.data.internship_testimonials.items %}
+        <div class="activity-block item">
+            <div class="col-xs-12 col-sm-4 intern_info">
+                <img class="lazyload img-responsive intern_image"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==""
+                    data-src="{{intern.image}}" alt="{{intern.name}}'s profile image" />
+                <h4>{{intern.name}}</h4>
+                <small>{{intern.title}}</small>
+            </div>
+            <div class="col-xs-12 col-sm-8 quote">
+                <p>
+                    "{{intern.testimonial}}"
+                </p>
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-8 quote">
-            <p>
-                "{{intern.testimonial}}"
-            </p>
-        </div>
-    </div>
+    {% endfor %}
 </div>
-{% endfor %}
