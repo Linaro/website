@@ -1,6 +1,10 @@
 #wrapper {
     .row.video_row {
         background-color: #e6e6e6;
+        .video_placeholder_image {
+            height: 400px;
+            width: 100%;
+        }
     }
     .row.careers_row {
         background-color: #666666;
@@ -25,6 +29,22 @@
                 color: white;
                 line-height: 100px;
                 font-weight: 800;
+            }
+        }
+    }
+    .row.buttons_row {
+        padding-bottom:65px
+        a.btn {
+            margin-bottom:5px;
+            &.btn-primary {
+                background-color: $brand-primary;
+                border-radius: 5px;
+            }
+            &.btn-secondary {
+                background-color: #666666;
+                border-radius: 5px;
+                color:white;
+                padding:9px
             }
         }
     }
