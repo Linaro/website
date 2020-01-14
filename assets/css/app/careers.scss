@@ -48,7 +48,27 @@
             font-size:26px;
             margin-top:20px;
         }
-
+        .rbox-job-fullpage {
+            background-color: white;
+            padding: 20px;
+        }
+        .rbox-top-links {
+            margin-bottom:30px;
+            a{
+                background-color:$brand-primary;
+                color:white;
+                padding:10px;
+                border-radius:5px;
+            }
+        }
+        .rbox-bottom-links {
+            display: none;
+        }
+        .rbox-apply-button {
+            background-color: $brand-primary;
+            background:$brand-primary;
+            color:white;
+        }
         .rbox-opening-position-info {
             float: left;
             width: 50%;
