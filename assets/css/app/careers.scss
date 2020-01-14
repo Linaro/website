@@ -1,4 +1,10 @@
 #wrapper {
+    .row.video_row {
+        background-color: #e6e6e6;
+    }
+    .row.careers_row {
+        background-color: #666666;
+    }
     .row.internship_row {
         background-color: $brand-primary;
          p {
@@ -19,6 +25,41 @@
                 color: white;
                 line-height: 100px;
                 font-weight: 800;
+            }
+        }
+    }
+    div#careers {
+        background-color: transparent;
+        .rbox-opening-li {
+            border: none;
+        }
+        .rbox-opening-li-title {
+            font-size:26px;
+            &:after {
+                content: ">>";
+                padding-left:10px;
+            }
+        }
+        .rbox-job-shortdesc{
+            width: 100%;
+            float: right;
+            font-weight: normal;
+            color: white;
+            font-size:26px;
+            margin-top:20px;
+        }
+
+        .rbox-opening-position-info {
+            float: left;
+            width: 50%;
+            font-weight:800;
+            border:none;
+            small{
+                border:none;
+                &:not(:last-child):after {
+                    content: "-";
+                    padding-left:15px;
+                }
             }
         }
     }
