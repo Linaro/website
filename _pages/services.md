@@ -39,11 +39,9 @@ flow:
                         expertise is made available to you
                         through Linaro Developer Services.
 
-                        - [Upstream Services](/services/toolchain-optimization-services/)
+                        - [Hands on training](/services/hands-on-training/)
 
-                        - [Kernel Services](/services/kernel-lts/)
-
-                        - [Training & Support](/services/hands-on-training/)
+                        - [Open source Consultancy](/services/open-source-consultancy/)
                - title:
                     size: "h3"
                     text: Secure your product
@@ -57,9 +55,7 @@ flow:
 
                         - [Security](/services/security/)
 
-                        - [Trusted Firmware](/services/bootloaders/)
-
-                        - [OP-TEE](/services/security/)
+                        - [Bootloaders](/services/bootloaders/)
                - title:
                     size: "h3"
                     text: Maintain quality cost-effectively
@@ -72,7 +68,9 @@ flow:
                         software, ensuring the highest possible
                         quality.
 
-                        - [Long Term Support Builds](/services/kernel-lts/)
+                        - [Testing & Validation](/services/testing-validation-services/)
+
+                        - [Kernels and Long Term Support](/services/kernel-lts/)
                - title:
                     size: "h3"
                     text: Build, test and deploy faster
@@ -85,11 +83,13 @@ flow:
                         we help get your products to market
                         faster.
 
-                        - [Arm Server Deployment](/services/toolchain-optimization-services/)
+                        - [BSP’s, Builds and Support](/services/bsp-builds-support/)
 
-                        - [BSP's and board bring-up](/services/bsp-builds-support/)
+                        - [Power management tuning](/services/power-management/)
 
-                        - [Embedded and mobile platforms](/services/open-source-consultancy/)
+                        - [Toolchain optimization](/services/toolchain-optimization-services/)
+
+                        - [96Boards](/services/96boards/)
         - format: buttons
           style: text-center developer_services_prospectus_btn
           buttons_content:
