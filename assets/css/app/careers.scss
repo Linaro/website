@@ -1,306 +1,127 @@
-.linaro-svg-icon {
-    width: 50px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0px;
-    fill: #98c033;
-    background-color: #fff;
-    border: none;
-    padding: 12px;
-    transition: all 500ms ease;
-}
-.linaro-svg-icon:hover {
-    background-color: #ccc;
-}
-// CSS for content on top of carousel
-div#content-container {
-    z-index: 99999;
-    position: relative;
-    margin-top: -40px;
-}
-.carousel.slide.carousel-fade {
-    position: absolute;
-    z-index: -1;
-}
-h1.fly.center-block {
-    color: white;
-}
-p.fly.center-block {
-    color: white;
-}
-nav#universal-nav {
-    z-index: 2;
-    position: static;
-}
-nav#main-navigation {
-    z-index: 9999;
-    background-color: white;
-    /* position: relative; */
-}
-div#why-join-container {
-    z-index: -1;
-    position: relative;
-}
-.container-fluid.footer {
-    z-index: 99999;
-    position: relative;
-}
-@media(max-width:$screen-sm-min){
-    h1.fly.center-block {
-        font-size: 25px;
+#wrapper {
+  .row.video_row {
+    background-color: #e6e6e6;
+    .video_placeholder_image {
+      height: 400px;
+      width: 100%;
     }
-}
-#why-join-container .container.text-center {
-    padding-bottom: 40px;
-}
-.careers-welcome{
-    height: auto;
-    background-color:white;
-}
-.embed-responsive.embed-responsive-16by9 {
-    margin-bottom: 0px;
-}
-.media-block {
-    background-color: #98ce1c;
-    padding: 20px;
-}
-.col-sm-4.video-col {
-    background-color: #98ce1c;
-    height: auto;
-    display: block;
-}
-.text-block {
-    padding: 10px;
-}
-.text-block p {
-    font-size: 15px;
-}
-#flow_wrapper div#careers-about {
-    background-color: #232323;
-    color: white;
-}
-svg#employee-map {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-div#careers-learning {
-    height: auto;
-    background-color:white;
-    position: relative;
-}
-
-.media-block {
-    padding: 40px 100px;
-}
-@media(max-width: $screen-sm-min){
-    .media-block {
-        padding: 20px 20px;
-    }
-}
-#content-container {
-    padding-top:0px;
-    padding-bottom:0px;
-}
-#careers-about h3 {
-    color: white;
-}
-nav#main-navigation {
-    z-index: 999999;
-}
-#careers-about ol {
-    height: 150px;
-    overflow-y:scroll;
-}
-#careers-about ol li {
-    padding-left:10px;
-}
-// Ensure that the long description's text is aligned to the left.
-.rbox-job-longdesc {
-    text-align: left;
-}
-.rbox-job-longdesc table {
-    border-bottom: 1px solid #ccc;
-}
-#careers .rbox-buttons button {
-    background-color: #99cc33 !important;
-}
-.rbox-opening-li {
-    background-color: #222222;
-    color: white;
-}
-.rbox-opening-li a:hover {
-    color:white;
-}
-
-a.rbox-opening-li-title {
-    color:#99cc33;
-}
-a.rbox-opening-li-title:hover {
-    color:#565656;
-    opacity:1;
-}
-small.rbox-opening-position-type {
-    display: block;
-}
-.rbox-opening-position-info {
-    margin-top:10px;
-    position: relative;
-    display:block;
-}
-.rbox-opening-position-info small {
-    display:inline;
-    width:100%;
-    margin-bottom:5px;
-    border:1px solid #6f6f6f;
-}
-#careers-about ul.list-group li {
-    border-radius: 0px;
-    background-color: #151414;
-    border: 1px solid #3a3a3a;
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-a.btn.btn-careers {
-    background-color: white;
-    border-radius: 0px;
-    color: black;
-    border: 1px solid #000;
-    margin:10px;
-    transition: all 200ms ease;
-}
-a.btn.btn-careers:hover {
-    background-color: #222222;
-    border-radius: 0px;
-    color: #ffffff !important;
-    border: 1px solid #fff;
-}
-div#careers {
-    background-color: #e8e8e8;
-}
-.media-block.puzzle {
+  }
+  .row.careers_row {
+    background-color: #666666;
+  }
+  .row.internship_row {
     background-color: $brand-primary;
-    padding: 60px;
-    background-size:cover;
-    background-position:center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-// Responsive Text css
-#wrapper .responsive-text {
-    font-size: 18px;
-}
-@media(min-width: 1330px) {
-    #wrapper .responsive-text {
-        font-size: 20px;
+    p {
+      color: #fff;
+      font-weight: 400;
     }
-}
-@media(max-width: 800px) {
-    #wrapper .responsive-text {
-        font-size: 14px;
+    h2 {
+      font-weight: 400;
+      color: #fff;
     }
-    .media-block.puzzle {
-        background-position-y: 0px;
+    .arrow_divider {
+      &:before {
+        content: ">>";
+        font-size: 70px;
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        color: white;
+        line-height: 100px;
+        font-weight: 800;
+      }
     }
-}
-@media(min-width:$screen-sm-min){
-    div#careers-challenge{
-        display: flex;
+  }
+  .row.buttons_row {
+    padding-bottom: 65px;
+    a.btn {
+      margin-bottom: 5px;
+      &.btn-primary {
+        background-color: $brand-primary;
+        border-radius: 5px;
+      }
+      &.btn-secondary {
+        background-color: #666666;
+        border-radius: 5px;
+        color: white;
+        padding: 9px;
+      }
     }
-    .col-sm-6.text-col {
-        display: flex;
-        flex-direction: column;
+  }
+  div#careers {
+    background-color: transparent;
+    .rbox-opening-li {
+      border: none;
     }
-    .col-sm-6.no-padding.video-col {
-        display: flex;
+    .rbox-opening-li-title {
+      font-size: 26px;
+      &:after {
+        content: ">>";
+        padding-left: 10px;
+      }
     }
-    .media-block {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
+    .rbox-job-shortdesc {
+      width: 100%;
+      float: right;
+      font-weight: normal;
+      color: white;
+      font-size: 26px;
+      margin-top: 20px;
     }
-    div#careers-learning {
-        display: flex;
+    .rbox-job-fullpage {
+      background-color: white;
+      padding: 20px;
     }
-    .careers-welcome{
-        display: flex;
+    .rbox-top-links,
+    .rbox-bottom-links {
+      margin-bottom: 30px;
+      a {
+        background-color: $brand-primary;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
     }
-    div#careers-about {
-        display: flex;
+    .rbox-apply-button {
+      background-color: $brand-primary;
+      background: $brand-primary;
+      color: white;
     }
-}
-#careers-about p.responsive-text {
-    color: white;
-}.youtube {
-	background-color: #000;
-	margin-bottom: 30px;
-	position: relative;
-	padding-top: 56.25%;
-	overflow: hidden;
-	cursor: pointer;
-}
-.youtube img {
-	width: 100%;
-	top: -16.82%;
-	left: 0;
-	opacity: 0.7;
-}
-.youtube .play-button {
-	width: 90px;
-	height: 60px;
-	background-color: #333;
-	box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
-	z-index: 1;
-	opacity: 0.8;
-	border-radius: 6px;
-}
-.youtube .play-button:before {
-	content: "";
-	border-style: solid;
-	border-width: 15px 0 15px 26.0px;
-	border-color: transparent transparent transparent #fff;
-}
-.youtube img,
-.youtube .play-button {
-	cursor: pointer;
-}
-.youtube img,
-.youtube iframe,
-.youtube .play-button,
-.youtube .play-button:before {
-	position: absolute;
-}
-.youtube .play-button,
-.youtube .play-button:before {
-	top: 50%;
-	left: 50%;
-	transform: translate3d( -50%, -50%, 0 );
-}
-.youtube iframe {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
-#wrapper a.btn.btn-social-icon {
-    padding: 0px;
-}
-#wrapper a.btn.btn-social-icon i{
-    margin: 0px !important;
-    top: 20px;
-    padding: 0px !important;
-    left: 0px !important;
-}
-.internship_inner {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border: 7px solid #eaeaea;
-    border-radius: 35px;
-    transition: all 1s ease-in-out;
+    .rbox-opening-position-info {
+      float: left;
+      width: 50%;
+      font-weight: 800;
+      border: none;
+      small {
+        border: none;
+        &:not(:last-child):after {
+          content: "-";
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+  .row.internship_testimonial_row {
+    background-color: #ebf5d7;
+    .quote {
+      blockquote {
+        font-size: 26px;
+      }
+    }
+    .intern_image {
+      margin: 0;
+      height: 100px;
+      width: 100%;
+      height: auto;
+    }
+    .intern_info {
+      small {
+        font-size: 18px;
+      }
+      h4 {
+        margin-top: 20px;
+        font-weight: 800;
+      }
+    }
+  }
 }
