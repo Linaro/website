@@ -46,7 +46,7 @@ flow:
             size: h2
             text: End to end solutions using Arm technology
         - format: custom_include
-          source: components/engineering_slider.html
+          source: components/engineering_icons.html
     - row: container_row
       style: projects_row
       sections:
