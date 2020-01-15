@@ -16,7 +16,7 @@ redirect_from:
  - /engineering/projects/
 flow:
     - row: container_row
-      style: large_type
+      style: large_type intro_row
       sections:
         - format: text
           style: text-left
@@ -48,6 +48,7 @@ flow:
         - format: custom_include
           source: components/engineering_slider.html
     - row: container_row
+      style: projects_row
       sections:
         - format: title
           style: text-center
