@@ -13,7 +13,6 @@ jumbotron:
     title-class: big-title
     description: ""
     background-image: /assets/images/content/developer-services-banner.jpg
-    include: services/services_header_image.html
 flow:
     - row: container_row
       style: large_type
