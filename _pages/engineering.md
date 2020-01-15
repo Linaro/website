@@ -38,7 +38,7 @@ flow:
             text: >
                 Our work and expertise spans a wide range of areas:
     - row: container_row
-      style: engineering_row
+      style: engineering_row large_type
       sections:
         - format: title
           style: text-center
