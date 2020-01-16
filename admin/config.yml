@@ -786,6 +786,7 @@ collections:
                 widget: "string"
                 required: false
                 hint: "The name of the jekyll include to use for custom include sections."
+      - {label: Icon, name: icon, widget: image, required: false, hint: "An icon associated with this page. Only applies to certain layouts i.e developer services pages"}
       - label: "Image"
         name: "image"
         widget: "object"
