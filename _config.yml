@@ -98,9 +98,6 @@ collections:
   projects:
     output: false
     permalink: /engineering/:collection/:path/
-  services:
-    output: true
-    permalink: /:collection/:name/
   authors:
     output: true
     permalink: /author/:name/
