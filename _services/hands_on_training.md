@@ -1,9 +1,9 @@
 ---
 service_id: 10
 title: Hands on Training
-short_name: BSP’s, Builds and Support
+short_name: Hands on Training
 jumbotron:
-    title: BSP’s, Builds and Support
+    title: Hands on Training
     title-class: big-title
     description: ""
 permalink: /services/hands-on-training/
