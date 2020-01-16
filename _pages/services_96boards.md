@@ -10,6 +10,9 @@ keywords: 96Boards, HiKey, Dragonboard, Poplar, BSP, AOSP, Linux, Zephyr, kernel
 layout: flow
 css-package: services
 js-package: services
+image:
+    name: LinaroDSVertical.png
+    path: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: custom_include_row
       source: services/developer_services_page_content.html
