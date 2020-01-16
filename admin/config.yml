@@ -1028,7 +1028,7 @@ collections:
       - { label: 'Full Details', name: 'body', widget: 'markdown', hint: "Full details of the internship."}
   - name: 'authors'
     label: 'Authors'
-    folder: '_authors/'
+    folder: '_authors'
     preview_path: "/authors/{{slug}}/"
     create: true
     identifier_field: name
