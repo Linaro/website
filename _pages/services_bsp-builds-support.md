@@ -1,14 +1,31 @@
 ---
-service_id: 4
 title: AOSP and Linux BSPs, Builds and Support
 jumbotron:
     title: AOSP and Linux BSPs, Builds and Support
     title-class: big-title
     description: ""
-short_name: BSP’s, Builds and Support
+    background-image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bsp-builds-support/
 keywords: AOSP, Linux, OpenEmbedded, Yocto, Debian, BSP
 icon: /assets/images/content/DeveloperServices-icons_builds.svg
+layout: flow
+css-package: services
+js-package: services
+image:
+    name: LinaroDSVertical.png
+    path: /assets/images/content/LinaroDSVertical.png
+flow:
+    - row: custom_include_row
+      source: services/developer_services_page_content.html
+    - row: container_row
+      style: services_form large_type
+      sections:
+        - format: title
+          title_content:
+            size: h2
+            text: To find out more about Developer Services please complete this form
+        - format: custom_include
+          source: components/developer_services_form.html
 ---
 Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.
 
@@ -26,4 +43,4 @@ Linaro Developer Services has extensive experience aiding customers with BSP mai
     - Middleware development and integration
     - Maintaining builds, testing and supporting BSP’s
 
-Developer Services maintains high standards for design, implementation and testing all while folowing customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.
+Developer Services maintains high standards for design, implementation and testing all while following customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.

@@ -1,14 +1,31 @@
 ---
-service_id: 7
 title: Toolchain Optimization Services
 jumbotron:
     title: Toolchain Optimization Services
     title-class: big-title
     description: ""
-short_name: Toolchain Optimization
+    background-image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/toolchain-optimization-services/
 keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, microarchitecture
 icon: /assets/images/content/DeveloperServices-icons_toolchain.svg
+layout: flow
+css-package: services
+js-package: services
+image:
+    name: LinaroDSVertical.png
+    path: /assets/images/content/LinaroDSVertical.png
+flow:
+    - row: custom_include_row
+      source: services/developer_services_page_content.html
+    - row: container_row
+      style: services_form large_type
+      sections:
+        - format: title
+          title_content:
+            size: h2
+            text: To find out more about Developer Services please complete this form
+        - format: custom_include
+          source: components/developer_services_form.html
 ---
 Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).  Linaro Developer Services has deep experience with:
 
