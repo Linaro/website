@@ -8,8 +8,6 @@ jumbotron:
     description: ""
 permalink: /services/hands-on-training/
 keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored to needs
-redirect_from:
-- /training/
 icon: /assets/images/content/DeveloperServices-icons_training.svg
 ---
 Linaro Developer Services provides customized training on a variety of topics.

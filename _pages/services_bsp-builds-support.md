@@ -1,11 +1,9 @@
 ---
-service_id: 4
 title: AOSP and Linux BSPs, Builds and Support
 jumbotron:
     title: AOSP and Linux BSPs, Builds and Support
     title-class: big-title
     description: ""
-short_name: BSP’s, Builds and Support
 permalink: /services/bsp-builds-support/
 keywords: AOSP, Linux, OpenEmbedded, Yocto, Debian, BSP
 icon: /assets/images/content/DeveloperServices-icons_builds.svg

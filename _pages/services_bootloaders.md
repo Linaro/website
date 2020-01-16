@@ -1,15 +1,11 @@
 ---
-service_id: 2
 title: Bootloaders and Boot Architecture
 jumbotron:
     title: Bootloaders and Boot Architecture
     title-class: big-title
     description: ""
-short_name: Bootloaders
 permalink: /services/bootloaders/
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
-redirect_from:
-- /services-linux/bootloaders/
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
 ---
 

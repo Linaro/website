@@ -1,5 +1,4 @@
 ---
-service_id: 8
 title: Open Source Consultancy and Licensing
 jumbotron:
     title: Open Source Consultancy and Licensing

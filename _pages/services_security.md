@@ -1,5 +1,4 @@
 ---
-service_id: 1
 title: Security, TrustZone and OP-TEE
 jumbotron:
     title: Security, TrustZone and OP-TEE
@@ -8,8 +7,6 @@ jumbotron:
 short_name: Security
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
-redirect_from:
-- /services-linux/security/
 icon: /assets/images/content/DeveloperServices-icons_Security.svg
 ---
 

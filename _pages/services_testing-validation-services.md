@@ -1,15 +1,11 @@
 ---
-service_id: 9
 title: Testing and Validation Services
 jumbotron:
     title: Testing and Validation Services
     title-class: big-title
     description: ""
-short_name: Testing and Validation
 permalink: /services/testing-validation-services/
 keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development
-redirect_from:
-- /verification-testing-continuous-integration-ci/
 icon: /assets/images/content/DeveloperServices-icons_validation.svg
 ---
 Linaro Developer Services provides comprehensive continuous integration (CI) testing for client’s development and product software.  We offer the following services:

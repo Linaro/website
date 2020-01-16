@@ -1,5 +1,4 @@
 ---
-service_id: 3
 title: Kernels and Long Term Support Services
 jumbotron:
     title: Kernels and Long Term Support Services

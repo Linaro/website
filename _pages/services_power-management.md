@@ -1,5 +1,4 @@
 ---
-service_id: 5
 title: Power Management Tuning Services
 jumbotron:
     title: Power Management Tuning Services
