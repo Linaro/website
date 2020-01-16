@@ -285,6 +285,18 @@ collections:
                     - {label: MP4, name: mp4, widget: string, required: false}
                     - {label: WEBM, name: webm, widget: string, required: false}
                     - {label: OGV, name: ogv, widget: string, required: false}
+      - label: "Internship Testimonials"
+        name: "internship_testimonials"
+        file: "_data/internship_testimonials.yml"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Image, name: image, widget: image}
+                - {label: title, name: title, widget: string, hint: "Internship title i.e Entry Level, Engineer"}
+                - {label: Testimonial Text, name: testimonial, widget: text}
       - label: "Footer"
         name: "footer"
         file: "_data/footer.yml"

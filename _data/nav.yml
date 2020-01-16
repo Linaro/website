@@ -82,7 +82,7 @@ pages:
     title: Services
   - options:
       - text: Technical Support
-        url: /technical-support/
+        url: /support/
       - text: Downloads
         url: /downloads/
     title: Support

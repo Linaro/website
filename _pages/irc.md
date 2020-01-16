@@ -144,7 +144,7 @@ Linaro is using a meeting bot for IRC meeting notetaking. More information are a
 ## IRC Software for Linux
 
 *   [http://hexchat.github.io/index.html](http://hexchat.github.io/) – A very popular GUI IRC client
-*   [http://www.pidgin.im/](http://www.pidgin.im/)
+*   [https://pidgin.im/](https://pidgin.im/)
 *   [http://quassel-irc.org/](http://quassel-irc.org/)
 *   [http://irssi.org/](http://irssi.org/) (terminal based, run it through ‘screen’ to avoid missing any discussion)
 *   [http://weechat.org/](http://weechat.org/) (terminal based, run it through ‘screen’ to avoid missing any discussion)
@@ -154,7 +154,7 @@ Linaro is using a meeting bot for IRC meeting notetaking. More information are a
 ## IRC Software for Windows
 
 *   [http://hexchat.github.io/index.html](http://hexchat.github.io/) – A very popular GUI IRC client
-*   [http://www.pidgin.im/download/windows/](http://www.pidgin.im/download/windows/)
+*   [https://pidgin.im/install/](https://pidgin.im/install/)
 *   [http://www.leafdigital.com/software/leafchat/](http://www.leafdigital.com/software/leafchat/)
 
 * * *
