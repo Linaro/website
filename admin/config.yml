@@ -2,7 +2,7 @@ backend:
   name: github
   repo: linaro/website
   branch: develop
-  use_graphql: true
+  use_graphql: false
   preview_context: "Deploy preview"
   open_authoring: true
 publish_mode: editorial_workflow
