@@ -15,7 +15,7 @@ Linaro Developer Services has broad experience helping companies plan and implem
 - UEFI
 - U-Boot
 
- We also have Zephyr RTOS boot architechure expertise.
+ We also have Zephyr RTOS boot architecture expertise.
 
 - Experienced with boot time optimization
     - Worked with customers to implement challenging product boot performance requirements
