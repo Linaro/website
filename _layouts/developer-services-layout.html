@@ -1,22 +1,25 @@
 ---
-layout: jumbotron-container
+layout: jumbotron
 css-package: work
-js-package: work
+js-package: services
 ---
-<div class="col-md-3">
-    {% include sidebar.html  %}
-    {% if page.icon %}
-    <picture>
-        <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" 
-        media="(min-width: 992px)" />
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" 
-        data-src="{{page.icon}}" 
-        class="lazyload img-responsive group_icon"/>
-    </picture>
-    {% endif %}
-</div>
-<div class="col-md-9">
-    {{content}}
-    <hr>
-    {% include developer-services-contact-form.html %}
+<div class="row" id="content-container">
+    <div class="container">
+        <div class="col-md-3">
+            {% include sidebar.html  %}
+            {% if page.icon %}
+            <picture>
+                <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" media="(min-width: 992px)" />
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{page.icon}}"
+                    class="lazyload img-responsive group_icon" />
+            </picture>
+            {% endif %}
+        </div>
+        <div class="col-md-9">
+            {{content}}
+            <hr>
+            {% include developer-services-contact-form.html %}
+        </div>
+        {% include components/developer_services_form.html %}
+    </div>
 </div>
