@@ -180,14 +180,6 @@ defaults:
       css-package: landing-page
       js-package: engineering-landing-page
   - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: developer-services-layout
-      image:
-        name: LinaroDSVertical.png
-        path: /assets/images/content/LinaroDSVertical.png
-  - scope:
       path: "/sitemap.xml"
     values:
       redirect_from: /sitemap/
