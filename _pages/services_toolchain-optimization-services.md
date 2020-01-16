@@ -7,6 +7,7 @@ jumbotron:
 permalink: /services/toolchain-optimization-services/
 keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, microarchitecture
 icon: /assets/images/content/DeveloperServices-icons_toolchain.svg
+layout: developer-services-layout
 ---
 Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).  Linaro Developer Services has deep experience with:
 

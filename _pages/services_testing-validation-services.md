@@ -7,6 +7,7 @@ jumbotron:
 permalink: /services/testing-validation-services/
 keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development
 icon: /assets/images/content/DeveloperServices-icons_validation.svg
+layout: developer-services-layout
 ---
 Linaro Developer Services provides comprehensive continuous integration (CI) testing for client’s development and product software.  We offer the following services:
 - CI loop planning and deployment services

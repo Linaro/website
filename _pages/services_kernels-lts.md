@@ -4,10 +4,10 @@ jumbotron:
     title: Kernels and Long Term Support Services
     title-class: big-title
     description: ""
-short_name: Kernels - LTS
 permalink: /services/kernel-lts/
 keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr
 icon: /assets/images/content/DeveloperServices-icons_kernels.svg
+layout: developer-services-layout
 ---
 Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
 

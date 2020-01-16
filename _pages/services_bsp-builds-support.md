@@ -7,6 +7,7 @@ jumbotron:
 permalink: /services/bsp-builds-support/
 keywords: AOSP, Linux, OpenEmbedded, Yocto, Debian, BSP
 icon: /assets/images/content/DeveloperServices-icons_builds.svg
+layout: developer-services-layout
 ---
 Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.
 

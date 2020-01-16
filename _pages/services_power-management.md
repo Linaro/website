@@ -4,10 +4,10 @@ jumbotron:
     title: Power Management Tuning Services
     title-class: big-title
     description: ""
-short_name: Power Management
 permalink: /services/power-management/
 keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
 icon: /assets/images/content/DeveloperServices-icons_power.svg
+layout: developer-services-layout
 ---
 
 Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In Developer Services we have:

@@ -7,6 +7,7 @@ jumbotron:
 permalink: /services/bootloaders/
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
+layout: developer-services-layout
 ---
 
 Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform, including:

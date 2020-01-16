@@ -6,6 +6,7 @@ jumbotron:
     description: ""
 permalink: /services/96boards/
 keywords: 96Boards, HiKey, Dragonboard, Poplar, BSP, AOSP, Linux, Zephyr, kernel, bootloader, UEFI, U-Boot, Arm Trusted Firmware
+layout: developer-services-layout
 icon: /assets/images/content/DeveloperServices-icons_96boards.svg
 ---
 Linaro Developer Services has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:
