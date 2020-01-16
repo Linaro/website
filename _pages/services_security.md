@@ -4,11 +4,25 @@ jumbotron:
     title: Security, TrustZone and OP-TEE
     title-class: big-title
     description: ""
-short_name: Security
+    background-image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
 icon: /assets/images/content/DeveloperServices-icons_Security.svg
-layout: developer-services-layout
+layout: flow
+css-package: services
+js-package: services
+flow:
+    - row: custom_include_row
+      source: services/developer_services_page_content.html
+    - row: container_row
+      style: services_form large_type
+      sections:
+        - format: title
+          title_content:
+            size: h2
+            text: To find out more about Developer Services please complete this form
+        - format: custom_include
+          source: components/developer_services_form.html
 ---
 
 Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.

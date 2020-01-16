@@ -3,10 +3,13 @@ title: 96Boards Product Development & Support
 jumbotron:
     title: 96Boards Product Development & Support
     title-class: big-title
+    background-image: /assets/images/content/developer_services_bg.jpg
     description: ""
 permalink: /services/96boards/
 keywords: 96Boards, HiKey, Dragonboard, Poplar, BSP, AOSP, Linux, Zephyr, kernel, bootloader, UEFI, U-Boot, Arm Trusted Firmware
 layout: flow
+css-package: services
+js-package: services
 flow:
     - row: custom_include_row
       source: services/developer_services_page_content.html
