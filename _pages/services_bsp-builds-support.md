@@ -25,4 +25,4 @@ Linaro Developer Services has extensive experience aiding customers with BSP mai
     - Middleware development and integration
     - Maintaining builds, testing and supporting BSP’s
 
-Developer Services maintains high standards for design, implementation and testing all while folowing customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.
+Developer Services maintains high standards for design, implementation and testing all while following customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.
