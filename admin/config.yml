@@ -285,6 +285,18 @@ collections:
                     - {label: MP4, name: mp4, widget: string, required: false}
                     - {label: WEBM, name: webm, widget: string, required: false}
                     - {label: OGV, name: ogv, widget: string, required: false}
+      - label: "Internship Testimonials"
+        name: "internship_testimonials"
+        file: "_data/internship_testimonials.yml"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+                - {label: Name, name: name, widget: string}
+                - {label: Image, name: image, widget: image}
+                - {label: title, name: title, widget: string, hint: "Internship title i.e Entry Level, Engineer"}
+                - {label: Testimonial Text, name: testimonial, widget: text}
       - label: "Footer"
         name: "footer"
         file: "_data/footer.yml"
@@ -424,6 +436,11 @@ collections:
           - label: "Description"
             name: "description"
             widget: "text"
+            required: false
+          - label: "Include"
+            name: "include"
+            widget: "string"
+            hint: "Provides a link to an optional header include."
             required: false
           - label: "Slider"
             name: "slider"
@@ -765,6 +782,7 @@ collections:
                 widget: "string"
                 required: false
                 hint: "The name of the jekyll include to use for custom include sections."
+      - {label: Icon, name: icon, widget: image, required: false, hint: "An icon associated with this page. Only applies to certain layouts i.e developer services pages"}
       - label: "Image"
         name: "image"
         widget: "object"
@@ -1010,7 +1028,7 @@ collections:
       - { label: 'Full Details', name: 'body', widget: 'markdown', hint: "Full details of the internship."}
   - name: 'authors'
     label: 'Authors'
-    folder: '_authors/'
+    folder: '_authors'
     preview_path: "/authors/{{slug}}/"
     create: true
     identifier_field: name

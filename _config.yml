@@ -98,9 +98,6 @@ collections:
   projects:
     output: false
     permalink: /engineering/:collection/:path/
-  services:
-    output: true
-    permalink: /:collection/:name/
   authors:
     output: true
     permalink: /author/:name/
@@ -179,14 +176,6 @@ defaults:
       layout: landing-page
       css-package: landing-page
       js-package: engineering-landing-page
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: developer-services-layout
-      image:
-        name: LinaroDSVertical.png
-        path: /assets/images/content/LinaroDSVertical.png
   - scope:
       path: "/sitemap.xml"
     values:

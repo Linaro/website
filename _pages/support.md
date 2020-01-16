@@ -6,7 +6,7 @@ description: >
   members and clients fix, debug and resolve any Linaro-related issues and
   questions. We are also happy to answer questions from the community although
   these will be dealt with on a best effort basis.
-permalink: /technical-support/
+permalink: /support/
 layout: flow
 jumbotron:
   background-image: /assets/images/content/developer-services-banner.jpg
