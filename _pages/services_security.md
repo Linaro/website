@@ -8,6 +8,7 @@ short_name: Security
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
 icon: /assets/images/content/DeveloperServices-icons_Security.svg
+layout: developer-services-layout
 ---
 
 Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with Trustzone, porting OP-TEE and working with Trusted Applications.
