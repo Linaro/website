@@ -11,7 +11,7 @@ jumbotron:
     description-class: smaller
     description: ""
     title: Where Collaborative Engineering on Arm Happens
-    background-image: /assets/images/content/engineering-bg.jpg
+    background-image: /assets/images/content/engineering_background.jpg
 redirect_from:
  - /engineering/projects/
 flow:
@@ -36,11 +36,6 @@ flow:
     - row: container_row
       style: engineering_row large_type
       sections:
-        - format: title
-          style: text-center
-          title_content:
-            size: h2
-            text: End to end solutions using Arm technology
         - format: custom_include
           source: components/engineering_icons.html
     - row: container_row
@@ -53,5 +48,4 @@ flow:
             text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
         - format: custom_include
           source: membership/projects_slider.html
-      source: .html
 ---
