@@ -10,13 +10,42 @@ jumbotron:
     title-class: big-title
     description-class: smaller
     description: ""
-    title: Where Collaborative Engineering Happens
-    background-image: /assets/images/content/engineering-bg.jpg
+    title: Where Collaborative Engineering on Arm Happens
+    background-image: /assets/images/content/engineering_background.jpg
 redirect_from:
  - /engineering/projects/
 flow:
-    - row: custom_include_row
-      source: engineering_overview_section.html
-    - row: custom_include_row
-      source: projects_overview_section.html
+    - row: container_row
+      style: large_type intro_row
+      sections:
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                Linaro was formed to consolidate foundational Arm software. Over the years, Linaro has entered new verticals as and when collaborative engineering has been needed to enable new markets on Arm architecture.
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                Linaro engineers work together with member company engineers on Arm software. Strategy and roadmaps are developed in technical steering committees which then decide what engineering work needs to happen when.
+        - format: text
+          style: text-left
+          text_content:
+            text: >
+                Our work and expertise spans a wide range of areas:
+    - row: container_row
+      style: engineering_row large_type
+      sections:
+        - format: custom_include
+          source: components/engineering_icons.html
+    - row: container_row
+      style: projects_row
+      sections:
+        - format: title
+          style: text-center
+          title_content:
+            size: h2
+            text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
+        - format: custom_include
+          source: membership/projects_slider.html
 ---
