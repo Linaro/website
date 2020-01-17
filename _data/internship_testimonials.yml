@@ -1,9 +1,4 @@
 items:
-  - name: Baptiste Gerandeau
-    image: /assets/images/people/baptiste.png
-    title: Entry Level, Engineer
-    testimonial: >
-       A little less than a year ago I began my internship with Linaro. This internship was the last thing I had to do before graduating, and those six months were the time where I learned the most about Software Engineering, Machine Architectures and Infrastructure. Linaro's employees' expertise is renowned all over the Arm world, and by working with them, one cannot help but gain more knowledge, understanding and experience. With my internship over, so was my Masters Degree, and I had the immense pleasure of having a full-time position as an Engineer proposed to me. As soon as my university allowed, I started working full-time on multiple and various projects, which I had the privilege to have some influence on. Solving bugs, adding new features and driving the projects forward is my every day routine, and I love it !
   - name: Theodore Grey
     title: Entry Level, Engineer
     image: /assets/images/people/theodore-grey.jpg
