@@ -35,28 +35,28 @@ The video can also be downloaded in WebM format (VP8 codec):
 
 
 
-  * [WebM / VP8 codec, 800x450 resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
+  * WebM / VP8 codec, 800x450 resolution - https://free-electrons.com/pub/video/2011/linaro/may/
 
 
-  * [WebM / VP8 codec, full HD resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
+  * WebM / VP8 codec, full HD resolution - https://free-electrons.com/pub/video/2011/linaro/may/
 
 
 
 Here is the list of steps that we went through in the video:
 
-	
+
   * Download the `boot.tar.bz2`, `system.tar.bz2` and `userdata.tar.bz2` archives
 
-	
+
   * Plug in an SD card. With `dmesg`, find the corresponding device on your Linux box. Let's assume this is `sdb`.
 
-	
+
   * Download `linaro-image-tools` from [Launchpad](https://launchpad.net/linaro-image-tools).
 
-	
+
   * Now run:
 
-    
+
     sudo ./linaro-image-tools/linaro-android-media-create
     --dev panda --system system.tar.bz2 --boot boot.tar.bz2
     --userdata userdata.tar.bz2  --mmc /dev/sdb
@@ -65,47 +65,47 @@ Here is the list of steps that we went through in the video:
 Make sure that you only say `y` if the device it wants to use was
 listed in the `dmesg` output.
 
-	
+
   * Once you see:
 
-    
+
     Done creating Linaro Android image on /dev/sdd
 
 
 Unplug the SD card.
 
-	
+
   * Plug it into Panda's SD card slot (SD/MMC card)
 
-	
+
   * Plug in a USB mouse and a USB keyboard
 
-	
+
   * Plug in a serial to USB converter
 
-	
+
   * Get a minicom session going with
 
-    
+
     minicom -D /dev/ttyUSB0
 
 
 
 
-	
+
   * Plug in the HD monitor (HDMI label on the board)
 
-	
+
   * Turn on the monitor
 
-	
+
   * Turn on the Panda board
 
-	
+
   * See the unit booting in minicom
 
-	
+
   * See the default launcher. Use the mouse to click on the launcher.
 
-	
+
   * You should see `0xBenchmark`
