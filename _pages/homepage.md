@@ -12,44 +12,6 @@ jumbotron:
       title: Linaro accelerates product deployment in the Arm ecosystem
       image: /assets/images/content/code_banner.jpg
       title-class: big-title
-    - buttons:
-        - title: Learn More
-          url: >-
-            /news/linaro-contributes-to-the-zephyr-project-becoming-psa-certified/
-      darken: true
-      title: Linaro contributes to the Zephyr Project becoming PSA certified
-      title-class: big-title
-      type: Press Release
-      description: ""
-      image: /assets/images/content/city.jpg
-    - buttons:
-        - title: Learn More
-          url: /news/nxp-joins-as-a-club-member/
-      darken: true
-      title: NXP Becomes Club Member of Linaro
-      type: Press Release
-      title-class: big-title
-      description: ""
-      image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
-    - buttons:
-        - title: Learn More
-          url: >-
-            https://www.openampproject.org/news/openamp-project-joins-the-linaro-community-projects-division/
-      darken: true
-      title: OpenAMP project joins the Linaro Community Projects division
-      title-class: big-title
-      type: Press Release
-      description: ""
-      image: /assets/images/content/openampproject-web-banner.png
-    - buttons:
-        - title: Learn More
-          url: /news/linaro-donates-op-tee-into-the-trusted-firmware-project/
-      darken: true
-      type: Press Release
-      title-class: big-title
-      title: Linaro donates OP-TEE into the Trusted Firmware Project
-      description: ""
-      image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
 flow:
   - row: container_row
     style: introduction_row
