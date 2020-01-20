@@ -39,7 +39,7 @@ After introducing themselves and their jobs in Linaro (in particular Thomas Glei
 The video can also be downloaded in WebM format:
 
 
-  * [WebM / VP8 codec, 800x450 resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
+  * [WebM / VP8 codec, 800x450 resolution (https://free-electrons.com/pub/video/2011/linaro/may/)
 
 
-  * [WebM / VP8 codec, full HD resolution](https://free-electrons.com/pub/video/2011/linaro/may/)
+  * [WebM / VP8 codec, full HD resolution (https://free-electrons.com/pub/video/2011/linaro/may/)
