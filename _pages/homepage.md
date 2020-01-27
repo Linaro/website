@@ -12,6 +12,16 @@ jumbotron:
       title: Linaro accelerates product deployment in the Arm ecosystem
       image: /assets/images/content/code_banner.jpg
       title-class: big-title
+    - darken: true
+      description: >
+        23 - 27 March 2020 | Corinthia Hotel, Budapest, Hungary
+      image: /assets/images/content/budapest_banner_bg.jpg
+      inner-image: /assets/images/content/BUD20logo_white_text.png
+      buttons:
+        - title: Register
+          url: https://connect.linaro.org/register/
+          class: btn-primary
+      title-class: big-title
 flow:
   - row: container_row
     style: introduction_row
