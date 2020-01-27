@@ -10,7 +10,7 @@
             {% if slide.image %}data-src="{{slide.image}}"
             {% endif %}{% if slide.slide-style %}style="{{slide.slide-style}}" {% endif %}>
             {% if slide.inner-image %}
-            <img class="img-responsive lazyload"
+            <img class="img-responsive inner-image lazyload"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 data-src="{{slide.inner-image}}" alt="Slide {{forloop.index}} inner image" />
             {% endif %}
