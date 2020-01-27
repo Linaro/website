@@ -594,6 +594,10 @@ body {
         font-size: 38px !important;
       }
     }
+    img.img-responsive.inner-image {
+        height: 150px;
+        z-index: 1;
+    }
   }
   #main-navigation.navbar-inverse {
     #navbar-buttons {
