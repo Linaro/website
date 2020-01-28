@@ -215,8 +215,7 @@ h2.linaro-sub-title {
   font-weight: 400;
 }
 .slider-img {
-  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5))
-    no-repeat center center scroll;
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)) no-repeat center center scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -595,8 +594,8 @@ body {
       }
     }
     img.img-responsive.inner-image {
-        height: 150px;
-        z-index: 1;
+      height: 150px;
+      z-index: 1;
     }
   }
   #main-navigation.navbar-inverse {
@@ -673,11 +672,28 @@ body {
     .row.large_type {
       p {
         font-size: 26px;
+        font-weight: 100;
+        margin-bottom: 60px;
+        @media (max-width: $screen-sm-min) {
+            font-size: 22px;
+            line-height: 30px;
+        }
       }
       h2 {
         font-size: 46px;
         font-weight: 100;
         text-align: left;
+      }
+      h3 {
+        font-weight: 400;
+        text-align: left;
+      }
+      ul {
+        font-size: 24px;
+        font-weight: 100;
+        @media (max-width: $screen-sm-min) {
+            font-size: 20px;
+        }
       }
     }
     .owl-theme .owl-dots .owl-dot span {
