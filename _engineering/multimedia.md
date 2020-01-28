@@ -20,7 +20,7 @@ jumbotron:
 layout: flow
 flow:
   - row: container_row
-    style: members_row
+    style: members_row light_gray_row
     sections:
         - format: custom_include
           params: core,club
@@ -36,7 +36,7 @@ flow:
 
             The Linaro multimedia group was formed in 2018 to help overcome these fragmentation issues and provide standardized solutions, helping to improve the media experience on Arm and resolve common multimedia problems for the Arm ecosystem.
   - row: container_row
-    style: youtube_embed_row
+    style: youtube_embed_row light_gray_row
     sections:
         - format: custom_include
           youtube_embed:
