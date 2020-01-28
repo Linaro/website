@@ -53,6 +53,8 @@ pages:
         url: /engineering/high-performance-computing/
       - text: IoT & Embedded
         url: /engineering/iot-and-embedded/
+      - text: Multimedia
+        url: /engineering/multimedia/
     title: Engineering
   - title: Membership
     url: /membership/
