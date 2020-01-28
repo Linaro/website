@@ -35,7 +35,14 @@ flow:
             Multimedia devices often function as home gateways and IP clients to access broadband and Pay TV services and are capable of managing content rights throughout the connected home. Viewers expect these devices to deliver rich 3D graphical user interfaces, access to their favorite applications, and the ability to watch and record programs, all while operating on lower standby and active power. Many standards exist, but these are not implemented consistently across all platforms and devices, leading to significant fragmentation, a multitude of point solutions and subsequently significant amounts of duplicated, non-differentiating engineering effort.
 
             The Linaro multimedia group was formed in 2018 to help overcome these fragmentation issues and provide standardized solutions, helping to improve the media experience on Arm and resolve common multimedia problems for the Arm ecosystem.
-
+  - row: container_row
+    style: youtube_embed_row
+    sections:
+        - format: custom_include
+          youtube_embed:
+            url: https://www.youtube.com/watch?v=eyqXgY-ITmk&feature=emb_title
+            title: Test Video
+          source: components/lazy_youtube_video_embed.html
   - row: container_row
     style: large_type introduction_row info_row
     sections:
