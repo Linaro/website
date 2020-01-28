@@ -557,6 +557,9 @@ body {
       max-width: 800px;
       display: block;
       margin: auto;
+      @media(max-width:$screen-sm-min){
+        height: 200px;
+      }
     }
   }
   #jumbotron-slider {
