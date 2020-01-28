@@ -76,9 +76,6 @@ $(document).ready(function() {
       },
       1000: {
         items: 8
-      },
-      1200: {
-        items: 9
       }
     }
   });
