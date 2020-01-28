@@ -551,6 +551,14 @@ body {
 }
 
 #wrapper {
+  .youtube_embed {
+    iframe {
+      height: 500px;
+      max-width: 800px;
+      display: block;
+      margin: auto;
+    }
+  }
   #jumbotron-slider {
     .slide_type {
       height: 40px;
@@ -675,8 +683,8 @@ body {
         font-weight: 100;
         margin-bottom: 60px;
         @media (max-width: $screen-sm-min) {
-            font-size: 22px;
-            line-height: 30px;
+          font-size: 22px;
+          line-height: 30px;
         }
       }
       h2 {
@@ -692,7 +700,7 @@ body {
         font-size: 24px;
         font-weight: 100;
         @media (max-width: $screen-sm-min) {
-            font-size: 20px;
+          font-size: 20px;
         }
       }
     }
