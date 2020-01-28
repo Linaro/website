@@ -1,7 +1,7 @@
 {% if include.object.youtube_embed.url contains "https://youtu.be/" %}
-{% assign youtube_id = include.object.youtube_embed.url | replace: 'https://youtu.be/',''%}
+{% assign youtube_id = include.object.youtube_embed.url | replace: 'https://youtu.be/','' %}
 {% elsif include.object.youtube_embed.url contains "https://www.youtube.com/watch?v=" %}
-    {% assign youtube_id = include.object.youtube_embed.url | replace: 'https://www.youtube.com/watch?v=',''}
+    {% assign youtube_id = include.object.youtube_embed.url | replace: 'https://www.youtube.com/watch?v=','' %}
 {% else %}
     {% assign youtube_id = include.object.youtube_embed.url %}
 {% endif %}
@@ -11,8 +11,8 @@
 <div class="col-xs-12 youtube_embed">
 
 <iframe
-width="560"
-height="315"
+width="100%"
+height="100%"
 src="https://www.youtube.com/embed/{{youtube_id}}"
 srcdoc="<style>
     * {
