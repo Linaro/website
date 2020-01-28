@@ -20,6 +20,12 @@ jumbotron:
 layout: flow
 flow:
   - row: container_row
+    style: members_row
+    sections:
+        - format: custom_include
+          params: core,club
+          source: related_members.html
+  - row: container_row
     style: large_type introduction_row
     sections:
       - format: text
@@ -31,7 +37,7 @@ flow:
             The Linaro multimedia group was formed in 2018 to help overcome these fragmentation issues and provide standardized solutions, helping to improve the media experience on Arm and resolve common multimedia problems for the Arm ecosystem.
 
   - row: container_row
-    style: large_type info_row
+    style: large_type introduction_row info_row
     sections:
       - format: text
         style: text-left
@@ -52,11 +58,17 @@ flow:
             Traditionally this is an area where many vendors have implemented very custom out of tree solutions that are costly to implement and even more costly to maintain. Linaro wants to promote a standardized solution for the benefit of everyone working right across the stack from the web browser down to the secure OS. Work to date has focussed on how we can support the [W3C EME standard](https://www.w3.org/TR/encrypted-media/) via:
 
             - open source content decryption (CDM) plugins
+
             - integration of these plugins with wpewebkit and Chromium browsers
+
             - the development of trusted applications in OP-TEE
+
             - integration of the SDP solution into the Reference Design Kit (RDK) and AOSP
+
             - secure buffer allocation and communication of file descriptors across components
+
             - enhancements to wayland and GStreamer to support secure playback use cases.
+
       - format: title
         style: text-left
         title_content:
