@@ -60,7 +60,7 @@ $(document).ready(function() {
     loop: false,
     margin: 10,
     nav: false,
-    dots: true,
+    dots: false,
     lazyLoad: true,
     autoplay: true,
     responsiveClass: true,
