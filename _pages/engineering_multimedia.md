@@ -8,6 +8,8 @@ members:
     key: mi-incubator
 related_resources_tracks: Multimedia, RDK, LHG
 permalink: /engineering/multimedia/
+css-package: landing-page
+js-package: engineering-landing-page
 related_tags:
   - Multimedia
   - RDK
