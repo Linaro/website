@@ -25,7 +25,7 @@ flow:
     style: members_row light_gray_row
     sections:
         - format: custom_include
-          params: core,club
+          params: core,club,Comcast
           source: related_members.html
   - row: container_row
     style: large_type introduction_row
