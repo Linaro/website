@@ -4,8 +4,8 @@
 
 {% for project in site.data.projects.items %}
     {% if project_keys contains project.name %}
-        {% unless unique_linaro_members contains member %}
-            {% assign unique_linaro_members = unique_linaro_members | push: member %}
+        {% unless unique_projects contains project %}
+            {% assign unique_projects = unique_projects | push: project %}
         {% endunless %}
     {% endif %}
 {% endfor %}
@@ -14,7 +14,7 @@
 
 <div class="col-xs-12">
     <div class="owl-carousel owl-theme" id="members_slider">
-        {% for project in unique_projects %}
+        {% for project in sorted_projects %}
         <a href="{{project.url}}" target="_self">
             <div class="item">
                 <div class="member_image">
