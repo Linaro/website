@@ -98,11 +98,17 @@ flow:
         text_content:
           text: >
             [RDK](https://rdkcentral.com/) is a modular, portable and customizable open source software solution that standardizes core functions used in video, broadband and IoT devices. The goal of the RDK project is to help facilitate fast ramp up on member companies own RDK projects. To do this Linaro prototypes on member company silicon best in class open source components to give RDK more interoperability, flexibility and improved performance. Linaro has worked on the Yoctofication of RDK, integration of OP-TEE and CDM plugins to support secure video use cases, enhancements to the Westeros wayland compositor and member silicon enablement.
+  - row: container_row
+    style: youtube_embed_row light_gray_row
+    sections:
       - format: custom_include
         youtube_embed:
           url: https://www.youtube.com/watch?v=RIGpastAifg
           title: HKG18-408 - A DRM solution using TZMP
         source: components/lazy_youtube_video_embed.html
+  - row: container_row
+    style: large_type introduction_row info_row
+    sections:
       - format: title
         style: text-left no-padding
         title_content:
