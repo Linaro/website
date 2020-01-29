@@ -2,16 +2,16 @@
 title: Multimedia
 description: |-
     The Multimedia initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance.
-keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
+keywords: Linaro, Multimedia, RDK, LHG, Arm, Linux, hardware, Audio/Video automated testing, Secure Video
 image: /assets/images/content/Machine col.svg
 members:
     key: mi-incubator
-related_resources_tracks: AI/Machine Learning, Machine Learning/AI, AI and Neural Networks on Arm Summit
+related_resources_tracks: Multimedia, RDK, LHG
+permalink: /engineering/multimedia/
 related_tags:
-  - Automotive
-  - ML
-  - AI/ML
-  - Autoware
+  - Multimedia
+  - RDK
+  - LHG
 jumbotron:
     title: Multimedia
     title-class: big-title
