@@ -1,8 +1,10 @@
 #flow_wrapper {
     .member_image {
         img {
-            height: auto;
-            width: 100%
+            height: 80px;
+            width: 100%;
+            object-fit: contain;
+            background-color: white;
         }
     }
 }
