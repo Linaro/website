@@ -77,7 +77,17 @@ flow:
             - secure buffer allocation and communication of file descriptors across components
 
             - enhancements to wayland and GStreamer to support secure playback use cases.
-
+  - row: container_row
+    style: youtube_embed_row light_gray_row
+    sections:
+      - format: custom_include
+        youtube_embed:
+            url: https://www.youtube.com/watch?v=cqSdMzy4gw8
+            title: HKG18-203 - Overview of Linaro DRM
+        source: components/lazy_youtube_video_embed.html
+  - row: container_row
+    style: large_type introduction_row info_row
+    sections:
       - format: title
         style: text-left no-padding
         title_content:
