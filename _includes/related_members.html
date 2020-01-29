@@ -8,6 +8,14 @@
                 {% assign unique_linaro_members = unique_linaro_members | push: member %}
             {% endunless %}
         {% endfor %}
+    {% else %}
+        {% for member in group.members %}
+            {% if members_keys contains member.name %}
+                {% unless unique_linaro_members contains member %}
+                    {% assign unique_linaro_members = unique_linaro_members | push: member %}
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
     {% endif %}
 {% endfor %}
 
