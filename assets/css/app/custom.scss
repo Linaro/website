@@ -639,6 +639,11 @@ body {
     }
   }
   #flow_wrapper {
+    .info_row {
+        .col-xs-12.title.text-center {
+            padding-left: 0px;
+        }
+    }
     .row.introduction_row {
       padding-top: 60px;
       p {
