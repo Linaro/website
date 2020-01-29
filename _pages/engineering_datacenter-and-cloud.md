@@ -1,18 +1,14 @@
 ---
+layout: flow
+image: /assets/images/content/LDCG col.svg
+permalink: /engineering/datacenter-and-cloud/
+css-package: landing-page
+js-package: engineering-landing-page
+related_resources_tracks: Data Center
 title: Datacenter & Cloud
 description: |-
   The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.
 keywords: Arm, Server, Linux, ecosystem, silicon, Power Management, Security, Big Data, Software Defined Infrastructure, Datacenter, Cloud
-members:
-  key: ldcg
-other_projects:
-  - name: Docker
-    url: /engineering/projects/docker/
-  - name: OpenJDK
-    url: /engineering/projects/openjdk/
-  - name: OpenStack
-    url: /engineering/projects/openstack/
-related_resources_tracks: Data Center
 related_tags:
   - LDCG
   - ldcg
@@ -23,17 +19,11 @@ related_tags:
   - LTN
   - HPC
   - Developer Cloud
-related_jira_project: https://projects.linaro.org/projects/LEG/summary
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsNtWUBuB2DcSEADXqJm6r12
-members_key: lcdg_members
-output: true
-image: /assets/images/content/LDCG col.svg
 jumbotron:
     title: Datacenter & Cloud
     title-class: big-title
     description: ""
     background-image: /assets/images/content/ldcg-bg.jpg
-layout: flow
 flow:
   - row: container_row
     sections:

@@ -4,6 +4,9 @@ layout: flow
 description: |-
     Edge computing is often described as the computing work done between “Things” and “The cloud”. The reality is far more complex.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
+permalink: /engineering/edge-and-fog-computing/
+css-package: landing-page
+js-package: engineering-landing-page
 members:
     key: ledge
 related_tags:

@@ -4,6 +4,9 @@ description: |-
     The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance.
 keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
+permalink: /engineering/artificial-intelligence/
+css-package: landing-page
+js-package: engineering-landing-page
 members:
     key: mi-incubator
 related_resources_tracks: AI/Machine Learning, Machine Learning/AI, AI and Neural Networks on Arm Summit

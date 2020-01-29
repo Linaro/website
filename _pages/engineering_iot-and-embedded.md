@@ -3,6 +3,9 @@ title: IoT & Embedded
 description: |-
     The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
+permalink: /engineering/iot-and-embedded/
+css-package: landing-page
+js-package: engineering-landing-page
 members:
     key: lite
 related_resources_tracks: IoT and Embedded, IoT Fog/Gateway/Edge Computing
@@ -16,7 +19,6 @@ related_tags:
 related_jira_project: https://projects.linaro.org/projects/LITE/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
 members_key: lite_members
-output: true
 image: /assets/images/content/LITE col.svg
 releases:
   - title: LITE Releases
@@ -26,6 +28,10 @@ jumbotron:
     title-class: big-title
     description: ""
     background-image: /assets/images/content/IoT-bg.jpg
+flow:
+  - row: main_content_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 The Internet of Things (IoT) is disrupting the traditional embedded market and creating huge growth opportunities. Every device being connected to the cloud and generating personal information is a huge data generation, connectivity and security headache. The disparate software and hardware solutions used in this space are already creating a massive amount of fragmentation and redundant engineering effort.
 

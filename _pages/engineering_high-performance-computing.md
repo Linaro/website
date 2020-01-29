@@ -1,7 +1,10 @@
 ---
 title: High Performance Computing
-director: Elsie Wahlig
+layout: flow
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
+permalink: /engineering/high-performance-computing/
+css-package: landing-page
+js-package: engineering-landing-page
 members:
   key: hpc-sig
 image: /assets/images/content/HPCCol.svg
@@ -11,6 +14,10 @@ jumbotron:
     title-class: big-title
     description: ""
     background-image: /assets/images/content/hpc-bg.jpg
+flow:
+  - row: main_content_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 
 With its debut on the Top500, the 125,000-core Astra at New Mexico's Sandia Labs uses Cavium ThunderX2 chips to mark Arm's entry into the petascale world. In Japan, the Armv8-A 512bit SVE Post-K prototype CPU by Fujitsu and RIKEN has been optimized to achieve high-level, real-world application performance, anticipating up to one hundred times the application execution performance of the K computer. K was the first computer to top 10 petaflops in 2011.

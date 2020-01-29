@@ -4,6 +4,9 @@ description: |-
     Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones.
 keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables, LCG, LMG
 image: /assets/images/content/LCG.png
+permalink: /engineering/consumer/
+css-package: landing-page
+js-package: engineering-landing-page
 members:
     key: lcg
 related_resources_tracks: Android
@@ -19,13 +22,15 @@ other_projects:
     url: https://en.wikipedia.org/wiki/Project_Ara
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
-members_key: lcg_members
-output: true
 jumbotron:
     title: Consumer
     title-class: big-title
     description: ""
     background-image: /assets/images/content/consumer-bg.jpg
+flow:
+  - row: main_content_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 Open source is a key ingredient of Android
 
