@@ -8,6 +8,8 @@ keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hard
 permalink: /engineering/core/
 image: /assets/images/content/engineering/png/core_engineering.png
 layout: flow
+css-package: landing-page
+js-package: engineering-landing-page
 related_tags:
   - Core Dump
   - Core
@@ -27,7 +29,7 @@ flow:
     style: members_row light_gray_row
     sections:
         - format: custom_include
-          params: ldcg
+          params: core,club
           source: related_members.html
   - row: container_row
     style: large_type introduction_row
