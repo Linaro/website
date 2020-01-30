@@ -58,9 +58,15 @@ flow:
         text_content:
           text: >
             So edge computing is not just merely a layer between _things_ and _the cloud_, it is an entire new world for computing. It has particular trust requirements and deployment constraints. It has to bring together the tightly coupled nature of embedded solutions with the flexibility of data center technologies.
-
+      - format: text
+        style: text-left no-padding
+        text_content:
+          text: >
             Linaro members have a particular interest in manufacturing, automotive, smart infrastructure and multi-access edge computing use cases. That may seem broad but one can envision two classes of solutions: one can be very resource constrained with required support of Time Sensitive Networking (TSN), the other is closer to a micro-server form factor.
-
+      - format: text
+        style: text-left no-padding
+        text_content:
+          text: >
             In order to meet our members’ needs and collaborate in this evolving technology landscape, Linaro has established Linaro Edge (LEDGE). LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform.
   - row: custom_include_row
     source: engineering_related_resources.html
