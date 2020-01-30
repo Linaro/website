@@ -19,7 +19,7 @@ related_tags:
   - Linux Kernel
   - Kernel
 jumbotron:
-  title: Core Engineering at Linaro
+  title: Core Engineering
   title-class: big-title
   description: ""
   background-image: /assets/images/content/engineering/context/stewardship.jpg
