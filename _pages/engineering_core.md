@@ -9,6 +9,7 @@ permalink: /engineering/core/
 image: /assets/images/content/engineering/png/core_engineering.png
 layout: flow
 css-package: landing-page
+related_resources_tracks: Tools
 js-package: engineering-landing-page
 related_tags:
   - Core Dump
@@ -49,4 +50,6 @@ flow:
         text_content:
           text: >
             These original groups still exist in today’s Linaro, but they have all grown and new groups have been added. While Mobile Middleware is now a part of the Linaro Mobile Group, Kernel Consolidation and Toolchain Evolution continue to exist as Core Working Groups and they have been joined by groups focused on Power Management, Security, Virtualization and the Linaro Stable Kernel (LSK).
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
