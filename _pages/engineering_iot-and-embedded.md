@@ -5,6 +5,7 @@ description: |-
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/iot-and-embedded/
 css-package: landing-page
+layout: flow
 js-package: engineering-landing-page
 members:
     key: lite
@@ -29,6 +30,12 @@ jumbotron:
     description: ""
     background-image: /assets/images/content/IoT-bg.jpg
 flow:
+  - row: container_row
+    style: members_row light_gray_row
+    sections:
+        - format: custom_include
+          params: lite
+          source: related_members.html
   - row: container_row
     style: large_type introduction_row
     sections:

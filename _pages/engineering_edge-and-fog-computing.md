@@ -29,6 +29,12 @@ jumbotron:
     background-image: /assets/images/content/edge-and-fog-bg.jpg
 flow:
   - row: container_row
+    style: members_row light_gray_row
+    sections:
+        - format: custom_include
+          params: ledge
+          source: related_members.html
+  - row: container_row
     style: large_type introduction_row
     sections:
       - format: text
