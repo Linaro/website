@@ -10,12 +10,7 @@ layout: flow
 js-package: engineering-landing-page
 members:
     key: lcg
-related_resources_tracks: Android
-related_tags:
-  - LMG
-  - LCG
-  - Linaro Mobile Group
-  - Android
+related_resources_tracks: Android, LMG, LCG, Linaro Mobile Group, Android
 other_projects:
   - name: Linaro Confectionary Release (LCR) and AOSP
     url: https://wiki-archive.linaro.org/LMG/AndroidEngineeringDelta
