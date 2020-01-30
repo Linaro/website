@@ -63,10 +63,10 @@ pages:
               url: /engineering/core/arm-power-management/eas/
             - text: PMWG Farm
               url: /engineering/core/arm-power-management/pmwg-farm/
-            - text: Security
-              url: /engineering/core/security/
-            - text: Devicetree Evolution
-              url: /engineering/core/devicetree-evolution/
+          - text: Security
+            url: /engineering/core/security/
+          - text: Devicetree Evolution
+            url: /engineering/core/devicetree-evolution/
       - text: Datacenter & Cloud
         url: /engineering/datacenter-and-cloud/
       - text: Edge & Fog Computing
