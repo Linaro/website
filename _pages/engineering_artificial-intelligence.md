@@ -23,19 +23,26 @@ jumbotron:
 layout: flow
 flow:
   - row: container_row
+    style: large_type introduction_row
     sections:
-      - format: feature_block
-        style: text-center text-white
-        feature_block_content:
-          position: right
-          type: youtube_video
-          video_content_url: https://www.youtube.com/watch?v=EHM-krkB42Y
+      - format: text
+        style: text-left no-padding
+        text_content:
           text: >
             The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.
       - format: text
+        style: text-left no-padding
         text_content:
           text: >
             The initial focus is on the inference side on Cortex-A application processors with Linux and Android, both edge computing and  smart devices. As part of the remit, the team will collaborate on a definition of API and modular framework for an Arm runtime inference engine architecture based on plug-ins supporting dynamic modules and optimized shared Arm compute libraries.
+  - row: container_row
+    style: youtube_embed_row light_gray_row
+    sections:
+        - format: custom_include
+          youtube_embed:
+            url: https://www.youtube.com/watch?v=EHM-krkB42Y
+            title: Introduction to the Linaro Artificial Intelligence Initiative
+          source: components/lazy_youtube_video_embed.html
   - row: main_content_row
   - row: custom_include_row
     source: engineering_related_resources.html

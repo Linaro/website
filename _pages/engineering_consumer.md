@@ -6,6 +6,7 @@ keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, table
 image: /assets/images/content/LCG.png
 permalink: /engineering/consumer/
 css-package: landing-page
+layout: flow
 js-package: engineering-landing-page
 members:
     key: lcg
