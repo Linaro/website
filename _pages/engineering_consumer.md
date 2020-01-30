@@ -33,7 +33,7 @@ flow:
     style: members_row light_gray_row
     sections:
         - format: custom_include
-          params: ldcg
+          params: lcg
           source: related_members.html
   - row: main_content_row
   - row: container_row
