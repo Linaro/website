@@ -38,18 +38,12 @@ flow:
         style: text-left no-padding
         text_content:
           text: >
-            The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with
-            new technologies being introduced at a high rate. Core technologies in the datacenter and
-            cloud, such as containers or hadoop did not exist until relatively recently. With the
-            introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive
-            options for their workloads. Not only competing with alternative architectures, due to a broad
-            adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the
-            ecosystem with choice.
-
-            Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common
-            development center for the Arm enterprise ecosystem. Working together to resolve common
-            issues and develop standards reduces fragmentation and helps all participating companies
-            deliver their products to market faster.
+            The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. Core technologies in the datacenter and cloud, such as containers or hadoop did not exist until relatively recently. With the introduction of ARM64, the datacenter and cloud ecosystem now have highly competitive options for their workloads. Not only competing with alternative architectures, due to a broad adoption by SoC vendors with ARM64, multiple options of SoC’s are offered, providing the ecosystem with choice.
+      - format: text
+        style: text-left no-padding
+        text_content:
+          text: >
+            Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem. Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
   - row: container_row
     style: youtube_embed_row light_gray_row
     sections:
