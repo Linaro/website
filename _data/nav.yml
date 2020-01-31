@@ -56,13 +56,11 @@ pages:
           - text: Kernel
             url: /engineering/core/kernel/
           - text: Power Management
-            options:
-            - text: Overview
-              url: /engineering/core/arm-power-management/
-            - text: EAS
-              url: /engineering/core/arm-power-management/eas/
-            - text: PMWG Farm
-              url: /engineering/core/arm-power-management/pmwg-farm/
+            url: /engineering/core/arm-power-management/
+          - text: Power Management EAS
+            url: /engineering/core/arm-power-management/eas/
+          - text: Power Management Farm
+            url: /engineering/core/arm-power-management/pmwg-farm/
           - text: Security
             url: /engineering/core/security/
           - text: Devicetree Evolution
