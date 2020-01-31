@@ -23,8 +23,6 @@ jumbotron:
   title-class: big-title
   description: ""
   background-image: /assets/images/content/engineering/context/stewardship.jpg
-redirect_from:
-  - /core/
 flow:
   - row: container_row
     style: members_row light_gray_row
