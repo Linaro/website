@@ -104,7 +104,7 @@ flow:
       - format: custom_include
         youtube_embed:
           url: https://www.youtube.com/watch?v=RIGpastAifg
-          title: HKG18-408 - A DRM solution using TZMP
+          title: "HKG15-506: Comcast - Lessons learned from migrating the RDK code...."
         source: components/lazy_youtube_video_embed.html
   - row: container_row
     style: large_type introduction_row info_row
@@ -129,6 +129,14 @@ flow:
         text_content:
           text: >
             As SoC camera architectures have become more complex, the kernel APIs have evolved to support this increased complexity. New kernel APIs such as media controller and v4l2 subdev were created to expose these complex pipelines to userspace. What’s more, instead of having one video device node to manage, userspace now has multiple device nodes. In summary, setting up these complex camera pipelines requires userspace to have lots of prior knowledge of the underlying hardware. The proposed solution to this complexity is [libcamera.org](http://libcamera.org/), which aims to encapsulate all this platform complexity into a userspace library that can be re-used by ChromeOS, Android and Linux. Linaro is working with the libcamera project and across the Camera ecosystem to help members leverage the library and enable their SoCs. Work to date has focussed on Camera sensor driver upstreaming to avoid fragmentation in downstream vendor trees, and helping ensure good support of the [96boards](https://www.96boards.org/) ecosystem.
+  - row: container_row
+    style: youtube_embed_row light_gray_row
+    sections:
+      - format: custom_include
+        youtube_embed:
+          url: https://www.youtube.com/watch?v=S04jOKWHWOg&feature=emb_title
+          title: "BKK19-506 - Libcamera: Making Complex Cameras Easy"
+        source: components/lazy_youtube_video_embed.html
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
