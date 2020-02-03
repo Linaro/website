@@ -4,6 +4,7 @@ $(document).ready(function() {
       loop: false,
       margin: 10,
       nav: false,
+      rewind: true,
       dots: false,
       lazyLoad: true,
       autoplay: true,
