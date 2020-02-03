@@ -15,7 +15,7 @@ related_resources_tracks: Validation, Testing, CTT
 js-package: engineering-landing-page
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
-  title: Core Technologies & Tools
+  title: Kernel Validation
   title-class: big-title
   description: ""
   background-image: /assets/images/content/engineering/context/stewardship.jpg
