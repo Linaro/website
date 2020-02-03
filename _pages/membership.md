@@ -15,14 +15,13 @@ jumbotron:
 flow:
   - row: container_row
     sections:
+      - format: custom_include
+        source: membership/grouped_members_section.html
       - format: text
         text_content:
           text: >
             Linaro is member driven. Member engineers work with Linaro engineers
             to solve common software problems. Why?
-    style: larger_type light_gray_row centered_type introduction_row
-  - row: container_row
-    sections:
       - format: title
         title_content:
           size: h2
@@ -82,7 +81,7 @@ flow:
             There are three types of membership - Core, Club and Group - each
             offering a different level of engagement. To read the complete
             membership rules, [click
-            here](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf) 
+            here](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf)
       - format: custom_include
         source: membership/level_blocks.html
     style: large_type centered_type membership_levels
@@ -163,4 +162,3 @@ flow:
         source: components/membership_form.html
     style: membership_form large_type
 ---
-
