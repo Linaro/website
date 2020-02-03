@@ -11,6 +11,8 @@ layout: flow
 css-package: landing-page
 related_resources_tracks: Tools
 js-package: engineering-landing-page
+redirect_from:
+ - /core/
 related_tags:
   - Core Dump
   - Core
