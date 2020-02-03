@@ -14,7 +14,6 @@ jumbotron:
   title-class: big-title
 flow:
   - row: container_row
-    style: light_gray_row
     sections:
       - format: custom_include
         source: membership/grouped_members_section.html
