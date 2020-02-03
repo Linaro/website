@@ -6,7 +6,7 @@ related_resources_tracks: Tools
 js-package: engineering-landing-page
 image: /assets/images/content/engineering/png/core_engineering.png
 description: |-
-    The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.
+    Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard. The devicetree is a data structure for describing hardware. Rather than hard coding every detail of a device into an operating system, many aspects of the hardware can be described in a data structure that is passed to the operating system at boot time.
 keywords: Builds, Baselines, LAVA, software, Arm, collaboration, Toolchain, Continuous Integration, CI
 permalink: /engineering/core/devicetree-evolution/
 related_tags:
@@ -14,7 +14,7 @@ related_tags:
   - devicetree
   - DTE
 jumbotron:
-  title: Core Technologies & Tools
+  title: Devicetree Evolution
   title-class: big-title
   description: ""
   background-image: /assets/images/content/engineering/context/stewardship.jpg
