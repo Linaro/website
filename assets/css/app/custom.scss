@@ -215,8 +215,7 @@ h2.linaro-sub-title {
   font-weight: 400;
 }
 .slider-img {
-  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5))
-    no-repeat center center scroll;
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)) no-repeat center center scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -552,6 +551,11 @@ body {
 }
 
 #wrapper {
+  .member_image {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
   #jumbotron-slider {
     .slide_type {
       height: 40px;
@@ -595,8 +599,8 @@ body {
       }
     }
     img.img-responsive.inner-image {
-        height: 150px;
-        z-index: 1;
+      height: 150px;
+      z-index: 1;
     }
   }
   #main-navigation.navbar-inverse {
