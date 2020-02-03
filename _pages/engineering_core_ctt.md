@@ -1,5 +1,10 @@
 ---
 title: Core Technologies & Tools
+layout: flow
+css-package: landing-page
+related_resources_tracks: Tools
+js-package: engineering-landing-page
+image: /assets/images/content/engineering/png/core_engineering.png
 description: |-
     The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.
 keywords: Builds, Baselines, LAVA, software, Arm, collaboration, Toolchain, Continuous Integration, CI
@@ -11,19 +16,6 @@ related_tags:
   - CI
   - Core Technologies & Tools
   - ctt
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsPUr5SKVE9So5Y571DWSU4Y
-image: /assets/images/content/engineering/png/core_engineering.png
-layout: flow
-css-package: landing-page
-related_resources_tracks: Tools
-js-package: engineering-landing-page
-related_tags:
-  - Core Dump
-  - Core
-  - Linaro Mobile Group
-  - Engineering
-  - Linux Kernel
-  - Kernel
 jumbotron:
   title: Core Technologies & Tools
   title-class: big-title
