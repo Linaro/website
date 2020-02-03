@@ -552,9 +552,11 @@ body {
 
 #wrapper {
   .member_image {
-    height: 100px;
-    width: auto;
-    object-fit: contain;
+      img {
+        height: 100px;
+        width: auto;
+        object-fit: contain;
+      }
   }
   #jumbotron-slider {
     .slide_type {
