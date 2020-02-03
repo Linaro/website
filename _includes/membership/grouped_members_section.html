@@ -11,13 +11,15 @@
 {% endfor %}
 
 {% assign sorted_members = unique_linaro_members | sort: 'name' %}
-<div class="col-xs-6 col-sm-3 col-md-3 col-lg-1">
+<div class="col-xs-12 grouped_members_section">
     {% for member in sorted_members %}
+    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-1 group_members_section_col">
         <a href="{{member.url}}" target="_self">
             <div class="member_image ">
                 <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     alt="{{member.name}} logo" data-src="{{member.image}}" />
             </div>
         </a>
+    </div>
     {% endfor %}
 </div>
