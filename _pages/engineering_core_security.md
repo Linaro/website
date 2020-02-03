@@ -1,10 +1,5 @@
 ---
-core_id: "4"
 title: Security work at Linaro
-jumbotron:
-    title: Security Work at Linaro
-    title-class: big-title
-    description: ""
 description: |-
     The Linaro Security Working Group (SWG) mission is to support Arm Open Source Linux distributions on security related topics.
 keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
@@ -17,8 +12,28 @@ related_tags:
   - Security
   - Trusted Firmware
   - SWG
-youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOuFyjUlWFWUulxXOhhtsEf&playnext=1
 image: /assets/images/projects/op-tee.png
+layout: flow
+css-package: landing-page
+related_resources_tracks: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
+js-package: engineering-landing-page
+image: /assets/images/content/engineering/png/core_engineering.png
+jumbotron:
+  title: Security work at Linaro
+  title-class: big-title
+  description: ""
+  background-image: /assets/images/content/engineering/context/stewardship.jpg
+flow:
+  - row: container_row
+    style: members_row light_gray_row
+    sections:
+        - format: custom_include
+          params: core,club
+          source: related_members.html
+  - row: main_content_row
+    style: large_type introduction_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 The Linaro Security Working Group (SWG) was created to help ensure an optimised
 and efficient software ecosystem exists to support Arm Open Source Linux
@@ -49,6 +64,7 @@ and build secure applications across a wide range of Arm products and segments.
 These include the Internet of Things, mobile devices, the digital home.
 
 ### Objective
+
 - Key player in software related to security such as TEE solutions and kernel
   hardening on Arm systems.
 - Stabilize Armv7-A and Armv8-A TEE solution(s) running on Android.
@@ -61,6 +77,7 @@ These include the Internet of Things, mobile devices, the digital home.
 - Deliver the Linaro Open Source Security Project
 
 ### Process
+
 The Security Working Group does all planning and tracking in
 [JIRA] which you can follow in detail if you are a Linaro member and have the required access
 (Linaro IT gives access).
