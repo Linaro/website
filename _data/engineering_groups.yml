@@ -53,3 +53,9 @@ items:
       png: /assets/images/content/engineering/png/stewardship.png
       svg: /assets/images/content/engineering/svg/stewardship.svg
     url: /engineering/core/
+  - title: Multimedia
+    context_image: /assets/images/content/engineering/context/multimedia.jpg
+    icon:
+      png: /assets/images/content/engineering/png/multimedia.png
+      svg: /assets/images/content/engineering/svg/multimedia.svg
+    url: /engineering/multimedia/

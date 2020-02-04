@@ -44,7 +44,27 @@ pages:
       - text: Consumer
         url: /engineering/consumer/
       - text: Core Engineering on Arm
-        url: /engineering/core/
+        options:
+          - text: Overview
+            url: /engineering/core/
+          - text: Core Technologies & Tools
+            url: /engineering/core/ctt/
+          - text: Kernel Validation
+            url: /engineering/core/kernel-validation-and-testing/
+          - text: Toolchain
+            url: /engineering/core/toolchain/
+          - text: Kernel
+            url: /engineering/core/kernel/
+          - text: Power Management
+            url: /engineering/core/arm-power-management/
+          - text: Power Management EAS
+            url: /engineering/core/arm-power-management/eas/
+          - text: Power Management Farm
+            url: /engineering/core/arm-power-management/pmwg-farm/
+          - text: Security
+            url: /engineering/core/security/
+          - text: Devicetree Evolution
+            url: /engineering/core/devicetree-evolution/
       - text: Datacenter & Cloud
         url: /engineering/datacenter-and-cloud/
       - text: Edge & Fog Computing
@@ -53,6 +73,8 @@ pages:
         url: /engineering/high-performance-computing/
       - text: IoT & Embedded
         url: /engineering/iot-and-embedded/
+      - text: Multimedia
+        url: /engineering/multimedia/
     title: Engineering
   - title: Membership
     url: /membership/

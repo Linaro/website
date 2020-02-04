@@ -1,0 +1,28 @@
+{% assign project_keys = include.object.params | split: "," %}
+{% assign unique_projects = "" | split: ',' %}
+
+
+{% for project in site.data.projects.items %}
+    {% if project_keys contains project.name %}
+        {% unless unique_projects contains project %}
+            {% assign unique_projects = unique_projects | push: project %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% assign sorted_projects = unique_projects | sort: 'name' %}
+
+<div class="col-xs-12">
+    <div class="owl-carousel owl-theme members_slider">
+        {% for project in sorted_projects %}
+        <a href="{{project.url}}" target="_self">
+            <div class="item">
+                <div class="member_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{project.name}} logo" data-src="{{project.image}}" />
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>

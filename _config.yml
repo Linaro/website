@@ -92,9 +92,6 @@ collections:
   core:
     output: true
     permalink: /:collection/:path/
-  engineering:
-    output: true
-    permalink: /:collection/:name/
   projects:
     output: false
     permalink: /engineering/:collection/:path/
@@ -169,13 +166,6 @@ defaults:
       layout: project-page
       project: true
       _hide_content: true
-  - scope:
-      path: ""
-      type: "engineering"
-    values:
-      layout: landing-page
-      css-package: landing-page
-      js-package: engineering-landing-page
   - scope:
       path: "/sitemap.xml"
     values:
