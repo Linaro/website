@@ -1,0 +1,36 @@
+{% assign members_keys = include.object.params | split: "," %}
+{% assign unique_linaro_members = "" | split: ',' %}
+
+{% for group in site.data.members %}
+    {% if members_keys contains group.id %}
+        {% for member in group.members %}
+            {% unless unique_linaro_members contains member %}
+                {% assign unique_linaro_members = unique_linaro_members | push: member %}
+            {% endunless %}
+        {% endfor %}
+    {% else %}
+        {% for member in group.members %}
+            {% if members_keys contains member.name %}
+                {% unless unique_linaro_members contains member %}
+                    {% assign unique_linaro_members = unique_linaro_members | push: member %}
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% assign sorted_members = unique_linaro_members | sort: 'name' %}
+<div class="col-xs-12">
+    <div class="owl-carousel owl-theme members_slider">
+        {% for member in sorted_members %}
+        <a href="{{member.url}}" target="_self">
+            <div class="item">
+                <div class="member_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{member.name}} logo" data-src="{{member.image}}" />
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
