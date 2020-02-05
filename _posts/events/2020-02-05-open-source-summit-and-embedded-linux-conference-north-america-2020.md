@@ -2,9 +2,7 @@
 title: Open Source Summit North America 2020
 event: oss-northamerica-2020
 event_url: /oss-na-2020/
-description: >-
-  Linaro is a bronze sponsor of Open Source Summit and Embedded Linux Conference
-  North America 2020. 
+description: 'Linaro is a bronze sponsor of Open Source Summit North America 2020. '
 location: 'Austin, Texas '
 date: '2020-02-05 09:37:20'
 event_date: '2020-06-22 09:37:20'
