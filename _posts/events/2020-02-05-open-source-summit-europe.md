@@ -1,5 +1,5 @@
 ---
-title: 'Open Source Summit Europe '
+title: Open Source Summit Europe 2020
 event: oss-europe-2020
 event_url: /oss-europe-2020/
 description: Linaro is a bronze sponsor of Open Source Summit Europe 2020
