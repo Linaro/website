@@ -1,16 +1,31 @@
 ---
-core_id: '3'
 title: Power Management Farm
-jumbotron:
-    title: Power Management Farm
-    title-class: big-title
-    description: ""
 description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel, Power Regression'
 permalink: /engineering/core/arm-power-management/pmwg-farm/
-youtube_playlist: 'https://www.youtube.com/playlist?list=PLKZSArYQptsMbk293t64TnZmxzLp-bRib'
+layout: flow
+css-package: landing-page
+related_resources_tracks: Power Management, Power, PMWG, EAS
+js-package: engineering-landing-page
+image: /assets/images/content/engineering/png/core_engineering.png
+jumbotron:
+  title: Power Management Farm
+  title-class: big-title
+  description: ""
+  background-image: /assets/images/content/engineering/context/stewardship.jpg
+flow:
+  - row: container_row
+    style: members_row light_gray_row
+    sections:
+        - format: custom_include
+          params: core,club
+          source: related_members.html
+  - row: main_content_row
+    style: large_type introduction_row
+  - row: custom_include_row
+    source: engineering_related_resources.html
 ---
 ## Overview
 
