@@ -1,7 +1,7 @@
 ---
 title: Open Source Summit North America 2020
 event: oss-northamerica-2020
-event_url: /oss-na-2020/
+event_url: 'https://events.linuxfoundation.org/open-source-summit-north-america/'
 description: 'Linaro is a bronze sponsor of Open Source Summit North America 2020. '
 location: 'Austin, Texas '
 date: '2020-02-05 09:37:20'
