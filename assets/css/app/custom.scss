@@ -557,9 +557,16 @@ body {
       max-width: 800px;
       display: block;
       margin: auto;
-      @media(max-width:$screen-sm-min){
+      @media (max-width: $screen-sm-min) {
         height: 200px;
       }
+    }
+  }
+  .member_image {
+    img {
+      height: 100px;
+      width: auto;
+      object-fit: contain;
     }
   }
   #jumbotron-slider {
@@ -640,9 +647,9 @@ body {
   }
   #flow_wrapper {
     .info_row {
-        .col-xs-12.title.text-center {
-            padding-left: 0px;
-        }
+      .col-xs-12.title.text-center {
+        padding-left: 0px;
+      }
     }
     .row.introduction_row {
       padding-top: 60px;
