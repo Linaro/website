@@ -415,8 +415,8 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "URL", name: "permalink", widget: "string"}
       - {label: "Edit on Github", name: "edit-on-github", widget: "hidden", required: false}
-      - {label: "Custom JS Package", name: "js-package", widget: hidden, default: false, required: false}
-      - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: false, required: false}
+      - {label: "Custom JS Package", name: "js-package", widget: hidden, default: "main", required: false}
+      - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: "main", required: false}
       - {label: "Layout", name: "layout", widget: hidden, default: "flow", required: true}
       - label: "Header"
         name: "jumbotron"
