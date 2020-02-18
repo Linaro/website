@@ -238,6 +238,9 @@ span.team_label {
     }
   }
 }
-#wrapper #flow_wrapper .team_item h3 {
-    text-align: center !important;
+#wrapper #flow_wrapper .team_item {
+    height: 300px;
+    h3 {
+        text-align: center !important;
+    }
 }
