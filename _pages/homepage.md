@@ -19,7 +19,7 @@ jumbotron:
       inner-image: /assets/images/content/BUD20logo_white_text.png
       buttons:
         - title: Read more
-          url: https://connect.linaro.org/
+          url: /blog/linaro-connect-budapest-2020-cancelled/
           class: btn-primary
       title-class: big-title
 flow:

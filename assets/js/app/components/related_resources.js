@@ -72,8 +72,13 @@ $(document).ready(function() {
       data
     ) {
       $.each(data, function(key, val) {
-        var start_date = new Date(val["start-date"]).getTime();
-        if (start_date < new Date().getTime()) {
+        var split_date_string = val["start_date"].split(" ")[0].split("-");
+        var start_date = new Date(
+          split_date_string[0],
+          split_date_string[1],
+          split_date_string[2]
+        );
+        if (start_date.getTime() < new Date().getTime()) {
           // Get the JSON url for each Linaro Connect
           var json_url =
             "https://connect.linaro.org/assets/json/" +
