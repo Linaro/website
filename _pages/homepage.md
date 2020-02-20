@@ -14,12 +14,12 @@ jumbotron:
       title-class: big-title
     - darken: true
       description: >
-        23 - 27 March 2020 | Corinthia Hotel, Budapest, Hungary
+        Linaro Connect Budapest 2020 Cancelled
       image: /assets/images/content/budapest_banner_bg.jpg
       inner-image: /assets/images/content/BUD20logo_white_text.png
       buttons:
-        - title: Register
-          url: https://connect.linaro.org/register/
+        - title: Read more
+          url: https://connect.linaro.org/
           class: btn-primary
       title-class: big-title
 flow:
