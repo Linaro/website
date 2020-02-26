@@ -28,7 +28,7 @@ Featured Linaro work in this demo includes:
 
 For more details of these technologies, please see our [previous blog on heterogeneous multicore systems](https://www.linaro.org/blog/heterogeneous-multicore-systems-the-new-open-source-frontier/). 
 
-`{% include media.html media_url="`https://www.youtube.com/watch?v=mY2G78jal3Y&feature=youtu.be`" %}`
+{% include media.html media_url="https://www.youtube.com/watch?v=mY2G78jal3Y" %}
 
 Linaro brings together industry and the open source engineering community to collaboratively develop software on Arm.
 
