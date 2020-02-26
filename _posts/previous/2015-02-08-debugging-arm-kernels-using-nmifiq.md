@@ -56,14 +56,14 @@ Our early work focused exclusively on extending code found in Arm's kgdb and kdb
 
 The code was fully functional and allowed us to develop a good understanding of the challenges of working with NMIs. Any code that is called from an NMI handler must be carefully audited to make sure it avoids all forms of locking, including spin locks. When we start calling code from NMI for the first time we often have to make it NMI-safe by finding ways to make the code lock-less. For example, we found that several polling serial drivers used spin locks. This was an important discovery since kgdb and kdb poll the UART in order to communicate.**** ****
 
-We regularly [shared the resulting patchset](http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027) on the kernel mailing lists. The community feedback arising from these patches convinced us that we need to raise our sights beyond kgdb and build a foundation to support all of the kernels existing NMI based features. Only by building this foundation would we be able to convince the maintainers that our approach was the correct one.
+We regularly shared the resulting patchset (http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027) on the kernel mailing lists. The community feedback arising from these patches convinced us that we need to raise our sights beyond kgdb and build a foundation to support all of the kernels existing NMI based features. Only by building this foundation would we be able to convince the maintainers that our approach was the correct one.
 
 # Backtrace on all CPUs**** ****
 
 
 Most [advice on upstreaming](/blog/working-upstream/) includes somewhere within it the idea that the way to build new kernel features is one patch at a time, piece by piece, little by little. In the context of NMI based diagnostics the question we must answer is _“what is the smallest change that can do something useful with an NMI?”_**** ****
 
-Our answer (admittedly supplied to us in a [post from Thomas Gleixner](http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027/focus=1778905)) was to implement a function called arch_trigger_all_cpu_backtrace().
+Our answer (admittedly supplied to us in a post from Thomas Gleixner (http://thread.gmane.org/gmane.linux.ports.arm.kernel/331027/focus=1778905)) was to implement a function called arch_trigger_all_cpu_backtrace().
 
 All cpu backtrace is called by the spinlock debugging code (CONFIG_DEBUG_SPINLOCK) when it thinks the system might have locked up. It works by sending IPIs (inter-processor interrupts) that raise FIQ on the target processes and, because it uses FIQ, these target processors respond and issue a stack trace even if they are locked up and have interrupts masked.**** ****
 
@@ -206,6 +206,6 @@ When we started this work our goal was to take a single feature from Android and
 ## **Correction**
 
 
-**In the article, the section "Backtrace on all CPUs", incorrectly implies that all work on all CPU backtrace for Arm was done by Linaro employees. In fact, Russell King provided an [_initial prototype implementation_](http://thread.gmane.org/gmane.linux.ports.arm.kernel/353795/) for Arm, derived from the existing x86 implementation. This patch was combined with patches from our own early work and the combined patchset evolved into the work presented in this article.**
+**In the article, the section "Backtrace on all CPUs", incorrectly implies that all work on all CPU backtrace for Arm was done by Linaro employees. In fact, Russell King provided an _initial prototype implementation_ (http://thread.gmane.org/gmane.linux.ports.arm.kernel/353795/) for Arm, derived from the existing x86 implementation. This patch was combined with patches from our own early work and the combined patchset evolved into the work presented in this article.**
 
 1: Once spin_lock_irq() has masked interrupts it becomes invisible to the profiler no matter how long it spends spinning trying to acquire the contended lock.
