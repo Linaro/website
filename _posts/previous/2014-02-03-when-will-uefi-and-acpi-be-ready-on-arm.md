@@ -100,7 +100,7 @@ That said, there are other valid reasons for upgrading the FDT, so vendors shoul
 
 A vendor can provide ACPI tables alongside the FDT, but in doing so I would strongly recommend providing it as an experimental feature and not the default boot behavior.
 
-On a related note, UEFI may also provide SMBIOS to the kernel regardless of whether ACPI or FDT is used. Vendors who want to provide SMBIOS data should feel free to do so. SMBIOS is an independent table which can provide identification information about the platform that is useful for asset management. SMBIOS is maintained by a [separate spec](http://dmtf.org/standards/smbios). A [simple SMBIOS patch](http://comments.gmane.org/gmane.linux.ports.arm.kernel/282504) has been posted enabling it on Arm.
+On a related note, UEFI may also provide SMBIOS to the kernel regardless of whether ACPI or FDT is used. Vendors who want to provide SMBIOS data should feel free to do so. SMBIOS is an independent table which can provide identification information about the platform that is useful for asset management. SMBIOS is maintained by a [separate spec](http://dmtf.org/standards/smbios). A simple SMBIOS patch (http://comments.gmane.org/gmane.linux.ports.arm.kernel/282504) has been posted enabling it on Arm.
 
 FDT, SMBIOS and ACPI tables are provided to the kernel via the UEFI Configuration Table. The configuration table is a list of key value pairs. Keys are well known GUIDs, and the value is a pointer to the data structure. SMBIOS and ACPI GUIDs are specified in the UEFI spec. The FDT GUID has been [posted for review](http://sourceforge.net/mailarchive/message.php?msg_id=31731478). FDT and SMBIOS data structures must be in memory allocated as EFI_RUNTIME_DATA.
 
@@ -176,18 +176,18 @@ _Re-published with permission from Grant Likely from his original blog post at_ 
 
 * * *
 
-	
+
   1. Arm32 Runtime Service: [http://lwn.net/Articles/575363/](http://lwn.net/Articles/575363/)
 
-	
+
   2. Arm32 CONFIG_EFI_STUB: [http://lwn.net/Articles/575352/](http://lwn.net/Articles/575352/)
 
-	
+
   3. Arm64 CONFIG_EFI_STUB and Runtime services:
 [https://lkml.org/lkml/2013/11/29/373](https://lkml.org/lkml/2013/11/29/373)
 
-	
+
   4. With the caveat that if nobody notices, is it really an ABI breakage? There are many embedded platforms which want to keep the FDT in lock step with the kernel and the build toolchain reflects that
 
-	
+
   5. This is still up for debate, the priority of ACPI over FDT may yet be changed

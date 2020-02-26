@@ -907,12 +907,12 @@ collections:
       - label: "Image"
         name: image
         widget: object
-        required: true
+        required: false
         fields:
           - label: "Image Path"
             name: "path"
             widget: image
-            required: true
+            required: false
           - label: "Image Alt"
             name: "alt"
             widget: string
