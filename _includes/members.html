@@ -38,6 +38,9 @@
 
                 <br />
                 {% if group.members %}
+                    <div class="col-xs-12">
+                        <h5 class="advisory-board text-center">Members</h5>
+                    </div>
                     {% assign sorted_members = group.members | sort: 'name' %}
                     {% for member in sorted_members %}
                         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
@@ -48,21 +51,21 @@
                             </a>
                         </div>
                     {% endfor %}
-                    {% if group.advisory_board %}
-                        <div class="row">
-                            <h5 class="advisory-board text-center">Advisory Board</h5>
-                            {% assign advisory_board = group.advisory_board | sort: 'name' %}
-                            {% for member in advisory_board %}
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
-                                    <a href="{{member.url}}">
-                                        <img data-src="{{member.image}}" alt="{{member.name}}"
-                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        class="img-responsive members-img lazyload center-block"/>
-                                    </a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    {% endif %}
+                {% endif %}
+                {% if group.advisory_board %}
+                    <div class="col-xs-12">
+                        <h5 class="advisory-board text-center">Advisory Board</h5>
+                    </div>
+                    {% assign advisory_board = group.advisory_board | sort: 'name' %}
+                    {% for member in advisory_board %}
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 vcenter-img">
+                        <a href="{{member.url}}">
+                            <img data-src="{{member.image}}" alt="{{member.name}}"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                class="img-responsive members-img lazyload center-block" />
+                        </a>
+                    </div>
+                    {% endfor %}
                 {% endif %}
               </div>
             </div>
