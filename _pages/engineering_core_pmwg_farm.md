@@ -3,29 +3,26 @@ title: Power Management Farm
 description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
-keywords: 'EAS, DynamIQ, Arm, tools, power, energy, thermal, Farm, Linux Kernel, Power Regression'
 permalink: /engineering/core/arm-power-management/pmwg-farm/
-layout: flow
-css-package: landing-page
-related_resources_tracks: Power Management, Power, PMWG, EAS
 js-package: engineering-landing-page
-image: /assets/images/content/engineering/png/core_engineering.png
+css-package: landing-page
+layout: flow
 jumbotron:
-  title: Power Management Farm
-  title-class: big-title
-  description: ""
   background-image: /assets/images/content/engineering/context/stewardship.jpg
+  title: Power Management Farm
+  description: ''
+  title-class: big-title
 flow:
   - row: container_row
-    style: members_row light_gray_row
     sections:
-        - format: custom_include
-          params: core,club
-          source: related_members.html
+      - format: custom_include
+        source: related_members.html
+    style: members_row light_gray_row
   - row: main_content_row
     style: large_type introduction_row
   - row: custom_include_row
     source: engineering_related_resources.html
+image: /assets/images/content/engineering/png/core_engineering.png
 ---
 ## Overview
 
@@ -112,7 +109,7 @@ This example is created to get users running Workload Automation on Hikey Androi
 
 If you need general **LAVA** help (e.g. how to submit a job, how to install LAVA, tips for writing test definitions), please try one of the following suggestions:
 
-- Read the LAVA [documentation](https://validation.linaro.org/static/docs/v2/). It is thoroughly written.
+- Read the LAVA [documentation](https://docs.lavasoftware.org/lava/contents.html). It is thoroughly written.
 - Email questions to the LAVA users mailing list at 
 
 &lt;lava-users AT lists DOT lavasoftware DOT org&gt; so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem.
