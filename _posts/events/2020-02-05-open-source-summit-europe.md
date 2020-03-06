@@ -1,12 +1,12 @@
 ---
 title: Open Source Summit Europe 2020
 event: oss-europe-2020
-event_url: /oss-europe-2020/
+event_url: 'https://events.linuxfoundation.org/open-source-summit-europe/'
 description: Linaro is a bronze sponsor of Open Source Summit Europe 2020
 location: 'Dublin, Ireland '
-date: '2020-10-26 09:41:55'
-event_date: '2020-10-28 09:41:55'
-event_end_date: '2020-02-05 09:41:55'
+date: '2020-02-06 09:41:55'
+event_date: '2020-10-26 09:41:55'
+event_end_date: '2020-10-28 09:41:55'
 image: /assets/images/content/Screen Shot 2020-02-05 at 9.40.54 AM.png
 event_type: sponsor
 ---
