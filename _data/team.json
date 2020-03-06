@@ -1,224 +1,205 @@
 {
-    "teamMembers": [
+  "teamMembers": [
     {
-        "name": "Andrew Wafaa",
-        "title": "Arm",
-        "company": "Arm",
-        "type": "committee",
-        "bio": "",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Andrew Wafaa",
+      "title": "Arm",
+      "company": "Arm",
+      "image": "/assets/images/content/WafaaProfile.jpg",
+      "bio": "Andrew Wafaa leads Arm’s Open Source Office, encompassing internal and external open source engagements. He joined the company in 2012 and has held various roles covering both technical and marketing fields. Prior to Arm he was a Solutions Architect at Fujitsu UK, having served at EMC prior to that. With nearly 20 years of experience in the Open Source space, he has held and continues to hold numerous Board positions in various projects. Prior to the technology world, Andrew spent over a decade in the aviation space and is slowly returning to it as a private pilot.",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "James King leads the open source system software architecture group at Arm. He joined Arm in 2014 and has filled various roles leading and developing example software stacks and solutions across all the ecosystems that Arm supports. Before that he was part of the Software Architecture team in Broadcom’s Mobile division; Led platform software for the 2/3G modem at Samsung; Developed management software for servers at Sun Microsystems; and developed network software at Madge Networks. None of his work has been in any way related to the PhD in High Energy Physics he gained at CERN before becoming a software engineer.\n",
-        "image": "/assets/images/people/JamesKing.png",
-        "name": "James King",
-        "company": "Arm",
-        "title": "Arm",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "James King",
+      "title": "Arm",
+      "company": "Arm",
+      "image": "/assets/images/people/JamesKing.png",
+      "bio": "James King leads the open source system software architecture group at Arm. He joined Arm in 2014 and has filled various roles leading and developing example software stacks and solutions across all the ecosystems that Arm supports. Before that he was part of the Software Architecture team in Broadcom’s Mobile division; Led platform software for the 2/3G modem at Samsung; Developed management software for servers at Sun Microsystems; and developed network software at Madge Networks. None of his work has been in any way related to the PhD in High Energy Physics he gained at CERN before becoming a software engineer.\n",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Todd Kjos is a technical lead for the Android Kernel Team at Google. He maintains AOSP common kernels and is a Linux maintainer for the binder driver. He also leads the development of Android kernel scheduling and DVFS. Previously he worked on x86 and Itanium server enablement and Itanium virtualization.\n",
-        "image": "/assets/images/people/ToddKjos.jpg",
-        "name": "Todd Kjos",
-        "company": "Google",
-        "title": "Google",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Todd Kjos",
+      "title": "Google",
+      "company": "Google",
+      "image": "/assets/images/people/ToddKjos.jpg",
+      "bio": "Todd Kjos is a technical lead for the Android Kernel Team at Google. He maintains AOSP common kernels and is a Linux maintainer for the binder driver. He also leads the development of Android kernel scheduling and DVFS. Previously he worked on x86 and Itanium server enablement and Itanium virtualization.\n",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Larry Wikelius currently serves as Vice President – Ecosystem and Partner Enabling for Marvell. He originally held this position with Cavium and has continued in this role following Marvell’s acquisition of the company in July 2018. He has built a network of strategic partners and blue-chip companies like Nvidia, HPE and Microsoft in fully supporting Arm®-based servers for the first time in the server industry.  Prior to Marvell and Cavium Wikelius was co-founder of Calxeda, one of the first companies to develop and market Arm®-based servers.  At Calxeda Wikelius recruited and led the software organization and was part of the original Arm server group at Linaro.  Wikelius holds an MBA from Northeastern University and a BS Computer Science from the University of Minnesota.",
-        "image": "/assets/images/content/2018-09-20-larry-w-pic.jpg",
-        "name": "Larry Wikelius",
-        "company": "Marvell",
-        "title": "Marvell",
-        "teams": [
-            "technical_steering_committee"
-        ],
-        "type": "committee"
+      "name": "Larry Wikelius",
+      "title": "Marvell",
+      "company": "Marvell",
+      "image": "/assets/images/content/2018-09-20-larry-w-pic.jpg",
+      "bio": "Larry Wikelius currently serves as Vice President – Ecosystem and Partner Enabling for Marvell. He originally held this position with Cavium and has continued in this role following Marvell’s acquisition of the company in July 2018. He has built a network of strategic partners and blue-chip companies like Nvidia, HPE and Microsoft in fully supporting Arm®-based servers for the first time in the server industry.  Prior to Marvell and Cavium Wikelius was co-founder of Calxeda, one of the first companies to develop and market Arm®-based servers.  At Calxeda Wikelius recruited and led the software organization and was part of the original Arm server group at Linaro.  Wikelius holds an MBA from Northeastern University and a BS Computer Science from the University of Minnesota.",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Rob Oshana is Vice President of Software Engineering R&D for the Microcontroller and Microprocessor business line at NXP, responsible for software enablement, IoT connectivity, software middleware and security, operating systems, machine learning, software services and advanced technologies.  He serves on multiple industry advisory boards and is a recognized international speaker.  He has published numerous books and articles on software engineering and embedded systems.  He is also an adjunct professor at the University of Texas and Southern Methodist University and is a Senior Member of IEEE.",
-        "image": "/assets/images/people/RobOshana.jpg",
-        "name": "Rob Oshana",
-        "company": "NXP",
-        "title": "NXP",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Rob Oshana",
+      "title": "NXP",
+      "company": "NXP",
+      "image": "/assets/images/people/RobOshana.jpg",
+      "bio": "Rob Oshana is Vice President of Software Engineering R&D for the Microcontroller and Microprocessor business line at NXP, responsible for software enablement, IoT connectivity, software middleware and security, operating systems, machine learning, software services and advanced technologies.  He serves on multiple industry advisory boards and is a recognized international speaker.  He has published numerous books and articles on software engineering and embedded systems.  He is also an adjunct professor at the University of Texas and Southern Methodist University and is a Senior Member of IEEE.",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "",
-        "image": "",
-        "name": "Azzedine Touzni ",
-        "company": "Qualcomm",
-        "title": "Qualcomm",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Azzedine Touzni ",
+      "title": "Qualcomm",
+      "company": "Qualcomm",
+      "image": "",
+      "bio": "",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "name": "Trilok Soni",
-        "company": "Qualcomm",
-        "title": "Qualcomm",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Trilok Soni",
+      "title": "Qualcomm",
+      "company": "Qualcomm",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Bill’s computing experience began at age 15 when he soldered together his first computer. It had a hex keypad and 256 bytes of memory. Bill maintains that this was the high point of his technical achievement and everything else has been a downward slide.\nBill is Chief Technologist for Open Source Solutions and Distinguish Member of Technical Staff. Since 2007 Bill has been working to ensure that TI is acting as a member of the open source community. He acts as a representative for TI in various open source communities and advocates for open source concerns and methods within TI.\nBill has been developing software professionally for over 25 years. Prior to his current position, Bill has a wide variety of experience. Examples include being the system architect for TI’s high density voice gateways and for multiple TI SOCs, technical lead for an in-house real-time executive, and sole developer for a windowed source level debugger for an emulator with trace and hardware break and watch points. In his current position Bill started TI’s open-embedded based Arago-project and is the technical lead for the linux-c6x project that has brought uCLinux to TI’s C6000 DSPs. Bill is a member of the Yocto Project Advisory board.\n",
-        "image": "/assets/images/people/bill-mills.png",
-        "name": "Bill Mills",
-        "company": "Texas Instruments",
-        "title": "Texas Instruments",
-        "teams": [
-            "technical_steering_committee"
-        ],
-        "type": "committee"
+      "name": "Bill Mills",
+      "title": "Texas Instruments",
+      "company": "Texas Instruments",
+      "image": "/assets/images/people/bill-mills.png",
+      "bio": "Bill’s computing experience began at age 15 when he soldered together his first computer. It had a hex keypad and 256 bytes of memory. Bill maintains that this was the high point of his technical achievement and everything else has been a downward slide.\nBill is Chief Technologist for Open Source Solutions and Distinguish Member of Technical Staff. Since 2007 Bill has been working to ensure that TI is acting as a member of the open source community. He acts as a representative for TI in various open source communities and advocates for open source concerns and methods within TI.\nBill has been developing software professionally for over 25 years. Prior to his current position, Bill has a wide variety of experience. Examples include being the system architect for TI’s high density voice gateways and for multiple TI SOCs, technical lead for an in-house real-time executive, and sole developer for a windowed source level debugger for an emulator with trace and hardware break and watch points. In his current position Bill started TI’s open-embedded based Arago-project and is the technical lead for the linux-c6x project that has brought uCLinux to TI’s C6000 DSPs. Bill is a member of the Yocto Project Advisory board.\n",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "name": "Kiyoshi Owada",
-        "company": "Socionext",
-        "title": "Socionext",
-        "type": "committee",
-        "teams": [
-            "technical_steering_committee"
-        ]
+      "name": "Kiyoshi Owada",
+      "title": "Socionext",
+      "company": "Socionext",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.\n",
-        "image": "/assets/images/people/Eric-Finco.jpg",
-        "name": "Eric Finco",
-        "company": "STMicroelectronics",
-        "title": "STMicroelectronics",
-        "teams": [
-            "technical_steering_committee"
-        ],
-        "type": "committee"
+      "name": "Eric Finco",
+      "title": "STMicroelectronics",
+      "company": "STMicroelectronics",
+      "image": "/assets/images/people/Eric-Finco.jpg",
+      "bio": "Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.\n",
+      "teams": [
+        "technical_steering_committee"
+      ]
     },
     {
-        "bio": "Li is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. \n He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”\n",
-        "image": "/assets/images/people/LiGong.jpg",
-        "name": "Li Gong",
-        "board_title": "Board member and CEO of Linaro",
-        "board_order": 5,
-        "teams": [
-            "technical_steering_committee",
-            "executive_team",
-            "board_of_directors"
-        ],
-        "company": "Linaro",
-        "title": "Chief Executive Officer at Linaro",
-        "type": "guest"
+      "name": "Li Gong",
+      "title": "Chief Executive Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/LiGong.jpg",
+      "bio": "Li is a globally experienced technologist and executive, with deep background in computer science, research and product development, and open source technologies. He has worked in senior leadership roles extensively in the US and in Asia, having served as President and COO at Mozilla Corporation, General Manager at Microsoft, as well as Distinguished Engineer at Sun Microsystems and Distinguished Scientist at SRI International. \n He graduated from Tsinghua University, Beijing, and received a PhD from University of Cambridge. In 1994 he received the Leonard G. Abraham Prize given by the IEEE Communications Society for “the most significant contribution to technical literature in the field of interest of the IEEE.”\n",
+      "teams": [
+        "technical_steering_committee",
+        "executive_team",
+        "board_of_directors"
+      ]
     },
     {
-        "bio": "David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.\nWhen he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.\n",
-        "image": "/assets/images/people/david-rusling.png",
-        "name": "David Rusling",
-        "company": "Linaro",
-        "title": "Chief Technical Officer at Linaro",
-        "teams": [
-            "technical_steering_committee",
-            "executive_team"
-        ],
-        "type": "committee"
+      "name": "David Rusling",
+      "title": "Chief Technical Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/david-rusling.png",
+      "bio": "David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.\nWhen he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.\n",
+      "teams": [
+        "technical_steering_committee",
+        "executive_team"
+      ]
     },
     {
-        "bio": "Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.\n",
-        "image": "/assets/images/people/mark-orvek.png",
-        "name": "Mark Orvek",
-        "company": "Linaro",
-        "title": "VP of Engineering at Linaro",
-        "teams": [
-            "technical_steering_committee",
-            "executive_team"
-        ],
-        "type": "committee"
+      "name": "Mark Orvek",
+      "title": "VP of Engineering at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/mark-orvek.png",
+      "bio": "Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.\n",
+      "teams": [
+        "technical_steering_committee",
+        "executive_team"
+      ]
     },
     {
-        "bio": "Rob has a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy mix of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, and entrepreneurial flexibility and resourcefulness gained from his experience as CEO and CFO of several Cambridge UK start-ups, which included taking Tadpole Technology plc public and being a joint-founder of Synomics, a Bioinformatics software engineering company. Rob is passionate about helping build companies, generating maximum value from scarce resources and mentoring.\n",
-        "image": "/assets/images/people/Rob-Booth-72dpi1.jpg",
-        "name": "Rob Booth",
-        "board_order": 6,
-        "teams": [
-            "executive_team",
-            "board_of_directors"
-        ],
-        "company": "Linaro",
-        "title": "Chief Operating Officer at Linaro"
+      "name": "Rob Booth",
+      "title": "Chief Operating Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/Rob-Booth-72dpi1.jpg",
+      "bio": "Rob has a wealth of operational, commercial and financial experience gained in the Technology and Life Science sectors, in the UK and internationally, in environments characterized by rapid growth and change. He has a healthy mix of blue-chip multinational discipline, from holding senior positions in SmithKline, General Electric and Pharmacia, and entrepreneurial flexibility and resourcefulness gained from his experience as CEO and CFO of several Cambridge UK start-ups, which included taking Tadpole Technology plc public and being a joint-founder of Synomics, a Bioinformatics software engineering company. Rob is passionate about helping build companies, generating maximum value from scarce resources and mentoring.\n",
+      "teams": [
+        "executive_team",
+        "board_of_directors"
+      ]
     },
     {
-        "bio": "As EVP of Member Services Joe is responsible for the success of Linaro’s members, overseeing Linaro’s support and services strategy and operations including the direct management of all Linaro member services functions, engagements and Landing Teams.Joe has over 20 years of experience and a hands-on style building and leading exceptional services, support and sales teams that insure customer success and consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information, Object Design and SavaJe Technologies. Joe resides with his family in the Boston area.\n",
-        "image": "/assets/images/people/JoeBates.jpg",
-        "name": "Joe Bates",
-        "teams": [
-            "executive_team"
-        ],
-        "company": "Linaro",
-        "title": "General Manager and VP of Member Services at Linaro"
+      "name": "Joe Bates",
+      "title": "General Manager and VP of Member Services at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/JoeBates.jpg",
+      "bio": "As EVP of Member Services Joe is responsible for the success of Linaro’s members, overseeing Linaro’s support and services strategy and operations including the direct management of all Linaro member services functions, engagements and Landing Teams.Joe has over 20 years of experience and a hands-on style building and leading exceptional services, support and sales teams that insure customer success and consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information, Object Design and SavaJe Technologies. Joe resides with his family in the Boston area.\n",
+      "teams": [
+        "executive_team"
+      ]
     },
     {
-        "bio": "Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.\n",
-        "image": "/assets/images/people/AndreaGallo.jpg",
-        "name": "Andrea Gallo",
-        "teams": [
-            "executive_team"
-        ],
-        "company": "Linaro",
-        "title": "VP of Membership Development at Linaro"
+      "name": "Andrea Gallo",
+      "title": "VP of Membership Development at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/AndreaGallo.jpg",
+      "bio": "Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.\n",
+      "teams": [
+        "executive_team"
+      ]
     },
     {
-        "bio": "Mark Hambleton is vice president of Open Source Software at ARM. Mark joined ARM in 2014 and took over leading the open source software group soon after. Within this role, Mark leads the system software teams chartered with driving Arm’s leadership in open source and has been responsible for the software engineering relationship with Linaro. Prior to joining Arm, Mark was a member of the Linaro TSC representing Broadcom and prior to Broadcom was the Head of Core Systems and a Distinguished Architect at Nokia in their Smart Devices group.Mark has been working with open source technologies for approaching 20 years and in the Arm ecosystem for more than 10, and involved with Linaro at various levels for over 5 years.",
-        "image": "/assets/images/people/MarkHambleton.jpg",
-        "name": "Mark Hambleton",
-        "board_order": 1,
-        "teams": [
-            "board_of_directors"
-        ],
-        "company": "Arm",
-        "title": "Board member for Arm and Chairman"
+      "name": "Mark Hambleton",
+      "title": "Board member for Arm and Chairman",
+      "company": "Arm",
+      "image": "/assets/images/people/MarkHambleton.jpg",
+      "bio": "Mark Hambleton is vice president of Open Source Software at ARM. Mark joined ARM in 2014 and took over leading the open source software group soon after. Within this role, Mark leads the system software teams chartered with driving Arm’s leadership in open source and has been responsible for the software engineering relationship with Linaro. Prior to joining Arm, Mark was a member of the Linaro TSC representing Broadcom and prior to Broadcom was the Head of Core Systems and a Distinguished Architect at Nokia in their Smart Devices group.Mark has been working with open source technologies for approaching 20 years and in the Arm ecosystem for more than 10, and involved with Linaro at various levels for over 5 years.",
+      "teams": [
+        "board_of_directors"
+      ]
     },
     {
-        "bio": "Jonathan leads the ARM server kernel team at Huawei Technologies Research & Development (UK) Ltd. based in Cambridge, UK.  The UK team works alongside ARM64 Solutions within HiSilicon, to provide upstream kernel support for Kunpeng server SoCs.  A recent personal focus has been on CCIX, taking an active role in the CCIX Consortium's TSC, SW and Protocol working groups.\nJonathan has a PhD in Information Engineering from Cambridge University. It was there, during a Post Doc on wireless sensor platforms, that he first encountered the upstream kernel and he subsequently developed the IIO kernel subsystem which he has now maintained for 10+ years. He takes a particular interest in encouraging new contributors to the upstream kernel.",
-        "image": "/assets/images/people/jonathan-cameron.jpg",
-        "name": "Jonathan Cameron",
-        "board_order": 2,
-        "teams": [
-            "board_of_directors"
-        ],
-        "company": "HiSilicon",
-        "title": "Board member for HiSilicon"
+      "name": "Jonathan Cameron",
+      "title": "Board member for HiSilicon",
+      "company": "HiSilicon",
+      "image": "/assets/images/people/jonathan-cameron.jpg",
+      "bio": "Jonathan leads the ARM server kernel team at Huawei Technologies Research & Development (UK) Ltd. based in Cambridge, UK.  The UK team works alongside ARM64 Solutions within HiSilicon, to provide upstream kernel support for Kunpeng server SoCs.  A recent personal focus has been on CCIX, taking an active role in the CCIX Consortium's TSC, SW and Protocol working groups.\nJonathan has a PhD in Information Engineering from Cambridge University. It was there, during a Post Doc on wireless sensor platforms, that he first encountered the upstream kernel and he subsequently developed the IIO kernel subsystem which he has now maintained for 10+ years. He takes a particular interest in encouraging new contributors to the upstream kernel.",
+      "teams": [
+        "board_of_directors"
+      ]
     },
     {
-        "bio": "Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is responsible for Linux Kernel development on Qualcomm Snapdragon processors for mobile and IoT markets. Over the past nine years, he has set up a team of engineers and engineering processes that contributed to the launch of over a billion Android devices. Prior to joining Qualcomm, Bryan spent 10 years in the telecommunications industry working as a SW/FW developer for embedded, real-time systems. Bryan has a B.S in Computer Engineering from the University of Florida.",
-        "image": "/assets/images/people/Bryan-Huntsman.jpg",
-        "name": "Bryan Huntsman",
-        "board_order": 3,
-        "teams": [
-            "board_of_directors"
-        ],
-        "company": "Qualcomm",
-        "title": "Board member for Qualcomm"
+      "name": "Bryan Huntsman",
+      "title": "Board member for Qualcomm",
+      "company": "Qualcomm",
+      "image": "/assets/images/people/Bryan-Huntsman.jpg",
+      "bio": "Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is responsible for Linux Kernel development on Qualcomm Snapdragon processors for mobile and IoT markets. Over the past nine years, he has set up a team of engineers and engineering processes that contributed to the launch of over a billion Android devices. Prior to joining Qualcomm, Bryan spent 10 years in the telecommunications industry working as a SW/FW developer for embedded, real-time systems. Bryan has a B.S in Computer Engineering from the University of Florida.",
+      "teams": [
+        "board_of_directors"
+      ]
     },
     {
-        "bio": "Jon Humphreys is the director of Linux Core Product Development at Texas Instruments. He has over 25 years of experience in embedded software development, including toolchain and embedded OSes. He has worked with Linaro on TI’s behalf since 2015. Jon holds a Bachelor of Science in Electrical Engineering from Rice University and a Master of Science in Computer Science from the University of Houston.",
-        "image": "/assets/images/people/JohnHumphreys.jpg",
-        "name": "Jon Humphreys",
-        "board_order": 4,
-        "teams": [
-            "board_of_directors"
-        ],
-        "company": "Texas Instruments",
-        "title": "Board member for Linaro Club members"
+      "name": "Jon Humphreys",
+      "title": "Board member for Linaro Club members",
+      "company": "Texas Instruments",
+      "image": "/assets/images/people/JohnHumphreys.jpg",
+      "bio": "Jon Humphreys is the director of Linux Core Product Development at Texas Instruments. He has over 25 years of experience in embedded software development, including toolchain and embedded OSes. He has worked with Linaro on TI’s behalf since 2015. Jon holds a Bachelor of Science in Electrical Engineering from Rice University and a Master of Science in Computer Science from the University of Houston.",
+      "teams": [
+        "board_of_directors"
+      ]
     }
-    ]
+  ]
 }
