@@ -1,32 +1,25 @@
 ---
-author: fathi.boudra
-categories:
-- blog
-date: 2013-12-02 16:34:05
-description: Linaro 13.11 release information and links to downloads
-keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.11 release, Android,
-  LAVA, Armv8
 layout: post
-link: /blog/releases-blog/linaro-13-11-released/
-slug: linaro-13-11-released
-tags:
-- Releases
-- android
-- arm
-- embedded
-- Evaluation builds
-- kernel
-- lava
-- Linaro
-- Linux
-- Linux on Arm
-- Opensource
-- release
-- release cycle
-- toolchain
-- tools
 title: Linaro 13.11 Released
-wordpress_id: 3206
+date: 2013-12-02T16:34:05.000Z
+tags:
+  - Releases
+  - android
+  - arm
+  - embedded
+  - Evaluation builds
+  - kernel
+  - lava
+  - Linaro
+  - Linux
+  - Linux on Arm
+  - Opensource
+  - release
+  - release cycle
+  - toolchain
+  - tools
+category: Blog
+author: fathi.boudra
 ---
 
 > I like Kit-Kat, unless I'm with four or more people. - Mitch Hedberg
@@ -40,7 +33,7 @@ This month's cycle includes significant developments from Linaro Connect USA 201
   * The long-awaited Android 4.4 "Kit-Kat" was released and this is now included in Linaro Android. As with previous cycles, the team had this up and running on member devices very soon after the official release and there are several videos showing this work, for example:  [http://www.youtube.com/watch?v=bYQK1hT9iTk](http://www.youtube.com/watch?v=bYQK1hT9iTk)
 
 
-  * LAVA documentation took a giant leap forward following a week of concentrated effort at LCU13. The latest version of the source code for this is included in the repository, with a navigable version regularly updated at [http://validation.linaro.org/static/docs/](http://validation.linaro.org/static/docs/).
+  * LAVA documentation took a giant leap forward following a week of concentrated effort at LCU13. The latest version of the source code for this is included in the repository.
 
 
   * Linaro GDB, including improved Armv8 AArch64 support, has now been added to Linaro's layer and is available in the Linaro OpenEmbedded baseline.
