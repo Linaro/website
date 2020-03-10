@@ -18,10 +18,8 @@ jumbotron:
       darken: true
       title: Introducing Linaro Tech Days
       description: >-
-        24-25 March 2020
-
-        A series of technical sessions that will be presented live online for
-        anyone to join.
+        A series of technical sessions that will be livestreamed online on the
+        24 and 25 March 2020.
       image: /assets/images/content/BKK19-150.jpg
 flow:
   - row: container_row
