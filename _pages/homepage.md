@@ -22,6 +22,7 @@ jumbotron:
 
         A series of technical sessions that will be presented live online for
         anyone to join.
+      image: /assets/images/content/BKK19-150.jpg
 flow:
   - row: container_row
     sections:
