@@ -2,7 +2,7 @@
 layout: post
 title: The end of an Era
 date: '2020-02-06 09:09:55'
-image: /assets/images/content/2038 image.jpg
+image: /assets/images/content/2038_image.jpg
 tags:
   - '2038'
   - Linux Kernel

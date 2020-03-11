@@ -2,7 +2,7 @@
 layout: post
 title: ' Linaro in OpenStack'
 date: '2020-01-16 02:35:45'
-image: /assets/images/content/Data Center.jpg
+image: /assets/images/content/DataCenter.jpg
 tags:
   - datacenter
   - cloud
