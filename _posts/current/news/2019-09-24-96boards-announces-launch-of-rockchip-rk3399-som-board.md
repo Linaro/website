@@ -2,8 +2,7 @@
 layout: post
 title: 96Boards announces launch of Rockchip RK3399 Board Compliant with 96Boards SOM specification
 date: "2019-09-24 01:00:00"
-image:
-  path: /assets/images/content/PR_96Boards_banner_pic.jpg
+image: /assets/images/content/PR_96Boards_banner_pic.jpg
 tags:
   - Linaro
   - 96boards

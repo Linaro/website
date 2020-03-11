@@ -6,9 +6,7 @@ categories:
 - blog
 comments: false
 date: 2017-03-21 00:36:25
-image:
-  featured: true
-  path: /assets/images/blog/LinaroConnectBudapest2017WeekinReview.jpg
+image: /assets/images/blog/LinaroConnectBudapest2017WeekinReview.jpg
 layout: post
 link: http://connect.linaro.org/blog/linaro-connect-budapest-2017-week-review/
 session_id: None

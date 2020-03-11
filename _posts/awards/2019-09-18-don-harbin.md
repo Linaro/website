@@ -14,9 +14,7 @@ team: Field Engineering
 categories:
   - Awards
   - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/don-harbin.jpg
 jumbotron:
   background-image: /assets/images/content/5years_bkgd.png

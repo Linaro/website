@@ -9,9 +9,7 @@ categories:
 published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96'
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96
-image:
-    featured: true
-    path: /assets/images/blog/Ecosystemday-original.jpg
+image: /assets/images/blog/Ecosystemday-original.jpg
 layout: post
 ---
 # Highlights of Ecosystem Day at Linaro Connect HKG18

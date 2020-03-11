@@ -12,9 +12,7 @@ excerpt: Linaro Connect is a great time for all security engineers to get togeth
   held daily dedicated to security topics as well as demos later in the week.   The
   team will also have daily hacking sessions taking place in the afternoon that all
   attendees at the event are welcome to come to.
-image:
-  featured: true
-  path: /assets/images/blog/LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
+image: /assets/images/blog/LinaroSecurityGroupsPlansforLinaroConnectBudapest2017.png
 layout: post
 link: http://connect.linaro.org/blog/linaro-security-groups-plans-linaro-connect-budapest-2017/
 session_id: None
@@ -59,7 +57,7 @@ _**_Title: _**BUD17-313: BoF - Device Tree and Secure Firmware**
 **_Time:  12:00-12:55pm __
 _**_Title: _**BUD17-416/420: Benchmark and profiling in OP-TEE**
 **
-**_Abstract:_ Benchmarking in OP-TEE has for long been a missing feature. With the newly added support for benchmarking the user of OP-TEE has the ability to make measurements (CPU cycles) in all architectural layers, like normal world (kernel, user space) and on the secure side in the TEE core itself. By having the ability to do this you can learn how much time it will take when switching between the different architectural layers. 
+**_Abstract:_ Benchmarking in OP-TEE has for long been a missing feature. With the newly added support for benchmarking the user of OP-TEE has the ability to make measurements (CPU cycles) in all architectural layers, like normal world (kernel, user space) and on the secure side in the TEE core itself. By having the ability to do this you can learn how much time it will take when switching between the different architectural layers.
 
 For Trusted Applications we’ve also worked with adding gprof support.  In this session we will cover what’s been done, what’s left to do and the current limitations.
 
@@ -72,8 +70,8 @@ _**_Title: _**BUD17-510: Power management in Linux together with secure firmware
 
 Finally at the traditional Linaro Connect Demo­ Friday, Linaro Security Group together with LITE will be highlighting the following demo:  [Mcuboot](https://github.com/runtimeco/mcuboot), the bootloader project used by both Zephyr and Mynewt will be demoed.
 
-Those attending Linaro Connect are welcome to come to any and all of the sessions on Security. To see the entire schedule of sessions taking place during the week please [click here](https://eu.eventscloud.com/ehome/bud17/200391688/). 
+Those attending Linaro Connect are welcome to come to any and all of the sessions on Security. To see the entire schedule of sessions taking place during the week please [click here](https://eu.eventscloud.com/ehome/bud17/200391688/).
 
-If you are not able to attend you can visit the Linaro Connect resources page after the event to view recorded sessions and get access to select materials - [http://connect.linaro.org/resources/](/resources/). 
+If you are not able to attend you can visit the Linaro Connect resources page after the event to view recorded sessions and get access to select materials - [http://connect.linaro.org/resources/](/resources/).
 
 To learn more about the Linaro Security team:  [https://www.linaro.org/engineering/core/security/](/engineering/core/security/)

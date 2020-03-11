@@ -9,15 +9,13 @@ categories:
 published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile, Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN'
 keywords: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile, Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN'
-image:
-    featured: true
-    path: /assets/images/blog/elc-image.jpg 
+image: /assets/images/blog/elc-image.jpg
 layout: post
 ---
 Participating in ELC North America 2018 has been productive and interesting, both for the main goal of my presentation and for hallway discussions.
 
 ## What I presented
-My presentation was about the very high latencies that common tasks may suffer from, in embedded systems. Examples of the affected tasks are starting an application or reading the frames of a video. In the presentation I showed how severely these tasks can be impacted, in terms of latency, if, when they are executed, some other application or service happens to be doing I/O too. After this nasty problem, I showed a possible cure, the BFQ I/O scheduler. 
+My presentation was about the very high latencies that common tasks may suffer from, in embedded systems. Examples of the affected tasks are starting an application or reading the frames of a video. In the presentation I showed how severely these tasks can be impacted, in terms of latency, if, when they are executed, some other application or service happens to be doing I/O too. After this nasty problem, I showed a possible cure, the BFQ I/O scheduler.
 
 To show both the problems and the cure in a more practical and hopefully engaging way, I showed some short, recorded demos. These demos concerned two popular devices, a HiKey board and a Pixel 2, and some common tasks: starting the Facebook app or an X terminal, or playing a video.
 <div class="col-sm-8 no-padding" markdown="1">

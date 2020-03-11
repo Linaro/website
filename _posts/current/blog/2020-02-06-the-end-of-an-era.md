@@ -2,8 +2,7 @@
 layout: post
 title: The end of an Era
 date: '2020-02-06 09:09:55'
-image:
-  path: /assets/images/content/2038 image.jpg
+image: /assets/images/content/2038 image.jpg
 tags:
   - '2038'
   - Linux Kernel
@@ -27,7 +26,7 @@ Within Linaro’s Kernel Working Group, I assigned simple driver conversions to 
 
 ### Yak Shaving
 
-Usually, getting y2038 fixes included was really easy, as maintainers are generally happy to take an obviously correct bugfix that they don’t have to implement themselves. However, some cases turned out to be much more time and labor intensive than we had imagined. 
+Usually, getting y2038 fixes included was really easy, as maintainers are generally happy to take an obviously correct bugfix that they don’t have to implement themselves. However, some cases turned out to be much more time and labor intensive than we had imagined.
 
 Converting the VFS code to use 64-bit inode timestamps took countless rewrites of the same patches, first from me and then from Deepa who finally succeeded. We wanted to avoid having to do a “flag day” change, which is generally considered too invasive and risks introducing regressions, and we wanted to minimize the changes for existing 64-bit users and for existing 32-bit applications. Doing this step-by-step change however turned out to add a lot of complexity as well. In the end, Deepa worked out a process of many non-invasive changes over multiple merge windows, followed by [an automated conversion using coccinelle](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=95582b0083883). The same series also fixed unrelated issues in the way some file systems generated their timestamps which reviewers had complained about.
 
@@ -36,7 +35,7 @@ This is an effect that can be observed a lot in kernel development: when you wor
 * Changing the time functions away from getnstimeofday() to ktime_get() and similar conversions addressed the bugs with leap seconds, with time going backwards from settimeofday() as well as some particularly inefficient code.
 * File system timestamps are now checked for overflow in a consistent way, and interpreted the same way on 32-bit and 64-bit architectures, extending the range to at least year 2106 where possible.
 * The system call tables are now generated from machine readable files, and all architectures support at least the set of standard system calls that are available to newly added architectures.
-* Converting all the architectures led to the decision to [clean out architectures that are no longer actively used or maintained](https://lwn.net/Articles/748074/) 
+* Converting all the architectures led to the decision to [clean out architectures that are no longer actively used or maintained](https://lwn.net/Articles/748074/)
 * David Howells contributed the statx() system call that solves passing 64-bit timestamps along with many other features that are not present in stat().
 * The handling for 32-bit compat tasks on 64-bit kernels is more consistent with the native system calls now, after a lot of the compat syscalls were rewritten to be shared with time32 support for 32-bit architectures. Most importantly, the compat ioctl() handling is now completely reworked and always handled by the driver rather than a centralized conversion function that easily gets out of sync.
 

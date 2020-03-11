@@ -16,9 +16,7 @@ keywords: >-
   Meltdown, Spectre, Arm, OP-TEE, TrustZone, Speculative execution, branch
   predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
   Analysis, Differential Power Analysis, crypto,
-image:
-  featured: true
-  path: /assets/images/blog/meltdown-spectre-logo.jpg
+image: /assets/images/blog/meltdown-spectre-logo.jpg
 layout: post
 ---
 

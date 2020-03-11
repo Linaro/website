@@ -14,9 +14,7 @@ team: HR Services
 categories:
   - Awards
   - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/gayle-carberry.jpg
 jumbotron:
   background-image: /assets/images/content/5years_bkgd.png

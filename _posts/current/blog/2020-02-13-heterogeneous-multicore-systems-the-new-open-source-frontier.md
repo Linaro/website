@@ -2,8 +2,7 @@
 layout: post
 title: Heterogeneous Multicore Systems - The New Open Source Frontier!
 date: '2020-02-13 04:23:39'
-image:
-  path: /assets/images/content/IoT.jpg
+image: /assets/images/content/IoT.jpg
 tags:
   - Device Tree
   - SCMI
@@ -17,14 +16,14 @@ tags:
 category: Blog
 author: bill.fletcher
 ---
-Heterogeneous multicore computing is now all-pervasive. Complex application processors in the mobile and other consumer segments have long featured many cores for various kinds of processing offload. This has typically included modem and wifi functions, DSP, real-time and power control. The presence of the many co-processor cores and engines gives a processing offload capability which frees up the main CPU (or CPU cluster) to run the host OS and application code. 
+Heterogeneous multicore computing is now all-pervasive. Complex application processors in the mobile and other consumer segments have long featured many cores for various kinds of processing offload. This has typically included modem and wifi functions, DSP, real-time and power control. The presence of the many co-processor cores and engines gives a processing offload capability which frees up the main CPU (or CPU cluster) to run the host OS and application code.
 
 Configuring, building and maintaining multicore systems has historically been a hard problem. The good news is that there are an increasing number of multicore devices with a flexible co-processor architecture and good support for running non-proprietary software. This flexibility is helping to build a collaborative engineering effort around open source tools and software components to help develop and maintain products supporting a multicore system approach.
 
 The tasks that are being addressed by this collaboration include:
 
-A master configuration across multiple cores that are sharing a common set of memory and peripherals.  A lifecycle management and communication framework to allow multiprocessing applications to leverage parallelism offered by the multicore configuration. 
-Standard interfaces for power, performance and system management. 
+A master configuration across multiple cores that are sharing a common set of memory and peripherals.  A lifecycle management and communication framework to allow multiprocessing applications to leverage parallelism offered by the multicore configuration.
+Standard interfaces for power, performance and system management.
 
 Linaro and its members are active in all of these areas and are developing a set of software components to help with the System approach to multiprocessing such as Device Tree, SCMI, RemoteProc, RPmsg.
 

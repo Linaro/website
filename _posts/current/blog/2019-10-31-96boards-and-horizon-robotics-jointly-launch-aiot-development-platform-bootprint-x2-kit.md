@@ -4,8 +4,7 @@ title: >-
   Linaro and Horizon Robotics jointly launch AIoT development platform:
   BOOTPRINT X2 kit
 date: '2019-10-31 11:48:43'
-image:
-  path: /assets/images/content/27094831048_6ecb96f52a_o.jpg
+image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
 tags:
   - 96Boards
   - Horizon Robotics

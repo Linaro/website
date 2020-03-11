@@ -4,11 +4,9 @@ title:  "Bud17-313 BoF -  Device Tree and Secure Firmware"
 date:   2017-03-17 12:00:00
 categories: Blog
 author: Linaro
-tags: 
+tags:
 - DeviceTree
-image:
-    featured: true
-    path: /assets/images/blog/bof-device-tree-secure-firmware-bud17-313-image.jpg
+image: /assets/images/blog/bof-device-tree-secure-firmware-bud17-313-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/kbREjQS3moM" %}
@@ -17,7 +15,7 @@ Device Tree is well established in the Linux kernel. But since there could be ot
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/w10DZhBzHkyykA" %}
 
-[BUD17-416: Benchmark and profiling in OP-TEE ](https://www.slideshare.net/linaroorg/bud17416-benchmark-and-profiling-in-optee) from [Linaro](http://www.slideshare.net/linaroorg)  
-**Speakers:** Joakim Bech, Jens Wiklander  
-**Track:** Security  
-**Session ID:** BUD17-313  
+[BUD17-416: Benchmark and profiling in OP-TEE ](https://www.slideshare.net/linaroorg/bud17416-benchmark-and-profiling-in-optee) from [Linaro](http://www.slideshare.net/linaroorg)
+**Speakers:** Joakim Bech, Jens Wiklander
+**Track:** Security
+**Session ID:** BUD17-313

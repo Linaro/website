@@ -8,9 +8,7 @@ comments: false
 date: 2017-03-08 00:04:58
 excerpt: See what happened during the second day of Linaro Connect Budapest 2017.  Watch
   the keynote and get access to the session materials that are available.
-image:
-  featured: true
-  path: /assets/images/blog/TuesdayofLinaroConnectBudapest2017.jpg
+image: /assets/images/blog/TuesdayofLinaroConnectBudapest2017.jpg
 layout: post
 link: http://connect.linaro.org/blog/tuesday-linaro-connect-budapest-2017/
 session_id: None

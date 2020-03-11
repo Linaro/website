@@ -11,9 +11,7 @@ company: Red Hat
 categories:
  - Awards
  - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/eric-auger.jpg
 date: 2019-04-05 09:00:00+00:00
 jumbotron:

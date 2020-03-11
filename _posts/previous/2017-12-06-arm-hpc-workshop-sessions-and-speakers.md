@@ -11,9 +11,7 @@ tags:
 - Workshop
 - Japan
 keywords: Arm, HPC, Workshop, Japan
-image:
-    featured: true
-    path: /assets/images/blog/arm-hpc-bg.png
+image: /assets/images/blog/arm-hpc-bg.png
 ---
 # Arm HPC Workshop Sessions and Speakers
 
@@ -138,7 +136,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         </h4>
 
         <em>By</em> David Rusling CTO, Linaro
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3B60l14pgrhlGQ" %}
 
     </div>
@@ -489,7 +487,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             It is designed and developed to makes building HPC systems easier.
             In this presentation, we explain the current status of OpenHPC and our involvement in OpenHPC to establish Arm HPC eco-system.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/rQaMRYS38ty2qK" %}
     </div>
 
@@ -546,7 +544,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             New portable and practical parallel execution model, Process in Process (PiP in short) will be presented. PiP tasks share the same virtual address space like the multi-thread model and privatized variables like the multi-process model. Because of this, PiP provides the best of two worlds, multi-process (MPI) and multi-thread (OpenMP).
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/hzv5CPRfIBIMwo" %}
 
     </div>
@@ -699,7 +697,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         RIKEN and Fujitsu are developing programming assistance tools for Post-K computer, providing with new values.
         New features such as utilization of Eclipse PTP, and outputting performance data in XML-form are shown in this presentation.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3Mq0GjWE37hIaP" %}
 
     </div>
@@ -782,7 +780,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             The "co-design" is a bi-directional approach where a system would be designed on demand from applications and the applications must be optimized to the system. The performance estimation and evaluation of applications are important for the co-design. In this talk, we focus on the performance evaluation with Arm HPC tools for SVE.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/2YSUrOw3n2W4g" %}
 
     </div>

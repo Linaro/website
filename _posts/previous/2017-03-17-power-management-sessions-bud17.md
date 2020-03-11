@@ -6,9 +6,7 @@ categories:
 - blog
 comments: false
 date: 2017-03-17 15:40:19
-image:
-  featured: true
-  path: /assets/images/blog/PowerManagementsessionsfromBUD17.jpg
+image: /assets/images/blog/PowerManagementsessionsfromBUD17.jpg
 layout: post
 link: http://connect.linaro.org/blog/power-management-sessions-bud17/
 session_id: None

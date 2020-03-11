@@ -2,8 +2,7 @@
 layout: post
 title: Python and Go in the Arm World
 date: '2019-12-17 03:46:40'
-image:
-  path: /assets/images/content/code_banner.jpg
+image: /assets/images/content/code_banner.jpg
 tags:
   - Arm
   - Arm64
@@ -12,7 +11,7 @@ tags:
 category: Blog
 author: siddhesh.poyarekar
 ---
-Siddhesh Poyarekar is Linaro Developer Services' Toolchain expert, having worked on glibc upstream since 2012 and a number of different projects before that. Recently, Linaro Developer Services completed work which involved studying and fixing packages in Python and Go ecosystem. In this blog, Siddhesh summarises his findings, including the most common problems encountered on the way. 
+Siddhesh Poyarekar is Linaro Developer Services' Toolchain expert, having worked on glibc upstream since 2012 and a number of different projects before that. Recently, Linaro Developer Services completed work which involved studying and fixing packages in Python and Go ecosystem. In this blog, Siddhesh summarises his findings, including the most common problems encountered on the way.
 
 Over the past few months we have studied a number of packages in the Python and Go ecosystem to verify that they work on Arm64 servers. Being high level languages, the general assumption is that things should just work and this was true for the majority of packages we looked at. There were a few however that had to be fixed in a variety of ways to make them work correctly on Arm.  Over time we realized that there were a few recurring issues across packages.
 
