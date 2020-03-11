@@ -172,14 +172,8 @@ defaults:
       redirect_from: /sitemap/
 # Gems that should be included in the Jekyll builld of this site.
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-readme-index
-  - uglifier
-  - jekyll-assets
   - jekyll-tidy
-  - jekyll-redirect-from
-  - autoprefixer-rails
   - jekyll-paginate-v2
 # Compress the html and beau2tify it.
 jekyll_tidy: # Compress the html and beautify it.
