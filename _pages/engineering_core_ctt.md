@@ -3,7 +3,7 @@ title: Core Technologies & Tools
 layout: flow
 css-package: landing-page
 related_resources_tracks: Tools
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 description: |-
     The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.

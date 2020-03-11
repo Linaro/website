@@ -7,7 +7,7 @@ permalink: /engineering/core/arm-power-management/
 layout: flow
 css-package: landing-page
 related_resources_tracks: Power Management, Power, PMWG, EAS
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Arm Power Management

@@ -4,7 +4,7 @@ description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/pmwg-farm/
-js-package: engineering-landing-page
+js-package: engineering
 css-package: landing-page
 layout: flow
 jumbotron:

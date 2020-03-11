@@ -4,7 +4,7 @@ layout: flow
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
 permalink: /engineering/high-performance-computing/
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
   key: hpc-sig
 image: /assets/images/content/HPCCol.svg

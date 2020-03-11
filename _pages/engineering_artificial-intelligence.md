@@ -6,7 +6,7 @@ keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
 permalink: /engineering/artificial-intelligence/
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: mi-incubator
 related_resources_tracks: AI/Machine Learning, Machine Learning/AI, AI and Neural Networks on Arm Summit

@@ -6,7 +6,7 @@ description: |-
 keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/edge-and-fog-computing/
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: ledge
 related_tags:

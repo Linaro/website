@@ -3,7 +3,7 @@ title: Devicetree Evolution
 layout: flow
 css-package: landing-page
 related_resources_tracks: Tools
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 description: |-
     Devicetree.org is a community effort by many companies and individuals to facilitate the future evolution of the Devicetree Standard. The devicetree is a data structure for describing hardware. Rather than hard coding every detail of a device into an operating system, many aspects of the hardware can be described in a data structure that is passed to the operating system at boot time.

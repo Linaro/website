@@ -7,7 +7,7 @@ image: /assets/images/content/LCG.png
 permalink: /engineering/consumer/
 css-package: landing-page
 layout: flow
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: lcg
 related_resources_tracks: Android, LMG, LCG, Linaro Mobile Group, Android

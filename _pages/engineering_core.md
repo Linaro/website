@@ -10,7 +10,7 @@ image: /assets/images/content/engineering/png/core_engineering.png
 layout: flow
 css-package: landing-page
 related_resources_tracks: Tools
-js-package: engineering-landing-page
+js-package: engineering
 redirect_from:
  - /core/
 related_tags:

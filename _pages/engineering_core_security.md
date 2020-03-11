@@ -16,7 +16,7 @@ image: /assets/images/projects/op-tee.png
 layout: flow
 css-package: landing-page
 related_resources_tracks: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Security work at Linaro

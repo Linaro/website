@@ -6,7 +6,7 @@ keywords: Linux, Arm, LITE, Android, IoT, Kernel, ecosystem, tinification
 permalink: /engineering/iot-and-embedded/
 css-package: landing-page
 layout: flow
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: lite
 related_resources_tracks: IoT and Embedded, IoT Fog/Gateway/Edge Computing

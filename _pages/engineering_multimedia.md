@@ -9,7 +9,7 @@ members:
 related_resources_tracks: Multimedia, RDK, LHG
 permalink: /engineering/multimedia/
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 related_tags:
   - Multimedia
   - RDK

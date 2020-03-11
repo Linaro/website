@@ -6,7 +6,7 @@ keywords: Toolchain, GCC, QEMU, glibc
 layout: flow
 css-package: landing-page
 related_resources_tracks: CTT, Toolchain
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Toolchain

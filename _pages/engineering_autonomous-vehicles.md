@@ -7,7 +7,7 @@ keywords: Linaro, Autonomous, Stable, Kernel, Core, Android, Open Source, OS, Au
 image: /assets/images/content/AutoCol.svg
 permalink: /engineering/autonomous-vehicles/
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: autonomous-vehicles-incubator
 related_resources_tracks: Autonomous Vehicles, Autonomous Vehicle
