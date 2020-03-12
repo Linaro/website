@@ -295,4 +295,37 @@ $(document).ready(function() {
   $(function() {
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+  if ($("#post_search").length > 0) {
+    var file_path = $("#post_search").data("file-path");
+
+    $("#results-container").hide();
+    $("#search-input").keyup(function() {
+      if ($("#search-input").val().length == 0) {
+        $("#results-container").fadeOut("fast");
+        $(".close_search").hide();
+      } else {
+        $("#results-container").fadeIn("fast");
+        $(".close_search").show();
+      }
+    });
+    $(".close_search").click(function(e) {
+      e.preventDefault();
+      $("#search-input").val("");
+      $("#results-container").fadeOut("fast");
+      $(".close_search").hide();
+    });
+
+    console.log(file_path);
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("search-input"),
+      resultsContainer: document.getElementById("results-container"),
+      searchResultTemplate:
+        '<li class="media flex-row"><picture><img class="lazyload mr-3 img-thumbnail suggested_post_thumb search_result_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{image}"></picture><div class="media-body"><a href="{url}"><h5 class="mt-0 mb-1">{title}</h5><em class="suggested_post_date">{date}</em><p>{description}</p></a></div></li>',
+      json: file_path,
+      success: function(data) {
+        console.log(data);
+      }
+    });
+  }
 });
