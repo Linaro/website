@@ -3,7 +3,7 @@
         {% assign internship_count = site.internships | where: 'published', 'true' | size %}
         {% if internship_count > 0 %}
             {% for internship in site.internships %}
-                <div class="col-xs-12 col-sm-4 internship text-center">
+                <div class="col col-12 col-sm-4 internship text-center">
                     <div class="internship_inner">
                         <h3>{{internship.title}}</h3>
                         <span class="location"><strong>Location:</strong> {{internship.location}}</span><br>
@@ -16,7 +16,7 @@
                 </div>
             {% endfor %}
         {% else %}
-            <div class="col-xs-12">
+            <div class="col col-12">
                 <p>
                     Sorry but we currently do not have any internships available.
                 </p>

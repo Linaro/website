@@ -38,7 +38,7 @@
 
                 <br />
                 {% if group.members %}
-                    <div class="col-xs-12">
+                    <div class="col col-12">
                         <h5 class="advisory-board text-center">Members</h5>
                     </div>
                     {% assign sorted_members = group.members | sort: 'name' %}
@@ -53,7 +53,7 @@
                     {% endfor %}
                 {% endif %}
                 {% if group.advisory_board %}
-                    <div class="col-xs-12">
+                    <div class="col col-12">
                         <h5 class="advisory-board text-center">Advisory Board</h5>
                     </div>
                     {% assign advisory_board = group.advisory_board | sort: 'name' %}

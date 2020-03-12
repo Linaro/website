@@ -1,7 +1,7 @@
 <div class="row" id="content-container">
     <div class="container">
-        <div class="col-md-3">
-            {% include sidebar.html  %}
+        <div class="col col-12 col-md-3">
+            {% include components/sidebar.html  %}
             {% if page.icon %}
             <picture>
                 <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" media="(min-width: 992px)" />
@@ -10,7 +10,7 @@
             </picture>
             {% endif %}
         </div>
-        <div class="col-md-9">
+        <div class="col col-12 col-md-9">
             {{content}}
         </div>
     </div>

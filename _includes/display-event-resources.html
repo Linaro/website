@@ -4,7 +4,7 @@
     {% assign event_details = site.posts | where: "event", include.event | first %}
     {% assign event_posts = site.categories["event_resources"] | where:'event',include.event | sort: 'date' | reverse %}
     {% for post in event_posts %}
-        <div class="col-xs-12 col-sm-4">
+        <div class="col col-12 col-sm-4">
             <a href="{{post.url}}">
                 <div class="event-block">
                     {% if post.image %}

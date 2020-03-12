@@ -11,7 +11,7 @@
         {% assign upcoming_events = upcoming_events | push: post %}
     {% endif %}
 {% endfor %}
-<div class="col-xs-12">
+<div class="col col-12">
     <h2>Upcoming Events</h2>
     <div class="row events-row flex-row">
         {% assign upcoming_events = upcoming_events | sort: 'event_date' %}
@@ -21,7 +21,7 @@
                 {% assign event_tag_text = "Attending" %}
             {% endif %}
             {% assign event_class = "upcoming" %}
-        <div class="col-xs-12 col-sm-4">
+        <div class="col col-12 col-sm-4">
             <div class="thumbnail {{event_class}}">
                 {% if post.image.path %}
                     {% assign image_path = post.image.path %}
@@ -56,7 +56,7 @@
     {% endfor %}
     </div>
 </div>
-<div class="col-xs-12">
+<div class="col col-12">
     <h2>Past Events</h2>
     <div class="row events-row flex-row">
         {% for post in past_events %}
@@ -65,7 +65,7 @@
                 {% assign event_tag_text = "Attended" %}
             {% endif %}
             {% assign event_class = "done" %}
-        <div class="col-xs-12 col-sm-4">
+        <div class="col col-12 col-sm-4">
             <div class="thumbnail {{event_class}}">
                 {% if post.image.path %}
                     {% assign image_path = post.image.path %}
