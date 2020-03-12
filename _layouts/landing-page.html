@@ -1,15 +1,13 @@
 ---
 layout: base
 css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 ---
 {% if page.jumbotron.carousel-images %}
     {% include carousel-header.html images=page.jumbotron.carousel-images %}
     {% include jumbotron.html %}
 {% elsif page.jumbotron %}
     {% include jumbotron.html %}
-{% else %}
-    {% include breadcrumb.html %}
 {% endif %}
 {% if page.sections %}
     {% for section in page.sections %}

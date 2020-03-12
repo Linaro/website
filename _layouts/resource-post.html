@@ -4,7 +4,7 @@ js-package: resource-post
 css-package: resource-post
 ---
 {% assign event_details = site.categories["events"] | where: 'event', page.event | first %}
-{% include breadcrumb.html  %}
+{% include components/breadcrumb.html  %}
 <div class="container-fluid" id="content-container">
     <div class="row">
         <div class="container">
@@ -72,7 +72,7 @@ css-package: resource-post
                         {{ content }}
                     </div>
                 </article>
-                {% include disqus-comments.html %}
+                {% include blog/disqus_comments.html %}
             </div>
         </div>
     </div>
