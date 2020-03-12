@@ -1,57 +1,43 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
-$brand-primary: #98cc33;
-//Home
-$home-page-title-text: #000;
-$home-page-main-title-color: #000;
-// Footer
-$footer-bg-color: #131313;
-$footer-text-color: #fff;
-// Sub footer
-$sub-footer-color: #E4E4E4;
-// Navbar
-$navbar-text-color: #000;
-$navbar-hover-text-color: #fff !default;
-$navbar-hover-background-color: $brand-primary !default;
-$navbar-height: 66px;
-$navbar-inverse-bg: #fff;
-$navbar-inverse-color: #000;
-$navbar-submenu-bg-color: #3e3e3e !default;
-$navbar-submenu-color: #fff !default;
-$text-color: rgba(0,0,0,.84);
+$primary: #98cc33;
+$secondary: #575757;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": #ff4136
+);
+// Universal Navbar
+$universal_navbar_height_padding: 0px;
+$universal_navbar_text_color: #fff;
+$universal_navbar_bg_color: $primary;
+// Main Navbar
+$navbar_height_padding: 5px;
+$navbar_text_color: #575757;
+$navbar_bg_color: #fff;
+// Jumbotron
+$jumbotron_bg_color: lightgray;
+$jumbotron_height: 500px;
+// Typography
 @font-face {
+  font-display: fallback;
   font-family: 'Lato';
-  src: url('/assets/fonts/lato-regular/Lato-regular.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/lato-regular/Lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/lato-regular/Lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/assets/fonts/lato-regular/Lato-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/assets/fonts/lato-regular/Lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/lato-regular/Lato-regular.svg') format('svg'); /* Legacy iOS */
+  src: url('/assets/fonts/lato/Lato-regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato/Lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/lato/Lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/lato/Lato-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/lato/Lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/lato/Lato-regular.svg') format('svg'); /* Legacy iOS */
 }
 // Fonts
-$font-family-sans-serif:  'Lato', Arial, sans-serif !default;
-// Breadcrumb Default background colour.
-$breadcrumb-background-color: #333333 !default;
-$blog-panel-title-colour: #fff;
-// Jumbotron Settings
-$jumbotron-height: 500px !default;
-$overlay: 0.5;
-$jumbotron-font-size-xs: 26px;
-$jumbotron-font-size: 32px;
-$jumbotron-heading-color: #fff !default;
-$jumbotron-sub-title-font-size-xs: 16px;
-$jumbotron-sub-title-font-size: 18px;
-$jumbotron-sub-title-color: #fff !default;
-// Tabbed Navbar
-$tabbed-nav-bg-color: #ccc !default;
-$tabbed-nav-text-color: #000 !default;
-$tabbed-nav-hover-color: $brand-primary !default;
-// Post tags
-$post-tag-bg: #d7d7d7 !default;
-$post-tag-color: #000 !default;
-$post-tag-border: #8b8b8b !default;
-$post-tag-hover-bg: #1f1f1f !default;
-$post-tag-hover-color: #fff !default;
-// Triangle Divider
-$triangle-divider-bg-color: #fff !default;
-// Flow sections
-$flow_row_padding: 40px !default;
+$font-family-base: "Lato";
+// Footer
+$footer_bg_color: #00000b;
+$footer_strip_bg_color: $secondary;
+// Flow
+$flow_row_padding: 40px;
+$flow_component_padding: 15px;
+// Cookie Consent
+$cookie_consent_bg: #000;
+$cookie_consent_text_color: #fff;
+// Breadcrumb
+$breadcrumb_bg_color: #e9ecef;

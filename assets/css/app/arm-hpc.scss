@@ -23,7 +23,7 @@
     background-color: darken($body-bg, 80%);
 }
 .doubleScroll-scroll-wrapper::-webkit-scrollbar-thumb {
-  background-color: $brand-primary;
+  background-color: $primary;
   outline: 1px solid $body-bg;
 }
 .double-scroll::-webkit-scrollbar {
@@ -35,7 +35,7 @@
     background-color: darken($body-bg, 80%);
 }
 .double-scroll::-webkit-scrollbar-thumb {
-  background-color: $brand-primary;
+  background-color: $primary;
   outline: 1px solid $body-bg;
 }
 .double-scroll table.table {

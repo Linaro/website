@@ -1,6 +1,6 @@
 #wrapper {
   .row.membership_form {
-    background-color: #98cc33;
+    background-color: $primary;
     h2 {
       color: white;
     }
@@ -18,7 +18,7 @@
         width: 100%;
       }
       button {
-        background-color: #98cc33;
+        background-color: $primary;
         color: white;
         border-color: white;
       }

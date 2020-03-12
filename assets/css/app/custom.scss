@@ -127,7 +127,7 @@ ul#tabbed_nav {
 }
 .main a:hover {
   text-decoration: none;
-  color: darken($brand-primary, 20%);
+  color: darken($primary, 20%);
 }
 .main .c-forms-form-title {
   display: block;
@@ -601,7 +601,7 @@ body {
   #jumbotron {
     .big-title {
       font-weight: 100 !important;
-      border: 5px dotted $brand-primary;
+      border: 5px dotted $primary;
       border-radius: 10px;
       max-width: 1000px;
       padding: 20px;
@@ -633,7 +633,7 @@ body {
             > a {
               color: #000;
               letter-spacing: 0;
-              background-color: $brand-primary;
+              background-color: $primary;
               color: white;
               font-size: 18px;
               transition: all 100ms ease-in-out;
@@ -770,7 +770,7 @@ body {
       }
       h3 {
         text-align: left;
-        color: $brand-primary;
+        color: $primary;
         margin-top: 0px;
       }
       @media (max-width: $screen-sm-min) {
@@ -801,7 +801,7 @@ body {
         color: #ffffff;
         font-weight: 700;
         font-size: 26px;
-        border-left: 5px solid $brand-primary;
+        border-left: 5px solid $primary;
         padding-left: 15px;
         @media (max-width: $screen-sm-min) {
           text-align: left;

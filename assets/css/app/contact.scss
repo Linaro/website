@@ -2,7 +2,7 @@
   #flow_wrapper {
     .contact_blocks {
       .block-inner {
-        border: 5px dotted $brand-primary;
+        border: 5px dotted $primary;
         border-radius: 10px;
         background-color: transparent;
         -webkit-box-shadow: none;
@@ -21,7 +21,7 @@
           margin: 20px auto;
         }
         a.btn.btn-primary {
-          background-color: $brand-primary;
+          background-color: $primary;
           font-weight: 800;
           font-size: 20px;
           margin-bottom: 30px;

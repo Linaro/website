@@ -1,6 +1,6 @@
 #wrapper {
     .row.services_form.large_type {
-        background-color: $brand-primary;
+        background-color: $primary;
         h2 {
             color:white;
             max-width:70%
@@ -11,7 +11,7 @@
     }
   .developer_services_prospectus_btn {
     a.btn {
-      background-color: $brand-primary;
+      background-color: $primary;
       font-weight: 800;
       font-size: 20px;
     }
@@ -22,7 +22,7 @@
       overflow: auto;
       height: 100%;
       margin: 10px;
-      border: 5px dotted $brand-primary;
+      border: 5px dotted $primary;
       border-radius: 14px;
       padding: 20px;
       h3 {
@@ -36,7 +36,7 @@
             content: ">>";
             display: inline;
             padding-right: 10px;
-            color: $brand-primary;
+            color: $primary;
             font-weight: 800;
           }
           a {
@@ -45,7 +45,7 @@
             text-transform: uppercase;
             font-weight: 700;
             &:hover {
-              color: $brand-primary;
+              color: $primary;
             }
           }
         }
