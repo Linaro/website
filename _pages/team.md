@@ -2,7 +2,6 @@
 title: The Team
 layout: flow
 permalink: /about/team/
-js-package: extended
 css-package: work
 jumbotron:
     description-class: smaller

@@ -14,7 +14,7 @@ jumbotron:
         class: btn btn-primary
         icon: fa fa-rss
 permalink: /planet/
-js-package: rss
+js-package: planet
 css-package: planet
 flow:
     - row: custom_include_row

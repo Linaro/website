@@ -4,7 +4,7 @@ description: |-
     Members of Linaro organised by groups.
 layout: flow
 permalink: /members-by-group/
-js-package: members
+js-package: membership
 css-package: members
 jumbotron:
     title: Members by Group
@@ -33,5 +33,4 @@ flow:
               - title: contact@linaro.org
                 url: mailto:contact@linaro.org?subject=Linaro.org - Membership
                 style: btn-primary
-
 ---
