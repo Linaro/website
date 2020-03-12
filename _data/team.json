@@ -182,11 +182,11 @@
       ]
     },
     {
-      "name": "Bryan Huntsman",
+      "name": "Sandeep Singhai",
       "title": "Board member for Qualcomm",
       "company": "Qualcomm",
-      "image": "/assets/images/people/Bryan-Huntsman.jpg",
-      "bio": "Bryan Huntsman is a Senior Director at the Qualcomm Innovation Center and is responsible for Linux Kernel development on Qualcomm Snapdragon processors for mobile and IoT markets. Over the past nine years, he has set up a team of engineers and engineering processes that contributed to the launch of over a billion Android devices. Prior to joining Qualcomm, Bryan spent 10 years in the telecommunications industry working as a SW/FW developer for embedded, real-time systems. Bryan has a B.S in Computer Engineering from the University of Florida.",
+      "image": "/assets/images/people/SandeepSinghai.jpg",
+      "bio": "Sandeep Singhai is Senior Director of Engineering at Qualcomm Innovation Center where he has held various leadership positions in the area of power and performance on mobile SoCs, IoT, project engineering, large scale software management and product commercialization. He current leads the Linux and Android HLOS engineering team responsible for delivering vertically integrated software solutions across Qualcomm’s Snapdragon chipsets, commercialized on over billion mobile devices. Sandeep has more than 20 years of experience in the wireless and IoT industry and he holds 10 patents in the area of data communications, broadcast systems and multimedia. He has a Master of Technology in Computer Science and Engineering from Indian Institute of Technology, Kanpur.",
       "teams": [
         "board_of_directors"
       ]
