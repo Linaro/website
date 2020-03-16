@@ -215,3 +215,5 @@ asset_pipeline:
   compress: true
   output_path: assets/js
   gzip: false
+# Path to Jekyll collections
+collections_dir: collections
