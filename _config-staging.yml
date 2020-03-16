@@ -7,3 +7,7 @@ url: "https://staging.linaro.org"
 destination: staging.linaro.org
 # Production boolean used in layouts / includes
 production: false
+# Google Analytics
+google_analytics:
+  enabled: false
+  code: UA-16756069-1
