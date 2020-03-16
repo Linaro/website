@@ -1,7 +1,8 @@
 ---
 name: Alan Bennett
-username: alan.bennett
 first_name: Alan
 last_name: Bennett
-image_path: https://secure.gravatar.com/avatar/d9fea6607c629b1bc9a21f86147e91d4
+username: alan.bennett
+image_path: /assets/images/content/2038 image.jpg
 ---
+
