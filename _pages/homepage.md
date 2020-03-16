@@ -55,7 +55,7 @@ flow:
     style: call_to_action_sections
     sections:
       - format: feature_block
-        style: text-center text-white linaro_membership
+        style: dotted linaro_membership
         feature_block_content:
           position: left
           type: image
@@ -75,7 +75,7 @@ flow:
               url: /membership/
               style: btn-primary homepage_call_to_action
       - format: feature_block
-        style: text-center text-white developer_services
+        style: dotted developer_services
         feature_block_content:
           position: right
           type: image
