@@ -34,8 +34,7 @@ The channel configuration is static, which means the purpose of channel is fixed
 
 ![](/assets/images/content/ipcr-channel.png "ipcr-channel")
 
-struct mhi_chan {     const char *name;     struct mhi_ring buf_ring;     struct mhi_ring tre_ring;
-    u32 chan;
+struct mhi_chan {     const char *name;     struct mhi_ring buf_ring;     struct mhi_ring tre_ring;     u32 chan;
     u32 er_index;
     u32 intmod;
     enum mhi_ch_type type;
@@ -48,10 +47,8 @@ The above structure represents an MHI channel in the kernel. Note the `*mhi_dev`
 
 MHI events are the interrupts coming from the client device (e.g. the modem). The client device generates events for MHI state transitions, error conditions, completion messages to the host. The MHI events are generated using the Event Ring (ER), which essentially is a data structure available in the host memory, mapped for the device. The events’ rings are organized as circular queues of Event Descriptors (ED). Each event descriptor defines one event that is communicated from the device to the host through an actual physical interface such as PCI-E. Each event ring has an associated interrupt (MSI in case of PCI-E). The number of interrupts may be limited in the host processor, therefore multiple event rings may share available interrupts to accommodate more events.
 
-struct mhi_event {     struct mhi_controller *mhi_cntrl;     struct mhi_chan* mhi_chan; / *dedicated to channel* /     u32 er_index;     u32 intmod;
-    u32 irq;
-    int chan; / *this event ring is dedicated to a channel (optional)* /     u32 priority;     ...
-};
+struct mhi_event {     struct mhi_controller *mhi_cntrl;     struct mhi_chan* mhi_chan; / *dedicated to channel* /     u32 er_index;     u32 intmod;     u32 irq;
+    int chan; / *this event ring is dedicated to a channel (optional)* /     u32 priority;     ... };
 
 The above structure represents an MHI event in the kernel. Note that there is an IRQ field for each event, which can be unique or shared. This IRQ will be used by the modem for sharing events to the host in the form of event rings. When an event gets added to the event ring, the IRQ associated with the event ring will be asserted in the host. Most of the fields for this structure will come from `struct mhi_event_config` available in the controller driver.
 
@@ -107,8 +104,7 @@ MHI bus implementation in the Linux kernel has 3 major components:
 
 MHI device is the logical device which is created for MHI controllers and channels. For the channels, there can either be a single MHI device for each channel (Uni-directional) or per channel pair (Bi-directional). This configuration will be determined by the MHI controller drivers. The MHI devices for the controllers are created during controller registration and the devices for channels are created when MHI is in AMSS state or SBL state.
 
-struct mhi_device {         const struct mhi_device_id *id;         const char* chan_name;         struct mhi_controller *mhi_cntrl;         struct mhi_chan* ul_chan;         struct mhi_chan *dl_chan;         struct device dev;
-        enum mhi_device_type dev_type;
+struct mhi_device {         const struct mhi_device_id *id;         const char* chan_name;         struct mhi_controller *mhi_cntrl;         struct mhi_chan* ul_chan;         struct mhi_chan *dl_chan;         struct device dev;         enum mhi_device_type dev_type;
         int ul_chan_id;
         int dl_chan_id;
         u32 dev_wake;
@@ -136,8 +132,7 @@ MHI drivers are client drivers which bind to MHI devices. The client drivers are
 
 For instance, below is the channel declaration of the link:https://lkml.org/lkml/2020/1/31/316\[QRTR MHI client driver] included in the patch submission:
 
-static const struct mhi_device_id qcom_mhi_qrtr_id_table\[] = {         { .chan = "IPCR" },         {}
-};
+static const struct mhi_device_id qcom_mhi_qrtr_id_table\[] = {         { .chan = "IPCR" },         {} };
 MODULE_DEVICE_TABLE(mhi, qcom_mhi_qrtr_id_table);
 
 So the client driver binds to IPCR (IPC Router) channel. Note that, there can either be one MHI device per channel, or one for the MHI channel pair. This entirely depends on the controller driver configuration.
@@ -147,8 +142,7 @@ struct mhi_driver {     const struct mhi_device_id *id_table;     int (*probe)(s
 The above structure represents an MHI driver in the kernel. There is a `struct
 device_driver` for each MHI driver so that it can bind to the corresponding `struct device`. Also, there are few callbacks available which are required by the MHI stack. So a client driver should pass relevant functions for these. The purposes of these callbacks are explained below:
 
-probe      - MHI client driver's probe function called during              `mhi_driver_register` remove     - MHI client driver's remove function called during              `mhi_driver_unregister`  ul_xfer_cb - Callback used by the MHI stack to notify the client driver of the              uplink transfer status. This callback will be executed for both
-             transfer success and failure.
+probe      - MHI client driver's probe function called during              `mhi_driver_register` remove     - MHI client driver's remove function called during              `mhi_driver_unregister`  ul_xfer_cb - Callback used by the MHI stack to notify the client driver of the              uplink transfer status. This callback will be executed for both              transfer success and failure.
 dl_xfer_cb - Callback used by the MHI stack to notify the client driver of the
              downlink transfer status. This callback will be executed for both
              transfer success and failure.
