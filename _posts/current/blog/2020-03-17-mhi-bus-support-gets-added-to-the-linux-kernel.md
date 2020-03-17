@@ -34,8 +34,7 @@ The channel configuration is static, which means the purpose of channel is fixed
 
 ![](/assets/images/content/ipcr-channel.png "ipcr-channel")
 
-struct mhi_chan {     const char *name;     struct mhi_ring buf_ring;     struct mhi_ring tre_ring;     u32 chan;     u32 er_index;
-    u32 intmod;
+struct mhi_chan {     const char *name;     struct mhi_ring buf_ring;     struct mhi_ring tre_ring;     u32 chan;     u32 er_index;     u32 intmod;
     enum mhi_ch_type type;
     ...
     struct mhi_device* mhi_dev;     ... }
@@ -102,8 +101,7 @@ MHI bus implementation in the Linux kernel has 3 major components:
 
 MHI device is the logical device which is created for MHI controllers and channels. For the channels, there can either be a single MHI device for each channel (Uni-directional) or per channel pair (Bi-directional). This configuration will be determined by the MHI controller drivers. The MHI devices for the controllers are created during controller registration and the devices for channels are created when MHI is in AMSS state or SBL state.
 
-struct mhi_device {         const struct mhi_device_id *id;         const char* chan_name;         struct mhi_controller *mhi_cntrl;         struct mhi_chan* ul_chan;         struct mhi_chan *dl_chan;         struct device dev;         enum mhi_device_type dev_type;         int ul_chan_id;
-        int dl_chan_id;
+struct mhi_device {         const struct mhi_device_id *id;         const char* chan_name;         struct mhi_controller *mhi_cntrl;         struct mhi_chan* ul_chan;         struct mhi_chan *dl_chan;         struct device dev;         enum mhi_device_type dev_type;         int ul_chan_id;         int dl_chan_id;
         u32 dev_wake;
 };
 
@@ -138,8 +136,7 @@ struct mhi_driver {     const struct mhi_device_id *id_table;     int (*probe)(s
 The above structure represents an MHI driver in the kernel. There is a `struct
 device_driver` for each MHI driver so that it can bind to the corresponding `struct device`. Also, there are few callbacks available which are required by the MHI stack. So a client driver should pass relevant functions for these. The purposes of these callbacks are explained below:
 
-probe      - MHI client driver's probe function called during              `mhi_driver_register` remove     - MHI client driver's remove function called during              `mhi_driver_unregister`  ul_xfer_cb - Callback used by the MHI stack to notify the client driver of the              uplink transfer status. This callback will be executed for both              transfer success and failure. dl_xfer_cb - Callback used by the MHI stack to notify the client driver of the
-             downlink transfer status. This callback will be executed for both
+probe      - MHI client driver's probe function called during              `mhi_driver_register` remove     - MHI client driver's remove function called during              `mhi_driver_unregister`  ul_xfer_cb - Callback used by the MHI stack to notify the client driver of the              uplink transfer status. This callback will be executed for both              transfer success and failure. dl_xfer_cb - Callback used by the MHI stack to notify the client driver of the              downlink transfer status. This callback will be executed for both
              transfer success and failure.
 status_cb  - Callback used by the MHI stack to notify client driver of events
              such as pending data, state transition etc...
