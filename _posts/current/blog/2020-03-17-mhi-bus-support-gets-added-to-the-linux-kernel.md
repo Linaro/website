@@ -58,11 +58,11 @@ MHI events are the interrupts coming from the client device (e.g. the modem). Th
 ```c
 struct mhi_event {     
     struct mhi_controller *mhi_cntrl;     
-    struct mhi_chan* mhi_chan; / *dedicated to channel* /     
+    struct mhi_chan* mhi_chan; /*dedicated to channel */     
     u32 er_index;     
     u32 intmod;     
     u32 irq;     
-    int chan; / *this event ring is dedicated to a channel (optional)* /     
+    int chan; /* this event ring is dedicated to a channel (optional) */  
     u32 priority;     
     ... 
 };
