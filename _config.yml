@@ -130,8 +130,8 @@ http2_resources:
     type: font/woff2
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
-  enabled: false
-  code: UA-16756069-1
+  enabled: true
+  code: UAXXXXXX
 # Set the site-wide default social media share image.
 social_media_share_image: /assets/images/social-media-image.png
 # Set the default favicon
@@ -156,6 +156,8 @@ social_media_channels:
     url: https://www.youtube.com/linaroorg
   twitter:
     url: https://twitter.com/linaroorg
+  instagram:
+    url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
     enabled: true
