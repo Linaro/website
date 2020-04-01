@@ -12,7 +12,7 @@ jumbotron:
   title: Awards
   title-class: big-title
   description: ""
-  background-image: /assets/images/content/yvr18-group-photo.jpg
+  image: /assets/images/content/yvr18-group-photo.jpg
 flow:
   - row: container_row
     sections:

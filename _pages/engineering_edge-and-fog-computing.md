@@ -26,7 +26,7 @@ jumbotron:
     title: Edge & Fog Computing
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/edge-and-fog-bg.jpg
+    image: /assets/images/content/edge-and-fog-bg.jpg
 flow:
   - row: container_row
     style: members_row light_gray_row

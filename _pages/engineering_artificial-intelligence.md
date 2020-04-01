@@ -19,7 +19,7 @@ jumbotron:
     title: Artificial Intelligence
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/machine-learning-bg.jpg
+    image: /assets/images/content/machine-learning-bg.jpg
 layout: flow
 flow:
   - row: container_row

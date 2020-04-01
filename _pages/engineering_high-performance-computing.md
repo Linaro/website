@@ -13,7 +13,7 @@ jumbotron:
     title: High Performance Computing
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/hpc-bg.jpg
+    image: /assets/images/content/hpc-bg.jpg
 flow:
   - row: container_row
     style: large_type introduction_row

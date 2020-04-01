@@ -4,7 +4,7 @@ jumbotron:
     title: Open Source Consultancy and Licensing
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/open-source-consultancy/
 keywords: open source, consulting, community, licensing, training
 icon: /assets/images/content/DeveloperServices-icons_consultancy.svg

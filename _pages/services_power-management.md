@@ -4,7 +4,7 @@ jumbotron:
     title: Power Management Tuning Services
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/power-management/
 keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
 icon: /assets/images/content/DeveloperServices-icons_power.svg

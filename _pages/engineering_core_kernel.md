@@ -17,7 +17,7 @@ jumbotron:
   title: Kernel
   title-class: big-title
   description: ""
-  background-image: /assets/images/content/engineering/context/stewardship.jpg
+  image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
     style: members_row light_gray_row

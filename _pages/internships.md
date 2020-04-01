@@ -10,7 +10,7 @@ jumbotron:
     title: Internships at Linaro
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/careers-image-3.jpg
+    image: /assets/images/content/careers-image-3.jpg
     buttons:
       - title: View Brochure
         url: https://linaro.co/linaro-interns-brochure

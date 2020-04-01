@@ -6,6 +6,7 @@ edit-on-github: "false"
 css-package: home
 layout: flow
 jumbotron:
+  inner_class: dotted
   slider:
     - darken: true
       title: Linaro accelerates product deployment in the Arm ecosystem
@@ -16,6 +17,7 @@ jumbotron:
         Linaro Connect Budapest 2020 Cancelled
       image: /assets/images/content/budapest_banner_bg.jpg
       inner-image: /assets/images/content/BUD20logo_white_text.png
+      inner_class: text-center
       buttons:
         - title: Read more
           url: /blog/linaro-connect-budapest-2020-cancelled/

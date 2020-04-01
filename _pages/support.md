@@ -9,7 +9,7 @@ description: >
 permalink: /support/
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/developer-services-banner.jpg
+  image: /assets/images/content/developer-services-banner.jpg
   title: Linaro Support
   title-class: big-title
   description: ''

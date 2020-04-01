@@ -8,7 +8,7 @@ jumbotron:
     title: "The Team"
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/san19-group-photo.jpg
+    image: /assets/images/content/san19-group-photo.jpg
 flow:
   - row: container_row
     style: larger_type light_gray_row centered_type introduction_row

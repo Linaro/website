@@ -8,7 +8,7 @@ description: >-
 permalink: /downloads/
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/downloads-bg.jpg
+  image: /assets/images/content/downloads-bg.jpg
   title: Builds & Downloads
   description: ''
   title-class: big-title

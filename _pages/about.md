@@ -10,7 +10,7 @@ jumbotron:
   description-class: smaller
   description: ""
   title-class: big-title
-  background-image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
+  image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 flow:
   - row: container_row
     style: large_type introduction_row

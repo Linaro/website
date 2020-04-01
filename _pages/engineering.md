@@ -11,7 +11,7 @@ jumbotron:
     description-class: smaller
     description: ""
     title: Where Collaborative Engineering on Arm Happens
-    background-image: /assets/images/content/engineering_background.jpg
+    image: /assets/images/content/engineering_background.jpg
 redirect_from:
  - /engineering/projects/
 flow:

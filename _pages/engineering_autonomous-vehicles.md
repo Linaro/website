@@ -20,7 +20,7 @@ jumbotron:
     title: Autonomous Vehicles
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/autonomous-driving-bg.jpg
+    image: /assets/images/content/autonomous-driving-bg.jpg
 flow:
   - row: container_row
     style: large_type introduction_row

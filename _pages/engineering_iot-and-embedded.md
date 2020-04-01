@@ -28,7 +28,7 @@ jumbotron:
     title: IoT & Embedded
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/IoT-bg.jpg
+    image: /assets/images/content/IoT-bg.jpg
 flow:
   - row: container_row
     style: members_row light_gray_row

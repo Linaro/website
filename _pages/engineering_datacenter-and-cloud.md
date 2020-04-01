@@ -23,7 +23,7 @@ jumbotron:
     title: Datacenter & Cloud
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/ldcg-bg.jpg
+    image: /assets/images/content/ldcg-bg.jpg
 flow:
   - row: container_row
     style: members_row light_gray_row

@@ -4,7 +4,7 @@ jumbotron:
     title: Security, TrustZone and OP-TEE
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/security/
 keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
 icon: /assets/images/content/DeveloperServices-icons_Security.svg

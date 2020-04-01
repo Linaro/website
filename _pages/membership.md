@@ -8,7 +8,7 @@ js-package: membership
 css-package: membership
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/memberhsip_bg.jpg
+  image: /assets/images/content/memberhsip_bg.jpg
   title: Shape the future of Arm Software
   description: ''
   title-class: big-title

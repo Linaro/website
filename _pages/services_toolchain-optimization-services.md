@@ -4,7 +4,7 @@ jumbotron:
     title: Toolchain Optimization Services
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/toolchain-optimization-services/
 keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, microarchitecture
 icon: /assets/images/content/DeveloperServices-icons_toolchain.svg

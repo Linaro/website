@@ -18,5 +18,5 @@ jumbotron:
     title: Linaro GDPR Compliance
     description: ""
     title-class: big-title
-    background-image: /assets/images/content/linarolife.jpg
+    image: /assets/images/content/linarolife.jpg
 ---

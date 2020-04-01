@@ -8,7 +8,7 @@ js-package: engineering
 css-package: landing-page
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/engineering/context/stewardship.jpg
+  image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management Farm
   description: ''
   title-class: big-title

@@ -4,7 +4,7 @@ jumbotron:
     title: Kernels and Long Term Support Services
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/kernel-lts/
 keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr
 icon: /assets/images/content/DeveloperServices-icons_kernels.svg

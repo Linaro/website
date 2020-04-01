@@ -4,7 +4,7 @@ jumbotron:
     title: Bootloaders and Boot Architecture
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bootloaders/
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg

@@ -10,7 +10,7 @@ jumbotron:
     title: Want to help build technology for the future?
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/careers-image-1.jpg
+    image: /assets/images/content/careers-image-1.jpg
 flow:
     - row: container_row
       style: large_type introduction_row

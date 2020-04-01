@@ -10,7 +10,7 @@ jumbotron:
     title: Resources
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/resources-header.png
+    image: /assets/images/content/resources-header.png
 flow:
     - row: container_row
       style: block_row

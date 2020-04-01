@@ -4,7 +4,7 @@ description: |-
     Planet Linaro includes blog posts gathered from around the web about Linaro.
 layout: flow
 jumbotron:
-    background-image: /assets/images/content/downloads-bg.jpg
+    image: /assets/images/content/downloads-bg.jpg
     title: Planet Linaro
     title-class: big-title
     description: ""

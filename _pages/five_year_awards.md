@@ -13,7 +13,7 @@ pagination:
 css-package: awards
 jumbotron:
     title: 5 Year Awards
-    background-image: /assets/images/content/5years_bkgd.png
+    image: /assets/images/content/5years_bkgd.png
     description: ""
     title-class: big-title
 _hide_content: true

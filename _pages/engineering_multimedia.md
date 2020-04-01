@@ -18,7 +18,7 @@ jumbotron:
     title: Multimedia
     title-class: big-title
     description: "Improving the media experience on Arm devices"
-    background-image: /assets/images/content/engineering/context/multimedia.jpg
+    image: /assets/images/content/engineering/context/multimedia.jpg
 layout: flow
 flow:
   - row: container_row

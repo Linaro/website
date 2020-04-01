@@ -10,7 +10,7 @@ jumbotron:
     title: Contact Linaro
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/harston-mill.jpg
+    image: /assets/images/content/harston-mill.jpg
 flow:
   - row: container_row
     sections:

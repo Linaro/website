@@ -12,7 +12,7 @@ jumbotron:
     title-class: big-title
     description: ""
     include: projects-jumbotron-include.html
-    background-image: /assets/images/content/engineering-bg.jpg
+    image: /assets/images/content/engineering-bg.jpg
 ---
 When a suitable target project doesn't exist, Linaro may create one. The first of these was the [Linaro Automated
 Validation Architecture](https://validation.linaro.org/)(LAVA) - Linaro needed a test and

@@ -12,7 +12,7 @@ jumbotron:
     title: "Helping Build & Deploy your Products on Arm"
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 flow:
     - row: container_row
       style: large_type

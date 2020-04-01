@@ -4,7 +4,7 @@ jumbotron:
     title: Testing and Validation Services
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/testing-validation-services/
 keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development
 icon: /assets/images/content/DeveloperServices-icons_validation.svg

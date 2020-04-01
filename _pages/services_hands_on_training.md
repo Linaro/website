@@ -4,7 +4,7 @@ jumbotron:
     title: Hands on Training
     title-class: big-title
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/hands-on-training/
 keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored to needs
 icon: /assets/images/content/DeveloperServices-icons_training.svg
