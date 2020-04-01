@@ -11,3 +11,7 @@ production: true
 google_analytics:
   enabled: true
   code: UA-16756069-1
+  cookies_popup_title: Cookies & Privacy Policy
+  cookies_popup_description: >
+    Cookies enable you to use this website to the full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.
+  privacy_url: /privacy/
