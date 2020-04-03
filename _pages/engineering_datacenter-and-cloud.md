@@ -26,7 +26,7 @@ jumbotron:
     image: /assets/images/content/ldcg-bg.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: ldcg
@@ -45,7 +45,7 @@ flow:
           text: >
             Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem. Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
         - format: custom_include
           youtube_embed:
@@ -94,7 +94,7 @@ flow:
             become mature with various production implementations. Linaro drives engineering activities
             and ARMv8 builds for the following projects:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
       - format: custom_include
         params: Apache Ambari,Hadoop,Apache Spark,Apache Bigtop

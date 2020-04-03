@@ -27,7 +27,7 @@ jumbotron:
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club

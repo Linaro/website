@@ -70,7 +70,7 @@ flow:
           text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
       - format: custom_include
         source: membership/projects_slider.html
-    style: large_type light_gray_row centered_type projects_row
+    style: large_type bg-light centered_type projects_row
   - row: container_row
     sections:
       - format: title
@@ -91,7 +91,7 @@ flow:
     sections:
       - format: custom_include
         source: components/members_slider.html
-    style: members_slider_row light_gray_row
+    style: members_slider_row bg-light
   - row: container_row
     sections:
       - format: text

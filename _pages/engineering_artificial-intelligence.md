@@ -36,7 +36,7 @@ flow:
           text: >
             The initial focus is on the inference side on Cortex-A application processors with Linux and Android, both edge computing and  smart devices. As part of the remit, the team will collaborate on a definition of API and modular framework for an Arm runtime inference engine architecture based on plug-ins supporting dynamic modules and optimized shared Arm compute libraries.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
         - format: custom_include
           youtube_embed:

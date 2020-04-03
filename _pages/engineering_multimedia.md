@@ -22,7 +22,7 @@ jumbotron:
 layout: flow
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club,Comcast
@@ -38,7 +38,7 @@ flow:
 
             The Linaro multimedia group was formed in 2018 to help overcome these fragmentation issues and provide standardized solutions, helping to improve the media experience on Arm and resolve common multimedia problems for the Arm ecosystem.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
         - format: custom_include
           youtube_embed:
@@ -78,7 +78,7 @@ flow:
 
             - enhancements to wayland and GStreamer to support secure playback use cases.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
       - format: custom_include
         youtube_embed:
@@ -99,7 +99,7 @@ flow:
           text: >
             [RDK](https://rdkcentral.com/) is a modular, portable and customizable open source software solution that standardizes core functions used in video, broadband and IoT devices. The goal of the RDK project is to help facilitate fast ramp up on member companies own RDK projects. To do this Linaro prototypes on member company silicon best in class open source components to give RDK more interoperability, flexibility and improved performance. Linaro has worked on the Yoctofication of RDK, integration of OP-TEE and CDM plugins to support secure video use cases, enhancements to the Westeros wayland compositor and member silicon enablement.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
       - format: custom_include
         youtube_embed:
@@ -130,7 +130,7 @@ flow:
           text: >
             As SoC camera architectures have become more complex, the kernel APIs have evolved to support this increased complexity. New kernel APIs such as media controller and v4l2 subdev were created to expose these complex pipelines to userspace. What’s more, instead of having one video device node to manage, userspace now has multiple device nodes. In summary, setting up these complex camera pipelines requires userspace to have lots of prior knowledge of the underlying hardware. The proposed solution to this complexity is [libcamera.org](http://libcamera.org/), which aims to encapsulate all this platform complexity into a userspace library that can be re-used by ChromeOS, Android and Linux. Linaro is working with the libcamera project and across the Camera ecosystem to help members leverage the library and enable their SoCs. Work to date has focussed on Camera sensor driver upstreaming to avoid fragmentation in downstream vendor trees, and helping ensure good support of the [96boards](https://www.96boards.org/) ecosystem.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
       - format: custom_include
         youtube_embed:

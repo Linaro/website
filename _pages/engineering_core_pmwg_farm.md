@@ -17,7 +17,7 @@ flow:
     sections:
       - format: custom_include
         source: related_members.html
-    style: members_row light_gray_row
+    style: members_row bg-light
   - row: main_content_row
     style: large_type introduction_row
   - row: custom_include_row

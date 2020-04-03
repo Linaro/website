@@ -27,29 +27,34 @@ flow:
   - row: container_row
     style: introduction_row
     sections:
-      - format: text
+      - format: title
         style: text-center
-        text_content:
+        title_content:
+          style: display-5
+          size: h2
           text: >
             Linaro brings together industry and the open source engineering community to
             collaboratively develop software on Arm.
       - format: title
-        style: arm_expertise
+        style: arm_expertise text-center
         title_content:
           size: h2
+          style: dotted dotted_heading
           text: >
             Arm software is our expertise
   - row: container_row
-    style: engineering_row
+    style: engineering_row bg-secondary
     sections:
       - format: title
+        style: text-center
         title_content:
           size: h2
+          style: display-4 text-white
           text: Delivering end to end solutions using Arm technology
       - format: custom_include
         source: components/engineering_slider.html
   - row: container_row
-    style: testimonial_row
+    style: testimonial_row bg-light
     sections:
       - format: custom_include
         source: components/testimonial_slider.html

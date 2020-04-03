@@ -11,10 +11,6 @@ jumbotron:
 flow:
     - row: main_content_row
     - row: container_row
-      sections:
-        - format: custom_include
-          source: components/cookie_manager.html
-    - row: container_row
       style: block_row fixed
       sections:
         - format: tabs
@@ -821,7 +817,10 @@ flow:
 
                 **Payment instructions:**
                 Payments are done through Paypal. To complete payment, you will need to fill in your billing address, click ‘Make Payment’ and then press the Paypal button on the following page to complete the transaction.
-
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: components/cookie_manager.html
 ---
 
 <script>

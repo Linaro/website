@@ -21,7 +21,7 @@ jumbotron:
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club
@@ -40,7 +40,7 @@ flow:
           text: >
             The goals of KVT are to shorten derivative Linux kernel release intervals, increase the confidence of upstream Linux kernel engineers in the quality of their releases, and increase the confidence of downstream adopters of those Linux kernel trees. Ultimately the goal is that KVT will encourage downstream hardware vendors to more frequently update the Linux kernel that runs on their devices in order that consumers might benefit from bug and security updates.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
         - format: custom_include
           youtube_embed:
