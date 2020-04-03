@@ -8,7 +8,7 @@
                         <h4 class="modal-title">{{testimonial.attribution}}</h4>
                     </div>
                     <div class="modal-body">
-                        <video class="lazyload img-responsive testimonial_video" data-poster="{{testimonial.cover_image}}"
+                        <video class="lazyload img-responsive testimonial_video"
                             controls="controls" preload="none">
                             {% if testimonial.video.ogv %}
                             <source src="{{testimonial.video.ogv}}" type="video/ogg">
@@ -31,21 +31,26 @@
     <div class="owl-carousel owl-theme" id="testimonial_slider">
         {% for testimonial in site.data.membership_testimonials.items %}
         <div class="item testimonial">
-            <div class="col col-12 col-sm-6 block__image">
-                <a data-toggle="modal" href='#testimonial{{forloop.index}}'>
-                    <div class="video_placeholder_image" style="background-image:url({{testimonial.cover_image}})">
-                        <div class="play_button">
-                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <div class="row">
+                <div class="col col-12 col-sm-6 block__image">
+                    <a data-toggle="modal" href='#testimonial{{forloop.index}}'>
+                        <div class="video_placeholder_image">
+                            {% assign image_url = testimonial.cover_image | remove_first: '/assets/images/' %}
+                            {% capture image_alt %}{{testimonial.attribution}} cover image{% endcapture %}
+                            {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
+                            <div class="play_button">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </div>
                         </div>
+                    </a>
+                </div>
+                <div class="col col-12 col-sm-6 block__text">
+                    <blockquote>
+                        &ldquo;{{testimonial.quote}}&rdquo;
+                    </blockquote>
+                    <div class="attribution">
+                        <strong>{{testimonial.attribution}}</strong>
                     </div>
-                </a>
-            </div>
-            <div class="col col-12 col-sm-6 block__text">
-                <blockquote>
-                    &ldquo;{{testimonial.quote}}&rdquo;
-                </blockquote>
-                <div class="attribution">
-                    <strong>{{testimonial.attribution}}</strong>
                 </div>
             </div>
         </div>
