@@ -1,4 +1,5 @@
-<div class="col-xs-12">
+<div class="col col-12">
+    <div class="row">
     {% assign board_of_directors = "" | split: ',' %}
     {% for team_member in site.data.team["teamMembers"] %}
         {% for team in team_member.teams %}
@@ -9,12 +10,12 @@
     {% endfor %}
     {% assign sorted_members = board_of_directors | sort: 'order' %}
     {% for individual in sorted_members %}
-        <div class="col-xs-6 col-sm-4 col-lg-2 text-center team_item">
+        <div class="col col-12 col-sm-6 col-md-4 text-center team_item">
             <div class="modal team_modal fade" id="{{individual.name | slugify}}">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <div class="col-xs-11 no-padding">
+                            <div class="col col-11 no-padding">
                                 {% if individual.bio and individual.bio != ""%}
                                     {{individual.bio | markdownify }}
                                 {% else %}
@@ -23,23 +24,26 @@
                                 </p>
                                 {% endif %}
                             </div>
-                            <div class="col-xs-1 no-padding">
+                            <div class="col col-1 no-padding">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a data-toggle="modal" href='#{{individual.name | slugify}}'>
-                <img class="lazyload img-circle team_member_image"
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                <div class="card mb-5">
+                    <img class="card-img-top equal-height-card-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 data-src="{% if individual.image and individual.image != '' %}{{individual.image}}{% else %}/assets/images/content/placeholder.jpg{% endif %}"
-                alt="{{individual.name}} profile image"/>
-                <h3>{{individual.name}}</h3>
-                <span class="team_label">
-                    {{individual.title}}
-                </span>
-            </a>
+                 alt="{{individual.name}} profile image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{individual.name}}</h5>
+                        <p class="card-text">{{individual.title}}</p>
+                        <a data-toggle="modal" class="btn btn-primary" href='#{{individual.name | slugify}}'>
+                            About
+                        </a>
+                    </div>
+                </div>
         </div>
     {% endfor %}
+    </div>
 </div>

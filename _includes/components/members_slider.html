@@ -1,5 +1,5 @@
 {% assign unique_linaro_members = "" | split: ',' %}
-<div class="col-xs-12">
+<div class="col col-12">
     <div class="owl-carousel owl-theme" id="members_slider">
         {% for group in site.data.members %}
             {% if group.id == "core" or group.id == "club" or group.id == "group" or group.id == "autonomous-vehicles-incubator" or group.id == "hpc-sig" %}
@@ -16,7 +16,9 @@
                                 {% else %}
                                     {% assign group_name = group.id | capitalize %}
                                 {% endif %}
-                                <span class="member_type {{group.id}}">{{ group_name }} Member</span>
+                                <button role="button" class="btn btn-primary member_type {{group.id}}">
+                                    {{ group_name }} Member
+                                </button>
                             </div>
                         </a>
                         {% assign unique_linaro_members = unique_linaro_members | push: member %}

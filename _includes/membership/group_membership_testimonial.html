@@ -1,7 +1,7 @@
 {% assign testimonial = site.data.membership_testimonials.items | where: 'attribution', 'Larry Wikelius, Marvell' | first %}
-<div class="col-xs-12 no-padding">
+<div class="col col-12 no-padding">
     <div class="modal fade video_modal" id="groupTestimonial">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -27,7 +27,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 block__image">
+    <div class="col col-12 col-sm-6 block__image">
         <a data-toggle="modal" href='#groupTestimonial'>
             <div class="lazyload video_placeholder_image" style="background-image:url({{testimonial.cover_image}})">
                 <div class="play_button">
@@ -36,7 +36,7 @@
             </div>
         </a>
     </div>
-    <div class="col-xs-12 col-sm-6 block__text">
+    <div class="col col-12 col-sm-6 block__text">
         <blockquote>
             &ldquo;{{testimonial.quote}}&rdquo;
         </blockquote>
