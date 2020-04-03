@@ -12,15 +12,6 @@ jumbotron:
       title: Linaro accelerates product deployment in the Arm ecosystem
       image: /assets/images/content/code_banner.jpg
       title-class: big-title
-    - buttons:
-        - title: Read more
-          url: 'https://connect.linaro.org/linaro-tech-days/'
-      darken: true
-      title: Introducing Linaro Tech Days
-      description: >-
-        A series of technical sessions that will be livestreamed online on the
-        24 and 25 March 2020.
-      image: /assets/images/content/BKK19-150.jpg
 flow:
   - row: container_row
     sections:
