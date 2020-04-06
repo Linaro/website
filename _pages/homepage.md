@@ -41,7 +41,6 @@ flow:
             Arm software is our expertise
     style: introduction_row
   - row: container_row
-    style: engineering_row bg-secondary
     sections:
       - format: title
         style: text-center
@@ -51,7 +50,7 @@ flow:
           text: Delivering end to end solutions using Arm technology
       - format: custom_include
         source: components/engineering_slider.html
-    style: engineering_row
+    style: engineering_row bg-secondary
   - row: container_row
     style: testimonial_row bg-light
     sections:
