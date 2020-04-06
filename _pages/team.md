@@ -17,7 +17,7 @@ flow:
         style: text-center
         title_content:
           size: h2
-          style: display-4
+          style: display-4 text-white
           text: >
             Linaro is member driven. Member companies work with
             Linaro to drive the direction of long-term objectives and
