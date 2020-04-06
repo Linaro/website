@@ -27,7 +27,6 @@ location: 'Virtual Event '
 date: '2020-03-18 10:35:57'
 event_date: '2020-03-24 10:35:57'
 event_end_date: '2020-03-25 10:35:57'
-image: /assets/images/content/TECHDAYS Twitter.png
+image: /assets/images/content/TECHDAYSTwitter.png
 event_type: sponsor
 ---
-
