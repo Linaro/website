@@ -7,8 +7,8 @@
                     {% unless unique_linaro_members contains member%}
                         <a href="{{member.url}}" target="_self">
                             <div class="item">
-                                <div class="member_image">
-                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                <div class="member_image bg-white my-4">
+                                    <img class="member_logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         alt="{{member.name}} logo" data-src="{{member.image}}" />
                                 </div>
                                 {% if group.id == 'hpc-sig' %}
@@ -16,7 +16,7 @@
                                 {% else %}
                                     {% assign group_name = group.id | capitalize %}
                                 {% endif %}
-                                <button role="button" class="btn btn-primary member_type {{group.id}}">
+                                <button role="button" class="d-block my-2 mx-auto btn btn-primary member_type {{group.id}}">
                                     {{ group_name }} Member
                                 </button>
                             </div>
