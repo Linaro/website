@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  // Video modals - pause and play video on open/close of modal
+  if ($(".video_modal").length > 0) {
+    $(".video_modal").on("shown.bs.modal", function(e) {
+      var videoElement = $(this).find("video");
+      videoElement.trigger("play");
+    });
+    $(".video_modal").on("hide.bs.modal", function(e) {
+      var videoElement = $(this).find("video");
+      videoElement.trigger("pause");
+    });
+  }
   // Clipboard JS
   if ($("div.highlight").length > 0) {
     $("div.highlight").each(function(index) {
