@@ -21,4 +21,12 @@
             padding:20px;
         }
     }
+    .dotted.dotted_heading {
+        max-width: 500px;
+        padding: 20px;
+        margin: auto;
+    }
+    .dotted_heading .blue{
+        border: 6px dotted #0083b0;
+    }
 }
