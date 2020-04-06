@@ -19,3 +19,5 @@ Over the last year, the Linaro Consumer Group (LCG) has been actively working wi
 One of the most exciting parts of the DragonBoard 845c is that it supports the freedreno graphics driver and mesa, which means the board has a fully open source graphics stack! This avoids the proprietary blob drivers, which while very common in the Android ecosystem, are a constant pain point for adapting to newer kernels and Android revisions. This also means that the board functionality can be completely upstreamed into the mainline kernel, which makes the board a very interesting test target for validating the mainline kernel and stable updates.
 
 {% include image.html name="DB845cblog1.png" class="medium-inline" alt="The Alt text for your image" %}
+
+Test
