@@ -2,7 +2,7 @@
 title: Bootloaders and Boot Architecture
 jumbotron:
     title: Bootloaders and Boot Architecture
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bootloaders/

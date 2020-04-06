@@ -6,12 +6,12 @@ css-package: work
 jumbotron:
     description-class: smaller
     title: "The Team"
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/san19-group-photo.jpg
 flow:
   - row: container_row
-    style: larger_type bg-light centered_type introduction_row
+    style: larger_type bg-secondary centered_type introduction_row
     sections:
       - format: title
         style: text-center

@@ -22,7 +22,7 @@ related_tags:
   - Kernel
 jumbotron:
   title: Core Engineering
-  title-class: big-title
+  inner_class: dotted
   description: ""
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:

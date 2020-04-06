@@ -4,7 +4,7 @@ permalink: /events/
 layout: post-index-events
 jumbotron:
     title: Events
-    title-class: big-title
+    inner_class: dotted
     description: ""
 description: Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
 image:

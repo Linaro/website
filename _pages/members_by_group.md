@@ -8,7 +8,7 @@ js-package: membership
 css-package: members
 jumbotron:
     title: Members by Group
-    title-class: big-title
+    inner_class: dotted
     description: ""
 flow:
     - row: container_row

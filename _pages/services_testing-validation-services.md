@@ -2,7 +2,7 @@
 title: Testing and Validation Services
 jumbotron:
     title: Testing and Validation Services
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/testing-validation-services/

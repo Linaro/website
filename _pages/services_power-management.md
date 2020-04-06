@@ -2,7 +2,7 @@
 title: Power Management Tuning Services
 jumbotron:
     title: Power Management Tuning Services
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/power-management/

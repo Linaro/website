@@ -6,7 +6,7 @@ description: >
     This page provides important security updates related to Linaro releases downloads.
 jumbotron:
     title: Security Downloads
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/downloads-bg.jpg
 flow:

@@ -26,7 +26,7 @@ releases:
     url: https://releases.linaro.org/components/lite/
 jumbotron:
     title: IoT & Embedded
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/IoT-bg.jpg
 flow:

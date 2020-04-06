@@ -16,7 +16,7 @@ related_tags:
   - LHG
 jumbotron:
     title: Multimedia
-    title-class: big-title
+    inner_class: dotted
     description: "Improving the media experience on Arm devices"
     image: /assets/images/content/engineering/context/multimedia.jpg
 layout: flow

@@ -20,7 +20,7 @@ related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 jumbotron:
     title: Consumer
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/consumer-bg.jpg
 flow:

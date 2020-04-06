@@ -4,7 +4,7 @@ permalink: /authors/
 layout: flow
 jumbotron:
     title: Authors
-    title-class: big-title
+    inner_class: dotted
     description: ""
 pagination:
     title: "Authors - Page :num"

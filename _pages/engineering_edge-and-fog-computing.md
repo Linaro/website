@@ -24,7 +24,7 @@ image:
     background-class: "bottom-bg "
 jumbotron:
     title: Edge & Fog Computing
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/edge-and-fog-bg.jpg
 flow:

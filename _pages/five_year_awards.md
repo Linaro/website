@@ -15,6 +15,6 @@ jumbotron:
     title: 5 Year Awards
     image: /assets/images/content/5years_bkgd.png
     description: ""
-    title-class: big-title
+    inner_class: dotted
 _hide_content: true
 ---

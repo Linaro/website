@@ -2,7 +2,7 @@
 title: Kernels and Long Term Support Services
 jumbotron:
     title: Kernels and Long Term Support Services
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/kernel-lts/

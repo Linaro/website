@@ -9,7 +9,7 @@ css-package: projects
 layout: jumbotron-container
 jumbotron:
     title: Upstream Projects
-    title-class: big-title
+    inner_class: dotted
     description: ""
     include: projects-jumbotron-include.html
     image: /assets/images/content/engineering-bg.jpg

@@ -17,6 +17,6 @@ flow:
 jumbotron:
     title: Linaro GDPR Compliance
     description: ""
-    title-class: big-title
+    inner_class: dotted
     image: /assets/images/content/linarolife.jpg
 ---

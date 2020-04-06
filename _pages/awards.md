@@ -10,7 +10,7 @@ css-package: awards
 layout: flow
 jumbotron:
   title: Awards
-  title-class: big-title
+  inner_class: dotted
   description: ""
   image: /assets/images/content/yvr18-group-photo.jpg
 flow:

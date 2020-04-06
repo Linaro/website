@@ -11,7 +11,7 @@ js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Arm Power Management
-  title-class: big-title
+  inner_class: dotted
   description: ""
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:

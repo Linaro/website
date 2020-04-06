@@ -17,7 +17,7 @@ related_tags:
   - Autoware
 jumbotron:
     title: Artificial Intelligence
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/machine-learning-bg.jpg
 layout: flow

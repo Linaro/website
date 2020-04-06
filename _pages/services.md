@@ -10,7 +10,7 @@ js-package: services
 css-package: services
 jumbotron:
     title: "Helping Build & Deploy your Products on Arm"
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 flow:

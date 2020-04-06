@@ -11,12 +11,13 @@ jumbotron:
   image: /assets/images/content/downloads-bg.jpg
   title: Builds & Downloads
   description: ''
-  title-class: big-title
+  inner_class: dotted
 flow:
   - row: main_content_row
   - row: container_row
     sections:
       - block_section_content:
+          item_width: 4
           blocks:
             - buttons:
                 - icon: fa fa-arrow-right
@@ -29,9 +30,7 @@ flow:
                   this site to find code if you know what you are looking for,
                   but we recommend you use the links below for our most popular
                   downloads.
-              title:
-                size: h3
-                text: Releases
+              title: Releases
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Snapshots
@@ -43,9 +42,7 @@ flow:
                   progress that are used for testing and development. The code
                   on this site may not work and should only be used by
                   experienced engineers who know exactly what they are doing.
-              title:
-                size: h3
-                text: Snapshots
+              title: Snapshots
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Downloads
@@ -61,16 +58,7 @@ flow:
                   others can create their own instantiations and run proprietary
                   tests within this standard framework. Click here for the
                   latest downloads.
-              title:
-                size: h3
-                text: LAVA
-          item_width: 4
-        format: block
-        style: text-center text-white
-  - row: container_row
-    sections:
-      - block_section_content:
-          blocks:
+              title: LAVA
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Security Downloads
@@ -81,9 +69,7 @@ flow:
                   Linaro’s engineering groups. The most recent work includes
                   collaboration on Meltdown/Spectre fixes backported in to the
                   4.4, 4.9 and 4.14 kernels.
-              title:
-                size: h3
-                text: Security Downloads
+              title: Security Downloads
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Patches
@@ -94,9 +80,7 @@ flow:
                   to be accepted and incorporated into something like the Linux
                   kernel or GCC tool chain. The Patches website presents this
                   work by team and by upstream project.
-              title:
-                size: h3
-                text: Patches
+              title: Patches
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View LKFT
@@ -109,16 +93,7 @@ flow:
                   and report any regressions as quickly as possible. This is
                   performed by executing a variety of functional-tests on a
                   selection of user-space operating systems.
-              title:
-                size: h3
-                text: LKFT
-          item_width: 4
-        format: block
-        style: text-center text-white
-  - row: container_row
-    sections:
-      - block_section_content:
-          blocks:
+              title: LKFT
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Wiki
@@ -132,12 +107,7 @@ flow:
                   provided as is however we are interested in bug reports and
                   will fix them on a best effort basis.  Downloads can be found
                   on both snapshots.linaro.org and releases.linaro.org.
-              title:
-                size: h3
-                text: LCR
-          item_width: 4
-        format: block
-        style: text-center text-white
+              title: LCR
 ---
 ## Linaro Developer Cloud
 

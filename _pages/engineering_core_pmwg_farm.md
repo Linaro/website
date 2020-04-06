@@ -11,7 +11,7 @@ jumbotron:
   image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management Farm
   description: ''
-  title-class: big-title
+  inner_class: dotted
 flow:
   - row: container_row
     sections:

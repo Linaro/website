@@ -11,7 +11,7 @@ jumbotron:
   image: /assets/images/content/memberhsip_bg.jpg
   title: Shape the future of Arm Software
   description: ''
-  title-class: big-title
+  inner_class: dotted
 flow:
   - row: container_row
     sections:

@@ -2,7 +2,7 @@
 title: AOSP and Linux BSPs, Builds and Support
 jumbotron:
     title: AOSP and Linux BSPs, Builds and Support
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bsp-builds-support/

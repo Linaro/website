@@ -8,7 +8,7 @@ js-package: resources
 css-package: resources
 jumbotron:
     title: Resources
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/resources-header.png
 flow:

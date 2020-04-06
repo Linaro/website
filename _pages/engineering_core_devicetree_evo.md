@@ -15,7 +15,7 @@ related_tags:
   - DTE
 jumbotron:
   title: Devicetree Evolution
-  title-class: big-title
+  inner_class: dotted
   description: ""
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:

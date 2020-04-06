@@ -11,15 +11,14 @@ layout: flow
 jumbotron:
   image: /assets/images/content/developer-services-banner.jpg
   title: Linaro Support
-  title-class: big-title
+  inner_class: dotted
   description: ''
 flow:
   - row: main_content_row
   - row: container_row
-    style: block_row fixed
+    style: pt-0
     sections:
     - format: tabs
-      style: #
       tabs:
         - title: For Linaro Members
           content: |
@@ -29,6 +28,18 @@ flow:
 
             To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) from your company e-mail address or, if you prefer, register using your company e-mail address at [https://support.linaro.org](https://support.linaro.org). LDTS uses domain names to prioritize tickets from member companies, if you do not use your company e-mail address then your ticket will not be prioritized correctly.
         - title: For Linaro Developer Services Customers
+          content: |
+            As an Open Source consortium, Linaro does not have a commercial product set; rather, we are Member funded for Member directed projects and efforts for Linux on Arm. Community (non-Member) tickets are therefore handled on a best effort basis. Our free-of-charge service does not provide comprehensive technical support. The scope is much less broad than that offered to members and customers and we are not able to look deeply into specific problems. However where we have information to hand that can help, we will be delighted to share it.
+
+            Additional Linaro Community Support can also be found at:
+
+            *   [Get Involved](/developers)
+            *   [IRC](/contact/irc/)
+            *   [Mailing Lists](/contact/mailing-list)
+            *   [Downloads](/downloads/)
+
+            To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) or, if you prefer, register at [https://support.linaro.org](https://support.linaro.org/).
+        - title: For the wider community
           content: |
             As an Open Source consortium, Linaro does not have a commercial product set; rather, we are Member funded for Member directed projects and efforts for Linux on Arm. Community (non-Member) tickets are therefore handled on a best effort basis. Our free-of-charge service does not provide comprehensive technical support. The scope is much less broad than that offered to members and customers and we are not able to look deeply into specific problems. However where we have information to hand that can help, we will be delighted to share it.
 

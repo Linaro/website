@@ -7,9 +7,8 @@ permalink: /developers/
 jumbotron:
     image: /assets/images/content/downloads-bg.jpg
     title: Get Involved
-    title-class: big-title
+    inner_class: dotted
     description: ""
-
 flow:
     - row: main_content_row
 ---

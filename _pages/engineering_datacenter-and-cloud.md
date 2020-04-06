@@ -21,7 +21,7 @@ related_tags:
   - Developer Cloud
 jumbotron:
     title: Datacenter & Cloud
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/ldcg-bg.jpg
 flow:

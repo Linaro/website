@@ -11,7 +11,7 @@ image: /assets/images/content/HPCCol.svg
 related_resources_tracks: HPC
 jumbotron:
     title: High Performance Computing
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/hpc-bg.jpg
 flow:

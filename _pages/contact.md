@@ -8,7 +8,7 @@ css-package: contact
 layout: flow
 jumbotron:
     title: Contact Linaro
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/harston-mill.jpg
 flow:

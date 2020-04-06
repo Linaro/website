@@ -13,7 +13,7 @@ jumbotron:
   background-image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management EAS
   description: ''
-  title-class: big-title
+  inner_class: dotted
   description: ""
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:

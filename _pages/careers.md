@@ -8,7 +8,7 @@ js-package: careers
 css-package: careers
 jumbotron:
     title: Want to help build technology for the future?
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/careers-image-1.jpg
 flow:

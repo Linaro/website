@@ -2,7 +2,7 @@
 title: Hands on Training
 jumbotron:
     title: Hands on Training
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/hands-on-training/

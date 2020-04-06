@@ -18,7 +18,7 @@ related_tags:
   - Autoware
 jumbotron:
     title: Autonomous Vehicles
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/autonomous-driving-bg.jpg
 flow:

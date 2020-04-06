@@ -6,7 +6,7 @@ layout: flow
 jumbotron:
     image: /assets/images/content/downloads-bg.jpg
     title: Planet Linaro
-    title-class: big-title
+    inner_class: dotted
     description: ""
     buttons:
       - title: Planet Feed

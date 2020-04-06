@@ -2,7 +2,7 @@
 title: Toolchain Optimization Services
 jumbotron:
     title: Toolchain Optimization Services
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/toolchain-optimization-services/

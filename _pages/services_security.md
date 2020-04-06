@@ -2,7 +2,7 @@
 title: Security, TrustZone and OP-TEE
 jumbotron:
     title: Security, TrustZone and OP-TEE
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/security/

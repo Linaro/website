@@ -2,7 +2,7 @@
 title: Open Source Consultancy and Licensing
 jumbotron:
     title: Open Source Consultancy and Licensing
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/open-source-consultancy/

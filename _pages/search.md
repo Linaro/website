@@ -4,7 +4,7 @@ permalink: /search/
 layout: flow
 jumbotron:
     title: Search
-    title-class: big-title
+    inner_class: dotted
     description: ""
     image: /assets/images/content/bkk19-group-photo.jpg
 description: |-

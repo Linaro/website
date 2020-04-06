@@ -2,7 +2,7 @@
 title: 96Boards Product Development & Support
 jumbotron:
     title: 96Boards Product Development & Support
-    title-class: big-title
+    inner_class: dotted
     image: /assets/images/content/developer_services_bg.jpg
     description: ""
 permalink: /services/96boards/

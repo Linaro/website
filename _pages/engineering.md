@@ -7,7 +7,7 @@ permalink: /engineering/
 js-package: engineering
 css-package: work
 jumbotron:
-    title-class: big-title
+    inner_class: dotted
     description-class: smaller
     description: ""
     title: Where Collaborative Engineering on Arm Happens
