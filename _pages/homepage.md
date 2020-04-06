@@ -36,7 +36,7 @@ flow:
         style: arm_expertise text-center
         title_content:
           size: h2
-          style: dotted dotted_heading
+          style: dotted dotted_heading blue
           text: >
             Arm software is our expertise
     style: introduction_row
