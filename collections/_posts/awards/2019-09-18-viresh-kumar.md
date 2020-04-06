@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Viresh Kumar for 5 years at Linaro
 keywords: 5 Year Award, Viresh Kumar, Linaro
-layout: award-page
+layout: post
 description: >
   We would like to congratulate Viresh Kumar for making a difference in open source at Linaro for 5 years.
 bio: >

@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Jens Wiklander for 5 years at Linaro
 keywords: 5 Year Award, Jens Wiklander, Linaro
-layout: award-page
+layout: post
 description: >
     We would like to congratulate Jens Wiklander for making a difference in open source at Linaro for 5 years.
 ask-me-about: Trusted Execution Environment, TrustZone, BSD socket API, advanced UNIX user space programming.
@@ -19,5 +19,5 @@ image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/jens-wiklander.jpg
 date: 2019-04-05 09:00:00+00:00
 jumbotron:
-    background-image: /assets/images/content/5years_bkgd.png
+    image: /assets/images/content/5years_bkgd.png
 ---

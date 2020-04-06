@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Remi Duraffort for 5 years at Linaro
 keywords: 5 Year Award, Remi Duraffort, Linaro
-layout: award-page
+layout: post
 description: >
     We would like to congratulate Remi Duraffort for making a difference in open source at Linaro for 5 years.
 ask-me-about: Python, Django, VLC, climbing
@@ -20,6 +20,6 @@ categories:
 image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/remi-duraffort.jpg
 jumbotron:
-    background-image: /assets/images/content/5years_bkgd.png
+    image: /assets/images/content/5years_bkgd.png
 date: 2019-04-05 09:00:00+00:00
 ---

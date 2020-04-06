@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Don Harbin for 5 years at Linaro
 keywords: 5 Year Award, Don Harbin, Linaro
-layout: award-page
+layout: post
 description: >
   We would like to congratulate Don Harbin for making a difference in open source at Linaro for 5 years.
 bio: >
