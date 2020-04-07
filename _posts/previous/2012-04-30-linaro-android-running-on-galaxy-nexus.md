@@ -17,7 +17,7 @@ wordpress_id: 1618
 
 No, I promise, it's not a Last-day-of-April-Fools joke. ;)
 Linaro Android, built with the Linaro toolchain (my test build was done with the gcc 4.7 based 2012.04 Android toolchain release), can run on a Galaxy Nexus phones (GSM version tested, CDMA version may or may not work).
-There are a couple of limitations (GPS didn't work, the camera didn't work, and turning off Bluetooth caused the phone app to crash), but all the basics work fine, even 3D games could run.
+There are a couple of limitations (GPS didn't work, the camera didn't work, and turning off _Bluetooth_® wireless technology caused the phone app to crash), but all the basics work fine, even 3D games could run.
 
 If you want to check it out:
 

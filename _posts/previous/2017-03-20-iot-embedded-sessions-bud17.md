@@ -109,7 +109,7 @@ supports the wireless protocols to connect such devices to the internet, acting�
 **Session Name:** Building a reference IoT product with Zephyr – BUD17-405
 
 **Abstract:**
-An example of a reference IoT product can be thought of supporting several core technologies such as IPv4/IPv6, 6LoWPAN, Bluetooth LE and also several protocols such as MQTT, CoAP and LWM2M. Additional requirements such as having a complete secure boot and execution environment, besides being able to be securely updated with FOTA support are also critically important. This session will cover the development and challenges faced when producing a reference IoT product implementation with Zephyr, describing the state of the project, and the current gaps to productization.
+An example of a reference IoT product can be thought of supporting several core technologies such as IPv4/IPv6, 6LoWPAN, _Bluetooth_® wireless technology LE and also several protocols such as MQTT, CoAP and LWM2M. Additional requirements such as having a complete secure boot and execution environment, besides being able to be securely updated with FOTA support are also critically important. This session will cover the development and challenges faced when producing a reference IoT product implementation with Zephyr, describing the state of the project, and the current gaps to productization.
 
 **Speakers:** Michael Scott, Ricardo Salveti
 **Track:** LTD

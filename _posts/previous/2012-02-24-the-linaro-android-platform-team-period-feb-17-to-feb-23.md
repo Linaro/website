@@ -59,7 +59,7 @@ Here's a list of this weeks major achievements.
   * All test spreadsheets have been streamlined and are now easier to use.
 
 
-  * Progress on fixing bug preventing Bluetooth on Snowball.
+  * Progress on fixing bug preventing _Bluetooth_® wireless technology  on Snowball.
 
 
 ### Bugs fixed
@@ -102,7 +102,7 @@ Here's a list of this weeks major achievements.
 ### Issues
 
   * none
-  
+
 ### Blueprints
 
   * [12.03 Milestone](https://launchpad.net/linaro-android/+milestone/12.03)

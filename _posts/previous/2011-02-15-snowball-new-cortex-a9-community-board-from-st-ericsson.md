@@ -58,7 +58,7 @@ And then, technical details:
 - 1x JTAG Connector,
 - 1x MiPi34 Debug Connector,
 - 1x IEEE 802.11 b/g/n WLAN,
-- 1 x Bluetooth 2.1+EDR (Ex. Antenna),
+- 1 x _Bluetooth_® Wireless technology 2.1+EDR (Ex. Antenna),
 - 1 x GPS (Ex. Antenna),
 - 1x 3 Axis Accelerometer,
 - 1x 3 Axis Magnetometer,
