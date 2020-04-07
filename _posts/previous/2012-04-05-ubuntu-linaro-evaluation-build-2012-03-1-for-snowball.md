@@ -66,7 +66,7 @@ Main supported features
   * Graphics acceleration with the Mali 400 GPU
 
 
-  * Bluetooth support
+  * _Bluetooth_® wireless technology support
 
 
   * Ethernet and Wireless connectivity
@@ -99,7 +99,7 @@ Features to be included in future releases
 Known limitations
 
   * USB OTG host mode is working only in a limited fashion:
-  
+
 [http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue](http://www.igloocommunity.org/support/Work-around_for_USB-Host_issue)
 
 

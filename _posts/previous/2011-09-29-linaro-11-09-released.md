@@ -24,7 +24,7 @@ Among the improvements brought by this release and delivered by Linaro engineer
   * Ubuntu based image distribution format has seen a big improvement through the arrival of hardware packs v2. This new format will allow more flexibility in shipping our growing board support alongside our hardware independent Ubuntu based images.
 
 
-  * On the hardware enablement front, both Android and Ubuntu images have seen good improvements on most of our primary target boards. This includes the availability of Wi-Fi and Bluetooth for Android PandaBoard builds and audio (ALSA UCM) on our Ubuntu builds with proper kernel support.
+  * On the hardware enablement front, both Android and Ubuntu images have seen good improvements on most of our primary target boards. This includes the availability of Wi-Fi and _Bluetooth_® wireless technology for Android PandaBoard builds and audio (ALSA UCM) on our Ubuntu builds with proper kernel support.
 
 
   * Android image builds are first to incorporate the whole userspace and kernel using the Toolchain Working Group proposed -O3 option.
@@ -72,10 +72,10 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-* Homepage: 
+* Homepage:
     [](/)
 
-* Wiki: 
+* Wiki:
     [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
