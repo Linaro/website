@@ -66,7 +66,7 @@ The 12.01 Release is out. The full story can be found[ here](https://wiki-archiv
   * 906329	[ Snowball: Need to configure ethernet manually](https://bugs.launchpad.net/linaro-android/+bug/906329)
 
 
-  * 859886	[ Bluetooth does not work on Origen](https://bugs.launchpad.net/linaro-android/+bug/859886)
+  * 859886	 _Bluetooth_® wireless technology [does not work on Origen](https://bugs.launchpad.net/linaro-android/+bug/859886)
 
 
   * 888644	[ hdmi display not working with staging-origen manifest](https://bugs.launchpad.net/linaro-android/+bug/888644)

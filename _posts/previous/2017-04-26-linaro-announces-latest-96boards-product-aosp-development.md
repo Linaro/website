@@ -109,7 +109,7 @@ HDMI 1.2a up to 1080p plus 4-lane MIPI DSI
 </td>
 
 <td markdown="1">
-Dual-band 802.11 b/g/n/ac WiFi and Bluetooth 4.1 with on board antennas
+Dual-band 802.11 b/g/n/ac WiFi and _Bluetooth_® wireless technology 4.1 with on board antennas
 </td>
 </tr>
 <tr >

@@ -55,7 +55,7 @@ Here's a list of this weeks major achievements.
   * 942307	[ 'asm' operand requires impossible reload](https://bugs.launchpad.net/linaro-android/+bug/942307)
 
 
-  * 887961	[ Tethering over Bluetooth/WiFi/USB missing in ICS](https://bugs.launchpad.net/linaro-android/+bug/887961)
+  * 887961	Tethering over _Bluetooth_® wireless technology[/WiFi/USB missing in ICS](https://bugs.launchpad.net/linaro-android/+bug/887961)
 
 
   * 897176	[ SD card not accessible(checked via Gallery app)](https://bugs.launchpad.net/linaro-android/+bug/897176)
