@@ -4,7 +4,7 @@
         {% for engineering_group in engineering_items %}
         <a href="{{engineering_group.url}}" target="_self">
             <div class="item text-center">
-                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                <img class="slider_image my-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 alt="{{engineering_group.title}} image" data-src="{{engineering_group.icon.svg}}"/>
                 <h4 class="text-white">{{engineering_group.title}}</h4>
             </div>
@@ -17,7 +17,7 @@
             {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}<div class="item"><div class="row">{% endif %}
                 <div class="col col-6 p-t-20 text-center">
                     <a href="{{engineering_group.url}}" target="_self">
-                        <img class="my-5 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        <img class="slider_image my-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         alt="{{engineering_group.title}} image" style="height:175px;" data-src="{{engineering_group.icon.svg}}" />
                         <h4 class="text-white">{{engineering_group.title}}</h4>
                     </a>

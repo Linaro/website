@@ -1,15 +1,17 @@
 {% assign engineering_items = site.data.engineering_groups.items | sort: 'title' %}
 <div class="col col-12" id="engineering_icons">
+    <div class="row">
     {% for engineering_group in engineering_items %}
-    <div class="col col-6 col-sm-4 engineering_icon_col">
+    <div class="col col-6 col-sm-4 engineering_icon_col text-center my-3">
         <a href="{{engineering_group.url}}" target="_self">
             <div class="item">
-                <img class="center-block lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                <img class="center-block lazyload my-2 engineering_icon_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     alt="{{engineering_group.title}} image"
                     data-src="{{engineering_group.icon.svg}}" />
-                <h3>{{engineering_group.title}}</h3>
+                <h4 class="text-white">{{engineering_group.title}}</h4>
             </div>
         </a>
     </div>
     {% endfor %}
+    </div>
 </div>
