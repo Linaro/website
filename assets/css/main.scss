@@ -10,9 +10,5 @@
 @import 'bootstrap/bootstrap';
 // Linaro Jekyll Theme Includes
 @import "core";
-// Include the home sass partials
-// App Includes
+// Custom sass and css rules
 @import "app/custom";
-@import "app/home";
-@import "app/components/testimonial_block";
-@import "app/components/engineering_slider";
