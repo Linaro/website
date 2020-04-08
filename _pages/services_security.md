@@ -25,7 +25,7 @@ flow:
             size: h2
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 ---
 
 Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.

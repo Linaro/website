@@ -34,12 +34,12 @@ flow:
             text: >
                 Our work and expertise spans a wide range of areas:
     - row: container_row
-      style: engineering_row large_type
+      style: engineering_row large_type bg-secondary
       sections:
         - format: custom_include
           source: components/engineering_icons.html
     - row: container_row
-      style: projects_row
+      style: projects_row bg-light
       sections:
         - format: title
           style: text-center

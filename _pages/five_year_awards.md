@@ -1,20 +1,15 @@
 ---
 title: 5 Year Awards
 permalink: /awards/5-years/
-layout: award-index
-pagination:
-    title: "5 Year Awards - Page :num"
-    enabled: true
-    trail:
-        before: 4
-        after: 4
-    category: 5-Years
-    per_page: 20
-css-package: awards
+layout: flow
 jumbotron:
     title: 5 Year Awards
     image: /assets/images/content/5years_bkgd.png
     description: ""
     inner_class: dotted
-_hide_content: true
+flow:
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: about/display_five_year_awards.html
 ---

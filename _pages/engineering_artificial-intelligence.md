@@ -38,11 +38,11 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=EHM-krkB42Y
-            title: Introduction to the Linaro Artificial Intelligence Initiative
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=EHM-krkB42Y
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: Introduction to the Linaro Artificial Intelligence Initiative
   - row: container_row
     style: large_type introduction_row
     sections:
@@ -55,7 +55,6 @@ flow:
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
-
 |Speaker|Company|ID|Title|
 |-------|-------|--|-----|
 |Chris Benson|AI Strategist|[YVR18- 300K2](https://youtu.be/bYSwYkmQJVo?t=1s)|Keynote: Artificial Intelligence Strategy: Digital Transformation Through Deep Learning|
@@ -69,3 +68,4 @@ flow:
 |Shouyong Liu|Thundersoft|[YVR18-334](https://www.youtube.com/watch?v=CoBhUS9SL4U)|AI Alive: On Device and In-App|
 |Ralph Wittig|Xilinx|[YVR18-335](https://www.youtube.com/watch?v=FimBHlcfhxA)|Xilinx: AI on FPGA and ACAP Roadmap|
 |Andrea Gallo and others|Linaro, Arm, Qualcomm, Skymizer, Xilinx|[YVR18-337](https://www.youtube.com/watch?v=igH_OMSeIPI)|BoF: JIT vs offline compilers vs deploying at the Edge|
+{: .table}

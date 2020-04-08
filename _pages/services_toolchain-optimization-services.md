@@ -25,7 +25,7 @@ flow:
             size: h2
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 ---
 Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).  Linaro Developer Services has deep experience with:
 

@@ -65,6 +65,7 @@ flow:
   - row: container_row
     sections:
       - format: title
+        style: text-center
         title_content:
           size: h2
           text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
@@ -101,6 +102,7 @@ flow:
             [here](/members-by-group/)
     style: large_type centered_type members_by_group_row
   - row: container_row
+    style: bg-light-blue
     sections:
       - format: title
         title_content:
@@ -117,6 +119,7 @@ flow:
         source: membership/core_membership_testimonial.html
     style: large_type centered_type membership_row core_membership_row
   - row: container_row
+    style: bg-green
     sections:
       - format: title
         title_content:
@@ -133,6 +136,7 @@ flow:
         source: membership/club_membership_testimonial.html
     style: large_type centered_type membership_row club_membership_row
   - row: container_row
+    style: bg-light-gray
     sections:
       - format: title
         title_content:
@@ -153,14 +157,15 @@ flow:
     sections:
       - format: custom_include
         source: components/engineering_slider.html
-    style: engineering_slider_row gray_row
+    style: engineering_slider_row gray_row bg-secondary
   - row: container_row
     sections:
       - format: title
         title_content:
           size: h2
+          style: text-white
           text: To find out more about membership please complete this form
       - format: custom_include
-        source: components/membership_form.html
-    style: membership_form large_type
+        source: membership/membership_form.html
+    style: membership_form large_type bg-primary text-white
 ---

@@ -22,23 +22,20 @@ flow:
                   url: >-
                     mailto:contact@linaro.org?subject=Membership & General
                     Enquiries
-              title:
-                size: h3
-                text: Membership & General Enquiries
+              style: text-black
+              title: Membership & General Enquiries
             - buttons:
                 - icon: fa fa-email
                   title: Get in Touch
                   url: 'mailto:connect@linaro.org?subject=Linaro Connect Enquiries'
-              title:
-                size: h3
-                text: Linaro Connect Enquiries
+              title: Linaro Connect Enquiries
+              style: text-black
             - buttons:
                 - icon: fa fa-email
                   title: Get in Touch
                   url: 'mailto:marketing@linaro.org?subject=Media Enquiries'
-              title:
-                size: h3
-                text: Media Enquiries
+              title: Media Enquiries
+              style: text-black
           item_width: 4
         format: block
         style: text-center text-white organisation-section

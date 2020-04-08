@@ -24,7 +24,7 @@ flow:
             size: h2
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 icon: /assets/images/content/DeveloperServices-icons_96boards.svg
 ---
 Linaro Developer Services has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:

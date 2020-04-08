@@ -15,16 +15,17 @@ jumbotron:
 flow:
   - row: main_content_row
   - row: container_row
+    style: bg-secondary
     sections:
-      - block_section_content:
-          item_width: 4
+      - format: block
+        item_width: 4
+        block_section_content:
           blocks:
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Releases
                   url: 'https://releases.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Releases is the main repository for Linaro code that has been
                   tested and released. It is possible to navigate down through
                   this site to find code if you know what you are looking for,
@@ -35,8 +36,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: View Snapshots
                   url: 'https://snapshots.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Snapshots code shows Linaro work in progress. Often created on
                   a daily basis, these are literally snapshots of work in
                   progress that are used for testing and development. The code
@@ -50,8 +50,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: Get Started with LAVA
                   url: 'https://validation.linaro.org/static/docs/v2/index.html'
-              text_content:
-                text: >
+              description: |
                   The Linaro Automated Validation Architecture (LAVA) is a test
                   and continuous integration framework that Linaro uses to
                   validate its releases. The source is open so that members and
@@ -63,8 +62,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: View Security Downloads
                   url: /downloads/security/
-              text_content:
-                text: >
+              description: |
                   Linaro security downloads are available from several of
                   Linaro’s engineering groups. The most recent work includes
                   collaboration on Meltdown/Spectre fixes backported in to the
@@ -74,8 +72,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: View Patches
                   url: 'https://patches.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Working upstream means that the ultimate goal for most code is
                   to be accepted and incorporated into something like the Linux
                   kernel or GCC tool chain. The Patches website presents this
@@ -85,8 +82,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: View LKFT
                   url: 'https://lkft.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   LKFT is Linaro’s Linux Kernel Functional Test framework. The
                   mission of LKFT is to perform functional regression testing on
                   select Linux kernel branches in real time (as they’re updated)
@@ -98,8 +94,7 @@ flow:
                 - icon: fa fa-arrow-right
                   title: View Wiki
                   url: 'https://wiki.linaro.org/AOSP'
-              text_content:
-                text: >-
+              description: |
                   Linaro Confectionary Release (LCR) is a reference build of the
                   Android Open Source Project (AOSP) for supported development
                   boards that blends board support, latest kernels, AOSP and

@@ -25,7 +25,7 @@ flow:
             size: h2
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 ---
 
 Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In Developer Services we have:

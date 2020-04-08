@@ -24,28 +24,21 @@ flow:
                 Developer Services help you leverage open source on Arm to ensure fast time to market,
                 exceptional quality and security, and cost effective long term maintenance.
         - format: block
-          style: text-white developers_services_block
+          style: text-black developers_services_block
+          item_width: "6"
           block_section_content:
-            item_width: "6"
             blocks:
-               - title:
-                    size: "h3"
-                    text: Leverage our Arm Software Expertise
-                 text_content:
-                     text: >
+               - title: Leverage our Arm Software Expertise
+                 description: |
                         Linaro employs several of the world’s
                         leading Arm Software experts. All of this
                         expertise is made available to you
                         through Linaro Developer Services.
 
                         - [Hands on training](/services/hands-on-training/)
-
                         - [Open source Consultancy](/services/open-source-consultancy/)
-               - title:
-                    size: "h3"
-                    text: Secure your product
-                 text_content:
-                     text: >
+               - title: Secure your product
+                 description: |
                         Specialists in security and Trusted
                         Execution Environment (TEE) on Arm,
                         we leverage open source to ensure you
@@ -55,11 +48,8 @@ flow:
                         - [Security](/services/security/)
 
                         - [Bootloaders](/services/bootloaders/)
-               - title:
-                    size: "h3"
-                    text: Maintain quality cost-effectively
-                 text_content:
-                     text: >
+               - title: Maintain quality cost-effectively
+                 description: |
                         We upstream code to reduce the cost and
                         effort needed to maintain your product. We
                         offer continuous integrations (CI) and
@@ -70,11 +60,8 @@ flow:
                         - [Testing & Validation](/services/testing-validation-services/)
 
                         - [Kernels and Long Term Support](/services/kernel-lts/)
-               - title:
-                    size: "h3"
-                    text: Build, test and deploy faster
-                 text_content:
-                     text: >
+               - title: Build, test and deploy faster
+                 description: |
                         We support every aspect of product
                         delivery, from building secure board
                         support packages (BSP's), product
@@ -83,11 +70,8 @@ flow:
                         faster.
 
                         - [BSP’s, Builds and Support](/services/bsp-builds-support/)
-
                         - [Power management tuning](/services/power-management/)
-
                         - [Toolchain optimization](/services/toolchain-optimization-services/)
-
                         - [96Boards](/services/96boards/)
         - format: buttons
           style: text-center developer_services_prospectus_btn
@@ -96,14 +80,15 @@ flow:
                 url: https://static.linaro.org/assets/presentations/IntroductiontoLinaroDeveloperServices.pdf
                 style: btn-primary
     - row: container_row
-      style: services_form large_type
+      style: services_form large_type bg-primary text-white
       sections:
         - format: title
           title_content:
             size: h2
+            style: text-white
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png
