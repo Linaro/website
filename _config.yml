@@ -93,10 +93,9 @@ defaults:
       categories: ["event_resources"]
   - scope:
       path: "_posts/awards"
-      type: "posts"
     values:
-      layout: award-page
       author: linaro
+      permalink: "/awards/5-years/:title/"
       comments: false
   - scope:
       path: ""
