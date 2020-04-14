@@ -276,6 +276,7 @@
     "^/news/arm-freescale-ibm-samsung-st-ericsson-texas-instruments-form-new-company-speed-rollout-linux-based-devices(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
     "^/news/release/hisilicon-joins-linaro-as-core-member/en(/?|/index.html)$ /blog/enabling-device-tree-support-on-arm-platforms/ [R,L,NC]",
     "^/news/release/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/en(/?|/index.html)$ /blog/enabling-device-tree-support-on-arm-platforms/ [R,L,NC]",
+    "^/open-projects(/?|/index.html)$ https://collaborate.linaro.org/display/OP/Linaro+Open+Projects+Portal [R,L,NC]",
     "^/optee(/?|/index.html)$ https://www.op-tee.org [R,L,NC]",
     "^/organization(/?|/index.html)$ /about/ [R,L,NC]",
     "^/page_not_found(/?|/index.html)$ /404.html [R,L,NC]",
