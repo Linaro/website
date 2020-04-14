@@ -1,4 +1,11 @@
 #wrapper {
+    .jumbotron .inner_content_wrapper img.rounded-circle {
+        height: 100px;
+        width: 100px;
+    }
+    .reading-time {
+        color: white;
+    }
     .equal-height-card-img {
         height: 275px;
         object-fit: cover;
@@ -88,5 +95,8 @@
     }
     .group {
         background-color: #787878;
+    }
+    .key_stats_row img {
+        height: 200px;
     }
 }
