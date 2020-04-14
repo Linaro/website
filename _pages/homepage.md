@@ -45,7 +45,7 @@ flow:
         style: text-center
         title_content:
           size: h2
-          style: display-4 text-white
+          style: display-5 text-white
           text: Delivering end to end solutions using Arm technology
       - format: custom_include
         source: components/engineering_slider.html
