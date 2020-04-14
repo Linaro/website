@@ -38,6 +38,6 @@ Genesi will also co-organize and co-sponsor with Debian [a first sprint meeting 
 
 More details:
 
-  * [Genesi Efixa MX netbook details](http://www.genesi-usa.com/products/smartbook)
+  * [Genesi Efixa MX netbook details](https://genesi.company/products/smartbook)
   * Konstantinos Margaritis' story about LDS - http://projects.powerdeveloper.org/project/imx515/805/entry/766
   * [Marcin Juszkiewicz: debug board for the Efixa MX smartbook](http://marcin.juszkiewicz.com.pl/2010/11/29/debug-board-for-efika-mx-smartbook/)
