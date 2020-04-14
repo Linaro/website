@@ -1,17 +1,26 @@
 <div class="row" id="content-container">
     <div class="container">
-        <div class="col col-12 col-md-3">
-            {% include components/sidebar.html  %}
-            {% if page.icon %}
-            <picture>
-                <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" media="(min-width: 992px)" />
-                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="{{page.icon}}" class="lazyload img-responsive group_icon" />
-            </picture>
-            {% endif %}
-        </div>
-        <div class="col col-12 col-md-9">
-            {{content}}
+        <div class="row">
+            <div class="col col-12 col-md-3">
+                <ul class="list-group">
+                    {% assign services_pages = site.pages | where: 'tag', "services" %}
+                    {% for service_page in services_pages %}
+                        <a href="{{service_page.url}}">
+                            <li class="list-group-item {% if page.url == service_page.url %}active{% endif %}">{{service_page.title}}</li>
+                        </a>
+                    {% endfor %}
+                </ul>
+                {% if page.icon %}
+                <picture>
+                    <source srcset="{% if page.icon %}{{page.icon}}{% endif %}" media="(min-width: 992px)" />
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="{{page.icon}}" class="lazyload img-responsive group_icon" />
+                </picture>
+                {% endif %}
+            </div>
+            <div class="col col-12 col-md-9">
+                {{content}}
+            </div>
         </div>
     </div>
 </div>
