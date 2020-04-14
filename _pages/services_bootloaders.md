@@ -6,6 +6,7 @@ jumbotron:
     description: ""
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bootloaders/
+tag: services
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
 layout: flow
@@ -18,11 +19,12 @@ flow:
     - row: custom_include_row
       source: services/developer_services_page_content.html
     - row: container_row
-      style: services_form large_type
+      style: services_form large_type bg-primary text-white
       sections:
         - format: title
           title_content:
             size: h2
+            style: text-white
             text: To find out more about Developer Services please complete this form
         - format: custom_include
           source: services/developer_services_form.html
