@@ -75,10 +75,12 @@ flow:
   - row: container_row
     sections:
       - format: title
+        style: text-center
         title_content:
           size: h2
           text: Membership Levels
       - format: text
+        style: text-center
         text_content:
           text: >-
             There are three types of membership - Core, Club and Group - each
