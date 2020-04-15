@@ -35,7 +35,7 @@ FXI said in it's announcement it leveraged the [Linaro](/) for Arm open softwar
 
 Cotton Candy is attracting attention at CES and is even shortlisted as a possible best of CES by [Laptop Magazine](https://www.laptopmag.com/).
 
-The demonstration prototype USB stick (pictured above) code named "Cotton Candy" is a equipped with an Arm(R) Cortex(TM)-A9 (1GHz) CPU from Samsung, an Arm Mali(TM)-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and Bluetooth, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen. Content can be controlled via smartphones, keyboards, mice and other USB peripherals. See [FXI's product brief pdf](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) for more information.
+The demonstration prototype USB stick (pictured above) code named "Cotton Candy" is a equipped with an Arm(R) Cortex(TM)-A9 (1GHz) CPU from Samsung, an Arm Mali(TM)-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and _Bluetooth_® wireless technology, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen. Content can be controlled via smartphones, keyboards, mice and other USB peripherals. See [FXI's product brief pdf](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) for more information.
 
 To find our more information about Cotton Candy, see the [FXI website](http://www.fxitech.com/products/).
 

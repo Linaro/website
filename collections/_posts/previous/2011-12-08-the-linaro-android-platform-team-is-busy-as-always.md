@@ -50,7 +50,7 @@ Here's what the Android Platform Team has been up to this week...
   * Progress in porting the Ethernet Connection Manager to ICS.
 
 
-  * Bluetooth changes for Origen ICS have been merged.
+  * _Bluetooth_® wireless technology changes for Origen ICS have been merged.
 
 
   * Progress on bug "[hdmi display not working with staging-origen manifest](https://bugs.launchpad.net/linaro-android/+bug/888644)".

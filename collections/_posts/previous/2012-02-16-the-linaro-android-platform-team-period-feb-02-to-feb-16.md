@@ -77,7 +77,7 @@ Here's a list of this weeks major achievements.
   * 920550 [USB SD card export not working.](https://bugs.launchpad.net/linaro-android/+bug/920550)
 
 
-  * 860588 [Snowball: Bluetooth Turn ON Fails.](https://bugs.launchpad.net/linaro-android/+bug/860588)
+  * 860588 Snowball:  _Bluetooth_® wireless technology [ Turn ON Fails.](https://bugs.launchpad.net/linaro-android/+bug/860588)
 
 
 ### Miscellaneous

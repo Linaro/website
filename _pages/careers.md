@@ -27,13 +27,7 @@ flow:
               If you have a passion for open source and want to be part of a community, then you belong
               at Linaro. Linaro offers you the opportunity to advance your career in an outstanding
               environment for professional growth, all while working alongside a team of world-class open
-              source experts on leading edge technology. Interested in joining? See below for our current
-              vacancies.
-    - row: container_row
-      style: careers_row
-      sections:
-        - format: custom_include
-          source: careers/careers_section_vacancies.html
+              source experts on leading edge technology.
     - row: container_row
       style: buttons_row
       sections:
