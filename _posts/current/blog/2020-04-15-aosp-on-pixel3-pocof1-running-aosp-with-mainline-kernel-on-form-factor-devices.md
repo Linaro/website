@@ -24,8 +24,6 @@ Meanwhile we started looking into Pocophone’s F1 phone, a similar Snapdragon 8
 
 {% include image.html name="poco-f1-settings-page.jpg" class="medium-inline" alt="poco-f1-settings" %}
 
-![](/assets/images/content/poco-f1-settings-page.jpg)
-
 {% include media.html media_url="https://www.youtube.com/watch?v=-SRqxkMpeMc" %}
 
 Status as of today is that PocoF1 AOSP build boots to UI and Bluetooth (HID/Audio) works, but touch-input, WiFi and Audio are still work in progress. On WiFi, we are stuck at needing to allocate a special type of protected shared memory region. Unfortunately without this special allocation type, PocoF1 just reboots during boot, due to unauthorized access to that shared memory region. There is no plan to submit PocoF1 support in AOSP or provide support in any form and it will stay out of the tree. We use PocoF1 only for development purposes. You can find the How To instructions on [github](https://github.com/pundiramit/device-xiaomi-beryllium/blob/master/README.md).
