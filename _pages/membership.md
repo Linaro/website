@@ -104,7 +104,6 @@ flow:
             [here](/members-by-group/)
     style: large_type centered_type members_by_group_row
   - row: container_row
-    style: bg-light-blue
     sections:
       - format: title
         title_content:
@@ -119,9 +118,8 @@ flow:
             team.
       - format: custom_include
         source: membership/core_membership_testimonial.html
-    style: large_type centered_type membership_row core_membership_row
+    style: large_type centered_type membership_row core_membership_row bg-light-blue
   - row: container_row
-    style: bg-green
     sections:
       - format: title
         title_content:
@@ -136,9 +134,8 @@ flow:
             team and participate in additional Linaro projects.
       - format: custom_include
         source: membership/club_membership_testimonial.html
-    style: large_type centered_type membership_row club_membership_row
+    style: large_type centered_type membership_row club_membership_row  bg-green
   - row: container_row
-    style: bg-light-gray
     sections:
       - format: title
         title_content:
@@ -154,7 +151,7 @@ flow:
             Computing, IoT & Embedded and HPC.
       - format: custom_include
         source: membership/group_membership_testimonial.html
-    style: large_type centered_type membership_row group_membership_row
+    style: large_type centered_type membership_row group_membership_row bg-light-gray
   - row: container_row
     sections:
       - format: custom_include
