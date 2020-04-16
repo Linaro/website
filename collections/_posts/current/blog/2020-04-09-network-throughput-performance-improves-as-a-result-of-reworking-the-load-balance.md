@@ -4,8 +4,7 @@ title: >-
   Network throughput performance improves as a result of reworking the load
   balance.
 date: '2020-04-06 04:10:19'
-image:
-  path: /assets/images/content/37319206961_0b863ab87d_k.jpg
+image: /assets/images/content/37319206961_0b863ab87d_k.jpg
 tags:
   - PELT
   - CPU
@@ -22,15 +21,15 @@ Fixing task placement was becoming increasingly difficult as the last remaining 
 
 It became obvious in the community that a full rework of the load balancer was the best solution to move forward on the load balance.
 
-From this observation, the idea of a full rework of the load balance began to emerge. The aim of reworking the load balance has been to:  
+From this observation, the idea of a full rework of the load balance began to emerge. The aim of reworking the load balance has been to:
 
-- Clean up the code and remove old heuristics which are meaningless. 
+- Clean up the code and remove old heuristics which are meaningless.
 - Simplify the policy of task placement.
 - Define more precisely the state of a group of CPUs, i.e.the group has spare capacity, is fully busy or is imbalanced because of pinned tasks, the running task doesn’t fit on local group, or the CPU with higher capacity is available.
 - Describe exactly what the scheduler has to do to fix the imbalance: migrate some load, tasks or utilization of the CPU, or misfit task.
 - Associate simple action to each state.
 
-These changes have been possible thanks to PELT and its various enhancements that provide a good understanding of the state of a group of CPUs. 	
+These changes have been possible thanks to PELT and its various enhancements that provide a good understanding of the state of a group of CPUs.
 
 As explained above, the primary goal was to clean up and rework the load balance to ease the maintenance without introducing performance regressions, especially for systems like servers which are monitoring closely their throughput. The first test results, which have been run on an Arm system (embedded 8 cores and server 224cores/2 nodes), have not shown performance regression but the opposite. Results have shown improvements for low and medium load use cases where it’s more efficient to use the number of running tasks and the utilization of CPU to place tasks efficiently.
 
@@ -71,7 +70,7 @@ dbench
 
 ```
 
-Other people from the community started to raise interest in the rework and wanted to also fix old problems like the suboptimal use of cores on NUMA systems : [The Linux Scheduler: a Decade of Wasted Cores](https://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf). Some regressions have been raised during the review but thanks to the cleanup work, it has often been straightforward to fix them because the culprit piece of code was self contained, we therefore didn’t have to worry about the side effects to unrelated configurations. 
+Other people from the community started to raise interest in the rework and wanted to also fix old problems like the suboptimal use of cores on NUMA systems : [The Linux Scheduler: a Decade of Wasted Cores](https://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf). Some regressions have been raised during the review but thanks to the cleanup work, it has often been straightforward to fix them because the culprit piece of code was self contained, we therefore didn’t have to worry about the side effects to unrelated configurations.
 
 Although we tried to cover a wide range of behavior during the development and review phases, it was impossible to cover all use cases. Nevertheless, the patchset was considered to be mature enough to be queued for v5.5 with the constraint that we will have to be reactive to fix every regression reported, and that the patchset would be reverted if we were not able to fix it.
 

@@ -2,8 +2,7 @@
 layout: post
 title: DragonBoard 845c in AOSP
 date: '2020-04-06 01:48:45'
-image:
-  path: /assets/images/content/48806078402_a2756594c6_k.jpg
+image: /assets/images/content/48806078402_a2756594c6_k.jpg
 tags:
   - Dragonboard 845c
   - DB845c
