@@ -36,10 +36,18 @@
     }
     .grouped_members_section {
         .member_image {
+            height: 100px !important;
             img {
                 height: 80px !important;
                 object-fit: contain;
+                padding: 5px;
+                width: 100%;
             }
+        }
+    }
+    #projects_slider {
+        .owl-stage {
+            display: flex;
         }
     }
     .project_image {
@@ -64,7 +72,7 @@
         padding: 20px;
         margin: auto;
     }
-    .dotted_heading .blue{
+    .dotted.blue {
         border: 6px dotted #0083b0;
     }
     .slider_image {
