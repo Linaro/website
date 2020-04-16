@@ -3,5 +3,5 @@ name: Chunyan Zhang
 username: chunyan.zhang
 first_name: Chunyan
 last_name: Zhang
-image_path: https://secure.gravatar.com/avatar/3fb5e86db08fbe2206a0499e1d066291
+image: /assets/images/avatar-placeholder.jpg
 ---
