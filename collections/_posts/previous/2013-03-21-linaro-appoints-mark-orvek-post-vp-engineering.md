@@ -15,7 +15,7 @@ CAMBRIDGE, UK - 21 MAR 2013
 
 Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, today announced the appointment of Mark Orvek as VP of Engineering. 
 
-{% include image.html class="medium-inline right" name="mark-orvek.png" alt="Mark Orvek - VP of Engineering at Linaro" %}
+{% include image.html class="medium-inline right" path="/assets/images/people/mark-orvek.png" alt="Mark Orvek - VP of Engineering at Linaro" %}
 
 The announcement was made during the opening keynote at Linaro Connect Asia 2013 in Hong Kong by George Grey, Linaro CEO. He said ""We are very pleased to appoint Mark to the Vice President of  Engineering role. With his extensive previous work in open source software at MontaVista, he brings a strong industry background and experience in high quality software delivery to the Linaro team."
 

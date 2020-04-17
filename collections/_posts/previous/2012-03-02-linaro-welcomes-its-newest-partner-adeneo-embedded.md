@@ -23,7 +23,7 @@ Adeneo Embedded announced its partnership with [Linaro](/) from [Embedded World 
 
 [Linaro’s Partner program](/membership/) enables companies like Adeneo Embedded to take an active role in the organization and help develop the future of Linux on Arm.  By partnering with Linaro, Adeneo Embedded continues to further its commitment to developing reference BSPs and supporting Embedded device developments.
 
-{% include image.html path="/assets/images/blog/linaro-logo.png" alt="Linaro Logo" class="small-inline right" %}
+{% include image.html path="/assets/images/content/linaro-logo.png" alt="Linaro Logo" class="small-inline right" %}
 
 “Linaro was founded to make it easier for developers to launch systems running Linux-based operating systems on Arm chips produced by Linaro member companies. Adeneo Embedded’s Linux and Android BSP development is a typical example of industry usage of Linaro’s work, we hope the combination of Adeneo Embedded expertise and our development work will accelerate the development of competitive, well-tested products for Adeneo Embedded customers,” said Linaro’s COO, [Stephen Doel](/about/), in Adeneo Embedded’s announcement.
 
