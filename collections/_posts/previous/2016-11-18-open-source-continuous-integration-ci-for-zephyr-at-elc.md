@@ -25,11 +25,11 @@ wordpress_id: 11886
 
 _a software development practice that pretty much nobody would associate with microcontrollers …_
 
-{% include image.html name="blog-pic-1.jpg" alt="blog-pic-1" %}
+{% include image.html path="/assets/images/blog/blog-pic-1.jpg" alt="blog-pic-1" %}
 
 I found myself last month representing Linaro at the Zephyr booth on the demo area floor in the Maritim Hotel in Berlin for ELC-E. I had a rather unusual microcontroller demo.
 
-{% include image.html name="blog-pic-2.png" alt="blog-pic-2" %}
+{% include image.html path="/assets/images/blog/blog-pic-2.png" alt="blog-pic-2" %}
 
 Microcontroller demos often tend to be a product prototype running an RTOS, often extended to sending data to a cloud-based application and/or to a mobile device. There were certainly some very cool microcontroller demos on the Zephyr booth at ELC. In our Zephyr demo we wanted to show how open the source code, tooling, and configuration could be, and how transparent collaboration could flow from the engineering behind the deeply embedded RTOS code.
 
@@ -57,11 +57,11 @@ That single git push command kicks off the entire test process that includes rem
 
 After the results from the virtual machine tests are executed, key target applications are subsequently built and deployed from the cloud to the small test farm of boards running in the booth and tested on multiple devices, i.e. testing on real hardware, in real-time.
 
-{% include image.html name="blog-pic3.png" alt="blog-pic-3" %}
+{% include image.html path="/assets/images/blog/blog-pic3.png" alt="blog-pic-3" %}
 
 Incidentally, the entire build and test infrastructure was built with scalability as as the driving factor using containers and orchestration. Even the local test farm in the booth was driven by a laptop running a container instance of the test dispatcher.
 
-For more information on Linaro LITE please check out: 
+For more information on Linaro LITE please check out:
 
 [www.linaro.org/groups/lite/](/engineering/iot-and-embedded/)
 
@@ -77,8 +77,8 @@ Since I was presenting a demo that was based on Zephyr, which is a real-time ope
 
 
   * reducing fragmentation in operating systems, middleware and cloud connectivity solutions
-  * providing end-to-end open source reference software for more secure connected products 
-  * via open source solutions - enabling faster time to market, improved security and lower maintenance costs for connected products. 
+  * providing end-to-end open source reference software for more secure connected products
+  * via open source solutions - enabling faster time to market, improved security and lower maintenance costs for connected products.
 
 
 As a result of the decision to create this group, Linaro joined the Linux Foundation Zephyr Project as a Platinum member. The LITE group within Linaro will use Zephyr as a neutral industry RTOS platform as a place to land its collaborative engineering output.

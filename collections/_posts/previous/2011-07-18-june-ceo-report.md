@@ -17,6 +17,6 @@ Linaro's Working Groups team consists of 50 full time engineers (this does not i
 
 The patches and improvements can take several months to be accepted upstream. Once they have been accepted, Linux distributions such as Android, Fedora, Montavista, WebOS, Ubuntu and others will automatically obtain Linaro's work when they build new releases of their distributions from the latest kernel.org builds.  Thus the work items from the TSC, and support and consolidation for the latest member Arm SoCs are delivered into the mainstream Linux distributions. This support accelerates customer time to market, due to less porting work and validation being required in the product development phase.
 
-{% include image.html name="How-Android-releases-work2.jpg" alt="How Android releases work 2"%}
+{% include image.html path="/assets/images/blog/How-Android-releases-work2.jpg" alt="How Android releases work 2"%}
 
 As an example the picture shows how Android 2.3 Gingerbread and subsequent Android releases including Honeycomb and the forthcoming Ice Cream Sandwich release all include work from Linaro. With each distribution release more of Linaro's work is incorporated.

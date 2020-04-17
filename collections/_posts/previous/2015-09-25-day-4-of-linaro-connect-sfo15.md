@@ -19,7 +19,7 @@ title: Day 4 of Linaro Connect SFO15
 wordpress_id: 9459
 ---
 
-{% include image.html name="LNG-day-image.jpg" alt="LNG day image" %}
+{% include image.html path="/assets/images/blog/LNG-day-image.jpg" alt="LNG day image" %}
 
 
 Linaro Connect San Francisco 2015 day four was another packed day of keynotes and sessions as well as demos. Thursday was a day dedicated to Linaro Networking Group and included many sessions focused on Open Data Plane, Kernel & Core as well as an afternoon of demos for attendees to view.

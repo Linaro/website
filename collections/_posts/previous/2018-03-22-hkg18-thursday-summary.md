@@ -16,17 +16,17 @@ layout: post
 
 We started the fourth day of Linaro Connect with two keynotes from HiSilicon and the OpenChain Project, Linux Foundation.
 
-{% include image.html name="KLKeynote1.jpg"  class="medium-inline"  alt="" %}
+{% include image.html path="/assets/images/blog/KLKeynote1.jpg"  class="medium-inline"  alt="" %}
 
 Kenneth Lee gave a keynote on the importance of Open Source and why companies should adopt the opensource approach. In particular he focused on the benefits of working upstream from the perspective of software architecture and commercial competitiveness. To view the recording of this keynote, click [here](https://www.youtube.com/watch?v=2LqRAj3rRJI).
 
-{% include image.html name="SC-and-guest.jpg"  class="medium-inline right"  alt="" %}
+{% include image.html path="/assets/images/blog/SC-and-guest.jpg"  class="medium-inline right"  alt="" %}
 
 Following Kenneth’s keynote was Shane Coughlan from OpenChain, a Linux Foundation project which aims to answer the question “How do I trust my opensource supply chain?”. Shane discussed the challenges of copyright trolling and how the solutions need to be about agreeing shared norms and making a pledge to uphold them. Shane then presented Guest Speaker Lucien Cheng-hsia Lin on to the stage to talk about the state of open governance in Asia.
 
 Lastly, we were treated to a surprise update from Daniel Thompson at Linaro on the 96Boards Developer Box (SynQuacer). To watch the recording of this keynote, click [here](https://www.youtube.com/watch?v=2LqRAj3rRJI).
 
-{% include image.html name="Daniel-Thompsen.jpg"  class="medium-inline"  alt="" %}
+{% include image.html path="/assets/images/blog/Daniel-Thompsen.jpg"  class="medium-inline"  alt="" %}
 
 After the keynotes we had a wide range of sessions, including BOFs on AI and Machine Learning and Lava on your desk, and presentations on Hypervisors and IoT, Android/AOSP Workflow, Upstreaming SVE in QEMU and LKFT Experiences and Plans. Videos and slides will be uploaded on the [Resources page](https://connect.linaro.org/hkg18/resources/) shortly. At the end of the day, we hosted the Linaro Gala as we always do on the Thursday where attendees were treated to great food and entertainment at the Regal Hotel. This year’s theme was team coordination and we certainly had some creative costumes! Check out [Linaro’s flickr page](https://www.flickr.com/photos/linaroorg/albums/72157664795733267) to see all the pictures from the Linaro Gala and the rest of the week.
 

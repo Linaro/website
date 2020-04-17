@@ -36,7 +36,7 @@ Our CI process is illustrated in the flowchart that we created for our farm demo
 
 #### PMWG CI Flowchart
 
-{% include image.html name="collect-power-measurements-in-ci.png" alt="PMWG CI Flowchart" %}
+{% include image.html path="/assets/images/blog/collect-power-measurements-in-ci.png" alt="PMWG CI Flowchart" %}
 
 
 Each developer in PMWG has their own branch and we use automerge to merge changes to an integration tree automatically. When an update is detected, we trigger a build and start the process of creating and submitting a CI job.
@@ -171,17 +171,17 @@ In this overview chart of idle power consumption below, the left portion shows h
 
 #### Idle power consumption results before and after the reorg
 
-{% include image.html name="idle-power-consumption-1.png" alt="Idle power consumption results before and after the reorg" %}
+{% include image.html path="/assets/images/blog/idle-power-consumption-1.png" alt="Idle power consumption results before and after the reorg" %}
 
 The next two charts show a closer view of before and after.
 
 #### Closeup of idle power consumption results before the reorg
 
-{% include image.html name="idle-power-consumption-2.png" alt="Closeup of idle power consumption results before the reorg" %}
+{% include image.html path="/assets/images/blog/idle-power-consumption-2.png" alt="Closeup of idle power consumption results before the reorg" %}
 
 #### Close up of idle power consumption results after the reorg
 
-{% include image.html name="idle-power-consumption-3.png" alt="Close up of idle power consumption results after the reorg" %}
+{% include image.html path="/assets/images/blog/idle-power-consumption-3.png" alt="Close up of idle power consumption results after the reorg" %}
 
 Before, we collected 328 measurements with a standard deviation of 2.15% to be compared with a probe precision of 2.12%. After, we collected 336 measurements with a standard deviation of 1.38% to be compared with a probe precision of 2.14%.
 
@@ -191,7 +191,7 @@ The first hikey960 board had the correct fan placement on the side but the secon
 
 ### Fan placement affected our data. Vellamo results in red. Jankbench results in blue.
 
-{% include image.html name="fan-placement.png" alt="Fan placement affected our data. Vellamo results in red. Jankbench results in blue" %}
+{% include image.html path="/assets/images/blog/fan-placement.png" alt="Fan placement affected our data. Vellamo results in red. Jankbench results in blue" %}
 
 No two boards generated the same or similar results, which led to significant power consumption offsets. For example, our hikey960 boards behaved differently. There was a huge power consumption offset of 15-20% difference between our hikey960 boards before we started troubleshooting with our lab team.
 
@@ -222,7 +222,7 @@ We started tracking performance trends for kernel versions 4.9, 4.14, and 4.19. 
 
 
 ### Tracking performance trends for kernel versions 4.9, 4.14, and 4.19
-{% include image.html name="tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
+{% include image.html path="/assets/images/blog/tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
 
 
 ## Recommendations

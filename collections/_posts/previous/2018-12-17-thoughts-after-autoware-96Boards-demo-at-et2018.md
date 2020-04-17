@@ -13,9 +13,9 @@ image: /assets/images/blog/et2018-image2.png
 
 Linaro was at the event and joined by Arm and TierIV, demonstrated an Arm powered autonomous driving car, the first of its kind in the world. The self-driving platforms Milee and Logiee from Tier IV are built on the widely-adopted Autoware open-source project. Since Tier IV joined Linaro 96Boards Steering Committee in June 2018,  Autoware has been ported and optimized on 96Boards, which now supports a full range of the major Arm platforms. In the demo showcased at the event, the Socionext SynQuacer 96Boards was used.  Many companies, including Lexus Toyota, Suzuki, Yamaha, Mitsubishi, Aisin visited our booth.
 
-{% include image.html name="et2018-image1.png" alt="Linaro at ET2018 image 1"%}
-{% include image.html name="et2018-image2.png" alt="Linaro at ET2018 image 2"%}
-{% include image.html name="et2018-image3.png" alt="Linaro at ET2018 image 3"%}
+{% include image.html path="/assets/images/blog/et2018-image1.png" alt="Linaro at ET2018 image 1"%}
+{% include image.html path="/assets/images/blog/et2018-image2.png" alt="Linaro at ET2018 image 2"%}
+{% include image.html path="/assets/images/blog/et2018-image3.png" alt="Linaro at ET2018 image 3"%}
 
 Autonomous driving is a hot topic in Japan at the moment. It is no longer just a technical term, as Japan expects this new technology to lead the economic growth of the country. On March 30, 2018, [Prime Minister Shinzo Abe held the 14th meeting of the council on Investments for the Future](https://japan.kantei.go.jp/98_abe/actions/201803/30Article4.html), and said: “By the time of the 2020 Tokyo Olympic and Paralympic Games, we will realize an autonomous driving society… Autonomous driving will be a major asset for the productivity revolution. I want the relevant ministries and agencies to begin preparation for legislation aiming at a safe and sound autonomous driving society, and actively take the lead in the creation of international rules....”
 

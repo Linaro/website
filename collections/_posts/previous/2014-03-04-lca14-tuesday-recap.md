@@ -76,7 +76,7 @@ Tuesday March 4, 2014
 After the opening keynotes concluded all the attendees gathered for our traditional group photo.
 
 
-{% include image.html name="group-photo-LCA14.jpg" alt="Group Photo at LCA14" %}
+{% include image.html path="/assets/images/blog/group-photo-LCA14.jpg" alt="Group Photo at LCA14" %}
 
 
 ### **Group Photo at LCA14**

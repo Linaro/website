@@ -27,7 +27,7 @@ We wanted the Ubuntu rack to use Canonical technologies for handling server depl
 **Deploying MAAS**
 MAAS has support for HP Moonshot which gave us “theoretical” support of the APM mustangs deployed in the lab. While deploying everything we did hit some interesting hiccups.
 
-{% include image.html name="Colo-image-11.jpg" alt="Colo Image"%}
+{% include image.html path="/assets/images/blog/Colo-image-11.jpg" alt="Colo Image"%}
 
 **Power**
 The first problem was that MAAS expects systems that can be powered on/off in some standard way (IPMI, etc). Our servers did not have such a mechanism and were controlled by the remote PDU’s provided by our ISP. To work around this we configured all our servers to use the “Digital Loggers” power type, and then overwrote its [template script](http://bazaar.launchpad.net/~maas-committers/maas/1.6/view/head:/etc/maas/templates/power/dli.template) with logic to talk to our ISP’s PDUs.

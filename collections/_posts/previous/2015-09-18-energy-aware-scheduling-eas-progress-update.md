@@ -29,7 +29,7 @@ The existing Linux ‘Completely Fair Scheduler’ has a throughput based policy
 
 The Energy Aware Scheduling project consists of a number of component tasks:
 
-{% include image.html name="EAS-task-image.jpg" alt="EAS task image"%}
+{% include image.html path="/assets/images/blog/EAS-task-image.jpg" alt="EAS task image"%}
 
 The goal is to introduce generic energy-awareness in upstream Linux:
 
@@ -50,7 +50,7 @@ The optimal solution is to fully integrate these functions into the Linux schedu
 
 A typical Arm multi-core SoC would have the following voltage and frequency domains:
 
-{% include image.html name="ARM-voltage-EAS-blog.jpg" alt="Arm voltage EAS blog" %}
+{% include image.html path="/assets/images/blog/ARM-voltage-EAS-blog.jpg" alt="Arm voltage EAS blog" %}
 
 Ideally, each cluster will operate at its own separate independent frequency and voltage.  By lowering the voltage and frequency, there is a substantial power saving.  This allows the per-cluster power/performance to be accurately controlled, and tailored to the workload being executed.
 
@@ -58,7 +58,7 @@ A generic energy model based approach is expected to support a broad range of cu
 
 Since the original discussions started on the Linux Kernel Mailing List in 2013, there has been significant progress recently:
 
-{% include image.html name="AES-blog-image-3.jpg" alt="AES blog image 3" %}
+{% include image.html path="/assets/images/blog/AES-blog-image-3.jpg" alt="AES blog image 3" %}
 
 ## **Scheduler idle-state awareness**
 
@@ -68,7 +68,7 @@ The sched-idle enhancement makes the scheduler aware of the idle state of the CP
 
 In the example below, a new task needs to wake up, but it will not fit on CPU#0 because the current operating point is almost fully utilized.  With sched-idle integrated, the new task always gets placed on CPU #1 since it is in the shallowest idle state (WFI), and the other cluster remains in C2 shutdown.  This is the lowest energy and fastest response option.
 
-{% include image.html name="EAS-blog-4.jpg" alt="AES blog image 4" %}
+{% include image.html path="/assets/images/blog/EAS-blog-4.jpg" alt="AES blog image 4" %}
 
 ## **DVFS (cpufreq) improvements**
 
@@ -87,7 +87,7 @@ The existing cpufreq implementation is an extension to the Linux kernel, which u
 
   4. Only aware of the overall CPU loading and is not aware of task migration.
 
-{% include image.html name="EAS-blog-5.jpg" alt="AES blog image 5" %}
+{% include image.html path="/assets/images/blog/EAS-blog-5.jpg" alt="AES blog image 5" %}
 
 ## **New scheduler-driven DVFS (sched-DVFS)**
 
@@ -95,7 +95,7 @@ _Engineers:  Mike Turquette, Linaro/Baylibre [latest PATCH v3, June-2015]_
 
 With scheduler task utilization tracking, a feature that the mainline kernel already supports, any OPP transition required will happen immediately based on the stored tracked load of the task.
 
-{% include image.html name="EAS-blog-6.jpg" alt="AES blog image 6" %}
+{% include image.html path="/assets/images/blog/EAS-blog-6.jpg" alt="AES blog image 6" %}
 
 
 With sched-cpufreq, when the new task is placed on CPU#1, the cpu capacity for the little cluster changes immediately.  This uses the history of the task, which is stored internally as part of the CFS scheduler in the kernel.  This is a good approximation for many tasks which have consistent cpu load behavior.
@@ -118,11 +118,11 @@ Traditionally the utilization has been related to the running time.  Arm founda
 
 _Existing utilization calculation_
 
-{% include image.html name="EAS-8.jpg" alt="AES blog image 8" %}
+{% include image.html path="/assets/images/blog/EAS-8.jpg" alt="AES blog image 8" %}
 
 _New utilization calculation takes into account frequency and microarchitecture_
 
-{% include image.html name="EAS-image-9.jpg" alt="AES blog image 9" %}
+{% include image.html path="/assets/images/blog/EAS-image-9.jpg" alt="AES blog image 9" %}
 
 ## **Energy model**
 
@@ -132,17 +132,17 @@ The EAS energy model is the final piece which enables the CFS with energy-aware 
 
 This also removes the magic tunables in some of the power management frameworks at present - you actually have to look into the code to understand what these magic tunables do.  For example, consider the big.LITTLE HMP thresholds, the scheduler tunables, and even the interactive governor tunables (used in product but didn’t make it to mainline)
 
-{% include image.html name="EAS-image-10.jpg" alt="AES blog image 10" %}
+{% include image.html path="/assets/images/blog/EAS-image-10.jpg" alt="AES blog image 10" %}
 
 The platform energy model is an accurate baseline model of the dynamic and static power used by the CPUs in the system.
 
 _Typical big.LITTLE CPU power/performance curves_
 
-{% include image.html name="EAS-image-11.jpg" alt="AES blog image 11" %}
+{% include image.html path="/assets/images/blog/EAS-image-11.jpg" alt="AES blog image 11" %}
 
 For each CPU, the energy model contains the following information
 
-{% include image.html name="EAS-blog-image-12.jpg" alt="AES blog image 12" %}
+{% include image.html path="/assets/images/blog/EAS-blog-image-12.jpg" alt="AES blog image 12" %}
 
 We are discussing the best ways to express this energy model with the open source community. One option that is being considered is using a Device Tree
 
@@ -150,7 +150,7 @@ We are discussing the best ways to express this energy model with the open sourc
 
 As seen in the diagram below, a newly waking task can sensibly be placed on either of the two CPUs - CPU#1 or CPU#3.   With the current mainline scheduler, either CPU#1 or CPU#3 could be chosen. 
 
-{% include image.html name="EAS-image-14.jpg" alt="AES blog image 14" %}
+{% include image.html path="/assets/images/blog/EAS-image-14.jpg" alt="AES blog image 14" %}
 
 EAS considers the energy costs of the two options:
 
@@ -158,7 +158,7 @@ EAS considers the energy costs of the two options:
 
 **CPU#3**: no operating point change, but higher power used as per Power/Performance graph below
 
-{% include image.html name="EAS-image-15.jpg" alt="AES blog image 15" %}
+{% include image.html path="/assets/images/blog/EAS-image-15.jpg" alt="AES blog image 15" %}
 
 Based on the above, EAS will probably choose CPU#1 because the small additional energy cost of increasing the OPP of CPU#0 (and CPU#1 by implication - since both CPUs are in the same frequency domain in this example) is not significant compared with the better power efficiency of running the task on CPU#1 instead of CPU#3.  The key foundational pieces are understanding the intensity of the task (done by PELT with frequency & microarchitecture invariance).
 
@@ -180,7 +180,7 @@ There has been a repeated demand to have a single, simple tunable ‘knob’ tha
 
 SchedTune adds an additional ‘margin’ into the tracked load from PELT. Sched-DVFS and EAS then use this ‘boosted’ tracked load when selecting operating points as usual. The magnitude of the margin is controlled by a single user-space facing tunable.
 
-{% include image.html name="EAS-image-16.jpg" alt="AES blog image 16" %}
+{% include image.html path="/assets/images/blog/EAS-image-16.jpg" alt="AES blog image 16" %}
 
 If the task appears to be bigger, the allocated MHz from cpufreq/sched-cpufreq will be higher.  Also, on a big.LITTLE system, it is more likely to be placed onto a big cpu. This simple technique permits the selection of a suitable power/performance point that provides the best interactive response for the system.
 

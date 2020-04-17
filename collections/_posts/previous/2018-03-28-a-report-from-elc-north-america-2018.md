@@ -23,7 +23,7 @@ If you are curious, you can find these demos here:
 
 Or, if you want to have an idea of the problem and of the solution even more quickly, here is a graph:
 
-{% include image.html name="workload_elc.gif" alt="Workload Graph - ELC North America 2018"%}
+{% include image.html path="/assets/images/blog/workload_elc.gif" alt="Workload Graph - ELC North America 2018"%}
 
 </div>
 <div class="col-sm-4" markdown="1">

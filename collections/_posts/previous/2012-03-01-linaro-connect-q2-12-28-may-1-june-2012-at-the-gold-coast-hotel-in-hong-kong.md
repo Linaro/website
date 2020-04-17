@@ -62,7 +62,7 @@ And its essential that our Working Groups have a highly productive week
 So, if you are passionate about – or are just wanting to get involved in – the latest Linux on Arm developments, then this is a key event for you. You will be defining the Arm tools, Linux kernels and builds of key Linux distributions, including Android and Ubuntu, on our member and other Arm SoCs.
 
 
-{% include image.html name="Survey-Graph.jpg" alt="Survey Graph" %}
+{% include image.html path="/assets/images/blog/Survey-Graph.jpg" alt="Survey Graph" %}
 
 
 Linaro Connect is also an ideal event to attend for technical executives interested in investing into Linaro. The [Linaro management team](/about/) is available throughout the week to introduce you to the company and explain the many benefits of collaboration for your company and market situation. [Contact me](mailto:stephen.doel@linaro.org), Stephen Doel, prior to the event so we can organise discussion with you during the week.

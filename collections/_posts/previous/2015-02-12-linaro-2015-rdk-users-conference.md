@@ -24,7 +24,7 @@ LHG members span the media ecosystem consisting of operators, OEMs, and SoC vend
 
 Currently, LHG has the following members, several of which are actively focused on RDK development and deployment opportunities.
 
-{% include image.html name="rdk-1.jpg" alt="Current LHG Members" %}
+{% include image.html path="/assets/images/blog/rdk-1.jpg" alt="Current LHG Members" %}
 
 **Current LHG Members**
 
@@ -52,7 +52,7 @@ LHG has submitted patches upstream to the CEF project and Open Embedded (meta-br
 LHG is evolving an open source software stack introduced by one of the LHG members. This media stack is the OpenSDK which implements the best of breed open-source components to continue innovation in the RDK.
 
 
-{% include image.html name="rdk-2.jpg" alt="LHG RDK Build and Development Activities" %}
+{% include image.html path="/assets/images/blog/rdk-2.jpg" alt="LHG RDK Build and Development Activities" %}
 **LHG RDK Build and Development Activities**
 
 **Security**
@@ -69,7 +69,7 @@ Members of LHG benefit from our private Gerrit/CI loops for the RDK. The Gerrit/
 Jenkins is used for our CI loops, which will do verification of every Gerrit patch. We target builds and test runs for each of our member hardware targets, as well as the RDK emulator. Approximately 30 builds are run daily for all build/hardware configurations.
 
 
-{% include image.html name="rdk3.jpg" alt="LHG RDK Build Infrastructure established for Members" %}
+{% include image.html path="/assets/images/blog/rdk3.jpg" alt="LHG RDK Build Infrastructure established for Members" %}
 
 **LHG RDK Build Infrastructure established for Members**
 
@@ -81,6 +81,4 @@ The members of LHG utilize the [Linaro Stable Kernel (LSK)](https://wiki-archive
 
 Linaro will be represented at the RDK User's Conference by the Linaro Digital Home Group (LHG) members. Linaro will be presenting at the conference with a talk entitled “The Linaro Perspective on the RDK”. At the Linaro booth, there will be demos on LHG member boards showing the latest innovations on the RDK.
 
-{% include image.html name="rdk4.jpg" alt="rdk4" %}
-
-
+{% include image.html path="/assets/images/blog/rdk4.jpg" alt="rdk4" %}

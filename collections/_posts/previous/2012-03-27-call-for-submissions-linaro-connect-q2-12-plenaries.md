@@ -17,7 +17,7 @@ title: 'Call for Submissions : Linaro Connect Q2.12 Plenaries'
 wordpress_id: 1447
 ---
 
-{% include image.html name="Linaro-Connect.jpg" alt="Linaro Connect Logo" class="small-inline" %}
+{% include image.html path="/assets/images/blog/Linaro-Connect.jpg" alt="Linaro Connect Logo" class="small-inline" %}
 
 
 The submission process for [Linaro Connect Q2.12](https://connect.linaro.org/resources/#welcome) plenaries is now open!

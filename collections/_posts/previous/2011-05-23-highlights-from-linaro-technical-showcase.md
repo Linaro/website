@@ -14,22 +14,22 @@ During the [Linaro Developer Summit (9-13 May 2011)](https://wiki-archive.linaro
 
 Set in the magnificent Grand Ballroom of the Corinthia Hotel in Budapest, the evening attracted over 500 delegates from companies involved with Linaro and from the [Ubuntu Developer Summit]()http://uds.ubuntu.com/.
 
-{% include image.html name="Ballroom-med.jpg" alt="Grand Ballroom of the Corinthia Hotel in Budapest" %}
+{% include image.html path="/assets/images/blog/Ballroom-med.jpg" alt="Grand Ballroom of the Corinthia Hotel in Budapest" %}
 
 We added a competitive element to the evening, and I’ve listed the results below. But the main point was really to let people know what we’ve been up to, and to see some of the cool ways our output is starting to get used in commercial products.
 
 I got to see a fair number of the demos, but my highlights were:
 
-	
+
   * Catching one of the first ever public displays of Arm’s [new Cortex-A15 processor](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-VE_demo.pdf), which they are bringing into life using the Linaro kernel and filesystem
 
 
-{% include image.html name="Summit-Scheduler.jpg" alt="Linaro Summit Scheduler running on a TI Panda" %}
+{% include image.html path="/assets/images/blog/Summit-Scheduler.jpg" alt="Linaro Summit Scheduler running on a TI Panda" %}
 
-	
+
   * A last minute entry – the Summit schedule and the Showcase prize entry form running on a TI Panda board running the Linaro based Ubuntu 11.04 Maverick release. Big potential cost savings there, in both hardware and shipping, compared with using an old x86 based machine
 
-	
+
   * It made me laugh that the horse displayed on the [Graphics on Arm demo](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf) is the Linaro stallion. It annoys me that this horse breed has more hits on YouTube than our company – soon that will change!
 
 
@@ -44,13 +44,13 @@ So, finally, the results of the voting. We had 135 votes cast, with people votin
 
 
 
-	
+
   1. [Noritsuna Imamura (OESF, Japan): Auto-Chasing Turtle:](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-OESF-Turtle.pdf) Incorporating  the Linaro kernel, this cute robot detects a human face using a Kinect camera and walks towards you. All viewable via an iPad
 
-	
+
   2. [Davide Cavalca (Geexbox, Openbricks): Embedded Media Center](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Geexbox.pdf), running several different media at once and built using the Linaro toolchain, kernel and uBoot
 
-	
+
   3. [Linaro Graphics Working Group (Alexandros Frantzis): Cool graphics on Arm](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase?action=AttachFile&do=view&target=Linaro-2011-05-LDS-Graphics-WG.pdf), and benchmarking some of the improvements the guys have made to GL/GLES 2.0 acceleration and library selection
 
 

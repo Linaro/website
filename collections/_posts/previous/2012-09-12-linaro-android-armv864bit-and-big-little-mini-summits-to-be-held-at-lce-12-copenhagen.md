@@ -21,7 +21,7 @@ title: Linaro Android, Armv8(64bit) and big.LITTLE Mini Summits to be Held at LC
 wordpress_id: 1893
 ---
 
-{% include image.html name="event-23.png" alt="LCE12 Copenhagen Event" url="https://connect.linaro.org/resources/#welcome"%}
+{% include image.html path="/assets/images/blog/event-23.png" alt="LCE12 Copenhagen Event" url="https://connect.linaro.org/resources/#welcome"%}
 
 Linaro Connect (LCE 12) will take place at the [Bella Center]()https://booking.bellasky.dk/reserve?lang=en&getAvailability=1&Arrival=2012-10-28&Departure=2012-11-01&BlockCode=LINARO in Copenhagen Denmark on 29 Oct to 2 Nov 2012.  [Registration](https://connect.linaro.org/register/) for this event is [now open](https://connect.linaro.org/register/) and those who will be attending are encouraged to register earlier.  In addition to the regular track sessions—Android, Graphics and multimedia, Kernel, Platform (Ubuntu and generic Linux), Power, QA/Infrastructure, Tools, Training and Validation/LAVA—this Linaro Connect event in Copenhagen will host three (3) mini summits.
 

@@ -56,7 +56,7 @@ Linaro’s Working Groups will continue to focus on getting their work merged in
 **Android Branch**
 As well as testing upstream kernels, Linaro will maintain a merged tree consolidating AOSP, Linaro and member patches, providing a solid foundation for Android product development. The following diagram describes the flow of versions:
 
-{% include image.html name="Android-Upstream-kernel-picture2.jpg" alt="Android upstream kernel image"%}
+{% include image.html path="/assets/images/blog/Android-Upstream-kernel-picture2.jpg" alt="Android upstream kernel image"%}
 
 John Stultz of the KWG currently maintains our merged [linux-linaro-android tree](http://git.linaro.org/gitweb?p=people/jstultz/android.git;a=summary).
 

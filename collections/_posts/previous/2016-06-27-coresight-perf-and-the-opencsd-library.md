@@ -28,7 +28,7 @@ title: CoreSight, Perf and the OpenCSD Library
 wordpress_id: 10726
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 
 ### **Introduction**

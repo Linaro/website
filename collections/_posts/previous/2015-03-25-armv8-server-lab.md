@@ -22,7 +22,7 @@ Last October was very busy for us (the Linaro System team), ­ we were tasked wi
 
 So if you sign up to use a system you can get access to one or more APM or AMD server running Ubuntu or Fedora or Red Hat(1) or AMD servers(2) running Fedora or Red Hat(1).  We believe other vendors will soon provide additional branded servers in the Lab.  Depending on demand and what you want to do with the servers they are loaned to you for a week to a month at a time.  For security purposes all of the servers are behind a firewall and require ssh access only via a bounce firewall machine.  Once the server is deployed and access is turned over to the ISV Linaro staff no longer have access to the contents of the server in any way except to redeploy it later which destroys all information on the machine.
 
-{% include image.html name="Colo-image-11.jpg" alt="Colo Image"%}
+{% include image.html path="/assets/images/blog/Colo-image-11.jpg" alt="Colo Image"%}
 
 In early October, we began the buildout of the Armv8 Server Lab in Austin, Texas. We installed a small cluster of forty (40) 64­bit Applied Micro Arm servers into a co­location facility near the Austin International Airport. The cluster is composed of two racks; one rack targeted at Red Hat/Fedora OS deployed servers and one rack targeted at Ubuntu deployed servers (bare ­metal with MAAS and VM's with OpenStack). Later in November we received six AMD 64­bit Arm servers and they too have been deployed into the racks.
 

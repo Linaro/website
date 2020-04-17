@@ -69,13 +69,13 @@ All cpu backtrace is called by the spinlock debugging code (CONFIG_DEBUG_SPINLOC
 
 Normally on an Arm system, when a deadlock occurs, spinlock debugging will only show the backtrace of the CPU that’s stuck and this might not be the CPU that owns the lock. With all cpu backtrace then we get to see much more of the system hopefully allowing us to find the fault more quickly. For example the following screenshot shows what you would see the spinlock deadlock detection triggered on a typical Arm kernel (the functions highlighted were added to intentionally create a lockup warning):
 
-{% include image.html name="Backtrace-on-all-CPUs-1.jpg" alt="Backtrace-on-all-CPUs-1" %}
+{% include image.html path="/assets/images/blog/Backtrace-on-all-CPUs-1.jpg" alt="Backtrace-on-all-CPUs-1" %}
 
 Here we can see where we have locked up, but it isn’t clear why.**** ****
 
 With all cpu backtrace enabled we would still get the above information about CPU that is stuck but we would also be able to scroll down and see this:
 
-{% include image.html name="Backtrace-on-all-CPUs-2.jpg" alt="Backtrace-on-all-CPUs-2" %}
+{% include image.html path="/assets/images/blog/Backtrace-on-all-CPUs-2.jpg" alt="Backtrace-on-all-CPUs-2" %}
 
 Which better helps us narrow down why the deadlock occurred.
 
@@ -91,11 +91,11 @@ The kernel already has drivers for PMU and they work well but, because they are 
 
 For some workloads the difference can be striking. The workload for both examples below is the same: dd if=/dev/urandom of=/dev/null. The first screenshot perfectly illustrates the limitation of profiling from normal interrupt handler, over 90% of the CPU time is spent unlocking interrupts and the cryptographic operations that should dominate the use case are completely hidden.
 
-{% include image.html name="Hardware-performance-monitoring.jpg" alt="Hardware-performance-monitoring" %}
+{% include image.html path="/assets/images/blog/Hardware-performance-monitoring.jpg" alt="Hardware-performance-monitoring" %}
 
 When we enable the FIQ we immediately get a much deeper insight. Not only can we can see the cryptographic operations but we can also see how much impact the fact I had compiled the kernel with lockdep enabled is having on this use case.
 
-{% include image.html name="Hardware-performance-monitoring-2.jpg" alt="Hardware-performance-monitoring-2" %}
+{% include image.html path="/assets/images/blog/Hardware-performance-monitoring-2.jpg" alt="Hardware-performance-monitoring-2" %}
 
 The primary feature introduced by this patchset is to extend the irq sub-system to make it possible to route regular interrupts to FIQ. This change was not required previously because IPIs are architecture specific and do not use irq sub-system much. Once this feature was added the changes needed to the PMU driver were fairly minor.
 

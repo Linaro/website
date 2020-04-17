@@ -24,7 +24,7 @@ tags:
 - Opensource
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 
 This article will describe the programming and operation of the OpenCSD library in decoding CoreSight™ trace. Starting with a brief review of CoreSight technology and terminology, these elements will be related to the configuration of the library in order to successfully decode a captured trace stream.
@@ -61,7 +61,7 @@ The trace sink will format the incoming trace data into a CoreSight frame format
 
   3. **Trace Infrastructure:**  The funnels, CTIs (not shown) and  replicators (not shown) which direct and multiplex sources to sinks, and can be used to control events which control the capture of trace.
 
-{% include image.html name="Picture1-core-dump.jpg" alt="Picture1"%}
+{% include image.html path="/assets/images/blog/Picture1-core-dump.jpg" alt="Picture1"%}
 
 
 Figure 1:  Typical CoreSight System.
@@ -69,7 +69,7 @@ Figure 1:  Typical CoreSight System.
 
 The system software, or a program using the trace system, must program up the CoreSight components to generate trace as required. Each trace source is programmed with a CoreSight Trace ID, to allow the source to be identified when de-multiplexing the buffer and decoding the Trace.
 
-{% include image.html name="image-1-core-dump.jpg" alt="image 1"%}
+{% include image.html path="/assets/images/blog/image-1-core-dump.jpg" alt="image 1"%}
 
 
 ## **The Decode Process.**
@@ -96,7 +96,7 @@ This section discusses the basic concepts involved in configuring the library fo
 
 The library provides a decoder management component called a “**decode tree**”. This provides an API to create a connected set of decode components. **Figure 2** shows a configured decode tree inside a client application.
 
-{% include image.html name="figure-2-core-dump.jpg" alt="figure 2"%}
+{% include image.html path="/assets/images/blog/figure-2-core-dump.jpg" alt="figure 2"%}
 
 Figure 2: Configured Decode Tree.
 
@@ -139,7 +139,7 @@ The decoder API contains a structure for the required trace configuration regist
 
 This section covers specific API functions and data types. Further API documentation is available in the source code, formatted for extraction by the ‘doxygen’ tool to create a reference manual.
 
-{% include image.html name="figure-3-core-dump.jpg" alt="figure 3"%}
+{% include image.html path="/assets/images/blog/figure-3-core-dump.jpg" alt="figure 3"%}
 
 
 Figure 3 introduces some of the components and interface types used when connecting components within the decode tree. These connections are created automatically as the API is used to create the decoder objects within the tree. The diagram shows the path of the data through the decoder to the client application.
@@ -163,20 +163,20 @@ _**IPktRawDataMon<P>**_: This interface is optionally provided by the client app
 
 Configuration using the C++ API begins with the creation of a decode tree.
 
-{% include image.html name="redo-box-1-core-dump.jpg" alt="Redo Box 1"%}
+{% include image.html path="/assets/images/blog/redo-box-1-core-dump.jpg" alt="Redo Box 1"%}
 
 
 The flag [_OCSD_TRC_SRC_FRAME_FORMATTED_] tells the creation function to automatically set up the de-multiplexor for the CoreSight trace formatted frame. The second parameter tells the de-multiplexor that there are no frame syncs in the incoming raw trace stream (frame syncs are used when trace is output via a TPIU). This is by far the most common trace format when analysing trace captured on target. The library has a  built-in  Arm instruction set opcode analyser which will be created and automatically attached to the decoders.
 
 Next the individual decoders are created. The creation of a decoder requires that the decoder configuration information is provided – this is in the form of the ocsd_xyz_cfg structures and classes. The client application must fill in the structure / class and pass this to the decoder creation API on the decoder tree.
 
-{% include image.html name="box-3-core-dump.jpg" alt="Box 3"%}
+{% include image.html path="/assets/images/blog/box-3-core-dump.jpg" alt="Box 3"%}
 
 
 Decoders are selected by name – those built-in to the library have defined names in the library headers  [e.g. _OCSD_BUILTIN_DCD_PTM_]. The API allows for the creation of a packet processor only (used for debugging trace hardware), or more usually a full packet processor / packet decoder pair [_OCSD_CREATE_FLG_FULL_DECODER_].
 
 
-{% include image.html name="redo-box-2-core-dump.jpg" alt="Redo Box 2"%}
+{% include image.html path="/assets/images/blog/redo-box-2-core-dump.jpg" alt="Redo Box 2"%}
 
 
 Having created all the required decoders, the next stage is to add the memory images to the memory access handler interface. Memory images can take a number of forms:
@@ -199,14 +199,14 @@ Single or multiple memory accessors can be used, which are handed by the memory 
 
 API calls for to create the memory accessors and add them to the memory accessor mapper are provided on the Decode Tree.
 
-{% include image.html name="figure-4-core-dump.jpg" alt="Figure 4"%}
+{% include image.html path="/assets/images/blog/figure-4-core-dump.jpg" alt="Figure 4"%}
 
 Figure 4:  Memory Access Handler
 
 
 Figure 4 shows a typical example – a trace session has been run tracing a program ‘my_prog’ which in turn loads ‘my_lib.so’. The client adds these as memory images using a file memory accessor object to the decode tree in order to correctly process the trace data. The example code below shows how this is achieved:
 
-{% include image.html name="redo-box-3-core-dump.jpg" alt="Redo Box 3" %}
+{% include image.html path="/assets/images/blog/redo-box-3-core-dump.jpg" alt="Redo Box 3" %}
 
 A memory  accessor  mapper is created in the decode tree. This needs to occur only once per decode tree. The file images are then added by populating the _ocsd_file_mem_region_t _structure. An array of these structures is passed to the memory accessor creation function which adds the accessor to the mapper.
 
@@ -214,7 +214,7 @@ The _OCSD_MEM_SPACE_ANY_ parameter tags this memory image as existing for any me
 
 Finally, the client must also provide the interface that will receive the generic  output packets from the decoders.
 
-{% include image.html name="redo-box-4-core-dump.jpg" alt="Redo Box 4" %}
+{% include image.html path="/assets/images/blog/redo-box-4-core-dump.jpg" alt="Redo Box 4" %}
 
 The decode tree is now ready to process trace data.
 
@@ -225,24 +225,24 @@ Configuration using the C API follows the same pattern as with the C++ API. Many
 Create a decode tree – will return a handle for the tree or 0 on failure.
 
 
-{% include image.html name="box-7-core-dump.jpg" alt="Box 7 " %}
+{% include image.html path="/assets/images/blog/box-7-core-dump.jpg" alt="Box 7 " %}
 
 
 Create decoders, using the handle supplied in the create tree operation:-
 
-{% include image.html name="redo-box-5-core-dump.jpg" alt="Box 5 " %}
+{% include image.html path="/assets/images/blog/redo-box-5-core-dump.jpg" alt="Box 5 " %}
 
 
 It should be noted here that the creation function returns the Trace ID that the decoder is associated with. This is extracted from the configuration data and may be used in other C API calls for operations related to this specific decoder.
 
 Add the memory images for the trace decoding. One key difference here is that the mapper is created automatically on the first “add image” call on the decode tree.
 
-{% include image.html name="redo-box-6-core-dump.jpg" alt="Box 6" %}
+{% include image.html path="/assets/images/blog/redo-box-6-core-dump.jpg" alt="Box 6" %}
 
 
 The output interface is provided by registering a call-back function.
 
-{% include image.html name="redo-box-7-core-dump.jpg" alt="Box 7" %}
+{% include image.html path="/assets/images/blog/redo-box-7-core-dump.jpg" alt="Box 7" %}
 
 ## **The Trace Data Path and API**
 
@@ -288,11 +288,11 @@ ocsd_datapath_resp_t ocsd_dt_process_data(const dcd_tree_handle_t handle,
 
 The data path operations are shown in the table below:-
 
-{% include image.html name="data-ops-table-1.jpg" alt="data ops table 1" %}
+{% include image.html path="/assets/images/blog/data-ops-table-1.jpg" alt="data ops table 1" %}
 
 The data path response types are shown below:-
 
-{% include image.html name="data-resp-table-2.jpg" alt="data resp table 2" %}
+{% include image.html path="/assets/images/blog/data-resp-table-2.jpg" alt="data resp table 2" %}
 
 
 If a fatal error occurs then the client may look at the last logged error to determine the cause (the decode tree API provides a getLastError function).  Depending on the nature of the error the decoder may be able to be re-used by sending the _OCSD_OP_RESET_ operation through the input interface.

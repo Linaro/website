@@ -51,11 +51,11 @@ Linaro also made several announcements regarding new members, new groups at Lina
 
 In addition to the keynotes and sessions there was a rich assortment of demonstrations from Linaro and Linaro members, including much of Linaro’s latest Armv8-A 64-bit software developments. Demonstrations were given during keynotes as well as on Wednesday during Linaro Enterprise Group day, Thursday during the Linaro Networking Group day and on Friday during the traditional demo Friday held during each Linaro Connect during lunch on the last day. Below are some of the images from the demonstrations.
 
-{% include image.html name="21096414723_945a15798b_k.jpg" %}
-{% include image.html name="21717413305_417079aec0_k.jpg" %}
-{% include image.html name="21639125656_c82bd7d3c7_k.jpg" %}
-{% include image.html name="21094726674_d1b03c03d7_k.jpg" %}
+{% include image.html path="/assets/images/blog/21096414723_945a15798b_k.jpg" %}
+{% include image.html path="/assets/images/blog/21717413305_417079aec0_k.jpg" %}
+{% include image.html path="/assets/images/blog/21639125656_c82bd7d3c7_k.jpg" %}
+{% include image.html path="/assets/images/blog/21094726674_d1b03c03d7_k.jpg" %}
 
 The next Linaro Connect will take place March 7-11, 2016 in Bangkok, Thailand. To see more about Linaro Connect please visit: [https://connect.linaro.org/bkk16/](https://connect.linaro.org/bkk16/)
 
-{% include image.html name="BKK16-Banner.jpg" alt="BKK16 Banner"%}
+{% include image.html path="/assets/images/blog/BKK16-Banner.jpg" alt="BKK16 Banner"%}

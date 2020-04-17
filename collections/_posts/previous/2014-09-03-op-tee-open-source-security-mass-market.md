@@ -17,7 +17,7 @@ tags:
 - qemu
 ---
 
-{% include image.html name="thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" class="small-inline" %}
+{% include image.html path="/assets/images/blog/thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" class="small-inline" %}
 
 TEE. Behind this acronym hides the Trusted Execution Environment, a small OS-like environment that sits aside a rich operating system – for instance Android. The purpose of the TEE is to keep all secret credentials and data manipulation in the small TEE rather than in a larger rich OS that is often the vulnerable target of malware and hackers in general. In order to reach this goal, application software is architected in a way such that sensitive functions are precisely defined and offloaded to the TEE in the form of Trusted Applications.
 
@@ -33,7 +33,7 @@ It has been almost a year since STMicroelectronics, with the full support from E
 
 OP-TEE is now available on GitHub, at [https://github.com/OP-TEE](https://github.com/OP-TEE). It consists of three components in separate gits: the normal world user space client APIs (optee_client), a Linux kernel TEE device driver (optee_linuxdriver) and the Trusted OS (optee_os). OP-TEE currently adheres to GlobalPlatform APIs, namely the GlobalPlatform TEE Client API 1.0 and GlobalPlatform TEE Internal API 1.0 specifications, available freely on the GlobalPlatform website. The Trusted OS part is under a BSD license, so that SoC vendors and device manufacturers may modify it without any obligation to disclose the modifications. This choice was key to make OP-TEE usable in commercial products, and thus to build an industry community around OP-TEE. The other major task was the abstraction of platform-specific parts in such a way that it should be fairly easy to port and incorporate OP-TEE in products from different vendors.
 
-{% include image.html name="op-tee_diagram.png" alt="OP-TEE architecture with the scope of its three gits" %}
+{% include image.html path="/assets/images/blog/op-tee_diagram.png" alt="OP-TEE architecture with the scope of its three gits" %}
 
 OP-TEE targets Arm cores and therefore includes a secure monitor code for TrustZone – which is the code executed when the core switches between TrustZone and non-TrustZone modes. We expect that it should still be fairly easy to use OP-TEE on architectures other than Arm TrustZone – for instance on the Cortex-M and Cortex-R range of Arm cores, and therefore further defragment security in embedded electronics, in areas such as Internet of Things or automotive.
 By releasing OP-TEE to the public, ST and Linaro have provided a seed that will grow from contributions coming from the Arm ecosystem, and especially from Linaro members. An open-source TEE supporting standard interfaces and bringing a community will reduce fragmentation in the way Arm TrustZone is used to everyone’s benefit. We also anticipate that it will foster private and public applied research in security, by giving access to the technology to universities, researchers and governments around the world.

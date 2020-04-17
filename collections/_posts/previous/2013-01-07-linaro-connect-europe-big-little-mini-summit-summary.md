@@ -41,7 +41,7 @@ Those four sessions included topics focused on the following:
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
-{% include image.html name="ARMs_Test_Chip_2TC2_An_Overview.png" alt="Arms Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
+{% include image.html path="/assets/images/blog/ARMs_Test_Chip_2TC2_An_Overview.png" alt="Arms Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
 
 
 During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at Arm) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and Arm.

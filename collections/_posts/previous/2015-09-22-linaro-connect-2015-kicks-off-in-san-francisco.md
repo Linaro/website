@@ -11,7 +11,7 @@ categories:
 - blog
 ---
 
-{% include image.html name="SFO15-Linaro-Banner-Monday-Group.jpg" alt="Linaro Connect SFO15 banner" %}
+{% include image.html path="/assets/images/blog/SFO15-Linaro-Banner-Monday-Group.jpg" alt="Linaro Connect SFO15 banner" %}
 
 
 The largest Linaro Connect to date began today in San Francisco. Linaro Connect San Francisco 2015 (SFO15) will take place this entire week from September 21-25, 2015. This marks the fifth anniversary of Linaro Connect and there are many exciting things planned for this week.
@@ -196,4 +196,3 @@ The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be J
 
 
 Visit [https://connect.linaro.org/sfo15/](https://connect.linaro.org/sfo15/) for updates throughout the week.
-

@@ -17,7 +17,7 @@ title: Mini-Summits, Training, Hacking and More - Linaro Connect Asia 2013 - Hon
 wordpress_id: 2560
 ---
 
-{% include image.html name="LCA13-Group-001-72dpi.jpg" alt="LCA13-Group Photo" %}
+{% include image.html path="/assets/images/blog/LCA13-Group-001-72dpi.jpg" alt="LCA13-Group Photo" %}
 
 
 **Linaro Connect Asia 2013 (LCA13)** took place at the Gold Coast Hotel in Hong Kong on 4 - 8 March. The themes that echoed through all the keynotes, the sessions, and even the hallway tracks were open collaboration and how to be good citizens in the upstream kernel and other member communities.

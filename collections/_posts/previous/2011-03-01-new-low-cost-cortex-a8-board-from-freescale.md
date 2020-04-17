@@ -55,7 +55,7 @@ Technical details and a picture can be found on the LinuxDevices.com website:
 </tbody>
 </table>
 
-{% include image.html name="freescaleimx53quickstart.jpg" alt="Freescale i.MX53 Quickstart board" %}
+{% include image.html path="/assets/images/blog/freescaleimx53quickstart.jpg" alt="Freescale i.MX53 Quickstart board" %}
 
 <!-- more -->
 

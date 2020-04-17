@@ -19,7 +19,7 @@ title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
 wordpress_id: 2323
 ---
 
-{% include image.html name="Linaro-Connect.jpg" alt="Linaro-Connect" url="https://connect.linaro.org"%}
+{% include image.html path="/assets/images/blog/Linaro-Connect.jpg" alt="Linaro-Connect" url="https://connect.linaro.org"%}
 
 [Linaro Connect Asia 2013 (LCA13)](https://connect.linaro.org) in Hong Kong is gearing up to be another educational and [exciting event](https://connect.linaro.org/) as engineers from around the Arm ecosystem gather to build the future of Linux on Arm.
 

@@ -12,13 +12,13 @@ author: amit.kucheria
 ---
 # **Energy-Aware** Scheduling **(EAS) Project**
 
-{% include image.html name="1.jpg" alt="1" %}
+{% include image.html path="/assets/images/blog/1.jpg" alt="1" %}
 
 The energy-aware scheduling (EAS) project is trying to solve a long-standing design limitation of two key power-management subsystems (CPUFreq and CPUIdle) - they don’t coordinate their decisions with task scheduling decisions.
 
 As shown in the figure below, the scheduler, cpufreq and cpuidle subsystems work in isolation, at different time scales and often at cross-purposes with each other. The scheduler tries to balance the load across all CPUs (without any regards to the power costs) while the CPUFreq and CPUIdle subsystems are trying to save power by scaling down the frequency of the CPUs or idling them, respectively.
 
-{% include image.html name="2.jpg" alt="2" %}
+{% include image.html path="/assets/images/blog/2.jpg" alt="2" %}
 
 The Power Management (PM) subsystems have heuristics (in their governors) to try to predict the best time to save power on the CPU without affecting performance. These heuristics use their own means to try to gauge the current utilisation of the cpu and have to be run several times a second to react to any changes in the system - it is *reactive* by design. Moreover, the scheduler is constantly breaking their predictions by task scheduling because it has no knowledge of the power topology of the SoC.
 
@@ -46,7 +46,7 @@ There are several obstacles that make this a complex undertaking. It is like pee
 
 I classify all of this work as EAS infrastructure work. Once done, the picture might look a bit like the one below (greatly simplified).
 
-{% include image.html name="3.jpg" alt="3" %}
+{% include image.html path="/assets/images/blog/3.jpg" alt="3" %}
 
 All these changes will allow sophisticated load balancing heuristics to be developed that allow all of the following:
 

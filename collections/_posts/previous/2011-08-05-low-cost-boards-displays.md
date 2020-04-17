@@ -17,7 +17,7 @@ tags:
 title: Using Arm low cost boards for displays
 ---
 
-{% include image.html name="disp.jpg" alt="DISP" class="small-inline right" %}
+{% include image.html path="/assets/images/blog/disp.jpg" alt="DISP" class="small-inline right" %}
 
 During the Linaro Connect Q3.11 event in Cambridge, UK, I was asked to put together a system to display the schedule/conference info and IRC discussions on screens throughout the venue.
 

@@ -41,9 +41,9 @@ At the time the group was launched, the LHG steering committee also got to work 
 
 The target platforms of interest to LHG members were the RDK and Android (and later Android TV).
 
-{% include image.html name="RDK.jpg" alt="RDK" class="small-inline" %}
-{% include image.html name="androidTV2.jpg" alt="androidTV2" class="small-inline" %}
-{% include image.html name="Android.jpg" alt="Android" class="small-inline" %}
+{% include image.html path="/assets/images/blog/RDK.jpg" alt="RDK" class="small-inline" %}
+{% include image.html path="/assets/images/blog/androidTV2.jpg" alt="androidTV2" class="small-inline" %}
+{% include image.html path="/assets/images/blog/Android.jpg" alt="Android" class="small-inline" %}
 
 #### **Looking back…**
 
@@ -69,7 +69,7 @@ Standardized media security platform using Arm TrustZone:
 
 #### Key LHG Activities and Milestones at a glance
 
-{% include image.html name="LHG-milestones.jpg" alt="LHG milestones" %}
+{% include image.html path="/assets/images/blog/LHG-milestones.jpg" alt="LHG milestones" %}
 
 #### LHG Headlines
 
@@ -105,11 +105,11 @@ LHG integration of OP-TEE on member hardware:
   * RDK project, OpenEmbedded, CEF project
   * GitHub projects: OP-TEE, OpenCDM
 
-{% include image.html name="gstreamer.jpg" alt="gstreamer" class="small-inline" %}
+{% include image.html path="/assets/images/blog/gstreamer.jpg" alt="gstreamer" class="small-inline" %}
 
-{% include image.html name="trustzone.jpg" alt="Trust Zone" class="small-inline" %}
+{% include image.html path="/assets/images/blog/trustzone.jpg" alt="Trust Zone" class="small-inline" %}
 
-{% include image.html name="HTML5.jpg" alt="HTML5" class="small-inline" %}
+{% include image.html path="/assets/images/blog/HTML5.jpg" alt="HTML5" class="small-inline" %}
 
 
 #### Collaboration with other teams in Linaro
@@ -139,4 +139,4 @@ We look forward to an exciting second year in LHG as we continue our major work 
 
 **[Current LHG Members](/membership/)**
 
-{% include image.html name="LHG-members-5.jpg" alt="LHG Members Image"%}
+{% include image.html path="/assets/images/blog/LHG-members-5.jpg" alt="LHG Members Image"%}

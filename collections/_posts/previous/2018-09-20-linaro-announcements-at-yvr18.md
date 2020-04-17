@@ -13,7 +13,7 @@ Linaro Connect YVR18 has finally arrived!
 
 The week-long event came off to a great start on Monday with Linaro CEO George Grey’s keynote in which he took the opportunity to make some announcements and show some demos. If you missed the livestream, you can view the recording [here](https://www.youtube.com/watch?v=sHRKfdn4tIQ).
 
-{% include image.html name="GeorgeGreyKNYVR18.jpg" alt="Linaro CEO George Grey presenting"%}
+{% include image.html path="/assets/images/blog/GeorgeGreyKNYVR18.jpg" alt="Linaro CEO George Grey presenting"%}
 
 In George’s keynote he talked about the importance of open source in today’s context where markets are global, visible to all and no country or corporation has full ownership. Arm and Linaro are key global partners for anyone who wants to build their own IT ecosystem around computing and collaborative development. Everyone can contribute to, and improve, open source - commercial IP can be delivered on top of Open Source Platforms.
 
@@ -27,7 +27,7 @@ Linaro recently passed the OpenStack Interoperability test-suite with 100% pass 
 
 In George’s keynote, The Developer Cloud team provided a demo on how developers will be able to sign up to the Developer Cloud to receive their instance on member provided Arm hardware. To find out more about the Linaro Developer Cloud, click [here](https://linaro.cloud/).
 
-{% include image.html name="GeorgeGreyKNOpenstack.jpg" alt="The Linaro Developer Cloud Demo"%}
+{% include image.html path="/assets/images/blog/GeorgeGreyKNOpenstack.jpg" alt="The Linaro Developer Cloud Demo"%}
 
 **Linaro launches the Machine Intelligence Initiative**
 
@@ -35,7 +35,7 @@ The big announcement at Linaro Connect Vancouver 2018 was the official launch of
 
 Following on from the theme Machine Intelligence, Linaro hosted on the Wednesday an AI and Neural Networks on Arm Summit. Chris Benson, and Jem Davies from Arm, started the day with keynotes on AI and Machine Learning. This was then followed by sessions from a wide range of companies, including AWS, Arm, Google, Gumstix, NXP, Qualcomm, Skymizer, Thundersoft and Xilinx. All sessions and videos will be uploaded to [the resources page](https://connect.linaro.org/resources/yvr18/).
 
-{% include image.html name="ChrisBensonKNYVR18.jpg" alt="Chris Benson presenting at the AI and Neural Networks on Arm Summit"%}
+{% include image.html path="/assets/images/blog/ChrisBensonKNYVR18.jpg" alt="Chris Benson presenting at the AI and Neural Networks on Arm Summit"%}
 
 **Foundries.io demos their continously-updated microplatforms**
 

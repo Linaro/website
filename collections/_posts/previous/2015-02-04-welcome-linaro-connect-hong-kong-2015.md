@@ -19,7 +19,7 @@ title: Welcome to Linaro Connect Hong Kong 2015!
 wordpress_id: 7859
 ---
 
-{% include image.html name="hotelbuilding1.jpg" alt="Hong Kong 2015 Hotel"%}
+{% include image.html path="/assets/images/blog/hotelbuilding1.jpg" alt="Hong Kong 2015 Hotel"%}
 
 We are returning to Hong Kong for this year’s[ Linaro Connect](https://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights [1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.
 

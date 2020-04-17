@@ -17,14 +17,14 @@ wordpress_id: 9297
 Welcome to [Linaro Connect San Francisco 2015!](https://connect.linaro.org/sfo15/)
 We are returning to the [Hyatt Regency Hotel](https://www.hyatt.com/) in Burlingame, CA which is conveniently located next to the San Francisco airport. Hence, the shortcut reference of SFO15.
 
-{% include image.html name="evening-commute.jpg" alt="Evening Commute"%}
+{% include image.html path="/assets/images/blog/evening-commute.jpg" alt="Evening Commute"%}
 
-Why the same venue? It could be because we were hoping to overlap with the YaoiCon[1] convention as we did last year. Trust me, that is definitely not the reason although the convention was a topic of some interesting hallway discussions. As with most Connects, this venue offers a combination of convenience to a major airport as well as access to a cosmopolitan city with great people, restaurants, nightlif and attractions. In addition, the San Francisco Bay Area is a world center of innovation and is home (headquarters or major facility) for many of our member companies. 
+Why the same venue? It could be because we were hoping to overlap with the YaoiCon[1] convention as we did last year. Trust me, that is definitely not the reason although the convention was a topic of some interesting hallway discussions. As with most Connects, this venue offers a combination of convenience to a major airport as well as access to a cosmopolitan city with great people, restaurants, nightlif and attractions. In addition, the San Francisco Bay Area is a world center of innovation and is home (headquarters or major facility) for many of our member companies.
 
 This Connect will be similar in format to HKG15 (translation, Linaro Connect Hong Kong 2015). The overall theme for the week will be security and there will be daily themes for each of the four segment groups. Simon Segars (Arm CEO) and George Grey (Linaro CEO) will be kicking off the week on Monday with opening keynotes. Expect to hear a glimpse of things to come for Arm and the Arm Ecosystem.
 
 
-{% include image.html name="web-linaro-connect.jpg" alt="Web Linaro Connect Image" %}
+{% include image.html path="/assets/images/blog/web-linaro-connect.jpg" alt="Web Linaro Connect Image" %}
 
 There will be daily keynote speakers on Tuesday through Friday presenting topics relevant to the segment group theme of the day. Keynote speakers include Neil Trevett (VP Mobile Ecosystems, Nvidia), John Simmons (Media Platform Architect, Microsoft), Suresh Gopalakrishnan (VP & GM - Server, AMD), Dave Neary (SDN/NFV Community Strategy, Red Hat) and Karen Sandler (Executive Director, Software Freedom Conservancy). We have a surprise second keynote speaker on Thursday. A surprise because, as I write this blog, we haven’t finalized who it will be yet. Not to worry, it will be someone and something of interest. On Friday there will be a panel discussion on security. The panel will tell us what we should know, think we know or are afraid to know about this timely and critical topic.
 

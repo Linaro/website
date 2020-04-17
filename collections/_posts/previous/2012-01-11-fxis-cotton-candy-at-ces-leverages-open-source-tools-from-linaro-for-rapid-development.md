@@ -25,7 +25,7 @@ title: FXI's Cotton Candy at CES Leverages Open Source Tools from Linaro for Rap
 wordpress_id: 1148
 ---
 
-{% include image.html name="CottonCandy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
+{% include image.html path="/assets/images/blog/CottonCandy.jpg" alt="Cotton Candy (Prototype)" url="http://www.fxitech.com/products/" %}
 
 [FXI](http://www.fxitech.com/)'s [Cotton Candy](http://www.fxitech.com/products/) at [CES](http://www.cesweb.org/) is proof of how [Linaro](/) can help a system vendor rapidly develop a product that is running the latest [Android ICS](https://developer.android.com/about/versions/android-4.0-highlights.html) and[ Ubuntu](http://www.ubuntu.com/ubuntu).
 

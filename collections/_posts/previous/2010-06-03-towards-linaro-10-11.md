@@ -31,7 +31,7 @@ Developing for Arm devices isn't without its problems. There are a lot of compan
 
 ## Ubuntu's Linux on Arm initiative
 
-{% include image.html name="ubuntulogo.png" class="small-inline" alt="Ubuntu Logo" %}
+{% include image.html path="/assets/images/blog/ubuntulogo.png" class="small-inline" alt="Ubuntu Logo" %}
 Canonical, creators of the renowned Ubuntu distribution, and Arm saw the need to rally around an effort to produce a modern, full-featured Linux distribution tailored for Arm devices. Together, starting in 2008, Canonical and Arm took on the task of bring [Ubuntu to Arm platforms]().
 
 <!-- more -->
@@ -41,7 +41,7 @@ Release 9.04, codenamed "[Jaunty Jackalope](https://wiki.ubuntu.com/JauntyJackal
 
 ## What is Linaro?
 
-{% include image.html name="linaro-logo-web.png" class="small-inline" alt="Linaro Blog Post Logo Image" %}
+{% include image.html path="/assets/images/blog/linaro-logo-web.png" class="small-inline" alt="Linaro Blog Post Logo Image" %}
 Linaro is an initiative undertaken by Arm, Canonical and partners with the task of improving the state of the whole Linux on Arm ecosystem. It brings together the vast talents of the open source community and Arm's wealth of experience in the electronics industry to work on key and game-changing projects. It will work in the various upstreams where possible and provide engineering, technical and guidance support for a wide and diverse set of problem area's. Linaro will not just help other projects, there will also be a clear set of deliverables which will culminate Linaro's efforts into regular 6 monthly engineering releases, starting this November.
 
 

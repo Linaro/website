@@ -25,7 +25,7 @@ There are at least two member products shipping with SoC implementations of big.
 
   * Arm’s reference Test Chip 2 (TC2) tile for the Versatile Express development platform, configured as an SoC with 2 Cortex-A15 cores and 3 Cortex-A7 cores
 
-  * Samsung-LSI’s 8 core SoC found in some versions of the Galaxy S4 phone, configured with 4 Cortex-A15 cores and 4 Cortex-A7 cores 
+  * Samsung-LSI’s 8 core SoC found in some versions of the Galaxy S4 phone, configured with 4 Cortex-A15 cores and 4 Cortex-A7 cores
 
 There are also two software models now available, that Arm and Linaro have developed to enable control of workloads, performance, and power management on big.LITTLE SoCs.
 
@@ -35,7 +35,7 @@ The first is the IKS software, developed by Linaro, that treats each pair of Cor
 
 **Core Software Configuration for IKS (4+4)**
 
-{% include image.html name="Pic1.jpg" alt="Core Software Configuration Pic 1"%}
+{% include image.html path="/assets/images/blog/Pic1.jpg" alt="Core Software Configuration Pic 1"%}
 
 Using existing mechanisms in the Linux kernel for each pair the cpufreq driver controls whether the Cortex-A7 is active (for low power) or the Cortex-A15 is active (for maximum performance). Overall maximum performance and throughput on a 4+4 core SoC is from 4 Cortex-A15s. The key attribute of IKS is that it relies on existing well-understood mechanisms in the Linux kernel and it is easy to implement, test and characterize in a production environment.
 
@@ -45,16 +45,16 @@ The second is the Global Task Scheduling (GTS) software developed (and now named
 
 **Core Software Configuration for GTS (4+4)**
 
-{% include image.html name="Pic2.jpg" alt="Pic2" %}
+{% include image.html path="/assets/images/blog/Pic2.jpg" alt="Pic2" %}
 
 The key benefits of GTS over IKS are:
 
   * Finer grained control of workloads that are migrated between cores. Because the scheduler is directly migrating tasks between cores, kernel overhead is reduced and power savings can be correspondingly increased.
 
   * Implementation in the scheduler also makes switching decisions faster than in the cpufreq framework, and Arm have reported around 10% improvements in performance/watt over IKS on a range of benchmarks.
-  
+
   * The ability to easily support non-symmetrical SoCs (e.g. with 2 Cortex-A15 cores and 4 Cortex-A7 cores)
-  
+
   * The ability to use all cores simultaneously to provide improved peak performance throughput of the SoC compared to IKS.
 
 The big.LITTLE MP patch set creates a list of Cortex-A15 and Cortex-A7 cores that is used to pick the target core for a particular task. Then, using runnable load average statistics, the Linux scheduler is modified to track the average load of each task, and to migrate tasks to the best core. High intensity tasks are migrated to the Cortex-A15 core(s) and are also marked as high intensity tasks for more efficient future allocations.  Low intensity tasks remain resident on the Cortex-A7 core(s).
@@ -75,7 +75,7 @@ Until GTS functionality is fully upstream, Arm is supporting the big.LITTLE MP p
 
 The following table shows a simple feature comparison between IKS and MP
 
-{% include image.html name="IKS_GTS_q212_es.jpg" alt="IKS_GTS_q212_es" %}
+{% include image.html path="/assets/images/blog/IKS_GTS_q212_es.jpg" alt="IKS_GTS_q212_es" %}
 
 As stated above, Arm and Linaro now recommend product development and deployment to be based on the GTS solution. However, there are some cases where hardware limitations or a requirement for the traditional Linux scheduler (for example in some embedded applications) may lead to IKS still being required.
 

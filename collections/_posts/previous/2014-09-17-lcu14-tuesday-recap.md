@@ -486,4 +486,4 @@ The second part of his keynote covered new technologies driving Video delivery i
 
 **Pictures from Tuesday's Linaro Connect USA 2014**
 
-{% include image.html name="day-2-picture-3.jpg" alt="Picture from Tuesday's Linaro Connect USA 2014"%}
+{% include image.html path="/assets/images/blog/day-2-picture-3.jpg" alt="Picture from Tuesday's Linaro Connect USA 2014"%}

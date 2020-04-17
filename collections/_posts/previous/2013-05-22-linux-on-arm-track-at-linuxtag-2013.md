@@ -20,7 +20,7 @@ wordpress_id: 2731
 
 [The 19th Annual LinuxTag event](https://www.linuxtag.org/2013/en/press/press-information/pm/article/wo-com-auf-org-trifft-19-linuxtag-in-berlin-eroeffnet.html) kicked off today at the Berlin Exhibition Grounds in Berlin, Germany where event planners are expecting over 10,000 visitors from all over Germany and the UK.
 
-{% include image.html name="AGallo_150x187.jpg" alt="Andrea Gallo, Director Linaro Enterprise Group (LEG)" class="small-inline"%}
+{% include image.html path="/assets/images/blog/AGallo_150x187.jpg" alt="Andrea Gallo, Director Linaro Enterprise Group (LEG)" class="small-inline"%}
 
 For [Linaro](/) though, it's tomorrow, Thursday, 23 May that's the big day at LinuxTag.  If you are in Berlin, interested in Linux on Arm and want to connect with developers from Linaro then you are in luck as [Andrea Gallo](/about/), Director of the [Linaro Enterprise Group (LEG)](/engineering/datacenter-and-cloud/) is set to open the [Linux on Arm/Hardware in Action](https://www.linuxtag.org/2013/en/program/thursday-may-23-2013/linux-on-arm-hardware-in-action.html) track. Gallo's talk will explain how the governance works for both the core Linaro activities and the group specific ones, will describe the latest achievements in the various sub-teams, the mid-term roadmap and the resources available to all community developers to get involved and contribute.
 

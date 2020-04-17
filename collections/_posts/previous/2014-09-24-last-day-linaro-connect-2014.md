@@ -359,26 +359,26 @@ Overall it was a great week with many exciting activities where those attending 
 **Demos**
 There were demos each day of the week during Connect, including a robot that drew the Linaro Connect logo.
 
-{% include image.html name="Picture2.png" alt="Linaro Connect Picture 2"%}
+{% include image.html path="/assets/images/blog/Picture2.png" alt="Linaro Connect Picture 2"%}
 
 **Parties**
 Many parties and team dinners took place during the week, including the Connect Superhero Jamboree.
 
-{% include image.html name="superheros.png" alt="Linaro Connect Superheroes" %}
+{% include image.html path="/assets/images/blog/superheros.png" alt="Linaro Connect Superheroes" %}
 
-{% include image.html name="parties-2.jpg" alt="Linaro Connect Parties 2" %}
+{% include image.html path="/assets/images/blog/parties-2.jpg" alt="Linaro Connect Parties 2" %}
 
-{% include image.html name="parties.jpg" alt="Linaro Connect parties" %}
+{% include image.html path="/assets/images/blog/parties.jpg" alt="Linaro Connect parties" %}
 
-{% include image.html name="party-3.5.jpg" alt="Linaro Connect party 3.5" %}
+{% include image.html path="/assets/images/blog/party-3.5.jpg" alt="Linaro Connect party 3.5" %}
 
 
 **Sessions, Learning and Hacking**
 
 Each day started with a variety of sessions to attend and demos to view. The afternoons gave the teams time to meet and time for hacking.
 
-{% include image.html name="demos.jpg" alt="demos" %}
+{% include image.html path="/assets/images/blog/demos.jpg" alt="demos" %}
 
-{% include image.html name="working.jpg" alt="working" %}
+{% include image.html path="/assets/images/blog/working.jpg" alt="working" %}
 
-{% include image.html name="sessions.jpg" alt="sessions" %}
+{% include image.html path="/assets/images/blog/sessions.jpg" alt="sessions" %}

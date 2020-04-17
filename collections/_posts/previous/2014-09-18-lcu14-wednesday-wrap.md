@@ -481,4 +481,4 @@ Enterprise Servers
 
 ### **Linaro Connect USA Group**
 
-{% include image.html name="group-shot-2.jpg" alt="Linaro Connect America Group Photo"%}
+{% include image.html path="/assets/images/blog/group-shot-2.jpg" alt="Linaro Connect America Group Photo"%}

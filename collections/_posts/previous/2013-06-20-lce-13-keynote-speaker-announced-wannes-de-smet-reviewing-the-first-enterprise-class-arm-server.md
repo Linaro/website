@@ -17,7 +17,7 @@ title: 'LCE-13 Keynote Speaker Announced: Wannes De Smet - Reviewing the first e
 wordpress_id: 2774
 ---
 
-{% include image.html name="W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline" %}
+{% include image.html path="/assets/images/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline" %}
 
 We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 

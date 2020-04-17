@@ -32,7 +32,7 @@ The formation of LEG was [announced](/news/industry-leaders-collaborate-to-accel
 
 UEFI is only one [part of the roadmap](https://wiki-archive.linaro.org/LEG#Scope_of_Work) that [LEG](/engineering/datacenter-and-cloud/) will be working on in 2013.
 
-{% include image.html name="LEG-Roadmap-2012Q4.png" alt="Linaro Enterprise Group (LEG) Roadmap" url="https://wiki-archive.linaro.org/LEG#Scope_of_Work" %}
+{% include image.html path="/assets/images/blog/LEG-Roadmap-2012Q4.png" alt="Linaro Enterprise Group (LEG) Roadmap" url="https://wiki-archive.linaro.org/LEG#Scope_of_Work" %}
 
 More information about LEG and its goals and release schedule can be found on the [Linaro Website](/engineering/datacenter-and-cloud/) and [Wiki pages](https://wiki-archive.linaro.org/LEG).
 

@@ -36,7 +36,7 @@ The Arm architecture is dominant mobile CPU architecture and already has the tec
 
 ### Tell me more about Arm TrustZone
 
-{% include image.html name="Arm-TrustZone-Logo.png" alt="Arm-TrustZone-Logo" class="small-inline"%}
+{% include image.html path="/assets/images/blog/Arm-TrustZone-Logo.png" alt="Arm-TrustZone-Logo" class="small-inline"%}
 
 Arm TrustZone is the term used to describe the Arm Security Extensions. Available since Armv6, the Arm Security Extensions define optional hardware security features for the Arm processor as well as other components of an Arm SoC.
 
@@ -48,7 +48,7 @@ While the above technology exists for enabling secure compute, it is typically o
 
 ### QEMU - Q What?
 
-{% include image.html name="Qemu-logo.png" alt="Qemu-logo" class="small-inline" %}
+{% include image.html path="/assets/images/blog/Qemu-logo.png" alt="Qemu-logo" class="small-inline" %}
 
 QEMU, short for “quick emulator”, is very widely used open source machine emulator. QEMU is capable of emulating a variety of client architectures across a number of host architectures through the use of dynamic binary translation. In addition to being a standalone emulator the QEMU sources are also the foundation for other emulated environments. Most notably, the Android Emulator, which is shipped as part of the Android SDK, is based on an older stripped down version of QEMU (go [here](/blog/running-64bit-android-l-qemu/) for more details).
 
@@ -62,7 +62,7 @@ QEMU is open source and freely available, making it a cost-effective alternative
 
 The primary goal of adding the security extensions support to QEMU’s Arm target is to allow for development of secure software without the need for dedicated hardware. With Arm Security Extensions support in QEMU, users could conveniently load their trusted secure world binary alongside a rich OS running in the non-secure world, allowing full interaction while debugging both environments.
 
-{% include image.html name="quem-trusted.jpg" alt="quem-trusted" class="small-inline"%}
+{% include image.html path="/assets/images/blog/quem-trusted.jpg" alt="quem-trusted" class="small-inline"%}
 
 Developers can use the QEMU Arm Security Extensions to develop and work with Trusted Execution Environments (TEEs) that are likely to be the primary consumers of the added functionality. Secure applications can then be developed on the added TEEs without the need for dedicated hardware.
 
@@ -80,7 +80,7 @@ Just as the Arm Security Extensions extend the Arm architecture, they can simila
 
 #### Initial development
 
-{% include image.html name="quem-timeline.jpg" alt="Qemu - timeline" %}
+{% include image.html path="/assets/images/blog/quem-timeline.jpg" alt="Qemu - timeline" %}
 
 From August of 2011 to June 2013, Johannes Winter of the Graz University of Technology started developing QEMU TrustZone changes to the GitHub QEMU repository.
 

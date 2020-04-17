@@ -24,7 +24,7 @@ This is important because the governance and behaviour of open source projects i
 
 Open Source is part of Linaro’s DNA and critical to our work. The only way to reduce fragmentation in the Arm ecosystem is to collaborate. We contribute to over 70 open source projects, often as maintainers. These are some of them:
 
-{% include image.html name="open-source-projects.png" alt="Open Source projects that Linaro contributes to." %}
+{% include image.html path="/assets/images/blog/open-source-projects.png" alt="Open Source projects that Linaro contributes to." %}
 
 ## Our commitment
 

@@ -29,7 +29,7 @@ OP-TEE is an open source *Trusted Execution Environment*. In short it is a secur
 
 Conceptually TEEs works in a similar way to traditional OSes, that is you will have a *privileged part* (kernel) and a *non-privileged part* (user space). The difference here is that they are both running secure mode separately from the normal OS. So, what we are talking about here is mainly the green part in the image below, but it will also overlap with the Secure Monitor which is also running in secure world. The Secure Monitor is responsible for entries and exits to and from secure world.
 
-{% include image.html name="trustzone-matrix.png" alt="TrustZone Matrix" %}
+{% include image.html path="/assets/images/blog/trustzone-matrix.png" alt="TrustZone Matrix" %}
 
 OP-TEE consists of code running both in non-secure world (in both Linux and user space) as well as secure world. The OP-TEE code running in non-secure world will be protected against Meltdown and Spectre by the "general" mitigations taking place from Linux point of view, i.e., *KPTI*, branch predictor invalidation etc. I.e., the mitigations that we talked about in the [previous blog post](/blog/meltdown-spectre/). This means that there is no need for doing anything extra for non-secure OP-TEE components to protect them against Meltdown and Spectre.
 

@@ -100,7 +100,7 @@ The picture below shows a plot of power usage vs time. The two spikes on the gra
 
 The ftrace capture shown below displays the activity on the 4 CPUs before, during, and after the suspend/resume operation. As you can see, during the suspend, no IPIs or IRQs are handled.
 
-{% include image.html name="blog-picture-2.png" alt="Blog Picture 2" %}
+{% include image.html path="/assets/images/blog/blog-picture-2.png" alt="Blog Picture 2" %}
 
 
 **Ftrace capture of Suspend/Resume**
@@ -157,5 +157,3 @@ sh: write error: Invalid argument
 There are two areas where work is currently being done on Suspend to Idle on Arm platforms. The first area was mentioned earlier in the platform_suspend_ops prerequisite section. The work to always allow for the freeze state was accepted and will be part of the 4.9 kernel. The other area that is being worked on is the freeze_function support.
 
 The freeze_function implementation is currently required if you want the best response/performance. However, since most SoCs will use the Arm cpuidle driver, it makes sense for the Arm cpuidle driver to implement its own generic freeze_function. And in fact, Arm is working to add this generic support. A SoC vendor should only have to implement specialized freeze_functions if they implement their own cpuidle driver or require additional provisioning before entering their deepest freezable idle state.
-
-

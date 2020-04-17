@@ -404,4 +404,4 @@ Power Management
 
 ### **Images of the Linaro Networking Group Demo Day**
 
-{% include image.html name="LNG-demo-day.png" alt="LNG demo day" %}
+{% include image.html path="/assets/images/blog/LNG-demo-day.png" alt="LNG demo day" %}

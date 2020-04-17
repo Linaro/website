@@ -24,11 +24,11 @@ The second Android pre-release is done and has been tested.
 
 Each build is based on Android 2.3.5 and has been compiled with Linaro's 11.10 GCC 4.6 release, with `-O3` and `strict-aliasing` turned on.
 
-Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are generally based on the last stable Android kernel/common.git + linux-linaro. Both build types contain enablement patches that have not been upstreamed yet. Beagle xM is built using an upstream only tree, and represents the state of upstream enablement.  
+Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are generally based on the last stable Android kernel/common.git + linux-linaro. Both build types contain enablement patches that have not been upstreamed yet. Beagle xM is built using an upstream only tree, and represents the state of upstream enablement.
 
 ## Builds
 
-{% include image.html name="linaro-android-build-service1.png" alt="Linaro Android Build Service" %}
+{% include image.html path="/assets/images/blog/linaro-android-build-service1.png" alt="Linaro Android Build Service" %}
 
 
 [Tracking Panda]()https://android-build.linaro.org/builds/~linaro-android/tracking-panda-11.10-release/#build=4 Linux version 3.1.0-rc9+
@@ -41,6 +41,6 @@ Tracking builds are based on "Androidized" Linus HEAD trees, staging builds are 
 
 See each build page for usage info.
 
-{% include image.html name="11.10-rc2-smoke-tests.png" alt="Linaro Android 11.10-rc2 smoke tests" %}
+{% include image.html path="/assets/images/blog/11.10-rc2-smoke-tests.png" alt="Linaro Android 11.10-rc2 smoke tests" %}
 
 All the smoke tests are listed on tests. See the "11.10 Pre Release 2" section.

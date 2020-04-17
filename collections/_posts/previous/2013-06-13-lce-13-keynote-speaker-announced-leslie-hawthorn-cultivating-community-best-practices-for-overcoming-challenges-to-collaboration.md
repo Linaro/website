@@ -16,7 +16,7 @@ title: 'LCE-13 Keynote Speaker Announced: Leslie Hawthorn - Cultivating Communit
 wordpress_id: 2759
 ---
 
-{% include image.html name="2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg" alt="Leslie Hawthorn" class="small-inline"%}
+{% include image.html path="/assets/images/blog/2rAhVIj8U-4KgePBIN2rFk0qnMdWrrOq9ztLJcAYah9RWPXv3tk8P2DT8VsFaXFcws2000.jpg" alt="Leslie Hawthorn" class="small-inline"%}
 
 We're excited to announce that Leslie Hawthorn, Community Action and Impact Manager for [Red Hat, Inc.](http://www.redhat.com/) will be giving the Wednesday, July 10 keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 
@@ -50,13 +50,13 @@ Drawing on years of experience working with hundreds of open source projects, Le
 
 
 
-	
+
   * Creating consensus among different groups
 
-	
+
   * Mitigating conflicts that arise due to different cultural norms
 
-	
+
   * Smoothing the waters after hard conversations and arguments
 
 

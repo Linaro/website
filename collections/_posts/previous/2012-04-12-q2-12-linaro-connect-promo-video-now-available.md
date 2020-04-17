@@ -18,13 +18,13 @@ title: Q2.12 Linaro Connect Promo Video Now Available
 wordpress_id: 1554
 ---
 
-{% include image.html name="event-221.png" alt="Linaro Connect Event Q2 12" url="https://connect.linaro.org/resources/" %}
+{% include image.html path="/assets/images/blog/event-221.png" alt="Linaro Connect Event Q2 12" url="https://connect.linaro.org/resources/" %}
 
 Do you wonder what a Linaro Connect event is like?  Did you miss the last one?  If you answered yes to either of these questions, then we have something for you.
 
 Thanks to [Tara Oldfield](https://plus.google.com/117647229006247247428/posts) at [Novacut](https://plus.google.com/109582833728734114979/posts) the [Q2.12 Linaro Connect](https://connect.linaro.org/resources/) which is being held from 28 May-1 June, 2012 at the Gold Coast Hotel in Hong Kong now has a [promo video](http://youtu.be/xkFQzhYLsQI).
 
-{% include image.html name="novacut-solo-brandmark_PINK_FINAL-PNG-512px.png" alt="Novacut Solo Brand Mark" %}
+{% include image.html path="/assets/images/blog/novacut-solo-brandmark_PINK_FINAL-PNG-512px.png" alt="Novacut Solo Brand Mark" %}
 
 
 But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.

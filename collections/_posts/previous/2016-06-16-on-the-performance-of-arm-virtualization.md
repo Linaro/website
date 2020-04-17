@@ -31,7 +31,7 @@ title: On the Performance of Arm Virtualization
 wordpress_id: 10716
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 
 # Abstract
@@ -53,7 +53,7 @@ The detailed results of this study are to appear in the 43rd International Sympo
 # Background
 
 
-{% include image.html name="Hypervisor-designs.jpg" alt="Hypervisor designs" %}
+{% include image.html path="/assets/images/blog/Hypervisor-designs.jpg" alt="Hypervisor designs" %}
 
 Figure 1 depicts the two main hypervisor designs, Type 1 and Type 2. Type 1 hypervisors, like Xen, comprise a separate hypervisor software component, which runs directly on the hardware and provides a virtual machine abstraction to VMs running on top of the hypervisor. Type 2 hypervisors, like KVM, run an existing OS on the hardware and run both VMs and applications on top of the OS. Type 2 hypervisors typically modify the existing OS to facilitate running of VMs, either by integrating the Virtual Machine Monitor (VMM) into the existing OS source code base, or by installing the VMM as a driver into the OS. KVM integrates directly with Linux where other solutions such as VMware Workstation use a loadable driver in the existing OS kernel to monitor virtual machines. The OS integrated with a Type 2 hypervisor is commonly referred to as the host OS, as opposed to the guest OS which runs in a VM.
 
@@ -87,7 +87,7 @@ We have analyze the true reasons for this difference in performance and develope
 
 We also ran a number of real application benchmark workloads to quantify how well the Arm virtualization extensions support different hypervisor software designs in the context of more realistic workloads. The benchmarks we ran include a mix of widely-used CPU and I/O intensive benchmark workloads. For workloads involving a client and a server, we ran the client on a dedicated machine and the server on the configuration being measured, ensuring that the client was never saturated during any of our experiments. We ran these workloads natively and on both KVM and Xen on both Arm and x86, the latter to provide a baseline comparison.
 
-{% include image.html name="Benchmark-performance.jpg" alt="Benchmark performance" %}
+{% include image.html path="/assets/images/blog/Benchmark-performance.jpg" alt="Benchmark performance" %}
 
 
 Again, for an in-depth discussion of these results we refer you to the published paper, but we provide two examples here: First, the low hypercall performance of Xen vs. KVM on Arm, really only shows up in an isolated fashion in the hackbench results. The reason is that hackbench heavily utilizes the Linux scheduler, which results in a high amount of rescheduling virtual IPIs, and Xen Arm benefits from its low VM-to-hypervisor transition time for handling virtual IPIs.
