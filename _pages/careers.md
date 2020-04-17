@@ -13,7 +13,7 @@ jumbotron:
     image: /assets/images/content/careers-image-1.jpg
 flow:
     - row: container_row
-      style: large_type introduction_row
+      style: large_type introduction_row py-0
       sections:
         - format: title
           style: text-left
@@ -41,7 +41,7 @@ flow:
                 url: /assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf
                 style: btn-secondary careers_btn
     - row: container_row
-      style: internship_row
+      style: internship_row bg-primary
       sections:
         - format: custom_include
           source: careers/careers_section_interns.html
