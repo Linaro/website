@@ -5,7 +5,6 @@ description: |-
 keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables, LCG, LMG
 image: /assets/images/content/LCG.png
 permalink: /engineering/consumer/
-css-package: landing-page
 layout: flow
 js-package: engineering
 members:
@@ -30,9 +29,8 @@ flow:
         - format: custom_include
           params: lcg
           source: related_members.html
-  - row: main_content_row
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

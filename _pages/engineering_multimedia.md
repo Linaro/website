@@ -28,7 +28,7 @@ flow:
           params: core,club,Comcast
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -40,13 +40,13 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=eyqXgY-ITmk&feature=emb_title
-            title: HKG18-408 - A DRM solution using TZMP
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=eyqXgY-ITmk&feature=emb_title
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: HKG18-408 - A DRM solution using TZMP
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: text
         style: text-left no-padding
@@ -80,13 +80,13 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
-            url: https://www.youtube.com/watch?v=cqSdMzy4gw8
-            title: HKG18-203 - Overview of Linaro DRM
-        source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=cqSdMzy4gw8
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: HKG18-203 - Overview of Linaro DRM
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: title
         style: text-left no-padding
@@ -101,13 +101,13 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
+        - format: youtube
+          style: #
           url: https://www.youtube.com/watch?v=RIGpastAifg
-          title: "HKG15-506: Comcast - Lessons learned from migrating the RDK code...."
-        source: components/lazy_youtube_video_embed.html
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: "HKG15-506: Comcast - Lessons learned from migrating the RDK code..."
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: title
         style: text-left no-padding
@@ -132,11 +132,11 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
+        - format: youtube
+          style: #
           url: https://www.youtube.com/watch?v=S04jOKWHWOg&feature=emb_title
+        #   poster_image: /assets/images/test/background-image1.jpg
           title: "BKK19-506 - Libcamera: Making Complex Cameras Easy"
-        source: components/lazy_youtube_video_embed.html
   - row: custom_include_row
     source: engineering_related_resources.html
 ---

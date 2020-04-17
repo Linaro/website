@@ -23,7 +23,7 @@ jumbotron:
     image: /assets/images/content/autonomous-driving-bg.jpg
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

@@ -31,7 +31,7 @@ flow:
           params: core,club
           source: related_members.html
   - row: main_content_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
   - row: custom_include_row
     source: engineering_related_resources.html
 ---

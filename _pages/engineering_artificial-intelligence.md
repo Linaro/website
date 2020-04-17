@@ -23,7 +23,7 @@ jumbotron:
 layout: flow
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -44,13 +44,13 @@ flow:
         #   poster_image: /assets/images/test/background-image1.jpg
           title: Introduction to the Linaro Artificial Intelligence Initiative
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
         text_content:
           text: >
-            Below are some of the Artificial Intelligence related sessions from the previous [Linaro Connect](https://connect.linaro.org):
+            Below are some of the Artificial Intelligence related sessions from [Linaro Connect](https://connect.linaro.org):
   - row: main_content_row
   - row: custom_include_row
     source: engineering_related_resources.html

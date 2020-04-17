@@ -35,7 +35,7 @@ flow:
           params: ledge
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -45,13 +45,13 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=lmXKYhcLqbU
-            title: Arm on Arm Panel Discussion 2019
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=lmXKYhcLqbU
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: Arm on Arm Panel Discussion 2019
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

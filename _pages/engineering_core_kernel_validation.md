@@ -27,7 +27,7 @@ flow:
           params: core,club
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -48,7 +48,7 @@ flow:
         #   poster_image: /assets/images/test/background-image1.jpg
           title: Interview with Shuah Khan on Kernel Self Test
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
