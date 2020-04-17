@@ -14,8 +14,7 @@ image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png
 flow:
-    - row: custom_include_row
-      source: services/developer_services_page_content.html
+    - row: main_content_row
     - row: container_row
       style: services_form large_type bg-primary text-white
       sections:
