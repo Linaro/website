@@ -12,7 +12,7 @@ jumbotron:
   image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: title
         style: text-left
