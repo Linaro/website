@@ -15,15 +15,21 @@ function sort_by_date(a, b) {
 function createPageElements(items) {
   var page_elements = [];
   var sorted_items = items.sort(sort_by_date);
-  $.each(sorted_items, function(key, val) {
+  $.each(sorted_items, function (key, val) {
     // Create a new element for resource
-    var page_element = "<a target='_blank' href='" + val.item_url + "'>";
-    page_element += "<div class='col-xs-12 col-sm-4'>";
+    var page_element =
+      "<a target='_blank' class='text-white' href='" + val.item_url + "'>";
+    page_element += "<div class='col col-12 col-sm-6 col-lg-4'>";
     page_element +=
-      "<div class='resource_block_inner' style='background-image:url(" +
+      "<div class='card h-100 background_image text-white d-flex flex-column align-items-center justify-content-center text-white'>";
+    page_element +=
+      "<img style='filter:brightness(0.6);' class='card-img-top lazyload' data-src='" +
       val.item_thumbnail +
-      ")'>";
-    page_element += "<h3>" + val.item_title + "</h3>";
+      "' alt='" +
+      val.item_title +
+      "' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/>";
+    page_element += "<div class='card-body card-img-overlay'>";
+    page_element += "<h5 class='card-title'>" + val.item_title + "</h5>";
     page_element +=
       "<small>" + extractDateString(val.item_date_published) + "</small>";
     page_element += "<small>" + val.item_event + "</small>";
@@ -49,29 +55,30 @@ function createPageElements(items) {
     }
     page_element += "</div>";
     page_element += "</div>";
+    page_element += "</div>";
     page_element += "</a>";
     page_elements.push(page_element);
   });
   return page_elements.slice(0, 9);
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Check the related_resources div exists
   if ($("#related_resources").length > 0) {
     // Tracks to search resources for.
     var required_tracks = $("#related_resources").data("related-tracks");
     if (required_tracks.indexOf(",") > -1) {
-      required_tracks = required_tracks.split(",").map(function(item) {
+      required_tracks = required_tracks.split(",").map(function (item) {
         return item.trim();
       });
     } else {
       required_tracks = [required_tracks];
     }
     // Fetch relevant Connect resources
-    $.getJSON("https://connect.linaro.org/assets/json/connects.json", function(
+    $.getJSON("https://connect.linaro.org/assets/json/connects.json", function (
       data
     ) {
-      $.each(data, function(key, val) {
+      $.each(data, function (key, val) {
         var split_date_string = val["start_date"].split(" ")[0].split("-");
         var start_date = new Date(
           split_date_string[0],
@@ -84,13 +91,13 @@ $(document).ready(function() {
             "https://connect.linaro.org/assets/json/" +
             val.id.toLowerCase() +
             "/data.json";
-          $.getJSON(json_url, function(data) {
+          $.getJSON(json_url, function (data) {
             // Loop through all resources for specific connect
-            $.each(data, function(key, specific_resource) {
+            $.each(data, function (key, specific_resource) {
               // Find resources that match the required tracks
               if (specific_resource.hasOwnProperty("tracks")) {
                 // Loop over required tracks
-                $.each(required_tracks, function(key, val) {
+                $.each(required_tracks, function (key, val) {
                   // Check that the resource contains one of the required tracks
                   if (specific_resource.tracks.indexOf(val) > -1) {
                     var event = specific_resource.event_id.toUpperCase();
@@ -101,7 +108,7 @@ $(document).ready(function() {
                       item_video_url: specific_resource.youtube_video_url,
                       item_thumbnail: specific_resource.thumbnail,
                       item_event: "Linaro Connect " + event,
-                      item_date_published: specific_resource.date_published
+                      item_date_published: specific_resource.date_published,
                     };
                     if (
                       specific_resource.hasOwnProperty(
@@ -126,7 +133,7 @@ $(document).ready(function() {
   }
 });
 // Display resources once the ajaxStop event is fired
-$(document).ajaxStop(function() {
+$(document).ajaxStop(function () {
   var page_elements = createPageElements(items);
   $("#related_resources").html(page_elements);
 });
