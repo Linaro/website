@@ -1,19 +1,17 @@
 ---
 title: Events
 permalink: /events/
-layout: post-index-events
-jumbotron:
-    title: Events
-    inner_class: dotted
-    description: ""
-description: Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
-image:
-    path: /assets/images/content/yvr18-group-photo.jpg
-    name: hpcworkshop2.png
-css-package: events-blog
-redirect_from:
-- /events/attended/
-- /events/workshops/
-- /events/workshop/
-_hide_content: true
+image: /assets/images/content/yvr18-group-photo.jpg
+description: >
+    Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
+flow:
+    - row: container_row
+      sections:
+        - format: custom_include
+          source: blog/post_search.html
+          payload:
+              name: url
+              data: /assets/json/events.json
+        - format: custom_include
+          source: blog/display_latest_events.html
 ---
