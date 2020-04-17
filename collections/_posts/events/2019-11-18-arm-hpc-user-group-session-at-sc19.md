@@ -8,5 +8,6 @@ event_date: '2019-11-18 10:35:10'
 event_end_date: '2019-11-18 10:35:10'
 image: /assets/images/content/hpc-arm-event.jpg
 event_type: presenter
+categories:
+  - Events
 ---
-

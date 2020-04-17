@@ -16,5 +16,7 @@ event_date: '2019-12-06 09:00:00+00:00'
 event_end_date: '2019-12-06 12:00:00'
 image: /assets/images/content/arm-tech-symposia-2019.png
 event_type: sponsor
+categories:
+  - Events
 ---
 Linaro will have a booth at the Arm Tech Symposia Tokyo where we will showcase a LAVA Demo.

@@ -12,4 +12,6 @@ image: /assets/images/content/third-edge-computing-forum.png
 location: >
   Fraunhofer Institute for Open Communication Systems FOKUS
   Kaiserin-Augusta-Allee 31, 10589 Berlin, Germany
+categories:
+  - Events
 ---

@@ -21,10 +21,11 @@ event_date: '2020-03-27 12:57:23'
 event_end_date: '2020-03-28 12:57:23'
 image: /assets/images/content/ScreenShot2020-03-18at1.00.44PM.png
 event_type: presenter
+categories:
+  - Events
 ---
 March 6 session [https://hdcwebinars.​huaweicloud.com/watch/xov8drzm](https://hdcwebinars.huaweicloud.com/watch/xov8drzm)
 
-\
 28th March, 16:20pm~17:20pm, Deep dive into the unified accelerator framework WarpDrive, Zhangfei Gao and Haojian Zhuang
 
 Keynote video from David Rusling

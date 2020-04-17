@@ -12,4 +12,6 @@ description: >-
 image: /assets/images/content/open-infrastructure-summit-2019.png
 location: >
   Shanghai, China
+categories:
+  - Events
 ---

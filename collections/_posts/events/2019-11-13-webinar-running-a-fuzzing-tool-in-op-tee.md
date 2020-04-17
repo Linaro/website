@@ -11,6 +11,8 @@ event_date: '2019-12-03 06:00:00'
 event_end_date: '2019-12-03 09:22:08'
 image: /assets/images/content/riscure-webinar-web-banner-100.jpg
 event_type: webinar
+categories:
+  - Events
 ---
 **Webinar: Running a fuzzer in OP-TEE**
 
