@@ -21,7 +21,7 @@ To integrate support into AOSP, we created a “pixel3_mainline” build target 
 
 Meanwhile we started looking into Pocophone’s F1 phone, a similar Snapdragon 845 based device, which uses a panel that doesn’t require DSC support. With a relatively small amount of work, in order to add support for the PocoF1 panel, we quickly boot AOSP upto UI with the mainline linux kernel. Since the Dragonboard 845c support was already in AOSP utilizing the Android Generic Kernel Image (GKI), we could just re-use the GKI and the Dragonboard 845c kernel modules along with local (vendor specific) panel and regulator driver modules, demonstrating the future potential of the Android GKI initiative:
 
-{% include image.html path="/assets/images/blog/poco-f1-settings-page.jpg" class="medium-inline" alt="poco-f1-settings" %}
+{% include image.html path="/assets/images/content/poco-f1-settings-page.jpg" class="medium-inline" alt="poco-f1-settings" %}
 
 {% include media.html media_url="https://www.youtube.com/watch?v=-SRqxkMpeMc" %}
 
