@@ -83,7 +83,7 @@ In a typical Arm TrustZone environment, a bootloader is responsible for loading 
 
 Given the standalone nature of the QEMU Arm TrustZone test, it would be overkill to use something as complicated as a bare-metal bootloader. Instead, to simplify the testing setup, we construct a single test binary by concatenating separate secure and non-secure images into a single file. Each of the images have fixed offsets in the binary file and are linked at a known starting virtual addresses for easy loading and execution of each image. The benefit of using a single binary is that QEMU can be invoked by simply using the -bios command line option to point to our single test binary.
 
-{% include image.html path="/assets/images/blog/Test-Image-Layout-2" alt="Test-Image-Layout-2.jpg" %}
+{% include image.html path="/assets/images/blog/Test-Image-Layout-2.jpg" alt="Test-Image-Layout-2" %}
 
 ### Test Image Loading
 

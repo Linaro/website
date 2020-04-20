@@ -56,9 +56,9 @@ Support OpenGL ES1.1/2.0/3.0, OpenCL1.2, DirectX11.1 etc. Support AFBC  |
 
 In addition to the 96Boards SOM RK3399, 96Boards and Geniatech have also launched a carrier board. It is compatible with both modules and can support multiple designs.
 
-{% include image.html path="/assets/images/blog/som-pr-image.png" %}
+{% include image.html path="/assets/images/content/som-pr-image.png" %}
 
-{% include image.html path="/assets/images/blog/som-pr-image-2.png" %}
+{% include image.html path="/assets/images/content/som-pr-image-2.png" %}
 
 
   <table  class="table table-responsive" style="border:none;border-collapse:collapse;">

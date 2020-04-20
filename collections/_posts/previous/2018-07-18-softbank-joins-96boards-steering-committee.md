@@ -20,7 +20,7 @@ The 96Boards steering committee now includes more than twenty companies who are 
 
 “We are excited to welcome SoftBank to the 96Boards Steering Committee and look forward to  the benefits they will bring to the 96Boards range of specifications and products built around the specifications” said Yang Zhang, Director of 96Boards. “SoftBank is uniquely positioned to help connect the vast range of vendors from across the ecosystem and foster accelerated collaboration on standardized platforms for the future.”
 
-{% include image.html path="/assets/images/blog/softbank-joins-96boards.png" alt="SoftBank joins 96Boards Steering Committee"%}
+{% include image.html path="/assets/images/content/softbank-joins-96boards.png" alt="SoftBank joins 96Boards Steering Committee"%}
 
 ### About SoftBank
 
