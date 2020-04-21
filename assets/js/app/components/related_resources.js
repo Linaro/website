@@ -30,9 +30,7 @@ function createPageElements(items) {
       "' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/>";
     page_element += "<div class='card-body card-img-overlay'>";
     page_element += "<h5 class='card-title'>" + val.item_title + "</h5>";
-    page_element +=
-      "<small>" + extractDateString(val.item_date_published) + "</small>";
-    page_element += "<small>" + val.item_event + "</small>";
+    page_element += "<p>" + extractDateString(val.item_date_published) + "</p>";
     if (
       val.hasOwnProperty("item_presentation_url") &&
       val.item_presentation_url !== undefined &&
