@@ -5,7 +5,6 @@ description: |-
 keywords: EAS, DynamIQ, Arm, tools, power, energy, thermal, scheduler, big.LITTLE
 permalink: /engineering/core/arm-power-management/
 layout: flow
-css-package: landing-page
 related_resources_tracks: Power Management, Power, PMWG, EAS
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png

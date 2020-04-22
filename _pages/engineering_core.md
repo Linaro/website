@@ -8,7 +8,6 @@ keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hard
 permalink: /engineering/core/
 image: /assets/images/content/engineering/png/core_engineering.png
 layout: flow
-css-package: landing-page
 related_resources_tracks: Tools
 js-package: engineering
 redirect_from:

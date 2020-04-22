@@ -1,7 +1,6 @@
 ---
 title: Devicetree Evolution
 layout: flow
-css-package: landing-page
 related_resources_tracks: Tools
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png

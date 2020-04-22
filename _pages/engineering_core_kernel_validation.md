@@ -10,7 +10,6 @@ related_tags:
   - validation
   - lkft
 layout: flow
-css-package: landing-page
 related_resources_tracks: Validation, Testing, CTT
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png

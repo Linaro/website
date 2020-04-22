@@ -4,7 +4,6 @@ description: |-
     The Linaro Toolchain works on all aspects of system-level tools - the core development toolchain (compiler, assembler, linker, debugger), core system libraries (dynamic linker, c-library), emulation, profiling and analysis (oprofile, performance events) and instrumentation (ftrace).
 keywords: Toolchain, GCC, QEMU, glibc
 layout: flow
-css-package: landing-page
 related_resources_tracks: CTT, Toolchain
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png

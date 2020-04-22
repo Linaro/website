@@ -5,7 +5,6 @@ description: >-
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/eas/
 layout: flow
-css-package: landing-page
 related_resources_tracks: Power Management, Power, PMWG, EAS
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png

@@ -2,7 +2,6 @@
 layout: flow
 image: /assets/images/content/LDCG col.svg
 permalink: /engineering/datacenter-and-cloud/
-css-package: landing-page
 js-package: engineering
 related_resources_tracks: Data Center
 title: Datacenter & Cloud

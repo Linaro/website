@@ -5,7 +5,6 @@ description: >-
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/pmwg-farm/
 js-package: engineering
-css-package: landing-page
 layout: flow
 jumbotron:
   image: /assets/images/content/engineering/context/stewardship.jpg

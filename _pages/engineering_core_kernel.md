@@ -9,7 +9,6 @@ related_tags:
   - coresight
   - KWG
 layout: flow
-css-package: landing-page
 js-package: engineering
 related_resources_tracks: Kernel
 image: /assets/images/content/engineering/png/core_engineering.png

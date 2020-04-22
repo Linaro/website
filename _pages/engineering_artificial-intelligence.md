@@ -5,7 +5,6 @@ description: |-
 keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
 permalink: /engineering/artificial-intelligence/
-css-package: landing-page
 js-package: engineering
 members:
     key: mi-incubator
