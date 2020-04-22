@@ -1,7 +1,7 @@
 {% if page.company_image %}
-<div class="row">
-    <div class="col col-12 col-sm-3 col-sm-push-9 company-col text-center" markdown="1">
-        <img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+<div class="row py-0">
+    <div class="col col-12 col-sm-3 order-1 order-md-2 company-col text-center" markdown="1">
+        <img class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
             data-src="{{page.company_image}}" alt="{{page.title}} Image" />
         <div class="panel panel-default">
             <div class="panel-body">
@@ -11,7 +11,7 @@
                     {% for entry in group.members %}
                         {% if entry.name == page.title %}
                             <a href="{{group.url}}">
-                                <span class="membership-badge">{{group.membership_group_name}}</span>
+                                <span class="badge badge-secondary membership-badge">{{group.membership_group_name}}</span>
                             </a>
                             {% assign linaro_membership_count = linaro_membership_count | plus: 1 %}
                         {% endif %}
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="col col-12 col-sm-9 col-sm-pull-3 company-col no-padding">
+    <div class="col col-12 col-md-9 order-2 order-md-1 company-col no-padding">
         {% assign groups = ""%}
         {% assign linaro_membership_count = 0 %}
         {% for group in site.data.members %}
