@@ -5,7 +5,7 @@ description: |-
 keywords: Arm, GCC, GNU, Compiler, Automated, Validation, Architecture, Linux, Kernel, 96Boards
 permalink: /engineering/projects-temp/
 project: false
-css-package: projects
+css_bundle: projects
 layout: jumbotron-container
 jumbotron:
     title: Upstream Projects

@@ -5,7 +5,7 @@ description: >-
 layout: flow
 permalink: /resources/
 js-package: resources
-css-package: resources
+css_bundle: resources
 jumbotron:
     title: Resources
     inner_class: dotted

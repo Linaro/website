@@ -9,7 +9,7 @@ jumbotron:
     image: /assets/images/content/bkk19-group-photo.jpg
 description: |-
     Search the Linaro Website.
-css-package: search
+css_bundle: search
 ---
 <script>
   (function() {

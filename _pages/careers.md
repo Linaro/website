@@ -5,7 +5,7 @@ description: |-
 layout: flow
 permalink: /careers/
 js-package: careers
-css-package: careers
+css_bundle: careers
 jumbotron:
     title: Want to help build technology for the future?
     inner_class: dotted

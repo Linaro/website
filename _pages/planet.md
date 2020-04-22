@@ -15,7 +15,7 @@ jumbotron:
         icon: fa fa-rss
 permalink: /planet/
 js-package: planet
-css-package: planet
+css_bundle: planet
 flow:
     - row: custom_include_row
       source: planet_linaro.html

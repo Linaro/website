@@ -5,7 +5,7 @@ description: |-
 layout: flow
 permalink: /members-by-group/
 js-package: membership
-css-package: members
+css_bundle: members
 jumbotron:
     title: Members by Group
     inner_class: dotted
@@ -22,6 +22,7 @@ flow:
     - row: custom_include_row
       source: members_by_group.html
     - row: container_row
+      style: text-center
       sections:
         - format: title
           title_content:

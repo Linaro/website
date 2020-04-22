@@ -14,7 +14,7 @@ flow:
           payload:
               name: url
               data: /assets/json/news.json
-          # category: News
+              category: News
         - format: custom_include
           source: blog/display_latest_posts.html
           category: News

@@ -15,7 +15,7 @@ pagination:
     trail:
         before: 4
         after: 4
-css-package: blog
+css_bundle: blog
 redirect_from:
 - /author/
 flow:

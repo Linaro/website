@@ -5,7 +5,7 @@ description: |-
 layout: flow
 permalink: /careers/internships/
 js-package: careers
-css-package: careers
+css_bundle: careers
 jumbotron:
     title: Internships at Linaro
     inner_class: dotted

@@ -5,7 +5,7 @@ description: >-
   the Linux Kernel and works on more than 70 open source projects.
 permalink: /membership/
 js-package: membership
-css-package: membership
+css_bundle: membership
 layout: flow
 jumbotron:
   image: /assets/images/content/memberhsip_bg.jpg

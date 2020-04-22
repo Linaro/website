@@ -5,7 +5,7 @@ description: >-
 layout: base
 permalink: /resources/event-resources/
 js-package: event-resource-search
-css-package: resources-search
+css_bundle: resources-search
 ---
 <div class="container-fluid responsive-background" id="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/content/resources-header.png');">
     <div class="row overlay padded-row" id="resources">
@@ -24,7 +24,7 @@ css-package: resources-search
         <!--Start Row-->
         <div class="container">
             <p>
-                
+
             </p>
             <input type="text" class="form-control" placeholder="Search..." id="search-query">
             <!--Start Container-->

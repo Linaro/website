@@ -2,7 +2,7 @@
 title: The Team
 layout: flow
 permalink: /about/team/
-css-package: work
+css_bundle: work
 jumbotron:
     description-class: smaller
     title: "The Team"
