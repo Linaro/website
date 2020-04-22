@@ -12,6 +12,7 @@ flow:
           payload:
               name: url
               data: /assets/json/events.json
+              category: Events
         - format: custom_include
           source: blog/display_latest_events.html
 ---
