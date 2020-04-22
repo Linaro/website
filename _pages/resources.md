@@ -16,45 +16,50 @@ flow:
       style: block_row
       sections:
         - format: block
-          style: text-center text-white latest_resources_blocks
+          style: text-center text-dark latest_resources_blocks
           block_section_content:
             item_width: 5ths
             blocks:
-              - title:
-                    size: h3
-                    text: Linaro News
+              - title: Linaro News
                 url: /news/
-                text_content:
-                    text: >
+                description: >
                         Click here for Linaro News & Press Releases
-              - title:
-                    size: h3
-                    text: The Blog
+                buttons:
+                    - title: View
+                      url: /news/
+                      style: btn-primary
+              - title: The Blog
                 url: /blog/
-                text_content:
-                    text: >
+                description: >
                         Click here for the official Linaro blog
-              - title:
-                    size: h3
-                    text: Planet Linaro
+                buttons:
+                    - title: View
+                      url: /blog/
+                      style: btn-primary
+              - title: Planet Linaro
                 url: /planet/
-                text_content:
-                    text: >
+                description: >
                         Read the latest blogs from our world class engineers
-              - title:
-                    size: h3
-                    text: Events
+                buttons:
+                    - title: View
+                      url: /planet/
+                      style: btn-primary
+              - title: Events
                 url: /events/
-                text_content:
-                    text: >
+                description: >
                         Find out about the events that we host and attend.
-              - title:
-                    size: h3
-                    text: Linaro Connect
+                buttons:
+                    - title: View
+                      url: /events/
+                      style: btn-primary
+              - title: Linaro Connect
                 url: https://connect.linaro.org
-                text_content:
-                    text: >
+                description: >
                         View our Connect Event website for resources and more.
+                buttons:
+                    - title: View
+                      url: https://connect.linaro.org
+                      style: btn-primary
     - row: custom_include_row
       source: resources/latest_resources.html
     - row: custom_include_row
