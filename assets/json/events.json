@@ -17,9 +17,9 @@ layout: null
         "tags": "{{ post.tags | join: ', ' }}",
         "url": "{{ site.baseurl }}{{ post.url }}",
         "description": "{% if post.description %}
-                            {{post.description}}
+                            {{post.description | strip_html |  strip_newlines | remove_chars | escape | truncatewords: 30 }}
                         {% else %}
-                            {{ post.content | strip_html |  strip_newlines | remove_chars | escape | truncatewords:30 }}
+                            {{ post.content | strip_html |  strip_newlines | remove_chars | escape | truncatewords: 30 }}
                         {% endif %}",
         "date": "{{ post.date | date: '%A, %B %-d, %Y' }}"
     } {% unless forloop.last %},
