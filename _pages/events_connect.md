@@ -7,7 +7,6 @@ description: >-
 layout: jumbotron-container
 permalink: /events/connect/
 js-package: events
-css-package: events
 jumbotron:
     title: Linaro Connect
     description: >

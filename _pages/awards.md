@@ -4,9 +4,7 @@ description: >-
   We hand out recognition awards to our employees and assignees every year. This
   section is dedicated to the enthusiastic and hardworking individuals that have
   received those awards.
-
 permalink: /awards/
-css-package: awards
 layout: flow
 jumbotron:
   title: Awards

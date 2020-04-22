@@ -4,7 +4,6 @@ description: >-
   All the latest news including press releases, blogs and social media as well
   as Linaro events.
 permalink: /contact/
-css-package: contact
 layout: flow
 jumbotron:
     title: Contact Linaro
