@@ -36,7 +36,7 @@ css-package: resource-post
                         <div class="video">
                             {% if page.youtube_video_url and page.youtube_video_url != "None" %}
                                 <div id="video-holder">
-                                    <img id="video-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/video_placeholder.png" />
+                                    <img id="video-skeleton" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/content/video_placeholder.png" />
                                     <div class="embed-responsive embed-responsive-16by9 hidden-iframe" id="video-embed">
                                         <iframe class="hidden-iframe" data-src="{{page.youtube_video_url}}" width="100%" height="500" frameborder="0" marginwidth="5"
                                             marginheight="5" scrolling="auto" id="youtube-iframe"></iframe>
@@ -51,7 +51,7 @@ css-package: resource-post
                         <div class="presentation">
                                 {% if page.amazon_s3_presentation_url %}
                                 <div id="presentation-holder">
-                                    <img id="presentation-skeleton" class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    <img id="presentation-skeleton" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     data-src="/assets/images/content/presentation-placeholder.svg"
                                     />
                                     <div class="embed-responsive embed-responsive-16by9 hidden-iframe" id="presentation-embed">
