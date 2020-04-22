@@ -14,7 +14,7 @@ flow:
     - row: container_row
       sections:
         - format: text
-          style: text-center text-white
+          style: text-center
           text_content:
             text: >
                 The current members are listed below. If you are interested in joining these industry leaders, please fill out the form below
