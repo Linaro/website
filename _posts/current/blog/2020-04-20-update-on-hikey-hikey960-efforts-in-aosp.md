@@ -30,10 +30,8 @@ With AOSP’s android-5.4 kernel, we have also taken a new direction with how we
 
 Additionally, by being in the android-5.4 tree directly, we are making sure the android-5.4 kernel build for HiKey960 is GKI compliant, using modules for all the board specific hardware support.
 
-<a href="https://twitter.com/johnstultz_work/status/1171915205548183553">
 {% include image.html name="hikey-image3.png" class="medium-inline right" alt="hikey-image3" %}
-</a>
 
-HiKey960 (along with HiKey and Dragonboard 845c) was a crucial platform in early proof-of-concent work of the GKI (demoed at the SAN19 Connect). This is important, as one cannot really call something generic until it has been useful on more than one platform, and having multiple devices from different SoC vendors has been an important test point in creating a truly vendor-neutral approach.
+HiKey960 (along with HiKey and Dragonboard 845c) was a crucial platform in early proof-of-concent work of the GKI ([demoed at the SAN19 Connect](https://twitter.com/johnstultz_work/status/1171915205548183553)). This is important, as one cannot really call something generic until it has been useful on more than one platform, and having multiple devices from different SoC vendors has been an important test point in creating a truly vendor-neutral approach.
 
 The HiKey960 continues the AOSP dev board tradition of allowing us to create an overlap between the AOSP community and the upstream kernel community. We still regularly use it for testing every upstream Linux -rc release against AOSP/master, which catches regressions early so they don’t make it into a release. And we’ve also used it to validate Android focused changes that we want to upstream. As development priority moves to newer boards (like the Dragonboard 845c), the HiKey960, which is the only AOSP dev board to currently support Vulkan graphics, will continue to be a very useful test device going forward.
