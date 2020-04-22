@@ -76,15 +76,15 @@ defaults:
       layout: post
       comments: true
   - scope:
-      path: "_posts/events"
+      path: "collections/_posts/events"
     values:
-      layout: event-index
+      layout: flow
       comments: false
       author: linaro
       permalink: /events/:title/
       categories: ["events"]
   - scope:
-      path: "_posts/events/resources"
+      path: "collections/_posts/events/resources"
     values:
       layout: resource-post
       comments: false
@@ -92,7 +92,7 @@ defaults:
       permalink: /events/:title/
       categories: ["event_resources"]
   - scope:
-      path: "_posts/awards"
+      path: "collections/_posts/awards"
     values:
       author: linaro
       permalink: "/awards/5-years/:title/"
@@ -225,6 +225,6 @@ asset_pipeline:
   bundle: true
   compress: true
   output_path: assets/js
-  gzip: false
+  gzip: true
 # Path to Jekyll collections
 collections_dir: collections
