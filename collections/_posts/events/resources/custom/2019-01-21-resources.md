@@ -7,7 +7,7 @@ categories:
 - workshop
 - arm-hpc-asia-2019
 date: '2018-11-01 09:00:00+00:00'
-css-package: workshop
+css_bundle: workshop
 event: arm-hpc-asia-2019
 permalink: /events/arm-hpc-asia-2019/resources/
 image: /assets/images/content/hpc-asia-2019.png
