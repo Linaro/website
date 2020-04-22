@@ -10,7 +10,6 @@ keywords: open source, consulting, community, licensing, training
 icon: /assets/images/content/DeveloperServices-icons_consultancy.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

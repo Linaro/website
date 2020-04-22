@@ -10,7 +10,6 @@ keywords: testing, automated testing, validation, LAVA, continuous integration, 
 icon: /assets/images/content/DeveloperServices-icons_validation.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

@@ -10,7 +10,6 @@ keywords: AOSP, Linux, OpenEmbedded, Yocto, Debian, BSP
 tag: services
 icon: /assets/images/content/DeveloperServices-icons_builds.svg
 layout: flow
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

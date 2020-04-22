@@ -10,7 +10,6 @@ tag: services
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
 layout: flow
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

@@ -10,7 +10,6 @@ keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr
 icon: /assets/images/content/DeveloperServices-icons_kernels.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

@@ -10,7 +10,6 @@ keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored
 icon: /assets/images/content/DeveloperServices-icons_training.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

@@ -10,7 +10,6 @@ keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, mi
 icon: /assets/images/content/DeveloperServices-icons_toolchain.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

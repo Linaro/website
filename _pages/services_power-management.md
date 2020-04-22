@@ -10,7 +10,6 @@ keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
 icon: /assets/images/content/DeveloperServices-icons_power.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png

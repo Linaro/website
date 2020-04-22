@@ -8,13 +8,13 @@ jumbotron:
 permalink: /services/96boards/
 keywords: 96Boards, HiKey, Dragonboard, Poplar, BSP, AOSP, Linux, Zephyr, kernel, bootloader, UEFI, U-Boot, Arm Trusted Firmware
 layout: flow
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: main_content_row
+      style: text_block
     - row: container_row
       style: services_form large_type bg-primary text-white
       sections:

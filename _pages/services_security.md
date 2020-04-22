@@ -10,7 +10,6 @@ keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
 icon: /assets/images/content/DeveloperServices-icons_Security.svg
 layout: flow
 tag: services
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png
