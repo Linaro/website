@@ -1,7 +1,7 @@
 ---
 author: alan.bennett
 categories:
-- blog
+- Blog
 date: 2011-11-07 20:52:50
 description: Discussion on Linaro's LAVA efforts including Android testing, visualization
   and reporting as well as links to project updates and source code.

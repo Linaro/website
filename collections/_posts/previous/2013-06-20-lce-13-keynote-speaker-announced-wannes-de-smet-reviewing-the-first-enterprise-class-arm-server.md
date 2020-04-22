@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-06-20 15:06:28
 description: Linaro announces Wannes De Smet an Applied IT researcher at Sizing Servers
   will be giving the Tuesday, July 9th keynote at Linaro Connect Europe 2013 (LCE-13).

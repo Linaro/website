@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-09-23 21:42:05
 description: Linaro's 15.09 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
@@ -33,7 +33,7 @@ wordpress_id: 9316
 Linaro 15.09  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
 
   * [https://wiki-archive.linaro.org/Cycles/1509/Release#Release_Information](https://wiki-archive.linaro.org/Cycles/1509/Release#Release_Information)
-  
+
 We encourage everybody to use the 15.09 release.
 
 This post includes links to more information and instructions for using the images. The download links for all images and components are available on our downloads page:

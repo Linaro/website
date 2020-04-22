@@ -7,7 +7,7 @@ slug: lava-at-home
 title: LAVA@Home
 wordpress_id: 965
 categories:
-- blog
+- Blog
 tags:
 - Hardware
 - LAVA

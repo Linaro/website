@@ -1,7 +1,7 @@
 ---
 author: steve.taylor
 categories:
-- blog
+- Blog
 date: 2015-06-01 14:21:55
 description: 96Boards has two representatives in this with both Qualcomm's DragonBoard
   410c and the HiSilicon-based HiKey boards listed. You can vote now.

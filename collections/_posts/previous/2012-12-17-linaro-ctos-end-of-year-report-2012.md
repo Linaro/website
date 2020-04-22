@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 date: 2012-12-17 19:05:12
 description: Reflections on 2012 from Linaro's CTO
 keywords: Linaro, Linux on Arm, Arm, Open Source, Reflections, CTO, David A. Rusling,

@@ -7,7 +7,7 @@ slug: linaro-and-distributions
 title: Linaro and Distributions
 wordpress_id: 4107
 categories:
-- blog
+- Blog
 tags:
 - Community
 - arm

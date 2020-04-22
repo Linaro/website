@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-01-10 14:10:41
 description: Individuals and organizations who are using Linaro Code on Arm based
   processor boards are invited to participate in Demo Friday and highlight their work.

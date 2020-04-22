@@ -6,7 +6,7 @@ link: /blog/industry-blog/the-need-for-linaro/
 slug: the-need-for-linaro
 title: The need for Linaro
 categories:
-- blog
+- Blog
 tags:
 - Industry
 - arm

@@ -1,7 +1,7 @@
 ---
 author: shovan
 categories:
-- blog
+- Blog
 date: 2015-08-28 20:04:47
 description: Linaro's 15.08 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each

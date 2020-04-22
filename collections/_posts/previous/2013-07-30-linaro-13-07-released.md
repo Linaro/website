@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-30 17:34:17
 description: The Linaro 13.07 release is now available for download!
 keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro Connect Europe 2013,

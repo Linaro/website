@@ -1,7 +1,7 @@
 ---
 author: steve.taylor
 categories:
-- blog
+- Blog
 date: 2014-06-10 13:01:12
 description: One of the best places to go to find out what Linaro is working on in
   the Linux kernel is LWN.net. Over the last four years Linaro has had numerous articles

@@ -7,7 +7,7 @@ slug: monday-linaro-connect-las16
 title: Monday at Linaro Connect LAS16
 wordpress_id: 11682
 categories:
-- blog
+- Blog
 ---
 {% include image.html path="/assets/images/blog/29320978813_72eac78d03_z.jpg" class="medium-inline right" %}
 

@@ -1,7 +1,7 @@
 ---
 author: bernhard.rosenkranzer
 categories:
-- blog
+- Blog
 date: 2012-08-26 23:45:10
 description: Linaro Android 12.08 is not just the first Linaro Android release based
   on JellyBean (android-4.1.1_r4, to be more precise) - it also introduces support

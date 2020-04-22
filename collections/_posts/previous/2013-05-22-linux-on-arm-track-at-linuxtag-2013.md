@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-05-22 17:57:39
 description: If you are in Berlin, interested in Linux on Arm, want to connect with
   developers from Linaro then you are in luck as Andrea Gallo, Director of the Linaro

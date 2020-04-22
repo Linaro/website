@@ -1,7 +1,7 @@
 ---
 author: andy.doan
 categories:
-- blog
+- Blog
 date: 2015-04-01 21:33:26
 description: "Part one of this series gave an overview of the Armv8 Server Cluster.
   This article deals with some of the challenges we faced with our \xE2\x80\x9Crack

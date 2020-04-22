@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-09-26 08:54:06
 description: The blog post describes why introducing Arm TrustZone support in QEMU

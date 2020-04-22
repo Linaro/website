@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-06-13 19:27:03
 description: We're excited to announce that Leslie Hawthorn, Community Action and
   Impact Manager for Red Hat, Inc. will be giving the Wednesday, July 10 keynote at

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-10-13 14:37:16
 description: Introduction of the members and plans for the Linaro Arm Landing team
 keywords: Linaro, Linux, Arm, Linux Arm, kernel, Arm A5, Arm A9, Android, Ubuntu

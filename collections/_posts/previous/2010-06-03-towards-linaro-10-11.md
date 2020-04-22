@@ -7,7 +7,7 @@ slug: towards-linaro-10-11
 title: Towards Linaro 10.11
 wordpress_id: 4112
 categories:
-- blog
+- Blog
 tags:
 - arm
 - launchpad

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-22 20:40:01
 description: Today we are highlighting career opportunities at Linaro for a LAVA Lab
   Technician (Validation). Are you located in or near Cambridge, UK and want to be

@@ -1,7 +1,7 @@
 ---
 author: koen.kooi
 categories:
-- blog
+- Blog
 date: 2014-07-31 23:14:37
 description: The Linaro 14.07 release is now available for immediate download. Here
   you will find links to all the products in this release.

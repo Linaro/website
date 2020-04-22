@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-08 17:32:45
 description: Linaro held its first virtual KVM/QEMU mini-summit to synchronize on
   the current state of the Virtualization and to plan the work which needs to be done

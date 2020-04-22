@@ -7,7 +7,7 @@ slug: switching-out-a-pre-built-android-images-kernel
 title: Switching out a Pre-Built Android Image's Kernel
 wordpress_id: 4129
 categories:
-- blog
+- Blog
 tags:
 - Android
 - kernel

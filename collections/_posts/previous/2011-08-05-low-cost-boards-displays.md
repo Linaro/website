@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-08-05 15:04:54
 description: Linaro Matt Waddel shares his experience running desktop distributions
   with Linaro software on development boards, for extended durations, and at a public

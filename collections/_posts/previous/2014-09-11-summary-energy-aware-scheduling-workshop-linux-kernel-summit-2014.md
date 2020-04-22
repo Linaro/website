@@ -1,7 +1,7 @@
 ---
 author: mike.turquette
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-09-11 13:03:28
 description: State of the art of energy-aware scheduling with a brief overview of

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-03-01 22:59:28
 description: Announced today Linaro Connect Q2.12 will be held at the Gold Coast Hotel
   in Hong Kong. Event registration and hotel bookings now open.

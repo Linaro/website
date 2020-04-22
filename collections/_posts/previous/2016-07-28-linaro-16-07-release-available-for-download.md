@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-07-28 20:25:45
 description: Linaro 16.07 release is now available for download. See the detailed
   highlights of this release to get an overview of what has been accomplished by the

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-10-25 16:35:47
 description: Find out how you can get the latest Linaro release--12.10, what the highlights
   are for this release and how you can participate in LCE 12-Copenhagen remotely.
@@ -84,7 +84,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
   * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
-  
+
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 

@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-09-24 21:06:33
 description: Overview of what took place on the Friday of Linaro Connect USA 2014.
   Links to presentations, videos and session descriptions are included in the blog

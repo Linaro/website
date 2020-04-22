@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-09-20 01:02:40
 description: Description of the events and sessions that took place at Linaro Connect
   USA 2014. Links to all sessions and videos are available.

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-12 16:00:15
 description: Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and
   Greg Kroah-Hartman of the Linux Foundation are all set to give enthusiastic and

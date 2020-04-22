@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-25 14:57:53
 description: Karim Yaghmour, CEO Opersys discusses the upcoming Embedded Android Training
   Workshop that is scheduled to take place at the upcoming Linaro Connect Asia 2013..

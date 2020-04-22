@@ -1,7 +1,7 @@
 ---
 author: zach.pfeffer
 categories:
-- blog
+- Blog
 date: 2011-10-19 01:15:25
 description: Multiple builds corresponding to the second pre-release of Linaro Android
   11.10, available for several community boards supported by Linaro.

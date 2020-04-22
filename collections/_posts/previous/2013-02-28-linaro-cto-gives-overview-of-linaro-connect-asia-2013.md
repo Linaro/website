@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-28 14:18:21
 description: David A. Rusling, Linaro CTO gives an overview of the upcoming Linaro
   Connect Asia 2013 event which will take place from 4 - 8 March at the Gold Coast

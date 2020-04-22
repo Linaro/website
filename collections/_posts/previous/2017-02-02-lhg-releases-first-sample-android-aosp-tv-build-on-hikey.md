@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2017-02-02 21:36:03
 description: "Linaro Home Digital Home Group (LHG) has released an initial implementation
   of Android \xE2\x80\x9CAOSP TV\xE2\x80\x9D for the 96Boards HiKey platform. See

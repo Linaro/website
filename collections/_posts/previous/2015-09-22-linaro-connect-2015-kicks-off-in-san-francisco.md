@@ -8,7 +8,7 @@ slug: linaro-connect-2015-kicks-off-in-san-francisco
 title: Linaro Connect 2015 Kicks Off in San Francisco
 wordpress_id: 9371
 categories:
-- blog
+- Blog
 ---
 
 {% include image.html path="/assets/images/blog/SFO15-Linaro-Banner-Monday-Group.jpg" alt="Linaro Connect SFO15 banner" %}

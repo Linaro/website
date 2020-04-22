@@ -1,7 +1,7 @@
 ---
 author: tony.mansson
 categories:
-- blog
+- Blog
 date: 2012-01-05 14:37:14
 description: The Linaro Android Platform Team, Period Dec. 28 to Jan. 03
 keywords: Android Linaro
@@ -62,7 +62,7 @@ This week's excitement is that we are moving all Android integration and daily b
 ### Issues
 
   * none
-  
+
 ### Blueprints
 
   * [12.01 Milestone](https://launchpad.net/linaro-android/+milestone/12.01)

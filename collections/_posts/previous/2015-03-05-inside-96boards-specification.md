@@ -11,7 +11,7 @@ slug: inside-96boards-specification
 title: Inside the 96Boards Specification
 wordpress_id: 8232
 categories:
-- blog
+- Blog
 ---
 
 # Inside the 96Boards Specification

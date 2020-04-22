@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-09-16 21:26:20
 description: Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
   California. Here is a recap of what took place the first day of the event.

@@ -1,7 +1,7 @@
 ---
 author: peter.maydell
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-06-22 23:02:00
 description: "Over the years I\xE2\x80\x99ve picked up a few tricks for tracking down

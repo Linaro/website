@@ -1,7 +1,7 @@
 ---
 author: zach.pfeffer
 categories:
-- blog
+- Blog
 date: 2011-09-19 05:24:34
 description: Android builds for 6 boards supported by Linaro, built with the official
   11.09 of the Linaro 4.6 toolchain.

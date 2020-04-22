@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-06 00:12:38
 description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
   you can participate remotely and as well as the schedule of events for Day 3.

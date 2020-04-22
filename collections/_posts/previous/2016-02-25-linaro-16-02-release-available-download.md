@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-02-25 22:13:26
 description: Linaro's 16.02 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each

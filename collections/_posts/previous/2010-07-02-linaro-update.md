@@ -7,7 +7,7 @@ slug: linaro-update
 title: Linaro update
 wordpress_id: 4110
 categories:
-- blog
+- Blog
 tags:
 - launch
 ---

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-26 21:05:13
 description: Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how he
   created an animated version of LAVA from its go live date of 27 July 2011 to 6 Nov

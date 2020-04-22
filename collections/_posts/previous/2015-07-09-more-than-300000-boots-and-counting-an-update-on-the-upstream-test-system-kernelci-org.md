@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-09 23:58:58
 description: "Linux maintainers see hundreds of patches during a Kernel version and

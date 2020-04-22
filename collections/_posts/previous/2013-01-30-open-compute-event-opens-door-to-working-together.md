@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-01-30 18:48:51
 description: Overview of Linaro's participation in Open Compute Summit. Including
   a presentation that discusses how Linaro and the Open Compute Project are complementary

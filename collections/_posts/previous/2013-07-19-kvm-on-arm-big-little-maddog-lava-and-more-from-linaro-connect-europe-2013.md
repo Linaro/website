@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-19 20:39:35
 description: Want to see what happens at Linaro Connect? Check out this Linaro Connect
   Europe 2013 summary.

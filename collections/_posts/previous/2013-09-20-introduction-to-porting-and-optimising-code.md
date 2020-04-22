@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-09-20 17:12:11
 description: Impressions of Campus Party Europe 2013 by Matthew Gretton-Dann who presented
   "Introduction to Porting And Optimising Code".  Overview on porting code from 32-bit

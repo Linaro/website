@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-09 07:56:15
 description: Engineers at Linaro Connect Europe 2013 iron out the plans for the future
   of Linux on Arm in over 14 sessions on Day 1 and 16 sessions on Day 2.

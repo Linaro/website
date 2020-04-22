@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-04-25 16:45:10
 description: The Linaro 13.04 release is now available for download!
 keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
@@ -68,7 +68,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource) 
+  * [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 
   * [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
@@ -94,11 +94,11 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
   * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
   * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-  
+
 IRC:
 
   * #linaro on irc.linaro.org or irc.freenode.net
-  
+
   * #linaro-android irc.linaro.org or irc.freenode.net
 
 

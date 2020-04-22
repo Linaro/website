@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-05-23 14:26:03
 description: The list of demos being offered at the Q2.12 Linaro Connect event in
   Hong Kong during the Demo Friday event on 1 June 2012 is now available.

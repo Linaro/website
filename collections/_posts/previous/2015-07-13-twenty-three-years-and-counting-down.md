@@ -1,7 +1,7 @@
 ---
 author: john.stultz
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-13 22:24:39
 description: On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st

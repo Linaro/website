@@ -1,7 +1,7 @@
 ---
 author: khasim.mohammed
 categories:
-- blog
+- Blog
 date: 2013-09-30 19:16:47
 description: Blog on how Linaro is analyzing and working on ways to optimize Android.
 keywords: Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
@@ -41,7 +41,7 @@ Though the problem introduced is not very new, due to the complexity of the prob
   * Improving Effective Data Throughput
 
   * Leveraging Multi-Core Computing Efficiently
-  
+
   * Creating a Better Responsive User Interface
 
   * Extending Battery Life
@@ -51,7 +51,7 @@ Though the problem introduced is not very new, due to the complexity of the prob
 **Approach:** There is already enough time spent in community, individual organizations and groups in identifying the bottlenecks that impact the performance, and providing solutions or approaches to address these in the best possible way.
 
   * We first analyze such community projects, the papers & presentations from various conferences that can be leveraged directly and can be implemented or integrated (if already implemented) to improve the overall   performance.
-  
+
   * The second area is to look into the community projects that Google has directly pulled into Android, some of these were developed for PCs, they can be optimized for multi-core or by using NEON & VFP instructions.
 
   * And finally, looking into a few top Android user space applications from the market that are proven to improve performance when installed on any device. These apps are capable of controlling the hardware usage through software APIs, ideally these concepts can be implemented and integrated by default in Android.
@@ -61,7 +61,7 @@ In our next post we will provide you with:
   * A list of community projects that Google has pulled into Android
 
   * We will explore what projects need updating
-  
+
   * Why some projects were kept at old versions (e.g. there may have been license changes),
 
   * What projects may even need replacing

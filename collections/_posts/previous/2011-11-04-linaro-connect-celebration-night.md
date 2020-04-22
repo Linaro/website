@@ -7,7 +7,7 @@ slug: linaro-connect-celebration-night
 title: Linaro Connect - Celebration night
 wordpress_id: 793
 categories:
-- blog
+- Blog
 tags:
 - Connect Events
 ---

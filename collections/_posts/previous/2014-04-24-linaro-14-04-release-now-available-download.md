@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-04-24 19:06:07
 description: Linaro's 14.04 release - links to all the downloads available for this
   release

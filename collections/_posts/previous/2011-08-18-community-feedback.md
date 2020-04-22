@@ -7,7 +7,7 @@ slug: community-feedback
 title: Community Feedback
 wordpress_id: 4123
 categories:
-- blog
+- Blog
 tags:
 - Community
 ---

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-03-27 03:04:06
 description: Linaro issues Call for Submissions for the Plenary Sessions at the Linaro
   Connect Q2.12 event to be held at the Gold Coast Hotel, Hong Kong, 28 May - 1 June.

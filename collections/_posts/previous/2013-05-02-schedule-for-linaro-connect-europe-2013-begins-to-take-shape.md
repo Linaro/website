@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-05-02 16:03:28
 description: Check out the tracks, sessions, and mini-summits being held at Linaro
   Connect Europe 2013. Don't miss all the excitement! Register today!

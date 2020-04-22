@@ -1,7 +1,7 @@
 ---
 author: khasim.mohammed
 categories:
-- blog
+- Blog
 date: 2014-12-17 01:05:59
 description: "Linaro's experiences in successfully running Android on Armv8 platforms
   and the lessons learned. Michael Scott, one of Linaro\xE2\x80\x99s engineers focusing

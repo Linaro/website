@@ -1,7 +1,7 @@
 ---
 author: mathieu.poirier
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-10-30 14:33:00
 description: "A lot of exciting things have happened in the world of Arm\xC2\xAE Coresight\xE2\x84\xA2

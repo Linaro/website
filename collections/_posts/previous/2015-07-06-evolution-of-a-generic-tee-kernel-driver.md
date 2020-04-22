@@ -1,7 +1,7 @@
 ---
 author: joakim.bech
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-06 19:24:58
 description: Getting a TEE driver into Linux upstream has been the ultimate goal for

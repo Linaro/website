@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 date: 2012-11-08 14:18:33
 description: Why Linaro's culture of openness is key to its success.
 keywords: Linux on Arm, Open Source, open, Linux, kernel, Linaro, Connect, LEG, Linaro

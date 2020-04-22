@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-09-18 19:01:52
 description: Arm and Linaro are jointly developing "Energy Aware Scheduling", a technique
   that improves power management on Linux by making it more central and easier to

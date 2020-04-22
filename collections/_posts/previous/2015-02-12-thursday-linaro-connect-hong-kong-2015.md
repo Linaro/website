@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-02-12 20:24:31
 description: See an overview of what happened on Thursday of Linaro Connect including
   the keynote about Android TV

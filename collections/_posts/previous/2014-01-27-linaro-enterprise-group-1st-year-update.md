@@ -1,7 +1,7 @@
 ---
 author: andrea.gallo
 categories:
-- blog
+- Blog
 date: 2014-01-27 20:29:16
 description: Overview of the Linaro Enterprise Groups one year update. Details on
   what has been accomplished in the first year and what the team will be focused on

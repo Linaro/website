@@ -1,7 +1,7 @@
 ---
 author: daniel.lezcano
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-11-14 17:25:07
 description: Daniel Lezcano a Long term upstream contributor's shares his experience

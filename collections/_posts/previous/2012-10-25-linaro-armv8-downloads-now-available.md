@@ -1,7 +1,7 @@
 ---
 author: loic.minier
 categories:
-- blog
+- Blog
 date: 2012-10-25 11:48:00
 description: New Armv8 downloads are now available from Linaro!
 keywords: Linaro, Linux on Arm, Open Source, Release, ArmV8, AArch64, Downloads,  Arm

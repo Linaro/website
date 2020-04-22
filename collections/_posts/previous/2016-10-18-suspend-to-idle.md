@@ -10,7 +10,7 @@ slug: suspend-to-idle
 title: Suspend to Idle
 wordpress_id: 11797
 categories:
-- blog
+- Blog
 tags:
 - idle
 - kernel

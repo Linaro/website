@@ -7,7 +7,7 @@ slug: compiling-the-snowball-ics-build-from-scratch
 title: Compiling the Snowball ICS Build from Scratch
 wordpress_id: 913
 categories:
-- blog
+- Blog
 ---
 
 ## What's better than flashy videos of Snowball running ICS?
@@ -33,5 +33,5 @@ repo sync
 make TARGET_PRODUCT=snowball TARGET_TOOLS_PREFIX=./prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/arm-linux-androideabi- -j8 systemtarball userdatatarball boottarball
 bzr branch lp:linaro-image-tools
 ./linaro-image-tools/linaro-android-media-create --mmc /dev/sdc --dev snowball_sd --system /mnt/user/0_pfefferz/ics/snowball_ics/system.tar.bz2 --userdata /mnt/user/0_pfefferz/ics/snowball_ics/userdata.tar.bz2 --boot /mnt/user/0_pfefferz/ics/snowball_ics/boot.tar.bz2
-    
+
 ```

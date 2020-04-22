@@ -1,7 +1,7 @@
 ---
 author: mark.orvek
 categories:
-- blog
+- Blog
 date: 2015-02-04 22:20:59
 description: A look ahead of what will be taking place during Linaro Connect Hong
   Kong 2015.

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-12-20 21:50:26
 description: We are pleased to announce that Linaro 12.12 is now available and ready
   for download.

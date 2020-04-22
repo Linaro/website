@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-05-31 17:36:09
 description: 'Video: trying the Linaro Android Build Service on the Panda board -
   Only 15 minutes needed. Other boards available.'

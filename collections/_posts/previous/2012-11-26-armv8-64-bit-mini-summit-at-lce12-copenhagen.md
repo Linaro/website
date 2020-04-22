@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-26 16:26:56
 description: Find out more about the Armv8 (64-bit) Mini-Summit at LCE12-Copenhagen
   as well as how to get involved in Armv8 development and where to get the latest

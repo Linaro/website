@@ -11,7 +11,7 @@ slug: opencsd-operation-use-library
 title: OpenCSD – Operation and Use of the Library
 wordpress_id: 11243
 categories:
-- blog
+- Blog
 tags:
 - Core Dump
 - CoreSight

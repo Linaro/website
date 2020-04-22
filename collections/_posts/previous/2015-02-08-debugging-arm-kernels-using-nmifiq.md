@@ -1,7 +1,7 @@
 ---
 author: daniel.thompson
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-02-08 03:32:23
 description: "Daniel Thompson talks about how Linaro\xE2\x80\x99s work to upstream

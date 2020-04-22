@@ -1,7 +1,7 @@
 ---
 author: ulf.hansson
 categories:
-- blog
+- Blog
 date: 2016-06-29 17:17:39
 description: How the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.

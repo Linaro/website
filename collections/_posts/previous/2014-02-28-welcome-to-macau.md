@@ -1,7 +1,7 @@
 ---
 author: mark.orvek
 categories:
-- blog
+- Blog
 date: 2014-02-28 21:18:07
 description: Overview of what to expect at LCA14
 layout: post

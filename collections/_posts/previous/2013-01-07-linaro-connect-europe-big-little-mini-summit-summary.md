@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-01-07 15:04:31
 description: Take a look at the key take-away message for the big.LITTLE Mini-Summit
   as you find out how you can get involved with the Linaro Power Management team at

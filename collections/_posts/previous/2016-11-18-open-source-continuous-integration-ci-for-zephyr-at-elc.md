@@ -1,7 +1,7 @@
 ---
 author: bill.fletcher
 categories:
-- blog
+- Blog
 date: 2016-11-18 14:46:19
 description: Overview of the Zephyr demo shown at ELC last month. Demo showed how
   open the source code, tooling, and configuration could be, and how transparent collaboration

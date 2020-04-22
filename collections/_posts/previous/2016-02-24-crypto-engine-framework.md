@@ -1,7 +1,7 @@
 ---
 author: baolin.wang
 categories:
-- blog
+- Blog
 date: 2016-02-24 00:03:51
 description: "Recently I got some patches introducing the crypto engine framework
   merged into the crypto layer for v4.6, which are applied in Herbert Xu\xE2\x80\x99s

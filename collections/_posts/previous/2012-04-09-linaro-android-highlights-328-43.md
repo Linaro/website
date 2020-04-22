@@ -7,7 +7,7 @@ slug: linaro-android-highlights-328-43
 title: Linaro Android Highlights 3/28 - 4/3
 wordpress_id: 1502
 categories:
-- blog
+- Blog
 ---
 * Linaro Android now at 4.0.4
 

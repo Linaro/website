@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-12-14 16:57:30
 description: The 3.7 Linux Kernel which was released earlier this week, includes many
   innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen

@@ -1,7 +1,7 @@
 ---
 author: greg.bellows
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-01-22 10:57:37
 description: Since the last post, the bulk of the Arm CPU Security Extension support

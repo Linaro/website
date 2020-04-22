@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-03-06 19:04:06
 description: Recap of the Thursday activities that took place at LCA14
 layout: post

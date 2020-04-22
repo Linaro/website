@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2013-11-11 16:50:21
 description: Information on links to the 13.10 release
 keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.10 release
@@ -23,7 +23,7 @@ title: Linaro 13.10 Released
 wordpress_id: 3147
 ---
 
-> Creativity is the power to connect the seemingly unconnected.~William Plomer 
+> Creativity is the power to connect the seemingly unconnected.~William Plomer
 
 
 ## Linaro 13.10 is now ready for download

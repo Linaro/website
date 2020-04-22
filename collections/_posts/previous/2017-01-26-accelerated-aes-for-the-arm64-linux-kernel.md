@@ -1,7 +1,7 @@
 ---
 author: ard.biesheuvel
 categories:
-- blog
+- Blog
 comments: true
 date: 2017-01-26 08:44:07
 keywords: Accelerated AES, arm64, Linux, kernel

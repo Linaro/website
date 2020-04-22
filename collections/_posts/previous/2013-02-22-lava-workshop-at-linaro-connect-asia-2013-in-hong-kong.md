@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-22 16:31:50
 description: Linaro is pleased to announce that it will be offering a four hour comprehensive
   and hands-on LAVA workshop as part of Linaro Connect Asia 2013.

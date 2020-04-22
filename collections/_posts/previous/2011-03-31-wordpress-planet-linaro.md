@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-03-31 21:32:59
 description: Announcing the switch to WordPress 3.1 for this blog, and the availability
   of Planet Linaro, to aggregate this blog to individual Linaro developer blogs.

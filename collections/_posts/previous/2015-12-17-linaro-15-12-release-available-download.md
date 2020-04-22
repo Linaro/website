@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-12-17 23:42:37
 description: Linaro's 15.12 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each

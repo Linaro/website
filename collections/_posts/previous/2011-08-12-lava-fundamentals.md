@@ -7,7 +7,7 @@ slug: lava-fundamentals
 title: LAVA Fundamentals
 wordpress_id: 4118
 categories:
-- blog
+- Blog
 tags:
 - lava
 - LAVA

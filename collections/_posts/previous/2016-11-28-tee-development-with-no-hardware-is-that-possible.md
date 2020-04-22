@@ -1,7 +1,7 @@
 ---
 author: joakim.bech
 categories:
-- blog
+- Blog
 date: 2016-11-28 17:06:06
 description: "The question is whether you actually need hardware for TEE development.
   As it turns out, QEMU officially received TrustZone support at the beginning of

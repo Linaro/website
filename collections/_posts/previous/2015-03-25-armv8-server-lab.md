@@ -1,7 +1,7 @@
 ---
 author: david.mandala
 categories:
-- blog
+- Blog
 date: 2015-03-25 14:17:50
 description: Overview of the process and challenges faced in setting up Linaro's Armv8
   server lab in Austin, Texas

@@ -1,7 +1,7 @@
 ---
 author: shovan
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-30 14:09:15
 description: Linaro's 15.07 release is now available for download. See the detailed

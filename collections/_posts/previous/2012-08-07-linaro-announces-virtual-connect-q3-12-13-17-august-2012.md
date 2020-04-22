@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-08-07 18:34:06
 description: Linaro announces its Virtual Connect and the public is invited! Linaro
   Connect Q3.12 will take place online via Google+ Hangouts on Air on 13 - 17 August

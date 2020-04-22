@@ -7,7 +7,7 @@ slug: thursday-linaro-connect-las16-re-cap
 title: Thursday Linaro Connect LAS16 Re-cap
 wordpress_id: 11721
 categories:
-- blog
+- Blog
 tags:
 - connect
 - Connect Events

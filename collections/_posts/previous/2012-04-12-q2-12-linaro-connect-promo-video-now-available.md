@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-04-12 17:00:44
 description: Thanks to Tara Oldfield at Novacut the Q2.12 Linaro Connect event now
   has a promo video. Check it out! Hope to see you in Hong Kong!

@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2011-12-08 12:26:19
 description: Announcement of the Linaro QEMU 2011.12 release. New features and known
   issues.

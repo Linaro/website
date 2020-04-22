@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-09-12 14:55:16
 description: "Linaro Connect will host three mini-summits\xE2\x80\x94tracks focused
   on a single strategic topic held on a single day \xE2\x80\x94 an Android, Armv8

@@ -1,7 +1,7 @@
 ---
 author: steve.taylor
 categories:
-- blog
+- Blog
 date: 2013-08-29 18:31:15
 description: Linaro 13.08 release notes and highlights. Links to relevant downloads
   for the release.

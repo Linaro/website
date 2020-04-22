@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-12-19 17:21:08
 description: Registration for Linaro Connect Asia 2013 scheduled to take place at
   the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 is now open.

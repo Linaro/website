@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-05 06:47:52
 description: Linaro together with its members, partners and community are growing
   and influencing many areas of the Arm ecosystem and as such its women in technology

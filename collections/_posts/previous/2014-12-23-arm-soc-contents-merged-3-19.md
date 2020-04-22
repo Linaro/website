@@ -1,7 +1,7 @@
 ---
 author: arnd.bergmann
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-12-23 10:00:32
 description: An overview of what was merged into version 3.19 of the Linux kernel

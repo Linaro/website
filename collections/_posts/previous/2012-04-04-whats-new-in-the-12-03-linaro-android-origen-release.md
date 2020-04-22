@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-04-04 13:21:28
 description: Amit Pundir, Android Engineer at Linaro, tells readers about some of
   the new features being offered in the 12.03 Linaro Android Origen release.

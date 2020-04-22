@@ -7,7 +7,7 @@ slug: the-linaro-iks-code-now-publicly-available
 title: The Linaro IKS code now publicly available
 wordpress_id: 2674
 categories:
-- blog
+- Blog
 tags:
 - Releases
 ---

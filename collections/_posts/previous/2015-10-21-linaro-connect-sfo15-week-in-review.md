@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-10-21 19:46:53
 description: Overview of the keynotes, sessions and activities that took place during
   the week of Linaro Connect SFO15.

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-04-20 13:28:10
 description: Linaro invites those who are using Linaro builds and Arm-processor based
   boards to participate in its Q2.12 Linaro Connect Demo Friday Event on 1 June 2012.

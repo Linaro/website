@@ -1,10 +1,10 @@
 <div class="panel-group" id="accordion">
     {% for group in include.data-file %}
-          <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4>
+          <div class="card">
+            <div class="card-header py-2 text-center">
+                <h4 class="card-title">
                     <a data-toggle="collapse" href="#{{group.id}}"
-                     aria-expanded="true" aria-controls="{{group.id}}"
+                     aria-expanded="true" class="text-dark" aria-controls="{{group.id}}"
                     data-parent="#accordion">
                         {{group.membership_group_name }}
                     </a>
@@ -13,8 +13,8 @@
                      data-clipboard-text="{{site.url}}{{page.url}}#{{group.id}}"></i>
                 </h4>
             </div>
-            <div id="{{group.id}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}">
-              <div class="panel-body padded">
+            <div id="{{group.id}}" class="collapse {% if forloop.index == 1 %}in{% endif %}">
+              <div class="card-body padded">
 
                   {% if group.members %}
                       {% assign member_size = group.members | size %}
@@ -38,34 +38,38 @@
 
                 <br />
                 {% if group.members %}
+                <div class="row">
                     <div class="col col-12">
                         <h5 class="advisory-board text-center">Members</h5>
                     </div>
                     {% assign sorted_members = group.members | sort: 'name' %}
                     {% for member in sorted_members %}
                         <div class="col-lg-2 col-md-3 col-sm-4 col col-6 vcenter-img">
-                            <a href="{{member.url}}">
+                            <a href="{{member.url}}" class="member_image">
                                 <img data-src="{{member.image}}" alt="{{member.name}}"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                class="img-responsive members-img lazyload center-block"/>
+                                class="img-fluid members-img lazyload center-block"/>
                             </a>
                         </div>
                     {% endfor %}
+                </div>
                 {% endif %}
                 {% if group.advisory_board %}
+                <div class="row">
                     <div class="col col-12">
                         <h5 class="advisory-board text-center">Advisory Board</h5>
                     </div>
                     {% assign advisory_board = group.advisory_board | sort: 'name' %}
                     {% for member in advisory_board %}
                     <div class="col-lg-2 col-md-3 col-sm-4 col col-6 vcenter-img">
-                        <a href="{{member.url}}">
+                        <a href="{{member.url}}" class="member_image">
                             <img data-src="{{member.image}}" alt="{{member.name}}"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                class="img-responsive members-img lazyload center-block" />
+                                class="img-fluid members-img lazyload center-block" />
                         </a>
                     </div>
                     {% endfor %}
+                </div>
                 {% endif %}
               </div>
             </div>

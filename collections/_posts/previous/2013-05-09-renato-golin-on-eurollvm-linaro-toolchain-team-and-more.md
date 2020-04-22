@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-05-09 18:20:58
 description: Renato Golin explains the significance of the EuroLLVM event, discusses
   the importance of LLVM and his role at Linaro.

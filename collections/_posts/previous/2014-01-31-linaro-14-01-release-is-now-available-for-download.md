@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2014-01-31 01:23:11
 description: Information and links for the Linaro 14.01 release
 keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,

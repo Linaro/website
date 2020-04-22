@@ -1,7 +1,7 @@
 ---
 author: christoffer.dall
 categories:
-- blog
+- Blog
 date: 2016-06-16 18:37:46
 description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic

@@ -7,7 +7,7 @@ slug: linaro-deliverables
 title: Linaro deliverables
 wordpress_id: 4109
 categories:
-- blog
+- Blog
 tags:
 - '10.11'
 - release

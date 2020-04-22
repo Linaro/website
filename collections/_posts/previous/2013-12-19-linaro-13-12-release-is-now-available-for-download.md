@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2013-12-19 20:51:20
 description: Information and links for the Linaro 13.12 release
 keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,

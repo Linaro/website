@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2014-09-26 14:32:24
 description: Linaro 14.09 release information with links to all downloads available.
 layout: post

@@ -7,7 +7,7 @@ slug: kprobes-event-tracing-armv8
 title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
 categories:
-- blog
+- Blog
 tags:
 - arm64
 - Armv8

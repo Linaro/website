@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-05-30 20:39:54
 description: The Linaro 13.05 release is now available for download!
 keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
@@ -138,7 +138,7 @@ More information on Linaro can be found on our websites:
 
   * Homepage: [](/)
     * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
-    
+
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 

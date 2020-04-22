@@ -1,7 +1,7 @@
 ---
 author: david.zinman
 categories:
-- blog
+- Blog
 date: 2011-11-25 00:24:05
 description: Links to all the downloads for the Linaro 11.11 release
 layout: post
@@ -23,25 +23,25 @@ If you don’t want to read the rest of this announcement but want to get starte
 [http://releases.linaro.org/](http://releases.linaro.org/)
 
 Obviously, Linaro continued to deliver great stuff outside of those Android ICS builds. So here are the big items that the Release Team has selected to feature this time:
-	
+
   * The Android rockstars delivered ICS preview builds but did not detour from their initially stated release goals. Among them we have an upgraded Android LEB based off Android 2.3.7 that comes again with all optimizations and bleeding edge Linaro toolchain integration. Other Android builds showcase a first release for Versatile Express using the Linaro Arm LT kernel, a NEON optimized libpng, preliminary DS-5 support and a host of bug fixes and enhancement's to existing support.
 
-	
+
   * The Linaro Ubuntu LEB now supports officially the PandaBoard ES and features PandaBoard's USB booting with U-Boot USB-SPL. The developer story was improved with updated Arm DS-5 packages. Source and debug packages for all Linaro's kernel flavors are now available. Additionally, Firefox can now be cross-built using multi-arch. Instructions are available from http://wiki-archive.linaro.org/Platform/DevPlatform/CrossCompile/FirefoxCrossCompile.
 
-	
+
   * The Infrastructure Team rolled out our new git mirroring approach to our android cloud build service that uses a seed approach. With that, we noticed considerable speedup in total build time for android builds as well as a massive improvement with regard to scalability as the load put on git-daemons that can be quite inefficient is minimized due to this improvement. On top Infrastructure released an update to status.linaro.org that connects engineering with roadmap planning using the well known status.linaro.org approach.
 
-	
+
   * The Graphics team has added a new benchmark for bump-mapping for glmark2. Bump-mapping is a technique for simulating bumps and wrinkles on the surface of an object. This improvement is coming along side LAVA test cases that improve glmark2 support for automated testing and in particular support bump-mapping now.
 
-	
+
   * Linux Linaro 3.1-2011.11 release includes a fresh rebase of Linaro improvements to the v3.1.1 mainline kernel and features LPAE support, Samsung Exynos cpuidle, sched_mc optimization, and a fix for mmap greater than 2GB. The Kernel WG has also enabled eCryptFS in Linaro and Android kernel defconfigs.
 
-	
+
   * Some highlights for the Multimedia team are that Speex was released on Linaro Ubuntu evaluation build with NEON optimisation patches, libpng v1.5 was released with additional patches to allow NEON auto-detection, and libjpeg-turbo is now built with compatibility for libjpeg8.
 
-	
+
   * The Validation Team started to land the new LAVA user interface and navigation, with a shiny Linaro theme. Under the hood, LAVA infrastructure has been upgraded, including network improvements and more memory to better serve its increasing users base.
 
 
@@ -91,28 +91,28 @@ More information on Linaro can be found on our websites:
 
 
 
-	
+
   * Homepage: []()
 
-	
+
   * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-	
+
   * Announcements:[
 http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
 
 
-	
+
   * Development:[
 http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
 
 
-	
+
   * IRC:
 #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android irc.linaro.org or irc.freenode.net

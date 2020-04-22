@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-02-10 21:54:21
 description: Overview of the activities that took place on Tuesday at Linaro Connect
   including links to videos and presentations from the day
