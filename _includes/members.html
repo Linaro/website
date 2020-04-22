@@ -1,20 +1,16 @@
-<div class="panel-group" id="accordion">
+<div class="accordion" id="accordion">
     {% for group in include.data-file %}
           <div class="card">
-            <div class="card-header py-2 text-center">
-                <h4 class="card-title">
-                    <a data-toggle="collapse" href="#{{group.id}}"
-                     aria-expanded="true" class="text-dark" aria-controls="{{group.id}}"
-                    data-parent="#accordion">
+            <div class="card-header py-2 text-center" id="heading-{{group.id}}">
+                <h3 class="card-title mt-2">
+                    <a class="text-dark" type="button" data-toggle="collapse" data-target="#collapse-{{group.id}}" aria-expanded="true"
+                        aria-controls="collapse-{{group.id}}">
                         {{group.membership_group_name }}
                     </a>
-                    <i class="fa fa-link copy_link_to_panel pull-right"
-                    data-toggle="tooltip" data-placement="left" title="Copied to Clipboard!"
-                     data-clipboard-text="{{site.url}}{{page.url}}#{{group.id}}"></i>
-                </h4>
+                </h3>
             </div>
-            <div id="{{group.id}}" class="collapse {% if forloop.index == 1 %}in{% endif %}">
-              <div class="card-body padded">
+            <div id="collapse-{{group.id}}" class="collapse">
+              <div class="card-body"  aria-labelledby="heading-{{group.id}}" data-parent="#accordion">
 
                   {% if group.members %}
                       {% assign member_size = group.members | size %}
