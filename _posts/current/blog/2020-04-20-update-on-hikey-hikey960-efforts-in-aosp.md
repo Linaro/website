@@ -32,6 +32,9 @@ Additionally, by being in the android-5.4 tree directly, we are making sure the 
 
 {% include image.html name="hikey-image3.png" class="medium-inline right" alt="hikey-image3" %}
 
+HiKey960 (along with HiKey and Dragonboard 845c) was a crucial platform in early proof-of-concent work of the GKI ([demoed at the SAN19 Connect](https://twitter.com/johnstultz_work/status/1171915205548183553)). This is important, as one cannot really call something generic until it has been useful on more than one platform, and having multiple devices from different SoC vendors has been an important test point in creating a truly vendor-neutral approach.
+
+The HiKey960 continues the AOSP dev board tradition of allowing us to create an overlap between the AOSP community and the upstream kernel community. We still regularly use it for testing every upstream Linux -rc release against AOSP/master, which catches regressions early so they don’t make it into a release. And we’ve also used it to validate Android focused changes that we want to upstream. As development priority moves to newer boards (like the Dragonboard 845c), the HiKey960, which is the only AOSP dev board to currently support Vulkan graphics, will continue to be a very useful test device going forward.
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Getting ready
 for <a href="https://twitter.com/LinaroConnect?ref_src=twsrc%5Etfw">@LinaroConnect</a>
 - Db845c and hikey960 running AOSP w/ the same GKI kernel <a
@@ -41,7 +44,3 @@ href="https://twitter.com/johnstultz_work/status/1171915205548183553?ref_src=tws
 11, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script
-
-HiKey960 (along with HiKey and Dragonboard 845c) was a crucial platform in early proof-of-concent work of the GKI ([demoed at the SAN19 Connect](https://twitter.com/johnstultz_work/status/1171915205548183553)). This is important, as one cannot really call something generic until it has been useful on more than one platform, and having multiple devices from different SoC vendors has been an important test point in creating a truly vendor-neutral approach.
-
-The HiKey960 continues the AOSP dev board tradition of allowing us to create an overlap between the AOSP community and the upstream kernel community. We still regularly use it for testing every upstream Linux -rc release against AOSP/master, which catches regressions early so they don’t make it into a release. And we’ve also used it to validate Android focused changes that we want to upstream. As development priority moves to newer boards (like the Dragonboard 845c), the HiKey960, which is the only AOSP dev board to currently support Vulkan graphics, will continue to be a very useful test device going forward.
