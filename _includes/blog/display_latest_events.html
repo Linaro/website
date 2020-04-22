@@ -1,4 +1,4 @@
-{% assign event_posts = site.categories.events | sort: 'event_date' | reverse %}
+{% assign event_posts = site.categories.Events | sort: 'event_date' | reverse %}
 {% assign past_events = '' | split: '' %}
 {% assign upcoming_events = '' | split: '' %}
 
@@ -12,7 +12,6 @@
     {% endif %}
 {% endfor %}
 
-{% assign posts = site.categories["Events"] | sort: 'date' | reverse %}
 <div class="row py-0">
     <div class="col col-12 py-4">
         <h2>Upcoming Events</h2>
