@@ -78,11 +78,11 @@ defaults:
   - scope:
       path: "collections/_posts/events"
     values:
-      layout: flow
+      layout: event
       comments: false
       author: linaro
       permalink: /events/:title/
-      categories: ["events"]
+      categories: ["Events"]
   - scope:
       path: "collections/_posts/events/resources"
     values:
