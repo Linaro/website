@@ -25,6 +25,7 @@
     height: 300px;
     img {
       object-fit: contain;
+      margin: auto;
       padding: 20px;
     }
   }
@@ -41,6 +42,7 @@
         height: 80px !important;
         object-fit: contain;
         padding: 5px;
+        margin: auto;
         width: 100%;
       }
     }
@@ -54,6 +56,7 @@
     img {
       height: 100px;
       object-fit: contain;
+      margin: auto;
       padding: 15px;
     }
   }
