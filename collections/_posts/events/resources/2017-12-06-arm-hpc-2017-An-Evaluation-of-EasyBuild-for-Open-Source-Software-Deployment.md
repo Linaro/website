@@ -13,14 +13,14 @@ image: /assets/images/blog/arm-hpc-bg.png
 title:  An Evaluation of EasyBuild for Open Source Software Deployment
 speakers:
  - name: Takahiro Ogura
-   job_title: RIKEN
+   company: RIKEN
    image: ""
    email: "t-ogura@riken.jp"
    bio: >
      Advanced Institute for Computational Science Research & Development Scientist
 slideshare: https://www.slideshare.net/slideshow/embed_code/key/NNdQnsWIgoCwHB
 s3_video: ""
-s3_presentation: ""
-youtube_video: ""
+amazon_s3_presentation_url: ""
+youtube_video_url: ""
 ---
 Sharing build procedures of Open Source Software (OSS) is critical to quick OSS deployment. It is difficult for us because our target architecture is Arm and the public know-hows are not abundant since Arm based HPC machines are not prevalent. We will share the lessons learned from our evaluation of EasyBuild, which facilitates formulation and sharing of build recipes.

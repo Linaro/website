@@ -13,13 +13,13 @@ image: /assets/images/blog/arm-hpc-bg.png
 title: Advantages of the Compiler for Post-K computer
 speakers:
  - name: Shun Kamatsuka
-   job_title: Fujitsu
+   company: Fujitsu
    image: ""
    email: ""
    bio: ""
 slideshare: ""
 s3_video: ""
-s3_presentation: ""
-youtube_video: ""
+amazon_s3_presentation_url: ""
+youtube_video_url: ""
 ---
 Fujitsu is developing the compiler for Post-K computer to achieve high performance and productivity. The compiler utilizes Arm SVE and supports new features of C/C++ and Fortran language standards. In this presentation, I will show advantages of the Post-K compiler with Fujitsu's technologies, focusing on SVE and coarray features of Fortran.

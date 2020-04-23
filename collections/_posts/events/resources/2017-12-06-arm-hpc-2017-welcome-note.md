@@ -13,11 +13,11 @@ image: /assets/images/blog/arm-hpc-bg.png
 title: Welcome Note
 speakers:
  - name: David Rusling
-   job_title: CTO of Linaro
+   company: CTO of Linaro
    image: ""
    bio: ""
 slideshare: https://www.slideshare.net/slideshow/embed_code/key/3B60l14pgrhlGQ
 s3_video: ""
-s3_presentation: ""
-youtube_video: ""
+amazon_s3_presentation_url: ""
+youtube_video_url: ""
 ---

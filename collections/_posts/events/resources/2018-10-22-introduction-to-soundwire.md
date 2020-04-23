@@ -6,7 +6,7 @@ image: /assets/images/content/elc-openiot-europe-2018-placeholder.png
 speakers:
   - biography: '""'
     company: Linaro
-    job-title:
+    job-title: ""
     name: Vinod Koul
 title: "Introduction to SoundWire"
 youtube_video_url: https://www.youtube.com/watch?v=uegPu0lop08

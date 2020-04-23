@@ -13,13 +13,13 @@ image: /assets/images/blog/arm-hpc-bg.png
 title: Oopstreaming
 speakers:
  - name: Renato Golin
-   job_title: ""
+   company: ""
    image: ""
    email: ""
    bio: >
     ""
 slideshare: https://www.slideshare.net/slideshow/embed_code/key/eNDtLYV2HhEP03
 s3_video: ""
-s3_presentation: ""
-youtube_video: ""
+amazon_s3_presentation_url: ""
+youtube_video_url: ""
 ---
