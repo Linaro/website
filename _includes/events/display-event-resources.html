@@ -1,22 +1,26 @@
 {% assign event_posts_size = site.categories["event_resources"] | where: 'event', include.event | size %}
 {% if event_posts_size > 0 %}
-<div class="row events-row">
+<div class="row events-row blocks">
     {% assign event_details = site.posts | where: "event", include.event | first %}
     {% assign event_posts = site.categories["event_resources"] | where:'event',include.event | sort: 'date' | reverse %}
     {% for post in event_posts %}
-        <div class="col col-12 col-sm-4">
-            <a href="{{post.url}}">
-                <div class="event-block">
-                    {% if post.image %}
-                        <div class="event-image lazyload" style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{post.image.path}}')"></div>
-                    {% else %}
-                        <div class="event-image lazyload" style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{event_details.image.path}}')"></div>
-                    {% endif %}
-                    <div class="event-title">
-                        <h3>{{post.title}}</h3>
-                    </div>
+        <div class="col col-12 col-md-6 col-lg-4 block_column my-4">
+            <div class="card h-100 background_image text-white font-weight-bold d-flex text-center">
+                {% if post.image %}
+                    {% capture image_path %}{{post.image}}{% endcapture %}
+                {% else %}
+                    {% capture image_path %}{{event_details.image}}{% endcapture %}
+                {% endif %}
+                {% assign block_image = image_path | remove_first: "/assets/images/" %}
+                {% capture block_image_alt %}{{post.title}} image {% endcapture %}
+                {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
+                <div class="card-body card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                    <h5 class="card-title">{{post.title}}</h5>
+                    <a href="{{post.url}}"
+                        class="btn btn-primary"> View <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
                 </div>
-            </a>
+            </div>
         </div>
     {% endfor %}
 </div>
