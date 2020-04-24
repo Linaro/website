@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 # Jekyll Theme
-gem 'jumbo-jekyll-theme', "5.7.0.5"
+gem 'jumbo-jekyll-theme', "5.7.0.7"
 # Jekyll Plugins
 group :jekyll_plugins do
    gem "nokogiri"
