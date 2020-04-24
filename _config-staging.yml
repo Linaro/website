@@ -9,7 +9,7 @@ destination: staging.linaro.org
 production: false
 # Google Analytics
 google_analytics:
-  enabled: true
+  enabled: false
   code: XXXXXXXXX
   cookies_popup_title: Cookies & Privacy Policy
   cookies_popup_description: >
