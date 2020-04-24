@@ -6,7 +6,7 @@ keywords: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
 permalink: /engineering/core/security/
 projects:
   - title: OP-TEE
-    url: /engineering/projects/
+    url: /engineering/
 related_tags:
   - OP-TEE
   - Security

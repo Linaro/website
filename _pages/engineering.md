@@ -13,7 +13,7 @@ jumbotron:
     title: Where Collaborative Engineering on Arm Happens
     image: /assets/images/content/engineering_background.jpg
 redirect_from:
- - /engineering/projects/
+ - /engineering/
 flow:
     - row: container_row
       style: large_type intro_row
