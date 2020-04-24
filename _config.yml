@@ -17,13 +17,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .asset_pipeline
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
   - .gitignore
   - .git
   - .asset-cache
   - _static-site
   - .sass-cache
   - _site
-    - staging.linaro.org
+  - staging.linaro.org
   - production.linaro.org
 sass:
   style: compressed
