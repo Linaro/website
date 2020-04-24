@@ -20,12 +20,12 @@ exclude:
   - build-site.sh
   - check-links.sh
   - CODEOWNERS
+  - README.md
   - .gitignore
   - .git
   - .asset-cache
   - _static-site
   - .sass-cache
-  - _site
   - staging.linaro.org
   - production.linaro.org
 sass:
