@@ -57,6 +57,6 @@ flow:
 
 ### Linaro HPC Upcoming Events and Resources from Previous Events:
 
-- Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to Resources](/events/arm-hpc-asia-2019/resources/)
+- Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to Resources](/events/arm-hpc-asia-2019/)
 - Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](/events/arm-hpc-santa-clara-2018/#resources)
 - Arm HPC Workshop - Tokyo December 2017 - [Link to resources](/events/arm-hpc-japan-2017/#schedule)

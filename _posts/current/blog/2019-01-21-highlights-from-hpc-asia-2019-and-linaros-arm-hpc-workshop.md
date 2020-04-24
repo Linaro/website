@@ -28,7 +28,7 @@ HPC Asia is an authoritative international conference on HPC and the related res
 
 {% include image.html path="/assets/images/blog/hpc-asia-graphic-blog.png" alt="HPC Asia 2019 Marketing Graphic" %}
 
-This  Linaro workshop “Open Source HPC on Arm Architecture” included presentations, a Q&A and a roundtable panel session. [You can view all presentations and slides here.](/events/arm-hpc-asia-2019/resources/)
+This  Linaro workshop “Open Source HPC on Arm Architecture” included presentations, a Q&A and a roundtable panel session. [You can view all presentations and slides here.](/events/arm-hpc-asia-2019/)
 
 The participants and guest speakers included world leading experts from RIKEN (Japan), HTFC Hartree center (UK), and the HPC center of Shanghai Jiaotong University (China). Industry leaders from Arm, Linaro, Huawei, Fujitsu, Phytium, Gigabyte, HPC Systems Inc., Skymizer, and Quantum Cloud covered everything from chip design to software architecture, system integration, AI and cloud applications. Linaro experts flew from Europe and the US to Guangzhou and shared updates on progress in the Arm HPC ecosystem collaboration, and put forward their research and insights in AI on HPC.
 
