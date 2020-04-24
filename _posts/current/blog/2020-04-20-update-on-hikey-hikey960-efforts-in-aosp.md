@@ -2,8 +2,7 @@
 layout: post
 title: Update on HiKey/HiKey960 efforts in AOSP
 date: '2020-04-20 11:21:20'
-image:
-  path: /assets/images/content/hikey-image1.png
+image: /assets/images/content/hikey-image1.png
 tags:
   - HiKey
   - HiKey960
@@ -14,7 +13,7 @@ author: john.stultz
 ---
 Back in 2016, after an amazing six-month effort of collaboration between various groups in Linaro, HiSilicon, and Google, the HiKey board was the first 64bit ARM dev board that was officially supported in AOSP/master using a v3.18 kernel.
 
-{% include image.html name="hikey-image1.png" class="medium-inline right" alt="hikey-image1" %}
+{% include image.html name="/assets/images/content/hikey-image1.png" class="medium-inline right" alt="hikey-image1" %}
 
 After that announcement, the collaborative efforts continued - moving to new kernels (v4.1, v4.4, v4.9, v4.14, and v4.19), and changes from new AOSP releases, and upstreaming kernel support into the mainline tree. Over the last 4 years, The HiKey board became a very useful tool for developing and testing the latest AOSP code with the latest upstream kernel work - be it adding the generic Linux bluetooth HAL, the move from fbdev to drm_hwcomposer, the EAS scheduler, upstreaming ION functionality via the dma-buf heaps, the Treble effort for Android Generic System Image (GSI), or even the initial proof of concept work to support the Android Generic Kernel Image (GKI). Not to mention all the upstream kernel regressions that were caught and fixed before an LTS release and the resulting android common kernel was even created.
 
@@ -24,7 +23,7 @@ That said, while development focus has moved on to other boards, it doesn’t me
 
 But we’re not here for a memorial! The HiKey board’s younger and much more powerful sibling the HiKey960 is still actively supported in AOSP. While recent trade disputes have prevented us from collaborating directly with HiSilicon - Linaro and other members continue to use the board for testing and development. The upstreaming effort on HiKey960 has always been a sore spot, but efforts have slowly continued, with recent changes landing upstream to prep for HiKey960’s display driver support, and extending the dwc3 driver to support HiKey960. But we still have yet to upstream the onboard USB hub/mux support, display driver, and i2s audio.
 
-{% include image.html name="hikey-image2.png" class="medium-inline" alt="hikey-image2" %}
+{% include image.html name="/assets/images/content/hikey-image2.png" class="medium-inline" alt="hikey-image2" %}
 
 With AOSP’s android-5.4 kernel, we have also taken a new direction with how we manage kernel support for HiKey960. Previously, we always kept a separate vendor kernel branch, which was based on the common/android-x.y kernel. We added whatever fixes or even hacks necessary to support the hardware, and tried to regularly merge in updates from the common/android-x.y branch. Unfortunately, this maintenance sometimes fell to the wayside, and updates became not so regular. But with android-5.4, instead of keeping a separate vendor branch, we’ve added the patches needed to support HiKey960 directly to the common/android-5.4 branch (an approach we’re also taking with the Dragonboard 845c). This means we have to be careful, as this branch will be widely shared between all Android devices that use the 5.4 kernel - hacks to support just one board won’t do. Luckily, as much of HiKey960’s support is already upstream, there wasn’t too much to add. This greatly simplifies things for testing, since we now don’t have a separate tree that we have to maintain and update. Instead we can focus our testing directly on the latest version of the android-5.4 tree, which lets us ensure that the code we’re testing for regressions is exactly the same as what vendors will be picking up for their devices!
 
