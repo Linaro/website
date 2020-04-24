@@ -69,6 +69,7 @@ defaults:
       type: "authors"
     values:
       layout: author
+      image: /assets/images/social-media-image.png
   - scope:
       path: ""
       type: "posts"
@@ -76,7 +77,7 @@ defaults:
       layout: post
       comments: true
   - scope:
-      path: "collections/_posts/events"
+      path: "_posts/events"
     values:
       layout: event
       comments: false
@@ -84,7 +85,7 @@ defaults:
       permalink: /events/:title/
       categories: ["Events"]
   - scope:
-      path: "collections/_posts/events/resources"
+      path: "_posts/events/resources"
     values:
       layout: resource-post
       comments: false
@@ -92,7 +93,7 @@ defaults:
       permalink: /events/:title/
       categories: ["event_resources"]
   - scope:
-      path: "collections/_posts/awards"
+      path: "_posts/awards"
     values:
       author: linaro
       permalink: "/awards/5-years/:title/"
@@ -226,5 +227,3 @@ asset_pipeline:
   compress: true
   output_path: assets/js
   gzip: true
-# Path to Jekyll collections
-collections_dir: collections
