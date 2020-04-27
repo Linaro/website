@@ -667,10 +667,8 @@ flow:
                 **Specific types of cookie**
                 The types of cookie that are set by Linaro Websites include the following:
 
-                - **Strictly necessary cookies** – These cookies are essential to enable you to move around Linaro Websites and use their features, such as accessing secure areas of Linaro Websites and providing services that you have asked for.
-                - **Performance cookies** – These cookies collect information about how you use an Linaro Website, for instance which pages you go to most often, and if you get error messages from web pages. These cookies do not collect information that identifies you, and all information collected is anonymous and is only used to improve how a website works.
-                - **Functionality cookies** – These cookies allow the website to remember choices you make, for example username, language, region, and provide enhanced, more personal features.
-                - **Targeting and advertising cookies** – These cookies allow us to track you as you visit our websites, helping us to send you e-mails in respect of information and products that you have shown an interest in. When you have logged in to your account, registered an account with us, or provided your contact information, the cookies no longer track you anonymously, but the information gathered from these cookies is linked to the contact information you have provided to us.
+                - **Necessary cookies** – These cookies allow the website to remember choices you make e.g whether to track your access via Analytics Cookies.
+                - **Analytics cookies** – These cookies collect information about how you use an Linaro Website, for instance which pages you go to most often, and if you get error messages from web pages. These cookies do not collect information that identifies you, and all information collected is anonymous and is only used to improve how a website works.
 
                 ---
 
