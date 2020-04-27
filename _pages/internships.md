@@ -15,7 +15,4 @@ jumbotron:
       - title: View Brochure
         url: https://linaro.co/linaro-interns-brochure
         class: btn btn-primary
-flow:
-    - row: custom_include_row
-      source: display_internships.html
 ---
