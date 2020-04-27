@@ -142,7 +142,7 @@ google_analytics:
   enabled: true
   cookies_popup_title: Cookies & Privacy Policy
   cookies_popup_description: >
-    Cookies enable test you to use this website to the full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.
+    Enabling cookies allows you to use our website to it's full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.
   privacy_url: /legal/
   code: UAXXXXXXB
 # Set the site-wide default social media share image.
