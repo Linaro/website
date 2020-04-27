@@ -1,18 +1,18 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // Video modals - pause and play video on open/close of modal
   if ($(".video_modal").length > 0) {
-    $(".video_modal").on("shown.bs.modal", function(e) {
+    $(".video_modal").on("shown.bs.modal", function (e) {
       var videoElement = $(this).find("video");
       videoElement.trigger("play");
     });
-    $(".video_modal").on("hide.bs.modal", function(e) {
+    $(".video_modal").on("hide.bs.modal", function (e) {
       var videoElement = $(this).find("video");
       videoElement.trigger("pause");
     });
   }
   // Clipboard JS
   if ($("div.highlight").length > 0) {
-    $("div.highlight").each(function(index) {
+    $("div.highlight").each(function (index) {
       var uniqueId = "highlight" + index;
       $(this).attr("id", uniqueId);
       var copyBtn =
@@ -24,10 +24,10 @@ $(document).ready(function() {
       copyBtn +=
         '<img src="/assets/images/clipboard.svg" width="13" alt="Copy to clipboard"></button>';
       $(this).append(copyBtn);
-      (function() {
+      (function () {
         new ClipboardJS("#copyBtn" + index);
       })();
-      $("#copyBtn" + index).on("click", function() {
+      $("#copyBtn" + index).on("click", function () {
         $(this)
           .attr("title", "Copied!")
           .tooltip("_fixTitle")
@@ -51,11 +51,11 @@ $(document).ready(function() {
       lazyLoadEager: 0,
       loop: false,
       lazyLoad: true,
-      dots: true
+      dots: true,
     });
   }
   if ($(".owl-carousel.slider_block").length > 0) {
-    $(".owl-carousel.slider_block").each(function(index) {
+    $(".owl-carousel.slider_block").each(function (index) {
       // Set Default values for the responsive items
       var xs_items = 1;
       var sm_items = 2;
@@ -102,20 +102,20 @@ $(document).ready(function() {
         responsive: {
           // breakpoint from 0 up
           0: {
-            items: xs_items
+            items: xs_items,
           },
           // breakpoint from 480 up
           768: {
-            items: sm_items
+            items: sm_items,
           },
           // breakpoint from 768 up
           992: {
-            items: md_items
+            items: md_items,
           },
           1200: {
-            items: lg_items
-          }
-        }
+            items: lg_items,
+          },
+        },
       });
     });
   }
@@ -124,7 +124,7 @@ $(document).ready(function() {
   if ($(".double-scroll").length > 0) {
     $(".double-scroll").doubleScroll({
       resetOnWindowResize: true,
-      onlyIfScroll: true
+      onlyIfScroll: true,
     });
   }
   // Theme navbar setup
@@ -160,15 +160,17 @@ $(document).ready(function() {
     }
   }
   navbar();
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     navbar();
   });
 
   //   Multi-level dropdowns
-  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on("click", function(e) {
+  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on("click", function (
+    e
+  ) {
     e.stopPropagation();
   });
-  $(".navbar .dropdown-item").on("click", function(e) {
+  $(".navbar .dropdown-item").on("click", function (e) {
     var $el = $(this).children(".dropdown-toggle");
     var $parent = $el.offsetParent(".dropdown-menu");
     if (!$parent.parent().hasClass("navbar-nav")) {
@@ -177,10 +179,7 @@ $(document).ready(function() {
         $el.next().removeClass("show");
         $el.next().css({ top: -999, left: -999 });
       } else {
-        $parent
-          .parent()
-          .find(".show")
-          .removeClass("show");
+        $parent.parent().find(".show").removeClass("show");
         $parent.addClass("show");
         $el.next().addClass("show");
         $el
@@ -193,13 +192,11 @@ $(document).ready(function() {
   });
 
   // Reset forms when bootstrap modal closes.
-  $(".modal").on("hidden.bs.modal", function() {
-    $(this)
-      .find("form")[0]
-      .reset();
+  $(".modal").on("hidden.bs.modal", function () {
+    $(this).find("form")[0].reset();
   });
   // Stacked Navbar
-  $("#stacked-nav-bar").on("hidden.bs.collapse", function() {
+  $("#stacked-nav-bar").on("hidden.bs.collapse", function () {
     $(".nav-pills").removeClass("nav-stacked");
   });
   // Scrolling sticking on IOS7 (Bug fix)
@@ -207,7 +204,7 @@ $(document).ready(function() {
     $("html").addClass("ios7");
   }
   // Open External links in a new tab
-  $("a").each(function() {
+  $("a").each(function () {
     var a = new RegExp("/" + window.location.host + "/");
     if (!a.test(this.href)) {
       if ($(this).attr("target") != "_self") {
@@ -221,7 +218,7 @@ $(document).ready(function() {
     $('.nav-tabs a[href="' + hash + '"]').tab("show");
   }
   // Change hash for page-reload
-  $(".nav-tabs a").on("shown", function(e) {
+  $(".nav-tabs a").on("shown", function (e) {
     window.location.hash = e.target.hash.replace("#", "#" + prefix);
   });
 
@@ -242,28 +239,28 @@ $(document).ready(function() {
       link: privacy_url,
       moreInfoLabel: "View our Privacy Policy",
       delay: 1000,
-      acceptBtnLabel: "Accept all cookies",
+      acceptBtnLabel: "Accept selected cookies",
       uncheckBoxes: false,
       message: cookies_popup_description,
       cookieTypes: [
         {
           type: "Analytics",
           value: "analytics",
-          description: "Cookies related to site visits, browser types, etc."
-        }
+          description: "Cookies related to site visits, browser types, etc.",
+        },
       ],
-      onAccept: function() {
+      onAccept: function () {
         init_ga();
-      }
+      },
     };
     // Enabled Google Analytics if cookie to allow us to collect is set.
     function init_ga() {
       if ($.fn.ihavecookies.preference("analytics")) {
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
           i["GoogleAnalyticsObject"] = r;
           (i[r] =
             i[r] ||
-            function() {
+            function () {
               (i[r].q = i[r].q || []).push(arguments);
             }),
             (i[r].l = 1 * new Date());
@@ -293,7 +290,7 @@ $(document).ready(function() {
       if ($.fn.ihavecookies.preference("analytics")) {
         analytics_toggle.addClass("active");
       }
-      analytics_toggle.on("click", function() {
+      analytics_toggle.on("click", function () {
         $.removeCookie("_ga");
         $.removeCookie("_ga", { path: "/" });
         $.removeCookie("_gid");
@@ -311,7 +308,7 @@ $(document).ready(function() {
     }
     $("body").ihavecookies(options);
   }
-  $(function() {
+  $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
 
@@ -319,7 +316,7 @@ $(document).ready(function() {
     var file_path = $("#post_search").data("file-path");
 
     $("#results-container").hide();
-    $("#search-input").keyup(function() {
+    $("#search-input").keyup(function () {
       if ($("#search-input").val().length == 0) {
         $("#results-container").fadeOut("fast");
         $(".close_search").hide();
@@ -328,7 +325,7 @@ $(document).ready(function() {
         $(".close_search").show();
       }
     });
-    $(".close_search").click(function(e) {
+    $(".close_search").click(function (e) {
       e.preventDefault();
       $("#search-input").val("");
       $("#results-container").fadeOut("fast");
@@ -342,9 +339,9 @@ $(document).ready(function() {
       searchResultTemplate:
         '<li class="media flex-row"><picture><img class="lazyload mr-3 img-thumbnail suggested_post_thumb search_result_img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{image}"></picture><div class="media-body"><a href="{url}"><h5 class="mt-0 mb-1">{title}</h5><em class="suggested_post_date">{date}</em><p>{description}</p></a></div></li>',
       json: file_path,
-      success: function(data) {
+      success: function (data) {
         console.log(data);
-      }
+      },
     });
   }
 });
