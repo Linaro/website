@@ -241,6 +241,7 @@ $(document).ready(function () {
       delay: 1000,
       acceptBtnLabel: "Accept selected Cookies",
       uncheckBoxes: false,
+      analyticsChecked: true,
       message: cookies_popup_description,
       cookieTypes: [
         {
