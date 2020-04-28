@@ -239,7 +239,7 @@ $(document).ready(function () {
       link: privacy_url,
       moreInfoLabel: "View our Privacy Policy",
       delay: 1000,
-      acceptBtnLabel: "Accept selected cookies",
+      acceptBtnLabel: "Accept selected Cookies",
       uncheckBoxes: false,
       message: cookies_popup_description,
       cookieTypes: [
@@ -302,7 +302,7 @@ $(document).ready(function () {
         $.removeCookie("cookieControl");
         $.removeCookie("cookieControl", { path: "/" });
         options["analyticsChecked"] = false;
-        options["acceptBtnLabel"] = "Updated Cookies";
+        options["acceptBtnLabel"] = "Update Cookies";
         $("body").ihavecookies(options);
       });
     }
