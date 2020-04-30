@@ -1,0 +1,22 @@
+[
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
+            "title": "Big Data & Data Science SIG"
+        },
+        "Project Ownership": {
+            "Governing Entity": "LDCG SC",
+            "Project Owner": "paul.isaacs@linaro.org",
+            "Technical Lead": "ganesh.raju@linaro.org"
+        },
+        "key": "BDDS"
+    }
+]
