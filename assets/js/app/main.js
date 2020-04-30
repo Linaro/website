@@ -1,15 +1,4 @@
 $(document).ready(function () {
-  // Video modals - pause and play video on open/close of modal
-  if ($(".video_modal").length > 0) {
-    $(".video_modal").on("shown.bs.modal", function (e) {
-      var videoElement = $(this).find("video");
-      videoElement.trigger("play");
-    });
-    $(".video_modal").on("hide.bs.modal", function (e) {
-      var videoElement = $(this).find("video");
-      videoElement.trigger("pause");
-    });
-  }
   // Clipboard JS
   if ($("div.highlight").length > 0) {
     $("div.highlight").each(function (index) {
@@ -212,16 +201,29 @@ $(document).ready(function () {
       }
     }
   });
-  // Enabled permalinks to specific Bootstrap tabs
-  var hash = document.location.hash;
-  if (hash) {
-    $('.nav-tabs a[href="' + hash + '"]').tab("show");
-  }
-  // Change hash for page-reload
-  $(".nav-tabs a").on("shown", function (e) {
-    window.location.hash = e.target.hash.replace("#", "#" + prefix);
-  });
 
+  if ($(".nav-tabs").length > 0) {
+    let url = location.href.replace(/\/$/, "");
+
+    if (location.hash) {
+      const hash = url.split("#");
+      $('.nav-tabs a[href="#' + hash[1] + '"]').tab("show");
+      url = location.href.replace(/\/#/, "#");
+      history.replaceState(null, null, url);
+      setTimeout(() => {
+        $(window).scrollTop(0);
+      }, 400);
+    }
+
+    $('a[data-toggle="tab"]').on("click", function () {
+      let newUrl;
+      const hash = $(this).attr("href");
+      newUrl = url.split("#")[0] + hash;
+      history.replaceState(null, null, newUrl);
+    });
+  }
+
+  // COOKIES CONFIG
   // Cookie Consent Setup
   if ($("meta[name=analytics_code]")) {
     var privacy_url = $("meta[name=privacy_url]").attr("content");
@@ -238,15 +240,21 @@ $(document).ready(function () {
       title: cookies_popup_title,
       link: privacy_url,
       moreInfoLabel: "View our Privacy Policy",
+      cookieLink: "/cookies/",
+      cookieLabel: "Manage your cookies",
+      links: [
+        { url: "/cookies/", text: "Cookies Policy" },
+        { url: "/privacy", text: "Privacy Policy" },
+      ],
       delay: 1000,
-      acceptBtnLabel: "Accept selected Cookies",
-      uncheckBoxes: false,
+      acceptBtnLabel: "Accept All Cookies",
       analyticsChecked: true,
       message: cookies_popup_description,
       cookieTypes: [
         {
           type: "Analytics",
           value: "analytics",
+          checked: true,
           description: "Cookies related to site visits, browser types, etc.",
         },
       ],
@@ -290,6 +298,14 @@ $(document).ready(function () {
       var analytics_toggle = $("#analytics_toggle");
       if ($.fn.ihavecookies.preference("analytics")) {
         analytics_toggle.addClass("active");
+        options.cookieTypes = [
+          {
+            type: "Analytics",
+            value: "analytics",
+            checked: false,
+            description: "Cookies related to site visits, browser types, etc.",
+          },
+        ];
       }
       analytics_toggle.on("click", function () {
         $.removeCookie("_ga");
@@ -302,9 +318,8 @@ $(document).ready(function () {
         $.removeCookie("cookieControlPrefs", { path: "/" });
         $.removeCookie("cookieControl");
         $.removeCookie("cookieControl", { path: "/" });
-        options["analyticsChecked"] = false;
         options["acceptBtnLabel"] = "Update Cookies";
-        $("body").ihavecookies(options);
+        $("body").ihavecookies(options, "reinit");
       });
     }
     $("body").ihavecookies(options);
