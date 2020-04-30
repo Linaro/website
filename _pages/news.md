@@ -3,9 +3,6 @@ title: News
 permalink: /news/
 description: >
     Here you can find all of the latest Linaro news.
-jumbotron:
-    title: News
-    inner_class: dotted
 flow:
     - row: container_row
       sections:

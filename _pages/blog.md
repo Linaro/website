@@ -3,9 +3,6 @@ title: Blog
 permalink: /blog/
 description: >
     This is the official Linaro blog.
-jumbotron:
-    title: Blog
-    inner_class: dotted
 flow:
     - row: container_row
       sections:
@@ -19,5 +16,4 @@ flow:
         - format: custom_include
           source: blog/display_latest_posts.html
           # category: News
-
 ---
