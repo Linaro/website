@@ -14,8 +14,8 @@
         },
         "Project Ownership": {
             "Governing Entity": "LDCG SC",
-            "Project Owner": "<a href=mailto:paul.isaacs@linaro.org>paul.isaacs@linaro.org</a>",
-            "Technical Lead": "<a href=mailto:ganesh.raju@linaro.org>ganesh.raju@linaro.org</a>"
+            "Project Owner": "<a href=\"mailto:paul.isaacs@linaro.org\">paul.isaacs@linaro.org</a>",
+            "Technical Lead": "<a href=\"mailto:ganesh.raju@linaro.org\">ganesh.raju@linaro.org</a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12902&avatarId=14204",
         "key": "BDDS"
