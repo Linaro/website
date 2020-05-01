@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   if ($("#members_slider").length > 0) {
     $("#members_slider").owlCarousel({
       loop: false,
@@ -12,14 +12,14 @@ $(document).ready(function() {
         0: {
           items: 1,
           dots: true,
-          nav: false
+          nav: false,
         },
         1000: {
           items: 3,
           dots: true,
-          nav: false
-        }
-      }
+          nav: false,
+        },
+      },
     });
   }
   if ($("#testimonial_slider").length > 0) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
       lazyLoad: true,
       margin: 25,
       autoplay: false,
-      items: 1
+      items: 1,
     });
   }
   if ($("#engineering_slider_mobile").length > 0) {
@@ -45,7 +45,7 @@ $(document).ready(function() {
       autoHeight: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true,
-      items: 1
+      items: 1,
     });
   }
   if ($("#engineering_slider").length > 0) {
@@ -60,7 +60,36 @@ $(document).ready(function() {
       rewind: true,
       autoplayHoverPause: true,
       autoplayTimeout: 4000,
-      items: 4
+      items: 4,
+    });
+  }
+  if ($("#projects_slider").length > 1) {
+    var projectSlider = $("#projects_slider");
+    projectSlider.owlCarousel({
+      items: 4,
+      loop: true,
+      dots: false,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        400: {
+          items: 4,
+        },
+        700: {
+          items: 6,
+        },
+        1000: {
+          items: 8,
+        },
+        1200: {
+          items: 9,
+        },
+      },
     });
   }
 });
