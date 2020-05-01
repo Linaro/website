@@ -3,6 +3,9 @@
         @include media-breakpoint-down(md) {
         font-size: 1.1rem;
     }
+    .nav-tabs {
+        font-size: 1rem !important;
+    }
 }
 #wrapper {
     #wrapper .block__text blockquote {
