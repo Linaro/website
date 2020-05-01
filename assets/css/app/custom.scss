@@ -1,4 +1,13 @@
+#flow_wrapper {
+    font-size: 1.2rem !important;
+        @include media-breakpoint-down(md) {
+        font-size: 1.1rem;
+    }
+}
 #wrapper {
+    #wrapper .block__text blockquote {
+        font-size: 20px;
+    }
   .jumbotron .inner_content_wrapper img.rounded-circle {
     height: 100px;
     width: 100px;
@@ -27,12 +36,6 @@
       object-fit: contain;
       margin: auto;
       padding: 20px;
-    }
-  }
-  .text_block {
-    font-size: 1.5rem;
-    @include media-breakpoint-down(md) {
-      font-size: 1.1rem;
     }
   }
   .grouped_members_section {
