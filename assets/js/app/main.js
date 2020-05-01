@@ -246,7 +246,7 @@ $(document).ready(function () {
       acceptBtnLabel: "Accept All Cookies",
       analyticsChecked: true,
       message:
-        "Enabling cookies allows you to use our website to it's full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.",
+        "Enabling cookies allows you to use our website to its full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.",
       cookieTypes: [
         {
           type: "Analytics",
