@@ -11,6 +11,8 @@ display_contact_details: true
 company_links:
     - name: Legal
       url: /legal/
+    - name: Cookies
+      url: /cookies/
     - name: Contact
       url: /contact/
 middle_column:
