@@ -5,7 +5,6 @@ description: >-
 layout: flow
 permalink: /engineering/
 js-package: engineering
-css_bundle: work
 jumbotron:
     inner_class: dotted
     description-class: smaller
