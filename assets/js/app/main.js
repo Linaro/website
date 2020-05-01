@@ -238,11 +238,8 @@ $(document).ready(function () {
     // Options for the Cookie Dialog
     var options = {
       title: "Cookies & Privacy Policy",
-      moreInfoLabel: "View our Privacy Policy",
-      cookieLink: "/cookies/",
-      cookieLabel: "Manage your cookies",
       links: [
-        { url: "/legal#cookie-policy6", text: "Cookies Policy" },
+        { url: "/cookies/", text: "Cookies Policy" },
         { url: "/legal#privacy-policy2", text: "Privacy Policy" },
       ],
       delay: 1000,
