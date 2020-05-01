@@ -237,19 +237,19 @@ $(document).ready(function () {
 
     // Options for the Cookie Dialog
     var options = {
-      title: cookies_popup_title,
-      link: privacy_url,
+      title: "Cookies & Privacy Policy",
       moreInfoLabel: "View our Privacy Policy",
       cookieLink: "/cookies/",
       cookieLabel: "Manage your cookies",
       links: [
-        { url: "/cookies/", text: "Cookies Policy" },
-        { url: "/privacy", text: "Privacy Policy" },
+        { url: "/legal#cookie-policy6", text: "Cookies Policy" },
+        { url: "/legal#privacy-policy2", text: "Privacy Policy" },
       ],
       delay: 1000,
       acceptBtnLabel: "Accept All Cookies",
       analyticsChecked: true,
-      message: cookies_popup_description,
+      message:
+        "Enabling cookies allows you to use our website to it's full extent and to personalize your experience on our sites. They tell us which parts of our websites people have visited, help us measure the effectiveness of ads and web searches and give us insights into user behavior so we can improve our communications with you.",
       cookieTypes: [
         {
           type: "Analytics",
