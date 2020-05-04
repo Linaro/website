@@ -2,13 +2,13 @@
     <div class="owl-carousel owl-theme" id="projects_slider">
         {% for project in site.data.opensourceprojects.items %}
         <div class="item">
-                <a href="{{project.url}}" target="_self">
-                    <div class="project_image">
-                        <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            alt="{{project.name}} logo" data-src="{{project.image}}" />
-                    </div>
+            <a href="{{project.url}}" target="_self">
+                <div class="project_image">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        alt="{{project.name}} logo" data-src="{{project.image}}" />
                 </div>
             </a>
+        </div>
         {% endfor %}
     </div>
 </div>
