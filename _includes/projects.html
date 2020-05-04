@@ -1,21 +1,32 @@
 <div class="row content-row" id="projects">
     <div class="container">
         {% for project in site.data.projects %}
-            <div class="col col-12 text-center m-t-40">
+            <div class="col col-12 col-lg-6 m-t-40">
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">{{project["Project Information"].title}}</h5>
-                        <p class="card-text">{{project["Project Information"].description}}</p>
+                    <div class="card-header">
+                        <h5 style="line-height:40px">
+                            {{project["Project Information"].title}}
+                            <span class="badge badge-secondary">{{project["key"]}}</span>
+                            <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="{{project["Project Information"].title}} icon" class="lazyload float-right">
+                        </h5>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <p class="card-text">{{project["Project Information"].description}}</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
