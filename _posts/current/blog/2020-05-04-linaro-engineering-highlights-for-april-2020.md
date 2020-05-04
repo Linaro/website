@@ -13,4 +13,16 @@ tags:
 category: Blog
 author: joakim.bech
 ---
-iuilkmlm
+April 2020
+
+Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:- 
+
+Linaro’s Contributions to the Linux v5.6 Kernel LTP (Linux Test Project) 
+
+PSA Level 1 Certification Showcase
+
+Linaro Consumer Group (LCG) News
+
+OTA article - Industrial Internet Consortium Journal of Innovation
+
+Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup
