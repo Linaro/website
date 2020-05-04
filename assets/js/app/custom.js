@@ -63,7 +63,7 @@ $(document).ready(function () {
       items: 4,
     });
   }
-  if ($("#projects_slider").length > 1) {
+  if ($("#projects_slider").length > 0) {
     var projectSlider = $("#projects_slider");
     projectSlider.owlCarousel({
       items: 4,
