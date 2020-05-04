@@ -13,7 +13,7 @@ tags:
 category: Blog
 author: joakim.bech
 ---
-April 2020
+### **April 2020**
 
 Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:- 
 
@@ -26,3 +26,15 @@ Linaro Consumer Group (LCG) News
 OTA article - Industrial Internet Consortium Journal of Innovation
 
 Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup
+
+
+
+### Linaro’s Contributions to the Linux v5.6 Kernel
+
+Mark Orvek, VP Engineering
+
+
+
+
+
+[](<>)[](<>)
