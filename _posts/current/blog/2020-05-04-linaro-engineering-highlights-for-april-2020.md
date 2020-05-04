@@ -29,4 +29,6 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 Mark Orvek, VP Engineering
 
-{% include image.html path="/assets/images/content/Core Engineering-image2.png" class="medium-inline" alt="Core Engineering-image2" %}
+{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline" alt="CORE ENG.svg}
+
+As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://www.google.com/url?q=https://lwn.net/Articles/816162/&sa=D&ust=1588606655099000):
