@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-01-12 00:03:27
 description: "UMM (Unified Memory Management) is a key part of Linaro\xE2\x80\x99s
   work and acceptance of this dma-buf patchset upstream is the latest recognition

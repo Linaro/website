@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-03-09 19:14:22
 description: Overview of the week of Linaro Connect Hong Kong 2015 including keynotes,
   theme days, demos and awards that took place during the week.
@@ -24,7 +24,7 @@ title: Linaro Connect Hong Kong 2015- week in review
 wordpress_id: 8250
 ---
 
-{% include image.html name="hkg15-group-photo.jpg" alt="Hong Kong Group Photo 2015" %}
+{% include image.html path="/assets/images/blog/hkg15-group-photo.jpg" alt="Hong Kong Group Photo 2015" %}
 
 Linaro Connect Hong Kong 2015 (HKG15), which took place February 9-13, 2015 in Hong Kong, China was an amazing week with over 400 attendees and many keynotes, sessions and demos for attendees to enjoy. To see a list of all the available materials from all the sessions held during the week please [click here](/blog/linaro-connect-hong-kong-2015-content-now-available/).
 
@@ -54,7 +54,7 @@ The Linaro Enterprise Group (LEG) held many sessions throughout the week with se
 **Title: HKG15-107: ACPI Power Management on Arm64 Servers**
 This session was to discuss the status of CPPC with runtime PM and discussion on idle PM with ACPI. Utilization on servers depends on season, time of the day, etc. not always at 100% maybe often at 25-30%. This is different from mobile phones where it is in idle most of the time. CPPC collaborative processor performance control is described in ACPI 5.1. It is the preferred method for aarch64 over PSS, which stands for performance supported states. CPPC has feedback regs which provide the value of the attained performance level for the kernel to read back. The kernel can then compare the desired performance level and the attained one and evaluate the status of the CPU, etc.
 
-**Title: HKG15-200: OpenJDK under the hood** 
+**Title: HKG15-200: OpenJDK under the hood**
 This session was very detailed and served actually as a training course on OpenJDK. The presenter described the secret command line options to start java. Demonstrated how java code is compiled into byte codes and how these make it into assembler with the template interpreter. He also described optimisations for Armv8-A
 
 
@@ -85,15 +85,15 @@ A Comparison of OVS implemented via ODP & vendor SDKs was discussed. Contrasting
 The RT patchset has come to EoL and an alternative to meet the determinism and latency requirements for networking workloads is required. This session compared the two solutions and the impacts migrating to Core isolation may impose. Discussion was focused on comparing RT Linux vs Core isolation. Many kernel experts took part in the discussion. It was confirmed that once in ‘full tickless’ mode on a given CPU core, any system call will break the core out of ‘full tickless’ -but- scheduler domain and cpuset configuration will still prevent other tasks from being migrated to that core, and once the number of runnable tasks on the core decreases to a single runnable task, the core will automatically re-enter ‘full tickless’ operation. This means an application running on a ‘full tickless’ core could make system calls when needed if the application requirements will tolerate the resulting scheduling latency. Thermal management is normally handled through core migration, it is disabled for isolated CPUs, so only frequency manipulation or sleep states are applicable. So careful consideration of the thermal management capabilities of the underlying hardware platform is advisable before full tickless operation.
 
 
-**Title: HKG15-209: ODP User experience** 
+**Title: HKG15-209: ODP User experience**
 This session held an open discussion covering the various aspects of ODP development. Users as well as providers participated the discussion.
 
 **Linaro Mobile Group (LMG)**
 
-**Title: HKG15-102: LMG Lightning Talks** 
+**Title: HKG15-102: LMG Lightning Talks**
 The session covered the current status and performance measurements for building AOSP with Clang 3.6. 32 bit built with clang lags as compared the same code built with gcc. 64 bit seems to be better built with clang as compared to gcc. Overall results are fairly close unless you look at the time it takes to actually build the code in which case clang is substantially better. Also discussed was an initial analysis of Android memory use. Why can iOS run in 1 gig but Android can’t? As well as the teams current efforts involving the Android kernel upstreaming project.
 
-**Title: Introducing Aster - a tool for remote GUI testing on Android** 
+**Title: Introducing Aster - a tool for remote GUI testing on Android**
 The session discussed how there are many tools that can be used to do remote GUI control for Android platform, but they have limitations like needing device at hand, or needing to install extras into the device, or not providing sufficient authentication methods for remote access, etc. The presentation showed how to use Aster to work around these problems, how to add your own features into it, and how to use it as a record/replay tools and do GUI smoke/stability tests for the Android platform. A demo was also given.
 
 **Title: Build system modifications to ease working with other Android projects**

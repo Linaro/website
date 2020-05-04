@@ -11,7 +11,7 @@ slug: dragonboard-410c
 title: A new 96Boards-compliant product has been announced by Qualcomm
 wordpress_id: 8298
 categories:
-- blog
+- Blog
 tags:
 - 96Boards
 - dragonboard
@@ -27,9 +27,9 @@ Qualcomm is positioning the board to bring the Snapdragon 410 processor’s high
 
 In addition to the Quad-core Arm® Cortex®-A53 processor running at up to 1.2 GHz per core, the DragonBoard 410C offers Qualcomm™ Adreno™ 306 GPU with 400MHz high quality graphics. On top of the expected features for a 96Boards product, Qualcomm has added integrated Qualcomm® IZat™ Gen8C location technology and an analog expansion connector (for headset, speaker and FM antenna).
 
-{% include image.html name="DragonBoard-001.png" alt="DragonBoard 410c" %}
+{% include image.html path="/assets/images/blog/DragonBoard-001.png" alt="DragonBoard 410c" %}
 
-{% include image.html name="DragonBoard-002.png" alt="DragonBoard 410c" %}
+{% include image.html path="/assets/images/blog/DragonBoard-002.png" alt="DragonBoard 410c" %}
 
 Follow 96Boards: [Facebook](https://www.facebook.com/96Boards) / [Twitter](https://twitter.com/96Boards) / [GitHub](https://github.com/96boards) / [Google+](https://plus.google.com/106009833460292139774/about)
 

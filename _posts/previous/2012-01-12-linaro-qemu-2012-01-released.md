@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-01-12 17:41:24
 description: Announcement of the Linaro QEMU 2012.01 release. New features and known
   issues.

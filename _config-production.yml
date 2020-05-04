@@ -7,3 +7,7 @@ url: "https://www.linaro.org"
 destination: production.linaro.org
 # Production boolean used in layouts / includes
 production: true
+# Google Analytics
+google_analytics:
+  enabled: true
+  code: UA-16756069-1

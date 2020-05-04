@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-08-10 14:46:10
 description: 'Video from Linaro Connect, August 2011: Linux kernel hackers share their
   best tips for advanced git usage.'

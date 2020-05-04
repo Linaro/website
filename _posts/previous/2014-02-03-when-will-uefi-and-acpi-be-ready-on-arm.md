@@ -1,7 +1,7 @@
 ---
 author: grant.likely
 categories:
-- blog
+- Blog
 date: 2014-02-03 18:58:27
 description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot
   and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI

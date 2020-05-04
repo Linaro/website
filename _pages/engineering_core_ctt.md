@@ -1,9 +1,8 @@
 ---
 title: Core Technologies & Tools
 layout: flow
-css-package: landing-page
 related_resources_tracks: Tools
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 description: |-
     The Core Technologies & Tools Group is comprised of the Builds and Baselines, LAVA software team, LAVA Lab team, QA and Toolchain teams.
@@ -18,18 +17,18 @@ related_tags:
   - ctt
 jumbotron:
   title: Core Technologies & Tools
-  title-class: big-title
+  inner_class: dotted
   description: ""
-  background-image: /assets/images/content/engineering/context/stewardship.jpg
+  image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

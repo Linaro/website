@@ -2,8 +2,7 @@
 layout: post
 title: MHI bus support gets added to the Linux kernel
 date: '2020-03-17 08:37:59'
-image:
-  path: /assets/images/content/code.jpg
+image: /assets/images/content/code.jpg
 tags:
   - MHI
   - Modem Host Interface
@@ -36,16 +35,16 @@ The channel configuration is static, which means the purpose of channel is fixed
 
 ```c
 struct mhi_chan {
-    const char *name;     
-    struct mhi_ring buf_ring;     
-    struct mhi_ring tre_ring;     
-    u32 chan;     
-    u32 er_index;     
+    const char *name;
+    struct mhi_ring buf_ring;
+    struct mhi_ring tre_ring;
+    u32 chan;
+    u32 er_index;
     u32 intmod;
     enum mhi_ch_type type;
     ...
-    struct mhi_device* mhi_dev;     
-    ... 
+    struct mhi_device* mhi_dev;
+    ...
 }
 ```
 
@@ -56,15 +55,15 @@ The above structure represents an MHI channel in the kernel. Note the `*mhi_dev`
 MHI events are the interrupts coming from the client device (e.g. the modem). The client device generates events for MHI state transitions, error conditions, completion messages to the host. The MHI events are generated using the Event Ring (ER), which essentially is a data structure available in the host memory, mapped for the device. The events’ rings are organized as circular queues of Event Descriptors (ED). Each event descriptor defines one event that is communicated from the device to the host through an actual physical interface such as PCI-E. Each event ring has an associated interrupt (MSI in case of PCI-E). The number of interrupts may be limited in the host processor, therefore multiple event rings may share available interrupts to accommodate more events.
 
 ```c
-struct mhi_event {     
-    struct mhi_controller *mhi_cntrl;     
-    struct mhi_chan* mhi_chan; /*dedicated to channel */     
-    u32 er_index;     
-    u32 intmod;     
-    u32 irq;     
-    int chan; /* this event ring is dedicated to a channel (optional) */  
-    u32 priority;     
-    ... 
+struct mhi_event {
+    struct mhi_controller *mhi_cntrl;
+    struct mhi_chan* mhi_chan; /*dedicated to channel */
+    u32 er_index;
+    u32 intmod;
+    u32 irq;
+    int chan; /* this event ring is dedicated to a channel (optional) */
+    u32 priority;
+    ...
 };
 ```
 
@@ -109,7 +108,7 @@ mhi_ctrl->fw_image = "amss.bin";
 It should be noted that there can only be  one firmware supplied at a time. If the device requires both AMSS and SBL images to be downloaded, then both firmware needs to be clubbed into a single firmware file, or another protocol is required to supplement the loading of additional firmware files. For the first case, additional properties shall be provided by the controller driver as below:
 
 ```c
-mhi_ctrl->sbl_size = SZ_512K; 
+mhi_ctrl->sbl_size = SZ_512K;
 mhi_ctrl->fbc_download = true;
 ```
 
@@ -128,15 +127,15 @@ MHI bus implementation in the Linux kernel has 3 major components:
 MHI device is the logical device which is created for MHI controllers and channels. For the channels, there can either be a single MHI device for each channel (Uni-directional) or per channel pair (Bi-directional). This configuration will be determined by the MHI controller drivers. The MHI devices for the controllers are created during controller registration and the devices for channels are created when MHI is in AMSS state or SBL state.
 
 ```c
-struct mhi_device {         
-    const struct mhi_device_id *id;         
-    const char* chan_name;         
-    struct mhi_controller *mhi_cntrl;         
-    struct mhi_chan* ul_chan;         
-    struct mhi_chan *dl_chan;         
-    struct device dev;         
-    enum mhi_device_type dev_type;         
-    int ul_chan_id;         
+struct mhi_device {
+    const struct mhi_device_id *id;
+    const char* chan_name;
+    struct mhi_controller *mhi_cntrl;
+    struct mhi_chan* ul_chan;
+    struct mhi_chan *dl_chan;
+    struct device dev;
+    enum mhi_device_type dev_type;
+    int ul_chan_id;
     int dl_chan_id;
     u32 dev_wake;
 };

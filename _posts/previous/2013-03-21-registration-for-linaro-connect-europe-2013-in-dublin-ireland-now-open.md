@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-21 15:30:41
 description: Join Linaro at the Burlington Hotel in Dublin Ireland on 8-12 July for
   Linaro Connect Europe 2013. Register today.
@@ -17,7 +17,7 @@ title: Registration for Linaro Connect Europe 2013 in Dublin, Ireland Now Open
 wordpress_id: 2579
 ---
 
-{% include image.html name="lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="https://connect.linaro.org" %}
+{% include image.html path="/assets/images/blog/lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="https://connect.linaro.org" %}
 
 Linaro Connect Europe 2013 ([LCE13-Dublin](https://connect.linaro.org)) will take place at the Burlington Hotel in Dublin, Ireland on 8 - 12 July.  Registration for this event is [now open](http://linaroconnect-lce13-eorg.eventbrite.com/).
 

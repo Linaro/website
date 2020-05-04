@@ -1,14 +1,14 @@
 ---
 title: Security Downloads
 permalink: /downloads/security/
-layout: jumbotron-container
+layout: flow
 description: >
     This page provides important security updates related to Linaro releases downloads.
 jumbotron:
     title: Security Downloads
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/downloads-bg.jpg
+    image: /assets/images/content/downloads-bg.jpg
 flow:
     - row: main_content_row
 ---

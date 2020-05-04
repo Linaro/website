@@ -8,7 +8,7 @@
       position: absolute;
       margin: auto;
       text-align: center;
-      color: $brand-primary;
+      color: $primary;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       width: 100%;
@@ -36,7 +36,7 @@
       font-size: 90px;
     }
   }
-  @media (max-width: $screen-sm-min) {
+@include media-breakpoint-down(sm){
     .block__image {
       margin-bottom: 20px;
       padding: 0px 0px;
@@ -49,7 +49,6 @@
       background-color: transparent;
       border: none;
       border-radius: 15px;
-      font-size: 26px;
       padding: 0px;
       color: black;
       &:before {
@@ -80,7 +79,7 @@
       padding-right: 0px !important;
       margin-top: 80px;
     }
-    @media (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm){
       &:before {
         display: inline-block;
         vertical-align: middle;
@@ -92,7 +91,7 @@
       display: inline-block;
       text-align: left;
       vertical-align: middle;
-      @media (min-width: $screen-sm-min) {
+      @include media-breakpoint-up(sm){
         max-width: 1000px;
         width: 100%;
       }

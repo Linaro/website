@@ -5,11 +5,10 @@ description: >-
 title: Developers
 permalink: /developers/
 jumbotron:
-    background-image: /assets/images/content/downloads-bg.jpg
+    image: /assets/images/content/downloads-bg.jpg
     title: Get Involved
-    title-class: big-title
+    inner_class: dotted
     description: ""
-
 flow:
     - row: main_content_row
 ---

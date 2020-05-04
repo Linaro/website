@@ -1,7 +1,7 @@
 ---
 author: eric.auger
 categories:
-- blog
+- Blog
 date: 2016-02-29 23:08:58
 description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic
@@ -30,7 +30,7 @@ title: KVM PCIe/MSI Passthrough on Arm/Arm64
 wordpress_id: 10013
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="core-dump" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="core-dump" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an Arm-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on Arm server systems.
 
@@ -53,7 +53,7 @@ This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and
 
 The GICv2m widget contains one or more MSI frames. Each MSI frame is wired up to a set of GIC SPI wires (shared peripheral interrupt). MSI frames should not target the same SPI IDs for isolation purpose.
 
-{% include image.html name="KVM-blog-image-1.jpg" alt="KVM blog image 1" %}
+{% include image.html path="/assets/images/blog/KVM-blog-image-1.jpg" alt="KVM blog image 1" %}
 
 From the CPU perspective each MSI frame is 4kB wide and contains some info registers telling the base and number of associated SPI IDs and the MSI_SETSPI_NS 32-bit register.
 
@@ -63,7 +63,7 @@ The GICv2M does not require any functional programming since the SPIs are static
 
 Separate MSI frames are provisioned for interrupt isolation purpose. Each frame is supposed to target separate SPI ID windows. Devices attached to separate MSI frames have different SPI ID domains. Of course MSI frame access must be restricted by the bus topology, an IOMMU, or by other means. On the other hand, a system with a single MSI frame cannot do HW IRQ isolation between devices allowed to access that single MSI frame.
 
-{% include image.html name="KVM-blog-image-2.jpg" alt="KVM blog image 2" %}
+{% include image.html path="/assets/images/blog/KVM-blog-image-2.jpg" alt="KVM blog image 2" %}
 
 ## GICv3 ITS
 
@@ -80,7 +80,7 @@ As opposed to the GICv2M, the ITS must be configured by software before it is us
 
   * An entry must exist in the device interrupt translation table for each eventid the device is likely to produce. This entry basically tells which LPI ID to trigger (and the CPU it targets)
 
-{% include image.html name="KVM-blog-image-3.jpg" alt="KVM blog image 3" %}
+{% include image.html path="/assets/images/blog/KVM-blog-image-3.jpg" alt="KVM blog image 3" %}
 
 
 Interrupt translation is also supported on Intel hardware as part of the VT-d spec. The Intel IRQ remapping HW provides a translation service similar to the ITS. The difference is that the intel implementation looks more like a true IOMMU in the sense the translation process uses the MSI address as input as well the MSI data payload. On Arm the deviceid is conveyed out of band.
@@ -155,7 +155,7 @@ When an MSI enabled device is assigned to a guest we need to guarantee it cannot
 
 On the figure below we can image device #0 is used by the host while devices #1 and #2 are assigned to a guest.
 
-{% include image.html name="KVM-blog-image-4.jpg" alt="KVM blog image 4" %}
+{% include image.html path="/assets/images/blog/KVM-blog-image-4.jpg" alt="KVM blog image 4" %}
 
 ## Interrupt Safety with GICv2m
 

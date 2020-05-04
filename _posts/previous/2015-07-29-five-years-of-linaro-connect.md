@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-29 23:54:31
 description: Linaro Connect is celebrating it's fifth anniversary and has evolved

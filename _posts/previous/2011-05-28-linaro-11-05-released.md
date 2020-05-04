@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2011-05-28 22:11:09
 description: Links to all the downloads for the Linaro 11.05 release
 layout: post
@@ -78,7 +78,7 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
 
 
   * IRC: #linaro on irc.linaro.org or irc.freenode.net
-  
+
 #linaro-android irc.linaro.org or irc.freenode.net
 
 **Known issues with this release**

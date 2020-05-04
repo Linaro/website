@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-16 04:32:47
 description: Find out more about the newly formed Linaro Enterprise Group (LEG) from
   Amber Graner's interview with the group's director, Andrea Gallo.
@@ -34,7 +34,7 @@ Andrea also looks to the future and outlines what attendees of the next Linaro C
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 
   * [LEG Website Page](/engineering/datacenter-and-cloud/)
-  
+
   * Mailing Lists
 
     * [linaro-enterprise@lists.linaro.org ](mailto:linaro-enterprise@lists.linaro.org)

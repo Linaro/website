@@ -1,7 +1,7 @@
 ---
 author: john.stultz
 categories:
-- blog
+- Blog
 date: 2013-09-16 02:47:42
 description: At the 2013 Linux Plumbers conference we'll be discussing the ION memory
   allocator and how its functionality might be upstreamed to the mainline kernel during

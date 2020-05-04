@@ -5,7 +5,7 @@ description: |-
 layout: flow
 jumbotron:
     title: Mailing Lists
-    title-class: big-title
+    inner_class: dotted
     description: ""
 flow:
     - row: main_content_row

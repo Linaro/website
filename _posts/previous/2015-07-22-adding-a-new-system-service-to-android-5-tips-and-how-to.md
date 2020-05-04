@@ -1,7 +1,7 @@
 ---
 author: jacopo.mondi
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-22 20:22:08
 description: This article explains how to add a new service and associated application
@@ -406,7 +406,7 @@ At the time of service start, we also init the native layer:
 @Override
 
 public void onStart() {
-    
+
    mNativePointer = init_native();
 
 }
@@ -570,21 +570,21 @@ Now we can test our implementation with the simplest possible application
 
 
     public class MainActivity extends Activity {
-        
+
         private JoffeeManager joffeeManager;
-        
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitymain);
-        
+
         joffeeManager = getSystemService(JOFFEE_SERVICE);
 
         joffeeManager.callJoffeeMethod();
-        
+
         }
-    
-    
+
+
 }
 ```
 

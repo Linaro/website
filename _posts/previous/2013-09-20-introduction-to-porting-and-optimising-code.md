@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-09-20 17:12:11
 description: Impressions of Campus Party Europe 2013 by Matthew Gretton-Dann who presented
   "Introduction to Porting And Optimising Code".  Overview on porting code from 32-bit
@@ -22,7 +22,7 @@ title: Introduction to Porting And Optimising Code
 wordpress_id: 3016
 ---
 
-{% include image.html name="campus-party-image-1.jpg" alt="Picture of Campus Party Europe 2013" class="small-inline right"%}
+{% include image.html path="/assets/images/blog/campus-party-image-1.jpg" alt="Picture of Campus Party Europe 2013" class="small-inline right"%}
 
 
 Recently I was asked to go and present on porting from 32-bit Arm to 64-bit Arm at [Campus Party Europe](http://www.campus-party.org/) at the [O2 Arena](http://www.theo2.co.uk/) in London.  This occurred early in September and it can be watched on [YouTube](http://www.youtube.com/watch?v=epzYErIIx0Y)* and the slides are also [available here](/assets/downloads/campus-party-presentation-Sept_2013.pdf).

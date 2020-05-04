@@ -2,8 +2,7 @@
 layout: post
 title: NXP Becomes Club Member of Linaro
 date: "2019-09-23 01:00:00"
-image:
-  path: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
+image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 tags:
   - Linaro
   - NXP

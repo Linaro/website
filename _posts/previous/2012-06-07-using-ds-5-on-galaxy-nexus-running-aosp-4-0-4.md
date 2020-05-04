@@ -7,7 +7,7 @@ slug: using-ds-5-on-galaxy-nexus-running-aosp-4-0-4
 title: using DS-5 on Galaxy Nexus running AOSP 4.0.4
 wordpress_id: 1669
 categories:
-- blog
+- Blog
 tags:
 - Android
 - android

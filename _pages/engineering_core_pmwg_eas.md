@@ -4,22 +4,26 @@ description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/eas/
-js-package: engineering-landing-page
-css-package: landing-page
 layout: flow
+related_resources_tracks: Power Management, Power, PMWG, EAS
+js-package: engineering
+image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   background-image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management EAS
   description: ''
-  title-class: big-title
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
+    style: members_row bg-light
     sections:
       - format: custom_include
         source: related_members.html
     style: members_row light_gray_row
   - row: main_content_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
   - row: custom_include_row
     source: engineering_related_resources.html
 image: /assets/images/content/engineering/png/core_engineering.png

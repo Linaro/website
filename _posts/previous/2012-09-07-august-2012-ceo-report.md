@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2012-09-07 01:52:38
 description: Overview of new membership levels within Linaro as well as an update
   on big.LITTLE work at Linaro.

@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2013-12-19 20:51:20
 description: Information and links for the Linaro 13.12 release
 keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,
@@ -85,7 +85,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 ### GETTING INVOLVED
 

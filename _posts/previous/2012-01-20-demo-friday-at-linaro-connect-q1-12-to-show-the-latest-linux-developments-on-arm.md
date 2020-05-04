@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-01-20 13:32:35
 description: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
   on Arm. Linaro members, partners and community offer interactive demonstrations

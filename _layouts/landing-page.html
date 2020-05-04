@@ -1,15 +1,12 @@
 ---
 layout: base
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 ---
 {% if page.jumbotron.carousel-images %}
     {% include carousel-header.html images=page.jumbotron.carousel-images %}
     {% include jumbotron.html %}
 {% elsif page.jumbotron %}
     {% include jumbotron.html %}
-{% else %}
-    {% include breadcrumb.html %}
 {% endif %}
 {% if page.sections %}
     {% for section in page.sections %}
@@ -62,7 +59,7 @@ js-package: engineering-landing-page
                     {% for member in group.members %}
                     <div class="col-xs-6 col-sm-3">
                         <a href="{{member.url}}">
-                            <img class="lazyload img-responsive"
+                            <img class="lazyload img-fluid"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{member.image}}"
                                 alt="{{member.name}}" />
                         </a>

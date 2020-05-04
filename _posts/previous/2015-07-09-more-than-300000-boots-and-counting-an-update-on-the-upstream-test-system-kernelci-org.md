@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-09 23:58:58
 description: "Linux maintainers see hundreds of patches during a Kernel version and
@@ -57,17 +57,17 @@ As we built the system, we met with the kernel leads at LCU14 as a way to unders
 **Powerful and extendable dashboard framework**
 To support distributed labs and clean email reporting we needed to build a intermediate data processing system and a dashboard system so that you could collate results from multiple labs, make decisions based on the results and provide a reference system for future use cases.
 
-{% include image.html name="boot-coverage-image.jpg" alt="Boot Coverage Image"%}
+{% include image.html path="/assets/images/blog/boot-coverage-image.jpg" alt="Boot Coverage Image"%}
 
 It is important to note that even with the great progress we have made, the overall problem is much larger. Today, v4.1, [kernelci.org](http://kernelci.org/?july2015) performed 457 boots across 3 processor architectures on 103 unique platforms and 24 SoC families. However there are a staggering 570 Device Tree Source (dts) files in the Linux kernel which means there are approximately ~467 Arm platforms that we are not able to test.
 
-{% include image.html name="mainline-platform-coverage.jpg" alt="Mainline Platform Coverage"%}
+{% include image.html path="/assets/images/blog/mainline-platform-coverage.jpg" alt="Mainline Platform Coverage"%}
 
 ## Using [kernelci.org](http://kernelci.org/?july2015) with Linaro Stable Kernels
 
 Having an early warning system for build and boot regressions upstream has also been valuable for the Linaro stable kernel as the benefits of developing on the Linux kernel always flow down. Beyond mainline, we also use kernelci.org to validate the stable queues, making sure that no regressions sneak into the stable kernel, and also watch the test lsk branch to make sure any feature backports also do not introduce regressions.
 
-{% include image.html name="chart-on-builds-and-boots.jpg" alt="Chart on Builds and Boots" %}
+{% include image.html path="/assets/images/blog/chart-on-builds-and-boots.jpg" alt="Chart on Builds and Boots" %}
 
 **What’s next?**
 

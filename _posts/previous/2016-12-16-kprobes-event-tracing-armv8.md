@@ -7,7 +7,7 @@ slug: kprobes-event-tracing-armv8
 title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
 categories:
-- blog
+- Blog
 tags:
 - arm64
 - Armv8
@@ -18,7 +18,7 @@ tags:
 - Perf
 - Tracing
 ---
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 
 ## Introduction
@@ -91,26 +91,26 @@ All of the above aspects of kprobes are now implemented for arm64, in practice t
 
 
 
- 	
+
   * Register name arguments are, of course, architecture specific and can be found in the Arm Arm.
 
 
 
- 	
+
   * Not all instruction types can currently be probed. Currently unprobeable instructions include mrs/msr (except DAIF read), exception generation instructions, eret, and hint (except for the nop variant). In these cases it is simplest to just probe a nearby instruction instead. These instructions are blacklisted from probing because the changes they cause to processor state are unsafe to do during kprobe single-stepping or instruction simulation, because the single-stepping context kprobes constructs is inconsistent with what the instruction needs, or because the instruction can’t tolerate the additional processing time and exception handling in kprobes (ldx/stx).
 
- 	
+
   * An attempt is made to identify instructions within a ldx/stx sequence and prevent probing, however it is theoretically possible for this check to fail resulting in allowing a probed atomic sequence which can never succeed. Be careful when probing around atomic code sequences.
 
- 	
+
   * Note that because of the details of Linux Arm64 calling conventions it is not possible to reliably duplicate the stack frame for the probed function and for that reason no attempt is made to do so with jprobes, unlike the majority of other architectures supporting jprobes. The reason for this is that there is insufficient information for the callee to know for certain the amount of the stack that is needed.
 
 
 
- 	
+
   * Note that the stack pointer information recorded from a probe will reflect the particular stack pointer in use at the time the probe was hit, be it the kernel stack pointer or the interrupt stack pointer.
 
- 	
+
   * There is a list of kernel functions which cannot be probed, usually because they are called as part of kprobes processing. Part of this list is architecture-specific and also includes things like exception entry code.
 
 
@@ -376,5 +376,3 @@ Bibliography
 [[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.rst) Ts’o, Theodore, Li Zefan, and Tom Zanussi. “Event Tracing.” _GitHub_. GitHub, Inc., 3 Mar. 2016. Web. 13 Dec. 2016.
 
 [[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.rst) Hiramatsu, Masami. “Kprobe-based Event Tracing.” _GitHub_. GitHub, Inc., 18 Aug. 2016. Web. 13 Dec. 2016.
-
-

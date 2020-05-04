@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-06 00:12:38
 description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
   you can participate remotely and as well as the schedule of events for Day 3.
@@ -25,7 +25,7 @@ Which was followed by the Arm Server Mini-Summit, Embedded Android Training, LAV
 
 Linaro is growing and so is participation in Linaro Connect.
 
-{% include image.html name="LCA13-Group-001-72dpi1.jpg" alt="Linaro Connect Asia 2013 Group Photo"%}
+{% include image.html path="/assets/images/blog/LCA13-Group-001-72dpi1.jpg" alt="Linaro Connect Asia 2013 Group Photo"%}
 
 
 ## Videos and Presentation Slides?

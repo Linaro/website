@@ -7,7 +7,7 @@ slug: linaro-android-12-03-preview-release-candidate-1
 title: Linaro Android 12.03 Preview Release Candidate 1
 wordpress_id: 1357
 categories:
-- blog
+- Blog
 ---
 
 The first Linaro Android 12.03 preview releases have been completed. All of these boot and do generally useful things. Enjoy!

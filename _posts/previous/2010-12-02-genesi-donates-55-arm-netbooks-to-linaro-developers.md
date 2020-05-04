@@ -7,7 +7,7 @@ slug: genesi-donates-55-arm-netbooks-to-linaro-developers
 title: Genesi donates 55 Arm netbooks to Linaro developers
 wordpress_id: 3374
 categories:
-- blog
+- Blog
 tags:
 - Hardware
 - arm
@@ -20,7 +20,7 @@ tags:
 
 At the Linaro Developer Summit a few weeks ago in Orlando, Genesi, a US company producing Arm computers, donated 55 Efika MX Arm netbooks to Linaro developers.
 
-{% include image.html name="efikamx.jpg" alt="Efika MX Netbook" class="small-inline right" %}
+{% include image.html path="/assets/images/blog/efikamx.jpg" alt="Efika MX Netbook" class="small-inline right" %}
 
 This is almost a $20,000 market value (Genesi also donated ~10 smarttops, so the total value donated is ~$22500), but this also a very big contribution to Linaro and its projects. This means that most Linaro developers now have an Arm netbook in their hands for their everyday work.
 

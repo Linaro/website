@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-26 16:26:56
 description: Find out more about the Armv8 (64-bit) Mini-Summit at LCE12-Copenhagen
   as well as how to get involved in Armv8 development and where to get the latest
@@ -20,7 +20,7 @@ wordpress_id: 2012
 
 > Armv8—we can do that; it’s all in the open now, the code’s been published. ~David Rusling, Linaro CTO
 
-{% include image.html name="P1000296.jpg" alt="Armv8 Mini-Summit Panel Discussion photo by David Rusling" %}
+{% include image.html path="/assets/images/blog/P1000296.jpg" alt="Armv8 Mini-Summit Panel Discussion photo by David Rusling" %}
 
 Linaro held [three mini-summits](https://connect.linaro.org/resources/) during its [Linaro Connect Europe 2012 (LCE12)](https://connect.linaro.org/resources/) event at the Bella Center in Copenhagen, Denmark on 29 October through 2 November. In this post we are taking a look at the Armv8 (64-bit) Mini-Summit that ran on 30 October.
 
@@ -59,6 +59,6 @@ For more information about each of these sessions and how you can get involved, 
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
-Current Linaro Armv8 Builds can be found at: [/engineering/armv8](/engineering/projects/) and information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
+Current Linaro Armv8 Builds can be found at: [/engineering/armv8](/engineering/) and information and links to all Linaro builds can be found on the [Linaro website](/) on the [downloads page](/downloads/).
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org/).  You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).

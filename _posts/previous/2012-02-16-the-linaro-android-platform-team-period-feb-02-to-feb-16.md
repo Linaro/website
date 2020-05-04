@@ -1,7 +1,7 @@
 ---
 author: tony.mansson
 categories:
-- blog
+- Blog
 date: 2012-02-16 20:24:55
 description: Embedded Linux Conference Linaro Connect ELC
 layout: post

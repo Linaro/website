@@ -1,7 +1,7 @@
 ---
 author: zoran.markovic
 categories:
-- blog
+- Blog
 date: 2013-08-26 13:33:07
 description: "This article discusses the issues of suspend blockers originally implemented
   in the Android kernel and similar functionality merged upstream in the Linux kernel,
@@ -55,13 +55,13 @@ From the kernel side, wake locks were manipulated using the following kernel fun
   * wake_lock() - acquire the wake lock
 
   * wake_unlock() - release the wake lock
-  
+
   * wake_lock_timeout() - acquire a wake lock and release it after timeout expires.
 
 On Android systems, wake locks could also be manipulated from userland through the /sys/power interface using the following files:
 
   * /sys/power/wake_lock - writing a string to this file would create/acquire a wake lock with that name
-  
+
   * /sys/power/wake_unlock - writing a string to this file would release a wake lock with that name
 
 Although disputed, this userland interface to wake locks has now been merged into upstream kernel and is available with the CONFIG_PM_WAKELOCKS configuration option.
@@ -77,7 +77,7 @@ First, a wakeup_source object was added to devices’ power management block (st
   * pm_stay_awake() - notify the system that a device is processing a wakeup event
 
   * pm_relax() - notify the system that a device is no longer processing a wakeup event
-  
+
   * pm_wakeup_event() - notify the system that the device will be processing the wakeup event until timeout
 
 All of these functions have an argument representing the device’s struct device object, indicating the device to which a wakeup_source and wakeup event are associated.
@@ -87,7 +87,7 @@ Next, the autosleep (a.k.a. opportunistic suspend) functionality was added to th
 In similarity with the original Android wake lock implementation, Linux developers also added kernel functions that manipulate the wakeup_source object directly:
 
   * wakeup_source_init() - initialize a wakeup source object
-  * wakeup_source_trash() - de-initialize a wakeup source 
+  * wakeup_source_trash() - de-initialize a wakeup source
   * \_\_pm_stay_awake() - notify the system that a wakeup event is being processed
   * \_\_pm_relax() - notify the system that a wakeup event is no longer being processed
   * \_\_pm_wakeup_event() - notify the system that a wakeup event will be processed until timeout
@@ -124,5 +124,5 @@ In cases where a device driver is using a per-device wake lock, a better and mor
   4. Replace instances of wake_lock() with pm_stay_awake().
   5. Replace instances of wake_unlock() with pm_relax().
   6. Replace instances of wake_lock_timeout() with pm_wakeup_event().
-  
+
 Android kernel still provides the wake lock interface for compatibility with older drivers. A quick look into header file include/linux/wakelock.h in Android kernel, however, reveals that this is now just a wrapper for the wakeup source interface in the upstream kernel. There is no indication of how long this compatibility layer will be maintained. To future-proof their code, driver authors are advised to migrate towards using the wakeup source interface directly.

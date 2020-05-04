@@ -1,90 +1,41 @@
-# Website title - used in the <title> tag of the <head> section of the website.
 title: Linaro
-# Description of the website used in the Meta Description.
-description: > # this means to ignore newlines until "baseurl:"
+url: https://www.linaro.org
+baseurl: ""
+description: |-
   Linaro is a collaborative engineering organization consolidating and optimizing open source software and tools for the Arm architecture.
-# Destination of the Jekyll site upon build of site.
 destination: _site
-# Include the Linaro Jekyll Theme
-theme: jumbo-jekyll-theme
-# Permalink for the blog posts of the Jekyll website.
 permalink: /:categories/:title/
-# Jekyll Responsive Images dir
-blog_images_dir: assets/images/blog/
-email: contact@linaro.org
-# Syntax highlighter for 96boards blog
+theme: jumbo-jekyll-theme
 highlighter: rouge
-# Markdown version
 markdown: kramdown
-# production status for robots.txt and files alike.
-production: false
 kramdown:
   input: GFM
-  syntax_highlighter: rouge # Syntax highlighter for Kramdown.
-# Encoding of the files being included in the Jekyll Build.
+  syntax_highlighter: rouge
 encoding: utf-8
-# Jekyll configuration for running the site in "Safe" mode.
 safe: false
-# Search label setting for site search with e.g. search/?fields.label=96Boards
-search-label: Linaro
-# Disqus Comments settings.
-disqus: true
-disqus_shortname: "Linaro"
-# This is the url that is used when your site is built for canonicals etc.
-url: "https://www.linaro.org"
-# url: "https://www.site-test.linaro.org"
-
-# Make sure that Liquid errors stop the build
-liquid:
-  error_mode: strict
-
-# Shema.org Setup -> used in the schema.html include.
-schema:
-  organisation:
-    name: Linaro
-    url: https://www.linaro.org
-    sameAs:
-      - https://twitter.com/linaroorg
-      - https://www.facebook.com/LinaroOrg
-      - https://www.linkedin.com/company/1026961/
-      - https://plus.google.com/+LinaroOnAir
-      - https://github.com/Linaro
-      - https://www.slideshare.net/linaroorg
-    address:
-      street: Harston Mill, Royston Rd
-      town: Harston
-      county: Cambridge
-      post_code: CB22 7GG
-      country_code: UK
-# Files that should be excluded from the Jekyll build.
 exclude:
-  - _site
+  - Gemfile
+  - Gemfile.lock
+  - .asset_pipeline
   - build-site.sh
   - check-links.sh
   - CODEOWNERS
-  - Gemfile
-  - Gemfile.lock
   - README.md
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _static-site
+  - .sass-cache
   - staging.linaro.org
   - production.linaro.org
-  # - _posts
-
-# Google Tag mangager site wide setting - for deployment of site to China.
-google-tag-manager: true
-
-# Social Configuration for the Jekyll SEO plugin.
-social:
-  name: Linaro
-  links:
-    - https://twitter.com/linaroorg
-    - https://www.facebook.com/LinaroOrg
-    - https://www.linkedin.com/company/1026961/
-    - https://plus.google.com/+LinaroOnAir
-    - https://github.com/Linaro
-    - https://www.slideshare.net/linaroorg
-twitter:
-  username: linaroorg
-# Jekyll Collections configuration - Projects, Products and Documentation.
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
+plugins:
+  - japr
+  - jekyll_picture_tag
+  - jekyll-tidy
 collections:
   company:
     output: true
@@ -92,19 +43,35 @@ collections:
   core:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: false
-    permalink: /engineering/:collection/:path/
   authors:
     output: true
     permalink: /author/:name/
   internships:
     output: true
     permalink: /careers/internships/:name/
+liquid:
+  error_mode: strict
 defaults:
   - scope:
       path: ""
     values:
+      image: /assets/images/social-media-image.png
+  - scope:
+      path: ""
+    values:
+      layout: flow
+  - scope:
+      type: posts
+      path: "_posts"
+    values:
+      layout: post
+      is_post: true
+      comments: true
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
       image: /assets/images/social-media-image.png
   - scope:
       path: ""
@@ -115,11 +82,11 @@ defaults:
   - scope:
       path: "_posts/events"
     values:
-      layout: event-index
+      layout: event
       comments: false
       author: linaro
       permalink: /events/:title/
-      categories: ["events"]
+      categories: ["Events"]
   - scope:
       path: "_posts/events/resources"
     values:
@@ -130,106 +97,132 @@ defaults:
       categories: ["event_resources"]
   - scope:
       path: "_posts/awards"
-      type: "posts"
     values:
-      layout: award-page
+      author: linaro
+      permalink: "/awards/5-years/:title/"
       comments: false
   - scope:
       path: ""
       type: "company"
     values:
-      layout: company
-  - scope:
-      path: "_company/archived"
-      type: "company"
-    values:
-      archived: true
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: author
+      layout: flow
+      breadcrumb: true
+      flow:
+        - row: container_row
+          sections:
+            - format: custom_include
+              source: display_company_info.html
   - scope:
       type: "internships"
     values:
       layout: vacancy
-  - scope:
-      path: ""
-      type: "core"
-    values:
-      layout: work-layout
-      image: ""
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project-page
-      project: true
-      _hide_content: true
-  - scope:
-      path: "/sitemap.xml"
-    values:
-      redirect_from: /sitemap/
-# Gems that should be included in the Jekyll builld of this site.
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-readme-index
-  - uglifier
-  - jekyll-assets
-  - jekyll-tidy
-  - jekyll-redirect-from
-  - autoprefixer-rails
-  - jekyll-paginate-v2
-# Compress the html and beau2tify it.
-jekyll_tidy: # Compress the html and beautify it.
-  compress_html: true
-  exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
-# Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
-assets:
-  compress:
-    js: true
-  autoprefixer:
-    browsers: ["last 2 versions", "> 5%", "IE 9"]
-  sources:
-    - assets/js/
-    - assets/js/vendor/
-    - assets/js/app/
-    - assets/images
-    - assets/images/members
-    - assets/images/people
-    - assets/images/content
-    - assets/images/blog
-    - assets/css/
-
-# Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
-sass:
-  style: compressed
-  load_paths:
-    - assets/css
-#paginate_path: /:categories/:num/
-
-# Jekyll Pagination V2 Configuration
-pagination:
-  permalink: "/:num/"
-  enabled: true
-  per_page: 9
-  trail:
-    before: 2
-    after: 2
-  sort_reverse: true
-  sort_field: "date"
-
-# Jekyll pagination v2 autopages configuration.
-autopages:
-  enabled: false
-
-using_assets: true
+  # - scope:
+  #     path: "/sitemap.xml"
+  #   values:
+  #     redirect_from: /sitemap/
 include: ["_pages"]
-
-# Cloud Cannon Configuration
-_options:
-  image: # Front matter field
-    uploads_dir: "assets/images/featured-images/:title"
-  content: # Content Editor and block Editable Regions
-    uploads_dir: "assets/images/content/:title"
+# ----------- THEME / WEBSITE CONFIG ---------------------
+# Blog images/thumbs dir
+blog_images_dir: assets/images/content/
+# Email
+email: contact@linaro.org
+# Company Address
+address:
+  - Harston Mill
+  - Royston Rd, Harston
+  - Cambridge, United Kingdom
+  - CB22 7GG
+# Support for http2 preload features
+http2_resources:
+  - rel: preload
+    as: font
+    type: font/woff2
+    href: /assets/fonts/lato/Lato-regular.woff2
+google_analytics:
+  enabled: true
+  code: UAXXXXXXB
+# Set the site-wide default social media share image.
+social_media_share_image: /assets/images/social-media-image.png
+# Set the default favicon
+favicon: /assets/images/favicon.png
+# Site Name - your brand name
+name: Jumbo Jekyll Theme
+# The blog filler element
+blog_filler_element: blog/blog_filler_element.html
+# Placeholder avatar
+avatar_placeholder: /assets/images/avatar-placeholder.jpg
+# Blog Post Image Placeholder
+post_placeholder: /assets/images/content/linaro-logo.png
+# Social Media Links
+social_media_channels:
+  github:
+    url: https://github.com/Linaro
+  linkedin:
+    url: https://www.linkedin.com/company/1026961
+  facebook:
+    url: http://facebook.com/LinaroOrg
+  youtube:
+    url: https://www.youtube.com/linaroorg
+  twitter:
+    url: https://twitter.com/linaroorg
+  instagram:
+    url: https://instagram.com/linaroorg
+# Disqus Comments Setup
+disqus:
+    enabled: true
+    shortname: Linaro
+# Edit on GitHub Settings
+edit-on-github:
+    enabled: true
+    repo: https://www.github.com/Linaro/website
+# Shema.org settings used in the schema.html include.
+schema:
+  "@type": "Corporation"
+  "name": "Linaro"
+  "url": "https://www.linaro.org"
+  "logo": "https://www.linaro.org/assets/images/content/linaro-logo.png"
+  "contactPoint":
+    "@type": "ContactPoint"
+    "telephone": "01223 400060"
+    "contactType": "customer service"
+    "availableLanguage": "en"
+  "sameAs":
+    - "https://facebook.com/LinaroOrg"
+    - "https://twitter.com/LinaroOrg"
+    - "https://instagram.com/LinaroOrg"
+    - "https://www.linkedin.com/company/1026961/"
+    - "https://youtube.com/LinaroOrg"
+    - "https://github.com/linaro"
+    - "https://www.linaro.org"
+# FESS search label
+search_label: Linaro
+# ----------- JEKYLL PLUGINS ---------------------
+# -------- jekyll-tidy --------
+jekyll_tidy:
+  # Toggle compression of HTML
+  compress_html: true
+  # JS Path added to exclude to stop errors.
+  exclude: ["assets/**/*.js", "robots.txt", "admin/config.yml"]
+# -------- jekyll_relative_links --------
+jekyll_relative_links:
+  process_all_collections: true
+  verbose: 1
+relative_links:
+  enabled: true
+  collections: false
+# -------- jekyll_relative_links --------
+readme_index:
+  enabled: true
+  remove_originals: false
+# -------- jekyll_picture_tag --------
+picture:
+  nomarkdown: false
+  source: "assets/images"
+  output: "assets/images"
+  relative_url: true
+# -------- japr --------
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets/js
+  gzip: true

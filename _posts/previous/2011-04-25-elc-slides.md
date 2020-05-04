@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-04-25 04:23:53
 description: Slides from presentations by Linaro engineers at the 2011 edition of
   the Embedded Linux Conference in San Francisco.
@@ -19,7 +19,7 @@ wordpress_id: 3382
 
 As one of the most active engineering organizations in the embedded Linux community, Linaro was very well represented in the 2011 edition of the [Embedded Linux Conference](http://www.embeddedlinuxconference.com/) in San Francisco.
 
-{% include image.html name="header_elc_2011.png" alt="Embedded Linux Conference 2011" lightbox_disabled="True" %}
+{% include image.html path="/assets/images/blog/header_elc_2011.png" alt="Embedded Linux Conference 2011" lightbox_disabled="True" %}
 
 As usual, presentation slides for this conference are being collected on [elinux.org](http://elinux.org/ELC_2011_Presentations). Here are direct links to presentations from Linaro engineers:
 

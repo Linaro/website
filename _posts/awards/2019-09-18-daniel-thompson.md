@@ -1,7 +1,8 @@
 ---
 title: Congratulations to Daniel Thompson for 5 years at Linaro
 keywords: 5 Year Award, Daniel Thompson, Linaro
-layout: award-page
+layout: post
+
 description: >
   We would like to congratulate Daniel Thompson for making a difference in open source at Linaro for 5 years.
 bio: >
@@ -14,9 +15,7 @@ team: Support & Solutions Engineering
 categories:
   - Awards
   - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/daniel-thompson.jpg
 jumbotron:
   background-image: /assets/images/content/5years_bkgd.png

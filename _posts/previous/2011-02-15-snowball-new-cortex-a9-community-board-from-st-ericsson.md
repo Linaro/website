@@ -7,7 +7,7 @@ slug: snowball-new-cortex-a9-community-board-from-st-ericsson
 title: Snowball - New Cortex A9 community board from ST-Ericsson
 wordpress_id: 3373
 categories:
-- blog
+- Blog
 tags:
 - Hardware
 - board
@@ -23,9 +23,9 @@ This board was designed for the needs of both the embedded Linux community devel
 
 First, here are pictures:
 
-{% include image.html name="ResizedImage600441-snowball1.jpg" alt="Snowball Connectors" %}
+{% include image.html path="/assets/images/blog/ResizedImage600441-snowball1.jpg" alt="Snowball Connectors" %}
 
-{% include image.html name="ResizedImage600466-snowball2.jpg" alt="Snowball Connectors" %}
+{% include image.html path="/assets/images/blog/ResizedImage600466-snowball2.jpg" alt="Snowball Connectors" %}
 
 
 And then, technical details:

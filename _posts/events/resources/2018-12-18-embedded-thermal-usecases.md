@@ -4,7 +4,7 @@ date: "2018-10-25 01:00:00+00:00"
 image: /assets/images/content/lpc2018-thumb.jpg
 title: "Embedded Thermal Use Cases (how to handle them?)"
 speakers:
-  - biography: '""'
+  - biography: ""
     company: Linaro
     job-title:
     name: Amit Kucheria

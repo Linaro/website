@@ -3,7 +3,7 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- blog
+- Blog
 comments: false
 date: 2017-02-22 20:24:44
 excerpt: The Linaro Virtualization group will host several sessions at the upcoming
@@ -13,9 +13,7 @@ excerpt: The Linaro Virtualization group will host several sessions at the upcom
   within the opensource community.   As part of this event the Linaro Virtualization
   team will host three sessions during the week, and Red Hat will host an additional
   session on their efforts on ARM virtualization.
-image:
-  featured: true
-  path: /assets/images/blog/LinaroVirtualizationGroupsPlansforLinaroConnectBudapest2017.png
+image: /assets/images/blog/LinaroVirtualizationGroupsPlansforLinaroConnectBudapest2017.png
 layout: post
 link: http://connect.linaro.org/blog/linaro-virtualization-groups-plans-linaro-connect-budapest-2017/
 session_id: None

@@ -2,8 +2,7 @@
 layout: post
 title: 'Standard temperature tooling now a reality in the Linux kernel '
 date: '2020-02-03 03:39:33'
-image:
-  path: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - linux kernel
   - SATA temps

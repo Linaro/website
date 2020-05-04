@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-05-02 15:48:01
 description: Show off how you are pairing Linaro's engineering output--a build, toolchain,
   or code--and Arm processor-based hardware solutions at the LCE13 Demo Friday event.
@@ -33,7 +33,7 @@ In your email please include the following:
   * Company
 
   * Title of demonstration
-  
+
   * Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)
 
   * Any equipment requirements

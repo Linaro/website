@@ -1,7 +1,7 @@
 ---
 author: rony.nandy
 categories:
-- blog
+- Blog
 date: 2012-12-19 14:51:24
 description: Summary of the UEFI Mini-Summit held in Cambridge, UK on 11-13 December
   2012. Discussed were fixes, updates and UEFI bootloader for LEG and more.

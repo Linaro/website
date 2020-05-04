@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-14 22:05:26
 description: Career opportunities now available at Linaro for an Android Ubuntu Linux
   Kernel Engineer located in or near Seoul, Korea.

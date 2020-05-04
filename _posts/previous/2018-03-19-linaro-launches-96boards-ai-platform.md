@@ -1,7 +1,7 @@
 ---
 author: linaro
 date: 2018-03-19 0:00:00.000
-title: Linaro Announces Launch of 96Boards AI Platform 
+title: Linaro Announces Launch of 96Boards AI Platform
 description: >-
   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced 96boards.ai and availability of a range of compatible member 96Boards platforms for developers working on AI hardware and software solutions.
 categories:
@@ -9,9 +9,7 @@ categories:
 published: true
 tags: Linaro, Connect, HKG18, 96Boards, Artificial Intelligence, AI, Platforms
 keywords: Linaro, Connect, HKG18, 96Boards, Artificial Intelligence, AI, Platforms
-image:
-  featured: true
-  path: /assets/images/blog/96boards-ai.png
+image: /assets/images/blog/96boards-ai.png
 layout: post
 ---
 # Linaro Announces Launch of 96Boards AI Platform
@@ -42,7 +40,7 @@ The DragonBoard 820c development board supports a wide range of interfaces and i
 
 “Hoperun is a 96Boards steering committee member and Manufacturing partner, launching partner of the HiKey970, 96Boards.ai provider and promoter, committed to build AI kit and solutions around the 96Boards Open AI platform,” said Hoperun CEO Chen Bin.
 
-96Boards is Linaro’s initiative to build a single software and hardware community across cost-effective development boards based on Arm technology. 
+96Boards is Linaro’s initiative to build a single software and hardware community across cost-effective development boards based on Arm technology.
 
 ## About Linaro
 

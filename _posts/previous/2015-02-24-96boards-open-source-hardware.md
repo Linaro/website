@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2015-02-24 16:50:15
 description: Linaro CEO discusses the new 96Boards initiative and Open Source Hardware.
   The goal of 96Boards is to provide an option for standardization of SoC boards for

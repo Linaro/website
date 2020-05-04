@@ -1,0 +1,39 @@
+<div class="col col-12 no-padding membership_form_container">
+    <div class="row">
+        <div class="col col-12 col-sm-6 form_section">
+            <form id="membership_form" action="#" onsubmit="submitMembershipForm();" >
+                <div class="form-group">
+                    <input type="text" name="first_name" class="form-control" placeholder="First name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="surname" class="form-control" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="company" class="form-control" placeholder="Company">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="membership_type">
+                        <option value="" disabled selected>Type of membership interested in</option>
+                        <option value="Core">Core</option>
+                        <option value="Club">Club</option>
+                        <option value="Group">Group</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3"
+                    name="source" placeholder="More information on why you want to work with Linaro"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-lg btn-default">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col col-12 col-sm-6 image_section">
+            {% assign image_path = "/assets/images/content/connect_crowd.jpg" | remove_first: '/assets/images/' %}
+            {% capture image_alt %}
+                {{page.title}} feature block image
+            {% endcapture %}
+            {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+        </div>
+    </div>
+</div>

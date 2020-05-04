@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 date: 2011-06-09 14:47:44
 description: Linaro Kernel upstreaming efforts.
 keywords: Kernel, Linux Kernel, Arm, Linaro, Arm architecture, embedded linux conference

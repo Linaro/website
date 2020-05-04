@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-05-11 14:16:55
 description: Linaro's 15.04 release is not available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
@@ -41,7 +41,7 @@ This post includes links to more information and instructions for using the imag
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
   * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
-  
+
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 
@@ -62,7 +62,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 **GETTING INVOLVED**
 

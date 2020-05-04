@@ -4,8 +4,7 @@ title: >-
   AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor
   devices)
 date: '2020-04-15 11:37:57'
-image:
-  path: /assets/images/content/30921188158_953bca1c9f_k.jpg
+image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
   - AOSP
   - Dragonboard 845c
@@ -18,13 +17,15 @@ Recently, the Dragonboard 845c (Qualcomm's SDM845 based 96board) [landed in AOSP
 
 The Google Pixel3 phone was the obvious choice for the next form-factor device effort by the Linaro Consumer Group, with an unlocked bootloader and device support already in AOSP. Once we figured out how to work around bootloader checks on Google’s Pixel3 (SDM845 based) phone, we started utilising SDM845 upstream support for running the mainline kernel on the Pixel3. Leveraging the Dragonboard 845c work, we were quickly able to get the device booting from storage, and usb-gadget support working. In addition, we needed support for the LAB/IBB regulators, which provide the power supplies for LCD and AMOLED display panels. These are required to power the panels on SDM845 platforms, but the driver for these is not yet upstream, so we utilized work-in-progress patches from the lists. We then converted the downstream dts-based Pixel3 command mode panel driver to an upstream-style drm panel driver. Soon we hit a wall while enabling the display panel, as it uses Display Stream Compression (DSC), which is not yet supported upstream on Qualcomm hardware, but is actively being worked on. So while the device boots to UI, the screen output is garbled at the moment.
 
+{% include image.html path="/assets/images/content/poco-f1-settings-page.jpg" class="medium-inline" alt="poco-f1-settings" %}
+
 To integrate support into AOSP, we created a “pixel3_mainline” build target (to differentiate it from the official “blueline” codename used in AOSP), and pushed it along with the Dragonboard 845c support. The goal of this newly added pixel3_mainline-userdebug build target is to run AOSP on Pixel3 device with mainline linux kernel and open graphics stack (mesa/freedreno), unlike AOSP's official aosp_blueline-userdebug build target for Pixel3 which runs android-4.4 kernel with proprietary closed source services and binaries. Status as of today is that pixel3_mainline-userdebug build boots but with garbled output on screen, but is accessible via ADB. We hardcode bootargs in the kernel and enforce it because we can’t boot with bootargs appended by the bootloader during bootup. We also configure the system partition as a super partition and have not yet moved to retrofit dynamic partition support. Currently we only support booting with the Android P bootloader because Android-10 bootloaders need userspace fastbootd support which is currently missing in our build. You can find the How To instructions at <https://wiki.linaro.org/AOSP/blueline>
 
-Meanwhile we started looking into Pocophone’s F1 phone, a similar Snapdragon 845 based device, which uses a panel that doesn’t require DSC support. With a relatively small amount of work, in order to add support for the PocoF1 panel, we quickly boot AOSP upto UI with the mainline linux kernel. Since the Dragonboard 845c support was already in AOSP utilizing the Android Generic Kernel Image (GKI), we could just re-use the GKI and the Dragonboard 845c kernel modules along with local (vendor specific) panel and regulator driver modules, demonstrating the future potential of the Android GKI initiative: 
 
-{% include image.html name="poco-f1-settings-page.jpg" class="medium-inline" alt="poco-f1-settings" %}
+Meanwhile we started looking into Pocophone’s F1 phone, a similar Snapdragon 845 based device, which uses a panel that doesn’t require DSC support. With a relatively small amount of work, in order to add support for the PocoF1 panel, we quickly boot AOSP upto UI with the mainline linux kernel. Since the Dragonboard 845c support was already in AOSP utilizing the Android Generic Kernel Image (GKI), we could just re-use the GKI and the Dragonboard 845c kernel modules along with local (vendor specific) panel and regulator driver modules, demonstrating the future potential of the Android GKI initiative:
 
-{% include media.html media_url="https://www.youtube.com/watch?v=-SRqxkMpeMc" %}
+
+{% include media.html media_url="https://www.youtube.com/watch?v=-SRqxkMpeMc" class="my-2" %}
 
 Status as of today is that PocoF1 AOSP build boots to UI and Bluetooth (HID/Audio) works, but touch-input, WiFi and Audio are still work in progress. On WiFi, we are stuck at needing to allocate a special type of protected shared memory region. Unfortunately without this special allocation type, PocoF1 just reboots during boot, due to unauthorized access to that shared memory region. There is no plan to submit PocoF1 support in AOSP or provide support in any form and it will stay out of the tree. We use PocoF1 only for development purposes. You can find the How To instructions on [github](https://github.com/pundiramit/device-xiaomi-beryllium/blob/master/README.md).
 

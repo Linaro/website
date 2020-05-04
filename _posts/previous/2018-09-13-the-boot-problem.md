@@ -7,9 +7,7 @@ description: >-
   Linaro CTO David Rusling talks about fragmentation in Boot Architecture.
 categories: Blog
 tags: Linaro, Linaro Connect, Boot Architecture, Arm, SBBR, EBBR, Server, U-Boot, Vancouver, YVR18
-image:
-  featured: true
-  path: /assets/images/blog/linaroconnectSFO17.jpg
+image: /assets/images/blog/linaroconnectSFO17.jpg
 ---
 Quoting Tim O’Reilly - ‘Evolution breeds not a single winner, but diversity’.  This is very true and diversity is one of the hallmarks of the Arm ecosystem. For any given market there are a lot of companies competing and this competition drives diversity and, therefore, evolution.  The results are awesome as a variety of approaches are taken and the market decides. Sometimes brutally.
 

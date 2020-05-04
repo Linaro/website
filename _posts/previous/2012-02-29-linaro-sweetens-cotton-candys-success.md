@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-02-29 22:48:01
 description: FXI Technologies, is now accepting pre-orders for its USB sized, any
   screen, Linaro LEB based cloud computer--Cotton Candy.
@@ -18,7 +18,7 @@ title: Linaro Sweetens Cotton Candy's Success
 wordpress_id: 1311
 ---
 
-{% include image.html name="logo_cstick_white.png" class="small-inline" %}
+{% include image.html path="/assets/images/blog/logo_cstick_white.png" class="small-inline" %}
 
 FXI Technologies, Inc. [announced](https://www.arm.com/markets/home/cstick-cotton-candy.php) from [Mobile World Congress](https://www.mobileworldcongress.com/) earlier this week that [it is now accepting pre-orders](https://www.arm.com/markets/home/cstick-cotton-candy.php) for its light weight,  USB sized, any screen cloud computer—[Cotton Candy](http://www.fxitech.com/products/).
 
@@ -29,7 +29,7 @@ Linaro community specialist, Amber Graner, asked FXI Technologies  founder and 
 
 [LEBs (Linaro Evaluations Builds)](/downloads/) for the Samsung Origen allowed FXI Technologies  to boot Cotton Candy immediately and start working on differentiation from day one. Without Linaro, FXI Technologies would still be bringing up either Android or Ubuntu, with Linaro they have both, today, and are in the market. That is the power of the Linaro open-collaboration power-house.
 
-{% include image.html name="fxi-blog-image.jpg" alt="Cotton Candy FXI" class="small-inline right" %}
+{% include image.html path="/assets/images/blog/fxi-blog-image.jpg" alt="Cotton Candy FXI" class="small-inline right" %}
 
 Cotton Candy has been on display at this week’s Mobile World Congress and according to FXI Technologies, it is the unique architecture that allows the device to serve as a companion to smartphones, tablets, notebook PCs and Macs and will add smart capabilities to existing displays, set top boxes and game consoles.
 

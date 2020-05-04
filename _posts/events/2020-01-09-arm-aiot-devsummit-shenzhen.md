@@ -4,13 +4,15 @@ event: arm-iot-devsummit
 event_url: 'https://armsummit.everants.com/'
 description: >
   As part of the AIoT DevSummit Series, developers in Shenzhen will meet to
-  experience the latest AIoT tech from Arm and Arm partners. 
+  experience the latest AIoT tech from Arm and Arm partners.
 location: 'Shenzhen, China '
 date: '2020-01-09 09:42:43'
 event_date: '2020-01-15 01:00:43'
 event_end_date: '2020-01-15 08:06:43'
 image: /assets/images/content/dev-summit-shenzhen.png
 event_type: presenter
+categories:
+  - Events
 ---
 1:10-1:40pm
 

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-08-08 20:11:56
 description: "If you are looking for more information about the Arm Cortex-A series
   of processors, the Cortex-A Series Programmer\xE2\x80\x99s Guide is the definitive

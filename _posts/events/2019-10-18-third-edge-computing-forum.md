@@ -12,4 +12,7 @@ image: /assets/images/content/third-edge-computing-forum.png
 location: >
   Fraunhofer Institute for Open Communication Systems FOKUS
   Kaiserin-Augusta-Allee 31, 10589 Berlin, Germany
+categories:
+  - Events
 ---
+As the Edge Computing market is estimated to generate a value of up to 19 Billion EUR by 2023, at the forum the latest technological approaches and their benefits in the area of Edge Computing will be presented to discuss open issues to build an industrial Edge-based ecosystem by making infrastructures interoperable, programmable, secure and easy to use.

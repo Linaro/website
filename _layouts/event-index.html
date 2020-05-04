@@ -1,7 +1,5 @@
 ---
 layout: base
-css-package: events-blog
-js-package: events-blog
 ---
 {% if page.image.path %}
     {% assign image_path = page.image.path %}
@@ -32,6 +30,6 @@ js-package: events-blog
 <div class="row" id="content-container">
     <div class="container">
         {{content}}
-        {% include display-event-resources.html event=page.event %}
+        {% include events/display-event-resources.html event=page.event %}
     </div>
 </div>

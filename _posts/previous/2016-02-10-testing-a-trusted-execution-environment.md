@@ -7,11 +7,11 @@ slug: testing-a-trusted-execution-environment
 title: Testing a Trusted Execution Environment
 wordpress_id: 9949
 categories:
-- blog
+- Blog
 tags:
 - Core Dump
 ---
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
   * Background
   * Linaro gets into the picture
@@ -32,7 +32,7 @@ Why you need to test your software is quite obvious and therefore this blog post
 
 Just as the other components in OP-TEE the test framework also has origins from ST-Ericsson and STMicroelectronics. A couple of years ago, when OP-TEE was being developed, the developers were engaged in GlobalPlatform testing, in the so called TestFest (for simplicity let’s call it OP-TEE even though it strictly isn’t correct, since back then the TEE solution didn’t really have a name, it was the ST-Ericsson TEE solution). At this time there were no official test suite nor compliance program ready and the goals with the TestFests were twofold, first to ensure that the different TEE vendors respective TEE solution was behaving according to the specification, secondly that the test tool(s) and the specifications themselves were correct. At the same time as this work took place there were quite a few “standalone” test cases being implemented as a complement to the GlobalPlatform tests. The nature of those were more to address the missing pieces in GlobalPlatform and to test corner cases, hardware- and extended features. So side by side the engineers at ST-Ericsson were running their own tests as well as the tests provided by the ones in charge of GlobalPlatform compliance program.
 
-{% include image.html name="figure1.png" alt="figure1" %}
+{% include image.html path="/assets/images/blog/figure1.png" alt="figure1" %}
 
 **Figure 1: Output from xtest**
 
@@ -134,7 +134,7 @@ As I’ve mentioned above, all code related to testing could be found within a s
 
 The compliance test suite ([GlobalPlatform TEE Initial Configuration Compliance Test Suite v1.1.0.4](http://globalplatform.org/storecontent.asp?show=configurations)) that can be purchased from GlobalPlatform (free for GP members) consists of a _compliance adaptation layer specification_ that needs to be implemented to run the tests. It also contains a set of configuration files, more specifically – XML files specifying how functions should be called, what parameters to pass to them and what kind of test results to expect, i.e., you will **not** get any actual code that is ready to be compiled. How those XML files will end up being used is up to the end user. What we did early on was to configure xtest, so that it would be easy to extend it later to also include the compliance test suite from GlobalPlatform. So by putting the XML files on a certain [path](https://github.com/OP-TEE/optee_test#extended-test-global-platform-tests), using the adaptation layer, installing a couple of tools ([xalan](https://xalan.apache.org)) and running make with the “patch” as an argument, there will be a set of new Trusted Applications as well as patch xtest itself to also include the compliance tests. I.e., the XML files will be transformed into C code in this step. After performing that step you will not only run the so called standard test, but you will also run the compliance tests from GP in the same run.
 
-{% include image.html name="figure2.png" alt="figure2" %}
+{% include image.html path="/assets/images/blog/figure2.png" alt="figure2" %}
 
 **Figure 2: xtest overview**
 
@@ -150,7 +150,7 @@ One has to be careful when working with xtest, since there are different license
 
 Today xtest is a test framework that does API testing of the exposed functionality for the Client API and for the Internal Core API. It contains quite a few test cases. Running the standard test on QEMU (Intel Core i5-4670K CPU @ 3.40GHz) results in the following:
 
-{% include image.html name="figure3.png" alt="figure3" %}
+{% include image.html path="/assets/images/blog/figure3.png" alt="figure3" %}
 
 
 **Figure 3: xtest standard test result**

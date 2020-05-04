@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-09-17 21:33:36
 description: Overview of the events that took place on Tuesday September 16, 2014
   at Linaro Connect USA
@@ -486,4 +486,4 @@ The second part of his keynote covered new technologies driving Video delivery i
 
 **Pictures from Tuesday's Linaro Connect USA 2014**
 
-{% include image.html name="day-2-picture-3.jpg" alt="Picture from Tuesday's Linaro Connect USA 2014"%}
+{% include image.html path="/assets/images/blog/day-2-picture-3.jpg" alt="Picture from Tuesday's Linaro Connect USA 2014"%}

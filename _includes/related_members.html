@@ -20,7 +20,7 @@
 {% endfor %}
 
 {% assign sorted_members = unique_linaro_members | sort: 'name' %}
-<div class="col-xs-12">
+<div class="col col-12">
     <div class="owl-carousel owl-theme members_slider">
         {% for member in sorted_members %}
         <a href="{{member.url}}" target="_self">

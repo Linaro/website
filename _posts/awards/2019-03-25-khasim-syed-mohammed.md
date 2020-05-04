@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Khasim Mohammed for 5 years at Linaro
 keywords: 5 Year Award, Khasim Mohammed, Linaro
-layout: award-page
+layout: post
 description: >
     We would like to congratulate Khasim Mohammed for making a difference in open source at Linaro for 5 years.
 ask-me-about: Linux Kernel & Device Drivers, Android HAL & Frameworks, Open Hardware Platforms
@@ -15,11 +15,9 @@ team: Developer Services
 categories:
  - Awards
  - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/khasim-mohammed.jpg
 date: 2019-04-05 09:00:00+00:00
 jumbotron:
-    background-image: /assets/images/content/5years_bkgd.png
+    image: /assets/images/content/5years_bkgd.png
 ---

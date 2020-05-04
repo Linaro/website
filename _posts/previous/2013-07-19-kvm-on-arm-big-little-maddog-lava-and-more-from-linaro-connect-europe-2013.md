@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-19 20:39:35
 description: Want to see what happens at Linaro Connect? Check out this Linaro Connect
   Europe 2013 summary.
@@ -23,7 +23,7 @@ title: KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 
 wordpress_id: 2843
 ---
 
-{% include image.html name="9247909880_8d181b882e_b.jpg" alt="KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
+{% include image.html path="/assets/images/blog/9247909880_8d181b882e_b.jpg" alt="KVM on Arm, big.LITTLE, Maddog, LAVA and More from Linaro Connect Europe 2013 Image" url="http://www.flickr.com/photos/linaroorg/9247909880/"%}
 
 
 [Linaro Connect Europe 2013 (LCE13)](https://connect.linaro.org/lce13/) which took place on 8 - 12 July at the DoubleTree Hotel in Dublin, Ireland.  It was an amazing week with 338 people registered with 312 actual attendees. Below is a summary LCE13.

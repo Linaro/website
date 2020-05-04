@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-11-28 20:41:26
 description: Linaro 16.11 release is now available for download. See the detailed
   highlights of this release to get an overview of what has been accomplished by the
@@ -70,7 +70,7 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **USING THE DEBIAN-BASED IMAGES**

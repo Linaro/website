@@ -1,7 +1,7 @@
 ---
 author: frans.gifford
 categories:
-- blog
+- Blog
 date: 2011-12-01 14:16:11
 description: HOWTO run LAVA Android tests on a local machine.
 keywords: LAVA, android, linaro, testing, howto
@@ -20,7 +20,7 @@ wordpress_id: 986
 
 The Linaro Android team automatically test daily platform builds on our LAVA server[1], but what's less well known is that we can also run Android tests locally using lava-android-test[2]. I tried this out in order to debug a new benchmark I wanted to add, and it turns out that creating a mini version of validation.linaro.org is remarkably easy. It's as simple as getting a board powered up and available to adb, installing the tool and then running three commands to install, run and parse the results of your test case.
 
-{% include image.html name="lin4.jpg" alt="LAVA on a laptop" %}
+{% include image.html path="/assets/images/blog/lin4.jpg" alt="LAVA on a laptop" %}
 
 **Get lava-android-test**
 

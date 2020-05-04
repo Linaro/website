@@ -1,7 +1,7 @@
 ---
 author: mark.gregotski
 categories:
-- blog
+- Blog
 date: 2014-12-03 23:51:32
 description: Overview of the activities and projects the Linaro Home Group has been
   working on since the group announcement in May 2014
@@ -55,7 +55,7 @@ This group has been very busy and during the recent Linaro Connect event they to
   * LCU14-200: Delivering Pay TV Content Throughout the Connected Home, Richard Bardini, DLNA Ambassador.
 
   * LCU14-208: Chromium-Blink migration for RDK, Zoltan Kuscsik, Haifeng Yan
-  
+
       * slides:  [http://www.slideshare.net/linaroorg/lcu14-208-chromiumblink-migration-for-rdk-39155555](http://www.slideshare.net/linaroorg/lcu14-208-chromiumblink-migration-for-rdk-39155555)
 
   * LCU14-508 BOF: OpenEmbedded, Trevor Woerner, Koen Kooi, Khem Raj

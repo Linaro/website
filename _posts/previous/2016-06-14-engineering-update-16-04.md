@@ -12,7 +12,7 @@ slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695
 categories:
-- blog
+- Blog
 tags:
 - 96Boards
 - hardware
@@ -55,12 +55,12 @@ For a more detailed description of the Linaro Clear Key solution, please see thi
 
 The W3C EME specification details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video.  The EME Clear Key solution is required for any compliant EME solution.
 
-{% include image.html name="ClearKey1.png" alt="ClearKey1" %}
+{% include image.html path="/assets/images/blog/ClearKey1.png" alt="ClearKey1" %}
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
 
 
-{% include image.html name="ClearKey2.png" alt="ClearKey2" %}
+{% include image.html path="/assets/images/blog/ClearKey2.png" alt="ClearKey2" %}
 
 _Linaro ClearKey Implementation_
 

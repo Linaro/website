@@ -1,7 +1,7 @@
 ---
 author: koen.kooi
 categories:
-- blog
+- Blog
 date: 2014-07-02 16:18:18
 description: The Linaro 14.06 release is now available for immediate download. Here
   you will find links to all the products in this release.
@@ -32,7 +32,7 @@ title: Linaro 14.06 Available for Download!
 wordpress_id: 6054
 ---
 
-> "Every worthwhile accomplishment, big or little, has its stages of drudgery and triumph; a beginning, a struggle and a victory." Ghandi 
+> "Every worthwhile accomplishment, big or little, has its stages of drudgery and triumph; a beginning, a struggle and a victory." Ghandi
 
 Linaro 14.06 release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
 
@@ -69,7 +69,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 
 **GETTING INVOLVED**

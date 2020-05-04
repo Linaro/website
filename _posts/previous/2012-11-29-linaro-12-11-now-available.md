@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-29 16:45:41
 description: The Linaro 12.11 release is now available. Highlights, release notes
   and information on how to download Linaro 12.11 are available in this post.
@@ -16,7 +16,7 @@ title: Linaro 12.11 Now Available
 wordpress_id: 2041
 ---
 
-> One way to keep momentum going is to have constantly greater goals. ~ **Michael Korda** 
+> One way to keep momentum going is to have constantly greater goals. ~ **Michael Korda**
 
 # The Linaro 12.11 release is now available!
 

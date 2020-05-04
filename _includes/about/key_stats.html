@@ -1,12 +1,14 @@
-<div class="col-xs-12 no-padding">
-    {% for stats_block in site.data.key_stats.items %}
-        <div class="col-xs-12 col-sm-4 stats_col">
-            <div class="line1">{{stats_block.line1}}</div>
-            <div class="number_line">{{stats_block.number}}</div>
-            <div class="line2">{{stats_block.line2}}</div>
-            <div class="line3">{{stats_block.line3}}</div>
-            <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+<div class="col col-12 no-padding">
+    <div class="row">
+        {% for stats_block in site.data.key_stats.items %}
+        <div class="col col-12 col-sm-4 stats_col text-center my-4">
+            <div class="line1 text-uppercase text-white">{{stats_block.line1}}</div>
+              <div class="number_line display-2 text-white font-weight-bold">{{stats_block.number}}</div>
+            <div class="line2 text-uppercase text-white">{{stats_block.line2}}</div>
+            <div class="line3 text-uppercase text-white">{{stats_block.line3}}</div>
+            <img class="my-3 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
             data-src="{{stats_block.icon}}" />
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>

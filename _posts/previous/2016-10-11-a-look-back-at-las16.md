@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-10-11 20:34:00
 description: An overview of the activities that took place during the Linaro Connect
   Las Vegas in September 2016.

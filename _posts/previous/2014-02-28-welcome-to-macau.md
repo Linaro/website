@@ -1,7 +1,7 @@
 ---
 author: mark.orvek
 categories:
-- blog
+- Blog
 date: 2014-02-28 21:18:07
 description: Overview of what to expect at LCA14
 layout: post
@@ -20,7 +20,7 @@ wordpress_id: 3405
 
 [Linaro Connect Asia 2014](https://connect.linaro.org/lca14/) promises to be the largest Connect to date (again).  As always, there will be a few surprises during the week including one that may make you think about “Home” while enjoying the pleasures of [one of the world’s richest cities](http://en.wikipedia.org/wiki/Macau).
 
-{% include image.html name="LCE13-Opening-Keynote.jpg" alt="LCE13 Opening Keynote" %}
+{% include image.html path="/assets/images/blog/LCE13-Opening-Keynote.jpg" alt="LCE13 Opening Keynote" %}
 
 There will be [keynote sessions](https://connect.linaro.org/lca14/) each of the five days with topics ranging from the state of Arm Servers and Software Defined Networking to open source development for carrier class equipment.  And, of course, a look into the future with David Rusling (Linaro, CTO). What are the extents of David’s vision?  Stay through Friday and you may find out!
 
@@ -31,7 +31,7 @@ Armv8 will be a key theme of the week.  Armv8 SoC’s and platforms are here an
 Monday through Wednesday are filled with [sessions](http://lca-14.zerista.com/) from the working groups, engineering teams and segment groups.  Topic areas include the Armv8 kernel, Energy-efficient Scheduler, big.LITTLE GTS, Android, Arm Trusted Firmware, 64-bit GNU and LLVM toolchains, UEFI secure boot, ACPI, OpenDataPlane (ODP), VM Standards, LSK and LAVA / CI Loops.  The afternoons will allow time for the teams to work together in hacking rooms.
 
 
-{% include image.html name="W2_shovan-03.png" alt="W2_shovan-03" %}
+{% include image.html path="/assets/images/blog/W2_shovan-03.png" alt="W2_shovan-03" %}
 
 On Wednesday night, suspend disbelief for an evening of Bond, James Bond..... Think ‘Casino Royale’ ([1] not [2]) for this Bond themed [gala dinner](https://connect.linaro.org/lca14/). There will be prizes for the best dressed male and female characters, best accessory and luckiest guest of the night!  Rumor has it that Jon Masters is in line to be the next James Bond.  However, this seems unlikely given his fascination with world domination and fluffy white cats.
 

@@ -7,14 +7,14 @@ slug: edgex-foundry-integration-linaros-zephyr-based-iot-demonstration-system
 title: EdgeX Foundry Integration with Linaro’s Zephyr-based IoT demonstration system
 wordpress_id: 12361
 categories:
-- blog
+- Blog
 ---
 
-{% include image.html name="hannover-messe-logo.jpg" alt="Hannover Messe Logo" class="medium-inline"%}
+{% include image.html path="/assets/images/blog/hannover-messe-logo.jpg" alt="Hannover Messe Logo" class="medium-inline"%}
 
 "The creation of a standard, secure, open, and architecture- and vendor-neutral gateway framework is a critical component of IoT based solutions. Hosted by The Linux Foundation, EdgeX Foundry's impressive industry support and open governance model allows open collaboration on a common gateway architecture by industry leaders," said Matt Locke, Director of the Linaro IoT and Embedded (LITE) Group. "This much needed unifying project will allow vendors to define and build a common gateway platform; a platform upon which they can build unique and compelling solutions across a wide range of market segments. We look forward to welcoming new members into LITE to work closely on the engineering needed to accelerate adoption of EdgeX Foundry. Supporting this new project complements and builds on LITE's engineering and technical support of The Linux Foundation's Zephyr project, which is aimed at enabling embedded and IoT devices."
 
-{% include image.html name="hawkbit-hannover-messe.png" alt="Hawkbit Hannover Messe" %}
+{% include image.html path="/assets/images/blog/hawkbit-hannover-messe.png" alt="Hawkbit Hannover Messe" %}
 
 **The challenge**: Integrate our end-to-end IoT device management platform running on 96Boards hardware and an all open source,and mostly upstream, software stack including key projects such as Hawkbit, Zephyr, Docker and the Linux Kernel with the new EdgeX Foundry?  It was a no brainer.  Do it in 2 days?  Hmmm, sure?
 
@@ -50,5 +50,3 @@ The End-to-end IoT Demonstration system.
   * 9 96Boards Nitrogens running as Zephyr-based thermal sensors
   * 1 HiKey BLE/6LoWPAN gateway
   * 1 Dell 5100 Industrial IoT gateway running EdgeX Foundry integrating the Zephry MQTT datastream with EdgeX
-
-

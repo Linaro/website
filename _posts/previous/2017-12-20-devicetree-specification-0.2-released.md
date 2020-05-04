@@ -4,11 +4,9 @@ title:  "Devicetree Specification v0.2 Released"
 date:   2017-12-20 12:00:00
 categories: Blog
 author: Grant Likely
-tags: 
+tags:
 - DeviceTree
-image:
-    featured: true
-    path: /assets/images/blog/devicetree-logo-dark.png
+image: /assets/images/blog/devicetree-logo-dark.png
 ---
 
 Today, version 0.2 of the Devicetree Specification was released.
@@ -36,4 +34,3 @@ Or, roll up your sleeves, clone the git repo, and help out.
 ```bash
 git clone https://github.com/devicetree-org/devicetree-specification
 ```
-

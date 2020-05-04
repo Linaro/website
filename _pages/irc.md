@@ -5,7 +5,7 @@ description: |-
 layout: jumbotron-container
 jumbotron:
     title: IRC Channels
-    title-class: big-title
+    inner_class: dotted
     description: ""
 permalink: /contact/irc/
 ---

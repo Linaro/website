@@ -5,17 +5,14 @@ description: |-
 layout: flow
 permalink: /careers/internships/
 js-package: careers
-css-package: careers
+css_bundle: careers
 jumbotron:
     title: Internships at Linaro
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/careers-image-3.jpg
+    image: /assets/images/content/careers-image-3.jpg
     buttons:
       - title: View Brochure
         url: https://linaro.co/linaro-interns-brochure
         class: btn btn-primary
-flow:
-    - row: custom_include_row
-      source: display_internships.html
 ---

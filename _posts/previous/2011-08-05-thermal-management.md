@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-08-05 06:54:35
 description: Demonstration of the Linux framework to keep the temperature of an Arm
   cpu under control by automatically reducing frequency. Using hot coffee and cold

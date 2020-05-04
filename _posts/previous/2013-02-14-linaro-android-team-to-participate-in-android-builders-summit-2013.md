@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-14 21:28:43
 description: Find out how you can connect with Linaro during the The Android Builders
   Summit or The Embedded Linux Conference 2013?

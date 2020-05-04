@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-09-24 03:33:57
 description: Overview of the keynotes and sessions that took place during day 3 of
   Linaro Connect San Francisco 2015.
@@ -19,7 +19,7 @@ title: Day 3 of Linaro Connect SFO15
 wordpress_id: 9436
 ---
 
-{% include image.html name="ecosystem-day-slide.jpg" alt="Ecosystem Day Slide"%}
+{% include image.html path="/assets/images/blog/ecosystem-day-slide.jpg" alt="Ecosystem Day Slide"%}
 
 Day 3 of Linaro Connect San Francisco 2015 was a day dedicated to Arm Server Ecosystem. The morning began with two keynotes focused on this topic. After the keynotes there were several sessions held during the day with guest speakers for the LEG server ecosystem day, with topics ranging from CoreOS, LXD Docker & Ubuntu Snappy, Arm64, Docker images for Arm server and Realtime Streaming Analytics.
 

@@ -5,9 +5,8 @@ description: |-
 keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables, LCG, LMG
 image: /assets/images/content/LCG.png
 permalink: /engineering/consumer/
-css-package: landing-page
 layout: flow
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: lcg
 related_resources_tracks: Android, LMG, LCG, Linaro Mobile Group, Android
@@ -20,19 +19,18 @@ related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 jumbotron:
     title: Consumer
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/consumer-bg.jpg
+    image: /assets/images/content/consumer-bg.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: lcg
           source: related_members.html
-  - row: main_content_row
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

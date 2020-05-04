@@ -3,15 +3,13 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- blog
+- Blog
 comments: false
 date: 2017-03-07 02:00:51
 excerpt: See what happened during the first day of Linaro Connect Budapest 2017.  Watch
   the keynote, read about all the announcements and see all the sessions that took
   place.
-image:
-  featured: true
-  path: /assets/images/blog/HighlightsfromDayOneofLinaroConnectBudapest2017.jpg
+image: /assets/images/blog/HighlightsfromDayOneofLinaroConnectBudapest2017.jpg
 layout: post
 link: http://connect.linaro.org/blog/highlights-day-one-linaro-connect-budapest-2017/
 session_id: None
@@ -28,12 +26,12 @@ permalink: /blog/:title/
 ---
 
 The 21st Linaro Connect kicked off yesterday in Budapest, Hungary with over 400 attendees. Linaro Connect Budapest 2017 will be held all this week from March 6-10th and will feature keynotes from industry experts and daily sessions. It is the conference for anyone interested in Linux development and related ecosystems on ARM. Monday began with an opening keynote by George Grey - Linaro's CEO.
-  
+
 ### Keynote by Linaro’s CEO, George Grey.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=BUikAFy21ZI&list=PLKZSArYQptsN6EIfYlON9fQzBIYYIAVLH" %}
 
-There were also many announcements during the opening keynote regarding new members joining Linaro to be part of different team efforts taking place. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on ARM. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on ARM. Finally George announced that [Acer joined Linaro's IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products. 
+There were also many announcements during the opening keynote regarding new members joining Linaro to be part of different team efforts taking place. First was the announcement that [Google has joined as a club member ](/news/google-becomes-club-member-linaro/)with Linaro. Then was the announcement that [Fujitsu will be collaborating with Linaro ](/news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/)to accelerate High Performance Computing on ARM. Next was [HXT Semiconductor joining Linaro ](/news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/)to work on accelerating Advanced Server Development on ARM. Finally George announced that [Acer joined Linaro's IoT and Embedded group](/news/acer-joins-linaro-iot-and-embedded-group/), which is focused on delivering end to end open source reference software for more secure connected products.
 
 After all the announcements George then talked about Linaro's mission and also some of the myths surrounding the Linaro. He went on to talk about Linaro collaboration ideas and ways to make Linaro better as well as the Linaro technical landscape going into detail about each of the Linaro segment groups. He continued by going through some of the key themes for the week such as security, automated testing, the rise of the containers and hosting on ARM not x86.  There were also some great demos given during the keynote. To see all the demos and George's slides visit: [http://connect.linaro.org/resource/bud17/bud17-100k1/ ](https://connect.linaro.org/resources/bud17/bud17-100k1/)
 

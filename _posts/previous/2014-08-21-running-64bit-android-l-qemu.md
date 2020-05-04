@@ -8,7 +8,7 @@ slug: running-64bit-android-l-qemu
 title: Running Android L Developer Preview on 64-bit Arm QEMU
 wordpress_id: 6354
 categories:
-- blog
+- Blog
 tags:
 - Core Dump
 - android
@@ -19,7 +19,7 @@ tags:
 
 # Running Android L Developer Preview on 64-bit Arm QEMU
 
-{% include image.html name="quem.jpg" alt="QEMU" %}
+{% include image.html path="/assets/images/blog/quem.jpg" alt="QEMU" %}
 
 Did you know the Android emulator is based on QEMU?
 
@@ -40,7 +40,7 @@ The emulated devices include a fast IPC mechanism known as the “qemu_pipe” t
 
 ## Along comes Android L
 
-{% include image.html name="Android-L.jpg" alt="Android-L" %}
+{% include image.html path="/assets/images/blog/Android-L.jpg" alt="Android-L" %}
 
 Google recently announced [Android L](http://developer.android.com/preview/index.html) at Google I/O. One of the major new features in Android L is the support for the Armv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.
 

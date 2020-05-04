@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2017-02-02 21:36:03
 description: "Linaro Home Digital Home Group (LHG) has released an initial implementation
   of Android \xE2\x80\x9CAOSP TV\xE2\x80\x9D for the 96Boards HiKey platform. See
@@ -36,7 +36,7 @@ You will be able to see a demonstration of the Android TV work and much more of 
 
 The Android Open Source Project (AOSP) is used in a variety of device types and form factors.  The most commonly known form factor is the Android Handheld device for mobile phones and tablets. However, for the TV form factor there are certain specific components such as the TV Input Framework and the Lean Back APIs that are unique to TV. This is Android targeted to the entertainment interface for consuming media, movies, live TV, games and apps for the “10-foot user experience”.
 
-{% include image.html name="lhg-android-tv-blog-image-1.jpg" alt="LHG Android TV Blog Image 1" %}
+{% include image.html path="/assets/images/blog/lhg-android-tv-blog-image-1.jpg" alt="LHG Android TV Blog Image 1" %}
 
 The core of the Android TV device software is the TV Input Framework (TIF) which provides the framework for the delivery of live TV content. The framework consists of many components including the TV Input Manager, TV App, and TV Input HAL. TIF permits viewers to watch content from a variety of input sources such as cable, satellite, terrestrial, along with IP-based media delivery. The input source is abstracted away from the viewer who is presented with a guide containing all available services.
 
@@ -67,7 +67,7 @@ The initial build is on the HiKey CE platform which is an approved Android refer
 # Development Steps to Build Android TV
 
 
-{% include image.html name="lhg-blog-image-2-android-tv.jpg" alt="LHG Android TV Blog Image 2" %}
+{% include image.html path="/assets/images/blog/lhg-blog-image-2-android-tv.jpg" alt="LHG Android TV Blog Image 2" %}
 
 
 _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard_
@@ -82,7 +82,7 @@ _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard_
     5. This application is built separately and integrated into the HiKey Android filesystem.
   3. **Integrating the sample Android TV Channel Service**
     1. There should be a service running in the background that works with Live TV app to a) display the channel list to user. b) To play the content when user selects a channel. As we don’t have this service implemented yet, we used a sample [channel service from open source](https://github.com/googlesamples/androidtv-sample-inputs).
-    2. Android TV channel service is installed to simulate and show the list of channels on Live TV app using TV Input Framework (TIF). 
+    2. Android TV channel service is installed to simulate and show the list of channels on Live TV app using TV Input Framework (TIF).
     3. The sample app displays a single TV input with 4 channels consisting of MP4 videos, HLS stream and MPEG-DASH stream, organized into various genres. The video files are served from Google Cloud Storage.
   4. **Support for Adaptive Bit Rate Streaming**
     1. The delivery of IP video services via Adaptive Bit Rate (ABR) streaming protocols is prevalent when delivering IP-based video variable bandwidth links
@@ -99,7 +99,7 @@ _Setup : LeMaker HiKey connected with HDMI output and USB Keyboard_
 
 Once the filesystem is built and flashed on the HiKey, the next step is to connect via WiFi to the internet. The Live TV app is launched and searches for channels over available input sources. The Sample Android TV app acts a service that can simulate a few IP-based TV channels that are streamed over the network. The user can make their content selection via an USB mouse or USB keyboard. Implementations on 96Boards TV Platform boards will support IR remote controls for navigating through content choices.
 
-{% include image.html name="screenshot-android-tv.jpg" alt="LHG Android TV Blog Image 3" %}
+{% include image.html path="/assets/images/blog/screenshot-android-tv.jpg" alt="LHG Android TV Blog Image 3" %}
 
 
 _Source : [https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png](https://github.com/googlesamples/androidtv-sample-inputs/raw/master/screenshots/guide.png)_

@@ -1,7 +1,7 @@
 ---
 author: alan.bennett
 categories:
-- blog
+- Blog
 date: 2013-08-31 16:00:09
 description: Recap of the weekly LAVA team meeting and summary of the LIVE demos
 keywords: Linaro, Linux, LAVA, opensource, multi-node, kvm
@@ -31,11 +31,11 @@ http://www.youtube.com/watch?v=LSBWDuBUP0I
     1. Will create a basic test definition in demo.yaml. User can edit it to add the specifics of his/her test suite.
 
   2. lava testdef run demo.yaml
-  
+
     1. Will run the test definifion on demo.yaml agains a locally configured device. After entering the desired parameters, such as device type and image, the user can choose one of the local devices, and have that test definition run on the device. The job will start and the user can watch the run directly in the shell session.
 
   3. lava testdef submit demo.yaml
-  
+
     1. Will submit the test definition in demo.yaml to a chosen LAVA server.
 
 ## LAVA PDU Daemon by Matt Hart

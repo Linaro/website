@@ -7,7 +7,7 @@ slug: linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released
 title: Linaro GCC 4.5 and Linaro GCC 4.6 2012.02 released
 wordpress_id: 1239
 categories:
-- blog
+- Blog
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.02

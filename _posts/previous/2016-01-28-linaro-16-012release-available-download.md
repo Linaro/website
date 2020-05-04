@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-01-28 19:22:39
 description: Linaro's 16.01 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
@@ -74,7 +74,7 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **GETTING INVOLVED**

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-10-12 15:57:16
 description: Take a look at the Android Mini-Summit which is scheduled to take place
   on Wednesday, October 31, 2012 during the LCE12 at the Bella Center in Copenhagen,
@@ -153,7 +153,7 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
 
   * Answer questions
   * Make sure Actions are recorded
-  
+
 ## Will there be other Android sessions being held at LCE12 or will the mini-summit be the only time to participate in the various Linaro Android Sessions?
 
 

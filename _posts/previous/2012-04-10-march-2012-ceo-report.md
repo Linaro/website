@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2012-04-10 18:06:29
 description: "George Grey, our CEO, details the new Member-first strategy with Linaro\xE2\x80\x99s
   in-kernel big.LITTLE Switcher functionality"

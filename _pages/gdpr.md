@@ -4,7 +4,6 @@ title: GDPR Compliance
 permalink: /legal/gdpr/
 description: |-
     At Linaro we have updated our sites to enable us and you to be GDPR compliant.
-css-package: gdpr
 flow:
     - row: custom_include_row
       source: what_is_gdpr.html
@@ -17,6 +16,6 @@ flow:
 jumbotron:
     title: Linaro GDPR Compliance
     description: ""
-    title-class: big-title
-    background-image: /assets/images/content/linarolife.jpg
+    inner_class: dotted
+    image: /assets/images/content/linarolife.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-01-07 15:04:31
 description: Take a look at the key take-away message for the big.LITTLE Mini-Summit
   as you find out how you can get involved with the Linaro Power Management team at
@@ -41,7 +41,7 @@ Those four sessions included topics focused on the following:
   * Workloads and Test Automation and General Discussions on further work and Wrap-Up
 
 
-{% include image.html name="ARMs_Test_Chip_2TC2_An_Overview.png" alt="Arms Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
+{% include image.html path="/assets/images/blog/ARMs_Test_Chip_2TC2_An_Overview.png" alt="Arms Test Chip 2(TC#2): An Overview Slide Used during Mini-Summit" %}
 
 
 During the two plenary sessions, Amit Kucheria (PMWG Tech Lead at Linaro) and Robin Randhawa (Power Management Architect at Arm) highlighted some of the interesting experimental results coming out of the research being done around power management and big.LITTLE inside Linaro and Arm.

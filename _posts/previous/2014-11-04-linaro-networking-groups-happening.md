@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-11-04 14:08:47
 description: Overview of the latest group at Linaro, the Linaro Networking Group (LNG).
   Update on the past 6 months of work and activities and demos that took place at
@@ -30,7 +30,7 @@ Linaro Networking Group (LNG) has been very busy.  During the week of Linaro Co
 During Linaro Connect USA the Linaro Networking Group (LNG) held many sessions during the week to discuss in detail the team's activities taking place.
 
   * **Keynote Title:**  “NFV: Empowering the Network”  by Dr. Christos Kolias - Senior Research Scientist at Orange
-  
+
 **Keynote Abstract:** 
 
 Network Functions Virtualization (NFV) envisions and promises to change the service provider landscape and has emerged as one of one of today’s significant trends. Although less than two years old, NFV has garnered the industry’s full attention and support. Moving swiftly, a number of key accomplishments have already taken place, and a lot more work is currently under way within ETSI NFV while we are embarking on its future phase. Various proofs-of-concepts (ranging from vEPC to vCPE, vIMS and vCDN) are being developed while issues such as open source and SDN are becoming key ingredients as the can play a pivotal role.
@@ -79,7 +79,7 @@ Presentation:  [http://www.slideshare.net/linaroorg/lcu14-401-isolation-no-hz-
 	A description of the new Linaro VLAN daemon (VLANd) development effort was discussed .
 
 * * *
-  
+
 ★ Resources ★
 Presentation:  [http://www.slideshare.net/linaroorg/lcu14-404-lava-vlans-complex-networks-on-demand](http://www.slideshare.net/linaroorg/lcu14-404-lava-vlans-complex-networks-on-demand)
 Video: [https://www.youtube.com/watch?v=Qb_NwuDFAyA&list=UUIVqQKxCyQLJS6xvSmfndLA](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DQb_NwuDFAyA%26list%3DUUIVqQKxCyQLJS6xvSmfndLA&sa=D&usg=ALhdy29okgCcHUy2qh7ZV1muV5s7cUUzVw)
@@ -96,4 +96,4 @@ To learn more about the Linaro Networking Group (LNG) please visit:  [/groups/l
 
 **Below are some images from the Thursday LNG Day at Connect.**
 
-{% include image.html name="LNG-demo-day.png" alt="LNG demo day"%}
+{% include image.html path="/assets/images/blog/LNG-demo-day.png" alt="LNG demo day"%}

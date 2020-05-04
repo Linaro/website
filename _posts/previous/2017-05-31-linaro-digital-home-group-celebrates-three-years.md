@@ -7,7 +7,7 @@ slug: linaro-digital-home-group-celebrates-three-years
 title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
 categories:
-- blog
+- Blog
 tags:
 - 96Boards
 - android
@@ -23,17 +23,17 @@ By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
 
 [The Linaro Digital Home Group ](/engineering/)(LHG) is celebrating its third year anniversary![![](/assets/images/blog/blog-2.png)](/engineering/)
 
-{% include image.html name="blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
+{% include image.html path="/assets/images/blog/blog-1.jpg" alt="Blog Image 1" class="small-inline" %}
 
 Officially launched in May 2014 with eight founding members, LHG has delivered a succession of secure media frameworks on Arm to its members. I would like to extend a big thank you to our member companies for their continued support and encouragement over the years. I would also like to thank members of the larger community who have shown an interest in our work by attending Linaro Connect and giving presentation/keynotes on behalf of LHG.
 
-{% include image.html name="lhg-mission-1.png" alt="LHG mission 1" class="small-inline right"%}
+{% include image.html path="/assets/images/blog/lhg-mission-1.png" alt="LHG mission 1" class="small-inline right"%}
 
 The mission of LHG has remained consistent over the last three years. However, the end applications for secure media frameworks have extended beyond TV and even the home itself, even reaching automotive In-Vehicle Infotainment (IVI) systems. Video is becoming ubiquitous in many facets of our day-to-day lives.
 
 **LHG: In the beginning**
 
-{% include image.html name="blog-3.jpg" alt="Blog Image 3" class="small-inline" %}
+{% include image.html path="/assets/images/blog/blog-3.jpg" alt="Blog Image 3" class="small-inline" %}
 
 The early work of LHG targeted the migration of the Comcast Reference Design Kit (RDK) to Armv8 processors. LHG employed open source features of the Linux kernel, and used open source projects related to media, graphics, security and web browsers, to create a reference implementation, named by Comcast as the ‘Linaro RDK’.
 
@@ -49,7 +49,7 @@ LHG has been working with Linux-based multimedia on Arm since inception and that
 
 _Demo from Linaro Connect Budapest 2017 of Linaro RDK running on the DragonBoard410C_
 
-{% include image.html name="blog-4.png" alt="Blog Image 4" class="small-inline" %}
+{% include image.html path="/assets/images/blog/blog-4.png" alt="Blog Image 4" class="small-inline" %}
 
 In the last half of 2016, LHG formally started working with Android Open Source Project (AOSP) TV. This activity has lead to the creation of the [AOSP TV](https://collaborate.linaro.org/display/EP/AOSP+TV) Lead Project in LHG. The AOSP TV Lead Project has the mandate to integrate, develop, distribute and maintain AOSP based on the TV form factor as the basis for Android TV work by our members. LHG recently completed a Widevine DRM Level 1 playback on Android N with OP-TEE v2.4.0 with secure media buffers.
 
@@ -97,7 +97,7 @@ For more information on LHG, click [here.](/engineering/)
   * Published 96Boards TV Platform specification in Jan 2016
   * Release of first TV Platform Board by HiSilicon - Poplar
   * Sample AOSP TV build for HiKey 96Boards platform
-  * AOSP build with OP-TEE Secure Data Path extensions on HiKey 
+  * AOSP build with OP-TEE Secure Data Path extensions on HiKey
   * Upstream OP-TEE to AOSP HiKey branch
 
 **LHG Making News!**
@@ -114,6 +114,3 @@ For more information on LHG, click [here.](/engineering/)
   * [LHG One-Year Anniversary](/blog/lhg-one-year-anniversary/)
   * [LHG at the 2015 RDK Users Conference](/blog/linaro-2015-rdk-users-conference/)
   * [Linaro Home Group Update](/blog/linaro-home-group-update-since-launching/)
-
-
-

@@ -5,8 +5,7 @@ description: |-
 keywords: Linaro, Aarch64, Performance, Kernel, assembly, Arm, Linux, hardware
 image: /assets/images/content/Machine col.svg
 permalink: /engineering/artificial-intelligence/
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: mi-incubator
 related_resources_tracks: AI/Machine Learning, Machine Learning/AI, AI and Neural Networks on Arm Summit
@@ -17,13 +16,13 @@ related_tags:
   - Autoware
 jumbotron:
     title: Artificial Intelligence
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/machine-learning-bg.jpg
+    image: /assets/images/content/machine-learning-bg.jpg
 layout: flow
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -36,26 +35,25 @@ flow:
           text: >
             The initial focus is on the inference side on Cortex-A application processors with Linux and Android, both edge computing and  smart devices. As part of the remit, the team will collaborate on a definition of API and modular framework for an Arm runtime inference engine architecture based on plug-ins supporting dynamic modules and optimized shared Arm compute libraries.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=EHM-krkB42Y
-            title: Introduction to the Linaro Artificial Intelligence Initiative
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=EHM-krkB42Y
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: Introduction to the Linaro Artificial Intelligence Initiative
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
         text_content:
           text: >
-            Below are some of the Artificial Intelligence related sessions from the previous [Linaro Connect](https://connect.linaro.org):
+            Below are some of the Artificial Intelligence related sessions from [Linaro Connect](https://connect.linaro.org):
   - row: main_content_row
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
-
 |Speaker|Company|ID|Title|
 |-------|-------|--|-----|
 |Chris Benson|AI Strategist|[YVR18- 300K2](https://youtu.be/bYSwYkmQJVo?t=1s)|Keynote: Artificial Intelligence Strategy: Digital Transformation Through Deep Learning|
@@ -69,3 +67,4 @@ flow:
 |Shouyong Liu|Thundersoft|[YVR18-334](https://www.youtube.com/watch?v=CoBhUS9SL4U)|AI Alive: On Device and In-App|
 |Ralph Wittig|Xilinx|[YVR18-335](https://www.youtube.com/watch?v=FimBHlcfhxA)|Xilinx: AI on FPGA and ACAP Roadmap|
 |Andrea Gallo and others|Linaro, Arm, Qualcomm, Skymizer, Xilinx|[YVR18-337](https://www.youtube.com/watch?v=igH_OMSeIPI)|BoF: JIT vs offline compilers vs deploying at the Edge|
+{: .table}

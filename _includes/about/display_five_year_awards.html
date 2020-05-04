@@ -1,0 +1,28 @@
+{% assign posts = site.categories["5-Years"] %}
+<div class="col col-12">
+    <div class="row">
+        {% for post in posts %}
+        <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
+            <div class="card h-100 ">
+                <div class="blog_image_header">
+                    {% if post.photo %}
+                        {% assign block_image = post.photo | remove_first: "/assets/images/" %}
+                        {% capture block_image_alt %}{{post.title}} image {% endcapture %}
+                    {% else %}
+                        {% assign block_image = site.post_placeholder | remove_first: "/assets/images/" %}
+                        {% capture block_image_alt %}Blog post placeholder image {% endcapture %}
+                    {% endif %}
+                    {% picture featured_blog_image {{block_image}} --alt {{block_image_alt}} %}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%A, %B %-d, %Y"}}</h6>
+                    <p class="card-text">
+                        <a href="{{post.url}}" class="btn btn-primary">Read</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

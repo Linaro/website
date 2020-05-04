@@ -2,20 +2,21 @@
 title: The Team
 layout: flow
 permalink: /about/team/
-js-package: extended
-css-package: work
 jumbotron:
     description-class: smaller
     title: "The Team"
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/san19-group-photo.jpg
+    image: /assets/images/content/san19-group-photo.jpg
 flow:
   - row: container_row
-    style: larger_type light_gray_row centered_type introduction_row
+    style: larger_type bg-secondary centered_type introduction_row
     sections:
-      - format: text
-        text_content:
+      - format: title
+        style: text-center
+        title_content:
+          size: h2
+          style: display-4 text-white
           text: >
             Linaro is member driven. Member companies work with
             Linaro to drive the direction of long-term objectives and
@@ -60,7 +61,7 @@ flow:
       - format: custom_include
         source: team/technical_steering_committee.html
   - row: container_row
-    style: large_type main_text_row light_gray_row
+    style: large_type main_text_row bg-light
     sections:
       - format: title
         title_content:

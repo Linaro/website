@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-06-07 21:09:45
 description: Discussion at the Linaro Developer Summit with kernel hackers Thomas
   Gleixner, Arnd Bergmann, Grant Likely and Paul McKenney.

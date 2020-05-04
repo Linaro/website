@@ -1,14 +1,12 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: Security Session Highlights from SFO17
 date: 2017-10-23 12:00:00
 categories:
 - Blog
-image:
-    featured: true
-    path: /assets/images/blog/sfo17-banner.jpg
+image: /assets/images/blog/sfo17-banner.jpg
 layout: post
 ---
 
@@ -27,4 +25,3 @@ Speakers: Jens Wiklander, Jerome Forissier
 
 Speaker: Matteo Carlini
 Event: Linaro Connect SFO17
-

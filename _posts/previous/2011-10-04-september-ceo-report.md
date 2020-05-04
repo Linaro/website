@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2011-10-04 16:15:16
 description: Differentiation and a Single Arm Linux Kernel- discussion on consolidating
   and optimizing Linux on Arm.

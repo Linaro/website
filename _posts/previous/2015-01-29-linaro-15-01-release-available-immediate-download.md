@@ -1,7 +1,7 @@
 ---
 author: koen.kooi
 categories:
-- blog
+- Blog
 date: 2015-01-29 19:29:22
 description: The Linaro 15.01 software release is available for immediate download.
   All related links can be found here.
@@ -63,7 +63,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **GETTING INVOLVED**
@@ -85,7 +85,7 @@ Also subscribe to the important Linaro mailing lists and join our IRC channels t
     * #linaro on irc.linaro.org or irc.freenode.net
 
     * #linaro-android irc.linaro.org or irc.freenode.net
-	
+
 **KNOWN ISSUES WITH THIS RELEASE**
 
 For any errata issues, please see:

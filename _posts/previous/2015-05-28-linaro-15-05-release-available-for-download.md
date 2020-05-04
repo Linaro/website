@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-05-28 17:57:37
 description: Linaro's 15.05 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
@@ -66,7 +66,7 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **GETTING INVOLVED**

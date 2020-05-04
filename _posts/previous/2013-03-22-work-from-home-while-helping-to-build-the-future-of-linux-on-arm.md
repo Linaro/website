@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-22 15:02:29
 description: Work from home, with an Open Source organization while helping to build
   the future of Linux on Arm. Career opportunities available at Linaro.

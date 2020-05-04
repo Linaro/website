@@ -7,7 +7,7 @@ slug: open-source-software-fundamental-to-success-in-the-mobile-and-consumer-ele
 title: Open source software fundamental to success in the mobile and consumer electronics markets
 wordpress_id: 4105
 categories:
-- blog
+- Blog
 tags:
 - Industry
 - consumer electronics

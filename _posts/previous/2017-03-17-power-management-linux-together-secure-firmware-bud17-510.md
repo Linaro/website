@@ -1,15 +1,13 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: Power management in Linux together with secure firmware – BUD17-510
 date: 2017-03-17 12:00:00 Z
 categories:
 - Blog
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/power-management-linux-together-secure-firmware-bud17-510-image.jpg
+image: /assets/images/blog/power-management-linux-together-secure-firmware-bud17-510-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/MNvTBGNQRDY" %}
@@ -19,6 +17,6 @@ On a device it’s not uncommon to share power domains between secure and non-se
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/xIRI2KnLUplfd9" %}
 
-**Speakers:** Vincent Guittot, Joakim Bech  
-**Track:** Security  
-**Session ID:** BUD17-510  
+**Speakers:** Vincent Guittot, Joakim Bech
+**Track:** Security
+**Session ID:** BUD17-510

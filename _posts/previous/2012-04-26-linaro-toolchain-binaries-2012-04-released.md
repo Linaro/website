@@ -7,7 +7,7 @@ slug: linaro-toolchain-binaries-2012-04-released
 title: Linaro Toolchain Binaries 2012.04 released
 wordpress_id: 1604
 categories:
-- blog
+- Blog
 tags:
 - Releases
 ---

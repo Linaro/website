@@ -9,9 +9,7 @@ categories:
 published: true
 tags: 'High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18'
 keywords: High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18
-image:
-    featured: true
-    path: /assets/images/blog/hpc-and-linaro-blog-image.png 
+image: /assets/images/blog/hpc-and-linaro-blog-image.png
 layout: post
 ---
 Supercomputing has been around for decades and hardware for High Performance Computing (HPC) has traditionally been provided by Intel. Well, things are changing and changing fast they are.
@@ -36,4 +34,3 @@ Dr Kanta Vekaria,
 Director of High Performance Computing, Linaro
 
 [1]: https://www.nextplatform.com/2017/11/13/arm-benchmarks-show-hpc-ripe-processor-shakeup/
-

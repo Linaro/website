@@ -2,8 +2,7 @@
 layout: flow
 image: /assets/images/content/LDCG col.svg
 permalink: /engineering/datacenter-and-cloud/
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 related_resources_tracks: Data Center
 title: Datacenter & Cloud
 description: |-
@@ -21,18 +20,18 @@ related_tags:
   - Developer Cloud
 jumbotron:
     title: Datacenter & Cloud
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/ldcg-bg.jpg
+    image: /assets/images/content/ldcg-bg.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: ldcg
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -45,15 +44,15 @@ flow:
           text: >
             Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem. Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=WOQErwKoBxc
-            title: Arm on Arm Panel Discussion 2019
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=WOQErwKoBxc
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: Arm on Arm Panel Discussion 2019
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: title
         style: text-left no-padding
@@ -94,13 +93,13 @@ flow:
             become mature with various production implementations. Linaro drives engineering activities
             and ARMv8 builds for the following projects:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
       - format: custom_include
         params: Apache Ambari,Hadoop,Apache Spark,Apache Bigtop
         source: related_projects.html
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: text
         style: text-left no-padding

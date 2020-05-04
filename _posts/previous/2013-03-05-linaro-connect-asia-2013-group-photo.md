@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-05 06:44:13
 description: Linaro Connect Asia 2013 Group Photo
 keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
@@ -16,7 +16,7 @@ title: Linaro Connect Asia 2013 Group Photo
 wordpress_id: 2540
 ---
 
-{% include image.html name="LCA13-Group-001-72dpi.jpg" alt="Linaro Connect Asia 2013 Group Photo" %}
+{% include image.html path="/assets/images/blog/LCA13-Group-001-72dpi.jpg" alt="Linaro Connect Asia 2013 Group Photo" %}
 
 More information about Linaro Connect can be found at: [Connect](https://connect.linaro.org)
 

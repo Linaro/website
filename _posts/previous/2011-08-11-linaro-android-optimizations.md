@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-08-11 05:48:26
 description: Video - Zach Pfeffer, Linaro Android Tech Lead, demonstrates two Panda
   boards, one running stock Android, and the other one, Linaro's optimized Android

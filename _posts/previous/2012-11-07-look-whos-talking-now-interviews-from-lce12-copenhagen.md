@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-11-07 16:05:11
 description: Links to the interviews Amber Graner, Linaro Community Specialist conducted
   during LCE12-Copenhagen and UDS-R. Personalities include David Rusling, Linaro CTO
@@ -42,7 +42,7 @@ There is never a shortage of people to interview at the Linaro Connect events an
 I also had the opportunity to interview and or [facilitate interviews](http://www.youtube.com/user/ubuntudevelopers) for some of the UDS-R personalities as well.  These include:
 
   * [Mark Shuttleworth](http://youtu.be/RS89kvoGFLs), Ubuntu Founder
-  
+
   * [Pete Graner](http://youtu.be/iQl6qR9yJzk), Release Engineering and QA Team Mgr
 
 

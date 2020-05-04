@@ -1,7 +1,7 @@
 ---
 author: mark.gregotski
 categories:
-- blog
+- Blog
 date: 2015-08-27 21:36:08
 description: Learn about what the Linaro Digital Home Group (LHG) has planned for
   the week of Linaro Connect San Francisco 2015 in September.

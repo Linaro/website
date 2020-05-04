@@ -1,5 +1,5 @@
 {% assign unique_linaro_members = "" | split: ',' %}
-<div class="col-xs-12">
+<div class="col col-12">
     <div class="owl-carousel owl-theme" id="members_slider">
         {% for group in site.data.members %}
             {% if group.id == "core" or group.id == "club" or group.id == "group" or group.id == "autonomous-vehicles-incubator" or group.id == "hpc-sig" %}
@@ -7,8 +7,8 @@
                     {% unless unique_linaro_members contains member%}
                         <a href="{{member.url}}" target="_self">
                             <div class="item">
-                                <div class="member_image">
-                                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                <div class="member_image bg-white my-4 d-flex justify-items-center align-items-center">
+                                    <img class="member_logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         alt="{{member.name}} logo" data-src="{{member.image}}" />
                                 </div>
                                 {% if group.id == 'hpc-sig' %}
@@ -16,7 +16,9 @@
                                 {% else %}
                                     {% assign group_name = group.id | capitalize %}
                                 {% endif %}
-                                <span class="member_type {{group.id}}">{{ group_name }} Member</span>
+                                <button role="button" class="d-block my-2 mx-auto btn btn-primary member_type {{group.id}}">
+                                    {{ group_name }} Member
+                                </button>
                             </div>
                         </a>
                         {% assign unique_linaro_members = unique_linaro_members | push: member %}

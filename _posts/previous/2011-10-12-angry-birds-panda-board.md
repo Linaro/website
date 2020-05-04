@@ -1,7 +1,7 @@
 ---
 author: zach.pfeffer
 categories:
-- blog
+- Blog
 date: 2011-10-12 05:02:19
 description: Instructions to test the Angry Birds game on the Linaro Android Evaluation
   Build for the Panda board.
@@ -31,8 +31,8 @@ For these instructions, you need a PC running Ubuntu 11.04 or later. You also ne
 
 
   * Run these commands:
-  
-```bash 
+
+```bash
 wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_staging-panda-11.10-release/1/artifact/build/out/target/product/pandaboard/boot.tar.bz2
 wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_staging-panda-11.10-release/1/artifact/build/out/target/product/pandaboard/system.tar.bz2
 wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_staging-panda-11.10-release/1/artifact/build/out/target/product/pandaboard/userdata.tar.bz2
@@ -42,8 +42,8 @@ bzr branch lp:linaro-image-tools
 ```
 
     * Install the file over ADB:
-    
-```bash    
+
+```bash
 adb install -r Angry_Birds_1.3.2.apk
 ```
 

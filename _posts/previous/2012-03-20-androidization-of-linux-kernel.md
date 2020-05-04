@@ -1,7 +1,7 @@
 ---
 author: vishal.bhoj
 categories:
-- blog
+- Blog
 date: 2012-03-20 15:21:41
 description: Vishal Bhoj of the Linaro Android team explains how he recently "androidized"
   the 3.2 Linux Kernel for Vexpress-rtsm.

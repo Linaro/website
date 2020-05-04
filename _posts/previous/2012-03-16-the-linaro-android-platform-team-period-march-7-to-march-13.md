@@ -1,7 +1,7 @@
 ---
 author: tony.mansson
 categories:
-- blog
+- Blog
 date: 2012-03-16 00:06:07
 description: The Linaro Android Platform Team. big.LITTLE on Fast Model.
 layout: post

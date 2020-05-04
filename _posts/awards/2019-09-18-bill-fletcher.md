@@ -1,7 +1,8 @@
 ---
 title: Congratulations to Bill Fletcher for 5 years at Linaro
 keywords: 5 Year Award, Bill Fletcher, Linaro
-layout: award-page
+layout: post
+
 description: >
   We would like to congratulate Bill Fletcher for making a difference in open source at Linaro for 5 years.
 bio: >
@@ -14,9 +15,7 @@ team: Field Engineering
 categories:
   - Awards
   - 5-Years
-image:
-  featured: true
-  path: /assets/images/content/5years_bkgd.png
+image: /assets/images/content/5years_bkgd.png
 photo: /assets/images/people/bill-fletcher.jpg
 jumbotron:
   background-image: /assets/images/content/5years_bkgd.png

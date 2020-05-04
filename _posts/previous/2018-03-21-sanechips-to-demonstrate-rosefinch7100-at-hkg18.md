@@ -8,9 +8,7 @@ categories:
 published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, RoseFinch7100, HKG18'
 keywords: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, RoseFinch7100, HKG18'
-image:
-    featured: true
-    path: /assets/images/blog/rosefinch7100.jpg
+image: /assets/images/blog/rosefinch7100.jpg
 layout: post
 ---
 # Sanechips to demonstrate RoseFinch7100 at Linaro Connect
@@ -22,7 +20,7 @@ The demonstration will show the RoseFinch7100 running the Zephyr RTOS with integ
 Produced on a 55nm ultra low power technology process, the RoseFinch7100 is specifically designed for intensive low power IoT applications, such as cellular LPWA (low power wide area). The chip integrates the low power/high performance CEVA-X1 DSP IP for baseband and offers low sleep current of 2uA at 2V, which can provide an extended battery life. It also offers Cloud-Chip Global Security based on Trusted Zone, up to 30 GPIOs and all R14 Frequency Bands, and no need for an external MCU as the RoseFinch7100 can provide strong connectivity for most LPWA applications independently.
 
 
-{% include image.html name="rosefinch7100.jpg" alt="RoseFinch7100 Image" class="medium-inline" %}
+{% include image.html path="/assets/images/blog/rosefinch7100.jpg" alt="RoseFinch7100 Image" class="medium-inline" %}
 
 ## About Sanechips
 

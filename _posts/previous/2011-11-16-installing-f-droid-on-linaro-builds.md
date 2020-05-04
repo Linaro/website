@@ -1,7 +1,7 @@
 ---
 author: frans.gifford
 categories:
-- blog
+- Blog
 date: 2011-11-16 12:42:00
 description: Installing F-Droid on Linaro builds
 keywords: linaro, app, market, android, f-droid, cyanogenmod
@@ -32,7 +32,7 @@ We assume a Linaro image is already installed on the board. Instructions for how
 
 F-Droid will now appear on the applications menu and you should be able to list and install Android apps.
 
-{% include image.html name="device-2011-11-16-120452.png" alt="F-Droid installed app list" %}
+{% include image.html path="/assets/images/blog/device-2011-11-16-120452.png" alt="F-Droid installed app list" %}
 
 
 **Tweaks**

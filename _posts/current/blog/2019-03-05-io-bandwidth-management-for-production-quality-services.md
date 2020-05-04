@@ -23,9 +23,7 @@ tags:
   - IO
   - bandwidth
   - BFQ
-image:
-    featured: true
-    path: /assets/images/blog/servers-cern.jpg
+image: /assets/images/blog/servers-cern.jpg
 ---
 I/O control is the most powerful Linux solution for guaranteeing bandwidths with storage; but the most used I/O-control mechanism, throttling, can waste up to 80% of the storage speed, and fails to provide target guarantees with some common workloads (full details here [IO-control-issues](https://lwn.net/Articles/763603/)).
 
@@ -84,7 +82,7 @@ The throughput reached while serving these clients is reported in Figure [client
 
 - all the other clients, called *interferers*, doing sequential reads.
 
-{% include image.html name="throughputs-no-control-bw-table.png" alt="Throughputs in case of no I/O control" %}
+{% include image.html path="/assets/images/content/throughputs-no-control-bw-table.png" alt="Throughputs in case of no I/O control" %}
 __Throughputs in case of no I/O control__
 
 

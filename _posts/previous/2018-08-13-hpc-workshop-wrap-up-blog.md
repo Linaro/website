@@ -7,12 +7,10 @@ description: >-
   A couple of weeks ago Linaro hosted an HPC Workshop at Huawei’s offices in Santa Clara with coffee breaks and lunch sponsored by HiSilicon and an afternoon reception sponsored by Arm.
 categories: Blog
 tags: Arm, Linaro, HPC, Workshop, Santa Clara, Huawei, HiSilicon, University of Bristol, Arm, Cavium, Huawei, Linaro, Mellanox, Riken, Sandia, SUSE , Red Hat
-image:
-  featured: true
-  path: /assets/images/blog/hpcworkshop2.png
+image: /assets/images/blog/hpcworkshop2.png
 ---
 
-{% include image.html name="hpcworkshop2.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
+{% include image.html path="/assets/images/blog/hpcworkshop2.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 A couple of weeks ago Linaro hosted an HPC Workshop at Huawei’s offices in Santa Clara with coffee breaks and lunch sponsored by HiSilicon and an afternoon reception sponsored by Arm. If you are interested in HPC and were unable to make this workshop, we will be organising additional ones in the not too distant future so do follow us on [social media](https://twitter.com/LinaroOrg?lang=en) for updates. In the meantime, make sure to join us at [Linaro Connect Vancouver 2018](https://connect.linaro.org/) where we have several HPC discussions lined up. You can read about these further down in the blog. To register for Linaro Connect click [here](https://connect.linaro.org/register/).
 
@@ -20,7 +18,7 @@ A couple of weeks ago Linaro hosted an HPC Workshop at Huawei’s offices in San
 
 We had a packed schedule with presentations from University of Bristol, Arm, Cavium, Huawei, Linaro, Mellanox, Riken, Sandia, SUSE and Red Hat. Below we have listed a summary of the topics presented - we are in the process of getting all the presentation decks uploaded under the Resource tab [here](/events/arm-hpc-santa-clara-2018/). They will all be made available shortly but if you cannot find what you are looking for, please email [marketing-team@linaro.org](mailto:marketing-team@linaro.org).
 
-{% include image.html name="hpcworkshop4.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
+{% include image.html path="/assets/images/blog/hpcworkshop4.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 #### Isambard: the world's first production Arm-based supercomputer
 
@@ -32,7 +30,7 @@ Sandia National Labs focused on Vanguard Astra, a prototype petascale Arm comput
 
 [Slides](https://www.slideshare.net/linaroorg/andrew-j-younge-vanguard-astra-petascale-arm-platform-for-us-doeasc-supercomputing-linaro-arm-hpc-workshop)
 
-{% include image.html name="hpcworkshop1.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
+{% include image.html path="/assets/images/blog/hpcworkshop1.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 #### Post-K and Arm HPC Ecosystem
 
@@ -56,7 +54,7 @@ Arm presented two topics MPI and a methodology for porting HPC applications to A
 
 Optimised tooling is crucial and will always remain important to HPC. Cavium discussed optimising for ARM64 from a toolchain perspective.
 
-{% include image.html name="hpcworkshop3.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
+{% include image.html path="/assets/images/blog/hpcworkshop3.png" alt="Linaro Arm HPC Workshop 2018 Conference Room"%}
 
 Red Hat and Suse shared details on their distributions for use for HPC.
 

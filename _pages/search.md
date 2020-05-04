@@ -4,12 +4,12 @@ permalink: /search/
 layout: flow
 jumbotron:
     title: Search
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/bkk19-group-photo.jpg
+    image: /assets/images/content/bkk19-group-photo.jpg
 description: |-
     Search the Linaro Website.
-css-package: search
+css_bundle: search
 ---
 <script>
   (function() {

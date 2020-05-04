@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2012-03-01 20:53:43
 description: Blog on how to make a positive difference in a FOSS project. Includes
   information on how to participate and contribute to a FOSS project.

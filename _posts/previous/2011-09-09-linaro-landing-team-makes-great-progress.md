@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-09-09 20:39:16
 description: Usman Ahmad - Intensive development week for the Linaro Freescale Landing
   Team at the Freescale Shanghai offices. Achievements and upstream contributions.
@@ -24,4 +24,4 @@ The latest evaluation builds for Freescale i.MX53 (based on Linaro 2.6.38) can b
 
 Linaro Evaluation Builds for i.MX53 based on v3.1 will be available in the next couple of months.  Stay tuned.
 
-{% include image.html name="Freescale-Sprint.jpg" alt="Freescale Sprint" %}
+{% include image.html path="/assets/images/blog/Freescale-Sprint.jpg" alt="Freescale Sprint" %}

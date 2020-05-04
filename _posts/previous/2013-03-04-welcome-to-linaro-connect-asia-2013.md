@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-03-04 02:50:19
 description: See the sessions that are happening today, tips and tricks for staying
   connected to the days events, and how attendees can share their experiences through
@@ -49,7 +49,7 @@ The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Conne
 
 ## Sharing your experience at Connect using the Social Media of your choice
 
-{% include image.html name="LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
+{% include image.html path="/assets/images/blog/LCA13-Hong-Kong-Social-Media-Slide.jpg" %}
 
 To stay up on event happenings with
 [Twitter](https://twitter.com/LinaroOrg),, [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](/blog)

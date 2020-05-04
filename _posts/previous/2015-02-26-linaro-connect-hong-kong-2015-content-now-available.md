@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-02-26 02:45:54
 description: 'Content from the Linaro Connect Hong Kong 2015 event is now available.
   Materials include: slide presentations, session descriptions and sessions videos'
@@ -394,7 +394,7 @@ LAVA, Validation
 </tbody>
 </table>
 
-* * * 
+* * *
 
 ### **Tuesday February 10, 2015**
 
@@ -846,7 +846,7 @@ Training
 </tbody>
 </table>
 
-* * * 
+* * *
 
 ### **Wednesday February 11, 2015**
 
@@ -1620,7 +1620,7 @@ Digital Home
 </tbody>
 </table>
 
-* * * 
+* * *
 
 ### **Friday February 13, 2015**
 

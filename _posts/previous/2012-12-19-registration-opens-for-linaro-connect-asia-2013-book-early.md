@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-12-19 17:21:08
 description: Registration for Linaro Connect Asia 2013 scheduled to take place at
   the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 is now open.
@@ -20,7 +20,7 @@ wordpress_id: 2143
 
 # Announcing Linaro Connect Asia 2013
 
-{% include image.html name="lca131.png" alt="LCA13 Linaro Connect" url="https://connect.linaro.org" %}
+{% include image.html path="/assets/images/blog/lca131.png" alt="LCA13 Linaro Connect" url="https://connect.linaro.org" %}
 
 We’re thrilled to announce that [event registration](http://linaro.eventbrite.co.uk/) and hotel booking at the Gold Coast Hotel in Hong Kong is now available for  the Linaro Connect Asia 2013 (LCA13) - Hong Kong event  – the industry’s foremost event for developing Linux on Arm— scheduled to be held on  4 - 8 March 2013. Book early because registration is limited. To book the hotel you will need to download the booking form ([odt](/assets/downloads/Hotel-Reservation-Form.odt) and [doc]() formats) and email it to: [reservations@goldcoasthotel.com.hk](mailto:reservations@goldcoasthotel.com.hk) If you have question about booking your hotel accommodations please send an email to [connect@linaro.org](mailto:connect@linaro.org).
 
@@ -29,7 +29,7 @@ This intensive week will involve the best software developers participating in d
 For LCA13 Track participants can expect the track sessions throughout the week to include:
 
   * Server
-  
+
   * Android
 
   * Graphics and multimedia

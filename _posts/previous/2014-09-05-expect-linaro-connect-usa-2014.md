@@ -1,7 +1,7 @@
 ---
 author: steve.taylor
 categories:
-- blog
+- Blog
 date: 2014-09-05 20:18:13
 description: Overview of the events taking place at Linaro Connect USA 2014 the week
   of September 14-19th in Burlingame, California.
@@ -20,7 +20,7 @@ title: 'What To Expect At Linaro Connect USA 2014 '
 wordpress_id: 6532
 ---
 
-{% include image.html name="lcu14.jpg" alt="LCU14" url="https://connect.linaro.org/lcu14/"%}
+{% include image.html path="/assets/images/blog/lcu14.jpg" alt="LCU14" url="https://connect.linaro.org/lcu14/"%}
 
 The next [Linaro Connect USA 2014](https://connect.linaro.org/lcu14/) (LCU14) is planned on 15th-19th September in   the Bay area, just over a week away. Close to four hundred people participated in the last [Linaro Connect in Macau ](https://connect.linaro.org/lca14/)and registration for this next one is already exceeding this. There are several exciting activities that will be taking place at LCU14:
 

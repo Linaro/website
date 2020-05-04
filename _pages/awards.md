@@ -4,15 +4,13 @@ description: >-
   We hand out recognition awards to our employees and assignees every year. This
   section is dedicated to the enthusiastic and hardworking individuals that have
   received those awards.
-
 permalink: /awards/
-css-package: awards
 layout: flow
 jumbotron:
   title: Awards
-  title-class: big-title
+  inner_class: dotted
   description: ""
-  background-image: /assets/images/content/yvr18-group-photo.jpg
+  image: /assets/images/content/yvr18-group-photo.jpg
 flow:
   - row: container_row
     sections:

@@ -5,13 +5,13 @@ description: >-
   the Linux Kernel and works on more than 70 open source projects.
 permalink: /membership/
 js-package: membership
-css-package: membership
+css_bundle: membership
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/memberhsip_bg.jpg
+  image: /assets/images/content/memberhsip_bg.jpg
   title: Shape the future of Arm Software
   description: ''
-  title-class: big-title
+  inner_class: dotted
 flow:
   - row: container_row
     sections:
@@ -65,19 +65,22 @@ flow:
   - row: container_row
     sections:
       - format: title
+        style: text-center
         title_content:
           size: h2
           text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
       - format: custom_include
         source: membership/projects_slider.html
-    style: large_type light_gray_row centered_type projects_row
+    style: large_type bg-light centered_type projects_row
   - row: container_row
     sections:
       - format: title
+        style: text-center
         title_content:
           size: h2
           text: Membership Levels
       - format: text
+        style: text-center
         text_content:
           text: >-
             There are three types of membership - Core, Club and Group - each
@@ -91,7 +94,7 @@ flow:
     sections:
       - format: custom_include
         source: components/members_slider.html
-    style: members_slider_row light_gray_row
+    style: members_slider_row bg-light
   - row: container_row
     sections:
       - format: text
@@ -115,7 +118,7 @@ flow:
             team.
       - format: custom_include
         source: membership/core_membership_testimonial.html
-    style: large_type centered_type membership_row core_membership_row
+    style: large_type centered_type membership_row core_membership_row bg-light-blue
   - row: container_row
     sections:
       - format: title
@@ -131,7 +134,7 @@ flow:
             team and participate in additional Linaro projects.
       - format: custom_include
         source: membership/club_membership_testimonial.html
-    style: large_type centered_type membership_row club_membership_row
+    style: large_type centered_type membership_row club_membership_row  bg-green
   - row: container_row
     sections:
       - format: title
@@ -148,19 +151,20 @@ flow:
             Computing, IoT & Embedded and HPC.
       - format: custom_include
         source: membership/group_membership_testimonial.html
-    style: large_type centered_type membership_row group_membership_row
+    style: large_type centered_type membership_row group_membership_row bg-light-gray
   - row: container_row
     sections:
       - format: custom_include
         source: components/engineering_slider.html
-    style: engineering_slider_row gray_row
+    style: engineering_slider_row gray_row bg-secondary
   - row: container_row
     sections:
       - format: title
         title_content:
           size: h2
+          style: text-white
           text: To find out more about membership please complete this form
       - format: custom_include
-        source: components/membership_form.html
-    style: membership_form large_type
+        source: membership/membership_form.html
+    style: membership_form large_type bg-primary text-white
 ---
