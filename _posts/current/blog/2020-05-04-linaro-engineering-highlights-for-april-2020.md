@@ -13,6 +13,8 @@ tags:
 category: Blog
 author: joakim.bech
 ---
+![](/assets/images/content/CORE ENG.svg "Core Engineering")
+
 ### **April 2020**
 
 Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:- 
@@ -27,4 +29,4 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 Mark Orvek, VP Engineering
 
-{% include image.html path="/assets/images/content/hikey-image2.png" class="medium-inline" alt="hikey-image2" %}
+{% include image.html path="/assets/images/content/Core Engineering-image2.png" class="medium-inline" alt="Core Engineering-image2" %}
