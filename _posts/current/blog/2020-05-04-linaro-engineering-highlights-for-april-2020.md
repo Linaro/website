@@ -27,4 +27,4 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 Mark Orvek, VP Engineering
 
-[](<>)[](<>)
+{% include image.html path="/assets/images/content/hikey-image2.png" class="medium-inline" alt="hikey-image2" %}
