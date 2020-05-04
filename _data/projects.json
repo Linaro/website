@@ -6,7 +6,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure](https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
