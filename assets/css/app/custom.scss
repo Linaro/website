@@ -8,6 +8,12 @@
     }
 }
 #wrapper {
+    a.email-icon {
+        font-size: 40px;
+        top: -4px;
+        position: absolute;
+        padding-left: 10px;
+    }
     #wrapper .block__text blockquote {
         font-size: 20px;
     }
