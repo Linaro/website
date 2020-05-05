@@ -1,14 +1,14 @@
 [
     {
         "Project Contact Information": {
-            "Meetings": "",
-            "Point of Contact": ""
+            "Meetings": "TBD",
+            "Point of Contact": "TBD"
         },
         "Project Information": {
             "Health Check Report": "",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
-            "Plan Of Record": "",
-            "Project Homepage": "",
+            "Plan Of Record": "TBD",
+            "Project Homepage": "TBD",
             "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
             "title": "Big Data & Data Science"
         },
