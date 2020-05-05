@@ -1,34 +1,116 @@
 <div class="row content-row" id="projects">
     <div class="container">
-        {% for project in site.data.projects %}
-            <div class="col col-12 col-lg-6 m-t-40">
+        <div id="accordion">
+            {% for project in site.data.projects %}
                 <div class="card">
-                    <div class="card-header">
-                        <h5 style="line-height:40px">
-                            {{project["Project Information"].title}}
-                            <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                alt="{{project["Project Information"].title}} icon" class="lazyload float-right">
+                    <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="true"
+                                aria-controls="{{project["Project Information"].title | slugify}}">
+                                {{project["Project Information"].title}}
+                                <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    alt="{{project["Project Information"].title}} icon" class="ml-2 lazyload">
+                            </button>
                         </h5>
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">{{project["Project Information"].description}}</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
-                            </li>
-                        </ul>
+                    <div id="{{project["Project Information"].title | slugify}}" class="collapse show" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="card-text">{{project["Project Information"].description}}</p>
+                            <div class="row">
+                                <div class="col col-12 col-lg-6">
+                                    <div class="card mb-3">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                                Project Information
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <strong>Project Homepage</strong>:
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Plan of Record</strong>:
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-lg-6">
+                                    <div class="card mb-3">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                                Project Contact Information
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <strong>Meetings</strong>:
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Point of Contact</strong>:
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-lg-6">
+                                    <div class="card mb-3">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                                Project Ownership
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-lg-6">
+                                    <div class="card mb-3">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                                Project Artefacts
+                                            </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <strong>Repositories</strong>:
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Documentation</strong>:
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <strong>Downloads</strong>:
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </div>
