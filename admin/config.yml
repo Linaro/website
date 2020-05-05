@@ -425,10 +425,6 @@ collections:
             name: "title"
             required: false
             widget: "string"
-          - label: "Triangle Divider"
-            name: "triangle-divider"
-            required: false
-            widget: "boolean"
           - label: "Title Class"
             name: "title-class"
             required: false
@@ -816,17 +812,8 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - label: "Image"
         name: image
-        widget: object
+        widget: image
         required: true
-        fields:
-          - label: "Image Path"
-            name: "path"
-            widget: image
-            required: true
-          - label: "Image Alt"
-            name: "alt"
-            widget: string
-            required: false
       - label: "Tags"
         name: tags
         widget: list
@@ -861,17 +848,8 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - label: "Image"
         name: image
-        widget: object
+        widget: image
         required: true
-        fields:
-          - label: "Image Path"
-            name: "path"
-            widget: image
-            required: true
-          - label: "Image Alt"
-            name: "alt"
-            widget: string
-            required: false
       - label: "Tags"
         name: tags
         widget: list
@@ -905,17 +883,8 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
       - label: "Image"
         name: image
-        widget: object
-        required: false
-        fields:
-          - label: "Image Path"
-            name: "path"
-            widget: image
-            required: false
-          - label: "Image Alt"
-            name: "alt"
-            widget: string
-            required: false
+        widget: image
+        required: true
       - label: "Tags"
         name: tags
         widget: list
