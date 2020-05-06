@@ -41,20 +41,23 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
   * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
   * Naresh Kamboju ranked at #10 for reported-by
 
-By Changesets  By Lines Changed
+     **By Changesets By         Lines Changed**
 
-| Intel     |     |     |     |     |
-| --------- | --- | --- | --- | --- |
-| (Unknown) |     |     |     |     |
-| AMD       |     |     |     |     |
-| (None)    |     |     |     |     |
-| SUSE      |     |     |     |     |
-| Red Hat   |     |     |     |     |
-| Google    |     |     |     |     |
-| (Unknown) |     |     |     |     |
-| AMD       |     |     |     |     |
-| (None)    |     |     |     |     |
-| (Unknown) |     |     |     |     |
-| AMD       |     |     |     |     |
-| (None)    |     |     |     |     |
-| (Unknown) |     |     |     |     |
+| Intel               |     |     |     |     |
+| ------------------- | --- | --- | --- | --- |
+| (Unknown)           |     |     |     |     |
+| AMD                 |     |     |     |     |
+| (None)              |     |     |     |     |
+| SUSE                |     |     |     |     |
+| Red Hat             |     |     |     |     |
+| Google              |     |     |     |     |
+| Linaro              |     |     |     |     |
+| Huawei Technologies |     |     |     |     |
+| Facebook            |     |     |     |     |
+| Mellanox            |     |     |     |     |
+| Renesas Electronics |     |     |     |     |
+| IBM                 |     |     |     |     |
+| Arm                 |     |     |     |     |
+| Code Aurora Forum   |     |     |     |     |
+| (Consultant)        |     |     |     |     |
+| Texas Instruments   |     |     |     |     |
