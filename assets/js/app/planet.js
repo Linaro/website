@@ -13,21 +13,20 @@ $(document).ready(function () {
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-  "http://www.workofard.com/feed/", // Ard Biesheuvel
-  "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
-  "https://blog.sirena.org.uk/feed/", // Mark Brown
-  "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
-  "https://fullshovel.wordpress.com/feed/", // Tom Gall
-  "https://translatedcode.wordpress.com/feed/", // Peter Maydell
-  "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
-  "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
-  "http://www.bennee.com/~alex/blog/tag/linaro/feed/", // Alex Bennee
-  "https://station.eciton.net/index.rss", // Leif Lindholm
-  "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
-  "https://nbhat-ho2016.blogspot.co.uk/rss.xml", // Naresh Bhat
-  "https://www.davidb.org/index.xml", // David Brown
-  "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
-  "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
+    "http://www.workofard.com/feed/", // Ard Biesheuvel
+    "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
+    "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
+    "https://fullshovel.wordpress.com/feed/", // Tom Gall
+    "https://translatedcode.wordpress.com/feed/", // Peter Maydell
+    "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
+    "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
+    "http://www.bennee.com/~alex/blog/tag/linaro/feed/", // Alex Bennee
+    "https://station.eciton.net/index.rss", // Leif Lindholm
+    "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
+    "https://nbhat-ho2016.blogspot.co.uk/rss.xml", // Naresh Bhat
+    "https://www.davidb.org/index.xml", // David Brown
+    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
+    "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
 ];
 var sortableFeeds = feeds.slice();
 
