@@ -771,21 +771,11 @@ collections:
                 widget: "string"
                 required: false
                 hint: "The name of the jekyll include to use for custom include sections."
-      - {label: Icon, name: icon, widget: image, required: false, hint: "An icon associated with this page. Only applies to certain layouts i.e developer services pages"}
       - label: "Image"
         name: "image"
-        widget: "object"
+        widget: image
+        default: "/assets/images/social-media-image.png"
         required: false
-        fields:
-          - label: "Image Path"
-            name: "path"
-            widget: "image"
-            required: false
-            default: "/assets/images/social-media-image.png"
-          - label: "Image Alt"
-            name: "alt"
-            widget: "string"
-            required: false
       - {label: "Page Content", name: "body", widget: "markdown", required: false}
   - name: 'news'
     label: 'News Posts'
