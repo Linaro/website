@@ -633,10 +633,12 @@ collections:
                     hint: "Select an image for your image type feature block"
                     required: false
                   - label: "Video Content"
-                    name: "video_content_url"
-                    widget: string
-                    hint: "Select the youtube video url for your video feature block"
+                    name: "youtube"
+                    widget: object
                     required: false
+                    fields:
+                      - {label: YouTube Video URL, name: url, widget: string, required: false}
+                      - {label: Poster Image, name: poster_image, widget: image, required: false, hint: "The image to be displayed before the video is played."}
                   - label: "Feature block buttons"
                     name: buttons
                     widget: list
