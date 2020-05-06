@@ -5,15 +5,15 @@
                 <div class="card">
                     <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="true"
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
                                 aria-controls="{{project["Project Information"].title | slugify}}">
-                                {{project["Project Information"].title}}
                                 <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    alt="{{project["Project Information"].title}} icon" class="ml-2 lazyload">
+                                    alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
+                                {{project["Project Information"].title}}
                             </button>
                         </h5>
                     </div>
-                    <div id="{{project["Project Information"].title | slugify}}" class="collapse show" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
+                    <div id="{{project["Project Information"].title | slugify}}" class="collapse" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
                         <div class="card-body">
                             <p class="card-text">{{project["Project Information"].description}}</p>
                             <div class="row">
