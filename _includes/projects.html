@@ -5,7 +5,7 @@
                 <div class="card">
                     <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
+                            <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
                                 aria-controls="{{project["Project Information"].title | slugify}}">
                                 <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
@@ -16,9 +16,9 @@
                     <div id="{{project["Project Information"].title | slugify}}" class="collapse" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
                         <div class="card-body">
                             <p class="card-text">{{project["Project Information"].description}}</p>
-                            <div class="row">
+                            <div class="row py-0">
                                 <div class="col col-12 col-lg-6">
-                                    <div class="card mb-3">
+                                    <div class="card">
                                         <div class="card-header">
                                             <h5 class="mb-0">
                                                 Project Information
@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
                                 <div class="col col-12 col-lg-6">
-                                    <div class="card mb-3">
+                                    <div class="card">
                                         <div class="card-header">
                                             <h5 class="mb-0">
                                                 Project Contact Information
@@ -60,7 +60,7 @@
                                     </div>
                                 </div>
                                 <div class="col col-12 col-lg-6">
-                                    <div class="card mb-3">
+                                    <div class="card">
                                         <div class="card-header">
                                             <h5 class="mb-0">
                                                 Project Ownership
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="col col-12 col-lg-6">
-                                    <div class="card mb-3">
+                                    <div class="card">
                                         <div class="card-header">
                                             <h5 class="mb-0">
                                                 Project Artefacts
