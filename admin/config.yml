@@ -540,14 +540,14 @@ collections:
             hint: "Add sections to your flow row (e.g title, feature_block, buttons, block, slider)"
             fields:
               - {label: "Section Format", name: "format", widget: "select", multiple: false, required: false,
-              options: ['title','members', 'block','buttons','text','custom_include','slider','feature_block']}
+              options: ['title','members', 'block','buttons','text','custom_include','slider','feature_block', 'tabs']}
               - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple: true, hint: "Add a style to your section.", required: false}
               - label: "Text Section Content"
                 name: "text_content"
                 widget: object
                 required: false
                 fields:
-                  - {label: "Text", widget: string, name: "text", required: false}
+                  - {label: "Text", widget: markdown, name: "text", required: false}
               - label: "Blocks Section Content"
                 name: "block_section_content"
                 widget: object
@@ -558,46 +558,21 @@ collections:
                     name: item_width
                     widget: select
                     required: false
-                    options: ["3","4","6","5ths"]
+                    options: ["3","4","6"]
                   - label: "Blocks"
                     name: blocks
                     widget: list
                     hint: "Add the content for your blocks"
                     required: false
                     fields:
-                      - label: "Block title"
-                        name: "title"
-                        widget: object
-                        required: false
-                        fields:
-                          - {label: "Text", name: text, widget: string, required: false}
-                          - label: "Title Size"
-                            name: "size"
-                            widget: select
-                            required: false
-                            options:
-                              - { label: "1", value: "h1" }
-                              - { label: "2", value: "h2" }
-                              - { label: "3", value: "h3" }
-                              - { label: "4", value: "h4" }
-                              - { label: "5", value: "h5" }
-                      - label: "Block URL"
-                        name: url
-                        required: false
-                        widget: string
-                        hint: "Provide a url for your block to link to"
-                      - label: "Block Background Image"
-                        name: background_image
-                        widget: image
-                        required: false
-                        hint: "Provide a background image for your block"
-                      - label: "Block Text"
-                        name: text_content
-                        widget: object
-                        fields:
-                            - {label: "Text", name: text, widget: text, required: false}
-                        required: false
-                        hint: "Provide text content for your block"
+                      - {label: "Block Title", name: title, widget: string, required: false}
+                      - {label: "Block URL", name: url, required: false, widget: string, hint: "Provide a url for your block to link to"}
+                      - {label: "Block Modal Content", name: modal_content, required: false, widget: markdown}
+                      - { label: "Block Background Image", name: background_image, widget: image, required: false, hint: "Provide a background image for your block"}
+                      - {label: Block Content Image, name: image, widget: image, required: false, hint: "An image to be displayed inside the block"}
+                      - {label: "Block Text", name: description, widget: markdown, required: false, hint: "Provide text content for your block"}
+                      - {label: Block Style, name: style, widget: string, required: false, hint: "CSS classes to be applied to a given block."}
+                      - {label: Block Content Style, name: content_style, widget: string, required: false, hint: "CSS classes to be applied to a given blocks content."}
                       - label: "Block Buttons"
                         name: buttons
                         widget: list
@@ -607,7 +582,23 @@ collections:
                         - {label: "Button Title", name: "title", widget: string, required: false}
                         - {label: "Button URL", name: "url", widget: string, required: false}
                         - {label: "Button Icon", name: "icon", required: false, widget: string, hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons"}
-                        - {label: "Button Style", name: "class", widget: string, required: false, hint: "btn-primary, btn-secondary, btn-danger, btn-warning"}
+                        - {label: "Button Style", name: "style", widget: string, required: false, hint: "btn-primary, btn-secondary, btn-danger, btn-warning"}
+              - label: "Tabs Section Content"
+                name: "tabs"
+                widget: list
+                hint: "Content for a tabs section"
+                identifier_field: title
+                required: false
+                fields:
+                  - label: "Tab Title"
+                    name: title
+                    widget: string
+                    required: false
+                  - label: "Tab Content"
+                    name: content
+                    widget: markdown
+                    hint: "Markdown content for your tab."
+                    required: false
               - label: "Feature Block Section Content"
                 name: "feature_block_content"
                 widget: object
