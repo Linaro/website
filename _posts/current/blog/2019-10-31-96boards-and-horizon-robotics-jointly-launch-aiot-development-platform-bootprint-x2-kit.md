@@ -28,11 +28,13 @@ BOOTPRINT X2 is based on 96Boards SoC independent open platform specification an
 
 The BOOTPRINT X2 development kit will be available soon in three models:
 
-![Figure 1: Basic Version: BOOTPRINT X2 Kit](/assets/images/content/basic-version-bootprint-x2-kit.png "Figure 1: Basic Version: BOOTPRINT X2 Kit")
 
-![](/assets/images/content/standard-version-bootprint-x2-camera-kit.png "Figure 2: Standard Version: BOOTPRINT X2 Camera Kit")
+{% include image.html path="/assets/images/content/basic-version-bootprint-x2-kit.png" alt="Figure 1: Basic Version: BOOTPRINT X2 Kit" %}
 
-![](/assets/images/content/fusion-version-bootprint-x2-fusion-kit.png "Figure 3: Fusion Version: BOOTPRINT X2 Fusion Kit")
+{% include image.html path="/assets/images/content/standard-version-bootprint-x2-camera-kit.png" alt="Figure 2: Standard Version: BOOTPRINT X2 Camera Kit" %}
+
+{% include image.html path="/assets/images/content/fusion-version-bootprint-x2-fusion-kit.png" alt="Figure 3: Fusion Version: BOOTPRINT X2 Fusion Kit" %}
+
 
 In addition to this, Horizon Robotics will also be launching a comprehensive eco-partnership program, involving a developer training program around the platform, a developer online community and offering a wide variety of business collaboration opportunities.
 
