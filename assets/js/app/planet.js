@@ -15,7 +15,6 @@ var mainFeed = [];
 var feeds = [
     "http://www.workofard.com/feed/", // Ard Biesheuvel
     "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
-    "https://blog.sirena.org.uk/feed/", // Mark Brown
     "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
     "https://fullshovel.wordpress.com/feed/", // Tom Gall
     "https://translatedcode.wordpress.com/feed/", // Peter Maydell
