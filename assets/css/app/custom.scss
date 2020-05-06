@@ -8,6 +8,10 @@
     }
 }
 #wrapper {
+    .jumbotron .container h1 {
+        color: #fff;
+        margin: 0;
+    }
     a.email-icon {
         font-size: 40px;
         top: -4px;
@@ -137,4 +141,17 @@
   .key_stats_row img {
     height: 200px;
   }
+}
+#accordion .btn.btn-link.collapsed::after {
+      content: "⌄";
+      top: 5px;
+}
+#accordion .btn.btn-link::after {
+  content: "⌃";
+  color: #333;
+    top: 25px;
+    right: 0px;
+    position: absolute;
+    font-size: 30px;
+    margin-right: 30px;
 }
