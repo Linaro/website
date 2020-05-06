@@ -41,23 +41,23 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
   * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
   * Naresh Kamboju ranked at #10 for reported-by
 
-     **By Changesets         By Lines Changed**
+    \    **By Changesets                 By Lines Changed**
 
-| Intel               |     |     |     |     |     |
-| ------------------- | --- | --- | --- | --- | --- |
-| (Unknown)           |     |     |     |     |     |
-| AMD                 |     |     |     |     |     |
-| (None)              |     |     |     |     |     |
-| SUSE                |     |     |     |     |     |
-| Red Hat             |     |     |     |     |     |
-| Google              |     |     |     |     |     |
-| Linaro              |     |     |     |     |     |
-| Huawei Technologies |     |     |     |     |     |
-| Facebook            |     |     |     |     |     |
-| Mellanox            |     |     |     |     |     |
-| Renesas Electronics |     |     |     |     |     |
-| IBM                 |     |     |     |     |     |
-| Arm                 |     |     |     |     |     |
-| Code Aurora Forum   |     |     |     |     |     |
-| (Consultant)        |     |     |     |     |     |
-| Texas Instruments   |     |     |     |     |     |
+| Intel               | 169 | 13.4% | Intel             | 78083 | 11.5% |
+| ------------------- | --- | ----- | ----------------- | ----- | ----- |
+| (Unknown)           | 904 | 7.1%  | Code Aurora Forum | 68538 | 10.1% |
+| AMD                 | 781 | 6.2%  | Linaro            | 59492 | 8.8%  |
+| (None)              | 778 | 6.1%  | AMD               | 44979 | 6.6%  |
+| SUSE                | 713 | 5.6%  | Red Hat           | 40553 | 6.0%  |
+| Red Hat             | 702 | 5.5%  | (Unknown)         | 28591 | 4.2%  |
+| Google              | 558 | 4.4%  | (None)            | 27387 | 4.0%  |
+| Linaro              | 503 | 4.0%  | (Consultant)      | 23271 | 3.4%  |
+| Huawei Technologies | 483 | 3.8%  | Google            | 20038 | 3.0%  |
+| Facebook            | 298 | 2.4%  | SUSE              | 19274 | 2.8%  |
+| Mellanox            | 252 | 2.0%  | Facebook          | 17525 | 2.6%  |
+| Renesas Electronics | 247 | 2.0%  | Texas Instruments | 16561 | 2.4%  |
+| IBM                 | 232 | 1.8%  | Mellanox          | 14977 | 2.2%  |
+| Arm                 | 231 | 1.8%  | Linux Foundation  | 12289 | 1.8%  |
+| Code Aurora Forum   | 222 | 1.8%  | Marvell           | 11678 | 1.7%  |
+| (Consultant)        | 216 | 1.7%  | Realtek           | 10968 | 1.6%  |
+| Texas Instruments   | 213 | 1.7%  | Collabora         | 9491  | 1.4%  |
