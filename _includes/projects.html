@@ -21,21 +21,20 @@
                                     <div class="card">
                                         <div class="card-header">
                                             <h5 class="mb-0">
-                                                Project Information
+                                                Project Ownership
                                             </h5>
                                         </div>
                                         <div class="card-body">
                                             <ul class="list-group list-group-flush">
                                                 <li class="list-group-item">
-                                                    <strong>Project Homepage</strong>:
+                                                    <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <strong>Plan of Record</strong>:
+                                                    <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
+                                                    <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
                                                 </li>
-
                                             </ul>
                                         </div>
                                     </div>
@@ -61,22 +60,24 @@
                                 </div>
                                 <div class="col col-12 col-lg-6">
                                     <div class="card">
+
                                         <div class="card-header">
                                             <h5 class="mb-0">
-                                                Project Ownership
+                                                Project Information
                                             </h5>
                                         </div>
                                         <div class="card-body">
                                             <ul class="list-group list-group-flush">
                                                 <li class="list-group-item">
-                                                    <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
+                                                    <strong>Project Homepage</strong>:
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
+                                                    <strong>Plan of Record</strong>:
                                                 </li>
                                                 <li class="list-group-item">
-                                                    <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
+                                                    <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
                                                 </li>
+
                                             </ul>
                                         </div>
                                     </div>
