@@ -61,3 +61,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Code Aurora Forum   | 222 | 1.8%  | Marvell           | 11678 | 1.7%  |
 | (Consultant)        | 216 | 1.7%  | Realtek           | 10968 | 1.6%  |
 | Texas Instruments   | 213 | 1.7%  | Collabora         | 9491  | 1.4%  |
+
+
+
+fsvybyhgt
