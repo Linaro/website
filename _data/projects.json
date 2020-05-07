@@ -14,8 +14,8 @@
         },
         "Project Ownership": {
             "Governing Entity": "LDCG SC",
-            "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\">&#9993;</a>",
-            "Technical Lead": "Ganesh Raju <a class=\"email-icon\" href=\"mailto:ganesh.raju@linaro.org\">&#9993;</a>"
+            "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Ganesh Raju <a class=\"email-icon\" href=\"mailto:ganesh.raju@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12902&avatarId=14204",
         "key": "BDDS"
@@ -36,7 +36,7 @@
         "Project Ownership": {
             "Governing Entity": "TSC",
             "Project Owner": "",
-            "Technical Lead": "Dan Rue <a class=\"email-icon\" href=\"mailto:dan.rue@linaro.org\">&#9993;</a>"
+            "Technical Lead": "Dan Rue <a class=\"email-icon\" href=\"mailto:dan.rue@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12903&avatarId=14205",
         "key": "LKQ"
