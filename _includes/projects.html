@@ -5,17 +5,19 @@
                 <div class="card">
                     <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
+                            <button class="btn btn-link collapsed text-dark pl-0" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
                                 aria-controls="{{project["Project Information"].title | slugify}}">
                                 <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
                                 {{project["Project Information"].title}}
                             </button>
                         </h5>
+                        <p class="lead">
+                            {{project["Project Information"].description}}
+                        </p>
                     </div>
                     <div id="{{project["Project Information"].title | slugify}}" class="collapse" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
                         <div class="card-body pb-0"">
-                            <p class="card-text">{{project["Project Information"].description}}</p>
                             <div class="row py-0">
                                 {% if project["Project Ownership"] %}
                                     {% if project["Project Ownership"]["Project Owner"] != "" or project["Project Ownership"]["Technical Lead"] != "" or project["Project Ownership"]["Governing Entity"] != "" %}
@@ -23,14 +25,14 @@
                                         <div class="card">
                                             <div class="card-header">
                                                 <h5 class="mb-0">
-                                                    Project Ownership
+                                                    Ownership
                                                 </h5>
                                             </div>
                                             <div class="card-body">
                                                 <ul class="list-group list-group-flush">
                                                     {% if project["Project Ownership"]["Project Owner"] != "" %}
                                                     <li class="list-group-item">
-                                                        <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
+                                                        <strong>Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
                                                     </li>
                                                     {% endif %}
                                                     {% if project["Project Ownership"]["Technical Lead"] != "" %}
@@ -55,7 +57,7 @@
                                         <div class="card">
                                             <div class="card-header">
                                                 <h5 class="mb-0">
-                                                    Project Contact Information
+                                                    Contact Information
                                                 </h5>
                                             </div>
                                             <div class="card-body">
@@ -82,14 +84,14 @@
                                         <div class="card">
                                             <div class="card-header">
                                                 <h5 class="mb-0">
-                                                    Project Information
+                                                    General Information
                                                 </h5>
                                             </div>
                                             <div class="card-body">
                                                 <ul class="list-group list-group-flush">
                                                     {% if project["Project Information"]["Project Homepage"] != "" %}
                                                         <li class="list-group-item">
-                                                            <strong>Project Homepage</strong>: {{project["Project Information"]["Project Homepage"]}}
+                                                            <strong>Homepage</strong>: {{project["Project Information"]["Project Homepage"]}}
                                                         </li>
                                                     {% endif %}
                                                     {% if project["Project Information"]["Health Check Report"] != "" %}
@@ -119,7 +121,7 @@
                                         <div class="card">
                                             <div class="card-header">
                                                 <h5 class="mb-0">
-                                                    Project Artefacts
+                                                    Artefacts
                                                 </h5>
                                             </div>
                                             <div class="card-body">
