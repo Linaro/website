@@ -2,7 +2,7 @@
     <div class="container">
         <div id="accordion">
             {% for project in site.data.projects %}
-                <div class="card">
+                <div class="card mb-3">
                     <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed text-dark pl-0" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
