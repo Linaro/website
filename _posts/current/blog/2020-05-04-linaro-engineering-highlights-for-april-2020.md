@@ -113,7 +113,7 @@ Linaro had been asked by the Members to work on the Linux Test Project (aka LTP)
 
 All of the above have been merged,  while work is in progress for three syscalls related to io_uring supported by an ARM member engineer. In addition, twenty new syscalls have been added to the task, all related to the time64 variants and these are now underway. Further information is available in [KWG-326.](https://projects.linaro.org/browse/LKQ-43)
 
-## [PSA Level 1 Certification Showcase](https://www.psacertified.org/app/uploads/2020/04/PSA_Certified-Zephyr_Partner_Showcase.pdf)
+### [PSA Level 1 Certification Showcase](https://www.psacertified.org/app/uploads/2020/04/PSA_Certified-Zephyr_Partner_Showcase.pdf)
 
 Linaro IoT and Embedded (LITE)
 
@@ -123,4 +123,18 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 {% include image.html path="/assets/images/content/LITE col.svg ENG.svg" class="small-inline" alt="LITE col.svg}
 
-With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed.
+With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
+
+### **Linaro Consumer Group (LCG) News**
+
+Tom Gall, Director LCG
+
+This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
+
+The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
+
+* [Update on HiKey/Hikey960 efforts in AOSP](https://www.linaro.org/blog/update-on-hikey-hikey960-efforts-in-aosp/)
+
+The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
+
+**[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)**
