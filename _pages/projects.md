@@ -4,6 +4,7 @@ description: >-
     These are some of the projects actively worked on by Linaro, its members and the open source community. Linaro’s work is at the heart of all modern Linux-based devices running on Arm processors, including Android smartphones and tablets.
 layout: flow
 permalink: /projects/
+css_bundle: projects
 jumbotron:
     inner_class: dotted
     description-class: smaller
