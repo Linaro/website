@@ -17,126 +17,135 @@
                         <div class="card-body">
                             <p class="card-text">{{project["Project Information"].description}}</p>
                             <div class="row py-0">
-                                {% if project["Project Ownership"]["Project Owner"] != "" or project["Project Ownership"]["Technical Lead"] != "" or project["Project Ownership"]["Governing Entity"] != "" %}
-                                <div class="col col-12 col-lg-6">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5 class="mb-0">
-                                                Project Ownership
-                                            </h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                                {% if project["Project Ownership"]["Project Owner"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Ownership"]["Technical Lead"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Ownership"]["Governing Entity"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
-                                                </li>
-                                                {% endif %}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                {% endif %}
-                                {% if project["Project Contact Information"]["Meetings"] != "" or project["Project Contact Information"]["Point of Contact"] != ""  %}
-                                <div class="col col-12 col-lg-6">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5 class="mb-0">
-                                                Project Contact Information
-                                            </h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                                {% if project["Project Contact Information"]["Meetings"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Meetings</strong>: {{project["Project Contact Information"]["Meetings"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Contact Information"]["Point of Contact"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Point of Contact</strong>: {{project["Project Contact Information"]["Point of Contact"]}}
-                                                </li>
-                                                {% endif %}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                {% endif %}
-                                {% if project["Project Information"]["Project Homepage"] != "" or project["Project Information"]["Health Check Report"] != "" or project["Project Information"]["Plan Of Record"] != "" or project["Project Information"]["JIRA Structure"] != "" %}
-                                <div class="col col-12 col-lg-6">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5 class="mb-0">
-                                                Project Information
-                                            </h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                                {% if project["Project Information"]["Project Homepage"] != "" %}
+                                {% if project["Project Ownership"] %}
+                                    {% if project["Project Ownership"]["Project Owner"] != "" or project["Project Ownership"]["Technical Lead"] != "" or project["Project Ownership"]["Governing Entity"] != "" %}
+                                    <div class="col col-12 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    Project Ownership
+                                                </h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-group list-group-flush">
+                                                    {% if project["Project Ownership"]["Project Owner"] != "" %}
                                                     <li class="list-group-item">
-                                                        <strong>Project Homepage</strong>: {{project["Project Information"]["Project Homepage"]}}
+                                                        <strong>Project Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
                                                     </li>
-                                                {% endif %}
-                                                {% if project["Project Information"]["Health Check Report"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Health Check Report</strong>: {{project["Project Information"]["Health Check Report"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Information"]["Plan Of Record"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Plan of Record</strong>: {{project["Project Information"]["Plan Of Record"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Information"]["JIRA Structure"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
-                                                </li>
-                                                {% endif %}
-                                            </ul>
+                                                    {% endif %}
+                                                    {% if project["Project Ownership"]["Technical Lead"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Technical Lead</strong>: {{project["Project Ownership"]["Technical Lead"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Ownership"]["Governing Entity"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Governing Entity</strong>: {{project["Project Ownership"]["Governing Entity"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                    {% endif %}
                                 {% endif %}
-                                {% if project["Project Artefacts"]["Repositories"] != "" or project["Project Artefacts"]["Documentation"] != "" or project["Project Artefacts"]["Downloads"] != "" %}
-                                <div class="col col-12 col-lg-6">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5 class="mb-0">
-                                                Project Artefacts
-                                            </h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                                {% if project["Project Artefacts"]["Repositories"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Repositories</strong>: {{project["Project Artefacts"]["Repositories"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Artefacts"]["Documentation"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Documentation</strong>: {{project["Project Artefacts"]["Documentation"]}}
-                                                </li>
-                                                {% endif %}
-                                                {% if project["Project Artefacts"]["Downloads"] != "" %}
-                                                <li class="list-group-item">
-                                                    <strong>Downloads</strong>: {{project["Project Artefacts"]["Downloads"]}}
-                                                </li>
-                                                {% endif %}
-                                            </ul>
+                                {% if project["Project Contact Information"] %}
+                                    {% if project["Project Contact Information"]["Meetings"] != "" or project["Project Contact Information"]["Point of Contact"] != ""  %}
+                                    <div class="col col-12 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    Project Contact Information
+                                                </h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-group list-group-flush">
+                                                    {% if project["Project Contact Information"]["Meetings"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Meetings</strong>: {{project["Project Contact Information"]["Meetings"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Contact Information"]["Point of Contact"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Point of Contact</strong>: {{project["Project Contact Information"]["Point of Contact"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                    {% endif %}
                                 {% endif %}
+                                {% if project["Project Information"] %}
+                                    {% if project["Project Information"]["Project Homepage"] != "" or project["Project Information"]["Health Check Report"] != "" or project["Project Information"]["Plan Of Record"] != "" or project["Project Information"]["JIRA Structure"] != "" %}
+                                    <div class="col col-12 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    Project Information
+                                                </h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-group list-group-flush">
+                                                    {% if project["Project Information"]["Project Homepage"] != "" %}
+                                                        <li class="list-group-item">
+                                                            <strong>Project Homepage</strong>: {{project["Project Information"]["Project Homepage"]}}
+                                                        </li>
+                                                    {% endif %}
+                                                    {% if project["Project Information"]["Health Check Report"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Health Check Report</strong>: {{project["Project Information"]["Health Check Report"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Information"]["Plan Of Record"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Plan of Record</strong>: {{project["Project Information"]["Plan Of Record"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Information"]["JIRA Structure"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>JIRA Structure</strong>: {{project["Project Information"]["JIRA Structure"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                {% endif %}
+                                {% if project["Project Artefacts"] %}
+                                    {% if project["Project Artefacts"]["Repositories"] != "" or project["Project Artefacts"]["Documentation"] != "" or project["Project Artefacts"]["Downloads"] != "" %}
+                                    <div class="col col-12 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="mb-0">
+                                                    Project Artefacts
+                                                </h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul class="list-group list-group-flush">
+                                                    {% if project["Project Artefacts"]["Repositories"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Repositories</strong>: {{project["Project Artefacts"]["Repositories"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Artefacts"]["Documentation"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Documentation</strong>: {{project["Project Artefacts"]["Documentation"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                    {% if project["Project Artefacts"]["Downloads"] != "" %}
+                                                    <li class="list-group-item">
+                                                        <strong>Downloads</strong>: {{project["Project Artefacts"]["Downloads"]}}
+                                                    </li>
+                                                    {% endif %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                {% endif %}
+
 
                             </div>
 
