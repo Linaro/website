@@ -19,5 +19,26 @@
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12902&avatarId=14204",
         "key": "BDDS"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "TBD",
+            "Point of Contact": "TBD"
+        },
+        "Project Information": {
+            "Health Check Report": "TBD",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
+            "Plan Of Record": "TBD",
+            "Project Homepage": "<a href=\"https://lkft.linaro.org/\">https://lkft.linaro.org/</a>",
+            "description": "Our missing is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
+            "title": "Linux Kernel Quality"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "",
+            "Technical Lead": "Dan Rue <a class=\"email-icon\" href=\"mailto:dan.rue@linaro.org\">&#9993;</a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12903&avatarId=14205",
+        "key": "LKQ"
     }
 ]
