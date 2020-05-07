@@ -17,17 +17,11 @@ flow:
         - format: text
           style: text-left
           text_content:
-            text: >
+            text: |
                 Linaro was formed to consolidate foundational Arm software. Over the years, Linaro has entered new verticals as and when collaborative engineering has been needed to enable new markets on Arm architecture.
-        - format: text
-          style: text-left
-          text_content:
-            text: >
+
                 Linaro engineers work together with member company engineers on Arm software. Strategy and roadmaps are developed in technical steering committees which then decide what engineering work needs to happen when.
-        - format: text
-          style: text-left
-          text_content:
-            text: >
+
                 Our work and expertise spans a wide range of areas:
     - row: container_row
       style: engineering_row large_type bg-secondary
