@@ -37,10 +37,8 @@ flow:
             committees which then decide what engineering work needs to happen
             when.
   - row: container_row
-    style: engineering_row large_type bg-secondary
+    style: engineering_row large_type bg-secondary text-center text-white
     sections:
-      - format: custom_include
-        source: components/engineering_icons.html
       - feature_block_content:
           slider_content:
             seconds_per_slide: 4
@@ -59,8 +57,10 @@ flow:
           - text-center
           - text-white
         title_content:
-          text: Engineering Sections
+          text: Areas of Work & Expertise
           size: h2
+      - format: custom_include
+        source: components/engineering_icons.html
   - row: container_row
     style: projects_row bg-light
     sections:
