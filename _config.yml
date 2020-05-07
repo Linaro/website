@@ -57,7 +57,7 @@ defaults:
     values:
       image: /assets/images/social-media-image.png
   - scope:
-      path: ""
+      path: "_pages"
     values:
       layout: flow
   - scope:
