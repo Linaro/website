@@ -144,6 +144,12 @@
 }
 #projects {
     font-size: 1rem;
+    .icon-mail {
+        font-size: 22px;
+        top: -10px;
+        position: relative;
+        left: -5px;
+    }
 }
 #accordion .btn.btn-link.collapsed::after {
       content: "\e80c";
