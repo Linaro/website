@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2014-01-14 21:22:02
 description: A look back at achievements in 2013 within Linaro and a look forward
   into 2014 goals. This blog looks at the progress Linaro has made in a short time
@@ -42,7 +42,7 @@ Linaro has along the way become one of the most important company contributors t
 
 Important foundation and mobile work has included supporting the deployment of early big.LITTLE products, upstreaming of key Android functionality to mainline, delivery and maintenance of the de-facto Arm Cortex-A toolchain, many Arm focused changes to the Linux kernel, work on Linux and Android graphics and multimedia, and important discussions on the future of the Linux scheduler and Arm power management. We also see increasing member and non-member use of Linaro’s monthly builds of the Linux kernel, OpenEmbedded/Yocto, Ubuntu and Android.
 
-The first Linaro Stable Kernel (LSK) based on the kernel.org Long Term Supported (LTS) kernel series was produced using the Linux 3.10 baseline in October 2013. LSK will be supported by Linaro Developer Technical Support (LDTS) for two years, and a next version is expected to be selected in 2014 in line with the kernel.org LTS and new Android kernel versions. In parallel with Armv7 consolidation, optimization and builds, Linaro has been working closely with Arm and members on the software ecosystem for Armv8. Significant work has included toolchain development, QA and delivery, boot architecture work on UEFI and ACPI, as well as the 64-bit kernel and middleware builds. In 2012 our work was all on the Arm models, which are still supported in Linaro deliverables. In 2013 we have been working on the first Armv8 hardware platform from Linaro member Applied Microsystems. Armv8 is now a first class citizen in Linaro’s monthly deliverables. 
+The first Linaro Stable Kernel (LSK) based on the kernel.org Long Term Supported (LTS) kernel series was produced using the Linux 3.10 baseline in October 2013. LSK will be supported by Linaro Developer Technical Support (LDTS) for two years, and a next version is expected to be selected in 2014 in line with the kernel.org LTS and new Android kernel versions. In parallel with Armv7 consolidation, optimization and builds, Linaro has been working closely with Arm and members on the software ecosystem for Armv8. Significant work has included toolchain development, QA and delivery, boot architecture work on UEFI and ACPI, as well as the 64-bit kernel and middleware builds. In 2012 our work was all on the Arm models, which are still supported in Linaro deliverables. In 2013 we have been working on the first Armv8 hardware platform from Linaro member Applied Microsystems. Armv8 is now a first class citizen in Linaro’s monthly deliverables.
 
 The [Linaro Enterprise Group (LEG)](/engineering/datacenter-and-cloud/) completed an amazing first year. Momentum behind the future use of Arm in servers is building rapidly and LEG is becoming a key delivery vehicle for important pieces of open source software infrastructure for the Arm server market. Work has included delivery of boot architecture software, KVM and XEN virtualization, LAMP stack analysis and optimization, an OpenJDK enterprise class implementation working closely with Red Hat, and test builds of major open source software applications including Hadoop and OpenStack. Extensive use of models and early Armv8 hardware has been critical in readying the software ecosystem for the Armv8 SoC introductions we expect to see in 2014.
 
@@ -68,10 +68,10 @@ The apparent paradox can be resolved only by understanding the difference betwee
 
   1. Software is not important to our business plan – we just deliver silicon.
 
-	
+
   2. Software is important and we will build out our software organization to deliver all required software, taking from open source as needed.
 
-	
+
   3. Software is important and business success comes from investing in open source development to reduce costs, enabling further investment in proprietary innovation.
 
 **I would argue that the first option is no longer a tenable strategy**. Customers demand high quality software, and Arm SoC differentiation and innovation requires excellent software support that meets the needs of the various application ecosystems. 

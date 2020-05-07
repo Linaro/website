@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-20 18:50:27
 description: Linaro announces the formation of a new Linaro engineering group --The
   Linaro Networking Group (LNG).
@@ -21,7 +21,7 @@ wordpress_id: 2393
 
 Today, Linaro CEO [George Grey](/about/team/), on stage at the [Embedded Linux Conference](https://events.linuxfoundation.org/) (ELC) with [Jim Zemlin](http://www.linuxfoundation.org/about/), the executive director of the Linux Foundation, [announced](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) the formation of a new Linaro engineering group --[The Linaro Networking Group (LNG)](/blog/lng/).
 
-{% include image.html name="GG_Slide_LNG.jpg"%}
+{% include image.html path="/assets/images/blog/GG_Slide_LNG.jpg"%}
 
 “The strength of the Arm community is in working together and innovating,” said George Grey,CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using Arm SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 

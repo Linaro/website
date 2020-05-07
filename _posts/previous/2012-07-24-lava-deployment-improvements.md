@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-07-24 16:54:35
 description: This article goes over the latest improvements to the LAVA deployment
   process
@@ -29,7 +29,7 @@ To install LAVA, you'd now run:
 
     bzr branch lp:lava-deployment-tool
     ./lava-deployment-tool/lava-deployment-tool install testinstance
-    
+
 Later on when an update was made to the lava-manifest for your build configuration, you could upgrade with:
 
     ./lava-deployment-tool upgrade testinstance

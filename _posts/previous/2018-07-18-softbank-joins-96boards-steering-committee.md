@@ -5,9 +5,7 @@ layout: post
 date: 2018-07-18 09:00:00+00:00
 description: >-
     Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Japanese telecommunications giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee member.
-image:
-   featured: true
-   path: /assets/images/content/softbank-joins-96boards.png
+image: /assets/images/content/softbank-joins-96boards.png
 categories: news
 tags: Open Source, Arm, Linaro, Members, SoftBank, 96boards, 96Boards SC, Membership
 published: true
@@ -22,11 +20,11 @@ The 96Boards steering committee now includes more than twenty companies who are 
 
 “We are excited to welcome SoftBank to the 96Boards Steering Committee and look forward to  the benefits they will bring to the 96Boards range of specifications and products built around the specifications” said Yang Zhang, Director of 96Boards. “SoftBank is uniquely positioned to help connect the vast range of vendors from across the ecosystem and foster accelerated collaboration on standardized platforms for the future.”
 
-{% include image.html name="softbank-joins-96boards.png" alt="SoftBank joins 96Boards Steering Committee"%}
+{% include image.html path="/assets/images/content/softbank-joins-96boards.png" alt="SoftBank joins 96Boards Steering Committee"%}
 
 ### About SoftBank
 
-SoftBank Corp., a subsidiary of SoftBank Group Corp. (TOKYO:9984), provides mobile communication, fixed-line communication and Internet connection services to customers in Japan. Leveraging synergies with other companies in the SoftBank Group, SoftBank Corp. aims to transform lifestyles through ICT and expand into other business areas including IoT, robotics and energy. To learn more, please visit [www.softbank.jp/en/corp/group/sbm/](http://www.softbank.jp/en/corp/group/sbm/). 
+SoftBank Corp., a subsidiary of SoftBank Group Corp. (TOKYO:9984), provides mobile communication, fixed-line communication and Internet connection services to customers in Japan. Leveraging synergies with other companies in the SoftBank Group, SoftBank Corp. aims to transform lifestyles through ICT and expand into other business areas including IoT, robotics and energy. To learn more, please visit [www.softbank.jp/en/corp/group/sbm/](http://www.softbank.jp/en/corp/group/sbm/).
 
 ### About Linaro
 

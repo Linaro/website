@@ -4,8 +4,7 @@ title: >-
   Microsoft to talk IoT security with Azure Sphere at the upcoming Linaro
   Connect San Diego 2019
 date: '2019-09-10 09:22:35'
-image:
-  path: /assets/images/content/microsoft-sphere-2.jpg
+image: /assets/images/content/microsoft-sphere-2.jpg
 tags:
   - Microsoft
   - Azure Sphere
@@ -28,6 +27,6 @@ Following Ed Nightingale’s keynote, there will be a session at 11:00 AM led by
 
 ## A view from industry: Securing IoT with Azure Sphere
 
-Ed Nightingale will wrap up the Azure Sphere IoT track at 12:00 PM with a technical session on Azure Sphere. Ed will talk through the critical market scenarios Azure Sphere addresses, dig deep into the silicon, software, and cloud architecture that make up the solution, and share some of the project’s history. Attend this session to explore the unique security design and capabilities that make Azure Sphere-certified chips unique and why an end-to-end IoT security solution is critical. For more information, [click here](https://linaroconnectsandiego.sched.com/event/SufT/san19-216-a-view-from-industry-securing-iot-with-azure-sphere) to read the complete abstract. 
+Ed Nightingale will wrap up the Azure Sphere IoT track at 12:00 PM with a technical session on Azure Sphere. Ed will talk through the critical market scenarios Azure Sphere addresses, dig deep into the silicon, software, and cloud architecture that make up the solution, and share some of the project’s history. Attend this session to explore the unique security design and capabilities that make Azure Sphere-certified chips unique and why an end-to-end IoT security solution is critical. For more information, [click here](https://linaroconnectsandiego.sched.com/event/SufT/san19-216-a-view-from-industry-securing-iot-with-azure-sphere) to read the complete abstract.
 
 For more information about Linaro Connect or how to register go to [connect.linaro.org](https://connect.linaro.org). We hope to see you there!

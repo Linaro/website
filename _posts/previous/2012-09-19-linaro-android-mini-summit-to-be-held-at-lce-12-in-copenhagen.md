@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-09-19 16:54:42
 description: Zach Pfeffer, Linaro Android Tech Lead took a few minutes out of his
   day to answer a few questions about the this mini summit and what you can expect

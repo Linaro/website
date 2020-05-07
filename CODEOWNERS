@@ -1,4 +1,4 @@
-build-site.sh   @pcolmer @morancj
-check-links.sh  @pcolmer @morancj
-CODEOWNERS      @pcolmer @morancj
-Gemfile         @pcolmer @morancj
+build-site.sh   @pcolmer
+check-links.sh  @pcolmer
+CODEOWNERS      @pcolmer
+Gemfile         @pcolmer

@@ -1,14 +1,12 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: Security Session Highlights from HKG18
 date: 2018-05-24 12:00:00
 categories:
 - Blog
-image:
-    featured: true
-    path: /assets/images/blog/hkg18-banner.jpg
+image: /assets/images/blog/hkg18-banner.jpg
 layout: post
 ---
 
@@ -26,5 +24,3 @@ Speaker: Etienne Carriere
 "A brief overview of the process of integrating OP-TEE into HiKey620 AOSP builds." [video/slides](http://connect.linaro.org/resource/hkg18/hkg18-119/)
 
 Speaker: Victor Chong
-
-

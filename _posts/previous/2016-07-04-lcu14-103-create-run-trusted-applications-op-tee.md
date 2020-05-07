@@ -1,15 +1,13 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: 'LCU14-103 &#58; How to create and run Trusted Applications on OP-TEE'
 date: 2016-07-04 12:00:00 Z
 categories:
 - Blog
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/lcu14-103-create-run-trusted-applications-op-tee-image.jpg
+image: /assets/images/blog/lcu14-103-create-run-trusted-applications-op-tee-image.jpg
 ---
 
 The intention with this session is to provide guidelines for developing a Trusted Application based on the Global Platform TEE Specifications, and for running it based on the OP-TEE implementation for TEE.

@@ -1,7 +1,7 @@
 ---
 author: frans.gifford
 categories:
-- blog
+- Blog
 date: 2011-10-18 13:21:18
 description: First deployment of Linaro Android Review Bot. This integrates our Gerrit
   code review system with our Jenkins build system and LAVA validation and test system.

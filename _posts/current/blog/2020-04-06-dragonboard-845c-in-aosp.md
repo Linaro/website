@@ -2,8 +2,7 @@
 layout: post
 title: DragonBoard 845c in AOSP
 date: '2020-04-06 01:48:45'
-image:
-  path: /assets/images/content/48806078402_a2756594c6_k.jpg
+image: /assets/images/content/48806078402_a2756594c6_k.jpg
 tags:
   - Dragonboard 845c
   - DB845c
@@ -18,11 +17,11 @@ Over the last year, the Linaro Consumer Group (LCG) has been actively working wi
 
 One of the most exciting parts of the DragonBoard 845c is that it supports the freedreno graphics driver and mesa, which means the board has a fully open source graphics stack! This avoids the proprietary blob drivers, which while very common in the Android ecosystem, are a constant pain point for adapting to newer kernels and Android revisions. This also means that the board functionality can be completely upstreamed into the mainline kernel, which makes the board a very interesting test target for validating the mainline kernel and stable updates.
 
-{% include image.html name="db845cblog1.png" class="medium-inline" alt="DragonBoard 854c 96Board" %}
+{% include image.html path="/assets/images/content/db845cblog1.png" class="medium-inline" alt="DragonBoard 854c 96Board" %}
 
 Another unique aspect of the board is how the Qualcomm Landing Team is enabling functionality for the board. With most devboards, when they ship there is a BSP kernel package (usually containing hundreds if not thousands of patches, against an old kernel version) that provides support for all the board functionality. That BSP tree is usually then forward ported against mainline kernels and some components are then upstreamed, slowly shrinking the stack, though usually not as much as was hoped for, leaving a handful of patches to be continually rebased onto newer kernels.
 
-{% include image.html name="db845cblog2.png" class="medium-inline right" alt="DragonBoard 854c 96Board" %}
+{% include image.html path="/assets/images/content/db845cblog2.png" class="medium-inline right" alt="DragonBoard 854c 96Board" %}
 
 There may have been such a BSP with the DragonBoard 845c, but the Qualcomm Landing Team started sharing an integration branch that contained all of the work-in-progress patches to enable functionality that they were actively upstreaming against the most recent kernel release. This means initially the board functionality was pretty bare bones. It would boot to UI, USB and ethernet worked - but _Bluetooth_® wireless technology, WiFi and audio were all missing. That said, the set of patches in that tree were usually under thirty, and actively shrinking. And as we’ve moved forward to newer kernels, we see additional functionality showing up, as part of the upstream kernel. This has at times made it feel like progress was moving more slowly, but the extremely valuable aspect is by using this upstream-first approach, we don’t have the technical debt of upstreaming looming overhead, and the board is useful for mainline testing right away. So a big thanks to the Qualcomm Landing Team for their efforts here! It ensures the board will be very valuable for upstream kernel testing for a long time.
 
@@ -32,11 +31,11 @@ After we got support merged into the AOSP branches, the DragonBoard 845c has als
 
 Having the DragonBoard 845c support added directly to the android-5.4 and android-mainline kernels have made the board particularly useful for some of the recent [Android Generic Kernel Image (GKI) efforts](https://www.linuxplumbersconf.org/event/2/contributions/61/attachments/69/80/Android_and_Linux_Kernel__Herding_billions_of_penguins_one_version_at_a_time.pdf). The GKI will eventually allow a variety of devices from different SoC vendors to be able to share the same kernel image, enabling the vendor specific hardware via loadable modules. This allows the ownership of the kernel to be split so that vendors can provide driver modules for their device, but the core kernel could eventually be updated directly by Google to provide quick security fixes - very similar to th[e Android Generic System Image (GSI)](https://developer.android.com/topic/generic-system-image).
 
-{% include image.html name="db845cblog3.png" class="medium-inline" alt="DragonBoard 854c 96Board" %}
+{% include image.html path="/assets/images/content/db845cblog3.png" class="medium-inline" alt="DragonBoard 854c 96Board" %}
 
 The DragonBoard 845c, along with HiKey960 and HiKey, were used for early proof-of-concept work of the GKI ([demoed at Linaro Connect San Diego 2020](https://twitter.com/johnstultz_work/status/1171915205548183553)), and as the GKI details have been formalized, the DragonBoard 845c has been the first AOSP device able to have its default kernel image be a GKI kernel built by Google’s build infrastructure. This effort required a lot of collaboration between Google, Linaro’s Consumer Group and the Qualcomm Landing Team in order to be able to get all the needed functionality built and functioning properly as a module. As additional functionality is upstreamed (like Bluetooth®, wifi and audio), we are able to validate those changes with the GKI images from android-mainline tree.
 
-{% include image.html name="db845cblog4.jpg" class="medium-inline right" alt="DragonBoard 854c 96Board" %}
+{% include image.html path="/assets/images/content/db845cblog4.jpg" class="medium-inline right" alt="DragonBoard 854c 96Board" %}
 
 The efforts on the DragonBoard 845c have also been very useful in enabling some form-factor devices with AOSP and the upstream kernels. Since it shares the same SoC as many popular devices, such as the Google Pixel 3 and the POCOPHONE F1, we have been able to share effort to bring up both of those devices as well.
 

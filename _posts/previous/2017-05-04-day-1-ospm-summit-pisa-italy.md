@@ -1,7 +1,7 @@
 ---
 author: mathieu.poirier
 categories:
-- blog
+- Blog
 date: 2017-05-04 13:28:57
 keywords: power management, scheduling disciplines
 layout: post

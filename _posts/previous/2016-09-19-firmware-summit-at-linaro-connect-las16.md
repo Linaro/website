@@ -7,7 +7,7 @@ slug: firmware-summit-at-linaro-connect-las16
 title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577
 categories:
-- blog
+- Blog
 tags:
 - Enterprise edition
 - Firmware
@@ -51,5 +51,3 @@ Below is an overview of the sessions that will be part of the summit:
 **Speaker:** Yazen Ghannam, Fu Wei
 
 To learn more about Linaro Connect LAS16 please visit:  [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)
-
-

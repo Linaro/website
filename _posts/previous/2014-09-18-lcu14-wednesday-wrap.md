@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-09-18 21:43:11
 description: Description of the keynotes and sessions that took place on Wednesday
   of Linaro Connect USA 2014. Including links to videos, presentations and session
@@ -481,4 +481,4 @@ Enterprise Servers
 
 ### **Linaro Connect USA Group**
 
-{% include image.html name="group-shot-2.jpg" alt="Linaro Connect America Group Photo"%}
+{% include image.html path="/assets/images/blog/group-shot-2.jpg" alt="Linaro Connect America Group Photo"%}

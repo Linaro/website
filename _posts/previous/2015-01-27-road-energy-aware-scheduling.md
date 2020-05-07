@@ -1,7 +1,7 @@
 ---
 author: nicolas.pitre
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-01-27 17:26:36
 description: Hardware became much less energy hungry while providing increased performance

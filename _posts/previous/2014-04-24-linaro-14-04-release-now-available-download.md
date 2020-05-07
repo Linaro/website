@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-04-24 19:06:07
 description: Linaro's 14.04 release - links to all the downloads available for this
   release
@@ -59,7 +59,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 
 **GETTING INVOLVED**

@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2013-02-01 13:12:29
 description: Linaro announces the release of Linaro 13.01.
 keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise

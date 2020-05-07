@@ -7,7 +7,7 @@ slug: linaro-lemaker-oscon-showcase-hikey
 title: Linaro and Lemaker at OSCON to showcase HiKey
 wordpress_id: 10627
 categories:
-- blog
+- Blog
 tags:
 - arm
 - Armv8

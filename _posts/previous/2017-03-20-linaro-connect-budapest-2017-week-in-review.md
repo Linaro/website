@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2017-03-20 20:41:17
 description: An overview of the activities that took place during the Linaro Connect
   Budapest 2017.
@@ -138,7 +138,7 @@ Below are the sessions held by each of the Linaro Segment teams during the week 
   * **Cross distro BoF - BUD17-311**
     * Regular session taking place at Connect for developers working on Linux distributions to share progress on Arm Linux platform support. Users are also welcome to share their experiences using Linux
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-311/](https://connect.linaro.org/resources/bud17/bud17-311/)
-    
+
   * **DynInst on arm64 - Status - BUD17-323**
     * The DynInst package (https://github.com/dyninst/dyninst) provides an API for program binary analysis and instrumentation. In this technical session, after a brief general introduction of the package
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-323/](https://connect.linaro.org/resources/bud17/bud17-323/)
@@ -208,11 +208,11 @@ supports the wireless protocols to connect such devices to the internet, acting 
   * **The Swarm on the Edge: Pushing “IoT” to the next step - BUD17-303**
     * Sensory swarms of an IoT can be wirelessly interconnected to interact with the edge of a cloud, and offer an unprecedented ability to monitor and act on a range of evolving physical quantities. The Swarm leverages the paradigm of independent, cross-niche and heterogeneous devices that can cooperate with each other in order to execute tasks synergistically. The Swarm architecture is device-oriented, focused on machine-to-machine communications. The Heterogeneous Broker is responsible for dynamically recruiting resources from the cloud; allowing information aggregation to make or aid decisions; and then to dynamically recruit actuation resources. In this talk we will describe our experience implementing and deploying the heterogeneous broker developed by USP in partnership with UC Berkeley. An special focus will be given to the 96Boards program.
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-303/](https://connect.linaro.org/resources/bud17/bud17-303/)
-    
+
   * **A functional Open GPU Upon Arm - BUD17-502**
     * GPGPUs (General Purpose Graphics Processing Unit) are becoming a relevant functional block on SoCs, particularly on the Arm ecosystem. Extracting full performance of a GPU is now becoming a combination of well integrated and optimized software and hardware. Motivated by that, there are many Open GPU initiatives around the world using FPGAs, but most (if not all) of these are on Intel platforms. This project aims to present an Open GPU based on an FPGA using the Arm Instruction Set. The driver platform adopted was the well know MESA 3D (www.mesa3d.org). We will describe the co-design approach to designing the OpenGPU. A functional demonstration of the OpenGPU working on a range of OpenGl applications ported by Linaro will be shown. On the fly we will change drivers between: SW only, GPU on Asic, and OpenGPU to see its performance impact. The engineers that implemented this system will be at the session to support detailed technical questions.
     * Presentations & Videos:[ https://connect.linaro.org/resources/bud17/bud17-502/](https://connect.linaro.org/resources/bud17/bud17-502/)
-    
+
   * **Partnership in Open Design and Manufacturing: How Universities can Contribute with Developers Communities - BUD17-511**
     * The University of Sao Paulo, with support of LSITEC (an NGO Design House), has all of the necessary equipment to design and manufacture 96boards computers and mezzanine boards. Working with one of Linaro’s partners, LeMaker, LSITEC has produced the LeMaker Guitar single board computer under license, and is now looking forward to producing 96boards and accessories the same way. The final goal is to strengthen the gap between industry and universities, producing professionals with high design skills in embedding computing to society, while providing to Linaro and its partners the ability to have high quality boards in various volumes of manufacturing.
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-511/](https://connect.linaro.org/resources/bud17/bud17-511/)
@@ -246,7 +246,7 @@ supports the wireless protocols to connect such devices to the internet, acting 
   * **AOSP BoF - BUD17-414**
     * By definition, ‘unplanned’ session for people to come and discuss anything around AOSP - including AOSP for members, AOSP for non-Android Linux devs, OPTEE/Security, AOSP TV, to name a few. An initial list of topics for discussion could include: An Intro: Uses of AOSP codebase at Linaro and members, AOSP for Linux developers (an intro to the AOSP codebase for regular Linux guys?, OP-TEE/Security, AOSP TV, Perhaps Completely open graphics stack
     * Presentations & Videos:[ https://connect.linaro.org/resources/bud17/bud17-414/](https://connect.linaro.org/resources/bud17/bud17-414/)
-    
+
   * **Timekeeping in the Linux Kernel - BUD17-419**
     * The timekeeping code in the Linux kernel is used by nearly everything from the low power idle paths to device drivers. In this presentation, Stephen Boyd will take the audience on a tour of the timekeeping code, exploring how the kernel abstracts the hardware, how those abstractions are built upon to implement NOHZ, timers, hrtimers, cpu-idle, POSIX clocks, etc. and how we keep things working when these abstractions break down with the tick-broadcast mechanism.
     * Presentations & Videos: [https://connect.linaro.org/resources/bud17/bud17-419/](https://connect.linaro.org/resources/bud17/bud17-419/)

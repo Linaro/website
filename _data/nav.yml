@@ -1,4 +1,4 @@
-universal-nav: true
+universal_nav: true
 search:
   enabled: true
   label: Linaro

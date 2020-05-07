@@ -4,8 +4,7 @@ title: >-
   Linaro and Horizon Robotics jointly launch AIoT development platform:
   BOOTPRINT X2 kit
 date: '2019-10-31 11:48:43'
-image:
-  path: /assets/images/content/27094831048_6ecb96f52a_o.jpg
+image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
 tags:
   - 96Boards
   - Horizon Robotics
@@ -29,11 +28,13 @@ BOOTPRINT X2 is based on 96Boards SoC independent open platform specification an
 
 The BOOTPRINT X2 development kit will be available soon in three models:
 
-![Figure 1: Basic Version: BOOTPRINT X2 Kit](/assets/images/content/basic-version-bootprint-x2-kit.png "Figure 1: Basic Version: BOOTPRINT X2 Kit")
 
-![](/assets/images/content/standard-version-bootprint-x2-camera-kit.png "Figure 2: Standard Version: BOOTPRINT X2 Camera Kit")
+{% include image.html path="/assets/images/content/basic-version-bootprint-x2-kit.png" alt="Figure 1: Basic Version: BOOTPRINT X2 Kit" %}
 
-![](/assets/images/content/fusion-version-bootprint-x2-fusion-kit.png "Figure 3: Fusion Version: BOOTPRINT X2 Fusion Kit")
+{% include image.html path="/assets/images/content/standard-version-bootprint-x2-camera-kit.png" alt="Figure 2: Standard Version: BOOTPRINT X2 Camera Kit" %}
+
+{% include image.html path="/assets/images/content/fusion-version-bootprint-x2-fusion-kit.png" alt="Figure 3: Fusion Version: BOOTPRINT X2 Fusion Kit" %}
+
 
 In addition to this, Horizon Robotics will also be launching a comprehensive eco-partnership program, involving a developer training program around the platform, a developer online community and offering a wide variety of business collaboration opportunities.
 

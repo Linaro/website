@@ -6,3 +6,5 @@ assets/resized
 production.linaro.org
 staging.linaro.org
 Gemfile.lock
+.asset_pipeline
+.jekyll-cache

@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2012-07-02 20:50:43
 description: Overview on the lastest products that are supported by the Arm Ecosystem.
 keywords: Linaro, Arm, Linux on Arm, Arm Ecosystem, Biglittle, Cortex, Android, Jellybean

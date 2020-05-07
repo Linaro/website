@@ -7,12 +7,12 @@ slug: lhg-updates-w3c-eme-solution-96boards-hikey-platform
 title: LHG updates W3C EME solution for 96Boards HiKey platform
 wordpress_id: 12583
 categories:
-- blog
+- Blog
 ---
 
 **_Authors: Mark Gregotski and Peter Griffin_**
 
-{% include image.html name="hikey-960-hd-front.png" alt="Hikey960 Front Board Image" %}
+{% include image.html path="/assets/images/blog/hikey-960-hd-front.png" alt="Hikey960 Front Board Image" %}
 
 
 The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on Arm TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
@@ -78,19 +78,19 @@ See example output below.
 
 ```
      hikey:/home/linaro# xtest --sdp-basic
-    
+
     Secure Data Path basic accesses: NS invokes SDP TA
      Allocate in ION heap 'unmapped'
      sdp_basic_test: success
-    
+
     Secure Data Path basic accesses: SDP TA invokes SDP TA
      Allocate in ION heap 'unmapped'
      sdp_basic_test: success
-    
+
     Secure Data Path basic accesses: SDP TA invokes SDP pTA
      Allocate in ION heap 'unmapped'
      sdp_basic_test: success
-    
+
     Secure Data Path basic accesses: NS invokes SDP pTA (shall fail)
      Allocate in ION heap 'unmapped'
      Error: invoke SDP test TA (inject) failed ffff0006 3
@@ -102,12 +102,12 @@ For a more detailed description of the Linaro Clear Key solution, please see thi
 The W3C EME specification [2] details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video. The EME Clear Key solution is required for any compliant EME solution.
 
 
-{% include image.html name="html5-eme-application.png" alt="HTML5 EME Application Image" %}
+{% include image.html path="/assets/images/blog/html5-eme-application.png" alt="HTML5 EME Application Image" %}
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
 
 
-{% include image.html name="linaro-clearkey-implementation.png" alt="Linaro ClearKey Implementation Image" %}
+{% include image.html path="/assets/images/blog/linaro-clearkey-implementation.png" alt="Linaro ClearKey Implementation Image" %}
 
 Linaro ClearKey Implementation
 

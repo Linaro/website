@@ -8,44 +8,41 @@ description: >-
 permalink: /downloads/
 layout: flow
 jumbotron:
-  background-image: /assets/images/content/downloads-bg.jpg
+  image: /assets/images/content/downloads-bg.jpg
   title: Builds & Downloads
   description: ''
-  title-class: big-title
+  inner_class: dotted
 flow:
   - row: main_content_row
   - row: container_row
+    style: bg-secondary
     sections:
-      - block_section_content:
+      - format: block
+        item_width: 4
+        block_section_content:
           blocks:
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Releases
                   url: 'https://releases.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Releases is the main repository for Linaro code that has been
                   tested and released. It is possible to navigate down through
                   this site to find code if you know what you are looking for,
                   but we recommend you use the links below for our most popular
                   downloads.
-              title:
-                size: h3
-                text: Releases
+              title: Releases
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Snapshots
                   url: 'https://snapshots.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Snapshots code shows Linaro work in progress. Often created on
                   a daily basis, these are literally snapshots of work in
                   progress that are used for testing and development. The code
                   on this site may not work and should only be used by
                   experienced engineers who know exactly what they are doing.
-              title:
-                size: h3
-                text: Snapshots
+              title: Snapshots
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Downloads
@@ -53,78 +50,51 @@ flow:
                 - icon: fa fa-arrow-right
                   title: Get Started with LAVA
                   url: 'https://validation.linaro.org/static/docs/v2/index.html'
-              text_content:
-                text: >
+              description: |
                   The Linaro Automated Validation Architecture (LAVA) is a test
                   and continuous integration framework that Linaro uses to
                   validate its releases. The source is open so that members and
                   others can create their own instantiations and run proprietary
                   tests within this standard framework. Click here for the
                   latest downloads.
-              title:
-                size: h3
-                text: LAVA
-          item_width: 4
-        format: block
-        style: text-center text-white
-  - row: container_row
-    sections:
-      - block_section_content:
-          blocks:
+              title: LAVA
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Security Downloads
                   url: /downloads/security/
-              text_content:
-                text: >
+              description: |
                   Linaro security downloads are available from several of
                   Linaro’s engineering groups. The most recent work includes
                   collaboration on Meltdown/Spectre fixes backported in to the
                   4.4, 4.9 and 4.14 kernels.
-              title:
-                size: h3
-                text: Security Downloads
+              title: Security Downloads
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Patches
                   url: 'https://patches.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   Working upstream means that the ultimate goal for most code is
                   to be accepted and incorporated into something like the Linux
                   kernel or GCC tool chain. The Patches website presents this
                   work by team and by upstream project.
-              title:
-                size: h3
-                text: Patches
+              title: Patches
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View LKFT
                   url: 'https://lkft.linaro.org/'
-              text_content:
-                text: >
+              description: |
                   LKFT is Linaro’s Linux Kernel Functional Test framework. The
                   mission of LKFT is to perform functional regression testing on
                   select Linux kernel branches in real time (as they’re updated)
                   and report any regressions as quickly as possible. This is
                   performed by executing a variety of functional-tests on a
                   selection of user-space operating systems.
-              title:
-                size: h3
-                text: LKFT
-          item_width: 4
-        format: block
-        style: text-center text-white
-  - row: container_row
-    sections:
-      - block_section_content:
-          blocks:
+              title: LKFT
             - buttons:
                 - icon: fa fa-arrow-right
                   title: View Wiki
                   url: 'https://wiki.linaro.org/AOSP'
-              text_content:
-                text: >-
+              description: |
                   Linaro Confectionary Release (LCR) is a reference build of the
                   Android Open Source Project (AOSP) for supported development
                   boards that blends board support, latest kernels, AOSP and
@@ -132,12 +102,7 @@ flow:
                   provided as is however we are interested in bug reports and
                   will fix them on a best effort basis.  Downloads can be found
                   on both snapshots.linaro.org and releases.linaro.org.
-              title:
-                size: h3
-                text: LCR
-          item_width: 4
-        format: block
-        style: text-center text-white
+              title: LCR
 ---
 ## Linaro Developer Cloud
 

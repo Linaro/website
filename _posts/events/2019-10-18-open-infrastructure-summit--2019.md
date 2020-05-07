@@ -12,4 +12,7 @@ description: >-
 image: /assets/images/content/open-infrastructure-summit-2019.png
 location: >
   Shanghai, China
+categories:
+  - Events
 ---
+Join the people building and operating open infrastructure, with hundreds of sessions and workshops on Container Infrastructure, CI/CD, Telecom + NFV, Public Cloud, Private & Hybrid Cloud, Security and members of open source communities like Airship, Ansible, Ceph, Docker, Kata Containers, Kubernetes, ONAP, OpenStack, Open vSwitch, OPNFV, StarlingX, Zuul and more.

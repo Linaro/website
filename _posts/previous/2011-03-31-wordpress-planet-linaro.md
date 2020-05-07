@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-03-31 21:32:59
 description: Announcing the switch to WordPress 3.1 for this blog, and the availability
   of Planet Linaro, to aggregate this blog to individual Linaro developer blogs.
@@ -15,7 +15,7 @@ title: Switch to a WordPress blog - Planet Linaro available
 wordpress_id: 3377
 ---
 
-{% include image.html name="wordpress-logo.png" alt="WordPress logo" class="small-inline right"%}
+{% include image.html path="/assets/images/blog/wordpress-logo.png" alt="WordPress logo" class="small-inline right"%}
 
 If you haven't noticed yet, we have replaced our [SilverStripe](http://www.silverstripe.com/) blog engine by a something orders of magnitude better: [WordPress ](http://wordpress.org)3.1, with the TwentyTen theme.
 

@@ -7,7 +7,7 @@ slug: new-low-cost-cortex-a8-board-from-freescale
 title: New low-cost Cortex A8 board from Freescale
 wordpress_id: 3372
 categories:
-- blog
+- Blog
 tags:
 - Hardware
 - board
@@ -55,7 +55,7 @@ Technical details and a picture can be found on the LinuxDevices.com website:
 </tbody>
 </table>
 
-{% include image.html name="freescaleimx53quickstart.jpg" alt="Freescale i.MX53 Quickstart board" %}
+{% include image.html path="/assets/images/blog/freescaleimx53quickstart.jpg" alt="Freescale i.MX53 Quickstart board" %}
 
 <!-- more -->
 

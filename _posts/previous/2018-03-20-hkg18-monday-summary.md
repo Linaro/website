@@ -9,9 +9,7 @@ categories:
 published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC'
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC
-image:
-    featured: true
-    path: /assets/images/blog/hkg18-group-photo-optimized.jpg
+image: /assets/images/blog/hkg18-group-photo-optimized.jpg
 layout: post
 ---
 # Highlights of the first day at Linaro Connect HKG18

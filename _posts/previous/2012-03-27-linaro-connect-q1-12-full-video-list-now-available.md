@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-03-27 02:28:31
 description: Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and
   information on how to take part in Linaro Connect Q2.12, 28 May - 1 June, in Hong
@@ -115,8 +115,8 @@ If you think this range of topics, speakers, interviewees and demos are fantasti
 > Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain,
 > the Linux kernel, Arm power management, graphics and multimedia interfaces.
 >
-> To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the  
-> start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and 
+> To ensure commecial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. Open engineering has been practised from the
+> start at Linaro with plans, specifications and progress available for inspection on the developer Wiki. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and
 > costly low level fragmentation.
 
 

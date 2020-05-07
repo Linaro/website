@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 date: 2013-12-11 21:01:28
 description: "Linaro is a very open environment but with access to a lot of privileged
   information and knowledge about our member\xE2\x80\x99s products and strategies.

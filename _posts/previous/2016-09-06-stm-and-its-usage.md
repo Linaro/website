@@ -28,7 +28,7 @@ title: System Trace Module (STM) and its usage
 wordpress_id: 11549
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 ## Introduction
 
@@ -164,7 +164,7 @@ The stm_source class has a set of masters and channels allocation and management
 
 ### 1. Allocate a range of channels from one master for stm_source
 
-{% include image.html name="figure-1-stm-blog.jpg" alt="figure 1 stm blog" %}
+{% include image.html path="/assets/images/blog/figure-1-stm-blog.jpg" alt="figure 1 stm blog" %}
 
 Like the Figure-1 is showing, when linking stm_source with STM device, the program will poll all masters from either
 

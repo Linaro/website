@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 date: 2011-12-15 23:26:18
 description: Discussion on the big.LITTLE technology announced by Arm in October and
   the two usage models.

@@ -1,7 +1,7 @@
 ---
 author: edmund.szeto
 categories:
-- blog
+- Blog
 date: 2014-06-04 14:35:37
 description: Android supports SQLite, a lighter weight database management system
   that does not require a server backend. SQLite is very useful for smaller collections

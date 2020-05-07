@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2011-10-13 11:50:58
 description: Announcement and release notes for Linaro GDB 7.3 2011.10
 layout: post

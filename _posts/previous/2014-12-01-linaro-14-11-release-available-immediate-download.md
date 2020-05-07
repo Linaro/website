@@ -1,7 +1,7 @@
 ---
 author: koen.kooi
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-12-01 17:46:04
 description: The Linaro 14.11 software release is available for immediate download.
@@ -74,7 +74,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **GETTING INVOLVED**

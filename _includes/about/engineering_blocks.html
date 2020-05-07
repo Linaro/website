@@ -1,7 +1,7 @@
 {% assign engineering_items = site.data.engineering_groups.items | sort: 'title' %}
-<div class="col-xs-12 no-padding" id="engineering_blocks">
+<div class="col col-12 no-padding" id="engineering_blocks">
     {% for group in engineering_items %}
-        <div class="col-xs-12 col-sm-4 engineering_blocks__col">
+        <div class="col col-12 col-sm-4 engineering_blocks__col">
             <a href="{{group.url}}">
                 <div class="engineering_block__outer">
                     <div class="lazyload engineering_block" data-bg="{{group.context_image}}">

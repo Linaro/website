@@ -1,6 +1,6 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: FREE Webinar &#58 TEE kernel support is now upstream &#58 What this means for
   Open Source Security
@@ -9,17 +9,15 @@ categories:
 - Blog
 layout: post
 future: true
-image:
-    featured: true
-    path: /assets/images/blog/optee-bg.jpg
+image: /assets/images/blog/optee-bg.jpg
 ---
 
-—-  
-**Date**: Wednesday 14 June 2017  
-**Time**: 12:00 Noon UTC  
-**Price:** FREE  
-**Duration**: 50 minutes (including Q&A)  
-**Link to register**: [linaro.co/webinar01](http://linaro.co/webinar01)  
+—-
+**Date**: Wednesday 14 June 2017
+**Time**: 12:00 Noon UTC
+**Price:** FREE
+**Duration**: 50 minutes (including Q&A)
+**Link to register**: [linaro.co/webinar01](http://linaro.co/webinar01)
 —-
 
 TEE security infrastructure is now upstream in the Linux kernel, thanks to the hard work of many people in the ARM open source ecosystem. In this upcoming webinar, Joakim Bech and Jens Wiklander of the Linaro Security Working Group explain:
@@ -31,11 +29,11 @@ TEE security infrastructure is now upstream in the Linux kernel, thanks to the h
 
 This webinar is based on the work of the Linaro Security Working Group. Their work helps Linaro achieve its mission of providing upstream open source support for the ARM ecosystem. The webinar will be of interest to developers and engineering managers who would like the latest status on TEE support in Linux, particularly those looking to develop secure applications with e.g. OP-TEE. It’s also a great case study for those interested in the challenges of Linux kernel upstreaming. There will be the opportunity to ask questions before, during and after the webinar.
 
-**Speakers:**  
-**Joakim Bech**, Security Working Group Tech Lead, Linaro  
+**Speakers:**
+**Joakim Bech**, Security Working Group Tech Lead, Linaro
 **Jens Wiklander**, Security Working Group Engineer & Upstream Driver Author, Linaro​
 
-**Moderator:**  
+**Moderator:**
 **Bill Fletcher**, EMEA Field Engineering, Linaro
 
 ### **[Register here](http://linaro.co/webinar01)**
@@ -44,6 +42,6 @@ This webinar is based on the work of the Linaro Security Working Group. Their wo
 
 Unable to attend? Register now and you will receive an email with the recorded presentation after the webinar.
 
-**For more information on…**  
-On Linaro – Leading Collaboration in the ARM Ecosystem – please click [here](/).  
+**For more information on…**
+On Linaro – Leading Collaboration in the ARM Ecosystem – please click [here](/).
 On OP-TEE – the TEE in Linux using the ARM® TrustZone® technology, please click [here](https://www.op-tee.org/).

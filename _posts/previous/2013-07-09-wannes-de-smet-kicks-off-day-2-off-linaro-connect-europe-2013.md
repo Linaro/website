@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-09 07:56:15
 description: Engineers at Linaro Connect Europe 2013 iron out the plans for the future
   of Linux on Arm in over 14 sessions on Day 1 and 16 sessions on Day 2.
@@ -17,14 +17,14 @@ title: Wannes De Smet Kicks Off Day 2 Of Linaro Connect Europe 2013
 wordpress_id: 2808
 ---
 
-{% include image.html name="lce13-mico.png" alt="Linaro Connect Europe Banner Image" %}
+{% include image.html path="/assets/images/blog/lce13-mico.png" alt="Linaro Connect Europe Banner Image" %}
 
-{% include image.html name="LCE13001.jpg" alt="George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013"%}
+{% include image.html path="/assets/images/blog/LCE13001.jpg" alt="George Grey Linaro CEO kicks off Day 1 of Linaro Connect Europe 2013"%}
 
 > Linaro Connect has grown at each event and I am happy to say this week again promises to be the biggest and most productive yet. Linaro membership has grown significantly over the last year and we are now not only > driving new Linux technology development for mobile devices, but also for servers and networking. ~[George Grey, Linaro CEO](/news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-dublin-ireland/)
 
 
-{% include image.html name="LCE130010.jpg" alt="Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE" class="small-inline right"%}
+{% include image.html path="/assets/images/blog/LCE130010.jpg" alt="Mark Orvek, David Rusling, and James Bottomley listen to George Grey's opening Keynote on Day 1 of LCE" class="small-inline right"%}
 
 **Day 1** of Linaro Connect Europe 2013 (LCE13) was a busy day of exciting sessions, meetings and "hallway" that kicked off this amazing week of engineering and included the following sessions:
 
@@ -71,7 +71,7 @@ wordpress_id: 2808
   * [LAVA Workshop 1 - LAVA Lab Deployment Training](http://lce-13.zerista.com/event/member/79618)
 
 
-{% include image.html name="W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline"%}
+{% include image.html path="/assets/images/blog/W0uAgPW50sjp5cQWx9oHb26zi_Wr5t_Ks2XHDXMk-JlqhMUrT41djB1BoPkwsz2CwAs2000.png" alt="Wannes De Smet" class="small-inline"%}
 
 
 **Day 2** - 9 July 2013 Sessions include:

@@ -7,13 +7,13 @@ slug: whats-new-qemu-2-9
 title: What's new in QEMU 2.9
 wordpress_id: 12315
 categories:
-- blog
+- Blog
 tags:
 - Core Dump
 - qemu
 ---
 
-{% include image.html name="core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
+{% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 QEMU is an interesting multi-faceted open source project. It is a standard component for the Linux virtualisation stack, used by both the KVM and Xen hypervisors for device emulation. Thanks to its dynamic just-in-time recompilation engine known as the Tiny Code Generator (TCG) it is also capable of emulating other architectures on a number of hosts. This takes the form of either a full system emulation or the lighter weight user-mode emulation that allows foreign user-space binaries to be run alongside the rest of the host system.
 
@@ -64,5 +64,3 @@ This summary is not intended to be exhaustive and has concentrated on Arm specif
 * * *
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/vAVCMSPoB3KzS7" %}
-
-

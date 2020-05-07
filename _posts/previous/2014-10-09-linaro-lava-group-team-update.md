@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2014-10-09 13:14:53
 description: Recap of the sessions and activities of the Linaro Automation Validation
   Architecture (LAVA) team at Linaro Connect USA, as well as a team update
@@ -69,7 +69,7 @@ Presentation: [http://www.slideshare.net/linaroorg/lcu14-211-lava-use-cases-sw-
 ](http://www.slideshare.net/linaroorg/lcu14-211-lava-use-cases-sw-testing-reproducing-a-lava-failures-locally-using-care)Video: [https://www.youtube.com/watch?v=f0uHKCX9PkQ&list=UUIVqQKxCyQLJS6xvSmfndLA](https://www.youtube.com/watch?v=f0uHKCX9PkQ&list=UUIVqQKxCyQLJS6xvSmfndLA)
 
   * **LCU14-400: Managing a LAVA LAB using new Debian packages**
-  
+
     * Session Summary
 This session provided a summary of the process to install, update and manage LAVA within a LAVA LAB. Also discussed was how the LAVA LAB in Cambridge is managed and any thoughts or problems experienced when the LAB upgraded from Ubuntu 12.04 to Debian Jessie.
 ---------------------------------------------------

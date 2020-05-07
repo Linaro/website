@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-10-25 16:35:47
 description: Find out how you can get the latest Linaro release--12.10, what the highlights
   are for this release and how you can participate in LCE 12-Copenhagen remotely.
@@ -52,7 +52,7 @@ On the Armv8 front, Linaro is now making early Armv8 images available to interes
 * * *
 
 
-While there is currently no Armv8 hardware available, Arm and Linaro have developed support for AArch64/A64 against virtual platforms and started sending the resulting patches to various open source projects. With the [Linaro provided downloads](/blog/linaro-armv8-downloads-now-available/) and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries. These downloads are currently in beta, but they should just work and we are looking towards including them as part of our monthly releases. For more information on these Armv8 images please take a look at the Linaro Engineer pages on the [Linaro website](/engineering/projects/).
+While there is currently no Armv8 hardware available, Arm and Linaro have developed support for AArch64/A64 against virtual platforms and started sending the resulting patches to various open source projects. With the [Linaro provided downloads](/blog/linaro-armv8-downloads-now-available/) and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries. These downloads are currently in beta, but they should just work and we are looking towards including them as part of our monthly releases. For more information on these Armv8 images please take a look at the Linaro Engineer pages on the [Linaro website](/engineering/).
 
 
 * * *
@@ -84,7 +84,7 @@ The Android-based images come in three parts: system, userdata and boot. These n
 
 
   * [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
-  
+
 If you are interested in getting the source and building these images yourself please see the following pages:
 
 

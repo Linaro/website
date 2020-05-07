@@ -7,9 +7,7 @@ description: >-
     Linaro is hosting an AI and Neural Networks on Arm Summit on Wednesday 19 September at Linaro Connect YVR18, Hyatt Regency Vancouver.
 categories: Blog
 tags: Arm, Linaro, AI, Summit, Vancouver, Neural Networks, Machine Intelligence, Machine Learning, Jem Davies, Chris Benson, Linaro Connect, YVR18
-image:
-  featured: true
-  path: /assets/images/blog/AiSummitBanner2.png
+image: /assets/images/blog/AiSummitBanner2.png
 ---
 At Linaro Connect Hong Kong 2018, Linaro CEO George Grey announced the strategic initiative Machine Intelligence. The aim of the initiative is to provide best in class deep learning performance by leveraging neural network acceleration in IP and SoCs from the Arm Ecosystem. This will be achieved through collaboration on the most widely available AI/ML Software frameworks and libraries.
 

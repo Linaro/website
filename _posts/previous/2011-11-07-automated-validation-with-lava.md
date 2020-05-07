@@ -1,7 +1,7 @@
 ---
 author: alan.bennett
 categories:
-- blog
+- Blog
 date: 2011-11-07 20:52:50
 description: Discussion on Linaro's LAVA efforts including Android testing, visualization
   and reporting as well as links to project updates and source code.
@@ -23,7 +23,7 @@ LAVA has evolved as Linaro's development and release process has changed. For in
 
 **The Validation Lab**
 
-{% include image.html name="Linaro-Validation-Lab.jpg" alt="Linaro Validation Lab" class="small-inline" %}
+{% include image.html path="/assets/images/blog/Linaro-Validation-Lab.jpg" alt="Linaro Validation Lab" class="small-inline" %}
 
 Over the past few months, the Linaro validation lab has been expanded to cover testing on MX53, Snowball, Pandaboard, and Beagle XM. Support for Origen boards is in progress and boards have now arrived in volume in the lab. Capacity has increased considerably through the addition of dozens of boards and additional infrastructure to handle this increased capacity; for instance, LAVA added a scheduler component to facilitate management of jobs across all these different boards and board types. Since the scheduler came online, which was just a few months ago, about 3000 jobs have been executed. Jobs can be monitored from the web interface while they are running, with live output streaming.
 

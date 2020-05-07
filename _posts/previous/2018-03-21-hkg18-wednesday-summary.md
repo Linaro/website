@@ -9,9 +9,7 @@ categories:
 published: true
 tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96'
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96
-image:
-    featured: true
-    path: /assets/images/blog/Ecosystemday-original.jpg
+image: /assets/images/blog/Ecosystemday-original.jpg
 layout: post
 ---
 # Highlights of Ecosystem Day at Linaro Connect HKG18
@@ -20,11 +18,11 @@ Ecosystem Day has arrived! Ecosystem Day brought together the leading Arm vendor
 
 We started the third day of Linaro Connect with two keynotes from Microsoft Azure and Xilinx.
 
-{% include image.html name="Leendert-van-Doorn.jpg"  class="medium-inline"  alt="" %}
+{% include image.html path="/assets/images/blog/Leendert-van-Doorn.jpg"  class="medium-inline"  alt="" %}
 
 Leendert van Doorn from Microsoft gave a keynote on Azure - a huge set of servers with a presence on every single continent apart from Antartica. He started the keynote by talking us through Microsoft's data evolution and how Microsoft has improved power usage effectiveness (pue) of its data centres over the years. Now on the sixth generation, Microsoft is in the process of evaluating Arm servers for their data centres, a process which involves addressing Arm server challenges such as the necessity for platform standardization and ensuring scale is increased while complexity is reduced. To view the recording of this keynote, click [here](https://www.youtube.com/watch?v=dOze8UKIuNU).
 
-{% include image.html name="Tomas-Evensen.jpg"  class="medium-inline right"  alt="" %}
+{% include image.html path="/assets/images/blog/Tomas-Evensen.jpg"  class="medium-inline right"  alt="" %}
 
 Following the Microsoft Azure keynote we had Tomas Evensen from Xilinx present on platforms enabling the future of Embedded Machine Learning. In particular Tomas discussed field programmable gate arrays (FPGAs) and how they can be used to provide flexibility alongside advanced processor architectures. The benefit with FPGAs is that the same board can be used for lots of different things, enabling developers to address the every increasing range of applications. Tomas also talked about the Ultra96 board which Xilinx recently launched with the 96Boards.ai program. The board is available to pre-order [here](https://www.96boards.org/product/ultra96/). To watch the recording of this keynote, click [here](https://www.youtube.com/watch?v=dOze8UKIuNU).
 

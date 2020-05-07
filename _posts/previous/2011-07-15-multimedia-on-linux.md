@@ -1,7 +1,7 @@
 ---
 author: kiko
 categories:
-- blog
+- Blog
 date: 2011-07-15 16:01:50
 description: Discussion of Multimedia on Linux challenges and Linaro.org's work with
   Multimedia on Linux

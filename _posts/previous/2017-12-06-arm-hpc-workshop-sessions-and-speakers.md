@@ -4,16 +4,14 @@ date: 2017-12-06 12:00:00+00:00
 layout: post
 title: Arm HPC Workshop Sessions and Speakers
 categories:
-- blog
+- Blog
 tags:
 - Arm
 - HPC
 - Workshop
 - Japan
 keywords: Arm, HPC, Workshop, Japan
-image:
-    featured: true
-    path: /assets/images/blog/arm-hpc-bg.png
+image: /assets/images/blog/arm-hpc-bg.png
 ---
 # Arm HPC Workshop Sessions and Speakers
 
@@ -138,7 +136,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         </h4>
 
         <em>By</em> David Rusling CTO, Linaro
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3B60l14pgrhlGQ" %}
 
     </div>
@@ -316,7 +314,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             RIKEN and Fujitsu are developing Arm-based numerical libraries optimized with the new feature of Arm-SVE. We present porting status of netlib+SSL-II for Arm-SVE and other OSS. Also, we demonstrate some optimization policies and techniques, especially for the basic numerical linear algebra kernels.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/AP6tYcCEtN4WTa" %}
+        {% include media.html media_url="" %}
     </div>
 
     <div class="col-sm-3 speaker-info">
@@ -382,7 +380,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             RIKEN Advanced Institute for Computation Science is in charge of leading the development of Japan's next generation flagship supercomputer, the successor of the K. Part of this effort is to design and develop a system software stack that suits the needs of future extreme scale computing. In this talk, we focus on operating system (OS) requirements for HPC and discuss IHK/McKernel, a multi-kernel based operating system framework. IHK/McKernel runs Linux with a light-weight kernel (LWK) side-by-side on compute nodes with the primary motivation of providing scalable, consistent performance for large scale HPC simulations, but at the same time to retain a fully Linux compatible execution environment. We provide an overview of the project and discuss the status of its support for Arm architecture.
         </p>
 
-        {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/NNdQnsWIgoCwHB" %}
+        {% include media.html media_url="" %}
 
     </div>
 
@@ -489,7 +487,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
             It is designed and developed to makes building HPC systems easier.
             In this presentation, we explain the current status of OpenHPC and our involvement in OpenHPC to establish Arm HPC eco-system.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/rQaMRYS38ty2qK" %}
     </div>
 
@@ -546,7 +544,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             New portable and practical parallel execution model, Process in Process (PiP in short) will be presented. PiP tasks share the same virtual address space like the multi-thread model and privatized variables like the multi-process model. Because of this, PiP provides the best of two worlds, multi-process (MPI) and multi-thread (OpenMP).
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/hzv5CPRfIBIMwo" %}
 
     </div>
@@ -699,7 +697,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         RIKEN and Fujitsu are developing programming assistance tools for Post-K computer, providing with new values.
         New features such as utilization of Eclipse PTP, and outputting performance data in XML-form are shown in this presentation.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/3Mq0GjWE37hIaP" %}
 
     </div>
@@ -782,7 +780,7 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
         <p class="talk-abstract">
             The "co-design" is a bi-directional approach where a system would be designed on demand from applications and the applications must be optimized to the system. The performance estimation and evaluation of applications are important for the co-design. In this talk, we focus on the performance evaluation with Arm HPC tools for SVE.
         </p>
-        
+
         {% include media.html media_url="https://www.slideshare.net/slideshow/embed_code/key/2YSUrOw3n2W4g" %}
 
     </div>

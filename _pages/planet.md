@@ -4,9 +4,9 @@ description: |-
     Planet Linaro includes blog posts gathered from around the web about Linaro.
 layout: flow
 jumbotron:
-    background-image: /assets/images/content/downloads-bg.jpg
+    image: /assets/images/content/downloads-bg.jpg
     title: Planet Linaro
-    title-class: big-title
+    inner_class: dotted
     description: ""
     buttons:
       - title: Planet Feed
@@ -14,8 +14,8 @@ jumbotron:
         class: btn btn-primary
         icon: fa fa-rss
 permalink: /planet/
-js-package: rss
-css-package: planet
+js-package: planet
+css_bundle: planet
 flow:
     - row: custom_include_row
       source: planet_linaro.html

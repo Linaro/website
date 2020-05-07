@@ -8,7 +8,7 @@ slug: tuesday-highlights-linaro-connect-las16
 title: Tuesday Highlights at Linaro Connect LAS16
 wordpress_id: 11701
 categories:
-- blog
+- Blog
 tags:
 - conference
 - connect
@@ -39,4 +39,3 @@ Tuesday was also the first day of a series of mini-conferences happening the wee
 
 
 Check out the [Linaro Connect resources page](https://connect.linaro.org/las16/resources/) to view the presentations and sessions that took place.
-

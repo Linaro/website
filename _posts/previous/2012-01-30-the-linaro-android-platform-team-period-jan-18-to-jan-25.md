@@ -1,7 +1,7 @@
 ---
 author: tony.mansson
 categories:
-- blog
+- Blog
 date: 2012-01-30 10:02:49
 description: The Linaro Android Platform Team weekly report
 keywords: Linaro Android Report

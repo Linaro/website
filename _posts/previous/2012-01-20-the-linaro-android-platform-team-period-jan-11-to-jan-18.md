@@ -1,7 +1,7 @@
 ---
 author: tony.mansson
 categories:
-- blog
+- Blog
 date: 2012-01-20 01:30:57
 keywords: Linaro, Android, 12.01
 layout: post

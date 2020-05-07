@@ -1,7 +1,7 @@
 ---
 author: daniel.lezcano
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-11-14 17:25:07
 description: Daniel Lezcano a Long term upstream contributor's shares his experience
@@ -169,4 +169,4 @@ I strongly recommend Thomas's Petazzonni presentation, "SoC mainlining, lessons 
 
 [8] [https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches)
 
-{% include image.html name="working-upstream.jpg" alt="working-upstream" %}
+{% include image.html path="/assets/images/blog/working-upstream.jpg" alt="working-upstream" %}

@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- blog
+- Blog
 date: 2012-09-05 02:04:03
 description: "Linaro\xE2\x80\x99s partner, Adeneo Embedded, expands its European reach
   with local office in Germany"

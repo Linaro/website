@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-10-13 14:37:16
 description: Introduction of the members and plans for the Linaro Arm Landing team
 keywords: Linaro, Linux, Arm, Linux Arm, kernel, Arm A5, Arm A9, Android, Ubuntu
@@ -24,4 +24,4 @@ UEFI, Unified Extensible Firmware Interface, is also a significant technology th
 
 Other interesting technologies that the Arm Landing Team will be working with include Arm's DS-5 debugging tools, MALI graphics drivers and support for new Arm platforms as they emerge.
 
-{% include image.html name="tixy-ryan-2-1.jpg" alt="Ryan Harkin and Jon Medhurst (Tixy) - Linaro Arm Landing Team" %}
+{% include image.html path="/assets/images/blog/tixy-ryan-2-1.jpg" alt="Ryan Harkin and Jon Medhurst (Tixy) - Linaro Arm Landing Team" %}

@@ -1,7 +1,7 @@
 ---
 author: bernhard.rosenkranzer
 categories:
-- blog
+- Blog
 date: 2012-04-30 18:11:42
 description: Instructions for building Linaro Android for the Galaxy Nexus target
 keywords: Linaro Android,Linaro,Android,ICS,Galaxy Nexus,Galaxy,Nexus

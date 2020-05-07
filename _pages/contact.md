@@ -4,13 +4,12 @@ description: >-
   All the latest news including press releases, blogs and social media as well
   as Linaro events.
 permalink: /contact/
-css-package: contact
 layout: flow
 jumbotron:
     title: Contact Linaro
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/harston-mill.jpg
+    image: /assets/images/content/harston-mill.jpg
 flow:
   - row: container_row
     sections:
@@ -22,26 +21,23 @@ flow:
                   url: >-
                     mailto:contact@linaro.org?subject=Membership & General
                     Enquiries
-              title:
-                size: h3
-                text: Membership & General Enquiries
+              style: text-dark
+              title: Membership & General Enquiries
             - buttons:
                 - icon: fa fa-email
                   title: Get in Touch
                   url: 'mailto:connect@linaro.org?subject=Linaro Connect Enquiries'
-              title:
-                size: h3
-                text: Linaro Connect Enquiries
+              title: Linaro Connect Enquiries
+              style: text-dark
             - buttons:
                 - icon: fa fa-email
                   title: Get in Touch
                   url: 'mailto:marketing@linaro.org?subject=Media Enquiries'
-              title:
-                size: h3
-                text: Media Enquiries
+              title: Media Enquiries
+              style: text-dark
           item_width: 4
         format: block
-        style: text-center text-white organisation-section
+        style: text-center text-dark organisation-section
     style: block_row contact_blocks
   - row: main_content_row
 ---

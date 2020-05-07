@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-30 17:34:17
 description: The Linaro 13.07 release is now available for download!
 keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro Connect Europe 2013,
@@ -121,7 +121,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 ### GETTING INVOLVED
 

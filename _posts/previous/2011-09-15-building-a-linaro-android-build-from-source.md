@@ -6,7 +6,7 @@ link: /blog/building-a-linaro-android-build-from-source/
 slug: building-a-linaro-android-build-from-source
 title: "Building a Linaro Android Build from Source"
 categories:
-- blog
+- Blog
 ---
 
 Building a Linaro Android build from scratch is a great way to learn more about Android and work more efficently with the Android team. I recently ran through these steps and produced a build that could be programmed on a Panda. These steps should work for the other boards.

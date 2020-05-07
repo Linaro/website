@@ -7,7 +7,7 @@ slug: the-11-09-android-toolchain-has-been-benchmarked
 title: The 11.09 Android Toolchain has been Benchmarked
 wordpress_id: 4130
 categories:
-- blog
+- Blog
 tags:
 - Android benchmark 11.09
 ---
@@ -21,19 +21,19 @@ Older benchmarks can be found at: [https://wiki-archive.linaro.org/Platform/Andr
 
 ## Summary
 
-	
+
   * **skia** continues to show monthly improvments.
 
-	
+
   * **cximage** all toolchains score about the same.
 
-	
+
   * **gcstone** 4.5 was the only to show improvement over Android. This is slight regression from last month. However, the results from this are biased to the "Total List Alloc Time" test case.
 
-	
+
   * **gnugo** Shows month-to-month improvement, but 4.5 still outperforms 4.6
 
-	
+
   * **python** There was a small month-to-month regression in the 2011-09/2011-08 toolchain for 4.6.
 
 
@@ -42,5 +42,4 @@ The 4.6 graphite optimization "-floop-interchange -floop-strip-mine -floop-block
 This chart shows percent improvements against Android 4.4. This was done by comparing the cumulative totals for each benchmark:
 
 
-{% include image.html name="summary.png" alt="Android Toolchain Benchmarking Summary Image"%}
-
+{% include image.html path="/assets/images/blog/summary.png" alt="Android Toolchain Benchmarking Summary Image"%}

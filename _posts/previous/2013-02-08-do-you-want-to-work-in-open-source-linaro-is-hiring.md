@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-08 17:57:12
 description: Yes! Linaro is hiring! Does working for an open source company appeal
   to you? Do you want to be part of the future of Linux on Arm?

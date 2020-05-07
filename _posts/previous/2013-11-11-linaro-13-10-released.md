@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2013-11-11 16:50:21
 description: Information on links to the 13.10 release
 keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.10 release
@@ -23,7 +23,7 @@ title: Linaro 13.10 Released
 wordpress_id: 3147
 ---
 
-> Creativity is the power to connect the seemingly unconnected.~William Plomer 
+> Creativity is the power to connect the seemingly unconnected.~William Plomer
 
 
 ## Linaro 13.10 is now ready for download
@@ -71,7 +71,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 ### GETTING INVOLVED
 

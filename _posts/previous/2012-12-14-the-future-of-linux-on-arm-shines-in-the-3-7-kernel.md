@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-12-14 16:57:30
 description: The 3.7 Linux Kernel which was released earlier this week, includes many
   innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen
@@ -45,7 +45,7 @@ At Linaro, support for this newest architecture continued to grow and at LCE12 -
 
 [Andrea Gallo](/about/), Director of the Linaro Enterprise Group (LEG), commented that "Armv8 support in the 3.7 Kernel release represents a major milestone for our work at LEG. We will leverage on it for all our developments on the Arm Foundation model towards enabling the 64-bit enterprise server workloads. We are eager to demonstrate early UEFI and ACPI work on AArch64 and 3.7 kernel at next the Linaro Connect in Hong Kong"
 
-Linaro also made early [Armv8 images](/engineering/projects/) available to interested developers and provided links to the [Armv8 architecture introduction](https://developer.arm.com/architectures/cpu-architecture/a-profile) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
+Linaro also made early [Armv8 images](/engineering/) available to interested developers and provided links to the [Armv8 architecture introduction](https://developer.arm.com/architectures/cpu-architecture/a-profile) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
 
 
 ### Virtualization features

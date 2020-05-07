@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-12-08 19:00:49
 description: Linaro announces the formation of the Linaro Community Contributor Process
   and Team, introducing a process to recognise community members who have sustained

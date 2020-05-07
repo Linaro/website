@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- blog
+- Blog
 date: 2012-05-11 21:13:36
 description: Discussion on how Linaro's work affects many segments other than mobile
   and enabling optimized hardware for a particular application, the software platforms

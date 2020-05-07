@@ -7,7 +7,7 @@ slug: bud17-registration-launched
 title: Linaro Connect Budapest (BUD17) Registration has launched!
 wordpress_id: 11924
 categories:
-- blog
+- Blog
 tags:
 - Connect Events
 - conference

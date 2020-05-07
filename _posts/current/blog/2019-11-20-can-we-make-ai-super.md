@@ -2,8 +2,7 @@
 layout: post
 title: Can we make AI Super?
 date: '2019-11-20 10:24:06'
-image:
-  path: /assets/images/content/abstract1.jpg
+image: /assets/images/content/abstract1.jpg
 tags:
   - AI
   - Artificial Intelligence

@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-07-07 21:46:30
 description: LCE13 is all about engineering. Find out what goes into planning and
   building the future of Linux on Arm. Find out how to participate remotely.

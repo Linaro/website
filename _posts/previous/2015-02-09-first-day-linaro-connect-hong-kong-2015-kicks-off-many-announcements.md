@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-02-09 21:29:48
 description: Overview of the first day of Linaro Connect Hong Kong 2015. There were
   many announcements and some great demos.
@@ -34,4 +34,4 @@ In the afternoons the sessions kicked off with many different tracks for attende
 
 With 4 days left to go and many keynotes, demos, sessions and socials planned keep checking back for more updates and news to come.
 
-{% include image.html name="hkg15-group-photo.jpg" alt="Hong Kong 2015 Group Photo" %}
+{% include image.html path="/assets/images/blog/hkg15-group-photo.jpg" alt="Hong Kong 2015 Group Photo" %}

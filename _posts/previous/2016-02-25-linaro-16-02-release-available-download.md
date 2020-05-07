@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2016-02-25 22:13:26
 description: Linaro's 16.02 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
@@ -65,7 +65,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 
 **GETTING INVOLVED**

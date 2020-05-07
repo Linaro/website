@@ -1,7 +1,7 @@
 ---
 author: fathi.boudra
 categories:
-- blog
+- Blog
 date: 2014-02-27 16:20:39
 description: Information and links for the Linaro 14.02 release
 layout: post
@@ -86,7 +86,7 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 
 
-  * [/engineering/armv8](/engineering/projects/)
+  * [/engineering/armv8](/engineering/)
 
 
 

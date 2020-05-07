@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2011-11-01 14:09:28
 description: Two first videos from the opening session of Linaro Connect, Oct. 31-Nov.
   4 in Orlando, Florida. Practical details and technical goals for the week.
@@ -26,6 +26,6 @@ Christian Reis, Linaro's Engineering VP, went on by setting technical goals for 
 
 For people who follow Connect remotely, this second video can be useful to know what current Linaro plans are, and what sessions they may be interested in joining. For people interested in joining future Connect events, it also gives details about how work gets done during such events.
 
-These were just early videos shot by myself with my amateur camcorder. The same sessions were also recorded by NovaCut, a company which will produce more professional video and photo shots. 
+These were just early videos shot by myself with my amateur camcorder. The same sessions were also recorded by NovaCut, a company which will produce more professional video and photo shots.
 
 I will continue to post more Connect videos in the next days. Stay tuned on [Twitter LinaroConnect](http://twitter.com/linaroconnect/) and on [YouTube LinaroOrg](http://youtube.com/linaroorg), where the individual videos will be released and announced first.

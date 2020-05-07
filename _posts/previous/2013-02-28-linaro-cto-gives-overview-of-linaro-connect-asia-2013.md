@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-28 14:18:21
 description: David A. Rusling, Linaro CTO gives an overview of the upcoming Linaro
   Connect Asia 2013 event which will take place from 4 - 8 March at the Gold Coast
@@ -21,7 +21,7 @@ wordpress_id: 2467
 
 In a video interview, [David A. Rusling](/about/), Linaro CTO gives an overview of the upcoming [Linaro Connect Asia 2013](https://connect.linaro.org) event which will take place from 4 - 8 March at the Gold Coast Hotel in Hong Kong.
 
-{% include image.html name="Keynotes_HK.jpg" alt="Keynotes Hong Kong" class="small-inline" %}
+{% include image.html path="/assets/images/blog/Keynotes_HK.jpg" alt="Keynotes Hong Kong" class="small-inline" %}
 
 Rusling discusses what people can expect to hear from keynote speakers such as Jon Corbet of LWN, Jason Tayor of Facebook, [Lars Kurth and Mark Heath of Citrix](/blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/) and Greg Kroah-Hartman of the Linux Foundation.
 

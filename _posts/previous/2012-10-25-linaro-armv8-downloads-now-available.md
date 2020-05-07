@@ -1,7 +1,7 @@
 ---
 author: loic.minier
 categories:
-- blog
+- Blog
 date: 2012-10-25 11:48:00
 description: New Armv8 downloads are now available from Linaro!
 keywords: Linaro, Linux on Arm, Open Source, Release, ArmV8, AArch64, Downloads,  Arm
@@ -32,7 +32,7 @@ Linaro is also offering cross-toolchains for Linux and Windows hosts in two flav
 
 Detailed instructions on downloading, running, and rebuilding the images and on using the toolchains are at:
 
-[/initiatives/armv8/](/engineering/projects/)
+[/initiatives/armv8/](/engineering/)
 
 ## Bugs
 

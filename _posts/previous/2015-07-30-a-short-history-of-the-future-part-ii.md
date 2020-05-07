@@ -1,7 +1,7 @@
 ---
 author: david.rusling
 categories:
-- blog
+- Blog
 comments: true
 date: 2015-07-30 21:57:38
 description: In the last episode, I talked about how Linaro got started and how the

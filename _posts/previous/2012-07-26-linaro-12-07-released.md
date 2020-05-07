@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2012-07-26 17:22:56
 description: "Linaro announces the availability of its 12.07 release. This release
   highlights the quality, effort and work of all the Linaro Teams \xE2\x80\x93 Working
@@ -31,7 +31,7 @@ The Linaro 12.07 release highlights the quality, effort and work of all the Lina
 
 Linaro continues to make progress in big.LITTLE development as the [Arm Landing Team](/about/) delivers support for Arm TC2 (TestChip2) tile for the vexpress board. (TC2 is a big.LITTLE core with 2 Cortex A15 and 3 Cortex a7 processors).  The [Linaro Power Management group ](/about/) delivers its first submissions of big.LITTLE MP functionality (git://git.linaro.org/arm/big.LITTLE/mp.git) during the 12.07 release cycle as well.
 
-{% include image.html name="Lava-blog-image.jpg" alt="Lava Image" %}
+{% include image.html path="/assets/images/blog/Lava-blog-image.jpg" alt="Lava Image" %}
 
 The LAVA team was also able to release [the first boot log](https://plus.google.com/u/0/118153619948280443975/posts/V2dzB1PnP4r) from the new big.LITTLE Vexpress (shown)  which is currently located in its LAVA lab. Additionally, the [Developer Platform](https://wiki-archive.linaro.org/Platform/DevPlatform) team reports that the Linaro ALIP is now using LXDE as the default environment, with a reduced image for better performance at Arm targets, such as Vexpress and FastModels.  Linux Linaro updated on top of the latest upstream release (3.5), which reflects the latest changes and development available at Linaro, such as big.LITTLE MP.
 

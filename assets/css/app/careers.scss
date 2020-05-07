@@ -10,7 +10,7 @@
     background-color: #666666;
   }
   .row.internship_row {
-    background-color: $brand-primary;
+    background-color: $primary;
     p {
       color: #fff;
       font-weight: 400;
@@ -37,7 +37,7 @@
     a.btn {
       margin-bottom: 5px;
       &.btn-primary {
-        background-color: $brand-primary;
+        background-color: $primary;
         border-radius: 5px;
       }
       &.btn-secondary {
@@ -76,15 +76,15 @@
     .rbox-bottom-links {
       margin-bottom: 30px;
       a {
-        background-color: $brand-primary;
+        background-color: $primary;
         color: white;
         padding: 10px;
         border-radius: 5px;
       }
     }
     .rbox-apply-button {
-      background-color: $brand-primary;
-      background: $brand-primary;
+      background-color: $primary;
+      background: $primary;
       color: white;
     }
     .rbox-opening-position-info {
@@ -103,11 +103,6 @@
   }
   .row.internship_testimonial_row {
     background-color: #ebf5d7;
-    .quote {
-      blockquote {
-        font-size: 26px;
-      }
-    }
     .intern_image {
       margin: 0;
       height: 100px;

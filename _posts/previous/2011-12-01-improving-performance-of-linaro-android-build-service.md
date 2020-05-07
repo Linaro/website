@@ -7,7 +7,7 @@ slug: improving-performance-of-linaro-android-build-service
 title: Improving Performance of Linaro Android Build Service
 wordpress_id: 979
 categories:
-- blog
+- Blog
 tags:
 - Android
 - android
@@ -31,7 +31,7 @@ So, how seeded builds work and what they really brought us, based on more than w
 
 One chart can say more than dozen of words, so let's look at the typical one:
 
-{% include image.html name="seeded-builds-chart.png" alt="Seeded Build Chart"%}
+{% include image.html path="/assets/images/blog/seeded-builds-chart.png" alt="Seeded Build Chart"%}
 
 Here, we can see all 3 phases described above: reasonable build performance (though some builds here failed due to checkout issues), overload phase with big dispersion of build times, and then seeded builds were deployed. You can see how smooth the curve went, how predictable the build time became (a step there is due to adding new components/upgrade of AOSP version). Builds also became more stable, though some "red" gaps are still seen, which correspond to infrastructural issues with the build (which are inherent when using complex Cloud services). Our next aim is to separate such non-deterministic failures from actual compile errors, to avoid false negatives when performing higher-level Continuous  Integration cycle with our testing solution, LAVA.
 

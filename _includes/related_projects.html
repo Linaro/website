@@ -12,7 +12,7 @@
 
 {% assign sorted_projects = unique_projects | sort: 'name' %}
 
-<div class="col-xs-12">
+<div class="col col-12">
     <div class="owl-carousel owl-theme members_slider">
         {% for project in sorted_projects %}
         <a href="{{project.url}}" target="_self">

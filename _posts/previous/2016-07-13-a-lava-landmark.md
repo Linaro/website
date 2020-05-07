@@ -10,7 +10,7 @@ slug: a-lava-landmark
 title: A LAVA Landmark
 wordpress_id: 11157
 categories:
-- blog
+- Blog
 ---
 
 At 18:23 UTC on July 5th, 2016, a landmark was reached in the LAVA Lab. Job number 1,000,000 was submitted by the kernel-ci bot to the main production instance. Three minutes later, at 18:26, the scheduler picked the job up and passed it to a dispatcher to run on Highbank node 02. As with all kernel-ci jobs, it ran quickly and was complete two and a half minutes later, and yes: It did complete. This is important, because various improvements to LAVA and the Lab infrastructure over the past six months mean that the majority of failures (> 99%) are due to failing kernels or missing resources - i.e. links on external sites that do not exist."
@@ -49,7 +49,7 @@ What’s so special about V2? That is worthy of a blog post all on it’s own, b
 
 I’ll keep you posted.
 
-To find out more about LAVA, please follow this [link](/engineering/projects/).
+To find out more about LAVA, please follow this [link](/engineering/).
 
 Do you want to see how LAVA can help your company?
 

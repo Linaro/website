@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-28 18:58:24
 description: Links to all the downloads for the Linaro 13.02 release
 layout: post

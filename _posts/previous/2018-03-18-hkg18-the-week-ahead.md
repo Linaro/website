@@ -9,9 +9,7 @@ categories:
 published: true
 tags: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software, Hardware, Collaboration
 keywords: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software, Hardware, Collaboration
-image:
-  featured: true
-  path: /assets/images/blog/HKG18-social-facebook-optimized.jpg
+image: /assets/images/blog/HKG18-social-facebook-optimized.jpg
 layout: post
 ---
 # HKG18: The week ahead
@@ -30,12 +28,10 @@ On Tuesday morning keynote speaker [Mark Hambleton](https://connect.linaro.org/r
 Wednesday is [Ecosystem Day](https://connect.linaro.org/resources/), where leading Arm vendors, end users and the open source development community in Hong Kong come together to discuss the latest products, developments and open source software support. You can expect a showcase of Arm-Powered solutions and sessions on all aspects of the Arm ecosystem, including datacenter, edge networking, storage, HPC and Automotive. We have two keynote speakers, starting with [Leendert van Doorn](https://connect.linaro.org/resources/hkg18#leendert-van-doorn) from Microsoft who will talk about Microsoft Azure and the implications of operating at hyper-scale. Leendert will be followed by [Tomas Evensen](https://connect.linaro.org/resources/hkg18#tomas-evensen) from Xilinx who will present a keynote on platforms enabling the future of Embedded Machine Learning. We will also be hosting 96Boards Openhours Live with Robert Wolff - the ultimate community driven experience. For more information on Openhours, [click here](https://www.96boards.org/openhours/).
 
 ## Thursday 22 February 2018
-Thursday will start with keynote speaker [Kenneth Lee](https://connect.linaro.org/resources/hkg18#kenneth-lee) from HiSilicon who will talk about why commerical organisations should join the Open Source community. Kenneth’s keynote will be followed by [Shane Coughlan](https://connect.linaro.org/resources/hkg18#shane-coughlan) with guest speaker Lucien Cheng-hsia Lin who will discuss the state of governance in Open Source. Following these keynotes we have sessions on a range of topics, including LAVA, OpenStack, Device tree and a BOF on AI and Machine Learning. 
+Thursday will start with keynote speaker [Kenneth Lee](https://connect.linaro.org/resources/hkg18#kenneth-lee) from HiSilicon who will talk about why commerical organisations should join the Open Source community. Kenneth’s keynote will be followed by [Shane Coughlan](https://connect.linaro.org/resources/hkg18#shane-coughlan) with guest speaker Lucien Cheng-hsia Lin who will discuss the state of governance in Open Source. Following these keynotes we have sessions on a range of topics, including LAVA, OpenStack, Device tree and a BOF on AI and Machine Learning.
 
 ## Friday 23 February 2018
 The first keynote on Friday will be presented by [Dileep Bhandarkar](https://connect.linaro.org/resources/hkg18#dileep-bhandarkar) from Qualcomm who will analyse emerging trends in the Data Center. This keynote will be followed by the last keynote of HKG18 - [Dr Laura Dekker](https://connect.linaro.org/resources/hkg18#laura-dekker) who will talk about advanced computation from an artist’s perspective. As always we will finish the week on a high with Demo Friday where attendees will get to see the very latest in Arm and Opensource technology.
 
 ## Unable to attend Linaro Connect?
 If you are unable to tune into the livestreams, make sure to check out [our resources page](https://connect.linaro.org/hkg18/resources/) where all recorded sessions, keynotes and relevant slides will be uploaded. We aim to do this as soon as we have the recordings and slides but this may take a day or two. If you are unable to find the session you are looking for, please contact us on [connect@linaro.org](mailto:connect@linaro.org)
-
-

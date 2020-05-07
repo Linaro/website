@@ -5,28 +5,26 @@ layout: post
 date: 2018-07-16 09:00:00+00:00
 description: >-
     Linaro joins growing movement of open source leaders seeking to protect communities.
-image:
-   featured: true
-   path: /assets/images/content/open-source-projects.png
+image: /assets/images/content/open-source-projects.png
 categories: Blog
 tags: Open Source, Projects, Arm, Armv8, linaro, linux, GPL 2.0, Red Hat
 published: true
 ---
-I am very pleased that Linaro is joining other Industry leaders such as Amazon, Arm, Canonical, CA Technologies, Cisco, Facebook, GitLab, Google, HPE, IBM, Intel, Liferay, MariaDB, Microsoft, NEC, Pivotal, Royal Philips, Red Hat, SAS, SAP, Sony, Suse and Toyota and VMware in adopting Red Hat’s cooperation commitment. 
+I am very pleased that Linaro is joining other Industry leaders such as Amazon, Arm, Canonical, CA Technologies, Cisco, Facebook, GitLab, Google, HPE, IBM, Intel, Liferay, MariaDB, Microsoft, NEC, Pivotal, Royal Philips, Red Hat, SAS, SAP, Sony, Suse and Toyota and VMware in adopting Red Hat’s cooperation commitment.
 
 I first read about Red Hat’s ‘cure’ commitment, properly known as the cooperation commitment in a news [article](https://www.theregister.co.uk/2018/06/18/red_hat_gpl_violation/). It looked intriguing and, from the explanation ‘a good idea’. I raised it at a following Linaro Technical Steering Committee (TSC) meeting, where we had a short discussion.
 
-The problem to be solved is that the violation language in GPL 2.0 and LGPL 2.1 is very strong; once a violation has occurred, the organisation must stop using the codebase and, therefore, stop shipping products. Some individuals have exploited this for material gain. This is similar to taking your neighbour to court for not trimming their hedges rather than simply talking to them (hopefully over a nice cup of tea and a biscuit). 
+The problem to be solved is that the violation language in GPL 2.0 and LGPL 2.1 is very strong; once a violation has occurred, the organisation must stop using the codebase and, therefore, stop shipping products. Some individuals have exploited this for material gain. This is similar to taking your neighbour to court for not trimming their hedges rather than simply talking to them (hopefully over a nice cup of tea and a biscuit).
 
 There is a solution, at least for GPL 3.0, which has a clause allowing for a period of time (a cooling off period, if you will) in which the violating company or person can try and put things right. This is usually 30 or 60 days. That does not help you much if the codebase concerned does not wish to move to GPL 3.0 and this is where Red Hat’s cooperation commitment helps. The cooperation commitment allows a company to pledge to allow a period of time to violators of GPL to put right (to cure) the violation. You can read the text below.
 
 This is important because the governance and behaviour of open source projects is as important as their code bases. Open source is essential to code development in the 21st century and Linaro, its members and the wider Arm ecosystem depend on them. This means that we must support and protect those code bases and, perhaps more importantly, the communities associated with them.
 
-## Linaro is Open Source 
+## Linaro is Open Source
 
 Open Source is part of Linaro’s DNA and critical to our work. The only way to reduce fragmentation in the Arm ecosystem is to collaborate. We contribute to over 70 open source projects, often as maintainers. These are some of them:
 
-{% include image.html name="open-source-projects.png" alt="Open Source projects that Linaro contributes to." %}
+{% include image.html path="/assets/images/content/open-source-projects.png" alt="Open Source projects that Linaro contributes to." %}
 
 ## Our commitment
 
@@ -45,6 +43,3 @@ Linaro may modify this Commitment by publishing a new edition on this page or a 
 'Covered License' means the GNU General Public License, version 2 (GPLv2), the GNU Lesser General Public License, version 2.1 (LGPLv2.1), or the GNU Library General Public License, version 2 (LGPLv2), all as published by the Free Software Foundation.
 
 'Defensive Action' means a legal proceeding or claim that Linaro brings against you in response to a prior proceeding or claim initiated by you or your affiliate.
-
-
-

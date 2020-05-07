@@ -1,7 +1,7 @@
 ---
 author: khasim.mohammed
 categories:
-- blog
+- Blog
 date: 2014-12-17 01:05:59
 description: "Linaro's experiences in successfully running Android on Armv8 platforms
   and the lessons learned. Michael Scott, one of Linaro\xE2\x80\x99s engineers focusing
@@ -21,7 +21,7 @@ title: Android L release - building tips
 wordpress_id: 7725
 ---
 
-{% include image.html name="android.png" alt="android" class="medium-inline right" %}
+{% include image.html path="/assets/images/blog/android.png" alt="android" class="medium-inline right" %}
 
 Linaro has been working for the past several months to enable the full Android experience on the Arm 64-bit architecture and we are now able to test this on the commercially available Nexus 9 Armv8 AArch64 based platform.
 

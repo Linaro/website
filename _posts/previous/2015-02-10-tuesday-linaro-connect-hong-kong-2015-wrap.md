@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2015-02-10 21:54:21
 description: Overview of the activities that took place on Tuesday at Linaro Connect
   including links to videos and presentations from the day
@@ -220,4 +220,4 @@ Also on display on Tuesday was the first board available as part of the [96Board
 
 Keep checking to see more highlights from the event this week.
 
-{% include image.html name="hikey-960-hd-front.png" alt="Hikey Board Image" %}
+{% include image.html path="/assets/images/blog/hikey-960-hd-front.png" alt="Hikey Board Image" %}

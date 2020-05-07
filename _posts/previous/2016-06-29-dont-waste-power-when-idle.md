@@ -1,7 +1,7 @@
 ---
 author: ulf.hansson
 categories:
-- blog
+- Blog
 date: 2016-06-29 17:17:39
 description: How the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.
@@ -92,7 +92,7 @@ Through DT, the PM domain topology of a platform can be described as well as the
 
 _This is an example of a PM domain topology of a SoC._
 
-{% include image.html name="PM-domain-topology-graphic-1.jpg" alt="PM domain topology - graphic 1" %}
+{% include image.html path="/assets/images/blog/PM-domain-topology-graphic-1.jpg" alt="PM domain topology - graphic 1" %}
 
 To describe the topology from the picture above in DT, this is typically what needs to be encoded in the DTS.
 
@@ -193,7 +193,7 @@ dev5@12356300 {
 
 _The genpd has been around in the Linux kernel for quite a while, as it was introduced in version 3.1. From version 3.18, Linaro actively started contributing to an evolution of its code and now the community is steadily growing as can be seen in the below picture._
 
-{% include image.html name="Users-of-genpd-graphic-2.jpg" alt="Users of genpd - graphic 2" %}
+{% include image.html path="/assets/images/blog/Users-of-genpd-graphic-2.jpg" alt="Users of genpd - graphic 2" %}
 
 
 Deploying support for genpd for a platform is often easy, although to take full advantage of genpd’s idle management through runtime PM, each device within the PM domain must have a corresponding subsystem/driver deploying runtime PM support. That’s because genpd monitors devices’ runtime PM status to understand when all devices within the same PM domain become idle. At that point, it tries to power off the PM domain to decrease the consumed power for the platform. On the opposite side, when a device is requested to be powered on via runtime PM, genpd makes sure to also restore power to the corresponding PM domain.

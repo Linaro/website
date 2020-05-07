@@ -10,24 +10,23 @@ related_tags:
   - validation
   - lkft
 layout: flow
-css-package: landing-page
 related_resources_tracks: Validation, Testing, CTT
-js-package: engineering-landing-page
+js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Kernel Validation
-  title-class: big-title
+  inner_class: dotted
   description: ""
-  background-image: /assets/images/content/engineering/context/stewardship.jpg
+  image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -40,15 +39,15 @@ flow:
           text: >
             The goals of KVT are to shorten derivative Linux kernel release intervals, increase the confidence of upstream Linux kernel engineers in the quality of their releases, and increase the confidence of downstream adopters of those Linux kernel trees. Ultimately the goal is that KVT will encourage downstream hardware vendors to more frequently update the Linux kernel that runs on their devices in order that consumers might benefit from bug and security updates.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=mWpK-cNQmL8
-            title: Interview with Shuah Khan on Kernel Self Test
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=mWpK-cNQmL8
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: Interview with Shuah Khan on Kernel Self Test
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

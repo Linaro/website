@@ -1,7 +1,7 @@
 ---
 author: koen.kooi
 categories:
-- blog
+- Blog
 date: 2014-10-30 23:41:58
 description: The Linaro 14.10 software release is available for immediate download.
   All related links can be found here.
@@ -68,7 +68,7 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-  * [/initiatives/armv8/](/engineering/projects/)
+  * [/initiatives/armv8/](/engineering/)
 
 **GETTING INVOLVED**
 
@@ -99,7 +99,7 @@ For any errata issues, please see:
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
 
   * [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)
-  
+
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT HONG KONG 2015**
 
 Registration for Linaro Connect Hong Kong 2015 from February 9-13, 2015 is now open.  More information on this event can be found at: [https://connect.linaro.org/hkg15/ ](https://connect.linaro.org/resources/hkg15/)

@@ -6,8 +6,7 @@ description: |-
 keywords: Linaro, Autonomous, Stable, Kernel, Core, Android, Open Source, OS, Autonomous Vehicles, Autoware
 image: /assets/images/content/AutoCol.svg
 permalink: /engineering/autonomous-vehicles/
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
     key: autonomous-vehicles-incubator
 related_resources_tracks: Autonomous Vehicles, Autonomous Vehicle
@@ -18,12 +17,12 @@ related_tags:
   - Autoware
 jumbotron:
     title: Autonomous Vehicles
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/autonomous-driving-bg.jpg
+    image: /assets/images/content/autonomous-driving-bg.jpg
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding

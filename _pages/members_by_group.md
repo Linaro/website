@@ -4,17 +4,17 @@ description: |-
     Members of Linaro organised by groups.
 layout: flow
 permalink: /members-by-group/
-js-package: members
-css-package: members
+js-package: membership
+css_bundle: members
 jumbotron:
     title: Members by Group
-    title-class: big-title
+    inner_class: dotted
     description: ""
 flow:
     - row: container_row
       sections:
         - format: text
-          style: text-center text-white
+          style: text-center
           text_content:
             text: >
                 The current members are listed below. If you are interested in joining these industry leaders, please fill out the form below
@@ -22,6 +22,7 @@ flow:
     - row: custom_include_row
       source: members_by_group.html
     - row: container_row
+      style: text-center
       sections:
         - format: title
           title_content:
@@ -33,5 +34,4 @@ flow:
               - title: contact@linaro.org
                 url: mailto:contact@linaro.org?subject=Linaro.org - Membership
                 style: btn-primary
-
 ---

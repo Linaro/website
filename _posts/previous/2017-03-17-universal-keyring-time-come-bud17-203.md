@@ -1,15 +1,13 @@
 ---
 author: op-tee
-tags: 
+tags:
 - OP-TEE
 title: Universal Keyring – The Time has Come – BUD17-203
 date: 2017-03-17 12:00:00 Z
 categories:
 - Blog
 layout: post
-image:
-    featured: true
-    path: /assets/images/blog/universal-keyring-time-come-bud17-203-image.jpg
+image: /assets/images/blog/universal-keyring-time-come-bud17-203-image.jpg
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/PvySBboUwPM" %}
@@ -18,6 +16,6 @@ The SKS/KeyGen2 project is about establishing an security architecture, provisio
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/s4eJMFzMpMaRIQ" %}
 
-**Speakers:** Anders Rundgren  
-**Track:** Security  
-**Session ID:** BUD17-203  
+**Speakers:** Anders Rundgren
+**Track:** Security
+**Session ID:** BUD17-203

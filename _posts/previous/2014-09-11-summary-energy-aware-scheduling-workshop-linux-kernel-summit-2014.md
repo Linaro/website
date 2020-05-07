@@ -1,7 +1,7 @@
 ---
 author: mike.turquette
 categories:
-- blog
+- Blog
 comments: true
 date: 2014-09-11 13:03:28
 description: State of the art of energy-aware scheduling with a brief overview of
@@ -29,7 +29,7 @@ wordpress_id: 6674
 
 ## **What is energy-aware scheduling?**
 
-{% include image.html name="Linux-Kernel-Summit.png" alt="Linux-Kernel-Summit" %}
+{% include image.html path="/assets/images/blog/Linux-Kernel-Summit.png" alt="Linux-Kernel-Summit" %}
 
 
 A topic of increasing interest is the push for energy awareness in the Linux kernel scheduler. While the topic is broad and deep, the general goal is to adapt the Linux kernel scheduler to take into account the energy cost of the decisions it makes and, with knowledge of the underlying hardware platform, make more intelligent decisions that can save power whilst maintaining existing performance levels. This general goal will be achieved through many efforts including new tools to help test changes and validate assumptions, as well as the integration of existing power management subsystems such as CPUfreq and CPUidle with the scheduler. The end result will be Linux-powered devices that consume less energy, manage thermal events with panache and perhaps are even more performant. This is a boon for battery-powered mobile devices, big iron data centers and everything in between and the backgrounds of the workshop attendees reflect that.
@@ -76,7 +76,7 @@ While some time was spent on the mechanism to get the per-platform and per-machi
 
 **Frequent flyers**
 
-{% include image.html name="tux-eas.jpg" alt="tux-eas" %}
+{% include image.html path="/assets/images/blog/tux-eas.jpg" alt="tux-eas" %}
 
 The workshop moved on to discuss the integration of the Linux CPUfreq subsystem with the scheduler. Happily much of the discussion aligned nicely with the experiments being conducted within Linaro. [Paul Turner](http://www.linkedin.com/pub/paul-turner/23/0/586) and [Peter Zijlstra](http://nl.linkedin.com/pub/peter-zijlstra/0/568/797) both referred to the scheduler-facing interface as an “oracle”, meaning that the scheduler queries the platform energy model about such topics and task placement and cpu frequency scaling. The main benefit here is to unify the cpu frequency selection with task placement selection, something that is sorely lacking in products today.
 

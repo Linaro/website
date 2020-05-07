@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-01-10 14:10:41
 description: Individuals and organizations who are using Linaro Code on Arm based
   processor boards are invited to participate in Demo Friday and highlight their work.
@@ -19,7 +19,7 @@ wordpress_id: 2216
 
 # Call for Participation!
 
-{% include image.html name="lca13.png" alt="Linaro Connect Image" url="https://connect.linaro.org/lca13/"%}
+{% include image.html path="/assets/images/blog/lca13.png" alt="Linaro Connect Image" url="https://connect.linaro.org/lca13/"%}
 
 Linaro is excited to announce that we will once again host a [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at [LCA13 - Hong Kong](https://connect.linaro.org) to showcase the latest Linux developments on Arm. Linaro members, partners and community will offer interactive demonstrations which showcase the combination Arm based processor boards and Linaro builds of Android, Ubuntu and more.
 

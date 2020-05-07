@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-02-22 16:31:50
 description: Linaro is pleased to announce that it will be offering a four hour comprehensive
   and hands-on LAVA workshop as part of Linaro Connect Asia 2013.
@@ -26,7 +26,7 @@ The [Linaro Automated Validation Architecture (LAVA)](/blog/lava-fundamentals/) 
 
 ## What Will this Workshop Include?
 
-{% include image.html name="LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg" alt="LAVA Workshop Flyer" class="small-inline" %}
+{% include image.html path="/assets/images/blog/LAVAWorkshopLCA13-FlyerAmbervariant_R31.jpg" alt="LAVA Workshop Flyer" class="small-inline" %}
 
 Members of the Linaro Automated Validation Architecture [(LAVA) team](/about/) will be hosting a workshop that will include 4 hours of training.  This training will include an introduction, a hands on hacking session and a Q&A discussion session.
 

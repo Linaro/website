@@ -8,27 +8,26 @@ members:
     key: mi-incubator
 related_resources_tracks: Multimedia, RDK, LHG
 permalink: /engineering/multimedia/
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 related_tags:
   - Multimedia
   - RDK
   - LHG
 jumbotron:
     title: Multimedia
-    title-class: big-title
+    inner_class: dotted
     description: "Improving the media experience on Arm devices"
-    background-image: /assets/images/content/engineering/context/multimedia.jpg
+    image: /assets/images/content/engineering/context/multimedia.jpg
 layout: flow
 flow:
   - row: container_row
-    style: members_row light_gray_row
+    style: members_row bg-light
     sections:
         - format: custom_include
           params: core,club,Comcast
           source: related_members.html
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -38,15 +37,15 @@ flow:
 
             The Linaro multimedia group was formed in 2018 to help overcome these fragmentation issues and provide standardized solutions, helping to improve the media experience on Arm and resolve common multimedia problems for the Arm ecosystem.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-        - format: custom_include
-          youtube_embed:
-            url: https://www.youtube.com/watch?v=eyqXgY-ITmk&feature=emb_title
-            title: HKG18-408 - A DRM solution using TZMP
-          source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=eyqXgY-ITmk&feature=emb_title
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: HKG18-408 - A DRM solution using TZMP
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: text
         style: text-left no-padding
@@ -78,15 +77,15 @@ flow:
 
             - enhancements to wayland and GStreamer to support secure playback use cases.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
-            url: https://www.youtube.com/watch?v=cqSdMzy4gw8
-            title: HKG18-203 - Overview of Linaro DRM
-        source: components/lazy_youtube_video_embed.html
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=cqSdMzy4gw8
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: HKG18-203 - Overview of Linaro DRM
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: title
         style: text-left no-padding
@@ -99,15 +98,15 @@ flow:
           text: >
             [RDK](https://rdkcentral.com/) is a modular, portable and customizable open source software solution that standardizes core functions used in video, broadband and IoT devices. The goal of the RDK project is to help facilitate fast ramp up on member companies own RDK projects. To do this Linaro prototypes on member company silicon best in class open source components to give RDK more interoperability, flexibility and improved performance. Linaro has worked on the Yoctofication of RDK, integration of OP-TEE and CDM plugins to support secure video use cases, enhancements to the Westeros wayland compositor and member silicon enablement.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
+        - format: youtube
+          style: #
           url: https://www.youtube.com/watch?v=RIGpastAifg
-          title: "HKG15-506: Comcast - Lessons learned from migrating the RDK code...."
-        source: components/lazy_youtube_video_embed.html
+        #   poster_image: /assets/images/test/background-image1.jpg
+          title: "HKG15-506: Comcast - Lessons learned from migrating the RDK code..."
   - row: container_row
-    style: large_type introduction_row info_row
+    style: large_type introduction_row py-0 info_row
     sections:
       - format: title
         style: text-left no-padding
@@ -130,13 +129,13 @@ flow:
           text: >
             As SoC camera architectures have become more complex, the kernel APIs have evolved to support this increased complexity. New kernel APIs such as media controller and v4l2 subdev were created to expose these complex pipelines to userspace. What’s more, instead of having one video device node to manage, userspace now has multiple device nodes. In summary, setting up these complex camera pipelines requires userspace to have lots of prior knowledge of the underlying hardware. The proposed solution to this complexity is [libcamera.org](http://libcamera.org/), which aims to encapsulate all this platform complexity into a userspace library that can be re-used by ChromeOS, Android and Linux. Linaro is working with the libcamera project and across the Camera ecosystem to help members leverage the library and enable their SoCs. Work to date has focussed on Camera sensor driver upstreaming to avoid fragmentation in downstream vendor trees, and helping ensure good support of the [96boards](https://www.96boards.org/) ecosystem.
   - row: container_row
-    style: youtube_embed_row light_gray_row
+    style: youtube_embed_row bg-light
     sections:
-      - format: custom_include
-        youtube_embed:
+        - format: youtube
+          style: #
           url: https://www.youtube.com/watch?v=S04jOKWHWOg&feature=emb_title
+        #   poster_image: /assets/images/test/background-image1.jpg
           title: "BKK19-506 - Libcamera: Making Complex Cameras Easy"
-        source: components/lazy_youtube_video_embed.html
   - row: custom_include_row
     source: engineering_related_resources.html
 ---

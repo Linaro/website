@@ -1,7 +1,7 @@
 ---
 author: khasim.mohammed
 categories:
-- blog
+- Blog
 date: 2014-02-06 16:58:43
 description: Linaro Android team update on their optimization efforts for 2014. What
   they will be working on in Q1 and the progress they have made so far.
@@ -65,7 +65,7 @@ If you are attending Linaro Connect ASIA 2014 in Macau from March 3rd - March 7
   * March 4th 2014 : Optimizing SQLite for Android mobile
 
   * March 5th 2014 : Building Android with Clang
-  
+
   * March 6th 2014 : Migrating external projects used in Android to it's latest version
 
   * March 7th 2014 : Improving Android battery life

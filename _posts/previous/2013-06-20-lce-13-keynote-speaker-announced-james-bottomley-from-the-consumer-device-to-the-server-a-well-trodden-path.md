@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- blog
+- Blog
 date: 2013-06-20 18:27:42
 description: Linaro announces that James Bottomley, will be giving the Monday, July
   8th keynote at Linaro Connect Europe 2013 (LCE-13).
@@ -17,7 +17,7 @@ title: 'LCE-13 Keynote Speaker Announced: James Bottomley - From the consumer de
 wordpress_id: 2782
 ---
 
-{% include image.html name="Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg" alt="James Bottomley" class="small-inline"%}
+{% include image.html path="/assets/images/blog/Nes9bjWR57t5JjLefuJ_eRVGnWBtKXw6HFinypIr2Ny5XlHXej83WarhkNbuJHDXzws2000.jpg" alt="James Bottomley" class="small-inline"%}
 
 We’re excited to announce that James Bottomley, will be giving the Monday, July 8th keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 

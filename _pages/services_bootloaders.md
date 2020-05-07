@@ -2,30 +2,31 @@
 title: Bootloaders and Boot Architecture
 jumbotron:
     title: Bootloaders and Boot Architecture
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/bootloaders/
+tag: services
 keywords: U-Boot, Arm Trusted Firmware, UEFI, Bootloader, Secure Boot
 icon: /assets/images/content/DeveloperServices-icons_Bootloaders.svg
 layout: flow
-css-package: services
 js-package: services
 image:
     name: LinaroDSVertical.png
     path: /assets/images/content/LinaroDSVertical.png
 flow:
-    - row: custom_include_row
-      source: services/developer_services_page_content.html
+    - row: main_content_row
+      style: text_block
     - row: container_row
-      style: services_form large_type
+      style: services_form large_type bg-primary text-white
       sections:
         - format: title
           title_content:
             size: h2
+            style: text-white
             text: To find out more about Developer Services please complete this form
         - format: custom_include
-          source: components/developer_services_form.html
+          source: services/developer_services_form.html
 ---
 
 Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform, including:

@@ -1,7 +1,7 @@
 ---
 author: yongqin.liu
 categories:
-- blog
+- Blog
 date: 2013-02-05 02:53:36
 description: With the kernel update tools provided by the Linaro Android team, users
   and developers can now update the kernel related files easily by using a few simple

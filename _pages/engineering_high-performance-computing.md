@@ -3,20 +3,19 @@ title: High Performance Computing
 layout: flow
 youtube_playlist: https://www.youtube.com/watch?v=nWJDlg_kpOQ
 permalink: /engineering/high-performance-computing/
-css-package: landing-page
-js-package: engineering-landing-page
+js-package: engineering
 members:
   key: hpc-sig
 image: /assets/images/content/HPCCol.svg
 related_resources_tracks: HPC
 jumbotron:
     title: High Performance Computing
-    title-class: big-title
+    inner_class: dotted
     description: ""
-    background-image: /assets/images/content/hpc-bg.jpg
+    image: /assets/images/content/hpc-bg.jpg
 flow:
   - row: container_row
-    style: large_type introduction_row
+    style: large_type introduction_row py-0
     sections:
       - format: text
         style: text-left no-padding
@@ -58,6 +57,6 @@ flow:
 
 ### Linaro HPC Upcoming Events and Resources from Previous Events:
 
-- Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to Resources](/events/arm-hpc-asia-2019/resources/)
+- Open Source HPC Collaboration on Arm Architecture - Guangzhou January 2019 - [Link to Resources](/events/arm-hpc-asia-2019/)
 - Arm Architecture HPC Workshop - Santa Clara July 2018 - [Link to resources](/events/arm-hpc-santa-clara-2018/#resources)
 - Arm HPC Workshop - Tokyo December 2017 - [Link to resources](/events/arm-hpc-japan-2017/#schedule)

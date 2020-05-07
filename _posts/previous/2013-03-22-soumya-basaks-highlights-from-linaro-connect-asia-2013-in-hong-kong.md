@@ -1,7 +1,7 @@
 ---
 author: soumya.basak
 categories:
-- blog
+- Blog
 date: 2013-03-22 19:12:23
 description: Soumya Basak, QA Services Expert on the Linaro QA Team gives his impressions,
   highlights, and exciting moments of Linaro Connect Asia 2013 in Hong Kong.
