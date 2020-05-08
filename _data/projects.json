@@ -30,7 +30,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
             "Plan Of Record": "TBD",
             "Project Homepage": "<a href=\"https://lkft.linaro.org/\">https://lkft.linaro.org/</a>",
-            "description": "Our missing is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
+            "description": "Our mission is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
             "title": "Linux Kernel Quality"
         },
         "Project Ownership": {
