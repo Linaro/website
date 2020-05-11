@@ -429,6 +429,10 @@ collections:
             name: "title-class"
             required: false
             widget: "string"
+          - label: "Inner Class"
+            name: "inner_class"
+            required: false
+            widget: "string"
           - label: "Description"
             name: "description"
             widget: "text"
