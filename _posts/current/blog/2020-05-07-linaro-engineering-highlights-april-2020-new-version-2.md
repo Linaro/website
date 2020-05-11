@@ -142,4 +142,14 @@ The second blog post is about how the effort enabling the SDM845 on the Dragonbo
 
 ![LEDGE col.svg](/assets/images/content/LEDGE col.svg)
 
-{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg}LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
+{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg} LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
+
+The article exposes the challenges of OTA for current and future systems. OTA can have a significant impact in ITS. For instance, there can be an increase in peak power by 5% (resulting in 0-60mph in 2.9s instead of 3.2s). But it comes with many complexities not experienced in the mobile phone market. So many aspects of OTA in ITS need co-innovation and some form of standardization highlighted in the article.
+
+#### **[Protein Folding on Arm Devices | Helping with COVID-19 ](https://www.96boards.org/blog/crunch-on-arm/)**
+
+Research by Sahaj Sarup
+
+![96boards-vertical-logo.png](/assets/images/content/96boards-vertical-logo.png)
+
+{% include image.html path="/assets/images/content/.96boards-vertical-logo.png" class="small-inline" alt="96boards-vertical-logo.png} Recently I have been spending my spare cycles, along with a few other friends from the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic.
