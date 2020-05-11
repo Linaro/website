@@ -36,7 +36,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
   * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
   * Naresh Kamboju ranked at #10 for reported-by
 
-    \    **Most Active 5.6 Employers**
+    **Most Active 5.6 Employers**
 
        **By Changesets                 By Lines Changed**
 
@@ -61,6 +61,8 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | NXP Semiconductors  | 210  | 1.7%  | NXP Semiconductors | 8689  | 1.3%  |
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
+
+ 
 
  **\    Most Active 5.6 Developers**
 
@@ -125,6 +127,10 @@ With the latest updates in TF-M and PSA, Kevin is working on a recertification w
 Tom Gall, Director LCG
 
 This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
+
+![](/assets/images/content/LCG.png)
+
+{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline" alt="LITE LCG.png}
 
 The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
