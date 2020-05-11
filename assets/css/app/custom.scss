@@ -150,6 +150,10 @@
         position: relative;
         left: -5px;
     }
+    img {
+        height: 48px;
+        width: 48px;
+    }
 }
 #accordion .btn.btn-link.collapsed::after {
       content: "\e80c";
