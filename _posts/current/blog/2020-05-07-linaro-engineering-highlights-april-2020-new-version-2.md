@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Linaro Engineering Highlights: April 2020 '
+title: 'Linaro Engineering Highlights: April 2020 (NEW)'
 date: '2020-05-07 04:47:27'
 image: /assets/images/content/code_banner.jpg
 tags:
