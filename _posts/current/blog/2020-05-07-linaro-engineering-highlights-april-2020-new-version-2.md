@@ -62,8 +62,6 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
 
- 
-
  **\    Most Active 5.6 Developers**
 
 \    **By Changesets                 By Lines Changed**
@@ -139,3 +137,9 @@ The first blog discusses the current state of HiKey and HiKey960 boards and thei
 The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
 
 **[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)**
+
+**OTA article - Industrial Internet Consortium Journal of Innovation** Francois Ozog, Director LEDGE
+
+![LEDGE col.svg](/assets/images/content/LEDGE col.svg)
+
+{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg}LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
