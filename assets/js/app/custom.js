@@ -1,4 +1,23 @@
 $(document).ready(function () {
+  if ($("#community_projects_slider").length > 0) {
+    $("#community_projects_slider").owlCarousel({
+      items: 4,
+      loop: false,
+      dots: false,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        1000: {
+          items: 8,
+        },
+      },
+    });
+  }
   if ($("#projects_slider").length > 0) {
     $("#projects_slider").owlCarousel({
       items: 4,
