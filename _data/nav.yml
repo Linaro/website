@@ -31,6 +31,8 @@ pages:
         text: News & Events
       - text: Careers
         url: /careers/
+      - text: Community Projects
+        url: /community-projects/
       - text: Contact Us
         url: /contact/
     title: About
