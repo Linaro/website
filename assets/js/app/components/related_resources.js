@@ -17,46 +17,78 @@ function createPageElements(items) {
   var sorted_items = items.sort(sort_by_date);
   $.each(sorted_items, function (key, val) {
     // Create a new element for resource
-    var page_element =
-      "<a target='_blank' class='text-white' href='" + val.item_url + "'>";
-    page_element += "<div class='col col-12 col-sm-6 col-lg-4'>";
+    var page_element = "<div class='col col-12 col-sm-6 col-lg-4 mb-3 d-flex'>";
+    page_element += '<div class="card">';
     page_element +=
-      "<div class='card h-100 background_image text-white d-flex flex-column align-items-center justify-content-center text-white'>";
-    page_element +=
-      "<img style='filter:brightness(0.6);' class='card-img-top lazyload' data-src='" +
+      '<img class="card-img-top lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="' +
       val.item_thumbnail +
-      "' alt='" +
-      val.item_title +
-      "' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/>";
-    page_element += "<div class='card-body card-img-overlay'>";
-    page_element += "<h5 class='card-title'>" + val.item_title + "</h5>";
-    page_element += "<p>" + extractDateString(val.item_date_published) + "</p>";
+      '" alt="Card image cap">';
+    page_element += '<div class="card-body">';
+    page_element += '<h5 class="card-title">' + val.item_title + "</h5>";
+    page_element += "</div>";
+    page_element += '<div class="card-body">';
     if (
       val.hasOwnProperty("item_presentation_url") &&
       val.item_presentation_url !== undefined &&
       val.item_presentation_url.length > 0
     ) {
       page_element +=
-        "<a target='_blank' class='btn btn-primary' href='" +
+        '<a target="_blank" href="' +
         val.item_presentation_url +
-        "'>Presentation</a>";
+        '" class="card-link btn btn-primary">Presentation</a>';
     }
-    if (
-      val.hasOwnProperty("item_video_url") &&
-      val.item_video_url !== undefined &&
-      val.item_video_url.length > 0
-    ) {
-      page_element +=
-        "<a target='_blank' class='btn btn-primary' href='" +
-        val.item_video_url +
-        "'>Video</a>";
-    }
+    // if (
+    //   val.hasOwnProperty("item_video_url") &&
+    //   val.item_video_url !== undefined &&
+    //   val.item_video_url.length > 0
+    // ) {
+    //   page_element +=
+    //     "<a target='_blank' class='btn btn-primary' href='" +
+    //     val.item_video_url +
+    //     "'>Video</a>";
+    // }
+    page_element +=
+      '<a href="#" class="card-link btn btn-primary">Card link</a>';
     page_element += "</div>";
     page_element += "</div>";
     page_element += "</div>";
-    page_element += "</a>";
     page_elements.push(page_element);
+    // if (val.video_url !== undefined)
+    //   page_element +=
+    //     "<div class='card h-100 background_image text-white d-flex flex-column align-items-center justify-content-center text-white'>";
+    // page_element +=
+    //   "<img style='filter:brightness(0.6);' class='card-img-top lazyload'  alt='" +
+    //   val.item_title +
+    //   "' />";
+    // page_element += "<div class='card-body card-img-overlay'>";
+    // page_element += "<h5 class='card-title'>" + val.item_title + "</h5>";
+    // page_element += "<p>" + extractDateString(val.item_date_published) + "</p>";
+    // if (
+    //   val.hasOwnProperty("item_presentation_url") &&
+    //   val.item_presentation_url !== undefined &&
+    //   val.item_presentation_url.length > 0
+    // ) {
+    //   page_element +=
+    //     "<a target='_blank' class='btn btn-primary' href='" +
+    //     val.item_presentation_url +
+    //     "'>Presentation</a>";
+    // }
+    // if (
+    //   val.hasOwnProperty("item_video_url") &&
+    //   val.item_video_url !== undefined &&
+    //   val.item_video_url.length > 0
+    // ) {
+    //   page_element +=
+    //     "<a target='_blank' class='btn btn-primary' href='" +
+    //     val.item_video_url +
+    //     "'>Video</a>";
+    // }
+    // page_element += "</div>";
+    // page_element += "</div>";
+    // page_element += "</div>";
+    // page_elements.push(page_element);
   });
+  console.log(sorted_items.slice(0, 9));
   return page_elements.slice(0, 9);
 }
 
