@@ -429,6 +429,10 @@ collections:
             name: "title-class"
             required: false
             widget: "string"
+          - label: "Inner Class"
+            name: "inner_class"
+            required: false
+            widget: "string"
           - label: "Description"
             name: "description"
             widget: "text"
@@ -441,6 +445,7 @@ collections:
           - label: "Slider"
             name: "slider"
             widget: list
+            required: false
             fields:
               - label: "Slide Title"
                 name: "title"
@@ -655,13 +660,13 @@ collections:
                     required: false
                     fields:
                       - {label: "Enable Lightbox", name: lightbox_enabled, widget: boolean, required: false, hint: "Allow slider images to show in a lightbox (popup)"}
-                      - {label: "Slide Delay", name: seconds_per_slide, widget: "number", default: 4, required: false}
+                      - {label: "Slide Delay", name: seconds_per_slide, widget: "number", required: false}
                       - {label: "Enable Arrow Navigation", name: nav, widget: boolean, required: false, hint: "Toggle the arrow navigation on the slider"}
                       - {label: "Enable Slider Dots", name: dots, widget: boolean, required: false, hint: "Toggle the slider dots"}
-                      - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", default: 1, required: false}
-                      - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", default: 2, required: false}
-                      - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", default: 4, required: false}
-                      - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", default: 6, required: false}
+                      - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", required: false}
+                      - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", required: false}
+                      - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", required: false}
+                      - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", required: false}
                       - label: "Slider Items"
                         name: items
                         widget: list
@@ -683,13 +688,13 @@ collections:
                 required: false
                 fields:
                   - {label: "Enable Lightbox", name: lightbox_enabled, widget: boolean, required: false, hint: "Allow slider images to show in a lightbox (popup)"}
-                  - {label: "Slide Delay", name: seconds_per_slide, widget: "number", default: 4, required: false}
+                  - {label: "Slide Delay", name: seconds_per_slide, widget: "number", required: false}
                   - {label: "Enable Arrow Navigation", name: nav, widget: boolean, required: false, hint: "Toggle the arrow navigation on the slider"}
                   - {label: "Enable Slider Dots", name: dots, widget: boolean, required: false, hint: "Toggle the slider dots"}
-                  - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", default: 1, required: false}
-                  - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", default: 2, required: false}
-                  - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", default: 4, required: false}
-                  - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", default: 6, required: false}
+                  - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", required: false}
+                  - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", required: false}
+                  - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", required: false}
+                  - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", required: false}
                   - label: "Slider Items"
                     name: items
                     widget: list
