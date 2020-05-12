@@ -24,7 +24,7 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 ###### **Mark Orvek, VP Engineering**
 
-{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline" alt="CORE ENG.svg}
+{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline left" alt="CORE ENG.svg" %}
 
 As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://www.google.com/url?q=https://lwn.net/Articles/816162/&sa=D&ust=1588606655099000):
 
@@ -92,7 +92,7 @@ Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors t
 
 ### LTP (Linux Test Project)
 
-{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline" alt="CORE ENG.svg}
+{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline left" alt="CORE ENG.svg" %}
 
 Linaro had been asked by the Members to work on the Linux Test Project (aka LTP) and enhance it to cover all the syscalls in the Linux Kernel. With best effort staffing, work had been progressing slowly. In January, Viresh Kumar (KWG) was able to take up this work and put in a sustained effort, quickly closing the gap and adding support for the following syscalls:
 
@@ -116,7 +116,7 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 ![](/assets/images/content/LITE col.svg)
 
-{% include image.html path="/assets/images/content/LITE col.svg ENG.svg" class="small-inline" alt="LITE col.svg}
+{% include image.html path="/assets/images/content/LITE col.svg ENG.svg" class="small-inline left" alt="LITE col.svg" %}
 
 With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
 
@@ -128,7 +128,7 @@ This month the Linaro Consumer Group team released two blog posts highlighting w
 
 ![](/assets/images/content/LCG.png)
 
-{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline" alt="LITE LCG.png}
+{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline left" alt="LITE LCG.png" %}
 
 The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
@@ -152,4 +152,6 @@ Research by Sahaj Sarup
 
 ![96boards-vertical-logo.png](/assets/images/content/96boards-vertical-logo.png)
 
-{% include image.html path="/assets/images/content/.96boards-vertical-logo.png" class="small-inline" alt="96boards-vertical-logo.png} Recently I have been spending my spare cycles, along with a few other friends from the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic.
+{% include image.html path="/assets/images/content/.96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %} 
+
+Recently I have been spending my spare cycles, along with a few other friends from the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic.
