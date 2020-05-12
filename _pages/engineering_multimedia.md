@@ -25,10 +25,14 @@ flow:
     sections:
         - format: custom_include
           params: core,club,Comcast
-          source: related_members.html
+          source: related_ members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
+      - format: title
+        title_content:
+            size: h2
+            text: Improving the media experience on Arm devices
       - format: text
         style: text-left no-padding
         text_content:
