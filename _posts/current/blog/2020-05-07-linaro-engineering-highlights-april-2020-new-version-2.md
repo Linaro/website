@@ -126,9 +126,9 @@ Tom Gall, Director LCG
 
 This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
 
-![](/assets/images/content/LCG.png)
+![LCG.png](/assets/images/content/LCG.png)
 
-{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline left" alt="LITE LCG.png" %}
+{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline left" alt="LCG.png" %}
 
 The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
@@ -142,7 +142,9 @@ The second blog post is about how the effort enabling the SDM845 on the Dragonbo
 
 ![LEDGE col.svg](/assets/images/content/LEDGE col.svg)
 
-{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg} LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
+{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg" %}
+
+LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
 
 The article exposes the challenges of OTA for current and future systems. OTA can have a significant impact in ITS. For instance, there can be an increase in peak power by 5% (resulting in 0-60mph in 2.9s instead of 3.2s). But it comes with many complexities not experienced in the mobile phone market. So many aspects of OTA in ITS need co-innovation and some form of standardization highlighted in the article.
 
