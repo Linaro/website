@@ -2,7 +2,7 @@
 {% assign unique_projects = "" | split: ',' %}
 
 
-{% for project in site.data.projects.items %}
+{% for project in site.data.opensourceprojects.items %}
     {% if project_keys contains project.name %}
         {% unless unique_projects contains project %}
             {% assign unique_projects = unique_projects | push: project %}
