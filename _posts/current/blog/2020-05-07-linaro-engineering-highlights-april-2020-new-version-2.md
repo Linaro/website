@@ -36,7 +36,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
   * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
   * Naresh Kamboju ranked at #10 for reported-by
 
-    **Most Active 5.6 Employers**
+    \    **Most Active 5.6 Employers**
 
        **By Changesets                 By Lines Changed**
 
@@ -61,6 +61,8 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | NXP Semiconductors  | 210  | 1.7%  | NXP Semiconductors | 8689  | 1.3%  |
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
+
+\    
 
  **\    Most Active 5.6 Developers**
 
@@ -116,7 +118,7 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 ![](/assets/images/content/LITE col.svg)
 
-{% include image.html path="/assets/images/content/LITE col.svg ENG.svg" class="small-inline left" alt="LITE col.svg" %}
+{% include image.html path="/assets/images/content/LITE col.svg" class="small-inline left" alt="LITE col.svg" %}
 
 With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
 
@@ -128,7 +130,7 @@ This month the Linaro Consumer Group team released two blog posts highlighting w
 
 ![LCG.png](/assets/images/content/LCG.png)
 
-{% include image.html path="/assets/images/content/LCG.png LCG.png" class="small-inline left" alt="LCG.png" %}
+{% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="LCG.png" %}
 
 The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
@@ -142,7 +144,7 @@ The second blog post is about how the effort enabling the SDM845 on the Dragonbo
 
 ![LEDGE col.svg](/assets/images/content/LEDGE col.svg)
 
-{% include image.html path="/assets/images/content/.LEDGE col.svg" class="small-inline" alt="LEDGE col.svg" %}
+{% include image.html path="/assets/images/content/LEDGE col.svg" class="small-inline" alt="LEDGE col.svg" %}
 
 LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
 
