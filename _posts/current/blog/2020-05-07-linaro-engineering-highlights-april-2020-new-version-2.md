@@ -62,11 +62,11 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
 
-\    
+   
 
- **\    Most Active 5.6 Developers**
+\     **Most Active 5.6 Developers**          
 
-\    **By Changesets                 By Lines Changed**
+ **\    By Changesets                 By Lines Changed**
 
 | Takashi Iwai        | 406 | 3.2% | Kalle Valo          | 48483 | 7.2% |
 | ------------------- | --- | ---- | ------------------- | ----- | ---- |
