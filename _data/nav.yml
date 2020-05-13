@@ -31,6 +31,8 @@ pages:
         text: News & Events
       - text: Careers
         url: /careers/
+      - text: Community Projects
+        url: /community-projects/
       - text: Contact Us
         url: /contact/
     title: About
@@ -76,6 +78,8 @@ pages:
       - text: Multimedia
         url: /engineering/multimedia/
     title: Engineering
+  - title: Projects
+    url: /projects/
   - title: Membership
     url: /membership/
   - options:

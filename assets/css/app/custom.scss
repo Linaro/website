@@ -8,6 +8,16 @@
     }
 }
 #wrapper {
+    .jumbotron .container h1 {
+        color: #fff;
+        margin: 0;
+    }
+    a.email-icon {
+        font-size: 40px;
+        top: -4px;
+        position: absolute;
+        padding-left: 10px;
+    }
     #wrapper .block__text blockquote {
         font-size: 20px;
     }
@@ -108,7 +118,7 @@
     background-color: white;
     border-radius: 10px;
   }
-  .row.members_row {
+  .members_row {
     .member_image {
       height: 100px !important;
       background-color: white;
@@ -131,4 +141,31 @@
   .key_stats_row img {
     height: 200px;
   }
+}
+#projects {
+    font-size: 1rem;
+    .icon-mail {
+        font-size: 22px;
+        top: -10px;
+        position: relative;
+        left: -5px;
+    }
+    img {
+        height: 48px;
+        width: 48px;
+    }
+}
+#accordion .btn.btn-link.collapsed::after {
+      content: "\e80c";
+    font-size: 30px;
+}
+#accordion .btn.btn-link::after {
+    content: "\e80d";
+    color: #333;
+    top: 20px;
+    right: 0px;
+    position: absolute;
+    font-size: 30px;
+    margin-right: 30px;
+    font-family: "fontello";
 }
