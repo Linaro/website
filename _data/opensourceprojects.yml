@@ -93,14 +93,17 @@ items:
     image: /assets/images/projects/gnu.png
     url: https://www.gnu.org/
   - name: MCU Boot
-    image: /assets/images/projects/mcuboot.png
+    image: /assets/images/content/mcuboot.png
     url: https://mcuboot.com/
   - name: MicroPython
-    image: /assets/images/projects/micropython.png
+    image: /assets/images/content/micropython.png
     url: http://micropython.org/
   - name: OpenAMPProject
     image: /assets/images/content/openampprpoject.png
     url: https://www.openampproject.org/
+  - name: TrustedFirmware
+    image: /assets/images/content/trustedfirmware.png
+    url: https://www.trustedfirmware.org/
   - name: CentOS
     image: /assets/images/projects/centos.png
     url: https://www.centos.org/
