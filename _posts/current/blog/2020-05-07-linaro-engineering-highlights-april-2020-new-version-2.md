@@ -144,7 +144,7 @@ LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the 
 
 The article exposes the challenges of OTA for current and future systems. OTA can have a significant impact in ITS. For instance, there can be an increase in peak power by 5% (resulting in 0-60mph in 2.9s instead of 3.2s). But it comes with many complexities not experienced in the mobile phone market. So many aspects of OTA in ITS need co-innovation and some form of standardization highlighted in the article.
 
-#### **[Protein Folding on Arm Devices | Helping with COVID-19 ](https://gist.github.com/linaro-build/2d42dafd0ec00e4813660cb4168a1470#file-jekyll-output-txt-L8026)**
+#### **[Protein Folding on Arm Devices | Helping with COVID-19](https://www.96boards.org/blog/crunch-on-arm/)** 
 
 Research by Sahaj Sarup
 
