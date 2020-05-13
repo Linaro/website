@@ -116,8 +116,6 @@ Linaro IoT and Embedded (LITE)
 
 Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integration with Zephyr. This effort was featured on the PSA Certified website in the Partner [showcase](https://www.psacertified.org/partner-showcase/).
 
-![](/assets/images/content/LITE col.svg)
-
 {% include image.html path="/assets/images/content/LITE col.svg" class="small-inline left" alt="LITE col.svg" %}
 
 With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
@@ -127,8 +125,6 @@ With the latest updates in TF-M and PSA, Kevin is working on a recertification w
 Tom Gall, Director LCG
 
 This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
-
-![LCG.png](/assets/images/content/LCG.png)
 
 {% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="LCG.png" %}
 
@@ -142,8 +138,6 @@ The second blog post is about how the effort enabling the SDM845 on the Dragonbo
 
 **OTA article - Industrial Internet Consortium Journal of Innovation** Francois Ozog, Director LEDGE
 
-![LEDGE col.svg](/assets/images/content/LEDGE col.svg)
-
 {% include image.html path="/assets/images/content/LEDGE col.svg" class="small-inline" alt="LEDGE col.svg" %}
 
 LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
@@ -153,8 +147,6 @@ The article exposes the challenges of OTA for current and future systems. OTA ca
 #### **[Protein Folding on Arm Devices | Helping with COVID-19 ](https://www.96boards.org/blog/crunch-on-arm/)**
 
 Research by Sahaj Sarup
-
-![96boards-vertical-logo.png](/assets/images/content/96boards-vertical-logo.png)
 
 {% include image.html path="/assets/images/content/.96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %} 
 
