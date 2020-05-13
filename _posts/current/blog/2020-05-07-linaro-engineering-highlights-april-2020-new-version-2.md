@@ -108,7 +108,7 @@ Linaro had been asked by the Members to work on the Linux Test Project (aka LTP)
 * Clone3
 * Openat2
 
-All of the above have been merged,  while work is in progress for three syscalls related to io_uring supported by an ARM member engineer. In addition, twenty new syscalls have been added to the task, all related to the time64 variants and these are now underway. Further information is available in [KWG-326.](https://projects.linaro.org/browse/LKQ-43)
+All of the above have been merged, while work is in progress for three syscalls related to io_uring supported by an ARM member engineer. In addition, twenty new syscalls have been added to the task, all related to the time64 variants and these are now underway. Further information is available in [KWG-326.](https://projects.linaro.org/browse/LKQ-43)
 
 ### [PSA Level 1 Certification Showcase](https://www.psacertified.org/app/uploads/2020/04/PSA_Certified-Zephyr_Partner_Showcase.pdf)
 
@@ -138,13 +138,13 @@ The second blog post is about how the effort enabling the SDM845 on the Dragonbo
 
 **OTA article - Industrial Internet Consortium Journal of Innovation** Francois Ozog, Director LEDGE
 
-{% include image.html path="/assets/images/content/LEDGE col.svg" class="small-inline" alt="LEDGE col.svg" %}
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline" alt="ledge.jpg" %}
 
 LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the Industrial Internet Consortium and was proposed to author an article on OTA and Intelligent Transport Systems (ITS). It was [published](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf) on March 27th in the Journal of Innovation web page after circulation for validation amongst LEDGE members.
 
 The article exposes the challenges of OTA for current and future systems. OTA can have a significant impact in ITS. For instance, there can be an increase in peak power by 5% (resulting in 0-60mph in 2.9s instead of 3.2s). But it comes with many complexities not experienced in the mobile phone market. So many aspects of OTA in ITS need co-innovation and some form of standardization highlighted in the article.
 
-#### **[Protein Folding on Arm Devices | Helping with COVID-19 ](https://www.96boards.org/blog/crunch-on-arm/)**
+#### **[Protein Folding on Arm Devices | Helping with COVID-19 ](https://gist.github.com/linaro-build/2d42dafd0ec00e4813660cb4168a1470#file-jekyll-output-txt-L8026)**
 
 Research by Sahaj Sarup
 
