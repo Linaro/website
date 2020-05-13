@@ -2,7 +2,7 @@
 layout: post
 title: 'Linaro Engineering Highlights: April 2020 (NEW)'
 date: '2020-05-07 04:47:27'
-image: /assets/images/content/code_banner.jpg
+image: /assets/images/content/code.jpg
 tags:
   - Linaro
   - Engineering
@@ -24,7 +24,7 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 ###### **Mark Orvek, VP Engineering**
 
-{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline left" alt="CORE ENG.svg" %}
+{% include image.html path="/assets/images/content/core-eng.jpg" class="medium-inline left" alt="core-eng.jpg" %}
 
 As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://www.google.com/url?q=https://lwn.net/Articles/816162/&sa=D&ust=1588606655099000):
 
@@ -94,7 +94,7 @@ Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors t
 
 ### LTP (Linux Test Project)
 
-{% include image.html path="/assets/images/content/CORE ENG.svg" class="medium-inline left" alt="CORE ENG.svg" %}
+{% include image.html path="/assets/images/content/core-eng.jpg" class="medium-inline left" alt="core-eng.jpg" %}
 
 Linaro had been asked by the Members to work on the Linux Test Project (aka LTP) and enhance it to cover all the syscalls in the Linux Kernel. With best effort staffing, work had been progressing slowly. In January, Viresh Kumar (KWG) was able to take up this work and put in a sustained effort, quickly closing the gap and adding support for the following syscalls:
 
@@ -116,7 +116,7 @@ Linaro IoT and Embedded (LITE)
 
 Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integration with Zephyr. This effort was featured on the PSA Certified website in the Partner [showcase](https://www.psacertified.org/partner-showcase/).
 
-{% include image.html path="/assets/images/content/LITE col.svg" class="small-inline left" alt="LITE col.svg" %}
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="lite.jpg" %}
 
 With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
 
@@ -126,9 +126,9 @@ Tom Gall, Director LCG
 
 This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
 
-{% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="LCG.png" %}
+{% include image.html path="/assets/images/content/LCG.jpg" class="small-inline left" alt="LCG.jpg" %}
 
-The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
+oid Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
 * [Update on HiKey/Hikey960 efforts in AOSP](https://www.linaro.org/blog/update-on-hikey-hikey960-efforts-in-aosp/)
 
