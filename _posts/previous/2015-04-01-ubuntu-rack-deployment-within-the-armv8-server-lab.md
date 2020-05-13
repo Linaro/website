@@ -22,7 +22,7 @@ wordpress_id: 8419
 **About**
 [Part one of this series](/blog/armv8-server-lab/) gave an overview of the Armv8 Server Cluster. This article deals with some of the challenges we faced with our “rack 1” Ubuntu systems.
 
-We wanted the Ubuntu rack to use Canonical technologies for handling server deployments. As a result we focused on using [MAAS](https://maas.ubuntu.com/) for bare-metal deployment and [Juju](https://juju.ubuntu.com/) for deploying [OpenStack](http://www.openstack.org/). This would allow us to loan out both bare-metal systems and virtual machines.
+We wanted the Ubuntu rack to use Canonical technologies for handling server deployments. As a result we focused on using [MAAS](https://maas.io/) for bare-metal deployment and [Juju](https://juju.ubuntu.com/) for deploying [OpenStack](http://www.openstack.org/). This would allow us to loan out both bare-metal systems and virtual machines.
 
 **Deploying MAAS**
 MAAS has support for HP Moonshot which gave us “theoretical” support of the APM mustangs deployed in the lab. While deploying everything we did hit some interesting hiccups.
