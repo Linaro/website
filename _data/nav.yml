@@ -77,6 +77,8 @@ pages:
         url: /engineering/iot-and-embedded/
       - text: Multimedia
         url: /engineering/multimedia/
+      - text: Security
+        url: /engineering/security/
     title: Engineering
   - title: Projects
     url: /projects/
