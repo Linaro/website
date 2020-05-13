@@ -2,7 +2,7 @@
 layout: post
 title: '96Boards Promotion in collaboration with Arrow Electronics, Shiratech and ST'
 date: '2020-05-13 02:15:57'
-image: /assets/images/content/96boards-logo.png
+image: /assets/images/content/96boards-avenger.png
 tags:
   - 96Boards
   - Arrow Electronics
@@ -19,13 +19,13 @@ author: jon.burcham@linaro.org
 
 The Avenger96 board featuring STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things (IoT). The Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE. 
 
-![](/assets/images/content/96boards-avenger.png "96Boards Avenger")
+{% include image.html path="/assets/images/content/96boards-avenger.png" alt="96boards-avenger.png" %}
 
 Kamel KHOLTI (MPU Marketing Manager at ST) cited “with the Linaro 96 boards including the STM32MP1 heterogenous architecture combining the dual CortexA7 and Cortex M4, customers can now target new range of application where they can reduce time to market by porting their application on top of the mainlined SW distribution . ST is happy to see strong adoption of the STM32MP1”
 
 Alternatively the Stinger96 is Shiratech’s NEW 96Boards IoT solution based on ST STM32MP157 MPU + QUECTEL BG96 NB-IOT modem. The Board is 96Boards IoT Edition Extended Compatible (IE extended) and has full support for 96Boards IoT Edition (IE) Low Speed expansion connector. Key features of this board include a 32-bit dual-core Arm® Cortex®-A7, an external DDR memory (DDR3 – 256M X 32Bit), secure boot, TrustZone® IPs and active tamper. Complete with full 96 IOT LS connector Interface (1.8V interface).
 
-![](/assets/images/content/96boards-stinger.jpg "96Boards Stinger")
+{% include image.html path="/assets/images/content/96boards-stinger.jpg" alt="96boards-stinger.jpg" %}
 
 These boards will be supplied by global technology solutions provider Arrow. The company provides electronic components and enterprise computing solutions for customers and suppliers in industrial and commercial markets. STM32MP157 series of silicons are manufactured by ST who is one of the world’s largest semiconductor companies, with over 100,000 customers and operating 80 sales offices in 35 countries. Shiratech is renowned for combining extensive hardware design expertise with the benefits of advanced sensor driven data monitoring and artificial intelligence to make your assets smart.
 
