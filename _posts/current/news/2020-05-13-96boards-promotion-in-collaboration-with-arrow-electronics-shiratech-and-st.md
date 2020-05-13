@@ -29,6 +29,6 @@ Alternatively the Stinger96 is Shiratech’s NEW 96Boards IoT solution based on 
 
 These boards will be supplied by global technology solutions provider Arrow. The company provides electronic components and enterprise computing solutions for customers and suppliers in industrial and commercial markets. STM32MP157 series of silicons are manufactured by ST who is one of the world’s largest semiconductor companies, with over 100,000 customers and operating 80 sales offices in 35 countries. Shiratech is renowned for combining extensive hardware design expertise with the benefits of advanced sensor driven data monitoring and artificial intelligence to make your assets smart.
 
-Please note that this is an online promotion dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards. To apply for your board, click [here](96boards.org/avenger96-stinger96-giveaway/). For the best chance of obtaining a free board, please provide a detailed description of your proposed project.
+Please note that this is an online promotion dedicated to Arrow's 96Boards products, main and mezzanine, around STM's MP1 96Boards. To apply for your board, click [here](https://www.96boards.org/avenger96-stinger96-giveaway/). For the best chance of obtaining a free board, please provide a detailed description of your proposed project.
 
 \*Please note that samples are subject to availability and are limited to a total maximum of 500 units.
