@@ -24,7 +24,7 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 ###### **Mark Orvek, VP Engineering**
 
-{% include image.html path="/assets/images/content/core-eng.jpg" class="medium-inline left" alt="core-eng.jpg" %}
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="core-eng.jpg" %}
 
 As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](lwn.net/Articles/816162/.):
 
@@ -39,7 +39,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
     **Most Active 5.6 Employers**
 
 
-| By Changesets                 |  |  | By Lines Changed              | |  |
+| By Changesets                 |  |  | By Lines Changed             | |  |
 | Intel               | 1694 | 13.4% | Intel              | 78083 | 11.5% |
 | ------------------- | ---- | ----- | ------------------ | ----- | ----- |
 | (Unknown)           | 904  | 7.1%  | Code Aurora Forum  | 68538 | 10.1% |
@@ -61,7 +61,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | NXP Semiconductors  | 210  | 1.7%  | NXP Semiconductors | 8689  | 1.3%  |
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
-{:.table}
+{:.table.my-5}
 
 **Most Active 5.6 Developers**          
 
@@ -87,13 +87,13 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Thomas Zimmermann   | 80  | 0.6% | Roman Li            | 4852  | 0.7% |
 | Jens Axboe          | 77  | 0.6% | Thierry Reding      | 4845  | 0.7% |
 | Jani Nikula         | 74  | 0.6% | Sunil Goutham       | 4762  | 0.7% |
-{:.table}
+{:.table.my-5}
 
 Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors to the 5.6 kernel and a thank you to all those who keep Linaro in the top ten Linux Kernel contributors every release.
 
 ### LTP (Linux Test Project)
 
-{% include image.html path="/assets/images/content/core-eng.jpg" class="medium-inline left" alt="core-eng.jpg" %}
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="core-eng.jpg" %}
 
 Linaro had been asked by the Members to work on the Linux Test Project (aka LTP) and enhance it to cover all the syscalls in the Linux Kernel. With best effort staffing, work had been progressing slowly. In January, Viresh Kumar (KWG) was able to take up this work and put in a sustained effort, quickly closing the gap and adding support for the following syscalls:
 
