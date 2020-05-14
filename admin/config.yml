@@ -1000,7 +1000,7 @@ collections:
       - { label: 'Last Name', name: 'last_name', widget: 'string', required: true}
       - { label: 'Username', name: 'username', widget: 'string', required: true}
       - label: 'Image'
-        name: 'image_path'
+        name: 'image'
         widget: 'image'
         default: '/assets/images/content/avatar-placeholder.png'
         required: false
