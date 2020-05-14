@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Linaro Engineering Highlights: April 2020 (NEW)'
+title: 'Linaro Engineering Highlights: April 2020'
 date: '2020-05-07 04:47:27'
 image: /assets/images/content/code.jpg
 tags:
@@ -26,7 +26,7 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="medium-inline left" alt="core-eng.jpg" %}
 
-As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://www.google.com/url?q=https://lwn.net/Articles/816162/&sa=D&ust=1588606655099000):
+As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](lwn.net/Articles/816162/.):
 
 * Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets. 
 * Two Linaro employees (Arnd Bergmann and Srinivas Kandagatla) are #2 and #7 individual contributors by number of lines changed.
@@ -34,11 +34,11 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 * Not mentioned in the article but two other key statistics  
 
   * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
-  * Naresh Kamboju ranked at #10 for reported-by
+  * Naresh Kamboju ranked at #10 for reported-
 
-    \    **Most Active 5.6 Employers**
+    **Most Active 5.6 Employers**
 
-       **By Changesets                 By Lines Changed**
+    **By Changesets                               By Lines Changed**
 
 | Intel               | 1694 | 13.4% | Intel              | 78083 | 11.5% |
 | ------------------- | ---- | ----- | ------------------ | ----- | ----- |
@@ -62,33 +62,31 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
 
-   
-
 \     **Most Active 5.6 Developers**          
 
  **\    By Changesets                 By Lines Changed**
 
-| Takashi Iwai        | 406 | 3.2% | Kalle Valo          | 48483 | 7.2% |
+| Takashi Iwai        | 406 | 3.2% | Kalle Valo          | 48483 |   7.2% |
 | ------------------- | --- | ---- | ------------------- | ----- | ---- |
-| Chris Wilson        | 306 | 2.4% | Arnd Bergmann       | 29415 | 4.3% |
-| Sean Christopherson | 143 | 1.1% | Jason A. Donenfeld  | 18664 | 2.8% |
-| Jérôme Pouiller     | 125 | 1.0% | Ben Skeggs          | 13471 | 2.0% |
-| Eric Biggers        | 122 | 1.0% | Greg Kroah-Hartman  | 11931 | 1.8% |
-| Arnd Bergmann       | 114 | 0.9% | Chris Wilson        | 10615 | 1.6% |
-| Zheng Bin           | 110 | 0.9% | Srinivas Kandagatla | 8739  | 1.3% |
-| Geert Uytterhoeven  | 103 | 0.9% | Alex Maftei         | 8581  | 1.3% |
-| Greg Kroah-Hartman  | 103 | 0.8% | Maxime Ripard       | 7521  | 1.1% |
-| Masahiro Yamada     | 94  | 0.7% | Peter Ujfalusi      | 6970  | 1.0% |
-| Colin Ian King      | 92  | 0.7% | Tony Lindgren       | 6320  | 0.9% |
-| Ben Skeggs          | 91  | 0.7% | Helen Koike         | 5789  | 0.9% |
-| Ville Syrjälä       | 90  | 0.7% | Takashi Iwai        | 5622  | 0.8% |
-| Andy Shevchenko     | 88  | 0.7% | Shuming Fan         | 5604  | 0.8% |
-| Russel King         | 88  | 0.7% | Michal Kalderon     | 5445  | 0.8% |
-| Alex Deucher        | 86  | 0.7% | Sricharan R         | 5065  | 0.7% |
-| Krzysztof Kozlowski | 82  | 0.6% | Andrii Nakryiko     | 4857  | 0.7% |
-| Thomas Zimmermann   | 80  | 0.6% | Roman Li            | 4852  | 0.7% |
-| Jens Axboe          | 77  | 0.6% | Thierry Reding      | 4845  | 0.7% |
-| Jani Nikula         | 74  | 0.6% | Sunil Goutham       | 4762  | 0.7% |
+| Chris Wilson        | 306 | 2.4% | Arnd Bergmann       | 29415 |   4.3% |
+| Sean Christopherson | 143 | 1.1% | Jason A. Donenfeld  | 18664 |   2.8% |
+| Jérôme Pouiller     | 125 | 1.0% | Ben Skeggs          | 13471 |   2.0% |
+| Eric Biggers        | 122 | 1.0% | Greg Kroah-Hartman  | 11931 |   1.8% |
+| Arnd Bergmann       | 114 | 0.9% | Chris Wilson        | 10615 |   1.6% |
+| Zheng Bin           | 110 | 0.9% | Srinivas Kandagatla | 8739  |   1.3% |
+| Geert Uytterhoeven  | 103 | 0.9% | Alex Maftei         | 8581  |   1.3% |
+| Greg Kroah-Hartman  | 103 | 0.8% | Maxime Ripard       | 7521  |   1.1% |
+| Masahiro Yamada     | 94  | 0.7% | Peter Ujfalusi      | 6970  |   1.0% |
+| Colin Ian King      | 92  | 0.7% | Tony Lindgren       | 6320  |   0.9% |
+| Ben Skeggs          | 91  | 0.7% | Helen Koike         | 5789  |   0.9% |
+| Ville Syrjälä       | 90  | 0.7% | Takashi Iwai        | 5622  |   0.8% |
+| Andy Shevchenko     | 88  | 0.7% | Shuming Fan         | 5604  |   0.8% |
+| Russel King         | 88  | 0.7% | Michal Kalderon     | 5445  |   0.8% |
+| Alex Deucher        | 86  | 0.7% | Sricharan R         | 5065  |   0.7% |
+| Krzysztof Kozlowski | 82  | 0.6% | Andrii Nakryiko     | 4857  |   0.7% |
+| Thomas Zimmermann   | 80  | 0.6% | Roman Li            | 4852  |   0.7% |
+| Jens Axboe          | 77  | 0.6% | Thierry Reding      | 4845  |   0.7% |
+| Jani Nikula         | 74  | 0.6% | Sunil Goutham       | 4762  |   0.7% |
 
 Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors to the 5.6 kernel and a thank you to all those who keep Linaro in the top ten Linux Kernel contributors every release.
 
@@ -144,7 +142,7 @@ LEDGE has a leadership role in Over-The-Air (OTA) Special Interest Group in the 
 
 The article exposes the challenges of OTA for current and future systems. OTA can have a significant impact in ITS. For instance, there can be an increase in peak power by 5% (resulting in 0-60mph in 2.9s instead of 3.2s). But it comes with many complexities not experienced in the mobile phone market. So many aspects of OTA in ITS need co-innovation and some form of standardization highlighted in the article.
 
-#### **[Protein Folding on Arm Devices | Helping with COVID-19](https://www.96boards.org/blog/crunch-on-arm/)** 
+#### **[Protein Folding on Arm Devices | Helping with COVID-19](https://www.96boards.org/blog/crunch-on-arm/)**
 
 Research by Sahaj Sarup
 
