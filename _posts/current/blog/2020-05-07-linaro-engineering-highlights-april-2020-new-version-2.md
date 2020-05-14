@@ -119,6 +119,10 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. 
 
+<br/> 
+<br/> 
+<br/> 
+
 ### **Linaro Consumer Group (LCG) News**
 
 Tom Gall, Director LCG
@@ -133,9 +137,7 @@ The first blog discusses the current state of HiKey and HiKey960 boards and thei
 
 The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
 
-**[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)**
-
-
+**[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)** 
 
 **OTA article - Industrial Internet Consortium Journal of Innovation** Francois Ozog, Director LEDGE
 
