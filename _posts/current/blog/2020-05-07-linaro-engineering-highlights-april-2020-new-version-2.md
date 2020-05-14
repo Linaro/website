@@ -126,7 +126,7 @@ Tom Gall, Director LCG
 
 This month the Linaro Consumer Group team released two blog posts highlighting work going on within the segment group and in coordination with our Member companies.
 
-{% include image.html path="/assets/images/content/LCG.jpg" class="small-inline left" alt="LCG.jpg" %}
+{% include image.html path="/assets/images/content/lcg.jpg" class="small-inline left" alt="lcg.jpg" %}
 
 oid Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
@@ -148,6 +148,6 @@ The article exposes the challenges of OTA for current and future systems. OTA ca
 
 Research by Sahaj Sarup
 
-{% include image.html path="/assets/images/content/.96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %} 
+{% include image.html path="/assets/images/content/96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %} 
 
 Recently I have been spending my spare cycles, along with a few other friends from the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic.
