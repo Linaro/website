@@ -126,7 +126,7 @@ This month the Linaro Consumer Group team released two blog posts highlighting w
 
 {% include image.html path="/assets/images/content/lcg.jpg" class="small-inline left" alt="lcg.jpg" %}
 
-oid Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
+The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
 
 * [Update on HiKey/Hikey960 efforts in AOSP](https://www.linaro.org/blog/update-on-hikey-hikey960-efforts-in-aosp/)
 
