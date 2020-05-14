@@ -26,7 +26,7 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="core-eng.jpg" %}
 
-As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](lwn.net/Articles/816162/.):
+As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://lwn.net/Articles/816162/):
 
 * Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets. 
 * Two Linaro employees (Arnd Bergmann and Srinivas Kandagatla) are #2 and #7 individual contributors by number of lines changed.
