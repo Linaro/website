@@ -60,8 +60,8 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | NXP Semiconductors  | 210  | 1.7%  | NXP Semiconductors | 8689  | 1.3%  |
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
+{:.table.my-5}
 
-{:.table.my-5} <br/> 
 
 **Most Active 5.6 Developers**          
 
@@ -87,8 +87,9 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Thomas Zimmermann   | 80  | 0.6%  | Roman Li            | 4852  | 0.7%  | 
 | Jens Axboe          | 77  | 0.6%  | Thierry Reding      | 4845  | 0.7%  | 
 | Jani Nikula         | 74  | 0.6%  | Sunil Goutham       | 4762  | 0.7%  | 
+{:.table.my-5}
 
-{:.table.my-5} Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors to the 5.6 kernel and a thank you to all those who keep Linaro in the top ten Linux Kernel contributors every release. <br/> <br/> <br/>
+Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors to the 5.6 kernel and a thank you to all those who keep Linaro in the top ten Linux Kernel contributors every release. <br/> <br/> <br/>
 
 ### LTP (Linux Test Project)
 
