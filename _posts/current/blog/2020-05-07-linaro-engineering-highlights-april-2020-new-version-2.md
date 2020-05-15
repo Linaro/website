@@ -39,7 +39,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 **Most Active 5.6 Employers**
 
 | By Changesets       |      |       | By Lines Changed   |       |       |
-| ------------------- | ---- | ----- | ------------------ | ----- | ----- |
+| :------------------- | :----: | :-----: | :------------------ | :-----: | :-----: |
 | Intel               | 1694 | 13.4% | Intel              | 78083 | 11.5% |
 | (Unknown)           | 904  | 7.1%  | Code Aurora Forum  | 68538 | 10.1% |
 | AMD                 | 781  | 6.2%  | Linaro             | 59492 | 8.8%  |
@@ -65,9 +65,9 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 
 **Most Active 5.6 Developers**          
 
-| \| By Changesets    |     |       | By Lines Changed    |       |      |    
-| ------------------- | --- | ----  | ------------------- | ----- | ---- | --- | ------------ | --- | ---- | ---------- | ----- | ---- |
-| Takashi Iwai        | 406 | 3.2%  | Kalle Valo          | 48483 | 7.2%  |
+| \| By Changesets    |      |      | By Lines Changed    |       |       |    
+| ------------------- | ---- | ---- | ------------------  | ----- | ----- | 
+| Takashi Iwai        | 406 | 3.2-% | Kalle Valo          | 48483 | 7.2%  |
 | Chris Wilson        | 306 | 2.4%  | Arnd Bergmann       | 29415 | 4.3%  | 
 | Sean Christopherson | 143 | 1.1%  | Jason A. Donenfeld  | 18664 | 2.8%  | 
 | Jérôme Pouiller     | 125 | 1.0%  | Ben Skeggs          | 13471 | 2.0%  | 
