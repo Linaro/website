@@ -72,7 +72,7 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "This project documents all the upstream maintainers' work.\r<br>",
+            "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result they become responsible as maintainers of the code they create upstream for keeping it in sync with the overall development of respective upstream projects.\r<br>\r<br>This JIRA project documents upstream maintainership work for Linaro's upstream maintainers.\r<br>",
             "title": "Upstream Maintainership"
         },
         "Project Ownership": {
