@@ -30,10 +30,10 @@ In this video, the Linaro Power Management Working Group (Steve Jahnke and Vince
 
 The video can also be downloaded in WebM format:
 
-  * [WebM / VP8 codec, 800x450 resolution](https://free-electrons.com/pub/video/2011/linaro/aug/linaro-2011-q3-jahnke-guittot-thermal-management-450p.webm)
+  * [WebM / VP8 codec, 800x450 resolution](https://bootlin.com/pub/video/2011/linaro/aug/linaro-2011-q3-jahnke-guittot-thermal-management-450p.webm)
 
 
-  * [WebM / VP8 codec, full HD resolution](https://free-electrons.com/pub/video/2011/linaro/aug/linaro-2011-q3-jahnke-guittot-thermal-management.webm)
+  * [WebM / VP8 codec, full HD resolution](https://bootlin.com/pub/video/2011/linaro/aug/linaro-2011-q3-jahnke-guittot-thermal-management.webm)
 
 According to Steve and Vincent, the thermal management framework that they propose is SoC agnostic (it will support all the different Arm chips), and kept the spirit of the framework currently available on the x86 platform.
 
