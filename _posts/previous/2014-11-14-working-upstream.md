@@ -165,7 +165,7 @@ I strongly recommend Thomas's Petazzonni presentation, "SoC mainlining, lessons 
 
 [6] [http://lwn.net/Articles/145135](http://lwn.net/Articles/145135)
 
-[7] [http://free-electrons.com/pub/conferences/2014/elc/petazzoni-soc-mainlining-lessons-learned/petazzoni-soc-mainlining-lessons-learned.pdf](http://free-electrons.com/pub/conferences/2014/elc/petazzoni-soc-mainlining-lessons-learned/petazzoni-soc-mainlining-lessons-learned.pdf)
+[7] [https://bootlin.com/pub/conferences/2014/elc/petazzoni-soc-mainlining-lessons-learned/petazzoni-soc-mainlining-lessons-learned.pdf](https://bootlin.com/pub/conferences/2014/elc/petazzoni-soc-mainlining-lessons-learned/petazzoni-soc-mainlining-lessons-learned.pdf)
 
 [8] [https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/SubmittingPatches)
 
