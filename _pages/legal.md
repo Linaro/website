@@ -633,4 +633,7 @@ flow:
 
                 **Payment instructions:**
                 Payments are done through Paypal. To complete payment, you will need to fill in your billing address, click ‘Make Payment’ and then press the Paypal button on the following page to complete the transaction.
+            - title: Articles of Association
+              content: |
+                To view Linaro's Articles of Association please click [here](/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
 ---
