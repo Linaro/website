@@ -15,5 +15,5 @@ flow:
           # category: News
         - format: custom_include
           source: blog/display_latest_posts.html
-          # category: News
+          category: Blog
 ---
