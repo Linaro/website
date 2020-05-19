@@ -2,11 +2,12 @@
 layout: post
 title: The KissCache caching server
 date: '2020-05-18 05:56:56'
-image: /assets/images/content/data-center-1-.jpg
+image: /assets/images/content/technology-3389917_1920.jpg
 tags:
   - caching
   - server
   - KissCache
+  - Squid
 category: Blog
 author: jon.burcham@linaro.org
 ---
@@ -58,6 +59,29 @@ docker-compose build
 docker-compose up
 ```
 
-The instance will be available[ **http://localhost:8001**](http://localhost:8001)**.**
+The instance will be available **http://localhost:8001**
 
-<!--EndFragment-->
+You can now use this KissCache instance by prefixing the URL:
+
+```
+shell
+curl
+"http://localhost:8001/api/v1/fetch/?url=https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.40.tar.xz"
+```
+
+KissCache workers will download the resource and stream it back to you.
+
+## **Configuration**
+
+### **TTL**
+
+By default, KissCache will keep each URL for 10 days. The admin may update the default value while users can specify the duration in the request URL.
+
+```
+curl
+"http://localhost:8001/api/v1/fetch/?ttl=1d&url=https://lkft.linaro.org"
+```
+
+Every hour, KissCache will automatically delete resources that are outdated.
+
+### **Quota**
