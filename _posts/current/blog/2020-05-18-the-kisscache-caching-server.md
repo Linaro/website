@@ -15,7 +15,7 @@ Linaro has recently developed an open-sourced [KissCache](https://git.lavasoftwa
 
 Unlike classical proxies like [Squid](http://www.squid-cache.org/) that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client.
 
-If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client.
+If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. <br>
 
 ### **Use case**
 
@@ -23,9 +23,11 @@ At [https://linaro.org](https://www.linaro.org/) we use KissCache in our CI syst
 
 For instance, when [LKFT](https://lkft.linaro.org/) is validating a Linux kernel LTS release-candidate, it will submit many jobs to [LAVA](https://lavasoftware.org/) to be executed on a variety of hardware platforms. These jobs will run in parallel, using many of the same artefacts. Thanks to KissCache, our CI system will download each resource only once, saving network bandwidth.
 
-![kisscache.png](/assets/images/content/kisscache.png)
+![kisscache.png](/assets/images/content/kisscache2.png)
 
-In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. When artefacts are hosted on a system where network bandwidth is charged per unit (such as Amazon S3), this has amounted to several thousands of dollars in savings per month.
+In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. When artefacts are hosted on a system where network bandwidth is charged per unit (such as Amazon S3), this has amounted to several thousands of dollars in savings per month. 
+
+
 
 ### **Alternatives**
 
@@ -46,7 +48,9 @@ The client would accept this fake certificate since it is signed by a known root
 
 While this is a working solution, if the root certificate is stolen, an attacker would be able to set up a man-in-the-middle attack on every local SSL connection.
 
-KissCache does not need to implement such an SSL hack since the client is directly connected to the KissCache instance that can return its own SSL certificate.
+KissCache does not need to implement such an SSL hack since the client is directly connected to the KissCache instance that can return its own SSL certificate. 
+
+
 
 ### **KissCache Usage**
 
@@ -59,7 +63,7 @@ docker-compose build
 docker-compose up
 ```
 
-The instance will be available **http://localhost:8001 (BROKEN LINK)**
+The instance will be available http://localhost:8001.
 
 You can now use this KissCache instance by prefixing the URL:
 
@@ -69,7 +73,9 @@ curl
 "http://localhost:8001/api/v1/fetch/?url=https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.40.tar.xz"
 ```
 
-KissCache workers will download the resource and stream it back to you.
+KissCache workers will download the resource and stream it back to you. 
+
+
 
 ## **Configuration**
 
@@ -82,7 +88,9 @@ curl
 "http://localhost:8001/api/v1/fetch/?ttl=1d&url=https://lkft.linaro.org"
 ```
 
-Every hour, KissCache will automatically delete resources that are outdated.
+Every hour, KissCache will automatically delete resources that are outdated. 
+
+
 
 ### **Quota**
 
