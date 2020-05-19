@@ -101,8 +101,8 @@ Having an early warning system for build and boot regressions upstream has also 
 
 When the 96boards arrive, both physically and as support also arrives in the upstream kernel, we’ll make sure they are added.
 
-  * [Hi6220-Hikey](http://kernelci.org/boot/hi6220-hikey/): The recent enablement patch series for getting minimal HiKey support into the 4.2 Linux kernel, you can follow the link to see it booting in 4.2 RCs
-  * [Dragonboard 410c (apq8016)](http://kernelci.org/boot/apq8016-sbc/) has also been added, and providing Linaro’s Qualcomm Land Team with build & boot testing as well as mainline kernel build and boot testing
+  * [Hi6220-Hikey](https://kernelci.org/boot/hi6220-hikey/): The recent enablement patch series for getting minimal HiKey support into the 4.2 Linux kernel, you can follow the link to see it booting in 4.2 RCs
+  * [Dragonboard 410c (apq8016)](https://kernelci.org/boot/apq8016-sbc/) has also been added, and providing Linaro’s Qualcomm Land Team with build & boot testing as well as mainline kernel build and boot testing
 
 **Some notable bugs found**
 
