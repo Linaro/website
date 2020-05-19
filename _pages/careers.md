@@ -5,7 +5,6 @@ description: |-
 layout: flow
 permalink: /careers/
 js-package: careers
-css_bundle: careers
 jumbotron:
     title: Want to help build technology for the future?
     inner_class: dotted
@@ -41,7 +40,7 @@ flow:
                 url: /assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf
                 style: btn-secondary careers_btn
     - row: container_row
-      style: internship_row bg-primary
+      style: internship_row bg-primary text-white
       sections:
         - format: custom_include
           source: careers/careers_section_interns.html
