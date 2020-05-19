@@ -141,6 +141,16 @@
   .key_stats_row img {
     height: 200px;
   }
+  .card {
+      .card-header {
+          p {
+              font-size: 16px;
+          }
+          button {
+              font-size: 20px;
+          }
+      }
+  }
 }
 #projects {
     font-size: 1rem;
