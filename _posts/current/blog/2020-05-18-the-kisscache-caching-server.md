@@ -11,7 +11,7 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-Linaro has recently developed and open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
+Linaro has recently developed an open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
 
 Unlike classical proxies like [Squid](http://www.squid-cache.org/) that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client.
 
@@ -59,7 +59,7 @@ docker-compose build
 docker-compose up
 ```
 
-The instance will be available **http://localhost:8001**
+The instance will be available **http://localhost:8001 (BROKEN LINK)**
 
 You can now use this KissCache instance by prefixing the URL:
 
@@ -85,3 +85,7 @@ curl
 Every hour, KissCache will automatically delete resources that are outdated.
 
 ### **Quota**
+
+By default, KissCache will use 2 GB of disk space. When the quota is full, KissCache will return a 507 (Insufficient Storage) error for every new request.
+
+If the quota usage is above 75%, KissCache will drop enough resources to lower the quota usage below 75%. KissCache will drop the least recently used resources first.
