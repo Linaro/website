@@ -76,9 +76,9 @@
             "title": "Upstream Maintainership"
         },
         "Project Ownership": {
-            "Governing Entity": "TSC",
+            "Governing Entity": "Project Board",
             "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-            "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
+            "Technical Lead": "Serge Broslavsky <a class=\"email-icon\" href=\"mailto:serge.broslavsky@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10009",
         "key": "UM"
