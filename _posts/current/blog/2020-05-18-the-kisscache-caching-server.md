@@ -9,7 +9,7 @@ tags:
   - KissCache
   - Squid
 category: Blog
-author: jon.burcham@linaro.org
+author: remi.duraffort@linaro.org
 ---
 Linaro has recently developed and open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
 
