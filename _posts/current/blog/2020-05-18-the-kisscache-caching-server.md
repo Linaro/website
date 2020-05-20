@@ -92,16 +92,8 @@ If the quota usage is above 75%, KissCache will drop enough resources to lower t
 
 KissCache access can be restricted to a given network. Only IPs from a specific subnet would be able to fetch resources while the web interface will remain visible to anyone.
 
-
-
 ### Contact
 
 KissCache is licenced under the MIT licence.  
 
 The source code is available on [GitLab](https://git.lavasoftware.org/ivoire/kisscache). Feel free to create an issue or to send a merge request.
-
-
-
-### Engineering Update ‘Extras’
-
-Linaro members that are interested in deploying KissCache should feel free to contact Linaro.Engineering Update ‘Extras’
