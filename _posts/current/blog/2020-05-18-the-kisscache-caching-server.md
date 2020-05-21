@@ -88,11 +88,11 @@ By default, KissCache will use 2 GB of disk space. When the quota is full, KissC
 
 If the quota usage is above 75%, KissCache will drop enough resources to lower the quota usage below 75%. KissCache will drop the least recently used resources first.
 
-### Access Restriction
+### **Access Restriction**
 
 KissCache access can be restricted to a given network. Only IPs from a specific subnet would be able to fetch resources while the web interface will remain visible to anyone.
 
-### Contact
+### **Contact**
 
 KissCache is licenced under the MIT licence.  
 
