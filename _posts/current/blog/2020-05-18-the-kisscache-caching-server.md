@@ -23,11 +23,7 @@ At [](https://www.linaro.org/)[Linaro](https://www.linaro.org/) we use KissCache
 
 For instance, when [LKFT](https://lkft.linaro.org/) is validating a Linux kernel LTS release-candidate, it will submit many jobs to [LAVA](https://lavasoftware.org/) to be executed on a variety of hardware platforms. These jobs will run in parallel, using many of the same artefacts. Thanks to KissCache, our CI system will download each resource only once, saving network bandwidth.
 
-![kisscache.png](/assets/images/content/kisscache2.png)
-
-
-
-{% image.html path="" alt="" %}
+{% include image.html path="/assets/images/content/kisscache2.png" class="small-inline left" alt="kisscache2.png" %}
 
 In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. When artefacts are hosted on a system where network bandwidth is charged per unit (such as Amazon S3), this can amount to several thousands of dollars in savings per month (as is the case in Linaro.)
 
