@@ -25,6 +25,10 @@ For instance, when [LKFT](https://lkft.linaro.org/) is validating a Linux kernel
 
 ![kisscache.png](/assets/images/content/kisscache2.png)
 
+
+
+{% image.html path="" alt="" %}
+
 In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. When artefacts are hosted on a system where network bandwidth is charged per unit (such as Amazon S3), this can amount to several thousands of dollars in savings per month (as is the case in Linaro.)
 
 ### **Alternatives**
