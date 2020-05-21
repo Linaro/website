@@ -61,5 +61,26 @@
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12904&avatarId=10202",
         "key": "LSE"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result they become responsible as maintainers of the code they create upstream for keeping it in sync with the overall development of respective upstream projects.\r<br>\r<br>This JIRA project documents upstream maintainership work for Linaro's upstream maintainers.\r<br>",
+            "title": "Upstream Maintainership"
+        },
+        "Project Ownership": {
+            "Governing Entity": "Linaro",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Serge Broslavsky <a class=\"email-icon\" href=\"mailto:serge.broslavsky@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10009",
+        "key": "UM"
     }
 ]
