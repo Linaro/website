@@ -2,6 +2,7 @@
 title: Working on VirtIO
 author: alex.bennee
 layout: post
+image: /assets/images/content/virtio.png
 date: 2020-05-20 16:00:00+00:00
 description: >-
     A summary of the history of VirtIO and the areas Linaro is working on for the future.
@@ -184,4 +185,3 @@ requirements are best dealt with in a virtualised environment.
 As Linaro is an "upstream first" organisation we do our work in the
 open on public mailing lists and repositories. If you are interested
 please do get in touch.
-
