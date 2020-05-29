@@ -16,7 +16,8 @@ description: >-
   future.
 category: Blog
 ---
-{% include image.html path="/assets/images/content/virtio2.png" alt="virtio.png" %}
+{% include image.html path="/assets/images/content/virtio.png" alt="virtio.png" %}
+
 # Introduction
 
 In the world of virtualisation you can present whatever hardware you
