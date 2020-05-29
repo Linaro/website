@@ -16,7 +16,7 @@ description: >-
   future.
 category: Blog
 ---
-{% include image.html path="/assets/images/content/virtio.png" alt="virtio.png" %}
+{% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
 
 # Introduction
 
