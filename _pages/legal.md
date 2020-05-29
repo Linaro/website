@@ -6,7 +6,6 @@ description: |-
 permalink: /legal/
 jumbotron:
     title: Legal
-    inner_class: dotted
     description: ""
 flow:
     - row: main_content_row

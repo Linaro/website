@@ -1,6 +1,7 @@
+
 source "https://rubygems.org"
 # Jekyll Theme
-gem 'jumbo-jekyll-theme', "6.0.0.1"
+gem 'jumbo-jekyll-theme', "6.0.0.4"
 # Jekyll Plugins
 group :jekyll_plugins do
    gem "closure-compiler"

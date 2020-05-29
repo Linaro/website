@@ -10,4 +10,4 @@ production: false
 # Google Analytics
 google_analytics:
   enabled: false
-  code: XXXXXXXXX
+  code: GTM-5DLPJQ
