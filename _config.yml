@@ -161,7 +161,7 @@ google_analytics:
           1 minute - Used to throttle request rate.
       - name: HotJar
         description: >
-          We use hotjar to help us understand how we can improve our end-user experience. For a list of cookies HotJar uses please see https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script
+          We use hotjar to help us understand how we can improve our end-user experience. For a list of cookies HotJar uses please see [https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script](https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script)
 # Set the site-wide default social media share image.
 social_media_share_image: /assets/images/social-media-image.png
 # Set the default favicon
