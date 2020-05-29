@@ -8,9 +8,9 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
-  image: /assets/images/content/memberhsip_bg.jpg
   title: Shape the future of Arm Software
   description: ''
+  image: /assets/images/content/memberhsip_bg.jpg
   inner_class: dotted
 flow:
   - row: container_row
@@ -41,9 +41,9 @@ flow:
           text: Faster problem solving = accelerated time to market
       - format: text
         text_content:
-          text: >
+          text: >-
             Having engineers from all the member companies work together with
-            Linaro engineers - many of which are world-reknown Arm software
+            Linaro engineers - many of which are world-reknowned Arm software
             experts - means more eyes on the problem. The more people who look
             at the problem, the quicker it gets solved and the better the
             solution. And the quicker the basics are resolved, the faster you
