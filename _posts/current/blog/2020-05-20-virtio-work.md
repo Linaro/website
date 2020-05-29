@@ -1,20 +1,23 @@
 ---
-title: Working on VirtIO
 layout: post
-image: /assets/images/content/virtio.png
-date: 2020-05-20 16:00:00+00:00
-description: >-
-    A summary of the history of VirtIO and the areas Linaro is working on for the future.
-category: Blog
 author: alex.bennee
-tags:
-    - linaro
-    - QEMU
-    - virtio
-    - OASIS
-    - standards
 published: true
+title: Working on VirtIO
+date: 2020-05-20T16:00:00.000Z
+image: /assets/images/content/tech_background_1.jpg
+tags:
+  - linaro
+  - QEMU
+  - virtio
+  - OASIS
+  - standards
+description: >-
+  A summary of the history of VirtIO and the areas Linaro is working on for the
+  future.
+category: Blog
 ---
+{% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
+
 # Introduction
 
 In the world of virtualisation you can present whatever hardware you
