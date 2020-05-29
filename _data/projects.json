@@ -8,7 +8,7 @@
             "Health Check Report": "TBD",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
             "Plan Of Record": "TBD",
-            "Project Homepage": "TBD",
+            "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDTS\">https://collaborate.linaro.org/display/BDTS</a>",
             "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
             "title": "Big Data & Data Science"
         },
@@ -72,7 +72,7 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result they become responsible as maintainers of the code they create upstream for keeping it in sync with the overall development of respective upstream projects.\r<br>\r<br>This JIRA project documents upstream maintainership work for Linaro's upstream maintainers.\r<br>",
+            "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result they become responsible as maintainers of the code they create upstream for keeping it in sync with the overall development of respective upstream projects.\r<br>",
             "title": "Upstream Maintainership"
         },
         "Project Ownership": {
