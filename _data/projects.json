@@ -1,6 +1,27 @@
 [
     {
         "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "",
+            "title": "Arm Server Architecture"
+        },
+        "Project Ownership": {
+            "Governing Entity": "LDCG SC",
+            "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Graeme Gregory <a class=\"email-icon\" href=\"mailto:graeme.gregory@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12910&avatarId=10904",
+        "key": "ASA"
+    },
+    {
+        "Project Contact Information": {
             "Meetings": "TBD",
             "Point of Contact": "TBD"
         },
@@ -156,6 +177,27 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
+            "description": "",
+            "title": "System Control and Management Interface"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Joakim Bech <a class=\"email-icon\" href=\"mailto:joakim.bech@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12403&avatarId=10904",
+        "key": "SCMI"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "",
+            "Plan Of Record": "",
+            "Project Homepage": "",
             "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result they become responsible as maintainers of the code they create upstream for keeping it in sync with the overall development of respective upstream projects.\r<br>",
             "title": "Upstream Maintainership"
         },
@@ -198,7 +240,7 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Advance and promote development related to the remoteproc and rpmsg kernel subsystems.  More specifically identify features commonly sought after by the <a href=\"[OpenAMP|https://www.openampproject.org/]\">[OpenAMP|https://www.openampproject.org/]</a> community and assist with their implementation.  ",
+            "description": "Advance and promote development related to the remoteproc and rpmsg kernel subsystems.  More specifically identify features commonly sought after by the <a href=\"https://www.openampproject.org/\">OpenAMP</a> community and assist with their implementation.  ",
             "title": "remoteproc/rpmsg Evolution"
         },
         "Project Ownership": {
