@@ -31,3 +31,5 @@ We built a wishlist of the following features and requirements that we felt a pr
 * Allow users to access a JSON output of the page for easy downloading
 
 The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
+
+Tuxpub.png
