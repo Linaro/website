@@ -10,15 +10,6 @@ jumbotron:
       title: Linaro accelerates product deployment in the Arm ecosystem
       image: /assets/images/content/code_banner.jpg
       inner_class: dotted
-    - buttons:
-        - title: Read more
-          url: 'https://connect.linaro.org/linaro-tech-days/'
-      darken: true
-      title: Introducing Linaro Tech Days
-      description: >-
-        A series of technical sessions that will be livestreamed online on the
-        24 and 25 March 2020.
-      image: /assets/images/content/BKK19-150.jpg
 flow:
   - row: container_row
     sections:
@@ -32,13 +23,6 @@ flow:
             community to collaboratively develop software on Arm.
       - format: custom_include
         source: membership/grouped_members_section.html
-      - format: title
-        style: arm_expertise text-center
-        title_content:
-          size: h2
-          style: dotted dotted_heading blue
-          text: >
-            Arm software is our expertise
     style: introduction_row
   - row: container_row
     sections:
@@ -58,9 +42,10 @@ flow:
         source: components/testimonial_slider.html
     style: testimonial_row
   - row: container_row
+    style: call_to_action_sections bg-secondary text-white
     sections:
       - format: feature_block
-        style: dotted linaro_membership
+        style: linaro_membership
         feature_block_content:
           position: left
           type: image
@@ -79,8 +64,11 @@ flow:
             - title: Learn More
               url: /membership/
               style: btn-primary homepage_call_to_action
+  - row: container_row
+    style: call_to_action_sections bg-light
+    sections:
       - format: feature_block
-        style: dotted developer_services blue
+        style: developer_services blue
         feature_block_content:
           position: right
           type: image
@@ -92,6 +80,4 @@ flow:
             - title: Learn More
               url: /services/
               style: btn-primary homepage_call_to_action
-        format: feature_block
-    style: call_to_action_sections
 ---
