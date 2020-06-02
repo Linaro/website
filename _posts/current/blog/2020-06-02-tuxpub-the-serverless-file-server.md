@@ -14,7 +14,7 @@ tags:
   - tuxboot
   - ''
 category: Blog
-author: jon.burcham@linaro.org
+author: ben.copeland@linaro.org
 ---
 {% include image.html path="/assets/images/content/amazon_diagram.jpg" alt="Amazon S3 bucket and using Amazon CloudFront" %}
 
@@ -34,7 +34,7 @@ We built a wishlist of the following features and requirements that we felt a pr
 
 The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
 
- {% include image.html path="/assets/images/content/Tuxpub.png" alt="sample file" %}
+ {% include image.html path="/assets/images/content/tuxpub.png" alt="sample file" %}
 
 ### **How easy is it to deploy and manage?**
 
