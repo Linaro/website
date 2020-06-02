@@ -30,6 +30,8 @@ flow:
           text: >
             Linaro brings together industry and the open source engineering
             community to collaboratively develop software on Arm.
+      - format: custom_include
+        source: membership/grouped_members_section.html
       - format: title
         style: arm_expertise text-center
         title_content:
