@@ -32,7 +32,9 @@ We built a wishlist of the following features and requirements that we felt a pr
 * Ability to block the index page so people cannot browse other folders 
 * Allow users to access a JSON output of the page for easy downloading
 
-The following is a sample file browser front-end being served by tuxpub for the TuxBuild project: {% include image.html path="/assets/images/content/Tuxpub.png" alt="sample file" %}
+The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
+
+ {% include image.html path="/assets/images/content/Tuxpub.png" alt="sample file" %}
 
 ### **How easy is it to deploy and manage?**
 
