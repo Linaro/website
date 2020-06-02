@@ -2,7 +2,7 @@
 layout: post
 title: tuxpub - The Serverless File Server
 date: '2020-06-02 12:10:28'
-image: /assets/images/content/code_highway.jpg
+image: /assets/images/content/code_highway_small.jpg
 tags:
   - tuxpub
   - Server
@@ -16,6 +16,8 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
+{% include image.html path="/assets/images/content/amazon_diagram.jpg" alt="Amazon S3 bucket and using Amazon CloudFront" %}
+
 ### **What problems has Linaro solved with tuxpub?**
 
 At Linaro, we have previously hosted artifacts from Amazon S3 using a custom tool known as Linaro Licence Protection (LLP). LLP started life serving files from local disk storage, then later moved to Amazon S3. Technically LLP provides an S3 browsing interface, however it was never designed to run under a serverless architecture. This coupled with other necessary Linaro/License features (such as authentication) means that LLP doesn’t fit a “simple serverless” model. 
