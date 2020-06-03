@@ -93,6 +93,27 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
+            "description": "",
+            "title": "GNU Toolchain"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=11905&avatarId=13106",
+        "key": "GNU"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "",
+            "Plan Of Record": "",
+            "Project Homepage": "",
             "description": "High Performance Computing",
             "title": "HPC-SIG"
         },
@@ -124,6 +145,27 @@
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=11904&avatarId=13107",
         "key": "LLVM"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "Ad-hoc when needed",
+            "Point of Contact": "Join the conversation at <a href=\"https://www.trustedfirmware.org/contact/\">https://www.trustedfirmware.org/contact/</a>"
+        },
+        "Project Information": {
+            "Health Check Report": "TBD",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
+            "Plan Of Record": "TBD",
+            "Project Homepage": "TBD",
+            "description": "",
+            "title": "Linaro's OP-TEE Contributions"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Joakim Bech <a class=\"email-icon\" href=\"mailto:joakim.bech@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?avatarId=10903",
+        "key": "LOC"
     },
     {
         "Project Contact Information": {
