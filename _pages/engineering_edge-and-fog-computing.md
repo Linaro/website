@@ -105,7 +105,7 @@ flow:
       - format: buttons
         buttons_content:
             - title: Download our Slide Deck
-              url: https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F12uG-QYGB_mCoU7TBanIdVKrs2y72imccn6lzXzGh68I%2Fedit%23slide%3Did.g4ebc95b9e6_0_91
+              url: https://docs.google.com/presentation/d/12uG-QYGB_mCoU7TBanIdVKrs2y72imccn6lzXzGh68I/edit#slide=id.g4ebc95b9e6_0_91
               style: btn-primary
   - row: container_row
     style: large_type introduction_row py-0
