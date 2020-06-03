@@ -34,7 +34,7 @@ We built a wishlist of the following features and requirements that we felt a pr
 
 The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
 
- {% include image.html path="/assets/images/content/tuxpub.png" alt="sample file" %}
+ {% include image.html path="/assets/images/content/tuxpub_lrg.png" alt="sample file" %}
 
 ### **How easy is it to deploy and manage?**
 
