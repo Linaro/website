@@ -71,4 +71,4 @@ Linaro has made tuxpub available as open source software under the [MIT license]
 
 Linaro’s objective is to keep this application simple! We are being selective and do not want to add too many features that would bloat the application. Desirable features additions (most notably paging support) are being collected in [tuxpub gitlab issues](https://gitlab.com/Linaro/tuxpub/-/issues) and addressed over time.
 
- N.B. *“Pipenv is a packaging tool for Python that solves some common problems associated with the typical workflow using pip, virtualenv and the good old requirements. Txt” -
+N.B. *“Pipenv is a packaging tool for Python that solves some common problems associated with the typical workflow using pip, virtualenv and the good old requirements. Txt” -
