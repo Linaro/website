@@ -169,10 +169,7 @@ flow:
             the group. Or you can join at Club or Core level, both of which allow you to participate in the
             Datacenter & Cloud Group as well as other Linaro segment groups.
 
-            To read more about membership and fill out the enquiry form, click here:
-
-            Alternatively, if you want to access any of the open source projects the Linaro Datacenter &
-            Cloud participate in, click here.
+            To read more about membership and fill out the enquiry form, [click here](/membership/).
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
