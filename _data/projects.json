@@ -156,7 +156,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
             "Plan Of Record": "TBD",
             "Project Homepage": "TBD",
-            "description": "",
+            "description": "Linaro used to own OP-TEE, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".\r<br>\r<br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.",
             "title": "Linaro's OP-TEE Contributions"
         },
         "Project Ownership": {
