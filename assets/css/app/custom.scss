@@ -8,6 +8,13 @@
     }
 }
 #wrapper {
+    span.triangle {
+            &::before {
+            top: 8px;
+            position: relative;
+            right: -3px;
+        }
+    }
     .jumbotron .container h1 {
         // color: #fff;
         margin: 0;
