@@ -35,6 +35,10 @@ flow:
           params: ledge
           source: related_members.html
   - row: container_row
+    sections:
+        - format: custom_include
+          source: components/edge_info.html
+  - row: container_row
     style: large_type introduction_row py-0
     sections:
       - format: text
