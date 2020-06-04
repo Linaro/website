@@ -114,7 +114,7 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "High Performance Computing",
+            "description": "High Performance Computing\r<br>\r<br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
             "title": "HPC-SIG"
         },
         "Project Ownership": {
@@ -237,7 +237,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">https://projects.linaro.org/secure/StructureBoard.jspa?s=280#</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
