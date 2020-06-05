@@ -23,6 +23,12 @@ author: jon.burcham@linaro.org
 
 By Tom Gall, Director, AI/ML Project Lead
 
+
+
+ai.png
+
+
+
 TVM is an AI compiler for inferencing which can create highly optimized binaries for deploying on ARM systems. Micro TVM or uTVM is an effort to leverage the advanced technology in the compiler infrastructure as applied to microcontroller devices.
 
 From the Members meeting in January you might remember the exercise to determine what activities would bring value to Linaro members involving AI on microcontrollers. The recommendation delivered to the LITE-SC was to approve a uTVM project as part of the AI efforts within Linaro. The LITE-SC vote is in progress as this is being written.
