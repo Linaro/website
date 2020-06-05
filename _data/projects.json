@@ -219,7 +219,7 @@
             "JIRA Structure": "",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.\r<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.\r<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
             "title": "System Control and Management Interface"
         },
         "Project Ownership": {
