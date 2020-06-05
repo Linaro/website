@@ -54,3 +54,33 @@ Having the OP-TEE regression suite xtest pass has improved confidence in the dif
 ### **KissCache: A New Caching Server**
 
 By Ryan Arnold, Director, System Technologies
+
+{% include image.html path="/assets/images/content/lkft.png" class="small-inline left" alt="LKFT icon" %}
+
+[KissCache, the "simple and stupid caching serve](https://www.linaro.org/blog/the-kisscache-caching-server/)r", is a newly released open source project from Linaro that is now used in production by the Linux Kernel Functional Test (LKFT) project. KissCache is used to cache and serve binary artifacts to Linaro’s LKFT LAVA instance. These artifacts are held in Amazon S3. Using Kisscache both saves Linaro money by caching artifacts in the Linaro lab (reducing bandwidth usages from S3) as well as increases job execution time because artifacts are served much more quickly, and therefore systems are provisioned more quickly.
+
+Unlike classical proxies like Squid that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client. Kisscache’s primary use case is for downloading and caching https (secure) content. It preserves the chain of trust, whereas Squid really only works properly with non-secure content.
+
+If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. This has a real cost savings of over $2000 per month.
+
+### **Tuxpub - The Serverless Cloud-Based Artifact Server**
+
+By Ryan Arnold, Director, System Technologies
+
+{% include image.html path="/assets/images/content/lkft.png" class="small-inline left" alt="LKFT icon" %}
+
+At Linaro, we have often hosted artifacts from Amazon S3 using a custom tool known as Linaro License Protection (LLP). LLP started life serving files from local disk storage, then later moved to use Amazon S3. Technically LLP provides an S3 browsing interface. However it was never designed to run under a serverless architecture. This coupled with other necessary Linaro/License features (such as authentication) means that LLP doesn’t fit a “simple serverless” model.
+
+Linaro is presently working on a SaaS offering called [TuxBuild](https://gitlab.com/Linaro/tuxbuild) (and companion service called TuxBoot). These technologies are implemented using the new serverless model and have a need to provide artifacts from cloud storage using a lightweight application that provides a file browser as a web-based user front end.
+
+The original implementation of Tuxpub used Javascript, but we quickly realised it wasn’t scalable, it wasn’t conformant with what web tools expect, and it lacked features which our users were demanding (such as the ability to pull the file contents in JSON) for browsing programmatically. After searching for existing solutions we discovered that there were no available light-weight tools to solve our problems!
+
+We built a wishlist of the following features and requirements that we felt a proper file server would honour and set about building tuxpub:
+
+* Serverless methodology for easy deployment and management
+* Ability to block the index page so people cannot browse other folders
+* Allow users to access a JSON output of the page for easy downloading
+
+The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
+
+{% include image.html path="/assets/images/content/ai.png" class="small-inline left" alt="AI icon" %}
