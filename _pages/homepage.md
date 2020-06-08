@@ -1,7 +1,7 @@
 ---
 title: Accelerating deployment of Arm-based solutions
 description: Linaro accelerates deployment of Arm-based solutions
-permalink: /
+permalink: "/"
 layout: flow
 jumbotron:
   inner_class: dotted
@@ -36,7 +36,6 @@ flow:
         source: components/engineering_slider.html
     style: engineering_row bg-secondary
   - row: container_row
-    style: testimonial_row bg-light
     sections:
       - format: custom_include
         source: components/testimonial_slider.html
