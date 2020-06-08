@@ -12,7 +12,6 @@ related_tags:
   - Security
   - Trusted Firmware
   - SWG
-image: /assets/images/projects/op-tee.png
 layout: flow
 related_resources_tracks: OP-TEE, TEE, Arm, Arm-Trusted-Firmware, GlobalPlatform, Security
 js-package: engineering
