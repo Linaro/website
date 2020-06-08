@@ -403,6 +403,7 @@ collections:
   - label: "Pages"
     name: "pages"
     folder: "_pages"
+    identifier_field: "permalink"
     editor:
       preview: false
     preview_path: "{{slug}}"
@@ -548,6 +549,7 @@ collections:
               - {label: "Section Format", name: "format", widget: "select", multiple: false, required: false,options: ['','members', '','buttons','','custom_include','','', '']}
               - label: Text
                 type: text
+                summary: '{{fields.text_content.text}}'
                 name: text
                 widget: "object"
                 fields:
@@ -561,6 +563,7 @@ collections:
                 type: title
                 name: title
                 typeKey: "format"
+                summary: '{{fields.title_content.text}}'
                 widget: "object"
                 fields:
                   - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
@@ -779,6 +782,7 @@ collections:
                 type: youtube
                 name: youtube
                 widget: "object"
+                summary: '{{fields.title}}'
                 fields:
                   - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
                   - label: "YouTube URL"
@@ -834,6 +838,7 @@ collections:
                             hint: "URL for the member/company website"
               - label: Custom Include Section
                 type: custom_include
+                summary: '{{fields.source}}'
                 name: custom_include
                 widget: "object"
                 fields:
