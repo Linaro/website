@@ -75,7 +75,7 @@ collections:
               - {label: "Description", name: "description", widget: text , hint: "Enter a short description for this external news post.", required: false}
               - {label: "Related Linaro Static Site", name: "site", widget: select , hint: "Please select the site that this should appear on.", options: ['linaro.org', '96boards.org', 'connect.linaro.org', 'mlplatform.org', 'trustedfirmware.org'], required: false}
               - {label: "Category", name: "category", widget: select , hint: "Please select the category which this external post falls into.", options: ['Membership', 'Tech Review', 'Press Release'], required: false}
-              - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+              - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - label: "Projects"
         name: "linaro_project_items"
         file: "_data/projects.yml"
@@ -103,7 +103,7 @@ collections:
                 fields:
                  - {label: "Item Title", name: "title", widget: string, required: false}
                  - {label: "Item URL", name: "url", widget: string, required: false}
-                 - {label: "Item Date", name: "date", widget: datetime, format: "YYYY-MM-DD hh:mm:ss",  required: false}
+                 - {label: "Item Date", name: "date", widget: datetime, format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true, required: false}
       - label: "Settings"
         name: "settings"
         file: "_data/settings.yml"
@@ -797,7 +797,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - label: "Image"
         name: image
         widget: image
@@ -833,7 +833,8 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Description', name: 'description', widget: 'text', hint: "The description of your blog post. Used in the meta:description field for SEO" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - label: "Image"
         name: image
         widget: image
@@ -868,7 +869,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - label: "Image"
         name: image
         widget: image
@@ -906,9 +907,9 @@ collections:
       - { label: 'Event URL', name: 'event_url', widget: 'string', hint: 'Provide a link to the event website.', required: false}
       - { label: 'Event Description', name: 'description', widget: 'text', hint: 'Description of your event.'}
       - { label: 'Event Location', name: 'location', widget: 'text', hint: 'The location of the event.', required: false}
-      - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-      - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
-      - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+      - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+      - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - { label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
       - { label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.', required: false}
@@ -934,7 +935,7 @@ collections:
         dispalyFields: ["title"]
         valueField: "event"
         hint: 'Add the unique id of an event (set on an event). I.e third-edge-computing-forum'
-      - { label: 'Resource Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss"}
+      - { label: 'Resource Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
       - { label: 'Resource Image', name: 'image', widget: 'image', hint: 'Add an image for the resource. I.e screen cap of the youtube video'}
       - { label: 'Resource Youtube Video URL', name: 'youtube_video_url', widget: 'string', hint: 'Provide a youtube video of the event resource.', required: false}
       - { label: 'Resource Presentation URL', name: 'amazon_s3_presentation_url', widget: 'string', hint: 'Add a link to the resource presentation. Url must be to a PDF of the slides.', required: false}
