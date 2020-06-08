@@ -41,15 +41,13 @@ The project is open to club/core Members to join.  If a Member is not a club or 
 
 Email tom.gall@linaro.org for details or questions.
 
-### **Firmware Framework for Arm (FFA) Specification \[1.0 EAC release]**(https://developer.arm.com/docs/den0077/a)
+### **Firmware Framework for Arm (FFA) Specification \[[1.0 EAC release]](https://developer.arm.com/docs/den0077/a)**
 
 By Mike Holmes, Director, Foundational Technologies
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
 
-Arm and Linaro have been collaborating on prototypes with changes in the OP-TEE kernel driver, OP-TEE OS and Trusted Firmware based on the different versions of the FFA (formerly SPCI) specification.
-
-Having the OP-TEE regression suite xtest pass has improved confidence in the different versions of the specifications. Later versions of the prototypes have also included a secure world (S-EL2) hypervisor based on Hafnium. Linaro created the first prototype and after that it has been a shared effort.
+Arm and Linaro have been collaborating on prototypes with changes in the OP-TEE kernel driver, OP-TEE OS and Trusted Firmware based on the different versions of the FFA (formerly SPCI) specification. Having the OP-TEE regression suite xtest pass has improved confidence in the different versions of the specifications. Later versions of the prototypes have also included a secure world (S-EL2) hypervisor based on Hafnium. Linaro created the first prototype and after that it has been a shared effort.
 
 ### **KissCache: A New Caching Server**
 
@@ -120,8 +118,12 @@ Linaro has made tuxpub available as open source software under the [MIT license]
 
 Linaro’s objective is to keep this application simple! We are being selective and do not want to add too many features that would bloat the application. Desirable features additions (most notably paging support) are being collected in [tuxpub gitlab issues](https://gitlab.com/Linaro/tuxpub/-/issues) and addressed over time.
 
-
 ### **RDK and i.MX8**
+
 By Tom Gall, Director, Linaro Consumer Group
 
-{% include image.html path="/assets/images/content/multimedia-2x.png" class="small-inline left" alt="Multimedia icon" %}
+{% include image.html path="/assets/images/content/multimedia-2x.png" class="small-inline left" alt="Multimedia icon" %} 
+
+The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/> now contains detailed information on how to [build](https://wiki.rdkcentral.com/display/RDK/Build+Procedure+for+64bit+RDK+Media+Client+using+Thud+Yocto+2.6) and also [run](https://wiki.rdkcentral.com/display/RDK/Run+RDK+3.0+Features+on+i.MX8MQ) the RDK 3.0 on MCIMX8M-EVK NXP board. In addition, work has already progressed rapidly on the migration to Yocto Dunfell LTS release which is documented [here](https://wiki.rdkcentral.com/display/RDK/Yocto+3.1+LTS+build+procedure+for+RDK-V+on+i.MX8MQ). The i.MX8M SoC has become the Linaro reference SoC for secure video path developments for the major ecosystems  Linaro is involved with for secure video (RDK, Linux  & AOSP) where a fully secure video pipeline is required.
+
+Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro
