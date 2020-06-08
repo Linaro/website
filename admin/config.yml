@@ -414,8 +414,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "URL", name: "permalink", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: list, allow_add: true, hint: "Add meta tag keywords"}
+      - {label: "Page Tag", name: "tag", widget: string, hint: "Tag pages to create a collection of related pages. If you're not sure then leave this blank.", required: false}
       - {label: "Custom JS Package", name: "js-package", widget: hidden, default: "main", required: false}
-      - {label: "Custom CSS Package", name: "css-package", widget: hidden, default: "main", required: false}
+      - {label: "Custom CSS Package", name: "css_bundle", widget: hidden, default: "main", required: false}
       - {label: "Layout", name: "layout", widget: hidden, default: "flow", required: true}
       - label: "Header"
         name: "jumbotron"
