@@ -128,6 +128,35 @@ The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/
 
 Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro engineers. 
 
-### **Raspberry Pi Libcamera Initiative** 
+### **Raspberry Pi Libcamera Initiative**
 
 By Tom Gall, Director, Linaro Consumer Group
+
+{% include image.html path="/assets/images/content/pi-lib-camera.png" class="small-inline left" alt="Raspberry Pi Libcamera icon" %}
+
+The [libcamera](http://libcamera.org/) project reached a big new milestone with the joint announcement from RPi foundation and libcamera projects on the first fully open source camera stack including 3A (auto exposure, auto gain control, auto white balance) algorithms. This is the first SoC in libcamera to become fully enabled in terms of 3A, and as far as we are aware the first time 3A algorithms have been fully open sourced in any meaningful way.  More about the announcement can be found [here](https://www.raspberrypi.org/blog/an-open-source-camera-stack-for-raspberry-pi-using-libcamera/.). 
+
+### **LEDGE Reference Platform Stage 3 available**
+
+By Francois Ozog, Director, Linaro Edge and Fog Computing
+
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Ledge icon" %}
+
+The LEDGE  Reference Platform builds on the Generic Kernel Image concept pioneered by Google for Android. The ultimate goal is that Linaro members and Linux distribution providers (commercial or not) can deliver a single binary image that can be booted on any Embedded Base Boot Requirement (EBBR) compliant platform. The LEDGE Reference Platform builds on the efforts of the Dependable Boot project which focuses on building an EBBR  compliant firmware environment.
+
+In more technical terms, LEDGE Reference Platform is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, Integrity Measurement Architecture enabled and other technologies that can be further adapted to specific markets. 
+
+There are actually three images built: 64 bits, 32 bits, 32 bits with LPAE enabled. With Stage 3, the LEDGE Reference Platform can be booted with UEFI SecureBoot (U-Boot or EDK2) and it was verified that: 
+
+* A single 64 bits image can be booted on QEMU, NXP LS21060ARDB, Socionext Synquacer( and expect to achieve this with kernel 5.8 on TI AM65XX)
+* A single 32 bits image can be booted on TI AM572x and BEAGLEBOARD-X15,  ST STM32MP157C-DK2 and QEMU
+
+Reference Platform stage 4 has started. It will come with an integrated standard and generalized firmware update features based on UEFI update capsules. We shall build on system-d defined boot-blessing capabilities to provide a robust boot orchestration scheme that will leverage hardware anti-bricking and anti-rollback features.
+
+### **Linaro Tech Days Sessions from LITE team**
+
+By Vicky Janicki, Linaro IoT and Embedded Group
+
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %}
+
+The Linaro Embedded and IoT Team ran a 3 session series in April and May under the Linaro Tech Days Banner. Vincent Wan (TI) reviewed “[Power Management On Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-402/)” to start. For the second session, Paul Sokolovskyy (Linaro) presented “[Update on LAVA Testing for Bare Metal Systems](https://connect.linaro.org/resources/ltd20/ltd20-403/)” which charted LITE’s effort to enhance LAVA to work more effectively with MCU’s. Manivannan Sadhasivam, a kernel engineer from Linaro Developer Services presented  “[LoRa Meets Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-404/)” which included a brief history of LoRa, what is currently working and what remains. All three sessions can be found on the [Linaro Tech Days Resource Page](https://connect.linaro.org/linaro-tech-days/).
