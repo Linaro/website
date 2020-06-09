@@ -232,6 +232,102 @@ $ qemu-system-arm --version
 QEMU emulator version 4.2.0
 Copyright (c) 2003-2019 Fabrice Bellard and the QEMU Project developers
 ```
-Building a TF-M application
- 
+
+##### **Building a TF-M application**
+
 At this point we can build a test application in Zephyr via the following command sequence:
+
+```
+$ source zephyr/zephyr.sh
+$ west build -p -b mps2_an521_nonsecure zephyr/samples/tfm_integration/psa_level_1/ -t run
+```
+
+This will cause TF-M to be built in the background, and the S image (from TF-M- and NS image (from Zephyr) will both be signed with a signature that the BL2 secure bootloader will accept, and an optional binary for QEMU will be generated in addition to the standard AN521 binary images. The **\-t run** flag will cause QEMU to execute the specially prepared binary once the build process is complete, and you should see some variation of the following output:
+
+```
+[INF] Starting bootloader
+[INF] Image 0: version=0.0.0+1, magic= good, image_ok=0x3
+[INF] Image 1: No valid image
+[INF] Booting image from the primary slot
+[INF] Bootloader chainload address offset: 0x80000
+[INF] Jumping to the first image slot
+[Sec Thread] Secure image initializing!
+TF-M isolation level is: 1
+Booting TFM v1.0
+*** Booting Zephyr OS build v2.3.0-rc1  ***
+[00:00:00.003,000] <inf> app: app_cfg: Creating new config file with UID 0x155cfda7a
+[00:00:03.516,000] <inf> app: att: System IAT size is: 453 bytes.
+[00:00:03.516,000] <inf> app: att: Requesting IAT with 64 byte challenge.
+[00:00:06.922,000] <inf> app: att: IAT data received: 453 bytes.
+ 
+          0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00000000 D2 84 43 A1 01 26 A0 59 01 79 AA 3A 00 01 24 FF ..C..&.Y.y.:..$.
+00000010 58 40 00 11 22 33 44 55 66 77 88 99 AA BB CC DD X@.."3DUfw......
+00000020 EE FF 00 11 22 33 44 55 66 77 88 99 AA BB CC DD ...."3DUfw......
+00000030 EE FF 00 11 22 33 44 55 66 77 88 99 AA BB CC DD ...."3DUfw......
+00000040 EE FF 00 11 22 33 44 55 66 77 88 99 AA BB CC DD ...."3DUfw......
+00000050 EE FF 3A 00 01 24 FB 58 20 A0 A1 A2 A3 A4 A5 A6 ..:..$.X .......
+00000060 A7 A8 A9 AA AB AC AD AE AF B0 B1 B2 B3 B4 B5 B6 ................
+00000070 B7 B8 B9 BA BB BC BD BE BF 3A 00 01 25 00 58 21 .........:..%.X!
+00000080 01 FA 58 75 5F 65 86 27 CE 54 60 F2 9B 75 29 67 ..Xu_e.'.T`..u)g
+00000090 13 24 8C AE 7A D9 E2 98 4B 90 28 0E FC BC B5 02 .$..z...K.(.....
+000000A0 48 3A 00 01 24 FA 58 20 AA AA AA AA AA AA AA AA H:..$.X ........
+000000B0 BB BB BB BB BB BB BB BB CC CC CC CC CC CC CC CC ................
+000000C0 DD DD DD DD DD DD DD DD 3A 00 01 24 F8 20 3A 00 ........:..$. :.
+000000D0 01 24 F9 19 30 00 3A 00 01 24 FD 81 A5 01 63 53 .$..0.:..$....cS
+000000E0 50 45 04 65 30 2E 30 2E 30 05 58 20 BF E6 D8 6F PE.e0.0.0.X ...o
+000000F0 88 26 F4 FF 97 FB 96 C4 E6 FB C4 99 3E 46 19 FC .&..........>F..
+00000100 56 5D A2 6A DF 34 C3 29 48 9A DC 38 06 66 53 48 V].j.4.)H..8.fSH
+00000110 41 32 35 36 02 58 20 C9 16 54 69 9C 13 DA 27 43 A256.X ..Ti...'C
+00000120 5C D1 28 80 3D B6 B3 50 0A BC 70 87 39 97 BF 5E \.(.=..P..p.9..^
+00000130 9A 58 53 7E 24 4D F1 3A 00 01 25 01 77 77 77 77 .XS~$M.:..%.wwww
+00000140 2E 74 72 75 73 74 65 64 66 69 72 6D 77 61 72 65 .trustedfirmware
+00000150 2E 6F 72 67 3A 00 01 24 F7 71 50 53 41 5F 49 4F .org:..$.qPSA_IO
+00000160 54 5F 50 52 4F 46 49 4C 45 5F 31 3A 00 01 24 FC T_PROFILE_1:..$.
+00000170 72 30 36 30 34 35 36 35 32 37 32 38 32 39 31 30 r060456527282910
+00000180 30 31 30 58 40 51 33 D9 87 96 A9 91 55 18 9E BF 010X@Q3.....U...
+00000190 14 7A E1 76 F5 0F A6 3C 7B F2 3A 1B 59 24 5B 2E .z.v...<{.:.Y$[.
+000001A0 67 A8 F8 AB 12 6E 7F 97 FB 28 35 97 89 A5 56 61 g....n...(5...Va
+000001B0 8F 00 4E A7 D1 37 5B E5 C1 6A 30 3C F2 00 97 17 ..N..7[..j0<....
+000001C0 04 0F 91 74 DA                              	...t.
+[00:00:06.964,000] <inf> app: Persisting SECP256R1 key as #1
+[00:00:09.402,000] <inf> app: Retrieving public key for key #1
+          0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00000000 04 47 EA AE D9 D6 6D 2E 1D 65 05 F5 04 FE CC 21 .G....m..e.....!
+00000010 99 BE 5E 5A 56 6B 4F 1E 0C 43 E2 5B CE 1B 7D 06 ..^ZVkO..C.[..}.
+00000020 D7 B3 71 E2 0A 3C 47 ED 84 9F 65 0E DB F9 3D D2 ..q..<G...e...=.
+00000030 07 BB 81 A6 73 E6 3B 16 95 19 AC 01 02 CB 1C F5 ....s.;.........
+00000040 35                         	                 5
+[00:00:11.833,000] <inf> app: Calculating SHA-256 hash of value
+          0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00000000 50 6C 65 61 73 65 20 68 61 73 68 20 61 6E 64 20 Please hash and
+00000010 73 69 67 6E 20 74 68 69 73 20 6D 65 73 73 61 67 sign this messag
+00000020 65 2E                                       	e.
+          0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00000000 9D 08 E3 E6 DB 1C 12 39 C0 9B 9A 83 84 83 72 7A .......9......rz
+00000010 EA 96 9E 1D 13 72 1E 4D 35 75 CC D4 C8 01 41 9C .....r.M5u....A.
+[00:00:11.853,000] <inf> app: Signing SHA-256 hash
+          0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00000000 81 FC CE C2 02 96 79 E0 60 A8 0C 53 22 58 F3 17 ......y.`..S"X..
+00000010 7A AC 46 60 7E 30 7F 60 03 53 1C 43 CA 31 97 B8 z.F`~0.`.S.C.1..
+00000020 47 47 56 E9 19 45 F9 E2 DC 38 68 8D F1 A7 C7 48 GGV..E...8h....H
+00000030 96 26 F6 0C 0F 94 D8 E3 9E 66 82 76 A6 BC B4 FC .&.......f.v....
+[00:00:15.201,000] <inf> app: Verifying signature for SHA-256 hash
+[00:00:20.987,000] <inf> app: Signature verified.
+[00:00:23.441,000] <inf> app: Destroyed persistent key #1
+```
+
+### Extending the TF-M Sample Applications
+
+The sample application above can easily be extended, or a new application can be started based on one of the samples available [here](https://github.com/zephyrproject-rtos/zephyr/tree/master/samples/tfm_integration). 
+
+Consult the PSA API documentation or TF-M source code, linked below, for details on how to extend the samples:
+
+### **Key References**
+
+The following links are useful to further develop custom applications based on Zephyr 2.3+ and TF-M:
+
+* PSA API Documentation: [](<* <https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation>>)Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
+* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) [C](<* <https://git.trustedfirmware.org/trusted-firmware-m.git/tree/>>)lick [here](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/).
+
+Zephyr’s fork of TF-M for any pull requests or bug reports:Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).** [](https://github.com/zephyrproject-rtos/trusted-firmware-m)**
