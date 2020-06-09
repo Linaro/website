@@ -6,7 +6,6 @@ event: arm-hpc-santa-clara-2018
 date: '2018-07-26 09:00:00+00:00'
 event_date: '2018-07-26 09:00:00+00:00'
 image: /assets/images/content/ArmHPCWorkshopSocialMedia.png
-event: arm-hpc-santa-clara-2018
 sponsors:
  - name: Arm
    image: https://static.linaro.org/common/member-logos/arm.jpg
