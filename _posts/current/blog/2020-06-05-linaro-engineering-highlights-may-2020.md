@@ -1,7 +1,10 @@
 ---
 layout: post
-title: 'Linaro Engineering Highlights: May 2020'
-date: '2020-06-05 11:58:17'
+title: "Linaro Engineering Highlights: May 2020"
+description: "Welcome to the May 2020 edition of the Linaro Engineering
+  Highlights where you can find out all about the latest news and developments
+  that Linaro has been working on during May. "
+date: 2020-06-05 11:58:17
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
   - Linaro
@@ -17,6 +20,10 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
+```
+
+```
+
 ### **Linaro AI Project: uTVM**
 
 By Tom Gall, Director, AI/ML Project Lead
@@ -160,3 +167,71 @@ By Vicky Janicki, Linaro IoT and Embedded Group
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %}
 
 The Linaro Embedded and IoT Team ran a 3 session series in April and May under the Linaro Tech Days Banner. Vincent Wan (TI) reviewed “[Power Management On Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-402/)” to start. For the second session, Paul Sokolovskyy (Linaro) presented “[Update on LAVA Testing for Bare Metal Systems](https://connect.linaro.org/resources/ltd20/ltd20-403/)” which charted LITE’s effort to enhance LAVA to work more effectively with MCU’s. Manivannan Sadhasivam, a kernel engineer from Linaro Developer Services presented  “[LoRa Meets Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-404/)” which included a brief history of LoRa, what is currently working and what remains. All three sessions can be found on the [Linaro Tech Days Resource Page](https://connect.linaro.org/linaro-tech-days/).
+
+### Trusted-Firmware-M Integration with Zephyr 2.3
+
+By Kevin Townsend, Senior Engineer, Linaro IoT and Embedded Group
+
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %}
+
+The upcoming 2.3 release of Zephyr now features out of the box support for Trusted-Firmware-M, including hardware emulation via QEMU, meaning you don’t require physical access to a supported development board.
+
+Zephyr is configured to run in the non-secure processing environment, and TF-M is used in the secure processing environment, with communication between the two environments happening over  TF-M’s IPC mechanism. Both secure and non-secure images are signed, and validated by the secure BL2 bootloader at startup. Zephyr applications can make direct use of the PSA APIs for Cryptography, Initial Attestation, etc., and the IPC mechanism will be handled transparently from an application point of view. 
+
+##### **General Requirements**
+
+This post details some of the steps required to test TF-M integration in Zephyr using QEMU, with only minor changes required to run the samples on actual hardware.
+
+**NOTE** : Zephyr currently supports TF-M integration with the MPS2 AN521 and Musca B1 board targets, with LPCXpresso55S69 support planned in the near future now that LPC55S69 support is available upstream in TF-M. The AN521 build target has been setup in Zephyr to optionally work with QEMU.
+
+Zephyr 2.3 RC1 was used writing this, but 2.3 may be finalised by the time you read this. The instructions found here should remain consistent with anything from 2.3 RC1 and higher.
+
+At present, the TF-M integration has been tested on the following platforms, and will not work on Windows out of the box:
+
+* Ubuntu 18.04 using Zephyr SDK 0.11.3 
+* macOS Mojave using QEMU 4.2.0 with gcc-arm-none-eabi-7-2018-q2-update
+
+##### **Zephyr Setup**
+
+Follow Zephyr’s Getting Started Guide available [here](https://docs.zephyrproject.org/latest/getting_started/index.html).
+
+##### TF-M Setup
+
+TF-M has a few additional requirements to enable building the secure-side firmware image. The following Python packages must be available on your system, since they are used by TF-M when signing binary images for secure bootloader verification at startup:
+
+```
+$ pip3 install --user cryptography pyasn1 pyyaml cbor>=1.0.0
+```
+
+Additionally, the **srec_cat** utility is required when merging signed application images at the end of the build process. This can be installed via the **srecord** package available on both Linux(-y) distributions and OS X via some variation of:
+
+```
+$ sudo apt-get install srecord
+```
+
+Or in the case of OS X:
+
+```
+$ brew install srecord
+```
+
+##### **QEMU Setup**
+
+ If you are using the Zephyr SDK on Linux, QEMU 4.2.0 is already included in the SDK and no further action is required.
+
+If you are using OS X, however, you will also need to install QEMU and make it available on your system path. QEMU 4.0.0 included support for the AN521 target, but we recommend using QEMU 4.2.0 or higher, which is the release used in the Zephyr SDK and during the TF-M/Zephyr integration work. This is generally as easy as running:
+
+```
+$ brew install qemu
+```
+
+You can test the installation and path access with the following command:
+
+```
+$ qemu-system-arm --version
+QEMU emulator version 4.2.0
+Copyright (c) 2003-2019 Fabrice Bellard and the QEMU Project developers
+```
+Building a TF-M application
+ 
+At this point we can build a test application in Zephyr via the following command sequence:
