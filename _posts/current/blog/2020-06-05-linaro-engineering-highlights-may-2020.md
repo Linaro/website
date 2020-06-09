@@ -333,3 +333,9 @@ The following links are useful to further develop custom applications based on Z
 Zephyr’s fork of TF-M for any pull requests or bug reports:Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m) 
 
 ### **Community News**
+
+By Mike Holmes, Foundational Technologies
+
+{% include image.html path="/assets/images/content/stewardship.png" class="small-inline left" alt="Stewardship icon" %}
+
+The [Linux Test Project test suite stable release for "May 2020"](https://lwn.net/Articles/820636/) has been released with notable contributions from Linaro. Viresh Kumar  (Kernel Working Group) was featured in the top three for his effort to provide complete coverage of the Syscalls in the LTP suite.
