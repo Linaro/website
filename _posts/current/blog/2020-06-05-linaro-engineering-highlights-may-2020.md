@@ -327,7 +327,9 @@ Consult the PSA API documentation or TF-M source code, linked below, for details
 
 The following links are useful to further develop custom applications based on Zephyr 2.3+ and TF-M:
 
-* PSA API Documentation: [](<* <https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation>>)Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
-* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) [C](<* <https://git.trustedfirmware.org/trusted-firmware-m.git/tree/>>)lick [here](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/).
+* PSA API Documentation: \[](<* <https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation>>)Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
+* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) \[](<* <https://git.trustedfirmware.org/trusted-firmware-m.git/tree/>>)Click [here](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/).
 
-Zephyr’s fork of TF-M for any pull requests or bug reports:Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).** [](https://github.com/zephyrproject-rtos/trusted-firmware-m)**
+Zephyr’s fork of TF-M for any pull requests or bug reports:Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m) 
+
+### **Community News**
