@@ -52,13 +52,15 @@ By Mike Holmes, Director, Foundational Technologies
 
 Arm and Linaro have been collaborating on prototypes with changes in the OP-TEE kernel driver, OP-TEE OS and Trusted Firmware based on the different versions of the FFA (formerly SPCI) specification. Having the OP-TEE regression suite xtest pass has improved confidence in the different versions of the specifications. Later versions of the prototypes have also included a secure world (S-EL2) hypervisor based on Hafnium. Linaro created the first prototype and after that it has been a shared effort.
 
+
+
 ### **KissCache: A New Caching Server**
 
 By Ryan Arnold, Director, System Technologies
 
 {% include image.html path="/assets/images/content/lkft.png" class="small-inline left" alt="LKFT icon" %}
 
-[KissCache, the "simple and stupid caching serve](https://www.linaro.org/blog/the-kisscache-caching-server/)r", is a newly released open source project from Linaro that is now used in production by the Linux Kernel Functional Test (LKFT) project. KissCache is used to cache and serve binary artifacts to Linaro’s LKFT LAVA instance. These artifacts are held in Amazon S3. Using Kisscache both saves Linaro money by caching artifacts in the Linaro lab (reducing bandwidth usages from S3) as well as increases job execution time because artifacts are served much more quickly, and therefore systems are provisioned more quickly.
+[KissCache, the "simple and stupid caching server"](https://www.linaro.org/blog/the-kisscache-caching-server/), is a newly released open source project from Linaro that is now used in production by the Linux Kernel Functional Test (LKFT) project. KissCache is used to cache and serve binary artifacts to Linaro’s LKFT LAVA instance. These artifacts are held in Amazon S3. Using Kisscache both saves Linaro money by caching artifacts in the Linaro lab (reducing bandwidth usages from S3) as well as increases job execution time because artifacts are served much more quickly, and therefore systems are provisioned more quickly.
 
 Unlike classical proxies like Squid that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client. Kisscache’s primary use case is for downloading and caching https (secure) content. It preserves the chain of trust, whereas Squid really only works properly with non-secure content.
 
@@ -109,15 +111,15 @@ With these files a developer needs to build up a [pipenv](https://realpython.com
 
 One can even run the application locally with *“S3_BUCKET=storage.dev.lkft.org S3_REGION=us-east-1 ROOT_INDEX_LISTING=True FLASK_APP=tuxpub flask run”*.
 
-###### What are the limitations?
+##### **What are the limitations?**
 
 Since tuxpub uses the AWS API, there are limitations set by the cloud provider. An index page with more than 1000 objects hits an API limit and generates a nasty error page. Because of this, we intend to implement ‘paging’ support. Tuxpub does not presently support user authentication and has no immediate plans to add it.
 
-###### Can others use and contribute to tuxpub?
+##### **Can others use and contribute to tuxpub?**
 
 Linaro has made tuxpub available as open source software under the [MIT license](https://gitlab.com/Linaro/tuxpub/-/blob/master/LICENSE). This means that it’s free to deploy and modify. We’re very welcoming of pull requests! You can find the code [here](https://gitlab.com/Linaro/tuxpub).
 
-###### What is the future of tuxpub?
+##### **What is the future of tuxpub?**
 
 Linaro’s objective is to keep this application simple! We are being selective and do not want to add too many features that would bloat the application. Desirable features additions (most notably paging support) are being collected in [tuxpub gitlab issues](https://gitlab.com/Linaro/tuxpub/-/issues) and addressed over time.
 
