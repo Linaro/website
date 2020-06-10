@@ -132,7 +132,7 @@ Linaro’s objective is to keep this application simple! We are being selective 
 
 By Tom Gall, Director, Linaro Consumer Group
 
-{% include image.html path="/assets/images/content/multimedia-2x.png" class="small-inline left" alt="Multimedia icon" %} 
+{% include image.html path="/assets/images/content/multimedia.jpg" class="small-inline left" alt="Multimedia icon" %} 
 
 The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/> now contains detailed information on how to [build](https://wiki.rdkcentral.com/display/RDK/Build+Procedure+for+64bit+RDK+Media+Client+using+Thud+Yocto+2.6) and also [run](https://wiki.rdkcentral.com/display/RDK/Run+RDK+3.0+Features+on+i.MX8MQ) the RDK 3.0 on MCIMX8M-EVK NXP board. In addition, work has already progressed rapidly on the migration to Yocto Dunfell LTS release which is documented [here](https://wiki.rdkcentral.com/display/RDK/Yocto+3.1+LTS+build+procedure+for+RDK-V+on+i.MX8MQ). The i.MX8M SoC has become the Linaro reference SoC for secure video path developments for the major ecosystems  Linaro is involved with for secure video (RDK, Linux  & AOSP) where a fully secure video pipeline is required.
 
@@ -338,6 +338,6 @@ The following links are useful to further develop custom applications based on Z
 
 By Mike Holmes, Foundational Technologies
 
-{% include image.html path="/assets/images/content/stewardship.png" class="small-inline left" alt="Stewardship icon" %}
+{% include image.html path="/assets/images/content/stewardship.jpg" class="small-inline left" alt="Stewardship icon" %}
 
 The [Linux Test Project test suite stable release for "May 2020"](https://lwn.net/Articles/820636/) has been released with notable contributions from Linaro. Viresh Kumar  (Kernel Working Group) was featured in the top three for his effort to provide complete coverage of the Syscalls in the LTP suite.
