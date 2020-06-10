@@ -153,7 +153,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/\">https://optee.readthedocs.io/en/latest/</a>",
             "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.\r<br>\r<br>----\r<br>\r<br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".\r<br>\r<br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
@@ -195,7 +195,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](ttps://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](ttps://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "<a href=\"ttps://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Although a lot of changes happened in the linux storage over the past years with rewrite of the kernel\u2019s block layer and new I/O schedulers, some areas like embedded storage and I/O latency performance still deserve further improvements. The project will focus on delivering these missing features.",
@@ -216,7 +216,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.\r<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.\r<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
