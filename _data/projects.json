@@ -6,7 +6,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -27,7 +27,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDTS\">https://collaborate.linaro.org/display/BDTS</a>",
             "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
@@ -48,7 +48,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -69,7 +69,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=274#]\">breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=274#]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=274#\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/DTE\">https://collaborate.linaro.org/display/DTE</a>",
             "description": "",
@@ -90,7 +90,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -111,7 +111,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "High Performance Computing\r<br>\r<br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
@@ -132,7 +132,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -174,7 +174,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://lkft.linaro.org/\">https://lkft.linaro.org/</a>",
             "description": "Our mission is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
@@ -237,7 +237,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=280#]\">breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=280#]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
@@ -258,7 +258,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -279,7 +279,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/RPROC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/RPROC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/RPROC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Advance and promote development related to the remoteproc and rpmsg kernel subsystems.  More specifically identify features commonly sought after by the <a href=\"https://www.openampproject.org/\">OpenAMP</a> community and assist with their implementation.  ",
