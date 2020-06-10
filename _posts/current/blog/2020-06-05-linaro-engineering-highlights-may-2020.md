@@ -4,7 +4,7 @@ title: "Linaro Engineering Highlights: May 2020"
 description: "Welcome to the May 2020 edition of the Linaro Engineering
   Highlights where you can find out all about the latest news and developments
   that Linaro has been working on during May. "
-date: 2020-06-05 11:58:17
+date: 2020-06-05T11:58:17.000Z
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
   - Linaro
@@ -20,10 +20,6 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-```
-
-```
-
 ### **Linaro AI Project: uTVM**
 
 By Tom Gall, Director, AI/ML Project Lead
@@ -48,7 +44,7 @@ The project is open to club/core Members to join.  If a Member is not a club or 
 
 Email tom.gall@linaro.org for details or questions.
 
-### **Firmware Framework for Arm (FFA) Specification \[[1.0 EAC release]](https://developer.arm.com/docs/den0077/a)**
+### **Firmware Framework for Arm (FFA) Specification [(1.0 EAC release)](https://developer.arm.com/docs/den0077/a)**
 
 By Mike Holmes, Director, Foundational Technologies
 
