@@ -6,7 +6,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -26,9 +26,9 @@
             "Point of Contact": "TBD"
         },
         "Project Information": {
-            "Health Check Report": "TBD",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
-            "Plan Of Record": "TBD",
+            "Health Check Report": "",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDTS\">https://collaborate.linaro.org/display/BDTS</a>",
             "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
             "title": "Big Data & Data Science"
@@ -48,7 +48,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -69,7 +69,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/secure/StructureBoard.jspa?s=274#)\">breakdown](https://projects.linaro.org/secure/StructureBoard.jspa?s=274#)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=274#]\">breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=274#]</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/DTE\">https://collaborate.linaro.org/display/DTE</a>",
             "description": "",
@@ -90,7 +90,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -111,7 +111,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "High Performance Computing\r<br>\r<br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
@@ -132,7 +132,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
@@ -152,9 +152,9 @@
             "Point of Contact": "Join the conversation at <a href=\"https://www.trustedfirmware.org/contact/\">https://www.trustedfirmware.org/contact/</a>"
         },
         "Project Information": {
-            "Health Check Report": "TBD",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
-            "Plan Of Record": "TBD",
+            "Health Check Report": "",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/\">https://optee.readthedocs.io/en/latest/</a>",
             "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.\r<br>\r<br>----\r<br>\r<br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".\r<br>\r<br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
             "title": "Linaro's OP-TEE Contributions"
@@ -173,16 +173,16 @@
             "Point of Contact": "TBD"
         },
         "Project Information": {
-            "Health Check Report": "TBD",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
-            "Plan Of Record": "TBD",
+            "Health Check Report": "",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://lkft.linaro.org/\">https://lkft.linaro.org/</a>",
             "description": "Our mission is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
             "title": "Linux Kernel Quality"
         },
         "Project Ownership": {
             "Governing Entity": "TSC",
-            "Project Owner": "",
+            "Project Owner": "Anmar Oueja <a class=\"email-icon\" href=\"mailto:anmar.oueja@linaro.org\"><span class=\"icon-mail\"></span></a>",
             "Technical Lead": "Dan Rue <a class=\"email-icon\" href=\"mailto:dan.rue@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12903&avatarId=14205",
@@ -194,10 +194,10 @@
             "Point of Contact": "Vincent Guittot "
         },
         "Project Information": {
-            "Health Check Report": "TBD",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
-            "Plan Of Record": "TBD",
-            "Project Homepage": "TBD",
+            "Health Check Report": "",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
             "description": "Although a lot of changes happened in the linux storage over the past years with rewrite of the kernel\u2019s block layer and new I/O schedulers, some areas like embedded storage and I/O latency performance still deserve further improvements. The project will focus on delivering these missing features.",
             "title": "Linux Storage Evolution"
         },
@@ -216,7 +216,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">breakdown](https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.\r<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.\r<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
@@ -237,7 +237,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of work <a href=\"breakdown](https://projects.linaro.org/secure/StructureBoard.jspa?s=280#)\">breakdown](https://projects.linaro.org/secure/StructureBoard.jspa?s=280#)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=280#]\">breakdown|https://projects.linaro.org/secure/StructureBoard.jspa?s=280#]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
@@ -258,7 +258,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "[Scope of <a href=\"work](https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)\">work](https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure)</a>",
+            "JIRA Structure": "[Scope of work <a href=\"breakdown|https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]\">breakdown|https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure]</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "",
