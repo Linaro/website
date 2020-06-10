@@ -1,9 +1,16 @@
 ---
 layout: post
 title: "Linaro Engineering Highlights: May 2020"
-description: "Welcome to the May 2020 edition of the Linaro Engineering
-  Highlights where you can find out all about the latest news and developments
-  that Linaro has been working on during May. "
+description: >+
+  Welcome to the May 2020 edition of the Linaro Engineering Highlights. This
+  blog details all of the latest news and many of the developments that Linaro
+  has been working on during May. This includes the Linaro AI Project, Firmware
+  Framework for Arm, KissCache the new Caching Server, Tuxpub - a serverless
+  cloud-based artifact server, RDK and i.MX8, a Raspberry Pi Libcamera
+  Initiative, LEDGE Reference Platform Stage 3, Linaro Tech Days Sessions from
+  the LITE team, Trusted-Firmware-M Integration with Zephyr 2.3 and Community
+  News.
+
 date: 2020-06-05T11:58:17.000Z
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
@@ -51,8 +58,6 @@ By Mike Holmes, Director, Foundational Technologies
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
 
 Arm and Linaro have been collaborating on prototypes with changes in the OP-TEE kernel driver, OP-TEE OS and Trusted Firmware based on the different versions of the FFA (formerly SPCI) specification. Having the OP-TEE regression suite xtest pass has improved confidence in the different versions of the specifications. Later versions of the prototypes have also included a secure world (S-EL2) hypervisor based on Hafnium. Linaro created the first prototype and after that it has been a shared effort.
-
-
 
 ### **KissCache: A New Caching Server**
 
@@ -193,7 +198,7 @@ At present, the TF-M integration has been tested on the following platforms, and
 
 Follow Zephyr’s Getting Started Guide available [here](https://docs.zephyrproject.org/latest/getting_started/index.html).
 
-##### TF-M Setup
+##### **TF-M Setup**
 
 TF-M has a few additional requirements to enable building the secure-side firmware image. The following Python packages must be available on your system, since they are used by TF-M when signing binary images for secure bootloader verification at startup:
 
@@ -325,10 +330,9 @@ Consult the PSA API documentation or TF-M source code, linked below, for details
 
 The following links are useful to further develop custom applications based on Zephyr 2.3+ and TF-M:
 
-* PSA API Documentation: \[](<* <https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation>>)Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
-* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) \[](<* <https://git.trustedfirmware.org/trusted-firmware-m.git/tree/>>)Click [here](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/).
-
-Zephyr’s fork of TF-M for any pull requests or bug reports:Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m) 
+* PSA API Documentation: Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
+* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) Click [here](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/).
+* Zephyr’s fork of TF-M for any pull requests or bug reports: Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m) 
 
 ### **Community News**
 
