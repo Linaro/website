@@ -13,7 +13,6 @@ jumbotron:
   title: Power Management EAS
   description: ''
   inner_class: dotted
-  description: ""
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
   - row: container_row

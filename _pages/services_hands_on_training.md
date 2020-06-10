@@ -7,13 +7,10 @@ jumbotron:
     image: /assets/images/content/developer_services_bg.jpg
 permalink: /services/hands-on-training/
 keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored to needs
-icon: /assets/images/content/DeveloperServices-icons_training.svg
 layout: flow
 tag: services
 js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+image: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: main_content_row
       style: text_block
