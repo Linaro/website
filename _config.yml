@@ -67,6 +67,7 @@ defaults:
       layout: post
       is_post: true
       comments: true
+      image: /assets/images/content/code_banner.jpg
   - scope:
       path: ""
       type: "authors"
