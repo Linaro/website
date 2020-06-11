@@ -51,15 +51,15 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
-            "title": "Developer Cloud"
+            "description": "\r<br>The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime. \r<br>\r<br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.\r<br>\r<br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
+            "title": "Cloud Infrastructure"
         },
         "Project Ownership": {
             "Governing Entity": "LDCG SC",
             "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
             "Technical Lead": "Kevin Zhao <a class=\"email-icon\" href=\"mailto:kevin.zhao@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
-        "icon": "https://projects.linaro.org/secure/projectavatar?avatarId=10903",
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=10802&avatarId=14209",
         "key": "CLOUD"
     },
     {
