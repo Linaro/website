@@ -261,7 +261,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
             "title": "Virtualization"
         },
         "Project Ownership": {
