@@ -35,6 +35,8 @@ pages:
         url: /community-projects/
       - text: Contact Us
         url: /contact/
+      - text: Legal
+        url: /legal/
     title: About
   - options:
       - text: Overview
@@ -89,7 +91,7 @@ pages:
         url: /services/
       - text: Bootloaders
         url: /services/bootloaders/
-      - text: "BSP’s, Builds and Support"
+      - text: BSP’s, Builds and Support
         url: /services/bsp-builds-support/
       - text: Hands on Training
         url: /services/hands-on-training/
