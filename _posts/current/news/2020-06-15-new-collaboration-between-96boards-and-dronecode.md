@@ -5,7 +5,7 @@ description: 96Boards and Dronecode have come together to collaborate on open
   drone standards, to help define the standard for next phase mass adoption of
   the open source drone technology.
 date: 2020-06-15T11:52:20.000Z
-image: /assets/images/content/linaro-group-icons_drone.png
+image: /assets/images/content/linaro-group-icons_drone-small.png
 tags:
   - Dronecode
   - 96Boards
