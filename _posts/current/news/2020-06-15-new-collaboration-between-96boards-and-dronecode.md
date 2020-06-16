@@ -42,6 +42,6 @@ author: jon.burcham@linaro.org
 
 ### **Join us at the PX4 Developer Summit**
 
-{% include image.html path="/assets/images/content/px4-developer-summit.png" alt="Developer Summit banner" %}
+{% include image.html path="/assets/images/content/px4-developer-summit.png" class="medium" alt="Developer Summit banner" %}
 
 96Boards will join Dronecode and the PX4 community at the second edition of the PX4 Developer Summit, streamed LIVE on July 6 & 7. The PX4 Developer Summit is a drone development conference targeted towards professional and aspiring drone developers, roboticists, software engineers, researchers, students, and academia. The event, streamed live for free, is the yearly check-in for the PX4 community at large. [Learn more about the PX4 Developer Summit.](https://px4.io/virtual-2020/)
