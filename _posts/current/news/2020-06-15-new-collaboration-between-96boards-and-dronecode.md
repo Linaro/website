@@ -4,7 +4,7 @@ title: New Collaboration Between 96Boards and Dronecode
 description: 96Boards and Dronecode have come together to collaborate on open
   drone standards. This will help to define the standard for next phase mass
   adoption of the open source drone technology.
-date: 2020-06-15T11:52:20.000Z
+date: 2020-06-16 11:52:20
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
   - Dronecode
