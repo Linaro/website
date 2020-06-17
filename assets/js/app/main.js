@@ -35,7 +35,7 @@ $(document).ready(function () {
       pagination: false,
       rewindSpeed: 500,
       rewind: true,
-      autoplay: true,
+      autoplay: false,
       items: 1,
       lazyLoadEager: 0,
       loop: false,
@@ -370,4 +370,15 @@ $(document).ready(function () {
       },
     });
   }
+});
+
+$(document).ready(function () {
+  $("#ten_years_modal").on("shown.bs.modal", function (e) {
+    var videoElement = $(this).find("video");
+    videoElement.trigger("play");
+  });
+  $("#ten_years_modal").on("hide.bs.modal", function (e) {
+    var videoElement = $(this).find("video");
+    videoElement.trigger("pause");
+  });
 });
