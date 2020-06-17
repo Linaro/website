@@ -8,7 +8,7 @@ description: Founded in 2010, Linaro will be celebrating its 10th Anniversary on
   provoking article, David Rusling (CTO at Linaro) takes a look back at how
   Linaro came to be and also how the company has moved forward throughout the
   years.
-date: 2020-06-15T03:21:32.000Z
+date: 2020-06-18 03:21:00
 image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
   - linaro
