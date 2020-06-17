@@ -9,7 +9,7 @@ description: Founded in 2010, Linaro will be celebrating its 10th Anniversary on
   Linaro came to be and also how the company has moved forward throughout the
   years.
 date: 2020-06-15T03:21:32.000Z
-image: /assets/images/content/5years.png
+image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
   - linaro
   - arm
