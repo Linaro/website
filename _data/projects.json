@@ -216,6 +216,27 @@
         },
         "Project Information": {
             "Health Check Report": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/PERF?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "",
+            "title": "Power and Performance Project"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12913&avatarId=10905",
+        "key": "PERF"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
