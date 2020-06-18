@@ -24,7 +24,6 @@ flow:
     style: large_type introduction_row py-0
   - row: custom_include_row
     source: engineering_related_resources.html
-image: /assets/images/content/engineering/png/core_engineering.png
 ---
 ## Energy Aware Scheduling \[EAS]
 
