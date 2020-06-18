@@ -7,6 +7,11 @@ jumbotron:
   inner_class: dotted
   slider:
     - darken: true
+      title: 10 Years of Linaro
+      image: /assets/images/content/code_banner.jpg
+      inner_class: ten_years text-center
+      custom_include: 10_years_video_modal.html
+    - darken: true
       title: Linaro accelerates product deployment in the Arm ecosystem
       image: /assets/images/content/code_banner.jpg
       inner_class: dotted
