@@ -24,7 +24,8 @@ flow:
         style: text-left
         text_content:
           text: >
-            Linaro has driven open source software development on Arm since its foundation in 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on. At the time, multiple companies were frequently trying to upstream the same code, causing fragmentation and delay to product deployments. Linaro was therefore formed to consolidate the Arm code base and provide a much needed collaborative forum for companies to work together on foundational open source software on Arm.
+            Linaro was founded in 2010 and since its inception it has driven open source software development on Arm. Linaro provides the tools, Linux kernel quality and security needed for a solid foundation to innovate on. At the time, multiple companies were frequently trying to upstream the same code, causing fragmentation and delay to product deployments. Linaro was therefore formed to consolidate the Arm code base and provide a much-needed collaborative forum for companies to work together on foundational open source software on Arm. Today these same principles of collaboration still apply, except we now work across a breadth of Engineering specialisms within many different verticals. Our membership (link) base is diverse and includes some of the most prominent names within the industry. However, our principles of eliminating duplication of effort, reducing fragmentation and aiding speed to market remain at the core of our business.
+
   - row: container_row
     style: key_stats_row bg-secondary
     sections:
