@@ -12,39 +12,86 @@ tag: services
 js-package: services
 image: /assets/images/content/LinaroDSVertical.png
 flow:
-    - row: main_content_row
-      style: text_block
+    - row: container_row
+      style: large_type
+      sections:
+        - format: text
+          text_content:
+            text: |
+                Linaro Developer Services provides customised training on a variety of topics. Moreover we provide expert instructors who are real world engineers and are specialists in delivering hands-on training
+                across Linux and Arm technology.
+        - format: text
+          text_content:
+            text: |
+                Our courses are flexible, can be delivered onsite or remotely and tailored to the member’s exact needs if preferred. All training
+                modules are structured to meet the requirements of your team. Mentoring can also be provided.
+
+                The courses incorporate many emerging technologies, together with the latest best practices. Topics include: -
+        - format: collapse
+          style: #
+          panels:
+            - title: Introduction to Kernel Development
+              content: |
+                - Introduction to Devicetree
+                - Pragmatic Linux driver development - Part I
+                - Pragmatic Linux driver development - Part II
+                - Symbolic debugging for Linux kernel and userspace
+            - title: A Practical Introduction to OpenEmbedded/Yocto
+              content: |
+                - Getting started
+                - Anatomy of a typical Linux distribution
+                - Updating the Linux kernel
+                - Developing applications
+            - title: Energy Aware Scheduler
+              content: |
+                - Brief introduction for energy aware scheduling
+                - Practical Power modeling
+                - Tools and Techniques
+                - SchedTune and CPUFreq
+            - title: Advanced Kernel Debugging
+              content: |
+                - Kernel debug stories
+                - Tracing with ftrace
+                - Debugging with eBPF
+                - Using perf on Arm platforms
+            - title: Building Custom Systems with OpenEmbedded/Yocto
+              content: |
+                - Introduction to OpenEmbedded and the Yocto Project
+                - OpenEmbedded main concepts
+                - Build workflow
+                - OpenEmbedded advanced concepts
+                - Debug the build
+                - Toolchain
+            - title: Trusted Firmware A for Armv8 systems
+              content: |
+                - ARMv8 exception model and boot
+                - Secure monitor and power management
+            - title: KVM and virtual I/O for Armv8 systems
+              content: |
+                - KVM internals for Armv8
+                - Device access using virtio and VFIO
+            - title: Upstream Kernel Development
+              content: |
+                - Upstreaming I
+                - Upstreaming II
+            - title: Real-time Deployment in Linux
+              content: |
+                - Armv8! Spot the difference
+            - title: GCC under the hood
+              content: |
+                - Coming soon
+            - title: Introduction to OP-TEE
+              content: |
+                - Coming soon
+        - format: text
+          text_content:
+            text: |
+                We have trained many engineers across key areas such as OP-TEE, Energy Aware Scheduler, Arm Trusted Firmware, Power Management and Open Source development to name but a few.
+
+                Contact Linaro Developer Services today to discuss your specific training requirements.
     - row: container_row
       style: services_form large_type bg-primary text-white
       sections:
-        - format: title
-          title_content:
-            size: h2
-            style: text-white
-            text: To find out more about Developer Services please complete this form
         - format: custom_include
           source: services/developer_services_form.html
 ---
-Linaro Developer Services provides customized training on a variety of topics.
-
-- Expert Instructors who are real world engineers
-  - Delivering hands-on training on Linux and Arm technology
-
-- Flexible delivery
-  - training delivered onsite or remotely
-
-- Training structured to your team needs
-  - Mentoring available
-
-- Examples include
-  - Upstreaming, both introductory and advanced sessions
-  - Advanced kernel debugging techniques and tools
-  - EAS: Introduction and tuning
-  - Arm Trusted Firmware, Secure boot and PSCI
-  - Armv8 for Armv7 kernel programmers
-  - Introduction to OPTEE and using it for DRM
-  - Introduction to OE/Yocto
-
-- We have trained many engineers in key areas such as OP-TEE, Energy Aware Scheduler, Arm Trusted Firmware, Power Management, Open Source development and many other topics
-
-Contact Linaro Developer Services to discuss your training needs today.
