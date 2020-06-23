@@ -27,7 +27,8 @@
       "image": "/assets/images/people/ToddKjos.jpg",
       "bio": "Todd Kjos is a technical lead for the Android Kernel Team at Google. He maintains AOSP common kernels and is a Linux maintainer for the binder driver. He also leads the development of Android kernel scheduling and DVFS. Previously he worked on x86 and Itanium server enablement and Itanium virtualization.\n",
       "teams": [
-        "technical_steering_committee"
+        "technical_steering_committee",
+        "board_of_directors"
       ]
     },
     {
