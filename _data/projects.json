@@ -267,7 +267,7 @@
         "Project Ownership": {
             "Governing Entity": "TSC",
             "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-            "Technical Lead": "Joakim Bech <a class=\"email-icon\" href=\"mailto:joakim.bech@linaro.org\"><span class=\"icon-mail\"></span></a>"
+            "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12403&avatarId=10904",
         "key": "SCMI"
