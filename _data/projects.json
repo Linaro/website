@@ -2,6 +2,27 @@
     {
         "Project Contact Information": {
             "Meetings": "",
+            "Point of Contact": "Join us by subscribing to the project's public <a href=\"https://op-lists.linaro.org/mailman/listinfo/ai-dev\">mailing list</a>."
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "Artificial Intelligence related activities that span from Server, Edge to Microcontrollers. ",
+            "title": "AI Project"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=11901&avatarId=13207",
+        "key": "AI"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
             "Point of Contact": ""
         },
         "Project Information": {
