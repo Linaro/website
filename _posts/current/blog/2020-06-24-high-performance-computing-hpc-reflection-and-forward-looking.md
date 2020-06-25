@@ -93,3 +93,9 @@ Linaro is well known for its [CI infrastructure](https://ci.linaro.org/). The HP
 **CPU v GPU v SVE**
 
 Off loading with a CPU+GPU model can be expensive. Small matrices (<1024x1024) have a high transmission overhead compared to the actual compute time within a GPU, such that a conventional non-vector CPU can complete the process surrounding the whole computation in comparable time. Later this year we could hope to see benchmarks verify the optimism that vector-enabled CPUs could match or even exceed GPU-based performance for significantly larger matrices used in the likes of [RESNET-50](https://cv-tricks.com/keras/understand-implement-resnets/) and others with 100s of millions of parameters.
+
+**Infrastructure**
+
+The method of interconnection used to link compute nodes can have a significant impact on the performance of the system as a whole. What will be interesting to see is how different the [Fugaku Supercomputer](https://www.linaro.org/blog/arm-hpc-workshop-sessions-and-speakers/) styled on Fujitsu’s FX1000 with its TOFU interconnect [compares](https://www.fujitsu.com/global/products/computing/servers/supercomputer/specifications/) to the PCIe/InfiniBand enabled Fujitsu FX700 for real workloads. Keep watching and Linaro’s HPC-SIG could create future blogs on performance tuning vector-enabled CPUs.
+
+High performance computing demands significant investment in skills and budget. If you’re [budget constrained](https://store.avantek.co.uk/arm-servers.html) then it’s still possible to scale up node by node and perhaps forego [commercial licenses](https://developer.arm.com/solutions/hpc/hpc-software) for comparable opensource [toolchains](https://www.linaro.org/engineering/core/toolchain/) and toolkits such as [OpenHPC](https://openhpc.community/).
