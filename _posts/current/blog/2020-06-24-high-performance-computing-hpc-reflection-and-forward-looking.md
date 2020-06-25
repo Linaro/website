@@ -48,6 +48,26 @@ For example:
 
 In the hierarchy of packages, cores, threads, vectors:
 
+{% include image.html path="/assets/images/content/hpc-hierarchy.png" alt="Hierarchy of packages, cores, threads, vector" %}
 
+A typical and recurrent problem encountered with the vector models however is the inability to lock data in registers without automatic flushing, until that data can be completely retired. For example:
 
-hpc-hierarchy.png
+```
+Minimize main memory and cache access 
+Maximise reuse of array content in say block matrix multiply for instance or convolutions
+a[0] = a0
+a[1] = a1
+...
+a[n] = an
+load a[] -> R  <--- c/c++ user control command
+               <--- loads a[] into cpu register R  
+lock R         <--- c/c++ user control command
+               <--- R is now read only and not flushable
+do lots of other stuff, but register R remains static
+unlock R       <--- c/c++ user control command
+               <--- Register R is now rewritable and flushable
+```
+
+Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/docs/ddi0595/e/aarch64-system-registers/fpcr). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org ](hpc-sig@linaro.org)
+
+Linaro’s HPC-SIG are working towards [profiling HPC](https://connect.linaro.org/resources/san19/san19-417/) vector dependent applications for code hotspots, bottlenecks and cache misses in the Neoverse platform.
