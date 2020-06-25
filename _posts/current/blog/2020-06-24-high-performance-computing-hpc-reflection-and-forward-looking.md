@@ -48,7 +48,7 @@ For example:
 
 In the hierarchy of packages, cores, threads, vectors:
 
-{% include image.html path="/assets/images/content/hpc-hierarchy.png" alt="Hierarchy of packages, cores, threads, vector" %}
+ {% include image.html path="/assets/images/content/hpc-hierarchy.png" alt="hierarchy of packages" %}
 
 A typical and recurrent problem encountered with the vector models however is the inability to lock data in registers without automatic flushing, until that data can be completely retired. For example:
 
