@@ -9,6 +9,7 @@ description: In 2018 we discussed the first step for ARM into High Performance
 date: 2020-06-26T04:22:14.000Z
 image: /assets/images/content/hpc-bg.jpg
 tags:
+  - Arm high performance computing
   - high performance computing
   - HPC
   - Arm
