@@ -114,7 +114,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Development of the GNU Toolchain:\r<br>* GCC compiler (including runtime libraries)\r<br>** We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.\r<br>* GDB debugger\r<br>** Our debugger development focuses on supporting new ARMv8.x architectural features and improving debugging experience.\r<br>* Glibc C Library\r<br>** Our C Library development includes both target-specific and generic optimizations.  We aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.\r<br>* GNU Binutils assembler, BFD and Gold linkers\r<br>** Our Binutils development focuses on implementing workarounds for hardware errata and ELF section-level optimizations.",
             "title": "GNU Toolchain"
         },
         "Project Ownership": {
