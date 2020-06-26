@@ -114,7 +114,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Development of the GNU Toolchain:\r<br>* GCC compiler (including runtime libraries)\r<br>** We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.\r<br>* GDB debugger\r<br>** Our debugger development focuses on supporting new ARMv8.x architectural features and improving debugging experience.\r<br>* Glibc C Library\r<br>** Our C Library development includes both target-specific and generic optimizations.  We aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.\r<br>* GNU Binutils assembler, BFD and Gold linkers\r<br>** Our Binutils development focuses on implementing workarounds for hardware errata and ELF section-level optimizations.",
+            "description": "Development of the GNU Toolchain:\r<br>* GCC compiler\r<br>** We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.\r<br>** We improve performance and scalability of Libgomp (GNU OpenMP runtime)\r<br>** We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.\r<br>* GDB debugger\r<br>** We develop support for new ARMv8.x architectural features and improve debugging experience.\r<br>* Glibc C Library\r<br>** We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.\r<br>* GNU Binutils assembler, BFD and Gold linkers\r<br>** In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.",
             "title": "GNU Toolchain"
         },
         "Project Ownership": {
@@ -156,7 +156,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Development of the LLVM Toolchain:\r<br>* Clang compiler\r<br>** We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.\r<br>* LLDB debugger\r<br>** We develop support for new ARMv8.x architectural features and improve debugging experience.\r<br>* Compiler-RT runtime libraries\r<br>** We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.\r<br>* LLD linker\r<br>** In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.",
             "title": "LLVM Toolchain"
         },
         "Project Ownership": {
