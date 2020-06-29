@@ -9,7 +9,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Artificial Intelligence related activities that span from Server, Edge to Microcontrollers. ",
+            "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. \r<br>\r<br>Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.\r<br>\r<br>Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. \r<br>\r<br>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
             "title": "AI Project"
         },
         "Project Ownership": {
