@@ -69,4 +69,4 @@ This site will be the place to help you get the most out of your time at Linaro 
 _*Most meeting rooms are books however, there are many areas around the hotel to meet. There is the option to have your attendees meet at the registration desk or put in your own location. If you need a specific room please see the registration desk._
 
 **For more help with Pathable:**
-These are the basics for Pathable however, there is much more you can do with the tool; including messaging other attendees, having a group chat, adding documents for a sessions etc. To get more details you can visit the Pathable Knowledge Base to learn more. [**http://support.pathable.com/knowledgebase**](http://support.pathable.com/knowledgebase)
+These are the basics for Pathable however, there is much more you can do with the tool; including messaging other attendees, having a group chat, adding documents for a sessions etc. To get more details you can visit the Pathable Knowledge Base to learn more. [**https://support.pathable.com/hc/en-us**](https://support.pathable.com/hc/en-us)

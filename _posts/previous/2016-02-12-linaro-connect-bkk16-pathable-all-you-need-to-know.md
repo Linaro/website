@@ -86,4 +86,4 @@ _*Once meeting rooms are booked, there are still many areas around the hotel to 
 
 **For more help with Pathable:**
 
-These are the basics for Pathable however, there is much more you can do with the tool; including messaging other attendees, having a group chat, adding documents for a sessions etc. To get more details you can visit the Pathable Knowledge Base to learn more. [**http://support.pathable.com/knowledgebase**](http://support.pathable.com/knowledgebase)
+These are the basics for Pathable however, there is much more you can do with the tool; including messaging other attendees, having a group chat, adding documents for a sessions etc. To get more details you can visit the Pathable Knowledge Base to learn more. [**https://support.pathable.com/hc/en-us**](https://support.pathable.com/hc/en-us)
