@@ -5,6 +5,7 @@ slot: 13:30	- 14:00
 image: /assets/images/content/transforming-hpc-with-huawei-arm-hpc-solution.jpg
 title: "Transforming HPC with Huawei ARM HPC Solution"
 tag: resource
+published: false
 speakers:
   - biography: '""'
     company: Huawei
