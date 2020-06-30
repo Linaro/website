@@ -19,9 +19,9 @@ description: >-
 
   https://www.eventbrite.co.uk/e/performance-profiling-and-debugging-tools-for-server-class-applications-tickets-110120419138 
 location: "Zoom webinar "
-date: 2020-06-27 08:52:45
-event_date: 2020-07-21 12:52:45
-event_end_date: 2020-08-04 12:52:45
-image: /assets/images/content/screen-shot-2020-06-27-at-9.04.09-pm.png
+date: 2020-06-27T08:52:45.000Z
+event_date: 2020-07-21T12:52:45.000Z
+event_end_date: 2020-08-04T12:52:45.000Z
+image: /assets/images/content/kernal-debugging-webinar-2x-100.jpg
 event_type: webinar
 ---
