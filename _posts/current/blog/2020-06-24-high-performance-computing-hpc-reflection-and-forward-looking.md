@@ -27,7 +27,7 @@ tags:
 category: Blog
 author: paul.isaacs
 ---
-We have previously reflected on the first step for ARM into HPC ([High Performance Computing and Linaro - Mar.2018](https://www.linaro.org/blog/high-performance-computing-and-linaro/)). Since then, Linaro has been working to increase awareness of the successes within the [High Performance Computing ARM ecosystem](https://static.linaro.org/assets/HighPerformanceComputingARMecosystem-small.pdf). High Performance Computing now forms a key part of our Linaro Connect activities ([Connect Resources](https://www.linaro.org/engineering/high-performance-computing/)) and more recently our virtual conferences, due to Covid-19, ([Linaro Tech Days](https://connect.linaro.org/resources/ltd20/ltd20-106/)) for 2020.
+We have previously reflected on the first step for ARM into HPC ([High Performance Computing and Linaro - Mar.2018](/blog/high-performance-computing-and-linaro/)). Since then, Linaro has been working to increase awareness of the successes within the [High Performance Computing ARM ecosystem](https://static.linaro.org/assets/HighPerformanceComputingARMecosystem-small.pdf). High Performance Computing now forms a key part of our Linaro Connect activities ([Connect Resources](/engineering/high-performance-computing/)) and more recently our virtual conferences, due to Covid-19, ([Linaro Tech Days](https://connect.linaro.org/resources/ltd20/ltd20-106/)) for 2020.
 
 At Supercomputing 2019 we saw the public viewing of Fujitsu’s A64FX ([SC’19](https://www.fujitsu.com/global/solutions/business-technology/tc/events/sc19/)) and some of the first sales outside of Japan, in 2020, including another one of Linaro’s members, Sandia National Labs ([FX700](https://share-ng.sandia.gov/news/resources/news_releases/green_processor/)). Sandia, is the notable home of [Astra, the first Arm supercomputer](https://en.wikichip.org/wiki/supercomputers/astra) to join the Top500 list in 2018 and exceed 1 Petaflops (2.332 Petaflops using over 5000 [Marvell ThunderX2](https://www.marvell.com/products/server-processors/thunderx2-arm-processors.html) processors). Marvell continues to be another highly valued member of Linaro.
 
@@ -73,7 +73,7 @@ unlock R       <--- c/c++ user control command
                <--- Register R is now rewritable and flushable
 ```
 
-Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/docs/ddi0595/e/aarch64-system-registers/fpcr). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org ](hpc-sig@linaro.org)
+Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/docs/ddi0595/e/aarch64-system-registers/fpcr). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org](mailto:hpc-sig@linaro.org)
 
 Linaro’s HPC-SIG are working towards [profiling HPC](https://connect.linaro.org/resources/san19/san19-417/) vector dependent applications for code hotspots, bottlenecks and cache misses in the Neoverse platform.
 
@@ -81,9 +81,9 @@ Linaro’s HPC-SIG are working towards [profiling HPC](https://connect.linaro.or
 
 Prior to SVE, single-instruction-multiple-data was implemented using Arm’s Neon technology. Neon has been used predominantly in accelerating  audio and video encoding/decoding as well as 2D/3D graphics. The[ Neon intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics?page=1) are function calls that the compiler replaces with Neon instruction(s). [SVE intrinsics](https://developer.arm.com/docs/100891/latest/coding-considerations/using-sve-intrinsics-directly-in-your-c-code) are a different set of function calls to make use of scalable vector extension hardware. This was the first pass at agnostic vector lengths. A further development for SVE2 (to be utilised by silicon vendors in the future) will enable a common set of intrinsics which can make use of both SVE and NEON hardware optimisations, as described in the Arm presentation at Linaro’s Connect conference ([SAN19](https://connect.linaro.org/resources/san19/san19-206/)).
 
-Linaro works to enable the Arm ecosystem and helps coordinate SoC vendors, hyperscaler enablers and End-users. The [Linaro Developer Cloud](https://www.linaro.cloud/) provides the opportunity to test emulated scalable vector extension code on Aarch64 hardware that doesn’t have SVE ([SVE-QEMU](https://www.linaro.org/blog/sve-in-qemu-linux-user/) and the [latest math optimisations](https://github.com/ARM-software/optimized-routines?)).
+Linaro works to enable the Arm ecosystem and helps coordinate SoC vendors, hyperscaler enablers and End-users. The [Linaro Developer Cloud](https://www.linaro.cloud/) provides the opportunity to test emulated scalable vector extension code on Aarch64 hardware that doesn’t have SVE ([SVE-QEMU](/blog/sve-in-qemu-linux-user/) and the [latest math optimisations](https://github.com/ARM-software/optimized-routines?)).
 
-**Related applications - [SVE in QEMU's linux-user mode](https://www.linaro.org/blog/sve-in-qemu-linux-user/)**
+**Related applications - [SVE in QEMU's linux-user mode](/blog/sve-in-qemu-linux-user/)**
 
 Having a standards-based server booting a Linux kernel is the infrastructure. What makes the infrastructure relevant is the application that utilises it. Within Linaro’s HPC-SIG we understand that the infrastructure is becoming more heterogeneous. There are a variety of Instruction Set Architectures, SoCs, ASICs, FPGAs that sit within the modern data center. Applications are being tweaked to make use of new server hardware features. However, the more the application is tuned to given hardware the more complex the maintenance becomes across the hundreds of applications in the ecosystem.
 
@@ -101,9 +101,9 @@ Off loading with a CPU+GPU model can be expensive. Small matrices (<1024x1024) h
 
 **Infrastructure**
 
-The method of interconnection used to link compute nodes can have a significant impact on the performance of the system as a whole. What will be interesting to see is how different the [Fugaku Supercomputer](https://www.linaro.org/blog/arm-hpc-workshop-sessions-and-speakers/) styled on Fujitsu’s FX1000 with its TOFU interconnect [compares](https://www.fujitsu.com/global/products/computing/servers/supercomputer/specifications/) to the PCIe/InfiniBand enabled Fujitsu FX700 for real workloads. Keep watching and Linaro’s HPC-SIG could create future blogs on performance tuning vector-enabled CPUs.
+The method of interconnection used to link compute nodes can have a significant impact on the performance of the system as a whole. What will be interesting to see is how different the [Fugaku Supercomputer](/blog/arm-hpc-workshop-sessions-and-speakers/) styled on Fujitsu’s FX1000 with its TOFU interconnect [compares](https://www.fujitsu.com/global/products/computing/servers/supercomputer/specifications/) to the PCIe/InfiniBand enabled Fujitsu FX700 for real workloads. Keep watching and Linaro’s HPC-SIG could create future blogs on performance tuning vector-enabled CPUs.
 
-High performance computing demands significant investment in skills and budget. If you’re [budget constrained](https://store.avantek.co.uk/arm-servers.html) then it’s still possible to scale up node by node and perhaps forego [commercial licenses](https://developer.arm.com/solutions/hpc/hpc-software) for comparable opensource [toolchains](https://www.linaro.org/engineering/core/toolchain/) and toolkits such as [OpenHPC](https://openhpc.community/).
+High performance computing demands significant investment in skills and budget. If you’re [budget constrained](https://store.avantek.co.uk/arm-servers.html) then it’s still possible to scale up node by node and perhaps forego [commercial licenses](https://developer.arm.com/solutions/hpc/hpc-software) for comparable opensource [toolchains](/engineering/core/toolchain/) and toolkits such as [OpenHPC](https://openhpc.community/).
 
 However your system is built, you can be sure ARM-based solutions can be your equal partner in HPCand Linaro is here to complement the open source ecosystem. Congratulations once again **Fugaku simultaneously #1 in the Graph500, HPCG, and HPL-AI lists.**
 
