@@ -59,7 +59,11 @@ This free webinar is open to all. The July 21 session will be held at 16:00 CEST
 
 #### **Power Management and Scheduling in the Linux Kernel (OSPM) Summit**
 
-Vincent Guittot (KWG) % include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %} ###### **Introduction** The OSPM summit is a significant event for the Linux kernel world. Significant to be covered by Jonathan Corbet publisher of [LWN](https://lwn.net/). Jonathan wrote an article “[Imbalance Detection and Fairness in CPU Scheduler](https://lwn.net/Articles/821123/)” for the May 22, 2020 issue highlighting the work Vincent Guittot is driving within the KWG and the Linux community. “The kernel's CPU scheduler is good at distributing tasks across a multiprocessor system, but does it do so fairly?If some tasks get a lot more CPU time than others, the result is likely to be unhappy users.
+Vincent Guittot (KWG) {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
+
+##### **Introduction** 
+
+The OSPM summit is a significant event for the Linux kernel world. Significant to be covered by Jonathan Corbet publisher of [LWN](https://lwn.net/). Jonathan wrote an article “[Imbalance Detection and Fairness in CPU Scheduler](https://lwn.net/Articles/821123/)” for the May 22, 2020 issue highlighting the work Vincent Guittot is driving within the KWG and the Linux community. “The kernel's CPU scheduler is good at distributing tasks across a multiprocessor system, but does it do so fairly?If some tasks get a lot more CPU time than others, the result is likely to be unhappy users.
 
 Vincent Guittot ran a session at the 2020 [Power Management and Scheduling in the Linux Kernel summit](http://retis.sssup.it/ospm-summit/) (OSPM) looking into this issue, with a focus on detecting load imbalances between CPUs and what to do with a workload that cannot be balanced.”
 
@@ -67,20 +71,20 @@ Below, Vincent summarizes the rest of the sessions at the OSPM summit.
 
 {% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel icon" %}
 
-###### **Core scheduling**
+##### **Core scheduling**
 
 The 1st half day was dedicated to the core scheduling feature and how to make it merged. The core scheduling aims to ensure that only threads belonging to the same group will run on the core with hyperthreading at the same time. There are several use cases for this feature like security and isolation between VMs running on the same host, reducing cache pressure on a core or minimizing disturbance to RT threads. Several problems like the fairness and selecting the running tasks for the CPU of a core still needs to be solved.
 
-###### **Latency nice**
+##### **Latency nice**
 
 This is another big feature that is under discussion on the mailing list for more than a year now. The goal is to set a responsiveness level to a task. This latency nice value can then be used, mainly during the wake up but not only, to select a CPU, idle or not, and decide how fast it should preempt the current running one. Lot of features want to be added under this new task priority but they are sometimes contradictory; Whereas some want to skip the search of idle CPU for latency sensitive tasks on large systems, others want to select an idle CPU for latency sensitive tasks on embedded systems. Discussion still needs to happen to list the different use cases that want to be included in the feature and what the task and cgroup interface should look like.
 
-
-
-###### **Overloaded System and Fairness**
+##### **Overloaded System and Fairness**
 
 This session started to discuss the detection of overloaded groups of CPUs and how to improve this detection, which is used to migrate tasks across the system. The other topic was the problem of fairness between tasks when the system can't be balanced. There are some situations where tasks with the same priority will not have the same amount of running time in a significant ratio: unitary tests have shown up to 40% difference . This unfairness is a problem for the task which gets less running time and is delayed in its completion. During the talk, Peter Z raised that this unfairness problem can impact on the performance of HPC systems. A HPC system tries to split jobs into small chunks of work that run simultaneously on all CPUs and it waits for the last job to finish before starting the next step. When the system is fully dedicated to one application, there is no problem but HPC systems are usually a bit overcommitted to optimize its usage and to make sure to use all resources all the time. In the latter case, we can face the unfairness problem and one chunk might have less running time than others which results in more time to complete and which finally decreases the overall performance.
 
 #### **Working on VirtIO**
 
 By Alex Bennée
+
+virtio.png
