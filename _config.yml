@@ -191,7 +191,7 @@ social_media_channels:
     url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
-    enabled: true
+    enabled: false
     shortname: Linaro
 # Edit on GitHub Settings
 edit-on-github:
