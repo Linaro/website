@@ -33,4 +33,8 @@ author: jon.burcham@linaro.org
 
 By Joe Bates and Mark Orvek
 
-{% include image.html path="/assets/images/content/"10-year-graphic-horizonal1.png" class="small-inline left" alt="AI icon" %}
+{% include image.html path="/assets/images/content/10-year-graphic-horizonal1.png" class="small-inline left" alt="Linaro 10th Anniversary logo" %} The latest Linux kernel release - version 5.7 - has once again seen a leadership contribution of upstreaming from across Linaro and as part of that, a number of great Linaro contributors stand out at the top of the [LWN](https://lwn.net/Articles/821813/) lists. 
+
+Alex Elder (Qualcomm Landing Team) is the #2 most active contributing engineer to 5.7 measured “by Lines Changed” and Manni Sadhasivam (Developer Services) is #10 on that list. Linus Wallej (Arm Assignee in KWG) and Ard Biesheuvel (Arm Member Engineer) are on the top 20 list “by Changesets”.
+
+{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" class="small-inline left" alt="Linaro 10th Anniversary logo" %}
