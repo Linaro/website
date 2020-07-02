@@ -37,4 +37,5 @@ By Joe Bates and Mark Orvek
 
 Alex Elder (Qualcomm Landing Team) is the #2 most active contributing engineer to 5.7 measured “by Lines Changed” and Manni Sadhasivam (Developer Services) is #10 on that list. Linus Wallej (Arm Assignee in KWG) and Ard Biesheuvel (Arm Member Engineer) are on the top 20 list “by Changesets”.
 
-{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" class="small-inline left" alt="Linaro 10th Anniversary logo" %}
+{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" alt="most active 5.7-developers-by-changesets" %}
+ 
