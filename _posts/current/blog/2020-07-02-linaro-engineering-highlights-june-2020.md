@@ -29,13 +29,50 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-### **Linux Kernel v5.7 Development Statistics**
+#### **Linux Kernel v5.7 Development Statistics**
 
 By Joe Bates and Mark Orvek
 
-{% include image.html path="/assets/images/content/10-year-graphic-horizonal1.png" class="small-inline left" alt="Linaro 10th Anniversary logo" %} The latest Linux kernel release - version 5.7 - has once again seen a leadership contribution of upstreaming from across Linaro and as part of that, a number of great Linaro contributors stand out at the top of the [LWN](https://lwn.net/Articles/821813/) lists. 
+The latest Linux kernel release - version 5.7 - has once again seen a leadership contribution of upstreaming from across Linaro and as part of that,{% include image.html path="/assets/images/content/10-year-graphic-horizonal1.png" class="small-inline left" alt="Linaro 10th Anniversary logo" %} a number of great Linaro contributors stand out at the top of the [LWN](https://lwn.net/Articles/821813/) lists. 
 
 Alex Elder (Qualcomm Landing Team) is the #2 most active contributing engineer to 5.7 measured “by Lines Changed” and Manni Sadhasivam (Developer Services) is #10 on that list. Linus Wallej (Arm Assignee in KWG) and Ard Biesheuvel (Arm Member Engineer) are on the top 20 list “by Changesets”.
 
-{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" alt="most active 5.7-developers-by-changesets" %}
- 
+{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" alt="most active 5.7 developers" %} As a company, Linaro is the #3 contributor by lines changed and #8 by changesets. 
+
+{% include image.html path="/assets/images/content/most-active-5.7employers.png" alt="most active 5.7 employers" %} Shawn Guo (Developer Services) is the tenth (#10) busiest kernel maintainer followed by Vinod Koul (Qualcomm Landing Team) at #16 based on the number accepted upstream submissions.
+
+{% include image.html path="/assets/images/content/non-author-signoffs-in-5.7.png" alt="non-author signoffs in 5.7" %} Also based on the above list, Linaro is the #2 employer of maintainers based on the number of accepted 5.7 kernel upstream submissions.
+
+As noted in LWN, there are over 200 companies that contributed to this kernel release but half of all the patches go through maintainers from just 5 companies: Red Hat, Linaro, Intel, Linux Foundation and Google. We are in a list of prominent companies thanks to the hard work of the maintainers working in, and with, Linaro.
+
+On behalf of the executive team we congratulate and sincerely thank Alex, Manni, Shawn, Vinod, Linus, Ard and all the Linaro engineers who are 5.7 upstream contributors - Linaro may be small in size but collectively we are very significant contributors to the Linux Kernel community.  Well done!
+
+#### **Upcoming Webinar: “Performance Profiling and Debugging Tools for Server-class Applications”**
+
+By Kristine Dill, Linaro Events Manager {% include image.html path="/assets/images/content/event-banner.jpg" class="small-inline left" alt="Performance Profiling and Debugging tools webinar" %}
+
+During this webinar, we will introduce Arm Forge, a professional toolkit for debugging and profiling on Linux Arm servers. We will give an overview of the tools' features and demonstrate their capabilities for sequential and parallel programming."
+
+This free webinar is open to all. The July 21 session will be held at 16:00 CEST in English and will be presented by speaker Florent Leabeau from Arm. The August 4 session will be held at 10:00 CST in Mandarin and will be presented by speaker Leo Yan from Linaro.
+
+[Registration](https://www.eventbrite.co.uk/e/performance-profiling-and-debugging-tools-for-server-class-applications-tickets-110120419138) is free. Future Linaro sponsored events can be found on the [Linaro Events](https://www.linaro.org/events/) page.
+
+#### **Power Management and Scheduling in the Linux Kernel (OSPM) Summit**
+
+Vincent Guittot (KWG) % include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %} ###### **Introduction**
+The OSPM summit is a significant event for the Linux kernel world. Significant to be covered by Jonathan Corbet publisher of [LWN](https://lwn.net/). Jonathan wrote an article “[Imbalance Detection and Fairness in CPU Scheduler](https://lwn.net/Articles/821123/)” for the May 22, 2020 issue highlighting the work Vincent Guittot is driving within the KWG and the Linux community. “The kernel's CPU scheduler is good at distributing tasks across a multiprocessor system, but does it do so fairly?If some tasks get a lot more CPU time than others, the result is likely to be unhappy users.
+
+Vincent Guittot ran a session at the 2020 [Power Management and Scheduling in the Linux Kernel summit](http://retis.sssup.it/ospm-summit/) (OSPM) looking into this issue, with a focus on detecting load imbalances between CPUs and what to do with a workload that cannot be balanced.”
+
+Below, Vincent summarizes the rest of the sessions at the OSPM summit.
+
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel icon" %}
+###### **Core scheduling**
+The 1st half day was dedicated to the core scheduling feature and how to make it merged. The core scheduling aims to ensure that only threads belonging to the same group will run on the core with hyperthreading at the same time. There are several use cases for this feature like security and isolation between VMs running on the same host, reducing cache pressure on a core or minimizing disturbance to RT threads. Several problems like the fairness and selecting the running tasks for the CPU of a core still needs to be solved.
+
+###### **Latency nice**
+This is another big feature that is under discussion on the mailing list for more than a year now. The goal is to set a responsiveness level to a task. This latency nice value can then be used, mainly during the wake up but not only, to select a CPU, idle or not, and decide how fast it should preempt the current running one. Lot of features want to be added under this new task priority but they are sometimes contradictory; Whereas some want to skip the search of idle CPU for latency sensitive tasks on large systems, others want to select an idle CPU for latency sensitive tasks on embedded systems. Discussion still needs to happen to list the different use cases that want to be included in the feature and what the task and cgroup interface should look like.
+
+###### **Overloaded System and Fairness**
+This session started to discuss the detection of overloaded groups of CPUs and how to improve this detection, which is used to migrate tasks across the system. The other topic was the problem of fairness between tasks when the system can't be balanced. There are some situations where tasks with the same priority will not have the same amount of running time in a significant ratio: unitary tests have shown up to 40% difference . This unfairness is a problem for the task which gets less running time and is delayed in its completion. During the talk, Peter Z raised that this unfairness problem can impact on the performance of HPC systems. A HPC system tries to split jobs into small chunks of work that run simultaneously on all CPUs and it waits for the last job to finish before starting the next step. When the system is fully dedicated to one application, there is no problem but HPC systems are usually a bit overcommitted to optimize its usage and to make sure to use all resources all the time. In the latter case, we can face the unfairness problem and one chunk might have less running time than others which results in more time to complete and which finally decreases the overall performance.
+
