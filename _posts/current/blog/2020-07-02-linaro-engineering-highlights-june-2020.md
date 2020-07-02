@@ -61,7 +61,7 @@ This free webinar is open to all. The July 21 session will be held at 16:00 CEST
 
 Vincent Guittot (KWG) {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
 
-##### **Introduction** 
+##### **Introduction**
 
 The OSPM summit is a significant event for the Linux kernel world. Significant to be covered by Jonathan Corbet publisher of [LWN](https://lwn.net/). Jonathan wrote an article “[Imbalance Detection and Fairness in CPU Scheduler](https://lwn.net/Articles/821123/)” for the May 22, 2020 issue highlighting the work Vincent Guittot is driving within the KWG and the Linux community. “The kernel's CPU scheduler is good at distributing tasks across a multiprocessor system, but does it do so fairly?If some tasks get a lot more CPU time than others, the result is likely to be unhappy users.
 
@@ -85,6 +85,22 @@ This session started to discuss the detection of overloaded groups of CPUs and h
 
 #### **Working on VirtIO**
 
-By Alex Bennée
+By Alex Bennée {% include image.html path="/assets/images/content/virtio.png" alt="Virtio diagram" %}
 
-virtio.png
+Linaro recently published an [overview of VirtIO work](https://www.linaro.org/blog/virtio-work/) written by Alex Bennée. Alex reviews the early history of virtualization, discusses the different types of virtualization and what the active collaborative work is. Standardization and upstreaming are key parts of this effort.
+
+#### **June LITE Sprint**
+
+By Kumar Gala, LITE Technical Lead and Vicky Janicki, LITE Engineering Director
+
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %}Utilizing conferencing capabilities, the LITE team met the week of June 15th to focus on CI/Testing and automation. The goals included updating to the latest version of tools including LAVA, running a basic series of tests on their development systems and discussing and planning the next steps. The LITE team has been working closely with the LAVA and Lab teams over the past year to solve the problem of consistently running tests for MCUs (Cortex-M devices). Using the LAVA framework, the LAVA and Lab teams invented a Docker solution to cope with the many boards and environments that the LITE team is using. The vision is to have a framework or environment that is reliable and consistent while providing easy paths to test new software projects and tools in the future. 
+
+Under the CI umbrella, David Brown (Linaro) worked to update MCUboot to use Github’s CI in place of Travis CI and then add to the Zephyr integration testing. Ed Mooring (Xilinx) worked on extracting the toolflow from Xilinx internal build system for building a test environment for OpenAMP on Cortex-R5 and QEMU. Future plans include completing the MCUboot CI, successfully building and running OpenAMP using tools based outside Xilinx and starting a TF-M CI for LITE. 
+
+{% include image.html path="/assets/images/content/lite-zephyr-upstream.png" class="small-inline left" alt="Zephyr build information" %}The team also took  a deep look into how they are using LAVA and the reporting application SQUAD. Dan Rue and Daniel Diaz from the LKFT team and Remi Duraffort from the LAVA project reviewed how LKFT uses LAVA and SQUAD and walked through some of the design decisions. They then met with the Mbed Green Tea team from Arm, the LAVA team and the Zephyr Testing Working Group Team. The result of the meeting was to start prototyping the LAVA Docker Test Action as a means to encapsulate outside testing tools such as Zephyr sanitycheck or Mbed’s GreenTea. A key requirement is that the testing flow and tools should be the same for a developer at their desk as for the LAB CI/Test environment. 
+
+The team also looked at incorporating Trusted Firmware for Cortex-M (TF-M) and uTVM (microTVM compiler) testing in the future. 
+
+#### **EEMBC MCUboot Benchmark Presentation**
+
+By David Brown, Senior Engineer, LITE/SWG
