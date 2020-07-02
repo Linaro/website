@@ -10,7 +10,7 @@ description: >-
 
 
   Conference reports this month are a detailed summary of the OSPM (Power Management) Summit and EEMBC MCUboot benchmarking presentation. Additional topics include a summary of the LITE Engineering Sprint, an introduction to VirtIO, the Micro TVM project and news on dma-buf heaps. 
-date: 2020-07-13 12:00:00
+date: 2020-07-13T12:00:00.000Z
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
   - engineering
@@ -29,6 +29,8 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-### **Linux Kernel v5.7 Development Statistics** 
+### **Linux Kernel v5.7 Development Statistics**
 
- By Joe Bates and Mark Orvek
+By Joe Bates and Mark Orvek
+
+{% include image.html path="/assets/images/content/"10-year-graphic-horizonal1.png" class="small-inline left" alt="AI icon" %}
