@@ -148,7 +148,7 @@ At Linaro, we work very hard to ensure our training is unrelentingly pragmatic a
 
 > *"Very practical, good focus on practical tools and the different level of expertise needed to use different tools. I was immediately able to use the ply tool on a real problem, so the time investment in the course paid off within hours!"* (ply is a lightweight dynamic tracing tool based on BPF)
 
-Given the goals and standards we have set for our training, I was especially delighted by this comment, found among the overwhelmingly positive feedback from the course, which sums up why I got into training in the first place:
+Given the goals and standards we have set for our training, I was especially delighted by this comment, found among the overwhelmingly positive feedback from the course, which sums up why I got into training in the first place.
 
 For those who missed this course, and for trainees who want to revisit specific points, links to the slides and videos are still available.
 
