@@ -104,3 +104,58 @@ The team also looked at incorporating Trusted Firmware for Cortex-M (TF-M) and u
 #### **EEMBC MCUboot Benchmark Presentation**
 
 By David Brown, Senior Engineer, LITE/SWG
+
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %} The Embedded Microprocessor Benchmark Consortium ([EEMBC](https://www.eembc.org/)) develops performance benchmarks for the hardware and software used in autonomous driving, mobile imaging, the Internet of Things, mobile devices, and many other applications.” They reached out to David and requested a brief presentation on any benchmarking results for cryptographic operations used within MCUboot. David developed a small benchmarking framework to enable performance measurement of Zephyr applications, and used this to produce the numbers in this presentation. The presentation covered an overview of MCUboot, the cryptographic operations and algorithms available, the benchmark results, and some conclusions of the various trade-offs. There were some questions concerning hardware acceleration. As MCUboot does not support hardware acceleration on most platforms, this would be a task for future work. 
+
+#### **Dma-buf heaps - empowering the move away from ION**
+
+By Tom Gall, Engineering Director LCG and AI/ML and John Stultz, Senior Engineer
+
+{% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="LCG icon" %}This month two articles were published on LWN about DMA-BUF heaps. The interface was added to the 5.6 kernel officially which culminates a long effort to upstream the ION functionality found in Android kernels. The upstream DMA-BUF Heaps interface is strongly influenced by ION, but to go upstream, it needs to be more clearly defined, so transitioning vendor heaps from ION may take some effort. Further outside of the interface, we need to ensure vendor heaps behave consistently, while still providing the performance required.
+
+If you have used ION in the past or even make use of it now, you’re going to want to read these two articles
+
+* <https://lwn.net/Articles/822521/>
+* [https://lwn.net/Articles/822052/](https://lwn.net/Articles/822521/)
+
+The first looks at the background of ION and DMA-BUF as well as a number of important concepts in their respective designs, particularly around cache handling and performance. The second article completes the discussion clarifying some of the existing problems and the need for consistent cache handling behavior for DMA-BUFs and DMA-BUF exporters (without sacrificing performance). The article ends with a discussion on potential improvements, hoping to stir further collaboration in the community.
+
+#### **Micro TVM - a new addition to the AI Project**
+
+By Tom Gall, Engineering Director LCG and AI/ML
+
+{% include image.html path="/assets/images/content/ai.png" class="small-inline left" alt="Artificial Intelligence icon" %}This month the LITE-SC officially added Micro TVM as part of LITE. What is MicroTVM and why is this something Linaro and its Members should be interested in?
+
+{% include image.html path="/assets/images/content/tvm-explanation.png" class="small-inline left" alt="TVM explanation chart" %} [TVM](https://tvm.apache.org/) is an open source (Apache v2 licensed) machine learning (ML) agnostic compiler framework. It consumes a model, converting into one of several intermediate representations (IRs) (Relay IR being the current state of the art), performs optimization passes and results in a targeted binary for the resources you might have on your hardware. On Arm hardware, CPU, GPU and even NPUs are appropriate targets. In addition the compiler framework has a feature called AutoTVM which is able to take snippets of your model, run on your hardware and test various performance driven approaches in order to optimize the output.
+
+Last year a proof of concept targeting microcontroller hardware was started called Micro TVM (or written as uTVM). Through a series of discussions at the AI project engineering sync meetings, it was decided to recommend an effort to the membership to evolve this proof of concept to a solid foundation on which Linaro members would be able to base their products. 
+
+The membership put together a list of features and suggestions for how Micro TVM needs to evolve in order to be effective. From this material, it’s been used to influence discussion out in the community to set direction of the project. 
+
+One of the most positive aspects of the project is that it isn’t dominated by a single company. By banding together, we essentially become the majority of the community pushing MicroTVM along in the strategic direction we need to go.
+
+#### **Education at Linaro: Advanced Kernel Debugging and the Linaro Summer 2020 Training Catalogue - Daniel Thompson**
+
+By Daniel Thompson, Linaro Support and Solutions Engineering
+
+{% include image.html path="/assets/images/content/training-graphic.png" alt="Artificial Intelligence icon" %}
+
+> *“Kernel developers have way more tools at their disposal than I anticipated.” - Survey comment*
+
+Every Tuesday and Thursday in May, Linaro ran Advanced Kernel Debug training for our core, club and group members. This course is fast paced and technical, covering a wide range of kernel-specific debug tools and techniques that can be used to debug complex system level problems on Linux systems.
+
+At Linaro, we work very hard to ensure our training is unrelentingly pragmatic and, when we cover important background material, I expect our trainers to be able to explain why we are doing so. As a result, we strongly favour practical experience over theory and we want to make it easy for our trainees to be able to integrate what they learn from our courses into their regular workflow.
+
+> *"Very practical, good focus on practical tools and the different level of expertise needed to use different tools. I was immediately able to use the ply tool on a real problem, so the time investment in the course paid off within hours!"* (ply is a lightweight dynamic tracing tool based on BPF)
+
+Given the goals and standards we have set for our training, I was especially delighted by this comment, found among the overwhelmingly positive feedback from the course, which sums up why I got into training in the first place:
+
+For those who missed this course, and for trainees who want to revisit specific points, links to the slides and videos are still available.
+
+Actually, whilst we are talking about the videos...
+
+Recorded training, whilst useful, is no substitute for live training where trainees can interact with the presenter. Linaro courses are available for private delivery to all Members and, for core and club members, there is no additional charge. In normal times, the courses can be delivered face-to-face, but currently the face-to-face programme is suspended. Thankfully the vast majority of our training catalogue was designed with remote delivery in mind allowing us to keep our training programme running during the current world situation.
+
+We recently published the Linaro Summer 2020 Training Catalogue which, in addition to some specialized seminars, includes full courses covering: Kernel Development, Debugging and Upstreaming, Trusted Firmware-A, OpenEmbedded/Yocto, LAVA, Energy Aware Scheduling, OP-TEE and KVM internals.
+
+If you would like a copy of the Summer 2020 Linaro training catalogue or access to the Advanced Kernel Debugging videos then just ask your Linaro Technical Liaison or, if you prefer, e-mail me directly at [support@linaro.org](mailto:support@linaro.org).
