@@ -262,7 +262,7 @@
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "There is a growing trend  towards virtualization in  areas away form the tradition server environment which is uniform in nature to a richer echo system in automotive, medical and general mobile and IoT spaces. This exposes the rich array of hypervisors and SoCs as a problem.  Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br>    \u2022 High performance Virtio interfaces<br>    \u2022 \u00a0Virtual Machine Monitors with a safety island<br>    \u2022 Boot Orchestration<br>    \u2022 Written Standards for the hypercalls",
-            "title": "Project Stratos"
+            "title": "Stratos"
         },
         "Project Ownership": {
             "Governing Entity": "TSC",
