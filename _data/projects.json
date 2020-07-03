@@ -1,15 +1,15 @@
 [
     {
         "Project Contact Information": {
-            "Meetings": "",
-            "Point of Contact": "Join us by subscribing to the project's public <a href=\"https://op-lists.linaro.org/mailman/listinfo/ai-dev\">mailing list</a>."
+            "Meetings": "Weekly engineering sync meeting on Wednesdays 10am Central Time (US)",
+            "Point of Contact": " Contact Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a> for more information."
         },
         "Project Information": {
             "Health Check Report": "",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Artificial Intelligence related activities that span from Server, Edge to Microcontrollers. ",
+            "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. <br><br>Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.<br><br>Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. <br><br>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
             "title": "AI Project"
         },
         "Project Ownership": {
@@ -30,7 +30,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
             "title": "Arm Server Architecture"
         },
         "Project Ownership": {
@@ -72,7 +72,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/CLOUD?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "\r<br>The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime. \r<br>\r<br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.\r<br>\r<br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
+            "description": "The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime. <br><br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.<br><br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
             "title": "Cloud Infrastructure"
         },
         "Project Ownership": {
@@ -114,7 +114,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Development of GNU Toolchain:<br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
             "title": "GNU Toolchain"
         },
         "Project Ownership": {
@@ -135,7 +135,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "High Performance Computing\r<br>\r<br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
+            "description": "High Performance Computing<br><br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
             "title": "HPC-SIG"
         },
         "Project Ownership": {
@@ -156,7 +156,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "",
+            "description": "Development of LLVM Toolchain:<br><ul><li> Clang compiler</li><ul><li> We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.</ul></li><li> LLDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Compiler-RT runtime libraries</li><ul><li> We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> LLD linker</li><ul><li> In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
             "title": "LLVM Toolchain"
         },
         "Project Ownership": {
@@ -177,7 +177,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/\">https://optee.readthedocs.io/en/latest/</a>",
-            "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.\r<br>\r<br>----\r<br>\r<br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".\r<br>\r<br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
+            "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.<br><br>----<br><br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".<br><br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
             "title": "Linaro's OP-TEE Contributions"
         },
         "Project Ownership": {
@@ -258,16 +258,37 @@
         },
         "Project Information": {
             "Health Check Report": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/STR?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "There is a growing trend  towards virtualization in  areas away form the tradition server environment which is uniform in nature to a richer echo system in automotive, medical and general mobile and IoT spaces. This exposes the rich array of hypervisors and SoCs as a problem.  Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br>    \u2022 High performance Virtio interfaces<br>    \u2022 \u00a0Virtual Machine Monitors with a safety island<br>    \u2022 Boot Orchestration<br>    \u2022 Written Standards for the hypercalls",
+            "title": "Project Stratos"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Alex Benn\u00e9e <a class=\"email-icon\" href=\"mailto:alex.bennee@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=12917&avatarId=14213",
+        "key": "STR"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.\r<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.\r<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
+            "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
             "title": "System Control and Management Interface"
         },
         "Project Ownership": {
             "Governing Entity": "TSC",
             "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-            "Technical Lead": "Joakim Bech <a class=\"email-icon\" href=\"mailto:joakim.bech@linaro.org\"><span class=\"icon-mail\"></span></a>"
+            "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12403&avatarId=10904",
         "key": "SCMI"
