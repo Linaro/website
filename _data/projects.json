@@ -261,7 +261,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/STR?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "This is an open project template used to create future open projects.",
+            "description": "There is a growing trend  towards virtualization in  areas away form the tradition server environment which is uniform in nature to a richer echo system in automotive, medical and general mobile and IoT spaces. This exposes the rich array of hypervisors and SoCs as a problem.  Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br>    \u2022 High performance Virtio interfaces<br>    \u2022 \u00a0Virtual Machine Monitors with a safety island<br>    \u2022 Boot Orchestration<br>    \u2022 Written Standards for the hypercalls",
             "title": "Project Stratos"
         },
         "Project Ownership": {
