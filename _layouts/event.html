@@ -5,7 +5,7 @@ layout: base
 <div
     class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
     {% if page.image %}
-        {% assign image_path = page.image | remove_first: "/assets/images/" %}
+        {% assign image_path = page.image  %}
         {% picture header_image {{image_path}} %}
     {% endif %}
     <div class="container text-center">
