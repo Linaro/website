@@ -29,6 +29,25 @@
     .btn.btn-primary {
         color: #000;
     }
+    .ten_years_icon {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        height: 350px !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -1;
+        opacity: 0.6;
+    }
+     @include media-breakpoint-down(sm){
+        .display-4, .display-5{
+            font-size: 2rem;
+        }
+    }
     span.triangle {
         &::before {
             top: 8px;

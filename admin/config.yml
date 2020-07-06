@@ -549,7 +549,7 @@ collections:
             required: false
             hint: "Add sections to your flow row (e.g title, feature_block, buttons, block, slider)"
             types:
-              - {label: "Section Format", name: "format", widget: "select", multiple: false, required: false,options: ['','members', '','buttons','','custom_include','','', '']}
+              - {label: "Section Format", name: "format", widget: "select", multiple: false, required: false,options: ['title','members', 'text','buttons','block','custom_include','tabs','feature_block', 'slider','youtube']}
               - label: Text
                 type: text
                 summary: '{{fields.text_content.text}}'
