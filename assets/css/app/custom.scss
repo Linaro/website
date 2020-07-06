@@ -10,6 +10,9 @@
 #wrapper {
     a {
         color: #11809f;
+        &:hover {
+            color: #99cc33;
+        }
     }
     #universal_nav {
         .nav-item {
