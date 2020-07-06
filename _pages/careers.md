@@ -7,9 +7,12 @@ permalink: /careers/
 js-package: careers
 jumbotron:
     title: Want to help build technology for the future?
-    inner_class: dotted
     description: ""
     image: /assets/images/content/careers-image-1.jpg
+    buttons:
+      - title: View our Vacancies
+        class: btn btn-primary
+        url: https://www.linkedin.com/company/linaro/jobs/
 flow:
     - row: container_row
       style: large_type introduction_row py-0
