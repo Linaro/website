@@ -254,7 +254,7 @@
     {
         "Project Contact Information": {
             "Meetings": "",
-            "Point of Contact": ""
+            "Point of Contact": "<a href=\"https://op-lists.linaro.org/mailman/listinfo/stratos-dev\">Join the conversation</a> by subscribing to the project's mailing list."
         },
         "Project Information": {
             "Health Check Report": "",
