@@ -254,6 +254,27 @@
     {
         "Project Contact Information": {
             "Meetings": "",
+            "Point of Contact": ""
+        },
+        "Project Information": {
+            "Health Check Report": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
+            "title": "QEMU"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=10305&avatarId=14214",
+        "key": "QEMU"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
             "Point of Contact": "<a href=\"https://op-lists.linaro.org/mailman/listinfo/stratos-dev\">Join the conversation</a> by subscribing to the project's mailing list."
         },
         "Project Information": {
@@ -313,27 +334,6 @@
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10201",
         "key": "UM"
-    },
-    {
-        "Project Contact Information": {
-            "Meetings": "",
-            "Point of Contact": ""
-        },
-        "Project Information": {
-            "Health Check Report": "",
-            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-            "Plan Of Record": "",
-            "Project Homepage": "",
-            "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
-            "title": "Virtualization"
-        },
-        "Project Ownership": {
-            "Governing Entity": "TSC",
-            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-            "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
-        },
-        "icon": "https://projects.linaro.org/secure/projectavatar?pid=10305&avatarId=10627",
-        "key": "VIRT"
     },
     {
         "Project Contact Information": {
