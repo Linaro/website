@@ -128,7 +128,7 @@ By Tom Gall, Engineering Director LCG and AI/ML
 
 Last year a proof of concept targeting microcontroller hardware was started called Micro TVM (or written as uTVM). Through a series of discussions at the AI project engineering sync meetings, it was decided to recommend an effort to the membership to evolve this proof of concept to a solid foundation on which Linaro members would be able to base their products. 
 
-The membership put together a list of features and suggestions for how Micro TVM needs to evolve in order to be effective. From this material, it’s been used to influence discussion out in the community to set direction of the project. 
+The membership put together a list of features and suggestions for how Micro TVM needs to evolve in order to be effective. From this material, it’s been used to influence discussion out in the community to set the direction of the project. 
 
 One of the most positive aspects of the project is that it isn’t dominated by a single company. By banding together, we essentially become the majority of the community pushing MicroTVM along in the strategic direction we need to go.
 
