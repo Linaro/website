@@ -8,10 +8,11 @@ js-package: careers
 jumbotron:
     title: Want to help build technology for the future?
     description: ""
+    inner_class: text-center
     image: /assets/images/content/careers-image-1.jpg
     buttons:
       - title: View our Vacancies
-        class: btn btn-primary
+        class: btn btn-primary mt-3
         url: https://www.linkedin.com/company/linaro/jobs/
 flow:
     - row: container_row
