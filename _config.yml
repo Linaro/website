@@ -101,7 +101,6 @@ defaults:
       type: "company"
     values:
       layout: flow
-      breadcrumb: true
       flow:
         - row: container_row
           sections:
