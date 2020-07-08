@@ -9,7 +9,7 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. <br><br>Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.<br><br>Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. <br><br>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
+            "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. <br><br><ul><li> Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.</li><li> Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. </li></ul>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
             "title": "AI Project"
         },
         "Project Ownership": {
@@ -191,7 +191,7 @@
     {
         "Project Contact Information": {
             "Meetings": "TBD",
-            "Point of Contact": "TBD"
+            "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/lkq-dev\">LKQ-dev mailing list</a>."
         },
         "Project Information": {
             "Health Check Report": "",
@@ -233,7 +233,7 @@
     {
         "Project Contact Information": {
             "Meetings": "",
-            "Point of Contact": ""
+            "Point of Contact": "Join the conversation by joining the <a href=\"https://op-lists.linaro.org/mailman/listinfo/perf-dev\">perf-dev mailing list</a>."
         },
         "Project Information": {
             "Health Check Report": "",
@@ -258,11 +258,32 @@
         },
         "Project Information": {
             "Health Check Report": "",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+            "Plan Of Record": "",
+            "Project Homepage": "",
+            "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
+            "title": "QEMU"
+        },
+        "Project Ownership": {
+            "Governing Entity": "TSC",
+            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
+            "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
+        },
+        "icon": "https://projects.linaro.org/secure/projectavatar?pid=10305&avatarId=14214",
+        "key": "QEMU"
+    },
+    {
+        "Project Contact Information": {
+            "Meetings": "",
+            "Point of Contact": "<a href=\"https://op-lists.linaro.org/mailman/listinfo/stratos-dev\">Join the conversation</a> by subscribing to the project's mailing list."
+        },
+        "Project Information": {
+            "Health Check Report": "",
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/STR?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "There is a growing trend  towards virtualization in  areas away form the tradition server environment which is uniform in nature to a richer echo system in automotive, medical and general mobile and IoT spaces. This exposes the rich array of hypervisors and SoCs as a problem.  Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br>    \u2022 High performance Virtio interfaces<br>    \u2022 \u00a0Virtual Machine Monitors with a safety island<br>    \u2022 Boot Orchestration<br>    \u2022 Written Standards for the hypercalls",
-            "title": "Project Stratos"
+            "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.  <br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
+            "title": "Stratos"
         },
         "Project Ownership": {
             "Governing Entity": "TSC",
@@ -313,27 +334,6 @@
         },
         "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10201",
         "key": "UM"
-    },
-    {
-        "Project Contact Information": {
-            "Meetings": "",
-            "Point of Contact": ""
-        },
-        "Project Information": {
-            "Health Check Report": "",
-            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-            "Plan Of Record": "",
-            "Project Homepage": "",
-            "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
-            "title": "Virtualization"
-        },
-        "Project Ownership": {
-            "Governing Entity": "TSC",
-            "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-            "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
-        },
-        "icon": "https://projects.linaro.org/secure/projectavatar?pid=10305&avatarId=10627",
-        "key": "VIRT"
     },
     {
         "Project Contact Information": {
