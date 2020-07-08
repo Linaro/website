@@ -32,6 +32,7 @@ layout: base
             <div class="row justify-content-sm-center">
                 <div class="col col-12 col-lg-10 py-4  blog-content">
                     <article>
+                        {{ page.description | markdownify }}
                         {{ content }}
                         {% include events/display-event-resources.html event=page.event %}
                         {% assign event_posts_size = site.categories["event_resources"] | where: 'event', page.event | size %}
