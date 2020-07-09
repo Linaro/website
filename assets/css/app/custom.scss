@@ -1,6 +1,6 @@
 #flow_wrapper {
     font-size: 1.2rem !important;
-        @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) {
         font-size: 1.1rem;
     }
     .nav-tabs {
@@ -8,6 +8,27 @@
     }
 }
 #wrapper {
+    a {
+        color: #11809f;
+        &:hover {
+            color: #99cc33;
+        }
+    }
+    #universal_nav {
+        .nav-item {
+            &.active {
+                a.nav-link {
+                    color: #fff;
+                }
+            }
+            a.nav-link {
+                color: #000;
+            }
+        }
+    }
+    .btn.btn-primary {
+        color: #000;
+    }
     .ten_years_icon {
         margin: auto;
         position: absolute;
@@ -28,7 +49,7 @@
         }
     }
     span.triangle {
-            &::before {
+        &::before {
             top: 8px;
             position: relative;
             right: -3px;
@@ -47,136 +68,136 @@
     #wrapper .block__text blockquote {
         font-size: 20px;
     }
-  .jumbotron .inner_content_wrapper img.rounded-circle {
-    height: 100px;
-    width: 100px;
-  }
-  .reading-time {
-    color: white;
-  }
-  .equal-height-card-img {
-    height: 275px;
-    object-fit: cover;
-  }
-  .display-5 {
-    font-size: 2.6rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-  .display-6 {
-    font-size: 38px;
-  }
-  .card.background_image picture {
-    height: 100%;
-  }
-  .member_image {
-    height: 300px;
-    img {
-      object-fit: contain;
-      margin: auto;
-      padding: 20px;
+    .jumbotron .inner_content_wrapper img.rounded-circle {
+        height: 100px;
+        width: 100px;
     }
-  }
-  .grouped_members_section {
-    .member_image {
-      height: 100px !important;
-      img {
-        height: 80px !important;
-        object-fit: contain;
-        padding: 5px;
-        margin: auto;
-        width: 100%;
-      }
+    .reading-time {
+        color: white;
     }
-  }
-  #projects_slider {
-    .owl-stage {
-      display: flex;
+    .equal-height-card-img {
+        height: 275px;
+        object-fit: cover;
     }
-  }
-  .project_image {
-    img {
-      height: 100px;
-      object-fit: contain;
-      margin: auto;
-      padding: 15px;
+    .display-5 {
+        font-size: 2.6rem;
+        font-weight: 300;
+        line-height: 1.2;
     }
-  }
-  // Custom background classes
-  .bg-green {
-    background-color: #dff3c9 !important;
-  }
-  .bg-light-blue {
-    background-color: #d0ecf3 !important;
-  }
-  .bg-light-gray {
-    background-color: #d1d1d1 !important;
-  }
-  .dotted.dotted_heading {
-    max-width: 500px;
-    padding: 20px;
-    margin: auto;
-  }
-  .dotted.blue {
-    border: 6px dotted #0083b0;
-  }
-  .slider_image {
-    height: 100px !important;
-    margin: 10px 0;
-  }
-  .play_button {
-    i {
-      font-size: 90px;
+    .display-6 {
+        font-size: 38px;
     }
-  }
-  #engineering_slider_mobile .owl-stage-outer {
-    height: 500px !important;
-    overflow: hidden;
-  }
-  .engineering_icon_img {
-    height: 150px;
-    object-fit: contain;
-    margin: auto;
-  }
-  .level_block {
-    height: 80px;
-    margin: 40px 0;
-    background-color: white;
-    border-radius: 10px;
-  }
-  .members_row {
-    .member_image {
-      height: 100px !important;
-      background-color: white;
-      img {
-        object-fit: contain;
-        padding: 20px;
+    .card.background_image picture {
         height: 100%;
-      }
     }
-  }
-  .core {
-    background-color: #0278ad;
-  }
-  .club {
-    background-color: #98cc33;
-  }
-  .group {
-    background-color: #787878;
-  }
-  .key_stats_row img {
-    height: 200px;
-  }
-  .card {
-      .card-header {
-          p {
-              font-size: 16px;
-          }
-          button {
-              font-size: 20px;
-          }
-      }
-  }
+    .member_image {
+        height: 300px;
+        img {
+            object-fit: contain;
+            margin: auto;
+            padding: 20px;
+        }
+    }
+    .grouped_members_section {
+        .member_image {
+            height: 100px !important;
+            img {
+                height: 80px !important;
+                object-fit: contain;
+                padding: 5px;
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+    #projects_slider {
+        .owl-stage {
+            display: flex;
+        }
+    }
+    .project_image {
+        img {
+            height: 100px;
+            object-fit: contain;
+            margin: auto;
+            padding: 15px;
+        }
+    }
+    // Custom background classes
+    .bg-green {
+        background-color: #dff3c9 !important;
+    }
+    .bg-light-blue {
+        background-color: #d0ecf3 !important;
+    }
+    .bg-light-gray {
+        background-color: #d1d1d1 !important;
+    }
+    .dotted.dotted_heading {
+        max-width: 500px;
+        padding: 20px;
+        margin: auto;
+    }
+    .dotted.blue {
+        border: 6px dotted #0083b0;
+    }
+    .slider_image {
+        height: 100px !important;
+        margin: 10px 0;
+    }
+    .play_button {
+        i {
+            font-size: 90px;
+        }
+    }
+    #engineering_slider_mobile .owl-stage-outer {
+        height: 500px !important;
+        overflow: hidden;
+    }
+    .engineering_icon_img {
+        height: 150px;
+        object-fit: contain;
+        margin: auto;
+    }
+    .level_block {
+        height: 80px;
+        margin: 40px 0;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .members_row {
+        .member_image {
+            height: 100px !important;
+            background-color: white;
+            img {
+                object-fit: contain;
+                padding: 20px;
+                height: 100%;
+            }
+        }
+    }
+    .core {
+        background-color: #0278ad;
+    }
+    .club {
+        background-color: #98cc33;
+    }
+    .group {
+        background-color: #787878;
+    }
+    .key_stats_row img {
+        height: 200px;
+    }
+    .card {
+        .card-header {
+            p {
+                font-size: 16px;
+            }
+            button {
+                font-size: 20px;
+            }
+        }
+    }
 }
 #projects {
     font-size: 1rem;
@@ -192,7 +213,7 @@
     }
 }
 #accordion .btn.btn-link.collapsed::after {
-      content: "\e80c";
+    content: "\e80c";
     font-size: 30px;
 }
 #accordion .btn.btn-link::after {

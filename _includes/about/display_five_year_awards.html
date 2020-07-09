@@ -6,10 +6,10 @@
             <div class="card h-100 ">
                 <div class="blog_image_header">
                     {% if post.photo %}
-                        {% assign block_image = post.photo | remove_first: "/assets/images/" %}
+                        {% assign block_image = post.photo  %}
                         {% capture block_image_alt %}{{post.title}} image {% endcapture %}
                     {% else %}
-                        {% assign block_image = site.post_placeholder | remove_first: "/assets/images/" %}
+                        {% assign block_image = site.post_placeholder  %}
                         {% capture block_image_alt %}Blog post placeholder image {% endcapture %}
                     {% endif %}
                     {% picture featured_blog_image {{block_image}} --alt {{block_image_alt}} %}
