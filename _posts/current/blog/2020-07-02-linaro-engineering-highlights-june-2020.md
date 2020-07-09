@@ -37,9 +37,9 @@ The latest Linux kernel release - version 5.7 - has once again seen a leadership
 
 Alex Elder (Qualcomm Landing Team) is the #2 most active contributing engineer to 5.7 measured “by Lines Changed” and Manni Sadhasivam (Developer Services) is #10 on that list. Linus Wallej (Arm Assignee in KWG) and Ard Biesheuvel (Arm Member Engineer) are on the top 20 list “by Changesets”.
 
-{% include image.html path="/assets/images/content/most-active-5.7-developes-by-changesets.png" alt="most active 5.7 developers" %} As a company, Linaro is the #3 contributor by lines changed and #8 by changesets. 
+{% include image.html path="/assets/images/content/most-active-5.7-developers.png" alt="most active 5.7 developers" %} As a company, Linaro is the #3 contributor by lines changed and #8 by changesets. 
 
-{% include image.html path="/assets/images/content/most-active-5.7employers.png" alt="most active 5.7 employers" %} Shawn Guo (Developer Services) is the tenth (#10) busiest kernel maintainer followed by Vinod Koul (Qualcomm Landing Team) at #16 based on the number accepted upstream submissions.
+{% include image.html path="/assets/images/content/most-active-5.7-employers.png" alt="most active 5.7 employers" %} Shawn Guo (Developer Services) is the tenth (#10) busiest kernel maintainer followed by Vinod Koul (Qualcomm Landing Team) at #16 based on the number accepted upstream submissions.
 
 {% include image.html path="/assets/images/content/non-author-signoffs-in-5.7.png" alt="non-author signoffs in 5.7" %} Also based on the above list, Linaro is the #2 employer of maintainers based on the number of accepted 5.7 kernel upstream submissions.
 
