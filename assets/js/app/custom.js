@@ -123,7 +123,7 @@ $(document).ready(function () {
         500
       );
       $("#projects #" + hash[1]).collapse("show");
-      url = location.href.replace(/\/#/, "#");
+      url = location.href.replace(/\/#/, "/#");
       history.replaceState(null, null, url);
       setTimeout(() => {
         $(window).scrollTop(0);
