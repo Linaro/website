@@ -101,7 +101,6 @@ defaults:
       type: "company"
     values:
       layout: flow
-      breadcrumb: true
       flow:
         - row: container_row
           sections:
@@ -233,7 +232,7 @@ readme_index:
 # -------- jekyll_picture_tag --------
 picture:
   nomarkdown: false
-  source: "assets/images"
+  source: ""
   output: "assets/images"
   relative_url: true
 # -------- japr --------

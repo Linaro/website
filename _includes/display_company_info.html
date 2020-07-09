@@ -49,12 +49,13 @@
         {% endfor %}
     </p>
 
-    <h3>About {{page.title}} </h3>
+    <h1>{{page.title}}</h1>
     {{content}}
     </div>
 </div>
 {% else %}
 <div class="col col-12 company-col no-padding">
+    <h1>{{page.title}}</h1>
     {{content}}
 </div>
 {% endif %}

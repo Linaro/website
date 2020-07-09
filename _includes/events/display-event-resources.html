@@ -11,7 +11,7 @@
                 {% else %}
                     {% capture image_path %}{{event_details.image}}{% endcapture %}
                 {% endif %}
-                {% assign block_image = image_path | remove_first: "/assets/images/" %}
+                {% assign block_image = image_path  %}
                 {% capture block_image_alt %}{{post.title}} image {% endcapture %}
                 {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
                 <div class="card-body card-img-overlay d-flex flex-column align-items-center justify-content-center">
