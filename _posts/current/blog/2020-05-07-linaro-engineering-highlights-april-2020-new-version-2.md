@@ -12,9 +12,9 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:- 
+Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:-
 
-* Linaro’s Contributions to the Linux v5.6 Kernel LTP (Linux Test Project) 
+* Linaro’s Contributions to the Linux v5.6 Kernel LTP (Linux Test Project)
 * PSA Level 1 Certification Showcase
 * Linaro Consumer Group (LCG) News
 * OTA article - Industrial Internet Consortium Journal of Innovation
@@ -28,13 +28,13 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://lwn.net/Articles/816162/):
 
-* Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets. 
+* Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets.
 * Two Linaro employees (Arnd Bergmann and Srinivas Kandagatla) are #2 and #7 individual contributors by number of lines changed.
 * Arnd Bergmann is the #6 individual contributor by changesets.
-* Not mentioned in the article but two other key statistics  
+* Not mentioned in the article but two other key statistics
 
-  * Linus Walleij 7th 1.6% Reviewed-by in 5.6 
-  * Naresh Kamboju ranked at #10 for reported-by <br/> <br/>     
+  * Linus Walleij 7th 1.6% Reviewed-by in 5.6
+  * Naresh Kamboju ranked at #10 for reported-by <br/> <br/>
 
 **Most Active 5.6 Employers**
 
@@ -62,7 +62,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
 {:.table.my-5}
 
-**Most Active 5.6 Developers**          
+**Most Active 5.6 Developers**
 
 | By Changesets       |     |       | By Lines Changed    |       |      |
 | ------------------- | --- | ----- | ------------------- | ----- | ---- |
@@ -116,7 +116,7 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="lite.jpg" %}
 
-With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed.  <br/> <br/> 
+With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed.  <br/> <br/>
 
 ### **Linaro Consumer Group (LCG) News**
 
@@ -126,13 +126,13 @@ This month the Linaro Consumer Group team released two blog posts highlighting w
 
 {% include image.html path="/assets/images/content/lcg.jpg" class="small-inline left" alt="lcg.jpg" %}
 
-The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.  
+The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.
 
-* [Update on HiKey/Hikey960 efforts in AOSP](https://www.linaro.org/blog/update-on-hikey-hikey960-efforts-in-aosp/)
+* [Update on HiKey/Hikey960 efforts in AOSP](/blog/update-on-hikey-hikey960-efforts-in-aosp/)
 
-The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
+The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
 
-**[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](https://www.linaro.org/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)**  
+**[AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernels on form factor devices)](/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)**
 
 #### **OTA article - Industrial Internet Consortium Journal of Innovation**
 
@@ -148,6 +148,6 @@ The article exposes the challenges of OTA for current and future systems. OTA ca
 
 Research by Sahaj Sarup
 
-{% include image.html path="/assets/images/content/96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %} 
+{% include image.html path="/assets/images/content/96boards-vertical-logo.png" class="small-inline left" alt="96boards-vertical-logo.png" %}
 
 Recently I have been spending my spare cycles, along with a few other friends from the Arm Ecosystem, to get the power and efficiency of the aarch64 ISA in the hands of researchers and institutes that have been working tirelessly to make sense of the COVID-19 pandemic. <br/>

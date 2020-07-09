@@ -25,7 +25,7 @@ Featured Linaro work in this demo includes:
 * 96Boards specification - Avenger96 Community Board and mezzanine expansion
 * Zephyr - Linaro is a contributor to the Zephyr project
 
-For more details of these technologies, please see our [previous blog on heterogeneous multicore systems](https://www.linaro.org/blog/heterogeneous-multicore-systems-the-new-open-source-frontier/).
+For more details of these technologies, please see our [previous blog on heterogeneous multicore systems](/blog/heterogeneous-multicore-systems-the-new-open-source-frontier/).
 
 {% include media.html media_url="https://www.youtube.com/watch?v=mY2G78jal3Y" %}
 
