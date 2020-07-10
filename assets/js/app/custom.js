@@ -133,7 +133,7 @@ $(document).ready(function () {
     $(".collapse").on("show.bs.collapse", function (e) {
       let newUrl;
       const hash = $(this).attr("id");
-      newUrl = url.split("#")[0] + "/#" + hash;
+      newUrl = url.substring(0, url.lastIndexOf("/")) + "/#" + hash;
       history.replaceState(null, null, newUrl);
     });
   }
