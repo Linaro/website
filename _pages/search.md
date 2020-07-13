@@ -22,7 +22,7 @@ css_bundle: search
     fess.setAttribute('id', 'fess-ss');
     fess.setAttribute('enable-order', 'true');
     fess.setAttribute('link-target', '\_blank');
-    fess.setAttribute('enable-labels', 'true');
+    fess.setAttribute('enable-labels', 'false');
     // fess-url is URL for Fess Server
     fess.setAttribute('fess-url', 'https://search.linaro.org/json/?fields.label=Linaro');
     var s = document.getElementsByTagName('script')[0];
