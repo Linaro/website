@@ -110,4 +110,31 @@ $(document).ready(function () {
       items: 4,
     });
   }
+  // Projects links
+  if ($("#projects").length > 0) {
+    let url = location.href.replace(/\/$/, "");
+
+    if (location.hash) {
+      const hash = url.split("#");
+      $([document.documentElement, document.body]).animate(
+        {
+          scrollTop: $("#heading-" + hash[1]).offset().top - 100,
+        },
+        500
+      );
+      $("#projects #" + hash[1]).collapse("show");
+      url = location.href.replace(/\/#/, "/#");
+      history.replaceState(null, null, url);
+      setTimeout(() => {
+        $(window).scrollTop(0);
+      }, 400);
+    }
+
+    $(".collapse").on("show.bs.collapse", function (e) {
+      let newUrl;
+      const hash = $(this).attr("id");
+      newUrl = url.substring(0, url.lastIndexOf("/")) + "/#" + hash;
+      history.replaceState(null, null, newUrl);
+    });
+  }
 });

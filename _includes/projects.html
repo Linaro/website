@@ -3,9 +3,9 @@
         <div id="accordion">
             {% for project in site.data.projects %}
                 <div class="card mb-3">
-                    <div class="card-header" id="heading-{{project["Project Information"].title | slugify}}">
+                    <div class="card-header" id="heading-{{project["key"]}}">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed text-dark pl-0" data-toggle="collapse" data-target="#{{project["Project Information"].title | slugify}}" aria-expanded="false"
+                            <button class="btn btn-link collapsed text-dark pl-0" data-toggle="collapse" data-target="#{{project["key"]}}" aria-expanded="false"
                                 aria-controls="{{project["Project Information"].title | slugify}}">
                                 <img data-src="{{project["icon"]}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                     alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
@@ -16,7 +16,7 @@
                             {{project["Project Information"].description}}
                         </p>
                     </div>
-                    <div id="{{project["Project Information"].title | slugify}}" class="collapse" aria-labelledby="heading-{{project["Project Information"].title | slugify}}" data-parent="#accordion">
+                    <div id="{{project["key"]}}" class="collapse" aria-labelledby="heading-{{project["key"]}}" data-parent="#accordion">
                         <div class="card-body pb-0"">
                             <div class="row py-0">
                                 {% if project["Project Ownership"] %}
