@@ -19,7 +19,7 @@ If many clients are requesting the same resource, KissCache will download it onl
 
 ### **Use case**
 
-At [](https://www.linaro.org/)[Linaro](https://www.linaro.org/) we use KissCache in our CI system to cache build artefacts (kernel, rootfs, ramdisk, dtb).
+At [](/)[Linaro](/) we use KissCache in our CI system to cache build artefacts (kernel, rootfs, ramdisk, dtb).
 
 For instance, when [LKFT](https://lkft.linaro.org/) is validating a Linux kernel LTS release-candidate, it will submit many jobs to [LAVA](https://lavasoftware.org/) to be executed on a variety of hardware platforms. These jobs will run in parallel, using many of the same artefacts. Thanks to KissCache, our CI system will download each resource only once, saving network bandwidth.
 
@@ -46,7 +46,7 @@ The client would accept this fake certificate since it is signed by a known root
 
 While this is a working solution, if the root certificate is stolen, an attacker would be able to set up a man-in-the-middle attack on every local SSL connection.
 
-KissCache does not need to implement such an SSL hack since the client is directly connected to the KissCache instance that can return its own SSL certificate. 
+KissCache does not need to implement such an SSL hack since the client is directly connected to the KissCache instance that can return its own SSL certificate.
 
 ### **KissCache Usage**
 
@@ -67,7 +67,7 @@ curl
 "http://localhost:8001/api/v1/fetch/?url=https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.40.tar.xz"
 ```
 
-KissCache workers will download the resource and stream it back to you. 
+KissCache workers will download the resource and stream it back to you.
 
 ## **Configuration**
 
@@ -80,7 +80,7 @@ curl
 "http://localhost:8001/api/v1/fetch/?ttl=1d&url=https://lkft.linaro.org"
 ```
 
-Every hour, KissCache will automatically delete resources that are outdated. 
+Every hour, KissCache will automatically delete resources that are outdated.
 
 ### **Quota**
 
@@ -94,6 +94,6 @@ KissCache access can be restricted to a given network. Only IPs from a specific 
 
 ### **Contact**
 
-KissCache is licenced under the MIT licence.  
+KissCache is licenced under the MIT licence.
 
 The source code is available on [GitLab](https://git.lavasoftware.org/ivoire/kisscache). Feel free to create an issue or to send a merge request.

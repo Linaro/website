@@ -13,7 +13,7 @@ tags:
 category: Blog
 author: connect
 ---
-We were disappointed to have to [cancel Linaro Connect Budapest 2020](https://www.linaro.org/blog/linaro-connect-budapest-2020-cancelled/). We had lots of great technical sessions scheduled and as such, want to do all we can to repurpose as much of the content as possible.
+We were disappointed to have to [cancel Linaro Connect Budapest 2020](/blog/linaro-connect-budapest-2020-cancelled/). We had lots of great technical sessions scheduled and as such, want to do all we can to repurpose as much of the content as possible.
 
 We are therefore pleased to introduce Linaro Tech Days.
 
