@@ -216,7 +216,7 @@
         },
         "Project Information": {
             "Health Check Report": "",
-            "JIRA Structure": "<a href=\"ttps://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+            "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
             "description": "Although a lot of changes happened in the linux storage over the past years with rewrite of the kernel\u2019s block layer and new I/O schedulers, some areas like embedded storage and I/O latency performance still deserve further improvements. The project will focus on delivering these missing features.",
