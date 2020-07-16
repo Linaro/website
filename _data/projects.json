@@ -2,7 +2,7 @@
     {
         "Project Contact Information": {
             "Meetings": "Weekly engineering sync meeting on Wednesdays 10am Central Time (US)",
-            "Point of Contact": " Contact Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a> for more information."
+            "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/ai-dev\">AI-dev mailing list</a>.<br>"
         },
         "Project Information": {
             "Health Check Report": "",
@@ -23,7 +23,7 @@
     {
         "Project Contact Information": {
             "Meetings": "",
-            "Point of Contact": ""
+            "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/asa-dev\">ASA-dev mailing list</a>.<br>"
         },
         "Project Information": {
             "Health Check Report": "",
@@ -43,8 +43,8 @@
     },
     {
         "Project Contact Information": {
-            "Meetings": "TBD",
-            "Point of Contact": "TBD"
+            "Meetings": "",
+            "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/bdds-dev\">BDDS-dev mailing list</a>.<br>"
         },
         "Project Information": {
             "Health Check Report": "",
