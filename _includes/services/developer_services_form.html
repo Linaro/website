@@ -1,34 +1,89 @@
 <div class="col col-12 no-padding membership_form_container">
     <div class="row">
         <div class="col col-12 col-sm-6 form_section">
-            <form id="developer_services_form" action="#" onsubmit="submitDeveloperServicesForm();" >
+            <form id="feedback_form" target='feedback-response' method='post'
+                action='https://servicedesk.linaro.org/plugins/servlet/feedback/create'>
+                <input type='hidden' name='form-index' id='form-index' value='1' />
+                <input type='hidden' name='feedback-from-url' id='feedback-from-url' value='' />
+                <input type='hidden' name='feedback-priority' value='10102' />
+                <input type='hidden' name='feedback-summary' value="Developer Services request" />
+                <input type='hidden' name='feedback-body' value='' />
                 <div class="form-group">
-                    <input type="text" name="first_name" class="form-control" placeholder="First name">
+                    <input type="text" id='customfield_10902' name='customfield_10902' class="form-control"
+                        placeholder="First name">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="surname" class="form-control" placeholder="Last name">
+                    <input type="text" id='customfield_10903' name='customfield_10903' class="form-control"
+                        placeholder="Last name">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="company" class="form-control" placeholder="Company">
+                    <input type="text" id='feedback-email' name='feedback-email' class="form-control"
+                        placeholder="Email address">
                 </div>
                 <div class="form-group">
-                    <select class="form-control" name="services_type" multiple>
-                        <option value="" disabled selected>Type of Services interested in</option>
-                        <option value="Upstreaming">Upstream Services</option>
-                        <option value="Kernel">Kernel Services</option>
-                        <option value="Training">Training & Support</option>
-                        <option value="Security">Security</option>
-                        <option value="Trusted Firmware">Trusted Firmware</option>
-                        <option value="OP-TEE">OP-TEE</option>
-                        <option value="Long Term Support Builds">Long Term Support Builds</option>
-                        <option value="Arm Server Deployment">Arm Server Deployment</option>
-                        <option value="BSP'S and board bring up">BSP'S and board bring up</option>
-                        <option value="Embedded and mobile platforms">Embedded and mobile platforms</option>
-                    </select>
+                    <input type="text" id='customfield_12401' name='customfield_12401' class="form-control"
+                        placeholder="Company">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" rows="3"
-                    name="source" placeholder="How did you hear about Linaro?"></textarea>
+                    <p>Which services are you interested in?</p>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12815' name='customfield_12904' id='customfield_12904-1'
+                            class='checkbox'>
+                        <label for='customfield_12904-1'>Upstream Services</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12816' name='customfield_12904' id='customfield_12904-2'
+                            class='checkbox'>
+                        <label for='customfield_12904-2'>Kernel Services</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12817' name='customfield_12904' id='customfield_12904-3'
+                            class='checkbox'>
+                        <label for='customfield_12904-3'>Training & Support</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12818' name='customfield_12904' id='customfield_12904-4'
+                            class='checkbox'>
+                        <label for='customfield_12904-4'>Security</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12819' name='customfield_12904' id='customfield_12904-5'
+                            class='checkbox'>
+                        <label for='customfield_12904-5'>Trusted Firmware</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12820' name='customfield_12904' id='customfield_12904-6'
+                            class='checkbox'>
+                        <label for='customfield_12904-6'>OP-TEE</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12821' name='customfield_12904' id='customfield_12904-7'
+                            class='checkbox'>
+                        <label for='customfield_12904-7'>Long Term Support Builds</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12822' name='customfield_12904' id='customfield_12904-8'
+                            class='checkbox'>
+                        <label for='customfield_12904-8'>Arm Server Deployment</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12823' name='customfield_12904' id='customfield_12904-9'
+                            class='checkbox'>
+                        <label for='customfield_12904-9'>BSPs and board bring-up</label>
+                    </div>
+                    <div class='checkbox'>
+                        <input type='checkbox' value='12824' name='customfield_12904' id='customfield_12904-10'
+                            class='checkbox'>
+                        <label for='customfield_12904-10'>Embedded and mobile platforms</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" name="customfield_12902" id="customfield_12902"
+                        placeholder="How can we help you?"></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" name="customfield_12903" id="customfield_12903"
+                        placeholder="How did you hear about Linaro?"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-lg btn-default">Submit</button>
@@ -38,9 +93,14 @@
         <div class="col col-12 col-sm-6 image_section">
             {% assign image_path = "/assets/images/content/connect_crowd.jpg"  %}
             {% capture image_alt %}
-                    {{page.title}} feature block image
+            {{page.title}} feature block image
             {% endcapture %}
             {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
         </div>
     </div>
 </div>
+<script>
+    function addFeedback() {
+        jQuery('#feedback-form').submit();
+    }
+</script>
