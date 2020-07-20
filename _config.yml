@@ -68,6 +68,7 @@ defaults:
       is_post: true
       comments: false
       image: /assets/images/content/code_banner.jpg
+      strap_image: /assets/images/content/code_banner.jpg
   - scope:
       path: ""
       type: "authors"
