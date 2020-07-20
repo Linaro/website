@@ -73,12 +73,8 @@ flow:
                         - [Power management tuning](/services/power-management/)
                         - [Toolchain optimization](/services/toolchain-optimization-services/)
                         - [96Boards](/services/96boards/)
-        - format: buttons
-          style: text-center developer_services_prospectus_btn
-          buttons_content:
-              - title: Download Prospectus
-                url: https://static.linaro.org/assets/presentations/IntroductiontoLinaroDeveloperServices.pdf
-                style: btn-primary
+        - format: custom_include
+          source: services/prospectus_registration_form.html
     - row: container_row
       style: services_form large_type bg-primary text-white
       sections:

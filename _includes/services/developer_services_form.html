@@ -1,8 +1,9 @@
 <div class="col col-12 no-padding membership_form_container">
     <div class="row">
         <div class="col col-12 col-sm-6 form_section">
-            <form enctype='multipart/form-data' id="feedback_form" target='feedback-response' method='post'
-                action='https://servicedesk.linaro.org/plugins/servlet/feedback/create'>
+            <div id='feedback-error'></div>
+            <div id='feedback-response'></div>
+            <form enctype='multipart/form-data' id="feedback_form" action='https://servicedesk.linaro.org/plugins/servlet/feedback/create' method='post'>
                 <input type='hidden' name='form-index' id='form-index' value='1' />
                 <input type='hidden' name='feedback-from-url' id='feedback-from-url' value='' />
                 <input type='hidden' name='feedback-priority' value='10102' />
@@ -99,8 +100,3 @@
         </div>
     </div>
 </div>
-<script>
-    function addFeedback() {
-        jQuery('#feedback-form').submit();
-    }
-</script>
