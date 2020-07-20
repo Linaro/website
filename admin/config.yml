@@ -877,6 +877,11 @@ collections:
         name: image
         widget: image
         required: true
+      - label: "Strap Header Image"
+        name: strap_image
+        widget: image
+        hint: "The strap image is used for the 'strap' header at the top of a post"
+        required: false
       - label: "Tags"
         name: tags
         widget: list
@@ -914,6 +919,11 @@ collections:
         name: image
         widget: image
         required: true
+      - label: "Strap Header Image"
+        name: strap_image
+        widget: image
+        hint: "The strap image is used for the 'strap' header at the top of a post"
+        required: false
       - label: "Tags"
         name: tags
         widget: list
@@ -949,6 +959,11 @@ collections:
         name: image
         widget: image
         required: true
+      - label: "Strap Header Image"
+        name: strap_image
+        widget: image
+        hint: "The strap image is used for the 'strap' header at the top of a post"
+        required: false
       - label: "Tags"
         name: tags
         widget: list
