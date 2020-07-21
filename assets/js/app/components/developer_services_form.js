@@ -37,5 +37,8 @@ feedback_form.onsubmit = (e) => {
       body: new FormData(feedback_form)
     })
     .then(response => response.text())
-    .then(result => console.log(result));
+    .then(result => {
+      feedback_form.hide();
+      feedback_response.html(result);
+    });
 }
