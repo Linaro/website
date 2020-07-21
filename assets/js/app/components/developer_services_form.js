@@ -38,7 +38,7 @@ feedback_form.onsubmit = (e) => {
     })
     .then(response => response.text())
     .then(result => {
-      feedback_form.hide();
-      feedback_response.html(result);
+      feedback_form.style.display = 'none';
+      feedback_response.innerHTML = result;
     });
 }
