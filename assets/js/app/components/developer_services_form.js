@@ -1,44 +1,40 @@
-// $(document).ready(function() {
-//   console.log("Document ready function firing ...");
-//   $("#btnSubmit").click(function(event) {
-//     console.log("Feedback form submit firing ...");
-//     event.preventDefault();
-//     var form = $('#feedback-form')[0];
-//     var data = new FormData(form);
-//     console.log(data);
-//     var jqxhr = $.ajax({
-//       type: "POST",
-//       enctype: 'multipart/form-data',
-//       url: 'https://servicedesk.linaro.org/plugins/servlet/feedback/create',
-//       data: data,
-//       processData: false,
-//       contentType: false,
-//       cache: false,
-//     })
-//       .done(function(data) {
-//         $('#feedback-form').hide();
-//         $('#feedback-response').html(data);
-//       })
-//       .fail(function(e) {
-//         console.log("ERROR: ", e);
-//       })
-
-//     jqxhr.always(function() {
-//       console.log("Post finished");
-//     })
-//   });
-// });
-
+// Take the form data from developer_services_form.js and send it
+// to the feedback endpoint.
 feedback_form.onsubmit = (e) => {
   e.preventDefault();
-  fetch(
-    'https://servicedesk.linaro.org/plugins/servlet/feedback/create', {
-      method: 'POST',
-      body: new FormData(feedback_form)
-    })
-    .then(response => response.text())
-    .then(result => {
-      feedback_form.style.display = 'none';
-      feedback_response.innerHTML = result;
-    });
+  // Check that the form has values for the required fields
+  var message = '';
+  if ($("customfield_10902").val() === "") {
+    message = message + "You must provide a first name.<br>";
+  }
+  if ($("customfield_10903").val() === "") {
+    message = message + "You must provide a last name.<br>";
+  }
+  if ($("feedback-email").val() === "") {
+    message = message + "You must provide an email address.<br>";
+  }
+  if ($("customfield_12401").val() === "") {
+    message = message + "You must provide a Company name.<br>";
+  }
+  var checked_count = 0;
+  feedback_form.find('input[type="checkbox"]').each(function() {
+    checked_count += 1;
+  })
+  if (checked_count === 0) {
+    message = message + "You must select at least one service of interest.<br>";
+  }
+  if (message !== "") {
+    feedback_error.innerHTML = `<p>${message}</p>`;
+  } else {
+    fetch(
+      'https://servicedesk.linaro.org/plugins/servlet/feedback/create', {
+        method: 'POST',
+        body: new FormData(feedback_form)
+      })
+      .then(response => response.text())
+      .then(result => {
+        feedback_form.style.display = 'none';
+        feedback_response.innerHTML = result;
+      });
+  }
 }
