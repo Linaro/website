@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("#btnSubmit").click(function(event) {
     console.log("Feedback form submit firing ...");
     event.preventDefault();
-    var form = $('#feedback-form');
+    var form = $('#feedback-form')[0];
     var data = new FormData(form);
     console.log(data);
     var jqxhr = $.ajax({
