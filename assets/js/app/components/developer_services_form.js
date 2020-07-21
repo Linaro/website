@@ -29,10 +29,16 @@ feedback_form.onsubmit = (e) => {
     feedback_error.innerHTML = `<p>${message}</p>`;
   } else {
     feedback_error.innerHTML = "";
+    // Copy some field values over to new names to keep the feedback
+    // plugin happy.
+    var data = new FormData(feedback_form);
+    data.append("first-name", customfield_10902.value);
+    data.append("last-name", customfield_10903.value);
+    data.append("company-name", customfield_12401.value);
     fetch(
       'https://servicedesk.linaro.org/plugins/servlet/feedback/create', {
         method: 'POST',
-        body: new FormData(feedback_form)
+        body: data
       })
       .then(response => response.text())
       .then(result => {
