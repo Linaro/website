@@ -28,6 +28,7 @@ feedback_form.onsubmit = (e) => {
   if (message !== "") {
     feedback_error.innerHTML = `<p>${message}</p>`;
   } else {
+    feedback_error.innerHTML = "";
     fetch(
       'https://servicedesk.linaro.org/plugins/servlet/feedback/create', {
         method: 'POST',
