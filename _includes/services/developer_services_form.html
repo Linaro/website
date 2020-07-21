@@ -3,7 +3,7 @@
         <div class="col col-12 col-sm-6 form_section">
             <div id='feedback-error'></div>
             <div id='feedback-response'></div>
-            <form enctype='multipart/form-data' id="feedback_form" action='https://servicedesk.linaro.org/plugins/servlet/feedback/create' method='post'>
+            <form id="feedback_form">
                 <input type='hidden' name='form-index' id='form-index' value='1' />
                 <input type='hidden' name='feedback-from-url' id='feedback-from-url' value='' />
                 <input type='hidden' name='feedback-priority' value='10102' />
@@ -87,7 +87,7 @@
                         placeholder="How did you hear about Linaro?"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-lg btn-default">Submit</button>
+                    <button id="btnSubmit" type="submit" class="btn btn-lg btn-default">Submit</button>
                 </div>
             </form>
         </div>
