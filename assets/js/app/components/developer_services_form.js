@@ -4,21 +4,23 @@ feedback_form.onsubmit = (e) => {
   e.preventDefault();
   // Check that the form has values for the required fields
   var message = '';
-  if ($("customfield_10902").val() === "") {
+  if (customfield_10902.value === "") {
     message = message + "You must provide a first name.<br>";
   }
-  if ($("customfield_10903").val() === "") {
+  if (customfield_10903.value === "") {
     message = message + "You must provide a last name.<br>";
   }
-  if ($("feedback-email").val() === "") {
+  if (feedback_email.value === "") {
     message = message + "You must provide an email address.<br>";
   }
-  if ($("customfield_12401").val() === "") {
+  if (customfield_12401.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
   var checked_count = 0;
-  feedback_form.find('input[type="checkbox"]').each(function() {
+  $('#feedback_form').find('input[type="checkbox"]').each(function() {
+  if ($(this).is(':checked')) {
     checked_count += 1;
+  }
   })
   if (checked_count === 0) {
     message = message + "You must select at least one service of interest.<br>";
