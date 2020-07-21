@@ -29,13 +29,13 @@
 //   });
 // });
 
-feedback_form.onsubmit = async (e) => {
+feedback_form.onsubmit = (e) => {
   e.preventDefault();
-  let response = await fetch(
+  fetch(
     'https://servicedesk.linaro.org/plugins/servlet/feedback/create', {
       method: 'POST',
       body: new FormData(feedback_form)
-    });
-  let result = await response.text();
-  console.log(result);
+    })
+    .then(response => response.text())
+    .then(result => console.log(result));
 }
