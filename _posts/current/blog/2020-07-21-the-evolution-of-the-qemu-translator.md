@@ -12,6 +12,10 @@ description: The QEMU team in Linaro sits inside a group known as the Toolchain
 date: 2020-07-22T01:00:55.000Z
 image: /assets/images/content/tech_background_2.jpg
 tags:
+  - Single Instruction Multiple Data
+  - instruction set
+  - Decode Tree
+  - qemu-aarch64
   - QEMU
   - Toolchain
   - Toolchain Working Group
@@ -25,9 +29,9 @@ tags:
   - KVM
   - QHT
   - ARM Scalable Vector Extensions
-  - Single Instruction Multiple Data
   - SIMD
   - Random Instruction Sequence (generator for) Userspace
+  - lock-less hash table
 category: Blog
 author: alex.bennee
 ---
