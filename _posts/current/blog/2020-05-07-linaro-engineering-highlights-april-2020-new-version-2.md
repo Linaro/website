@@ -1,7 +1,12 @@
 ---
 layout: post
-title: 'Linaro Engineering Highlights: April 2020'
-date: '2020-05-07 04:47:27'
+title: "Linaro Engineering Highlights: April 2020"
+description: Welcome to the April 2020 edition of the Linaro Engineering
+  Highlights. This roundup includes Linaro’s contributions to the Linux v5.6
+  Kernel LTP, PSA Level 1 Certification Showcase, Linaro Consumer Group (LCG)
+  News, OTA article and some amazing research Linaro has been involved with in
+  the combat against COVID-19.
+date: 2020-05-07 04:47:27
 image: /assets/images/content/code.jpg
 tags:
   - Linaro
@@ -18,7 +23,9 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 * PSA Level 1 Certification Showcase
 * Linaro Consumer Group (LCG) News
 * OTA article - Industrial Internet Consortium Journal of Innovation
-* Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup <br/>  <br/>  <br/>
+* Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup 
+
+
 
 ### Linaro’s Contributions to the Linux v5.6 Kernel
 
@@ -60,6 +67,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | NXP Semiconductors  | 210  | 1.7%  | NXP Semiconductors | 8689  | 1.3%  |
 | Oracle              | 147  | 1.2%  | Solarflare         | 8670  | 1.3%  |
 | Broadcom            | 143  | 1.2%  | IBM communications | 8586  | 1.3%  |
+
 {:.table.my-5}
 
 **Most Active 5.6 Developers**
@@ -86,6 +94,7 @@ As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on
 | Thomas Zimmermann   | 80  | 0.6%  | Roman Li            | 4852  | 0.7% |
 | Jens Axboe          | 77  | 0.6%  | Thierry Reding      | 4845  | 0.7% |
 | Jani Nikula         | 74  | 0.6%  | Sunil Goutham       | 4762  | 0.7% |
+
 {:.table.my-5}
 
 Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors to the 5.6 kernel and a thank you to all those who keep Linaro in the top ten Linux Kernel contributors every release. <br/> <br/> <br/>
@@ -108,7 +117,7 @@ Linaro had been asked by the Members to work on the Linux Test Project (aka LTP)
 
 All of the above have been merged, while work is in progress for three syscalls related to io_uring supported by an ARM member engineer. In addition, twenty new syscalls have been added to the task, all related to the time64 variants and these are now underway. Further information is available in [KWG-326.](https://projects.linaro.org/browse/LKQ-43) <br/> <br/>
 
-### [PSA Level 1 Certification Showcase](https://www.psacertified.org/app/uploads/2020/04/PSA_Certified-Zephyr_Partner_Showcase.pdf)
+### PSA Level 1 Certification Showcase
 
 Linaro IoT and Embedded (LITE)
 
