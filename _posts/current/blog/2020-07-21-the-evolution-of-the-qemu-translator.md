@@ -19,20 +19,29 @@ tags:
   - TCWG
   - TCG
   - RISU
+  - random instruction sequence
+  - SVE
+  - Multi-threaded TCG
+  - MTTCG
+  - KVM
+  - QHT
+  - ARM Scalable Vector Extensions
+  - Single Instruction Multiple Data
+  - SIMD
 category: Blog
 author: alex.bennee
 ---
 # Introduction
 
-The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as [GCC](https://gcc.gnu.org/) and [LLVM](https://llvm.org/).  When dealing with emulation QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with a within different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis it can't afford to spend the large amounts of time (or memory!) that a typical compiler does when optimising it's output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
+The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as [GCC](https://gcc.gnu.org/) and [LLVM](https://llvm.org/). When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis it can't afford to spend the large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
 
 ## History
 
-The TCG is actually the second code generator that QEMU has used.   Originally QEMU worked as a "template" translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it you could generate code to run under it. However eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
+The TCG is actually the second code generator that QEMU has used.   Originally QEMU worked as a "template" translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
 
-TCG has it's roots as a generic back end for a C compiler. The main   difference is instead of converting an abstract syntax tree from a high level language into micro ops its input is the decomposed operations of an individual instruction.
+TCG has its roots as a generic back end for a C compiler. The main   difference is instead of converting an abstract syntax tree from a high level language into micro ops, its input is the decomposed operations of an individual instruction.
 
-A simplified version of might look something like this:
+A simplified version might look something like this:
 
 ```
  static void disas_add_imm(DisasContext *s, uint32_t insn)
@@ -53,7 +62,7 @@ A simplified version of might look something like this:
   }
 ```
 
-The decode step involves dissecting the various fields of the   instruction to work out what registers and immediate values are needed. The operation is synthesised from TCG ops which are the basic units of the code generator. After a simple optimisation pass these ops are then converted into host instructions and executed.
+The decode step involves dissecting the various fields of the instruction to work out what registers and immediate values are needed. The operation is synthesised from TCG ops which are the basic units of the code generator. After a simple optimisation pass, these ops are then converted into host instructions and executed.
 
 You can see the process yourself if you turn on the debugging options   in QEMU although be warned it generates a lot of output:
 
@@ -67,11 +76,11 @@ While the TCG has been part of QEMU since 2008 it has seen some changes over tim
 
 ### Common Loop and Decode Tree
 
-Originally each guest architecture just supplied a 'gen_intermediate_code' function that dealt with the process of translating a block of guest code into TCG operations. While they all looked fairly similar they also tended to have accumulated their own slight idiosyncrasies. The work to convert to a common translator loop didn't involve any particular bleeding edge technology and was mostly concerned with re-factoring architecture specific parts behind a set of` 'TranslatorOps' that would be familiar to anyone who has worked on something like a Linux device driver. The main reason I mention this work is because it opened the way for architecturally independent enhancements to be made functioning of the translator. This includes things like much improved tracing and [TCG plugin](https://qemu.readthedocs.io/en/latest/devel/tcg-plugins.html) instrumentation.
+Originally each guest architecture just supplied a 'gen_intermediate_code' function that dealt with the process of translating a block of guest code into TCG operations. While they all looked fairly similar they also tended to have accumulated their own slight idiosyncrasies. The work to convert to a common translator loop didn't involve any particular bleeding edge technology and was mostly concerned with re-factoring architecture specific parts behind a set of 'TranslatorOps' that would be familiar to anyone who has worked on something like a Linux device driver. The main reason I mention this work is because it opened the way for architecturally independent enhancements to be made functioning of the translator. This includes things like much improved tracing and [TCG plugin](https://qemu.readthedocs.io/en/latest/devel/tcg-plugins.html) instrumentation.
 
 Another recent innovation is the [Decode Tree](https://qemu.readthedocs.io/en/latest/devel/decodetree.html). This started as an experiment with another of QEMU's testing tools known as [RISU](https://git.linaro.org/people/peter.maydell/risu.git/about/) which is used to test the instruction decoder.
 
-Ideally an instruction set fits into a nice regular and tree like decode pattern. However reality often gets in the way, especially when ISA designers are trying to squeeze additional functionality into an increasingly crowded opcode space. Eventually you end up with functions like [this](https://git.qemu.org/?p=qemu.git;a=blob;f=target/arm/translate-a64.c;h=73d753f11fbe7878e23cbfaa9df38be4d8b96cbd;hb=HEAD#l14381) which do a series of masked pattern tests in a very particular order to tease out exactly which instruction is being decoded. Needless to say this process is error prone and many bugs have occurred due to mistakes in decoding the opcode.
+Ideally an instruction set fits into a nice regular and tree like decode pattern. However, reality often gets in the way, especially when ISA designers are trying to squeeze additional functionality into an increasingly crowded opcode space. Eventually you end up with functions like [this](https://git.qemu.org/?p=qemu.git;a=blob;f=target/arm/translate-a64.c;h=73d753f11fbe7878e23cbfaa9df38be4d8b96cbd;hb=HEAD#l14381) which do a series of masked pattern tests in a very particular order to tease out exactly which instruction is being decoded. Needless to say this process is error prone and many bugs have occurred due to mistakes in decoding the opcode.
 
 Decode Tree solves this problem by allowing a simple textual description of the opcode fields and then having a script automatically generate the most efficient decoding of opcode it can.  As a bonus it can also automatically extract the fields from the instruction and pass those to a simplified implementation than can just concentrate on the semantics of the operation.
 
@@ -93,7 +102,7 @@ Decode Tree was originally written to support the introduction of [SVE](https://
 
 ### Multi-threaded TCG (MTTCG)
 
-The original implementation of system emulation was single-threaded and although user-mode emulation followed the threading model of the programs it translated it was distinctly flaky in it's behaviour. The process of converting QEMU to a fully multi-threaded app had started with the introduction of KVM support but for a long time it was always assumed that TCG had too much global state to make multi-threading viable.
+The original implementation of system emulation was single-threaded and although user-mode emulation followed the threading model of the programs it translated, it was distinctly flaky in its behaviour. The process of converting QEMU to a fully multi-threaded app had started with the introduction of KVM support but for a long time it was always assumed that TCG had too much global state to make multi-threading viable.
 
 In the end it was a multi-year effort involving contributions from   many different sections of the community. You can read about some of the details in a [LWN article I wrote as we approached merge](https://lwn.net/Articles/697265/). There where changes behind the scenes like a lock-less hash table called [QHT](https://git.qemu.org/?p=qemu.git;a=blob;f=util/qht.c;h=67e5d5b9163f5f33e41f76a7cd261b9f620096f3;hb=HEAD) which is optimised for the read case as well as front end changes like properly modelling atomic and memory barrier operations.
 
@@ -101,17 +110,17 @@ Now MTTCG is the default for the majority of the mainline architectures and any 
 
 ### TCGv_vec
 
-When we started working on implementing ARM's [Scalable Vector Extensions for QEMU](https://wiki.qemu.org/Features/ARM/SVE) we realised we were taxing TCG's scalar orientated API. Up until that point most Single Instruction Multiple Data (SIMD) instructions where implemented by manually unrolling into a series of scalar operations. While this worked it was somewhat inefficient, especially if the actual implementation would end up in helper calls anyway (as most floating point operations do). Previous proposals for introducing SIMD TCG ops had been rejected because of the large range of vector sizes would lead to an explosion of TCG ops - one for each vector size.
+When we started working on implementing ARM's [Scalable Vector Extensions for QEMU](https://wiki.qemu.org/Features/ARM/SVE) we realised we were taxing TCG's scalar orientated API. Up until that point most Single Instruction Multiple Data (SIMD) instructions where implemented by manually unrolling into a series of scalar operations. While this worked it was somewhat inefficient, especially if the actual implementation would end up in helper calls anyway (as most floating point operations do). Previous proposals for introducing SIMD TCG ops had been rejected because of the large range of vector sizes that would lead to an explosion of TCG ops - one for each vector size.
 
-In the end SVE's vector size agnostic approach would be an inspiration   for a new API which can encode a vector op on an arbitrarily sized vector. The interface is rich enough that the backend still has the option of using the hosts own vector instructions to generate code while also providing helper based fallbacks for the cases where we cant. There is still a place for target specific helpers but now they can use the TCGv_vec interface to pass pointers to the register file in a consistent way. While originally written to support SVE work other targets have started using the interface for their vector implementations.
+In the end SVE's vector size agnostic approach would be an inspiration   for a new API which can encode a vector op on an arbitrarily sized vector. The interface is rich enough that the backend still has the option of using the hosts own vector instructions to generate code while also providing helper based fallbacks for the cases where we can't. There is still a place for target specific helpers but now they can use the TCGv_vec interface to pass pointers to the register file in a consistent way. While originally written to support SVE work, other targets have started using the interface for their vector implementations.
 
 ### Inline dynamic jumps (tb lookup)
 
-The translator works by translating a block of instructions at a time.  At the end of the block it can jump to one of two blocks. When these are static addresses that jump will get patched in once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go but it can certainly do the lookup inline and avoid the expensive exit.
+The translator works by translating a block of instructions at a time.  At the end of the block it can jump to one of two blocks. When these are static addresses that jump will get patched in once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However, there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go but it can certainly do the lookup inline and avoid the expensive exit.
 
 ### Conclusion
 
-It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [[ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm)] in the upcoming 5.1 release. However   we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture.
+It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm) in the upcoming 5.1 release. However, we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture.
 
 ### Potential Future Directions
 
