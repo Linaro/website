@@ -91,7 +91,7 @@ static void trans_add_imm(DisasContext *s, arg_rri *a)
 
 Decode Tree was originally written to support the introduction of [SVE](https://www.linaro.org/blog/sve-in-qemu-linux-user/) in QEMU but since then new guests have used it and several existing guest architectures have been converted to use decode tree powered instruction decode.
 
-### 3.2 Multi-threaded TCG (MTTCG)
+### Multi-threaded TCG (MTTCG)
 
 The original implementation of system emulation was single-threaded and although user-mode emulation followed the threading model of the programs it translated it was distinctly flaky in it's behaviour. The process of converting QEMU to a fully multi-threaded app had started with the introduction of KVM support but for a long time it was always assumed that TCG had too much global state to make multi-threading viable.
 
@@ -99,17 +99,27 @@ In the end it was a multi-year effort involving contributions from   many differ
 
 Now MTTCG is the default for the majority of the mainline architectures and any new architecture tends to support MTTCG from the start.
 
-### 3.3 TCGv_vec
+### TCGv_vec
 
-When we started working on implementing ARM's [Scalable Vector Extensions for QEMU](https://wiki.qemu.org/Features/ARM/SVE) we realised we were taxing TCG's scalar orientated API. Up until that point most Single Instruction Multiple Data (SIMD) instructions where implemented by manually unrolling into a series of scalar operations. While this worked it was somewhat
-  inefficient, especially if the actual implementation would end up in helper calls anyway (as most floating point operations do). Previous proposals for introducing SIMD TCG ops had been rejected because of the large range of vector sizes would lead to an explosion of TCG ops - one for each vector size.
+When we started working on implementing ARM's [Scalable Vector Extensions for QEMU](https://wiki.qemu.org/Features/ARM/SVE) we realised we were taxing TCG's scalar orientated API. Up until that point most Single Instruction Multiple Data (SIMD) instructions where implemented by manually unrolling into a series of scalar operations. While this worked it was somewhat inefficient, especially if the actual implementation would end up in helper calls anyway (as most floating point operations do). Previous proposals for introducing SIMD TCG ops had been rejected because of the large range of vector sizes would lead to an explosion of TCG ops - one for each vector size.
 
-  In the end SVE's vector size agnostic approach would be an inspiration   for a new API which can encode a vector op on an arbitrarily sized
-  vector. The interface is rich enough that the backend still has the
-  option of using the hosts own vector instructions to generate code
-  while also providing helper based fallbacks for the cases where we
-  cant. There is still a place for target specific helpers but now they
-  can use the TCGv_vec interface to pass pointers to the register file
-  in a consistent way. While originally written to support SVE work
-  other targets have started using the interface for their vector
-  implementations.
+In the end SVE's vector size agnostic approach would be an inspiration   for a new API which can encode a vector op on an arbitrarily sized vector. The interface is rich enough that the backend still has the option of using the hosts own vector instructions to generate code while also providing helper based fallbacks for the cases where we cant. There is still a place for target specific helpers but now they can use the TCGv_vec interface to pass pointers to the register file in a consistent way. While originally written to support SVE work other targets have started using the interface for their vector implementations.
+
+### Inline dynamic jumps (tb lookup)
+
+The translator works by translating a block of instructions at a time.  At the end of the block it can jump to one of two blocks. When these are static addresses that jump will get patched in once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go but it can certainly do the lookup inline and avoid the expensive exit.
+
+### Conclusion
+
+It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [[ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm)] in the upcoming 5.1 release. However   we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture.
+
+### Potential Future Directions
+
+Some forward looking ideas: pre-caching translations for linux-user, more efficient chaining in softmmu, hotblock analysis.
+
+Some future directions on the compiler side.
+
+* Better constant propagation (Posted a while back, you helped me debug)
+* Store-load propagation ("Important" for TCG_vec. We currently store everything back to memory after each insn, and reload for the next insn)
+* Full tb lifetime optimization (This could eliminate the temp vs local temp distinction in tcg, which is a continual source of errors)
+* SSA form (This begins shading on A Step Too Far. While this is a standard technique, and makes all of the above easier, it's also heavyweight and might slow down TCG.)
