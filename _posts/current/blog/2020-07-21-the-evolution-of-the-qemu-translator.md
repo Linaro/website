@@ -27,18 +27,19 @@ tags:
   - ARM Scalable Vector Extensions
   - Single Instruction Multiple Data
   - SIMD
+  - Random Instruction Sequence (generator for) Userspace
 category: Blog
 author: alex.bennee
 ---
 # Introduction
 
-The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as [GCC](https://gcc.gnu.org/) and [LLVM](https://llvm.org/). When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis it can't afford to spend the large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
+The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as [GCC](https://gcc.gnu.org/) and [LLVM](https://llvm.org/). When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis it can't afford to spend large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
 
 ## History
 
-The TCG is actually the second code generator that QEMU has used.   Originally QEMU worked as a "template" translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
+The TCG is actually the second code generator that QEMU has used. Originally QEMU worked as a "template" translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
 
-TCG has its roots as a generic back end for a C compiler. The main   difference is instead of converting an abstract syntax tree from a high level language into micro ops, its input is the decomposed operations of an individual instruction.
+TCG has its roots as a generic back end for a C compiler. The main difference is instead of converting an abstract syntax tree from a high level language into micro ops, its input is the decomposed operations of an individual instruction.
 
 A simplified version might look something like this:
 
@@ -63,7 +64,7 @@ A simplified version might look something like this:
 
 The decode step involves dissecting the various fields of the instruction to work out what registers and immediate values are needed. The operation is synthesised from TCG ops which are the basic units of the code generator. After a simple optimisation pass, these ops are then converted into host instructions and executed.
 
-You can see the process yourself if you turn on the debugging options   in QEMU although be warned it generates a lot of output:
+You can see the process yourself if you turn on the debugging options in QEMU although be warned it generates a lot of output:
 
 ```
 qemu-aarch64 -d in_asm,op,op_opt,out_asm testprog
@@ -77,11 +78,11 @@ While the TCG has been part of QEMU since 2008 it has seen some changes over tim
 
 Originally each guest architecture just supplied a 'gen_intermediate_code' function that dealt with the process of translating a block of guest code into TCG operations. While they all looked fairly similar they also tended to have accumulated their own slight idiosyncrasies. The work to convert to a common translator loop didn't involve any particular bleeding edge technology and was mostly concerned with re-factoring architecture specific parts behind a set of 'TranslatorOps' that would be familiar to anyone who has worked on something like a Linux device driver. The main reason I mention this work is because it opened the way for architecturally independent enhancements to be made functioning of the translator. This includes things like much improved tracing and [TCG plugin](https://qemu.readthedocs.io/en/latest/devel/tcg-plugins.html) instrumentation.
 
-Another recent innovation is the [Decode Tree](https://qemu.readthedocs.io/en/latest/devel/decodetree.html). This started as an experiment with another of QEMU's testing tools known as [RISU](https://git.linaro.org/people/peter.maydell/risu.git/about/) which is used to test the instruction decoder.
+Another recent innovation is the [Decode Tree](https://qemu.readthedocs.io/en/latest/devel/decodetree.html). This started as an experiment with another of QEMU's testing tools known as Random Instruction Sequence (generator for) Userspace [RISU](https://git.linaro.org/people/peter.maydell/risu.git/about/) which is used to test the instruction decoder.
 
 Ideally an instruction set fits into a nice regular and tree like decode pattern. However, reality often gets in the way, especially when ISA designers are trying to squeeze additional functionality into an increasingly crowded opcode space. Eventually you end up with functions like [this](https://git.qemu.org/?p=qemu.git;a=blob;f=target/arm/translate-a64.c;h=73d753f11fbe7878e23cbfaa9df38be4d8b96cbd;hb=HEAD#l14381) which do a series of masked pattern tests in a very particular order to tease out exactly which instruction is being decoded. Needless to say this process is error prone and many bugs have occurred due to mistakes in decoding the opcode.
 
-Decode Tree solves this problem by allowing a simple textual description of the opcode fields and then having a script automatically generate the most efficient decoding of opcode it can.  As a bonus it can also automatically extract the fields from the instruction and pass those to a simplified implementation than can just concentrate on the semantics of the operation.
+Decode Tree solves this problem by allowing a simple textual description of the opcode fields and then having a script automatically generate the most efficient decoding of opcode it can.  As a bonus it can also automatically extract the fields from the instruction and pass those to a simplified implementation that can just concentrate on the semantics of the operation.
 
 ```
 static void trans_add_imm(DisasContext *s, arg_rri *a)
