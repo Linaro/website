@@ -1,11 +1,39 @@
 ---
 layout: post
 title: " Linaro Developer Cloud Kubernetes as a Service"
-description: XYZ
+description: Recently, Linaro Developer Cloud has supported Kubernetes as a
+  Service, and we have finally passed all the conformance tests from CNCF as the
+  Certified Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service
+  makes it easy for you to deploy, manage, and scale Kubernetes clusters to run
+  containerised applications on the Arm64 platform.
 date: 2020-07-24T12:55:00.000Z
 image: /assets/images/content/code_highway_under_2mb.jpg
 tags:
-  - XYZ
+  - Octavia-ingress-controller
+  - K8s-keystone-auth
+  - Magnum
+  - Linaro Developer Cloud Kubernetes
+  - Linaro
+  - Arm
+  - Arm64
+  - Linaro Data Center Group
+  - open-source cloud IAAS
+  - PAAS
+  - OpenStack
+  - Kubernetes
+  - Ceph
+  - Linaro Developer Cloud
+  - Debian
+  - CentOS
+  - OpenStack Powered Cloud
+  - AWS EKS
+  - Azure AKS
+  - Huawei Cloud
+  - CCE
+  - CNCF
+  - Octavia
+  - heat
+  - Cinder-CSI-driver
 category: News
 author: jon.burcham@linaro.org
 ---
@@ -37,7 +65,7 @@ The total architecture for adding Kubernetes is as below. There are changes both
 
 We have leveraged three important OpenStack services:
 
-**Magnum**, which is the provisioning and life cycle management service for Kubernetes.Octavia, which is offering network load balancing service for APPs that will run on the Kubernetes cluster
+**Magnum**, which is the provisioning and life cycle management service for Kubernetes. Octavia, which is offering network load balancing service for APPs that will run on the Kubernetes cluster
 
 **Heat**, which is the orchestrated service for Magnum to configure the cert, network, security group, and provisioning the VM and storage for Kubernetes launching.
 
@@ -59,12 +87,10 @@ For more technical detailed information, we have a session “[Kubernetes as a S
 
 CNCF has the Certified Kubernetes program for different vendors’ Kubernetes service to make sure their service consistency and confirmability. The software conformance test ensures that every vendor’s version of Kubernetes supports the required APIs, as do open source community versions. For organizations using Kubernetes, conformance enables interoperability from one Kubernetes installation to the next. It allows them the flexibility to choose between vendors.
 
-Linaro Developer Cloud Kubernetes service now can offer the Kubernetes version 1.17 with OS Fedora-Coreos-Dev-Arm64. Now, it has passed the CNCF conformance test suites which include more than 280 test cases and was [certified by CNCF](https://landscape.cncf.io/format=card-mode&selected=linaro-developer-cloud-kubernetes-service). We are the first Arm64 open source cloud to pass the CNCF conformance test and get this certification. With this certification, Arm64 open-source platform
+Linaro Developer Cloud Kubernetes service now can offer the Kubernetes version 1.17 with OS Fedora-Coreos-Dev-Arm64. Now, it has passed the CNCF conformance test suites which includes more than 280 test cases and was [certified by CNCF](https://landscape.cncf.io/format=card-mode&selected=linaro-developer-cloud-kubernetes-service). We are the first Arm64 open source cloud to pass the CNCF conformance test and gain this certification. With this certification, Arm64 open-source platform
 
 {% include image.html path="/assets/images/content/certified-kubernetes.png" alt="Certified Kubernetes logo" %}
 
-
-
 ## Ready to try the certified Kubernetes on Arm64
 
-Please come to [Linaro Developer Cloud](http://www.linaro.cloud), click the request access button on the left top. Please leave the info on the next form for requiring the Kubernetes clusters and provide strong intend usage info.
+Please come to [Linaro Developer Cloud](http://www.linaro.cloud), click the request access button on the left top. Please leave the info on the next form for requiring the Kubernetes clusters and provide strong intended usage information.
