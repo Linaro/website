@@ -101,4 +101,4 @@ _Over 300 participants, ranging from kernel hackers to integration engineers to 
 __To find out more, please visit [Connect](https://connect.linaro.org)__
 
 **_Follow Linaro_**
-_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._
+_ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

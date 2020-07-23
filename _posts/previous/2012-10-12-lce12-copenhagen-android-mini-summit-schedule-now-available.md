@@ -47,10 +47,10 @@ Yes, as part of the opening for the day and everyone attending LCE12 can and are
   * [Zach Pfeffer](/about/), [Linaro Android Team](/about/) Tech Lead - Welcome and Overview
 
 
-  * [Christian Bejram](https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort
+  * [Christian Bejram](https://web.archive.org/web/2019*/https://plus.google.com/116862664037516190766/about) - ST-Ericsson's Android Effort
 
 
-  * [Thomas Langås](https://plus.google.com/116279610674119061733/posts) - Technical challenges the Cotton Candy team has faced
+  * [Thomas Langås](https://web.archive.org/web/2019*/https://plus.google.com/116279610674119061733/posts) - Technical challenges the Cotton Candy team has faced
 
 
 
@@ -202,7 +202,7 @@ Yes!  If you haven't registered yet you can do so by clicking [here](https://co
 ## This event looks awesome; however, I can't make it, will these sessions be recorded?
 
 
-Yes, the sessions will be recorded and live streamed via Google + Hangouts on Air via the Linaro on Air youtube channel.  Please add [Linaro OnAir](https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ Circles and or subscribe to the[ Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA/videos?flow=grid&view=0).
+Yes, the sessions will be recorded and live streamed via Google + Hangouts on Air via the Linaro on Air youtube channel.  Please add [Linaro OnAir](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ Circles and or subscribe to the[ Linaro OnAir Youtube Channel](http://www.youtube.com/channel/UCIVqQKxCyQLJS6xvSmfndLA/videos?flow=grid&view=0).
 
 
 

@@ -50,4 +50,4 @@ For those who want more information about how you can get in touch with Andrea a
 
 Andrea also discusses why he is personally excited about LEG, why he enjoys working for Linaro and more.
 
-This interview along with various sessions from the [LCE12-Copenhagen](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) event can be found on the [Linaro On Air youtube channel](http://www.youtube.com/user/LinaroOnAir). You can also find out more about upcoming hangouts by subscribing to the [Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts).
+This interview along with various sessions from the [LCE12-Copenhagen](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/) event can be found on the [Linaro On Air youtube channel](http://www.youtube.com/user/LinaroOnAir). You can also find out more about upcoming hangouts by subscribing to the [Linaro OnAir Google+ Page](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts).

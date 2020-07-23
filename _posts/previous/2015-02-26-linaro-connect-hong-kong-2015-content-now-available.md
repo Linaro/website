@@ -1668,7 +1668,7 @@ Keynote
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://plus.google.com/u/0/events/c0mrg9mhlhc2igncbd1vq1jtvh8)
+[Video](https://web.archive.org/web/2019*/https://plus.google.com/u/0/events/c0mrg9mhlhc2igncbd1vq1jtvh8)
 </td>
 
 <td style="text-align: center;" markdown="1">
@@ -1694,7 +1694,7 @@ Linaro Connect Closing Summary - Joe Bates, Executive VP Member Services, Linaro
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://plus.google.com/u/0/events/c0mrg9mhlhc2igncbd1vq1jtvh8)
+[Video](https://web.archive.org/web/2019*/https://plus.google.com/u/0/events/c0mrg9mhlhc2igncbd1vq1jtvh8)
 </td>
 
 <td style="text-align: center;" markdown="1">

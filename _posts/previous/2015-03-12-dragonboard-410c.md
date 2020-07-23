@@ -31,8 +31,8 @@ In addition to the Quad-core Arm® Cortex®-A53 processor running at up to 1.2 G
 
 {% include image.html path="/assets/images/blog/DragonBoard-002.png" alt="DragonBoard 410c" %}
 
-Follow 96Boards: [Facebook](https://www.facebook.com/96Boards) / [Twitter](https://twitter.com/96Boards) / [GitHub](https://github.com/96boards) / [Google+](https://plus.google.com/106009833460292139774/about)
+Follow 96Boards: [Facebook](https://www.facebook.com/96Boards) / [Twitter](https://twitter.com/96Boards) / [GitHub](https://github.com/96boards) / [Google+](https://web.archive.org/web/2019*/https://plus.google.com/106009833460292139774/about)
 
-Follow Qualcomm: [Facebook](https://www.facebook.com/UKQualcomm?brand_redir=1) / [Twitter](https://twitter.com/qualcomm) / [Youtube](https://www.youtube.com/user/QUALCOMMVlog/videos)  / [Google +](https://plus.google.com/+qualcomm/posts)
+Follow Qualcomm: [Facebook](https://www.facebook.com/UKQualcomm?brand_redir=1) / [Twitter](https://twitter.com/qualcomm) / [Youtube](https://www.youtube.com/user/QUALCOMMVlog/videos)  / [Google +](https://web.archive.org/web/2019*/https://plus.google.com/+qualcomm/posts)
 
-Follow Linaro: [Facebook](https://www.facebook.com/LinaroOrg) / [Twitter](https://twitter.com/linaroorg) / [Youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1) / [Google +](https://plus.google.com/+LinaroOnAir)[/vc_column_text][/vc_column][/vc_row]
+Follow Linaro: [Facebook](https://www.facebook.com/LinaroOrg) / [Twitter](https://twitter.com/linaroorg) / [Youtube](https://www.youtube.com/user/linaroorg?sub_confirmation=1) / [Google +](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir)[/vc_column_text][/vc_column][/vc_row]

@@ -62,4 +62,4 @@ In the next installment I talk about how Linaro continued to evolve, adding memb
 _References_
 
   1. http://article.gmane.org/gmane.linux.ports.arm.omap/55060 (http://article.gmane.org/gmane.linux.ports.arm.omap/55060)
-  2. [https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn](https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn)
+  2. [https://web.archive.org/web/2019*/https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn](https://web.archive.org/web/2019*/https://plus.google.com/+LinusTorvalds/posts/TyGZ8se6hhn)
