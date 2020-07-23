@@ -89,8 +89,10 @@ flow:
                 We have trained many engineers across key areas such as OP-TEE, Energy Aware Scheduler, Arm Trusted Firmware, Power Management and Open Source development to name but a few.
 
                 Contact Linaro Developer Services today to discuss your specific training requirements.
+    - row: custom_include_row
+      source: services/prospectus_registration_form.html
     - row: container_row
-      style: services_form large_type bg-primary text-white
+      style: services_form large_type bg-primary text-dark
       sections:
         - format: custom_include
           source: services/developer_services_form.html
