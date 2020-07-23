@@ -1,9 +1,8 @@
 <div class="col col-12 no-padding membership_form_container">
     <div class="row">
         <div class="col col-12 col-sm-6 form_section">
-            <div id='feedback-error'></div>
-            <div id='feedback-response'></div>
-            <form enctype='multipart/form-data' id="feedback_form" action='https://servicedesk.linaro.org/plugins/servlet/feedback/create' method='post'>
+            <div id='feedback_response'></div>
+            <form id="feedback_form">
                 <input type='hidden' name='form-index' id='form-index' value='1' />
                 <input type='hidden' name='feedback-from-url' id='feedback-from-url' value='' />
                 <input type='hidden' name='feedback-priority' value='10102' />
@@ -11,22 +10,22 @@
                 <input type='hidden' name='feedback-body' value='' />
                 <div class="form-group">
                     <input type="text" id='customfield_10902' name='customfield_10902' class="form-control"
-                        placeholder="First name">
+                        placeholder="First name (required)">
                 </div>
                 <div class="form-group">
                     <input type="text" id='customfield_10903' name='customfield_10903' class="form-control"
-                        placeholder="Last name">
+                        placeholder="Last name (required)">
                 </div>
                 <div class="form-group">
-                    <input type="text" id='feedback-email' name='feedback-email' class="form-control"
-                        placeholder="Email address">
+                    <input type="text" id='feedback_email' name='feedback-email' class="form-control"
+                        placeholder="Email address (required)">
                 </div>
                 <div class="form-group">
                     <input type="text" id='customfield_12401' name='customfield_12401' class="form-control"
-                        placeholder="Company">
+                        placeholder="Company (required)">
                 </div>
                 <div class="form-group">
-                    <p>Which services are you interested in?</p>
+                    <p>Which services are you interested in? (Required)</p>
                     <div class='checkbox d-inline-block'>
                         <input type='checkbox' value='12815' name='customfield_12904' id='customfield_12904-1'
                             class='checkbox'>
@@ -87,8 +86,9 @@
                         placeholder="How did you hear about Linaro?"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-lg btn-default">Submit</button>
+                    <button id="btnSubmit" type="submit" class="btn btn-lg btn-default">Submit</button>
                 </div>
+                <div id='feedback_error'></div>
             </form>
         </div>
         <div class="col col-12 col-sm-6 image_section">
