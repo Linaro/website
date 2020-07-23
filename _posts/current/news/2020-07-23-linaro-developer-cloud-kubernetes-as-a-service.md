@@ -35,7 +35,7 @@ tags:
   - heat
   - Cinder-CSI-driver
 category: News
-author: jon.burcham@linaro.org
+author: alan.bennett
 ---
 # **Linaro Data Center Group (LDCG)**
 
