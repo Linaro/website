@@ -103,7 +103,7 @@ From there the conversation then focused on upstream-to-productization and produ
 
 He concluded with, “I would like to thank the army of people that helped put this together and gave their time to help us define a path to a better Android future on Arm.”
 
-Detailed action plans and summaries for the four 1 hour sessions can be found in the [original Google+ post](https://plus.google.com/u/0/104422661029399872488/posts/ecAFcJQZWaa).
+Detailed action plans and summaries for the four 1 hour sessions can be found in the [original Google+ post](https://web.archive.org/web/2019*/https://plus.google.com/u/0/104422661029399872488/posts/ecAFcJQZWaa).
 
 Additional presentations and videos from LCE12-Copenhagen can be found on the resources page of the Linaro Connect website at: [/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
@@ -111,7 +111,7 @@ Current Linaro Android Builds can be found at: [https://android-build.linaro.org
 
 More information on upcoming Linaro Connect events can be found on the the [Linaro Connect Website](https://connect.linaro.org/).
 
-You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
+You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
 
 ### About:

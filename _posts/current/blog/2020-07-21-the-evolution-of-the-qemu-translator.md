@@ -122,11 +122,7 @@ In the end SVE's vector size agnostic approach would be an inspiration for a new
 
 The translator works by translating a block of instructions at a time.  At the end of the block it can jump to one of two blocks. When these are static addresses, that jump will get patched in, once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However, there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go, but it can certainly do the lookup inline and avoid the expensive exit.
 
-### Conclusion
-
-It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm) in the upcoming 5.1 release. However, we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture.
-
-### Potential Future Directions
+## Potential Future Directions
 
 There is still plenty of scope to improve things, so some of things that are being considered for future improvement include:
 
@@ -150,7 +146,7 @@ The current optimisation pass is relatively simple as most blocks are quite smal
 
 Single Static Assignment (SSA) form is a fairly standard way that compilers use to represent the data flow of a particular set of operations. It is favoured by compilers because it makes analysis easier and optimisations become a matter of transforming a tree of operations. QEMU currently uses a simpler virtual register approach which favours faster code generation. There is a trade-off to be made between fast and optimal code generation that we tend not to worry about with compilers (compare for example a -O0 and -O3 compile). It might be a step too far or it might be the gateway to even faster code. We shall have to experiment ;-)
 
-### Conclusion
+## Conclusion
 
-I hope this article has given you a flavour of the sort of changes that have been made to the core translator over the last few years. There is certainly more to come as we continue to work on improving QEMU every day.
+It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm) in the upcoming 5.1 release. However, we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture. I hope this article has given you a flavour of the sort of changes that have been made to the core translator over the last few years. There is certainly more to come as we continue to work on improving QEMU every day.
 

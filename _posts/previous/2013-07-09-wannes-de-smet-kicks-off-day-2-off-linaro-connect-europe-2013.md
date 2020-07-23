@@ -145,4 +145,4 @@ wordpress_id: 2808
 
 Want to be part of the future of Linux on Arm and you can't make it to Dublin this week be sure to check out our [remote participation option](https://connect.linaro.org/lcu13/).
 
-You can also view the live streams via the [Linaro On Air Google+](https://plus.google.com/u/0/116754366033915823792/posts) and [YouTube](http://www.youtube.com/user/LinaroOnAir) pages.
+You can also view the live streams via the [Linaro On Air Google+](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) and [YouTube](http://www.youtube.com/user/LinaroOnAir) pages.

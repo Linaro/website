@@ -190,9 +190,9 @@ Validation
 </table>
 
 
-Be sure to check back in tomorrow morning to watch two great keynotes live. First up, at 8:50am (PST) will be Neil Trevett, Vice President of Mobile Ecosystems at NVIDIA, who will give a keynote titled ["Open Standards and Open Source Together – How Khronos APIs Accelerate Fast and Cool Applications"](https://connect.linaro.org/resources/sfo15/). You can watch the keynote streamed live here: [https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo](https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo)
+Be sure to check back in tomorrow morning to watch two great keynotes live. First up, at 8:50am (PST) will be Neil Trevett, Vice President of Mobile Ecosystems at NVIDIA, who will give a keynote titled ["Open Standards and Open Source Together – How Khronos APIs Accelerate Fast and Cool Applications"](https://connect.linaro.org/resources/sfo15/). You can watch the keynote streamed live here: [https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo)
 
-The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be John Simmons, Media Platform Architect at Microsoft, who will give a keynote on ["The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications"](https://connect.linaro.org/resources/sfo15/). You can watch this keynote streamed live here: [https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k](https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k)
+The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be John Simmons, Media Platform Architect at Microsoft, who will give a keynote on ["The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications"](https://connect.linaro.org/resources/sfo15/). You can watch this keynote streamed live here: [https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k)
 
 
 Visit [https://connect.linaro.org/sfo15/](https://connect.linaro.org/sfo15/) for updates throughout the week.
