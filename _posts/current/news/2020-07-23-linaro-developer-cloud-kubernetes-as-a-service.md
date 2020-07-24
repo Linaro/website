@@ -89,7 +89,7 @@ CNCF has the Certified Kubernetes program for different vendors’ Kubernetes se
 
 Linaro Developer Cloud Kubernetes service now can offer the Kubernetes version 1.17 with OS Fedora-Coreos-Dev-Arm64. Now, it has passed the CNCF conformance test suites which includes more than 280 test cases and was [certified by CNCF](https://landscape.cncf.io/format=card-mode&selected=linaro-developer-cloud-kubernetes-service). We are the first Arm64 open source cloud to pass the CNCF conformance test and gain this certification. With this certification, Arm64 open-source platform
 
-{% include image.html path="/assets/images/content/certified-kubernetes.png" alt="Certified Kubernetes logo" %}
+{% include image.html path="/assets/images/content/event-banner.jpg" class="certified-kubernetes.png" alt="Certified Kubernetes logo" %}
 
 ## Ready to try the certified Kubernetes on Arm64
 
