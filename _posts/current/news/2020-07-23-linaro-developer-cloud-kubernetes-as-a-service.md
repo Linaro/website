@@ -91,6 +91,8 @@ Linaro Developer Cloud Kubernetes service now can offer the Kubernetes version 1
 
 {% include image.html path="/assets/images/content/event-banner.jpg" class="certified-kubernetes.png" alt="Certified Kubernetes logo" %}
 
+{% include image.html path="/assets/images/content/event-banner.jpg" class="certified-kubernetes.png" alt="Certified Kubernetes logo" %}
+
 ## Ready to try the certified Kubernetes on Arm64
 
 Please come to [Linaro Developer Cloud](http://www.linaro.cloud), click the request access button on the left top. Please leave the info on the next form for requiring the Kubernetes clusters and provide strong intended usage information.
