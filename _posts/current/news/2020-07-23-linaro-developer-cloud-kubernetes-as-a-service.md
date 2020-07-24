@@ -49,7 +49,7 @@ Linaro Developer Cloud is based on OpenStack, Ceph and Kubernetes, leveraging bo
 
 Linaro Developer Cloud has been certified as [OpenStack Powered Cloud](https://www.openstack.org/marketplace/public-clouds/linaro/linaro-developer-cloud) for more than three years, and we are engaged in OpenStack and Ceph upstream to make OpenStack and Ceph easy to run and deploy on Arm64 platforms.
 
-{% include image.html path="/assets/images/content/openstack.png" class="small-inline" alt="Openstack icon" %}
+{% include image.html path="/assets/images/content/openstack.png" class="small" alt="Openstack icon" %}
 
 Recently, Linaro Developer Cloud has supported Kubernetes as a Service, and we have finally passed all the conformance tests from CNCF as the “[Certified Kubernetes - Hosted](https://landscape.cncf.io/format=card-mode&selected=linaro-developer-cloud-kubernetes-service)”, together with a bunch of famous cloud providers, such as AWS EKS, Azure AKS, Huawei Cloud CCE and etc.
 
