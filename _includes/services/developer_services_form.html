@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col col-12 col-sm-6 form_section">
             <div id='feedback_response'></div>
-            <form id="feedback_form">
+            <form id="feedback_form" class="needs-validation" novalidate>
                 <input type='hidden' name='form-index' id='form-index' value='1' />
                 <input type='hidden' name='feedback-from-url' id='feedback-from-url' value='' />
                 <input type='hidden' name='feedback-priority' value='10102' />
@@ -10,19 +10,31 @@
                 <input type='hidden' name='feedback-body' value='' />
                 <div class="form-group">
                     <input type="text" id='customfield_10902' name='customfield_10902' class="form-control"
-                        placeholder="First name (required)">
+                        placeholder="First name (required)" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid first name.
+                        </div>
                 </div>
                 <div class="form-group">
                     <input type="text" id='customfield_10903' name='customfield_10903' class="form-control"
-                        placeholder="Last name (required)">
+                        placeholder="Last name (required)" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid last name.
+                    </div>
                 </div>
                 <div class="form-group">
-                    <input type="text" id='feedback_email' name='feedback-email' class="form-control"
-                        placeholder="Email address (required)">
+                    <input type="email" id='feedback_email' name='feedback-email' class="form-control"
+                        placeholder="Email address (required)" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid email.
+                    </div>
                 </div>
                 <div class="form-group">
                     <input type="text" id='customfield_12401' name='customfield_12401' class="form-control"
-                        placeholder="Company (required)">
+                        placeholder="Company (required)" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid company.
+                        </div>
                 </div>
                 <div class="form-group">
                     <p>Which services are you interested in? (Required)</p>
