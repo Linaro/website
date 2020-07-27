@@ -1,11 +1,26 @@
 ---
 layout: post
-title: Using energy model to stay in TDP budget
+title: Using Energy Model To Stay In TDP Budget
 description: XYZ
-date: 2020-07-28 11:32:29
+date: 2020-07-28T11:32:29.000Z
 image: /assets/images/content/code-background_1.jpg
 tags:
-  - TO DO
+  - SoC power consumption
+  - power management
+  - cpufreq
+  - thermal framework
+  - performance throttling
+  - GPU
+  - thermal daemon
+  - in-kernel governor
+  - Running Average Power Limit
+  - RAPL
+  - powercap
+  - powercap zones
+  - Intelligent Power Allocator
+  - device tree
+  - energy model based powercap
+  - ""
 category: Blog
 author: daniel.lezcano
 ---
@@ -72,3 +87,25 @@ And finally, if the SoC vendor wants to manage a group of devices they can creat
 As of the time of this writing, a first prototype was submitted for comments and review. This first draft puts a simple hierarchy with the CPU's performance domains. It shows how the powercap can be used to act on its performance states without conflicting with the kernel decisions. The performance state selection is done through the frequency QoS which is used by the other kernel subsystems and guarantees the aggregation of the requests in a sane way.
 
 <https://lkml.org/lkml/2020/7/7/1220>
+
+The in-kernel logic has been implemented in userspace to validate the automatic power balancing along the nodes and showed it works accurately even if there are tricky aspects regarding the integer precision, but nothing unsolvable.
+
+The code is available at <https://git.linaro.org/people/daniel.lezcano/powerem.git> (22 July 2020)
+
+The algorithm has been presented at ELC 2020. See [here](https://ossna2020.sched.com/event/c3Wf/ideas-for-finer-grained-control-over-your-heat-budget-amit-kucheria-daniel-lezcano-linaro)
+
+## Future work
+
+Work remains to update the energy model to be generalized to support more devices: for instance the LCD brightness, battery charging mode, memory frequencies, GPU, DSP must be mapped to power numbers via the energy model. Usually the SoC vendors are reluctant to share this information but the algorithm can work if the power numbers are normalized.
+
+Another area of additional work is the power meter where we can genuinely estimate the power consumption given the device usage and its performance state. Obviously, a 50% loaded CPU will consume half of the power than a 100% loaded CPU at the same performance level. That will involve some mathematical and signal tracking.
+
+## Conclusion
+
+The powercap energy model based framework will need a lot of development where some efforts are technically challenging. As we are in the kernel we are restricted in terms of resources and the algorithm for the power allocation and distribution must be efficient and optimized to maintain consistent power consumption regarding the power limits.
+
+It is reasonable to say the in-kernel logic will greatly increase the efficiency of the power distribution as it can synchronously get the performance changes of the devices and adapt the allocated power budget. An operation where the userspace has to constantly poll the temperature to adapt the performances, a laggy implementation prone to more power consumption as it becomes a source of wakeup but an inevitable solution as no framework is available.
+
+The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
+
+## About the Author
