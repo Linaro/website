@@ -34,7 +34,7 @@ tags:
   - Octavia
   - heat
   - Cinder-CSI-driver
-category: News
+category: Blog
 author: kevin.zhao@linaro.org
 ---
 # **Linaro Data Center Group (LDCG)**
