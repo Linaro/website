@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Using Energy Model To Stay In TDP Budget
-description: XYZ
+description: "An ever-increasing number of embedded devices need fine grain
+  control on their performance in order to limit the power consumption. There
+  are three primary reasons for this: to increase the battery life, to protect
+  the components and to control the temperature. In this intriguing article,
+  Daniel looks into the power consumption complexities and the challenges this
+  creates."
 date: 2020-07-28T11:32:29.000Z
 image: /assets/images/content/code-background_1.jpg
 tags:
@@ -24,6 +29,16 @@ tags:
 category: Blog
 author: daniel.lezcano
 ---
+## [About the Author](https://www.linkedin.com/in/daniel-lezcano-8481435a/)
+
+Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
+
+He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He is the author and maintainer of the Linux Container (LXC).
+
+In 2012, he joined Linaro to work in the power management team. Deeply involved in the power management improvements for the different members of Linaro, he continues to contribute and maintain some parts of the Linux kernel in the power management area.
+
+Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers and the thermal framework.
+
 # Introduction
 
 An ever-increasing number of embedded devices need fine grain control on their performance in order to limit the power consumption. There are three primary reasons for this: to increase the battery life, to protect the components and to control the temperature.
@@ -107,16 +122,6 @@ The powercap energy model based framework will need a lot of development where s
 It is reasonable to say the in-kernel logic will greatly increase the efficiency of the power distribution as it can synchronously get the performance changes of the devices and adapt the allocated power budget. An operation where the userspace has to constantly poll the temperature to adapt the performances, a laggy implementation prone to more power consumption as it becomes a source of wakeup but an inevitable solution as no framework is available.
 
 The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
-
-## About the Author
-
-Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
-
-He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He is the author and maintainer of the Linux Container (LXC).
-
-In 2012, he joined Linaro to work in the power management team. Deeply involved in the power management improvements for the different members of Linaro, he continues to contribute and maintain some parts of the Linux kernel in the power management area.
-
-Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers and the thermal framework.
 
 ## [About the Kernel Working Group](https://www.linaro.org/engineering/core/kernel/)
 
