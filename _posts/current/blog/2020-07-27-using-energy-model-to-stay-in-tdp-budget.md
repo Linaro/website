@@ -109,3 +109,19 @@ It is reasonable to say the in-kernel logic will greatly increase the efficiency
 The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
 
 ## About the Author
+
+Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
+
+He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He is the author and maintainer of the Linux Container (LXC).
+
+In 2012, he joined Linaro to work in the power management team. Deeply involved in the power management improvements for the different members of Linaro, he continues to contribute and maintain some parts of the Linux kernel in the power management area.
+
+Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers and the thermal framework.
+
+## [About the Kernel Working Group](https://www.linaro.org/engineering/core/kernel/)
+
+The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
+
+## About Linaro
+
+Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at<https://www.linaro.org/contact/>.
