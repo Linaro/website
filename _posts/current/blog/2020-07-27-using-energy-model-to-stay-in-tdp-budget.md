@@ -7,7 +7,7 @@ description: "An ever-increasing number of embedded devices need fine grain
   the components and to control the temperature. In this intriguing article,
   Daniel looks into the power consumption complexities and the challenges this
   creates."
-date: 2020-07-28T11:32:29.000Z
+date: 2020-07-29 10:41:16
 image: /assets/images/content/code-background_1.jpg
 tags:
   - SoC power consumption
