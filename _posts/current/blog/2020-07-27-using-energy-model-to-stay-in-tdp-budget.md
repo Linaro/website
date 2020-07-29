@@ -91,15 +91,15 @@ The hierarchy of the constraints is represented by a tree via the sysfs filesyst
 
 The powercap energy model can be under full userspace control where all the devices are power limited manually and individually by the userspace or, alternatively, the in-kernel logic can balance the power along the children nodes if there is free power remaining from devices with a power usage lesser than the limit. A mix of both is also possible, by setting power limits at different levels.
 
-As per choice, if an SoC vendor wants to manage individually the power of the devices on its system without having the kernel being involved in the power decisions, they can create a flat hierarchy where all nodes are leaves.
+As per choice, if a SoC vendor wants to manage individually the power of the devices on its system without having the kernel being involved in the power decisions, they can create a flat hierarchy where all nodes are leaves.
 
 If the SoC vendor wants to let the kernel manage all the power, it can set a power limit constraint at the root of the hierarchy.
 
-And finally, if the SoC vendor wants to manage a group of devices they can create subtrees where the power limit constraints at the intermediate node are set and let the kernel manage the power of the children nodes from there.
+Finally, if the SoC vendor wants to manage a group of devices they can create subtrees where the power limit constraints at the intermediate node are set and let the kernel manage the power of the children nodes from there.
 
 ## Status
 
-As of the time of this writing, a first prototype was submitted for comments and review. This first draft puts a simple hierarchy with the CPU's performance domains. It shows how the powercap can be used to act on its performance states without conflicting with the kernel decisions. The performance state selection is done through the frequency QoS which is used by the other kernel subsystems and guarantees the aggregation of the requests in a sane way.
+At the time of this writing, a first prototype was submitted for comments and review. This first draft puts a simple hierarchy with the CPU's performance domains. It shows how the powercap can be used to act on its performance states without conflicting with the kernel decisions. The performance state selection is done through the frequency QoS which is used by the other kernel subsystems and guarantees the aggregation of the requests in a sane way.
 
 <https://lkml.org/lkml/2020/7/7/1220>
 
@@ -129,4 +129,4 @@ The Kernel Working Group’s (KWG) primary focus is to be an active contributor 
 
 ## About Linaro
 
-Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at<https://www.linaro.org/contact/>.
+Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at <https://www.linaro.org/contact/>.
