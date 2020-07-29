@@ -7,7 +7,7 @@ description: "An ever-increasing number of embedded devices need fine grain
   the components and to control the temperature. In this intriguing article,
   Daniel looks into the power consumption complexities and the challenges this
   creates."
-date: 2020-07-29 10:41:16
+date: 2020-07-29T10:41:16.000Z
 image: /assets/images/content/code-background_1.jpg
 tags:
   - SoC power consumption
@@ -33,7 +33,7 @@ author: daniel.lezcano
 
 Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
 
-He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He is the author and maintainer of the Linux Container (LXC).
+He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He was the author and maintainer of the Linux Container (LXC).
 
 In 2012, he joined Linaro to work in the power management team. Deeply involved in the power management improvements for the different members of Linaro, he continues to contribute and maintain some parts of the Linux kernel in the power management area.
 
