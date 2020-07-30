@@ -73,7 +73,7 @@ In response to the lack of thermal communication between the kernel and the user
 
 [Netlink](https://en.wikipedia.org/wiki/Netlink) is a socket-based protocol used for communication between the Linux kernel and userspace. It additionally supports kernel to kernel communication as well as processes to processes.
 
-WIth netlink being a socket-based protocol, we get the benefit of the socket framework, so using the well documented socket option allows the userspace to set up the connection to the kernel as needed.
+With netlink being a socket-based protocol, we get the benefit of the socket framework, so using the well documented socket option allows the userspace to set up the connection to the kernel as needed.
 
 Another interesting aspect of netlink is its ability to create a communication bus with a multicast channel the processes can subscribe to. Consequently, the notifications can be delivered to multiple processes at the same time.
 
