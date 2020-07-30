@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Thermal Notifications With Netlink
-description: TBC
-date: 2020-07-30 12:19:31
+description: This blog introduces the thermal framework design and shows where
+  the notification takes place to allow the userspace to be aware of the overall
+  thermal profile of the system. In response to the lack of thermal
+  communication between the kernel and the userspace, a solution based on the
+  netlink has been implemented for Linux v5.9.
+date: 2020-07-30T12:19:31.000Z
 image: /assets/images/content/electricity-1288717_1920-1-.jpg
 tags:
   - thermal framework
@@ -29,13 +33,13 @@ This blog introduces the thermal framework design and shows where the notificati
 
 The framework provides a level of abstraction where all the actors are clearly identified:
 
-* The thermal zone is the abstraction where the hardware sensor implementation provides the backend driver to return the temperature via unified callbacks
-* The cooling device is the abstraction of the device in charge of reducing the temperature. It could be a passive cooling device by reducing the performance of the monitored device like changing the operating point of a CPU, or an active cooling device like a fan. The former does not need extra energy to cool down, while the latter does
-* The thermal governor is the logic which acts on the cooling device to mitigate the temperature
+* The thermal zone is the abstraction where the hardware sensor implementation provides the backend driver to return the temperature via unified callbacks.
+* The cooling device is the abstraction of the device in charge of reducing the temperature. It could be a passive cooling device by reducing the performance of the monitored device like changing the operating point of a CPU, or an active cooling device like a fan. The former does not need extra energy to cool down, while the latter does.
+* The thermal governor is the logic which acts on the cooling device to mitigate the temperature.
 
 The way a thermal zone is monitored will depend on the sensor capabilities:
 
-* Some sensors can only give the temperature when requested, in this case the thermal zone temperature will be monitored by a periodic timer. That means the idle system will be wake up to check the temperature even if there is nothing to do
+* Some sensors can only give the temperature when requested, in this case the thermal zone temperature will be monitored by a periodic timer. That means the idle system will be wake up to check the temperature even if there is nothing to do.
 * Some more modern sensors can be programmed to send an interrupt when a specific threshold is reached. In this case, the system can stay fully idle, no wake up is necessary. Please note that the polling mode also introduces a latency in the temperature threshold detection; statistically speaking it is the half of the timer period. For instance, for a one second polling time, the average latency for detection will be 500ms, a duration that is far too large for modern boards which can experience thermal variance at a rate of up to 0.5°C / ms. In this case, the interrupt mode is the guarantee of a synchronous action via the interrupt handling when a temperature threshold is reached.
 
 The following figure illustrates the different components of the thermal framework and how they interact with each other on a big.LITTLE system.
@@ -48,12 +52,12 @@ The SoC vendors must define what the safe temperature ranges are for a component
 
 Let’s summarize the dynamic of the thermal framework on modern hardware with an example:
 
-1. A compute intensive application runs and causes a constant temperature increase
-2. The temperature reaches the PASSIVE trip point and an interrupt is fired to the thermal zone
+1. A compute intensive application runs and causes a constant temperature increase.
+2. The temperature reaches the PASSIVE trip point and an interrupt is fired to the thermal zone.
 3. The thermal zone reads the temperature and finds out what is the corresponding trip point. If it is an ACTIVE or PASSIVE trip point, then the governor logic is invoked to set a state to the cooling device associated with the thermal zone (the higher the state, the greater the cooling effect). If it is a CRITICAL trip point, the system is shut down.
 4. If the trend of the temperature is dropping, then the governor will decrease the cooling effect, if it is raising, then the cooling effect is increased.
-5. The application ends, no more hardware intensive usage
-6. The temperature drops back down below the PASSIVE trip point and the governor stops the mitigation
+5. The application ends, no more hardware intensive usage.
+6. The temperature drops back down below the PASSIVE trip point and the governor stops the mitigation.
 
 The effect on mobile devices can be observed with gaming where we can feel how hot the device is and see the game showing unexpected latencies.
 
@@ -111,4 +115,8 @@ Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers
 
 ## About Linaro
 
-Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync atlinaro.org/contact/
+Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at [linaro.org/contact](https://www.linaro.org/contact/)
+
+## [About the Kernel Working Group](https://www.linaro.org/engineering/core/kernel/)
+
+The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
