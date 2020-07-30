@@ -1,7 +1,7 @@
 ---
 name: Daniel Lezcano
-username: daniel.lezcano
 first_name: Daniel
 last_name: Lezcano
-image: /assets/images/avatar-placeholder.jpg
+username: daniel.lezcano
+image: /assets/images/content/daniel-lezcano.jpg
 ---
