@@ -25,11 +25,14 @@ feedback_form.onsubmit = (e) => {
       }
     });
   if (checked_count === 0) {
+    $(".checkbox_group").addClass("invalid");
     message = message + "You must select at least one service of interest.<br>";
+  } else {
+    $(".checkbox_group").removeClass("invalid");
   }
   if (message !== "") {
     $("#feedback_form").addClass("was-validated");
-    feedback_error.innerHTML = `<p>${message}</p>`;
+    // feedback_error.innerHTML = `<p>${message}</p>`;
   } else {
     feedback_error.innerHTML = "";
     // Copy some field values over to new names to keep the feedback
