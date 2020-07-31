@@ -67,7 +67,6 @@ items:
     url: https://rdkcentral.com/
   - name: Widevine
     image: /assets/images/content/widevine.png
-    url: https://www.widevine.com/
   - name: OpenDataPlane
     image: /assets/images/projects/odp.png
     url: https://opendataplane.org
