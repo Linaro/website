@@ -51,7 +51,7 @@ The complete schedule for LCE 12-Copenhagen can be found on the Linaro Connect w
 
 Click on the day of the week you are interested in about you will see the schedule for that day.  For example click [here](https://connect.linaro.org/resources/#schedule) and you can see the full schedule by track for Monday 29 October 2012.
 
-If a session is listed in one of the following rooms then it will be broadcast live during the event and will also be recorded and accessible via the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792/posts).
+If a session is listed in one of the following rooms then it will be broadcast live during the event and will also be recorded and accessible via the [Linaro onAir Youtube channel](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts).
 
   * Auditorium BC12
 
@@ -75,10 +75,10 @@ If a session is listed in one of the following rooms then it will be broadcast l
 
 In order to get the most out of your remote participation experience you'll need to do the following:
 
-  * add Linaro onAir to your Google+ circles- [https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)
+  * add Linaro onAir to your Google+ circles- [https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts)
 
 
-  * bookmark the YouTube Linaro onAir channel - [https://plus.google.com/u/0/116754366033915823792](https://plus.google.com/u/0/116754366033915823792)
+  * bookmark the YouTube Linaro onAir channel - [https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792)
 
 
   * join the following IRC channels on freenode once LCE12-Copenhagen begin:
@@ -107,7 +107,7 @@ You can join these channels using your favorite IRC client or if you prefer you 
 ## Participation
 
 
-After you have added  the [Linaro onAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts) to your Google
-+ circles or bookmarked the [Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792),  joined the [LCE IRC channels](http://webchat.freenode.net/?channels=lce-bc12%2Clce-bv2%2Clce-bv3%2C%20%23lce-bc16%2C%20%23lce-bc17%2Clce-bc18&uio=OT10cnVlJjEwPXRydWUmMTE9MjM218)) and figured out what [sessions you would like to attend](https://connect.linaro.org/resources/#schedule) all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCE 12 - Copenhagen schedule.
+After you have added  the [Linaro onAir Google+ Page](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) to your Google
++ circles or bookmarked the [Linaro onAir Youtube channel](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792),  joined the [LCE IRC channels](http://webchat.freenode.net/?channels=lce-bc12%2Clce-bv2%2Clce-bv3%2C%20%23lce-bc16%2C%20%23lce-bc17%2Clce-bc18&uio=OT10cnVlJjEwPXRydWUmMTE9MjM218)) and figured out what [sessions you would like to attend](https://connect.linaro.org/resources/#schedule) all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCE 12 - Copenhagen schedule.
 
 Thank you in advance for participating in LCE 12 - Copenhagen through remote participation. If you have any questions, comments, or feedback  about remote participation please let us know by emailing us at:  [connect@linaro.org](mailto:connect@linaro.org).

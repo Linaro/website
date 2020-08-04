@@ -157,7 +157,7 @@ More information on the upcoming Linaro Connect event ([Linaro Connect Asia (LCA
 ## Staying Connected
 
 
-You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
+You can also stay in touch with what is happening in around Linaro by following us on [Twitter](https://twitter.com/LinaroOrg), [Google+](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir) and [Facebook](https://www.facebook.com/LinaroOrg).
 
 
 ### About:

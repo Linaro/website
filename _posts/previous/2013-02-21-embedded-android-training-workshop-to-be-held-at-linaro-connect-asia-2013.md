@@ -17,7 +17,7 @@ title: Embedded Android Training Workshop to be Held at Linaro Connect Asia 2013
 wordpress_id: 2414
 ---
 
-{% include image.html path="/assets/images/blog/Karim_Yaghmour.jpg" alt="Karim Yahhmour" url="https://plus.google.com/108468544076975482998/posts" class="small-inline right"%}
+{% include image.html path="/assets/images/blog/Karim_Yaghmour.jpg" alt="Karim Yahhmour" url="https://web.archive.org/web/2019*/https://plus.google.com/108468544076975482998/posts" class="small-inline right"%}
 
 Karim Yaghmour, CEO, [Opersys Inc](http://www.opersys.com/)., will be leading a 4-part Embedded Android Training Workshop during the upcoming [Linaro Connect Asia (LCA-13)](https://connect.linaro.org) in Hong Hong.
 
@@ -55,10 +55,10 @@ The workshop will be live streamed via Google+ Hangouts on Air.  Instructions f
 For the best remote participation experience you’ll need to do the following:
 
 
-  * Add Linaro onAir to your Google+ circles-[ https://plus.google.com/u/0/116754366033915823792/posts](https://plus.google.com/u/0/116754366033915823792/posts)
+  * Add Linaro onAir to your Google+ circles-[ https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts)
 
 
-  * Bookmark the YouTube Linaro onAir channel –[ https://plus.google.com/u/0/116754366033915823792](https://plus.google.com/u/0/116754366033915823792)
+  * Bookmark the YouTube Linaro onAir channel –[ https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792)
 
 
   * Join the IRC channel for the named room (TBC) on freenode once LCA13 begins.
@@ -67,7 +67,7 @@ For the best remote participation experience you’ll need to do the following:
   * You can join these channels using your IRC client or you can use webchat.
 
 
-After you have added the[ Linaro onAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ circles or bookmarked the[ Linaro onAir Youtube channel](https://plus.google.com/u/0/116754366033915823792) and figured out what sessions you would like to attend all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCA-13 schedule.
+After you have added the[ Linaro onAir Google+ Page](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ circles or bookmarked the[ Linaro onAir Youtube channel](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792) and figured out what sessions you would like to attend all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCA-13 schedule.
 
 If you have any questions, comments, or feedback about remote participation please let us know by emailing us at: [connect@linaro.org](mailto:connect@linaro.org).
 

@@ -266,4 +266,4 @@ Below are some scenes from the this week's evening social activities:
 {% include image.html path="/assets/images/blog/12940899483_8f0455ebfb.jpg" alt="12940899483_8f0455ebfb" %}
 {% include image.html path="/assets/images/blog/12940769495_fdacae9f40.jpg" alt="12940769495_fdacae9f40" %}
 
-As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://plus.google.com/u/0/116754366033915823792/posts) or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts. There will be links to the live stream in each session descriptions. [For more information on Remote Participation]() please visit the Linaro Connect website.
+As always if you are unable to attend you can participate remotely and by watching sessions via the [Google +Linaro On Air](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) or [YouTube](http://www.youtube.com/user/LinaroOnAir) accounts. There will be links to the live stream in each session descriptions. [For more information on Remote Participation]() please visit the Linaro Connect website.

@@ -24,7 +24,7 @@ Whether you are an individual or an employee of a organization it is easy to [ge
 
 You can also find out about how Linaro works live and in-person at our [Linaro Connect events](https://connect.linaro.org/). You may also want to take a look at our [website](/), [wiki](https://wiki-archive.linaro.org/), [launchpad](https://launchpad.net/linaro), subscribe to the various [mailing lists](/contact/mailing-list/) or join our [IRC channels](https://wiki-archive.linaro.org/GettingInvolved/IRC).
 
-Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://plus.google.com/+LinaroOnAir) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
+Staying connected between Linaro events and development cycles is easy as well;  just follow us on[ Twitter](https://twitter.com/LinaroOrg), add us to your circles on[ Google+](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir) or like us on [ Facebook](https://www.facebook.com/LinaroOrg).
 
 Below is a list of the various Linaro teams, what their primary goals are and how to find out more about getting involved with each of them.
 

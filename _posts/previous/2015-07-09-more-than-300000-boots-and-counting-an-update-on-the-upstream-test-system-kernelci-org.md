@@ -119,9 +119,9 @@ When the 96boards arrive, both physically and as support also arrives in the ups
 
 **What the community is saying**
 
-  * [https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM](https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM)
-  * [https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t](https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t)
-  * AT91 family of processors join the group of multi-zImage platforms [https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW](https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW)
+  * [https://web.archive.org/web/2019*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM](https://web.archive.org/web/2019*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM)
+  * [https://web.archive.org/web/2019*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t](https://web.archive.org/web/2019*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t)
+  * AT91 family of processors join the group of multi-zImage platforms [https://web.archive.org/web/2019*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW](https://web.archive.org/web/2019*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW)
   * Discussed as a resource in Tim Bird’s State of Embedded Linux for April 2015 [http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf](http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf)
 
 **Helpful Links**

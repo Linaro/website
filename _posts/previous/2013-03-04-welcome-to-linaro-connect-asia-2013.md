@@ -21,24 +21,24 @@ Sessions you can look forward to today include:
 
 **Time:** Session  - Location - IRC Channel (Webchat link) (Etherpad link) (Google Event Listing)
 
-**08:30:** [Opening Keynote (George Grey)](http://lca-13.zerista.com/event/member/72344) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
+**08:30:** [Opening Keynote (George Grey)](http://lca-13.zerista.com/event/member/72344) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
-**09:00:** [Jon Corbet, LWN - Keynote](http://lca-13.zerista.com/event/member/72345) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
+**09:00:** [Jon Corbet, LWN - Keynote](http://lca-13.zerista.com/event/member/72345) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
-**09:30:** [Connect Survival Guide](http://lca-13.zerista.com/event/member/72346) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
+**09:30:** [Connect Survival Guide](http://lca-13.zerista.com/event/member/72346) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
-**10:00:** [big.LITTLE MP updates ](http://lca-13.zerista.com/event/member/72676)- Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/u/1/events/ck5h4thlnqn7h8u38j6e8mcdtq4))
-**10:00: **[Android Internals (Embedded Android Training)](http://lca-13.zerista.com/event/member/72385) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://plus.google.com/u/1/events/cblrv1muadnu5bphg8j6e0oaf7s))
-**10:00:** [GCC Performance](http://lca-13.zerista.com/event/member/72376) - Grand Ballroom B - #connect-ballroom-b (webchat link) ([Google+ Event Listing](https://plus.google.com/u/1/events/c7co8acs6imk71bkth9108dprrg))
+**10:00:** [big.LITTLE MP updates ](http://lca-13.zerista.com/event/member/72676)- Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/ck5h4thlnqn7h8u38j6e8mcdtq4))
+**10:00: **[Android Internals (Embedded Android Training)](http://lca-13.zerista.com/event/member/72385) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cblrv1muadnu5bphg8j6e0oaf7s))
+**10:00:** [GCC Performance](http://lca-13.zerista.com/event/member/72376) - Grand Ballroom B - #connect-ballroom-b (webchat link) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c7co8acs6imk71bkth9108dprrg))
 
-**11:00:** [Introducing XEN on Arm](http://lca-13.zerista.com/event/member/72664) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c1r7dmsupfrccj4h7ti4l54nm4s))
+**11:00:** [Introducing XEN on Arm](http://lca-13.zerista.com/event/member/72664) - Grand Ballroom B - #connect-ballroom-b ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c1r7dmsupfrccj4h7ti4l54nm4s))
 **11:00:** [Introduction to Linaro (New Assignees/Employees)](http://lca-13.zerista.com/event/member/72400) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) (Etherpad) (Google+ Event Listing)
 
-**12:00:** [Low Level Virtual Machine (LLVM) Update](http://lca-13.zerista.com/event/member/72374) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link)](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://plus.google.com/u/1/events/co73kh9mgpad3mpnmk15nq65bac))
-**12:00:** [CI/LAVA Component and Feature Review ](http://lca-13.zerista.com/event/member/72488)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
-**12:00:** [Standardizing power management firmware interfaces via PSCI and FDT](http://lca-13.zerista.com/event/member/72361) - Grand Ballroom B - #connect-ballroom-b ([webchat link) ](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
+**12:00:** [Low Level Virtual Machine (LLVM) Update](http://lca-13.zerista.com/event/member/72374) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link)](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/co73kh9mgpad3mpnmk15nq65bac))
+**12:00:** [CI/LAVA Component and Feature Review ](http://lca-13.zerista.com/event/member/72488)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
+**12:00:** [Standardizing power management firmware interfaces via PSCI and FDT](http://lca-13.zerista.com/event/member/72361) - Grand Ballroom B - #connect-ballroom-b ([webchat link) ](http://bit.ly/ZEmR2C)([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c8alseb3ft4rarlfmc6oum8svb0))
 
-**15:00:** [Technical Overview of big.LITTLE Switcher ](http://lca-13.zerista.com/event/member/72398)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx), ([Google+ Event Listing](https://plus.google.com/u/1/events/clplv4nq0la3q0eoscbqjk50t1g))
+**15:00:** [Technical Overview of big.LITTLE Switcher ](http://lca-13.zerista.com/event/member/72398)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx), ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/clplv4nq0la3q0eoscbqjk50t1g))
 
 
 ## Staying Connected
@@ -54,5 +54,5 @@ The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Conne
 To stay up on event happenings with
 [Twitter](https://twitter.com/LinaroOrg),, [Facebook](https://www.facebook.com/LinaroOrg) and [the Linaro Blog](/blog)
 To follow the daily live steam use
-[Linaro OnAir Google+ Page](https://plus.google.com/u/0/116754366033915823792/posts)
+[Linaro OnAir Google+ Page](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts)
 [Linaro OnAir Youtube Channel](http://www.youtube.com/user/LinaroOnAir)
