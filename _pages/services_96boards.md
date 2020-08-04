@@ -15,13 +15,15 @@ image:
 flow:
     - row: main_content_row
       style: text_block
+    - row: custom_include_row
+      source: services/prospectus_registration_form.html
     - row: container_row
-      style: services_form large_type bg-primary text-white
+      style: services_form large_type bg-primary text-dark
       sections:
         - format: title
           title_content:
             size: h2
-            style: text-white
+            style: text-dark
             text: To find out more about Developer Services please complete this form
         - format: custom_include
           source: services/developer_services_form.html
