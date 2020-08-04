@@ -233,6 +233,7 @@ readme_index:
 # -------- jekyll_picture_tag --------
 picture:
   nomarkdown: false
+  suppress_warnings: true
   source: ""
   output: "assets/images"
   relative_url: true
