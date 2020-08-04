@@ -8,6 +8,11 @@
     }
 }
 #wrapper {
+    #feedback_response {
+        div {
+            font-size: 18px !important;
+        }
+    }
     .form-group.checkbox_group.invalid {
         border: 1px solid red;
         border-radius: 10px;
