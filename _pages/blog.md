@@ -10,9 +10,8 @@ flow:
           source: blog/post_search.html
           payload:
               name: url
-              data: /assets/json/posts.json
+              search_label: LinaroBlog
               category: Blog
-          # category: News
         - format: custom_include
           source: blog/display_latest_posts.html
           category: Blog
