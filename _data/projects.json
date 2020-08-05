@@ -135,8 +135,8 @@
             "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
             "Plan Of Record": "",
             "Project Homepage": "",
-            "description": "High Performance Computing<br><br>Drive the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development. Leverage Arm hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
-            "title": "HPC-SIG"
+            "description": "High Performance Computing & Artificial Intelligence<br><br>Drive the adoption of ARM in HPC through standardisation, interoperability, orchestration and use case development. Leverage ARM-based hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
+            "title": "HPC-AI"
         },
         "Project Ownership": {
             "Governing Entity": "LDCG SC",
