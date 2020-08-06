@@ -417,7 +417,7 @@ $(document).ready(function () {
               console.log("Results:", responseData.results);
               console.log("Response:", responseData.response);
               var pageElements = [];
-              pageElements += `<li class="text-center">Found ${responseData.response.record_count} results in ${responseData.response.exec_time} seconds</li>`;
+              pageElements += `<li class="text-center">Found ${responseData.response.record_count} results</li>`;
               for (var i = 0; i < responseData.results.length; i++) {
                 var formattedDate = new Date(
                   responseData.results[i].last_modified
