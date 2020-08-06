@@ -24,7 +24,7 @@ tags:
 ## Introduction
 
 
-Kprobes is a kernel feature that allows instrumenting the kernel by setting arbitrary breakpoints that call out to developer-supplied routines before and after the breakpointed instruction is executed (or simulated). See the kprobes documentation[[1]](https://github.com/torvalds/linux/blob/master/Documentation/kprobes.txt) for more information. Basic kprobes functionality is selected with CONFIG_KPROBES. Kprobes support was added to mainline for arm64 in the v4.8 release.
+Kprobes is a kernel feature that allows instrumenting the kernel by setting arbitrary breakpoints that call out to developer-supplied routines before and after the breakpointed instruction is executed (or simulated). See the kprobes documentation[[1]](https://github.com/torvalds/linux/blob/master/Documentation/features/debug/kprobes/arch-support.txt) for more information. Basic kprobes functionality is selected with CONFIG_KPROBES. Kprobes support was added to mainline for arm64 in the v4.8 release.
 
 In this article we describe the use of kprobes on arm64 using the debugfs event tracing interfaces from the command line to collect dynamic trace events. This feature has been available for some time on several architectures (including arm32), and is now available on arm64. The feature allows use of kprobes without having to write any code.
 
@@ -371,7 +371,7 @@ Linux on Armv8 now is on parity with other architectures supporting the kprobes 
 
 Bibliography
 
-[[1]](https://github.com/torvalds/linux/blob/master/Documentation/kprobes.txt) Jim Keniston, Prasanna S. Panchamukhi, Masami Hiramatsu. “Kernel Probes (Kprobes).” _GitHub_. GitHub, Inc., 15 Aug. 2016. Web. 13 Dec. 2016.
+[[1]](https://github.com/torvalds/linux/blob/master/Documentation/features/debug/kprobes/arch-support.txt) Jim Keniston, Prasanna S. Panchamukhi, Masami Hiramatsu. “Kernel Probes (Kprobes).” _GitHub_. GitHub, Inc., 15 Aug. 2016. Web. 13 Dec. 2016.
 
 [[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.rst) Ts’o, Theodore, Li Zefan, and Tom Zanussi. “Event Tracing.” _GitHub_. GitHub, Inc., 3 Mar. 2016. Web. 13 Dec. 2016.
 
