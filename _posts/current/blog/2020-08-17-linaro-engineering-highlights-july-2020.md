@@ -5,7 +5,7 @@ description: The July 2020 Engineering Highlights feature the introduction of
   TuxMake, articles on a new certification for the Linaro Developer Cloud and
   the evolution of QEMU.
 date: 2020-08-17T10:55:50.000Z
-image: /assets/images/content/abstract1.jpg
+image: /assets/images/content/abstract-small.jpg
 tags:
   - Linaro
   - Engineering Highlights
