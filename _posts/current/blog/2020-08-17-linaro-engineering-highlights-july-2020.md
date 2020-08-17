@@ -4,7 +4,7 @@ title: Linaro Engineering Highlights - July 2020
 description: The July 2020 Engineering Highlights feature the introduction of
   TuxMake, articles on a new certification for the Linaro Developer Cloud and
   the evolution of QEMU.
-date: 2020-08-17 10:55:50
+date: 2020-08-17T10:55:50.000Z
 image: /assets/images/content/abstract1.jpg
 tags:
   - Linaro
@@ -75,6 +75,8 @@ By Alex Bennée, Senior Engineer, Toolchain Working Group
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %} The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as GCC and LLVM. When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis, it can’t afford to spend large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
 
-History The TCG is actually the second code generator that QEMU has used. Originally QEMU worked as a “template” translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
+**History** 
+
+The TCG is actually the second code generator that QEMU has used. Originally QEMU worked as a “template” translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
 
 Read the rest of the article [here](https://www.linaro.org/blog/the-evolution-of-the-qemu-translator/).
