@@ -7,16 +7,17 @@ slug: st-ericsson-and-linaro-working-towards-the-first-release
 title: ST-Ericsson and Linaro, working towards the first release
 wordpress_id: 4106
 categories:
-- Blog
+  - Blog
 tags:
-- Industry
-- '10.11'
-- Arm TechCon
-- mobile
-- release
-- smartphone
-- ST-Ericsson
+  - Industry
+  - "10.11"
+  - Arm TechCon
+  - mobile
+  - release
+  - smartphone
+  - ST-Ericsson
 ---
+
 Open source has become an important driving force in the smartphone industry and a particularly key area of focus for ST-Ericsson. We believe that open innovation is critical to face the increasing demand on features and the broadening scope of the mobile market.  From hardware performance to software platforms and enabling the hundreds of thousands of apps & services running on top of it, the complexity of today's devices has raised incredibly.
 
 Most Open Source initiatives in mobile so far have had been focused on the SW development framework such as Android, MeeGo or the Symbian foundation. However 5 months ago the launch of Linaro was announced, together with Arm and other key partners of the wireless semiconductor industry, to focus on optimization of lower platform layers (kernel, hardware adaptation) and tools.
@@ -45,4 +46,4 @@ It is busy days around the Linaro initiative nowadays. At the Milan meeting a co
 
 Linaro engineers and other contributors met in Orlando at the Ubuntu developer summit and I am sure many will meet again at the TechCon conference on November 10th and 11th. Don't miss demonstrations there from us and other semiconductor partners as well as updates from the Linaro organization.
 
-We are looking forward to continue working with the engineering teams in this very exciting project  and look forward to meet you and discuss more about Linaro and its benefits.  [www.stericsson.com](http://www.stericsson.com)
+We are looking forward to continue working with the engineering teams in this very exciting project  and look forward to meet you and discuss more about Linaro and its benefits.  [www.stericsson.com](https://www.ericsson.com/en)
