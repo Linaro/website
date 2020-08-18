@@ -1,21 +1,23 @@
 ---
 author: linaro
 categories:
-- Blog
+  - Blog
 date: 2011-12-21 22:39:19
-description: 'Linaro announced the availability of builds of Android Ice Cream Sandwich
-  (ICS) supporting accelerated graphics on two of its member''s low cost development
-  boards: the Samsung Origen and ST-Ericsson Snowball boards.'
-keywords: Linux on Arm, Linaro, Process, Announcement, Releases, Community, Android,
+description:
+  "Linaro announced the availability of builds of Android Ice Cream Sandwich
+  (ICS) supporting accelerated graphics on two of its member's low cost development
+  boards: the Samsung Origen and ST-Ericsson Snowball boards."
+keywords:
+  Linux on Arm, Linaro, Process, Announcement, Releases, Community, Android,
   Linaro.org
 layout: post
 link: /blog/community-blog/linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich/
 slug: linaro-offers-accelerated-builds-of-androids-ice-cream-sandwich
 tags:
-- Android
-- Community
-- Hardware
-- Releases
+  - Android
+  - Community
+  - Hardware
+  - Releases
 title: "Linaro offers accelerated builds of Android\u2019s Ice Cream Sandwich"
 wordpress_id: 1101
 ---
@@ -30,17 +32,14 @@ In addition to the Snowball from ST-Ericsson, Origen from Samsung and the PandaB
 
 Linaro developers also posted video demonstrations of these boards that include:
 
-  * [Snowball dev board running Linaro's build of Android ICS with hardware acceleration](http://youtu.be/XPFy2MFbUys)
+- [Snowball dev board running Linaro's build of Android ICS with hardware acceleration](http://youtu.be/XPFy2MFbUys)
 
+* [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS](http://youtu.be/whpaltVa3pQ)
 
-  * [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS](http://youtu.be/whpaltVa3pQ)
-
-
-  * [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS (with 3D demo](http://youtu.be/7_MCLKmXDFA))
-
+- [Samsung's Mali accelerated Origen dev board running Linaro's build of Android ICS (with 3D demo](http://youtu.be/7_MCLKmXDFA))
 
 Downloads for these accelerated builds for both the Samsung Origen and ST-Ericsson Snowball boards and downloads for the TI PandaBoard and Freescale’s i.MX53 Quick Start board can be found on [Linaro’s release site](http://releases.linaro.org/).
 
-This announcement comes just 24 hours before full release of Linaro 11.12. Linaro builds release on a monthly cadence and as Steve Taylor, Linaro’s Marketing Director posted earlier on the ST-Ericsson site, in his post, [Watch out for high-speed Snowballs this Christmas](http://blog.stericsson.com/blog/2011/12/st-ericsson-general/watch-out-for-high-speed-snowballs-this-christmas/), Linaro and its members are bringing you these builds a little early.
+This announcement comes just 24 hours before full release of Linaro 11.12. Linaro builds release on a monthly cadence and as Steve Taylor, Linaro’s Marketing Director posted earlier on the ST-Ericsson site, in his post, Watch out for high-speed Snowballs this Christmas (http://blog.stericsson.com/blog/2011/12/st-ericsson-general/watch-out-for-high-speed-snowballs-this-christmas/), Linaro and its members are bringing you these builds a little early.
 
 To find out more about these exciting new builds, Linaro, its members and how you can join the community please visit the [Linaro website](/).
