@@ -41,7 +41,7 @@ flow:
               content_style: text-dark
               buttons:
                 - title: Get in Touch
-                  url: mailto:marketing@linaro.org?subject=Services
+                  url: mailto:contact@linaro.org?subject=Services
                   icon: fa fa-email
           item_width: "3"
         format: block
