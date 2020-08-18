@@ -7,14 +7,15 @@ slug: snowball-new-cortex-a9-community-board-from-st-ericsson
 title: Snowball - New Cortex A9 community board from ST-Ericsson
 wordpress_id: 3373
 categories:
-- Blog
+  - Blog
 tags:
-- Hardware
-- board
-- community
-- CortexA9
-- ST-Ericsson
+  - Hardware
+  - board
+  - community
+  - CortexA9
+  - ST-Ericsson
 ---
+
 Barcelona, Mobile World Congress, Feb. 15, 2011
 
 At Linaro, we are pleased to relay the announcement by ST-Ericsson of the Snowball board, a new low cost, low power and high performance board for the embedded Linux community, based on their Nova A9500 dual Cortex A9 processor and the MALI 400 GPU from Arm.
@@ -26,7 +27,6 @@ First, here are pictures:
 {% include image.html path="/assets/images/blog/ResizedImage600441-snowball1.jpg" alt="Snowball Connectors" %}
 
 {% include image.html path="/assets/images/blog/ResizedImage600466-snowball2.jpg" alt="Snowball Connectors" %}
-
 
 And then, technical details:
 
@@ -88,4 +88,4 @@ A new website has been created to host the community for this new platform: [htt
 
 At Linaro, we welcome this new member of the Cortex A9 chip family, and will support this board in the upcoming releases that we produce every 6 months. Perhaps not in the 11.05 release which is only 3 months away, but most probably in the 11.11 one. The ST-Ericsson landing team will take care of mainlining its Linux BSP.
 
-The board will be sold on the http://www.calao-store.com/ website. All technical details will be found on the CALAO Systems website, and on the Igloo Community website. By the way, did you notice that Linux is no longer mentioned in recent press releases? Look at [ST-Ericsson's announcement](http://www.stericsson.com/press_releases/Igloo_Snowball.jsp) for example. I conclude that the operating system choice is getting obvious now...
+The board will be sold on the http://www.calao-store.com/ website. All technical details will be found on the CALAO Systems website, and on the Igloo Community website. By the way, did you notice that Linux is no longer mentioned in recent press releases? Look at ST-Ericsson's announcement (https://www.ericsson.com/en/press_releases/Igloo_Snowball.jsp) for example. I conclude that the operating system choice is getting obvious now...
