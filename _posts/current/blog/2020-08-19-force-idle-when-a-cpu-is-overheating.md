@@ -12,10 +12,16 @@ tags:
   - Linaro
   - Arm
   - CPU
-  - Linux Kernel
+  - Linux kernel
   - dynamic voltage frequency scaling
   - DVFS
   - embedded
+  - DVFS cooling
+  - Operating Performance Point
+  - OPP
+  - PELT
+  - ARM64
+  - ""
 category: Blog
 author: daniel.lezcano
 ---
