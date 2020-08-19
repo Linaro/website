@@ -169,7 +169,7 @@
     },
     {
         "Project Contact Information": {
-            "Meetings": "Ad-hoc when needed",
+            "Meetings": "Once a month an email thread will be started at <a href=\"<https://lists.trustedfirmware.org/mailman/listinfo/op-tee> \"><https://lists.trustedfirmware.org/mailman/listinfo/op-tee> </a>where we gather topics to discuss. No topics == no meeting. All information such as connection details will be found in the email thread. So, for people interested we encourage you to subscribe to that mailinglist.",
             "Point of Contact": "Join the conversation at <a href=\"https://www.trustedfirmware.org/contact/\">https://www.trustedfirmware.org/contact/</a>"
         },
         "Project Information": {
