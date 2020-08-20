@@ -55,7 +55,7 @@ The performance states power consumption are based on the formula:
 
 The symbol C is the capacitance, a constant depending on the technology,freqis the frequency in Hertz andVis the voltage. To ensure the stability of the system, when the frequency is increased, the voltage must follow and as this one is squared, the resulting power consumption is quadratic as shown in the figure below for a ARM64 dev board:
 
-{% include image.html path="/assets/images/content/power-consumption.png" alt="Power Consumption charts"
+{% include image.html path="/assets/images/content/power-consumption.png" alt="Power Consumption charts" %}
 
 The first plot shows the power consumption is exponentially increasing with the frequency, while on the second plot in the first row shows the compute capacity is linear, the ratio of the power vs the compute capacity is shown in the third plot and we can see that the efficiency is getting worse with the higher frequencies. The fourth plot shows the temperature behavior regarding a run of dhrystone at each OPPs, and the highest OPP triggers the mitigation resulting in a longer compute duration because of thousands of transitions per seconds reducing the compute capacity.
 
@@ -67,7 +67,7 @@ The cooling effect is immediate when the OPP is reduced from the highest to the 
 
 The next figure illustrates that by showing two Hisilicon development boards with a very different thermal profile and how the mitigation acts on the temperature to keep it close to the 75°C threshold. The ‘dhrystone’ benchmark was used to make the boards warm and then ended its execution close to the 40th second for the hi3660 and to the 55th for the hi6220. Please note that the profile is based on the development boards and does not reflect the end-user packaging with the form factor which can behave very differently.
 
-{% include image.html path="/assets/images/content/development-board-thermal-profile.png" alt="Thermal profile of hi3660 and hi6220"
+{% include image.html path="/assets/images/content/development-board-thermal-profile.png" alt="Thermal profile of hi3660 and hi6220" %}
 
 The noticeable behavior is the sawtooth aspect of the temperature curves when the mitigation happens, confirming the immediate impact of the OPP change on the heat.
 
@@ -112,13 +112,13 @@ Assuming the idle transitions are free, if the CPU is consuming 1000mW, 50% duty
 
 Please note that the duty cycle logic is inverted in our case as it is based on the idle duration, not the runtime.
 
-{% include image.html path="/assets/images/content/duty-cycle.png" alt="Duty Cycle chart"
+{% include image.html path="/assets/images/content/duty-cycle.png" alt="Duty Cycle chart" %}
 
 The advantage of a duty cycle approach is that we have clear boundaries for the cooling device minimal and maximal states. Obviously, the minimal is zero meaning there is no mitigation and the maximal is 100, which means the CPU is always idle. Semantically, it makes sense as if the mitigation has to increase the cooling effect by incrementing the state, reaching 100 means the system is trying to do its best to cool down the CPU. Actually, we never observed a value above 55 in the worst case scenario.
 
 The following figure shows a capture of the kernel traces in a small time frame:
 
-{% include image.html path="/assets/images/content/kernel-traces.png" alt="capture of the kernel traces chart"
+{% include image.html path="/assets/images/content/kernel-traces.png" alt="capture of the kernel traces chart" %}
 
 Even if the CPUs are independently managed by the idle injection, in this case the thermal framework grouped them for the same cooling device and it results in synchronously going idle increasing the chances for a power domain shut down. 
 
@@ -126,7 +126,7 @@ The idle injection framework allows a latency constraint, so the idle routine ha
 
 The following graphics shows a comparison between the DVFS and the idle injection techniques as cooling devices with dhrystone workloads running on 10 seconds burst. The first row shows the temperature on a half second sampling, the second row shows the cooling device state. For the DVFS, it represents how many states we decrease from the highest OPP, the idle injection states shows the duty cycle.
 
-{% include image.html path="/assets/images/content/dvfs-idle-injection-comparision.png" alt="DVFS & idle injection comparison chart"
+{% include image.html path="/assets/images/content/dvfs-idle-injection-comparision.png" alt="DVFS & idle injection comparison chart" %}
 
 We can observe that the shape of the figures are similar with a more stable temperature with the idle injection giving the proof the mitigation is effective. However the latency introduced by the idle injection will impact much more the performances than the OPP changes would have.
 
