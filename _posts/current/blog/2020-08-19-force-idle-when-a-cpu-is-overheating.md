@@ -51,7 +51,7 @@ The transition states are very fast, less than 1ms, so the scheduler can accommo
 
 The performance states power consumption are based on the formula:
 
-{% include image.html path="/assets/images/content/formula.png" alt="Formula; Power - C x freq x V2" %}
+{% include image.html path="/assets/images/content/formula.png" class="small-inline left" alt="Formula; Power - C x freq x V2" %}
 
 The symbol C is the capacitance, a constant depending on the technology,freqis the frequency in Hertz andVis the voltage. To ensure the stability of the system, when the frequency is increased, the voltage must follow and as this one is squared, the resulting power consumption is quadratic as shown in the figure below for a ARM64 dev board:
 
@@ -90,7 +90,7 @@ There can be different idle routines, they are classified by their power consump
 * **Clock gating**: the CPU voltage is untouched but the clock is stopped, that is the fastest idle routine to sleep and wake up, less than 1us, but the routine with the highest power consumption. That is what the WFI instruction does on the ARM systems
 * **CPU retention**: the clock is stopped, the voltage is the minimum vital to keep the CPU logic consistent. The power saving is better than the clock gating but the wakeup is a bit longer. This idle routine does not work well with recent boards having a lot of cores because the CPU is woken up by the cache coherency hardware which ruins the power saving
 * **CPU power down**: the clock is stopped, the voltage is zero, the cache is flushed, it is out of cache coherency, the context is saved. It takes a longer time to enter this state and wake up, the kernel literally boots the CPU, but the power saving is at its maximum as the consumption is close to zero
-* \*\*Power domain down: if all the CPUs belonging to the same power domain are powered down then the rest of the logic used by those CPUs can be shut down also. Even more power is saved on the system at the cost of a higher latency for the wakeup
+* **Power domain down**: if all the CPUs belonging to the same power domain are powered down then the rest of the logic used by those CPUs can be shut down also. Even more power is saved on the system at the cost of a higher latency for the wakeup
 
 The idle routine selection is determined by an idle governor which does some statistics on the previous events to try to predict when the next wakeup will occur and choose the most convenient idle state.
 
