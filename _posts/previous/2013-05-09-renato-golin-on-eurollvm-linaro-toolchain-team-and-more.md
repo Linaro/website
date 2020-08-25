@@ -1,24 +1,26 @@
 ---
 author: linaro
 categories:
-- Blog
+  - Blog
 date: 2013-05-09 18:20:58
-description: Renato Golin explains the significance of the EuroLLVM event, discusses
+description:
+  Renato Golin explains the significance of the EuroLLVM event, discusses
   the importance of LLVM and his role at Linaro.
-keywords: Linaro, Linux on Arm, Open Source, Renato Golin, LLVM, EuroLLVM, events,
+keywords:
+  Linaro, Linux on Arm, Open Source, Renato Golin, LLVM, EuroLLVM, events,
   Linaro Connect Europe
 layout: post
 link: /blog/community-blog/renato-golin-on-eurollvm-linaro-toolchain-team-and-more/
 slug: renato-golin-on-eurollvm-linaro-toolchain-team-and-more
 tags:
-- community
+  - community
 title: Renato Golin on EuroLLVM, Linaro Toolchain Team and More
 wordpress_id: 2709
 ---
 
 {% include image.html path="/assets/images/blog/Renato-Small.jpg" alt="Renato Golin, Linaro Toolchain Engineer" class="small-inline" %}
 
-Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](/about/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about [EuroLLVM](http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
+Linaro developers and engineers can be found at various events across the globe.  This week we catch up with [Renato Golin](/about/) of the Linaro Toolchain Team who recently attended the [3rd Annual EuroLLVM event](http://llvm.org/devmtg/2013-04/) which took place in Paris, France on April 29th and 30th, 2013.  Curious about EuroLLVM (http://blog.llvm.org/2013/05/eurollvm-2013-paris-france.html), I asked Golin for a few more details about this event and more.
 
 **Question: What is EuroLLVM and what was your role in this event?**
 
@@ -36,7 +38,7 @@ Most people, when talking about why they have chosen LLVM for their personal pro
 
 My current role is to understand how LLVM fits around the Arm ecosystem and what we can do about it. For now, we're mainly interested in understanding what LLVM can and cannot do, so that we can create a TODO list and present to the community. It's only when we know that the issues are, how easy it is to implement them and how important it is for the community that we can correctly prioritize and work on it.
 
-Our main focus will be around the Cortex-A* platform, mainly A9 and A15, paying special attention to automatic vectorization (NEON), ABI and cross-compilation issues, as well finding relevant benchmarks for Arm platforms. We want LLVM to perform well where people will use it, not just to look good in the paper.
+Our main focus will be around the Cortex-A\* platform, mainly A9 and A15, paying special attention to automatic vectorization (NEON), ABI and cross-compilation issues, as well finding relevant benchmarks for Arm platforms. We want LLVM to perform well where people will use it, not just to look good in the paper.
 
 **Question: With [Linaro Connect Europe](https://connect.linaro.org) happening in July what can attendees expect to see on the LLVM front?**
 
