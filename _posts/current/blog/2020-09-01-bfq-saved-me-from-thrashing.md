@@ -3,7 +3,7 @@ layout: post
 title: BFQ saved me from thrashing
 description: In this article Linus Walleij looks at what causes thrashing and
   developments that help to mitigate this problem.
-date: 2020-09-01T02:24:47.000Z
+date: 2020-09-02 10:13:04
 image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
   - Linaro
