@@ -111,18 +111,26 @@ pages:
         url: /services/96boards/
     title: Services
   - options:
-      - text: All Resources
-        url: https://connect.linaro.org/resources/
-      - text: Linaro Tech Days 2020
-        url: https://connect.linaro.org/resources/ltd20/
-      - text: San Diego 2019
-        url: https://connect.linaro.org/resources/san19/
-      - text: Bangkok 2019
-        url: https://connect.linaro.org/resources/bkk19/
-      - text: Vancouver 2018
-        url: https://connect.linaro.org/resources/yvr18/
-      - text: Hong Kong 2018
-        url: https://connect.linaro.org/resources/hkg18/
+      - text: Blog
+        url: /blog/
+      - text: News
+        url: /news/
+      - text: Events
+        url: /events/
+      - text: Connect Resources
+        options:
+          - text: All Resources
+            url: https://connect.linaro.org/resources/
+          - text: Linaro Tech Days 2020
+            url: https://connect.linaro.org/resources/ltd20/
+          - text: San Diego 2019
+            url: https://connect.linaro.org/resources/san19/
+          - text: Bangkok 2019
+            url: https://connect.linaro.org/resources/bkk19/
+          - text: Vancouver 2018
+            url: https://connect.linaro.org/resources/yvr18/
+          - text: Hong Kong 2018
+            url: https://connect.linaro.org/resources/hkg18/
     title: Resources
   - options:
       - text: Technical Support
