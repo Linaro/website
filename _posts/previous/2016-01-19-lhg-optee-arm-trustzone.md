@@ -4,15 +4,15 @@ date: 2016-01-19 14:37:54+00:00
 layout: post
 link: /blog/lhg-optee-arm-trustzone/
 slug: lhg-optee-arm-trustzone
-title: LHG takes another step forward in Enhanced Content Protection with OPTEE on
+title:
+  LHG takes another step forward in Enhanced Content Protection with OPTEE on
   Arm® TrustZone®
 wordpress_id: 9924
 categories:
-- Blog
+  - Blog
 ---
 
 ## LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®
-
 
 Mark Gregotski and Zoltan Kuscsik
 
@@ -42,7 +42,6 @@ The Open CDMI [4] is an open interface that enables the integration of the DRM/C
 
 {% include image.html path="/assets/images/blog/PRiTEE-Slides-2.png" alt="PRiTEE Slides 2" %}
 
-
 **High level overview of Media and Security Components**
 
 There is a demo running on the STMicroelectronics B2120 reference platform and we are in the process of porting this build to the HiKey 96Boards platform.
@@ -51,7 +50,7 @@ The latest solution is accessible now to our members who are PlayReady Licensees
 
 The next stage that LHG is working on is the implementation of a secure video path that uses a secure buffer memory allocation framework in TrustZone for the media pipeline. Stay tuned for the latest updates in the LHG security solution development.
 
-  1. [https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx](https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx)
-  2. [/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
-  3. [http://globalplatform.org/specificationsdevice.asp](http://globalplatform.org/specificationsdevice.asp)
-  4. [https://github.com/kuscsik/linaro-cdmi](https://github.com/kuscsik/linaro-cdmi)
+1. [https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx](https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx)
+2. [/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/](/news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/)
+3. [https://globalplatform.org/specs-library/?filter-committee=tee](https://globalplatform.org/specs-library/?filter-committee=tee)
+4. [https://github.com/kuscsik/linaro-cdmi](https://github.com/kuscsik/linaro-cdmi)

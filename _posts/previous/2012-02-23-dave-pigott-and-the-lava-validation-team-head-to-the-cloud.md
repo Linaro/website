@@ -1,20 +1,22 @@
 ---
 author: linaro
 categories:
-- Blog
+  - Blog
 date: 2012-02-23 15:49:25
-description: Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new
+description:
+  Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new
   hardware, configuration challenges and the ultimate success of deploying of their
   own cloud.
-keywords: Linaro, Linux on Arm, LAVA, Validation, Hardware, Testing, LAVA-Lab, Cloud,  Arm,
+keywords:
+  Linaro, Linux on Arm, LAVA, Validation, Hardware, Testing, LAVA-Lab, Cloud,  Arm,
   Fast Model, System 76, Canonical, Ubuntu Server 11.10, Linaro Connect Q1.12
 layout: post
 link: /blog/hardware-update/dave-pigott-and-the-lava-validation-team-head-to-the-cloud/
 slug: dave-pigott-and-the-lava-validation-team-head-to-the-cloud
 tags:
-- Hardware
-- LAVA
-title: 'Dave Pigott and the LAVA Validation Team Head to the Cloud '
+  - Hardware
+  - LAVA
+title: "Dave Pigott and the LAVA Validation Team Head to the Cloud "
 wordpress_id: 1253
 ---
 
@@ -34,9 +36,7 @@ _(Yes, I know there are six there. One of them is a dedicated server for the too
 
 Now we came to deploying the LAVA-Cloud. After looking around we selected [OpenStack](http://openstack.org/) as being the best implementation, since it gave us [EC2](http://aws.amazon.com/ec2/) compatibility that will benefit us mightily in the future, in that the same interfaces we use to talk to LAVA-Cloud will eventually enable us to use external Cloud computing for some of the less time-critical applications of LAVA.
 
-
 Once the servers were racked, as you see above, I did a fresh install of [Ubuntu Server 11.10](http://www.ubuntu.com/download/server/download) onto each of the boxes and then started the process of installing OpenStack.
-
 
 I had it mostly configured before I left for our [Linaro Connect Q1.12](https://connect.linaro.org/resources/) event in San Francisco, but something wasn't quite right. I couldn't get instances to talk to the outside world.
 
@@ -50,7 +50,7 @@ As luck would have it, I have a friend who is an IT infrastructure contractor, a
 
 It didn't. The servers stayed up. The utilities were all saying everything was working, and yet I still couldn't connect to an instance I had created._ (A short break now occurs in this narrative as I had some documentation to finish before leaving SF, and then some time off to spend with my family, who now meet me at airports with little signs saying "Mr. Pigott?")_
 
-Back in on Monday it was catch up. A load of audio loop-back cables and USB Flash drives to install on Origens, [Pandas](https://en.wikipedia.org/wiki/PandaBoard), [i.mx53s](https://community.nxp.com/community/imx/content?filterID=contentstatus%5Bpublished%5D~category%5Bimx53%5D) and [Snowballs](http://www.igloocommunity.org/) and e-mails. Finally got back to it on Tuesday. Then I spoke to [James Page](https://launchpad.net/~james-page) at [Canonical](http://www.canonical.com/) about the problems. Finally, we figured it out. The servers were configured with [KVM](http://www.linux-kvm.org/page/Main_Page) disabled in the [BIOS](http://en.wikipedia.org/wiki/BIOS). Most servers are delivered this way. I rebooted and re-configured the servers, then crossed my fingers. I created an instance, assigned it an IP address and tried to ssh onto the instance.
+Back in on Monday it was catch up. A load of audio loop-back cables and USB Flash drives to install on Origens, [Pandas](https://en.wikipedia.org/wiki/PandaBoard), [i.mx53s](https://community.nxp.com//content?filterID=contentstatus%5Bpublished%5D~category%5Bimx53%5D) and [Snowballs](http://www.igloocommunity.org/) and e-mails. Finally got back to it on Tuesday. Then I spoke to [James Page](https://launchpad.net/~james-page) at [Canonical](http://www.canonical.com/) about the problems. Finally, we figured it out. The servers were configured with [KVM](http://www.linux-kvm.org/page/Main_Page) disabled in the [BIOS](http://en.wikipedia.org/wiki/BIOS). Most servers are delivered this way. I rebooted and re-configured the servers, then crossed my fingers. I created an instance, assigned it an IP address and tried to ssh onto the instance.
 
 Guess what? It only bloody worked!
 
