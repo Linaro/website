@@ -6,7 +6,7 @@ description: This blog covers the many developments the teams at Linaro have
   performance numbers on ARM64, using energy model to stay in TDP budget,
   thermal notifications with Netlink, how the ARM32 Linux kernel decompresses
   and the history of the Linux kernel and Linaro at one million commits.
-date: 2020-09-14 04:19:30
+date: 2020-09-14T04:19:30.000Z
 image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
   - XYZ
@@ -64,3 +64,7 @@ Continue with this article [here](https://www.linaro.org/blog/using-energy-model
 ## Thermal Notifications With Netlink
 
 **By Daniel Lezcano, Senior Engineer, Kernel Working Group**
+
+
+1m Commits
+(By Steven J. Vaughan-Nichols for Linux and Open Source) 
