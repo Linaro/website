@@ -180,5 +180,5 @@ File description:
 - ledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platform
 - ledge-kernel-uefi-certs.ext4.img: Signatures used on EFI secureboo
 
-For [full documentation] (https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)  
-To [download the files] (http://releases.linaro.org/components/ledge/rp-0.1/)
+For [full documentation](https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)  
+To [download the files](http://releases.linaro.org/components/ledge/rp-0.1/)
