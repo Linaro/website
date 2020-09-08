@@ -105,11 +105,11 @@ Continue with this article [here](https://people.kernel.org/linusw/how-the-arm32
 
 ### One MIllion Commits
 
-{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel Penguin icon" %} This summer Linaro celebrated [10 years](https://www.linaro.org/blog/linaro-a-decade-of-development/) of collaboration in the Arm ecosystem with a blog post by David Rusling. Now at the end of the summer of 2020, the Linux kernel, which has been a large part of that collaboration, has also celebrated its 1 Millionth commit after 29 years of effort with a write up in *[ZDNet](https://www.zdnet.com/google-amp/article/commit-1-million-the-history-of-the-linux-kernel/).
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel Penguin icon" %} This summer Linaro celebrated [10 years](https://www.linaro.org/blog/linaro-a-decade-of-development/) of collaboration in the Arm ecosystem with a blog post by David Rusling. Now at the end of the summer of 2020, the Linux kernel, which has been a large part of that collaboration, has also celebrated its 1 Millionth commit after 29 years of effort with a write up in [ZDNet](https://www.zdnet.com/google-amp/article/commit-1-million-the-history-of-the-linux-kernel/). \[1]
 
 That means that Linaro has been contributing to the Linux kernel for about a third of the kernel’s existence and in that time it has had a tremendous impact, driven initially by efforts to address fragmentation, and later to add or enhance capabilities that expose Arm SoC strengths, a task which continues to this day.
 
-In the most recent 5.8 kernel, we find that over half the code was written in the last seven years \[1], and that ranking contributions between 2007 and 2019 which includes the three years before Linaro’s inception, we still find that Linaro is ranked as the 5th largest organisation contributor! \[1]
+In the most recent 5.8 kernel, we find that over half the code was written in the last seven years \[2], and that ranking contributions between 2007 and 2019 which includes the three years before Linaro’s inception, we still find that Linaro is ranked as the 5th largest organisation contributor! \[2]
 
 **In perspective, over half of the kernel is written by organisations or consultants in the last seven years and Linaro is right in the thick of it.**
 
@@ -126,6 +126,4 @@ With the considerable effort being put in to the LKFT and its supporting Tux sui
 5. Kernel CI
 6. Coverity
 
-Ref: \[1][2020_kernel_history_report_082620v2.pdf](https://www.linuxfoundation.org/wp-content/uploads/2020/08/2020_kernel_history_report_082620v2.pdf)
-
-\* Author: Steven J. Vaughan-Nichols for Linux and Open Source
+Ref: \[1] Author: Steven J. Vaughan-Nichols for Linux and Open Source. \[2] [2020_kernel_history_report_082620v2.pdf](https://www.linuxfoundation.org/wp-content/uploads/2020/08/2020_kernel_history_report_082620v2.pdf)
