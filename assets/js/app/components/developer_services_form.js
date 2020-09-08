@@ -31,6 +31,8 @@ feedback_form.onsubmit = (e) => {
     if ($("#other_services").is(":checked")) {
       if ($("#customfield_12905").val().length > 0) {
         $(".checkbox_group").removeClass("invalid");
+      } else {
+        $(".checkbox_group").addClass("invalid");
       }
     } else {
       $(".checkbox_group").removeClass("invalid");
