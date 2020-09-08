@@ -28,7 +28,15 @@ feedback_form.onsubmit = (e) => {
     $(".checkbox_group").addClass("invalid");
     message = message + "You must select at least one service of interest.<br>";
   } else {
-    $(".checkbox_group").removeClass("invalid");
+    if ($("#other_services").is(":checked")) {
+      if ($("#customfield_12905").val().length > 0) {
+        $(".checkbox_group").removeClass("invalid");
+      } else {
+        $(".checkbox_group").addClass("invalid");
+      }
+    } else {
+      $(".checkbox_group").removeClass("invalid");
+    }
   }
   if (message !== "") {
     $("#feedback_form").addClass("was-validated");
@@ -54,3 +62,13 @@ feedback_form.onsubmit = (e) => {
       });
   }
 };
+
+$(document).ready(function () {
+  if ($("#customfield_12905").length > 0) {
+    $("#other_services").on("click", function () {
+      $("#customfield_12905").prop("disabled", function (i, v) {
+        return !v;
+      });
+    });
+  }
+});
