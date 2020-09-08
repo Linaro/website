@@ -97,13 +97,33 @@ ARM traditionally uses compressed kernels. This is done for two major reasons:
 
 Continue with this article [here](https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses).
 
-
 ## The history of the Linux kernel and Linaro at One million commits
 
-By Mike Holmes, Engineering Director, Foundational Technologies
+**By Mike Holmes, Engineering Director, Foundational Technologies**
 
+### One MIllion Commits
 
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel Penguin icon" %} This summer Linaro celebrated [10 years](https://www.linaro.org/blog/linaro-a-decade-of-development/) of collaboration in the Arm ecosystem with a blog post by David Rusling. Now at the end of the summer of 2020, the Linux kernel, which has been a large part of that collaboration, has also celebrated its 1 Millionth commit after 29 years of effort with a write up in *[ZDNet](https://www.zdnet.com/google-amp/article/commit-1-million-the-history-of-the-linux-kernel/).
 
+That means that Linaro has been contributing to the Linux kernel for about a third of the kernel’s existence and in that time it has had a tremendous impact, driven initially by efforts to address fragmentation, and later to add or enhance capabilities that expose Arm SoC strengths, a task which continues to this day.
 
+In the most recent 5.8 kernel, we find that over half the code was written in the last seven years \[1], and that ranking contributions between 2007 and 2019 which includes the three years before Linaro’s inception, we still find that Linaro is ranked as the 5th largest organisation contributor! \[1]
 
-1m Commits (By Steven J. Vaughan-Nichols for Linux and Open Source)
+**In perspective, over half of the kernel is written by organisations or consultants in the last seven years and Linaro is right in the thick of it.**
+
+#### It's not just the commits any longer
+
+The release model has evolved with much greater emphasis on automated tooling since 2010. Looking at the history of automated testing of the kernel, we see that the first recorded entrant into the game was Coocicheck in 2010 when Linaro started, followed by 0-day in 2012 and many more entrants since then. This year's Linux Foundation Kernel history report lists one of the latest entrants to the automated test regime, Linaros Linux Kernel Functional Testing (LKFT) which is a much more recent testing effort from Linaro along with KernelCI, Buildbot etc.
+
+With the considerable effort being put in to the LKFT and its supporting Tux suite of build and regression tools, it is quite possible that Linaro will rank in the top 5 contributors to Kernel testing as well as the top five contributors to the kernel itself, currently the top six contributing tools \[1] in order of bugs reported as tracked by the tag “Reported-by” are:
+
+1. Hulk Robot
+2. Syzbot
+3. 0-day
+4. Coccicheck
+5. Kernel CI
+6. Coverity
+
+Ref: \[1][2020_kernel_history_report_082620v2.pdf](https://www.linuxfoundation.org/wp-content/uploads/2020/08/2020_kernel_history_report_082620v2.pdf)
+
+\* Author: Steven J. Vaughan-Nichols for Linux and Open Source
