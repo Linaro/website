@@ -17,7 +17,9 @@ author: jon.burcham@linaro.org
 
 **By Tom Gall, Engineering Director, AI/ML**
 
-{% include image.html path="/assets/images/content/ai.png" class="small-inline left" alt="Artificial Intelligence (AI) icon" %} Within the Linaro AI Project, the TVM AI compiler is one of our main areas of focus. This compiler is able to produce optimized binaries for a variety of targets that include the universe of ARM processors Cortex-A (64bit& 32bit) to Cortex-M as well as a variety of offload engines. Besides targets, one of TVM’s most important features is the ability to consume models from numerous strategic frameworks such as Tensorflow, Tensorflow Lite, ONNX, PyTorch, and MXNet, to name a few.
+{% include image.html path="/assets/images/content/ai.png" class="small-inline left" alt="Artificial Intelligence (AI) icon" %}
+
+ Within the Linaro AI Project, the TVM AI compiler is one of our main areas of focus. This compiler is able to produce optimized binaries for a variety of targets that include the universe of ARM processors Cortex-A (64bit& 32bit) to Cortex-M as well as a variety of offload engines. Besides targets, one of TVM’s most important features is the ability to consume models from numerous strategic frameworks such as Tensorflow, Tensorflow Lite, ONNX, PyTorch, and MXNet, to name a few.
 
 An early question to answer in the lifetime of Linaro involvement with the project is what is current performance like?  What are expectations for improvements going forward?
 
