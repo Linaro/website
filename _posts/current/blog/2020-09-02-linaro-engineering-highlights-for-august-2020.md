@@ -9,7 +9,28 @@ description: This blog covers the many developments the teams at Linaro have
 date: 2020-09-14T04:19:30.000Z
 image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
-  - XYZ
+  - Linaro
+  - TVM
+  - Arm
+  - AI
+  - Cortex-A
+  - AutoTVM
+  - Arm64
+  - Linux
+  - Kernel
+  - ARM32
+  - Linux kernel decompresses
+  - compressed kernels
+  - 1 million commits
+  - Arm ecosystem
+  - LKFT
+  - 5.8 kernel
+  - Hulk Robot
+  - Syzbot 3
+  - 0-day
+  - Coccicheck
+  - Kernel CI
+  - Coverity
 category: Blog
 author: jon.burcham@linaro.org
 ---
