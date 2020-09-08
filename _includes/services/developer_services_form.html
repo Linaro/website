@@ -1,6 +1,6 @@
 <div class="col col-12 no-padding membership_form_container">
     <div class="row">
-        <div class="col col-12 col-sm-6 form_section">
+        <div class="col col-12 col-sm-9 form_section">
             <div id='feedback_response'></div>
             <form id="feedback_form" class="needs-validation" novalidate>
                 <input type='hidden' name='form-index' id='form-index' value='1' />
@@ -37,61 +37,73 @@
                         </div>
                 </div>
                 <div class="form-group checkbox_group">
-                    <p>Which services are you interested in? (Required)</p>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12815' name='customfield_12904' id='customfield_12904-1'
-                            class='checkbox'>
-                        <label for='customfield_12904-1'>Upstream Services</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12816' name='customfield_12904' id='customfield_12904-2'
-                            class='checkbox'>
-                        <label for='customfield_12904-2'>Kernel Services</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12817' name='customfield_12904' id='customfield_12904-3'
-                            class='checkbox'>
-                        <label for='customfield_12904-3'>Training & Support</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12818' name='customfield_12904' id='customfield_12904-4'
-                            class='checkbox'>
-                        <label for='customfield_12904-4'>Security</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12819' name='customfield_12904' id='customfield_12904-5'
-                            class='checkbox'>
-                        <label for='customfield_12904-5'>Trusted Firmware</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12820' name='customfield_12904' id='customfield_12904-6'
-                            class='checkbox'>
-                        <label for='customfield_12904-6'>OP-TEE</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12821' name='customfield_12904' id='customfield_12904-7'
-                            class='checkbox'>
-                        <label for='customfield_12904-7'>Long Term Support Builds</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12822' name='customfield_12904' id='customfield_12904-8'
-                            class='checkbox'>
-                        <label for='customfield_12904-8'>Arm Server Deployment</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12823' name='customfield_12904' id='customfield_12904-9'
-                            class='checkbox'>
-                        <label for='customfield_12904-9'>BSPs and board bring-up</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' value='12824' name='customfield_12904' id='customfield_12904-10'
-                            class='checkbox'>
-                        <label for='customfield_12904-10'>Embedded and mobile platforms</label>
-                    </div>
-                    <div class='checkbox d-inline-block'>
-                        <input type='checkbox' name="other_services" id="other_services" class='checkbox'>
-                        <label for='other_services'>Other</label>
-                        <input type="text" id='customfield_12905' name='customfield_12905' class="form-control">
+                    <div class="row py-0">
+                        <div class="col col-12">
+                            <strong>Which services are you interested in? (Required)</strong>
+                        </div>
+                        <div class="col col-12 col-sm-4">
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12815' name='customfield_12904' id='customfield_12904-1'
+                                    class='checkbox'>
+                                <label for='customfield_12904-1'>Upstream Services</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12816' name='customfield_12904' id='customfield_12904-2'
+                                    class='checkbox'>
+                                <label for='customfield_12904-2'>Kernel Services</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12817' name='customfield_12904' id='customfield_12904-3'
+                                    class='checkbox'>
+                                <label for='customfield_12904-3'>Training & Support</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12818' name='customfield_12904' id='customfield_12904-4'
+                                    class='checkbox'>
+                                <label for='customfield_12904-4'>Security</label>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-4">
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12819' name='customfield_12904' id='customfield_12904-5'
+                                    class='checkbox'>
+                                <label for='customfield_12904-5'>Trusted Firmware</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12820' name='customfield_12904' id='customfield_12904-6'
+                                    class='checkbox'>
+                                <label for='customfield_12904-6'>OP-TEE</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12821' name='customfield_12904' id='customfield_12904-7'
+                                    class='checkbox'>
+                                <label for='customfield_12904-7'>Long Term Support Builds</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12822' name='customfield_12904' id='customfield_12904-8'
+                                    class='checkbox'>
+                                <label for='customfield_12904-8'>Arm Server Deployment</label>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-4">
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12823' name='customfield_12904' id='customfield_12904-9'
+                                    class='checkbox'>
+                                <label for='customfield_12904-9'>BSPs and board bring-up</label>
+                            </div>
+                            <div class='checkbox d-block'>
+                                <input type='checkbox' value='12824' name='customfield_12904' id='customfield_12904-10'
+                                    class='checkbox'>
+                                <label for='customfield_12904-10'>Embedded and mobile platforms</label>
+                            </div>
+                        </div>
+                        <div class="col col-12">
+                            <div class='checkbox d-inline-block d-flex align-items-center'>
+                                <input type='checkbox' name="other_services" id="other_services" class='checkbox'>
+                                <label class="my-0 mx-2" for='other_services'>Other</label>
+                                <input type="text" id='customfield_12905' name='customfield_12905' class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
@@ -108,8 +120,8 @@
                 <div id='feedback_error'></div>
             </form>
         </div>
-        <div class="col col-12 col-sm-6 image_section">
-            {% assign image_path = "/assets/images/content/connect_crowd.jpg"  %}
+        <div class="col col-12 col-sm-3 image_section">
+            {% assign image_path = "/assets/images/content/services_board.jpg" %}
             {% capture image_alt %}
             {{page.title}} feature block image
             {% endcapture %}
