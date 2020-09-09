@@ -133,7 +133,15 @@ $(document).ready(function () {
     $(".collapse").on("show.bs.collapse", function (e) {
       let newUrl;
       const hash = $(this).attr("id");
-      newUrl = url.substring(0, url.lastIndexOf("/")) + "/projects/#" + hash;
+      if (url.lastIndexOf("/projects/") > -1) {
+        console.log("projects url exists");
+        newUrl =
+          url.substring(0, url.lastIndexOf("/projects/")) +
+          "/projects/#" +
+          hash;
+      } else {
+        newUrl = url.substring(0, url.lastIndexOf("/")) + "/projects/#" + hash;
+      }
       history.replaceState(null, null, newUrl);
     });
   }
