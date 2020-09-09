@@ -110,25 +110,34 @@ $(document).ready(function () {
       items: 4,
     });
   }
+
+  function scroll_to_anchor(hash) {
+    const splitHash = hash.split("#");
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#heading-" + splitHash[1]).offset().top - 100,
+      },
+      500
+    );
+    $("#projects #" + splitHash[1]).collapse("show");
+    url = location.href.replace(/\/#/, "/#");
+    history.replaceState(null, null, url);
+    setTimeout(() => {
+      $(window).scrollTop(0);
+    }, 400);
+  }
   // Projects links
   if ($("#projects").length > 0) {
     let url = location.href.replace(/\/$/, "");
 
     if (location.hash) {
-      const hash = url.split("#");
-      $([document.documentElement, document.body]).animate(
-        {
-          scrollTop: $("#heading-" + hash[1]).offset().top - 100,
-        },
-        500
-      );
-      $("#projects #" + hash[1]).collapse("show");
-      url = location.href.replace(/\/#/, "/#");
-      history.replaceState(null, null, url);
-      setTimeout(() => {
-        $(window).scrollTop(0);
-      }, 400);
+      scroll_to_anchor(url);
     }
+
+    $(window).on("hashchange", function () {
+      var hash = window.location.hash;
+      scroll_to_anchor(hash);
+    });
 
     $(".collapse").on("show.bs.collapse", function (e) {
       let newUrl;
