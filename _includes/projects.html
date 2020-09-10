@@ -2,6 +2,12 @@
     <div class="container">
         <div id="accordion">
             {% for project in site.data.projects["projects"] %}
+                {% assign related_blogs = '' | split: '' %}
+                {% for post in site.posts %}
+                    {% if project["key"] in post.related_projects %}
+                        {% assign related_blogs = related_blogs | concat: post %}
+                    {% endif %}
+                {% endfor %}
                 <div class="card mb-3">
                     <div class="card-header" id="heading-{{project["key"]}}">
                         <h5 class="mb-0">
@@ -150,8 +156,18 @@
 
 
                             </div>
-
-
+                            {% assign related_blogs_len = related_blogs | size %}
+                            {% if related_blogs_len > 0 %}
+                            <div class="row py-0">
+                                <div class="col col-12 col-lg-6 mb-4">
+                                    <ul>
+                                        {% for post in related_blogs %}
+                                            <li><a href="{{post.url}}">{{post.title}}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            {% endif %}  
                         </div>
                     </div>
                 </div>
