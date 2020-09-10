@@ -131,22 +131,17 @@ The following tables provide direct access to the most common Linux and bare-met
 
 #### Latest Linux Targeted Binary Toolchain Releases
 
-{:.table.responsive-table}
-|--- |--- |--- |--- |--- |
-|**arm-linux-gnueabihf**|_32-bit Armv7 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
-|**armv8l-linux-gnueabihf**|_32-bit Armv8 Cortex-A, hard-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
-|**aarch64-linux-gnu**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+{:.table.responsive-table} |--- |--- |--- |--- |--- |
+|**arm-linux-gnueabihf**|*32-bit Armv7 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**armv8l-linux-gnueabihf**|*32-bit Armv8 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**aarch64-linux-gnu**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 #### Latest Bare-Metal Targeted Binary Toolchain Releases
 
-{:.table.responsive-table}
-|:---|:---|:---|:---|:---|
-|**arm-eabi**|_32-bit Armv7 Cortex-A, soft-float, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
-|**aarch64-elf**|_64-bit Armv8 Cortex-A, little-endian_|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+{:.table.responsive-table} |:---|:---|:---|:---|:---|
+|**arm-eabi**|*32-bit Armv7 Cortex-A, soft-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**aarch64-elf**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 - - -
 
-Interested in other target ABIs such as big-endian or soft-float little-endian? All toolchain target ABI and host variants can be seen [here](https://releases.linaro.org/components/toolchain/binaries/latest-7/). _Note: Not all ABI and host variants are supported to the same degree. See the [release-notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/) for more information._
+Interested in other target ABIs such as big-endian or soft-float little-endian? All toolchain target ABI and host variants can be seen [here](https://releases.linaro.org/components/toolchain/binaries/latest-7/). *Note: Not all ABI and host variants are supported to the same degree. See the [release-notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/) for more information.*
 
 - - -
 
@@ -164,21 +159,20 @@ This page provides links to many of the more popular downloads produced by Linar
 
 LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](/membership/) company.
 
-{:.table.responsive-table}
-|:---|:---|:---|:---|:---|
-|Arm | <img src="/assets/images/content/aarch-64-logo-thumb.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
-|Qualcomm | <img src="/assets/images/content/qualcomm-snapdragon-thumb.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+{:.table.responsive-table} |:---|:---|:---|:---|:---|
+|Arm | <img src="/assets/images/content/aarch-64-logo-thumb.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)| |Qualcomm | <img src="/assets/images/content/qualcomm-snapdragon-thumb.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 - - -
 
 ## LEDGE downloads: -
 
 File description:
-- firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE support
-- firmware.uefi-edk2.bin: EDK2 based firmware
-- ledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platform
-- ledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platform
-- ledge-kernel-uefi-certs.ext4.img: Signatures used on EFI secureboo
 
-For [full documentation](https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)  
+* firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE support
+* firmware.uefi-edk2.bin: EDK2 based firmware
+* ledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platform
+* ledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platform
+* ledge-kernel-uefi-certs.ext4.img: Signatures used on EFI secureboot
+
+For [full documentation](https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)\
 To [download the files](http://releases.linaro.org/components/ledge/rp-0.1/)
