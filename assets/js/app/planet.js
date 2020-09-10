@@ -23,7 +23,6 @@ var feeds = [
     "http://www.bennee.com/~alex/blog/tag/linaro/feed/", // Alex Bennee
     "https://station.eciton.net/index.rss", // Leif Lindholm
     "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
-    "https://nbhat-ho2016.blogspot.co.uk/rss.xml", // Naresh Bhat
     "https://www.davidb.org/index.xml", // David Brown
     "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
     "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
