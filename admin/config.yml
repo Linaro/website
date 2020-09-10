@@ -91,7 +91,7 @@ collections:
         widget: list
         fields:
           - label: "Projects"
-            name: "projectsData"
+            name: "projects"
             widget: "list"
             fields:
             - label: "Project Contact Information"
