@@ -175,9 +175,11 @@
                         <div class="col col-12 mb-4">
                             <h3>Related Posts</h3>
                             <ul class="list-group">
-                                {% for post in related_blogs %}
+                                {% assign sorted_related_posts = related_blogs | sort: 'date' | reverse | limit: 5 %}
+                                {% for post in sorted_related_posts%}
                                 <li class="list-group-item">
-                                    <a href="{{post.url}}">{{post.title}} - {{post.date | date: "%A, %B %-d, %Y"}}</a></li>
+                                    <a href="{{post.url}}">{{post.title}} - {{post.date | date: "%A, %B %-d, %Y"}}</a>
+                                </li>
                                 {% endfor %}
                             </ul>
                         </div>
