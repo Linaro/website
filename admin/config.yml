@@ -30,12 +30,117 @@ collections:
             name: "teamMembers"
             widget: "list"
             fields:
-              - {label: "Name", name: "name", widget: string, hint: "The full name of the team member", required: true}
-              - {label: "Job Title", name: "title", widget: string, hint: "The Job title of the team member (without a company attribution)", required: true}
-              - {label: "Company", name: "company", widget: string, hint: "The company that this team member works for.", required: true}
-              - {label: "Image", name: "image", widget: image, hint: "The profile image for this team member.", required: false}
-              - {label: "Bio", name: "bio", widget: text, hint: "The bio of the team member", required: false}
-              - {label: "Teams", name: "teams", widget: select, multiple: true, hint: "The teams that this person is a part of.", options: ["technical_steering_committee", "board_of_directors", "executive_team"], required: true}
+              - {
+                  label: "Name",
+                  name: "name",
+                  widget: string,
+                  hint: "The full name of the team member",
+                  required: true,
+                }
+              - {
+                  label: "Job Title",
+                  name: "title",
+                  widget: string,
+                  hint: "The Job title of the team member (without a company attribution)",
+                  required: true,
+                }
+              - {
+                  label: "Company",
+                  name: "company",
+                  widget: string,
+                  hint: "The company that this team member works for.",
+                  required: true,
+                }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: image,
+                  hint: "The profile image for this team member.",
+                  required: false,
+                }
+              - {
+                  label: "Bio",
+                  name: "bio",
+                  widget: text,
+                  hint: "The bio of the team member",
+                  required: false,
+                }
+              - {
+                  label: "Teams",
+                  name: "teams",
+                  widget: select,
+                  multiple: true,
+                  hint: "The teams that this person is a part of.",
+                  options:
+                    [
+                      "technical_steering_committee",
+                      "board_of_directors",
+                      "executive_team",
+                    ],
+                  required: true,
+                }
+  - label: "Projects"
+    name: "projects_data"
+    editor:
+      preview: false
+    format: json
+    files:
+      - label: "projects"
+        name: "projects"
+        file: "_data/projects.json"
+        widget: list
+        fields:
+          - label: "Project Contact Information"
+            name: "Project Contact Information"
+            widget: object
+            fields:
+              - label: "Meetings"
+                name: "Meetings"
+                widget: text
+              - label: "Point of Contact"
+                name: "Point of Contact"
+                widget: text
+          - label: "Project Information"
+            name: "Project Information"
+            widget: object
+            fields:
+              - label: "Health Check Report"
+                name: "Health Check Report"
+                widget: text
+              - label: "JIRA Structure"
+                name: "JIRA Structure"
+                widget: text
+              - label: "Plan Of Record"
+                name: "Plan Of Record"
+                widget: text
+              - label: "Project Homepage"
+                name: "Project Homepage"
+                widget: text
+              - label: "description"
+                name: "description"
+                widget: text
+              - label: "title"
+                name: "title"
+                widget: text
+          - label: "Project Ownership"
+            name: "Project Ownership"
+            widget: object
+            fields:
+              - label: "Governing Entity"
+                name: "Governing Entity"
+                widget: text
+              - label: "Project Owner"
+                name: "Project Owner"
+                widget: text
+              - label: "Technical Lead"
+                name: "Technical Lead"
+                widget: text
+          - label: "icon"
+            name: "icon"
+            widget: string
+          - label: "key"
+            name: "key"
+            widget: string
   - label: "Website Data Files & Settings"
     name: "config"
     editor:
@@ -49,17 +154,46 @@ collections:
             name: "items"
             widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: string, hint: "The name of the Engineering vertical", required: true}
-              - {label: "Context Image", name: "context_image", widget: image, hint: "An image that provides context to this vertical/group. Used for background images etc.", required: true}
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: string,
+                  hint: "The name of the Engineering vertical",
+                  required: true,
+                }
+              - {
+                  label: "Context Image",
+                  name: "context_image",
+                  widget: image,
+                  hint: "An image that provides context to this vertical/group. Used for background images etc.",
+                  required: true,
+                }
               - label: "Icon"
-                name: "context_image"
+                name: "icon"
                 widget: object
                 hint: "An image that provides context to this vertical/group. Used for background images etc."
                 required: true
                 fields:
-                  - {label: "PNG Icon", widget: image, name: png, hint: "PNG version of the icon.", required: true}
-                  - {label: "SVG Icon", widget: image, name: svg, hint: "The SVG version of the icon.", required: true}
-              - {label: "URL", name: "url", widget: string, hint: "The URL relevant to this engineering vertical/group."}
+                  - {
+                      label: "PNG Icon",
+                      widget: image,
+                      name: png,
+                      hint: "PNG version of the icon.",
+                      required: true,
+                    }
+                  - {
+                      label: "SVG Icon",
+                      widget: image,
+                      name: svg,
+                      hint: "The SVG version of the icon.",
+                      required: true,
+                    }
+              - {
+                  label: "URL",
+                  name: "url",
+                  widget: string,
+                  hint: "The URL relevant to this engineering vertical/group.",
+                }
       - label: "External News"
         name: "external_news_items"
         file: "_data/external_news.yml"
@@ -68,14 +202,71 @@ collections:
             name: "items"
             widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: string, hint: "The title of the external news post.", required: false}
-              - {label: "Link", name: "url", widget: string, hint: "The url to the external news post.", required: false}
-              - {label: "Related Linaro Members", name: "related_members", widget: list , hint: "A comma separated list of any members that this post related to. I.e HiSilicon", required: false}
-              - {label: "Featured Image", name: "image", widget: image , hint: "Please select a featured image for this external news post.", required: false}
-              - {label: "Description", name: "description", widget: text , hint: "Enter a short description for this external news post.", required: false}
-              - {label: "Related Linaro Static Site", name: "site", widget: select , hint: "Please select the site that this should appear on.", options: ['linaro.org', '96boards.org', 'connect.linaro.org', 'mlplatform.org', 'trustedfirmware.org'], required: false}
-              - {label: "Category", name: "category", widget: select , hint: "Please select the category which this external post falls into.", options: ['Membership', 'Tech Review', 'Press Release'], required: false}
-              - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: string,
+                  hint: "The title of the external news post.",
+                  required: false,
+                }
+              - {
+                  label: "Link",
+                  name: "url",
+                  widget: string,
+                  hint: "The url to the external news post.",
+                  required: false,
+                }
+              - {
+                  label: "Related Linaro Members",
+                  name: "related_members",
+                  widget: list,
+                  hint: "A comma separated list of any members that this post related to. I.e HiSilicon",
+                  required: false,
+                }
+              - {
+                  label: "Featured Image",
+                  name: "image",
+                  widget: image,
+                  hint: "Please select a featured image for this external news post.",
+                  required: false,
+                }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: text,
+                  hint: "Enter a short description for this external news post.",
+                  required: false,
+                }
+              - {
+                  label: "Related Linaro Static Site",
+                  name: "site",
+                  widget: select,
+                  hint: "Please select the site that this should appear on.",
+                  options:
+                    [
+                      "linaro.org",
+                      "96boards.org",
+                      "connect.linaro.org",
+                      "mlplatform.org",
+                      "trustedfirmware.org",
+                    ],
+                  required: false,
+                }
+              - {
+                  label: "Category",
+                  name: "category",
+                  widget: select,
+                  hint: "Please select the category which this external post falls into.",
+                  options: ["Membership", "Tech Review", "Press Release"],
+                  required: false,
+                }
+              - {
+                  label: "Publish Date",
+                  name: "date",
+                  widget: "datetime",
+                  format: "YYYY-MM-DD hh:mm:ss",
+                  pickerUtc: true,
+                }
       - label: "Projects"
         name: "linaro_project_items"
         file: "_data/projects.yml"
@@ -84,9 +275,27 @@ collections:
             name: "items"
             widget: "list"
             fields:
-              - {label: "Project Name", name: "name", widget: string, hint: "The name of the project that we contribute to.", required: false}
-              - {label: "Project website", name: "url", widget: string, hint: "URL of the project we contribute to.", required: false}
-              - {label: "Project Logo", name: "image", widget: image , hint: "The project logo.", required: false}
+              - {
+                  label: "Project Name",
+                  name: "name",
+                  widget: string,
+                  hint: "The name of the project that we contribute to.",
+                  required: false,
+                }
+              - {
+                  label: "Project website",
+                  name: "url",
+                  widget: string,
+                  hint: "URL of the project we contribute to.",
+                  required: false,
+                }
+              - {
+                  label: "Project Logo",
+                  name: "image",
+                  widget: image,
+                  hint: "The project logo.",
+                  required: false,
+                }
       - label: "Timeline"
         name: "linaro_about_timeline_items"
         file: "_data/timeline.yml"
@@ -95,160 +304,38 @@ collections:
             name: "items"
             widget: "list"
             fields:
-              - {label: "Year", name: "name", widget: string, hint: "The 4 digit year of your timeline carousel item.", required: false}
+              - {
+                  label: "Year",
+                  name: "name",
+                  widget: string,
+                  hint: "The 4 digit year of your timeline carousel item.",
+                  required: false,
+                }
               - label: "Entries"
                 name: "entries"
                 widget: list
                 required: false
                 fields:
-                 - {label: "Item Title", name: "title", widget: string, required: false}
-                 - {label: "Item URL", name: "url", widget: string, required: false}
-                 - {label: "Item Date", name: "date", widget: datetime, format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true, required: false}
-      - label: "Settings"
-        name: "settings"
-        file: "_data/settings.yml"
-        fields:
-          - {label: "Favicon", name: "favicon", widget: "string", required: false, hint: "Used as the site wide favicon displayed in the web browsers tabs"}
-          - {label: "Placeholder Image", name: "placeholder", widget: "string", required: false, hint: "Placeholder image used for blog posts that have no featured image"}
-          - {label: "HTTP/2 Support", name: "http2", widget: "boolean", required: false, hint: "Toggle the use of HTTP/2 features across the entire site."}
-          - {label: "Ascii-art", name: "ascii-art", widget: "string", required: false, default: false, hint: "Optionally specify a jekyll _include/ to be included in <head> of each built site page."}
-          - {label: "Hide Last Modified", name: "hide_last_modified", widget: "boolean", required: false, hint: "Removes the last modified time of Jekyll posts. Disabled on sites using multiple GitHub repo's since the Jekyll plugin uses the .git/index"}
-          - label: "HTTP/2 Preload Resources"
-            name: "http2_resources"
-            widget: "list"
-            required: false
-            hint: "Specify a list of globally used resources to preload/prefetch"
-            identifier_field: href
-            fields:
-              - {label: Href, name: href, widget: string, required: false }
-              - {label: Format, name: rel, widget: string, required: false }
-              - {label: As, name: as, widget: string, required: false }
-              - {label: Type, name: type, widget: string, required: false }
-          - label: "Newsletter"
-            name: "newsletter"
-            widget: "object"
-            required: false
-            hint: "Toggle the output of a link to a brand newlsetter in the footer of the site. Specify a mailchimp newsletter signup url or equivalent."
-            fields:
-              - {label: Enabled, name: enabled, widget: boolean, required: false }
-              - {label: URL, name: url, widget: string, required: false }
-          - {label: "Tags Toggle", name: "tags_enabled", widget: "boolean", required: false}
-          - label: "Blog Settings"
-            name: "blog"
-            widget: "object"
-            required: false
-            fields:
-              - {label: Blog Index Filler Element, name: filler-element, widget: string, required: false, hint: "Adds a filler element to the first blog page visible (due to number issues). This is a Jekyll include."}
-              - {label: Tags Page Permalink, name: tags_page, widget: string, required: false, hint: "Specify the permalink of your tags page. "}
-              - {label: Toggle Thumbnails, name: show_thumbnails, widget: boolean, required: false, hint: "Specify the permalink of your tags page. "}
-              - {label: Avatar Placeholder, name: avatar_placeholder, widget: string, required: false, hint: "Optionally supply an alternative avatar placeholder image for authors with no profile image. "}
-              - {label: Toggle Post Read Time, name: reading_time, widget: boolean, required: false, hint: "Toggle the post read time."}
-              - {label: Toggle Comments, name: reading_time, widget: boolean, required: false, hint: "Site wide toggle for displaying Disqus comments."}
-              - label: Blog Sidebar
-                name: sidebar
-                widget: object
-                required: false
-                fields:
-                  - {label: Toggle Sidebar, name: display-on-posts, widget: boolean, required: false}
-                  - {label: Toggle Sidebar on Blog Index Pages, name: display-on-index, widget: boolean, required: false}
-                  - label: Thumbnails
-                    name: display_thumbnails
-                    widget: boolean
-                    required: false
-                  - label: Other Posts
-                    name: other-posts
-                    widget: object
-                    fields:
-                        - label: Display Other Posts
-                          name: display
-                          widget: boolean
-                          required: false
-                        - label: Other Post Count
-                          name: count
-                          widget: number
-                          required: false
-                          default: 4
-                          valueType: 'int'
-                  - label: Related Posts
-                    name: related-posts
-                    widget: object
-                    fields:
-                        - label: Display Related Posts
-                          name: display
-                          widget: boolean
-                          required: false
-                        - label: Related Post Count
-                          name: count
-                          widget: number
-                          required: false
-                          default: 4
-                          valueType: 'int'
-                  - label: Most Recent Posts
-                    name: most-recent-posts
-                    widget: object
-                    fields:
-                        - label: Display Most Recent Posts
-                          name: display
-                          widget: boolean
-                          required: false
-                        - label: Most Recent Post Count
-                          name: count
-                          widget: number
-                          required: false
-                          default: 4
-                          valueType: 'int'
-          - label: Google Analytics
-            name: google_analytics
-            widget: object
-            required: false
-            fields:
-              - label: Production Site Analytics Code
-                name: production
-                widget: string
-                required: false
-              - label: Staging Site Analytics Code
-                name: staging
-                widget: string
-                required: false
-          - label: Disqus Comments
-            name: disqus
-            widget: object
-            required: false
-            fields:
-              - label: Toggle Disqus Comments
-                name: enabled
-                widget: boolean
-                required: false
-              - label: Disqus Comments Shortname
-                name: shortname
-                widget: string
-                required: false
-          - label: GitHub Username
-            name: github_username
-            widget: string
-            required: false
-          - label: LinkedIn Username
-            name: linkedin_username
-            widget: string
-            required: false
-          - label: Facebook Username
-            name: facebook_username
-            widget: string
-            required: false
-          - label: YouTube Username
-            name: youtube_username
-            widget: string
-            required: false
-          - label: Twitter Username
-            name: twitter_username
-            widget: string
-            required: false
-          - label: Social Share Image
-            name: social_share_image
-            widget: string
-            required: false
-            hidden: true
-            default: /assets/images/social-media-image.png
+                  - {
+                      label: "Item Title",
+                      name: "title",
+                      widget: string,
+                      required: false,
+                    }
+                  - {
+                      label: "Item URL",
+                      name: "url",
+                      widget: string,
+                      required: false,
+                    }
+                  - {
+                      label: "Item Date",
+                      name: "date",
+                      widget: datetime,
+                      format: "YYYY-MM-DD hh:mm:ss",
+                      pickerUtc: true,
+                      required: false,
+                    }
       - label: "Universal Navbar"
         name: "universal_navbar"
         file: "_data/universal-nav.yml"
@@ -257,17 +344,27 @@ collections:
             name: "items"
             widget: "list"
             fields:
-                - {label: Title, name: title, widget: string}
-                - {label: Link, name: url, widget: string, required: false}
-                - {label: Active, name: active, widget: boolean, required: false}
-                - label: Sub Options
-                  name: options
-                  required: false
-                  widget: 'list'
-                  fields:
-                    - {label: Name, name: title, widget: string}
-                    - {label: Link, name: url, widget: string}
-                    - {label: Active, name: active, widget: boolean, required: false}
+              - { label: Title, name: title, widget: string }
+              - { label: Link, name: url, widget: string, required: false }
+              - {
+                  label: Active,
+                  name: active,
+                  widget: boolean,
+                  required: false,
+                }
+              - label: Sub Options
+                name: options
+                required: false
+                widget: "list"
+                fields:
+                  - { label: Name, name: title, widget: string }
+                  - { label: Link, name: url, widget: string }
+                  - {
+                      label: Active,
+                      name: active,
+                      widget: boolean,
+                      required: false,
+                    }
       - label: "Membership Testimonials"
         name: "membership_testimonials"
         file: "_data/membership_testimonials.yml"
@@ -276,15 +373,15 @@ collections:
             name: "items"
             widget: "list"
             fields:
-                - {label: Title, name: title, widget: string}
-                - {label: Cover Image, name: cover_image, widget: image}
-                - label: Video
-                  name: video
-                  widget: object
-                  fields:
-                    - {label: MP4, name: mp4, widget: string, required: false}
-                    - {label: WEBM, name: webm, widget: string, required: false}
-                    - {label: OGV, name: ogv, widget: string, required: false}
+              - { label: Title, name: title, widget: string }
+              - { label: Cover Image, name: cover_image, widget: image }
+              - label: Video
+                name: video
+                widget: object
+                fields:
+                  - { label: MP4, name: mp4, widget: string, required: false }
+                  - { label: WEBM, name: webm, widget: string, required: false }
+                  - { label: OGV, name: ogv, widget: string, required: false }
       - label: "Internship Testimonials"
         name: "internship_testimonials"
         file: "_data/internship_testimonials.yml"
@@ -293,10 +390,15 @@ collections:
             name: "items"
             widget: "list"
             fields:
-                - {label: Name, name: name, widget: string}
-                - {label: Image, name: image, widget: image}
-                - {label: title, name: title, widget: string, hint: "Internship title i.e Entry Level, Engineer"}
-                - {label: Testimonial Text, name: testimonial, widget: text}
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - {
+                  label: title,
+                  name: title,
+                  widget: string,
+                  hint: "Internship title i.e Entry Level, Engineer",
+                }
+              - { label: Testimonial Text, name: testimonial, widget: text }
       - label: "Footer"
         name: "footer"
         file: "_data/footer.yml"
@@ -321,35 +423,51 @@ collections:
             widget: list
             required: false
             fields:
-              - {label: Text, name: "name", widget: string, required: false}
-              - {label: Url, name: url, widget: string, required: false}
+              - { label: Text, name: "name", widget: string, required: false }
+              - { label: Url, name: url, widget: string, required: false }
           - label: "Middle Column"
             name: "middle-column"
             widget: object
             required: false
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Latest Posts Enabled, name: latest-posts, widget: boolean, required: false, default: true}
+              - { label: Title, name: title, widget: string }
+              - {
+                  label: Latest Posts Enabled,
+                  name: latest-posts,
+                  widget: boolean,
+                  required: false,
+                  default: true,
+                }
               - label: Items
                 name: items
                 widget: list
                 required: false
                 fields:
-                  - {label: Title, name: "name", widget: string, required: false}
-                  - {label: Url, name: "url", widget: string, required: false}
+                  - {
+                      label: Title,
+                      name: "name",
+                      widget: string,
+                      required: false,
+                    }
+                  - { label: Url, name: "url", widget: string, required: false }
           - label: "Last Column"
             name: "third-column"
             widget: object
             required: false
             fields:
-              - {label: Title, name: title, widget: string}
+              - { label: Title, name: title, widget: string }
               - label: Items
                 name: items
                 widget: list
                 required: false
                 fields:
-                  - {label: Title, name: "name", widget: string, required: false}
-                  - {label: Url, name: "url", widget: string, required: false}
+                  - {
+                      label: Title,
+                      name: "name",
+                      widget: string,
+                      required: false,
+                    }
+                  - { label: Url, name: "url", widget: string, required: false }
       - label: "Navigation"
         name: "navigation"
         file: "_data/nav.yml"
@@ -363,43 +481,99 @@ collections:
             name: "search"
             widget: object
             fields:
-                - {label: Enabled, name: enabled, widget: boolean, required: false, default: true}
-                - {label: Label, name: label, widget: string, required: false, default: "Connect"}
+              - {
+                  label: Enabled,
+                  name: enabled,
+                  widget: boolean,
+                  required: false,
+                  default: true,
+                }
+              - {
+                  label: Label,
+                  name: label,
+                  widget: string,
+                  required: false,
+                  default: "Connect",
+                }
           - label: "Navigation Brand"
             name: "brand"
             widget: object
             fields:
-                - {label: Text, name: text, widget: string}
-                - label: Image
-                  name: image
-                  widget: object
-                  fields:
-                    - {label: Enabled, name: enabled, widget: boolean, default: true}
-                    - {label: Name, name: name, widget: string, default: true, required: false}
-                    - {label: SVG, name: svg, widget: boolean, default: true, required: false}
-                    - {label: Path, name: path, widget: image, default: true, required: false}
-                - {label: Url, name: url, widget: string, required: false, default: /}
+              - { label: Text, name: text, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Enabled,
+                      name: enabled,
+                      widget: boolean,
+                      default: true,
+                    }
+                  - {
+                      label: Name,
+                      name: name,
+                      widget: string,
+                      default: true,
+                      required: false,
+                    }
+                  - {
+                      label: SVG,
+                      name: svg,
+                      widget: boolean,
+                      default: true,
+                      required: false,
+                    }
+                  - {
+                      label: Path,
+                      name: path,
+                      widget: image,
+                      default: true,
+                      required: false,
+                    }
+              - {
+                  label: Url,
+                  name: url,
+                  widget: string,
+                  required: false,
+                  default: /,
+                }
           - label: "Navigation Items"
             name: "pages"
             widget: "list"
             fields:
-                - {label: Name, name: title, widget: string}
-                - {label: Link, name: url, widget: string, required: false}
-                - {label: Active Paths, name: active_paths, widget: string, required: false}
-                - label: Sub Options
-                  name: options
-                  required: false
-                  widget: 'list'
-                  fields:
-                    - {label: Text, name: text, widget: string, required: false}
-                    - {label: Link, name: url, widget: string, required: false}
-                    - label: "Sub Items"
-                      name: options
-                      widget: list
-                      required: false
-                      fields:
-                        - {label: Text, name: text, widget: string, required: false}
-                        - {label: Link, name: url, widget: string, required: false}
+              - { label: Name, name: title, widget: string }
+              - { label: Link, name: url, widget: string, required: false }
+              - {
+                  label: Active Paths,
+                  name: active_paths,
+                  widget: string,
+                  required: false,
+                }
+              - label: Sub Options
+                name: options
+                required: false
+                widget: "list"
+                fields:
+                  - { label: Text, name: text, widget: string, required: false }
+                  - { label: Link, name: url, widget: string, required: false }
+                  - label: "Sub Items"
+                    name: options
+                    widget: list
+                    required: false
+                    fields:
+                      - {
+                          label: Text,
+                          name: text,
+                          widget: string,
+                          required: false,
+                        }
+                      - {
+                          label: Link,
+                          name: url,
+                          widget: string,
+                          required: false,
+                        }
   - label: "Pages"
     name: "pages"
     folder: "_pages"
@@ -413,14 +587,44 @@ collections:
       This collection allows you to add/edit/delete pages on Linaro.org.
     slug: "{{permalink}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "URL", name: "permalink", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: list, allow_add: true, hint: "Add meta tag keywords"}
-      - {label: "Page Tag", name: "tag", widget: string, hint: "Tag pages to create a collection of related pages. If you're not sure then leave this blank.", required: false}
-      - {label: "Custom JS Package", name: "js-package", widget: hidden, default: "main", required: false}
-      - {label: "Custom CSS Package", name: "css_bundle", widget: hidden, default: "main", required: false}
-      - {label: "Layout", name: "layout", widget: hidden, default: "flow", required: true}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "URL", name: "permalink", widget: "string" }
+      - {
+          label: "Keywords",
+          name: "keywords",
+          widget: list,
+          allow_add: true,
+          hint: "Add meta tag keywords",
+        }
+      - {
+          label: "Page Tag",
+          name: "tag",
+          widget: string,
+          hint: "Tag pages to create a collection of related pages. If you're not sure then leave this blank.",
+          required: false,
+        }
+      - {
+          label: "Custom JS Package",
+          name: "js-package",
+          widget: hidden,
+          default: "main",
+          required: false,
+        }
+      - {
+          label: "Custom CSS Package",
+          name: "css_bundle",
+          widget: hidden,
+          default: "main",
+          required: false,
+        }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: hidden,
+          default: "flow",
+          required: true,
+        }
       - label: "Header"
         name: "jumbotron"
         widget: "object"
@@ -510,10 +714,34 @@ collections:
             name: buttons
             widget: list
             fields:
-                - {label: "Button Title", name: title, widget: string, required: false, hint: "The title of your button"}
-                - {label: "Button URL", name: url, widget: string, required: false, hint: "The url your button will link to."}
-                - {label: "Button Class", name: class, widget: string, required: false, hint: "Add an additional class to your button for custom styling."}
-                - {label: "Button Icon", name: icon, widget: string, required: false, hint: "Optionally add a font awesome icon to your button. Required format - 'fa fa-download' visit https://fontawesome.com/v4.7.0/icons/ for a full list of icons available."}
+              - {
+                  label: "Button Title",
+                  name: title,
+                  widget: string,
+                  required: false,
+                  hint: "The title of your button",
+                }
+              - {
+                  label: "Button URL",
+                  name: url,
+                  widget: string,
+                  required: false,
+                  hint: "The url your button will link to.",
+                }
+              - {
+                  label: "Button Class",
+                  name: class,
+                  widget: string,
+                  required: false,
+                  hint: "Add an additional class to your button for custom styling.",
+                }
+              - {
+                  label: "Button Icon",
+                  name: icon,
+                  widget: string,
+                  required: false,
+                  hint: "Optionally add a font awesome icon to your button. Required format - 'fa fa-download' visit https://fontawesome.com/v4.7.0/icons/ for a full list of icons available.",
+                }
           - label: "Background Carousel Images"
             name: "carousel-images"
             widget: "image"
@@ -530,7 +758,13 @@ collections:
             name: "row"
             widget: "select"
             default: "main_content_row"
-            options: ["main_content_row","container_row","full_width_row","custom_include_row"]
+            options:
+              [
+                "main_content_row",
+                "container_row",
+                "full_width_row",
+                "custom_include_row",
+              ]
             hint: "Select a row type to get started. Defaults to main_content_row which will display the 'Page Content' section inside a container."
           - label: "Custom Include Source"
             name: "source"
@@ -549,32 +783,89 @@ collections:
             required: false
             hint: "Add sections to your flow row (e.g title, feature_block, buttons, block, slider)"
             types:
-              - {label: "Section Format", name: "format", widget: "select", multiple: false, required: false,options: ['title','members', 'text','buttons','block','custom_include','tabs','feature_block', 'slider','youtube']}
+              - {
+                  label: "Section Format",
+                  name: "format",
+                  widget: "select",
+                  multiple: false,
+                  required: false,
+                  options:
+                    [
+                      "title",
+                      "members",
+                      "text",
+                      "buttons",
+                      "block",
+                      "custom_include",
+                      "tabs",
+                      "feature_block",
+                      "slider",
+                      "youtube",
+                    ],
+                }
               - label: Text
                 type: text
-                summary: '{{fields.text_content.text}}'
+                summary: "{{fields.text_content.text}}"
                 name: text
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Text Section Content"
                     name: "text_content"
                     widget: object
                     fields:
-                      - {label: "Text", widget: markdown, name: "text"}
+                      - { label: "Text", widget: markdown, name: "text" }
               - label: Title
                 type: title
                 name: title
                 typeKey: "format"
-                summary: '{{fields.title_content.text}}'
+                summary: "{{fields.title_content.text}}"
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Title Section Content"
                     name: "title_content"
                     widget: object
                     fields:
-                      - {label: "Text", name: text, required: false, widget: string, hint: "Text for your title"}
+                      - {
+                          label: "Text",
+                          name: text,
+                          required: false,
+                          widget: string,
+                          hint: "Text for your title",
+                        }
                       - label: "Title Size"
                         name: "size"
                         widget: select
@@ -590,7 +881,23 @@ collections:
                 name: block
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Blocks Section Content"
                     name: "block_section_content"
                     widget: object
@@ -601,37 +908,121 @@ collections:
                         name: item_width
                         widget: select
                         required: false
-                        options: ["3","4","6"]
+                        options: ["3", "4", "6"]
                       - label: "Blocks"
                         name: blocks
                         widget: list
                         hint: "Add the content for your blocks"
                         required: false
                         fields:
-                          - {label: "Block Title", name: title, widget: string, required: false}
-                          - {label: "Block URL", name: url, required: false, widget: string, hint: "Provide a url for your block to link to"}
-                          - {label: "Block Modal Content", name: modal_content, required: false, widget: markdown}
-                          - { label: "Block Background Image", name: background_image, widget: image, required: false, hint: "Provide a background image for your block"}
-                          - {label: Block Content Image, name: image, widget: image, required: false, hint: "An image to be displayed inside the block"}
-                          - {label: "Block Text", name: description, widget: markdown, required: false, hint: "Provide text content for your block"}
-                          - {label: Block Style, name: style, widget: string, required: false, hint: "CSS classes to be applied to a given block."}
-                          - {label: Block Content Style, name: content_style, widget: string, required: false, hint: "CSS classes to be applied to a given blocks content."}
+                          - {
+                              label: "Block Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Block URL",
+                              name: url,
+                              required: false,
+                              widget: string,
+                              hint: "Provide a url for your block to link to",
+                            }
+                          - {
+                              label: "Block Modal Content",
+                              name: modal_content,
+                              required: false,
+                              widget: markdown,
+                            }
+                          - {
+                              label: "Block Background Image",
+                              name: background_image,
+                              widget: image,
+                              required: false,
+                              hint: "Provide a background image for your block",
+                            }
+                          - {
+                              label: Block Content Image,
+                              name: image,
+                              widget: image,
+                              required: false,
+                              hint: "An image to be displayed inside the block",
+                            }
+                          - {
+                              label: "Block Text",
+                              name: description,
+                              widget: markdown,
+                              required: false,
+                              hint: "Provide text content for your block",
+                            }
+                          - {
+                              label: Block Style,
+                              name: style,
+                              widget: string,
+                              required: false,
+                              hint: "CSS classes to be applied to a given block.",
+                            }
+                          - {
+                              label: Block Content Style,
+                              name: content_style,
+                              widget: string,
+                              required: false,
+                              hint: "CSS classes to be applied to a given blocks content.",
+                            }
                           - label: "Block Buttons"
                             name: buttons
                             widget: list
                             required: false
                             identifier_field: url
                             fields:
-                            - {label: "Button Title", name: "title", widget: string, required: false}
-                            - {label: "Button URL", name: "url", widget: string, required: false}
-                            - {label: "Button Icon", name: "icon", required: false, widget: string, hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons"}
-                            - {label: "Button Style", name: "style", widget: string, required: false, hint: "btn-primary, btn-secondary, btn-danger, btn-warning"}
+                              - {
+                                  label: "Button Title",
+                                  name: "title",
+                                  widget: string,
+                                  required: false,
+                                }
+                              - {
+                                  label: "Button URL",
+                                  name: "url",
+                                  widget: string,
+                                  required: false,
+                                }
+                              - {
+                                  label: "Button Icon",
+                                  name: "icon",
+                                  required: false,
+                                  widget: string,
+                                  hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                                }
+                              - {
+                                  label: "Button Style",
+                                  name: "style",
+                                  widget: string,
+                                  required: false,
+                                  hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                                }
               - label: Tabs
                 type: tabs
                 name: tabs
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Tabs Section Content"
                     name: "tabs"
                     widget: list
@@ -653,7 +1044,23 @@ collections:
                 name: feature_block
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Feature Block Section Content"
                     name: "feature_block_content"
                     widget: object
@@ -663,7 +1070,7 @@ collections:
                       - label: Position
                         name: "position"
                         widget: select
-                        options: ['left','right']
+                        options: ["left", "right"]
                         required: false
                         hint: "Align your feature block media content to the left or the right."
                       - label: Text
@@ -679,7 +1086,7 @@ collections:
                       - label: Type
                         name: "type"
                         widget: select
-                        options: ['youtube_video','image', 'slider']
+                        options: ["youtube_video", "image", "slider"]
                         hint: "Select the media type for your feature block"
                         required: false
                       - label: "Image Content"
@@ -692,40 +1099,131 @@ collections:
                         widget: object
                         required: false
                         fields:
-                          - {label: YouTube Video URL, name: url, widget: string, required: false}
-                          - {label: Poster Image, name: poster_image, widget: image, required: false, hint: "The image to be displayed before the video is played."}
+                          - {
+                              label: YouTube Video URL,
+                              name: url,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: Poster Image,
+                              name: poster_image,
+                              widget: image,
+                              required: false,
+                              hint: "The image to be displayed before the video is played.",
+                            }
                       - label: "Feature block buttons"
                         name: buttons
                         widget: list
                         required: false
                         fields:
-                        - {label: "Button Title", name: "title", widget: string, required: false}
-                        - {label: "Button URL", name: "url", widget: string, required: false}
-                        - {label: "Button Icon", name: "icon", required: false, widget: string, hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons"}
-                        - {label: "Button Style", name: "class", widget: string, required: false, hint: "btn-primary, btn-secondary, btn-danger, btn-warning"}
+                          - {
+                              label: "Button Title",
+                              name: "title",
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Button URL",
+                              name: "url",
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Button Icon",
+                              name: "icon",
+                              required: false,
+                              widget: string,
+                              hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                            }
+                          - {
+                              label: "Button Style",
+                              name: "class",
+                              widget: string,
+                              required: false,
+                              hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                            }
                   - label: "Slider Content"
                     name: "slider_content"
                     widget: object
                     hint: "The content details of a slider section"
                     required: false
                     fields:
-                      - {label: "Enable Lightbox", name: lightbox_enabled, widget: boolean, required: false, hint: "Allow slider images to show in a lightbox (popup)"}
-                      - {label: "Slide Delay", name: seconds_per_slide, widget: "number", required: false}
-                      - {label: "Enable Arrow Navigation", name: nav, widget: boolean, required: false, hint: "Toggle the arrow navigation on the slider"}
-                      - {label: "Enable Slider Dots", name: dots, widget: boolean, required: false, hint: "Toggle the slider dots"}
-                      - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", required: false}
-                      - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", required: false}
-                      - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", required: false}
-                      - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", required: false}
+                      - {
+                          label: "Enable Lightbox",
+                          name: lightbox_enabled,
+                          widget: boolean,
+                          required: false,
+                          hint: "Allow slider images to show in a lightbox (popup)",
+                        }
+                      - {
+                          label: "Slide Delay",
+                          name: seconds_per_slide,
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Enable Arrow Navigation",
+                          name: nav,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the arrow navigation on the slider",
+                        }
+                      - {
+                          label: "Enable Slider Dots",
+                          name: dots,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the slider dots",
+                        }
+                      - {
+                          label: "Mobile Items (XS)",
+                          name: "xs_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Tablet Items (SM)",
+                          name: "sm_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Small Desktop Items (MD)",
+                          name: "md_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Desktop Items (LG)",
+                          name: "lg_items",
+                          widget: "number",
+                          required: false,
+                        }
                       - label: "Slider Items"
                         name: items
                         widget: list
                         required: false
                         hint: "A list of items to display in the slider section"
                         fields:
-                          - {label: "Image", name: image, widget: image, required: false}
-                          - {label: "Alt", name: alt, widget: string, required: false}
-                          - {label: "Title", name: title, widget: string, required: false}
+                          - {
+                              label: "Image",
+                              name: image,
+                              widget: image,
+                              required: false,
+                            }
+                          - {
+                              label: "Alt",
+                              name: alt,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
                   - label: "Slider Items Data Source"
                     name: source
                     widget: string
@@ -736,30 +1234,104 @@ collections:
                 name: slider
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Slider Section Content"
                     name: "slider_content"
                     widget: object
                     hint: "The content details of a slider section"
                     required: false
                     fields:
-                      - {label: "Enable Lightbox", name: lightbox_enabled, widget: boolean, required: false, hint: "Allow slider images to show in a lightbox (popup)"}
-                      - {label: "Slide Delay", name: seconds_per_slide, widget: "number", required: false}
-                      - {label: "Enable Arrow Navigation", name: nav, widget: boolean, required: false, hint: "Toggle the arrow navigation on the slider"}
-                      - {label: "Enable Slider Dots", name: dots, widget: boolean, required: false, hint: "Toggle the slider dots"}
-                      - {label: "Mobile Items (XS)", name: "xs_items", widget: "number", required: false}
-                      - {label: "Tablet Items (SM)", name: "sm_items", widget: "number", required: false}
-                      - {label: "Small Desktop Items (MD)", name: "md_items", widget: "number", required: false}
-                      - {label: "Desktop Items (LG)", name: "lg_items", widget: "number", required: false}
+                      - {
+                          label: "Enable Lightbox",
+                          name: lightbox_enabled,
+                          widget: boolean,
+                          required: false,
+                          hint: "Allow slider images to show in a lightbox (popup)",
+                        }
+                      - {
+                          label: "Slide Delay",
+                          name: seconds_per_slide,
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Enable Arrow Navigation",
+                          name: nav,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the arrow navigation on the slider",
+                        }
+                      - {
+                          label: "Enable Slider Dots",
+                          name: dots,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the slider dots",
+                        }
+                      - {
+                          label: "Mobile Items (XS)",
+                          name: "xs_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Tablet Items (SM)",
+                          name: "sm_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Small Desktop Items (MD)",
+                          name: "md_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Desktop Items (LG)",
+                          name: "lg_items",
+                          widget: "number",
+                          required: false,
+                        }
                       - label: "Slider Items"
                         name: items
                         widget: list
                         required: false
                         hint: "A list of items to display in the slider section"
                         fields:
-                          - {label: "Image", name: image, widget: image, required: false}
-                          - {label: "Alt", name: alt, widget: string, required: false}
-                          - {label: "Title", name: title, widget: string, required: false}
+                          - {
+                              label: "Image",
+                              name: image,
+                              widget: image,
+                              required: false,
+                            }
+                          - {
+                              label: "Alt",
+                              name: alt,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
                       - label: "Slider Items Data Source"
                         name: source
                         widget: string
@@ -770,24 +1342,78 @@ collections:
                 name: buttons
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Buttons Section Content"
                     name: "buttons_content"
                     widget: list
                     hint: "Content for the buttons section"
                     required: false
                     fields:
-                      - {label: "Button Title", name: "title", widget: string, required: false}
-                      - {label: "Button URL", name: "url", widget: string, required: false}
-                      - {label: "Button Icon", name: "icon", required: false, widget: string, hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons"}
-                      - {label: "Button Style", name: "style", widget: string, required: false, hint: "btn-primary, btn-secondary, btn-danger, btn-warning"}
+                      - {
+                          label: "Button Title",
+                          name: "title",
+                          widget: string,
+                          required: false,
+                        }
+                      - {
+                          label: "Button URL",
+                          name: "url",
+                          widget: string,
+                          required: false,
+                        }
+                      - {
+                          label: "Button Icon",
+                          name: "icon",
+                          required: false,
+                          widget: string,
+                          hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                        }
+                      - {
+                          label: "Button Style",
+                          name: "style",
+                          widget: string,
+                          required: false,
+                          hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                        }
               - label: YouTube
                 type: youtube
                 name: youtube
                 widget: "object"
-                summary: '{{fields.title}}'
+                summary: "{{fields.title}}"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "YouTube URL"
                     name: "url"
                     widget: string
@@ -803,7 +1429,23 @@ collections:
                 name: members
                 widget: "object"
                 fields:
-                  - {label: "Section Style", name: "style", widget: "select", options: ['zoom', 'grayscale', 'fixed', 'block_row', 'text-center', 'text-white', ], multiple, true, hint: "Add a style to your section.", required: false}
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
                   - label: "Members Section Content"
                     name: "members_content"
                     widget: object
@@ -814,9 +1456,9 @@ collections:
                         name: item_width
                         widget: select
                         required: false
-                        options: ["3","4","6","5ths"]
+                        options: ["3", "4", "6", "5ths"]
                       - label: "Members Jekyll Data File Source"
-                        name: item_width
+                        name: source
                         widget: string
                         required: false
                         hint: "Advanced: Use a Jekyll Data file for the source of the members"
@@ -826,14 +1468,31 @@ collections:
                         hint: "List of members"
                         required: false
                         fields:
-                          - {label: "Member Name", name: "name", widget: string, required: false}
+                          - {
+                              label: "Member Name",
+                              name: "name",
+                              widget: string,
+                              required: false,
+                            }
                           - label: "Member Image"
                             name: "image"
                             widget: object
                             required: false
                             fields:
-                              - {label: "Image", name: "path", widget: image, required: false, hint: "Full path to your image"}
-                              - {label: "Image Alt", name: "alt", widget: string, required: false, hint: "Alt tag for your image"}
+                              - {
+                                  label: "Image",
+                                  name: "path",
+                                  widget: image,
+                                  required: false,
+                                  hint: "Full path to your image",
+                                }
+                              - {
+                                  label: "Image Alt",
+                                  name: "alt",
+                                  widget: string,
+                                  required: false,
+                                  hint: "Alt tag for your image",
+                                }
                           - label: "Member URL"
                             name: "url"
                             widget: string
@@ -841,7 +1500,7 @@ collections:
                             hint: "URL for the member/company website"
               - label: Custom Include Section
                 type: custom_include
-                summary: '{{fields.source}}'
+                summary: "{{fields.source}}"
                 name: custom_include
                 widget: "object"
                 fields:
@@ -855,13 +1514,18 @@ collections:
         widget: image
         default: "/assets/images/social-media-image.png"
         required: false
-      - {label: "Page Content", name: "body", widget: "markdown", required: false}
-  - name: 'news'
-    label: 'News Posts'
-    folder: '_posts/current/news'
+      - {
+          label: "Page Content",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }
+  - name: "news"
+    label: "News Posts"
+    folder: "_posts/current/news"
     create: true
     sort: "date:desc" # Default is title:asc
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "/news/{{title}}/"
     description: >
       This collection allows you to add/edit/delete news posts on the Linaro.org. Please upload/select a high resolution
@@ -869,10 +1533,21 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'text', hint: "The description of your blog post. Used in the meta:description field for SEO" }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          hint: "The description of your blog post. Used in the meta:description field for SEO",
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
       - label: "Image"
         name: image
         widget: image
@@ -887,23 +1562,23 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - { label: "Category", name: "category", widget: hidden, default: "News"}
+      - { label: "Category", name: "category", widget: hidden, default: "News" }
       - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'authors',
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
           displayFields: [name],
           searchFields: [name],
-          valueField: 'username'
+          valueField: "username",
         }
-      - { label: 'Post Content', name: 'body', widget: 'markdown'}
-  - name: 'blog'
-    label: 'Blog Posts'
-    folder: '_posts/current/blog'
+      - { label: "Post Content", name: "body", widget: "markdown" }
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts/current/blog"
     create: true
     sort: "date:desc" # Default is title:asc
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "/blog/{{title}}/"
     description: >
       This collection allows you to add/edit/delete blog posts on the Linaro.org. Please upload/select a high resolution
@@ -911,10 +1586,21 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'text', hint: "The description of your blog post. Used in the meta:description field for SEO" }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          hint: "The description of your blog post. Used in the meta:description field for SEO",
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
       - label: "Image"
         name: image
         widget: image
@@ -929,32 +1615,48 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - {label: "Category", name: "category", widget: hidden, default: "Blog"}
+      - label: "Related Project"
+        name: related_project
+        widget: relation
+        collection: projects_data
+        file: "projects"
+        searchFields: ["projects.*.key"]
+        display_fields: ["projects.*.key"]
+        valueField: "projects.*.key"
+        multiple: true
+        hint: "Tag a single related project"
+      - { label: "Category", name: "category", widget: hidden, default: "Blog" }
       - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'authors',
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
           displayFields: [name],
           searchFields: [name],
-          valueField: 'username'
+          valueField: "username",
         }
-      - { label: 'Post Content', name: 'body', widget: 'markdown'}
-  - name: 'older_posts'
-    label: 'Older Posts'
-    folder: '_posts/previous'
+      - { label: "Post Content", name: "body", widget: "markdown" }
+  - name: "older_posts"
+    label: "Older Posts"
+    folder: "_posts/previous"
     create: true
     sort: "date:desc" # Default is title:asc
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "/blog/{{title}}/"
     description: >
       This collection allows you to add/edit/delete older posts on the Linaro.org. This is predominantly used for fixing broken links.
     editor:
       preview: true
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
       - label: "Image"
         name: image
         widget: image
@@ -969,79 +1671,190 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - {label: "Category", name: "category", widget: select, options: ["Blog", "News"]}
       - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'authors',
+          label: "Category",
+          name: "category",
+          widget: select,
+          options: ["Blog", "News"],
+        }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
           displayFields: [name],
           searchFields: [name],
-          valueField: 'username'
+          valueField: "username",
         }
-      - { label: 'Post Content', name: 'body', widget: 'markdown'}
-  - name: 'events'
-    label: 'Events'
-    folder: '_posts/events'
+      - { label: "Post Content", name: "body", widget: "markdown" }
+  - name: "events"
+    label: "Events"
+    folder: "_posts/events"
     create: true
     sort: "date:desc" # Default is title:asc
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "/events/{{title}}/"
     description: >
       This section allows you to add/edit/delete an event that is listed at linaro.org/events/
     editor:
       preview: true
     fields:
-      - { label: 'Event Title', name: 'title', widget: 'string'}
-      - { label: 'Event unique ID', name: 'event', widget: 'string', hint: 'Add a unique id to reference in event resources. I.e third-edge-computing-forum' }
-      - { label: 'Event URL', name: 'event_url', widget: 'string', hint: 'Provide a link to the event website.', required: false}
-      - { label: 'Event Description', name: 'description', widget: 'text', hint: 'Description of your event.'}
-      - { label: 'Event Location', name: 'location', widget: 'text', hint: 'The location of the event.', required: false}
-      - { label: 'Post Publish Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
-      - { label: 'Event Start Date', name: 'event_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
-      - { label: 'Event End Date', name: 'event_end_date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
-      - { label: "Event Image", name: "image", widget: image, required: true, hint: 'Add an event image.'}
-      - { label: "Event Type", name: "event_type", widget: "select", options: ["attend", "sponsor", "workshop", "presenter", "webinar"], hint: "The type of event that we are listing."}
-      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Any additional information for your event.', required: false}
-  - name: 'event_resources'
-    label: 'Events Resources'
-    folder: '_posts/events/resources'
+      - { label: "Event Title", name: "title", widget: "string" }
+      - {
+          label: "Event unique ID",
+          name: "event",
+          widget: "string",
+          hint: "Add a unique id to reference in event resources. I.e third-edge-computing-forum",
+        }
+      - {
+          label: "Event URL",
+          name: "event_url",
+          widget: "string",
+          hint: "Provide a link to the event website.",
+          required: false,
+        }
+      - {
+          label: "Event Description",
+          name: "description",
+          widget: "text",
+          hint: "Description of your event.",
+        }
+      - {
+          label: "Event Location",
+          name: "location",
+          widget: "text",
+          hint: "The location of the event.",
+          required: false,
+        }
+      - {
+          label: "Post Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
+      - {
+          label: "Event Start Date",
+          name: "event_date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
+      - {
+          label: "Event End Date",
+          name: "event_end_date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
+      - {
+          label: "Event Image",
+          name: "image",
+          widget: image,
+          required: true,
+          hint: "Add an event image.",
+        }
+      - {
+          label: "Event Type",
+          name: "event_type",
+          widget: "select",
+          options: ["attend", "sponsor", "workshop", "presenter", "webinar"],
+          hint: "The type of event that we are listing.",
+        }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "Any additional information for your event.",
+          required: false,
+        }
+  - name: "event_resources"
+    label: "Events Resources"
+    folder: "_posts/events/resources"
     create: true
     sort: "date:desc" # Default is title:asc
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "/events/{{title}}/"
     description: >
       This section allows you to add/edit/delete an event resource for an event based on the uid set for the event.
     editor:
       preview: true
     fields:
-      - { label: 'Resource Title', name: 'title', widget: 'string'}
-      - { label: 'Resource Description', name: 'description', widget: 'text'}
-      - label: 'Event'
-        name: 'event'
+      - { label: "Resource Title", name: "title", widget: "string" }
+      - { label: "Resource Description", name: "description", widget: "text" }
+      - label: "Event"
+        name: "event"
         widget: relation
         collection: "events"
         searchFields: ["title"]
         dispalyFields: ["title"]
         valueField: "event"
-        hint: 'Add the unique id of an event (set on an event). I.e third-edge-computing-forum'
-      - { label: 'Resource Date', name: 'date', widget: 'datetime', format: "YYYY-MM-DD hh:mm:ss", pickerUtc: true}
-      - { label: 'Resource Image', name: 'image', widget: 'image', hint: 'Add an image for the resource. I.e screen cap of the youtube video'}
-      - { label: 'Resource Youtube Video URL', name: 'youtube_video_url', widget: 'string', hint: 'Provide a youtube video of the event resource.', required: false}
-      - { label: 'Resource Presentation URL', name: 'amazon_s3_presentation_url', widget: 'string', hint: 'Add a link to the resource presentation. Url must be to a PDF of the slides.', required: false}
-      - label: 'Resource Speakers'
+        hint: "Add the unique id of an event (set on an event). I.e third-edge-computing-forum"
+      - {
+          label: "Resource Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+          pickerUtc: true,
+        }
+      - {
+          label: "Resource Image",
+          name: "image",
+          widget: "image",
+          hint: "Add an image for the resource. I.e screen cap of the youtube video",
+        }
+      - {
+          label: "Resource Youtube Video URL",
+          name: "youtube_video_url",
+          widget: "string",
+          hint: "Provide a youtube video of the event resource.",
+          required: false,
+        }
+      - {
+          label: "Resource Presentation URL",
+          name: "amazon_s3_presentation_url",
+          widget: "string",
+          hint: "Add a link to the resource presentation. Url must be to a PDF of the slides.",
+          required: false,
+        }
+      - label: "Resource Speakers"
         name: "speakers"
         widget: "list"
         required: false
         fields:
-          - {label: "Name", widget: string, name: "name", hint: "The name of the speaker"}
-          - {label: "Bio", widget: text, name: "biography", hint: "The bio of the speaker"}
-          - {label: "Job Title", widget: string, name: "job-title", hint: "Job title of the speaker"}
-          - {label: "Company", widget: string, name: "company", hint: "Thes speaker's company."}
-      - { label: 'Event Abstract/Details', name: 'body', widget: 'markdown', hint: 'Any additional information for your event resource/session.'}
-  - name: 'authors'
-    label: 'Authors'
-    folder: '_authors'
+          - {
+              label: "Name",
+              widget: string,
+              name: "name",
+              hint: "The name of the speaker",
+            }
+          - {
+              label: "Bio",
+              widget: text,
+              name: "biography",
+              hint: "The bio of the speaker",
+            }
+          - {
+              label: "Job Title",
+              widget: string,
+              name: "job-title",
+              hint: "Job title of the speaker",
+            }
+          - {
+              label: "Company",
+              widget: string,
+              name: "company",
+              hint: "Thes speaker's company.",
+            }
+      - {
+          label: "Event Abstract/Details",
+          name: "body",
+          widget: "markdown",
+          hint: "Any additional information for your event resource/session.",
+        }
+  - name: "authors"
+    label: "Authors"
+    folder: "_authors"
     preview_path: "/authors/{{slug}}/"
     create: true
     identifier_field: name
@@ -1051,13 +1864,33 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Name', name: 'name', widget: 'string', required: true}
-      - { label: 'First Name', name: 'first_name', widget: 'string', required: true}
-      - { label: 'Last Name', name: 'last_name', widget: 'string', required: true}
-      - { label: 'Username', name: 'username', widget: 'string', required: true}
-      - label: 'Image'
-        name: 'image'
-        widget: 'image'
-        default: '/assets/images/content/avatar-placeholder.png'
+      - { label: "Name", name: "name", widget: "string", required: true }
+      - {
+          label: "First Name",
+          name: "first_name",
+          widget: "string",
+          required: true,
+        }
+      - {
+          label: "Last Name",
+          name: "last_name",
+          widget: "string",
+          required: true,
+        }
+      - {
+          label: "Username",
+          name: "username",
+          widget: "string",
+          required: true,
+        }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        default: "/assets/images/content/avatar-placeholder.png"
         required: true
-      - { label: 'Biography', name: 'body', widget: 'markdown', required: false}
+      - {
+          label: "Biography",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }

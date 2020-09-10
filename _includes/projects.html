@@ -1,7 +1,7 @@
 <div class="row content-row" id="projects">
     <div class="container">
         <div id="accordion">
-            {% for project in site.data.projects %}
+            {% for project in site.data.projects["projects"] %}
                 <div class="card mb-3">
                     <div class="card-header" id="heading-{{project["key"]}}">
                         <h5 class="mb-0">
