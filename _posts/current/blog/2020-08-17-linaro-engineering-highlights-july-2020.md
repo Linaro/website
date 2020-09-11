@@ -24,6 +24,8 @@ tags:
   - Toolchain Working Group
 category: Blog
 author: jon.burcham@linaro.org
+related_projects:
+- AI
 ---
 # Introducing TuxMake
 
