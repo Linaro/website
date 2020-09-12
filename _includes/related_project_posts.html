@@ -1,0 +1,21 @@
+<div class="col col-12 ">
+    {% assign related_blogs = '' | split: ',' %}
+    {% for post in site.posts %}
+        {% if post.related_projects contains page.key %}
+            {% assign related_blogs = related_blogs | push: post %}
+        {% endif %}
+    {% endfor %}
+    {% assign related_blogs_len = related_blogs | size %}
+    <div class="row py-0">
+        <div class="col col-12 mb-4">
+            <h1>{{page.key}} Related Posts</h1>
+        </div>
+    </div>
+    {% if related_blogs_len > 0 %}
+        {% include blog/display_latest_posts.html posts=related_blogs %}
+    {% else %}
+        <p class="blockquote">
+            There are no {{page.key}} related posts available.
+        </p>
+    {% endif %}
+</div>
