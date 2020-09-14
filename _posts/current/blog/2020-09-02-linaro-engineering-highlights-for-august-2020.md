@@ -147,4 +147,6 @@ With the considerable effort being put in to the LKFT and its supporting Tux sui
 5. Kernel CI
 6. Coverity
 
-Ref: \[1] Author: Steven J. Vaughan-Nichols for Linux and Open Source. \[2] [2020_kernel_history_report_082620v2.pdf](https://www.linuxfoundation.org/wp-content/uploads/2020/08/2020_kernel_history_report_082620v2.pdf)
+Ref: \[1] Author: Steven J. Vaughan-Nichols for Linux and Open Source.
+
+\[2] [2020_kernel_history_report_082620v2.pdf](https://www.linuxfoundation.org/wp-content/uploads/2020/08/2020_kernel_history_report_082620v2.pdf)
