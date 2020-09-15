@@ -290,6 +290,7 @@
     "^/planet/source(/?|/index.html)$ /planet/ [R,L,NC]",
     "^/press(/?|/index.html)$ /contact/ [R,L,NC]",
     "^/professional-services(/?|/index.html)$ /services/ [R,L,NC]",
+    "^/projects/(.*)(/?|/index.html)$ /projects/#\\U$1 [R,L,NC]",
     "^/projects/digital-home(/?|/index.html)$ /groups/lhg/ [R,L,NC]",
     "^/projects/armv8(/?|/index.html)$ /engineering/ [R,L,NC]",
     "^/projects/opendataplane(/?|/index.html)$ https://opendataplane.org [R,L,NC]",
