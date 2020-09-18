@@ -51,7 +51,7 @@ The transition states are very fast (less than 1ms) so the scheduler can accommo
 
 Each performance states power consumption is based on the formula:
 
-{% include image.html path="/assets/images/content/formula.png" class="small-inline left" alt="Power = C x freq x V squared" %}
+{% include image.html path="/assets/images/content/formula.png" alt="Power = C x freq x V squared" %}
 
 The symbol C is the capacitance, a constant depending on the technology, freq is the frequency in Hertz and V is the voltage. To ensure the stability of the system, when the frequency is increased the voltage must also increase, and since voltage is squared, the resulting power consumption is quadratic as shown in the figure below for an ARM64 dev board:
 
