@@ -6,7 +6,7 @@ description: Some intensive tasks can necesitate the Linux kernel to cope with
   provide a way to cool down the CPUs if the Dynamic Voltage Frequency Scaling
   (DVFS) is not available. In this article we focus on a new technique to cool
   down the CPUs.
-date: 2020-08-19T01:01:31.000Z
+date: 2020-09-18 11:22:11
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
   - Idle injection
