@@ -6,7 +6,7 @@ description: Some intensive tasks can necesitate the Linux kernel to cope with
   provide a way to cool down the CPUs if the Dynamic Voltage Frequency Scaling
   (DVFS) is not available. In this article we focus on a new technique to cool
   down the CPUs.
-date: 2020-09-18 11:22:11
+date: 2020-09-18T11:22:11.000Z
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
   - Idle injection
@@ -51,7 +51,7 @@ The transition states are very fast (less than 1ms) so the scheduler can accommo
 
 Each performance states power consumption is based on the formula:
 
-{% include image.html path="/assets/images/content/formula.png" alt="Power = C x freq x V squared" %}
+{% include image.html path="/assets/images/content/formula.png" class="small-inline left" alt="Power = C x freq x V squared" %}
 
 The symbol C is the capacitance, a constant depending on the technology, freq is the frequency in Hertz and V is the voltage. To ensure the stability of the system, when the frequency is increased the voltage must also increase, and since voltage is squared, the resulting power consumption is quadratic as shown in the figure below for an ARM64 dev board:
 
