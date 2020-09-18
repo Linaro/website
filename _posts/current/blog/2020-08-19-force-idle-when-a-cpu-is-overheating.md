@@ -4,7 +4,7 @@ title: Force Idle When a CPU Is Overheating
 description: Some intensive tasks can necesitate the Linux kernel to cope with
   high temperatures. On embedded systems, passive cooling is mandatory to
   provide a way to cool down the CPUs if the Dynamic Voltage Frequency Scaling
-  (DVFS) is not available. In this article I focus on a new technique to cool
+  (DVFS) is not available. In this article we focus on a new technique to cool
   down the CPUs.
 date: 2020-08-19T01:01:31.000Z
 image: /assets/images/content/chip_background_under_2mb.jpg
@@ -98,7 +98,7 @@ The idle task is the last one to be run and it will just enter an idle routine, 
 
 In order to put the CPU in a power down state, a specific routine has been implemented to force the current CPU to enter an idle state.
 
-\###Idle injection to cool down the CPUs
+### Idle injection to cool down the CPUs
 
 On embedded systems, passive cooling is mandatory and it’s critical to provide a way to cool down the CPUs if the DVFS is not available.
 
