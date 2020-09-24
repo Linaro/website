@@ -140,7 +140,7 @@ $(document).ready(function () {
           other_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${random_items[i].image_webp}" type="image/webp">
-                <img class="mr-3 img-thumbnail suggested_post_thumb lazyloaded" 
+                <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
                 src="${random_items[i].image}" alt="${random_items[i].title} featured image">
               </picture>
               <div class="media-body">
@@ -167,7 +167,7 @@ $(document).ready(function () {
           latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${random_items[i].image_webp}" type="image/webp">
-                <img class="mr-3 img-thumbnail suggested_post_thumb lazyloaded" 
+                <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
                 src="${random_items[i].image}" alt="${random_items[i].title} featured image">
               </picture>
               <div class="media-body">
