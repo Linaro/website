@@ -116,6 +116,31 @@ $(document).ready(function () {
       onlyIfScroll: true,
     });
   }
+
+  // Latest Posts
+  if ($("#latest-posts-section").length > 0) {
+    var recentPosts, latest_posts_elements;
+    $.getJSON("/assets/json/recentPosts.json", function(data){
+        recentPosts = data;
+        for(let i=0;i<recentPosts.length; i++){
+          latest_posts_elements += `<li class="media flex-column flex-sm-row">
+              <div class="media-body">
+                  <a href="${recentPosts[i].url}">
+                      <h5 class="mt-0 mb-1">${recentPosts[i].title}</h5>
+                      <em class="suggested_post_date">${new Date(recentPosts[i].date_published).toDateString()}</em>
+                      <p>
+                      ${recentPosts[i].summary}
+                      </p>
+                  </a>
+              </div>
+          </li>`;
+        }
+        $("#latest-posts-section").html(latest_posts_elements);
+    }).fail(function(){
+        console.log("An error has occurred when fetching recent posts.");
+    });
+   
+  }
   // Theme navbar setup
   var wrapper = $("#wrapper");
   var universalNav = false;
