@@ -166,9 +166,9 @@ $(document).ready(function () {
         for(let i=0;i<data.length; i++){
           latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
-                <source srcset="${random_items[i].image_webp}" type="image/webp">
+                <source srcset="${data[i].image_webp}" type="image/webp">
                 <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
-                src="${random_items[i].image}" alt="${random_items[i].title} featured image">
+                src="${data[i].image}" alt="${data[i].title} featured image">
               </picture>
               <div class="media-body">
                   <a href="${data[i].url}">
