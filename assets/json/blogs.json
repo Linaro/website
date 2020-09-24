@@ -1,5 +1,5 @@
 ---
-permalink: /assets/json/blogs.json
+layout: null
 ---
 [{% for post in site.categories["Blog"] %}
     {
