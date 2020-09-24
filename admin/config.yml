@@ -90,57 +90,61 @@ collections:
         file: "_data/projects.json"
         widget: list
         fields:
-          - label: "Project Contact Information"
-            name: "Project Contact Information"
-            widget: object
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
             fields:
-              - label: "Meetings"
-                name: "Meetings"
-                widget: text
-              - label: "Point of Contact"
-                name: "Point of Contact"
-                widget: text
-          - label: "Project Information"
-            name: "Project Information"
-            widget: object
-            fields:
-              - label: "Health Check Report"
-                name: "Health Check Report"
-                widget: text
-              - label: "JIRA Structure"
-                name: "JIRA Structure"
-                widget: text
-              - label: "Plan Of Record"
-                name: "Plan Of Record"
-                widget: text
-              - label: "Project Homepage"
-                name: "Project Homepage"
-                widget: text
-              - label: "description"
-                name: "description"
-                widget: text
-              - label: "title"
-                name: "title"
-                widget: text
-          - label: "Project Ownership"
-            name: "Project Ownership"
-            widget: object
-            fields:
-              - label: "Governing Entity"
-                name: "Governing Entity"
-                widget: text
-              - label: "Project Owner"
-                name: "Project Owner"
-                widget: text
-              - label: "Technical Lead"
-                name: "Technical Lead"
-                widget: text
-          - label: "icon"
-            name: "icon"
-            widget: string
-          - label: "key"
-            name: "key"
-            widget: string
+            - label: "Project Contact Information"
+              name: "Project Contact Information"
+              widget: object
+              fields:
+                - label: "Meetings"
+                  name: "Meetings"
+                  widget: text
+                - label: "Point of Contact"
+                  name: "Point of Contact"
+                  widget: text
+            - label: "Project Information"
+              name: "Project Information"
+              widget: object
+              fields:
+                - label: "Health Check Report"
+                  name: "Health Check Report"
+                  widget: text
+                - label: "JIRA Structure"
+                  name: "JIRA Structure"
+                  widget: text
+                - label: "Plan Of Record"
+                  name: "Plan Of Record"
+                  widget: text
+                - label: "Project Homepage"
+                  name: "Project Homepage"
+                  widget: text
+                - label: "description"
+                  name: "description"
+                  widget: text
+                - label: "title"
+                  name: "title"
+                  widget: text
+            - label: "Project Ownership"
+              name: "Project Ownership"
+              widget: object
+              fields:
+                - label: "Governing Entity"
+                  name: "Governing Entity"
+                  widget: text
+                - label: "Project Owner"
+                  name: "Project Owner"
+                  widget: text
+                - label: "Technical Lead"
+                  name: "Technical Lead"
+                  widget: text
+            - label: "icon"
+              name: "icon"
+              widget: string
+            - label: "key"
+              name: "key"
+              widget: string
   - label: "Website Data Files & Settings"
     name: "config"
     editor:

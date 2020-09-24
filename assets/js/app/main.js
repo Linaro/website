@@ -390,7 +390,7 @@ $(document).ready(function () {
                 if (data.response.next_page && searchResults.length < limit) {
                   //   progress && progress(searchResults);
                   startPosition += 10;
-                  var nextUrl = `https://search.linaro.org/json/?fields.label=${searchLabel}&q=${searchVal}&start=${startPosition}`;
+                  var nextUrl = `https://search.linaro.org/json/?fields.label=${searchLabel}&q=${searchVal}&start=${startPosition}&sort=last_modified.desc`;
                   getSearchResults(
                     progress,
                     nextUrl,
@@ -427,7 +427,7 @@ $(document).ready(function () {
         timer = setTimeout(function () {
           var searchLabel = $("#post_search").data("search-label");
           var searchQuery = $("#search-input").val();
-          var searchUrl = `https://search.linaro.org/json/?fields.label=${searchLabel}&q=${searchQuery}&start=0`;
+          var searchUrl = `https://search.linaro.org/json/?fields.label=${searchLabel}&q=${searchQuery}&start=0&sort=last_modified.desc`;
           getSearchResults(
             0,
             searchUrl,

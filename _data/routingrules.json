@@ -189,6 +189,7 @@
     "^/engineering/working-groups(/?|/index.html)$ /about/organization/ [R,L,NC]",
     "^/latest/events/arm-hpc-santa-clara-2018(/?|/index.html)$ /events/arm-hpc-santa-clara-2018/ [R,L,NC]",
     "^/events/attended(/?|/index.html)$ /events/ [R,L,NC]",
+    "^/events/connect(/?|/index.html)$ /events/ [R,L,NC]",
     "^/events/workshops(/?|/index.html)$ /events/ [R,L,NC]",
     "^/events/workshop(/?|/index.html)$ /events/ [R,L,NC]",
     "^/events/arm-hpc-asia-2019/resources(/?|/index.html)$ /events/arm-hpc-asia-2019/ [R,L,NC]",

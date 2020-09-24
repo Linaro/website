@@ -275,13 +275,13 @@
         },
         {
             "Project Contact Information": {
-                "Meetings": "",
+                "Meetings": "<a href=\"https://collaborate.linaro.org/display/STR/calendars\">https://collaborate.linaro.org/display/STR/calendars</a>",
                 "Point of Contact": "<a href=\"https://op-lists.linaro.org/mailman/listinfo/stratos-dev\">Join the conversation</a> by subscribing to the project's mailing list."
             },
             "Project Information": {
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/STR?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
+                "Plan Of Record": "<a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQRC2DtoC-EOBMwf_3WgJE_QKiKgFB75pmtZqiX-70-j-sy4zy97DHDQUZCUqKSp-r-vwBAjMEX9WRj/pub?start=false&loop=false&delayms=3000\">Stratos Plan of record</a>",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/STR/Stratos\">https://collaborate.linaro.org/display/STR/Stratos</a>",
                 "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.  <br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
                 "title": "Stratos"
