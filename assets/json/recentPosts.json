@@ -1,12 +1,10 @@
 ---
 layout: null
 ---
-[
-    {% for post in site.categories["Blog"] %}
-    {
-        "title": "{{ post.title | escape }}",
-        "category": "{{ post.category }}",
-        "content": "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}",
+[{% for post in site.posts limit: 5 %}{
+        "id": "{{ post.id }}",
+        "title": {{ post.title | smartify | jsonify }},
+        "url": "{{ site.url }}{{ post.url }}",
         "image": "{% if post.image %}
             {% assign image_path = post.image  %}
             {% capture image_alt %}{{post.title}} image {% endcapture %}
@@ -21,15 +19,9 @@ layout: null
             {% assign image_path = site.post_placeholder  %}
             {% capture image_alt %}{{post.title}} placeholder image {% endcapture %}
         {% endif %}{% picture post_thumb_src_only_webp {{image_path}} %}",
-        "tags": "{{ post.tags | join: ', ' }}",
-        "url": "{{ site.baseurl }}{{ post.url }}",
-        "description": "{% if post.description %}
-                            {{post.description  | strip_html |  strip_newlines | remove_chars | escape}}
-                        {% else %}
-                            {{post.content | strip_html |  strip_newlines | remove_chars | escape | truncatewords:30}}
-                        {% endif %}",
-        "date": "{{ post.date | date: '%A, %B %-d, %Y' }}"
-    } {% unless forloop.last %},
-    {% endunless %}
-  {% endfor %}
-]
+        "summary": {% if post.description %}"{{post.description}}"{% else %}{{ post.excerpt | strip_html | smartify | jsonify }}{% endif %},
+        "date_published": "{{ post.date }}",
+        {% assign author = site.authors | where: "username", post.author | first %}
+        "author":"{{author.name}}",
+        "site":"{{site.url}}"
+    }{% unless forloop.last == true %},{% endunless %}{% endfor %}]

@@ -116,6 +116,76 @@ $(document).ready(function () {
       onlyIfScroll: true,
     });
   }
+  // Grab a sample of n size from arr
+  function getRandom(arr, n) {
+      var result = new Array(n),
+          len = arr.length,
+          taken = new Array(len);
+      if (n > len)
+          throw new RangeError("getRandom: more elements taken than available");
+      while (n--) {
+          var x = Math.floor(Math.random() * len);
+          result[n] = arr[x in taken ? taken[x] : x];
+          taken[x] = --len in taken ? taken[len] : len;
+      }
+      return result;
+  }
+
+  // Other Posts
+  if ($("#other-posts-section").length > 0) {
+    var other_posts_elements = "";
+    $.getJSON("/assets/json/posts.json", function(data){
+        var random_items = getRandom(data, 5);
+        for(let i=0;i<random_items.length; i++){
+          other_posts_elements += `<li class="media flex-column flex-sm-row">
+              <picture>
+                <source srcset="${random_items[i].image_webp}" type="image/webp">
+                <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
+                src="${random_items[i].image}" alt="${random_items[i].title} featured image">
+              </picture>
+              <div class="media-body">
+                  <a href="${random_items[i].url}">
+                      <h5 class="mt-0 mb-1">${random_items[i].title}</h5>
+                      <em class="suggested_post_date">${new Date(random_items[i].date).toDateString()}</em>
+                      <p>
+                      ${random_items[i].description}
+                      </p>
+                  </a>
+              </div>
+          </li>`;
+        }
+        $("#other-posts-section").html(other_posts_elements);
+    }).fail(function(){
+        console.log("An error has occurred when fetching recent posts.");
+    });
+  }
+  // Latest Posts
+  if ($("#latest-posts-section").length > 0) {
+    var latest_posts_elements = "";
+    $.getJSON("/assets/json/recentPosts.json", function(data){
+        for(let i=0;i<data.length; i++){
+          latest_posts_elements += `<li class="media flex-column flex-sm-row">
+              <picture>
+                <source srcset="${data[i].image_webp}" type="image/webp">
+                <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
+                src="${data[i].image}" alt="${data[i].title} featured image">
+              </picture>
+              <div class="media-body">
+                  <a href="${data[i].url}">
+                      <h5 class="mt-0 mb-1">${data[i].title}</h5>
+                      <em class="suggested_post_date">${new Date(data[i].date_published).toDateString()}</em>
+                      <p>
+                      ${data[i].summary}
+                      </p>
+                  </a>
+              </div>
+          </li>`;
+        }
+        $("#latest-posts-section").html(latest_posts_elements);
+    }).fail(function(){
+        console.log("An error has occurred when fetching recent posts.");
+    });
+  }
   // Theme navbar setup
   var wrapper = $("#wrapper");
   var universalNav = false;

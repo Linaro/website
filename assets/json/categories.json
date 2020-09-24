@@ -1,5 +1,5 @@
 ---
-permalink: /assets/json/categories.json
+layout: null
 ---
 [{% for category in site.categories %}{
 "name": "{{ category[0] | capitalize }}",
