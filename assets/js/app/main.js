@@ -119,17 +119,16 @@ $(document).ready(function () {
 
   // Latest Posts
   if ($("#latest-posts-section").length > 0) {
-    var recentPosts, latest_posts_elements;
+    var latest_posts_elements = "";
     $.getJSON("/assets/json/recentPosts.json", function(data){
-        recentPosts = data;
-        for(let i=0;i<recentPosts.length; i++){
+        for(let i=0;i<data.length; i++){
           latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <div class="media-body">
-                  <a href="${recentPosts[i].url}">
-                      <h5 class="mt-0 mb-1">${recentPosts[i].title}</h5>
-                      <em class="suggested_post_date">${new Date(recentPosts[i].date_published).toDateString()}</em>
+                  <a href="${data[i].url}">
+                      <h5 class="mt-0 mb-1">${data[i].title}</h5>
+                      <em class="suggested_post_date">${new Date(data[i].date_published).toDateString()}</em>
                       <p>
-                      ${recentPosts[i].summary}
+                      ${data[i].summary}
                       </p>
                   </a>
               </div>
