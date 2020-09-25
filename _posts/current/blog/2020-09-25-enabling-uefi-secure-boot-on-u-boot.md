@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Enabling UEFI Secure Boot on U-Boot
-description: TBC
+description: UEFI Secure Boot is a new feature introduced in the latest U-Boot
+  release, v2020.10. Secure Boot is a security framework in boot sequence which
+  is designed to protect the system from malware being executed by ensuring that
+  only trusted software is loaded and executed in the middle of transferring the
+  control from the firmware to the OS. This article looks at how it works and
+  what it is designed to protect you against.
 date: 2020-09-25T11:04:00.000Z
 image: /assets/images/content/tech_background_1.jpg
 tags:
