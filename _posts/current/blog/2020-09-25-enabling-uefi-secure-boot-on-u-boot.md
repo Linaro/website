@@ -5,19 +5,22 @@ description: TBC
 date: 2020-09-25T11:04:00.000Z
 image: /assets/images/content/tech_background_1.jpg
 tags:
-  - T
+  - UEFI Secure Boot
+  - U-Boot
+  - Unified Extensible Firmware Interface
+  - ""
 category: Blog
 author: takahiro.akashi@linaro.org
 ---
 # Enabling UEFI Secure Boot on U-Boot
 
-U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
+U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
 
 ## UEFI U-Boot
 
 UEFI (Unified Extensible Firmware Interface)\[1] is the specification developed by UEFI Forum to standardize interfaces between firmware and the OS's, aiming to replace legacy BIOS on PC architecture.
 
-Nowadays UEFI is everywhere. It has been the default on PC and server side, now so is on arm64 platforms. While U-Boot is still popular among embedded world, supporting generic interfaces like UEFI will make it much easier for users to bring a wider range of OS distributions to their platforms with minimized efforts and no customization. Remember that grub can support U-Boot's own APIs but only on arm port. No distributions support it on arm64 or x86.
+Nowadays UEFI is everywhere. It has been the default on PC and server side, so now is on arm64 platforms. While U-Boot is still popular among embedded world, supporting generic interfaces like UEFI will make it much easier for users to bring a wider range of OS distributions to their platforms with minimized efforts and no customization. Remember that grub can support U-Boot's own APIs but only on arm port. No distributions support it on arm64 or x86.
 
 Accordingly, a huge amount of effort has been devoted on developing UEFI interfaces on top of U-Boot framework since 2016. Linaro participated in this community activity since 2018 and worked together to help improve the functionality as well as the quality. (At Linaro we focus on the arm ecosystem, but those developments benefit other architectures as well. It might be worth mentioning that, in the latest release, risc-v is added to a list of supported architectures along with arm and x86.)
 
@@ -54,11 +57,12 @@ There are four main signature databases used here.
 * KEK (Key Enrollment Key)
 * db (allow-list of signatures)
 * dbx (deny-list of signatures)
-* "db" database may have x509 certificates, hashes of images as signatures and "dbx" may additionally contain hashes of certificates.
+
+"db" database may have x509 certificates, hashes of images as signatures and "dbx" may additionally contain hashes of certificates.
 
 An image will be granted for loading if 
 
-* it is signed and its signature is validated by one of certificates in "db" (there can be a number of intermediate certificates involved) or
+* it is signed and its signature is validated by one of the certificates in "db" (there can be a number of intermediate certificates involved) or
 * its message digest is found in "db"
 
 Likewise, any image will be refused if
@@ -69,7 +73,7 @@ Likewise, any image will be refused if
 
 In July, the security vulnerability, named "BootHole"\[5], has drawn people's attention. Grub, the de-facto boot loader for linux and other distributions, has a security attack vector due to memory overflow and may possibly allow attackers to execute arbitrary code bypassing UEFI Secure Boot on targeted systems.
 
-To eliminate this security hole, grub and hence shim must be updated, and at the same time, the chain of trusted boot sequence must also be modified to prevent any old and vulnerable version of software from being loaded and potentially exploited by malicious code. It is expected that, in future security fix, hashes of all affected binaries will be added to "dbx". (Additionally, shim will maintain its own signature database, MokList/MokListX (Machine Owner's Keys), per OS requests as well.)
+To eliminate this security hole, grub and hence shim must be updated, and at the same time, the chain of trusted boot sequence must also be modified to prevent any old and vulnerable version of software from being loaded and potentially exploited by malicious code. It is expected that, in future security fixes, hashes of all affected binaries will be added to "dbx". (Additionally, shim will maintain its own signature database, MokList/MokListX (Machine Owner's Keys), per OS requests as well.)
 
 All those signature databases above are kept and maintained as UEFI authenticated variables, which means that they are also protected with their own signatures and that updating their values must be granted by verifying the signatures. PK is used to verify KEK before altering its value, while KEK is a key for updating db and dbx.
 
@@ -77,7 +81,9 @@ Once PK is enrolled, UEFI Secure Boot is set to be in force. Since PK is the roo
 
 The current UEFI U-Boot provides two alternatives for non-volatile variable storage:
 
-a) a plain file on UEFI System Partition b) OP-TEE based variable service
+a) a plain file on UEFI System Partition
+
+b) OP-TEE based variable service
 
 While a filesystem in (a) doesn't provide any robust protection against being compromised, the secure service running under OP-TEE in (b), EDK-II Standalone Management Mode, is isolated, yet being proxied and accessible from non-secure U-Boot code. Thereby, the option (b) is the only fully secure solution for now. Required patches have been merged for U-Boot and OP-TEE, but some on EDK-II side are still pending.
 
@@ -116,7 +122,7 @@ $ guestfish -a redhat_fs.img
 
 This step is a bit tricky as, AFAIK, there is no website available from which a valid Red Hat certificate can be downloaded.
 
-Luckily any EFI application may hold associated certificates in its signature (with pkcs7 format), and 'shim.efi', which is to be loaded as the first EFI application, has been signed with "Red Hat Secure Boot (CA key 1)". You will have to dig into the signature's data structure and retrieve this certificate into a separate file.
+Luckily any EFI application may hold associated certificates in its signature (with pkcs7 format), and 'shim.efi', which is to be loaded as the first EFI application, which has been signed with "Red Hat Secure Boot (CA key 1)". You will have to dig into the signature's data structure and retrieve this certificate into a separate file.
 
 Details are not described here, but you can use "sbverify" command to extract signature data (or authenticode) from the binary and then use "openssl" command to examine and parse it to identify the offset and size of the certificate within it.
 
