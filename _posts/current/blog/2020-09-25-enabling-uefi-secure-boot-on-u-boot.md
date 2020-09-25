@@ -8,7 +8,11 @@ tags:
   - UEFI Secure Boot
   - U-Boot
   - Unified Extensible Firmware Interface
-  - ""
+  - QEMU
+  - UEFI
+  - Linux
+  - Linaro
+  - Arm
 category: Blog
 author: takahiro.akashi@linaro.org
 ---
