@@ -194,7 +194,7 @@ Please make a selection from the above \['b' to begin installation, 'q' to quit,
 
 You can configure the options as you like. The point here is on "5) Installation Destination". Select the disk created in step (2) as the destination and:
 
-1) \[X] Replace Existing Linux system(s)2) \[ ] Use All Space3) \[ ] Use Free Space4) \[ ] Manually assign mount pointsInstallation requires partitioning of your hard drive. Select what space to use for the install target or manually assign mount points.
+1. \[X] Replace Existing Linux system(s)2) \[ ] Use All Space3) \[ ] Use Free Space4) \[ ] Manually assign mount pointsInstallation requires partitioning of your hard drive. Select what space to use for the install target or manually assign mount points.
 
 Please make a selection from the above \['c' to continue, 'q' to quit, 'r' to refresh]: 
 
@@ -215,3 +215,30 @@ Please respond 'yes' or 'no':
 ```
 
 You can ignore this message and say 'yes'. What happened here was that the installer failed to set up UEFI variables relating to boot options, ie. "BootXXXX" and "BootOrder" as UEFI variables are not accessible from OS in runtime services.
+
+### 7. reboot the system
+
+Once you have successfully done the above steps, you will see in dmesg from efistub code and kernel:
+
+```
+EFI stub: Booting Linux Kernel...
+EFI stub: EFI_RNG_PROTOCOL unavailable, no randomness supplied
+EFI stub: UEFI Secure Boot is enabled.
+EFI stub: Using DTB from configuration table
+EFI stub: Exiting boot services and installing virtual address map...
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x411fd070]
+[    0.000000] Linux version 4.18.0-193.el8.aarch64 (mockbuild@arm64-025.build.eng.bos.redhat.com) (gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC)) #1 SMP Fri Mar 27 15:23:34 UTC 2020
+[    0.000000] Machine model: linux,dummy-virt
+[    0.000000] efi: Getting EFI parameters from FDT:
+[    0.000000] efi: EFI v2.80 by Das U-Boot
+```
+
+Here is the last magic. Even though no boot option variables were created in step (6), UEFI U-Boot is set to look for a fallback bootable image, "/EFI/BOOT/BOOTAA64.efi," in UEFI System Partition and attempt to start it automatically.
+
+This binary is actually a copy of OS's boot loader, i.e. shimaa64.efi if UEFI Secure Boot is enabled, and it will also detect an absence of boot options and create them with the OS standard path and start OS's second boot loader, 'grubaa64.efi', which is signed by OS vendor and must be verified before loading. Likewise, it will securely chain the boot sequence to linux kernel.
+
+Hereafter, U-Boot's efi bootmanager is expected to kick off shim from installed path at every succeeding reboot under secure boot environment.
+
+### References
+
+**\[1]<https://uefi.org/> \[2][https://github.com/ARMsoftware/ebbr/](https://github.com/ARM-software/ebbr/) \[3]<https://access.redhat.com/articles/5254641> \[4]<https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot> \[5]<https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/>**
