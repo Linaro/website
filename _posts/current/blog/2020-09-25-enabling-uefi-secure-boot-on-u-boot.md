@@ -7,7 +7,7 @@ image: /assets/images/content/tech_background_1.jpg
 tags:
   - T
 category: Blog
-author: jon.burcham@linaro.org
+author: takahiro.akashi@linaro.org
 ---
 # Enabling UEFI Secure Boot on U-Boot
 
