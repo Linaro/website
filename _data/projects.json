@@ -51,7 +51,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/BDDS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDTS\">https://collaborate.linaro.org/display/BDTS</a>",
+                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDDS\">https://collaborate.linaro.org/display/BDDS</a>",
                 "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
                 "title": "Big Data & Data Science"
             },
@@ -297,7 +297,7 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": ""
+                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/scmi-dev\">ASA-dev mailing list</a>.<br>"
             },
             "Project Information": {
                 "Health Check Report": "",
