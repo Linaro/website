@@ -63,6 +63,7 @@
         {% else %}
 
             <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
+                <a href="{{post.url}}">
                 <div class="card h-100 ">
                     <div class="blog_image_header">
                         {% if post.image %}
@@ -100,11 +101,9 @@
                                 {{ post.content | strip_html | truncatewords:30 }}
                             {% endif %}
                         </p>
-                        <p class="card-text">
-                            <a href="{{post.url}}" class="btn btn-primary">Read</a>
-                        </p>
                     </div>
                 </div>
+                </a>
 
             </div>
             {% endif %}
