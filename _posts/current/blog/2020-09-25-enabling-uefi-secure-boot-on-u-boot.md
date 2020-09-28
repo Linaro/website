@@ -7,7 +7,7 @@ description: UEFI Secure Boot is a new feature introduced in the latest U-Boot
   only trusted software is loaded and executed in the middle of transferring the
   control from the firmware to the OS. This article looks at how it works and
   what it is designed to protect you against.
-date: 2020-09-25T11:04:00.000Z
+date: 2020-09-28 02:15:38
 image: /assets/images/content/tech_background_1.jpg
 tags:
   - UEFI Secure Boot
