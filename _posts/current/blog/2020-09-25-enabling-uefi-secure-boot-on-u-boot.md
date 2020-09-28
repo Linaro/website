@@ -106,7 +106,7 @@ To simplify the required steps, we will go with option (A) in this example.
 
 ### 1. build U-Boot
 
-CONFIG_EFI_SECURE_BOOT is the only option required in addition to qemu_arm64_defconfig to support UEFI Secure Boot.:
+CONFIG_EFI_SECURE_BOOT is the only option required in addition to qemu_arm64_defconfig to support UEFI Secure Boot.
 
 ```
 $ make qemu_arm64_defconfig
@@ -116,15 +116,15 @@ $ make
 
 ### 2. prepare a disk with UEFI System Partition
 
-Filesystem-based variables service relies on UEFI System Partition to implement non-volatile variables by saving values in a file on the partition.:
+Filesystem-based variables service relies on UEFI System Partition to implement non-volatile variables by saving values in a file on the partition.
 
 ```
 $ qemu-img create -f raw redhat_fs.img 5G
 $ sgdisk -n 1:0:+100MiB -t 1:C12A7328-F81F-11D2-BA4B-00A0C93EC93B redhat_fs.img
 $ guestfish -a redhat_fs.img
-> run
-> mkfs vfat /dev/sda
-> quit
+ > run
+ > mkfs vfat /dev/sda
+ > quit
 ```
 
 ### 3. acquire Red Hat certificate
@@ -137,7 +137,7 @@ Details are not described here, but you can use "sbverify" command to extract si
 
 ### 4. create data for signature database
 
-Here, interim "PK" and "KEK" are created as self-signed certificates, while "db" should contain the certificate, dubbed "rh_ca.crt", from step (3).:
+Here, interim "PK" and "KEK" are created as self-signed certificates, while "db" should contain the certificate, dubbed "rh_ca.crt", from step (3).
 
 ```
 # PK
@@ -174,7 +174,11 @@ $ qemu-system-aarch64 \
   -drive if=none,file=/path/to/redhat_fs.img,format=raw,id=hd0 \
   -device virtio-blk-device,drive=hd0 \
   -cdrom /path/to/rhel-8.2-aarch64-dvd.iso
-Then,:
+```
+
+Then,
+
+```
 => smhload PK.auth 50000000
 => setenv -e -nv -bs -rt -at -i 50000000:<file-size> PK
 => smhload KEK.auth 50000000
@@ -192,26 +196,49 @@ Start the OS installer:
 => bootefi 50000000
 ```
 
-Select "Install Red Hat Enterprise Linux 8.2". Eventually, the installer boots up in text mode and stops at the installation menu.:
+Select "Install Red Hat Enterprise Linux 8.2". Eventually, the installer boots up in text mode and stops at the installation menu.
 
 ```
+...
 05:32:49 Not asking for VNC because we don't have a network
 05:32:50 X startup failed, falling back to text mode
-```
+================================================================================
+================================================================================
+Installation
 
-\=========================================================================
+1) [x] Language settings                 2) [x] Time settings
+       (English (United States))                (America/New_York timezone)
+3) [!] Installation source               4) [!] Software selection
+       (Processing...)                          (Processing...)
+5) [!] Installation Destination          6) [x] Kdump
+       (No disks selected)                      (Kdump is enabled)
+7) [!] Network configuration             8) [!] Root password
+       (Not connected)                          (Password is not set.)
+9) [!] User creation
+       (No user will be created)
+
+Please make a selection from the above ['b' to begin installation, 'q' to quit,
+'r' to refresh]: 
+```
 
 ### Installation
 
-{% include image.html path="/assets/images/content/installation.png" alt="Options for installation" %}
+You can configure the options as you like. The point here is on "5) Installation Destination". Select the disk created in step (2) as the destination and
 
-Please make a selection from the above \['b' to begin installation, 'q' to quit, 'r' to refresh]:
+```
+Partitioning Options
 
-You can configure the options as you like. The point here is on "5) Installation Destination". Select the disk created in step (2) as the destination and:
+1) [X] Replace Existing Linux system(s)
+2) [ ] Use All Space
+3) [ ] Use Free Space
+4) [ ] Manually assign mount points
 
-1. \[X] Replace Existing Linux system(s)2) \[ ] Use All Space3) \[ ] Use Free Space4) \[ ] Manually assign mount pointsInstallation requires partitioning of your hard drive. Select what space to use for the install target or manually assign mount points.
+Installation requires partitioning of your hard drive. Select what space to use
+for the install target or manually assign mount points.
 
-Please make a selection from the above \['c' to continue, 'q' to quit, 'r' to refresh]: 
+Please make a selection from the above ['c' to continue, 'q' to quit, 'r' to
+refresh]: 
+```
 
 Select "Replace Existing Linux system(s)" as we have already created UEFI System Partition in step (2). 
 
@@ -246,6 +273,7 @@ EFI stub: Exiting boot services and installing virtual address map...
 [    0.000000] Machine model: linux,dummy-virt
 [    0.000000] efi: Getting EFI parameters from FDT:
 [    0.000000] efi: EFI v2.80 by Das U-Boot
+...
 ```
 
 Here is the last magic. Even though no boot option variables were created in step (6), UEFI U-Boot is set to look for a fallback bootable image, "/EFI/BOOT/BOOTAA64.efi," in UEFI System Partition and attempt to start it automatically.
@@ -256,4 +284,12 @@ Hereafter, U-Boot's efi bootmanager is expected to kick off shim from installed 
 
 ### References
 
-**\[1]<https://uefi.org/> \[2][https://github.com/ARMsoftware/ebbr/](https://github.com/ARM-software/ebbr/) \[3]<https://access.redhat.com/articles/5254641> \[4]<https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot> \[5]<https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/>**
+**\[1]<https://uefi.org/>** 
+
+**\[2][https://github.com/ARMsoftware/ebbr/](https://github.com/ARM-software/ebbr/)** 
+
+**3]<https://access.redhat.com/articles/5254641>** 
+
+**\[4]<https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot>**
+
+**\[5]<https://eclypsium.com/2020/07/29/theres-a-hole-in-the-boot/>**
