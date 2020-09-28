@@ -11,9 +11,10 @@
   .blog-post-item-col {
     a {
         color: black;
-        &::hover {
+        &:hover {
           text-decoration: none;
-      }
+          color: black;
+        }
     }
     .rounded-circle:hover {
       transform: none;
@@ -23,7 +24,6 @@
     }
   }
   .row.row.services_form {
-
     height: 100%;
     object-fit: cover;
     input[type="checkbox"] + label {
