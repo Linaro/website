@@ -8,7 +8,20 @@
   }
 }
 #wrapper {
-
+  .blog-post-item-col {
+    a {
+        color: black;
+        &::hover {
+          text-decoration: none;
+      }
+    }
+    .rounded-circle:hover {
+      transform: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -moz-box-shadow: none;
+    }
+  }
   .row.row.services_form {
 
     height: 100%;
