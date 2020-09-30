@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Open On-Chip Debugger (OCD) at Linaro
+title: Open On-Chip Debugger (OpenOCD) at Linaro
 description: Linaro has been actively involved in the OpenOCD project since
   2016. In this article Omair Javaid takes a closer look at the software
   development tool.
@@ -13,7 +13,7 @@ tags:
   - Arm v8 AArch64
   - ""
 category: Blog
-author: jon.burcham@linaro.org
+author: Omair.Javaid@linaro.org
 ---
 # Open on Chip Debugger
 
