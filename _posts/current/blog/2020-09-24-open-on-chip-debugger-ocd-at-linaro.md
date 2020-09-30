@@ -11,7 +11,8 @@ tags:
   - Open on chip Debugger
   - OpenOCD
   - Arm v8 AArch64
-  - ""
+  - toolchain
+  - Arm
 category: Blog
 author: Omair.Javaid@linaro.org
 ---
