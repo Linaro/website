@@ -1,4 +1,4 @@
-# Linaro.org Static Jekyll Site
+# Linaro.org An Amazing Static Jekyll Site
 
 This is the git repository for Linaro's static Jekyll-based website (https://www.linaro.org).
 
@@ -71,8 +71,7 @@ event: true
 
 ### Adding Connect Events
 
-Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified
-in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
+Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
 
 ```yaml
 - id: YVR18
