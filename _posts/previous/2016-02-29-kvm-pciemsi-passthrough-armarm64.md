@@ -1,33 +1,35 @@
 ---
-author: eric.auger
-categories:
-- Blog
-date: 2016-02-29 23:08:58
-description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
-  also known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an Arm-based system that require
-  special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on Arm server systems.
-excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM, also
-  known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an Arm-based system that require
-  special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on Arm server systems.
-layout: post
-link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
-slug: kvm-pciemsi-passthrough-armarm64
-tags:
-- Core Dump
-- Arm servers
-- kernel
-- Linux
-- Linux on Arm
-- MSI
-- PCIe
-- qemu
-- VFIO
-title: KVM PCIe/MSI Passthrough on Arm/Arm64
+excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM,
+  also known as device assignment) is supported through a mostly
+  architecture-agnostic subsystem called VFIO, there are intricate details of an
+  Arm-based system that require special support for Message Signaled Interrupts
+  (MSIs) in the context of VFIO passthrough on Arm server systems.
 wordpress_id: 10013
+layout: post
+title: KVM PCIe/MSI Passthrough on Arm/Arm64
+image: /assets/images/content/Linaro-Logo.svg
+author: eric.auger
+slug: kvm-pciemsi-passthrough-armarm64
+date: 2016-02-29T23:08:58.000Z
+tags:
+  - Core Dump
+  - Arm servers
+  - kernel
+  - Linux
+  - Linux on Arm
+  - MSI
+  - PCIe
+  - qemu
+  - VFIO
+link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
+categories:
+  - Blog
+description: While PCIe passthrough (the process of assigning a PCIe device to a
+  VM, also known as device assignment) is supported through a mostly
+  architecture-agnostic subsystem called VFIO, there are intricate details of an
+  Arm-based system that require special support for Message Signaled Interrupts
+  (MSIs) in the context of VFIO passthrough on Arm server systems.
+category: Blog
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="core-dump" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
@@ -47,7 +49,7 @@ Thus, the MSI-enabled device must be programmed with:
 
 # Arm MSI Controllers
 
-This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. Please refer to the [references](https://docs.google.com/document/d/19-ZLE_xXKbebXKysIrAhmpXIdcRz6BjJlhP4NNWom8Y/edit#heading=h.p2pt38fekl4d) for more details.
+This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. 
 
 ## GICv2M
 
