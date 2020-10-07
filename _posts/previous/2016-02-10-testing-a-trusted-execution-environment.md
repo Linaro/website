@@ -1,15 +1,17 @@
 ---
-author: joakim.bech
-date: 2016-02-10 13:54:07+00:00
-layout: post
-link: /blog/core-dump/testing-a-trusted-execution-environment/
-slug: testing-a-trusted-execution-environment
-title: Testing a Trusted Execution Environment
 wordpress_id: 9949
-categories:
-  - Blog
+layout: post
+title: Testing a Trusted Execution Environment
+image: /assets/images/content/Linaro-Logo.svg
 tags:
   - Core Dump
+category: Blog
+author: joakim.bech
+slug: testing-a-trusted-execution-environment
+date: 2016-02-10T13:54:07.000Z
+link: /blog/core-dump/testing-a-trusted-execution-environment/
+categories:
+  - Blog
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
@@ -56,7 +58,7 @@ The host application, which by the way is the one we call “xtest”, has been 
 
 - [xtest_6000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/regression_6000.c): contains test for **storage**, which exercises the GlobalPlatform secure storage API as well as the underlying “POSIX” file system API.
 
-- [xtest_7000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/regression_7000.c): This also contains tests for shared memory etc. However, this is something that will only be used when having access to and enabling the tests coming from GlobalPlatform (more on that further down in this blog post).
+- xtest_7000.c This also contains tests for shared memory etc. However, this is something that will only be used when having access to and enabling the tests coming from GlobalPlatform (more on that further down in this blog post).
 
 - [xtest_10000.c ](https://github.com/OP-TEE/optee_test/tree/master/host/xtest)has test code containing **extensions** going beyond the GlobalPlatform specifications. For example, this is where we are testing key derivation functionality like PBKDF2, HKDF and Concat KDF.
 
