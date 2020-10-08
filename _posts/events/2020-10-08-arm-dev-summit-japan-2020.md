@@ -1,5 +1,5 @@
 ---
-title: "Arm Dev Summit Japan 2020 "
+title: Arm Dev Summit Japan 2020 (Virtual)
 event: arm-dev-summit-japan-2020
 event_url: https://devsummit.arm.com/jp/agenda/?search=Linaro#/
 description: |+
