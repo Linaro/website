@@ -1,5 +1,5 @@
 ---
-title: Arm Dev Summit Korea 2020
+title: Arm Dev Summit Korea 2020 (Virtual)
 event: arm-dev-summit-korea-2020
 event_url: https://devsummit.arm.com/kr/agenda/?search=Linaro#/
 description: |-
