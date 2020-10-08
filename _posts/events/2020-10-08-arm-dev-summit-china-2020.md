@@ -1,5 +1,5 @@
 ---
-title: "Arm Dev Summit (China) 2020 "
+title: "Arm Dev Summit China 2020 "
 event: arm-dev-summit-china-2020
 event_url: https://devsummit.arm.com/cn/agenda/?search=linaro#/
 description: |+
