@@ -47,7 +47,7 @@ Thus, the MSI-enabled device must be programmed with:
 
 # Arm MSI Controllers
 
-This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview. Please refer to the [references](https://docs.google.com/document/d/19-ZLE_xXKbebXKysIrAhmpXIdcRz6BjJlhP4NNWom8Y/edit#heading=h.p2pt38fekl4d) for more details.
+This chapter gives a brief introduction of 2 Arm MSI controllers, the GICv2m and the GICv3 ITS. We purposely present a simplified overview.
 
 ## GICv2M
 
