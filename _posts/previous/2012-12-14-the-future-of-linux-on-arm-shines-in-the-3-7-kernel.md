@@ -1,21 +1,23 @@
 ---
-author: linaro
-categories:
-- Blog
-date: 2012-12-14 16:57:30
-description: The 3.7 Linux Kernel which was released earlier this week, includes many
-  innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen
-  in Arm support.
-keywords: Linaro, Linux on Arm, Arm, Open Source, Linux, Kernel, 3.7 Linux Kernel,
-  LEG, Linaro Enterprise Group
-layout: post
-link: /blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/
-slug: the-future-of-linux-on-arm-shines-in-the-3-7-kernel
-tags:
-- Community
-- Industry
-title: The Future of Linux on Arm Shines in the  3.7 Kernel
 wordpress_id: 2105
+layout: post
+keywords: Linaro, Linux on Arm, Arm, Open Source, Linux, Kernel, 3.7 Linux
+  Kernel, LEG, Linaro Enterprise Group
+title: The Future of Linux on Arm Shines in the  3.7 Kernel
+image: /assets/images/content/RGB-Linaro_Standard.png
+author: linaro
+slug: the-future-of-linux-on-arm-shines-in-the-3-7-kernel
+date: 2012-12-14T16:57:30.000Z
+tags:
+  - Community
+  - Industry
+link: /blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/
+categories:
+  - Blog
+description: The 3.7 Linux Kernel which was released earlier this week, includes
+  many innovative new Arm focused features such as multi-platform, Armv8(64-bit)
+  and Xen in Arm support.
+category: Blog
 ---
 
 The [3.7 Linux Kernel](http://kernelnewbies.org/Linux_3.7) which [was released](https://lkml.org/lkml/2012/12/10/688) earlier this week, includes many innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen in Arm support.
@@ -59,7 +61,7 @@ Additional references to Arm support in the 3.7 Linux Kernel include virtualizat
 
 Excitement continues to grow throughout the Linux and Arm development communities as articles about the inclusion of Arm support in the 3.7 Linux Kernel circulate.
 
-“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his [Linux 3.7 with Arms to the Future](http://www.serverwatch.com/server-news/linux-3.7-arms-for-the-future.html) post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/engineering/datacenter-and-cloud/), which Kerner references in his article.
+“Industry efforts have also recently been driven by the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) [LEG], which is pushing Arm development on Linux forward, “ wrote Sean Michael Kerner of ServerWatch in his Linux 3.7 with Arms to the Future post. In November [Linaro announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) the formation [LEG](/engineering/datacenter-and-cloud/), which Kerner references in his article.
 
 Jon Gold of Network World referenced the inclusion of these new features as “groundbreaking” in his [Linux 3.7 adds major new Arm processor support]() post.
 
