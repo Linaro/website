@@ -56,8 +56,6 @@ The host application, which by the way is the one we call “xtest”, has been 
 
 - [xtest_6000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/regression_6000.c): contains test for **storage**, which exercises the GlobalPlatform secure storage API as well as the underlying “POSIX” file system API.
 
-- [xtest_7000.c](https://github.com/OP-TEE/optee_test/blob/master/host/xtest/regression_7000.c): This also contains tests for shared memory etc. However, this is something that will only be used when having access to and enabling the tests coming from GlobalPlatform (more on that further down in this blog post).
-
 - [xtest_10000.c ](https://github.com/OP-TEE/optee_test/tree/master/host/xtest)has test code containing **extensions** going beyond the GlobalPlatform specifications. For example, this is where we are testing key derivation functionality like PBKDF2, HKDF and Concat KDF.
 
 - [xtest_20000.c ](https://github.com/OP-TEE/optee_test/tree/master/host/xtest)this file also has tests related to storage, but this time those are more aimed at the **secure storage** implementation as such and they verify that files are actually being written to the file system, checking that they haven’t been corrupted and that they are being deleted etc. As an example, when initiating a store operation from secure world there should be file(s) created in Linux and accessible at **_/data/tee/{directory}/{filename}/block.xxx_**.
