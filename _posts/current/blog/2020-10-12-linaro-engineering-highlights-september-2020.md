@@ -45,3 +45,45 @@ While “Edge” means many things to many people, in order for Edge solutions t
 The Trusted Firmware (TF) project’s mission is to collaboratively build a secure reference software implementation for Arm processors. Highlights from the past year include the addition of Mbed TLS (donated by Arm) and Hafnium (donated by Google) to TF. TF for Cortex-A (TF-A) v2.3 and TF- Cortex-M (TF-M) v1.1 were both released. Renesas and NXP joined as members. Also a new Security center was set up to provide consistency on handing security vulnerabilities and incidents. A new maintainer process was put in place including how code reviews and the patch lifecycle are managed. Half of the TF maintainers are now from outside of Arm. The project also announced that Don Harbin (Linaro) will be the TF Community manager and that the[TF website](https://www.trustedfirmware.org/)has been significantly updated. Looking ahead, TF is expanding CI/Testing efforts with more platforms, static analysis and updated user guides. The community project will also be sponsoring workshops on TF-M and Mbed TLS.
 
 A don’t miss session is [LVC20-104 On the Edge of the Real World. An Introduction](https://connect.linaro.org/resources/lvc20/lvc20-104/) by Bruno Verachten. A lively talk from Bruno on how to build home IoT systems. The bottom line? There’s a lot of choice!
+
+## Wednesday September 23 Highlights
+
+<https://lvc20.sched.com/event/eVtb/lvc20-200k1-keynote-part-1-epi-the-european-approach-for-exascale-ages-the-road-toward-sovereignty> by Jean Marc Denis
+
+The goal of the European Processor Initiative (EPI) is to become one of the leaders in High Performance Computing (HPC). EPI is a European backed initiative to develop a complete European designed high end microprocessor addressing the Super Computer and edge-HPC segments. This week, the EU committed €8 billion for this effort. Europe wants sovereign access to high performance, low power microprocessors from initial IP to delivered products and reduce the dependence on non-EU suppliers. SiPearl is the industrial partner of EPI operating as a commercial entity to benefit the EPI project and its members. The plan is to have a unified environment based on Arm Zeus cores by 2023. Different classes of accelerators will be used as part of the workflow engines. The main strength of Arm is IP going from device to the super computer. The presenter's view is that the NVidia/Arm alliance is a unique, fantastic combination of AI and GPU capabilities.
+
+<https://lvc20.sched.com/event/eVtL/lvc20-200k2-keynote-part-2-developing-rhea-the-sipearl-european-high-performance-processor> by Craig Prunty
+
+SiPearl's first target market for Rhea chips is HPC. Then in order Cloud, Edge (which is similar to Cloud requirements) then Automotive/Industrial Edge. Arm is attractive as it has a fully fledged ecosystem. Good hardware needs good software. The Arm ecosystem is self-sustaining. “Arm wins because it has an ecosystem”. Rhea is a hyperscale processor using the Arm Zeus core with coherent on chip network; There is a need to scale from chip to HPC to Edge applications. It is important to include high bandwidth memory with low power, low latency links using state of the art design and architecture. The plan is to make the EPI Common platform open standard in the future. Rhea is intended to be a General Purpose Processor balanced between performance and memory bandwidth. You will also need accelerators to provide optimization.
+
+<https://lvc20.sched.com/event/dU7C/lvc20-200k-keynote-respect-r-e-s-p-e-c-t> by Carlo Piana
+
+Carlo muses on the cultural basis for license compliance in the Open Source community. The pillar is respect, not fear of litigation or fines. Enforcement does not happen that often and companies are getting better at compliance. Carlo posits that compliance comes from social norms - the right thing to do. If rules are simple and straightforward as well as reasonable and self-evident, compliance will be nearly uniform. The standard Open Source licenses are reasonable and straightforward so it is easy to comply. In order to receive respect, you must give respect. People can pledge to a higher standard using such as Open Chain and SPDX in headers. One way to show respect is to take a bit of effort to ensure users of your code can easily find the licensing and restrictions in your code.
+
+## Thursday September 24 Highlights
+
+<https://lvc20.sched.com/event/dU87/lvc20-300k-lets-butcher-software-development-analytics-together-so-you-dont-have-to-when-it-really-counts> by Jose Manrique López de la Fuente
+
+Jose started quoting William Edwards Deming “Without data, you are just a person with an opinion”. So what to do with data - “Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.” - Sun Tzu
+
+Data must be matched with context knowledge. Looking at the Linaro Use Case, There is a huge amount of contributors affiliated to “Unknown” organization. Why? Is data wrong?
+
+Jose notes that every company is becoming a software company. And how a company interacts with the software ecosystem can help or hurt them. Success is understanding the (1) Legal aspects (2) People and (3) Engineering and the give and take between them. Jose recommends that you check out howtogroup.org and chaoss.community for wisdom. The best approach is to combine strategy, tactics and context knowledge to approach open source and generated analytics.
+
+<https://lvc20.sched.com/event/dU8A/lvc20-301-in-conversation-with-todd-kjos-gki-v2>
+
+This session was an Interview (by John Stultz) with Todd Kjos, Google, about the reason for, and challenges with, Generic Kernel Image (GKI) project. Fragmentation is in the way of keeping Android devices up-to-date with latest kernel patches (bugs, **security**, h/w, etc) - based on LTS kernel. Google is keeping Pixel devices up-to-date but few others are doing the same. A module kernel approach to allow Google to keep the kernel up-to-date and allow vendors to maintain their customizations. Tools keep track of ABI stable symbols (KMI - Kernel Module Interface - subset of the full kernel ABI). Google strongly recommends vendors to send their changes into the upstream kernel. Benefit of common use and less fragmentation (when differentiation isn’t actually required but has happened in the past). Therefore helping vendors to eliminate unnecessary technical debt.
+
+- - -
+
+With distinguished presenters from around the world and from some world class leading businesses, our Virtual Connect delivered 65 sessions. This content covers some of the groundbreaking topics of the moment and will be added to our already vast amount of resources that has been compiled over the last 10 years ago, when Linaro was first founded.
+
+Although the current climate has curbed our celebrations for our anniversary, it has not curbed our achievements and we are proud of our successes in working together with our members and the community alike.
+
+All videos and slides from presentations are available on our Resource page at <https://connect.linaro.org/resources/lvc20/>
+
+We look forward to our next in person event when we can enjoy some of our favorite aspects of Linaro Connect- team hacking time, Joe Bates’ morning fun facts, the “Ask Arm Anything” session, socializing after hours with colleagues and friends, Demo Friday, and everyone’s favorite: Dave Pigott’s puzzle.
+
+Thank you for attending Linaro Virtual Connect 2020.
+
+Until next time!
