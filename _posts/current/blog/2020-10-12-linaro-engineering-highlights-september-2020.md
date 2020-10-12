@@ -26,6 +26,8 @@ tags:
   - CPU
   - BFQ
   - Android
+  - open source
+  - HPC
 category: Blog
 author: jon.burcham@linaro.org
 ---
@@ -61,7 +63,7 @@ While “Edge” means many things to many people, in order for Edge solutions t
 
 [LVC20-113 Trusted Firmware Project Update](https://connect.linaro.org/resources/lvc20/lvc20-113/) by Matteo Carlini and Shebu Varghese Kuriakose
 
-The Trusted Firmware (TF) project’s mission is to collaboratively build a secure reference software implementation for Arm processors. Highlights from the past year include the addition of Mbed TLS (donated by Arm) and Hafnium (donated by Google) to TF. TF for Cortex-A (TF-A) v2.3 and TF- Cortex-M (TF-M) v1.1 were both released. Renesas and NXP joined as members. Also a new Security center was set up to provide consistency on handing security vulnerabilities and incidents. A new maintainer process was put in place including how code reviews and the patch lifecycle are managed. Half of the TF maintainers are now from outside of Arm. The project also announced that Don Harbin (Linaro) will be the TF Community manager and that the[TF website](https://www.trustedfirmware.org/)has been significantly updated. Looking ahead, TF is expanding CI/Testing efforts with more platforms, static analysis and updated user guides. The community project will also be sponsoring workshops on TF-M and Mbed TLS.
+The Trusted Firmware (TF) project’s mission is to collaboratively build a secure reference software implementation for Arm processors. Highlights from the past year include the addition of Mbed TLS (donated by Arm) and Hafnium (donated by Google) to TF. TF for Cortex-A (TF-A) v2.3 and TF- Cortex-M (TF-M) v1.1 were both released. Renesas and NXP joined as members. Also a new Security center was set up to provide consistency on handing security vulnerabilities and incidents. A new maintainer process was put in place including how code reviews and the patch lifecycle are managed. Half of the TF maintainers are now from outside of Arm. The project also announced that Don Harbin (Linaro) will be the TF Community manager and that the [TF website](https://www.trustedfirmware.org/) has been significantly updated. Looking ahead, TF is expanding CI/Testing efforts with more platforms, static analysis and updated user guides. The community project will also be sponsoring workshops on TF-M and Mbed TLS.
 
 A don’t miss session is [LVC20-104 On the Edge of the Real World. An Introduction](https://connect.linaro.org/resources/lvc20/lvc20-104/) by Bruno Verachten. A lively talk from Bruno on how to build home IoT systems. The bottom line? There’s a lot of choice!
 
@@ -85,7 +87,7 @@ Carlo muses on the cultural basis for license compliance in the Open Source comm
 
 Jose started quoting William Edwards Deming “Without data, you are just a person with an opinion”. So what to do with data - “Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.” - Sun Tzu
 
-Data must be matched with context knowledge. Looking at the Linaro Use Case, There is a huge amount of contributors affiliated to “Unknown” organization. Why? Is data wrong?
+Data must be matched with context knowledge. Looking at the Linaro Use Case, there is a huge amount of contributors affiliated to “Unknown” organizations. Why? Is data wrong?
 
 Jose notes that every company is becoming a software company. And how a company interacts with the software ecosystem can help or hurt them. Success is understanding the (1) Legal aspects (2) People and (3) Engineering and the give and take between them. Jose recommends that you check out howtogroup.org and chaoss.community for wisdom. The best approach is to combine strategy, tactics and context knowledge to approach open source and generated analytics.
 
