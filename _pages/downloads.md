@@ -131,13 +131,18 @@ The following tables provide direct access to the most common Linux and bare-met
 
 #### Latest Linux Targeted Binary Toolchain Releases
 
-{:.table.responsive-table} |--- |--- |--- |--- |--- |
-|**arm-linux-gnueabihf**|*32-bit Armv7 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**armv8l-linux-gnueabihf**|*32-bit Armv8 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**aarch64-linux-gnu**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+{:.table.responsive-table}
+|--- |--- |--- |--- |--- |
+|**arm-linux-gnueabihf**|*32-bit Armv7 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**armv8l-linux-gnueabihf**|*32-bit Armv8 Cortex-A, hard-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**aarch64-linux-gnu**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 #### Latest Bare-Metal Targeted Binary Toolchain Releases
 
-{:.table.responsive-table} |:---|:---|:---|:---|:---|
-|**arm-eabi**|*32-bit Armv7 Cortex-A, soft-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)| |**aarch64-elf**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+{:.table.responsive-table}
+|:---|:---|:---|:---|:---|
+|**arm-eabi**|*32-bit Armv7 Cortex-A, soft-float, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-eabi/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
+|**aarch64-elf**|*64-bit Armv8 Cortex-A, little-endian*|[Release-Notes](https://releases.linaro.org/components/toolchain/binaries/latest-7/)|[Binaries](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-elf/)|[Source](https://releases.linaro.org/components/toolchain/gcc-linaro/latest-7/)|
 
 - - -
 
@@ -159,8 +164,10 @@ This page provides links to many of the more popular downloads produced by Linar
 
 LMBs are full system builds of popular open-source products set up at the request of a Linaro Core/Club [Member](/membership/) company.
 
-{:.table.responsive-table} |:---|:---|:---|:---|:---|
-|Arm | <img src="/assets/images/content/aarch-64-logo-thumb.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)| |Qualcomm | <img src="/assets/images/content/qualcomm-snapdragon-thumb.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
+{:.table.responsive-table}
+|:---|:---|:---|:---|:---|
+|Arm | <img src="/assets/images/content/aarch-64-logo-thumb.jpg" width="32px" height="auto" alt="AARCH 64 Logo" /> | Juno, Fixed Virtual Platforms (FVP), Versatile Express | [Platform release notes](http://community.arm.com/groups/arm-development-platforms)|
+|Qualcomm | <img src="/assets/images/content/qualcomm-snapdragon-thumb.jpg" width="32px" height="auto" alt="Snapdragon Logo" /> | Download for Snapdragon 600 processor | [Snapdragon 600 Linux Platform](https://releases.linaro.org/debian/boards/snapdragon/latest/)|
 
 - - -
 
