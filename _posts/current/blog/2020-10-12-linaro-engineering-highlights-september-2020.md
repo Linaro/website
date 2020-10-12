@@ -1,12 +1,31 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - September 2020
-description: September's Engineering Highlights include....
+description: September's Engineering Highlights include a brief summary of our
+  recent Virtual Connect 2020 (LVC20) event. There is also a synopsis of the
+  Android Micro Conference at Linux Plumbers. Our blog channel continues to be
+  populated with the latest topics and this month we highlight four of the
+  latest articles that have been published including OpenOCD at Linaro, Enabling
+  UEFI Secure Boot on U-Boot, Force Idle When a CPU Is Overheating and BFQ saved
+  me from thrashing.
 date: 2020-10-12T12:29:25.000Z
 image: /assets/images/content/binary-2910663_1920.jpg
 tags:
-  - To
-  - Do
+  - LVC20
+  - Connect
+  - Virtual Connect
+  - engineering highlights
+  - Linaro
+  - Arm
+  - Arm64
+  - Linux kernel
+  - trusted firmware
+  - UEFI
+  - OP-TEE
+  - Secure Boot
+  - CPU
+  - BFQ
+  - Android
 category: Blog
 author: jon.burcham@linaro.org
 ---
@@ -151,8 +170,9 @@ The thermal framework and its components were briefly presented in a previous bl
 
 Read more [here](https://www.linaro.org/blog/force-idle-when-a-cpu-is-overheating/).
 
-
 ## BFQ saved me from thrashing
+
 By Linus Walleij, Arm
 
-{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %}
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %} Recently my less-used desktop computer became sluggish, and would randomly crash. It seemed to be fully occupied with disk activity and quickly became uninteractive to the point that not even ssh login would work. This is easily identified as thrashing: constantly swapping to disk because of short core memory.
+When Linux runs out of memory, processes will of course be killed by the OOM (out of memory) killer, but if you have ample swap space, instead you will get thrashing. In this case the OOM killer would have been better: the system was so uninteractive that there is no point in trying to use swap. This was on a flash drive but still would just thrash. Read more [here](https://www.linaro.org/blog/bfq-saved-me-from-thrashing/).
