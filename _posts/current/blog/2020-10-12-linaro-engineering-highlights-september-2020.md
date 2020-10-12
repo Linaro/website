@@ -129,11 +129,30 @@ The [Open On-Chip Debugger (OpenOCD)](http://www.openocd.org/) is an open source
 
 ## Enabling UEFI Secure Boot on U-Boot
 
-By Takahiro Akashi, Socionext {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %} 
-U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
+By Takahiro Akashi, Socionext {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %}  U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
 
 **UEFI U-Boot**
 
 UEFI (Unified Extensible Firmware Interface)\[1] is the specification developed by UEFI Forum to standardize interfaces between firmware and the OS’s, aiming to replace legacy BIOS on PC architecture.
 
-Read more** [here](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot/).**
+Read more [here](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot/).
+
+## **Force Idle When a CPU Is Overheating**
+
+By Daniel Lezcano, Linaro
+
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline right" alt="Core engineering icon" %} 
+
+Today’s CPUs are more and more powerful. More powerful in terms of compute capacity, but also in terms of heat creation.
+
+In the embedded world, especially in the ARM ecosystem for the mobile platform, the Linux kernel has to cope with the high temperatures created by processor intensive tasks that can lead a CPU to overheat. The thermal framework is the Linux kernel subsystem in charge of handling these use cases.
+
+The thermal framework and its components were briefly presented in a previous blog.
+
+Read more [here](https://www.linaro.org/blog/force-idle-when-a-cpu-is-overheating/).
+
+
+## BFQ saved me from thrashing
+By Linus Walleij, Arm
+
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %}
