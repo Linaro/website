@@ -10,7 +10,7 @@ tags:
 category: Blog
 author: jon.burcham@linaro.org
 ---
-# LVC20 Wrap Up
+## LVC20 Wrap Up
 
 {% include image.html path="/assets/images/content/connect-2020-virtual-1-.jpg" class="small-inline left" alt="Linaro Virtual Connect 2020 logo" %}
 
@@ -87,3 +87,34 @@ We look forward to our next in person event when we can enjoy some of our favori
 Thank you for attending Linaro Virtual Connect 2020.
 
 Until next time!
+
+## Android Micro Conference at Linux Plumbers
+
+By John Stultz, Senior Engineer, Linaro Consumer Group (LCG)
+
+{% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="Linaro Consumer Group logo" %} This year's Linux Plumbers conference, which is traditionally one of the most productive community conferences each year, was virtually held this year August 24th-28th. While different from previous years in format, it was still very productive and the Android Microconference was a highlight of the event for the Linaro Consumer Group
+
+Once again this year, Linaro was involved in the planning and organizing of the Android  Microconference, as well as participating by giving multiple talks and contributing to discussions.
+
+Specifically:
+
+* John Stultz along with the other panelists, Lina Iyer (a past Linaro assignee) from Qualcomm as well as Pete Zhang from NXP, provided some details on each of their experiences with the Generic Kernel Image (GKI) effort as part of the [GKI ecosystem experience panel](https://linuxplumbersconf.org/event/7/contributions/791/).
+* Sumit Semwall gave a [summary of the upstreaming work both in progress, and todo that has come out of the GKI effort](https://linuxplumbersconf.org/event/7/contributions/793/), as well as a [summary of the state of running mainline kernels on AOSP](https://linuxplumbersconf.org/event/7/contributions/785/).
+* John Stultz also gave a talk on both [the ION to DMA BUF Heaps transition, as well as potential optimizations to DMA BUF cache handling](https://linuxplumbersconf.org/event/7/contributions/788/).
+* Sam Protsenko gave a talk on potential ways to [consolidate AOSP bootloader implementations](https://linuxplumbersconf.org/event/7/contributions/782/) to reduce effort required by vendors.
+
+Outside of Linaro driven sessions, there were also a number of other very interesting talks and discussions.
+
+The biggest theme to this year’s sessions was Google’s Generic Kernel Image efforts. Todd Kjos discussed Google’s [GKI efforts so far as well as details on their future plans](https://linuxplumbersconf.org/event/7/contributions/790/). Matthias Männich provided a talk on [GKI kABI enforcement tools](https://linuxplumbersconf.org/event/7/contributions/792/), which ensures future updates to the GKI doesn’t break existing vendor modules. Saravana Kannan covered his work on the [fw_devlink](https://linuxplumbersconf.org/event/7/contributions/787/) implementation which resolves issues around kernel module dependencies and load ordering. And of course, the aforementioned [GKI ecosystem panel](https://linuxplumbersconf.org/event/7/contributions/791/) and [GKI upstreaming](https://linuxplumbersconf.org/event/7/contributions/793/) talks.
+
+There were also some very interesting talks covering virtualization in Android. Quentin Perret discussed some of Google’s plans for using [virtualization of secure environments](https://linuxplumbersconf.org/event/7/contributions/780/), in order to reduce the security risk of code running in the classic secure world to the larger system. And Enrico Granata and Alistair Delva also gave a talk about [efforts to extend the “Cuttlefish” virtualized reference Android device to be used with Android Auto](https://linuxplumbersconf.org/event/7/contributions/778/).
+
+There were some interesting talks on recent work at Google on storage technologies, with Paul Lawrence’s talk in the new [incremental filesystem](https://linuxplumbersconf.org/event/7/contributions/784/). This is used to allow for run-time fetching of application resources, so that apps can be run immediately rather than having to wait for everything to be downloaded and installed first. Then Palmer Dabbelt discussed the forward looking [dm-user driver](https://linuxplumbersconf.org/event/7/contributions/783/), which basically provides a userspace controlled block device (similar to FUSE, but provides block device instead of a filesystem), which they hope to use as part of the Android Over-The-Air (OTA) update process, allowing them to have a android-specific copy-on-write format. This would allow them to have safe compressed snapshots that can be rolled back to should an update fail without taking up a ton of storage.
+
+There was even a very interesting talk by Nagaravind Challakere from Microsoft on [improvements to SELinux sepolicy tooling](https://linuxplumbersconf.org/event/7/contributions/781/) so that it's easier for developers to create and analyze sepolicy rules to avoid unintentionally granting overly permissive rules to applications.
+
+In the realm of graphics, in addition to the DMA BUF talk mentioned earlier, Hridya Valsaraju from Google discussed the [partial cache flushing feature for DMA BUFs](https://linuxplumbersconf.org/event/7/contributions/789/) found in the Android common tree, and what might be needed to get it upstream. Then Laurent Pinchart from Ideas on Board provided updates on integrating [libcamera into AOSP](https://linuxplumbersconf.org/event/7/contributions/786/). The libcamera camera HAL for Android has so far only been used in the context of ChromeOS, but the plan is to start integrating it further into AOSP as more vendors are interested in using it.
+
+Connected to the libcamera discussion, Laurent Pinchart also led a discussion outlining the difficulties of [integrating external open source packages into AOSP](https://linuxplumbersconf.org/event/7/contributions/779/) both due to its restricted hermetic build environment, as well as attributes of the Soong build system like blueprint syntax which prevent backwards and forward compatibility between releases. This can put a burden on open source project maintainers.
+
+With 16 sessions in four and a half hours, the Android Microconference covered a lot of ground. But there was still more details to discuss so two days later, and twelve hours offset to allow for folks in other timezones to attend, the [Android “Birds of a Feather” session](https://www.youtube.com/watch?v=8xHOBZrQLMQ) was held, where all the topics were revisited and the discussion carried on for another three and a half hours.
