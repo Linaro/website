@@ -118,3 +118,22 @@ In the realm of graphics, in addition to the DMA BUF talk mentioned earlier, Hri
 Connected to the libcamera discussion, Laurent Pinchart also led a discussion outlining the difficulties of [integrating external open source packages into AOSP](https://linuxplumbersconf.org/event/7/contributions/779/) both due to its restricted hermetic build environment, as well as attributes of the Soong build system like blueprint syntax which prevent backwards and forward compatibility between releases. This can put a burden on open source project maintainers.
 
 With 16 sessions in four and a half hours, the Android Microconference covered a lot of ground. But there was still more details to discuss so two days later, and twelve hours offset to allow for folks in other timezones to attend, the [Android “Birds of a Feather” session](https://www.youtube.com/watch?v=8xHOBZrQLMQ) was held, where all the topics were revisited and the discussion carried on for another three and a half hours.
+
+## OpenOCD at Linaro
+
+By Omair Javaid, Linaro
+
+{% include image.html path="/assets/images/content/micro-board.png" class="small-inline left" alt="Image of a micro board" %} 
+
+The [Open On-Chip Debugger (OpenOCD)](http://www.openocd.org/) is an open source software development tool which allows on-chip debugging and programming of applications via JTAG/SWD hardware interface. OpenOCD runs on a host computer along with a debugger like GDB. GDB communicates with OpenOCD over RSP protocol similar to debugging an application running on hardware. Read more [here](https://www.linaro.org/blog/open-on-chip-debugger-ocd-at-linaro/).
+
+## Enabling UEFI Secure Boot on U-Boot
+
+By Takahiro Akashi, Socionext {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %} 
+U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
+
+**UEFI U-Boot**
+
+ UEFI (Unified Extensible Firmware Interface)\[1] is the specification developed by UEFI Forum to standardize interfaces between firmware and the OS’s, aiming to replace legacy BIOS on PC architecture.
+
+Read more** [here](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot/).**
