@@ -134,6 +134,6 @@ U-Boot is a favorite boot loader for embedded devices, supporting a variety of a
 
 **UEFI U-Boot**
 
- UEFI (Unified Extensible Firmware Interface)\[1] is the specification developed by UEFI Forum to standardize interfaces between firmware and the OS’s, aiming to replace legacy BIOS on PC architecture.
+UEFI (Unified Extensible Firmware Interface)\[1] is the specification developed by UEFI Forum to standardize interfaces between firmware and the OS’s, aiming to replace legacy BIOS on PC architecture.
 
 Read more** [here](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot/).**
