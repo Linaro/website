@@ -32,6 +32,8 @@ tags:
   - SIMD
   - Random Instruction Sequence (generator for) Userspace
   - lock-less hash table
+related_project:
+  - QEMU
 category: Blog
 author: alex.bennee
 ---
