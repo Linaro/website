@@ -283,7 +283,7 @@ Power Management; Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-107%20ACPI%20Power%20Management%20on%20Arm64%20Servers.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-107%20ACPI%20Power%20Management%20on%20ARM64%20Servers.mp4)
 </td>
 </tr>
 <tr >
@@ -812,7 +812,7 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-901%20Upstreaming%20101.mp4 ain%20Usage%20Part%204.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-901%20Upstreaming%20101.mp4)
 </td>
 </tr>
 <tr >
@@ -1003,7 +1003,7 @@ Kernel
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-302%20Debugging%20Arm%20kernels%20using%20NMIFIQ.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-302%20Debugging%20ARM%20kernels%20using%20NMIFIQ.mp4)
 </td>
 </tr>
 <tr >
@@ -1350,7 +1350,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-401%20Ceph%20and%20Software%20Defined%20Storage%20on%20Arm%20servers.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-401%20Ceph%20and%20Software%20Defined%20Storage%20on%20ARM%20servers.mp4)
 </td>
 </tr>
 <tr >
@@ -1428,7 +1428,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-404%20Standardizing%20Linux%20Kernel%20Power%20mgmt%20on%20Arm%2032%2064%20bit.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-404%20Standardizing%20Linux%20Kernel%20Power%20mgmt%20on%20ARM%2032%2064%20bit.mp4)
 </td>
 </tr>
 <tr >
@@ -1532,7 +1532,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-408%20Armv8-A%20NEON%20optimization.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-408%20ARMv8-A%20NEON%20optimization.mp4)
 </td>
 </tr>
 <tr >
@@ -1558,7 +1558,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-409%20Arm%20Hibernation%20enablement%20on%20SoCs%20-%20a%20case%20study.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-409%20ARM%20Hibernation%20enablement%20on%20SoCs%20-%20a%20case%20study.mp4)
 </td>
 </tr>
 <tr >
@@ -1775,7 +1775,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://static.linaro.org/connect/hkg15/Videos/02-13-Friday/170106%20HKG15%20502%20Arm%20Trusted%20Firmware%20Evolution.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-13-Friday/170106%20HKG15%20502%20ARM%20Trusted%20Firmware%20Evolution.mp4)
 </td>
 </tr>
 <tr >
