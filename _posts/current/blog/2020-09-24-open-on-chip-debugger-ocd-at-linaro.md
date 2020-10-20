@@ -13,6 +13,9 @@ tags:
   - Arm v8 AArch64
   - toolchain
   - Arm
+related_project:
+  - GNU
+  - LLVM
 category: Blog
 author: Omair.Javaid@linaro.org
 ---
