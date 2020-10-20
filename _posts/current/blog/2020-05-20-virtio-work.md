@@ -1,8 +1,8 @@
 ---
 layout: post
-author: alex.bennee
-published: true
 title: Working on VirtIO
+description: A summary of the history of VirtIO and the areas Linaro is working
+  on for the future.
 date: 2020-05-20T16:00:00.000Z
 image: /assets/images/content/tech_background_1.jpg
 tags:
@@ -11,10 +11,11 @@ tags:
   - virtio
   - OASIS
   - standards
-description: >-
-  A summary of the history of VirtIO and the areas Linaro is working on for the
-  future.
+related_project:
+  - STR
 category: Blog
+author: alex.bennee
+published: true
 ---
 {% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
 
