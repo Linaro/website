@@ -1,5 +1,5 @@
 ---
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/elc-openiot-2018/elc-openiot-2018-introduction-to-soundwire.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/elc-openiot-2018/elc-openiot-2018-introduction-to-soundwire.pdf
 event: elc-openiot-2018
 date: "2018-10-22 09:00:00+00:00"
 image: /assets/images/content/elc-openiot-europe-2018-placeholder.png

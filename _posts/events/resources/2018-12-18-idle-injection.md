@@ -8,5 +8,5 @@ speakers:
     company: Linaro
     job-title:
     name: Daniel Lezcano
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/lpc2018/LPC2018-Thermal_Idle_injection_1.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/lpc2018/LPC2018-Thermal_Idle_injection_1.pdf
 ---

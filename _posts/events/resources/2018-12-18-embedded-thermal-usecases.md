@@ -8,5 +8,5 @@ speakers:
     company: Linaro
     job-title:
     name: Amit Kucheria
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/lpc2018/LPC2018-Embedded_Thermal_usecases_LPC_2018_Amit.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/lpc2018/LPC2018-Embedded_Thermal_usecases_LPC_2018_Amit.pdf
 ---
