@@ -82,7 +82,7 @@ Below are the available presentations from Thursday.\*\*
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-407-%20Deploying%20runtime%20PM%20on%20Arm%20SoCs.pdf) slides
+[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-407-%20Deploying%20runtime%20PM%20on%20ARM%20SoCs.pdf) slides
 </td>
 </tr>
 <tr >
@@ -102,7 +102,7 @@ Below are the available presentations from Thursday.\*\*
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-412-%20GPGPU%20on%20Arm%20SoC%20session.pdf) slides
+[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-412-%20GPGPU%20on%20ARM%20SoC%20session.pdf) slides
 </td>
 </tr>
 <tr >
@@ -132,7 +132,7 @@ Below are the available presentations from Thursday.\*\*
 </td>
 
 <td width="198" valign="top" markdown="1">
-[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-418-%20Testing%20a%20secure%20framework.pdfv) slides
+[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-418-%20Testing%20a%20secure%20framework.pdf) slides
 </td>
 </tr>
 </tbody>
