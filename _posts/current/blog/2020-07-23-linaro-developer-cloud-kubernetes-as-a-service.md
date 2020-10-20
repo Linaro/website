@@ -34,6 +34,8 @@ tags:
   - Octavia
   - heat
   - Cinder-CSI-driver
+related_project:
+  - CLOUD
 category: Blog
 author: kevin.zhao@linaro.org
 ---
