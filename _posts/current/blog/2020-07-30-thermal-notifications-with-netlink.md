@@ -18,6 +18,8 @@ tags:
   - big.LITTLE
   - thermal notifications
   - netlink
+related_project:
+  - PERF
 category: Blog
 author: daniel.lezcano
 ---
