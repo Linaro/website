@@ -24,6 +24,8 @@ tags:
   - OPP
   - PELT
   - ARM64
+related_project:
+  - PERF
 category: Blog
 author: daniel.lezcano
 ---

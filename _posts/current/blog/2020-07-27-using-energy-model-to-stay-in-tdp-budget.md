@@ -26,6 +26,8 @@ tags:
   - device tree
   - energy model based powercap
   - ""
+related_project:
+  - PERF
 category: Blog
 author: daniel.lezcano
 ---

@@ -1,25 +1,27 @@
 ---
+excerpt: "AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell
+  and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
+  ST-Ericsson to form new group focused on accelerating Linux development for
+  Arm servers "
+wordpress_id: 4419
+layout: post
+title: Industry Leaders Collaborate to Accelerate Software Ecosystem for Arm
+  Servers, and Join Linaro
+image: /assets/images/content/linaro-logo.png
 author: linaro
+slug: industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro
+date: 2012-11-01 12:21:45
+tags:
+  - Members
+link: /news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/
 categories:
   - News
-date: 2012-11-01 12:21:45
-description:
-  AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell
-  and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and ST-Ericsson
-  to form new group focused on accelerating Linux development for Arm servers
-excerpt:
-  "AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell and
-  Red Hat join existing Linaro members Arm, HiSilicon, Samsung and ST-Ericsson to
-  form new group focused on accelerating Linux development for Arm servers "
-layout: post
-link: /news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/
-slug: industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro
-title:
-  Industry Leaders Collaborate to Accelerate Software Ecosystem for Arm Servers,
-  and Join Linaro
-wordpress_id: 4419
+description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
+  Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
+  ST-Ericsson to form new group focused on accelerating Linux development for
+  Arm servers
+category: News
 ---
-
 SANTA CLARA, US - 1 NOV 2012
 
 ## In summary
@@ -36,15 +38,15 @@ Speaking at Arm’s largest annual developer conference, TechCon, Arm CEO Warren
 
 “Linaro is building a high-quality software engineering team that is working with our members on the development of key enabling software for the new generation of low-power, high-performance, hyperscale servers,” said George Grey, CEO of Linaro, “We are especially pleased with the broad industry support and to be working with commercial Linux providers and OEMs in addition to SoC vendors to ensure that we meet the requirements of all members of the ecosystem.”
 
-Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\*\*.
+Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\**.
 
 “Linux is driving innovation in every area of computing from mobile and embedded to the cloud. Linaro’s enterprise efforts will bring together software engineers to help accelerate Linux development for Arm servers, and we’re confident that this new server-focused group will advance Linux in these areas and offer additional choices to Linux users around the world.” said Jim Zemlin, executive director of the Linux Foundation.
 
 Arm servers are expected to be initially adopted in hyperscale computing environments, especially in large web farms and clusters, where flexible scaling, energy efficiency and an optimal footprint are key design requirements. The Linaro Enterprise Group will initially work on low-level Linux boot architecture and kernel software for use by SoC vendors, commercial Linux providers and OEMs in delivering the next generation of low-power Arm-based 32- and 64-bit servers. Linaro expects initial software delivery before the end of 2012 with ongoing releases thereafter.
 
-\*Source: Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012: [https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required)\*\*
+\*Source: Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012: <https://lwn.net/Articles/507986/> (subscription required)\*\*
 
-Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
+Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012:<http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/>
 
 **About Linaro**
 
@@ -82,7 +84,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 “As a long time supporter of Linaro, Canonical is pleased to be a founding member of the Linaro Enterprise Group, working with others to make Arm servers more accessible to a broader market. With the release of Ubuntu 12.04 LTS, Ubuntu has been the only commercially supported OS platform that enables deployment of Arm server technology. Ubuntu Server has enabled developers and enterprises to start building prototypes and implementing Arm-based servers. LEG provides the perfect context for us to build on this leadership and to help accelerate the commercial adoption of hyperscale and Arm servers” said Jane Silber, CEO at Canonical.
 
-*About Canonical:* Canonical is the commercial sponsor of the Ubuntu project and the leading provider of support services for Ubuntu deployments in the enterprise. Ubuntu is a free, open- source platform for client, server and cloud computing. Since its launch in 2004, it has become a natural choice for users of all kinds, from Fortune 500 companies to hardware makers, content providers, software developers and individual technologists. With developers, support staff and engineering centres all over the world, Canonical is uniquely positioned to help its partners and enterprise customers make the most of Ubuntu. Canonical is a privately held company. For more information, please visit [http://www.ubuntu.com/partners/arm](http://www.ubuntu.com/partners/arm) or[http://www.ubuntu.com/download/arm](http://www.ubuntu.com/download/arm). Media contact: pr@canonical.com
+*About Canonical:* Canonical is the commercial sponsor of the Ubuntu project and the leading provider of support services for Ubuntu deployments in the enterprise. Ubuntu is a free, open- source platform for client, server and cloud computing. Since its launch in 2004, it has become a natural choice for users of all kinds, from Fortune 500 companies to hardware makers, content providers, software developers and individual technologists. With developers, support staff and engineering centres all over the world, Canonical is uniquely positioned to help its partners and enterprise customers make the most of Ubuntu. Canonical is a privately held company. For more information, please visit <http://www.ubuntu.com/partners/arm> or<http://www.ubuntu.com/download/arm>. Media contact: pr@canonical.com
 
 **Cavium**
 
@@ -94,13 +96,13 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 “Arm microprocessor architecture has the potential to bring about a fundamental shift in the datacenter industry, enabling new levels of compute and energy efficiency and spurring greater competition in the server CPU market,” said Frank Frankovsky, VP of hardware design and supply chain for Facebook. “But a lot of work must still be done to turn that vision into a reality, and the Linaro Enterprise Group can play a crucial role by ensuring that we have the software ecosystem necessary to support these new Arm-based server solutions. Facebook is happy to join LEG and invest in this ecosystem.”
 
-*About Facebook:* Founded in 2004, Facebook’s mission is to make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them. More information about Facebook is available at [http://newsroom.fb.com/](http://newsroom.fb.com/), Media contact: press@fb.com.
+*About Facebook:* Founded in 2004, Facebook’s mission is to make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them. More information about Facebook is available at <http://newsroom.fb.com/>, Media contact: press@fb.com.
 
 **HP**
 
 “As data center capacity requirements explode, clients look for solutions that will provide extreme energy efficiency, cost savings and reduced datacenter footprint,” said Tim Wesselman, senior director Partner Strategy, Hyperscale Business Group, Industry Standard Servers and Software, HP. “Through collaboration with LEG and its members, HP extends the promise of Project Moonshot and the development of the Arm server software ecosystem to offer a broad range of innovative System On Chip (SoC) designs and Linux server distributions.”
 
-*About HP:* HP creates new possibilities for technology to have a meaningful impact on people, businesses, governments and society. The world’s largest technology company, HP brings together a portfolio that spans printing, personal computing, software, services and IT infrastructure to solve customer problems. More information about HP is available at [www.hp.com](http://www.hp.com/). Media contact: Annalie Grubbs, annalie.dru.grubbs@hp.com.
+*About HP:* HP creates new possibilities for technology to have a meaningful impact on people, businesses, governments and society. The world’s largest technology company, HP brings together a portfolio that spans printing, personal computing, software, services and IT infrastructure to solve customer problems. More information about HP is available at [here](https://www8.hp.com/uk/en/hp-information.html). Media contact: Annalie Grubbs, annalie.dru.grubbs@hp.com.
 
 **HiSilicon**
 

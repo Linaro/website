@@ -16,6 +16,8 @@ tags:
   - thrashing
   - Fedora
   - ""
+related_project:
+  - LSE
 category: Blog
 author: linus.walleij
 ---
