@@ -24,6 +24,8 @@ tags:
   - Sandia
   - Fujitsu
   - open HPC
+related_project:
+  - HPCAI
 category: Blog
 author: paul.isaacs
 ---
