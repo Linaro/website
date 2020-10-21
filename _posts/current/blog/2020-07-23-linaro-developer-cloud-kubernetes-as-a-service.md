@@ -37,6 +37,7 @@ tags:
 category: Blog
 author: kevin.zhao@linaro.org
 ---
+
 # **Linaro Data Center Group (LDCG)**
 
 The Cloud Infrastructure team in Linaro sits inside a group known as the Linaro Data Center and Cloud Group (LDCG). The Cloud Infrastructure focuses on open-source cloud IAAS, PAAS, and storage projects such as OpenStack, Kubernetes, and Ceph. The rest of LDCG spend their time working with Arm Server Architecture, Big Data, and HPC (High-Performance Computing).
@@ -47,7 +48,7 @@ Linaro Developer Cloud is designed to broaden the availability of the latest har
 
 Linaro Developer Cloud is based on OpenStack, Ceph and Kubernetes, leveraging both Debian and CentOS, as the underlying cloud OS infrastructure on top of ARM-based server platforms from Linaro members such as Huawei and Marvell, etc.
 
-{% include image.html path="/assets/images/content/openstack.png" class="small-inline left" alt="Openstack icon" %} Linaro Developer Cloud has been certified as [OpenStack Powered Cloud](https://www.openstack.org/marketplace/public-clouds/linaro/linaro-developer-cloud) for more than three years, and we are engaged in OpenStack and Ceph upstream to make OpenStack and Ceph easy to run and deploy on Arm64 platforms.
+{% include image.html path="/assets/images/content/openstack.png" class="small-inline left" alt="Openstack icon" %} Linaro Developer Cloud has been certified as OpenStack Powered Cloud (https://www.openstack.org/marketplace/public-clouds/linaro/linaro-developer-cloud) for more than three years, and we are engaged in OpenStack and Ceph upstream to make OpenStack and Ceph easy to run and deploy on Arm64 platforms.
 
 Recently, Linaro Developer Cloud has supported Kubernetes as a Service, and we have finally passed all the conformance tests from CNCF as the “[Certified Kubernetes - Hosted](https://landscape.cncf.io/format=card-mode&selected=linaro-developer-cloud-kubernetes-service)”, together with a bunch of famous cloud providers, such as AWS EKS, Azure AKS, Huawei Cloud CCE and etc.
 
