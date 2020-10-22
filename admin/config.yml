@@ -1620,7 +1620,7 @@ collections:
         allow_add: true
         hint: "List your tags"
       - label: "Related Project"
-        name: related_project
+        name: related_projects
         widget: relation
         collection: projects_data
         file: "projects"
