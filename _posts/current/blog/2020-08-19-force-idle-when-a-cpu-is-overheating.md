@@ -24,11 +24,12 @@ tags:
   - OPP
   - PELT
   - ARM64
-related_project:
+related_projects:
   - PERF
 category: Blog
 author: daniel.lezcano
 ---
+
 # About the Kernel Working Group
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
@@ -65,7 +66,7 @@ As a consequence, the heating effect is the highest when the last OPP is used an
 
 Mitigation begins when the thermal framework reduces the OPP while the cpufreq governor requests for a higher OPP. These two decisions are aggregated through the frequency Quality of Service (QoS) and the thermal framework always wins.
 
-The cooling effect is immediate when the OPP is reduced from the highest to the next highest level and as the transitions are very fast, that supports the use of an efficient passive cooling device. 
+The cooling effect is immediate when the OPP is reduced from the highest to the next highest level and as the transitions are very fast, that supports the use of an efficient passive cooling device.
 
 By showing two Hisilicon development boards with very different thermal profiles, the next figure illustrates how the mitigation controls the temperature to keep it close to the 75°C threshold. The ‘dhrystone’ benchmark was used to make the boards warm and then ended its execution close to the 40th second for the hi3660 and to the 55th for the hi6220. Please note that the profile is based on the development boards and does not reflect the end-user packaging with the form factor which can behave very differently.
 
@@ -73,7 +74,7 @@ By showing two Hisilicon development boards with very different thermal profiles
 
 The noticeable behavior is the sawtooth aspect of the temperature curves when the mitigation is activated, confirming the immediate impact of the OPP change on the heat.
 
-It is important to understand how the mitigation has an impact on the performance, so if the cooling effect is high when reducing one OPP,  additional power capacity is attained for the next quantum of time to run at a higher OPP.
+It is important to understand how the mitigation has an impact on the performance, so if the cooling effect is high when reducing one OPP, additional power capacity is attained for the next quantum of time to run at a higher OPP.
 
 Unfortunately some platforms do not have DVFS, or the voltage domain can be shared across different devices, so if one of these devices is in use it will prevent the DVFS to undervolt the performance domain. Thus the cooling effect won’t be as efficient as described above and in the end the mitigation will fail. This leads to a hard system reboot, instability or crash; in other words a non functioning device.
 
@@ -89,10 +90,10 @@ When an interrupt occurs on the CPU, this CPU exits the idle routine and schedul
 
 There can be different idle routines classified by their power consumption:
 
-* Clock gating: the CPU voltage is untouched but the clock is stopped, that is the fastest idle routine to sleep and wake up, requiring less than 1us for each. But this routine has the highest power consumption. That is what the WFI instruction does on the ARM systems
-* CPU retention: the clock is stopped while the voltage is the minimum viable voltage to keep the CPU logic consistent. The power saving is better than the Clock Gating scenario above, but the wakeup is a bit longer. This idle routine does not work as effectively with recent boards having a lot of cores because the CPU is woken up by the cache coherency hardware which decreases the power saving
-* CPU power down: the clock is stopped, the voltage is zero, the cache is flushed, it is out of cache coherency and the context is saved. It takes a longer time to enter this state and wake up, the kernel literally boots the CPU, but the power saving is at its maximum as the consumption is close to zero
-* Power domain down: if all the CPUs belonging to the same power domain are powered down, then the rest of the logic used by those CPUs can be shut down as well. Even more power is saved on the system at the cost of a higher latency for the wakeup.
+- Clock gating: the CPU voltage is untouched but the clock is stopped, that is the fastest idle routine to sleep and wake up, requiring less than 1us for each. But this routine has the highest power consumption. That is what the WFI instruction does on the ARM systems
+- CPU retention: the clock is stopped while the voltage is the minimum viable voltage to keep the CPU logic consistent. The power saving is better than the Clock Gating scenario above, but the wakeup is a bit longer. This idle routine does not work as effectively with recent boards having a lot of cores because the CPU is woken up by the cache coherency hardware which decreases the power saving
+- CPU power down: the clock is stopped, the voltage is zero, the cache is flushed, it is out of cache coherency and the context is saved. It takes a longer time to enter this state and wake up, the kernel literally boots the CPU, but the power saving is at its maximum as the consumption is close to zero
+- Power domain down: if all the CPUs belonging to the same power domain are powered down, then the rest of the logic used by those CPUs can be shut down as well. Even more power is saved on the system at the cost of a higher latency for the wakeup.
 
 The idle routine selection is determined by an idle governor which does some statistics on the previous events to try to predict when the next wakeup will occur and choose the most convenient idle state.
 
@@ -122,7 +123,7 @@ The following figure shows a capture of the kernel traces over a short time fram
 
 {% include image.html path="/assets/images/content/kernel-traces.png" alt="Kernel Traces graph" %}
 
-Even if the CPUs are independently managed by the idle injection, in this case the thermal framework grouped them for the same cooling device,it results in synchronously going idle increasing the chances for a power domain shut down. 
+Even if the CPUs are independently managed by the idle injection, in this case the thermal framework grouped them for the same cooling device,it results in synchronously going idle increasing the chances for a power domain shut down.
 
 The idle injection framework allows a latency constraint, so the idle routine having a wakeup latency greater than the latency constraint will be ignored, that is a way to prevent an inefficient idle routine.
 
