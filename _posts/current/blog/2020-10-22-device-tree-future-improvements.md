@@ -9,7 +9,7 @@ description: "Over the years there have been countless discussions around Device
   that Linaro is the perfect organization to address challenging problems like
   the ones described within this blog. "
 date: 2020-10-22 10:59:59
-image: /assets/images/content/devicetree-logo.webp
+image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
   - Device Tree
   - Arm ecosystem
