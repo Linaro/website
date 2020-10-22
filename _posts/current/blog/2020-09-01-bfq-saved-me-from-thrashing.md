@@ -16,14 +16,15 @@ tags:
   - thrashing
   - Fedora
   - ""
-related_project:
+related_projects:
   - LSE
 category: Blog
 author: linus.walleij
 ---
+
 # Benefits of the BFQ I/O scheduler
 
-Recently my less-used desktop computer became sluggish, and would randomly crash. It seemed to be fully occupied with disk activity and quickly became uninteractive to the point that not even ssh login would work. This is easily identified as [thrashing](https://en.wikipedia.org/wiki/Thrashing_(computer_science)): constantly swapping to disk because of short core memory.
+Recently my less-used desktop computer became sluggish, and would randomly crash. It seemed to be fully occupied with disk activity and quickly became uninteractive to the point that not even ssh login would work. This is easily identified as [thrashing](<https://en.wikipedia.org/wiki/Thrashing_(computer_science)>): constantly swapping to disk because of short core memory.
 
 When Linux runs out of memory, processes will of course be killed by the [OOM](https://en.wikipedia.org/wiki/Out_of_memory) (out of memory) killer, but if you have ample swap space, instead you will get thrashing. In this case the OOM killer would have been better: the system was so uninteractive that there is no point in trying to use swap. This was on a flash drive but still would just thrash.
 

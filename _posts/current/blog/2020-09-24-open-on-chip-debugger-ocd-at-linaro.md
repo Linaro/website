@@ -13,12 +13,13 @@ tags:
   - Arm v8 AArch64
   - toolchain
   - Arm
-related_project:
+related_projects:
   - GNU
   - LLVM
 category: Blog
 author: Omair.Javaid@linaro.org
 ---
+
 # Open on Chip Debugger
 
 The [Open On-Chip Debugger (OpenOCD)](http://www.openocd.org/) is an open source software development tool which allows on-chip debugging and programming of applications via JTAG/SWD hardware interface. OpenOCD runs on a host computer along with a debugger like GDB. GDB communicates with OpenOCD over RSP protocol similar to debugging an application running on hardware.
@@ -33,6 +34,6 @@ Linaro toolchain working group maintains [a wiki area for OpenOCD](https://colla
 
 Following pages provide quick start for validation and testing of OpenOCD on Arm:
 
-* [Getting started with OpenOCD Development](https://collaborate.linaro.org/display/TCWGPUB/Getting+started+with+OpenOCD+Development)
-* [Raspberry Pi Linux kernel debugging with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Raspberry+Pi+Linux+kernel+debugging+with+OpenOCD)
-* [Debug Zephyr app on Nitrogen board with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Debug+Zephyr+app+on+Nitrogen+board+with+OpenOCD)
+- [Getting started with OpenOCD Development](https://collaborate.linaro.org/display/TCWGPUB/Getting+started+with+OpenOCD+Development)
+- [Raspberry Pi Linux kernel debugging with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Raspberry+Pi+Linux+kernel+debugging+with+OpenOCD)
+- [Debug Zephyr app on Nitrogen board with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Debug+Zephyr+app+on+Nitrogen+board+with+OpenOCD)

@@ -24,22 +24,23 @@ tags:
   - Sandia
   - Fujitsu
   - open HPC
-related_project:
+related_projects:
   - HPCAI
 category: Blog
 author: paul.isaacs
 ---
+
 We have previously reflected on the first step for ARM into HPC ([High Performance Computing and Linaro - Mar.2018](/blog/high-performance-computing-and-linaro/)). Since then, Linaro has been working to increase awareness of the successes within the [High Performance Computing ARM ecosystem](https://static.linaro.org/assets/HighPerformanceComputingARMecosystem-small.pdf). High Performance Computing now forms a key part of our Linaro Connect activities ([Connect Resources](/engineering/high-performance-computing/)) and more recently our virtual conferences, due to Covid-19, ([Linaro Tech Days](https://connect.linaro.org/resources/ltd20/ltd20-106/)) for 2020.
 
 At Supercomputing 2019 we saw the public viewing of Fujitsu’s A64FX ([SC’19](https://www.fujitsu.com/global/solutions/business-technology/tc/events/sc19/)) and some of the first sales outside of Japan, in 2020, including another one of Linaro’s members, Sandia National Labs ([FX700](https://share-ng.sandia.gov/news/resources/news_releases/green_processor/)). Sandia, is the notable home of [Astra, the first Arm supercomputer](https://en.wikichip.org/wiki/supercomputers/astra) to join the Top500 list in 2018 and exceed 1 Petaflops (2.332 Petaflops using over 5000 [Marvell ThunderX2](https://www.marvell.com/products/server-processors/thunderx2-arm-processors.html) processors). Marvell continues to be another highly valued member of Linaro.
 
-The A64FX is the first processor to support a 512-bit hardware implementation of Arm’s Scalable Vector Extension ([SVE](https://developer.arm.com/docs/100891/latest/sve-overview/introducing-sve)). Fujitsu gave a talk in early 2019 to introduce the components that would make up their next Supercomputer (*[A64FX](https://static.linaro.org/assets/A64FXTheFirstSVE.pdf)*). That next Supercomputer is now here, today June 22nd 2020, Riken’s Fugaku is the No.1 Supercomputer in the world according to the [Top500 bi-annual review](https://www.top500.org/news/japan-captures-top500-crown-arm-powered-supercomputer/). In just 2 years since Arm based systems entered the Top500 Fugaku can compute 415.53 Petaflops. This is a 200x increase in processing while only a 20x increase in power consumption from Astra.
+The A64FX is the first processor to support a 512-bit hardware implementation of Arm’s Scalable Vector Extension ([SVE](https://developer.arm.com/docs/100891/latest/sve-overview/introducing-sve)). Fujitsu gave a talk in early 2019 to introduce the components that would make up their next Supercomputer (_[A64FX](https://static.linaro.org/assets/A64FXTheFirstSVE.pdf)_). That next Supercomputer is now here, today June 22nd 2020, Riken’s Fugaku is the No.1 Supercomputer in the world according to the [Top500 bi-annual review](https://www.top500.org/news/japan-captures-top500-crown-arm-powered-supercomputer/). In just 2 years since Arm based systems entered the Top500 Fugaku can compute 415.53 Petaflops. This is a 200x increase in processing while only a 20x increase in power consumption from Astra.
 
 A key component of SVE for the software developer is to code once and be bit-length agnostic from 128 bits up to 2048 bits in 128 bit increments for vector processing. A detailed look was provided by Fujitsu at Linaro's March [Tech Days](https://www.youtube.com/watch?v=OL_ZiXuZXyk). A developer’s application can auto-configure for respective hardware implementation. This has enabled developers to code in [256-bit software emulated environments](https://hub.docker.com/r/linaro/gem5-riken-open) and have the code automatically run optimised on and for the 512-bit hardware unchanged.
 
 **Overview of Single-Instruction-Multiple-Data (SIMD)**
 
-Scalable Vector Extension (*[SVE](https://static.linaro.org/assets/SVE-a-sneak-peek.pdf))* is an implementation of single-instruction-multiple-data ([SIMD](https://developer.arm.com/architectures/instruction-sets/simd-isas)). A simple explanation would be to apply the same instruction across data loaded into multiple registers. For example it could be that values are increased by a fixed amount, or a bitwise operation performed in parallel.
+Scalable Vector Extension (_[SVE](https://static.linaro.org/assets/SVE-a-sneak-peek.pdf))_ is an implementation of single-instruction-multiple-data ([SIMD](https://developer.arm.com/architectures/instruction-sets/simd-isas)). A simple explanation would be to apply the same instruction across data loaded into multiple registers. For example it could be that values are increased by a fixed amount, or a bitwise operation performed in parallel.
 
 The single-instruction-multiple-data process benefits large volumes of similar data such as that found in graphics calculations and machine learning networks.
 
@@ -47,11 +48,11 @@ For example:
 
 [Vector addition](https://en.wikipedia.org/wiki/Euclidean_vector#Addition_and_subtraction): a = b + c;
 
-[Fuse multiply and accumulate (saxpy](https://developer.arm.com/docs/ddi0596/e/simd-and-floating-point-instructions-alphabetic-order/fmlal-fmlal2-vector-floating-point-fused-multiply-add-long-to-accumulator-vector)) y =  a*x + y;* 
+[Fuse multiply and accumulate (saxpy](https://developer.arm.com/docs/ddi0596/e/simd-and-floating-point-instructions-alphabetic-order/fmlal-fmlal2-vector-floating-point-fused-multiply-add-long-to-accumulator-vector)) y = a*x + y;*
 
-*Dot products a*{ij} = x*{ik}y_{kj} (in tensor notation) as required in [gemm (matrix-matrix) operations](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a/optimizing-c-code-with-neon-intrinsics/optimizing-matrix-multiplication).
+_Dot products a_{ij} = x\*{ik}y\_{kj} (in tensor notation) as required in [gemm (matrix-matrix) operations](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/neon-programmers-guide-for-armv8-a/optimizing-c-code-with-neon-intrinsics/optimizing-matrix-multiplication).
 
-*“Typically, whole SIMD operations form the inner-most of loops and the registers are assigned to light weight threads, say Open MP, on the next outer layer. A further coarse grained parallelism is then supplied by the outer  ‘administrative’ loop layers such as Open MPI which typically allocate heavier blocks, e.g.  domain or logical decomposition of work to packages.” (quote: Roger Philp, Linaro HPC Senior Engineer)*
+_“Typically, whole SIMD operations form the inner-most of loops and the registers are assigned to light weight threads, say Open MP, on the next outer layer. A further coarse grained parallelism is then supplied by the outer ‘administrative’ loop layers such as Open MPI which typically allocate heavier blocks, e.g. domain or logical decomposition of work to packages.” (quote: Roger Philp, Linaro HPC Senior Engineer)_
 
 In the hierarchy of packages, cores, threads, vectors:
 
@@ -60,14 +61,14 @@ In the hierarchy of packages, cores, threads, vectors:
 A typical and recurrent problem encountered with the vector models however is the inability to lock data in registers without automatic flushing, until that data can be completely retired. For example:
 
 ```
-Minimize main memory and cache access 
+Minimize main memory and cache access
 Maximise reuse of array content in say block matrix multiply for instance or convolutions
 a[0] = a0
 a[1] = a1
 ...
 a[n] = an
 load a[] -> R  <--- c/c++ user control command
-               <--- loads a[] into cpu register R  
+               <--- loads a[] into cpu register R
 lock R         <--- c/c++ user control command
                <--- R is now read only and not flushable
 do lots of other stuff, but register R remains static
@@ -81,7 +82,7 @@ Linaro’s HPC-SIG are working towards [profiling HPC](https://connect.linaro.or
 
 **Background on Scalable Vector Extension (SVE)**
 
-Prior to SVE, single-instruction-multiple-data was implemented using Arm’s Neon technology. Neon has been used predominantly in accelerating  audio and video encoding/decoding as well as 2D/3D graphics. The[ Neon intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics?page=1) are function calls that the compiler replaces with Neon instruction(s). [SVE intrinsics](https://developer.arm.com/docs/100891/latest/coding-considerations/using-sve-intrinsics-directly-in-your-c-code) are a different set of function calls to make use of scalable vector extension hardware. This was the first pass at agnostic vector lengths. A further development for SVE2 (to be utilised by silicon vendors in the future) will enable a common set of intrinsics which can make use of both SVE and NEON hardware optimisations, as described in the Arm presentation at Linaro’s Connect conference ([SAN19](https://connect.linaro.org/resources/san19/san19-206/)).
+Prior to SVE, single-instruction-multiple-data was implemented using Arm’s Neon technology. Neon has been used predominantly in accelerating audio and video encoding/decoding as well as 2D/3D graphics. The[ Neon intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics?page=1) are function calls that the compiler replaces with Neon instruction(s). [SVE intrinsics](https://developer.arm.com/docs/100891/latest/coding-considerations/using-sve-intrinsics-directly-in-your-c-code) are a different set of function calls to make use of scalable vector extension hardware. This was the first pass at agnostic vector lengths. A further development for SVE2 (to be utilised by silicon vendors in the future) will enable a common set of intrinsics which can make use of both SVE and NEON hardware optimisations, as described in the Arm presentation at Linaro’s Connect conference ([SAN19](https://connect.linaro.org/resources/san19/san19-206/)).
 
 Linaro works to enable the Arm ecosystem and helps coordinate SoC vendors, hyperscaler enablers and End-users. The [Linaro Developer Cloud](https://www.linaro.cloud/) provides the opportunity to test emulated scalable vector extension code on Aarch64 hardware that doesn’t have SVE ([SVE-QEMU](/blog/sve-in-qemu-linux-user/) and the [latest math optimisations](https://github.com/ARM-software/optimized-routines?)).
 
@@ -113,7 +114,7 @@ However your system is built, you can be sure ARM-based solutions can be your eq
 
 A strong science, technology, and engineering foundation enables Sandia's mission through capable research staff working at the forefront of innovation, collaborative research with universities and companies, and discretionary research projects with significant potential impact. Sandia works with other government agencies, industry and academic institutions to accomplish their missions in the strategic areas of nuclear weapons, national security programs, energy and global security.
 
-**Background on Fujitsu:**  Fujitsu has operations across Europe, the Middle East, India and Africa with more than 25,000 employees across the region. The Fujitsu Group has established a global service structure with operations in more than 180 countries around the world. The largest business area is technology solutions. Fujitsu provides corporate customers around the globe with IT-driven business solutions based on cutting-edge digital transformation technologies, services and high-quality digital business platforms. Fujitsu’s portfolio of solutions are focused on addressing specific business and IT challenges within industry; adapted to retailers, financial services, automotive or manufacturing organizations as well as central and local governmental departments.
+**Background on Fujitsu:** Fujitsu has operations across Europe, the Middle East, India and Africa with more than 25,000 employees across the region. The Fujitsu Group has established a global service structure with operations in more than 180 countries around the world. The largest business area is technology solutions. Fujitsu provides corporate customers around the globe with IT-driven business solutions based on cutting-edge digital transformation technologies, services and high-quality digital business platforms. Fujitsu’s portfolio of solutions are focused on addressing specific business and IT challenges within industry; adapted to retailers, financial services, automotive or manufacturing organizations as well as central and local governmental departments.
 
 As well as the provision of IT services and solutions, Fujitsu also develop and manufacture a range of electronic products and devices for use across a wide range of applications such as imaging, wireless communications and security.
 

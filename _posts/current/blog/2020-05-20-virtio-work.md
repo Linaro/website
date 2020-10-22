@@ -11,12 +11,13 @@ tags:
   - virtio
   - OASIS
   - standards
-related_project:
+related_projects:
   - STR
 category: Blog
 author: alex.bennee
 published: true
 ---
+
 {% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
 
 # Introduction
@@ -36,7 +37,6 @@ well be slower than accessing RAM but in virtual systems it can
 involve executing tens of thousands of instructions before control is
 returned to the guest.
 
-
 # Para-virtualisation
 
 The concept of para-virtualisation is not a new one. A
@@ -51,7 +51,6 @@ of that para-virtualisation included I/O drivers split into a
 front-end (in the guest kernel) and a back-end (handled by the
 hypervisor).
 
-
 # Enter Virt-IO
 
 As Xen was slowly working towards up-streaming their guest support
@@ -63,7 +62,6 @@ support for various hypervisors there was a danger of every one having
 multiple solutions for para-virtualisation of I/O operations. His
 [original virtio paper](https://ozlabs.org/~rusty/virtio-spec/virtio-paper.pdf) proposed 3 core concepts:
 
-
 ## Common configuration model
 
 All Virt-IO drivers have a common driver API to deal with things like
@@ -73,7 +71,6 @@ of real hardware. Drivers for real hardware often target a family of
 chips but have to be careful to ensure each individual chip has it's
 own quirks and workaround.
 
-
 ## Virtqueue transport abstraction
 
 Virtqueues provide the mechanism by which buffers are passed between
@@ -82,7 +79,6 @@ the guest and the host. Guests will add buffers to the queue before
 turn can queue buffers and trigger a callback in the guest which
 function much the same way as interrupts do for real hardware.
 
-
 ## Replaceable transport implementation
 
 The original paper suggested a simple ring buffer implementation but
@@ -90,7 +86,6 @@ acknowledged that there was scope for other transports to be used. By
 separating the low level transport from the driver abstraction any
 particular hypervisor requirements can be kept on one place without
 having to address them in the drivers themselves.
-
 
 # Standardisation
 
@@ -107,7 +102,6 @@ with developing open standards and interoperability. Work on the
 VirtIO standard is now done in the open following the OASIS guidelines
 and as of now has reached the [v1.1 of the spec](https://docs.oasis-open.org/virtio/virtio/v1.1/virtio-v1.1.html).
 
-
 # Collaborating for the Future
 
 It should be clear now that VirtIO is well established as good model
@@ -117,7 +111,6 @@ of a number of our members and as Linaro is a place for collaboration
 we are well positioned to get involved in the furthering of this open
 standard. There are a number of areas of particular interest we are
 currently looking at.
-
 
 ## Enabling VirtIO on new hypervisors
 
@@ -139,7 +132,6 @@ carrying signalling from the guest driver to the backend as well as
 the ability to share parts of the guests memory with whatever might be
 providing the backend of the device. Generally thanks to VirtIO's
 layered approach the front ends are entirely untouched.
-
 
 ## Expanding vhost-user
 
@@ -163,7 +155,6 @@ virtqueues. We would like to support limiting the address space to
 only the portions of the guest's address space required to do it's job.
 This in turn would allow interesting architectures where the back-ends
 could be separated out into their own contained virtual domains.
-
 
 ## Standardisation of more devices
 

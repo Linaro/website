@@ -32,11 +32,12 @@ tags:
   - SIMD
   - Random Instruction Sequence (generator for) Userspace
   - lock-less hash table
-related_project:
+related_projects:
   - QEMU
 category: Blog
 author: alex.bennee
 ---
+
 # Introduction
 
 The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as [GCC](https://gcc.gnu.org/) and [LLVM](https://llvm.org/). When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis it can't afford to spend large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
@@ -88,7 +89,7 @@ Another recent innovation is the [Decode Tree](https://qemu.readthedocs.io/en/la
 
 Ideally an instruction set fits into a nice regular and tree like decode pattern. However, reality often gets in the way, especially when ISA designers are trying to squeeze additional functionality into an increasingly crowded opcode space. Eventually you end up with functions like [this](https://git.qemu.org/?p=qemu.git;a=blob;f=target/arm/translate-a64.c;h=73d753f11fbe7878e23cbfaa9df38be4d8b96cbd;hb=HEAD#l14381) which do a series of masked pattern tests in a very particular order to tease out exactly which instruction is being decoded. Needless to say this process is error prone and many bugs have occurred due to mistakes in decoding the opcode.
 
-Decode Tree solves this problem by allowing a simple textual description of the opcode fields and then having a script automatically generate the most efficient decoding of opcode it can.  As a bonus it can also automatically extract the fields from the instruction and pass those to a simplified implementation that can just concentrate on the semantics of the operation.
+Decode Tree solves this problem by allowing a simple textual description of the opcode fields and then having a script automatically generate the most efficient decoding of opcode it can. As a bonus it can also automatically extract the fields from the instruction and pass those to a simplified implementation that can just concentrate on the semantics of the operation.
 
 ```
 static void trans_add_imm(DisasContext *s, arg_rri *a)
@@ -122,7 +123,7 @@ In the end SVE's vector size agnostic approach would be an inspiration for a new
 
 ### Inline dynamic jumps (tb lookup)
 
-The translator works by translating a block of instructions at a time.  At the end of the block it can jump to one of two blocks. When these are static addresses, that jump will get patched in, once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However, there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go, but it can certainly do the lookup inline and avoid the expensive exit.
+The translator works by translating a block of instructions at a time. At the end of the block it can jump to one of two blocks. When these are static addresses, that jump will get patched in, once the next block is translated. If the translator doesn't know what to execute next it exits from the translated code back to the outer loop which will either translate a new block or process some sort of asynchronous operation. However, there is one case where we shouldn't need to make such an expensive exit which is that of the computed jump. The translator can't know at translation time where a jump may go, but it can certainly do the lookup inline and avoid the expensive exit.
 
 ## Potential Future Directions
 
@@ -151,4 +152,3 @@ Single Static Assignment (SSA) form is a fairly standard way that compilers use 
 ## Conclusion
 
 It is fair to assume a lot of the work done in the team is about improving QEMU's ARM specific emulation - see for example the recent [changelog](https://wiki.qemu.org/ChangeLog/5.0#Arm) and [ARMv8.5-MemTag](https://wiki.qemu.org/ChangeLog/5.1#Arm) in the upcoming 5.1 release. However, we also benefit from the QEMU being a healthy project that supports a wide range of host and guest architectures. Our goal is still to make QEMU the go to emulation platform for free software developers to experiment with the latest ARM ISA features - as well as the best free software emulation platform for any architecture. I hope this article has given you a flavour of the sort of changes that have been made to the core translator over the last few years. There is certainly more to come as we continue to work on improving QEMU every day.
-

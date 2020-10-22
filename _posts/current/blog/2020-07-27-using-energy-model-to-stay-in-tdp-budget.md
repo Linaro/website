@@ -26,11 +26,12 @@ tags:
   - device tree
   - energy model based powercap
   - ""
-related_project:
+related_projects:
   - PERF
 category: Blog
 author: daniel.lezcano
 ---
+
 ## [About the Author](https://www.linkedin.com/in/daniel-lezcano-8481435a/)
 
 Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
@@ -51,9 +52,9 @@ The performance states of a device usually follow a quadratic curve in terms of 
 
 The power management is done from the kernel side with different frameworks: the cpufreq automatically adapts to the performance state via the operating points, depending on the system load, the thermal framework which monitors the components temperature and caps their performances in case of a hotspot detection. There are more techniques but, for the sake of simplicity, we won't mention them in this blog.
 
-Mobile devices are even more interested in managing power consumption because, depending upon the situation or the workload, the performance places higher or lower priority on certain components in regards to others. One example is virtual reality where a hotspot on the graphics can lead to a performance throttling on the GPU resulting in frame drops and a dizziness feeling for the user. Another example is the ratio between the cost in energy for a specific performance state vs a benefit not noticeable for the user, like saving milliseconds  when rendering a web page. And last but not least, a battery low situation where we want to guarantee a longer duration before shutdown can create a unique prioritization scheme.
+Mobile devices are even more interested in managing power consumption because, depending upon the situation or the workload, the performance places higher or lower priority on certain components in regards to others. One example is virtual reality where a hotspot on the graphics can lead to a performance throttling on the GPU resulting in frame drops and a dizziness feeling for the user. Another example is the ratio between the cost in energy for a specific performance state vs a benefit not noticeable for the user, like saving milliseconds when rendering a web page. And last but not least, a battery low situation where we want to guarantee a longer duration before shutdown can create a unique prioritization scheme.
 
-This non-exhaustive list of examples shows there is a need to act dynamically on the devices' power from the userspace who has full knowledge of the running application. In order to catch unique scenarios and tune the system at runtime, the solution today leverages a thermal daemon monitoring the temperature of different devices and trying to anticipate where to reduce the power consumption, given the application is running. The thermal daemon turns the different “knobs” here and there, in every place where it is possible to act on the power. One of these places is the thermal framework which exports an API via sysfs to manually set the level of the  performance state for a given device declared as a passive cooling device.
+This non-exhaustive list of examples shows there is a need to act dynamically on the devices' power from the userspace who has full knowledge of the running application. In order to catch unique scenarios and tune the system at runtime, the solution today leverages a thermal daemon monitoring the temperature of different devices and trying to anticipate where to reduce the power consumption, given the application is running. The thermal daemon turns the different “knobs” here and there, in every place where it is possible to act on the power. One of these places is the thermal framework which exports an API via sysfs to manually set the level of the performance state for a given device declared as a passive cooling device.
 
 Unfortunately, the thermal framework was not designed for that, as its primary goal is to protect the component at the limits. Thus the thermal daemon and the in-kernel governor will compete in their decisions. Moreover, some governors are open loop regulation systems where they make a connection between the state they choose and the cooling effect. If thermal daemons changes the decision, the connection is broken and the governor's logic can enter unknown states.
 
@@ -83,11 +84,11 @@ As described previously, the mobile devices want to balance the power along with
 
 This is where the energy model based powercap fits perfectly:
 
-* The sysfs hierarchy allows to model the constraints of the different devices on the SoC 
-* The energy model gives the power information of each device
-* The performance state callbacks allow an application to limit the power
-* The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
-* The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
+- The sysfs hierarchy allows to model the constraints of the different devices on the SoC
+- The energy model gives the power information of each device
+- The performance state callbacks allow an application to limit the power
+- The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
+- The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
 
 The hierarchy of the constraints is represented by a tree via the sysfs filesystem. The nodes of the tree are virtual and their purpose is to aggregate the power information from the child nodes: the power consumption is the sum of the child nodes power consumption. This also applies to the max and min power. The leaves of the tree are the real devices grouped per performance domain. If a power limit is set on a node, then the power limit is split proportionally to the children regarding their max power consumption. This power limit distribution to the child nodes is considered fair enough for most of the system using this approach like electricity grid in data centers.
 
