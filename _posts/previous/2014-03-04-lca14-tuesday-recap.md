@@ -1,30 +1,30 @@
 ---
 author: jennifer.castelino
 categories:
-- Blog
+  - Blog
 date: 2014-03-04 17:30:15
 description: Review of all the activities that took place on Tuesday of LCA14
 layout: post
 link: /blog/connect-update/lca14-tuesday-recap/
 slug: lca14-tuesday-recap
 tags:
-- conference
-- Connect Events
-- connect
-- Linaro
-- Linaro Connect
-- Linux
-- Linux on Arm
-- Open Source
-- Opensource
+  - conference
+  - Connect Events
+  - connect
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux on Arm
+  - Open Source
+  - Opensource
 title: LCA14 - Tuesday Recap
 wordpress_id: 3470
 ---
 
 Linaro Connect continued on Tuesday with two guest keynote speakers. First up was Sreekant Kotay, SVP- Chief Software Architect at Comcast. Mr. Kotay gave a talk on how the open source community and modern development models are re-shaping the feature velocity and security models for embedded devices like set-top boxes, cable modems and gateways.  Following Mr. Kotay was Pradeep Kathail, Chief Network Architect for Cisco. Mr. Kathail gave a presentation titled “Open Network Environment: Software Defined Networking & Beyond”.  He spoke about Software Defined Networking (SDN) as a new approach to networking, complementing traditional network architectures. SDN aims at the normalization of network configuration and control through open programmatic interfaces to individual network devices as well as to the whole network.
 
-
 **Keynotes:**
+
 <table cellpadding="0" width="874" cellspacing="0" border="1" class="table responsive-table">
 <tbody >
 <tr >
@@ -75,17 +75,11 @@ Tuesday March 4, 2014
 </table>
 After the opening keynotes concluded all the attendees gathered for our traditional group photo.
 
-
 {% include image.html path="/assets/images/blog/group-photo-LCA14.jpg" alt="Group Photo at LCA14" %}
-
 
 ### **Group Photo at LCA14**
 
-
-
-Once group photo was taken the sessions for the day began. Tuesday was full day of sessions, whether you were interested in Linux Kernel, Tools, Automation and Validation, Android, Power management and many others there was something on the agenda for you. Below are the videos and presentations from those sessions.   
-
-
+Once group photo was taken the sessions for the day began. Tuesday was full day of sessions, whether you were interested in Linux Kernel, Tools, Automation and Validation, Android, Power management and many others there was something on the agenda for you. Below are the videos and presentations from those sessions.
 
 <table cellpadding="0" width="874" cellspacing="0" border="1" >
 <tbody >
@@ -246,7 +240,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-209-%20ODP%20project%20update.pdf) slides
+[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-209-%20ODP%20project%20update.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">
@@ -264,7 +258,7 @@ Tuesday  March 4, 2014
 </td>
 
 <td width="175" valign="top" markdown="1">
-[**Download**](https://s3.amazonaws.com/connect.linaro.org/lca14/presentations/LCA14-210-%20ETM-ETB-Coresight%20BoF.pdf) slides
+[**Download**](https://static.linaro.org/connect/lca14/presentations/LCA14-210-%20ETM-ETB-Coresight%20BoF.pdf) slides
 </td>
 
 <td width="204" valign="top" markdown="1">

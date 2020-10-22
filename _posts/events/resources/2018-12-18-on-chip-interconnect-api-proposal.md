@@ -9,5 +9,5 @@ speakers:
     job-title:
     name: Georgi Djakov / Vincent Guittot
 youtube_video_url: https://www.youtube.com/watch?v=s7Eb4cNffoQ
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/lpc2018/LPC2018_On-Chip_Interconnect_API.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/lpc2018/LPC2018_On-Chip_Interconnect_API.pdf
 ---

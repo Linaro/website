@@ -11,5 +11,5 @@ speakers:
     job-title: Deputy General Manager
     name: Mr.Guo Yu Feng
 youtube_video_url: https://www.youtube.com/watch?v=QviQQYoTr9Y&list=PLKZSArYQptsPLGSEUycUowh9oy8WF_epV&index=14&t=0s
-amazon_s3_presentation_url: https://s3.amazonaws.com/static-linaro-org/event-resources/arm-hpc-2019/slides/TheNewGenerationofPhytiums64CoresProcessorandEcosystem11.pdf
+amazon_s3_presentation_url: https://static.linaro.org/event-resources/arm-hpc-2019/slides/TheNewGenerationofPhytiums64CoresProcessorandEcosystem11.pdf
 ---

@@ -1,18 +1,19 @@
 ---
 author: linaro
 categories:
-- Blog
+  - Blog
 date: 2015-02-26 02:45:54
-description: 'Content from the Linaro Connect Hong Kong 2015 event is now available.
-  Materials include: slide presentations, session descriptions and sessions videos'
+description:
+  "Content from the Linaro Connect Hong Kong 2015 event is now available.
+  Materials include: slide presentations, session descriptions and sessions videos"
 layout: post
 link: /blog/linaro-connect-hong-kong-2015-content-now-available/
 slug: linaro-connect-hong-kong-2015-content-now-available
 tags:
-- connect
-- Connect Events
-- Linaro
-- Linaro Connect
+  - connect
+  - Connect Events
+  - Linaro
+  - Linaro Connect
 title: Linaro Connect Hong Kong 2015 Content Now Available
 wordpress_id: 8167
 ---
@@ -21,9 +22,7 @@ Linaro Connect Hong Kong 2015 was a great success, with over 400 attendees durin
 
 If you’re looking for a particular session below is a list of the sessions by day. Each session has a link to the schedule site, the link to the YouTube Video as well as the link the .mp4 that can be downloaded from the Linaro server for those who can’t access YouTube. Where possible session slides are also available. Please note not all sessions are recorded and not all have slides available. You can always check out the HKG15 [event hub](https://connect.linaro.org/resources/), [Flickr](https://www.flickr.com/photos/linaroorg/), [YouTube](https://www.youtube.com/user/LinaroOnAir/), and [Slideshare](http://www.slideshare.net/linaroorg) for any materials that may be added at a later date. Remember that registration is now available for our next Linaro Connect. Linaro Connect San Francisco 2015 will take place in September - [Register Now](https://connect.linaro.org/sfo15/).
 
-
 ### **Monday February 9, 2015**
-
 
 <table width="1008" style="height: 450px;" class="table responsive-table" >
 <tbody >
@@ -128,7 +127,7 @@ Community
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-101+Programming+for+Performance.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-101%20Programming%20for%20Performance.mp4)
 </td>
 </tr>
 <tr >
@@ -154,7 +153,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-102+LMG+Lightning+Talks.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-102%20LMG%20Lightning%20Talks.mp4)
 </td>
 </tr>
 <tr >
@@ -180,7 +179,7 @@ Builds & Baselines
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-103+OpenEmbedded+BoF.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-103%20OpenEmbedded%20BoF.mp4)
 </td>
 </tr>
 <tr >
@@ -206,7 +205,7 @@ HKG15-104: Coresight Update and Next Steps
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-104+Core+Development+Lightning+Talks+-+Kernel,+Power+Management,+Security+and+Virtualization.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-104%20Core%20Development%20Lightning%20Talks%20-%20Kernel,%20Power%20Management,%20Security%20and%20Virtualization.mp4)
 </td>
 </tr>
 <tr >
@@ -232,7 +231,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-105+96Boards+Hardware.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-105%2096Boards%20Hardware.mp4)
 </td>
 </tr>
 <tr >
@@ -258,7 +257,7 @@ N/A
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-106+Replacing+CMEM+Meeting+TI's+SoC.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-106%20Replacing%20CMEM%20Meeting%20TI's%20SoC.mp4)
 </td>
 </tr>
 <tr >
@@ -284,7 +283,7 @@ Power Management; Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-107+ACPI+Power+Management+on+Arm64+Servers.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-107%20ACPI%20Power%20Management%20on%20ARM64%20Servers.mp4)
 </td>
 </tr>
 <tr >
@@ -310,7 +309,7 @@ HKG15-108: Standardizing Linux Kernel Power Management on Arm 32/64-bit
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-108+Coresight+Update+and+Next+Steps.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-108%20Coresight%20Update%20and%20Next%20Steps.mp4)
 </td>
 </tr>
 <tr >
@@ -336,7 +335,7 @@ Not available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-109+96Boards+Software+Requirements.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-109%2096Boards%20Software%20Requirements.mp4)
 </td>
 </tr>
 <tr >
@@ -362,7 +361,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-110+ODP+Project+Update.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-110%20ODP%20Project%20Update.mp4)
 </td>
 </tr>
 <tr >
@@ -388,16 +387,15 @@ LAVA, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-09-Monday/HKG15-111+LAVA+Dispatcher+Refactoring.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-09-Monday/HKG15-111%20LAVA%20Dispatcher%20Refactoring.mp4)
 </td>
 </tr>
 </tbody>
 </table>
 
-* * *
+---
 
 ### **Tuesday February 10, 2015**
-
 
 <table width="1008" style="height: 450px;" >
 <tbody >
@@ -528,7 +526,7 @@ HKG15-201: Upstream Kernel Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-201+Upstream+Kernel+Validation.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-201%20Upstream%20Kernel%20Validation.mp4)
 </td>
 </tr>
 <tr >
@@ -580,7 +578,7 @@ HKG15-203: TCWG 2015 Roadmap Review
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-203+TCWG+2015+Roadmap+Review.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-203%20TCWG%202015%20Roadmap%20Review.mp4)
 </td>
 </tr>
 <tr >
@@ -606,7 +604,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-204+OpenStack+3rd+party+testing+and+performance+benchmarking.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-204%20OpenStack%203rd%20party%20testing%20and%20performance%20benchmarking.mp4)
 </td>
 </tr>
 <tr >
@@ -632,7 +630,7 @@ LAVA, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-205+OpenTAC+-+Open+Hardware+Test+Automation+Controller.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-205%20OpenTAC%20-%20Open%20Hardware%20Test%20Automation%20Controller.mp4)
 </td>
 </tr>
 <tr >
@@ -684,7 +682,7 @@ HKG15-207: Advanced Toolchain Usage Part 3
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-207+Advanced+Toolchain+Usage+Part+3.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-207%20Advanced%20Toolchain%20Usage%20Part%203.mp4)
 </td>
 </tr>
 <tr >
@@ -710,7 +708,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-208+ACPI+State+of+the+Server.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-208%20ACPI%20State%20of%20the%20Server.mp4)
 </td>
 </tr>
 <tr >
@@ -736,7 +734,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-209+ODP+User+experience.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-209%20ODP%20User%20experience.mp4)
 </td>
 </tr>
 <tr >
@@ -788,7 +786,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-211+Advanced+Toolchain+Usage+Part+4.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-211%20Advanced%20Toolchain%20Usage%20Part%204.mp4)
 </td>
 </tr>
 <tr >
@@ -814,7 +812,7 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-10-Tuesday/HKG15-901+Upstreaming+101.mp4 ain+Usage+Part+4.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-10-Tuesday/HKG15-901%20Upstreaming%20101.mp4)
 </td>
 </tr>
 <tr >
@@ -846,10 +844,9 @@ Training
 </tbody>
 </table>
 
-* * *
+---
 
 ### **Wednesday February 11, 2015**
-
 
 <table width="1008" style="height: 450px;" >
 <tbody >
@@ -980,7 +977,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-301+OVS+implemented+via+ODP+&+vendor+SDKs.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-301%20OVS%20implemented%20via%20ODP%20&%20vendor%20SDKs.mp4)
 </td>
 </tr>
 <tr >
@@ -1006,7 +1003,7 @@ Kernel
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-302+Debugging+Arm+kernels+using+NMIFIQ.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-302%20Debugging%20ARM%20kernels%20using%20NMIFIQ.mp4)
 </td>
 </tr>
 <tr >
@@ -1032,7 +1029,7 @@ HKG15-303: Secure Playback using OP-TEE
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-303+Secure+Playback+using+OP-TEE.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-303%20Secure%20Playback%20using%20OP-TEE.mp4)
 </td>
 </tr>
 <tr >
@@ -1058,7 +1055,7 @@ Networking
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-305+Real+Time+processing+comparing+the+RT+patch+vs+Core+isolation.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-305%20Real%20Time%20processing%20comparing%20the%20RT%20patch%20vs%20Core%20isolation.mp4)
 </td>
 </tr>
 <tr >
@@ -1084,7 +1081,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-306+Introducing+Aster+-+a+tool+for+remote+GUI+testing+on+AOSP.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-306%20Introducing%20Aster%20-%20a%20tool%20for%20remote%20GUI%20testing%20on%20AOSP.mp4)
 </td>
 </tr>
 <tr >
@@ -1110,7 +1107,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-307+OP-TEE+paging.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-307%20OP-TEE%20paging.mp4)
 </td>
 </tr>
 <tr >
@@ -1136,7 +1133,7 @@ HKG15-308: Kick-start your 64-bit AOSP build engines
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-308+Kick-start+your+64-bit+AOSP+build+engines.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-308%20Kick-start%20your%2064-bit%20AOSP%20build%20engines.mp4)
 </td>
 </tr>
 <tr >
@@ -1162,7 +1159,7 @@ Networking, Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-309+VLAN+daemon+next+steps.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-309%20VLAN%20daemon%20next%20steps.mp4)
 </td>
 </tr>
 <tr >
@@ -1188,7 +1185,7 @@ Security, Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-311+OP-TEE+for+Beginners+and+Porting+Review.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-311%20OP-TEE%20for%20Beginners%20and%20Porting%20Review.mp4)
 </td>
 </tr>
 <tr >
@@ -1214,7 +1211,7 @@ Builds & Baselines
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/Cross-distribution+Collaboration.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/Cross-distribution%20Collaboration.mp4)
 </td>
 </tr>
 <tr >
@@ -1240,16 +1237,15 @@ Training
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-11-Wednesday/HKG15-904+Scrum+and+Kanban+101.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-11-Wednesday/HKG15-904%20Scrum%20and%20Kanban%20101.mp4)
 </td>
 </tr>
 </tbody>
 </table>
 
-* * *
+---
 
 ### **Thursday February 12, 2015**
-
 
 <table width="1008" style="height: 450px;" >
 <tbody >
@@ -1354,7 +1350,7 @@ Enterprise Server
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-401+Ceph+and+Software+Defined+Storage+on+Arm+servers.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-401%20Ceph%20and%20Software%20Defined%20Storage%20on%20ARM%20servers.mp4)
 </td>
 </tr>
 <tr >
@@ -1380,7 +1376,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-402+Orphan+hacking+sessions.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-402%20Orphan%20hacking%20sessions.mp4)
 </td>
 </tr>
 <tr >
@@ -1432,7 +1428,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-404+Standardizing+Linux+Kernel+Power+mgmt+on+Arm+32+64+bit.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-404%20Standardizing%20Linux%20Kernel%20Power%20mgmt%20on%20ARM%2032%2064%20bit.mp4)
 </td>
 </tr>
 <tr >
@@ -1458,7 +1454,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-405+Redundant+zerosign-extension+elimination+in+GCC.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-405%20Redundant%20zerosign-extension%20elimination%20in%20GCC.mp4)
 </td>
 </tr>
 <tr >
@@ -1484,7 +1480,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-406+Hacking+session+hands+on.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-406%20Hacking%20session%20hands%20on.mp4)
 </td>
 </tr>
 <tr >
@@ -1510,7 +1506,7 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-407+EME+implementation+in+Chromium+Linaro+Clear+Key.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-407%20EME%20implementation%20in%20Chromium%20Linaro%20Clear%20Key.mp4)
 </td>
 </tr>
 <tr >
@@ -1536,7 +1532,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
- [Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-408+Armv8-A+NEON+optimization.mp4)
+ [Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-408%20ARMv8-A%20NEON%20optimization.mp4)
 </td>
 </tr>
 <tr >
@@ -1562,7 +1558,7 @@ Mobile
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-409+Arm+Hibernation+enablement+on+SoCs+-+a+case+study.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-409%20ARM%20Hibernation%20enablement%20on%20SoCs%20-%20a%20case%20study.mp4)
 </td>
 </tr>
 <tr >
@@ -1588,7 +1584,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-410+LAVA+Lab+addressing+and+IPV6.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-410%20LAVA%20Lab%20addressing%20and%20IPV6.mp4)
 </td>
 </tr>
 <tr >
@@ -1614,16 +1610,15 @@ Digital Home
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-12-Thursday/HKG15-411+Browser+Testing+Framework+for+LHG.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-12-Thursday/HKG15-411%20Browser%20Testing%20Framework%20for%20LHG.mp4)
 </td>
 </tr>
 </tbody>
 </table>
 
-* * *
+---
 
 ### **Friday February 13, 2015**
-
 
 <table width="1008" style="height: 450px;" >
 <tbody >
@@ -1728,7 +1723,7 @@ Validation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-13-Friday/152027+HKG+15+500+LAVA+Usage+and+Result+Mgmt.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-13-Friday/152027%20HKG%2015%20500%20LAVA%20Usage%20and%20Result%20Mgmt.mp4)
 </td>
 </tr>
 <tr >
@@ -1754,7 +1749,7 @@ Tools
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-13-Friday/160030+HKG+15+501+Toolchain+Performance+analysis+and+Investigations.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-13-Friday/160030%20HKG%2015%20501%20Toolchain%20Performance%20analysis%20and%20Investigations.mp4)
 </td>
 </tr>
 <tr >
@@ -1780,7 +1775,7 @@ Not Available
 </td>
 
 <td style="text-align: center;" markdown="1">
-[Video](https://s3.amazonaws.com/connect.linaro.org/hkg15/Videos/02-13-Friday/170106+HKG15+502+Arm+Trusted+Firmware+Evolution.mp4)
+[Video](https://static.linaro.org/connect/hkg15/Videos/02-13-Friday/170106%20HKG15%20502%20ARM%20Trusted%20Firmware%20Evolution.mp4)
 </td>
 </tr>
 <tr >
