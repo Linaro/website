@@ -297,14 +297,14 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/scmi-dev\">ASA-dev mailing list</a>.<br>"
+                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/scmi-dev\">SCMI-dev mailing list</a>.<br>"
             },
             "Project Information": {
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/SCMI\">https://collaborate.linaro.org/display/SCMI</a>",
-                "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access points with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populates the authorized resources to the non secure world. The TEE which acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
+                "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access point with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populate the authorized resources to the non secure world. The TEE acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
                 "title": "System Control and Management Interface"
             },
             "Project Ownership": {
