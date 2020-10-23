@@ -99,8 +99,8 @@
             },
             "Project Ownership": {
                 "Governing Entity": "TSC",
-                "Project Owner": "Fran\u00e7ois Ozog <a class=\"email-icon\" href=\"mailto:francois.ozog@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Fran\u00e7ois Ozog <a class=\"email-icon\" href=\"mailto:francois.ozog@linaro.org\"><span class=\"icon-mail\"></span></a>"
+                "Project Owner": "Bill Mills <a class=\"email-icon\" href=\"mailto:bill.mills@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Technical Lead": "Bill Mills <a class=\"email-icon\" href=\"mailto:bill.mills@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=12401&avatarId=13902",
             "key": "DTE"
