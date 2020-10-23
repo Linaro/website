@@ -5,12 +5,12 @@ layout: post
 title: Device Tree - Future Improvements
 description: "Over the years there have been countless discussions around Device
   Tree. It is not a problem that has gone unnoticed. Still the impression seems
-  to be that little is actually happening, why is that? Linaro are working with
-  many SoC vendors and we have maintainers in the projects discussed in this
+  to be that little is actually happening. Why is that? Linaro are working with
+  many SoC vendors and we have maintainers in the projects discussed within this
   article. Since Linaro is a neutral player in the Arm ecosystem, we believe
-  that Linaro is the perfect organization to address challenging problems like
-  the ones described within this blog. "
-date: 2020-10-22 10:59:59
+  that Linaro is the perfect organization to address challenging problems, such
+  as the ones described within this blog. "
+date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
   - Device Tree
