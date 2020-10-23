@@ -1,25 +1,27 @@
 ---
-author: linaro
-categories:
-- Blog
-date: 2011-11-05 13:38:43
-description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
-  Technical discussions and interviews with Linaro and community engineers.
-keywords: linaro,connect,videos,arm,linux
-layout: post
-link: /blog/connect-update/connect-videos/
-slug: connect-videos
-tags:
-- Connect Events
-- arm
-- connect
-- Linaro
-- Linux
-- video
-title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
+layout: post
+keywords: linaro,connect,videos,arm,linux
+title: First videos from Linaro Connect Q4.11
+image: /assets/images/content/RGB-Linaro_Standard.png
+author: linaro
+slug: connect-videos
+date: 2011-11-05 13:38:43
+tags:
+  - Connect Events
+  - arm
+  - connect
+  - Linaro
+  - Linux
+  - video
+link: /blog/connect-update/connect-videos/
+categories:
+  - Blog
+description: A first set of HD videos from Linaro Connect Q4.11 in Orlando,
+  Florida. Technical discussions and interviews with Linaro and community
+  engineers.
+category: Blog
 ---
-
 [Linaro Connect Q4.11](https://connect.linaro.org/) was a great place to learn about Linaro projects and to contribute to them, as well as to build tighter ties with the Linaro engineers and community.
 
 For those who couldn't participate to this event, here are all the videos that I shot. Note that I mostly didn't cover plenaries, because they were either filmed by [Novacut](https://launchpad.net/novacut) or by the Ubuntu video crew, with better equipment. As soon as their videos are available, we will let you know through a comment to this article.
@@ -64,7 +66,7 @@ The cluster is made of 6 panda boards, that means 12 cores with 6 GB of RAM. We 
 
 Noritsuna explained how his cluster runs the Google App Engine (http://code.google.com/appengine/),  and allows to dispatch a Google app on a selected board.
 
-Details can be found [here](http://www.siprop.org/ja/2.0/index.php?product/pandacloud).
+Details can be found [here](http://www.siprop.org/ja/2.0/index.php?product/pandacloud%20[1]).
 
 ### Day 2 - Enabling low cost power measurement - Dave Anders
 
@@ -87,7 +89,6 @@ David Anders is one of the engineers that contributed most to the design of the 
 Michael Hope, the leader of the Toolchain Working Group, explained how his teams handles bugs, makes releases and works with upstream.
 
 Slides are available on http://people.linaro.org/~michaelh/presentations/2011.11%20Toolchain%20Process.pdf
-
 
 ### Day 3 - Freescale Landing team interview
 
