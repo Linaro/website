@@ -1,10 +1,12 @@
 name: UpdateProjectsJSON
 
 on:
+  schedule:
+    - cron: "* */1 * * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: self-hosted
     steps:
       - name: Fetch git repository
