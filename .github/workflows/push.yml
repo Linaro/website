@@ -16,6 +16,8 @@ jobs:
 
       - name: Fetch git repository
         uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.LINARO_BUILD_KEY }}
 
       - name: Initialise environment
         run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
