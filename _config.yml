@@ -5,7 +5,7 @@ description: |-
   Linaro is a collaborative engineering organization consolidating and optimizing open source software and tools for the Arm architecture.
 destination: _site
 permalink: /:categories/:title/
-theme: jumbo-jekyll-theme
+theme: linaro-jekyll-theme
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -132,6 +132,7 @@ http2_resources:
   - rel: preload
     as: font
     type: font/woff2
+    crossorigin: true
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
   enabled: true
@@ -185,12 +186,14 @@ social_media_channels:
     url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
-    enabled: false
-    shortname: Linaro
+  enabled: false
+  shortname: Linaro
 # Edit on GitHub Settings
 edit-on-github:
-    enabled: true
-    repo: https://www.github.com/Linaro/website
+  enabled: true
+  repo: https://www.github.com/Linaro/website
+# Breadcrumb schema
+breadcrumb_schema: true
 # Shema.org settings used in the schema.html include.
 schema:
   "@type": "Corporation"
