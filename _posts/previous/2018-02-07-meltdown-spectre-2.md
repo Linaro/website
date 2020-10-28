@@ -59,9 +59,11 @@ The technical changes to Arm Trusted Firmware are described in [Security Advisor
 
 Given these changes, the Linux kernel can rely on every trap to EL3 invalidating the branch target buffer simply as a side effect of Trusted Firmware protecting itself from the kernel! The kernel can be extended to make PSCI calls at key points in the kernel in order to mitigate Spectre variant 2 attacks and this implies that even systems that do not run any code in secure world must update Trusted Firmware if the kernel mitigation is effective. Whilst running `PSCI_VERSION` is sufficient to deploy the workaround a more efficient alternative has been made available called `SMCCC_ARCH_WORKAROUND_1`. This alternative uses a specially crafted ABI to dramatically reduce the entry/exit cost.
 
- At the time of writing, [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti) contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
+ At the time of writing, `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti` contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
 
 **Update**: *Since this article was first published, kernel code to exploit* `SMCCC_ARCH_WORKAROUND_1` *has been included in both the mainline kernel (from `v4.16-rc1`) and `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti`. `SMCCC_ARCH_WORKAROUND_1` is better optimized and permits better error reporting by the kernel if it is booted on a mis-configured system. It is strongly recommended to adopt the newer approach.*
+
+**Update**: *Since this article was first published, the git.kernel.org URL has stopped working. It is left here for reference purposes only.*
 
 # Traditional bootloaders and runtime firmware
 
