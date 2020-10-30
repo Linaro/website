@@ -6,7 +6,7 @@
     </div>
     <div class="container home-blog-post-carousel-container">
         <div class="owl-carousel owl-theme" id="blog-slider">
-            {% for post in site.categories["News"] limit: 10 %}
+            {% for post in site.categories["news"] limit: 10 %}
                 <div class="item home-page-blog-post-slider-item">
                     <div class="col col-12 no-padding">
                         <a href="{{post.url}}">
