@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-09-20 17:12:11
 description:
   Impressions of Campus Party Europe 2013 by Matthew Gretton-Dann who presented

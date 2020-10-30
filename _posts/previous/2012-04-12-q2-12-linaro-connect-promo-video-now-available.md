@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-04-12 17:00:44
 description:
   Thanks to Tara Oldfield at Novacut the Q2.12 Linaro Connect event now

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-06 00:12:38
 description:
   Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how

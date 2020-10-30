@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2016-04-29 15:51:39
 description:
   Linaro's 16.04 release is now available for download. See the detailed

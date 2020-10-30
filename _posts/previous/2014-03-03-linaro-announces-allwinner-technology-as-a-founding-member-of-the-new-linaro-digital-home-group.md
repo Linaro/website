@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-03-03 12:05:03
 description: Allwinner Technology invests in open source community by joining Linaro
 layout: post

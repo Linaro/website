@@ -6,8 +6,7 @@ link: /blog/edgex-foundry-integration-linaros-zephyr-based-iot-demonstration-sys
 slug: edgex-foundry-integration-linaros-zephyr-based-iot-demonstration-system
 title: EdgeX Foundry Integration with Linaro’s Zephyr-based IoT demonstration system
 wordpress_id: 12361
-categories:
-  - blog
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/hannover-messe-logo.jpg" alt="Hannover Messe Logo" class="medium-inline"%}

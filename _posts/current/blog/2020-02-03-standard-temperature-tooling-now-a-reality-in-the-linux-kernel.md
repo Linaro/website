@@ -9,8 +9,7 @@ tags:
   - 5.6 release
   - arm
   - open source
-categories:
-  - blog
+category: blog
 author: linus.walleij
 ---
 

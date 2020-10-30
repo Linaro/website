@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-  - news
+category: news
 date: 2015-01-22 16:50:47
 description: "CAMBRIDGE, UK \xE2\x80\x93\xC2\_22 JANUARY 2015"
 layout: post

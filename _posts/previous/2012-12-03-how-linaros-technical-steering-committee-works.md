@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 date: 2012-12-03 17:28:35
 description:
   A look at how Linaro's Technical Steering Committee (TSC) works and how

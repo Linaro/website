@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-03-18 14:06:23
 description:
   Telecoms and networking leader ZTE joins Linaro to promote global development

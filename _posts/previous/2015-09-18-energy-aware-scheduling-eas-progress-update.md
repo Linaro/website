@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-09-18 19:01:52
 description:
   Arm and Linaro are jointly developing Energy Aware Scheduling, a technique

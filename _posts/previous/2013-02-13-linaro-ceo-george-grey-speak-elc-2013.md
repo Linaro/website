@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-02-13 12:23:28
 description: CAMBRIDGE, UK - 13 FEB 2013
 layout: post

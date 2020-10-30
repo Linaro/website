@@ -1,7 +1,6 @@
 ---
 author: mark.gregotski
-categories:
-  - blog
+category: blog
 date: 2014-06-09 19:48:48
 description:
   Linaro publicly announced the formation of LHG with the founding member

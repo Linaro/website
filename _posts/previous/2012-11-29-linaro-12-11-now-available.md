@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-11-29 16:45:41
 description:
   The Linaro 12.11 release is now available. Highlights, release notes

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-09-25 00:20:25
 description:
   Overview of the keynotes and sessions that took place during day 4 of

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-08-28 20:01:52
 description:
   Linaro Connect SFO15 is coming soon and one the ways to get the most

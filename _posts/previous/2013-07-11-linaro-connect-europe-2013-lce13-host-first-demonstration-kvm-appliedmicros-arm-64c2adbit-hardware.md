@@ -12,8 +12,7 @@ title:
   Linaro Connect Europe 2013 (LCE13) to Host First Demonstration of KVM on AppliedMicro’s
   Arm® 64­bit Hardware
 wordpress_id: 4428
-categories:
-  - news
+category: news
 ---
 
 DUBLIN, IRELAND - 11 JUL 2013

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-20 18:50:27
 description:
   Linaro announces the formation of a new Linaro engineering group --The

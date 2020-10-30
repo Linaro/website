@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-07-24 16:54:35
 description:
   This article goes over the latest improvements to the LAVA deployment

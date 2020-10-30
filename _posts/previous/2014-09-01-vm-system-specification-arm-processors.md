@@ -11,8 +11,7 @@ link: /blog/vm-system-specification-arm-processors/
 slug: vm-system-specification-arm-processors
 title: VM System Specification for  Arm Processors
 wordpress_id: 6454
-categories:
-  - blog
+category: blog
 tags:
   - white paper
 ---

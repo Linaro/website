@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-09-26 18:11:36
 description: Cambridge, UK; 26 September 2016
 layout: post

@@ -5,8 +5,7 @@ layout: post
 date: 2018-10-16 09:00:00+00:00
 description: >-
   Earlier today, Linaro Community Projects Division, the division of Linaro managing open source community projects, announced the Trusted Firmware open governance project.
-categories:
-  - blog
+category: blog
 image: /assets/images/blog/trusted-firmware.jpg
 tags: Linaro, Arm, Synquacer, Machine Intelligence, Machine Learning, Arm NN, 96Boards, MiniNodes, Developer Box, Socionext, open source
 ---

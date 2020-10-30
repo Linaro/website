@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-28 14:18:21
 description:
   David A. Rusling, Linaro CTO gives an overview of the upcoming Linaro

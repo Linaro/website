@@ -1,7 +1,6 @@
 ---
 author: zach.pfeffer
-categories:
-  - blog
+category: blog
 date: 2011-10-12 05:02:19
 description:
   Instructions to test the Angry Birds game on the Linaro Android Evaluation

@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2014-01-31 01:23:11
 description: Information and links for the Linaro 14.01 release
 keywords:

@@ -5,8 +5,7 @@ layout: post
 date: 2018-09-11 09:00:00+00:00
 description: >-
   Linaro joins the Industrial Internet Consortium as a member.
-categories:
-  - news
+category: news
 tags: Linaro, IIC, IoT, IIoT, TI, Arm, Software, Edge
 ---
 

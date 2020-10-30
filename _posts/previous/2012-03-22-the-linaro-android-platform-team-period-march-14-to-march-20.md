@@ -1,7 +1,6 @@
 ---
 author: tony.mansson
-categories:
-  - blog
+category: blog
 date: 2012-03-22 22:53:18
 description: The Linaro Android Platform Team
 keywords: Linaro Android Platform Team, DS-5, MALI400, MALI

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-09-22 13:57:21
 description:
   "Linaro Connect Q3.11 video: Zach Pfeffer explains what Android is, how

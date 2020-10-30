@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2012-04-13 06:24:19
 description: Announcements and release notes for Linaro GDB 7.4 2012.04
 layout: post

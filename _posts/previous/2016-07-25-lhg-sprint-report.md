@@ -9,8 +9,7 @@ link: /blog/lhg-sprint-report/
 slug: lhg-sprint-report
 title: LHG Sprint Report
 wordpress_id: 11201
-categories:
-  - blog
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/board-picture.png" alt="Board Picture" class="medium-inline right"%}

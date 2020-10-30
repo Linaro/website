@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-01-11 19:37:08
 description:
   FXI's Cotton Candy at CES is proof of how Linaro can help a system vendor

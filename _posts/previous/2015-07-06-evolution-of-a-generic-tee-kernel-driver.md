@@ -1,7 +1,6 @@
 ---
 author: joakim.bech
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-06 19:24:58
 description:

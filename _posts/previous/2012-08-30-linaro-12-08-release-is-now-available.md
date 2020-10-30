@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-08-30 16:17:14
 description: Links to all the downloads for the Linaro 12.08 release
 keywords:

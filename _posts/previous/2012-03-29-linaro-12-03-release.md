@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2012-03-29 20:52:35
 description: Links to all the downloads for the Linaro 12.03 release
 layout: post

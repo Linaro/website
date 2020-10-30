@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-08-07 18:34:06
 description:
   Linaro announces its Virtual Connect and the public is invited! Linaro

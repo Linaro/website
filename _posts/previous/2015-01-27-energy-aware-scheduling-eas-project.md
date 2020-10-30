@@ -7,8 +7,7 @@ tags:
   - EAS
   - Energy-Aware
   - Scheduling
-categories:
-  - blog
+category: blog
 author: amit.kucheria
 ---
 

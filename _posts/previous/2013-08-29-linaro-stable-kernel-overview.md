@@ -1,7 +1,6 @@
 ---
 author: mark.brown
-categories:
-  - blog
+category: blog
 date: 2013-08-29 22:48:04
 description:
   Overview about the Linaro Stable Kernel. Includes updates from the team

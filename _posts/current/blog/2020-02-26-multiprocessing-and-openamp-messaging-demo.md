@@ -13,8 +13,7 @@ tags:
   - 96Boards
   - Avenger96
   - STMicroelectronics
-categories:
-  - blog
+category: blog
 author: bill.fletcher
 ---
 

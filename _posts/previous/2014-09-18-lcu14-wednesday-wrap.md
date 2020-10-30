@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-09-18 21:43:11
 description:
   Description of the keynotes and sessions that took place on Wednesday

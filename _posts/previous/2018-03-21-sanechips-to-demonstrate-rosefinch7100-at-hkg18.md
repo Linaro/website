@@ -3,8 +3,7 @@ author: linaro
 date: 2018-03-21 09:00:00.000
 title: Sanechips to demonstrate RoseFinch7100 at Linaro Connect
 description: Sanechips Technology will demonstrate the RoseFinch7100 NB-IoT chip at HKG18.
-categories:
-  - blog
+category: blog
 published: true
 tags: "HKG18, Arm, Linux, Kernel, Linaro, Open Source, RoseFinch7100, HKG18"
 keywords: "HKG18, Arm, Linux, Kernel, Linaro, Open Source, RoseFinch7100, HKG18"

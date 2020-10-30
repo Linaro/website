@@ -1,7 +1,6 @@
 ---
 author: tony.mansson
-categories:
-  - blog
+category: blog
 date: 2011-12-15 10:28:00
 description:
   Achievements from the The Linaro Android Platform Team, from Dec. 6 to

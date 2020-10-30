@@ -9,8 +9,7 @@ tags:
   - Club Member
   - Membership
   - Members
-categories:
-  - news
+category: news
 author: linaro
 ---
 

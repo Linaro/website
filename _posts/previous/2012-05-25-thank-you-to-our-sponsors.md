@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-05-25 16:09:18
 description:
   Linaro thanks its sponsors for their up role in the upcoming Q2.12 Linaro

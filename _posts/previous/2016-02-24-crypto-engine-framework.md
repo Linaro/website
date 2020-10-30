@@ -1,7 +1,6 @@
 ---
 author: baolin.wang
-categories:
-  - blog
+category: blog
 date: 2016-02-24 00:03:51
 description:
   "Recently I got some patches introducing the crypto engine framework

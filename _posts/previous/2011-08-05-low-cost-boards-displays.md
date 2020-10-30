@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-08-05 15:04:54
 description:
   Linaro Matt Waddel shares his experience running desktop distributions

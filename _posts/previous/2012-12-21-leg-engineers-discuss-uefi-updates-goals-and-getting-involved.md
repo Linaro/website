@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-12-21 19:16:52
 description:
   LEG Engineers held a public Hangout on Air where they discussed UEFI

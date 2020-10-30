@@ -5,8 +5,7 @@ layout: post
 link: /blog/releases-blog/linaro-11-06-release-features-unity-3d-port-for-arm/
 slug: linaro-11-06-release-features-unity-3d-port-for-arm
 title: Linaro 11.06 release features Unity 3D port for Arm
-categories:
-  - blog
+category: blog
 tags:
   - Releases
   - Linaro

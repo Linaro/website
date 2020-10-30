@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-10-20 15:25:54
 description:
   "Linaro announced that Jill Guo has been appointed as the Executive Vice

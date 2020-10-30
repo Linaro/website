@@ -1,7 +1,6 @@
 ---
 author: mark.orvek
-categories:
-  - blog
+category: blog
 date: 2013-09-16 22:08:16
 description: Overview of what to expect at Linaro Connect USA 2013.
 keywords:

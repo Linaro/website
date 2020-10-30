@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-12-28 18:35:13
 description:
   Join Linaro CTO, David Rusling and Tim Wesselman of HP's HyperScale Business

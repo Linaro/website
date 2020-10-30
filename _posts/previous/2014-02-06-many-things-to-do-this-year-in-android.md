@@ -1,7 +1,6 @@
 ---
 author: khasim.mohammed
-categories:
-  - blog
+category: blog
 date: 2014-02-06 16:58:43
 description:
   Linaro Android team update on their optimization efforts for 2014. What

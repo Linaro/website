@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-  - blog
+category: blog
 date: 2013-10-22 18:34:39
 description:
   Information on how to attend Linaro Connect USA 2013 remotely by going

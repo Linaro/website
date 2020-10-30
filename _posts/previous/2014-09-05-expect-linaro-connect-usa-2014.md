@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-  - blog
+category: blog
 date: 2014-09-05 20:18:13
 description:
   Overview of the events taking place at Linaro Connect USA 2014 the week

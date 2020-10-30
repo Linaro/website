@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-05-09 02:29:46
 description:
   Amber Graner interviews David Rusling and Jon 'maddog' Hall. Find out

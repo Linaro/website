@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-06-06 21:56:19
 description:
   Video - Lee Jones - What is upstreaming and why should we bother? Linaro

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2010-06-02 11:46:06
 description:
   Linaro is a collaborative engineering organization consolidating and

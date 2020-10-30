@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-01-12 22:29:14
 description:
   Announcement of the 2012.01 release of Linaro GCC 4.6 and Linaro GCC

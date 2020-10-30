@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-10-28 13:05:39
 description: Tinno Mobile joins Linaro Mobile Group
 excerpt: Tinno Mobile joins Linaro Mobile Group

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-06-13 19:26:43
 description:
   We're pleased to announce that Bob Monkman of the Enterprise Segment

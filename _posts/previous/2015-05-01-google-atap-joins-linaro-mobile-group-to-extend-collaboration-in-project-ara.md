@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-  - news
+category: news
 date: 2015-05-01 12:00:04
 description:
   "Linaro Ltd, the collaborative engineering organization developing open

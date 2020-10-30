@@ -1,7 +1,6 @@
 ---
 author: bill.fletcher
-categories:
-  - blog
+category: blog
 date: 2016-11-18 14:46:19
 description:
   Overview of the Zephyr demo shown at ELC last month. Demo showed how

@@ -1,7 +1,6 @@
 ---
 author: andrea.gallo
-categories:
-  - blog
+category: blog
 date: 2011-08-17 14:33:52
 keywords: LEB, Android, ST-Ericsson, Snowball
 layout: post

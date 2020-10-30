@@ -1,7 +1,6 @@
 ---
 author: alan.bennett
-categories:
-  - blog
+category: blog
 date: 2013-08-23 19:36:37
 description: Recap of the weekly LAVA team meeting and LIVE demos
 keywords: Linaro, Linux, LAVA, opensource, multinode

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-10-27 13:07:00
 description:
   Linaro announced that Guy Berruyer has been appointed as Chairman of

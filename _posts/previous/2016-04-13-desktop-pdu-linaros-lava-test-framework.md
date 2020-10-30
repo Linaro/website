@@ -6,8 +6,7 @@ link: /blog/desktop-pdu-linaros-lava-test-framework/
 slug: desktop-pdu-linaros-lava-test-framework
 title: A desktop PDU for Linaro's LAVA test framework
 wordpress_id: 10503
-categories:
-  - blog
+category: blog
 ---
 
 {% include media.html media_url="https://www.youtube.com/watch?v=ScPxjLY5h3I"%}

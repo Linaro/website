@@ -9,8 +9,7 @@ tags:
   - Arm
   - open source
   - software
-categories:
-  - blog
+category: blog
 author: arnd.bergmann
 ---
 

@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2013-02-01 13:12:29
 description: Linaro announces the release of Linaro 13.01.
 keywords:

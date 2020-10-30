@@ -18,8 +18,7 @@ tags:
   - Linux
   - Linaro
   - Arm
-categories:
-  - blog
+category: blog
 author: takahiro.akashi@linaro.org
 ---
 

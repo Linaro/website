@@ -11,8 +11,7 @@ tags:
   - LKFT
   - Linux Kernel
   - Functional testing
-categories:
-  - blog
+category: blog
 author: anders.roxell
 ---
 

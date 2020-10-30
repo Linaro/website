@@ -1,7 +1,6 @@
 ---
 author: jacopo.mondi
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-22 20:22:08
 description:

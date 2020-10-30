@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-08-05 06:54:35
 description:
   Demonstration of the Linux framework to keep the temperature of an Arm

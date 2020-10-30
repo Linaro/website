@@ -6,8 +6,7 @@ link: /blog/hardware-update/snowball-new-cortex-a9-community-board-from-st-erics
 slug: snowball-new-cortex-a9-community-board-from-st-ericsson
 title: Snowball - New Cortex A9 community board from ST-Ericsson
 wordpress_id: 3373
-categories:
-  - blog
+category: blog
 tags:
   - Hardware
   - board

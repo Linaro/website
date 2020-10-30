@@ -12,13 +12,11 @@ tags:
   - Community
   - Industry
 link: /blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/
-categories:
-  - blog
+category: blog
 description: The 3.7 Linux Kernel which was released earlier this week, includes
   many innovative new Arm focused features such as multi-platform, Armv8(64-bit)
   and Xen in Arm support.
-categories:
-  - blog
+category: blog
 ---
 
 The [3.7 Linux Kernel](http://kernelnewbies.org/Linux_3.7) which [was released](https://lkml.org/lkml/2012/12/10/688) earlier this week, includes many innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen in Arm support.

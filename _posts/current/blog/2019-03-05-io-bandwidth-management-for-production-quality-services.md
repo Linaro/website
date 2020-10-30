@@ -10,8 +10,7 @@ description: >-
   discover that these techniques entail dramatic throughput losses (up
   to 80-90%). On the bright side, we will also see a new solution that
   seems to give hope for recovering at least 90% of the loss.
-categories:
-  - blog
+category: blog
 tags:
   - Linaro
   - Arm

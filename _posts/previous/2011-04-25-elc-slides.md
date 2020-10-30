@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-04-25 04:23:53
 description:
   Slides from presentations by Linaro engineers at the 2011 edition of

@@ -6,16 +6,15 @@ link: /blog/hardware-update/genesi-donates-55-arm-netbooks-to-linaro-developers/
 slug: genesi-donates-55-arm-netbooks-to-linaro-developers
 title: Genesi donates 55 Arm netbooks to Linaro developers
 wordpress_id: 3374
-categories:
-  - blog
+category: blog
 tags:
-- Hardware
-- arm
-- CortexA8
-- donation
-- Linaro
-- Linux
-- netbook
+  - Hardware
+  - arm
+  - CortexA8
+  - donation
+  - Linaro
+  - Linux
+  - netbook
 ---
 
 At the Linaro Developer Summit a few weeks ago in Orlando, Genesi, a US company producing Arm computers, donated 55 Efika MX Arm netbooks to Linaro developers.
@@ -27,7 +26,9 @@ This is almost a $20,000 market value (Genesi also donated ~10 smarttops, so the
 The Efika MX netbook has interesting features: it weighs only 930 grams / 2.05 lbs, and can run up to 8-10 hours on its battery. This battery life is impressive if you know that power management hasn't been implemented yet, which means that its Freescale Cortex A8 CPU operates at full speed all the time.
 
 Konstantinos Margaritis, Genesi's representative at the Linaro and Ubuntu Developer Summit, declared that Genesi believes that Linaro is doing the right things to make Linux the best operating system on Arm. He also told us that Linaro developers were the best people to donate this hardware to.
+
 <!-- more -->
+
 Konstantinos is also a Debian developer, working on the [armhf (Arm Hard Float) port of Debian](http://wiki.debian.org/ArmHardFloatTodo), which will appear in the next Debian release after Squeeze. This means that Genesi also supports the Debian project through development resources. No doubt that this work will profit to Linaro and vice-versa.
 
 Konstantinos also told us that Genesi is willing to continue to support Linaro through more hardware donations. This should extend to Linaro community members, who could win Genesi Arm netbooks through [competitions organized by Linaro](/resources/), or if they have a worthy project that requires hardware support.
@@ -38,6 +39,6 @@ Genesi will also co-organize and co-sponsor with Debian [a first sprint meeting 
 
 More details:
 
-  * [Genesi Efixa MX netbook details](https://genesi.company/products/smartbook)
-  * Konstantinos Margaritis' story about LDS - http://projects.powerdeveloper.org/project/imx515/805/entry/766
-  * Marcin Juszkiewicz: debug board for the Efixa MX smartbook (http://marcin.juszkiewicz.com.pl/2010/11/29/debug-board-for-efika-mx-smartbook/)
+- [Genesi Efixa MX netbook details](https://genesi.company/products/smartbook)
+- Konstantinos Margaritis' story about LDS - http://projects.powerdeveloper.org/project/imx515/805/entry/766
+- Marcin Juszkiewicz: debug board for the Efixa MX smartbook (http://marcin.juszkiewicz.com.pl/2010/11/29/debug-board-for-efika-mx-smartbook/)

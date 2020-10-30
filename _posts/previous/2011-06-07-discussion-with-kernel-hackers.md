@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-06-07 21:09:45
 description:
   Discussion at the Linaro Developer Summit with kernel hackers Thomas

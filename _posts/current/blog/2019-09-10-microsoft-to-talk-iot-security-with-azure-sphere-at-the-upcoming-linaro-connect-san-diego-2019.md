@@ -12,8 +12,7 @@ tags:
   - Linux
   - Security
   - IoT and Embedded
-categories:
-  - blog
+category: blog
 author: andrea.gallo
 ---
 

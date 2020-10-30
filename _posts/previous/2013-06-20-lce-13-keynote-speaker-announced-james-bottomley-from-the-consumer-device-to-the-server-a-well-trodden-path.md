@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-06-20 18:27:42
 description:
   Linaro announces that James Bottomley, will be giving the Monday, July

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-14 22:05:26
 description:
   Career opportunities now available at Linaro for an Android Ubuntu Linux

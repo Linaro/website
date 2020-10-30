@@ -1,7 +1,6 @@
 ---
 author: daniel.lezcano
-categories:
-  - blog
+category: blog
 comments: true
 date: 2014-11-14 17:25:07
 description:

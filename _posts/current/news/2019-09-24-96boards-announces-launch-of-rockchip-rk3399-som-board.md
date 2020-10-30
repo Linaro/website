@@ -7,8 +7,7 @@ tags:
   - Linaro
   - 96boards
   - SoM
-categories:
-  - news
+category: news
 author: linaro
 ---
 

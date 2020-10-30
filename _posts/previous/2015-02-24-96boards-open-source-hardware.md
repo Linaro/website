@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2015-02-24 16:50:15
 description:
   Linaro CEO discusses the new 96Boards initiative and Open Source Hardware.

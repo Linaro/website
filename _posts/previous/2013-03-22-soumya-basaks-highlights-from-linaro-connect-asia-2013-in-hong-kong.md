@@ -1,7 +1,6 @@
 ---
 author: soumya.basak
-categories:
-  - blog
+category: blog
 date: 2013-03-22 19:12:23
 description:
   Soumya Basak, QA Services Expert on the Linaro QA Team gives his impressions,

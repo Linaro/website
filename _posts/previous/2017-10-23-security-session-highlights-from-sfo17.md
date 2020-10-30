@@ -4,8 +4,7 @@ tags:
   - OP-TEE
 title: Security Session Highlights from SFO17
 date: 2017-10-23 12:00:00
-categories:
-  - blog
+category: blog
 image: /assets/images/blog/sfo17-banner.jpg
 layout: post
 ---

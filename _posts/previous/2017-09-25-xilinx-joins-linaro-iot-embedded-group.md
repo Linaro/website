@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2017-09-25 15:58:01
 description: "Linaro Ltd, the open source
   collaborative engineering organization developing software for the Arm\xC2\xAE ecosystem,

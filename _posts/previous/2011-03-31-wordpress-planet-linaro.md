@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-03-31 21:32:59
 description:
   Announcing the switch to WordPress 3.1 for this blog, and the availability

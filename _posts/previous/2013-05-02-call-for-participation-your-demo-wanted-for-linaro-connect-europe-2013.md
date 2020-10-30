@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-05-02 15:48:01
 description:
   Show off how you are pairing Linaro's engineering output--a build, toolchain,

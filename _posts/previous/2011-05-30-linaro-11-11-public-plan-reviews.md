@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-05-30 04:42:09
 description:
   Public phone calls to review plans for the 2011.11 engineering cycle.

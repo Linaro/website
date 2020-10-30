@@ -1,7 +1,6 @@
 ---
 author: linus.walleij
-categories:
-  - blog
+category: blog
 date: 2014-05-21 20:40:35
 description:
   Overview of Linaro's participation at Embedded Linux Conference in May

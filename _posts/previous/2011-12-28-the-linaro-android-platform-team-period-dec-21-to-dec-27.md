@@ -6,8 +6,7 @@ link: /blog/android-blog/the-linaro-android-platform-team-period-dec-21-to-dec-2
 slug: the-linaro-android-platform-team-period-dec-21-to-dec-27
 title: The Linaro Android Platform Team, Period Dec. 21 to Dec. 27
 wordpress_id: 1126
-categories:
-  - blog
+category: blog
 tags:
   - Android
   - android

@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-09-16 21:26:20
 description:
   Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,

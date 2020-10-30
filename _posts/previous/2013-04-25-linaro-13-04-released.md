@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-04-25 16:45:10
 description: The Linaro 13.04 release is now available for download!
 keywords:

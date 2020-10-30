@@ -1,7 +1,6 @@
 ---
 author: christoffer.dall
-categories:
-  - blog
+category: blog
 comments: true
 date: 2016-12-20 16:39:41
 keywords: virtualization, kvm, xen, arm, aarch64, qemu, cross-distro, standards

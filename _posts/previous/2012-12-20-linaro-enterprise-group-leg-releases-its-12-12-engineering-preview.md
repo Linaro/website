@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-12-20 21:50:47
 description:
   Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2016-10-28 16:14:12
 description:
   Linaro 16.10 release is now available for download. See the detailed

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-11-16 04:32:47
 description:
   Find out more about the newly formed Linaro Enterprise Group (LEG) from

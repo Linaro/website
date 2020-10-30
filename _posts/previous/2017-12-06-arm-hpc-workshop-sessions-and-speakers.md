@@ -3,8 +3,7 @@ author: shovan
 date: 2017-12-06 12:00:00+00:00
 layout: post
 title: Arm HPC Workshop Sessions and Speakers
-categories:
-  - blog
+category: blog
 tags:
   - Arm
   - HPC

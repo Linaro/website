@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2014-04-10 19:30:32
 description:
   Linaro's CEO discusses activities from Q1 2014 including The announcement

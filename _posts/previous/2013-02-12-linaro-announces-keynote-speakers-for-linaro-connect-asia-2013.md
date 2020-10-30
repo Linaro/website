@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-12 16:00:15
 description:
   Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and

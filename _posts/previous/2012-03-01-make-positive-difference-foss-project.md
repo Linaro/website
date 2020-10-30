@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2012-03-01 20:53:43
 description:
   Blog on how to make a positive difference in a FOSS project. Includes

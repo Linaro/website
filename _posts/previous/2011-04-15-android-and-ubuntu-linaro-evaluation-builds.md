@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-  - blog
+category: blog
 date: 2011-04-15 18:21:03
 description:
   Overview of the Android and Ubuntu Linaro evaluation builds and the progress

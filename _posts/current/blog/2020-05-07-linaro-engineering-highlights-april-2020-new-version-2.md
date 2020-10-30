@@ -14,8 +14,7 @@ tags:
   - Highlights
   - News
   - April
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 ---
 

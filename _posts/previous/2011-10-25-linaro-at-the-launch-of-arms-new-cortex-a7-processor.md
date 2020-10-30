@@ -1,7 +1,6 @@
 ---
 author: jesse.barker
-categories:
-  - blog
+category: blog
 date: 2011-10-25 02:20:14
 description:
   Description of Linaro's participation in the Arm Cortex-A7 launch event

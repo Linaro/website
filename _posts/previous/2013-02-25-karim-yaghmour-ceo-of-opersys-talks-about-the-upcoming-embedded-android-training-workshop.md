@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-25 14:57:53
 description:
   Karim Yaghmour, CEO Opersys discusses the upcoming Embedded Android Training

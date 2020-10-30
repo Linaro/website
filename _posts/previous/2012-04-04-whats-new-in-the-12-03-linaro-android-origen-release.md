@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-04-04 13:21:28
 description:
   Amit Pundir, Android Engineer at Linaro, tells readers about some of

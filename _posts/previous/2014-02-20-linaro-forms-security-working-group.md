@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-02-20 12:00:29
 description:
   "Linaro has started a Working Group dedicated to the delivery of open

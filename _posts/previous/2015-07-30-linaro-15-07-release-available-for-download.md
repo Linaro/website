@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-30 14:09:15
 description:

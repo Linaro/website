@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-10-23 23:34:00
 description:
   Can't make it to LCE 12 - Copenhagen on 29 Oct to 3 November; find out

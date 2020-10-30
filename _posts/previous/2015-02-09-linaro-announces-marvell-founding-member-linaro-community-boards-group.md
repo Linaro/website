@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-02-09 12:58:09
 description:
   Marvell invests in enabling the open source development community with

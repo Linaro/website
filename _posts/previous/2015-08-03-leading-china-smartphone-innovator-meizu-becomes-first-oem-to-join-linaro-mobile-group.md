@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 comments: true
 date: 2015-08-03 12:26:09
 description:

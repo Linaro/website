@@ -1,7 +1,6 @@
 ---
 author: khasim.mohammed
-categories:
-  - blog
+category: blog
 date: 2014-09-08 13:00:53
 description:
   Multiple engineering teams at Arm and Linaro have worked together to

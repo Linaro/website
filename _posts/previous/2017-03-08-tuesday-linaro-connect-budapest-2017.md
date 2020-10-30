@@ -2,8 +2,7 @@
 amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
-categories:
-  - blog
+category: blog
 comments: false
 date: 2017-03-08 00:04:58
 excerpt:

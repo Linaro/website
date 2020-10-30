@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-02-20 12:04:06
 description:
   Wireless technology leader Qualcomm builds on open source footprint by

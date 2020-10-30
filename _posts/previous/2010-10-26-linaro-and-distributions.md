@@ -6,8 +6,7 @@ link: /blog/community-blog/linaro-and-distributions/
 slug: linaro-and-distributions
 title: Linaro and Distributions
 wordpress_id: 4107
-categories:
-  - blog
+category: blog
 tags:
   - Community
   - arm

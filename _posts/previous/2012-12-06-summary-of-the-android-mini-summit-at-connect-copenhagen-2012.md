@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-12-06 14:43:33
 description:
   Find out more about the Linaro Android Mini-Summit held on 31 Oct 2012

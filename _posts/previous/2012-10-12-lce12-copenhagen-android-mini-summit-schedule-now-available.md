@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-10-12 15:57:16
 description:
   Take a look at the Android Mini-Summit which is scheduled to take place

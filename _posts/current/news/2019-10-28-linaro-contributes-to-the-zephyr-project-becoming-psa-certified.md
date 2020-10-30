@@ -10,8 +10,7 @@ tags:
   - Arm
   - security
   - Nordic
-categories:
-  - news
+category: news
 author: linaro
 ---
 

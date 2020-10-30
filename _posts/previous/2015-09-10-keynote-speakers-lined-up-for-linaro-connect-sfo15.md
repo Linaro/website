@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-09-10 21:13:28
 description:
   Linaro announced the complete line up of keynote speakers for the upcoming

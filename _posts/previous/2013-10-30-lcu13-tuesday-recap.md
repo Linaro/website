@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-  - blog
+category: blog
 date: 2013-10-30 14:30:25
 description:
   Recap of the events that took place on Tuesday October 29th at the Linaro

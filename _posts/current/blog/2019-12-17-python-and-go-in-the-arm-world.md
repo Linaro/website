@@ -8,8 +8,7 @@ tags:
   - Arm64
   - Python
   - Servers
-categories:
-  - blog
+category: blog
 author: siddhesh.poyarekar
 ---
 

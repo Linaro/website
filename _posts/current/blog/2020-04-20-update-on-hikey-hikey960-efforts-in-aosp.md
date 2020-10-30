@@ -8,8 +8,7 @@ tags:
   - HiKey960
   - AOSP
   - Android Open Source Project
-categories:
-  - blog
+category: blog
 author: john.stultz
 ---
 

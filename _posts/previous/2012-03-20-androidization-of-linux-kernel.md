@@ -1,7 +1,6 @@
 ---
 author: vishal.bhoj
-categories:
-  - blog
+category: blog
 date: 2012-03-20 15:21:41
 description:
   Vishal Bhoj of the Linaro Android team explains how he recently "androidized"

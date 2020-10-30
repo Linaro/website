@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-07-07 21:46:30
 description:
   LCE13 is all about engineering. Find out what goes into planning and

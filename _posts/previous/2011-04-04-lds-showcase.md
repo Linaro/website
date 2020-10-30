@@ -6,8 +6,7 @@ link: /blog/community-blog/lds-showcase/
 slug: lds-showcase
 title: Technical showcase at the Linaro Developer Summit
 wordpress_id: 3378
-categories:
-  - blog
+category: blog
 tags:
   - Community
 ---

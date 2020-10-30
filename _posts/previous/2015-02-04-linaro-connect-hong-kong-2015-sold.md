@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-  - blog
+category: blog
 date: 2015-02-04 16:18:19
 description:
   The week before the event is due to start, Linaro Connect Hong Kong 2015

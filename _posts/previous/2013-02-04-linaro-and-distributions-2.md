@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 date: 2013-02-04 15:14:04
 description: How Linaro interacts with distributions
 keywords: Linaro, distribution, open source, LAVA, Armv8, Linux, Arm,

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-03-27 03:04:06
 description:
   Linaro issues Call for Submissions for the Plenary Sessions at the Linaro

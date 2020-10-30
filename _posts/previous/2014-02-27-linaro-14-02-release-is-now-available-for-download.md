@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2014-02-27 16:20:39
 description: Information and links for the Linaro 14.02 release
 layout: post

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-02-12 20:24:31
 description:
   See an overview of what happened on Thursday of Linaro Connect including

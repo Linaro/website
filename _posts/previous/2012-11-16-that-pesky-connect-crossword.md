@@ -6,8 +6,7 @@ link: /blog/that-pesky-connect-crossword/
 slug: that-pesky-connect-crossword
 title: That pesky Connect Crossword
 wordpress_id: 2002
-categories:
-  - blog
+category: blog
 tags:
   - competion
   - connect

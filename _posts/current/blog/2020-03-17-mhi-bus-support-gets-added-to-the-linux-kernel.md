@@ -8,8 +8,7 @@ tags:
   - Modem Host Interface
   - Linux kernel
   - Qualcomm
-categories:
-  - blog
+category: blog
 author: manivannan.sadhasivam
 ---
 

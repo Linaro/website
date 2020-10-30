@@ -6,8 +6,7 @@ link: /blog/linaro-digital-home-group-celebrates-three-years/
 slug: linaro-digital-home-group-celebrates-three-years
 title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
-categories:
-  - blog
+category: blog
 tags:
   - 96Boards
   - android

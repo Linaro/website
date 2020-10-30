@@ -9,8 +9,7 @@ tags:
   - Collaborative Engineering
   - AArch64
   - Porting
-categories:
-  - blog
+category: blog
 image: /assets/images/content/porting-linux-featured-image.jpg
 author: lee.jones
 ---

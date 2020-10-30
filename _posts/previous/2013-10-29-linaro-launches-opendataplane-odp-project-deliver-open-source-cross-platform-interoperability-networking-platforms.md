@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-10-29 12:31:46
 description:
   Industry leaders in the Linaro Networking Group (LNG) are collaborating

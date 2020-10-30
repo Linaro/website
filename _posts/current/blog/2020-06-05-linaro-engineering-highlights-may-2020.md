@@ -24,8 +24,7 @@ tags:
   - Firmware
   - AI
   - Projects
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 ---
 

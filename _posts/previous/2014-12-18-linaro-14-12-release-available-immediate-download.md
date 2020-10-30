@@ -1,7 +1,6 @@
 ---
 author: koen.kooi
-categories:
-  - blog
+category: blog
 date: 2014-12-18 20:28:48
 description:
   The Linaro 14.12 software release is available for immediate download.

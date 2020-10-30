@@ -6,8 +6,7 @@ link: /blog/linaro-android-gerrit/
 slug: linaro-android-gerrit
 title: Linaro Android codebase migrated to Gerrit (location changed!)
 wordpress_id: 4122
-categories:
-  - blog
+category: blog
 tags:
   - android
   - gerrit

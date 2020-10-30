@@ -1,7 +1,6 @@
 ---
 author: john.stultz
-categories:
-  - blog
+category: blog
 date: 2013-09-16 02:47:42
 description:
   At the 2013 Linux Plumbers conference we'll be discussing the ION memory

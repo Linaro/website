@@ -1,7 +1,6 @@
 ---
 author: mathieu.poirier
-categories:
-  - blog
+category: blog
 comments: true
 date: 2014-10-30 14:33:00
 description:

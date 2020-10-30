@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 date: 2015-06-25 14:33:55
 description:
   Overview of how Linaro began and why it was created. David Rusling discusses

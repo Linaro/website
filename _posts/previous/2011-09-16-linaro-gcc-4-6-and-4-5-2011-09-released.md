@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2011-09-16 11:13:13
 description:
   Announcement and release notes for the 2011.09 release of Linaro gcc

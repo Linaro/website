@@ -1,7 +1,6 @@
 ---
 author: edmund.szeto
-categories:
-  - blog
+category: blog
 date: 2014-06-04 14:35:37
 description:
   Android supports SQLite, a lighter weight database management system

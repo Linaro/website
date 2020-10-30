@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-01-07 15:04:31
 description:
   Take a look at the key take-away message for the big.LITTLE Mini-Summit

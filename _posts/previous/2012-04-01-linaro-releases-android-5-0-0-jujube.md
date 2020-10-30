@@ -1,7 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-categories:
-  - blog
+category: blog
 date: 2012-04-01 15:02:24
 description: Linaro announces the release of Android 5.0.0 "Jujube"
 keywords:

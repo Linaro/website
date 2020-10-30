@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-30 21:57:38
 description:

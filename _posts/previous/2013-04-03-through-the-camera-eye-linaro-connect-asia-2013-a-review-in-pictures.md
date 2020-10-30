@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-04-03 20:36:23
 description:
   Check out this photo montage that takes you through Linaro Connect Asia

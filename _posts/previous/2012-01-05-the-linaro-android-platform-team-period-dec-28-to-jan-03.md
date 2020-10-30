@@ -1,7 +1,6 @@
 ---
 author: tony.mansson
-categories:
-  - blog
+category: blog
 date: 2012-01-05 14:37:14
 description: The Linaro Android Platform Team, Period Dec. 28 to Jan. 03
 keywords: Android Linaro

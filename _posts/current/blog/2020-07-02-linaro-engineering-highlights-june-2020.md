@@ -26,8 +26,7 @@ tags:
   - VirtIO
   - Micro TVM
   - dma-buf heaps.
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 ---
 

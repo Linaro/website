@@ -6,8 +6,7 @@ link: /blog/android-blog/trying-the-jellybean-on-samsungs-origen-board/
 slug: trying-the-jellybean-on-samsungs-origen-board
 title: Trying Linaro Jellybean Android on Samsung's Origen board
 wordpress_id: 1769
-categories:
-  - blog
+category: blog
 tags:
   - Android
 ---

@@ -1,7 +1,6 @@
 ---
 author: mark.gregotski
-categories:
-  - blog
+category: blog
 date: 2015-06-16 13:28:03
 description:
   Linaro Home Group celebrates it's one year anniversary. Read an update

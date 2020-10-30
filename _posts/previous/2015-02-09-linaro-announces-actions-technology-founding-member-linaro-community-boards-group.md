@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-02-09 01:55:53
 description:
   Actions Technology invests in enabling the open source development community

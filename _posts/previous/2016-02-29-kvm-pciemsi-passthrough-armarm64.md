@@ -1,7 +1,6 @@
 ---
 author: eric.auger
-categories:
-  - blog
+category: blog
 date: 2016-02-29 23:08:58
 description:
   While PCIe passthrough (the process of assigning a PCIe device to a VM,
@@ -282,8 +281,8 @@ _00:02.2 0604: 1022:1a02_
        *Kernel driver in use: pcieport*
 _01:00.0 0200: 8086:1528 (rev 01) eth4_
        *Subsystem: 8086:0002*
-       *Kernel driver in use: ixgbe
-***_01:10.0 0200: 8086:1515 (rev 01)
+       \*Kernel driver in use: ixgbe
+**\*_01:10.0 0200: 8086:1515 (rev 01)
        _**Subsystem: 8086:0002**\_
        \_**Kernel driver in use: ixgbevf**\_
 \_**01:10.2 0200: 8086:1515 (rev 01)**\_

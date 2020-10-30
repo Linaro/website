@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-08 00:08:23
 description:
   As the sun rises over the Gold Coast Hotel this morning we are reminded

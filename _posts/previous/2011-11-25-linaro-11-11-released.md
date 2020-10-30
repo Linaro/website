@@ -1,7 +1,6 @@
 ---
 author: david.zinman
-categories:
-  - blog
+category: blog
 date: 2011-11-25 00:24:05
 description: Links to all the downloads for the Linaro 11.11 release
 layout: post

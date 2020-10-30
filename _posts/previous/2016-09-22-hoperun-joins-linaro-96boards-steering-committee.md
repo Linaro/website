@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-09-22 11:57:54
 description:
   Jiangsu HopeRun Software has joined the 96Boards initiative as a Steering

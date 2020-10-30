@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-03-07 10:58:22
 description:
   Linaro today announced that the 96Boards HiKey octa-core 64-bit Armv8

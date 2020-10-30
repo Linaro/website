@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-03-27 02:28:31
 description:
   Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and

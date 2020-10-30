@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-28 20:20:04
 description:
   The 13.03 Linaro release highlights the focused efforts of all the Linaro

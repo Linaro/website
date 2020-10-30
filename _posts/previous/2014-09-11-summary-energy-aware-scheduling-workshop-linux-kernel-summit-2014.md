@@ -1,7 +1,6 @@
 ---
 author: mike.turquette
-categories:
-  - blog
+category: blog
 comments: true
 date: 2014-09-11 13:03:28
 description:

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2017-03-06 12:00:37
 description:
   "Linaro Ltd, the open source collaborative engineering organization developing

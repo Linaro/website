@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-08-13 15:44:04
 description:
   Demo Friday videos from from Linaro Connect Europe 2013 are now available

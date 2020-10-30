@@ -1,7 +1,6 @@
 ---
 author: peter.maydell
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-06-22 23:02:00
 description:

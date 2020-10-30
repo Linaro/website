@@ -1,7 +1,6 @@
 ---
 author: frans.gifford
-categories:
-  - blog
+category: blog
 date: 2011-11-16 12:42:00
 description: Installing F-Droid on Linaro builds
 keywords: linaro, app, market, android, f-droid, cyanogenmod

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2017-03-06 07:55:31
 description: "Budapest, Hungary; \xC2\_6 March\xC2\_2017"
 layout: post

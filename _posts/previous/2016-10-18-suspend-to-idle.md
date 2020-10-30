@@ -10,8 +10,7 @@ link: /blog/suspend-to-idle/
 slug: suspend-to-idle
 title: Suspend to Idle
 wordpress_id: 11797
-categories:
-  - blog
+category: blog
 tags:
   - idle
   - kernel

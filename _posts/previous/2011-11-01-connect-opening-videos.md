@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-11-01 14:09:28
 description:
   Two first videos from the opening session of Linaro Connect, Oct. 31-Nov.

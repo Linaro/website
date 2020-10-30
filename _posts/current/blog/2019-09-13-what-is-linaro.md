@@ -9,8 +9,7 @@ tags:
   - open source
   - collaborative engineering
   - linaro
-categories:
-  - blog
+category: blog
 author: david.rusling
 ---
 

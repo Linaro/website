@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-04-25 03:47:12
 description:
   The 12.03 release of Android on Origen has fully enabled HW acceleration

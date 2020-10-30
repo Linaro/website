@@ -6,8 +6,7 @@ link: /blog/android-blog/the-linaro-android-platform-team-is-busy-as-always/
 slug: the-linaro-android-platform-team-is-busy-as-always
 title: The Linaro Android Platform Team is busy as always.
 wordpress_id: 1037
-categories:
-  - blog
+category: blog
 tags:
   - Android
 ---

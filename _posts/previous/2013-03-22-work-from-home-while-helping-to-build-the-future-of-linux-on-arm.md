@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-22 15:02:29
 description:
   Work from home, with an Open Source organization while helping to build

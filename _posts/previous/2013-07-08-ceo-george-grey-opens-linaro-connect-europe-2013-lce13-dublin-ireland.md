@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-07-08 12:26:43
 description:
   Industry leaders are gathering in Dublin, Ireland this week to define

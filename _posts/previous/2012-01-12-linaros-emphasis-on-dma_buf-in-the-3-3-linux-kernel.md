@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-01-12 00:03:27
 description:
   "UMM (Unified Memory Management) is a key part of Linaro\xE2\x80\x99s

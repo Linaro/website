@@ -9,8 +9,7 @@ tags:
   - Coronavirus
   - conference
   - linaro
-categories:
-  - blog
+category: blog
 author: connect
 ---
 

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-11-07 16:05:11
 description:
   Links to the interviews Amber Graner, Linaro Community Specialist conducted

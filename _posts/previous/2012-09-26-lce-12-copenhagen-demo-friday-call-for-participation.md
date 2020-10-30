@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-09-26 15:31:07
 description:
   Are you running a Linaro build on an Arm processor-based board? Linaro

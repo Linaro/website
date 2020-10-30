@@ -1,7 +1,6 @@
 ---
 author: david.zinman
-categories:
-  - blog
+category: blog
 date: 2012-02-23 19:23:18
 description: Links to all the downloads for the Linaro 12.02 release
 layout: post

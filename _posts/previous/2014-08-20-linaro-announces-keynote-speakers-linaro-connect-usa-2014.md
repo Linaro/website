@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - news
+category: news
 date: 2014-08-20 15:21:50
 description: "CAMBRIDGE, UK; 20 AUGUST 2014:"
 layout: post

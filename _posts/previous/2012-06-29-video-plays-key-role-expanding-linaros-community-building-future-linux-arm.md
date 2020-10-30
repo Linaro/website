@@ -6,8 +6,7 @@ title: Video plays a key role in expanding Linaro’s community and building the
 image: /assets/images/content/linaro-logo.png
 tags:
   - Hong Kong 2012
-categories:
-  - news
+category: news
 author: linaro
 slug: video-plays-key-role-expanding-linaros-community-building-future-linux-arm
 date: 2012-06-29 12:18:55

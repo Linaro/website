@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-09-17 21:33:36
 description:
   Overview of the events that took place on Tuesday September 16, 2014

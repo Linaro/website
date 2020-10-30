@@ -6,8 +6,7 @@ link: /blog/connect-update/linaro-connect-bkk16-pathable-all-you-need-to-know/
 slug: linaro-connect-bkk16-pathable-all-you-need-to-know
 title: Linaro Connect Bangkok 2016 - Scheduling...
 wordpress_id: 9988
-categories:
-  - blog
+category: blog
 tags:
   - Connect Events
 ---

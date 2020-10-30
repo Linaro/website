@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-03-17 14:05:49
 description:
   Wireless technology leader MediaTek builds on open source footprint by

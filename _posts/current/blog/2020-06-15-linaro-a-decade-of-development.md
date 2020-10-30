@@ -27,8 +27,7 @@ tags:
   - android
   - ledge
   - Linus Torvalds
-categories:
-  - blog
+category: blog
 author: david.rusling
 ---
 

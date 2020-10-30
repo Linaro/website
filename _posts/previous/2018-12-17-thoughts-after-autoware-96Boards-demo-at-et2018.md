@@ -5,8 +5,7 @@ layout: post
 date: 2018-12-06 09:00:00+00:00
 description: >-
   Linaro was at the event and joined by Arm and TierIV, demonstrated an Arm powered autonomous driving car, the first of its kind in the world. The self-driving platforms Milee and Logiee from Tier IV are built on the widely-adopted Autoware open-source project.
-categories:
-  - blog
+category: blog
 tags: Linaro, Arm, Autoware, Autonomous Vehicles, Linux kernel, HPC, IoT, Embedded, AI, Networking, Security, Big Data, Japan, ET2018
 image: /assets/images/blog/et2018-image2.png
 ---

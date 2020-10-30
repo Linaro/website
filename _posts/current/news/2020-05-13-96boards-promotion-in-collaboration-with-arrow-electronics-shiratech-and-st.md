@@ -16,8 +16,7 @@ tags:
   - Promotion
   - Giveaway
   - Stinger96
-categories:
-  - news
+category: news
 author: jon.burcham@linaro.org
 ---
 

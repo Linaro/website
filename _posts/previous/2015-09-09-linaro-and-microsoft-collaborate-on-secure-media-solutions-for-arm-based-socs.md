@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-09-09 13:01:21
 description:
   "Linaro announced a major step forward in the delivery of an open source

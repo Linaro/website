@@ -20,8 +20,7 @@ description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
   Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
   ST-Ericsson to form new group focused on accelerating Linux development for
   Arm servers
-categories:
-  - news
+category: news
 ---
 
 SANTA CLARA, US - 1 NOV 2012

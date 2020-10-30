@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2011-09-21 05:30:28
 description: Announcement and release notes for Linaro Kernel 2011.09 release
 layout: post

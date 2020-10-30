@@ -6,8 +6,7 @@ link: /blog/enabling-device-tree-support-on-arm-platforms/
 slug: enabling-device-tree-support-on-arm-platforms
 title: Enabling Device Tree support on Arm platforms
 wordpress_id: 4120
-categories:
-  - blog
+category: blog
 ---
 
 Linaro hosted its first Connect event last week in Cambridge, UK; providing an opportunity for Linaro and community developers to gather and work on current tasks and plan for the future. The kernel working group used this time to work along with several sub-architecture maintainers to work on several critical items on the Arm cleanup and consolidation roadmap.

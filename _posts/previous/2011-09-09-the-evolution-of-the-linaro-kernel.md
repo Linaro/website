@@ -1,7 +1,6 @@
 ---
 author: deepak.saxena
-categories:
-  - blog
+category: blog
 date: 2011-09-09 14:17:05
 description: Discusses the changes in the Linaro Kernel
 keywords: Linaro, Linux, kernel, Arm,

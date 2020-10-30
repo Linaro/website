@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2011-05-28 22:11:09
 description: Links to all the downloads for the Linaro 11.05 release
 layout: post

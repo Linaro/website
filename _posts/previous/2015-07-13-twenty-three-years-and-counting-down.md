@@ -1,7 +1,6 @@
 ---
 author: john.stultz
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-13 22:24:39
 description:

@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2011-12-19 04:38:37
 description:
   Discussion on where Linaro is going and the roadmap they have built that

@@ -13,8 +13,7 @@ tags:
   - tux build
   - tuxboot
   - ""
-categories:
-  - blog
+category: blog
 author: ben.copeland@linaro.org
 ---
 

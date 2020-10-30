@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-03-07 11:01:23
 description:
   Linaro announces the rollout of an Armv8 based Developer Cloud today

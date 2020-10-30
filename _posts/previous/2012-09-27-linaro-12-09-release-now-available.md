@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-09-27 14:57:38
 description:
   The Linaro 12.09 release cycle highlights the combined work and enthusiasm

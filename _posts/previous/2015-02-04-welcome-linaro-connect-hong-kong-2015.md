@@ -1,7 +1,6 @@
 ---
 author: mark.orvek
-categories:
-  - blog
+category: blog
 date: 2015-02-04 22:20:59
 description:
   A look ahead of what will be taking place during Linaro Connect Hong

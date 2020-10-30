@@ -6,8 +6,7 @@ link: /blog/linaro-confectionary-release-lcr-14-12-released/
 slug: linaro-confectionary-release-lcr-14-12-released
 title: Linaro Confectionary Release (LCR) 14.12 released
 wordpress_id: 7753
-categories:
-  - blog
+category: blog
 tags:
   - Releases
 ---

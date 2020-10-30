@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-10-09 13:14:53
 description:
   Recap of the sessions and activities of the Linaro Automation Validation

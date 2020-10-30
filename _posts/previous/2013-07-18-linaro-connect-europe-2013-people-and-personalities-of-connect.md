@@ -6,8 +6,7 @@ link: /blog/linaro-connect-europe-2013-people-and-personalities-of-connect/
 slug: linaro-connect-europe-2013-people-and-personalities-of-connect
 title: "Linaro Connect Europe 2013: People and Personalities of Connect"
 wordpress_id: 2835
-categories:
-  - blog
+category: blog
 ---
 
 Linaro Connect Europe 2013 (LCE13) in Dublin, Ireland was an amazing week long event complete will keynotes, planning sessions, afternoon hacking, social events, and more.

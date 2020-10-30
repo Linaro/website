@@ -1,7 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-categories:
-  - blog
+category: blog
 date: 2012-03-29 19:31:31
 description: Linaro's build of Android ICS has been updated to 4.0.4
 keywords: linaro,android,linaro-android,ics,android 4.0.4,ice cream sandwich,4.0.4,update,source

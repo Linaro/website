@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-02-29 22:48:01
 description:
   FXI Technologies, is now accepting pre-orders for its USB sized, any

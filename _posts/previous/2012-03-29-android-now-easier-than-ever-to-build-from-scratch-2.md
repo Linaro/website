@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-03-29 20:37:41
 description: How to build Android from scratch
 layout: post

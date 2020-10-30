@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2012-01-10 20:08:30
 description:
   Linaro CEO report on the activities within Linaro and with their partners.

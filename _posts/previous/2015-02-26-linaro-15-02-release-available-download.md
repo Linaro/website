@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-02-26 20:29:14
 description: The Linaro 15.02 release is now available for immediate download.
 layout: post

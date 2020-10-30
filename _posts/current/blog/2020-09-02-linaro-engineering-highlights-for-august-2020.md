@@ -31,8 +31,7 @@ tags:
   - Coccicheck
   - Kernel CI
   - Coverity
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 ---
 

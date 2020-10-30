@@ -1,7 +1,6 @@
 ---
 author: grant.likely
-categories:
-  - blog
+category: blog
 date: 2014-02-03 18:58:27
 description:
   Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot

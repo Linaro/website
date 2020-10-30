@@ -12,8 +12,7 @@ link: /blog/engineering-update-16-04/
 slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695
-categories:
-  - blog
+category: blog
 tags:
   - 96Boards
   - hardware

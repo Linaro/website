@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-07-26 17:22:56
 description:
   "Linaro announces the availability of its 12.07 release. This release

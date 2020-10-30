@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-10-25 16:35:47
 description:
   Find out how you can get the latest Linaro release--12.10, what the highlights

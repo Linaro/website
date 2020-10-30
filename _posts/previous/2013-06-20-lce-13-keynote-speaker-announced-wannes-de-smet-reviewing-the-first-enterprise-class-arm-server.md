@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-06-20 15:06:28
 description:
   Linaro announces Wannes De Smet an Applied IT researcher at Sizing Servers

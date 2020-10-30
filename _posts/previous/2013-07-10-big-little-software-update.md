@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2013-07-10 15:19:12
 description:
   "Progress report on Linaro\xE2\x80\x99s activities and plans for support

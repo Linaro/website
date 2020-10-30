@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 date: 2011-05-17 08:43:59
 description: Linaro Developer Summit - hard work but fun
 layout: post

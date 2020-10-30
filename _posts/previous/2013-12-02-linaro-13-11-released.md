@@ -18,8 +18,7 @@ tags:
   - release cycle
   - toolchain
   - tools
-categories:
-  - blog
+category: blog
 author: fathi.boudra
 ---
 

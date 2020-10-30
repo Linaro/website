@@ -1,7 +1,6 @@
 ---
 author: ulf.hansson
-categories:
-  - blog
+category: blog
 date: 2016-06-29 17:17:39
 description:
   How the CoreSight framework found in the Linux kernel has been integrated

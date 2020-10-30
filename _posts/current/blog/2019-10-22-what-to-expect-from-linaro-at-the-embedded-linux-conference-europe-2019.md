@@ -9,8 +9,7 @@ tags:
   - linux
   - embedded
   - ELCE
-categories:
-  - blog
+category: blog
 author: bill.fletcher
 ---
 

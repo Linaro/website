@@ -6,8 +6,7 @@ link: /blog/connect-update/kernel-working-group-a-linaro-connect-retrospective/
 slug: kernel-working-group-a-linaro-connect-retrospective
 title: Kernel Working Group - A Linaro Connect Retrospective
 wordpress_id: 830
-categories:
-  - blog
+category: blog
 tags:
   - community
   - Connect Events

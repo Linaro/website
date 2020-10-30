@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-08-11 05:48:26
 description:
   Video - Zach Pfeffer, Linaro Android Tech Lead, demonstrates two Panda

@@ -7,8 +7,7 @@ tags:
   - Homomorphic Encryption
   - Encryption
   - Linaro
-categories:
-  - blog
+category: blog
 author: joakim.bech
 ---
 

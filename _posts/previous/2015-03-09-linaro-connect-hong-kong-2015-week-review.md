@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-03-09 19:14:22
 description:
   Overview of the week of Linaro Connect Hong Kong 2015 including keynotes,

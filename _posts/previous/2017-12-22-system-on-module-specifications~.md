@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2017-12-22 12:00:00
 description: "96Boards steering committee are working on new System-on-Module (SOM) specifications and they are inviting interested parties to participate in the finalization of the specifications."
 layout: post

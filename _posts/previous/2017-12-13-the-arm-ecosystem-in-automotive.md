@@ -3,8 +3,7 @@ author: david.rusling
 date: 2017-12-13 8:00:00+00:00
 layout: post
 title: The Arm Ecosystem in Automotive
-categories:
-  - blog
+category: blog
 tags: Arm, Automotive, Ecosystem, Hardware, 96boards
 keywords: Arm, Automotive, Ecosystem, Hardware, 96boards
 image: /assets/images/blog/automotive-arm-ecosystem.png

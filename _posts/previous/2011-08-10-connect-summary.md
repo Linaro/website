@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-08-10 08:25:15
 description:
   "Videos: Linaro Connect, Cambridge, UK, Aug. 2011 - Achievements during

@@ -26,8 +26,7 @@ tags:
   - ARM64
 related_projects:
   - PERF
-categories:
-  - blog
+category: blog
 author: daniel.lezcano
 ---
 

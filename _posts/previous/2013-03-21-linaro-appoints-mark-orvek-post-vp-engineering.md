@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-03-21 12:25:02
 description: CAMBRIDGE, UK - 21 MAR 2013
 layout: post

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-04-02 11:57:14
 description:
   Alibaba Group joins Linaro to accelerate development of software platforms

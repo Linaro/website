@@ -36,8 +36,7 @@ tags:
   - Cinder-CSI-driver
 related_projects:
   - CLOUD
-categories:
-  - blog
+category: blog
 author: kevin.zhao@linaro.org
 ---
 

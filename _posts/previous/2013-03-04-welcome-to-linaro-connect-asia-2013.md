@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-04 02:50:19
 description:
   See the sessions that are happening today, tips and tricks for staying

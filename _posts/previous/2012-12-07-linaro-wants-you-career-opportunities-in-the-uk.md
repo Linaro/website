@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-12-07 18:41:18
 description:
   Today we are highlighting career opportunities at Linaro in our Cambridge

@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2011-08-15 15:38:40
 description: Update on Linaro activities for July 2011
 keywords:

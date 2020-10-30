@@ -1,7 +1,6 @@
 ---
 author: bill.fischofer
-categories:
-  - blog
+category: blog
 date: 2014-02-10 19:17:33
 description: Update on the status of the OpenDataPlane project since it was annoounced
 layout: post

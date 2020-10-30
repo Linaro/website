@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-04-28 14:34:21
 description:
   We are proud to announce the release of our newly redesigned website.

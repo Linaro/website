@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-05-23 14:26:03
 description:
   The list of demos being offered at the Q2.12 Linaro Connect event in

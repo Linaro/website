@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-09-09 20:39:16
 description:
   Usman Ahmad - Intensive development week for the Linaro Freescale Landing

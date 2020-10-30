@@ -1,7 +1,6 @@
 ---
 author: david.rusling
-categories:
-  - blog
+category: blog
 date: 2012-12-17 19:05:12
 description: Reflections on 2012 from Linaro's CTO
 keywords:

@@ -1,7 +1,6 @@
 ---
 author: chunyan.zhang
-categories:
-  - blog
+category: blog
 date: 2016-09-06 04:24:15
 description:
   Read about System Trace Module (STM) which can not only collect trace

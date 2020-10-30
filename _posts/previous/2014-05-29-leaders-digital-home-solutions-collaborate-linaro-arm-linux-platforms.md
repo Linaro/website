@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2014-05-29 15:59:15
 description:
   "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,

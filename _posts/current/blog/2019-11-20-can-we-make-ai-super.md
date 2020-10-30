@@ -9,8 +9,7 @@ tags:
   - Machine Learning
   - HPC
   - Supercomputers
-categories:
-  - blog
+category: blog
 author: paul.isaacs
 ---
 

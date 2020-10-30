@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2017-02-02 21:36:03
 description:
   "Linaro Home Digital Home Group (LHG) has released an initial implementation

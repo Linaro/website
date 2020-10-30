@@ -5,8 +5,7 @@ layout: post
 date: 2018-10-08 09:00:00+00:00
 description: >-
   Linaro and Arm are sponsoring the upcoming UEFI Plugfest in Taipei.
-categories:
-  - blog
+category: blog
 tags: Linaro, Arm, UEFI Plugfest, Taipei, Server, Arm 64bit
 ---
 

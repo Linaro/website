@@ -4,8 +4,7 @@ tags:
   - OP-TEE
 title: Security Session Highlights from HKG18
 date: 2018-05-24 12:00:00
-categories:
-  - blog
+category: blog
 image: /assets/images/blog/hkg18-banner.jpg
 layout: post
 ---

@@ -8,8 +8,7 @@ tags:
   - Open Source
   - Collaborative Engineering
   - Linaro
-categories:
-  - blog
+category: blog
 image: /assets/images/content/openampproject-banner-updates.png
 author: linaro
 ---

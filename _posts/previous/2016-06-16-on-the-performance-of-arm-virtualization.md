@@ -1,7 +1,6 @@
 ---
 author: christoffer.dall
-categories:
-  - blog
+category: blog
 date: 2016-06-16 18:37:46
 description:
   While PCIe passthrough (the process of assigning a PCIe device to a VM,

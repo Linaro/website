@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-10-28 12:30:08
 description:
   Linaro has joined the Open Compute Project (OCP) as an official member

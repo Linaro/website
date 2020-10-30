@@ -7,8 +7,7 @@ description: >-
   Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm)
   on Linaro’s automotive strategy for a little while now. We both get asked how open
   source software fits in that industry. I thought that this interview would help explain.
-categories:
-  - blog
+category: blog
 published: true
 tags: "CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles"
 keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles

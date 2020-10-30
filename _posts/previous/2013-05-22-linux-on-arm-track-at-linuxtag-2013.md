@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-05-22 17:57:39
 description:
   If you are in Berlin, interested in Linux on Arm, want to connect with

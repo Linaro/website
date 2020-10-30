@@ -6,8 +6,7 @@ link: /blog/wednesday-linaro-connect-las16-re-cap/
 slug: wednesday-linaro-connect-las16-re-cap
 title: Wednesday Linaro Connect LAS16 Re-cap
 wordpress_id: 11706
-categories:
-  - blog
+category: blog
 tags:
   - connect
   - Connect Events

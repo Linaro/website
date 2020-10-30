@@ -5,8 +5,7 @@ layout: post
 slug: day-2-ospm-summit-pisa-italy
 title: Day 2 at the OSPM Summit Pisa, Italy
 wordpress_id: 12384
-categories:
-  - blog
+category: blog
 tags:
   - arm
   - Core Dump

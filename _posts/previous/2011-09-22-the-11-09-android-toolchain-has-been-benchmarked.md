@@ -6,8 +6,7 @@ link: /blog/the-11-09-android-toolchain-has-been-benchmarked/
 slug: the-11-09-android-toolchain-has-been-benchmarked
 title: The 11.09 Android Toolchain has been Benchmarked
 wordpress_id: 4130
-categories:
-  - blog
+category: blog
 tags:
   - Android benchmark 11.09
 ---

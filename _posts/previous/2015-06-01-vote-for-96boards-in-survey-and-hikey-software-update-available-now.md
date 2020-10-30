@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-  - blog
+category: blog
 date: 2015-06-01 14:21:55
 description:
   96Boards has two representatives in this with both Qualcomm's DragonBoard

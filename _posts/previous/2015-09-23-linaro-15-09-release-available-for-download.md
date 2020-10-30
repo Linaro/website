@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-09-23 21:42:05
 description:
   Linaro's 15.09 release is now available for download. See the detailed

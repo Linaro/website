@@ -5,8 +5,7 @@ layout: post
 date: 2018-09-17 09:00:00+00:00
 description: >-
   Linaro announces launch of Machine Intelligence Initiative to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions.
-categories:
-  - news
+category: news
 tags: Linaro, Linaro Connect, Arm, Arm NN, Neural Networks, Machine Intelligence, Google, TensorFlow
 ---
 

@@ -6,8 +6,7 @@ link: /blog/lhg-updates-w3c-eme-solution-96boards-hikey-platform/
 slug: lhg-updates-w3c-eme-solution-96boards-hikey-platform
 title: LHG updates W3C EME solution for 96Boards HiKey platform
 wordpress_id: 12583
-categories:
-  - blog
+category: blog
 ---
 
 **_Authors: Mark Gregotski and Peter Griffin_**

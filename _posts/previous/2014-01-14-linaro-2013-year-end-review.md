@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2014-01-14 21:22:02
 description:
   A look back at achievements in 2013 within Linaro and a look forward

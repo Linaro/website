@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-21 15:30:41
 description:
   Join Linaro at the Burlington Hotel in Dublin Ireland on 8-12 July for

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2013-02-20 12:24:07
 description:
   "Industry leaders including AppliedMicro, Arm, Enea, Freescale\xC2\xAE,

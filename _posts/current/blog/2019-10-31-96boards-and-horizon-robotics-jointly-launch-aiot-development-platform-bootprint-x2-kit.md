@@ -13,8 +13,7 @@ tags:
   - Arm
   - developer
   - hardware specification
-categories:
-  - news
+category: news
 author: linaro
 ---
 

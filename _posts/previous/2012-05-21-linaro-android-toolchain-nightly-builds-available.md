@@ -1,7 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-categories:
-  - blog
+category: blog
 date: 2012-05-21 20:57:40
 description:
   Announcement of the availability of Linaro Android toolchain nightly

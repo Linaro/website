@@ -1,7 +1,6 @@
 ---
 author: zach.pfeffer
-categories:
-  - blog
+category: blog
 date: 2011-10-19 01:15:25
 description:
   Multiple builds corresponding to the second pre-release of Linaro Android

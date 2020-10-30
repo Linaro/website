@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-03-05 19:55:58
 description: Recap of the sessions and social events that took place at LCA14
 layout: post

@@ -10,8 +10,7 @@ tags:
   - OpenStack
   - AArch64
   - Linaro Developer Cloud
-categories:
-  - blog
+category: blog
 author: Marcin.Juszkiewicz
 ---
 

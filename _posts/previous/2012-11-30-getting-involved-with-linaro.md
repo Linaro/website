@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-11-30 20:17:55
 description:
   Whether you are an individual or an employee of a organization it is

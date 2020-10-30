@@ -1,7 +1,6 @@
 ---
 author: zoran.markovic
-categories:
-  - blog
+category: blog
 date: 2013-08-26 13:33:07
 description:
   "This article discusses the issues of suspend blockers originally implemented

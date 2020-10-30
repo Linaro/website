@@ -6,8 +6,7 @@ link: /blog/core-dump/whats-new-qemu-2-9/
 slug: whats-new-qemu-2-9
 title: What's new in QEMU 2.9
 wordpress_id: 12315
-categories:
-  - blog
+category: blog
 tags:
   - Core Dump
   - qemu

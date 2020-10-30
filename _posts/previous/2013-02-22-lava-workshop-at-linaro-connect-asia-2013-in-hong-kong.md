@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-22 16:31:50
 description:
   Linaro is pleased to announce that it will be offering a four hour comprehensive

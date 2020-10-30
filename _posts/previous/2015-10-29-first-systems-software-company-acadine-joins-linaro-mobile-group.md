@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-10-29 13:03:01
 description:
   Linaro announces Acadine Technologies as the first systems software company

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-01-27 14:00:24
 description:
   Linaro announces a complete open source Software Reference Platform for

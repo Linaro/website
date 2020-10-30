@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2011-05-30 12:12:47
 description: TAIPEI, TAIWAN - 30 MAY 2011
 layout: post

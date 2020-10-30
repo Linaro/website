@@ -2,8 +2,7 @@
 amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
-categories:
-  - blog
+category: blog
 comments: false
 date: 2017-07-31 13:59:32
 image: /assets/images/blog/OutlineScheduleLinaroConnectSFO17.jpg

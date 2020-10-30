@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-04-20 13:28:10
 description:
   Linaro invites those who are using Linaro builds and Arm-processor based

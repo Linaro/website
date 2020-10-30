@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-06-15 11:58:50
 description:
   Linaro announces that Thundersoft has joined the 96Boards initiative

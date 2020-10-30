@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-05-30 20:39:54
 description: The Linaro 13.05 release is now available for download!
 keywords:

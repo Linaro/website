@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2011-05-27 12:11:29
 description: CAMBRIDGE, UK - 27 MAY 2011
 layout: post

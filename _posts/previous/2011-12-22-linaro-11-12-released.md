@@ -5,14 +5,12 @@ title: Linaro 11.12 Released
 image: /assets/images/content/linaro-logo.png
 tags:
   - Releases
-categories:
-  - blog
+category: blog
 author: david.zinman
 slug: linaro-11-12-released
 date: 2011-12-22T19:52:48.000Z
 link: /blog/releases-blog/linaro-11-12-released/
-categories:
-  - blog
+category: blog
 description: Links to all the downloads for the Linaro 11.12 release
 ---
 

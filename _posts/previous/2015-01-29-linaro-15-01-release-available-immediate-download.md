@@ -1,7 +1,6 @@
 ---
 author: koen.kooi
-categories:
-  - blog
+category: blog
 date: 2015-01-29 19:29:22
 description:
   The Linaro 15.01 software release is available for immediate download.

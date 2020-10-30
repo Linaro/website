@@ -1,7 +1,6 @@
 ---
 author: khasim.mohammed
-categories:
-  - blog
+category: blog
 date: 2014-12-17 01:05:59
 description:
   "Linaro's experiences in successfully running Android on Armv8 platforms

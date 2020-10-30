@@ -23,8 +23,7 @@ tags:
   - Linux Foundation
   - Dr. Lorenz Meier
   - Pixhawk standard
-categories:
-  - news
+category: news
 author: jon.burcham@linaro.org
 ---
 

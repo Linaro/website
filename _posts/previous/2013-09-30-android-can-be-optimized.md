@@ -1,7 +1,6 @@
 ---
 author: khasim.mohammed
-categories:
-  - blog
+category: blog
 date: 2013-09-30 19:16:47
 description: Blog on how Linaro is analyzing and working on ways to optimize Android.
 keywords:

@@ -1,7 +1,6 @@
 ---
 author: bernhard.rosenkranzer
-categories:
-  - blog
+category: blog
 date: 2012-08-26 23:45:10
 description:
   Linaro Android 12.08 is not just the first Linaro Android release based

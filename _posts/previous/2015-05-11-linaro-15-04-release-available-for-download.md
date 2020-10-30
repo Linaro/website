@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-05-11 14:16:55
 description:
   Linaro's 15.04 release is not available for download. See the detailed

@@ -1,7 +1,6 @@
 ---
 author: mark.gregotski
-categories:
-  - blog
+category: blog
 date: 2014-12-03 23:51:32
 description:
   Overview of the activities and projects the Linaro Home Group has been

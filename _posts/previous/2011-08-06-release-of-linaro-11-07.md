@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-08-06 02:19:30
 description: Listing of the links to all the downloads for the release
 layout: post

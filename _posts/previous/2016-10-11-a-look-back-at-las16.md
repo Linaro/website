@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2016-10-11 20:34:00
 description:
   An overview of the activities that took place during the Linaro Connect

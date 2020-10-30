@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-11-04 14:08:47
 description:
   Overview of the latest group at Linaro, the Linaro Networking Group (LNG).

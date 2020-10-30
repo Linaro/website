@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-11-26 21:05:13
 description:
   Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how he

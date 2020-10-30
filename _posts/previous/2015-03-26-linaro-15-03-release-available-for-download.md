@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-03-26 16:39:44
 description:
   Linaro's 15.03 release is not available for download. See the detailed

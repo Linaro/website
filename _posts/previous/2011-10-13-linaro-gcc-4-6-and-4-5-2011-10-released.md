@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2011-10-13 11:57:08
 description: Announcement and release notes for Linaro GCC 4.6 and 4.5 2011.10
 layout: post

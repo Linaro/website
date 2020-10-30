@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-07-09 07:56:15
 description:
   Engineers at Linaro Connect Europe 2013 iron out the plans for the future

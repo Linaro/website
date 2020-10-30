@@ -10,8 +10,7 @@ tags:
   - Dragonboard 845c
   - SDM845
   - Google Pixel3
-categories:
-  - blog
+category: blog
 author: amit.pundir@linaro.org
 ---
 

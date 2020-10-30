@@ -6,8 +6,7 @@ link: /blog/trying-linaro-jellybean-android-on-tis-panda-board/
 slug: trying-linaro-jellybean-android-on-tis-panda-board
 title: Trying Linaro Jellybean Android on TI's Panda board
 wordpress_id: 1826
-categories:
-  - blog
+category: blog
 ---
 
 ## Overview

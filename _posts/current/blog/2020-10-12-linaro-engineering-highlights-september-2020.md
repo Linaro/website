@@ -28,8 +28,7 @@ tags:
   - Android
   - open source
   - HPC
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 ---
 

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2012-02-09 12:18:24
 description: SAN FRANCISCO - 9 FEB 2012
 layout: post

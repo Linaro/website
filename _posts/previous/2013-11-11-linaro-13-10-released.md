@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2013-11-11 16:50:21
 description: Information on links to the 13.10 release
 keywords: linaro, Arm, Linux, Linux on Arm, opensource, releases, 13.10 release

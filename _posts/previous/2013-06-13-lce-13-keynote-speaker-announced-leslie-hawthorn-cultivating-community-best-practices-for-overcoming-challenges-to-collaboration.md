@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-06-13 19:27:03
 description:
   We're excited to announce that Leslie Hawthorn, Community Action and

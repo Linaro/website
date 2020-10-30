@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-15 15:56:10
 description:
   The Arm Server is taking a front row seat at Linaro Connect Asia 2013

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-01-10 14:10:41
 description:
   Individuals and organizations who are using Linaro Code on Arm based

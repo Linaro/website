@@ -5,8 +5,7 @@ layout: post
 date: 2019-03-20 09:00:00
 description: >-
   In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards.
-categories:
-  - blog
+category: blog
 tags:
   - Linaro
   - Arm

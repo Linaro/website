@@ -12,8 +12,7 @@ tags:
   - Vmware
   - Linux Scheduler
   - Linux Kernel
-categories:
-  - blog
+category: blog
 author: vincent.guittot
 ---
 

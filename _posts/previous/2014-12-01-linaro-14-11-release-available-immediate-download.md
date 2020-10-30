@@ -1,7 +1,6 @@
 ---
 author: koen.kooi
-categories:
-  - blog
+category: blog
 comments: true
 date: 2014-12-01 17:46:04
 description:
@@ -34,7 +33,7 @@ title: Linaro 14.11 Release Available for Immediate Download!
 wordpress_id: 7598
 ---
 
-> “Small opportunities are often the beginning of great enterprises." *~ **Demosthenes***
+> “Small opportunities are often the beginning of great enterprises." \*~ **Demosthenes\***
 
 Linaro 14.11  release is now available for download.  See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the Details column for each released artifact on the release information:
 

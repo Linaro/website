@@ -4,8 +4,7 @@ date: 2018-03-22 14:50:00.000
 title: Highlights of Day Four at HKG18
 description: >-
   Here is a brief summary of the highlights from the fourth day at Linaro Connect HKG18.
-categories:
-  - blog
+category: blog
 published: true
 tags: "HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Linux Foundation, OpenChain Project, Opensource Governance, HiSilicon"
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Linux Foundation, OpenChain Project, Opensource Governance, HiSilicon

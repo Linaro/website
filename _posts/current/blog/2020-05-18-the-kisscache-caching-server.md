@@ -8,8 +8,7 @@ tags:
   - server
   - KissCache
   - Squid
-categories:
-  - blog
+category: blog
 author: remi.duraffort@linaro.org
 ---
 

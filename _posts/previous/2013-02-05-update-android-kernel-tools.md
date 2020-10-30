@@ -1,7 +1,6 @@
 ---
 author: yongqin.liu
-categories:
-  - blog
+category: blog
 date: 2013-02-05 02:53:36
 description:
   With the kernel update tools provided by the Linaro Android team, users

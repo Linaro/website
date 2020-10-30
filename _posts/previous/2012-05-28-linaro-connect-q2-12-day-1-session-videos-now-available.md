@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-05-28 09:29:07
 description: Day 1 Linaro Connect Q2.12 video'd sessions are now available online.
 keywords:

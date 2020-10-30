@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2012-05-11 21:13:36
 description:
   Discussion on how Linaro's work affects many segments other than mobile

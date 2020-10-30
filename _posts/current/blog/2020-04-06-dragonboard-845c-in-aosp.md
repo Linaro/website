@@ -10,8 +10,7 @@ tags:
   - AOSP
   - Linux Kernel
   - upstreaming
-categories:
-  - blog
+category: blog
 author: john.stultz
 ---
 

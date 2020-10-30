@@ -1,7 +1,6 @@
 ---
 author: arnd.bergmann
-categories:
-  - blog
+category: blog
 comments: true
 date: 2014-12-23 10:00:32
 description:

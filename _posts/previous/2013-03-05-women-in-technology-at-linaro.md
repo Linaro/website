@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-05 06:47:52
 description:
   Linaro together with its members, partners and community are growing

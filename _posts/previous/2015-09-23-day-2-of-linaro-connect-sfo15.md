@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-09-23 02:26:42
 description:
   Overview of the keynotes and sessions that took place during day 2 of

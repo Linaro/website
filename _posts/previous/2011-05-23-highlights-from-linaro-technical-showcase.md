@@ -6,8 +6,7 @@ link: /blog/highlights-from-linaro-technical-showcase/
 slug: highlights-from-linaro-technical-showcase
 title: Highlights from Linaro Technical Showcase
 wordpress_id: 201
-categories:
-  - blog
+category: blog
 ---
 
 During the [Linaro Developer Summit (9-13 May 2011)](https://wiki-archive.linaro.org/Events/2011-05-LDS), we held a superb [showcase](https://wiki-archive.linaro.org/Events/2011-05-LDS/Showcase) of the 20 best demonstrations of Linaro engineering and of companies using our output.

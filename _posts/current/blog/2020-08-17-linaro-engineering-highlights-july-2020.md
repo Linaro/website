@@ -22,8 +22,7 @@ tags:
   - Linux Kernel Functional Test
   - Kernel Validation Team
   - Toolchain Working Group
-categories:
-  - blog
+category: blog
 author: jon.burcham@linaro.org
 related_projects:
   - AI

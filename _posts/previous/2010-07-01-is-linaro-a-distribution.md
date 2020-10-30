@@ -6,8 +6,7 @@ link: /blog/community-blog/is-linaro-a-distribution/
 slug: is-linaro-a-distribution
 title: Is Linaro a Distribution?
 wordpress_id: 4111
-categories:
-  - blog
+category: blog
 tags:
   - Community
   - arm

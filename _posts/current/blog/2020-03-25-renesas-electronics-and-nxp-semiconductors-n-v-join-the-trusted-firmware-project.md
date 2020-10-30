@@ -12,8 +12,7 @@ tags:
   - security
   - Arm
   - Linaro
-categories:
-  - blog
+category: blog
 author: linaro
 ---
 

@@ -1,7 +1,6 @@
 ---
 author: frans.gifford
-categories:
-  - blog
+category: blog
 date: 2011-10-18 13:21:18
 description:
   First deployment of Linaro Android Review Bot. This integrates our Gerrit

@@ -5,8 +5,7 @@ layout: post
 date: 2018-08-21 09:00:00+00:00
 description: >-
   Linaro is hosting an AI and Neural Networks on Arm Summit on Wednesday 19 September at Linaro Connect YVR18, Hyatt Regency Vancouver.
-categories:
-  - blog
+category: blog
 tags: Arm, Linaro, AI, Summit, Vancouver, Neural Networks, Machine Intelligence, Machine Learning, Jem Davies, Chris Benson, Linaro Connect, YVR18
 image: /assets/images/blog/AiSummitBanner2.png
 ---

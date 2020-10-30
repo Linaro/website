@@ -28,8 +28,7 @@ tags:
   - ""
 related_projects:
   - PERF
-categories:
-  - blog
+category: blog
 author: daniel.lezcano
 ---
 

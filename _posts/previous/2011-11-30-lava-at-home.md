@@ -6,8 +6,7 @@ link: /blog/hardware-update/lava-at-home/
 slug: lava-at-home
 title: LAVA@Home
 wordpress_id: 965
-categories:
-  - blog
+category: blog
 tags:
   - Hardware
   - LAVA

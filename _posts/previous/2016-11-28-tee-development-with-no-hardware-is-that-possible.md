@@ -1,7 +1,6 @@
 ---
 author: joakim.bech
-categories:
-  - blog
+category: blog
 date: 2016-11-28 17:06:06
 description:
   "The question is whether you actually need hardware for TEE development.

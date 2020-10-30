@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-07-29 23:54:31
 description:

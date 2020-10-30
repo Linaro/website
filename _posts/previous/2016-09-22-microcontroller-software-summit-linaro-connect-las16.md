@@ -6,8 +6,7 @@ link: /blog/microcontroller-software-summit-linaro-connect-las16/
 slug: microcontroller-software-summit-linaro-connect-las16
 title: Microcontroller Software Summit at Linaro Connect LAS16
 wordpress_id: 11590
-categories:
-  - blog
+category: blog
 tags:
   - Cortex-M
   - IoT

@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-03-03 18:27:36
 description: Recap of the first day of LCA14
 layout: post

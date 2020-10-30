@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-14 21:28:43
 description:
   Find out how you can connect with Linaro during the The Android Builders

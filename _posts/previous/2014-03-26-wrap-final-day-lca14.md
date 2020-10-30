@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - blog
+category: blog
 date: 2014-03-26 15:30:47
 description: Wrap-up of the LCA14 final days activities and awards
 layout: post

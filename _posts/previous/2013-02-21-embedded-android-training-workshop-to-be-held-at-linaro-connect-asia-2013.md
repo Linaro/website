@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-02-21 17:14:23
 description:
   Karim Yaghmour CEO, Opersys Inc., will be leading a 4-part Embedded Android

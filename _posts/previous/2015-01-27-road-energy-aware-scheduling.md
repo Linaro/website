@@ -1,7 +1,6 @@
 ---
 author: nicolas.pitre
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-01-27 17:26:36
 description:

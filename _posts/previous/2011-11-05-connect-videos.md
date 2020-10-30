@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2011-11-05 13:38:43
 description:
   A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.

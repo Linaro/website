@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2016-09-01 20:13:11
 description: "Cambridge, UK: 1\xC2\_September 2016"
 layout: post

@@ -1,7 +1,6 @@
 ---
 author: daniel.thompson
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-02-08 03:32:23
 description:

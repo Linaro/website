@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-07-19 14:25:33
 description:
   Keynote Speakers, videos, presentations from Linaro Connect Europe 2013

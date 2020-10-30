@@ -9,8 +9,7 @@ link: /blog/96boards-openhours-week-2/
 slug: 96boards-openhours-week-2
 title: 96Boards OpenHours week 2
 wordpress_id: 10630
-categories:
-  - blog
+category: blog
 tags:
   - 96Boards
   - android

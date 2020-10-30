@@ -8,8 +8,7 @@ description: >-
   found in modern CPUs.  These features all aim to increase performance and to
   avoid latencies in the pipeline.  They work in conjunction with each other in
   quite complex ways.
-categories:
-  - blog
+category: blog
 published: true
 tags: "Meltdown, Spectre, Arm, OP-TEE, Trustzone"
 keywords: >-

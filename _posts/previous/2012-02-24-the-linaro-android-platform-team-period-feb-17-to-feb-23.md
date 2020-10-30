@@ -1,7 +1,6 @@
 ---
 author: tony.mansson
-categories:
-  - blog
+category: blog
 date: 2012-02-24 01:15:23
 keywords: Linaro Android Platform Team
 layout: post

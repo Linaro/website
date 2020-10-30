@@ -6,8 +6,7 @@ link: /blog/core-dump/testing-a-trusted-execution-environment/
 slug: testing-a-trusted-execution-environment
 title: Testing a Trusted Execution Environment
 wordpress_id: 9949
-categories:
-  - blog
+category: blog
 tags:
   - Core Dump
 ---

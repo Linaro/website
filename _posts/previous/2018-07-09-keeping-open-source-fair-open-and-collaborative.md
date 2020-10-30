@@ -6,8 +6,7 @@ date: 2018-07-16 09:00:00+00:00
 description: >-
   Linaro joins growing movement of open source leaders seeking to protect communities.
 image: /assets/images/content/open-source-projects.png
-categories:
-  - blog
+category: blog
 tags: Open Source, Projects, Arm, Armv8, linaro, linux, GPL 2.0, Red Hat
 published: true
 ---

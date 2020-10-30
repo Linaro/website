@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-  - news
+category: news
 date: 2015-06-20 00:04:38
 description:
   "LeMaker to pair its hardware expertise with Linaro\xE2\x80\x99s open

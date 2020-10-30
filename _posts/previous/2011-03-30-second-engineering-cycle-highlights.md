@@ -6,8 +6,7 @@ link: /blog/second-engineering-cycle-highlights/
 slug: second-engineering-cycle-highlights
 title: Second Engineering Cycle Highlights
 wordpress_id: 3376
-categories:
-  - blog
+category: blog
 tags:
   - Engineering cycle
   - Evaluation builds

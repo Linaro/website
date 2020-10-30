@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-02-09 21:29:48
 description:
   Overview of the first day of Linaro Connect Hong Kong 2015. There were

@@ -18,8 +18,7 @@ tags:
   - arm
   - CoreSight
   - socs
-categories:
-  - blog
+category: blog
 title:
   "CoreSight: Initial steps in supporting HW assisted tracing on Linux for Arm
   SoCs"

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-04 23:56:43
 description:
   Linaro Connect Asia session highlights from day 1 and what people can

@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-  - blog
+category: blog
 date: 2011-08-31 21:15:16
 description:
   Information about the Linaro 11.08 release. Feature highlights, ready

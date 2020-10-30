@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-02-09 01:55:19
 description:
   96Boards is an open hardware specification for Arm 32-bit and 64-bit

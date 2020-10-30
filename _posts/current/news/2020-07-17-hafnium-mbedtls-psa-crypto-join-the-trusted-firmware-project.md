@@ -25,8 +25,7 @@ tags:
   - Renesas Electronics Corporation
   - ST Microelectronics
   - Texas Instruments.
-categories:
-  - news
+category: news
 author: jon.burcham@linaro.org
 ---
 

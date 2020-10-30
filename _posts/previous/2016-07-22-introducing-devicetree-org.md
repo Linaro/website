@@ -2,8 +2,7 @@
 layout: post
 title: Introducing devicetree.org
 date: 2016-07-22 12:00:00
-categories:
-  - blog
+category: blog
 tags:
   - DeviceTree
 image: /assets/images/blog/devicetree-logo-dark.png

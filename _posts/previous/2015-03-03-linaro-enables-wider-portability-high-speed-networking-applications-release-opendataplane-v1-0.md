@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2015-03-03 14:00:23
 description:
   OpenDataPlane (ODP) enables proven software portability between network

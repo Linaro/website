@@ -34,8 +34,7 @@ tags:
   - lock-less hash table
 related_projects:
   - QEMU
-categories:
-  - blog
+category: blog
 author: alex.bennee
 ---
 

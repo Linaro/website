@@ -1,7 +1,6 @@
 ---
 author: mark.orvek
-categories:
-  - blog
+category: blog
 date: 2015-09-16 20:43:09
 description:
   Welcome to Linaro Connect SFO15 - here is what we have planned for the

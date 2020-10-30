@@ -13,8 +13,7 @@ tags:
   - Avenger
   - 96Boards
   - IoT and Embedded
-categories:
-  - blog
+category: blog
 author: bill.fletcher
 ---
 

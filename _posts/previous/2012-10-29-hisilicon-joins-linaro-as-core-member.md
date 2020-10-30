@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - news
+category: news
 date: 2012-10-29 12:21:01
 description: SHENZHEN, CHINA AND CAMBRIDGE, UK - 29 OCT 2012
 layout: post

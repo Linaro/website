@@ -7,8 +7,7 @@ tags:
   - Linaro
   - OP-TEE
   - Trusted Firmware
-categories:
-  - news
+category: news
 author: linaro
 ---
 

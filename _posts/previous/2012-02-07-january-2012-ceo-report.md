@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-  - blog
+category: blog
 date: 2012-02-07 14:37:18
 description: Linaro CEO gives an overview of the 2012 goals for Linaro.
 keywords: Linaro, Arm, Arm v8 architecture, Linux on Arm, big.LITTLE, LAVA

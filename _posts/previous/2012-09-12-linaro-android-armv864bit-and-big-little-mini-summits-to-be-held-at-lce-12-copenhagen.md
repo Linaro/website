@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-09-12 14:55:16
 description:
   "Linaro Connect will host three mini-summits\xE2\x80\x94tracks focused

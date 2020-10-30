@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2015-10-21 19:46:53
 description:
   Overview of the keynotes, sessions and activities that took place during

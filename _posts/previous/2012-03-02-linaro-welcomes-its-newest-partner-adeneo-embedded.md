@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2012-03-02 22:35:11
 description:
   Linaro welcomes Adeneo Embedded as its newest partner and who with current

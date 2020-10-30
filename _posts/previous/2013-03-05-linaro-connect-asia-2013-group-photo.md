@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - blog
+category: blog
 date: 2013-03-05 06:44:13
 description: Linaro Connect Asia 2013 Group Photo
 keywords:
