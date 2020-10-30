@@ -12,5 +12,5 @@ flow:
     sections:
       - format: custom_include
         source: blog/tags.html
-        category: Blog
+        category: blog
 ---
