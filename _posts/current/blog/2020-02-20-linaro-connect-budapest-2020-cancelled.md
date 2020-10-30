@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linaro Connect Budapest 2020 cancelled
-date: '2020-02-20 08:53:19'
+date: "2020-02-20 08:53:19"
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 tags:
   - linaro connect
@@ -9,10 +9,12 @@ tags:
   - Coronavirus
   - conference
   - linaro
-category: Blog
+categories:
+  - blog
 author: connect
 ---
-Over the last few weeks, Linaro has been carefully monitoring the Coronavirus situation.  We have a duty of care for all attendees at our events. Health and safety is always our top priority.
+
+Over the last few weeks, Linaro has been carefully monitoring the Coronavirus situation. We have a duty of care for all attendees at our events. Health and safety is always our top priority.
 
 With that in mind, it is with great regret that we have decided to cancel the upcoming Linaro Connect which was due to be held on 23-27 March 2020 at the Corinthia Hotel in Budapest, Hungary.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Standard temperature tooling now a reality in the Linux kernel '
-date: '2020-02-03 03:39:33'
+title: "Standard temperature tooling now a reality in the Linux kernel "
+date: "2020-02-03 03:39:33"
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - linux kernel
@@ -9,9 +9,11 @@ tags:
   - 5.6 release
   - arm
   - open source
-category: Blog
+categories:
+  - blog
 author: linus.walleij
 ---
+
 With the Linux 5.6 release, it was announced that there is a proper drive temperature driver for disks and solid-state drives with temperature sensors - something that has been in the works for years. So what does this mean? Why is this significant? And how did Linaro play a role?
 
 In this blog Senior Engineer Linus Walleij talks about Linaro’s involvement and how he would like to see things evolve.

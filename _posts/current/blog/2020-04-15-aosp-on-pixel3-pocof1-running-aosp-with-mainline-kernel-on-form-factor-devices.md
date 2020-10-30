@@ -3,16 +3,18 @@ layout: post
 title: >-
   AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor
   devices)
-date: '2020-04-15 11:37:57'
+date: "2020-04-15 11:37:57"
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
   - AOSP
   - Dragonboard 845c
   - SDM845
   - Google Pixel3
-category: Blog
+categories:
+  - blog
 author: amit.pundir@linaro.org
 ---
+
 Recently, the Dragonboard 845c (Qualcomm's SDM845 based 96board) [landed in AOSP](/blog/dragonboard-845c-in-aosp/). One of the best things about the Dragonboard 845c (SDM845 SoC to be precise) is that it is actively being worked upon upstream by the Linaro Qualcomm Landing Team and supports an open graphics (mesa/freedreno) stack. Even all but one of the device firmware files are available in the upstream linux-firmware project repository. Having a fully open-source kernel and userland stack makes Dragonboard 845c a very exciting board from AOSP development point of view. What further adds to the excitement around the board is the fact that the SDM845 SoC has been widely shipped in many form-factor devices, making it a great starting point for enabling a fully open Android form-factor device. Having a form-factor device that one can test the latest mainline kernels with the latest AOSP/master changes has long been a desired goal in the Linaro Consumer Group (LCG), and going back a few years we made a similar effort on the [Nexus 7 device](https://bloggingthemonkey.blogspot.com/2016/05/freedreno-not-so-periodic-update.html). Some of the rationale and benefits of this have been covered in previous Linaro Connect talks: [SFO15 401 Mainline on form factor devices / Improving AOSP.](https://www.youtube.com/watch?v=7BVFRIHY7fI)
 
 The Google Pixel3 phone was the obvious choice for the next form-factor device effort by the Linaro Consumer Group, with an unlocked bootloader and device support already in AOSP. Once we figured out how to work around bootloader checks on Google’s Pixel3 (SDM845 based) phone, we started utilising SDM845 upstream support for running the mainline kernel on the Pixel3. Leveraging the Dragonboard 845c work, we were quickly able to get the device booting from storage, and usb-gadget support working. In addition, we needed support for the LAB/IBB regulators, which provide the power supplies for LCD and AMOLED display panels. These are required to power the panels on SDM845 platforms, but the driver for these is not yet upstream, so we utilized work-in-progress patches from the lists. We then converted the downstream dts-based Pixel3 command mode panel driver to an upstream-style drm panel driver. Soon we hit a wall while enabling the display panel, as it uses Display Stream Compression (DSC), which is not yet supported upstream on Qualcomm hardware, but is actively being worked on. So while the device boots to UI, the screen output is garbled at the moment.
@@ -21,9 +23,7 @@ The Google Pixel3 phone was the obvious choice for the next form-factor device e
 
 To integrate support into AOSP, we created a “pixel3_mainline” build target (to differentiate it from the official “blueline” codename used in AOSP), and pushed it along with the Dragonboard 845c support. The goal of this newly added pixel3_mainline-userdebug build target is to run AOSP on Pixel3 device with mainline linux kernel and open graphics stack (mesa/freedreno), unlike AOSP's official aosp_blueline-userdebug build target for Pixel3 which runs android-4.4 kernel with proprietary closed source services and binaries. Status as of today is that pixel3_mainline-userdebug build boots but with garbled output on screen, but is accessible via ADB. We hardcode bootargs in the kernel and enforce it because we can’t boot with bootargs appended by the bootloader during bootup. We also configure the system partition as a super partition and have not yet moved to retrofit dynamic partition support. Currently we only support booting with the Android P bootloader because Android-10 bootloaders need userspace fastbootd support which is currently missing in our build. You can find the How To instructions at <https://wiki.linaro.org/AOSP/blueline>
 
-
 Meanwhile we started looking into Pocophone’s F1 phone, a similar Snapdragon 845 based device, which uses a panel that doesn’t require DSC support. With a relatively small amount of work, in order to add support for the PocoF1 panel, we quickly boot AOSP upto UI with the mainline linux kernel. Since the Dragonboard 845c support was already in AOSP utilizing the Android Generic Kernel Image (GKI), we could just re-use the GKI and the Dragonboard 845c kernel modules along with local (vendor specific) panel and regulator driver modules, demonstrating the future potential of the Android GKI initiative:
-
 
 {% include media.html media_url="https://www.youtube.com/watch?v=-SRqxkMpeMc" class="my-2" %}
 

@@ -16,7 +16,8 @@ tags:
 related_projects:
   - GNU
   - LLVM
-category: Blog
+categories:
+  - blog
 author: Omair.Javaid@linaro.org
 ---
 

@@ -22,11 +22,13 @@ tags:
   - Linux Kernel Functional Test
   - Kernel Validation Team
   - Toolchain Working Group
-category: Blog
+categories:
+  - blog
 author: jon.burcham@linaro.org
 related_projects:
-- AI
+  - AI
 ---
+
 # Introducing TuxMake
 
 By Dan Rue, Principal Technical Lead, Kernel Validation Team (KVT)
@@ -43,7 +45,7 @@ TuxMake seeks to make it trivial to perform an arbitrary Linux kernel build insi
 
 The other common problem that we notice is that developers usually don’t build test Linux kernels for very many architectures or with many different toolchains, because it’s a hassle to set up and maintain the environments. TuxMake solves this problem too, making it trivial for developers to perform builds against any supported combination of architectures and with any of the curated toolchains.
 
-TuxMake can be found [here](https://gitlab.com/Linaro/tuxmake). To get started with tuxmake, run ‘*pip install tuxmake*’, cd to a linux source tree, and run ‘*tuxmake*’.
+TuxMake can be found [here](https://gitlab.com/Linaro/tuxmake). To get started with tuxmake, run ‘_pip install tuxmake_’, cd to a linux source tree, and run ‘_tuxmake_’.
 
 We are hopeful that TuxMake can solve a real problem that all Linux kernel developers experience. It will allow them to more easily build for more architectures, more targets, and in a more repeatable way, which in turn may directly improve the quality of the Linux kernel.
 
@@ -51,9 +53,9 @@ We are hopeful that TuxMake can solve a real problem that all Linux kernel devel
 
 By Vicky Janicki
 
-{% include image.html path="/assets/images/content/connect-2020-virtual-1-.jpg" class="small-inline left" alt="Linaro Connect Event 2020 logo" %} The [schedule](https://lvc20.sched.com/?iframe=no) for Linaro Virtual Connect 2020 (LVC20) is now available. The event starts on Tuesday September 22 and continues on Wednesday Sep 23 and Thursday Sep 24.  Each day will be kicked off with industry keynote speakers including Peter Robinson (Red Hat) “Why standardisation on the Edge is critical for success”.
+{% include image.html path="/assets/images/content/connect-2020-virtual-1-.jpg" class="small-inline left" alt="Linaro Connect Event 2020 logo" %} The [schedule](https://lvc20.sched.com/?iframe=no) for Linaro Virtual Connect 2020 (LVC20) is now available. The event starts on Tuesday September 22 and continues on Wednesday Sep 23 and Thursday Sep 24. Each day will be kicked off with industry keynote speakers including Peter Robinson (Red Hat) “Why standardisation on the Edge is critical for success”.
 
-Carlo Piana (Array) will bring his experience as an IT lawyer to his talk “Respect! (R-E-S-P-E-C-T!)”.  Jose Manrique López de la Fuente, CEO of Bitergia, will deliver the provocatively titled keynote “Let’s Butcher Software Development Analytics together: So you don’t have to when it really counts”.  
+Carlo Piana (Array) will bring his experience as an IT lawyer to his talk “Respect! (R-E-S-P-E-C-T!)”. Jose Manrique López de la Fuente, CEO of Bitergia, will deliver the provocatively titled keynote “Let’s Butcher Software Development Analytics together: So you don’t have to when it really counts”.
 
 After the success of Linaro Tech Days in April, we are expanding to 3 tracks of sessions per day. We have also staggered the start times so that on at least one day, the sessions will be running during the typical work day of a region. But have no fear, the sessions will be recorded and posted to the resource page so you can catch any you may have missed. We are also experimenting with some non-technical content slots - stay tuned for those announcements. So mark your calendars!
 
@@ -63,7 +65,7 @@ After the success of Linaro Tech Days in April, we are expanding to 3 tracks of 
 
 By Kevin Zhao, Technical Lead, DevOps, LDCG
 
-{% include image.html path="/assets/images/content/ldcg.jpg" class="small-inline left" alt="Linaro Data Center and Cloud Group logo" %} The Cloud Infrastructure team in Linaro sits inside a group known as the Linaro Data Center and Cloud Group (LDCG). The Cloud Infrastructure focuses on open-source cloud IAAS, PAAS, and storage projects such as OpenStack, Kubernetes, and Ceph. The rest of the LDCG team spends their time working with Arm Server Architecture, Big Data, and HPC (High-Performance Computing). 
+{% include image.html path="/assets/images/content/ldcg.jpg" class="small-inline left" alt="Linaro Data Center and Cloud Group logo" %} The Cloud Infrastructure team in Linaro sits inside a group known as the Linaro Data Center and Cloud Group (LDCG). The Cloud Infrastructure focuses on open-source cloud IAAS, PAAS, and storage projects such as OpenStack, Kubernetes, and Ceph. The rest of the LDCG team spends their time working with Arm Server Architecture, Big Data, and HPC (High-Performance Computing).
 
 **About Linaro Developer Cloud** Linaro Developer Cloud is designed to broaden the availability of the latest hardware to developers globally and to enable commercial and private cloud providers to utilize the implementation to accelerate deployment of their own offerings.
 
@@ -77,7 +79,7 @@ By Alex Bennée, Senior Engineer, Toolchain Working Group
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %} The QEMU team in Linaro sits inside a group known as the Toolchain Working Group (TCWG). The rest of the team spend their time working with compilers and other code generators such as GCC and LLVM. When dealing with emulation, QEMU has its own module known as the Tiny Code Generator (TCG). It shares many similarities with a compiler albeit one that works with different constraints than your typical compiler. As the code generator works on a just-in-time (JIT) basis, it can’t afford to spend large amounts of time (or memory!) that a typical compiler does when optimising its output. This is especially true for code that only gets executed once or twice before being flushed out of the cache.
 
-**History** 
+**History**
 
 The TCG is actually the second code generator that QEMU has used. Originally QEMU worked as a “template” translator where each individual instruction has a snippet of C code associated with it. The translation was a case of stitching these templates together into larger blocks of code. This meant porting QEMU to a new system was relatively easy because if GCC supported it, you could generate code to run under it. However, eventually the limits of this approach necessitated moving to a new code generator and TCG was born.
 

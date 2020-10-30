@@ -13,7 +13,8 @@ tags:
   - standards
 related_projects:
   - STR
-category: Blog
+categories:
+  - blog
 author: alex.bennee
 published: true
 ---
