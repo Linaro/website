@@ -1,9 +1,10 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2011-12-08 19:00:49
-description: Linaro announces the formation of the Linaro Community Contributor Process
+description:
+  Linaro announces the formation of the Linaro Community Contributor Process
   and Team, introducing a process to recognise community members who have sustained
   contributions over a significant period of time.
 keywords: Linux on Arm, Community, Contributor, Linaro, Process, Linaro Connect, Announcement
@@ -11,7 +12,7 @@ layout: post
 link: /blog/community-blog/linaro-announces-community-contributor-process-and-team/
 slug: linaro-announces-community-contributor-process-and-team
 tags:
-- Community
+  - Community
 title: Linaro Announces Community Contributor Process and Team
 wordpress_id: 1042
 ---
@@ -28,11 +29,11 @@ Zach Pfeffer, Android Platform Tech Lead at Linaro, attributes his motivation an
 
 **The benefits of becoming a Community Contributor will include:**
 
-* a Linaro e-mail address
-* the right to carry Linaro business cards (we supply the artwork, you print your own cards)
-* a Linaro IRC cloak
-* listing in the relevant Working Group on our Linaro organisation structure
-* listing in the Launchpad Community Contributors Team
+- a Linaro e-mail address
+- the right to carry Linaro business cards (we supply the artwork, you print your own cards)
+- a Linaro IRC cloak
+- listing in the relevant Working Group on our Linaro organisation structure
+- listing in the Launchpad Community Contributors Team
 
 **Applying to be a Linaro Community Contributor is an easy process**.
 
@@ -42,8 +43,8 @@ After that they will need to complete and sign our [Community Contributor Agreem
 
 The main points are that the community contributor agrees to are:
 
-* to our e-mail terms of use, including use of your Linaro e-mail for upstream contributions
-* a copyright and patent licence to Linaro for any code you contribute with that e-mail address
+- to our e-mail terms of use, including use of your Linaro e-mail for upstream contributions
+- a copyright and patent licence to Linaro for any code you contribute with that e-mail address
 
 Once that's done, the Technical Lead submits the nomination and completed Agreement to our [Community Board](https://wiki-archive.linaro.org/CommunityContributor/CommunityBoard). The nomination will normally describe how the community member has worked with Linaro, any Blueprints they may have been involved with and [Linaro Connect](https://connect.linaro.org/) events they may have attended.
 

@@ -1,30 +1,31 @@
 ---
 author: daniel.lezcano
 categories:
-- Blog
+  - blog
 comments: true
 date: 2014-11-14 17:25:07
-description: Daniel Lezcano a Long term upstream contributor's shares his experience
+description:
+  Daniel Lezcano a Long term upstream contributor's shares his experience
   working upstream. He has been doing kernel development for more 10 years.
-excerpt: Daniel Lezcano a Long term upstream contributor's shares his experience working
+excerpt:
+  Daniel Lezcano a Long term upstream contributor's shares his experience working
   upstream. He has been doing kernel development for more 10 years and currently maintaining
   two subsystems of the Linux kernel.
 layout: post
 slug: working-upstream
 tags:
-- Core Dump
-- arm
-- contributor
-- CoreSight
-- Daniel Lezcano
-- kernel
-- upstream
-title: 'What do we mean by working upstream: A long-term contributor''s view'
+  - Core Dump
+  - arm
+  - contributor
+  - CoreSight
+  - Daniel Lezcano
+  - kernel
+  - upstream
+title: "What do we mean by working upstream: A long-term contributor's view"
 wordpress_id: 7196
 ---
 
 # What do we mean by working upstream: A long-term contributor's view
-
 
 I've been doing kernel development for a bit longer than 10 years and I'm currently maintaining two subsystems of the Linux kernel. During this period I have seen good and bad experiences when I have had to upstream some big features into Linux. As a Linaro employee, part of my job is to help our different members to upstream their code to the Linux kernel. I believe it is worthwhile to share experience I have had in the past.
 
@@ -34,17 +35,11 @@ When the code to be upstreamed belongs to the platform specific and its derivati
 
 When the code to be upstreamed is a big and complex feature that changes existing functionality  provided by the kernel for several years, things are much more complex because there is a series of steps one needs to go through before being able to upstream such feature:
 
+1. Raise interest amongst a diverse group of maintainers, not only the ones in charge of the parts to be changed
 
+2. Find people from different backgrounds  who are interested in the feature in order to create a small community around it and solve disagreements
 
-
-  1. Raise interest amongst a diverse group of maintainers, not only the ones in charge of the parts to be changed
-
-
-  2. Find people from different backgrounds  who are interested in the feature in order to create a small community around it and solve disagreements
-
-
-  3. Bring the feature together piece by piece, little by little ensuring in the worst case there is no regression and in the best case something existing is improved.
-
+3. Bring the feature together piece by piece, little by little ensuring in the worst case there is no regression and in the best case something existing is improved.
 
 **Prior experience of the wrong route to upstreaming**
 
@@ -57,8 +52,6 @@ IBM acquired the startup in 2005 with the goal to upstream the live migration fu
 Being very proud of our feature and being convinced it was the best solution in the world, we posted our first patchset for pid virtualization, certain it would be accepted with a warm welcome as a big technical challenge accomplishment. But the reaction from the community was very disappointing for us. The verdict couldn't be appealed: performance regression, implementation specific for our solution, limited approach, impact too important in the kernel, breaking some other subsystems, etc ...  In other words, we were very selfish when we posted the patchset without imagining the impact of the code on the other people in the community. Oh yeah, the "community"! Here we are, facing the flames of a group of people who were never involved in the feature but impacted by our changes. We had to review how we envision the open source and what was the community, and where we fitted in this.
 
 After soul searching and with the help of upstream experienced people, we decide to restart from scratch.
-
-
 
 **Picking a new route**
 
@@ -85,31 +78,21 @@ The impact in the kernel was very important, with an important number of cleanup
 
 The result was far away from our initial patchset: cleaner, faster, more complete, more maintainable, more understandable, less intrusive, and the feature went to a point we were not able to reach before. The key of this success was the collaboration and it was possible because:
 
+- a community of interested people was built. With more people participating on the feature, the more chances we had to do the right things
 
+- we collaborated and we cooperated by fixing the code of others and/or helped fix bugs even when not related directly to our feature
 
+- we did as much as possible to keep our mind open, letting people bring new ideas, which in our case, appeared to be better
 
-  * a community of interested people was built. With more people participating on the feature, the more chances we had to do the right things
+- we trusted people with open source experience and took always in consideration their advice even if sometimes it was presented in a tough manner. Criticism means the patches raiseed some interest
 
-
-  * we collaborated and we cooperated by fixing the code of others and/or helped fix bugs even when not related directly to our feature
-
-
-  * we did as much as possible to keep our mind open, letting people bring new ideas, which in our case, appeared to be better
-
-
-  * we trusted people with open source experience and took always in consideration their advice even if sometimes it was presented in a tough manner. Criticism means the patches raiseed some interest
-
-
-  * and finally, we kept the releasing flow constant, "Release early, release often": Everything is said here: [http://en.wikipedia.org/wiki/Release_early,_release_often](http://en.wikipedia.org/wiki/Release_early,_release_often)
-
+- and finally, we kept the releasing flow constant, "Release early, release often": Everything is said here: [http://en.wikipedia.org/wiki/Release_early,\_release_often](http://en.wikipedia.org/wiki/Release_early,_release_often)
 
 However, we were only half way to reaching the full desired feature list. The resources isolation was upstream and brought the container's functionality but the checkpoint/restart was missing to do the live process migration.
 
 The checkpoint/restart feature was interesting for less people than the container, so the community size decreased, but new people came aboard with their own checkpoint/restart implementation.
 
 One of the proposed solutions was for a checkpoint/restart 100% in the kernel. From our side, we weren't convinced by this approach and we were sure it was not upstream-able. We thought a hybrid version was more suitable: i.e. kernel checkpoint/restart services managed from userspace. That would have allowed us to bring the feature in piece by piece as we did for the containers.
-
-
 
 **A two-year detour back to the dark side**
 
@@ -127,19 +110,11 @@ There are other examples like this where the developers want to implement a big 
 
 In light of this failure, we can learn some lessons:
 
+- working in our own solution, publicly or privately, without taking into consideration the advices or feedbacks of the community, is only a mimic of the opensource, not the true opensource where the corner stone is collaboration
 
+- collaborating with the community means we no longer have control of what we are doing, and the agreements may imply the need to redo solutions from scratch. This is something we have to be prepared for in case we want to upstream a big feature
 
-
-  * working in our own solution, publicly or privately, without taking into consideration the advices or feedbacks of the community, is only a mimic of the opensource, not the true opensource where the corner stone is collaboration
-
-
-  * collaborating with the community means we no longer have control of what we are doing, and the agreements may imply the need to redo solutions from scratch. This is something we have to be prepared for in case we want to upstream a big feature
-
-
-  * opensource people are not ‘hippies disconnected from the real world’ (quote from my former management, from a former company), they just don’t care in the same way about an individual company’s ‘deadlines’ or ‘products’.
-
-
-
+- opensource people are not ‘hippies disconnected from the real world’ (quote from my former management, from a former company), they just don’t care in the same way about an individual company’s ‘deadlines’ or ‘products’.
 
 **Conclusion**
 
@@ -150,8 +125,6 @@ Opensource is about sharing and collaborating. A company is about business and m
 I hope with this experience sharing, someone may understand and follow the opensource philosophy but keeping in mind its company objectives and make its upstreaming attempt a success.
 
 I strongly recommend Thomas's Petazzonni presentation, "SoC mainlining, lessons learned" [7] and to read the “The submitting patches howto” [8].
-
-
 
 [1] [http://technotalk.tumblr.com/post/7438486874/linux-is-evolution-not-intelligent-design-linus-torvalds](http://technotalk.tumblr.com/post/7438486874/linux-is-evolution-not-intelligent-design-linus-torvalds)
 

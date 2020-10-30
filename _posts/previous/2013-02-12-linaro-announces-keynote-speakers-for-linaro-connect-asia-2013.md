@@ -1,20 +1,22 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2013-02-12 16:00:15
-description: Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and
+description:
+  Jonathan Corbet, LWN; Lars Kurth, Citrix; Jason Taylor, Facebook; and
   Greg Kroah-Hartman of the Linux Foundation are all set to give enthusiastic and
   motivating keynotes.
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
   Kong, Speakers, Announcement, Jonathan Corbet, Lars Kurth, Jason Taylor, Greg K-H,
   Greg Kroah-Hartman
 layout: post
 link: /blog/community-blog/linaro-announces-keynote-speakers-for-linaro-connect-asia-2013/
 slug: linaro-announces-keynote-speakers-for-linaro-connect-asia-2013
 tags:
-- Community
-- Connect Events
+  - Community
+  - Connect Events
 title: Linaro Announces Keynote Speakers for Linaro Connect Asia 2013
 wordpress_id: 2323
 ---
@@ -31,26 +33,19 @@ Memorable and awesome guest personalities such as Jonathan Corbet of LWN, Lars K
 
 There are many interesting [planning and discussion sessions](https://lca-13.zerista.com/event?event_order=start&event_page=1&owner=other&owner_id=426929) which center on the following tracks:
 
-  * Builds and Baselines
+- Builds and Baselines
 
+- Android
 
-  * Android
+- Graphics and Multimedia
 
+- Power Management
 
-  * Graphics and Multimedia
+- Training
 
+- Arm Enterprise Server
 
-  * Power Management
-
-
-  * Training
-
-
-  * Arm Enterprise Server
-
-
-  * Kernel
-
+- Kernel
 
 **Mini-Summit**
 
@@ -60,27 +55,19 @@ Also being held during this event is an Arm Enterprise Server Mini-Summit which 
 
 There will also be new demos added to the [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) at event as well.  These include:
 
+- DLNA Premium Video HTML5 RUI Demo
 
-  * DLNA Premium Video HTML5 RUI Demo
+- Samsung Galaxy Nexus on LAVA
 
+- Native toolchain on Android
 
-  * Samsung Galaxy Nexus on LAVA
+- Linaro NDK
 
+- GRUB on Arm (Uboot)
 
-  * Native toolchain on Android
+- ACPI
 
-
-  * Linaro NDK
-
-
-  * GRUB on Arm (Uboot)
-
-
-  * ACPI
-
-
-  * UEFI SCT
-
+- UEFI SCT
 
 If you will be at Connect and want to show off how you or your organization is using Linaro Code and Arm boards then consider presenting a full demo or a poster about your work during the Demo Friday event. More information on how you can participate can be found on the [Connect Website](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/).
 
@@ -98,7 +85,7 @@ _ [](/about/)_
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 
-__To find out more, please visit [Connect](https://connect.linaro.org)__
+**To find out more, please visit [Connect](https://connect.linaro.org)**
 
 **_Follow Linaro_**
 _ To find out more about what is happening in and around Linaro  following us on[ Twitter](https://twitter.com/LinaroOrg),[ Google+](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOnAir) and[ Facebook](https://www.facebook.com/LinaroOrg)._

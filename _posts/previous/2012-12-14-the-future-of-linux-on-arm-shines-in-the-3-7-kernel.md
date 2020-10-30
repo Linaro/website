@@ -13,15 +13,15 @@ tags:
   - Industry
 link: /blog/industry-blog/the-future-of-linux-on-arm-shines-in-the-3-7-kernel/
 categories:
-  - Blog
+  - blog
 description: The 3.7 Linux Kernel which was released earlier this week, includes
   many innovative new Arm focused features such as multi-platform, Armv8(64-bit)
   and Xen in Arm support.
-category: Blog
+categories:
+  - blog
 ---
 
 The [3.7 Linux Kernel](http://kernelnewbies.org/Linux_3.7) which [was released](https://lkml.org/lkml/2012/12/10/688) earlier this week, includes many innovative new Arm focused features such as multi-platform, Armv8(64-bit) and Xen in Arm support.
-
 
 ### Arm multi-platform support
 
@@ -35,9 +35,7 @@ Another fundamental ingredient which contributed to the Arm multi-platform inclu
 
 Bergmann describes the three global efforts in the Arm kernel this way, “Device Tree helps to consolidate code for boards within one SoC family and allows you to boot on future ones without kernel changes. Multi-platform helps to consolidate across SoC families. Moving platform code out into drivers supports the other two and allows to consolidate code across CPU architectures.”
 
-
 ### Armv8(64-bit) Support
-
 
 “The newest Arm CPU model, Arm v8, adds 64-bit memory addressing capabilities for first time for the Arm world. The new 64-bit CPUs can run 32 bits code, but the 64-bit instruction set is completely new, not just 64-bit extensions to the 32-bit instruction set, so the Linux support has been implemented as a completely new architecture,” as described on the [Kernel Newbies](http://kernelnewbies.org/Linux_3.7) wiki pages about the 3.7 release.
 
@@ -49,15 +47,11 @@ At Linaro, support for this newest architecture continued to grow and at LCE12 -
 
 Linaro also made early [Armv8 images](/engineering/) available to interested developers and provided links to the [Armv8 architecture introduction](https://developer.arm.com/architectures/cpu-architecture/a-profile) with includes a primer on the Armv8 architecture, the AArch64 execution state and the A64 instruction set. Linaro also points out that while there is no hardware available yet,  Arm and Linaro have developed support for AArch64/A64 against virtual platforms and have started sending the resulting patches to various open source projects.
 
-
 ### Virtualization features
-
 
 Additional references to Arm support in the 3.7 Linux Kernel include virtualization features as [support](http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=eff8d6447d5fac2995ffa5c1f0ea2da5bd7074c9) for Xen in Arm was also added.
 
-
 ### Excitement Builds
-
 
 Excitement continues to grow throughout the Linux and Arm development communities as articles about the inclusion of Arm support in the 3.7 Linux Kernel circulate.
 
@@ -71,34 +65,23 @@ Linaro engineers continue to collaborate with its members, partners, and the wid
 
 The latest release of the Linaro-Linux Kernel - 12.11 - is available on our [downloads page](/downloads/) and more information about the 12.11 baseline image available in [Launchpad](https://launchpad.net/linaro-linux-baseline/+milestone/12.11).
 
-
 ### **About**
 
 #### **Getting involved with The Linaro Kernel Team**
 
-
 _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern Arm SoCs._
 
+- _Linaro Kernel Tree Explained - [https://wiki-archive.linaro.org/WorkingGroups/Kernel/](https://wiki-archive.linaro.org/WorkingGroups/Kernel/)_
 
+- _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
+- _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-  * _Linaro Kernel Tree Explained - [https://wiki-archive.linaro.org/WorkingGroups/Kernel/](https://wiki-archive.linaro.org/WorkingGroups/Kernel/)_
-
-
-  * _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
-
-
-  * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
-
-
-  * _[Team Members](/about/)_
-
+- _[Team Members](/about/)_
 
 _More information about the Linaro Kernel Team can be found at: [https://wiki-archive.linaro.org/WorkingGroups/Kernel](https://wiki-archive.linaro.org/WorkingGroups/Kernel)_
 
-
 #### **Joining Linaro**
-
 
 _Linaro is a member-sponsored, not-for-profit engineering organization focused on consolidating and optimizing open source software for member hardware platforms based on the Arm architecture._
 

@@ -1,18 +1,20 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2013-05-09 02:29:46
-description: Amber Graner interviews David Rusling and Jon 'maddog' Hall. Find out
+description:
+  Amber Graner interviews David Rusling and Jon 'maddog' Hall. Find out
   how they met, who they've met, what advice they give, predictions they make and
   more.
-keywords: Amber Graner, David Rusling, Jon 'maddog' Hall, Linaro, Linux on Arm, Open
+keywords:
+  Amber Graner, David Rusling, Jon 'maddog' Hall, Linaro, Linux on Arm, Open
   Source, FOSS, Interviews, Mentors
 layout: post
 link: /blog/community-blog/its-all-maddogs-fault-proclaims-david-rusling-linaro-cto/
 slug: its-all-maddogs-fault-proclaims-david-rusling-linaro-cto
 tags:
-- Community
+  - Community
 title: '"It''s all maddog''s fault," proclaims David Rusling, Linaro CTO'
 wordpress_id: 2691
 ---
@@ -35,7 +37,6 @@ Project Cauã (www.projectcaua.org) is a project to help create millions of sust
 
 I make my living as an Industry consultant, mostly in Free and Open Source Software.  I am always looking for new business and things to do, so people who are willing to pay are welcome to send me email.  “Free as in Freedom, not as in beer”
 
-
 **[QUESTION] - _It's my understanding that you all worked together at Digital Equipment Corporation together?  If so, is it true that you all worked in the same office and on the same version of Unix?  Did you all know each other before working there?  What is one story from those days you both remember fondly that would help those who are getting stared in Technology?  What was the lessons you learned that you still remember and apply today?_**
 
 {% include image.html path="/assets/images/blog/page12_2.png"  class="medium-inline right" alt="Maddog up St Mary's church tower in Oxford, about an hour before he got the royal wave (Photo credit: David Rusling)" %}
@@ -44,7 +45,7 @@ I make my living as an Industry consultant, mostly in Free and Open Source Softw
 
 We both worked for Digital; but not even on the same continent. I worked in Reading, England, maddog in New England. The catalyst was that Digital decided to build the Alpha processor and sell it around the time that Linux was being created and maddog refused to let the second architecture that Linux ran on be anything other than an Alpha. I had never heard of maddog until I was told about Linux; I met him for the first time just before we went into a meeting with one of the Digital execs. The rest is history.
 
-As for Digital and Linux; all of us working on it were renegades. At that time Digital was focused on VMS, Digital Unix and Windows NT.  The Linux work was done with very little management buy in. The thing was that Digital was a great engineering company with some amazing people working for it and you could get away with having a bright idea and following it. maddog saw what was happening with Linux, believed that it would one day be big and infected the rest of us with his passion.
+As for Digital and Linux; all of us working on it were renegades. At that time Digital was focused on VMS, Digital Unix and Windows NT. The Linux work was done with very little management buy in. The thing was that Digital was a great engineering company with some amazing people working for it and you could get away with having a bright idea and following it. maddog saw what was happening with Linux, believed that it would one day be big and infected the rest of us with his passion.
 
 I was looking for something to own and Linux became that. It was technically very challenging, fast and fun. We did things in days or weeks when other teams would take that long to set up a meeting to discuss the possibility of doing something. I learnt so much, so quickly.
 
@@ -62,7 +63,7 @@ If anyone asks anything more of you than that, it is their problem, not yours.
 
 _**[QUESTION]**_ **- _How did each of you move to Linux? What was the first Linux distribution you can remember using (ok, I am sure you compiled it yourself and probably wrote some of it, too; did you?)? What year was this? What distribution do you currently use and if you are comfortable with answering, why do you use that distribution?_**
 
-**David:** It's all maddog's fault.  The first distribution I ran was Slackware on an old Digital 386 with 120 Mbytes of disk (yes, Mbytes). That was just before we got it running on Alpha systems. We first ran a Slackware like home brew (and yes, we did compile it ourselves, but only after we fixed the compiler). Red Hat were involved early on and we worked with them to create Alpha based distributions, so I ran Red Hat for years.  I got fed up with upgrading systems and moved to Debian for a while. These days I run Ubuntu, but I occasionally flirt with other distributions.  Ubuntu is flexible enough to let me I use whatever GUI I want, mostly just works and lets me experiment.
+**David:** It's all maddog's fault. The first distribution I ran was Slackware on an old Digital 386 with 120 Mbytes of disk (yes, Mbytes). That was just before we got it running on Alpha systems. We first ran a Slackware like home brew (and yes, we did compile it ourselves, but only after we fixed the compiler). Red Hat were involved early on and we worked with them to create Alpha based distributions, so I ran Red Hat for years. I got fed up with upgrading systems and moved to Debian for a while. These days I run Ubuntu, but I occasionally flirt with other distributions. Ubuntu is flexible enough to let me I use whatever GUI I want, mostly just works and lets me experiment.
 
 **maddog:** I had been using the equivalent of “Open Source” ever since college in 1969. I first started with software from DECUS, written by its members and contributed to their library. This software could be obtained for 5 USD per copy (15 USD if it was long) on paper tape. This charge was for handling and postal expenses, as the software itself was “free”. I would then buy new paper tape from the school store and punch off copies that I would sell to my roommates at 1 USD per copy to make back my money. This was both legal and encouraged by DECUS.
 
@@ -132,21 +133,21 @@ I had found David Mossbuger-Tang an Alpha system so he could do his work faster,
 
 One final project out of the port was the math library. Digital had done a huge amount of work on their math library for the Alpha, and while they were willing to have a binary object run on Alpha Linux, they were unwilling to ship the source code. I was being beaten up by the community, when I turned to them and said:
 
-* “If you are such hot-shot programmers, why don’t you write a better one?”
+- “If you are such hot-shot programmers, why don’t you write a better one?”
 
-* Silence for a week. Then an email:
+- Silence for a week. Then an email:
 
-* “sin(3) is 3% faster”
+- “sin(3) is 3% faster”
 
-* another two days:
+- another two days:
 
-* “cos(3) is 5% faster
+- “cos(3) is 5% faster
 
-* and so it went until the entire library was re-written, and faster than Digital’s Alpha math library.
+- and so it went until the entire library was re-written, and faster than Digital’s Alpha math library.
 
 Only one routine was never any faster...because “nobody” used it, and nobody cared...it was fast enough.
 
-* **[QUESTION]** **- _Now you all are smart guys, and have that "Chuck Norris" type technical knowledge combined with humble and like-able personalities, so how'd you get to be that way?_**
+- **[QUESTION]** **- _Now you all are smart guys, and have that "Chuck Norris" type technical knowledge combined with humble and like-able personalities, so how'd you get to be that way?_**
 
 **David:** maddog was my mentor and when I stop to consider a philosophical position involving open source, I still think 'what would maddog think?'.
 
@@ -154,9 +155,7 @@ I've been influenced by various great engineers over the time and what they all 
 
 I got some email the other day which disagreed with me. Someone one the CC list told me that people should not send emails like that to the CTO of a company. My response is that I'd have failed if that was true. The guy sending the email was right.
 
-
 **maddog:** Mom&Pop(TM) were a gigantic influence. The steady hand upon the tiller, the safe harbor in the stormy seas of life. Everyone liked them.
-
 
 My career was influenced by a lot of people, many of which will be mentioned here for the first time. Mr. Ralph Rigger, my woodshop teacher in middle school, Mr. William Roberts, my electronics teacher in high school. Philosophy came from my 10th and 11th grade English teacher, Mr. Koehler.
 
@@ -168,11 +167,11 @@ Bill was also the one who encouraged me to grow my beard, which I have not shave
 
 After my first co-op, and while finishing my correspondence course, a salesman from DEC gave me a couple of paperback books on how to program the PDP-8 computers in the physics labs back at Drexel, and by reading those books, and practicing, I learned how to program in assembler and machine language.
 
-* A professor of math and statistics at Drexel, Dr. Richard Haas, who was rumored to be the hardest teacher in the school. Because of him the class came together and focused as a group, helping each other. We later learned that his tough exterior was a way to get students to “meet the challenge”. Several went on to become statistics majors.
+- A professor of math and statistics at Drexel, Dr. Richard Haas, who was rumored to be the hardest teacher in the school. Because of him the class came together and focused as a group, helping each other. We later learned that his tough exterior was a way to get students to “meet the challenge”. Several went on to become statistics majors.
 
-* Another big influence was my first job at Aetna Life and Casualty, at that time the largest commercial user of IBM equipment in the “Free World”....a great place to work for a kid right out of college and who wanted to learn. I also made friends with a lot of the operators in the computer room downstairs and I had direct access to the mainframes.
+- Another big influence was my first job at Aetna Life and Casualty, at that time the largest commercial user of IBM equipment in the “Free World”....a great place to work for a kid right out of college and who wanted to learn. I also made friends with a lot of the operators in the computer room downstairs and I had direct access to the mainframes.
 
-* My students at Hartford State Technical College, where I taught full time were another influence, where I learned at least as much from them as they learned from me. I also learned that you do not really know something until you have to teach it to others.
+- My students at Hartford State Technical College, where I taught full time were another influence, where I learned at least as much from them as they learned from me. I also learned that you do not really know something until you have to teach it to others.
 
 Bell Labs. What can I say? Working with incredibly bright people. Bea Fink, my first female supervisor, and one of the best supervisors I ever had. I joined Bell at the North Andover facility, hired as their “senior systems administrator for Unix” and I had never touched a Unix system before. Through my background, the study of books and the help of two great mentors, Bob Wessling and Tom Merrick, I learned Unix quickly, to the point that one day Bob threw up his hands and said “That is it! I can not teach you anything more! You have surpassed me!”
 
@@ -190,9 +189,7 @@ Finally, most of the people I have met in FOSS. As in any group, there are some 
 
 Sorry, the story of my nickname has been told many times and in many places. I earned the name at a time when I did not have control of my temper. I keep using it to remind myself to never lose my temper again.
 
-
 **[QUESTION]** **- _It's my belief that anyone can become technical and if they really want to they can even become a developer, but there are other things about life in F/LOSS ecosystem that well quite honestly isn't taught in books. So, lets say I came to each of you asking for mentor-ship and were given the opportunity to have each of you all as a personal FOSS mentor; what would you want to make sure I knew? Why? What resources would you point me to in order to help me ensure I build a strong fundamental cornerstone of F/LOSS knowledge. (ok maybe I am hinting here, just a little, but can you blame me for trying - I mean you all are legends!)_**
-
 
 **David:** Find an itch to scratch. What problem do you want to help solve? Find a FOSS community that's doing work around there and have a look at what they're doing and see how you could contribute.  Try to fit in.  Be useful.  Be patient.
 
@@ -200,14 +197,9 @@ Most communities have pretty good 'how to join in' information.  I like LWN as 
 
 **maddog:** I disagree that “anyone can become technical”, as I have met too many people that despite their best efforts and my own best efforts, they failed.  But this does not mean that they can not contribute, as I believe each person can contribute in their own way.
 
-
 **David:** Good point. When I went to my first UDS, I was amazed at the range of involvement, including testing, documentation, art work and so on.  One of my old bosses in Arm used to say that if all you can do to help is make the tea, then make the tea.
 
-
-
-
 **maddog:** One of my many interests while growing up was beekeeping.  In a bee hive bees take on several different jobs throughout their lives, ending up (typically) as a “field bee”. One of the jobs might be making honeycomb.  No bee will build an entire cell, each deposits a little wax, pinches it to shape it a little, then moves on.  In the end is a perfect honeycomb.
-
 
 The essence of Free Software.
 
@@ -215,17 +207,11 @@ The essence of Free Software.
 
 **maddog:** Understanding the basic philosophies from a simple perspective is a good place to start:
 
+- I start with Free Software so I do not have to write the whole thing
 
+- I contribute to Free Software so I can work and learn from others
 
-
-  * I start with Free Software so I do not have to write the whole thing
-
-
-  * I contribute to Free Software so I can work and learn from others
-
-
-  * I do not take away the freedoms of others, as it breaks the chain
-
+- I do not take away the freedoms of others, as it breaks the chain
 
 It is as close to the proverbial “Golden Rule” as I think that technology can get.
 
@@ -239,9 +225,7 @@ This can be hard for companies (and individuals) to grok. It requires a paradigm
 
 Arm is a good example. Arm needs Linux to run well on systems that include its technology and yet the Arm partnership must keep systems under development secret until they’re released. That’s a difficult balancing act.
 
-
 **[QUESTION] _- David, I would ask you about starting on a Technical path and given that both you and I work at Linaro, I would narrow that to Arm what advice would you give me and others about getting started in this area?_**
-
 
 **David:** I like to fix things (or rather, I don’t like broken things) and I like to know how things work. What else would I be other than an engineer?  Most of the engineers that I know started by doing sciences at school / university.   A lot got into Linux as its free and they like to solve problems and tinker.  The issue, for me, is to create engineers that embrace open source. I mostly see that outside of the west, in Brazil, Africa and so on.
 
@@ -285,14 +269,9 @@ Notice that I would eliminate only software patents.  Other types of patents ar
 
 **maddog:** I am not a hero worshiper.  I do not follow the lives of “famous people”, or ask for autographs, or have my picture taken with someone famous.  Many times I will ask to have my photo taken with a young person who I think has potential because I want to remember them, not because they are “famous”.
 
-
 **David:** I have lost count of the number of pictures of maddog and friends that I see posted on Facebook.
 
-
-
-
 **maddog:** I have been truly lucky in my life to have met and spent time with some really great people.  Besides the ones I have mentioned before, I have met Rear Admiral Grace Murray Hopper, Maurice Wilkes, Douglas McIlroy, Dennis Ritchie, Ken Thompson, Linus...the list goes on and on.  But some of the most interesting are the ones “behind the scenes” that few people have ever heard of their contributions, and I have been fortunate enough to not only know them, but to be invited into their homes, be with their families and their lives.
-
 
 This is, for example, my relationship with Linus and his family.  When I do see them (not as often as I would like) we do not talk about Linux.  Instead we talk about mutual interests, and I talk with his wife Tove and his daughters.  I have met their families, who I like immensely, and we have taken sauna together.  Linus and his family went to a county fair with me one time, and to the boardwalk at Santa Cruz beach.
 
@@ -324,9 +303,7 @@ I would be very happy if at least “computer science” people understood about
 
 **[QUESTION]** **- _What do you see as the future of Linux?  What areas of this future are you most interested in?  Any predictions about what technology will be in say 1, 5 and 10 years?_**
 
-
 **maddog:** World Domination.  There are currently 1.5 billion desktops in the world, and 7.5 billion people, so 5 billion people have not selected their desktop yet.  These people typically do not speak one of the 50 major languages of the world, do not do business the same way that Western Europe or the USA does business, and represent groups that are too small (and too unprofitable) for closed source countries to address their issues.
-
 
 **David:** I don’t think that it will be a desktop (or what we now call a desktop). For most people, a mobile phone or a tablet together with the infinitely connected internet is the perfect tool.
 
@@ -340,9 +317,7 @@ The timeline of the future?  Sorry, too hard to call.  By now we should all be
 
 **David:**  In some ways, we’re there already. Just stop and be amazed.  Power and energy will dominate and something called the internet of things will actually make sense.
 
-
 **[QUESTION] _- Is there anything else you would like for readers/viewers to know in regards to your personal journeys in F/LOSS, the companies you work for, or pet projects you are currently working on?_**
-
 
 **David:** Being at Digital when alpha Linux was happening was a happy accident - I would advise people to grab opportunities and to always look for ways to develop, as an engineer and as a person.  My current project is looking at how to use Neon instructions in the kernel for cryptography.
 

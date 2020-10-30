@@ -1,11 +1,11 @@
 ---
 author: op-tee
 tags:
-- OP-TEE
+  - OP-TEE
 title: Security Session Highlights from HKG18
 date: 2018-05-24 12:00:00
 categories:
-- Blog
+  - blog
 image: /assets/images/blog/hkg18-banner.jpg
 layout: post
 ---
@@ -17,10 +17,9 @@ Here are a couple of security highlights from Linaro Connect HKG18 in March.
 
 Speaker: Etienne Carriere
 
-
 **HKG18-119 - Overview of integrating OP-TEE into HiKey620 AOSP**
 
-*Building a complete Chain of Trust upon existing industry standards using open-source firmware*
+_Building a complete Chain of Trust upon existing industry standards using open-source firmware_
 "A brief overview of the process of integrating OP-TEE into HiKey620 AOSP builds." [video/slides](http://connect.linaro.org/resource/hkg18/hkg18-119/)
 
 Speaker: Victor Chong

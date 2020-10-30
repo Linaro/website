@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- News
+  - news
 date: 2012-10-26 12:19:55
 description: SEOUL, KOREA AND CAMBRIDGE, UK - 26 OCT 2012
 layout: post

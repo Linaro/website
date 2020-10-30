@@ -7,10 +7,10 @@ slug: compiler-flags-used-to-speed-up-linaro-android-2011-10-and-future-optimiza
 title: Compiler flags used to speed up Linaro Android 2011.10, and future optimizations
 wordpress_id: 721
 categories:
-- Blog
+  - blog
 tags:
-- Android
-- Patch-Highlights
+  - Android
+  - Patch-Highlights
 ---
 
 People trying out the latest Linaro Android builds may notice they're faster than the older versions. One of the reasons for this is that we're using a new set of compiler flags for this build.

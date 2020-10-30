@@ -1,16 +1,17 @@
 ---
 author: david.rusling
 categories:
-- Blog
+  - blog
 date: 2012-11-08 14:18:33
 description: Why Linaro's culture of openness is key to its success.
-keywords: Linux on Arm, Open Source, open, Linux, kernel, Linaro, Connect, LEG, Linaro
+keywords:
+  Linux on Arm, Open Source, open, Linux, kernel, Linaro, Connect, LEG, Linaro
   Enterprise Group
 layout: post
 link: /blog/industry-blog/why-openness-is-not-optional/
 slug: why-openness-is-not-optional
 tags:
-- Industry
+  - Industry
 title: Why Openness is Not Optional
 wordpress_id: 1981
 ---

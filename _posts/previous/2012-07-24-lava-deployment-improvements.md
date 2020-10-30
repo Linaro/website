@@ -1,9 +1,10 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-07-24 16:54:35
-description: This article goes over the latest improvements to the LAVA deployment
+description:
+  This article goes over the latest improvements to the LAVA deployment
   process
 keywords: LAVA lava-deployment-tool buildout
 layout: post
@@ -17,9 +18,9 @@ Last month the LAVA team made a big update to the way their [deployment tool](ht
 
 The deployment configuration to be used is now managed in the [LAVA manifests](https://validation.linaro.org) project. This project has two main configurations:
 
-  * **buildout.cfg** - This uses the latest versions of LAVA components in pypi while requiring the use of a fixed versioned list of dependencies for LAVA.
+- **buildout.cfg** - This uses the latest versions of LAVA components in pypi while requiring the use of a fixed versioned list of dependencies for LAVA.
 
-  * **buildout-production.cfg** - This extends buildout.cfg and versions the LAVA components themselves to what we have deployed in our production instance of LAVA.
+- **buildout-production.cfg** - This extends buildout.cfg and versions the LAVA components themselves to what we have deployed in our production instance of LAVA.
 
 Additionally, we put tags in the lava-manifests branch so users can see exactly what we deployed for each monthly cycle.
 
@@ -46,7 +47,6 @@ You can also pick your config file from the branch with:
 
 ### Development Improvements
 
-
 The new mechanism we've choosen also allows makes it a little nicer for doing local development. Under a LAVA instance you'll now have a directory like:
 
      /srv/lava/instances/<instance>/code/current/local
@@ -60,9 +60,6 @@ You can pull in components you'd like to work against into that directory. For i
 
 **NOTE:** Directory names don't matter under code/current/local. buildout finds out the package information by looking at its setup.py. So you could rename the above directory to "lava-dispatcher-devcopy" and re-reun the "buildout" command.
 
-
-
 ### More Information
-
 
 Take a look at the latest version of our [deployment tool README](https://validation.linaro.org) for further options with deployments.

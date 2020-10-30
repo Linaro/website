@@ -1,23 +1,26 @@
 ---
 author: yongqin.liu
 categories:
-- Blog
+  - blog
 date: 2013-02-05 02:53:36
-description: With the kernel update tools provided by the Linaro Android team, users
+description:
+  With the kernel update tools provided by the Linaro Android team, users
   and developers can now update the kernel related files easily by using a few simple
   commands.
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm,Android, Kernel, Updates,
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm,Android, Kernel, Updates,
   Tools
 layout: post
 link: /blog/android-blog/update-android-kernel-tools/
 slug: update-android-kernel-tools
 tags:
-- Android
-- android
-- kernel
-- Linaro
-- tools
-title: An Easy Way to Update Android Kernel Related Files Without Getting the sdcard
+  - Android
+  - android
+  - kernel
+  - Linaro
+  - tools
+title:
+  An Easy Way to Update Android Kernel Related Files Without Getting the sdcard
   Out
 wordpress_id: 2231
 ---
@@ -51,17 +54,13 @@ _**About the Linaro Android Team**_
 
 _The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki-archive.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
 
-  * _[Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*_
+- _[Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net\*_
 
+- _Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-  * _Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
+- _IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net_
 
-
-  * _IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net_
-
-
-  * _[Team Members](/about/)_
-
+- _[Team Members](/about/)_
 
 _More information about the Linaro Android Team can be found at: [https://wiki-archive.linaro.org/Platform/Android](https://wiki-archive.linaro.org/Platform/Android)_
 
@@ -69,16 +68,12 @@ _**About the Linaro Kernel Team**_
 
 _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern Arm SoCs._
 
-  * _[Meeting](https://wiki-archive.linaro.org/WorkingGroups/Kernel): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net*_
+- _[Meeting](https://wiki-archive.linaro.org/WorkingGroups/Kernel): Bi-Weekly on Monday at 1600 UTC in #linaro-kernel on irc.freenode.net\*_
 
+- _Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-  * _Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
+- _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-
-  * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
-
-
-  * _[Team Members](/about/)_
-
+- _[Team Members](/about/)_
 
 _More information about the Linaro Kernel Team can be found at: [https://wiki-archive.linaro.org/WorkingGroups/Kernel](https://wiki-archive.linaro.org/WorkingGroups/Kernel)_

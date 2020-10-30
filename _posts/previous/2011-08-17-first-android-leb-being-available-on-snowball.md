@@ -1,14 +1,14 @@
 ---
 author: andrea.gallo
 categories:
-- Blog
+  - blog
 date: 2011-08-17 14:33:52
 keywords: LEB, Android, ST-Ericsson, Snowball
 layout: post
 link: /blog/lava-blog/first-android-leb-being-available-on-snowball/
 slug: first-android-leb-being-available-on-snowball
 tags:
-- LAVA
+  - LAVA
 title: First Android LEB available on Snowball
 ---
 

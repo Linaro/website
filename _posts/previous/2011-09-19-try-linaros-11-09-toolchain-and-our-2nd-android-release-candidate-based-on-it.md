@@ -1,20 +1,22 @@
 ---
 author: zach.pfeffer
 categories:
-- Blog
+  - blog
 date: 2011-09-19 05:24:34
-description: Android builds for 6 boards supported by Linaro, built with the official
+description:
+  Android builds for 6 boards supported by Linaro, built with the official
   11.09 of the Linaro 4.6 toolchain.
 keywords: linaro,android,toolchain
 layout: post
 link: /blog/releases-blog/try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it/
 slug: try-linaros-11-09-toolchain-and-our-2nd-android-release-candidate-based-on-it
 tags:
-- android
-- Releases
-- Linaro
-- toolchain
-title: Try Linaro's 11.09 Toolchain and our 2nd Android Release Candidate Based on
+  - android
+  - Releases
+  - Linaro
+  - toolchain
+title:
+  Try Linaro's 11.09 Toolchain and our 2nd Android Release Candidate Based on
   It
 wordpress_id: 530
 ---
@@ -26,7 +28,6 @@ This is the second 11.09 Android release candidate. Each build has been built wi
 We track the tip toolchain which allowed us to release an update nearly co-incident with the toolchain group's official 11.09 release.
 
 ### Builds:
-
 
 [https://android-build.linaro.org/builds/~linaro-android/beagle-11.09-release/#build=3]() (Beagle, Beagle xM)
 [https://android-build.linaro.org/builds/~linaro-android/stage-imx53-11.09-release/#build=3]()

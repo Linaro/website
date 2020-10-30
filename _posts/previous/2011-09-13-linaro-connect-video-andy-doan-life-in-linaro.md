@@ -1,18 +1,19 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2011-09-13 15:02:44
-description: Video from Linaro Connect - Andy Doan's Life in Linaro presentation.
+description:
+  Video from Linaro Connect - Andy Doan's Life in Linaro presentation.
   Everything a new Linaro engineer or contributor needs to know to get started.
 layout: post
 link: /blog/community-blog/linaro-connect-video-andy-doan-life-in-linaro/
 slug: linaro-connect-video-andy-doan-life-in-linaro
 tags:
-- Community
-- Linaro Connect
-- technical resources
-- video
+  - Community
+  - Linaro Connect
+  - technical resources
+  - video
 title: Linaro Connect video - Andy Doan, Life in Linaro
 wordpress_id: 4128
 ---
@@ -23,26 +24,19 @@ Andy Doan, from the Linaro Engineering resources team, shares useful technical r
 
 Here is a summary of covered topics:
 
-  * Understand Linaro, its development process, its resources
+- Understand Linaro, its development process, its resources
 
+- Linaro technical resources
 
-  * Linaro technical resources
+- Get the best out of a Linaro Connect event
 
+- Get the best out of IRC, xchat configuration tips
 
-  * Get the best out of a Linaro Connect event
+- How Linaro engineers talk
 
+- Linaro git trees, git and bzr tips
 
-  * Get the best out of IRC, xchat configuration tips
-
-
-  * How Linaro engineers talk
-
-
-  * Linaro git trees, git and bzr tips
-
-
-  * Linaro bootloaders, kernel (and how to rebuild), hardware packs
-
+- Linaro bootloaders, kernel (and how to rebuild), hardware packs
 
 Make sure you watch this video if you wish to participate to the next [Linaro Connect](https://connect.linaro.org/) event. You will find more engineering resources on the [Linaro Engineering Resources](https://wiki-archive.linaro.org/Resources) wiki page.
 

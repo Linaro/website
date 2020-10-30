@@ -1,11 +1,13 @@
 ---
 author: george.grey
 categories:
-- Blog
+  - blog
 date: 2012-01-10 20:08:30
-description: Linaro CEO report on the activities within Linaro and with their partners.
+description:
+  Linaro CEO report on the activities within Linaro and with their partners.
   Overview of the 2011 accomplishments.
-keywords: Linaro, linux kernel, Arm Linux, Linux, tools, kernel, linux on Arm, open
+keywords:
+  Linaro, linux kernel, Arm Linux, Linux, tools, kernel, linux on Arm, open
   source, software, distribution, philosophy, Arm, kernel linux, linux software, Arm
   Cortex-A9, Cortex, Android, Ubuntu
 layout: post

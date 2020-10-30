@@ -1,47 +1,45 @@
 ---
 author: christoffer.dall
 categories:
-- Blog
+  - blog
 date: 2016-06-16 18:37:46
-description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
+description:
+  While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic
   subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
   on Arm server systems.
-excerpt: 'The first study of Arm virtualization performance on server hardware, including
+excerpt:
+  "The first study of Arm virtualization performance on server hardware, including
   multi-core measurements of two popular Arm and x86 hypervisors, KVM and Xen. We
   show how Arm hardware support for virtualization can enable much faster transitions
-  between VMs and the hypervisor, a key hypervisor operation. '
+  between VMs and the hypervisor, a key hypervisor operation. "
 layout: post
 link: /blog/core-dump/on-the-performance-of-arm-virtualization/
 slug: on-the-performance-of-arm-virtualization
 tags:
-- Core Dump
-- arm
-- Arm servers
-- KVM
-- Linux
-- Linux on Arm
-- PCIe
-- virtualization
-- VM
-- x86 hypervisors
-- Xen
+  - Core Dump
+  - arm
+  - Arm servers
+  - KVM
+  - Linux
+  - Linux on Arm
+  - PCIe
+  - virtualization
+  - VM
+  - x86 hypervisors
+  - Xen
 title: On the Performance of Arm Virtualization
 wordpress_id: 10716
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
-
 # Abstract
-
 
 Arm servers are becoming increasingly common, making server technologies such as virtualization for Arm of growing importance. We present the first study(1) of Arm virtualization performance on server hardware, including multi- core measurements of two popular Arm and x86 hypervisors, KVM and Xen. We show how Arm hardware support for virtualization can enable much faster transitions between VMs and the hypervisor, a key hypervisor operation. However, current hypervisor designs, including both Type 1 hypervisors such as Xen and Type 2 hypervisors such as KVM, are not able to fully leverage this performance benefit for real application workloads. We discuss the reasons why and show that other factors related to hypervisor software design and implementation have a larger role in overall performance. Based on our measurements, we discuss changes to Arm’s hardware virtualization support that can potentially bridge the gap to bring its faster VM-to-hypervisor transition mechanism to modern Type 2 hypervisors running real applications. These changes have been incorporated into the latest Arm architecture.
 
-
 # Introduction
-
 
 Despite the importance of Arm virtualization, little is known in practice regarding how well virtualized systems perform using Arm. There are no detailed studies of Arm virtualization performance on server hardware. Although KVM and Xen both have Arm and x86 virtualization solutions, there are substantial differences between their Arm and x86 approaches because of key architectural differences between the underlying Arm and x86 hardware virtualization mechanisms. It is unclear whether these differences have a material impact, positive or negative, on performance. The lack of clear performance data limits the ability of hardware and software architects to build efficient Arm virtualization solutions, and limits the ability of companies to evaluate how best to deploy Arm virtualization solutions to meet their infrastructure needs. The increasing demand for Arm-based solutions and growing investments in Arm server infrastructure makes this problem one of key importance.
 
@@ -49,9 +47,7 @@ Linaro, in collaboration with Columbia University, present the first in-depth st
 
 The detailed results of this study are to appear in the 43rd International Symposium on Computer Architecture (ISCA), a first-tier academic conference for computer architecture.
 
-
 # Background
-
 
 {% include image.html path="/assets/images/blog/Hypervisor-designs.jpg" alt="Hypervisor designs" %}
 
@@ -61,9 +57,7 @@ One advantage of Type 2 hypervisors over Type 1 hypervisors is the reuse of exis
 
 Transitions from a VM to the hypervisor occur whenever the hypervisor exercises system control, such as processing interrupts or I/O. The hypervisor transitions back to the VM once it has completed its work managing the hardware, letting workloads in VMs continue executing. The cost of such transitions is pure overhead and can add significant latency in communication between the hypervisor and the VM. A primary goal in designing both hypervisor software and hardware support for virtualization is to reduce the frequency and cost of transitions as much as possible.
 
-
 # Experimental Design
-
 
 To evaluate the performance of Arm virtualization, we ran both microbenchmarks and real application workloads on the most popular hypervisors on Arm server hardware. As a baseline for comparison, we also conducted the same experiments with corresponding x86 hypervisors and server hardware. We leveraged University of Utah’s CloudLab installation of hundreds of Arm 64-bit HP Moonshot m400 nodes and a plethora of x86 servers for our measurements. We compared Arm measurements with Intel Xeon 2.1 GHz ES-2450 CPUs in similar configurations of RAM, disk, network, and more. All network measurements were done with 10G isolated Mellanox networking equipment.
 
@@ -74,12 +68,10 @@ machines. A few patches were applied to support the various hardware configurat
 
 We designed a custom Linux kernel driver, which ran in the VM under KVM and Xen, on Arm and x86, and executed the microbenchmarks in the same way across all platforms. Using this framework, we ran seven microbenchmarks that measure various low-level aspects of hypervisor performance.
 
-
 # Results
 
-
 **KVM Arm Hypercall cost:** **6,500 cycles**
-**Xen Arm Hypercall cost:**    **376 cycles**
+**Xen Arm Hypercall cost:**   **376 cycles**
 
 As an example of our microbenchmarks, we measured the cost of a no-op hypercall, measuring a transition from the VM to the hypervisor and a return to the VM without doing any work in the hypervisor; in other words the bidirectional base transition cost of hypervisor operations. The Hypercall microbenchmark shows that transitioning from a VM to the hypervisor on Arm can be significantly faster than x86, as shown by the Xen Arm measurement, which takes less than a third of the cycles that Xen or KVM on x86 take.
 
@@ -89,16 +81,13 @@ We also ran a number of real application benchmark workloads to quantify how wel
 
 {% include image.html path="/assets/images/blog/Benchmark-performance.jpg" alt="Benchmark performance" %}
 
-
 Again, for an in-depth discussion of these results we refer you to the published paper, but we provide two examples here: First, the low hypercall performance of Xen vs. KVM on Arm, really only shows up in an isolated fashion in the hackbench results. The reason is that hackbench heavily utilizes the Linux scheduler, which results in a high amount of rescheduling virtual IPIs, and Xen Arm benefits from its low VM-to-hypervisor transition time for handling virtual IPIs.
 
-Second, consider the latency-sensitive network benchmark TCP_RR. This benchmark sends a single byte back and forward between a client and the server running in the VM, and shows high overhead on all platforms. To understand where this overhead is spent, we used _tcpdump_ to capture timestamps at various locations in the full software stack. These results showed us that the majority of the overhead spent on the incoming network path was between the physical machine running the VMs receiving a network packet and until the VM sees the packet, but only a relatively small part of this time was spent actually transitioning between the VM and the hypervisor. Instead, most time was spent in the networking layers of the host Linux OS for KVM, and in the Dom0 Linux OS for Xen. The same was true for the outgoing network path. The fundamental reason for Xen being slower than KVM in this case is due to Xen’s I/O model, which uses a special VM, Dom0, to handle physical network packets. Xen must perform expensive scheduling operations of the application VM and Dom0 and expensive mapping and unmapping operations to set up shared data mappings between the application VM and Dom0.
+Second, consider the latency-sensitive network benchmark TCP*RR. This benchmark sends a single byte back and forward between a client and the server running in the VM, and shows high overhead on all platforms. To understand where this overhead is spent, we used \_tcpdump* to capture timestamps at various locations in the full software stack. These results showed us that the majority of the overhead spent on the incoming network path was between the physical machine running the VMs receiving a network packet and until the VM sees the packet, but only a relatively small part of this time was spent actually transitioning between the VM and the hypervisor. Instead, most time was spent in the networking layers of the host Linux OS for KVM, and in the Dom0 Linux OS for Xen. The same was true for the outgoing network path. The fundamental reason for Xen being slower than KVM in this case is due to Xen’s I/O model, which uses a special VM, Dom0, to handle physical network packets. Xen must perform expensive scheduling operations of the application VM and Dom0 and expensive mapping and unmapping operations to set up shared data mappings between the application VM and Dom0.
 
 These results are surprising given a typical focus on low-level hypervisor operations performance; instead, the hypervisor design and I/O model turns out to have a significant impact on real application performance.
 
-
 # Conclusions
-
 
 Arm hypervisors do not necessarily benefit from a  fast transition cost between the VM and the hypervisor, because hypervisor software requires more complex interactions than simply switching between execution contexts to support common macro operations like supporting I/O. Surprisingly, KVM Arm actually exceeds the performance of Xen Arm for most real application workloads involving I/O. This is due to differences in hypervisor software design and implementation that play a larger role than how the hardware supports low-level hypervisor operations.
 

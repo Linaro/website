@@ -7,7 +7,7 @@ slug: genesi-donates-55-arm-netbooks-to-linaro-developers
 title: Genesi donates 55 Arm netbooks to Linaro developers
 wordpress_id: 3374
 categories:
-- Blog
+  - blog
 tags:
 - Hardware
 - arm

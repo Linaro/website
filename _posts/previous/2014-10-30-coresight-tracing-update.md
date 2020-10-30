@@ -1,13 +1,15 @@
 ---
 author: mathieu.poirier
 categories:
-- Blog
+  - blog
 comments: true
 date: 2014-10-30 14:33:00
-description: "A lot of exciting things have happened in the world of Arm\xC2\xAE Coresight\xE2\x84\xA2
+description:
+  "A lot of exciting things have happened in the world of Arm\xC2\xAE Coresight\xE2\x84\xA2
   since our first blog post a few months ago. Good progress was achieved on several
   fronts"
-excerpt: "A lot of exciting things have happened in the world of Arm\xAE Coresight\u2122
+excerpt:
+  "A lot of exciting things have happened in the world of Arm\xAE Coresight\u2122
   since our first blog post a few months ago. Good progress was achieved on several
   fronts and we thought an update was in order to keep readers informed on the latest
   developments."
@@ -15,11 +17,11 @@ layout: post
 link: /blog/core-dump/coresight-tracing-update/
 slug: coresight-tracing-update
 tags:
-- Core Dump
-- arm
-- CoreSight
-- kernel
-title: 'Coresight: Tracing the Update'
+  - Core Dump
+  - arm
+  - CoreSight
+  - kernel
+title: "Coresight: Tracing the Update"
 wordpress_id: 7171
 ---
 

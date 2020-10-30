@@ -17,9 +17,10 @@ video_thumbnail: None
 wordpress_id: 5592
 youtube_video_url: None
 categories:
-- Blog
+  - blog
 permalink: /blog/:title/
 ---
+
 **Session Name:**
 
 LMG Lightning Talks – BUD17-106
@@ -42,9 +43,7 @@ Short updates on various LMG initiatives, including boottime reduction, Android 
 **Session ID:** BUD17-106
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-106/](https://connect.linaro.org/resources/bud17/bud17-106/)
 
-
-*********
-
+---
 
 **Session Name:** Status of Android “AOSP” TV – BUD17-118
 
@@ -56,10 +55,7 @@ LHG has recently launched an AOSP TV lead project which is focused on specific T
 **Session ID:** BUD17-118
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-118/](https://connect.linaro.org/resources/bud17/bud17-118/)
 
-
-
-*********
-
+---
 
 **Session Name:** AOSP Toolchains – BUD17-202
 
@@ -79,10 +75,7 @@ LMG team, in collaboration with Toolchains team, has worked on multiple areas re
 **Session ID:** BUD17-202
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-202/](https://connect.linaro.org/resources/bud17/bud17-202/)
 
-
-
-*********
-
+---
 
 **Session Name:** Future of Android Automated Testing – BUD17-206
 
@@ -101,10 +94,7 @@ This session will talk about efforts around increasing Android testing – frequ
 **Session ID:** BUD17-206
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-206/](https://connect.linaro.org/resources/bud17/bud17-206/)
 
-
-
-*********
-
+---
 
 **Session Name:** Energy Awareness: The Next Step – BUD17-222
 
@@ -116,10 +106,7 @@ This will be a forward thinking session where, in the age of ML/AI/VR/AR, we sha
 **Session ID:** BUD17-222
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-222/](https://connect.linaro.org/resources/bud17/bud17-222/)
 
-
-
-*********
-
+---
 
 **Session Name:** AOSP BoF – BUD17-414
 

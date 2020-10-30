@@ -1,24 +1,26 @@
 ---
 author: khasim.mohammed
 categories:
-- Blog
+  - blog
 date: 2014-09-08 13:00:53
-description: Multiple engineering teams at Arm and Linaro have worked together to
+description:
+  Multiple engineering teams at Arm and Linaro have worked together to
   provide this feature rich, pre-integrated build of Android for the Juno Arm Development
   Platform (ADP)
-excerpt: The latest Linaro 14.08 AOSP software build provides developers a unique
+excerpt:
+  The latest Linaro 14.08 AOSP software build provides developers a unique
   pre-integrated Android software distribution that enables them to more easily conduct
   64-bit development for Android on Armv8-A based SOCs & platforms.
 layout: post
 link: /blog/android-blog/android-development-made-easy-64-bit-armv8-platforms/
 slug: android-development-made-easy-64-bit-armv8-platforms
 tags:
-- Android
-- 64-bit
-- android
-- AOSP
-- Armv8
-- Development
+  - Android
+  - 64-bit
+  - android
+  - AOSP
+  - Armv8
+  - Development
 title: Android development made easy for 64-bit Armv8 platforms
 wordpress_id: 6569
 ---
@@ -28,7 +30,6 @@ The latest Linaro 14.08 AOSP software build provides developers a unique pre-int
 Multiple engineering teams at Arm and Linaro have worked together to provide this feature rich, pre-integrated build of Android for the Juno Arm Development Platform (ADP). The release includes the latest Android from the AOSP master with kernel based on Linaro Linux LSK 3.10, pre-integrated with Arm Mali, accelerated OpenGL (3D Graphics) drivers, Arm Trusted Firmware and the UEFI EDK II boot loader. All components are built with Linaro GCC version 4.9. The release works for both the Armv8-A Juno hardware platform and Arm Fast Models.
 
 The following video from Arm helps developers easily understand the Android development and booting procedure using Linaro Android release for Armv8 based Juno platforms:
-
 
 {% include media.html media_url="https://www.youtube.com/watch?v=ojg4eZ-l3Po" %}
 
@@ -48,44 +49,30 @@ The release includes Armv8 optimizations for Android of OpenSSL, LibPNG and BION
 
 **by Khasim Syed Mohammed, Tech Lead - Android, Linaro Mobile Group.**
 
-**A lot More @ ****[2014 Linaro Connect USA](https://connect.linaro.org/lcu14/)**
+**A lot More @ \*\***[2014 Linaro Connect USA](https://connect.linaro.org/lcu14/)\*\*
 
 Don’t miss this opportunity to meet Arm and Linaro engineers developing and integrating 64bit Armv8 features in Android AOSP. Following are few very important and key technical sessions for on Armv8 Android developers
 
+- [LCU14-100:](https://lcu14.zerista.com/event/member/137702) Dalvik is Dead, Long Live Dalvik !
 
+- [LCU14-104: ](https://lcu14.zerista.com/event/member/137707)Everything’s Done! Android for 64-bit Armv8, What’s next?
 
+- [LCU14-108:](https://lcu14.zerista.com/event/member/137711) Panel: Faster, Better and more Open AOSP Support
 
-  * [LCU14-100:](https://lcu14.zerista.com/event/member/137702) Dalvik is Dead, Long Live Dalvik !
+- [LCU14-309:](https://lcu14.zerista.com/event/member/137756) Introducing Android NDK for 64bit Armv8 SOCs
 
+- [LCU14-403: ](https://lcu14.zerista.com/event/member/137770)LMG Lightning Talks
 
-  * [LCU14-104: ](https://lcu14.zerista.com/event/member/137707)Everything’s Done! Android for 64-bit Armv8, What’s next?
+- [LCU14-407:](https://lcu14.zerista.com/event/member/137775) How to enable SELinux for Android on AOSP master for Armv8
 
+- [LCU14-411:](http://lcu14.zerista.com/event/member/137779) From zero to booting Nano-Android with 64bit support
 
-  * [LCU14-108:](https://lcu14.zerista.com/event/member/137711) Panel: Faster, Better and more Open AOSP Support
+- [LCU14-502:](https://lcu14.zerista.com/event/member/137789) Android User-Space Tests: Multimedia codec tests, Status
 
+- and Open Discussions
 
-  * [LCU14-309:](https://lcu14.zerista.com/event/member/137756) Introducing Android NDK for 64bit Armv8 SOCs
+- [LCU14-504:](https://lcu14.zerista.com/event/member/137791) Taming Armv8 NEON: from theory to benchmark results
 
-
-  * [LCU14-403: ](https://lcu14.zerista.com/event/member/137770)LMG Lightning Talks
-
-
-  * [LCU14-407:](https://lcu14.zerista.com/event/member/137775) How to enable SELinux for Android on AOSP master for Armv8
-
-
-  * [LCU14-411:](http://lcu14.zerista.com/event/member/137779) From zero to booting Nano-Android with 64bit support
-
-
-  * [LCU14-502:](https://lcu14.zerista.com/event/member/137789) Android User-Space Tests: Multimedia codec tests, Status
-
-
-  * and Open Discussions
-
-
-  * [LCU14-504:](https://lcu14.zerista.com/event/member/137791) Taming Armv8 NEON: from theory to benchmark results
-
-
-  * [LCU14-106: QEMU for Armv8 and the 64-bit Android Emulator](https://lcu14.zerista.com/event/member/137709)
-
+- [LCU14-106: QEMU for Armv8 and the 64-bit Android Emulator](https://lcu14.zerista.com/event/member/137709)
 
 You can also [remove participate](https://connect.linaro.org/lcu14/) Linaro Connect USA

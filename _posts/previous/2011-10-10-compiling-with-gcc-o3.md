@@ -1,16 +1,17 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2011-10-10 22:18:34
-description: Discussion of Linaro toolchain working group focus, and the enablement
+description:
+  Discussion of Linaro toolchain working group focus, and the enablement
   of -O3 flag
 keywords: Linaro, Arm, Linux on Arm, Arm Linux, gcc-o3, Arm SOCs, Linux, Kernel
 layout: post
 link: /blog/community-blog/compiling-with-gcc-o3/
 slug: compiling-with-gcc-o3
 tags:
-- Community
+  - Community
 title: Compiling with gcc -O3
 wordpress_id: 598
 ---
@@ -21,14 +22,11 @@ The compiler theme for next quarter is enabling the -O3 flag. GCC has a range of
 
 Some of the advantages of gcc -O3 are:
 
-  * It enables existing features, giving a significant speed up for little development
+- It enables existing features, giving a significant speed up for little development
 
+- It turns on the vectorizer and NEON unit by default, giving improvements across a variety of workloads
 
-  * It turns on the vectorizer and NEON unit by default, giving improvements across a variety of workloads
-
-
-  * It activates new features in areas that we've more recently been working on
-
+- It activates new features in areas that we've more recently been working on
 
 Two such areas the Toolchain WG has been focusing on are the vectorizer and Swing Modulo Scheduling (SMS). The GCC vectoriser recognises code that has data parallellism, re-writes it to perform the same operation on many values at once, and then transforms it into the equivalent NEON instructions. The best cases are where the code transforms eight independent single-byte operations into one, eight-byte wide operation, which has been seen to make hot loops up to 550% faster!
 
@@ -36,33 +34,23 @@ Swing Modulo Scheduling (SMS) recognises loops containing instructions with high
 
 SMS currently needs to be explicitly turned on. We plan to justify turning it on at -O3 and preferably at -O2 as well. Overall, -O3 work has been broken down into three phases: initial investigation, improvements, and documenting. The relevant areas of work are:
 
+- Decide on suite of benchmarks and packages to test against
 
-  * Decide on suite of benchmarks and packages to test against
+- Benchmark the size and speed change
 
+- Fix any correctness regressions found through the suite
 
-  * Benchmark the size and speed change
+- Fix any speed regressions such that 90 % of the workload is faster at -O3
 
+- If needed, fix any significant size regressions
 
-  * Fix any correctness regressions found through the suite
+- Document the change in size both on disk and in memory
 
+- Document when to use -Ofast
 
-  * Fix any speed regressions such that 90 % of the workload is faster at -O3
+- Enable -O3 on one or more LEBs such as Android
 
-
-  * If needed, fix any significant size regressions
-
-
-  * Document the change in size both on disk and in memory
-
-
-  * Document when to use -Ofast
-
-
-  * Enable -O3 on one or more LEBs such as Android
-
-
-  * Document the gains and publish a white paper on why you should use -O3
-
+- Document the gains and publish a white paper on why you should use -O3
 
 The documentation should have enough information on the gains to be had and the impact, for a distribution to make an informed decision. Possible concerns are the speed boost, any speed regressions, change in size, and correctness. In particular, size is interesting as there are many levels to it; building at -O3 generally increases the size of the code, but usually has a lesser effect on the size in RAM, on-disk, and the overall size of a distribution: each step mixes in overhead such as as constant data, resources, and documentation.  Android is a useful test as, being completely cross-built, it's straightforward to enable the feature, run the existing test plans, and measure the changes.
 

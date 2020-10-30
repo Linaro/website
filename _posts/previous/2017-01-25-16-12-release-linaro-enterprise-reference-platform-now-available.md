@@ -7,7 +7,7 @@ slug: 16-12-release-linaro-enterprise-reference-platform-now-available
 title: 16.12 release for Linaro Enterprise Reference Platform is now available
 wordpress_id: 12081
 categories:
-- Blog
+  - blog
 ---
 
 The Linaro Enterprise Group (LEG) is pleased to announce the 16.12 release for the Linaro Enterprise Reference Platform. Click [here](http://releases.linaro.org/reference-platform/enterprise/16.12/?utm_source=platforms.linaro&utm_medium=submenu) to download the release.

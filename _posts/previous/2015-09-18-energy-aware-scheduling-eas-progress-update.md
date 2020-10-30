@@ -1,22 +1,24 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2015-09-18 19:01:52
-description: Arm and Linaro are jointly developing Energy Aware Scheduling, a technique
+description:
+  Arm and Linaro are jointly developing Energy Aware Scheduling, a technique
   that improves power management on Linux by making it more central and easier to
   tune. See the latest update.
-excerpt: Arm and Linaro are jointly developing Energy Aware Scheduling, a technique
+excerpt:
+  Arm and Linaro are jointly developing Energy Aware Scheduling, a technique
   that improves power management on Linux by making it more central and easier to
   tune. See the latest update.
 layout: post
 link: /blog/core-dump/energy-aware-scheduling-eas-progress-update/
 slug: energy-aware-scheduling-eas-progress-update
 tags:
-- Core Dump
-- arm
-- Linux
-- Linux on Arm
+  - Core Dump
+  - arm
+  - Linux
+  - Linux on Arm
 title: Energy Aware Scheduling (EAS) progress update
 wordpress_id: 9319
 ---
@@ -33,16 +35,16 @@ The Energy Aware Scheduling project consists of a number of component tasks:
 
 The goal is to introduce generic energy-awareness in upstream Linux:
 
-  1. Using a clean, generic design to support a broad range of CPU topologies.
-  2. Based on scientific, measured energy model data rather than magic tunables.
-  3. Providing a high-quality baseline solution that can be used as-is, or extended as needed.
-  4. Designed-for-mainline => reducing software maintenance costs.
+1. Using a clean, generic design to support a broad range of CPU topologies.
+2. Based on scientific, measured energy model data rather than magic tunables.
+3. Providing a high-quality baseline solution that can be used as-is, or extended as needed.
+4. Designed-for-mainline => reducing software maintenance costs.
 
 EAS will unify 3 separate frameworks in the Linux kernel that are currently only loosely connected:
 
-  * Linux scheduler (Completely Fair Scheduler - CFS)
-  * Linux cpuidle
-  * Linux cpufreq
+- Linux scheduler (Completely Fair Scheduler - CFS)
+- Linux cpuidle
+- Linux cpufreq
 
 These existing frameworks have their own policy mechanisms that make decisions independently. Our [previous blog post](/blog/energy-aware-scheduling-eas-project/) covered the limitations of this approach.
 
@@ -76,16 +78,13 @@ _Current situation with DVFS support in Linux_
 
 The existing cpufreq implementation is an extension to the Linux kernel, which uses a sampling-based approach to consider cpu time in idle along with some heuristics to control the CPU Operating Performance Point (OPP).  There are a number of disadvantages to this approach:
 
-  1. Sampling based governors are slow to respond and hard to tune.
+1. Sampling based governors are slow to respond and hard to tune.
 
+2. Sampling too fast: OPP changes for small utilization spikes.
 
-  2. Sampling too fast: OPP changes for small utilization spikes.
+3. Sampling too slow: Sudden burst of utilization might not get the necessary OPP change in time - reaction time might be poor.
 
-
-  3. Sampling too slow: Sudden burst of utilization might not get the necessary OPP change in time - reaction time might be poor.
-
-
-  4. Only aware of the overall CPU loading and is not aware of task migration.
+4. Only aware of the overall CPU loading and is not aware of task migration.
 
 {% include image.html path="/assets/images/blog/EAS-blog-5.jpg" alt="AES blog image 5" %}
 
@@ -97,9 +96,7 @@ With scheduler task utilization tracking, a feature that the mainline kernel alr
 
 {% include image.html path="/assets/images/blog/EAS-blog-6.jpg" alt="AES blog image 6" %}
 
-
 With sched-cpufreq, when the new task is placed on CPU#1, the cpu capacity for the little cluster changes immediately.  This uses the history of the task, which is stored internally as part of the CFS scheduler in the kernel.  This is a good approximation for many tasks which have consistent cpu load behavior.
-
 
 ## **Foundations - Frequency and capacity invariant load tracking**
 
@@ -148,7 +145,7 @@ We are discussing the best ways to express this energy model with the open sourc
 
 #### _Options for placing a waking task_
 
-As seen in the diagram below, a newly waking task can sensibly be placed on either of the two CPUs - CPU#1 or CPU#3.   With the current mainline scheduler, either CPU#1 or CPU#3 could be chosen. 
+As seen in the diagram below, a newly waking task can sensibly be placed on either of the two CPUs - CPU#1 or CPU#3.   With the current mainline scheduler, either CPU#1 or CPU#3 could be chosen.
 
 {% include image.html path="/assets/images/blog/EAS-image-14.jpg" alt="AES blog image 14" %}
 
@@ -164,11 +161,10 @@ Based on the above, EAS will probably choose CPU#1 because the small additional 
 
 EAS doesn’t evaluate all the possible options. That can introduce performance hits in key scheduler pathways. Instead,  EAS narrows down the search space to:
 
-  * CPU the task ran on last time.
-  * CPU chosen by a simple heuristic which works out where the task fits best.
+- CPU the task ran on last time.
+- CPU chosen by a simple heuristic which works out where the task fits best.
 
 Based on the energy model, EAS evaluates which of these two options is the most energy efficient.
-
 
 ## **SchedTune**
 
@@ -202,9 +198,9 @@ rt-app is a linux command-line tool that creates light intensity workloads, usin
 
 This is a python framework for running standard tests and benchmarks on a target system. It supports:
 
-  * Linux
-  * Android (browser and standard benchmarks)
-  * ChromeOS (telemetry benchmarks etc)
+- Linux
+- Android (browser and standard benchmarks)
+- ChromeOS (telemetry benchmarks etc)
 
 Kernel ftrace logs are captured from the Linux kernel, and workload-automation integrates with various power measurement tools, e.g. NI DAQ for measuring device power, and ChromeOS servo boards.
 
@@ -235,12 +231,11 @@ X11/GTK tool used for analysis of ftrace data, useful for detailed scheduler ana
 
 All the work on EAS is done in the open on mailing lists:
 
-  1. Linux Kernel Mailing List (LKML) for patches and EAS architecture discussions
-(postings on LKML prefixed with “sched:”)
-This is the preferred option as the Linux kernel maintainers will see the questions.
-  2. eas-dev mailing lists ([http://lists.linaro.org](http://lists.linaro.org/) )
-This mailing list is to discuss experimental aspects of EAS developments that are too premature for discussion on LKML
-
+1. Linux Kernel Mailing List (LKML) for patches and EAS architecture discussions
+   (postings on LKML prefixed with “sched:”)
+   This is the preferred option as the Linux kernel maintainers will see the questions.
+2. eas-dev mailing lists ([http://lists.linaro.org](http://lists.linaro.org/) )
+   This mailing list is to discuss experimental aspects of EAS developments that are too premature for discussion on LKML
 
 Arm provides a [git repo](http://www.linux-arm.org/git?p=linux-power.git) containing the latest EAS patched into a recent Linux kernel
 
@@ -311,7 +306,6 @@ Yuyang Du PELT rewrite v10 containing Arm enhancements to utilization calculatio
 </tr>
 </tbody>
 </table>
-
 
 ### Future patches under development
 
@@ -414,9 +408,7 @@ Workload Automation
 </tbody>
 </table>
 
-
 ### Further reading
-
 
 LWN Article: “Steps toward Power Aware Scheduling”  (25-August-2015)
 [http://lwn.net/Articles/655479/](http://lwn.net/Articles/655479/)

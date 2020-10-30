@@ -1,9 +1,10 @@
 ---
 author: linaro
 categories:
-- News
+  - news
 date: 2014-03-18 14:06:23
-description: Telecoms and networking leader ZTE joins Linaro to promote global development
+description:
+  Telecoms and networking leader ZTE joins Linaro to promote global development
   of open source software
 layout: post
 link: /news/linaro-announces-zte-latest-club-member/
@@ -13,7 +14,6 @@ wordpress_id: 5329
 ---
 
 ## Telecoms and networking leader ZTE joins Linaro to promote global development of open source software
-
 
 CAMBRIDGE, UK - 18 MAR 2014
 

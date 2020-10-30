@@ -7,7 +7,7 @@ slug: st-ericsson-and-linaro-working-towards-the-first-release
 title: ST-Ericsson and Linaro, working towards the first release
 wordpress_id: 4106
 categories:
-  - Blog
+  - blog
 tags:
   - Industry
   - "10.11"

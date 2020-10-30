@@ -1,32 +1,33 @@
 ---
 author: jacopo.mondi
 categories:
-- Blog
+  - blog
 comments: true
 date: 2015-07-22 20:22:08
-description: This article explains how to add a new service and associated application
+description:
+  This article explains how to add a new service and associated application
   APIs to Android Lollipop 5
-excerpt: 'This article explains how to add a new service and associated application
-  APIs to Android Lollipop 5 '
+excerpt:
+  "This article explains how to add a new service and associated application
+  APIs to Android Lollipop 5 "
 layout: post
 link: /blog/adding-a-new-system-service-to-android-5-tips-and-how-to/
 slug: adding-a-new-system-service-to-android-5-tips-and-how-to
 tags:
-- android
-- kernel
-- Linaro
-- Linux
-- Linux on Arm
-- Android
-- System Service
-title: 'Adding A New System Service To Android 5: Tips and How To'
+  - android
+  - kernel
+  - Linaro
+  - Linux
+  - Linux on Arm
+  - Android
+  - System Service
+title: "Adding A New System Service To Android 5: Tips and How To"
 wordpress_id: 9019
 ---
 
 ### **Intro:**
 
 This article explains how to add a new service and associated application APIs to Android Lollipop 5
-
 
 Starting from a stub HAL object, we’ll tie Java application APIs to low level operations, exploring each layer of Android internal components, in which is quite easy to get lost due to their depth, complexity and lack of general documentation.
 
@@ -99,11 +100,9 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 ```
 
-
 The make target for our HAL is pretty simple; it instructs the build system on where to put the resulting .so object (_system/lib/hw)_ and that we want to append the target hardware name to the library name (_joffee.tegra.so_ in our case). Everything else is pretty straightforward!
 
 _joffee.h --_ [https://github.com/lightydo/hardware_joffee/blob/master/joffee.h](https://github.com/lightydo/hardware_joffee/blob/master/joffee.h)
-
 
 ```cpp
 /*
@@ -300,19 +299,19 @@ In the init method we see the HAL loading mechanism in action, as it has been de
 
 The HAL object gets loaded, then, once we do have a pointer to its _open_ method, the _joffee_device_t_ structure gets filled with pointers to the HAL functions, so we can call them knowing the ‘contract’ specified by the header file _joffee.h;_
 
-We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify _[services/core/jni/Android.mk](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/Android.mk)_ to add the new JNI source file and _[services/core/jni/onload.cpp](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/onload.cpp)_ to call the method table registration.
+We need of course to add this new file to the Android build system and to register the method tablet to the global JNI _OnLoad_ methods; we need then to modify *[services/core/jni/Android.mk](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/Android.mk)* to add the new JNI source file and *[services/core/jni/onload.cpp](https://github.com/tswindell/framework_base_joffee/blob/master/services/core/jni/onload.cpp)* to call the method table registration.
 
-* * *
+---
 
-**_TIP: _** The header file_ joffee.h_ should be placed in a directory known to the build system; HAL header files are usually placed in _hardware/libhardware/include/hardware_
+**_TIP: _** The header file* joffee.h* should be placed in a directory known to the build system; HAL header files are usually placed in _hardware/libhardware/include/hardware_
 
 We can symlink our _joffee.h_ there, or modify the build system _(services/core/jni/Android.mk)_ in order to add our _hardware/joffee/ directory_ to the inclusion path flags.
 
-* * *
+---
 
 Once we have added out JNI to the system, we can build the service layer, and have a library ready to be deployed in a running system:
 
-_$mmm services_
+_\$mmm services_
 ...
 _target Strip: libandroid_servers (out/target/product/jetson/obj/lib/libandroid_servers.so)_
 _Install: out/target/product/jetson/system/lib/libandroid_servers.so_
@@ -327,7 +326,7 @@ It is common to compare Android services with Linux distributions daemons, and a
 
 This ‘strict’ policy delivers a higher degree of consistency in Android system internals, were the roles of each components are more defined compared to other \*nix distributions, resulting in a more defined layered structure, where exceptions are of course allowed, but where most of the system core components are designed respecting the same patterns.
 
-* * *
+---
 
 _**TIP:**_ A note on frameworks/base/ repository organization:
 
@@ -343,8 +342,7 @@ _framework/base/core/ ->_ The “left” side of the Binder.
 
 Implements the application-facing part of an Android system, which speaks with services using interfaces; the packages implemented here compose the Android API, and are usually part of the SDK.
 
-
-* * *
+---
 
 The most important part of a system service is thus, its interface.
 
@@ -356,7 +354,7 @@ Interfaces are defined in Android by mean of a special language, called AIDL (An
 
 Android provides a set of tools which generates the necessary plumbing to connect that interfaces to the Binder, and have them accessible from our code.
 
-Let’s start with I_JoffeeService.aidl_
+Let’s start with I*JoffeeService.aidl*
 
 [https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl](https://github.com/tswindell/framework_base_joffee/blob/master/core/java/android/joffee/IJoffeeService.aidl)
 
@@ -385,19 +383,13 @@ public JoffeeService(Context context) {
 
 ```
 
-
-* * *
-
+---
 
 _**TIP:**_ There are many ways to register and publish a service; explore the SystemService class and other services to find the one that best fit your needs.
 
-
-* * *
-
+---
 
 The service will of course need to talk to the JNI we have prepared, so at the end of the file we declare the prototypes of the _native_ functions we want to call.
-
-
 
 At the time of service start, we also init the native layer:
 
@@ -412,9 +404,7 @@ public void onStart() {
 }
 ```
 
-
 Now it is time to implement the AIDL interface in the _IBinder_ object we have published in the class constructor.
-
 
 Since the interface is trivial, the implementation will also be very simple:
 
@@ -437,48 +427,42 @@ _frameworks/base/services/java/com/android/server/SystemServer.java_
 
 Here we start the service, as the code on github shows.
 
+---
 
-* * *
+**TIP:** Pay attention here, the SystemServer path is f*rameworks/base/services/java/.../ \_and not f_rameworks/base/services/core/.../*
 
-**TIP:** Pay attention here, the SystemServer path is f_rameworks/base/services/java/.../ _and not f_rameworks/base/services/core/.../_
+Under “_core_” you will find* SystemServ**ice**.java \_not* Serv\__er_ which is another Android component.
 
-Under “_core_” you will find_ SystemServ__ice__.java _not_ Serv__er_ which is another Android component.
-
-
-* * *
+---
 
 Now that we have implemented the “right” side, we need to add an API, to have application interact with our service.
 
 ### **The Manager**
 
-Associated with each service, there usually is a so-called Manager (services are sometimes called _*ManagerService_). Managers provide an application a suitable API, that becomes part of the SDK, and mediates between apps and remote services.
+Associated with each service, there usually is a so-called Manager (services are sometimes called _\*ManagerService_). Managers provide an application a suitable API, that becomes part of the SDK, and mediates between apps and remote services.
 
 Our manager will use the remote services interface, and will not do anything particularly useful. In “real” use cases, managers take care of delivering notifications, filtering intents, and check permissions. In some cases managers tie directly into jni when HW access is performed directly from Java (eg. USB device)
 
-
-Manager will be placed in -- _[frameworks/base/core/java/android/joffee](https://github.com/tswindell/framework_base_joffee/tree/master/core/java/android/joffee)_ in the _android.joffee_ package, where we put the AIDL interface of our service;
+Manager will be placed in -- *[frameworks/base/core/java/android/joffee](https://github.com/tswindell/framework_base_joffee/tree/master/core/java/android/joffee)* in the _android.joffee_ package, where we put the AIDL interface of our service;
 
 Implementation is trivial, as the service exposes a single method, which we wrap in what will become part of our new system API
 [https://github.com/jmondi/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java](https://github.com/tswindell/framework_base_joffee/blob/master/core/java/android/joffee/JoffeeManager.java)
 
-
 The implementation also contains some pointers to how you can _hide_ methods from appearing in the public SDK using decorators and JavaDoc, take a look at other managers to see how they use them.
 
-* * *
+---
 
 **Note 1:** _The proposed implementation is trivial, and does not features any advanced use of Binder RPC and argument marshalling/un-marshalling (or flattening/unflattening, see Binder documentation on this)._
-
 
 _All the proposed methods do not accept parameters nor return anything._
 
 _It is of course possible to define types which can be passed from one side of the Binder to the other, those types are said to be Parcelable types. Android documentation provides some material on them, and you can have a look at android.hardware.input to see how they are used in manager-services communications_
 
-
 **Note 2:** _What we have seen here is the definition of a service interface which is used by a manager. The other way around is of course possible, and it is useful to implement callbacks and listeners which notify applications about some specific event._
 
 _Again, have a look at input or USB managers to see how you can define and register an interface which services can call into and deliver messages to Manager or applications._
 
-* * *
+---
 
 ### **Registering service and Manager**
 
@@ -501,37 +485,32 @@ We need to register in the execution context our new service and our manager in 
 
 Just adding this allows application to later retrieve an instance to our JoffeeManager.
 
-
 ### **Deploy and testing**
-
 
 Now that all pieces are in place, we just need to update the system API and build the SDK, to have our new objects available to applications.
 
+_\$ make update-api_
 
-_$ make update-api_
-
-_$ make sdk_
-
+_\$ make sdk_
 
 And you can now make Android studio point to the newly built SDK (copy it somewhere, so you can avoid it gets overwritten by new builds)
 
-* * *
+---
 
 **TIP:** After building the SDK, you cannot build _frameworks/base/_ alone anymore, you will get
 
-make:  No rule to make target _out/target/product/jetson/system/framework/framework-res.apk'_
+make: No rule to make target _out/target/product/jetson/system/framework/framework-res.apk'_
 
 You can overcome this with
 
-_$ mmma frameworks/base_
+_\$ mmma frameworks/base_
 
 but it takes a long time, otherwise build frameworks-res alone, then rebuild frameworks
 
-_$ mmm frameworks/base/core/res_
-_$ mmm frameworks/base_
+_\$ mmm frameworks/base/core/res_
+_\$ mmm frameworks/base_
 
-
-* * *
+---
 
 Let’s now deploy all our pieces onto the real target
 
@@ -550,6 +529,7 @@ adb push out/target/product/jetson/system/lib/libandroid_servers.so system/lib/
 
 adb reboot
 ```
+
 And make Android studio point to your newly build SDK (File->Project Structure -> SDK Location) to test our new API
 
 ```bash
@@ -561,7 +541,6 @@ cp -r out/host/linux-x86/sdk/jetson/android-sdk_eng.jmondi_linux-x86 ~/Android/S
 ```
 
 Now we can test our implementation with the simplest possible application
-
 
 ```java
 

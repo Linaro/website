@@ -1,22 +1,25 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-09-12 14:55:16
-description: "Linaro Connect will host three mini-summits\xE2\x80\x94tracks focused
+description:
+  "Linaro Connect will host three mini-summits\xE2\x80\x94tracks focused
   on a single strategic topic held on a single day \xE2\x80\x94 an Android, Armv8
   (64-bit) and big.LITTLE."
-keywords: Linaro, Linux on Arm, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
+keywords:
+  Linaro, Linux on Arm, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
   Armv8(64bit), mini-summits, events, community, LCE 12 Copenhagen
 layout: post
 link: /blog/community-blog/linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen/
 slug: linaro-android-armv864bit-and-big-little-mini-summits-to-be-held-at-lce-12-copenhagen
 tags:
-- Android
-- Community
-- Connect Events
-- Hardware
-title: Linaro Android, Armv8(64bit) and big.LITTLE Mini Summits to be Held at LCE
+  - Android
+  - Community
+  - Connect Events
+  - Hardware
+title:
+  Linaro Android, Armv8(64bit) and big.LITTLE Mini Summits to be Held at LCE
   12 Copenhagen
 wordpress_id: 1893
 ---

@@ -1,26 +1,28 @@
 ---
 author: mike.turquette
 categories:
-- Blog
+  - blog
 comments: true
 date: 2014-09-11 13:03:28
-description: State of the art of energy-aware scheduling with a brief overview of
+description:
+  State of the art of energy-aware scheduling with a brief overview of
   the discussions and outcomes of the EAS workshop at Linux Kernel Summit 2014
-excerpt: State of the art of energy-aware scheduling with a brief overview of the
+excerpt:
+  State of the art of energy-aware scheduling with a brief overview of the
   discussions and outcomes of the EAS workshop at Linux Kernel Summit 2014
 layout: post
 slug: summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014
 tags:
-- Core Dump
-- EAS
-- kernel
-- Kernel Summit
-- lflks
-- Linux
-- LinuxCon
-- power management
-- Summit
-- workshop
+  - Core Dump
+  - EAS
+  - kernel
+  - Kernel Summit
+  - lflks
+  - Linux
+  - LinuxCon
+  - power management
+  - Summit
+  - workshop
 title: Summary of Energy-Aware Scheduling workshop, Linux Kernel Summit 2014
 wordpress_id: 6674
 ---
@@ -31,12 +33,9 @@ wordpress_id: 6674
 
 {% include image.html path="/assets/images/blog/Linux-Kernel-Summit.png" alt="Linux-Kernel-Summit" %}
 
-
 A topic of increasing interest is the push for energy awareness in the Linux kernel scheduler. While the topic is broad and deep, the general goal is to adapt the Linux kernel scheduler to take into account the energy cost of the decisions it makes and, with knowledge of the underlying hardware platform, make more intelligent decisions that can save power whilst maintaining existing performance levels. This general goal will be achieved through many efforts including new tools to help test changes and validate assumptions, as well as the integration of existing power management subsystems such as CPUfreq and CPUidle with the scheduler. The end result will be Linux-powered devices that consume less energy, manage thermal events with panache and perhaps are even more performant. This is a boon for battery-powered mobile devices, big iron data centers and everything in between and the backgrounds of the workshop attendees reflect that.
 
 The 2014 edition of the Linux Kernel Summit hosted a single day workshop focused on the topic.
-
-
 
 **Tooling up**
 
@@ -45,8 +44,6 @@ The 2014 edition of the Linux Kernel Summit hosted a single day workshop focused
 A quick survey to see what tools the attendees were using yielded many answers. Common choices were ebizzy and Geekbench. For those shipping Android devices the workload generation and benchmarks were typically Android-specific, such as Quadrant, and thus not helpful to anyone not using Android. Similarly some attendees had access to internal tools that estimated power or energy consumption of a target, but they were mostly platform- and machine-specific and likely proprietary. The response to idlestat and rt-app was thus positive, as they impose few requirements on the user and hopefully will scale to various types of machines, workloads and power models.
 
 There was discussion of Fengguan Wu’s 0-day test infrastructure at Intel, which has recently gained some automated power measurement capabilities. Additionally Chromium’s [power_LoadTest](http://www.chromium.org/chromium-os/testing/power-testing) was mentioned and I look forward to trying that tool out.
-
-
 
 **Statistically significant**
 
@@ -57,8 +54,6 @@ It seemed that various attendees have [out-of-tree code that](https://source.cod
 A recurring theme was the difficulty in knowing what to do once a cpu is fully utilized. The statistics often cannot help you as much here, since you do not know know how over-utilized the cpu is. You only know that it is indeed fully utilized.
 
 A strong agreement from the room was that the documentation needed to be updated to clarify what the metrics mean and how they should be used.
-
-
 
 **An energetic discussion**
 
@@ -71,8 +66,6 @@ The energy model itself is not unfamiliar to those acquainted with P-state and C
 Also in this proposal is the energy_diff function that allows the scheduler to query the energy model for the cost of an action, such as migrating a task from one cpu to another. I pointed out that this query-the-cost method might not be a scalable interface once cpu frequency scaling is added to the mix. While that point was debated briefly it was agreed that we cannot know the final interface design this early on in the process.
 
 While some time was spent on the mechanism to get the per-platform and per-machine data into the model (ACPI, Device Tree, platform data), mostly that is a problem for another day.
-
-
 
 **Frequent flyers**
 

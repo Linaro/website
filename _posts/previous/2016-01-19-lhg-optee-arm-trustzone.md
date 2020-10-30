@@ -9,7 +9,7 @@ title:
   Arm® TrustZone®
 wordpress_id: 9924
 categories:
-  - Blog
+  - blog
 ---
 
 ## LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®

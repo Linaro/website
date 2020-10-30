@@ -1,9 +1,10 @@
 ---
 author: baolin.wang
 categories:
-- Blog
+  - blog
 date: 2016-02-24 00:03:51
-description: "Recently I got some patches introducing the crypto engine framework
+description:
+  "Recently I got some patches introducing the crypto engine framework
   merged into the crypto layer for v4.6, which are applied in Herbert Xu\xE2\x80\x99s
   git..."
 keywords: Crypto Engine
@@ -11,17 +12,16 @@ layout: post
 link: /blog/core-dump/crypto-engine-framework/
 slug: crypto-engine-framework
 tags:
-- Core Dump
-- crypto engine
-- kernel
-- Linux
-- Linux on Arm
+  - Core Dump
+  - crypto engine
+  - kernel
+  - Linux
+  - Linux on Arm
 title: Crypto Engine Framework
 wordpress_id: 9995
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
-
 
 **Introduction** Recently I got some patches introducing the crypto engine framework merged into the crypto layer for v4.6, which are applied in Herbert Xu’s git:  [http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git](http://git.kernel.org/cgit/linux/kernel/git/herbert/cryptodev-2.6.git)
 
@@ -171,6 +171,7 @@ Now dm-crypt will send encryption or decryption requests to the crypto layer one
 Some cipher hardware engines prefer to handle bulk block rather than one sector (512 bytes) created by dm-crypt, cause these cipher engines can handle the intermediate values (IV) by themselves in one bulk block. This means we can increase the size of the request rather than always 512 bytes and thus increase the hardware engine processing speed, which is the bulk mode for crypto engine framework what we want to introduce in the future.
 
 There are more works that need to be investigated in the future, especially in below 3 problems:
+
 1. Finding the best method to check the requests are compatible for merging requests.
 2. Thinking of the request numbers on how much we were able to combine together for bulk mode.
 3. How much benefit we can get from bulk mode.

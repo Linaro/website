@@ -1,18 +1,20 @@
 ---
 author: soumya.basak
 categories:
-- Blog
+  - blog
 date: 2013-03-22 19:12:23
-description: Soumya Basak, QA Services Expert on the Linaro QA Team gives his impressions,
+description:
+  Soumya Basak, QA Services Expert on the Linaro QA Team gives his impressions,
   highlights, and exciting moments of Linaro Connect Asia 2013 in Hong Kong.
-keywords: Soumya Basak, Linaro Connect Asia 2013, LCA13-Hong Kong, Highlights, Dublin,
+keywords:
+  Soumya Basak, Linaro Connect Asia 2013, LCA13-Hong Kong, Highlights, Dublin,
   Linaro, Linux on Arm, Arm
 layout: post
 link: /blog/community-blog/soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong/
 slug: soumya-basaks-highlights-from-linaro-connect-asia-2013-in-hong-kong
 tags:
-- Community
-- Connect Events
+  - Community
+  - Connect Events
 title: Soumya Basak's Highlights from Linaro Connect Asia 2013 in Hong Kong
 wordpress_id: 2602
 ---
@@ -25,17 +27,11 @@ Keynote talks started each days events and was really interesting. Jonathan Corb
 
 For me, the most interesting topics at LCA13-Hong Kong included:
 
+- The Embedded Android Training Workshop with sessions about Working with AOSP and Native Android User Space
 
+- QA Services for Kernel CI monitoring to support the upstream kernel community directly
 
-
-  * The Embedded Android Training Workshop with sessions about Working with AOSP and Native Android User Space
-
-
-  * QA Services for Kernel CI monitoring to support the upstream kernel community directly
-
-
-  * Armv8 AArch64 Porting effort given by Riku Voipio
-
+- Armv8 AArch64 Porting effort given by Riku Voipio
 
 In addition to theses sessions we had interactive sessions on LAVA during the LAVA Training Workshops, the afternoon hacking session and more. There were a lot of ideas and discussion with so many hot-chips and exciting challenges and it was exciting to talk about what works and what we were going to do next.
 

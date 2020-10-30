@@ -7,16 +7,16 @@ slug: linaro-digital-home-group-celebrates-three-years
 title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
 categories:
-- Blog
+  - blog
 tags:
-- 96Boards
-- android
-- androidtv
-- AOSP
-- LHG
-- Linaro
-- multimedia
-- RDK
+  - 96Boards
+  - android
+  - androidtv
+  - AOSP
+  - LHG
+  - Linaro
+  - multimedia
+  - RDK
 ---
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)
@@ -53,7 +53,6 @@ _Demo from Linaro Connect Budapest 2017 of Linaro RDK running on the DragonBoard
 
 In the last half of 2016, LHG formally started working with Android Open Source Project (AOSP) TV. This activity has lead to the creation of the [AOSP TV](https://collaborate.linaro.org/display/EP/AOSP+TV) Lead Project in LHG. The AOSP TV Lead Project has the mandate to integrate, develop, distribute and maintain AOSP based on the TV form factor as the basis for Android TV work by our members. LHG recently completed a Widevine DRM Level 1 playback on Android N with OP-TEE v2.4.0 with secure media buffers.
 
-
 {% include media.html media_url="https://www.youtube.com/watch?v=lkAERtIry4w" %}
 
 _Demo from Linaro Connect Budapest 2017 of Linaro Android AOSP TV_
@@ -64,7 +63,7 @@ One of the latest exciting developments for LHG was the creation of the 96Boards
 
 **LHG: What’s to come**
 
-The past three years have passed quickly. Now moving forward with ten member companies, we set our sights on an exciting fourth year. There are many opportunities ahead which include expanding into the Android TV ecosystem with a Linaro reference design, continuing work on Linux/RDK, and providing complete set-top reference solutions based on fully featured TV Platform boards that permit access to hardware acceleration and low level security and key provisioning.  
+The past three years have passed quickly. Now moving forward with ten member companies, we set our sights on an exciting fourth year. There are many opportunities ahead which include expanding into the Android TV ecosystem with a Linaro reference design, continuing work on Linux/RDK, and providing complete set-top reference solutions based on fully featured TV Platform boards that permit access to hardware acceleration and low level security and key provisioning.
 
 We will continue to innovate and develop compelling media solutions with the aim of them becoming commonplace in the Arm ecosystem. I am certain that with the dedication from the LHG engineers, steering committee and our member companies, this will indeed continue to be the case.
 
@@ -72,45 +71,46 @@ For more information on LHG, click [here.](/engineering/)
 
 **Recent LHG Achievements**
 
+- LHG OE/Yocto OpenSDK media framework
 
-  * LHG OE/Yocto OpenSDK media framework
-    * GStreamer, Wayland/Weston, Chromium, V4L2,OP-TEE, OpenCDM, DRM/KMS, dma-buf
+  - GStreamer, Wayland/Weston, Chromium, V4L2,OP-TEE, OpenCDM, DRM/KMS, dma-buf
 
-  * Integration of OpenCDM into the Linaro RDK
-  * Integration of Wayland into RDK across all SoC platforms
-  * Migration of Linaro RDK to LTS 4.9 kernel
-  * Incorporate latest GStreamer v1.10 into RDK
-  * Investigation of Chromium-GStreamer integrations
-    * PPAPI, Mojo project, Samsung Chr/GSt backend
+- Integration of OpenCDM into the Linaro RDK
+- Integration of Wayland into RDK across all SoC platforms
+- Migration of Linaro RDK to LTS 4.9 kernel
+- Incorporate latest GStreamer v1.10 into RDK
+- Investigation of Chromium-GStreamer integrations
 
-  * Implementation of Wayland and DRM/KMS on WebKit for Wayland browser with Westeros Compositor for RDK
-  * LHG OpenSDK OE builds on HiKey and DB410C [Chromium, Wayland/Weston]
-  * Port of RDK to 96Boards DB410C with V4L video acceleration
-  * Implementation of RDK Bootloader in UEFI/EDK2 environment
-  * Microsoft PlayReady DRM integrated with OPTEE (updates with PR porting kit v3.24 & PRiTEE)
-  * W3C EME Clear Key implementation on HiKey
-    * Chromium v53 - OpenCDM - OP-TEE v2.4.0
+  - PPAPI, Mojo project, Samsung Chr/GSt backend
 
+- Implementation of Wayland and DRM/KMS on WebKit for Wayland browser with Westeros Compositor for RDK
+- LHG OpenSDK OE builds on HiKey and DB410C [Chromium, Wayland/Weston]
+- Port of RDK to 96Boards DB410C with V4L video acceleration
+- Implementation of RDK Bootloader in UEFI/EDK2 environment
+- Microsoft PlayReady DRM integrated with OPTEE (updates with PR porting kit v3.24 & PRiTEE)
+- W3C EME Clear Key implementation on HiKey
 
-  * PlayReady and Widevine DRM integrations on HiKey with OP-TEE on Android
-  * Reference OE platform builds for 32-bit user space on 64-bit platform (multilib)
-  * Published 96Boards TV Platform specification in Jan 2016
-  * Release of first TV Platform Board by HiSilicon - Poplar
-  * Sample AOSP TV build for HiKey 96Boards platform
-  * AOSP build with OP-TEE Secure Data Path extensions on HiKey
-  * Upstream OP-TEE to AOSP HiKey branch
+  - Chromium v53 - OpenCDM - OP-TEE v2.4.0
+
+- PlayReady and Widevine DRM integrations on HiKey with OP-TEE on Android
+- Reference OE platform builds for 32-bit user space on 64-bit platform (multilib)
+- Published 96Boards TV Platform specification in Jan 2016
+- Release of first TV Platform Board by HiSilicon - Poplar
+- Sample AOSP TV build for HiKey 96Boards platform
+- AOSP build with OP-TEE Secure Data Path extensions on HiKey
+- Upstream OP-TEE to AOSP HiKey branch
 
 **LHG Making News!**
 
-  * [LHG Releases FIrst Sample Android “AOSP TV” build on HiKey](/blog/lhg-releases-first-sample-android-aosp-tv-build-on-hikey/)
-  * [Linaro RDK GStreamer-V4L2 video acceleration on DB410C](https://www.youtube.com/watch?v=zmOTyKFeyCs&t=100s)
-  * [LHG Android “AOSP TV” Demonstration](https://www.youtube.com/watch?v=lkAERtIry4w&t=10s)
-  * [Hisilicon creates Poplar First 96Boards TV Platform](/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/)
-  * [Poplar Press Release](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/)
-  * [LHG Sprint Report](/blog/lhg-sprint-report/)
-  * [LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®](/blog/lhg-optee-arm-trustzone/)
-  * [First open source W3C EME solution provided on the 96Boards HiKey platform](/blog/engineering-update-16-04/)
-  * [Linaro Digital Home Group at SFO15](/blog/linaro-digital-home-group-at-sfo15/)
-  * [LHG One-Year Anniversary](/blog/lhg-one-year-anniversary/)
-  * [LHG at the 2015 RDK Users Conference](/blog/linaro-2015-rdk-users-conference/)
-  * [Linaro Home Group Update](/blog/linaro-home-group-update-since-launching/)
+- [LHG Releases FIrst Sample Android “AOSP TV” build on HiKey](/blog/lhg-releases-first-sample-android-aosp-tv-build-on-hikey/)
+- [Linaro RDK GStreamer-V4L2 video acceleration on DB410C](https://www.youtube.com/watch?v=zmOTyKFeyCs&t=100s)
+- [LHG Android “AOSP TV” Demonstration](https://www.youtube.com/watch?v=lkAERtIry4w&t=10s)
+- [Hisilicon creates Poplar First 96Boards TV Platform](/blog/hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board/)
+- [Poplar Press Release](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/)
+- [LHG Sprint Report](/blog/lhg-sprint-report/)
+- [LHG takes another step forward in Enhanced Content Protection with OPTEE on Arm® TrustZone®](/blog/lhg-optee-arm-trustzone/)
+- [First open source W3C EME solution provided on the 96Boards HiKey platform](/blog/engineering-update-16-04/)
+- [Linaro Digital Home Group at SFO15](/blog/linaro-digital-home-group-at-sfo15/)
+- [LHG One-Year Anniversary](/blog/lhg-one-year-anniversary/)
+- [LHG at the 2015 RDK Users Conference](/blog/linaro-2015-rdk-users-conference/)
+- [Linaro Home Group Update](/blog/linaro-home-group-update-since-launching/)

@@ -1,7 +1,7 @@
 ---
 author: alan.bennett
 categories:
-- Blog
+  - blog
 date: 2011-08-10 14:43:24
 description: Introduction to the concept of LAVA by one of the Linaro Validation developers
 keywords: lava, quality, automation, tools, introduction,
@@ -9,8 +9,8 @@ layout: post
 link: /blog/lava-blog/lava-introduction/
 slug: lava-introduction
 tags:
-- lava
-- LAVA
+  - lava
+  - LAVA
 title: LAVA Introduction
 wordpress_id: 4116
 ---

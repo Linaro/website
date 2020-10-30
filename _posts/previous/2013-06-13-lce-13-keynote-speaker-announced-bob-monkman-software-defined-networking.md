@@ -1,17 +1,19 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2013-06-13 19:26:43
-description: We're pleased to announce that Bob Monkman of the Enterprise Segment
+description:
+  We're pleased to announce that Bob Monkman of the Enterprise Segment
   Marketing Team at Arm will be giving the Thursday, July 11th keynote at Linaro Connect
   Europe 2013 (LCE-13).
-keywords: Linaro, Linux on Arm, Open Source, Arm, Bob Monkman, Community, Networking,
+keywords:
+  Linaro, Linux on Arm, Open Source, Arm, Bob Monkman, Community, Networking,
   Linaro Connect, Linaro Connect Europe, LCE-13. Dublin, Ireland
 layout: post
 link: /blog/lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking/
 slug: lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking
-title: 'LCE-13 Keynote Speaker Announced: Bob Monkman - Software Defined Networking'
+title: "LCE-13 Keynote Speaker Announced: Bob Monkman - Software Defined Networking"
 wordpress_id: 2767
 ---
 
@@ -24,7 +26,6 @@ As part of the Enterprise Segment Marketing Team at Arm, located in San Jose, CA
 Monkman is from the Midwestern US (Detroit/Chicago) but has been in the SF Bay area for 16 years. He is married and has an amazing 9-year daughter whom he and his wife adopted from China in 2004. Bob loves watching his favorite sports teams, enjoys running, fitness, fine wine/beer/single malt scotch and classic cars (never simultaneously, however).
 
 His keynote titled "Software Defined Networking- Trends in Networking & Cloud Infrastructure and its Impact on the Arm Ecosystem" will address the following:
-
 
 If you ask several people for their definition of Software Defined Networking(SDN), you will likely get several different answers. The more general view is that it represents an emerging network virtualization paradigm, based on multiple levels of abstraction, that seeks to centralize, simplify, and bring a degree of automation to the configuration and management of network functions- re-implementing some functions in software virtual machines, on commodity server equipment. The goals are ambitious and seek to lower both CAPEX and OPEX, increase network agility and accelerate new revenue-generating service velocity. The jury is still out as to how far and how successfully these goals will be met, but this session will survey various initiatives such as the mobile operator’s Network Function Virtualization (NFV) working group, relevant open source projects and standards initiatives such as OpenFlow, OpenStack, and OpenDayLight. We will examine what is driving all of this and the potential impact and opportunity for the Linaro community, as well as what role we might play in this significant shift in cloud and networking infrastructure.
 

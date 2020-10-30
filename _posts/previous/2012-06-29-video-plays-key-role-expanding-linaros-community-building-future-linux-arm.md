@@ -6,7 +6,8 @@ title: Video plays a key role in expanding Linaro’s community and building the
 image: /assets/images/content/linaro-logo.png
 tags:
   - Hong Kong 2012
-category: News
+categories:
+  - news
 author: linaro
 slug: video-plays-key-role-expanding-linaros-community-building-future-linux-arm
 date: 2012-06-29 12:18:55
@@ -15,6 +16,7 @@ categories:
   - News
 description: HONG KONG - 29 JUN 2012
 ---
+
 HONG KONG - 29 JUN 2012
 
 During the week of 28 May to 1 June 2012 over 230 developers and engineers, from around 50 organizations and the Arm open-source community gathered at the Gold Coast Hotel for Linaro Connect Q2.12 (<https://connect.linaro.org/resources/>) to plan out and code the future of Linux on Arm.
@@ -23,7 +25,7 @@ The entire event was broadcast on YouTube by the [Novacut](https://launchpad.ne
 
 Charbax interviewed attendees, captured sessions, demos and more from the event. Novacut is no stranger to Linaro Connect events and they have been assisting Linaro in capturing these events through video, pictures and interviews for the past year, however during this event there was an effort to video every session and activity as opposed to just key ones. Charbax joined us for the first time in Hong Kong and has already made a great impression on those who have seen his videos from the event. Most notable was the demonstration of the toolchain improvements to Linaro’s Android Evaluation Build (LEB) that was demonstrated on the PandaBoard but all the toolchain improvements are applicable to all our member boards. This video ([http://armdevices.net/2012/06/02/linaro-improvements-to-android-4-0-4-performance-on-the-pandaboard-ti-omap4430-platform/ ](http://armdevices.net/2012/06/02/linaro-improvements-to-android-4-0-4-performance-on-the-pandaboard-ti-omap4430-platform/)) has already generated more than 200,000 views.
 
-Overall between Novacut (<http://www.youtube.com/user/LinaroOrg>), Charbax[(http://armdevices.net/category/tradeshows/linaro-connect/](http://armdevices.net/category/tradeshows/linaro-connect/)) and the Google +Hangouts on Air ([](<>)) more videos will be added to the Linaro Connect Q2.12 Resource page ([/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/#videos](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/#videos)) by the end of July.
+Overall between Novacut (<http://www.youtube.com/user/LinaroOrg>), Charbax[(http://armdevices.net/category/tradeshows/linaro-connect/](http://armdevices.net/category/tradeshows/linaro-connect/)) and the Google +Hangouts on Air ([]()) more videos will be added to the Linaro Connect Q2.12 Resource page ([/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/#videos](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/#videos)) by the end of July.
 
 Another notable discussion that was captured on video by Novacut was “Is it time for Arm in the Enterprise?” (<http://youtu.be/UPw11z49KXs>). This panel discussion was facilitated by Linaro CTO David Rusling and included Tim Wesselman of HP ([http://www8.hp.com/](https://www8.hp.com/uk/en/hp-information.html)), Mark Shuttleworth of Canonical [(http://www.canonical.com/](http://www.canonical.com/)), Jeff Underhill of Arm (<http://www.arm.com/>) and Jon Masters of Red Hat (<http://www.redhat.com/>) who “took the bullets as they came” and answered questions around Arm in Enterprise ecosystem.
 

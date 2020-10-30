@@ -17,7 +17,7 @@ video_thumbnail: None
 wordpress_id: 5597
 youtube_video_url: None
 categories:
-- Blog
+  - blog
 permalink: /blog/:title/
 ---
 
@@ -33,11 +33,7 @@ OpenJDK is an implementation of the Java SE and Linaro has been involved into Op
 **Session ID:** BUD17-117
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-117/](https://connect.linaro.org/resources/bud17/bud17-117/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** AOSP Toolchains – BUD17-202
 
@@ -57,11 +53,7 @@ LMG team, in collaboration with Toolchains team, has worked on multiple areas re
 **Session ID**: BUD17-202
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-202/](https://connect.linaro.org/resources/bud17/bud17-202/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** IoT Toolchain BoF – BUD17-223
 
@@ -73,11 +65,7 @@ At this BoF we are going to discuss what an IoT toolchain should look like from 
 **Session ID:** BUD17-223
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-223/](https://connect.linaro.org/resources/bud17/bud17-223/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** LLVM Internals #2 – BUD17-302
 
@@ -89,11 +77,7 @@ Continuing from LAS16 and, if we have time, introducing global isel that we’re
 **Session ID:** BUD17-302
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-302/](https://connect.linaro.org/resources/bud17/bud17-302/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Introducing LLDB for linux on Arm and AArch64 – BUD17-310
 
@@ -105,11 +89,7 @@ This session provides an introduction of LLDB – Debugger from LLVM project and
 **Session ID:** BUD17-310
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-310/](https://connect.linaro.org/resources/bud17/bud17-310/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Navigating the ABI for the ARM Architecture – BUD17-318
 
@@ -123,11 +103,7 @@ This presentation is aimed at software developers wanting to understand how to f
 **Session ID:** BUD17-318
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-318/](https://connect.linaro.org/resources/bud17/bud17-318/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **System Trace Tools – BUD17-324
 
@@ -139,11 +115,7 @@ In STMicroelectronics we developed a set of tools for an efficient exploitation 
 **Session ID:** BUD17-324
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-324/](https://connect.linaro.org/resources/bud17/bud17-324/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **HHVM on AArch64 – BUD17-400K1
 
@@ -157,11 +129,7 @@ HHVM uses just-in-time compilation to transform PHP and Hack source code into op
 **Session ID:** BUD17-400K1
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-400k1/](https://connect.linaro.org/resources/bud17/bud17-400k1/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Toolchain Coordination – BUD17-406
 

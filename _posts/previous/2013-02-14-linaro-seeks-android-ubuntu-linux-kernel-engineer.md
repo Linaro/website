@@ -1,17 +1,19 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2013-02-14 22:05:26
-description: Career opportunities now available at Linaro for an Android Ubuntu Linux
+description:
+  Career opportunities now available at Linaro for an Android Ubuntu Linux
   Kernel Engineer located in or near Seoul, Korea.
-keywords: Linaro, Linux on Arm, Open Source, Arm, Linux, Kernel, Ubuntu, Android,
+keywords:
+  Linaro, Linux on Arm, Open Source, Arm, Linux, Kernel, Ubuntu, Android,
   Engineer
 layout: post
 link: /blog/community-blog/linaro-seeks-android-ubuntu-linux-kernel-engineer/
 slug: linaro-seeks-android-ubuntu-linux-kernel-engineer
 tags:
-- Community
+  - Community
 title: Linaro Seeks Android Ubuntu Linux Kernel Engineer
 wordpress_id: 2352
 ---
@@ -20,11 +22,9 @@ Today we are highlighting career opportunities at Linaro for an Android Ubuntu L
 
 **Yes, then keep reading!**
 
-
 ## What are we looking for?
 
 ### **Android Ubuntu Linux Kernel Engineer**
-
 
 Linaro is looking for an experienced support engineer to help automated deployment, validation and result analysis for Android and Ubuntu based on our member’s Arm development boards. You will be a part of Member Services team and provide LAVA ( Linaro Automated Validation Architecture - [https://docs.lavasoftware.org/lava/index.html](https://docs.lavasoftware.org/lava/index.html)) solution to our members, reporting on test status, bug tracking as well as help to setup in-house validation solution, resolve technical issue or question of Linaro's members, partners and prospects.
 
@@ -34,9 +34,7 @@ Linaro is looking for an experienced support engineer to help automated deployme
 **How to apply**
 Want to apply for this role? Then email your information to[ careers@linaro.org](/careers/)
 
-
 ## Other career opportunities at Linaro
-
 
 All available career opportunities can be found at:[/careers/](/careers/)
 

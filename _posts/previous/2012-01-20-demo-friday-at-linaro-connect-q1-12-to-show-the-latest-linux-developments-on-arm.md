@@ -1,19 +1,22 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-01-20 13:32:35
-description: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
+description:
+  Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments
   on Arm. Linaro members, partners and community offer interactive demonstrations
   showcasing Arm-processor-based boards and Linaro builds of Android and Ubuntu.
-keywords: Linaro, Arm, Ubuntu, Android, Snowball, Linux, Linux on Arm, Arm SOCs, Linaro
+keywords:
+  Linaro, Arm, Ubuntu, Android, Snowball, Linux, Linux on Arm, Arm SOCs, Linaro
   Connect
 layout: post
 link: /blog/connect-update/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/
 slug: demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm
 tags:
-- Connect Events
-title: Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments on
+  - Connect Events
+title:
+  Demo Friday at Linaro Connect Q1.12 to show the latest Linux developments on
   Arm
 wordpress_id: 1207
 ---
@@ -27,7 +30,6 @@ Previous demonstration events have included Kinnect-face robot recognizing human
 All companies and engineers who are using Linaro on Arm processor-based boards are invited to participate in Demo Friday and highlight their work. All the demonstrations for Demo Friday have not yet been finalized and there are opportunities to add more to the line-up. Anyone interested in this opportunity to participate can email the details of their demonstration to: events@linaro.org. Demo Friday details can be found on the Linaro Connect Site ([https://connect.linaro.org/resources/](https://connect.linaro.org/resources/)).
 
 Linaro Connect Q1.12 will be take place at the Sofitel Hotel in Redwood City, California on February 6 -10th and sponsorship opportunities are still available. More information about levels and benefits of Linaro Connect sponsorship can be found on the Linaro Connect site ([https://connect.linaro.org/sponsors/](https://connect.linaro.org/sponsors/)).
-
 
 **Join us for Linaro Connect Q1.12**
 

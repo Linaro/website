@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-03-29 20:37:41
 description: How to build Android from scratch
 layout: post
@@ -15,31 +15,25 @@ Building products from source is always hard, and Android can be one of the wors
 
 Android builds now include two small shell scripts:
 
-  * linaro_android_build_cmds.sh
+- linaro_android_build_cmds.sh
 
-
-  * linaro_kernel_build_cmds.sh
+- linaro_kernel_build_cmds.sh
 
 ### linaro_android_build_cmds.sh
 
 This script will reproduce an entire Android build for you. It performs several actions for the user:
 
-  * Ensure packages required for build are installed.
+- Ensure packages required for build are installed.
 
+- Grab the proper Android manifest and sync the repo to your system. **NOTE:** By default this grabs the _"pinned_manifest"_ that will point to the exact code. There's also an option to build from the tips of the branches used in the manifest.
 
-  * Grab the proper Android manifest and sync the repo to your system. **NOTE:** By default this grabs the _"pinned_manifest"_ that will point to the exact code. There's also an option to build from the tips of the branches used in the manifest.
+- Grab the proper toolchain for building the code
 
-
-  * Grab the proper toolchain for building the code
-
-
-  * Perform the build
-
+- Perform the build
 
 The script is fairly short, so you can take bits and pieces of it to include in your own work flow.
 
 ### linaro_kernel_build_cmds.sh
-
 
 This is similar to the first script, but insteads just downloads the kernel repository used by the build and executes the commands needed to rebuild the kernel.
 

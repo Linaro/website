@@ -1,11 +1,13 @@
 ---
 author: mark.orvek
 categories:
-- Blog
+  - blog
 date: 2015-09-16 20:43:09
-description: Welcome to Linaro Connect SFO15 - here is what we have planned for the
+description:
+  Welcome to Linaro Connect SFO15 - here is what we have planned for the
   event.
-excerpt: Linaro Connect San Francisco 2015 will take place the week of September 21-25th.  Here
+excerpt:
+  Linaro Connect San Francisco 2015 will take place the week of September 21-25th.  Here
   are some of the events we have planned for the week.
 layout: post
 link: /blog/what-to-expect-at-sfo15-next-week/
@@ -22,7 +24,6 @@ We are returning to the [Hyatt Regency Hotel](https://www.hyatt.com/) in Burling
 Why the same venue? It could be because we were hoping to overlap with the YaoiCon[1] convention as we did last year. Trust me, that is definitely not the reason although the convention was a topic of some interesting hallway discussions. As with most Connects, this venue offers a combination of convenience to a major airport as well as access to a cosmopolitan city with great people, restaurants, nightlif and attractions. In addition, the San Francisco Bay Area is a world center of innovation and is home (headquarters or major facility) for many of our member companies.
 
 This Connect will be similar in format to HKG15 (translation, Linaro Connect Hong Kong 2015). The overall theme for the week will be security and there will be daily themes for each of the four segment groups. Simon Segars (Arm CEO) and George Grey (Linaro CEO) will be kicking off the week on Monday with opening keynotes. Expect to hear a glimpse of things to come for Arm and the Arm Ecosystem.
-
 
 {% include image.html path="/assets/images/blog/web-linaro-connect.jpg" alt="Web Linaro Connect Image" %}
 

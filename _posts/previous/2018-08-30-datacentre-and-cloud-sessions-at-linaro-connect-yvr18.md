@@ -5,10 +5,12 @@ layout: post
 date: 2018-08-30 09:00:00+00:00
 description: >-
   Linaro has got lots of technical sessions on Datacentre and Cloud at Linaro Connect Vancouver (YVR18) 17-21 September 2018.
-categories: Blog
+categories:
+  - blog
 tags: Arm, Linaro, Data Centre, Datacentre, Cloud, Cloud Computing, Developer Cloud, Servers, Enterprise, Arm46, HPC, High Performance Computing Vancouver, Linaro Connect, YVR18
 image: /assets/images/blog/HKG18Session.jpg
 ---
+
 Three weeks to go until Linaro Connect Vancouver 2018!
 
 We have got lots of great technical sessions lined up around Datacenter and Cloud, covering a range of topics from high-core-count systems to OpenJDK and HPC. To help you decide what to attend, we’ve listed all the abstracts below with links to the sessions. To sign up for a session, you will need to register.
@@ -44,9 +46,10 @@ Current and future plans to grow in size and scope: more different hardware, sup
 16:30 - 16:55, 18 September 2018, Regency A (Session 1)
 
 The presentation will cover recent developments in hardware trace support on ARM linux platforms to include:-
-1) AutoFDO - Optimising production code using trace sampling as feedback. A description of the methods and the developments needed to use this tool.
-2) Trace capture techniques using CTI and ETM - Using CTIs to halt trace on software events. Using ETMs to inject events into the trace streams.
-3) CoreSight Base System Architecture - an introduction to ARM’s effort to introduce a standardised trace platform, to allow better tool compatibility across devices.
+
+1. AutoFDO - Optimising production code using trace sampling as feedback. A description of the methods and the developments needed to use this tool.
+2. Trace capture techniques using CTI and ETM - Using CTIs to halt trace on software events. Using ETMs to inject events into the trace streams.
+3. CoreSight Base System Architecture - an introduction to ARM’s effort to introduce a standardised trace platform, to allow better tool compatibility across devices.
 
 **[BOF: The Works on Arm Cluster project](https://yvr18.pathable.com/meetings/740417)**
 15:00 - 15:25, 19 September 2018, Regency E (Session 3)
@@ -69,6 +72,6 @@ OpenJDK has been changing at an accelerate rate in the past year. In this presen
 There is a QEMU machine type ‘virt’ for Arm, but it has some constrains, so a new machine type ‘enterprise’ is created. This session introduces features of QEMU ‘enterprise’ machine, Arm Trusted Firmware and edk2 porting work on it, and the potential work on it in future.
 
 **Linaro Data Centre & Cloud**
-The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.
+The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem. Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.
 
 To find out how to get involved iwth Linaro Data Centre & Cloud, click [here](/engineering/datacenter-and-cloud/).

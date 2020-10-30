@@ -20,8 +20,10 @@ description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
   Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
   ST-Ericsson to form new group focused on accelerating Linux development for
   Arm servers
-category: News
+categories:
+  - news
 ---
+
 SANTA CLARA, US - 1 NOV 2012
 
 ## In summary
@@ -38,7 +40,7 @@ Speaking at Arm’s largest annual developer conference, TechCon, Arm CEO Warren
 
 “Linaro is building a high-quality software engineering team that is working with our members on the development of key enabling software for the new generation of low-power, high-performance, hyperscale servers,” said George Grey, CEO of Linaro, “We are especially pleased with the broad industry support and to be working with commercial Linux providers and OEMs in addition to SoC vendors to ensure that we meet the requirements of all members of the ecosystem.”
 
-Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\**.
+Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\*\*.
 
 “Linux is driving innovation in every area of computing from mobile and embedded to the cloud. Linaro’s enterprise efforts will bring together software engineers to help accelerate Linux development for Arm servers, and we’re confident that this new server-focused group will advance Linux in these areas and offer additional choices to Linux users around the world.” said Jim Zemlin, executive director of the Linux Foundation.
 

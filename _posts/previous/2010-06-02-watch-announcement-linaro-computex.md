@@ -1,9 +1,10 @@
 ---
 author: linaro
 categories:
-- News
+  - news
 date: 2010-06-02 11:46:06
-description: Linaro is a collaborative engineering organization consolidating and
+description:
+  Linaro is a collaborative engineering organization consolidating and
   optimizing open source software and tools for the Arm architecture.
 link: /news/watch-announcement-linaro-computex/
 slug: watch-announcement-linaro-computex

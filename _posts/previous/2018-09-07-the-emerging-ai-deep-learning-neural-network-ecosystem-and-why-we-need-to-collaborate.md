@@ -5,17 +5,19 @@ layout: post
 date: 2018-09-07 09:00:00+00:00
 description: >-
   Linaro will be hosting an AI and Neural Networks on Arm Summit at the upcoming Linaro Connect Vancouver 2018 in one weeks time. This blog lists some of the great sessions being presented.
-categories: Blog
+categories:
+  - blog
 tags: Arm, Linaro, Machine Learning, AI, Deep Learning, Neural Networks
 image: /assets/images/blog/OSSNA.jpg
 ---
+
 The AI deep learning neural network ecosystem is just getting started and has similar implications with open source as GPU and video accelerators had in the early days with user space drivers, binary blobs, proprietary APIs and all possible ways to protect their IPs. Together with other players in the Arm ecosystem, Linaro wants to create a common open source framework to manage multiple NN accelerators while at the same time avoiding modifications to deep learning frameworks with multiple forks. The Machine Intelligence Initiative at Linaro has been set up with this purpose in mind - to help reduce the risk of fragmentation in the Deep learning NN acceleration ecosystem.
 
 Last week Andrea Gallo, VP of Segment Groups and Strategic Initiatives at Linaro, presented a talk on Deep Learning Neural Network Acceleration at the Edge. To view the slides from his presentation click [here](https://events.linuxfoundation.org/wp-content/uploads/2017/11/Deep-Learning-Neural-Network-Acceleration-at-the-Edge-Andrea-Gallo-Linaro.pdf).
 
 **Want to learn more? Join us at the AI and Neural Networks on Arm Summit!**
 
-If you would like to find out more about Linaro’s work in Machine Intelligence on Arm and how to get involved, join us at Linaro Connect Vancouver 2018 in a week’s time. We will be hosting an AI and Neural Networks on Arm Summit at the Hyatt Regency Vancouver on Wednesday 19 September 2018. You can attend the summit for just $45.
+If you would like to find out more about Linaro’s work in Machine Intelligence on Arm and how to get involved, join us at Linaro Connect Vancouver 2018 in a week’s time. We will be hosting an AI and Neural Networks on Arm Summit at the Hyatt Regency Vancouver on Wednesday 19 September 2018. You can attend the summit for just \$45.
 
 To register, click [here](https://connect.linaro.org/)!
 

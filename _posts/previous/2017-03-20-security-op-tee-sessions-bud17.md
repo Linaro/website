@@ -17,7 +17,7 @@ video_thumbnail: None
 wordpress_id: 5605
 youtube_video_url: None
 categories:
-- Blog
+  - blog
 permalink: /blog/:title/
 ---
 
@@ -33,11 +33,7 @@ The SKS/KeyGen2 project is about establishing an security architecture, provisio
 **Session ID:** BUD17-203
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-203/](https://connect.linaro.org/resources/bud17/bud17-203/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **BoF – Device Tree and Secure Firmware – BUD17-313
 
@@ -49,11 +45,7 @@ Device Tree is well established in the Linux kernel. But since there could be ot
 **Session ID:** BUD17-313
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-313/](https://connect.linaro.org/resources/bud17/bud17-313/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Benchmark and profiling in OP-TEE – BUD17-416
 
@@ -65,11 +57,7 @@ Benchmark and profiling are two newly developed features in OP-TEE. In this sess
 **Session ID:** BUD17-416
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-416/](https://connect.linaro.org/resources/bud17/bud17-416/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Power management in Linux together with secure firmware – BUD17-510
 

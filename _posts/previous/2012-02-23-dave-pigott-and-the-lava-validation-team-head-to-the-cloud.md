@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-  - Blog
+  - blog
 date: 2012-02-23 15:49:25
 description:
   Dave Pigott, Linaro Validation Team, writes about the LAVA-lab's new

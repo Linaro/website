@@ -4,12 +4,14 @@ author: david.rusling
 layout: post
 date: 2018-07-16 09:00:00+00:00
 description: >-
-    Linaro joins growing movement of open source leaders seeking to protect communities.
+  Linaro joins growing movement of open source leaders seeking to protect communities.
 image: /assets/images/content/open-source-projects.png
-categories: Blog
+categories:
+  - blog
 tags: Open Source, Projects, Arm, Armv8, linaro, linux, GPL 2.0, Red Hat
 published: true
 ---
+
 I am very pleased that Linaro is joining other Industry leaders such as Amazon, Arm, Canonical, CA Technologies, Cisco, Facebook, GitLab, Google, HPE, IBM, Intel, Liferay, MariaDB, Microsoft, NEC, Pivotal, Royal Philips, Red Hat, SAS, SAP, Sony, Suse and Toyota and VMware in adopting Red Hat’s cooperation commitment.
 
 I first read about Red Hat’s ‘cure’ commitment, properly known as the cooperation commitment in a news [article](https://www.theregister.co.uk/2018/06/18/red_hat_gpl_violation/). It looked intriguing and, from the explanation ‘a good idea’. I raised it at a following Linaro Technical Steering Committee (TSC) meeting, where we had a short discussion.

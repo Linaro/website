@@ -1,17 +1,18 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2011-09-09 20:39:16
-description: Usman Ahmad - Intensive development week for the Linaro Freescale Landing
+description:
+  Usman Ahmad - Intensive development week for the Linaro Freescale Landing
   Team at the Freescale Shanghai offices. Achievements and upstream contributions.
 layout: post
 link: /blog/linaro-landing-team-makes-great-progress/
 slug: linaro-landing-team-makes-great-progress
 tags:
-- Freescale
-- Landing teams
-- Quickstart board
+  - Freescale
+  - Landing teams
+  - Quickstart board
 title: Linaro Landing Team makes great progress
 wordpress_id: 4127
 ---

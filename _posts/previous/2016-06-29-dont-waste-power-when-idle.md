@@ -1,30 +1,31 @@
 ---
 author: ulf.hansson
 categories:
-- Blog
+  - blog
 date: 2016-06-29 17:17:39
-description: How the CoreSight framework found in the Linux kernel has been integrated
+description:
+  How the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.
-excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about idle
-  management of platforms. '
+excerpt:
+  "Learn how to prevent wasting power when CPUs become idle, and about idle
+  management of platforms. "
 keywords: Power Management
 layout: post
 link: /blog/core-dump/dont-waste-power-when-idle/
 slug: dont-waste-power-when-idle
 tags:
-- Core Dump
-- idle
-- kernel
-- Linux
-- Linux on Arm
-- power
-- power management
+  - Core Dump
+  - idle
+  - kernel
+  - Linux
+  - Linux on Arm
+  - power
+  - power management
 title: Don't waste power when idle
 wordpress_id: 10854
 ---
 
 ## **Don’t waste power when idle**
-
 
 There are different views of what “idle” means. One may think about CPUs and how to prevent wasting power when CPUs become idle, but in fact, idle management of platforms reaches far beyond that.
 
@@ -42,14 +43,9 @@ As system PM and runtime PM deals with different scenarios for idle management, 
 
 Historically, system PM and runtime PM have been treated as two orthogonal PM frameworks, which has led to issues and unoptimized behaviors when combining them. Improvements have been made on this field and the more important ones are described below.
 
+- The Kconfig option CONFIG_PM_RUNTIME has been merged into the CONFIG_PM option. The important consequence of this change is that system PM support cannot be used without runtime PM support. In general, this enables simpler code, especially when optimizing behaviors in subsystem/drivers.
 
-
-
-  * The Kconfig option CONFIG_PM_RUNTIME has been merged into the CONFIG_PM option. The important consequence of this change is that system PM support cannot be used without runtime PM support. In general, this enables simpler code, especially when optimizing behaviors in subsystem/drivers.
-
-
-  * The introduction of the pm_runtime_force_suspend|resume() helper functions. These helpers takes care of common issues for subsystems/drivers when dealing with runtime PM during the system PM sequence.
-
+- The introduction of the pm_runtime_force_suspend|resume() helper functions. These helpers takes care of common issues for subsystems/drivers when dealing with runtime PM during the system PM sequence.
 
 **Deploy system PM via the runtime PM centric approach!**
 
@@ -70,13 +66,13 @@ static const struct dev_pm_ops mydrv_dev_pm_ops = {
 
 ```
 
-**As mentioned earlier, the pm_runtime_force_suspend|resume() helper functions take care of some common issues due to combining runtime PM and system PM, but they also re-use the runtime PM callbacks to power on/off a device, hence why this is called the _runtime PM centric_ approach.**
+**As mentioned earlier, the pm*runtime_force_suspend|resume() helper functions take care of some common issues due to combining runtime PM and system PM, but they also re-use the runtime PM callbacks to power on/off a device, hence why this is called the \_runtime PM centric* approach.**
 
 For devices where system PM and runtime PM slightly differs, perhaps because of different wake-up settings or a demand to suspend a request queue only in the system PM case, the subsystem/driver can still benefit from using the pm_runtime_force_suspend|resume() helper functions.
 
 Instead of assigning the system PM callbacks to the helper functions, the subsystem/driver may assign its own implemented system PM callbacks to deal with the additional system PM operations. From within these callbacks it invokes the corresponding pm_runtime_force_suspend|resume() function to put its device into low power state.
 
-To get some more examples of how the pm_runtime_force_suspend|resume() helpers are being used, run the following git command from within your local Linux kernel git tree, “git grep pm_runtime_force_”.
+To get some more examples of how the pm*runtime_force_suspend|resume() helpers are being used, run the following git command from within your local Linux kernel git tree, “git grep pm_runtime_force*”.
 
 **PM domains**
 
@@ -95,7 +91,6 @@ _This is an example of a PM domain topology of a SoC._
 {% include image.html path="/assets/images/blog/PM-domain-topology-graphic-1.jpg" alt="PM domain topology - graphic 1" %}
 
 To describe the topology from the picture above in DT, this is typically what needs to be encoded in the DTS.
-
 
 ```c
 
@@ -194,7 +189,6 @@ dev5@12356300 {
 _The genpd has been around in the Linux kernel for quite a while, as it was introduced in version 3.1. From version 3.18, Linaro actively started contributing to an evolution of its code and now the community is steadily growing as can be seen in the below picture._
 
 {% include image.html path="/assets/images/blog/Users-of-genpd-graphic-2.jpg" alt="Users of genpd - graphic 2" %}
-
 
 Deploying support for genpd for a platform is often easy, although to take full advantage of genpd’s idle management through runtime PM, each device within the PM domain must have a corresponding subsystem/driver deploying runtime PM support. That’s because genpd monitors devices’ runtime PM status to understand when all devices within the same PM domain become idle. At that point, it tries to power off the PM domain to decrease the consumed power for the platform. On the opposite side, when a device is requested to be powered on via runtime PM, genpd makes sure to also restore power to the corresponding PM domain.
 

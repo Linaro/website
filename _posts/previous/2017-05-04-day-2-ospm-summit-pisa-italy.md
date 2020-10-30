@@ -6,20 +6,20 @@ slug: day-2-ospm-summit-pisa-italy
 title: Day 2 at the OSPM Summit Pisa, Italy
 wordpress_id: 12384
 categories:
-- Blog
+  - blog
 tags:
-- arm
-- Core Dump
-- CPU
-- idle cluster
-- IO Scheduler
-- Linux
-- linux kernel
-- PELT
-- power management
-- SCHED_DEADLINE
-- scheduling disciplines
-- schedutil governor
+  - arm
+  - Core Dump
+  - CPU
+  - idle cluster
+  - IO Scheduler
+  - Linux
+  - linux kernel
+  - PELT
+  - power management
+  - SCHED_DEADLINE
+  - scheduling disciplines
+  - schedutil governor
 ---
 
 [The first summit on power management and scheduling disciplines](http://retis.sssup.it/ospm-summit/) in the Linux kernel was held at Scuola Superiore S. Anna in Pisa Italy on Monday 3 April and Tuesday 4 April 2017.  The event was organised by Arm and members of the ReTis lab.  It attracted a wide audience that spanned both the industry and academic realm. Linaro attended the conference and offers the following summary from day 2 (to read about what took place on day 1, [click here](/blog/day-1-ospm-summit-pisa-italy/)). To view the presentations listed below, click on the headings.
@@ -38,7 +38,6 @@ By Juri Lelli and Claudio Scordino ([slides](http://retis.santannapisa.it/~luca/
 
 The idea behind this presentation is to set CPU frequencies based on runqueues’ active bandwidth, a metric that comes directly from Luca Abeni’s bandwidth reclaiming patchset (see above). Doing so, careful considerations about the runtime reservation of tasks need to be taken into account, i.e tasks still need to meet their requirements when the clock is scaled. From there a graph showing the effect of frequency scaling on the execution time of a task in the context of deadline scheduling was presented. Abeni’s patch on bandwidth reclaiming introduces the per-runqueue “running_bw” variable, a CPU specific utilization contribution metric. Using that operation, points are modified when running_bw is updated. The main design decisions made have been listed, including which bandwidth information to use for frequency scaling (i.e. the more conservative this_bw or the more aggressive running_bw) and how the scheduling class should be informed of frequency changes. The classic problem often raised in scheduler context is that clock scaling is very slow compared to the execution windows allocated to tasks, leaving not enough time to react. Also raised was the issue of current HW design where PMIC hang off an I2C/SPI bus shared with other devices, making contention a big problem. Different approaches about how to raise the priority of the processes responsible for OPP management were discussed without identifying an exact solution. A lot of SW would have to be reworked and even then results are not guaranteed.
 
-
 {% include media.html media_url="https://www.youtube.com/watch?v=JyA5MpVpAAM" %}
 
 [**Parameterizing CFS load balancing: nr_running/utilization/load**](https://www.youtube.com/watch?v=JyA5MpVpAAM&index=11&list=PLohWCZQwiEVqYSyggG141vUeUOTLr1cHB)
@@ -52,7 +51,6 @@ This was a discussion about changing the existing completely fair scheduler (CFS
 By Dietmar Eggemann ([slides](http://retis.santannapisa.it/~luca/ospm-summit/2017/Downloads/Tracepoints_for_PELT.odp))
 
 Dietmar started his second presentation by saying that it would be nice to standardize mainline kernel scheduler tracepoints in order to have a better understanding of what is going on. Several problems in PELT have been fixed over the last few years and having a set of standard tracepoints would have likely helped tracking those quicker. The question is, what should those tracepoints be for PELT? One requirement is that they be found in all the combination of kernel configuration switches, introduce minimal overhead on the CPU and don’t export information to the outside world. The presentation continued with examples of how metrics related to CFS runqueues, scheduling entities and task groups could be mapped to currently available tracepoints along with the best place to add them. The advantage of such approach would be that load tracking events are standardized, traces can be shared without losing their meaning and that generic post processing tools (for example LISA) can be used on them.
-
 
 {% include media.html media_url="https://www.youtube.com/watch?v=7TBrcPMGrtI" %}
 
@@ -72,7 +70,6 @@ Implementing the above concept brings its fair share of challenges. The algorith
 
 {% include media.html media_url="https://www.youtube.com/watch?v=fGGQIJ3Lg0k" %}
 
-
 [**I/O scheduling and power management with storage devices**](https://www.youtube.com/watch?v=fGGQIJ3Lg0k&index=15&list=PLohWCZQwiEVqYSyggG141vUeUOTLr1cHB)
 By Luca Miccio and Paolo Valente
 
@@ -80,14 +77,12 @@ The goal of this presentation was to explore the ways to bridge the IO scheduler
 
 {% include media.html media_url="https://www.youtube.com/watch?v=tweSBjUka4A" %}
 
-
 [**SCHED_DEADLINE group scheduling** ](https://www.youtube.com/watch?v=tweSBjUka4A&index=16&list=PLohWCZQwiEVqYSyggG141vUeUOTLr1cHB)
 By Tommaso Cucinotta and Luca Abeni ([slides](http://retis.santannapisa.it/~luca/ospm-summit/2017/Downloads/OSPM-hierarchical.pdf))
 
 This talk was focused on presenting a patchset to replace the current RT throttling mechanism with another one based on SCHED_DEADLINE. The goal of such an approach is to provide deadline-based scheduling and associated guarantees to groups of RT tasks. As an added bonus it would simply replace the current RT throttling code and exploit its cgroups-based interface to the user-space. More specifically, a 2-level scheduling hierarchy based on EDF + CBS/FP is proposed to support group scheduling with an RT cgroup viewed as a special DL entity. In such a case the period and runtime parameters are assigned to the cgroup, with the deadline implicitly set to match the period. The case where DL entities are connected to single tasks doesn’t change from the current way of working. DL entities representing RT cgroups would be connected to RT runqueues instead, and as such bound to a single CPU. However, a RT cgroup is associated a DL entity for each core in the cpuset, where RT tasks in the group are free to migrate across the per-CPU DL entities. Admission control still needs to be sorted out and the current patchset only guarantees there is no overload on the system. Preliminary work has been posted for review, with the first patch entailing a lot of cleanup in the RT code. The second patch introduces the hierarchical DL scheduling of RT groups and the third allows RT tasks to migrate between RT runqueues of the control group. The code is currently in its early stages but works relatively well with a few areas still under discussion. The presentation ended with a discussion on how to handle cases where there are less tasks than available CPUs.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=_Xe_k_knF-4" %}
-
 
 [**A Hierarchical Scheduling Model for Dynamic Soft Real-Time Systems**](https://www.youtube.com/watch?v=_Xe_k_knF-4&index=17&list=PLohWCZQwiEVqYSyggG141vUeUOTLr1cHB)
 By Vladimir Nikolov

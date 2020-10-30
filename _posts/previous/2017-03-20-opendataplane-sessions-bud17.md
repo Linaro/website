@@ -3,10 +3,11 @@ amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
 categories:
-- Blog
+  - blog
 comments: false
 date: 2017-03-20 14:09:38
-excerpt: 'A proposal to add ODP based compression/decompression API to provide portable
+excerpt:
+  "A proposal to add ODP based compression/decompression API to provide portable
   hardware accelerated access for data plane applications that require compression/decompression.
   The proposal outlines 2 schemes:
 
@@ -15,7 +16,7 @@ excerpt: 'A proposal to add ODP based compression/decompression API to provide p
   B. Introduce independent Compression API.
 
   The initial implementation will target Cavium OCTEON TX SoC to accelerate IP Compression
-  (IPComp)'
+  (IPComp)"
 image: /assets/images/blog/OpenDataPlanesessionsfromBUD17.jpg
 layout: post
 link: http://connect.linaro.org/blog/opendataplane-sessions-bud17/
@@ -47,11 +48,7 @@ The initial implementation will target Cavium OCTEON TX SoC to accelerate IP Com
 **Session ID:** BUD17-103
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-103/](https://connect.linaro.org/resources/bud17/bud17-103/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** PCI-e EndPoint mode of operation in OpenDataPlane(ODP) – BUD17-107
 
@@ -66,11 +63,7 @@ The initial implementation will target Cavium OCTEON TX SoC
 **Session ID:** BUD17-107
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-107/](https://connect.linaro.org/resources/bud17/bud17-107/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** High performance software packet scheduler – BUD17-111
 
@@ -81,11 +74,7 @@ The initial implementation will target Cavium OCTEON TX SoC
 **Session ID:** BUD17-111
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-111/](https://connect.linaro.org/resources/bud17/bud17-111/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Journey of a packet – BUD17-300
 
@@ -97,11 +86,7 @@ Describe step by step what components a packet goes through and details cases wh
 **Session ID:** BUD17-300
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-300/](https://connect.linaro.org/resources/bud17/bud17-300/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** ODP IPsec offload panel – BUD17-306
 
@@ -116,11 +101,7 @@ Implementation perspective
 ** Session ID:** BUD17-306
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-306/](https://connect.linaro.org/resources/bud17/bud17-306/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **High resolution data plane timers – BUD17-320
 

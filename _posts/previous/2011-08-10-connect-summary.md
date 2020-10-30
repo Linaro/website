@@ -1,54 +1,46 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2011-08-10 08:25:15
-description: 'Videos: Linaro Connect, Cambridge, UK, Aug. 2011 - Achievements during
-  the week, Q&A session with management, and announcements for the next events.'
+description:
+  "Videos: Linaro Connect, Cambridge, UK, Aug. 2011 - Achievements during
+  the week, Q&A session with management, and announcements for the next events."
 layout: post
 link: /blog/community-blog/connect-summary/
 slug: connect-summary
 tags:
-- Community
-- connect
-- Linaro
-- videos
-title: 'Linaro Connect videos: achievements, Q&A with management and announcements'
+  - Community
+  - connect
+  - Linaro
+  - videos
+title: "Linaro Connect videos: achievements, Q&A with management and announcements"
 ---
 
 Cambridge, UK, Aug. 5 2011
 
 At the end of Linaro Connect Q3.11, the various working groups share what they achieved during this very intense week. Here are a just a few selected bits:
 
-  * Validation platform (LAVA): i.MX53 support, implementation plans for power measurement
+- Validation platform (LAVA): i.MX53 support, implementation plans for power measurement
 
+- Android platform: integration of libjpeg-turbo, powertop and glmark, i.MX53 booting to Android, gerrit deployment.
 
-  * Android platform: integration of libjpeg-turbo, powertop and glmark, i.MX53 booting to Android, gerrit deployment.
+- Developer platform: Revamped Arm porting jam, bootchart, smem and xrestop integration in LAVA
 
+- Infrastructure: continuous testing of kernel image builds, new hardware packs
 
-  * Developer platform: Revamped Arm porting jam, bootchart, smem and xrestop integration in LAVA
+- Toolchain: moved up to gdb 7.3, binary toolchain plans fleshed out, OpenCL and LLVM exploration, a few vectorizer platches in
+-
 
+- Kernel: Device Tree porting to TI OMAP3, Qualcomm MSM86xx, Samsung Exynos, Atmel AT91, Freescale i.MX53, Arm Versatile. Single zImage: 12 patches submitted upstream, dozen of other patches ready for upstream submission. Kernel consolidation discussions with Russell King, the Arm Linux maintainer, who participated to Connect.
 
-  * Infrastructure: continuous testing of kernel image builds, new hardware packs
+- Power management: thermal framework deployed on Samsung Exynos and ST-Ericsson Snowball in a few hours, consolidation of Idle Save/Restore code, removing a lot of code duplication across platforms.
 
+- Graphics: glmark2 ported to Android, progress on Unified Memory Management.
 
-  * Toolchain: moved up to gdb 7.3, binary toolchain plans fleshed out, OpenCL and LLVM exploration, a few vectorizer platches in
-  *
+- Multimedia: libjpeg-turbo integration in Android, NEON optimization forum
 
-  * Kernel: Device Tree porting to TI OMAP3, Qualcomm MSM86xx, Samsung Exynos, Atmel AT91, Freescale i.MX53, Arm Versatile. Single zImage: 12 patches submitted upstream, dozen of other patches ready for upstream submission. Kernel consolidation discussions with Russell King, the Arm Linux maintainer, who participated to Connect.
-
-
-  * Power management: thermal framework deployed on Samsung Exynos and ST-Ericsson Snowball in a few hours, consolidation of Idle Save/Restore code, removing a lot of code duplication across platforms.
-
-
-  * Graphics: glmark2 ported to Android, progress on Unified Memory Management.
-
-
-  * Multimedia: libjpeg-turbo integration in Android, NEON optimization forum
-
-
-  * Progress on the boot infrastructure requirements for Linux on Arm servers
-
+- Progress on the boot infrastructure requirements for Linux on Arm servers
 
 See the below video for details!
 

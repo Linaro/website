@@ -7,8 +7,9 @@ slug: june-ceo-report
 title: June CEO Report
 wordpress_id: 3394
 categories:
-- Blog
+  - blog
 ---
+
 Linaro exists because our members understood that working together on common non-differentiating problems was far more cost effective than each working to solve those problems again and again.
 
 This month I describe how the"engine" of Linaro, our Working Groups and Landing Teams, deliver results, and how those results end up in customer products. Next month I want to cover some additional ways that Linaro is generating value specifically for members, including through the Linaro Evaluation Builds (LEBs) for key distributions, and the LAVA test & validation suite.

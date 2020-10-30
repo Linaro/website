@@ -1,7 +1,7 @@
 ---
 author: george.grey
 categories:
-- Blog
+  - blog
 date: 2011-09-07 15:09:49
 description: Update on the latest news from Linaro
 keywords: Linaro, meego, Google, Mobile, Motorola, Web-os

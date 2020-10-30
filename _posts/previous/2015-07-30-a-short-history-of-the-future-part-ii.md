@@ -1,23 +1,25 @@
 ---
 author: david.rusling
 categories:
-- Blog
+  - blog
 comments: true
 date: 2015-07-30 21:57:38
-description: In the last episode, I talked about how Linaro got started and how the
+description:
+  In the last episode, I talked about how Linaro got started and how the
   mobile market matured. In this blog I write about how Linaro evolved.
-excerpt: In the last episode, I talked about how Linaro got started and how the mobile
+excerpt:
+  In the last episode, I talked about how Linaro got started and how the mobile
   market matured.   In this blog I write about how Linaro evolved.
 layout: post
 link: /blog/a-short-history-of-the-future-part-ii/
 slug: a-short-history-of-the-future-part-ii
 tags:
-- arm
-- connect
-- Linaro
-- Linux
-- Linux on Arm
-- Opensource
+  - arm
+  - connect
+  - Linaro
+  - Linux
+  - Linux on Arm
+  - Opensource
 title: A Short History of the Future - Part II
 wordpress_id: 9107
 ---
@@ -47,7 +49,6 @@ The last (at least for the moment) Linaro group has been the Linaro mobile group
 Linaro continues its tradition of 6 monthly engineering cycles punctuated by a face to face conference we call ‘Connect’. It is a good name, it is the place to connect with other members, other engineers and companies. The first ‘Connect’ that Linaro was at was an Ubuntu Developer Summit (UDS) in Belgium in May 2010. Actually, Linaro was not there - it was still in the process of forming. We liked the engineer driven discussions and so adopted the format and evolved it for our own use. The first real Connect (in Cambridge, England naturally) was around 120 people (including Russell King) and the next one (in San Francisco in September) is likely to be around 500 people. We are not quite at the dry ice and rock music stage, but these are serious events. I believe that companies do not ‘get’ Linaro until they attend a Connect. I am not entirely sure this is true, but I don’t believe that any company has joined Linaro without first going to a Connect. Despite the size of the event, the mornings are engineering driven, technical discussions and the afternoons are hacking sessions (also known as ‘making things work’) and committee meetings. Sadly, I’m in the committee meetings.
 
 We also have regular teleconferences. Remember telephones with wires? We started that way but we now use Google Hangouts and BlueJeans as our main conferencing tools. Here I would really like to thank all those committee members who join from around the world, often at crazy times due to the timezones.
-
 
 ### **Next Episode**
 

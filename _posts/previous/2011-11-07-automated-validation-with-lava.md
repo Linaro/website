@@ -1,18 +1,20 @@
 ---
 author: alan.bennett
 categories:
-- Blog
+  - blog
 date: 2011-11-07 20:52:50
-description: Discussion on Linaro's LAVA efforts including Android testing, visualization
+description:
+  Discussion on Linaro's LAVA efforts including Android testing, visualization
   and reporting as well as links to project updates and source code.
-keywords: Linaro, linux, linux on Arm, Arm SOCs, opensource software, LAVA, Validation,
+keywords:
+  Linaro, linux, linux on Arm, Arm SOCs, opensource software, LAVA, Validation,
   Android
 layout: post
 slug: automated-validation-with-lava
 tags:
-- Community
-- Hardware
-- LAVA
+  - Community
+  - Hardware
+  - LAVA
 title: Automated Validation with LAVA
 wordpress_id: 842
 ---
@@ -45,6 +47,6 @@ Usability, scalability and stability of LAVA will be the focus areas in the comi
 
 Additionally, bringing together results in a more readily consumable form, with focus on specific areas of interest will also be looked at. Ultimately, the goal of automated testing is to help developers quickly find out when things are broken, or see when changes they make affect performance. Armed with this information, developers can focus on the task of making Linaro better from one monthly release to the next. For the LAVA source code and the site itself, follow the links below:
 
-* LAVA Project Page on Launchpad - http://launchpad.net/lava
+- LAVA Project Page on Launchpad - http://launchpad.net/lava
 
-* LAVA Server - http://validation.linaro.org/lava-server
+- LAVA Server - http://validation.linaro.org/lava-server

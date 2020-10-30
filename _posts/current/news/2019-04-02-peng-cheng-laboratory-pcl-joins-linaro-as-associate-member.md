@@ -8,7 +8,7 @@ description: >-
   software for the Arm® ecosystem, announced today that Peng Cheng Laboratory
   (PCL) has joined Linaro as an Associate Member.
 categories:
-  - News
+  - news
 tags:
   - Linaro
   - Peng Cheng Laboratory (PCL)

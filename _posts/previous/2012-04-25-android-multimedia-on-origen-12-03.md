@@ -1,19 +1,20 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-04-25 03:47:12
-description: The 12.03 release of Android on Origen has fully enabled HW acceleration
+description:
+  The 12.03 release of Android on Origen has fully enabled HW acceleration
   ranging from 3D, HDMI and Video Playback support
 keywords: Multimedia, OMX, Android, Origen, Binary Blob
 layout: post
 link: /blog/community-blog/android-multimedia-on-origen-12-03/
 slug: android-multimedia-on-origen-12-03
 tags:
-- Android
-- Community
-- Hardware
-- Releases
+  - Android
+  - Community
+  - Hardware
+  - Releases
 title: Android Multimedia on Origen, 12.03
 wordpress_id: 1592
 ---
@@ -38,9 +39,9 @@ MALI 400 gives a stunning 3D HW acceleration for system-wide graphics management
 
 For Video processing it is required that the buffer sharing between multiple components happen at very good speed, here are few scenarios.
 
-1) OMX Codec gives Y and UV buffers to the Video Post Processor for color conversion and Video Scaling. It is required therefore to pass the contents between the 2 components, a Zero-Copy solution is this achieved by directly tunnelling the physical address between the 2 driver components from the HAL layer
+1. OMX Codec gives Y and UV buffers to the Video Post Processor for color conversion and Video Scaling. It is required therefore to pass the contents between the 2 components, a Zero-Copy solution is this achieved by directly tunnelling the physical address between the 2 driver components from the HAL layer
 
-2) In the HDMI video playback scenario it is required that the Y and UV contents be passed from the Media Process (OMX and StageFright) to the System Process (Surface Flinger), this involves passing of buffers through IPC, thus Signals and Properties are currently being used to pass the Y and UV physical Address. HDMI is currently working in the context of Surface Flinger. HDMI has a powerful in-built Video Processing capabilities for color conversion and scaling.
+2. In the HDMI video playback scenario it is required that the Y and UV contents be passed from the Media Process (OMX and StageFright) to the System Process (Surface Flinger), this involves passing of buffers through IPC, thus Signals and Properties are currently being used to pass the Y and UV physical Address. HDMI is currently working in the context of Surface Flinger. HDMI has a powerful in-built Video Processing capabilities for color conversion and scaling.
 
 Thus Stunning video experience is achieved even when video is being streamed both to HDMI and LCD at the same time, there is no delay or Frame drop or AV-Sync problems
 
@@ -50,7 +51,7 @@ The Linaro kernel is being migrated to 3.4 rc-3 for Origen, this has all the lat
 
 It will be quite interesting and there will be lot of changes coming in the Android HAL in terms of following:
 
-1) Having a very standard Android HAL in terms of V4L2 interface
+1. Having a very standard Android HAL in terms of V4L2 interface
 
 2)Having a very common and standard interfaces for buffer sharing and IPC mechanism like UMM, DMA-BUF.
 

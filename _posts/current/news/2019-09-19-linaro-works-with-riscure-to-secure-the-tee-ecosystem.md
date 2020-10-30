@@ -12,7 +12,8 @@ tags:
   - Arm
   - IoT
   - Embedded
-category: News
+categories:
+  - news
 author: linaro
 ---
 

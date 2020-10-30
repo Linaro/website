@@ -1,24 +1,26 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 comments: true
 date: 2014-09-26 08:54:06
-description: The blog post describes why introducing Arm TrustZone support in QEMU
+description:
+  The blog post describes why introducing Arm TrustZone support in QEMU
   is important and the accompanying benefits. The post outlines the turbulent history
   behind the current development as well as an explanation of the added features.
-excerpt: The blog post describes why introducing Arm TrustZone support in QEMU is
+excerpt:
+  The blog post describes why introducing Arm TrustZone support in QEMU is
   important and the accompanying benefits.  The post outlines the turbulent history
   behind the current development as well as an explanation of the added features.
 layout: post
 link: /blog/core-dump/arm-trustzone-qemu/
 slug: arm-trustzone-qemu
 tags:
-- Core Dump
-- arm
-- qemu
-- Security Extensions
-- TrustZone
+  - Core Dump
+  - arm
+  - qemu
+  - Security Extensions
+  - TrustZone
 title: Arm TrustZone in QEMU
 wordpress_id: 6913
 ---
@@ -32,7 +34,6 @@ Can we rely on certain apps to protect our personal data and prevent undesired a
 The proper solution is to improve the application development ecosystem so sensitive applications also become trusted applications and have the facilities to better protect our sensitive data. In order to promote such an ecosystem, it is important for these facilities to be readily available and widespread. Only then can data sensitive applications be made available in an efficient and timely manner.
 
 The Arm architecture is dominant mobile CPU architecture and already has the technology for providing such security, it’s called TrustZone. Unfortunately, developing applications for TrustZone is challenging, requires access to expensive hardware development kits, and often involves signing NDAs and custom licenses.
-
 
 ### Tell me more about Arm TrustZone
 
@@ -108,37 +109,27 @@ To Linaro’s surprise and shortly before Linaro’s version 2 patches were read
 
 It was no surprise that Fabian’s changes were similar to Linaro’s as we were both addressing the same review feedback. The primary difference in the changes was the design used for managing and addressing the secure banked system registers. After consideration and consultation within the QEMU community, the decision was made to move forward with Fabian’s approach. Ironically, the approach is very close to Johannes’ original approach. In addition, Fabian also made changes around the ongoing AArch64 changes made since Samsung’s patches. Details on Fabian’s v2 patches can be found [here](http://lists.nongnu.org/archive/html/qemu-devel/2014-05/msg02522.html).
 
-
 #### Version 3 - Linaro takes over
 
 Moving forward, Linaro embraced Fabian’s changes, and accepted the role of reviewing the ongoing work by both Fabian and Edgar. After receiving extensive comments on his version 2 patchset, Fabian would eventually submit version 3 for review, but with a caveat. Fabian needed to relinquish ownership of the TrustZone patches so he could concentrate on school work. Committed to seeing the TrustZone functionality in QEMU, Linaro stepped up and took over Fabian’s patches. Details on Fabian’s v3 patches can be found [here](http://lists.nongnu.org/archive/html/qemu-devel/2014-06/msg02558.html).
 
 In the meantime, Edgar was able to get his first Armv8-A EL2/EL3 patchset approved and committed upstream. This was shortly followed by a second patchset enabling certain aspects of the Armv8-A EL2/EL3 exception model. Details on Edgar’s approved patches can be found [here](http://lists.nongnu.org/archive/html/qemu-devel/2014-05/msg05035.html).
 
-
 #### Version 4 & 5 - Linaro’s contributions
-
 
 Today, development is ongoing, with Linaro awaiting review comments on version 4 of the original patchset. The patchset primarily consists of fixes for feedback on the version 3 patches. Not far behind, version 5 is underway and includes minor fixes discovered in testing and will address version 4 feedback. It is targeted at being the upstream version. Details on Linaro’s v4 patches up for review can be found [here](http://lists.nongnu.org/archive/html/qemu-devel/2014-06/msg07347.html).
 
 As well, Edgar’s development is still underway as he is wrapping up his second set of Armv8-A EL2/EL3 changes, which are still being monitored and coordinated with Linaro’s changes. Fabian and Sergey have actively been commenting on the outstanding changes. Details on Edgar’s latest patches can be found [here](http://lists.nongnu.org/archive/html/qemu-devel/2014-08/msg02858.html).
 
-
 #### Future updates and ongoing work
-
 
 In addition to the above processor security extension development, both Edgar and Fabian have been developing QEMU GIC security extensions functionality. Fabian has submitted his patches to the QEMU working group and Linaro has agreed to take ownership of the patches to see them through.
 
 In addition to the future GIC work, Linaro will continue to pursue a full QEMU TrustZone solution.
 
-
 ### TrustZone QEMU availability
 
-
-
-
 #### Where can I find it?
-
 
 The latest QEMU TrustZone support is available in the below Linaro git repository:
 
@@ -150,10 +141,7 @@ To acquire a buildable version of QEMU:
     $ git clone https://git.linaro.org/virtualization/qemu-tz.git --branch qemutz
 ```
 
-
-
 #### How do I build it?
-
 
 To build the QEMU (from the QEMU root directory):
 
@@ -162,7 +150,6 @@ To build the QEMU (from the QEMU root directory):
     $ make
 ```
 
-
 **How do I run it?**
 
 In order to take advantage of QEMU’s security extensions, you have to have an image capable of providing a secure and non-secure contexts. Without this, it is not possible to take advantage of the TrustZone features. If you are interested in checking whether the TrustZone enabled QEMU still works, take a stab at booting your favorite Arm 1176 or Cortex-A8/A9/A15 Linux kernel as follows from the QEMU root directory:
@@ -170,7 +157,6 @@ In order to take advantage of QEMU’s security extensions, you have to have an 
 ```bash
     $ ./arm-softmmu/qemu-system-arm -kernel $PATH_TO_KERNEL/zImage -M vexpress-a15 -cpu cortex-a15 -dtb PATH_TO_DTB/vexpress-v2p-ca15-tc1.dtb -m 1024 -append 'console=ttyAMA0,38400n8' -serial stdio -initrd $PATH_TO_INITRD/initrd.img
 ```
-
 
 **How do I run a secure image?**
 
@@ -182,7 +168,6 @@ In order to take advantage of QEMU’s support for the Arm Security Extensions, 
 
 ### References
 
-
 [1] [http://www.arm.com/products/processors/technologies/TrustZone/index.php](http://www.arm.com/products/processors/technologies/trustzone/index.php)
 
 [2] [http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch04s01s01.html](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch04s01s01.html)
@@ -193,8 +178,6 @@ In order to take advantage of QEMU’s support for the Arm Security Extensions, 
 
 [5] DDI0406C Arm® Architecture Reference Manual - Armv7-A and Armv7-R edition
 
-
 ### Author
-
 
 **Greg Bellows** and **Christoffer Dall**

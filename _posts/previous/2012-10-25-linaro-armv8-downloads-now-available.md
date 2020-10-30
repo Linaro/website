@@ -1,7 +1,7 @@
 ---
 author: loic.minier
 categories:
-- Blog
+  - blog
 date: 2012-10-25 11:48:00
 description: New Armv8 downloads are now available from Linaro!
 keywords: Linaro, Linux on Arm, Open Source, Release, ArmV8, AArch64, Downloads,  Arm
@@ -9,7 +9,7 @@ layout: post
 link: /blog/releases-blog/linaro-armv8-downloads-now-available/
 slug: linaro-armv8-downloads-now-available
 tags:
-- Releases
+  - Releases
 title: Linaro Armv8 Downloads Now Available
 wordpress_id: 1947
 ---
@@ -22,11 +22,11 @@ While hardware isn't available for purchase, Arm offers a free of charge Armv8 v
 
 The filesystem images are based on OpenEmbedded and come in three flavors:
 
-  * minimal -- just to get you to a shell prompt
+- minimal -- just to get you to a shell prompt
 
-  * SDK -- includes developer tools such as a native GNU toolchain
+- SDK -- includes developer tools such as a native GNU toolchain
 
-  * LAMP -- includes MySQL, Apache, and PHP!
+- LAMP -- includes MySQL, Apache, and PHP!
 
 Linaro is also offering cross-toolchains for Linux and Windows hosts in two flavors: a bare-metal cross-toolchain and a GNU/Linux one (targeting glibc).
 

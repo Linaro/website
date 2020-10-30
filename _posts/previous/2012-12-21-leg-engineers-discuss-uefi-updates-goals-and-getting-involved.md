@@ -1,18 +1,20 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-12-21 19:16:52
-description: LEG Engineers held a public Hangout on Air where they discussed UEFI
+description:
+  LEG Engineers held a public Hangout on Air where they discussed UEFI
   updates, future goals and how to get involved.
-keywords: Linaro, Linux on Arm, Arm, Open Source, Linux, LEG, Linaro Enterprise Group,
+keywords:
+  Linaro, Linux on Arm, Arm, Open Source, Linux, LEG, Linaro Enterprise Group,
   Announcement, Releases, Hangout on Air, UEFI
 layout: post
 link: /blog/community-blog/leg-engineers-discuss-uefi-updates-goals-and-getting-involved/
 slug: leg-engineers-discuss-uefi-updates-goals-and-getting-involved
 tags:
-- Community
-title: 'LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved'
+  - Community
+title: "LEG Engineers Discuss UEFI: Updates, Goals and Getting Involved"
 wordpress_id: 2183
 ---
 
@@ -21,8 +23,6 @@ A UEFI Mini-Sprint was held at the Linaro offices in Cambridge UK on 11-13 Decem
 [Rony Nandy](/about/), Enterprise Server Engineer for the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG) summed up the Sprint in a [blog post this week](/blog/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/). Nandy writes in his post that during the this mini-sprint problems such as a location for all the board support for edk2(UEFI) on Arm were fixed.  The maintainer-ship structure for UEFI on Arm was also discussed and goals for UEFI on Arm in 2013 were put in motion.
 
 LEG Engineers held [a public Hangout on Air](http://youtu.be/hSnXW3DjQ4I) where they discussed UEFI updates, future goals and how to get involved.
-
-
 
 Participants for this hangout included [Andrea Gallo](/about/), Director of LEG who opened the Hangout and facilitated the discussion. [David Rusling](/about/), Linaro, CTO gave feedback and [Grant Likely](/about/), Technical Architect discussed the various goals that were achieved at the mini-sprint.
 
@@ -38,9 +38,7 @@ More information about LEG and its goals and release schedule can be found on th
 
 To get involved with LEG and help plan the future of Linux on Arm in 2013 consider joining us at our next Linaro Connect event[ LCA13](https://connect.linaro.org) which will be held on 4-8 March at the Gold Coast Hotel in Hong Kong. [Registration](http://linaro.eventbrite.co.uk/) for this event is now open.
 
-
 #### About
-
 
 **Linaro Enterprise Group (LEG)**
 

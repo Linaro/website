@@ -7,14 +7,14 @@ slug: hisilicon-creates-poplar-the-first-96boards-tv-platform-development-board
 title: HiSilicon creates Poplar, the first 96Boards TV Platform development board
 wordpress_id: 11525
 categories:
-- Blog
+  - blog
 tags:
-- 96Boards
-- Enterprise edition
-- hardware
-- LHG
-- Linux
-- Linux on Arm
+  - 96Boards
+  - Enterprise edition
+  - hardware
+  - LHG
+  - Linux
+  - Linux on Arm
 ---
 
 HiSilicon Technologies announced the arrival of Poplar, the first Linaro 96Boards TV Platform development board (Press release:[ /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/) ).
@@ -29,7 +29,7 @@ _HiSilicon Poplar TV Platform Board (courtesy Tocoding Technologies)_
 
 Poplar’s design is based on the 96Boards TV Platform specification, which focuses on home media requirements targeted to set-top boxes, media gateways and TV panel manufacturers. The requirements for the 96Boards TV Platform specification were defined by the Linaro Digital Home Group (LHG) director and member company representatives of the LHG steering committee.
 
-The TV Platform specification includes support for key premium technologies such as 4k UHD video at 60fps and powerful graphics processing units (GPUs). The specification permits a wide array of high-speed peripherals (USB3.0, SATA, PCIe) and a host of media/networking connectors such as HDMI 2.0a with HDCP 2.2, S/PDIF, Gigabit Ethernet, etc. WiFi and _Bluetooth_® wireless technology are also defined for use in a home network environment. A key feature of the specification is the option for a PCIe card that can accommodate media/graphics/WiFi or other peripherals.
+The TV Platform specification includes support for key premium technologies such as 4k UHD video at 60fps and powerful graphics processing units (GPUs). The specification permits a wide array of high-speed peripherals (USB3.0, SATA, PCIe) and a host of media/networking connectors such as HDMI 2.0a with HDCP 2.2, S/PDIF, Gigabit Ethernet, etc. WiFi and *Bluetooth*® wireless technology are also defined for use in a home network environment. A key feature of the specification is the option for a PCIe card that can accommodate media/graphics/WiFi or other peripherals.
 
 The specification also defines an optional tuner interface to permit using an external tuner card to deliver MPEG Transport Streams via Cable/Terrestrial/Satellite sources to the board. This makes the platform ideal for exercising use cases in 'hybrid' environments where traditional linear video services provided by a service provider can be combined with video services delivered via broadband such as IPTV or OTT streaming services. In addition, a SmartCard connector option is defined to use a separate security module for decryption of services.
 
@@ -43,7 +43,7 @@ Please visit LHG at[ LAS16](https://connect.linaro.org/las16/) to see some of th
 
 The 96Boards Poplar Hardware User Manual is available here:[https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html](https://www.96boards.org/documentation/enterprise/poplar/hardware-docs/hw-user-manual.md.html)
 
-The 96Boards Poplar board is currently on sale for $79USD + Shipping on Aliexpress ([https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI](https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI)).
+The 96Boards Poplar board is currently on sale for \$79USD + Shipping on Aliexpress ([https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI](https://www.aliexpress.com/item/32811234610.html?spm=2114.12010615.0.0.UxfuRI)).
 
 Linaro has officially released the 96Boards TV Platform Specification at this location:[ http://www.96boards.org/specifications/](http://www.96boards.org/specifications/).
 

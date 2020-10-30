@@ -6,7 +6,7 @@ link: /blog/building-a-linaro-android-build-from-source/
 slug: building-a-linaro-android-build-from-source
 title: "Building a Linaro Android Build from Source"
 categories:
-- Blog
+  - blog
 ---
 
 Building a Linaro Android build from scratch is a great way to learn more about Android and work more efficently with the Android team. I recently ran through these steps and produced a build that could be programmed on a Panda. These steps should work for the other boards.
@@ -17,8 +17,7 @@ We track the tips of the technology we integrate including the toolchain, kernel
 
 I'm using [https://android-build.linaro.org/builds/~linaro-android/panda/]()https://android-build.linaro.org/builds/~linaro-android/panda/.
 
-Commands are prefixed with $.
-
+Commands are prefixed with \$.
 
 ## Grab the Source Code
 
@@ -42,7 +41,6 @@ $repo sync
 
 ## Get the Toolchain
 
-
 The toolchain listed on the build page.
 
 ```bash
@@ -50,7 +48,6 @@ $wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro
 
 $tar -jxvf android-toolchain-eabi-linaro-4.6-2011.08-18-2011-09-12_08-38-17-linux-x86.tar.bz2
 ```
-
 
 ## Build
 
@@ -61,9 +58,7 @@ Get linaro-image-tools to program the images on an SD card
 
 ```
 
-
 ## Program the Image
-
 
 The linaro-image-tools package allows you to easily program the compressed tar balls onto an SD card.
 
@@ -84,8 +79,6 @@ $./linaro-image-tools/linaro-android-media-create --mmc /dev/sdc --dev panda --s
 $minicom -D /dev/ttyUSB0 -w -C minicom.txt
 ```
 
-
 ## Try It!
-
 
 Insert the card in Panda and your booting your custom built Android!

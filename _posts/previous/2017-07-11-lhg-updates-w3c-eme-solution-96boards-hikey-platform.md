@@ -7,13 +7,12 @@ slug: lhg-updates-w3c-eme-solution-96boards-hikey-platform
 title: LHG updates W3C EME solution for 96Boards HiKey platform
 wordpress_id: 12583
 categories:
-- Blog
+  - blog
 ---
 
 **_Authors: Mark Gregotski and Peter Griffin_**
 
 {% include image.html path="/assets/images/blog/hikey-960-hd-front.png" alt="Hikey960 Front Board Image" %}
-
 
 The Linaro Digital Home Group (LHG) is pleased to announce an updated reference build of W3C EME Clear Key on the 96Boards HiKey platform. The build uses open source components to implement an HTML5 browser-based playback of encrypted content using Linaros open source ‘Open Portable Trusted Execution Environment’ (OP-TEE) running on Arm TrustZone. The reference build uses the widely used OpenEmbedded build system for this Linux based implementation.
 
@@ -21,19 +20,17 @@ The Chromium browser-based implementation is an end-to-end solution that retriev
 
 Support for Secure Data Path extensions (included in [OP-TEE v2.4.0](https://github.com/OP-TEE/optee_os/releases/tag/2.4.0) release, but not enabled for HiKey) has also been enabled for the HiKey platform in this release. The SDP extensions aren’t currently being leveraged by the OpenCDM and Chromium components, but can be tested using the ‘xtest --sdp-basic’ test suite, making this reference build a good starting point on which to base future SDP development.
 
-
 ### **The Clear Key build is comprised of the following components:**
 
-  * Chromium v53.0.2785.143
-  * Wayland (v1.11)-Weston
-  * Mali 450MP4 GPU r6p0 release with graphics drivers (supporting drm/kms, dma-buf)
-  * OpenCDM
-  * OP-TEE v 2.4.0
-  * Sample Trusted Application (AES Decryption)
-  * Linux kernel v. 4.9
+- Chromium v53.0.2785.143
+- Wayland (v1.11)-Weston
+- Mali 450MP4 GPU r6p0 release with graphics drivers (supporting drm/kms, dma-buf)
+- OpenCDM
+- OP-TEE v 2.4.0
+- Sample Trusted Application (AES Decryption)
+- Linux kernel v. 4.9
 
 ### **Build & Flashing Instructions**
-
 
 The consolidated build and flashing instructions for the HiKey board on which this reference build is based are provided below. Pre-built images to enable quick evaluation of the EME solution are also provided here [https://releases.linaro.org/openembedded/images/lhg/hikey/17.06/](https://releases.linaro.org/openembedded/images/lhg/hikey/17.06/).
 
@@ -101,11 +98,9 @@ See example output below.
 For a more detailed description of the Linaro Clear Key solution, please see this document: [https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf ](https://wiki-archive.linaro.org/LHG/LHGPublicDocuments?action=AttachFile&do=view&target=KeySystems.pdf)
 The W3C EME specification [2] details the messaging flow between elements that support encrypted media recognition and support for obtaining keys to decrypt the video. The EME Clear Key solution is required for any compliant EME solution.
 
-
 {% include image.html path="/assets/images/blog/html5-eme-application.png" alt="HTML5 EME Application Image" %}
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
-
 
 {% include image.html path="/assets/images/blog/linaro-clearkey-implementation.png" alt="Linaro ClearKey Implementation Image" %}
 

@@ -1,14 +1,16 @@
 ---
 author: eric.auger
 categories:
-- Blog
+  - blog
 date: 2016-02-29 23:08:58
-description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
+description:
+  While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic
   subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
   on Arm server systems.
-excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM, also
+excerpt:
+  While PCIe passthrough (the process of assigning a PCIe device to a VM, also
   known as device assignment) is supported through a mostly architecture-agnostic
   subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
@@ -17,15 +19,15 @@ layout: post
 link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
 slug: kvm-pciemsi-passthrough-armarm64
 tags:
-- Core Dump
-- Arm servers
-- kernel
-- Linux
-- Linux on Arm
-- MSI
-- PCIe
-- qemu
-- VFIO
+  - Core Dump
+  - Arm servers
+  - kernel
+  - Linux
+  - Linux on Arm
+  - MSI
+  - PCIe
+  - qemu
+  - VFIO
 title: KVM PCIe/MSI Passthrough on Arm/Arm64
 wordpress_id: 10013
 ---
@@ -34,16 +36,14 @@ wordpress_id: 10013
 
 While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an Arm-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on Arm server systems.
 
-
 # Message Signaled Interrupts
-
 
 MSIs are an alternative to wire based interrupts. A device using MSIs does not need a dedicated line to the interrupt controller. Instead, to trigger interrupts a device simply writes at a specific memory address belonging to a piece of HW that can generate interrupts as a result of the memory write.  Such hardware is typically referred to as an MSI controller. The MSI controller derives an interrupt ID from the written message.
 
 Thus, the MSI-enabled device must be programmed with:
 
-  * the address to write to
-  * and a payload
+- the address to write to
+- and a payload
 
 # Arm MSI Controllers
 
@@ -67,21 +67,15 @@ Separate MSI frames are provisioned for interrupt isolation purpose. Each frame 
 
 ## GICv3 ITS
 
-
 GICv3 supports a compatibility mode where a similar mechanism as GICv2m is used. But more importantly it supports the Interrupt Translation Service (ITS) mechanism. The ITS exposes a single 64kB MSI frame. This MSI frame contains the GITS_TRANSLATOR register (ITS doorbell register). This is the address to be written when a device wants to trigger an interrupt. The ITS implements a translation mechanism that takes as input the eventid passed in the MSI data payload, a device id (conveyed out-of-band, typically on the AXI user bits) and outputs an LPI id. LPI stands for Local Peripheral Interrupt. The GIC HW takes this LPI ID as input.
 
 As opposed to the GICv2M, the ITS must be configured by software before it is used. For example, translation tables need to be programmed before any MSI translation can succeed:
 
+- A device table entry must exists per deviceid, pointing to a device interrupt translation table
 
-
-
-  * A device table entry must exists per deviceid, pointing to a device interrupt translation table
-
-
-  * An entry must exist in the device interrupt translation table for each eventid the device is likely to produce. This entry basically tells which LPI ID to trigger (and the CPU it targets)
+- An entry must exist in the device interrupt translation table for each eventid the device is likely to produce. This entry basically tells which LPI ID to trigger (and the CPU it targets)
 
 {% include image.html path="/assets/images/blog/KVM-blog-image-3.jpg" alt="KVM blog image 3" %}
-
 
 Interrupt translation is also supported on Intel hardware as part of the VT-d spec. The Intel IRQ remapping HW provides a translation service similar to the ITS. The difference is that the intel implementation looks more like a true IOMMU in the sense the translation process uses the MSI address as input as well the MSI data payload. On Arm the deviceid is conveyed out of band.
 
@@ -89,9 +83,7 @@ So on x86 there is not a single doorbell address MSI messages are written to. In
 
 For that reason the IRQ remapping HW is abstracted by IOMMU drivers.  On Arm, ITS is abstracted by irqchip driver.
 
-
 # KVM PCI/MSI passthrough, x86/Arm Differences
-
 
 This chapter explains why the current VFIO integration (QEMU VFIO PCI device/ kernel VFIO PCI driver) does not work for Arm.
 
@@ -107,15 +99,11 @@ Without changes to the VFIO subsystem, MSIs simply cause IOMMU aborts because no
 
 The goal of the ongoing work is to create the needed IOMMU mappings for MSI write transactions to eventually reach the hardware MSI frame.
 
-
 # Assigned device MSI Setup
-
 
 This chapter describes how an MSI is setup for an assigned device. First we discuss the VFIO legacy implementation (upstreamed implementation working for x86). Then we explain the adaptations needed to make it functional on Arm/Arm64.
 
-
 ## Legacy Implementation
-
 
 VFIO decouples the MSI configuration of the physical PCIe device from the configuration performed by the guest driver.
 
@@ -127,9 +115,7 @@ Then the MSI forwarding follows that path:
 
 host computed MSI message -> host computed physical SPI ID -> eventfd -> guest computed virtual SPI ID
 
-
 ## Requested adaptation for Arm
-
 
 When the VFIO PCI driver programs the assigned physical PCIe device with an MSI message composed by the host, we need to replace the MSI message address (the doorbell host physical address) by an IOVA, mapped onto this doorbell physical address.
 
@@ -147,9 +133,7 @@ The IOVA allocation within the supplied reserved IOVA window is performed on-dem
 
 So there are adaptations needed at VFIO, IOMMU and MSI controller level. The extension of the IOMMU API still is under discussion. Also changes at MSI controller level need to be consolidated.
 
-
 # Interrupt Safety
-
 
 When an MSI enabled device is assigned to a guest we need to guarantee it cannot trigger MSIs that correspond to interrupt IDs of devices belonging to the host or other guests. Indeed once a device gets access to an MSI frame, shared with others, nothing prevents a malicious user-space driver to trigger DMA requests within that region. This can lead to denial of service attacks.
 
@@ -165,45 +149,31 @@ Also even with multiple MSI frames, an SR-IOV PCI device attached to a PCI host 
 
 Since the HW does not support IRQ remapping, the host kernel would need to check that devices attached to a VFIO group do not share an MSI frame with devices outside of the group. Performing such a check in software involves extending the VFIO notion of group viability. This would bring a significant design complexity and the choice was made to consider MSI passthrough without IRQ remapping capable msi-parent as unsafe.
 
-If the end-user takes the risk to enable such passthrough, he must explicitly load the VFIO_IOMMU_TYPE1 module with allow_unsafe_interrupts parameter set to 1 (see the _User Perspective_ section). This is an obvious limitation, but works the same way in the x86 world.
-
+If the end-user takes the risk to enable such passthrough, he must explicitly load the VFIO*IOMMU_TYPE1 module with allow_unsafe_interrupts parameter set to 1 (see the \_User Perspective* section). This is an obvious limitation, but works the same way in the x86 world.
 
 ## Interrupt Safety with GICv3 ITS
 
-
 With GICv3 ITS we do not have this issue since each MSI transaction is tagged with a device-id and the device-id makes possible to separate the LPI domains. The ITS supports IRQ remapping similarly to the Intel VT-d IRQ remapping HW: MSI passthrough is safely supported and users do not need to use the allow_unsafe_interrupts parameter.
 
-
 # Conclusions
-
 
 Supporting MSI passthrough with KVM on Arm platforms requires changes to Linux and QEMU due to underlying differences between the Arm and x86 architectures. Arm platforms with GICv2m MSI controllers will require users to load VFIO with the allow_unsafe_interrupts parameter for MSI passthrough to work, but GICv3 ITS platforms will work with VFIO without any additional parameters.
 
 The changes required to Linux and QEMU are currently being upstreamed by Linaro and the latest versions of the patch series are referenced below [5, 6].
 
-
 ## User Perspective
-
 
 This chapter illustrates the assignment of 2 different PCIe devices:
 
+- Intel 82574L Ethernet Controller (**e1000e**)
 
-
-
-  * Intel 82574L Ethernet Controller (**e1000e**)
-
-
-  * Intel X540-T2 Ethernet Controller (SR-IOV capable)
-
+- Intel X540-T2 Ethernet Controller (SR-IOV capable)
 
 on  AMD 64-bit Arm Overdrive featuring a single GICv2M MSI frame.
 
-
 ## e1000e Assignment
 
-
 #### Host Compilation
-
 
 _make defconfig_
 _scripts/config -e CONFIG_IOMMU_SUPPORT_
@@ -217,9 +187,7 @@ _scripts/config -e CONFIG_NET_VENDOR_AMD_
 _scripts/config -e CONFIG_AMD_XGBE_
 _scripts/config -e CONFIG_E1000E_
 
-
 #### Host PCIe Topology
-
 
 _00:00.0 0600: 1022:1a00
 Subsystem: 1022:1a00
@@ -235,24 +203,20 @@ _00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1a01_
 _00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1a02_
 **_01:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection_**
 
-
 #### Module Loading
 
-allow_unsage_interrupts opt-in:
-_sudo modprobe -v vfio-pci
+allow*unsage_interrupts opt-in:
+\_sudo modprobe -v vfio-pci
 sudo modprobe -r vfio_iommu_type1
-sudo modprobe -v vfio_iommu_type1 allow_unsafe_interrupts=1_
-
+sudo modprobe -v vfio_iommu_type1 allow_unsafe_interrupts=1*
 
 #### VFIO-PCI driver binding
-
 
 The following command lines unbind the native e1000e driver and bind the vfio-pci driver instead:
 
 _echo vfio-pci > /sys/bus/pci/devices/0000:01:00.0/driver_override_
 _echo 0000:01:00.0 > /sys/bus/pci/drivers/e1000e/unbind_
 _echo 0000:01:00.0 > /sys/bus/pci/drivers_probe_
-
 
 #### QEMU command line example
 
@@ -261,14 +225,12 @@ _--enable-kvm -kernel /root/VM/Image \_
 _-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=guestrootfs \_
 _-device virtio-blk-device,drive=guestrootfs \_
 _-net none \_
-**_-device vfio-pci,host=01:00.0_** \
-_-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
-
+\*\*_-device vfio-pci,host=01:00.0*\*\* \
+*-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'\_
 
 ## X540-T2 (SR-IOV capable) Assignment
 
 #### Host Compilation
-
 
 **ACS Capability Override**
 PCIe ACS capability (Access Control Service) is not properly exposed on this HW.
@@ -290,13 +252,13 @@ _scripts/config -m CONFIG_IXGBEVF_
 Host PCIe Topology
 **Before SR-IOV enabling:**
 **_00:00.0 0600: 1022:1a00_**
-       _Subsystem: 1022:1a00_
+       *Subsystem: 1022:1a00*
 _00:02.0 0600: 1022:1a01_
 _00:02.2 0604: 1022:1a02_
-       _Kernel driver in use: pcieport_
+       *Kernel driver in use: pcieport*
 _01:00.0 0200: 8086:1528 (rev 01)_
-       _Subsystem: 8086:0002_
-       _Kernel driver in use: ixgbe_
+       *Subsystem: 8086:0002*
+       *Kernel driver in use: ixgbe*
 
 **SR-IOV enabling:**
 
@@ -308,44 +270,38 @@ _modprobe ixgbe max_vfs=2_
 Now the PCIe topology looks like:
 
 _-[0000:00]-+-00.0_
-          _+-02.0_
-          _\-02.2-[01]--+-00.0_
-                       _+-10.0_
-                       _\-10.2_
+          *+-02.0*
+          *\-02.2-[01]--+-00.0*
+                       *+-10.0*
+                       *\-10.2*
 
 _00:00.0 0600: 1022:1a00_
-       _Subsystem: 1022:1a00_
+       *Subsystem: 1022:1a00*
 _00:02.0 0600: 1022:1a01_
 _00:02.2 0604: 1022:1a02_
-       _Kernel driver in use: pcieport_
+       *Kernel driver in use: pcieport*
 _01:00.0 0200: 8086:1528 (rev 01) eth4_
-       _Subsystem: 8086:0002_
-       _Kernel driver in use: ixgbe
-_**_01:10.0 0200: 8086:1515 (rev 01)
-       _**Subsystem: 8086:0002**_
-       _**Kernel driver in use: ixgbevf**_
-_**01:10.2 0200: 8086:1515 (rev 01)**_
-      _**Subsystem: 8086:0002v**_ 
-      _**Kernel driver in use: ixgbevf**_ 
-
+       *Subsystem: 8086:0002*
+       *Kernel driver in use: ixgbe
+***_01:10.0 0200: 8086:1515 (rev 01)
+       _**Subsystem: 8086:0002**\_
+       \_**Kernel driver in use: ixgbevf**\_
+\_**01:10.2 0200: 8086:1515 (rev 01)**\_
+      \_**Subsystem: 8086:0002v**\_ 
+      \_**Kernel driver in use: ixgbevf\*\*\_
 
 #### Allow Unsafe Interrupts
-
 
 _sudo modprobe -v vfio-pci
 sudo modprobe -r vfio_iommu_type1
 sudo modprobe -v vfio_iommu_type1 allow_unsafe_interrupts=1_
 
-
 #### Physical Function Enable
-
 
 The PF must be enabled before assigning the VFs.
 ifconfig eth4 up
 
-
 #### VFIO-PCI driver binding
-
 
 unbind the ixgbevf native driver and bind vfio-pci driver instead:
 
@@ -353,9 +309,7 @@ echo vfio-pci > /sys/bus/pci/devices/0000:01:10.0/driver_override
 echo 0000:01:10.0 > /sys/bus/pci/drivers/ixgbevf/unbind
 echo 0000:01:10.0 > /sys/bus/pci/drivers_probe
 
-
 #### QEMU Command line
-
 
 _qemu-system-aarch64 -M virt -smp 4 -m 4096 -cpu host -serial stdio -display none \_
 _--enable-kvm -kernel /root/VM/Image1 \_
@@ -363,14 +317,9 @@ _-drive if=none,cache=writethrough,file=/root/VM/ubuntu10.img,format=raw,id=gues
 _-net none **-device vfio-pci,host=01:10.0** \_
 _-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
 
-
 # References
 
-
-
-
 ## Documents
-
 
 [1] Server Base System Architecture, (SBSA): [http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0029/index.html](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0029/index.html)
 
@@ -380,9 +329,7 @@ _-append 'loglevel=8 root=/dev/vda rw console=ttyAMA0 earlyprintk ip=dhcp'_
 
 [4] Intel® Virtualization Technology for Directed I/O (Architecture Specification):  [http://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/vt-directed-io-spec.pdf](http://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/vt-directed-io-spec.pdf)
 
-
 ## Kernel & QEMU Series
-
 
 [5] kernel series: KVM PCIe/MSI passthrough on Arm/Arm64 [https://lkml.org/lkml/2016/2/12/47](https://lkml.org/lkml/2016/2/12/47)
 

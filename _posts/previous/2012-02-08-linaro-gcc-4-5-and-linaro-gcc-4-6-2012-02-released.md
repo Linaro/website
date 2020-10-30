@@ -7,7 +7,7 @@ slug: linaro-gcc-4-5-and-linaro-gcc-4-6-2012-02-released
 title: Linaro GCC 4.5 and Linaro GCC 4.6 2012.02 released
 wordpress_id: 1239
 categories:
-- Blog
+  - blog
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.02
@@ -19,37 +19,28 @@ fixes and backports Cortex-A7 and Cortex-A15 support from FSF trunk.
 
 Interesting changes include:
 
-  * Updates to 4.6.2+svn183786.
+- Updates to 4.6.2+svn183786.
 
+- Add initial Cortex-A7 support.
 
-  * Add initial Cortex-A7 support.
+- Backport Cortex-A15 tuning improvements from upstream.
 
-
-  * Backport Cortex-A15 tuning improvements from upstream.
-
-
-  * Backport improvements to 64 bit unsigned comparisons.
+- Backport improvements to 64 bit unsigned comparisons.
 
 Fixes:
 
+- LP: [#917967](http://bugs.launchpad.net/bugs/917967) Backport the fix for PR51799.
 
-  * LP: [#917967](http://bugs.launchpad.net/bugs/917967) Backport the fix for PR51799.
+- LP: [#836588](http://bugs.launchpad.net/bugs/836588) armel FTBFS with gcc 4.5 org 4.6 O2 and fPIC.
 
-
-  * LP: [#836588](http://bugs.launchpad.net/bugs/836588) armel FTBFS with gcc 4.5 org 4.6 O2 and fPIC.
-
-
-  * LP: [#879725](http://bugs.launchpad.net/bugs/879725) ICE in int_mode_for_mode, at stor-layout.c:490.
-
-
+- LP: [#879725](http://bugs.launchpad.net/bugs/879725) ICE in int_mode_for_mode, at stor-layout.c:490.
 
 Linaro GCC 4.5 2012.02 is the eighteenth release in the 4.5 series. Based
 off the latest GCC 4.5.3+svn183785, it is a maintenance only release.
 
 Interesting changes include:
 
-
-  * Updates to 4.5.3+svn183785.
+- Updates to 4.5.3+svn183785.
 
 The source tarballs are available from:
 [https://launchpad.net/gcc-linaro/+milestone/4.6-2012.02](https://launchpad.net/gcc-linaro/+milestone/4.6-2012.02)

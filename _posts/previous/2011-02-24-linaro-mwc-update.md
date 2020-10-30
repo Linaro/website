@@ -1,7 +1,7 @@
 ---
 author: shovan
 categories:
-- News
+  - news
 date: 2011-02-24 12:10:49
 description: CAMBRIDGE, UK - 24 FEB 2011
 layout: post

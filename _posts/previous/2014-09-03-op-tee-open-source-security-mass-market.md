@@ -8,7 +8,7 @@ slug: op-tee-open-source-security-mass-market
 title: OP-TEE, open-source security for the mass-market
 wordpress_id: 6500
 categories:
-  - Blog
+  - blog
 tags:
   - Core Dump
   - android

@@ -1,7 +1,7 @@
 ---
 author: jennifer.castelino
 categories:
-- Blog
+  - blog
 date: 2014-03-26 15:30:47
 description: Wrap-up of the LCA14 final days activities and awards
 layout: post
@@ -16,7 +16,6 @@ As the saying goes “All good things must come to an end” and so it was that 
 Following David’s keynote the last of the week’s sessions began. There were a number of sessions that took place on Friday covering topics such as generic TrustZone® solutions, ION upstreaming, Android upstreaming, OpenJDK performance evaluation and Comparative analysis of preemption vs. preempt-rt to name a few. All of the available presentations and videos from the Friday sessions are listed below.
 
 After lunch we once again held the rapid summaries by the teams for the week’saccomplishments. This was a big hit at LCU13 and gave all the attendees a chance to see what each team had been doing for the week and what was completed. Due to the limited time each team was given to present their summaries it fostered some very creative presentations.  Once the rapid summaries ended the awards started. During each Linaro Connect we take a moment to recognize those individuals and/or teams that are making tremendous contributions to Linaro. Below are some of our winners.
-
 
 Finally, what better way to finish off the week than to have a Technology Showcase of Linaro based demos. This was an exciting event that gave the teams a chance to demonstrate what they had been working on. Those attending were treated to snacks and drinks while they walked around and viewed the demos. It was great way to end a fun-filled week of learning, socializing and hacking.
 
@@ -192,6 +191,5 @@ No Video available
 </tr>
 </tbody>
 </table>
-
 
 Although Linaro Connect Asia 2014 has just ended we are already in the planning process for our next Linaro Connect event.  Be sure to register to join us September 15-19th, 2014 at the Hyatt Regency in Burlingame, California for [Linaro Connect USA 2014 (LCU14).  ](https://connect.linaro.org/lca14)

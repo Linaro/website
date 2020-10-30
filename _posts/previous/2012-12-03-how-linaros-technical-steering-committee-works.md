@@ -1,9 +1,10 @@
 ---
 author: david.rusling
 categories:
-- Blog
+  - blog
 date: 2012-12-03 17:28:35
-description: A look at how Linaro's Technical Steering Committee (TSC) works and how
+description:
+  A look at how Linaro's Technical Steering Committee (TSC) works and how
   this has evolved over time.
 keywords: Linaro, TSC, Committee, missions, roadmap, working groups
 layout: post
@@ -21,11 +22,11 @@ So, history has taught us that you cannot run an complex engineering organisatio
 
 One (important) side effect of setting up OPSCOM is that we realized that we need tools and we settled on Jira, which we currently use to handle Linaro’s requirements. Engineering work is described in blueprints, but we’re experimenting with using Jira for those too as it is a bit of a pain to use two different tools for planning. The project managers are experimenting with generating spreadsheets of deliverables (date started, date finished, date upstreamed etc) automatically. That should simplify things and make it easier for our members to see what we’re doing (without the need for delving into wikis, code bases, Jira and launchpad) and to align their activities with ours.
 
-This is a good time to make these changes as we have just launched the Linaro Enterprise Group (LEG). This has brought many new members into Linaro and having a simple and straightforward way to interact with Linaro planning and engineering teams is not just a ‘nice to have’ but essential.  You can find the LEG web pages at [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/).
+This is a good time to make these changes as we have just launched the Linaro Enterprise Group (LEG). This has brought many new members into Linaro and having a simple and straightforward way to interact with Linaro planning and engineering teams is not just a ‘nice to have’ but essential. You can find the LEG web pages at [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/).
 
 Speaking of LEG, the LEG steering committee will elect a representative into the main TSC.
 
-To be clear, setting up OPSCOM and getting a roadmap in place was the result of a lot of hard work by many people, but I'll single a couple of folks out. One is Loic Minier, who created the role of Linaro Product Manager and another is Ilias Biris, an a program manager and expert with Jira.  One thing that I like about Linaro is that it is not only engineering code, it is engineering how it works, tuning it to the size of the organisation and our membership.
+To be clear, setting up OPSCOM and getting a roadmap in place was the result of a lot of hard work by many people, but I'll single a couple of folks out. One is Loic Minier, who created the role of Linaro Product Manager and another is Ilias Biris, an a program manager and expert with Jira. One thing that I like about Linaro is that it is not only engineering code, it is engineering how it works, tuning it to the size of the organisation and our membership.
 
 Another role of the TSC is the creation and removal of working groups. As Linaro grew, we realized that we needed specialist groups working on power management, graphics and multimedia. Creating these groups all required a vote from the TSC. Later, as we realised that the graphics and multimedia teams were mostly driving efficiency work in the Linux kernel, we merged those two groups.
 

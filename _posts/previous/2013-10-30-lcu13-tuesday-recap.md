@@ -1,58 +1,47 @@
 ---
 author: steve.taylor
 categories:
-- Blog
+  - blog
 date: 2013-10-30 14:30:25
-description: Recap of the events that took place on Tuesday October 29th at the Linaro
+description:
+  Recap of the events that took place on Tuesday October 29th at the Linaro
   Connect USA 2013 in Santa Clara.
 keywords: Linaro, Arm, Facebook, Linux, opensource, Android
 layout: post
 link: /blog/connect-update/lcu13-tuesday-recap/
 slug: lcu13-tuesday-recap
 tags:
-- Connect Events
-- connect
-- Linaro Connect
-- Linux
-- Linux on Arm
-- Opensource
+  - Connect Events
+  - connect
+  - Linaro Connect
+  - Linux
+  - Linux on Arm
+  - Opensource
 title: LCU13 Tuesday Recap
 wordpress_id: 3128
 ---
 
-Linaro Connect USA 2013 continued on Tuesday October 29 in Santa Clara, California.  On Tuesday Linaro had multiple keynote speakers.  The day started off with the [“Fireside Chat with Frank Frankovsky and Vijay Rao](http://www.youtube.com/watch?v=UUAU5JnP1EM)”, both from Facebook. The director of the Linaro Enterprise Group (LEG), Andrea Gallo, hosted this discussion about server trends and requirements. Linaro CEO George Grey then made a short appearance toannounce the [launch of OpenDataPlane™ (ODP)](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/).  This has been begun by industry leaders in the Linaro Networking Group (LNG) collaborating to develop and host a truly open source, cross-platform application programming interface (API) for data plane applications on [www.opendataplane.org](http://www.opendataplane.org/). Jarmo Hillo, Head of Processor Technology at Nokia Solutions and Networks, rounded out the keynotes with a talk on [High End Telecom Networking.](https://www.slideshare.net/linaroorg/lcu13-lng-highpernetwkingdeepdivejarmo131023)** ******
+Linaro Connect USA 2013 continued on Tuesday October 29 in Santa Clara, California.  On Tuesday Linaro had multiple keynote speakers.  The day started off with the [“Fireside Chat with Frank Frankovsky and Vijay Rao](http://www.youtube.com/watch?v=UUAU5JnP1EM)”, both from Facebook. The director of the Linaro Enterprise Group (LEG), Andrea Gallo, hosted this discussion about server trends and requirements. Linaro CEO George Grey then made a short appearance toannounce the [launch of OpenDataPlane™ (ODP)](/news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/).  This has been begun by industry leaders in the Linaro Networking Group (LNG) collaborating to develop and host a truly open source, cross-platform application programming interface (API) for data plane applications on [www.opendataplane.org](http://www.opendataplane.org/). Jarmo Hillo, Head of Processor Technology at Nokia Solutions and Networks, rounded out the keynotes with a talk on [High End Telecom Networking.](https://www.slideshare.net/linaroorg/lcu13-lng-highpernetwkingdeepdivejarmo131023)** \*\*\*\***
 
 Linaro Connect sessions followed the keynotes in the morning of Tuesday and the afternoon was filled with engineering working sessions. The morning sessions included:
 
+- [Android upstreaming - status and future:](http://lcu-13.zerista.com/event/member/85107)[View Video](http://www.youtube.com/watch?v=BeK28igciCk), [Download slides](https://www.slideshare.net/linaroorg/android-statusandfuture)
 
+- [High Performance Networking - Deep dive](http://lcu-13.zerista.com/event/member/85112):  [View Video](http://www.youtube.com/watch?v=QTtKOoIteaY), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-highpernetwkingdeepdivejarmo131023)
 
+- [LAVA LMP Round Table](http://lcu-13.zerista.com/event/member/85123):  [Download Slides](https://www.slideshare.net/linaroorg/02-lava-lmpdave)
 
-  * [Android upstreaming - status and future:](http://lcu-13.zerista.com/event/member/85107)[View Video](http://www.youtube.com/watch?v=BeK28igciCk), [Download slides](https://www.slideshare.net/linaroorg/android-statusandfuture)
+- [Clock Bindings](http://lcu-13.zerista.com/event/member/85110):  [View Video](http://www.youtube.com/watch?v=ZwwQdAwQsKg), [Download Slides](https://www.slideshare.net/linaroorg/common-clockbindingsandstuff)
 
+- [Tracing and Debugging for Networking Applications](http://lcu-13.zerista.com/event/member/85105):  [View Video](http://www.youtube.com/watch?v=z3BdRxMNuwA), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-trackdebugmagnushd)
 
-  * [High Performance Networking - Deep dive](http://lcu-13.zerista.com/event/member/85112):  [View Video](http://www.youtube.com/watch?v=QTtKOoIteaY), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-highpernetwkingdeepdivejarmo131023)
+- [UEFI Next Steps for Enterprise](http://lcu-13.zerista.com/event/member/85111)[:  View Video](http://www.youtube.com/watch?v=IwlOpwHVzwM)
 
+- [Ask a Toolchain Engineer Q&A:  ](http://lcu-13.zerista.com/event/member/85113)  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
 
-  * [LAVA LMP Round Table](http://lcu-13.zerista.com/event/member/85123):  [Download Slides](https://www.slideshare.net/linaroorg/02-lava-lmpdave)
+- [Is UEFI EDK II Ready for Android Mobile?](http://lcu-13.zerista.com/event/member/85114):  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
 
-
-  * [Clock Bindings](http://lcu-13.zerista.com/event/member/85110):  [View Video](http://www.youtube.com/watch?v=ZwwQdAwQsKg), [Download Slides](https://www.slideshare.net/linaroorg/common-clockbindingsandstuff)
-
-
-  * [Tracing and Debugging for Networking Applications](http://lcu-13.zerista.com/event/member/85105):  [View Video](http://www.youtube.com/watch?v=z3BdRxMNuwA), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-trackdebugmagnushd)
-
-
-  * [UEFI Next Steps for Enterprise](http://lcu-13.zerista.com/event/member/85111)[:  View Video](http://www.youtube.com/watch?v=IwlOpwHVzwM)
-
-
-  * [Ask a Toolchain Engineer Q&A:  ](http://lcu-13.zerista.com/event/member/85113)  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
-
-
-  * [Is UEFI EDK II Ready for Android Mobile?](http://lcu-13.zerista.com/event/member/85114):  [View Video](http://www.youtube.com/watch?v=yUmq9mGHC80)
-
-
-  * [Discussion on ODP – Fastpath networking applications on Many Core SoCs](http://lcu-13.zerista.com/event/member/85109):  [View Video](http://www.youtube.com/watch?v=moWTXkbDrCQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-odpdiscussolavv7)
-
+- [Discussion on ODP – Fastpath networking applications on Many Core SoCs](http://lcu-13.zerista.com/event/member/85109):  [View Video](http://www.youtube.com/watch?v=moWTXkbDrCQ), [Download Slides](https://www.slideshare.net/linaroorg/lcu13-lng-odpdiscussolavv7)
 
 Linaro Connect's first ever "Crazy Shirt" Contest began on Tuesday and we have many people competing to win on the Linaro Facebook page.  To "LIKE" your favorite crazy go to: [https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)  the person with the most "LIKES" on Friday November 1st wins.
 

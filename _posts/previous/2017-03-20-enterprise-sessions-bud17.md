@@ -17,12 +17,11 @@ video_thumbnail: None
 wordpress_id: 5594
 youtube_video_url: None
 categories:
-- Blog
+  - blog
 permalink: /blog/:title/
 ---
 
 https://www.youtube.com/playlist?list=PLKZSArYQptsNtWUBuB2DcSEADXqJm6r12
-
 
 **Session Name:** Modern tooling with CentOS and DTS – BUD17-121
 
@@ -34,8 +33,7 @@ This session will cover getting, and using newer tools such as gcc6 to use when 
 **Session ID:** BUD17-121
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-121/](https://connect.linaro.org/resources/bud17/bud17-121/)
 
-
-* * *
+---
 
 **Session Name:** BUD17-201 – ARM Server Standards: The Next Generation – BUD17-201
 
@@ -47,11 +45,7 @@ We have recently achieved a critical milestone of having core enablement for SBS
 **Session ID:** BUD17-201
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-201/](https://connect.linaro.org/resources/bud17/bud17-201/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Updates on Server Base System Architecture and Boot Requirements – BUD17-205
 
@@ -63,11 +57,7 @@ This session will provide updates to the ARM Server Base System Architecture and
 **Session ID:** BUD17-205
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-205/](https://connect.linaro.org/resources/bud17/bud17-205/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Reliability, Availability, and Serviceability (RAS) on ARM64 – BUD17-209
 
@@ -89,11 +79,7 @@ The RAS architecture base on RAS extension, SDEI, APEI.
 **Session ID:** BUD17-209
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-209/](https://connect.linaro.org/resources/bud17/bud17-209/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Libvirt integration and testing for enterprise KVM/ARM – BUD17-213
 
@@ -105,11 +91,7 @@ This technical discussion will highlight on-going Red Hat activities for the int
 **Session ID:** BUD17-213
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-213/](https://connect.linaro.org/resources/bud17/bud17-213/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Cross distro BoF – BUD17-311
 
@@ -121,11 +103,7 @@ Regular session taking place at Connect for developers working on Linux distribu
 **Session ID:** BUD17-311
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-311/](https://connect.linaro.org/resources/bud17/bud17-311/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** DynInst on arm64 – Status – BUD17-323
 
@@ -137,11 +115,7 @@ The DynInst package (https://github.com/dyninst/dyninst) provides an API for pro
 **Session ID:** BUD17-323
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-323/](https://connect.linaro.org/resources/bud17/bud17-323/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Tutorial Scientific Computing on ARM-based Platforms – BUD17-403
 
@@ -153,11 +127,7 @@ Developing applications on ARM based machines: compilers, debuggers, runtimes an
 **Session ID:** BUD17-403
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-403/](https://connect.linaro.org/resources/bud17/bud17-403/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Changes in UEFI land – BUD17-417
 
@@ -169,11 +139,7 @@ A summary of important changes in UEFI land in general, especially in the area o
 **Session ID:** BUD17-417
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-417/](https://connect.linaro.org/resources/bud17/bud17-417/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** 96Boards enablement for openSUSE – BUD17-500
 

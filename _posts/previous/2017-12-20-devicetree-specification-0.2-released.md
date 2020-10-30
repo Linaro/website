@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Devicetree Specification v0.2 Released"
-date:   2017-12-20 12:00:00
-categories: Blog
+title: "Devicetree Specification v0.2 Released"
+date: 2017-12-20 12:00:00
+categories:
+  - blog
 author: Grant Likely
 tags:
-- DeviceTree
+  - DeviceTree
 image: /assets/images/blog/devicetree-logo-dark.png
 ---
 
@@ -22,7 +23,7 @@ changes are added to the master repo.
 
 We're also accepting contributions.
 Anyone is welcome to contribute by posting patches to the
- devicetree-spec@vger.kernel.org mailing list, or by raising issues on the
+devicetree-spec@vger.kernel.org mailing list, or by raising issues on the
 [GitHub page](https://github.com/devicetree-org/devicetree-specification/issues).
 
 You can download a copy of the v0.2 document here:

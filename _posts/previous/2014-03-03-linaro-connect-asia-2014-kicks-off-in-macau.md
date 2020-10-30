@@ -1,32 +1,31 @@
 ---
 author: jennifer.castelino
 categories:
-- Blog
+  - blog
 date: 2014-03-03 18:27:36
 description: Recap of the first day of LCA14
 layout: post
 link: /blog/connect-update/linaro-connect-asia-2014-kicks-off-in-macau/
 slug: linaro-connect-asia-2014-kicks-off-in-macau
 tags:
-- Connect Events
-- conference
-- connect
-- Linaro
-- Linaro Connect
-- Linux
-- Linux on Arm
-- Open Source
-- Opensource
+  - Connect Events
+  - conference
+  - connect
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux on Arm
+  - Open Source
+  - Opensource
 title: Linaro Connect Asia 2014 - Kicks Off in Macau
 wordpress_id: 3430
 ---
 
-[Linaro Connect Asia 2014 ](https://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/) and is a founding member of the new [Linaro Digital Home Group](https://wiki-archive.linaro.org/LHG). 
+[Linaro Connect Asia 2014 ](https://connect.linaro.org/lca14/)opened today in Macau, China.   LCA14 began with Linaro’s CEO, George Grey, announcing that leading Chinese application processor design company, [Allwinner Technology, has joined Linaro as a group member](/news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/) and is a founding member of the new [Linaro Digital Home Group](https://wiki-archive.linaro.org/LHG).
 
-In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief Arm Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: Arm in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for Arm in the Enterprise. 
+In addition to the announcement about Allwinner, Mr. Grey gave a [keynote](https://www.youtube.com/watch?v=L7gPPJSNJBM) discussing the implications and the opportunities for Linaro to support and benefit its members over the coming months.  Linaro also had a guest keynote speaker, Jon Masters, Chief Arm Architect for Redhat.  Mr. Masters spoke about “[Succeeding Together: Arm in the Enterprise](https://www.youtube.com/watch?v=L7gPPJSNJBM)” which discussed the many opportunities and challenges for Arm in the Enterprise.
 
 **Keynotes:**
-
 
 <table cellpadding="0" width="827" cellspacing="0" border="1" class="table responsive-table">
 <tbody >
@@ -77,22 +76,15 @@ No Slides
 </tbody>
 </table>
 
-
-
 There were several sessions that took place on Monday after the keynotes had concluded.  These sessions included:
+
 <table cellpadding="0" width="874" cellspacing="0" border="1" >
 <tbody >
 <tr >
 
 <td colspan="4" width="874" valign="top" markdown="1">
 
-
-
-
-
 Monday  March 3, 2014
-
-
 
 </td>
 </tr>
@@ -317,6 +309,7 @@ Video on Linaro Server unavailable
 On Tuesday Linaro Connect will start the day with two great keynotes.  First up will be Sreekant Kotay, SVP – Chief Software Architect from Comcast, discussing “[Device development model for Carrier Class operators](http://lca-14.zerista.com/event/member/102372)”.   Following  that  Pradeep Kathail,  Chief Network Architect from Cisco , will give a talk on “[Open Network Environment: Software Defined Networking & Beyond](http://lca-14.zerista.com/event/member/102373)”.
 
 After the keynotes there will be several sessions for attendees to participate in.  Including:
+
 <table cellpadding="0" cellspacing="0" border="0" >
 <tbody >
 <tr >

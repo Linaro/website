@@ -1,14 +1,16 @@
 ---
 author: linaro
 categories:
-- News
+  - news
 date: 2016-06-15 11:58:50
-description: Linaro announces that Thundersoft has joined the 96Boards initiative
+description:
+  Linaro announces that Thundersoft has joined the 96Boards initiative
   as a Steering Committee member and Manufacturing Partner. This new collaboration
   allows Thundersoft to both influence the development of the 96Boards specifications
   and initiative, and produce 96Boards products with support provided on the 96Boards
   forum.
-excerpt: Linaro announces that Thundersoft has joined the 96Boards initiative as a
+excerpt:
+  Linaro announces that Thundersoft has joined the 96Boards initiative as a
   Steering Committee member and Manufacturing Partner. This new collaboration allows
   Thundersoft to both influence the development of the 96Boards specifications and
   initiative, and produce 96Boards products with support provided on the 96Boards
@@ -17,14 +19,15 @@ layout: post
 link: /news/thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member/
 slug: thundersoft-joins-linaro-96boards-manufacturing-partner-steering-committee-member
 tags:
-- 96Boards
-- Linaro
-- manufacturing
-- members
-- Open Source
-- Membership
-- Opensource
-title: Thundersoft joins Linaro 96Boards as both Manufacturing Partner and Steering
+  - 96Boards
+  - Linaro
+  - manufacturing
+  - members
+  - Open Source
+  - Membership
+  - Opensource
+title:
+  Thundersoft joins Linaro 96Boards as both Manufacturing Partner and Steering
   Committee member
 wordpress_id: 10684
 ---

@@ -17,14 +17,11 @@ video_thumbnail: None
 wordpress_id: 5601
 youtube_video_url: None
 categories:
-- Blog
+  - blog
 permalink: /blog/:title/
 ---
 
 https://www.youtube.com/playlist?list=PLKZSArYQptsMjCTIdpvcX5ePMBl4rXS5R
-
-
-
 
 **Session Name: **Mcuboot: A shared bootloader for IoT – BUD17-100
 
@@ -36,11 +33,7 @@ An important base for security is the beginning of the boot process. It is neces
 **Session ID:** BUD17-100
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-100/](https://connect.linaro.org/resources/bud17/bud17-100/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Scripting Languages in IoT: Challenges and Approaches – BUD17-104
 
@@ -52,11 +45,7 @@ Scripting languages is hot emerging topic in IoT. They allow easy learnability a
 **Session ID:** BUD17-104
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-104/](https://connect.linaro.org/resources/bud17/bud17-104/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Porting the TI SimpleLink CC32xx WiFi stack to the Zephyr IoT OS – BUD17-112
 
@@ -68,11 +57,7 @@ The TI SimpleLink CC32xx family of MCUs provides an SoC and supporting SDK which
 **Session ID:** BUD17-112
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-112/](https://connect.linaro.org/resources/bud17/bud17-112/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Zephyr on Beetle – BUD17-116
 **Abstract:**
@@ -83,11 +68,7 @@ This presentation summarized efficient project management solution to c
 **Session ID:** BUD17-116
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-116/](https://connect.linaro.org/resources/bud17/bud17-116/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **Linux-wpan: IEEE 802.15.4 and 6LoWPAN in the Linux Kernel – BUD17-120
 
@@ -100,27 +81,19 @@ supports the wireless protocols to connect such devices to the internet, acting�
 **Session ID:** BUD17-120
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-120/](https://connect.linaro.org/resources/bud17/bud17-120/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Building a reference IoT product with Zephyr – BUD17-405
 
 **Abstract:**
-An example of a reference IoT product can be thought of supporting several core technologies such as IPv4/IPv6, 6LoWPAN, _Bluetooth_® wireless technology LE and also several protocols such as MQTT, CoAP and LWM2M. Additional requirements such as having a complete secure boot and execution environment, besides being able to be securely updated with FOTA support are also critically important. This session will cover the development and challenges faced when producing a reference IoT product implementation with Zephyr, describing the state of the project, and the current gaps to productization.
+An example of a reference IoT product can be thought of supporting several core technologies such as IPv4/IPv6, 6LoWPAN, *Bluetooth*® wireless technology LE and also several protocols such as MQTT, CoAP and LWM2M. Additional requirements such as having a complete secure boot and execution environment, besides being able to be securely updated with FOTA support are also critically important. This session will cover the development and challenges faced when producing a reference IoT product implementation with Zephyr, describing the state of the project, and the current gaps to productization.
 
 **Speakers:** Michael Scott, Ricardo Salveti
 **Track:** LTD
 **Session ID:** BUD17-405
 **Resource page: **[http://connect.linaro.org/resource/bud17/bud17-405/](https://connect.linaro.org/resources/bud17/bud17-405/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **IoT Toolchain BoF – BUD17-223
 

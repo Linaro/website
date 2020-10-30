@@ -1,23 +1,25 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 comments: true
 date: 2015-07-29 23:54:31
-description: Linaro Connect is celebrating it's fifth anniversary and has evolved
+description:
+  Linaro Connect is celebrating it's fifth anniversary and has evolved
   into a premiere event for those interested or working with Linux on Arm.
-excerpt: 'Linaro Connect is celebrating it''s fifth anniversary and has evolved into
-  a premiere event for those interested or working with Linux on Arm.  '
+excerpt:
+  "Linaro Connect is celebrating it's fifth anniversary and has evolved into
+  a premiere event for those interested or working with Linux on Arm.  "
 layout: post
 link: /blog/five-years-of-linaro-connect/
 slug: five-years-of-linaro-connect
 tags:
-- community
-- connect
-- Connect Events
-- Linaro
-- Linaro Connect
-- Linux on Arm
+  - community
+  - connect
+  - Connect Events
+  - Linaro
+  - Linaro Connect
+  - Linux on Arm
 title: Five years of Linaro Connect
 wordpress_id: 9056
 ---

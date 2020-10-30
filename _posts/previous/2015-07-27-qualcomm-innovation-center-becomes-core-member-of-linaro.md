@@ -1,7 +1,7 @@
 ---
 author: linaro
 categories:
-- News
+  - news
 comments: true
 date: 2015-07-27 15:42:17
 description: Qualcomm Innovation Center becomes Core Member of Linaro
@@ -10,11 +10,11 @@ layout: post
 link: /news/qualcomm-innovation-center-becomes-core-member-of-linaro/
 slug: qualcomm-innovation-center-becomes-core-member-of-linaro
 tags:
-- Linaro
-- Linux
-- Linux on Arm
-- members
-- Opensource
+  - Linaro
+  - Linux
+  - Linux on Arm
+  - members
+  - Opensource
 title: Qualcomm Innovation Center becomes Core Member of Linaro
 wordpress_id: 9049
 ---

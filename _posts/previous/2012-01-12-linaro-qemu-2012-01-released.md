@@ -1,19 +1,20 @@
 ---
 author: linaro
 categories:
-- Blog
+  - blog
 date: 2012-01-12 17:41:24
-description: Announcement of the Linaro QEMU 2012.01 release. New features and known
+description:
+  Announcement of the Linaro QEMU 2012.01 release. New features and known
   issues.
 keywords: Linaro, Linux on Arm, Toolchain, QEMU, Open Source
 layout: post
 link: /blog/releases-blog/linaro-qemu-2012-01-released/
 slug: linaro-qemu-2012-01-released
 tags:
-- Releases
-- Linaro
-- qemu
-- release
+  - Releases
+  - Linaro
+  - qemu
+  - release
 title: Linaro QEMU 2012.01 released
 wordpress_id: 1173
 ---
@@ -24,18 +25,15 @@ Linaro QEMU 2012.01 is the latest monthly release of qemu-linaro. Based off upst
 
 New in this month's release:
 
-  * Several bug fixes which reinstate support for running on Arm hosts
+- Several bug fixes which reinstate support for running on Arm hosts
 
+- Support for previously missing \*xattr syscalls in usermode emulation
 
-  * Support for previously missing \*xattr syscalls in usermode emulation
-
-
-  * A (dummy) model of the L2x0/PL310 L2 cache contrnoller (thanks to Rob Herring and Mark Langsdorf of Calxeda)
+- A (dummy) model of the L2x0/PL310 L2 cache contrnoller (thanks to Rob Herring and Mark Langsdorf of Calxeda)
 
 Known issues:
 
-
-  * Graphics do not work for OMAP3 based models (beagle, overo) with 11.10 Linaro images.
+- Graphics do not work for OMAP3 based models (beagle, overo) with 11.10 Linaro images.
 
 The source tarball is available at:
 [https://launchpad.net/qemu-linaro/+milestone/2012.01](https://launchpad.net/qemu-linaro/+milestone/2012.01)

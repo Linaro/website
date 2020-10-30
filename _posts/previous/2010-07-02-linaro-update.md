@@ -7,9 +7,9 @@ slug: linaro-update
 title: Linaro update
 wordpress_id: 4110
 categories:
-- Blog
+  - blog
 tags:
-- launch
+  - launch
 ---
 
 As head of Linaro's Head of Operations I've been working behind the scenes to get Linaro up and running and delivering great code as soon as we can.
