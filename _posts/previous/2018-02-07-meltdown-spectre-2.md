@@ -57,9 +57,11 @@ The technical changes to Arm Trusted Firmware are described in [Security Advisor
 
 Given these changes, the Linux kernel can rely on every trap to EL3 invalidating the branch target buffer simply as a side effect of Trusted Firmware protecting itself from the kernel! The kernel can be extended to make PSCI calls at key points in the kernel in order to mitigate Spectre variant 2 attacks and this implies that even systems that do not run any code in secure world must update Trusted Firmware if the kernel mitigation is effective. Whilst running `PSCI_VERSION` is sufficient to deploy the workaround a more efficient alternative has been made available called `SMCCC_ARCH_WORKAROUND_1`. This alternative uses a specially crafted ABI to dramatically reduce the entry/exit cost.
 
-At the time of writing, [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti) contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
+At the time of writing, `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti` contains mitigation patches that work by calling `PSCI_VERSION`. Unfortunately the kernel cannot detect whether or not Trusted Firmware contains the appropriate security fixes and cannot warn users in situations where the kernel mitigations are ineffective. The only way to be sure is to adopt latest version or audit your firmware for the presence of a backport.
 
-**Update**: _Since this article was first published, kernel code to exploit_ `SMCCC_ARCH_WORKAROUND_1` _has been included in both the mainline kernel (from `v4.16-rc1`) and [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti). `SMCCC_ARCH_WORKAROUND_1` is better optimized and permits better error reporting by the kernel if it is booted on a mis-configured system. It is strongly recommended to adopt the newer approach._
+**Update**: _Since this article was first published, kernel code to exploit_ `SMCCC_ARCH_WORKAROUND_1` _has been included in both the mainline kernel (from `v4.16-rc1`) and `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti`. `SMCCC_ARCH_WORKAROUND_1` is better optimized and permits better error reporting by the kernel if it is booted on a mis-configured system. It is strongly recommended to adopt the newer approach._
+
+**Update**: _Since this article was first published, the git.kernel.org URL has stopped working. It is left here for reference purposes only._
 
 # Traditional bootloaders and runtime firmware
 
@@ -93,4 +95,11 @@ As with all security relevant fixes the goal is to get these patches into the LT
 
 Due to the urgency surrounding these particular issues some members will want to start integrating fixes into their products prior to them being ready for LTS. In order to facilitate this we are maintaining a git repository https://git.linaro.org/kernel/speculation-fixes-staging.git/. This contains branches for each individual patch series for each kernel version, plus branches for each of v4.4, v4.9 and v4.14 with all the fixes for each kernel merged.
 
+<<<<<<< HEAD
 **Update**: _Since this article was first published, the kernel mitigations for **Sprectre variant 2** have been optimized to use_ `SMCCC_ARCH_WORKAROUND_1` _instead of_ `PSCI_VERSION` _and these are included in both the mainline kernel (from `v4.16-rc1`) and [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti). It is strongly recommended to adopt the newer approach._
+=======
+**Update**: _Since this article was first published, the kernel mitigations for **Sprectre variant 2** have been optimized to use_ `SMCCC_ARCH_WORKAROUND_1` _instead of_ `PSCI_VERSION` _and these are included in both the mainline kernel (from `v4.16-rc1`) and `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti`. It is strongly recommended to adopt the newer approach._
+
+**Update**: _Since this article was first published, the git.kernel.org URL has stopped working. It is left here for reference purposes only._
+
+> > > > > > > f5b60cb9aec71f7c8c9625d2ac37d1b959719701
