@@ -2,10 +2,10 @@ name: PullRequestAction
 
 on:
   pull_request_target:
-    branches: [ main, master, develop ]
+    branches: [ master ]
 
 jobs:
-  build:
+  process-pull-request:
     runs-on: self-hosted
     steps:
       - name: Cancel previous runs
@@ -40,19 +40,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  check-links:
-    needs: build
-    runs-on: self-hosted
-    steps:
-      - name: Initialise environment
-        run: cat "$GITHUB_WORKSPACE/website/.github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
-
       - name: Check links
         run: /srv/github-action-scripts/check-links.sh
 
-  test-routing-rules:
-    needs: check-links
-    runs-on: self-hosted
-    steps:
       - name: Check routing rules
         run: /srv/github-action-scripts/test-routing-rules.sh
