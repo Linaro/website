@@ -12,7 +12,7 @@ slug: video-plays-key-role-expanding-linaros-community-building-future-linux-arm
 date: 2012-06-29 12:18:55
 link: /news/video-plays-key-role-expanding-linaros-community-building-future-linux-arm/
 categories:
-  - News
+  - news
 description: HONG KONG - 29 JUN 2012
 ---
 

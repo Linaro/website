@@ -5,13 +5,14 @@ title: Linaro Announces Launch of 96Boards AI Platform
 description: >-
   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced 96boards.ai and availability of a range of compatible member 96Boards platforms for developers working on AI hardware and software solutions.
 categories:
-  - News
+  - news
 published: true
 tags: Linaro, Connect, HKG18, 96Boards, Artificial Intelligence, AI, Platforms
 keywords: Linaro, Connect, HKG18, 96Boards, Artificial Intelligence, AI, Platforms
 image: /assets/images/blog/96boards-ai.png
 layout: post
 ---
+
 # Linaro Announces Launch of 96Boards AI Platform
 
 [Hong Kong, China, 19 March 2018] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced [96Boards.ai](https://www.96boards.ai) and availability of a range of compatible member 96Boards platforms for developers working on AI hardware and software solutions.
