@@ -215,7 +215,6 @@ Buy Now
   * [Lenovator](http://linaro.co/hikey960buy) (Worldwide) – $239
   * [Seeed](http://linaro.co/hikey960-seed) (Worldwide) – $239.00
   * [Alpha Star](http://linaro.co/hikey960buy-alpha)
-  * [Ali express](http://linaro.co/hikey960-ali) – US $239.00
   * [Switch Science](http://linaro.co/hikey960-switch) (Japan)
 
 
