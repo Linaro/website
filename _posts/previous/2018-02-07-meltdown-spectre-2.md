@@ -95,11 +95,6 @@ As with all security relevant fixes the goal is to get these patches into the LT
 
 Due to the urgency surrounding these particular issues some members will want to start integrating fixes into their products prior to them being ready for LTS. In order to facilitate this we are maintaining a git repository https://git.linaro.org/kernel/speculation-fixes-staging.git/. This contains branches for each individual patch series for each kernel version, plus branches for each of v4.4, v4.9 and v4.14 with all the fixes for each kernel merged.
 
-<<<<<<< HEAD
-**Update**: _Since this article was first published, the kernel mitigations for **Sprectre variant 2** have been optimized to use_ `SMCCC_ARCH_WORKAROUND_1` _instead of_ `PSCI_VERSION` _and these are included in both the mainline kernel (from `v4.16-rc1`) and [https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti](https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti). It is strongly recommended to adopt the newer approach._
-=======
 **Update**: _Since this article was first published, the kernel mitigations for **Sprectre variant 2** have been optimized to use_ `SMCCC_ARCH_WORKAROUND_1` _instead of_ `PSCI_VERSION` _and these are included in both the mainline kernel (from `v4.16-rc1`) and `https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux.git/log/?h=kpti`. It is strongly recommended to adopt the newer approach._
 
 **Update**: _Since this article was first published, the git.kernel.org URL has stopped working. It is left here for reference purposes only._
-
-> > > > > > > f5b60cb9aec71f7c8c9625d2ac37d1b959719701
