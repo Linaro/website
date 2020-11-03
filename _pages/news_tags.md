@@ -7,12 +7,10 @@ jumbotron:
   title: Tagged News Posts
   description: >
     Find tagged news posts here.
-tags_enabled: true
 flow:
   - row: container_row
     sections:
       - format: custom_include
         source: blog/tags.html
         category: news
-        limit: 20
 ---

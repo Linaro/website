@@ -3,6 +3,7 @@ title: News
 permalink: /news/
 description: >
   Here you can find all of the latest Linaro news.
+tags_enabled: true
 flow:
   - row: container_row
     sections:
@@ -15,4 +16,5 @@ flow:
       - format: custom_include
         source: blog/display_latest_posts.html
         category: news
+        limit: 20
 ---

@@ -3,6 +3,7 @@ title: Blog
 permalink: /blog/
 description: >
   This is the official Linaro blog.
+tags_enabled: true
 flow:
   - row: container_row
     sections:
@@ -15,4 +16,5 @@ flow:
       - format: custom_include
         source: blog/display_latest_posts.html
         category: blog
+        limit: 20
 ---
