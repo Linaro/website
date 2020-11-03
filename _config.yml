@@ -66,6 +66,7 @@ defaults:
     values:
       layout: post
       is_post: true
+      tags_enabled: true
       comments: false
       image: /assets/images/content/code_banner.jpg
       strap_image: /assets/images/content/code_banner.jpg
@@ -80,6 +81,7 @@ defaults:
     values:
       layout: event
       comments: false
+      tags_enabled: false
       author: linaro
       permalink: /events/:title/
       categories: ["Events"]
@@ -88,6 +90,7 @@ defaults:
     values:
       layout: resource-post
       comments: false
+      tags_enabled: false
       author: linaro
       permalink: /events/:title/
       categories: ["event_resources"]
@@ -95,6 +98,7 @@ defaults:
       path: "_posts/awards"
     values:
       author: linaro
+      tags_enabled: false
       permalink: "/awards/5-years/:title/"
       comments: false
   - scope:
