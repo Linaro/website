@@ -5,8 +5,7 @@ title: Linaro Announces OpenDataPlane Tiger Moth LTS Software
 description: >-
   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm ecosystem, today announced the availability of the
   second Long Term Support (LTS) release of OpenDataPlane
-categories:
-  - news
+category: news
 published: true
 tags: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
 keywords: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
