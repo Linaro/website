@@ -6,7 +6,20 @@ description: >-
   Here is a brief summary of the highlights from the second day of Linaro Connect HKG18.
 category: blog
 published: true
-tags: "HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, the Fog, Open AI Lab"
+tags:
+  - HKG18
+  - Arm
+  - Linux
+  - Kernel
+  - Linaro
+  - Open Source
+  - Machine Learning
+  - AI
+  - 96Boards
+  - Cloud
+  - Edge Computing
+  - the Fog
+  - Open AI Lab
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, The Fog, Open AI Lab
 image: /assets/images/blog/Linaro-regdesk-HKG18.jpg
 layout: post

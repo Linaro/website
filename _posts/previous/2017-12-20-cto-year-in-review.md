@@ -4,7 +4,15 @@ date: 2017-12-13 8:00:00+00:00
 layout: post
 title: CTO Year in Review
 category: blog
-tags: Arm, Automotive, Ecosystem, Hardware, 96boards, 2017, CTO, CTO Blog
+tags:
+  - Arm
+  - Automotive
+  - Ecosystem
+  - Hardware
+  - 96boards
+  - "2017"
+  - CTO
+  - CTO Blog
 keywords: Arm, Automotive, Ecosystem, Hardware, 96boards, 2017, CTO, CTO Blog
 image: /assets/images/blog/cto-2017-end-of-year.jpg
 ---

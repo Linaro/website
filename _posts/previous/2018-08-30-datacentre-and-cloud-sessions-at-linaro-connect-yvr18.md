@@ -6,7 +6,21 @@ date: 2018-08-30 09:00:00+00:00
 description: >-
   Linaro has got lots of technical sessions on Datacentre and Cloud at Linaro Connect Vancouver (YVR18) 17-21 September 2018.
 category: blog
-tags: Arm, Linaro, Data Centre, Datacentre, Cloud, Cloud Computing, Developer Cloud, Servers, Enterprise, Arm46, HPC, High Performance Computing Vancouver, Linaro Connect, YVR18
+tags:
+  - Arm
+  - Linaro
+  - Data Centre
+  - Datacentre
+  - Cloud
+  - Cloud Computing
+  - Developer Cloud
+  - Servers
+  - Enterprise
+  - Arm46
+  - HPC
+  - High Performance Computing Vancouver
+  - Linaro Connect
+  - YVR18
 image: /assets/images/blog/HKG18Session.jpg
 ---
 

@@ -9,7 +9,21 @@ description: >-
   initiative as a Steering Committee member.
 image: /assets/images/content/96boards-home-page-latest.png
 category: news
-tags: 64-bit, 96Boards, sc, members, Arm, Armv8, Consumer Edition, DB820c, Rock960, Hikey960, linaro, linux, open source, Membership
+tags:
+  - 64-bit
+  - 96Boards
+  - sc
+  - members
+  - Arm
+  - Armv8
+  - Consumer Edition
+  - DB820c
+  - Rock960
+  - Hikey960
+  - linaro
+  - linux
+  - open source
+  - Membership
 ---
 
 # Tier IV joins Linaro 96Boards Steering Committee

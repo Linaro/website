@@ -6,7 +6,19 @@ date: 2018-12-10 09:00:00+00:00
 description: >-
   Linaro Ltd, the open source collaborative engineering organization, Japan-based intelligent vehicle technology company Tier IV, Inc., and US-based autonomous mobility systems software company Apex.AI announced today the formation of the Autoware Foundation.
 category: news
-tags: Linaro, AI, Networking, Security, Big Data, TierIV, Tier4, Autoware.ai, ROS, 96Boards, Autoware Foundation, Membership
+tags:
+  - Linaro
+  - AI
+  - Networking
+  - Security
+  - Big Data
+  - TierIV
+  - Tier4
+  - Autoware.ai
+  - ROS
+  - 96Boards
+  - Autoware Foundation
+  - Membership
 image: /assets/images/content/road-timelapse.jpg
 ---
 

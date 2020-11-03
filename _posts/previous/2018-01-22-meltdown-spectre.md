@@ -10,7 +10,12 @@ description: >-
   quite complex ways.
 category: blog
 published: true
-tags: "Meltdown, Spectre, Arm, OP-TEE, Trustzone"
+tags:
+  - Meltdown
+  - Spectre
+  - Arm
+  - OP-TEE
+  - Trustzone
 keywords: >-
   Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
   predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power

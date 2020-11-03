@@ -6,7 +6,14 @@ description: >-
   Supercomputing has been around for decades and hardware for High Performance Computing (HPC) has traditionally been provided by Intel. Well, things are changing and changing fast they are.
 category: blog
 published: true
-tags: "High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18"
+tags:
+  - High Performance Computing
+  - HPC
+  - Linaro
+  - Open Source
+  - Arm
+  - SVE
+  - HKG18
 keywords: High Performance Computing, HPC, Linaro, Open Source, Arm, SVE, HKG18
 image: /assets/images/blog/hpc-and-linaro-blog-image.png
 layout: post

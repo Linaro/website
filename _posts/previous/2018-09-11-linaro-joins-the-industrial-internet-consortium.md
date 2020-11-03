@@ -6,7 +6,15 @@ date: 2018-09-11 09:00:00+00:00
 description: >-
   Linaro joins the Industrial Internet Consortium as a member.
 category: news
-tags: Linaro, IIC, IoT, IIoT, TI, Arm, Software, Edge
+tags:
+  - Linaro
+  - IIC
+  - IoT
+  - IIoT
+  - TI
+  - Arm
+  - Software
+  - Edge
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that it has joined the Industrial Internet Consortium® (IIC™), the world’s leading organization transforming business and society by accelerating the adoption of the Industrial Internet of Things (IIoT).

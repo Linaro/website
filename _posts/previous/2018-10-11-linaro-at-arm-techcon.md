@@ -7,7 +7,18 @@ description: >-
   Linaro is sponsoring the Networking Lounge at Arm Techcon.
 category: blog
 image: /assets/images/content/arm-techcon-2018.jpg
-tags: Linaro, Arm, Synquacer, Machine Intelligence, Machine Learning, Arm NN, 96Boards, MiniNodes, Developer Box, Socionext, open source
+tags:
+  - Linaro
+  - Arm
+  - Synquacer
+  - Machine Intelligence
+  - Machine Learning
+  - Arm NN
+  - 96Boards
+  - MiniNodes
+  - Developer Box
+  - Socionext
+  - open source
 ---
 
 ## Technical panel discussion, machine intelligence and lots of demos

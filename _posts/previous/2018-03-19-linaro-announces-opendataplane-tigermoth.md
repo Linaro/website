@@ -7,7 +7,16 @@ description: >-
   second Long Term Support (LTS) release of OpenDataPlane
 category: news
 published: true
-tags: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
+tags:
+  - Linaro
+  - Connect
+  - HKG18
+  - OpenDataPlane
+  - New Release
+  - LTS
+  - Tiger
+  - Moth
+  - Software
 keywords: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
 image: /assets/images/blog/odp-press-release-hkg18.png
 layout: post

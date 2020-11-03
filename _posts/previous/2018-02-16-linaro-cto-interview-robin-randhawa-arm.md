@@ -9,7 +9,15 @@ description: >-
   source software fits in that industry. I thought that this interview would help explain.
 category: blog
 published: true
-tags: "CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles"
+tags:
+  - CTO-Blog
+  - Open Source Software
+  - Arm
+  - Software
+  - Hardware
+  - Automotive
+  - Machine Learning
+  - Autonomous Vehicles
 keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles
 image: /assets/images/blog/automotive-arm-ecosystem.png
 layout: post

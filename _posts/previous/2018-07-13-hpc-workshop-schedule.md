@@ -7,7 +7,14 @@ description: >-
   We are pleased to share the program for our HPC Workshop, which is free to attend.
 image: /assets/images/content/hpc-share-image.png
 category: blog
-tags: Open Source, Arm, High Performance Computing, HPC, Supercomputing, Santa Clara, Post-k
+tags:
+  - Open Source
+  - Arm
+  - High Performance Computing
+  - HPC
+  - Supercomputing
+  - Santa Clara
+  - Post-k
 published: true
 ---
 

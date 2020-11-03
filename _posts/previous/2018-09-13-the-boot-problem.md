@@ -6,7 +6,17 @@ date: 2018-09-13 09:00:00+00:00
 description: >-
   Linaro CTO David Rusling talks about fragmentation in Boot Architecture.
 category: blog
-tags: Linaro, Linaro Connect, Boot Architecture, Arm, SBBR, EBBR, Server, U-Boot, Vancouver, YVR18
+tags:
+  - Linaro
+  - Linaro Connect
+  - Boot Architecture
+  - Arm
+  - SBBR
+  - EBBR
+  - Server
+  - U-Boot
+  - Vancouver
+  - YVR18
 image: /assets/images/blog/linaroconnectSFO17.jpg
 ---
 

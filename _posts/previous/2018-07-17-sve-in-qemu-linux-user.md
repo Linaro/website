@@ -6,7 +6,12 @@ date: 2018-07-17 09:00:00+00:00
 description: >-
   ARM SVE support has finally landed in the latest version of QEMU.
 category: blog
-tags: Arm, Armv8, linaro, SVE, QEMU
+tags:
+  - Arm
+  - Armv8
+  - linaro
+  - SVE
+  - QEMU
 published: true
 ---
 

@@ -6,7 +6,18 @@ description: >-
   Wondering what Linaro has in store for you this Linaro Connect? This blog post will give you an overview of what to expect this Connect.
 category: blog
 published: true
-tags: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software, Hardware, Collaboration
+tags:
+  - Linaro
+  - Connect
+  - HKG18
+  - Keynote
+  - Hong Kong
+  - Asia
+  - Arm
+  - Open Source
+  - Software
+  - Hardware
+  - Collaboration
 keywords: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software, Hardware, Collaboration
 image: /assets/images/blog/HKG18-social-facebook-optimized.jpg
 layout: post

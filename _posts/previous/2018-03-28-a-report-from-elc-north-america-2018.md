@@ -6,7 +6,24 @@ description: >-
   Participating in ELC North America 2018 has been productive and interesting, both for the main goal of my presentation and for hallway discussions.
 category: blog
 published: true
-tags: "HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile, Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN"
+tags:
+  - HKG18
+  - Arm
+  - Linux
+  - Kernel
+  - Linaro
+  - Open Source,Qualcomm
+  - Datacentre
+  - Mobile
+  - Servers
+  - Art
+  - Computation
+  - ELC
+  - North America
+  - HiKey
+  - 96Boards
+  - Pixel 2
+  - ACRN"
 keywords: "HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile, Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN"
 image: /assets/images/blog/elc-image.jpg
 layout: post
