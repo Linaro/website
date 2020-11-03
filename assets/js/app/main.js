@@ -67,7 +67,14 @@ $(document).ready(function () {
       console.log(tag);
       $(".tag_list").addClass("d-none");
       $(`.tag_list.${slugify(tag)}`).addClass("d-block");
+      $(`#tag_cloud`).addClass("d-none");
+      $(`#view_all_tags_btn`).addClass("d-inline-block");
       $(this).html(tag);
+      $("#view_all_tags_btn").on("click", function () {
+        window.location.replace(window.location.pathname);
+      });
+    } else {
+      $(`#tag_cloud`).removeClass("d-none");
     }
   }
   if ($("#jumbotron-slider").length > 0) {
