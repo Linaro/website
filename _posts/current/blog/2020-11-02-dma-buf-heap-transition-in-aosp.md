@@ -1,13 +1,19 @@
 ---
 layout: post
 title: DMA BUF Heap Transition in AOSP
-description: TBC
+description: The ION framework was one of the early components of the Android
+  patchset. It provided a way for userspace to allocate memory buffers that
+  would be efficiently shared between multiple devices. In this article John
+  Stultz takes a detailed look at the DMA BUF Heaps interface that is designed
+  to replace ION.
 date: 2020-11-02 03:44:32
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
   - AOSP
+  - DMA BUF Heaps
+  - ION
 related_projects:
-  - ASA
+  - AI
 category: Blog
 author: john.stultz
 ---
@@ -60,3 +66,7 @@ Additional changes to provide in-kernel allocator accessors have been included i
 ## Participation from vendors on DMA BUF Heaps
 
 ION is quickly fading into the sunset, but there is still a fair amount of work to do on DMA BUF Heaps. A common theme here is that we need more participation upstream from vendors on DMA BUF Heaps. Without active input and code submissions upstream from vendors using the interfaces, we do not have a sense of what changes are important for this new subsystem. There is a risk that changes made on a theoretical basis could result in practical performance issues on devices, causing additional work for vendors adapting to the new functionality. I’d like to avoid that, but we need to hear from vendors upstream on what is working and what isn’t. Further, we are limited to what we can push upstream by what upstream users we enable. For this reason we very much need to have active vendor participation upstream, directly submitting changes, new heaps, and users of such code to the list.
+
+## About the Author
+
+John is a developer in the Linaro Consumer Group, focusing on getting Android functionality upstream into the mainline Linux Kernel. He has also been working to support devboards like the HiKey960 and Dragonboard 845c in AOSP.
