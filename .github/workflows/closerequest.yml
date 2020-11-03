@@ -3,7 +3,7 @@ name: ClosePullRequestAction
 on: 
   pull_request_target:
     types: [closed]
-    branches: [ main, master, develop ]
+    branches: [ master ]
 
 jobs:
   close:
