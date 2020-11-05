@@ -1,35 +1,29 @@
 ---
-layout: post
-title: Linaro Engineering Highlights - September 2020
-description: September's Engineering Highlights include a brief summary of our
-  recent Virtual Connect 2020 (LVC20) event. There is also a synopsis of the
-  Android Micro Conference at Linux Plumbers. Our blog channel continues to be
-  populated with the latest topics and this month we highlight four of the
-  latest articles that have been published including OpenOCD at Linaro, Enabling
-  UEFI Secure Boot on U-Boot, Force Idle When a CPU Is Overheating and BFQ saved
-  me from thrashing.
-date: 2020-10-12T12:29:25.000Z
-image: /assets/images/content/binary-2910663_1920.jpg
-tags:
-  - LVC20
-  - Connect
-  - Virtual Connect
-  - engineering highlights
-  - Linaro
-  - Arm
-  - Arm64
-  - Linux kernel
-  - trusted firmware
-  - UEFI
-  - OP-TEE
-  - Secure Boot
-  - CPU
-  - BFQ
-  - Android
-  - open source
-  - HPC
-category: blog
 author: jon.burcham@linaro.org
+category: blog
+date: 2020-10-12 12:29:25+00:00
+description: September's Engineering Highlights include a brief summary of our recent
+  Virtual Connect 2020 (LVC20) event. There is also a synopsis of the Android Micro
+  Conference at Linux Plumbers. Our blog channel continues to be populated with the
+  latest topics and this month we highlight four of the latest articles that have
+  been published including OpenOCD at Linaro, Enabling UEFI Secure Boot on U-Boot,
+  Force Idle When a CPU Is Overheating and BFQ saved me from thrashing.
+image: /assets/images/content/binary-2910663_1920.jpg
+layout: post
+tags:
+- Connect
+- Engineering Highlights
+- Linaro
+- Arm
+- Arm64
+- Linux Kernel
+- Trusted Firmware
+- UEFI
+- CPU
+- Android
+- Open Source
+- HPC
+title: Linaro Engineering Highlights - September 2020
 ---
 
 ## LVC20 Wrap Up

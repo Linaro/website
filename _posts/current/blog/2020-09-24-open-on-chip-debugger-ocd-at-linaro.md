@@ -1,23 +1,19 @@
 ---
-layout: post
-title: Open On-Chip Debugger (OpenOCD) at Linaro
-description: Linaro has been actively involved in the OpenOCD project since
-  2016. In this article Omair Javaid takes a closer look at the software
-  development tool.
-date: 2020-09-30 12:34:17
-image: /assets/images/content/electricity-1288717_1920-1-.jpg
-tags:
-  - Linaro
-  - Open on chip Debugger
-  - OpenOCD
-  - Arm v8 AArch64
-  - toolchain
-  - Arm
-related_projects:
-  - GNU
-  - LLVM
-category: blog
 author: Omair.Javaid@linaro.org
+category: blog
+date: 2020-09-30 12:34:17
+description: Linaro has been actively involved in the OpenOCD project since 2016.
+  In this article Omair Javaid takes a closer look at the software development tool.
+image: /assets/images/content/electricity-1288717_1920-1-.jpg
+layout: post
+related_projects:
+- GNU
+- LLVM
+tags:
+- Linaro
+- Toolchain
+- Arm
+title: Open On-Chip Debugger (OpenOCD) at Linaro
 ---
 
 # Open on Chip Debugger

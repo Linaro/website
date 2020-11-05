@@ -1,19 +1,18 @@
 ---
-layout: post
-title: Linaro works with Riscure to secure the TEE ecosystem
-date: "2019-09-19 07:00:00"
-image: /assets/images/content/linaro-and-riscure-release-banner.jpg
-tags:
-  - Linaro
-  - Riscure
-  - OP-TEE
-  - Security
-  - Open Source
-  - Arm
-  - IoT
-  - Embedded
-category: news
 author: linaro
+category: news
+date: '2019-09-19 07:00:00'
+image: /assets/images/content/linaro-and-riscure-release-banner.jpg
+layout: post
+tags:
+- Linaro
+- Riscure
+- Security
+- Open Source
+- Arm
+- IoT
+- Embedded
+title: Linaro works with Riscure to secure the TEE ecosystem
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced together with Riscure their collaboration enabling developers to deliver secure and robust TEE-based solutions. Under the terms of this partnership, Riscure, the globally recognized expert in embedded security research, will contribute to OP-TEE security with regular code review and fuzzing campaigns. OP-TEE is an open source project maintained by the Trusted Firmware project. Both projects are hosted by Linaro and work to provide security for Arm-based solutions. Riscure has created an open-source fuzzing tool specifically designed for OP-TEE.

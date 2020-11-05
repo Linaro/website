@@ -1,15 +1,15 @@
 ---
-layout: post
-title: Python and Go in the Arm World
-date: "2019-12-17 03:46:40"
-image: /assets/images/content/code_banner.jpg
-tags:
-  - Arm
-  - Arm64
-  - Python
-  - Servers
-category: blog
 author: siddhesh.poyarekar
+category: blog
+date: '2019-12-17 03:46:40'
+image: /assets/images/content/code_banner.jpg
+layout: post
+tags:
+- Arm
+- Arm64
+- Python
+- Servers
+title: Python and Go in the Arm World
 ---
 
 Siddhesh Poyarekar is Linaro Developer Services' Toolchain expert, having worked on glibc upstream since 2012 and a number of different projects before that. Recently, Linaro Developer Services completed work which involved studying and fixing packages in Python and Go ecosystem. In this blog, Siddhesh summarises his findings, including the most common problems encountered on the way.

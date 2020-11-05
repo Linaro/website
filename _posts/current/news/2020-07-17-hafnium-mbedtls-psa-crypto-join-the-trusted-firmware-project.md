@@ -1,32 +1,25 @@
 ---
-layout: post
-title: Hafnium, MbedTLS, PSA Crypto join the Trusted Firmware Project
-description: "Trusted Firmware today announced that Hafnium, MbedTLS and the PSA
-  Crypto Project transitioned into its project scope. This is a huge step
-  forward towards collaborative development of secure software solutions. "
-date: 2020-07-17T12:40:55.000Z
-image: /assets/images/content/trusted-firmware.jpg
-tags:
-  - Trusted Firmware
-  - Hafnium
-  - MbedTLS
-  - PSA Crypto Project
-  - open governance
-  - Linaro Community Projects Division
-  - Linaro
-  - Arm
-  - Cypress
-  - Data IO
-  - Futurewei
-  - Google
-  - Linaro
-  - NXP
-  - Semiconductors N.V.
-  - Renesas Electronics Corporation
-  - ST Microelectronics
-  - Texas Instruments.
-category: news
 author: jon.burcham@linaro.org
+category: news
+date: 2020-07-17 12:40:55+00:00
+description: 'Trusted Firmware today announced that Hafnium, MbedTLS and the PSA Crypto
+  Project transitioned into its project scope. This is a huge step forward towards
+  collaborative development of secure software solutions. '
+image: /assets/images/content/trusted-firmware.jpg
+layout: post
+tags:
+- Trusted Firmware
+- Hafnium
+- MbedTLS
+- PSA Crypto Project
+- Open Governance
+- Linaro
+- Arm
+- Google
+- Linaro
+- NXP
+- ST Microelectronics
+title: Hafnium, MbedTLS, PSA Crypto join the Trusted Firmware Project
 ---
 
 Trusted Firmware today announced that Hafnium, MbedTLS and the PSA Crypto Project transitioned into its project scope. This is a huge step forward towards collaborative development of secure software solutions. Members of Trusted Firmware, the open governance community project hosted by Linaro Community Projects Division, to date include Arm, Cypress, Data IO, Futurewei, Google, Linaro, NXP® Semiconductors N.V., Renesas Electronics Corporation, ST Microelectronics and Texas Instruments.

@@ -1,41 +1,28 @@
 ---
-layout: post
-title: The Evolution Of The QEMU Translator
-description: The QEMU team in Linaro sits inside a group known as the Toolchain
-  Working Group (TCWG). The rest of the team spend their time working with
-  compilers and other code generators such as GCC and LLVM. When dealing with
-  emulation, QEMU has its own module known as the Tiny Code Generator (TCG).
-  While the TCG has been part of QEMU since 2008 it has seen some changes over
-  time. I've been working in and around it since 2015 and I thought it would be
-  an interesting exercise to look at some of the changes it has seen over the
-  last five years.
-date: 2020-07-22T01:00:55.000Z
-image: /assets/images/content/tech_background_2.jpg
-tags:
-  - Single Instruction Multiple Data
-  - instruction set
-  - Decode Tree
-  - qemu-aarch64
-  - QEMU
-  - Toolchain
-  - Toolchain Working Group
-  - TCWG
-  - TCG
-  - RISU
-  - random instruction sequence
-  - SVE
-  - Multi-threaded TCG
-  - MTTCG
-  - KVM
-  - QHT
-  - ARM Scalable Vector Extensions
-  - SIMD
-  - Random Instruction Sequence (generator for) Userspace
-  - lock-less hash table
-related_projects:
-  - QEMU
-category: blog
 author: alex.bennee
+category: blog
+date: 2020-07-22 01:00:55+00:00
+description: The QEMU team in Linaro sits inside a group known as the Toolchain Working
+  Group (TCWG). The rest of the team spend their time working with compilers and other
+  code generators such as GCC and LLVM. When dealing with emulation, QEMU has its
+  own module known as the Tiny Code Generator (TCG). While the TCG has been part of
+  QEMU since 2008 it has seen some changes over time. I've been working in and around
+  it since 2015 and I thought it would be an interesting exercise to look at some
+  of the changes it has seen over the last five years.
+image: /assets/images/content/tech_background_2.jpg
+layout: post
+related_projects:
+- QEMU
+tags:
+- Qemu
+- Toolchain
+- Toolchain Working Group
+- TCWG
+- TCG
+- RISU
+- SVE
+- KVM
+title: The Evolution Of The QEMU Translator
 ---
 
 # Introduction

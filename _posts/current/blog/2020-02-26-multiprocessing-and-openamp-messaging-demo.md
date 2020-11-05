@@ -1,20 +1,17 @@
 ---
-layout: post
-title: Multiprocessing and OpenAMP Messaging Demo
-date: "2020-02-26 11:54:46"
-image: /assets/images/content/Billsdemo.png
-tags:
-  - Multiprocessing
-  - OpenAMP
-  - Zephyr
-  - Devicetree
-  - IoT
-  - Embedded
-  - 96Boards
-  - Avenger96
-  - STMicroelectronics
-category: blog
 author: bill.fletcher
+category: blog
+date: '2020-02-26 11:54:46'
+image: /assets/images/content/Billsdemo.png
+layout: post
+tags:
+- Multiprocessing
+- OpenAMP
+- Zephyr
+- IoT
+- Embedded
+- 96Boards
+title: Multiprocessing and OpenAMP Messaging Demo
 ---
 
 Linaro and its members are developing a set of software components and tools to help with a system approach to multiprocessing. This short video shows a multiprocessing demo running on the STM32MP1 from STMicroelectronics.

@@ -1,23 +1,19 @@
 ---
-layout: post
-title: 96Boards Promotion in collaboration with Arrow Electronics, Shiratech and ST
-description: >
-  96Boards have teamed up with Arrow Electronics, ST, and Shiratech and are
-  excited to announce that there are 500 Avenger96 or Stinger96 boards to be
-  given away (conditions apply).
-date: 2020-05-13 02:15:57
-image: /assets/images/content/96boards-avenger.png
-tags:
-  - 96Boards
-  - Arrow Electronics
-  - Shiratech
-  - ST
-  - Avenger96
-  - Promotion
-  - Giveaway
-  - Stinger96
-category: news
 author: jon.burcham@linaro.org
+category: news
+date: 2020-05-13 02:15:57
+description: '96Boards have teamed up with Arrow Electronics, ST, and Shiratech and
+  are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given
+  away (conditions apply).
+
+  '
+image: /assets/images/content/96boards-avenger.png
+layout: post
+tags:
+- 96Boards
+- Shiratech
+- Stinger96
+title: 96Boards Promotion in collaboration with Arrow Electronics, Shiratech and ST
 ---
 
 [96Boards](https://www.96boards.org/) have teamed up with[ Arrow Electronics](https://www.arrow.com/), [ST](https://www.st.com/content/st_com/en.html) and Shiratech and are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given away.\* Linaro are proud to enable the community to come together and to use these boards to build some new and exciting projects. Yang Zhang (Director at 96Boards) commented "We are excited to partner with 96Boards members and partners - Arrow, ST and Shiratech to launch this Campaign, giving away some of the most popular 96Boards compliant development platform featuring STM32MP157. This continues to show our commitment to the wide ecosystem, enabling developers from kernel all the way up to product designers; accelerating time to market with good upstreaming practice; serving SoC vendors and product development with dedicated and unified hardware and software support."

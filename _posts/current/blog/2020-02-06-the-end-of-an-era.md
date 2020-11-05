@@ -1,16 +1,15 @@
 ---
-layout: post
-title: The end of an Era
-date: "2020-02-06 09:09:55"
-image: /assets/images/content/2038_image.jpg
-tags:
-  - "2038"
-  - Linux Kernel
-  - Arm
-  - open source
-  - software
-category: blog
 author: arnd.bergmann
+category: blog
+date: '2020-02-06 09:09:55'
+image: /assets/images/content/2038_image.jpg
+layout: post
+tags:
+- Linux Kernel
+- Arm
+- Open Source
+- Software
+title: The end of an Era
 ---
 
 With the linux-5.6 merge window, a project ends that has kept me busy for nearly six years: preventing the “Epochalypse” by changing every single instance of a 32-bit time_t in the kernel to a type that does not roll over on 2038-01-19.

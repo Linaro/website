@@ -1,20 +1,16 @@
 ---
-layout: post
-title: >-
-  Linaro and Horizon Robotics jointly launch AIoT development platform:
-  BOOTPRINT X2 kit
-date: "2019-10-31 11:48:43"
-image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
-tags:
-  - 96Boards
-  - Horizon Robotics
-  - AI
-  - Bootprint X2 kit
-  - Arm
-  - developer
-  - hardware specification
-category: news
 author: linaro
+category: news
+date: '2019-10-31 11:48:43'
+image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
+layout: post
+tags:
+- 96Boards
+- AI
+- Arm
+- Developer
+title: 'Linaro and Horizon Robotics jointly launch AIoT development platform: BOOTPRINT
+  X2 kit'
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Partner Horizon Robotics today announced the launch of the BOOTPRINT X2 kit. 96Boards is a range of hardware specifications created by Linaro to make the latest Arm-based processors available to developers at a reasonable cost.

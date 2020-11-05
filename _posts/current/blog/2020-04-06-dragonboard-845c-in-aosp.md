@@ -1,17 +1,15 @@
 ---
-layout: post
-title: DragonBoard 845c in AOSP
-date: "2020-04-06 01:48:45"
-image: /assets/images/content/48806078402_a2756594c6_k.jpg
-tags:
-  - Dragonboard 845c
-  - DB845c
-  - Android
-  - AOSP
-  - Linux Kernel
-  - upstreaming
-category: blog
 author: john.stultz
+category: blog
+date: '2020-04-06 01:48:45'
+image: /assets/images/content/48806078402_a2756594c6_k.jpg
+layout: post
+tags:
+- Android
+- AOSP
+- Linux Kernel
+- Upstreaming
+title: DragonBoard 845c in AOSP
 ---
 
 Over the last year, the Linaro Consumer Group (LCG) has been actively working with the Qualcomm Landing Team and the Google Android Systems Team to get the DragonBoard 845c added as one of the AOSP supported devboards (similar to HiKey, HiKey960 and the Beagle X15).

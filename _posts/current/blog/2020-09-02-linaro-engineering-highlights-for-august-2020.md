@@ -1,38 +1,24 @@
 ---
-layout: post
-title: Linaro Engineering Highlights for August 2020
-description: This blog covers the many developments the teams at Linaro have
-  been working on during August including the initial TVM AI compiler
-  performance numbers on ARM64, using energy model to stay in TDP budget,
-  thermal notifications with Netlink, how the ARM32 Linux kernel decompresses
-  and the history of the Linux kernel and Linaro at one million commits.
-date: 2020-09-14T04:19:30.000Z
-image: /assets/images/content/10-year-graphic-horizonal1.png
-tags:
-  - Linaro
-  - TVM
-  - Arm
-  - AI
-  - Cortex-A
-  - AutoTVM
-  - Arm64
-  - Linux
-  - Kernel
-  - ARM32
-  - Linux kernel decompresses
-  - compressed kernels
-  - 1 million commits
-  - Arm ecosystem
-  - LKFT
-  - 5.8 kernel
-  - Hulk Robot
-  - Syzbot 3
-  - 0-day
-  - Coccicheck
-  - Kernel CI
-  - Coverity
-category: blog
 author: jon.burcham@linaro.org
+category: blog
+date: 2020-09-14 04:19:30+00:00
+description: This blog covers the many developments the teams at Linaro have been
+  working on during August including the initial TVM AI compiler performance numbers
+  on ARM64, using energy model to stay in TDP budget, thermal notifications with Netlink,
+  how the ARM32 Linux kernel decompresses and the history of the Linux kernel and
+  Linaro at one million commits.
+image: /assets/images/content/10-year-graphic-horizonal1.png
+layout: post
+tags:
+- Linaro
+- Arm
+- AI
+- Arm64
+- Linux
+- Kernel
+- Arm Ecosystem
+- LKFT
+title: Linaro Engineering Highlights for August 2020
 ---
 
 # Initial TVM AI Compiler Performance Numbers on ARM64

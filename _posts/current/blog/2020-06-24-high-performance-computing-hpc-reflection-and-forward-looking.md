@@ -1,33 +1,30 @@
 ---
-layout: post
-title: " High Performance Computing (HPC), Reflection and Forward-looking."
-description: In 2018 we discussed the first step for ARM into High Performance
-  Computing (HPC). Since then, Linaro has been working to increase awareness of
-  the successes within the High Performance Computing ARM ecosystem. HPC now
-  forms a key part of our activities, plus an association with Fugaku - the No.1
-  Supercomputer in the world (according to the Top500 bi-annual review).
-date: 2020-06-26T04:22:14.000Z
-image: /assets/images/content/hpc-bg.jpg
-tags:
-  - Arm high performance computing
-  - TOFU
-  - opensource toolchains
-  - high performance computing
-  - Cloud-Native computing
-  - HPC
-  - Arm
-  - Linaro
-  - Fugaku
-  - supercomputers
-  - supercomputing
-  - Linaro developer cloud
-  - Sandia
-  - Fujitsu
-  - open HPC
-related_projects:
-  - HPCAI
-category: blog
 author: paul.isaacs
+category: blog
+date: 2020-06-26 04:22:14+00:00
+description: In 2018 we discussed the first step for ARM into High Performance Computing
+  (HPC). Since then, Linaro has been working to increase awareness of the successes
+  within the High Performance Computing ARM ecosystem. HPC now forms a key part of
+  our activities, plus an association with Fugaku - the No.1 Supercomputer in the
+  world (according to the Top500 bi-annual review).
+image: /assets/images/content/hpc-bg.jpg
+layout: post
+related_projects:
+- HPCAI
+tags:
+- Arm High Performance Computing
+- TOFU
+- Opensource Toolchains
+- High Performance Computing
+- HPC
+- Arm
+- Linaro
+- Fugaku
+- Supercomputers
+- Supercomputing
+- Linaro Developer Cloud
+- Open Hpc
+title: ' High Performance Computing (HPC), Reflection and Forward-looking.'
 ---
 
 We have previously reflected on the first step for ARM into HPC ([High Performance Computing and Linaro - Mar.2018](/blog/high-performance-computing-and-linaro/)). Since then, Linaro has been working to increase awareness of the successes within the [High Performance Computing ARM ecosystem](https://static.linaro.org/assets/HighPerformanceComputingARMecosystem-small.pdf). High Performance Computing now forms a key part of our Linaro Connect activities ([Connect Resources](/engineering/high-performance-computing/)) and more recently our virtual conferences, due to Covid-19, ([Linaro Tech Days](https://connect.linaro.org/resources/ltd20/ltd20-106/)) for 2020.

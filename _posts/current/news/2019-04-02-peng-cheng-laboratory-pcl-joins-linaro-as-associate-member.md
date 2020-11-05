@@ -1,24 +1,21 @@
 ---
-title: Peng Cheng Laboratory (PCL) joins Linaro as Associate Member
 author: linaro
-layout: post
-date: 2019-04-02 03:00:00
-description: >-
-  Linaro Ltd, the open source collaborative engineering organization developing
-  software for the Arm® ecosystem, announced today that Peng Cheng Laboratory
-  (PCL) has joined Linaro as an Associate Member.
 category: news
-tags:
-  - Linaro
-  - Peng Cheng Laboratory (PCL)
-  - Membership
-  - Open Source
-  - Associate Members
-  - Arm
-  - Linux
-  - AI
-  - Datacenter & Cloud
+date: 2019-04-02 03:00:00
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, announced today that Peng Cheng Laboratory (PCL)
+  has joined Linaro as an Associate Member.
 image: /assets/images/blog/pcl-join-as-associate-member.jpg
+layout: post
+tags:
+- Linaro
+- Membership
+- Open Source
+- Arm
+- Linux
+- AI
+- Datacenter & Cloud
+title: Peng Cheng Laboratory (PCL) joins Linaro as Associate Member
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm&reg; ecosystem, announced today that Peng Cheng Laboratory (PCL) has joined Linaro as an Associate Member.

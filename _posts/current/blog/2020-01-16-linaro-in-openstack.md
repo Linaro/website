@@ -1,17 +1,16 @@
 ---
-layout: post
-title: " Linaro in OpenStack"
-date: "2020-01-16 02:35:45"
-image: /assets/images/content/DataCenter.jpg
-tags:
-  - datacenter
-  - cloud
-  - servers
-  - OpenStack
-  - AArch64
-  - Linaro Developer Cloud
-category: blog
 author: Marcin.Juszkiewicz
+category: blog
+date: '2020-01-16 02:35:45'
+image: /assets/images/content/DataCenter.jpg
+layout: post
+tags:
+- Datacenter
+- Servers
+- OpenStack
+- Aarch64
+- Linaro Developer Cloud
+title: ' Linaro in OpenStack'
 ---
 
 During the first years of OpenStack’s existence, Arm architecture was mostly used in the embedded and mobile space. Servers were not part of the picture.

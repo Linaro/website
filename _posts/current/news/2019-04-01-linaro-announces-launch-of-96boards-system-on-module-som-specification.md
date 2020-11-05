@@ -1,21 +1,21 @@
 ---
-title: >-
-  Linaro announces launch of 96Boards System-on-Module (SOM) Specification
 author: linaro
-layout: post
-date: 2019-04-01 03:00:00
-description: >-
-  Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.
 category: news
-tags:
-  - Linaro
-  - Arm
-  - Horizon Robotics
-  - Open Source
-  - AI
-  - Beiqicloud
-  - Rockchip
+date: 2019-04-01 03:00:00
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, today announced the publication of version 1.0
+  of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative
+  to build a single software and hardware community across low-cost development boards
+  based on Arm technology.
 image: /assets/images/blog/96Boards-SoM-Carrier-Board-Angle.png
+layout: post
+tags:
+- Linaro
+- Arm
+- Open Source
+- AI
+- Rockchip
+title: Linaro announces launch of 96Boards System-on-Module (SOM) Specification
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.

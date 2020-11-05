@@ -1,16 +1,16 @@
 ---
-layout: post
-title: OpenAMP becomes a Linaro Community Project
-date: "2019-09-23 01:00:00"
-tags:
-  - Arm
-  - Linux
-  - Open Source
-  - Collaborative Engineering
-  - Linaro
-category: blog
-image: /assets/images/content/openampproject-banner-updates.png
 author: linaro
+category: blog
+date: '2019-09-23 01:00:00'
+image: /assets/images/content/openampproject-banner-updates.png
+layout: post
+tags:
+- Arm
+- Linux
+- Open Source
+- Collaborative Engineering
+- Linaro
+title: OpenAMP becomes a Linaro Community Project
 ---
 
 Earlier today, the OpenAMP Project joined the Linaro Community Projects Division, the division of Linaro managing open source community projects, including Trusted Firmware and devicetree. The OpenAMP project aims to standardize interactions between operating environments in a heterogenous embedded system through open source solutions.

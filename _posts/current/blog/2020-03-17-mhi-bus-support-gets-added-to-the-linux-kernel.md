@@ -1,15 +1,13 @@
 ---
-layout: post
-title: MHI bus support gets added to the Linux kernel
-date: "2020-03-17 08:37:59"
-image: /assets/images/content/code.jpg
-tags:
-  - MHI
-  - Modem Host Interface
-  - Linux kernel
-  - Qualcomm
-category: blog
 author: manivannan.sadhasivam
+category: blog
+date: '2020-03-17 08:37:59'
+image: /assets/images/content/code.jpg
+layout: post
+tags:
+- Linux Kernel
+- Qualcomm
+title: MHI bus support gets added to the Linux kernel
 ---
 
 Greg Kroah Hartman once said, “Buses are hard and complex. It is hard to write a bus. But it turns out that there are one or two new buses every kernel release”.
