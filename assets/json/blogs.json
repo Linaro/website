@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-[{% for post in site.categories["Blog"] %}
+[{% for post in site.categories["blog"] %}
     {
         "id": "{{ post.id }}",
         "title": {{ post.title | smartify | jsonify }},

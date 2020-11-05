@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2010-10-26 12:01:05
 description: CAMBRIDGE, UK - 26 OCT 2010
 layout: post

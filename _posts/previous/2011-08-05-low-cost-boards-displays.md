@@ -1,19 +1,19 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2011-08-05 15:04:54
-description: Linaro Matt Waddel shares his experience running desktop distributions
+description:
+  Linaro Matt Waddel shares his experience running desktop distributions
   with Linaro software on development boards, for extended durations, and at a public
   event
 layout: post
 link: /blog/hardware-update/low-cost-boards-displays/
 slug: low-cost-boards-displays
 tags:
-- Hardware
-- board
-- desktop
-- Linaro
+  - Hardware
+  - board
+  - desktop
+  - Linaro
 title: Using Arm low cost boards for displays
 ---
 
@@ -29,14 +29,12 @@ For the software I used Linaro releases of ALIP and Ubuntu Desktop.
 
 Here are the lessons that I learned:
 
-  1. It's difficult to support the different hardware and software. Now that I know which board and which release
-works best I would just support that one system and put all my effort into making that system work really well. A
-particularly vexing problem I encountered was Firefox would lock up without any user input. So I had to reset the
-Firefox systems on a regular basis.
+1. It's difficult to support the different hardware and software. Now that I know which board and which release
+   works best I would just support that one system and put all my effort into making that system work really well. A
+   particularly vexing problem I encountered was Firefox would lock up without any user input. So I had to reset the
+   Firefox systems on a regular basis.
 
+2. Try to test on actual hardware. There are a lot of things that can go wrong between the hardware you have at home
+   and the hardware you actually use, in particular in a public event!
 
-  2. Try to test on actual hardware. There are a lot of things that can go wrong between the hardware you have at home
-and the hardware you actually use, in particular in a public event!
-
-
-  3. Be ready for last minute requests.
+3. Be ready for last minute requests.

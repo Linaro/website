@@ -1,26 +1,27 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-01-11 19:37:08
-description: FXI's Cotton Candy at CES is proof of how Linaro can help a system vendor
+description:
+  FXI's Cotton Candy at CES is proof of how Linaro can help a system vendor
   rapidly develop a product that is running the latest Android ICS and Ubuntu.
 layout: post
 link: /blog/hardware-update/fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development/
 slug: fxis-cotton-candy-at-ces-leverages-open-source-tools-from-linaro-for-rapid-development
 tags:
-- Android
-- Hardware
-- android
-- Cotton Candy
-- Development
-- FXI
-- hardware
-- ICS
-- Linaro
-- Linux on Arm
-- ubuntu
-title: FXI's Cotton Candy at CES Leverages Open Source Tools from Linaro for Rapid
+  - Android
+  - Hardware
+  - android
+  - Cotton Candy
+  - Development
+  - FXI
+  - hardware
+  - ICS
+  - Linaro
+  - Linux on Arm
+  - ubuntu
+title:
+  FXI's Cotton Candy at CES Leverages Open Source Tools from Linaro for Rapid
   Development
 wordpress_id: 1148
 ---
@@ -35,7 +36,7 @@ FXI said in it's announcement it leveraged the [Linaro](/) for Arm open softwar
 
 Cotton Candy is attracting attention at CES and is even shortlisted as a possible best of CES by [Laptop Magazine](https://www.laptopmag.com/).
 
-The demonstration prototype USB stick (pictured above) code named "Cotton Candy" is a equipped with an Arm(R) Cortex(TM)-A9 (1GHz) CPU from Samsung, an Arm Mali(TM)-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and _Bluetooth_® wireless technology, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen. Content can be controlled via smartphones, keyboards, mice and other USB peripherals. See [FXI's product brief pdf](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) for more information.
+The demonstration prototype USB stick (pictured above) code named "Cotton Candy" is a equipped with an Arm(R) Cortex(TM)-A9 (1GHz) CPU from Samsung, an Arm Mali(TM)-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and *Bluetooth*® wireless technology, HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen. Content can be controlled via smartphones, keyboards, mice and other USB peripherals. See [FXI's product brief pdf](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) for more information.
 
 To find our more information about Cotton Candy, see the [FXI website](http://www.fxitech.com/products/).
 

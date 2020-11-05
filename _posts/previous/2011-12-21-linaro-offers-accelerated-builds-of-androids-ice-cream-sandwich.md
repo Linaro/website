@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - Blog
+category: blog
 date: 2011-12-21 22:39:19
 description:
   "Linaro announced the availability of builds of Android Ice Cream Sandwich

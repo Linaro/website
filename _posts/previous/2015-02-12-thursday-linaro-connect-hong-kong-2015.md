@@ -1,9 +1,9 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-02-12 20:24:31
-description: See an overview of what happened on Thursday of Linaro Connect including
+description:
+  See an overview of what happened on Thursday of Linaro Connect including
   the keynote about Android TV
 layout: post
 link: /blog/thursday-linaro-connect-hong-kong-2015/
@@ -13,7 +13,6 @@ wordpress_id: 8002
 ---
 
 Thursday began as each day of Connect has with a guest keynote. The guest keynote for Thursday was given by Warren Rehman, Android Partner Engineering Manager at Google. Warren gave an overview of what Android TV is in context of Android. He went on to discuss expectations for consumer electronics and how this impacts Android TV to try to address these expectations. He also talked about Android security and the multiple layers of defense they have as well as the Android security model.
-
 
 After the morning keynotes the attendees kicked off another day of sessions and hacking. To see all the presentations available from this week please visit the [Linaro slideshare. ](http://www.slideshare.net/linaroorg)  Also many of the videos from this weeks sessions are now available for viewing and can be watched on the [Linaro YouTube Channel.](https://www.youtube.com/user/LinaroOnAir/videos)
 

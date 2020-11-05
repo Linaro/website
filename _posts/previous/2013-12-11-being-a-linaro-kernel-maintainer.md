@@ -1,30 +1,30 @@
 ---
 author: david.rusling
-categories:
-- Blog
+category: blog
 date: 2013-12-11 21:01:28
-description: "Linaro is a very open environment but with access to a lot of privileged
+description:
+  "Linaro is a very open environment but with access to a lot of privileged
   information and knowledge about our member\xE2\x80\x99s products and strategies.
   This can sometimes make being a kernel maintainer somewhat of a balancing act, especially
   with public discussions in kernel mailing lists and in open forums"
-keywords: Linaro, kernel, linux, linux on Arm, kernel maintainer, open source software,
+keywords:
+  Linaro, kernel, linux, linux on Arm, kernel maintainer, open source software,
   software
 layout: post
 link: /blog/kernel-blog/being-a-linaro-kernel-maintainer/
 slug: being-a-linaro-kernel-maintainer
 tags:
-- Kernel
-- kernel
-- Linaro
-- Linux
-- Linux on Arm
-- Open Source
+  - Kernel
+  - kernel
+  - Linaro
+  - Linux
+  - Linux on Arm
+  - Open Source
 title: Being a Linaro Kernel Maintainer
 wordpress_id: 3216
 ---
 
 Linaro is a very open environment but with access to a lot of privileged information and knowledge about our member’s products and strategies. This can sometimes make being a kernel maintainer somewhat of a balancing act, especially with public discussions in kernel mailing lists and in open forums.
-
 
 Information shared with Linaro in confidence is easy to think about. This should always be treated with respect. The principal here is that if something is not public, then it shouldn’t be made public by Linaro. Not doing this would damage the trust between Linaro and its members. However, should a Linaro kernel maintainer believe that some information should be made public, they should argue strongly with that member for that. In this case, it’s probably worth having the discussion with the member’s kernel engineers on a private email list at least initially. It may even be necessary to escalate this to the member’s engineering management.
 

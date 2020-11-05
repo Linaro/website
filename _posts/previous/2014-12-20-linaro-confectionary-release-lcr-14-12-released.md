@@ -6,10 +6,9 @@ link: /blog/linaro-confectionary-release-lcr-14-12-released/
 slug: linaro-confectionary-release-lcr-14-12-released
 title: Linaro Confectionary Release (LCR) 14.12 released
 wordpress_id: 7753
-categories:
-- Blog
+category: blog
 tags:
-- Releases
+  - Releases
 ---
 
 > "Any technology that does not appear magical is insufficiently advanced." ~ Gregory Benford
@@ -30,19 +29,16 @@ LCR is tested. CTS version 5.0, Android BIONIC tests, Android Monkey and other t
 
 The release can be found respectively at:
 
-  * [Juno](/downloads/)
+- [Juno](/downloads/)
 
+- [FVP](/downloads/)
 
-  * [FVP](/downloads/)
-
-
-  * [Versatile Express TC2](/downloads/)
+- [Versatile Express TC2](/downloads/)
 
 If you should find a issue or have a question about the release, we invite you to use one of the following mechanisms:
 
-  * IRC: irc.freenode.net - #linaro-android
-  * email: linaro-android at lists.linaro.org
-  * [Bug Tracking System: Linaro Android project / Linaro Confectionary release component](https://bugs.linaro.org/enter_bug.cgi?product=Linaro%20Android)
-
+- IRC: irc.freenode.net - #linaro-android
+- email: linaro-android at lists.linaro.org
+- [Bug Tracking System: Linaro Android project / Linaro Confectionary release component](https://bugs.linaro.org/enter_bug.cgi?product=Linaro%20Android)
 
 Support is on a “best effort” basis.

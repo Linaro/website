@@ -1,7 +1,8 @@
 ---
 author: mark.gregotski
 date: 2015-02-12 09:46:09+00:00
-excerpt: Linaro is proud to announce that it is a gold sponsor of the 2015 RDK User's
+excerpt:
+  Linaro is proud to announce that it is a gold sponsor of the 2015 RDK User's
   Conference (http://rdkcentral.com/rdk-users-conference-2015/). Linaro is a not-for-profit
   engineering organization with over 200 engineers working on consolidating and optimizing
   open source software for the Arm architecture, including developer tools, the Linux
@@ -11,9 +12,9 @@ link: /blog/linaro-2015-rdk-users-conference/
 slug: linaro-2015-rdk-users-conference
 title: Linaro at the 2015 RDK Users Conference
 wordpress_id: 7990
-categories:
-- Blog
+category: blog
 ---
+
 Linaro is proud to announce that it is a gold sponsor of the 2015 [RDK Users Conference](http://rdkcentral.com/). Linaro is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure.
 
 The 2015 RDK Users Conference provides members of the RDK community the opportunity to get together and discuss key trends and technology directions for the RDK. At the conference, Linaro will be presenting on the “Linaro Perspective” of the RDK and give the attendees an update of the Linaro Digital Home Group’s (LHG) activities over the past year and what LHG will be delivering in 2015. Linaro will also have a booth where the latest advancements in the RDK will be demonstrated on RDK compliant member hardware.
@@ -30,12 +31,9 @@ Currently, LHG has the following members, several of which are actively focused 
 
 ## Linaro's Contributions to the RDK
 
-
 Linaro was instrumental in aiding Comcast migrate the RDK code build system to OpenEmbedded/Yocto build framework. Linaro worked with three SoC vendors to demonstrate the OE/Yocto build process of the RDK and the portability advantages of the layered approach to building a RDK distribution.
 
-
- [LCA14: LCA14-113:Linaro Comcast RDK project from Linaro](//www.slideshare.net/linaroorg/lca14-113-linarocomcastrdkproject)
-
+[LCA14: LCA14-113:Linaro Comcast RDK project from Linaro](//www.slideshare.net/linaroorg/lca14-113-linarocomcastrdkproject)
 
 Linaro was also responsible for contributing the key enabling technology for the RDK Emulator which is widely used throughout the RDK community.
 
@@ -51,7 +49,6 @@ LHG has submitted patches upstream to the CEF project and Open Embedded (meta-br
 
 LHG is evolving an open source software stack introduced by one of the LHG members. This media stack is the OpenSDK which implements the best of breed open-source components to continue innovation in the RDK.
 
-
 {% include image.html path="/assets/images/blog/rdk-2.jpg" alt="LHG RDK Build and Development Activities" %}
 **LHG RDK Build and Development Activities**
 
@@ -63,11 +60,9 @@ Currently the OP-TEE has been integrated into one member board with the OpenSDK 
 
 ## LHG Infrastructure
 
-
 Members of LHG benefit from our private Gerrit/CI loops for the RDK. The Gerrit/Git configuration is setup for storing the RDK recipes and individual projects that may change during the development. All other code is retrieved from the RDK repositories or public open-source repositories (such as Chromium).
 
 Jenkins is used for our CI loops, which will do verification of every Gerrit patch. We target builds and test runs for each of our member hardware targets, as well as the RDK emulator. Approximately 30 builds are run daily for all build/hardware configurations.
-
 
 {% include image.html path="/assets/images/blog/rdk3.jpg" alt="LHG RDK Build Infrastructure established for Members" %}
 

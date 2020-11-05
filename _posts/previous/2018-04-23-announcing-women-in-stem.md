@@ -4,9 +4,35 @@ author: linaro
 layout: post
 date: 2018-04-19 01:01:54+00:00
 image: /assets/images/blog/OpenHours.png
-categories: Blog
-tags: 64-bit, 96Boards, aarch64, Arm, Armv8, Consumer Edition, DB820c, Rock960, Hikey960, enterprise edition, product, single board computer, linaro, linux, open source, openhours, robert wolff, podcast, technology, tech, computer, hardware, software, women in stem, stem,
+category: blog
+tags:
+  - 64-bit
+  - 96Boards
+  - aarch64
+  - Arm
+  - Armv8
+  - Consumer Edition
+  - DB820c
+  - Rock960
+  - Hikey960
+  - enterprise edition
+  - product
+  - single board computer
+  - linaro
+  - linux
+  - open source
+  - openhours
+  - robert wolff
+  - podcast
+  - technology
+  - tech
+  - computer
+  - hardware
+  - software
+  - women in stem
+  - stem,
 ---
+
 # Sole focus on Women in STEM at 96Boards OpenHours in May
 
 In May we will celebrate womens achievements in STEM! Women are a minority in technology and science, even more so in Open Source. Linaro and 96Boards want to focus attention on women in STEM, championing their achievements and encouraging others to follow suite.

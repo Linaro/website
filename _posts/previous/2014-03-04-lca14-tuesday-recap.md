@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-  - Blog
+category: blog
 date: 2014-03-04 17:30:15
 description: Review of all the activities that took place on Tuesday of LCA14
 layout: post

@@ -1,42 +1,40 @@
 ---
 author: jennifer.castelino
-categories:
-- Blog
+category: blog
 date: 2014-09-18 21:43:11
-description: Description of the keynotes and sessions that took place on Wednesday
+description:
+  Description of the keynotes and sessions that took place on Wednesday
   of Linaro Connect USA 2014. Including links to videos, presentations and session
   summaries.
 layout: post
 link: /blog/lcu14-wednesday-wrap/
 slug: lcu14-wednesday-wrap
 tags:
-- Connect Events
-- android
-- AOSP
-- arm
-- Armv8
-- connect
-- Connect Events
-- embedded
-- kernel
-- Linaro Connect
-- Linux
-- Linux on Arm
-- LSK
-- Open Source
-- Opensource
-- toolchain
+  - Connect Events
+  - android
+  - AOSP
+  - arm
+  - Armv8
+  - connect
+  - Connect Events
+  - embedded
+  - kernel
+  - Linaro Connect
+  - Linux
+  - Linux on Arm
+  - LSK
+  - Open Source
+  - Opensource
+  - toolchain
 title: LCU14 Wednesday Wrap-up
 wordpress_id: 6708
 ---
 
-Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the Arm Server”. The [Linaro Enterprise Group (LEG)](https://wiki-archive.linaro.org/LEG) had a dedicated [Arm Server Ecosystem Day ](https://connect.linaro.org/lcu14/)to introduce maintainers and leaders of key open source projects to Linux on Armv8 servers. 
+Wednesday at Linaro Connect was all about Enterprise. The day began with keynotes from HP’s Linda Knippers, where she spoke about “Fueling HP Moonshot”. Following that was a keynote by Canonical’s Kiko Reiss, entitled “Mythology and Potential of the Arm Server”. The [Linaro Enterprise Group (LEG)](https://wiki-archive.linaro.org/LEG) had a dedicated [Arm Server Ecosystem Day ](https://connect.linaro.org/lcu14/)to introduce maintainers and leaders of key open source projects to Linux on Armv8 servers.
 
 LEG has been a group that has been up and running for a while. Many people are aware of the LEG group's work because they’ve seen the patches and LEG is now starting to broaden their scope and would like more projects to be aware of and hopefully involved in supporting Armv8 servers. The goal of Arm Server Ecosystem day is to connect Linux/Linaro developers with other project developers, so the focus of the event was mainly technical, but it also was an opportunity to see the latest 64-bit Arm hardware and software development in this space. Sessions covered topics including Hadoop, OpenJDK, Red Hat, Ubuntu, OpenStack, KVM, Xen and the toolchain.
 
-
 ### **Wednesday September 17, 2014**
-
 
 <table width="1029" style="height: 496px;" class="table responsive-table" >
 <tbody >
@@ -459,9 +457,7 @@ Enterprise Servers
 </tbody>
 </table>
 
-
 ### **Wednesday's Session Summaries**
-
 
 **LEG Keynote: Linda Knippers – HP** The keynote was titled “Fueling HP Moonshot” and in the keynote Linda Knippers spoke about HP’s participation in Linux and open source communities and organizations and how Linaro/ LEG is enabling HP Moonshot.
 

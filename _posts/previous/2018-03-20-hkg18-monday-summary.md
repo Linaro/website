@@ -3,15 +3,31 @@ author: linaro
 date: 2018-03-19 14:50:00.000
 title: Highlights of Day One at HKG18
 description: >-
-    Here is a brief summary of the key announcements made in Linaro CEO George Grey's keynote at HKG18.
-categories:
-  - blog
+  Here is a brief summary of the key announcements made in Linaro CEO George Grey's keynote at HKG18.
+category: blog
 published: true
-tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC'
+tags:
+  - HKG18
+  - Arm
+  - Linux
+  - Kernel
+  - Linaro
+  - Open Source
+  - Machine Learning
+  - AI
+  - 96Boards
+  - HiSilicon
+  - Xilinx
+  - Socionext
+  - Qualcomm
+  - Rockchip
+  - Zephyr
+  - CEC
 keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, HiSilicon, Xilinx, Socionext, Qualcomm, Rockchip, Zephyr, CEC
 image: /assets/images/blog/hkg18-group-photo-optimized.jpg
 layout: post
 ---
+
 # Highlights of the first day at Linaro Connect HKG18
 
 Linaro Connect HKG18 has begun!
@@ -34,12 +50,12 @@ George also highlighted some of Linaro's engineering achievements in the past si
 
 1. OP-TEE/Security - The drivers are now in the upstream kernel. OP-TEE is also getting new secure trusted applications for secure data path. To find out more, check out this Linaro webinar [TEE Linux kernel support and open source security](https://www.youtube.com/watch?v=kk3_DUMJrTI&t=77s).
 2. IOTL/TinyLinux - Working upstream to ensure you can build from upstream Linux a small implementation suitable for an embedded device.
-3. OpenDataPlane - Tigermoth has been released, the second LTS release for ODP.  Work is also happening on DPDK in order to get the ODP APIs available in DPDK. For more information, click [here](/news/linaro-announces-opendataplane-tigermoth/) to read the complete press release.
+3. OpenDataPlane - Tigermoth has been released, the second LTS release for ODP. Work is also happening on DPDK in order to get the ODP APIs available in DPDK. For more information, click [here](/news/linaro-announces-opendataplane-tigermoth/) to read the complete press release.
 4. Linaro Developer Cloud - Allows developers to access Arm servers and purchase instances. To register for an instance, [here](https://linaro.cloud/).
 
 As well as making these key announcements and looking back at some of Linaro's engineering highlights, George announced two new projects at Linaro - the Machine Intelligence Project and the Autonomous Vehicle Project. The goal for the Machine Intelligence Project is to provide best in class deep learning performance by leveraging neural network acceleration in IP and SoCs from the Arm Ecosystem by collaborating on the most widely available AI/ML Software frameworks and libraries. The goal for the Autonomous Vehicle Project is to accelerate the Arm ecosystem in autonomous vehicle control by defining, adopting, improving and promoting open software platforms and scalable software achitecture suitable for cars, other vehicles, robotics and drones. To find out more about the projects and how to contribute, email contactus@linaro.org.
 
-George also talked about Zephyr - an open governance RTOS - and how we are seeing products in the mainstream now running off it, including the rigado gateway, intelligent gloves, shoes and toothbrushes. All these products use the Zephyr _Bluetooth_® wireless technology stack which is completely open, enabling full visibility and ability to fix bugs quicker. Linaro member Sanechips (subsidiary of ZTE) has recently launched Rosefinch 7100 NB-IoT board which uses Zephyr.
+George also talked about Zephyr - an open governance RTOS - and how we are seeing products in the mainstream now running off it, including the rigado gateway, intelligent gloves, shoes and toothbrushes. All these products use the Zephyr *Bluetooth*® wireless technology stack which is completely open, enabling full visibility and ability to fix bugs quicker. Linaro member Sanechips (subsidiary of ZTE) has recently launched Rosefinch 7100 NB-IoT board which uses Zephyr.
 
 Finally, George's keynote emphasized the importance of working upstream. The world is changing whereby we are dealing with unprecedented connectivity, highly complex products and data everywhere. It is therefore more important than ever to work upstream and develop products using the very latest software. With companies having product launches and deadlines to work towards this can be a challenge to achieve which is why we all, Linaro included, need to do more to facilitate the use of the latest software. That is how we ensure products are equipped with the latest security features, get security patches quickly and support most hardware.
 

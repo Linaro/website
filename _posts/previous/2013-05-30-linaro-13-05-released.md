@@ -1,24 +1,21 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-05-30 20:39:54
 description: The Linaro 13.05 release is now available for download!
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
   Linaro 13.05 release, release, announcement, IKS, Linaro Stable Kernel, LSK
 layout: post
 link: /blog/releases-blog/linaro-13-05-released/
 slug: linaro-13-05-released
 tags:
-- Releases
+  - Releases
 title: Linaro 13.05 Released!
 wordpress_id: 2749
 ---
 
->
 > The only way to predict the future is to have the power to shape it. ~Eric Hofer
->
->
 
 ## The Linaro 13.05 release is now available for [download](/downloads/)!
 
@@ -36,143 +33,79 @@ The Builds and Baselines team mirrors the quality efforts of the testing and val
 
 The various releases that help make up the Linaro 13.05 release include:
 
+- Linaro UEFI 2013.05
 
-  * Linaro UEFI 2013.05
+- Linaro Stable Kernel (LSK) preview 3.9.4-2013.05
 
+- Linux Linaro 3.10-rc2-2013.05
 
-  * Linaro Stable Kernel (LSK) preview 3.9.4-2013.05
+- Linaro GCC 4.8-2013.05 and 4.7-2013.05 (based off the latest GCC releases)
 
-
-  * Linux Linaro 3.10-rc2-2013.05
-
-
-  * Linaro GCC 4.8-2013.05 and 4.7-2013.05 (based off the latest GCC releases)
-
-
-  * Linaro Toolchain Binaries 2013.05
-
-
-
+- Linaro Toolchain Binaries 2013.05
 
 A complete list of highlights and accomplishments for LAVA, Builds and Baselines, Graphics, Kernel, Power Management, QA Services, Toolchain, Linaro Enterprise Group (LEG) and Linaro Networking Group (LNG) for the 13.05 Linaro relase can be found at: [https://wiki-archive.linaro.org/Cycles/1305/Release](https://wiki-archive.linaro.org/Cycles/1305/Release)
 
-
-
-
 Do you want to help predict the future of Linux on Arm?  Join us in Dublin, Ireland for [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13). [ Registration](http://linaroconnect-lce13-eorg.eventbrite.com/) is still open! Do you want to highlight the work you or your organization is doing with Linaro code and Arm-processor based boards then be a show off and participate in our [Demo Friday](/blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/) event at LCE-13.
-
-
-
-
 
 ## USING THIS RELEASE:
 
-
-
-
 We encourage everybody to use the 13.05 release. The download links for all images and components are available on our downloads page:
-
-
-
 
 [/downloads/](/downloads/)
 
-
-
-
 See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. The release details are linked from the “Details” column for each released artifact on the release information:
-
-
-
 
 [http://wiki-archive.linaro.org/Cycles/1305/Release#Release_Information](http://wiki-archive.linaro.org/Cycles/1305/Release#Release_Information)
 
-
-
-
-
 ## USING THE ANDROID-BASED IMAGES
-
-
-
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 
-
-
-
 [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
-
-
-
 
 If you are interested in getting the source and building these images yourself please see the following pages:
 
-
-
-
 [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
-
 
 [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
 ## USING THE UBUNTU-BASED IMAGES
 
-
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
-
 [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
-## USING THE OPEN EMBEDDED-BASED IMAGES
 
+## USING THE OPEN EMBEDDED-BASED IMAGES
 
 With the Linaro provided downloads and with Arm’s Fast Models virtual platform, you may boot a virtual Armv8 system and run 64-bit binaries.  For more information please see:
 
-
 [/engineering/armv8](/engineering/)
-## GETTING INVOLVED
 
+## GETTING INVOLVED
 
 More information on Linaro can be found on our websites:
 
-
-  * Homepage: [](/)
-    * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
-
+- Homepage: [](/)
+  - Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
+- Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
+- Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-  * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- IRC:
 
+  - #linaro on irc.linaro.org or irc.freenode.net
 
-  * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
-  * IRC:
-
-
-    * #linaro on irc.linaro.org or irc.freenode.net
-
-
-    * #linaro-android irc.linaro.org or irc.freenode.net
+  - #linaro-android irc.linaro.org or irc.freenode.net
 
 ## KNOWN ISSUES WITH THIS RELEASE
 
 For any errata issues, please see:
 
-
-
-
 [http://wiki-archive.linaro.org/Cycles/1305/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1305/Release#Known_Issues)
 
-
-
-
 Bug reports for this release should be filed in Launchpad against the individual packages that are affected. If a suitable package cannot be identified, feel free to assign them to:
-
-
-
 
 [http://www.launchpad.net/linaro](http://www.launchpad.net/linaro)

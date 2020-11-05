@@ -1,21 +1,22 @@
 ---
 author: mark.gregotski
-categories:
-- Blog
+category: blog
 date: 2015-08-27 21:36:08
-description: Learn about what the Linaro Digital Home Group (LHG) has planned for
+description:
+  Learn about what the Linaro Digital Home Group (LHG) has planned for
   the week of Linaro Connect San Francisco 2015 in September.
-excerpt: Learn about what the Linaro Digital Home Group (LHG) has planned for the
+excerpt:
+  Learn about what the Linaro Digital Home Group (LHG) has planned for the
   week of Linaro Connect San Francisco 2015 in September.
 layout: post
 link: /blog/linaro-digital-home-group-at-sfo15/
 slug: linaro-digital-home-group-at-sfo15
 tags:
-- connect
-- LHG
-- Linaro
-- Linaro Connect
-- Linaro Digital Home Group
+  - connect
+  - LHG
+  - Linaro
+  - Linaro Connect
+  - Linaro Digital Home Group
 title: Linaro Digital Home Group at SFO15
 wordpress_id: 9189
 ---
@@ -42,8 +43,8 @@ In keeping with the security theme for the week, LHG will have a special event d
 
 Finally at the traditional Linaro Connect Demo­ Friday, LHG will be highlighting the following demos:
 
-  * ­Microsoft PlayReady Integrated with OPTEE
-  * ­Linaro Clear Key solution on HiKey Board
-  * ­Qt Apps with Wayland for the RDK
+- ­Microsoft PlayReady Integrated with OPTEE
+- ­Linaro Clear Key solution on HiKey Board
+- ­Qt Apps with Wayland for the RDK
 
 Those attending Linaro Connect are welcome to come to any and all of the LHG sessions and events. If you are not able to attend you can visit the [Linaro Connect SFO15 ](https://connect.linaro.org/sfo15/)page to view recorded sessions and get access to select materials. Hope to see you there.

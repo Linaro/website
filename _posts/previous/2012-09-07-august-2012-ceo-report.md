@@ -1,16 +1,16 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2012-09-07 01:52:38
-description: Overview of new membership levels within Linaro as well as an update
+description:
+  Overview of new membership levels within Linaro as well as an update
   on big.LITTLE work at Linaro.
 keywords: Linaro, Arm, big.LITTLE, Linux, open source, Linaro Connect
 layout: post
 link: /blog/connect-update/august-2012-ceo-report/
 slug: august-2012-ceo-report
 tags:
-- Connect Events
+  - Connect Events
 title: August 2012 CEO Report
 wordpress_id: 1884
 ---

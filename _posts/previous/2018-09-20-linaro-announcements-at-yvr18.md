@@ -5,10 +5,25 @@ layout: post
 date: 2018-09-20 09:00:00+00:00
 description: >-
   Linaro kickstarted the 24th Linaro Connect on Monday 17 September in Vancouver. The day started with Linaro CEO George Grey’s keynote where he presented demos and made some big announcements.
-categories: Blog
-tags: Linaro, Linaro Connect, Arm, Open Source, Linux, Kernel, Machine Learning, AI, Edge, Cloud Computing, Data Centre, IoT, Embedded, HPC
+category: blog
+tags:
+  - Linaro
+  - Linaro Connect
+  - Arm
+  - Open Source
+  - Linux
+  - Kernel
+  - Machine Learning
+  - AI
+  - Edge
+  - Cloud Computing
+  - Data Centre
+  - IoT
+  - Embedded
+  - HPC
 image: /assets/images/blog/GroupPhotoYVR18.jpg
 ---
+
 Linaro Connect YVR18 has finally arrived!
 
 The week-long event came off to a great start on Monday with Linaro CEO George Grey’s keynote in which he took the opportunity to make some announcements and show some demos. If you missed the livestream, you can view the recording [here](https://www.youtube.com/watch?v=sHRKfdn4tIQ).

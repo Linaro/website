@@ -18,7 +18,7 @@ tags:
   - ""
 related_projects:
   - LSE
-category: Blog
+category: blog
 author: linus.walleij
 ---
 

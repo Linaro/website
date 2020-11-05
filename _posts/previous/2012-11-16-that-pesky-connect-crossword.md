@@ -6,14 +6,13 @@ link: /blog/that-pesky-connect-crossword/
 slug: that-pesky-connect-crossword
 title: That pesky Connect Crossword
 wordpress_id: 2002
-categories:
-- Blog
+category: blog
 tags:
-- competion
-- connect
-- crossword
-- cryptic
-- Linaro
+  - competion
+  - connect
+  - crossword
+  - cryptic
+  - Linaro
 ---
 
 So, it all started when Arwen called across the office one day, "Hey Dave, you like solving crosswords. Is there any chance you could compile one as a competition for Connect in Copenhagen?"
@@ -24,53 +23,53 @@ Anyway, all of that said, time has passed, and there are some of you who want to
 
 **Across**
 
-8  Incite no confusion for dangerous chemical (8)
+8 Incite no confusion for dangerous chemical (8)
 Answer: NICOTINE
 It's an anagram (indicated by "confusion") of INCITE NO. The object is "dangerous chemical", which nicotine most definitely is.
 
-9  Fish returns after exercise to find a legume (6)
+9 Fish returns after exercise to find a legume (6)
 Answer: PEANUT
 A fish (TUNA) returns (backwards) at the end of the word, and it's then placed after PE (Exercises as in Physical Exercises.) A peanut is a legume.
 
-10  Augments like kestrel inside (4)
+10 Augments like kestrel inside (4)
 Anser: EKES
 To eke means to augment or add to. The word is buried (inside) in "likE KEStrel"
 
-11  Deceive Don? (3-2)
+11 Deceive Don? (3-2)
 Answer: PUT-ON
 A double definition. To deceive is to put-on, and to put some clothes on is to don them.
 
-12  Drive off footwear in the audience (4)
+12 Drive off footwear in the audience (4)
 ANSWER: SHOO
 To shoo is to drive off. It sounds like (in the audience) "shoe". Soundalikes are commonly called homophones in crossword land.
 
-13  Maths topic got Emery muddled (8)
+13 Maths topic got Emery muddled (8)
 ANSWER: GEOMETRY
-An anagram (muddled) of "got emery", gives you  the maths topic.
+An anagram (muddled) of "got emery", gives you the maths topic.
 
 16 Choir confused my leading policeman? Beyond understanding! (6)
 ANSWER: ORPHIC
-Quite an arcane word, which is why I've tried to make getting the answer fairly easy. Once all the cross letters are found O_P_I_ it should be possible to guess at it. Orphic means beyond comprehension or understanding. It's an anagram (confused) of CHOIR and P (leading Policeman).
+Quite an arcane word, which is why I've tried to make getting the answer fairly easy. Once all the cross letters are found O*P_I* it should be possible to guess at it. Orphic means beyond comprehension or understanding. It's an anagram (confused) of CHOIR and P (leading Policeman).
 
 18 Old greeting a hero of yore used initially(4)
 Answer: AHOY
 A way of saying hello on the high sees once upon a time - hence "old greeting". It's the first letters (initially) of A Hero Of Yore
 
-20  Smallest thing queen takes to ship (5)
+20 Smallest thing queen takes to ship (5)
 Answer: QUARK
 A quark is the smallest particle in physics (ignoring string theory of course). This is a word sum. QU (a common abbreviation for Queen) and ARK - a type of ship, as in Noah in the old testament.
 
-21  Luxury car left, in my opinion(4)
+21 Luxury car left, in my opinion(4)
 Answer: LIMO
 Simple sum of letters. L (common abbreviation for Left as in L and R) and IMO - a common IRC chat acronym for In My Opinion
 
-22  Bones are amusing to me, or so it's said (6)
+22 Bones are amusing to me, or so it's said (6)
 Answer: HUMERI
-Plural of Humerus, or what we wrongly call the funny bone. This is  a Homophone, or sound alike. It *sounds* like (so it's said) "humour I"
+Plural of Humerus, or what we wrongly call the funny bone. This is a Homophone, or sound alike. It _sounds_ like (so it's said) "humour I"
 
-23  Toff the french fellow made in to a peer (8)
+23 Toff the french fellow made in to a peer (8)
 Answer: NOBLEMAN
-Another word sum. A synonym for Toff is NOB; "The" in French is "LE";  and Fellow=MAN. A peer is a nobleman.
+Another word sum. A synonym for Toff is NOB; "The" in French is "LE"; and Fellow=MAN. A peer is a nobleman.
 
 26 Jobs old computer following (4)
 Answer: NEXT
@@ -90,7 +89,7 @@ Again, obscure word, but it is derivable from the clue. It's an alternative spel
 
 32 Little energy girl returns after worker gets transmitters (8)
 Answer: ANTENNAE
-OK. So now we're into real cryptic crossword land. One of the classes of ants are workers, and this is commonly referenced in cryptics. Also, E is the common abbreviation for Energy (little energy) as in e=m*c^2 in Einstein's Special Theory of Relativity. So it's: E and ANNE (the girl) backwards (returns) and then put after the worker (ANT). The object here is obviously transmitters.
+OK. So now we're into real cryptic crossword land. One of the classes of ants are workers, and this is commonly referenced in cryptics. Also, E is the common abbreviation for Energy (little energy) as in e=m\*c^2 in Einstein's Special Theory of Relativity. So it's: E and ANNE (the girl) backwards (returns) and then put after the worker (ANT). The object here is obviously transmitters.
 
 **Down**
 1 Gastropod victory over returning elk (6)
@@ -142,8 +141,8 @@ Answer: QUIDNUNC
 Quidnunc is a Latin phrase that translates as "What now?" but is also a word that means someone who sticks their nose into other people's business.
 
 25. Alexander: "Right, I will also go inside for a bag with breath in it!" (3,3)
-Answer: AIR SAC
-An air sac is a small pocket (or bag) in a lung that contains air (breath). So the clue is a reference to our own Alexander. Take ASAC and insert R (the abbreviation for RIght, again as in R and L) and I to get AIR SAC. :)
+    Answer: AIR SAC
+    An air sac is a small pocket (or bag) in a lung that contains air (breath). So the clue is a reference to our own Alexander. Take ASAC and insert R (the abbreviation for RIght, again as in R and L) and I to get AIR SAC. :)
 
 27 Group time? Capital! (4)
 Answer: TRIO

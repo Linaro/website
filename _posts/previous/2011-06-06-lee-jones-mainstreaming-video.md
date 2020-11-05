@@ -1,19 +1,19 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2011-06-06 21:56:19
-description: Video - Lee Jones - What is upstreaming and why should we bother? Linaro
+description:
+  Video - Lee Jones - What is upstreaming and why should we bother? Linaro
   Developer Summit, May 2011, Budapest.
 layout: post
 link: /blog/community-blog/lee-jones-mainstreaming-video/
 slug: lee-jones-mainstreaming-video
 tags:
-- Community
-- kernel
-- Linux
-- upstreaming
-title: 'LDS video: what is upstreaming?'
+  - Community
+  - kernel
+  - Linux
+  - upstreaming
+title: "LDS video: what is upstreaming?"
 wordpress_id: 3388
 ---
 
@@ -23,41 +23,27 @@ This talk was plenty of good advice, not only for Linaro kernel engineers but al
 
 By watching the video or reading the slides, you will learn about:
 
+- The complexity of the maintainer hierarchy
 
-  * The complexity of the maintainer hierarchy
+- Benefits of upstreaming
 
+- How to do things right as early as possible
 
-  * Benefits of upstreaming
+- How to write coding style compliant code
 
+- How to create, review and submit patches
 
-  * How to do things right as early as possible
+- Patience and how to deal with mailing lists
 
-
-  * How to write coding style compliant code
-
-
-  * How to create, review and submit patches
-
-
-  * Patience and how to deal with mailing lists
-
-
-  * How long the upstreaming process can take
-
-
+- How long the upstreaming process can take
 
 We also had the pleasure to have famous kernel contributors in the room: Thomas Gleixner and Grant Likely, who now work for Linaro (see our [MeetTheTeam wiki page](https://wiki-archive.linaro.org/MeetTheTeam) for details), and added insightful comments.
 
-
 The video can also be downloaded in WebM format:
 
+- WebM / VP8 codec, 800x450 resolution - https://free-electrons.com/pub/video/2011/linaro/may/
 
-  * WebM / VP8 codec, 800x450 resolution - https://free-electrons.com/pub/video/2011/linaro/may/
-
-
-  * WebM / VP8 codec, full HD resolution - https://free-electrons.com/pub/video/2011/linaro/may/
-
-
+- WebM / VP8 codec, full HD resolution - https://free-electrons.com/pub/video/2011/linaro/may/
 
 The slides are available in ODF (https://free-electrons.com/pub/video/2011/linaro/may/) and PDF (https://free-electrons.com/pub/video/2011/linaro/may/) formats.
 

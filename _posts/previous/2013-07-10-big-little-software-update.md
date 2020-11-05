@@ -1,31 +1,31 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2013-07-10 15:19:12
-description: "Progress report on Linaro\xE2\x80\x99s activities and plans for support
+description:
+  "Progress report on Linaro\xE2\x80\x99s activities and plans for support
   of Arm\xE2\x80\x99s big.LITTLE SoCs with Linux and Android software."
-keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, big.LITTLE, Android, Cortex-A7,
+keywords:
+  Linaro, Linux on Arm, Linux, Arm, Open Source, big.LITTLE, Android, Cortex-A7,
   Cortex-A15, Kernel
 layout: post
 link: /blog/hardware-update/big-little-software-update/
 slug: big-little-software-update
 tags:
-- Hardware
+  - Hardware
 title: big.LITTLE Software Update
 wordpress_id: 2821
 ---
 
 With much going on in the big.LITTLE world, this is a progress report on Linaro’s activities and plans for support of Arm’s big.LITTLE SoCs with Linux and Android software. With recent industry announcements, we are expecting many big.LITTLE SoCs to appear from Arm licensees over the coming quarters.
 
-
 ## Current Status as at end of H1 2013
 
 There are at least two member products shipping with SoC implementations of big.LITTLE to date:
 
-  * Arm’s reference Test Chip 2 (TC2) tile for the Versatile Express development platform, configured as an SoC with 2 Cortex-A15 cores and 3 Cortex-A7 cores
+- Arm’s reference Test Chip 2 (TC2) tile for the Versatile Express development platform, configured as an SoC with 2 Cortex-A15 cores and 3 Cortex-A7 cores
 
-  * Samsung-LSI’s 8 core SoC found in some versions of the Galaxy S4 phone, configured with 4 Cortex-A15 cores and 4 Cortex-A7 cores
+- Samsung-LSI’s 8 core SoC found in some versions of the Galaxy S4 phone, configured with 4 Cortex-A15 cores and 4 Cortex-A7 cores
 
 There are also two software models now available, that Arm and Linaro have developed to enable control of workloads, performance, and power management on big.LITTLE SoCs.
 
@@ -49,13 +49,13 @@ The second is the Global Task Scheduling (GTS) software developed (and now named
 
 The key benefits of GTS over IKS are:
 
-  * Finer grained control of workloads that are migrated between cores. Because the scheduler is directly migrating tasks between cores, kernel overhead is reduced and power savings can be correspondingly increased.
+- Finer grained control of workloads that are migrated between cores. Because the scheduler is directly migrating tasks between cores, kernel overhead is reduced and power savings can be correspondingly increased.
 
-  * Implementation in the scheduler also makes switching decisions faster than in the cpufreq framework, and Arm have reported around 10% improvements in performance/watt over IKS on a range of benchmarks.
+- Implementation in the scheduler also makes switching decisions faster than in the cpufreq framework, and Arm have reported around 10% improvements in performance/watt over IKS on a range of benchmarks.
 
-  * The ability to easily support non-symmetrical SoCs (e.g. with 2 Cortex-A15 cores and 4 Cortex-A7 cores)
+- The ability to easily support non-symmetrical SoCs (e.g. with 2 Cortex-A15 cores and 4 Cortex-A7 cores)
 
-  * The ability to use all cores simultaneously to provide improved peak performance throughput of the SoC compared to IKS.
+- The ability to use all cores simultaneously to provide improved peak performance throughput of the SoC compared to IKS.
 
 The big.LITTLE MP patch set creates a list of Cortex-A15 and Cortex-A7 cores that is used to pick the target core for a particular task. Then, using runnable load average statistics, the Linux scheduler is modified to track the average load of each task, and to migrate tasks to the best core. High intensity tasks are migrated to the Cortex-A15 core(s) and are also marked as high intensity tasks for more efficient future allocations.  Low intensity tasks remain resident on the Cortex-A7 core(s).
 

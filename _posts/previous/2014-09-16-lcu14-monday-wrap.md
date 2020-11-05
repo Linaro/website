@@ -1,32 +1,32 @@
 ---
 author: jennifer.castelino
-categories:
-- Blog
+category: blog
 date: 2014-09-16 21:26:20
-description: Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
+description:
+  Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
   California. Here is a recap of what took place the first day of the event.
 layout: post
 link: /blog/lcu14-monday-wrap/
 slug: lcu14-monday-wrap
 tags:
-- Connect Events
-- android
-- AOSP
-- arm
-- Armv8
-- conference
-- connect
-- Connect Events
-- embedded
-- kernel
-- lava
-- Linaro
-- Linaro Connect
-- LSK
-- Open Source
-- Opensource
-- toolchain
-- Linaro Mobile Group
+  - Connect Events
+  - android
+  - AOSP
+  - arm
+  - Armv8
+  - conference
+  - connect
+  - Connect Events
+  - embedded
+  - kernel
+  - lava
+  - Linaro
+  - Linaro Connect
+  - LSK
+  - Open Source
+  - Opensource
+  - toolchain
+  - Linaro Mobile Group
 title: LCU14 Monday Wrap-up
 wordpress_id: 6682
 ---
@@ -511,9 +511,7 @@ Training
 </table>
 Can’t make it to LCU14? Don’t worry. You can still participate remotely and watch the sessions. [More information on Remote Participation](https://connect.linaro.org/lcu14/) 
 
-
 ### Below are the summaries of the sessions that took place on Monday:
-
 
 **LCU14-100: Dalvik is Dead, Long Live Dalvik!** This session covered the architecture of Dalvik and ART. It covered past Arm engineering efforts starting with Dalvik and how it was ported by the Arm team to AARCH64. The session touched on a number of the issues faced before ultimately having most of the work being thrown into the dustbin with the rise of ART. Some of the compiler work from Dalvik was saved this was summarized to wrap up the talk.
 

@@ -1,19 +1,20 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-12-19 17:21:08
-description: Registration for Linaro Connect Asia 2013 scheduled to take place at
+description:
+  Registration for Linaro Connect Asia 2013 scheduled to take place at
   the Gold Coast Hotel in Hong Kong on 4 - 8 March 2013 is now open.
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA13-Hong
   Kong, Server Mini-Summit, Announce, Registration
 layout: post
 link: /blog/industry-blog/registration-opens-for-linaro-connect-asia-2013-book-early/
 slug: registration-opens-for-linaro-connect-asia-2013-book-early
 tags:
-- Community
-- Connect Events
-- Industry
+  - Community
+  - Connect Events
+  - Industry
 title: Registration Opens for Linaro Connect Asia 2013 - Book Early!
 wordpress_id: 2143
 ---
@@ -28,132 +29,95 @@ This intensive week will involve the best software developers participating in d
 
 For LCA13 Track participants can expect the track sessions throughout the week to include:
 
-  * Server
+- Server
 
-  * Android
+- Android
 
-  * Graphics and multimedia
+- Graphics and multimedia
 
+- Kernel
 
-  * Kernel
+- Engineering builds
 
+- Power Management
 
-  * Engineering builds
+- QA
 
+- Infrastructure
 
-  * Power Management
+- Tools
 
+- Validation and LAVA
 
-  * QA
-
-
-  * Infrastructure
-
-
-  * Tools
-
-
-  * Validation and LAVA
-
-
-  * Training
-
+- Training
 
 In addition to theses track sessions, LCA13 will include a number of mini-summits, including a Server mini-summit hosted by the [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG).  More mini-summits will be announced as they are added to the schedule.  Check the schedule page on Linaro Connect to see the latest [updates](https://connect.linaro.org/).
 
-
 ## What did you miss at the last Connect?
-
 
 LCE12 - Copenhagen took place from 29 October to 2 November in Copenhagen, Denmark with more than 300 delegates from over 80 companies. Included below are some highlights from this event  which give a nice overview of what happens at our Linaro Connect event:
 
-
 ### 3 Mini - Summits
 
-  * [Android Mini-Summit](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
+- [Android Mini-Summit](/blog/summary-of-the-android-mini-summit-at-connect-copenhagen-2012/)
 
+- [Armv8(64bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)
 
-  * [Armv8(64bit)](/blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/)
-
-
-  * big.LITTLE
+- big.LITTLE
 
 ### Session Tracks
 
-  * [Android](https://connect.linaro.org)
+- [Android](https://connect.linaro.org)
 
+- [Automation, CI & LAVA](https://connect.linaro.org)
 
-  * [Automation, CI & LAVA](https://connect.linaro.org)
+- [Engineering Baselines and Validation](https://connect.linaro.org)
 
+- [General](https://connect.linaro.org)
 
-  * [Engineering Baselines and Validation](https://connect.linaro.org)
+- [Graphics & Multimedia](https://connect.linaro.org)
 
+- [Hackfest](https://connect.linaro.org)
 
-  * [General](https://connect.linaro.org)
+- [Kernel & Power Management](https://connect.linaro.org)
 
+- [Members](https://connect.linaro.org)
 
-  * [Graphics & Multimedia](https://connect.linaro.org)
+- [Mini Summit](https://connect.linaro.org)
 
+- [OCTO](https://connect.linaro.org)
 
-  * [Hackfest](https://connect.linaro.org)
+- [Private Meetings](https://connect.linaro.org)
 
+- [Toolchain](https://connect.linaro.org)
 
-  * [Kernel & Power Management](https://connect.linaro.org)
-
-
-  * [Members](https://connect.linaro.org)
-
-
-  * [Mini Summit](https://connect.linaro.org)
-
-
-  * [OCTO](https://connect.linaro.org)
-
-
-  * [Private Meetings](https://connect.linaro.org)
-
-
-  * [Toolchain](https://connect.linaro.org)
-
-
-  * [Training](https://connect.linaro.org)
+- [Training](https://connect.linaro.org)
 
 ### Demo Friday Event
 
-  * Linaro – Linaro-Linux Kernel Demo – Various Member Boards
+- Linaro – Linaro-Linux Kernel Demo – Various Member Boards
 
+- Linaro - Galaxy Nexus with Linaro Improvements Programming Station
 
-  * Linaro - Galaxy Nexus with Linaro Improvements Programming Station
+- Linaro - NI Power Measurement of Android
 
+- Linaro - Benchmark and Hotspot Automation
 
-  * Linaro - NI Power Measurement of Android
+- Linaro –  Android/Standard Linux on Galaxy Nexus
 
+- SIProp – 3D copy machine
 
-  * Linaro - Benchmark and Hotspot Automation
+- Samsung LT - Android on Insignal Origna Quad Core Low Cost Board running Samsung Exynos 4412 SoC
 
+- Texas Instruments LT - Arm energy probe + Linaro software demo
 
-  * Linaro –  Android/Standard Linux on Galaxy Nexus
-
-
-  * SIProp – 3D copy machine
-
-
-  * Samsung LT - Android on Insignal Origna Quad Core Low Cost Board running Samsung Exynos 4412 SoC
-
-
-  * Texas Instruments LT - Arm energy probe + Linaro software demo
-
-
-  * JogAmp Community - JogAmp graphics, audio, media and processing libraries
-
+- JogAmp Community - JogAmp graphics, audio, media and processing libraries
 
 ### Announcements
 
-  * [LEG](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/)
+- [LEG](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/)
 
-
-  * [HiSilicon](/news/hisilicon-joins-linaro-as-core-member/), [LG Electronics](/news/lg-electronics-joins-linaro/)
-
+- [HiSilicon](/news/hisilicon-joins-linaro-as-core-member/), [LG Electronics](/news/lg-electronics-joins-linaro/)
 
 ## Why come to Linaro Connect?
 

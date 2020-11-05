@@ -1,11 +1,12 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-07-08 12:26:43
-description: Industry leaders are gathering in Dublin, Ireland this week to define
+description:
+  Industry leaders are gathering in Dublin, Ireland this week to define
   the future of Linux on Arm at Linaro Connect
-excerpt: Industry leaders are gathering in Dublin, Ireland this week to define the
+excerpt:
+  Industry leaders are gathering in Dublin, Ireland this week to define the
   future of Linux on Arm at Linaro Connect
 layout: post
 link: /news/ceo-george-grey-opens-linaro-connect-europe-2013-lce13-dublin-ireland/
@@ -15,7 +16,6 @@ wordpress_id: 4426
 ---
 
 DUBLIN, IRELAND - 8 JUL 2013
-
 
 ## Industry leaders are gathering in Dublin, Ireland this week to define the future of Linux on Arm at Linaro Connect
 

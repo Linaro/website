@@ -179,7 +179,7 @@
                                 {% for post in sorted_related_posts%}
                                 <li class="list-group-item">
                                     <a href="{{post.url}}">{{post.title}} - {{post.date | date: "%A, %B %-d, %Y"}} 
-                                        <span class="badge {% if post.category == "Blog" %}badge-primary{% else %}bade-secondary{% endif %} ml-2">{{post.category}}</span></a>
+                                        <span class="badge {% if post.category == "blog" %}badge-primary{% else %}bade-secondary{% endif %} ml-2">{{post.category}}</span></a>
                                 </li>
                                 {% endfor %}
                             </ul>

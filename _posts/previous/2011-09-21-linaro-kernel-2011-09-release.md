@@ -1,14 +1,13 @@
 ---
 author: fathi.boudra
-categories:
-- Blog
+category: blog
 date: 2011-09-21 05:30:28
 description: Announcement and release notes for Linaro Kernel 2011.09 release
 layout: post
 link: /blog/releases-blog/linaro-kernel-2011-09-release/
 slug: linaro-kernel-2011-09-release
 tags:
-- Releases
+  - Releases
 title: Linaro Kernel 2011.09 release
 wordpress_id: 541
 ---
@@ -26,6 +25,7 @@ git://git.linaro.org/kernel/linux-linaro-3.0.git
 tag: linux-linaro-3.0-2011.09-0
 
 The changes since our 11.08 release include:
+
 - Update to 3.0.4 stable tree
 - Fix for [https://bugs.launchpad.net/bugs/709245](https://bugs.launchpad.net/bugs/709245), a USB performance issue on Cortex A9 dual core systems.
 
@@ -35,6 +35,7 @@ A full changelog against linux-linaro-3.0-2011.09 is available at:
 [http://launchpad.net/linux-linaro/3.0/3.0-2011.09/+download/CHANGELOG-linux-linaro-3.0-2011.09-0](http://launchpad.net/linux-linaro/3.0/3.0-2011.09/+download/CHANGELOG-linux-linaro-3.0-2011.09-0)
 
 High Priority Known Issues:
+
 - None at this time!
 
 Mailing list: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)

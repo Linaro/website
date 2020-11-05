@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - Blog
+category: blog
 date: 2013-05-09 18:20:58
 description:
   Renato Golin explains the significance of the EuroLLVM event, discusses

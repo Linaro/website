@@ -1,26 +1,27 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-04-20 13:28:10
-description: Linaro invites those who are using Linaro builds and Arm-processor based
+description:
+  Linaro invites those who are using Linaro builds and Arm-processor based
   boards to participate in its Q2.12 Linaro Connect Demo Friday Event on 1 June 2012.
-keywords: Linaro, Linux on Arm, Linaro Connect, Q2.12, developers, registration, Hong
+keywords:
+  Linaro, Linux on Arm, Linaro Connect, Q2.12, developers, registration, Hong
   Kong, Gold Coast Hotel, May, June, Demo Friday, Call for Participation
 layout: post
 link: /blog/industry-blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/
 slug: be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens
 tags:
-- Community
-- Connect Events
-- Industry
-title: 'Be a Show Off and Highlight Your Work - Demo Friday: Call for Participation
-  Opens'
+  - Community
+  - Connect Events
+  - Industry
+title:
+  "Be a Show Off and Highlight Your Work - Demo Friday: Call for Participation
+  Opens"
 wordpress_id: 1569
 ---
 
 _**Linaro Events Manager, [Arwen Donaghey](/about/), issued the Call for Participation for [Q2.12 Linaro Connect](https://connect.linaro.org/resources/) [Demo Friday event](/blog/be-a-show-off-and-highlight-your-work-demo-friday-call-for-participation-opens/), in an email to the connect mailing list yesterday. Below is the Call for Participation in full:**_
-
 
 Linaro Connect Q2.12 is just around the corner. With a little over 5 weeks until the event I am pleased to announce the call for demonstrations is now open. Taking place on Friday 1 June from 4pm, demonstrations will be set up in the very grand, Grand Ballroom of the Gold Coast Hotel, Hong Kong as part of Linaro Connect Q2.12.
 
@@ -28,32 +29,23 @@ If you’ve not participated or attended previously, you can get an idea of what
 
 The public is invited to attend and participate in this energetic afternoon.  Linaro, its partners, members and community, have created this as a great opportunity to view exciting demonstrations of Linaro builds running on a variety of Arm processor-based boards.
 
+If you or someone you know is interested in presenting a demonstration on Friday 1st June please email [events@linaro.org](mailto:events@linaro.org) with the following information:\_ \_
 
-If you or someone you know is interested in presenting a demonstration on Friday 1st June please email [events@linaro.org](mailto:events@linaro.org) with the following information:_ _
+- _Name_
 
+- _Company affiliation_
 
-  * _Name_
+- _Title of the demonstration_
 
-  * _Company affiliation_
+- _Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)_
 
+- _Any equipment requirements_
 
-  * _Title of the demonstration_
+- _Participants must be available to set up their demonstration prior to the start of the event and immediately after to close down_
 
-
-  * _Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)_
-
-
-  * _Any equipment requirements_
-
-
-  * _Participants must be available to set up their demonstration prior to the start of the event and immediately after to close down_
-
-
-  * _A poster [(template attached)](/assets/pdf/Demo-Friday-Poster-Template_HK.odp), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 18 May 2012 in order to guarantee printing)**_
-
+- _A poster [(template attached)](/assets/pdf/Demo-Friday-Poster-Template_HK.odp), which allows attendees to understand all about your demonstration. **(Posters must be received by Friday 18 May 2012 in order to guarantee printing)**_
 
 Please let me know if you have any questions about Demo Friday or Linaro Connect events and I look forward to seeing all your demonstrations.  Thanks in advance for your participation.
-
 
 _**Now's your time to show off what you've been working on. [ Send in your Demo Friday submission today](mailto:events@linaro.org). **_
 

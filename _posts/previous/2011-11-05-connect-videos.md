@@ -1,21 +1,21 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2011-11-05 13:38:43
-description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
+description:
+  A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
   Technical discussions and interviews with Linaro and community engineers.
 keywords: linaro,connect,videos,arm,linux
 layout: post
 link: /blog/connect-update/connect-videos/
 slug: connect-videos
 tags:
-- Connect Events
-- arm
-- connect
-- Linaro
-- Linux
-- video
+  - Connect Events
+  - arm
+  - connect
+  - Linaro
+  - Linux
+  - video
 title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
 ---
@@ -62,7 +62,7 @@ Noritsuna Imamura showed a cool cluster built with Panda boards. Noritsuna is a 
 
 The cluster is made of 6 panda boards, that means 12 cores with 6 GB of RAM. We could see that it consumed about 35 W in low activity mode.
 
-Noritsuna explained how his cluster runs the Google App Engine (http://code.google.com/appengine/),  and allows to dispatch a Google app on a selected board.
+Noritsuna explained how his cluster runs the Google App Engine (http://code.google.com/appengine/), and allows to dispatch a Google app on a selected board.
 
 Details can be found [here](http://www.siprop.org/ja/2.0/index.php?product/pandacloud).
 
@@ -76,7 +76,7 @@ Tin Can Tools David Anders demonstrated two new devices his company makes.
 
 First, he showed Flyswatter 2, a cheap but fast JTAG interface compatible with the Beagle and Panda boards. With a little bit of extra wiring, this interface can also be used for debugging with other boards that Linaro supports.
 
-What he showed was how to copy a Linux kernel to RAM on a Panda board, and directly boot this new kernel. This  is much faster than manually copying the kernel to an SD card and booting it through U-boot. Of course, JTAG is mostly used for kernel debugging, in situations when a hardware debugger is often the only solution.
+What he showed was how to copy a Linux kernel to RAM on a Panda board, and directly boot this new kernel. This is much faster than manually copying the kernel to an SD card and booting it through U-boot. Of course, JTAG is mostly used for kernel debugging, in situations when a hardware debugger is often the only solution.
 
 David went on by showing the new Beacon board, a small add-on for the Panda and Beagle boards, featuring a 7 segment LED display and a tri-colored LED, which can be controlled through GPIOs. I guess this add-on is mainly meant for educational purposes.
 
@@ -87,7 +87,6 @@ David Anders is one of the engineers that contributed most to the design of the 
 Michael Hope, the leader of the Toolchain Working Group, explained how his teams handles bugs, makes releases and works with upstream.
 
 Slides are available on http://people.linaro.org/~michaelh/presentations/2011.11%20Toolchain%20Process.pdf
-
 
 ### Day 3 - Freescale Landing team interview
 
@@ -105,7 +104,7 @@ They also explained how they work together. In particular, they organized a code
 
 Ricardo Salveti, tech lead of the Developer Platform working group, gave a tutorial on the Ubuntu Linaro Evaluation Builds (LEBs) provided by Linaro.
 
-He first explained how these builds are developed, and their relationship with Ubuntu. He then showed how to download one of these builds and prepare a bootable SD card image with them.  He also gave details useful for people interested in contributing to our Ubuntu LEBs.
+He first explained how these builds are developed, and their relationship with Ubuntu. He then showed how to download one of these builds and prepare a bootable SD card image with them. He also gave details useful for people interested in contributing to our Ubuntu LEBs.
 
 ### Day 4 - Using and contributing to Linaro Android
 

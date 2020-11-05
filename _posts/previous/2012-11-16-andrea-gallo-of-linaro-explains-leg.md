@@ -1,27 +1,26 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-11-16 04:32:47
-description: Find out more about the newly formed Linaro Enterprise Group (LEG) from
+description:
+  Find out more about the newly formed Linaro Enterprise Group (LEG) from
   Amber Graner's interview with the group's director, Andrea Gallo.
-keywords: Linaro, Linaro Connect, LCE12-Copenhagen, LCA13-Hong Kong, LEG, Linaro Enterprise
+keywords:
+  Linaro, Linaro Connect, LCE12-Copenhagen, LCA13-Hong Kong, LEG, Linaro Enterprise
   Group, Arm Servers, Linux on Arm, Arm, Open Source, Andrea Gallo, Amber Graner,
   Interview
 layout: post
 link: /blog/community-blog/andrea-gallo-of-linaro-explains-leg/
 slug: andrea-gallo-of-linaro-explains-leg
 tags:
-- Community
-- Connect Events
-- Hardware
+  - Community
+  - Connect Events
+  - Hardware
 title: Andrea Gallo of Linaro Explains LEG
 wordpress_id: 1995
 ---
 
 Earlier this week [I](/about/) had the opportunity to sit down with [Andrea Gallo](/about/) our Director of the [Linaro Enterprise Group (LEG)](/engineering/datacenter-and-cloud/) via a [Google+ Hangout on Air](http://www.youtube.com/user/LinaroOnAir) and discuss this newly formed and [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) Linaro Group in more detail.
-
-
 
 In this interview, Andrea explains Arm both as [an architecture](http://en.wikipedia.org/wiki/Arm_architecture) and [a company](http://www.arm.com/about/index.php), [Linaro](/), [LEG](/engineering/datacenter-and-cloud/) and why LEG is being formed now. He explains his role and responsibilities as the Director of LEG. But that's not all, he also highlights the benefits of membership, how the scope and priorities of LEG are defined and what the top priorities will be over the next 6 to 18 months.
 
@@ -33,20 +32,17 @@ Andrea also looks to the future and outlines what attendees of the next Linaro C
 
 For those who want more information about how you can get in touch with Andrea and the LEG team we have the following resources:
 
-  * [LEG Website Page](/engineering/datacenter-and-cloud/)
+- [LEG Website Page](/engineering/datacenter-and-cloud/)
 
-  * Mailing Lists
+- Mailing Lists
 
-    * [linaro-enterprise@lists.linaro.org ](mailto:linaro-enterprise@lists.linaro.org)
+  - [linaro-enterprise@lists.linaro.org ](mailto:linaro-enterprise@lists.linaro.org)
 
+  - where to [subscribe to the mailing list](http://lists.linaro.org/mailman/listinfo/linaro-enterprise)
 
-    * where to [subscribe to the mailing list](http://lists.linaro.org/mailman/listinfo/linaro-enterprise)
+  - how and where to get help - [linaro-enterprise-request@lists.linaro.org](mailto:linaro-enterprise-request@lists.linaro.org) (just remember to add 'help' without the quotes in the subject or body of the email).
 
-
-    * how and where to get help - [linaro-enterprise-request@lists.linaro.org](mailto:linaro-enterprise-request@lists.linaro.org) (just remember to add 'help' without the quotes in the subject or body of the email).
-
-  * IRC Channel - #linaro-enterprise on _irc.linaro.org_
-
+- IRC Channel - #linaro-enterprise on _irc.linaro.org_
 
 Andrea also discusses why he is personally excited about LEG, why he enjoys working for Linaro and more.
 

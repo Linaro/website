@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2010-11-10 12:06:52
 description: CAMBRIDGE, UK - 10 NOV 2010
 layout: post
@@ -16,33 +15,16 @@ CAMBRIDGE, UK - 10 NOV 2010
 ## Linaro completes 10.11 release on time and showcases its engineering on multiple Arm Cortex-A9 chips running multiple software distributions
 
 Linaro (announced at Computex by Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments) completes its first engineering cycle (10.11) on the 10th November with a demonstration of tools and software improved by Linaro being used on the latest Cortex-A9 based chips.
-	
-  * Linaro is building on this momentum and expanding the number of Working Groups to five, covering: Graphics, Multimedia, Power Management, Tools and Kernel.
 
-	
-  * Linaro's engineering team has grown from 20 to 70 open source developers with new talent added every month.
-
-	
-  * To strengthen Linaro's governance, TI joins Arm on the board along with IBM in representation of all Club Members.
-
-	
-  * Linaro's members will be demonstrating multiple software distributions built with Linaro software and tools on multiple dual core Cortex-A9 System on Chip (SoC) products at Arm Techcon (Santa Clara, CA) on the 10th November.
-
-	
-  * Linaro has delivered on its first goal of investing directly in open source projects, consolidating, restructuring and tuning code to run optimally on Arm based System on Chip (SoC) solutions from multiple partners in a clean and consistent way.
-
-	
-  * All Linaro software - whether development tools or Linux based projects - is open source, on its way upstream and easily available from the website.
-
-	
-  * Linaro has created an effective, collaborative and open engineering organisation by bringing talent together from all over the world to fix industry wide problems such as low-level software fragmentation and under-investment in open source projects.
-
-	
-  * Linaro has worked on the latest releases of tools, kernel and middleware enabling optimized software for the new range of high performance Cortex-A9 based chips that are entering the market.
-
-	
-  * The focus of Linaro is to reduce the cycle time required to develop Linux based products that fully utilise the latest SoC solutions.
-
+- Linaro is building on this momentum and expanding the number of Working Groups to five, covering: Graphics, Multimedia, Power Management, Tools and Kernel.
+- Linaro's engineering team has grown from 20 to 70 open source developers with new talent added every month.
+- To strengthen Linaro's governance, TI joins Arm on the board along with IBM in representation of all Club Members.
+- Linaro's members will be demonstrating multiple software distributions built with Linaro software and tools on multiple dual core Cortex-A9 System on Chip (SoC) products at Arm Techcon (Santa Clara, CA) on the 10th November.
+- Linaro has delivered on its first goal of investing directly in open source projects, consolidating, restructuring and tuning code to run optimally on Arm based System on Chip (SoC) solutions from multiple partners in a clean and consistent way.
+- All Linaro software - whether development tools or Linux based projects - is open source, on its way upstream and easily available from the website.
+- Linaro has created an effective, collaborative and open engineering organisation by bringing talent together from all over the world to fix industry wide problems such as low-level software fragmentation and under-investment in open source projects.
+- Linaro has worked on the latest releases of tools, kernel and middleware enabling optimized software for the new range of high performance Cortex-A9 based chips that are entering the market.
+- The focus of Linaro is to reduce the cycle time required to develop Linux based products that fully utilise the latest SoC solutions.
 
 Linaro showcases progress and momentum for its collaborative embedded Linux organisation at Arm Techcon in Santa Clara. In a demonstration that shows Linaro delivering on its mission to make open source development easier, quicker and more optimized, Samsung, ST-Ericsson and TI will be showcasing multiple open source distributions, running on multiple SoCs using code or tools that have been enhanced by Linaro.
 
@@ -56,19 +38,18 @@ At the June Computex launch of Linaro, it was stated that Linaro would be buildi
 
 The rapid increase in open source developers working for Linaro has enabled an expansion of Working Groups for the second engineering cycle (11.05). The addition of three new Working Groups will make it easier to create stunning products with advanced multimedia, graphics and exceptional battery life. To strengthen Linaro's governance, TI joins Arm on the board along with IBM in representation of all Club Members. The new board have recently selected George Grey as CEO to add further experience to Linaro's executive team. Linaro announces today that it is creating a new Advisory group for software distribution owners, so that they have a formal channel to discuss their needs and wants with the TSC who set the Linaro engineering requirements.
 
-### Linaro demonstrates easier, quicker and more optimized open source****
+### Linaro demonstrates easier, quicker and more optimized open source\*\*\*\*
 
 In a significant demonstration at Techcon on 10th of November, Samsung, ST-Ericsson and TI will showcase 3 different software distributions on 3 different Cortex-A9 based SoCs using software or tools that have been enhanced by Linaro's developers
 
 "These demonstrations show the latest Arm based SoCs running multiple distributions and built with software or tools that have benefited from Linaro's aligned engineering," said George Grey, CEO of Linaro. "By providing the best open source tools and software and helping to enable them on the most advanced Cortex-A9 chips, we are helping to unify and accelerate open source development."
 
 In the second cycle Linaro will build on this momentum by:
-	
-  * Investing in more open source projects relating to graphics, multimedia and power management
-  * Expanding the number of SoCs which support this software and support for leading edge cores
-  * Announcing distribution owners as Advisors to Linaro
-  * Announcing a new member of the TSC
 
+- Investing in more open source projects relating to graphics, multimedia and power management
+- Expanding the number of SoCs which support this software and support for leading edge cores
+- Announcing distribution owners as Advisors to Linaro
+- Announcing a new member of the TSC
 
 Companies interested in joining this collaborative venture are invited to discuss membership with the Linaro executive team. For more information on the company or to download software and tools, visit [www.linaro.org](/).
 

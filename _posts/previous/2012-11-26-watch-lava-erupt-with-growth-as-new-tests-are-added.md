@@ -1,20 +1,21 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-11-26 21:05:13
-description: Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how he
+description:
+  Find out more about LAVA as Dave Pigott, Lava Lab Lead explains how he
   created an animated version of LAVA from its go live date of 27 July 2011 to 6 Nov
   2012.
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LAVA, Dave
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LAVA, Dave
   Pigott, Testing, Gource, FFmpeg, Python
 layout: post
 link: /blog/community-blog/watch-lava-erupt-with-growth-as-new-tests-are-added/
 slug: watch-lava-erupt-with-growth-as-new-tests-are-added
 tags:
-- Community
-- Hardware
-- LAVA
+  - Community
+  - Hardware
+  - LAVA
 title: Watch LAVA Erupt with Growth as New Tests are Added
 wordpress_id: 2028
 ---
@@ -58,24 +59,19 @@ Outside of that, the little avatars represent people or processes submitting job
 
 **Dave Pigott:** By submitting tests on a regular basis, people can benchmark their work over time. Has it improved in performance? Have we introduced a regression? Does it use less power? That sort of thing. Open Source software has rarely, if ever, been tested to the extent that LAVA has enabled.
 
-
 ### About LAVA
 
 _[LAVA ](https://docs.lavasoftware.org/lava/index.html) is an automated testing framework developed by Linaro. It includes a web framework with extensions for scheduling jobs and storing results. The web framework can be extended with custom extensions for storing new types of data, or presenting custom result views. LAVA has a dispatcher component for processing test jobs that can deploy Ubuntu based and Android based Linaro images on supported development boards. Custom extensions can be written to support additional client types, or operations to perform. LAVA has test runners that can provide a consistent interface to various Linux and Android test suites with additional test suites added easily._
 
 _More information about [LAVA](https://wiki-archive.linaro.org/Platform/LAVA), its use, or getting involved with the team can be found on the [Linaro Wiki](https://wiki-archive.linaro.org/Platform/LAVA). The LAVA Team has a [weekly meeting](https://wiki-archive.linaro.org/Platform/LAB), a [mailing list](http://lists.linaro.org/mailman/listinfo/linaro-validation) and members of the team can be found in the #linaro IRC channel on irc.freenode.net._
 
-
 ### About Linaro
-
 
 _Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation._
 
 _To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](/)._
 
-
 ### About Linaro Connect
-
 
 _Over 300 participants, ranging from kernel hackers to integration engineers to Arm SoC industry executives gather during this week long to present, discuss and develop features,  infrastructure and optimizations for the Linux kernel, Android, Ubuntu and beyond._
 

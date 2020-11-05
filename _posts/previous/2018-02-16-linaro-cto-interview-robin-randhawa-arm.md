@@ -4,13 +4,20 @@ co-author: robin.randhawa
 date: 2018-02-16 12:00:00.000
 title: Robin Randhawa (Arm) discusses The Automotive Industry and Open Source Software with Linaro CTO
 description: >-
- Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm)
- on Linaro’s automotive strategy for a little while now. We both get asked how open
- source software fits in that industry. I thought that this interview would help explain.
-categories:
-  - blog
+  Today’s CTO blog is really an interview. I have been working with Robin Randhawa (Arm)
+  on Linaro’s automotive strategy for a little while now. We both get asked how open
+  source software fits in that industry. I thought that this interview would help explain.
+category: blog
 published: true
-tags: 'CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles'
+tags:
+  - CTO-Blog
+  - Open Source Software
+  - Arm
+  - Software
+  - Hardware
+  - Automotive
+  - Machine Learning
+  - Autonomous Vehicles
 keywords: CTO-Blog, Open Source Software, Arm, Software, Hardware, Automotive, Machine Learning, Autonomous Vehicles
 image: /assets/images/blog/automotive-arm-ecosystem.png
 layout: post
@@ -76,6 +83,5 @@ This brings me to my next question. A car is a mixture of safety critical and no
 components etc.
 
 **DR:** Robin, thank you for being interviewed, I think that this interview goes a long way towards explaining where open source fits in vehicles, now and an a little bit of our thinking about the future. Robin will be at Linaro’s Hong Kong Connect (HKG18) later this year in March. If you are there, he is always worth talking to. Speaking of HKG18, there is a strong Automotive presence there, especially on Ecosystem Day, which is the Wednesday of the event.
-
 
 For more information on HKG18 or to register for Ecosystem Day, click [here](https://connect.linaro.org/).

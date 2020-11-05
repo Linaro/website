@@ -1,12 +1,13 @@
 ---
 author: nicolas.pitre
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-01-27 17:26:36
-description: Hardware became much less energy hungry while providing increased performance
+description:
+  Hardware became much less energy hungry while providing increased performance
   of many orders of magnitude.
-excerpt: 'The computing industry has gone through multiple "power" phases since its
+excerpt:
+  'The computing industry has gone through multiple "power" phases since its
   infancy.  The first computers consumed quite a lot of power. However they weren''t
   very powerful in the computational sense. With the large technological advancements
   that followed, the hardware became much less energy hungry while providing increased
@@ -15,15 +16,14 @@ layout: post
 link: /blog/core-dump/road-energy-aware-scheduling/
 slug: road-energy-aware-scheduling
 tags:
-- Core Dump
-- Energy-Aware
-- Scheduling
+  - Core Dump
+  - Energy-Aware
+  - Scheduling
 title: The Road to Energy-Aware Scheduling
 wordpress_id: 7806
 ---
 
 # **The Road to Energy-Aware Scheduling**
-
 
 The computing industry has gone through multiple "power" phases since its infancy. The first computers consumed quite a lot of power. However they weren't very powerful in the computational sense. With the large technological advancements that followed, the hardware became much less energy hungry while providing increased performance of many orders of magnitude.
 
@@ -33,11 +33,9 @@ Traditionally, the hardware has provided two mechanisms for software to reduce p
 
 This worked quite well and was relatively easy to manage... until the arrival of multi-core processors in the mobile world. The introduction of additional cores serves the need for increased computing performance, but also causes many problems for power management as the task scheduler and DVFS goals are often conflicting. For example:
 
-  * The task scheduler needs to move some work to another processor when one of them becomes overloaded. On the other hand, the cpufreq infrastructure does increase the clock frequency of an overloaded processor to cope better with the amount of work. The combined effect may well be a processor that becomes under-utilized compared to the others and consumes more power than strictly necessary.
+- The task scheduler needs to move some work to another processor when one of them becomes overloaded. On the other hand, the cpufreq infrastructure does increase the clock frequency of an overloaded processor to cope better with the amount of work. The combined effect may well be a processor that becomes under-utilized compared to the others and consumes more power than strictly necessary.
 
-
-  * In the presence of multiple processors, the task scheduler tries to spread the work across all the available resources to increase performance. This, however, prevents some of those processors from becoming idle and saving power by suspending them.
-
+- In the presence of multiple processors, the task scheduler tries to spread the work across all the available resources to increase performance. This, however, prevents some of those processors from becoming idle and saving power by suspending them.
 
 The introduction of the big.LITTLE architecture by Arm Ltd is a hardware mechanism providing more avenues for reduced energy consumption. However this requires changes at the task scheduler level to fully take advantage of this architecture, since up to now the scheduler always assumed that all processors are symmetric in their processing abilities.
 
@@ -65,14 +63,14 @@ Note: _This article was first published at Linaro’s Executive Member Update Q3
 
 References:
 
-[1][ http://lwn.net/Articles/481055/](http://lwn.net/Articles/481055/)
+[1][ http://lwn.net/articles/481055/](http://lwn.net/Articles/481055/)
 
-[2][ http://www.arm.com/files/pdf/big_LITTLE_technology_moves_towards_fully_heterogeneous_Global_Task_Scheduling.pdf](http://www.arm.com/files/pdf/big_LITTLE_technology_moves_towards_fully_heterogeneous_Global_Task_Scheduling.pdf)
+[2][ http://www.arm.com/files/pdf/big_little_technology_moves_towards_fully_heterogeneous_global_task_scheduling.pdf](http://www.arm.com/files/pdf/big_LITTLE_technology_moves_towards_fully_heterogeneous_Global_Task_Scheduling.pdf)
 
-[3][ http://lwn.net/Articles/552885/](http://lwn.net/Articles/552885/)
+[3][ http://lwn.net/articles/552885/](http://lwn.net/Articles/552885/)
 
 [4][/blog/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/](/blog/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/)
 
-[5][ http://lwn.net/Articles/609969/](http://lwn.net/Articles/609969/)
+[5][ http://lwn.net/articles/609969/](http://lwn.net/Articles/609969/)
 
-**[6][ http://lwn.net/Articles/602479/](http://lwn.net/Articles/602479/)**
+**[6][ http://lwn.net/articles/602479/](http://lwn.net/Articles/602479/)**

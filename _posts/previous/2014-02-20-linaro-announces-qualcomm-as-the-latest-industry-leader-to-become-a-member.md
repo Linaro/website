@@ -1,9 +1,9 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2014-02-20 12:04:06
-description: Wireless technology leader Qualcomm builds on open source footprint by
+description:
+  Wireless technology leader Qualcomm builds on open source footprint by
   joining Linaro
 layout: post
 link: /news/linaro-announces-qualcomm-as-the-latest-industry-leader-to-become-a-member/
@@ -13,7 +13,6 @@ wordpress_id: 5059
 ---
 
 ## Wireless technology leader Qualcomm builds on open source footprint by joining Linaro
-
 
 CAMBRIDGE, UK - 20 FEB 2014
 

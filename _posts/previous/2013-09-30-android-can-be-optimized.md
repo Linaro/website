@@ -1,23 +1,23 @@
 ---
 author: khasim.mohammed
-categories:
-- Blog
+category: blog
 date: 2013-09-30 19:16:47
 description: Blog on how Linaro is analyzing and working on ways to optimize Android.
-keywords: Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
+keywords:
+  Linaro, Android, Linaro Connect, LCU13, Linux, opensource, Google, Linux
   on Arm, Android community, opensource software
 layout: post
 slug: android-can-be-optimized
 tags:
-- Community
-- android
-- arm
-- community
-- connect
-- Linaro
-- Linaro Connect
-- Open Source
-- software
+  - Community
+  - android
+  - arm
+  - community
+  - connect
+  - Linaro
+  - Linaro Connect
+  - Open Source
+  - software
 title: Android Can Be Optimized
 wordpress_id: 3082
 ---
@@ -28,7 +28,6 @@ At Linaro, we started analyzing the areas of optimizations, initially it was a b
 
 We would like to share all our learnings through a series of blog posts and involve interested members from different Android communities & organizations in executing these ideas.
 
-
 To begin with, let’s introduce you to the actual problem. Traditionally every Android pastry (version) release has been associated with a particular product and its processor. Google works with a processor & product vendor to develop software features for a particular hardware and then a device (phone or tablet) will be launched. The fully integrated sources are made public only after the launch of the product. It’s quite obvious that software released is tuned for a particular hardware, and by default similar performance on a different hardware is not guaranteed. Generally, processor vendors mainly focus on enabling the low level drivers and HALs to get the Android stack running on their processor, OEMs/ODMs are always busy in getting to market faster with the latest version, software developers from community projects (Kernel, SQL, browser engine, parsers, etc) hardly get a chance to work on a complete system and hence there is not enough time really spent to bring the best out of hardware in Android.
 
 Though the problem introduced is not very new, due to the complexity of the problem, not much progress can be shown in community or individual efforts. Optimizing Android is always a challenge, because the Android stack is spread across tools, domain specific frameworks from community projects (SQL, OpenSSL, etc), frameworks developed by Google, Linux Operating System, protocol stacks, etc. To overcome the challenge we simplified this activity by limiting the scope to Android middleware components (not going into Linux kernel), compilers & tools and focusing on a top few important use cases. Let me give you a quick summary on the goal, objective and approach we consider.
@@ -37,36 +36,35 @@ Though the problem introduced is not very new, due to the complexity of the prob
 
 **Objective :** The overall objective of this analysis is to focus on the following key areas that impacts the performance of any Android powered device & product :
 
+- Improving Effective Data Throughput
 
-  * Improving Effective Data Throughput
+- Leveraging Multi-Core Computing Efficiently
 
-  * Leveraging Multi-Core Computing Efficiently
+- Creating a Better Responsive User Interface
 
-  * Creating a Better Responsive User Interface
+- Extending Battery Life
 
-  * Extending Battery Life
-
-  * Optimize Boot Process
+- Optimize Boot Process
 
 **Approach:** There is already enough time spent in community, individual organizations and groups in identifying the bottlenecks that impact the performance, and providing solutions or approaches to address these in the best possible way.
 
-  * We first analyze such community projects, the papers & presentations from various conferences that can be leveraged directly and can be implemented or integrated (if already implemented) to improve the overall   performance.
+- We first analyze such community projects, the papers & presentations from various conferences that can be leveraged directly and can be implemented or integrated (if already implemented) to improve the overall performance.
 
-  * The second area is to look into the community projects that Google has directly pulled into Android, some of these were developed for PCs, they can be optimized for multi-core or by using NEON & VFP instructions.
+- The second area is to look into the community projects that Google has directly pulled into Android, some of these were developed for PCs, they can be optimized for multi-core or by using NEON & VFP instructions.
 
-  * And finally, looking into a few top Android user space applications from the market that are proven to improve performance when installed on any device. These apps are capable of controlling the hardware usage through software APIs, ideally these concepts can be implemented and integrated by default in Android.
+- And finally, looking into a few top Android user space applications from the market that are proven to improve performance when installed on any device. These apps are capable of controlling the hardware usage through software APIs, ideally these concepts can be implemented and integrated by default in Android.
 
 In our next post we will provide you with:
 
-  * A list of community projects that Google has pulled into Android
+- A list of community projects that Google has pulled into Android
 
-  * We will explore what projects need updating
+- We will explore what projects need updating
 
-  * Why some projects were kept at old versions (e.g. there may have been license changes),
+- Why some projects were kept at old versions (e.g. there may have been license changes),
 
-  * What projects may even need replacing
+- What projects may even need replacing
 
-  * How much of that we can we do without breaking compatibility too badly.
+- How much of that we can we do without breaking compatibility too badly.
 
 **Related Links:**  [Linaro Android Team page](/engineering/consumer/)
 

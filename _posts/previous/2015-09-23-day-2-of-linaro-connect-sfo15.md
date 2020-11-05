@@ -1,26 +1,26 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-09-23 02:26:42
-description: Overview of the keynotes and sessions that took place during day 2 of
+description:
+  Overview of the keynotes and sessions that took place during day 2 of
   Linaro Connect San Francisco 2015.
-excerpt: Overview of the keynotes, announcement and sessions that took place during
+excerpt:
+  Overview of the keynotes, announcement and sessions that took place during
   day 2 of Linaro Connect San Francisco 2015.
 layout: post
 link: /blog/day-2-of-linaro-connect-sfo15/
 slug: day-2-of-linaro-connect-sfo15
 tags:
-- connect
-- Connect Events
-- Linaro
-- Linaro Connect
+  - connect
+  - Connect Events
+  - Linaro
+  - Linaro Connect
 title: Day 2 of Linaro Connect SFO15
 wordpress_id: 9403
 ---
 
 Linaro Connect San Francisco 2015 began with another exciting day of announcements and keynotes.  First up was an announcement that two new members have joined Linaro just this week. [Acadine Technologies](https://youtu.be/S3YMBLOTXSI?t=3m6s) and [Tinno Mobile](https://youtu.be/5viiqYeOATI?t=1h29m16s) have joined as members of the Linaro Mobile Group (LMG).
-
 
 Following the announcements, the morning keynotes began with Neil Trevett, Vice President of Mobile Ecosystems at NVIDIA and President of the Khronos Group, of who gave a talk on "[Open Standards and Open Source Together - How Khronos APIs Accelerate Fast and Cool Applications](https://youtu.be/S3YMBLOTXSI?t=12m39s)".  The talk covered how over 100 companies cooperate with the Khronos Group to create open, royalty free API standards to access hardware acceleration for heterogeneous parallel computation, 3D graphics and vision processing.
 
@@ -32,9 +32,7 @@ He talked about the latest updates to API standards including OpenGL, OpenCL, O
 
 The second keynote of the day was given by John Simmons, Media Platform Architect for Microsoft's Operating System Group.  John's talk was titled "[The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications](https://www.youtube.com/watch?v=14YnkW6ZsI0)"  His talk overview was: "The Internet poses a fascinating technical challenge for commercial media distribution. As noted in a 2003 United Nations
 
-
 WIPO report, the principle purpose of DRM is to create an element of scarcity on behalf of a rights holder; but doing so raises a fundamental paradox - the business of the publisher lies in providing access rather than preventing it. The report went on to state: “Nevertheless, unless copyright is to be abandoned as a mechanism for trading in intellectual property entirely, it will be essential to find an answer to this paradox.”
-
 
 The introduction in 2011 of a global standard for DRM-interoperable encoding and the 2012 Microsoft-Netflix-Google proposal for HTML5 Encrypted Media Extensions (EME) provided a partial answer to this paradox. What remained was to extend this capability to open source applications, thus providing a complete answer to the Web-DRM paradox while enabling open, interoperable media applications with access to enhanced content protection.  This talk covered the technical underpinnings of this highly disruptive, strategic inflection point, the interplay between open source and enhanced content protection and the implications for both commercial video and the Internet.
 
@@ -225,8 +223,6 @@ Kernel Mainline Status of Mobile Chipsets
 </tbody>
 </table>
 
-
 Be sure to check back in tomorrow for the third day of Linaro Connect.  The morning will feature two keynote speakers, first will be Suresh Gopalakrishnan from AMD followed by Tiger Hu from Alibaba who will discuss "Cloud Computing Infrastructure of the DT Era".  To learn more about the agenda tomorrow please visit: [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)
-
 
 [/vc_column_text][/vc_column][/vc_row]

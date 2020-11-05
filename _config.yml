@@ -5,7 +5,7 @@ description: |-
   Linaro is a collaborative engineering organization consolidating and optimizing open source software and tools for the Arm architecture.
 destination: _site
 permalink: /:categories/:title/
-theme: jumbo-jekyll-theme
+theme: linaro-jekyll-theme
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -66,6 +66,7 @@ defaults:
     values:
       layout: post
       is_post: true
+      tags_enabled: true
       comments: false
       image: /assets/images/content/code_banner.jpg
       strap_image: /assets/images/content/code_banner.jpg
@@ -80,6 +81,7 @@ defaults:
     values:
       layout: event
       comments: false
+      tags_enabled: false
       author: linaro
       permalink: /events/:title/
       categories: ["Events"]
@@ -88,6 +90,7 @@ defaults:
     values:
       layout: resource-post
       comments: false
+      tags_enabled: false
       author: linaro
       permalink: /events/:title/
       categories: ["event_resources"]
@@ -95,6 +98,7 @@ defaults:
       path: "_posts/awards"
     values:
       author: linaro
+      tags_enabled: false
       permalink: "/awards/5-years/:title/"
       comments: false
   - scope:
@@ -132,6 +136,7 @@ http2_resources:
   - rel: preload
     as: font
     type: font/woff2
+    crossorigin: true
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
   enabled: true
@@ -185,12 +190,14 @@ social_media_channels:
     url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
-    enabled: false
-    shortname: Linaro
+  enabled: false
+  shortname: Linaro
 # Edit on GitHub Settings
 edit-on-github:
-    enabled: true
-    repo: https://www.github.com/Linaro/website
+  enabled: true
+  repo: https://www.github.com/Linaro/website
+# Breadcrumb schema
+breadcrumb_schema: true
 # Shema.org settings used in the schema.html include.
 schema:
   "@type": "Corporation"

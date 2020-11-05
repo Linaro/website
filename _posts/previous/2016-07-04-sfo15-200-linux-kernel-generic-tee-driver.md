@@ -1,11 +1,10 @@
 ---
 author: op-tee
 tags:
-- OP-TEE
-title: 'SFO15-200 &#58; Linux kernel generic TEE driver'
+  - OP-TEE
+title: "SFO15-200 &#58; Linux kernel generic TEE driver"
 date: 2016-07-04 12:00:00 Z
-categories:
-- Blog
+category: blog
 layout: post
 image: /assets/images/blog/sfo15-200-linux-kernel-generic-tee-driver-image.jpg
 ---
@@ -14,7 +13,7 @@ At this session we will get more knowledge about the TEE driver that Linaro has 
 
 {% include media.html media_url="https://www.youtube.com/embed/BhLndLUQamM" %}
 
---------
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/rIt8fDZcwIXFrr" %}
 

@@ -1,20 +1,21 @@
 ---
 author: rony.nandy
-categories:
-- Blog
+category: blog
 date: 2012-12-19 14:51:24
-description: Summary of the UEFI Mini-Summit held in Cambridge, UK on 11-13 December
+description:
+  Summary of the UEFI Mini-Summit held in Cambridge, UK on 11-13 December
   2012. Discussed were fixes, updates and UEFI bootloader for LEG and more.
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, UEFI, Mini-Summit, Cambridge
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, UEFI, Mini-Summit, Cambridge
   UK, LEG, Toolchain, Bootloader
 layout: post
 link: /blog/connect-update/uefi-mini-sprint-at-cambridge-from-11-13-dec-2012/
 slug: uefi-mini-sprint-at-cambridge-from-11-13-dec-2012
 tags:
-- Connect Events
-- LEG
-- Linaro
-- UEFI
+  - Connect Events
+  - LEG
+  - Linaro
+  - UEFI
 title: UEFI mini-sprint at Cambridge from 11-13 Dec 2012
 wordpress_id: 2136
 ---

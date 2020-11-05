@@ -1,19 +1,20 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-04-12 17:00:44
-description: Thanks to Tara Oldfield at Novacut the Q2.12 Linaro Connect event now
+description:
+  Thanks to Tara Oldfield at Novacut the Q2.12 Linaro Connect event now
   has a promo video. Check it out! Hope to see you in Hong Kong!
-keywords: Promo Video Linaro, Linux on Arm, Linaro Connect, Q1.12, Videos, Interviews,
+keywords:
+  Promo Video Linaro, Linux on Arm, Linaro Connect, Q1.12, Videos, Interviews,
   Plenaries, Demos, Q2.12, developers, registration, Hong Kong, Gold Coast Hotel,
   May, June, Novacut
 layout: post
 link: /blog/community-blog/q2-12-linaro-connect-promo-video-now-available/
 slug: q2-12-linaro-connect-promo-video-now-available
 tags:
-- Community
-- Connect Events
+  - Community
+  - Connect Events
 title: Q2.12 Linaro Connect Promo Video Now Available
 wordpress_id: 1554
 ---
@@ -26,16 +27,13 @@ Thanks to [Tara Oldfield](https://web.archive.org/web/2019*/https://plus.google.
 
 {% include image.html path="/assets/images/blog/novacut-solo-brandmark_PINK_FINAL-PNG-512px.png" alt="Novacut Solo Brand Mark" %}
 
-
 But that's not all.  If you haven't checked out the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg) have a look, we also have the plenary sessions and many interviews from attendees posted as well.
 
 Linaro Connect events are free, but registration is required for planning purposes.  We hope to see you in Hong Kong where you can help build the future of Linux on Arm.  [Register today](https://connect.linaro.org/attend/).
 
 If you or someone you know is interested in Linaro Connect, then take a look at the [Connect Website](https://connect.linaro.org/resources/), the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg), and share the [promo video](http://youtu.be/xkFQzhYLsQI).
 
-
 ## About Linaro
-
 
 Linaro is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including the GCC toolchain, the Linux kernel, Arm power management, graphics and multimedia interfaces.
 
@@ -43,9 +41,7 @@ To ensure commecial quality software, Linaro's work includes comprehensive test 
 
 [/about/](/about/)
 
-
 ## About Linaro Connect
-
 
 The industry’s largest and most important event for developing Linux on Arm, Linaro Connect Q2.12 will be located in Hong Kong for the first time, enabling access for many companies and individuals new to Linaro.
 

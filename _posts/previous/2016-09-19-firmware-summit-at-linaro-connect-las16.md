@@ -6,17 +6,16 @@ link: /blog/firmware-summit-at-linaro-connect-las16/
 slug: firmware-summit-at-linaro-connect-las16
 title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577
-categories:
-- Blog
+category: blog
 tags:
-- Enterprise edition
-- Firmware
-- hardware
-- las16
-- LEG
-- Linaro Connect
-- Linux
-- Linux on Arm
+  - Enterprise edition
+  - Firmware
+  - hardware
+  - las16
+  - LEG
+  - Linaro Connect
+  - Linux
+  - Linux on Arm
 ---
 
 Next week at Linaro Connect LAS16 there will be a Firmware Summit on Tuesday September 27, 2016 from 10:10am-1:00pm (PST).  The purpose of this summit is to bring the key developers and maintainers from all camps in the same place, review the status and plan the next steps.
@@ -32,7 +31,6 @@ Below is an overview of the sessions that will be part of the summit:
 **Title:  Arm64 ASWG and Linux ACPI update**
 **Abstract:** As presented at previous connects an update on the current support for Arm64 at ASWG level and the hot topics. Also an update on the support that is mainline in the Linux kernel for Arm64 ACPI support. Also covering the next steps for both ASWG and Linux support. Followed by a discussion period.
 **Speaker**: Al Stone, Hanjun Guo
-
 
 **Title: SCMI - System Management and Control Interface**
 **Abstract:** In this session we present a new standard proposal for system control and management. The industry, both in high end mobile and enterprise, is trending towards the use of power and system controllers. In most cases the controllers have very similar communication mechanisms between application processors and controllers. In addition, these controllers generally provide very similar functions, e.g. DVFS, power domain management, sensor management. This standard proposal provides an extensible, OS agnostic, and virtualizable interface to access these functions.

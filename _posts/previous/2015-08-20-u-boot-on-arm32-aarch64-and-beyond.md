@@ -1,7 +1,6 @@
 ---
 author: linus.walleij
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-08-20 16:14:21
 description:

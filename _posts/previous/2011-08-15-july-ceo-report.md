@@ -1,10 +1,10 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2011-08-15 15:38:40
 description: Update on Linaro activities for July 2011
-keywords: Linux Kernel, Arm, SoCs, evaluation builds, Arm toolchain, Test, Validation,
+keywords:
+  Linux Kernel, Arm, SoCs, evaluation builds, Arm toolchain, Test, Validation,
   Android
 layout: post
 link: /blog/july-ceo-report/
@@ -13,7 +13,7 @@ title: July CEO Report
 wordpress_id: 4119
 ---
 
-Last month I discussed how Linaro's working groups deliver technology to kernel.org and other upstreams.   Over time, open source distributions including Google's Android utilize this work in their latest releases, benefiting Linaro's Arm SoC members by accelerating their time to market, and reducing their engineering costs. This is the core strategic value generated from membership of Linaro. This month I explore some of the additional benefits and value of Linaro membership.
+Last month I discussed how Linaro's working groups deliver technology to kernel.org and other upstreams. Over time, open source distributions including Google's Android utilize this work in their latest releases, benefiting Linaro's Arm SoC members by accelerating their time to market, and reducing their engineering costs. This is the core strategic value generated from membership of Linaro. This month I explore some of the additional benefits and value of Linaro membership.
 
 **SoC Support Reloaded - the linux-linaro Kernel**
 

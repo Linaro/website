@@ -1,15 +1,15 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-02-11 21:45:45
-description: Overview of the keynotes and photo contest at Linaro Connect Hong Kong
+description:
+  Overview of the keynotes and photo contest at Linaro Connect Hong Kong
   2015
 layout: post
 link: /blog/wednesday-highlights-linaro-connect-hong-kong-2015/
 slug: wednesday-highlights-linaro-connect-hong-kong-2015
 tags:
-- Connect Events
+  - Connect Events
 title: Wednesday highlights from Linaro Connect Hong Kong 2015
 wordpress_id: 7976
 ---

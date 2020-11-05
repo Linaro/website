@@ -6,10 +6,9 @@ link: /blog/connect-update/linaro-connect-celebration-night/
 slug: linaro-connect-celebration-night
 title: Linaro Connect - Celebration night
 wordpress_id: 793
-categories:
-- Blog
+category: blog
 tags:
-- Connect Events
+  - Connect Events
 ---
 
 We’ve been having another great week at Linaro Connect Q4.11 here in Orlando, with some major work progressed and important decisions reached. But I just want to spend a few paragraphs talking about our Linaro Celebration Evening.

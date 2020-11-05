@@ -1,26 +1,25 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-05-02 16:03:28
-description: Check out the tracks, sessions, and mini-summits being held at Linaro
+description:
+  Check out the tracks, sessions, and mini-summits being held at Linaro
   Connect Europe 2013. Don't miss all the excitement! Register today!
-keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
+keywords:
+  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
   Announcement, Registration, Schedule, Tracks, LAVA, Mini-summit
 layout: post
 link: /blog/connect-update/schedule-for-linaro-connect-europe-2013-begins-to-take-shape/
 slug: schedule-for-linaro-connect-europe-2013-begins-to-take-shape
 tags:
-- Connect Events
+  - Connect Events
 title: Schedule for Linaro Connect Europe 2013 Begins to Take Shape
 wordpress_id: 2687
 ---
 
 {% include image.html path="/assets/images/blog/lce13-mico1.png" alt="Linaro Connect Europe 2013 Banner" url="https://connect.linaro.org" %}
 
-
 [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE13) is being held at the Burlington Hotel in Dublin, Ireland on 8-12 July.  As we enter this stage in our planning I wanted to remind you to [register today](http://linaroconnect-lce13-eorg.eventbrite.com/)!
-
 
 Still haven’t decided if you should attend?  Do you or others in your organization wonder what is new with GNU Tools? Are you new to Linux on Arm? Maybe Android is your passion? What about those Linaro builds that are built on top of Ubuntu, Fedora, or OpenEmbedded? Do you want to help direct the future of Arm Enterprise Server?  And, let’s not forget about Networking on Arm.  If you have just read the list and thought,  “I need to know more about Linaro and the future of Linux on Arm”, then you definitely need to see how the [schedule of events](https://connect.linaro.org/) is coming together.
 

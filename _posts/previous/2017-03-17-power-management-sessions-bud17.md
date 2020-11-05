@@ -2,8 +2,7 @@
 amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
-categories:
-- Blog
+category: blog
 comments: false
 date: 2017-03-17 15:40:19
 image: /assets/images/blog/PowerManagementsessionsfromBUD17.jpg
@@ -35,7 +34,7 @@ Even if the CPU-Idle framework has improved significantly over the last years, w
 **Session ID:** BUD17-102
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-102/](https://connect.linaro.org/resources/bud17/bud17-102/)
 
-* * *
+---
 
 **Session Name:**
 Bus scaling QoS update – BUD17-214
@@ -48,8 +47,7 @@ This session is a sequel of the “Bus scaling QoS” session from LAS16. During
 **Session ID:** BUD17-214
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-214/](https://connect.linaro.org/resources/bud17/bud17-214/)
 
-
-* * *
+---
 
 **Session Name:**
 Scheduler Load tracking update and improvement – BUD17-218
@@ -62,9 +60,7 @@ The Per Entity Load Tracking (PELT) is a key stone in tasks placement of the sch
 **Session ID:** BUD17-218
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-218/](https://connect.linaro.org/resources/bud17/bud17-218/)
 
-
-* * *
-
+---
 
 **Session Name:**
 SCHED_DEADLINE: ongoing development and new features – BUD17-307
@@ -79,8 +75,7 @@ In this presentation, Juri Lelli, after giving a (very briefly) review of the cu
 **Session ID:** BUD17-307
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-307/](https://connect.linaro.org/resources/bud17/bud17-307/)
 
-* * *
-
+---
 
 **Session Name:**
 IRQ prediction – BUD17-309

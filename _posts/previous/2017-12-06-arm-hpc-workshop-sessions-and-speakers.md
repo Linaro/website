@@ -3,23 +3,23 @@ author: shovan
 date: 2017-12-06 12:00:00+00:00
 layout: post
 title: Arm HPC Workshop Sessions and Speakers
-categories:
-- Blog
+category: blog
 tags:
-- Arm
-- HPC
-- Workshop
-- Japan
+  - Arm
+  - HPC
+  - Workshop
+  - Japan
 keywords: Arm, HPC, Workshop, Japan
 image: /assets/images/blog/arm-hpc-bg.png
 ---
+
 # Arm HPC Workshop Sessions and Speakers
 
 We are pleased to announce the sessions and speakers for the first ever Arm HPC workshop taking place in Tokyo 12-13th Dec 2017. The sold-out event has attracted over 100 attendees from Japan, UK, USA, China and other parts of the world. Joining us are speakers from RIKEN AICS, Fujitsu, Arm and some Research institutions. Please find the detailed schedule below. For more information on Linaro High Performance Computing (HPC) work click [here](/engineering/high-performance-computing/).
 
 ## Sessions
 
-* * *
+---
 
 <div class="speakers-arm-hpc">
 
@@ -124,7 +124,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
 ## Session Details
 
 <div class="arm-hpc-session">
@@ -146,7 +145,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
 
 <div class="arm-hpc-session">
 
@@ -177,8 +175,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -203,7 +199,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -227,10 +222,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
-
-
 
  <div class="arm-hpc-session">
 
@@ -268,7 +259,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -297,8 +287,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 
@@ -330,9 +318,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -362,9 +347,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
-
 
  <div class="arm-hpc-session">
 
@@ -396,10 +378,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
-
-
 
  <div class="arm-hpc-session">
 
@@ -468,9 +446,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -495,8 +470,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 
@@ -529,8 +502,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -561,8 +532,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 
@@ -595,8 +564,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -619,9 +586,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
-
 
  <div class="arm-hpc-session">
 
@@ -654,9 +618,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
-
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -680,8 +641,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 
@@ -708,7 +667,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
 
 </div>
 
-
  <div class="arm-hpc-session">
 
     <div class="col-sm-9 session-info">
@@ -733,8 +691,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 
@@ -764,8 +720,6 @@ We are pleased to announce the sessions and speakers for the first ever Arm HPC 
     </div>
 
 </div>
-
-
 
  <div class="arm-hpc-session">
 

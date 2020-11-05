@@ -1,9 +1,9 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-03-04 02:50:19
-description: See the sessions that are happening today, tips and tricks for staying
+description:
+  See the sessions that are happening today, tips and tricks for staying
   connected to the days events, and how attendees can share their experiences through
   social media.
 layout: post
@@ -23,9 +23,9 @@ Sessions you can look forward to today include:
 
 **08:30:** [Opening Keynote (George Grey)](http://lca-13.zerista.com/event/member/72344) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
-**09:00:** [Jon Corbet, LWN - Keynote](http://lca-13.zerista.com/event/member/72345) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
+**09:00:** [Jon Corbet, LWN - Keynote](http://lca-13.zerista.com/event/member/72345) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
-**09:30:** [Connect Survival Guide](http://lca-13.zerista.com/event/member/72346) - Grand Ballroom C&D -  #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
+**09:30:** [Connect Survival Guide](http://lca-13.zerista.com/event/member/72346) - Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c5g23eta34km9o16jmbogh7vsno))
 
 **10:00:** [big.LITTLE MP updates ](http://lca-13.zerista.com/event/member/72676)- Grand Ballroom C&D - #connect-ballroom-cd ([webchat link](http://bit.ly/ZEmR2C)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/ck5h4thlnqn7h8u38j6e8mcdtq4))
 **10:00: **[Android Internals (Embedded Android Training)](http://lca-13.zerista.com/event/member/72385) - Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx)) ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cblrv1muadnu5bphg8j6e0oaf7s))
@@ -40,12 +40,9 @@ Sessions you can look forward to today include:
 
 **15:00:** [Technical Overview of big.LITTLE Switcher ](http://lca-13.zerista.com/event/member/72398)- Grand Ballroom A - #connect-ballroom-a ([webchat link](http://bit.ly/1459EAx), ([Google+ Event Listing](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/clplv4nq0la3q0eoscbqjk50t1g))
 
-
 ## Staying Connected
 
-
 The Connector Newsletter  - Download the [pdf here](/assets/downloads/The-Connector-4-March-2013_Final.pdf)
-
 
 ## Sharing your experience at Connect using the Social Media of your choice
 

@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2012-07-02 20:50:43
 description: Overview on the lastest products that are supported by the Arm Ecosystem.
 keywords: Linaro, Arm, Linux on Arm, Arm Ecosystem, Biglittle, Cortex, Android, Jellybean
@@ -9,15 +8,15 @@ layout: post
 link: /blog/industry-blog/june-2012-ceo-report/
 slug: june-2012-ceo-report
 tags:
-- Android
-- Industry
+  - Android
+  - Industry
 title: June 2012 CEO Report
 wordpress_id: 1690
 ---
 
 Although Linaro is now only two years old and has already achieved substantial success, it seems like we have only just begun.
 
-Differentiation and innovation lie at the heart of the Arm ecosystem. The PC market was built on a single hardware platform. For a while it has looked like the tablet market would be also a single platform, but Amazon's Kindle Fire showed that through differentiation an  alternative tablet could ship millions of units. More recently Microsoft has (re)entered the tablet market with the Surface, and Google has just announced its next generation Nexus 7 tablet running the new Jellybean version of Android. Suddenly non-Apple tablets are seeing a resurgence, led by Google's Linux-based software (including more and more of Linaro's Arm improvements and consolidations with each iteration of Android).
+Differentiation and innovation lie at the heart of the Arm ecosystem. The PC market was built on a single hardware platform. For a while it has looked like the tablet market would be also a single platform, but Amazon's Kindle Fire showed that through differentiation an alternative tablet could ship millions of units. More recently Microsoft has (re)entered the tablet market with the Surface, and Google has just announced its next generation Nexus 7 tablet running the new Jellybean version of Android. Suddenly non-Apple tablets are seeing a resurgence, led by Google's Linux-based software (including more and more of Linaro's Arm improvements and consolidations with each iteration of Android).
 
 However, it's not all mobile phones and tablets. Increasingly open source software is being used for new innovations at every end of the computing spectrum. Google itself has just announced the Nexus Q, an in home AV distribution device (the built in amplifiers are great but do we have to have so many cables in this day and age?), as well as the first real demonstrations of Google Glass which I'm betting is also based on very low power Arm processors. At the other end of the scale HP and Dell have made recent announcements on low power Linux-based Hyperscale servers using high concentrations of multicore Arm devices with serveroriented feature sets. The rate of change for Arm-based devices will only continue to accelerate as we move to even more advanced lower power 32 bit cores, and what I expect will be a not so gradual introduction of Arm's new v8 64 bit architecture.
 

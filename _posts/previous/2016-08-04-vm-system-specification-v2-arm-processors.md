@@ -1,7 +1,8 @@
 ---
 author: christoffer.dall
 date: 2016-08-04 09:05:03+00:00
-excerpt: The goal of this spec is to allow suitably-built OS images to run on all
+excerpt:
+  The goal of this spec is to allow suitably-built OS images to run on all
   virtualization solutions for Arm processors, such as KVM or Xen. Recommendations
   in this spec are valid for AArch32 and AArch64 alike, and they aim to be hypervisor
   agnostic.
@@ -10,11 +11,11 @@ link: /blog/vm-system-specification-v2-arm-processors/
 slug: vm-system-specification-v2-arm-processors
 title: VM System Specification V2 for Arm Processors
 wordpress_id: 11304
-categories:
-- Blog
+category: blog
 tags:
-- white paper
+  - white paper
 ---
+
 Christoffer Dall, Virtualization Tech Lead
 Version 2.0, Last Revised: April 4th, 2016
 

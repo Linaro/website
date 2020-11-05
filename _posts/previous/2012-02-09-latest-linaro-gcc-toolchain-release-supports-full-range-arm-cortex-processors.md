@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2012-02-09 12:18:24
 description: SAN FRANCISCO - 9 FEB 2012
 layout: post
@@ -27,8 +26,6 @@ These toolchains are the latest downloads enabling Linaro members to develop adv
 
 The releases include versions of Linaro's binary platform images, component sources, board support packages and infrastructure/validation tools to ensure that Linaro output can be consumed most easily by the Arm development community, product builders and enthusiasts.
 
-
 ## Join us at Linaro Connect
-
 
 Linaro Connect is held every three to four months to bring the Linux on Arm community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the Arm tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. Join us for the current event February 6-10th in San Francisco, California or the Q2 Linaro Connect May 28th - June 1st in Hong Kong. Learn more at [connect.linaro.org](https://connect.linaro.org/)

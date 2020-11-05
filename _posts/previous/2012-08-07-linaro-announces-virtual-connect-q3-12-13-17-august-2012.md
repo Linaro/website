@@ -1,21 +1,22 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-08-07 18:34:06
-description: Linaro announces its Virtual Connect and the public is invited! Linaro
+description:
+  Linaro announces its Virtual Connect and the public is invited! Linaro
   Connect Q3.12 will take place online via Google+ Hangouts on Air on 13 - 17 August
   2012.
-keywords: Linaro Connect, Linaro, Linux On Arm, Open Source, Android, Arm, Ubuntu,
+keywords:
+  Linaro Connect, Linaro, Linux On Arm, Open Source, Android, Arm, Ubuntu,
   Online, Virtual Connect, Announcement
 layout: post
 link: /blog/community-blog/linaro-announces-virtual-connect-q3-12-13-17-august-2012/
 slug: linaro-announces-virtual-connect-q3-12-13-17-august-2012
 tags:
-- Android
-- Community
-- Connect Events
-title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
+  - Android
+  - Community
+  - Connect Events
+title: "Announce: Linaro Virtual Connect, 13-17 August 2012"
 wordpress_id: 1735
 ---
 
@@ -23,8 +24,7 @@ wordpress_id: 1735
 
 ## What's a Virtual Connect?
 
-Linaro Connects are events mainly made up of [BoF-style discussions](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)), where a lead directs conversation, but every member in the audience can directly participate. In Virtual Connect we will use Google+ Hangouts on Air to accomplish a similar model: up to 10 participants can directly engage in videoconference, and an unlimited number can watch the live discussion that will be streaming via YouTube or the Google + profile. Participants who want to ask questions and give input to the discussion can do so using IRC (Freenode channel #linaro-connect).
-
+Linaro Connects are events mainly made up of [BoF-style discussions](<http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)>), where a lead directs conversation, but every member in the audience can directly participate. In Virtual Connect we will use Google+ Hangouts on Air to accomplish a similar model: up to 10 participants can directly engage in videoconference, and an unlimited number can watch the live discussion that will be streaming via YouTube or the Google + profile. Participants who want to ask questions and give input to the discussion can do so using IRC (Freenode channel #linaro-connect).
 
 ## Software Requirements
 
@@ -36,14 +36,11 @@ Make a point of testing your browser before the session; feel free to contact [A
 
 Sessions run for 1.5 hours, with an additional 30 minutes of grace time being available if we happen to overrun. We will run three daily sessions on these times from Monday August 13th to Friday August 17th:
 
-  * 10:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1000))
+- 10:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1000))
 
+- 15:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1500))
 
-  * 15:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T1500))
-
-
-  * 21:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T2100))
-
+- 21:00 UTC ([view local times](http://timeanddate.com/worldclock/fixedtime.html?iso=20120813T2100))
 
 Session Leads will be online 15 minutes before the allotted time, so you're welcome to join early and wait for the fun to start.
 
@@ -280,7 +277,7 @@ To participate or watch a session, visit the [Linaro OnAir Google+ profile](http
 
 {% include image.html path="/assets/images/blog/hangout-1.png" alt="Screenshot of Linaro OnAir's Google Plus page hosting a Hangout" %}
 
-Clicking on the play button will start video playback in the browser, while clicking on the "Join this hangout" button puts you in the conference itself. If you choose to join, you'll be placed directly into the session.  Please don't join the session after it starts and interrupt. The  session lead is noted in each session entry; notice the lead's cues as they direct the conversation towards the session agenda.
+Clicking on the play button will start video playback in the browser, while clicking on the "Join this hangout" button puts you in the conference itself. If you choose to join, you'll be placed directly into the session. Please don't join the session after it starts and interrupt. The session lead is noted in each session entry; notice the lead's cues as they direct the conversation towards the session agenda.
 
 To help identify Hangout participants, we ask that you install the [Lower Third](https://web.archive.org/web/2019*/https://plus.google.com/+LinaroOrg) app by adding it to your Hangout view and configuring it, as in this screenshot:
 

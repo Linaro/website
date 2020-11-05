@@ -7,14 +7,13 @@ link: /blog/core-dump/running-64bit-android-l-qemu/
 slug: running-64bit-android-l-qemu
 title: Running Android L Developer Preview on 64-bit Arm QEMU
 wordpress_id: 6354
-categories:
-- Blog
+category: blog
 tags:
-- Core Dump
-- android
-- Android L
-- emulator
-- qemu
+  - Core Dump
+  - android
+  - Android L
+  - emulator
+  - qemu
 ---
 
 # Running Android L Developer Preview on 64-bit Arm QEMU
@@ -37,7 +36,6 @@ The UI patches support skinning of the framebuffer window so a mock up of the em
 
 The emulated devices include a fast IPC mechanism known as the “qemu_pipe” that provides a way for the emulated Android userspace to communicate with the host machine. This is used by both the adb service to communicate with the guest adb daemon and console services and to provide a fast passthrough path for the emulated accelerated graphics support described above. The Android emulator also emulates GSM support, a GPS chip, sensors (proximity and rotation), and more to provide application developers with an experience close to a real phone and to allow developers to test all aspects of their applications, such as how an application responds to a user rotating a device or an application requesting the current location.
 
-
 ## Along comes Android L
 
 {% include image.html path="/assets/images/blog/Android-L.jpg" alt="Android-L" %}
@@ -48,9 +46,7 @@ As you may have noticed, thanks to Linaro, the latest version of upstream QEMU (
 
 Reimplementing 64-bit Armv8-A support in the old Android emulator fork of QEMU would be a herculean effort and attempts to backport the changes from upstream QEMU to the Android emulator were not successful. Consequently, there was a sudden and strong desire within Google and from Linaro members to instead forward port the Android emulator specific features to upstream QEMU and have such an implementation ready for the Android L introduction at Google I/O. At the time, this was roughly three weeks away.
 
-
 ## Enter Linaro
-
 
 Linaro assembled a small team who between us had experience in QEMU, the Linux kernel, and the Android ecosystem. While Google had started some of the forward porting work for 32-bit Android support, it was taking longer than they liked as they weren’t familiar with the current state of the upstream QEMU code base and were busy preparing for Google I/O.
 
@@ -68,7 +64,6 @@ A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/)
     ARCH=arm64 make ranchu_defconfig
 
     ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
-
 
 A patched version of the AOSP tree (master or l-preview branch), with qemu_pipe tweak(http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
 
@@ -92,9 +87,7 @@ A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm
 
 ```
 
-
 Some spare time (there is a lot to compile)
-
 
 **Finally you can launch the emulator with a command line like this:**
 

@@ -14,18 +14,17 @@ tags:
   - Highlights
   - News
   - April
-category: Blog
+category: blog
 author: jon.burcham@linaro.org
 ---
+
 Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is a roundup of all of the latest news and developments from last month including:-
 
-* Linaro’s Contributions to the Linux v5.6 Kernel LTP (Linux Test Project)
-* PSA Level 1 Certification Showcase
-* Linaro Consumer Group (LCG) News
-* OTA article - Industrial Internet Consortium Journal of Innovation
-* Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup 
-
-
+- Linaro’s Contributions to the Linux v5.6 Kernel LTP (Linux Test Project)
+- PSA Level 1 Certification Showcase
+- Linaro Consumer Group (LCG) News
+- OTA article - Industrial Internet Consortium Journal of Innovation
+- Protein Folding on Arm Devices - Helping with COVID-19 Research by Sahaj Sarup
 
 ### Linaro’s Contributions to the Linux v5.6 Kernel
 
@@ -35,13 +34,13 @@ Welcome to the April 2020 edition of the Linaro Engineering Highlights. This is 
 
 As reported by LWN, the latest stable Linux Kernel (version 5.6) was released on March 29th. I wanted to highlight five notable Linaro related statistics from the article; you can read the full LWN article at [Some 5.6 kernel development statistics](https://lwn.net/Articles/816162/):
 
-* Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets.
-* Two Linaro employees (Arnd Bergmann and Srinivas Kandagatla) are #2 and #7 individual contributors by number of lines changed.
-* Arnd Bergmann is the #6 individual contributor by changesets.
-* Not mentioned in the article but two other key statistics
+- Linaro is the #2 company by number of lines changed and the #6 (known) company by changesets.
+- Two Linaro employees (Arnd Bergmann and Srinivas Kandagatla) are #2 and #7 individual contributors by number of lines changed.
+- Arnd Bergmann is the #6 individual contributor by changesets.
+- Not mentioned in the article but two other key statistics
 
-  * Linus Walleij 7th 1.6% Reviewed-by in 5.6
-  * Naresh Kamboju ranked at #10 for reported-by <br/> <br/>
+  - Linus Walleij 7th 1.6% Reviewed-by in 5.6
+  - Naresh Kamboju ranked at #10 for reported-by <br/> <br/>
 
 **Most Active 5.6 Employers**
 
@@ -105,15 +104,15 @@ Congratulations to Arnd, Srinivas, Linua and Naresh for being top contributors t
 
 Linaro had been asked by the Members to work on the Linux Test Project (aka LTP) and enhance it to cover all the syscalls in the Linux Kernel. With best effort staffing, work had been progressing slowly. In January, Viresh Kumar (KWG) was able to take up this work and put in a sustained effort, quickly closing the gap and adding support for the following syscalls:
 
-* pidfd_open Io_pgetevents
-* Fsopen
-* Fsconfig
-* Fsmount
-* Fspick
-* Open_tree
-* Move_mount
-* Clone3
-* Openat2
+- pidfd_open Io_pgetevents
+- Fsopen
+- Fsconfig
+- Fsmount
+- Fspick
+- Open_tree
+- Move_mount
+- Clone3
+- Openat2
 
 All of the above have been merged, while work is in progress for three syscalls related to io_uring supported by an ARM member engineer. In addition, twenty new syscalls have been added to the task, all related to the time64 variants and these are now underway. Further information is available in [KWG-326.](https://projects.linaro.org/browse/LKQ-43) <br/> <br/>
 
@@ -125,7 +124,7 @@ Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integr
 
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="lite.jpg" %}
 
-With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed.  <br/> <br/>
+With the latest updates in TF-M and PSA, Kevin is working on a recertification with a Linaro Member board. We will post the news when that recertification is completed. <br/> <br/>
 
 ### **Linaro Consumer Group (LCG) News**
 
@@ -135,9 +134,9 @@ This month the Linaro Consumer Group team released two blog posts highlighting w
 
 {% include image.html path="/assets/images/content/lcg.jpg" class="small-inline left" alt="lcg.jpg" %}
 
-The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards.  John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.
+The first blog discusses the current state of HiKey and HiKey960 boards and their usefulness as Android Open Source Project (AOSP) development boards. John Stultz talks about the current state of support and how these devices are useful, valued members of the Android development ecosystem.
 
-* [Update on HiKey/Hikey960 efforts in AOSP](/blog/update-on-hikey-hikey960-efforts-in-aosp/)
+- [Update on HiKey/Hikey960 efforts in AOSP](/blog/update-on-hikey-hikey960-efforts-in-aosp/)
 
 The second blog post is about how the effort enabling the SDM845 on the Dragonboard 845 bloomed into making possible mainline linux kernel development on a consumer form factor Android devices like the Pixel 3 and Poco F1. The efforts also highlight the effectiveness of the Android-5.4 GKI kernel and its ability to boot multiple devices from the same binary. [](/blog/aosp-on-pixel3-pocof1-running-aosp-with-mainline-kernel-on-form-factor-devices/)
 

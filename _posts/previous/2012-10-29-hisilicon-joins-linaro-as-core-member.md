@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2012-10-29 12:21:01
 description: SHENZHEN, CHINA AND CAMBRIDGE, UK - 29 OCT 2012
 layout: post
@@ -31,4 +30,4 @@ About Linaro
 
 Linaro is the place where engineers from the world's leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
-To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. To find out more, please visit 
+To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online. To find out more, please visit

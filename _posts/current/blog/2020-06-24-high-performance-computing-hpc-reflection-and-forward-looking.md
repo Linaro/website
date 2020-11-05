@@ -26,7 +26,7 @@ tags:
   - open HPC
 related_projects:
   - HPCAI
-category: Blog
+category: blog
 author: paul.isaacs
 ---
 

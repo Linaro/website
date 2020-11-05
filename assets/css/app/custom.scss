@@ -10,11 +10,11 @@
 #wrapper {
   .blog-post-item-col {
     a {
+      color: black;
+      &:hover {
+        text-decoration: none;
         color: black;
-        &:hover {
-          text-decoration: none;
-          color: black;
-        }
+      }
     }
     .rounded-circle:hover {
       transform: none;
@@ -27,18 +27,20 @@
     height: 100%;
     object-fit: cover;
     input[type="checkbox"] + label {
-        font-size: 16px !important;
+      font-size: 16px !important;
     }
     .form-group.checkbox_group {
       background-color: white;
       border-radius: 5px;
       padding: 10px;
     }
-    input::-webkit-input-placeholder { /* Edge */
+    input::-webkit-input-placeholder {
+      /* Edge */
       color: black;
       font-weight: bolder;
     }
-    input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
       color: black;
       font-weight: bolder;
     }
@@ -46,11 +48,13 @@
       color: black;
       font-weight: bolder;
     }
-    textarea::-webkit-input-placeholder { /* Edge */
+    textarea::-webkit-input-placeholder {
+      /* Edge */
       color: black;
       font-weight: bolder;
     }
-    textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    textarea:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
       color: black;
       font-weight: bolder;
     }
@@ -58,15 +62,14 @@
       color: black;
       font-weight: bolder;
     }
-    img{
-      height:100%;
+    img {
+      height: 100%;
       object-fit: cover;
     }
   }
 
   .latest-featured-post picture .post_index_header_image {
     max-width: 100%;
-    height: auto !important;
     object-fit: cover;
   }
   #feedback_response {

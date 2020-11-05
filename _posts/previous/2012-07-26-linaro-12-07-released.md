@@ -1,20 +1,21 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-07-26 17:22:56
-description: "Linaro announces the availability of its 12.07 release. This release
+description:
+  "Linaro announces the availability of its 12.07 release. This release
   highlights the quality, effort and work of all the Linaro Teams \xE2\x80\x93 Working
   Groups, Landing Teams and Platform Teams \xE2\x80\x93 who have provided all the
   updates and new features that are integrated on top of Android and Ubuntu during
   this release cycle."
-keywords: Linaro, Linux On Arm, Open Source, Arm, 12.07, Release, Announcement, Ubuntu,
+keywords:
+  Linaro, Linux On Arm, Open Source, Arm, 12.07, Release, Announcement, Ubuntu,
   Android
 layout: post
 link: /blog/releases-blog/linaro-12-07-released/
 slug: linaro-12-07-released
 tags:
-- Releases
+  - Releases
 title: Linaro 12.07 Released
 wordpress_id: 1720
 ---
@@ -51,7 +52,7 @@ See the detailed highlights of this release to get an overview of what has been 
 
 ### Using the Android-based images
 
-* * *
+---
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
@@ -64,43 +65,41 @@ If you are interested in getting the source and building these images yourself p
 
 ### Using the Ubuntu-based images
 
-* * *
+---
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
-
 ### Getting involved
 
-* * *
-
+---
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [](/)
+- Homepage: [](/)
 
-* Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-* Announcements:
+- Announcements:
 
 [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-* Development:
+- Development:
 
 [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-* IRC:
+
+- IRC:
 
 #linaro on irc.linaro.org or irc.freenode.net
 
 #linaro-android irc.linaro.org or irc.freenode.net
 
-
 ### Known issues with this release
 
-* * *
+---
 
 For any errata issues, please see:
 

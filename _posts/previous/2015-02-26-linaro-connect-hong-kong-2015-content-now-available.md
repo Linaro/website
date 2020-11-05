@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-  - Blog
+category: blog
 date: 2015-02-26 02:45:54
 description:
   "Content from the Linaro Connect Hong Kong 2015 event is now available.

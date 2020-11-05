@@ -3,12 +3,17 @@ author: david.rusling
 date: 2017-12-13 8:00:00+00:00
 layout: post
 title: The Arm Ecosystem in Automotive
-categories:
-- Blog
-tags: Arm, Automotive, Ecosystem, Hardware, 96boards
+category: blog
+tags:
+  - Arm
+  - Automotive
+  - Ecosystem
+  - Hardware
+  - 96boards
 keywords: Arm, Automotive, Ecosystem, Hardware, 96boards
 image: /assets/images/blog/automotive-arm-ecosystem.png
 ---
+
 <div class="col-md-8" markdown="1">
 
 # Automotive
@@ -26,7 +31,6 @@ Secondly, there is some useful work that we could do ensuring that today’s aut
 
 </div>
 
-
 <div class="col-md-8" markdown="1">
 
 Another aspect of deploying software today is that of being able to update portions of the vehicle software dynamically, just like our everyday mobile devices. It’s unfortunate when your new car is running 10 year old software (as mine is). In Linaro, we have been investigating OpenEmbedded (OE) based gateway frameworks, integrating over the air updates. George Grey (Linaro CEO) demonstrated OTA updates via this platform in his keynote @ SFO17 and some Linaro alumni have started Open Source Foundries to bring this to market as an open source product.
@@ -38,7 +42,6 @@ Why is an automotive system architecture important? The amount of software in a 
 One of the first system architecture questions to ask (and answer) is how to maintain safety guarantees in complex systems. Vehicles are (quite correctly) heavily regulated, they are, after all, giant metal boxes on wheels often travelling very quickly. Vehicle components, hardware and software have to be safely integrated. As such, automotive software can be divided into two areas - safety critical and non-safety critical software. Safety critical system software is developed and certified in a very different way from most open source software. Yet, in order to meet the functionality needed for vehicles in the future, manufacturers need to dramatically increase both the amount of open source software but also frequently update that software over the lifetime of the vehicle; all without reducing safety or reliability.
 
 One simple aspect of this is the need to run both safety critical, often real time, software on the same multicore system as less safety critical software. Here, isolation techniques such as micro-kernels and type 1 virtualisation need to be used. I think that micro-kernels such as L4RE (link) are a good solution. Michael Hohmuth of kernkonzept, hosted a [BoF discussing L4RE and automotive at SFO17](https://connect.linaro.org/resources/sfo17/sfo17-416/).
-
 
 </div>
 <div class="col-md-4">
@@ -55,7 +58,6 @@ Fourthly, enable an open dialog between the various suppliers, distributions and
 Finally, If you look at Linaro, you will see that aside from some core technologies (such as tools and the Linux kernel) we are working across the spectrum of Arm ecosystem; in other words we are working on clients (mobile, IoT clients), middle/fog (gateways, smart NICs) and cloud (OpenStack). Each group focuses on their market’s particular needs but also benefits from activities in other groups. Automotive will benefit from the work that’s happening in LITE on IoT gateways and IoT clients, in LEG networking, from the security working group and Cloud integration activities, and more.
 
 What’s next for automotive in Linaro? In September, at SFO17, the TSC agreed to create an Automotive SIG as a first step. The SIG is defining the scope of a Linaro Automotive group and some initial work. I will keep you updated - in the meantime contact me if you would like to get involved.
-
 
 </div>
 

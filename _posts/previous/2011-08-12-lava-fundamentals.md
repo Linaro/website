@@ -6,27 +6,23 @@ link: /blog/lava-blog/lava-fundamentals/
 slug: lava-fundamentals
 title: LAVA Fundamentals
 wordpress_id: 4118
-categories:
-- Blog
+category: blog
 tags:
-- lava
-- LAVA
+  - lava
+  - LAVA
 ---
+
 This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the [introduction](/blog/lava-introduction/) first.
 
 LAVA is a broad project and to make it more manageable for day-to-day engineering we have separated it into a collection of smaller projects, focused on a narrow topic. Today LAVA has the following key sub-projects:
 
-  * [LAVA Test](https://launchpad.net/lava-test) is a framework and a command line tool for wrapping existing test programs and translating results into a common format.
+- [LAVA Test](https://launchpad.net/lava-test) is a framework and a command line tool for wrapping existing test programs and translating results into a common format.
 
+- [LAVA Dispatcher](https://launchpad.net/lava-dispatcher) is a framework and a command line tool for controlling test execution on a particular machine, including deployment of the initial environment.
 
-  * [LAVA Dispatcher](https://launchpad.net/lava-dispatcher) is a framework and a command line tool for controlling test execution on a particular machine, including deployment of the initial environment.
+- [LAVA Dashboard](https://launchpad.net/lava-dashboard) is a web application for storing and viewing test results. It also has a simple data mining and reporting features.
 
-
-  * [LAVA Dashboard](https://launchpad.net/lava-dashboard) is a web application for storing and viewing test results. It also has a simple data mining and reporting features.
-
-
-  * [LAVA Scheduler](https://launchpad.net/lava-scheduler) is another web application for managing a collection of devices and processing a queue of test jobs to perform.
-
+- [LAVA Scheduler](https://launchpad.net/lava-scheduler) is another web application for managing a collection of devices and processing a queue of test jobs to perform.
 
 There are many more smaller parts, all of which you can see on the [LAVA project page](http://launchpad.net/lava) but I will not cover them directly here. To explain how the four key pieces work I will take you back to the May 2010 when this project started.
 

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2017-09-25 15:58:01
 description: "Linaro Ltd, the open source
   collaborative engineering organization developing software for the Arm\xC2\xAE ecosystem,
@@ -11,7 +10,8 @@ layout: post
 link: /news/xilinx-joins-linaro-iot-embedded-group/
 slug: xilinx-joins-linaro-iot-embedded-group
 title: Xilinx joins Linaro IoT and Embedded Group
-tags: Membership
+tags:
+  - Membership
 wordpress_id: 12806
 ---
 
