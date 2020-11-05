@@ -1,19 +1,19 @@
 ---
-author: linus.walleij
-category: blog
-date: 2020-09-02 10:13:04
+layout: post
+title: BFQ saved me from thrashing
 description: In this article Linus Walleij looks at what causes thrashing and developments
   that help to mitigate this problem.
+date: 2020-09-02 10:13:04
 image: /assets/images/content/technology-3389917_1920-1-.jpg
-layout: post
-related_projects:
-- LSE
 tags:
 - Linaro
 - Linux
 - OOM
 - Thrashing
-title: BFQ saved me from thrashing
+related_projects:
+- LSE
+category: blog
+author: linus.walleij
 ---
 
 # Benefits of the BFQ I/O scheduler

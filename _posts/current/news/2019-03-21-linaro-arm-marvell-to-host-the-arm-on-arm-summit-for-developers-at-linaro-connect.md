@@ -1,6 +1,8 @@
 ---
+title: Linaro, Arm, Marvell to host the “Arm on Arm” Summit for developers at Linaro
+  Connect
 author: linaro
-category: news
+layout: post
 date: 2019-03-21 07:00:00
 description: Linaro Ltd, the open source collaborative engineering organization developing
   software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce
@@ -8,14 +10,12 @@ description: Linaro Ltd, the open source collaborative engineering organization 
   summit, which features key technology leaders across the industry, aims to encourage
   diversity of supply from Arm-based hardware vendors while showcasing the value of
   the world’s largest compute ecosystem.
-image: /assets/images/blog/session-at-yvr18.jpg
-layout: post
+category: news
 tags:
 - Linaro
 - Arm
 - Open Source
-title: Linaro, Arm, Marvell to host the “Arm on Arm” Summit for developers at Linaro
-  Connect
+image: /assets/images/blog/session-at-yvr18.jpg
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule [for the Arm on Arm Summit at Linaro Connect Bangkok 2019.](https://connect.linaro.org/) The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.

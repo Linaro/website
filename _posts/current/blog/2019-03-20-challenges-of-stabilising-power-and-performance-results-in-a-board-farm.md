@@ -1,18 +1,18 @@
 ---
+title: Challenges of Stabilising Power and Performance Results in a Board Farm
 author: lisa.nguyen
-category: blog
+layout: post
 date: 2019-03-20 09:00:00
 description: In Linaro, the Power Management Working Group (PMWG) manages a board
   farm to boot Linux and Android kernels and run tests across various boards.
-image: /assets/images/blog/collect-power-measurements-in-ci.png
-layout: post
+category: blog
 tags:
 - Linaro
 - Arm
 - Performance
 - Open Source
 - Power Management
-title: Challenges of Stabilising Power and Performance Results in a Board Farm
+image: /assets/images/blog/collect-power-measurements-in-ci.png
 ---
 
 In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards. Some of our board farm’s objectives include:

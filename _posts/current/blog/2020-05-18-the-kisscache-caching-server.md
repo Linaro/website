@@ -1,13 +1,13 @@
 ---
-author: remi.duraffort@linaro.org
-category: blog
+layout: post
+title: The KissCache caching server
 date: '2020-05-18 05:56:56'
 image: /assets/images/content/technology-3389917_1920.jpg
-layout: post
 tags:
 - Server
 - KissCache
-title: The KissCache caching server
+category: blog
+author: remi.duraffort@linaro.org
 ---
 
 Linaro has recently developed and open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.

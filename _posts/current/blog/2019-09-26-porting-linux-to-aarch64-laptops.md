@@ -1,16 +1,16 @@
 ---
-author: lee.jones
-category: blog
-date: '2019-09-26 01:00:00'
-image: /assets/images/content/porting-linux-featured-image.jpg
 layout: post
+title: Porting Linux to AArch64 Laptops
+date: '2019-09-26 01:00:00'
 tags:
 - Arm
 - Linux
 - Open Source
 - Collaborative Engineering
 - Aarch64
-title: Porting Linux to AArch64 Laptops
+category: blog
+image: /assets/images/content/porting-linux-featured-image.jpg
+author: lee.jones
 ---
 
 As the AArch64 Laptops collaboration between Linaro and Arm is wrapping up, we felt it would be helpful to summarise the project and take a quick victory lap.

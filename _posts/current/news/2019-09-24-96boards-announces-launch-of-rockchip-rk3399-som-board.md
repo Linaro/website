@@ -1,14 +1,14 @@
 ---
-author: linaro
-category: news
+layout: post
+title: 96Boards announces launch of Rockchip RK3399 Board Compliant with 96Boards
+  SOM specification
 date: '2019-09-24 01:00:00'
 image: /assets/images/content/PR_96Boards_banner_pic.jpg
-layout: post
 tags:
 - Linaro
 - 96Boards
-title: 96Boards announces launch of Rockchip RK3399 Board Compliant with 96Boards
-  SOM specification
+category: news
+author: linaro
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Manufacturing Partner Geniatech today announced the launch of another Rockchip RK3399 Board and Carrier Board.

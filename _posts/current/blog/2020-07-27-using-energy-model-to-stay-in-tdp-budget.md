@@ -1,16 +1,13 @@
 ---
-author: daniel.lezcano
-category: blog
-date: 2020-07-29 10:41:16+00:00
+layout: post
+title: Using Energy Model To Stay In TDP Budget
 description: 'An ever-increasing number of embedded devices need fine grain control
   on their performance in order to limit the power consumption. There are three primary
   reasons for this: to increase the battery life, to protect the components and to
   control the temperature. In this intriguing article, Daniel looks into the power
   consumption complexities and the challenges this creates.'
+date: 2020-07-29 10:41:16+00:00
 image: /assets/images/content/code-background_1.jpg
-layout: post
-related_projects:
-- PERF
 tags:
 - SoC Power Consumption
 - Power Management
@@ -19,7 +16,10 @@ tags:
 - RAPL
 - Powercap
 - Device Tree
-title: Using Energy Model To Stay In TDP Budget
+related_projects:
+- PERF
+category: blog
+author: daniel.lezcano
 ---
 
 ## [About the Author](https://www.linkedin.com/in/daniel-lezcano-8481435a/)

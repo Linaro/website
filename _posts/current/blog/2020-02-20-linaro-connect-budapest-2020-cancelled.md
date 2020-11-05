@@ -1,13 +1,13 @@
 ---
-author: connect
-category: blog
+layout: post
+title: Linaro Connect Budapest 2020 cancelled
 date: '2020-02-20 08:53:19'
 image: /assets/images/content/48784720458_63040ac998_k.jpg
-layout: post
 tags:
 - Linaro Connect
 - Linaro
-title: Linaro Connect Budapest 2020 cancelled
+category: blog
+author: connect
 ---
 
 Over the last few weeks, Linaro has been carefully monitoring the Coronavirus situation. We have a duty of care for all attendees at our events. Health and safety is always our top priority.

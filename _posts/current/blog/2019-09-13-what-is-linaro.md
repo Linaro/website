@@ -1,16 +1,16 @@
 ---
-author: david.rusling
-category: blog
+layout: post
+title: What is Linaro?
 date: '2019-09-13 01:15:44'
 image: /assets/images/content/davidblogsep2019.jpg
-layout: post
 tags:
 - Arm
 - Linux
 - Open Source
 - Collaborative Engineering
 - Linaro
-title: What is Linaro?
+category: blog
+author: david.rusling
 ---
 
 The question “what is Linaro?” usually comes shortly after “what company do you work for?” I have a variety of answers honed over the years. I usually ask the Arm question, that is, “Do you know Arm?”. Time was this got blank looks but, lately, most people know about Arm, or at least the Arm processor in their mobile phones. If not, I tell them about Arm’s IP model and how they license technology and how their partners bundle that technology with their own to build devices. Some know, but the majority don’t, that their mobile has a Qualcomm chip in it or that that chip has Arm IP in it, in the form of the CPU architecture, fabric and peripherals. What most do not know is that Arm is everywhere from your car, your washing machine, your camera, your router, your printer and so on. You get the drift. Ubiquitous.

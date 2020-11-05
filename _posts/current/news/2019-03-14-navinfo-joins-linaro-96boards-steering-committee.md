@@ -1,21 +1,21 @@
 ---
+title: NavInfo joins Linaro 96Boards Steering Committee
 author: linaro
-category: news
+layout: post
 date: 2019-03-14 07:00:00
 description: Linaro Ltd, the open source collaborative engineering organization developing
   software for the Arm® ecosystem, announced today that NavInfo, a leading digital
   map content provider, with a service offering ranging from location-based big data
   vertical application, to semiconductors, connected vehicle service and autonomous
   driving solutions, has joined the 96Boards initiative as a Steering Committee member.
-image: /assets/images/content/city-roads.jpg
-layout: post
+category: news
 tags:
 - Linaro
 - Arm
 - Open Source
 - Membership
 - Semiconductors
-title: NavInfo joins Linaro 96Boards Steering Committee
+image: /assets/images/content/city-roads.jpg
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that NavInfo, a leading digital map content provider, with a service offering ranging from location-based big data vertical application, to semiconductors, connected vehicle service and autonomous driving solutions, has joined the 96Boards initiative as a Steering Committee member.

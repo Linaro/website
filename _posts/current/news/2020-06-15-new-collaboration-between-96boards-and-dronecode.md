@@ -1,17 +1,17 @@
 ---
-author: jon.burcham@linaro.org
-category: news
-date: 2020-06-16 11:52:20+00:00
+layout: post
+title: New Collaboration Between 96Boards and Dronecode
 description: 96Boards and Dronecode have come together to collaborate on open drone
   standards. This will help to define the standard for next phase mass adoption of
   the open source drone technology.
+date: 2020-06-16 11:52:20+00:00
 image: /assets/images/content/electricity-1288717_1920.jpg
-layout: post
 tags:
 - 96Boards
 - Arm
 - SoC
-title: New Collaboration Between 96Boards and Dronecode
+category: news
+author: jon.burcham@linaro.org
 ---
 
 ### **Collaboration between 96Boards and Dronecode**

@@ -1,7 +1,6 @@
 ---
-author: jon.burcham@linaro.org
-category: blog
-date: 2020-07-13 12:00:00+00:00
+layout: post
+title: 'Linaro Engineering Highlights: June 2020'
 description: "The June 2020 Engineering Highlights this month features the Linux Kernel
   5.7 release statistics where Linaro and its engineers continue to rank in the top
   for multiple categories. We are also excited to announce a free webinar on July
@@ -10,8 +9,8 @@ description: "The June 2020 Engineering Highlights this month features the Linux
   detailed summary of the OSPM (Power Management) Summit and EEMBC MCUboot benchmarking
   presentation. Additional topics include a summary of the LITE Engineering Sprint,
   an introduction to VirtIO, the Micro TVM project and news on dma-buf heaps."
+date: 2020-07-13 12:00:00+00:00
 image: /assets/images/content/chip_background_under_2mb.jpg
-layout: post
 tags:
 - Engineering Highlights
 - Linaro
@@ -20,7 +19,8 @@ tags:
 - OSPM
 - Power Management
 - VirtIO
-title: 'Linaro Engineering Highlights: June 2020'
+category: blog
+author: jon.burcham@linaro.org
 ---
 
 #### **Linux Kernel v5.7 Development Statistics**

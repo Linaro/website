@@ -1,15 +1,15 @@
 ---
-author: vincent.guittot
-category: blog
+layout: post
+title: Network throughput performance improves as a result of reworking the load balance.
 date: '2020-04-06 04:10:19'
 image: /assets/images/content/37319206961_0b863ab87d_k.jpg
-layout: post
 tags:
 - PELT
 - CPU
 - Linux Scheduler
 - Linux Kernel
-title: Network throughput performance improves as a result of reworking the load balance.
+category: blog
+author: vincent.guittot
 ---
 
 The scheduler has seen a lot of change over the past couple of years with the introduction of Per Entity Load Tracking (PELT); PELT provides more fine grained statistics per task and group of tasks like the average CPU cycles used per a task and its impact on the load of the system. I started working on the scheduler a while back: improving PELT first and then studying wrong task placement and how to fix it.

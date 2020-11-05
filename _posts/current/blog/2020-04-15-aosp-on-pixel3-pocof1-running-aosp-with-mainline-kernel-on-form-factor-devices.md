@@ -1,12 +1,12 @@
 ---
-author: amit.pundir@linaro.org
-category: blog
+layout: post
+title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor devices)
 date: '2020-04-15 11:37:57'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
-layout: post
 tags:
 - AOSP
-title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor devices)
+category: blog
+author: amit.pundir@linaro.org
 ---
 
 Recently, the Dragonboard 845c (Qualcomm's SDM845 based 96board) [landed in AOSP](/blog/dragonboard-845c-in-aosp/). One of the best things about the Dragonboard 845c (SDM845 SoC to be precise) is that it is actively being worked upon upstream by the Linaro Qualcomm Landing Team and supports an open graphics (mesa/freedreno) stack. Even all but one of the device firmware files are available in the upstream linux-firmware project repository. Having a fully open-source kernel and userland stack makes Dragonboard 845c a very exciting board from AOSP development point of view. What further adds to the excitement around the board is the fact that the SDM845 SoC has been widely shipped in many form-factor devices, making it a great starting point for enabling a fully open Android form-factor device. Having a form-factor device that one can test the latest mainline kernels with the latest AOSP/master changes has long been a desired goal in the Linaro Consumer Group (LCG), and going back a few years we made a similar effort on the [Nexus 7 device](https://bloggingthemonkey.blogspot.com/2016/05/freedreno-not-so-periodic-update.html). Some of the rationale and benefits of this have been covered in previous Linaro Connect talks: [SFO15 401 Mainline on form factor devices / Improving AOSP.](https://www.youtube.com/watch?v=7BVFRIHY7fI)

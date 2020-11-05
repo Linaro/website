@@ -1,21 +1,21 @@
 ---
+title: I/O-bandwidth management for production-quality services
 author: paolo.valente
-category: blog
+layout: post
 date: 2019-03-05 09:00:00
 description: This article guides us through the techniques used to guarantee I/O bandwidth
   to clients, containers, virtual machines and any other type of entities accessing
   shared storage. Probably unexpectedly, we'll discover that these techniques entail
   dramatic throughput losses (up to 80-90%). On the bright side, we will also see
   a new solution that seems to give hope for recovering at least 90% of the loss.
-image: /assets/images/blog/servers-cern.jpg
-layout: post
+category: blog
 tags:
 - Linaro
 - Arm
 - Linaro Connect
 - Linux Kernel
 - IO
-title: I/O-bandwidth management for production-quality services
+image: /assets/images/blog/servers-cern.jpg
 ---
 
 I/O control is the most powerful Linux solution for guaranteeing bandwidths with storage; but the most used I/O-control mechanism, throttling, can waste up to 80% of the storage speed, and fails to provide target guarantees with some common workloads (full details here [IO-control-issues](https://lwn.net/Articles/763603/)).

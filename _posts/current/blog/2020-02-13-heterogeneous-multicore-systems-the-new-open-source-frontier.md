@@ -1,16 +1,16 @@
 ---
-author: bill.fletcher
-category: blog
+layout: post
+title: Heterogeneous Multicore Systems - The New Open Source Frontier!
 date: '2020-02-13 04:23:39'
 image: /assets/images/content/IoT.jpg
-layout: post
 tags:
 - Device Tree
 - OpenAMP
 - Zephyr
 - 96Boards
 - IoT and Embedded
-title: Heterogeneous Multicore Systems - The New Open Source Frontier!
+category: blog
+author: bill.fletcher
 ---
 
 Heterogeneous multicore computing is now all-pervasive. Complex application processors in the mobile and other consumer segments have long featured many cores for various kinds of processing offload. This has typically included modem and wifi functions, DSP, real-time and power control. The presence of the many co-processor cores and engines gives a processing offload capability which frees up the main CPU (or CPU cluster) to run the host OS and application code.

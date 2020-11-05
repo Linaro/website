@@ -1,7 +1,6 @@
 ---
-author: jon.burcham@linaro.org
-category: blog
-date: 2020-06-05 11:58:17+00:00
+layout: post
+title: 'Linaro Engineering Highlights: May 2020'
 description: 'Welcome to the May 2020 edition of the Linaro Engineering Highlights.
   This blog details all of the latest news and many of the developments that Linaro
   has been working on during May. This includes the Linaro AI Project, Firmware Framework
@@ -12,8 +11,8 @@ description: 'Welcome to the May 2020 edition of the Linaro Engineering Highligh
 
 
   '
+date: 2020-06-05 11:58:17+00:00
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
-layout: post
 tags:
 - Linaro
 - KissCache
@@ -21,7 +20,8 @@ tags:
 - Ledge
 - Raspberry Pi
 - AI
-title: 'Linaro Engineering Highlights: May 2020'
+category: blog
+author: jon.burcham@linaro.org
 ---
 
 ### **Linaro AI Project: uTVM**

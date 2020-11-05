@@ -1,13 +1,13 @@
 ---
-author: linaro
-category: news
+layout: post
+title: Linaro donates OP-TEE into the Trusted Firmware Project
 date: '2019-09-23 01:00:00'
 image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
-layout: post
 tags:
 - Linaro
 - Trusted Firmware
-title: Linaro donates OP-TEE into the Trusted Firmware Project
+category: news
+author: linaro
 ---
 
 [San Diego, 23 September 2019] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm ® ecosystem, today announced that OP-TEE (Open Portable TEE, an open source Arm TrustZone® solution) is moving to become part of the Trusted Firmware open project managed by Linaro.

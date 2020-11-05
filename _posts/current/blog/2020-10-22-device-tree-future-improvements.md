@@ -1,7 +1,8 @@
 ---
-author: joakim.bech
-category: Blog
-date: 2020-10-23 11:08:40
+related_project:
+- DTE
+layout: post
+title: Device Tree - Future Improvements
 description: 'Over the years there have been countless discussions around Device Tree.
   It is not a problem that has gone unnoticed. Still the impression seems to be that
   little is actually happening. Why is that? Linaro are working with many SoC vendors
@@ -9,18 +10,17 @@ description: 'Over the years there have been countless discussions around Device
   is a neutral player in the Arm ecosystem, we believe that Linaro is the perfect
   organization to address challenging problems, such as the ones described within
   this blog. '
+date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
-layout: post
-related_project:
-- DTE
-related_projects:
-- DTE
 tags:
 - Device Tree
 - Arm Ecosystem
 - Linaro
 - Linux Kernel
-title: Device Tree - Future Improvements
+related_projects:
+- DTE
+category: Blog
+author: joakim.bech
 ---
 
 # Device Tree - Future improvements

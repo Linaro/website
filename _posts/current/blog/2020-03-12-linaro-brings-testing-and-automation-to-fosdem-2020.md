@@ -1,15 +1,15 @@
 ---
-author: anders.roxell
-category: blog
+layout: post
+title: Linaro brings testing and automation to FOSDEM 2020
 date: '2020-03-12 09:16:32'
 image: /assets/images/content/48806077322_d5b5e6aaa0_k.jpg
-layout: post
 tags:
 - Testing
 - Automation
 - LKFT
 - Linux Kernel
-title: Linaro brings testing and automation to FOSDEM 2020
+category: blog
+author: anders.roxell
 ---
 
 Anders Roxell is part of the [Linux Kernel Functional Testing (LKFT) project](https://lkft.linaro.org/) at Linaro. The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time and report any regressions as quickly as possible. In this blog, Anders talks about the devroom he recently co-organised at FOSDEM to get all the testing folks that attend the event in the same room.

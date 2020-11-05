@@ -1,16 +1,16 @@
 ---
-author: paul.isaacs
-category: blog
+layout: post
+title: Can we make AI Super?
 date: '2019-11-20 10:24:06'
 image: /assets/images/content/abstract1.jpg
-layout: post
 tags:
 - AI
 - Artificial Intelligence
 - Machine Learning
 - HPC
 - Supercomputers
-title: Can we make AI Super?
+category: blog
+author: paul.isaacs
 ---
 
 Linaro works with hardware vendors and software developers to help coordinate and build the toolkits for improved calculation libraries. We work to defragment the market by supporting ONNX, TFLite and TVM to translate to Arm NN supported inferencing optimised hardware. Linaro's HPC group aims to assist in optimising libraries and infrastructure dependencies that distribute the calculation requirements across servers, clusters, HPC nodes and supercomputers. But beyond Machine Learning and inferencing, where is the full scope of the truly cognitive AI? In this blog, Linaro's HPC Tech Lead Paul Isaac's talks about the history of AI and future opportunities made possible through super computing.

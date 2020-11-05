@@ -1,9 +1,8 @@
 ---
-author: connect
-category: blog
+layout: post
+title: 'Linaro Tech Days: A livestream event of technical sessions'
 date: '2020-03-13 07:08:16'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
-layout: post
 tags:
 - Linaro Tech Days
 - Virtual Event
@@ -11,7 +10,8 @@ tags:
 - Arm
 - Open Source
 - Software
-title: 'Linaro Tech Days: A livestream event of technical sessions'
+category: blog
+author: connect
 ---
 
 We were disappointed to have to [cancel Linaro Connect Budapest 2020](/blog/linaro-connect-budapest-2020-cancelled/). We had lots of great technical sessions scheduled and as such, want to do all we can to repurpose as much of the content as possible.

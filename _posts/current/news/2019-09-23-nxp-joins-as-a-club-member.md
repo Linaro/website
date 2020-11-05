@@ -1,16 +1,16 @@
 ---
-author: linaro
-category: news
+layout: post
+title: NXP Becomes Club Member of Linaro
 date: '2019-09-23 01:00:00'
 image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
-layout: post
 tags:
 - Linaro
 - NXP
 - Club Member
 - Membership
 - Members
-title: NXP Becomes Club Member of Linaro
+category: news
+author: linaro
 ---
 
 [San Diego, USA; 23 September 2019] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that NXP Semiconductors® has joined Linaro as a Club member.

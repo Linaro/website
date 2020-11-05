@@ -1,14 +1,11 @@
 ---
-author: jon.burcham@linaro.org
-category: blog
-date: 2020-08-17 10:55:50+00:00
+layout: post
+title: Linaro Engineering Highlights - July 2020
 description: The July 2020 Engineering Highlights feature the introduction of TuxMake,
   articles on a new certification for the Linaro Developer Cloud and the evolution
   of QEMU.
+date: 2020-08-17 10:55:50+00:00
 image: /assets/images/content/abstract-small.jpg
-layout: post
-related_projects:
-- AI
 tags:
 - Linaro
 - Engineering Highlights
@@ -24,7 +21,10 @@ tags:
 - Linux Kernel Functional Test
 - Kernel Validation Team
 - Toolchain Working Group
-title: Linaro Engineering Highlights - July 2020
+category: blog
+author: jon.burcham@linaro.org
+related_projects:
+- AI
 ---
 
 # Introducing TuxMake

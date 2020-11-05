@@ -1,15 +1,15 @@
 ---
-author: ben.copeland@linaro.org
-category: blog
+layout: post
+title: tuxpub - The Serverless File Server
 date: '2020-06-02 12:10:28'
 image: /assets/images/content/code_highway_small.jpg
-layout: post
 tags:
 - Tuxpub
 - Server
 - Tux Build
 - Tuxboot
-title: tuxpub - The Serverless File Server
+category: blog
+author: ben.copeland@linaro.org
 ---
 
 {% include image.html path="/assets/images/content/amazon_diagram.jpg" alt="Amazon S3 bucket and using Amazon CloudFront" %}

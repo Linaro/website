@@ -1,20 +1,20 @@
 ---
+title: 'On the Spot: Highlights from HPC Asia 2019 & Linaro’s Workshop - Open Source
+  HPC collaboration on Arm Architecture'
 author: brian-pang
-category: blog
+layout: post
 date: 2019-01-21 09:00:00
 description: On Jan 14th, 2019, not yet half a month into the new year,  HPC Asia
   held its annual conference in Guangzhou, China. Led by Linaro, with Arm ecosystem
   partners, the Linaro workshop“Open Source HPC on Arm Architecture”was held on the
   first day of HPC Asia 2019. It is the first time in the events 20 year history that
   Arm ecosystem partners have joined forces under the leadership of Linaro.
-image: /assets/images/blog/hpc-workshop-banner-image.jpg
-layout: post
+category: blog
 tags:
 - Linaro
 - Arm
 - HPC
-title: 'On the Spot: Highlights from HPC Asia 2019 & Linaro’s Workshop - Open Source
-  HPC collaboration on Arm Architecture'
+image: /assets/images/blog/hpc-workshop-banner-image.jpg
 ---
 
 On Jan 14th, 2019, not yet half a month into the new year,  HPC Asia held its annual conference in Guangzhou, China. Led by Linaro, with Arm ecosystem partners, the Linaro workshop“Open Source HPC on Arm Architecture”was held on the first day of HPC Asia 2019. It is the first time in the events 20 year history that Arm ecosystem partners have joined forces under the leadership of Linaro.

@@ -1,7 +1,6 @@
 ---
-author: alex.bennee
-category: blog
-date: 2020-07-22 01:00:55+00:00
+layout: post
+title: The Evolution Of The QEMU Translator
 description: The QEMU team in Linaro sits inside a group known as the Toolchain Working
   Group (TCWG). The rest of the team spend their time working with compilers and other
   code generators such as GCC and LLVM. When dealing with emulation, QEMU has its
@@ -9,10 +8,8 @@ description: The QEMU team in Linaro sits inside a group known as the Toolchain 
   QEMU since 2008 it has seen some changes over time. I've been working in and around
   it since 2015 and I thought it would be an interesting exercise to look at some
   of the changes it has seen over the last five years.
+date: 2020-07-22 01:00:55+00:00
 image: /assets/images/content/tech_background_2.jpg
-layout: post
-related_projects:
-- QEMU
 tags:
 - Qemu
 - Toolchain
@@ -22,7 +19,10 @@ tags:
 - RISU
 - SVE
 - KVM
-title: The Evolution Of The QEMU Translator
+related_projects:
+- QEMU
+category: blog
+author: alex.bennee
 ---
 
 # Introduction

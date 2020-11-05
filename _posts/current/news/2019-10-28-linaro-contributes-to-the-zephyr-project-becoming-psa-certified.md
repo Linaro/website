@@ -1,16 +1,16 @@
 ---
-author: linaro
-category: news
+layout: post
+title: 'Linaro contributes to the Zephyr Project becoming PSA certified '
 date: '2019-10-28 05:38:49'
 image: /assets/images/content/city.jpg
-layout: post
 tags:
 - Zephyr
 - IoT and Embedded
 - PSA Certified
 - Arm
 - Security
-title: 'Linaro contributes to the Zephyr Project becoming PSA certified '
+category: news
+author: linaro
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that the Zephyr Project has been awarded Level 1 certification in the Platform Security Architecture (PSA) certification scheme, PSA Certified™. Zephyr is a secure and scalable, real-time operating system (RTOS) optimized for resource-constrained devices, across multiple architectures.
