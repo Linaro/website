@@ -160,3 +160,97 @@ The vertex and the texture coordinates mapping is like: -
 ```
 
 *The texture coordinates(*5)*
+
+I.e. The vertex and texture coordinates mapping is like below
+vertex coordinates           <-->            texture coordinates
+        (-1.0f, -1.0f)              <-->              (0.0f, 1.0f) \[lower left]
+        ( 1.0f, -1.0f)              <-->              (1.0f, 1.0f) \[lower right]
+        ( 1.0f,  1.0f)               <-->              (1.0f, 0.0f) \[top right]
+        (-1.0f,  1.0f)              <-->              (0.0f, 0.0f) \[top left]
+
+And create the vertex shader, and set the clip-space output position of the current vertex.
+
+```
+attribute vec4 vertexIn;
+attribute vec2 textureIn;
+varying vec2 textureOut;
+
+void main(void)
+{
+	gl_Position = vertexIn;
+	textureOut = textureIn;
+}
+```
+
+In **resizeGL()**, will resize the OpenGL viewport whenever the widget has been resized.
+
+```
+void ViewFinderGL::resizeGL(int w, int h)
+{
+	glViewport(0, 0, w, h);
+}
+```
+
+In **paintGL()**, we have 2 parts. One continues the initialization of the fragment shader and the other is actually doing the rendering. I postponed the fragment shader initialization until here as initializeGL() and resizeGL() are called when the ViewFinderGL has been constructed and the camera configuration is not generated at that stage.  After the camera device has been opened the camera configuration is generated and the pixel format is set, we can select and create the specific fragment shader accordingly.
+
+```
+bool ViewFinderGL::selectFormat(const libcamera::PixelFormat &format)
+{
+	bool ret = true;
+	switch (format) {
+	case libcamera::formats::NV12:
+	horzSubSample_ = 2;
+		vertSubSample_ = 2;
+		vertexShaderSrc_ = ":NV_vertex_shader.glsl";
+		fragmentShaderSrc_ = ":NV_2_planes_UV_f.glsl";
+		break;
+	case libcamera::formats::NV21:
+		horzSubSample_ = 2;
+		vertSubSample_ = 2;
+		vertexShaderSrc_ = ":NV_vertex_shader.glsl";
+		fragmentShaderSrc_ = ":NV_2_planes_VU_f.glsl";
+		Break;
+```
+
+The fragment shader only has been initialized once at first time updateGL() being called. 
+
+```
+void ViewFinderGL::paintGL()
+{
+	if (!fragmentShader_)
+		if (!createFragmentShader()) {
+			qWarning() << "[ViewFinderGL]:"
+				   << "create fragment shader failed.";
+		}
+```
+
+Another part of updateGL(), is actually doing the format conversion and rendering according to the format.
+For example, NV12/NV21 these kinds of 2 planes YUV frames.
+
+```
+         Width
++----------------------------------------+
+|                                        |
+|                                        |
+|                                        |
+|                      Y                 |  Height
+|                                        |
+|                                        |
+|                                        |
+|                                        |
++----------------------------------------+
+|                                        |
+|                                        |
+|                UV/VU                   |  Height / 2
+|                                        |
++----------------------------------------+
+```
+
+*NV12/NV21 YUV frame memory map*
+
+
+The color format convert and frame rendering is done by the fragment shader.
+
+```
+
+```
