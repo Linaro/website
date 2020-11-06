@@ -47,9 +47,9 @@ To display the “NV12” format frames in Qt framework, it needs to convert it 
 *The formulas for BT.601(*1)*
 
 However, the default CPU software conversion is not very efficient. For example when doing the conversion on the CPU of a RockPi4B which has a RKI3399 SoC, we get the following framerates in QCam:
-If the capture frame size is set to 640 x 480, the frame rate is around 13.4x fps.
-If the capture frame size is set to 1280 x 720, the frame rate is around 4.5x fps.
-If the capture frame size is set to 1920 x 1080, the frame rate is even down to around 2.0x fps
+If the capture frame size is set to **640 x 480**, the frame rate is around **13.4x** fps.
+If the capture frame size is set to **1280 x 720**, the frame rate is around **4.5x** fps.
+If the capture frame size is set to **1920 x 1080**, the frame rate is even down to around **2.0x** fps
 
 As libcamera is helping to solve a longstanding pain point in the Linux ecosystem (the management of complex cameras), we decided to contribute to accelerating Qcam so we can have a much more performant demo of libcamera on some of the platforms Linaro cares about. Moving these heavy loading tasks to the GPU would be more efficient \[2] and there are already lots of examples about sharing the loading with the GPU \[3] that can be referenced. Also this would make a demo that nicely combines libcamera with some of the great work that has happened recently in [Mesa](https://gitlab.freedesktop.org/mesa/mesa/) on the Panfrost GPU driver.
 
@@ -337,8 +337,7 @@ The code has already been merged into the libcamera git tree \[6], but if you’
 
 ## Conclusion
 
-After moving the format conversion to the GPU, the qcam frame rate improved a lot. On the RockPi4b platform the frame rate reached 30.0x fps with the capture resolution set to 1920x1080.
-
+After moving the format conversion to the GPU, the qcam frame rate improved a lot. On the RockPi4b platform the frame rate reached **30.0x** fps with the capture resolution set to **1920x1080**.
 
 ### References
 
