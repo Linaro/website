@@ -2,21 +2,18 @@
 author: linaro
 category: blog
 date: 2012-10-12 15:57:16
-description:
-  Take a look at the Android Mini-Summit which is scheduled to take place
+description: Take a look at the Android Mini-Summit which is scheduled to take place
   on Wednesday, October 31, 2012 during the LCE12 at the Bella Center in Copenhagen,
   Denmark.
-keywords:
-  Linaro, Linux on Arm, Open Source, Community, Linaro Connect, Bella Center,
+keywords: Linaro, Linux on Arm, Open Source, Community, Linaro Connect, Bella Center,
   Copenhagen, Demo Friday, LCE12, Android Mini-Summit, Mini-Summit, Schedule
 layout: post
 link: /blog/community-blog/lce12-copenhagen-android-mini-summit-schedule-now-available/
 slug: lce12-copenhagen-android-mini-summit-schedule-now-available
 tags:
-  - Android
-  - Community
-  - Connect Events
-title: "LCE12 - Copenhagen: Android Mini-Summit Schedule Now Available"
+- Android
+- Connect Events
+title: 'LCE12 - Copenhagen: Android Mini-Summit Schedule Now Available'
 wordpress_id: 1928
 ---
 

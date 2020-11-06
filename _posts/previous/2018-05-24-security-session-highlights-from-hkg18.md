@@ -1,7 +1,6 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
+tags: []
 title: Security Session Highlights from HKG18
 date: 2018-05-24 12:00:00
 category: blog

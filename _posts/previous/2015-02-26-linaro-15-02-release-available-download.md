@@ -7,13 +7,9 @@ layout: post
 link: /blog/linaro-15-02-release-available-download/
 slug: linaro-15-02-release-available-download
 tags:
-  - Releases
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Opensource
-  - release
-  - release cycle
+- Linaro
+- Linux
+- Linux On Arm
 title: Linaro 15.02 Release Available for Download
 wordpress_id: 8212
 ---

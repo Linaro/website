@@ -2,17 +2,15 @@
 author: linaro
 category: blog
 date: 2013-06-13 19:26:43
-description:
-  We're pleased to announce that Bob Monkman of the Enterprise Segment
+description: We're pleased to announce that Bob Monkman of the Enterprise Segment
   Marketing Team at Arm will be giving the Thursday, July 11th keynote at Linaro Connect
   Europe 2013 (LCE-13).
-keywords:
-  Linaro, Linux on Arm, Open Source, Arm, Bob Monkman, Community, Networking,
+keywords: Linaro, Linux on Arm, Open Source, Arm, Bob Monkman, Community, Networking,
   Linaro Connect, Linaro Connect Europe, LCE-13. Dublin, Ireland
 layout: post
 link: /blog/lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking/
 slug: lce-13-keynote-speaker-announced-bob-monkman-software-defined-networking
-title: "LCE-13 Keynote Speaker Announced: Bob Monkman - Software Defined Networking"
+title: 'LCE-13 Keynote Speaker Announced: Bob Monkman - Software Defined Networking'
 wordpress_id: 2767
 ---
 

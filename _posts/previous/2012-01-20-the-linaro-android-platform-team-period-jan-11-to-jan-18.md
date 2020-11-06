@@ -7,13 +7,10 @@ layout: post
 link: /blog/android-blog/the-linaro-android-platform-team-period-jan-11-to-jan-18/
 slug: the-linaro-android-platform-team-period-jan-11-to-jan-18
 tags:
-  - Android
-  - "12.01"
-  - android
-  - Evaluation builds
-  - Linaro
-  - release
-  - toolchain
+- Android
+- Android
+- Linaro
+- Toolchain
 title: The Linaro Android Platform Team, Period Jan. 11 to Jan. 18
 wordpress_id: 1203
 ---

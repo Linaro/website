@@ -7,14 +7,11 @@ layout: post
 link: /blog/opendataplane-project-up-and-running/
 slug: opendataplane-project-up-and-running
 tags:
-  - arm
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - ODP
-  - Open data plane
-  - OpenDataPlane
+- Arm
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
 title: OpenDataPlane Project Up and Running
 wordpress_id: 3371
 ---

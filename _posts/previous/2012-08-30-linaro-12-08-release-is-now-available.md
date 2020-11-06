@@ -3,15 +3,13 @@ author: linaro
 category: blog
 date: 2012-08-30 16:17:14
 description: Links to all the downloads for the Linaro 12.08 release
-keywords:
-  Linaro, Linaro Connect, Linaro 12.08 Release, Announcement, Linux on Arm,
+keywords: Linaro, Linaro Connect, Linaro 12.08 Release, Announcement, Linux on Arm,
   Ubuntu, Android, Arm, Virtual Connect, Copenhagen, October, Events
 layout: post
 link: /blog/releases-blog/linaro-12-08-release-is-now-available/
 slug: linaro-12-08-release-is-now-available
 tags:
-  - Connect Events
-  - Releases
+- Connect Events
 title: Linaro 12.08 Release Is Now Available
 wordpress_id: 1842
 ---

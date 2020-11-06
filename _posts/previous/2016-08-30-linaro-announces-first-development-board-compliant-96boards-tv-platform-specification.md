@@ -2,20 +2,17 @@
 author: linaro
 category: news
 date: 2016-08-30 12:41:20
-description: "Cambridge, UK: 30\xC2\_August 2016"
+description: 'Cambridge, UK: 30Â August 2016'
 layout: post
 link: /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
 slug: linaro-announces-first-development-board-compliant-96boards-tv-platform-specification
 tags:
-  - 96Boards
-  - arm
-  - Enterprise edition
-  - Hisilicon
-  - Linux
-  - Linux on Arm
-  - Open Source
-title:
-  Linaro Announces First Development Board Compliant with 96Boards TV Platform
+- 96Boards
+- Arm
+- Linux
+- Linux On Arm
+- Open Source
+title: Linaro Announces First Development Board Compliant with 96Boards TV Platform
   Specification
 wordpress_id: 11512
 ---

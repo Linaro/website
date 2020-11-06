@@ -1,23 +1,18 @@
 ---
 layout: post
 title: Linaro 13.11 Released
-date: 2013-12-02T16:34:05.000Z
+date: 2013-12-02 16:34:05+00:00
 tags:
-  - Releases
-  - android
-  - arm
-  - embedded
-  - Evaluation builds
-  - kernel
-  - lava
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Opensource
-  - release
-  - release cycle
-  - toolchain
-  - tools
+- Android
+- Arm
+- Embedded
+- Kernel
+- Lava
+- Linaro
+- Linux
+- Linux On Arm
+- Toolchain
+- Tools
 category: blog
 author: fathi.boudra
 ---

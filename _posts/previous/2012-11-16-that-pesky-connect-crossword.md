@@ -8,11 +8,8 @@ title: That pesky Connect Crossword
 wordpress_id: 2002
 category: blog
 tags:
-  - competion
-  - connect
-  - crossword
-  - cryptic
-  - Linaro
+- Connect
+- Linaro
 ---
 
 So, it all started when Arwen called across the office one day, "Hey Dave, you like solving crosswords. Is there any chance you could compile one as a competition for Connect in Copenhagen?"

@@ -8,10 +8,9 @@ title: Improving Performance of Linaro Android Build Service
 wordpress_id: 979
 category: blog
 tags:
-  - Android
-  - android
-  - infrastructure
-  - tools
+- Android
+- Android
+- Tools
 ---
 
 [Linaro Android Build Service]()https://android-build.linaro.org/ (please bear with SSL issues - it is still officially in beta) is a place where you can get any downloads related to Linaro Android - monthly releases, daily builds for specific boards, and engineers' personal builds while they work on specific features.

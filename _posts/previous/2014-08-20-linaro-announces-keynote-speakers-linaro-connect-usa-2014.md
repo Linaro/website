@@ -2,16 +2,13 @@
 author: jennifer.castelino
 category: news
 date: 2014-08-20 15:21:50
-description: "CAMBRIDGE, UK; 20 AUGUST 2014:"
+description: 'CAMBRIDGE, UK; 20 AUGUST 2014:'
 layout: post
 link: /news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2014
 tags:
-  - connect
-  - LCU14
-  - LCU14 keynote speakers
-  - Linaro Connect USA
-  - Linaro events
+- Connect
+- Linaro Events
 title: Linaro announces Keynote Speakers for Linaro Connect USA 2014
 wordpress_id: 6344
 ---

@@ -2,8 +2,7 @@
 author: dave.pigott
 comments: true
 date: 2016-07-13 10:32:53+00:00
-excerpt:
-  At 18:23 UTC on July 5th, 2016, a landmark was reached in the LAVA Lab. Job
+excerpt: At 18:23 UTC on July 5th, 2016, a landmark was reached in the LAVA Lab. Job
   number 1,000,000 was submitted by the kernel-ci bot to the main production instance.
 layout: post
 link: /blog/a-lava-landmark/

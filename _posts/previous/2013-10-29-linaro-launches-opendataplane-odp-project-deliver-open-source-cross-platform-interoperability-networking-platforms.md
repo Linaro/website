@@ -2,20 +2,17 @@
 author: linaro
 category: news
 date: 2013-10-29 12:31:46
-description:
-  Industry leaders in the Linaro Networking Group (LNG) are collaborating
+description: Industry leaders in the Linaro Networking Group (LNG) are collaborating
   to develop and host an open standard application programming interface (API) for
   data plane applications on www.opendataplane.org
-excerpt:
-  Industry leaders in the Linaro Networking Group (LNG) are collaborating to
+excerpt: Industry leaders in the Linaro Networking Group (LNG) are collaborating to
   develop and host an open standard application programming interface (API) for data
   plane applications on www.opendataplane.org
 layout: post
 link: /news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/
 slug: linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms
-title:
-  "Linaro launches OpenDataPlane\u2122 (ODP) project to deliver open-source,
-  cross-platform interoperability for networking platforms"
+title: Linaro launches OpenDataPlane™ (ODP) project to deliver open-source, cross-platform
+  interoperability for networking platforms
 wordpress_id: 4431
 ---
 

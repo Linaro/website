@@ -2,23 +2,20 @@
 author: linaro
 category: blog
 date: 2017-03-20 20:41:17
-description:
-  An overview of the activities that took place during the Linaro Connect
+description: An overview of the activities that took place during the Linaro Connect
   Budapest 2017.
-excerpt:
-  "A review of all the activities and session materials from the Linaro Connect
-  Budapest 2017.  "
+excerpt: 'A review of all the activities and session materials from the Linaro Connect
+  Budapest 2017.  '
 layout: post
 link: /blog/linaro-connect-budapest-2017-week-in-review/
 slug: linaro-connect-budapest-2017-week-in-review
 tags:
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 title: Linaro Connect Budapest 2017 - Week in Review
 wordpress_id: 12257
 ---

@@ -8,13 +8,7 @@ title: ST-Ericsson and Linaro, working towards the first release
 wordpress_id: 4106
 category: blog
 tags:
-  - Industry
-  - "10.11"
-  - Arm TechCon
-  - mobile
-  - release
-  - smartphone
-  - ST-Ericsson
+- Smartphone
 ---
 
 Open source has become an important driving force in the smartphone industry and a particularly key area of focus for ST-Ericsson. We believe that open innovation is critical to face the increasing demand on features and the broadening scope of the mobile market.  From hardware performance to software platforms and enabling the hundreds of thousands of apps & services running on top of it, the complexity of today's devices has raised incredibly.

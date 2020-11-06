@@ -8,16 +8,12 @@ layout: post
 link: /blog/releases-blog/linaro-13-10-released/
 slug: linaro-13-10-released
 tags:
-  - Releases
-  - android
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-  - release
-  - release cycle
-  - software
+- Android
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
+- Software
 title: Linaro 13.10 Released
 wordpress_id: 3147
 ---

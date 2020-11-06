@@ -5,8 +5,7 @@ author: connect
 category: blog
 comments: false
 date: 2017-02-22 20:24:44
-excerpt:
-  The Linaro Virtualization group will host several sessions at the upcoming
+excerpt: The Linaro Virtualization group will host several sessions at the upcoming
   Linaro Connect Budapest 2017 (BUD17) and has scheduled a wide array of interesting
   presentations.  Linaro Connect is a great time for engineers interested opensource
   to get together and to learn more about what is going on not only with Linaro but
@@ -22,10 +21,8 @@ slideshare_presentation_url: None
 slug: linaro-virtualization-groups-plans-linaro-connect-budapest-2017
 speakers: None
 tags:
-  - BUD17
-  - Budapest
-  - Linaro Connect
-  - Virtualization
+- Linaro Connect
+- Virtualization
 title: Linaro Virtualization Group's Plans for Linaro Connect Budapest 2017
 video_length: 00:00
 video_thumbnail: None

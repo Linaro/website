@@ -3,22 +3,16 @@ title: Linaro at Arm Techcon
 author: linaro
 layout: post
 date: 2018-10-15 09:00:00+00:00
-description: >-
-  Linaro is sponsoring the Networking Lounge at Arm Techcon.
+description: Linaro is sponsoring the Networking Lounge at Arm Techcon.
 category: blog
 image: /assets/images/content/arm-techcon-2018.jpg
 tags:
-  - Linaro
-  - Arm
-  - Synquacer
-  - Machine Intelligence
-  - Machine Learning
-  - Arm NN
-  - 96Boards
-  - MiniNodes
-  - Developer Box
-  - Socionext
-  - open source
+- Linaro
+- Arm
+- Machine Learning
+- 96Boards
+- Socionext
+- Open Source
 ---
 
 ## Technical panel discussion, machine intelligence and lots of demos

@@ -2,15 +2,13 @@
 author: linaro
 category: blog
 date: 2011-10-10 22:18:34
-description:
-  Discussion of Linaro toolchain working group focus, and the enablement
+description: Discussion of Linaro toolchain working group focus, and the enablement
   of -O3 flag
 keywords: Linaro, Arm, Linux on Arm, Arm Linux, gcc-o3, Arm SOCs, Linux, Kernel
 layout: post
 link: /blog/community-blog/compiling-with-gcc-o3/
 slug: compiling-with-gcc-o3
-tags:
-  - Community
+tags: []
 title: Compiling with gcc -O3
 wordpress_id: 598
 ---

@@ -8,12 +8,11 @@ layout: post
 link: /blog/lava-blog/29-aug-2013-lava-team-meeting-live-demos/
 slug: 29-aug-2013-lava-team-meeting-live-demos
 tags:
-  - LAVA
-  - arm
-  - lava
-  - Linaro
-  - Linux
-  - Opensource
+- Lava
+- Arm
+- Lava
+- Linaro
+- Linux
 title: 29 Aug 2013 - LAVA Team meeting - LIVE Demos
 wordpress_id: 2985
 ---

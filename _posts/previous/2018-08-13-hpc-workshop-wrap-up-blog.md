@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 title: Its a wrap - Highlights from the HPC Workshop
 author: linaro

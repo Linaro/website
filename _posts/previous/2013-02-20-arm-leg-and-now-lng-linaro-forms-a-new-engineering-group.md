@@ -2,17 +2,14 @@
 author: linaro
 category: blog
 date: 2013-02-20 18:50:27
-description:
-  Linaro announces the formation of a new Linaro engineering group --The
+description: Linaro announces the formation of a new Linaro engineering group --The
   Linaro Networking Group (LNG).
-keywords:
-  Linaro, Linux on Arm, Open Source, Linux, Arm, ELC, Announcement, Linaro
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, ELC, Announcement, Linaro
   Networking Group, LNG, George Grey, Jim Zemlin, The Linux Foundation, Networking
 layout: post
 link: /blog/community-blog/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/
 slug: arm-leg-and-now-lng-linaro-forms-a-new-engineering-group
-tags:
-  - Community
+tags: []
 title: Arm, LEG and now LNG... Linaro forms a new engineering group
 wordpress_id: 2393
 ---

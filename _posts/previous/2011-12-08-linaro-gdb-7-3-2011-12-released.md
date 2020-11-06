@@ -6,8 +6,7 @@ description: Announcement and release notes for Linaro GDB 7.3 2011.12
 layout: post
 link: /blog/releases-blog/linaro-gdb-7-3-2011-12-released/
 slug: linaro-gdb-7-3-2011-12-released
-tags:
-  - Releases
+tags: []
 title: Linaro GDB 7.3 2011.12 released
 wordpress_id: 1028
 ---

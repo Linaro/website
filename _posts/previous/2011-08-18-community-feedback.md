@@ -7,8 +7,7 @@ slug: community-feedback
 title: Community Feedback
 wordpress_id: 4123
 category: blog
-tags:
-  - Community
+tags: []
 ---
 
 The Engineering Resources team is trying to solicit feedback from the community. Our goal is to make it as easy as possible for you to get your job done. With that in mind, we'd like to check in with you and get your thoughts on what hasn't worked well for you.

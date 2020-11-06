@@ -6,8 +6,7 @@ description: Announcement and release notes for Linaro GCC 4.7 and 4.6 2012.04
 layout: post
 link: /blog/releases-blog/linaro-gcc-4-7-and-4-6-2012-04-released/
 slug: linaro-gcc-4-7-and-4-6-2012-04-released
-tags:
-  - Releases
+tags: []
 title: Linaro GCC 4.7 and 4.6 2012.04 released
 wordpress_id: 1534
 ---

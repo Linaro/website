@@ -1,30 +1,22 @@
 ---
 author: paolo.valente
-date: 2018-03-26 14:50:00.000
+date: 2018-03-26 14:50:00
 title: A report from ELC North America 2018
-description: >-
-  Participating in ELC North America 2018 has been productive and interesting, both for the main goal of my presentation and for hallway discussions.
+description: Participating in ELC North America 2018 has been productive and interesting,
+  both for the main goal of my presentation and for hallway discussions.
 category: blog
 published: true
 tags:
-  - HKG18
-  - Arm
-  - Linux
-  - Kernel
-  - Linaro
-  - Open Source,Qualcomm
-  - Datacentre
-  - Mobile
-  - Servers
-  - Art
-  - Computation
-  - ELC
-  - North America
-  - HiKey
-  - 96Boards
-  - Pixel 2
-  - ACRN"
-keywords: "HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile, Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN"
+- Arm
+- Linux
+- Kernel
+- Linaro
+- Datacentre
+- Servers
+- HiKey
+- 96Boards
+keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source,Qualcomm, Datacentre, Mobile,
+  Servers, Art, Computation, ELC, North America, HiKey, 96Boards, Pixel 2, ACRN
 image: /assets/images/blog/elc-image.jpg
 layout: post
 ---

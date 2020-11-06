@@ -3,22 +3,18 @@ title: Trusted Firmware becomes an open governance project
 author: linaro
 layout: post
 date: 2018-10-16 09:00:00+00:00
-description: >-
-  Earlier today, Linaro Community Projects Division, the division of Linaro managing open source community projects, announced the Trusted Firmware open governance project.
+description: Earlier today, Linaro Community Projects Division, the division of Linaro
+  managing open source community projects, announced the Trusted Firmware open governance
+  project.
 category: blog
 image: /assets/images/blog/trusted-firmware.jpg
 tags:
-  - Linaro
-  - Arm
-  - Synquacer
-  - Machine Intelligence
-  - Machine Learning
-  - Arm NN
-  - 96Boards
-  - MiniNodes
-  - Developer Box
-  - Socionext
-  - open source
+- Linaro
+- Arm
+- Machine Learning
+- 96Boards
+- Socionext
+- Open Source
 ---
 
 Earlier today, [Linaro Community Projects Division, the division of Linaro managing open source community projects, announced the Trusted Firmware open governance project](https://www.trustedfirmware.org/news/linaro-community-projects-division-announces-the-trusted-firmware-open-project/).  The Trusted Firmware project is designed to reduce porting and integration work across the ecosystem by creating reusable reference implementations for SoC and Trusted OS developers at[ trustedfirmware.org](http://trustedfirmware.org/).

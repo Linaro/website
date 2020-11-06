@@ -2,27 +2,21 @@
 author: linaro
 category: blog
 date: 2011-08-05 06:54:35
-description:
-  Demonstration of the Linux framework to keep the temperature of an Arm
+description: Demonstration of the Linux framework to keep the temperature of an Arm
   cpu under control by automatically reducing frequency. Using hot coffee and cold
   water!
 layout: post
 link: /blog/hardware-update/thermal-management/
 slug: thermal-management
 tags:
-  - Hardware
-  - arm
-  - frequency
-  - kernel
-  - Linaro
-  - Linux
-  - management
-  - power
-  - ST-Ericsson
-  - thermal
-title:
-  "Video: thermal management - automatic cpu frequency control with hot coffee
-  and cold water"
+- Arm
+- Kernel
+- Linaro
+- Linux
+- Power
+- Thermal
+title: 'Video: thermal management - automatic cpu frequency control with hot coffee
+  and cold water'
 ---
 
 Linaro Connect Q3.11, Cambridge, UK, August 2011

@@ -2,30 +2,27 @@
 author: jennifer.castelino
 category: blog
 date: 2014-09-18 21:43:11
-description:
-  Description of the keynotes and sessions that took place on Wednesday
+description: Description of the keynotes and sessions that took place on Wednesday
   of Linaro Connect USA 2014. Including links to videos, presentations and session
   summaries.
 layout: post
 link: /blog/lcu14-wednesday-wrap/
 slug: lcu14-wednesday-wrap
 tags:
-  - Connect Events
-  - android
-  - AOSP
-  - arm
-  - Armv8
-  - connect
-  - Connect Events
-  - embedded
-  - kernel
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - LSK
-  - Open Source
-  - Opensource
-  - toolchain
+- Connect Events
+- Android
+- AOSP
+- Arm
+- Connect
+- Connect Events
+- Embedded
+- Kernel
+- Linaro Connect
+- Linux
+- Linux On Arm
+- LSK
+- Open Source
+- Toolchain
 title: LCU14 Wednesday Wrap-up
 wordpress_id: 6708
 ---

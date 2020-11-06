@@ -7,20 +7,16 @@ layout: post
 link: /blog/industry-blog/the-linaro-android-platform-team-period-feb-02-to-feb-16/
 slug: the-linaro-android-platform-team-period-feb-02-to-feb-16
 tags:
-  - Android
-  - Connect Events
-  - Industry
-  - android
-  - arm
-  - community
-  - conference
-  - connect
-  - ELC
-  - embedded
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
+- Android
+- Connect Events
+- Android
+- Arm
+- Connect
+- Embedded
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
 title: The Linaro Android Platform Team, Period Feb. 02 to Feb. 16
 wordpress_id: 1248
 ---

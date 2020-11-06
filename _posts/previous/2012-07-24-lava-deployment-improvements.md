@@ -2,8 +2,7 @@
 author: linaro
 category: blog
 date: 2012-07-24 16:54:35
-description:
-  This article goes over the latest improvements to the LAVA deployment
+description: This article goes over the latest improvements to the LAVA deployment
   process
 keywords: LAVA lava-deployment-tool buildout
 layout: post

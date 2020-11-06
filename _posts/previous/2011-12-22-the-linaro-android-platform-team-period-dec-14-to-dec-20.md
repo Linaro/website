@@ -8,13 +8,10 @@ title: The Linaro Android Platform Team, Period Dec. 14 to Dec. 20
 wordpress_id: 1108
 category: blog
 tags:
-  - Android
-  - Releases
-  - android
-  - Evaluation builds
-  - Linaro
-  - Linux
-  - release
+- Android
+- Android
+- Linaro
+- Linux
 ---
 
 As you may have already heard, some great things are coming out of Linaro this week. Hardware accellerated graphics in Linaro Evaluation Builds! Incredible. My awesome collegues in Linaro worked together with member companies and communities in a focused effort, and it paid off! Here's what the Linaro Android Team did last week.

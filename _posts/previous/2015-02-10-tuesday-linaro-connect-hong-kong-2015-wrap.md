@@ -2,22 +2,20 @@
 author: linaro
 category: blog
 date: 2015-02-10 21:54:21
-description:
-  Overview of the activities that took place on Tuesday at Linaro Connect
+description: Overview of the activities that took place on Tuesday at Linaro Connect
   including links to videos and presentations from the day
 layout: post
 link: /blog/tuesday-linaro-connect-hong-kong-2015-wrap/
 slug: tuesday-linaro-connect-hong-kong-2015-wrap
 tags:
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-title: "Tuesday of Linaro Connect Hong Kong 2015 Wrap-up "
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
+title: 'Tuesday of Linaro Connect Hong Kong 2015 Wrap-up '
 wordpress_id: 7959
 ---
 

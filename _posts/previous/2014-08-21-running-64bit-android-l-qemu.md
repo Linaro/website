@@ -9,11 +9,8 @@ title: Running Android L Developer Preview on 64-bit Arm QEMU
 wordpress_id: 6354
 category: blog
 tags:
-  - Core Dump
-  - android
-  - Android L
-  - emulator
-  - qemu
+- Android
+- Qemu
 ---
 
 # Running Android L Developer Preview on 64-bit Arm QEMU

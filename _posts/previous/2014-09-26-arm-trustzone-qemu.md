@@ -3,23 +3,20 @@ author: linaro
 category: blog
 comments: true
 date: 2014-09-26 08:54:06
-description:
-  The blog post describes why introducing Arm TrustZone support in QEMU
+description: The blog post describes why introducing Arm TrustZone support in QEMU
   is important and the accompanying benefits. The post outlines the turbulent history
   behind the current development as well as an explanation of the added features.
-excerpt:
-  The blog post describes why introducing Arm TrustZone support in QEMU is
+excerpt: The blog post describes why introducing Arm TrustZone support in QEMU is
   important and the accompanying benefits.  The post outlines the turbulent history
   behind the current development as well as an explanation of the added features.
 layout: post
 link: /blog/core-dump/arm-trustzone-qemu/
 slug: arm-trustzone-qemu
 tags:
-  - Core Dump
-  - arm
-  - qemu
-  - Security Extensions
-  - TrustZone
+- Arm
+- Qemu
+- Security Extensions
+- TrustZone
 title: Arm TrustZone in QEMU
 wordpress_id: 6913
 ---

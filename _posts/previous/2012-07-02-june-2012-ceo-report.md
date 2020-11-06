@@ -8,8 +8,7 @@ layout: post
 link: /blog/industry-blog/june-2012-ceo-report/
 slug: june-2012-ceo-report
 tags:
-  - Android
-  - Industry
+- Android
 title: June 2012 CEO Report
 wordpress_id: 1690
 ---

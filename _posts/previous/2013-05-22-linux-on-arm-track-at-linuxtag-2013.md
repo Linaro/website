@@ -2,19 +2,16 @@
 author: linaro
 category: blog
 date: 2013-05-22 17:57:39
-description:
-  If you are in Berlin, interested in Linux on Arm, want to connect with
+description: If you are in Berlin, interested in Linux on Arm, want to connect with
   developers from Linaro then you are in luck as Andrea Gallo, Director of the Linaro
   Enterprise Group (LEG) is set to open the Linux on Arm/Hardware in Action track
   at LinuxTag.
-keywords:
-  Linux, Linux on Arm, LEG, Linaro, Linaro Enterprise Group, LinuxTag, Germany,
+keywords: Linux, Linux on Arm, LEG, Linaro, Linaro Enterprise Group, LinuxTag, Germany,
   Berlin,
 layout: post
 link: /blog/industry-blog/linux-on-arm-track-at-linuxtag-2013/
 slug: linux-on-arm-track-at-linuxtag-2013
-tags:
-  - Industry
+tags: []
 title: Linux on Arm Track at LinuxTag 2013
 wordpress_id: 2731
 ---

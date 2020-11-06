@@ -7,14 +7,8 @@ layout: post
 link: /blog/linaro-14-09-release-available-immediate-download/
 slug: linaro-14-09-release-available-immediate-download
 tags:
-  - Releases
-  - android
-  - arm
-  - Engineering cycle
-  - Evaluation builds
-  - release
-  - release cycle
-  - ubuntu
+- Android
+- Arm
 title: Linaro 14.09 Release Available for Immediate Download
 wordpress_id: 6928
 ---

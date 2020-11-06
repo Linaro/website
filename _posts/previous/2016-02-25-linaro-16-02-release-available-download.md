@@ -2,12 +2,10 @@
 author: linaro
 category: blog
 date: 2016-02-25 22:13:26
-description:
-  Linaro's 16.02 release is now available for download. See the detailed
+description: Linaro's 16.02 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
   team along with all available software downloads.
-excerpt:
-  Linaro's 16.02 release is now available for download. See the detailed highlights
+excerpt: Linaro's 16.02 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 keywords: Linaro
@@ -15,17 +13,12 @@ layout: post
 link: /blog/linaro-16-02-release-available-download/
 slug: linaro-16-02-release-available-download
 tags:
-  - Releases
-  - android
-  - Armv8
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - release
-  - release cycle
+- Android
+- Kernel
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
 title: Linaro 16.02 Release Available for Download
 wordpress_id: 10009
 ---

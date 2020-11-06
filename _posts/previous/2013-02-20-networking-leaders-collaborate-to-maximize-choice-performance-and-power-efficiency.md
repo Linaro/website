@@ -2,16 +2,13 @@
 author: linaro
 category: news
 date: 2013-02-20 12:24:07
-description:
-  "Industry leaders including AppliedMicro, Arm, Enea, Freescale\xC2\xAE,
-  LSI, MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a
-  new group focused on accelerating Linux development for Arm processors in cloud
-  and mobile infrastructure."
-excerpt:
-  "Industry leaders including AppliedMicro, Arm, Enea, Freescale\xAE, LSI,
+description: Industry leaders including AppliedMicro, Arm, Enea, FreescaleÂ®, LSI,
   MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a new
   group focused on accelerating Linux development for Arm processors in cloud and
-  mobile infrastructure."
+  mobile infrastructure.
+excerpt: Industry leaders including AppliedMicro, Arm, Enea, Freescale®, LSI, MontaVista,
+  Nokia Siemens Networks and Texas Instruments (TI) have formed a new group focused
+  on accelerating Linux development for Arm processors in cloud and mobile infrastructure.
 layout: post
 link: /news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
 slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency

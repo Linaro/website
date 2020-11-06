@@ -4,8 +4,7 @@ date: 2016-01-19 14:37:54+00:00
 layout: post
 link: /blog/lhg-optee-arm-trustzone/
 slug: lhg-optee-arm-trustzone
-title:
-  LHG takes another step forward in Enhanced Content Protection with OPTEE on
+title: LHG takes another step forward in Enhanced Content Protection with OPTEE on
   Arm® TrustZone®
 wordpress_id: 9924
 category: blog

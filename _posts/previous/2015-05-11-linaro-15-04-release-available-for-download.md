@@ -2,24 +2,17 @@
 author: linaro
 category: blog
 date: 2015-05-11 14:16:55
-description:
-  Linaro's 15.04 release is not available for download. See the detailed
+description: Linaro's 15.04 release is not available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
   team along with all available software downloads.
 layout: post
 link: /blog/linaro-15-04-release-available-for-download/
 slug: linaro-15-04-release-available-for-download
 tags:
-  - Releases
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - toolchain
-  - tools
+- Kernel
+- Software
+- Toolchain
+- Tools
 title: Linaro 15.04 Release Available for Download
 wordpress_id: 8612
 ---

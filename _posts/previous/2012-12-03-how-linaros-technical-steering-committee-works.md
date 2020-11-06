@@ -2,8 +2,7 @@
 author: david.rusling
 category: blog
 date: 2012-12-03 17:28:35
-description:
-  A look at how Linaro's Technical Steering Committee (TSC) works and how
+description: A look at how Linaro's Technical Steering Committee (TSC) works and how
   this has evolved over time.
 keywords: Linaro, TSC, Committee, missions, roadmap, working groups
 layout: post

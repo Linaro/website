@@ -2,31 +2,26 @@
 author: george.grey
 category: blog
 date: 2014-01-14 21:22:02
-description:
-  A look back at achievements in 2013 within Linaro and a look forward
+description: A look back at achievements in 2013 within Linaro and a look forward
   into 2014 goals. This blog looks at the progress Linaro has made in a short time
   with it's engineering efforts and the benefit that gives to it's members
-keywords:
-  linaro, linux, linux on Arm, open source, software, Arm-CortexA, Armv8,
+keywords: linaro, linux, linux on Arm, open source, software, Arm-CortexA, Armv8,
   big.Little, LAVA, LEG, LNG,
 layout: post
 link: /blog/linaro-2013-year-end-review/
 slug: linaro-2013-year-end-review
 tags:
-  - android
-  - arm
-  - embedded
-  - kernel
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - toolchain
-  - tools
+- Android
+- Arm
+- Embedded
+- Kernel
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
+- Software
+- Toolchain
+- Tools
 title: Linaro 2013 Year End Review
 wordpress_id: 3247
 ---

@@ -7,10 +7,7 @@ layout: post
 link: /blog/releases-blog/linaro-11-05-released/
 slug: linaro-11-05-released
 tags:
-  - Releases
-  - "11.05"
-  - Linaro
-  - release
+- Linaro
 title: Linaro 11.05 released
 wordpress_id: 3385
 ---

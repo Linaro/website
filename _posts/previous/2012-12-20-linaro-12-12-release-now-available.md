@@ -2,17 +2,14 @@
 author: linaro
 category: blog
 date: 2012-12-20 21:50:26
-description:
-  We are pleased to announce that Linaro 12.12 is now available and ready
+description: We are pleased to announce that Linaro 12.12 is now available and ready
   for download.
-keywords:
-  Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
+keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
   Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, Armv8, Release, 12.12, Announcement
 layout: post
 link: /blog/releases-blog/linaro-12-12-release-now-available/
 slug: linaro-12-12-release-now-available
-tags:
-  - Releases
+tags: []
 title: Linaro 12.12 Release Now Available
 wordpress_id: 2159
 ---

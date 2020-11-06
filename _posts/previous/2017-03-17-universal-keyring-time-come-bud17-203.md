@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
+tags: []
 title: Universal Keyring – The Time has Come – BUD17-203
-date: 2017-03-17 12:00:00 Z
+date: 2017-03-17 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/universal-keyring-time-come-bud17-203-image.jpg

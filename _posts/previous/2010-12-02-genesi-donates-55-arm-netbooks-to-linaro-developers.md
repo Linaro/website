@@ -8,13 +8,9 @@ title: Genesi donates 55 Arm netbooks to Linaro developers
 wordpress_id: 3374
 category: blog
 tags:
-  - Hardware
-  - arm
-  - CortexA8
-  - donation
-  - Linaro
-  - Linux
-  - netbook
+- Arm
+- Linaro
+- Linux
 ---
 
 At the Linaro Developer Summit a few weeks ago in Orlando, Genesi, a US company producing Arm computers, donated 55 Efika MX Arm netbooks to Linaro developers.

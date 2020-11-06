@@ -8,15 +8,11 @@ title: Is Linaro a Distribution?
 wordpress_id: 4111
 category: blog
 tags:
-  - Community
-  - arm
-  - distributions
-  - gnu
-  - kernel
-  - Linux
-  - release cycle
-  - software
-  - tools
+- Arm
+- Kernel
+- Linux
+- Software
+- Tools
 ---
 
 As I talk to people about Linaro, I'm often asked if Linaro is a distribution.   This is, in some ways, an easy mistake to make as we talk about 'releases' and 'test heads'.   Not only that, pretty much all of the Linux® based organizations set up recently seem to be Linux distributions, vertical solutions for particular market segments.   Linaro is trying to achieve three things.   Firstly, Linaro wants to make sure that embedded Linux runs really well on Arm based systems, taking advantage of all of their hardware.   Secondly, it wants to ensure that Arm based platforms are fully supported in the latest, up to date, Linux kernel tree at kernel.org.    These first two aims are, in themselves, highly useful and you can see how that maps onto the various working groups that have been set up and their blueprints, bug fixes and so on.   The third, and final aim, is that any and all Linux distributions make use of Linaro's outputs.  In other words, Linaro is not a distribution; instead it is attempting to add value and support many distributions.   Think of Linaro as horizontal, not vertical.

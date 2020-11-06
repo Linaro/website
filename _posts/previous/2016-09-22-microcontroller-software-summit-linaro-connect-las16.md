@@ -8,14 +8,13 @@ title: Microcontroller Software Summit at Linaro Connect LAS16
 wordpress_id: 11590
 category: blog
 tags:
-  - Cortex-M
-  - IoT
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - LITE
-  - Open Source
+- IoT
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- LITE
+- Open Source
 ---
 
 Next week at Linaro Connect LAS16 there will be a Microcontroller Software Summit on Wednesday September 28, 2016 from 10:10am-1:00pm (PST).  The summit looks to focus on few of the topics that the microcontroller and Cortex-M based SoC and systems are facing.  There are numerous software solutions in the microcontroller space and we look to bring together developers from the various RTOSes (Zephyr, Apache Newt, Arm mbed) to discuss solutions to common problems faced by everyone. The summit will focus on Device Configuration, Build Systems, and Security.
