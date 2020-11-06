@@ -248,9 +248,95 @@ For example, NV12/NV21 these kinds of 2 planes YUV frames.
 
 *NV12/NV21 YUV frame memory map*
 
-
 The color format convert and frame rendering is done by the fragment shader.
 
 ```
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+varying vec2 textureOut;
+uniform sampler2D tex_y;
+uniform sampler2D tex_u;
+
+void main(void)
+{
+	vec3 yuv;
+	vec3 rgb;
+	mat3 yuv2rgb_bt601_mat = mat3(
+		vec3(1.164,  1.164, 1.164),
+		vec3(0.000, -0.392, 2.017),
+		vec3(1.596, -0.813, 0.000)
+	);
+
+	yuv.x = texture2D(tex_y, textureOut).r - 0.063;
+	yuv.y = texture2D(tex_u, textureOut).r - 0.500;
+	yuv.z = texture2D(tex_u, textureOut).g - 0.500;
+
+	rgb = yuv2rgb_bt601_mat * yuv;
+	gl_FragColor = vec4(rgb, 1.0);
+}
+```
+
+*The fragment shader for 2 planes YUV frame*
 
 ```
+oid ViewFinderGL::doRender()
+{
+	switch (format_) {
+	case libcamera::formats::NV12:
+	case libcamera::formats::NV21:
+	case libcamera::formats::NV16:
+	case libcamera::formats::NV61:
+	case libcamera::formats::NV24:
+	case libcamera::formats::NV42:
+		/* Activate texture Y */
+		glActiveTexture(GL_TEXTURE0);
+        configureTexture(id_y_);
+		glTexImage2D(GL_TEXTURE_2D,
+			     0,
+			     GL_RED,
+			     size_.width(),
+			     size_.height(),
+			     0,
+			     GL_RED,
+			     GL_UNSIGNED_BYTE,
+			     yuvData_);
+		shaderProgram_.setUniformValue(textureUniformY_, 0);
+
+		/* Activate texture UV/VU */
+		glActiveTexture(GL_TEXTURE1);
+		configureTexture(id_u_);
+		glTexImage2D(GL_TEXTURE_2D,
+			     0,
+			     GL_RG,
+			     size_.width() / horzSubSample_,
+			     size_.height() / vertSubSample_,
+			     0,
+			     GL_RG,
+			     GL_UNSIGNED_BYTE,
+			     (char *)yuvData_ + size_.width() * size_.height());
+		shaderProgram_.setUniformValue(textureUniformU_, 1);
+		break;
+```
+
+The code has already been merged into the libcamera git tree \[6], but if you’re interested in the specific patches that implement what we’ve talked about in this post then please take a look at the following commits
+
+* <https://git.linuxtv.org/libcamera.git/commit/?id=4a4a3e715b8314c56a2a32788d92fdec464af7b7>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=2daa704c968c8aa7a4b209450f228b41e9d42d85>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=9db6ce0ba499eba53db236558d783a4ff7aa3896>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=219cbfe76b5a7d9d8206c71aa6115ff8befcff9b>
+
+## Conclusion
+
+After moving the format conversion to the GPU, the qcam frame rate improved a lot. On the RockPi4b platform the frame rate reached 30.0x fps with the capture resolution set to 1920x1080.
+
+
+### References
+
+1. <https://en.wikipedia.org/wiki/YUV>
+2. <https://www.linuxjournal.com/content/image-processing-opengl-and-shaders>
+3. <https://github.com/gjasny/v4l-utils/blob/master/utils/qv4l2/capture-win-gl.cpp#L1547>
+4. <https://learnopengl.com/Getting-started/Hello-Triangle>
+5. <https://learnopengl.com/Getting-started/Textures>
+6. <https://git.linuxtv.org/libcamera.git/tree/src/qcam>
