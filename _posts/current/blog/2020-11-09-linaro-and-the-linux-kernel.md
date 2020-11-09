@@ -4,7 +4,7 @@ title: Linaro and the Linux Kernel
 description: TBC
 date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
-strap_image: /assets/images/content/linux-kernel-blog-2.png
+strap_image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
   - Linaro
   - Linux
