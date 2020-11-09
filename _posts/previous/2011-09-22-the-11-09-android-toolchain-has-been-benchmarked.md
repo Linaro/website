@@ -7,8 +7,7 @@ slug: the-11-09-android-toolchain-has-been-benchmarked
 title: The 11.09 Android Toolchain has been Benchmarked
 wordpress_id: 4130
 category: blog
-tags:
-  - Android benchmark 11.09
+tags: []
 ---
 
 Andy Doan has put together the Android benchmarks for the 11.09 toolchain. You can check it out here:

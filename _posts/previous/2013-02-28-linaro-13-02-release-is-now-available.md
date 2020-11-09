@@ -6,8 +6,7 @@ description: Links to all the downloads for the Linaro 13.02 release
 layout: post
 link: /blog/releases-blog/linaro-13-02-release-is-now-available/
 slug: linaro-13-02-release-is-now-available
-tags:
-  - Releases
+tags: []
 title: Linaro 13.02 Release is Now Available
 wordpress_id: 2480
 ---

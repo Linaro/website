@@ -3,22 +3,18 @@ author: peter.maydell
 category: blog
 comments: true
 date: 2015-06-22 23:02:00
-description:
-  "Over the years I\xE2\x80\x99ve picked up a few tricks for tracking down
+description: "Over the years Iâ\x80\x99ve picked up a few tricks for tracking down
   problems in QEMU, and it seemed worth writing them up."
-excerpt:
-  "Peter Maydell  talks about some helpful tricks for debugging QEMU - rr that
-  he has learned working with it. "
+excerpt: 'Peter Maydell  talks about some helpful tricks for debugging QEMU - rr that
+  he has learned working with it. '
 layout: post
 link: /blog/core-dump/tricks-for-debugging-qemu-rr/
 slug: tricks-for-debugging-qemu-rr
 tags:
-  - Core Dump
-  - arm
-  - Linaro
-  - qemu
-  - QEMU-rr
-title: "Tricks for debugging QEMU \u2014 rr"
+- Arm
+- Linaro
+- Qemu
+title: Tricks for debugging QEMU — rr
 wordpress_id: 8764
 ---
 

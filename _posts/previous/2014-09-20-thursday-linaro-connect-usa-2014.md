@@ -2,14 +2,13 @@
 author: jennifer.castelino
 category: blog
 date: 2014-09-20 01:02:40
-description:
-  Description of the events and sessions that took place at Linaro Connect
+description: Description of the events and sessions that took place at Linaro Connect
   USA 2014. Links to all sessions and videos are available.
 layout: post
 link: /blog/thursday-linaro-connect-usa-2014/
 slug: thursday-linaro-connect-usa-2014
 tags:
-  - Connect Events
+- Connect Events
 title: Thursday at Linaro Connect USA 2014
 wordpress_id: 6713
 ---

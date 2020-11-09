@@ -8,20 +8,15 @@ layout: post
 link: /blog/community-blog/the-linaro-android-platform-team-period-march-14-to-march-20/
 slug: the-linaro-android-platform-team-period-march-14-to-march-20
 tags:
-  - Android
-  - Community
-  - LAVA
-  - android
-  - arm
-  - board
-  - community
-  - CortexA9
-  - Evaluation builds
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - software
+- Android
+- Lava
+- Android
+- Arm
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
+- Software
 title: The Linaro Android Platform Team, Period March 14 to March 20.
 wordpress_id: 1415
 ---

@@ -2,18 +2,15 @@
 author: linaro
 category: blog
 date: 2013-03-06 00:12:38
-description:
-  Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
+description: Day 3 of Linaro Connect Asia 2013 is kicking off today. Find out how
   you can participate remotely and as well as the schedule of events for Day 3.
-keywords:
-  Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 3
 layout: post
 link: /blog/community-blog/linaro-connect-asia-2013-day-3-what-to-expect/
 slug: linaro-connect-asia-2013-day-3-what-to-expect
 tags:
-  - Community
-  - Connect Events
+- Connect Events
 title: Linaro Connect Asia 2013 - Day 3 - What To Expect
 wordpress_id: 2548
 ---

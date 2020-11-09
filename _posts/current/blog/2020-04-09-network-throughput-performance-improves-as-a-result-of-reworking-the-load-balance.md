@@ -1,17 +1,13 @@
 ---
 layout: post
-title: >-
-  Network throughput performance improves as a result of reworking the load
-  balance.
-date: "2020-04-06 04:10:19"
+title: Network throughput performance improves as a result of reworking the load balance.
+date: '2020-04-06 04:10:19'
 image: /assets/images/content/37319206961_0b863ab87d_k.jpg
 tags:
-  - PELT
-  - CPU
-  - Per Entity Load Tracking
-  - Vmware
-  - Linux Scheduler
-  - Linux Kernel
+- PELT
+- CPU
+- Linux Scheduler
+- Linux Kernel
 category: blog
 author: vincent.guittot
 ---

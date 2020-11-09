@@ -1,25 +1,20 @@
 ---
 layout: post
 title: Thermal Notifications With Netlink
-description: This blog introduces the thermal framework design and shows where
-  the notification takes place to allow the userspace to be aware of the overall
-  thermal profile of the system. In response to the lack of thermal
-  communication between the kernel and the userspace, a solution based on the
-  netlink has been implemented for Linux v5.9.
-date: 2020-07-30T12:19:31.000Z
+description: This blog introduces the thermal framework design and shows where the
+  notification takes place to allow the userspace to be aware of the overall thermal
+  profile of the system. In response to the lack of thermal communication between
+  the kernel and the userspace, a solution based on the netlink has been implemented
+  for Linux v5.9.
+date: 2020-07-30 12:19:31+00:00
 image: /assets/images/content/electricity-1288717_1920-1-.jpg
 tags:
-  - thermal framework
-  - netlink notification
-  - thermal zone
-  - thermal governor
-  - thermal zone temperature
-  - temperature threshold detection
-  - big.LITTLE
-  - thermal notifications
-  - netlink
+- Thermal Framework
+- Thermal Zone
+- Thermal Notifications
+- Netlink
 related_projects:
-  - PERF
+- PERF
 category: blog
 author: daniel.lezcano
 ---

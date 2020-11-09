@@ -8,8 +8,7 @@ layout: post
 link: /blog/community-blog/linaro-android-running-on-galaxy-nexus/
 slug: linaro-android-running-on-galaxy-nexus
 tags:
-  - Android
-  - Community
+- Android
 title: Linaro Android running on Galaxy Nexus
 wordpress_id: 1618
 ---

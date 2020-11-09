@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
-title: "HKG15-311 &#58; OP-TEE for Beginners and Porting Review"
-date: 2016-07-04 12:00:00 Z
+tags: []
+title: HKG15-311 &#58; OP-TEE for Beginners and Porting Review
+date: 2016-07-04 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/hkg15-311-op-tee-beginners-porting-review-image.jpg

@@ -2,19 +2,16 @@
 author: linaro
 category: blog
 date: 2012-11-26 16:26:56
-description:
-  Find out more about the Armv8 (64-bit) Mini-Summit at LCE12-Copenhagen
+description: Find out more about the Armv8 (64-bit) Mini-Summit at LCE12-Copenhagen
   as well as how to get involved in Armv8 development and where to get the latest
   downloads.
-keywords:
-  Linaro, Linaro Connect, LCE12-Copenhagen, Armv8, Armv8(64bit), Linux on
+keywords: Linaro, Linaro Connect, LCE12-Copenhagen, Armv8, Armv8(64bit), Linux on
   Arm, Arm, Open Source, Mini-Summit
 layout: post
 link: /blog/community-blog/armv8-64-bit-mini-summit-at-lce12-copenhagen/
 slug: armv8-64-bit-mini-summit-at-lce12-copenhagen
 tags:
-  - Community
-  - Connect Events
+- Connect Events
 title: Armv8 (64-bit) Mini-Summit at LCE12-Copenhagen
 wordpress_id: 2012
 ---

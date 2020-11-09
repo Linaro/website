@@ -2,20 +2,18 @@
 author: linaro
 category: blog
 date: 2015-09-23 02:26:42
-description:
-  Overview of the keynotes and sessions that took place during day 2 of
+description: Overview of the keynotes and sessions that took place during day 2 of
   Linaro Connect San Francisco 2015.
-excerpt:
-  Overview of the keynotes, announcement and sessions that took place during
+excerpt: Overview of the keynotes, announcement and sessions that took place during
   day 2 of Linaro Connect San Francisco 2015.
 layout: post
 link: /blog/day-2-of-linaro-connect-sfo15/
 slug: day-2-of-linaro-connect-sfo15
 tags:
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
 title: Day 2 of Linaro Connect SFO15
 wordpress_id: 9403
 ---

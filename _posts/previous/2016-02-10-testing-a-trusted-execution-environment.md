@@ -7,8 +7,7 @@ slug: testing-a-trusted-execution-environment
 title: Testing a Trusted Execution Environment
 wordpress_id: 9949
 category: blog
-tags:
-  - Core Dump
+tags: []
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}

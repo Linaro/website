@@ -2,18 +2,17 @@
 author: vishal.bhoj
 category: blog
 date: 2012-03-20 15:21:41
-description:
-  Vishal Bhoj of the Linaro Android team explains how he recently "androidized"
+description: Vishal Bhoj of the Linaro Android team explains how he recently "androidized"
   the 3.2 Linux Kernel for Vexpress-rtsm.
 keywords: Linaro, Linux on Arm, Arm, Arm SoC, Android, 3.3 Linux Kernel, Androidization
 layout: post
 link: /blog/android-blog/androidization-of-linux-kernel/
 slug: androidization-of-linux-kernel
 tags:
-  - Android
-  - android
-  - linaro
-  - patch
+- Android
+- Android
+- Linaro
+- Patch
 title: Androidization of linux kernel
 wordpress_id: 1392
 ---

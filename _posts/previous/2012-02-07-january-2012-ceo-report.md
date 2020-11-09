@@ -7,9 +7,7 @@ keywords: Linaro, Arm, Arm v8 architecture, Linux on Arm, big.LITTLE, LAVA
 layout: post
 link: /blog/industry-blog/january-2012-ceo-report/
 slug: january-2012-ceo-report
-tags:
-  - Hardware
-  - Industry
+tags: []
 title: January 2012 CEO Report
 wordpress_id: 1233
 ---

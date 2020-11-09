@@ -3,14 +3,12 @@ wordpress_id: 1113
 layout: post
 title: Linaro 11.12 Released
 image: /assets/images/content/linaro-logo.png
-tags:
-  - Releases
+tags: []
 category: blog
 author: david.zinman
 slug: linaro-11-12-released
-date: 2011-12-22T19:52:48.000Z
+date: 2011-12-22 19:52:48+00:00
 link: /blog/releases-blog/linaro-11-12-released/
-category: blog
 description: Links to all the downloads for the Linaro 11.12 release
 ---
 

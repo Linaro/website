@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
+tags: []
 title: Power management in Linux together with secure firmware – BUD17-510
-date: 2017-03-17 12:00:00 Z
+date: 2017-03-17 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/power-management-linux-together-secure-firmware-bud17-510-image.jpg

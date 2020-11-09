@@ -8,11 +8,8 @@ title: Linaro and Distributions
 wordpress_id: 4107
 category: blog
 tags:
-  - Community
-  - arm
-  - distributions
-  - gcc
-  - Linux
+- Arm
+- Linux
 ---
 
 Linaro works in upstream open source projects, ensuring that the Arm architecture and embedded platforms are well supported. Along the way, the Arm community is learning how to be more open and collaborative, both within the open source community and between ourselves. It's a very interesting, worthy of a future blog entry; watching Arm and its partners adapting themselves to align with an open source based platform world.

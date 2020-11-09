@@ -6,8 +6,7 @@ description: CAMBRIDGE, UK - 3 JUN 2010
 layout: post
 link: /news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
 slug: arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices
-title:
-  Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
+title: Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
   to Speed the Rollout of Linux-Based Devices
 wordpress_id: 4396
 ---

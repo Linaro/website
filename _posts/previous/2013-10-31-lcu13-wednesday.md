@@ -8,12 +8,11 @@ layout: post
 link: /blog/connect-update/lcu13-wednesday/
 slug: lcu13-wednesday
 tags:
-  - Connect Events
-  - arm
-  - Linaro
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Arm
+- Linaro
+- Linux On Arm
+- Open Source
 title: LCU13 - Wednesday
 wordpress_id: 3140
 ---

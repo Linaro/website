@@ -2,19 +2,18 @@
 author: george.grey
 category: blog
 date: 2015-02-24 16:50:15
-description:
-  Linaro CEO discusses the new 96Boards initiative and Open Source Hardware.
+description: Linaro CEO discusses the new 96Boards initiative and Open Source Hardware.
   The goal of 96Boards is to provide an option for standardization of SoC boards for
   software developers, the maker community and embedded product manufacturers.
 layout: post
 link: /blog/96boards-open-source-hardware/
 slug: 96boards-open-source-hardware
 tags:
-  - 96Boards
-  - arm
-  - Linaro
-  - Linux on Arm
-  - Open Source Hardware
+- 96Boards
+- Arm
+- Linaro
+- Linux On Arm
+- Open Source Hardware
 title: 96Boards and Open Source Hardware
 wordpress_id: 8125
 ---

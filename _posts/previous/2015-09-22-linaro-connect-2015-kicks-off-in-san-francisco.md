@@ -1,7 +1,7 @@
 ---
 author: linaro
 date: 2015-09-22 03:25:57+00:00
-excerpt: "See a re-cap of the first day of Linaro Connect San Francisco 2015.  "
+excerpt: 'See a re-cap of the first day of Linaro Connect San Francisco 2015.  '
 layout: post
 link: /blog/linaro-connect-2015-kicks-off-in-san-francisco/
 slug: linaro-connect-2015-kicks-off-in-san-francisco

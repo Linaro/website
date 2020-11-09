@@ -3,17 +3,15 @@ title: The Automated Testing Summit
 author: linaro
 layout: post
 date: 2018-12-04 09:00:00+00:00
-description: >-
-  The Automated Testing Summit took place on Oct 25th in Scotland. The summit was a full day event that attracted members of the testing community. Unfortunately, it was by invite only hence the recording sponsored by Linaro to help you catch up on the details discussed.
+description: The Automated Testing Summit took place on Oct 25th in Scotland. The
+  summit was a full day event that attracted members of the testing community. Unfortunately,
+  it was by invite only hence the recording sponsored by Linaro to help you catch
+  up on the details discussed.
 category: blog
 tags:
-  - Linaro
-  - Arm
-  - Events
-  - ATS 2018
-  - Automated Testing
-  - LAB
-  - LKFT
+- Linaro
+- Arm
+- LKFT
 image: /assets/images/content/ats-2018.png
 ---
 

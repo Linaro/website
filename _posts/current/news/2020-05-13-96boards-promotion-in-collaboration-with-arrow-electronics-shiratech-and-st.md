@@ -1,21 +1,17 @@
 ---
 layout: post
 title: 96Boards Promotion in collaboration with Arrow Electronics, Shiratech and ST
-description: >
-  96Boards have teamed up with Arrow Electronics, ST, and Shiratech and are
-  excited to announce that there are 500 Avenger96 or Stinger96 boards to be
-  given away (conditions apply).
+description: '96Boards have teamed up with Arrow Electronics, ST, and Shiratech and
+  are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given
+  away (conditions apply).
+
+  '
 date: 2020-05-13 02:15:57
 image: /assets/images/content/96boards-avenger.png
 tags:
-  - 96Boards
-  - Arrow Electronics
-  - Shiratech
-  - ST
-  - Avenger96
-  - Promotion
-  - Giveaway
-  - Stinger96
+- 96Boards
+- Shiratech
+- Stinger96
 category: news
 author: jon.burcham@linaro.org
 ---

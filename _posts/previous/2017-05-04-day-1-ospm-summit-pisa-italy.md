@@ -7,13 +7,10 @@ layout: post
 link: /blog/core-dump/day-1-ospm-summit-pisa-italy/
 slug: day-1-ospm-summit-pisa-italy
 tags:
-  - Core Dump
-  - arm
-  - EAS
-  - linux kernel
-  - PELT
-  - power management
-  - scheduling discplines
+- Arm
+- Linux Kernel
+- PELT
+- Power Management
 title: Day 1 at the OSPM Summit Pisa, Italy
 wordpress_id: 12377
 ---

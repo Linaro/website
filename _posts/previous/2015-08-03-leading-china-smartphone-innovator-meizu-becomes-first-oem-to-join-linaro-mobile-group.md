@@ -3,27 +3,22 @@ author: linaro
 category: news
 comments: true
 date: 2015-08-03 12:26:09
-description:
-  "Meizu becomes first OEM to join Linaro Mobile Group. As a current and
-  potential customer of several of Linaro\xE2\x80\x99s silicon supplier members, Meizu
+description: "Meizu becomes first OEM to join Linaro Mobile Group. As a current and
+  potential customer of several of Linaroâ\x80\x99s silicon supplier members, Meizu
   will take on a unique role in helping define the engineering activities of LMG and
   our contributions to open source projects in the mobile space."
-excerpt:
-  "Meizu becomes first OEM to join Linaro Mobile Group.  As a current and potential
-  customer of several of Linaro\u2019s silicon supplier members, Meizu will take on
-  a unique role in helping define the engineering activities of LMG and our contributions
-  to open source projects in the mobile space."
+excerpt: Meizu becomes first OEM to join Linaro Mobile Group.  As a current and potential
+  customer of several of Linaro’s silicon supplier members, Meizu will take on a unique
+  role in helping define the engineering activities of LMG and our contributions to
+  open source projects in the mobile space.
 layout: post
 link: /news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/
 slug: leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group
 tags:
-  - Linaro
-  - linaro members
-  - Linaro Mobile Group
-  - lmg
-  - mobile
-title:
-  Leading China Smartphone Innovator Meizu becomes first OEM to join Linaro Mobile
+- Linaro
+- Linaro Members
+- Linaro Mobile Group
+title: Leading China Smartphone Innovator Meizu becomes first OEM to join Linaro Mobile
   Group
 wordpress_id: 9115
 ---

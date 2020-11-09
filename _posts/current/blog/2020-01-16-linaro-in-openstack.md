@@ -1,15 +1,14 @@
 ---
 layout: post
-title: " Linaro in OpenStack"
-date: "2020-01-16 02:35:45"
+title: ' Linaro in OpenStack'
+date: '2020-01-16 02:35:45'
 image: /assets/images/content/DataCenter.jpg
 tags:
-  - datacenter
-  - cloud
-  - servers
-  - OpenStack
-  - AArch64
-  - Linaro Developer Cloud
+- Datacenter
+- Servers
+- OpenStack
+- Aarch64
+- Linaro Developer Cloud
 category: blog
 author: Marcin.Juszkiewicz
 ---

@@ -7,8 +7,7 @@ keywords: Linaro, Linux, kernel, Arm,
 layout: post
 link: /blog/industry-blog/the-evolution-of-the-linaro-kernel/
 slug: the-evolution-of-the-linaro-kernel
-tags:
-  - Industry
+tags: []
 title: The Evolution of the Linaro Kernel
 wordpress_id: 4126
 ---

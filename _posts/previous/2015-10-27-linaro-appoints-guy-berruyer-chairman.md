@@ -2,20 +2,18 @@
 author: linaro
 category: news
 date: 2015-10-27 13:07:00
-description:
-  Linaro announced that Guy Berruyer has been appointed as Chairman of
+description: Linaro announced that Guy Berruyer has been appointed as Chairman of
   the Linaro Board.
-excerpt:
-  Linaro announced that Guy Berruyer has been appointed as Chairman of the
+excerpt: Linaro announced that Guy Berruyer has been appointed as Chairman of the
   Linaro Board.
 layout: post
 link: /news/linaro-appoints-guy-berruyer-chairman/
 slug: linaro-appoints-guy-berruyer-chairman
 tags:
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
 title: Linaro appoints Guy Berruyer Chairman
 wordpress_id: 9600
 ---

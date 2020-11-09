@@ -2,30 +2,22 @@
 author: shovan
 category: blog
 date: 2015-08-28 20:04:47
-description:
-  Linaro's 15.08 release is now available for download. See the detailed
+description: Linaro's 15.08 release is now available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
   team along with all available software downloads.
-excerpt:
-  Linaro's 15.07 release is now available for download. See the detailed highlights
+excerpt: Linaro's 15.07 release is now available for download. See the detailed highlights
   of this release and an overview of what has been accomplished by each team along
   with all available software downloads.
 layout: post
 link: /blog/linaro-15-08-release-available-for-download/
 slug: linaro-15-08-release-available-for-download
 tags:
-  - Releases
-  - android
-  - arm
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linux on Arm
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - ubuntu
+- Android
+- Arm
+- Kernel
+- Linaro
+- Linux On Arm
+- Software
 title: Linaro 15.08 Release Available for Download
 wordpress_id: 9185
 ---

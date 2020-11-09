@@ -2,19 +2,17 @@
 author: linaro
 category: blog
 date: 2012-09-26 15:31:07
-description:
-  Are you running a Linaro build on an Arm processor-based board? Linaro
+description: Are you running a Linaro build on an Arm processor-based board? Linaro
   invites you to show off your work at Demo Friday during LCE 12 Copenhagen.
-keywords:
-  Linaro, Linux on Arm, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
+keywords: Linaro, Linux on Arm, Linaro Connect, Copenhagen, Denmark, Android, big.LITTLE,
   Armv8(64bit), mini-summits, events, community, LCE 12 Copenhagen, Demo Friday, Call
   for Participation
 layout: post
 link: /blog/connect-update/lce-12-copenhagen-demo-friday-call-for-participation/
 slug: lce-12-copenhagen-demo-friday-call-for-participation
 tags:
-  - Connect Events
-title: "LCE 12 Copenhagen Demo Friday: Call for Participation"
+- Connect Events
+title: 'LCE 12 Copenhagen Demo Friday: Call for Participation'
 wordpress_id: 1911
 ---
 

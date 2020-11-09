@@ -2,26 +2,20 @@
 author: linaro
 category: blog
 date: 2015-03-26 16:39:44
-description:
-  Linaro's 15.03 release is not available for download. See the detailed
+description: Linaro's 15.03 release is not available for download. See the detailed
   highlights of this release and an overview of what has been accomplished by each
   team along with all available software downloads.
 layout: post
 link: /blog/linaro-15-03-release-available-for-download/
 slug: linaro-15-03-release-available-for-download
 tags:
-  - android
-  - Armv8
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - release
-  - software
-  - ubuntu
+- Android
+- Kernel
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
+- Software
 title: Linaro 15.03 Release Available for Download
 wordpress_id: 8363
 ---

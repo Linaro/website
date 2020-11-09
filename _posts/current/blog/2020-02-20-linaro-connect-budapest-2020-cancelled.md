@@ -1,14 +1,11 @@
 ---
 layout: post
 title: Linaro Connect Budapest 2020 cancelled
-date: "2020-02-20 08:53:19"
+date: '2020-02-20 08:53:19'
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 tags:
-  - linaro connect
-  - BUD20
-  - Coronavirus
-  - conference
-  - linaro
+- Linaro Connect
+- Linaro
 category: blog
 author: connect
 ---

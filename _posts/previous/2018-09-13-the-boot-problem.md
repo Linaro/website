@@ -3,20 +3,13 @@ title: The Boot Problem
 author: david.rusling
 layout: post
 date: 2018-09-13 09:00:00+00:00
-description: >-
-  Linaro CTO David Rusling talks about fragmentation in Boot Architecture.
+description: Linaro CTO David Rusling talks about fragmentation in Boot Architecture.
 category: blog
 tags:
-  - Linaro
-  - Linaro Connect
-  - Boot Architecture
-  - Arm
-  - SBBR
-  - EBBR
-  - Server
-  - U-Boot
-  - Vancouver
-  - YVR18
+- Linaro
+- Linaro Connect
+- Arm
+- Server
 image: /assets/images/blog/linaroconnectSFO17.jpg
 ---
 

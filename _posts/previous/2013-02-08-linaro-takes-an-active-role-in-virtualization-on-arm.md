@@ -2,12 +2,10 @@
 author: linaro
 category: blog
 date: 2013-02-08 17:32:45
-description:
-  Linaro held its first virtual KVM/QEMU mini-summit to synchronize on
+description: Linaro held its first virtual KVM/QEMU mini-summit to synchronize on
   the current state of the Virtualization and to plan the work which needs to be done
   in this area.
-keywords:
-  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA-Hong
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCA-Hong
   Kong, KVM/QEMU Mini-Summit
 layout: post
 link: /blog/linaro-takes-an-active-role-in-virtualization-on-arm/

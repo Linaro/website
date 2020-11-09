@@ -1,24 +1,19 @@
 ---
 author: linaro
-date: 2018-03-18 00:00:00.000
+date: 2018-03-18 00:00:00
 title: HKG18 &#58; The Week Ahead
-description: >-
-  Wondering what Linaro has in store for you this Linaro Connect? This blog post will give you an overview of what to expect this Connect.
+description: Wondering what Linaro has in store for you this Linaro Connect? This
+  blog post will give you an overview of what to expect this Connect.
 category: blog
 published: true
 tags:
-  - Linaro
-  - Connect
-  - HKG18
-  - Keynote
-  - Hong Kong
-  - Asia
-  - Arm
-  - Open Source
-  - Software
-  - Hardware
-  - Collaboration
-keywords: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software, Hardware, Collaboration
+- Linaro
+- Connect
+- Arm
+- Open Source
+- Software
+keywords: Linaro, Connect, HKG18, Keynote, Hong Kong, Asia, Arm, Open Source, Software,
+  Hardware, Collaboration
 image: /assets/images/blog/HKG18-social-facebook-optimized.jpg
 layout: post
 ---

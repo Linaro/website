@@ -1,19 +1,15 @@
 ---
 layout: post
-title: "Linaro Engineering Highlights: April 2020"
-description: Welcome to the April 2020 edition of the Linaro Engineering
-  Highlights. This roundup includes Linaro’s contributions to the Linux v5.6
-  Kernel LTP, PSA Level 1 Certification Showcase, Linaro Consumer Group (LCG)
-  News, OTA article and some amazing research Linaro has been involved with in
-  the combat against COVID-19.
+title: 'Linaro Engineering Highlights: April 2020'
+description: Welcome to the April 2020 edition of the Linaro Engineering Highlights.
+  This roundup includes Linaro’s contributions to the Linux v5.6 Kernel LTP, PSA Level
+  1 Certification Showcase, Linaro Consumer Group (LCG) News, OTA article and some
+  amazing research Linaro has been involved with in the combat against COVID-19.
 date: 2020-05-07 04:47:27
 image: /assets/images/content/code.jpg
 tags:
-  - Linaro
-  - Engineering
-  - Highlights
-  - News
-  - April
+- Linaro
+- News
 category: blog
 author: jon.burcham@linaro.org
 ---

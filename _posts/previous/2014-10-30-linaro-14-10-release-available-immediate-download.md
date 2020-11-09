@@ -2,31 +2,22 @@
 author: koen.kooi
 category: blog
 date: 2014-10-30 23:41:58
-description:
-  The Linaro 14.10 software release is available for immediate download.
+description: The Linaro 14.10 software release is available for immediate download.
   All related links can be found here.
 layout: post
 link: /blog/linaro-14-10-release-available-immediate-download/
 slug: linaro-14-10-release-available-immediate-download
 tags:
-  - Releases
-  - android
-  - arm
-  - Armv8
-  - big.little
-  - embedded
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linux on Arm
-  - LSK
-  - Open Source
-  - release
-  - release cycle
-  - software
-  - toolchain
-  - ubuntu
+- Android
+- Arm
+- Embedded
+- Kernel
+- Linaro
+- Linux On Arm
+- LSK
+- Open Source
+- Software
+- Toolchain
 title: Linaro 14.10 Release Available for Immediate Download
 wordpress_id: 7178
 ---

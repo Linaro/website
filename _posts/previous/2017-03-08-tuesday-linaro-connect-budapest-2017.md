@@ -5,8 +5,7 @@ author: connect
 category: blog
 comments: false
 date: 2017-03-08 00:04:58
-excerpt:
-  See what happened during the second day of Linaro Connect Budapest 2017.  Watch
+excerpt: See what happened during the second day of Linaro Connect Budapest 2017.  Watch
   the keynote and get access to the session materials that are available.
 image: /assets/images/blog/TuesdayofLinaroConnectBudapest2017.jpg
 layout: post
@@ -17,10 +16,8 @@ slideshare_presentation_url: None
 slug: tuesday-linaro-connect-budapest-2017
 speakers: None
 tags:
-  - Big data
-  - BUD17
-  - daily blog
-  - Linaro Connect
+- Big Data
+- Linaro Connect
 title: Tuesday of Linaro Connect Budapest 2017
 video_length: 00:00
 video_thumbnail: None

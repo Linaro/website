@@ -6,8 +6,7 @@ description: Announcements and release notes for Linaro GDB 7.4 2012.04
 layout: post
 link: /blog/releases-blog/linaro-gdb-7-4-2012-04-released/
 slug: linaro-gdb-7-4-2012-04-released
-tags:
-  - Releases
+tags: []
 title: Linaro GDB 7.4 2012.04 released
 wordpress_id: 1563
 ---

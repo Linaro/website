@@ -2,25 +2,19 @@
 author: linaro
 category: blog
 date: 2012-03-27 02:28:31
-description:
-  Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and
+description: Links to the 26 videos captured by Novacut at Linaro Connect Q1.12 and
   information on how to take part in Linaro Connect Q2.12, 28 May - 1 June, in Hong
   Kong
-keywords:
-  Linaro, Linux on Arm, Linaro Connect, Q1.12, Videos, Interviews, Plenaries,
+keywords: Linaro, Linux on Arm, Linaro Connect, Q1.12, Videos, Interviews, Plenaries,
   Demos, Q2.12, developers, registration, Hong Kong, Gold Coast Hotel, May, June,
   Novacut
 layout: post
 link: /blog/industry-blog/linaro-connect-q1-12-full-video-list-now-available/
 slug: linaro-connect-q1-12-full-video-list-now-available
 tags:
-  - Android
-  - Community
-  - Connect Events
-  - Hardware
-  - Industry
-  - LAVA
-  - Patch-Highlights
+- Android
+- Connect Events
+- Lava
 title: Linaro Connect Q1.12 Full Video List Now Available
 wordpress_id: 1437
 ---

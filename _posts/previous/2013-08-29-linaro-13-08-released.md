@@ -2,25 +2,20 @@
 author: steve.taylor
 category: blog
 date: 2013-08-29 18:31:15
-description:
-  Linaro 13.08 release notes and highlights. Links to relevant downloads
+description: Linaro 13.08 release notes and highlights. Links to relevant downloads
   for the release.
-keywords:
-  Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro stable kernel, LSK,
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro stable kernel, LSK,
   Linaro Connect US 2013, LCU13,  Linaro 13.08, Release, Announcement, Ubuntu, Android,
   OpenEmbedded, big.LITTLE, LAVA,  KVM on Arm
 layout: post
 link: /blog/releases-blog/linaro-13-08-released/
 slug: linaro-13-08-released
 tags:
-  - Releases
-  - big.little
-  - Linaro
-  - Linaro Connect
-  - linaro stable kernel
-  - Linux on Arm
-  - Open Source
-  - release
+- Linaro
+- Linaro Connect
+- Linaro Stable Kernel
+- Linux On Arm
+- Open Source
 title: Linaro 13.08 Released
 wordpress_id: 2910
 ---

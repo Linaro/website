@@ -1,14 +1,13 @@
 ---
 layout: post
 title: The end of an Era
-date: "2020-02-06 09:09:55"
+date: '2020-02-06 09:09:55'
 image: /assets/images/content/2038_image.jpg
 tags:
-  - "2038"
-  - Linux Kernel
-  - Arm
-  - open source
-  - software
+- Linux Kernel
+- Arm
+- Open Source
+- Software
 category: blog
 author: arnd.bergmann
 ---

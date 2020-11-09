@@ -9,13 +9,12 @@ title: Tuesday Highlights at Linaro Connect LAS16
 wordpress_id: 11701
 category: blog
 tags:
-  - conference
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
 ---
 
 Linaro Connect LAS16 continued on Tuesday with another great keynote by guest speaker, Sarah Sharp, who is the founder of Otter Tech. Sarah kicked-off the day by giving a talk on “Corporate Open Source Fail” in which she discussed how many company’s good intentions of being productive open source citizens go bad. She talked about the common corporate open source pitfalls and the thinking behind some of these decisions when product deadlines and legal issues come into play. She explained ways that engineers and managers can work with their teams to influence strategies.

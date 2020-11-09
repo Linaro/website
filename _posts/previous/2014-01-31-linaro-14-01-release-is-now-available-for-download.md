@@ -3,32 +3,23 @@ author: fathi.boudra
 category: blog
 date: 2014-01-31 01:23:11
 description: Information and links for the Linaro 14.01 release
-keywords:
-  Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,
+keywords: Linaro, linux, open source, Arm, linux on Arm, Android, Ubuntu, kernel,
   linux kernel, Armv8, Linaro Connect,
 layout: post
 link: /blog/releases-blog/linaro-14-01-release-is-now-available-for-download/
 slug: linaro-14-01-release-is-now-available-for-download
 tags:
-  - Releases
-  - android
-  - arm
-  - big.little
-  - connect
-  - embedded
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Landing teams
-  - Linaro
-  - Linaro Connect
-  - Linux on Arm
-  - Open Source
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - toolchain
+- Android
+- Arm
+- Connect
+- Embedded
+- Kernel
+- Linaro
+- Linaro Connect
+- Linux On Arm
+- Open Source
+- Software
+- Toolchain
 title: Linaro 14.01 release is now available for download!
 wordpress_id: 3319
 ---

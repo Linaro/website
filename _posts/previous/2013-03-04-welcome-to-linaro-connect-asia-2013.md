@@ -2,8 +2,7 @@
 author: linaro
 category: blog
 date: 2013-03-04 02:50:19
-description:
-  See the sessions that are happening today, tips and tricks for staying
+description: See the sessions that are happening today, tips and tricks for staying
   connected to the days events, and how attendees can share their experiences through
   social media.
 layout: post

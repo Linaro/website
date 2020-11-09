@@ -3,20 +3,17 @@ author: mark.orvek
 category: blog
 date: 2013-09-16 22:08:16
 description: Overview of what to expect at Linaro Connect USA 2013.
-keywords:
-  Linaro, Linaro Connect, Linaro Connect USA, LCU2013, LCU, Arm, Arm TechCon,
+keywords: Linaro, Linaro Connect, Linaro Connect USA, LCU2013, LCU, Arm, Arm TechCon,
   Linux, Linux on Arm
 layout: post
 link: /blog/connect-update/back-to-the-future/
 slug: back-to-the-future
 tags:
-  - LCU
-  - Connect Events
-  - LCU2013
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
 title: Back to the Future
 wordpress_id: 3007
 ---

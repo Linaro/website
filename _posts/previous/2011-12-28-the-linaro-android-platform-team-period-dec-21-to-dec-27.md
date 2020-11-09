@@ -8,12 +8,11 @@ title: The Linaro Android Platform Team, Period Dec. 21 to Dec. 27
 wordpress_id: 1126
 category: blog
 tags:
-  - Android
-  - android
-  - arm
-  - board
-  - Linaro
-  - Linux
+- Android
+- Android
+- Arm
+- Linaro
+- Linux
 ---
 
 Season's Greetings from Linaro! Well, for some it's working season :) This week has been slow in the western hemisphere, but at Linaro there are always a crew at work. Here's what has been acomplished last week:

@@ -2,22 +2,20 @@
 author: linaro
 category: blog
 date: 2015-02-09 21:29:48
-description:
-  Overview of the first day of Linaro Connect Hong Kong 2015. There were
+description: Overview of the first day of Linaro Connect Hong Kong 2015. There were
   many announcements and some great demos.
 layout: post
 link: /blog/first-day-linaro-connect-hong-kong-2015-kicks-off-many-announcements/
 slug: first-day-linaro-connect-hong-kong-2015-kicks-off-many-announcements
 tags:
-  - Connect Events
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 title: First day of Linaro Connect Hong Kong 2015 kicks off with many announcements
 wordpress_id: 7938
 ---

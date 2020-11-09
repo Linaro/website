@@ -1,18 +1,15 @@
 ---
 layout: post
 title: Multiprocessing and OpenAMP Messaging Demo
-date: "2020-02-26 11:54:46"
+date: '2020-02-26 11:54:46'
 image: /assets/images/content/Billsdemo.png
 tags:
-  - Multiprocessing
-  - OpenAMP
-  - Zephyr
-  - Devicetree
-  - IoT
-  - Embedded
-  - 96Boards
-  - Avenger96
-  - STMicroelectronics
+- Multiprocessing
+- OpenAMP
+- Zephyr
+- IoT
+- Embedded
+- 96Boards
 category: blog
 author: bill.fletcher
 ---

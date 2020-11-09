@@ -1,18 +1,14 @@
 ---
 layout: post
 title: Heterogeneous Multicore Systems - The New Open Source Frontier!
-date: "2020-02-13 04:23:39"
+date: '2020-02-13 04:23:39'
 image: /assets/images/content/IoT.jpg
 tags:
-  - Device Tree
-  - SCMI
-  - RemoteProc
-  - RPms
-  - OpenAMP
-  - Zephyr
-  - Avenger
-  - 96Boards
-  - IoT and Embedded
+- Device Tree
+- OpenAMP
+- Zephyr
+- 96Boards
+- IoT and Embedded
 category: blog
 author: bill.fletcher
 ---

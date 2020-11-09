@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
+tags: []
 title: SFO15-503 Secure Storage in OP-TEE
-date: 2016-07-04 12:00:00 Z
+date: 2016-07-04 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/sfo15-503-secure-storage-op-tee-image.jpg

@@ -7,8 +7,7 @@ slug: linaro-toolchain-binaries-2012-04-released
 title: Linaro Toolchain Binaries 2012.04 released
 wordpress_id: 1604
 category: blog
-tags:
-  - Releases
+tags: []
 ---
 
 The Linaro Toolchain Working Group is pleased to announce the 2012.04 release of the Linaro Toolchain Binaries, a pre-built version of Linaro GCC and Linaro GDB that runs on generic Linux or Windows and targets the glibc Linaro Evaluation Build.

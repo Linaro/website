@@ -8,8 +8,7 @@ title: What's new in QEMU 2.9
 wordpress_id: 12315
 category: blog
 tags:
-  - Core Dump
-  - qemu
+- Qemu
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}

@@ -7,15 +7,13 @@ layout: post
 link: /blog/connect-update/linaro-connect-asia-2014-kicks-off-in-macau/
 slug: linaro-connect-asia-2014-kicks-off-in-macau
 tags:
-  - Connect Events
-  - conference
-  - connect
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Connect
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 title: Linaro Connect Asia 2014 - Kicks Off in Macau
 wordpress_id: 3430
 ---

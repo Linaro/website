@@ -8,14 +8,10 @@ title: Firmware Summit at Linaro Connect LAS16
 wordpress_id: 11577
 category: blog
 tags:
-  - Enterprise edition
-  - Firmware
-  - hardware
-  - las16
-  - LEG
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
+- LEG
+- Linaro Connect
+- Linux
+- Linux On Arm
 ---
 
 Next week at Linaro Connect LAS16 there will be a Firmware Summit on Tuesday September 27, 2016 from 10:10am-1:00pm (PST).  The purpose of this summit is to bring the key developers and maintainers from all camps in the same place, review the status and plan the next steps.

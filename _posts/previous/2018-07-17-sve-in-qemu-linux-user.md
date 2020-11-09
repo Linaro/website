@@ -1,17 +1,15 @@
-﻿---
+---
 title: SVE in QEMU's linux-user mode
 author: alex.bennee
 layout: post
 date: 2018-07-17 09:00:00+00:00
-description: >-
-  ARM SVE support has finally landed in the latest version of QEMU.
+description: ARM SVE support has finally landed in the latest version of QEMU.
 category: blog
 tags:
   - Arm
-  - Armv8
-  - linaro
+  - Linaro
   - SVE
-  - QEMU
+  - Qemu
 published: true
 ---
 

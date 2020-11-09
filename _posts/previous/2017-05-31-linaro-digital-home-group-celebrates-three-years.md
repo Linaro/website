@@ -8,14 +8,12 @@ title: The Linaro Digital Home Group celebrates three years
 wordpress_id: 12408
 category: blog
 tags:
-  - 96Boards
-  - android
-  - androidtv
-  - AOSP
-  - LHG
-  - Linaro
-  - multimedia
-  - RDK
+- 96Boards
+- Android
+- AOSP
+- Linaro
+- Multimedia
+- RDK
 ---
 
 By Mark Gregotski, Director of the Linaro Digital Home Group (LHG)

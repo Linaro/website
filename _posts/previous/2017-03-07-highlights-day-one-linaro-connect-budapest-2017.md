@@ -5,8 +5,7 @@ author: connect
 category: blog
 comments: false
 date: 2017-03-07 02:00:51
-excerpt:
-  See what happened during the first day of Linaro Connect Budapest 2017.  Watch
+excerpt: See what happened during the first day of Linaro Connect Budapest 2017.  Watch
   the keynote, read about all the announcements and see all the sessions that took
   place.
 image: /assets/images/blog/HighlightsfromDayOneofLinaroConnectBudapest2017.jpg

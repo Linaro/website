@@ -8,9 +8,7 @@ layout: post
 link: /blog/community-blog/linaro-android-gets-ready-for-gcc-4-7/
 slug: linaro-android-gets-ready-for-gcc-4-7
 tags:
-  - Android
-  - Community
-  - Patch-Highlights
+- Android
 title: Linaro Android gets ready for gcc 4.7
 wordpress_id: 1351
 ---

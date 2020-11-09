@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Linaro brings testing and automation to FOSDEM 2020
-date: "2020-03-12 09:16:32"
+date: '2020-03-12 09:16:32'
 image: /assets/images/content/48806077322_d5b5e6aaa0_k.jpg
 tags:
-  - testing
-  - automation
-  - FOSDEM
-  - FOSDEM 2020
-  - LKFT
-  - Linux Kernel
-  - Functional testing
+- Testing
+- Automation
+- LKFT
+- Linux Kernel
 category: blog
 author: anders.roxell
 ---

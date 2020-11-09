@@ -6,8 +6,7 @@ description: Announcement and release notes for Linaro Kernel 2011.09 release
 layout: post
 link: /blog/releases-blog/linaro-kernel-2011-09-release/
 slug: linaro-kernel-2011-09-release
-tags:
-  - Releases
+tags: []
 title: Linaro Kernel 2011.09 release
 wordpress_id: 541
 ---

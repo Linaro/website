@@ -1,13 +1,11 @@
 ---
 layout: post
 title: MHI bus support gets added to the Linux kernel
-date: "2020-03-17 08:37:59"
+date: '2020-03-17 08:37:59'
 image: /assets/images/content/code.jpg
 tags:
-  - MHI
-  - Modem Host Interface
-  - Linux kernel
-  - Qualcomm
+- Linux Kernel
+- Qualcomm
 category: blog
 author: manivannan.sadhasivam
 ---

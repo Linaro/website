@@ -3,15 +3,13 @@ author: linaro
 category: blog
 date: 2013-07-30 17:34:17
 description: The Linaro 13.07 release is now available for download!
-keywords:
-  Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro Connect Europe 2013,
+keywords: Linaro, Linux on Arm, Linux, Arm, Open Source, Linaro Connect Europe 2013,
   LCE13, Dublin, Linaro Connect US 2013, LCU13,  Linaro 13.07, Release, Announcement,
   Ubuntu, Android, OpenEmbedded, big.LITTLE, LAVA, Jon Maddog Hall, KVM on Arm
 layout: post
 link: /blog/releases-blog/linaro-13-07-released/
 slug: linaro-13-07-released
-tags:
-  - Releases
+tags: []
 title: Linaro 13.07 Released!
 wordpress_id: 2848
 ---

@@ -4,7 +4,7 @@ date: 2013-07-18 15:14:45+00:00
 layout: post
 link: /blog/linaro-connect-europe-2013-people-and-personalities-of-connect/
 slug: linaro-connect-europe-2013-people-and-personalities-of-connect
-title: "Linaro Connect Europe 2013: People and Personalities of Connect"
+title: 'Linaro Connect Europe 2013: People and Personalities of Connect'
 wordpress_id: 2835
 category: blog
 ---

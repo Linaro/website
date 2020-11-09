@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
+tags: []
 title: HKG15-303 &#58; Secure Playback Using OP-TEE
-date: 2016-07-04 12:00:00 Z
+date: 2016-07-04 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/hkg15-303-secure-playback-using-op-tee-image.jpg

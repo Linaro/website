@@ -5,8 +5,7 @@ author: connect
 category: blog
 comments: false
 date: 2017-02-20 20:44:04
-excerpt:
-  Linaro Connect is a great time for all security engineers to get together
+excerpt: Linaro Connect is a great time for all security engineers to get together
   to showcase to the open source community what they have been up to since the last
   Linaro Connect in September 2016.  Beginning Tuesday March 7 there will be sessions
   held daily dedicated to security topics as well as demos later in the week.   The
