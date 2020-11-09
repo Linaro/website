@@ -1628,6 +1628,7 @@ collections:
         display_fields: ["projects.*.key"]
         valueField: "projects.*.key"
         multiple: true
+        required: false
         hint: "Tag a single related project"
       - { label: "Category", name: "category", widget: hidden, default: "blog" }
       - {
