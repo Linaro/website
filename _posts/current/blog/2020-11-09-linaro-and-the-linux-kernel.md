@@ -99,12 +99,13 @@ Linaro maintainership in the Linux kernel. The following table lists the maintai
 
 
 
-| ***Maintainer*** | ***Framework***   | ***Drivers*** |
-| ---------------- | ----------------- | ------------- |
-| Alex Elder       | Greybus subsystem | Qcom ipa      |
-|                  |                   |               |
-|                  |                   |               |
-|                  |                   |               |
+| ***Maintainer*** | ***Framework***                | ***Drivers*** |
+| ---------------- | ------------------------------ | ------------- |
+| Alex Elder       | Greybus subsystem              | Qcom ipa      |
+| Ard Biesheuvel   | Extensible Firmware Interface  |               |
+|                  | EFI variable filesystem        |               |
+|                  |                                |               |
+|                  |                                |               |
 |                  |                   |               |
 |                  |                   |               |
 |                  |                   |               |
@@ -135,8 +136,7 @@ Linaro maintainership in the Linux kernel. The following table lists the maintai
 
 *
 *  Ard Biesheuvel
-* Extensible Firmware Interface
-* EFI variable filesystem
+* 
 * EFI test
 * Socionext synquacer i2c
   Arnd Bergman
