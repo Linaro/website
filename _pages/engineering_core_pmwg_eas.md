@@ -5,13 +5,13 @@ description: >-
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/eas/
 layout: flow
-related_resources_tracks: Power Management, Power, PMWG, EAS
+related_resources_tracks: https://connect.linaro.org/assets/json/power.json
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   background-image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management EAS
-  description: ''
+  description: ""
   inner_class: dotted
   image: /assets/images/content/engineering/context/stewardship.jpg
 flow:
@@ -25,6 +25,7 @@ flow:
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
+
 ## Energy Aware Scheduling \[EAS]
 
 ### Introduction
@@ -53,20 +54,20 @@ EAS is the culmination of a lot of discussion in the past years on LKML and in 
 
 #### sched-core
 
-* Introduction of a CPU energy model.
-* Application of the energy model for load balance decisions.
-* Application of the energy model for power-performance control.
-* Essential miscellaneous modifications to the CFS scheduler to accommodate the above.
+- Introduction of a CPU energy model.
+- Application of the energy model for load balance decisions.
+- Application of the energy model for power-performance control.
+- Essential miscellaneous modifications to the CFS scheduler to accommodate the above.
 
 #### sched-cpufreq
 
-* Modifications to cpufreq to enable direct DVFS OPP transitions under scheduler control.
-* A simple scheduler driven policy for DVFS with a clean set of tunables that enable a range of power/performance options.
+- Modifications to cpufreq to enable direct DVFS OPP transitions under scheduler control.
+- A simple scheduler driven policy for DVFS with a clean set of tunables that enable a range of power/performance options.
 
 #### sched-cpuidle
 
-* Modifications to make the scheduler aware of all the idle states supported by CPUs in the system including the cost implications of entering and exiting those states as well as current idle state tracking.
-* Modify cpuidle and/or the scheduler to remove any unnecessary redundant idle state specific data.
+- Modifications to make the scheduler aware of all the idle states supported by CPUs in the system including the cost implications of entering and exiting those states as well as current idle state tracking.
+- Modify cpuidle and/or the scheduler to remove any unnecessary redundant idle state specific data.
 
 #### sched-tools
 
@@ -84,7 +85,7 @@ The EAS kernel work is contained in the following git repository:
 
 This is a publically available Linux Stable Kernel v3.10 based repository with all key EAS patches back-ported to it. This repository will be the focal point for all development aiming to evidence any new features and qualify them properly with Android on available silicon implementations before those features are deemed adequate for publishing to LKML.
 
-***TODO: Explanation of topic branch structure and working methodology***
+**_TODO: Explanation of topic branch structure and working methodology_**
 
 #### EAS mailing list
 

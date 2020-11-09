@@ -1,7 +1,7 @@
 ---
 title: Kernel
 description: |-
-    The Kernel Working Group’s primary focus is to be an active contributor to the upstream community and facilitate acceptance of Arm code into the Linux mainline kernel.
+  The Kernel Working Group’s primary focus is to be an active contributor to the upstream community and facilitate acceptance of Arm code into the Linux mainline kernel.
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree
 permalink: /engineering/core/kernel/
 related_tags:
@@ -10,7 +10,7 @@ related_tags:
   - KWG
 layout: flow
 js-package: engineering
-related_resources_tracks: Kernel
+related_resources_tracks: https://connect.linaro.org/assets/json/kernel.json
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
   title: Kernel
@@ -21,9 +21,9 @@ flow:
   - row: container_row
     style: members_row bg-light
     sections:
-        - format: custom_include
-          params: core,club
-          source: related_members.html
+      - format: custom_include
+        params: core,club
+        source: related_members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:

@@ -2,24 +2,24 @@
 title: Autonomous Vehicles
 layout: flow
 description: |-
-    Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.
+  Open source will play an essential part in bringing smart, connected, always up to date and secure software to vehicles and transportation systems.
 keywords: Linaro, Autonomous, Stable, Kernel, Core, Android, Open Source, OS, Autonomous Vehicles, Autoware
 image: /assets/images/content/AutoCol.svg
 permalink: /engineering/autonomous-vehicles/
 js-package: engineering
 members:
-    key: autonomous-vehicles-incubator
-related_resources_tracks: Autonomous Vehicles, Autonomous Vehicle
+  key: autonomous-vehicles-incubator
+related_resources_tracks: https://connect.linaro.org/assets/json/av.json
 related_tags:
   - Automotive
   - ML
   - AI/ML
   - Autoware
 jumbotron:
-    title: Autonomous Vehicles
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/autonomous-driving-bg.jpg
+  title: Autonomous Vehicles
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/autonomous-driving-bg.jpg
 flow:
   - row: container_row
     style: large_type introduction_row py-0

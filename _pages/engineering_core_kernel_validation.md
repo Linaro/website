@@ -1,7 +1,7 @@
 ---
 title: Kernel Validation
 description: |-
-    The mission of the Kernel Validation team (KVT) is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
+  The mission of the Kernel Validation team (KVT) is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
 keywords: linux, Arm, kernel,upstream, coresight, MMC, LSK, kexec, kdump,storage,memory management,device tree, validation, lkft
 permalink: /engineering/core/kernel-validation-and-testing/
 related_tags:
@@ -10,7 +10,7 @@ related_tags:
   - validation
   - lkft
 layout: flow
-related_resources_tracks: Validation, Testing, CTT
+related_resources_tracks: https://connect.linaro.org/assets/json/validation.json
 js-package: engineering
 image: /assets/images/content/engineering/png/core_engineering.png
 jumbotron:
@@ -22,9 +22,9 @@ flow:
   - row: container_row
     style: members_row bg-light
     sections:
-        - format: custom_include
-          params: core,club
-          source: related_members.html
+      - format: custom_include
+        params: core,club
+        source: related_members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
@@ -41,11 +41,11 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-        - format: youtube
-          style: #
-          url: https://www.youtube.com/watch?v=mWpK-cNQmL8
+      - format: youtube
+        style: #
+        url: https://www.youtube.com/watch?v=mWpK-cNQmL8
         #   poster_image: /assets/images/test/background-image1.jpg
-          title: Interview with Shuah Khan on Kernel Self Test
+        title: Interview with Shuah Khan on Kernel Self Test
   - row: container_row
     style: large_type introduction_row py-0
     sections:

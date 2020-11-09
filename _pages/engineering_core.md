@@ -8,10 +8,10 @@ keywords: Core, Engineering, Platform, User Platforms , Linux, Open Source, hard
 permalink: /engineering/core/
 image: /assets/images/content/engineering/png/core_engineering.png
 layout: flow
-related_resources_tracks: Tools
+related_resources_tracks: https://connect.linaro.org/assets/json/core.json
 js-package: engineering
 redirect_from:
- - /core/
+  - /core/
 related_tags:
   - Core Dump
   - Core
@@ -28,9 +28,9 @@ flow:
   - row: container_row
     style: members_row bg-light
     sections:
-        - format: custom_include
-          params: core,club
-          source: related_members.html
+      - format: custom_include
+        params: core,club
+        source: related_members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
