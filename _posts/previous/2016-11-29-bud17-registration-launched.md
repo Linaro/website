@@ -8,13 +8,12 @@ title: Linaro Connect Budapest (BUD17) Registration has launched!
 wordpress_id: 11924
 category: blog
 tags:
-  - Connect Events
-  - conference
-  - connect
-  - Connect Events
-  - Linaro
-  - Linux
-  - Linux on Arm
+- Connect Events
+- Connect
+- Connect Events
+- Linaro
+- Linux
+- Linux On Arm
 ---
 
 We are pleased to announce that registration for [Linaro Connect ](https://connect.linaro.org/attend/)Budapest (BUD17) has opened!  Linaro Connect has become the event to attend if you are interested in Linux development and related ecosystems on Arm, bringing together engineers and industry experts to discuss, learn, network and push forward new technologies. The event will begin on Monday 6 March at 8.30am with a Welcome keynote by Linaro CEO George Grey and finish on Friday 10 March at 2pm with Demo Friday.

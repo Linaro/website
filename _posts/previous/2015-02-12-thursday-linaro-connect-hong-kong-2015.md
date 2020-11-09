@@ -2,8 +2,7 @@
 author: linaro
 category: blog
 date: 2015-02-12 20:24:31
-description:
-  See an overview of what happened on Thursday of Linaro Connect including
+description: See an overview of what happened on Thursday of Linaro Connect including
   the keynote about Android TV
 layout: post
 link: /blog/thursday-linaro-connect-hong-kong-2015/

@@ -6,14 +6,12 @@ title: Multimedia on Linux
 image: /assets/images/content/multimedia.jpg
 author: kiko
 slug: multimedia-on-linux
-date: 2011-07-15T16:01:50.000Z
-tags:
-  - Industry
+date: 2011-07-15 16:01:50+00:00
+tags: []
 link: /blog/industry-blog/multimedia-on-linux/
 category: blog
-description: Discussion of Multimedia on Linux challenges and Linaro.org's work
-  with Multimedia on Linux
-category: blog
+description: Discussion of Multimedia on Linux challenges and Linaro.org's work with
+  Multimedia on Linux
 ---
 
 Multimedia is one of the most important reasons Linux is used on Arm: mobile phones, tablets, digital TV stations and desktop all fundamentally require multimedia playback and recording. It is also one of the most complex and poorly-understood areas on Linux, stemming from the inherent challenges in providing high performance multimedia, IP restrictions on technology and content and the impressive rate at which new formats and capabilities have been developed to match increasing network and processing power.

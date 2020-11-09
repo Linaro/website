@@ -8,14 +8,11 @@ layout: post
 link: /blog/android-blog/the-linaro-android-platform-team-period-jan-18-to-jan-25/
 slug: the-linaro-android-platform-team-period-jan-18-to-jan-25
 tags:
-  - Android
-  - Connect Events
-  - "12.01"
-  - android
-  - conference
-  - connect
-  - Linaro
-  - release
+- Android
+- Connect Events
+- Android
+- Connect
+- Linaro
 title: The Linaro Android Platform Team, Period Jan. 18 to Jan. 25
 wordpress_id: 1221
 ---

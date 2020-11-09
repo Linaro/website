@@ -7,12 +7,12 @@ layout: post
 link: /blog/connect-update/welcome-to-macau/
 slug: welcome-to-macau
 tags:
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
 title: Welcome to Macau!
 wordpress_id: 3405
 ---

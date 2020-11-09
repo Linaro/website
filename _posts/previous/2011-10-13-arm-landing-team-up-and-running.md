@@ -7,8 +7,7 @@ keywords: Linaro, Linux, Arm, Linux Arm, kernel, Arm A5, Arm A9, Android, Ubuntu
 layout: post
 link: /blog/community-blog/arm-landing-team-up-and-running/
 slug: arm-landing-team-up-and-running
-tags:
-  - Community
+tags: []
 title: Arm Landing Team Up and Running
 wordpress_id: 670
 ---

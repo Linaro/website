@@ -2,21 +2,18 @@
 author: linaro
 category: blog
 date: 2012-08-07 18:34:06
-description:
-  Linaro announces its Virtual Connect and the public is invited! Linaro
+description: Linaro announces its Virtual Connect and the public is invited! Linaro
   Connect Q3.12 will take place online via Google+ Hangouts on Air on 13 - 17 August
   2012.
-keywords:
-  Linaro Connect, Linaro, Linux On Arm, Open Source, Android, Arm, Ubuntu,
+keywords: Linaro Connect, Linaro, Linux On Arm, Open Source, Android, Arm, Ubuntu,
   Online, Virtual Connect, Announcement
 layout: post
 link: /blog/community-blog/linaro-announces-virtual-connect-q3-12-13-17-august-2012/
 slug: linaro-announces-virtual-connect-q3-12-13-17-august-2012
 tags:
-  - Android
-  - Community
-  - Connect Events
-title: "Announce: Linaro Virtual Connect, 13-17 August 2012"
+- Android
+- Connect Events
+title: 'Announce: Linaro Virtual Connect, 13-17 August 2012'
 wordpress_id: 1735
 ---
 

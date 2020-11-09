@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Let’s talk about Homomorphic Encryption
-date: "2020-05-22 12:16:28"
+date: '2020-05-22 12:16:28'
 image: /assets/images/content/cyber-security.jpg
 tags:
-  - Homomorphic Encryption
-  - Encryption
-  - Linaro
+- Homomorphic Encryption
+- Linaro
 category: blog
 author: joakim.bech
 ---

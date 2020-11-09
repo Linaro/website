@@ -7,8 +7,7 @@ slug: linaro-confectionary-release-lcr-14-12-released
 title: Linaro Confectionary Release (LCR) 14.12 released
 wordpress_id: 7753
 category: blog
-tags:
-  - Releases
+tags: []
 ---
 
 > "Any technology that does not appear magical is insufficiently advanced." ~ Gregory Benford

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: The KissCache caching server
-date: "2020-05-18 05:56:56"
+date: '2020-05-18 05:56:56'
 image: /assets/images/content/technology-3389917_1920.jpg
 tags:
-  - caching
-  - server
-  - KissCache
-  - Squid
+- Server
+- KissCache
 category: blog
 author: remi.duraffort@linaro.org
 ---

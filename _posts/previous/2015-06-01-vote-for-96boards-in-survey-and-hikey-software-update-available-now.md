@@ -2,18 +2,17 @@
 author: steve.taylor
 category: blog
 date: 2015-06-01 14:21:55
-description:
-  96Boards has two representatives in this with both Qualcomm's DragonBoard
+description: 96Boards has two representatives in this with both Qualcomm's DragonBoard
   410c and the HiSilicon-based HiKey boards listed. You can vote now.
 layout: post
 link: /blog/vote-for-96boards-in-survey-and-hikey-software-update-available-now/
 slug: vote-for-96boards-in-survey-and-hikey-software-update-available-now
 tags:
-  - 96Boards
-  - dragonboard
-  - HiKey Board
-  - Linaro
-  - software
+- 96Boards
+- Dragonboard
+- HiKey Board
+- Linaro
+- Software
 title: Vote for 96Boards in survey and HiKey software update available now!
 wordpress_id: 8650
 ---

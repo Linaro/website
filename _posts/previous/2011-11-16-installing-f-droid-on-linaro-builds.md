@@ -8,13 +8,10 @@ layout: post
 link: /blog/android-blog/installing-f-droid-on-linaro-builds/
 slug: installing-f-droid-on-linaro-builds
 tags:
-  - Android
-  - android
-  - app
-  - free software
-  - howto
-  - Linaro
-  - market
+- Android
+- Android
+- App
+- Linaro
 title: Installing F-Droid on Linaro builds
 wordpress_id: 879
 ---

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Devicetree Specification v0.2 Released"
+title: Devicetree Specification v0.2 Released
 date: 2017-12-20 12:00:00
 category: blog
 author: Grant Likely
-tags:
-  - DeviceTree
+tags: []
 image: /assets/images/blog/devicetree-logo-dark.png
 ---
 

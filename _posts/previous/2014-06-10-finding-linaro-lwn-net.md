@@ -2,11 +2,9 @@
 author: steve.taylor
 category: blog
 date: 2014-06-10 13:01:12
-description:
-  One of the best places to go to find out what Linaro is working on in
+description: One of the best places to go to find out what Linaro is working on in
   the Linux kernel is LWN.net. Over the last four years Linaro has had numerous articles
-excerpt:
-  One of the best places to go to find out what Linaro is working on in the
+excerpt: One of the best places to go to find out what Linaro is working on in the
   Linux kernel is LWN.net. To get the full value, you need to subscribe and keep a
   daily watch on it. LWN has been going since 1998 and so I reckon  estimate they
   have already delivered over 830 weekly editions, but the number of postings is significantly
@@ -15,12 +13,10 @@ layout: post
 link: /blog/finding-linaro-lwn-net/
 slug: finding-linaro-lwn-net
 tags:
-  - Engineering cycle
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - LWN
-  - Open Source
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
 title: Finding out about Linaro on LWN.net
 wordpress_id: 5888
 ---

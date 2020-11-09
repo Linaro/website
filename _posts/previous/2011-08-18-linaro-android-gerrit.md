@@ -8,9 +8,7 @@ title: Linaro Android codebase migrated to Gerrit (location changed!)
 wordpress_id: 4122
 category: blog
 tags:
-  - android
-  - gerrit
-  - migration
+- Android
 ---
 
 At the end of last week, we started final stage of Linaro Android migration to Gerrit. If you keep an eye on our trees, that's the first thing you should know about the migration:

@@ -2,24 +2,20 @@
 author: linaro
 category: news
 date: 2015-10-29 13:03:01
-description:
-  Linaro announces Acadine Technologies as the first systems software company
+description: Linaro announces Acadine Technologies as the first systems software company
   to become a member of the Linaro Mobile Group
-excerpt:
-  Linaro announces Acadine Technologies as the first systems software company
+excerpt: Linaro announces Acadine Technologies as the first systems software company
   to become a member of the Linaro Mobile Group
 layout: post
 link: /news/first-systems-software-company-acadine-joins-linaro-mobile-group/
 slug: first-systems-software-company-acadine-joins-linaro-mobile-group
 tags:
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - lmg
-  - members
-  - mobile group
-  - Open Source
-  - Opensource
+- Linaro
+- Linux
+- Linux On Arm
+- Members
+- Mobile Group
+- Open Source
 title: First systems software company Acadine joins Linaro Mobile Group
 wordpress_id: 9631
 ---

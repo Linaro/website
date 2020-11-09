@@ -6,8 +6,7 @@ description: CAMBRIDGE, UK - 23 AUG 2011
 layout: post
 link: /news/arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk/
 slug: arm-linux-developers-25-companies-collaborate-linaro-connect-event-cambridge-uk
-title:
-  Arm Linux Developers from over 25 Companies Collaborate at Linaro Connect Event
+title: Arm Linux Developers from over 25 Companies Collaborate at Linaro Connect Event
   in Cambridge, UK
 wordpress_id: 4412
 ---

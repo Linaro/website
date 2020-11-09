@@ -8,11 +8,8 @@ title: Linaro deliverables
 wordpress_id: 4109
 category: blog
 tags:
-  - "10.11"
-  - release
-  - release cycle
-  - software
-  - tools
+- Software
+- Tools
 ---
 
 Talking about the six monthly Linaro releases is, perhaps, a little misleading. It may create the impression that there are no Linaro deliverables between the six monthly release dates. The truth is that there are many deliverables from Linaro; a mixture of code donated to open source projects, staging code and baseline releases. The goal of the six monthly development cycle is to refine the set of engineering problems to be solved at the start of the cycle and then to manage the delivery of that engineering effort cleanly during that cycle. The set of problems is divided between existing and newly created working groups at a developer summit that occurs at the start of the cycle. This set of requirements is owned and refined by the Technical Steering Committee (TSC). Working groups have a scope and, within that scope, a set of work items encoded as blueprints.

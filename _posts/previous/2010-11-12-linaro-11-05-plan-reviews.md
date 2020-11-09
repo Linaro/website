@@ -7,11 +7,7 @@ slug: linaro-11-05-plan-reviews
 title: Linaro 11.05 plan reviews
 wordpress_id: 3375
 category: blog
-tags:
-  - "11.05"
-  - confcall
-  - plans
-  - release
+tags: []
 ---
 
 Starting next Monday, Linaro tech leads will be running a set of public phone calls to announce the official plans for each of our engineering units. Calls are daily at 15:00 UTC, and there are local and free dial-in numbers for most countries around the world.  The schedule and details are listed here:

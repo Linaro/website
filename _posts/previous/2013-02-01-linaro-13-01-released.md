@@ -3,8 +3,7 @@ author: fathi.boudra
 category: blog
 date: 2013-02-01 13:12:29
 description: Linaro announces the release of Linaro 13.01.
-keywords:
-  Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
+keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Android, Ubuntu, Linaro Enterprise
   Group, LEG, Toolchain, big.LITTLE, Kernel, UMM, Armv8, Release, 13.01, Announcement
 layout: post
 link: /blog/releases-blog/linaro-13-01-released/

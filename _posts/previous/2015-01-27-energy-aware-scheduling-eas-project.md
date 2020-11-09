@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Energy-Aware Scheduling (EAS) Project
-date: 2015-01-27T17:40:39.000Z
-tags:
-  - Core Dump
-  - EAS
-  - Energy-Aware
-  - Scheduling
+date: 2015-01-27 17:40:39+00:00
+tags: []
 category: blog
 author: amit.kucheria
 ---

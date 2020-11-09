@@ -2,32 +2,26 @@
 author: linaro
 category: news
 date: 2015-09-09 13:01:21
-description:
-  "Linaro announced a major step forward in the delivery of an open source
+description: Linaro announced a major step forward in the delivery of an open source
   secure media solution for the consumption of premium content on Arm Powered devices.
   The Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
   and the OpenCDM project, has successfully integrated several security features required
-  by premium content service providers with the Microsoft\xC2\xAE PlayReady\xC2\xAE
-  Digital Rights Management (DRM)."
-excerpt:
-  "Linaro announced a major step forward in the delivery of an open source
-  secure media solution for the consumption of premium content on Arm Powered devices.
-  The Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
+  by premium content service providers with the MicrosoftÂ® PlayReadyÂ® Digital Rights
+  Management (DRM).
+excerpt: Linaro announced a major step forward in the delivery of an open source secure
+  media solution for the consumption of premium content on Arm Powered devices. The
+  Linaro Digital Home Group (LHG), with support from the Microsoft PlayReady team
   and the OpenCDM project, has successfully integrated several security features required
-  by premium content service providers with the Microsoft\xAE PlayReady\xAE Digital
-  Rights Management (DRM)."
+  by premium content service providers with the Microsoft® PlayReady® Digital Rights
+  Management (DRM).
 layout: post
 link: /news/linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs/
 slug: linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-socs
 tags:
-  - arm
-  - Chromium
-  - Linaro
-  - Linux on Arm
-  - Microsoft
-  - OP-TEE
-  - Open Source
-  - Opensource
+- Arm
+- Linaro
+- Linux On Arm
+- Open Source
 title: Linaro and Microsoft collaborate on secure media solutions for Arm-based SoCs
 wordpress_id: 9236
 ---

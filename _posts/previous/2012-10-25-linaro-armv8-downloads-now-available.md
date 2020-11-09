@@ -7,8 +7,7 @@ keywords: Linaro, Linux on Arm, Open Source, Release, ArmV8, AArch64, Downloads,
 layout: post
 link: /blog/releases-blog/linaro-armv8-downloads-now-available/
 slug: linaro-armv8-downloads-now-available
-tags:
-  - Releases
+tags: []
 title: Linaro Armv8 Downloads Now Available
 wordpress_id: 1947
 ---

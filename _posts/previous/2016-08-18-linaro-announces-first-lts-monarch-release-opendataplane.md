@@ -2,7 +2,7 @@
 author: linaro
 category: news
 date: 2016-08-18 14:34:13
-description: "Cambridge, UK: 18 August 2016"
+description: 'Cambridge, UK: 18 August 2016'
 layout: post
 link: /news/linaro-announces-first-lts-monarch-release-opendataplane/
 slug: linaro-announces-first-lts-monarch-release-opendataplane

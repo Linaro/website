@@ -2,28 +2,24 @@
 author: jennifer.castelino
 category: blog
 date: 2014-09-17 21:33:36
-description:
-  Overview of the events that took place on Tuesday September 16, 2014
+description: Overview of the events that took place on Tuesday September 16, 2014
   at Linaro Connect USA
 layout: post
 link: /blog/lcu14-tuesday-recap/
 slug: lcu14-tuesday-recap
 tags:
-  - Connect Events
-  - android
-  - AOSP
-  - arm
-  - Armv8
-  - board
-  - connect
-  - Connect Events
-  - embedded
-  - Linaro
-  - Linaro Connect
-  - Linux on Arm
-  - LSK
-  - Opensource
-  - toolchain
+- Connect Events
+- Android
+- AOSP
+- Arm
+- Connect
+- Connect Events
+- Embedded
+- Linaro
+- Linaro Connect
+- Linux On Arm
+- LSK
+- Toolchain
 title: LCU14 Tuesday Recap
 wordpress_id: 6698
 ---

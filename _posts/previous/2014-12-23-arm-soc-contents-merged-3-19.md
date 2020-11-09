@@ -3,20 +3,16 @@ author: arnd.bergmann
 category: blog
 comments: true
 date: 2014-12-23 10:00:32
-description:
-  An overview of what was merged into version 3.19 of the Linux kernel
+description: An overview of what was merged into version 3.19 of the Linux kernel
   through the arm-soc tree
 layout: post
 link: /blog/core-dump/arm-soc-contents-merged-3-19/
 slug: arm-soc-contents-merged-3-19
 tags:
-  - Core Dump
-  - "3.19"
-  - arm
-  - arm-soc
-  - arm64
-  - kernel
-  - Linux
+- Arm
+- Arm64
+- Kernel
+- Linux
 title: arm-soc contents merged into 3.19
 wordpress_id: 7731
 ---

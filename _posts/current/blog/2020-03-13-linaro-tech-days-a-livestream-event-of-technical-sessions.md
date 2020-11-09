@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Linaro Tech Days: A livestream event of technical sessions"
-date: "2020-03-13 07:08:16"
+title: 'Linaro Tech Days: A livestream event of technical sessions'
+date: '2020-03-13 07:08:16'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-  - Linaro Tech Days
-  - virtual event
-  - Linaro Connect
-  - Arm
-  - open source
-  - software
+- Linaro Tech Days
+- Virtual Event
+- Linaro Connect
+- Arm
+- Open Source
+- Software
 category: blog
 author: connect
 ---

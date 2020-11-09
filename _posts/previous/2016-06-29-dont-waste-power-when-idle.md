@@ -2,24 +2,20 @@
 author: ulf.hansson
 category: blog
 date: 2016-06-29 17:17:39
-description:
-  How the CoreSight framework found in the Linux kernel has been integrated
+description: How the CoreSight framework found in the Linux kernel has been integrated
   with the standard Perf core, both at the kernel and user space level.
-excerpt:
-  "Learn how to prevent wasting power when CPUs become idle, and about idle
-  management of platforms. "
+excerpt: 'Learn how to prevent wasting power when CPUs become idle, and about idle
+  management of platforms. '
 keywords: Power Management
 layout: post
 link: /blog/core-dump/dont-waste-power-when-idle/
 slug: dont-waste-power-when-idle
 tags:
-  - Core Dump
-  - idle
-  - kernel
-  - Linux
-  - Linux on Arm
-  - power
-  - power management
+- Kernel
+- Linux
+- Linux On Arm
+- Power
+- Power Management
 title: Don't waste power when idle
 wordpress_id: 10854
 ---

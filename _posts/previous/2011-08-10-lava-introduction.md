@@ -8,8 +8,8 @@ layout: post
 link: /blog/lava-blog/lava-introduction/
 slug: lava-introduction
 tags:
-  - lava
-  - LAVA
+- Lava
+- Lava
 title: LAVA Introduction
 wordpress_id: 4116
 ---

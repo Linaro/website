@@ -8,8 +8,7 @@ title: LAVA@Home
 wordpress_id: 965
 category: blog
 tags:
-  - Hardware
-  - LAVA
+- Lava
 ---
 
 {% include image.html path="/assets/images/blog/IMG_3464.jpg" alt="IMG_3464" %}

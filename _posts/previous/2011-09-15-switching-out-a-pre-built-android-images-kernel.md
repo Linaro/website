@@ -8,9 +8,8 @@ title: Switching out a Pre-Built Android Image's Kernel
 wordpress_id: 4129
 category: blog
 tags:
-  - Android
-  - kernel
-  - rebuild
+- Android
+- Kernel
 ---
 
 Many people just want to update the kernel of a pre-built Android build.

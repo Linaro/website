@@ -2,11 +2,9 @@
 author: jennifer.castelino
 category: blog
 date: 2014-10-09 13:14:53
-description:
-  Recap of the sessions and activities of the Linaro Automation Validation
+description: Recap of the sessions and activities of the Linaro Automation Validation
   Architecture (LAVA) team at Linaro Connect USA, as well as a team update
-excerpt:
-  For those that may not be as familiar with Linaro's LAVA team, this team
+excerpt: For those that may not be as familiar with Linaro's LAVA team, this team
   is responsible for engineering and development of the open source Linaro Automated
   Validation Architecture (LAVA). LAVA provides a framework for enabling engineering
   groups to integrate and perform advanced testing across a set of hardware and virtual
@@ -18,13 +16,13 @@ layout: post
 link: /blog/linaro-lava-group-team-update/
 slug: linaro-lava-group-team-update
 tags:
-  - LAVA
-  - Connect Events
-  - lava
-  - Linaro
-  - Linaro Connect
-  - testing
-  - validation
+- Lava
+- Connect Events
+- Lava
+- Linaro
+- Linaro Connect
+- Testing
+- Validation
 title: Linaro LAVA Group - Team Update
 wordpress_id: 7051
 ---

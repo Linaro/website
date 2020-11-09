@@ -1,25 +1,19 @@
 ---
 author: Joakim Bech, Ard Biesheuvel, Mark Brown, Daniel Thompson
-date: 2018-02-07 11:00:00.000
-title: "Implications of Meltdown and Spectre &#58; Part 2"
-description: >-
-  The basis of the Meltdown and Spectre attacks is to make use of speculative
-  execution, out-of-order execution, branch predictors and caches, all features
-  found in modern CPUs.  These features all aim to increase performance and to
-  avoid latencies in the pipeline.  They work in conjunction with each other in
-  quite complex ways.
+date: 2018-02-07 11:00:00
+title: Implications of Meltdown and Spectre &#58; Part 2
+description: The basis of the Meltdown and Spectre attacks is to make use of speculative
+  execution, out-of-order execution, branch predictors and caches, all features found
+  in modern CPUs.  These features all aim to increase performance and to avoid latencies
+  in the pipeline.  They work in conjunction with each other in quite complex ways.
 category: blog
 published: true
 tags:
-  - Meltdown
-  - Spectre
-  - Arm
-  - OP-TEE
-  - TrustZone
-keywords: >-
-  Meltdown, Spectre, Arm, OP-TEE, TrustZone, Speculative execution, branch
-  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power
-  Analysis, Differential Power Analysis, crypto,
+- Arm
+- TrustZone
+keywords: Meltdown, Spectre, Arm, OP-TEE, TrustZone, Speculative execution, branch
+  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power Analysis,
+  Differential Power Analysis, crypto,
 image: /assets/images/blog/meltdown-spectre-logo.jpg
 layout: post
 ---

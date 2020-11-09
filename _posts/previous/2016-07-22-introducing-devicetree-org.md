@@ -3,8 +3,7 @@ layout: post
 title: Introducing devicetree.org
 date: 2016-07-22 12:00:00
 category: blog
-tags:
-  - DeviceTree
+tags: []
 image: /assets/images/blog/devicetree-logo-dark.png
 author: Linaro
 ---

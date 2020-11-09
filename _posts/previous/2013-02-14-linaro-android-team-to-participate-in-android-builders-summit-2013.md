@@ -2,19 +2,16 @@
 author: linaro
 category: blog
 date: 2013-02-14 21:28:43
-description:
-  Find out how you can connect with Linaro during the The Android Builders
+description: Find out how you can connect with Linaro during the The Android Builders
   Summit or The Embedded Linux Conference 2013?
-keywords:
-  Linaro, Linux on Arm, Open Source, Linux, Arm, Android Builders Summit 2013,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Android Builders Summit 2013,
   ABS 2013, Embedded Linux Conference 2013, ELC 2013, Android, Linaro Android Team,
   Zach Pfeffer, Bernard Rosenkranzer, George Grey
 layout: post
 link: /blog/community-blog/linaro-android-team-to-participate-in-android-builders-summit-2013/
 slug: linaro-android-team-to-participate-in-android-builders-summit-2013
 tags:
-  - Android
-  - Community
+- Android
 title: Linaro Android Team to Participate in Android Builders Summit 2013
 wordpress_id: 2346
 ---

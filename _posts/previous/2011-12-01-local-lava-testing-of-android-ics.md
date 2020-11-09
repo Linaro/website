@@ -8,11 +8,11 @@ layout: post
 link: /blog/lava-blog/local-lava-testing-of-android-ics/
 slug: local-lava-testing-of-android-ics
 tags:
-  - Android
-  - LAVA
-  - android
-  - lava
-  - testing
+- Android
+- Lava
+- Android
+- Lava
+- Testing
 title: Local LAVA testing of Android ICS
 wordpress_id: 986
 ---

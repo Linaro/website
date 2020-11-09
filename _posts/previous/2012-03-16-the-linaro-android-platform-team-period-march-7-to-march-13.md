@@ -7,16 +7,11 @@ layout: post
 link: /blog/hardware-update/the-linaro-android-platform-team-period-march-7-to-march-13/
 slug: the-linaro-android-platform-team-period-march-7-to-march-13
 tags:
-  - Android
-  - Hardware
-  - "12.03"
-  - android
-  - arm
-  - big.little
-  - board
-  - fast model
-  - Linaro
-  - Linux on Arm
+- Android
+- Android
+- Arm
+- Linaro
+- Linux On Arm
 title: The Linaro Android Platform Team, Period March 7 to March 13.
 wordpress_id: 1383
 ---

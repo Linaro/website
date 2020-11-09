@@ -3,26 +3,23 @@ title: The countdown to Linaro Connect Bangkok 2019 begins
 author: linaro
 layout: post
 date: 2018-12-06 09:00:00+00:00
-description: >-
-  We are pleased to announce that registration for Linaro Connect Bangkok 2019 has launched. The upcoming Linaro Connect will take place on 1-4 April 2019 at the Centara Grand.
+description: We are pleased to announce that registration for Linaro Connect Bangkok
+  2019 has launched. The upcoming Linaro Connect will take place on 1-4 April 2019
+  at the Centara Grand.
 category: blog
 tags:
-  - Linaro
-  - Arm
-  - Connect
-  - BKK19
-  - Bangkok
-  - Thailand
-  - Android
-  - Autonomous Vehicles
-  - Linux kernel
-  - HPC
-  - IoT
-  - Embedded
-  - AI
-  - Networking
-  - Security
-  - Big Data
+- Linaro
+- Arm
+- Connect
+- Android
+- Linux Kernel
+- HPC
+- IoT
+- Embedded
+- AI
+- Networking
+- Security
+- Big Data
 image: /assets/images/content/bkk19-banner-graphic.jpg
 ---
 

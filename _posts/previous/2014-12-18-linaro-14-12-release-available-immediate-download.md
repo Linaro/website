@@ -2,32 +2,23 @@
 author: koen.kooi
 category: blog
 date: 2014-12-18 20:28:48
-description:
-  The Linaro 14.12 software release is available for immediate download.
+description: The Linaro 14.12 software release is available for immediate download.
   All related links can be found here.
 layout: post
 link: /blog/linaro-14-12-release-available-immediate-download/
 slug: linaro-14-12-release-available-immediate-download
 tags:
-  - Releases
-  - android
-  - arm
-  - Armv8
-  - connect
-  - Connect Events
-  - embedded
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Opensource
-  - release
-  - release cycle
-  - tools
-  - ubuntu
+- Android
+- Arm
+- Connect
+- Connect Events
+- Embedded
+- Kernel
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Tools
 title: Linaro 14.12 Release Available for Immediate Download!
 wordpress_id: 7740
 ---

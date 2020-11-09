@@ -8,7 +8,7 @@ title: The Linaro Android Platform Team is busy as always.
 wordpress_id: 1037
 category: blog
 tags:
-  - Android
+- Android
 ---
 
 Here's what the Android Platform Team has been up to this week...

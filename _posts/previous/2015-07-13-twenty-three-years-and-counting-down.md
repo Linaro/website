@@ -3,25 +3,18 @@ author: john.stultz
 category: blog
 comments: true
 date: 2015-07-13 22:24:39
-description:
-  On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st
+description: On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st
   1970) will be larger than can be held in a signed 32-bit value. This means on 32-bit
   systems time will overflow and jump back to 1901.
-excerpt:
-  "On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st 1970)
+excerpt: 'On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st 1970)
   will be larger than can be held in a signed 32-bit value. This means on 32-bit systems
   time will overflow and jump back to 1901.  Read about this issue and what is being
-  done to get ready.  "
+  done to get ready.  '
 layout: post
 link: /blog/core-dump/twenty-three-years-and-counting-down/
 slug: twenty-three-years-and-counting-down
 tags:
-  - Core Dump
-  - 32-bit systems
-  - epoc
-  - Linux
-  - unix
-  - y2038
+- Linux
 title: Twenty three years and counting down
 wordpress_id: 8971
 ---

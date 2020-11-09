@@ -8,14 +8,11 @@ layout: post
 link: /blog/core-dump/ensuring-bootable-arm-vm-images/
 slug: ensuring-bootable-arm-vm-images
 tags:
-  - Core Dump
-  - AArch64
-  - arm
-  - cross-distro
-  - KVM
-  - qemu
-  - standards
-  - virtualization
+- Aarch64
+- Arm
+- KVM
+- Qemu
+- Virtualization
 title: Ensuring Bootable Arm VM Images
 wordpress_id: 11992
 ---

@@ -1,30 +1,25 @@
 ---
 author: linaro
-date: 2018-03-26 14:50:00.000
+date: 2018-03-26 14:50:00
 title: Highlights of the last day at HKG18
-description: >-
-  Here is a brief summary of the highlights from the fifth and last day at Linaro Connect HKG18.
+description: Here is a brief summary of the highlights from the fifth and last day
+  at Linaro Connect HKG18.
 category: blog
 published: true
 tags:
-  - HKG18
-  - Arm
-  - Linux
-  - Kernel
-  - Linaro
-  - Open Source
-  - Machine Learning
-  - AI
-  - 96Boards
-  - Cloud
-  - Edge Computing
-  - Qualcomm
-  - Datacentre
-  - Mobile
-  - Servers
-  - Art
-  - Computation
-keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Qualcomm, Datacentre, Mobile, Servers, Art, Computation
+- Arm
+- Linux
+- Kernel
+- Linaro
+- Open Source
+- Machine Learning
+- AI
+- 96Boards
+- Qualcomm
+- Datacentre
+- Servers
+keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards,
+  Cloud, Edge Computing, Qualcomm, Datacentre, Mobile, Servers, Art, Computation
 image: /assets/images/blog/DemoFriday5.jpg
 layout: post
 ---

@@ -6,8 +6,7 @@ description: Links to all the downloads for the Linaro 11.09 release
 layout: post
 link: /blog/releases-blog/linaro-11-09-released/
 slug: linaro-11-09-released
-tags:
-  - Releases
+tags: []
 title: Linaro 11.09 released
 ---
 

@@ -8,10 +8,7 @@ layout: post
 link: /blog/community-blog/linaro-android-updated-to-4-0-4/
 slug: linaro-android-updated-to-4-0-4
 tags:
-  - Android
-  - Community
-  - Patch-Highlights
-  - Releases
+- Android
 title: Linaro Android updated to 4.0.4
 wordpress_id: 1457
 ---

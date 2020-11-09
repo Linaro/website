@@ -6,7 +6,7 @@ description: CAMBRIDGE, UK - 24 AUG 2010
 layout: post
 link: /news/linaro-making-open-source-development-easier-faster/
 slug: linaro-making-open-source-development-easier-faster
-title: "Linaro: Making Open Source Development Easier and Faster"
+title: 'Linaro: Making Open Source Development Easier and Faster'
 wordpress_id: 4397
 ---
 

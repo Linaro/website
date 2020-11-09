@@ -7,16 +7,14 @@ layout: post
 link: /news/linaro-announces-lite-collaborative-software-engineering-internet-things-iot/
 slug: linaro-announces-lite-collaborative-software-engineering-internet-things-iot
 tags:
-  - IoT
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - LITE
-  - Open Source
-  - Opensource
-title:
-  Linaro Announces LITE - Collaborative Software Engineering for the Internet
+- IoT
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- LITE
+- Open Source
+title: Linaro Announces LITE - Collaborative Software Engineering for the Internet
   of Things (IoT)
 wordpress_id: 11666
 ---

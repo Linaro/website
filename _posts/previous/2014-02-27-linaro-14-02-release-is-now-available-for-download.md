@@ -7,25 +7,18 @@ layout: post
 link: /blog/releases-blog/linaro-14-02-release-is-now-available-for-download/
 slug: linaro-14-02-release-is-now-available-for-download
 tags:
-  - Releases
-  - android
-  - arm
-  - big.little
-  - connect
-  - embedded
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - toolchain
+- Android
+- Arm
+- Connect
+- Embedded
+- Kernel
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
+- Software
+- Toolchain
 title: Linaro 14.02 release is now available for download!
 wordpress_id: 5054
 ---

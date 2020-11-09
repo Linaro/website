@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Porting Linux to AArch64 Laptops
-date: "2019-09-26 01:00:00"
+date: '2019-09-26 01:00:00'
 tags:
-  - Arm
-  - Linux
-  - Open Source
-  - Collaborative Engineering
-  - AArch64
-  - Porting
+- Arm
+- Linux
+- Open Source
+- Collaborative Engineering
+- Aarch64
 category: blog
 image: /assets/images/content/porting-linux-featured-image.jpg
 author: lee.jones

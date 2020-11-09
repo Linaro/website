@@ -5,8 +5,7 @@ author: connect
 category: blog
 comments: false
 date: 2017-03-20 14:09:38
-excerpt:
-  "A proposal to add ODP based compression/decompression API to provide portable
+excerpt: 'A proposal to add ODP based compression/decompression API to provide portable
   hardware accelerated access for data plane applications that require compression/decompression.
   The proposal outlines 2 schemes:
 
@@ -15,7 +14,7 @@ excerpt:
   B. Introduce independent Compression API.
 
   The initial implementation will target Cavium OCTEON TX SoC to accelerate IP Compression
-  (IPComp)"
+  (IPComp)'
 image: /assets/images/blog/OpenDataPlanesessionsfromBUD17.jpg
 layout: post
 link: http://connect.linaro.org/blog/opendataplane-sessions-bud17/

@@ -8,12 +8,9 @@ title: HiSilicon creates Poplar, the first 96Boards TV Platform development boar
 wordpress_id: 11525
 category: blog
 tags:
-  - 96Boards
-  - Enterprise edition
-  - hardware
-  - LHG
-  - Linux
-  - Linux on Arm
+- 96Boards
+- Linux
+- Linux On Arm
 ---
 
 HiSilicon Technologies announced the arrival of Poplar, the first Linaro 96Boards TV Platform development board (Press release:[ /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/](/news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/) ).

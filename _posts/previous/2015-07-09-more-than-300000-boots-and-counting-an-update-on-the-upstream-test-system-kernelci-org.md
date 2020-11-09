@@ -3,30 +3,27 @@ author: linaro
 category: blog
 comments: true
 date: 2015-07-09 23:58:58
-description:
-  "Linux maintainers see hundreds of patches during a Kernel version and
-  there\xE2\x80\x99s never enough time to thoroughly test every change. The LAVA team
-  has been working with these maintainers to leverage Linaro\xE2\x80\x99s LAVA automation
+description: "Linux maintainers see hundreds of patches during a Kernel version and
+  thereâ\x80\x99s never enough time to thoroughly test every change. The LAVA team
+  has been working with these maintainers to leverage Linaroâ\x80\x99s LAVA automation
   and test platform."
-excerpt:
-  "Linux maintainers see hundreds of patches during a Kernel version and there\u2019s
+excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there’s
   never enough time to thoroughly test every change.  At Linaro, we wanted to expand
   the system and add the capabilities to perform additional test activities beyond
   build and boot and leverage our LAVA test framework.  Thus the LAVA team has been
-  working with these maintainers to leverage Linaro\u2019s LAVA automation and test
-  platform.  \n"
+  working with these maintainers to leverage Linaro’s LAVA automation and test platform.
+  \ \n"
 layout: post
 link: /blog/more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org/
 slug: more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org
 tags:
-  - arm
-  - kernel
-  - lava
-  - Linux on Arm
-  - maintainers
-title:
-  "More than 300,000 boots and counting: An update on the upstream test system
-  - kernelci.org"
+- Arm
+- Kernel
+- Lava
+- Linux On Arm
+- Maintainers
+title: 'More than 300,000 boots and counting: An update on the upstream test system
+  - kernelci.org'
 wordpress_id: 8894
 ---
 
