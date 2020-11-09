@@ -4,6 +4,7 @@ title: Linaro and the Linux Kernel
 description: TBC
 date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
+strap_image: /assets/images/content/linux-kernel-blog-2.png
 tags:
   - Linaro
   - Linux
@@ -99,7 +100,9 @@ Linaro maintainership in the Linux kernel. The following table lists the maintai
 
 {% include image.html path="/assets/images/content/linux-kernel-blog-1.png" alt="maintainer, framework & driver table" %}
 
+{% include image.html path="/assets/images/content/linux-kernel-blog-2.png" alt="maintainer, framework & driver table" %}
 
+{% include image.html path="/assets/images/content/linux-kernel-blog-3.png" alt="maintainer, framework & driver table" %}
 
 | ***Maintainer*** | ***Framework***               | ***Drivers*** |
 | ---------------- | ----------------------------- | ------------- |
