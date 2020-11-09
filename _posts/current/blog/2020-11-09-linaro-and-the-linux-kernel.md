@@ -1,0 +1,294 @@
+---
+layout: post
+title: Linaro and the Linux Kernel
+description: TBC
+date: 2020-11-09 02:34:26
+image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
+tags:
+  - Linaro
+  - Linux
+  - Kernel
+category: blog
+author: daniel.lezcano
+---
+# Introduction
+
+A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters: make Linux better.
+
+The industry has a different goal, which is to reduce the time to market as much as possible. That usually implies some short term development at the cost of misdesigns, duplicated efforts and individual changes without taking care of the existing. In addition, the turnover on the projects prevents any form of capitalization of the knowledge for a long term support.
+
+These opposite goals lead to a fragmentation of the Linux code. In the long term, the gap between the Linux kernel and the product code is too large. The development time increases as well as the product validation with the consequence of a longer time to market.
+
+The solution is to upstream the product code into the Linux kernel. However, the lack of experience in open source, the different mindsets and cultures, can lead the upstreaming process to fail.
+
+In front of these apparent ecosystems incompatibility, Linaro takes place and creates a bridge between the open source and the industry, by guiding them to upstream the code in a long term vision on the ARM architecture.
+
+# The Linux kernel
+
+## Some numbers
+
+In 2019 the Linux kernel had 27.8 million lines of code, dispatched in 66492 files. That is the result of 75,000 commits per year, 18750 commits per kernel release. 15600 persons have contributed from 1600 companies since 2005. The Linux kernel is worth 14.4 billion dollars.
+
+[Linaro was the top #1 contributor to the Linux kernel for the v4.9 version.](https://www.linaro.org/blog/linaro-1-contributor-linux-kernel-4-9-release/)
+
+## Why upstream?
+
+The open source projects are usually protected by a GPL license. Anyone can make a copy of the project, do modifications and redistribute it. However this is allowed only if the changes are published with the source code and the scripts to generate the binaries. That allows full control over the cloned project and gets rid of the review process of the corresponding community. This attractive solution has a major drawback among others. From the open source community perspective, those changes don’t exist and the original project will evolve independently. As we saw, there is a large number of changes per year for the Linux kernel, so both projects will diverge very quickly.
+
+In the next versions of the original project, more features will be available, so an update of the cloned project will be inevitable to merge the new features. Unfortunately, at this point, there is no guarantee that the specific changes in the cloned project will be compatible with the new original project version, i.e merge conflicts, redesign, subtle bugs, revalidation of the current code. These are some of the costs of keeping the changes outside of the mainstream.
+
+Version after version, the cost of porting the product specific code in the new project releases will be higher. This will continue to increase until it reaches the point where the cost will be prohibitive, blocking the future features coming from the mainstream, like a branch breaking under a heavy load.
+
+The only way to work in a sane way, in the long term, is to upstream the code in the original project by joining and being part of the open source developer community.
+
+## The community
+
+The community is a group of people contributing to the same project by proposing changes. Those are reviewed by the community members and accepted if they make sense and if nobody complains, or when there is an agreement after a technical debate. All the discussions are oriented towards technical facts. The proposed changes must be beneficial to the community. The maintainers are special members: they have the knowledge and the history of the project, as well as the last word and the responsibility of commiting the changes.
+
+## The mindset
+
+The focus of the community is on making the project better. For this reason any member can comment on a change from anyone. Because an open source project is the result of evolution, the technical debate is always beneficial, even if the discussion can be harsh sometimes. Joining the community implies accepting the criticism and the rules of the open source development process. One of them is to act with respect and altruism with the community, by helping on some components out of the scope a company may have to work on. The community will perceive the contributor positively, as a symbiotic relationship instead of parasitism.
+
+That could be really hard for employees who are asked to code upstream in an open source project if the management misunderstands its philosophy. The employees will be torn between deadlines and technical achievements.
+
+# The industry
+
+## The turnover on the projects
+
+Whatever the project, the management uses the engineer as resources equivalent to each other. They move them around depending on the load for different projects. That implies a latency for an engineer to be fully operational because of the learning curve ramp up. Another reason for changing the teams often is to prevent an engineer from being compulsory. Whatever we think about this managerial model, these are the facts and the reasons why some companies can not accumulate enough knowledge and credits in the open source ecosystem.
+
+## Capitalization of the knowledge
+
+Some companies understood the importance of the open source development process and they created entities in their companies to handle the upstreaming support for their platforms. They operate autonomously to prevent conflicts between non-open source management and open source developers. This model allowed the creation of dedicated teams for the development of open source projects where the employees could become key players inside the community, capitalizing the knowledge and the experience. The open source community is based on a meritocratie, so the time to gain credits and confidence is saved by keeping some employees full time on the project.
+
+However, such an approach for a company is not obvious, especially because of the open source development process misunderstanding, the pressure of the hierarchy for lean manufacturing, short term releases and the cost of putting in place an open source center. Another aspect is how the management perceives their employees evolving in the open source ecosystem autonomously.
+
+## Linaro
+
+The ARM architecture is massively deployed all around the world. The licensing model allows different companies to implement their version of the SoC. It results in the kernel making use of the different features on the SoC can be different for the same architecture. That was particularly true for the ARMv7. The different SoC vendors clone the Android kernel which is itself a clone of the Linux kernel, and implement the same features on their side. The resulting code fragmentation is considerable. Linaro took the lead as a consortium to consolidate the Linux kernel, along other open projects, over a decade ago.
+
+## Acting as a bridge between two ecosystems
+
+A SoC vendor can rely on experienced open source developers working in a dedicated landing team for the platform, where it wants to accelerate the upstream support. The Linaro engineers will act under an NDA and upstream the platform specific bits. In that, there are a few differences with the specialized companies proposing the same service.
+
+But Linaro is much more than that. The core engineering will be in charge of understanding the needs of the different members and will find a common generic solution usable for all members, yet leaving them enough space to add their differentiation. The exercise is difficult but, after more than 10 years, the list of achievements shows the setup is working.
+
+In addition, the SoC vendors will assign some engineers of their teams to the different Linaro projects. These will be guided through the open source development process, gain experience and share it with their company.
+
+Linaro consolidates the ARM architecture code fragmentation and helps the companies to understand what open source is.
+
+## Capitalization of the knowledge
+
+In order to bring together the most experienced open source developers, Linaro chose the distributed, remote working environment, building virtual teams across the world. These developers are the backbone of the company and provide valuable insight into the current and future technologies. Dedicated to open source, they are part of its community and are decisive actors for technical decisions. Most of the discussions happen offline on the mailing lists, but the open source events like the Linux Plumbers Conference or the Embedded Linux Conference are preferred places where they meet and exchange ideas.
+
+Given the implication of these developers in the open source ecosystem, they have an influence to orient and to propose technical solutions.
+
+## Consolidation of the kernel features
+
+One of the major goals of Linaro is to reduce the code fragmentation with the different SoC vendors specific kernels and for the mainstream. The features added in the custom kernels can be similar and the Linaro engineers have the role to identify the common pieces, improve them if it is possible and propose a generic solution to be merged in the mainstream. The impact on the custom solutions is immediate as the mainstream must ensure backward compatibility.
+
+## Linaro Challenges
+
+Acting as a bridge between the members and the open source ecosystem, Linaro has the responsibility of connecting both worlds. Because Linaro is involved in the open source projects, one side of the connection is easier than the other. On the other side, Linaro tries to move custom solutions to generic solutions. This implies that this puts into question the work already done by the member engineers who may never have faced an audit of their code, or their design, via a review process. Member engineers could perceive that as an act of depreciation, a hostile OPA to take control of the code. In addition, the misunderstanding of the open source ecosystem can exacerbate this feeling.
+
+Another aspect is the nature of Linaro which joins different members to collaborate on the common parts in order to prevent duplicated work and code fragmentation. Linaro has the responsibility to collect information to understand the technical needs of the different members and identify the common parts. A difficult task as the members are competitors on the market.
+
+## Linaro achievements
+
+Linaro maintainership in the Linux kernel. The following table lists the maintainers of the Linux kernel for the ARM architecture, the drivers and the generic frameworks. The frameworks are bigger in terms of size and changes submission traffic. This table demonstrates how Linaro is involved in the Linux kernel development and how de facto it has a voice in the community to make the upstreaming process as smooth as possible. Since its creation, Linaro has merged more than 23,000 changes in the kernel, especially in the generic frameworks where the implementation and the submission process are harder than a driver.
+
+
+
+| ***Maintainer*** | ***Framework***   | ***Drivers*** |
+| ---------------- | ----------------- | ------------- |
+| Alex Elder       | Greybus subsystem | Qcom ipa      |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+|                  |                   |               |
+
+*
+*  Ard Biesheuvel
+* Extensible Firmware Interface
+* EFI variable filesystem
+* EFI test
+* Socionext synquacer i2c
+  Arnd Bergman
+* Arm sub architectures
+* Generic includes / asm headers
+* Cell broadband engine architecture
+* System configuration
+* Char and misc
+* Virtual box guest device
+
+Bjorn Andersson
+
+* Arm/qualcomm support
+* Hardware spinlock core
+* Pin controller - qualcomm
+* Remote processor
+* Remote processor messaging (rpmsg)
+
+Daniel Lezcano
+
+* Cpu idle time management
+* Thermal framework
+* Clocksource and clockevents
+* cpuidle - arm big little
+* cpuidle - arm exynos
+* thermal/cpu_cooling
+* idle injection
+  Daniel Thomson
+* KGDB / KDB /debug_core
+
+Dmitry Eremin-Solenikov
+
+* Arm/tosa machine support
+
+Georgi Djakov
+
+* Interconnect API
+
+Ilias Apalodimas
+
+* Page pool
+
+Jassi Brar
+
+* Mailbox api
+* Socionext (sni) netsec network
+* socionext (sni) synquacer SPI
+  Jean-Philippe Brucker
+* Virtio iommu
+  Jens Wiklander
+* TEE subsystem
+* OP-TEE
+  Jun Nie
+* Arm/zte architecture
+
+Lee Jones
+
+* Backlight class/subsystem
+* Multifunction devices (mfd)
+* Pwm subsystem
+* System configuration
+
+Leo Yan
+
+* Performance events tooling arm64
+
+Linus Walleij
+
+* Gpio subsystem
+* Pin control subsystem
+* Arm integrator, versatile and realview support
+* Arm/cortina systems gemini - Arm architecture
+* Arm/intel ixp4xx architecture
+* Arm/nomadik/u300/ux500 architectures
+* Cypress cy8ctma140 touchscreen
+* D-link dir-685 touchkeys 
+* Drm for arm versatile tft panels, faraday tve200 tv encoder, novatek nt35510 panels, sony acx424akp panels, st-ericsson mcde, tpo tpg110 panels
+* Invensense gyroscope
+* Libata pata faraday and gemini sata bridge
+* PCI driver for v3
+* Semiconductor v360epc
+* Realtek rtl83xx smi dsa router chips
+* Sharp sensor 
+* Arm primecell ssp pl022 spi 
+* Arm primecell vic pl190/pl192 
+* Asahi kasei ak8974
+  Loic Poulain
+* Qcom i2c-cci
+  Manivannan Sadhasivam
+* Arm/actions semi arch
+* Arm/bitmain arch
+* Arm/rda micro arch
+* MHI bus
+* Qualcomm ipcc mailbox 
+* Sony imx290 sensor
+  Mathieu Poirier
+* Arm / coresight 
+* Performance events tooling
+* Arm / coresight
+  Paolo Valente
+* BFQ I/O Scheduler
+
+Shawn Guo
+
+* imx / mxc arm architecture
+* layerscape arm architecture
+* vybrid arm architecture
+* arm/zte architecture
+* PCI-E for hisilicon
+* DRM for zte zx
+* PCI-E for rockchip
+* Pin controller - freescale
+  Srinivas Kandagatla
+* Nvmem
+* Serial low-power inter-chip media bus
+
+Sumit Garg
+
+* OP-TEE random number generator
+  Sumit Semwal
+* Dma buffer sharing framework
+* Dma-buf heaps framework
+* Sync file framework
+* Android ion
+
+Ulf Hansson
+
+* Generic pm domains
+* Multimedia card (mmc), secure digital (sd) and sdio 
+* Sony memory stick 
+* Ux500 clock drivers
+  Vincent Guittot
+* Scheduler
+
+Vinod Koul
+
+* Dma generic offload engine 
+* Generic phy framework
+* Sound - compressed audio
+* Soundwire subsystem
+* QCom ethqos ethernet
+  Viresh Kumar
+* Cpu frequency scaling
+* Operating performance points
+* Spear platform support
+* Spear clocks
+* Cpu frequency vexpress spc arm big little
+* Greybus fw/hid/spi protocols
+* Libata pata arasan compact flash controller
+* Pin controller - st spear
+* Secure digital host controller interface (sdhci) st spear driver
+* Synopsys designware dmac 
+  thermal/cpu_cooling
+  Zhangfei Gao
+* Uacce accelerator framework
